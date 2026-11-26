@@ -2693,7 +2693,7 @@
    "q": "Gaz korroziyasidan himoyalash usuli qaysi?",
    "a": [
     "Issiqbardosh legirlash (xrom, alyuminiy, kremniy)",
-    "Detalni suvda saqlash",
+    "Detalni suvda saqlash va uni har kuni namlab turish orqali",
     "Detalni tuz bilan qoplash",
     "Detalni kislotada yuvish"
    ],
@@ -2726,7 +2726,7 @@
    "q": "Penoplastlar qayerda ishlatiladi?",
    "a": [
     "Issiqlik va tovush izolyatsiyasida",
-    "Kesuvchi asboblarda",
+    "Kesuvchi asboblar va frezalarning kesuvchi qismlarida",
     "Elektr kontaktlarida",
     "Podshipnik vkladishlarida"
    ],
@@ -2781,7 +2781,7 @@
    "q": "Payvand birikmalarining turlari qaysilar?",
    "a": [
     "Uchma-uch, burchakli, tavrli, ustma-ust",
-    "Faqat rezbali va shponkali",
+    "Faqat rezbali va shponkali, ajraladigan birikmalar",
     "Faqat parchinli",
     "Faqat yelimli"
    ],
@@ -2814,7 +2814,7 @@
    "q": "Puxtalik (nadejnost) va chidamlilik (dolgovechnost) qanday tushunchalar?",
    "a": [
     "Detalning uzoq va buzilmasdan ishlash qobiliyati ko'rsatkichlari",
-    "Detal rangining o'zgarmasligi va yaltiroqligi",
+    "Detal rangining o'zgarmasligi va sirtining doimiy yaltiroq bo'lishi",
     "Detal narxining arzonligi",
     "Detal og'irligining kamligi"
    ],
@@ -2825,7 +2825,7 @@
    "q": "Konstruksion material tanlashda asosiy mezonlar qaysilar?",
    "a": [
     "Ish sharoiti, mexanik xossalar, texnologiklik va narx",
-    "Faqat rangi va tashqi ko'rinishi",
+    "Faqat rangi, tashqi ko'rinishi va ishlab chiqaruvchi mamlakat",
     "Faqat ishlab chiqaruvchi mamlakat",
     "Faqat og'irligi"
    ],
@@ -2858,7 +2858,7 @@
    "q": "Quymada likvatsiya nima?",
    "a": [
     "Kimyoviy tarkibning notekis taqsimlanishi",
-    "Quymaning juda bir jinsli bo'lishi",
+    "Quymaning juda bir jinsli bo'lishi va donalarining maydalashishi",
     "Quymaning magnitlanishi",
     "Quymaning rangining o'zgarishi"
    ],
@@ -2968,7 +2968,7 @@
    "q": "Bo'shatish ranglari (qarayalik ranglari) nimani bildiradi?",
    "a": [
     "Sirtdagi oksid plyonka rangi bo'yicha bo'shatish harorati",
-    "Po'latning legirlash darajasini aniq ko'rsatadi",
+    "Po'latning legirlash darajasini va xrom miqdorini aniq ko'rsatadi",
     "Po'latning uglerod miqdorini",
     "Po'latning narxini"
    ],
@@ -3023,7 +3023,7 @@
    "q": "Laminatlangan yog'och (fanera) qanday tuzilgan?",
    "a": [
     "Tolalar yo'nalishi almashtirilgan yupqa qatlamlar",
-    "Bitta yaxlit yog'och bo'lagi, qatlamsiz",
+    "Bitta yaxlit yog'och bo'lagi, qatlamlarsiz va yelimsiz",
     "Plastmassa granulalari",
     "Metall listlar"
    ],
@@ -3045,7 +3045,7 @@
    "q": "Sun'iy olmos qanday olinadi?",
    "a": [
     "Grafitni yuqori bosim va haroratda",
-    "Ko'mirni suvda qaynatib",
+    "Ko'mirni suvda uzoq qaynatib, so'ng kristallantirib",
     "Qumni eritib",
     "Metallarni toblab"
    ],
@@ -3067,7 +3067,7 @@
    "q": "Payvandlashda elektrodni tanlash nimaga bog'liq?",
    "a": [
     "Payvandlanadigan metall turi va qalinligiga",
-    "Faqat elektrod qutisining rangiga",
+    "Faqat elektrod qutisining rangiga va ishlab chiqarilgan sanasiga",
     "Faqat payvandchining bo'yiga",
     "Faqat ob-havoga"
    ],
@@ -3111,7 +3111,7 @@
    "q": "Materialning toliqish chegarasi nima?",
    "a": [
     "Cheksiz ko'p sikllarga buzilmasdan chidaydigan eng katta kuchlanish",
-    "Bir marta statik cho'zishda sinish kuchlanishi",
+    "Bir marta statik cho'zishda namunani sindiradigan eng katta kuchlanish",
     "Material eriydigan harorat",
     "Material zanglaydigan vaqt"
    ],
@@ -3221,11 +3221,99 @@
    "q": "Materialshunoslik fani nimani o'rganadi?",
    "a": [
     "Materiallar tuzilishi, xossalari va ularni boshqarishni",
-    "Faqat materiallar narxini va savdosini",
+    "Faqat materiallarning bozordagi narxini va savdosini tahlil qilishni",
     "Faqat konlarni qidirishni",
     "Faqat bo'yash texnologiyasini"
    ],
    "e": "Tarkib — tuzilish — xossa bog'liqligi."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Qaysi xossa materialning tez yeyilishiga qarshiligini bildiradi?",
+   "a": [
+    "Yeyilishga chidamlilik",
+    "Issiqlik sig'imi, ya'ni materialni qizdirish uchun kerak bo'lgan issiqlik",
+    "Elektr o'tkazuvchanlik",
+    "Magnit singdiruvchanlik"
+   ],
+   "e": "Ishqalanish juftlarida muhim."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Materialning zichligi qanday birlikda o'lchanadi?",
+   "a": [
+    "g/sm³ yoki kg/m³",
+    "MPa yoki N/mm²",
+    "HB yoki HRC",
+    "J/sm²"
+   ],
+   "e": "Po'lat ≈ 7850 kg/m³."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Qo'rg'oshinning zichligi taxminan qancha?",
+   "a": [
+    "11,3 g/sm³",
+    "2,7 g/sm³, xuddi alyuminiy kabi",
+    "7,8 g/sm³",
+    "1,7 g/sm³"
+   ],
+   "e": "Og'ir metall."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Gidroizolyatsiya uchun qaysi material ishlatiladi?",
+   "a": [
+    "Bitum",
+    "Mis listi",
+    "Grafit kukuni",
+    "Volfram tolasi"
+   ],
+   "e": "Rulonli va surtiladigan materiallar."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Qaysi qotishmaning siniq yuzasi kulrang?",
+   "a": [
+    "Kulrang cho'yan",
+    "Oq cho'yan, chunki unda uglerod sementit holatida",
+    "Zanglamas po'lat",
+    "Latun"
+   ],
+   "e": "Grafit tufayli siniq kulrang."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Normallashdan keyin po'lat strukturasi qanday bo'ladi?",
+   "a": [
+    "Mayda donali ferrit-perlit",
+    "Toza martensit, xuddi suvda toblangandek",
+    "Ledeburit",
+    "Toza austenit xona haroratida"
+   ],
+   "e": "Havoda sovitish natijasi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Korroziyaga qarshi kurashning konstruktiv usuli qaysi?",
+   "a": [
+    "Namlik to'planmaydigan shakl tanlash",
+    "Detallarni nam joylarda saqlab, havo kirishini cheklash",
+    "Turli metallarni to'g'ridan-to'g'ri biriktirish",
+    "Drenaj teshiklarini yopish"
+   ],
+   "e": "Tirqish va cho'ntaklardan qochish kerak."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Kesuvchi asbobning yeyilishi nimaga olib keladi?",
+   "a": [
+    "Ishlov sifati va aniqlikning pasayishi",
+    "Kesish tezligining avtomatik oshishi va sifatning yaxshilanishi",
+    "Asbobning o'z-o'zidan charxlanishi",
+    "Hech qanday o'zgarish bo'lmaydi"
+   ],
+   "e": "Asbob o'z vaqtida charxlanadi yoki almashtiriladi."
   }
  ]
 }
