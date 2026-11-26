@@ -2,282 +2,3351 @@
  "kod": "5PM0596",
  "nomi": "Muhandislik va kompyuter grafikasi",
  "turi": "maxsus",
- "manba": "2026-yilgi texnikum o'quv rejalari (42 ta mutaxassislikda o'qitiladi)",
+ "manba": "2026-yilgi texnikum o'quv rejalari (42 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "Chizma standartlari",
-   "q": "Chizmaning asosiy yozuvi (shtamp) odatda formatning qaysi qismida joylashadi?",
+   "q": "ESKD qisqartmasi nimani bildiradi?",
    "a": [
-    "O'ng pastki burchagida",
-    "Chap yuqori burchagida",
-    "Markazida",
-    "Chap pastki burchagida"
+    "Konstruktorlik hujjatlarining yagona tizimi",
+    "Elektron sxemalar va kompyuter dasturlarining davlat katalogi",
+    "Texnologik hujjatlarning yagona tizimi",
+    "Eksport sertifikatlari bo'yicha davlat komissiyasi"
    ],
-   "e": "Asosiy yozuvda chizma nomi, masshtab, material va bajaruvchilar ko'rsatiladi."
+   "e": "ESKD standartlari GOST 2.xxx raqamlari bilan belgilanadi."
   },
   {
    "b": "Chizma standartlari",
-   "q": "A3 formatining o'lchamlari qancha?",
+   "q": "A4 formatning o'lchamlari qanday?",
    "a": [
-    "297 × 420 mm",
-    "210 × 297 mm",
-    "420 × 594 mm",
-    "594 × 841 mm"
+    "210×297 mm",
+    "297×420 mm",
+    "148×210 mm",
+    "420×594 mm"
    ],
-   "e": "A0 — 841×1189 mm, keyingi har bir format oldingisining yarmi."
+   "e": "A3 — 297×420, A2 — 420×594, A1 — 594×841, A0 — 841×1189 mm."
   },
   {
    "b": "Chizma standartlari",
-   "q": "Kichiklashtirish masshtabi qaysi?",
+   "q": "A3 formatning o'lchamlari qanday?",
+   "a": [
+    "297×420 mm",
+    "210×297 mm",
+    "420×594 mm",
+    "594×841 mm"
+   ],
+   "e": "Har bir keyingi format oldingisini teng ikkiga bo'lishdan hosil bo'ladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "A0 formatning yuzasi taxminan qancha?",
+   "a": [
+    "1 m²",
+    "0,5 m²",
+    "2 m²",
+    "0,25 m²"
+   ],
+   "e": "841×1189 mm ≈ 1 m²."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Chizma ramkasi varaqning chap chetidan qancha masofada chiziladi?",
+   "a": [
+    "20 mm",
+    "5 mm",
+    "10 mm",
+    "25 mm"
+   ],
+   "e": "Qolgan tomonlardan 5 mm; chap tomon tikish uchun qoldiriladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Asosiy yozuv (shtamp) chizmaning qayerida joylashadi?",
+   "a": [
+    "O'ng pastki burchakda",
+    "Chap yuqori burchakda",
+    "Varaqning markazida",
+    "Chap pastki burchakda"
+   ],
+   "e": "Asosiy yozuv o'lchami 185×55 mm (1-shakl)."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Kichraytirish masshtabi qaysi?",
    "a": [
     "1:2",
     "2:1",
     "1:1",
     "5:1"
    ],
-   "e": "1:2 — tasvir haqiqiydan ikki marta kichik."
+   "e": "GOST 2.302: kichraytirish — 1:2, 1:2,5, 1:4, 1:5, 1:10 va h.k."
   },
   {
    "b": "Chizma standartlari",
-   "q": "Chizmada o'lchamlar qanday birlikda va qanday ko'rsatiladi?",
+   "q": "Kattalashtirish masshtabi qaysi?",
    "a": [
-    "Millimetrda, birlik belgisi yozilmaydi",
-    "Santimetrda, \"sm\" yoziladi",
-    "Metrda, \"m\" yoziladi",
-    "Dyuymda"
+    "4:1",
+    "1:4",
+    "1:1",
+    "1:10"
    ],
-   "e": "Boshqa birlik ishlatilsa, u alohida ko'rsatiladi."
+   "e": "Kattalashtirish — 2:1, 2,5:1, 4:1, 5:1, 10:1 va h.k."
   },
   {
    "b": "Chizma standartlari",
-   "q": "Ko'rinmas kontur chiziqlari qaysi chiziq turida chiziladi?",
+   "q": "Chizmada 1:2 masshtabda tasvirlangan detal uzunligi 50 mm bo'lsa, o'lcham chizig'iga qanday son yoziladi?",
+   "a": [
+    "100",
+    "50",
+    "25",
+    "200"
+   ],
+   "e": "Chizmaga masshtabdan qat'i nazar detalning haqiqiy o'lchami yoziladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Ko'rinadigan kontur chizig'i qanday chiziq bilan chiziladi?",
+   "a": [
+    "Asosiy yo'g'on tutash chiziq",
+    "Ingichka shtrix-punktir chiziq",
+    "Shtrix chiziq",
+    "Ingichka to'lqinsimon chiziq"
+   ],
+   "e": "Uning qalinligi S = 0,5–1,4 mm."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Ko'rinmas kontur chizig'i qanday chiziq bilan chiziladi?",
    "a": [
     "Shtrix chiziq",
     "Asosiy yo'g'on tutash chiziq",
-    "Shtrix-punktir chiziq",
-    "To'lqinsimon chiziq"
+    "Ingichka shtrix-punktir chiziq",
+    "Uzuq chiziq"
    ],
-   "e": "To'lqinsimon chiziq — uzilish chizig'i."
+   "e": "Shtrixlar uzunligi 2–8 mm, oraliqlar 1–2 mm."
   },
   {
    "b": "Chizma standartlari",
-   "q": "Aylana diametri o'lcham sonidan oldin qanday belgi bilan ko'rsatiladi?",
+   "q": "O'q va markaz chiziqlari qanday chiziq bilan chiziladi?",
+   "a": [
+    "Ingichka shtrix-punktir",
+    "Shtrix chiziq",
+    "Asosiy yo'g'on tutash",
+    "To'lqinsimon chiziq"
+   ],
+   "e": "Shtrixlar uzunligi 5–30 mm, oraliqlar 3–5 mm."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Kesuvchi tekislik izi qanday chiziq bilan ko'rsatiladi?",
+   "a": [
+    "Uzuq (ochiq) chiziq",
+    "Ingichka tutash chiziq",
+    "Shtrix chiziq",
+    "Ikki nuqtali shtrix-punktir chiziq"
+   ],
+   "e": "Uzuq chiziq qalinligi S dan 1,5S gacha."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Ko'rinish va qirqim orasidagi uzilish chegarasi qanday chiziq bilan chiziladi?",
+   "a": [
+    "Ingichka to'lqinsimon chiziq",
+    "Asosiy yo'g'on tutash chiziq",
+    "Shtrix-punktir chiziq",
+    "Uzuq chiziq"
+   ],
+   "e": "Siniq chiziq ham uzun uzilishlarda ishlatiladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "O'lcham va chiqarish chiziqlari qanday chiziq bilan chiziladi?",
+   "a": [
+    "Ingichka tutash chiziq",
+    "Asosiy yo'g'on tutash chiziq",
+    "Shtrix chiziq",
+    "Uzuq chiziq"
+   ],
+   "e": "Ingichka chiziq qalinligi S/3 dan S/2 gacha."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Chizma shrifti o'lchami nima bilan belgilanadi?",
+   "a": [
+    "Bosh harflar balandligi (mm)",
+    "Kichik harflar kengligi",
+    "Harflar orasidagi masofa",
+    "Satrlar orasidagi masofa"
+   ],
+   "e": "Shrift o'lchamlari: 2,5; 3,5; 5; 7; 10; 14; 20; 28; 40."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Standart chizma shriftining qiyalik burchagi qancha?",
+   "a": [
+    "75°",
+    "45°",
+    "60°",
+    "90°"
+   ],
+   "e": "Shrift qiya yoki to'g'ri (qiyaliksiz) bo'lishi mumkin."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Quyidagilardan qaysi biri standart chizma shrifti o'lchami emas?",
+   "a": [
+    "6",
+    "3,5",
+    "5",
+    "7"
+   ],
+   "e": "GOST 2.304 bo'yicha qator: 2,5; 3,5; 5; 7; 10; 14..."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Chizmada chiziqli o'lchamlar qanday birlikda ko'rsatiladi?",
+   "a": [
+    "Millimetrda, birligi yozilmaydi",
+    "Santimetrda, \"sm\" yozilgan holda",
+    "Metrda, birligi yoziladi",
+    "Dyuymda"
+   ],
+   "e": "Boshqa birlik ishlatilsa, u albatta ko'rsatiladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Birinchi o'lcham chizig'i kontur chizig'idan qancha masofada chiziladi?",
+   "a": [
+    "Kamida 10 mm",
+    "2 mm",
+    "5 mm dan oshmagan",
+    "30 mm"
+   ],
+   "e": "Parallel o'lcham chiziqlari orasidagi masofa 7–10 mm."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Chiqarish chizig'i o'lcham chizig'idan qancha chiqib turishi kerak?",
+   "a": [
+    "1–5 mm",
+    "10–15 mm",
+    "0 mm",
+    "20 mm"
+   ],
+   "e": "Bu GOST 2.307 talabi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Diametr belgisi qanday?",
    "a": [
     "⌀",
     "R",
     "□",
-    "∠"
+    "S"
    ],
-   "e": "R — radius, □ — kvadrat belgisi."
+   "e": "R — radius, □ — kvadrat, S⌀ — sfera diametri."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Sfera radiusi chizmada qanday belgilanadi?",
+   "a": [
+    "SR",
+    "R",
+    "⌀",
+    "□R"
+   ],
+   "e": "Sfera diametri esa S⌀ bilan belgilanadi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Nishablik chizmada qanday belgi bilan ko'rsatiladi?",
+   "a": [
+    "∠",
+    "▷",
+    "⌀",
+    "□"
+   ],
+   "e": "Konuslik belgisi — ▷."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Konuslik belgisi qaysi?",
+   "a": [
+    "▷",
+    "∠",
+    "⌀",
+    "R"
+   ],
+   "e": "Konuslik — asos diametrlari farqining konus uzunligiga nisbati."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Metall detallar qirqimida shtrixlash chiziqlari qanday burchak ostida chiziladi?",
+   "a": [
+    "45°",
+    "30°",
+    "60°",
+    "90°"
+   ],
+   "e": "Shtrixlar ramka chizig'iga yoki o'qqa nisbatan 45° ostida."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Tutashma (sopryajeniye) deb nimaga aytiladi?",
+   "a": [
+    "Bir chiziqdan ikkinchisiga ravon o'tish",
+    "Ikki chiziqning bir-birini to'g'ri burchak ostida kesib o'tishi",
+    "Ikki parallel chiziq orasidagi masofa",
+    "Aylananing teng bo'laklarga bo'linishi"
+   ],
+   "e": "Tutashma markazi, tutashma nuqtalari va radiusi aniqlanadi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Aylanani 6 ta teng bo'lakka bo'lish uchun qaysi kattalik ishlatiladi?",
+   "a": [
+    "Aylana radiusi",
+    "Aylana diametri",
+    "Diametrning uchdan biri",
+    "Radiusning yarmi"
+   ],
+   "e": "Muntazam oltiburchak tomoni aylana radiusiga teng."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Ikki to'g'ri chiziqni yoy bilan tutashtirishda tutashma markazi qanday topiladi?",
+   "a": [
+    "Chiziqlarga R masofada parallel chiziqlar kesishmasidan",
+    "Chiziqlar kesishish nuqtasining o'zidan",
+    "Chiziqlar uzunliklarining o'rtasidan",
+    "Ixtiyoriy nuqtadan"
+   ],
+   "e": "Tutashma nuqtalari markazdan chiziqlarga perpendikulyarlar asosida topiladi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Ellips qanday egri chiziqlar turiga kiradi?",
+   "a": [
+    "Lekalo egri chiziqlari",
+    "Aylana yoylari",
+    "Siniq chiziqlar",
+    "Faqat to'g'ri chiziqlar"
+   ],
+   "e": "Lekalo egri chiziqlari sirkul bilan chizilmaydi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Evolventa egri chizig'i texnikada qayerda qo'llaniladi?",
+   "a": [
+    "Tishli g'ildirak tishlari profilida",
+    "Rezbalar profilida",
+    "Prujinalar chizmasida",
+    "Chizma ramkasida"
+   ],
+   "e": "Evolventali ilashma tishli uzatmalarda keng tarqalgan."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Nishablik nimani ifodalaydi?",
+   "a": [
+    "Bir chiziqning boshqasiga nisbatan qiyaligini",
+    "Ikki aylana diametrlari yig'indisini",
+    "Konus balandligini",
+    "Chizma masshtabini"
+   ],
+   "e": "Nishablik katetlar nisbati sifatida yoziladi, masalan 1:10."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Arximed spirali qanday hosil bo'ladi?",
+   "a": [
+    "Nuqta aylanuvchi nur bo'ylab tekis harakatlanganda",
+    "Nuqta to'g'ri chiziq bo'ylab tekis tezlanuvchan harakatlanganda",
+    "Aylana dumalaganda uning nuqtasi chizgan iz",
+    "Ikki fokusgacha masofalar yig'indisi doimiy bo'lganda"
+   ],
+   "e": "Ikki fokusgacha masofalar yig'indisi doimiy bo'lgan egri chiziq — ellips."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Muntazam beshburchakni aylanaga ichki chizish uchun nima kerak?",
+   "a": [
+    "Sirkul va chizg'ich bilan maxsus yasash",
+    "Faqat transportir bilan 60° burchaklar yasash",
+    "Aylanani radius bilan 6 bo'lakka bo'lish",
+    "Faqat lekalo"
+   ],
+   "e": "Beshburchak oltin kesim usuli bilan yasaladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Proyeksiyalash usullari qanday turlarga bo'linadi?",
+   "a": [
+    "Markaziy va parallel",
+    "Faqat yuqoridan va yon tomondan",
+    "Rangli va oq-qora",
+    "Kattalashtirilgan va kichraytirilgan"
+   ],
+   "e": "Parallel proyeksiyalash to'g'ri burchakli va qiyshiq burchakli bo'ladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Chizmachilikda asosan qaysi proyeksiyalash usuli qo'llaniladi?",
+   "a": [
+    "To'g'ri burchakli (ortogonal)",
+    "Markaziy (perspektiva)",
+    "Qiyshiq burchakli",
+    "Sferik proyeksiya"
+   ],
+   "e": "Ortogonal proyeksiyalarda buyum o'lchamlari buzilmaydi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Monj usulida qaysi proyeksiya tekisliklari ishlatiladi?",
+   "a": [
+    "Gorizontal (H), frontal (V) va profil (W)",
+    "Faqat bitta frontal tekislik",
+    "Qiyshiq va markaziy tekisliklar",
+    "Faqat gorizontal tekislik"
+   ],
+   "e": "Uchta o'zaro perpendikulyar tekislik."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Nuqtaning gorizontal proyeksiyasi qanday belgilanadi?",
+   "a": [
+    "A'",
+    "A''",
+    "A'''",
+    "A⁰"
+   ],
+   "e": "A'' — frontal, A''' — profil proyeksiya."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Frontal proyeksiya tekisligiga parallel to'g'ri chiziq qanday nomlanadi?",
+   "a": [
+    "Frontal chiziq",
+    "Gorizontal chiziq",
+    "Profil chiziq",
+    "Umumiy holatdagi chiziq"
+   ],
+   "e": "Frontal chiziq V tekisligiga haqiqiy uzunlikda proyeksiyalanadi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Gorizontal proyeksiya tekisligiga perpendikulyar to'g'ri chiziq qanday nomlanadi?",
+   "a": [
+    "Gorizontal proyeksiyalovchi",
+    "Frontal chiziq",
+    "Profil chiziq",
+    "Umumiy holatdagi chiziq"
+   ],
+   "e": "Uning H dagi proyeksiyasi nuqtaga aylanadi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Umumiy holatdagi to'g'ri chiziq kesmasi proyeksiyalarda qanday tasvirlanadi?",
+   "a": [
+    "Barcha proyeksiyalarda qisqargan holda",
+    "Barcha proyeksiyalarda haqiqiy uzunlikda",
+    "Faqat nuqta sifatida",
+    "Bitta proyeksiyada haqiqiy uzunlikda, qolganlarida nuqta"
+   ],
+   "e": "Haqiqiy uzunlik to'g'ri burchakli uchburchak yoki tekislikni almashtirish usuli bilan topiladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Haqiqiy kattalikni aniqlashda qaysi usul qo'llaniladi?",
+   "a": [
+    "Proyeksiya tekisliklarini almashtirish",
+    "Chizmani rangli qalam bilan bo'yash",
+    "Masshtabni o'zgartirish",
+    "Shtrixlash"
+   ],
+   "e": "Aylantirish va yotqizish usullari ham qo'llaniladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Prizmaning gorizontal proyeksiyasi (asosi H ga parallel bo'lsa) qanday shaklda bo'ladi?",
+   "a": [
+    "Asos ko'pburchagi",
+    "Har doim aylana",
+    "To'g'ri chiziq kesmasi",
+    "Har doim uchburchak"
+   ],
+   "e": "Yon qirralar H da nuqtalarga proyeksiyalanadi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Silindrning o'qi H ga perpendikulyar bo'lsa, uning gorizontal proyeksiyasi qanday?",
+   "a": [
+    "Aylana",
+    "To'g'ri to'rtburchak",
+    "Uchburchak",
+    "Ellips"
+   ],
+   "e": "Frontal proyeksiyasi esa to'g'ri to'rtburchak."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Konusning o'qi H ga perpendikulyar bo'lsa, frontal proyeksiyasi qanday shaklda?",
+   "a": [
+    "Teng yonli uchburchak",
+    "Aylana",
+    "Kvadrat",
+    "Trapetsiya"
+   ],
+   "e": "Kesik konus frontal proyeksiyada trapetsiya ko'rinishida."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Sferaning istalgan proyeksiyasi qanday shaklda?",
+   "a": [
+    "Aylana",
+    "Ellips",
+    "Kvadrat",
+    "Uchburchak"
+   ],
+   "e": "Sfera barcha yo'nalishda bir xil."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Silindrni o'qiga og'ma tekislik bilan kesganda (barcha yasovchilarni kessa) kesim qanday shaklda bo'ladi?",
+   "a": [
+    "Ellips",
+    "Aylana",
+    "To'g'ri to'rtburchak",
+    "Parabola"
+   ],
+   "e": "O'qqa perpendikulyar kesimda aylana, o'qqa parallelda to'g'ri to'rtburchak hosil bo'ladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Konusni yasovchisiga parallel tekislik bilan kesganda qanday egri chiziq hosil bo'ladi?",
+   "a": [
+    "Parabola",
+    "Ellips",
+    "Aylana",
+    "Giperbola"
+   ],
+   "e": "O'qqa parallel tekislik giperbola beradi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Sirtlarning o'zaro kesishish chizig'ini yasashda keng qo'llaniladigan usul qaysi?",
+   "a": [
+    "Yordamchi kesuvchi tekisliklar usuli",
+    "Shtrixlash usuli",
+    "Masshtablash usuli",
+    "Rangli bo'yash usuli"
+   ],
+   "e": "Yordamchi sferalar usuli ham qo'llaniladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Sirt yoyilmasi deb nimaga aytiladi?",
+   "a": [
+    "Sirtning tekislikka yoyilgan shakli",
+    "Sirtning aksonometrik tasviri",
+    "Sirtning gorizontal proyeksiyasi",
+    "Sirtning kesimi"
+   ],
+   "e": "Yoyilmalar listdan buyum tayyorlashda ishlatiladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Qaysi sirt aniq yoyilmaga ega emas?",
+   "a": [
+    "Sfera",
+    "Silindr",
+    "Konus",
+    "Prizma"
+   ],
+   "e": "Sfera yoyilmasi faqat taqribiy quriladi."
   },
   {
    "b": "Tasvirlar",
-   "q": "Asosiy ko'rinish (bosh ko'rinish) qaysi proyeksiyalar tekisligida joylashadi?",
+   "q": "GOST 2.305 bo'yicha nechta asosiy ko'rinish mavjud?",
    "a": [
-    "Frontal tekislikda (old tomondan ko'rinish)",
-    "Gorizontal tekislikda",
-    "Profil tekislikda",
-    "Aksonometriyada"
+    "6 ta",
+    "3 ta",
+    "4 ta",
+    "8 ta"
    ],
-   "e": "Bosh ko'rinish detal haqida eng ko'p ma'lumot berishi kerak."
+   "e": "Oldidan, ustidan, chapdan, o'ngdan, ostidan va orqadan."
   },
   {
    "b": "Tasvirlar",
-   "q": "Ustdan ko'rinish bosh ko'rinishga nisbatan chizmada qayerda joylashadi?",
+   "q": "Bosh ko'rinish qaysi?",
    "a": [
-    "Bosh ko'rinish ostida",
-    "Bosh ko'rinish ustida",
-    "Bosh ko'rinishdan chapda",
-    "Ixtiyoriy joyda"
+    "Oldidan ko'rinish",
+    "Ustidan ko'rinish",
+    "Chapdan ko'rinish",
+    "Orqadan ko'rinish"
+   ],
+   "e": "Bosh ko'rinish buyum shakli haqida eng to'liq tasavvur berishi kerak."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Ustidan ko'rinish bosh ko'rinishga nisbatan qayerda joylashadi?",
+   "a": [
+    "Pastda",
+    "Yuqorida",
+    "Chapda",
+    "O'ngda"
    ],
    "e": "Chapdan ko'rinish esa bosh ko'rinishdan o'ngda joylashadi."
   },
   {
    "b": "Tasvirlar",
-   "q": "Qirqimda kesilgan sohalar qanday belgilanadi?",
+   "q": "Qo'shimcha ko'rinish qachon qo'llaniladi?",
    "a": [
-    "Material turiga mos shtrixlash bilan",
-    "Bo'yash bilan",
-    "Nuqtalar bilan",
-    "Belgilanmaydi"
+    "Buyumning biror qismi asosiy ko'rinishlarda buzilib tasvirlanganda",
+    "Chizma varag'ida bo'sh joy ko'p qolganda, chizmani to'ldirish maqsadida",
+    "Har doim har bir chizmada majburiy",
+    "Faqat yig'ish chizmalarida"
    ],
-   "e": "Metallar uchun 45° burchakli ingichka chiziqlar bilan shtrixlanadi."
+   "e": "Qo'shimcha ko'rinish asosiy proyeksiya tekisliklariga parallel bo'lmagan tekislikda olinadi."
   },
   {
    "b": "Tasvirlar",
-   "q": "Simmetrik detalning yarmini ko'rinish, yarmini qirqim bilan tasvirlash qanday ataladi?",
+   "q": "Mahalliy ko'rinish nima?",
    "a": [
-    "Ko'rinish va qirqimni birlashtirish",
+    "Buyumning cheklangan joyining tasviri",
+    "Buyumning to'liq aksonometrik tasviri",
+    "Buyumning barcha asosiy ko'rinishlari birgalikda",
+    "Buyumning ichki tuzilishini ko'rsatuvchi qirqim"
+   ],
+   "e": "Mahalliy ko'rinish uzilish chizig'i bilan cheklanadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Qirqim deb nimaga aytiladi?",
+   "a": [
+    "Kesuvchi tekislikda va uning orqasida joylashgan narsalar tasviri",
+    "Faqat kesuvchi tekislikda hosil bo'lgan shakl, orqadagi narsalarsiz",
+    "Buyumning tashqi ko'rinishi",
+    "Buyumning aksonometriyasi"
+   ],
+   "e": "Kesimda esa faqat kesuvchi tekislikdagi shakl tasvirlanadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Kesim qirqimdan nimasi bilan farq qiladi?",
+   "a": [
+    "Faqat kesuvchi tekislikdagi shakl tasvirlanadi",
+    "Kesimda tekislik orqasidagi barcha ko'rinadigan narsalar ham to'liq chiziladi",
+    "Kesim faqat aksonometriyada chiziladi",
+    "Kesim shtrixlanmaydi"
+   ],
+   "e": "Kesimlar chiqarilgan va ustiga qo'yilgan bo'ladi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Ikki va undan ortiq kesuvchi tekislik bilan bajarilgan qirqim qanday nomlanadi?",
+   "a": [
+    "Murakkab qirqim",
+    "Oddiy qirqim",
     "Mahalliy qirqim",
-    "Pog'onali qirqim",
-    "Uchinchi ko'rinish"
+    "Qiya qirqim"
    ],
-   "e": "Chegarasi simmetriya o'qi (shtrix-punktir) bo'ladi."
+   "e": "Murakkab qirqim pog'onali (parallel tekisliklar) va siniq (kesishuvchi tekisliklar) bo'ladi."
   },
   {
    "b": "Tasvirlar",
-   "q": "Detalning kichik elementini kattalashtirib ko'rsatuvchi qo'shimcha tasvir qanday ataladi?",
+   "q": "Parallel kesuvchi tekisliklar bilan bajarilgan qirqim qanday nomlanadi?",
    "a": [
-    "Chiqarma element (vynosnoy element)",
-    "Kesim",
-    "Qirqim",
-    "Bosh ko'rinish"
+    "Pog'onali",
+    "Siniq",
+    "Mahalliy",
+    "Profil"
    ],
-   "e": "Chiqarma element harf bilan belgilanadi va masshtabi ko'rsatiladi."
+   "e": "Kesishuvchi tekisliklar bilan bajarilgan qirqim — siniq qirqim."
   },
   {
-   "b": "Rezbalar va birikmalar",
-   "q": "Chizmada rezba qanday belgilanadi (masalan, metrik rezba)?",
+   "b": "Tasvirlar",
+   "q": "Simmetrik buyumda ko'rinishning yarmi va qirqimning yarmi qanday ajratiladi?",
    "a": [
-    "M harfi va nominal diametr, masalan M20",
-    "R harfi bilan",
-    "⌀ belgisi bilan faqat",
-    "Rezba belgilanmaydi"
+    "Shtrix-punktir simmetriya o'qi bilan",
+    "Asosiy yo'g'on chiziq bilan",
+    "Shtrix chiziq bilan",
+    "Ikki qatorli to'lqinsimon chiziq bilan"
    ],
-   "e": "Mayda qadamli rezbada qadam ham ko'rsatiladi: M20×1,5."
+   "e": "Agar o'q bilan kontur chizig'i ustma-ust tushsa, to'lqinsimon chiziq ishlatiladi."
   },
   {
-   "b": "Rezbalar va birikmalar",
-   "q": "Qaysi birikma ajraladigan birikma hisoblanadi?",
+   "b": "Tasvirlar",
+   "q": "Bo'ylama qirqimda vallar, boltlar va vintlar qanday tasvirlanadi?",
    "a": [
-    "Boltli birikma",
-    "Payvand birikma",
-    "Parchinli birikma",
-    "Yelimli birikma"
+    "Qirqilmagan holda",
+    "Shtrixlangan holda",
+    "Ko'rsatilmaydi",
+    "Shtrix chiziq bilan"
    ],
-   "e": "Ajraladigan birikmalar detallarni shikastlamay ajratish imkonini beradi."
+   "e": "Yaxlit detallar bo'ylama qirqimda qirqilmagan holda ko'rsatiladi."
   },
   {
-   "b": "Rezbalar va birikmalar",
-   "q": "Yig'ish chizmasiga ilova qilinadigan, tarkibiy qismlar ro'yxati keltirilgan hujjat qanday ataladi?",
+   "b": "Tasvirlar",
+   "q": "Chiqarilgan kesim konturi qanday chiziq bilan chiziladi?",
    "a": [
-    "Spetsifikatsiya",
-    "Eskiz",
-    "Tushuntirish xati",
-    "Smeta"
+    "Asosiy yo'g'on tutash chiziq",
+    "Ingichka tutash chiziq",
+    "Shtrix chiziq",
+    "To'lqinsimon chiziq"
    ],
-   "e": "Spetsifikatsiyada pozitsiya raqamlari, belgilanish va soni ko'rsatiladi."
+   "e": "Ustiga qo'yilgan kesim konturi ingichka tutash chiziq bilan chiziladi."
   },
   {
-   "b": "Rezbalar va birikmalar",
-   "q": "O'lchash asboblari yordamida, qo'lda, ko'z bilan chamalab bajarilgan detal chizmasi qanday ataladi?",
+   "b": "Tasvirlar",
+   "q": "Chiqarma element (vynosnoy element) nima uchun qo'llaniladi?",
    "a": [
-    "Eskiz",
-    "Ishchi chizma",
-    "Yig'ish chizmasi",
-    "Aksonometriya"
+    "Buyum qismini kattalashtirib ko'rsatish uchun",
+    "Buyumni kichraytirib, umumiy ko'rinishini berish uchun",
+    "Buyum ostini ko'rsatish uchun",
+    "O'lchamlarni olib tashlash uchun"
    ],
-   "e": "Eskiz asosida keyinchalik ishchi chizma tayyorlanadi."
+   "e": "Chiqarma element aylana bilan belgilanib, rim raqami bilan nomlanadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Har xil materiallar shtrixlanishida rezina, plastmassa kabi nometallar qanday shtrixlanadi?",
+   "a": [
+    "Kesishgan (to'r) shtrixlar bilan",
+    "Faqat 45° li parallel chiziqlar bilan",
+    "Nuqtalar bilan",
+    "Shtrixlanmaydi"
+   ],
+   "e": "GOST 2.306 materiallar grafik belgilarini belgilaydi."
   },
   {
    "b": "Aksonometriya",
-   "q": "Frontal dimetriyada y o'qi bo'yicha qisqarish koeffitsiyenti qancha?",
+   "q": "Aksonometrik proyeksiya nima uchun ishlatiladi?",
+   "a": [
+    "Buyumning ko'rgazmali (yaqqol) tasvirini olish uchun",
+    "Buyumning faqat bitta tomonini haqiqiy kattalikda ko'rsatish va o'lchamlarni yozish uchun",
+    "Chizma ramkasini chizish uchun",
+    "Shtrixlash burchagini aniqlash uchun"
+   ],
+   "e": "Aksonometriya buyumni hajmli ko'rsatadi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "To'g'ri burchakli izometriyada aksonometrik o'qlar orasidagi burchak qancha?",
+   "a": [
+    "120°",
+    "90°",
+    "135°",
+    "45°"
+   ],
+   "e": "Uchala o'q orasidagi burchaklar teng."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "To'g'ri burchakli izometriyada keltirilgan buzilish koeffitsienti qancha?",
+   "a": [
+    "1",
+    "0,5",
+    "0,82",
+    "0,47"
+   ],
+   "e": "Haqiqiy koeffitsient 0,82, amalda soddalik uchun 1 olinadi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "To'g'ri burchakli izometriyada haqiqiy buzilish koeffitsienti taxminan qancha?",
+   "a": [
+    "0,82",
+    "1",
+    "0,5",
+    "0,94"
+   ],
+   "e": "Keltirilgan koeffitsient 1 ishlatilganda tasvir taxminan 1,22 marta kattalashadi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "To'g'ri burchakli dimetriyada y o'qi bo'yicha keltirilgan buzilish koeffitsienti qancha?",
    "a": [
     "0,5",
     "1",
     "0,82",
     "0,94"
    ],
-   "e": "x va z o'qlari bo'yicha o'lchamlar o'zgarmaydi."
+   "e": "x va z o'qlari bo'yicha 1, y o'qi bo'yicha 0,5."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Frontal dimetriyada (qiyshiq) y o'qi gorizontalga nisbatan qanday burchak ostida joylashadi?",
+   "a": [
+    "45°",
+    "30°",
+    "7°10'",
+    "90°"
+   ],
+   "e": "y o'qi bo'yicha koeffitsient 0,5."
   },
   {
    "b": "Aksonometriya",
    "q": "Izometriyada aylana qanday shaklda tasvirlanadi?",
    "a": [
-    "Ellips (ko'pincha oval bilan almashtiriladi)",
+    "Ellips",
     "Aylana",
     "Kvadrat",
+    "To'g'ri chiziq"
+   ],
+   "e": "Amalda ellips o'rniga oval chiziladi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Frontal dimetriyada frontal tekislikka parallel aylana qanday tasvirlanadi?",
+   "a": [
+    "Buzilmagan aylana",
+    "Ellips, katta o'qi gorizontal joylashgan holda",
+    "Oval",
     "Parabola"
    ],
-   "e": "Amalda ellips oval bilan almashtiriladi."
+   "e": "Shuning uchun frontal dimetriya aylanalari ko'p bo'lgan detallar uchun qulay."
   },
   {
-   "b": "Kompyuter grafikasi",
-   "q": "Vektor grafikaning rastr grafikadan asosiy afzalligi nima?",
+   "b": "Aksonometriya",
+   "q": "Aksonometriyada qirqim chizilganda shtrixlash chiziqlari qanday yo'naltiriladi?",
    "a": [
-    "Kattalashtirilganda sifat yo'qolmaydi",
-    "Fotosuratlar uchun qulayroq",
-    "Fayl doimo kattaroq",
-    "Piksellardan iborat"
+    "O'qlarga parallel kesmalar uchlarini tutashtiruvchi chiziqlarga parallel",
+    "Har doim gorizontalga nisbatan 45° ostida, tekislikdan qat'i nazar",
+    "Faqat vertikal yo'nalishda, barcha tekisliklar uchun bir xil qadamda",
+    "Shtrixlanmaydi"
    ],
-   "e": "Vektor tasvir geometrik obyektlar formulalari bilan saqlanadi."
+   "e": "Har bir koordinata tekisligida shtrix yo'nalishi turlicha."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Aksonometriyada buyumning chorak qismi kesib ko'rsatilsa, bu nima uchun qilinadi?",
+   "a": [
+    "Ichki tuzilishini ko'rsatish uchun",
+    "Chizmani qisqartirish va vaqtni tejash uchun",
+    "O'lchamlarni ko'paytirish uchun",
+    "Buyum og'irligini kamaytirish uchun"
+   ],
+   "e": "Odatda simmetrik detallarda chorak qirqim qo'llaniladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Metrik rezba profilining burchagi qancha?",
+   "a": [
+    "60°",
+    "55°",
+    "30°",
+    "90°"
+   ],
+   "e": "Metrik rezba M harfi bilan belgilanadi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Quvur (truba) silindrik rezbasining profil burchagi qancha?",
+   "a": [
+    "55°",
+    "60°",
+    "30°",
+    "45°"
+   ],
+   "e": "Quvur rezbasi G harfi bilan belgilanadi, o'lchami dyuymda."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Trapetsiyasimon rezba profil burchagi qancha?",
+   "a": [
+    "30°",
+    "60°",
+    "55°",
+    "3°"
+   ],
+   "e": "Trapetsiyasimon rezba Tr bilan belgilanadi va harakat uzatishda ishlatiladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Belgilanishi \"M20\" bo'lgan rezba qanday rezba?",
+   "a": [
+    "Nominal diametri 20 mm, yirik qadamli metrik rezba",
+    "Nominal diametri 20 mm, mayda qadamli trapetsiyasimon rezba",
+    "Qadami 20 mm bo'lgan quvur rezbasi",
+    "20 ta o'ramli chap rezba"
+   ],
+   "e": "Yirik qadam belgilanmaydi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "\"M20×1,5\" belgisidagi 1,5 nimani bildiradi?",
+   "a": [
+    "Mayda qadam, mm",
+    "Rezba uzunligi, sm",
+    "Rezba yo'llari soni",
+    "Aniqlik sinfi"
+   ],
+   "e": "Mayda qadamli rezbada qadam albatta ko'rsatiladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Chap rezba belgisida qaysi harflar qo'shiladi?",
+   "a": [
+    "LH",
+    "RH",
+    "L",
+    "CH"
+   ],
+   "e": "Masalan: M20×1,5LH."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Sterjendagi rezba chizmada qanday tasvirlanadi?",
+   "a": [
+    "Tashqi diametr — yo'g'on, ichki diametr — ingichka chiziq",
+    "Tashqi diametr — ingichka, ichki diametr — yo'g'on chiziq",
+    "Ikkala diametr ham shtrix chiziq bilan",
+    "Rezba tasvirlanmaydi, faqat yozuv bilan beriladi"
+   ],
+   "e": "Teshikdagi rezbada esa ichki diametr yo'g'on, tashqi diametr ingichka chiziq bilan."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Teshikdagi rezba ko'rinishda (oxiri tomondan) qanday tasvirlanadi?",
+   "a": [
+    "Tashqi diametr bo'yicha 3/4 qismli ingichka yoy bilan",
+    "To'liq yo'g'on aylana bilan",
+    "Faqat markaz chiziqlari bilan, aylana chizilmasdan, yozuv qo'yiladi",
+    "Shtrix chiziqli to'liq aylana bilan"
+   ],
+   "e": "Ichki (ichki rezba uchun kichik) diametr esa yo'g'on chiziq bilan to'liq aylana."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Ajraladigan birikmalarga qaysi biri kiradi?",
+   "a": [
+    "Boltli birikma",
+    "Payvand birikma",
+    "Parchin birikma",
+    "Yelimli birikma"
+   ],
+   "e": "Rezbali, shponkali, shlitsli, shtiftli birikmalar ajraladigan."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Ajralmaydigan birikmalarga qaysi biri kiradi?",
+   "a": [
+    "Kavsharlangan birikma",
+    "Shpilkali birikma (gaykali)",
+    "Vintli birikma",
+    "Shponkali birikma"
+   ],
+   "e": "Payvand, parchin, yelim va kavshar birikmalari ajralmaydigan."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Shpilka nima?",
+   "a": [
+    "Ikki uchida rezbasi bor silindrik sterjen",
+    "Kallakli va bir uchida rezbasi bor sterjen",
+    "Rezbasiz silindrik sterjen",
+    "Teshikli yassi halqa"
+   ],
+   "e": "Shpilka bir uchi bilan detalga buraladi, ikkinchi uchiga gayka buraladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Shayba nima uchun qo'llaniladi?",
+   "a": [
+    "Gayka ostidagi yuzani himoya qilish va bosimni taqsimlash uchun",
+    "Rezba qadamini o'zgartirish, boltni uzaytirish va uni teshikka zich o'tkazish uchun",
+    "Detallarni payvandlash uchun",
+    "Valni podshipnikka mahkamlash uchun"
+   ],
+   "e": "Prujinali shayba esa o'z-o'zidan bo'shab ketishdan saqlaydi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Shponka nima uchun ishlatiladi?",
+   "a": [
+    "Val va g'ildirak orasida aylanma momentni uzatish uchun",
+    "Ikki valni bir-biriga payvandlab, yaxlit qilish uchun",
+    "Detallarni bo'yashdan oldin ularni bir-biridan ajratib turish uchun",
+    "Detallarni bo'yash uchun"
+   ],
+   "e": "Prizmatik, segmentli va ponasimon shponkalar mavjud."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Payvand chok chizmada qanday ko'rsatiladi?",
+   "a": [
+    "Chok chizig'i va yo'naltiruvchi chiziq tokchasidagi belgi bilan",
+    "Faqat shtrix chiziq bilan, hech qanday shartli belgi va yozuvsiz chiziladi",
+    "Ko'rsatilmaydi",
+    "Faqat matnli izoh bilan"
+   ],
+   "e": "Payvand choklarining shartli belgilari GOST 2.312 da belgilangan."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Boltli birikmada boltning qaysi qismi rezbali?",
+   "a": [
+    "Sterjen uchi",
+    "Kallagi",
+    "Butun sterjen va kallak",
+    "Rezbasi bo'lmaydi"
+   ],
+   "e": "Boltning olti qirrali kallagi bo'ladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Boltli birikmani soddalashtirilgan chizishda o'lchamlar nimaga bog'liq ravishda olinadi?",
+   "a": [
+    "Rezbaning nominal diametri d ga",
+    "Chizma formati va masshtabiga",
+    "Detallar materialiga",
+    "Shtrixlash qadamiga"
+   ],
+   "e": "Masalan, gayka balandligi ≈ 0,8d, kallak balandligi ≈ 0,7d."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Tishli g'ildirakning asosiy parametri qaysi?",
+   "a": [
+    "Modul",
+    "Rezba qadami",
+    "Konuslik",
+    "Nishablik"
+   ],
+   "e": "m = d/z, bu yerda d — bo'luvchi aylana diametri, z — tishlar soni."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Tishli g'ildirak chizmasida bo'luvchi aylana qanday chiziq bilan chiziladi?",
+   "a": [
+    "Ingichka shtrix-punktir",
+    "Asosiy yo'g'on tutash chiziq",
+    "Shtrix",
+    "To'lqinsimon"
+   ],
+   "e": "Tishlar uchi aylanasi yo'g'on, tubi aylanasi ingichka chiziq bilan."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Prujina chizmada qanday tasvirlanadi?",
+   "a": [
+    "Soddalashtirilgan holda, o'ramlar to'g'ri chiziqlar bilan",
+    "Har bir o'ramni egri chiziq bilan to'liq chizib",
+    "Faqat aksonometriyada, barcha o'ramlari to'liq ko'rsatilgan holda",
+    "Tasvirlanmaydi"
+   ],
+   "e": "Ko'p o'ramli prujinada faqat chetki o'ramlar ko'rsatiladi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Eskiz deb nimaga aytiladi?",
+   "a": [
+    "Ko'z bilan chamalab, qo'lda bajarilgan chizma",
+    "Chizma asboblari bilan aniq masshtabda chizilgan chizma",
+    "Kompyuterda bajarilgan 3D model",
+    "Faqat aksonometrik tasvir"
+   ],
+   "e": "Eskizda nisbatlar saqlanadi, barcha o'lchamlar qo'yiladi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Ishchi chizma nimani o'z ichiga oladi?",
+   "a": [
+    "Detal tasvirlari, o'lchamlar va texnik talablar",
+    "Faqat detalning rangli rasmi, narxi va ishlab chiqaruvchisi",
+    "Faqat yig'ish tartibi",
+    "Faqat spetsifikatsiya"
+   ],
+   "e": "Ishchi chizma asosida detal tayyorlanadi va nazorat qilinadi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Ishchi chizmada sirt g'adir-budurligi qanday parametr bilan belgilanadi?",
+   "a": [
+    "Ra",
+    "HB",
+    "M",
+    "Tr"
+   ],
+   "e": "Ra — profilning o'rtacha arifmetik og'ishi, mkm da."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Detal materiali chizmada qayerda ko'rsatiladi?",
+   "a": [
+    "Asosiy yozuvda",
+    "Detal tasviri ustida katta harflar bilan",
+    "Spetsifikatsiyada faqat",
+    "Ko'rsatilmaydi"
+   ],
+   "e": "Masalan: \"Po'lat 45 GOST 1050\"."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Chizmada o'lchamlar qanday tamoyil asosida qo'yiladi?",
+   "a": [
+    "Har bir o'lcham bir martadan",
+    "Har bir o'lcham barcha ko'rinishlarda takroran",
+    "Faqat eng katta o'lcham",
+    "O'lchamlar ixtiyoriy tarzda takrorlanadi"
+   ],
+   "e": "O'lchamlar takrorlanmasligi kerak."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "O'lchamlar zanjiri yopiq bo'lishi mumkinmi?",
+   "a": [
+    "Mumkin emas",
+    "Mumkin, har doim",
+    "Faqat kichik detallarda",
+    "Faqat aksonometriyada"
+   ],
+   "e": "Yopiq zanjir ortiqcha va bir-biriga zid talablar yaratadi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Fasska (faska) chizmada qanday o'lchamlanadi?",
+   "a": [
+    "Masalan, 2×45°",
+    "Faqat ⌀ belgisi bilan",
+    "Faqat R bilan",
+    "O'lchanmaydi"
+   ],
+   "e": "Fasska — detal qirrasidagi kesik."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Ishchi chizmadagi texnik talablar qayerda joylashadi?",
+   "a": [
+    "Asosiy yozuv ustida",
+    "Chizma ramkasidan tashqarida",
+    "Detal tasviri ichida",
+    "Varaqning orqa tomonida"
+   ],
+   "e": "Texnik talablar matni asosiy yozuv ustiga yoziladi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Yig'ish chizmasi nima uchun kerak?",
+   "a": [
+    "Buyumni yig'ish va nazorat qilish uchun",
+    "Har bir detalni alohida tayyorlash uchun yagona hujjat sifatida",
+    "Faqat reklama maqsadlarida",
+    "Buyum narxini aniqlash uchun"
+   ],
+   "e": "Yig'ish chizmasi tarkibiy qismlar o'zaro joylashuvini ko'rsatadi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Spetsifikatsiya nima?",
+   "a": [
+    "Yig'ish birligi tarkibini belgilovchi hujjat",
+    "Detal tayyorlash texnologiyasi va operatsiyalar ketma-ketligi",
+    "Chizma masshtablari jadvali",
+    "Materiallar narxlari ro'yxati"
+   ],
+   "e": "Spetsifikatsiya alohida A4 varaqlarda rasmiylashtiriladi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Yig'ish chizmasida pozitsiya raqamlari qanday joylashtiriladi?",
+   "a": [
+    "Asosiy yozuvga parallel ustun yoki qator bo'yicha",
+    "Tasodifiy tartibda, istalgan joyda, chizmaning bo'sh qismlarida",
+    "Faqat detal tasviri ichida",
+    "Faqat chizma ramkasidan tashqarida"
+   ],
+   "e": "Pozitsiya raqamlari tokchalar ustiga yoziladi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Yig'ish chizmasida qanday o'lchamlar qo'yiladi?",
+   "a": [
+    "Gabarit, o'rnatish, ulanish va montaj o'lchamlari",
+    "Har bir detalning barcha o'lchamlari to'liq",
+    "Hech qanday o'lcham qo'yilmaydi, faqat pozitsiya raqamlari",
+    "Faqat rezba o'lchamlari"
+   ],
+   "e": "Detal o'lchamlari ishchi chizmalarda beriladi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Detallashtirish deb nimaga aytiladi?",
+   "a": [
+    "Yig'ish chizmasidan detallarning ishchi chizmalarini bajarish",
+    "Detallarni yig'ib, yig'ish birligini tayyorlash va sinovdan o'tkazish",
+    "Chizmani rangli qilish",
+    "Chizmani kichraytirish"
+   ],
+   "e": "Detallashtirishda har bir original detal uchun ishchi chizma tuziladi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Yig'ish chizmasida qo'shni detallar qirqimda qanday shtrixlanadi?",
+   "a": [
+    "Qarama-qarshi yo'nalishda yoki turli qadamda",
+    "Bir xil yo'nalishda va bir xil qadamda, bir butun sifatida",
+    "Shtrixlanmaydi",
+    "Faqat bittasi shtrixlanadi"
+   ],
+   "e": "Bir detalning barcha qirqimlarida shtrixlash bir xil bo'ladi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Standart mahkamlash detallari spetsifikatsiyaning qaysi bo'limida yoziladi?",
+   "a": [
+    "\"Standart buyumlar\"",
+    "\"Detallar\"",
+    "\"Boshqa buyumlar\"",
+    "\"Materiallar\""
+   ],
+   "e": "Bo'limlar tartibi: Hujjatlar, Komplekslar, Yig'ish birliklari, Detallar, Standart buyumlar, Boshqa buyumlar, Materiallar, Komplektlar."
   },
   {
    "b": "Kompyuter grafikasi",
-   "q": "Qaysi fayl formati rastr tasvir hisoblanadi?",
+   "q": "Kompyuter grafikasining asosiy turlari qaysilar?",
    "a": [
-    "JPEG",
-    "SVG",
+    "Rastr, vektor va fraktal",
+    "Faqat oq-qora va rangli tasvirlar",
+    "Kichik va katta",
+    "Analog va raqamli"
+   ],
+   "e": "3D grafika ham alohida yo'nalish sifatida ajratiladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Vektor grafikaning asosiy afzalligi nima?",
+   "a": [
+    "Masshtablashda sifat yo'qolmaydi",
+    "Fotosuratlarni eng real tasvirlaydi va har bir pikselni alohida saqlaydi",
+    "Har doim katta hajmli fayllar hosil qiladi",
+    "Faqat internetda ishlatiladi"
+   ],
+   "e": "Vektor tasvir matematik tavsiflangan obyektlardan iborat."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Rastr tasvir qanday elementlardan tashkil topadi?",
+   "a": [
+    "Piksellar",
+    "Vektorlar va formulalar",
+    "Faqat chiziqlar",
+    "Qatlamlar"
+   ],
+   "e": "Rastr tasvir kattalashtirilganda pikselllashadi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCAD dasturining asosiy chizma fayl formati qaysi?",
+   "a": [
     "DWG",
-    "DXF"
+    "PSD",
+    "DOCX",
+    "MP3"
    ],
-   "e": "DWG va DXF — AutoCAD chizma formatlari."
+   "e": "DXF — almashinuv formati."
   },
   {
    "b": "Kompyuter grafikasi",
-   "q": "AutoCAD chizmalarining asosiy fayl formati qaysi?",
-   "a": [
-    ".dwg",
-    ".docx",
-    ".xlsx",
-    ".mp3"
-   ],
-   "e": ".dxf — boshqa dasturlar bilan almashish uchun format."
-  },
-  {
-   "b": "Kompyuter grafikasi",
-   "q": "AutoCAD'da obyektlarni guruhlab, ularning ko'rinishi va xossalarini boshqarish uchun nima ishlatiladi?",
+   "q": "AutoCADda chizma obyektlarini guruhlash va boshqarish uchun nima ishlatiladi?",
    "a": [
     "Qatlamlar (Layers)",
     "Shriftlar",
     "Makroslar",
-    "Arxivlar"
+    "Faqat ranglar palitrasi"
    ],
-   "e": "Har bir qatlam uchun rang, chiziq turi va qalinligi belgilanadi."
+   "e": "Har bir qatlamga rang, chiziq turi va qalinlik beriladi."
   },
   {
    "b": "Kompyuter grafikasi",
-   "q": "AutoCAD'da to'g'ri chiziq kesmasini chizish buyrug'i qaysi?",
+   "q": "AutoCADda chiziq chizish buyrug'i qaysi?",
    "a": [
     "LINE",
     "CIRCLE",
     "TRIM",
     "HATCH"
    ],
-   "e": "TRIM — qirqish, HATCH — shtrixlash buyrug'i."
+   "e": "CIRCLE — aylana, TRIM — kesish, HATCH — shtrixlash."
   },
   {
    "b": "Kompyuter grafikasi",
-   "q": "AutoCAD'da obyektni nusxalash buyrug'i qaysi?",
+   "q": "AutoCADda obyektlarning ortiqcha qismini kesib tashlash buyrug'i qaysi?",
    "a": [
+    "TRIM",
+    "EXTEND",
     "COPY",
-    "MOVE",
-    "ERASE",
+    "MOVE"
+   ],
+   "e": "EXTEND — uzaytirish."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda shtrixlash buyrug'i qaysi?",
+   "a": [
+    "HATCH",
+    "OFFSET",
+    "FILLET",
+    "ARRAY"
+   ],
+   "e": "FILLET — tutashma (yoy bilan), OFFSET — parallel nusxa."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda obyektlarni ma'lum masofada parallel nusxalash buyrug'i qaysi?",
+   "a": [
+    "OFFSET",
+    "MIRROR",
+    "SCALE",
     "ROTATE"
    ],
-   "e": "MOVE — ko'chirish, ERASE — o'chirish, ROTATE — burish."
+   "e": "MIRROR — ko'zguli aks ettirish."
   },
   {
    "b": "Kompyuter grafikasi",
-   "q": "Uch o'lchamli (3D) modellash uchun mo'ljallangan dasturga misol qaysi?",
+   "q": "AutoCADda ikki chiziqni yoy bilan tutashtirish buyrug'i qaysi?",
    "a": [
-    "SolidWorks (yoki KOMPAS-3D, Inventor)",
-    "Notepad",
-    "Excel",
-    "PowerPoint"
+    "FILLET",
+    "CHAMFER",
+    "BREAK",
+    "JOIN"
    ],
-   "e": "3D modeldan avtomatik ravishda chizmalar olish mumkin."
+   "e": "CHAMFER — fasska yasash."
   },
   {
    "b": "Kompyuter grafikasi",
-   "q": "RGB rang modeli qaysi ranglarga asoslangan?",
+   "q": "Obyektni bir nechta nusxada tartibli joylashtirish buyrug'i qaysi?",
    "a": [
-    "Qizil, yashil, ko'k",
-    "Moviy, pushti, sariq, qora",
-    "Qora va oq",
-    "Qizil, sariq, ko'k"
+    "ARRAY",
+    "STRETCH",
+    "EXPLODE",
+    "ERASE"
    ],
-   "e": "CMYK — bosmaxona uchun rang modeli."
+   "e": "To'g'ri burchakli, qutbiy va traektoriya bo'yicha massivlar mavjud."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda o'lcham qo'yish buyruqlari qaysi guruhda?",
+   "a": [
+    "DIM (Dimension)",
+    "DRAW faqat",
+    "MODIFY (Tahrirlash)",
+    "VIEW"
+   ],
+   "e": "DIMLINEAR — chiziqli, DIMRADIUS — radius o'lchami."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Ob'ektlarni bog'lash rejimi (OSNAP) nima uchun ishlatiladi?",
+   "a": [
+    "Aniq nuqtalarni tanlash uchun",
+    "Chizmani avtomatik chop etish uchun",
+    "Rangni o'zgartirish uchun",
+    "Faylni saqlash uchun"
+   ],
+   "e": "Masalan: Endpoint, Midpoint, Center, Intersection."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Ortogonal rejim (ORTHO) nima qiladi?",
+   "a": [
+    "Faqat gorizontal va vertikal chizishga imkon beradi",
+    "Chizmani aksonometriyaga aylantiradi va ko'rinishlarni avtomatik yaratadi",
+    "Obyektlarni o'chiradi",
+    "Chizmani avtomatik o'lchamlaydi"
+   ],
+   "e": "F8 tugmasi bilan yoqiladi va o'chiriladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "3D modellashtirishning qaysi turi buyumni to'liq hajmli jism sifatida ifodalaydi?",
+   "a": [
+    "Qattiq jismli (solid)",
+    "Karkasli (wireframe)",
+    "Faqat sirtli",
+    "Rastrli"
+   ],
+   "e": "Solid modelda massa, hajm kabi xususiyatlarni hisoblash mumkin."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "CAD tizimlari nima uchun mo'ljallangan?",
+   "a": [
+    "Avtomatlashtirilgan loyihalash uchun",
+    "Faqat matn terish uchun",
+    "Buxgalteriya hisobini yuritish uchun",
+    "Musiqa yaratish uchun"
+   ],
+   "e": "CAM — ishlab chiqarishni, CAE — muhandislik tahlilini avtomatlashtiradi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "KOMPAS-3D dasturida chizma fayli kengaytmasi qaysi?",
+   "a": [
+    ".cdw",
+    ".m3d",
+    ".dwg",
+    ".spw"
+   ],
+   "e": ".m3d — detal modeli, .a3d — yig'ma, .spw — spetsifikatsiya."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "3D modeldan chizma olishning afzalligi nima?",
+   "a": [
+    "Ko'rinish va qirqimlar avtomatik bog'liq holda yangilanadi",
+    "Chizma har safar qo'lda qaytadan chizilishi kerak bo'ladi va xatolar ko'payadi",
+    "Model va chizma bir-biriga bog'liq bo'lmaydi",
+    "O'lchamlar qo'yish imkoni yo'qoladi"
+   ],
+   "e": "Assotsiativ chizmalar modeldagi o'zgarishlarni avtomatik aks ettiradi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Ekstruziya (siqib chiqarish) operatsiyasi nima qiladi?",
+   "a": [
+    "Yassi eskizdan hajmli jism yaratadi",
+    "Hajmli jismni yassi eskizga aylantiradi",
+    "Faylni chop etadi",
+    "Chizmaga ramka qo'shadi"
+   ],
+   "e": "Eskiz konturi berilgan masofaga yo'naltiriladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Aylantirish (revolve) operatsiyasi bilan qanday jismlar yaratiladi?",
+   "a": [
+    "Aylanish jismlari (val, vtulka, disk)",
+    "Faqat prizmalar",
+    "Faqat yassi plastinalar va listlar",
+    "Faqat piramidalar"
+   ],
+   "e": "Eskiz o'q atrofida aylantiriladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "GOST 2.301 standarti nimani belgilaydi?",
+   "a": [
+    "Formatlarni",
+    "Masshtablarni",
+    "Chiziqlarni",
+    "Shriftlarni"
+   ],
+   "e": "2.302 — masshtablar, 2.303 — chiziqlar, 2.304 — shriftlar."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "GOST 2.303 standarti nimani belgilaydi?",
+   "a": [
+    "Chiziq turlarini",
+    "Formatlarni",
+    "Ko'rinishlar, qirqimlar va kesimlarni",
+    "Rezba tasvirini"
+   ],
+   "e": "Standartda 9 xil chiziq turi belgilangan."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "GOST 2.305 standarti nimani belgilaydi?",
+   "a": [
+    "Tasvirlar: ko'rinish, qirqim, kesim",
+    "O'lcham qo'yish qoidalarini",
+    "Aksonometrik proyeksiyalarni",
+    "Shtrixlash va materiallar belgilarini"
+   ],
+   "e": "2.307 — o'lchamlar, 2.317 — aksonometriya, 2.306 — materiallar belgilari."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "GOST 2.307 standarti nimani belgilaydi?",
+   "a": [
+    "O'lchamlar va chetga chiqishlarni qo'yishni",
+    "Asosiy yozuv shaklini",
+    "Rezbalar tasvirini",
+    "Shtrixlash va materiallarning grafik belgilarini hamda ularning qo'llanishini"
+   ],
+   "e": "Asosiy yozuv — GOST 2.104."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Asosiy yozuv (shtamp) shakli qaysi standartda belgilangan?",
+   "a": [
+    "GOST 2.104",
+    "GOST 2.301",
+    "GOST 2.311",
+    "GOST 2.316"
+   ],
+   "e": "2.311 — rezba tasviri."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "A4 formatda asosiy yozuv qanday joylashadi?",
+   "a": [
+    "Faqat qisqa tomon bo'ylab",
+    "Faqat uzun tomon bo'ylab, varaqning yuqori qismida",
+    "Istalgan tomon bo'ylab",
+    "Varaq o'rtasida"
+   ],
+   "e": "Boshqa formatlarda asosiy yozuv uzun va qisqa tomon bo'ylab joylashishi mumkin."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Chizmadagi yo'g'on chiziq qalinligi S = 1 mm bo'lsa, ingichka chiziq qalinligi qancha bo'lishi kerak?",
+   "a": [
+    "0,33–0,5 mm",
+    "1–1,5 mm",
+    "0,1 mm dan kam",
+    "2 mm"
+   ],
+   "e": "Ingichka chiziq S/3 dan S/2 gacha."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Bir chizmada bir xil turdagi chiziqlar qalinligi qanday bo'lishi kerak?",
+   "a": [
+    "Bir xil",
+    "Masshtabga qarab har bir ko'rinishda har xil",
+    "Ixtiyoriy",
+    "Har bir tasvirda o'zgarib boradi"
+   ],
+   "e": "Bu GOST 2.303 talabi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "O'lcham soni o'lcham chizig'iga nisbatan qayerga yoziladi?",
+   "a": [
+    "O'lcham chizig'i ustiga, o'rtasiga yaqin",
+    "O'lcham chizig'i ostiga, chiziqdan 10 mm pastga va chetiga yaqin",
+    "Chizma ramkasi tashqarisiga",
+    "Kontur chizig'i ichiga, uni kesib"
+   ],
+   "e": "O'lcham soni chiziqlar bilan kesilmasligi kerak."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Vertikal o'lcham chizig'ida o'lcham soni qanday yoziladi?",
+   "a": [
+    "Chapdan, pastdan yuqoriga o'qiladigan qilib",
+    "O'ngdan, yuqoridan pastga o'qiladigan qilib",
+    "Gorizontal holda, chiziqdan uzoqda",
+    "Teskari holda"
+   ],
+   "e": "O'lcham sonlari asosiy yozuvga nisbatan o'qilishi qulay bo'lishi kerak."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Strelka uzunligi chizmada taxminan qancha bo'ladi?",
+   "a": [
+    "2,5–5 mm",
+    "10–15 mm",
+    "0,5 mm",
+    "20 mm"
+   ],
+   "e": "Strelka o'lchami chizma bo'yicha bir xil bo'lishi kerak."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Burchak o'lchami qanday birlikda yoziladi?",
+   "a": [
+    "Gradus, minut, sekund",
+    "Radian",
+    "Faqat foizlarda (%)",
+    "Foiz"
+   ],
+   "e": "Masalan, 30°, 45°30'."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Kvadrat kesimli element o'lchami qanday belgilanadi?",
+   "a": [
+    "□ belgisi bilan, masalan □20",
+    "⌀ belgisi bilan, masalan ⌀20×20",
+    "R belgisi bilan",
+    "S belgisi bilan"
+   ],
+   "e": "Kvadrat tomoni oldidan □ belgisi qo'yiladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Teshiklar soni bir xil bo'lsa, o'lcham qanday yoziladi?",
+   "a": [
+    "Masalan, 4 teshik ⌀10",
+    "Har bir teshikka alohida bir xil o'lcham yoziladi",
+    "Teshiklar o'lchanmaydi",
+    "Faqat bitta teshik o'lchanadi, soni ko'rsatilmaydi"
+   ],
+   "e": "Bir xil elementlar soni o'lcham oldida ko'rsatiladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Masshtab asosiy yozuvda qanday yoziladi?",
+   "a": [
+    "1:2",
+    "M 1:2",
+    "Masshtab 1/2",
+    "50%"
+   ],
+   "e": "Asosiy yozuvdagi maxsus katakda \"M\" harfi yozilmaydi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Kesmani teng ikkiga bo'lish uchun qaysi yasash ishlatiladi?",
+   "a": [
+    "Kesma uchlaridan teng radiusli yoylar o'tkazish",
+    "Kesmani transportir bilan o'lchab, ko'z bilan chamalash",
+    "Kesma uchlariga perpendikulyar o'tkazib, ularni tutashtirish",
+    "Kesmani shtrixlash"
+   ],
+   "e": "Yoylar kesishish nuqtalari orqali o'tgan chiziq o'rta perpendikulyar bo'ladi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Burchakni teng ikkiga bo'luvchi chiziq qanday nomlanadi?",
+   "a": [
+    "Bissektrisa",
+    "Mediana",
+    "Balandlik",
+    "Gipotenuza"
+   ],
+   "e": "Bissektrisa sirkul va chizg'ich bilan yasaladi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Aylanani 3 ta teng bo'lakka bo'lish uchun nima qilinadi?",
+   "a": [
+    "Diametr uchidan R radiusli yoy chiziladi",
+    "Diametr uchidan diametrga teng radiusli yoy chiziladi",
+    "Radiusning yarmi qo'yiladi",
+    "Transportir bilan 90° qo'yiladi"
+   ],
+   "e": "Yoy aylanani kesgan ikki nuqta va diametrning qarama-qarshi uchi bo'luvchi nuqtalardir."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Aylana va to'g'ri chiziqni tashqi tutashtirishda markaz qanday topiladi?",
+   "a": [
+    "Aylanaga R₁+R radiusli konsentrik yoy va chiziqqa R masofadagi parallel kesishmasidan",
+    "Aylana markazidan R₁−R radiusli yoy va chiziqning kesishmasidan",
+    "Aylana markazining o'zidan R radiusli yoy chiziladi",
+    "Chiziq o'rtasidan"
+   ],
+   "e": "Ichki tutashishda R−R₁ radiusli yoy ishlatiladi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Ikki aylanani tashqi tutashtiruvchi yoy markazi qanday topiladi?",
+   "a": [
+    "R₁+R va R₂+R radiusli yoylar kesishmasidan",
+    "R−R₁ va R−R₂ radiusli yoylar kesishmasidan",
+    "Ikki markazni tutashtiruvchi kesma o'rtasidan",
+    "Aylanalar kesishish nuqtasidan"
+   ],
+   "e": "Ichki tutashishda R−R₁ va R−R₂ ishlatiladi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Sinusoida qanday egri chiziq?",
+   "a": [
+    "Davriy to'lqinsimon egri chiziq",
+    "Yopiq oval shakldagi simmetrik egri chiziq",
+    "Ikki tarmoqli egri chiziq",
+    "Spiral egri chiziq"
+   ],
+   "e": "Sinusoida aylana bo'ylab harakat proyeksiyasidan yasaladi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Giperbola qanday egri chiziq?",
+   "a": [
+    "Fokuslargacha masofalar farqi doimiy bo'lgan nuqtalar to'plami",
+    "Fokuslargacha masofalar yig'indisi doimiy bo'lgan nuqtalar to'plami",
+    "Bir nuqtadan teng uzoqlikdagi nuqtalar to'plami",
+    "Fokus va direktrisadan teng uzoqlikdagi nuqtalar to'plami"
+   ],
+   "e": "Ellipsda yig'indi, giperbolada farq doimiy."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Parabola qanday egri chiziq?",
+   "a": [
+    "Fokus va direktrisadan teng uzoqlikdagi nuqtalar to'plami",
+    "Fokuslargacha masofalar yig'indisi doimiy bo'lgan nuqtalar to'plami",
+    "Markazdan teng uzoqlikdagi nuqtalar to'plami",
+    "Ikki fokusgacha masofalar farqi doimiy nuqtalar to'plami"
+   ],
+   "e": "Parabolik ko'zgu va antennalar shu xususiyatdan foydalanadi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Sikloida qanday hosil bo'ladi?",
+   "a": [
+    "To'g'ri chiziq bo'ylab dumalayotgan aylana nuqtasi izidan",
+    "Aylanuvchi nur bo'ylab tekis harakatlanuvchi nuqtadan",
+    "Ipni silindrdan yechib olishda uning uchi chizgan iz bo'yicha",
+    "Konusni tekislik bilan kesishdan"
+   ],
+   "e": "Ipni aylanadan yechishda uchi evolventa chizadi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Nuqtaning frontal proyeksiyasi qanday belgilanadi?",
+   "a": [
+    "A''",
+    "A'",
+    "A'''",
+    "a"
+   ],
+   "e": "Bir shtrix — gorizontal, ikki — frontal, uch — profil proyeksiya."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Nuqtaning gorizontal va frontal proyeksiyalarini tutashtiruvchi chiziq qanday nomlanadi?",
+   "a": [
+    "Bog'lanish chizig'i",
+    "Kesuvchi tekislik izi chizig'i",
+    "O'q chizig'i",
+    "Kontur chizig'i"
+   ],
+   "e": "Bog'lanish chizig'i x o'qiga perpendikulyar."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Nuqta H tekisligida yotsa, uning frontal proyeksiyasi qayerda bo'ladi?",
+   "a": [
+    "x o'qida",
+    "V tekisligining markazida",
+    "Profil tekisligida",
+    "Cheksiz uzoqlikda"
+   ],
+   "e": "Nuqtaning balandligi (z) nolga teng."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Ikki nuqtaning frontal proyeksiyalari ustma-ust tushsa, ular qanday nomlanadi?",
+   "a": [
+    "Frontal konkurent nuqtalar",
+    "Parallel joylashgan nuqtalar",
+    "Simmetrik nuqtalar",
+    "Kesishuvchi nuqtalar"
+   ],
+   "e": "Konkurent nuqtalar ko'rinuvchanlikni aniqlashda ishlatiladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Ikki to'g'ri chiziq parallel bo'lsa, ularning bir nomli proyeksiyalari qanday bo'ladi?",
+   "a": [
+    "Parallel",
+    "Perpendikulyar",
+    "Kesishuvchi",
+    "Ustma-ust tushuvchi nuqtalar"
+   ],
+   "e": "Bu parallel proyeksiyalashning invariant xossasi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "To'g'ri burchakning bir tomoni proyeksiya tekisligiga parallel bo'lsa, u shu tekislikka qanday proyeksiyalanadi?",
+   "a": [
+    "To'g'ri burchak sifatida",
+    "O'tkir burchak sifatida, kattaligi kamaygan holda",
+    "O'tmas burchak sifatida",
+    "To'g'ri chiziq sifatida"
+   ],
+   "e": "To'g'ri burchak proyeksiyasi haqidagi teorema."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Tekislik chizmada qanday berilishi mumkin?",
+   "a": [
+    "Bir to'g'ri chiziqda yotmagan uchta nuqta bilan",
+    "Faqat bitta nuqta va uning proyeksiyalari bilan",
+    "Faqat bitta to'g'ri chiziq bilan",
+    "Ikki ustma-ust tushgan nuqta bilan"
+   ],
+   "e": "Shuningdek kesishuvchi yoki parallel to'g'ri chiziqlar, tekis shakl, izlar bilan."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Tekislikning proyeksiya tekisligi bilan kesishish chizig'i qanday nomlanadi?",
+   "a": [
+    "Tekislik izi",
+    "Tekislik normali",
+    "Bog'lanish chizig'i",
+    "Gorizontal chiziq"
+   ],
+   "e": "Gorizontal iz H bilan, frontal iz V bilan kesishishdan hosil bo'ladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Frontal proyeksiyalovchi tekislikning frontal proyeksiyasi qanday ko'rinishda?",
+   "a": [
+    "To'g'ri chiziq",
+    "Uchburchak (haqiqiy kattalikda)",
+    "Aylana",
+    "Nuqta"
+   ],
+   "e": "Proyeksiyalovchi tekislik o'z tekisligiga chiziq bo'lib proyeksiyalanadi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Gorizontal sath tekisligi (H ga parallel) qaysi tekislikda haqiqiy kattalikda proyeksiyalanadi?",
+   "a": [
+    "H",
+    "V",
+    "W",
+    "Hech qaysisida"
+   ],
+   "e": "Sath tekisliklari bitta proyeksiya tekisligiga parallel."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "To'g'ri chiziqning tekislik bilan kesishish nuqtasini topishda qanday usul qo'llaniladi?",
+   "a": [
+    "To'g'ri chiziq orqali yordamchi proyeksiyalovchi tekislik o'tkazish",
+    "To'g'ri chiziqni aksonometriyaga o'tkazib, kesishish nuqtasini ko'z bilan chamalash",
+    "To'g'ri chiziqni shtrixlash",
+    "Chizma masshtabini o'zgartirish"
+   ],
+   "e": "Yordamchi tekislik va berilgan tekislik kesishish chizig'i topiladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Piramida asosi H da yotgan bo'lsa, uning gorizontal proyeksiyasida yon qirralar qanday ko'rinadi?",
+   "a": [
+    "Uchdan asos uchlariga tutashgan kesmalar",
+    "Nuqtalar",
+    "Asos tomonlariga parallel kesmalar",
+    "Konsentrik aylanalar"
+   ],
+   "e": "Uchning gorizontal proyeksiyasi asos ichida (to'g'ri piramidada markazda) bo'ladi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Ikki silindr o'qlari kesishib, diametrlari teng bo'lsa, kesishish chizig'i frontal proyeksiyada qanday ko'rinadi?",
+   "a": [
+    "Kesishuvchi to'g'ri chiziqlar",
+    "Parabola",
+    "Aylana yoylari (konsentrik)",
+    "Giperbola"
+   ],
+   "e": "Monj teoremasiga ko'ra bunday sirtlar tekis egri chiziqlar (ellipslar) bo'yicha kesishadi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Teshikli silindr chizmasida ko'rinmas teshik konturi qanday chiziq bilan chiziladi?",
+   "a": [
+    "Shtrix chiziq",
+    "Asosiy yo'g'on chiziq",
+    "Uzuq chiziq",
+    "To'lqinsimon chiziq"
+   ],
+   "e": "Qirqim bajarilsa, teshik konturi yo'g'on chiziq bilan ko'rinadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Qirqimni belgilashda kesuvchi tekislik qanday ko'rsatiladi?",
+   "a": [
+    "Uzuq chiziq, strelka va bosh harf bilan",
+    "Faqat shtrix-punktir chiziq bilan, harfsiz va strelkasiz",
+    "To'lqinsimon chiziq bilan",
+    "Belgilanmaydi"
+   ],
+   "e": "Qirqim ustiga \"A–A\" kabi yoziladi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Qachon qirqim belgilanmasligi mumkin?",
+   "a": [
+    "Kesuvchi tekislik simmetriya tekisligi bilan ustma-ust tushib, qirqim proyeksion bog'lanishda bo'lsa",
+    "Har doim, chunki qirqimni belgilash shart emas",
+    "Faqat qirqim chizmaning boshqa varag'ida joylashgan bo'lsa",
+    "Faqat qiya qirqimlarda"
+   ],
+   "e": "Bu holat gorizontal, frontal va profil qirqimlarga tegishli."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Gorizontal qirqim qaysi tekislik bilan bajariladi?",
+   "a": [
+    "H ga parallel kesuvchi tekislik",
+    "V ga parallel kesuvchi tekislik",
+    "W ga parallel kesuvchi tekislik",
+    "Qiya tekislik"
+   ],
+   "e": "Frontal qirqim V ga, profil qirqim W ga parallel tekislik bilan bajariladi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Mahalliy qirqim deb nimaga aytiladi?",
+   "a": [
+    "Buyumning cheklangan joyidagi qirqim",
+    "Buyumni to'liq kesuvchi qirqim",
+    "Ikkita tekislik bilan bajarilgan qirqim",
+    "Aksonometriyadagi qirqim"
+   ],
+   "e": "Mahalliy qirqim to'lqinsimon chiziq bilan chegaralanadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Bo'ylama qirqimda yupqa devorlar (qovurg'alar) qanday tasvirlanadi?",
+   "a": [
+    "Shtrixlanmaydi",
+    "To'liq shtrixlanadi",
+    "Qora bo'yaladi",
+    "Shtrix chiziq bilan chiziladi"
+   ],
+   "e": "Qovurg'a va yupqa devorlar bo'ylama qirqimda qirqilmagandek ko'rsatiladi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Ustiga qo'yilgan kesim konturi qanday chiziladi?",
+   "a": [
+    "Ingichka tutash chiziq bilan",
+    "Asosiy yo'g'on tutash chiziq bilan",
+    "Shtrix chiziq bilan",
+    "Uzuq chiziq bilan"
+   ],
+   "e": "Chiqarilgan kesim esa yo'g'on chiziq bilan."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Kesim tasvirida teshik yoki chuqurchani kesuvchi tekislik o'qi orqali o'tsa, nima qilinadi?",
+   "a": [
+    "Teshik konturi to'liq ko'rsatiladi",
+    "Teshik umuman ko'rsatilmaydi",
+    "Kesim butunlay olib tashlanadi",
+    "Teshik shtrix chiziq bilan ko'rsatiladi"
+   ],
+   "e": "Aylanish sirtli teshik va chuqurchalar konturi kesimda to'liq chiziladi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Uzun bir xil kesimli detallar (val, quvur) chizmada qanday tasvirlanadi?",
+   "a": [
+    "Uzilish bilan qisqartirilib",
+    "Albatta to'liq uzunlikda, kichik masshtabda",
+    "Faqat aksonometriyada",
+    "Faqat ko'rinishsiz o'lcham bilan"
+   ],
+   "e": "O'lcham chizig'iga to'liq uzunlik yoziladi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Tekis sirtlarni ajratib ko'rsatish uchun nima chiziladi?",
+   "a": [
+    "Ingichka diagonal chiziqlar",
+    "Yo'g'on aylanalar",
+    "Shtrixlash 45° ostida, zich qadamda",
+    "To'lqinsimon chiziqlar"
+   ],
+   "e": "Masalan, val uchidagi kvadrat yuzalar diagonal chiziqlar bilan belgilanadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Ko'rinishlar yetarli bo'lmagan hollarda buyumni to'liq tasvirlash uchun nima ishlatiladi?",
+   "a": [
+    "Qirqim, kesim va chiqarma elementlar",
+    "Ko'proq rang va bezaklar",
+    "Faqat matnli tavsif va buyum fotosurati",
+    "Chizmani kattaroq formatga ko'chirish"
+   ],
+   "e": "Ko'rinishlar soni minimal, lekin yetarli bo'lishi kerak."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Izometriyada kubning qirralari qanday tasvirlanadi (keltirilgan koeffitsientda)?",
+   "a": [
+    "Uchala o'q bo'yicha teng uzunlikda",
+    "x o'qi bo'yicha ikki baravar uzun, qolganlari teng",
+    "y o'qi bo'yicha yarim, qolganlari teng",
+    "Hammasi turli uzunlikda"
+   ],
+   "e": "Izometriya — barcha o'qlar bo'yicha bir xil buzilish."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "To'g'ri burchakli dimetriyada x o'qi gorizontalga nisbatan qanday burchak ostida joylashadi?",
+   "a": [
+    "7°10'",
+    "30°",
+    "45°",
+    "41°25'"
+   ],
+   "e": "y o'qi 41°25' burchak ostida."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Izometriyada gorizontal tekislikdagi aylana tasviri — ellipsning katta o'qi qanday yo'nalgan?",
+   "a": [
+    "Gorizontal",
+    "Vertikal",
+    "45° ostida",
+    "30° ostida"
+   ],
+   "e": "Ellipsning katta o'qi tekislikka perpendikulyar bo'lgan aksonometrik o'qqa perpendikulyar."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Izometriyada keltirilgan koeffitsient bilan chizilganda ellipsning katta o'qi aylana diametriga nisbatan qancha?",
+   "a": [
+    "1,22d",
+    "0,5d",
+    "0,71d",
+    "2d"
+   ],
+   "e": "Kichik o'qi 0,71d."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Qiyshiq burchakli frontal izometriyada y o'qi bo'yicha koeffitsient qancha?",
+   "a": [
+    "1",
+    "0,5",
+    "0,82",
+    "0,47"
+   ],
+   "e": "Frontal dimetriyada esa y bo'yicha 0,5."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Texnik rasm deb nimaga aytiladi?",
+   "a": [
+    "Aksonometriya qoidalari asosida qo'lda bajarilgan ko'rgazmali tasvir",
+    "Chizma asboblari bilan aniq masshtabda bajarilgan ortogonal proyeksiya",
+    "Faqat rangli fotosurat",
+    "Faqat kompyuterda bajarilgan 3D model"
+   ],
+   "e": "Texnik rasm ko'z bilan chamalab bajariladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Rezba qadami deb nimaga aytiladi?",
+   "a": [
+    "Qo'shni o'ramlar mos nuqtalari orasidagi o'q bo'ylab masofa",
+    "Rezbaning tashqi diametri va ichki diametri orasidagi farqning yarmi",
+    "Rezba uzunligi",
+    "Rezba profili burchagi"
+   ],
+   "e": "Ko'p yo'lli rezbada yo'l = qadam × yo'llar soni."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Rezba yo'li (xod) nima?",
+   "a": [
+    "Bir to'liq aylanishda o'q bo'ylab siljish",
+    "Rezbaning tashqi diametri va ichki diametri farqining yarmi",
+    "Rezba boshlanishidagi fasska",
+    "Rezbaning tugash joyi"
+   ],
+   "e": "Bir yo'lli rezbada yo'l qadamga teng."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Tirak (upornaya) rezba qanday belgilanadi?",
+   "a": [
+    "S",
+    "Tr",
+    "M",
+    "G"
+   ],
+   "e": "Tirak rezba bir tomonlama katta yuklamali mexanizmlarda ishlatiladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Konussimon quvur rezbasi qanday belgilanadi?",
+   "a": [
+    "R (tashqi) yoki Rc (ichki)",
+    "M (metrik belgi bilan)",
+    "Tr",
+    "S"
+   ],
+   "e": "Silindrik quvur rezbasi G bilan belgilanadi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Gayka nima?",
+   "a": [
+    "Ichki rezbali teshikka ega detal",
+    "Tashqi rezbali va olti qirrali kallakli sterjen",
+    "Rezbasiz halqa",
+    "Ikki uchida rezbasi bor sterjen"
+   ],
+   "e": "Gayka bolt yoki shpilkaga buraladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Vint boltdan nimasi bilan farq qiladi?",
+   "a": [
+    "Detalning rezbali teshigiga gaykasiz buraladi",
+    "Har doim gayka bilan ishlatiladi va kallagi bo'lmaydi",
+    "Rezbasi bo'lmaydi",
+    "Faqat yog'ochga qoqiladi"
+   ],
+   "e": "Vintlar kallagi shaklining ko'p turlari mavjud."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Parchinli birikma qanday birikmalarga kiradi?",
+   "a": [
+    "Ajralmaydigan",
+    "Ajraladigan",
+    "Harakatlanuvchi",
+    "Rezbali"
+   ],
+   "e": "Parchin yig'ilgach, uni faqat buzib ajratish mumkin."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Shlitsli birikma shponkaliga nisbatan qanday afzallikka ega?",
+   "a": [
+    "Katta momentni uzatadi va markazlashtirishi aniq",
+    "Tayyorlash ancha oson va arzon, lekin kichik moment uzatadi",
+    "Faqat bezak uchun ishlatiladi",
+    "Hech qanday afzalligi yo'q"
+   ],
+   "e": "Shlitslar val bilan yaxlit qilib tayyorlanadi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Payvand chokning ko'rinadigan tomoni chizmada qanday chiziq bilan ko'rsatiladi?",
+   "a": [
+    "Asosiy yo'g'on tutash chiziq",
+    "Shtrix chiziq",
+    "Ingichka shtrix-punktir chiziq",
+    "To'lqinsimon chiziq"
+   ],
+   "e": "Ko'rinmas chok shtrix chiziq bilan ko'rsatiladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda koordinatalarni nisbiy kiritish uchun qaysi belgi ishlatiladi?",
+   "a": [
+    "@",
+    "#",
+    "$",
+    "%"
+   ],
+   "e": "Masalan, @50,0 — oldingi nuqtadan x bo'yicha 50 birlik."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda qutbiy koordinatalar qanday kiritiladi?",
+   "a": [
+    "@masofa<burchak",
+    "@burchak,masofa",
+    "masofa#burchak",
+    "burchak%masofa"
+   ],
+   "e": "Masalan, @100<30."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda bekor qilish (undo) uchun qaysi tugmalar kombinatsiyasi ishlatiladi?",
+   "a": [
+    "Ctrl+Z",
+    "Ctrl+P",
+    "Ctrl+S",
+    "Ctrl+N"
+   ],
+   "e": "Ctrl+S — saqlash, Ctrl+P — chop etish."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Model fazosi (Model space) va qog'oz fazosi (Layout) farqi nimada?",
+   "a": [
+    "Modelda chiziladi, layoutda chop etish uchun varaq tayyorlanadi",
+    "Modelda faqat matn yoziladi, layoutda esa barcha chizmalar yaratiladi va tahrirlanadi",
+    "Ular o'rtasida hech qanday farq yo'q",
+    "Layout faqat 3D modellashtirish uchun"
+   ],
+   "e": "Layoutda ko'rish oynalari (viewport) orqali model turli masshtabda ko'rsatiladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda blok (BLOCK) nima?",
+   "a": [
+    "Bir nechta obyektdan tuzilgan nomlangan guruh",
+    "Chizmani qulflash buyrug'i",
+    "Faylni yopish va chizmani arxivlash buyrug'i",
+    "Qatlamni o'chirish buyrug'i"
+   ],
+   "e": "Bloklar takrorlanuvchi elementlar (bolt, eshik va h.k.) uchun qulay."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda blokni alohida obyektlarga ajratish buyrug'i qaysi?",
+   "a": [
+    "EXPLODE",
+    "JOIN",
+    "GROUP",
+    "INSERT"
+   ],
+   "e": "INSERT — blokni chizmaga qo'yish."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Rastr tasvir sifati asosan qaysi ko'rsatkich bilan belgilanadi?",
+   "a": [
+    "Ruxsat etish qobiliyati (dpi)",
+    "Fayl nomining uzunligi va kengaytmasi",
+    "Vektorlar soni",
+    "Qatlamlar soni"
+   ],
+   "e": "Dpi — dyuymdagi nuqtalar soni."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Vektor grafika fayl formatiga misol keltiring.",
+   "a": [
+    "SVG",
+    "JPEG",
+    "BMP",
+    "PNG"
+   ],
+   "e": "JPEG, BMP, PNG — rastr formatlar."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "3D modelni ko'rgazmali qilish uchun yorug'lik, material va soyalar bilan tasvirlash qanday nomlanadi?",
+   "a": [
+    "Vizualizatsiya (render)",
+    "Detallashtirish (ishchi chizma olish)",
+    "Shtrixlash",
+    "Eskizlash"
+   ],
+   "e": "Render natijasida fotorealistik tasvir olinadi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Parametrik modellashtirishning mohiyati nima?",
+   "a": [
+    "O'lchamlar va bog'lanishlar o'zgarsa, model avtomatik qayta quriladi",
+    "Model faqat bir marta yaratiladi va uni o'zgartirib bo'lmaydi",
+    "Model faqat rastr tasvirlardan yig'iladi va o'lchamlari qo'lda chiziladi",
+    "Model o'lchamsiz yaratiladi"
+   ],
+   "e": "KOMPAS-3D, SolidWorks, Inventor parametrik tizimlardir."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "BIM texnologiyasi qaysi sohada qo'llaniladi?",
+   "a": [
+    "Qurilishda binoning axborot modelini yaratishda",
+    "Faqat musiqa yozish va ovozni tahrirlashda",
+    "Buxgalteriya hisobida",
+    "Tibbiy diagnostikada"
+   ],
+   "e": "BIM dasturlariga Revit, ArchiCAD misol bo'ladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "CNC (raqamli dasturli boshqaruv) dastgohlari uchun boshqaruv dasturi qanday tayyorlanadi?",
+   "a": [
+    "CAM tizimida model asosida",
+    "Qo'lda chizilgan eskizni skanerlash orqali",
+    "Faqat matn muharririda tasodifiy kod yozish orqali",
+    "Dastur talab qilinmaydi"
+   ],
+   "e": "CAM tizimlari asbob harakat traektoriyasini (G-kod) yaratadi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Chizma formatlari qaysi o'lchamlar asosida aniqlanadi?",
+   "a": [
+    "Ramkaning tashqi chiziqlari bo'yicha",
+    "Asosiy yozuvning o'lchamlari bo'yicha, ramkadan qat'i nazar",
+    "Varaqdagi tasvirlar soni bo'yicha",
+    "Chizma masshtabi bo'yicha"
+   ],
+   "e": "Format — chizma varag'ining tashqi ramkasi o'lchamlari."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Qo'shimcha formatlar qanday hosil qilinadi?",
+   "a": [
+    "Asosiy format qisqa tomonini butun songa karrali oshirib",
+    "Asosiy formatni ixtiyoriy kesib olib",
+    "Faqat A0 formatini ikki va undan ortiq baravar kattalashtirib, uzun tomoni bo'yicha",
+    "Qo'shimcha formatlar ishlatilmaydi"
+   ],
+   "e": "Masalan, A4×3 formati 297×630 mm."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Chizmada tasvirni kattalashtirib ko'rsatish uchun qaysi masshtab ishlatilmaydi?",
+   "a": [
+    "3:1",
+    "2:1",
+    "5:1",
+    "10:1"
+   ],
+   "e": "Standart kattalashtirish qatorida 3:1 yo'q."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Chizmada barcha o'lchamlar qaysi masshtabda yoziladi?",
+   "a": [
+    "Haqiqiy o'lchamda (1:1 ga mos son)",
+    "Tasvir masshtabiga ko'paytirilgan holda",
+    "Masshtabga bo'lingan holda",
+    "Ixtiyoriy tarzda"
+   ],
+   "e": "Masshtab faqat tasvir hajmini belgilaydi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Ikki nuqtali ingichka shtrix-punktir chiziq nima uchun ishlatiladi?",
+   "a": [
+    "Yoyilmalarda bukish chiziqlari va harakatlanuvchi qismlarning chetki holatlari",
+    "Ko'rinadigan konturlar, qirqim chegaralari va kesuvchi tekisliklar izlari uchun",
+    "O'lcham chiziqlari uchun",
+    "Shtrixlash chiziqlari uchun"
+   ],
+   "e": "Masalan, richagning chetki holati ikki nuqtali chiziq bilan ko'rsatiladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Shtrixlash chiziqlari qanday chiziq turi bilan chiziladi?",
+   "a": [
+    "Ingichka tutash",
+    "Asosiy yo'g'on tutash",
+    "Shtrix",
+    "Ingichka shtrix-punktir"
+   ],
+   "e": "Shtrixlar orasidagi masofa 1–10 mm."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Chizmada yozuvlar va o'lcham sonlari uchun eng kichik shrift o'lchami qancha bo'lishi tavsiya etiladi?",
+   "a": [
+    "2,5",
+    "1",
+    "1,5",
+    "10"
+   ],
+   "e": "Odatda o'lcham sonlari 3,5 yoki 5 shrift bilan yoziladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Aylana diametri 12 mm dan kichik bo'lsa, markaz chiziqlari qanday chiziladi?",
+   "a": [
+    "Ingichka tutash chiziq bilan",
+    "Ikki nuqtali shtrix-punktir chiziq bilan",
+    "Asosiy yo'g'on tutash chiziq bilan",
+    "Umuman chizilmaydi va markaz belgilanmaydi"
+   ],
+   "e": "Kichik aylanalarda shtrix-punktir o'rniga ingichka tutash chiziq ishlatiladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Yoy radiusi o'lchami qanday qo'yiladi?",
+   "a": [
+    "R belgisi va son bilan, strelka yoyga qo'yiladi",
+    "⌀ belgisi bilan, strelka esa yoy markaziga qaratib qo'yiladi va radius yozilmaydi",
+    "Faqat son bilan, belgisiz",
+    "□ belgisi bilan"
+   ],
+   "e": "O'lcham chizig'i yoy markazidan o'tadi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Ma'lumot uchun berilgan o'lcham chizmada qanday belgilanadi?",
+   "a": [
+    "\"*\" belgisi bilan va texnik talablarda izohlanadi",
+    "Qavs ichida, qizil rangda va alohida jadvalda takrorlanadi",
+    "Doira ichida",
+    "Belgilanmaydi"
+   ],
+   "e": "Ma'lumot uchun o'lchamlar tayyorlashda nazorat qilinmaydi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Proyeksion bog'lanishdagi uch ko'rinishda qaysi o'lchamlar teng bo'ladi?",
+   "a": [
+    "Bosh ko'rinish va ustidan ko'rinishda uzunlik",
+    "Bosh ko'rinish va ustidan ko'rinishda balandlik",
+    "Ustidan va chapdan ko'rinishda uzunlik",
+    "Hech qaysi o'lcham teng bo'lmaydi"
+   ],
+   "e": "Bosh va chapdan ko'rinishda balandlik, ustidan va chapdan ko'rinishda kenglik teng."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Ko'rinishlarni qurishda ustidan va chapdan ko'rinish orasida kenglikni ko'chirish uchun nima ishlatiladi?",
+   "a": [
+    "45° li doimiy to'g'ri chiziq",
+    "Sirkul bilan aylana chizish",
+    "Transportir bilan 30° qo'yish",
+    "Masshtab chizg'ichi"
+   ],
+   "e": "Doimiy to'g'ri chiziq kenglik o'lchamlarini uzatishni osonlashtiradi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Nuqtaning H tekisligidan uzoqligi qaysi koordinata bilan aniqlanadi?",
+   "a": [
+    "z",
+    "x",
+    "y",
+    "x va y birga"
+   ],
+   "e": "z — balandlik, y — chuqurlik (V dan masofa), x — W dan masofa."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Nuqtaning V tekisligidan uzoqligi qaysi koordinata bilan aniqlanadi?",
+   "a": [
+    "y",
+    "z",
+    "x",
+    "Hech qaysi"
+   ],
+   "e": "y — chuqurlik."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "To'g'ri chiziqning izi nima?",
+   "a": [
+    "Proyeksiya tekisligi bilan kesishish nuqtasi",
+    "Proyeksiya tekisligiga parallel bo'lgan chiziq",
+    "Chiziqning eng uzun qismi",
+    "Chiziqning aksonometrik tasviri"
+   ],
+   "e": "Gorizontal iz — H bilan, frontal iz — V bilan kesishish nuqtasi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Ikki tekislik kesishganda nima hosil bo'ladi?",
+   "a": [
+    "To'g'ri chiziq",
+    "Nuqta",
+    "Aylana",
+    "Ikki tarmoqli egri chiziq (giperbola)"
+   ],
+   "e": "Kesishish chizig'i ikki tekislik uchun umumiy."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Kesik piramida (asosi H ga parallel) frontal proyeksiyasi qanday shaklda?",
+   "a": [
+    "Trapetsiya",
+    "Uchburchak",
+    "Aylana",
+    "Romb"
+   ],
+   "e": "Kesik konus ham frontal proyeksiyada trapetsiya ko'rinishida."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Konusni asosiga parallel tekislik bilan kesganda qanday kesim hosil bo'ladi?",
+   "a": [
+    "Aylana",
+    "Ellips",
+    "Parabola",
+    "Giperbola"
+   ],
+   "e": "O'qqa og'ma tekislik (yasovchilarni kessa) ellips beradi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Konus uchidan o'tuvchi tekislik bilan kesganda qanday kesim hosil bo'ladi?",
+   "a": [
+    "Uchburchak",
+    "Aylana",
+    "Ellips",
+    "Parabola"
+   ],
+   "e": "Kesim ikki yasovchi bo'ylab o'tadi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Sferani istalgan tekislik bilan kesganda qanday kesim hosil bo'ladi?",
+   "a": [
+    "Aylana",
+    "Ellips",
+    "Parabola",
+    "Kvadrat"
+   ],
+   "e": "Kesim proyeksiyasi esa tekislik holatiga qarab ellips bo'lishi mumkin."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Prizma yon sirtining yoyilmasi qanday shaklda bo'ladi?",
+   "a": [
+    "To'g'ri to'rtburchaklar qatori",
+    "Aylana sektori",
+    "Uchburchaklar yelpig'ichi, umumiy uchda tutashgan holda",
+    "Ellips"
+   ],
+   "e": "Silindr yon sirti yoyilmasi to'g'ri to'rtburchak, konusniki — aylana sektori."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Konus yon sirti yoyilmasi qanday shaklda bo'ladi?",
+   "a": [
+    "Aylana sektori",
+    "To'g'ri to'rtburchak",
+    "Kvadrat",
+    "Trapetsiya"
+   ],
+   "e": "Sektor radiusi konus yasovchisi uzunligiga teng."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Silindr yon sirti yoyilmasining uzunligi nimaga teng?",
+   "a": [
+    "πd",
+    "d",
+    "2d",
+    "πd²/4"
+   ],
+   "e": "Balandligi silindr balandligiga teng."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Qirqim tasviri ustidagi \"A–A\" yozuvi nimani bildiradi?",
+   "a": [
+    "Kesuvchi tekislik belgisini",
+    "Chizma masshtabini",
+    "Detal materiali va termik ishlov turini",
+    "Varaqlar sonini"
+   ],
+   "e": "Kesuvchi tekislik chizmada xuddi shu harflar bilan belgilanadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Qirqimda shtrixlash nima uchun qo'llaniladi?",
+   "a": [
+    "Kesuvchi tekislikka tushgan qismni ajratish uchun",
+    "Chizmani bezash va chiroyli ko'rsatish uchun",
+    "Ko'rinmas konturlarni ajratish va ularni ko'rinadigan konturdan farqlash uchun",
+    "O'lchamlarni ajratish uchun"
+   ],
+   "e": "Kesimga tushgan detal qismi shtrixlanadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Qirqimda ko'rinmas kontur chiziqlari odatda chiziladimi?",
+   "a": [
+    "Chizilmaydi",
+    "Har doim chiziladi",
+    "Faqat qizil rangda chiziladi",
+    "Faqat yo'g'on chiziq bilan chiziladi"
+   ],
+   "e": "Qirqim ichki tuzilishni ko'rinadigan qilib ko'rsatadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Siniq qirqimda kesuvchi tekisliklar qanday joylashadi?",
+   "a": [
+    "O'zaro kesishadi",
+    "O'zaro parallel joylashadi",
+    "Faqat gorizontal joylashadi",
+    "Bir-biriga ustma-ust tushadi"
+   ],
+   "e": "Qiya tekislik asosiy tekislik bilan birlashgunga qadar buriladi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Ko'rinish strelka bilan qachon belgilanadi?",
+   "a": [
+    "Asosiy ko'rinishlar proyeksion bog'lanishdan chetga chiqarilganda",
+    "Har bir chizmada barcha ko'rinishlar, shu jumladan bosh ko'rinish ham strelka bilan belgilanadi",
+    "Faqat bosh ko'rinish belgilanadi",
+    "Hech qachon"
+   ],
+   "e": "Ko'rinish ustiga \"A\" kabi harf yoziladi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Aylantirilgan tasvir belgisida qanday shartli belgi qo'shiladi?",
+   "a": [
+    "Aylantirilgan belgisi (aylana strelkasi)",
+    "Faqat masshtab va burilish yo'nalishi matni",
+    "⌀ belgisi",
+    "R belgisi"
+   ],
+   "e": "Belgi ostida burilish burchagi ham ko'rsatilishi mumkin."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Kesim belgilanmasligi mumkin bo'lgan holat qaysi?",
+   "a": [
+    "Simmetrik ustiga qo'yilgan yoki uzilishdagi kesim",
+    "Har qanday chiqarilgan nosimmetrik kesim, agar u chizmaning bo'sh joyida tursa",
+    "Barcha kesimlar albatta belgilanadi",
+    "Faqat murakkab kesimlar"
+   ],
+   "e": "Nosimmetrik kesimlar kesuvchi tekislik izi va strelka bilan belgilanadi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Aksonometrik o'qlar qaysi o'qlarning proyeksiyasi?",
+   "a": [
+    "Buyumga bog'langan x, y, z koordinata o'qlarining",
+    "Chizma ramkasi tomonlarining",
+    "Faqat buyumning simmetriya o'qlarining",
+    "Proyeksiya tekisligining chegaralari va ramka chiziqlari"
+   ],
+   "e": "Aksonometrik proyeksiya buyum va uning koordinata o'qlari birga proyeksiyalanishidan hosil bo'ladi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Qaysi aksonometriyada uchala o'q bo'yicha buzilish bir xil?",
+   "a": [
+    "Izometriya",
+    "Dimetriya",
+    "Trimetriya",
+    "Frontal dimetriya"
+   ],
+   "e": "Dimetriyada ikki o'q bo'yicha, trimetriyada barcha o'qlarda buzilish har xil."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Trimetriya deb qanday aksonometriyaga aytiladi?",
+   "a": [
+    "Uchala o'q bo'yicha buzilish turlicha",
+    "Uchala o'q bo'yicha buzilish bir xil",
+    "Ikki o'q bo'yicha buzilish bir xil",
+    "Faqat frontal tekislikdagi shakllar buzilmaydigan qiyshiq proyeksiya"
+   ],
+   "e": "Trimetriya amalda kam qo'llaniladi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Izometriyada aylanalarni oval bilan almashtirishning sababi nima?",
+   "a": [
+    "Ovalni sirkul bilan chizish osonroq",
+    "Oval ellipsdan aniqroq tasvir beradi",
+    "Standart ellipsni taqiqlaydi",
+    "Ovalni chizish uchun lekalo kerak"
+   ],
+   "e": "Oval to'rtta yoydan yasaladi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Dimetriyada frontal tekislikdagi aylana qanday tasvirlanadi?",
+   "a": [
+    "Ellips",
+    "Buzilmagan aylana",
+    "Kvadrat",
+    "To'g'ri chiziq"
+   ],
+   "e": "Frontal dimetriyadan farqli ravishda to'g'ri burchakli dimetriyada barcha tekisliklardagi aylana ellips bo'ladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Rezbaning tugash chegarasi chizmada qanday chiziladi?",
+   "a": [
+    "Asosiy yo'g'on chiziq bilan",
+    "Shtrix chiziq bilan",
+    "Ingichka to'lqinsimon chiziq bilan",
+    "Chizilmaydi"
+   ],
+   "e": "Rezba chegarasi ko'rinish yoki qirqimda yo'g'on chiziq bilan ko'rsatiladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Rezbali birikmada (sterjen teshikka buralgan) qirqimda qaysi rezba tasvirlanadi?",
+   "a": [
+    "Sterjen rezbasi teshik rezbasini yopadi",
+    "Teshik rezbasi sterjen rezbasini yopadi",
+    "Ikkala rezba ham ko'rsatilmaydi",
+    "Faqat yozuv bilan ko'rsatiladi"
+   ],
+   "e": "Teshik rezbasi faqat sterjen bilan to'ldirilmagan qismida ko'rsatiladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Ko'p yo'lli rezba belgilanishida nima ko'rsatiladi?",
+   "a": [
+    "Yo'l va qadam",
+    "Faqat diametr",
+    "Faqat material",
+    "Faqat aniqlik sinfi"
+   ],
+   "e": "Masalan, Tr20×8(P4) — yo'l 8 mm, qadam 4 mm."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "G 1/2 belgisi nimani bildiradi?",
+   "a": [
+    "Shartli o'lchami 1/2 dyuym bo'lgan silindrik quvur rezbasi",
+    "Diametri 1/2 mm bo'lgan metrik rezba",
+    "Qadami 1/2 mm bo'lgan bir yo'lli trapetsiyasimon yugurdak rezbasi",
+    "Yarim o'ramli rezba"
+   ],
+   "e": "Quvur rezbasining shartli o'lchami quvurning ichki teshigiga bog'liq."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Gayka ostiga prujinali shayba qo'yishdan maqsad nima?",
+   "a": [
+    "Gaykaning o'z-o'zidan bo'shab ketishining oldini olish",
+    "Gaykani kalitsiz, qo'l bilan tezroq burab mahkamlash imkonini berish",
+    "Rezbani bo'yash",
+    "Birikmani ajralmaydigan qilish"
+   ],
+   "e": "Kontrgayka va shplint ham shu maqsadda ishlatiladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Shtift nima uchun ishlatiladi?",
+   "a": [
+    "Detallarni aniq joylashtirish va qotirish uchun",
+    "Momentni uzatish uchun val va g'ildirakni payvandlash uchun",
+    "Rezbani kesish uchun",
+    "Bosimni o'lchash uchun"
+   ],
+   "e": "Silindrik va konussimon shtiftlar mavjud."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Kavsharlangan birikma chizmada qanday ko'rsatiladi?",
+   "a": [
+    "Yo'g'on chiziq va yo'naltiruvchi chiziqdagi yarim aylana belgisi bilan",
+    "Shtrix chiziq va yo'naltiruvchi chiziqdagi doira belgisi bilan",
+    "Faqat matn bilan",
+    "Ko'rsatilmaydi"
+   ],
+   "e": "Yelimli birikma esa \"K\" ga o'xshash belgi bilan ko'rsatiladi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Eskiz bajarishning birinchi bosqichi qaysi?",
+   "a": [
+    "Detal shaklini tahlil qilib, bosh ko'rinishni tanlash",
+    "Darhol detalning barcha o'lchamlarini o'lchab, sonlarini yozib chiqish",
+    "Asosiy yozuvni to'ldirish",
+    "Shtrixlashni bajarish"
+   ],
+   "e": "So'ng tasvirlar joylashtiriladi, chiziladi, o'lchamlar qo'yiladi va o'lchanadi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Eskizda o'lchamlar qachon o'lchanadi?",
+   "a": [
+    "O'lcham chiziqlari chizilgandan keyin",
+    "Eskiz boshlanishidan oldin, tasvirlarsiz",
+    "Hech qachon, eskizda o'lchamlar qo'yilmaydi",
+    "Faqat ishchi chizma tayyor bo'lganda"
+   ],
+   "e": "Avval barcha o'lcham chiziqlari chiziladi, so'ng detal o'lchanib sonlar yoziladi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Detallar o'lchamlarini o'lchashda ishlatiladigan asbob qaysi?",
+   "a": [
+    "Shtangensirkul",
+    "Transportir faqat",
+    "Lupa",
+    "Sirkul-o'lchagich faqat"
+   ],
+   "e": "Shtangensirkul 0,1 yoki 0,05 mm aniqlikda o'lchaydi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Ishchi chizmada dopusk (chetga chiqish) nima uchun ko'rsatiladi?",
+   "a": [
+    "O'lchamning ruxsat etilgan chegaralarini belgilash uchun",
+    "Detalning tannarxini va unga sarflanadigan material miqdorini hisoblash uchun",
+    "Detal og'irligini ko'rsatish uchun",
+    "Chizma masshtabini belgilash uchun"
+   ],
+   "e": "Masalan, ⌀20±0,1."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Ø20H7 belgisidagi H7 nimani bildiradi?",
+   "a": [
+    "Teshik uchun dopusk maydoni",
+    "Val uchun dopusk maydoni va o'tqazish turi",
+    "Rezba qadami",
+    "Sirt g'adir-budurligi"
+   ],
+   "e": "Katta harf — teshik, kichik harf — val."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "O'lchamlar qo'yishning qanday usullari mavjud?",
+   "a": [
+    "Zanjirli, koordinatali va kombinatsiyalangan",
+    "Faqat diagonal va aylanma usullar",
+    "Faqat matnli",
+    "Rangli va oq-qora"
+   ],
+   "e": "Koordinatali usulda o'lchamlar bitta bazadan qo'yiladi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "O'lcham bazasi deb nimaga aytiladi?",
+   "a": [
+    "O'lchamlar hisoblanadigan sirt, chiziq yoki nuqta",
+    "Chizma varag'ining chap pastki burchagi yoki ramka chizig'i",
+    "Asosiy yozuv",
+    "Eng katta o'lcham"
+   ],
+   "e": "Konstruktorlik va texnologik bazalar ajratiladi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Yig'ish chizmasini o'qish nimadan boshlanadi?",
+   "a": [
+    "Asosiy yozuv va spetsifikatsiya bilan tanishishdan",
+    "Darhol detallarni ajratib, ularning ishchi chizmalarini chizishdan",
+    "O'lchamlarni hisoblashdan",
+    "Shtrixlarni sanashdan"
+   ],
+   "e": "So'ng tasvirlar tahlil qilinib, ishlash printsipi aniqlanadi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Yig'ish chizmalarida soddalashtirishlarga nima kiradi?",
+   "a": [
+    "Fasska, galtel kabi mayda elementlarni ko'rsatmaslik",
+    "Barcha detallarni to'liq va eng mayda elementlari bilan ko'rsatish",
+    "Hech qanday soddalashtirish ruxsat etilmaydi",
+    "Faqat rangli tasvirlash"
+   ],
+   "e": "GOST 2.109 yig'ish chizmalaridagi soddalashtirishlarni belgilaydi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Yig'ish chizmasida bir xil standart detallar guruhi (masalan, bir xil boltlar) qanday ko'rsatiladi?",
+   "a": [
+    "Bittasi to'liq, qolganlari markaz chiziqlari bilan",
+    "Har biri to'liq va alohida pozitsiya raqami bilan, takrorlanib",
+    "Umuman ko'rsatilmaydi",
+    "Faqat spetsifikatsiyada, chizmada emas"
+   ],
+   "e": "Bu soddalashtirish chizmani o'qishni osonlashtiradi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Spetsifikatsiyaning \"Poz.\" ustunida nima yoziladi?",
+   "a": [
+    "Tarkibiy qismlarning pozitsiya raqamlari",
+    "Detallarning og'irligi va materiallar sarfi",
+    "Detallarning narxi",
+    "Ishlab chiqaruvchi nomi"
+   ],
+   "e": "\"Kol.\" ustunida soni, \"Oboznacheniye\" ustunida belgisi yoziladi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Umumiy ko'rinish chizmasi yig'ish chizmasidan nimasi bilan farq qiladi?",
+   "a": [
+    "Buyum konstruksiyasi va ishlash printsipini ko'rsatadi",
+    "U faqat bitta detalning to'liq ishchi chizmasi hisoblanadi",
+    "U chop etilmaydi",
+    "U faqat aksonometriyada bajariladi"
+   ],
+   "e": "Umumiy ko'rinish chizmasi loyihalash bosqichida bajariladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda aylana chizish buyrug'i qaysi?",
+   "a": [
+    "CIRCLE",
+    "ARC",
+    "ELLIPSE",
+    "POLYGON"
+   ],
+   "e": "ARC — yoy, POLYGON — muntazam ko'pburchak."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda obyektni ko'zgu aksida nusxalash buyrug'i qaysi?",
+   "a": [
+    "MIRROR",
+    "COPY",
+    "OFFSET",
+    "ROTATE"
+   ],
+   "e": "Simmetrik detallarda yarmini chizib MIRROR qo'llaniladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda obyektni masshtablash buyrug'i qaysi?",
+   "a": [
+    "SCALE",
+    "STRETCH",
+    "ZOOM",
+    "PAN"
+   ],
+   "e": "ZOOM faqat ekrandagi ko'rinishni kattalashtiradi, obyekt o'lchamini o'zgartirmaydi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "ZOOM buyrug'i nima qiladi?",
+   "a": [
+    "Ekrandagi ko'rinishni kattalashtiradi yoki kichraytiradi",
+    "Obyektning haqiqiy o'lchamini chizmada berilgan koeffitsientga o'zgartiradi",
+    "Obyektni o'chiradi",
+    "Obyektni boshqa qatlamga o'tkazadi"
+   ],
+   "e": "SCALE esa obyekt o'lchamini o'zgartiradi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Polilinya (PLINE) oddiy chiziqdan nimasi bilan farq qiladi?",
+   "a": [
+    "Bir nechta segment yagona obyekt hisoblanadi",
+    "Faqat bitta kesmadan iborat bo'ladi va qalinlik bera olmaydi",
+    "Faqat egri chiziq bo'ladi",
+    "Chop etilmaydi"
+   ],
+   "e": "Polilinyaga qalinlik berish va yoy segmentlar qo'shish mumkin."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda matn yozish buyrug'i qaysi?",
+   "a": [
+    "MTEXT",
+    "DIMTEXT",
+    "LAYER",
+    "TABLE"
+   ],
+   "e": "TEXT — bir qatorli, MTEXT — ko'p qatorli matn."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Chizma shablonining kengaytmasi AutoCADda qanday?",
+   "a": [
+    ".dwt",
+    ".dwg",
+    ".dxf",
+    ".bak"
+   ],
+   "e": "Shablonda qatlamlar, shriftlar va o'lcham uslublari oldindan sozlanadi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Kompyuter grafikasida RGB modeli nimani bildiradi?",
+   "a": [
+    "Qizil, yashil, ko'k ranglar aralashmasi",
+    "Qora, oq va kulrang tuslarning turli aralashmalari",
+    "Sariq, ko'k, yashil",
+    "Rastr, grafik, bit"
+   ],
+   "e": "Bosmaxonada CMYK modeli ishlatiladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "3D modellashtirishda \"Boolean\" amallariga nima kiradi?",
+   "a": [
+    "Birlashtirish, ayirish, kesishma",
+    "Faqat bo'yash, rang berish va tekstura qo'shish",
+    "Faqat matn qo'shish",
+    "Faylni saqlash va ochish"
+   ],
+   "e": "AutoCADda UNION, SUBTRACT, INTERSECT buyruqlari."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Sirt (surface) modelining qattiq jism modelidan farqi nima?",
+   "a": [
+    "Faqat tashqi qobiq tavsiflanadi, ichki hajm yo'q",
+    "Massa va hajm xossalarini hisoblash imkonini beradi",
+    "Faqat chiziqlardan iborat bo'ladi",
+    "Rangsiz bo'ladi"
+   ],
+   "e": "Karkas model esa faqat qirralardan iborat."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Chizmani PDF formatida eksport qilishning afzalligi nima?",
+   "a": [
+    "Har qanday kompyuterda o'zgarmasdan ochiladi",
+    "Faylni tahrirlash va qatlamlarni o'zgartirish ancha osonlashadi",
+    "Fayl hajmi har doim ortadi",
+    "Faqat AutoCADda ochiladi"
+   ],
+   "e": "PDF hujjat almashinuvida keng ishlatiladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda qatlam xossalariga nima kiradi?",
+   "a": [
+    "Rang, chiziq turi va qalinligi",
+    "Faqat fayl nomi va saqlangan sanasi",
+    "Faqat masshtab",
+    "Faqat varaq formati"
+   ],
+   "e": "Qatlamni yashirish, muzlatish va qulflash ham mumkin."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Kompyuterda chizma bajarishning qo'lda bajarishdan asosiy afzalligi nima?",
+   "a": [
+    "Aniqlik, tezkor tahrir va nusxalash",
+    "Chizma asboblari va qog'oz ko'proq kerak bo'ladi",
+    "Chizmani o'zgartirib bo'lmaydi",
+    "Standartlarga rioya qilish shart emas"
+   ],
+   "e": "Kompyuter chizmalari ham ESKD talablariga javob berishi kerak."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "A1 formatning o'lchamlari qanday?",
+   "a": [
+    "594×841 mm",
+    "420×594 mm",
+    "841×1189 mm",
+    "297×420 mm"
+   ],
+   "e": "A1 — A0 ning yarmi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "A2 formatning o'lchamlari qanday?",
+   "a": [
+    "420×594 mm",
+    "594×841 mm",
+    "297×420 mm",
+    "210×297 mm"
+   ],
+   "e": "A2 — A1 ning yarmi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Asosiy yozuvning standart (1-shakl) o'lchamlari qanday?",
+   "a": [
+    "185×55 mm",
+    "210×297 mm",
+    "100×40 mm",
+    "185×15 mm"
+   ],
+   "e": "Keyingi varaqlar uchun 185×15 mm li 2a shakl ishlatiladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Ramka chizig'i qanday chiziq bilan chiziladi?",
+   "a": [
+    "Asosiy yo'g'on tutash",
+    "Ingichka tutash",
+    "Shtrix",
+    "Shtrix-punktir"
+   ],
+   "e": "Asosiy yozuv chegaralari ham yo'g'on chiziq bilan chiziladi."
+  },
+  {
+   "b": "Chizma standartlari",
+   "q": "Tik (to'g'ri) shrift chizmalarda ishlatiladimi?",
+   "a": [
+    "Ha, qiya va tik shriftlar ruxsat etiladi",
+    "Yo'q, faqat qiya shrift ishlatiladi va tik shrift taqiqlanadi",
+    "Faqat qurilish chizmalarida, boshqalarida taqiqlanadi",
+    "Faqat sarlavhalarda"
+   ],
+   "e": "GOST 2.304 qiyaliksiz va 75° qiya shriftlarni belgilaydi."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Muntazam sakkizburchakni aylanaga ichki chizishda aylana qanday bo'linadi?",
+   "a": [
+    "Ikki perpendikulyar diametr va ularning bissektrisalari bilan",
+    "Radius bilan sakkiz marta o'lchab",
+    "Diametrni sakkizga bo'lib",
+    "Transportir bilan 60° dan"
+   ],
+   "e": "360°/8 = 45°."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Konuslik 1:5 nimani anglatadi?",
+   "a": [
+    "Uzunlik 5 birlikka ortsa, diametr 1 birlikka o'zgaradi",
+    "Konus balandligi diametrdan 5 marta katta",
+    "Konus uchidagi burchak 5°",
+    "Konus asosi 5 mm"
+   ],
+   "e": "K = (D−d)/l."
+  },
+  {
+   "b": "Geometrik yasashlar",
+   "q": "Nishablik 1:10 nimani anglatadi?",
+   "a": [
+    "Gorizontal 10 birlikka siljiganda balandlik 1 birlikka o'zgaradi",
+    "Burchak 10 gradusga teng",
+    "Uzunlik 10 mm, balandlik 1 m",
+    "Chiziq 10 bo'lakka bo'lingan"
+   ],
+   "e": "Nishablik — katetlar nisbati."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Profil proyeksiya tekisligiga parallel to'g'ri chiziq qanday nomlanadi?",
+   "a": [
+    "Profil chiziq",
+    "Gorizontal chiziq",
+    "Frontal chiziq",
+    "Proyeksiyalovchi chiziq"
+   ],
+   "e": "Profil chiziq W ga haqiqiy uzunlikda proyeksiyalanadi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Ikki kesishuvchi to'g'ri chiziqning proyeksiyalari qanday xususiyatga ega?",
+   "a": [
+    "Kesishish nuqtalari bitta bog'lanish chizig'ida yotadi",
+    "Proyeksiyalari har doim parallel bo'ladi",
+    "Kesishish nuqtalari turli bog'lanish chiziqlarida yotadi",
+    "Proyeksiyalari har doim ustma-ust tushadi"
+   ],
+   "e": "Ayqash chiziqlarda bu shart bajarilmaydi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Ayqash to'g'ri chiziqlar deb qanday chiziqlarga aytiladi?",
+   "a": [
+    "Kesishmaydigan va parallel bo'lmagan chiziqlar",
+    "Bir nuqtada kesishadigan chiziqlar",
+    "O'zaro parallel chiziqlar",
+    "Ustma-ust tushadigan chiziqlar"
+   ],
+   "e": "Ayqash chiziqlar bir tekislikda yotmaydi."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Kub ko'rinishlarida ustidan ko'rinish qanday shaklda bo'ladi?",
+   "a": [
+    "Kvadrat",
+    "Uchburchak",
+    "Aylana",
+    "Romb"
+   ],
+   "e": "Kubning barcha ortogonal ko'rinishlari kvadrat."
+  },
+  {
+   "b": "Proyeksiyalash",
+   "q": "Silindr va prizma kesishishida kesishish chizig'i qanday nuqtalar yordamida yasaladi?",
+   "a": [
+    "Xarakterli va oraliq nuqtalar",
+    "Faqat bitta tasodifiy nuqta",
+    "Chizma ramkasi nuqtalari",
+    "Faqat aksonometrik nuqtalar"
+   ],
+   "e": "Avval eng yuqori, eng past, chetki nuqtalar topiladi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Ko'rinishlar soni qanday tanlanadi?",
+   "a": [
+    "Minimal, lekin buyum shaklini to'liq ochib beradigan",
+    "Har doim oltita asosiy ko'rinish majburiy chiziladi",
+    "Faqat bitta ko'rinish chiziladi",
+    "Imkon qadar ko'p, varaq to'lguncha"
+   ],
+   "e": "Bu GOST 2.305 ning asosiy talabi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Profil qirqim qaysi tekislik bilan bajariladi?",
+   "a": [
+    "W ga parallel",
+    "H ga parallel",
+    "V ga parallel",
+    "Qiya tekislik bilan"
+   ],
+   "e": "Profil qirqim chapdan ko'rinish o'rnida joylashadi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Qirqim va ko'rinishni birlashtirish qachon mumkin?",
+   "a": [
+    "Ular bir xil ko'rinish yo'nalishida bo'lsa",
+    "Har qanday holatda, ixtiyoriy",
+    "Hech qachon",
+    "Faqat aksonometriyada"
+   ],
+   "e": "Masalan, bosh ko'rinish yarmi va frontal qirqim yarmi."
+  },
+  {
+   "b": "Tasvirlar",
+   "q": "Aylanish sirtli detalda qirqimga tushgan teshiklar qanday tasvirlanadi?",
+   "a": [
+    "Kesuvchi tekislikka burib ko'rsatiladi",
+    "Ko'rsatilmaydi",
+    "Faqat shtrix chiziq bilan ko'rsatiladi",
+    "Faqat matn bilan izohlanadi"
+   ],
+   "e": "Flanes teshiklari qirqimda kesuvchi tekislikka burilgan holda chiziladi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Aksonometriyada buyum o'lchamlari qaysi yo'nalishlar bo'yicha qo'yiladi?",
+   "a": [
+    "Faqat aksonometrik o'qlarga parallel",
+    "Istalgan yo'nalishda, buzilishsiz",
+    "Faqat vertikal",
+    "Faqat gorizontal"
+   ],
+   "e": "O'qlarga parallel bo'lmagan chiziqlar buziladi."
+  },
+  {
+   "b": "Aksonometriya",
+   "q": "Izometriyada kubning ko'rinadigan uch yog'i qanday shaklda tasvirlanadi?",
+   "a": [
+    "Rombik shakllar",
+    "Kvadratlar",
+    "To'g'ri to'rtburchaklar",
+    "Uchburchaklar"
+   ],
+   "e": "Har bir yoq 120° va 60° burchakli rombga aylanadi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Metrik rezbaning nominal diametri qaysi diametr?",
+   "a": [
+    "Tashqi diametr",
+    "Ichki diametr",
+    "O'rtacha diametr",
+    "Teshik diametri"
+   ],
+   "e": "Masalan, M12 — tashqi diametr 12 mm."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Rezbali teshik chizmada qanday tasvirlanadi?",
+   "a": [
+    "Ichki diametr yo'g'on, tashqi diametr ingichka chiziq bilan",
+    "Tashqi diametr yo'g'on, ichki diametr ingichka chiziq bilan",
+    "Ikkala diametr shtrix chiziq bilan",
+    "Faqat matn bilan"
+   ],
+   "e": "Sterjendagi rezbaga teskari holat."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Kontrgayka nima uchun ishlatiladi?",
+   "a": [
+    "Asosiy gaykaning bo'shab ketishiga yo'l qo'ymaslik",
+    "Rezbani yangidan kesish uchun",
+    "Boltni uzaytirish uchun",
+    "Gaykani bezash uchun"
+   ],
+   "e": "Ikkinchi gayka birinchisiga qarab tortiladi."
+  },
+  {
+   "b": "Rezbalar va birikmalar",
+   "q": "Payvand chok turlariga qaysilar kiradi?",
+   "a": [
+    "Uchma-uch, burchakli, tavr, ustma-ust",
+    "Faqat rezbali va shponkali",
+    "Faqat parchinli",
+    "Faqat yelimli"
+   ],
+   "e": "GOST 5264 qo'l elektr yoyli payvand choklarini belgilaydi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Galtel deb nimaga aytiladi?",
+   "a": [
+    "Ichki burchakdagi yumaloqlash",
+    "Detalning tashqi qirrasidagi fasska",
+    "Rezbaning tugash joyi",
+    "Shponka uchun ariqcha"
+   ],
+   "e": "Galtel kuchlanish to'planishini kamaytiradi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Shponka uchun ariqcha valning chizmasida qanday ko'rsatiladi?",
+   "a": [
+    "Mahalliy qirqim yoki kesim bilan",
+    "Ko'rsatilmaydi",
+    "Faqat aksonometriyada",
+    "Faqat spetsifikatsiyada"
+   ],
+   "e": "Ariqcha chuqurligi va kengligi kesimda o'lchanadi."
+  },
+  {
+   "b": "Eskiz va ishchi chizmalar",
+   "q": "Ishchi chizmada termik ishlov qanday ko'rsatiladi?",
+   "a": [
+    "Texnik talablarda, masalan \"HRC 40...45\"",
+    "Faqat detal rangini o'zgartirish bilan",
+    "Ko'rsatilmaydi",
+    "Asosiy yozuvning masshtab katagida"
+   ],
+   "e": "Qattiqlik HRC yoki HB birliklarida beriladi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Yig'ish chizmasida pozitsiya raqami qaysi chiziqqa yoziladi?",
+   "a": [
+    "Yo'naltiruvchi chiziq tokchasiga",
+    "O'lcham chizig'iga",
+    "Ramka chizig'iga",
+    "O'q chizig'iga"
+   ],
+   "e": "Yo'naltiruvchi chiziq detal ichida nuqta bilan tugaydi."
+  },
+  {
+   "b": "Yig'ish chizmalari",
+   "q": "Yig'ish chizmasida bir xil detal bir necha marta uchrasa, pozitsiya raqami qanday qo'yiladi?",
+   "a": [
+    "Odatda bir marta",
+    "Har bir tasvirda albatta takrorlanadi",
+    "Har bir nusxa uchun alohida raqam beriladi",
+    "Raqam qo'yilmaydi"
+   ],
+   "e": "Soni spetsifikatsiyada ko'rsatiladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda obyektni ko'chirish buyrug'i qaysi?",
+   "a": [
+    "MOVE",
+    "COPY",
+    "ROTATE",
+    "STRETCH"
+   ],
+   "e": "COPY — nusxa olish, ROTATE — burish."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "AutoCADda obyektni o'chirish buyrug'i qaysi?",
+   "a": [
+    "ERASE",
+    "EXPLODE",
+    "TRIM",
+    "BREAK"
+   ],
+   "e": "Delete tugmasi ham ishlatiladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Chizmani chop etishda masshtab qayerda belgilanadi?",
+   "a": [
+    "Chop etish (Plot) oynasida",
+    "Faqat chiziq turi sozlamalarida",
+    "Qatlamlar panelida faqat",
+    "Hech qayerda"
+   ],
+   "e": "Layoutdagi viewport masshtabi ham qo'llaniladi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "3D modelda tekislikdagi eskizga qo'yiladigan geometrik bog'lanishlarga nima kiradi?",
+   "a": [
+    "Parallellik, perpendikulyarlik, urinma",
+    "Rang, shrift, fon",
+    "Fayl nomi, sana",
+    "Qatlam, masshtab, format"
+   ],
+   "e": "Bog'lanishlar va o'lchamlar eskizni to'liq aniqlaydi."
+  },
+  {
+   "b": "Kompyuter grafikasi",
+   "q": "Kompyuter grafikasida \"piksel\" nima?",
+   "a": [
+    "Rastr tasvirning eng kichik elementi",
+    "Vektor chiziq",
+    "3D modelning yog'i",
+    "Shrift o'lchami birligi"
+   ],
+   "e": "Piksel rang va yorqinlik qiymatiga ega."
   }
  ]
 }

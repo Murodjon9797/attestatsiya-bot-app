@@ -516,7 +516,7 @@
    "a": [
     "Dielektrik qo'lqoplar (1000 V gacha qurilmalarda)",
     "Oddiy rezina etik, brezent qo'lqop va paxtadan tikilgan maxsus kiyim",
-    "Paxtadan tikilgan maxsus kiyim",
+    "Dielektrik gilamcha va izolyatsiyalovchi taglik",
     "Himoya ko'zoynagi va respirator"
    ],
    "e": "1000 V gacha qurilmalarda dielektrik qo'lqoplar va izolyatsiyalangan dastali asboblar asosiy vosita hisoblanadi."
@@ -1307,7 +1307,7 @@
    "q": "Gaz ballonlarini tashish va saqlashda qaysi talab to'g'ri?",
    "a": [
     "Ballonlar quyosh nuri va isitish manbalaridan uzoqda, qalpoqchasi bilan saqlanadi",
-    "Ballonlar radiatorlar yoniga qo'yib, iliq joyda saqlanadi",
+    "Kislorod ballonlari moyli qo'lqop bilan ushlab tashiladi",
     "Ballonlar radiatorlar va isitish quvurlari yoniga qo'yilib, iliq va qulay joyda qalpoqsiz saqlanadi",
     "Ballonlar uloqtirib yuklanadi, tez tushirish uchun"
    ],
@@ -1396,8 +1396,8 @@
    "a": [
     "Inson, mashina va ish muhitini o'zaro moslashtirishni",
     "Faqat korxonaning iqtisodiy samaradorligini va mahsulot sifatini nazorat qilishni",
-    "Faqat mahsulot sifatini nazorat qilishni",
-    "Xodimlar ish haqini hisoblash usullarini"
+    "Xodimlar ish haqini hisoblash usullarini",
+    "Faqat jihozlarni ta'mirlash jadvalini tuzishni"
    ],
    "e": "Ergonomika qulay va xavfsiz ish joyini loyihalaydi."
   },
@@ -1462,7 +1462,7 @@
    "a": [
     "Binoning pastki qavatlari va yerto'lalari",
     "Binoning eng yuqori qavatlari va tom ustidagi ochiq maydoncha",
-    "Ochiq tom ustidagi maydoncha",
+    "Binoning o'rta qavatlaridagi deraza yonidagi xonalar",
     "Baland minoralar"
    ],
    "e": "Ammiak havodan yengil, yuqoriga ko'tariladi."
@@ -2090,7 +2090,7 @@
     "Jabrlanuvchi kafti tana yuzasining taxminan 1% ini tashkil etadi",
     "Kaft tana yuzasining yarmiga teng",
     "Kaftni kuygan joyga qo'yib, uni o'z tanasi issiqligi bilan sovitish zarurligini",
-    "Kaftni kuygan joyga qo'yib sovitish kerak"
+    "Kuyish darajasini kaft rangiga qarab aniqlash kerakligini"
    ],
    "e": "\"To'qqizlar qoidasi\" bilan birga kuyish maydoni baholanadi."
   },
@@ -2705,7 +2705,7 @@
    "a": [
     "Og'riqni kamaytirish, isitish va tinchlantirish",
     "Jabrlanuvchini sovuq joyda yotqizib, harakat qilishga majburlash",
-    "Uni harakat qilishga majburlash",
+    "Unga achchiq choy va spirtli ichimlik berish",
     "Uni yolg'iz qoldirish"
    ],
    "e": "Og'riq, qon yo'qotish va sovuq shokni kuchaytiradi."
@@ -2826,8 +2826,8 @@
    "a": [
     "Diqqatning pasayishi va xatolar ko'payishi",
     "Ish qobiliyatining keskin oshishi va jismoniy kuchning ortishi",
-    "Jismoniy kuchning ortishi",
-    "Ish vaqtining qisqarishi"
+    "Ish vaqtining sezilarli qisqarishi",
+    "Mahsulot sifatining o'z-o'zidan oshishi"
    ],
    "e": "Monotonlikka qarshi ish turlarini almashtirish qo'llaniladi."
   },
@@ -2914,8 +2914,8 @@
    "a": [
     "Yong'in xavfli ishlarga ruxsatnoma (naryad)",
     "Hech qanday ruxsat talab qilinmaydi, faqat og'zaki kelishuv yetarli",
-    "Faqat og'zaki kelishuv yetarli",
-    "Faqat xodimning o'z yozma arizasi"
+    "Faqat xodimning o'z yozma arizasi yetarli",
+    "Faqat sex boshlig'ining og'zaki topshirig'i"
    ],
    "e": "Ruxsatnomada yong'inga qarshi choralar va mas'ul shaxs ko'rsatiladi."
   },
@@ -2947,8 +2947,8 @@
    "a": [
     "Moddaning xavfli xususiyatlari va xavfsiz ishlash choralarini",
     "Moddaning narxi, sotuvchi manzili va ishlab chiqaruvchining reklama materiallari",
-    "Ishlab chiqaruvchining reklama materiallarini",
-    "Moddaning sotilish hajmi statistikasini"
+    "Moddaning sotilish hajmi statistikasini",
+    "Moddaning eksport qilinadigan mamlakatlari ro'yxatini"
    ],
    "e": "SDS da birinchi yordam, saqlash va yong'inni o'chirish choralari ham ko'rsatiladi."
   },
