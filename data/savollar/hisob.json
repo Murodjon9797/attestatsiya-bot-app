@@ -1,0 +1,3341 @@
+{
+ "kod": "5PM0366",
+ "nomi": "Hisob (Calculus)",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (10 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = √(x − 3) funksiyaning aniqlanish sohasi qaysi?",
+   "a": [
+    "[3; +∞)",
+    "(−∞; 3]",
+    "(3; +∞)",
+    "(−∞; +∞)"
+   ],
+   "e": "x − 3 ≥ 0."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = 1/(x² − 4) funksiyaning aniqlanish sohasi qaysi?",
+   "a": [
+    "x ≠ ±2",
+    "x > 2",
+    "x ≠ 4",
+    "Barcha haqiqiy sonlar"
+   ],
+   "e": "Maxraj nolga teng bo'lmasligi kerak."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = ln(x + 1) funksiyaning aniqlanish sohasi qaysi?",
+   "a": [
+    "(−1; +∞)",
+    "[−1; +∞)",
+    "(0; +∞)",
+    "(−∞; −1)"
+   ],
+   "e": "Logarifm argumenti musbat."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "Qaysi funksiya juft?",
+   "a": [
+    "f(x) = x²·cos x",
+    "f(x) = x³ + x",
+    "f(x) = sin x",
+    "f(x) = eˣ"
+   ],
+   "e": "f(−x) = f(x)."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "Qaysi funksiya toq?",
+   "a": [
+    "f(x) = x³ − sin x",
+    "f(x) = x² + 1",
+    "f(x) = cos x",
+    "f(x) = |x|"
+   ],
+   "e": "f(−x) = −f(x)."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = sin(2x) funksiyaning eng kichik musbat davri qancha?",
+   "a": [
+    "π",
+    "2π",
+    "π/2",
+    "4π"
+   ],
+   "e": "T = 2π/2."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = 2x + 3 funksiyaga teskari funksiya qaysi?",
+   "a": [
+    "y = (x − 3)/2",
+    "y = (x + 3)/2",
+    "y = 2x − 3",
+    "y = 1/(2x + 3)"
+   ],
+   "e": "x = 2y + 3 dan y ni topamiz."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = x² va g(x) = x + 1 bo'lsa, f(g(x)) qanday?",
+   "a": [
+    "(x + 1)²",
+    "x² + 1",
+    "x³ + x²",
+    "x² + x + 1"
+   ],
+   "e": "Murakkab funksiya."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→2) (x² − 4)/(x − 2) qancha?",
+   "a": [
+    "4",
+    "0",
+    "2",
+    "∞"
+   ],
+   "e": "(x − 2)(x + 2)/(x − 2) = x + 2."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) sin x / x qancha?",
+   "a": [
+    "1",
+    "0",
+    "∞",
+    "Mavjud emas"
+   ],
+   "e": "Birinchi ajoyib limit."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) sin 3x / x qancha?",
+   "a": [
+    "3",
+    "1",
+    "1/3",
+    "0"
+   ],
+   "e": "3·(sin 3x/3x)."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→∞) (1 + 1/x)ˣ qancha?",
+   "a": [
+    "e",
+    "1",
+    "∞",
+    "0"
+   ],
+   "e": "Ikkinchi ajoyib limit."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→∞) (3x² + 1)/(x² − 5) qancha?",
+   "a": [
+    "3",
+    "0",
+    "∞",
+    "−1/5"
+   ],
+   "e": "Bosh koeffitsiyentlar nisbati."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→∞) (2x + 1)/(x² + 3) qancha?",
+   "a": [
+    "0",
+    "2",
+    "∞",
+    "1/3"
+   ],
+   "e": "Maxraj darajasi katta."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→∞) (x³ − x)/(2x² + 1) qancha?",
+   "a": [
+    "∞",
+    "1/2",
+    "0",
+    "1"
+   ],
+   "e": "Surat darajasi katta."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) (eˣ − 1)/x qancha?",
+   "a": [
+    "1",
+    "0",
+    "e",
+    "∞"
+   ],
+   "e": "Ekvivalent cheksiz kichiklar."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) ln(1 + x)/x qancha?",
+   "a": [
+    "1",
+    "0",
+    "e",
+    "∞"
+   ],
+   "e": "ln(1 + x) ~ x."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) (1 − cos x)/x² qancha?",
+   "a": [
+    "1/2",
+    "1",
+    "0",
+    "2"
+   ],
+   "e": "1 − cos x ~ x²/2."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) tg x / x qancha?",
+   "a": [
+    "1",
+    "0",
+    "∞",
+    "π"
+   ],
+   "e": "tg x ~ x."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→∞) (1 + 2/x)ˣ qancha?",
+   "a": [
+    "e²",
+    "e",
+    "2",
+    "1"
+   ],
+   "e": "[(1 + 2/x)^(x/2)]²."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→3) (x² − 9)/(x² − 3x) qancha?",
+   "a": [
+    "2",
+    "0",
+    "3",
+    "6"
+   ],
+   "e": "(x + 3)/x = 6/3."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) (√(1 + x) − 1)/x qancha?",
+   "a": [
+    "1/2",
+    "1",
+    "0",
+    "2"
+   ],
+   "e": "Qo'shmasiga ko'paytirish."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→1) (x³ − 1)/(x − 1) qancha?",
+   "a": [
+    "3",
+    "1",
+    "0",
+    "∞"
+   ],
+   "e": "x² + x + 1 → 3."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "Funksiya x₀ nuqtada uzluksiz bo'lishi uchun qanday shart bajarilishi kerak?",
+   "a": [
+    "lim f(x) = f(x₀)",
+    "f(x₀) = 0",
+    "f(x₀) mavjud bo'lmasligi",
+    "Funksiya x₀ da cheksiz bo'lishi"
+   ],
+   "e": "Chap va o'ng limitlar teng va funksiya qiymatiga teng."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = 1/x funksiyaning x = 0 nuqtadagi uzilishi qanday turda?",
+   "a": [
+    "II tur uzilish",
+    "I tur bartaraf etiladigan",
+    "Sakrash (I tur)",
+    "Uzluksiz"
+   ],
+   "e": "Bir tomonlama limitlar cheksiz."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = sin x / x funksiyaning x = 0 dagi uzilishi qanday?",
+   "a": [
+    "Bartaraf etiladigan uzilish",
+    "II tur uzilish",
+    "Sakrash",
+    "Uzilish yo'q"
+   ],
+   "e": "Limit mavjud (1), lekin f(0) aniqlanmagan."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = |x|/x funksiyaning x = 0 dagi uzilishi qanday?",
+   "a": [
+    "Sakrash (I tur)",
+    "Bartaraf etiladigan",
+    "II tur",
+    "Uzilish yo'q"
+   ],
+   "e": "Chapda −1, o'ngda +1."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "Cheksiz kichik funksiya deb nimaga aytiladi?",
+   "a": [
+    "Limiti nolga teng funksiyaga",
+    "Qiymati har doim manfiy funksiyaga",
+    "Limiti cheksiz bo'lgan funksiyaga",
+    "O'zgarmas funksiyaga"
+   ],
+   "e": "α(x) → 0."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "x → 0 da qaysi juftlik ekvivalent cheksiz kichiklar?",
+   "a": [
+    "sin x va x",
+    "x va x²",
+    "cos x va x",
+    "eˣ va x"
+   ],
+   "e": "sin x ~ x."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (n→∞) (n + 1)/n qancha?",
+   "a": [
+    "1",
+    "0",
+    "∞",
+    "2"
+   ],
+   "e": "1 + 1/n → 1."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "Sonlar ketma-ketligi aₙ = 1/n ning limiti qancha?",
+   "a": [
+    "0",
+    "1",
+    "∞",
+    "Mavjud emas"
+   ],
+   "e": "Cheksiz kichik ketma-ketlik."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "aₙ = (−1)ⁿ ketma-ketligining limiti haqida nima deyish mumkin?",
+   "a": [
+    "Limiti mavjud emas",
+    "Limiti 1",
+    "Limiti 0",
+    "Limiti −1"
+   ],
+   "e": "Ikki qiymat atrofida tebranadi."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "Kesmada uzluksiz funksiya haqidagi Veyershtrass teoremasi nimani ta'kidlaydi?",
+   "a": [
+    "Funksiya kesmada eng katta va eng kichik qiymatga erishadi",
+    "Funksiya kesmada har doim o'suvchi",
+    "Funksiya kesmada nolga teng",
+    "Funksiyaning hosilasi mavjud"
+   ],
+   "e": "Chegaralanganlik ham."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "Bolsano–Koshi teoremasiga ko'ra f(a) va f(b) har xil ishorali bo'lsa (f uzluksiz)...",
+   "a": [
+    "(a; b) da kamida bitta ildiz bor",
+    "(a; b) da ildiz yo'q",
+    "f har doim o'suvchi",
+    "f(a) = f(b)"
+   ],
+   "e": "Tenglamalarni taqribiy yechishda (kesmani teng ikkiga bo'lish)."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→+∞) arctg x qancha?",
+   "a": [
+    "π/2",
+    "0",
+    "π",
+    "∞"
+   ],
+   "e": "Gorizontal asimptota y = π/2."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0⁺) ln x qancha?",
+   "a": [
+    "−∞",
+    "0",
+    "1",
+    "+∞"
+   ],
+   "e": "Vertikal asimptota x = 0."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "y = (2x + 1)/(x − 3) funksiyaning vertikal asimptotasi qaysi?",
+   "a": [
+    "x = 3",
+    "x = −1/2",
+    "y = 2",
+    "x = 2"
+   ],
+   "e": "Maxraj nolga aylanadi."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "y = (2x + 1)/(x − 3) funksiyaning gorizontal asimptotasi qaysi?",
+   "a": [
+    "y = 2",
+    "y = 0",
+    "x = 3",
+    "y = −1/3"
+   ],
+   "e": "x → ∞ dagi limit."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "y = x + 1/x funksiyaning og'ma asimptotasi qaysi?",
+   "a": [
+    "y = x",
+    "y = 1",
+    "x = 0",
+    "y = 2x"
+   ],
+   "e": "k = 1, b = 0."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) x·sin(1/x) qancha?",
+   "a": [
+    "0",
+    "1",
+    "∞",
+    "Mavjud emas"
+   ],
+   "e": "Chegaralangan × cheksiz kichik."
+  },
+  {
+   "b": "Hosila",
+   "q": "Funksiya hosilasining ta'rifi qaysi?",
+   "a": [
+    "f′(x) = lim (Δx→0) Δy/Δx",
+    "f′(x) = lim (Δx→∞) Δy·Δx",
+    "f′(x) = Δy + Δx",
+    "f′(x) = f(x)/x"
+   ],
+   "e": "Orttirmalar nisbatining limiti."
+  },
+  {
+   "b": "Hosila",
+   "q": "Hosilaning geometrik ma'nosi nima?",
+   "a": [
+    "Urinmaning burchak koeffitsiyenti",
+    "Egri chiziq ostidagi yuzaning qiymati",
+    "Egri chiziq yoyining uzunligi",
+    "Funksiyaning eng katta qiymati"
+   ],
+   "e": "f′(x₀) = tg α."
+  },
+  {
+   "b": "Hosila",
+   "q": "Hosilaning mexanik ma'nosi nima?",
+   "a": [
+    "Oniy tezlik",
+    "Bosib o'tilgan yo'l",
+    "Massa",
+    "Kuch impulsi"
+   ],
+   "e": "v = s′(t)."
+  },
+  {
+   "b": "Hosila",
+   "q": "(xⁿ)′ qanday?",
+   "a": [
+    "n·xⁿ⁻¹",
+    "xⁿ⁺¹/(n + 1)",
+    "n·xⁿ",
+    "xⁿ⁻¹"
+   ],
+   "e": "Darajali funksiya hosilasi."
+  },
+  {
+   "b": "Hosila",
+   "q": "(x⁵)′ qanday?",
+   "a": [
+    "5x⁴",
+    "x⁶/6",
+    "5x⁵",
+    "4x⁵"
+   ],
+   "e": "n·xⁿ⁻¹."
+  },
+  {
+   "b": "Hosila",
+   "q": "(√x)′ qanday?",
+   "a": [
+    "1/(2√x)",
+    "2√x",
+    "√x/2",
+    "1/√x"
+   ],
+   "e": "(x^(1/2))′."
+  },
+  {
+   "b": "Hosila",
+   "q": "(1/x)′ qanday?",
+   "a": [
+    "−1/x²",
+    "1/x²",
+    "ln x",
+    "−1/x"
+   ],
+   "e": "(x⁻¹)′."
+  },
+  {
+   "b": "Hosila",
+   "q": "(sin x)′ qanday?",
+   "a": [
+    "cos x",
+    "−cos x",
+    "sin x",
+    "−sin x"
+   ],
+   "e": "Asosiy formula."
+  },
+  {
+   "b": "Hosila",
+   "q": "(cos x)′ qanday?",
+   "a": [
+    "−sin x",
+    "sin x",
+    "cos x",
+    "−cos x"
+   ],
+   "e": "Asosiy formula."
+  },
+  {
+   "b": "Hosila",
+   "q": "(tg x)′ qanday?",
+   "a": [
+    "1/cos²x",
+    "−1/sin²x",
+    "1/sin²x",
+    "ctg x"
+   ],
+   "e": "(ctg x)′ = −1/sin²x."
+  },
+  {
+   "b": "Hosila",
+   "q": "(eˣ)′ qanday?",
+   "a": [
+    "eˣ",
+    "x·eˣ⁻¹",
+    "eˣ/x",
+    "ln x"
+   ],
+   "e": "Eksponenta hosilasi o'ziga teng."
+  },
+  {
+   "b": "Hosila",
+   "q": "(aˣ)′ qanday?",
+   "a": [
+    "aˣ·ln a",
+    "x·aˣ⁻¹",
+    "aˣ/ln a",
+    "aˣ"
+   ],
+   "e": "a > 0, a ≠ 1."
+  },
+  {
+   "b": "Hosila",
+   "q": "(ln x)′ qanday?",
+   "a": [
+    "1/x",
+    "ln x/x",
+    "eˣ",
+    "x·ln x"
+   ],
+   "e": "x > 0."
+  },
+  {
+   "b": "Hosila",
+   "q": "(arcsin x)′ qanday?",
+   "a": [
+    "1/√(1 − x²)",
+    "−1/√(1 − x²)",
+    "1/(1 + x²)",
+    "√(1 − x²)"
+   ],
+   "e": "|x| < 1."
+  },
+  {
+   "b": "Hosila",
+   "q": "(arctg x)′ qanday?",
+   "a": [
+    "1/(1 + x²)",
+    "1/√(1 − x²)",
+    "−1/(1 + x²)",
+    "1 + x²"
+   ],
+   "e": "Asosiy formula."
+  },
+  {
+   "b": "Hosila",
+   "q": "Ko'paytma hosilasi (u·v)′ qanday?",
+   "a": [
+    "u′v + uv′",
+    "u′v′",
+    "u′v − uv′",
+    "u′/v′"
+   ],
+   "e": "Leybnits qoidasi."
+  },
+  {
+   "b": "Hosila",
+   "q": "Bo'linma hosilasi (u/v)′ qanday?",
+   "a": [
+    "(u′v − uv′)/v²",
+    "(u′v + uv′)/v²",
+    "u′/v′",
+    "(uv′ − u′v)/v"
+   ],
+   "e": "v ≠ 0."
+  },
+  {
+   "b": "Hosila",
+   "q": "Murakkab funksiya hosilasi [f(g(x))]′ qanday?",
+   "a": [
+    "f′(g(x))·g′(x)",
+    "f′(x)·g′(x)",
+    "f′(g′(x))",
+    "f(g′(x))"
+   ],
+   "e": "Zanjir qoidasi."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = (3x + 2)⁴ funksiya hosilasi qanday?",
+   "a": [
+    "12(3x + 2)³",
+    "4(3x + 2)³",
+    "3(3x + 2)⁴",
+    "(3x + 2)³"
+   ],
+   "e": "4(3x + 2)³·3."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = sin(x²) funksiya hosilasi qanday?",
+   "a": [
+    "2x·cos(x²)",
+    "cos(x²)",
+    "2x·sin(x²)",
+    "cos(2x)"
+   ],
+   "e": "Zanjir qoidasi."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = e^(3x) funksiya hosilasi qanday?",
+   "a": [
+    "3e^(3x)",
+    "e^(3x)",
+    "3x·e^(3x−1)",
+    "e^(3x)/3"
+   ],
+   "e": "(e^u)′ = e^u·u′."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = ln(x² + 1) funksiya hosilasi qanday?",
+   "a": [
+    "2x/(x² + 1)",
+    "1/(x² + 1)",
+    "2x·ln(x² + 1)",
+    "(x² + 1)/2x"
+   ],
+   "e": "u′/u."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = x·eˣ funksiya hosilasi qanday?",
+   "a": [
+    "eˣ(x + 1)",
+    "eˣ",
+    "x·eˣ",
+    "eˣ(x − 1)"
+   ],
+   "e": "u′v + uv′."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = x²·ln x funksiya hosilasi qanday?",
+   "a": [
+    "2x·ln x + x",
+    "2x·ln x − x",
+    "2x·ln x",
+    "2x + 1/x"
+   ],
+   "e": "2x·ln x + x²·(1/x)."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = x³ − 3x² + 5 funksiyaning x = 1 dagi hosilasi qancha?",
+   "a": [
+    "−3",
+    "3",
+    "0",
+    "6"
+   ],
+   "e": "3x² − 6x → 3 − 6."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = x² funksiyaga x = 3 nuqtada o'tkazilgan urinma burchak koeffitsiyenti qancha?",
+   "a": [
+    "6",
+    "9",
+    "3",
+    "2"
+   ],
+   "e": "y′ = 2x."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = x² funksiyaga (1; 1) nuqtada o'tkazilgan urinma tenglamasi qaysi?",
+   "a": [
+    "y = 2x − 1",
+    "y = 2x + 1",
+    "y = x",
+    "y = x + 1"
+   ],
+   "e": "y − 1 = 2(x − 1)."
+  },
+  {
+   "b": "Hosila",
+   "q": "Ikkinchi tartibli hosila (x⁴)″ qanday?",
+   "a": [
+    "12x²",
+    "4x³",
+    "24x",
+    "x²"
+   ],
+   "e": "(4x³)′."
+  },
+  {
+   "b": "Hosila",
+   "q": "(sin x)″ qanday?",
+   "a": [
+    "−sin x",
+    "cos x",
+    "sin x",
+    "−cos x"
+   ],
+   "e": "(cos x)′."
+  },
+  {
+   "b": "Hosila",
+   "q": "Ikkinchi tartibli hosilaning mexanik ma'nosi nima?",
+   "a": [
+    "Tezlanish",
+    "Tezlik",
+    "Yo'l",
+    "Kuch momenti"
+   ],
+   "e": "a = s″(t)."
+  },
+  {
+   "b": "Hosila",
+   "q": "Nuqta s = t³ − 2t qonun bo'yicha harakatlanmoqda. t = 2 s da tezlanish qancha?",
+   "a": [
+    "12",
+    "10",
+    "6",
+    "4"
+   ],
+   "e": "s″ = 6t."
+  },
+  {
+   "b": "Hosila",
+   "q": "Funksiya differensiali qanday ifodalanadi?",
+   "a": [
+    "dy = f′(x)·dx",
+    "dy = f(x)·dx",
+    "dy = f′(x)/dx",
+    "dy = f″(x)·dx²"
+   ],
+   "e": "Orttirmaning bosh chiziqli qismi."
+  },
+  {
+   "b": "Hosila",
+   "q": "Differensial yordamida taqribiy hisoblash formulasi qaysi?",
+   "a": [
+    "f(x₀ + Δx) ≈ f(x₀) + f′(x₀)·Δx",
+    "f(x₀ + Δx) ≈ f′(x₀)·Δx",
+    "f(x₀ + Δx) ≈ f(x₀)·Δx",
+    "f(x₀ + Δx) ≈ f(x₀)/Δx"
+   ],
+   "e": "Chiziqli yaqinlashish."
+  },
+  {
+   "b": "Hosila",
+   "q": "√4,02 ni differensial yordamida taxminan hisoblang.",
+   "a": [
+    "2,005",
+    "2,01",
+    "2,02",
+    "2,0005"
+   ],
+   "e": "2 + 0,02/(2·2)."
+  },
+  {
+   "b": "Hosila",
+   "q": "Oshkormas funksiya x² + y² = 25 uchun y′ qanday?",
+   "a": [
+    "−x/y",
+    "x/y",
+    "−y/x",
+    "2x + 2y"
+   ],
+   "e": "2x + 2y·y′ = 0."
+  },
+  {
+   "b": "Hosila",
+   "q": "Parametrik funksiya x = t², y = t³ uchun dy/dx qanday?",
+   "a": [
+    "3t/2",
+    "2t/3",
+    "3t²",
+    "t"
+   ],
+   "e": "(3t²)/(2t)."
+  },
+  {
+   "b": "Hosila",
+   "q": "Lopital qoidasi qanday noaniqliklarni ochishda qo'llaniladi?",
+   "a": [
+    "0/0 va ∞/∞",
+    "Faqat 1 + 1",
+    "Faqat 0 + 0",
+    "Faqat aniq qiymatlar"
+   ],
+   "e": "Hosilalar nisbati limiti."
+  },
+  {
+   "b": "Hosila",
+   "q": "Lopital qoidasi bo'yicha lim (x→0) (x − sin x)/x³ qancha?",
+   "a": [
+    "1/6",
+    "0",
+    "1",
+    "1/2"
+   ],
+   "e": "Uch marta differensiallash."
+  },
+  {
+   "b": "Hosila",
+   "q": "lim (x→∞) ln x / x qancha?",
+   "a": [
+    "0",
+    "1",
+    "∞",
+    "e"
+   ],
+   "e": "Lopital: (1/x)/1."
+  },
+  {
+   "b": "Hosila",
+   "q": "lim (x→∞) x/eˣ qancha?",
+   "a": [
+    "0",
+    "1",
+    "∞",
+    "e"
+   ],
+   "e": "Eksponenta tezroq o'sadi."
+  },
+  {
+   "b": "Hosila",
+   "q": "Lagranj teoremasi (o'rta qiymat haqida) nimani ta'kidlaydi?",
+   "a": [
+    "f(b) − f(a) = f′(c)(b − a) bo'ladigan c mavjud",
+    "f(a) = f(b) har doim, funksiya qanday bo'lishidan qat'i nazar",
+    "Har qanday nuqtada f′(x) = 0 bo'ladi",
+    "f(b) = f′(b)·b tenglik o'rinli bo'ladi"
+   ],
+   "e": "[a; b] da uzluksiz, (a; b) da differensiallanuvchi."
+  },
+  {
+   "b": "Hosila",
+   "q": "Roll teoremasida qanday qo'shimcha shart bor?",
+   "a": [
+    "f(a) = f(b)",
+    "f(a) = 0",
+    "f′(a) = f′(b)",
+    "f″(x) > 0"
+   ],
+   "e": "Shunda f′(c) = 0 bo'ladigan c mavjud."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Funksiya oraliqda o'suvchi bo'lishining yetarli sharti qaysi?",
+   "a": [
+    "f′(x) > 0",
+    "f′(x) < 0",
+    "f″(x) = 0",
+    "f(x) > 0"
+   ],
+   "e": "Kamayuvchi — f′(x) < 0."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Ekstremumning zaruriy sharti qaysi?",
+   "a": [
+    "f′(x₀) = 0 yoki mavjud emas",
+    "f(x₀) = 0",
+    "f″(x₀) = 0 har doim",
+    "f′(x₀) > 0"
+   ],
+   "e": "Kritik nuqtalar."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "f′(x₀) = 0 va f″(x₀) > 0 bo'lsa, x₀ nuqtada nima bor?",
+   "a": [
+    "Minimum",
+    "Maksimum",
+    "Egilish nuqtasi",
+    "Uzilish"
+   ],
+   "e": "Ikkinchi hosila bo'yicha yetarli shart."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "f′(x₀) = 0 va f″(x₀) < 0 bo'lsa, x₀ nuqtada nima bor?",
+   "a": [
+    "Maksimum",
+    "Minimum",
+    "Egilish nuqtasi",
+    "Asimptota"
+   ],
+   "e": "Grafik qavariq (yuqoriga)."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = x² − 4x + 3 funksiyaning minimum nuqtasi qaysi?",
+   "a": [
+    "x = 2",
+    "x = −2",
+    "x = 4",
+    "x = 3"
+   ],
+   "e": "y′ = 2x − 4 = 0."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = x² − 4x + 3 funksiyaning eng kichik qiymati qancha?",
+   "a": [
+    "−1",
+    "3",
+    "0",
+    "−4"
+   ],
+   "e": "y(2) = 4 − 8 + 3."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = x³ − 3x funksiyaning kritik nuqtalari qaysilar?",
+   "a": [
+    "x = ±1",
+    "x = 0",
+    "x = ±3",
+    "x = ±√3"
+   ],
+   "e": "3x² − 3 = 0."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = x³ − 3x funksiyaning x = −1 nuqtasida nima bor?",
+   "a": [
+    "Maksimum",
+    "Minimum",
+    "Egilish nuqtasi",
+    "Ekstremum yo'q"
+   ],
+   "e": "y″ = 6x = −6 < 0."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Egilish (bukilish) nuqtasining zaruriy sharti qaysi?",
+   "a": [
+    "f″(x₀) = 0 yoki mavjud emas",
+    "f′(x₀) = 0",
+    "f(x₀) = 0",
+    "f‴(x₀) = 0"
+   ],
+   "e": "Ikkinchi hosila ishorasini o'zgartirishi kerak."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = x³ funksiyaning egilish nuqtasi qaysi?",
+   "a": [
+    "x = 0",
+    "x = 1",
+    "x = −1",
+    "Egilish nuqtasi yo'q"
+   ],
+   "e": "y″ = 6x ishorasini o'zgartiradi."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Oraliqda f″(x) > 0 bo'lsa, grafik qanday?",
+   "a": [
+    "Botiq (pastga qavariq)",
+    "Qavariq (yuqoriga)",
+    "To'g'ri chiziq",
+    "O'suvchi har doim"
+   ],
+   "e": "\"Kosa\" shaklida."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = x³ funksiyaning x = 0 nuqtasida ekstremum bormi?",
+   "a": [
+    "Yo'q",
+    "Ha, minimum",
+    "Ha, maksimum",
+    "Ha, ikkalasi ham"
+   ],
+   "e": "y′ = 0, lekin ishora o'zgarmaydi."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "[0; 3] kesmada y = x² − 2x funksiyaning eng katta qiymati qancha?",
+   "a": [
+    "3",
+    "0",
+    "−1",
+    "9"
+   ],
+   "e": "y(0) = 0, y(1) = −1, y(3) = 3."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Perimetri 20 sm bo'lgan to'g'ri to'rtburchaklardan qaysi biri eng katta yuzaga ega?",
+   "a": [
+    "Tomoni 5 sm kvadrat",
+    "Tomonlari 4 va 6 sm",
+    "Tomonlari 2 va 8 sm",
+    "Tomonlari 1 va 9 sm"
+   ],
+   "e": "S = x(10 − x), max x = 5."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Yig'indisi 10 ga teng ikki musbat sonning ko'paytmasi eng katta bo'lishi uchun ular qanday bo'lishi kerak?",
+   "a": [
+    "5 va 5",
+    "1 va 9",
+    "2 va 8",
+    "3 va 7"
+   ],
+   "e": "x(10 − x) → max."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Nuqta s = t² − 6t qonun bo'yicha harakatlanadi. U qaysi paytda to'xtaydi?",
+   "a": [
+    "t = 3 s",
+    "t = 6 s",
+    "t = 0 s",
+    "t = 2 s"
+   ],
+   "e": "v = 2t − 6 = 0."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Funksiyani to'liq tekshirishda birinchi bosqich nima?",
+   "a": [
+    "Aniqlanish sohasini topish",
+    "Darhol grafik chizish",
+    "Ikkinchi hosilani hisoblash",
+    "Integralni hisoblash"
+   ],
+   "e": "Keyin juft-toqlik, asimptotalar, ekstremumlar."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Teylor formulasining ma'nosi nima?",
+   "a": [
+    "Funksiyani ko'phad bilan yaqinlashtirish",
+    "Funksiya integralini hisoblash",
+    "Funksiya grafigini chizish",
+    "Funksiya davrini topish"
+   ],
+   "e": "Hosilalar orqali."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Makloren formulasi Teylor formulasining qaysi holati?",
+   "a": [
+    "x₀ = 0 bo'lgan holi",
+    "x₀ = 1 bo'lgan holi",
+    "x₀ = ∞ bo'lgan holi",
+    "Faqat chiziqli holi"
+   ],
+   "e": "Nol atrofida yoyilma."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "eˣ ning Makloren qatoridagi dastlabki hadlar qaysi?",
+   "a": [
+    "1 + x + x²/2! + x³/3! + ...",
+    "x − x³/3! + x⁵/5! − ...",
+    "1 − x²/2! + x⁴/4! − ...",
+    "1 + x + x² + x³ + ..."
+   ],
+   "e": "Barcha x da yaqinlashadi."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "sin x ning Makloren qatoridagi dastlabki hadlar qaysi?",
+   "a": [
+    "x − x³/3! + x⁵/5! − ...",
+    "1 + x + x²/2! + ...",
+    "1 − x²/2! + x⁴/4! − ...",
+    "x + x²/2 + x³/3 + ..."
+   ],
+   "e": "Faqat toq darajalar."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "cos x ning Makloren qatoridagi dastlabki hadlar qaysi?",
+   "a": [
+    "1 − x²/2! + x⁴/4! − ...",
+    "x − x³/3! + ...",
+    "1 + x + x²/2! + ...",
+    "1 − x + x² − ..."
+   ],
+   "e": "Faqat juft darajalar."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Nyuton (urinmalar) usuli nima uchun qo'llaniladi?",
+   "a": [
+    "Tenglama ildizini taqribiy topish uchun",
+    "Integralni aniq hisoblash uchun",
+    "Grafikni bo'yash uchun",
+    "Matritsa determinantini topish uchun"
+   ],
+   "e": "xₙ₊₁ = xₙ − f(xₙ)/f′(xₙ)."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Elastiklik (iqtisodiyotda) hosila orqali qanday ifodalanadi?",
+   "a": [
+    "E = (x/y)·y′",
+    "E = y′/x",
+    "E = x·y",
+    "E = y″"
+   ],
+   "e": "Nisbiy o'zgarishlar nisbati."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Chegaraviy xarajat (marginal cost) matematik jihatdan nima?",
+   "a": [
+    "Xarajat funksiyasining hosilasi",
+    "Xarajat funksiyasining integrali",
+    "Xarajatning o'rtacha qiymati",
+    "Xarajatning maksimal qiymati"
+   ],
+   "e": "C′(q)."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Kubning qirrasi 0,1 sm ga oshsa (a = 10 sm), hajmi taxminan qancha oshadi?",
+   "a": [
+    "30 sm³",
+    "3 sm³",
+    "100 sm³",
+    "0,3 sm³"
+   ],
+   "e": "dV = 3a²·da = 3·100·0,1."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = eˣ funksiya grafigi butun son o'qida qanday?",
+   "a": [
+    "O'suvchi va botiq",
+    "Kamayuvchi va qavariq",
+    "O'suvchi va qavariq",
+    "Kamayuvchi va botiq"
+   ],
+   "e": "y′ > 0, y″ > 0."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = ln x funksiya grafigi (0; +∞) da qanday?",
+   "a": [
+    "O'suvchi va qavariq",
+    "O'suvchi va botiq",
+    "Kamayuvchi va botiq",
+    "Kamayuvchi va qavariq"
+   ],
+   "e": "y′ = 1/x > 0, y″ = −1/x² < 0."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "Boshlang'ich funksiya deb nimaga aytiladi?",
+   "a": [
+    "Hosilasi berilgan funksiyaga teng funksiyaga",
+    "Berilgan funksiyaning birinchi tartibli hosilasiga",
+    "Berilgan funksiyaga teskari bo'lgan funksiyaga",
+    "Berilgan funksiyaning kvadratiga"
+   ],
+   "e": "F′(x) = f(x)."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "Bitta funksiyaning boshlang'ich funksiyalari bir-biridan nimasi bilan farq qiladi?",
+   "a": [
+    "O'zgarmas son bilan",
+    "O'zgarmas ko'paytuvchi bilan",
+    "Darajasi bilan",
+    "Hech narsasi bilan, ular bir xil"
+   ],
+   "e": "F(x) + C."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫xⁿdx (n ≠ −1) qanday?",
+   "a": [
+    "xⁿ⁺¹/(n + 1) + C",
+    "n·xⁿ⁻¹ + C",
+    "xⁿ⁺¹ + C",
+    "xⁿ/n + C"
+   ],
+   "e": "Asosiy jadval formulasi."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫x³dx qanday?",
+   "a": [
+    "x⁴/4 + C",
+    "3x² + C",
+    "x⁴ + C",
+    "x³/3 + C"
+   ],
+   "e": "n = 3."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫dx/x qanday?",
+   "a": [
+    "ln|x| + C",
+    "1/x² + C",
+    "−1/x² + C",
+    "x + C"
+   ],
+   "e": "n = −1 holi."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫eˣdx qanday?",
+   "a": [
+    "eˣ + C",
+    "x·eˣ + C",
+    "eˣ⁺¹/(x + 1) + C",
+    "ln x + C"
+   ],
+   "e": "Asosiy formula."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫cos x dx qanday?",
+   "a": [
+    "sin x + C",
+    "−sin x + C",
+    "cos x + C",
+    "−cos x + C"
+   ],
+   "e": "(sin x)′ = cos x."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫sin x dx qanday?",
+   "a": [
+    "−cos x + C",
+    "cos x + C",
+    "sin x + C",
+    "−sin x + C"
+   ],
+   "e": "(−cos x)′ = sin x."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫dx/cos²x qanday?",
+   "a": [
+    "tg x + C",
+    "ctg x + C",
+    "−tg x + C",
+    "sin x + C"
+   ],
+   "e": "Jadval integrali."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫dx/(1 + x²) qanday?",
+   "a": [
+    "arctg x + C",
+    "arcsin x + C",
+    "ln(1 + x²) + C",
+    "1/(1 + x) + C"
+   ],
+   "e": "Jadval integrali."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫dx/√(1 − x²) qanday?",
+   "a": [
+    "arcsin x + C",
+    "arctg x + C",
+    "√(1 − x²) + C",
+    "ln|x| + C"
+   ],
+   "e": "Jadval integrali."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫aˣdx qanday?",
+   "a": [
+    "aˣ/ln a + C",
+    "aˣ·ln a + C",
+    "x·aˣ⁻¹ + C",
+    "aˣ⁺¹/(x + 1) + C"
+   ],
+   "e": "a > 0, a ≠ 1."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫(3x² + 2x)dx qanday?",
+   "a": [
+    "x³ + x² + C",
+    "6x + 2 + C",
+    "3x³ + 2x² + C",
+    "x³ + 2x + C"
+   ],
+   "e": "Hadma-had integrallash."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫5dx qanday?",
+   "a": [
+    "5x + C",
+    "5 + C",
+    "0",
+    "x⁵ + C"
+   ],
+   "e": "O'zgarmasning integrali."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫e^(2x)dx qanday?",
+   "a": [
+    "e^(2x)/2 + C",
+    "2e^(2x) + C",
+    "e^(2x) + C",
+    "e^(2x+1)/(2x + 1) + C"
+   ],
+   "e": "∫e^(kx)dx = e^(kx)/k."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫cos(3x)dx qanday?",
+   "a": [
+    "sin(3x)/3 + C",
+    "3sin(3x) + C",
+    "−sin(3x)/3 + C",
+    "sin(3x) + C"
+   ],
+   "e": "Chiziqli almashtirish."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫dx/(2x + 1) qanday?",
+   "a": [
+    "ln|2x + 1|/2 + C",
+    "ln|2x + 1| + C",
+    "2ln|2x + 1| + C",
+    "1/(2x + 1)² + C"
+   ],
+   "e": "(1/k)·ln|kx + b|."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "O'zgaruvchini almashtirish usuli ∫2x·cos(x²)dx da qanday almashtirish qulay?",
+   "a": [
+    "t = x²",
+    "t = cos x",
+    "t = 2x",
+    "t = sin x"
+   ],
+   "e": "Natija: sin(x²) + C."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫2x·cos(x²)dx qanday?",
+   "a": [
+    "sin(x²) + C",
+    "cos(x²) + C",
+    "2sin(x²) + C",
+    "x²·sin x + C"
+   ],
+   "e": "dt = 2x dx."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫f′(x)/f(x) dx qanday?",
+   "a": [
+    "ln|f(x)| + C",
+    "f(x)²/2 + C",
+    "1/f(x) + C",
+    "f′(x) + C"
+   ],
+   "e": "Logarifmik integral."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫tg x dx qanday?",
+   "a": [
+    "−ln|cos x| + C",
+    "ln|sin x| + C",
+    "1/cos²x + C",
+    "ln|cos x| + C"
+   ],
+   "e": "sin x/cos x = −(cos x)′/cos x."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "Bo'laklab integrallash formulasi qaysi?",
+   "a": [
+    "∫u dv = uv − ∫v du",
+    "∫u dv = uv + ∫v du",
+    "∫u dv = u′v′",
+    "∫u dv = ∫u·∫v"
+   ],
+   "e": "Ko'paytma hosilasidan kelib chiqadi."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫x·eˣdx qanday?",
+   "a": [
+    "eˣ(x − 1) + C",
+    "eˣ(x + 1) + C",
+    "x²eˣ/2 + C",
+    "x·eˣ + C"
+   ],
+   "e": "u = x, dv = eˣdx."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫ln x dx qanday?",
+   "a": [
+    "x·ln x − x + C",
+    "1/x + C",
+    "x·ln x + C",
+    "ln²x/2 + C"
+   ],
+   "e": "u = ln x, dv = dx."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫x·cos x dx qanday?",
+   "a": [
+    "x·sin x + cos x + C",
+    "x·sin x − cos x + C",
+    "−x·sin x + C",
+    "x²·sin x/2 + C"
+   ],
+   "e": "u = x, dv = cos x dx."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "Ratsional kasrni integrallashda avval nima qilinadi?",
+   "a": [
+    "Sodda kasrlarga yoyiladi",
+    "Surat va maxraj ko'paytiriladi",
+    "Kasr kvadratga oshiriladi",
+    "Darhol hosila olinadi"
+   ],
+   "e": "Noma'lum koeffitsiyentlar usuli."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫dx/(x² − 1) qanday?",
+   "a": [
+    "(1/2)·ln|(x − 1)/(x + 1)| + C",
+    "arctg x + C",
+    "ln|x² − 1| + C",
+    "(1/2)·ln|(x + 1)/(x − 1)| + C"
+   ],
+   "e": "1/(x² − 1) = (1/2)[1/(x − 1) − 1/(x + 1)]."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫dx/(x² + 4) qanday?",
+   "a": [
+    "(1/2)·arctg(x/2) + C",
+    "arctg(x/2) + C",
+    "2·arctg(2x) + C",
+    "ln(x² + 4) + C"
+   ],
+   "e": "(1/a)·arctg(x/a)."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫sin²x dx ni hisoblashda qaysi formuladan foydalaniladi?",
+   "a": [
+    "sin²x = (1 − cos 2x)/2",
+    "sin²x = 1 + cos²x",
+    "sin²x = 2sin x",
+    "sin²x = sin 2x"
+   ],
+   "e": "Darajani pasaytirish."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫sin²x dx qanday?",
+   "a": [
+    "x/2 − sin(2x)/4 + C",
+    "x/2 + sin(2x)/4 + C",
+    "−cos³x/3 + C",
+    "sin³x/3 + C"
+   ],
+   "e": "(1 − cos 2x)/2 ni integrallash."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Nyuton–Leybnits formulasi qaysi?",
+   "a": [
+    "∫ₐᵇ f(x)dx = F(b) − F(a)",
+    "∫ₐᵇ f(x)dx = F(a) − F(b)",
+    "∫ₐᵇ f(x)dx = f(b) − f(a)",
+    "∫ₐᵇ f(x)dx = F(a)·F(b)"
+   ],
+   "e": "F — boshlang'ich funksiya."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Aniq integralning geometrik ma'nosi nima (f ≥ 0)?",
+   "a": [
+    "Egri chiziqli trapetsiya yuzi",
+    "Urinma burchak koeffitsiyenti",
+    "Funksiyaning eng katta qiymati",
+    "Egri chiziq uzunligi"
+   ],
+   "e": "y = f(x), x = a, x = b, y = 0 bilan chegaralangan."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀¹ x² dx qancha?",
+   "a": [
+    "1/3",
+    "1/2",
+    "1",
+    "2"
+   ],
+   "e": "x³/3 |₀¹."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀² x dx qancha?",
+   "a": [
+    "2",
+    "4",
+    "1",
+    "0"
+   ],
+   "e": "x²/2 |₀²."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀^π sin x dx qancha?",
+   "a": [
+    "2",
+    "0",
+    "1",
+    "π"
+   ],
+   "e": "−cos x |₀^π = 1 + 1."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₁^e dx/x qancha?",
+   "a": [
+    "1",
+    "e",
+    "0",
+    "e − 1"
+   ],
+   "e": "ln e − ln 1."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀¹ eˣ dx qancha?",
+   "a": [
+    "e − 1",
+    "e",
+    "1",
+    "e + 1"
+   ],
+   "e": "eˣ |₀¹."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₋₁¹ x³ dx qancha?",
+   "a": [
+    "0",
+    "1/2",
+    "2",
+    "1/4"
+   ],
+   "e": "Toq funksiya simmetrik oraliqda."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₋₂² x² dx qancha?",
+   "a": [
+    "16/3",
+    "8/3",
+    "0",
+    "4"
+   ],
+   "e": "Juft funksiya: 2·∫₀² x²dx = 2·8/3."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫ₐᵃ f(x)dx qancha?",
+   "a": [
+    "0",
+    "f(a)",
+    "a",
+    "2f(a)"
+   ],
+   "e": "Chegaralar teng."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫ₐᵇ f(x)dx va ∫ᵦₐ f(x)dx qanday bog'langan?",
+   "a": [
+    "Ishoralari qarama-qarshi",
+    "Teng",
+    "Biri ikkinchisidan ikki baravar katta",
+    "Bog'lanmagan"
+   ],
+   "e": "Chegaralarni almashtirish ishorani o'zgartiradi."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "y = x² va y = x chiziqlar bilan chegaralangan yuza qancha?",
+   "a": [
+    "1/6",
+    "1/3",
+    "1/2",
+    "1"
+   ],
+   "e": "∫₀¹ (x − x²)dx = 1/2 − 1/3."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "y = 4 − x² parabola va Ox o'qi bilan chegaralangan yuza qancha?",
+   "a": [
+    "32/3",
+    "16/3",
+    "8",
+    "16"
+   ],
+   "e": "∫₋₂² (4 − x²)dx."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Ox o'qi atrofida aylanishdan hosil bo'lgan jism hajmi formulasi qaysi?",
+   "a": [
+    "V = π∫ₐᵇ f²(x)dx",
+    "V = ∫ₐᵇ f(x)dx",
+    "V = 2π∫ₐᵇ f(x)dx",
+    "V = π∫ₐᵇ f(x)dx"
+   ],
+   "e": "Kesimlar doira."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "y = x, x ∈ [0; 1] ni Ox atrofida aylantirganda hosil bo'lgan konus hajmi qancha?",
+   "a": [
+    "π/3",
+    "π/2",
+    "π",
+    "1/3"
+   ],
+   "e": "π∫₀¹ x²dx."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Egri chiziq yoyi uzunligi formulasi qaysi?",
+   "a": [
+    "L = ∫ₐᵇ √(1 + (y′)²)dx",
+    "L = ∫ₐᵇ y dx",
+    "L = ∫ₐᵇ (1 + y′)dx",
+    "L = π∫ₐᵇ y²dx"
+   ],
+   "e": "Dekart koordinatalarida."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "O'zgaruvchan kuch bajargan ish qanday hisoblanadi?",
+   "a": [
+    "A = ∫ₐᵇ F(x)dx",
+    "A = F(b) − F(a)",
+    "A = F·(b − a)²",
+    "A = ∫ₐᵇ F′(x)dx faqat"
+   ],
+   "e": "Masalan, prujinani cho'zish ishi."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Aniq integralni taqribiy hisoblashning usullaridan biri qaysi?",
+   "a": [
+    "Simpson usuli",
+    "Lopital usuli",
+    "Gauss eliminatsiya usuli",
+    "Kramer usuli"
+   ],
+   "e": "To'g'ri to'rtburchaklar, trapetsiyalar usullari ham."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Trapetsiyalar usulida integral nima bilan almashtiriladi?",
+   "a": [
+    "Trapetsiyalar yuzalari yig'indisi bilan",
+    "Doiralar yuzalari yig'indisi bilan",
+    "Funksiyaning eng katta qiymati bilan",
+    "Hosilalar yig'indisi bilan"
+   ],
+   "e": "Egri chiziq siniq chiziq bilan almashtiriladi."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Xosmas integral ∫₁^∞ dx/x² qancha?",
+   "a": [
+    "1",
+    "∞",
+    "0",
+    "1/2"
+   ],
+   "e": "−1/x |₁^∞ = 0 + 1."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Xosmas integral ∫₁^∞ dx/x haqida nima deyish mumkin?",
+   "a": [
+    "Uzoqlashadi",
+    "1 ga teng",
+    "0 ga teng",
+    "e ga teng"
+   ],
+   "e": "ln x → ∞."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₁^∞ dx/xᵖ qachon yaqinlashadi?",
+   "a": [
+    "p > 1 da",
+    "p < 1 da",
+    "p = 1 da",
+    "Hech qachon"
+   ],
+   "e": "Etalon integral."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "O'rta qiymat haqidagi teoremaga ko'ra [a; b] da f ning o'rta qiymati qanday?",
+   "a": [
+    "(1/(b − a))·∫ₐᵇ f(x)dx",
+    "f(a) + f(b)",
+    "∫ₐᵇ f(x)dx·(b − a)",
+    "f((a + b)/2) har doim"
+   ],
+   "e": "Integral o'rta qiymat."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Yuqori chegarasi o'zgaruvchi integralning hosilasi d/dx ∫ₐˣ f(t)dt qanday?",
+   "a": [
+    "f(x)",
+    "F(x)",
+    "f′(x)",
+    "0"
+   ],
+   "e": "Barrou teoremasi."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀^(π/2) cos x dx qancha?",
+   "a": [
+    "1",
+    "0",
+    "π/2",
+    "−1"
+   ],
+   "e": "sin x |₀^(π/2)."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀¹ (2x + 1)dx qancha?",
+   "a": [
+    "2",
+    "1",
+    "3",
+    "1,5"
+   ],
+   "e": "x² + x |₀¹."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀³ dx qancha?",
+   "a": [
+    "3",
+    "0",
+    "1",
+    "9"
+   ],
+   "e": "x |₀³."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Qutb koordinatalarida egri chiziqli sektor yuzi formulasi qaysi?",
+   "a": [
+    "S = (1/2)∫ r²(φ)dφ",
+    "S = ∫ r(φ)dφ",
+    "S = π∫ r²dφ",
+    "S = 2∫ r dφ"
+   ],
+   "e": "α ≤ φ ≤ β."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Ikki karrali integral ∬_D dxdy nimani beradi?",
+   "a": [
+    "D sohaning yuzini",
+    "D sohaning perimetrini",
+    "D sohaning hajmini",
+    "D sohaning markazini"
+   ],
+   "e": "f = 1 bo'lganda."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀¹∫₀¹ xy dxdy qancha?",
+   "a": [
+    "1/4",
+    "1/2",
+    "1",
+    "0"
+   ],
+   "e": "(1/2)·(1/2)."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = x²y funksiyaning x bo'yicha xususiy hosilasi qanday?",
+   "a": [
+    "2xy",
+    "x²",
+    "2x",
+    "x²y"
+   ],
+   "e": "y o'zgarmas deb olinadi."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = x²y funksiyaning y bo'yicha xususiy hosilasi qanday?",
+   "a": [
+    "x²",
+    "2xy",
+    "2x",
+    "y"
+   ],
+   "e": "x o'zgarmas."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = x³ + y³ − 3xy funksiyaning ∂z/∂x qanday?",
+   "a": [
+    "3x² − 3y",
+    "3x² − 3x",
+    "3y² − 3x",
+    "x³ − 3y"
+   ],
+   "e": "Hadma-had."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = sin(xy) funksiyaning ∂z/∂x qanday?",
+   "a": [
+    "y·cos(xy)",
+    "x·cos(xy)",
+    "cos(xy)",
+    "−y·sin(xy)"
+   ],
+   "e": "Zanjir qoidasi."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = eˣʸ funksiyaning ∂z/∂y qanday?",
+   "a": [
+    "x·eˣʸ",
+    "y·eˣʸ",
+    "eˣʸ",
+    "xy·eˣʸ"
+   ],
+   "e": "(xy)′_y = x."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "To'liq differensial dz qanday ifodalanadi?",
+   "a": [
+    "dz = z′ₓdx + z′ᵧdy",
+    "dz = z′ₓ·z′ᵧ",
+    "dz = z′ₓ + z′ᵧ",
+    "dz = z″ₓᵧdxdy"
+   ],
+   "e": "Bosh chiziqli qism."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "Aralash xususiy hosilalar z″ₓᵧ va z″ᵧₓ (uzluksiz bo'lsa) qanday bog'langan?",
+   "a": [
+    "Teng",
+    "Ishoralari qarama-qarshi",
+    "Biri ikkinchisining kvadrati",
+    "Bog'lanmagan"
+   ],
+   "e": "Shvarts teoremasi."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = x²y³ uchun z″ₓᵧ qanday?",
+   "a": [
+    "6xy²",
+    "2y³",
+    "6x²y",
+    "3x²y²"
+   ],
+   "e": "(2xy³)′ᵧ."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "Ikki o'zgaruvchili funksiya ekstremumining zaruriy sharti qanday?",
+   "a": [
+    "z′ₓ = 0 va z′ᵧ = 0",
+    "z = 0",
+    "z″ₓₓ = 0",
+    "z′ₓ = z′ᵧ = 1"
+   ],
+   "e": "Statsionar nuqta."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = x² + y² funksiyaning statsionar nuqtasi qaysi?",
+   "a": [
+    "(0; 0)",
+    "(1; 1)",
+    "(1; 0)",
+    "Statsionar nuqta yo'q"
+   ],
+   "e": "2x = 0, 2y = 0."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = x² + y² funksiyaning (0; 0) nuqtasida nima bor?",
+   "a": [
+    "Minimum",
+    "Maksimum",
+    "Egar nuqta",
+    "Ekstremum yo'q"
+   ],
+   "e": "z ≥ 0, z(0; 0) = 0."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = x² − y² funksiyaning (0; 0) nuqtasi qanday nuqta?",
+   "a": [
+    "Egar nuqta",
+    "Minimum",
+    "Maksimum",
+    "Uzilish nuqtasi"
+   ],
+   "e": "AC − B² = −4 < 0."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "Ikki o'zgaruvchili funksiya ekstremumining yetarli sharti qanday (A = z″ₓₓ, B = z″ₓᵧ, C = z″ᵧᵧ)?",
+   "a": [
+    "AC − B² > 0",
+    "AC − B² < 0",
+    "A + C = 0",
+    "B = 0 faqat"
+   ],
+   "e": "A > 0 — minimum, A < 0 — maksimum."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "Gradient vektori nimani ko'rsatadi?",
+   "a": [
+    "Funksiyaning eng tez o'sish yo'nalishini",
+    "Funksiyaning sohadagi eng kichik qiymatini",
+    "Funksiyaning ikki karrali integralini",
+    "Funksiyaning aniqlanish sohasini"
+   ],
+   "e": "grad z = (z′ₓ; z′ᵧ)."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = x² + 3y funksiyaning (1; 2) nuqtadagi gradienti qanday?",
+   "a": [
+    "(2; 3)",
+    "(1; 3)",
+    "(2; 6)",
+    "(3; 2)"
+   ],
+   "e": "(2x; 3)."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "Shartli ekstremumni topishda qaysi usul qo'llaniladi?",
+   "a": [
+    "Lagranj ko'paytuvchilari usuli",
+    "Lopital qoidasi",
+    "Simpson usuli",
+    "Gauss usuli"
+   ],
+   "e": "L = f + λφ."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "Eng kichik kvadratlar usuli nima uchun qo'llaniladi?",
+   "a": [
+    "Tajriba ma'lumotlariga eng mos funksiyani tanlash uchun",
+    "Aniq integralni analitik usulda hisoblash uchun",
+    "Tenglama ildizini urinmalar bilan topish uchun",
+    "Funksiya davrini topish uchun"
+   ],
+   "e": "Σ(yᵢ − f(xᵢ))² → min."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "Differensial tenglama deb nimaga aytiladi?",
+   "a": [
+    "Noma'lum funksiya va uning hosilalarini bog'lovchi tenglamaga",
+    "Faqat sonlar va o'zgarmaslardan iborat algebraik tenglamaga",
+    "Faqat aniq integrallar qatnashgan tenglamaga",
+    "Ikki noma'lumli chiziqli tenglamaga"
+   ],
+   "e": "F(x, y, y′, ...) = 0."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "Differensial tenglamaning tartibi nimaga qarab aniqlanadi?",
+   "a": [
+    "Eng yuqori tartibli hosilaga",
+    "Tenglamadagi noma'lumlar soniga",
+    "Tenglamaning algebraik darajasiga",
+    "Tenglamadagi hadlar soniga"
+   ],
+   "e": "Masalan, y″ + y = 0 — ikkinchi tartibli."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y′ = 2x tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = x² + C",
+    "y = 2x + C",
+    "y = x²",
+    "y = 2"
+   ],
+   "e": "To'g'ridan-to'g'ri integrallash."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y′ = y tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = C·eˣ",
+    "y = x + C",
+    "y = eˣ + C",
+    "y = C·x"
+   ],
+   "e": "O'zgaruvchilari ajraladigan."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y′ = y, y(0) = 2 Koshi masalasining yechimi qanday?",
+   "a": [
+    "y = 2eˣ",
+    "y = eˣ + 2",
+    "y = 2x",
+    "y = e²ˣ"
+   ],
+   "e": "C = 2."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "O'zgaruvchilari ajraladigan tenglama qanday ko'rinishda?",
+   "a": [
+    "y′ = f(x)·g(y)",
+    "y′ = f(x) + g(y)",
+    "y″ + y = 0",
+    "y′ = f(x + y)"
+   ],
+   "e": "dy/g(y) = f(x)dx."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y′ = −y/x tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = C/x",
+    "y = Cx",
+    "y = C·eˣ",
+    "y = x + C"
+   ],
+   "e": "ln|y| = −ln|x| + C."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "Birinchi tartibli chiziqli tenglama qanday ko'rinishda?",
+   "a": [
+    "y′ + p(x)y = q(x)",
+    "y′ = y²",
+    "y″ + y′ + y = 0",
+    "y′·y = x"
+   ],
+   "e": "Bernulli yoki Lagranj usullari bilan yechiladi."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "Bir jinsli tenglama y′ = f(y/x) qanday almashtirish bilan yechiladi?",
+   "a": [
+    "y = u·x",
+    "y = u + x",
+    "y = eᵘ",
+    "y = 1/u"
+   ],
+   "e": "u — yangi noma'lum funksiya."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y″ + y = 0 tenglamaning xarakteristik tenglamasi qaysi?",
+   "a": [
+    "k² + 1 = 0",
+    "k + 1 = 0",
+    "k² − 1 = 0",
+    "k² + k = 0"
+   ],
+   "e": "k = ±i."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y″ + y = 0 tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = C₁cos x + C₂sin x",
+    "y = C₁eˣ + C₂e⁻ˣ",
+    "y = C₁ + C₂x",
+    "y = Ceˣ"
+   ],
+   "e": "Garmonik tebranishlar."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y″ − y = 0 tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = C₁eˣ + C₂e⁻ˣ",
+    "y = C₁cos x + C₂sin x",
+    "y = C₁ + C₂x",
+    "y = C·x²"
+   ],
+   "e": "k = ±1."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y″ − 5y′ + 6y = 0 tenglamaning xarakteristik ildizlari qaysilar?",
+   "a": [
+    "2 va 3",
+    "−2 va −3",
+    "1 va 6",
+    "−1 va 6"
+   ],
+   "e": "k² − 5k + 6 = 0."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y″ − 4y′ + 4y = 0 tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = (C₁ + C₂x)e²ˣ",
+    "y = C₁e²ˣ + C₂e⁻²ˣ",
+    "y = C₁cos 2x + C₂sin 2x",
+    "y = C₁e⁴ˣ"
+   ],
+   "e": "Karrali ildiz k = 2."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y″ = 0 tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = C₁x + C₂",
+    "y = C",
+    "y = Cx²",
+    "y = 0"
+   ],
+   "e": "Ikki marta integrallash."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "Ikkinchi tartibli tenglama umumiy yechimida nechta ixtiyoriy o'zgarmas bo'ladi?",
+   "a": [
+    "2",
+    "1",
+    "3",
+    "0"
+   ],
+   "e": "Tartibiga teng."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "Bir jinslimas chiziqli tenglama umumiy yechimi qanday tuziladi?",
+   "a": [
+    "Bir jinsli tenglama umumiy yechimi + xususiy yechim",
+    "Faqat bitta xususiy yechimning o'zi",
+    "Faqat bir jinsli tenglamaning umumiy yechimi",
+    "Ikki xususiy yechimning ko'paytmasi"
+   ],
+   "e": "y = ȳ + y*."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "Radioaktiv yemirilish qonuni qaysi differensial tenglama bilan ifodalanadi?",
+   "a": [
+    "dN/dt = −λN",
+    "dN/dt = λ",
+    "d²N/dt² = N",
+    "dN/dt = N²"
+   ],
+   "e": "N = N₀e^(−λt)."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Sonli qator yaqinlashuvchi deyiladi, agar...",
+   "a": [
+    "qismiy yig'indilar ketma-ketligi chekli limitga ega bo'lsa",
+    "qatorning barcha hadlari musbat va kamayuvchi bo'lsa",
+    "qatorning birinchi hadi nolga teng bo'lsa",
+    "qator hadlari soni chekli bo'lsa"
+   ],
+   "e": "S = lim Sₙ."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Qator yaqinlashishining zaruriy sharti qaysi?",
+   "a": [
+    "lim aₙ = 0",
+    "lim aₙ = 1",
+    "aₙ > 0",
+    "aₙ₊₁ > aₙ"
+   ],
+   "e": "Yetarli emas (garmonik qator)."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Garmonik qator 1 + 1/2 + 1/3 + ... haqida nima deyish mumkin?",
+   "a": [
+    "Uzoqlashadi",
+    "1 ga yaqinlashadi",
+    "2 ga yaqinlashadi",
+    "e ga yaqinlashadi"
+   ],
+   "e": "aₙ → 0 bo'lsa ham uzoqlashadi."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Σ 1/n² qatori haqida nima deyish mumkin?",
+   "a": [
+    "Yaqinlashadi",
+    "Uzoqlashadi",
+    "Yig'indisi cheksiz",
+    "Aniqlab bo'lmaydi"
+   ],
+   "e": "Yig'indisi π²/6."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Σ 1/nᵖ (Dirixle qatori) qachon yaqinlashadi?",
+   "a": [
+    "p > 1 da",
+    "p ≤ 1 da",
+    "p = 1 da",
+    "Hech qachon"
+   ],
+   "e": "Integral alomat bilan."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Geometrik qator Σ qⁿ qachon yaqinlashadi?",
+   "a": [
+    "|q| < 1 da",
+    "|q| > 1 da",
+    "q = 1 da",
+    "Har doim"
+   ],
+   "e": "S = a₁/(1 − q)."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "1 + 1/2 + 1/4 + 1/8 + ... qatorining yig'indisi qancha?",
+   "a": [
+    "2",
+    "1",
+    "∞",
+    "1,5"
+   ],
+   "e": "1/(1 − 1/2)."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "1 − 1/3 + 1/9 − 1/27 + ... qatorining yig'indisi qancha?",
+   "a": [
+    "3/4",
+    "3/2",
+    "1",
+    "2/3"
+   ],
+   "e": "q = −1/3: 1/(1 + 1/3)."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Dalamber alomati qanday?",
+   "a": [
+    "lim aₙ₊₁/aₙ = l; l < 1 bo'lsa yaqinlashadi",
+    "lim aₙ = 0 bo'lsa har doim yaqinlashadi",
+    "lim aₙ₊₁/aₙ = l; l > 1 bo'lsa yaqinlashadi",
+    "aₙ > 0 bo'lsa yaqinlashadi"
+   ],
+   "e": "l = 1 bo'lsa savol ochiq qoladi."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Koshi (radikal) alomati qanday?",
+   "a": [
+    "lim ⁿ√aₙ = l; l < 1 bo'lsa yaqinlashadi",
+    "lim aₙ·n = 0 bo'lsa yaqinlashadi",
+    "lim ⁿ√aₙ = l; l > 1 bo'lsa yaqinlashadi",
+    "aₙ < 1 bo'lsa yaqinlashadi"
+   ],
+   "e": "Musbat hadli qatorlar uchun."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Σ 1/n! qatori haqida nima deyish mumkin?",
+   "a": [
+    "Yaqinlashadi",
+    "Uzoqlashadi",
+    "Yig'indisi 1 ga teng",
+    "Yig'indisi cheksiz"
+   ],
+   "e": "Dalamber: 1/(n + 1) → 0; Σ (n=0) 1/n! = e."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Σ 2ⁿ/n! qatoriga Dalamber alomati qo'llanganda limit qancha?",
+   "a": [
+    "0",
+    "2",
+    "1",
+    "∞"
+   ],
+   "e": "2/(n + 1) → 0, yaqinlashadi."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Ishorasi almashinuvchi qatorlar uchun qaysi alomat qo'llaniladi?",
+   "a": [
+    "Leybnits alomati",
+    "Dalamber alomati faqat",
+    "Koshi alomati faqat",
+    "Taqqoslash alomati faqat"
+   ],
+   "e": "|aₙ| kamayib nolga intilsa."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "1 − 1/2 + 1/3 − 1/4 + ... qatori haqida nima deyish mumkin?",
+   "a": [
+    "Shartli yaqinlashadi",
+    "Absolyut yaqinlashadi",
+    "Uzoqlashadi",
+    "Yig'indisi 0"
+   ],
+   "e": "Yig'indisi ln 2; modullar qatori uzoqlashadi."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Absolyut yaqinlashuvchi qator deb qanday qatorga aytiladi?",
+   "a": [
+    "Hadlari modullaridan tuzilgan qator yaqinlashsa",
+    "Qatorning barcha hadlari musbat sonlardan iborat bo'lsa",
+    "Qator yig'indisi musbat son bo'lsa",
+    "Hadlari ishorasi almashib kelsa"
+   ],
+   "e": "Absolyut yaqinlashish — oddiy yaqinlashishdan kuchliroq."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Darajali qator Σ aₙxⁿ ning yaqinlashish radiusi qanday topiladi?",
+   "a": [
+    "R = lim |aₙ/aₙ₊₁|",
+    "R = lim aₙ",
+    "R = aₙ·aₙ₊₁",
+    "R = Σaₙ"
+   ],
+   "e": "Yoki Koshi–Adamar formulasi."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Σ xⁿ darajali qatorining yaqinlashish oralig'i qaysi?",
+   "a": [
+    "(−1; 1)",
+    "[−1; 1]",
+    "(−∞; +∞)",
+    "(0; 1)"
+   ],
+   "e": "Geometrik qator."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Σ xⁿ/n! darajali qatorining yaqinlashish radiusi qancha?",
+   "a": [
+    "∞",
+    "1",
+    "0",
+    "e"
+   ],
+   "e": "eˣ yoyilmasi."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "ln(1 + x) ning Makloren qatori qanday?",
+   "a": [
+    "x − x²/2 + x³/3 − ...",
+    "1 + x + x²/2 + ...",
+    "x + x²/2 + x³/3 + ...",
+    "1 − x + x² − ..."
+   ],
+   "e": "−1 < x ≤ 1."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "1/(1 − x) ning darajali qatori qanday?",
+   "a": [
+    "1 + x + x² + x³ + ...",
+    "1 − x + x² − x³ + ...",
+    "x + x²/2 + x³/3 + ...",
+    "1 + x²/2! + ..."
+   ],
+   "e": "|x| < 1."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Furye qatori qanday funksiyalarni yoyishda qo'llaniladi?",
+   "a": [
+    "Davriy funksiyalarni",
+    "Faqat ko'phadlarni",
+    "Faqat ko'rsatkichli funksiyalarni",
+    "Faqat chiziqli funksiyalarni"
+   ],
+   "e": "Sinus va kosinuslar bo'yicha."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Juft funksiyaning Furye qatorida qanday hadlar qatnashadi?",
+   "a": [
+    "Faqat kosinuslar (va o'zgarmas)",
+    "Faqat sinuslar",
+    "Sinuslar va kosinuslar teng",
+    "Faqat o'zgarmas son"
+   ],
+   "e": "bₙ = 0."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Toq funksiyaning Furye qatorida qanday hadlar qatnashadi?",
+   "a": [
+    "Faqat sinuslar",
+    "Faqat kosinuslar",
+    "Faqat o'zgarmas son",
+    "Kosinuslar va o'zgarmas"
+   ],
+   "e": "a₀ = aₙ = 0."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Taqqoslash alomati mazmuni qanday?",
+   "a": [
+    "Katta qator yaqinlashsa, kichigi ham yaqinlashadi",
+    "Kichik qator yaqinlashsa, kattasi ham yaqinlashadi",
+    "Ikki qator har doim bir xil yig'indiga ega",
+    "Taqqoslash mumkin emas"
+   ],
+   "e": "Musbat hadli qatorlar uchun."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Integral alomat (Koshi) qanday?",
+   "a": [
+    "Σf(n) va ∫₁^∞ f(x)dx bir vaqtda yaqinlashadi yoki uzoqlashadi",
+    "Σf(n) har doim integraldan katta",
+    "Integral har doim yaqinlashadi",
+    "Qator har doim uzoqlashadi"
+   ],
+   "e": "f musbat, kamayuvchi."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Σ n/(n + 1) qatori haqida nima deyish mumkin?",
+   "a": [
+    "Uzoqlashadi",
+    "Yaqinlashadi",
+    "Yig'indisi 1",
+    "Absolyut yaqinlashadi"
+   ],
+   "e": "aₙ → 1 ≠ 0."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "0,(3) davriy kasr qaysi qator yig'indisi sifatida qaraladi?",
+   "a": [
+    "3/10 + 3/100 + 3/1000 + ...",
+    "1/3 + 1/9 + 1/27 + ...",
+    "3 + 0,3 + 0,03 + ...",
+    "1/10 + 1/100 + ..."
+   ],
+   "e": "Yig'indisi 1/3."
+  },
+  {
+   "b": "Qatorlar",
+   "q": "Funksional qatorning tekis yaqinlashishini tekshirishda qaysi alomat qo'llaniladi?",
+   "a": [
+    "Veyershtrass alomati",
+    "Leybnits alomati",
+    "Lopital qoidasi",
+    "Simpson usuli"
+   ],
+   "e": "Majorant sonli qator orqali."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = cos(3x) funksiya hosilasi qanday?",
+   "a": [
+    "−3sin(3x)",
+    "3sin(3x)",
+    "−sin(3x)",
+    "3cos(3x)"
+   ],
+   "e": "Zanjir qoidasi."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = tg(2x) funksiya hosilasi qanday?",
+   "a": [
+    "2/cos²(2x)",
+    "1/cos²(2x)",
+    "2tg(2x)",
+    "−2/sin²(2x)"
+   ],
+   "e": "(tg u)′ = u′/cos²u."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = √(x² + 1) funksiya hosilasi qanday?",
+   "a": [
+    "x/√(x² + 1)",
+    "1/(2√(x² + 1))",
+    "2x√(x² + 1)",
+    "√(2x)"
+   ],
+   "e": "(2x)/(2√(x² + 1))."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = 1/(x + 1) funksiya hosilasi qanday?",
+   "a": [
+    "−1/(x + 1)²",
+    "1/(x + 1)²",
+    "ln|x + 1|",
+    "−1/(x + 1)"
+   ],
+   "e": "(u⁻¹)′."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = eˣ·sin x funksiya hosilasi qanday?",
+   "a": [
+    "eˣ(sin x + cos x)",
+    "eˣ·cos x",
+    "eˣ(sin x − cos x)",
+    "eˣ·sin x"
+   ],
+   "e": "Ko'paytma hosilasi."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = (x + 1)/(x − 1) funksiya hosilasi qanday?",
+   "a": [
+    "−2/(x − 1)²",
+    "2/(x − 1)²",
+    "1/(x − 1)²",
+    "(x − 1)/(x + 1)"
+   ],
+   "e": "[(x − 1) − (x + 1)]/(x − 1)²."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = ln(sin x) funksiya hosilasi qanday?",
+   "a": [
+    "ctg x",
+    "tg x",
+    "1/sin x",
+    "cos x"
+   ],
+   "e": "cos x/sin x."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = arctg(2x) funksiya hosilasi qanday?",
+   "a": [
+    "2/(1 + 4x²)",
+    "1/(1 + 4x²)",
+    "2/(1 + 2x²)",
+    "1/(1 + x²)"
+   ],
+   "e": "u′/(1 + u²)."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = xˣ (x > 0) funksiya hosilasi qanday?",
+   "a": [
+    "xˣ(ln x + 1)",
+    "x·xˣ⁻¹",
+    "xˣ·ln x",
+    "xˣ"
+   ],
+   "e": "Logarifmik differensiallash."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = 2ˣ funksiyaning x = 0 dagi hosilasi qancha?",
+   "a": [
+    "ln 2",
+    "1",
+    "2",
+    "0"
+   ],
+   "e": "2⁰·ln 2."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = x² funksiya grafigiga qaysi nuqtada o'tkazilgan urinma y = 4x − 4 ga parallel?",
+   "a": [
+    "(2; 4)",
+    "(4; 16)",
+    "(1; 1)",
+    "(0; 0)"
+   ],
+   "e": "2x = 4."
+  },
+  {
+   "b": "Hosila",
+   "q": "y = x³ funksiyaning n-tartibli hosilasi (n ≥ 4) nimaga teng?",
+   "a": [
+    "0",
+    "6",
+    "3x²",
+    "x³"
+   ],
+   "e": "y‴ = 6, keyin 0."
+  },
+  {
+   "b": "Hosila",
+   "q": "(eˣ)⁽ⁿ⁾ qanday?",
+   "a": [
+    "eˣ",
+    "n·eˣ",
+    "eⁿˣ",
+    "0"
+   ],
+   "e": "Har qanday tartibda."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫(x² + 1)²dx qanday?",
+   "a": [
+    "x⁵/5 + 2x³/3 + x + C",
+    "(x² + 1)³/3 + C",
+    "x⁵/5 + x + C",
+    "(x² + 1)³/(6x) + C"
+   ],
+   "e": "Qavsni ochib integrallash."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫(1/√x)dx qanday?",
+   "a": [
+    "2√x + C",
+    "√x/2 + C",
+    "1/(2√x) + C",
+    "ln√x + C"
+   ],
+   "e": "x^(−1/2) → 2x^(1/2)."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫x·√(x² + 1)dx qanday?",
+   "a": [
+    "(x² + 1)^(3/2)/3 + C",
+    "(x² + 1)^(3/2) + C",
+    "2(x² + 1)^(1/2) + C",
+    "x²√(x² + 1)/2 + C"
+   ],
+   "e": "t = x² + 1."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫sin x·cos x dx qanday?",
+   "a": [
+    "sin²x/2 + C",
+    "cos²x/2 + C",
+    "−sin²x + C",
+    "sin 2x + C"
+   ],
+   "e": "t = sin x."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫eˣ/(eˣ + 1)dx qanday?",
+   "a": [
+    "ln(eˣ + 1) + C",
+    "eˣ + C",
+    "1/(eˣ + 1) + C",
+    "x + C"
+   ],
+   "e": "f′/f."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫ctg x dx qanday?",
+   "a": [
+    "ln|sin x| + C",
+    "−ln|sin x| + C",
+    "−1/sin²x + C",
+    "ln|cos x| + C"
+   ],
+   "e": "cos x/sin x."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫dx/√(4 − x²) qanday?",
+   "a": [
+    "arcsin(x/2) + C",
+    "arctg(x/2) + C",
+    "(1/2)arcsin(x/2) + C",
+    "√(4 − x²) + C"
+   ],
+   "e": "arcsin(x/a)."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫x²·eˣdx ni hisoblashda bo'laklab integrallash necha marta qo'llaniladi?",
+   "a": [
+    "2 marta",
+    "1 marta",
+    "3 marta",
+    "Qo'llanilmaydi"
+   ],
+   "e": "Natija: eˣ(x² − 2x + 2) + C."
+  },
+  {
+   "b": "Aniqmas integral",
+   "q": "∫cos²x dx qanday?",
+   "a": [
+    "x/2 + sin(2x)/4 + C",
+    "x/2 − sin(2x)/4 + C",
+    "sin³x/3 + C",
+    "−sin²x + C"
+   ],
+   "e": "(1 + cos 2x)/2."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀^(π/4) dx/cos²x qancha?",
+   "a": [
+    "1",
+    "0",
+    "π/4",
+    "√2"
+   ],
+   "e": "tg(π/4) − tg 0."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀¹ dx/(1 + x²) qancha?",
+   "a": [
+    "π/4",
+    "π/2",
+    "1",
+    "ln 2"
+   ],
+   "e": "arctg 1."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀¹ x·eˣ dx qancha?",
+   "a": [
+    "1",
+    "e",
+    "e − 1",
+    "0"
+   ],
+   "e": "eˣ(x − 1)|₀¹ = 0 − (−1)."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₁² (1/x²)dx qancha?",
+   "a": [
+    "1/2",
+    "1",
+    "2",
+    "3/4"
+   ],
+   "e": "−1/x |₁² = −1/2 + 1."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀⁴ √x dx qancha?",
+   "a": [
+    "16/3",
+    "8/3",
+    "4",
+    "8"
+   ],
+   "e": "(2/3)x^(3/2) |₀⁴ = (2/3)·8."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Tezligi v(t) = 3t² bo'lgan nuqta [0; 2] vaqt oralig'ida qancha yo'l bosadi?",
+   "a": [
+    "8",
+    "12",
+    "6",
+    "4"
+   ],
+   "e": "∫₀² 3t²dt = t³ |₀²."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Prujinani 0,1 m ga cho'zish uchun bajariladigan ish qancha (c = 200 N/m)?",
+   "a": [
+    "1 J",
+    "20 J",
+    "2 J",
+    "0,5 J"
+   ],
+   "e": "∫₀^0,1 200x dx = 100·0,01."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "y = sin x, x ∈ [0; π] va Ox o'qi bilan chegaralangan yuza qancha?",
+   "a": [
+    "2",
+    "1",
+    "π",
+    "0"
+   ],
+   "e": "∫₀^π sin x dx."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "y = eˣ, x = 0, x = 1 va Ox bilan chegaralangan yuza qancha?",
+   "a": [
+    "e − 1",
+    "e",
+    "1",
+    "e + 1"
+   ],
+   "e": "∫₀¹ eˣdx."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "y = √x, x ∈ [0; 4] ni Ox atrofida aylantirganda hosil bo'lgan jism hajmi qancha?",
+   "a": [
+    "8π",
+    "4π",
+    "16π",
+    "2π"
+   ],
+   "e": "π∫₀⁴ x dx = π·8."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y′ = 3x² tenglamaning y(0) = 1 shartni qanoatlantiruvchi yechimi qanday?",
+   "a": [
+    "y = x³ + 1",
+    "y = x³",
+    "y = 3x³ + 1",
+    "y = 6x + 1"
+   ],
+   "e": "C = 1."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y′ = 2y tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = C·e²ˣ",
+    "y = 2eˣ + C",
+    "y = C·eˣ/2",
+    "y = x² + C"
+   ],
+   "e": "dy/y = 2dx."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y″ + 4y = 0 tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = C₁cos 2x + C₂sin 2x",
+    "y = C₁e²ˣ + C₂e⁻²ˣ",
+    "y = C₁cos 4x + C₂sin 4x",
+    "y = (C₁ + C₂x)e²ˣ"
+   ],
+   "e": "k = ±2i."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y″ + 2y′ + 5y = 0 tenglamaning xarakteristik ildizlari qanday?",
+   "a": [
+    "−1 ± 2i",
+    "1 ± 2i",
+    "−2 ± i",
+    "−1 va −5"
+   ],
+   "e": "k = −1 ± √(1 − 5)."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "Nyutonning sovish qonuni qanday differensial tenglama bilan ifodalanadi?",
+   "a": [
+    "dT/dt = −k(T − T₀)",
+    "dT/dt = k",
+    "d²T/dt² = −T",
+    "dT/dt = T²"
+   ],
+   "e": "T₀ — muhit harorati."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "Bakteriyalar soni ko'payish tezligi ularning soniga proporsional. Bu qanday qonun?",
+   "a": [
+    "Eksponensial o'sish",
+    "Chiziqli o'sish",
+    "Kvadratik o'sish",
+    "Logarifmik kamayish"
+   ],
+   "e": "dN/dt = kN."
+  },
+  {
+   "b": "Differensial tenglamalar",
+   "q": "y′ + y = 0 tenglamaning umumiy yechimi qanday?",
+   "a": [
+    "y = C·e⁻ˣ",
+    "y = C·eˣ",
+    "y = −x + C",
+    "y = Cx"
+   ],
+   "e": "k = −1."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) sin 5x / sin 2x qancha?",
+   "a": [
+    "5/2",
+    "2/5",
+    "1",
+    "0"
+   ],
+   "e": "Ekvivalentlik: 5x/2x."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→∞) (1 − 1/x)ˣ qancha?",
+   "a": [
+    "1/e",
+    "e",
+    "1",
+    "0"
+   ],
+   "e": "e⁻¹."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→∞) (√(x² + x) − x) qancha?",
+   "a": [
+    "1/2",
+    "0",
+    "1",
+    "∞"
+   ],
+   "e": "x/(√(x² + x) + x) → 1/2."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) (e²ˣ − 1)/x qancha?",
+   "a": [
+    "2",
+    "1",
+    "e²",
+    "0"
+   ],
+   "e": "e²ˣ − 1 ~ 2x."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) arcsin x / x qancha?",
+   "a": [
+    "1",
+    "0",
+    "π/2",
+    "∞"
+   ],
+   "e": "arcsin x ~ x."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→2) (x³ − 8)/(x − 2) qancha?",
+   "a": [
+    "12",
+    "8",
+    "4",
+    "0"
+   ],
+   "e": "x² + 2x + 4 → 12."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→∞) (x² + 3x)/(2x² − 1) qancha?",
+   "a": [
+    "1/2",
+    "3/2",
+    "0",
+    "∞"
+   ],
+   "e": "Bosh koeffitsiyentlar nisbati."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→1) ln x / (x − 1) qancha?",
+   "a": [
+    "1",
+    "0",
+    "e",
+    "∞"
+   ],
+   "e": "Lopital: (1/x)/1."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0⁺) x·ln x qancha?",
+   "a": [
+    "0",
+    "−∞",
+    "1",
+    "−1"
+   ],
+   "e": "Lopital: ln x/(1/x)."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "lim (x→0) (1 + x)^(1/x) qancha?",
+   "a": [
+    "e",
+    "1",
+    "0",
+    "∞"
+   ],
+   "e": "Ikkinchi ajoyib limitning boshqa ko'rinishi."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = x² − 1 funksiya qiymatlar sohasi qaysi?",
+   "a": [
+    "[−1; +∞)",
+    "(−∞; +∞)",
+    "[0; +∞)",
+    "(−1; +∞)"
+   ],
+   "e": "x² ≥ 0."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "f(x) = 3 sin x + 1 funksiyaning eng katta qiymati qancha?",
+   "a": [
+    "4",
+    "3",
+    "1",
+    "2"
+   ],
+   "e": "sin x = 1."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "Qaysi funksiya chegaralangan?",
+   "a": [
+    "y = sin x",
+    "y = x²",
+    "y = eˣ",
+    "y = ln x"
+   ],
+   "e": "|sin x| ≤ 1."
+  },
+  {
+   "b": "Funksiya va limit",
+   "q": "y = log₂x funksiya qaysi funksiyaga teskari?",
+   "a": [
+    "y = 2ˣ",
+    "y = x²",
+    "y = √x",
+    "y = eˣ"
+   ],
+   "e": "Logarifm — ko'rsatkichli funksiyaga teskari."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = x⁴ − 2x² funksiyaning kritik nuqtalari qaysilar?",
+   "a": [
+    "x = 0 va x = ±1",
+    "Faqat x = 0",
+    "x = ±2",
+    "x = ±√2"
+   ],
+   "e": "4x³ − 4x = 4x(x² − 1)."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = x·e⁻ˣ funksiyaning maksimum nuqtasi qaysi?",
+   "a": [
+    "x = 1",
+    "x = 0",
+    "x = −1",
+    "x = e"
+   ],
+   "e": "y′ = e⁻ˣ(1 − x)."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = x + 4/x (x > 0) funksiyaning eng kichik qiymati qancha?",
+   "a": [
+    "4",
+    "2",
+    "5",
+    "0"
+   ],
+   "e": "1 − 4/x² = 0 → x = 2, y = 4."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Hajmi 8 m³ bo'lgan qopqoqli kub shaklidagi idishning eng kichik sirt yuzi qancha?",
+   "a": [
+    "24 m²",
+    "16 m²",
+    "32 m²",
+    "8 m²"
+   ],
+   "e": "Kub qirrasi 2 m: 6·4."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "y = (x − 1)³ funksiyaning egilish nuqtasi qaysi?",
+   "a": [
+    "x = 1",
+    "x = 0",
+    "x = −1",
+    "Egilish nuqtasi yo'q"
+   ],
+   "e": "y″ = 6(x − 1)."
+  },
+  {
+   "b": "Hosila tatbiqlari",
+   "q": "Doiraning radiusi 0,01 ga oshdi (r = 5). Yuzasi taxminan qancha oshadi?",
+   "a": [
+    "0,1π",
+    "0,01π",
+    "0,5π",
+    "π"
+   ],
+   "e": "dS = 2πr·dr = 10π·0,01."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀^(2π) sin x dx qancha?",
+   "a": [
+    "0",
+    "2",
+    "4",
+    "2π"
+   ],
+   "e": "To'liq davr bo'yicha."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀^(2π) |sin x| dx qancha?",
+   "a": [
+    "4",
+    "0",
+    "2",
+    "2π"
+   ],
+   "e": "2·∫₀^π sin x dx."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₋₁¹ |x| dx qancha?",
+   "a": [
+    "1",
+    "0",
+    "2",
+    "1/2"
+   ],
+   "e": "Ikki uchburchak yuzi."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "∫₀¹ (x³ + x)dx qancha?",
+   "a": [
+    "3/4",
+    "1/2",
+    "1",
+    "1/4"
+   ],
+   "e": "1/4 + 1/2."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Agar ∫₀² f(x)dx = 5 bo'lsa, ∫₀² 3f(x)dx qancha?",
+   "a": [
+    "15",
+    "5",
+    "8",
+    "5/3"
+   ],
+   "e": "O'zgarmas ko'paytuvchi chiqariladi."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "Agar ∫₀¹ f = 2 va ∫₁³ f = 4 bo'lsa, ∫₀³ f qancha?",
+   "a": [
+    "6",
+    "2",
+    "8",
+    "4"
+   ],
+   "e": "Aditivlik xossasi."
+  },
+  {
+   "b": "Aniq integral",
+   "q": "[0; 2] da f(x) = x² ning o'rta qiymati qancha?",
+   "a": [
+    "4/3",
+    "2",
+    "8/3",
+    "1"
+   ],
+   "e": "(1/2)·(8/3)."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = ln(x² + y²) funksiyaning ∂z/∂x qanday?",
+   "a": [
+    "2x/(x² + y²)",
+    "1/(x² + y²)",
+    "2x·ln(x² + y²)",
+    "2y/(x² + y²)"
+   ],
+   "e": "Zanjir qoidasi."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = x/y funksiyaning ∂z/∂y qanday?",
+   "a": [
+    "−x/y²",
+    "1/y",
+    "x/y²",
+    "−1/y²"
+   ],
+   "e": "x·(−1/y²)."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "z = 3x + 4y funksiyaning gradienti moduli qancha?",
+   "a": [
+    "5",
+    "7",
+    "12",
+    "1"
+   ],
+   "e": "√(9 + 16)."
+  },
+  {
+   "b": "Ko'p o'zgaruvchili funksiyalar",
+   "q": "f(x, y) = x² + y² funksiyaning sath chiziqlari qanday?",
+   "a": [
+    "Konsentrik aylanalar",
+    "Parallel to'g'ri chiziqlar",
+    "Giperbolalar",
+    "Parabolalar"
+   ],
+   "e": "x² + y² = C."
+  }
+ ]
+}
