@@ -2,282 +2,3153 @@
  "kod": "5PM0187",
  "nomi": "Dasturlash",
  "turi": "maxsus",
- "manba": "2026-yilgi texnikum o'quv rejalari (16 ta mutaxassislikda o'qitiladi)",
+ "manba": "2026-yilgi texnikum o'quv rejalari (16 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "Asosiy tushunchalar",
-   "q": "Kompilyator nima?",
+   "q": "Dasturlash tili nima?",
    "a": [
-    "Dastur matnini to'liq mashina kodiga o'giruvchi dastur",
-    "Dasturni satrma-satr bajaruvchi dastur",
-    "Matn muharriri",
-    "Ma'lumotlar bazasi"
+    "Kompyuterga buyruqlar berish uchun rasmiy til",
+    "Kompyuter qismlarini bir-biriga ulash uchun mo'ljallangan kabel standarti",
+    "Operatsion tizimning grafik interfeysi",
+    "Faqat matn terish dasturi"
    ],
-   "e": "Satrma-satr bajaruvchi dastur — interpretator."
+   "e": "Dasturlash tili sintaksis va semantikaga ega."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "O'zgaruvchi nima?",
+   "q": "Yuqori darajali dasturlash tillariga qaysi biri kiradi?",
    "a": [
-    "Nomga ega, qiymati dastur davomida o'zgarishi mumkin bo'lgan xotira sohasi",
-    "Doim o'zgarmas qiymat",
-    "Funksiya nomi",
-    "Izoh satri"
+    "C++",
+    "Mashina kodi",
+    "Assembler",
+    "Ikkilik kod"
    ],
-   "e": "Konstanta qiymati o'zgarmaydi."
+   "e": "Python, Java, C# ham yuqori darajali tillar."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "Python tilida izoh (kommentariya) qaysi belgi bilan boshlanadi?",
+   "q": "Kompilyatsiya qilinadigan tilga qaysi biri misol?",
    "a": [
-    "#",
+    "C++",
+    "JavaScript (brauzerda)",
+    "Bash skript",
+    "HTML"
+   ],
+   "e": "C++ dasturi kompilyator orqali mashina kodiga o'giriladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Dastur yaratish bosqichlarining to'g'ri ketma-ketligi qaysi?",
+   "a": [
+    "Masala qo'yish, algoritm, kodlash, sinash, joriy etish",
+    "Kodlash, joriy etish, masala qo'yish, algoritm tuzish va oxirida sinash",
+    "Sinash, joriy etish, kodlash",
+    "Algoritm, sinash, masala qo'yish"
+   ],
+   "e": "Har bir bosqich oldingisiga tayanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "IDE nima?",
+   "a": [
+    "Integratsiyalashgan dasturlash muhiti",
+    "Internet tarmog'ini boshqarish dasturi",
+    "Ma'lumotlar bazasi turi",
+    "Operatsion tizim yadrosi"
+   ],
+   "e": "Masalan, Visual Studio, Code::Blocks, CLion."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "C++ dasturining bajarilishi qaysi funksiyadan boshlanadi?",
+   "a": [
+    "main()",
+    "start()",
+    "begin()",
+    "run()"
+   ],
+   "e": "int main() — dastur kirish nuqtasi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "C++ da ekranga chiqarish uchun qaysi obyekt ishlatiladi?",
+   "a": [
+    "cout",
+    "cin",
+    "printf faqat",
+    "scanf"
+   ],
+   "e": "cout << \"Salom\";"
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "C++ da klaviaturadan o'qish uchun qaysi obyekt ishlatiladi?",
+   "a": [
+    "cin",
+    "cout",
+    "cerr",
+    "clog"
+   ],
+   "e": "cin >> x;"
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "C++ da cout va cin qaysi sarlavha faylida e'lon qilingan?",
+   "a": [
+    "<iostream>",
+    "<cmath>",
+    "<string>",
+    "<vector>"
+   ],
+   "e": "#include <iostream>."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "C++ da bir qatorli izoh qanday yoziladi?",
+   "a": [
     "//",
-    "/*",
-    "--"
+    "#",
+    "--",
+    "<!-- -->"
    ],
-   "e": "// — C, C++, Java, JavaScript tillarida."
+   "e": "Ko'p qatorli izoh /* ... */."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "\"using namespace std;\" yozuvi nima uchun kerak?",
+   "a": [
+    "std nomlar fazosidagi nomlarni prefikssiz ishlatish uchun",
+    "Dasturni tezroq ishlashga majburlash va xotirani tejash uchun",
+    "Kutubxonani internetdan yuklash uchun",
+    "Dasturni shifrlash uchun"
+   ],
+   "e": "Aks holda std::cout kabi yoziladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "C++ da har bir operator (ifoda) oxiriga qanday belgi qo'yiladi?",
+   "a": [
+    ";",
+    ":",
+    ".",
+    ","
+   ],
+   "e": "Nuqtali vergul operatorni tugatadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Identifikator (o'zgaruvchi nomi) uchun qaysi nom to'g'ri?",
+   "a": [
+    "summa_1",
+    "1summa",
+    "summa-1",
+    "int"
+   ],
+   "e": "Raqam bilan boshlanmaydi, kalit so'z bo'lmaydi, chiziqcha ishlatilmaydi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "C++ katta va kichik harflarni farqlaydimi?",
+   "a": [
+    "Ha",
+    "Yo'q, Sum va sum bir xil o'zgaruvchi hisoblanadi",
+    "Faqat funksiya nomlarida farqlamaydi",
+    "Faqat izohlarda farqlaydi"
+   ],
+   "e": "Sum va sum — turli identifikatorlar."
   },
   {
    "b": "Ma'lumot turlari",
-   "q": "Python'da type(3.14) natijasi qaysi?",
+   "q": "C++ da butun sonlar uchun asosiy tur qaysi?",
    "a": [
-    "float",
     "int",
-    "str",
+    "float",
+    "char",
     "bool"
    ],
-   "e": "Kasr sonlar float turiga mansub."
+   "e": "int odatda 4 bayt."
   },
   {
    "b": "Ma'lumot turlari",
-   "q": "Mantiqiy (bool) tur qanday qiymatlarni qabul qiladi?",
+   "q": "C++ da haqiqiy (kasr) sonlar uchun qaysi tur ishlatiladi?",
    "a": [
-    "True va False",
-    "0 dan 9 gacha",
-    "Istalgan matn",
-    "Faqat 1"
+    "double",
+    "int",
+    "char",
+    "bool"
    ],
-   "e": "Taqqoslash amallari natijasi mantiqiy qiymatdir."
+   "e": "float — oddiy, double — ikkilangan aniqlik."
   },
   {
    "b": "Ma'lumot turlari",
-   "q": "Python'da \"5\" + \"3\" ifodaning natijasi qaysi?",
+   "q": "C++ da mantiqiy tur qaysi?",
    "a": [
-    "\"53\"",
-    "8",
-    "\"8\"",
+    "bool",
+    "int",
+    "char",
+    "string"
+   ],
+   "e": "true yoki false qiymat qabul qiladi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "C++ da bitta belgi uchun qaysi tur ishlatiladi?",
+   "a": [
+    "char",
+    "string",
+    "int",
+    "bool"
+   ],
+   "e": "char c = 'A';"
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "char turi odatda necha bayt xotira egallaydi?",
+   "a": [
+    "1",
+    "2",
+    "4",
+    "8"
+   ],
+   "e": "sizeof(char) har doim 1."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Odatda 32 bitli int turining qiymatlar oralig'i qaysi?",
+   "a": [
+    "−2 147 483 648 dan 2 147 483 647 gacha",
+    "0 dan 65 535 gacha",
+    "−128 dan 127 gacha",
+    "−32 768 dan 32 767 gacha"
+   ],
+   "e": "−2³¹ … 2³¹−1."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Konstanta e'lon qilish uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "const",
+    "static",
+    "var",
+    "final"
+   ],
+   "e": "const double PI = 3.14159;"
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "C++ da matn satri uchun standart sinf qaysi?",
+   "a": [
+    "string",
+    "char",
+    "text",
+    "str"
+   ],
+   "e": "#include <string>."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "sizeof operatori nima qaytaradi?",
+   "a": [
+    "Tur yoki o'zgaruvchi xotiradagi hajmini baytlarda",
+    "O'zgaruvchining joriy qiymatini va uning manzilini birga",
+    "O'zgaruvchining nomini satr ko'rinishida",
+    "Massiv elementlari yig'indisini"
+   ],
+   "e": "sizeof(int) odatda 4."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "\"int x = 7 / 2;\" dan keyin x nechaga teng?",
+   "a": [
+    "3",
+    "3.5",
+    "4",
+    "2"
+   ],
+   "e": "Butun sonlar bo'linganda kasr qismi tashlanadi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "\"double y = 7 / 2;\" dan keyin y nechaga teng?",
+   "a": [
+    "3",
+    "3.5",
+    "4",
+    "0"
+   ],
+   "e": "7 / 2 butun bo'lish bilan 3 bo'ladi, keyin double ga o'tkaziladi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "\"double y = 7.0 / 2;\" dan keyin y nechaga teng?",
+   "a": [
+    "3.5",
+    "3",
+    "4",
+    "2"
+   ],
+   "e": "Operandlardan biri haqiqiy bo'lsa, haqiqiy bo'lish bajariladi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Turlarni aniq o'zgartirish (cast) qaysi?",
+   "a": [
+    "static_cast<double>(x)",
+    "double.x",
+    "x->double",
+    "convert(x)"
+   ],
+   "e": "C uslubida (double)x ham ishlaydi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "unsigned int turining xususiyati nima?",
+   "a": [
+    "Faqat manfiy bo'lmagan qiymatlar",
+    "Faqat manfiy qiymatlar saqlanadi",
+    "Kasr sonlarni saqlaydi",
+    "Belgilarni saqlaydi"
+   ],
+   "e": "Musbat diapazon ikki baravar kengayadi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "auto kalit so'zi nima qiladi?",
+   "a": [
+    "O'zgaruvchi turini boshlang'ich qiymatdan aniqlaydi",
+    "O'zgaruvchini dastur tugaganda avtomatik ravishda xotiradan o'chiradi",
+    "Dasturni avtomatik kompilyatsiya qiladi",
+    "O'zgaruvchini global qiladi"
+   ],
+   "e": "auto x = 5; — x int bo'ladi."
+  },
+  {
+   "b": "Amallar",
+   "q": "17 % 5 ifodasining natijasi nechaga teng?",
+   "a": [
+    "2",
+    "3",
+    "3.4",
+    "12"
+   ],
+   "e": "% — qoldiqli bo'lish."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"x++\" amali nima qiladi?",
+   "a": [
+    "x ni 1 ga oshiradi",
+    "x ni 1 ga kamaytiradi",
+    "x ni ikki baravar oshiradi",
+    "x ni nolga tenglaydi"
+   ],
+   "e": "Postfiks inkrement: avval qiymat ishlatiladi, keyin oshiriladi."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"int a = 5; int b = a++;\" dan keyin b nechaga teng?",
+   "a": [
+    "5",
+    "6",
+    "4",
+    "0"
+   ],
+   "e": "Postfiks: b ga eski qiymat, keyin a = 6."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"int a = 5; int b = ++a;\" dan keyin b nechaga teng?",
+   "a": [
+    "6",
+    "5",
+    "4",
+    "7"
+   ],
+   "e": "Prefiks: avval oshiriladi, keyin qiymat beriladi."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"x += 3\" yozuvi nimaga teng?",
+   "a": [
+    "x = x + 3",
+    "x = 3",
+    "x = x * 3",
+    "x == 3"
+   ],
+   "e": "Murakkab o'zlashtirish operatori."
+  },
+  {
+   "b": "Amallar",
+   "q": "Tenglikni tekshirish operatori qaysi?",
+   "a": [
+    "==",
+    "=",
+    ":=",
+    "==="
+   ],
+   "e": "= — o'zlashtirish, == — taqqoslash."
+  },
+  {
+   "b": "Amallar",
+   "q": "Mantiqiy \"VA\" operatori C++ da qanday yoziladi?",
+   "a": [
+    "&&",
+    "||",
+    "!",
+    "&"
+   ],
+   "e": "|| — mantiqiy YOKI, ! — inkor."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"!(5 > 3)\" ifodasining qiymati nima?",
+   "a": [
+    "false",
+    "true",
+    "5",
+    "3"
+   ],
+   "e": "5 > 3 rost, inkori yolg'on."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"(5 > 3) || (2 > 4)\" ifodaning qiymati nima?",
+   "a": [
+    "true",
+    "false",
+    "0",
     "Xato"
    ],
-   "e": "Satrlar qo'shilganda ular ulanadi (konkatenatsiya)."
+   "e": "YOKI amalida bitta rost operand yetarli."
   },
   {
    "b": "Amallar",
-   "q": "Python'da 17 // 5 amalining natijasi qaysi?",
+   "q": "\"2 + 3 * 4\" ifodaning qiymati nechaga teng?",
    "a": [
-    "3",
-    "2",
-    "3.4",
-    "2.0"
+    "14",
+    "20",
+    "24",
+    "9"
    ],
-   "e": "// — butun bo'lish."
+   "e": "Ko'paytirish qo'shishdan oldin bajariladi."
   },
   {
    "b": "Amallar",
-   "q": "Python'da 17 % 5 amalining natijasi qaysi?",
+   "q": "\"(2 + 3) * 4\" ifodaning qiymati nechaga teng?",
    "a": [
-    "2",
-    "3",
-    "3.4",
-    "5"
+    "20",
+    "14",
+    "24",
+    "9"
    ],
-   "e": "% — bo'linmaning qoldig'i."
+   "e": "Qavs ichidagi amal avval bajariladi."
   },
   {
    "b": "Amallar",
-   "q": "Python'da 2 ** 3 amalining natijasi qaysi?",
+   "q": "Ternar operator qaysi?",
+   "a": [
+    "shart ? a : b",
+    "if-else-then",
+    "shart => a",
+    "a ?? b"
+   ],
+   "e": "Masalan, max = (a > b) ? a : b;"
+  },
+  {
+   "b": "Amallar",
+   "q": "\"x != y\" ifoda qachon rost?",
+   "a": [
+    "x va y teng bo'lmaganda",
+    "x va y teng bo'lganda",
+    "x katta bo'lganda faqat",
+    "Hech qachon"
+   ],
+   "e": "!= — teng emas operatori."
+  },
+  {
+   "b": "Amallar",
+   "q": "Bitli siljitish \"1 << 3\" natijasi nechaga teng?",
    "a": [
     "8",
-    "6",
-    "9",
-    "5"
+    "3",
+    "4",
+    "13"
    ],
-   "e": "** — darajaga ko'tarish."
+   "e": "1 ni 3 bit chapga surish 2³ = 8."
+  },
+  {
+   "b": "Amallar",
+   "q": "C++ da sqrt() funksiyasi qaysi kutubxonada joylashgan?",
+   "a": [
+    "<cmath>",
+    "<iostream>",
+    "<string>",
+    "<ctime>"
+   ],
+   "e": "pow(), fabs(), sin() ham <cmath> da."
+  },
+  {
+   "b": "Amallar",
+   "q": "pow(2, 10) natijasi nechaga teng?",
+   "a": [
+    "1024",
+    "20",
+    "100",
+    "512"
+   ],
+   "e": "2¹⁰ = 1024."
   },
   {
    "b": "Boshqaruv tuzilmalari",
-   "q": "Shartga qarab turli amallarni bajarish uchun qaysi operator ishlatiladi?",
+   "q": "C++ da shart operatori qaysi kalit so'z bilan boshlanadi?",
    "a": [
-    "if ... else",
+    "if",
     "for",
     "while",
-    "return"
+    "switch faqat"
    ],
-   "e": "if — tarmoqlanish operatori."
+   "e": "if (shart) { ... } else { ... }"
   },
   {
    "b": "Boshqaruv tuzilmalari",
-   "q": "Python'da range(5) qaysi sonlar ketma-ketligini hosil qiladi?",
+   "q": "\"if (x > 0) cout << 1; else cout << 2;\" da x = 0 bo'lsa ekranga nima chiqadi?",
    "a": [
-    "0, 1, 2, 3, 4",
-    "1, 2, 3, 4, 5",
-    "0, 1, 2, 3, 4, 5",
-    "5"
+    "2",
+    "1",
+    "0",
+    "Hech narsa"
    ],
-   "e": "Yuqori chegara kirmaydi."
+   "e": "0 > 0 yolg'on, else bajariladi."
   },
   {
    "b": "Boshqaruv tuzilmalari",
-   "q": "Takrorlanishlar soni oldindan noma'lum, shart bajarilguncha davom etadigan sikl qaysi?",
-   "a": [
-    "while",
-    "for ... in range(n)",
-    "if",
-    "def"
-   ],
-   "e": "while sikli shart rost bo'lguncha bajariladi."
-  },
-  {
-   "b": "Boshqaruv tuzilmalari",
-   "q": "Siklni muddatidan oldin to'xtatish uchun qaysi operator ishlatiladi?",
+   "q": "switch operatorida har bir case oxirida odatda qaysi operator yoziladi?",
    "a": [
     "break",
     "continue",
-    "pass",
-    "return har doim"
+    "return har doim",
+    "goto"
    ],
-   "e": "continue joriy iteratsiyaning qolganini o'tkazib yuboradi."
+   "e": "break bo'lmasa, keyingi case lar ham bajariladi."
   },
   {
    "b": "Boshqaruv tuzilmalari",
-   "q": "Quyidagi kod nima chiqaradi? s = 0; for i in range(1, 4): s += i; print(s)",
+   "q": "switch operatorida hech bir case mos kelmasa qaysi blok bajariladi?",
    "a": [
+    "default",
+    "else",
+    "otherwise",
+    "finally"
+   ],
+   "e": "default ixtiyoriy."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"for (int i = 0; i < 5; i++)\" sikli necha marta bajariladi?",
+   "a": [
+    "5",
+    "4",
     "6",
+    "Cheksiz"
+   ],
+   "e": "i = 0, 1, 2, 3, 4."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"for (int i = 1; i <= 10; i += 2)\" siklida i qaysi qiymatlarni oladi?",
+   "a": [
+    "1, 3, 5, 7, 9",
+    "1, 2, 3, ..., 10",
+    "2, 4, 6, 8, 10",
+    "1, 3, 5, 7, 9, 11"
+   ],
+   "e": "Qadam 2, shart i ≤ 10."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "while va do-while sikllarining asosiy farqi nima?",
+   "a": [
+    "do-while tanasi kamida bir marta bajariladi",
+    "while tanasi har doim kamida bir marta bajariladi",
+    "do-while da shart umuman tekshirilmaydi",
+    "Ular o'rtasida farq yo'q"
+   ],
+   "e": "do-while da shart sikl oxirida tekshiriladi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"int s = 0; for (int i = 1; i <= 4; i++) s += i;\" dan keyin s nechaga teng?",
+   "a": [
     "10",
+    "4",
+    "6",
+    "15"
+   ],
+   "e": "1 + 2 + 3 + 4."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"int p = 1; for (int i = 1; i <= 4; i++) p *= i;\" dan keyin p nechaga teng?",
+   "a": [
+    "24",
+    "10",
+    "4",
+    "16"
+   ],
+   "e": "4! = 24."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "break operatori siklda nima qiladi?",
+   "a": [
+    "Sikldan butunlay chiqadi",
+    "Joriy iteratsiyani tashlab, keyingisiga o'tadi",
+    "Dasturni to'liq to'xtatadi",
+    "Siklni boshidan boshlaydi"
+   ],
+   "e": "continue — keyingi iteratsiyaga o'tadi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "continue operatori siklda nima qiladi?",
+   "a": [
+    "Joriy iteratsiyaning qolgan qismini tashlab, keyingisiga o'tadi",
+    "Sikldan butunlay chiqib ketadi",
+    "Dasturni to'xtatadi",
+    "Siklni qayta boshlaydi"
+   ],
+   "e": "Sikl shartiga qaytiladi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Cheksiz siklga qaysi biri misol bo'ladi?",
+   "a": [
+    "while (true) { }",
+    "for (int i = 0; i < 3; i++) { }",
+    "while (false) { }",
+    "do { } while (0);"
+   ],
+   "e": "Shart doimo rost."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Ichma-ich sikl \"for i 0..2, for j 0..3\" (i<3, j<4) da ichki sikl tanasi jami necha marta bajariladi?",
+   "a": [
+    "12",
+    "7",
     "3",
     "4"
    ],
-   "e": "1 + 2 + 3 = 6."
+   "e": "3 · 4 = 12."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"int k = 0; while (k < 3) k++;\" dan keyin k nechaga teng?",
+   "a": [
+    "3",
+    "2",
+    "4",
+    "0"
+   ],
+   "e": "k = 3 da shart yolg'on bo'ladi."
   },
   {
    "b": "Funksiyalar",
-   "q": "Python'da funksiya qaysi kalit so'z bilan e'lon qilinadi?",
+   "q": "Funksiya nima?",
    "a": [
-    "def",
-    "function",
-    "func",
-    "lambda har doim"
+    "Muayyan vazifani bajaruvchi nomlangan kod bloki",
+    "Dasturdagi o'zgaruvchilar ro'yxati va ularning qiymatlari jadvali",
+    "Faqat ekranga chiqarish buyrug'i",
+    "Kompyuter qurilmasi"
    ],
-   "e": "lambda — qisqa anonim funksiyalar uchun."
+   "e": "Funksiyalar kodni qayta ishlatishga imkon beradi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Qiymat qaytarmaydigan funksiya qaysi tur bilan e'lon qilinadi?",
+   "a": [
+    "void",
+    "int",
+    "null",
+    "empty"
+   ],
+   "e": "void funksiya return ifodasiz ishlatiladi."
   },
   {
    "b": "Funksiyalar",
    "q": "Funksiyadan qiymat qaytarish uchun qaysi operator ishlatiladi?",
    "a": [
     "return",
-    "print",
     "break",
-    "yield faqat"
+    "exit",
+    "yield"
    ],
-   "e": "print qiymatni faqat ekranga chiqaradi."
+   "e": "return ifoda;"
   },
   {
    "b": "Funksiyalar",
-   "q": "O'z-o'zini chaqiradigan funksiya qanday ataladi?",
+   "q": "Funksiya prototipi nima?",
    "a": [
-    "Rekursiv funksiya",
-    "Anonim funksiya",
-    "Ichki funksiya",
-    "Generator"
+    "Funksiya e'loni (nomi, turi va parametrlari)",
+    "Funksiyaning to'liq tanasi va barcha operatorlari",
+    "Funksiya chaqiruvi",
+    "Funksiyaning nusxasi"
    ],
-   "e": "Rekursiyada albatta to'xtash sharti bo'lishi kerak."
+   "e": "Masalan, int sum(int, int);"
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Parametrni qiymat bo'yicha uzatishda funksiya ichidagi o'zgarish chaqiruvchi o'zgaruvchiga ta'sir qiladimi?",
+   "a": [
+    "Yo'q",
+    "Ha, har doim",
+    "Faqat int turida",
+    "Faqat global o'zgaruvchilarda"
+   ],
+   "e": "Funksiya nusxa bilan ishlaydi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Parametrni havola (reference) bo'yicha uzatish qanday yoziladi?",
+   "a": [
+    "void f(int &x)",
+    "void f(int x)",
+    "void f(int *x) faqat",
+    "void f(ref int x)"
+   ],
+   "e": "Havola orqali funksiya asl o'zgaruvchini o'zgartira oladi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Funksiyani qayta yuklash (overloading) nima?",
+   "a": [
+    "Bir nomli, lekin parametrlari turlicha funksiyalar",
+    "Funksiyani ikki marta ketma-ket chaqirish",
+    "Funksiyani o'chirib, qayta yozish",
+    "Funksiyani boshqa faylga ko'chirish"
+   ],
+   "e": "Kompilyator parametrlar bo'yicha kerakli funksiyani tanlaydi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Rekursiv funksiya nima?",
+   "a": [
+    "O'zini o'zi chaqiradigan funksiya",
+    "Faqat bir marta chaqiriladigan funksiya",
+    "Qiymat qaytarmaydigan funksiya",
+    "Boshqa faylda yozilgan funksiya"
+   ],
+   "e": "Albatta to'xtash (bazaviy) sharti bo'lishi kerak."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "\"int f(int n) { return n <= 1 ? 1 : n * f(n - 1); }\" — f(5) nechaga teng?",
+   "a": [
+    "120",
+    "15",
+    "25",
+    "5"
+   ],
+   "e": "5! = 120."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Lokal o'zgaruvchining ko'rinish sohasi qanday?",
+   "a": [
+    "Faqat e'lon qilingan blok ichida",
+    "Butun dastur bo'ylab, barcha funksiyalarda",
+    "Faqat main funksiyasida",
+    "Faqat boshqa fayllarda"
+   ],
+   "e": "Blok tugaganda lokal o'zgaruvchi yo'qoladi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Standart qiymatli parametr qanday e'lon qilinadi?",
+   "a": [
+    "void f(int x = 10)",
+    "void f(int x : 10)",
+    "void f(default x 10)",
+    "void f(int x == 10)"
+   ],
+   "e": "Chaqiruvda argument berilmasa, 10 ishlatiladi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "inline funksiyaning maqsadi nima?",
+   "a": [
+    "Chaqiruv o'rniga funksiya tanasini qo'yib, tezlikni oshirish",
+    "Funksiyani boshqa dasturlardan yashirish",
+    "Funksiyani internetdan yuklash",
+    "Funksiyani bir marta chaqirishga cheklash"
+   ],
+   "e": "Kompilyator taklifni qabul qilmasligi ham mumkin."
   },
   {
    "b": "Ma'lumotlar tuzilmalari",
-   "q": "Python'da ro'yxat (list) qanday qavslar bilan yoziladi?",
+   "q": "Massiv nima?",
    "a": [
-    "[ ]",
-    "( )",
-    "{ }",
-    "< >"
+    "Bir xil turdagi elementlarning tartiblangan to'plami",
+    "Turli turdagi o'zgaruvchilarning tartibsiz to'plami va ularning nomlari",
+    "Faqat bitta o'zgaruvchi",
+    "Funksiyalar to'plami"
    ],
-   "e": "( ) — kortej (tuple), { } — lug'at yoki to'plam."
+   "e": "Elementlarga indeks orqali murojaat qilinadi."
   },
   {
    "b": "Ma'lumotlar tuzilmalari",
-   "q": "a = [10, 20, 30] bo'lsa, a[1] nimaga teng?",
+   "q": "C++ da massiv indekslari nechadan boshlanadi?",
    "a": [
-    "20",
+    "0",
+    "1",
+    "−1",
+    "Ixtiyoriy"
+   ],
+   "e": "n elementli massivda indekslar 0..n−1."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"int a[5];\" massivning oxirgi elementi indeksi nechaga teng?",
+   "a": [
+    "4",
+    "5",
+    "6",
+    "0"
+   ],
+   "e": "Indekslar 0 dan 4 gacha."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"int a[] = {3, 7, 2};\" — a[1] nechaga teng?",
+   "a": [
+    "7",
+    "3",
+    "2",
+    "1"
+   ],
+   "e": "a[0] = 3, a[1] = 7, a[2] = 2."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Massiv chegarasidan tashqariga murojaat qilish (masalan, a[10] 5 elementli massivda) nimaga olib keladi?",
+   "a": [
+    "Aniqlanmagan xatti-harakat",
+    "Avtomatik ravishda massiv kengayadi",
+    "Har doim 0 qaytadi",
+    "Kompilyator buni har doim tuzatadi"
+   ],
+   "e": "C++ chegarani avtomatik tekshirmaydi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Ikki o'lchovli massiv \"int m[3][4];\" nechta elementga ega?",
+   "a": [
+    "12",
+    "7",
+    "3",
+    "4"
+   ],
+   "e": "3 satr × 4 ustun."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "vector konteynerining massivdan asosiy afzalligi nima?",
+   "a": [
+    "Hajmi dinamik o'zgaradi",
+    "Faqat bitta elementni saqlay oladi",
+    "Indeks bilan murojaat qilib bo'lmaydi",
+    "Faqat matnlarni saqlaydi"
+   ],
+   "e": "push_back() bilan element qo'shiladi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "vector ga oxiridan element qo'shish metodi qaysi?",
+   "a": [
+    "push_back()",
+    "add()",
+    "insert_end()",
+    "append()"
+   ],
+   "e": "pop_back() — oxirgi elementni o'chiradi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "vector dagi elementlar sonini qaytaruvchi metod qaysi?",
+   "a": [
+    "size()",
+    "length() faqat",
+    "count()",
+    "capacity()"
+   ],
+   "e": "capacity() — ajratilgan sig'im."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "string dagi belgilar sonini qaytaruvchi metod qaysi?",
+   "a": [
+    "length() yoki size()",
+    "count()",
+    "len()",
+    "capacity() faqat"
+   ],
+   "e": "Ikkalasi ham bir xil natija beradi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Ikki string ni birlashtirish uchun qaysi operator ishlatiladi?",
+   "a": [
+    "+",
+    "&",
+    ".",
+    "*"
+   ],
+   "e": "string s = \"Salom, \" + ism;"
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "struct nima?",
+   "a": [
+    "Turli turdagi maydonlarni birlashtiruvchi foydalanuvchi turi",
+    "Faqat bir xil turdagi elementlar massivi",
+    "Funksiya turi",
+    "Sikl operatori"
+   ],
+   "e": "Masalan, struct Talaba { string ism; int yosh; };"
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Stek ma'lumotlar tuzilmasi qaysi tamoyil asosida ishlaydi?",
+   "a": [
+    "LIFO (oxirgi kirgan — birinchi chiqadi)",
+    "FIFO (birinchi kirgan — birinchi chiqadi)",
+    "Tasodifiy tartib",
+    "Saralangan tartib"
+   ],
+   "e": "Navbat (queue) FIFO tamoyilida ishlaydi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Navbat (queue) ma'lumotlar tuzilmasi qaysi tamoyil asosida ishlaydi?",
+   "a": [
+    "FIFO",
+    "LIFO",
+    "Tasodifiy",
+    "Ustuvorlik bo'yicha har doim"
+   ],
+   "e": "Birinchi kirgan birinchi chiqadi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "map konteyneri nimani saqlaydi?",
+   "a": [
+    "Kalit-qiymat juftliklarini",
+    "Faqat butun sonlar massivini",
+    "Faqat belgilarni",
+    "Faqat funksiyalarni"
+   ],
+   "e": "map kalitlarni tartiblangan holda saqlaydi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Ko'rsatkich (pointer) nima?",
+   "a": [
+    "Boshqa o'zgaruvchining xotiradagi manzilini saqlovchi o'zgaruvchi",
+    "O'zgaruvchining qiymatini ikki baravar oshiruvchi operator",
+    "Massivning oxirgi elementi",
+    "Funksiyaning nomi va uning qaytaradigan qiymati turi"
+   ],
+   "e": "int *p = &x;"
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"&x\" ifodasi nimani qaytaradi?",
+   "a": [
+    "x ning manzilini",
+    "x ning qiymatini",
+    "x ning kvadratini",
+    "x ning hajmini"
+   ],
+   "e": "& — manzilni olish operatori."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"int x = 5; int *p = &x; *p = 10;\" dan keyin x nechaga teng?",
+   "a": [
     "10",
-    "30",
+    "5",
+    "15",
+    "Manzil qiymati"
+   ],
+   "e": "*p orqali x ning o'zi o'zgaradi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Ko'rsatkichni hech qayerga ko'rsatmaydigan qilib e'lon qilish uchun qaysi qiymat ishlatiladi?",
+   "a": [
+    "nullptr",
+    "0.0",
+    "void",
+    "empty"
+   ],
+   "e": "C++11 dan boshlab nullptr tavsiya etiladi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "C++ da dinamik xotira ajratish operatori qaysi?",
+   "a": [
+    "new",
+    "malloc faqat",
+    "alloc",
+    "create"
+   ],
+   "e": "int *p = new int[10];"
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "new bilan ajratilgan massiv xotirasini qanday bo'shatish kerak?",
+   "a": [
+    "delete[] p;",
+    "delete p; (har doim yetarli)",
+    "free(p) bilan, chunki new va free mos keladi",
+    "Bo'shatish shart emas"
+   ],
+   "e": "new[] bilan ajratilgan xotira delete[] bilan bo'shatiladi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Xotira sizib ketishi (memory leak) nima?",
+   "a": [
+    "Ajratilgan xotiraning bo'shatilmasligi",
+    "Xotira hajmining avtomatik ravishda kengayishi",
+    "Ma'lumotlarning diskka yozilishi",
+    "Dasturning tez ishlashi"
+   ],
+   "e": "Uzoq ishlaydigan dasturlarda xotira tugashiga olib keladi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Massiv nomi ifodalarda nimaga aylanadi?",
+   "a": [
+    "Birinchi elementga ko'rsatkichga",
+    "Massivdagi barcha elementlar yig'indisiga va o'rta qiymatiga",
+    "Oxirgi elementning qiymatiga",
+    "Massiv elementlari yig'indisiga"
+   ],
+   "e": "a va &a[0] ifodalarda bir xil manzilni beradi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Bog'langan ro'yxat (linked list) massivdan qanday farq qiladi?",
+   "a": [
+    "Elementlar ko'rsatkichlar orqali bog'langan",
+    "Elementlar har doim xotirada ketma-ket joylashgan bo'ladi",
+    "Indeks bo'yicha murojaat O(1) vaqtda bajariladi",
+    "Hajmi o'zgarmas bo'ladi"
+   ],
+   "e": "O'rtaga element qo'shish massivga nisbatan oson."
+  },
+  {
+   "b": "OYD",
+   "q": "OYD qisqartmasi nimani bildiradi?",
+   "a": [
+    "Obyektga yo'naltirilgan dasturlash",
+    "Operativ yadroli dastur",
+    "Operatsion yadroni boshqaruvchi dastur",
+    "Optimal yechim dasturi"
+   ],
+   "e": "OOP — Object-Oriented Programming."
+  },
+  {
+   "b": "OYD",
+   "q": "OYD ning asosiy tamoyillari qaysilar?",
+   "a": [
+    "Inkapsulyatsiya, vorislik, polimorfizm",
+    "Kompilyatsiya, interpretatsiya, bajarish",
+    "Kiritish, chiqarish, saqlash",
+    "Sikl, shart, funksiya"
+   ],
+   "e": "Ko'pincha abstraksiya ham qo'shiladi."
+  },
+  {
+   "b": "OYD",
+   "q": "Sinf (class) nima?",
+   "a": [
+    "Obyektlar uchun shablon (tavsif)",
+    "Obyektning bitta aniq nusxasi",
+    "O'zgaruvchilarning faqat butun sonli turi (int)",
+    "O'zgaruvchining turi faqat int"
+   ],
+   "e": "Sinf maydonlar va metodlarni birlashtiradi."
+  },
+  {
+   "b": "OYD",
+   "q": "Obyekt nima?",
+   "a": [
+    "Sinfning aniq nusxasi",
+    "Sinfning e'loni",
+    "Dastur fayli",
+    "Kutubxona"
+   ],
+   "e": "Masalan, Talaba t1; — t1 obyekt."
+  },
+  {
+   "b": "OYD",
+   "q": "Inkapsulyatsiya nima?",
+   "a": [
+    "Ma'lumot va metodlarni birlashtirib, ichki tuzilishni yashirish",
+    "Bir sinfning boshqa sinf xossalarini meros qilib olishi",
+    "Bir nomli metodlarning turli xatti-harakati",
+    "Dastur matnini mashina kodiga kompilyatsiya qilish jarayoni"
+   ],
+   "e": "private va public kirish modifikatorlari orqali amalga oshiriladi."
+  },
+  {
+   "b": "OYD",
+   "q": "Vorislik (meros) nima?",
+   "a": [
+    "Yangi sinfning mavjud sinf xossalarini olishi",
+    "Ma'lumotlarni boshqa sinflardan yashirish",
+    "Bir nomli funksiyalarni qayta yuklash",
+    "Obyektni xotiradan o'chirish va resurslarni bo'shatish"
+   ],
+   "e": "class B : public A { };"
+  },
+  {
+   "b": "OYD",
+   "q": "Polimorfizm nima?",
+   "a": [
+    "Bir xil interfeysning turli xatti-harakati",
+    "Sinfning faqat bitta obyekt yaratishi",
+    "Dastur matnini bir necha faylga bo'lib, alohida kompilyatsiya qilish",
+    "Dasturni bir necha faylga bo'lish"
+   ],
+   "e": "Virtual funksiyalar orqali dinamik polimorfizm amalga oshadi."
+  },
+  {
+   "b": "OYD",
+   "q": "private kirish modifikatori nimani bildiradi?",
+   "a": [
+    "A'zoga faqat sinf ichidan murojaat qilish mumkin",
+    "A'zoga dasturning istalgan joyidan murojaat qilish mumkin",
+    "A'zoga faqat voris sinflardan murojaat qilish mumkin",
+    "A'zo o'chirilgan"
+   ],
+   "e": "protected — voris sinflar ham murojaat qila oladi."
+  },
+  {
+   "b": "OYD",
+   "q": "Konstruktor nima?",
+   "a": [
+    "Obyekt yaratilganda avtomatik chaqiriladigan metod",
+    "Obyekt o'chirilganda chaqiriladigan metod",
+    "Sinfdagi istalgan oddiy funksiya",
+    "Sinf tashqarisida e'lon qilingan global o'zgaruvchi"
+   ],
+   "e": "Konstruktor nomi sinf nomi bilan bir xil, qaytarish turi yo'q."
+  },
+  {
+   "b": "OYD",
+   "q": "Destruktor qanday belgi bilan yoziladi?",
+   "a": [
+    "~SinfNomi()",
+    "!SinfNomi()",
+    "#SinfNomi()",
+    "-SinfNomi()"
+   ],
+   "e": "Destruktor obyekt yo'q qilinganda chaqiriladi."
+  },
+  {
+   "b": "OYD",
+   "q": "Virtual funksiya nima uchun ishlatiladi?",
+   "a": [
+    "Voris sinfda qayta aniqlab, dinamik polimorfizmni ta'minlash uchun",
+    "Funksiyani inline qilib, chaqiruvni tezlashtirish uchun",
+    "Funksiyani boshqa sinflardan yashirib, faqat bir marta chaqirish uchun",
+    "Funksiyani faqat sinf ichida ko'rinadigan qilish uchun"
+   ],
+   "e": "Asos sinf ko'rsatkichi orqali voris metodi chaqiriladi."
+  },
+  {
+   "b": "OYD",
+   "q": "Abstrakt sinf nima?",
+   "a": [
+    "Kamida bitta sof virtual funksiyaga ega sinf",
+    "Obyektlari cheksiz ko'p yaratiladigan va o'chirilmaydigan sinf",
+    "Faqat static a'zolardan iborat sinf",
+    "Faqat bitta konstruktorga ega sinf"
+   ],
+   "e": "Abstrakt sinfdan to'g'ridan-to'g'ri obyekt yaratib bo'lmaydi."
+  },
+  {
+   "b": "OYD",
+   "q": "Sof virtual funksiya qanday e'lon qilinadi?",
+   "a": [
+    "virtual void f() = 0;",
+    "virtual void f() {}",
+    "void f() = virtual;",
+    "pure void f();"
+   ],
+   "e": "\"= 0\" funksiyani sof virtual qiladi."
+  },
+  {
+   "b": "OYD",
+   "q": "this ko'rsatkichi nimani bildiradi?",
+   "a": [
+    "Joriy obyektga ko'rsatkichni",
+    "Asos sinfni",
+    "Global o'zgaruvchini",
+    "Oxirgi yaratilgan obyektni"
+   ],
+   "e": "Metod ichida joriy obyekt a'zolariga murojaat qilish uchun."
+  },
+  {
+   "b": "OYD",
+   "q": "Statik (static) sinf a'zosining xususiyati nima?",
+   "a": [
+    "Barcha obyektlar uchun umumiy bitta nusxa",
+    "Har bir obyekt uchun alohida nusxa yaratiladi",
+    "Uni hech qachon o'zgartirib bo'lmaydi",
+    "U faqat konstruktorda mavjud"
+   ],
+   "e": "Masalan, yaratilgan obyektlar sonini hisoblash uchun."
+  },
+  {
+   "b": "OYD",
+   "q": "Operatorni qayta yuklash nima?",
+   "a": [
+    "Foydalanuvchi turlari uchun operatorlarga yangi ma'no berish",
+    "Operatorlarni dasturdan butunlay olib tashlash",
+    "Yangi operator belgisini (masalan, **) ixtiro qilib, tilga qo'shish",
+    "Operatorlar ustuvorligini o'zgartirish"
+   ],
+   "e": "Masalan, Vektor sinfi uchun + operatori."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Kompilyatsiya xatosiga qaysi biri misol?",
+   "a": [
+    "Nuqtali vergul qo'yilmagani",
+    "Dastur noto'g'ri natija chiqarishi",
+    "Foydalanuvchi noto'g'ri son kiritishi",
+    "Internet uzilishi"
+   ],
+   "e": "Sintaktik xatolarda dastur kompilyatsiya bo'lmaydi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Bajarilish vaqtidagi (runtime) xatoga misol qaysi?",
+   "a": [
+    "Nolga bo'lish",
+    "Nuqtali vergulning yo'qligi",
+    "Noma'lum kalit so'z",
+    "Yopilmagan qavs"
+   ],
+   "e": "Dastur kompilyatsiya bo'ladi, lekin ishlash vaqtida xato yuz beradi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Istisnolarni qayta ishlash uchun C++ da qaysi blok ishlatiladi?",
+   "a": [
+    "try-catch",
+    "if-else",
+    "for-while",
+    "switch-case"
+   ],
+   "e": "Istisno throw bilan chiqariladi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Istisno (exception) qaysi operator bilan chiqariladi?",
+   "a": [
+    "throw",
+    "catch",
+    "try",
+    "raise"
+   ],
+   "e": "throw runtime_error(\"xato\");"
+  },
+  {
+   "b": "Xatolar",
+   "q": "Debugger (sozlagich) nima uchun ishlatiladi?",
+   "a": [
+    "Dasturni qadamma-qadam bajarib, xatolarni topish uchun",
+    "Dasturni kompilyatsiya qilmasdan internetga yuklash uchun",
+    "Dastur matnini chiroyli formatlash uchun",
+    "Dasturni shifrlash uchun"
+   ],
+   "e": "To'xtash nuqtalari (breakpoint) qo'yiladi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Mantiqiy xato qanday aniqlanadi?",
+   "a": [
+    "Test ma'lumotlari bilan natijani tekshirib",
+    "Kompilyator xabarlari orqali har doim avtomatik",
+    "Kompyuterni qayta yoqib",
+    "Dasturni o'chirib"
+   ],
+   "e": "Mantiqiy xatoda kompilyator xabar bermaydi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "\"if (x = 5)\" yozuvidagi xato nima?",
+   "a": [
+    "Taqqoslash o'rniga o'zlashtirish ishlatilgan",
+    "Qavslar noto'g'ri qo'yilgan",
+    "5 soni noto'g'ri",
+    "Bu yozuvda hech qanday xato yo'q"
+   ],
+   "e": "To'g'risi: if (x == 5)."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Ishga tushirilmagan (initsializatsiya qilinmagan) lokal o'zgaruvchining qiymati qanday bo'ladi?",
+   "a": [
+    "Aniqlanmagan (tasodifiy)",
+    "Har doim 0",
+    "Har doim 1",
+    "Har doim −1"
+   ],
+   "e": "Lokal o'zgaruvchilarni boshlang'ich qiymat bilan e'lon qilish tavsiya etiladi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Butun son to'lib ketishi (overflow) nima?",
+   "a": [
+    "Natija turning maksimal qiymatidan oshib ketishi",
+    "Massivning bo'sh qolishi",
+    "Ko'rsatkichning nullptr bo'lishi",
+    "Dastur kerakli faylni diskdan topa olmasligi"
+   ],
+   "e": "Masalan, int maksimal qiymatiga 1 qo'shish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Algoritmning qaysi xossasi har bir qadam bir xil tushunilishini talab qiladi?",
+   "a": [
+    "Aniqlik",
+    "Ommaviylik, ya'ni bir turdagi masalalar sinfiga qo'llanilishi",
+    "Cheklilik",
+    "Natijaviylik"
+   ],
+   "e": "Aniqlik (determinallik) — har bir buyruq bir ma'noli."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Interpretator kompilyatordan nimasi bilan farq qiladi?",
+   "a": [
+    "Dasturni qatorma-qator bajaradi",
+    "Dasturni to'liq mashina kodiga o'girib, bajariladigan fayl yaratadi",
+    "Faqat xatolarni ko'rsatadi",
+    "Faqat izohlarni o'qiydi"
+   ],
+   "e": "Python odatda interpretatsiya qilinadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Bajariladigan fayl (Windows) odatda qanday kengaytmaga ega?",
+   "a": [
+    ".exe",
+    ".cpp",
+    ".h",
+    ".txt"
+   ],
+   "e": ".cpp — manba kod, .h — sarlavha fayli."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "C++ dasturining manba kodi fayli odatda qanday kengaytmaga ega?",
+   "a": [
+    ".cpp",
+    ".exe",
+    ".obj",
+    ".dll"
+   ],
+   "e": ".obj — obyekt fayl, .dll — dinamik kutubxona."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Preprotsessor direktivalari qaysi belgi bilan boshlanadi?",
+   "a": [
+    "#",
+    "@",
+    "$",
+    "//"
+   ],
+   "e": "#include, #define."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kompilyatsiya jarayonida \"linker\" (bog'lovchi) qanday vazifani bajaradi?",
+   "a": [
+    "Obyekt fayllar va kutubxonalarni bitta bajariladigan faylga birlashtiradi",
+    "Manba kodni tahrirlaydi va izohlarni o'chiradi",
+    "Dasturni internetga yuklaydi",
+    "Dastur xatolarini avtomatik tuzatadi"
+   ],
+   "e": "Bog'lash kompilyatsiyadan keyingi bosqich."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Versiyalarni boshqarish tizimiga misol qaysi?",
+   "a": [
+    "Git",
+    "Excel",
+    "Paint",
+    "Notepad"
+   ],
+   "e": "Git kod o'zgarishlarini kuzatadi va jamoaviy ishlashni ta'minlaydi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "\"char c = 'A'; int k = c;\" dan keyin k nechaga teng (ASCII)?",
+   "a": [
+    "65",
+    "1",
+    "97",
+    "0"
+   ],
+   "e": "'A' ning ASCII kodi 65, 'a' — 97."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "\"bool b = 5;\" dan keyin b qanday qiymatga ega?",
+   "a": [
+    "true",
+    "false",
+    "5",
+    "Kompilyatsiya xatosi"
+   ],
+   "e": "Noldan farqli son true ga aylantiriladi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "long long turi odatda necha bayt?",
+   "a": [
+    "8",
+    "2",
+    "4",
+    "16"
+   ],
+   "e": "64 bitli butun son."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "float va double ning asosiy farqi nima?",
+   "a": [
+    "double aniqligi yuqoriroq",
+    "float aniqligi yuqoriroq va xotirani ko'proq egallaydi",
+    "double faqat butun sonlarni saqlaydi",
+    "Farqi yo'q"
+   ],
+   "e": "float ~7, double ~15–16 o'nli raqam aniqlikda."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "enum nima uchun ishlatiladi?",
+   "a": [
+    "Nomlangan butun konstantalar to'plamini e'lon qilish uchun",
+    "Massiv elementlarini saralash uchun",
+    "Fayllarni o'qish uchun",
+    "Xotira ajratish uchun"
+   ],
+   "e": "enum Rang { QIZIL, YASHIL, KOK };"
+  },
+  {
+   "b": "Amallar",
+   "q": "\"10 / 4\" ifodaning C++ dagi natijasi nechaga teng (ikkalasi int)?",
+   "a": [
+    "2",
+    "2.5",
+    "3",
+    "2.0"
+   ],
+   "e": "Butun bo'lish."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"−7 % 3\" ifodaning C++ dagi natijasi nechaga teng?",
+   "a": [
+    "−1",
+    "2",
+    "1",
+    "−2"
+   ],
+   "e": "C++11 dan boshlab qoldiq belgisi bo'linuvchiniki bilan bir xil."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"a = b = 5;\" yozuvidan keyin a nechaga teng?",
+   "a": [
+    "5",
+    "0",
+    "Aniqlanmagan",
+    "Kompilyatsiya xatosi"
+   ],
+   "e": "O'zlashtirish o'ngdan chapga bajariladi."
+  },
+  {
+   "b": "Amallar",
+   "q": "Mantiqiy ifodalarda \"qisqa tutashuv\" nima?",
+   "a": [
+    "Natija aniq bo'lsa, qolgan qismi hisoblanmaydi",
+    "Ifodaning barcha qismlari har doim to'liq hisoblanadi",
+    "Ifoda xato beradi",
+    "Elektr zanjiridagi qisqa tutashuv"
+   ],
+   "e": "false && f() da f() chaqirilmaydi."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"5 & 3\" bitli VA amalining natijasi nechaga teng?",
+   "a": [
+    "1",
+    "8",
+    "7",
+    "2"
+   ],
+   "e": "101 & 011 = 001."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"5 | 3\" bitli YOKI amalining natijasi nechaga teng?",
+   "a": [
+    "7",
+    "1",
+    "8",
+    "15"
+   ],
+   "e": "101 | 011 = 111."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"for (int i = 10; i > 0; i -= 3)\" siklida i qaysi qiymatlarni oladi?",
+   "a": [
+    "10, 7, 4, 1",
+    "10, 7, 4, 1, −2",
+    "10, 7, 4",
+    "9, 6, 3"
+   ],
+   "e": "i = −2 da shart yolg'on."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Diapazonli for sikli (range-based for) qanday yoziladi?",
+   "a": [
+    "for (int x : v)",
+    "for (x in v)",
+    "foreach (x of v)",
+    "for x = v"
+   ],
+   "e": "C++11 dan boshlab mavjud."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Quyidagi kod nechta yulduzcha chiqaradi: \"for (int i = 0; i < 3; i++) for (int j = 0; j <= i; j++) cout << '*';\"",
+   "a": [
+    "6",
+    "9",
+    "3",
+    "4"
+   ],
+   "e": "1 + 2 + 3 = 6."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "goto operatoridan foydalanish nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Dastur tuzilishini chalkashtirib, o'qishni qiyinlashtiradi",
+    "U faqat Python tilida ishlaydi va C++ da mavjud emas",
+    "U dasturni tezlashtiradi",
+    "U kompilyatsiya xatosi beradi"
+   ],
+   "e": "Tuzilmaviy dasturlash goto dan qochishni tavsiya etadi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Funksiyaga massiv uzatilganda nima uzatiladi?",
+   "a": [
+    "Birinchi elementga ko'rsatkich",
+    "Massivning to'liq nusxasi, barcha elementlari bilan birga",
+    "Faqat elementlar soni",
+    "Faqat oxirgi element"
+   ],
+   "e": "Shuning uchun massiv hajmini alohida parametr sifatida uzatish kerak."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "\"const int &x\" parametrining afzalligi nima?",
+   "a": [
+    "Nusxalashsiz uzatish va o'zgartirishdan himoya",
+    "Parametrni funksiya ichida erkin o'zgartirish imkoniyati",
+    "Parametrni global qilish",
+    "Parametrni o'chirish"
+   ],
+   "e": "Katta obyektlarni uzatishda samarali."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Lambda-funksiya nima?",
+   "a": [
+    "Nomsiz (anonim) funksiya",
+    "Faqat matematik funksiyalar kutubxonasi",
+    "Grek harfi bilan nomlangan o'zgaruvchi",
+    "Dasturning asosiy funksiyasi"
+   ],
+   "e": "[](int x) { return x * x; }"
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Rekursiyada bazaviy holat bo'lmasa nima yuz beradi?",
+   "a": [
+    "Stek to'lib ketadi (cheksiz rekursiya)",
+    "Funksiya avtomatik ravishda 0 qaytaradi",
+    "Kompilyator xatoni o'zi tuzatadi",
+    "Hech narsa bo'lmaydi"
+   ],
+   "e": "Stack overflow xatosi yuz beradi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "\"int kvadrat(int x) { return x * x; }\" funksiyasi kvadrat(kvadrat(2)) uchun nima qaytaradi?",
+   "a": [
+    "16",
+    "4",
+    "8",
+    "2"
+   ],
+   "e": "kvadrat(2) = 4, kvadrat(4) = 16."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"string s = \"Salom\"; s[0]\" qanday belgini beradi?",
+   "a": [
+    "'S'",
+    "'a'",
+    "'m'",
+    "\"Salom\""
+   ],
+   "e": "Satr indekslari 0 dan boshlanadi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "string ning substr(1, 3) metodi \"Dastur\" satri uchun nima qaytaradi?",
+   "a": [
+    "\"ast\"",
+    "\"Das\"",
+    "\"astu\"",
+    "\"stu\""
+   ],
+   "e": "1-indeksdan boshlab 3 ta belgi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "string ichida qism satrni izlash metodi qaysi?",
+   "a": [
+    "find()",
+    "search()",
+    "locate()",
+    "indexOf()"
+   ],
+   "e": "Topilmasa string::npos qaytaradi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"vector<int> v = {5, 2, 8}; sort(v.begin(), v.end());\" dan keyin v qanday?",
+   "a": [
+    "{2, 5, 8}",
+    "{8, 5, 2}",
+    "{5, 2, 8}",
+    "{2, 8, 5}"
+   ],
+   "e": "sort o'sish tartibida saralaydi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "sort() funksiyasi qaysi sarlavha faylida joylashgan?",
+   "a": [
+    "<algorithm>",
+    "<iostream>",
+    "<cmath>",
+    "<string>"
+   ],
+   "e": "find, reverse, max_element ham <algorithm> da."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "set konteynerining xususiyati nima?",
+   "a": [
+    "Faqat noyob elementlarni saralangan holda saqlaydi",
+    "Takrorlanuvchi elementlarni kiritilgan tartibda saqlaydi",
+    "Faqat kalit-qiymat juftliklarini saqlaydi",
+    "Faqat bitta elementni saqlaydi"
+   ],
+   "e": "Takroriy elementlar qo'shilmaydi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Stekdan elementni olish (o'chirish) metodi qaysi?",
+   "a": [
+    "pop()",
+    "push()",
+    "top() faqat",
+    "front()"
+   ],
+   "e": "top() — eng yuqori elementni ko'rish."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Iterator nima?",
+   "a": [
+    "Konteyner elementlari bo'ylab yurish uchun obyekt",
+    "Sikl operatorining nomi",
+    "Massiv hajmi",
+    "Xatoliklar turi"
+   ],
+   "e": "begin() va end() iteratorlari ishlatiladi."
+  },
+  {
+   "b": "OYD",
+   "q": "public kirish modifikatori nimani bildiradi?",
+   "a": [
+    "A'zoga istalgan joydan murojaat qilish mumkin",
+    "A'zoga faqat sinf ichidan murojaat qilish mumkin",
+    "A'zo faqat voris sinflarga ko'rinadi",
+    "A'zo yashirin"
+   ],
+   "e": "Odatda sinf interfeysi public qilinadi."
+  },
+  {
+   "b": "OYD",
+   "q": "Do'st (friend) funksiya nima?",
+   "a": [
+    "Sinfning yopiq a'zolariga murojaat qila oladigan tashqi funksiya",
+    "Sinf ichida e'lon qilingan va faqat shu sinfga tegishli oddiy metod",
+    "Ikki sinfni birlashtiruvchi funksiya",
+    "Faqat konstruktor"
+   ],
+   "e": "friend kalit so'zi bilan e'lon qilinadi."
+  },
+  {
+   "b": "OYD",
+   "q": "Ko'p vorislik (multiple inheritance) nima?",
+   "a": [
+    "Sinfning bir nechta asos sinfdan meros olishi",
+    "Bir asos sinfdan bir nechta sinfning meros olishi",
+    "Sinfning o'zidan meros olishi",
+    "Obyektni nusxalash"
+   ],
+   "e": "C++ ko'p vorislikni qo'llab-quvvatlaydi."
+  },
+  {
+   "b": "OYD",
+   "q": "Nusxalash konstruktori qachon chaqiriladi?",
+   "a": [
+    "Obyekt boshqa obyektdan nusxa sifatida yaratilganda",
+    "Obyekt o'chirilganda",
+    "Dastur tugaganda",
+    "Faqat massiv yaratilganda"
+   ],
+   "e": "Masalan, A b = a; yoki obyekt qiymat bo'yicha uzatilganda."
+  },
+  {
+   "b": "OYD",
+   "q": "Shablon (template) nima uchun ishlatiladi?",
+   "a": [
+    "Turdan qat'i nazar umumlashgan kod yozish uchun",
+    "Faqat ekran dizaynini yaratish uchun",
+    "Dasturni shifrlash uchun",
+    "Xotirani bo'shatish uchun"
+   ],
+   "e": "template <typename T> T maks(T a, T b);"
+  },
+  {
+   "b": "Xatolar",
+   "q": "Ko'rsatkich nullptr bo'lganda unga murojaat qilish (*p) nimaga olib keladi?",
+   "a": [
+    "Dastur ishdan chiqishi (segmentation fault)",
+    "Ko'rsatkich avtomatik yangi xotiraga yo'naltiriladi",
+    "Har doim 0 qaytadi",
+    "Hech narsa bo'lmaydi"
+   ],
+   "e": "Murojaatdan oldin ko'rsatkichni tekshirish kerak."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Kompilyator ogohlantirishlari (warning) haqida qaysi fikr to'g'ri?",
+   "a": [
+    "Ular potensial xatolarni ko'rsatadi va e'tiborga olinishi kerak",
+    "Ular har doim e'tiborsiz qoldirilishi mumkin, chunki dastur baribir ishlaydi",
+    "Ular dasturni kompilyatsiya qilishga to'sqinlik qiladi",
+    "Ular faqat izohlarga tegishli"
+   ],
+   "e": "Ogohlantirishlar ko'pincha mantiqiy xatolar belgisi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Birlik testlash (unit testing) nima?",
+   "a": [
+    "Dasturning alohida qismlarini mustaqil tekshirish",
+    "Butun dasturni faqat foydalanuvchi tomonidan sinash",
+    "Dasturni bir marta ishga tushirib ko'rish",
+    "Dasturni kompilyatsiya qilish"
+   ],
+   "e": "Har bir funksiya alohida testlanadi."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "C++ da fayllar bilan ishlash uchun qaysi sarlavha fayli ulanadi?",
+   "a": [
+    "<fstream>",
+    "<iostream> faqat",
+    "<cmath>",
+    "<vector>"
+   ],
+   "e": "ifstream — o'qish, ofstream — yozish, fstream — ikkalasi."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Faylga yozish uchun qaysi sinf ishlatiladi?",
+   "a": [
+    "ofstream",
+    "ifstream",
+    "istream",
+    "cin"
+   ],
+   "e": "ofstream f(\"natija.txt\"); f << x;"
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Fayldan o'qish uchun qaysi sinf ishlatiladi?",
+   "a": [
+    "ifstream",
+    "ofstream",
+    "cout",
+    "ostream"
+   ],
+   "e": "ifstream f(\"data.txt\"); f >> x;"
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Fayl muvaffaqiyatli ochilganini tekshirish metodi qaysi?",
+   "a": [
+    "is_open()",
+    "open_ok()",
+    "exists()",
+    "ready()"
+   ],
+   "e": "if (!f.is_open()) { ... }"
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Faylni oxiriga qo'shib yozish rejimida ochish uchun qaysi bayroq ishlatiladi?",
+   "a": [
+    "ios::app",
+    "ios::in",
+    "ios::trunc",
+    "ios::beg"
+   ],
+   "e": "ios::trunc — faylni tozalab yozadi."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Fayldan butun satrni o'qish funksiyasi qaysi?",
+   "a": [
+    "getline()",
+    "readline()",
+    "getstr()",
+    "read_line()"
+   ],
+   "e": "getline(f, satr);"
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Fayl bilan ishlash tugagach nima qilish kerak?",
+   "a": [
+    "close() bilan yopish",
+    "Faylni o'chirib yuborish",
+    "Kompyuterni qayta yoqish",
+    "Hech narsa qilmaslik, chunki fayl o'zi o'chadi"
+   ],
+   "e": "Obyekt yo'q qilinganda ham fayl avtomatik yopiladi, lekin aniq yopish yaxshi amaliyot."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Fayl oxiriga yetilganini tekshirish metodi qaysi?",
+   "a": [
+    "eof()",
+    "end()",
+    "last()",
+    "stop()"
+   ],
+   "e": "Odatda while (f >> x) sikli ishlatiladi."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Matnli va ikkilik fayllar farqi nima?",
+   "a": [
+    "Ikkilik faylda ma'lumot xotiradagi ko'rinishida saqlanadi",
+    "Matnli fayllar faqat raqamlarni, ikkilik fayllar faqat harflarni saqlaydi",
+    "Ikkilik fayllarni ochib bo'lmaydi",
+    "Farqi yo'q"
+   ],
+   "e": "Ikkilik rejim — ios::binary."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Chiziqli qidiruvning eng yomon holatdagi murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(1)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Barcha elementlar ko'rib chiqiladi."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Ikkilik qidiruvning murakkabligi qanday?",
+   "a": [
+    "O(log n)",
+    "O(n)",
+    "O(n²)",
+    "O(1)"
+   ],
+   "e": "Har qadamda oraliq ikki marta qisqaradi."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Ikkilik qidiruv qanday shart bajarilganda qo'llaniladi?",
+   "a": [
+    "Massiv saralangan bo'lsa",
+    "Massiv bo'sh bo'lsa",
+    "Massivda takrorlanuvchi elementlar bo'lmasa",
+    "Massiv elementlari musbat bo'lsa"
+   ],
+   "e": "Saralanmagan massivda natija noto'g'ri bo'ladi."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Pufakchali (bubble) saralashning o'rtacha murakkabligi qanday?",
+   "a": [
+    "O(n²)",
+    "O(n log n)",
+    "O(n)",
+    "O(log n)"
+   ],
+   "e": "Qo'shni elementlar taqqoslanib, almashtiriladi."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Tez saralash (quicksort) qanday g'oyaga asoslangan?",
+   "a": [
+    "Tayanch element atrofida bo'lish va rekursiya",
+    "Qo'shni elementlarni ketma-ket solishtirib almashtirish",
+    "Har safar eng kichik elementni boshiga qo'yish",
+    "Elementlarni tasodifiy aralashtirish"
+   ],
+   "e": "O'rtacha murakkabligi O(n log n)."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Massivdagi eng katta elementni topish algoritmi qanday ishlaydi?",
+   "a": [
+    "Birinchi elementni maksimum deb olib, qolganlar bilan solishtiradi",
+    "Massivni teskari tartiblab, oxirgi elementni oladi",
+    "Har bir elementni barcha boshqa elementlar bilan juftlab solishtirib, jadval tuzadi",
+    "Faqat birinchi va oxirgi elementlarni solishtiradi"
+   ],
+   "e": "Bir marta o'tish yetarli — O(n)."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Ikki sonning EKUBini topishning samarali algoritmi qaysi?",
+   "a": [
+    "Evklid algoritmi",
+    "Pufakchali saralash",
+    "Ikkilik qidiruv",
+    "Dijkstra algoritmi"
+   ],
+   "e": "ekub(a, b) = ekub(b, a % b)."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Sonning tub ekanligini tekshirishda bo'luvchilarni qaysi songacha tekshirish yetarli?",
+   "a": [
+    "√n gacha",
+    "n gacha",
+    "n/2 gacha har doim",
+    "10 gacha"
+   ],
+   "e": "Agar n = a·b bo'lsa, a yoki b √n dan oshmaydi."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Massivni teskari tartibga keltirish uchun qaysi STL funksiyasi ishlatiladi?",
+   "a": [
+    "reverse()",
+    "sort()",
+    "swap() faqat",
+    "rotate()"
+   ],
+   "e": "reverse(v.begin(), v.end());"
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Fibonachchi sonlarini rekursiv hisoblashning asosiy kamchiligi nima?",
+   "a": [
+    "Bir xil qiymatlar ko'p marta qayta hisoblanadi",
+    "Natija har doim noto'g'ri chiqadi",
+    "Rekursiv funksiya faqat juft indeksli Fibonachchi sonlarini hisoblay oladi",
+    "Faqat juft sonlarni hisoblaydi"
+   ],
+   "e": "Dinamik dasturlash yoki sikl bilan samaraliroq."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Dasturiy ta'minot hayotiy siklining birinchi bosqichi qaysi?",
+   "a": [
+    "Talablarni tahlil qilish",
+    "Dasturni foydalanuvchilarga tarqatish va qo'llab-quvvatlash",
+    "Kodlash",
+    "Testlash"
+   ],
+   "e": "Keyin loyihalash, kodlash, testlash, joriy etish, kuzatib borish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "\"Sharshara\" (Waterfall) modelining xususiyati nima?",
+   "a": [
+    "Bosqichlar qat'iy ketma-ket bajariladi",
+    "Bosqichlar qisqa iteratsiyalarda qayta-qayta takrorlanadi",
+    "Rejalashtirish umuman bo'lmaydi",
+    "Faqat testlash bosqichi bor"
+   ],
+   "e": "Agile esa iterativ yondashuv."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Agile (moslashuvchan) metodologiyasining asosiy g'oyasi nima?",
+   "a": [
+    "Qisqa iteratsiyalarda ishlash va o'zgarishlarga tez moslashish",
+    "Barcha talablarni loyiha boshida qat'iy belgilab, o'zgartirmaslik",
+    "Faqat hujjatlarni ko'p yozish",
+    "Mijoz bilan muloqot qilmaslik"
+   ],
+   "e": "Scrum — Agile ning mashhur freymvorki."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kod sharhlash (code review) nima uchun o'tkaziladi?",
+   "a": [
+    "Xatolarni erta aniqlash va sifatni oshirish",
+    "Dasturchilarning ish vaqtini nazorat qilish va ularni jazolash",
+    "Kodni o'chirish",
+    "Kod hajmini oshirish"
+   ],
+   "e": "Boshqa dasturchi kodni ko'rib chiqadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Git da o'zgarishlarni saqlash (qayd etish) buyrug'i qaysi?",
+   "a": [
+    "git commit",
+    "git push faqat",
+    "git clone",
+    "git init"
+   ],
+   "e": "git push — masofaviy repozitoriyga yuborish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kodni qayta ishlash (refaktoring) nima?",
+   "a": [
+    "Xatti-harakatni o'zgartirmasdan kod tuzilishini yaxshilash",
+    "Dasturga yangi funksiyalar qo'shish va interfeysni o'zgartirish",
+    "Dasturni boshqa tilga tarjima qilish",
+    "Dasturni o'chirib, qaytadan yozish"
+   ],
+   "e": "Refaktoring o'qiluvchanlik va qo'llab-quvvatlashni osonlashtiradi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "\"int x = 3.9;\" dan keyin x nechaga teng?",
+   "a": [
+    "3",
+    "4",
+    "3.9",
+    "Kompilyatsiya xatosi"
+   ],
+   "e": "Kasr qism tashlanadi (yaxlitlanmaydi)."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "round(3.5) funksiyasi natijasi nechaga teng?",
+   "a": [
+    "4",
+    "3",
+    "3.5",
+    "0"
+   ],
+   "e": "round yaqin butunga yaxlitlaydi (0.5 noldan uzoqlashtiriladi)."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "floor(−2.3) natijasi nechaga teng?",
+   "a": [
+    "−3",
+    "−2",
+    "2",
+    "−2.3"
+   ],
+   "e": "floor — pastga yaxlitlash."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "ceil(2.1) natijasi nechaga teng?",
+   "a": [
+    "3",
+    "2",
+    "2.1",
+    "1"
+   ],
+   "e": "ceil — yuqoriga yaxlitlash."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Funksiyaning imzosiga (signaturasiga) nima kiradi?",
+   "a": [
+    "Nomi va parametrlar turlari",
+    "Faqat qaytarish turi",
+    "Funksiya tanasidagi operatorlar soni",
+    "Funksiya yozilgan fayl nomi"
+   ],
+   "e": "Qayta yuklash imzo bo'yicha farqlanadi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Global o'zgaruvchilardan ko'p foydalanish nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Kodni tushunish va xatolarni topish qiyinlashadi",
+    "Ular dasturni har doim tezlashtiradi",
+    "Global o'zgaruvchilar stekda saqlangani uchun tez tugab qoladi",
+    "Ular faqat bitta funksiyada ishlaydi"
+   ],
+   "e": "Funksiyalar parametrlar orqali bog'lanishi afzal."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Funksiyaning yon ta'siri (side effect) nima?",
+   "a": [
+    "Qaytariladigan qiymatdan tashqari tashqi holatni o'zgartirishi",
+    "Funksiya ichida juda ko'p lokal o'zgaruvchi e'lon qilinishi",
+    "Funksiyaning hech narsa qaytarmasligi",
+    "Funksiyaning juda uzun bo'lishi"
+   ],
+   "e": "Masalan, global o'zgaruvchini o'zgartirish yoki faylga yozish."
+  },
+  {
+   "b": "OYD",
+   "q": "Getter va setter metodlari nima uchun ishlatiladi?",
+   "a": [
+    "Yopiq maydonlarga nazoratli murojaat uchun",
+    "Maydonlarni public qilib, istalgan joydan o'zgartirish uchun",
+    "Obyektni o'chirish uchun",
+    "Sinfni meros qilish uchun"
+   ],
+   "e": "Inkapsulyatsiya tamoyilini amalga oshiradi."
+  },
+  {
+   "b": "OYD",
+   "q": "Agregatsiya va kompozitsiya qanday munosabatni bildiradi?",
+   "a": [
+    "\"Butun-qism\" munosabatini",
+    "\"Voris-asos\" munosabatini",
+    "Ikki funksiyaning ketma-ket chaqirilishini",
+    "Ikki faylning bog'lanishini"
+   ],
+   "e": "Kompozitsiyada qism butunsiz mavjud bo'lmaydi."
+  },
+  {
+   "b": "OYD",
+   "q": "Metodni qayta aniqlash (override) nima?",
+   "a": [
+    "Voris sinfda asos sinf metodini yangi tarzda yozish",
+    "Bir sinfda bir nomli bir nechta metod yaratish",
+    "Asos sinfdagi metodni voris sinfda butunlay yashirib, chaqirib bo'lmaydigan qilish",
+    "Metodni yashirish"
+   ],
+   "e": "C++11 da override kalit so'zi bilan belgilanadi."
+  },
+  {
+   "b": "OYD",
+   "q": "Interfeys (C++ da) qanday ko'rinishda amalga oshiriladi?",
+   "a": [
+    "Faqat sof virtual funksiyalardan iborat abstrakt sinf",
+    "Global funksiyalar to'plami va ularning prototiplari",
+    "Bitta shablon (template) funksiya",
+    "Faqat static maydonlardan tashkil topgan oddiy struktura"
+   ],
+   "e": "Interfeys \"nima qilish kerak\"ni belgilaydi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Ikkilik qidiruv daraxtida chap qism daraxtdagi elementlar qanday?",
+   "a": [
+    "Ildizdan kichik",
+    "Ildizdan katta",
+    "Ildizga teng",
+    "Tasodifiy"
+   ],
+   "e": "O'ng qism daraxtda katta elementlar."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Xesh-jadval (unordered_map) da qidiruvning o'rtacha murakkabligi qanday?",
+   "a": [
+    "O(1)",
+    "O(n)",
+    "O(n²)",
+    "O(log n) har doim"
+   ],
+   "e": "Eng yomon holatda O(n)."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Deque konteyneri nima?",
+   "a": [
+    "Ikki uchidan qo'shish va olish mumkin bo'lgan navbat",
+    "Faqat bir uchidan ishlaydigan stek",
+    "Faqat saralangan to'plam",
+    "Kalit-qiymat lug'ati"
+   ],
+   "e": "Double-ended queue."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Graf nima?",
+   "a": [
+    "Uchlar va ularni bog'lovchi qirralar to'plami",
+    "Faqat ikki o'lchovli massiv",
+    "Funksiyaning grafigi faqat",
+    "Elementlari faqat o'sish tartibida joylashgan chiziqli ro'yxat"
+   ],
+   "e": "Yo'nalgan va yo'nalmagan graflar bo'ladi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "\"cout << 10 / 0;\" bajarilganda nima yuz beradi?",
+   "a": [
+    "Aniqlanmagan xatti-harakat (odatda dastur ishdan chiqadi)",
+    "Ekranga 0 chiqadi va dastur normal davom etadi",
+    "Ekranga cheksizlik belgisi chiqadi",
+    "Kompilyator avtomatik ravishda 1 ga almashtiradi"
+   ],
+   "e": "Butun sonni nolga bo'lish taqiqlangan."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Assert (tasdiqlash) makrosi nima uchun ishlatiladi?",
+   "a": [
+    "Dastur ishlashida shartlar to'g'riligini tekshirish uchun",
+    "Foydalanuvchidan ma'lumot so'rash uchun",
+    "Dasturni tezlashtirish va xotira sarfini kamaytirish uchun",
+    "Faylni ochish uchun"
+   ],
+   "e": "Shart yolg'on bo'lsa, dastur xabar berib to'xtaydi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Chegaraviy qiymatlar bilan testlash nima?",
+   "a": [
+    "Kirish ma'lumotlarining chekka qiymatlarida tekshirish",
+    "Faqat o'rtacha qiymatlar bilan tekshirish",
+    "Dasturni umuman tekshirmaslik",
+    "Faqat dastur ishlab chiquvchining o'zi bitta tasodifiy qiymat bilan tekshirishi"
+   ],
+   "e": "Masalan, 0, maksimal qiymat, bo'sh massiv."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Dasturlash paradigmalariga qaysi biri kiradi?",
+   "a": [
+    "Protsedurali",
+    "Faqat grafik interfeysli, sichqoncha bilan chiziladigan dasturlash",
+    "Faqat ikkilik kodda yozish",
+    "Faqat matn muharriri"
+   ],
+   "e": "Protsedurali, obyektga yo'naltirilgan, funksional paradigmalar."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Tuzilmaviy dasturlashning asosiy konstruksiyalari qaysilar?",
+   "a": [
+    "Ketma-ketlik, tarmoqlanish, takrorlanish",
+    "Faqat goto va nishonlar",
+    "Faqat funksiyalar va sinflar",
+    "Kompilyatsiya, bog'lash va bajariladigan faylni ishga tushirish"
+   ],
+   "e": "Har qanday algoritmni shu uchta tuzilma bilan ifodalash mumkin."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kutubxona (library) nima?",
+   "a": [
+    "Tayyor funksiya va sinflar to'plami",
+    "Dasturning faqat birinchi qatori",
+    "Kompyuterdagi barcha fayllar ro'yxati",
+    "Operatsion tizim nomi"
+   ],
+   "e": "Masalan, C++ standart kutubxonasi (STL)."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "API nima?",
+   "a": [
+    "Dasturlar o'zaro muloqot qiladigan interfeys",
+    "Kompyuterning apparat qismi",
+    "Faqat matn fayli formati",
+    "Dasturni ekranda chiroyli ko'rsatish uchun grafik shablon"
+   ],
+   "e": "Application Programming Interface."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Psevdokod va blok-sxemaning umumiy maqsadi nima?",
+   "a": [
+    "Algoritmni dasturlash tilidan mustaqil tasvirlash",
+    "Dasturni to'g'ridan-to'g'ri mashina kodiga o'girish",
+    "Dasturni shifrlash",
+    "Ma'lumotlar bazasini yaratish"
+   ],
+   "e": "Ikkalasi ham kodlashdan oldingi rejalashtirish vositasi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "C++ da \"5 / 2.0\" ifodaning turi qanday?",
+   "a": [
+    "double",
+    "int",
+    "char",
+    "bool"
+   ],
+   "e": "Operandlardan biri double bo'lsa, natija double."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Quyidagilardan qaysi biri to'g'ri belgi literali?",
+   "a": [
+    "'a'",
+    "\"a\" (bu satr literali)",
+    "a",
+    "'ab'"
+   ],
+   "e": "Bitta belgi bittalik qo'shtirnoqda yoziladi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "\"string s = \"12\"; int n = stoi(s);\" dan keyin n nechaga teng?",
+   "a": [
+    "12",
+    "0",
+    "\"12\"",
+    "1"
+   ],
+   "e": "stoi() satrni butun songa o'giradi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Sonni satrga aylantirish funksiyasi qaysi?",
+   "a": [
+    "to_string()",
+    "stoi()",
+    "atoi()",
+    "str()"
+   ],
+   "e": "to_string(42) → \"42\"."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Global o'zgaruvchi boshlang'ich qiymat berilmasa qanday qiymatga ega bo'ladi?",
+   "a": [
+    "0",
+    "Tasodifiy qiymat",
+    "−1",
+    "Kompilyatsiya xatosi"
+   ],
+   "e": "Statik xotiradagi o'zgaruvchilar nol bilan ishga tushiriladi."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"int a = 10; a %= 3;\" dan keyin a nechaga teng?",
+   "a": [
+    "1",
+    "3",
+    "0",
+    "7"
+   ],
+   "e": "10 % 3 = 1."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"int x = 5; x = x * 2 + 1;\" dan keyin x nechaga teng?",
+   "a": [
+    "11",
+    "15",
+    "12",
+    "10"
+   ],
+   "e": "5·2 + 1."
+  },
+  {
+   "b": "Amallar",
+   "q": "Ifodada qaysi amal eng yuqori ustuvorlikka ega?",
+   "a": [
+    "Qavs ichidagi amal",
+    "Qo'shish",
+    "O'zlashtirish",
+    "Mantiqiy YOKI"
+   ],
+   "e": "Keyin unar amallar, ko'paytirish/bo'lish, qo'shish/ayirish."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"a > b && b > c\" ifoda qachon rost?",
+   "a": [
+    "Ikkala shart ham rost bo'lganda",
+    "Kamida bitta shart rost bo'lganda",
+    "Ikkala shart ham yolg'on bo'lganda",
+    "Hech qachon"
+   ],
+   "e": "&& — mantiqiy VA."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"3 == 3.0\" ifodaning qiymati nima?",
+   "a": [
+    "true",
+    "false",
+    "Kompilyatsiya xatosi",
+    "3"
+   ],
+   "e": "int qiymat double ga o'tkazilib taqqoslanadi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"int n = 5, s = 0; while (n > 0) { s += n; n -= 2; }\" dan keyin s nechaga teng?",
+   "a": [
+    "9",
+    "15",
+    "5",
+    "8"
+   ],
+   "e": "5 + 3 + 1 = 9."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"do { x++; } while (x < 0);\" da x = 10 bo'lsa, sikl tanasi necha marta bajariladi?",
+   "a": [
+    "1",
+    "0",
+    "10",
+    "Cheksiz"
+   ],
+   "e": "do-while tanasi kamida bir marta bajariladi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Ichma-ich if operatorlarida else qaysi if ga tegishli bo'ladi?",
+   "a": [
+    "Eng yaqin oldingi juftsiz if ga",
+    "Har doim birinchi (tashqi) if ga",
+    "Har doim oxirgi qatordagi if ga",
+    "Hech qaysisiga"
+   ],
+   "e": "Chalkashlikni oldini olish uchun figurali qavslar ishlatiladi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "switch operatorida case qiymati sifatida nima ishlatilishi mumkin?",
+   "a": [
+    "Butun songa keltiriladigan konstanta",
+    "Istalgan satr (string) qiymati",
+    "Haqiqiy son (double) qiymati",
+    "Har qanday o'zgaruvchi nomi yoki funksiya chaqiruvi natijasi"
+   ],
+   "e": "int, char, enum turidagi konstantalar."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "\"void f(int x) { x = 10; } int a = 5; f(a);\" dan keyin a nechaga teng?",
+   "a": [
+    "5",
+    "10",
+    "0",
+    "15"
+   ],
+   "e": "Qiymat bo'yicha uzatishda asl o'zgaruvchi o'zgarmaydi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "\"void f(int &x) { x = 10; } int a = 5; f(a);\" dan keyin a nechaga teng?",
+   "a": [
+    "10",
+    "5",
+    "0",
+    "15"
+   ],
+   "e": "Havola orqali asl o'zgaruvchi o'zgaradi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "static lokal o'zgaruvchining xususiyati nima?",
+   "a": [
+    "Funksiya chaqiruvlari orasida qiymatini saqlaydi",
+    "Har bir chaqiruvda qaytadan nolga tenglashtiriladi",
+    "Barcha funksiyalarda ko'rinadi",
+    "Faqat bir marta ishlatiladi va o'chadi"
+   ],
+   "e": "Masalan, funksiya necha marta chaqirilganini sanash uchun."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "main() funksiyasi \"return 0;\" bilan nima bildiradi?",
+   "a": [
+    "Dastur muvaffaqiyatli tugaganini",
+    "Dastur xato bilan tugaganini",
+    "Dasturni qayta ishga tushirishni",
+    "Natija nolga tengligini"
+   ],
+   "e": "Noldan farqli qiymat odatda xato kodini bildiradi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"int a[3] = {1};\" dan keyin a[2] nechaga teng?",
+   "a": [
+    "0",
+    "1",
+    "Tasodifiy qiymat",
+    "Kompilyatsiya xatosi"
+   ],
+   "e": "Qisman ishga tushirilgan massivning qolgan elementlari 0 ga teng."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"vector<int> v(5, 2);\" qanday vektor yaratadi?",
+   "a": [
+    "5 ta elementi 2 ga teng",
+    "2 ta elementi 5 ga teng",
+    "Elementlari 5 va 2 dan iborat",
+    "Bo'sh vektor"
+   ],
+   "e": "Birinchi argument — soni, ikkinchisi — qiymati."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "vector ning barcha elementlarini o'chirish metodi qaysi?",
+   "a": [
+    "clear()",
+    "erase_all()",
+    "remove()",
+    "delete()"
+   ],
+   "e": "clear() dan keyin size() = 0."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "vector ning birinchi elementiga murojaat metodi qaysi?",
+   "a": [
+    "front()",
+    "first()",
+    "begin_value()",
+    "top()"
+   ],
+   "e": "back() — oxirgi element."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Ikki o'lchovli massiv elementiga murojaat qanday yoziladi?",
+   "a": [
+    "m[i][j]",
+    "m[i, j]",
+    "m(i)(j)",
+    "m{i}{j}"
+   ],
+   "e": "i — satr, j — ustun indeksi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Satrdagi belgilarni katta harfga o'tkazish uchun qaysi funksiya ishlatiladi?",
+   "a": [
+    "toupper()",
+    "tolower()",
+    "upper()",
+    "capitalize()"
+   ],
+   "e": "<cctype> sarlavha faylida."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "pair konteyneri nimani saqlaydi?",
+   "a": [
+    "Ikki qiymatni birga",
+    "Faqat bitta qiymatni",
+    "Cheksiz ko'p qiymatni",
+    "Faqat satrlarni"
+   ],
+   "e": "first va second maydonlari."
+  },
+  {
+   "b": "OYD",
+   "q": "\"class A { int x; };\" da x qanday kirish darajasiga ega?",
+   "a": [
+    "private",
+    "public",
+    "protected",
+    "global"
+   ],
+   "e": "class da standart kirish — private, struct da — public."
+  },
+  {
+   "b": "OYD",
+   "q": "struct va class ning C++ dagi asosiy farqi nima?",
+   "a": [
+    "Standart kirish darajasi",
+    "struct da metodlar bo'lishi mumkin emas",
+    "class meros ololmaydi",
+    "struct obyektini yaratib bo'lmaydi"
+   ],
+   "e": "struct — public, class — private."
+  },
+  {
+   "b": "OYD",
+   "q": "Konstruktorda initsializatsiya ro'yxati qanday yoziladi?",
+   "a": [
+    "A(int a) : x(a) { }",
+    "A(int a) { : x = a }",
+    "A(int a) => x(a)",
+    "A(int a) = x(a)"
+   ],
+   "e": "Initsializatsiya ro'yxati maydonlarni samarali ishga tushiradi."
+  },
+  {
+   "b": "OYD",
+   "q": "Asos sinf ko'rsatkichi voris sinf obyektiga ko'rsatishi mumkinmi?",
+   "a": [
+    "Ha",
+    "Yo'q, bu kompilyatsiya xatosi",
+    "Faqat struct larda",
+    "Faqat static sinflarda"
+   ],
+   "e": "Bu polimorfizmning asosi."
+  },
+  {
+   "b": "OYD",
+   "q": "Virtual destruktor nima uchun kerak?",
+   "a": [
+    "Asos ko'rsatkichi orqali o'chirishda voris destruktori ham chaqirilishi uchun",
+    "Obyektni hech qachon o'chirib bo'lmaydigan qilish uchun",
+    "Konstruktorni tezlashtirish uchun",
+    "Sinfni abstrakt qilish uchun"
+   ],
+   "e": "Aks holda resurslar bo'shatilmasligi mumkin."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "\"ofstream f(\"a.txt\");\" bilan fayl ochilganda, agar fayl mavjud bo'lsa nima bo'ladi?",
+   "a": [
+    "Fayl tarkibi tozalanadi",
+    "Yangi ma'lumot avtomatik oxiriga qo'shiladi",
+    "Fayl ochilmaydi va xato beriladi",
+    "Fayl nusxasi yaratiladi"
+   ],
+   "e": "Oxiriga qo'shish uchun ios::app ishlatiladi."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Fayldagi sonlar yig'indisini hisoblash uchun odatiy sikl qaysi?",
+   "a": [
+    "while (f >> x) s += x;",
+    "for (;;) f << x;",
+    "while (f) cout << x;",
+    "if (f >> x) s += x;"
+   ],
+   "e": "O'qish muvaffaqiyatsiz bo'lganda sikl to'xtaydi."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Tanlash orqali saralash (selection sort) qanday ishlaydi?",
+   "a": [
+    "Har qadamda eng kichik elementni topib, joyiga qo'yadi",
+    "Qo'shni elementlarni solishtirib, almashtirib chiqadi",
+    "Massivni ikkiga bo'lib, rekursiv birlashtiradi",
+    "Elementlarni tasodifiy aralashtirib, tartiblangan holat chiqquncha takrorlaydi"
+   ],
+   "e": "Murakkabligi O(n²)."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Birlashtirib saralash (merge sort) murakkabligi qanday?",
+   "a": [
+    "O(n log n)",
+    "O(n²)",
+    "O(n)",
+    "O(log n)"
+   ],
+   "e": "\"Bo'l va hukmronlik qil\" usuli."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "\"Bo'l va hukmronlik qil\" usuli nimani anglatadi?",
+   "a": [
+    "Masalani kichik qismlarga bo'lib, alohida yechish",
+    "Masalani faqat jadval ko'rinishida yechish",
+    "Masalani tasodifiy yechish",
+    "Masalani bitta katta siklda, qismlarga ajratmasdan yechish"
+   ],
+   "e": "Merge sort, quicksort, ikkilik qidiruv."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Sonning raqamlari yig'indisini topish uchun qaysi amallar ishlatiladi?",
+   "a": [
+    "% 10 va / 10",
+    "* 10 va + 10",
+    "% 2 va / 2",
+    "++ va --"
+   ],
+   "e": "n % 10 — oxirgi raqam, n / 10 — uni olib tashlash."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "1234 sonining raqamlari yig'indisi nechaga teng?",
+   "a": [
+    "10",
+    "1234",
+    "24",
+    "4"
+   ],
+   "e": "1 + 2 + 3 + 4."
+  },
+  {
+   "b": "Xatolar",
+   "q": "\"int a[5]; for (int i = 0; i <= 5; i++) a[i] = 0;\" kodidagi xato nima?",
+   "a": [
+    "a[5] massiv chegarasidan tashqarida",
+    "Sikl umuman bajarilmaydi",
+    "a[0] ga murojaat qilib bo'lmaydi",
+    "Xato yo'q"
+   ],
+   "e": "Shart i < 5 bo'lishi kerak."
+  },
+  {
+   "b": "Xatolar",
+   "q": "\"Off-by-one\" xatosi nima?",
+   "a": [
+    "Sikl chegarasida bitta ortiq yoki kam iteratsiya",
+    "Kompyuterni o'chirib-yoqish xatosi",
+    "Fayl topilmasligi",
+    "Kompyuter qayta yoqilganda dasturning birinchi qatori o'tkazib yuborilishi"
+   ],
+   "e": "Ko'pincha < va <= ni chalkashtirishdan kelib chiqadi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Dasturdagi xatoni topish uchun eng oddiy usul qaysi?",
+   "a": [
+    "O'zgaruvchilar qiymatini oraliq chiqarish",
+    "Kompyuterni yangisiga almashtirish",
+    "Dastur matnini boshqa dasturlash tiliga to'liq ko'chirib yozish",
+    "Kodni butunlay o'chirib tashlash"
+   ],
+   "e": "Debugger yanada qulay vosita."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Mashina kodi nima?",
+   "a": [
+    "Protsessor bevosita bajaradigan ikkilik buyruqlar",
+    "Yuqori darajali tilda yozilgan va izohlar bilan to'ldirilgan dastur matni",
+    "Faqat matnli fayl",
+    "Dastur interfeysi"
+   ],
+   "e": "Assembler mashina kodining mnemonik yozuvi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Dasturning manba kodi nima?",
+   "a": [
+    "Dasturchi yozgan dastur matni",
+    "Kompilyatsiyadan keyingi ikkilik fayl",
+    "Dasturning ikona rasmi",
+    "Kompyuter xotirasi manzili"
+   ],
+   "e": "Manba kod kompilyator tomonidan qayta ishlanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kross-platformali dastur nima?",
+   "a": [
+    "Bir nechta operatsion tizimda ishlaydigan dastur",
+    "Faqat bitta kompyuterda ishlaydigan, ko'chirib bo'lmaydigan dastur",
+    "Faqat mobil telefonda ishlaydigan dastur",
+    "Faqat serverda ishlaydigan dastur"
+   ],
+   "e": "Masalan, Windows, Linux va macOS da."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "\"const int N = 10; N = 20;\" kodi nimaga olib keladi?",
+   "a": [
+    "Kompilyatsiya xatosi",
+    "N qiymati 20 ga o'zgaradi",
+    "N qiymati 30 bo'ladi",
+    "Dastur ishlaydi, lekin ogohlantirish chiqadi"
+   ],
+   "e": "Konstantani o'zgartirib bo'lmaydi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Literal \"3.14f\" qaysi turga ega?",
+   "a": [
+    "float",
+    "double",
+    "int",
+    "long"
+   ],
+   "e": "f qo'shimchasi float literalini bildiradi."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "\"char c = 'a' + 1;\" dan keyin c qaysi belgi?",
+   "a": [
+    "'b'",
+    "'a'",
+    "'1'",
+    "'A'"
+   ],
+   "e": "ASCII kodi 98 ga teng belgi."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"x = 7; y = x-- ;\" dan keyin y va x qiymatlari qanday?",
+   "a": [
+    "y = 7, x = 6",
+    "y = 6, x = 6",
+    "y = 7, x = 7",
+    "y = 6, x = 7"
+   ],
+   "e": "Postfiks dekrement avval qiymatni beradi."
+  },
+  {
+   "b": "Amallar",
+   "q": "Butun son juftligini tekshirish sharti qaysi?",
+   "a": [
+    "n % 2 == 0",
+    "n / 2 == 0",
+    "n * 2 == 0",
+    "n % 2 == 1 juftlik uchun"
+   ],
+   "e": "Qoldiq 0 bo'lsa son juft."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"abs(−7)\" natijasi nechaga teng?",
+   "a": [
+    "7",
+    "−7",
+    "0",
+    "49"
+   ],
+   "e": "abs — modul (absolyut qiymat)."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "1 dan n gacha sonlar yig'indisini hisoblash uchun qaysi tuzilma qulay?",
+   "a": [
+    "for sikli",
+    "switch operatori",
+    "goto operatori",
+    "Faqat if operatori"
+   ],
+   "e": "for (int i = 1; i <= n; i++) s += i;"
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Foydalanuvchi to'g'ri qiymat kiritguncha so'rash uchun qaysi sikl qulay?",
+   "a": [
+    "do-while",
+    "for har doim",
+    "switch",
+    "Rekursiv lambda"
+   ],
+   "e": "Avval so'raladi, keyin tekshiriladi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"for (int i = 0; i < 10; i++) { if (i == 3) break; cout << i; }\" nima chiqaradi?",
+   "a": [
+    "012",
+    "0123",
+    "0123456789",
+    "3"
+   ],
+   "e": "i = 3 da sikl tugaydi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"for (int i = 0; i < 5; i++) { if (i % 2) continue; cout << i; }\" nima chiqaradi?",
+   "a": [
+    "024",
+    "135",
+    "01234",
+    "0"
+   ],
+   "e": "Toq i larda continue bajariladi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Funksiya ichida e'lon qilingan o'zgaruvchi funksiya tugagach nima bo'ladi?",
+   "a": [
+    "Yo'q bo'ladi (static bo'lmasa)",
+    "Global o'zgaruvchiga aylanib, saqlanib qoladi",
+    "Diskka yoziladi",
+    "Boshqa funksiyaga o'tadi"
+   ],
+   "e": "Lokal o'zgaruvchilar stekda saqlanadi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "\"int maks(int a, int b) { return a > b ? a : b; }\" — maks(3, 8) nima qaytaradi?",
+   "a": [
+    "8",
+    "3",
+    "11",
+    "true"
+   ],
+   "e": "Ternar operator kattasini tanlaydi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Funksiya ko'rsatkichi nima?",
+   "a": [
+    "Funksiya manzilini saqlovchi ko'rsatkich",
+    "Funksiya qaytargan qiymat",
+    "Funksiya parametrlari soni",
+    "Funksiya nomining uzunligi"
+   ],
+   "e": "Callback mexanizmlarida ishlatiladi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"string s = \"abc\"; s += \"d\";\" dan keyin s qanday?",
+   "a": [
+    "\"abcd\"",
+    "\"dabc\"",
+    "\"abc\"",
+    "\"d\""
+   ],
+   "e": "+= satr oxiriga qo'shadi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"string a = \"10\", b = \"5\"; cout << a + b;\" nima chiqaradi?",
+   "a": [
+    "105",
+    "15",
+    "5",
     "Xato"
    ],
-   "e": "Indekslash 0 dan boshlanadi."
+   "e": "Satrlar birlashtiriladi, sonlar qo'shilmaydi."
   },
   {
    "b": "Ma'lumotlar tuzilmalari",
-   "q": "Python'da ro'yxat uzunligini qaysi funksiya qaytaradi?",
+   "q": "Massiv elementlari yig'indisini hisoblovchi STL funksiyasi qaysi?",
    "a": [
-    "len()",
-    "size()",
-    "count()",
-    "length()"
+    "accumulate()",
+    "sum()",
+    "total()",
+    "add_all()"
    ],
-   "e": "len([1, 2, 3]) = 3."
+   "e": "<numeric> sarlavha faylida."
   },
   {
    "b": "Ma'lumotlar tuzilmalari",
-   "q": "Python'da \"kalit: qiymat\" juftliklarini saqlovchi tuzilma qaysi?",
+   "q": "Stek qaysi amallarni qo'llab-quvvatlaydi?",
    "a": [
-    "Lug'at (dict)",
-    "Ro'yxat (list)",
-    "Kortej (tuple)",
-    "Satr (str)"
+    "push, pop, top",
+    "insert, erase, find har qanday joydan",
+    "sort, reverse",
+    "front, back faqat"
    ],
-   "e": "Masalan: {\"ism\": \"Ali\", \"yosh\": 20}."
+   "e": "Faqat yuqori element bilan ishlanadi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Navbatga element qo'shish metodi qaysi (queue)?",
+   "a": [
+    "push()",
+    "pop()",
+    "front()",
+    "top()"
+   ],
+   "e": "pop() — oldidagi elementni o'chiradi."
   },
   {
    "b": "OYD",
-   "q": "Obyektga yo'naltirilgan dasturlashning asosiy tamoyillari qaysilar?",
+   "q": "Ma'lumotlar abstraksiyasi nima?",
    "a": [
-    "Inkapsulyatsiya, vorislik, polimorfizm (va abstraksiya)",
-    "Sikl, shart, funksiya",
-    "Kompilyatsiya, interpretatsiya, bajarish",
-    "Kiritish, qayta ishlash, chiqarish"
+    "Muhim xususiyatlarni ajratib, tafsilotlarni yashirish",
+    "Barcha ichki tafsilotlarni foydalanuvchiga to'liq ochib berish",
+    "Sinfni o'chirish",
+    "Kodni nusxalash"
    ],
-   "e": "OYD tamoyillari sinf va obyekt tushunchalariga asoslanadi."
+   "e": "Foydalanuvchi faqat interfeys bilan ishlaydi."
   },
   {
    "b": "OYD",
-   "q": "Sinf (class) va obyekt orasidagi munosabat qanday?",
+   "q": "Sinf metodi const bilan e'lon qilinsa nima bildiradi?",
    "a": [
-    "Obyekt — sinfning nusxasi (ekzemplyari)",
-    "Sinf — obyektning nusxasi",
-    "Ular bir xil tushuncha",
-    "Obyekt funksiyaning turi"
+    "Metod obyekt holatini o'zgartirmaydi",
+    "Metodni faqat bir marta chaqirish mumkin",
+    "Metod har doim 0 qaytaradi",
+    "Metodni voris sinf ishlatolmaydi"
    ],
-   "e": "Sinf — andoza, obyekt — shu andoza asosida yaratilgan nusxa."
+   "e": "int get() const { return x; }"
+  },
+  {
+   "b": "OYD",
+   "q": "Obyektni dinamik yaratish qanday yoziladi?",
+   "a": [
+    "A *p = new A();",
+    "A p = create A;",
+    "A *p = A.new();",
+    "new A p;"
+   ],
+   "e": "delete p; bilan o'chiriladi."
+  },
+  {
+   "b": "OYD",
+   "q": "Aqlli ko'rsatkich (smart pointer) qanday afzallik beradi?",
+   "a": [
+    "Xotirani avtomatik bo'shatadi",
+    "Dasturni ikki baravar tezlashtiradi va xotira sarfini nolga tushiradi",
+    "Ko'rsatkichni o'zgartirib bo'lmaydigan qiladi",
+    "Faqat massivlar uchun ishlatiladi"
+   ],
+   "e": "unique_ptr, shared_ptr — <memory> da."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Ma'lumotlarni faylda saqlashning afzalligi nima?",
+   "a": [
+    "Dastur tugagach ham ma'lumotlar saqlanadi",
+    "Ma'lumotlar operativ xotiradan tezroq o'qiladi",
+    "Fayllar hech qachon o'chmaydi",
+    "Faylga yozish xotira talab qilmaydi"
+   ],
+   "e": "Operativ xotiradagi ma'lumotlar dastur tugaganda yo'qoladi."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "CSV faylni o'qishda maydonlarni ajratish uchun qaysi belgi bo'yicha bo'linadi?",
+   "a": [
+    "Vergul (yoki nuqtali vergul)",
+    "Nuqta",
+    "Undov belgisi",
+    "Probel faqat"
+   ],
+   "e": "getline(ss, maydon, ',') ishlatilishi mumkin."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Ikki o'zgaruvchi qiymatini almashtirish uchun qaysi STL funksiyasi bor?",
+   "a": [
+    "swap()",
+    "change()",
+    "exchange_all()",
+    "flip()"
+   ],
+   "e": "swap(a, b);"
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "n elementli massivni pufakchali saralashda tashqi sikl necha marta bajariladi?",
+   "a": [
+    "n − 1",
+    "n²",
+    "1",
+    "log n"
+   ],
+   "e": "Har o'tishda eng katta element oxiriga suriladi."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Rekursiv faktorial funksiyasining bazaviy holati qaysi?",
+   "a": [
+    "n ≤ 1 bo'lsa 1 qaytarish",
+    "n = 100 bo'lsa to'xtash",
+    "n manfiy bo'lsa n qaytarish",
+    "Bazaviy holat kerak emas"
+   ],
+   "e": "0! = 1! = 1."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Dinamik dasturlashning asosiy g'oyasi nima?",
+   "a": [
+    "Kichik masalalar natijalarini saqlab, qayta ishlatish",
+    "Har bir kichik masalani har safar qaytadan hisoblash",
+    "Faqat tasodifiy qiymatlar bilan ishlash",
+    "Dasturni dinamik xotirasiz yozish"
+   ],
+   "e": "Memoizatsiya — natijalarni keshlash."
+  },
+  {
+   "b": "Algoritmlar",
+   "q": "Ochko'z (greedy) algoritm qanday ishlaydi?",
+   "a": [
+    "Har qadamda eng yaxshi ko'ringan tanlovni qiladi",
+    "Barcha mumkin bo'lgan variantlarni to'liq ko'rib chiqadi",
+    "Tasodifiy tanlov qiladi",
+    "Hech qanday tanlov qilmaydi"
+   ],
+   "e": "Har doim ham optimal yechim bermaydi."
   },
   {
    "b": "Xatolar",
-   "q": "Python'da istisnolarni (xatolarni) ushlash uchun qaysi konstruksiya ishlatiladi?",
+   "q": "\"Segmentation fault\" xatosi odatda nimani bildiradi?",
    "a": [
-    "try ... except",
-    "if ... else",
-    "for ... in",
-    "with ... as faqat"
+    "Ruxsat etilmagan xotira sohasiga murojaat",
+    "Sintaktik xato, ya'ni nuqtali vergul qo'yilmagani",
+    "Fayl muvaffaqiyatli yozilgani",
+    "Internet tezligi pastligi"
    ],
-   "e": "finally bloki har doim bajariladi."
+   "e": "Masalan, nullptr yoki chegaradan tashqari murojaat."
   },
   {
    "b": "Xatolar",
-   "q": "Dasturdagi mantiqiy xatolarni topish va tuzatish jarayoni qanday ataladi?",
+   "q": "\"undefined reference\" xatosi qaysi bosqichda chiqadi?",
    "a": [
-    "Otladka (debugging)",
-    "Kompilyatsiya",
-    "Arxivlash",
-    "Formatlash"
+    "Bog'lash (linking)",
+    "Bajarilish (runtime)",
+    "Preprotsessorda",
+    "Matn muharririda"
    ],
-   "e": "Debugger dasturni qadamma-qadam bajarish imkonini beradi."
+   "e": "Funksiya e'lon qilingan, lekin aniqlanmagan bo'lsa."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Kompilyator \"was not declared in this scope\" xabarini qachon beradi?",
+   "a": [
+    "O'zgaruvchi yoki funksiya e'lon qilinmasdan ishlatilganda",
+    "Dastur muvaffaqiyatli kompilyatsiya bo'lganda",
+    "Fayl diskda topilmaganda",
+    "Dastur juda tez ishlaganda"
+   ],
+   "e": "Nom xato yozilgan yoki ko'rinish sohasidan tashqarida."
   }
  ]
 }
