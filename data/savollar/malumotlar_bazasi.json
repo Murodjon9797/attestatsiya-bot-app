@@ -2,282 +2,2911 @@
  "kod": "5PM0489",
  "nomi": "Ma'lumotlar bazasi",
  "turi": "maxsus",
- "manba": "2026-yilgi texnikum o'quv rejalari (11 ta mutaxassislikda o'qitiladi)",
+ "manba": "2026-yilgi texnikum o'quv rejalari (11 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar bazasi (MB) nima?",
+   "a": [
+    "Muayyan sohaga oid tartiblangan ma'lumotlar to'plami",
+    "Kompyuterning qattiq diskidagi barcha fayllar, ularning nomlari va hajmlari ro'yxati",
+    "Faqat matnli hujjatlar papkasi",
+    "Dasturlash tili"
+   ],
+   "e": "MB ma'lumotlarni saqlash, izlash va o'zgartirishni ta'minlaydi."
+  },
   {
    "b": "Asosiy tushunchalar",
    "q": "MBBT (ma'lumotlar bazasini boshqarish tizimi) nima?",
    "a": [
-    "Ma'lumotlar bazasini yaratish, yuritish va unga murojaat qilish uchun dasturiy ta'minot",
-    "Kompyuter qurilmasi",
-    "Faqat jadval chizish dasturi",
-    "Operatsion tizim"
+    "MB yaratish va boshqarish uchun dasturiy ta'minot",
+    "Ma'lumotlar saqlanadigan fizik qattiq disk va uning kontrolleri",
+    "Faqat jadval dizayni",
+    "Tarmoq protokoli"
    ],
-   "e": "Masalan: MySQL, PostgreSQL, MS Access, Oracle."
+   "e": "Masalan, PostgreSQL, MySQL, Oracle, SQLite."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "Relyatsion ma'lumotlar bazasida ma'lumotlar qanday ko'rinishda saqlanadi?",
+   "q": "Relyatsion modelda ma'lumotlar qanday ko'rinishda ifodalanadi?",
    "a": [
-    "O'zaro bog'langan jadvallar ko'rinishida",
-    "Daraxt ko'rinishida faqat",
-    "Matnli fayllarda",
-    "Rasmlar ko'rinishida"
+    "Jadvallar (munosabatlar)",
+    "Daraxtsimon ierarxiya",
+    "Graf tugunlari",
+    "Kalit-qiymat juftliklari faqat"
    ],
-   "e": "Relyatsion model E. Kodd tomonidan taklif qilingan."
+   "e": "Relyatsion modelni E. Kodd taklif qilgan (1970)."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "Jadvaldagi har bir yozuvni yagona tarzda aniqlovchi maydon qanday ataladi?",
+   "q": "Relyatsion jadvalda satr (qator) qanday nomlanadi?",
    "a": [
-    "Birlamchi kalit (Primary Key)",
-    "Tashqi kalit",
-    "Indeks",
-    "Atribut"
+    "Kortej (yozuv)",
+    "Atribut",
+    "Domen",
+    "Sxema"
    ],
-   "e": "Birlamchi kalit qiymatlari takrorlanmaydi va bo'sh bo'lmaydi."
+   "e": "Ustun — atribut (maydon)."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "Boshqa jadvalning birlamchi kalitiga murojaat qiluvchi maydon qanday ataladi?",
+   "q": "Atribut nima?",
    "a": [
-    "Tashqi kalit (Foreign Key)",
-    "Birlamchi kalit",
-    "Surrogat kalit",
-    "Unikal maydon"
+    "Jadval ustuni (maydon)",
+    "Jadval qatori",
+    "Jadval nomi",
+    "Butun ma'lumotlar bazasi"
    ],
-   "e": "Tashqi kalit jadvallar orasidagi bog'lanishni ta'minlaydi."
+   "e": "Har bir atribut o'z domeniga ega."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "\"Bir talaba bir nechta fanni o'qiydi, bir fanni bir nechta talaba o'qiydi\" — bu qanday bog'lanish?",
+   "q": "Domen nima?",
    "a": [
-    "Ko'pga-ko'p",
-    "Birga-bir",
-    "Birga-ko'p",
-    "Bog'lanish yo'q"
+    "Atribut qabul qilishi mumkin bo'lgan qiymatlar to'plami",
+    "Jadvaldagi qatorlar soni va ularning umumiy hajmi",
+    "MBBT nomi",
+    "Tarmoq manzili"
    ],
-   "e": "Ko'pga-ko'p bog'lanish oraliq jadval orqali amalga oshiriladi."
+   "e": "Masalan, \"yosh\" atributi uchun 0–150 butun sonlar."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Birlamchi kalit (primary key) qanday xususiyatga ega?",
+   "a": [
+    "Noyob va bo'sh bo'lmaydi",
+    "Takrorlanishi mumkin va bo'sh qolishi ham mumkin",
+    "Faqat matnli bo'ladi",
+    "Har bir jadvalda bir nechta bo'ladi"
+   ],
+   "e": "Har bir yozuvni bir ma'noli aniqlaydi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Tashqi kalit (foreign key) nima?",
+   "a": [
+    "Boshqa jadval birlamchi kalitiga murojaat qiluvchi maydon",
+    "Jadvaldagi eng katta qiymatli maydon",
+    "Jadvalni ruxsatsiz kirishdan himoyalovchi shifrlash kaliti",
+    "Jadval nomi"
+   ],
+   "e": "Jadvallar o'rtasida bog'lanish o'rnatadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Tarkibiy (composite) kalit nima?",
+   "a": [
+    "Bir nechta atributdan tashkil topgan kalit",
+    "Faqat bitta raqamli atributdan iborat kalit",
+    "Tashqi kalitning nomi",
+    "Shifrlash kaliti"
+   ],
+   "e": "Masalan, (talaba_id, fan_id)."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Nomzod kalit (candidate key) nima?",
+   "a": [
+    "Birlamchi kalit bo'la oladigan minimal noyob atributlar to'plami",
+    "Har qanday takrorlanuvchi atribut, masalan, familiya yoki tug'ilgan yil",
+    "Faqat tashqi kalit",
+    "Jadvalning birinchi ustuni har doim"
+   ],
+   "e": "Nomzodlardan biri birlamchi kalit qilib tanlanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlarning ortiqchaligi (redundancy) nimaga olib keladi?",
+   "a": [
+    "Xotira isrofi va anomaliyalarga",
+    "Ma'lumotlar yaxlitligining oshishiga va tezlikning ortishiga",
+    "Xavfsizlikning oshishiga",
+    "Hech narsaga"
+   ],
+   "e": "Normallashtirish ortiqchalikni kamaytiradi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar modelining turlari qaysilar?",
+   "a": [
+    "Ierarxik, tarmoq, relyatsion",
+    "Faqat matnli va grafik",
+    "Faqat lokal va global",
+    "Faqat ichki va tashqi"
+   ],
+   "e": "Shuningdek obyektga yo'naltirilgan va hujjat modeli."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ierarxik modelda ma'lumotlar qanday tashkil etiladi?",
+   "a": [
+    "Daraxt ko'rinishida",
+    "Jadvallar ko'rinishida",
+    "Graf tarmoq ko'rinishida",
+    "Kalit-qiymat ko'rinishida"
+   ],
+   "e": "Har bir yozuvning bitta ota-onasi bo'ladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "SQL qisqartmasi nimani bildiradi?",
+   "a": [
+    "Strukturalashtirilgan so'rovlar tili",
+    "Tizimli dasturlash kutubxonasi",
+    "Server boshqaruv qatlami",
+    "Ma'lumotlarni siqish usuli"
+   ],
+   "e": "Structured Query Language."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "SQLite MBBT ning xususiyati nima?",
+   "a": [
+    "Serversiz, bitta faylda saqlanadigan yengil MB",
+    "Faqat katta serverlarda ishlaydigan pullik korporativ MB",
+    "NoSQL hujjat bazasi",
+    "Faqat bulutda ishlaydi"
+   ],
+   "e": "Mobil ilovalar va kichik loyihalarda keng qo'llaniladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar bazasi sxemasi nima?",
+   "a": [
+    "MB tuzilmasining tavsifi (jadvallar, maydonlar, bog'lanishlar)",
+    "MB dagi joriy ma'lumotlar va ularning so'nggi o'zgarish sanasi",
+    "MB fayli hajmi",
+    "MB foydalanuvchilari ro'yxati"
+   ],
+   "e": "Sxema kamdan-kam o'zgaradi."
   },
   {
    "b": "SQL",
-   "q": "SQL'da jadvaldan ma'lumot tanlash buyrug'i qaysi?",
+   "q": "SQL da jadvaldan barcha ustunlarni tanlash qanday yoziladi?",
    "a": [
-    "SELECT",
-    "INSERT",
-    "UPDATE",
-    "DELETE"
+    "SELECT * FROM jadval;",
+    "GET ALL FROM jadval;",
+    "SELECT ALL jadval;",
+    "SHOW jadval *;"
    ],
-   "e": "SELECT ustunlar FROM jadval WHERE shart."
+   "e": "* — barcha ustunlar."
   },
   {
    "b": "SQL",
-   "q": "Jadvalga yangi yozuv qo'shish uchun qaysi SQL buyrug'i ishlatiladi?",
+   "q": "SQL da shart bo'yicha tanlash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "WHERE",
+    "IF",
+    "WHEN",
+    "CASE faqat"
+   ],
+   "e": "SELECT * FROM talaba WHERE yosh > 18;"
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da natijani saralash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "ORDER BY",
+    "SORT BY",
+    "GROUP BY",
+    "ARRANGE"
+   ],
+   "e": "DESC — kamayish tartibida."
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da takrorlanuvchi qiymatlarni chiqarmaslik uchun nima ishlatiladi?",
+   "a": [
+    "DISTINCT",
+    "UNIQUE faqat",
+    "DIFFERENT",
+    "SINGLE"
+   ],
+   "e": "SELECT DISTINCT shahar FROM mijoz;"
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da yangi yozuv qo'shish buyrug'i qaysi?",
    "a": [
     "INSERT INTO",
     "ADD ROW",
-    "UPDATE",
-    "CREATE"
+    "NEW RECORD",
+    "APPEND TO"
    ],
-   "e": "INSERT INTO jadval (ustunlar) VALUES (qiymatlar)."
+   "e": "INSERT INTO talaba (ism, yosh) VALUES ('Ali', 19);"
   },
   {
    "b": "SQL",
-   "q": "Mavjud yozuvlarni o'zgartirish uchun qaysi buyruq ishlatiladi?",
+   "q": "SQL da yozuvlarni yangilash buyrug'i qaysi?",
    "a": [
-    "UPDATE",
-    "ALTER",
-    "INSERT",
-    "SELECT"
+    "UPDATE ... SET",
+    "CHANGE ... TO",
+    "MODIFY ... WITH",
+    "EDIT ... SET"
    ],
-   "e": "ALTER — jadval tuzilmasini o'zgartiradi."
+   "e": "UPDATE talaba SET yosh = 20 WHERE id = 5;"
   },
   {
    "b": "SQL",
-   "q": "SQL'da natijalarni saralash uchun qaysi ibora ishlatiladi?",
+   "q": "WHERE shartisiz \"DELETE FROM talaba;\" buyrug'i nima qiladi?",
    "a": [
-    "ORDER BY",
-    "GROUP BY",
-    "SORT",
-    "WHERE"
+    "Jadvaldagi barcha yozuvlarni o'chiradi",
+    "Faqat birinchi yozuvni o'chiradi",
+    "Jadvalning o'zini (tuzilmasini) o'chiradi",
+    "Hech narsa qilmaydi"
    ],
-   "e": "ORDER BY ... ASC (o'suvchi) yoki DESC (kamayuvchi)."
+   "e": "Jadval tuzilmasi saqlanadi; DROP TABLE jadvalni butunlay o'chiradi."
   },
   {
    "b": "SQL",
-   "q": "Yozuvlarni guruhlash uchun qaysi ibora ishlatiladi?",
+   "q": "Jadvalni butunlay (tuzilmasi bilan) o'chirish buyrug'i qaysi?",
    "a": [
-    "GROUP BY",
-    "ORDER BY",
-    "HAVING faqat",
-    "JOIN"
+    "DROP TABLE",
+    "DELETE TABLE",
+    "REMOVE TABLE",
+    "CLEAR TABLE"
    ],
-   "e": "HAVING guruhlangan natijalarga shart qo'yadi."
+   "e": "Qaytarib bo'lmaydi."
   },
   {
    "b": "SQL",
-   "q": "Jadvaldagi yozuvlar sonini hisoblovchi agregat funksiya qaysi?",
+   "q": "Jadval tuzilmasini o'zgartirish (ustun qo'shish) buyrug'i qaysi?",
    "a": [
-    "COUNT()",
-    "SUM()",
-    "AVG()",
-    "MAX()"
+    "ALTER TABLE",
+    "UPDATE TABLE",
+    "CHANGE TABLE",
+    "MODIFY DATABASE"
    ],
-   "e": "SUM — yig'indi, AVG — o'rtacha, MAX — eng katta qiymat."
+   "e": "ALTER TABLE talaba ADD tel VARCHAR(20);"
   },
   {
    "b": "SQL",
-   "q": "Ikki jadvaldan faqat mos keladigan yozuvlarni birlashtiruvchi JOIN turi qaysi?",
+   "q": "SQL buyruqlari qanday guruhlarga bo'linadi?",
    "a": [
-    "INNER JOIN",
-    "LEFT JOIN",
-    "FULL JOIN",
-    "CROSS JOIN"
+    "DDL, DML, DCL, TCL",
+    "Faqat SELECT va INSERT",
+    "Kiritish va chiqarish",
+    "Lokal va global"
    ],
-   "e": "LEFT JOIN chap jadvalning barcha yozuvlarini qaytaradi."
+   "e": "DDL — tuzilma, DML — ma'lumotlar, DCL — huquqlar, TCL — tranzaksiyalar."
   },
   {
    "b": "SQL",
-   "q": "WHERE ism LIKE 'A%' sharti nimani tanlaydi?",
+   "q": "CREATE, ALTER, DROP buyruqlari qaysi guruhga kiradi?",
    "a": [
-    "\"A\" harfi bilan boshlanadigan ismlarni",
-    "\"A\" bilan tugaydigan ismlarni",
-    "Aynan \"A%\" matnini",
-    "Ichida \"A\" bo'lmagan ismlarni"
+    "DDL",
+    "DML",
+    "DCL",
+    "TCL"
    ],
-   "e": "% — istalgan sondagi belgilar."
+   "e": "Data Definition Language."
   },
   {
    "b": "SQL",
-   "q": "Yangi jadval yaratish uchun qaysi buyruq ishlatiladi?",
+   "q": "SELECT, INSERT, UPDATE, DELETE qaysi guruhga kiradi?",
    "a": [
-    "CREATE TABLE",
-    "NEW TABLE",
-    "INSERT TABLE",
-    "MAKE TABLE"
+    "DML",
+    "DDL",
+    "DCL",
+    "TCL"
    ],
-   "e": "DROP TABLE — jadvalni o'chiradi."
+   "e": "Data Manipulation Language."
   },
   {
    "b": "SQL",
-   "q": "Takrorlanuvchi qiymatlarni natijadan chiqarib tashlash uchun qaysi kalit so'z ishlatiladi?",
+   "q": "GRANT va REVOKE buyruqlari nima uchun ishlatiladi?",
    "a": [
-    "DISTINCT",
-    "UNIQUE",
-    "LIMIT",
-    "ONLY"
+    "Foydalanuvchi huquqlarini berish va olish",
+    "Jadval yaratish, uning tuzilmasini o'zgartirish va o'chirish",
+    "Yozuvlarni qo'shish va o'chirish",
+    "Tranzaksiyani tasdiqlash"
    ],
-   "e": "SELECT DISTINCT shahar FROM talabalar."
+   "e": "DCL guruhi."
+  },
+  {
+   "b": "SQL",
+   "q": "Agregat funksiyalarga qaysilar kiradi?",
+   "a": [
+    "COUNT, SUM, AVG, MIN, MAX",
+    "SELECT, FROM, WHERE",
+    "INSERT, UPDATE, DELETE",
+    "CREATE, DROP, ALTER"
+   ],
+   "e": "Bir nechta qatordan bitta qiymat hisoblaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT COUNT(*) FROM talaba;\" nima qaytaradi?",
+   "a": [
+    "Jadvaldagi yozuvlar sonini",
+    "Ustunlar sonini",
+    "Birinchi yozuvni",
+    "Jadval nomini"
+   ],
+   "e": "COUNT(ustun) NULL bo'lmaganlarni sanaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "GROUP BY nima uchun ishlatiladi?",
+   "a": [
+    "Qatorlarni guruhlab, har guruh uchun agregat hisoblash uchun",
+    "Natijani alifbo bo'yicha saralash va takrorlanuvchilarni ajratish uchun",
+    "Jadvallarni birlashtirish uchun",
+    "Takrorlanuvchi qatorlarni o'chirish uchun"
+   ],
+   "e": "SELECT guruh, COUNT(*) FROM talaba GROUP BY guruh;"
+  },
+  {
+   "b": "SQL",
+   "q": "HAVING va WHERE ning farqi nima?",
+   "a": [
+    "HAVING guruhlangan natijaga shart qo'yadi",
+    "HAVING faqat jadval yaratishda ishlatiladi",
+    "WHERE faqat agregat funksiyalar bilan ishlaydi",
+    "Farqi yo'q"
+   ],
+   "e": "WHERE guruhlashdan oldin qatorlarni filtrlaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "LIKE 'A%' sharti nimani tanlaydi?",
+   "a": [
+    "A harfi bilan boshlanuvchi qiymatlarni",
+    "A harfi bilan tugaydigan va undan oldin istalgan belgi bo'lgan qiymatlarni",
+    "Faqat \"A%\" matnini",
+    "A harfi bo'lmagan qiymatlarni"
+   ],
+   "e": "% — istalgan belgilar ketma-ketligi, _ — bitta belgi."
+  },
+  {
+   "b": "SQL",
+   "q": "BETWEEN 10 AND 20 sharti qaysi qiymatlarni qamrab oladi?",
+   "a": [
+    "10 dan 20 gacha (chegaralar bilan)",
+    "10 dan 20 gacha, chegaralarsiz",
+    "Faqat 10 va 20",
+    "10 dan kichik va 20 dan katta"
+   ],
+   "e": "BETWEEN chegaraviy qiymatlarni o'z ichiga oladi."
+  },
+  {
+   "b": "SQL",
+   "q": "NULL qiymatni tekshirish qanday yoziladi?",
+   "a": [
+    "IS NULL",
+    "= NULL",
+    "== NULL",
+    "EQUALS NULL"
+   ],
+   "e": "NULL bilan = taqqoslash har doim noma'lum (UNKNOWN) natija beradi."
+  },
+  {
+   "b": "SQL",
+   "q": "IN operatori nima uchun ishlatiladi?",
+   "a": [
+    "Qiymat ro'yxatdagi qiymatlardan biriga tengligini tekshirish",
+    "Jadvalga yangi qator qo'shib, unga ro'yxatdagi qiymatlarni yozish",
+    "Jadvallarni birlashtirish",
+    "Natijani saralash"
+   ],
+   "e": "WHERE shahar IN ('Toshkent', 'Samarqand')."
+  },
+  {
+   "b": "SQL",
+   "q": "INNER JOIN nima qaytaradi?",
+   "a": [
+    "Ikkala jadvalda mos keluvchi qatorlarni",
+    "Birinchi jadvalning barcha qatorlarini, moslik bo'lmasa ham",
+    "Ikkala jadvalning barcha qatorlarini",
+    "Faqat mos kelmaydigan qatorlarni"
+   ],
+   "e": "Shart ON orqali beriladi."
+  },
+  {
+   "b": "SQL",
+   "q": "LEFT JOIN nima qaytaradi?",
+   "a": [
+    "Chap jadvalning barcha qatorlari va o'ngdan mos kelganlarini",
+    "Faqat ikkala jadvalda mos kelganlarni, xuddi INNER JOIN kabi",
+    "O'ng jadvalning barcha qatorlarini",
+    "Faqat chap jadvaldagi mos kelmaganlarni"
+   ],
+   "e": "Mos kelmagan joylarda NULL bo'ladi."
+  },
+  {
+   "b": "SQL",
+   "q": "LIMIT 5 (yoki TOP 5) nima qiladi?",
+   "a": [
+    "Natijada faqat 5 ta qatorni qoldiradi",
+    "Jadvalga 5 ta qator qo'shadi",
+    "5-ustunni tanlaydi",
+    "5 ta jadvalni birlashtiradi"
+   ],
+   "e": "Sahifalash uchun OFFSET bilan ishlatiladi."
+  },
+  {
+   "b": "SQL",
+   "q": "AS kalit so'zi nima uchun ishlatiladi?",
+   "a": [
+    "Ustun yoki jadvalga taxallus (alias) berish",
+    "Yangi jadval yaratib, unga so'rov natijasini nusxalash",
+    "Ma'lumotlarni o'chirish",
+    "Tranzaksiyani tasdiqlash"
+   ],
+   "e": "SELECT COUNT(*) AS soni FROM talaba;"
+  },
+  {
+   "b": "SQL",
+   "q": "Ichma-ich so'rov (subquery) nima?",
+   "a": [
+    "Boshqa so'rov ichida yozilgan SELECT",
+    "Ikki jadvalni o'chiruvchi buyruq",
+    "Faqat INSERT ichidagi qiymat",
+    "Indeks turi"
+   ],
+   "e": "WHERE ball > (SELECT AVG(ball) FROM natija)."
+  },
+  {
+   "b": "SQL",
+   "q": "UNION operatori nima qiladi?",
+   "a": [
+    "Ikki so'rov natijalarini birlashtirib, takrorlarni olib tashlaydi",
+    "Ikki jadvalni ustunlar bo'yicha yonma-yon qo'shib, kengroq jadval hosil qiladi",
+    "Faqat umumiy qatorlarni qaytaradi",
+    "Jadvalni o'chiradi"
+   ],
+   "e": "UNION ALL takrorlarni saqlaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "VIEW (ko'rinish) nima?",
+   "a": [
+    "Saqlangan so'rovga asoslangan virtual jadval",
+    "Jadvalning diskda saqlanadigan fizik nusxasi (zaxira)",
+    "Grafik interfeys oynasi",
+    "Indeks turi"
+   ],
+   "e": "Murakkab so'rovlarni soddalashtiradi va kirishni cheklaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "Indeks nima uchun yaratiladi?",
+   "a": [
+    "Qidiruv va tanlashni tezlashtirish uchun",
+    "Jadval hajmini kamaytirish va ma'lumotlarni siqish uchun",
+    "Ma'lumotlarni shifrlash uchun",
+    "Jadvalni o'chirish uchun"
+   ],
+   "e": "Lekin yozish amallarini biroz sekinlashtiradi."
   },
   {
    "b": "Normallashtirish",
    "q": "Normallashtirishning asosiy maqsadi nima?",
    "a": [
-    "Ma'lumotlar takrorlanishini (ortiqchaligini) kamaytirish va anomaliyalarni bartaraf etish",
-    "Jadvallar sonini kamaytirish har doim",
-    "Ma'lumotni shifrlash",
-    "So'rovlarni sekinlashtirish"
+    "Ortiqchalik va anomaliyalarni kamaytirish",
+    "Jadvallar sonini kamaytirib, barcha ma'lumotlarni bitta katta jadvalga yig'ish",
+    "So'rovlarni har doim tezlashtirish",
+    "Ma'lumotlarni shifrlash"
    ],
-   "e": "Normal shakllar: 1NF, 2NF, 3NF, BCNF..."
+   "e": "Jadvallar mantiqiy qismlarga ajratiladi."
   },
   {
    "b": "Normallashtirish",
-   "q": "Birinchi normal shakl (1NF) talabi qaysi?",
+   "q": "Birinchi normal forma (1NF) talabi qaysi?",
    "a": [
-    "Har bir katakda faqat bitta atomar qiymat bo'lishi",
-    "Tashqi kalitlar bo'lmasligi",
-    "Jadvalda bitta ustun bo'lishi",
-    "Kalit bo'lmasligi"
+    "Barcha atributlar atomar (bo'linmas) qiymatlarga ega",
+    "Jadvalda tashqi kalit albatta bo'lishi va u boshqa jadvalga murojaat qilishi",
+    "Tranzitiv bog'liqliklar yo'qligi",
+    "Jadvalda faqat bitta ustun bo'lishi"
    ],
-   "e": "Takrorlanuvchi guruhlar va ro'yxatli qiymatlar bo'lmasligi kerak."
+   "e": "Bir katakda bir nechta qiymat saqlanmaydi."
   },
   {
    "b": "Normallashtirish",
-   "q": "Uchinchi normal shakl (3NF) qanday bog'liqlikni bartaraf etadi?",
+   "q": "Ikkinchi normal forma (2NF) talabi qaysi?",
    "a": [
-    "Kalit bo'lmagan atributlarning tranzitiv bog'liqligini",
-    "Atomar bo'lmagan qiymatlarni",
-    "Birlamchi kalitni",
-    "Barcha bog'lanishlarni"
+    "1NF da bo'lish va kalit bo'lmagan atributlar to'liq kalitga bog'liq bo'lishi",
+    "Faqat atomar qiymatlar bo'lishi yetarli",
+    "Kalit bo'lmagan atributlar bir-biriga bog'liq bo'lmasligi, ya'ni tranzitiv bog'liqlikning yo'qligi",
+    "Jadvalda bitta qator bo'lishi"
    ],
-   "e": "Har bir kalit bo'lmagan atribut faqat kalitga bog'liq bo'lishi kerak."
+   "e": "Tarkibiy kalitning bir qismiga bog'liqlik bartaraf etiladi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Uchinchi normal forma (3NF) talabi qaysi?",
+   "a": [
+    "2NF da bo'lish va tranzitiv bog'liqliklarning yo'qligi",
+    "Faqat atomar qiymatlar",
+    "Jadvalda faqat raqamli ustunlar bo'lishi",
+    "Barcha atributlar kalit bo'lishi va jadvalda takroriy qatorlar umuman bo'lmasligi"
+   ],
+   "e": "Kalit bo'lmagan atribut boshqa kalit bo'lmagan atributga bog'liq bo'lmasligi kerak."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Funksional bog'liqlik A → B nimani bildiradi?",
+   "a": [
+    "A qiymati B qiymatini bir ma'noli aniqlaydi",
+    "B qiymati har doim A dan katta bo'lib, ular sonli ustunlar ekanligi",
+    "A va B bir xil ustun",
+    "A va B jadvallari bog'lanmagan"
+   ],
+   "e": "Masalan, talaba_id → ism."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Tranzitiv bog'liqlikka misol qaysi?",
+   "a": [
+    "talaba_id → guruh_id → kurator",
+    "talaba_id → ism",
+    "(talaba_id, fan_id) → baho",
+    "ism → ism"
+   ],
+   "e": "kurator talaba_id ga guruh orqali bilvosita bog'liq."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Bir katakda \"Matematika, Fizika\" kabi bir nechta qiymat saqlash qaysi normal formani buzadi?",
+   "a": [
+    "1NF",
+    "2NF",
+    "3NF",
+    "BCNF faqat"
+   ],
+   "e": "Har bir fan alohida qatorda bo'lishi kerak."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Yangilash anomaliyasi nima?",
+   "a": [
+    "Bir faktni o'zgartirish uchun ko'p qatorni yangilash zarurati",
+    "Jadvalga yangi ustun qo'sha olmaslik va tuzilmani o'zgartirish imkonsizligi",
+    "Jadvalning o'chib ketishi",
+    "Indeksning ishlamasligi"
+   ],
+   "e": "Bir joyda yangilanib, boshqa joyda unutilsa, ziddiyat paydo bo'ladi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Qo'shish anomaliyasi nima?",
+   "a": [
+    "Bog'liq bo'lmagan ma'lumot yo'qligi sababli yozuv qo'sha olmaslik",
+    "Bir xil yozuvni ikki marta qo'shish va dublikatlar paydo bo'lishi",
+    "Jadvalga ustun qo'shish",
+    "So'rovning sekin ishlashi"
+   ],
+   "e": "Masalan, talabasi yo'q yangi guruhni kiritib bo'lmasligi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "O'chirish anomaliyasi nima?",
+   "a": [
+    "Bir yozuvni o'chirganda boshqa kerakli ma'lumot ham yo'qolishi",
+    "Yozuvni umuman o'chira olmaslik",
+    "O'chirilgan yozuvning keyingi so'rovda qayta paydo bo'lishi",
+    "Jadval hajmining oshishi"
+   ],
+   "e": "Masalan, oxirgi talabani o'chirganda guruh haqidagi ma'lumot yo'qoladi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Boyse–Kodd normal formasi (BCNF) nima talab qiladi?",
+   "a": [
+    "Har bir determinant nomzod kalit bo'lishi",
+    "Jadvalda faqat bitta ustun bo'lishi",
+    "Kalitlar umuman bo'lmasligi va barcha ustunlar teng huquqli bo'lishi",
+    "Barcha qiymatlar NULL bo'lishi"
+   ],
+   "e": "3NF ning kuchaytirilgan shakli."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Denormallashtirish nima uchun qo'llaniladi?",
+   "a": [
+    "O'qish tezligini oshirish uchun",
+    "Ma'lumotlar yaxlitligini maksimal darajada oshirish uchun",
+    "Barcha ortiqchalikni butunlay yo'qotish uchun",
+    "Jadvallarni o'chirish uchun"
+   ],
+   "e": "Hisobotlar va tahliliy tizimlarda ishlatiladi."
   },
   {
    "b": "Loyihalash",
    "q": "ER-diagramma nimani tasvirlaydi?",
    "a": [
-    "Mohiyatlar va ular orasidagi bog'lanishlarni",
-    "Dastur algoritmini",
-    "Tarmoq topologiyasini",
-    "Elektr sxemani"
+    "Mohiyatlar va ular orasidagi munosabatlarni",
+    "Kompyuter tarmog'i sxemasini va marshrutizatorlar joylashuvini",
+    "Dastur kodining blok-sxemasini",
+    "Server xonasining rejasi"
    ],
-   "e": "ER — Entity-Relationship (mohiyat-bog'lanish)."
+   "e": "Entity-Relationship — mohiyat-munosabat modeli."
   },
   {
    "b": "Loyihalash",
-   "q": "Jadvaldagi ustun boshqacha qanday ataladi?",
+   "q": "Mohiyat (entity) nima?",
    "a": [
-    "Maydon (atribut)",
-    "Yozuv (kortej)",
-    "Kalit",
-    "Indeks"
+    "Ma'lumot saqlanadigan real obyekt yoki tushuncha",
+    "Jadvaldagi bitta katak va undagi qiymat turi",
+    "SQL buyrug'i",
+    "Indeks turi"
    ],
-   "e": "Qator — yozuv yoki kortej deb ataladi."
+   "e": "Masalan, Talaba, Fan, O'qituvchi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "\"Bir-ko'p\" (1:N) munosabatiga misol qaysi?",
+   "a": [
+    "Bir guruhda ko'p talaba",
+    "Bir talabaning bitta pasporti",
+    "Ko'p talaba ko'p fanni o'qiydi",
+    "Bir talaba bir guruhda va guruhda bitta talaba"
+   ],
+   "e": "Tashqi kalit \"ko'p\" tomonidagi jadvalga qo'yiladi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "\"Ko'p-ko'p\" (M:N) munosabati relyatsion MB da qanday amalga oshiriladi?",
+   "a": [
+    "Oraliq (bog'lovchi) jadval orqali",
+    "Bitta jadvalga barcha ma'lumotni yozib",
+    "Tashqi kalitsiz",
+    "Indeks orqali faqat"
+   ],
+   "e": "Masalan, talaba_fan(talaba_id, fan_id)."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "\"Bir-bir\" (1:1) munosabatiga misol qaysi?",
+   "a": [
+    "Fuqaro va uning pasporti",
+    "Guruh va talabalar",
+    "O'qituvchi va darslar",
+    "Do'kon va mahsulotlar"
+   ],
+   "e": "Har bir fuqaroda bitta pasport."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Ma'lumotlar bazasini loyihalash bosqichlari tartibi qaysi?",
+   "a": [
+    "Konseptual, mantiqiy, fizik",
+    "Fizik, konseptual, mantiqiy",
+    "Mantiqiy, fizik, konseptual",
+    "Faqat fizik"
+   ],
+   "e": "Konseptual — ER model, mantiqiy — jadvallar, fizik — MBBT da realizatsiya."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Fizik loyihalash bosqichida nima aniqlanadi?",
+   "a": [
+    "Ma'lumot turlari, indekslar va saqlash parametrlari",
+    "Faqat foydalanuvchi talablari va biznes jarayonlarining matnli tavsifi",
+    "Faqat mohiyatlar nomlari",
+    "Faqat biznes jarayonlari"
+   ],
+   "e": "Aniq MBBT imkoniyatlari hisobga olinadi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Ustun uchun VARCHAR(50) turi nimani bildiradi?",
+   "a": [
+    "Uzunligi 50 belgigacha o'zgaruvchan satr",
+    "Aniq 50 ta raqamdan iborat butun son, kasr qismisiz",
+    "50 baytlik rasm",
+    "50 qatorli jadval"
+   ],
+   "e": "CHAR(50) — qat'iy uzunlikdagi satr."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Sana uchun mos ma'lumot turi qaysi?",
+   "a": [
+    "DATE",
+    "VARCHAR har doim",
+    "INT faqat",
+    "BOOLEAN"
+   ],
+   "e": "DATETIME / TIMESTAMP vaqtni ham saqlaydi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Pul summalarini saqlash uchun qaysi tur mosroq?",
+   "a": [
+    "DECIMAL",
+    "FLOAT, chunki u yaxlitlash xatosiz aniq hisoblaydi",
+    "VARCHAR",
+    "BOOLEAN"
+   ],
+   "e": "DECIMAL aniq o'nli kasr saqlaydi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "AUTO_INCREMENT (yoki SERIAL) xususiyati nima beradi?",
+   "a": [
+    "Yangi yozuvga avtomatik o'suvchi raqam beradi",
+    "Jadvalni avtomatik zaxiralaydi",
+    "So'rovlarni tezlashtiradi har doim",
+    "Ustunni yashiradi"
+   ],
+   "e": "Odatda birlamchi kalit uchun ishlatiladi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Surrogat kalit nima?",
+   "a": [
+    "Ma'nosiz sun'iy identifikator (masalan, id)",
+    "Real hayotdagi ma'noli atribut (masalan, pasport raqami)",
+    "Tashqi kalit faqat",
+    "Indeks nomi"
+   ],
+   "e": "Tabiiy kalit — real ma'noli atribut."
   },
   {
    "b": "Ishonchlilik",
-   "q": "Tranzaksiyalarning ACID xossalaridagi \"A\" (Atomicity) nimani bildiradi?",
+   "q": "Tranzaksiya nima?",
+   "a": [
+    "Bir butun sifatida bajariladigan amallar ketma-ketligi",
+    "Bitta SELECT so'rovi",
+    "Jadval yaratish buyrug'i faqat, boshqa SQL buyruqlarisiz",
+    "MB fayli"
+   ],
+   "e": "Yoki hammasi bajariladi, yoki hech biri."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "ACID tamoyillari qaysilar?",
+   "a": [
+    "Atomarlik, izchillik, izolyatsiya, chidamlilik",
+    "Kirish, nazorat, indeks, ma'lumot",
+    "Algoritm, kod, interfeys, dizayn",
+    "Avtomatlashtirish, nusxalash, integratsiya, diagnostika"
+   ],
+   "e": "Atomicity, Consistency, Isolation, Durability."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Tranzaksiyani tasdiqlash buyrug'i qaysi?",
+   "a": [
+    "COMMIT",
+    "ROLLBACK",
+    "SAVE",
+    "END"
+   ],
+   "e": "ROLLBACK — bekor qilish."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "ROLLBACK buyrug'i nima qiladi?",
+   "a": [
+    "Tranzaksiyadagi o'zgarishlarni bekor qiladi",
+    "O'zgarishlarni doimiy saqlaydi",
+    "Jadvalni o'chiradi",
+    "Yangi jadval yaratadi"
+   ],
+   "e": "MB tranzaksiyadan oldingi holatga qaytadi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "\"Atomarlik\" tamoyili nimani anglatadi?",
    "a": [
     "Tranzaksiya to'liq bajariladi yoki umuman bajarilmaydi",
-    "Tranzaksiya tez bajariladi",
-    "Ma'lumot shifrlanadi",
-    "Bir nechta foydalanuvchi ishlaydi"
+    "Ma'lumotlar atomlarga bo'linib, har biri alohida faylda saqlanadi",
+    "Har bir jadvalda bitta ustun bo'ladi",
+    "Tranzaksiya juda tez bajariladi"
    ],
-   "e": "C — yaxlitlik, I — izolyatsiya, D — barqarorlik."
+   "e": "Masalan, pul o'tkazmasida ikki hisob bir vaqtda o'zgaradi."
   },
   {
    "b": "Ishonchlilik",
-   "q": "Indeksning asosiy vazifasi nima?",
+   "q": "\"Chidamlilik\" (durability) tamoyili nimani anglatadi?",
    "a": [
-    "Ma'lumotlarni qidirishni tezlashtirish",
-    "Ma'lumotni o'chirish",
-    "Jadvalni shifrlash",
-    "Zaxira nusxa olish"
+    "Tasdiqlangan o'zgarishlar nosozlikdan keyin ham saqlanadi",
+    "Ma'lumotlar hech qachon o'zgartirilmaydi",
+    "MB faqat bitta foydalanuvchi bilan ishlaydi va parallel kirish taqiqlanadi",
+    "Tranzaksiyalar parallel bajarilmaydi"
    ],
-   "e": "Indeks yozish amallarini biroz sekinlashtirishi mumkin."
+   "e": "Jurnal (log) yordamida ta'minlanadi."
   },
   {
    "b": "Ishonchlilik",
-   "q": "SQL inyeksiya hujumidan himoyalanishning to'g'ri usuli qaysi?",
+   "q": "Tranzaksiyalarni izolyatsiya qilish nimani oldini oladi?",
    "a": [
-    "Parametrlashtirilgan (tayyorlangan) so'rovlardan foydalanish",
-    "Foydalanuvchi kiritgan matnni to'g'ridan-to'g'ri so'rovga qo'shish",
-    "Parolni ochiq saqlash",
-    "Barcha xatolarni yashirish"
+    "Parallel tranzaksiyalarning bir-biriga noto'g'ri ta'sirini",
+    "MB ga tarmoq orqali kirishni",
+    "Jadval yaratishni",
+    "Indeks qurishni"
    ],
-   "e": "Parametrlar so'rov matnidan alohida uzatiladi."
+   "e": "Izolyatsiya darajalari: READ COMMITTED, SERIALIZABLE va h.k."
   },
   {
    "b": "Ishonchlilik",
-   "q": "Ma'lumotlar bazasidan zaxira nusxa olishning maqsadi nima?",
+   "q": "Tupik (deadlock) nima?",
+   "a": [
+    "Ikki tranzaksiya bir-birining blokirovkasini kutib qolishi",
+    "MB ning juda tez ishlashi",
+    "Jadvalda bo'sh qatorlar paydo bo'lishi",
+    "Zaxira nusxaning muvaffaqiyatli yaratilishi va uning tekshirilishi"
+   ],
+   "e": "MBBT tranzaksiyalardan birini bekor qilib hal qiladi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Ma'lumotlar yaxlitligi cheklovlariga qaysilar kiradi?",
+   "a": [
+    "PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL",
+    "SELECT, WHERE, ORDER BY",
+    "COMMIT, ROLLBACK",
+    "GRANT, REVOKE"
+   ],
+   "e": "Noto'g'ri ma'lumot kiritilishiga yo'l qo'ymaydi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "CHECK cheklovi nima qiladi?",
+   "a": [
+    "Qiymatning berilgan shartga mosligini tekshiradi",
+    "Jadvalni zaxiralaydi",
+    "Ustunni yashiradi",
+    "So'rovni tezlashtiradi"
+   ],
+   "e": "CHECK (yosh >= 16)."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "ON DELETE CASCADE nima qiladi?",
+   "a": [
+    "Ota yozuv o'chirilganda bog'liq yozuvlarni ham o'chiradi",
+    "O'chirishni butunlay taqiqlaydi",
+    "Bog'liq yozuvlarni o'chirmasdan, ularni boshqa jadvalga ko'chiradi",
+    "Ota yozuvni qayta tiklaydi"
+   ],
+   "e": "Havola yaxlitligini saqlash usullaridan biri."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Zaxira nusxa (backup) olishning maqsadi nima?",
    "a": [
     "Nosozlik yoki xatodan keyin ma'lumotlarni tiklash",
-    "So'rovlarni tezlashtirish",
-    "Jadvallarni birlashtirish",
-    "Foydalanuvchilarni ko'paytirish"
+    "MB ishlashini tezlashtirish",
+    "Ma'lumotlarni o'chirish",
+    "Foydalanuvchilar sonini oshirish"
    ],
-   "e": "Zaxira nusxalar muntazam olinishi va tiklash sinab ko'rilishi kerak."
+   "e": "To'liq va inkremental zaxiralar mavjud."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "SQL in'eksiyasi (SQL injection) nima?",
+   "a": [
+    "Kiritish maydoni orqali zararli SQL kodini bajartirish hujumi",
+    "MB ga yangi jadval qo'shish usuli",
+    "So'rovni optimallashtirish va uning bajarilish rejasini tuzish usuli",
+    "Indeks qurish usuli"
+   ],
+   "e": "Parametrlashtirilgan so'rovlar bu hujumdan himoya qiladi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "SQL in'eksiyasidan himoyaning asosiy usuli qaysi?",
+   "a": [
+    "Parametrlashtirilgan (tayyorlangan) so'rovlar",
+    "Foydalanuvchi kiritgan matnni to'g'ridan-to'g'ri so'rovga qo'shish",
+    "Parollarni ochiq saqlash",
+    "Barcha foydalanuvchilarga to'liq huquq berish"
+   ],
+   "e": "Kiritilgan qiymat kod sifatida emas, ma'lumot sifatida ishlanadi."
   },
   {
    "b": "NoSQL",
-   "q": "Hujjatlarga yo'naltirilgan NoSQL MBBTga misol qaysi?",
+   "q": "NoSQL ma'lumotlar bazalarining asosiy xususiyati nima?",
+   "a": [
+    "Qat'iy jadval sxemasiz moslashuvchan ma'lumot modeli",
+    "Faqat SQL tilida ishlashi va jadvallarning qat'iy bog'lanishi",
+    "Faqat bitta foydalanuvchi uchun mo'ljallanganligi",
+    "Ma'lumotlarni faqat qog'ozda saqlashi"
+   ],
+   "e": "Katta hajm va gorizontal masshtablash uchun qulay."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Hujjatga yo'naltirilgan NoSQL bazaga misol qaysi?",
    "a": [
     "MongoDB",
-    "MySQL",
     "PostgreSQL",
-    "MS Access"
+    "MySQL",
+    "Oracle"
    ],
-   "e": "MongoDB ma'lumotlarni JSON'ga o'xshash hujjatlar ko'rinishida saqlaydi."
+   "e": "Hujjatlar JSON (BSON) ko'rinishida saqlanadi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Kalit-qiymat turidagi NoSQL bazaga misol qaysi?",
+   "a": [
+    "Redis",
+    "MongoDB",
+    "Neo4j",
+    "SQLite"
+   ],
+   "e": "Kesh va sessiyalarni saqlashda keng qo'llaniladi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Graf ma'lumotlar bazasiga misol qaysi?",
+   "a": [
+    "Neo4j",
+    "Redis",
+    "MySQL",
+    "Cassandra"
+   ],
+   "e": "Ijtimoiy tarmoqlar va tavsiya tizimlarida."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Ustunli (column-family) NoSQL bazaga misol qaysi?",
+   "a": [
+    "Cassandra",
+    "Redis",
+    "Neo4j",
+    "SQLite"
+   ],
+   "e": "Katta hajmdagi taqsimlangan ma'lumotlar uchun."
+  },
+  {
+   "b": "NoSQL",
+   "q": "MongoDB da jadval o'rniga nima ishlatiladi?",
+   "a": [
+    "Kolleksiya",
+    "Satr",
+    "Indeks",
+    "Sxema"
+   ],
+   "e": "Kolleksiya hujjatlardan iborat."
+  },
+  {
+   "b": "NoSQL",
+   "q": "JSON formati qanday ko'rinishda ma'lumot saqlaydi?",
+   "a": [
+    "Kalit-qiymat juftliklari va massivlar",
+    "Faqat ikkilik kod ko'rinishida, matn muharririda o'qib bo'lmaydigan",
+    "Faqat jadval qatorlari",
+    "Faqat rasm"
+   ],
+   "e": "{\"ism\": \"Ali\", \"yosh\": 19}."
+  },
+  {
+   "b": "NoSQL",
+   "q": "CAP teoremasi nimani ta'kidlaydi?",
+   "a": [
+    "Taqsimlangan tizim bir vaqtda izchillik, foydalanuvchanlik va bo'linishga chidamlilikning ikkitasini ta'minlay oladi",
+    "Har qanday MB uchala xossani ham to'liq va bir vaqtda kafolatlaydi",
+    "MB faqat bitta serverda ishlashi kerak",
+    "SQL har doim NoSQL dan tezroq"
+   ],
+   "e": "Consistency, Availability, Partition tolerance."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Gorizontal masshtablash nima?",
+   "a": [
+    "Yangi serverlar qo'shib, yuklamani taqsimlash",
+    "Bitta serverning protsessor va xotirasini kuchaytirish",
+    "Jadvalga yangi ustun qo'shish",
+    "Ma'lumotlarni o'chirish"
+   ],
+   "e": "Vertikal masshtablash — bitta serverni kuchaytirish."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Sharding nima?",
+   "a": [
+    "Ma'lumotlarni bir nechta serverga bo'lib taqsimlash",
+    "Ma'lumotlarni shifrlash va ularni kalit bilan himoyalash",
+    "Jadvallarni birlashtirish",
+    "Zaxira nusxa olish"
+   ],
+   "e": "Har bir shard ma'lumotlarning bir qismini saqlaydi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Replikatsiya nima?",
+   "a": [
+    "Ma'lumotlar nusxasini bir nechta serverda saqlash",
+    "Ma'lumotlarni butunlay o'chirib, yangisini yozish",
+    "So'rovni optimallashtirish",
+    "Jadval tuzilmasini o'zgartirish"
+   ],
+   "e": "Ishonchlilik va o'qish tezligini oshiradi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Qachon relyatsion MB NoSQL dan afzalroq?",
+   "a": [
+    "Murakkab bog'lanishlar va qat'iy tranzaksiyalar kerak bo'lganda",
+    "Sxemasiz, tez o'zgaruvchan va juda katta hajmli, taqsimlangan ma'lumotlarda",
+    "Faqat kesh saqlash uchun",
+    "Faqat rasm saqlash uchun"
+   ],
+   "e": "Masalan, bank tizimlari."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT ism FROM talaba WHERE yosh >= 18 ORDER BY ism;\" so'rovi nima qaytaradi?",
+   "a": [
+    "18 yosh va undan kattalar ismlari alifbo tartibida",
+    "Barcha talabalar ismlari tasodifiy tartibda, yoshidan qat'i nazar",
+    "18 yoshdan kichiklar ismlari",
+    "Faqat talabalar soni"
+   ],
+   "e": "ORDER BY standart tartibi — o'sish (ASC)."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT AVG(ball) FROM natija;\" nima qaytaradi?",
+   "a": [
+    "O'rtacha ballni",
+    "Eng yuqori ballni",
+    "Ballar yig'indisini",
+    "Yozuvlar sonini"
+   ],
+   "e": "AVG — o'rta arifmetik."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT MAX(narx) FROM mahsulot;\" nima qaytaradi?",
+   "a": [
+    "Eng yuqori narxni",
+    "Eng past narxni",
+    "O'rtacha narxni",
+    "Narxlar yig'indisini"
+   ],
+   "e": "MIN — eng kichik qiymat."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT guruh, COUNT(*) FROM talaba GROUP BY guruh HAVING COUNT(*) > 25;\" nima qaytaradi?",
+   "a": [
+    "Talabalari 25 dan ko'p bo'lgan guruhlar va ularning soni",
+    "Barcha talabalar ro'yxati va ularning guruhlari bo'yicha tartibi",
+    "25 ta talabaning ismi",
+    "Guruhlar sonini"
+   ],
+   "e": "HAVING guruhlarga shart qo'yadi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM talaba WHERE ism LIKE '_li';\" qaysi ismni tanlaydi?",
+   "a": [
+    "Ali",
+    "Alisher",
+    "Vali",
+    "Salim"
+   ],
+   "e": "_ aynan bitta belgi: \"Ali\" — 3 harfli, 'li' bilan tugaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "Ikki jadvalni bog'lashda ON qismida odatda nima yoziladi?",
+   "a": [
+    "Birlamchi va tashqi kalitlar tengligi",
+    "Jadval nomlari faqat",
+    "Saralash tartibi va natijada ko'rsatiladigan ustunlar ro'yxati",
+    "Agregat funksiya"
+   ],
+   "e": "... JOIN guruh ON talaba.guruh_id = guruh.id."
+  },
+  {
+   "b": "SQL",
+   "q": "\"CREATE TABLE fan (id INT PRIMARY KEY, nomi VARCHAR(100) NOT NULL);\" so'rovida NOT NULL nimani bildiradi?",
+   "a": [
+    "nomi maydoni bo'sh qolishi mumkin emas",
+    "nomi maydoni noyob bo'lishi va takrorlanmasligi shart",
+    "nomi maydoni raqam bo'lishi shart",
+    "nomi maydoni avtomatik to'ldiriladi"
+   ],
+   "e": "UNIQUE — noyoblik cheklovi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"UPDATE mahsulot SET narx = narx * 1.1;\" nima qiladi?",
+   "a": [
+    "Barcha mahsulotlar narxini 10% oshiradi",
+    "Faqat birinchi mahsulot narxini oshiradi",
+    "Narxlarni 1,1 ga tenglaydi",
+    "Narxlarni 10% kamaytiradi"
+   ],
+   "e": "WHERE yo'qligi sababli barcha qatorlar yangilanadi."
+  },
+  {
+   "b": "SQL",
+   "q": "COUNT(ustun) va COUNT(*) farqi nima?",
+   "a": [
+    "COUNT(ustun) NULL qiymatlarni sanamaydi",
+    "COUNT(*) faqat raqamli ustunlarni sanaydi",
+    "Ular har doim turli natija beradi",
+    "COUNT(ustun) jadvalni o'chiradi"
+   ],
+   "e": "COUNT(*) barcha qatorlarni sanaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "FULL OUTER JOIN nima qaytaradi?",
+   "a": [
+    "Ikkala jadvalning barcha qatorlarini, mos kelmaganlarida NULL bilan",
+    "Faqat ikkala jadvalda mos kelgan qatorlarni, xuddi INNER JOIN kabi",
+    "Faqat chap jadval qatorlarini",
+    "Hech narsa qaytarmaydi"
+   ],
+   "e": "LEFT va RIGHT JOIN birlashmasi kabi."
+  },
+  {
+   "b": "SQL",
+   "q": "CROSS JOIN natijasidagi qatorlar soni qanday?",
+   "a": [
+    "Ikki jadval qatorlari soni ko'paytmasi",
+    "Ikki jadval qatorlari soni yig'indisi",
+    "Kichikroq jadval qatorlari soni",
+    "Har doim 1"
+   ],
+   "e": "Dekart ko'paytma."
+  },
+  {
+   "b": "SQL",
+   "q": "Saqlanuvchi protsedura (stored procedure) nima?",
+   "a": [
+    "MB serverida saqlanadigan va chaqiriladigan SQL dastur bloki",
+    "Mijoz kompyuterida saqlanadigan va har safar qo'lda ochiladigan matnli fayl",
+    "Jadvalning zaxira nusxasi",
+    "Indeks turi"
+   ],
+   "e": "Takroriy amallarni samarali bajaradi."
+  },
+  {
+   "b": "SQL",
+   "q": "Trigger (MB da) nima?",
+   "a": [
+    "Ma'lum hodisada avtomatik bajariladigan protsedura",
+    "Foydalanuvchi qo'lda chaqiradigan oddiy so'rov va uning natijasi",
+    "Jadval nomi",
+    "Ma'lumot turi"
+   ],
+   "e": "Masalan, INSERT dan keyin jurnalga yozish."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT CONCAT(ism, ' ', familiya) FROM talaba;\" nima qaytaradi?",
+   "a": [
+    "Ism va familiyani bo'sh joy bilan birlashtirilgan holda",
+    "Faqat ismlarni",
+    "Faqat familiyalarni",
+    "Ism va familiya uzunliklari yig'indisini, ya'ni belgilar sonini"
+   ],
+   "e": "Satrlarni birlashtirish funksiyasi."
+  },
+  {
+   "b": "SQL",
+   "q": "ORDER BY ball DESC, ism ASC nima qiladi?",
+   "a": [
+    "Avval ball bo'yicha kamayish, teng ballarda ism bo'yicha o'sish tartibida saralaydi",
+    "Faqat ism bo'yicha saralaydi",
+    "Faqat ball bo'yicha o'sish tartibida saralaydi",
+    "Saralamaydi"
+   ],
+   "e": "Ko'p ustunli saralash."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar bazasi administratori (DBA) vazifasiga nima kiradi?",
+   "a": [
+    "MB ishlashi, xavfsizligi va zaxiralanishini ta'minlash",
+    "Faqat foydalanuvchilar uchun veb-sayt dizaynini chizish",
+    "Faqat kompyuterlarni ta'mirlash",
+    "Faqat hujjatlarni chop etish"
+   ],
+   "e": "Foydalanuvchilar huquqlarini boshqarish ham DBA vazifasi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Mijoz-server arxitekturasida MB qayerda joylashadi?",
+   "a": [
+    "Serverda",
+    "Har bir mijoz kompyuterida alohida nusxada",
+    "Faqat printerda",
+    "Faqat flesh-xotirada"
+   ],
+   "e": "Mijozlar so'rovlarni serverga yuboradi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar lug'ati (katalog) nima?",
+   "a": [
+    "MB obyektlari haqidagi metama'lumotlar to'plami",
+    "Foydalanuvchilar uchun atamalar izohlangan izohli lug'at",
+    "Jadvaldagi so'zlar ro'yxati",
+    "Dastur qo'llanmasi"
+   ],
+   "e": "Jadvallar, ustunlar, indekslar tavsiflari."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Metama'lumot nima?",
+   "a": [
+    "Ma'lumotlar haqidagi ma'lumot",
+    "Juda katta hajmli ma'lumot",
+    "O'chirilgan ma'lumot",
+    "Shifrlangan ma'lumot"
+   ],
+   "e": "Masalan, ustun turi va uzunligi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "ER-diagrammada mohiyatlar odatda qanday shakl bilan tasvirlanadi?",
+   "a": [
+    "To'g'ri to'rtburchak",
+    "Romb",
+    "Oval",
+    "Uchburchak"
+   ],
+   "e": "Chen notatsiyasida romb — munosabat, oval — atribut."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Kutubxona MB sida \"Kitob\" va \"O'quvchi\" orasidagi \"ijaraga olish\" munosabati qanday turda?",
+   "a": [
+    "Ko'p-ko'p (M:N)",
+    "Bir-bir (1:1)",
+    "Bir-ko'p faqat, kitobdan o'quvchiga",
+    "Munosabat yo'q"
+   ],
+   "e": "Bir kitobni ko'p o'quvchi, bir o'quvchi ko'p kitob oladi; oraliq jadval kerak."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Talaba va Guruh jadvallarida tashqi kalit qaysi jadvalga qo'yiladi?",
+   "a": [
+    "Talaba jadvaliga (guruh_id)",
+    "Guruh jadvaliga (talaba_id)",
+    "Ikkala jadvalga ham",
+    "Hech qaysi jadvalga"
+   ],
+   "e": "\"Ko'p\" tomonga."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Mohiyatning zaif (weak) turi nima?",
+   "a": [
+    "O'z birlamchi kalitiga ega bo'lmagan, boshqa mohiyatga bog'liq mohiyat",
+    "Juda kam yozuvga ega bo'lgan va kam ishlatiladigan yordamchi jadval",
+    "Indeksi yo'q jadval",
+    "O'chirilgan jadval"
+   ],
+   "e": "Masalan, buyurtma qatorlari buyurtmasiz mavjud emas."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Tranzaksiya jurnali (log) nima uchun yuritiladi?",
+   "a": [
+    "Nosozlikda o'zgarishlarni tiklash yoki bekor qilish uchun",
+    "Foydalanuvchilar ishga kelish va ketish vaqtini qayd etish uchun",
+    "So'rovlarni chiroyli formatlash uchun",
+    "Jadval nomlarini saqlash uchun"
+   ],
+   "e": "WAL — oldindan yozish jurnali."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Blokirovka (lock) mexanizmi nima uchun kerak?",
+   "a": [
+    "Bir vaqtda o'zgartirishlarda ziddiyatlarni oldini olish uchun",
+    "Jadvalni o'chirib bo'lmaydigan qilish va uni faqat o'qish rejimiga o'tkazish uchun",
+    "So'rovlarni har doim tezlashtirish uchun",
+    "Parolni saqlash uchun"
+   ],
+   "e": "Umumiy (o'qish) va eksklyuziv (yozish) blokirovkalari."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "\"Iflos o'qish\" (dirty read) nima?",
+   "a": [
+    "Hali tasdiqlanmagan o'zgarishlarni o'qish",
+    "Diskdan o'chirilgan ma'lumotni o'qish",
+    "Shifrlangan ma'lumotni o'qish",
+    "Indekssiz o'qish"
+   ],
+   "e": "READ UNCOMMITTED darajasida yuz berishi mumkin."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Foydalanuvchiga faqat o'qish huquqini berish qanday yoziladi?",
+   "a": [
+    "GRANT SELECT ON jadval TO foydalanuvchi;",
+    "GRANT ALL ON jadval TO foydalanuvchi;",
+    "REVOKE SELECT FROM jadval;",
+    "ALLOW READ jadval;"
+   ],
+   "e": "Eng kam imtiyozlar tamoyili."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Fayl tizimiga nisbatan MBBT ning afzalligi nima?",
+   "a": [
+    "Yaxlitlik, parallel kirish va tezkor izlash",
+    "Ma'lumotlarni faqat matnli fayllarda, hech qanday tuzilmasiz saqlash imkoniyati",
+    "Xotirani ko'proq sarflash",
+    "Faqat bitta foydalanuvchi bilan ishlash"
+   ],
+   "e": "MBBT ma'lumotlar mustaqilligini ta'minlaydi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlarning mantiqiy mustaqilligi nimani anglatadi?",
+   "a": [
+    "Sxema o'zgarganda ilovalarni o'zgartirmaslik imkoniyati",
+    "Ma'lumotlarni bir-biridan ajratib, alohida disklarda saqlash",
+    "Har bir jadval alohida serverda bo'lishi",
+    "Ma'lumotlarni shifrlash"
+   ],
+   "e": "Uch darajali ANSI/SPARC arxitekturasi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Relyatsion algebrada \"tanlash\" (selection) amali nima qiladi?",
+   "a": [
+    "Shartga mos qatorlarni ajratadi",
+    "Kerakli ustunlarni ajratib, qolganlarini natijadan olib tashlaydi",
+    "Ikki jadvalni birlashtiradi",
+    "Jadvalni saralaydi"
+   ],
+   "e": "SQL da WHERE ga mos."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Relyatsion algebrada \"proyeksiya\" amali nima qiladi?",
+   "a": [
+    "Kerakli ustunlarni ajratadi",
+    "Shartga mos qatorlarni ajratadi",
+    "Qatorlarni o'chiradi",
+    "Ikki jadvalni ayiradi"
+   ],
+   "e": "SQL da SELECT ustunlar ro'yxatiga mos."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "OLTP tizimlari nima uchun mo'ljallangan?",
+   "a": [
+    "Ko'p sonli qisqa tranzaksiyalarni tezkor bajarish uchun",
+    "Katta hajmdagi tarixiy ma'lumotlarni tahlil qilish va hisobotlar uchun",
+    "Faqat rasm saqlash uchun",
+    "Faqat zaxiralash uchun"
+   ],
+   "e": "OLAP — tahliliy qayta ishlash."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar ombori (data warehouse) qanday maqsadda quriladi?",
+   "a": [
+    "Tahlil va hisobotlar uchun turli manbalarni birlashtirish",
+    "Kundalik savdo tranzaksiyalarini real vaqtda qayd etish va kassani boshqarish",
+    "Faqat parollarni saqlash",
+    "Faqat fayllarni arxivlash"
+   ],
+   "e": "ETL jarayonlari orqali to'ldiriladi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM a, b;\" (shartsiz) natijasi qanday?",
+   "a": [
+    "Dekart ko'paytma",
+    "Faqat mos keluvchi qatorlar",
+    "Faqat a jadval qatorlari",
+    "Xato"
+   ],
+   "e": "CROSS JOIN ga teng."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT 10 / 4;\" ko'pchilik MBBT da (butun sonlar) qanday natija beradi?",
+   "a": [
+    "2",
+    "2.5",
+    "3",
+    "Xato"
+   ],
+   "e": "Butun bo'lish; PostgreSQL va SQL Server da shunday."
+  },
+  {
+   "b": "SQL",
+   "q": "COALESCE(a, b, c) funksiyasi nima qaytaradi?",
+   "a": [
+    "Birinchi NULL bo'lmagan qiymatni",
+    "Barcha qiymatlar yig'indisini, NULL larni nol deb hisoblab",
+    "Eng katta qiymatni",
+    "Har doim NULL"
+   ],
+   "e": "NULL o'rniga standart qiymat berishda qulay."
+  },
+  {
+   "b": "SQL",
+   "q": "CASE ifodasi SQL da nima uchun ishlatiladi?",
+   "a": [
+    "Shartga qarab turli qiymat qaytarish uchun",
+    "Yangi jadval yaratish va unga standart qiymatlar berish uchun",
+    "Tranzaksiyani boshlash uchun",
+    "Indeks qurish uchun"
+   ],
+   "e": "CASE WHEN ball >= 86 THEN 'a''lo' ... END."
+  },
+  {
+   "b": "SQL",
+   "q": "EXISTS operatori nimani tekshiradi?",
+   "a": [
+    "Ichki so'rov kamida bitta qator qaytarishini",
+    "Jadval mavjudligini faqat ma'lumotlar lug'atida tekshirish",
+    "Ustun turi raqamligini",
+    "Qiymat NULL ekanligini"
+   ],
+   "e": "Korrelyatsiyalangan ichma-ich so'rovlarda ishlatiladi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT DISTINCT guruh FROM talaba;\" nima qaytaradi?",
+   "a": [
+    "Takrorlanmas guruh nomlari ro'yxatini",
+    "Barcha talabalar va ularning guruhlarini",
+    "Guruhlar sonini",
+    "Faqat birinchi guruhni"
+   ],
+   "e": "Har bir guruh bir marta chiqadi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM mahsulot ORDER BY narx DESC LIMIT 3;\" nima qaytaradi?",
+   "a": [
+    "Eng qimmat 3 ta mahsulotni",
+    "Eng arzon 3 ta mahsulotni",
+    "Tasodifiy 3 ta mahsulotni",
+    "3-mahsulotni"
+   ],
+   "e": "DESC — kamayish tartibi."
+  },
+  {
+   "b": "SQL",
+   "q": "TRUNCATE TABLE va DELETE farqi nima?",
+   "a": [
+    "TRUNCATE barcha qatorlarni tez o'chiradi, odatda shartsiz va jurnalga kam yozadi",
+    "TRUNCATE jadval tuzilmasini ham o'chiradi",
+    "DELETE jadvalni butunlay yo'q qiladi",
+    "Farqi yo'q"
+   ],
+   "e": "TRUNCATE da WHERE ishlatib bo'lmaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da satr uzunligini qaytaruvchi funksiya qaysi?",
+   "a": [
+    "LENGTH() (yoki LEN())",
+    "SIZE()",
+    "COUNT()",
+    "WIDTH()"
+   ],
+   "e": "MBBT ga qarab nomi farq qiladi."
+  },
+  {
+   "b": "SQL",
+   "q": "Joriy sanani qaytaruvchi funksiya qaysi?",
+   "a": [
+    "CURRENT_DATE",
+    "TODAY_ROW",
+    "DATE_NOW_ALL",
+    "GETTIME_ROW"
+   ],
+   "e": "NOW() yoki CURRENT_TIMESTAMP — sana va vaqt."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT ism FROM talaba WHERE guruh_id IN (SELECT id FROM guruh WHERE kurs = 2);\" nima qaytaradi?",
+   "a": [
+    "2-kurs guruhlaridagi talabalar ismlarini",
+    "Barcha guruhlar nomlarini va ularning kurslarini",
+    "2 ta talaba ismini",
+    "Guruhlar sonini"
+   ],
+   "e": "Ichma-ich so'rov ro'yxat qaytaradi."
+  },
+  {
+   "b": "SQL",
+   "q": "Indeksni qaysi ustunlarga qo'yish foydali?",
+   "a": [
+    "WHERE va JOIN da tez-tez ishlatiladigan ustunlarga",
+    "Hech qachon ishlatilmaydigan ustunlarga",
+    "Faqat juda kichik jadvallardagi barcha ustunlarga, istisnosiz",
+    "Faqat matnli izoh ustunlariga"
+   ],
+   "e": "Ortiqcha indekslar yozishni sekinlashtiradi."
+  },
+  {
+   "b": "SQL",
+   "q": "EXPLAIN buyrug'i nima uchun ishlatiladi?",
+   "a": [
+    "So'rov bajarilish rejasini ko'rish uchun",
+    "Jadval va ustunlarga matnli izoh (kommentariya) qo'shish uchun",
+    "Xatoni tuzatish uchun avtomatik",
+    "Ma'lumotlarni eksport qilish uchun"
+   ],
+   "e": "Optimallashtirishda yordam beradi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "\"Talaba(id, ism, guruh, guruh_kuratori)\" jadvali qaysi normal formani buzadi?",
+   "a": [
+    "3NF",
+    "1NF",
+    "Hech qaysisini",
+    "Faqat BCNF"
+   ],
+   "e": "guruh_kuratori guruhga bog'liq (tranzitiv bog'liqlik)."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Yuqoridagi jadvalni (Talaba, guruh_kuratori) normallashtirish uchun nima qilinadi?",
+   "a": [
+    "Guruh(guruh, kurator) alohida jadvalga ajratiladi",
+    "guruh_kuratori ustuni har bir talabada takrorlanib qoladi",
+    "Jadval o'chiriladi",
+    "id ustuni olib tashlanadi"
+   ],
+   "e": "Tranzitiv bog'liqlik yo'qotiladi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "\"Baho(talaba_id, fan_id, baho, fan_nomi)\" jadvali qaysi normal formani buzadi (kalit: talaba_id, fan_id)?",
+   "a": [
+    "2NF",
+    "1NF",
+    "Hech qaysisini",
+    "Faqat 4NF"
+   ],
+   "e": "fan_nomi faqat fan_id ga bog'liq (qisman bog'liqlik)."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "To'rtinchi normal forma (4NF) qaysi bog'liqliklarni bartaraf etadi?",
+   "a": [
+    "Ko'p qiymatli bog'liqliklarni",
+    "Tranzitiv bog'liqliklarni faqat",
+    "Atomar bo'lmagan qiymatlarni",
+    "Tashqi kalitlarni"
+   ],
+   "e": "Mustaqil ko'p qiymatli faktlar alohida jadvallarga ajratiladi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Amaliyotda ko'pincha qaysi normal formagacha normallashtirish yetarli hisoblanadi?",
+   "a": [
+    "3NF (yoki BCNF)",
+    "Faqat 1NF",
+    "6NF",
+    "Normallashtirish kerak emas"
+   ],
+   "e": "Undan keyingi formalar kamdan-kam kerak bo'ladi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Talablarni tahlil qilish bosqichida nima aniqlanadi?",
+   "a": [
+    "Foydalanuvchilar qanday ma'lumot va so'rovlarga muhtojligi",
+    "Serverning protsessor turi, qattiq disk hajmi va tarmoq tezligi",
+    "Jadval indekslari",
+    "SQL kodining formatlanishi"
+   ],
+   "e": "Konseptual loyihalashdan oldin bajariladi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "\"Buyurtma\" va \"Mahsulot\" o'rtasidagi munosabat odatda qanday?",
+   "a": [
+    "Ko'p-ko'p (buyurtma tarkibi jadvali orqali)",
+    "Bir-bir",
+    "Hech qanday munosabat yo'q",
+    "Faqat bir-ko'p, mahsulotdan buyurtmaga"
+   ],
+   "e": "Buyurtma tarkibida miqdor va narx saqlanadi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Mohiyat atributlaridan qaysi biri hisoblanuvchi (derived) atributga misol?",
+   "a": [
+    "Tug'ilgan sanadan hisoblanadigan yosh",
+    "Tug'ilgan sana",
+    "Familiya",
+    "Pasport raqami"
+   ],
+   "e": "Hisoblanuvchi atributni saqlamaslik ortiqchalikni kamaytiradi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Ko'p qiymatli atributga misol qaysi?",
+   "a": [
+    "Bir nechta telefon raqami",
+    "Pasport raqami",
+    "Tug'ilgan sana",
+    "Shaxsiy identifikator"
+   ],
+   "e": "Alohida jadvalga ajratiladi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Ma'lumotlar bazasini loyihalashda nomlash qoidalariga qaysi tavsiya to'g'ri?",
+   "a": [
+    "Ma'noli va izchil nomlar ishlatish",
+    "Jadval va ustunlarga tasodifiy qisqa harflar berish",
+    "Bir xil nomni turli ma'noda ishlatish",
+    "Nomlarda bo'sh joy va maxsus belgilarni ko'p ishlatish"
+   ],
+   "e": "Masalan, talaba_id, tugilgan_sana."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Tranzaksiya boshlash buyrug'i qaysi?",
+   "a": [
+    "BEGIN (yoki START TRANSACTION)",
+    "COMMIT",
+    "ROLLBACK",
+    "END TRANSACTION faqat"
+   ],
+   "e": "Keyin COMMIT yoki ROLLBACK."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "SAVEPOINT nima uchun ishlatiladi?",
+   "a": [
+    "Tranzaksiya ichida qisman qaytish nuqtasini belgilash uchun",
+    "Butun MB ni zaxiralab, alohida faylga yozish uchun",
+    "Jadvalni saqlash uchun",
+    "Foydalanuvchini saqlash uchun"
+   ],
+   "e": "ROLLBACK TO SAVEPOINT nom."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Bank o'tkazmasida tranzaksiyadan foydalanishning ahamiyati nima?",
+   "a": [
+    "Pul bir hisobdan yechilib, ikkinchisiga tushmay qolmasligini kafolatlash",
+    "O'tkazmani sekinlashtirish va bank komissiyasini oshirish",
+    "Mijozlarga reklama ko'rsatish",
+    "Hisob raqamlarini o'zgartirish"
+   ],
+   "e": "Atomarlik tamoyili."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Parollarni MB da qanday saqlash kerak?",
+   "a": [
+    "Tuzlangan xesh ko'rinishida",
+    "Ochiq matn ko'rinishida, qulay tiklash uchun",
+    "Faqat katta harflar bilan",
+    "Parolsiz"
+   ],
+   "e": "Masalan, bcrypt yoki Argon2."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Rollar (role) asosidagi kirish nazorati nima?",
+   "a": [
+    "Huquqlarni rollarga berib, foydalanuvchilarni rollarga biriktirish",
+    "Har bir foydalanuvchiga barcha huquqlarni to'liq va cheklovsiz berish",
+    "Huquqlarni umuman bermaslik",
+    "Faqat administrator ishlashi"
+   ],
+   "e": "Boshqaruvni soddalashtiradi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "\"Fantom o'qish\" (phantom read) nima?",
+   "a": [
+    "Takroriy so'rovda yangi qo'shilgan qatorlarning paydo bo'lishi",
+    "Diskdagi buzilgan yoki o'chirilgan fayldan ma'lumot o'qish",
+    "Shifrlangan ma'lumotni o'qish",
+    "Indeksni o'qish"
+   ],
+   "e": "SERIALIZABLE darajasida oldi olinadi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Zaxira nusxani tiklash (restore) muvaffaqiyatli ekanini qanday ishonch hosil qilish mumkin?",
+   "a": [
+    "Muntazam tiklash sinovlarini o'tkazib",
+    "Zaxirani hech qachon ochmasdan saqlab",
+    "Faqat fayl hajmiga qarab",
+    "Faqat fayl nomiga qarab"
+   ],
+   "e": "Tekshirilmagan zaxira ishonchli emas."
+  },
+  {
+   "b": "NoSQL",
+   "q": "MongoDB da hujjatlarni qidirish metodi qaysi?",
+   "a": [
+    "find()",
+    "SELECT",
+    "search_all()",
+    "query_table()"
+   ],
+   "e": "db.talaba.find({yosh: {$gt: 18}})."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Redis asosan qayerda ma'lumotlarni saqlaydi?",
+   "a": [
+    "Operativ xotirada",
+    "Faqat magnit lentada",
+    "Faqat qog'ozda",
+    "Faqat bulutli disklarda, xotirasiz"
+   ],
+   "e": "Shuning uchun juda tez ishlaydi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "\"Ehtimoliy izchillik\" (eventual consistency) nimani anglatadi?",
+   "a": [
+    "Replikalar vaqt o'tishi bilan bir xil holatga keladi",
+    "Ma'lumotlar har doim darhol barcha replikalarda bir xil bo'ladi",
+    "Ma'lumotlar hech qachon izchil bo'lmaydi",
+    "Faqat bitta server ishlaydi"
+   ],
+   "e": "Ko'p NoSQL tizimlarida qo'llaniladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Jadvaldagi ustunlar soni nima deyiladi?",
+   "a": [
+    "Daraja",
+    "Kardinallik, ya'ni jadvaldagi qatorlar soni",
+    "Kalit uzunligi va indekslar soni",
+    "Domenlar sonining yig'indisi"
+   ],
+   "e": "Kardinallik — qatorlar soni."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Jadvaldagi qatorlar soni nima deyiladi?",
+   "a": [
+    "Kardinallik",
+    "Daraja, ya'ni ustunlar soni",
+    "Atributlar to'plami",
+    "Sxema uzunligi va hajmi"
+   ],
+   "e": "Relyatsiya darajasi — atributlar soni."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Relyatsion modelda qatorlar tartibi ahamiyatlimi?",
+   "a": [
+    "Yo'q",
+    "Ha, birinchi qator doimo eng muhim hisoblanadi",
+    "Ha, qatorlar faqat kiritilgan tartibda saqlanishi shart",
+    "Faqat kalit ustunida"
+   ],
+   "e": "Tartib ORDER BY bilan beriladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "MB ga murojaat qiluvchi dastur qanday nomlanadi?",
+   "a": [
+    "Ilova (mijoz)",
+    "MBBT yadrosi va uning saqlash mexanizmi",
+    "Operatsion tizim drayveri",
+    "Tarmoq kommutatori"
+   ],
+   "e": "Ilova so'rovlarni MBBT ga yuboradi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlarni import qilishda keng tarqalgan format qaysi?",
+   "a": [
+    "CSV",
+    "EXE bajariladigan fayl formati",
+    "MP3 audio formati",
+    "ISO disk tasviri"
+   ],
+   "e": "Vergul bilan ajratilgan qiymatlar."
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da ustunlar qiymatlarini qo'shish qanday yoziladi?",
+   "a": [
+    "SELECT a + b FROM t;",
+    "SELECT SUM(a, b) FROM t; — ikki ustunni qatorma-qator qo'shadi",
+    "ADD a, b FROM t;",
+    "SELECT a & b FROM t; — matnni birlashtiradi"
+   ],
+   "e": "SUM — qatorlar bo'yicha agregat."
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da \"teng emas\" operatori qaysi?",
+   "a": [
+    "<>",
+    "><, ya'ni teskari yozilgan taqqoslash belgisi",
+    "=!",
+    "~="
+   ],
+   "e": "Ko'pchilik MBBT da != ham ishlaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "Matn satrlari SQL da qanday qo'shtirnoqda yoziladi?",
+   "a": [
+    "Bittalik ('...')",
+    "Faqat qavslar ichida (...)",
+    "Faqat kvadrat qavslar ichida [...]",
+    "Qo'shtirnoqsiz, oddiy so'z sifatida"
+   ],
+   "e": "Qo'sh qo'shtirnoq ko'pincha identifikatorlar uchun."
+  },
+  {
+   "b": "SQL",
+   "q": "\"WHERE yosh > 18 AND guruh = 'A'\" sharti qachon rost?",
+   "a": [
+    "Ikkala shart ham bajarilganda",
+    "Kamida bitta shart bajarilganda, ikkinchisi muhim emas",
+    "Hech bir shart bajarilmaganda",
+    "Har doim, shartlardan qat'i nazar"
+   ],
+   "e": "AND — mantiqiy VA."
+  },
+  {
+   "b": "SQL",
+   "q": "\"WHERE NOT (yosh > 18)\" shartini boshqacha qanday yozish mumkin?",
+   "a": [
+    "yosh <= 18",
+    "yosh < 18, chunki inkor qat'iy tengsizlikni saqlaydi",
+    "yosh >= 18",
+    "yosh = 18 faqat"
+   ],
+   "e": "> ning inkori ≤."
+  },
+  {
+   "b": "SQL",
+   "q": "INSERT bilan bir nechta qatorni bir so'rovda qo'shish mumkinmi?",
+   "a": [
+    "Ha",
+    "Yo'q, har bir qator uchun alohida jadval yaratish kerak",
+    "Faqat bitta ustunli jadvalda",
+    "Faqat NoSQL bazalarda"
+   ],
+   "e": "VALUES (...), (...), (...)."
+  },
+  {
+   "b": "SQL",
+   "q": "Jadvalga yangi ustun qo'shish qanday yoziladi?",
+   "a": [
+    "ALTER TABLE t ADD ustun INT;",
+    "UPDATE TABLE t NEW COLUMN ustun INT;",
+    "INSERT COLUMN ustun INTO t;",
+    "CREATE COLUMN ustun ON t;"
+   ],
+   "e": "DDL buyrug'i."
+  },
+  {
+   "b": "SQL",
+   "q": "Ustunni o'chirish qanday yoziladi?",
+   "a": [
+    "ALTER TABLE t DROP COLUMN ustun;",
+    "DELETE COLUMN ustun FROM t WHERE true;",
+    "REMOVE ustun FROM t;",
+    "DROP ustun ON t TABLE;"
+   ],
+   "e": "Ustundagi barcha ma'lumotlar yo'qoladi."
+  },
+  {
+   "b": "SQL",
+   "q": "Indeks yaratish qanday yoziladi?",
+   "a": [
+    "CREATE INDEX idx ON t(ustun);",
+    "ADD INDEX ON TABLE t FOR ustun;",
+    "INDEX t.ustun CREATE NOW;",
+    "MAKE KEY idx ustun t;"
+   ],
+   "e": "UNIQUE INDEX noyoblikni ham ta'minlaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "Ko'rinish (VIEW) yaratish qanday yoziladi?",
+   "a": [
+    "CREATE VIEW v AS SELECT ...;",
+    "CREATE TABLE v FROM SELECT ... AS VIEW;",
+    "MAKE VIEW v WITH ...;",
+    "VIEW v = SELECT ...;"
+   ],
+   "e": "Ko'rinish so'rov natijasini virtual jadval sifatida taqdim etadi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT ROUND(3.567, 1);\" natijasi nechaga teng?",
+   "a": [
+    "3.6",
+    "3.5, chunki yaxlitlash har doim pastga bajariladi",
+    "4",
+    "3.567"
+   ],
+   "e": "Bir kasr xonagacha yaxlitlash."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT UPPER('salom');\" natijasi qanday?",
+   "a": [
+    "SALOM",
+    "salom, chunki funksiya faqat birinchi harfni o'zgartiradi",
+    "Salom",
+    "5"
+   ],
+   "e": "LOWER — kichik harflarga."
+  },
+  {
+   "b": "SQL",
+   "q": "SUBSTRING('Toshkent', 1, 4) natijasi qanday?",
+   "a": [
+    "Tosh",
+    "kent, ya'ni satr oxiridan to'rt belgi",
+    "Tos",
+    "oshk"
+   ],
+   "e": "SQL da indekslar 1 dan boshlanadi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Normallashtirish natijasida jadvallar soni odatda qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayib, bitta umumiy jadvalga birlashadi",
+    "O'zgarmaydi, faqat ustunlar nomi o'zgaradi",
+    "Nolga tushadi"
+   ],
+   "e": "Ortiqchalik kamayadi, bog'lanishlar ko'payadi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Normallashtirishning kamchiligi nima bo'lishi mumkin?",
+   "a": [
+    "Ko'proq JOIN talab qilinishi",
+    "Ma'lumotlar yaxlitligining keskin pasayishi va anomaliyalar ko'payishi",
+    "Ortiqchalikning oshishi",
+    "Xotiraning ko'proq sarflanishi"
+   ],
+   "e": "Shuning uchun ba'zan denormallashtiriladi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "ER-modelda munosabat odatda qanday shakl bilan tasvirlanadi?",
+   "a": [
+    "Romb",
+    "To'g'ri to'rtburchak, xuddi mohiyatlar kabi",
+    "Ikki chiziqli oval",
+    "Yulduzcha belgisi"
+   ],
+   "e": "Chen notatsiyasi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "\"Qarg'a oyog'i\" (crow's foot) notatsiyasida uchta chiziq nimani bildiradi?",
+   "a": [
+    "\"Ko'p\" tomonni",
+    "\"Bir\" tomonni, ya'ni aniq bitta yozuvni",
+    "Munosabat yo'qligini",
+    "Majburiy bo'lmagan atributni"
+   ],
+   "e": "Bog'lanish kardinalligini ko'rsatadi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Kutubxona MB si uchun qaysi mohiyatlar asosiy?",
+   "a": [
+    "Kitob, O'quvchi, Ijara",
+    "Server, Router, Kabel",
+    "Protsessor, Xotira, Disk",
+    "Shrift, Rang, Format"
+   ],
+   "e": "Ijara — bog'lovchi mohiyat."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Mohiyatning majburiy ishtiroki nimani bildiradi?",
+   "a": [
+    "Har bir nusxa munosabatda qatnashishi shart",
+    "Nusxalar munosabatda qatnashishi ixtiyoriy va ko'pincha qatnashmaydi",
+    "Mohiyat o'chirilgan",
+    "Mohiyatda kalit yo'q"
+   ],
+   "e": "Masalan, har bir talaba biror guruhga tegishli bo'lishi shart."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Izolyatsiyaning eng qat'iy darajasi qaysi?",
+   "a": [
+    "SERIALIZABLE",
+    "READ UNCOMMITTED, ya'ni tasdiqlanmagan o'zgarishlarni ham o'qish",
+    "READ COMMITTED",
+    "REPEATABLE READ"
+   ],
+   "e": "Tranzaksiyalar ketma-ket bajarilgandek natija beradi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "To'liq zaxira va inkremental zaxira farqi nima?",
+   "a": [
+    "Inkremental faqat o'zgarganlarni saqlaydi",
+    "To'liq zaxira faqat oxirgi o'zgarishlarni saqlaydi, inkremental esa hammasini",
+    "Ular o'rtasida hech qanday farq yo'q",
+    "Inkremental zaxirani tiklab bo'lmaydi"
+   ],
+   "e": "Oxirgi zaxiradan keyingi o'zgarishlar."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Ma'lumotlar bazasiga kirish audit jurnali nima uchun yuritiladi?",
+   "a": [
+    "Kim va qachon nima qilganini kuzatish uchun",
+    "So'rovlarni tezlashtirish va indekslarni avtomatik qurish uchun",
+    "Jadval tuzilmasini o'zgartirish uchun",
+    "Parollarni saqlash uchun"
+   ],
+   "e": "Xavfsizlik hodisalarini tekshirishda kerak."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Ma'lumotlarni shifrlash (at rest) nimani himoya qiladi?",
+   "a": [
+    "Diskdagi ma'lumotlarni",
+    "Faqat tarmoq orqali uzatilayotgan ma'lumotlarni",
+    "Faqat ekrandagi tasvirni",
+    "Faqat printerga yuborilganlarni"
+   ],
+   "e": "Tarmoqdagi ma'lumot — TLS bilan (in transit)."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "\"Eng kam imtiyozlar\" tamoyili MB da nimani anglatadi?",
+   "a": [
+    "Foydalanuvchiga faqat zarur huquqlar beriladi",
+    "Barcha foydalanuvchilar administrator huquqiga ega bo'ladi",
+    "Huquqlar umuman berilmaydi",
+    "Faqat bitta foydalanuvchi ishlaydi"
+   ],
+   "e": "Xatolar va hujumlar zararini kamaytiradi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "MongoDB da hujjat qo'shish metodi qaysi?",
+   "a": [
+    "insertOne()",
+    "addRowToTable(), SQL dagi INSERT ga o'xshash",
+    "push_document()",
+    "createRecord()"
+   ],
+   "e": "Bir nechta hujjat uchun insertMany()."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Hujjat bazasida \"joylashtirilgan hujjat\" (embedded document) nima?",
+   "a": [
+    "Hujjat ichidagi hujjat",
+    "Boshqa serverdagi alohida jadval",
+    "Shifrlangan fayl",
+    "Indeks nusxasi"
+   ],
+   "e": "Bog'liq ma'lumotlarni bitta hujjatda saqlash."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Vaqt qatorlari (time series) MB lari qayerda qo'llaniladi?",
+   "a": [
+    "Datchiklar va monitoring",
+    "Faqat kutubxona kitoblarini hisobga olishda",
+    "Faqat matn tahrirlashda",
+    "Faqat rasm saqlashda"
+   ],
+   "e": "Masalan, InfluxDB."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Kesh (cache) sifatida Redis ishlatishning maqsadi nima?",
+   "a": [
+    "Tez-tez so'raladigan ma'lumotlarni tez berish",
+    "Ma'lumotlarni abadiy, yo'qotishsiz saqlashning yagona joyi sifatida foydalanish",
+    "Jadvallarni normallashtirish",
+    "SQL so'rovlarini yozish"
+   ],
+   "e": "Asosiy MB yuklamasi kamayadi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Graf MB da tugunlar orasidagi bog'lanish qanday nomlanadi?",
+   "a": [
+    "Qirra (munosabat)",
+    "Ustun, ya'ni jadvaldagi atribut",
+    "Indeks",
+    "Kolleksiya"
+   ],
+   "e": "Neo4j da Cypher tili ishlatiladi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Qaysi holatda NoSQL tanlash maqsadga muvofiq?",
+   "a": [
+    "Tuzilmasi tez o'zgaruvchi katta hajmli ma'lumotlarda",
+    "Qat'iy moliyaviy tranzaksiyalar va murakkab hisobotlarda, ACID talab qilinganda",
+    "Kichik, o'zgarmas tuzilmali jadvallarda faqat",
+    "Hech qachon"
+   ],
+   "e": "Masalan, loglar, ijtimoiy tarmoq kontentlari."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT COUNT(DISTINCT shahar) FROM mijoz;\" nima qaytaradi?",
+   "a": [
+    "Turli shaharlar sonini",
+    "Barcha mijozlar sonini, shaharlar takrorlansa ham",
+    "Eng ko'p mijozli shahar nomini",
+    "Shaharlar ro'yxatini"
+   ],
+   "e": "Takrorlanmas qiymatlar sanaladi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM t WHERE ustun IS NOT NULL;\" nima qaytaradi?",
+   "a": [
+    "ustun qiymati bo'sh bo'lmagan qatorlarni",
+    "ustun qiymati NULL bo'lgan qatorlarni, ya'ni bo'sh kataklilarni",
+    "Barcha qatorlarni hech qanday filtrsiz",
+    "Hech narsa qaytarmaydi"
+   ],
+   "e": "IS NOT NULL — qiymat mavjud."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT 5 + NULL;\" natijasi nima?",
+   "a": [
+    "NULL",
+    "5",
+    "0",
+    "Xato"
+   ],
+   "e": "NULL bilan arifmetik amal NULL beradi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM t1 LEFT JOIN t2 ON t1.id = t2.t1_id WHERE t2.t1_id IS NULL;\" nima qaytaradi?",
+   "a": [
+    "t1 dagi t2 da mosi yo'q qatorlarni",
+    "Ikkala jadvalda mos kelgan barcha qatorlarni",
+    "Faqat t2 jadval qatorlarini",
+    "Barcha qatorlarni ikki baravar"
+   ],
+   "e": "\"Anti-join\" usuli."
+  },
+  {
+   "b": "SQL",
+   "q": "Sana bo'yicha oraliq tanlash qanday yoziladi?",
+   "a": [
+    "WHERE sana BETWEEN '2026-01-01' AND '2026-12-31'",
+    "WHERE sana IN 2026",
+    "WHERE sana = 2026-yil",
+    "WHERE YEAR = sana"
+   ],
+   "e": "Sana formatini MBBT talabiga moslash kerak."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT guruh, AVG(ball) FROM natija GROUP BY guruh ORDER BY AVG(ball) DESC;\" nima qaytaradi?",
+   "a": [
+    "Guruhlar o'rtacha ball bo'yicha kamayish tartibida",
+    "Barcha talabalar ballari alifbo tartibida, guruhlarga ajratilmasdan",
+    "Faqat eng yuqori ball",
+    "Guruhlar soni"
+   ],
+   "e": "Guruhlash, agregat va saralash birgalikda."
+  },
+  {
+   "b": "SQL",
+   "q": "Agregat funksiyani WHERE ichida ishlatish mumkinmi?",
+   "a": [
+    "Yo'q, buning uchun HAVING ishlatiladi",
+    "Ha, WHERE COUNT(*) > 5 kabi yozish standart va to'g'ri",
+    "Faqat SUM uchun mumkin",
+    "Faqat NoSQL da mumkin"
+   ],
+   "e": "WHERE guruhlashdan oldin bajariladi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT ism, ball FROM natija WHERE ball = (SELECT MAX(ball) FROM natija);\" nima qaytaradi?",
+   "a": [
+    "Eng yuqori ball olgan talaba(lar)ni",
+    "Eng past ball olganlarni",
+    "Barcha talabalar ballarini",
+    "Faqat maksimal ball qiymatini"
+   ],
+   "e": "Ichma-ich so'rov maksimumni topadi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Ma'lumotlarni takrorlamaslik uchun \"Shahar\" nomini har bir mijoz qatorida yozish o'rniga nima qilinadi?",
+   "a": [
+    "Shaharlar alohida jadvalga ajratilib, tashqi kalit bilan bog'lanadi",
+    "Shahar nomi har bir qatorda katta harflar bilan yoziladi",
+    "Shahar ustuni butunlay olib tashlanib, mijoz manzilida yoziladi",
+    "Har bir shahar uchun alohida MB yaratiladi"
+   ],
+   "e": "Normallashtirish tamoyili."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Normallashtirilgan jadvallardan ma'lumot olish uchun odatda nima ishlatiladi?",
+   "a": [
+    "JOIN",
+    "Faqat DISTINCT",
+    "Faqat LIMIT",
+    "DROP"
+   ],
+   "e": "Ajratilgan jadvallar kalitlar orqali birlashtiriladi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Kollej MB sida \"O'qituvchi\" va \"Fan\" o'rtasida qanday munosabat bo'ladi?",
+   "a": [
+    "Ko'p-ko'p",
+    "Bir-bir, chunki har bir o'qituvchi faqat bitta fanni o'qiydi",
+    "Munosabat yo'q",
+    "Faqat bir-ko'p"
+   ],
+   "e": "Bir o'qituvchi bir nechta fan, bir fanni bir nechta o'qituvchi o'qitishi mumkin."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Mahsulot narxlari tarixini saqlash uchun qaysi yechim to'g'ri?",
+   "a": [
+    "Sana bilan alohida narxlar tarixi jadvali",
+    "Narx ustunini har safar ustidan yozib yangilash va eskisini o'chirish",
+    "Narxni mahsulot nomiga qo'shib yozish",
+    "Har bir narx uchun yangi MB yaratish"
+   ],
+   "e": "Tarixiy ma'lumotlar yo'qolmaydi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Jadval va ustun nomlarida o'zbekcha harflarni (o', g') ishlatish nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Apostrof SQL sintaksisida muammo tug'diradi",
+    "Bunday nomlar MB hajmini ikki baravar oshiradi",
+    "SQL faqat raqamli nomlarni qabul qiladi",
+    "Bu taqiqlangan va jarima solinadi"
+   ],
+   "e": "Masalan, \"o'quvchi\" o'rniga \"oquvchi\" yoki \"student\"."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Ma'lumotlar bazasi serverini yangilashdan oldin nima qilish kerak?",
+   "a": [
+    "Zaxira nusxa olish",
+    "Barcha foydalanuvchilarga to'liq administrator huquqi berish",
+    "Barcha indekslarni o'chirish",
+    "Parollarni ochiq qilib qo'yish"
+   ],
+   "e": "Muammo bo'lsa, oldingi holatga qaytish mumkin."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Parallel foydalanuvchilar bir yozuvni bir vaqtda o'zgartirsa, \"yo'qolgan yangilanish\" muammosini nima oldini oladi?",
+   "a": [
+    "Blokirovka yoki versiyalash",
+    "Har bir foydalanuvchiga alohida kompyuter berish",
+    "Jadvalni o'chirish",
+    "So'rovni ikki marta yuborish"
+   ],
+   "e": "Optimistik va pessimistik blokirovka usullari."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Optimistik blokirovka qanday ishlaydi?",
+   "a": [
+    "Saqlashda versiya o'zgarmaganini tekshiradi",
+    "Yozuvni o'qishdan boshlab boshqa barcha foydalanuvchilar uchun to'liq qulflaydi",
+    "Hech qanday tekshiruv bajarmaydi",
+    "Faqat administrator ishlashiga ruxsat beradi"
+   ],
+   "e": "Ziddiyat bo'lsa, tranzaksiya qayta bajariladi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "MongoDB dagi hujjat formati qaysi?",
+   "a": [
+    "BSON (ikkilik JSON)",
+    "XML faqat",
+    "CSV",
+    "Oddiy matn"
+   ],
+   "e": "JSON ga o'xshash, lekin ikkilik."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Redis da qiymat saqlash buyrug'i qaysi?",
+   "a": [
+    "SET",
+    "INSERT INTO",
+    "PUT ROW",
+    "WRITE TABLE"
+   ],
+   "e": "GET — qiymatni olish."
+  },
+  {
+   "b": "NoSQL",
+   "q": "NoSQL bazalarda JOIN o'rniga ko'pincha nima qo'llaniladi?",
+   "a": [
+    "Denormallashtirish va joylashtirilgan hujjatlar",
+    "Har doim to'liq normallashtirish va ko'p jadvalli birlashtirish",
+    "Ma'lumotlarni o'chirish",
+    "Indekslarni o'chirish"
+   ],
+   "e": "Bog'liq ma'lumot bitta hujjatda saqlanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar bazasi bilan ishlovchi veb-ilovada \"ORM\" nima?",
+   "a": [
+    "Obyektlarni jadvallarga bog'lovchi kutubxona",
+    "Operatsion tizimni boshqaruvchi modul",
+    "Tarmoq protokoli",
+    "Rasm formati"
+   ],
+   "e": "Object-Relational Mapping, masalan, SQLAlchemy, Hibernate."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar bazasiga dasturdan ulanish uchun odatda nima kerak?",
+   "a": [
+    "Ulanish satri (xost, port, MB nomi, login, parol)",
+    "Faqat MB fayl nomi, hech qanday autentifikatsiyasiz",
+    "Faqat printer drayveri",
+    "Faqat rasm"
+   ],
+   "e": "Masalan, PostgreSQL uchun DATABASE_URL."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "PostgreSQL standart porti qaysi?",
+   "a": [
+    "5432",
+    "80",
+    "3306",
+    "443"
+   ],
+   "e": "MySQL — 3306, HTTP — 80, HTTPS — 443."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "MySQL standart porti qaysi?",
+   "a": [
+    "3306",
+    "5432",
+    "21",
+    "8080"
+   ],
+   "e": "21 — FTP."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Bulutli MB xizmatlarining afzalligi nima?",
+   "a": [
+    "Server boshqaruvi, zaxiralash va masshtablash avtomatlashgan",
+    "Ular hech qachon internetga ulanishni talab qilmaydi va oflayn ishlaydi",
+    "Ular har doim bepul va cheksiz",
+    "Ular faqat bitta foydalanuvchi uchun"
+   ],
+   "e": "Masalan, boshqariladigan PostgreSQL xizmatlari."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar migratsiyasi nima?",
+   "a": [
+    "Ma'lumotlar yoki sxemani bir holatdan boshqasiga ko'chirish",
+    "Foydalanuvchilarning boshqa shaharga ko'chishi",
+    "Serverni boshqa xonaga yoki ma'lumotlar markaziga jismonan ko'chirish",
+    "Indeksni o'chirish"
+   ],
+   "e": "Sxema versiyalari migratsiya skriptlari bilan boshqariladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Katta ma'lumotlarni (Big Data) qayta ishlashda qaysi texnologiya keng tarqalgan?",
+   "a": [
+    "Hadoop / Spark",
+    "Microsoft Paint",
+    "Notepad",
+    "Kalkulyator"
+   ],
+   "e": "Taqsimlangan hisoblash platformalari."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "E. Kodd relyatsion modelni qaysi yili taklif qilgan?",
+   "a": [
+    "1970",
+    "1990, internet keng tarqalgan davrda",
+    "1950",
+    "2005"
+   ],
+   "e": "\"A Relational Model of Data for Large Shared Data Banks\" maqolasi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar bazasining uch darajali arxitekturasiga qaysilar kiradi?",
+   "a": [
+    "Tashqi, konseptual, ichki",
+    "Kirish, chiqish, saqlash, har biri alohida serverda",
+    "Mijoz, server, tarmoq",
+    "Jadval, ustun, qator"
+   ],
+   "e": "ANSI/SPARC arxitekturasi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ichki (fizik) daraja nimani tavsiflaydi?",
+   "a": [
+    "Ma'lumotlarning diskda saqlanish usulini",
+    "Foydalanuvchi ko'radigan shakllarni va hisobotlarni",
+    "Biznes qoidalarini",
+    "Tarmoq sozlamalarini"
+   ],
+   "e": "Fayllar, indekslar, sahifalar."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar bazasidagi \"yozuv\" sinonimi qaysi?",
+   "a": [
+    "Qator",
+    "Ustun",
+    "Domen",
+    "Sxema"
+   ],
+   "e": "Kortej, satr ham deyiladi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM talaba WHERE ism IN ('Ali', 'Vali');\" nechta shartni tekshiradi?",
+   "a": [
+    "ism 'Ali' yoki 'Vali' ga teng bo'lishini",
+    "ism bir vaqtda ham 'Ali', ham 'Vali' bo'lishini",
+    "ism 'Ali' dan 'Vali' gacha alifbo oralig'ida bo'lishini",
+    "ism bo'sh bo'lishini"
+   ],
+   "e": "IN — YOKI shartlarining qisqa yozuvi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM mahsulot WHERE narx NOT BETWEEN 100 AND 200;\" nima qaytaradi?",
+   "a": [
+    "Narxi 100 dan kam yoki 200 dan ko'p mahsulotlarni",
+    "Narxi 100 dan 200 gacha bo'lgan mahsulotlarni, chegaralarni ham qo'shib",
+    "Faqat narxi 100 va 200 bo'lganlarni",
+    "Hech narsa"
+   ],
+   "e": "NOT BETWEEN — oraliqdan tashqari."
+  },
+  {
+   "b": "SQL",
+   "q": "\"ORDER BY 2\" yozuvi nimani bildiradi?",
+   "a": [
+    "SELECT dagi ikkinchi ustun bo'yicha saralash",
+    "Faqat ikkita qatorni saralab, qolganlarini tartibsiz chiqarish",
+    "Ikki marta saralash",
+    "2 qiymatli qatorlarni saralash"
+   ],
+   "e": "Ustun tartib raqami bo'yicha."
+  },
+  {
+   "b": "SQL",
+   "q": "INTERSECT operatori nima qaytaradi?",
+   "a": [
+    "Ikki so'rovning umumiy qatorlarini",
+    "Ikki so'rovning barcha qatorlarini birlashtirib",
+    "Birinchi so'rovdagi, ikkinchida yo'q qatorlarni",
+    "Hech narsa"
+   ],
+   "e": "EXCEPT (MINUS) — farq."
+  },
+  {
+   "b": "SQL",
+   "q": "EXCEPT operatori nima qaytaradi?",
+   "a": [
+    "Birinchi so'rovdagi, ikkinchisida yo'q qatorlarni",
+    "Ikki so'rovning umumiy qatorlarini",
+    "Ikkala so'rovning barcha qatorlarini, takrorlarni ham saqlagan holda",
+    "Faqat takrorlarni"
+   ],
+   "e": "To'plamlar ayirmasi."
+  },
+  {
+   "b": "SQL",
+   "q": "Window (oyna) funksiyasiga misol qaysi?",
+   "a": [
+    "ROW_NUMBER() OVER (...)",
+    "COUNT(*) GROUP BY",
+    "DISTINCT",
+    "LIMIT"
+   ],
+   "e": "Guruhlamasdan har qator uchun hisoblash."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT ism, RANK() OVER (ORDER BY ball DESC) FROM natija;\" nima qaytaradi?",
+   "a": [
+    "Har bir talabaning ball bo'yicha o'rni",
+    "Faqat birinchi o'rindagi talabani",
+    "Ballar yig'indisini",
+    "Talabalar sonini"
+   ],
+   "e": "Teng ballarda bir xil o'rin."
+  },
+  {
+   "b": "SQL",
+   "q": "CTE (WITH ... AS) nima uchun ishlatiladi?",
+   "a": [
+    "So'rov ichida vaqtinchalik nomlangan natija yaratish uchun",
+    "Jadvalni diskda doimiy saqlash va unga indeks qo'shish uchun",
+    "Foydalanuvchi yaratish uchun",
+    "Indeks yaratish uchun"
+   ],
+   "e": "Murakkab so'rovlarni o'qishni osonlashtiradi."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "\"Mijoz(id, ism, tel1, tel2, tel3)\" jadvalining kamchiligi nima?",
+   "a": [
+    "Takrorlanuvchi guruh, telefonlar soni cheklangan",
+    "Jadvalda birlamchi kalit bo'lishi mumkin emas, chunki telefonlar takrorlanadi",
+    "Ism ustuni ortiqcha",
+    "Kamchiligi yo'q"
+   ],
+   "e": "Telefonlar alohida jadvalga ajratilishi kerak."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "1NF ga keltirish uchun \"Fanlar: Matematika, Fizika\" ustuni qanday o'zgartiriladi?",
+   "a": [
+    "Har bir fan alohida qatorga yoziladi (yoki alohida jadvalga)",
+    "Fanlar vergul o'rniga nuqtali vergul bilan ajratilib, bitta katakda qoladi",
+    "Ustun nomi o'zgartiriladi",
+    "Fanlar katta harflar bilan yoziladi"
+   ],
+   "e": "Atomarlik talabi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Mohiyat atributlari ER-diagrammada (Chen) qanday tasvirlanadi?",
+   "a": [
+    "Oval",
+    "Romb",
+    "To'g'ri to'rtburchak",
+    "Uchburchak"
+   ],
+   "e": "Kalit atribut tagiga chizib ko'rsatiladi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Online do'kon MB sida \"Buyurtma\" jadvalida qaysi tashqi kalit bo'lishi kerak?",
+   "a": [
+    "mijoz_id",
+    "mahsulot_rangi",
+    "do'kon_logotipi",
+    "server_ip"
+   ],
+   "e": "Buyurtma mijozga tegishli."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "\"Buyurtma_tarkibi\" jadvalining birlamchi kaliti odatda qanday?",
+   "a": [
+    "(buyurtma_id, mahsulot_id) yoki surrogat id",
+    "Faqat mahsulot nomi",
+    "Faqat miqdor",
+    "Faqat narx"
+   ],
+   "e": "Ko'p-ko'p munosabat bog'lovchi jadvali."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Izchillik (consistency) tamoyili nimani anglatadi?",
+   "a": [
+    "Tranzaksiya MB ni bir to'g'ri holatdan boshqa to'g'ri holatga o'tkazadi",
+    "Barcha foydalanuvchilar bir xil parolga ega bo'ladi va bir xil huquqlar oladi",
+    "Ma'lumotlar hech qachon o'zgarmaydi",
+    "Tranzaksiyalar faqat kechasi bajariladi"
+   ],
+   "e": "Cheklovlar buzilmaydi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Kuchli parol siyosati MB xavfsizligida nima uchun muhim?",
+   "a": [
+    "Ruxsatsiz kirishni qiyinlashtiradi",
+    "So'rovlarni tezlashtiradi",
+    "Jadval hajmini kamaytiradi",
+    "Indekslarni avtomatik yaratadi"
+   ],
+   "e": "Standart parollarni albatta o'zgartirish kerak."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "MB serverini internetdan to'g'ridan-to'g'ri ochiq qoldirish nima uchun xavfli?",
+   "a": [
+    "Hujumchilar parol tanlash va zaifliklardan foydalanishi mumkin",
+    "MB tezroq ishlaydi, chunki tarmoq filtrlari bo'lmaydi va xavf yo'q",
+    "Ma'lumotlar avtomatik zaxiralanadi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Firewall va VPN orqali cheklash tavsiya etiladi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Zaxira nusxalarni qayerda saqlash tavsiya etiladi?",
+   "a": [
+    "Asosiy serverdan alohida joyda",
+    "Faqat o'sha serverning o'zida, bir xil diskda",
+    "Faqat ish stolida",
+    "Zaxira kerak emas"
+   ],
+   "e": "Server yo'qolsa ham zaxira saqlanib qoladi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "\"Sxemasiz\" (schema-less) degani nimani anglatadi?",
+   "a": [
+    "Hujjatlar turli maydonlarga ega bo'lishi mumkin",
+    "Ma'lumotlar umuman tuzilmaga ega emas va o'qib bo'lmaydi",
+    "Ma'lumotlar saqlanmaydi",
+    "Faqat bitta maydon bo'ladi"
+   ],
+   "e": "Har bir hujjat o'z tuzilmasiga ega."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Elasticsearch asosan nima uchun ishlatiladi?",
+   "a": [
+    "To'liq matnli qidiruv va tahlil",
+    "Faqat moliyaviy tranzaksiyalar",
+    "Faqat rasmlarni tahrirlash",
+    "Faqat elektron pochta jo'natish"
+   ],
+   "e": "Indekslangan hujjatlarda tez qidiruv."
+  },
+  {
+   "b": "NoSQL",
+   "q": "NoSQL tizimlarida \"BASE\" tamoyili nimani anglatadi?",
+   "a": [
+    "Asosan foydalanuvchan, yumshoq holat, ehtimoliy izchillik",
+    "Atomarlik, izchillik, izolyatsiya, chidamlilik",
+    "Faqat zaxira nusxalash",
+    "Faqat shifrlash"
+   ],
+   "e": "ACID ga muqobil yondashuv."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM talaba LIMIT 10 OFFSET 20;\" nima qaytaradi?",
+   "a": [
+    "21-dan 30-gacha qatorlarni",
+    "Birinchi 10 ta qatorni",
+    "20 ta qatorni",
+    "10-dan 20-gacha qatorlarni"
+   ],
+   "e": "OFFSET birinchi 20 tasini o'tkazib yuboradi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT SUM(miqdor * narx) FROM buyurtma_tarkibi WHERE buyurtma_id = 5;\" nima hisoblaydi?",
+   "a": [
+    "5-buyurtmaning umumiy summasini",
+    "Barcha buyurtmalar sonini",
+    "5 ta mahsulot narxini",
+    "Eng qimmat mahsulotni"
+   ],
+   "e": "Har bir qator summasi qo'shiladi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"DELETE FROM talaba WHERE id = 7;\" nima qiladi?",
+   "a": [
+    "id si 7 bo'lgan yozuvni o'chiradi",
+    "7 ta yozuvni o'chiradi",
+    "Jadvalni o'chiradi",
+    "7-ustunni o'chiradi"
+   ],
+   "e": "WHERE sharti o'chiriladigan qatorni belgilaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da izoh qanday yoziladi?",
+   "a": [
+    "-- izoh",
+    "// izoh faqat",
+    "# izoh har doim",
+    "<!-- izoh -->"
+   ],
+   "e": "Ko'p qatorli izoh /* ... */."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar bazasi tizimining asosiy foydalanuvchilariga kimlar kiradi?",
+   "a": [
+    "Administrator, dasturchi, oxirgi foydalanuvchi",
+    "Faqat kompyuter ta'mirlovchilar",
+    "Faqat bosmaxona xodimlari",
+    "Faqat haydovchilar"
+   ],
+   "e": "Har biri turli darajadagi huquqlarga ega."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kutubxona kartotekasi MB ga misol bo'la oladimi?",
+   "a": [
+    "Ha, qog'ozdagi tartiblangan ma'lumotlar to'plami",
+    "Yo'q, MB faqat kompyuterda bo'ladi",
+    "Faqat kitoblar 1000 tadan ko'p bo'lsa",
+    "Faqat elektron kitoblar bo'lsa"
+   ],
+   "e": "MB tushunchasi kompyuterdan oldin ham mavjud bo'lgan."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Jadvalda bir xil ma'lumotning ko'p joyda takrorlanishi qanday ataladi?",
+   "a": [
+    "Ortiqchalik",
+    "Normallashtirish",
+    "Indekslash",
+    "Replikatsiya"
+   ],
+   "e": "Replikatsiya — ataylab nusxa saqlash."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Normallashtirilgan MB da yangi guruh kuratorini o'zgartirish nechta qatorni yangilashni talab qiladi?",
+   "a": [
+    "Bitta",
+    "Shu guruhdagi barcha talabalar soniga teng",
+    "Barcha jadvaldagi qatorlar soniga teng",
+    "Hech birini"
+   ],
+   "e": "Kurator faqat Guruh jadvalida saqlanadi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Avtomobil ijarasi MB si uchun qaysi mohiyatlar kerak?",
+   "a": [
+    "Avtomobil, Mijoz, Ijara",
+    "Router, Server, Kabel",
+    "Rang, Shrift, Format",
+    "Protsessor, Xotira"
+   ],
+   "e": "Ijara mohiyati sanalar va to'lovni saqlaydi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Talabaning yoshini saqlash o'rniga tug'ilgan sanani saqlash nima uchun to'g'ri?",
+   "a": [
+    "Yosh vaqt o'tishi bilan o'zgaradi, sana esa o'zgarmaydi",
+    "Tug'ilgan sana kamroq joy egallaydi va hech qachon kerak bo'lmaydi",
+    "Yoshni hisoblab bo'lmaydi",
+    "Bu taqiqlangan"
+   ],
+   "e": "Yosh so'rovda hisoblanadi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "\"Yo'qolgan yangilanish\" (lost update) nima?",
+   "a": [
+    "Bir tranzaksiya o'zgarishini boshqasi ustidan yozib yuborishi",
+    "Zaxira nusxaning yo'qolishi",
+    "Jadvalning o'chishi",
+    "Indeksning buzilishi"
+   ],
+   "e": "Parallel yangilashlarda yuz beradi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Ma'lumotlar bazasini monitoring qilishda qaysi ko'rsatkichlar kuzatiladi?",
+   "a": [
+    "So'rovlar vaqti, ulanishlar soni, disk va xotira sarfi",
+    "Faqat server korpusining rangi",
+    "Faqat foydalanuvchilar ismlari",
+    "Faqat jadval nomlari"
+   ],
+   "e": "Sekin so'rovlar jurnali tahlil qilinadi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Qaysi holatda kalit-qiymat bazasi eng mos?",
+   "a": [
+    "Foydalanuvchi sessiyalarini saqlash",
+    "Murakkab moliyaviy hisobotlar va ko'p jadvalli tahlil",
+    "Ijtimoiy tarmoq do'stlik grafini tahlil qilish",
+    "To'liq matnli qidiruv"
+   ],
+   "e": "Kalit bo'yicha tez o'qish-yozish."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Graf MB qaysi masalada relyatsion MB dan samaraliroq?",
+   "a": [
+    "\"Do'stlarning do'stlari\" kabi chuqur bog'lanishlarni izlash",
+    "Oddiy ro'yxatni saqlash",
+    "Bitta qiymatni o'qish",
+    "Faylni chop etish"
+   ],
+   "e": "Ko'p darajali JOIN lar relyatsion MB da sekin."
+  },
+  {
+   "b": "SQL",
+   "q": "Ikki jadvalda bir xil nomli ustun bo'lsa, SELECT da qanday ko'rsatiladi?",
+   "a": [
+    "jadval.ustun ko'rinishida",
+    "Faqat ustun nomi bilan, MBBT o'zi taxmin qiladi",
+    "Ustun nomini ikki marta yozib",
+    "Bunday jadvallarni birlashtirib bo'lmaydi"
+   ],
+   "e": "Masalan, talaba.id, guruh.id."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT 1 + 1 AS natija;\" so'rovi nima qaytaradi?",
+   "a": [
+    "natija nomli ustunda 2",
+    "Xato, chunki FROM yo'q",
+    "11",
+    "1"
+   ],
+   "e": "Ko'pchilik MBBT da FROM siz ifoda hisoblanadi."
+  },
+  {
+   "b": "SQL",
+   "q": "Qatorlarni tasodifiy tartibda tanlash (PostgreSQL) qanday?",
+   "a": [
+    "ORDER BY RANDOM()",
+    "ORDER BY TASODIF",
+    "SHUFFLE TABLE",
+    "RANDOM SELECT"
+   ],
+   "e": "MySQL da ORDER BY RAND()."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT MIN(yosh), MAX(yosh) FROM talaba;\" nima qaytaradi?",
+   "a": [
+    "Eng kichik va eng katta yoshni",
+    "Yoshlar yig'indisini",
+    "O'rtacha yoshni",
+    "Talabalar sonini"
+   ],
+   "e": "Ikki agregat bir so'rovda."
   }
  ]
 }
