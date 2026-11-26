@@ -2,197 +2,164 @@
  "kod": "5PM0491",
  "nomi": "Ma'lumotlar tuzilmasi va algoritmlar",
  "turi": "maxsus",
- "manba": "2026-yilgi texnikum o'quv rejalari (16 ta mutaxassislikda o'qitiladi)",
+ "manba": "2026-yilgi texnikum o'quv rejalari (16 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "Murakkablik",
-   "q": "Algoritm murakkabligini baholashda \"O katta\" (Big O) belgisi nimani ifodalaydi?",
+   "q": "Algoritmning vaqt murakkabligi nimani tavsiflaydi?",
    "a": [
-    "Kirish hajmi ortishi bilan ish vaqtining eng yomon holdagi o'sish tartibini",
-    "Dastur hajmini baytlarda",
-    "Protsessor chastotasini",
-    "Xotiradagi o'zgaruvchilar sonini"
+    "Kirish hajmiga qarab bajariladigan amallar sonining o'sishini",
+    "Algoritmni yozish uchun sarflangan dasturchi vaqtini",
+    "Kompyuter protsessorining takt chastotasi va yadrolari sonini",
+    "Kompyuter protsessorining chastotasini"
    ],
-   "e": "Masalan, O(n) — chiziqli, O(n²) — kvadratik o'sish."
+   "e": "Odatda O-notatsiya bilan ifodalanadi."
   },
   {
    "b": "Murakkablik",
-   "q": "Massivdagi elementni indeks bo'yicha olishning vaqt murakkabligi qanday?",
+   "q": "O(1) murakkablik nimani bildiradi?",
    "a": [
-    "O(1)",
-    "O(n)",
-    "O(log n)",
-    "O(n²)"
+    "O'zgarmas vaqt",
+    "Chiziqli vaqt",
+    "Logarifmik vaqt",
+    "Kvadratik vaqt"
    ],
-   "e": "Element manzili indeks orqali to'g'ridan-to'g'ri hisoblanadi."
+   "e": "Masalan, massiv elementiga indeks bo'yicha murojaat."
   },
   {
    "b": "Murakkablik",
-   "q": "Tartiblanmagan massivda chiziqli qidiruvning eng yomon holdagi murakkabligi qanday?",
+   "q": "Qaysi murakkablik eng tez o'sadi?",
    "a": [
+    "O(2ⁿ)",
+    "O(n²)",
+    "O(n log n)",
+    "O(n)"
+   ],
+   "e": "Eksponensial murakkablik katta n da amaliy emas."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Murakkabliklarni o'sish tartibida joylashtiring.",
+   "a": [
+    "O(1), O(log n), O(n), O(n log n), O(n²)",
+    "O(n), O(1), O(n²), O(log n), O(n log n)",
+    "O(n²), O(n log n), O(n), O(log n), O(1)",
+    "O(log n), O(1), O(n log n), O(n), O(n²)"
+   ],
+   "e": "O(1) eng sekin o'sadi."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Ichma-ich ikkita n marta takrorlanuvchi sikl murakkabligi qanday?",
+   "a": [
+    "O(n²)",
     "O(n)",
-    "O(1)",
-    "O(log n)",
-    "O(n log n)"
+    "O(2n)",
+    "O(log n)"
    ],
-   "e": "Har bir elementni tekshirish kerak bo'lishi mumkin."
+   "e": "n · n amal."
   },
   {
-   "b": "Qidiruv",
-   "q": "Ikkilik (binar) qidiruvni qo'llash uchun massiv qanday bo'lishi kerak?",
-   "a": [
-    "Saralangan",
-    "Teskari tartibda yozilgan bo'lishi shart",
-    "Faqat juft sonlardan iborat",
-    "Bo'sh"
-   ],
-   "e": "Har qadamda qidiruv oralig'i ikki marta qisqaradi."
-  },
-  {
-   "b": "Qidiruv",
-   "q": "Ikkilik qidiruvning murakkabligi qanday?",
+   "b": "Murakkablik",
+   "q": "\"for (i = 1; i < n; i *= 2)\" sikli murakkabligi qanday?",
    "a": [
     "O(log n)",
     "O(n)",
     "O(n²)",
     "O(1)"
    ],
-   "e": "1024 elementli massivda ko'pi bilan ≈10 ta qadam."
+   "e": "i har qadamda ikki marta ortadi."
   },
   {
-   "b": "Saralash",
-   "q": "Pufakchali saralash (bubble sort)ning o'rtacha murakkabligi qanday?",
+   "b": "Murakkablik",
+   "q": "O-notatsiyada 3n² + 5n + 7 ifodasi qanday yoziladi?",
    "a": [
     "O(n²)",
-    "O(n log n)",
+    "O(3n²)",
     "O(n)",
-    "O(log n)"
+    "O(7)"
    ],
-   "e": "Qo'shni elementlar qayta-qayta solishtiriladi va almashtiriladi."
+   "e": "Eng tez o'suvchi had saqlanadi, koeffitsientlar tashlanadi."
   },
   {
-   "b": "Saralash",
-   "q": "Birlashtirib saralash (merge sort)ning murakkabligi qanday?",
+   "b": "Murakkablik",
+   "q": "Xotira (fazoviy) murakkabligi nimani tavsiflaydi?",
    "a": [
-    "O(n log n)",
-    "O(n²)",
-    "O(n)",
-    "O(2ⁿ)"
+    "Algoritm ishlatadigan qo'shimcha xotira hajmini",
+    "Algoritmning bajarilish vaqtini sekundlarda",
+    "Dastur fayli hajmini",
+    "Dastur fayli diskda egallaydigan hajm va uning kengaytmasini"
    ],
-   "e": "\"Bo'l va hukmronlik qil\" tamoyiliga asoslangan."
+   "e": "Masalan, merge sort O(n) qo'shimcha xotira talab qiladi."
   },
   {
-   "b": "Saralash",
-   "q": "Tez saralash (quick sort)da massiv qaysi element atrofida bo'linadi?",
+   "b": "Murakkablik",
+   "q": "Eng yaxshi, o'rtacha va eng yomon holat tahlili nima uchun kerak?",
    "a": [
-    "Tayanch (pivot) element",
-    "Doim birinchi element",
-    "Eng katta element",
-    "O'rta arifmetik qiymat"
+    "Algoritmning turli kirish ma'lumotlaridagi xatti-harakatini baholash uchun",
+    "Dasturni chiroyli formatlash uchun",
+    "Algoritm uchun eng qulay dasturlash tili va kompilyatorni tanlash uchun",
+    "Faqat xotirani o'lchash uchun"
    ],
-   "e": "Pivotdan kichiklar chapga, kattalar o'ngga o'tkaziladi."
+   "e": "Quicksort o'rtacha O(n log n), eng yomon holatda O(n²)."
   },
   {
-   "b": "Saralash",
-   "q": "Tez saralashning eng yomon holdagi murakkabligi qanday?",
+   "b": "Murakkablik",
+   "q": "Amortizatsiyalangan murakkablik nima?",
    "a": [
-    "O(n²)",
-    "O(n log n)",
-    "O(n)",
-    "O(log n)"
+    "Amallar ketma-ketligidagi o'rtacha xarajat",
+    "Eng yomon holatdagi bitta amal xarajati",
+    "Kompyuter elektr energiyasi sarfi",
+    "Algoritmni yozish va sinashga ketgan umumiy mehnat xarajati"
    ],
-   "e": "Pivot har safar eng kichik yoki eng katta bo'lib chiqsa."
+   "e": "Masalan, vector::push_back amortizatsiyalangan O(1)."
   },
   {
-   "b": "Chiziqli tuzilmalar",
-   "q": "Stek (stack) qaysi tamoyil asosida ishlaydi?",
+   "b": "Qidiruv",
+   "q": "Saralanmagan n elementli massivda chiziqli qidiruv o'rtacha nechta taqqoslash bajaradi?",
    "a": [
-    "LIFO — oxirgi kirgan birinchi chiqadi",
-    "FIFO — birinchi kirgan birinchi chiqadi",
-    "Tasodifiy tartibda",
-    "Ustuvorlik bo'yicha"
+    "Taxminan n/2",
+    "log n",
+    "1",
+    "n²"
    ],
-   "e": "Stek amallari: push va pop."
+   "e": "Element tasodifiy joyda bo'lsa."
   },
   {
-   "b": "Chiziqli tuzilmalar",
-   "q": "Navbat (queue) qaysi tamoyil asosida ishlaydi?",
+   "b": "Qidiruv",
+   "q": "1024 elementli saralangan massivda ikkilik qidiruv eng ko'pi bilan nechta qadam bajaradi?",
    "a": [
-    "FIFO",
-    "LIFO",
-    "Tasodifiy",
-    "Faqat oxiridan o'chirish"
+    "11",
+    "1024",
+    "512",
+    "32"
    ],
-   "e": "Element oxiriga qo'shiladi, boshidan olinadi."
+   "e": "log₂1024 = 10, ±1 qadam."
   },
   {
-   "b": "Chiziqli tuzilmalar",
-   "q": "Bog'langan ro'yxatning massivdan afzalligi nimada?",
+   "b": "Qidiruv",
+   "q": "Ikkilik qidiruvda o'rta element izlanayotgandan katta bo'lsa, qidiruv qayerda davom etadi?",
    "a": [
-    "O'rtaga element qo'shish va o'chirish ko'chirishsiz bajariladi",
-    "Indeks bo'yicha murojaat tezroq",
-    "Kamroq xotira talab qiladi har doim",
-    "Saralash shart emas"
+    "Chap yarmida",
+    "O'ng yarmida",
+    "Massiv boshidan",
+    "To'xtatiladi"
    ],
-   "e": "Kamchiligi: indeks bo'yicha murojaat O(n)."
+   "e": "Massiv o'sish tartibida saralangan deb olinadi."
   },
   {
-   "b": "Chiziqli tuzilmalar",
-   "q": "Qavslar muvozanatini tekshirish uchun qaysi tuzilma qulay?",
+   "b": "Qidiruv",
+   "q": "Interpolyatsion qidiruv qachon samarali?",
    "a": [
-    "Stek",
-    "Navbat",
-    "Xesh-jadval",
-    "Graf"
+    "Elementlar bir tekis taqsimlangan saralangan massivda",
+    "Saralanmagan va tasodifiy massivda",
+    "Faqat bo'sh massivda",
+    "Bog'langan ro'yxatda, elementlar tartibi noma'lum bo'lganda"
    ],
-   "e": "Ochiluvchi qavs stekka qo'shiladi, yopiluvchi kelganda olinadi."
+   "e": "O'rtacha murakkablik O(log log n)."
   },
   {
-   "b": "Daraxtlar",
-   "q": "Ikkilik qidiruv daraxtida chap qism daraxtdagi barcha qiymatlar ildizga nisbatan qanday bo'ladi?",
-   "a": [
-    "Kichik",
-    "Katta",
-    "Teng",
-    "Ixtiyoriy"
-   ],
-   "e": "O'ng qism daraxtdagi qiymatlar katta bo'ladi."
-  },
-  {
-   "b": "Daraxtlar",
-   "q": "Ikkilik qidiruv daraxtini simmetrik (in-order) aylanib chiqish qanday natija beradi?",
-   "a": [
-    "Qiymatlarni o'sish tartibida",
-    "Qiymatlarni kamayish tartibida",
-    "Faqat barglarni",
-    "Faqat ildizni"
-   ],
-   "e": "Tartib: chap — ildiz — o'ng."
-  },
-  {
-   "b": "Daraxtlar",
-   "q": "Daraxtdagi bolalari bo'lmagan tugun qanday ataladi?",
-   "a": [
-    "Barg",
-    "Ildiz",
-    "Ota tugun",
-    "Qirra"
-   ],
-   "e": "Ildiz — ota tuguni bo'lmagan yagona tugun."
-  },
-  {
-   "b": "Daraxtlar",
-   "q": "Uyum (heap) tuzilmasi qaysi masalada keng qo'llaniladi?",
-   "a": [
-    "Ustuvorlik navbati va heap sort",
-    "Matnni shifrlash",
-    "Fayllarni arxivlash",
-    "Rasm chizish"
-   ],
-   "e": "Max-heapda ildizda eng katta element turadi."
-  },
-  {
-   "b": "Xeshlash",
+   "b": "Qidiruv",
    "q": "Xesh-jadvalda qidiruvning o'rtacha murakkabligi qanday?",
    "a": [
     "O(1)",
@@ -200,84 +167,3142 @@
     "O(log n)",
     "O(n²)"
    ],
-   "e": "Kolliziyalar ko'p bo'lsa, eng yomon holda O(n)."
+   "e": "Xesh-funksiya to'g'ridan-to'g'ri joyni hisoblaydi."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Ikkilik qidiruv daraxtida (muvozanatli) qidiruv murakkabligi qanday?",
+   "a": [
+    "O(log n)",
+    "O(n²)",
+    "O(1)",
+    "O(n log n)"
+   ],
+   "e": "Muvozanatsiz daraxtda eng yomon holat O(n)."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Qatorda qism satrni izlashning KMP algoritmi qanday afzallikka ega?",
+   "a": [
+    "Taqqoslashlarni takrorlamasdan O(n + m) da ishlaydi",
+    "Har doim O(n·m) dan sekinroq ishlaydi",
+    "Faqat raqamlar uchun ishlaydi",
+    "Qo'shimcha xotira talab qilmaydi va eng sodda algoritm"
+   ],
+   "e": "Prefiks-funksiya oldindan hisoblanadi."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Ikkilik qidiruv massivdan tashqari yana qayerda qo'llaniladi?",
+   "a": [
+    "Monoton funksiya qiymatini topishda (javob bo'yicha qidiruv)",
+    "Faqat bog'langan ro'yxatlarda",
+    "Faqat graflarda eng qisqa yo'lni topishda",
+    "Faqat saralanmagan va takrorlanuvchi ma'lumotlarda"
+   ],
+   "e": "Masalan, tenglama ildizini bisektsiya usuli bilan topish."
+  },
+  {
+   "b": "Saralash",
+   "q": "Qaysi saralash algoritmi barqaror (stable)?",
+   "a": [
+    "Birlashtirib saralash (merge sort)",
+    "Tez saralash (quicksort) klassik ko'rinishda",
+    "Uyumli saralash (heapsort)",
+    "Tanlash orqali saralash"
+   ],
+   "e": "Barqaror saralashda teng elementlar nisbiy tartibi saqlanadi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Qo'yish orqali saralash (insertion sort) qachon samarali?",
+   "a": [
+    "Deyarli saralangan kichik massivlarda",
+    "Hech qachon samarali emas",
+    "Faqat teskari saralangan massivlarda",
+    "Juda katta, tasodifiy tartibdagi millionlab elementli massivlarda"
+   ],
+   "e": "Eng yaxshi holatda O(n)."
+  },
+  {
+   "b": "Saralash",
+   "q": "Uyumli saralash (heapsort) murakkabligi qanday?",
+   "a": [
+    "O(n log n)",
+    "O(n²)",
+    "O(n)",
+    "O(log n)"
+   ],
+   "e": "Barcha holatlarda O(n log n)."
+  },
+  {
+   "b": "Saralash",
+   "q": "Quicksort eng yomon holatda qanday murakkablikka ega?",
+   "a": [
+    "O(n²)",
+    "O(n log n)",
+    "O(n)",
+    "O(log n)"
+   ],
+   "e": "Tayanch har doim eng kichik yoki eng katta element bo'lsa."
+  },
+  {
+   "b": "Saralash",
+   "q": "Sanash orqali saralash (counting sort) qanday holatda qo'llaniladi?",
+   "a": [
+    "Qiymatlar diapazoni kichik butun sonlar bo'lganda",
+    "Satrlar juda uzun bo'lganda",
+    "Haqiqiy sonlar cheksiz diapazonda tarqalgan bo'lganda",
+    "Elementlar soni juda kam bo'lganda faqat"
+   ],
+   "e": "Murakkabligi O(n + k)."
+  },
+  {
+   "b": "Saralash",
+   "q": "Taqqoslashga asoslangan saralashning pastki chegarasi qanday?",
+   "a": [
+    "O(n log n)",
+    "O(n)",
+    "O(log n)",
+    "O(1)"
+   ],
+   "e": "Har qanday taqqoslash saralashi eng yomon holatda kamida n log n tartibida taqqoslash bajaradi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Pufakchali saralashda har bir o'tishdan keyin nima sodir bo'ladi?",
+   "a": [
+    "Eng katta element oxirga suriladi",
+    "Eng kichik element o'rtaga joylashadi",
+    "Massiv teskari tartibga keladi",
+    "Massiv ikkiga bo'linadi"
+   ],
+   "e": "Shuning uchun keyingi o'tishlar qisqaradi."
+  },
+  {
+   "b": "Saralash",
+   "q": "\"In-place\" (joyida) saralash nimani bildiradi?",
+   "a": [
+    "Qo'shimcha xotira deyarli talab qilinmaydi",
+    "Saralangan natija yangi massivga yoziladi",
+    "Saralash faqat diskda bajariladi",
+    "Saralash parallel ravishda bir necha protsessorda bajariladi"
+   ],
+   "e": "Quicksort va heapsort joyida saralaydi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Merge sort qaysi usulga asoslangan?",
+   "a": [
+    "Bo'l va hukmronlik qil",
+    "Ochko'z algoritm",
+    "Dinamik dasturlash",
+    "Orqaga qaytish (backtracking)"
+   ],
+   "e": "Massiv ikkiga bo'linib, saralangan qismlar birlashtiriladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Radix (razryad bo'yicha) saralash nimaga asoslangan?",
+   "a": [
+    "Sonlarni razryadlar bo'yicha ketma-ket saralash",
+    "Elementlarni tasodifiy aralashtirish",
+    "Tayanch element tanlash",
+    "Tayanch element atrofida massivni ikkiga bo'lib, rekursiv saralash"
+   ],
+   "e": "Har razryadda barqaror saralash qo'llaniladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Massivda indeks bo'yicha murojaat murakkabligi qanday?",
+   "a": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Manzil to'g'ridan-to'g'ri hisoblanadi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Massiv boshiga element qo'shish murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(1)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Barcha elementlarni surish kerak."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Bir tomonlama bog'langan ro'yxat tugunida nima saqlanadi?",
+   "a": [
+    "Qiymat va keyingi tugunga ko'rsatkich",
+    "Faqat qiymat",
+    "Qiymat va oldingi hamda keyingi tugunlarga ko'rsatkich",
+    "Faqat indeks"
+   ],
+   "e": "Ikki tomonlama ro'yxatda oldingisiga ham ko'rsatkich bor."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Bog'langan ro'yxatda k-elementga murojaat murakkabligi qanday?",
+   "a": [
+    "O(k)",
+    "O(1)",
+    "O(log k)",
+    "O(k²)"
+   ],
+   "e": "Boshidan ketma-ket o'tish kerak."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Stekning amaliy qo'llanilishiga misol qaysi?",
+   "a": [
+    "Qavslar balansini tekshirish",
+    "Printer navbatini boshqarish",
+    "Bank navbatini modellashtirish",
+    "Ma'lumotlarni saralash faqat"
+   ],
+   "e": "Funksiya chaqiruvlari ham stekda saqlanadi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Navbatning amaliy qo'llanilishiga misol qaysi?",
+   "a": [
+    "Printer topshiriqlari navbati",
+    "Funksiya chaqiruvlari steki",
+    "Qavslar balansini tekshirish",
+    "Rekursiyani amalga oshirish"
+   ],
+   "e": "Birinchi kelgan birinchi xizmat qilinadi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Halqasimon bufer (circular queue) nima?",
+   "a": [
+    "Oxiri boshiga ulangan massiv asosidagi navbat",
+    "Daraxt ko'rinishidagi stek",
+    "Saralangan ro'yxat",
+    "Ikki o'lchovli massiv ko'rinishidagi jadval"
+   ],
+   "e": "Xotiradan samarali foydalanish uchun."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Ustuvor navbat (priority queue) qanday ishlaydi?",
+   "a": [
+    "Eng yuqori ustuvorlikdagi element birinchi chiqadi",
+    "Elementlar tasodifiy tartibda chiqadi",
+    "Elementlar faqat kelish tartibida, ustuvorlikdan qat'i nazar chiqadi",
+    "Oxirgi kirgan element birinchi chiqadi"
+   ],
+   "e": "Odatda uyum (heap) asosida amalga oshiriladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Dinamik massiv (vector) to'lganda nima qilinadi?",
+   "a": [
+    "Kattaroq xotira ajratilib, elementlar ko'chiriladi",
+    "Yangi element qo'shish rad etiladi",
+    "Eski elementlar o'chiriladi",
+    "Massiv bog'langan ro'yxatga aylanadi"
+   ],
+   "e": "Odatda sig'im ikki baravar oshiriladi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Daraxtda ildiz nima?",
+   "a": [
+    "Ota-onasi bo'lmagan tugun",
+    "Farzandlari bo'lmagan tugun",
+    "Eng chuqur tugun",
+    "Ixtiyoriy tugun"
+   ],
+   "e": "Farzandsiz tugunlar barglar deyiladi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik daraxtda har bir tugun nechta farzandga ega bo'lishi mumkin?",
+   "a": [
+    "Ko'pi bilan 2 ta",
+    "Aniq 2 ta",
+    "Cheksiz",
+    "Faqat 1 ta"
+   ],
+   "e": "Chap va o'ng farzand."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Daraxt balandligi nima?",
+   "a": [
+    "Ildizdan eng uzoq bargacha bo'lgan yo'l uzunligi",
+    "Ildiz tugunining tartib raqami",
+    "Daraxtdagi barcha tugunlar va barglar soni yig'indisi",
+    "Ildiz qiymati"
+   ],
+   "e": "Muvozanatli daraxtda balandlik ≈ log n."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik qidiruv daraxtini simmetrik (in-order) aylanib chiqish natijasi qanday?",
+   "a": [
+    "Saralangan ketma-ketlik",
+    "Teskari tartib har doim",
+    "Tasodifiy tartib",
+    "Faqat ildiz qiymati"
+   ],
+   "e": "Chap → ildiz → o'ng."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Prefiks (pre-order) aylanib chiqish tartibi qaysi?",
+   "a": [
+    "Ildiz → chap → o'ng",
+    "Chap → ildiz → o'ng",
+    "Chap → o'ng → ildiz",
+    "O'ng → chap → ildiz"
+   ],
+   "e": "Postfiks (post-order): chap → o'ng → ildiz."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "AVL daraxtining xususiyati nima?",
+   "a": [
+    "Har bir tugunda chap va o'ng qism daraxtlar balandliklari farqi 1 dan oshmaydi",
+    "Har bir tugun aniq ikkita farzandga ega bo'ladi",
+    "Daraxt faqat bitta tarmoqdan iborat bo'ladi",
+    "Barglar hammasi bir xil qiymatga ega"
+   ],
+   "e": "Burilishlar orqali muvozanat saqlanadi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Uyum (heap) qanday daraxt?",
+   "a": [
+    "Ota tugun farzandlaridan katta (yoki kichik) bo'lgan to'liq ikkilik daraxt",
+    "Ikkilik qidiruv daraxti (chap < ota < o'ng)",
+    "Faqat barglardan iborat daraxt",
+    "Elementlari tasodifiy joylashgan va tartiblanmagan ixtiyoriy daraxt"
+   ],
+   "e": "Max-heap va min-heap."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Uyumda eng katta elementni olish (max-heap) murakkabligi qanday?",
+   "a": [
+    "O(log n)",
+    "O(n)",
+    "O(n²)",
+    "O(n log n)"
+   ],
+   "e": "Ildiz olinadi va uyum tiklanadi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "To'liq ikkilik daraxtda balandligi h bo'lsa, ko'pi bilan nechta tugun bo'ladi?",
+   "a": [
+    "2^(h+1) − 1",
+    "2h",
+    "h²",
+    "h + 1"
+   ],
+   "e": "Ildiz balandligi 0 deb olinganda."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Trie (prefiks daraxt) nima uchun ishlatiladi?",
+   "a": [
+    "Satrlarni prefiks bo'yicha samarali saqlash va izlash",
+    "Sonlarni saralash uchun",
+    "Graflarda eng qisqa yo'lni topish uchun",
+    "Faylni siqish uchun faqat"
+   ],
+   "e": "Masalan, avtomatik to'ldirish (autocomplete)."
   },
   {
    "b": "Xeshlash",
-   "q": "Ikki turli kalit bir xil xesh qiymat bersa, bu qanday ataladi?",
+   "q": "Xesh-funksiyaning vazifasi nima?",
    "a": [
-    "Kolliziya",
-    "Rekursiya",
-    "Iteratsiya",
-    "Overflow"
+    "Kalitni jadval indeksiga aylantirish",
+    "Ma'lumotni saralash",
+    "Ma'lumotni o'chirish",
+    "Ma'lumotni shifrlab, qayta tiklab bo'lmaydigan qilish faqat"
    ],
-   "e": "Zanjirlar yoki ochiq adreslash usullari bilan hal qilinadi."
+   "e": "Yaxshi xesh-funksiya kalitlarni bir tekis taqsimlaydi."
   },
   {
-   "b": "Graflar",
-   "q": "Grafni kenglik bo'yicha aylanib chiqish (BFS) qaysi tuzilmadan foydalanadi?",
+   "b": "Xeshlash",
+   "q": "Kolliziya (to'qnashuv) nima?",
    "a": [
-    "Navbat",
-    "Stek",
-    "Xesh-jadval",
-    "Uyum"
+    "Turli kalitlarning bir xil xesh qiymat olishi",
+    "Bir kalitning ikki marta qo'shilishi",
+    "Xesh-funksiyaning kalitni hisoblay olmay, xato qaytarishi",
+    "Xesh-jadvalning bo'sh bo'lishi"
    ],
-   "e": "Chuqurlik bo'yicha aylanib chiqish (DFS) stek yoki rekursiyadan foydalanadi."
+   "e": "Kolliziyalarni hal qilish usullari zarur."
   },
   {
-   "b": "Graflar",
-   "q": "Manfiy bo'lmagan og'irlikli grafda eng qisqa yo'lni topish algoritmi qaysi?",
+   "b": "Xeshlash",
+   "q": "Kolliziyani hal qilishning zanjir (chaining) usuli nima?",
    "a": [
-    "Deykstra algoritmi",
-    "Pufakchali saralash",
-    "Ikkilik qidiruv",
-    "Evklid algoritmi"
+    "Bir indeksdagi elementlar ro'yxatda saqlanadi",
+    "To'qnashuvda keyingi bo'sh katak izlanadi",
+    "Element jadvaldan o'chiriladi",
+    "Jadval avtomatik ikki baravar kattalashtiriladi har safar"
    ],
-   "e": "Deykstra algoritmi manfiy og'irlikli qirralarda to'g'ri ishlamaydi."
+   "e": "Ochiq manzillash esa boshqa bo'sh katakni izlaydi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Xesh-jadval to'ldirish koeffitsienti (load factor) nima?",
+   "a": [
+    "Elementlar sonining jadval o'lchamiga nisbati",
+    "Kalitlar uzunligi",
+    "Xesh-funksiya qiymati",
+    "Jadvaldagi bo'sh kataklar sonining to'la kataklarga nisbati"
+   ],
+   "e": "Koeffitsient oshsa, kolliziyalar ko'payadi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Chiziqli zondlash (linear probing) nima?",
+   "a": [
+    "Kolliziyada keyingi kataklarni ketma-ket tekshirish",
+    "Jadvalni saralash",
+    "Kolliziyada elementni alohida bog'langan ro'yxatga qo'shish",
+    "Elementni o'chirish"
+   ],
+   "e": "Ochiq manzillash usullaridan biri."
   },
   {
    "b": "Graflar",
    "q": "Graf qanday elementlardan iborat?",
    "a": [
-    "Uchlar (tugunlar) va qirralar",
-    "Faqat sonlar",
-    "Satrlar va ustunlar",
-    "Kalit va qiymatlar"
+    "Uchlar va qirralar",
+    "Faqat ildiz va barglar, ular orasida yo'nalishsiz bog'lanishlar bo'lmaydi",
+    "Faqat massiv elementlari",
+    "Satrlar va ustunlar"
    ],
-   "e": "Graf qo'shnilik matritsasi yoki ro'yxati bilan ifodalanadi."
+   "e": "G = (V, E)."
+  },
+  {
+   "b": "Graflar",
+   "q": "Yo'nalgan graf (orgraf) nima?",
+   "a": [
+    "Qirralari yo'nalishga ega graf",
+    "Qirralari yo'nalishsiz, ikki tomonlama bo'lgan graf",
+    "Faqat bitta uchdan iborat graf",
+    "Siklsiz daraxt"
+   ],
+   "e": "Qirra (u, v) u dan v ga yo'nalgan."
+  },
+  {
+   "b": "Graflar",
+   "q": "Vaznli graf nima?",
+   "a": [
+    "Qirralariga son (vazn) berilgan graf",
+    "Uchlari og'irlik bo'yicha saralangan graf",
+    "Faqat ikki uchli graf",
+    "Qirralari bo'lmagan graf"
+   ],
+   "e": "Vazn masofa, narx yoki vaqtni ifodalashi mumkin."
+  },
+  {
+   "b": "Graflar",
+   "q": "Grafni qo'shnilik matritsasi bilan ifodalash xotira murakkabligi qanday?",
+   "a": [
+    "O(V²)",
+    "O(V + E)",
+    "O(E)",
+    "O(log V)"
+   ],
+   "e": "Siyrak graflar uchun qo'shnilik ro'yxati tejamkor."
+  },
+  {
+   "b": "Graflar",
+   "q": "Qo'shnilik ro'yxati qanday graflar uchun samaraliroq?",
+   "a": [
+    "Siyrak graflar",
+    "To'liq (zich) graflar",
+    "Faqat daraxtlar",
+    "Faqat bitta qirrali graflar"
+   ],
+   "e": "Xotira O(V + E)."
+  },
+  {
+   "b": "Graflar",
+   "q": "Kenglik bo'yicha qidiruv (BFS) qaysi ma'lumotlar tuzilmasidan foydalanadi?",
+   "a": [
+    "Navbat",
+    "Stek",
+    "Uyum",
+    "Xesh-jadval"
+   ],
+   "e": "Uchlar qatlam-qatlam ko'rib chiqiladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Chuqurlik bo'yicha qidiruv (DFS) qaysi tuzilmadan foydalanadi?",
+   "a": [
+    "Stek (yoki rekursiya)",
+    "Navbat",
+    "Ustuvor navbat",
+    "Massiv faqat"
+   ],
+   "e": "Bir yo'nalishda imkon qadar chuqur boriladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "BFS va DFS ning murakkabligi (qo'shnilik ro'yxatida) qanday?",
+   "a": [
+    "O(V + E)",
+    "O(V²) har doim",
+    "O(E log V)",
+    "O(1)"
+   ],
+   "e": "Har bir uch va qirra bir marta ko'riladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Vaznsiz grafda eng qisqa yo'lni topish uchun qaysi algoritm mos?",
+   "a": [
+    "BFS",
+    "DFS",
+    "Kruskal",
+    "Pufakchali saralash"
+   ],
+   "e": "BFS qirralar soni bo'yicha eng qisqa yo'lni beradi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Manfiy bo'lmagan vaznli grafda eng qisqa yo'lni topish algoritmi qaysi?",
+   "a": [
+    "Deykstra",
+    "Kruskal",
+    "Prima",
+    "Topologik saralash"
+   ],
+   "e": "Ustuvor navbat bilan O((V + E) log V)."
+  },
+  {
+   "b": "Graflar",
+   "q": "Manfiy vaznli qirralar bo'lganda eng qisqa yo'lni qaysi algoritm topadi?",
+   "a": [
+    "Bellman–Ford",
+    "Deykstra",
+    "BFS",
+    "Prima"
+   ],
+   "e": "Manfiy sikllarni ham aniqlay oladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Barcha juftliklar orasidagi eng qisqa yo'llarni topish algoritmi qaysi?",
+   "a": [
+    "Floyd–Uorshall",
+    "Deykstra (bitta manba)",
+    "BFS",
+    "Kruskal"
+   ],
+   "e": "Murakkabligi O(V³)."
+  },
+  {
+   "b": "Graflar",
+   "q": "Minimal qoplovchi daraxt (MST) ni topish algoritmlari qaysi?",
+   "a": [
+    "Kruskal va Prima",
+    "Deykstra va Bellman–Ford",
+    "BFS va DFS",
+    "Quicksort va Merge sort"
+   ],
+   "e": "MST barcha uchlarni minimal umumiy vazn bilan bog'laydi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Kruskal algoritmi qanday ishlaydi?",
+   "a": [
+    "Qirralarni vazn bo'yicha saralab, sikl hosil qilmaydiganlarini qo'shadi",
+    "Bitta uchdan boshlab, eng yaqin uchni ketma-ket qo'shib boradi",
+    "Grafni chuqurlik bo'yicha aylanib chiqib, uchragan barcha qirralarni ketma-ket qo'shadi",
+    "Barcha yo'llarni sanaydi"
+   ],
+   "e": "Sikllarni tekshirish uchun DSU (birlashtirib-topish) ishlatiladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Topologik saralash qanday graflarda bajariladi?",
+   "a": [
+    "Siklsiz yo'nalgan graflarda (DAG)",
+    "Har qanday yo'nalishsiz graflarda",
+    "Faqat to'liq graflarda",
+    "Faqat vaznli graflarda"
+   ],
+   "e": "Masalan, vazifalar bajarilish tartibini aniqlash."
+  },
+  {
+   "b": "Graflar",
+   "q": "Daraxt grafning qanday turi?",
+   "a": [
+    "Bog'langan va siklsiz graf",
+    "Har bir uch boshqa barcha uchlar bilan bog'langan graf",
+    "Kamida bitta siklga ega graf",
+    "Bog'lanmagan graf"
+   ],
+   "e": "n uchli daraxtda n − 1 qirra bor."
+  },
+  {
+   "b": "Graflar",
+   "q": "Uchning darajasi nima?",
+   "a": [
+    "Unga tutashgan qirralar soni",
+    "Uchning ildizdan uzoqligi, ya'ni unga olib boruvchi eng qisqa yo'l uzunligi",
+    "Uchning qiymati",
+    "Uchning tartib raqami"
+   ],
+   "e": "Yo'nalgan grafda kirish va chiqish darajalari ajratiladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Eyler sikli nima?",
+   "a": [
+    "Har bir qirradan bir martadan o'tuvchi yopiq yo'l",
+    "Har bir uchdan bir martadan o'tuvchi yopiq yo'l",
+    "Eng qisqa yo'l",
+    "Eng uzun yo'l"
+   ],
+   "e": "Gamilton sikli har bir uchdan bir marta o'tadi."
   },
   {
    "b": "Algoritm usullari",
-   "q": "Evklid algoritmi nimani topish uchun ishlatiladi?",
+   "q": "Rekursiya va iteratsiyaning farqi nima?",
    "a": [
-    "Ikki sonning EKUBini",
-    "Sonning faktorialini",
-    "Massiv yig'indisini",
-    "Eng qisqa yo'lni"
+    "Rekursiya funksiyani o'zini chaqirish, iteratsiya — sikl orqali takrorlash",
+    "Rekursiya faqat sikl operatorlari bilan, iteratsiya esa faqat funksiyalar bilan yoziladi",
+    "Ular o'rtasida farq yo'q",
+    "Iteratsiya har doim sekinroq"
    ],
-   "e": "EKUB(a, b) = EKUB(b, a mod b)."
+   "e": "Har qanday rekursiyani iteratsiyaga aylantirish mumkin."
   },
   {
    "b": "Algoritm usullari",
-   "q": "Dinamik dasturlashning asosiy g'oyasi nima?",
+   "q": "Dinamik dasturlash qanday masalalarga qo'llaniladi?",
    "a": [
-    "Takrorlanuvchi kichik masalalar yechimlarini saqlab, qayta hisoblamaslik",
-    "Masalani tasodifiy yechish",
-    "Faqat rekursiyasiz ishlash",
-    "Barcha variantlarni har safar qayta hisoblash"
+    "Ustma-ust tushuvchi kichik masalalarga ega masalalarga",
+    "Faqat saralash masalalariga",
+    "Faqat saralash va qidiruv kabi bitta qadamda yechiladigan masalalarga",
+    "Faqat tasodifiy masalalarga"
    ],
-   "e": "Masalan, Fibonachchi sonlarini memoizatsiya bilan hisoblash."
+   "e": "Optimal qism tuzilma va takrorlanuvchi kichik masalalar."
   },
   {
    "b": "Algoritm usullari",
-   "q": "Faktorialni rekursiv hisoblashda to'xtash sharti qaysi bo'ladi?",
+   "q": "Memoizatsiya nima?",
    "a": [
-    "n = 0 (yoki n = 1) bo'lganda 1 qaytarish",
-    "n manfiy bo'lganda davom etish",
-    "To'xtash sharti kerak emas",
-    "n = 10 bo'lganda"
+    "Funksiya natijalarini saqlab, qayta hisoblamaslik",
+    "Funksiyani xotiradan o'chirib, uni qayta yuklash orqali tezlashtirish",
+    "Dastur matnini yodlab olish",
+    "Funksiyani tezroq yozish"
    ],
-   "e": "To'xtash sharti bo'lmasa, stek to'lib ketadi."
+   "e": "\"Yuqoridan pastga\" dinamik dasturlash."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Fibonachchi sonlarini dinamik dasturlash bilan hisoblash murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(2ⁿ)",
+    "O(n²)",
+    "O(log n) har doim"
+   ],
+   "e": "Har bir qiymat bir marta hisoblanadi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Ochko'z algoritmga misol qaysi?",
+   "a": [
+    "Tangalar bilan qaytim berishda eng katta tangani tanlash",
+    "Barcha variantlarni to'liq sanab chiqib, eng yaxshisini tanlash",
+    "Bo'l va hukmronlik qil",
+    "Orqaga qaytish usuli"
+   ],
+   "e": "Ba'zi tanga tizimlarida optimal natija bermaydi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Orqaga qaytish (backtracking) usuli nimaga asoslangan?",
+   "a": [
+    "Yechimni bosqichma-bosqich qurib, noto'g'ri yo'ldan qaytish",
+    "Har qadamda faqat eng yaxshi tanlovni qilib, hech qachon qaytmaslik",
+    "Masalani ikkiga bo'lish",
+    "Natijalarni jadvalda saqlash"
+   ],
+   "e": "Masalan, 8 ta farzin masalasi, sudoku."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "To'liq tanlash (brute force) usulining kamchiligi nima?",
+   "a": [
+    "Katta kirishlarda juda sekin ishlaydi",
+    "Yozish juda qiyin va har doim noto'g'ri natija beradi",
+    "Faqat saralangan ma'lumotlarda ishlaydi",
+    "Xotira umuman talab qilmaydi"
+   ],
+   "e": "Barcha variantlar ko'rib chiqiladi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Ikki ko'rsatkich (two pointers) usuli qanday masalalarda qo'llaniladi?",
+   "a": [
+    "Saralangan massivda juftlik izlashda",
+    "Graflarda eng qisqa yo'l topishda",
+    "Faylni siqishda",
+    "Daraxt qurishda"
+   ],
+   "e": "Masalan, yig'indisi berilgan songa teng juftlik."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Sirpanuvchi oyna (sliding window) usuli nima uchun ishlatiladi?",
+   "a": [
+    "Massivning uzluksiz qism oraliqlarini samarali qayta ishlash uchun",
+    "Grafik oynalarni ekranda harakatlantirish va ularning o'lchamini o'zgartirish uchun",
+    "Faylni ochish uchun",
+    "Saralash uchun faqat"
+   ],
+   "e": "Masalan, k uzunlikdagi qism massivlar yig'indisi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Prefiks yig'indilar nima uchun qo'llaniladi?",
+   "a": [
+    "Oraliq yig'indisini O(1) da hisoblash uchun",
+    "Massivni o'sish tartibida tez saralash uchun",
+    "Elementlarni o'chirish uchun",
+    "Grafni ifodalash uchun"
+   ],
+   "e": "sum(l, r) = pref[r] − pref[l − 1]."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Evklid algoritmi murakkabligi qanday?",
+   "a": [
+    "O(log min(a, b))",
+    "O(a · b)",
+    "O(a + b)",
+    "O(1)"
+   ],
+   "e": "Har ikki qadamda son kamida ikki marta kamayadi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik qidiruv daraxtiga yangi element qo'shish (muvozanatli holda) murakkabligi qanday?",
+   "a": [
+    "O(log n)",
+    "O(1)",
+    "O(n²)",
+    "O(n log n)"
+   ],
+   "e": "Ildizdan bargacha yo'l bo'ylab joy izlanadi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik qidiruv daraxtidan ikki farzandli tugunni o'chirishda nima qilinadi?",
+   "a": [
+    "O'ng qism daraxtdagi eng kichik (yoki chapdagi eng katta) element bilan almashtiriladi",
+    "Tugun butun qism daraxti bilan birga o'chirib yuboriladi va daraxt qisqaradi",
+    "Ildiz o'chiriladi",
+    "Daraxt qaytadan quriladi har doim"
+   ],
+   "e": "Voris (successor) yoki oldingi element ishlatiladi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Qizil-qora daraxt qanday daraxt?",
+   "a": [
+    "O'z-o'zini muvozanatlovchi ikkilik qidiruv daraxti",
+    "Faqat ikki xil rangli qiymatlarni saqlovchi oddiy ro'yxat",
+    "Grafning bir turi",
+    "Uyum turi"
+   ],
+   "e": "C++ dagi map va set odatda qizil-qora daraxt asosida."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "B-daraxtlar qayerda keng qo'llaniladi?",
+   "a": [
+    "Ma'lumotlar bazalari va fayl tizimlarida",
+    "Faqat kompyuter o'yinlari va grafika dasturlarida",
+    "Faqat grafikada",
+    "Faqat shifrlashda"
+   ],
+   "e": "Disk murojaatlarini kamaytirish uchun ko'p tarmoqli."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Massiv ko'rinishidagi uyumda i-indeksli tugunning chap farzandi indeksi qanday (0 dan boshlab)?",
+   "a": [
+    "2i + 1",
+    "2i",
+    "i + 1",
+    "i / 2"
+   ],
+   "e": "O'ng farzand — 2i + 2, ota — (i − 1) / 2."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Segment daraxti nima uchun ishlatiladi?",
+   "a": [
+    "Oraliq so'rovlarni tez bajarish uchun",
+    "Satrlarni saralash uchun",
+    "Graflarda sikl topish va uchlar darajasini hisoblash uchun",
+    "Faylni siqish uchun"
+   ],
+   "e": "So'rov va yangilash O(log n)."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Xaffman daraxti nima uchun quriladi?",
+   "a": [
+    "Ma'lumotlarni optimal prefiks kodlar bilan siqish uchun",
+    "Graflarda sikllarni aniqlash uchun",
+    "Massivni saralash va eng qisqa yo'lni topish uchun",
+    "Xesh-jadval qurish uchun"
+   ],
+   "e": "Ko'p uchraydigan belgilar qisqa kod oladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Ikki tomonlama bog'langan ro'yxatning bir tomonlamadan afzalligi nima?",
+   "a": [
+    "Ikki yo'nalishda harakatlanish mumkin",
+    "Kamroq xotira egallaydi",
+    "Indeks bo'yicha O(1) murojaat",
+    "Avtomatik saralanadi"
+   ],
+   "e": "Har tugun ikki ko'rsatkich saqlaydi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Stek yordamida qaysi masalani yechish qulay?",
+   "a": [
+    "Postfiks ifodani hisoblash",
+    "Bank navbatini modellashtirish",
+    "Grafda BFS",
+    "Massivni tasodifiy aralashtirish"
+   ],
+   "e": "Operandlar stekka qo'yiladi, amal kelganda olinadi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Bog'langan ro'yxat boshiga element qo'shish murakkabligi qanday?",
+   "a": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Faqat bosh ko'rsatkichni o'zgartirish kifoya."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Massiv va bog'langan ro'yxatdan qaysi biri keshga mosroq?",
+   "a": [
+    "Massiv",
+    "Bog'langan ro'yxat",
+    "Ikkalasi bir xil",
+    "Hech qaysisi"
+   ],
+   "e": "Massiv elementlari xotirada ketma-ket joylashgan."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Deque da ikkala uchdan qo'shish murakkabligi qanday?",
+   "a": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Ikki tomonlama navbat."
+  },
+  {
+   "b": "Saralash",
+   "q": "Qaysi saralash eng yomon holatda ham O(n log n) kafolatlaydi?",
+   "a": [
+    "Merge sort",
+    "Quicksort",
+    "Bubble sort",
+    "Insertion sort"
+   ],
+   "e": "Heapsort ham kafolatlaydi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Quicksort da tayanch elementni tasodifiy tanlash nima uchun foydali?",
+   "a": [
+    "Eng yomon holat ehtimolini kamaytiradi",
+    "Algoritmni barqaror (stable) qiladi va qo'shimcha xotirani nolga tushiradi",
+    "Massivni teskari tartibda saralaydi",
+    "Murakkablikni O(n) ga tushiradi"
+   ],
+   "e": "Saralangan massivda ham o'rtacha O(n log n) bo'ladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Tashqi saralash qachon kerak bo'ladi?",
+   "a": [
+    "Ma'lumotlar operativ xotiraga sig'maganda",
+    "Massiv juda kichik bo'lganda",
+    "Elementlar allaqachon saralangan bo'lganda",
+    "Faqat satrlar uchun"
+   ],
+   "e": "Odatda bo'laklab merge sort qo'llaniladi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Yaxshi xesh-funksiyaning xususiyati qaysi?",
+   "a": [
+    "Kalitlarni jadval bo'ylab bir tekis taqsimlaydi",
+    "Barcha kalitlarga bir xil qiymat beradi",
+    "Hisoblash juda uzoq davom etadi",
+    "Faqat sonlar uchun ishlaydi"
+   ],
+   "e": "Shuningdek tez hisoblanishi kerak."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Jadvalni qayta xeshlash (rehashing) qachon bajariladi?",
+   "a": [
+    "To'ldirish koeffitsienti belgilangan chegaradan oshganda",
+    "Jadvalda birorta ham element qolmaganda, ya'ni u bo'shatilganda",
+    "Har bir qo'shishda",
+    "Hech qachon"
+   ],
+   "e": "Jadval kattalashtirilib, elementlar qayta joylanadi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Kriptografik xesh-funksiyaga misol qaysi?",
+   "a": [
+    "SHA-256",
+    "CRC faqat",
+    "Modulga bo'lish",
+    "Tasodifiy son"
+   ],
+   "e": "Kriptografik xeshda kolliziyalarni topish amalda imkonsiz."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "n elementli massivdagi barcha juftliklarni ko'rib chiqish murakkabligi qanday?",
+   "a": [
+    "O(n²)",
+    "O(n)",
+    "O(log n)",
+    "O(n log n)"
+   ],
+   "e": "n(n − 1)/2 ta juftlik."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "n elementli to'plamning barcha qism to'plamlarini sanash murakkabligi qanday?",
+   "a": [
+    "O(2ⁿ)",
+    "O(n²)",
+    "O(n)",
+    "O(n!)"
+   ],
+   "e": "2ⁿ ta qism to'plam mavjud."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "n elementning barcha o'rin almashtirishlarini sanash murakkabligi qanday?",
+   "a": [
+    "O(n!)",
+    "O(2ⁿ)",
+    "O(n²)",
+    "O(n log n)"
+   ],
+   "e": "n! ta o'rin almashtirish."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Algoritm 1 sekundda taxminan 10⁸ amal bajarsa, n = 10⁵ uchun qaysi murakkablik maqbul?",
+   "a": [
+    "O(n log n)",
+    "O(n²)",
+    "O(n³)",
+    "O(2ⁿ)"
+   ],
+   "e": "n log n ≈ 1,7·10⁶; n² = 10¹⁰ — juda sekin."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Big-Theta (Θ) belgisi nimani bildiradi?",
+   "a": [
+    "Yuqori va pastki chegara bir xil tartibda",
+    "Faqat yuqori chegara",
+    "Faqat pastki chegara",
+    "Algoritmning aniq ishlash vaqti sekundlarda"
+   ],
+   "e": "O — yuqori chegara, Ω — pastki chegara."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Rekursiv binary search ning xotira murakkabligi qanday?",
+   "a": [
+    "O(log n)",
+    "O(1)",
+    "O(n)",
+    "O(n²)"
+   ],
+   "e": "Rekursiya chuqurligi log n."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Massivda maksimal elementni topish uchun minimal nechta taqqoslash kerak?",
+   "a": [
+    "n − 1",
+    "n²",
+    "log n",
+    "1"
+   ],
+   "e": "Har bir element (birinchisidan tashqari) bir marta solishtiriladi."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Saralangan massivda berilgan sondan katta birinchi elementni topish uchun qaysi funksiya ishlatiladi (C++)?",
+   "a": [
+    "upper_bound()",
+    "find()",
+    "count()",
+    "reverse()"
+   ],
+   "e": "lower_bound() — katta yoki teng birinchi element."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Bog'langan ro'yxatda ikkilik qidiruv nima uchun samarasiz?",
+   "a": [
+    "O'rta elementga O(1) da murojaat qilib bo'lmaydi",
+    "Bog'langan ro'yxat hech qachon saralanmagan bo'ladi",
+    "Ro'yxat elementlari faqat satr bo'ladi",
+    "Ikkilik qidiruv faqat graflarda ishlaydi"
+   ],
+   "e": "O'rtaga borish uchun O(n) yurish kerak."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Grafda uchdan uchga yo'l mavjudligini tekshirish uchun nima ishlatiladi?",
+   "a": [
+    "BFS yoki DFS",
+    "Pufakchali saralash",
+    "Xesh-funksiya",
+    "Prefiks yig'indi"
+   ],
+   "e": "Boshlang'ich uchdan aylanib, maqsadga yetish tekshiriladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "{5, 1, 4, 2} massivi pufakchali saralashning birinchi o'tishidan keyin qanday bo'ladi?",
+   "a": [
+    "{1, 4, 2, 5}",
+    "{1, 2, 4, 5}",
+    "{5, 4, 2, 1}",
+    "{1, 5, 4, 2}"
+   ],
+   "e": "5 ketma-ket almashtirilib oxiriga suriladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "{3, 1, 2} massivini tanlash orqali saralashda birinchi qadamdan keyin qanday bo'ladi?",
+   "a": [
+    "{1, 3, 2}",
+    "{1, 2, 3}",
+    "{3, 2, 1}",
+    "{2, 1, 3}"
+   ],
+   "e": "Eng kichik element (1) birinchi o'rin bilan almashtiriladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Ikki saralangan massivni birlashtirish (merge) murakkabligi qanday?",
+   "a": [
+    "O(n + m)",
+    "O(n · m)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Har bir element bir marta ko'rib chiqiladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Shell saralash qaysi algoritmning takomillashgan ko'rinishi?",
+   "a": [
+    "Qo'yish orqali saralash",
+    "Pufakchali saralash",
+    "Merge sort",
+    "Counting sort"
+   ],
+   "e": "Elementlar ma'lum oraliq bilan solishtiriladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Satrlarni leksikografik saralash nimani anglatadi?",
+   "a": [
+    "Lug'atdagi kabi alifbo tartibida saralash",
+    "Uzunligi bo'yicha saralash",
+    "Tasodifiy tartibda joylashtirish",
+    "Har bir satrdagi unli harflar sonini hisoblab, shu son bo'yicha tartiblash"
+   ],
+   "e": "\"apple\" < \"banana\"."
+  },
+  {
+   "b": "Saralash",
+   "q": "Saralash algoritmini tanlashda nimalar hisobga olinadi?",
+   "a": [
+    "Ma'lumot hajmi, holati, xotira va barqarorlik talabi",
+    "Faqat dasturchining shaxsiy xohishi",
+    "Faqat algoritm yaratilgan yil va muallifning mashhurligi",
+    "Faqat algoritm nomining uzunligi"
+   ],
+   "e": "Masalan, kichik massivlar uchun insertion sort, katta uchun merge yoki quicksort."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "\"(()\" qavslar ketma-ketligini stek bilan tekshirganda natija qanday?",
+   "a": [
+    "Balanslanmagan",
+    "Balanslangan",
+    "Bo'sh",
+    "Aniqlab bo'lmaydi"
+   ],
+   "e": "Oxirida stekda bitta ochiq qavs qoladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Stekka 1, 2, 3 ketma-ket qo'shilib, ikki marta pop() qilinsa, stek tepasida nima qoladi?",
+   "a": [
+    "1",
+    "3",
+    "2",
+    "Bo'sh"
+   ],
+   "e": "3 va 2 olinadi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Navbatga 1, 2, 3 qo'shilib, bir marta olinsa (dequeue), navbat boshida nima bo'ladi?",
+   "a": [
+    "2",
+    "1",
+    "3",
+    "Bo'sh"
+   ],
+   "e": "Birinchi kirgan 1 olinadi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Bog'langan ro'yxatni teskari aylantirish murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(n²)",
+    "O(1)",
+    "O(log n)"
+   ],
+   "e": "Har bir tugun ko'rsatkichi bir marta o'zgartiriladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Bog'langan ro'yxatda sikl borligini aniqlashning mashhur usuli qaysi?",
+   "a": [
+    "Ikki ko'rsatkich (sekin va tez)",
+    "Ro'yxatni saralash",
+    "Ro'yxatni massivga nusxalash har doim",
+    "Xesh-funksiyani o'chirish"
+   ],
+   "e": "Floyd algoritmi (\"toshbaqa va quyon\")."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Ikki stek yordamida qaysi tuzilmani amalga oshirish mumkin?",
+   "a": [
+    "Navbat",
+    "Daraxt",
+    "Graf",
+    "Xesh-jadval"
+   ],
+   "e": "Bir stek kiritish, ikkinchisi chiqarish uchun."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "7 tugunli to'liq ikkilik daraxtning balandligi qancha (ildiz 0)?",
+   "a": [
+    "2",
+    "3",
+    "7",
+    "1"
+   ],
+   "e": "1 + 2 + 4 = 7 tugun."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik qidiruv daraxtiga 5, 3, 8, 1 ketma-ket qo'shilsa, 1 qayerda joylashadi?",
+   "a": [
+    "3 ning chap farzandi",
+    "8 ning chap farzandi",
+    "5 ning o'ng farzandi",
+    "Ildiz"
+   ],
+   "e": "1 < 5 → chapga, 1 < 3 → chapga."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Saralangan ketma-ketlikni ikkilik qidiruv daraxtiga ketma-ket qo'shsak qanday daraxt hosil bo'ladi?",
+   "a": [
+    "Ro'yxatga o'xshash (muvozanatsiz) daraxt",
+    "To'liq muvozanatlangan daraxt",
+    "Bo'sh daraxt",
+    "Uyum"
+   ],
+   "e": "Balandlik n bo'lib, amallar O(n) gacha sekinlashadi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Daraxtni qatlam bo'yicha (level-order) aylanib chiqish uchun nima ishlatiladi?",
+   "a": [
+    "Navbat",
+    "Stek",
+    "Xesh-jadval",
+    "Saralash"
+   ],
+   "e": "BFS bilan bir xil."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "n tugunli ikkilik daraxtda nechta qirra bor?",
+   "a": [
+    "n − 1",
+    "n",
+    "2n",
+    "n + 1"
+   ],
+   "e": "Har bir tugun (ildizdan tashqari) bitta otaga ega."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ifoda daraxtida barglarda nima saqlanadi?",
+   "a": [
+    "Operandlar",
+    "Operatorlar",
+    "Qavslar",
+    "Funksiya nomlari faqat"
+   ],
+   "e": "Ichki tugunlarda operatorlar."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "h(k) = k mod 10 xesh-funksiyasida 25 va 35 kalitlari uchun nima yuz beradi?",
+   "a": [
+    "Kolliziya",
+    "Ular turli kataklarga tushadi",
+    "Xatolik",
+    "Jadval o'chadi"
+   ],
+   "e": "Ikkalasi ham 5-katakka tushadi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "h(k) = k mod 7 da 23 kaliti qaysi katakka tushadi?",
+   "a": [
+    "2",
+    "3",
+    "23",
+    "7"
+   ],
+   "e": "23 = 3·7 + 2."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Xesh-to'plam (unordered_set) massivdan qanday afzallikka ega?",
+   "a": [
+    "Elementning mavjudligini O(1) da tekshirish",
+    "Elementlarni avtomatik saralangan tartibda saqlash",
+    "Kam xotira egallash",
+    "Takroriy elementlarni saqlash"
+   ],
+   "e": "Saralangan tartib kerak bo'lsa, set ishlatiladi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Ikkita massivda umumiy elementlarni topishning samarali usuli qaysi?",
+   "a": [
+    "Birini xesh-to'plamga solib, ikkinchisini tekshirish",
+    "Har bir juftlikni ichma-ich sikl bilan taqqoslash",
+    "Ikkala massivni teskari aylantirish",
+    "Ikkala massivni ham bir-biriga qo'shib, yig'indini ikkiga bo'lish"
+   ],
+   "e": "O(n + m) o'rtacha."
+  },
+  {
+   "b": "Graflar",
+   "q": "To'liq grafda n uch bo'lsa, nechta qirra bor?",
+   "a": [
+    "n(n − 1)/2",
+    "n",
+    "n²",
+    "2n"
+   ],
+   "e": "Har bir juftlik bog'langan."
+  },
+  {
+   "b": "Graflar",
+   "q": "Bog'langan yo'nalishsiz graf komponentalari sonini topish uchun nima qilinadi?",
+   "a": [
+    "Har bir ko'rilmagan uchdan DFS/BFS boshlab sanash",
+    "Uchlar sonidan qirralar sonini ayirib, natijaga bir qo'shish",
+    "Qirralar sonini ikkiga bo'lish",
+    "Eng uzun yo'lni topish"
+   ],
+   "e": "Har yangi qidiruv yangi komponentani bildiradi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Ikki bo'lakli (bipartit) grafni qanday tekshirish mumkin?",
+   "a": [
+    "Uchlarni ikki rangga bo'yab, qo'shnilar ranglari har xilligini tekshirish",
+    "Har bir uchning darajasini hisoblab, ularning juftligini tekshirish",
+    "Uchlarni alifbo bo'yicha saralash",
+    "Eng qisqa yo'lni topish"
+   ],
+   "e": "BFS bilan bo'yash."
+  },
+  {
+   "b": "Graflar",
+   "q": "Deykstra algoritmi manfiy vaznli qirralarda nima uchun noto'g'ri ishlaydi?",
+   "a": [
+    "Allaqachon yakunlangan uch masofasi keyin kamayishi mumkin",
+    "Manfiy sonlarni kompyuter saqlay olmaydi",
+    "U faqat vaznsiz graflarda ishlaydi",
+    "Algoritm har bir uchni faqat bir marta tekshirgani uchun manfiy sonni sezmaydi"
+   ],
+   "e": "Bunday hollarda Bellman–Ford qo'llaniladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Navigatsiya xizmatlari (xaritalar) eng qisqa yo'lni topishda qaysi algoritm g'oyasidan foydalanadi?",
+   "a": [
+    "Deykstra va A* (evristik)",
+    "Pufakchali saralash",
+    "Kruskal",
+    "Topologik saralash"
+   ],
+   "e": "A* maqsadga yo'nalgan evristika qo'shadi."
+  },
+  {
+   "b": "Graflar",
+   "q": "DSU (birlashtirib-topish) tuzilmasi nima uchun ishlatiladi?",
+   "a": [
+    "To'plamlarni birlashtirish va elementning to'plamini topish",
+    "Massivni saralash",
+    "Satrda qidirish",
+    "Satr ichida qism satrni chiziqli vaqtda izlash va almashtirish"
+   ],
+   "e": "Kruskal algoritmida sikllarni aniqlashda ishlatiladi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Dinamik dasturlashda \"pastdan yuqoriga\" yondashuv nima?",
+   "a": [
+    "Kichik masalalardan boshlab jadvalni ketma-ket to'ldirish",
+    "Katta masaladan boshlab rekursiv tushish",
+    "Tasodifiy tartibda hisoblash",
+    "Faqat eng katta masalani hisoblab, kichiklarini tashlab yuborish"
+   ],
+   "e": "Tabulyatsiya deb ham ataladi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Ryukzak (knapsack) masalasi qaysi usul bilan aniq yechiladi?",
+   "a": [
+    "Dinamik dasturlash",
+    "Ochko'z algoritm har doim",
+    "Pufakchali saralash",
+    "Ikkilik qidiruv"
+   ],
+   "e": "0/1 ryukzak masalasida ochko'z usul optimal bo'lmasligi mumkin."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Eng uzun umumiy qism ketma-ketlik (LCS) masalasi qaysi usul bilan yechiladi?",
+   "a": [
+    "Dinamik dasturlash",
+    "BFS",
+    "Xeshlash",
+    "Uyum"
+   ],
+   "e": "Murakkabligi O(n·m)."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Hanoy minorasi masalasini n disk uchun yechishda minimal nechta ko'chirish kerak?",
+   "a": [
+    "2ⁿ − 1",
+    "n²",
+    "2n",
+    "n!"
+   ],
+   "e": "Rekursiv yechim."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Rekursiv algoritmning to'g'ri ishlashi uchun nima zarur?",
+   "a": [
+    "Bazaviy holat va masalaning har chaqiruvda kichrayishi",
+    "Faqat global o'zgaruvchilardan foydalanish",
+    "Funksiya ichida kamida bitta for sikli va global massiv bo'lishi",
+    "Kamida 100 marta chaqiruv"
+   ],
+   "e": "Aks holda cheksiz rekursiya yuz beradi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Evristik algoritm nima?",
+   "a": [
+    "Tez, lekin har doim optimal bo'lmagan yechim beruvchi algoritm",
+    "Har doim aniq va optimal yechim kafolatlaydigan, lekin juda sekin algoritm",
+    "Faqat matematik isbot",
+    "Saralash algoritmi faqat"
+   ],
+   "e": "Murakkab masalalarda amaliy yechim uchun."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Ikkilik qidiruv chiziqli qidiruvdan necha marta tezroq 10⁶ elementda (eng yomon holat, taxminan)?",
+   "a": [
+    "50 000 marta",
+    "2 marta",
+    "10 marta",
+    "Farq yo'q, chunki ikkalasi ham massivni oxirigacha ko'rib chiqadi"
+   ],
+   "e": "10⁶ / log₂10⁶ ≈ 10⁶ / 20."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "O(n log n) algoritm n = 1024 da taxminan nechta amal bajaradi?",
+   "a": [
+    "10 240",
+    "1024",
+    "1 048 576",
+    "20"
+   ],
+   "e": "1024 · 10."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Rekursiv Fibonachchi (memoizatsiyasiz) murakkabligi qanday?",
+   "a": [
+    "Eksponensial",
+    "Chiziqli, chunki har bir son faqat bir marta hisoblanadi",
+    "Logarifmik",
+    "O'zgarmas"
+   ],
+   "e": "Taxminan O(φⁿ), φ ≈ 1,618."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Algoritmlarni solishtirishda nima uchun asimptotik baho ishlatiladi?",
+   "a": [
+    "Kompyuterga bog'liq bo'lmagan holda o'sish tezligini solishtirish uchun",
+    "Dastur matnining chiroyliligini baholash uchun",
+    "Algoritmni qaysi dasturlash tilida yozish kerakligini aniqlash uchun",
+    "Faqat kichik kirishlar uchun aniq vaqtni bilish uchun"
+   ],
+   "e": "Katta n da qaysi algoritm yaxshiroq ekanini ko'rsatadi."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Massivda takrorlanuvchi element borligini tekshirishning O(n log n) usuli qaysi?",
+   "a": [
+    "Saralab, qo'shni elementlarni solishtirish",
+    "Har bir elementni qolganlari bilan solishtirish",
+    "Massivni teskari aylantirish",
+    "Elementlar yig'indisini hisoblash"
+   ],
+   "e": "Xesh-to'plam bilan o'rtacha O(n)."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Uchlik qidiruv (ternary search) nimani topish uchun ishlatiladi?",
+   "a": [
+    "Unimodal funksiyaning maksimum yoki minimumini",
+    "Saralanmagan massivdagi elementni",
+    "Grafdagi siklni",
+    "Satrdagi qism satrni"
+   ],
+   "e": "Har qadamda oraliq uchdan bir qismga qisqaradi."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Matnda qism satrni izlashning oddiy (naiv) usuli murakkabligi qanday?",
+   "a": [
+    "O(n·m)",
+    "O(n + m)",
+    "O(log n)",
+    "O(1)"
+   ],
+   "e": "Har bir pozitsiyada m ta belgi solishtiriladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Saralangan massivda insertion sort qancha amal bajaradi?",
+   "a": [
+    "O(n)",
+    "O(n²)",
+    "O(n log n)",
+    "O(1)"
+   ],
+   "e": "Har bir element joyida qoladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Quicksort ning qo'shimcha xotira sarfi (rekursiya steki) o'rtacha qanday?",
+   "a": [
+    "O(log n)",
+    "O(n²)",
+    "O(1) har doim",
+    "O(n log n)"
+   ],
+   "e": "Rekursiya chuqurligi o'rtacha log n."
+  },
+  {
+   "b": "Saralash",
+   "q": "Teng elementlar ko'p bo'lganda quicksort ni yaxshilash usuli qaysi?",
+   "a": [
+    "Uch yo'lli bo'lish (kichik, teng, katta)",
+    "Massivni avval teskari aylantirish",
+    "Tayanch sifatida har doim birinchi elementni olish",
+    "Rekursiyani olib tashlash"
+   ],
+   "e": "Dutch national flag g'oyasi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Uyum (heap) yordamida eng katta k ta elementni topish murakkabligi qanday?",
+   "a": [
+    "O(n log k)",
+    "O(n²)",
+    "O(k²)",
+    "O(1)"
+   ],
+   "e": "k o'lchamli min-heap saqlanadi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Massiv o'rtasidan elementni o'chirish murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(1)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Keyingi elementlarni surish kerak."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Stek yordamida infiks ifodani postfiksga o'girish algoritmi qanday nomlanadi?",
+   "a": [
+    "Saralash stansiyasi (Deykstra)",
+    "Kruskal algoritmi",
+    "KMP algoritmi",
+    "Floyd algoritmi"
+   ],
+   "e": "Operatorlar ustuvorligi stek orqali hisobga olinadi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "\"3 4 + 2 *\" postfiks ifodasining qiymati nechaga teng?",
+   "a": [
+    "14",
+    "11",
+    "10",
+    "24"
+   ],
+   "e": "(3 + 4) · 2 = 14."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Ko'p o'lchovli massivda satr bo'yicha saqlash (row-major) nimani anglatadi?",
+   "a": [
+    "Bir satr elementlari xotirada ketma-ket joylashadi",
+    "Bir ustun elementlari xotirada ketma-ket joylashadi",
+    "Elementlar tasodifiy joylashadi",
+    "Faqat diagonal saqlanadi"
+   ],
+   "e": "C va C++ da satr bo'yicha saqlash qo'llaniladi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik qidiruv daraxtida eng kichik element qayerda joylashgan?",
+   "a": [
+    "Eng chap tugunda",
+    "Ildizda",
+    "Eng o'ng tugunda",
+    "Istalgan bargda"
+   ],
+   "e": "Ildizdan chapga borib boriladi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "AVL daraxtida muvozanatni tiklash uchun qanday amallar bajariladi?",
+   "a": [
+    "Burilishlar (rotatsiyalar)",
+    "Daraxtni to'liq qayta qurish",
+    "Barglarni o'chirish",
+    "Qiymatlarni saralash"
+   ],
+   "e": "Kichik va katta, chap va o'ng burilishlar."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Uyumni massivdan qurish (heapify) murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(n log n)",
+    "O(n²)",
+    "O(log n)"
+   ],
+   "e": "Pastdan yuqoriga qurilganda chiziqli."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Fenvik daraxti (BIT) nima uchun ishlatiladi?",
+   "a": [
+    "Prefiks yig'indilarni tez hisoblash va yangilash uchun",
+    "Graflarda eng qisqa yo'l topish uchun",
+    "Satrlarni saralash uchun",
+    "Ikki o'lchovli jadvalda yo'l topish va tasvirlarni siqish uchun"
+   ],
+   "e": "Ikkala amal ham O(log n)."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Trie da so'zni izlash murakkabligi nimaga bog'liq?",
+   "a": [
+    "So'z uzunligiga",
+    "Trie dagi barcha so'zlar soniga",
+    "Alifbo harflari soniga faqat",
+    "Daraxt balandligi doimo log n bo'lgani uchun log n ga"
+   ],
+   "e": "O(L), L — so'z uzunligi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Xesh-jadvalda eng yomon holatda qidiruv murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(1)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Barcha kalitlar bitta katakka tushsa."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Satrlar uchun polinomial xesh qanday hisoblanadi?",
+   "a": [
+    "Belgi kodlarini asos darajalariga ko'paytirib yig'ish",
+    "Belgilar sonini sanash",
+    "Birinchi belgi kodini olish",
+    "Faqat satr uzunligini olib, uni jadval o'lchamiga bo'lishdan qoldiq olish"
+   ],
+   "e": "Rabin–Karp algoritmida ishlatiladi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Bloom filtri qanday xususiyatga ega?",
+   "a": [
+    "Yolg'on musbat javob berishi mumkin, yolg'on manfiy bermaydi",
+    "Har doim aniq javob beradi va ko'p xotira talab qiladi",
+    "Faqat sonlarni saqlaydi",
+    "Elementlarni saralaydi"
+   ],
+   "e": "Kam xotira bilan to'plamga a'zolikni tekshiradi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Grafdagi sikl borligini DFS yordamida qanday aniqlash mumkin?",
+   "a": [
+    "Hozirgi yo'ldagi uchga qayta kirilganini aniqlash orqali",
+    "Qirralar sonini uchlar soniga bo'lish orqali",
+    "Grafni kenglik bo'yicha aylanib, barcha qirralarni ikki marta sanash orqali",
+    "Uchlarni nomlari bo'yicha tartiblash orqali"
+   ],
+   "e": "Yo'nalgan grafda \"kulrang\" uchga qayta kirish sikl bildiradi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Deykstra algoritmida qaysi tuzilma samaradorlikni oshiradi?",
+   "a": [
+    "Ustuvor navbat (min-heap)",
+    "Oddiy stek",
+    "Bog'langan ro'yxat",
+    "Ikki o'lchovli massiv har doim"
+   ],
+   "e": "Eng kichik masofali uch tez tanlanadi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Prima algoritmi qanday ishlaydi?",
+   "a": [
+    "Bitta uchdan boshlab, daraxtga eng arzon qirra bilan uch qo'shadi",
+    "Barcha qirralarni vazn bo'yicha saralab, sikl hosil qilmaydiganlarni qo'shadi",
+    "Eng qisqa yo'llarni hisoblaydi",
+    "Grafni qatlamlarga ajratadi"
+   ],
+   "e": "Kruskal esa qirralarni saralab ishlaydi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Kuchli bog'langan komponentalarni topish algoritmlaridan biri qaysi?",
+   "a": [
+    "Tarjan (yoki Kosaraju)",
+    "Deykstra",
+    "Prima",
+    "Bubble sort"
+   ],
+   "e": "Yo'nalgan graflar uchun."
+  },
+  {
+   "b": "Graflar",
+   "q": "Daraxtda ikki uch orasidagi yo'l nechta?",
+   "a": [
+    "Aniq bitta",
+    "Ikkita",
+    "Cheksiz",
+    "Bo'lmasligi mumkin"
+   ],
+   "e": "Daraxt bog'langan va siklsiz."
+  },
+  {
+   "b": "Graflar",
+   "q": "Maksimal oqim masalasining asosiy algoritmlaridan biri qaysi?",
+   "a": [
+    "Ford–Falkerson",
+    "Kruskal",
+    "Merge sort",
+    "Binary search"
+   ],
+   "e": "Edmonds–Karp — BFS asosidagi realizatsiya."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Faktorialni rekursiv hisoblashda nechta funksiya chaqiruvi bo'ladi (n uchun)?",
+   "a": [
+    "n",
+    "n²",
+    "2ⁿ",
+    "log n"
+   ],
+   "e": "f(n), f(n−1), ..., f(1)."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Bo'l va hukmronlik qil usulida masala odatda qanday bo'linadi?",
+   "a": [
+    "Bir xil turdagi kichikroq qism masalalarga",
+    "Mutlaqo boshqa turdagi masalalarga",
+    "Bo'linmaydi",
+    "Faqat ikkita bir xil masalaga, natijalari birlashtirilmasdan"
+   ],
+   "e": "Qism masalalar yechimlari birlashtiriladi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Ochko'z algoritmning optimal bo'lishi uchun qaysi xossa kerak?",
+   "a": [
+    "Ochko'z tanlov xossasi va optimal qism tuzilma",
+    "Masalaning hech qanday qism tuzilmasi bo'lmasligi",
+    "Kirish ma'lumotlari tasodifiy bo'lishi",
+    "Masala faqat graflar haqida bo'lishi"
+   ],
+   "e": "Masalan, faoliyatlarni tanlash masalasi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Faoliyatlarni tanlash masalasida (maksimal soni) qaysi ochko'z mezon optimal?",
+   "a": [
+    "Eng erta tugaydigan faoliyatni tanlash",
+    "Eng uzun faoliyatni tanlash",
+    "Eng kech boshlanadigan faoliyatni tanlash har doim",
+    "Tasodifiy tanlash"
+   ],
+   "e": "Bu tanlov qolgan vaqtni maksimal qoldiradi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Monte-Karlo usuli nimaga asoslangan?",
+   "a": [
+    "Tasodifiy tanlovlar va statistik baho",
+    "Barcha variantlarni qat'iy tartibda sanash",
+    "Faqat saralashga",
+    "Faqat graflarga"
+   ],
+   "e": "Masalan, π ni tasodifiy nuqtalar bilan baholash."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Bitli maska bilan dinamik dasturlash qachon qo'llaniladi?",
+   "a": [
+    "Kichik to'plam (n ≤ 20) holatlarini ifodalashda",
+    "Katta massivlarni saralashda",
+    "Satrlarni chop etishda",
+    "Matnli fayllarni satrma-satr o'qib, natijani chop etishda"
+   ],
+   "e": "Masalan, kommivoyajer masalasi O(2ⁿ·n²)."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Kommivoyajer masalasi qanday murakkablik sinfiga kiradi?",
+   "a": [
+    "NP-qiyin",
+    "O(n) da yechiladigan oddiy masala",
+    "O(1) masala",
+    "Saralash masalasi"
+   ],
+   "e": "Katta n uchun aniq yechim juda qimmat."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Ikkita n×n matritsani oddiy usulda ko'paytirish murakkabligi qanday?",
+   "a": [
+    "O(n³)",
+    "O(n²)",
+    "O(n)",
+    "O(n log n)"
+   ],
+   "e": "Har bir n² element uchun n ta ko'paytma."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "\"for i in 0..n: for j in 0..i\" sikli murakkabligi qanday?",
+   "a": [
+    "O(n²)",
+    "O(n)",
+    "O(n log n)",
+    "O(log n)"
+   ],
+   "e": "0 + 1 + ... + (n−1) = n(n−1)/2."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Ikki ketma-ket (ichma-ich emas) n marta takrorlanuvchi sikl murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(n²)",
+    "O(2ⁿ)",
+    "O(log n)"
+   ],
+   "e": "n + n = 2n → O(n)."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Algoritm vaqti n ikki marta oshganda to'rt marta oshsa, murakkablik qanday?",
+   "a": [
+    "O(n²)",
+    "O(n)",
+    "O(log n)",
+    "O(2ⁿ)"
+   ],
+   "e": "(2n)² = 4n²."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Saralangan massivda berilgan son necha marta uchrashini O(log n) da qanday topish mumkin?",
+   "a": [
+    "upper_bound − lower_bound",
+    "Massivni boshidan oxirigacha sanab chiqish",
+    "Massivni teskari aylantirish",
+    "Massivni xesh-jadvalga solish"
+   ],
+   "e": "Ikki ikkilik qidiruv natijalari ayirmasi."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Ikkilik qidiruvda o'rta indeksni (l + r) / 2 o'rniga l + (r − l) / 2 bilan hisoblash nima uchun tavsiya etiladi?",
+   "a": [
+    "Butun son to'lib ketishining oldini olish uchun",
+    "Natijani tezroq olish va xotirani tejash uchun",
+    "Indeksni manfiy qilish uchun",
+    "Massiv chegarasini tekshirmaslik va shu bilan siklni bir qadam qisqartirish uchun"
+   ],
+   "e": "l + r katta sonlarda int chegarasidan oshishi mumkin."
+  },
+  {
+   "b": "Saralash",
+   "q": "{4, 3, 2, 1} massivini pufakchali saralash uchun nechta almashtirish kerak?",
+   "a": [
+    "6",
+    "4",
+    "3",
+    "12"
+   ],
+   "e": "Teskari tartibda n(n−1)/2 = 6 inversiya."
+  },
+  {
+   "b": "Saralash",
+   "q": "Massivdagi inversiya nima?",
+   "a": [
+    "i < j bo'lib, a[i] > a[j] bo'lgan juftlik",
+    "Massivning teskari aylantirilgani",
+    "Massivdagi eng katta va eng kichik elementlarning o'rin almashishi",
+    "Massivning bo'sh bo'lishi"
+   ],
+   "e": "Inversiyalar soni massivning \"saralanmaganlik\" darajasini ko'rsatadi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Ko'p maydonli yozuvlarni avval familiya, so'ng ism bo'yicha saralash uchun qanday yo'l tutiladi?",
+   "a": [
+    "Avval ism bo'yicha, so'ng familiya bo'yicha barqaror saralash",
+    "Faqat familiya bo'yicha beqaror saralash",
+    "Tasodifiy tartibda joylashtirish",
+    "Faqat ism bo'yicha saralash"
+   ],
+   "e": "Yoki taqqoslash funksiyasida ikkala maydonni birga hisobga olish."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Ikki tomonlama bog'langan ro'yxatda tugunni o'chirish murakkabligi (tugunga ko'rsatkich berilgan) qanday?",
+   "a": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Qo'shni tugunlar ko'rsatkichlari o'zgartiriladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Monoton stek qanday masalalarda qo'llaniladi?",
+   "a": [
+    "Har bir element uchun keyingi kattaroq elementni topishda",
+    "Massivni saralashda",
+    "Graflarda eng qisqa yo'lni topishda",
+    "Ikki saralangan ro'yxatni birlashtirib, takroriy elementlarni o'chirishda"
+   ],
+   "e": "O(n) da yechiladi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik qidiruv daraxtida 10 ning vorisi (keyingi katta) qayerdan izlanadi, agar 10 ning o'ng qism daraxti bo'lsa?",
+   "a": [
+    "O'ng qism daraxtning eng chap tugunidan",
+    "Chap qism daraxtning eng o'ng tugunidan",
+    "Ildizdan har doim",
+    "Eng chuqur bargdan"
+   ],
+   "e": "O'ng qism daraxtdagi eng kichik element."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Daraxtdagi ikki uchning eng yaqin umumiy ajdodi (LCA) nima?",
+   "a": [
+    "Ikkala uchning ajdodi bo'lgan eng chuqur uch",
+    "Ildiz har doim",
+    "Ikki uchdan biri har doim",
+    "Daraxtdagi barcha barglarning umumiy ota-onasi, ya'ni ildizning farzandi"
+   ],
+   "e": "Daraxtdagi masofalarni hisoblashda ishlatiladi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "N-ar daraxt nima?",
+   "a": [
+    "Har bir tugun ko'pi bilan N ta farzandga ega daraxt",
+    "Barcha barglari bir xil chuqurlikda joylashgan ikkilik daraxt",
+    "Balandligi N bo'lgan daraxt",
+    "N ta ildizli daraxt"
+   ],
+   "e": "Masalan, fayl tizimi katalog daraxti."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Xesh-jadval o'lchamini tub son qilib olish nima uchun foydali?",
+   "a": [
+    "Kalitlar taqsimoti bir tekisroq bo'ladi",
+    "Jadval avtomatik saralanadi",
+    "Kolliziyalar umuman bo'lmaydi",
+    "Xotira sarfi nolga tushadi"
+   ],
+   "e": "Ayniqsa k mod m usulida."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Kvadratik zondlash chiziqli zondlashdan qanday afzallikka ega?",
+   "a": [
+    "Elementlarning to'planib qolishini (klasterlanishni) kamaytiradi",
+    "Har doim bo'sh katakni birinchi urinishda topadi",
+    "Kolliziyalarni butunlay yo'qotib, jadvalni avtomatik saralaydi",
+    "Kolliziyalarni butunlay yo'qotadi"
+   ],
+   "e": "Qadamlar 1, 4, 9, ... bo'ladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Vaznsiz grafda BFS da uch masofasi qanday aniqlanadi?",
+   "a": [
+    "Ota uch masofasiga 1 qo'shiladi",
+    "Uch nomining uzunligiga teng",
+    "Har doim 1 ga teng",
+    "Tasodifiy beriladi"
+   ],
+   "e": "Qatlam raqami — masofa."
+  },
+  {
+   "b": "Graflar",
+   "q": "Graf siklsiz va n − 1 qirrali bo'lsa, u bog'langanmi?",
+   "a": [
+    "Ha, u daraxt",
+    "Yo'q, hech qachon",
+    "Faqat n juft bo'lsa",
+    "Aniqlab bo'lmaydi"
+   ],
+   "e": "Siklsiz va n − 1 qirrali graf — daraxt."
+  },
+  {
+   "b": "Graflar",
+   "q": "Ijtimoiy tarmoqda \"do'stlarning do'stlari\"ni topish qaysi algoritmga yaqin?",
+   "a": [
+    "BFS (2 qatlamgacha)",
+    "Quicksort",
+    "Kruskal",
+    "Xaffman kodlash"
+   ],
+   "e": "Masofasi 2 bo'lgan uchlar."
+  },
+  {
+   "b": "Graflar",
+   "q": "Yo'nalishsiz grafda barcha uchlar darajalari yig'indisi nimaga teng?",
+   "a": [
+    "Qirralar sonining ikki baravariga",
+    "Qirralar soniga",
+    "Uchlar soniga",
+    "Uchlar sonining kvadratiga"
+   ],
+   "e": "Har bir qirra ikki uchga hissa qo'shadi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Dinamik dasturlashda \"holat\" nima?",
+   "a": [
+    "Qism masalani to'liq ifodalovchi parametrlar to'plami",
+    "Dasturning bajarilish vaqti",
+    "Massivdagi birinchi element",
+    "Dastur bajarilgan vaqt va ishlatilgan operativ xotira hajmi"
+   ],
+   "e": "Masalan, dp[i] — i-qadamgacha bo'lgan eng yaxshi natija."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Narvonning n pog'onasiga 1 yoki 2 qadam bilan chiqish usullari soni qaysi ketma-ketlikka bo'ysunadi?",
+   "a": [
+    "Fibonachchi",
+    "Arifmetik progressiya",
+    "Geometrik progressiya",
+    "Tub sonlar"
+   ],
+   "e": "f(n) = f(n−1) + f(n−2)."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Eng uzun o'suvchi qism ketma-ketlikni (LIS) O(n log n) da topishda nima ishlatiladi?",
+   "a": [
+    "Ikkilik qidiruv",
+    "BFS",
+    "Xesh-jadval",
+    "Stek faqat"
+   ],
+   "e": "Oddiy DP yechimi O(n²)."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Ikkilik daraja (tez darajaga ko'tarish) algoritmi murakkabligi qanday?",
+   "a": [
+    "O(log n)",
+    "O(n)",
+    "O(n²)",
+    "O(1)"
+   ],
+   "e": "aⁿ ni daraja ko'rsatkichini ikkiga bo'lib hisoblash."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Eratosfen g'alviri nima uchun ishlatiladi?",
+   "a": [
+    "Berilgan songacha barcha tub sonlarni topish uchun",
+    "Massivni o'sish tartibida saralab, takroriy elementlarni olib tashlash uchun",
+    "Grafda sikl topish uchun",
+    "Satrni teskari aylantirish uchun"
+   ],
+   "e": "Murakkabligi O(n log log n)."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Algoritmning to'g'riligini isbotlashda sikl invarianti nima?",
+   "a": [
+    "Har bir iteratsiyada saqlanuvchi tasdiq",
+    "Sikl ichidagi o'zgarmas sonli konstanta",
+    "Siklni tugatuvchi break",
+    "Sikl o'zgaruvchisining nomi"
+   ],
+   "e": "Boshlanishda, har qadamda va tugaganda rost bo'lishi isbotlanadi."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Bitta sikl ichida ikkilik qidiruv bajarilsa (n marta), umumiy murakkablik qanday?",
+   "a": [
+    "O(n log n)",
+    "O(n²)",
+    "O(log n)",
+    "O(n)"
+   ],
+   "e": "n · log n."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Rekursiya T(n) = 2T(n/2) + n qanday murakkablikka ega?",
+   "a": [
+    "O(n log n)",
+    "O(n²)",
+    "O(n)",
+    "O(log n)"
+   ],
+   "e": "Master teoremasi; merge sort shu tenglamaga bo'ysunadi."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Rekursiya T(n) = T(n/2) + 1 qanday murakkablikka ega?",
+   "a": [
+    "O(log n)",
+    "O(n)",
+    "O(n log n)",
+    "O(1)"
+   ],
+   "e": "Ikkilik qidiruv."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Rekursiya T(n) = T(n − 1) + 1 qanday murakkablikka ega?",
+   "a": [
+    "O(n)",
+    "O(log n)",
+    "O(n²)",
+    "O(2ⁿ)"
+   ],
+   "e": "n qadam."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Rekursiya T(n) = 2T(n − 1) + 1 qanday murakkablikka ega?",
+   "a": [
+    "O(2ⁿ)",
+    "O(n)",
+    "O(n²)",
+    "O(n log n)"
+   ],
+   "e": "Hanoy minorasi masalasi."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "2D saralangan matritsada (satr va ustunlar o'suvchi) elementni qidirishning samarali usuli qaysi?",
+   "a": [
+    "Yuqori o'ng burchakdan boshlab chapga yoki pastga yurish",
+    "Har bir satrda chiziqli qidiruv o'tkazib, natijalarni jamlash",
+    "Matritsani teskari aylantirish",
+    "Faqat diagonalni tekshirish"
+   ],
+   "e": "Murakkablik O(n + m)."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Eksponensial qidiruv nima?",
+   "a": [
+    "Chegarani 1, 2, 4, ... bo'yicha topib, so'ng ikkilik qidiruv",
+    "Barcha qism to'plamlarni sanash",
+    "Eksponenta funksiyasini hisoblash",
+    "Massivning har bir elementini e soniga ko'paytirib, natijani solishtirish"
+   ],
+   "e": "Cheksiz yoki noma'lum o'lchamli saralangan massivlarda."
+  },
+  {
+   "b": "Saralash",
+   "q": "Quyidagi kod qanday saralash? \"for i: for j = 0..n−i−2: if a[j] > a[j+1] swap\"",
+   "a": [
+    "Pufakchali",
+    "Tanlash orqali",
+    "Qo'yish orqali",
+    "Birlashtirib"
+   ],
+   "e": "Qo'shni elementlar almashtiriladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Bucket (cho'ntak) saralash qanday ishlaydi?",
+   "a": [
+    "Elementlarni oraliqlar bo'yicha guruhlab, har birini saralaydi",
+    "Tayanch element atrofida ikkiga bo'ladi",
+    "Qo'shni elementlarni almashtiradi",
+    "Massivni bir xil o'lchamdagi ikki qismga bo'lib, rekursiv birlashtiradi"
+   ],
+   "e": "Bir tekis taqsimlangan ma'lumotlarda samarali."
+  },
+  {
+   "b": "Saralash",
+   "q": "C++ dagi std::sort qaysi algoritmga asoslangan?",
+   "a": [
+    "Introsort (quicksort, heapsort va insertion sort gibridi)",
+    "Faqat pufakchali saralash",
+    "Faqat counting sort",
+    "Faqat tanlash orqali saralash"
+   ],
+   "e": "Eng yomon holatda ham O(n log n)."
+  },
+  {
+   "b": "Saralash",
+   "q": "Barqaror saralash kerak bo'lsa C++ da qaysi funksiya ishlatiladi?",
+   "a": [
+    "stable_sort()",
+    "sort()",
+    "partial_sort()",
+    "nth_element()"
+   ],
+   "e": "stable_sort teng elementlar tartibini saqlaydi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Massivdagi k-chi kichik elementni o'rtacha O(n) da topish algoritmi qaysi?",
+   "a": [
+    "Quickselect",
+    "Merge sort",
+    "Bubble sort",
+    "Binary search"
+   ],
+   "e": "C++ da nth_element()."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Stek yordamida rekursiyani qanday almashtirish mumkin?",
+   "a": [
+    "Chaqiruv holatlarini qo'lda stekka saqlab",
+    "Rekursiyani navbat bilan almashtirib bo'lmaydi va stek kerak emas",
+    "Faqat global o'zgaruvchilar bilan",
+    "Faqat xesh-jadval bilan"
+   ],
+   "e": "Kompyuter ham chaqiruvlarni stekda saqlaydi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Ikki saralangan bog'langan ro'yxatni birlashtirish murakkabligi qanday?",
+   "a": [
+    "O(n + m)",
+    "O(n · m)",
+    "O(n²)",
+    "O(log n)"
+   ],
+   "e": "Ikkala ro'yxat bir marta ko'rib chiqiladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Bog'langan ro'yxatning o'rta elementini bir o'tishda qanday topish mumkin?",
+   "a": [
+    "Sekin (1 qadam) va tez (2 qadam) ko'rsatkichlar bilan",
+    "Ro'yxatni ikki marta teskari aylantirib",
+    "Ro'yxatni massivga to'liq nusxalab, saralab",
+    "Har bir tugunni ildizdan qayta-qayta sanab, o'rtacha indeksni hisoblash bilan"
+   ],
+   "e": "Tez ko'rsatkich oxiriga yetganda sekini o'rtada bo'ladi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Daraxt balandligini rekursiv hisoblash formulasi qaysi?",
+   "a": [
+    "1 + max(chap balandlik, o'ng balandlik)",
+    "Chap balandlik + o'ng balandlik",
+    "Tugunlar soni bo'lingan ikkiga",
+    "Barglar soni"
+   ],
+   "e": "Bo'sh daraxt balandligi −1 yoki 0 deb olinadi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik daraxt ikkilik qidiruv daraxti ekanligini qanday tekshirish mumkin?",
+   "a": [
+    "Simmetrik aylanib chiqish natijasi saralanganligini tekshirish",
+    "Faqat ildiz va uning farzandlarini solishtirish",
+    "Har bir tugun qiymati ikkiga bo'linishini va barglar juftligini tekshirish",
+    "Daraxt balandligini hisoblash"
+   ],
+   "e": "Faqat qo'shni tugunlarni tekshirish yetarli emas."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Postfiks aylanib chiqish qayerda foydali?",
+   "a": [
+    "Daraxtni o'chirishda (avval farzandlar)",
+    "Saralangan chiqarishda",
+    "Qatlam bo'yicha chiqarishda",
+    "Ildizni birinchi chiqarishda"
+   ],
+   "e": "Farzandlar otadan oldin qayta ishlanadi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Uyumga element qo'shish murakkabligi qanday?",
+   "a": [
+    "O(log n)",
+    "O(1) har doim",
+    "O(n)",
+    "O(n log n)"
+   ],
+   "e": "Element pastdan yuqoriga \"suzib chiqadi\"."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Ikki satr anagramma ekanligini tekshirishning samarali usuli qaysi?",
+   "a": [
+    "Belgilar chastotasini sanab solishtirish",
+    "Har bir o'rin almashtirishni sanab chiqish",
+    "Satrlarni teskari aylantirib solishtirish",
+    "Satrlar uzunligini solishtirish faqat"
+   ],
+   "e": "O(n) vaqt."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Massivda yig'indisi S ga teng ikki sonni (two-sum) O(n) da topish uchun nima ishlatiladi?",
+   "a": [
+    "Xesh-jadval",
+    "Ichma-ich ikki sikl",
+    "Pufakchali saralash",
+    "Stek"
+   ],
+   "e": "Har bir element uchun S − x mavjudligi tekshiriladi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "LRU kesh qanday tuzilmalar birikmasi bilan amalga oshiriladi?",
+   "a": [
+    "Xesh-jadval va ikki tomonlama bog'langan ro'yxat",
+    "Faqat oddiy massiv va stek",
+    "Faqat ikkilik qidiruv daraxti",
+    "Saralangan massiv va unda ikkilik qidiruv amali"
+   ],
+   "e": "Ikkala amal O(1)."
+  },
+  {
+   "b": "Graflar",
+   "q": "Grafda Eyler sikli mavjud bo'lishi sharti qaysi (yo'nalishsiz, bog'langan)?",
+   "a": [
+    "Barcha uchlar darajasi juft",
+    "Barcha uchlar darajasi toq",
+    "Uchlar soni juft",
+    "Qirralar soni toq"
+   ],
+   "e": "Eyler teoremasi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Kenigsberg ko'priklari masalasi qaysi sohaning boshlanishi hisoblanadi?",
+   "a": [
+    "Graflar nazariyasi",
+    "Ehtimollar nazariyasi",
+    "Kriptografiya",
+    "Saralash algoritmlari"
+   ],
+   "e": "L. Eyler 1736-yilda yechgan."
+  },
+  {
+   "b": "Graflar",
+   "q": "BFS dan foydalanib labirintdan chiqishning eng qisqa yo'li topilsa, kataklar orasidagi har bir qadam vazni qanday?",
+   "a": [
+    "Bir xil (1)",
+    "Har xil, tasodifiy",
+    "Har doim 0",
+    "Manfiy"
+   ],
+   "e": "Vaznsiz graf sifatida qaraladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Floyd–Uorshall algoritmi qaysi usulga asoslangan?",
+   "a": [
+    "Dinamik dasturlash",
+    "Ochko'z usul",
+    "Bo'l va hukmronlik qil",
+    "Orqaga qaytish"
+   ],
+   "e": "d[i][j] = min(d[i][j], d[i][k] + d[k][j])."
+  },
+  {
+   "b": "Graflar",
+   "q": "Topologik saralashni qaysi algoritm yordamida bajarish mumkin?",
+   "a": [
+    "Kan algoritmi (kirish darajalari bo'yicha) yoki DFS",
+    "Deykstra algoritmi",
+    "Pufakchali saralash",
+    "Qirralarni vazn bo'yicha saralab, eng og'iridan boshlash"
+   ],
+   "e": "Kirish darajasi 0 bo'lgan uchlardan boshlanadi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Bo'l va hukmronlik qil usuliga misol qaysi?",
+   "a": [
+    "Merge sort",
+    "Bubble sort",
+    "Chiziqli qidiruv",
+    "Insertion sort"
+   ],
+   "e": "Quicksort va ikkilik qidiruv ham."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Ochko'z usulga misol qaysi?",
+   "a": [
+    "Kruskal algoritmi",
+    "Merge sort",
+    "Floyd–Uorshall",
+    "LCS"
+   ],
+   "e": "Deykstra, Prima, Xaffman ham ochko'z."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Orqaga qaytish usuliga misol qaysi?",
+   "a": [
+    "N ta farzin masalasi",
+    "Ikkilik qidiruv",
+    "Merge sort",
+    "Prefiks yig'indi"
+   ],
+   "e": "Noto'g'ri yo'lni tashlab, oldingi holatga qaytiladi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Qaysi masala odatda dinamik dasturlash bilan yechiladi?",
+   "a": [
+    "Tangalar bilan qaytimning minimal soni",
+    "Massivdagi maksimal element",
+    "Massivni teskari aylantirish",
+    "Satr uzunligini topish"
+   ],
+   "e": "Ixtiyoriy tanga tizimlarida ochko'z usul xato berishi mumkin."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "\"Javob bo'yicha ikkilik qidiruv\" qanday masalalarda ishlatiladi?",
+   "a": [
+    "Javob monoton shartga bo'ysunganda",
+    "Har qanday saralash masalasida",
+    "Har qanday masalada, shu jumladan monoton bo'lmagan funksiyalarda ham",
+    "Faqat satrlarda"
+   ],
+   "e": "Masalan, minimal mumkin bo'lgan maksimal yuklama."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Kesish (pruning) orqaga qaytish usulida nima beradi?",
+   "a": [
+    "Istiqbolsiz tarmoqlarni erta to'xtatib, tezlikni oshiradi",
+    "Barcha tarmoqlarni majburiy ko'rib chiqadi",
+    "Natijani noto'g'ri qiladi",
+    "Xotirani ikki baravar oshiradi"
+   ],
+   "e": "Branch and bound usuli."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Algoritmni tanlashda \"vaqt va xotira almashinuvi\" (trade-off) nimani anglatadi?",
+   "a": [
+    "Ko'proq xotira sarflab, vaqtni tejash yoki aksincha",
+    "Vaqt va xotira har doim bir xil miqdorda sarflanadi",
+    "Xotira umuman ahamiyatsiz",
+    "Vaqt har doim ahamiyatsiz"
+   ],
+   "e": "Masalan, memoizatsiya xotira hisobiga tezlashtiradi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Matritsani spiral bo'ylab aylanib chiqish murakkabligi qanday (n×m)?",
+   "a": [
+    "O(n·m)",
+    "O(n + m)",
+    "O(log(n·m))",
+    "O(n²·m²)"
+   ],
+   "e": "Har bir element bir marta ko'riladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Siyrak (sparse) matritsani saqlashning samarali usuli qaysi?",
+   "a": [
+    "Faqat noldan farqli elementlarni koordinatalari bilan saqlash",
+    "To'liq ikki o'lchovli massivda barcha nollar bilan saqlash",
+    "Matritsani satrga aylantirish",
+    "Barcha nollarni birlarga almashtirib, matritsani to'liq saqlash"
+   ],
+   "e": "Masalan, (satr, ustun, qiymat) uchliklari ro'yxati."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Massivni nusxalash murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(1), chunki nusxalash bitta buyruq bilan bajariladi va hajmga bog'liq emas",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Har bir element ko'chiriladi."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Satrlarni birlashtirishni siklda takroran bajarish (har safar yangi satr yaratilsa) murakkabligi qanday?",
+   "a": [
+    "O(n²)",
+    "O(1), chunki satrlar o'zgarmas va birlashtirish bepul",
+    "O(log n)",
+    "O(n log n)"
+   ],
+   "e": "Har safar butun satr nusxalanadi."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Xesh-jadvalga n element qo'shish o'rtacha murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(n²), chunki har bir qo'shishda butun jadval saralanadi",
+    "O(log n)",
+    "O(1)"
+   ],
+   "e": "Har bir qo'shish o'rtacha O(1)."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "{2, 5, 8, 12, 16} massivida 12 ni ikkilik qidiruvda birinchi tekshiriladigan element qaysi?",
+   "a": [
+    "8",
+    "2, ya'ni massivning birinchi elementi",
+    "16",
+    "12"
+   ],
+   "e": "O'rta element indeksi 2."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Ikkilik qidiruvni rekursiyasiz yozish mumkinmi?",
+   "a": [
+    "Ha, sikl bilan",
+    "Yo'q, ikkilik qidiruv faqat rekursiya yordamida amalga oshiriladi",
+    "Faqat Python da",
+    "Faqat graflarda"
+   ],
+   "e": "Iterativ variant qo'shimcha stek xotirasini talab qilmaydi."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Grafda eng qisqa yo'lni emas, istalgan yo'lni topish uchun eng sodda usul qaysi?",
+   "a": [
+    "DFS",
+    "Floyd–Uorshall algoritmi bilan barcha juftliklar orasidagi masofani hisoblash",
+    "Merge sort",
+    "Xaffman kodlash"
+   ],
+   "e": "DFS yo'l mavjudligini tez aniqlaydi."
+  },
+  {
+   "b": "Saralash",
+   "q": "{3, 1, 2} massivini insertion sort bilan saralaganda birinchi qadamdan keyin (ikkinchi element qo'yilgach) qanday bo'ladi?",
+   "a": [
+    "{1, 3, 2}",
+    "{1, 2, 3}, ya'ni massiv birinchi qadamdayoq to'liq saralanadi",
+    "{3, 2, 1}",
+    "{2, 3, 1}"
+   ],
+   "e": "1 element 3 dan oldinga qo'yiladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Saralash algoritmi \"adaptiv\" bo'lsa nima bildiradi?",
+   "a": [
+    "Qisman saralangan ma'lumotda tezroq ishlaydi",
+    "Har qanday ma'lumotda bir xil vaqt sarflaydi va kirishga bog'liq emas",
+    "Faqat kichik massivlarda ishlaydi",
+    "O'z kodini o'zgartiradi"
+   ],
+   "e": "Masalan, insertion sort."
+  },
+  {
+   "b": "Saralash",
+   "q": "Merge sort ning qo'shimcha xotirasi qanday?",
+   "a": [
+    "O(n)",
+    "O(1), chunki massiv joyida saralanadi",
+    "O(n²)",
+    "O(log n) faqat"
+   ],
+   "e": "Birlashtirish uchun yordamchi massiv kerak."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Stekda \"3 4 2 * +\" postfiks ifodasining qiymati nechaga teng?",
+   "a": [
+    "11",
+    "14, chunki avval qo'shish, so'ng ko'paytirish bajariladi",
+    "9",
+    "24"
+   ],
+   "e": "4·2 = 8, 3 + 8 = 11."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Navbatni massivda amalga oshirishda \"bosh\" va \"dum\" indekslari nima uchun kerak?",
+   "a": [
+    "Olish va qo'shish joylarini kuzatish uchun",
+    "Massivni har safar to'liq saralab, eng katta elementni topish uchun",
+    "Massivni o'chirish uchun",
+    "Elementlarni teskari aylantirish uchun"
+   ],
+   "e": "Halqasimon buferda indekslar modul bo'yicha aylanadi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Ro'yxat (list) va massiv o'rtasida tanlashda asosiy mezon qaysi?",
+   "a": [
+    "Murojaat va qo'shish amallarining chastotasi",
+    "Faqat dasturchining shaxsiy xohishi va kod chiroyliligi",
+    "Kompyuter rangi",
+    "Dastur nomi"
+   ],
+   "e": "Ko'p indeks bo'yicha murojaat — massiv, ko'p o'rtaga qo'shish — ro'yxat."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik qidiruv daraxtiga 8, 3, 10, 1, 6 ketma-ket qo'shilgach, simmetrik aylanib chiqish natijasi qanday?",
+   "a": [
+    "1, 3, 6, 8, 10",
+    "8, 3, 1, 6, 10, ya'ni qo'shilish tartibi",
+    "10, 8, 6, 3, 1",
+    "8, 3, 10, 1, 6"
+   ],
+   "e": "Simmetrik aylanib chiqish saralangan tartib beradi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Yuqoridagi daraxt (8, 3, 10, 1, 6) uchun prefiks aylanib chiqish natijasi qanday?",
+   "a": [
+    "8, 3, 1, 6, 10",
+    "1, 3, 6, 8, 10",
+    "1, 6, 3, 10, 8",
+    "8, 10, 3, 6, 1"
+   ],
+   "e": "Ildiz → chap → o'ng."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Yuqoridagi daraxt (8, 3, 10, 1, 6) uchun postfiks aylanib chiqish natijasi qanday?",
+   "a": [
+    "1, 6, 3, 10, 8",
+    "8, 3, 1, 6, 10",
+    "1, 3, 6, 8, 10",
+    "10, 6, 1, 3, 8"
+   ],
+   "e": "Chap → o'ng → ildiz."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Daraxtdagi barglar sonini rekursiv hisoblash qanday?",
+   "a": [
+    "Farzandsiz tugun uchun 1, aks holda farzandlar natijalari yig'indisi",
+    "Har doim tugunlar sonini ikkiga bo'lish orqali, rekursiyasiz",
+    "Daraxt balandligiga teng",
+    "Ildizning qiymatiga teng"
+   ],
+   "e": "Bo'sh daraxt uchun 0."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Min-heap da ildizda qaysi element bo'ladi?",
+   "a": [
+    "Eng kichigi",
+    "Eng kattasi, chunki uyum har doim kamayish tartibida quriladi",
+    "O'rtachasi",
+    "Oxirgi qo'shilgani"
+   ],
+   "e": "Max-heap da esa eng kattasi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Xesh-jadvalda element o'chirilganda ochiq manzillashda nima qilinadi?",
+   "a": [
+    "Katak \"o'chirilgan\" deb belgilanadi",
+    "Katak shunchaki bo'sh qilinadi, keyingi qidiruvlarga hech qanday ta'sir qilmaydi",
+    "Jadval to'liq qayta quriladi har safar",
+    "Element o'chirib bo'lmaydi"
+   ],
+   "e": "Aks holda keyingi elementlarni qidirish uzilib qoladi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Lug'atda so'z chastotasini sanash uchun qaysi tuzilma qulay?",
+   "a": [
+    "Xesh-jadval (map)",
+    "Stek",
+    "Navbat",
+    "Bog'langan ro'yxat"
+   ],
+   "e": "Kalit — so'z, qiymat — soni."
+  },
+  {
+   "b": "Graflar",
+   "q": "5 uchli daraxtda nechta qirra bor?",
+   "a": [
+    "4",
+    "5",
+    "10",
+    "6"
+   ],
+   "e": "n − 1."
+  },
+  {
+   "b": "Graflar",
+   "q": "4 uchli to'liq grafda nechta qirra bor?",
+   "a": [
+    "6",
+    "4",
+    "12",
+    "8"
+   ],
+   "e": "4·3/2."
+  },
+  {
+   "b": "Graflar",
+   "q": "Grafni qo'shnilik matritsasida ikki uch bog'langanligini tekshirish murakkabligi qanday?",
+   "a": [
+    "O(1)",
+    "O(V), chunki butun satr ko'rib chiqilishi kerak",
+    "O(E)",
+    "O(V²)"
+   ],
+   "e": "To'g'ridan-to'g'ri matritsa katagi tekshiriladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Yo'nalgan grafda kirish darajasi 0 bo'lgan uch qanday nomlanadi?",
+   "a": [
+    "Manba (source)",
+    "Oqim (sink), ya'ni undan chiquvchi qirralar yo'q uch",
+    "Barg",
+    "Ildiz har doim"
+   ],
+   "e": "Chiqish darajasi 0 — oqim (sink)."
+  },
+  {
+   "b": "Graflar",
+   "q": "Deykstra algoritmida dastlab boshlang'ich uchdan boshqa uchlarga masofa qanday belgilanadi?",
+   "a": [
+    "Cheksiz",
+    "Nol, chunki hali hech qanday yo'l ko'rib chiqilmagan",
+    "Bir",
+    "Uchlar soniga teng"
+   ],
+   "e": "Boshlang'ich uch masofasi 0."
+  },
+  {
+   "b": "Graflar",
+   "q": "Bellman–Ford algoritmi necha marta barcha qirralarni ko'rib chiqadi?",
+   "a": [
+    "V − 1 marta",
+    "Bir marta",
+    "E marta",
+    "V² marta"
+   ],
+   "e": "Qo'shimcha bir o'tish manfiy siklni aniqlaydi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Dinamik dasturlashda jadval o'lchami asosan nimaga bog'liq?",
+   "a": [
+    "Holatlar soniga",
+    "Dastur kodi qatorlari soniga va kompilyator turiga",
+    "Kompyuter protsessoriga",
+    "Ekran o'lchamiga"
+   ],
+   "e": "Masalan, LCS uchun (n+1)×(m+1)."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Ochko'z algoritm xato beradigan tanga tizimiga misol: {1, 3, 4} tangalar bilan 6 so'm qaytimni ochko'z usul nechta tanga bilan beradi?",
+   "a": [
+    "3",
+    "2, ya'ni har doim optimal natija bilan",
+    "1",
+    "6"
+   ],
+   "e": "Ochko'z: 4 + 1 + 1 = 3 tanga; optimal: 3 + 3 = 2 tanga."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Yuqoridagi misolda ({1, 3, 4}, 6 so'm) optimal yechim nechta tanga?",
+   "a": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "e": "3 + 3."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Ikkilik daraja algoritmi bilan 2¹⁰ ni hisoblashda nechta ko'paytirish kerak (taxminan)?",
+   "a": [
+    "Taxminan 4–5",
+    "Aniq 10, chunki har bir daraja bitta ko'paytirish talab qiladi",
+    "100",
+    "1024"
+   ],
+   "e": "log₂10 ≈ 3,3; kvadratga oshirishlar va qo'shimcha ko'paytirishlar."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Rekursiv algoritmni tahlil qilishda rekursiya daraxti nima ko'rsatadi?",
+   "a": [
+    "Chaqiruvlar soni va har darajadagi ish hajmini",
+    "Dasturning grafik interfeysini va tugmalar joylashuvini",
+    "Kompyuter tarmog'ini",
+    "Fayl tizimini"
+   ],
+   "e": "Umumiy murakkablikni baholashga yordam beradi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Algoritmni psevdokodda yozishning afzalligi nima?",
+   "a": [
+    "Tildan mustaqil va tushunarli",
+    "To'g'ridan-to'g'ri kompilyatsiya qilinib, bajariladigan fayl hosil qiladi",
+    "Har doim eng tez ishlaydi",
+    "Faqat matematiklar tushunadi"
+   ],
+   "e": "Algoritm g'oyasini ifodalash uchun."
+  },
+  {
+   "b": "Saralash",
+   "q": "Saralash algoritmlaridan qaysi biri eng ko'p xotira tejamkor va kafolatlangan O(n log n)?",
+   "a": [
+    "Heapsort",
+    "Merge sort, chunki u hech qanday qo'shimcha xotira talab qilmaydi",
+    "Bubble sort",
+    "Counting sort"
+   ],
+   "e": "Heapsort joyida saralaydi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Elementlar soni juda kam (masalan, 10 ta) bo'lsa, qaysi saralash amaliy jihatdan yaxshi?",
+   "a": [
+    "Insertion sort",
+    "Murakkab parallel saralash algoritmlari, ko'p protsessorli",
+    "Tashqi saralash",
+    "Radix sort har doim"
+   ],
+   "e": "Kichik n da oddiy algoritmlar overhead i kam."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Satrda belgi birinchi marta uchragan o'rinni topish murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(1), chunki satr indekslangan va belgi joyi oldindan ma'lum",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "e": "Chiziqli qidiruv."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Rabin–Karp algoritmi qism satrni izlashda nimadan foydalanadi?",
+   "a": [
+    "Siljuvchi xesh",
+    "Saralangan massiv va ikkilik qidiruv",
+    "Stek",
+    "Graf"
+   ],
+   "e": "O'rtacha O(n + m)."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Logarifmik murakkablikka ega algoritmga misol qaysi?",
+   "a": [
+    "Ikkilik qidiruv",
+    "Massivdagi barcha juftliklarni ko'rib chiqish",
+    "Pufakchali saralash",
+    "Barcha qism to'plamlarni sanash"
+   ],
+   "e": "O(log n)."
+  },
+  {
+   "b": "Murakkablik",
+   "q": "Kvadratik murakkablikka ega algoritmga misol qaysi?",
+   "a": [
+    "Tanlash orqali saralash",
+    "Ikkilik qidiruv",
+    "Xesh-jadvalda qidiruv",
+    "Massiv elementiga indeks bo'yicha murojaat"
+   ],
+   "e": "O(n²)."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Chiziqli qidiruvning afzalligi nima?",
+   "a": [
+    "Saralanmagan ma'lumotda ham ishlaydi",
+    "U har doim ikkilik qidiruvdan tezroq ishlaydi",
+    "U O(1) vaqtda ishlaydi",
+    "U faqat graflarda qo'llaniladi"
+   ],
+   "e": "Oldindan saralash talab qilinmaydi."
+  },
+  {
+   "b": "Qidiruv",
+   "q": "Qidiruvda \"qo'riqchi\" (sentinel) elementi nima uchun ishlatiladi?",
+   "a": [
+    "Sikldagi chegara tekshiruvini kamaytirish uchun",
+    "Massivni avtomatik saralash uchun",
+    "Xotirani bo'shatish uchun",
+    "Massiv elementlarini o'chirish uchun"
+   ],
+   "e": "Izlanayotgan element massiv oxiriga qo'yiladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Pufakchali saralashni qanday yaxshilash mumkin?",
+   "a": [
+    "Almashtirish bo'lmagan o'tishda to'xtatish",
+    "Har o'tishda massivni ikki marta teskari aylantirish",
+    "Tayanch elementni tasodifiy tanlash",
+    "Uyum qurish"
+   ],
+   "e": "Saralangan massivda O(n) bo'ladi."
+  },
+  {
+   "b": "Saralash",
+   "q": "Saralangan massivni teskari tartibga keltirish murakkabligi qanday?",
+   "a": [
+    "O(n)",
+    "O(n log n), chunki qayta saralash kerak",
+    "O(n²)",
+    "O(1)"
+   ],
+   "e": "Elementlar uchidan almashtiriladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Stek bo'sh bo'lganda pop() chaqirilsa nima yuz beradi?",
+   "a": [
+    "Xatolik (stack underflow)",
+    "Stekka avtomatik ravishda nol qo'shiladi va u qaytariladi",
+    "Stek to'lib ketadi",
+    "Hech narsa bo'lmaydi"
+   ],
+   "e": "Oldin empty() tekshiriladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Stek to'lib ketishi qanday nomlanadi?",
+   "a": [
+    "Stack overflow",
+    "Stack underflow",
+    "Memory leak",
+    "Null pointer"
+   ],
+   "e": "Ko'pincha cheksiz rekursiyada yuz beradi."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Muvozanatlangan ikkilik qidiruv daraxtida 1 000 000 element bo'lsa, qidiruv taxminan nechta qadam oladi?",
+   "a": [
+    "20",
+    "1000",
+    "1 000 000",
+    "500 000"
+   ],
+   "e": "log₂10⁶ ≈ 20."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Ikkilik daraxtda tugun chuqurligi nima?",
+   "a": [
+    "Ildizdan shu tugungacha bo'lgan qirralar soni",
+    "Tugunning farzandlari soni",
+    "Tugundagi qiymat",
+    "Tugun ostidagi barglar soni"
+   ],
+   "e": "Ildiz chuqurligi 0."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Parolni ma'lumotlar bazasida xesh ko'rinishida saqlashning sababi nima?",
+   "a": [
+    "Baza o'g'irlansa ham asl parol oshkor bo'lmaydi",
+    "Parolni keyinchalik tezda deshifrlab, foydalanuvchiga eslatish uchun",
+    "Xotirani tejash uchun faqat",
+    "Parolni qisqartirish uchun"
+   ],
+   "e": "Odatda \"tuz\" (salt) qo'shiladi."
+  },
+  {
+   "b": "Xeshlash",
+   "q": "Xesh-jadvalning saralangan daraxtdan kamchiligi nima?",
+   "a": [
+    "Elementlar tartibini saqlamaydi",
+    "Qidiruv har doim sekinroq, O(n log n) vaqt oladi",
+    "Element qo'shib bo'lmaydi",
+    "Faqat sonlarni saqlaydi"
+   ],
+   "e": "Tartib kerak bo'lsa, map yoki set ishlatiladi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Yo'l xaritasini graf sifatida ifodalaganda uchlar nimani bildiradi?",
+   "a": [
+    "Chorrahalar yoki shaharlar",
+    "Avtomobillar soni va ularning tezligi",
+    "Yo'l belgilari",
+    "Haydovchilar"
+   ],
+   "e": "Qirralar — yo'llar, vaznlar — masofalar."
+  },
+  {
+   "b": "Graflar",
+   "q": "Deykstra algoritmi qaysi turdagi algoritm?",
+   "a": [
+    "Ochko'z",
+    "Orqaga qaytish (backtracking)",
+    "Tasodifiy",
+    "Bo'l va hukmronlik qil"
+   ],
+   "e": "Har qadamda eng yaqin ko'rilmagan uch tanlanadi."
+  },
+  {
+   "b": "Graflar",
+   "q": "Grafda siklni aniqlash DSU bilan qanday bajariladi?",
+   "a": [
+    "Qirra uchlari bir to'plamda bo'lsa, sikl bor",
+    "Qirralar soni uchlar sonidan kam bo'lsa",
+    "Har doim BFS kerak, DSU bilan imkonsiz",
+    "Uchlarni saralash orqali"
+   ],
+   "e": "Yo'nalishsiz graflar uchun."
+  },
+  {
+   "b": "Graflar",
+   "q": "Kruskal algoritmi murakkabligi asosan nima bilan belgilanadi?",
+   "a": [
+    "Qirralarni saralash: O(E log E)",
+    "Uchlar sonining kubi bilan",
+    "Faqat uchlar soni bilan O(V)",
+    "O(1)"
+   ],
+   "e": "DSU amallari deyarli O(1)."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Rekursiyani \"dumli rekursiya\" (tail recursion) deyiladi, agar...",
+   "a": [
+    "Rekursiv chaqiruv funksiyaning oxirgi amali bo'lsa",
+    "Funksiya o'zini ikki marta chaqirsa",
+    "Funksiya hech qachon qaytmasa",
+    "Funksiya global o'zgaruvchi ishlatsa"
+   ],
+   "e": "Kompilyator uni siklga aylantirishi mumkin."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Kichik masalalarga bo'linmaydigan masalaga dinamik dasturlash qo'llash foydalimi?",
+   "a": [
+    "Yo'q",
+    "Ha, har doim, chunki DP har qanday masalani tezlashtiradi",
+    "Faqat graflarda",
+    "Faqat saralashda"
+   ],
+   "e": "DP qism masalalar takrorlanganda foyda beradi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Ikkiga bo'lish (bisection) usuli bilan tenglama ildizini topishda nima talab qilinadi?",
+   "a": [
+    "Oraliq uchlarida funksiya ishoralari turlicha",
+    "Funksiya hech qayerda uzluksiz bo'lmasligi",
+    "Funksiyaning hosilasi doimo nol bo'lishi",
+    "Oraliq cheksiz bo'lishi"
+   ],
+   "e": "Uzluksiz funksiyada ildiz mavjudligi kafolatlanadi."
+  },
+  {
+   "b": "Algoritm usullari",
+   "q": "Algoritmni samaradorligini oshirishning umumiy yo'li qaysi?",
+   "a": [
+    "Mos ma'lumotlar tuzilmasini tanlash",
+    "Dastur kodidagi izohlarni olib tashlash va o'zgaruvchilarni qisqa nomlash",
+    "Kompyuterni qayta yoqish",
+    "Kodni bir qatorga yozish"
+   ],
+   "e": "Masalan, chiziqli qidiruv o'rniga xesh-jadval."
+  },
+  {
+   "b": "Saralash",
+   "q": "Ikki saralangan massiv medianasi qanday topiladi (oddiy usul)?",
+   "a": [
+    "Birlashtirib, o'rta elementni olish",
+    "Har bir massiv birinchi elementlarini qo'shib ikkiga bo'lish",
+    "Massivlarni teskari aylantirish",
+    "Eng katta elementni olish"
+   ],
+   "e": "O(n + m); murakkabroq usul O(log(n + m))."
+  },
+  {
+   "b": "Daraxtlar",
+   "q": "Daraxtsimon tuzilmaga hayotiy misol qaysi?",
+   "a": [
+    "Kompyuterdagi papkalar tuzilmasi",
+    "Do'kondagi navbat",
+    "Bir qator turgan kitoblar",
+    "Telefon raqamlari ro'yxati"
+   ],
+   "e": "Har papka ichida qism papkalar bo'ladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Brauzerning \"Orqaga\" tugmasi qaysi tuzilma asosida ishlaydi?",
+   "a": [
+    "Stek",
+    "Navbat",
+    "Xesh-jadval",
+    "Graf"
+   ],
+   "e": "Oxirgi ochilgan sahifa birinchi qaytariladi."
+  },
+  {
+   "b": "Chiziqli tuzilmalar",
+   "q": "Operatsion tizimda jarayonlarni navbat bilan bajarish (round-robin) qaysi tuzilmaga asoslangan?",
+   "a": [
+    "Navbat",
+    "Stek",
+    "Daraxt",
+    "Uyum faqat"
+   ],
+   "e": "Har bir jarayon navbat bilan vaqt kvanti oladi."
   }
  ]
 }

@@ -11,6 +11,8 @@ for line in Path(sys.argv[2]).read_text().splitlines():
         continue
     i, j, t = line.split("|", 2)
     a = d["savollar"][int(i)]["a"]
+    if j == "o":  # yangi matnga eng o'xshash noto'g'ri variantni almashtirish (kengaytirish)
+        j = str(max(range(1, 4), key=lambda k: len(W(a[k]) & W(t))))
     if j == "s":  # eng qisqa noto'g'ri variantni almashtirish
         j = str(min(range(1, 4), key=lambda k: len(a[k])))
     if t.strip() in a:
