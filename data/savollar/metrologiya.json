@@ -1950,6 +1950,1370 @@
     "Mahsulotning yengilligi"
    ],
    "e": "Buzilishlar orasidagi o'rtacha vaqt bilan baholanadi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Bir kattalik 5 marta o'lchandi: 10,1; 10,3; 10,2; 10,2; 10,2. O'rtacha arifmetik qiymat qancha?",
+   "a": [
+    "10,2",
+    "10,3",
+    "10,1",
+    "51,0"
+   ],
+   "e": "51,0 / 5."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "O'lchash natijasi qanday yoziladi?",
+   "a": [
+    "X = (x̄ ± Δ) birlik, ishonchlilik ehtimoli bilan",
+    "Faqat bitta son va o'lchov birligi, xatolik ko'rsatilmasdan",
+    "Faqat xatolik qiymati foizlarda",
+    "Faqat o'lchash asbobining nomi va raqami"
+   ],
+   "e": "Masalan, l = (25,40 ± 0,05) mm, P = 0,95."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Natijani yaxlitlashda xatolik odatda nechta qiymatli raqam bilan yoziladi?",
+   "a": [
+    "Bir yoki ikkita",
+    "Beshta va undan ko'p",
+    "Har doim oltita",
+    "Xatolik yozilmaydi"
+   ],
+   "e": "Natija xatolik bilan bir xonagacha yaxlitlanadi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Normal taqsimotda ±3σ oraliqqa natijalarning taxminan qancha qismi tushadi?",
+   "a": [
+    "99,73%",
+    "68,27%",
+    "95,45%",
+    "50%"
+   ],
+   "e": "\"Uch sigma\" qoidasi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Normal taqsimotda ±1σ oraliqqa natijalarning taxminan qancha qismi tushadi?",
+   "a": [
+    "68%",
+    "95%",
+    "99,7%",
+    "50%"
+   ],
+   "e": "±2σ — 95%."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "\"Uch sigma\" qoidasi nima uchun ishlatiladi?",
+   "a": [
+    "Qo'pol xatoliklarni aniqlash uchun",
+    "Sistematik xatolikni tuzatish uchun",
+    "Asbobni qiyoslash muddatini belgilash uchun",
+    "O'lchov birligini tanlash uchun"
+   ],
+   "e": "|x − x̄| > 3σ bo'lsa, natija shubhali."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "O'rtacha arifmetik qiymatning o'rta kvadratik og'ishi o'lchashlar soni n ga qanday bog'liq?",
+   "a": [
+    "√n marta kamayadi",
+    "n marta ortadi",
+    "O'zgarmaydi",
+    "n² marta kamayadi"
+   ],
+   "e": "S(x̄) = S/√n."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Kam sonli o'lchashlarda ishonchlilik oralig'i qaysi koeffitsiyent bilan hisoblanadi?",
+   "a": [
+    "Styudent koeffitsiyenti",
+    "Puasson koeffitsiyenti",
+    "FIK",
+    "Ishqalanish koeffitsiyenti"
+   ],
+   "e": "t-taqsimot."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Ishonchlilik ehtimoli texnik o'lchashlarda odatda qancha qabul qilinadi?",
+   "a": [
+    "0,95",
+    "0,5",
+    "0,1",
+    "0,01"
+   ],
+   "e": "Muhim hollarda 0,99."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Instrumental xatolik nimadan kelib chiqadi?",
+   "a": [
+    "O'lchash vositasi nomukammalligidan",
+    "Operatorning noto'g'ri o'qishidan",
+    "O'lchash usulining nazariy noaniqligidan",
+    "Tashqi muhit haroratining o'zgarishidan"
+   ],
+   "e": "Asbob xatoligi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Metodik xatolik nimadan kelib chiqadi?",
+   "a": [
+    "O'lchash usulining nomukammalligidan",
+    "Asbob shkalasining noto'g'ri bo'linishidan",
+    "Operatorning ko'rish qobiliyatidan",
+    "Elektr ta'minotidagi uzilishdan"
+   ],
+   "e": "Masalan, asbob ichki qarshiligining ta'siri."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Subyektiv (shaxsiy) xatolik nimadan kelib chiqadi?",
+   "a": [
+    "Operator xususiyatlaridan",
+    "Asbob konstruksiyasidan",
+    "Usulning nazariy asosidan",
+    "Etalon noaniqligidan"
+   ],
+   "e": "Parallaks ham shunga kiradi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Harorat o'zgarishi natijasida yuzaga keladigan xatolik qanday turga kiradi?",
+   "a": [
+    "Qo'shimcha xatolik",
+    "Asosiy xatolik",
+    "Qo'pol xatolik",
+    "Subyektiv xatolik"
+   ],
+   "e": "Me'yoriy sharoitdan chetlanish."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Po'lat detalni 20 °C dan farqli haroratda o'lchash nima uchun xatolik beradi?",
+   "a": [
+    "Issiqlikdan kengayish tufayli",
+    "Detal rangining o'zgarishi tufayli",
+    "Detal massasining o'zgarishi tufayli",
+    "Magnit maydoni tufayli"
+   ],
+   "e": "Δl = α·l·Δt."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Bilvosita o'lchashda xatolik nimaga bog'liq?",
+   "a": [
+    "Argumentlar xatoligi va funksiya ko'rinishiga",
+    "Faqat argumentlardan eng kattasining qiymatiga",
+    "Faqat takroriy o'lchashlar soniga",
+    "Faqat operatorning ish tajribasiga"
+   ],
+   "e": "Xatoliklarni qo'shish qoidalari."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Ko'paytma yoki bo'linmaning nisbiy xatoligi taxminan qanday topiladi (eng yomon holat)?",
+   "a": [
+    "Argumentlar nisbiy xatoliklari yig'indisi",
+    "Argumentlar absolyut xatoliklari ko'paytmasi",
+    "Eng kichik nisbiy xatolik",
+    "Nisbiy xatoliklar ayirmasi"
+   ],
+   "e": "Ehtimoliy baholashda — kvadratlar yig'indisining ildizi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Yig'indining absolyut xatoligi (eng yomon holat) qanday topiladi?",
+   "a": [
+    "Absolyut xatoliklar yig'indisi",
+    "Nisbiy xatoliklar ko'paytmasi",
+    "Eng kichik absolyut xatolik",
+    "Absolyut xatoliklar ayirmasi"
+   ],
+   "e": "Δ(x+y) = Δx + Δy."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "O'lchash vositasining variatsiyasi nima?",
+   "a": [
+    "Bir nuqtada yaqinlashish yo'nalishiga qarab ko'rsatkichlar farqi",
+    "Asbob ko'rsatkichining butun shkala bo'ylab o'rtacha qiymati",
+    "Asbobning bir yil davomidagi ish soatlari",
+    "Shkaladagi bo'linmalar soni"
+   ],
+   "e": "Gisterezis, lyuftlar sababli."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Asbobning \"nol siljishi\" qanday xatolikka kiradi?",
+   "a": [
+    "Sistematik",
+    "Tasodifiy",
+    "Qo'pol",
+    "Subyektiv"
+   ],
+   "e": "Nolni sozlash orqali bartaraf qilinadi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "O'lchashlar sonini ko'paytirish qaysi xatolikni kamaytirmaydi?",
+   "a": [
+    "Sistematik xatolikni",
+    "Tasodifiy xatolikni",
+    "O'rtachaning tarqoqligini",
+    "Natijalar tebranishini"
+   ],
+   "e": "U tuzatma bilan yo'qotiladi."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Elektr o'lchash asboblari shkalasidagi \"1,5\" raqami nimani bildiradi?",
+   "a": [
+    "Aniqlik sinfini",
+    "Asbob og'irligini",
+    "Shkala uzunligini",
+    "Ishlab chiqarilgan yilini"
+   ],
+   "e": "Keltirilgan xatolik 1,5%."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Aylanaga olingan aniqlik sinfi belgisi (masalan, ① 1,5) nimani bildiradi?",
+   "a": [
+    "Nisbiy xatolik bo'yicha me'yorlanganini",
+    "Keltirilgan xatolik bo'yicha me'yorlanganini",
+    "Absolyut xatolik bo'yicha me'yorlanganini",
+    "Asbob doiraviy shaklda ekanini"
+   ],
+   "e": "Odatda schyotchiklarda."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Multimetr nima?",
+   "a": [
+    "Bir necha kattalikni o'lchovchi asbob",
+    "Faqat haroratni o'lchovchi raqamli termometr",
+    "Faqat massani o'lchovchi elektron tarozi",
+    "Faqat uzunlikni o'lchovchi ruletka"
+   ],
+   "e": "Tok, kuchlanish, qarshilik."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Ossillograf nima uchun ishlatiladi?",
+   "a": [
+    "Signal shaklini kuzatish uchun",
+    "Massani aniq o'lchash uchun",
+    "Detal qattiqligini o'lchash uchun",
+    "Havo namligini o'lchash uchun"
+   ],
+   "e": "Amplituda, chastota, faza."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Tok qisqichi (tokoizmeritelnye kleshi) afzalligi nima?",
+   "a": [
+    "Zanjirni uzmasdan tokni o'lchaydi",
+    "Faqat zanjir uzilganda ishlaydi",
+    "Kuchlanishni zanjirga ketma-ket ulab o'lchaydi",
+    "Faqat o'zgarmas tokni o'lchaydi"
+   ],
+   "e": "Magnit maydoni orqali."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Tarozilar qaysi kattalikni o'lchaydi?",
+   "a": [
+    "Massani",
+    "Hajmni",
+    "Zichlikni",
+    "Bosimni"
+   ],
+   "e": "Savdoda davlat nazorati obyekti."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Areometr nimani o'lchaydi?",
+   "a": [
+    "Suyuqlik zichligini",
+    "Suyuqlik haroratini",
+    "Suyuqlik sarfini",
+    "Suyuqlik bosimini"
+   ],
+   "e": "Akkumulyator elektroliti, yoqilg'i."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Takometr nimani o'lchaydi?",
+   "a": [
+    "Aylanish chastotasini",
+    "Tezlanishni",
+    "Bosimni",
+    "Haroratni"
+   ],
+   "e": "ayl/min."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Lyuksmetr nimani o'lchaydi?",
+   "a": [
+    "Yoritilganlikni",
+    "Yorug'lik kuchini",
+    "Tovush balandligini",
+    "Havo tezligini"
+   ],
+   "e": "Birligi lyuks."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Shovqinomer nimani o'lchaydi?",
+   "a": [
+    "Tovush bosimi darajasini (dB)",
+    "Yorug'lik oqimini",
+    "Elektr qarshiligini",
+    "Havo namligini"
+   ],
+   "e": "Mehnat muhofazasida."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Anemometr nimani o'lchaydi?",
+   "a": [
+    "Havo oqimi tezligini",
+    "Havo namligini",
+    "Havo bosimini",
+    "Havo haroratini"
+   ],
+   "e": "Aeroportlarda shamol tezligi muhim."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Tekislikdan chetlanishni tekshirish uchun qaysi vosita ishlatiladi?",
+   "a": [
+    "Lekalli chizg'ich va shchup",
+    "Termometr va barometr",
+    "Ampermetr",
+    "Tarozi"
+   ],
+   "e": "Yorug'lik tirqishi bo'yicha."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Shchup (o'lchov plastinkalari to'plami) nima uchun ishlatiladi?",
+   "a": [
+    "Tirqishlarni o'lchash uchun",
+    "Detal massasini o'lchash uchun",
+    "Detal haroratini o'lchash uchun",
+    "Elektr kuchlanishini o'lchash uchun"
+   ],
+   "e": "Masalan, klapan tirqishi."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Burchaklarni o'lchash uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Uglomer",
+    "Mikrometr",
+    "Manometr",
+    "Ampermetr"
+   ],
+   "e": "Noniusli burchak o'lchagich."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Rezba qadamini tekshirish uchun qaysi vosita ishlatiladi?",
+   "a": [
+    "Rezba shabloni (rezbomer)",
+    "Termometr",
+    "Tarozi",
+    "Voltmetr"
+   ],
+   "e": "Rezba kalibrlari ham."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "O'lchash vositasini tanlashda asosiy talab qaysi?",
+   "a": [
+    "Xatoligi o'lchanayotgan dopuskdan ancha kichik bo'lishi",
+    "Eng qimmat va zamonaviy asbobni tanlash",
+    "Eng og'ir va mustahkam asbobni tanlash",
+    "Rangi chiroyli bo'lishi"
+   ],
+   "e": "Odatda dopuskning 20–35% idan oshmasligi."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "O'zbekistonda o'lchashlar birliligini ta'minlash sohasidagi asosiy qonun qaysi?",
+   "a": [
+    "\"O'lchashlar birliligini ta'minlash to'g'risida\"gi Qonun",
+    "\"Iste'molchilar huquqlarini himoya qilish to'g'risida\"gi Qonun",
+    "\"Ta'lim to'g'risida\"gi Qonun",
+    "Mehnat kodeksi"
+   ],
+   "e": "Metrologik faoliyatning huquqiy asosi."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "O'lchash vositasi turini tasdiqlash nima?",
+   "a": [
+    "Yangi turdagi vositani sinab, davlat reyestriga kiritish",
+    "Har bir asbobni ishlab chiqaruvchi zavodda bir martalik tekshirish",
+    "Asbobga ishlab chiqaruvchining tovar belgisini ro'yxatdan o'tkazish",
+    "Asbobning ulgurji narxini davlat tomonidan tasdiqlash"
+   ],
+   "e": "Faqat tasdiqlangan turlar davlat nazorati sohasida ishlatiladi."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "Metrologik xizmat nima?",
+   "a": [
+    "O'lchashlar birliligini ta'minlovchi xizmatlar majmui",
+    "O'lchash asboblarini ulgurji va chakana sotuvchi tashkilotlar tarmog'i",
+    "Mahsulotlarni majburiy sertifikatlashtiruvchi organlar",
+    "Bojxona va chegara nazorati xizmati"
+   ],
+   "e": "Davlat va korxona metrologik xizmatlari."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "Korxona metrologik xizmatining vazifalaridan biri qaysi?",
+   "a": [
+    "O'lchash vositalarini hisobga olish va qiyoslashga topshirish",
+    "Korxona mahsulotini chakana savdo tarmog'ida sotishni tashkil etish",
+    "Xodimlarga ish haqi va mukofotlarni hisoblash",
+    "Korxona binolarini ta'mirlash ishlarini olib borish"
+   ],
+   "e": "Shuningdek, o'lchash usullarini attestatsiyadan o'tkazish."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "O'lchash metodikasi (MVI) attestatsiyasi nima?",
+   "a": [
+    "Metodika metrologik talablarga mosligini tasdiqlash",
+    "Xodimlarning o'lchash ishlariga bo'lgan malakasini attestatsiyadan o'tkazish",
+    "Asbobni ta'mirlab, ish holatiga keltirish",
+    "Mahsulotni majburiy sertifikatlashtirish"
+   ],
+   "e": "Xatolik tavsiflari ta'minlanishini tekshirish."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "Qiyoslash belgisi (tamg'a) qayerga qo'yiladi?",
+   "a": [
+    "O'lchash vositasiga yoki uning hujjatiga",
+    "Faqat mahsulot qadog'iga, muvofiqlik belgisi bilan birga",
+    "Faqat korxona laboratoriyasining eshigiga",
+    "Iste'molchining shaxsiy pasportiga"
+   ],
+   "e": "Yaroqsiz bo'lsa — yaroqsizlik to'g'risida xabarnoma."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "Etalon bilan ishchi o'lchash vositasi orasidagi oraliq bo'g'in nima deyiladi?",
+   "a": [
+    "Ishchi etalon",
+    "Birlamchi etalon",
+    "Xalqaro etalon",
+    "Guvoh-etalon"
+   ],
+   "e": "Avval \"namunaviy o'lchash vositasi\" deyilgan."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "Xalqaro o'lchovlar va tarozilar byurosi (BIPM) qayerda joylashgan?",
+   "a": [
+    "Sevr (Fransiya)",
+    "London (Buyuk Britaniya)",
+    "Nyu-York (AQSh)",
+    "Berlin (Germaniya)"
+   ],
+   "e": "Metr konvensiyasi, 1875-yil."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "Metr konvensiyasi qachon imzolangan?",
+   "a": [
+    "1875-yilda",
+    "1960-yilda",
+    "1799-yilda",
+    "2019-yilda"
+   ],
+   "e": "Xalqaro metrologik hamkorlik boshlanishi."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "SI tizimi qachon qabul qilingan?",
+   "a": [
+    "1960-yilda",
+    "1875-yilda",
+    "1918-yilda",
+    "2000-yilda"
+   ],
+   "e": "XI O'lchovlar va tarozilar bosh konferensiyasi."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "Xalqaro qonunchilik metrologiyasi tashkiloti qanday qisqartma bilan ataladi?",
+   "a": [
+    "OIML",
+    "ISO",
+    "IEC",
+    "IAF"
+   ],
+   "e": "Qonunchilik metrologiyasi tavsiyalarini ishlab chiqadi."
+  },
+  {
+   "b": "Metrologiya asoslari",
+   "q": "Metrologik ekspertiza nima?",
+   "a": [
+    "Hujjatlarni metrologik talablar nuqtai nazaridan tahlil qilish",
+    "O'lchash asboblarini ulgurji sotish shartnomalarini tuzish",
+    "Mahsulotni ommaviy axborot vositalarida reklama qilish",
+    "Asboblarni tashish uchun qadoqlash"
+   ],
+   "e": "Masalan, loyihalar va standartlar ekspertizasi."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "\"Texnik jihatdan tartibga solish to'g'risida\"gi Qonun nimani tartibga soladi?",
+   "a": [
+    "Texnik reglamentlar, standartlar va muvofiqlikni baholash",
+    "Soliq stavkalari va bojxona to'lovlarini belgilash tartibi",
+    "Ta'lim muassasalari faoliyatini litsenziyalash",
+    "Saylov va referendum o'tkazish tartibi"
+   ],
+   "e": "Mahsulot xavfsizligi talablari."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Texnik reglamentni ishlab chiqishning asosiy maqsadi nima?",
+   "a": [
+    "Hayot, sog'liq, mol-mulk va atrof-muhitni himoya qilish",
+    "Korxona daromadini va eksport hajmini maksimal oshirish",
+    "Import mahsulotlarini mamlakatga kiritishni butunlay taqiqlash",
+    "Mahsulot reklamasini ko'paytirish"
+   ],
+   "e": "Iste'molchini chalg'itishning oldini olish ham."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Kodlash va klassifikatsiyalash standartlashtirishning qaysi obyektiga kiradi?",
+   "a": [
+    "Axborot",
+    "Faqat qurilish materiallari",
+    "Faqat qishloq xo'jaligi",
+    "Faqat harbiy texnika"
+   ],
+   "e": "Masalan, mahsulotlar klassifikatori."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Shtrix-kod nima uchun ishlatiladi?",
+   "a": [
+    "Mahsulotni avtomatik identifikatsiya qilish uchun",
+    "Mahsulot sifatini va xavfsizligini tasdiqlash uchun",
+    "Mahsulotni majburiy sertifikatlashtirish uchun",
+    "Mahsulot narxini oshirish uchun"
+   ],
+   "e": "EAN-13 keng tarqalgan."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "EAN-13 shtrix-kodining birinchi raqamlari nimani bildiradi?",
+   "a": [
+    "GS1 milliy tashkiloti prefiksini",
+    "Mahsulotning chakana narxini so'mda",
+    "Mahsulot ishlab chiqarilgan sana va smenani",
+    "Mahsulot sifat darajasi va navini"
+   ],
+   "e": "O'zbekiston prefiksi — 478."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Kompleks standartlashtirish nima?",
+   "a": [
+    "Bog'liq obyektlar talablarini o'zaro muvofiqlashtirish",
+    "Faqat bitta detal uchun alohida, mustaqil standart yaratish",
+    "Standartlarni tasodifiy tartibda qabul qilish",
+    "Eskirgan standartlarni bekor qilish"
+   ],
+   "e": "Masalan, xomashyo, detal va tayyor mahsulot birga."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Ilg'or standartlashtirish nima?",
+   "a": [
+    "Kelajak talablarini oldindan hisobga oluvchi standartlashtirish",
+    "Faqat mavjud mahsulotni hujjatlashtirib, o'zgarishsiz saqlash",
+    "Eskirgan texnologiyalarni muhofaza qilish",
+    "Standartlarni hech qachon qayta ko'rmaslik"
+   ],
+   "e": "Istiqbolli ko'rsatkichlar belgilanadi."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Xalqaro standartlarni milliy standart sifatida qabul qilish nima beradi?",
+   "a": [
+    "Savdodagi texnik to'siqlar kamayadi",
+    "Eksport butunlay to'xtaydi",
+    "Mahsulot sifati albatta pasayadi",
+    "Hech qanday foyda bermaydi"
+   ],
+   "e": "JST (WTO) TBT kelishuvi."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Standartlashtirish sohasidagi milliy organ vazifasiga nima kiradi?",
+   "a": [
+    "Davlat standartlarini qabul qilish va reyestrini yuritish",
+    "Korxonalarning mahsulot narxlarini va ustamalarini belgilash",
+    "Korxona rahbarlarini lavozimga tayinlash",
+    "Soliqlarni undirish va nazorat qilish"
+   ],
+   "e": "Xalqaro tashkilotlarda mamlakatni vakillik qilish ham."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Ekologik standartlar nimani belgilaydi?",
+   "a": [
+    "Atrof-muhitga ruxsat etilgan ta'sir me'yorlarini",
+    "Mahsulot reklamasida ishlatiladigan matn va rasmlarni",
+    "Ishchilarning eng kam ish haqini",
+    "Mahsulot qadog'ining rangini"
+   ],
+   "e": "Masalan, chiqindilar me'yorlari."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Mahsulotni markirovkalash nima?",
+   "a": [
+    "Mahsulotga identifikatsiya ma'lumotlarini tushirish",
+    "Mahsulotni laboratoriyada sinovdan o'tkazish jarayoni",
+    "Mahsulotni omborda javonlarga joylash",
+    "Mahsulot narxini o'zgartirish"
+   ],
+   "e": "Nomi, ishlab chiqaruvchi, sana, muvofiqlik belgisi."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "Sifat ko'rsatkichlariga qaysilar kiradi?",
+   "a": [
+    "Vazifaviy, ishonchlilik, ergonomik, estetik",
+    "Faqat narx, chegirma va to'lov shartlari",
+    "Faqat ishlab chiqaruvchi nomi va manzili",
+    "Faqat qadoq rangi va dizayni"
+   ],
+   "e": "Texnologik, ekologik, patent-huquqiy ham."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "Sifat darajasini baholashning differensial usuli nima?",
+   "a": [
+    "Alohida ko'rsatkichlarni bazaviylar bilan taqqoslash",
+    "Barcha ko'rsatkichlarni bitta umumiy ko'rsatkichga keltirish",
+    "Faqat ekspert so'roviga tayanish",
+    "Mahsulotni ko'z bilan baholash"
+   ],
+   "e": "Kompleks usulda umumlashgan ko'rsatkich ishlatiladi."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "Ekspert usuli qachon qo'llaniladi?",
+   "a": [
+    "Ko'rsatkichni o'lchab bo'lmaganda",
+    "Har doim, o'lchash mumkin bo'lsa ham",
+    "Faqat elektr kattaliklari uchun",
+    "Hech qachon"
+   ],
+   "e": "Masalan, estetik ko'rsatkichlar."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "Organoleptik usul nima?",
+   "a": [
+    "Sezgi organlari yordamida baholash",
+    "Asboblar yordamida aniq o'lchash usuli",
+    "Hisoblash yo'li bilan aniqlash",
+    "Statistik tahlil usuli"
+   ],
+   "e": "Ta'm, hid, rang, tashqi ko'rinish."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "Umumiy sifat menejmenti (TQM) g'oyasi nima?",
+   "a": [
+    "Barcha xodimlar ishtirokidagi uzluksiz takomillashtirish",
+    "Sifat uchun faqat sifat bo'limi javobgarligi tamoyili",
+    "Faqat tayyor mahsulotni qabul nazoratidan o'tkazish",
+    "Xarajatlarni har qanday yo'l bilan kamaytirish"
+   ],
+   "e": "Total Quality Management."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "Kaizen tamoyili nimani anglatadi?",
+   "a": [
+    "Kichik qadamlar bilan doimiy yaxshilash",
+    "Bir martalik keskin va to'liq o'zgarish",
+    "Nuqson topilsa ishlab chiqarishni to'xtatish",
+    "Xodimlarni qisqartirish"
+   ],
+   "e": "Yapon falsafasi."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "\"Olti sigma\" konsepsiyasining maqsadi nima?",
+   "a": [
+    "Nuqsonlarni million imkoniyatdan 3,4 tagacha kamaytirish",
+    "Nuqsonlarni olti foizgacha kamaytirish",
+    "Xodimlar sonini olti baravar oshirish",
+    "Jarayonni olti bosqichga bo'lish"
+   ],
+   "e": "Jarayon o'zgaruvchanligini kamaytirish."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "Sifatga sarflanadigan xarajatlar qanday guruhlarga bo'linadi?",
+   "a": [
+    "Oldini olish, baholash va nuqsonlar xarajatlari",
+    "Faqat reklama va marketing xarajatlari",
+    "Faqat xodimlarning ish haqi",
+    "Faqat soliq va bojlar"
+   ],
+   "e": "Ichki va tashqi nuqsonlar."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "Ichki audit nima?",
+   "a": [
+    "Tizimni tashkilotning o'zi tekshirishi",
+    "Soliq organining rejali tekshiruvi",
+    "Mijozlar o'rtasida so'rovnoma o'tkazish",
+    "Sertifikatlashtirish organining tashqi auditi"
+   ],
+   "e": "Birinchi tomon auditi."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "Sifat menejmenti tizimining sertifikati odatda necha yilga beriladi?",
+   "a": [
+    "3 yilga",
+    "1 oyga",
+    "Umrbod",
+    "25 yilga"
+   ],
+   "e": "Har yili nazorat auditi o'tkaziladi."
+  },
+  {
+   "b": "Sifat boshqaruvi",
+   "q": "ISO 9000 seriyasida \"jarayonli yondashuv\" nimani anglatadi?",
+   "a": [
+    "Faoliyatni o'zaro bog'liq jarayonlar sifatida boshqarish",
+    "Faqat yakuniy natijani nazorat qilish va qabul qilish",
+    "Bo'limlarni bir-biridan to'liq ajratish",
+    "Jarayonlarni hujjatlashtirmaslik"
+   ],
+   "e": "Kirish → faoliyat → chiqish."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Shtangensirkulda asosiy shkala bo'yicha 23 mm, noniusning 7-chizig'i mos tushgan (hisob qiymati 0,1 mm). Natija qancha?",
+   "a": [
+    "23,7 mm",
+    "23,07 mm",
+    "30 mm",
+    "16 mm"
+   ],
+   "e": "23 + 7·0,1."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Mikrometrda stebel bo'yicha 12,5 mm, baraban bo'yicha 18 bo'linma. Natija qancha?",
+   "a": [
+    "12,68 mm",
+    "12,518 mm",
+    "30,5 mm",
+    "14,3 mm"
+   ],
+   "e": "12,5 + 18·0,01."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Mikrometr bilan o'lchashda trещotka (shaqildoq) nima uchun kerak?",
+   "a": [
+    "Bir xil o'lchash kuchini ta'minlash uchun",
+    "Barabanni tezroq aylantirish va vaqtni tejash uchun",
+    "Mikrometrni detalga qattiq qotirib qo'yish uchun",
+    "Shkalani yoritish uchun"
+   ],
+   "e": "Ortiqcha bosim xatolik beradi."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "O'lchashdan oldin mikrometr noli nima uchun tekshiriladi?",
+   "a": [
+    "Sistematik xatolikni bartaraf qilish uchun",
+    "Asbobning batareyasini zaryadlash uchun",
+    "Asbobni detal haroratiga moslashtirish uchun",
+    "Shkalani tozalash uchun"
+   ],
+   "e": "Nol siljishi tuzatiladi."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Uzunlik o'lchashda Abbe tamoyili nimani talab qiladi?",
+   "a": [
+    "O'lchash chizig'i shkala davomida bo'lishi",
+    "Detalni o'lchashdan oldin albatta qizdirish",
+    "O'lchashni faqat qorong'i xonada bajarish",
+    "Detalni har doim vertikal holatda o'lchash"
+   ],
+   "e": "Shtangensirkulda bu tamoyil buziladi."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Optimetr qanday asbob?",
+   "a": [
+    "Optik-mexanik nisbiy o'lchash asbobi",
+    "Haroratni kontaktsiz o'lchovchi asbob",
+    "Elektr tokini o'lchovchi asbob",
+    "Yorug'lik kuchini o'lchovchi asbob"
+   ],
+   "e": "Yuqori aniqlikdagi uzunlik o'lchashlari."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Interferometr qanday printsipda ishlaydi?",
+   "a": [
+    "Yorug'lik to'lqinlari interferensiyasi",
+    "Elektr qarshiligining harorat bilan o'zgarishi",
+    "Suyuqlikning issiqlikdan kengayishi",
+    "Magnit maydonining induksiyasi"
+   ],
+   "e": "Nanometr darajasidagi aniqlik."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Lazerli masofa o'lchagich nimaga asoslanadi?",
+   "a": [
+    "Nur qaytish vaqti yoki fazasini o'lchashga",
+    "Ovoz to'lqinining qaytishiga",
+    "Magnit maydoniga",
+    "Og'irlik kuchiga"
+   ],
+   "e": "Qurilish va geodeziyada."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Nivelir asosan nima uchun ishlatiladi?",
+   "a": [
+    "Balandliklar farqini aniqlash uchun",
+    "Burchaklarni o'lchash uchun faqat",
+    "Havo haroratini o'lchash uchun",
+    "Elektr kuchlanishini o'lchash uchun"
+   ],
+   "e": "Gorizontal ko'rish nuri bilan."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Teodolit nimani o'lchaydi?",
+   "a": [
+    "Gorizontal va vertikal burchaklarni",
+    "Faqat masofani",
+    "Havo bosimini",
+    "Detal massasini"
+   ],
+   "e": "Geodeziya asbobi."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Aeroport aerodromida uchish-qo'nish yo'lagi (UQY) tekisligi nima bilan nazorat qilinadi?",
+   "a": [
+    "Geodezik asboblar",
+    "Shtangensirkul",
+    "Ampermetr",
+    "Termopara"
+   ],
+   "e": "Sirt notekisligi me'yorlanadi."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Aeroportda ko'rinish masofasini (RVR) o'lchash uchun nima ishlatiladi?",
+   "a": [
+    "Transmissometr",
+    "Manometr",
+    "Takometr",
+    "Pirometr"
+   ],
+   "e": "Atmosfera shaffofligini o'lchaydi."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Aeronavigatsiya yorug'lik uskunalari yorug'lik kuchi nima bilan tekshiriladi?",
+   "a": [
+    "Fotometrik asboblar",
+    "Mikrometr",
+    "Tarozi",
+    "Areometr"
+   ],
+   "e": "Kandela, lyuks bo'yicha."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Yoqilg'i sifatini nazorat qilishda zichlik nima bilan o'lchanadi?",
+   "a": [
+    "Areometr (densimetr)",
+    "Gigrometr",
+    "Anemometr",
+    "Lyuksmetr"
+   ],
+   "e": "Harorat tuzatmasi bilan."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Shina bosimini o'lchovchi asbob qanday nomlanadi?",
+   "a": [
+    "Manometr",
+    "Barometr",
+    "Vakuummetr",
+    "Psixrometr"
+   ],
+   "e": "Ortiqcha bosim."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "1 atm taxminan necha kPa ga teng?",
+   "a": [
+    "101,3 kPa",
+    "10,13 kPa",
+    "1013 kPa",
+    "1 kPa"
+   ],
+   "e": "760 mm sim. ust."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Elektr sig'imining SI dagi birligi qaysi?",
+   "a": [
+    "Farad",
+    "Genri",
+    "Veber",
+    "Simens"
+   ],
+   "e": "F = Kl/V."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Induktivlikning SI dagi birligi qaysi?",
+   "a": [
+    "Genri",
+    "Farad",
+    "Tesla",
+    "Om"
+   ],
+   "e": "H."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Magnit induksiyasining SI dagi birligi qaysi?",
+   "a": [
+    "Tesla",
+    "Veber",
+    "Genri",
+    "Gauss"
+   ],
+   "e": "T = Wb/m²."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Elektr zaryadining SI dagi birligi qaysi?",
+   "a": [
+    "Kulon",
+    "Amper",
+    "Volt",
+    "Farad"
+   ],
+   "e": "Kl = A·s."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Dinamik qovushqoqlikning SI dagi birligi qaysi?",
+   "a": [
+    "Pa·s",
+    "m²/s",
+    "N/m",
+    "kg/m³"
+   ],
+   "e": "Kinematik qovushqoqlik — m²/s."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Zichlikning SI dagi birligi qaysi?",
+   "a": [
+    "kg/m³",
+    "g/sm",
+    "N/m³",
+    "kg·m"
+   ],
+   "e": "Suv — 1000 kg/m³."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Tezlanishning SI dagi birligi qaysi?",
+   "a": [
+    "m/s²",
+    "m/s",
+    "m²/s",
+    "N/kg·s"
+   ],
+   "e": "g ≈ 9,81 m/s²."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Radioaktivlik (aktivlik) birligi qaysi?",
+   "a": [
+    "Bekkerel",
+    "Grey",
+    "Zivert",
+    "Rentgen"
+   ],
+   "e": "Bq = 1/s."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "\"Milli\" old qo'shimchasi qanday ko'paytuvchini bildiradi?",
+   "a": [
+    "10⁻³",
+    "10⁻⁶",
+    "10⁻²",
+    "10³"
+   ],
+   "e": "mm, mA."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "\"Giga\" old qo'shimchasi qanday ko'paytuvchini bildiradi?",
+   "a": [
+    "10⁹",
+    "10⁶",
+    "10¹²",
+    "10³"
+   ],
+   "e": "GHz, GW."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "\"Santi\" old qo'shimchasi qanday ko'paytuvchini bildiradi?",
+   "a": [
+    "10⁻²",
+    "10⁻³",
+    "10⁻¹",
+    "10²"
+   ],
+   "e": "sm."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "36 km/soat necha m/s ga teng?",
+   "a": [
+    "10 m/s",
+    "36 m/s",
+    "3,6 m/s",
+    "100 m/s"
+   ],
+   "e": "36/3,6."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "1 tonna necha kilogrammga teng?",
+   "a": [
+    "1000 kg",
+    "100 kg",
+    "10 000 kg",
+    "10 kg"
+   ],
+   "e": "SI bilan qo'llanishga ruxsat etilgan birlik."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "1 gektar necha kvadrat metrga teng?",
+   "a": [
+    "10 000 m²",
+    "1000 m²",
+    "100 m²",
+    "100 000 m²"
+   ],
+   "e": "100 m × 100 m."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "1 litr necha kub santimetrga teng?",
+   "a": [
+    "1000 sm³",
+    "100 sm³",
+    "10 sm³",
+    "1 sm³"
+   ],
+   "e": "1 dm³."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Aviatsiyada balandlik ko'pincha qaysi tizimdan tashqari birlikda ifodalanadi?",
+   "a": [
+    "Fut",
+    "Verst",
+    "Arshin",
+    "Sajen"
+   ],
+   "e": "1 fut = 0,3048 m."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Aviatsiyada masofa uchun qaysi birlik keng qo'llaniladi?",
+   "a": [
+    "Dengiz mili",
+    "Arshin",
+    "Chaqirim",
+    "Dyuym"
+   ],
+   "e": "1 dengiz mili = 1852 m."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Aviatsiyada tezlik birligi sifatida nima qo'llaniladi?",
+   "a": [
+    "Uzel",
+    "Mach faqat",
+    "Verst/soat",
+    "Fut/kun"
+   ],
+   "e": "1 uzel = 1 dengiz mili/soat ≈ 1,852 km/soat."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Hosilaviy birliklar qanday hosil qilinadi?",
+   "a": [
+    "Asosiy birliklardan formulalar orqali",
+    "Tasodifiy tanlab olinadi",
+    "Faqat xalqaro shartnoma bilan beriladi",
+    "Har bir mamlakat o'zi o'ylab topadi"
+   ],
+   "e": "Masalan, m/s."
+  },
+  {
+   "b": "SI birliklari",
+   "q": "Kogerent birliklar tizimi nima?",
+   "a": [
+    "Koeffitsiyentsiz hosilaviy birliklar tizimi",
+    "Faqat bitta birlikdan iborat tizim",
+    "Birliklar o'zaro bog'lanmagan tizim",
+    "Faqat eski birliklar tizimi"
+   ],
+   "e": "SI — kogerent tizim."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Ampermetr 4,8 A ko'rsatdi, haqiqiy tok 5,0 A. Absolyut xatolik qancha?",
+   "a": [
+    "−0,2 A",
+    "+0,2 A",
+    "4%",
+    "9,8 A"
+   ],
+   "e": "Δ = X − Xh."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Termometr 21 °C ko'rsatdi, etalon 20 °C. Tuzatma qancha?",
+   "a": [
+    "−1 °C",
+    "+1 °C",
+    "0",
+    "41 °C"
+   ],
+   "e": "Tuzatma xatolikka teng, ishorasi teskari."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Aniqlik sinfi 0,5, shkalasi 0–200 V bo'lgan voltmetr 50 V ko'rsatdi. Mumkin bo'lgan nisbiy xatolik qancha?",
+   "a": [
+    "±2%",
+    "±0,5%",
+    "±1 V",
+    "±0,25%"
+   ],
+   "e": "Δ = 0,005·200 = 1 V; 1/50 = 2%."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Qaysi asbob bilan 100 V ni o'lchash aniqroq: 0–150 V, sinf 1,0 yoki 0–1000 V, sinf 0,5?",
+   "a": [
+    "0–150 V, sinf 1,0",
+    "0–1000 V, sinf 0,5",
+    "Ikkalasi bir xil",
+    "Aniqlab bo'lmaydi"
+   ],
+   "e": "1,5 V va 5 V absolyut xatolik."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Dinamik xatolik nima?",
+   "a": [
+    "Asbob inersiyasidan paydo bo'ladigan xatolik",
+    "O'lchash vaqtida kattalik o'zgarmagandagi asosiy xatolik",
+    "Asbobni joyidan siljitganda paydo bo'ladigan qo'pol xatolik",
+    "Operatorning charchashidan kelib chiqadigan xatolik"
+   ],
+   "e": "Statik xatolikdan farq qiladi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Diskretlik xatoligi qaysi asboblarga xos?",
+   "a": [
+    "Raqamli",
+    "Analogli strelkali",
+    "Suyuqlikli termometrlar",
+    "Pallali tarozilar"
+   ],
+   "e": "Eng kichik razryadning yarmi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Ko'rsatkichlarning takrorlanuvchanligi nimani bildiradi?",
+   "a": [
+    "Bir xil sharoitda natijalarning yaqinligi",
+    "Turli laboratoriyalarda natijalarning farqi",
+    "Asbob ko'rsatkichining umuman o'zgarmasligi",
+    "Natijani qog'ozga takror yozish"
+   ],
+   "e": "Qayta tiklanuvchanlik — turli sharoitlarda."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Qayta tiklanuvchanlik (vosproizvodimost) nimani bildiradi?",
+   "a": [
+    "Turli sharoitlarda natijalarning yaqinligi",
+    "Bitta operator, bitta asbob bilan natijalar yaqinligi",
+    "Natijalarning har doim aynan bir xilligi",
+    "Asbobni qayta yig'ish imkoniyati"
+   ],
+   "e": "Turli operatorlar, asboblar, joylar."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "O'lchash aniqligi nimani bildiradi?",
+   "a": [
+    "Natijaning haqiqiy qiymatga yaqinligi",
+    "O'lchashga sarflangan vaqtni",
+    "O'lchash asbobining narxini",
+    "Natijadagi raqamlar sonini"
+   ],
+   "e": "Xatolik qancha kichik bo'lsa, aniqlik shuncha yuqori."
+  },
+  {
+   "b": "Sertifikatlashtirish",
+   "q": "Sertifikatlashtirish organi akkreditatsiyasi uchun xalqaro standart qaysi?",
+   "a": [
+    "ISO/IEC 17065",
+    "ISO 9001",
+    "ISO 14001",
+    "ISO 22000"
+   ],
+   "e": "Mahsulot sertifikatlashtiruvchi organlar uchun."
+  },
+  {
+   "b": "Sertifikatlashtirish",
+   "q": "Tizimlarni sertifikatlashtiruvchi organlar uchun talablar qaysi standartda?",
+   "a": [
+    "ISO/IEC 17021",
+    "ISO/IEC 17025",
+    "ISO 9004",
+    "ISO 31000"
+   ],
+   "e": "Menejment tizimlari auditi."
+  },
+  {
+   "b": "Sertifikatlashtirish",
+   "q": "Xalqaro akkreditatsiya forumi qisqartmasi qaysi?",
+   "a": [
+    "IAF",
+    "ILAC",
+    "OIML",
+    "BIPM"
+   ],
+   "e": "ILAC — laboratoriyalar akkreditatsiyasi hamkorligi."
+  },
+  {
+   "b": "Sertifikatlashtirish",
+   "q": "Sertifikatlashtirish uchun ariza beruvchi qanday hujjatlarni taqdim etadi?",
+   "a": [
+    "Ariza va mahsulot texnik hujjatlari",
+    "Faqat korxona rahbarining fotosurati",
+    "Faqat soliq deklaratsiyasi",
+    "Hech qanday hujjat talab qilinmaydi"
+   ],
+   "e": "Standartlar, TSh, sinov bayonnomalari."
+  },
+  {
+   "b": "Sertifikatlashtirish",
+   "q": "Sinov bayonnomasini kim tuzadi?",
+   "a": [
+    "Sinov laboratoriyasi",
+    "Ishlab chiqaruvchi reklama bo'limi",
+    "Do'kon sotuvchisi",
+    "Bojxona deklaranti"
+   ],
+   "e": "Sertifikat berish uchun asos."
+  },
+  {
+   "b": "Sertifikatlashtirish",
+   "q": "Sertifikat noto'g'ri berilgani aniqlansa nima qilinadi?",
+   "a": [
+    "Sertifikat to'xtatiladi yoki bekor qilinadi",
+    "Sertifikat muddati avtomatik uzaytiriladi",
+    "Mahsulot nomi o'zgartiriladi",
+    "Hech qanday chora ko'rilmaydi"
+   ],
+   "e": "Inspeksion nazorat natijasida ham."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "O'lchash vositasining pasportida nimalar ko'rsatiladi?",
+   "a": [
+    "Metrologik tavsiflar va qiyoslash ma'lumotlari",
+    "Faqat ishlab chiqaruvchi zavod direktorining ismi va imzosi",
+    "Faqat asbobning chakana narxi va kafolat shartlari",
+    "Asbobni sotib olgan xaridorning shaxsiy ma'lumotlari"
+   ],
+   "e": "Aniqlik sinfi, diapazon, qiyoslash sanalari."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Etalonlar qanday sharoitda saqlanadi?",
+   "a": [
+    "Maxsus nazorat qilinadigan sharoitda",
+    "Oddiy ombor xonasida, boshqa jihozlar bilan birga",
+    "Ochiq havoda, quyosh nuri tushadigan joyda",
+    "Ishlab chiqarish sexida, stanoklar yonida"
+   ],
+   "e": "Harorat, namlik, tebranish nazorati."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "O'lchash vositasi qiyoslashda yaroqsiz deb topilsa nima qilinadi?",
+   "a": [
+    "Foydalanishdan chiqariladi yoki ta'mirga yuboriladi",
+    "Hech narsa o'zgartirilmasdan ishlatishda davom ettiriladi",
+    "Faqat yangi rangga bo'yab, qayta ishlatiladi",
+    "Uning shkalasi qo'lda qayta chizib chiqiladi"
+   ],
+   "e": "Yaroqsizlik to'g'risida xabarnoma beriladi."
   }
  ]
 }
