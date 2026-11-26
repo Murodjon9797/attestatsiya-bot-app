@@ -1,0 +1,2384 @@
+{
+ "kod": "5PM0315",
+ "nomi": "Geodeziya",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (11 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Geodeziya nimani o'rganadi?",
+   "a": [
+    "Yer shakli, o'lchamlari va joyni o'lchash usullarini",
+    "Yer qa'ridagi foydali qazilmalarning kelib chiqishi va tarkibini",
+    "Atmosferadagi jarayonlar va ob-havo o'zgarishlarini",
+    "Tuproqning kimyoviy tarkibi va unumdorligini"
+   ],
+   "e": "Plan, xarita tuzish va muhandislik ishlari."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Yerning matematik jihatdan eng yaqin modeli qanday nomlanadi?",
+   "a": [
+    "Ellipsoid",
+    "Mukammal shar, radiusi hamma joyda bir xil",
+    "Tekis disk, chetlari ko'tarilgan",
+    "Kub"
+   ],
+   "e": "Aylanish ellipsoidi."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Sathiy (tinch okean) yuza bilan chegaralangan figura qanday nomlanadi?",
+   "a": [
+    "Geoid",
+    "Ellipsoid",
+    "Sferoid emas, shar",
+    "Gorizont tekisligi"
+   ],
+   "e": "Og'irlik kuchiga har nuqtada perpendikulyar yuza."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "MDH mamlakatlarida uzoq vaqt qo'llanilgan referents-ellipsoid qaysi?",
+   "a": [
+    "Krasovskiy ellipsoidi",
+    "Bessel ellipsoidi",
+    "Klark ellipsoidi",
+    "Xeyford ellipsoidi"
+   ],
+   "e": "a = 6 378 245 m, siqilish 1:298,3."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Krasovskiy ellipsoidining katta yarim o'qi taxminan qancha?",
+   "a": [
+    "6 378 245 m",
+    "6 356 863 m",
+    "6 371 000 m",
+    "40 000 km"
+   ],
+   "e": "Kichik yarim o'q ≈ 6 356 863 m."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Yerning o'rtacha radiusi taxminan qancha?",
+   "a": [
+    "6371 km",
+    "3671 km",
+    "12 742 km",
+    "40 075 km"
+   ],
+   "e": "12 742 km — diametr."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Geografik kenglik nima?",
+   "a": [
+    "Nuqtadagi normalning ekvator tekisligi bilan burchagi",
+    "Nuqta meridiani bilan boshlang'ich meridian orasidagi burchak",
+    "Nuqtaning dengiz sathidan balandligi",
+    "Nuqtadan shimoliy qutbgacha bo'lgan masofa"
+   ],
+   "e": "0° dan 90° gacha, shimoliy yoki janubiy."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Geografik uzoqlik nima?",
+   "a": [
+    "Nuqta va boshlang'ich meridian tekisliklari orasidagi burchak",
+    "Nuqtadagi normal bilan ekvator tekisligi orasidagi burchak",
+    "Nuqtaning ekvatordan masofasi kilometrlarda",
+    "Nuqtaning absolyut balandligi"
+   ],
+   "e": "0° dan 180° gacha, sharqiy yoki g'arbiy."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Boshlang'ich meridian qaysi observatoriya orqali o'tadi?",
+   "a": [
+    "Grinvich",
+    "Pulkovo",
+    "Ulug'bek",
+    "Parij"
+   ],
+   "e": "1884-yil xalqaro kelishuv."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Toshkent taxminan qaysi geografik kenglikda joylashgan?",
+   "a": [
+    "41° sh.k.",
+    "21° sh.k.",
+    "61° sh.k.",
+    "0°"
+   ],
+   "e": "Uzoqligi ≈ 69° sh.u."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "MDH da qabul qilingan balandliklar tizimi qanday nomlanadi?",
+   "a": [
+    "Boltiq balandliklar tizimi",
+    "Qora dengiz tizimi",
+    "Tinch okeani tizimi",
+    "Kaspiy tizimi"
+   ],
+   "e": "Kronshtadt futshtogi noli."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Absolyut balandlik nima?",
+   "a": [
+    "Nuqtadan asosiy sathiy yuzagacha bo'lgan masofa",
+    "Ikki ixtiyoriy nuqta balandliklari ayirmasi, ishorasi bilan",
+    "Shartli tanlangan sathiy yuzaga nisbatan balandlik",
+    "Nuqtadan Yer markazigacha bo'lgan masofa"
+   ],
+   "e": "Nisbiy balandlik — shartli sathga nisbatan."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Nisbiy balandlik (oshib ketish) nima?",
+   "a": [
+    "Ikki nuqta balandliklari ayirmasi",
+    "Nuqtaning dengiz sathidan balandligi",
+    "Nuqtadan Yer markazigacha masofa",
+    "Ikki nuqta orasidagi gorizontal masofa"
+   ],
+   "e": "h = HB − HA."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Gauss-Kryuger proyeksiyasida zona kengligi necha gradus?",
+   "a": [
+    "6°",
+    "3° faqat",
+    "10°",
+    "15°"
+   ],
+   "e": "Yirik masshtablarda 3° zonalar ham ishlatiladi."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Gauss-Kryuger to'g'ri burchakli koordinatalarida X o'qi qanday yo'nalgan?",
+   "a": [
+    "Zona o'q meridiani bo'ylab shimolga",
+    "Ekvator bo'ylab sharqqa, zona o'rtasidan",
+    "Vertikal yuqoriga, Yer markazidan",
+    "G'arbga"
+   ],
+   "e": "Geodeziyada X — shimol, Y — sharq."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Gauss-Kryuger zonasida Y koordinatalari manfiy bo'lmasligi uchun nima qilinadi?",
+   "a": [
+    "500 km qo'shiladi",
+    "Ular modul bilan olinadi",
+    "1000 km ayiriladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Oldiga zona raqami ham yoziladi."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Geodezik to'g'ri burchakli koordinatalar sistemasi matematikadagidan nimasi bilan farq qiladi?",
+   "a": [
+    "X va Y o'qlari o'rni almashgan",
+    "Faqat uch o'lchovli bo'ladi",
+    "Unda manfiy qiymatlar umuman bo'lmaydi",
+    "Ular mutlaqo bir xil"
+   ],
+   "e": "Choraklar soat mili bo'yicha sanaladi."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Kichik hududlarda Yer sirtini tekislik deb qabul qilish mumkin bo'lgan radius taxminan qancha?",
+   "a": [
+    "10 km gacha",
+    "1000 km gacha",
+    "100 m gacha",
+    "1 m gacha"
+   ],
+   "e": "Masofa o'lchashda egrilik ta'siri sezilmaydi."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Balandlik o'lchashda Yer egriligi ta'sirini qaysi masofadan hisobga olish kerak?",
+   "a": [
+    "Bir necha yuz metrdan",
+    "Faqat 1000 km dan oshganda",
+    "Hech qachon hisobga olinmaydi",
+    "Faqat tog'li joyda"
+   ],
+   "e": "1 km da tuzatma ≈ 7,8 sm."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Gorizontal qo'yilish (proeksiya) nima?",
+   "a": [
+    "Chiziqning gorizontal tekislikdagi proyeksiyasi",
+    "Chiziqning qiya holatdagi, ruletka bilan o'lchangan haqiqiy uzunligi",
+    "Ikki nuqta balandliklari ayirmasi",
+    "Chiziqning shimol yo'nalishi bilan burchagi"
+   ],
+   "e": "d = D·cosν."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Qiya masofa D = 100 m, qiyalik burchagi 60°. Gorizontal qo'yilish qancha?",
+   "a": [
+    "50 m",
+    "100 m",
+    "86,6 m",
+    "200 m"
+   ],
+   "e": "100·cos60°."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Global navigatsiya sun'iy yo'ldosh tizimlariga misol qaysi?",
+   "a": [
+    "GPS va GLONASS",
+    "Wi-Fi va Bluetooth",
+    "LTE va 5G",
+    "NFC va RFID"
+   ],
+   "e": "Galileo, BeiDou ham."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "GNSS qabul qilgich nuqta koordinatalarini aniqlash uchun kamida nechta sun'iy yo'ldosh signalini olishi kerak?",
+   "a": [
+    "4",
+    "1",
+    "2",
+    "12"
+   ],
+   "e": "Uch koordinata va soat tuzatmasi."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "WGS-84 nima?",
+   "a": [
+    "Global geodezik koordinatalar tizimi",
+    "Sun'iy yo'ldosh modeli nomi",
+    "Teodolit markasi",
+    "Xarita masshtabi"
+   ],
+   "e": "GPS ishlatadigan tizim."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Yuqori aniqlikdagi GNSS o'lchash usuli qanday nomlanadi?",
+   "a": [
+    "RTK",
+    "SMS",
+    "HTML",
+    "USB"
+   ],
+   "e": "Real Time Kinematic, santimetr aniqligi."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Plan va xaritaning asosiy farqi nima?",
+   "a": [
+    "Planda Yer egriligi hisobga olinmaydi",
+    "Xaritada masshtab umuman bo'lmaydi",
+    "Planda relyef hech qachon ko'rsatilmaydi",
+    "Ular mutlaqo bir xil"
+   ],
+   "e": "Plan — kichik hudud, xarita — katta hudud proyeksiyada."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Masshtab nima?",
+   "a": [
+    "Tasvirdagi uzunlikning joydagi gorizontal qo'yilishga nisbati",
+    "Xaritadagi shartli belgilar ro'yxati va ularning izohi",
+    "Xarita varag'ining o'lchami",
+    "Joyning absolyut balandligi"
+   ],
+   "e": "Sonli, nomli, chiziqli masshtablar."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "1:5000 masshtabli planda 1 sm joyda necha metrga to'g'ri keladi?",
+   "a": [
+    "50 m",
+    "5 m",
+    "500 m",
+    "5000 m"
+   ],
+   "e": "5000 sm = 50 m."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "1:2000 masshtabli planda 4,5 sm kesma joyda qancha?",
+   "a": [
+    "90 m",
+    "9 m",
+    "45 m",
+    "900 m"
+   ],
+   "e": "4,5·20."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "1:10 000 masshtabli xaritada joydagi 1 km qancha uzunlikda tasvirlanadi?",
+   "a": [
+    "10 sm",
+    "1 sm",
+    "100 sm",
+    "1 mm"
+   ],
+   "e": "100 000 sm / 10 000."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Qaysi masshtab yirikroq?",
+   "a": [
+    "1:500",
+    "1:5000",
+    "1:50 000",
+    "1:500 000"
+   ],
+   "e": "Maxraj qancha kichik bo'lsa, masshtab shuncha yirik."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Masshtab aniqligi nima?",
+   "a": [
+    "Plandagi 0,1 mm ga mos joy uzunligi",
+    "Xarita varag'ining aniq o'lchami",
+    "Masshtab maxrajining yarmi",
+    "Plandagi 1 sm ga mos joy uzunligi"
+   ],
+   "e": "1:1000 da 0,1 m."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "1:1000 masshtabning aniqligi qancha?",
+   "a": [
+    "0,1 m",
+    "1 m",
+    "0,01 m",
+    "10 m"
+   ],
+   "e": "0,1 mm · 1000."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Ko'ndalang masshtab nima uchun ishlatiladi?",
+   "a": [
+    "Plandan uzunlikni yuqori aniqlikda olish uchun",
+    "Xaritani rangli bosib chiqarishda ranglarni ajratish uchun",
+    "Burchaklarni transportirsiz o'lchash uchun",
+    "Balandliklarni aniqlash uchun"
+   ],
+   "e": "Sirkul-o'lchagich bilan."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Topografik xaritalarda relyef asosan qanday tasvirlanadi?",
+   "a": [
+    "Gorizontallar bilan",
+    "Faqat rangli bo'yoqlar bilan",
+    "Faqat matnli izohlar bilan",
+    "Faqat fotosuratlar bilan"
+   ],
+   "e": "Izogipslar."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Gorizontal (izogips) nima?",
+   "a": [
+    "Bir xil balandlikdagi nuqtalarni tutashtiruvchi chiziq",
+    "Bir xil haroratdagi nuqtalarni tutashtiruvchi chiziq",
+    "Ikki aholi punktini tutashtiruvchi avtomobil yo'li",
+    "Eng qisqa masofa chizig'i"
+   ],
+   "e": "Sathiy yuzaning relyef bilan kesishish chizig'i."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Relyef kesimi balandligi nima?",
+   "a": [
+    "Qo'shni gorizontallar balandliklari farqi",
+    "Gorizontallar orasidagi gorizontal masofa",
+    "Eng baland va eng past nuqtalar farqi",
+    "Xarita varag'ining balandligi"
+   ],
+   "e": "Xaritada ko'rsatiladi, masalan 1 m, 5 m."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Gorizontallar zichlashsa, qiyalik qanday bo'ladi?",
+   "a": [
+    "Tikroq",
+    "Yotiqroq",
+    "Gorizontal",
+    "Qiyalik o'zgarmaydi"
+   ],
+   "e": "Zalojenie kichik — nishablik katta."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Nishablik (uklon) qanday aniqlanadi?",
+   "a": [
+    "i = h/d",
+    "i = d/h",
+    "i = h·d",
+    "i = h + d"
+   ],
+   "e": "Ko'pincha ‰ (promille) yoki % da."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Balandliklar farqi 2 m, gorizontal masofa 200 m. Nishablik qancha?",
+   "a": [
+    "0,01 (10‰)",
+    "0,1",
+    "100",
+    "400"
+   ],
+   "e": "2/200."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Berg shtrixlari (gorizontaldagi kichik chiziqchalar) nimani ko'rsatadi?",
+   "a": [
+    "Qiyalik pasayish tomonini",
+    "Shimol yo'nalishini",
+    "Yo'l yo'nalishini",
+    "Daryo oqimini"
+   ],
+   "e": "Nishab yo'nalishi."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Gorizontallar bilan berk egri chiziqlar markazga tomon balandligi ortib borsa, bu qanday relyef shakli?",
+   "a": [
+    "Tepalik (tog')",
+    "Soylik (kotlovina)",
+    "Egar",
+    "Jarlik"
+   ],
+   "e": "Soylikda markazga tomon balandlik kamayadi."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Ikki tepalik orasidagi past joy qanday nomlanadi?",
+   "a": [
+    "Egar (sedlovina)",
+    "Tizma",
+    "Soylik",
+    "Vodiy"
+   ],
+   "e": "Dovonlar ko'pincha egarlarda."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Xarita nomenklaturasi nima?",
+   "a": [
+    "Xarita varaqlarini belgilash tizimi",
+    "Xaritadagi shartli belgilar ro'yxati",
+    "Xarita bosmaxonasining nomi",
+    "Xarita ranglari to'plami"
+   ],
+   "e": "1:1 000 000 varaq asosida."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "1:1 000 000 masshtabli xarita varag'i qanday o'lchamda?",
+   "a": [
+    "Kenglik bo'yicha 4°, uzoqlik bo'yicha 6°",
+    "Kenglik bo'yicha 10°, uzoqlik bo'yicha 10°",
+    "Kenglik bo'yicha 1°, uzoqlik bo'yicha 1°",
+    "Kenglik bo'yicha 30°, uzoqlik bo'yicha 30°"
+   ],
+   "e": "Qatorlar harf, kolonnalar raqam bilan."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Topografik xarita shartli belgilari qanday turlarga bo'linadi?",
+   "a": [
+    "Masshtabli, masshtabsiz, chiziqli va izohli",
+    "Faqat qizil va ko'k rangli belgilar",
+    "Faqat harfli va raqamli belgilar",
+    "Faqat katta va kichik belgilar"
+   ],
+   "e": "Masshtabsiz — kichik obyektlar."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Raqamli xarita (elektron) qanday afzallikka ega?",
+   "a": [
+    "Tahrirlash va tahlil qilish oson",
+    "Hech qachon yangilanmaydi",
+    "Faqat qog'ozda chop etiladi",
+    "Masshtabsiz bo'ladi"
+   ],
+   "e": "GIS tizimlarida."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "GIS nima?",
+   "a": [
+    "Geografik axborot tizimi",
+    "Geodezik o'lchash asbobi",
+    "Gidrologik stansiya",
+    "Gaz ta'minoti tizimi"
+   ],
+   "e": "Fazoviy ma'lumotlarni yig'ish va tahlil qilish."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Chiziqni orientirlash nima?",
+   "a": [
+    "Boshlang'ich yo'nalishga nisbatan burchagini aniqlash",
+    "Chiziqning uzunligini lenta bilan o'lchash jarayoni",
+    "Chiziq uchlarining balandliklari farqini aniqlash",
+    "Chiziqni xaritada qizil rang bilan belgilash"
+   ],
+   "e": "Azimut, direksion burchak, rumb."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Haqiqiy azimut qanday hisoblanadi?",
+   "a": [
+    "Haqiqiy meridian shimolidan soat mili bo'yicha",
+    "Magnit meridianining janubidan soat miliga teskari",
+    "Ekvator yo'nalishidan soat mili bo'yicha",
+    "Zona o'q meridianining janubidan"
+   ],
+   "e": "0° dan 360° gacha."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Azimut qanday oraliqda o'zgaradi?",
+   "a": [
+    "0° dan 360° gacha",
+    "0° dan 90° gacha",
+    "0° dan 180° gacha",
+    "−90° dan 90° gacha"
+   ],
+   "e": "Rumb — 0° dan 90° gacha."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Rumb qanday oraliqda o'zgaradi?",
+   "a": [
+    "0° dan 90° gacha",
+    "0° dan 360° gacha",
+    "0° dan 180° gacha",
+    "90° dan 270° gacha"
+   ],
+   "e": "Chorak nomi bilan: ShSh, JSh, JG', ShG'."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Direksion burchak nimadan hisoblanadi?",
+   "a": [
+    "O'q meridianga parallel chiziq shimolidan",
+    "Haqiqiy meridianning janubiy yo'nalishidan",
+    "Magnit meridianining g'arbiy yo'nalishidan",
+    "Ekvatorga parallel chiziqdan"
+   ],
+   "e": "Soat mili bo'yicha, 0°–360°."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Magnit azimut qaysi yo'nalishdan hisoblanadi?",
+   "a": [
+    "Magnit meridianining shimoliy yo'nalishidan",
+    "Haqiqiy meridianning shimoliy yo'nalishidan",
+    "Zona o'q meridianining janubiy yo'nalishidan",
+    "Ekvator chizig'ining sharqiy yo'nalishidan"
+   ],
+   "e": "Kompas yordamida o'lchanadi."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Magnit og'ishi (sklonenie) nima?",
+   "a": [
+    "Haqiqiy va magnit meridianlar orasidagi burchak",
+    "Haqiqiy meridian va o'q meridian orasidagi burchak",
+    "Azimut va rumb orasidagi farq qiymati",
+    "Kompas strelkasining og'ish tezligi"
+   ],
+   "e": "Sharqiy (+) yoki g'arbiy (−)."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Meridianlar yaqinlashuvi (sblijenie) nima?",
+   "a": [
+    "Haqiqiy meridian va o'q meridian parallelidan burchak",
+    "Haqiqiy va magnit meridianlar orasidagi burchak",
+    "Ikki nuqta orasidagi masofa",
+    "Ekvator va qutb orasidagi burchak"
+   ],
+   "e": "γ, zona o'q meridianida nolga teng."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Haqiqiy azimut va direksion burchak qanday bog'langan?",
+   "a": [
+    "A = α + γ",
+    "A = α − 180°",
+    "A = α · γ",
+    "A = 90° − α"
+   ],
+   "e": "γ — meridianlar yaqinlashuvi."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Haqiqiy azimut va magnit azimut qanday bog'langan?",
+   "a": [
+    "A = Am + δ",
+    "A = Am − 90°",
+    "A = Am · δ",
+    "A = 2Am"
+   ],
+   "e": "δ — magnit og'ishi."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "AB chiziq direksion burchagi 75°. BA chiziqning (teskari) direksion burchagi qancha?",
+   "a": [
+    "255°",
+    "75°",
+    "105°",
+    "285°"
+   ],
+   "e": "α ± 180°."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Direksion burchak 135° bo'lsa, rumb qancha?",
+   "a": [
+    "JSh: 45°",
+    "ShSh: 45°",
+    "JG': 45°",
+    "ShSh: 135°"
+   ],
+   "e": "II chorak: r = 180° − α."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Direksion burchak 300° bo'lsa, rumb qancha?",
+   "a": [
+    "ShG': 60°",
+    "JG': 60°",
+    "ShSh: 60°",
+    "ShG': 300°"
+   ],
+   "e": "IV chorak: r = 360° − α."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Direksion burchak 210° bo'lsa, rumb qancha?",
+   "a": [
+    "JG': 30°",
+    "JSh: 30°",
+    "ShG': 30°",
+    "JG': 210°"
+   ],
+   "e": "III chorak: r = α − 180°."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Rumb ShSh: 40° bo'lsa, direksion burchak qancha?",
+   "a": [
+    "40°",
+    "140°",
+    "220°",
+    "320°"
+   ],
+   "e": "I chorakda α = r."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Teodolit yo'lida keyingi tomon direksion burchagi qanday hisoblanadi (o'ngdagi burchak β bo'yicha)?",
+   "a": [
+    "αn+1 = αn + 180° − β",
+    "αn+1 = αn + β",
+    "αn+1 = β − αn",
+    "αn+1 = αn · β"
+   ],
+   "e": "Chapdagi burchak uchun: αn + β − 180°."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Bussol nima?",
+   "a": [
+    "Magnit azimut yoki rumblarni o'lchovchi asbob",
+    "Nuqtalar balandliklarini aniqlovchi optik asbob",
+    "Masofani o'lchovchi po'lat lenta",
+    "Yorug'lik kuchini o'lchovchi asbob"
+   ],
+   "e": "Kompasning aniqroq turi."
+  },
+  {
+   "b": "Orientirlash",
+   "q": "Kompas bilan ishlashda nimadan uzoq turish kerak?",
+   "a": [
+    "Metall buyumlar va elektr tarmoqlaridan",
+    "Daraxtlar, butalar va baland o'tlardan",
+    "Suv havzalari va ariqlardan",
+    "Quyoshning bevosita nuridan"
+   ],
+   "e": "Magnit maydoni buziladi."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Joyda chiziq uzunligi qaysi vositalar bilan o'lchanadi?",
+   "a": [
+    "Lenta, ruletka va dalnomerlar",
+    "Faqat termometr va barometr",
+    "Faqat teodolitning vertikal doirasi",
+    "Faqat gigrometr"
+   ],
+   "e": "Elektron taxeometr ham."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Po'lat o'lchov lentasining standart uzunligi qancha?",
+   "a": [
+    "20 m",
+    "5 m",
+    "50 m",
+    "100 m"
+   ],
+   "e": "24 m li lentalar ham bor."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Lenta bilan o'lchashdan oldin chiziq qanday tayyorlanadi?",
+   "a": [
+    "Vexalar bilan belgilanadi (provesheniye)",
+    "Chiziq bo'ylab ariq qazilib, qoziqlar qoqiladi",
+    "Chiziq suv bilan sug'orib, changsizlantiriladi",
+    "Chiziq bo'ylab asfalt yotqiziladi"
+   ],
+   "e": "To'g'ri chiziq bo'ylab o'lchash uchun."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Lenta bilan o'lchashda qanday tuzatmalar kiritiladi?",
+   "a": [
+    "Komparirlash, harorat va qiyalik tuzatmalari",
+    "Faqat lentaning rangi va eskirganligi tuzatmasi",
+    "Faqat o'lchash vaqti tuzatmasi",
+    "Barcha tuzatmalar ixtiyoriy va kiritilmaydi"
+   ],
+   "e": "Δl = α·l·(t − t₀) — harorat tuzatmasi."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Komparirlash nima?",
+   "a": [
+    "Lenta uzunligini etalon bilan solishtirish",
+    "Lentani zanglamasligi uchun moylash",
+    "Lentani maxsus rulonga o'rab saqlash",
+    "Lentani ko'rinarli rangga bo'yash"
+   ],
+   "e": "Komparatorda bajariladi."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Lenta bilan o'lchashning odatdagi nisbiy xatoligi qancha?",
+   "a": [
+    "1:2000",
+    "1:20",
+    "1:1 000 000",
+    "1:5"
+   ],
+   "e": "Qulay sharoitda 1:3000 gacha."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Iplik dalnomer bilan masofa qanday aniqlanadi?",
+   "a": [
+    "D = k·n + c",
+    "D = k/n",
+    "D = n − k",
+    "D = k·n²"
+   ],
+   "e": "k = 100, n — reykadagi hisoblar farqi."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Iplik dalnomerda reykadagi hisoblar farqi 1,25 m bo'lsa, masofa taxminan qancha (k = 100)?",
+   "a": [
+    "125 m",
+    "12,5 m",
+    "1250 m",
+    "1,25 m"
+   ],
+   "e": "100·1,25."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Yorug'lik dalnomeri (svetodalnomer) qanday ishlaydi?",
+   "a": [
+    "Elektromagnit to'lqin tarqalish vaqti bo'yicha",
+    "Ip uzunligini po'lat lenta bilan o'lchab",
+    "Tovush aks-sadosining qaytish vaqti bo'yicha",
+    "Og'irlik kuchi bo'yicha"
+   ],
+   "e": "Faza yoki impuls usuli."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Reflektor (prizma) qanday vazifani bajaradi?",
+   "a": [
+    "Dalnomer nurini qaytaradi",
+    "Nurni yutib yuboradi",
+    "Teodolitni gorizontal holatga keltiradi",
+    "Asbobni elektr bilan ta'minlaydi"
+   ],
+   "e": "Reflektorsiz rejimlar ham bor."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Bevosita o'lchab bo'lmaydigan masofa (daryo kengligi) qanday aniqlanadi?",
+   "a": [
+    "Bazis va burchaklar bo'yicha hisoblab",
+    "Ko'z bilan chamalab",
+    "Suvga tosh tashlab",
+    "Hech qanday usul yo'q"
+   ],
+   "e": "Sinuslar teoremasi."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "Chiziq uzunligini o'lchashda nisbiy xatolik qanday ifodalanadi?",
+   "a": [
+    "1/N ko'rinishida",
+    "Foizda faqat",
+    "Gradusda",
+    "Metr kvadratda"
+   ],
+   "e": "Masalan, 1:2000."
+  },
+  {
+   "b": "Chiziq o'lchash",
+   "q": "200 m chiziq 1:2000 nisbiy xatolik bilan o'lchandi. Absolyut xatolik qancha?",
+   "a": [
+    "0,1 m",
+    "1 m",
+    "0,01 m",
+    "10 m"
+   ],
+   "e": "200/2000."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Nivelirlash nima?",
+   "a": [
+    "Nuqtalar balandliklari farqini aniqlash",
+    "Nuqtalar orasidagi gorizontal masofani o'lchash",
+    "Burchaklarni o'lchash",
+    "Xaritani rangli qilish"
+   ],
+   "e": "Geometrik, trigonometrik, barometrik va boshqa usullar."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Geometrik nivelirlash qanday nur bilan bajariladi?",
+   "a": [
+    "Gorizontal ko'rish nuri",
+    "Qiya ko'rish nuri",
+    "Vertikal nur",
+    "Ko'rinmas infraqizil nur faqat"
+   ],
+   "e": "Nivelir yordamida."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Trigonometrik nivelirlashda balandliklar farqi nimaga asoslanib topiladi?",
+   "a": [
+    "Vertikal burchak va masofa",
+    "Faqat atmosfera bosimi va harorat",
+    "Faqat gorizontal burchak qiymati",
+    "Idishlardagi suyuqlik sathi"
+   ],
+   "e": "h = d·tgν + i − v."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Barometrik nivelirlash nimaga asoslanadi?",
+   "a": [
+    "Bosimning balandlik bilan o'zgarishiga",
+    "Yorug'lik tezligiga",
+    "Magnit maydoniga",
+    "Harorat va namlikka faqat"
+   ],
+   "e": "Taxminan har 10–11 m da 1 mm sim.ust."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "O'rtadan nivelirlashda oshib ketish qanday hisoblanadi?",
+   "a": [
+    "h = a − b (orqa minus old)",
+    "h = b − a",
+    "h = a + b",
+    "h = a · b"
+   ],
+   "e": "a — orqa reykadagi, b — oldingi reykadagi hisob."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Orqa reykada 1520 mm, oldingi reykada 0870 mm hisob olindi. Oshib ketish qancha?",
+   "a": [
+    "+650 mm",
+    "−650 mm",
+    "2390 mm",
+    "870 mm"
+   ],
+   "e": "1520 − 870."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "A nuqta balandligi 120,000 m, oshib ketish hAB = −1,250 m. B nuqta balandligi qancha?",
+   "a": [
+    "118,750 m",
+    "121,250 m",
+    "120,000 m",
+    "1,250 m"
+   ],
+   "e": "HB = HA + h."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Asbob gorizonti (GI) qanday hisoblanadi?",
+   "a": [
+    "GI = HA + a",
+    "GI = HA − a",
+    "GI = a − b",
+    "GI = HA · a"
+   ],
+   "e": "Keyin HB = GI − b."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Nivelirni ikki reyka o'rtasiga o'rnatish nima beradi?",
+   "a": [
+    "i-xato va Yer egriligi ta'siri kamayadi",
+    "Masofa o'lchash aniqligi pasayadi",
+    "Ishlash vaqti ikki baravar ortadi",
+    "Reykalarni o'qish qiyinlashadi"
+   ],
+   "e": "Yelkalar teng bo'lishi kerak."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Reper nima?",
+   "a": [
+    "Balandligi ma'lum mustahkam belgi",
+    "Teodolitning vertikal o'qini belgilovchi qism",
+    "Masofani o'lchovchi asbob",
+    "Xaritadagi shartli belgi"
+   ],
+   "e": "Grunt yoki devor reperlari."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Nivelir yo'lining bog'lanmasligi (nevyazka) yopiq yo'lda nimaga teng?",
+   "a": [
+    "Oshib ketishlar yig'indisiga",
+    "Nolga har doim, xatolik bo'lmaganda ham",
+    "Barcha stansiyalardagi masofalar yig'indisiga",
+    "Birinchi oshib ketishga"
+   ],
+   "e": "Nazariy yig'indi nolga teng."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Bog'lanmaslik ruxsat etilgandan kichik bo'lsa, u qanday taqsimlanadi?",
+   "a": [
+    "Teskari ishora bilan proporsional",
+    "Faqat birinchi stansiyaga qo'shiladi",
+    "Tashlab yuboriladi",
+    "Ikki baravar oshiriladi"
+   ],
+   "e": "Tuzatmalar yig'indisi bog'lanmaslikka teng, ishorasi teskari."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Texnik nivelirlashda ruxsat etilgan bog'lanmaslik qanday hisoblanadi (taxminan)?",
+   "a": [
+    "±50 mm·√L, L — km da",
+    "±1 m",
+    "±1 mm faqat",
+    "Har doim nol"
+   ],
+   "e": "III–IV klasslar uchun qattiqroq."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Nivelir reykasidagi hisob odatda qanday aniqlikda olinadi?",
+   "a": [
+    "Millimetrgacha",
+    "Metrgacha",
+    "Detsimetrgacha",
+    "Kilometrgacha"
+   ],
+   "e": "Shashka bo'linmalari 1 sm, mm chamalab olinadi."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Raqamli (elektron) nivelir hisobni qanday oladi?",
+   "a": [
+    "Shtrix-kodli reykadan avtomatik",
+    "Operator aytgan qiymatni ovozdan tanib oladi",
+    "Kompas strelkasi ko'rsatkichidan",
+    "Termometr ko'rsatkichidan"
+   ],
+   "e": "Inson xatosi kamayadi."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Teodolit nima uchun ishlatiladi?",
+   "a": [
+    "Gorizontal va vertikal burchaklarni o'lchash uchun",
+    "Faqat nuqtalar balandliklari farqini gorizontal nur bilan aniqlash uchun",
+    "Atmosfera bosimi va havo haroratini o'lchash uchun",
+    "Faqat magnit azimutlarni strelka bo'yicha aniqlash uchun"
+   ],
+   "e": "Iplik dalnomer bilan masofani ham."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Teodolitning gorizontal burchaklar hisoblanadigan doirasi qanday nomlanadi?",
+   "a": [
+    "Limb",
+    "Alidada",
+    "Adilak",
+    "Okulyar"
+   ],
+   "e": "Alidada — hisob olish moslamasi bilan aylanuvchi qism."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Teodolit alidadasi nima?",
+   "a": [
+    "Hisob moslamasi o'rnatilgan aylanuvchi qism",
+    "Bo'linmalari bo'lgan qo'zg'almas shisha doira",
+    "Asbobni gorizontal holatga keltiruvchi pufakcha",
+    "Asbobni shtativga mahkamlovchi vint"
+   ],
+   "e": "Ko'rish trubasi bilan birga aylanadi."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Silindrik adilak (uroven) nima uchun kerak?",
+   "a": [
+    "O'qlarni gorizontal yoki vertikal holatga keltirish",
+    "Ko'rish trubasini fokuslash va tasvirni aniqlash uchun",
+    "Burchak hisobini millimetrda ko'rsatish uchun",
+    "Masofani reyka bo'yicha hisoblash uchun"
+   ],
+   "e": "Pufakcha nol punktda bo'lishi kerak."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Teodolitni ish holatiga keltirish qanday bosqichlardan iborat?",
+   "a": [
+    "Markazlash, gorizontlash va fokuslash",
+    "Asbobni bo'yash, moylash va qutiga qadoqlash",
+    "Faqat shtativ oyoqlarini yerga chuqur qoqish",
+    "Batareyani almashtirish va displeyni yoqish"
+   ],
+   "e": "Markazlash — optik yoki ip shoqul bilan."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Markazlash nima?",
+   "a": [
+    "Limb markazini nuqta ustiga keltirish",
+    "Limbni gorizontal holatga keltirish",
+    "Ko'rish trubasini nishonga yo'naltirish",
+    "Iplar to'rini aniq ko'rinishga keltirish"
+   ],
+   "e": "Shoqul yoki optik markazlagich bilan."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Gorizontal burchakni o'lchashning eng keng tarqalgan usuli qaysi?",
+   "a": [
+    "Usul priyomlari",
+    "Faqat ko'z bilan chamalash",
+    "Transportir bilan xaritada",
+    "Barometrik usul"
+   ],
+   "e": "Doira chap (DCh) va doira o'ng (DO') holatlarida."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Burchakni doira chap va doira o'ng holatlarida o'lchash nima beradi?",
+   "a": [
+    "Asbob xatolari ta'siri yo'qoladi",
+    "O'lchash vaqti ikki baravar qisqaradi",
+    "Asbobni gorizontlash kerak bo'lmaydi",
+    "Natija har doim nolga teng chiqadi"
+   ],
+   "e": "Ikki yarim priyom o'rtachasi olinadi."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Kollimatsiya xatosi nima?",
+   "a": [
+    "Ko'rish o'qining aylanish o'qiga noperpendikulyarligi",
+    "Adilak o'qining vertikal o'qqa parallel emasligi",
+    "Iplar to'rining qiya o'rnatilganligi",
+    "Limbning ekssentrisiteti"
+   ],
+   "e": "C = (DCh − DO' ± 180°)/2."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Vertikal burchak (qiyalik burchagi) nima?",
+   "a": [
+    "Ko'rish chizig'ining gorizontal tekislik bilan burchagi",
+    "Ikki yo'nalish orasidagi gorizontal tekislikdagi burchak",
+    "Chiziq va haqiqiy meridian orasidagi burchak",
+    "Chiziq va magnit meridian orasidagi burchak"
+   ],
+   "e": "Yuqoriga — musbat, pastga — manfiy."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Nol o'rni (MO) nima?",
+   "a": [
+    "Ko'rish o'qi gorizontaldagi vertikal doira hisobi",
+    "Limbdagi nol bo'linmaning joylashuvi",
+    "Asbob tokchasidagi markaziy nuqta",
+    "Shtativning eng past holati"
+   ],
+   "e": "Vertikal burchak hisoblashda ishlatiladi."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Yopiq poligonning ichki burchaklari nazariy yig'indisi qanday?",
+   "a": [
+    "180°(n − 2)",
+    "360°·n",
+    "180°·n",
+    "90°(n + 2)"
+   ],
+   "e": "n — burchaklar soni."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Beshburchakli yopiq teodolit yo'lida ichki burchaklar nazariy yig'indisi qancha?",
+   "a": [
+    "540°",
+    "360°",
+    "720°",
+    "900°"
+   ],
+   "e": "180°·(5 − 2)."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Burchak bog'lanmasligi qanday hisoblanadi?",
+   "a": [
+    "fβ = Σβ o'lch − Σβ naz",
+    "fβ = Σβ naz · n",
+    "fβ = Σβ o'lch / n",
+    "fβ = 360° − Σβ o'lch"
+   ],
+   "e": "Ruxsat etilgan: ±1′√n (texnik teodolit yo'li)."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Burchak bog'lanmasligi qanday taqsimlanadi?",
+   "a": [
+    "Barcha burchaklarga teng, teskari ishora bilan",
+    "Faqat eng katta burchakka to'liq qo'shiladi",
+    "Faqat birinchi o'lchangan burchakdan ayiriladi",
+    "Taqsimlanmaydi, hisoblashda tashlab yuboriladi"
+   ],
+   "e": "Yaxlitlash qoldig'i qisqa tomonlar burchaklariga."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Koordinatalar orttirmalari qanday hisoblanadi?",
+   "a": [
+    "Δx = d·cosα, Δy = d·sinα",
+    "Δx = d·sinα, Δy = d·cosα",
+    "Δx = d·tgα, Δy = d/tgα",
+    "Δx = d + α, Δy = d − α"
+   ],
+   "e": "α — direksion burchak."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Chiziq uzunligi 100 m, direksion burchak 0°. Koordinata orttirmalari qanday?",
+   "a": [
+    "Δx = +100 m, Δy = 0",
+    "Δx = 0, Δy = +100 m",
+    "Δx = −100 m, Δy = 0",
+    "Δx = 50 m, Δy = 50 m"
+   ],
+   "e": "Shimolga yo'nalgan chiziq."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "To'g'ri geodezik masala nima?",
+   "a": [
+    "Ma'lum nuqtadan yangi nuqta koordinatalarini topish",
+    "Ikki nuqta koordinatalari bo'yicha masofa va yo'nalishni topish",
+    "Nuqtaning balandligini barometr bo'yicha topish",
+    "Xarita masshtabini aniqlash"
+   ],
+   "e": "XB = XA + Δx."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Teskari geodezik masala nima?",
+   "a": [
+    "Koordinatalar bo'yicha masofa va yo'nalishni topish",
+    "Ma'lum masofa va yo'nalish bo'yicha yangi nuqtani topish",
+    "Nuqta balandligini nivelirlash orqali topish",
+    "Burchak bog'lanmasligini taqsimlash"
+   ],
+   "e": "d = √(Δx² + Δy²), tg r = Δy/Δx."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "A(100; 100) va B(130; 140) nuqtalar orasidagi masofa qancha?",
+   "a": [
+    "50 m",
+    "70 m",
+    "40 m",
+    "30 m"
+   ],
+   "e": "√(30² + 40²)."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Yopiq teodolit yo'lida koordinata orttirmalari nazariy yig'indisi nimaga teng?",
+   "a": [
+    "Nolga",
+    "Perimetrga",
+    "360° ga",
+    "Birinchi tomon uzunligiga"
+   ],
+   "e": "ΣΔx = 0, ΣΔy = 0."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Teodolit yo'lining nisbiy chiziqli bog'lanmasligi qanday hisoblanadi?",
+   "a": [
+    "fabs/P",
+    "P/fabs faqat ko'paytirilgan",
+    "fx + fy",
+    "fβ/n"
+   ],
+   "e": "fabs = √(fx² + fy²), P — perimetr."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Elektron teodolitning afzalligi nima?",
+   "a": [
+    "Hisob displeyda raqamli ko'rsatiladi",
+    "Hech qachon gorizontlashni talab qilmaydi",
+    "Faqat magnit azimutni o'lchay oladi",
+    "Elektr energiyasisiz ishlaydi"
+   ],
+   "e": "Ma'lumotlar xotirada saqlanadi."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Teodolit tekshirishlaridan biri qaysi?",
+   "a": [
+    "Silindrik adilak o'qi vertikal o'qqa perpendikulyarligi",
+    "Asbob korpusi rangining standartga mosligi",
+    "Shtativ oyoqlari uzunligining o'zaro tengligi",
+    "Asbob qutisining og'irligi"
+   ],
+   "e": "Tekshirish va yustirovka."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Yustirovka nima?",
+   "a": [
+    "Geometrik shartlarni tiklash",
+    "Asbobni qutiga solib tashish",
+    "Asbobni bo'yash",
+    "Asbob uchun hujjat to'ldirish"
+   ],
+   "e": "Sozlash vintlari bilan."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Taxeometriya nima?",
+   "a": [
+    "Situatsiya va relyefni bir vaqtda syomka qilish",
+    "Faqat chiziqlar uzunligini lenta bilan o'lchash",
+    "Faqat burchaklarni o'lchash usuli",
+    "Faqat xaritalarni bo'yash"
+   ],
+   "e": "\"Tez o'lchash\"."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Elektron taxeometr nimalarni o'lchaydi?",
+   "a": [
+    "Burchaklar va masofalarni",
+    "Faqat haroratni va bosimni",
+    "Faqat magnit og'ishini",
+    "Faqat havo namligini"
+   ],
+   "e": "Koordinatalarni avtomatik hisoblaydi."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Taxeometrik syomkada piket nuqta nima?",
+   "a": [
+    "Relyef va situatsiyani tavsiflovchi nuqta",
+    "Asbob o'rnatilgan stansiya nuqtasi",
+    "Davlat geodezik tarmog'ining punkti",
+    "Xarita varag'ining burchagi"
+   ],
+   "e": "Piketlar abrisda ko'rsatiladi."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Abris nima?",
+   "a": [
+    "Syomka paytida chiziladigan qo'lda chizma",
+    "Tayyor topografik xaritaning bosma varag'i",
+    "Teodolitning optik tarkibiy qismi",
+    "Masofa o'lchash lentasining turi"
+   ],
+   "e": "Piketlar, konturlar va o'lchamlar."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Gorizontal syomkada nima tasvirlanadi?",
+   "a": [
+    "Situatsiya, relyefsiz",
+    "Faqat relyef, situatsiyasiz",
+    "Faqat yer osti kommunikatsiyalari",
+    "Faqat aholi soni"
+   ],
+   "e": "Teodolit syomkasi."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Situatsiya deb nimaga aytiladi?",
+   "a": [
+    "Joydagi predmetlar va konturlar majmuiga",
+    "Joyning baland-pastligi va relyef shakllariga",
+    "Joyning geologik tuzilishiga",
+    "Joyning iqlimi va ob-havosiga"
+   ],
+   "e": "Binolar, yo'llar, daryolar, ekin maydonlari."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Yer usti lazer skanerlash nima beradi?",
+   "a": [
+    "Obyektning zich nuqtalar bulutini",
+    "Faqat bitta nuqtaning koordinatasini",
+    "Faqat havo haroratini",
+    "Faqat xarita nomenklaturasini"
+   ],
+   "e": "3D modellar yaratish."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Aerofotosyomka nima?",
+   "a": [
+    "Joyni havodan suratga olish",
+    "Joyni faqat yer ostidan o'rganish",
+    "Teodolit bilan burchak o'lchash",
+    "Nivelir bilan balandlik o'lchash"
+   ],
+   "e": "Dronlar (PUA) bilan ham."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Ortofotoplan nima?",
+   "a": [
+    "Tuzatilgan aerofotosuratlardan plan",
+    "Faqat qo'lda chizilgan xarita",
+    "Gorizontallarsiz eskiz",
+    "Faqat matnli tavsif"
+   ],
+   "e": "Masshtabi butun maydonda bir xil."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Davlat geodezik tarmog'ini yaratish usullaridan biri qaysi?",
+   "a": [
+    "Triangulyatsiya",
+    "Fotometriya",
+    "Gigrometriya",
+    "Termometriya"
+   ],
+   "e": "Trilateratsiya, poligonometriya, GNSS ham."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Triangulyatsiya usulida asosan nima o'lchanadi?",
+   "a": [
+    "Uchburchaklarning burchaklari",
+    "Faqat barcha tomonlarning uzunligi",
+    "Faqat nuqtalar balandligi",
+    "Faqat magnit azimutlar"
+   ],
+   "e": "Bazis tomonlar ham o'lchanadi."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Trilateratsiya usulida asosan nima o'lchanadi?",
+   "a": [
+    "Uchburchak tomonlari",
+    "Faqat uchburchak burchaklari",
+    "Faqat atmosfera bosimi",
+    "Faqat rumblar"
+   ],
+   "e": "Yorug'lik dalnomerlari bilan."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Poligonometriya nima?",
+   "a": [
+    "Siniq chiziqli yo'llar tizimi",
+    "Faqat uchburchaklar zanjiri",
+    "Faqat nivelirlash yo'li",
+    "Faqat aerofotosyomka"
+   ],
+   "e": "Shaharlarda keng qo'llaniladi."
+  },
+  {
+   "b": "Taxeometriya va zamonaviy usullar",
+   "q": "Geodezik punktlar joyda qanday belgilanadi?",
+   "a": [
+    "Markazlar va tashqi belgilar bilan",
+    "Faqat bo'yoq bilan yaqin daraxtga belgi qo'yiladi",
+    "Faqat vaqtinchalik yog'och qoziqlar bilan",
+    "Hech qanday belgi qo'yilmaydi"
+   ],
+   "e": "Minoralar, piramidalar."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Yo'l trassasi bo'ylab piketlar odatda qanday oraliqda belgilanadi?",
+   "a": [
+    "Har 100 m da",
+    "Har 1 m da, juda zich qilib",
+    "Har 10 km da, faqat burilishlarda",
+    "Har 1000 m da, faqat kilometr ustunlarida"
+   ],
+   "e": "PK0, PK1, ... ; oraliqdagi nuqtalar — plyus nuqtalar."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Trassada \"PK 12 + 45\" yozuvi nimani bildiradi?",
+   "a": [
+    "Trassa boshidan 1245 m masofani",
+    "12-piketdan 45 km uzoqlikni",
+    "45-piketdan 12 m masofani",
+    "Balandligi 12,45 m bo'lgan nuqtani"
+   ],
+   "e": "12·100 + 45."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Trassaning burilish burchagi nima?",
+   "a": [
+    "Oldingi yo'nalish davomi va yangi yo'nalish orasidagi burchak",
+    "Trassa va haqiqiy meridian orasidagi burchak",
+    "Trassaning boshlang'ich va oxirgi nuqtalari orasidagi burchak",
+    "Trassa nishabligining burchagi"
+   ],
+   "e": "O'ngga yoki chapga burilish."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Aylanma egri chiziq tangensi qanday hisoblanadi?",
+   "a": [
+    "T = R·tg(θ/2)",
+    "T = R·θ",
+    "T = 2R·sinθ",
+    "T = R/θ"
+   ],
+   "e": "θ — burilish burchagi."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Aylanma egri chiziq uzunligi qanday hisoblanadi?",
+   "a": [
+    "K = πRθ/180°",
+    "K = R·tg(θ/2)",
+    "K = 2πR",
+    "K = R·sec θ"
+   ],
+   "e": "Yoy uzunligi."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Egri chiziq domerasi qanday hisoblanadi?",
+   "a": [
+    "D = 2T − K",
+    "D = T + K",
+    "D = K − T",
+    "D = 2K − T"
+   ],
+   "e": "Piketaj hisoblashda ishlatiladi."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Yo'l egri chiziqlarida o'tish egri chiziqlari nima uchun kerak?",
+   "a": [
+    "Egrilikni ravon o'zgartirish uchun",
+    "Yo'l uzunligini sun'iy ravishda oshirish uchun",
+    "Yo'l kengligini kamaytirish uchun",
+    "Piketlar sonini qisqartirish uchun"
+   ],
+   "e": "Klotoida."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Bo'ylama profil nima?",
+   "a": [
+    "Trassa bo'ylab vertikal kesim chizmasi",
+    "Trassaga perpendikulyar kesim chizmasi",
+    "Hududning gorizontal plani",
+    "Yo'l belgilarining ro'yxati"
+   ],
+   "e": "Gorizontal va vertikal masshtablar har xil."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Ko'ndalang profil nima?",
+   "a": [
+    "Trassaga perpendikulyar kesim",
+    "Trassa bo'ylab bo'ylama kesim",
+    "Trassaning havodan olingan surati",
+    "Ko'prikning chizmasi"
+   ],
+   "e": "Yer ishlari hajmini hisoblash uchun."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Bo'ylama profilda vertikal masshtab odatda gorizontalga nisbatan qanday olinadi?",
+   "a": [
+    "10 marta yirikroq",
+    "10 marta maydaroq",
+    "Har doim bir xil",
+    "100 marta maydaroq"
+   ],
+   "e": "Relyefni yaqqol ko'rsatish uchun."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Loyiha belgisi (balandligi) va qora belgi farqi nima deyiladi?",
+   "a": [
+    "Ishchi belgi",
+    "Absolyut belgi",
+    "Reper belgisi",
+    "Nol belgi"
+   ],
+   "e": "Musbat — ko'tarma, manfiy — o'yma."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Ishchi belgi musbat bo'lsa, qanday yer ishi bajariladi?",
+   "a": [
+    "Ko'tarma (nasip)",
+    "O'yma (vyemka)",
+    "Hech qanday ish",
+    "Faqat asfalt yotqizish"
+   ],
+   "e": "Loyiha belgisi yer sirtidan baland."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Nol ish nuqtasi nima?",
+   "a": [
+    "Loyiha chizig'i yer sirti bilan kesishgan nuqta",
+    "Trassaning boshlang'ich nuqtasi, ya'ni PK0",
+    "Profildagi eng baland nuqta",
+    "Doimiy reper o'rnatilgan nuqta"
+   ],
+   "e": "Ko'tarmadan o'ymaga o'tish joyi."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Loyihani joyga ko'chirish (vynos) nima?",
+   "a": [
+    "Loyiha nuqtalarini joyda belgilash",
+    "Joydagi o'lchamlarni planga tushirish",
+    "Xaritani boshqa masshtabga o'tkazish",
+    "Asbobni bir joydan boshqasiga tashish"
+   ],
+   "e": "Razbivka ishlari."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Loyiha balandligini joyga ko'chirishda qaysi asbob ishlatiladi?",
+   "a": [
+    "Nivelir",
+    "Bussol",
+    "Planimetr",
+    "Ruletka faqat"
+   ],
+   "e": "b = GI − Hloyiha."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Asbob gorizonti 125,600 m, loyiha balandligi 124,800 m. Reykadagi hisob qancha bo'lishi kerak?",
+   "a": [
+    "0,800 m",
+    "1,200 m",
+    "250,400 m",
+    "124,800 m"
+   ],
+   "e": "125,600 − 124,800."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Bino o'qlarini joyda belgilashning usullaridan biri qaysi?",
+   "a": [
+    "Qutb koordinatalar usuli",
+    "Barometrik usul",
+    "Organoleptik usul",
+    "Gidrometrik usul"
+   ],
+   "e": "To'g'ri burchakli koordinatalar, kesishtirish usullari ham."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Obnoska nima?",
+   "a": [
+    "Bino o'qlarini mahkamlovchi to'siq",
+    "Teodolit qopqog'i",
+    "Nivelir reykasi",
+    "Xarita ramkasi"
+   ],
+   "e": "Qurilish maydonchasida."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Inshootlar cho'kishini kuzatish qanday usul bilan bajariladi?",
+   "a": [
+    "Yuqori aniqlikdagi nivelirlash",
+    "Kompas bilan devor azimutlarini davriy o'lchash",
+    "Muntazam vizual ko'zdan kechirish",
+    "Barometr ko'rsatkichlarini solishtirish"
+   ],
+   "e": "Deformatsion markalar bo'yicha."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Ijro syomkasi nima?",
+   "a": [
+    "Qurilgan obyektning haqiqiy holatini o'lchash",
+    "Loyihani boshidan qayta chizish va tasdiqlash",
+    "Qurilishdan oldingi muhandislik razvedkasi",
+    "Xodimlarni ish joyida suratga olish"
+   ],
+   "e": "Loyihadan chetlanishlar aniqlanadi."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Ko'prik o'tish joylarida geodezik ishlar nimani o'z ichiga oladi?",
+   "a": [
+    "Tayanch o'qlarini belgilash",
+    "Faqat daryo suvining haroratini o'lchash",
+    "Faqat ko'prik rangini tanlash",
+    "Faqat transport oqimini sanash"
+   ],
+   "e": "Triangulyatsiya tarmog'i quriladi."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Yer ishlari hajmini aniqlashda qaysi ma'lumot kerak?",
+   "a": [
+    "Profil maydonlari va ular orasidagi masofa",
+    "Faqat yo'l uzunligi",
+    "Faqat havo harorati",
+    "Faqat yo'l belgilari soni"
+   ],
+   "e": "V = (F₁ + F₂)/2 · L."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Planimetr nima uchun ishlatiladi?",
+   "a": [
+    "Plandagi maydonni o'lchash uchun",
+    "Burchaklarni plan bo'yicha o'lchash uchun",
+    "Gorizontallar bo'yicha balandliklarni aniqlash uchun",
+    "Masofani joyda o'lchash uchun"
+   ],
+   "e": "Mexanik yoki elektron."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Maydonni koordinatalar bo'yicha hisoblash qaysi usulga kiradi?",
+   "a": [
+    "Analitik",
+    "Grafik",
+    "Mexanik",
+    "Organoleptik"
+   ],
+   "e": "Gauss formulasi."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Lazer nivelir (ko'rsatgich) qurilishda nima uchun qo'llaniladi?",
+   "a": [
+    "Gorizontal yoki vertikal tekislikni ko'rsatish uchun",
+    "Havo harorati va namligini o'lchash uchun",
+    "Beton mustahkamligini aniqlash uchun",
+    "Devor ichidagi elektr kabelini topish uchun"
+   ],
+   "e": "Ichki pardoz ishlarida."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Vertikal chiziqni (vertikallikni) tekshirishning oddiy vositasi qaysi?",
+   "a": [
+    "Shoqul",
+    "Planimetr",
+    "Bussol",
+    "Transportir"
+   ],
+   "e": "Optik va lazerli vertikalizatorlar ham."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Yer osti kommunikatsiyalarini izlash uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Trassaqidirgich (lokator)",
+    "Teodolit",
+    "Nivelir",
+    "Planimetr"
+   ],
+   "e": "Elektromagnit usul."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Tunnel qurilishida geodezik ishlarning asosiy vazifasi nima?",
+   "a": [
+    "Zaboylarning aniq tutashuvini ta'minlash",
+    "Tunnel ichini yoritish",
+    "Ventilyatsiyani o'rnatish",
+    "Tunnel devorlarini bo'yash"
+   ],
+   "e": "Sbojka aniqligi."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Avtomobil yo'li qidiruvida birinchi bosqich nima?",
+   "a": [
+    "Trassa variantlarini xaritada tanlash",
+    "Darhol asfalt yotqizishni boshlash",
+    "Yo'l belgilarini o'rnatish",
+    "Transport vositalarini xarid qilish"
+   ],
+   "e": "Kameral trassalash, so'ngra dala ishlari."
+  },
+  {
+   "b": "Muhandislik geodeziyasi",
+   "q": "Yo'l qurilishida \"qora belgi\" nimani bildiradi?",
+   "a": [
+    "Yer sirtining mavjud balandligi",
+    "Loyihadagi yo'l qoplamasi balandligi",
+    "Asfalt qatlami qalinligi",
+    "Yo'l belgisining rangi"
+   ],
+   "e": "Qizil belgi — loyiha balandligi."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Geodezik o'lchashlarda xatolar qanday turlarga bo'linadi?",
+   "a": [
+    "Qo'pol, sistematik va tasodifiy",
+    "Faqat katta va kichik xatolar",
+    "Faqat musbat va manfiy xatolar",
+    "Faqat ichki va tashqi xatolar"
+   ],
+   "e": "Qo'pol xatolar nazorat o'lchashlari bilan aniqlanadi."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "O'rta kvadratik xato (Gauss formulasi) qanday hisoblanadi?",
+   "a": [
+    "m = √(Σ∆²/n)",
+    "m = Σ∆/n",
+    "m = Σ∆²·n",
+    "m = max∆"
+   ],
+   "e": "∆ — haqiqiy xatolar."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Haqiqiy qiymat noma'lum bo'lganda o'rta kvadratik xato qaysi formula bilan topiladi?",
+   "a": [
+    "Bessel formulasi",
+    "Gauss formulasi",
+    "Pifagor formulasi",
+    "Eyler formulasi"
+   ],
+   "e": "m = √(Σv²/(n − 1))."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Chegaraviy xato odatda o'rta kvadratik xatodan necha marta katta deb olinadi?",
+   "a": [
+    "2–3 marta",
+    "10 marta",
+    "100 marta",
+    "Teng"
+   ],
+   "e": "Δchek = 2m yoki 3m."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Teng aniqlikdagi o'lchashlarning eng ishonchli qiymati qaysi?",
+   "a": [
+    "O'rta arifmetik",
+    "Eng katta qiymat",
+    "Eng kichik qiymat",
+    "Birinchi o'lchash"
+   ],
+   "e": "Arifmetik o'rtacha."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Turli aniqlikdagi o'lchashlarda eng ishonchli qiymat qanday topiladi?",
+   "a": [
+    "Vaznli o'rtacha",
+    "Oddiy arifmetik o'rtacha",
+    "Eng aniq o'lchashning o'zi",
+    "Eng birinchi natija"
+   ],
+   "e": "Vazn p = c/m²."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Lentani harorat o'zgarishi bilan cho'zilishi qanday xatoga kiradi?",
+   "a": [
+    "Sistematik",
+    "Tasodifiy",
+    "Qo'pol",
+    "Shaxsiy"
+   ],
+   "e": "Tuzatma bilan bartaraf qilinadi."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Reykani noto'g'ri o'qish (masalan, 1 dm ga adashish) qanday xato?",
+   "a": [
+    "Qo'pol",
+    "Sistematik",
+    "Tasodifiy",
+    "Instrumental"
+   ],
+   "e": "Ikki tomonlama reyka bilan nazorat qilinadi."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Nazorat o'lchashlari nima uchun bajariladi?",
+   "a": [
+    "Qo'pol xatolarni aniqlash uchun",
+    "Ish vaqtini cho'zish uchun",
+    "Asbobni charchatish uchun",
+    "Hisobotni qalinlashtirish uchun"
+   ],
+   "e": "Ortiqcha o'lchashlar."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Lentani tortish kuchi me'yordan kam bo'lsa, o'lchangan masofa qanday bo'ladi?",
+   "a": [
+    "Haqiqiydan katta",
+    "Haqiqiydan kichik",
+    "Aniq",
+    "Nolga teng"
+   ],
+   "e": "Lenta salqilanadi (provis)."
+  },
+  {
+   "b": "O'lchash xatolari",
+   "q": "Ko'rish nurining sinishi (refraksiya) qaysi o'lchashlarga ta'sir qiladi?",
+   "a": [
+    "Balandlik va vertikal burchak o'lchashlariga",
+    "Faqat lenta bilan gorizontal masofa o'lchashga",
+    "Faqat plan bo'yicha maydon hisoblashga",
+    "Hech qaysi o'lchashga ta'sir qilmaydi"
+   ],
+   "e": "Yer egriligi bilan birga hisobga olinadi."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Xaritada A nuqta 150 m, B nuqta 155 m gorizontalda yotadi. AB orasidagi gorizontal masofa 250 m. Nishablik qancha?",
+   "a": [
+    "0,02",
+    "0,2",
+    "0,05",
+    "50"
+   ],
+   "e": "5/250."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Relyef kesimi 2 m, A nuqta 120 m gorizontaldan 120 m, 122 m gorizontalgacha masofaning 1/4 qismida. A balandligi qancha?",
+   "a": [
+    "120,5 m",
+    "121,5 m",
+    "122 m",
+    "120 m"
+   ],
+   "e": "Interpolyatsiya: 120 + 2·0,25."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Xaritada \"+\" bilan belgilangan raqamli belgilar (masalan, 245,7) nimani bildiradi?",
+   "a": [
+    "Nuqtaning absolyut balandligini",
+    "Nuqtadan xarita ramkasining shimoliy chetigacha masofani",
+    "Daryo yoki ko'l chuqurligini metrda",
+    "Aholi punktidagi aholi sonini"
+   ],
+   "e": "Belgilar (otmetka)."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Gorizontallar qalinlashtirilgan (har beshinchisi) nima uchun?",
+   "a": [
+    "Relyefni o'qishni osonlashtirish uchun",
+    "Avtomobil yo'llari va temir yo'llarni ajratib ko'rsatish uchun",
+    "Daryolar va kanallarni ajratish uchun",
+    "Ma'muriy chegaralarni ko'rsatish uchun"
+   ],
+   "e": "Ular ustiga balandlik yoziladi."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Yarim gorizontallar (punktir) qachon chiziladi?",
+   "a": [
+    "Asosiy gorizontallar relyef detallarini ko'rsatmasa",
+    "Har doim, har bir asosiy gorizontal o'rnida",
+    "Faqat suv havzalari qirg'oqlarini ko'rsatishda",
+    "Faqat qishki xaritalarda"
+   ],
+   "e": "Kesim balandligining yarmi bo'yicha."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Tizma (xrebet) gorizontallarda qanday ko'rinadi?",
+   "a": [
+    "Pasayish tomonga qavariq gorizontallar",
+    "Ko'tarilish tomonga qavariq gorizontallar",
+    "Faqat to'g'ri chiziqlar",
+    "Berk doiralar, markazda past"
+   ],
+   "e": "Jarlik (lojbina) — aksincha."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Suvayirg'ich chizig'i qaysi relyef shakliga xos?",
+   "a": [
+    "Tizma",
+    "Jarlik",
+    "Soylik",
+    "Vodiy tubi"
+   ],
+   "e": "Suv ikki tomonga oqadi."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Suvyig'ich (talveg) chizig'i qaysi relyef shakliga xos?",
+   "a": [
+    "Jarlik (lojbina)",
+    "Tizma",
+    "Tepalik",
+    "Egar emas, cho'qqi"
+   ],
+   "e": "Suv bir chiziqqa to'planadi."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Topografik xaritada o'rmon qanday rangda ko'rsatiladi?",
+   "a": [
+    "Yashil",
+    "Ko'k",
+    "Jigarrang",
+    "Qora"
+   ],
+   "e": "Suv — ko'k, relyef — jigarrang."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Topografik xaritada gorizontallar qanday rangda ko'rsatiladi?",
+   "a": [
+    "Jigarrang",
+    "Yashil",
+    "Ko'k",
+    "Qizil"
+   ],
+   "e": "Muz va qor ustida — ko'k."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "1:25 000 masshtabli xaritada 1 sm joyda qancha?",
+   "a": [
+    "250 m",
+    "25 m",
+    "2,5 km",
+    "25 km"
+   ],
+   "e": "25 000 sm."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Xaritadagi 3 sm kesma joyda 1,5 km ga teng. Masshtab qanday?",
+   "a": [
+    "1:50 000",
+    "1:5000",
+    "1:500 000",
+    "1:15 000"
+   ],
+   "e": "150 000 sm / 3 sm."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Xarita bo'yicha maydon 4 sm², masshtab 1:10 000. Joydagi maydon qancha?",
+   "a": [
+    "4 ga",
+    "40 ga",
+    "0,4 ga",
+    "400 ga"
+   ],
+   "e": "1 sm² = 100 m × 100 m = 1 ga."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Koordinata to'ri (kilometr to'ri) nima uchun ishlatiladi?",
+   "a": [
+    "Nuqtalar to'g'ri burchakli koordinatalarini aniqlash uchun",
+    "Xaritani bezash va chiroyli ko'rinish berish uchun",
+    "Faqat aholi punktlarini sanash uchun",
+    "Faqat avtomobil yo'llarini ko'rsatish uchun"
+   ],
+   "e": "Gauss-Kryuger koordinatalari."
+  },
+  {
+   "b": "Masshtab va xaritalar",
+   "q": "Xarita ramkasi ostidagi diagramma nimani ko'rsatadi?",
+   "a": [
+    "Meridianlar yaqinlashuvi va magnit og'ishini",
+    "Hududdagi aholi zichligi va uning o'zgarishini",
+    "Yillik o'rtacha yog'in miqdorini",
+    "Yo'llar uzunligini"
+   ],
+   "e": "Yo'nalishlarni o'tkazish uchun."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "DCh da 45°12′, DO' da 45°14′ olingan. Burchakning o'rtacha qiymati qancha?",
+   "a": [
+    "45°13′",
+    "45°12′",
+    "45°14′",
+    "90°26′"
+   ],
+   "e": "(45°12′ + 45°14′)/2."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Ikki yarim priyom natijalari orasidagi ruxsat etilgan farq texnik teodolitda (T30) odatda qancha?",
+   "a": [
+    "2t (taxminan 1′)",
+    "10°",
+    "1°",
+    "Farq bo'lishi mumkin emas"
+   ],
+   "e": "t — hisob moslamasining aniqligi."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Limbda orqa nuqtaga 15°20′, oldingi nuqtaga 95°50′ hisob olindi (o'ngdagi burchak). Burchak qancha?",
+   "a": [
+    "280°30′",
+    "80°30′",
+    "111°10′",
+    "15°20′"
+   ],
+   "e": "β = orqa − old (+360° agar manfiy): 15°20′ − 95°50′ + 360°."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Hisob 2°15′ va 352°45′ orasidagi burchak (chapdan o'ngga, ikkinchisidan birinchisini ayirib, 360° bilan) qancha?",
+   "a": [
+    "9°30′",
+    "350°30′",
+    "355°00′",
+    "4°30′"
+   ],
+   "e": "2°15′ − 352°45′ + 360°."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Teodolitni shtativga o'rnatganda shoqul qayerga yo'naltiriladi?",
+   "a": [
+    "Nuqta markaziga",
+    "Eng yaqin daraxtga",
+    "Reyka tagiga",
+    "Shimolga"
+   ],
+   "e": "Markazlash xatosi 1–2 mm dan oshmasligi kerak."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Asbobning ko'rish trubasida iplar to'ri nima uchun kerak?",
+   "a": [
+    "Nishonga aniq qaratish va hisob olish uchun",
+    "Trubani changdan va namlikdan himoyalash uchun",
+    "Tasvir yorug'ligini kuchaytirish uchun",
+    "Trubani mahkamlash uchun"
+   ],
+   "e": "Gorizontal, vertikal va dalnomer iplari."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Okulyarni fokuslash nima uchun kerak?",
+   "a": [
+    "Iplar to'rini aniq ko'rish uchun",
+    "Nishonni kattalashtirish uchun",
+    "Asbobni gorizontlash uchun",
+    "Masofani o'lchash uchun"
+   ],
+   "e": "Kuzatuvchi ko'ziga moslash."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Kremalyera (fokus vinti) nima uchun xizmat qiladi?",
+   "a": [
+    "Nishon tasvirini aniq ko'rinishga keltirish uchun",
+    "Limbni alidadaga nisbatan aylantirish uchun",
+    "Shtativ boshini mahkamlash uchun",
+    "Batareyani almashtirish uchun"
+   ],
+   "e": "Ichki fokuslovchi linza."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Paralaks iplar to'rida nimani bildiradi?",
+   "a": [
+    "Tasvir iplar tekisligiga tushmaganini",
+    "Asbob gorizontal holatda emasligini",
+    "Batareya zaryadi tugaganini",
+    "Limb shikastlanganini"
+   ],
+   "e": "Ko'z siljiganda iplar tasvirga nisbatan siljiydi."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Elektron taxeometrda atmosfera tuzatmasi nima uchun kiritiladi?",
+   "a": [
+    "Harorat va bosim nur tezligiga ta'sir qilgani uchun",
+    "Asbob og'irligini va o'lchamlarini kamaytirish uchun",
+    "Displey yorqinligini oshirish uchun",
+    "Batareyani tejash uchun"
+   ],
+   "e": "ppm tuzatmasi."
+  },
+  {
+   "b": "Teodolit va burchaklar",
+   "q": "Prizma konstantasi nima?",
+   "a": [
+    "Reflektor uchun masofa tuzatmasi",
+    "Prizma og'irligi",
+    "Prizma rangi",
+    "Prizma narxi"
+   ],
+   "e": "Masalan, −30 mm."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Nivelirning asosiy geometrik sharti qaysi?",
+   "a": [
+    "Ko'rish o'qi adilak o'qiga parallel bo'lishi",
+    "Ko'rish o'qi vertikal o'qqa parallel bo'lishi",
+    "Reyka biroz egilgan holatda o'rnatilishi",
+    "Shtativ oyoqlari teng bo'lmasligi"
+   ],
+   "e": "i-burchak xatosi."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Kompensatorli nivelirning afzalligi nima?",
+   "a": [
+    "Ko'rish o'qi avtomatik gorizontal holatga keladi",
+    "Har doim qo'lda, uch vint bilan gorizontlash talab qiladi",
+    "Gorizontal burchaklarni avtomatik o'lchaydi",
+    "Masofani o'lchamaydi"
+   ],
+   "e": "Ish tezligi oshadi."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Nivelir reykasi qanday o'rnatiladi?",
+   "a": [
+    "Vertikal, boshmoq yoki qoziq ustiga",
+    "Gorizontal holatda, yerga yotqizib",
+    "Qiya holatda, 45° burchakda",
+    "Asbobga suyab qo'yiladi"
+   ],
+   "e": "Reykadagi doiraviy adilak bilan."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Ikki tomonlama reykaning qizil tomoni nima uchun?",
+   "a": [
+    "Nazorat hisobi olish uchun",
+    "Kechasi ko'rinishi uchun",
+    "Bezak uchun",
+    "Faqat qishda ishlatish uchun"
+   ],
+   "e": "Qizil tomon noli surilgan (masalan, 4687 mm)."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Bir stansiyada qora va qizil tomonlar bo'yicha oshib ketishlar farqi texnik nivelirlashda qancha bo'lishi mumkin?",
+   "a": [
+    "±5 mm gacha",
+    "±50 sm gacha",
+    "±1 m gacha",
+    "Farq bo'lmasligi shart"
+   ],
+   "e": "Oshsa, stansiya qayta o'lchanadi."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Bog'lovchi nuqta nima?",
+   "a": [
+    "Ikki qo'shni stansiyaga umumiy nuqta",
+    "Faqat boshlang'ich davlat reperi",
+    "Trassaning oxirgi nuqtasi",
+    "Asbob o'rnatilgan joy"
+   ],
+   "e": "Unda reyka ikki marta o'qiladi."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Oraliq nuqta nima?",
+   "a": [
+    "Bitta stansiyadan faqat bir marta o'qiladigan nuqta",
+    "Ikki qo'shni stansiyaga umumiy bo'lgan nuqta",
+    "Davlat reperi",
+    "Asbob o'rnatilgan nuqta"
+   ],
+   "e": "Balandligi asbob gorizonti orqali topiladi."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Yopiq nivelir yo'lida oshib ketishlar: +1,250; −0,840; +0,620; −1,036. Bog'lanmaslik qancha?",
+   "a": [
+    "−6 mm",
+    "+6 mm",
+    "0",
+    "−2,666 m"
+   ],
+   "e": "1,870 − 1,876 = −0,006."
+  },
+  {
+   "b": "Nivelirlash",
+   "q": "Gidrostatik nivelirlash nimaga asoslanadi?",
+   "a": [
+    "Tutash idishlardagi suyuqlik sathi tengligiga",
+    "Atmosfera bosimining balandlik bilan kamayishiga",
+    "Yorug'lik tezligiga",
+    "Magnit maydoniga"
+   ],
+   "e": "Inshootlar deformatsiyasini kuzatishda."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Toshkent qaysi Gauss-Kryuger 6° zonasida joylashgan (uzoqlik ≈ 69°)?",
+   "a": [
+    "12-zona",
+    "6-zona",
+    "20-zona",
+    "1-zona"
+   ],
+   "e": "66°–72°, o'q meridiani 69°."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "12-zonaning o'q meridiani qaysi?",
+   "a": [
+    "69°",
+    "66°",
+    "72°",
+    "60°"
+   ],
+   "e": "L₀ = 6n − 3."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Gauss-Kryuger proyeksiyasi qanday proyeksiya?",
+   "a": [
+    "Teng burchakli (konform)",
+    "Teng maydonli",
+    "Teng masofali barcha yo'nalishlarda",
+    "Perspektiv azimutal"
+   ],
+   "e": "Burchaklar buzilmaydi, uzunliklar zona chetida buziladi."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Mahalliy (shartli) koordinatalar sistemasi qachon qo'llaniladi?",
+   "a": [
+    "Kichik qurilish maydonchalarida",
+    "Butun mamlakat xaritalarida",
+    "Okeanlarni tasvirlashda",
+    "Sun'iy yo'ldosh orbitalarini hisoblashda"
+   ],
+   "e": "Davlat tizimiga bog'lanishi mumkin."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Ekvatorda 1° uzoqlik yoyi taxminan qancha km?",
+   "a": [
+    "111 km",
+    "11 km",
+    "1 km",
+    "1111 km"
+   ],
+   "e": "Qutbga yaqinlashgan sari kamayadi."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "1 dengiz mili qaysi yoy uzunligiga to'g'ri keladi?",
+   "a": [
+    "Meridianning 1′ yoyiga",
+    "Ekvatorning 1° yoyiga",
+    "1 km ga",
+    "Meridianning 1″ yoyiga"
+   ],
+   "e": "≈ 1852 m."
+  },
+  {
+   "b": "Yer shakli va koordinatalar",
+   "q": "Geodezik ellipsoid siqilishi qanday aniqlanadi?",
+   "a": [
+    "(a − b)/a",
+    "a/b",
+    "a + b",
+    "b/a²"
+   ],
+   "e": "Krasovskiy: 1:298,3."
+  }
+ ]
+}
