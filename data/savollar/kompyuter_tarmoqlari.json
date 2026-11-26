@@ -2,282 +2,3131 @@
  "kod": "5PM0452",
  "nomi": "Kompyuter tarmoqlari",
  "turi": "maxsus",
- "manba": "2026-yilgi texnikum o'quv rejalari",
+ "manba": "2026-yilgi texnikum o'quv rejalari; savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "OSI modeli",
    "q": "OSI modeli nechta sathdan iborat?",
    "a": [
-    "7 ta",
-    "4 ta",
-    "5 ta",
-    "8 ta"
+    "7",
+    "4, xuddi TCP/IP modeli kabi",
+    "5",
+    "9"
    ],
    "e": "Fizik, kanal, tarmoq, transport, seans, taqdimot, ilova."
   },
   {
    "b": "OSI modeli",
-   "q": "IP protokoli OSI modelining qaysi sathida ishlaydi?",
+   "q": "OSI modelining eng quyi sathi qaysi?",
    "a": [
-    "Tarmoq sathida",
-    "Kanal sathida",
-    "Transport sathida",
-    "Ilova sathida"
+    "Fizik",
+    "Kanal (ma'lumotlarni uzatish)",
+    "Tarmoq",
+    "Ilova"
    ],
-   "e": "IP marshrutlash va manzillashni ta'minlaydi."
+   "e": "Signallar va kabellar darajasi."
   },
   {
    "b": "OSI modeli",
-   "q": "TCP va UDP protokollari qaysi sathga tegishli?",
+   "q": "OSI modelining eng yuqori sathi qaysi?",
+   "a": [
+    "Ilova",
+    "Taqdimot (ma'lumotlarni kodlash va shifrlash)",
+    "Seans",
+    "Transport"
+   ],
+   "e": "HTTP, FTP, SMTP protokollari."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "IP protokoli OSI ning qaysi sathida ishlaydi?",
+   "a": [
+    "Tarmoq (3-sath)",
+    "Transport (4-sath)",
+    "Kanal (2-sath)",
+    "Ilova (7-sath)"
+   ],
+   "e": "Paketlarni marshrutlash."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "TCP va UDP protokollari OSI ning qaysi sathiga tegishli?",
    "a": [
     "Transport",
     "Tarmoq",
-    "Fizik",
-    "Seans"
+    "Kanal",
+    "Fizik"
    ],
-   "e": "TCP ishonchli, ulanishga asoslangan; UDP tez, ulanishsiz."
+   "e": "4-sath."
   },
   {
    "b": "OSI modeli",
-   "q": "Kommutator (switch) asosan OSI modelining qaysi sathida ishlaydi?",
+   "q": "Kommutator (switch) asosan OSI ning qaysi sathida ishlaydi?",
    "a": [
     "Kanal (2-sath)",
     "Fizik (1-sath)",
     "Tarmoq (3-sath)",
     "Ilova (7-sath)"
    ],
-   "e": "Kommutator MAC-manzillar bo'yicha kadrlarni uzatadi."
+   "e": "MAC-manzillar bo'yicha kadrlarni yo'naltiradi."
   },
   {
    "b": "OSI modeli",
-   "q": "Marshrutizator (router) asosan qaysi sathda ishlaydi?",
+   "q": "Marshrutizator (router) OSI ning qaysi sathida ishlaydi?",
    "a": [
     "Tarmoq (3-sath)",
     "Kanal (2-sath)",
     "Fizik (1-sath)",
     "Taqdimot (6-sath)"
    ],
-   "e": "Router IP-manzillar asosida paketlarni turli tarmoqlar orasida yo'naltiradi."
+   "e": "IP-manzillar bo'yicha paketlarni yo'naltiradi."
   },
   {
-   "b": "Manzillash",
-   "q": "MAC-manzil uzunligi necha bit?",
+   "b": "OSI modeli",
+   "q": "Konsentrator (hub) OSI ning qaysi sathida ishlaydi?",
    "a": [
-    "48 bit",
-    "32 bit",
-    "128 bit",
-    "64 bit"
+    "Fizik (1-sath)",
+    "Kanal (2-sath)",
+    "Tarmoq (3-sath)",
+    "Transport (4-sath)"
    ],
-   "e": "Odatda 6 ta o'n oltilik juftlik bilan yoziladi."
+   "e": "Signalni barcha portlarga takrorlaydi."
   },
   {
-   "b": "Manzillash",
-   "q": "IPv4 manzil uzunligi necha bit?",
+   "b": "OSI modeli",
+   "q": "Kanal sathida ma'lumot birligi qanday nomlanadi?",
    "a": [
-    "32 bit",
-    "48 bit",
-    "64 bit",
-    "128 bit"
+    "Kadr (frame)",
+    "Paket",
+    "Segment",
+    "Bit"
    ],
-   "e": "IPv6 manzil — 128 bit."
+   "e": "Tarmoq sathida — paket, transport sathida — segment."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Transport sathida TCP ma'lumot birligi qanday nomlanadi?",
+   "a": [
+    "Segment",
+    "Kadr",
+    "Bit",
+    "Paket"
+   ],
+   "e": "UDP da — datagramma."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Ma'lumotlarni shifrlash va formatlash OSI ning qaysi sathi vazifasi?",
+   "a": [
+    "Taqdimot",
+    "Seans",
+    "Transport",
+    "Kanal"
+   ],
+   "e": "6-sath."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "TCP/IP modeli nechta sathdan iborat?",
+   "a": [
+    "4",
+    "7",
+    "5 har doim",
+    "3"
+   ],
+   "e": "Tarmoqqa kirish, internet, transport, ilova."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Inkapsulyatsiya nima?",
+   "a": [
+    "Har bir sathda ma'lumotga sarlavha qo'shilishi",
+    "Ma'lumotni qabul qiluvchida sarlavhalardan tozalash",
+    "Ma'lumotni shifrlash",
+    "Ma'lumotni siqish"
+   ],
+   "e": "Qabul qilishda — dekapsulyatsiya."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "TCP ulanishi qanday o'rnatiladi?",
+   "a": [
+    "Uch bosqichli qo'l berishish (SYN, SYN-ACK, ACK)",
+    "Bitta paket yuborish bilan, javob kutmasdan",
+    "Ikki bosqichda: SYN va FIN",
+    "Ulanish o'rnatilmaydi"
+   ],
+   "e": "Three-way handshake."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "TCP va UDP ning asosiy farqi nima?",
+   "a": [
+    "TCP ishonchli va ulanishli, UDP ulanishsiz va tezkor",
+    "UDP yetkazishni kafolatlaydi, TCP esa hech qanday nazorat qilmaydi",
+    "Ular bir xil",
+    "TCP faqat lokal tarmoqda ishlaydi"
+   ],
+   "e": "Video translyatsiya va DNS da UDP ishlatiladi."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Qaysi protokol UDP dan foydalanadi?",
+   "a": [
+    "DNS (odatda)",
+    "HTTP",
+    "SSH",
+    "FTP"
+   ],
+   "e": "Tezkor so'rov-javob uchun."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Port raqami nimani aniqlaydi?",
+   "a": [
+    "Xostdagi ilova yoki xizmatni",
+    "Tarmoqdagi kompyuterning jismoniy joylashuvini",
+    "Kabel turini",
+    "Router modelini"
+   ],
+   "e": "IP-manzil + port = socket."
   },
   {
    "b": "Manzillash",
-   "q": "Qaysi IP-manzil xususiy (private) diapazonga kiradi?",
+   "q": "IPv4 manzili necha bitdan iborat?",
    "a": [
-    "192.168.1.10",
+    "32",
+    "64",
+    "128",
+    "48"
+   ],
+   "e": "To'rtta 8 bitli oktet."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IPv6 manzili necha bitdan iborat?",
+   "a": [
+    "128",
+    "32",
+    "64",
+    "256"
+   ],
+   "e": "O'n oltilik ko'rinishda yoziladi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "MAC-manzil necha bitdan iborat?",
+   "a": [
+    "48",
+    "32",
+    "128",
+    "16"
+   ],
+   "e": "Masalan, 00:1A:2B:3C:4D:5E."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Qaysi IP-manzil xususiy (private) manzil hisoblanadi?",
+   "a": [
+    "192.168.1.5",
     "8.8.8.8",
-    "213.230.64.1",
-    "1.1.1.1"
+    "172.32.0.1",
+    "200.100.50.25"
    ],
    "e": "Xususiy diapazonlar: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16."
   },
   {
    "b": "Manzillash",
-   "q": "/24 tarmoq niqobi (maskasi) o'nlik ko'rinishda qanday yoziladi?",
+   "q": "127.0.0.1 manzili nimani bildiradi?",
    "a": [
-    "255.255.255.0",
-    "255.255.0.0",
-    "255.0.0.0",
-    "255.255.255.255"
+    "Lokal xost (loopback)",
+    "Standart shlyuz",
+    "Keng uzatish manzili",
+    "DNS server"
    ],
-   "e": "24 ta bir: 11111111.11111111.11111111.00000000."
+   "e": "Kompyuterning o'ziga murojaat."
   },
   {
    "b": "Manzillash",
-   "q": "/24 tarmoqda xostlar uchun nechta foydalanish mumkin bo'lgan manzil bor?",
+   "q": "255.255.255.0 niqobi CIDR yozuvida qanday?",
+   "a": [
+    "/24",
+    "/16",
+    "/8",
+    "/32"
+   ],
+   "e": "24 ta bir."
+  },
+  {
+   "b": "Manzillash",
+   "q": "/24 tarmoqda nechta xostga manzil berish mumkin?",
    "a": [
     "254",
     "256",
     "255",
     "128"
    ],
-   "e": "2⁸ − 2 (tarmoq va keng uzatish manzillari ayiriladi)."
+   "e": "2⁸ − 2 (tarmoq va keng uzatish manzillari)."
   },
   {
    "b": "Manzillash",
-   "q": "127.0.0.1 manzili nimani bildiradi?",
+   "q": "/26 tarmoqda nechta xostga manzil berish mumkin?",
    "a": [
-    "Lokal xostning o'zini (loopback)",
-    "Marshrutizatorni",
-    "DNS serverni",
-    "Keng uzatish manzilini"
+    "62",
+    "64",
+    "126",
+    "30"
    ],
-   "e": "Tarmoq stekini sinash uchun ishlatiladi."
+   "e": "2⁶ − 2."
   },
   {
-   "b": "Xizmatlar",
-   "q": "DNS xizmatining vazifasi nima?",
+   "b": "Manzillash",
+   "q": "192.168.1.0/24 tarmog'ining keng uzatish (broadcast) manzili qaysi?",
    "a": [
-    "Domen nomlarini IP-manzillarga o'girish",
-    "IP-manzillarni avtomatik tarqatish",
-    "Elektron pochta yuborish",
-    "Fayllarni uzatish"
+    "192.168.1.255",
+    "192.168.1.0",
+    "192.168.1.1",
+    "255.255.255.0"
    ],
-   "e": "Masalan: gov.uz → uning IP-manzili."
+   "e": "Xost qismi barcha bitlari 1."
   },
   {
-   "b": "Xizmatlar",
-   "q": "DHCP protokolining vazifasi nima?",
+   "b": "Manzillash",
+   "q": "DHCP xizmatining vazifasi nima?",
    "a": [
     "Qurilmalarga IP-manzil va tarmoq sozlamalarini avtomatik berish",
-    "Domen nomlarini o'girish",
-    "Veb-sahifalarni uzatish",
-    "Shifrlash"
+    "Domen nomlarini IP-manzillarga o'girish va keshda saqlash",
+    "Elektron pochta yetkazish",
+    "Fayllarni uzatish"
    ],
-   "e": "DHCP server manzillar pulini boshqaradi."
+   "e": "Dynamic Host Configuration Protocol."
+  },
+  {
+   "b": "Manzillash",
+   "q": "ARP protokoli nima qiladi?",
+   "a": [
+    "IP-manzil bo'yicha MAC-manzilni aniqlaydi",
+    "Domen nomini IP-manzilga aylantirib, javobni keshlaydi",
+    "IP-manzilni avtomatik beradi",
+    "Paketlarni shifrlaydi"
+   ],
+   "e": "Address Resolution Protocol."
+  },
+  {
+   "b": "Manzillash",
+   "q": "NAT texnologiyasi nima uchun ishlatiladi?",
+   "a": [
+    "Xususiy manzillarni ommaviy manzilga o'girish uchun",
+    "Domen nomlarini saqlash va ularni ro'yxatdan o'tkazish uchun",
+    "Kabellarni ulash uchun",
+    "Wi-Fi parolini yaratish uchun"
+   ],
+   "e": "Bir ommaviy IP bilan ko'p qurilma internetga chiqadi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Standart shlyuz (default gateway) nima?",
+   "a": [
+    "Boshqa tarmoqlarga chiqish uchun routerning manzili",
+    "Tarmoqdagi birinchi ulangan kompyuterning nomi va manzili",
+    "DNS server nomi",
+    "Kabel turi"
+   ],
+   "e": "Odatda routerning lokal interfeysi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "169.254.x.x manzili kompyuterda paydo bo'lsa, bu nimani bildiradi?",
+   "a": [
+    "DHCP serverdan manzil olinmagan (APIPA)",
+    "Kompyuter internetga muvaffaqiyatli ulangan",
+    "Kompyuter DNS server vazifasini bajarmoqda",
+    "Kompyuter VPN ga ulangan"
+   ],
+   "e": "Avtomatik xususiy manzil."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IPv4 manzillar sinflaridan C sinfining birinchi oktet oralig'i qaysi?",
+   "a": [
+    "192–223",
+    "1–126",
+    "128–191",
+    "224–239"
+   ],
+   "e": "A — 1–126, B — 128–191, D — multicast."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IPv6 da manzil qisqartirishda \"::\" belgisi nimani bildiradi?",
+   "a": [
+    "Ketma-ket nol bloklarini",
+    "Manzil oxirini",
+    "Port raqamini",
+    "Tarmoq niqobini"
+   ],
+   "e": "Bir manzilda faqat bir marta ishlatiladi."
   },
   {
    "b": "Xizmatlar",
-   "q": "HTTPS protokoli standart bo'yicha qaysi portdan foydalanadi?",
+   "q": "HTTP protokoli standart qaysi portda ishlaydi?",
    "a": [
-    "443",
     "80",
+    "443",
     "21",
     "25"
    ],
-   "e": "80 — HTTP, 21 — FTP, 25 — SMTP."
+   "e": "HTTPS — 443."
   },
   {
    "b": "Xizmatlar",
-   "q": "Masofadagi serverni xavfsiz boshqarish uchun qaysi protokol ishlatiladi?",
+   "q": "HTTPS protokoli standart qaysi portda ishlaydi?",
    "a": [
-    "SSH (22-port)",
-    "Telnet",
-    "HTTP",
+    "443",
+    "80",
+    "22",
+    "110"
+   ],
+   "e": "TLS bilan shifrlangan HTTP."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "FTP protokoli boshqaruv uchun qaysi portdan foydalanadi?",
+   "a": [
+    "21",
+    "20",
+    "23",
+    "80"
+   ],
+   "e": "Ma'lumotlar uchun 20-port (faol rejimda)."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DNS xizmati qaysi portda ishlaydi?",
+   "a": [
+    "53",
+    "25",
+    "67",
+    "443"
+   ],
+   "e": "UDP va TCP."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "SMTP protokoli nima uchun ishlatiladi?",
+   "a": [
+    "Elektron pochtani jo'natish uchun",
+    "Elektron pochtani serverdan yuklab olish uchun",
+    "Veb-sahifalarni ko'rsatish uchun",
+    "Fayllarni uzatish uchun"
+   ],
+   "e": "Standart port 25 (yoki 587)."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Elektron pochtani serverda saqlab, bir nechta qurilmadan o'qish imkonini beruvchi protokol qaysi?",
+   "a": [
+    "IMAP",
+    "POP3",
+    "SMTP",
     "FTP"
    ],
-   "e": "Telnet ma'lumotlarni shifrlamasdan uzatadi."
+   "e": "POP3 odatda xatlarni yuklab olib, serverdan o'chiradi."
   },
   {
    "b": "Xizmatlar",
-   "q": "Tarmoqda xost mavjudligini tekshirish uchun qaysi buyruq ishlatiladi?",
+   "q": "SSH protokoli nima uchun ishlatiladi?",
    "a": [
-    "ping",
-    "ipconfig /release",
-    "format",
-    "chkdsk"
+    "Masofaviy qurilmani xavfsiz boshqarish",
+    "Veb-saytlarni ko'rish",
+    "Elektron pochta jo'natish",
+    "IP-manzil berish"
    ],
-   "e": "ping ICMP echo so'rovlarini yuboradi."
+   "e": "Port 22, shifrlangan."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "SNMP protokoli nima uchun ishlatiladi?",
+   "a": [
+    "Tarmoq qurilmalarini monitoring va boshqarish uchun",
+    "Elektron pochta jo'natish va xatlarni pochta qutilariga tarqatish uchun",
+    "Fayllarni uzatish uchun",
+    "Veb-sahifalarni ko'rsatish uchun"
+   ],
+   "e": "Port 161."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DNS da \"A\" yozuvi nimani bildiradi?",
+   "a": [
+    "Domen nomining IPv4 manzilini",
+    "Domen nomining IPv6 manzilini",
+    "Pochta serverini",
+    "Taxallus nomini"
+   ],
+   "e": "AAAA — IPv6, MX — pochta, CNAME — taxallus."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DNS da MX yozuvi nimani ko'rsatadi?",
+   "a": [
+    "Domen uchun pochta serverini",
+    "Domenning IPv4 manzilini",
+    "Domenning egasini",
+    "Domenning ro'yxatdan o'tgan sanasini"
+   ],
+   "e": "Mail Exchanger."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "ping buyrug'i qaysi protokolga asoslangan?",
+   "a": [
+    "ICMP",
+    "TCP",
+    "UDP faqat",
+    "HTTP"
+   ],
+   "e": "Echo Request / Echo Reply."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "traceroute (tracert) buyrug'i nima ko'rsatadi?",
+   "a": [
+    "Paket manzilgacha o'tadigan marshrutizatorlar yo'lini",
+    "Kompyuterning IP-manzilini",
+    "Ochiq portlar ro'yxatini va ularda ishlayotgan xizmatlarni",
+    "Tarmoq kabeli turini"
+   ],
+   "e": "TTL qiymatini oshirib boradi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Veb-brauzer va server o'rtasida qaysi protokol ishlatiladi?",
+   "a": [
+    "HTTP/HTTPS",
+    "SMTP",
+    "SNMP",
+    "DHCP"
+   ],
+   "e": "Gipermatn uzatish protokoli."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Proxy-server qanday vazifani bajaradi?",
+   "a": [
+    "Mijoz so'rovlarini vositachi sifatida uzatadi",
+    "IP-manzillarni avtomatik beradi va ularning ijara muddatini boshqaradi",
+    "Domen nomlarini o'giradi",
+    "Kabellarni ulaydi"
+   ],
+   "e": "Keshlash va filtrlash mumkin."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "NTP protokoli nima uchun ishlatiladi?",
+   "a": [
+    "Qurilmalar vaqtini sinxronlash uchun",
+    "Fayllarni uzatish uchun",
+    "Elektron pochta uchun",
+    "Video translyatsiya uchun"
+   ],
+   "e": "Network Time Protocol, port 123."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DHCP jarayonining to'rt bosqichi qaysi?",
+   "a": [
+    "Discover, Offer, Request, Acknowledge",
+    "Send, Receive, Close, Open",
+    "Ping, Trace, Route, End",
+    "Start, Stop, Pause, Resume"
+   ],
+   "e": "DORA."
   },
   {
    "b": "Fizik sath",
-   "q": "Ethernet tarmog'ida keng tarqalgan kabel ulagichi qaysi?",
+   "q": "Ethernet tarmoqlarida keng tarqalgan kabel turi qaysi?",
    "a": [
-    "RJ-45",
-    "RJ-11",
-    "BNC",
-    "USB-C"
+    "Buralgan juftlik (UTP)",
+    "Koaksial televizor kabeli",
+    "Telefon kabeli bir juftli",
+    "Elektr tarmog'i kabeli"
    ],
-   "e": "RJ-11 — telefon liniyasi ulagichi."
+   "e": "RJ-45 ulagichi bilan."
   },
   {
    "b": "Fizik sath",
-   "q": "Optik tolali kabelning asosiy afzalligi nima?",
+   "q": "Cat5e kabeli qanday maksimal tezlikni qo'llab-quvvatlaydi?",
    "a": [
-    "Yuqori tezlik, uzoq masofa va elektromagnit xalaqitlarga chidamlilik",
-    "Arzonligi har doim",
-    "Mis o'tkazgich ishlatilishi",
-    "Montajning juda osonligi"
+    "1 Gbit/s",
+    "10 Mbit/s",
+    "100 Gbit/s",
+    "10 Gbit/s 100 m da"
    ],
-   "e": "Ma'lumot yorug'lik signallari orqali uzatiladi."
+   "e": "Segment uzunligi 100 m gacha."
   },
   {
    "b": "Fizik sath",
-   "q": "Cat 5e o'ralgan juftlik kabeli taxminan qancha masofagacha (segment) ishlaydi?",
+   "q": "Buralgan juftlik kabel segmentining standart maksimal uzunligi qancha?",
    "a": [
     "100 m",
     "10 m",
-    "1000 m",
-    "5 km"
+    "1 km",
+    "500 m"
    ],
-   "e": "Ethernet segmentining standart chegarasi — 100 m."
+   "e": "Undan uzoqqa kommutator yoki optika kerak."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Optik tolali kabelning afzalligi nima?",
+   "a": [
+    "Uzoq masofa, yuqori tezlik va xalaqitga chidamlilik",
+    "Arzonligi va oddiy mis kabel kabi oson payvandlanishi",
+    "Elektr tokini uzatishi",
+    "Faqat qisqa masofada ishlashi"
+   ],
+   "e": "Yorug'lik signali orqali."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Bir modali (single-mode) optik tola ko'p modalidan nimasi bilan farq qiladi?",
+   "a": [
+    "Uzoqroq masofaga uzatadi, yadrosi ingichka",
+    "Faqat qisqa masofada ishlaydi va yadrosi yo'g'on",
+    "Elektr tokini o'tkazadi",
+    "Farqi yo'q"
+   ],
+   "e": "Ko'p modali — bino ichida qisqa masofalar."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "T568B standartida RJ-45 ulagichning 1-simi qanday rangda?",
+   "a": [
+    "Oq-to'q sariq",
+    "Oq-yashil",
+    "Ko'k",
+    "Jigarrang"
+   ],
+   "e": "T568A da 1-sim — oq-yashil."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "To'g'ri (straight-through) kabel qaysi qurilmalarni ulash uchun ishlatiladi?",
+   "a": [
+    "Kompyuter va kommutator",
+    "Ikki kompyuterni to'g'ridan-to'g'ri (Auto MDI-X bo'lmaganda)",
+    "Ikki kommutatorni (eski qurilmalarda)",
+    "Ikki routerni"
+   ],
+   "e": "Turli turdagi qurilmalar uchun."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Ethernet da standart MTU qiymati qancha?",
+   "a": [
+    "1500 bayt",
+    "64 bayt",
+    "9000 bayt har doim",
+    "65535 bayt"
+   ],
+   "e": "Jumbo kadrlar 9000 baytgacha."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Duplex rejimi \"full-duplex\" nimani anglatadi?",
+   "a": [
+    "Bir vaqtda ikki yo'nalishda uzatish",
+    "Faqat bir yo'nalishda uzatish",
+    "Navbat bilan ikki yo'nalishda",
+    "Umuman uzatmaslik"
+   ],
+   "e": "Half-duplex — navbat bilan."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "PoE texnologiyasi nima?",
+   "a": [
+    "Ethernet kabeli orqali elektr ta'minoti berish",
+    "Optik tola orqali yuqori sifatli video va ovoz uzatish",
+    "Wi-Fi tezligini oshirish",
+    "Kabelni yerga ulash"
+   ],
+   "e": "IP kameralar, kirish nuqtalari uchun."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Koaksial kabel hozirda asosan qayerda ishlatiladi?",
+   "a": [
+    "Televideniye va kabel internetida",
+    "Zamonaviy ofis lokal tarmoqlarida asosiy kabel sifatida",
+    "Kompyuter ichida",
+    "Faqat telefonda"
+   ],
+   "e": "Eski Ethernet (10BASE2) da ishlatilgan."
   },
   {
    "b": "Topologiyalar",
-   "q": "Barcha qurilmalar markaziy kommutatorga ulangan topologiya qanday ataladi?",
+   "q": "\"Yulduz\" topologiyasining afzalligi nima?",
    "a": [
-    "Yulduz",
-    "Shina",
-    "Halqa",
-    "To'r (mesh)"
+    "Bitta kabel uzilsa, faqat bitta qurilma ajraladi",
+    "Markaziy qurilma talab qilinmaydi va kabel kam ketadi",
+    "Barcha qurilmalar bitta kabelga ulanadi",
+    "Juda arzon va oddiy, markaziy nuqta yo'q"
    ],
-   "e": "Hozirgi LANlarda eng keng tarqalgan topologiya."
+   "e": "Kamchiligi — markaziy qurilmaga bog'liqlik."
   },
   {
    "b": "Topologiyalar",
-   "q": "Shahar yoki mamlakat miqyosidagi katta tarmoq qanday ataladi?",
+   "q": "\"Shina\" (bus) topologiyasining kamchiligi nima?",
    "a": [
-    "WAN",
-    "LAN",
+    "Asosiy kabel uzilsa, butun tarmoq ishlamaydi",
+    "Har bir qurilma uchun markazdan alohida kabel tortish kerakligi",
+    "Markaziy kommutator juda qimmat",
+    "Kamchiligi yo'q"
+   ],
+   "e": "Oxirlarida terminatorlar kerak."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "\"Halqa\" topologiyasida ma'lumot qanday uzatiladi?",
+   "a": [
+    "Bir qurilmadan keyingisiga ketma-ket",
+    "Barcha qurilmalarga bir vaqtda markazdan",
+    "Tasodifiy yo'nalishda",
+    "Faqat bitta qurilmaga"
+   ],
+   "e": "Token Ring tarmog'ida."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "\"To'liq bog'langan\" (mesh) topologiyaning afzalligi nima?",
+   "a": [
+    "Yuqori ishonchlilik",
+    "Eng kam kabel sarfi va arzonlik",
+    "Oddiy sozlanishi",
+    "Markaziy qurilmaga bog'liqlik"
+   ],
+   "e": "Ko'plab zaxira yo'llar mavjud."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Lokal tarmoq (LAN) qanday hududni qamrab oladi?",
+   "a": [
+    "Bino yoki kampus",
+    "Butun dunyo",
+    "Butun mamlakat",
+    "Bir nechta qit'a"
+   ],
+   "e": "WAN — global, MAN — shahar tarmog'i."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Internet qanday tarmoq turiga kiradi?",
+   "a": [
+    "Global (WAN)",
+    "Lokal (LAN)",
+    "Shaxsiy (PAN)",
+    "Kampus faqat"
+   ],
+   "e": "Tarmoqlar tarmog'i."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Bluetooth qanday tarmoq turini tashkil qiladi?",
+   "a": [
     "PAN",
-    "VLAN"
+    "WAN",
+    "MAN",
+    "SAN"
    ],
-   "e": "Internet — eng yirik global tarmoq."
+   "e": "Shaxsiy tarmoq, qisqa masofa."
   },
   {
    "b": "Simsiz tarmoqlar",
-   "q": "Wi-Fi tarmoqlarini himoyalashda hozirgi tavsiya etilgan shifrlash standarti qaysi?",
+   "q": "Wi-Fi texnologiyasi qaysi IEEE standartlar oilasiga asoslangan?",
    "a": [
-    "WPA3 (yoki kamida WPA2)",
-    "WEP",
-    "Ochiq tarmoq",
-    "WPS PIN"
+    "802.11",
+    "802.3, ya'ni simli Ethernet standarti",
+    "802.15",
+    "802.1Q"
    ],
-   "e": "WEP eskirgan va oson buziladi."
+   "e": "802.3 — Ethernet, 802.15 — Bluetooth/PAN."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi 6 qaysi standartga mos keladi?",
+   "a": [
+    "802.11ax",
+    "802.11b, eng eski 11 Mbit/s standart",
+    "802.11g",
+    "802.11n"
+   ],
+   "e": "Wi-Fi 5 — 802.11ac, Wi-Fi 4 — 802.11n."
   },
   {
    "b": "Simsiz tarmoqlar",
    "q": "Wi-Fi tarmoqlari asosan qaysi chastota diapazonlarida ishlaydi?",
    "a": [
-    "2,4 GGs va 5 GGs (shuningdek 6 GGs)",
-    "50 Gs",
-    "900 kGs",
-    "100 MGs"
+    "2,4 va 5 GGs",
+    "50 Gs va 60 Gs, xuddi elektr tarmog'i kabi",
+    "900 MGs faqat",
+    "100 GGs"
    ],
-   "e": "5 GGs tezroq, 2,4 GGs uzoqroqqa yetadi."
+   "e": "Wi-Fi 6E 6 GGs diapazonini ham qo'shadi."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi tarmog'ining nomi qanday ataladi?",
+   "a": [
+    "SSID",
+    "MAC (qurilmaning apparat manzili)",
+    "DNS (domen nomlari tizimi)",
+    "URL (resurs manzili)"
+   ],
+   "e": "Service Set Identifier."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "2,4 GGs diapazonining 5 GGs ga nisbatan afzalligi nima?",
+   "a": [
+    "Uzoqroq masofa va devorlardan yaxshi o'tish",
+    "Har doim ancha yuqori tezlik va kam xalaqit",
+    "Ko'proq kanallar va kam shovqin",
+    "Hech qanday afzalligi yo'q"
+   ],
+   "e": "5 GGs — tezroq, lekin masofa qisqaroq."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Simsiz kirish nuqtasi (access point) qanday vazifani bajaradi?",
+   "a": [
+    "Simsiz qurilmalarni simli tarmoqqa ulaydi",
+    "IP-manzillarni DNS orqali o'giradi va pochta yuboradi",
+    "Faqat elektr energiyasini taqsimlaydi",
+    "Faqat kabellarni sinaydi"
+   ],
+   "e": "Wi-Fi qamrovini ta'minlaydi."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi xavfsizligida eng zaif himoya protokoli qaysi?",
+   "a": [
+    "WEP",
+    "WPA3 (eng zamonaviy)",
+    "WPA2-Enterprise (RADIUS bilan)",
+    "WPA2-PSK uzun parol bilan"
+   ],
+   "e": "Bir necha daqiqada buziladi."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Mesh Wi-Fi tizimi nima?",
+   "a": [
+    "Bir nechta nuqtadan iborat yagona simsiz tarmoq",
+    "Faqat bitta kuchli router, boshqa qurilmasiz",
+    "Simli kabel tarmog'i",
+    "Mobil aloqa stansiyasi"
+   ],
+   "e": "Katta uylarda qamrovni kengaytiradi."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Mobil aloqaning 5G avlodining asosiy afzalliklari qaysilar?",
+   "a": [
+    "Yuqori tezlik va past kechikish",
+    "Faqat ovozli qo'ng'iroqlar uchun mo'ljallanganligi",
+    "Faqat SMS yuborish",
+    "Internet umuman bo'lmasligi"
+   ],
+   "e": "IoT va avtonom transport uchun muhim."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi signaliga qaysi omil eng kuchli xalaqit beradi?",
+   "a": [
+    "Qalin beton va metall to'siqlar",
+    "Xonadagi yorug'lik",
+    "Havo harorati 20 °C bo'lishi",
+    "Xonadagi gilam rangi"
+   ],
+   "e": "Mikroto'lqinli pech ham 2,4 GGs da xalaqit beradi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Statik marshrutlash nima?",
+   "a": [
+    "Marshrutlarni administrator qo'lda kiritishi",
+    "Marshrutlarni protokollar avtomatik aniqlashi va almashishi",
+    "Marshrutlash umuman bo'lmasligi",
+    "Faqat Wi-Fi da marshrutlash"
+   ],
+   "e": "Kichik tarmoqlar uchun qulay."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Dinamik marshrutlash protokoliga misol qaysi?",
+   "a": [
+    "OSPF",
+    "HTTP (gipermatn protokoli)",
+    "FTP (fayl uzatish)",
+    "SMTP (pochta)"
+   ],
+   "e": "RIP, EIGRP, BGP ham."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "RIP protokolida marshrut metrikasi nima?",
+   "a": [
+    "Hoplar soni",
+    "Kanal o'tkazish qobiliyati va kechikish",
+    "Kabel rangi",
+    "Router narxi"
+   ],
+   "e": "Maksimal 15 hop."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "OSPF qanday turdagi protokol?",
+   "a": [
+    "Kanal holati (link-state)",
+    "Masofa vektori (distance-vector)",
+    "Yo'l vektori (path-vector)",
+    "Statik"
+   ],
+   "e": "Deykstra algoritmidan foydalanadi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Avtonom tizimlar o'rtasida marshrutlash uchun qaysi protokol ishlatiladi?",
+   "a": [
+    "BGP",
+    "RIP (kichik ichki tarmoqlar uchun)",
+    "ARP (manzil aniqlash)",
+    "DHCP (manzil berish)"
+   ],
+   "e": "Internetning asosiy marshrutlash protokoli."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Marshrutlash jadvali nimani saqlaydi?",
+   "a": [
+    "Manzil tarmoqlari va ularga yo'llar",
+    "Tarmoqdagi barcha foydalanuvchilar parollari",
+    "Faqat MAC-manzillar",
+    "Faqat domen nomlari"
+   ],
+   "e": "Router paketni qayerga yuborishni shu jadval asosida aniqlaydi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "TTL (Time To Live) maydoni IP paketda nima uchun kerak?",
+   "a": [
+    "Paketning tarmoqda cheksiz aylanib qolishini oldini olish",
+    "Paketni shifrlash uchun kalit saqlash",
+    "Paket hajmini ko'rsatish",
+    "Paket yaratilgan sanani saqlash"
+   ],
+   "e": "Har bir routerda 1 ga kamayadi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Standart marshrut (default route) qanday yoziladi?",
+   "a": [
+    "0.0.0.0/0",
+    "255.255.255.255/32",
+    "127.0.0.1/8",
+    "192.168.0.0/16"
+   ],
+   "e": "Boshqa mos marshrut bo'lmaganda ishlatiladi."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Kommutator kadrni qaysi manzil bo'yicha yo'naltiradi?",
+   "a": [
+    "MAC",
+    "IP, ya'ni tarmoq sathi manzili",
+    "URL",
+    "Port raqami (TCP)"
+   ],
+   "e": "MAC-manzillar jadvali (CAM) asosida."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "VLAN nima?",
+   "a": [
+    "Bitta kommutatorda mantiqiy alohida tarmoqlar",
+    "Juda uzoq masofali global tarmoq",
+    "Simsiz tarmoq standarti",
+    "Kabel turi"
+   ],
+   "e": "802.1Q standarti."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "VLAN lar orasida ma'lumot almashish uchun nima kerak?",
+   "a": [
+    "Marshrutizator yoki L3 kommutator",
+    "Oddiy konsentrator (hub)",
+    "Faqat kabel",
+    "Hech narsa, ular avtomatik bog'lanadi"
+   ],
+   "e": "Inter-VLAN routing."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "STP protokoli nima uchun kerak?",
+   "a": [
+    "Kommutatsiya halqalarining oldini olish uchun",
+    "IP-manzillarni avtomatik berish uchun",
+    "Domen nomlarini o'girish uchun",
+    "Ma'lumotlarni shifrlash uchun"
+   ],
+   "e": "Spanning Tree Protocol."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Trunk port nima?",
+   "a": [
+    "Bir nechta VLAN trafigini o'tkazuvchi port",
+    "Faqat bitta qurilmani ulash uchun mo'ljallangan oddiy port",
+    "Elektr ta'minoti porti",
+    "Ishlamaydigan port"
+   ],
+   "e": "Kommutatorlar orasida ishlatiladi."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Keng uzatish (broadcast) domeni nimani bildiradi?",
+   "a": [
+    "Keng uzatish xabarlari yetib boradigan qurilmalar to'plami",
+    "Internetdagi barcha saytlar",
+    "Bitta kabel uzunligi",
+    "Domen nomi narxi"
+   ],
+   "e": "Routerlar va VLANlar broadcast domenlarini ajratadi."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Kolliziya domenini nima ajratadi?",
+   "a": [
+    "Kommutator porti",
+    "Konsentrator (hub), u kolliziyalarni kamaytiradi",
+    "Takrorlagich",
+    "Kabel"
+   ],
+   "e": "Har bir kommutator porti alohida kolliziya domeni."
   },
   {
    "b": "Xavfsizlik",
-   "q": "Tarmoqlararo ekran (firewall)ning vazifasi nima?",
+   "q": "Tarmoqlararo ekran (firewall) qanday asosda trafikni filtrlaydi?",
    "a": [
-    "Trafikni belgilangan qoidalar asosida filtrlash",
-    "Kabellarni ulash",
-    "IP-manzil tarqatish",
-    "Domen nomlarini saqlash"
+    "Qoidalar",
+    "Faqat foydalanuvchilar ismlari va yoshi",
+    "Faqat vaqt",
+    "Faqat kabel rangi"
    ],
-   "e": "Apparat yoki dasturiy bo'lishi mumkin."
+   "e": "IP, port, protokol bo'yicha."
   },
   {
    "b": "Xavfsizlik",
-   "q": "VLAN texnologiyasi nima uchun ishlatiladi?",
+   "q": "MAC-manzil bo'yicha filtrlashning kamchiligi nima?",
    "a": [
-    "Bitta fizik tarmoqni mantiqiy segmentlarga ajratish uchun",
-    "Internet tezligini oshirish uchun",
-    "Simsiz aloqa uchun",
-    "Elektr ta'minoti uchun"
+    "MAC-manzilni soxtalashtirish oson",
+    "Uni sozlash mutlaqo imkonsiz",
+    "Juda qimmat",
+    "Hech qanday kamchiligi yo'q"
    ],
-   "e": "VLANlar keng uzatish domenlarini ajratadi va xavfsizlikni oshiradi."
+   "e": "Yolg'iz himoya sifatida yetarli emas."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "VPN qaysi xavfsizlik vazifasini bajaradi?",
+   "a": [
+    "Shifrlangan tunnel yaratadi",
+    "Barcha viruslarni avtomatik o'chiradi",
+    "IP-manzil beradi",
+    "Kabellarni himoya qiladi"
+   ],
+   "e": "IPsec, OpenVPN, WireGuard."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "802.1X standarti nima uchun ishlatiladi?",
+   "a": [
+    "Tarmoqqa ulanishda autentifikatsiya uchun",
+    "Wi-Fi tezligini oshirish uchun",
+    "Kabel ulagichlari uchun",
+    "IP-manzil berish uchun"
+   ],
+   "e": "RADIUS server bilan ishlaydi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "10.0.0.0/8 tarmog'ida xost qismi necha bitdan iborat?",
+   "a": [
+    "24",
+    "8, chunki prefiks uzunligi 8 ga teng",
+    "16",
+    "32"
+   ],
+   "e": "32 − 8 = 24."
+  },
+  {
+   "b": "Manzillash",
+   "q": "172.16.0.0/16 tarmog'i qanday niqobga ega?",
+   "a": [
+    "255.255.0.0",
+    "255.255.255.0",
+    "255.0.0.0",
+    "255.255.255.255"
+   ],
+   "e": "16 ta bir."
+  },
+  {
+   "b": "Manzillash",
+   "q": "192.168.10.0/25 tarmog'ida nechta xost bo'lishi mumkin?",
+   "a": [
+    "126",
+    "254",
+    "128",
+    "62"
+   ],
+   "e": "2⁷ − 2."
+  },
+  {
+   "b": "Manzillash",
+   "q": "192.168.10.0/25 tarmog'ining broadcast manzili qaysi?",
+   "a": [
+    "192.168.10.127",
+    "192.168.10.255",
+    "192.168.10.128",
+    "192.168.10.1"
+   ],
+   "e": "Birinchi yarmi: .0–.127."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Tarmoqni kichik qism tarmoqlarga bo'lish qanday nomlanadi?",
+   "a": [
+    "Subnetting",
+    "Routing (marshrutlash)",
+    "Switching (kommutatsiya)",
+    "Bridging (ko'priklash)"
+   ],
+   "e": "Manzil maydonidan samarali foydalanish."
+  },
+  {
+   "b": "Manzillash",
+   "q": "/30 qism tarmog'i qayerda ko'p ishlatiladi?",
+   "a": [
+    "Ikki router orasidagi nuqta-nuqta ulanishda",
+    "Katta ofis lokal tarmog'ida yuzlab kompyuterlar uchun",
+    "Wi-Fi mehmon tarmog'ida",
+    "Internetning global marshrutlashida"
+   ],
+   "e": "Atigi 2 ta xost manzili."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IPv6 ning IPv4 ga nisbatan asosiy afzalligi nima?",
+   "a": [
+    "Juda katta manzillar maydoni",
+    "Manzillar qisqaroq va eslab qolish osonroq",
+    "Faqat lokal tarmoqda ishlashi",
+    "NAT ni majburiy qilishi"
+   ],
+   "e": "2¹²⁸ manzil."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Statik IP-manzil nima?",
+   "a": [
+    "Qo'lda belgilangan o'zgarmas manzil",
+    "DHCP tomonidan har safar yangidan beriladigan manzil",
+    "Faqat Wi-Fi qurilmalar manzili",
+    "Har kuni o'zgaradigan manzil"
+   ],
+   "e": "Serverlar va printerlar uchun."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Ommaviy (public) IP-manzil nima?",
+   "a": [
+    "Internetda noyob, global marshrutlanadigan manzil",
+    "Faqat uy tarmog'ida ishlatiladigan va internetda marshrutlanmaydigan manzil",
+    "192.168.x.x diapazonidagi manzil",
+    "Loopback manzil"
+   ],
+   "e": "Provayder tomonidan beriladi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Multicast manzillar qaysi diapazonda joylashgan (IPv4)?",
+   "a": [
+    "224.0.0.0 – 239.255.255.255",
+    "10.0.0.0 – 10.255.255.255",
+    "127.0.0.0 – 127.255.255.255",
+    "192.168.0.0 – 192.168.255.255"
+   ],
+   "e": "D sinfi manzillari."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Seans sathining vazifasi nima?",
+   "a": [
+    "Aloqa seanslarini o'rnatish, boshqarish va tugatish",
+    "Elektr signallarini uzatish va kabellarni boshqarish",
+    "Paketlarni marshrutlash",
+    "MAC-manzillash"
+   ],
+   "e": "5-sath."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Qaysi qurilma barcha sathlarda ishlashi mumkin?",
+   "a": [
+    "Shlyuz (gateway) — protokollarni o'zgartiruvchi",
+    "Oddiy konsentrator (hub)",
+    "Kabel",
+    "Takrorlagich"
+   ],
+   "e": "Turli protokollar orasida o'giradi."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Kanal sathi qanday qism sathlarga bo'linadi?",
+   "a": [
+    "LLC va MAC",
+    "TCP va UDP",
+    "IP va ICMP",
+    "HTTP va FTP"
+   ],
+   "e": "IEEE 802 standartlarida."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "TCP da oqim nazorati qaysi mexanizm bilan amalga oshiriladi?",
+   "a": [
+    "Sirpanuvchi oyna (sliding window)",
+    "Faqat ping so'rovlari bilan",
+    "DNS orqali",
+    "DHCP orqali"
+   ],
+   "e": "Qabul qiluvchi oyna hajmini bildiradi."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "TCP ulanishini yopish uchun qaysi bayroq ishlatiladi?",
+   "a": [
+    "FIN",
+    "SYN (ulanish boshlash)",
+    "PSH (ma'lumotni darhol uzatish)",
+    "URG (shoshilinch)"
+   ],
+   "e": "Odatda to'rt bosqichli yopish."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "TCP da paket yo'qolsa nima bo'ladi?",
+   "a": [
+    "Qayta yuboriladi",
+    "Ma'lumot yo'qolganicha qoladi va hech kim bilmaydi",
+    "Ulanish darhol uziladi har doim",
+    "Paket UDP ga o'tkaziladi"
+   ],
+   "e": "Tasdiqlash (ACK) kelmasa."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Veb-sahifa manzilini (URL) IP-manzilga aylantirish jarayoni qanday nomlanadi?",
+   "a": [
+    "DNS-rezolyutsiya",
+    "DHCP-ijara (manzil berish)",
+    "NAT-tarjima (manzil almashtirish)",
+    "ARP-so'rov (MAC topish)"
+   ],
+   "e": "Rekursiv va iterativ so'rovlar."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Elektron pochta manzilining \"@\" dan keyingi qismi nimani bildiradi?",
+   "a": [
+    "Pochta domeni",
+    "Foydalanuvchi ismi",
+    "Parol",
+    "Port raqami"
+   ],
+   "e": "Masalan, @mail.uz."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Bulutli xizmatlarning IaaS modeli nimani taqdim etadi?",
+   "a": [
+    "Virtual serverlar va infratuzilma",
+    "Tayyor dasturiy ta'minotni brauzer orqali",
+    "Faqat dasturlash platformasini",
+    "Faqat elektron pochta"
+   ],
+   "e": "PaaS — platforma, SaaS — dastur."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "CDN (kontent yetkazish tarmog'i) nima beradi?",
+   "a": [
+    "Kontentni foydalanuvchiga yaqin serverlardan tez yetkazish",
+    "Barcha saytlarni bitta markaziy serverga joylab, ularni bir joydan boshqarish",
+    "Internetni sekinlashtirish",
+    "Faqat elektron pochta yuborish"
+   ],
+   "e": "Masalan, rasmlar va videolar keshlanadi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "VoIP texnologiyasi nima?",
+   "a": [
+    "IP tarmoq orqali ovozli aloqa",
+    "Faqat simli analog telefon",
+    "Faqat radio aloqa",
+    "Faqat SMS"
+   ],
+   "e": "Skype, Zoom, IP-telefoniya."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Fayl almashish uchun Windows tarmoqlarida qaysi protokol ishlatiladi?",
+   "a": [
+    "SMB",
+    "SMTP (pochta yuborish)",
+    "SNMP (monitoring)",
+    "SIP (IP-telefoniya)"
+   ],
+   "e": "Server Message Block."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Kabelning ishlashini tekshirish uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Kabel testeri",
+    "Lyuksmetr (yorug'lik o'lchagich)",
+    "Termometr",
+    "Barometr"
+   ],
+   "e": "Juftliklar ulanishini tekshiradi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "RJ-45 ulagichni kabelga mahkamlash uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Krimper (objim)",
+    "Payvand apparati",
+    "Lehim (kavsharlagich)",
+    "Bolg'a"
+   ],
+   "e": "Ulagich kontaktlarini simlarga bosadi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Ekranlangan buralgan juftlik qanday belgilanadi?",
+   "a": [
+    "STP (yoki FTP)",
+    "UTP",
+    "PoE",
+    "SFP"
+   ],
+   "e": "Elektromagnit xalaqitlardan himoyalangan."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "SFP moduli nima uchun ishlatiladi?",
+   "a": [
+    "Kommutatorga optik yoki mis ulanishni almashtiriladigan modul bilan qo'shish",
+    "Kompyuterga Ethernet kabeli orqali elektr ta'minoti berish",
+    "Wi-Fi signalini kuchaytirish",
+    "Tarmoq kabelini kesish"
+   ],
+   "e": "Small Form-factor Pluggable."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Signalning masofa bo'yicha susayishi qanday nomlanadi?",
+   "a": [
+    "So'nish (attenuatsiya)",
+    "Kuchayish (amplifikatsiya)",
+    "Kodlash",
+    "Modulyatsiya"
+   ],
+   "e": "Takrorlagichlar signalni tiklaydi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Takrorlagich (repeater) nima qiladi?",
+   "a": [
+    "Signalni kuchaytirib, masofani oshiradi",
+    "Paketlarni IP-manzil bo'yicha tegishli tarmoqqa yo'naltiradi",
+    "MAC-manzillarni o'qiydi",
+    "Ma'lumotlarni shifrlaydi"
+   ],
+   "e": "Fizik sath qurilmasi."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Ierarxik tarmoq dizaynining sathlari qaysilar?",
+   "a": [
+    "Yadro, taqsimlash, kirish",
+    "Faqat bitta tekis sath",
+    "Kirish, chiqish, saqlash",
+    "Ichki, tashqi"
+   ],
+   "e": "Core, Distribution, Access."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Gibrid topologiya nima?",
+   "a": [
+    "Bir nechta topologiyalarning birikmasi",
+    "Faqat yulduz topologiyasining kattalashtirilgan nusxasi",
+    "Faqat simsiz tarmoq",
+    "Kabelsiz tarmoq"
+   ],
+   "e": "Masalan, yulduz-shina."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Daraxt (ierarxik yulduz) topologiyasi qanday tuzilgan?",
+   "a": [
+    "Bir necha yulduzlar ierarxik bog'langan",
+    "Barcha qurilmalar bitta halqada",
+    "Barcha qurilmalar bitta shina kabelida",
+    "Har bir qurilma boshqa barcha qurilmalar bilan bog'langan"
+   ],
+   "e": "Korxona tarmoqlarida keng tarqalgan."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi da WPA2-Enterprise rejimi qanday autentifikatsiyadan foydalanadi?",
+   "a": [
+    "RADIUS server orqali har bir foydalanuvchi uchun alohida",
+    "Barcha foydalanuvchilar uchun bitta umumiy parol, routerda saqlanadigan",
+    "Autentifikatsiyasiz",
+    "Faqat MAC-filtr"
+   ],
+   "e": "Korporativ tarmoqlar uchun."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi kanallari 2,4 GGs da bir-biriga xalaqit bermasligi uchun qaysi kanallar tavsiya etiladi?",
+   "a": [
+    "1, 6, 11",
+    "1, 2, 3",
+    "5, 10, 15",
+    "7, 8, 9"
+   ],
+   "e": "Ular bir-biri bilan qoplanmaydi."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Mehmon Wi-Fi tarmog'i nima uchun yaratiladi?",
+   "a": [
+    "Asosiy tarmoqdan ajratib, mehmonlarga internet berish uchun",
+    "Mehmonlarga ichki serverlar va printerlarga to'liq kirish berish uchun",
+    "Tarmoq tezligini oshirish uchun",
+    "Parolsiz ishlash uchun"
+   ],
+   "e": "Xavfsizlikni oshiradi."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "ARP spoofing hujumi nima?",
+   "a": [
+    "Soxta ARP javoblari bilan trafikni o'ziga yo'naltirish",
+    "Domen nomini soxtalashtirib, foydalanuvchini boshqa saytga yuborish",
+    "Parolni tanlash",
+    "Wi-Fi ni o'chirish"
+   ],
+   "e": "MITM hujumining usuli."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Portlarni xavfsizlash (port security) kommutatorda nima qiladi?",
+   "a": [
+    "Portga ulanadigan MAC-manzillarni cheklaydi",
+    "Port tezligini ikki baravar oshiradi va kechikishni kamaytiradi",
+    "Portni bo'yaydi",
+    "Portga elektr beradi"
+   ],
+   "e": "Ruxsatsiz qurilmalarni bloklaydi."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "ACL (kirish ro'yxati) routerda nima qiladi?",
+   "a": [
+    "Trafikni qoidalar bo'yicha ruxsat etadi yoki taqiqlaydi",
+    "IP-manzillarni avtomatik beradi va ularni jadvalda saqlaydi",
+    "Domen nomlarini o'giradi",
+    "Kabellarni sinaydi"
+   ],
+   "e": "Access Control List."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Telnet qaysi portda ishlaydi?",
+   "a": [
+    "23",
+    "22, ya'ni xavfsiz SSH porti",
+    "21",
+    "25"
+   ],
+   "e": "Shifrlanmagan, xavfli protokol."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "POP3 protokoli qaysi portda ishlaydi?",
+   "a": [
+    "110",
+    "143 (IMAP porti)",
+    "25 (SMTP porti)",
+    "53 (DNS porti)"
+   ],
+   "e": "Pochtani yuklab olish."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "IMAP protokoli qaysi portda ishlaydi?",
+   "a": [
+    "143",
+    "110 (POP3 porti)",
+    "80 (HTTP porti)",
+    "443 (HTTPS porti)"
+   ],
+   "e": "Shifrlangan IMAPS — 993."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "RDP (masofaviy ish stoli) qaysi portda ishlaydi?",
+   "a": [
+    "3389",
+    "8080 (muqobil veb-port)",
+    "22 (SSH)",
+    "5900 (VNC)"
+   ],
+   "e": "Windows masofaviy boshqaruvi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DHCP server qaysi portda ishlaydi?",
+   "a": [
+    "67",
+    "68 (DHCP mijoz porti)",
+    "53 (DNS)",
+    "161 (SNMP)"
+   ],
+   "e": "UDP protokoli."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Qaysi buyruq Windows da DNS keshini tozalaydi?",
+   "a": [
+    "ipconfig /flushdns",
+    "ping -t (doimiy ping yuborish)",
+    "tracert (marshrutni kuzatish)",
+    "netstat -a (ulanishlarni ko'rsatish)"
+   ],
+   "e": "Eski DNS yozuvlarini o'chirish uchun."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Qaysi buyruq kompyuterning faol tarmoq ulanishlarini ko'rsatadi?",
+   "a": [
+    "netstat",
+    "nslookup (DNS so'rov)",
+    "ipconfig (manzil sozlamalari)",
+    "ping (aloqani tekshirish)"
+   ],
+   "e": "Ochiq portlar va ulanishlar ro'yxati."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DNS so'rovini qo'lda bajarish uchun qaysi buyruq ishlatiladi?",
+   "a": [
+    "nslookup",
+    "netstat (ulanishlar)",
+    "arp (ARP jadvali)",
+    "route (marshrutlar jadvali)"
+   ],
+   "e": "Linux da dig ham ishlatiladi."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Boshqariladigan kommutator boshqarilmaydigandan nimasi bilan farq qiladi?",
+   "a": [
+    "VLAN va boshqa sozlamalarni qo'llab-quvvatlaydi",
+    "Faqat ulab ishlatiladi, hech qanday sozlama imkoniyati yo'q",
+    "Faqat Wi-Fi bilan ishlaydi",
+    "Elektrsiz ishlaydi"
+   ],
+   "e": "Monitoring, QoS, port xavfsizligi."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Kommutator noma'lum MAC-manzilga kadr kelganda nima qiladi?",
+   "a": [
+    "Barcha portlarga yuboradi (flooding)",
+    "Kadrni darhol o'chirib yuboradi va hech kimga xabar bermaydi",
+    "Kadrni routerga yuboradi",
+    "Kadrni saqlab qo'yadi"
+   ],
+   "e": "Keyin javobdan MAC jadvalini o'rganadi."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Kommutator MAC-manzillar jadvalini qanday to'ldiradi?",
+   "a": [
+    "Kelgan kadrlar manba manzilini o'rganib",
+    "Administrator har birini qo'lda yozib kiritadi har doim",
+    "DNS serverdan oladi",
+    "DHCP dan oladi"
+   ],
+   "e": "Dinamik o'rganish."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "QoS (xizmat sifati) nima uchun ishlatiladi?",
+   "a": [
+    "Muhim trafikka ustuvorlik berish uchun",
+    "Barcha trafikni bir xil sekinlashtirish uchun",
+    "Faqat Wi-Fi parolini o'zgartirish uchun",
+    "Kabel uzunligini o'lchash uchun"
+   ],
+   "e": "Masalan, VoIP va video uchun."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Link aggregation (kanallarni birlashtirish) nima beradi?",
+   "a": [
+    "Bir nechta portni birlashtirib, tezlik va zaxira oshadi",
+    "Bitta portni ikkiga bo'lib, tezlikni kamaytiradi",
+    "VLAN larni o'chiradi",
+    "IP-manzillarni birlashtiradi"
+   ],
+   "e": "LACP protokoli."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Paket manzili marshrutlash jadvalidagi bir nechta yozuvga mos kelsa, qaysi biri tanlanadi?",
+   "a": [
+    "Eng uzun prefiksli",
+    "Eng qisqa prefiksli, ya'ni eng umumiy marshrut",
+    "Tasodifiy",
+    "Birinchi qo'shilgani har doim"
+   ],
+   "e": "Longest prefix match."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Administrativ masofa (administrative distance) nimani bildiradi?",
+   "a": [
+    "Marshrut manbaining ishonchliligini",
+    "Ikki router orasidagi masofani kilometrda",
+    "Kabel uzunligini",
+    "Hoplar sonini"
+   ],
+   "e": "Kichik qiymat — ishonchliroq."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Bir tarmoq ichidagi turli qism tarmoqlarni bog'lash uchun nima kerak?",
+   "a": [
+    "Router",
+    "Oddiy hub (konsentrator)",
+    "Faqat kabel",
+    "Takrorlagich"
+   ],
+   "e": "Yoki L3 kommutator."
+  },
+  {
+   "b": "Manzillash",
+   "q": "PAT (port manzil tarjimasi) NAT dan nimasi bilan farq qiladi?",
+   "a": [
+    "Ko'p ichki manzil bitta ommaviy IP orqali portlar bilan farqlanadi",
+    "Har bir ichki manzilga alohida ommaviy IP beriladi va portlar ishlatilmaydi",
+    "Faqat IPv6 da ishlaydi",
+    "Farqi yo'q"
+   ],
+   "e": "Uy routerlarida ishlatiladi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Port forwarding nima?",
+   "a": [
+    "Tashqi portga kelgan so'rovni ichki qurilmaga yo'naltirish",
+    "Kabelni boshqa portga ko'chirish",
+    "Wi-Fi kanalini o'zgartirish",
+    "IP-manzilni o'chirish"
+   ],
+   "e": "Masalan, uydagi serverga tashqaridan kirish."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Dinamik DNS (DDNS) nima uchun ishlatiladi?",
+   "a": [
+    "O'zgaruvchan ommaviy IP ga doimiy domen nomini bog'lash uchun",
+    "DNS serverni tezlashtirish uchun",
+    "Domen nomini o'chirish uchun",
+    "Elektron pochta yuborish uchun"
+   ],
+   "e": "Uy kameralari va serverlari uchun."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Cat6 kabeli 10 Gbit/s tezlikni qancha masofagacha ta'minlaydi?",
+   "a": [
+    "55 m gacha",
+    "1000 m gacha, xuddi optik tola kabi",
+    "5 m gacha",
+    "500 m gacha"
+   ],
+   "e": "Cat6a — 100 m gacha."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Optik tolada ma'lumot qanday uzatiladi?",
+   "a": [
+    "Yorug'lik impulslari",
+    "Elektr toki impulslari",
+    "Radioto'lqinlar",
+    "Tovush to'lqinlari"
+   ],
+   "e": "To'liq ichki qaytish hodisasi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Media konverter nima uchun ishlatiladi?",
+   "a": [
+    "Optik va mis kabel orasida signalni o'zgartirish",
+    "Videoni boshqa formatga o'girish",
+    "Musiqani siqish",
+    "Rasmni o'lchamini o'zgartirish"
+   ],
+   "e": "Masalan, SFP dan RJ-45 ga."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Tarmoq sxemasini chizish uchun qaysi dastur ishlatiladi?",
+   "a": [
+    "Cisco Packet Tracer",
+    "Microsoft Paint (oddiy rasm dasturi)",
+    "Kalkulyator",
+    "Audio pleyer"
+   ],
+   "e": "Simulyatsiya va o'quv maqsadlarida ham."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Ma'lumotlar markazida keng tarqalgan \"spine-leaf\" topologiyasi nima beradi?",
+   "a": [
+    "Barcha serverlar orasida bir xil kechikish",
+    "Faqat bitta markaziy kommutatorga bog'liqlik",
+    "Juda yuqori kechikish",
+    "Kabel sarfini nolga tushirish"
+   ],
+   "e": "Gorizontal masshtablashga qulay."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi Direct texnologiyasi nima?",
+   "a": [
+    "Router siz qurilmalarni to'g'ridan-to'g'ri ulash",
+    "Faqat routerga kabel orqali ulanish",
+    "Mobil aloqa standarti",
+    "Bluetooth turi"
+   ],
+   "e": "Masalan, telefondan printerga chop etish."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Simsiz tarmoqda \"yashirin SSID\" himoya sifatida samarali emas, chunki...",
+   "a": [
+    "Uni maxsus dasturlar bilan oson aniqlash mumkin",
+    "Yashirin SSID ga hech kim ulana olmaydi, hatto egasi ham",
+    "U internetni o'chiradi",
+    "U tezlikni oshiradi"
+   ],
+   "e": "Kuchli shifrlash afzal."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Bluetooth ning odatiy ishlash masofasi qancha?",
+   "a": [
+    "10 m atrofida",
+    "10 km",
+    "1 km",
+    "1 sm"
+   ],
+   "e": "Sinfiga qarab 100 m gacha."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "DMZ ga qaysi serverlar joylashtiriladi?",
+   "a": [
+    "Internetdan ochiq bo'lishi kerak bo'lgan (veb, pochta)",
+    "Eng maxfiy ma'lumotlar bazasi serverlari",
+    "Xodimlarning ish kompyuterlari",
+    "Buxgalteriya serverlari"
+   ],
+   "e": "Ichki tarmoq himoyalangan qoladi."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "IDS tarmoqda nimani aniqlaydi?",
+   "a": [
+    "Shubhali faoliyat va hujumlarni",
+    "Kabellarning uzunligini",
+    "Foydalanuvchilarning yoshini",
+    "Kompyuter narxlarini"
+   ],
+   "e": "Signatura va anomaliya asosida."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Router boshqaruv paneliga kirish uchun xavfsizlik nuqtai nazaridan nima qilinadi?",
+   "a": [
+    "Standart parolni o'zgartirish va tashqi kirishni yopish",
+    "Standart \"admin/admin\" parolni qoldirish",
+    "Boshqaruv panelini internetga ochib qo'yish",
+    "Parolni o'chirish"
+   ],
+   "e": "Firmware ni ham yangilash kerak."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Qaysi protokol ilova sathiga kiradi?",
+   "a": [
+    "FTP",
+    "IP (tarmoq sathi)",
+    "Ethernet (kanal sathi)",
+    "TCP (transport sathi)"
+   ],
+   "e": "HTTP, SMTP, DNS ham ilova sathida."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Ethernet qaysi sathlarda ishlaydi?",
+   "a": [
+    "Fizik va kanal",
+    "Tarmoq va transport",
+    "Seans va taqdimot",
+    "Faqat ilova"
+   ],
+   "e": "IEEE 802.3."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Paket sarlavhasidagi manzil IP-manzili qaysi sathda qo'shiladi?",
+   "a": [
+    "Tarmoq",
+    "Kanal (MAC qo'shiladi)",
+    "Transport (port qo'shiladi)",
+    "Fizik"
+   ],
+   "e": "Inkapsulyatsiya jarayoni."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Transport sathida ilovalarni farqlash uchun nima ishlatiladi?",
+   "a": [
+    "Port raqamlari",
+    "MAC-manzillar",
+    "Kabel ranglari",
+    "Domen nomlari"
+   ],
+   "e": "0–65535."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Taniqli (well-known) portlar diapazoni qaysi?",
+   "a": [
+    "0–1023",
+    "1024–49151 (ro'yxatdan o'tgan portlar)",
+    "49152–65535 (dinamik portlar)",
+    "65536–70000"
+   ],
+   "e": "Tizim xizmatlari uchun."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "UDP qaysi holatda TCP dan afzal?",
+   "a": [
+    "Real vaqtli video va ovoz uzatishda",
+    "Muhim fayllarni xatosiz, to'liq uzatishda",
+    "Bank tranzaksiyalarida",
+    "Elektron pochta yuborishda"
+   ],
+   "e": "Kechikish yo'qotishdan muhimroq."
+  },
+  {
+   "b": "Manzillash",
+   "q": "192.168.1.130 manzili 192.168.1.128/26 tarmoqqa tegishlimi?",
+   "a": [
+    "Ha",
+    "Yo'q, chunki /26 tarmoq faqat .0–.63 ni qamraydi",
+    "Faqat IPv6 da",
+    "Aniqlab bo'lmaydi"
+   ],
+   "e": ".128/26 — .128 dan .191 gacha."
+  },
+  {
+   "b": "Manzillash",
+   "q": "255.255.255.192 niqobi CIDR da qanday?",
+   "a": [
+    "/26",
+    "/24",
+    "/28",
+    "/30"
+   ],
+   "e": "192 = 11000000."
+  },
+  {
+   "b": "Manzillash",
+   "q": "255.255.255.252 niqobida nechta xost manzili bor?",
+   "a": [
+    "2",
+    "4",
+    "6",
+    "0"
+   ],
+   "e": "/30 → 4 − 2."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Tarmoqda bir xil IP-manzil ikki qurilmada bo'lsa nima bo'ladi?",
+   "a": [
+    "Manzil ziddiyati, aloqa uziladi",
+    "Ikki qurilma bir-birini avtomatik ravishda kuchaytiradi",
+    "Tarmoq tezlashadi",
+    "Hech narsa bo'lmaydi"
+   ],
+   "e": "IP conflict."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Windowsda IP sozlamalarini ko'rish buyrug'i qaysi?",
+   "a": [
+    "ipconfig",
+    "ifconfig faqat (eski Linux buyrug'i)",
+    "netstat",
+    "tracert"
+   ],
+   "e": "ipconfig /all — batafsil."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Linuxda IP-manzillarni ko'rish uchun zamonaviy buyruq qaysi?",
+   "a": [
+    "ip addr",
+    "ipconfig /all (Windows buyrug'i)",
+    "dir",
+    "format"
+   ],
+   "e": "Eski usul — ifconfig."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "HTTP so'rovida \"404\" kodi nimani bildiradi?",
+   "a": [
+    "Sahifa topilmadi",
+    "So'rov muvaffaqiyatli bajarildi va sahifa yuklandi",
+    "Server ichki xatosi",
+    "Kirish taqiqlangan"
+   ],
+   "e": "200 — OK, 403 — taqiqlangan, 500 — server xatosi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "HTTP \"500\" javob kodi nimani bildiradi?",
+   "a": [
+    "Server ichki xatosi",
+    "Sahifa topilmadi (404)",
+    "Muvaffaqiyatli (200)",
+    "Yo'naltirish (301)"
+   ],
+   "e": "Server tomonidagi muammo."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "HTTP ning GET va POST metodlari farqi nima?",
+   "a": [
+    "GET ma'lumot oladi, POST ma'lumot yuboradi",
+    "POST faqat rasmlarni oladi, GET faqat matn yuboradi",
+    "Ular bir xil",
+    "GET faqat shifrlangan"
+   ],
+   "e": "Formalar odatda POST bilan yuboriladi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Cookie (kuki) fayllari nima uchun ishlatiladi?",
+   "a": [
+    "Sayt foydalanuvchi holatini saqlash uchun",
+    "Kompyuter viruslarini tarqatish uchun maxsus fayllar",
+    "Internetni tezlashtirish uchun",
+    "Kabelni sinash uchun"
+   ],
+   "e": "Masalan, kirgan holatni eslab qolish."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Veb-server dasturiga misol qaysi?",
+   "a": [
+    "Nginx",
+    "Microsoft Excel (jadval)",
+    "Adobe Photoshop (grafika)",
+    "Windows Media Player"
+   ],
+   "e": "Apache, IIS ham veb-serverlar."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Tarmoq kartasi (NIC) nima?",
+   "a": [
+    "Kompyuterni tarmoqqa ulovchi qurilma",
+    "Kompyuterning grafik protsessori",
+    "Operativ xotira moduli",
+    "Elektr ta'minoti bloki"
+   ],
+   "e": "Har birida noyob MAC-manzil bor."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Gigabit Ethernet tezligi qancha?",
+   "a": [
+    "1000 Mbit/s",
+    "100 Mbit/s (Fast Ethernet)",
+    "10 Mbit/s",
+    "10 000 Mbit/s"
+   ],
+   "e": "1 Gbit/s."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Bit uzatish tezligi va o'tkazish qobiliyati qanday birlikda o'lchanadi?",
+   "a": [
+    "bit/s",
+    "Bayt/kg",
+    "Gers/metr",
+    "Vatt"
+   ],
+   "e": "Mbit/s, Gbit/s."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Kechikish (latency) nima?",
+   "a": [
+    "Ma'lumot manbadan manzilgacha yetish vaqti",
+    "Ma'lumot hajmi",
+    "Kabel uzunligi metrda",
+    "Tarmoqdagi qurilmalar soni"
+   ],
+   "e": "Millisekundlarda o'lchanadi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Jitter nima?",
+   "a": [
+    "Kechikishning o'zgaruvchanligi",
+    "Kabelning uzilishi",
+    "Paket hajmi",
+    "IP-manzil turi"
+   ],
+   "e": "VoIP sifatiga ta'sir qiladi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Paket yo'qolishi (packet loss) nima sababdan yuz beradi?",
+   "a": [
+    "Tarmoq yuklamasi yoki nosozlik",
+    "Kabelning to'g'ri ulanganligi",
+    "Yaxshi signal",
+    "Tarmoq bo'sh bo'lishi"
+   ],
+   "e": "Qayta uzatish yoki sifat pasayishiga olib keladi."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Native VLAN nima?",
+   "a": [
+    "Trunk portda teglanmagan trafik VLAN i",
+    "Har doim eng xavfsiz va maxfiy VLAN",
+    "Faqat Wi-Fi uchun VLAN",
+    "O'chirilgan VLAN"
+   ],
+   "e": "Standart bo'yicha VLAN 1."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Kommutatorda halqa hosil bo'lsa nima yuz beradi?",
+   "a": [
+    "Keng uzatish bo'roni",
+    "Tarmoq tezligi ikki baravar oshadi",
+    "Hech narsa",
+    "IP-manzillar avtomatik o'zgaradi"
+   ],
+   "e": "STP buning oldini oladi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Router qaysi holatda paketni tashlab yuboradi?",
+   "a": [
+    "Manzilga marshrut bo'lmasa va standart marshrut yo'q bo'lsa",
+    "Paket kichik bo'lsa har doim",
+    "Paket shifrlangan bo'lsa",
+    "Paket UDP bo'lsa"
+   ],
+   "e": "ICMP \"manzilga yetib bo'lmaydi\" xabari yuboriladi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Konvergensiya (marshrutlashda) nima?",
+   "a": [
+    "Barcha routerlar topologiya haqida bir xil ma'lumotga kelishi",
+    "Routerlarning birlashib, bitta qurilmaga aylanishi",
+    "Kabellarning ulanishi",
+    "Paketlarning to'qnashuvi"
+   ],
+   "e": "Tez konvergensiya yaxshi xususiyat."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi signal kuchi qanday birlikda o'lchanadi?",
+   "a": [
+    "dBm",
+    "MGs",
+    "Vatt-soat",
+    "Om"
+   ],
+   "e": "−30 dBm — juda kuchli, −90 dBm — juda zaif."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi qamrovini kengaytirish uchun qaysi qurilma ishlatiladi?",
+   "a": [
+    "Repiter (kengaytirgich)",
+    "Modem faqat",
+    "Kommutator",
+    "Kabel testeri"
+   ],
+   "e": "Mesh tizimlari ham."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Yaqin masofali kontaktsiz aloqa texnologiyasi (to'lov kartalari) qanday nomlanadi?",
+   "a": [
+    "NFC",
+    "Wi-Fi",
+    "LTE",
+    "GPS"
+   ],
+   "e": "Near Field Communication, bir necha sm."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Tarmoq trafigini shifrlashning asosiy protokollaridan biri qaysi?",
+   "a": [
+    "TLS",
+    "FTP (shifrlanmagan)",
+    "Telnet (shifrlanmagan)",
+    "HTTP (shifrlanmagan)"
+   ],
+   "e": "HTTPS, FTPS, SMTPS asosida."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "IPsec protokoli qaysi sathda ishlaydi?",
+   "a": [
+    "Tarmoq",
+    "Ilova",
+    "Fizik",
+    "Taqdimot faqat"
+   ],
+   "e": "VPN tunnellar uchun."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Ochiq portlarni minimallash nima uchun muhim?",
+   "a": [
+    "Hujum yuzasini kamaytirish uchun",
+    "Tarmoq tezligini oshirish uchun faqat",
+    "Kabellarni tejash uchun",
+    "Hech qanday ahamiyati yo'q"
+   ],
+   "e": "Keraksiz xizmatlarni o'chirish."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Zero-configuration (zeroconf) tarmoqlarining xavfi nima?",
+   "a": [
+    "Qurilmalar ruxsatsiz o'zini e'lon qiladi",
+    "Ular har doim eng xavfsiz tarmoqlar hisoblanadi",
+    "Ular internetsiz ishlamaydi",
+    "Ular juda qimmat"
+   ],
+   "e": "UPnP o'chirib qo'yish tavsiya etiladi."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Fizik sathda ma'lumot birligi nima?",
+   "a": [
+    "Bit",
+    "Kadr, ya'ni MAC-manzilli ma'lumot bloki",
+    "Paket",
+    "Segment"
+   ],
+   "e": "Elektr, yorug'lik yoki radio signallari."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Qaysi qurilma kolliziya domenlarini ajratadi, lekin broadcast domenini ajratmaydi?",
+   "a": [
+    "Kommutator",
+    "Router (ikkalasini ham ajratadi)",
+    "Hub (hech birini ajratmaydi)",
+    "Takrorlagich"
+   ],
+   "e": "Har bir port — alohida kolliziya domeni."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "OSI modelida xatolarni tekshirish (FCS) qaysi sathda bajariladi?",
+   "a": [
+    "Kanal",
+    "Ilova",
+    "Taqdimot",
+    "Seans"
+   ],
+   "e": "Kadr oxiridagi nazorat yig'indisi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IPv4 manzilining birinchi oktetiga qarab A sinf qaysi?",
+   "a": [
+    "1–126",
+    "128–191",
+    "192–223",
+    "224–239"
+   ],
+   "e": "Katta tarmoqlar uchun."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Qaysi manzil \"barcha qurilmalarga\" keng uzatish manzili?",
+   "a": [
+    "255.255.255.255",
+    "0.0.0.0",
+    "127.0.0.1",
+    "192.168.0.1"
+   ],
+   "e": "Cheklangan broadcast."
+  },
+  {
+   "b": "Manzillash",
+   "q": "0.0.0.0 manzili nimani bildirishi mumkin?",
+   "a": [
+    "Noma'lum yoki \"barcha manzillar\"",
+    "Har doim lokal kompyuterning o'zini (loopback)",
+    "Google DNS serveri",
+    "Router manzili har doim"
+   ],
+   "e": "Standart marshrutda ham ishlatiladi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Google ning ommaviy DNS serveri manzili qaysi?",
+   "a": [
+    "8.8.8.8",
+    "192.168.1.1",
+    "127.0.0.1",
+    "10.0.0.1"
+   ],
+   "e": "1.1.1.1 — Cloudflare DNS."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IP-manzil va MAC-manzilning asosiy farqi nima?",
+   "a": [
+    "IP mantiqiy va o'zgaradi, MAC apparat manzili",
+    "MAC har doim tarmoqqa ulanganda DHCP dan olinadi",
+    "IP faqat Wi-Fi da bo'ladi",
+    "Ular bir xil"
+   ],
+   "e": "MAC tarmoq kartasiga yozilgan."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "FTP ning xavfsiz muqobili qaysi?",
+   "a": [
+    "SFTP",
+    "TFTP (soddalashtirilgan, shifrlanmagan)",
+    "Telnet",
+    "HTTP"
+   ],
+   "e": "SSH ustidan fayl uzatish."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "TFTP protokoli qanday xususiyatga ega?",
+   "a": [
+    "Sodda, autentifikatsiyasiz, UDP asosida",
+    "Juda xavfsiz va kuchli shifrlangan",
+    "Faqat elektron pochta uchun",
+    "Faqat video uchun"
+   ],
+   "e": "Tarmoq qurilmalarini yuklashda ishlatiladi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "SIP protokoli nima uchun ishlatiladi?",
+   "a": [
+    "IP-telefoniya seanslarini boshqarish",
+    "Fayllarni uzatish",
+    "Veb-sahifalarni ko'rsatish",
+    "Vaqtni sinxronlash"
+   ],
+   "e": "VoIP qo'ng'iroqlarni o'rnatadi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "LDAP protokoli nima uchun ishlatiladi?",
+   "a": [
+    "Katalog xizmatlariga (foydalanuvchilar bazasi) murojaat uchun",
+    "Elektron pochta jo'natish uchun",
+    "Video translyatsiya uchun",
+    "IP-manzil berish uchun"
+   ],
+   "e": "Active Directory bilan ishlaydi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Syslog nima uchun ishlatiladi?",
+   "a": [
+    "Tarmoq qurilmalari jurnallarini markazga yuborish",
+    "Fayllarni siqish",
+    "Parollarni yaratish",
+    "Wi-Fi ni yoqish"
+   ],
+   "e": "Monitoring va audit uchun."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Wi-Fi va Ethernet tezliklarini taqqoslaganda odatda qaysi biri barqarorroq?",
+   "a": [
+    "Ethernet",
+    "Wi-Fi, chunki unda kabel yo'q va xalaqitlar bo'lmaydi",
+    "Ikkalasi har doim bir xil",
+    "Hech biri"
+   ],
+   "e": "Simli ulanishda xalaqit kam."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Kabel kanalida tarmoq kabelini elektr kabeli bilan birga yotqizish nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Elektromagnit xalaqit",
+    "Kabel rangi o'zgarib qoladi",
+    "Kabel og'irlashadi",
+    "Kabel qisqaradi"
+   ],
+   "e": "Ajratish yoki ekranlangan kabel ishlatiladi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Patch-panel nima uchun ishlatiladi?",
+   "a": [
+    "Kabellarni tartibli ulash va boshqarish",
+    "Kompyuterni elektr bilan ta'minlash",
+    "Wi-Fi signalini tarqatish",
+    "Ma'lumotlarni saqlash"
+   ],
+   "e": "Server shkafida o'rnatiladi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Server shkafi (rack) o'lchov birligi qanday nomlanadi?",
+   "a": [
+    "U (unit)",
+    "Metr kvadrat",
+    "Litr",
+    "Kilogramm"
+   ],
+   "e": "1U = 44,45 mm."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Korxona tarmog'ida zaxira (redundancy) nima uchun kerak?",
+   "a": [
+    "Bitta element ishdan chiqsa ham tarmoq ishlashi uchun",
+    "Tarmoqni qimmatroq va murakkabroq qilish uchun faqat",
+    "Tezlikni kamaytirish uchun",
+    "Kabel sarfini kamaytirish uchun"
+   ],
+   "e": "Ikki ulanish, ikki quvvat manbai."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Tarmoqda bitta nosozlik nuqtasi (single point of failure) nima?",
+   "a": [
+    "Ishdan chiqsa butun tizim to'xtaydigan element",
+    "Tarmoqning eng tez qismi",
+    "Eng arzon qurilma",
+    "Zaxira kabel"
+   ],
+   "e": "Masalan, yagona markaziy kommutator."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "WPA3 ning WPA2 ga nisbatan afzalligi nima?",
+   "a": [
+    "Parol tanlash hujumlariga chidamliroq (SAE)",
+    "Shifrlashsiz ishlaydi va tezroq",
+    "Faqat eski qurilmalar bilan ishlaydi",
+    "Parol talab qilmaydi"
+   ],
+   "e": "Simultaneous Authentication of Equals."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Kirish nuqtasini qayerga o'rnatish signal qamrovi uchun yaxshiroq?",
+   "a": [
+    "Markaziy va balandroq joyga",
+    "Metall shkaf ichiga, polga yaqin",
+    "Mikroto'lqinli pech yoniga",
+    "Yerto'laga"
+   ],
+   "e": "To'siqlar kamroq bo'ladi."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Mobil tarmoqlarda LTE qaysi avlodga tegishli?",
+   "a": [
+    "4G",
+    "2G",
+    "3G",
+    "5G"
+   ],
+   "e": "Long Term Evolution."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Sun'iy yo'ldosh interneti qanday kamchilikka ega (geostatsionar)?",
+   "a": [
+    "Yuqori kechikish",
+    "Juda past kechikish va arzonlik",
+    "Faqat shahar ichida ishlashi",
+    "Kabel talab qilishi"
+   ],
+   "e": "Past orbitali tizimlar kechikishni kamaytiradi."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "PoE kommutatori qanday qurilmalar uchun qulay?",
+   "a": [
+    "IP-kameralar va kirish nuqtalari",
+    "Faqat noutbuklar",
+    "Faqat printerlar, kabelsiz",
+    "Monitorlar"
+   ],
+   "e": "Alohida quvvat manbai kerak emas."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Kommutatorda portlarni oynalash (mirroring) nima uchun ishlatiladi?",
+   "a": [
+    "Trafikni tahlil qilish uchun nusxalash",
+    "Portlarni yashirish uchun",
+    "Portlarni o'chirish uchun",
+    "Port tezligini oshirish uchun"
+   ],
+   "e": "IDS va sniffer ulanadi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Ikki xil tarmoqni ulovchi va paket yo'lini tanlovchi qurilma qaysi?",
+   "a": [
+    "Router",
+    "Hub",
+    "Repiter",
+    "Patch-panel"
+   ],
+   "e": "Tarmoq sathi qurilmasi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Uy routerida odatda qanday funksiyalar birlashgan?",
+   "a": [
+    "Router, kommutator, Wi-Fi nuqtasi, DHCP va NAT",
+    "Faqat kabel testeri",
+    "Faqat elektr hisoblagich",
+    "Faqat printer"
+   ],
+   "e": "SOHO router."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Marshrutlashda \"hop\" nima?",
+   "a": [
+    "Paketning bir routerdan o'tishi",
+    "Paketning yo'qolishi",
+    "Kabel uzunligi",
+    "IP-manzilning bir qismi"
+   ],
+   "e": "tracert hoplar ro'yxatini ko'rsatadi."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Tarmoq segmentatsiyasining xavfsizlikdagi foydasi nima?",
+   "a": [
+    "Hujumchining tarmoq bo'ylab harakatini cheklaydi",
+    "Barcha qurilmalarni bitta tarmoqda birlashtiradi",
+    "Shifrlashni o'chiradi",
+    "Parollarni bekor qiladi"
+   ],
+   "e": "VLAN va firewall bilan."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Tarmoq qurilmalari dasturini (firmware) yangilash nima uchun muhim?",
+   "a": [
+    "Zaifliklar tuzatiladi",
+    "Qurilma sekinlashadi va ishlamay qoladi",
+    "Kafolat bekor bo'ladi",
+    "Hech qanday ahamiyati yo'q"
+   ],
+   "e": "Rasmiy manbadan yangilash kerak."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Kirish nuqtasiga (Wi-Fi) \"soxta kirish nuqtasi\" (evil twin) hujumi nima?",
+   "a": [
+    "Haqiqiyga o'xshash nomli soxta Wi-Fi yaratish",
+    "Kirish nuqtasini jismonan sindirish",
+    "Wi-Fi parolini routerda o'zgartirish",
+    "Kirish nuqtasini o'chirish"
+   ],
+   "e": "Foydalanuvchilar trafigi ushlanadi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Domen nomlari tizimida \".uz\" qanday domen hisoblanadi?",
+   "a": [
+    "Milliy (ccTLD)",
+    "Umumiy yuqori darajali domen (gTLD), masalan .com kabi",
+    "Ikkinchi darajali tijorat domeni",
+    "Lokal tarmoq nomi"
+   ],
+   "e": "Country code Top-Level Domain."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DNS da CNAME yozuvi nima?",
+   "a": [
+    "Taxallus (boshqa nomga havola)",
+    "Domenning IPv6 manzili, ya'ni AAAA yozuvi",
+    "Pochta serveri yozuvi",
+    "Domen egasi ma'lumoti"
+   ],
+   "e": "Canonical Name."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DNS da domen uchun IPv6 manzilini saqlovchi yozuv qaysi?",
+   "a": [
+    "AAAA",
+    "A (IPv4 uchun)",
+    "MX (pochta uchun)",
+    "NS (nom serveri uchun)"
+   ],
+   "e": "To'rtta A."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Elektron pochta mijoz dasturiga misol qaysi?",
+   "a": [
+    "Thunderbird",
+    "Wireshark (paket tahlilchisi)",
+    "Nmap (port skaneri)",
+    "Putty (SSH mijoz)"
+   ],
+   "e": "Outlook ham pochta mijozi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "SSH ulanish uchun Windowsda ko'p ishlatiladigan mijoz dasturi qaysi?",
+   "a": [
+    "PuTTY",
+    "Excel (jadval)",
+    "Word (matn)",
+    "Paint (rasm)"
+   ],
+   "e": "Windows 10/11 da OpenSSH ham bor."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Tarmoq qismi va xost qismini ajratuvchi nima?",
+   "a": [
+    "Tarmoq niqobi",
+    "MAC-manzil, ya'ni tarmoq kartasining apparat raqami",
+    "Port raqami",
+    "DNS nomi"
+   ],
+   "e": "Subnet mask."
+  },
+  {
+   "b": "Manzillash",
+   "q": "192.168.5.0/24 tarmog'ida birinchi foydalanish mumkin bo'lgan xost manzili qaysi?",
+   "a": [
+    "192.168.5.1",
+    "192.168.5.0 (tarmoq manzili)",
+    "192.168.5.255 (broadcast)",
+    "192.168.4.255"
+   ],
+   "e": "Odatda shlyuzga beriladi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Ikkilik 11000000 qaysi o'nlik songa teng?",
+   "a": [
+    "192",
+    "128",
+    "224",
+    "255"
+   ],
+   "e": "128 + 64."
+  },
+  {
+   "b": "Manzillash",
+   "q": "255 sonining ikkilik ko'rinishi qanday?",
+   "a": [
+    "11111111",
+    "10000000",
+    "11110000",
+    "01111111"
+   ],
+   "e": "Sakkizta bir."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Optik kabel ulagichlaridan biri qaysi?",
+   "a": [
+    "LC",
+    "RJ-11 (telefon ulagichi)",
+    "USB-A",
+    "HDMI"
+   ],
+   "e": "SC, ST ham optik ulagichlar."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Kabel kesishuvi (crossover) da qaysi juftliklar almashtiriladi (100BASE-TX)?",
+   "a": [
+    "Uzatish va qabul qilish juftliklari",
+    "Barcha sakkiz sim tasodifiy tartibda",
+    "Faqat jigarrang juftlik",
+    "Hech narsa almashtirilmaydi"
+   ],
+   "e": "1-2 va 3-6 simlar."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Auto MDI-X funksiyasi nima beradi?",
+   "a": [
+    "Kabel turini avtomatik aniqlash",
+    "Tarmoq tezligini 10 baravar oshirish",
+    "Wi-Fi ni avtomatik yoqish",
+    "IP-manzil berish"
+   ],
+   "e": "To'g'ri yoki kesishgan kabelni farqlamaslik."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Kommutator portining tezligi va duplex rejimi mos kelmasa nima yuz beradi?",
+   "a": [
+    "Xatolar va sekinlashuv",
+    "Tezlik avtomatik ravishda ikki baravar oshadi",
+    "Kommutator o'chib qoladi har doim",
+    "Hech narsa"
+   ],
+   "e": "Duplex mismatch."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "L3 kommutator oddiy kommutatordan nimasi bilan farq qiladi?",
+   "a": [
+    "Marshrutlash funksiyasiga ega",
+    "Faqat simsiz ulanishlarni qo'llab-quvvatlaydi",
+    "Portlari bo'lmaydi",
+    "Elektrsiz ishlaydi"
+   ],
+   "e": "VLAN lar orasida marshrutlaydi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Masofa vektori protokollarida \"cheksizgacha sanash\" muammosini nima kamaytiradi?",
+   "a": [
+    "Split horizon",
+    "Yangi kabellar o'tkazish",
+    "Portlarni ko'paytirish",
+    "Wi-Fi ni o'chirish"
+   ],
+   "e": "Marshrut kelgan interfeysga qaytarib e'lon qilinmaydi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Tarmoq trafigini bir nechta yo'llar bo'yicha taqsimlash qanday nomlanadi?",
+   "a": [
+    "Load balancing",
+    "Port mirroring (trafik nusxasi)",
+    "Flooding (to'ldirish)",
+    "Spoofing (soxtalashtirish)"
+   ],
+   "e": "Yuklamani taqsimlash."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi da \"rouming\" nima?",
+   "a": [
+    "Qurilmaning bir kirish nuqtasidan boshqasiga uzilmasdan o'tishi",
+    "Mobil telefonni boshqa davlatda ishlatish, faqat sim-karta bilan",
+    "Wi-Fi ni o'chirish",
+    "Parolni o'zgartirish"
+   ],
+   "e": "Katta binolarda muhim."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Bir kanalda juda ko'p Wi-Fi tarmoqlari bo'lsa nima yuz beradi?",
+   "a": [
+    "Interferensiya va tezlik pasayishi",
+    "Tezlik ortib, signal kuchayadi",
+    "Barcha tarmoqlar birlashadi",
+    "Hech narsa"
+   ],
+   "e": "Kanal tanlash muhim."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Tarmoqda shifrlanmagan HTTP orqali parol yuborish xavfi nima?",
+   "a": [
+    "Parolni ushlab olish mumkin",
+    "Parol avtomatik ravishda kuchliroq bo'ladi",
+    "Sayt tezroq ochiladi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "HTTPS ishlatish kerak."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Brute force hujumidan SSH ni himoyalash usuli qaysi?",
+   "a": [
+    "Kalit bilan autentifikatsiya va urinishlarni cheklash",
+    "\"123456\" kabi qisqa parol qo'yish",
+    "SSH portini internetga ochiq qoldirish va parolsiz kirish",
+    "Root kirishga ruxsat berish"
+   ],
+   "e": "Fail2ban kabi vositalar."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Wi-Fi WPS funksiyasining xavfi nima?",
+   "a": [
+    "PIN kodni tanlab buzish oson",
+    "Wi-Fi tezligini kamaytiradi faqat",
+    "Router kafolatini bekor qiladi",
+    "Xavfi yo'q"
+   ],
+   "e": "O'chirib qo'yish tavsiya etiladi."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Qabul qiluvchi tomonda ma'lumotning sathlar bo'yicha yuqoriga ko'tarilishi qanday nomlanadi?",
+   "a": [
+    "Dekapsulyatsiya",
+    "Inkapsulyatsiya, ya'ni sarlavhalar qo'shilishi",
+    "Modulyatsiya",
+    "Fragmentatsiya"
+   ],
+   "e": "Har sathda sarlavha olib tashlanadi."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Katta paketni MTU dan kichik qismlarga bo'lish qanday nomlanadi?",
+   "a": [
+    "Fragmentatsiya",
+    "Inkapsulyatsiya",
+    "Kommutatsiya",
+    "Marshrutlash"
+   ],
+   "e": "IPv4 da routerlar bajarishi mumkin."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Ofisda 20 ta kompyuterni ulash uchun eng mos topologiya qaysi?",
+   "a": [
+    "Yulduz (kommutator orqali)",
+    "Shina (bitta koaksial kabelga)",
+    "To'liq bog'langan (har bir kompyuter har biri bilan)",
+    "Halqa (token bilan)"
+   ],
+   "e": "Oson kengaytiriladi va boshqariladi."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Tarmoq topologiyasining fizik va mantiqiy turlari farqi nima?",
+   "a": [
+    "Fizik — kabellar joylashuvi, mantiqiy — ma'lumot oqimi yo'li",
+    "Fizik — dasturlar, mantiqiy — kabellar",
+    "Ular bir xil",
+    "Mantiqiy topologiya mavjud emas"
+   ],
+   "e": "Masalan, fizik yulduz, mantiqiy shina (hub da)."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IPv6 da \"fe80::\" bilan boshlanuvchi manzillar qanday?",
+   "a": [
+    "Kanal-lokal (link-local)",
+    "Global ommaviy manzillar",
+    "Multicast faqat",
+    "Loopback"
+   ],
+   "e": "Har bir IPv6 interfeysda avtomatik bo'ladi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IPv6 da loopback manzili qanday yoziladi?",
+   "a": [
+    "::1",
+    "127.0.0.1",
+    "fe80::1",
+    "ff02::1"
+   ],
+   "e": "IPv4 dagi 127.0.0.1 ga mos."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "HTTP so'rovi foydalanuvchi kompyuteridan serverga borishda qaysi tartibda sathlardan o'tadi?",
+   "a": [
+    "Ilovadan fizikgacha pastga, serverda yuqoriga",
+    "Fizikdan ilovagacha yuqoriga, serverda pastga",
+    "Faqat ilova sathida qoladi",
+    "Tasodifiy tartibda"
+   ],
+   "e": "Inkapsulyatsiya va dekapsulyatsiya."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Qaysi protokol tarmoq sathida xato xabarlari uchun ishlatiladi?",
+   "a": [
+    "ICMP",
+    "SMTP",
+    "FTP",
+    "DHCP"
+   ],
+   "e": "Masalan, \"Destination unreachable\"."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Bitta kompyuterda bir nechta IP-manzil bo'lishi mumkinmi?",
+   "a": [
+    "Ha",
+    "Yo'q, har bir kompyuterda faqat bitta IP bo'lishi qat'iy talab",
+    "Faqat serverlarda",
+    "Faqat Wi-Fi da"
+   ],
+   "e": "Har bir interfeysda yoki bitta interfeysda bir nechta."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IP-manzilni qo'lda belgilaganda nimani ham ko'rsatish kerak?",
+   "a": [
+    "Niqob, shlyuz va DNS",
+    "Faqat kompyuter nomi",
+    "Faqat MAC-manzil",
+    "Faqat parol"
+   ],
+   "e": "Aks holda boshqa tarmoqlarga chiqib bo'lmaydi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Kompyuter internetga chiqa olmasa, birinchi navbatda nimani tekshirish kerak?",
+   "a": [
+    "Kabel yoki Wi-Fi ulanishi va IP sozlamalari",
+    "Monitor yorqinligi va klaviatura tillari",
+    "Printer qog'ozi",
+    "Kompyuter korpusining rangi"
+   ],
+   "e": "Keyin shlyuzga ping, DNS tekshiriladi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Shlyuzga ping ishlasa, lekin saytlar ochilmasa, ehtimoliy sabab nima?",
+   "a": [
+    "DNS muammosi",
+    "Tarmoq kabeli uzilgan",
+    "Tarmoq kartasi yo'q",
+    "Kompyuter o'chiq"
+   ],
+   "e": "IP bo'yicha ping ishlasa, nom bo'yicha ishlamasa — DNS."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Veb-saytga brauzer orqali kirganda birinchi bo'lib qaysi xizmatga murojaat qilinadi?",
+   "a": [
+    "DNS",
+    "SMTP (pochta)",
+    "FTP (fayl)",
+    "SNMP (monitoring)"
+   ],
+   "e": "Domen nomi IP ga aylantiriladi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Bulutli saqlash xizmatiga misol qaysi?",
+   "a": [
+    "Google Drive",
+    "Microsoft Paint",
+    "Windows Kalkulyator",
+    "Notepad"
+   ],
+   "e": "Dropbox, OneDrive ham."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Video konferensiya xizmatlari qaysi texnologiyaga tayanadi?",
+   "a": [
+    "IP tarmoqlar orqali real vaqtli uzatish",
+    "Faqat analog radio to'lqinlari",
+    "Faqat faks",
+    "Faqat pochta kaptarlari"
+   ],
+   "e": "UDP va maxsus kodeklar."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Tarmoq kabelini oyoq osti yoki eshik ostidan o'tkazish nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Kabel shikastlanadi",
+    "Kabel ancha tezroq ishlay boshlaydi",
+    "Kabel rangi o'zgaradi",
+    "Hech qanday muammo yo'q"
+   ],
+   "e": "Kabel kanallari ishlatiladi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Tarmoq kabeli uchun egilish radiusi nima uchun muhim?",
+   "a": [
+    "Ortiqcha egilish signalni buzadi",
+    "Kabel qancha ko'p egilsa, shuncha tez ishlaydi",
+    "Egilish ahamiyatsiz",
+    "Faqat elektr kabellari uchun"
+   ],
+   "e": "Ayniqsa optik tolalar uchun."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Kommutatorga 24 ta kompyuter ulangan. Nechta kolliziya domeni bor?",
+   "a": [
+    "24",
+    "1",
+    "2",
+    "48"
+   ],
+   "e": "Har bir port — alohida domen."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "Hub ga 8 ta kompyuter ulangan. Nechta kolliziya domeni bor?",
+   "a": [
+    "1",
+    "8",
+    "16",
+    "0"
+   ],
+   "e": "Hub barcha portlarni bitta domenga birlashtiradi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Router ikki tarmoqni ulagan. Nechta broadcast domeni bor?",
+   "a": [
+    "2",
+    "1",
+    "4",
+    "0"
+   ],
+   "e": "Router broadcast domenlarini ajratadi."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "IP paketning manzil maydonini router o'zgartiradimi (NAT siz)?",
+   "a": [
+    "Yo'q",
+    "Ha, har bir routerda manzil yangisiga almashtiriladi",
+    "Faqat oxirgi routerda",
+    "Faqat birinchi routerda"
+   ],
+   "e": "Kanal sathidagi MAC-manzillar har bir hopda o'zgaradi."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi tezligini oshirish uchun nima qilish mumkin?",
+   "a": [
+    "5 GGs diapazonga o'tish va to'siqlarni kamaytirish",
+    "Routerni metall shkafga qamash",
+    "Routerni yerto'laga ko'chirish",
+    "Antennalarni olib tashlash"
+   ],
+   "e": "Kanal tanlash va zamonaviy standart ham yordam beradi."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Ochiq Wi-Fi tarmog'ida bank ilovasiga kirish nima uchun xavfli?",
+   "a": [
+    "Trafik ushlanishi mumkin",
+    "Bank ilovasi umuman ishlamaydi va bloklanadi",
+    "Telefon qizib ketadi",
+    "Xavfi yo'q"
+   ],
+   "e": "VPN yoki mobil internet afzal."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Tarmoqdagi barcha trafikni markazdan nazorat qiluvchi qurilma qaysi?",
+   "a": [
+    "Firewall",
+    "Takrorlagich (repiter)",
+    "Patch-panel",
+    "Kabel testeri"
+   ],
+   "e": "Chegaraviy himoya."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Tarmoq xavfsizligida \"nol ishonch\" yondashuvi nimani talab qiladi?",
+   "a": [
+    "Har bir ulanishni tekshirish",
+    "Ichki tarmoqdagi hamma narsaga ishonish",
+    "Firewall ni o'chirish",
+    "Parolsiz ishlash"
+   ],
+   "e": "Ichki va tashqi tarmoq farqlanmaydi."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Ma'lumotlarni tarmoq orqali uzatishda shifrlash nima uchun kerak?",
+   "a": [
+    "Uchinchi shaxslar o'qiy olmasligi uchun",
+    "Tarmoq tezligini oshirish uchun",
+    "Kabel sarfini kamaytirish uchun",
+    "Hech qanday sababsiz"
+   ],
+   "e": "Konfidensiallik."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Tarmoq qurilmalariga boshqaruv uchun alohida tarmoq (out-of-band) nima beradi?",
+   "a": [
+    "Asosiy tarmoq ishlamasa ham boshqaruv imkoni",
+    "Asosiy tarmoqni sekinlashtiradi",
+    "Hech qanday foyda bermaydi",
+    "Faqat qimmatroq"
+   ],
+   "e": "Xavfsizlik va ishonchlilik."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Tarmoqni loyihalashda birinchi qadam nima?",
+   "a": [
+    "Talablarni tahlil qilish",
+    "Darhol qimmat uskunalarni sotib olish",
+    "Kabellarni tasodifiy tortish",
+    "Router rangini tanlash"
+   ],
+   "e": "Foydalanuvchilar soni, xizmatlar, xavfsizlik."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Tarmoq hujjatlashtirishiga nima kiradi?",
+   "a": [
+    "Sxemalar, IP-rejalar va qurilmalar ro'yxati",
+    "Faqat xodimlar telefon raqamlari",
+    "Faqat ofis mebellari ro'yxati",
+    "Hech narsa"
+   ],
+   "e": "Nosozliklarni tez topish uchun."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IP-manzillarni rejalashtirishda VLSM nima beradi?",
+   "a": [
+    "Turli o'lchamdagi qism tarmoqlar yaratish",
+    "Barcha qism tarmoqlar bir xil o'lchamda bo'lishi",
+    "IPv6 ni o'chirish",
+    "MAC-manzillarni o'zgartirish"
+   ],
+   "e": "Variable Length Subnet Mask."
+  },
+  {
+   "b": "Manzillash",
+   "q": "100 ta xost uchun eng tejamkor qism tarmoq niqobi qaysi?",
+   "a": [
+    "/25 (126 xost)",
+    "/24 (254 xost)",
+    "/26 (62 xost)",
+    "/16"
+   ],
+   "e": "2⁷ − 2 = 126 ≥ 100."
+  },
+  {
+   "b": "Manzillash",
+   "q": "50 ta xost uchun eng tejamkor qism tarmoq niqobi qaysi?",
+   "a": [
+    "/26",
+    "/25",
+    "/27",
+    "/24"
+   ],
+   "e": "2⁶ − 2 = 62 ≥ 50; /27 da atigi 30 ta."
+  },
+  {
+   "b": "Manzillash",
+   "q": "10 ta xost uchun eng tejamkor qism tarmoq niqobi qaysi?",
+   "a": [
+    "/28",
+    "/24",
+    "/29",
+    "/30"
+   ],
+   "e": "2⁴ − 2 = 14; /29 da 6 ta."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Kompyuter tarmoqlari faniga oid \"o'tkazish qobiliyati\" (bandwidth) nima?",
+   "a": [
+    "Kanalning maksimal ma'lumot uzatish tezligi",
+    "Kabelning jismoniy kengligi millimetrda",
+    "Routerdagi portlar soni",
+    "Tarmoqdagi foydalanuvchilar soni"
+   ],
+   "e": "bit/s da o'lchanadi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Haqiqiy uzatish tezligi (throughput) nima uchun o'tkazish qobiliyatidan past bo'ladi?",
+   "a": [
+    "Sarlavhalar, kolliziyalar va kechikishlar tufayli",
+    "Chunki u har doim nazariy qiymatdan yuqori bo'ladi",
+    "Kabel rangi tufayli",
+    "Monitor tufayli"
+   ],
+   "e": "Protokol xarajatlari."
   }
  ]
 }
