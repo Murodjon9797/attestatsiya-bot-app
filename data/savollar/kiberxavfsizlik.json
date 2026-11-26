@@ -2,16 +2,27 @@
  "kod": "5PM0437",
  "nomi": "Kiberxavfsizlik",
  "turi": "maxsus",
- "manba": "2026-yilgi texnikum o'quv rejalari",
+ "manba": "2026-yilgi texnikum o'quv rejalari; savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "Asosiy tushunchalar",
-   "q": "Axborot xavfsizligining uchta asosiy tamoyili (CIA triadasi) qaysilar?",
+   "q": "Kiberxavfsizlik nima?",
+   "a": [
+    "Axborot tizimlari va ma'lumotlarni kiber tahdidlardan himoya qilish",
+    "Faqat kompyuterlarni changdan tozalash va jismoniy ta'mirlash ishlari",
+    "Faqat internet tezligini oshirish",
+    "Faqat dasturlarni sotish"
+   ],
+   "e": "Tarmoq, ilova, ma'lumot va foydalanuvchi xavfsizligini qamrab oladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Axborot xavfsizligining CIA triadasi nimani anglatadi?",
    "a": [
     "Konfidensiallik, yaxlitlik, foydalanuvchanlik",
-    "Tezlik, narx, sifat",
-    "Shifrlash, arxivlash, siqish",
-    "Login, parol, kod"
+    "Kompyuter, internet, antivirus",
+    "Kodlash, izolyatsiya, avtorizatsiya va tizimga kirishni qayd etish",
+    "Nazorat, tekshiruv, audit"
    ],
    "e": "Confidentiality, Integrity, Availability."
   },
@@ -19,265 +30,3290 @@
    "b": "Asosiy tushunchalar",
    "q": "Konfidensiallik nimani bildiradi?",
    "a": [
-    "Axborotdan faqat ruxsat etilgan shaxslar foydalana olishini",
-    "Axborotning o'zgartirilmaganligini",
-    "Axborotning doim mavjudligini",
-    "Axborotning tez uzatilishini"
+    "Ma'lumotga faqat ruxsat etilganlar kira olishi",
+    "Ma'lumotning o'zgartirilmaganligi va to'g'riligi",
+    "Ma'lumotning kerak paytda mavjudligi",
+    "Ma'lumotning tez uzatilishi"
    ],
-   "e": "Yaxlitlik — o'zgartirilmaganlik, foydalanuvchanlik — kerakli paytda mavjudlik."
+   "e": "Shifrlash va kirish nazorati bilan ta'minlanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Yaxlitlik nimani bildiradi?",
+   "a": [
+    "Ma'lumot ruxsatsiz o'zgartirilmaganligi",
+    "Ma'lumotga faqat egasi va u ruxsat bergan shaxslar kira olishi",
+    "Tizimning doimo ishlab turishi",
+    "Ma'lumotning siqilganligi"
+   ],
+   "e": "Xesh va raqamli imzo bilan tekshiriladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Foydalanuvchanlik (availability) nimani bildiradi?",
+   "a": [
+    "Tizim va ma'lumot kerak paytda ishlab turishi",
+    "Ma'lumotlarni faqat bitta mas'ul odam ko'ra olishi va boshqalardan yashirilishi",
+    "Ma'lumot o'zgartirilmaganligi",
+    "Ma'lumot shifrlanganligi"
+   ],
+   "e": "DDoS hujumlari foydalanuvchanlikka tahdid soladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Zaiflik (vulnerability) nima?",
+   "a": [
+    "Tizimdagi hujumchi foydalanishi mumkin bo'lgan kamchilik",
+    "Hujumchining o'zi, uning niyati va foydalanadigan vositalari",
+    "Antivirus dasturi",
+    "Zaxira nusxa"
+   ],
+   "e": "Masalan, yangilanmagan dastur."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Tahdid (threat) nima?",
+   "a": [
+    "Zaiflikdan foydalanib zarar yetkazishi mumkin bo'lgan hodisa yoki shaxs",
+    "Tizimdagi texnik kamchilik, masalan, eski versiya",
+    "Himoya vositasi",
+    "Shifrlash kaliti"
+   ],
+   "e": "Risk = tahdid × zaiflik × oqibat."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Risk nima?",
+   "a": [
+    "Tahdid amalga oshishi ehtimoli va uning oqibati",
+    "Faqat dasturdagi xato",
+    "Faqat himoya vositalarining narxi va ularni o'rnatish xarajati",
+    "Faqat hujumchi nomi"
+   ],
+   "e": "Risklar baholanib, boshqariladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Eksployt (exploit) nima?",
+   "a": [
+    "Zaiflikdan foydalanish uchun yozilgan kod yoki usul",
+    "Zaiflikni yopuvchi rasmiy yangilanish (patch) va uning o'rnatilishi",
+    "Antivirus bazasi",
+    "Tarmoq kabeli"
+   ],
+   "e": "Masalan, Metasploit moduli."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "\"Nol kun\" (zero-day) zaifligi nima?",
+   "a": [
+    "Ishlab chiqaruvchiga hali noma'lum yoki tuzatilmagan zaiflik",
+    "Bir kun ichida tuzatilgan oddiy xato",
+    "Antivirus aniqlagan virus",
+    "Eski, keng tarqalgan va allaqachon tuzatilgan zaiflik"
+   ],
+   "e": "Himoya qilish eng qiyin bo'lgan holat."
   },
   {
    "b": "Asosiy tushunchalar",
    "q": "Autentifikatsiya nima?",
    "a": [
-    "Foydalanuvchining shaxsini (haqiqiyligini) tasdiqlash",
-    "Foydalanuvchiga huquqlar berish",
-    "Ma'lumotni shifrlash",
-    "Hodisalarni yozib borish"
+    "Foydalanuvchi shaxsini tasdiqlash",
+    "Foydalanuvchiga ruxsatlar berish",
+    "Foydalanuvchi harakatlarini qayd etish",
+    "Ma'lumotni shifrlash"
    ],
-   "e": "Avtorizatsiya — tasdiqlangan foydalanuvchiga ruxsatlar berish."
+   "e": "Parol, token, biometriya."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "Ikki faktorli autentifikatsiyaga misol qaysi?",
+   "q": "Avtorizatsiya nima?",
    "a": [
-    "Parol + telefonga kelgan bir martalik kod",
-    "Faqat parol",
-    "Faqat login",
-    "Ikki marta bir xil parol kiritish"
+    "Tasdiqlangan foydalanuvchiga huquqlar berish",
+    "Foydalanuvchi shaxsini parol orqali tekshirish",
+    "Ma'lumotni zaxiralash",
+    "Tarmoqni monitoring qilish"
    ],
-   "e": "Faktorlar: bilgan narsa, ega bo'lgan narsa, biometriya."
+   "e": "Autentifikatsiyadan keyin bajariladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ko'p faktorli autentifikatsiya (MFA) nima?",
+   "a": [
+    "Ikki yoki undan ortiq turdagi tasdiqlash usullaridan foydalanish",
+    "Bitta parolni ikki marta ketma-ket kiritish",
+    "Bir nechta foydalanuvchining bitta akkauntdan foydalanishi",
+    "Parolni har kuni o'zgartirish"
+   ],
+   "e": "Bilim (parol), egalik (telefon), biometrik omil."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "\"Eng kam imtiyozlar\" tamoyili nima?",
+   "a": [
+    "Foydalanuvchiga faqat zarur minimal huquq berish",
+    "Barcha foydalanuvchilarga administrator huquqini berish",
+    "Huquqlarni umuman bermaslik",
+    "Faqat rahbarga huquq berish"
+   ],
+   "e": "Zarar ko'lamini cheklaydi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "\"Nol ishonch\" (Zero Trust) modeli nimaga asoslanadi?",
+   "a": [
+    "Hech kimga avtomatik ishonmaslik, har bir so'rovni tekshirish",
+    "Ichki tarmoqdagi barcha qurilmalar va xodimlarga to'liq ishonish",
+    "Faqat parol bilan himoya",
+    "Firewallsiz ishlash"
+   ],
+   "e": "\"Hech qachon ishonma, doim tekshir\"."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kirish nazorati modellariga qaysilar kiradi?",
+   "a": [
+    "DAC, MAC, RBAC",
+    "TCP, UDP, IP",
+    "AES, RSA, SHA",
+    "HTTP, FTP, SMTP"
+   ],
+   "e": "Diskretsion, mandatli, rollarga asoslangan."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik siyosati nima?",
+   "a": [
+    "Tashkilotda axborotni himoya qilish qoidalari majmui",
+    "Faqat antivirus dasturining sozlamalari va yangilanish jadvali",
+    "Faqat binoga kirish ruxsatnomasi",
+    "Faqat parollar ro'yxati"
+   ],
+   "e": "Rahbariyat tomonidan tasdiqlanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ijtimoiy muhandislik nima?",
+   "a": [
+    "Inson psixologiyasidan foydalanib, ma'lumot yoki kirish olish",
+    "Ijtimoiy tarmoqlar uchun mobil ilovalar va dasturlar yaratish",
+    "Kompyuter tarmoqlarini loyihalash",
+    "Muhandislar ijtimoiy himoyasi"
+   ],
+   "e": "Fishing, pretexting, baiting."
   },
   {
    "b": "Kriptografiya",
-   "q": "Simmetrik shifrlashning asosiy xususiyati nima?",
+   "q": "Kriptografiya nima?",
    "a": [
-    "Shifrlash va deshifrlash uchun bir xil kalit ishlatiladi",
-    "Ikki xil kalit ishlatiladi",
-    "Kalit umuman kerak emas",
-    "Faqat xeshlash bajariladi"
+    "Ma'lumotni shifrlash va deshifrlash fani",
+    "Kompyuter qismlarini yig'ish fani",
+    "Tarmoq kabellarini o'tkazish usuli",
+    "Ma'lumotni siqish va arxivlash usuli faqat, kalitsiz"
    ],
-   "e": "Misol: AES."
+   "e": "Konfidensiallik, yaxlitlik va autentifikatsiyani ta'minlaydi."
   },
   {
    "b": "Kriptografiya",
-   "q": "Asimmetrik shifrlashga misol qaysi algoritm?",
+   "q": "Simmetrik shifrlashda nechta kalit ishlatiladi?",
+   "a": [
+    "Bitta umumiy kalit",
+    "Ikkita: ochiq va yopiq, ular matematik bog'langan",
+    "Kalit ishlatilmaydi",
+    "Har bir xabar uchun uchta"
+   ],
+   "e": "Kalitni xavfsiz almashish muammosi bor."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Simmetrik shifrlash algoritmiga misol qaysi?",
+   "a": [
+    "AES",
+    "RSA",
+    "SHA-256",
+    "Diffie-Hellman"
+   ],
+   "e": "DES, 3DES, ChaCha20 ham simmetrik."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Asimmetrik shifrlash algoritmiga misol qaysi?",
    "a": [
     "RSA",
     "AES",
     "DES",
     "MD5"
    ],
-   "e": "Ochiq kalit bilan shifrlanadi, yopiq kalit bilan ochiladi."
+   "e": "ECC ham asimmetrik."
   },
   {
    "b": "Kriptografiya",
-   "q": "Xesh-funksiyaning asosiy xossasi qaysi?",
+   "q": "Asimmetrik shifrlashda xabarni qaysi kalit bilan shifrlab, qabul qiluvchi o'qiydi?",
    "a": [
-    "Natijadan dastlabki ma'lumotni tiklab bo'lmaydi (bir tomonlama)",
-    "Natijani kalit bilan ochish mumkin",
-    "Natija uzunligi kirishga teng",
-    "Doim bir xil natija bermaydi"
+    "Qabul qiluvchining ochiq kaliti",
+    "Jo'natuvchining yopiq kaliti",
+    "Qabul qiluvchining yopiq kaliti bilan shifrlanadi",
+    "Umumiy maxfiy parol"
    ],
-   "e": "Parollar odatda tuz (salt) bilan xeshlangan holda saqlanadi."
+   "e": "Deshifrlash qabul qiluvchining yopiq kaliti bilan."
   },
   {
    "b": "Kriptografiya",
-   "q": "Elektron raqamli imzo nimani ta'minlaydi?",
+   "q": "Raqamli imzo qaysi kalit bilan qo'yiladi?",
    "a": [
-    "Hujjat muallifini tasdiqlash va uning o'zgartirilmaganligini",
-    "Hujjatni siqishni",
-    "Hujjatni tezroq yuborishni",
-    "Hujjatni chop etishni"
+    "Jo'natuvchining yopiq kaliti",
+    "Qabul qiluvchining ochiq kaliti",
+    "Umumiy simmetrik kalit",
+    "Kalitsiz"
    ],
-   "e": "Imzo yopiq kalit bilan yaratiladi, ochiq kalit bilan tekshiriladi."
+   "e": "Tekshirish jo'natuvchining ochiq kaliti bilan."
   },
   {
    "b": "Kriptografiya",
-   "q": "Qaysi xesh-algoritm hozir xavfsiz emas deb hisoblanadi?",
+   "q": "Xesh-funksiyaning asosiy xossasi nima?",
+   "a": [
+    "Bir tomonlama: xeshdan asl ma'lumotni tiklab bo'lmaydi",
+    "Xeshdan asl ma'lumotni kalit yordamida oson tiklash mumkin",
+    "Har safar turli natija beradi",
+    "Faqat raqamlarni qayta ishlaydi"
+   ],
+   "e": "Kichik o'zgarish xeshni butunlay o'zgartiradi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Qaysi xesh algoritmi hozirda xavfsiz emas deb hisoblanadi?",
    "a": [
     "MD5",
     "SHA-256",
     "SHA-3",
-    "bcrypt"
+    "BLAKE2"
    ],
-   "e": "MD5 uchun kolliziyalar amalda topilgan."
+   "e": "MD5 va SHA-1 da kolliziyalar topilgan."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "AES algoritmida qanday kalit uzunliklari ishlatiladi?",
+   "a": [
+    "128, 192, 256 bit",
+    "8, 16, 32 bit",
+    "56 bit faqat",
+    "1024, 2048 bit"
+   ],
+   "e": "DES kaliti 56 bit (eskirgan)."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Diffie-Hellman protokoli nima uchun ishlatiladi?",
+   "a": [
+    "Ochiq kanal orqali umumiy maxfiy kalitni kelishish",
+    "Fayllarni siqish va ularni arxivga joylash protokoli",
+    "Parollarni xeshlash",
+    "Viruslarni aniqlash"
+   ],
+   "e": "Kalit almashish protokoli."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Raqamli sertifikat nima?",
+   "a": [
+    "Ochiq kalitning egasiga tegishliligini tasdiqlovchi elektron hujjat",
+    "Kompyuter xaridini tasdiqlovchi elektron chek va kafolat taloni",
+    "Antivirus litsenziyasi",
+    "Dastur o'rnatish fayli"
+   ],
+   "e": "X.509 standarti; sertifikatlash markazi (CA) imzolaydi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "PKI nima?",
+   "a": [
+    "Ochiq kalitlar infratuzilmasi",
+    "Shaxsiy kompyuter interfeysi",
+    "Parol kiritish interfeysi va uning grafik dizayni",
+    "Protsessor kesh indeksi"
+   ],
+   "e": "CA, sertifikatlar, bekor qilish ro'yxatlari."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "\"Tuz\" (salt) parolni xeshlashda nima uchun qo'shiladi?",
+   "a": [
+    "Bir xil parollar uchun turli xesh olish va jadval hujumlaridan himoya",
+    "Parolni qisqartirish va tezroq kiritish uchun",
+    "Parolni ochiq ko'rinishda saqlash va uni foydalanuvchiga tezda eslatish uchun",
+    "Xeshni tezroq hisoblash uchun"
+   ],
+   "e": "Rainbow table hujumlari samarasiz bo'ladi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Parollarni saqlash uchun qaysi algoritmlar tavsiya etiladi?",
+   "a": [
+    "bcrypt, scrypt, Argon2",
+    "MD5 tuzsiz",
+    "Ochiq matn",
+    "Base64"
+   ],
+   "e": "Ular ataylab sekin ishlaydi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Base64 kodlash shifrlash hisoblanadimi?",
+   "a": [
+    "Yo'q, bu shunchaki kodlash",
+    "Ha, bu kuchli shifrlash algoritmi",
+    "Ha, faqat kalit bilan",
+    "Ha, asimmetrik"
+   ],
+   "e": "Kalitsiz oson qayta kodlanadi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Steganografiya nima?",
+   "a": [
+    "Ma'lumotni boshqa ma'lumot ichiga yashirish",
+    "Ma'lumotni kalit bilan shifrlash va uni o'qib bo'lmaydigan qilish",
+    "Ma'lumotni siqish",
+    "Ma'lumotni o'chirish"
+   ],
+   "e": "Masalan, rasm ichiga matn yashirish."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "TLS protokoli nima uchun ishlatiladi?",
+   "a": [
+    "Tarmoqda uzatiladigan ma'lumotlarni shifrlash",
+    "Fayllarni diskda arxivlash va zaxira nusxasini yaratish",
+    "Elektron pochtani o'chirish",
+    "IP-manzil berish"
+   ],
+   "e": "HTTPS TLS asosida ishlaydi."
   },
   {
    "b": "Tahdidlar",
-   "q": "Ransomware (to'lov talab qiluvchi dastur) nima qiladi?",
+   "q": "Zararli dastur (malware) nima?",
    "a": [
-    "Fayllarni shifrlab, ochish uchun to'lov talab qiladi",
-    "Kompyuterni tezlashtiradi",
-    "Faqat reklama ko'rsatadi",
-    "Tarmoqni sozlaydi"
+    "Zarar yetkazish uchun yaratilgan dastur",
+    "Kompyuterni tezlashtiruvchi foydali utilita va optimizator",
+    "Operatsion tizim yangilanishi",
+    "Brauzer kengaytmasi har doim"
    ],
-   "e": "Eng yaxshi himoya — muntazam oflayn zaxira nusxalar."
+   "e": "Viruslar, chuvalchanglar, troyanlar, to'lov talab qiluvchilar."
   },
   {
    "b": "Tahdidlar",
-   "q": "DDoS hujumining maqsadi nima?",
+   "q": "Kompyuter chuvalchangi (worm) virusdan nimasi bilan farq qiladi?",
    "a": [
-    "Ko'plab so'rovlar bilan xizmatni ishlamaydigan holatga keltirish",
-    "Parolni o'g'irlash",
-    "Fayllarni shifrlash",
-    "Ma'lumotni zaxiralash"
+    "Tarmoq orqali mustaqil tarqaladi",
+    "Faqat foydalanuvchi faylni ochgandagina ishga tushadi va tarqalmaydi",
+    "Faqat printerga zarar yetkazadi",
+    "Hech qanday farqi yo'q"
    ],
-   "e": "Hujum foydalanuvchanlikni buzadi."
+   "e": "Virus boshqa faylga yopishib tarqaladi."
   },
   {
    "b": "Tahdidlar",
-   "q": "\"Troyan\" dasturi nima?",
+   "q": "Troyan dasturi nima?",
    "a": [
-    "Foydali dastur niqobi ostida yashirin zararli funksiyalarni bajaruvchi dastur",
-    "Antivirus turi",
-    "Tarmoq kabeli",
-    "Operatsion tizim"
+    "Foydali dastur qiyofasidagi zararli dastur",
+    "O'zini o'zi ko'paytiruvchi tarmoq chuvalchangi",
+    "Antivirus dasturi",
+    "Operatsion tizim drayveri"
    ],
-   "e": "Troyan o'zini o'zi ko'paytirmaydi, foydalanuvchi uni o'zi o'rnatadi."
+   "e": "Masalan, \"bepul o'yin\" ichida yashiringan."
   },
   {
    "b": "Tahdidlar",
-   "q": "Ijtimoiy muhandislik (social engineering) nima?",
+   "q": "Ransomware (to'lov talab qiluvchi) dastur nima qiladi?",
    "a": [
-    "Insonlarni aldab, maxfiy ma'lumot yoki ruxsat olish usuli",
-    "Ijtimoiy tarmoqlarni dasturlash",
-    "Tarmoq qurish",
-    "Ma'lumotlarni zaxiralash"
+    "Fayllarni shifrlab, to'lov talab qiladi",
+    "Kompyuterni tezlashtirib, reklama ko'rsatadi",
+    "Faqat ekran rangini o'zgartiradi",
+    "Fayllarni zaxiralaydi"
    ],
-   "e": "Fishing xatlari ijtimoiy muhandislikning keng tarqalgan ko'rinishi."
+   "e": "Zaxira nusxalar eng yaxshi himoya."
   },
   {
    "b": "Tahdidlar",
-   "q": "\"Man-in-the-middle\" hujumi nima?",
+   "q": "Spyware (josus dastur) nima qiladi?",
    "a": [
-    "Ikki tomon orasidagi aloqani yashirincha ushlab, o'zgartirish",
-    "Serverni jismoniy buzish",
-    "Parolni taxmin qilish",
-    "Diskni formatlash"
+    "Foydalanuvchi faoliyati haqida yashirin ma'lumot yig'adi",
+    "Fayllarni shifrlab, ularni qayta ochish uchun kriptovalyutada to'lov talab qiladi",
+    "Faqat reklama oynalarini ko'rsatadi",
+    "Kompyuterni tozalaydi"
    ],
-   "e": "Shifrlangan ulanishlar (TLS) bu hujumdan himoya qiladi."
+   "e": "Keyloggerlar ham josus dasturlar turiga kiradi."
   },
   {
    "b": "Tahdidlar",
-   "q": "Kuchsiz parolni barcha variantlarni sinab topish hujumi qanday ataladi?",
+   "q": "Rootkit nima?",
    "a": [
-    "Brute force (to'liq tanlash)",
-    "Fishing",
-    "Snifing",
-    "Spufing"
+    "Tizimda o'z mavjudligini yashiruvchi zararli dastur",
+    "Operatsion tizimning rasmiy yadrosi",
+    "Root huquqini olish uchun ishlatiladigan administrator paroli",
+    "Antivirus moduli"
    ],
-   "e": "Himoya: uzun parol, urinishlar sonini cheklash, 2FA."
+   "e": "Aniqlash juda qiyin."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Botnet nima?",
+   "a": [
+    "Hujumchi boshqaradigan zararlangan qurilmalar tarmog'i",
+    "Telegram va boshqa messenjerlar uchun yozilgan bot dasturlari to'plami",
+    "Robotlar ishlab chiqaruvchi zavod",
+    "Antivirus serverlari tarmog'i"
+   ],
+   "e": "DDoS hujumlari va spam tarqatishda ishlatiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Fishing (phishing) hujumi nima?",
+   "a": [
+    "Soxta xabar yoki sayt orqali maxfiy ma'lumotlarni aldab olish",
+    "Tarmoq kabelini jismonan kesish",
+    "Serverni haddan tashqari ko'p so'rovlar bilan yuklab, ishdan chiqarish",
+    "Parolni tasodifiy tanlash"
+   ],
+   "e": "Soxta bank xatlari, SMS."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Nishonli fishing (spear phishing) oddiy fishingdan nimasi bilan farq qiladi?",
+   "a": [
+    "Aniq shaxs yoki tashkilotga moslashtirilgan",
+    "Millionlab tasodifiy foydalanuvchilarga bir xil xat yuboriladi",
+    "Faqat telefon orqali amalga oshiriladi",
+    "Faqat baliq ovida"
+   ],
+   "e": "Shaxsiy ma'lumotlar asosida ishonchli ko'rinadi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "DDoS hujumi nima?",
+   "a": [
+    "Ko'plab manbalardan so'rov yuborib xizmatni ishdan chiqarish",
+    "Bitta parolni topish uchun barcha mumkin bo'lgan variantlarni ketma-ket tekshirish",
+    "Ma'lumotlar bazasidan ma'lumot o'g'irlash",
+    "Foydalanuvchini aldash"
+   ],
+   "e": "Foydalanuvchanlikka hujum."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "\"O'rtadagi odam\" (MITM) hujumi nima?",
+   "a": [
+    "Ikki tomon aloqasini yashirincha ushlab, o'zgartirish",
+    "Serverni ma'lumotlar markazidan jismoniy o'g'irlab ketish",
+    "Ofis xodimlarini ishdan bo'shatish",
+    "Kompyuterga virus yozish faqat"
+   ],
+   "e": "Shifrlash va sertifikat tekshiruvi himoya qiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Brute force hujumi nima?",
+   "a": [
+    "Parolni barcha variantlarni sinab topish",
+    "Foydalanuvchini telefon orqali aldab parolni so'rash",
+    "Serverni o'chirish",
+    "Fayllarni shifrlash"
+   ],
+   "e": "Uzun parol va kirish urinishlarini cheklash himoya qiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Lug'at hujumi (dictionary attack) nima?",
+   "a": [
+    "Ko'p uchraydigan so'z va parollar ro'yxatini sinash",
+    "Barcha mumkin bo'lgan belgilar kombinatsiyasini tekshirish",
+    "Lug'at kitobini o'g'irlash",
+    "Tarjimon dasturini buzish"
+   ],
+   "e": "Oddiy parollar tez topiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "SQL in'eksiya hujumi nima?",
+   "a": [
+    "Kiritish maydoni orqali zararli SQL buyruq bajartirish",
+    "Serverga juda ko'p so'rov yuborib, uning javob berishini sekinlashtirish",
+    "Brauzerga zararli rasm yuklash",
+    "Wi-Fi parolini topish"
+   ],
+   "e": "Parametrlashtirilgan so'rovlar himoya qiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "XSS (saytlararo skripting) hujumi nima?",
+   "a": [
+    "Veb-sahifaga boshqa foydalanuvchilar brauzerida bajariladigan skript joylash",
+    "Serverni elektr ta'minotidan uzib, saytni ishdan chiqarish",
+    "Parolni tasodifiy tanlash",
+    "Ma'lumotlar bazasini o'chirish"
+   ],
+   "e": "Kiritilgan ma'lumotni ekranlash himoya qiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "CSRF hujumi nima?",
+   "a": [
+    "Foydalanuvchi nomidan uning bilmagan holda so'rov yuborish",
+    "Saytga zararli skript joylab, boshqalar brauzerida bajarish",
+    "Parolni lug'at bilan topish",
+    "Serverni DDoS qilish"
+   ],
+   "e": "CSRF tokenlari himoya qiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "OWASP Top 10 nima?",
+   "a": [
+    "Veb-ilovalardagi eng xavfli zaifliklar ro'yxati",
+    "Eng yaxshi antivirus dasturlari va xavfsizlik vositalarining yillik reytingi",
+    "Eng tez kompyuterlar ro'yxati",
+    "Eng mashhur dasturlash tillari"
+   ],
+   "e": "Muntazam yangilanadi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "APT (ilg'or doimiy tahdid) nima?",
+   "a": [
+    "Uzoq muddatli maqsadli murakkab hujum",
+    "Bir martalik oddiy spam xat",
+    "Antivirus yangilanishi",
+    "Tarmoq printeri"
+   ],
+   "e": "Odatda davlat yoki yirik guruhlar tomonidan."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Insayder tahdid nima?",
+   "a": [
+    "Tashkilot ichidagi xodim tomonidan yuzaga keladigan tahdid",
+    "Faqat tashqi xakerlar tomonidan internet orqali uyushtiriladigan hujum",
+    "Tabiiy ofat",
+    "Elektr uzilishi"
+   ],
+   "e": "Qasddan yoki ehtiyotsizlik tufayli."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Baiting (o'lja) hujumiga misol qaysi?",
+   "a": [
+    "Zararlangan flesh-xotirani ataylab qoldirish",
+    "Serverga ko'p so'rov yuborish",
+    "Parolni lug'at bilan topish",
+    "Tarmoq kabelini kesish"
+   ],
+   "e": "Qiziquvchan xodim uni kompyuterga ulaydi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Vishing nima?",
+   "a": [
+    "Telefon qo'ng'irog'i orqali fishing",
+    "Elektron pochta orqali spam",
+    "Wi-Fi orqali hujum",
+    "Video orqali hujum"
+   ],
+   "e": "Masalan, \"bank xodimi\" nomidan qo'ng'iroq."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Smishing nima?",
+   "a": [
+    "SMS orqali fishing",
+    "Telefon qo'ng'irog'i orqali aldash",
+    "Ijtimoiy tarmoqda reklama",
+    "Flesh-xotira orqali hujum"
+   ],
+   "e": "Soxta havolali SMS xabarlar."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Kriptojeking nima?",
+   "a": [
+    "Boshqalar kompyuteridan yashirincha kriptovalyuta qazish",
+    "Kriptovalyutani qonuniy sotib olish",
+    "Kriptografik kalitlarni yaratish va ularni xavfsiz saqlash",
+    "Hamyonni zaxiralash"
+   ],
+   "e": "Qurilma sekinlashadi, elektr sarfi ortadi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "DNS spoofing (zaharlash) nima?",
+   "a": [
+    "Soxta DNS javoblari bilan foydalanuvchini soxta saytga yo'naltirish",
+    "DNS serverini tezlashtirish va so'rovlarni keshlash",
+    "Domen nomini qonuniy sotib olish",
+    "IP-manzilni avtomatik berish"
+   ],
+   "e": "DNSSEC himoya qiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Session hijacking (seansni egallash) nima?",
+   "a": [
+    "Foydalanuvchi seans identifikatorini o'g'irlab, uning nomidan ishlash",
+    "Foydalanuvchi parolini uning roziligisiz o'zgartirib, akkauntni bloklash",
+    "Saytni yopish",
+    "Kompyuterni o'chirish"
+   ],
+   "e": "HTTPS va xavfsiz cookie lar himoya qiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Bufer to'lib ketishi (buffer overflow) zaifligi nima?",
+   "a": [
+    "Ajratilgan xotiradan ortiq ma'lumot yozilib, boshqa xotira sohasini buzishi",
+    "Disk to'lib, unga yangi fayllarni saqlab bo'lmasligi",
+    "Internet trafigi limiti tugashi",
+    "Printer qog'ozi tugashi"
+   ],
+   "e": "Ixtiyoriy kod bajarishga olib kelishi mumkin."
   },
   {
    "b": "Himoya",
-   "q": "Eng kam imtiyozlar tamoyili (least privilege) nimani talab qiladi?",
+   "q": "Tarmoqlararo ekran (firewall) nima qiladi?",
    "a": [
-    "Foydalanuvchiga faqat ishi uchun zarur bo'lgan minimal huquqlarni berish",
-    "Barcha foydalanuvchilarga administrator huquqi berish",
-    "Parolsiz ishlash",
-    "Hamma ma'lumotni ochiq qilish"
+    "Trafikni qoidalar asosida filtrlaydi",
+    "Kompyuterni yong'indan himoya qiladi",
+    "Viruslarni fayllardan tozalaydi",
+    "Parollarni saqlaydi"
    ],
-   "e": "Bu zarar ko'lamini kamaytiradi."
+   "e": "Ruxsat etilmagan ulanishlarni bloklaydi."
   },
   {
    "b": "Himoya",
-   "q": "Dasturiy ta'minotni muntazam yangilashning xavfsizlik uchun ahamiyati nima?",
+   "q": "IDS nima?",
    "a": [
-    "Ma'lum zaifliklar tuzatiladi",
-    "Kompyuter og'irlashadi",
-    "Internet o'chadi",
-    "Ahamiyati yo'q"
+    "Hujumlarni aniqlash tizimi",
+    "Internet domen serveri",
+    "Ichki disk saqlagichi",
+    "Identifikatsiya kartasi"
    ],
-   "e": "Hujumchilar ko'pincha yangilanmagan tizimlardagi ma'lum zaifliklardan foydalanadi."
+   "e": "Intrusion Detection System."
+  },
+  {
+   "b": "Himoya",
+   "q": "IPS IDS dan nimasi bilan farq qiladi?",
+   "a": [
+    "Hujumni aniqlabgina qolmay, bloklaydi",
+    "Faqat hujumni jurnalga yozadi, hech narsa qilmaydi",
+    "Faqat viruslarni aniqlaydi",
+    "Farqi yo'q"
+   ],
+   "e": "Intrusion Prevention System."
+  },
+  {
+   "b": "Himoya",
+   "q": "Antivirus dasturlari qanday usullarda zararli dasturlarni aniqlaydi?",
+   "a": [
+    "Signatura va evristik tahlil",
+    "Faqat fayl nomi uzunligiga qarab",
+    "Faqat fayl yaratilgan sanaga qarab",
+    "Faqat fayl hajmiga qarab"
+   ],
+   "e": "Xulq-atvor tahlili ham qo'llaniladi."
   },
   {
    "b": "Himoya",
    "q": "VPN nima uchun ishlatiladi?",
    "a": [
-    "Ochiq tarmoq orqali shifrlangan xavfsiz kanal yaratish uchun",
-    "Ekranni yoritish uchun",
-    "Faylni chop etish uchun",
-    "Kompyuterni o'chirish uchun"
+    "Ommaviy tarmoq orqali shifrlangan xavfsiz kanal yaratish",
+    "Internet tezligini doimiy oshirish va trafikni tejash",
+    "Viruslarni o'chirish",
+    "Fayllarni siqish"
    ],
-   "e": "VPN trafikni shifrlangan tunnel orqali uzatadi."
+   "e": "Masofadan ishlashda keng qo'llaniladi."
   },
   {
    "b": "Himoya",
-   "q": "Hujumlarni aniqlash tizimi qanday qisqartma bilan belgilanadi?",
+   "q": "Ishonchli parolga qanday talablar qo'yiladi?",
    "a": [
-    "IDS",
-    "DNS",
-    "DHCP",
-    "GPS"
+    "Uzun, murakkab va noyob",
+    "Qisqa, oson eslanadigan va hamma joyda bir xil",
+    "Faqat tug'ilgan sana",
+    "Faqat ism"
    ],
-   "e": "IPS — hujumlarni aniqlash va oldini olish tizimi."
+   "e": "Parol menejerlaridan foydalanish tavsiya etiladi."
   },
   {
    "b": "Himoya",
-   "q": "Veb-saytga ulanishda manzil satridagi \"https\" nimani bildiradi?",
+   "q": "Parol menejeri nima?",
    "a": [
-    "Ulanish TLS orqali shifrlangan",
-    "Sayt albatta ishonchli va firibgarlikdan xoli",
-    "Sayt tez ishlaydi",
-    "Sayt davlat saytidir"
+    "Parollarni xavfsiz saqlovchi va yaratuvchi dastur",
+    "Parollarni qog'ozga yozib, monitorga yopishtirish usuli",
+    "Parolni barcha saytlarda bir xil qiluvchi dastur",
+    "Parolni o'chiruvchi dastur"
    ],
-   "e": "HTTPS faqat kanalni shifrlaydi; fishing saytlari ham HTTPS ishlatishi mumkin."
+   "e": "Bitta master-parol bilan himoyalanadi."
   },
   {
    "b": "Himoya",
-   "q": "Zaxira nusxalashning \"3-2-1\" qoidasi nimani anglatadi?",
+   "q": "Dasturiy ta'minotni muntazam yangilashning ahamiyati nima?",
    "a": [
-    "3 ta nusxa, 2 xil tashuvchida, 1 tasi boshqa joyda",
-    "3 kunda 2 marta, 1 soat",
-    "3 ta parol, 2 ta login, 1 ta kod",
-    "3 ta server, 2 ta tarmoq, 1 ta foydalanuvchi"
+    "Ma'lum zaifliklar yopiladi",
+    "Kompyuter sekinlashadi va xavfsizlik pasayadi",
+    "Litsenziya bekor qilinadi",
+    "Hech qanday ahamiyati yo'q"
    ],
-   "e": "Bu ma'lumot yo'qolish xavfini keskin kamaytiradi."
+   "e": "Ko'p hujumlar eski versiyalardagi zaifliklardan foydalanadi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Zaxira nusxalashning \"3-2-1\" qoidasi nima?",
+   "a": [
+    "3 nusxa, 2 xil tashuvchi, 1 tasi tashqi joyda",
+    "3 kunda bir marta, 2 soat davomida, 1 diskka",
+    "3 ta parol, 2 ta login, 1 ta email",
+    "3 ta server, 2 ta router, 1 ta firewall"
+   ],
+   "e": "Ransomware dan himoyada muhim."
+  },
+  {
+   "b": "Himoya",
+   "q": "Tarmoqni segmentatsiya qilish nima beradi?",
+   "a": [
+    "Hujum tarqalishini cheklaydi",
+    "Tarmoq tezligini keskin pasaytiradi va hech qanday foyda bermaydi",
+    "Barcha qurilmalarni bir-biriga to'g'ridan-to'g'ri ochadi",
+    "Parollarni bekor qiladi"
+   ],
+   "e": "VLAN va DMZ zonalar."
+  },
+  {
+   "b": "Himoya",
+   "q": "DMZ (demilitarizatsiyalangan zona) nima?",
+   "a": [
+    "Ichki va tashqi tarmoq orasidagi oraliq segment",
+    "Tarmoqning eng himoyalangan ichki qismi, unga faqat administrator kiradi",
+    "Harbiy obyekt",
+    "Wi-Fi tarmog'i nomi"
+   ],
+   "e": "Ochiq serverlar (veb, pochta) shu yerda joylashadi."
   },
   {
    "b": "Huquqiy asoslar",
-   "q": "O'zbekistonda kiberxavfsizlik sohasidagi munosabatlarni tartibga soluvchi asosiy qonun qaysi?",
+   "q": "O'zbekistonda kiberxavfsizlik sohasini tartibga soluvchi asosiy qonun qaysi?",
    "a": [
     "\"Kiberxavfsizlik to'g'risida\"gi Qonun",
-    "Soliq kodeksi",
-    "Yer kodeksi",
-    "Oila kodeksi"
+    "\"Ta'lim to'g'risida\"gi Qonun, chunki u axborot texnologiyalari ta'limini tartibga soladi",
+    "\"Yo'l harakati xavfsizligi to'g'risida\"gi Qonun",
+    "\"Tabiatni muhofaza qilish to'g'risida\"gi Qonun"
    ],
-   "e": "Qonun 2022-yilda qabul qilingan."
+   "e": "2022-yilda qabul qilingan."
   },
   {
    "b": "Huquqiy asoslar",
-   "q": "Shaxsga doir ma'lumotlarni himoya qilish O'zbekistonda qaysi qonun bilan tartibga solinadi?",
+   "q": "Shaxsiy ma'lumotlarni himoya qilish qaysi qonun bilan tartibga solinadi?",
    "a": [
     "\"Shaxsga doir ma'lumotlar to'g'risida\"gi Qonun",
-    "\"Avtomobil yo'llari to'g'risida\"gi Qonun",
-    "Mehnat kodeksi",
-    "Bojxona kodeksi"
+    "\"Raqobat to'g'risida\"gi Qonun, chunki ma'lumotlar bozor raqobatiga ta'sir qiladi",
+    "\"Davlat boji to'g'risida\"gi Qonun",
+    "\"Turizm to'g'risida\"gi Qonun"
    ],
-   "e": "Qonun 2019-yilda qabul qilingan."
+   "e": "2019-yilda qabul qilingan."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Shaxsga doir ma'lumotlarni qayta ishlash uchun odatda nima talab qilinadi?",
+   "a": [
+    "Sub'ektning roziligi",
+    "Faqat tashkilot rahbarining og'zaki ko'rsatmasi, sub'ektga xabar bermasdan",
+    "Hech qanday asos talab qilinmaydi",
+    "Faqat to'lov"
+   ],
+   "e": "Qonunda belgilangan boshqa asoslar ham bor."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Kompyuter axboroti sohasidagi jinoyatlar uchun javobgarlik qaysi hujjatda belgilangan?",
+   "a": [
+    "Jinoyat kodeksi",
+    "Oila kodeksi, chunki u fuqarolar munosabatlarini tartibga soladi",
+    "Yer kodeksi",
+    "Havo kodeksi"
+   ],
+   "e": "Ruxsatsiz kirish, zararli dasturlar yaratish va tarqatish."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Ruxsatsiz kompyuter tizimiga kirish qanday baholanadi?",
+   "a": [
+    "Huquqbuzarlik",
+    "Qonuniy faoliyat, agar hech narsa o'zgartirilmasa va zarar yetkazilmasa",
+    "Sport musobaqasi",
+    "Ilmiy tadqiqot har doim"
+   ],
+   "e": "Ruxsat bilan o'tkaziladigan penetratsion test bundan mustasno."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Penetratsion test (pentest) qonuniy bo'lishi uchun nima kerak?",
+   "a": [
+    "Tizim egasining yozma ruxsati",
+    "Faqat xakerning yaxshi niyati, ruxsatsiz ham bo'ladi",
+    "Faqat tizimni topish",
+    "Hech narsa kerak emas"
+   ],
+   "e": "Shartnomada test chegaralari belgilanadi."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Elektron raqamli imzo qanday huquqiy kuchga ega?",
+   "a": [
+    "Qo'lda qo'yilgan imzoga teng",
+    "Hech qanday huquqiy kuchga ega emas, faqat ma'lumot uchun",
+    "Faqat xorijda amal qiladi",
+    "Faqat bir kun amal qiladi"
+   ],
+   "e": "Qonunchilikda belgilangan shartlarda."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Kiberxavfsizlik obyektlari egalarining majburiyatlariga nima kiradi?",
+   "a": [
+    "Himoya choralarini ko'rish va hodisalar haqida xabar berish",
+    "Hech qanday majburiyat yo'q, chunki himoya ixtiyoriy",
+    "Faqat reklama berish",
+    "Faqat litsenziya sotish"
+   ],
+   "e": "Muhim axborot infratuzilmasi obyektlari uchun qat'iy talablar bor."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Mualliflik huquqi dasturiy ta'minotga taalluqlimi?",
+   "a": [
+    "Ha",
+    "Yo'q, dasturlar mualliflik huquqi bilan himoyalanmaydi",
+    "Faqat o'yinlarga",
+    "Faqat bepul dasturlarga"
+   ],
+   "e": "Dasturlar adabiy asar kabi himoyalanadi."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Litsenziyasiz dasturiy ta'minotdan foydalanishning xavfsizlik xatari nima?",
+   "a": [
+    "Zararli kod bo'lishi va yangilanmasligi",
+    "Dastur tezroq ishlaydi va xavfsizroq bo'ladi",
+    "Hech qanday xatar yo'q",
+    "Faqat rangi o'zgaradi"
+   ],
+   "e": "Huquqiy javobgarlik ham bor."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "GDPR qaysi hududning shaxsiy ma'lumotlar bo'yicha reglamenti?",
+   "a": [
+    "Yevropa Ittifoqi",
+    "Amerika Qo'shma Shtatlari Kongressi qonuni",
+    "Xitoy",
+    "Markaziy Osiyo"
+   ],
+   "e": "General Data Protection Regulation, 2018."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "ISO/IEC 27001 standarti nimaga bag'ishlangan?",
+   "a": [
+    "Axborot xavfsizligi menejment tizimi",
+    "Sifat menejmenti va mahsulot sertifikatlash",
+    "Ekologik menejment",
+    "Mehnat muhofazasi"
+   ],
+   "e": "ISO 9001 — sifat, ISO 14001 — ekologiya."
   },
   {
    "b": "Monitoring",
-   "q": "Xavfsizlik hodisalari jurnallarini (loglarni) markazlashgan yig'ish va tahlil qilish tizimi qanday ataladi?",
+   "q": "SIEM tizimi nima qiladi?",
+   "a": [
+    "Xavfsizlik hodisalarini yig'ish va tahlil qilish",
+    "Faqat ofis xodimlarining ish vaqtini hisoblash",
+    "Faqat elektron pochta jo'natish",
+    "Faqat fayllarni siqish"
+   ],
+   "e": "Security Information and Event Management."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Jurnal (log) fayllari nima uchun saqlanadi?",
+   "a": [
+    "Hodisalarni tekshirish va tahlil qilish uchun",
+    "Kompyuter xotirasini to'ldirish va tizimni sekinlashtirish uchun",
+    "Fayllarni shifrlash uchun",
+    "Reklama ko'rsatish uchun"
+   ],
+   "e": "Kim, qachon, nima qilganini aniqlash."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Xavfsizlik hodisasiga javob berish bosqichlari to'g'ri tartibda qaysi?",
+   "a": [
+    "Tayyorgarlik, aniqlash, cheklash, yo'q qilish, tiklash, tahlil",
+    "Tiklash, aniqlash, tayyorgarlik, yo'q qilish",
+    "Yo'q qilish, tahlil, tayyorgarlik",
+    "Faqat tiklash"
+   ],
+   "e": "NIST metodologiyasi asosida."
+  },
+  {
+   "b": "Monitoring",
+   "q": "SOC nima?",
+   "a": [
+    "Xavfsizlik operatsiyalari markazi",
+    "Kompyuter ishlab chiqaruvchi zavod",
+    "Ijtimoiy tarmoq",
+    "Dasturlash tili"
+   ],
+   "e": "Security Operations Center — 24/7 monitoring."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Kompromat ko'rsatkichlari (IoC) nima?",
+   "a": [
+    "Tizim buzilganini ko'rsatuvchi belgilar",
+    "Kompyuter qismlari, ularning seriya raqamlari va kafolat muddatlari ro'yxati",
+    "Foydalanuvchi parollari ro'yxati",
+    "Antivirus narxlari"
+   ],
+   "e": "Masalan, zararli IP-manzillar, fayl xeshlari."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Zaifliklarni skanerlash nima?",
+   "a": [
+    "Tizimdagi ma'lum zaifliklarni avtomatik aniqlash",
+    "Qog'oz hujjatlarni skanerlab, raqamli arxivga joylash",
+    "Kompyuterni changdan tozalash",
+    "Internet tezligini o'lchash"
+   ],
+   "e": "Masalan, Nessus, OpenVAS."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Nmap utilitasi nima uchun ishlatiladi?",
+   "a": [
+    "Tarmoq va ochiq portlarni skanerlash",
+    "Matn tahrirlash",
+    "Rasm chizish",
+    "Musiqa tinglash"
+   ],
+   "e": "Tarmoq auditida keng qo'llaniladi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Wireshark dasturi nima qiladi?",
+   "a": [
+    "Tarmoq paketlarini ushlab, tahlil qiladi",
+    "Viruslarni avtomatik aniqlab, ularni karantinga ko'chiradi va o'chiradi",
+    "Parollarni yaratadi",
+    "Fayllarni siqadi"
+   ],
+   "e": "Protokol tahlilchisi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Honeypot (asal ko'zasi) nima?",
+   "a": [
+    "Hujumchilarni jalb qilish uchun ataylab qo'yilgan soxta tizim",
+    "Eng himoyalangan, internetdan butunlay ajratilgan ishchi server",
+    "Shirinlik do'koni sayti",
+    "Antivirus bazasi"
+   ],
+   "e": "Hujum usullarini o'rganish uchun."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Xavfsizlik auditining maqsadi nima?",
+   "a": [
+    "Himoya choralarining samaradorligini baholash",
+    "Xodimlarning ish haqini va mukofotlarini hisoblash",
+    "Kompyuterlar narxini aniqlash",
+    "Reklama kampaniyasi tayyorlash"
+   ],
+   "e": "Ichki va tashqi audit."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Raqamli kriminalistika (forensika) nima?",
+   "a": [
+    "Kiberhodisalar dalillarini yig'ish va tahlil qilish",
+    "Kompyuter o'yinlari va multimedia ilovalarini ishlab chiqish",
+    "Tarmoq kabellarini o'rnatish",
+    "Veb-sayt dizayni"
+   ],
+   "e": "Dalillar yaxlitligi saqlanishi muhim."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Anomaliyalarni aniqlash tizimlari qanday ishlaydi?",
+   "a": [
+    "Odatiy xulq-atvordan chetlanishlarni aniqlaydi",
+    "Faqat ma'lum viruslar signaturalari bilan solishtiradi",
+    "Faqat vaqtni ko'rsatadi",
+    "Faqat parolni tekshiradi"
+   ],
+   "e": "Noma'lum hujumlarni ham aniqlashi mumkin."
+  },
+  {
+   "b": "Himoya",
+   "q": "Wi-Fi tarmog'i uchun qaysi himoya standarti eng xavfsiz?",
+   "a": [
+    "WPA3",
+    "WEP",
+    "Ochiq tarmoq",
+    "WPA (birinchi versiya)"
+   ],
+   "e": "WEP oson buziladi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Router standart parolini o'zgartirish nima uchun muhim?",
+   "a": [
+    "Standart parollar ommaga ma'lum",
+    "Router tezroq ishlashi uchun",
+    "Router rangini o'zgartirish uchun",
+    "Kafolat muddatini uzaytirish uchun"
+   ],
+   "e": "Hujumchilar standart parollar ro'yxatidan foydalanadi."
+  },
+  {
+   "b": "Himoya",
+   "q": "HTTPS saytida brauzer manzil satrida nima ko'rsatiladi?",
+   "a": [
+    "Qulf belgisi",
+    "Qizil undov belgisi",
+    "Yashil olma",
+    "Hech narsa"
+   ],
+   "e": "Sertifikat tekshirilganini bildiradi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Sandbox (qum qutisi) texnologiyasi nima uchun ishlatiladi?",
+   "a": [
+    "Shubhali dasturni izolyatsiyalangan muhitda ishga tushirish",
+    "Fayllarni siqish va ularni parol bilan arxivlash",
+    "Internetni tezlashtirish",
+    "O'yin o'ynash"
+   ],
+   "e": "Asosiy tizimga zarar yetmaydi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ma'lumotlarni yo'qotishning oldini olish (DLP) tizimi nima qiladi?",
+   "a": [
+    "Maxfiy ma'lumotlarning tashqariga chiqishini nazorat qiladi",
+    "Ma'lumotlarni avtomatik o'chirib yuboradi",
+    "Faqat elektron pochta reklamalarini bloklaydi",
+    "Faqat printerni boshqaradi"
+   ],
+   "e": "Masalan, maxfiy hujjatni flesh-xotiraga ko'chirishni bloklash."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ikki faktorli autentifikatsiya uchun qaysi vosita ishlatiladi?",
+   "a": [
+    "Autentifikator ilovasi",
+    "Faqat ikkinchi parol",
+    "Faqat foydalanuvchi ismi",
+    "Faqat elektron pochta manzili"
+   ],
+   "e": "TOTP kodlari, apparat kalitlari."
+  },
+  {
+   "b": "Himoya",
+   "q": "Shifrlangan disk (BitLocker, LUKS) nimani himoya qiladi?",
+   "a": [
+    "Qurilma o'g'irlansa ma'lumotlarni",
+    "Faqat internet orqali uzatilayotgan trafikni",
+    "Faqat ekrandagi tasvirni",
+    "Faqat printer navbatini"
+   ],
+   "e": "Diskni kalitsiz o'qib bo'lmaydi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Xodimlarni kiberxavfsizlik bo'yicha o'qitish nima uchun muhim?",
+   "a": [
+    "Inson omili hujumlarning asosiy sababi",
+    "Faqat rasmiyatchilik uchun, amalda foydasiz",
+    "Kompyuterlarni tezlashtirish uchun",
+    "Faqat reklama uchun"
+   ],
+   "e": "Fishing va ijtimoiy muhandislikka qarshi eng samarali chora."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ilova xavfsizligini ta'minlashda kirish ma'lumotlarini tekshirish (validation) nima uchun kerak?",
+   "a": [
+    "In'eksiya hujumlarining oldini olish uchun",
+    "Ilovani chiroyli qilish uchun",
+    "Ma'lumotlar bazasini kattalashtirish uchun",
+    "Internet tezligini oshirish uchun"
+   ],
+   "e": "Hech qachon foydalanuvchi kiritganiga ishonmaslik."
+  },
+  {
+   "b": "Himoya",
+   "q": "Xavfsiz dasturlash amaliyotiga qaysi kiradi?",
+   "a": [
+    "Kodda parollarni ochiq saqlamaslik",
+    "Parollarni dastur kodiga to'g'ridan-to'g'ri yozib, repozitoriyga yuklash",
+    "Barcha xatolarni foydalanuvchiga batafsil ko'rsatish",
+    "Kiritilgan ma'lumotni tekshirmaslik"
+   ],
+   "e": "Maxfiy ma'lumotlar muhit o'zgaruvchilari yoki maxfiyliklar ombori orqali beriladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Tizimga kirishda foydalanuvchi qanday dalillardan birini taqdim etadi?",
+   "a": [
+    "Bilim, egalik yoki biometrik omil",
+    "Faqat yuz rasmi va boshqa hech narsa, chunki parol eskirgan usul",
+    "Faqat ism va familiya",
+    "Faqat telefon raqami"
+   ],
+   "e": "Uchta autentifikatsiya omili toifasi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlikdagi \"chuqur himoya\" (defense in depth) tamoyili nima?",
+   "a": [
+    "Ko'p qatlamli himoya",
+    "Faqat bitta kuchli firewall o'rnatib, boshqa choralardan voz kechish",
+    "Faqat antivirus",
+    "Faqat jismoniy qo'riqchi"
+   ],
+   "e": "Bir qatlam buzilsa, keyingisi himoya qiladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik bo'yicha \"hujum yuzasi\" (attack surface) nima?",
+   "a": [
+    "Hujumchi foydalanishi mumkin bo'lgan barcha kirish nuqtalari",
+    "Serverning jismoniy o'lchami, og'irligi va u egallagan maydon",
+    "Monitor ekranining yuzi",
+    "Tarmoq kabelining uzunligi"
+   ],
+   "e": "Keraksiz xizmatlarni o'chirish yuzani kamaytiradi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xakerlarning \"oq shlyapali\" turi kimlar?",
+   "a": [
+    "Ruxsat bilan zaifliklarni izlovchi mutaxassislar",
+    "Ruxsatsiz tizimlarga kirib, ma'lumot o'g'irlovchilar",
+    "Faqat viruslar yozuvchilar",
+    "Kompyuter sotuvchilari"
+   ],
+   "e": "Etik xakerlar."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "\"Bug bounty\" dasturi nima?",
+   "a": [
+    "Zaiflik topganlarga mukofot beruvchi dastur",
+    "Dasturdagi xatolarni foydalanuvchilardan yashirish va ularni tuzatmaslik usuli",
+    "Hasharotlarga qarshi dastur",
+    "Antivirus turi"
+   ],
+   "e": "Ko'plab kompaniyalar qo'llaydi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "CVE nima?",
+   "a": [
+    "Ma'lum zaifliklar umumiy ro'yxati identifikatori",
+    "Kompyuter viruslari haqidagi ensiklopediyaning nomi va nashriyoti",
+    "Antivirus kompaniyasi",
+    "Dasturlash tili"
+   ],
+   "e": "Masalan, CVE-2021-44228 (Log4Shell)."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "CVSS nima uchun ishlatiladi?",
+   "a": [
+    "Zaiflik xavflilik darajasini baholash uchun",
+    "Kompyuter va tarmoq tezligini o'lchash uchun ishlatiladigan shkala",
+    "Fayllarni shifrlash uchun",
+    "Parolni yaratish uchun"
+   ],
+   "e": "0 dan 10 gacha shkala."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Shifrlangan matn nima deyiladi?",
+   "a": [
+    "Kriptogramma (shifrmatn)",
+    "Ochiq matn, ya'ni asl tushunarli xabar",
+    "Kalit",
+    "Xesh har doim"
+   ],
+   "e": "Ochiq matn — plaintext."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Sezar shifri qanday ishlaydi?",
+   "a": [
+    "Harflarni alifboda belgilangan qadamga siljitadi",
+    "Harflarni tasodifiy tartibda aralashtirib, kalitsiz o'qib bo'lmaydigan qiladi",
+    "Harflarni raqamlarga aylantiradi va qo'shadi",
+    "Matnni rasmga aylantiradi"
+   ],
+   "e": "Eng sodda o'rniga qo'yish shifri."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "\"Salom\" so'zi Sezar shifri bilan (siljish 1) qanday bo'ladi?",
+   "a": [
+    "Tbmpn",
+    "Rzkln",
+    "Salom",
+    "Ubnqo"
+   ],
+   "e": "S→T, a→b, l→m, o→p, m→n."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Kriptoanaliz nima?",
+   "a": [
+    "Shifrlarni kalitsiz ochish usullari fani",
+    "Shifrlash algoritmlarini yaratish va standartlashtirish fani",
+    "Kriptovalyuta savdosi",
+    "Fayllarni siqish"
+   ],
+   "e": "Kriptografiya va kriptoanaliz — kriptologiya."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Kalit uzunligi oshishi shifr chidamliligiga qanday ta'sir qiladi?",
+   "a": [
+    "Oshiradi",
+    "Kamaytiradi, chunki uzun kalitni topish osonroq",
+    "Ta'sir qilmaydi",
+    "Shifrni buzadi"
+   ],
+   "e": "Variantlar soni eksponensial ortadi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Blokli shifrlashda ECB rejimining kamchiligi nima?",
+   "a": [
+    "Bir xil bloklar bir xil shifrlanadi",
+    "Juda sekin ishlaydi va hech qachon ishlatilmaydi",
+    "Kalit talab qilmaydi",
+    "Faqat rasmlar uchun ishlaydi"
+   ],
+   "e": "Shablonlar ko'rinib qoladi; CBC, GCM afzal."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "HMAC nima uchun ishlatiladi?",
+   "a": [
+    "Xabar yaxlitligi va autentikligini tekshirish",
+    "Xabarni siqish uchun",
+    "Xabarni rangli qilish uchun",
+    "Xabarni o'chirish uchun"
+   ],
+   "e": "Kalitli xesh."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Kvant kompyuterlari qaysi algoritmlarga tahdid soladi?",
+   "a": [
+    "RSA va ECC kabi asimmetrik algoritmlarga",
+    "Faqat Sezar shifriga, boshqa hech qaysi algoritmga ta'sir qilmaydi",
+    "Faqat fayllarni siqishga",
+    "Hech qaysiga"
+   ],
+   "e": "Postkvant kriptografiya ishlab chiqilmoqda."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Bir martalik bloknot (one-time pad) qachon mutlaq xavfsiz?",
+   "a": [
+    "Kalit tasodifiy, xabar uzunligida va bir marta ishlatilsa",
+    "Kalit qisqa bo'lib, xabar davomida ko'p marta takrorlansa",
+    "Kalit oshkor bo'lsa ham",
+    "Har doim, shartsiz"
+   ],
+   "e": "Amalda kalitni tarqatish qiyin."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Adware nima?",
+   "a": [
+    "Reklama ko'rsatuvchi istalmagan dastur",
+    "Fayllarni shifrlab, to'lov talab qiluvchi dastur",
+    "Tizim yadrosini yashiruvchi rootkit",
+    "Antivirus"
+   ],
+   "e": "Ko'pincha bepul dasturlar bilan o'rnatiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Mantiqiy bomba nima?",
+   "a": [
+    "Shart bajarilganda ishga tushadigan zararli kod",
+    "Kompyuterni jismonan portlatuvchi yoki yondiruvchi qurilma",
+    "Matematik masala",
+    "Antivirus moduli"
+   ],
+   "e": "Masalan, ma'lum sanada fayllarni o'chiradi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Backdoor (orqa eshik) nima?",
+   "a": [
+    "Himoyani chetlab o'tib yashirin kirish usuli",
+    "Server xonasining zaxira chiqish eshigi",
+    "Dasturni yangilash tugmasi",
+    "Tarmoq porti nomi faqat"
+   ],
+   "e": "Ishlab chiquvchi yoki hujumchi tomonidan qoldirilishi mumkin."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Typosquatting nima?",
+   "a": [
+    "Mashhur sayt nomiga o'xshash xato yozilgan domenlardan foydalanish",
+    "Klaviaturada tez yozish musobaqasi",
+    "Matndagi imlo xatolarini avtomatik tuzatuvchi dastur funksiyasi",
+    "Domenni qonuniy uzaytirish"
+   ],
+   "e": "Masalan, gooogle.com."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Supply chain (yetkazib berish zanjiri) hujumi nima?",
+   "a": [
+    "Uchinchi tomon dasturi yoki yetkazuvchi orqali tizimga kirish",
+    "Do'konga mahsulot yetkazishni to'xtatish va narxlarni oshirish",
+    "Yuk mashinasini o'g'irlash",
+    "Ombordagi tovarni buzish"
+   ],
+   "e": "Masalan, yangilanish serveriga zararli kod joylash."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Pharming nima?",
+   "a": [
+    "Foydalanuvchini soxta saytga yashirincha yo'naltirish",
+    "Qishloq xo'jaligi dasturi",
+    "Fermerlar uchun internet-do'kon",
+    "Dori-darmon savdosi"
+   ],
+   "e": "DNS yoki hosts faylini o'zgartirish orqali."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Shoulder surfing (yelka ortidan qarash) nima?",
+   "a": [
+    "Parol kiritayotgan odamga qarab, uni bilib olish",
+    "Internetda tasodifiy saytlarni ketma-ket ko'rib chiqish odati",
+    "Sport turi",
+    "Tarmoqni skanerlash"
+   ],
+   "e": "Oddiy, lekin samarali usul."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Credential stuffing hujumi nima?",
+   "a": [
+    "Boshqa saytlardan o'g'irlangan login-parollarni sinab ko'rish",
+    "Yangi va kuchli parollarni tasodifiy generator yordamida yaratish",
+    "Parolni qog'ozga yozish",
+    "Akkauntni o'chirish"
+   ],
+   "e": "Bir xil parolni ko'p joyda ishlatish xavfli."
+  },
+  {
+   "b": "Himoya",
+   "q": "Kompyuterni qulflamasdan qoldirish nima uchun xavfli?",
+   "a": [
+    "Boshqalar ruxsatsiz foydalanishi mumkin",
+    "Kompyuter tezda qizib ketadi va buziladi",
+    "Elektr energiyasi tejaladi",
+    "Hech qanday xavfi yo'q"
+   ],
+   "e": "Win+L — tez qulflash."
+  },
+  {
+   "b": "Himoya",
+   "q": "Noma'lum havolani ochishdan oldin nima qilish kerak?",
+   "a": [
+    "Havola manzilini tekshirish",
+    "Darhol ochish, chunki havolalar har doim xavfsiz",
+    "Havolani do'stlarga ham yuborish",
+    "Antivirusni o'chirish"
+   ],
+   "e": "Sichqonchani havola ustiga olib borib haqiqiy manzilni ko'rish."
+  },
+  {
+   "b": "Himoya",
+   "q": "Mobil qurilmalarni himoyalashda nima muhim?",
+   "a": [
+    "Ilovalarni faqat rasmiy do'konlardan o'rnatish",
+    "Barcha noma'lum manbalardan ilovalar o'rnatishga ruxsat berish",
+    "Ekran qulfini o'chirish",
+    "Operatsion tizimni yangilamaslik"
+   ],
+   "e": "Ilova ruxsatlarini ham tekshirish kerak."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ochiq Wi-Fi tarmoqlarida qanday xavf bor?",
+   "a": [
+    "Trafikni ushlab qolish mumkin",
+    "Internet tezligi juda yuqori bo'ladi va xavf yo'q",
+    "Telefon zaryadi tezda tugaydi faqat",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "VPN ishlatish tavsiya etiladi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Elektron pochtaga kelgan noma'lum ilovani ochish nima uchun xavfli?",
+   "a": [
+    "Zararli dastur bo'lishi mumkin",
+    "Pochta qutisi avtomatik to'lib qoladi va yopiladi",
+    "Kompyuter tezlashadi",
+    "Xavfi yo'q"
+   ],
+   "e": "Ayniqsa .exe, .js, makroli hujjatlar."
+  },
+  {
+   "b": "Himoya",
+   "q": "Makroslar (Office hujjatlarida) nima uchun xavfli bo'lishi mumkin?",
+   "a": [
+    "Zararli kod bajarishi mumkin",
+    "Hujjat rangini o'zgartiradi faqat",
+    "Hujjat hajmini kamaytiradi",
+    "Hujjatni chiroyli qiladi"
+   ],
+   "e": "Noma'lum hujjatlarda makroslarni yoqmaslik kerak."
+  },
+  {
+   "b": "Himoya",
+   "q": "Patch management nima?",
+   "a": [
+    "Yangilanishlarni rejali o'rnatish jarayoni",
+    "Kiyimlarga yamoq tikish",
+    "Faqat yangi kompyuter sotib olib, eskisini almashtirish jarayoni",
+    "Dasturni o'chirish"
+   ],
+   "e": "Zaifliklarni o'z vaqtida yopish."
+  },
+  {
+   "b": "Himoya",
+   "q": "Firewall qoidalarida \"standart rad etish\" (default deny) nimani anglatadi?",
+   "a": [
+    "Ruxsat etilmagan hamma narsa bloklanadi",
+    "Taqiqlanmagan hamma narsa avtomatik ravishda ruxsat etiladi",
+    "Hech narsa bloklanmaydi",
+    "Faqat kechasi bloklanadi"
+   ],
+   "e": "Xavfsizroq yondashuv."
+  },
+  {
+   "b": "Himoya",
+   "q": "SSH protokoli qaysi standart portda ishlaydi?",
+   "a": [
+    "22",
+    "80, ya'ni oddiy veb-sahifalar porti",
+    "25",
+    "3389"
+   ],
+   "e": "Telnet — 23 (shifrlanmagan, xavfli)."
+  },
+  {
+   "b": "Himoya",
+   "q": "Telnet o'rniga nima uchun SSH ishlatiladi?",
+   "a": [
+    "SSH trafikni shifrlaydi",
+    "Telnet ancha tezroq va xavfsizroq bo'lgani uchun",
+    "SSH faqat Windows da ishlaydi",
+    "Farqi yo'q"
+   ],
+   "e": "Telnet parollarni ochiq uzatadi."
+  },
+  {
+   "b": "Himoya",
+   "q": "RDP (masofaviy ish stoli) ni internetga ochiq qoldirish nima uchun xavfli?",
+   "a": [
+    "Parol tanlash hujumlari nishoniga aylanadi",
+    "RDP internetsiz ishlamaydi va bu xavfsiz",
+    "Ekran rangi o'zgaradi",
+    "Hech qanday xavfi yo'q"
+   ],
+   "e": "VPN orqali kirish tavsiya etiladi; standart port 3389."
+  },
+  {
+   "b": "Himoya",
+   "q": "Xavfsiz qilib o'chirish (secure erase) nima?",
+   "a": [
+    "Ma'lumotni tiklab bo'lmaydigan qilib o'chirish",
+    "Faylni oddiygina savatga tashlash va keyin tiklash",
+    "Faylni boshqa papkaga ko'chirish",
+    "Faylni nomini o'zgartirish"
+   ],
+   "e": "Oddiy o'chirilgan fayllarni maxsus dasturlar bilan tiklash mumkin."
+  },
+  {
+   "b": "Himoya",
+   "q": "Antivirus dasturi barcha tahdidlardan to'liq himoya qiladimi?",
+   "a": [
+    "Yo'q",
+    "Ha, antivirus o'rnatilgan kompyuterga hech qanday hujum ta'sir qilmaydi",
+    "Ha, faqat pullik bo'lsa",
+    "Ha, faqat kechasi"
+   ],
+   "e": "Kompleks himoya choralari kerak."
+  },
+  {
+   "b": "Himoya",
+   "q": "EDR tizimi nima?",
+   "a": [
+    "Oxirgi qurilmalarda tahdidlarni aniqlash va javob berish tizimi",
+    "Elektron hujjat aylanishi tizimi",
+    "Elektr ta'minoti rezervi",
+    "Ma'lumotlar bazasi turi"
+   ],
+   "e": "Endpoint Detection and Response."
+  },
+  {
+   "b": "Himoya",
+   "q": "Biometrik autentifikatsiyaning kamchiligi nima?",
+   "a": [
+    "Biometrik ma'lumotni almashtirib bo'lmaydi",
+    "Juda oson unutiladi, xuddi parol kabi",
+    "Faqat kechasi ishlaydi",
+    "Kamchiligi yo'q"
+   ],
+   "e": "O'g'irlangan barmoq izini \"o'zgartirib\" bo'lmaydi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Captcha nima uchun ishlatiladi?",
+   "a": [
+    "Bot va odamni farqlash uchun",
+    "Saytni tezlashtirish va reklama ko'rsatish uchun",
+    "Parolni saqlash uchun",
+    "Fayllarni siqish uchun"
+   ],
+   "e": "Avtomatik hujumlarni qiyinlashtiradi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Jismoniy xavfsizlik choralariga qaysi kiradi?",
+   "a": [
+    "Server xonasiga kirish nazorati",
+    "Faqat dasturiy firewall sozlamalari",
+    "Faqat parol siyosati",
+    "Faqat antivirus"
+   ],
+   "e": "Kamera, kartali kirish, qo'riqlash."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kiber gigiyena nima?",
+   "a": [
+    "Xavfsizlikning kundalik oddiy qoidalariga rioya qilish",
+    "Kompyuter klaviaturasini dezinfeksiya qilish va tozalash",
+    "Faqat tibbiy dastur",
+    "Faqat antivirus sotib olish"
+   ],
+   "e": "Yangilash, kuchli parol, ehtiyotkorlik."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik bo'yicha \"ijtimoiy muhandislik\" hujumidan eng yaxshi himoya nima?",
+   "a": [
+    "Xodimlar xabardorligi",
+    "Faqat qimmat firewall sotib olish va boshqa hech narsa qilmaslik",
+    "Kompyuterni o'chirib qo'yish",
+    "Internetdan butunlay voz kechish"
+   ],
+   "e": "O'qitish va tekshirish tartiblari."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Raqamli iz (digital footprint) nima?",
+   "a": [
+    "Internetda qoldirilgan ma'lumotlar majmui",
+    "Klaviaturadagi barmoq izlari",
+    "Monitordagi chang",
+    "Fayl hajmi"
+   ],
+   "e": "Ijtimoiy tarmoqlardagi postlar, qidiruv tarixi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik va qulaylik o'rtasidagi bog'liqlik qanday?",
+   "a": [
+    "Ko'pincha muvozanat talab qilinadi",
+    "Xavfsizlik oshgani sari qulaylik ham har doim oshib boradi",
+    "Ular bog'liq emas",
+    "Qulaylik har doim muhimroq"
+   ],
+   "e": "Masalan, MFA xavfsizroq, lekin bir qadam ko'proq."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Kalitlarni boshqarish nimani o'z ichiga oladi?",
+   "a": [
+    "Yaratish, saqlash, tarqatish, almashtirish va yo'q qilish",
+    "Faqat kalitni qog'ozga yozib, stol ustida saqlash",
+    "Faqat kalit nomini tanlash",
+    "Faqat kalitni o'chirish"
+   ],
+   "e": "Kriptografik tizim xavfsizligi kalitlar xavfsizligiga bog'liq."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Sertifikatlash markazi (CA) nima qiladi?",
+   "a": [
+    "Raqamli sertifikatlarni beradi va imzolaydi",
+    "Kompyuterlarni sertifikatlab, sotadi",
+    "Viruslarni yaratadi",
+    "Faqat parollarni saqlaydi"
+   ],
+   "e": "Ishonch zanjirining asosi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Muddati o'tgan SSL/TLS sertifikati bilan saytga kirganda brauzer nima qiladi?",
+   "a": [
+    "Ogohlantirish chiqaradi",
+    "Saytni tezroq ochadi va hech narsa demaydi",
+    "Kompyuterni o'chiradi",
+    "Sertifikatni avtomatik yangilaydi"
+   ],
+   "e": "Sertifikat yangilanishi kerak."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Oxiridan oxirigacha shifrlash (E2EE) nimani anglatadi?",
+   "a": [
+    "Faqat jo'natuvchi va qabul qiluvchi o'qiy oladi",
+    "Server ham xabarlarni o'qib, ularni saqlaydi",
+    "Xabarlar shifrlanmaydi",
+    "Faqat oxirgi xabar shifrlanadi"
+   ],
+   "e": "Xizmat ko'rsatuvchi ham kontentni ko'rmaydi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Klikjeking (clickjacking) nima?",
+   "a": [
+    "Yashirin element ustiga foydalanuvchini bosishga majburlash",
+    "Sichqonchani o'g'irlash",
+    "Juda ko'p marta bosib saytni buzish",
+    "Reklama ko'rsatish faqat"
+   ],
+   "e": "X-Frame-Options sarlavhasi himoya qiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Ma'lumotlar sizib chiqishi (data breach) nima?",
+   "a": [
+    "Maxfiy ma'lumotlarning ruxsatsiz oshkor bo'lishi",
+    "Kompyuterdan suv oqib chiqishi",
+    "Ma'lumotlar bazasining tez ishlashi",
+    "Fayllarni zaxiralash"
+   ],
+   "e": "Shaxsiy ma'lumotlar, parollar, karta raqamlari."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Watering hole hujumi nima?",
+   "a": [
+    "Nishon guruh tez-tez kiradigan saytni zararlash",
+    "Suv ta'minoti tizimini buzish",
+    "Bog'ni sug'orish dasturi",
+    "Elektron pochta spami"
+   ],
+   "e": "Nishon foydalanuvchilar tanish saytga kirib zararlanadi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Fayl kengaytmasini yashirish xavfi nima?",
+   "a": [
+    "\"foto.jpg.exe\" kabi zararli fayllar rasmdek ko'rinadi",
+    "Fayllar tezroq ochiladi va xavf kamayadi",
+    "Fayllar hajmi kamayadi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Kengaytmalarni ko'rsatish yoqilishi tavsiya etiladi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Muvaffaqiyatsiz kirish urinishlarining ko'pligi nimani bildirishi mumkin?",
+   "a": [
+    "Parol tanlash hujumini",
+    "Tarmoqning juda tez ishlayotganini va hamma narsa joyida ekanini",
+    "Yangi foydalanuvchi qo'shilganini",
+    "Hech narsani"
+   ],
+   "e": "Akkauntni vaqtincha bloklash choralari ko'riladi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Xavfsizlik hodisasi haqidagi xabarni kimga yetkazish kerak?",
+   "a": [
+    "Mas'ul xavfsizlik bo'limiga",
+    "Hech kimga aytmasdan, o'zi mustaqil ravishda hal qilish",
+    "Ijtimoiy tarmoqqa joylash",
+    "Hujumchiga"
+   ],
+   "e": "Tezkor xabar zararni kamaytiradi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Hodisadan keyingi tahlilning maqsadi nima?",
+   "a": [
+    "Sabablarni aniqlash va takrorlanishining oldini olish",
+    "Aybdor xodimni darhol jazolash va boshqa hech narsa qilmaslik",
+    "Hodisani yashirish",
+    "Jurnallarni o'chirish"
+   ],
+   "e": "\"Olingan saboqlar\" hujjatlashtiriladi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Tarmoq trafigidagi keskin o'sish nimani bildirishi mumkin?",
+   "a": [
+    "DDoS hujumi yoki ma'lumot sizishi",
+    "Tarmoqning to'liq xavfsizligini",
+    "Kompyuter o'chganini",
+    "Hech narsani"
+   ],
+   "e": "Monitoring tizimlari ogohlantiradi."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Axborot xavfsizligi bo'yicha korxona ichki hujjatlariga nima kiradi?",
+   "a": [
+    "Xavfsizlik siyosati va yo'riqnomalar",
+    "Faqat xodimlarning ta'til jadvali",
+    "Faqat ish haqi vedomosti",
+    "Faqat reklama materiallari"
+   ],
+   "e": "Ular xodimlar tomonidan tanishib chiqilishi kerak."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Maxfiylik to'g'risidagi kelishuv (NDA) nima?",
+   "a": [
+    "Maxfiy ma'lumotni oshkor qilmaslik majburiyati",
+    "Dasturni bepul tarqatish ruxsatnomasi",
+    "Ishga qabul qilish buyrug'i",
+    "Mehnat ta'tili arizasi"
+   ],
+   "e": "Xodimlar va hamkorlar bilan tuziladi."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Xalqaro \"Kiberxavfsizlik oyligi\" qaysi oyda o'tkaziladi?",
+   "a": [
+    "Oktyabr",
+    "Yanvar",
+    "Aprel",
+    "Iyul"
+   ],
+   "e": "Ko'plab mamlakatlarda oktyabr kiberxavfsizlik xabardorligi oyi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Fayllarni shifrlab, kalit uchun pul talab qiluvchi zararli dastur qanday nomlanadi?",
+   "a": [
+    "Ransomware",
+    "Adware (reklama ko'rsatuvchi dastur)",
+    "Spyware (josuslik dasturi)",
+    "Keylogger (klaviatura yozuvchi)"
+   ],
+   "e": "To'lov talab qiluvchi dastur."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Klaviaturada bosilgan tugmalarni yashirincha yozib oluvchi dastur qanday nomlanadi?",
+   "a": [
+    "Keylogger",
+    "Firewall (tarmoqlararo ekran)",
+    "Antivirus (himoya dasturi)",
+    "Sandbox (izolyatsiyalangan muhit)"
+   ],
+   "e": "Parollarni o'g'irlash uchun ishlatiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "O'zini foydali dastur qilib ko'rsatuvchi zararli dastur qanday nomlanadi?",
+   "a": [
+    "Troyan",
+    "Chuvalchang (tarmoq orqali o'zi tarqaladi)",
+    "Rootkit (yadroda yashirinadi)",
+    "Botnet (zararlangan qurilmalar tarmog'i)"
+   ],
+   "e": "Qadimgi Troya oti afsonasidan."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Zararlangan kompyuterlar tarmog'i qanday nomlanadi?",
+   "a": [
+    "Botnet",
+    "Intranet (korxona ichki tarmog'i)",
+    "Ekstranet (hamkorlar uchun tarmoq)",
+    "Internet (global tarmoq)"
+   ],
+   "e": "Bot — zararlangan qurilma, \"zombi\"."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Soxta elektron xat orqali parolni aldab olish qanday nomlanadi?",
+   "a": [
+    "Fishing",
+    "Sniffing (trafikni tinglash)",
+    "Spoofing (manzilni soxtalashtirish)",
+    "Scanning (portlarni skanerlash)"
+   ],
+   "e": "Ingliz tilidagi \"fishing\" — baliq ovi so'zidan."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Tarmoq trafigini yashirincha tinglash qanday nomlanadi?",
+   "a": [
+    "Sniffing",
+    "Fishing (aldab ma'lumot olish)",
+    "Defacing (sayt ko'rinishini buzish)",
+    "Patching (yangilanish o'rnatish)"
+   ],
+   "e": "Shifrlanmagan trafik xavf ostida."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Jo'natuvchi manzilini soxtalashtirish qanday nomlanadi?",
+   "a": [
+    "Spoofing",
+    "Sniffing (trafikni ushlash)",
+    "Hashing (xesh hisoblash)",
+    "Salting (parolga tuz qo'shish)"
+   ],
+   "e": "IP, email, DNS spoofing."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Veb-sayt bosh sahifasini buzib, o'zgartirish qanday nomlanadi?",
+   "a": [
+    "Deface",
+    "Backup (zaxira nusxa olish)",
+    "Restore (tiklash)",
+    "Deploy (joylashtirish)"
+   ],
+   "e": "Ko'pincha siyosiy maqsadda."
+  },
+  {
+   "b": "Himoya",
+   "q": "Shubhali faylni izolyatsiyada ishga tushirish texnologiyasi qanday nomlanadi?",
+   "a": [
+    "Sandbox",
+    "Botnet (zararlangan tarmoq)",
+    "Phishing (aldash hujumi)",
+    "Rootkit (yashirin zararli dastur)"
+   ],
+   "e": "\"Qum qutisi\"."
+  },
+  {
+   "b": "Himoya",
+   "q": "Tarmoqqa kirish va chiqish trafigini filtrlovchi vosita qanday nomlanadi?",
+   "a": [
+    "Firewall",
+    "Keylogger (tugmalar yozuvchi)",
+    "Malware (zararli dastur)",
+    "Trojan (niqoblangan dastur)"
+   ],
+   "e": "Tarmoqlararo ekran."
+  },
+  {
+   "b": "Himoya",
+   "q": "Hujumlarni aniqlab, avtomatik bloklovchi tizim qanday nomlanadi?",
+   "a": [
+    "IPS",
+    "DNS (domen nomlari tizimi)",
+    "DHCP (manzil berish protokoli)",
+    "FTP (fayl uzatish protokoli)"
+   ],
+   "e": "Intrusion Prevention System."
+  },
+  {
+   "b": "Himoya",
+   "q": "Zaxira nusxadan ma'lumotlarni qayta tiklash qanday nomlanadi?",
+   "a": [
+    "Restore",
+    "Backup (nusxa olish jarayonining o'zi)",
+    "Format (diskni tozalash)",
+    "Defrag (diskni tartiblash)"
+   ],
+   "e": "Muntazam tiklash sinovi tavsiya etiladi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Dasturdagi zaiflikni tuzatuvchi yangilanish qanday nomlanadi?",
+   "a": [
+    "Patch",
+    "Exploit (zaiflikdan foydalanish kodi)",
+    "Payload (zararli yuk)",
+    "Backdoor (yashirin kirish)"
+   ],
+   "e": "Yamoq."
+  },
+  {
+   "b": "Himoya",
+   "q": "Bir martalik parol qanday qisqartma bilan ataladi?",
+   "a": [
+    "OTP",
+    "VPN (virtual xususiy tarmoq)",
+    "SSL (eski shifrlash protokoli)",
+    "RAM (operativ xotira)"
+   ],
+   "e": "One-Time Password."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Ochiq va yopiq kalit juftligidan foydalanuvchi shifrlash qanday nomlanadi?",
+   "a": [
+    "Asimmetrik",
+    "Simmetrik (bitta umumiy kalit bilan)",
+    "Gibrid faqat (har doim ikkala usul birga)",
+    "Kalitsiz shifrlash"
+   ],
+   "e": "RSA, ECC."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Ixtiyoriy uzunlikdagi ma'lumotdan qat'iy uzunlikdagi qiymat hosil qiluvchi funksiya qanday nomlanadi?",
+   "a": [
+    "Xesh-funksiya",
+    "Shifrlash funksiyasi (kalit bilan qaytariladigan)",
+    "Kompressiya funksiyasi (fayl siqish)",
+    "Kodlash funksiyasi (Base64)"
+   ],
+   "e": "SHA-256 — 256 bitlik xesh beradi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "SHA-256 xesh funksiyasi necha bitlik natija beradi?",
+   "a": [
+    "256",
+    "128 (bu MD5 natijasi uzunligi)",
+    "512 (bu SHA-512 natijasi)",
+    "160 (bu SHA-1 natijasi)"
+   ],
+   "e": "64 ta o'n oltilik belgi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "RSA algoritmi qaysi matematik muammoga asoslangan?",
+   "a": [
+    "Katta sonlarni tub ko'paytuvchilarga ajratish qiyinligi",
+    "Diskret logarifmni topishning osonligi va tez hisoblanishi",
+    "Kvadrat tenglamani yechish",
+    "Sonlarni qo'shish"
+   ],
+   "e": "Kalit uzunligi odatda 2048 bit va undan ko'p."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Elektron hujjat muallifini va yaxlitligini tasdiqlovchi vosita qanday nomlanadi?",
+   "a": [
+    "Raqamli imzo",
+    "Elektron pochta manzili (email)",
+    "Fayl nomi va kengaytmasi",
+    "Fayl hajmi"
+   ],
+   "e": "Asimmetrik kriptografiya asosida."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Zaiflikdan foydalanish uchun yozilgan kod qanday nomlanadi?",
+   "a": [
+    "Eksployt",
+    "Patch (tuzatuvchi yangilanish)",
+    "Firewall (filtr)",
+    "Backup (zaxira)"
+   ],
+   "e": "Exploit."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Hujumchi zararli dastur orqali qurilmada bajaradigan asosiy zararli harakat (yuk) qanday nomlanadi?",
+   "a": [
+    "Payload",
+    "Header (paket sarlavhasi)",
+    "Footer (sahifa pastki qismi)",
+    "Patch (yangilanish)"
+   ],
+   "e": "Masalan, fayllarni shifrlash."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik qoidalarini buzgan holda qurilmaning ishlab chiqaruvchi cheklovlarini olib tashlash (iPhone) qanday nomlanadi?",
+   "a": [
+    "Jailbreak",
+    "Backup (zaxira nusxa)",
+    "Update (rasmiy yangilanish)",
+    "Reset (zavod sozlamalariga qaytarish)"
+   ],
+   "e": "Xavfsizlik darajasi pasayadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Android qurilmada superfoydalanuvchi huquqini olish qanday nomlanadi?",
+   "a": [
+    "Root",
+    "Login (oddiy tizimga kirish)",
+    "Logout (tizimdan chiqish)",
+    "Sync (sinxronlash)"
+   ],
+   "e": "Zararli ilovalar uchun xavf oshadi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Tarmoq paketlarini tahlil qiluvchi mashhur bepul dastur qaysi?",
+   "a": [
+    "Wireshark",
+    "Photoshop (grafik muharrir)",
+    "Excel (elektron jadval)",
+    "PowerPoint (taqdimot dasturi)"
+   ],
+   "e": "Protokol tahlilchisi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Ochiq portlarni skanerlovchi mashhur utilita qaysi?",
+   "a": [
+    "Nmap",
+    "Notepad (matn muharriri)",
+    "Paint (rasm chizish)",
+    "Calculator (kalkulyator)"
+   ],
+   "e": "Network Mapper."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Penetratsion testlar uchun mashhur freymvork qaysi?",
+   "a": [
+    "Metasploit",
+    "Microsoft Word (matn muharriri)",
+    "Google Maps (xarita xizmati)",
+    "Telegram (messenjer)"
+   ],
+   "e": "Eksploytlar va yuklar bazasi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Xavfsizlik hodisalarini markazlashgan holda yig'ib tahlil qiluvchi tizim qanday nomlanadi?",
    "a": [
     "SIEM",
-    "CRM",
-    "ERP",
-    "CMS"
+    "CRM (mijozlar bilan ishlash tizimi)",
+    "ERP (korxona resurslarini boshqarish)",
+    "CMS (kontent boshqaruv tizimi)"
    ],
-   "e": "SIEM — Security Information and Event Management."
+   "e": "Security Information and Event Management."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Kiberxavfsizlik sohasidagi xalqaro boshqaruv standarti qaysi?",
+   "a": [
+    "ISO/IEC 27001",
+    "ISO 9001 (sifat menejmenti standarti)",
+    "ISO 14001 (ekologik menejment)",
+    "ISO 45001 (mehnat muhofazasi)"
+   ],
+   "e": "ISMS — axborot xavfsizligi menejment tizimi."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Yevropa Ittifoqining shaxsiy ma'lumotlarni himoya qilish reglamenti qanday nomlanadi?",
+   "a": [
+    "GDPR",
+    "HTTP (gipermatn protokoli)",
+    "USB (universal shina)",
+    "HDMI (video interfeysi)"
+   ],
+   "e": "General Data Protection Regulation."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Bir vaqtda ko'plab qurilmalardan so'rov yuborib saytni ishdan chiqarish qanday nomlanadi?",
+   "a": [
+    "DDoS",
+    "VPN (shifrlangan kanal)",
+    "SSH (xavfsiz masofaviy kirish)",
+    "TLS (trafikni shifrlash)"
+   ],
+   "e": "Distributed Denial of Service."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Parolni barcha kombinatsiyalarni sinab topish qanday nomlanadi?",
+   "a": [
+    "Brute force",
+    "Phishing (aldab olish)",
+    "Sniffing (trafikni tinglash)",
+    "Social engineering (psixologik ta'sir)"
+   ],
+   "e": "To'liq tanlash."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Veb-formaga zararli SQL kodini kiritish hujumi qanday nomlanadi?",
+   "a": [
+    "SQL injection",
+    "Cross-site scripting (brauzerda skript bajarish)",
+    "Clickjacking (yashirin tugma)",
+    "Typosquatting (o'xshash domen)"
+   ],
+   "e": "Ma'lumotlar bazasiga ruxsatsiz kirish."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Saytga brauzerda bajariladigan zararli skript joylash hujumi qanday nomlanadi?",
+   "a": [
+    "XSS",
+    "SQLi (ma'lumotlar bazasiga in'eksiya)",
+    "DoS (xizmatni rad etish)",
+    "MITM (o'rtadagi odam)"
+   ],
+   "e": "Cross-Site Scripting."
+  },
+  {
+   "b": "Himoya",
+   "q": "Parolning murakkabligini oshirishda qaysi omil eng ko'p ta'sir qiladi?",
+   "a": [
+    "Uzunlik",
+    "Faqat bitta katta harf qo'shish",
+    "Tug'ilgan yilni qo'shish",
+    "Ismni teskari yozish"
+   ],
+   "e": "Har bir qo'shimcha belgi variantlarni ko'paytiradi."
+  },
+  {
+   "b": "Himoya",
+   "q": "\"Qwerty123\" paroli nima uchun zaif?",
+   "a": [
+    "Keng tarqalgan va lug'atlarda bor",
+    "Juda uzun va eslab qolish qiyin",
+    "Unda raqamlar yo'q",
+    "U juda murakkab"
+   ],
+   "e": "Eng ko'p ishlatiladigan parollar ro'yxatida."
+  },
+  {
+   "b": "Himoya",
+   "q": "Bir xil parolni ko'p saytlarda ishlatishning xavfi nima?",
+   "a": [
+    "Bitta sayt buzilsa, boshqa akkauntlar ham xavf ostida",
+    "Parolni eslab qolish qiyinlashadi",
+    "Saytlar sekin ishlaydi",
+    "Hech qanday xavfi yo'q"
+   ],
+   "e": "Credential stuffing hujumlari."
+  },
+  {
+   "b": "Himoya",
+   "q": "Akkauntni tiklash uchun \"maxfiy savol\" javobini qanday tanlash kerak?",
+   "a": [
+    "Boshqalar bilmaydigan va topib bo'lmaydigan",
+    "Ijtimoiy tarmoqda e'lon qilingan ma'lumot (masalan, maktab nomi)",
+    "Faqat ismingiz",
+    "Faqat \"1234\""
+   ],
+   "e": "Ijtimoiy tarmoqdagi ma'lumotlarni hujumchi topishi mumkin."
+  },
+  {
+   "b": "Himoya",
+   "q": "Kompaniya xodimiga \"IT bo'limidan\" qo'ng'iroq qilib parol so'ralsa nima qilish kerak?",
+   "a": [
+    "Parolni aytmaslik va xabarni tekshirish",
+    "Darhol parolni aytish, chunki IT bo'limi hamma narsani bilishi kerak",
+    "Parolni SMS orqali yuborish",
+    "Parolni elektron pochtaga yozish"
+   ],
+   "e": "Haqiqiy IT xodimi parol so'ramaydi."
+  },
+  {
+   "b": "Himoya",
+   "q": "USB flesh-xotirani noma'lum joydan topib olsangiz nima qilish kerak?",
+   "a": [
+    "Uni ishchi kompyuterga ulamaslik",
+    "Darhol ishchi kompyuterga ulab, egasini aniqlash uchun fayllarini ochish",
+    "Uyga olib ketib, shaxsiy kompyuterga ulash",
+    "Do'stlarga berish"
+   ],
+   "e": "Baiting hujumi bo'lishi mumkin."
+  },
+  {
+   "b": "Himoya",
+   "q": "Bank kartasi ma'lumotlarini kiritishdan oldin saytda nimani tekshirish kerak?",
+   "a": [
+    "HTTPS va to'g'ri domen nomi",
+    "Saytning rangi va logotipining chiroyliligi",
+    "Saytdagi reklamalar soni",
+    "Saytning yuklanish tezligi"
+   ],
+   "e": "Soxta saytlar asliga o'xshatib yasaladi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ilovalarga ortiqcha ruxsatlar (kamera, kontaktlar) berish nima uchun xavfli?",
+   "a": [
+    "Shaxsiy ma'lumotlar sizib chiqishi mumkin",
+    "Telefon tezlashadi va batareya uzoqroq ishlaydi",
+    "Ilova bepul bo'lib qoladi",
+    "Hech qanday xavfi yo'q"
+   ],
+   "e": "Faqat zarur ruxsatlarni berish kerak."
+  },
+  {
+   "b": "Himoya",
+   "q": "Smart-qurilmalar (IoT) xavfsizligida asosiy muammo nima?",
+   "a": [
+    "Standart parollar va yangilanmaslik",
+    "Juda kuchli shifrlash va murakkab sozlamalar",
+    "Juda ko'p xotira",
+    "Internetsiz ishlashi"
+   ],
+   "e": "Botnetlarga jalb qilinishi mumkin (masalan, Mirai)."
+  },
+  {
+   "b": "Himoya",
+   "q": "Bulutli xizmatlarda ma'lumot xavfsizligi uchun kim javobgar?",
+   "a": [
+    "Provayder va mijoz birgalikda",
+    "Faqat provayder, mijoz hech qanday choralar ko'rmasligi mumkin",
+    "Faqat mijoz",
+    "Hech kim"
+   ],
+   "e": "Umumiy mas'uliyat modeli."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Axborot aktivi nima?",
+   "a": [
+    "Tashkilot uchun qiymatga ega bo'lgan axborot yoki resurs",
+    "Faqat kompyuterning narxi va buxgalteriya hisobidagi qiymati",
+    "Faqat ofis mebeli",
+    "Faqat xodimlar soni"
+   ],
+   "e": "Ma'lumotlar, dasturlar, qurilmalar, xizmatlar."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Risklarni boshqarish usullariga qaysilar kiradi?",
+   "a": [
+    "Kamaytirish, o'tkazish, qabul qilish, oldini olish",
+    "Faqat riskni e'tiborsiz qoldirish",
+    "Faqat hujumchini jazolash",
+    "Faqat kompyuterni o'chirish"
+   ],
+   "e": "Masalan, sug'urta — riskni o'tkazish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Biznesning uzluksizligi rejasi (BCP) nima?",
+   "a": [
+    "Favqulodda holatda faoliyatni davom ettirish rejasi",
+    "Kompaniyaning yillik moliyaviy hisoboti",
+    "Xodimlarning ta'til jadvali",
+    "Mahsulot reklamasi rejasi"
+   ],
+   "e": "Tiklash rejasi (DRP) bilan birga."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "RTO (tiklash vaqti maqsadi) nimani bildiradi?",
+   "a": [
+    "Tizimni tiklash uchun ruxsat etilgan maksimal vaqt",
+    "Ma'lumotlarni qanchalik ko'p yo'qotish mumkinligi",
+    "Serverning ishlab chiqarilgan yili",
+    "Tarmoq tezligi"
+   ],
+   "e": "RPO — yo'qotish mumkin bo'lgan ma'lumot hajmi (vaqt bo'yicha)."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Wi-Fi parolini (WPA2-PSK) qanday kuchaytirish mumkin?",
+   "a": [
+    "Uzun va tasodifiy parol tanlash",
+    "Parolni \"12345678\" qilib qo'yish",
+    "Router nomini parol qilib qo'yish",
+    "Parolni o'chirib, ochiq tarmoq qilish"
+   ],
+   "e": "Qisqa parollar oflayn tanlash bilan topiladi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Simmetrik va asimmetrik shifrlash amalda qanday birga ishlatiladi?",
+   "a": [
+    "Asimmetrik bilan kalit almashiladi, ma'lumot simmetrik shifrlanadi",
+    "Faqat asimmetrik shifrlash bilan barcha ma'lumotlar shifrlanadi",
+    "Ular hech qachon birga ishlatilmaydi",
+    "Faqat simmetrik bilan kalit almashiladi"
+   ],
+   "e": "TLS da gibrid sxema."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Xeshlardan parollarni tiklash uchun oldindan hisoblangan jadvallar qanday nomlanadi?",
+   "a": [
+    "Rainbow tables",
+    "Truth tables (haqiqat jadvallari)",
+    "Routing tables (marshrutlash jadvallari)",
+    "Hash tables (ma'lumotlar tuzilmasi)"
+   ],
+   "e": "Tuz bu hujumni samarasiz qiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Ijtimoiy tarmoqlarda shaxsiy ma'lumotlarni ko'p e'lon qilish nimaga olib kelishi mumkin?",
+   "a": [
+    "Nishonli hujumlar va shaxsni o'g'irlash",
+    "Akkauntning yanada xavfsiz bo'lishi",
+    "Internet tezligining oshishi",
+    "Hech narsaga"
+   ],
+   "e": "OSINT — ochiq manbalardan razvedka."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "OSINT nima?",
+   "a": [
+    "Ochiq manbalardan ma'lumot yig'ish",
+    "Operatsion tizim yadrosining nomi",
+    "Shifrlash algoritmi",
+    "Antivirus dasturi"
+   ],
+   "e": "Open Source Intelligence."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Hujumchilar zaifliklarni topish uchun avval nima qiladi?",
+   "a": [
+    "Razvedka (ma'lumot yig'ish)",
+    "Darhol tasodifiy tarzda tizimni buzishga harakat qiladi",
+    "Tizim egasidan ruxsat so'raydi",
+    "Hech narsa qilmaydi"
+   ],
+   "e": "Kiber hujum zanjirining birinchi bosqichi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Kiber hujum zanjiri (Cyber Kill Chain) modeli nimani tavsiflaydi?",
+   "a": [
+    "Hujum bosqichlari ketma-ketligini",
+    "Antivirus dasturlarining reytingini",
+    "Kompyuter qismlarini yig'ish tartibini",
+    "Tarmoq kabellari turlarini"
+   ],
+   "e": "Razvedka, qurollantirish, yetkazish, ekspluatatsiya va h.k."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Zararli dastur kompyuterga tushganining belgilari qaysilar?",
+   "a": [
+    "Tizim sekinlashuvi, noma'lum jarayonlar, g'ayrioddiy trafik",
+    "Kompyuterning odatdagidan tez ishlashi va hamma narsa joyida bo'lishi",
+    "Ekran yorqinligining oshishi",
+    "Hech qanday belgi bo'lmaydi har doim"
+   ],
+   "e": "Shubha tug'ilsa, tarmoqdan uzib, tekshirish kerak."
   },
   {
    "b": "Monitoring",
-   "q": "Tizim zaifliklarini ruxsat bilan, hujumchi kabi tekshirish qanday ataladi?",
+   "q": "Zararlangan kompyuterni aniqlaganda birinchi navbatda nima qilish kerak?",
    "a": [
-    "Penetratsion test (pentest)",
-    "Defragmentatsiya",
-    "Formatlash",
-    "Kompilyatsiya"
+    "Tarmoqdan uzish",
+    "Uni tarmoqda qoldirib, boshqa kompyuterlarga fayllarni nusxalash",
+    "Hech kimga aytmasdan ishlashda davom etish",
+    "Barcha jurnallarni o'chirish"
    ],
-   "e": "Pentest faqat tizim egasining yozma roziligi bilan o'tkaziladi."
+   "e": "Tahdid tarqalishining oldini olish."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Xavfsizlik jurnallarini qancha vaqt saqlash kerak?",
+   "a": [
+    "Siyosat va qonunchilikda belgilangan muddatda",
+    "Bir kundan ko'p saqlash taqiqlangan",
+    "Umuman saqlamaslik kerak",
+    "Faqat bir soat"
+   ],
+   "e": "Tekshiruvlar uchun tarixiy ma'lumotlar zarur."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Tahdidlar haqida razvedka ma'lumotlari (threat intelligence) nima beradi?",
+   "a": [
+    "Yangi tahdidlar va hujum usullari haqida bilim",
+    "Kompyuterlarni arzonroq sotib olish imkoniyati",
+    "Internet tezligini oshirish",
+    "Faqat reklama"
+   ],
+   "e": "Himoyani oldindan sozlash imkonini beradi."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Kiberjinoyatlarga qarshi kurash bo'yicha xalqaro hujjat qaysi?",
+   "a": [
+    "Budapesht konvensiyasi",
+    "Kioto protokoli, ya'ni iqlim bo'yicha kelishuv",
+    "Parij kelishuvi",
+    "Monreal protokoli"
+   ],
+   "e": "Yevropa Kengashi tomonidan 2001-yilda qabul qilingan."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Xodim ishdan bo'shaganda axborot xavfsizligi nuqtai nazaridan nima qilinadi?",
+   "a": [
+    "Barcha kirish huquqlari bekor qilinadi",
+    "Uning akkaunti boshqa xodimlarga berib qo'yiladi",
+    "Akkaunt faol qoldiriladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Sobiq xodimlar akkauntlari insayder tahdid manbai bo'lishi mumkin."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Kiberxavfsizlik mutaxassisining kasbiy etikasi nimani talab qiladi?",
+   "a": [
+    "Olingan bilimlarni faqat qonuniy maqsadlarda qo'llash",
+    "Topilgan zaifliklardan shaxsiy manfaat uchun foydalanish",
+    "Mijoz ma'lumotlarini sotish",
+    "Ruxsatsiz testlar o'tkazish"
+   ],
+   "e": "Mas'uliyatli oshkor qilish tamoyili."
+  },
+  {
+   "b": "Himoya",
+   "q": "Brauzerda saqlangan parollarning xavfi nima?",
+   "a": [
+    "Zararli dastur ularni o'g'irlashi mumkin",
+    "Brauzer sekin ishlay boshlaydi va saytlar ochilmaydi",
+    "Parollar avtomatik o'chib ketadi",
+    "Hech qanday xavfi yo'q"
+   ],
+   "e": "Master-parol yoki maxsus menejer xavfsizroq."
+  },
+  {
+   "b": "Himoya",
+   "q": "Xavfsizlik nuqtai nazaridan dasturlarni qayerdan yuklab olish kerak?",
+   "a": [
+    "Rasmiy saytlar va do'konlardan",
+    "Noma'lum forumlar va torrent saytlaridan, chunki u yerda bepul",
+    "Begona flesh-xotiralardan",
+    "Spam xatlardagi havolalardan"
+   ],
+   "e": "Buzilgan (crack) dasturlar ko'pincha zararli kod saqlaydi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Elektron pochtada jo'natuvchi manzilini tekshirish nima uchun muhim?",
+   "a": [
+    "Soxta jo'natuvchini aniqlash uchun",
+    "Xatni tezroq o'qish uchun",
+    "Pochta qutisini tozalash uchun",
+    "Xatga javob bermaslik uchun"
+   ],
+   "e": "support@bank.uz va support@bank-uz.com farqi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ish kompyuterida shaxsiy ishlar bilan shug'ullanish nima uchun xavfli bo'lishi mumkin?",
+   "a": [
+    "Zararli dastur korporativ tarmoqqa tushishi mumkin",
+    "Kompyuter tezroq ishlaydi",
+    "Kompyuter zaryadi tugaydi",
+    "Hech qanday xavfi yo'q"
+   ],
+   "e": "Xavfsizlik siyosatiga rioya qilish kerak."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ekran qulfi uchun qaysi usul xavfsizroq?",
+   "a": [
+    "Uzun PIN yoki parol",
+    "\"1111\" kabi oddiy PIN kod",
+    "Qulfsiz qoldirish",
+    "Faqat chizma \"L\" harfi"
+   ],
+   "e": "Biometrik va kuchli parol birgalikda."
+  },
+  {
+   "b": "Himoya",
+   "q": "Antivirus dasturi qanchalik tez-tez yangilanishi kerak?",
+   "a": [
+    "Muntazam, avtomatik",
+    "Yiliga bir marta, faqat yangi yil arafasida",
+    "Hech qachon",
+    "Faqat virus topilgandan keyin"
+   ],
+   "e": "Har kuni yangi tahdidlar paydo bo'ladi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "HTTPS qaysi xavfsizlik xususiyatlarini ta'minlaydi?",
+   "a": [
+    "Shifrlash, yaxlitlik va server autentifikatsiyasi",
+    "Faqat saytni tezlashtirish va reklama bloklash",
+    "Faqat foydalanuvchini anonim qilish",
+    "Viruslarni o'chirish"
+   ],
+   "e": "Server sertifikati tekshiriladi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "O'z-o'zidan imzolangan sertifikatning kamchiligi nima?",
+   "a": [
+    "Brauzer unga ishonmaydi",
+    "U har doim ishonchliroq, chunki uchinchi tomon kerak emas",
+    "U shifrlashni ta'minlamaydi umuman",
+    "U pullik"
+   ],
+   "e": "Ishonchli CA imzosi yo'q."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Kriptovalyutalar qaysi texnologiyaga asoslangan?",
+   "a": [
+    "Blokcheyn",
+    "Faqat oddiy ma'lumotlar bazasi, markaziy bank serverida",
+    "Faqat qog'oz pul",
+    "Faqat SMS"
+   ],
+   "e": "Kriptografik xeshlar va raqamli imzolar ishlatiladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Deepfake texnologiyasi qanday xavf tug'diradi?",
+   "a": [
+    "Soxta video va ovoz orqali aldash",
+    "Kompyuterni jismonan buzish",
+    "Internet tezligini oshirish",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Masalan, rahbar ovozida soxta buyruq."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Sun'iy intellekt hujumchilar tomonidan qanday ishlatilishi mumkin?",
+   "a": [
+    "Ishonarli fishing xatlarini avtomatik yaratish",
+    "Faqat himoya tizimlarini kuchaytirish uchun",
+    "Faqat ob-havo prognozi uchun",
+    "Umuman ishlatilmaydi"
+   ],
+   "e": "Himoya tomonida ham SI keng qo'llaniladi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Fishing xatining odatiy belgilari qaysilar?",
+   "a": [
+    "Shoshilinchlik, xato imlo, shubhali havola",
+    "Rasmiy imzo, to'g'ri imlo va jo'natuvchining aniq manzili",
+    "Hech qanday havola yo'qligi",
+    "Xat juda qisqa bo'lishi"
+   ],
+   "e": "\"Akkauntingiz 24 soatda bloklanadi!\""
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Hujumchilar QR-koddan qanday foydalanishi mumkin?",
+   "a": [
+    "Soxta saytga yo'naltiruvchi QR-kod joylash",
+    "QR-kod orqali kompyuterni jismonan sindirish",
+    "QR-kodni o'chirish",
+    "QR-kod orqali internetni tezlashtirish"
+   ],
+   "e": "\"Quishing\" — QR orqali fishing."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Kiber hodisani tekshirishda dalillarni saqlashning asosiy qoidasi nima?",
+   "a": [
+    "Asl dalilni o'zgartirmaslik va nusxa bilan ishlash",
+    "Dalillarni tezda o'chirib, tizimni toza holga keltirish",
+    "Dalillarni internetga joylash",
+    "Dalillarni hujumchiga yuborish"
+   ],
+   "e": "Dalillar zanjiri (chain of custody)."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Xavfsizlik ogohlantirishlarining ko'p bo'lishi (\"ogohlantirish charchog'i\") qanday xavf tug'diradi?",
+   "a": [
+    "Muhim ogohlantirishlar e'tibordan chetda qolishi",
+    "Tizim xavfsizroq bo'lib, hujumlar kamayadi",
+    "Kompyuter tezlashadi",
+    "Hech qanday xavf"
+   ],
+   "e": "Ogohlantirishlarni to'g'ri sozlash kerak."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "\"Qizil jamoa\" (Red Team) nima qiladi?",
+   "a": [
+    "Hujumchi rolida himoyani sinaydi",
+    "Faqat himoya tizimlarini o'rnatadi va kuzatadi",
+    "Faqat hisobot yozadi",
+    "Faqat yangi xodimlarni o'qitadi"
+   ],
+   "e": "\"Ko'k jamoa\" (Blue Team) himoya qiladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "\"Ko'k jamoa\" (Blue Team) nima qiladi?",
+   "a": [
+    "Himoya va monitoringni amalga oshiradi",
+    "Tizimga hujum qilib, zaifliklarni topadi",
+    "Faqat reklama qiladi",
+    "Faqat dastur sotadi"
+   ],
+   "e": "Purple Team — ikkalasining hamkorligi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik bo'yicha \"CTF\" musobaqalari nima?",
+   "a": [
+    "Topshiriqlarni yechib \"bayroq\" topish musobaqasi",
+    "Futbol musobaqasi",
+    "Kompyuter yig'ish tanlovi",
+    "Dasturlash tilini o'rganish kursi"
+   ],
+   "e": "Capture The Flag — amaliy ko'nikmalarni rivojlantiradi."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Zaiflik topilganda \"mas'uliyatli oshkor qilish\" nimani anglatadi?",
+   "a": [
+    "Avval ishlab chiqaruvchiga xabar berib, tuzatishga vaqt berish",
+    "Zaiflikni darhol internetda e'lon qilish",
+    "Zaiflikni qora bozorda sotish",
+    "Zaiflikdan o'zi foydalanish"
+   ],
+   "e": "Foydalanuvchilar himoyalangandan keyin e'lon qilinadi."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Tashkilotda kiberxavfsizlik uchun mas'ul rahbar lavozimi qanday nomlanadi?",
+   "a": [
+    "CISO",
+    "CEO faqat (bosh ijrochi direktor)",
+    "CFO (moliya direktori)",
+    "HR (kadrlar bo'limi)"
+   ],
+   "e": "Chief Information Security Officer."
+  },
+  {
+   "b": "Himoya",
+   "q": "Elektron pochta orqali maxfiy hujjat yuborishda nima qilish tavsiya etiladi?",
+   "a": [
+    "Hujjatni shifrlash va parolni boshqa kanal orqali berish",
+    "Hujjatni ochiq holda yuborib, parolni ham shu xatga yozish",
+    "Hujjatni ijtimoiy tarmoqqa joylash",
+    "Hujjatni hech kimga bermaslik"
+   ],
+   "e": "Alohida kanal parol xavfsizligini oshiradi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Tarmoqdagi barcha qurilmalarni inventarizatsiya qilish nima uchun muhim?",
+   "a": [
+    "Nazoratsiz qurilmalarni aniqlash uchun",
+    "Qurilmalar narxini oshirish uchun",
+    "Qurilmalarni bo'yash uchun",
+    "Hech qanday ahamiyati yo'q"
+   ],
+   "e": "Himoya qilinmagan qurilma hujum nuqtasi bo'lishi mumkin."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ikkilamchi hujjatlarni (qog'oz) xavfsiz yo'q qilish usuli qaysi?",
+   "a": [
+    "Maydalagich (shreder) bilan maydalash",
+    "Oddiy axlat qutisiga butun holda tashlash",
+    "Ko'chada qoldirish",
+    "Qayta ishlatish uchun stolda qoldirish"
+   ],
+   "e": "Axlatdan ma'lumot yig'ish (dumpster diving) hujumi bor."
+  },
+  {
+   "b": "Himoya",
+   "q": "Server xonasida qaysi jismoniy xavflar hisobga olinadi?",
+   "a": [
+    "Yong'in, suv toshqini, qizib ketish, ruxsatsiz kirish",
+    "Faqat chang",
+    "Faqat shovqin",
+    "Hech qanday jismoniy xavf yo'q"
+   ],
+   "e": "Konditsionerlash, yong'in o'chirish tizimlari."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Hujumchi tizimga kirgach, imtiyozlarini oshirishi qanday nomlanadi?",
+   "a": [
+    "Privilege escalation",
+    "Load balancing (yuklamani taqsimlash)",
+    "Data backup (zaxira nusxa olish)",
+    "Port forwarding (portni yo'naltirish)"
+   ],
+   "e": "Imtiyozlarni oshirish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Tizimda uzoq vaqt sezilmay qolish uchun hujumchi qiladigan harakat qanday nomlanadi?",
+   "a": [
+    "Persistence",
+    "Encryption (shifrlash)",
+    "Compression (siqish)",
+    "Indexing (indekslash)"
+   ],
+   "e": "Mustahkamlanish, masalan avtoyuklashga qo'shish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Tarmoq ichida bir tizimdan boshqasiga o'tish qanday nomlanadi?",
+   "a": [
+    "Lateral movement",
+    "Load testing (yuklama sinovi)",
+    "Code review (kodni ko'rib chiqish)",
+    "Unit testing (birlik testlash)"
+   ],
+   "e": "Gorizontal harakatlanish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlarni tashqariga yashirincha olib chiqish qanday nomlanadi?",
+   "a": [
+    "Exfiltration",
+    "Installation (o'rnatish)",
+    "Configuration (sozlash)",
+    "Optimization (optimallashtirish)"
+   ],
+   "e": "Ma'lumot sizdirish."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Eskirgan va xavfsiz emas deb hisoblanuvchi shifrlash algoritmi qaysi?",
+   "a": [
+    "DES",
+    "AES-256 (zamonaviy standart)",
+    "ChaCha20 (zamonaviy oqimli shifr)",
+    "RSA-4096 (kuchli asimmetrik)"
+   ],
+   "e": "56 bitli kalit tez tanlanadi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Elliptik egri chiziqli kriptografiya qanday qisqartma bilan ataladi?",
+   "a": [
+    "ECC",
+    "CRC (nazorat yig'indisi)",
+    "CPU (protsessor)",
+    "CSS (uslublar jadvali)"
+   ],
+   "e": "Kichikroq kalit bilan RSA darajasidagi xavfsizlik."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Ma'lumot uzatishda xatolarni aniqlash uchun ishlatiladigan, lekin kriptografik bo'lmagan nazorat yig'indisi qaysi?",
+   "a": [
+    "CRC",
+    "SHA-256 (kriptografik xesh)",
+    "HMAC (kalitli xesh)",
+    "AES (shifrlash algoritmi)"
+   ],
+   "e": "CRC tasodifiy xatolarni aniqlaydi, qasddan o'zgartirishdan himoya qilmaydi."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "TLS protokolining eskirgan oldingi nomi qaysi?",
+   "a": [
+    "SSL",
+    "SSH (masofaviy kirish protokoli)",
+    "SMTP (pochta protokoli)",
+    "SNMP (tarmoq boshqaruvi protokoli)"
+   ],
+   "e": "SSL versiyalari xavfsiz emas."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Zararli dastur odatda kompyuterga qaysi yo'l bilan ko'p tushadi?",
+   "a": [
+    "Elektron pochta ilovalari va havolalar",
+    "Monitorni o'chirib-yoqish orqali",
+    "Klaviaturani tozalash orqali",
+    "Sichqonchani almashtirish orqali"
+   ],
+   "e": "Fishing — asosiy tarqatish kanali."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Faylsiz (fileless) zararli dasturlarning xususiyati nima?",
+   "a": [
+    "Diskda fayl qoldirmay, xotirada ishlaydi",
+    "Faqat katta hajmdagi fayllar ko'rinishida tarqaladi",
+    "Faqat printer orqali ishlaydi",
+    "Faqat flesh-xotirada saqlanadi"
+   ],
+   "e": "Aniqlash qiyinroq."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Polimorf virus qanday xususiyatga ega?",
+   "a": [
+    "Har bir yuqtirishda kodini o'zgartiradi",
+    "Faqat bitta kompyuterni zararlaydi va tarqalmaydi",
+    "Faqat rasmlarni o'chiradi",
+    "Antivirus tomonidan har doim oson aniqlanadi"
+   ],
+   "e": "Signatura asosidagi aniqlashni qiyinlashtiradi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Mirai botneti qanday qurilmalarni zararlagan?",
+   "a": [
+    "IoT qurilmalar (kameralar, routerlar)",
+    "Faqat superkompyuterlarni va ma'lumotlar markazlarini",
+    "Faqat mobil telefonlarni",
+    "Faqat printerlarni"
+   ],
+   "e": "Standart parollardan foydalangan."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Kiber hujumlarning asosiy motivlariga qaysilar kiradi?",
+   "a": [
+    "Moliyaviy foyda, josuslik, siyosiy maqsadlar",
+    "Faqat ilmiy qiziqish va kompyuterlarni ta'mirlash",
+    "Faqat sport musobaqasi",
+    "Hech qanday motiv bo'lmaydi"
+   ],
+   "e": "Xaktivizm — siyosiy motivli hujumlar."
+  },
+  {
+   "b": "Himoya",
+   "q": "Oq ro'yxat (whitelist) yondashuvi nimani anglatadi?",
+   "a": [
+    "Faqat ruxsat etilganlar ishlashi",
+    "Taqiqlanganlardan tashqari hamma narsaga ruxsat berish",
+    "Hamma narsani taqiqlash",
+    "Hech narsani nazorat qilmaslik"
+   ],
+   "e": "Qora ro'yxatdan xavfsizroq."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ilovalar xavfsizligi testining SAST turi nima?",
+   "a": [
+    "Manba kodini statik tahlil qilish",
+    "Ishlayotgan ilovaga tashqaridan hujum qilib sinash",
+    "Foydalanuvchilar so'rovnomasi",
+    "Serverni o'chirish"
+   ],
+   "e": "DAST — dinamik test."
+  },
+  {
+   "b": "Himoya",
+   "q": "Konteynerlar (Docker) xavfsizligida nima muhim?",
+   "a": [
+    "Ishonchli obrazlardan foydalanish va minimal huquqlar",
+    "Barcha konteynerlarni root huquqi bilan ishlatish",
+    "Obrazlarni hech qachon yangilamaslik",
+    "Parollarni obraz ichida ochiq saqlash"
+   ],
+   "e": "Zaif obrazlar xavf manbai."
+  },
+  {
+   "b": "Himoya",
+   "q": "Veb-ilovalarni himoya qiluvchi maxsus tarmoqlararo ekran qanday nomlanadi?",
+   "a": [
+    "WAF",
+    "LAN (lokal tarmoq)",
+    "WAN (global tarmoq)",
+    "NAS (tarmoq xotirasi)"
+   ],
+   "e": "Web Application Firewall."
+  },
+  {
+   "b": "Himoya",
+   "q": "Kirish huquqlarini muntazam qayta ko'rib chiqish nima uchun kerak?",
+   "a": [
+    "Ortiqcha huquqlarni aniqlash va olib tashlash uchun",
+    "Xodimlarga har yili ko'proq huquq qo'shish uchun",
+    "Parollarni o'chirish uchun",
+    "Kompyuterlarni almashtirish uchun"
+   ],
+   "e": "Lavozim o'zgarganda huquqlar to'planib qoladi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Xavfsizlik nuqtai nazaridan \"konfiguratsiyani qattiqlashtirish\" (hardening) nima?",
+   "a": [
+    "Keraksiz xizmatlar va sozlamalarni o'chirish",
+    "Kompyuter korpusini metall bilan mustahkamlash",
+    "Kompyuterni og'irlashtirish",
+    "Parollarni o'chirish"
+   ],
+   "e": "Hujum yuzasi kamayadi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Tarmoq trafigini kuzatish uchun ko'pincha qaysi port oynasi (mirror) texnologiyasi ishlatiladi?",
+   "a": [
+    "SPAN",
+    "VPN (shifrlangan tunnel)",
+    "DNS (nomlar tizimi)",
+    "DHCP (manzil berish)"
+   ],
+   "e": "Switch trafik nusxasini monitoring portiga yuboradi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Xavfsizlik bo'yicha hisobotda KPI nima uchun kerak?",
+   "a": [
+    "Himoya samaradorligini o'lchash uchun",
+    "Xodimlar ish haqini hisoblash uchun faqat",
+    "Reklama uchun",
+    "Kompyuter narxini aniqlash uchun"
+   ],
+   "e": "Masalan, hodisalarni aniqlash va bartaraf etish vaqti."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "O'zbekistonda kiberxavfsizlik bo'yicha vakolatli davlat organi faoliyatining maqsadi nima?",
+   "a": [
+    "Milliy kibermakonni himoya qilish va muvofiqlashtirish",
+    "Faqat kompyuter savdosini tartibga solish",
+    "Faqat internet narxlarini belgilash",
+    "Faqat ijtimoiy tarmoqlarni yopish"
+   ],
+   "e": "Muhim axborot infratuzilmasi obyektlari xavfsizligini nazorat qilish."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Kompyuter axboroti sohasidagi jinoyatlarga misol qaysi?",
+   "a": [
+    "Zararli dastur yaratish va tarqatish",
+    "Kompyuterni qonuniy sotib olish",
+    "Dasturlashni o'rganish",
+    "Litsenziyali antivirus o'rnatish"
+   ],
+   "e": "Jinoyat kodeksida javobgarlik belgilangan."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik nuqtai nazaridan \"inson omili\" nimani anglatadi?",
+   "a": [
+    "Xodimlarning xatolari va ehtiyotsizligi",
+    "Faqat server xonasidagi harorat",
+    "Faqat kompyuter qismlarining sifati",
+    "Faqat internet tezligi"
+   ],
+   "e": "Ko'p hodisalar inson xatosi tufayli."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik madaniyati nima?",
+   "a": [
+    "Xodimlarning xavfsizlikka ongli munosabati",
+    "Faqat IT bo'limining vazifasi bo'lib, boshqalarga tegishli emas",
+    "Faqat qimmat uskunalar",
+    "Faqat yozma qoidalar"
+   ],
+   "e": "Rahbariyat namunasi muhim."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kiberxavfsizlik mutaxassisi uchun qaysi bilim muhim?",
+   "a": [
+    "Tarmoqlar, operatsion tizimlar va dasturlash asoslari",
+    "Faqat ofis dasturlari bilan ishlash",
+    "Faqat kompyuter yig'ish",
+    "Faqat chet tili"
+   ],
+   "e": "Shuningdek kriptografiya va huquqiy asoslar."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik tekshiruvi ro'yxati (checklist) nima uchun kerak?",
+   "a": [
+    "Muhim choralarni unutmaslik uchun",
+    "Faqat qog'oz sarfini oshirish uchun",
+    "Xodimlarni jazolash uchun",
+    "Faqat reklama uchun"
+   ],
+   "e": "Standart talablar bo'yicha tizimli tekshiruv."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Yangi tizimni ishga tushirishdan oldin xavfsizlik nuqtai nazaridan nima qilish kerak?",
+   "a": [
+    "Xavfsizlik testidan o'tkazish",
+    "Darhol barcha foydalanuvchilarga to'liq huquq bilan ochib berish",
+    "Standart parollarni o'zgartirmasdan qoldirish",
+    "Hech narsa qilmaslik"
+   ],
+   "e": "\"Security by design\" tamoyili."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Muntazam zaxira nusxalar ransomware hujumidan keyin nima beradi?",
+   "a": [
+    "To'lov qilmasdan ma'lumotlarni tiklash imkonini",
+    "Hujumchini avtomatik ravishda topish va jazolash imkonini",
+    "Kompyuterni tezlashtirish",
+    "Hech narsa"
+   ],
+   "e": "Zaxiralar asosiy tarmoqdan ajratilgan bo'lishi kerak."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Hujumchining tarmoqqa ulangan qurilmalar ro'yxatini aniqlashi qanday nomlanadi?",
+   "a": [
+    "Skanerlash",
+    "Shifrlash (ma'lumotni yopish)",
+    "Zaxiralash (nusxa olish)",
+    "Arxivlash (siqish)"
+   ],
+   "e": "Razvedka bosqichi."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Ish joyidagi printerdan maxfiy hujjatlarni olmay qoldirish qanday xavf tug'diradi?",
+   "a": [
+    "Begonalar o'qib olishi mumkin",
+    "Printer qizib ketib, yong'in chiqadi",
+    "Hujjat avtomatik o'chib ketadi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "\"Toza stol\" siyosati."
+  },
+  {
+   "b": "Tahdidlar",
+   "q": "Hujumchi xodim orqasidan ruxsatsiz binoga kirishi qanday nomlanadi?",
+   "a": [
+    "Tailgating",
+    "Phishing (pochta orqali aldash)",
+    "Spamming (ommaviy xat yuborish)",
+    "Hashing (xeshlash)"
+   ],
+   "e": "Jismoniy ijtimoiy muhandislik."
+  },
+  {
+   "b": "Himoya",
+   "q": "Avtomatik ekran qulfi qancha vaqtdan keyin yoqilishi tavsiya etiladi?",
+   "a": [
+    "Bir necha daqiqa harakatsizlikdan keyin",
+    "Bir necha soatdan keyin, ish kuni oxirida",
+    "Hech qachon",
+    "Faqat hafta oxirida"
+   ],
+   "e": "Odatda 5–15 daqiqa."
+  },
+  {
+   "b": "Himoya",
+   "q": "Shaxsiy ma'lumotlarni telefon orqali so'ralganda nima qilish kerak?",
+   "a": [
+    "Qo'ng'iroq qiluvchini rasmiy raqam orqali tekshirish",
+    "Darhol barcha ma'lumotlarni aytib berish",
+    "SMS-kodni aytib berish",
+    "Karta raqami va CVV ni aytish"
+   ],
+   "e": "Bank xodimlari SMS-kod so'ramaydi."
+  },
+  {
+   "b": "Himoya",
+   "q": "Ma'lumotlarni minimallashtirish tamoyili nima?",
+   "a": [
+    "Faqat zarur ma'lumotlarni yig'ish va saqlash",
+    "Imkon qadar ko'p ma'lumot yig'ib, cheksiz saqlash",
+    "Ma'lumotlarni hech qachon o'chirmaslik",
+    "Barcha ma'lumotlarni ochiq qilish"
+   ],
+   "e": "Shaxsga doir ma'lumotlarni himoya qilish tamoyili."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Faylning o'zgarmaganligini qanday tekshirish mumkin?",
+   "a": [
+    "Xesh qiymatini solishtirib",
+    "Fayl nomini o'qib",
+    "Fayl ikonasiga qarab",
+    "Fayl yaratilgan kunga qarab"
+   ],
+   "e": "Rasmiy saytda e'lon qilingan xesh bilan."
+  },
+  {
+   "b": "Kriptografiya",
+   "q": "Ochiq kalit kriptografiyasining ixtirochilaridan biri kim?",
+   "a": [
+    "U. Diffi",
+    "Ch. Bebbij",
+    "A. Tyuring faqat",
+    "B. Geyts"
+   ],
+   "e": "Diffi va Xellman, 1976-yil."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Kiber hodisa haqida xabar berishda qaysi ma'lumot muhim?",
+   "a": [
+    "Vaqt, belgilar va ta'sirlangan tizimlar",
+    "Faqat xodimning kayfiyati",
+    "Faqat ob-havo",
+    "Hech qanday ma'lumot kerak emas"
+   ],
+   "e": "Tezkor va aniq ma'lumot tekshiruvni osonlashtiradi."
+  },
+  {
+   "b": "Monitoring",
+   "q": "Antivirus tomonidan karantinga olingan fayl nima qilinadi?",
+   "a": [
+    "Izolyatsiya qilinadi va zarar yetkaza olmaydi",
+    "Barcha kompyuterlarga avtomatik nusxalanadi",
+    "Ish stoliga chiqariladi",
+    "Elektron pochtaga yuboriladi"
+   ],
+   "e": "Keyin tahlil qilinib, o'chiriladi yoki tiklanadi."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Kompaniya mijozlari ma'lumotlari sizib chiqsa, qonunchilikka ko'ra nima qilishi kerak?",
+   "a": [
+    "Vakolatli organ va zarar ko'rganlarni xabardor qilish",
+    "Hodisani yashirib, hech kimga aytmaslik",
+    "Mijozlardan pul talab qilish",
+    "Saytni yopib, ishni to'xtatish"
+   ],
+   "e": "Ko'plab davlatlarda majburiy xabar berish talabi bor."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "Axborotni maxfiylik darajasiga ko'ra tasniflash nima uchun kerak?",
+   "a": [
+    "Himoya choralarini mos ravishda belgilash uchun",
+    "Fayllarni alifbo bo'yicha saralash uchun",
+    "Faqat hisobot uchun",
+    "Faqat arxiv uchun"
+   ],
+   "e": "Masalan, ochiq, xizmat uchun, maxfiy."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik nuqtai nazaridan \"aktivlar egasi\" kim?",
+   "a": [
+    "Aktivning himoyasi uchun mas'ul shaxs",
+    "Kompyuterni sotib olgan do'kon",
+    "Har qanday xodim, mas'uliyatsiz",
+    "Hech kim"
+   ],
+   "e": "Kirish huquqlarini tasdiqlaydi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ishonchli manba (trusted source) nima?",
+   "a": [
+    "Tekshirilgan va ishonchli ma'lumot yoki dastur manbai",
+    "Har qanday internet sayti",
+    "Noma'lum forum",
+    "Spam xat"
+   ],
+   "e": "Rasmiy saytlar, imzolangan dasturlar."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kiberxavfsizlikda \"minimal tayanch\" (baseline) nima?",
+   "a": [
+    "Barcha tizimlar uchun majburiy minimal xavfsizlik sozlamalari",
+    "Kompyuterlarning eng kam narxi",
+    "Eng sekin internet tezligi",
+    "Eng kichik ekran o'lchami"
+   ],
+   "e": "Masalan, CIS Benchmarks."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfsizlik bo'yicha o'quv mashg'ulotlarini qanchalik tez-tez o'tkazish kerak?",
+   "a": [
+    "Muntazam (kamida yiliga bir necha marta)",
+    "Faqat ishga qabul qilinganda bir marta, keyin hech qachon",
+    "Hech qachon",
+    "Faqat hujumdan keyin"
+   ],
+   "e": "Tahdidlar doimiy o'zgaradi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Simulyatsion fishing mashg'ulotlari nima uchun o'tkaziladi?",
+   "a": [
+    "Xodimlarning fishingni aniqlash ko'nikmasini tekshirish uchun",
+    "Xodimlarni haqiqatda aldab, ularning parollarini sotish uchun",
+    "Pochta serverini sinash uchun faqat",
+    "Reklama uchun"
+   ],
+   "e": "Natijalar o'qitishda ishlatiladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kiberxavfsizlik bo'yicha \"xavfsizlik birinchi o'rinda\" (security by default) tamoyili nima?",
+   "a": [
+    "Standart sozlamalar xavfsiz holatda bo'lishi",
+    "Xavfsizlik funksiyalari foydalanuvchi so'ragandagina yoqilishi",
+    "Xavfsizlik ixtiyoriy",
+    "Xavfsizlik faqat pullik versiyada"
+   ],
+   "e": "Foydalanuvchi qo'shimcha sozlashsiz himoyalangan bo'ladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kiberxavfsizlikda \"uch qatlamli himoya\" ga misol qaysi?",
+   "a": [
+    "Firewall, antivirus va foydalanuvchilarni o'qitish",
+    "Faqat uchta bir xil antivirus",
+    "Uchta parol bitta akkauntga",
+    "Uchta monitor"
+   ],
+   "e": "Texnik, dasturiy va tashkiliy choralar."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Hodisaga javob berish rejasini oldindan tuzishning afzalligi nima?",
+   "a": [
+    "Hujum paytida tez va tartibli harakat qilish",
+    "Hujumlar umuman sodir bo'lmasligini kafolatlash",
+    "Kompyuterlar tezligini oshirish",
+    "Hech qanday afzalligi yo'q"
+   ],
+   "e": "Mashg'ulotlarda sinab ko'riladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kiberxavfsizlik sohasidagi asosiy kasblarga qaysi kiradi?",
+   "a": [
+    "SOC tahlilchisi, pentester, xavfsizlik muhandisi",
+    "Faqat kompyuter sotuvchisi",
+    "Faqat oshpaz",
+    "Faqat haydovchi"
+   ],
+   "e": "Shuningdek kriptograf, forensika mutaxassisi."
   }
  ]
 }
