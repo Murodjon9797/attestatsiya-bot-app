@@ -2,7 +2,7 @@
  "kod": "5PM0661",
  "nomi": "Matematika (Oliy matematika)",
  "turi": "umumtalim",
- "manba": "O'rta maxsus va professional ta'lim tashkilotlari pedagog kadrlarini attestatsiyadan o'tkazish uchun Matematika fanidan malaka sinovi topshiriqlari spetsifikatsiyasi (api-portal.gov.uz, 2025)",
+ "manba": "O'rta maxsus va professional ta'lim tashkilotlari pedagog kadrlarini attestatsiyadan o'tkazish uchun Matematika fanidan malaka sinovi topshiriqlari spetsifikatsiyasi (api-portal.gov.uz, 2025); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "Sonlar va amallar",
@@ -13,40 +13,62 @@
     "24",
     "36"
    ],
-   "e": "48 = 2⁴·3, 180 = 2²·3²·5; umumiy ko'paytuvchilar 2²·3 = 12."
+   "e": "48 = 2⁴·3, 180 = 2²·3²·5; EKUB = 2²·3 = 12."
   },
   {
    "b": "Sonlar va amallar",
    "q": "12 va 18 sonlarining EKUKi nechaga teng?",
    "a": [
     "36",
-    "72",
     "6",
-    "54"
+    "72",
+    "216"
    ],
    "e": "12 = 2²·3, 18 = 2·3²; EKUK = 2²·3² = 36."
   },
   {
    "b": "Sonlar va amallar",
-   "q": "√50 − √18 ifodaning qiymati nechaga teng?",
+   "q": "Quyidagilardan qaysi biri tub son?",
    "a": [
-    "2√2",
-    "√32",
-    "4√2",
-    "8"
+    "97",
+    "91",
+    "87",
+    "51"
    ],
-   "e": "√50 = 5√2, √18 = 3√2; 5√2 − 3√2 = 2√2."
+   "e": "91 = 7·13, 87 = 3·29, 51 = 3·17."
   },
   {
    "b": "Sonlar va amallar",
-   "q": "2⁻³ · 4² ifodaning qiymatini toping.",
+   "q": "1 dan 50 gacha nechta tub son bor?",
    "a": [
-    "2",
-    "1/2",
-    "8",
-    "4"
+    "15",
+    "12",
+    "17",
+    "20"
    ],
-   "e": "2⁻³·2⁴ = 2¹ = 2."
+   "e": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "360 sonining natural bo'luvchilari soni nechta?",
+   "a": [
+    "24",
+    "12",
+    "18",
+    "36"
+   ],
+   "e": "360 = 2³·3²·5; (3+1)(2+1)(1+1) = 24."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "Qaysi son 9 ga qoldiqsiz bo'linadi?",
+   "a": [
+    "4518",
+    "4516",
+    "4517",
+    "4519"
+   ],
+   "e": "4+5+1+8 = 18 — 9 ga bo'linadi."
   },
   {
    "b": "Sonlar va amallar",
@@ -55,86 +77,636 @@
     "1/3",
     "3/10",
     "3/100",
-    "33/100"
+    "1/30"
    ],
-   "e": "x = 0,333…; 10x − x = 3, demak x = 3/9 = 1/3."
+   "e": "x = 0,333..., 10x − x = 3 → x = 1/3."
   },
   {
    "b": "Sonlar va amallar",
-   "q": "Mahsulot narxi 20% ga oshirilib, so'ng 20% ga kamaytirildi. Yakuniy narx dastlabkisiga nisbatan qanday o'zgardi?",
+   "q": "0,1(6) davriy kasrni oddiy kasrga aylantiring.",
+   "a": [
+    "1/6",
+    "16/100",
+    "1/16",
+    "8/45"
+   ],
+   "e": "(16 − 1)/90 = 15/90 = 1/6."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "2/3 + 3/4 yig'indisi nechaga teng?",
+   "a": [
+    "17/12",
+    "5/7",
+    "5/12",
+    "6/7"
+   ],
+   "e": "8/12 + 9/12 = 17/12."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "3/5 : 9/10 bo'linmasi nechaga teng?",
+   "a": [
+    "2/3",
+    "27/50",
+    "3/2",
+    "9/50"
+   ],
+   "e": "3/5 · 10/9 = 30/45 = 2/3."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "120 ning 15% i nechaga teng?",
+   "a": [
+    "18",
+    "15",
+    "12",
+    "8"
+   ],
+   "e": "120·0,15 = 18."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "Mahsulot narxi 20% oshirildi, so'ng 20% kamaytirildi. Natijada narx qanday o'zgardi?",
    "a": [
     "4% ga kamaydi",
     "O'zgarmadi",
     "4% ga oshdi",
     "2% ga kamaydi"
    ],
-   "e": "1,2 · 0,8 = 0,96, ya'ni narx 4% ga kamaygan."
+   "e": "1,2·0,8 = 0,96."
   },
   {
-   "b": "Algebra va funksiyalar",
-   "q": "x² − 5x + 6 = 0 tenglamaning ildizlari yig'indisi nechaga teng?",
+   "b": "Sonlar va amallar",
+   "q": "Qaysi son 25% ga oshirilganda 150 hosil bo'ladi?",
    "a": [
+    "120",
+    "112,5",
+    "125",
+    "130"
+   ],
+   "e": "x·1,25 = 150 → x = 120."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "2⁵ · 2³ ifodaning qiymati nechaga teng?",
+   "a": [
+    "256",
+    "64",
+    "1024",
+    "32"
+   ],
+   "e": "2⁸ = 256."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "(3²)³ ifodaning qiymati nechaga teng?",
+   "a": [
+    "729",
+    "243",
+    "81",
+    "6561"
+   ],
+   "e": "3⁶ = 729."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "5⁰ + 5⁻¹ ifodaning qiymati nechaga teng?",
+   "a": [
+    "1,2",
+    "0,2",
     "5",
-    "6",
-    "−5",
+    "6"
+   ],
+   "e": "1 + 1/5 = 1,2."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "√72 ni soddalashtiring.",
+   "a": [
+    "6√2",
+    "8√3",
+    "36√2",
+    "3√8"
+   ],
+   "e": "√72 = √(36·2) = 6√2."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "√50 + √18 yig'indisi nechaga teng?",
+   "a": [
+    "8√2",
+    "√68",
+    "2√17",
+    "15√2"
+   ],
+   "e": "5√2 + 3√2 = 8√2."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "1/(√3 − √2) kasrning maxrajini irratsionallikdan qutqaring.",
+   "a": [
+    "√3 + √2",
+    "√3 − √2",
+    "(√3 + √2)/5",
     "1"
    ],
-   "e": "Viyet teoremasiga ko'ra x₁ + x₂ = −b/a = 5 (ildizlar 2 va 3)."
+   "e": "Surat va maxrajni (√3 + √2) ga ko'paytiramiz: maxraj 3 − 2 = 1."
   },
   {
-   "b": "Algebra va funksiyalar",
-   "q": "(a − b)² ifodaning yoyilmasi qaysi?",
+   "b": "Sonlar va amallar",
+   "q": "∛(−27) nechaga teng?",
    "a": [
-    "a² − 2ab + b²",
-    "a² − b²",
-    "a² + 2ab + b²",
-    "a² − ab + b²"
+    "−3",
+    "3",
+    "−9",
+    "Mavjud emas"
    ],
-   "e": "Qisqa ko'paytirish formulasi: (a − b)² = a² − 2ab + b²."
+   "e": "(−3)³ = −27."
   },
   {
-   "b": "Algebra va funksiyalar",
-   "q": "3x − 7 > 2 tengsizlikning yechimi qaysi?",
+   "b": "Sonlar va amallar",
+   "q": "8^(2/3) nechaga teng?",
    "a": [
-    "x > 3",
-    "x < 3",
-    "x > −3",
-    "x > 5/3"
+    "4",
+    "16",
+    "2",
+    "64/3"
    ],
-   "e": "3x > 9, demak x > 3."
+   "e": "∛8 = 2, 2² = 4."
   },
   {
-   "b": "Algebra va funksiyalar",
-   "q": "y = 2x + 1 funksiyaning grafigi Oy o'qini qaysi nuqtada kesib o'tadi?",
+   "b": "Sonlar va amallar",
+   "q": "|−7| + |3 − 10| ifodaning qiymati nechaga teng?",
    "a": [
-    "(0; 1)",
-    "(1; 0)",
-    "(0; 2)",
-    "(−1/2; 0)"
+    "14",
+    "0",
+    "−14",
+    "4"
    ],
-   "e": "x = 0 bo'lganda y = 1."
+   "e": "7 + 7 = 14."
   },
   {
-   "b": "Algebra va funksiyalar",
-   "q": "log₂ 32 nechaga teng?",
+   "b": "Sonlar va amallar",
+   "q": "Quyidagilardan qaysi biri irratsional son?",
+   "a": [
+    "√5",
+    "√16",
+    "0,25",
+    "2/7"
+   ],
+   "e": "√5 cheksiz davriy bo'lmagan kasr."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "log₂32 nechaga teng?",
    "a": [
     "5",
     "4",
     "16",
     "6"
    ],
-   "e": "2⁵ = 32, demak log₂32 = 5."
+   "e": "2⁵ = 32."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "lg1000 nechaga teng?",
+   "a": [
+    "3",
+    "2",
+    "100",
+    "10"
+   ],
+   "e": "10³ = 1000."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "log₃9 + log₃3 ifodaning qiymati nechaga teng?",
+   "a": [
+    "3",
+    "2",
+    "12",
+    "27"
+   ],
+   "e": "2 + 1 = 3."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "log₅125 − log₅5 ifodaning qiymati nechaga teng?",
+   "a": [
+    "2",
+    "3",
+    "25",
+    "120"
+   ],
+   "e": "3 − 1 = 2."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "ln e³ nechaga teng?",
+   "a": [
+    "3",
+    "e",
+    "3e",
+    "1"
+   ],
+   "e": "ln eˣ = x."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "2^(log₂7) nechaga teng?",
+   "a": [
+    "7",
+    "2",
+    "14",
+    "log₂7"
+   ],
+   "e": "Asosiy logarifmik ayniyat: a^(logₐb) = b."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "i² (mavhum birlik kvadrati) nechaga teng?",
+   "a": [
+    "−1",
+    "1",
+    "i",
+    "0"
+   ],
+   "e": "Kompleks sonlarda i² = −1."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "(2 + 3i) + (1 − 5i) yig'indisi nechaga teng?",
+   "a": [
+    "3 − 2i",
+    "3 + 8i",
+    "1 − 2i",
+    "3 − 8i"
+   ],
+   "e": "Haqiqiy va mavhum qismlar alohida qo'shiladi."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "(1 + i)(1 − i) ko'paytmasi nechaga teng?",
+   "a": [
+    "2",
+    "0",
+    "1 − i²",
+    "2i"
+   ],
+   "e": "1 − i² = 1 + 1 = 2."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "z = 3 + 4i kompleks sonning moduli nechaga teng?",
+   "a": [
+    "5",
+    "7",
+    "25",
+    "1"
+   ],
+   "e": "|z| = √(9 + 16) = 5."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "1 + 2 + 3 + ... + 100 yig'indisi nechaga teng?",
+   "a": [
+    "5050",
+    "5000",
+    "10100",
+    "4950"
+   ],
+   "e": "n(n+1)/2 = 100·101/2."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "7! / 5! nechaga teng?",
+   "a": [
+    "42",
+    "2",
+    "7/5",
+    "35"
+   ],
+   "e": "7·6 = 42."
   },
   {
    "b": "Algebra va funksiyalar",
-   "q": "2ˣ = 1/8 tenglamaning yechimi qaysi?",
+   "q": "(a + b)² formulasi qaysi?",
    "a": [
-    "−3",
-    "3",
-    "1/3",
-    "−1/3"
+    "a² + 2ab + b²",
+    "a² + b²",
+    "a² − 2ab + b²",
+    "a² + ab + b²"
    ],
-   "e": "1/8 = 2⁻³, demak x = −3."
+   "e": "Qisqa ko'paytirish formulasi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "a² − b² ni ko'paytuvchilarga ajrating.",
+   "a": [
+    "(a − b)(a + b)",
+    "(a − b)²",
+    "(a + b)²",
+    "a(a − b²)"
+   ],
+   "e": "Kvadratlar ayirmasi formulasi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "a³ − b³ formulasi qaysi?",
+   "a": [
+    "(a − b)(a² + ab + b²)",
+    "(a − b)(a² − ab + b²)",
+    "(a − b)³",
+    "(a + b)(a² − ab + b²)"
+   ],
+   "e": "Kublar ayirmasi formulasi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "2x − 7 = 11 tenglamaning ildizi nechaga teng?",
+   "a": [
+    "9",
+    "2",
+    "18",
+    "−2"
+   ],
+   "e": "2x = 18, x = 9."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x² − 5x + 6 = 0 tenglamaning ildizlari qaysi?",
+   "a": [
+    "2 va 3",
+    "−2 va −3",
+    "1 va 6",
+    "−1 va 6"
+   ],
+   "e": "Viyet teoremasi: x₁ + x₂ = 5, x₁·x₂ = 6."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x² − 6x + 9 = 0 tenglama nechta ildizga ega?",
+   "a": [
+    "Bitta (x = 3)",
+    "Ikkita turli ildiz",
+    "Ildizi yo'q",
+    "Cheksiz ko'p"
+   ],
+   "e": "D = 36 − 36 = 0."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x² + x + 1 = 0 tenglama haqiqiy sonlarda nechta ildizga ega?",
+   "a": [
+    "Ildizi yo'q",
+    "Bitta",
+    "Ikkita",
+    "Uchta"
+   ],
+   "e": "D = 1 − 4 = −3 < 0."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Kvadrat tenglama diskriminanti formulasi qaysi?",
+   "a": [
+    "D = b² − 4ac",
+    "D = b² + 4ac",
+    "D = b − 4ac",
+    "D = 4ac − b"
+   ],
+   "e": "D > 0 — ikki ildiz, D = 0 — bitta, D < 0 — haqiqiy ildiz yo'q."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x² + px + q = 0 tenglamada ildizlar yig'indisi nimaga teng?",
+   "a": [
+    "−p",
+    "p",
+    "q",
+    "−q"
+   ],
+   "e": "Viyet teoremasi: x₁ + x₂ = −p, x₁x₂ = q."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "2x + 3 > 7 tengsizlikning yechimi qaysi?",
+   "a": [
+    "x > 2",
+    "x < 2",
+    "x > 5",
+    "x < 5"
+   ],
+   "e": "2x > 4."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "−3x ≤ 12 tengsizlikning yechimi qaysi?",
+   "a": [
+    "x ≥ −4",
+    "x ≤ −4",
+    "x ≥ 4",
+    "x ≤ 4"
+   ],
+   "e": "Manfiy songa bo'lganda tengsizlik ishorasi o'zgaradi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x² − 4 < 0 tengsizlikning yechimi qaysi?",
+   "a": [
+    "−2 < x < 2",
+    "x < −2 yoki x > 2",
+    "x < 2",
+    "x > −2"
+   ],
+   "e": "Parabola tarmoqlari yuqoriga, ildizlar orasida manfiy."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "|x − 3| = 5 tenglamaning ildizlari qaysi?",
+   "a": [
+    "8 va −2",
+    "8",
+    "2 va −8",
+    "−2"
+   ],
+   "e": "x − 3 = 5 yoki x − 3 = −5."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "{x + y = 7; x − y = 1} sistemaning yechimi qaysi?",
+   "a": [
+    "(4; 3)",
+    "(3; 4)",
+    "(5; 2)",
+    "(7; 1)"
+   ],
+   "e": "Qo'shsak: 2x = 8, x = 4, y = 3."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "2ˣ = 16 tenglamaning ildizi nechaga teng?",
+   "a": [
+    "4",
+    "8",
+    "3",
+    "2"
+   ],
+   "e": "16 = 2⁴."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "3ˣ⁻¹ = 27 tenglamaning ildizi nechaga teng?",
+   "a": [
+    "4",
+    "3",
+    "2",
+    "9"
+   ],
+   "e": "x − 1 = 3."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "log₂(x − 1) = 3 tenglamaning ildizi nechaga teng?",
+   "a": [
+    "9",
+    "7",
+    "8",
+    "4"
+   ],
+   "e": "x − 1 = 2³ = 8."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "√(x + 3) = 4 tenglamaning ildizi nechaga teng?",
+   "a": [
+    "13",
+    "1",
+    "16",
+    "19"
+   ],
+   "e": "x + 3 = 16."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = 2x + 1 funksiyaning grafigi qanday chiziq?",
+   "a": [
+    "To'g'ri chiziq",
+    "Parabola",
+    "Giperbola",
+    "Aylana"
+   ],
+   "e": "Chiziqli funksiya grafigi — to'g'ri chiziq."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = kx + b funksiyada k nimani bildiradi?",
+   "a": [
+    "Burchak koeffitsienti",
+    "Oy o'qi bilan kesishish nuqtasi",
+    "Ox o'qi bilan kesishish nuqtasi",
+    "Funksiyaning eng katta qiymati"
+   ],
+   "e": "k = tgα, α — to'g'ri chiziqning Ox bilan hosil qilgan burchagi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = x² − 4x + 3 parabola uchining abssissasi nechaga teng?",
+   "a": [
+    "2",
+    "−2",
+    "4",
+    "3"
+   ],
+   "e": "x₀ = −b/(2a) = 4/2 = 2."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = −x² + 2 funksiyaning eng katta qiymati nechaga teng?",
+   "a": [
+    "2",
+    "0",
+    "−2",
+    "Mavjud emas"
+   ],
+   "e": "Parabola tarmoqlari pastga, uchi (0; 2)."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = 1/x funksiyaning aniqlanish sohasi qaysi?",
+   "a": [
+    "x ≠ 0",
+    "x > 0",
+    "Barcha haqiqiy sonlar",
+    "x ≥ 0"
+   ],
+   "e": "Nolga bo'lish mumkin emas."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = √(x − 2) funksiyaning aniqlanish sohasi qaysi?",
+   "a": [
+    "x ≥ 2",
+    "x > 2",
+    "x ≤ 2",
+    "x ≠ 2"
+   ],
+   "e": "Ildiz ostidagi ifoda manfiy bo'lmasligi kerak."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = log₂(x + 3) funksiyaning aniqlanish sohasi qaysi?",
+   "a": [
+    "x > −3",
+    "x ≥ −3",
+    "x > 3",
+    "x ≠ −3"
+   ],
+   "e": "Logarifm ostidagi ifoda musbat bo'lishi kerak."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Qaysi funksiya juft funksiya?",
+   "a": [
+    "y = x²",
+    "y = x³",
+    "y = x + 1",
+    "y = sin x"
+   ],
+   "e": "f(−x) = f(x)."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Qaysi funksiya toq funksiya?",
+   "a": [
+    "y = x³",
+    "y = x²",
+    "y = cos x",
+    "y = |x|"
+   ],
+   "e": "f(−x) = −f(x)."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = 2ˣ funksiya qanday?",
+   "a": [
+    "O'suvchi",
+    "Kamayuvchi",
+    "O'zgarmas",
+    "Davriy"
+   ],
+   "e": "Asos 1 dan katta bo'lsa ko'rsatkichli funksiya o'suvchi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = (1/2)ˣ funksiya qanday?",
+   "a": [
+    "Kamayuvchi",
+    "O'suvchi",
+    "Juft",
+    "Davriy"
+   ],
+   "e": "0 < a < 1 bo'lsa ko'rsatkichli funksiya kamayuvchi."
   },
   {
    "b": "Algebra va funksiyalar",
@@ -145,150 +717,1129 @@
     "40",
     "36"
    ],
-   "e": "aₙ = a₁ + (n − 1)d = 3 + 9·4 = 39."
+   "e": "a₁₀ = 3 + 9·4 = 39."
   },
   {
    "b": "Algebra va funksiyalar",
-   "q": "Geometrik progressiyada b₁ = 2, q = 3. Dastlabki 4 ta had yig'indisi nechaga teng?",
+   "q": "Arifmetik progressiyada a₁ = 2, d = 3. Dastlabki 10 ta hadi yig'indisi nechaga teng?",
    "a": [
-    "80",
+    "155",
+    "150",
+    "165",
+    "145"
+   ],
+   "e": "S₁₀ = (2·2 + 9·3)·10/2 = 31·5 = 155."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Geometrik progressiyada b₁ = 2, q = 3. b₄ nechaga teng?",
+   "a": [
     "54",
-    "26",
-    "162"
+    "18",
+    "162",
+    "24"
    ],
-   "e": "2 + 6 + 18 + 54 = 80 yoki S₄ = 2(3⁴ − 1)/(3 − 1) = 80."
+   "e": "b₄ = 2·3³ = 54."
   },
   {
    "b": "Algebra va funksiyalar",
-   "q": "y = x² − 4x + 3 parabolaning uchi qaysi nuqtada joylashgan?",
+   "q": "Cheksiz kamayuvchi geometrik progressiyada b₁ = 6, q = 1/2. Yig'indisi nechaga teng?",
    "a": [
-    "(2; −1)",
-    "(−2; 15)",
-    "(2; 3)",
-    "(4; 3)"
+    "12",
+    "3",
+    "9",
+    "6"
    ],
-   "e": "x₀ = −b/(2a) = 2, y₀ = 4 − 8 + 3 = −1."
+   "e": "S = b₁/(1 − q) = 6/(1/2) = 12."
   },
   {
    "b": "Algebra va funksiyalar",
-   "q": "sin²α + cos²α ifodaning qiymati nechaga teng?",
+   "q": "sin²α + cos²α nechaga teng?",
    "a": [
     "1",
     "0",
     "2",
-    "tgα"
+    "sin2α"
    ],
    "e": "Asosiy trigonometrik ayniyat."
   },
   {
-   "b": "Geometriya va o'lchashlar",
-   "q": "Katetlari 6 va 8 bo'lgan to'g'ri burchakli uchburchakning gipotenuzasi nechaga teng?",
+   "b": "Algebra va funksiyalar",
+   "q": "sin30° nechaga teng?",
    "a": [
+    "1/2",
+    "√3/2",
+    "√2/2",
+    "1"
+   ],
+   "e": "cos60° ham 1/2 ga teng."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "cos60° nechaga teng?",
+   "a": [
+    "1/2",
+    "√3/2",
+    "0",
+    "√2/2"
+   ],
+   "e": "cos60° = sin30°."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "tg45° nechaga teng?",
+   "a": [
+    "1",
+    "0",
+    "√3",
+    "√3/3"
+   ],
+   "e": "tg45° = sin45°/cos45° = 1."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "sin90° nechaga teng?",
+   "a": [
+    "1",
+    "0",
+    "−1",
+    "1/2"
+   ],
+   "e": "Birlik aylanada 90° ga (0; 1) nuqta mos."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "cos180° nechaga teng?",
+   "a": [
+    "−1",
+    "1",
+    "0",
+    "1/2"
+   ],
+   "e": "Birlik aylanada 180° ga (−1; 0) nuqta mos."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "tg60° nechaga teng?",
+   "a": [
+    "√3",
+    "1",
+    "√3/3",
+    "1/2"
+   ],
+   "e": "sin60°/cos60° = (√3/2)/(1/2)."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "sin2α formulasi qaysi?",
+   "a": [
+    "2sinα·cosα",
+    "sin²α − cos²α",
+    "2sinα",
+    "sinα + cosα"
+   ],
+   "e": "Ikkilangan burchak sinusi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "cos2α formulasi qaysi?",
+   "a": [
+    "cos²α − sin²α",
+    "2sinα·cosα",
+    "2cosα",
+    "cos²α + sin²α"
+   ],
+   "e": "Shuningdek cos2α = 1 − 2sin²α = 2cos²α − 1."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "180° necha radianga teng?",
+   "a": [
+    "π",
+    "2π",
+    "π/2",
+    "1"
+   ],
+   "e": "1 rad ≈ 57,3°."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "π/3 radian necha gradusga teng?",
+   "a": [
+    "60°",
+    "30°",
+    "45°",
+    "120°"
+   ],
+   "e": "180°/3 = 60°."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = sin x funksiyaning eng kichik musbat davri nechaga teng?",
+   "a": [
+    "2π",
+    "π",
+    "π/2",
+    "4π"
+   ],
+   "e": "tg x va ctg x ning davri π."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = tg x funksiyaning davri nechaga teng?",
+   "a": [
+    "π",
+    "2π",
+    "π/2",
+    "3π"
+   ],
+   "e": "tg(x + π) = tg x."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = 3sin x funksiyaning qiymatlar sohasi qaysi?",
+   "a": [
+    "[−3; 3]",
+    "[−1; 1]",
+    "[0; 3]",
+    "(−∞; +∞)"
+   ],
+   "e": "sin x ∈ [−1; 1], 3 ga ko'paytiriladi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "sin x = 0 tenglamaning yechimi qaysi?",
+   "a": [
+    "x = πn, n ∈ Z",
+    "x = π/2 + πn, n ∈ Z",
+    "x = 2πn, n ∈ Z",
+    "x = π/2 + 2πn, n ∈ Z"
+   ],
+   "e": "Sinus 0, π, 2π, ... nuqtalarda nolga teng."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "cos x = 1 tenglamaning yechimi qaysi?",
+   "a": [
+    "x = 2πn, n ∈ Z",
+    "x = πn, n ∈ Z",
+    "x = π/2 + πn, n ∈ Z",
+    "x = π + 2πn, n ∈ Z"
+   ],
+   "e": "Kosinus faqat 0 + 2πn nuqtalarda 1 ga teng."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "arcsin(1/2) nechaga teng?",
+   "a": [
+    "π/6",
+    "π/3",
+    "π/4",
+    "π/2"
+   ],
+   "e": "sin(π/6) = 1/2."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "sin(π − α) nimaga teng?",
+   "a": [
+    "sinα",
+    "−sinα",
+    "cosα",
+    "−cosα"
+   ],
+   "e": "Keltirish formulasi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "cos(π/2 − α) nimaga teng?",
+   "a": [
+    "sinα",
+    "cosα",
+    "−sinα",
+    "−cosα"
+   ],
+   "e": "Keltirish formulasi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Ikkinchi chorakda qaysi trigonometrik funksiya musbat?",
+   "a": [
+    "sin",
+    "cos",
+    "tg",
+    "ctg"
+   ],
+   "e": "Ikkinchi chorakda y > 0, x < 0."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "2×2 o'lchamli A = [[1, 2], [3, 4]] matritsa determinanti nechaga teng?",
+   "a": [
+    "−2",
+    "2",
     "10",
-    "14",
-    "12",
-    "√28"
+    "−10"
    ],
-   "e": "Pifagor teoremasi: √(36 + 64) = 10."
+   "e": "1·4 − 2·3 = −2."
   },
   {
-   "b": "Geometriya va o'lchashlar",
-   "q": "Radiusi 5 sm bo'lgan doiraning yuzi qaysi?",
+   "b": "Algebra va funksiyalar",
+   "q": "[[2, 0], [0, 3]] matritsaning determinanti nechaga teng?",
    "a": [
-    "25π sm²",
-    "10π sm²",
-    "5π sm²",
-    "50π sm²"
+    "6",
+    "5",
+    "0",
+    "1"
    ],
-   "e": "S = πr² = 25π sm²."
+   "e": "Diagonal matritsa determinanti diagonal elementlari ko'paytmasiga teng."
   },
   {
-   "b": "Geometriya va o'lchashlar",
-   "q": "Qavariq oltiburchak ichki burchaklarining yig'indisi necha gradus?",
+   "b": "Algebra va funksiyalar",
+   "q": "Determinanti nolga teng matritsa qanday nomlanadi?",
    "a": [
-    "720°",
-    "540°",
-    "360°",
-    "900°"
+    "Xos (maxsus) matritsa",
+    "Birlik matritsa",
+    "Simmetrik matritsa",
+    "Teskari matritsa"
    ],
-   "e": "(n − 2)·180° = 4·180° = 720°."
+   "e": "Xos matritsaning teskarisi mavjud emas."
   },
   {
-   "b": "Geometriya va o'lchashlar",
-   "q": "Qirrasi 3 sm bo'lgan kubning hajmi qaysi?",
+   "b": "Algebra va funksiyalar",
+   "q": "Matritsani transponirlash nimani anglatadi?",
    "a": [
-    "27 sm³",
-    "9 sm³",
-    "54 sm³",
-    "18 sm³"
+    "Satrlar va ustunlar o'rnini almashtirish",
+    "Barcha elementlarni −1 ga ko'paytirish",
+    "Determinantni hisoblash",
+    "Bosh diagonal elementlarini nolga aylantirish"
    ],
-   "e": "V = a³ = 27 sm³."
+   "e": "(Aᵀ)ᵢⱼ = Aⱼᵢ."
   },
   {
-   "b": "Geometriya va o'lchashlar",
-   "q": "Silindrning hajmi qaysi formula bilan topiladi (r — asos radiusi, h — balandlik)?",
+   "b": "Algebra va funksiyalar",
+   "q": "m×n va n×k o'lchamli matritsalar ko'paytmasi qanday o'lchamda bo'ladi?",
    "a": [
-    "V = πr²h",
-    "V = 2πrh",
-    "V = ⅓πr²h",
-    "V = 4/3πr³"
+    "m×k",
+    "n×n",
+    "m×n",
+    "k×m"
    ],
-   "e": "Silindr hajmi asos yuzining balandlikka ko'paytmasiga teng."
+   "e": "Birinchi matritsa ustunlari soni ikkinchisi satrlari soniga teng bo'lishi kerak."
   },
   {
-   "b": "Geometriya va o'lchashlar",
+   "b": "Algebra va funksiyalar",
+   "q": "Birlik matritsa E ga istalgan A kvadrat matritsani ko'paytirsak nima hosil bo'ladi?",
+   "a": [
+    "A",
+    "E",
+    "Nol matritsa",
+    "Aᵀ"
+   ],
+   "e": "AE = EA = A."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Chiziqli tenglamalar sistemasini Kramer usulida yechish uchun qanday shart bajarilishi kerak?",
+   "a": [
+    "Asosiy determinant noldan farqli",
+    "Asosiy determinant nolga teng",
+    "Tenglamalar soni noma'lumlardan ko'p",
+    "Barcha ozod hadlar nolga teng"
+   ],
+   "e": "xᵢ = Δᵢ/Δ."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "{2x + y = 5; x − y = 1} sistemada asosiy determinant nechaga teng?",
+   "a": [
+    "−3",
+    "3",
+    "1",
+    "−1"
+   ],
+   "e": "Δ = 2·(−1) − 1·1 = −3."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Matritsa rangi nima?",
+   "a": [
+    "Chiziqli erkli satrlarning maksimal soni",
+    "Matritsadagi barcha elementlar yig'indisi",
+    "Matritsaning bosh diagonali uzunligi",
+    "Determinantning kvadrati"
+   ],
+   "e": "Rang noldan farqli minorlarning eng katta tartibiga teng."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Gauss usuli nimaga asoslangan?",
+   "a": [
+    "Noma'lumlarni ketma-ket yo'qotishga",
+    "Determinantlarni hisoblashga",
+    "Teskari matritsani topishga",
+    "Grafik usulga"
+   ],
+   "e": "Sistema pog'onali ko'rinishga keltiriladi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "a = (1; 2) va b = (3; 4) vektorlar yig'indisi qaysi?",
+   "a": [
+    "(4; 6)",
+    "(3; 8)",
+    "(2; 2)",
+    "(4; 4)"
+   ],
+   "e": "Koordinatalar mos ravishda qo'shiladi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "a = (3; 4) vektorning uzunligi nechaga teng?",
+   "a": [
+    "5",
+    "7",
+    "25",
+    "12"
+   ],
+   "e": "|a| = √(9 + 16)."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "a = (1; 2; 3) va b = (4; −1; 2) vektorlarning skalyar ko'paytmasi nechaga teng?",
+   "a": [
+    "8",
+    "7",
+    "10",
+    "6"
+   ],
+   "e": "4 − 2 + 6 = 8."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Ikki vektor perpendikulyar bo'lsa, ularning skalyar ko'paytmasi nechaga teng?",
+   "a": [
+    "0",
+    "1",
+    "Uzunliklari ko'paytmasiga",
+    "−1"
+   ],
+   "e": "cos90° = 0."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Ikki vektorning vektor ko'paytmasi natijasi nima?",
+   "a": [
+    "Ikkala vektorga perpendikulyar vektor",
+    "Son (skalyar)",
+    "Birinchi vektorga parallel vektor",
+    "Nol vektor har doim"
+   ],
+   "e": "Uning uzunligi vektorlarga qurilgan parallelogramm yuziga teng."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Ox o'qini (2; 0) nuqtada, Oy o'qini (0; 3) nuqtada kesuvchi to'g'ri chiziq tenglamasi qaysi?",
+   "a": [
+    "x/2 + y/3 = 1",
+    "x/3 + y/2 = 1",
+    "2x + 3y = 1",
+    "3x + 2y = 1"
+   ],
+   "e": "Kesmalardagi tenglama: x/a + y/b = 1."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = 2x + 3 va y = 2x − 5 to'g'ri chiziqlar qanday joylashgan?",
+   "a": [
+    "Parallel",
+    "Perpendikulyar",
+    "Ustma-ust",
+    "(0; 3) nuqtada kesishadi"
+   ],
+   "e": "Burchak koeffitsientlari teng, ozod hadlari turlicha."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Ikki to'g'ri chiziq perpendikulyar bo'lishi sharti qaysi (k₁, k₂ — burchak koeffitsientlari)?",
+   "a": [
+    "k₁·k₂ = −1",
+    "k₁ = k₂",
+    "k₁ + k₂ = 0",
+    "k₁·k₂ = 1"
+   ],
+   "e": "Masalan, y = 2x va y = −x/2."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Markazi (0; 0), radiusi 5 bo'lgan aylana tenglamasi qaysi?",
+   "a": [
+    "x² + y² = 25",
+    "x² + y² = 5",
+    "x + y = 5",
+    "x² − y² = 25"
+   ],
+   "e": "(x − a)² + (y − b)² = R²."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "(x − 1)² + (y + 2)² = 9 aylananing markazi va radiusi qaysi?",
+   "a": [
+    "(1; −2), R = 3",
+    "(−1; 2), R = 3",
+    "(1; −2), R = 9",
+    "(−1; 2), R = 9"
+   ],
+   "e": "Markaz (a; b), radius √9."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x²/25 + y²/9 = 1 tenglama qanday egri chiziqni ifodalaydi?",
+   "a": [
+    "Ellips",
+    "Giperbola",
+    "Parabola",
+    "Aylana"
+   ],
+   "e": "Katta yarim o'q 5, kichik yarim o'q 3."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x²/16 − y²/9 = 1 tenglama qanday egri chiziqni ifodalaydi?",
+   "a": [
+    "Giperbola",
+    "Ellips",
+    "Parabola",
+    "Aylana"
+   ],
+   "e": "Ishorasi minus bo'lgan kanonik tenglama."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y² = 4x tenglama qanday egri chiziqni ifodalaydi?",
+   "a": [
+    "Parabola",
+    "Ellips",
+    "Giperbola",
+    "To'g'ri chiziq"
+   ],
+   "e": "Fokusi (1; 0) nuqtada."
+  },
+  {
+   "b": "Algebra va funksiyalar",
    "q": "A(1; 2) va B(4; 6) nuqtalar orasidagi masofa nechaga teng?",
    "a": [
     "5",
     "7",
-    "√7",
-    "25"
+    "25",
+    "√7"
    ],
-   "e": "√((4 − 1)² + (6 − 2)²) = √(9 + 16) = 5."
+   "e": "√(3² + 4²) = 5."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "A(2; 4) va B(6; 8) kesma o'rtasining koordinatalari qaysi?",
+   "a": [
+    "(4; 6)",
+    "(8; 12)",
+    "(2; 2)",
+    "(3; 4)"
+   ],
+   "e": "((2+6)/2; (4+8)/2)."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = f(x) funksiyaga teskari funksiya grafigi qaysi to'g'ri chiziqqa nisbatan simmetrik?",
+   "a": [
+    "y = x",
+    "y = −x",
+    "Ox o'qi",
+    "Oy o'qi"
+   ],
+   "e": "Masalan, y = 2ˣ va y = log₂x."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "f(x) = 3x − 2 bo'lsa, f(2) nechaga teng?",
+   "a": [
+    "4",
+    "8",
+    "6",
+    "1"
+   ],
+   "e": "3·2 − 2 = 4."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "f(x) = x² va g(x) = x + 1 bo'lsa, f(g(2)) nechaga teng?",
+   "a": [
+    "9",
+    "5",
+    "6",
+    "4"
+   ],
+   "e": "g(2) = 3, f(3) = 9."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = |x| funksiyaning eng kichik qiymati nechaga teng?",
+   "a": [
+    "0",
+    "−1",
+    "1",
+    "Mavjud emas"
+   ],
+   "e": "Modul manfiy bo'lmaydi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Ko'phad P(x) = x³ − 2x + 1 ning x − 1 ga bo'lishdagi qoldig'i nechaga teng?",
+   "a": [
+    "0",
+    "1",
+    "−1",
+    "2"
+   ],
+   "e": "Bezu teoremasi: qoldiq P(1) = 1 − 2 + 1 = 0."
   },
   {
    "b": "Geometriya va o'lchashlar",
-   "q": "Uchburchakning ikki burchagi 50° va 60°. Uchinchi burchagi nechaga teng?",
+   "q": "Uchburchak ichki burchaklari yig'indisi nechaga teng?",
    "a": [
-    "70°",
-    "80°",
+    "180°",
+    "360°",
+    "90°",
+    "270°"
+   ],
+   "e": "Har qanday uchburchakda."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Qavariq n burchak ichki burchaklari yig'indisi formulasi qaysi?",
+   "a": [
+    "180°(n − 2)",
+    "180°n",
+    "360°(n − 2)",
+    "90°n"
+   ],
+   "e": "Masalan, beshburchakda 540°."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Muntazam oltiburchakning bitta ichki burchagi necha gradus?",
+   "a": [
+    "120°",
     "60°",
-    "90°"
+    "135°",
+    "108°"
    ],
-   "e": "180° − 50° − 60° = 70°."
+   "e": "180°·4/6 = 120°."
   },
   {
-   "b": "Statistika va ehtimollik",
-   "q": "2, 4, 4, 6, 9 sonlar qatorining medianasi nechaga teng?",
+   "b": "Geometriya va o'lchashlar",
+   "q": "To'g'ri burchakli uchburchakda katetlar 6 va 8 bo'lsa, gipotenuza nechaga teng?",
    "a": [
-    "4",
-    "5",
-    "6",
-    "2"
+    "10",
+    "14",
+    "12",
+    "100"
    ],
-   "e": "Tartiblangan qatorning o'rtasidagi had — 4."
+   "e": "Pifagor teoremasi: √(36 + 64)."
   },
   {
-   "b": "Statistika va ehtimollik",
-   "q": "3, 5, 7, 9 sonlarining o'rta arifmetigi nechaga teng?",
+   "b": "Geometriya va o'lchashlar",
+   "q": "To'g'ri burchakli uchburchakda gipotenuza 13, bir katet 5. Ikkinchi katet nechaga teng?",
+   "a": [
+    "12",
+    "8",
+    "18",
+    "144"
+   ],
+   "e": "√(169 − 25) = 12."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Tomonlari 3, 4, 5 bo'lgan uchburchakning yuzi nechaga teng?",
    "a": [
     "6",
-    "5",
-    "7",
+    "12",
+    "7,5",
+    "10"
+   ],
+   "e": "To'g'ri burchakli uchburchak: 3·4/2."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Asosi 10, balandligi 6 bo'lgan uchburchak yuzi nechaga teng?",
+   "a": [
+    "30",
+    "60",
+    "16",
+    "15"
+   ],
+   "e": "S = ah/2."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Tomoni 6 bo'lgan muntazam uchburchak yuzi nechaga teng?",
+   "a": [
+    "9√3",
+    "18√3",
+    "36",
+    "6√3"
+   ],
+   "e": "S = a²√3/4 = 36√3/4."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Geron formulasi nimani hisoblaydi?",
+   "a": [
+    "Uchburchak yuzini uchta tomoni bo'yicha",
+    "Uchburchak perimetrini",
+    "Doira yuzini",
+    "Uchburchak balandligini burchak bo'yicha"
+   ],
+   "e": "S = √(p(p−a)(p−b)(p−c)), p — yarim perimetr."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Sinuslar teoremasi qaysi?",
+   "a": [
+    "a/sinA = b/sinB = c/sinC = 2R",
+    "a² = b² + c² − 2bc·cosA",
+    "a + b + c = 2p",
+    "a/cosA = b/cosB"
+   ],
+   "e": "R — tashqi chizilgan aylana radiusi."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Kosinuslar teoremasi qaysi?",
+   "a": [
+    "a² = b² + c² − 2bc·cosA",
+    "a/sinA = 2R",
+    "a² = b² + c²",
+    "a² = b² − c² + 2bc·sinA"
+   ],
+   "e": "A = 90° bo'lsa, Pifagor teoremasi hosil bo'ladi."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Parallelogramm yuzi formulasi qaysi?",
+   "a": [
+    "S = a·h",
+    "S = a·h/2",
+    "S = (a + b)h/2",
+    "S = a²"
+   ],
+   "e": "S = ab·sinα ham to'g'ri."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Asoslari 6 va 10, balandligi 4 bo'lgan trapetsiya yuzi nechaga teng?",
+   "a": [
+    "32",
+    "64",
+    "40",
     "24"
    ],
-   "e": "(3 + 5 + 7 + 9)/4 = 6."
+   "e": "S = (6 + 10)·4/2."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Diagonallari 6 va 8 bo'lgan romb yuzi nechaga teng?",
+   "a": [
+    "24",
+    "48",
+    "14",
+    "12"
+   ],
+   "e": "S = d₁d₂/2."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Radiusi 5 bo'lgan doira yuzi nechaga teng?",
+   "a": [
+    "25π",
+    "10π",
+    "5π",
+    "100π"
+   ],
+   "e": "S = πR²."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Radiusi 3 bo'lgan aylana uzunligi nechaga teng?",
+   "a": [
+    "6π",
+    "9π",
+    "3π",
+    "12π"
+   ],
+   "e": "C = 2πR."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Radiusi 6, markaziy burchagi 60° bo'lgan sektor yuzi nechaga teng?",
+   "a": [
+    "6π",
+    "36π",
+    "12π",
+    "3π"
+   ],
+   "e": "S = πR²·60/360 = 36π/6."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Aylanaga ichki chizilgan burchak shu yoyga tiralgan markaziy burchakdan qanday farq qiladi?",
+   "a": [
+    "Ikki marta kichik",
+    "Ikki marta katta",
+    "Teng",
+    "90° ga katta"
+   ],
+   "e": "Ichki chizilgan burchak yoyning yarmi bilan o'lchanadi."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Diametrga tiralgan ichki chizilgan burchak necha gradus?",
+   "a": [
+    "90°",
+    "180°",
+    "60°",
+    "45°"
+   ],
+   "e": "Yarim aylanaga tiralgan burchak to'g'ri burchak."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Kub qirrasi 3 bo'lsa, hajmi nechaga teng?",
+   "a": [
+    "27",
+    "9",
+    "18",
+    "54"
+   ],
+   "e": "V = a³."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Kub qirrasi 2 bo'lsa, to'la sirti nechaga teng?",
+   "a": [
+    "24",
+    "8",
+    "16",
+    "12"
+   ],
+   "e": "S = 6a²."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "O'lchamlari 2, 3, 4 bo'lgan to'g'ri burchakli parallelepiped hajmi nechaga teng?",
+   "a": [
+    "24",
+    "9",
+    "52",
+    "26"
+   ],
+   "e": "V = abc."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "O'lchamlari 2, 3, 6 bo'lgan to'g'ri burchakli parallelepiped diagonali nechaga teng?",
+   "a": [
+    "7",
+    "11",
+    "49",
+    "√11"
+   ],
+   "e": "d = √(4 + 9 + 36) = 7."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Silindr hajmi formulasi qaysi?",
+   "a": [
+    "V = πR²H",
+    "V = πR²H/3",
+    "V = 2πRH",
+    "V = 4πR³/3"
+   ],
+   "e": "Asos yuzi ko'paytiriladi balandlikka."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Konus hajmi formulasi qaysi?",
+   "a": [
+    "V = πR²H/3",
+    "V = πR²H",
+    "V = πRl",
+    "V = 4πR³/3"
+   ],
+   "e": "Konus hajmi silindr hajmining uchdan biriga teng."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Shar hajmi formulasi qaysi?",
+   "a": [
+    "V = 4πR³/3",
+    "V = 4πR²",
+    "V = πR³",
+    "V = 2πR³/3"
+   ],
+   "e": "Sfera yuzi S = 4πR²."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Radiusi 3 bo'lgan sfera sirti yuzi nechaga teng?",
+   "a": [
+    "36π",
+    "12π",
+    "9π",
+    "108π"
+   ],
+   "e": "S = 4πR² = 36π."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Piramida hajmi formulasi qaysi?",
+   "a": [
+    "V = S·H/3",
+    "V = S·H",
+    "V = S·H/2",
+    "V = S + H"
+   ],
+   "e": "S — asos yuzi, H — balandlik."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Asos radiusi 3, balandligi 4 bo'lgan konusning yasovchisi nechaga teng?",
+   "a": [
+    "5",
+    "7",
+    "25",
+    "√7"
+   ],
+   "e": "l = √(R² + H²)."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Asos radiusi 2, balandligi 5 bo'lgan silindr hajmi nechaga teng?",
+   "a": [
+    "20π",
+    "10π",
+    "50π",
+    "40π"
+   ],
+   "e": "V = π·4·5."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Prizma hajmi formulasi qaysi?",
+   "a": [
+    "V = S·H",
+    "V = S·H/3",
+    "V = P·H",
+    "V = S/H"
+   ],
+   "e": "S — asos yuzi."
   },
   {
    "b": "Statistika va ehtimollik",
-   "q": "O'yin soqqasi bir marta tashlanganda juft son tushish ehtimoli qancha?",
+   "q": "2, 4, 6, 8, 10 sonlarining o'rta arifmetigi nechaga teng?",
+   "a": [
+    "6",
+    "5",
+    "30",
+    "8"
+   ],
+   "e": "(2+4+6+8+10)/5 = 30/5 = 6."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "3, 7, 1, 9, 5 qatorning medianasi nechaga teng?",
+   "a": [
+    "5",
+    "7",
+    "1",
+    "9"
+   ],
+   "e": "Tartiblangan qator: 1, 3, 5, 7, 9 — o'rtadagi son 5."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "2, 4, 6, 8 qatorning medianasi nechaga teng?",
+   "a": [
+    "5",
+    "4",
+    "6",
+    "20"
+   ],
+   "e": "Juft sonli qatorda ikki o'rta son o'rtachasi: (4+6)/2."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "1, 2, 2, 3, 2, 5 qatorning modasi nechaga teng?",
+   "a": [
+    "2",
+    "3",
+    "5",
+    "1"
+   ],
+   "e": "Moda — eng ko'p takrorlangan qiymat."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "3, 8, 1, 10, 6 qatorning kengligi (qulochi) nechaga teng?",
+   "a": [
+    "9",
+    "10",
+    "7",
+    "5"
+   ],
+   "e": "Eng katta va eng kichik qiymatlar ayirmasi: 10 − 1."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Dispersiya qaysi xarakteristikaning kvadratiga teng?",
+   "a": [
+    "O'rtacha kvadratik chetlanish",
+    "O'rta arifmetik",
+    "Mediana",
+    "Moda"
+   ],
+   "e": "σ = √D."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "1, 2, 3, 4, 5 qatorning dispersiyasi nechaga teng?",
+   "a": [
+    "2",
+    "3",
+    "√2",
+    "10"
+   ],
+   "e": "O'rtacha 3; ((4+1+0+1+4)/5) = 2."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Tanga tashlanganda gerb tushish ehtimoli nechaga teng?",
+   "a": [
+    "0,5",
+    "1",
+    "0,25",
+    "0"
+   ],
+   "e": "Ikki teng imkoniyatli natijadan bittasi."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "O'yin kubigi tashlanganda juft son tushish ehtimoli nechaga teng?",
    "a": [
     "1/2",
-    "1/3",
     "1/6",
+    "1/3",
     "2/3"
    ],
-   "e": "Juft sonlar 2, 4, 6 — 3 ta; ehtimol 3/6 = 1/2."
+   "e": "2, 4, 6 — 3 ta qulay natija 6 tadan."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "O'yin kubigi tashlanganda 5 dan katta son tushish ehtimoli nechaga teng?",
+   "a": [
+    "1/6",
+    "1/3",
+    "5/6",
+    "1/2"
+   ],
+   "e": "Faqat 6 — bitta qulay natija."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Ikki tanga tashlanganda ikkalasida ham gerb tushish ehtimoli nechaga teng?",
+   "a": [
+    "1/4",
+    "1/2",
+    "1/3",
+    "3/4"
+   ],
+   "e": "Mustaqil hodisalar: 1/2·1/2."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Ikki o'yin kubigi tashlanganda ochkolar yig'indisi 7 bo'lish ehtimoli nechaga teng?",
+   "a": [
+    "1/6",
+    "1/12",
+    "7/36",
+    "1/36"
+   ],
+   "e": "Qulay juftliklar 6 ta: (1,6), (2,5), ..., (6,1); jami 36."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Qutida 3 ta oq va 7 ta qora shar bor. Tavakkaliga olingan shar oq bo'lish ehtimoli nechaga teng?",
+   "a": [
+    "0,3",
+    "0,7",
+    "3/7",
+    "0,5"
+   ],
+   "e": "3/10."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Muqarrar hodisaning ehtimoli nechaga teng?",
+   "a": [
+    "1",
+    "0",
+    "0,5",
+    "100"
+   ],
+   "e": "Muqarrar hodisa albatta ro'y beradi."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Mumkin bo'lmagan hodisaning ehtimoli nechaga teng?",
+   "a": [
+    "0",
+    "1",
+    "−1",
+    "0,5"
+   ],
+   "e": "Bunday hodisa hech qachon ro'y bermaydi."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "A hodisaning ehtimoli 0,3 bo'lsa, unga qarama-qarshi hodisa ehtimoli nechaga teng?",
+   "a": [
+    "0,7",
+    "0,3",
+    "1,3",
+    "0"
+   ],
+   "e": "P(Ā) = 1 − P(A)."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Ikki mustaqil hodisa birgalikda ro'y berish ehtimoli qanday topiladi?",
+   "a": [
+    "P(AB) = P(A)·P(B)",
+    "P(AB) = P(A) + P(B)",
+    "P(AB) = P(A) − P(B)",
+    "P(AB) = P(A)/P(B)"
+   ],
+   "e": "Mustaqil hodisalar ehtimollarini ko'paytirish teoremasi."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Birgalikda bo'lmagan A va B hodisalardan biri ro'y berish ehtimoli qanday topiladi?",
+   "a": [
+    "P(A) + P(B)",
+    "P(A)·P(B)",
+    "P(A) − P(B)",
+    "1 − P(A)P(B)"
+   ],
+   "e": "Qo'shish teoremasi."
   },
   {
    "b": "Statistika va ehtimollik",
@@ -297,35 +1848,266 @@
     "120",
     "25",
     "60",
-    "720"
+    "5"
    ],
-   "e": "Joylashtirishlar soni 5! = 120."
+   "e": "5! = 120."
   },
   {
-   "b": "Matematik analiz asoslari",
-   "q": "f(x) = x³ funksiyaning hosilasi qaysi?",
+   "b": "Statistika va ehtimollik",
+   "q": "6 ta elementdan 2 tadan o'rinlashtirishlar soni nechaga teng?",
    "a": [
-    "3x²",
-    "x²",
-    "3x³",
-    "x⁴/4"
+    "30",
+    "15",
+    "36",
+    "12"
    ],
-   "e": "(xⁿ)′ = n·xⁿ⁻¹."
+   "e": "A₆² = 6·5 = 30."
   },
   {
-   "b": "Matematik analiz asoslari",
-   "q": "∫ 2x dx aniqmas integral qaysi?",
+   "b": "Statistika va ehtimollik",
+   "q": "6 ta elementdan 2 tadan guruhlashlar (kombinatsiyalar) soni nechaga teng?",
    "a": [
-    "x² + C",
-    "2x² + C",
-    "2 + C",
-    "x²/2 + C"
+    "15",
+    "30",
+    "12",
+    "36"
    ],
-   "e": "(x²)′ = 2x, demak boshlang'ich funksiya x² + C."
+   "e": "C₆² = 6·5/2 = 15."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "C₁₀³ nechaga teng?",
+   "a": [
+    "120",
+    "720",
+    "30",
+    "1000"
+   ],
+   "e": "10·9·8/(3·2·1) = 120."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "0! nechaga teng?",
+   "a": [
+    "1",
+    "0",
+    "Aniqlanmagan",
+    "−1"
+   ],
+   "e": "Ta'rifga ko'ra 0! = 1."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Sinfda 25 o'quvchi bor. Sardor va uning o'rinbosarini necha usulda saylash mumkin?",
+   "a": [
+    "600",
+    "300",
+    "625",
+    "50"
+   ],
+   "e": "A₂₅² = 25·24 = 600."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Nyuton binomi (a + b)ⁿ yoyilmasida nechta had bor?",
+   "a": [
+    "n + 1",
+    "n",
+    "2n",
+    "n − 1"
+   ],
+   "e": "Koeffitsientlar Paskal uchburchagidan olinadi."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "(a + b)³ yoyilmasidagi koeffitsientlar qaysi?",
+   "a": [
+    "1, 3, 3, 1",
+    "1, 2, 1",
+    "1, 4, 6, 4, 1",
+    "1, 3, 1"
+   ],
+   "e": "a³ + 3a²b + 3ab² + b³."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Diskret tasodifiy miqdorning matematik kutilmasi qanday hisoblanadi?",
+   "a": [
+    "M(X) = Σxᵢpᵢ",
+    "M(X) = Σxᵢ/pᵢ",
+    "M(X) = Σpᵢ",
+    "M(X) = max xᵢ"
+   ],
+   "e": "Qiymatlar ularning ehtimollariga ko'paytirib qo'shiladi."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "X tasodifiy miqdor 1 va 3 qiymatlarni 0,5 ehtimol bilan qabul qiladi. M(X) nechaga teng?",
+   "a": [
+    "2",
+    "1,5",
+    "4",
+    "3"
+   ],
+   "e": "1·0,5 + 3·0,5 = 2."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Bernulli sxemasida n ta tajribada hodisa k marta ro'y berish ehtimoli formulasi qaysi?",
+   "a": [
+    "Cₙᵏ pᵏ qⁿ⁻ᵏ",
+    "pᵏ qⁿ",
+    "Cₙᵏ p qⁿ",
+    "n·p·q"
+   ],
+   "e": "q = 1 − p."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Binomial taqsimotning matematik kutilmasi nechaga teng?",
+   "a": [
+    "np",
+    "npq",
+    "n/p",
+    "p/n"
+   ],
+   "e": "Dispersiya esa npq."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Normal taqsimot grafigi qanday shaklda?",
+   "a": [
+    "Qo'ng'iroqsimon simmetrik egri chiziq",
+    "To'g'ri chiziq",
+    "Giperbola",
+    "Sinusoida"
+   ],
+   "e": "Gauss egri chizig'i deb ham ataladi."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Normal taqsimotda qiymatlarning taxminan qancha qismi (μ − 3σ; μ + 3σ) oralig'ida yotadi?",
+   "a": [
+    "99,7%",
+    "50%",
+    "68%",
+    "95%"
+   ],
+   "e": "\"Uch sigma qoidasi\"; ±σ — 68%, ±2σ — 95%."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Chastotalar poligoni nima?",
+   "a": [
+    "Variatsion qator grafik tasviri (siniq chiziq)",
+    "Aylana diagramma",
+    "Faqat jadval",
+    "Formula"
+   ],
+   "e": "Gistogramma esa to'g'ri to'rtburchaklardan tuziladi."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Nisbiy chastota qanday topiladi?",
+   "a": [
+    "Hodisa ro'y bergan tajribalar sonining jami tajribalarga nisbati",
+    "Tajribalar sonining hodisalar soniga nisbati",
+    "Hodisalar soni va tajribalar soni ayirmasi",
+    "Hodisalar sonining kvadrati"
+   ],
+   "e": "Tajribalar ko'p bo'lsa nisbiy chastota ehtimolga yaqinlashadi."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Tanlanma deb nimaga aytiladi?",
+   "a": [
+    "Bosh to'plamdan tasodifiy olingan obyektlar to'plami",
+    "Bosh to'plamning barcha obyektlari",
+    "Faqat eng katta qiymatlar",
+    "Faqat o'rtacha qiymat"
+   ],
+   "e": "Tanlanma reprezentativ bo'lishi kerak."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Korrelyatsiya koeffitsienti qanday oraliqda bo'ladi?",
+   "a": [
+    "[−1; 1]",
+    "[0; 1]",
+    "[0; +∞)",
+    "[−∞; +∞]"
+   ],
+   "e": "|r| = 1 bo'lsa, qat'iy chiziqli bog'lanish."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Shartli ehtimol P(A|B) formulasi qaysi?",
+   "a": [
+    "P(AB)/P(B)",
+    "P(A)·P(B)",
+    "P(A) + P(B)",
+    "P(B)/P(AB)"
+   ],
+   "e": "B ro'y bergan shartda A ning ehtimoli."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "To'la ehtimol formulasi qaysi?",
+   "a": [
+    "P(A) = Σ P(Hᵢ)·P(A|Hᵢ)",
+    "P(A) = Σ P(Hᵢ)",
+    "P(A) = P(H₁)/P(A|H₁)",
+    "P(A) = 1 − ΣP(Hᵢ)"
+   ],
+   "e": "Hᵢ — to'la gruppa tashkil etuvchi gipotezalar."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Qutida 2 ta oq va 3 ta qora shar bor. Qaytarmasdan ketma-ket 2 ta olindi. Ikkalasi oq bo'lish ehtimoli nechaga teng?",
+   "a": [
+    "1/10",
+    "4/25",
+    "2/5",
+    "1/5"
+   ],
+   "e": "2/5·1/4 = 1/10."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Merganning nishonga tegish ehtimoli 0,8. Ikki o'qning ikkalasi ham tegish ehtimoli nechaga teng?",
+   "a": [
+    "0,64",
+    "1,6",
+    "0,8",
+    "0,16"
+   ],
+   "e": "0,8·0,8 = 0,64."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Merganning nishonga tegish ehtimoli 0,8. Ikki o'qdan kamida bittasi tegish ehtimoli nechaga teng?",
+   "a": [
+    "0,96",
+    "0,64",
+    "0,8",
+    "1,6"
+   ],
+   "e": "1 − 0,2·0,2 = 0,96."
   },
   {
    "b": "Matematik analiz asoslari",
-   "q": "lim(x→0) (sin x)/x limit nechaga teng?",
+   "q": "lim(x→2) (x² + 1) nechaga teng?",
+   "a": [
+    "5",
+    "4",
+    "3",
+    "∞"
+   ],
+   "e": "Uzluksiz funksiyada qiymatni qo'yamiz."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "lim(x→0) sin x / x nechaga teng?",
    "a": [
     "1",
     "0",
@@ -333,6 +2115,1524 @@
     "Mavjud emas"
    ],
    "e": "Birinchi ajoyib limit."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "lim(x→∞) (1 + 1/x)ˣ nechaga teng?",
+   "a": [
+    "e",
+    "1",
+    "∞",
+    "0"
+   ],
+   "e": "Ikkinchi ajoyib limit, e ≈ 2,718."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "lim(x→3) (x² − 9)/(x − 3) nechaga teng?",
+   "a": [
+    "6",
+    "0",
+    "3",
+    "∞"
+   ],
+   "e": "(x − 3)(x + 3)/(x − 3) = x + 3 → 6."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "lim(x→∞) (3x² + 1)/(x² − 2) nechaga teng?",
+   "a": [
+    "3",
+    "0",
+    "∞",
+    "−1/2"
+   ],
+   "e": "Yuqori darajali hadlar koeffitsientlari nisbati."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "lim(x→∞) 1/x nechaga teng?",
+   "a": [
+    "0",
+    "1",
+    "∞",
+    "−1"
+   ],
+   "e": "Maxraj cheksiz o'sadi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(xⁿ)' hosila formulasi qaysi?",
+   "a": [
+    "n·xⁿ⁻¹",
+    "xⁿ⁺¹/(n + 1)",
+    "n·xⁿ",
+    "xⁿ⁻¹"
+   ],
+   "e": "Darajali funksiya hosilasi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(x³)' nechaga teng?",
+   "a": [
+    "3x²",
+    "x⁴/4",
+    "3x",
+    "x²"
+   ],
+   "e": "n·xⁿ⁻¹."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(sin x)' nechaga teng?",
+   "a": [
+    "cos x",
+    "−cos x",
+    "sin x",
+    "−sin x"
+   ],
+   "e": "(cos x)' = −sin x."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(cos x)' nechaga teng?",
+   "a": [
+    "−sin x",
+    "sin x",
+    "cos x",
+    "−cos x"
+   ],
+   "e": "Kosinus hosilasi minus sinus."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(eˣ)' nechaga teng?",
+   "a": [
+    "eˣ",
+    "x·eˣ⁻¹",
+    "eˣ⁺¹",
+    "ln x"
+   ],
+   "e": "Eksponenta hosilasi o'ziga teng."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(ln x)' nechaga teng?",
+   "a": [
+    "1/x",
+    "ln x",
+    "x",
+    "eˣ"
+   ],
+   "e": "x > 0 da."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(5)' — o'zgarmas sonning hosilasi nechaga teng?",
+   "a": [
+    "0",
+    "5",
+    "1",
+    "5x"
+   ],
+   "e": "O'zgarmasning hosilasi nolga teng."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(uv)' ko'paytma hosilasi formulasi qaysi?",
+   "a": [
+    "u'v + uv'",
+    "u'v'",
+    "u'v − uv'",
+    "(u'v − uv')/v²"
+   ],
+   "e": "Bo'linma hosilasi: (u/v)' = (u'v − uv')/v²."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y = x² − 4x funksiyaning x = 3 nuqtadagi hosilasi nechaga teng?",
+   "a": [
+    "2",
+    "−3",
+    "6",
+    "5"
+   ],
+   "e": "y' = 2x − 4 = 2."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y = sin 2x funksiyaning hosilasi qaysi?",
+   "a": [
+    "2cos 2x",
+    "cos 2x",
+    "−2cos 2x",
+    "2sin x"
+   ],
+   "e": "Murakkab funksiya hosilasi: (sin u)' = cos u·u'."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Hosilaning geometrik ma'nosi nima?",
+   "a": [
+    "Urinmaning burchak koeffitsienti",
+    "Grafik ostidagi yuza",
+    "Funksiyaning eng katta qiymati",
+    "Funksiyaning aniqlanish sohasi"
+   ],
+   "e": "f'(x₀) = tgα."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Hosilaning mexanik ma'nosi nima?",
+   "a": [
+    "Oniy tezlik",
+    "Bosib o'tilgan yo'l",
+    "Harakat vaqti",
+    "Massa"
+   ],
+   "e": "v(t) = s'(t), a(t) = v'(t)."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Moddiy nuqta s(t) = t² + 3t qonun bo'yicha harakatlansa, t = 2 da tezligi nechaga teng?",
+   "a": [
+    "7",
+    "10",
+    "4",
+    "5"
+   ],
+   "e": "v = 2t + 3 = 7."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Funksiya oraliqda o'suvchi bo'lishi uchun hosilasi qanday bo'lishi kerak?",
+   "a": [
+    "Musbat",
+    "Manfiy",
+    "Nolga teng",
+    "Mavjud bo'lmasligi"
+   ],
+   "e": "f'(x) > 0 bo'lsa funksiya o'sadi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y = x³ − 3x funksiyaning kritik nuqtalari qaysi?",
+   "a": [
+    "x = ±1",
+    "x = 0",
+    "x = ±3",
+    "x = ±√3"
+   ],
+   "e": "y' = 3x² − 3 = 0."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y = x² − 2x + 5 funksiyaning eng kichik qiymati nechaga teng?",
+   "a": [
+    "4",
+    "5",
+    "1",
+    "0"
+   ],
+   "e": "Minimum x = 1 da: 1 − 2 + 5 = 4."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫xⁿdx formulasi qaysi (n ≠ −1)?",
+   "a": [
+    "xⁿ⁺¹/(n + 1) + C",
+    "n·xⁿ⁻¹ + C",
+    "xⁿ⁺¹ + C",
+    "xⁿ/n + C"
+   ],
+   "e": "Boshlang'ich funksiya."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫2x dx nechaga teng?",
+   "a": [
+    "x² + C",
+    "2 + C",
+    "2x² + C",
+    "x + C"
+   ],
+   "e": "2·x²/2."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫cos x dx nechaga teng?",
+   "a": [
+    "sin x + C",
+    "−sin x + C",
+    "cos x + C",
+    "−cos x + C"
+   ],
+   "e": "(sin x)' = cos x."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫dx/x nechaga teng?",
+   "a": [
+    "ln|x| + C",
+    "1/x² + C",
+    "x + C",
+    "−1/x² + C"
+   ],
+   "e": "n = −1 holati."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫eˣdx nechaga teng?",
+   "a": [
+    "eˣ + C",
+    "xeˣ + C",
+    "eˣ⁺¹ + C",
+    "ln x + C"
+   ],
+   "e": "Eksponenta boshlang'ichi o'ziga teng."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫₀² x dx aniq integral nechaga teng?",
+   "a": [
+    "2",
+    "4",
+    "1",
+    "0"
+   ],
+   "e": "x²/2 |₀² = 2."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫₀¹ 3x² dx aniq integral nechaga teng?",
+   "a": [
+    "1",
+    "3",
+    "6",
+    "1/3"
+   ],
+   "e": "x³ |₀¹ = 1."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Aniq integralning geometrik ma'nosi nima?",
+   "a": [
+    "Egri chiziqli trapetsiya yuzi",
+    "Urinmaning burchak koeffitsienti",
+    "Funksiyaning o'sish tezligi",
+    "Aylananing uzunligi"
+   ],
+   "e": "f(x) ≥ 0 bo'lganda."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y = x² va y = 0 chiziqlar hamda x = 0, x = 3 bilan chegaralangan yuza nechaga teng?",
+   "a": [
+    "9",
+    "27",
+    "3",
+    "6"
+   ],
+   "e": "∫₀³ x²dx = 27/3 = 9."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y' = 2x differensial tenglamaning umumiy yechimi qaysi?",
+   "a": [
+    "y = x² + C",
+    "y = 2x + C",
+    "y = x²",
+    "y = 2"
+   ],
+   "e": "Integrallash orqali."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y' = y differensial tenglamaning umumiy yechimi qaysi?",
+   "a": [
+    "y = Ceˣ",
+    "y = x + C",
+    "y = Cx",
+    "y = eˣ + C"
+   ],
+   "e": "dy/y = dx → ln|y| = x + C₁."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Ikkinchi tartibli hosila (x⁴)'' nechaga teng?",
+   "a": [
+    "12x²",
+    "4x³",
+    "24x",
+    "12x"
+   ],
+   "e": "(4x³)' = 12x²."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "z = x²y funksiyaning x bo'yicha xususiy hosilasi qaysi?",
+   "a": [
+    "2xy",
+    "x²",
+    "2x",
+    "x²y"
+   ],
+   "e": "y o'zgarmas deb olinadi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "z = x²y funksiyaning y bo'yicha xususiy hosilasi qaysi?",
+   "a": [
+    "x²",
+    "2xy",
+    "2x",
+    "y"
+   ],
+   "e": "x o'zgarmas deb olinadi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Qator yaqinlashuvining zaruriy sharti qaysi?",
+   "a": [
+    "Umumiy had nolga intiladi",
+    "Umumiy had cheksizlikka intiladi",
+    "Barcha hadlar musbat",
+    "Hadlar soni chekli"
+   ],
+   "e": "Bu shart zaruriy, lekin yetarli emas (garmonik qator uzoqlashuvchi)."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "1 + 1/2 + 1/3 + 1/4 + ... garmonik qator qanday?",
+   "a": [
+    "Uzoqlashuvchi",
+    "Yaqinlashuvchi, yig'indisi 2",
+    "Yaqinlashuvchi, yig'indisi e",
+    "Yaqinlashuvchi, yig'indisi 1"
+   ],
+   "e": "Umumiy had nolga intilsa ham qator uzoqlashadi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "1 + 1/2 + 1/4 + 1/8 + ... qator yig'indisi nechaga teng?",
+   "a": [
+    "2",
+    "1",
+    "∞",
+    "1,5"
+   ],
+   "e": "Cheksiz kamayuvchi geometrik progressiya: 1/(1 − 1/2)."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "f(x) = x³ funksiyaning x = 0 nuqtasi qanday nuqta?",
+   "a": [
+    "Burilish nuqtasi",
+    "Maksimum nuqtasi",
+    "Minimum nuqtasi",
+    "Uzilish nuqtasi"
+   ],
+   "e": "Ikkinchi hosila ishorasini o'zgartiradi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Funksiya grafigi yuqoriga botiq (∪ shaklida) bo'lishi uchun ikkinchi hosila qanday bo'lishi kerak?",
+   "a": [
+    "Musbat",
+    "Manfiy",
+    "Nolga teng",
+    "Birinchi hosilaga teng"
+   ],
+   "e": "f''(x) > 0 bo'lgan oraliqda grafik ∪ shaklida, f''(x) < 0 bo'lsa ∩ shaklida."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Nyuton–Leybnits formulasi qaysi?",
+   "a": [
+    "∫ₐᵇ f(x)dx = F(b) − F(a)",
+    "∫ₐᵇ f(x)dx = F(a) − F(b)",
+    "∫ₐᵇ f(x)dx = F(a)·F(b)",
+    "∫ₐᵇ f(x)dx = f'(b) − f'(a)"
+   ],
+   "e": "F — f ning boshlang'ich funksiyasi."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "3 : x = 6 : 8 proporsiyadan x ni toping.",
+   "a": [
+    "4",
+    "16",
+    "2,25",
+    "9"
+   ],
+   "e": "6x = 24."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "5 ishchi ishni 12 kunda bajaradi. 6 ishchi shu ishni necha kunda bajaradi (unumdorlik bir xil)?",
+   "a": [
+    "10",
+    "14,4",
+    "11",
+    "8"
+   ],
+   "e": "Teskari proporsionallik: 5·12/6 = 10."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "Avtomobil 3 soatda 240 km yo'l bosdi. Shu tezlikda 5 soatda necha km yo'l bosadi?",
+   "a": [
+    "400",
+    "480",
+    "360",
+    "450"
+   ],
+   "e": "Tezlik 80 km/soat."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "Omonatga 1 000 000 so'm yillik 20% murakkab foiz bilan qo'yildi. 2 yildan keyin summa qancha bo'ladi?",
+   "a": [
+    "1 440 000 so'm",
+    "1 400 000 so'm",
+    "1 200 000 so'm",
+    "1 480 000 so'm"
+   ],
+   "e": "1 000 000·1,2² = 1 440 000."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "Xaritaning masshtabi 1 : 100 000. Xaritada 3 sm bo'lgan masofa joyda necha km?",
+   "a": [
+    "3 km",
+    "30 km",
+    "0,3 km",
+    "300 km"
+   ],
+   "e": "3 sm · 100 000 = 300 000 sm = 3 km."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "2³ · 3² ifodaning qiymati nechaga teng?",
+   "a": [
+    "72",
+    "36",
+    "54",
+    "216"
+   ],
+   "e": "8·9."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "(−2)⁴ nechaga teng?",
+   "a": [
+    "16",
+    "−16",
+    "−8",
+    "8"
+   ],
+   "e": "Juft darajada manfiy son musbat bo'ladi."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "0,5² + 0,1 ifodaning qiymati nechaga teng?",
+   "a": [
+    "0,35",
+    "0,26",
+    "0,2",
+    "1,1"
+   ],
+   "e": "0,25 + 0,1."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "Standart ko'rinishda yozilgan 0,00045 soni qaysi?",
+   "a": [
+    "4,5·10⁻⁴",
+    "4,5·10⁻⁵",
+    "45·10⁻⁵",
+    "4,5·10⁴"
+   ],
+   "e": "Standart ko'rinishda 1 ≤ a < 10."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "2 va 3 sonlarining o'rta geometrigi nechaga teng?",
+   "a": [
+    "√6",
+    "2,5",
+    "6",
+    "√5"
+   ],
+   "e": "√(a·b)."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "Qaysi son ham 2 ga, ham 3 ga, ham 5 ga bo'linadi?",
+   "a": [
+    "120",
+    "125",
+    "132",
+    "105"
+   ],
+   "e": "30 ga bo'linishi kerak."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "Ikki sonning yig'indisi 20, ayirmasi 4. Kattasi nechaga teng?",
+   "a": [
+    "12",
+    "8",
+    "16",
+    "10"
+   ],
+   "e": "(20 + 4)/2 = 12."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "log₂8 · log₃9 ko'paytmasi nechaga teng?",
+   "a": [
+    "6",
+    "5",
+    "72",
+    "1"
+   ],
+   "e": "3 · 2."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "log₄2 nechaga teng?",
+   "a": [
+    "1/2",
+    "2",
+    "4",
+    "1/4"
+   ],
+   "e": "4^(1/2) = 2."
+  },
+  {
+   "b": "Sonlar va amallar",
+   "q": "log₂(1/4) nechaga teng?",
+   "a": [
+    "−2",
+    "2",
+    "1/2",
+    "−1/2"
+   ],
+   "e": "2⁻² = 1/4."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "(x − 3)(x + 3) ifodani soddalashtiring.",
+   "a": [
+    "x² − 9",
+    "x² + 9",
+    "x² − 6x + 9",
+    "x² − 3"
+   ],
+   "e": "Kvadratlar ayirmasi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x² − 10x + 25 ni ko'paytuvchilarga ajrating.",
+   "a": [
+    "(x − 5)²",
+    "(x + 5)²",
+    "(x − 5)(x + 5)",
+    "(x − 25)(x − 1)"
+   ],
+   "e": "To'liq kvadrat."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "(x² − 1)/(x − 1) kasrni qisqartiring (x ≠ 1).",
+   "a": [
+    "x + 1",
+    "x − 1",
+    "x",
+    "1"
+   ],
+   "e": "(x − 1)(x + 1)/(x − 1)."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "3(x − 2) = 2x + 1 tenglamaning ildizi nechaga teng?",
+   "a": [
+    "7",
+    "5",
+    "3",
+    "−7"
+   ],
+   "e": "3x − 6 = 2x + 1."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x/3 + x/6 = 3 tenglamaning ildizi nechaga teng?",
+   "a": [
+    "6",
+    "9",
+    "3",
+    "18"
+   ],
+   "e": "x/2 = 3."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "2x² − 8 = 0 tenglamaning ildizlari qaysi?",
+   "a": [
+    "±2",
+    "±4",
+    "2",
+    "±√8"
+   ],
+   "e": "x² = 4."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x² − 3x = 0 tenglamaning ildizlari qaysi?",
+   "a": [
+    "0 va 3",
+    "3",
+    "0 va −3",
+    "±3"
+   ],
+   "e": "x(x − 3) = 0."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "2x² + 3x − 2 = 0 tenglamaning ildizlari qaysi?",
+   "a": [
+    "1/2 va −2",
+    "−1/2 va 2",
+    "1 va −2",
+    "2 va 1"
+   ],
+   "e": "D = 9 + 16 = 25; x = (−3 ± 5)/4."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "x⁴ − 5x² + 4 = 0 bikvadrat tenglama nechta haqiqiy ildizga ega?",
+   "a": [
+    "4",
+    "2",
+    "1",
+    "0"
+   ],
+   "e": "x² = 1 yoki x² = 4 → ±1, ±2."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "(x − 1)(x + 2) > 0 tengsizlikning yechimi qaysi?",
+   "a": [
+    "x < −2 yoki x > 1",
+    "−2 < x < 1",
+    "x > 1",
+    "x < −2"
+   ],
+   "e": "Intervallar usuli."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "(x − 4)/(x + 1) ≤ 0 tengsizlikning yechimi qaysi?",
+   "a": [
+    "−1 < x ≤ 4",
+    "−1 ≤ x ≤ 4",
+    "x ≤ −1 yoki x ≥ 4",
+    "x < 4"
+   ],
+   "e": "Maxraj nolga teng bo'lmasligi uchun x ≠ −1."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "2ˣ > 8 tengsizlikning yechimi qaysi?",
+   "a": [
+    "x > 3",
+    "x < 3",
+    "x > 4",
+    "x > 8"
+   ],
+   "e": "Asos 2 > 1, ishora saqlanadi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "(1/3)ˣ < 9 tengsizlikning yechimi qaysi?",
+   "a": [
+    "x > −2",
+    "x < −2",
+    "x > 2",
+    "x < 2"
+   ],
+   "e": "(1/3)ˣ < (1/3)⁻²; asos 1 dan kichik — ishora o'zgaradi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "log₂x < 3 tengsizlikning yechimi qaysi?",
+   "a": [
+    "0 < x < 8",
+    "x < 8",
+    "x > 8",
+    "0 < x < 6"
+   ],
+   "e": "Aniqlanish sohasi x > 0 ham hisobga olinadi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "lg x + lg 4 = 2 tenglamaning ildizi nechaga teng?",
+   "a": [
+    "25",
+    "50",
+    "96",
+    "2,5"
+   ],
+   "e": "lg(4x) = 2 → 4x = 100."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "4ˣ − 3·2ˣ + 2 = 0 tenglamaning ildizlari qaysi?",
+   "a": [
+    "0 va 1",
+    "1 va 2",
+    "0 va 2",
+    "1"
+   ],
+   "e": "t = 2ˣ: t² − 3t + 2 = 0 → t = 1, t = 2."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "2sin x − 1 = 0 tenglamaning yechimi qaysi?",
+   "a": [
+    "x = (−1)ⁿπ/6 + πn, n ∈ Z",
+    "x = ±π/3 + 2πn, n ∈ Z",
+    "x = π/6 + 2πn, n ∈ Z",
+    "x = π/2 + πn, n ∈ Z"
+   ],
+   "e": "sin x = 1/2."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "tg x = 1 tenglamaning yechimi qaysi?",
+   "a": [
+    "x = π/4 + πn, n ∈ Z",
+    "x = π/4 + 2πn, n ∈ Z",
+    "x = π/2 + πn, n ∈ Z",
+    "x = πn, n ∈ Z"
+   ],
+   "e": "tg ning davri π."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "{x + 2y = 8; 3x − y = 3} sistemaning yechimi qaysi?",
+   "a": [
+    "(2; 3)",
+    "(3; 2)",
+    "(4; 2)",
+    "(2; 4)"
+   ],
+   "e": "x = 2: 2 + 6 = 8, 6 − 3 = 3."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "{xy = 6; x + y = 5} sistemaning yechimlari qaysi?",
+   "a": [
+    "(2; 3) va (3; 2)",
+    "(1; 6) va (6; 1)",
+    "(2; 3)",
+    "(−2; −3) va (−3; −2)"
+   ],
+   "e": "Viyet teoremasi bo'yicha t² − 5t + 6 = 0."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = x² funksiya grafigini 3 birlik o'ngga siljitsak qaysi funksiya hosil bo'ladi?",
+   "a": [
+    "y = (x − 3)²",
+    "y = (x + 3)²",
+    "y = x² + 3",
+    "y = x² − 3"
+   ],
+   "e": "f(x − a) grafigi a birlik o'ngga suriladi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = x² funksiya grafigini 2 birlik pastga siljitsak qaysi funksiya hosil bo'ladi?",
+   "a": [
+    "y = x² − 2",
+    "y = x² + 2",
+    "y = (x − 2)²",
+    "y = (x + 2)²"
+   ],
+   "e": "f(x) − b grafigi b birlik pastga suriladi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "y = 3x − 6 funksiya grafigi Ox o'qini qaysi nuqtada kesadi?",
+   "a": [
+    "(2; 0)",
+    "(0; −6)",
+    "(−2; 0)",
+    "(6; 0)"
+   ],
+   "e": "3x − 6 = 0."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "A = [[1, 2], [0, 1]] va B = [[1, 0], [3, 1]] matritsalar yig'indisi qaysi?",
+   "a": [
+    "[[2, 2], [3, 2]]",
+    "[[1, 2], [3, 1]]",
+    "[[2, 0], [3, 2]]",
+    "[[0, 2], [−3, 0]]"
+   ],
+   "e": "Mos elementlar qo'shiladi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "[[1, 2], [3, 4]] matritsani 2 ga ko'paytirsak qaysi matritsa hosil bo'ladi?",
+   "a": [
+    "[[2, 4], [6, 8]]",
+    "[[2, 2], [3, 4]]",
+    "[[1, 4], [3, 8]]",
+    "[[3, 4], [5, 6]]"
+   ],
+   "e": "Har bir element 2 ga ko'paytiriladi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "3×3 o'lchamli birlik matritsa determinanti nechaga teng?",
+   "a": [
+    "1",
+    "3",
+    "0",
+    "9"
+   ],
+   "e": "Diagonal elementlari 1 ga teng."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Matritsaning ikki satri bir xil bo'lsa, uning determinanti nechaga teng?",
+   "a": [
+    "0",
+    "1",
+    "Satr elementlari yig'indisiga",
+    "−1"
+   ],
+   "e": "Determinant xossasi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "Determinantning biror satri k ga ko'paytirilsa, determinant qanday o'zgaradi?",
+   "a": [
+    "k marta ortadi",
+    "O'zgarmaydi",
+    "k² marta ortadi",
+    "Nolga aylanadi"
+   ],
+   "e": "Determinant xossasi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "a = (2; −1) va b = (1; 2) vektorlar orasidagi burchak necha gradus?",
+   "a": [
+    "90°",
+    "0°",
+    "45°",
+    "180°"
+   ],
+   "e": "Skalyar ko'paytma 2 − 2 = 0."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "a = (1; 2) vektorni 3 ga ko'paytirsak qaysi vektor hosil bo'ladi?",
+   "a": [
+    "(3; 6)",
+    "(4; 5)",
+    "(3; 2)",
+    "(1; 6)"
+   ],
+   "e": "Har bir koordinata 3 ga ko'paytiriladi."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "A(1; 2; 3) va B(4; 6; 3) nuqtalar orasidagi masofa nechaga teng?",
+   "a": [
+    "5",
+    "7",
+    "25",
+    "√7"
+   ],
+   "e": "√(9 + 16 + 0)."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "2x − y + 3z − 6 = 0 tekislikning normal vektori qaysi?",
+   "a": [
+    "(2; −1; 3)",
+    "(2; 1; 3)",
+    "(−6; 2; −1)",
+    "(1; −1; 1)"
+   ],
+   "e": "Ax + By + Cz + D = 0 tekislik normali (A; B; C)."
+  },
+  {
+   "b": "Algebra va funksiyalar",
+   "q": "A(1; 1) va B(3; 5) nuqtalardan o'tuvchi to'g'ri chiziqning burchak koeffitsienti nechaga teng?",
+   "a": [
+    "2",
+    "1/2",
+    "4",
+    "3"
+   ],
+   "e": "k = (5 − 1)/(3 − 1)."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Teng yonli uchburchakda asosga tushirilgan balandlik yana nima hisoblanadi?",
+   "a": [
+    "Mediana va bissektrisa",
+    "Faqat mediana",
+    "O'rta chiziq",
+    "Gipotenuza"
+   ],
+   "e": "Teng yonli uchburchak xossasi."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Uchburchakning o'rta chizig'i asosiga nisbatan qanday?",
+   "a": [
+    "Parallel va yarmiga teng",
+    "Perpendikulyar va teng",
+    "Parallel va teng",
+    "Ikki marta uzun"
+   ],
+   "e": "O'rta chiziq ikki tomon o'rtalarini tutashtiradi."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Uchburchak medianalari kesishish nuqtasida qanday nisbatda bo'linadi (uchidan boshlab)?",
+   "a": [
+    "2 : 1",
+    "1 : 1",
+    "3 : 1",
+    "1 : 2"
+   ],
+   "e": "Medianalar kesishish nuqtasi — og'irlik markazi."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "To'g'ri burchakli uchburchakda 30° li burchak qarshisidagi katet gipotenuzaga nisbatan qanday?",
+   "a": [
+    "Yarmiga teng",
+    "Teng",
+    "Ikki marta katta",
+    "Uchdan biriga teng"
+   ],
+   "e": "sin30° = 1/2."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Kvadratning diagonali 4√2 bo'lsa, tomoni nechaga teng?",
+   "a": [
+    "4",
+    "8",
+    "2√2",
+    "16"
+   ],
+   "e": "d = a√2."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Doiraga ichki chizilgan kvadratning tomoni a. Doira radiusi nechaga teng?",
+   "a": [
+    "a√2/2",
+    "a/2",
+    "a√2",
+    "a"
+   ],
+   "e": "Radius diagonalning yarmi."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Muntazam uchburchakka ichki chizilgan aylana radiusi formulasi qaysi?",
+   "a": [
+    "r = a√3/6",
+    "r = a√3/3",
+    "r = a/2",
+    "r = a√3/2"
+   ],
+   "e": "Tashqi chizilgan aylana radiusi R = a√3/3."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "O'xshash uchburchaklar o'xshashlik koeffitsienti 3 bo'lsa, yuzlari nisbati nechaga teng?",
+   "a": [
+    "9",
+    "3",
+    "27",
+    "6"
+   ],
+   "e": "Yuzlar nisbati o'xshashlik koeffitsienti kvadratiga teng."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "O'xshash jismlar o'xshashlik koeffitsienti 2 bo'lsa, hajmlari nisbati nechaga teng?",
+   "a": [
+    "8",
+    "4",
+    "2",
+    "6"
+   ],
+   "e": "Hajmlar nisbati k³."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Kesishuvchi ikki to'g'ri chiziq hosil qilgan vertikal burchaklar qanday?",
+   "a": [
+    "Teng",
+    "Yig'indisi 180°",
+    "Yig'indisi 90°",
+    "Har doim 90°"
+   ],
+   "e": "Qo'shni burchaklar yig'indisi 180°."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Parallel to'g'ri chiziqlarni kesuvchi kesganda ichki almashinuvchi burchaklar qanday?",
+   "a": [
+    "Teng",
+    "Yig'indisi 90°",
+    "Har doim o'tkir",
+    "Yig'indisi 360°"
+   ],
+   "e": "Bir tomonli ichki burchaklar yig'indisi esa 180°."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Aylanaga tashqi nuqtadan o'tkazilgan ikki urinma kesmasi qanday?",
+   "a": [
+    "Teng",
+    "Biri ikkinchisidan ikki marta uzun",
+    "Perpendikulyar",
+    "Har doim radiusga teng"
+   ],
+   "e": "Urinmalar kesmalari xossasi."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Urinma va urinish nuqtasiga o'tkazilgan radius orasidagi burchak qancha?",
+   "a": [
+    "90°",
+    "45°",
+    "60°",
+    "180°"
+   ],
+   "e": "Urinma radiusga perpendikulyar."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Aylana yoyi uzunligi formulasi qaysi (α — gradusda)?",
+   "a": [
+    "l = πRα/180",
+    "l = πR²α/360",
+    "l = 2πR",
+    "l = Rα"
+   ],
+   "e": "Radianda l = Rα."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Rombning barcha tomonlari 5 ga teng, bir diagonali 6. Ikkinchi diagonali nechaga teng?",
+   "a": [
+    "8",
+    "4",
+    "10",
+    "6"
+   ],
+   "e": "Yarim diagonallar 3 va 4 (Pifagor)."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "To'g'ri to'rtburchakning tomonlari 5 va 12. Diagonali nechaga teng?",
+   "a": [
+    "13",
+    "17",
+    "7",
+    "169"
+   ],
+   "e": "√(25 + 144)."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Tetraedr nechta yoqqa ega?",
+   "a": [
+    "4",
+    "6",
+    "8",
+    "3"
+   ],
+   "e": "Barcha yoqlari uchburchak."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Kubning nechta qirrasi bor?",
+   "a": [
+    "12",
+    "8",
+    "6",
+    "24"
+   ],
+   "e": "8 uch, 6 yoq, 12 qirra."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Qavariq ko'pyoqlik uchun Eyler formulasi qaysi (U — uchlar, Q — qirralar, Yo — yoqlar)?",
+   "a": [
+    "U − Q + Yo = 2",
+    "U + Q + Yo = 2",
+    "U + Q − Yo = 2",
+    "U − Q − Yo = 0"
+   ],
+   "e": "Kub uchun: 8 − 12 + 6 = 2."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Silindr yon sirti yuzi formulasi qaysi?",
+   "a": [
+    "S = 2πRH",
+    "S = πR²H",
+    "S = πRl",
+    "S = 4πR²"
+   ],
+   "e": "Yoyilmasi to'g'ri to'rtburchak: 2πR × H."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Konus yon sirti yuzi formulasi qaysi?",
+   "a": [
+    "S = πRl",
+    "S = 2πRH",
+    "S = πR²",
+    "S = πR²l"
+   ],
+   "e": "l — yasovchi."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Muntazam to'rtburchakli piramida asosining tomoni 6, balandligi 4. Hajmi nechaga teng?",
+   "a": [
+    "48",
+    "144",
+    "24",
+    "96"
+   ],
+   "e": "V = 36·4/3 = 48."
+  },
+  {
+   "b": "Geometriya va o'lchashlar",
+   "q": "Radiusi 3 bo'lgan shar hajmi nechaga teng?",
+   "a": [
+    "36π",
+    "27π",
+    "108π",
+    "12π"
+   ],
+   "e": "4π·27/3 = 36π."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "10 ta o'quvchining o'rtacha bahosi 4,2. Jami baholar yig'indisi nechaga teng?",
+   "a": [
+    "42",
+    "4,2",
+    "420",
+    "14,2"
+   ],
+   "e": "Yig'indi = o'rtacha · soni."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "4 ta sonning o'rta arifmetigi 5 ga teng. Ularga 10 soni qo'shilsa, yangi o'rta arifmetik nechaga teng?",
+   "a": [
+    "6",
+    "7,5",
+    "5,5",
+    "15"
+   ],
+   "e": "(20 + 10)/5 = 6."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "O'yin kubigi ikki marta tashlandi. Ikkala marta 6 tushish ehtimoli nechaga teng?",
+   "a": [
+    "1/36",
+    "1/6",
+    "1/12",
+    "2/6"
+   ],
+   "e": "1/6 · 1/6."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "36 ta kartadan tavakkaliga bittasi olindi. Tuz chiqish ehtimoli nechaga teng (kolodada 4 ta tuz)?",
+   "a": [
+    "1/9",
+    "1/36",
+    "1/4",
+    "4/9"
+   ],
+   "e": "4/36."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "3 ta harfdan (A, B, C) nechta turli ikki harfli \"so'z\" tuzish mumkin (harflar takrorlanmaydi)?",
+   "a": [
+    "6",
+    "3",
+    "9",
+    "8"
+   ],
+   "e": "A₃² = 3·2."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "7 kishilik guruhdan 3 kishilik komissiyani necha usulda tanlash mumkin?",
+   "a": [
+    "35",
+    "210",
+    "21",
+    "343"
+   ],
+   "e": "C₇³ = 7·6·5/6 = 35."
+  },
+  {
+   "b": "Statistika va ehtimollik",
+   "q": "Takrorlanadigan o'rinlashtirishlar: 0–9 raqamlaridan nechta to'rt xonali PIN-kod tuzish mumkin?",
+   "a": [
+    "10 000",
+    "5040",
+    "9000",
+    "40"
+   ],
+   "e": "10⁴."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(√x)' nechaga teng?",
+   "a": [
+    "1/(2√x)",
+    "2√x",
+    "√x/2",
+    "1/√x"
+   ],
+   "e": "x^(1/2) hosilasi (1/2)x^(−1/2)."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(1/x)' nechaga teng?",
+   "a": [
+    "−1/x²",
+    "1/x²",
+    "ln x",
+    "−1/x"
+   ],
+   "e": "x⁻¹ hosilasi −x⁻²."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(tg x)' nechaga teng?",
+   "a": [
+    "1/cos²x",
+    "1/sin²x",
+    "−1/cos²x",
+    "ctg x"
+   ],
+   "e": "(ctg x)' = −1/sin²x."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(e²ˣ)' nechaga teng?",
+   "a": [
+    "2e²ˣ",
+    "e²ˣ",
+    "2xe²ˣ",
+    "e²ˣ/2"
+   ],
+   "e": "Murakkab funksiya hosilasi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "((x² + 1)³)' nechaga teng?",
+   "a": [
+    "6x(x² + 1)²",
+    "3(x² + 1)²",
+    "3x(x² + 1)²",
+    "6x(x² + 1)³"
+   ],
+   "e": "3(x² + 1)²·2x."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "(x·ln x)' nechaga teng?",
+   "a": [
+    "ln x + 1",
+    "1/x",
+    "ln x",
+    "x + 1/x"
+   ],
+   "e": "Ko'paytma hosilasi: 1·ln x + x·(1/x)."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y = x² funksiya grafigiga x₀ = 1 nuqtada o'tkazilgan urinma tenglamasi qaysi?",
+   "a": [
+    "y = 2x − 1",
+    "y = 2x + 1",
+    "y = x + 1",
+    "y = 2x"
+   ],
+   "e": "y = f(x₀) + f'(x₀)(x − x₀) = 1 + 2(x − 1)."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "f(x) = x³ − 3x² funksiyaning [0; 3] kesmadagi eng kichik qiymati nechaga teng?",
+   "a": [
+    "−4",
+    "0",
+    "−3",
+    "−2"
+   ],
+   "e": "f'(x) = 3x² − 6x = 0 → x = 2; f(2) = 8 − 12 = −4."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫(3x² + 2)dx nechaga teng?",
+   "a": [
+    "x³ + 2x + C",
+    "6x + C",
+    "x³ + C",
+    "3x³ + 2x + C"
+   ],
+   "e": "Har bir had alohida integrallanadi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫sin x dx nechaga teng?",
+   "a": [
+    "−cos x + C",
+    "cos x + C",
+    "sin x + C",
+    "−sin x + C"
+   ],
+   "e": "(−cos x)' = sin x."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫₁ᵉ dx/x aniq integral nechaga teng?",
+   "a": [
+    "1",
+    "e",
+    "0",
+    "e − 1"
+   ],
+   "e": "ln e − ln 1 = 1."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "∫₀^π sin x dx aniq integral nechaga teng?",
+   "a": [
+    "2",
+    "0",
+    "1",
+    "π"
+   ],
+   "e": "−cos π + cos 0 = 1 + 1."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y = 4 − x² parabola va Ox o'qi bilan chegaralangan yuza nechaga teng?",
+   "a": [
+    "32/3",
+    "16/3",
+    "8",
+    "16"
+   ],
+   "e": "∫₋₂² (4 − x²)dx = 16 − 16/3 = 32/3."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "lim(x→0) (eˣ − 1)/x nechaga teng?",
+   "a": [
+    "1",
+    "0",
+    "e",
+    "∞"
+   ],
+   "e": "Ajoyib limitlar natijasi."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "lim(x→0) sin 3x / x nechaga teng?",
+   "a": [
+    "3",
+    "1",
+    "1/3",
+    "0"
+   ],
+   "e": "3·sin 3x/(3x) → 3."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Funksiya x₀ nuqtada uzluksiz bo'lishi uchun qanday shart bajarilishi kerak?",
+   "a": [
+    "lim(x→x₀) f(x) = f(x₀)",
+    "f(x₀) = 0",
+    "f'(x₀) = 0",
+    "f(x₀) mavjud bo'lmasligi"
+   ],
+   "e": "Chap va o'ng limitlar funksiya qiymatiga teng."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y = 1/(x − 2) funksiyaning vertikal asimptotasi qaysi?",
+   "a": [
+    "x = 2",
+    "y = 2",
+    "x = 0",
+    "y = 0"
+   ],
+   "e": "Maxraj nolga aylanadigan nuqta."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y'' − y = 0 differensial tenglamaning xarakteristik tenglamasi ildizlari qaysi?",
+   "a": [
+    "±1",
+    "±i",
+    "0 va 1",
+    "1 (karrali)"
+   ],
+   "e": "k² − 1 = 0; umumiy yechim y = C₁eˣ + C₂e⁻ˣ."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "y'' + y = 0 differensial tenglamaning umumiy yechimi qaysi?",
+   "a": [
+    "y = C₁cos x + C₂sin x",
+    "y = C₁eˣ + C₂e⁻ˣ",
+    "y = (C₁ + C₂x)eˣ",
+    "y = C₁x + C₂"
+   ],
+   "e": "Xarakteristik ildizlar ±i."
+  },
+  {
+   "b": "Matematik analiz asoslari",
+   "q": "Ikki karrali integral ∬_D dx dy nimaga teng?",
+   "a": [
+    "D sohaning yuziga",
+    "D soha perimetriga",
+    "D sohadagi funksiya maksimumiga",
+    "Har doim nolga"
+   ],
+   "e": "Integral ostidagi funksiya 1 ga teng bo'lganda."
   }
  ]
 }

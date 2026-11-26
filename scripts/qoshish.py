@@ -51,7 +51,7 @@ def parse(text: str) -> list[dict]:
     good = []
     for c in out:
         ok = c.pop("_ok", 0)
-        if ok != 1 or len(c["a"]) != 4 or len({x.lower() for x in c["a"]}) != 4:
+        if ok != 1 or len(c["a"]) != 4 or len(set(c["a"])) != 4:
             print("XATO (o'tkazildi):", c["q"][:80], file=sys.stderr)
             continue
         good.append(c)
