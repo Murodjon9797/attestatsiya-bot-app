@@ -2,55 +2,418 @@
  "kod": "5PM0284",
  "nomi": "Fizika",
  "turi": "umumtalim",
- "manba": "2026-yilgi texnikum o'quv rejalari (68 ta mutaxassislikda o'qitiladi)",
+ "manba": "2026-yilgi texnikum o'quv rejalari (68 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
-   "b": "Mexanika",
-   "q": "Nyutonning ikkinchi qonuni qaysi formula bilan ifodalanadi?",
+   "b": "Kinematika",
+   "q": "Moddiy nuqta deb nimaga aytiladi?",
    "a": [
-    "F = m·a",
-    "F = m·v",
-    "F = m/a",
-    "F = −kx"
+    "O'lchamlarini hisobga olmasa bo'ladigan jism",
+    "Massasi nolga teng bo'lgan va fazoda joy egallamaydigan ideal jism",
+    "Faqat sharsimon shakldagi jism",
+    "Doimo tinch holatda turuvchi jism"
    ],
-   "e": "Jismga ta'sir etuvchi kuch massa va tezlanish ko'paytmasiga teng."
+   "e": "Masalan, Yer atrofida aylanuvchi sun'iy yo'ldosh ko'p masalalarda moddiy nuqta deb olinadi."
   },
   {
-   "b": "Mexanika",
+   "b": "Kinematika",
+   "q": "Ko'chish deb nimaga aytiladi?",
+   "a": [
+    "Boshlang'ich va oxirgi nuqtalarni tutashtiruvchi yo'nalgan kesma",
+    "Jism harakati davomida bosib o'tgan traektoriyaning to'liq uzunligi",
+    "Jismning bir sekunddagi tezligi",
+    "Jism harakat qilgan vaqt"
+   ],
+   "e": "Ko'chish vektor kattalik; yo'l esa skalyar."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis to'g'ri chiziqli harakatda tezlik qanday bo'ladi?",
+   "a": [
+    "O'zgarmas",
+    "Vaqtga proporsional ravishda bir tekis ortib boradi",
+    "Har sekundda ikki baravar kamayadi",
+    "Nolga teng"
+   ],
+   "e": "v = s/t = const."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tezlanish qanday birlikda o'lchanadi?",
+   "a": [
+    "m/s²",
+    "m/s",
+    "N·m",
+    "kg·m/s"
+   ],
+   "e": "Tezlanish — tezlikning vaqt birligidagi o'zgarishi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis tezlanuvchan harakatda tezlik formulasi qaysi?",
+   "a": [
+    "v = v₀ + at",
+    "v = s·t",
+    "v = at²/2",
+    "v = v₀ − s/t²"
+   ],
+   "e": "Boshlang'ich tezlik va tezlanish bo'yicha t vaqtdagi tezlik."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis tezlanuvchan harakatda bosib o'tilgan yo'l formulasi qaysi?",
+   "a": [
+    "s = v₀t + at²/2",
+    "s = v₀ + at",
+    "s = at",
+    "s = v²·t"
+   ],
+   "e": "v₀ = 0 bo'lsa, s = at²/2."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Jism 10 m/s tezlikdan 2 m/s² tezlanish bilan 5 s harakatlansa, oxirgi tezligi qancha bo'ladi?",
+   "a": [
+    "20 m/s",
+    "10 m/s",
+    "12 m/s",
+    "50 m/s"
+   ],
+   "e": "v = 10 + 2·5 = 20 m/s."
+  },
+  {
+   "b": "Kinematika",
    "q": "Erkin tushish tezlanishi Yer sirtida taxminan qancha?",
    "a": [
     "9,8 m/s²",
-    "8,9 m/s²",
-    "10,8 m/s²",
-    "1,6 m/s²"
+    "1,6 m/s²",
+    "98 m/s²",
+    "3,0 m/s²"
    ],
-   "e": "1,6 m/s² — Oy sirtidagi erkin tushish tezlanishi."
+   "e": "Hisob-kitoblarda ko'pincha g ≈ 10 m/s² olinadi."
   },
   {
-   "b": "Mexanika",
-   "q": "Tezligi 20 m/s bo'lgan 2 kg massali jismning kinetik energiyasi nechaga teng?",
+   "b": "Kinematika",
+   "q": "Jism 20 m balandlikdan erkin tushsa (g=10 m/s²), yerga qancha vaqtda tushadi?",
    "a": [
-    "400 J",
-    "40 J",
-    "800 J",
-    "200 J"
+    "2 s",
+    "4 s",
+    "1 s",
+    "20 s"
    ],
-   "e": "E = mv²/2 = 2·400/2 = 400 J."
+   "e": "h = gt²/2 → t = √(2h/g) = √4 = 2 s."
   },
   {
-   "b": "Mexanika",
-   "q": "Impulsning saqlanish qonuni qanday tizimlar uchun bajariladi?",
+   "b": "Kinematika",
+   "q": "Aylana bo'ylab tekis harakatda markazga intilma tezlanish formulasi qaysi?",
    "a": [
-    "Yopiq (berk) tizimlar uchun",
-    "Faqat harakatsiz jismlar uchun",
-    "Faqat suyuqliklar uchun",
-    "Ishqalanish bo'lgan har qanday tizim uchun"
+    "a = v²/R",
+    "a = vR",
+    "a = v/R²",
+    "a = R²/v"
    ],
-   "e": "Tashqi kuchlar ta'sir qilmaydigan tizimda umumiy impuls o'zgarmaydi."
+   "e": "Tezlanish aylana markaziga yo'nalgan."
   },
   {
-   "b": "Mexanika",
-   "q": "Quvvat birligi qaysi?",
+   "b": "Kinematika",
+   "q": "Aylanish davri nima?",
+   "a": [
+    "Bir to'liq aylanish vaqti",
+    "Bir sekunddagi aylanishlar soni, ya'ni aylanish chastotasining o'zi",
+    "Aylana radiusining uzunligi",
+    "Burchak tezligining kvadrati"
+   ],
+   "e": "T = 1/ν, bu yerda ν — aylanish chastotasi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Burchak tezlik va chiziqli tezlik qanday bog'langan?",
+   "a": [
+    "v = ωR",
+    "v = ω/R",
+    "v = ω²R",
+    "v = R/ω"
+   ],
+   "e": "ω = 2π/T."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Gorizontga burchak ostida otilgan jism traektoriyasi qanday shaklda bo'ladi (havo qarshiligisiz)?",
+   "a": [
+    "Parabola",
+    "Aylana",
+    "To'g'ri chiziq",
+    "Giperbola"
+   ],
+   "e": "Gorizontal tekis va vertikal tekis o'zgaruvchan harakatlar yig'indisi parabola beradi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Gorizontga qaysi burchak ostida otilgan jism eng uzoqqa uchadi (havo qarshiligisiz)?",
+   "a": [
+    "45°",
+    "30°",
+    "60°",
+    "90°"
+   ],
+   "e": "L = v₀²sin2α/g, sin2α = 1 bo'lganda maksimal."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tezlik grafigi (v–t) ostidagi yuza nimaga teng?",
+   "a": [
+    "Bosib o'tilgan yo'lga",
+    "Jismning tezlanishiga",
+    "Jismga ta'sir etuvchi kuchga",
+    "Jismning massasiga"
+   ],
+   "e": "Integral ma'noda s = ∫v dt."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Nyutonning birinchi qonuni nimani ifodalaydi?",
+   "a": [
+    "Kuch ta'sir qilmasa, jism tinch yoki tekis harakatda qoladi",
+    "Kuch massa va tezlanish ko'paytmasiga teng ekanligini",
+    "Ta'sir aksta'sirga teng va qarama-qarshi yo'nalganligini",
+    "Ikki jism massalariga proporsional kuch bilan tortishishini"
+   ],
+   "e": "Bu inersiya qonuni deb ham ataladi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Nyutonning ikkinchi qonuni formulasi qaysi?",
+   "a": [
+    "F = ma",
+    "F = mv",
+    "F = m/a",
+    "F = mgh"
+   ],
+   "e": "Tezlanish kuchga to'g'ri, massaga teskari proporsional."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Nyutonning uchinchi qonuniga ko'ra o'zaro ta'sir kuchlari qanday?",
+   "a": [
+    "Teng va qarama-qarshi yo'nalgan",
+    "Bir-biriga perpendikulyar yo'nalgan va kattaliklari turlicha",
+    "Bir tomonga yo'nalgan va bir-biriga qo'shiladi",
+    "Biri har doim ikkinchisidan ikki baravar katta"
+   ],
+   "e": "Bu kuchlar turli jismlarga qo'yilgan, shuning uchun bir-birini muvozanatlamaydi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Kuch birligi nyuton (N) qanday ifodalanadi?",
+   "a": [
+    "kg·m/s²",
+    "kg·m/s",
+    "kg·m²/s",
+    "kg/m·s²"
+   ],
+   "e": "1 N — 1 kg massali jismga 1 m/s² tezlanish beradigan kuch."
+  },
+  {
+   "b": "Dinamika",
+   "q": "2 kg massali jismga 10 N kuch ta'sir qilsa, tezlanishi qancha bo'ladi?",
+   "a": [
+    "5 m/s²",
+    "20 m/s²",
+    "0,2 m/s²",
+    "12 m/s²"
+   ],
+   "e": "a = F/m = 10/2 = 5 m/s²."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Butun olam tortishish qonuni formulasi qaysi?",
+   "a": [
+    "F = Gm₁m₂/r²",
+    "F = Gm₁m₂r²",
+    "F = G(m₁+m₂)/r",
+    "F = m₁m₂/(Gr)"
+   ],
+   "e": "G ≈ 6,67·10⁻¹¹ N·m²/kg²."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ikki jism orasidagi masofa 2 marta oshirilsa, tortishish kuchi qanday o'zgaradi?",
+   "a": [
+    "4 marta kamayadi",
+    "2 marta kamayadi",
+    "4 marta oshadi",
+    "O'zgarmaydi"
+   ],
+   "e": "Kuch masofa kvadratiga teskari proporsional."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Guk qonuni formulasi qaysi?",
+   "a": [
+    "F = kx",
+    "F = k/x",
+    "F = kx²",
+    "F = mx"
+   ],
+   "e": "Elastiklik kuchi deformatsiyaga proporsional."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Prujinaning bikirligi 200 N/m, cho'zilishi 5 sm bo'lsa, elastiklik kuchi qancha?",
+   "a": [
+    "10 N",
+    "1000 N",
+    "40 N",
+    "100 N"
+   ],
+   "e": "F = 200·0,05 = 10 N."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Sirpanish ishqalanish kuchi formulasi qaysi?",
+   "a": [
+    "F = μN",
+    "F = N/μ",
+    "F = μ/N",
+    "F = μN²"
+   ],
+   "e": "μ — ishqalanish koeffitsienti, N — tayanch reaksiya kuchi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Jismning og'irligi deb nimaga aytiladi?",
+   "a": [
+    "Jismning tayanch yoki osmaga ta'sir kuchi",
+    "Jismdagi modda miqdori, ya'ni uning massasi kilogrammlarda",
+    "Jismning hajmi va zichligi ko'paytmasining kvadrati",
+    "Jismga ta'sir qiluvchi ishqalanish kuchi"
+   ],
+   "e": "Tinch turgan jism uchun P = mg."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Lift yuqoriga tezlanish bilan ko'tarilganda undagi odamning og'irligi qanday bo'ladi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "Nolga teng bo'ladi",
+    "O'zgarmaydi"
+   ],
+   "e": "P = m(g + a)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Vaznsizlik holati qachon yuzaga keladi?",
+   "a": [
+    "Jism faqat tortishish kuchi ta'sirida erkin harakatlanganda",
+    "Jism Yer sirtida tinch turganda",
+    "Jism suv ostida bo'lganda",
+    "Jism juda tez tekis harakat qilganda"
+   ],
+   "e": "Erkin tushishda P = m(g − g) = 0."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Birinchi kosmik tezlik Yer uchun taxminan qancha?",
+   "a": [
+    "7,9 km/s",
+    "11,2 km/s",
+    "16,7 km/s",
+    "3,1 km/s"
+   ],
+   "e": "Bu tezlikda jism Yerning sun'iy yo'ldoshiga aylanadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ikkinchi kosmik tezlik Yer uchun taxminan qancha?",
+   "a": [
+    "11,2 km/s",
+    "7,9 km/s",
+    "16,7 km/s",
+    "1,0 km/s"
+   ],
+   "e": "Bu tezlik Yer tortishish maydonini tark etish uchun kerak."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Impuls (harakat miqdori) formulasi qaysi?",
+   "a": [
+    "p = mv",
+    "p = ma",
+    "p = mv²/2",
+    "p = Ft²"
+   ],
+   "e": "Impuls vektor kattalik, birligi kg·m/s."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Impulsning saqlanish qonuni qanday tizimda bajariladi?",
+   "a": [
+    "Yopiq tizimda",
+    "Faqat ishqalanish katta bo'lgan tizimda",
+    "Faqat tashqi kuchlar ta'sir qiluvchi ochiq tizimda",
+    "Faqat tinch turgan jismlarda"
+   ],
+   "e": "Yopiq tizimda jismlar impulslari yig'indisi o'zgarmaydi."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Reaktiv harakat qaysi qonunga asoslanadi?",
+   "a": [
+    "Impulsning saqlanish qonuni",
+    "Guk qonuni",
+    "Arximed qonuni",
+    "Om qonuni"
+   ],
+   "e": "Raketa gazni bir tomonga otib, teskari tomonga harakatlanadi."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Kinetik energiya formulasi qaysi?",
+   "a": [
+    "E = mv²/2",
+    "E = mgh",
+    "E = mv",
+    "E = kx"
+   ],
+   "e": "Kinetik energiya harakatdagi jism energiyasidir."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Yerdan h balandlikka ko'tarilgan jismning potensial energiyasi qanday?",
+   "a": [
+    "E = mgh",
+    "E = mv²/2",
+    "E = mg/h",
+    "E = kx²"
+   ],
+   "e": "Nol sathi Yer sirti deb olinadi."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Cho'zilgan prujinaning potensial energiyasi formulasi qaysi?",
+   "a": [
+    "E = kx²/2",
+    "E = kx",
+    "E = mgh",
+    "E = kx/2"
+   ],
+   "e": "x — deformatsiya kattaligi."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Mexanik ish formulasi qaysi?",
+   "a": [
+    "A = Fs·cosα",
+    "A = F/s",
+    "A = Fs·sinα",
+    "A = F·t"
+   ],
+   "e": "α — kuch va ko'chish orasidagi burchak."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Quvvat birligi qanday nomlanadi?",
    "a": [
     "Vatt",
     "Joul",
@@ -60,48 +423,213 @@
    "e": "1 Vt = 1 J/s."
   },
   {
-   "b": "Mexanika",
-   "q": "Prujinaning elastiklik kuchi qaysi qonun bilan ifodalanadi?",
+   "b": "Saqlanish qonunlari",
+   "q": "Dvigatel 10 s da 5000 J ish bajarsa, quvvati qancha?",
    "a": [
-    "Guk qonuni: F = −kx",
-    "Arximed qonuni",
-    "Kulon qonuni",
-    "Om qonuni"
+    "500 Vt",
+    "50 000 Vt",
+    "50 Vt",
+    "5 Vt"
    ],
-   "e": "Deformatsiya kichik bo'lganda kuch cho'zilishga proporsional."
+   "e": "N = A/t = 5000/10 = 500 Vt."
   },
   {
-   "b": "Mexanika",
-   "q": "Suyuqlikka botirilgan jismga ta'sir etuvchi itaruvchi kuch nimaga teng?",
+   "b": "Saqlanish qonunlari",
+   "q": "Mexanik energiyaning saqlanish qonuni qachon bajariladi?",
    "a": [
-    "Jism siqib chiqargan suyuqlik og'irligiga",
-    "Jism og'irligiga",
-    "Suyuqlik zichligiga",
-    "Jism hajmiga"
+    "Faqat konservativ kuchlar ta'sir qilganda",
+    "Har qanday holatda, hatto kuchli ishqalanish mavjud bo'lsa ham, chunki energiya yo'qolmaydi",
+    "Faqat jism tinch turganda",
+    "Faqat ishqalanish kuchi bo'lganda"
    ],
-   "e": "Arximed qonuni: F = ρ·g·V."
+   "e": "Ishqalanish bo'lsa, mexanik energiyaning bir qismi ichki energiyaga aylanadi."
   },
   {
-   "b": "Mexanika",
+   "b": "Saqlanish qonunlari",
+   "q": "Foydali ish koeffitsienti (FIK) qanday aniqlanadi?",
+   "a": [
+    "Foydali ishning to'liq ishga nisbati",
+    "To'liq ishning foydali ishga nisbati, ya'ni har doim birdan katta son",
+    "Quvvatning vaqtga ko'paytmasi",
+    "Kuchning yo'lga nisbati"
+   ],
+   "e": "η = A_foydali/A_to'liq·100%, har doim 100% dan kichik."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "2 kg massali jism 10 m/s tezlik bilan harakatlanmoqda. Uning kinetik energiyasi qancha?",
+   "a": [
+    "100 J",
+    "20 J",
+    "200 J",
+    "10 J"
+   ],
+   "e": "E = 2·10²/2 = 100 J."
+  },
+  {
+   "b": "Statika va gidrostatika",
+   "q": "Kuch momenti formulasi qaysi?",
+   "a": [
+    "M = Fl",
+    "M = F/l",
+    "M = Fl²",
+    "M = F + l"
+   ],
+   "e": "l — kuch yelkasi, ya'ni aylanish o'qidan kuch chizig'igacha masofa."
+  },
+  {
+   "b": "Statika va gidrostatika",
+   "q": "Richag muvozanat shartini ifodalovchi formula qaysi?",
+   "a": [
+    "F₁l₁ = F₂l₂",
+    "F₁/l₁ = F₂/l₂",
+    "F₁ + l₁ = F₂ + l₂",
+    "F₁l₂ = F₂ + l₁"
+   ],
+   "e": "Momentlar qoidasi."
+  },
+  {
+   "b": "Statika va gidrostatika",
    "q": "Bosim qanday aniqlanadi?",
    "a": [
-    "Kuchning yuzaga nisbati: p = F/S",
-    "Kuchning hajmga nisbati",
-    "Massaning yuzaga nisbati",
-    "Kuch va yuza ko'paytmasi"
+    "p = F/S",
+    "p = FS",
+    "p = S/F",
+    "p = F·h"
    ],
    "e": "Bosim birligi — paskal (Pa = N/m²)."
   },
   {
-   "b": "Molekulyar fizika",
-   "q": "Ideal gaz holat tenglamasi qaysi?",
+   "b": "Statika va gidrostatika",
+   "q": "Suyuqlikning idish tubiga bosimi formulasi qaysi?",
    "a": [
-    "pV = νRT",
-    "pV = const",
     "p = ρgh",
-    "Q = cmΔt"
+    "p = ρg/h",
+    "p = ρh/g",
+    "p = mgh"
    ],
-   "e": "Mendeleyev–Klapeyron tenglamasi."
+   "e": "Gidrostatik bosim suyuqlik zichligi va chuqurlikka bog'liq."
+  },
+  {
+   "b": "Statika va gidrostatika",
+   "q": "Paskal qonuni nimani ifodalaydi?",
+   "a": [
+    "Suyuqlik yoki gazga berilgan bosim barcha yo'nalishda bir xil uzatiladi",
+    "Suyuqlikka botirilgan jismga ko'taruvchi kuch ta'sir etadi",
+    "Suyuqlik oqimi tezligi oshsa, uning bosimi kamayadi",
+    "Suyuqlik hajmi harorat oshishi bilan kamayadi"
+   ],
+   "e": "Gidravlik press va tormoz tizimlari shu qonunga asoslanadi."
+  },
+  {
+   "b": "Statika va gidrostatika",
+   "q": "Arximed kuchi formulasi qaysi?",
+   "a": [
+    "F = ρgV",
+    "F = ρg/V",
+    "F = mgV",
+    "F = ρV/g"
+   ],
+   "e": "ρ — suyuqlik zichligi, V — jismning botgan qismi hajmi."
+  },
+  {
+   "b": "Statika va gidrostatika",
+   "q": "Jism suyuqlikda suzishi uchun qanday shart bajarilishi kerak?",
+   "a": [
+    "Arximed kuchi og'irlik kuchiga teng",
+    "Jism zichligi suyuqlik zichligidan bir necha baravar katta bo'lishi kerak",
+    "Jism massasi nolga teng bo'lishi kerak",
+    "Jism albatta metalldan yasalgan bo'lishi kerak"
+   ],
+   "e": "Jism zichligi suyuqlik zichligidan kichik yoki teng bo'lsa suzadi."
+  },
+  {
+   "b": "Statika va gidrostatika",
+   "q": "Normal atmosfera bosimi taxminan qancha?",
+   "a": [
+    "101 325 Pa",
+    "1013 Pa",
+    "10 Pa",
+    "1 000 000 Pa"
+   ],
+   "e": "760 mm sim. ust. ga teng."
+  },
+  {
+   "b": "Statika va gidrostatika",
+   "q": "Gidravlik pressda kichik porshen yuzi 2 sm², kattasiniki 200 sm². Kichigiga 100 N kuch qo'yilsa, katta porshenda qancha kuch hosil bo'ladi?",
+   "a": [
+    "10 000 N",
+    "100 N",
+    "1000 N",
+    "50 N"
+   ],
+   "e": "F₂ = F₁·S₂/S₁ = 100·100 = 10 000 N."
+  },
+  {
+   "b": "Statika va gidrostatika",
+   "q": "Bernulli qonuniga ko'ra quvurning tor qismida bosim qanday bo'ladi?",
+   "a": [
+    "Kamroq",
+    "Ko'proq",
+    "Bir xil",
+    "Nolga teng"
+   ],
+   "e": "Tor qismda tezlik katta, statik bosim kichik."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Moddaning miqdori qanday birlikda o'lchanadi?",
+   "a": [
+    "Mol",
+    "Kilogramm",
+    "Litr",
+    "Kelvin"
+   ],
+   "e": "1 mol tarkibida Avogadro soniga teng zarracha bo'ladi."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Avogadro soni taxminan nechaga teng?",
+   "a": [
+    "6,02·10²³ mol⁻¹",
+    "1,38·10⁻²³ mol⁻¹",
+    "9,8·10²³ mol⁻¹",
+    "8,31·10²³ mol⁻¹"
+   ],
+   "e": "N_A ≈ 6,02·10²³ mol⁻¹."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Broun harakati nimani isbotlaydi?",
+   "a": [
+    "Molekulalarning tartibsiz issiqlik harakatini",
+    "Jismlarning Yerga tortilishini",
+    "Yorug'likning to'lqin tabiatini",
+    "Elektr zaryadining saqlanishini"
+   ],
+   "e": "Suyuqlikdagi mayda zarralar molekulalar zarbidan tartibsiz harakatlanadi."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Diffuziya deb nimaga aytiladi?",
+   "a": [
+    "Moddalarning issiqlik harakati tufayli o'zaro aralashishi",
+    "Suyuqlikning qaynash haroratida bug'ga aylanishi va ko'tarilishi",
+    "Qattiq jismning to'g'ridan-to'g'ri gazga aylanishi",
+    "Moddaning siqilishi"
+   ],
+   "e": "Harorat oshganda diffuziya tezlashadi."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Ideal gaz holat tenglamasi (Mendeleyev–Klapeyron) qaysi?",
+   "a": [
+    "pV = (m/M)RT",
+    "pV = mRT/M²",
+    "p/V = RT",
+    "pT = mRV"
+   ],
+   "e": "R ≈ 8,31 J/(mol·K) — universal gaz doimiysi."
   },
   {
    "b": "Molekulyar fizika",
@@ -110,229 +638,2704 @@
     "Harorat",
     "Bosim",
     "Hajm",
-    "Ichki energiya o'zgaradi"
+    "Issiqlik miqdori"
    ],
-   "e": "Boyl–Mariott qonuni: pV = const (T = const)."
+   "e": "Boyl–Mariott qonuni: pV = const."
   },
   {
    "b": "Molekulyar fizika",
-   "q": "Absolyut nol harorat Selsiy shkalasida qancha?",
+   "q": "Izobarik jarayonda qaysi qonun bajariladi?",
    "a": [
-    "−273,15 °C",
+    "V/T = const (Gey-Lyussak)",
+    "pV = const (Boyl–Mariott)",
+    "p/T = const (Sharl)",
+    "pVT = const"
+   ],
+   "e": "Bosim o'zgarmas bo'lganda hajm absolyut haroratga proporsional."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Izoxorik jarayonda qaysi kattalik o'zgarmaydi?",
+   "a": [
+    "Hajm",
+    "Harorat",
+    "Bosim",
+    "Massa va harorat birga"
+   ],
+   "e": "Sharl qonuni: p/T = const."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "0 °C necha kelvinga teng?",
+   "a": [
+    "273 K",
+    "0 K",
+    "100 K",
+    "−273 K"
+   ],
+   "e": "T = t + 273."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Absolyut nol harorat nimaga teng?",
+   "a": [
+    "−273 °C",
     "0 °C",
     "−100 °C",
     "−373 °C"
    ],
-   "e": "T(K) = t(°C) + 273,15."
+   "e": "Absolyut nolda molekulalarning issiqlik harakati nazariy jihatdan to'xtaydi."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Ideal gaz molekulalarining o'rtacha kinetik energiyasi nimaga proporsional?",
+   "a": [
+    "Absolyut haroratga",
+    "Gaz hajmiga",
+    "Molekula diametri kvadratiga",
+    "Idish devorlari qalinligiga"
+   ],
+   "e": "E = (3/2)kT, k — Bolsman doimiysi."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Havoning nisbiy namligi qanday ifodalanadi?",
+   "a": [
+    "Bug' zichligining to'yingan bug' zichligiga nisbati (%)",
+    "Havodagi barcha gazlar massasining suv massasiga nisbati",
+    "Suv bug'i bosimining atmosfera bosimiga ko'paytmasi",
+    "Havoning harorati va bosimi ayirmasi"
+   ],
+   "e": "φ = ρ/ρ₀·100%."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Shudring nuqtasi nima?",
+   "a": [
+    "Bug' to'yinadigan harorat",
+    "Suv qaynay boshlaydigan harorat",
+    "Muz eriy boshlaydigan harorat",
+    "Havo eng issiq bo'ladigan harorat"
+   ],
+   "e": "Havo shu haroratgacha soviganda shudring tusha boshlaydi."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Sirt tarangligi tufayli qaysi hodisa yuz beradi?",
+   "a": [
+    "Kapillyar hodisalar",
+    "Elektromagnit induksiya",
+    "Fotoeffekt",
+    "Radioaktiv yemirilish"
+   ],
+   "e": "Ingichka naychalarda suyuqlik ko'tariladi yoki pasayadi."
   },
   {
    "b": "Termodinamika",
-   "q": "Termodinamikaning birinchi qonuni qaysi?",
+   "q": "Termodinamikaning birinchi qonuni qanday ifodalanadi?",
    "a": [
     "Q = ΔU + A",
+    "Q = ΔU − A·T, bunda T — absolyut harorat",
+    "Q = A/ΔU",
+    "ΔU = Q·A"
+   ],
+   "e": "Gazga berilgan issiqlik ichki energiya o'zgarishi va gaz bajargan ishga sarflanadi."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Adiabatik jarayon deb qanday jarayonga aytiladi?",
+   "a": [
+    "Tashqi muhit bilan issiqlik almashinuvisiz jarayon",
+    "Harorat doimiy saqlanadigan, issiqlik erkin almashinadigan jarayon",
+    "Bosim o'zgarmas bo'lgan jarayon",
+    "Hajm o'zgarmas bo'lgan jarayon"
+   ],
+   "e": "Adiabatik jarayonda Q = 0, ΔU = −A."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Izoxorik jarayonda gaz bajargan ish nimaga teng?",
+   "a": [
+    "Nolga",
+    "pV ga",
+    "Q ga",
+    "ΔU ga, ishora bilan"
+   ],
+   "e": "Hajm o'zgarmasa, ish bajarilmaydi: A = pΔV = 0."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Izobarik jarayonda gaz bajargan ish formulasi qaysi?",
+   "a": [
+    "A = pΔV",
+    "A = VΔp",
+    "A = p/ΔV",
+    "A = 0"
+   ],
+   "e": "Bosim o'zgarmas bo'lganda ish hajm o'zgarishiga proporsional."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Issiqlik miqdori formulasi (isitishda) qaysi?",
+   "a": [
     "Q = cmΔt",
-    "A = F·s",
-    "ΔU = 0"
+    "Q = cm/Δt",
+    "Q = mΔt/c",
+    "Q = c + mΔt"
    ],
-   "e": "Gazga berilgan issiqlik ichki energiya o'zgarishi va bajarilgan ishga sarflanadi."
+   "e": "c — solishtirma issiqlik sig'imi."
   },
   {
    "b": "Termodinamika",
-   "q": "Issiqlik dvigatelining FIK nima uchun 100% bo'la olmaydi?",
+   "q": "Suvning solishtirma issiqlik sig'imi taxminan qancha?",
    "a": [
-    "Issiqlikning bir qismi albatta sovitkichga beriladi",
-    "Yoqilg'i yetishmasligi sababli",
-    "Dvigatel og'irligi sababli",
-    "Havo qarshiligi sababli"
+    "4200 J/(kg·°C)",
+    "420 J/(kg·°C)",
+    "1000 J/(kg·°C)",
+    "42 000 J/(kg·°C)"
    ],
-   "e": "Karno FIKi: η = 1 − T₂/T₁ < 1."
+   "e": "Suv katta issiqlik sig'imiga ega."
   },
   {
    "b": "Termodinamika",
-   "q": "Suvni 10 °C ga isitish uchun 1 kg suvga qancha issiqlik kerak (c = 4200 J/(kg·°C))?",
+   "q": "2 kg suvni 10 °C ga isitish uchun qancha issiqlik kerak (c = 4200 J/(kg·°C))?",
    "a": [
-    "42 000 J",
-    "4 200 J",
-    "420 J",
-    "420 000 J"
+    "84 kJ",
+    "8,4 kJ",
+    "42 kJ",
+    "840 kJ"
    ],
-   "e": "Q = cmΔt = 4200·1·10."
+   "e": "Q = 4200·2·10 = 84 000 J."
   },
   {
-   "b": "Elektr",
-   "q": "Zanjir qismi uchun Om qonuni qaysi?",
+   "b": "Termodinamika",
+   "q": "Erish (suyuqlanish) issiqligi formulasi qaysi?",
+   "a": [
+    "Q = λm",
+    "Q = cmΔt",
+    "Q = rm·Δt",
+    "Q = qm/Δt"
+   ],
+   "e": "λ — solishtirma erish issiqligi."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Bug'lanish issiqligi formulasi qaysi?",
+   "a": [
+    "Q = rm",
+    "Q = λm/t",
+    "Q = cm",
+    "Q = qmΔt"
+   ],
+   "e": "r (L) — solishtirma bug'lanish issiqligi."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Yoqilg'i yonganda ajraladigan issiqlik formulasi qaysi?",
+   "a": [
+    "Q = qm",
+    "Q = cmΔt",
+    "Q = λm",
+    "Q = rm"
+   ],
+   "e": "q — yoqilg'ining solishtirma yonish issiqligi."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Ideal issiqlik mashinasining (Karno sikli) FIK formulasi qaysi?",
+   "a": [
+    "η = (T₁ − T₂)/T₁",
+    "η = (T₁ + T₂)/T₂",
+    "η = T₂/T₁",
+    "η = T₁/(T₁ − T₂)"
+   ],
+   "e": "T₁ — isitkich, T₂ — sovitgich absolyut harorati."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Isitkich harorati 500 K, sovitgichniki 300 K bo'lsa, ideal mashina FIK qancha?",
+   "a": [
+    "40%",
+    "60%",
+    "25%",
+    "67%"
+   ],
+   "e": "η = (500−300)/500 = 0,4."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Termodinamikaning ikkinchi qonuniga ko'ra issiqlik o'z-o'zidan qanday uzatiladi?",
+   "a": [
+    "Issiq jismdan sovuqroq jismga",
+    "Sovuq jismdan issiqroq jismga, hech qanday ish sarflamasdan",
+    "Har ikki yo'nalishda bir xil ehtimol bilan",
+    "Faqat vakuumda"
+   ],
+   "e": "Teskari jarayon uchun tashqi ish kerak (sovitgich mashinasi)."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Issiqlik uzatishning qaysi turi vakuumda ham sodir bo'ladi?",
+   "a": [
+    "Nurlanish",
+    "Issiqlik o'tkazuvchanlik",
+    "Konveksiya",
+    "Hech qaysi"
+   ],
+   "e": "Quyosh issiqligi Yerga nurlanish orqali yetib keladi."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Konveksiya qaysi muhitlarda sodir bo'ladi?",
+   "a": [
+    "Suyuqlik va gazlarda",
+    "Faqat qattiq jismlarda",
+    "Faqat vakuumda",
+    "Faqat metallarda"
+   ],
+   "e": "Konveksiya modda oqimlari bilan issiqlik ko'chishidir."
+  },
+  {
+   "b": "Termodinamika",
+   "q": "Ichki yonuv dvigatelining to'rt taktini to'g'ri tartibda ko'rsating.",
+   "a": [
+    "So'rish, siqish, ishchi yo'l, chiqarish",
+    "Siqish, so'rish, chiqarish, ishchi yo'l",
+    "Ishchi yo'l, so'rish, siqish, chiqarish",
+    "Chiqarish, ishchi yo'l, siqish, so'rish"
+   ],
+   "e": "Foydali ish faqat ishchi yo'l taktida bajariladi."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Elektr zaryadi birligi qanday nomlanadi?",
+   "a": [
+    "Kulon",
+    "Amper",
+    "Volt",
+    "Farad"
+   ],
+   "e": "1 Kl = 1 A·s."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Elementar zaryad (elektron zaryadi moduli) qancha?",
+   "a": [
+    "1,6·10⁻¹⁹ Kl",
+    "9,1·10⁻³¹ Kl",
+    "6,02·10²³ Kl",
+    "1,6·10¹⁹ Kl"
+   ],
+   "e": "9,1·10⁻³¹ kg — elektron massasi."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Kulon qonuni formulasi qaysi?",
+   "a": [
+    "F = kq₁q₂/r²",
+    "F = kq₁q₂r²",
+    "F = k(q₁+q₂)/r",
+    "F = q₁q₂/(kr)"
+   ],
+   "e": "k = 9·10⁹ N·m²/Kl²."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Ikki nuqtaviy zaryad orasidagi masofa 3 marta kamaytirilsa, o'zaro ta'sir kuchi qanday o'zgaradi?",
+   "a": [
+    "9 marta ortadi",
+    "3 marta ortadi",
+    "9 marta kamayadi",
+    "3 marta kamayadi"
+   ],
+   "e": "Kuch masofa kvadratiga teskari proporsional."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Elektr maydon kuchlanganligi formulasi qaysi?",
+   "a": [
+    "E = F/q",
+    "E = Fq",
+    "E = q/F",
+    "E = F/q²"
+   ],
+   "e": "Birligi N/Kl yoki V/m."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Elektr zaryadining saqlanish qonuni nimani ifodalaydi?",
+   "a": [
+    "Yopiq tizimda zaryadlar algebraik yig'indisi o'zgarmaydi",
+    "Har qanday jismning zaryadi vaqt o'tishi bilan o'z-o'zidan nolga intiladi",
+    "Musbat zaryadlar soni doimo manfiylaridan ko'p bo'ladi",
+    "Zaryad faqat metallarda saqlanadi"
+   ],
+   "e": "Zaryadlar yo'qolmaydi va yo'qdan paydo bo'lmaydi, faqat qayta taqsimlanadi."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Potensiallar farqi (kuchlanish) birligi qanday nomlanadi?",
+   "a": [
+    "Volt",
+    "Amper",
+    "Om",
+    "Kulon"
+   ],
+   "e": "1 V = 1 J/Kl."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Bir jinsli maydonda kuchlanganlik va kuchlanish qanday bog'langan?",
+   "a": [
+    "U = Ed",
+    "U = E/d",
+    "U = Ed²",
+    "U = d/E"
+   ],
+   "e": "d — kuch chizig'i bo'ylab masofa."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Kondensator sig'imi formulasi qaysi?",
+   "a": [
+    "C = q/U",
+    "C = qU",
+    "C = U/q",
+    "C = q²U"
+   ],
+   "e": "Sig'im birligi — farad."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Yassi kondensator sig'imi qaysi kattaliklarga bog'liq?",
+   "a": [
+    "Plastinalar yuzi, ular orasidagi masofa va dielektrik",
+    "Plastinalarga berilgan kuchlanish va zaryad miqdoriga",
+    "Faqat plastinalar materialining rangiga",
+    "O'tkazgich simlar uzunligiga"
+   ],
+   "e": "C = εε₀S/d."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Kondensator energiyasi formulasi qaysi?",
+   "a": [
+    "W = CU²/2",
+    "W = CU",
+    "W = C/U²",
+    "W = qU²"
+   ],
+   "e": "W = qU/2 = q²/(2C) ham to'g'ri."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Kondensatorlar parallel ulanganda umumiy sig'im qanday topiladi?",
+   "a": [
+    "C = C₁ + C₂",
+    "1/C = 1/C₁ + 1/C₂",
+    "C = C₁·C₂",
+    "C = C₁ − C₂"
+   ],
+   "e": "Ketma-ket ulanganda 1/C = 1/C₁ + 1/C₂."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "O'tkazgich ichida elektrostatik maydon kuchlanganligi nimaga teng?",
+   "a": [
+    "Nolga",
+    "Sirtdagi kuchlanganlikka",
+    "Cheksizlikka",
+    "Zaryad miqdoriga"
+   ],
+   "e": "Erkin zaryadlar maydonni kompensatsiyalaydi (elektrostatik himoya shunga asoslanadi)."
+  },
+  {
+   "b": "Elektrostatika",
+   "q": "Dielektrik singdiruvchanlik nimani ko'rsatadi?",
+   "a": [
+    "Muhitda maydon vakuumdagidan necha marta kamligini",
+    "Moddaning elektr tokini qanchalik yaxshi o'tkazishini, ya'ni solishtirma o'tkazuvchanligini",
+    "Moddaning magnitlanish darajasini",
+    "Moddaning zichligini"
+   ],
+   "e": "Suv uchun ε ≈ 81."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Tok kuchi formulasi qaysi?",
+   "a": [
+    "I = q/t",
+    "I = qt",
+    "I = t/q",
+    "I = U·R"
+   ],
+   "e": "Birligi — amper."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Zanjirning bir qismi uchun Om qonuni qaysi?",
    "a": [
     "I = U/R",
-    "I = U·R",
-    "U = I/R",
-    "R = U·I"
+    "I = UR",
+    "I = R/U",
+    "I = U²/R"
    ],
    "e": "Tok kuchi kuchlanishga to'g'ri, qarshilikka teskari proporsional."
   },
   {
-   "b": "Elektr",
-   "q": "Ikkita 6 Om li rezistor parallel ulanganda umumiy qarshilik nechaga teng?",
+   "b": "O'zgarmas elektr toki",
+   "q": "O'tkazgich qarshiligi formulasi qaysi?",
    "a": [
+    "R = ρl/S",
+    "R = ρS/l",
+    "R = lS/ρ",
+    "R = ρlS"
+   ],
+   "e": "ρ — solishtirma qarshilik, l — uzunlik, S — kesim yuzi."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "O'tkazgich uzunligi 2 marta oshirilib, kesim yuzi 2 marta kamaytirilsa, qarshilik qanday o'zgaradi?",
+   "a": [
+    "4 marta ortadi",
+    "O'zgarmaydi",
+    "2 marta ortadi",
+    "4 marta kamayadi"
+   ],
+   "e": "R = ρl/S, ikkala o'zgarish ham qarshilikni 2 martadan oshiradi."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Rezistorlar ketma-ket ulanganda umumiy qarshilik qanday topiladi?",
+   "a": [
+    "R = R₁ + R₂",
+    "1/R = 1/R₁ + 1/R₂",
+    "R = R₁R₂",
+    "R = R₁ − R₂"
+   ],
+   "e": "Ketma-ket ulanganda tok kuchi barcha rezistorlarda bir xil."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "6 Om va 3 Om li rezistorlar parallel ulansa, umumiy qarshilik qancha?",
+   "a": [
+    "2 Om",
+    "9 Om",
     "3 Om",
-    "12 Om",
-    "6 Om",
-    "36 Om"
+    "18 Om"
    ],
-   "e": "R = R₁R₂/(R₁ + R₂) = 36/12 = 3 Om."
+   "e": "R = 6·3/(6+3) = 2 Om."
   },
   {
-   "b": "Elektr",
-   "q": "Kuchlanishi 220 V, tok kuchi 2 A bo'lgan iste'molchining quvvati qancha?",
+   "b": "O'zgarmas elektr toki",
+   "q": "To'la zanjir uchun Om qonuni qaysi?",
    "a": [
-    "440 Vt",
-    "110 Vt",
-    "222 Vt",
-    "880 Vt"
+    "I = ε/(R + r)",
+    "I = ε/R − r",
+    "I = εR/r",
+    "I = (R + r)/ε"
    ],
-   "e": "P = U·I."
+   "e": "ε — EYuK, r — manbaning ichki qarshiligi."
   },
   {
-   "b": "Elektr",
-   "q": "Ikki nuqtaviy zaryad orasidagi o'zaro ta'sir kuchi qaysi qonun bilan aniqlanadi?",
+   "b": "O'zgarmas elektr toki",
+   "q": "Elektr tokining quvvati formulasi qaysi?",
    "a": [
-    "Kulon qonuni",
-    "Om qonuni",
-    "Faradey qonuni",
-    "Lens qoidasi"
+    "P = UI",
+    "P = U/I",
+    "P = I/U",
+    "P = UIt"
    ],
-   "e": "F = k·|q₁q₂|/r²."
+   "e": "P = I²R = U²/R ham to'g'ri."
   },
   {
-   "b": "Elektr",
-   "q": "Kondensator sig'imining birligi qaysi?",
+   "b": "O'zgarmas elektr toki",
+   "q": "Joul–Lens qonuni formulasi qaysi?",
    "a": [
-    "Farad",
+    "Q = I²Rt",
+    "Q = IRt²",
+    "Q = I²R/t",
+    "Q = UIR"
+   ],
+   "e": "O'tkazgichdan ajraladigan issiqlik miqdori."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "220 V tarmoqqa ulangan 100 Vt lampadan qancha tok o'tadi?",
+   "a": [
+    "≈ 0,45 A",
+    "≈ 2,2 A",
+    "≈ 22 A",
+    "≈ 4,5 A"
+   ],
+   "e": "I = P/U = 100/220 ≈ 0,45 A."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Elektr energiyasi hisobida 1 kVt·soat necha joulga teng?",
+   "a": [
+    "3,6·10⁶ J",
+    "1000 J",
+    "3600 J",
+    "3,6·10³ J"
+   ],
+   "e": "1000 Vt · 3600 s = 3,6·10⁶ J."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Kirxgofning birinchi qoidasi nimani ifodalaydi?",
+   "a": [
+    "Tugunga kiruvchi va chiquvchi toklar yig'indisi teng",
+    "Yopiq konturdagi EYuK lar yig'indisi qarshiliklar yig'indisiga teng bo'lishini",
+    "Tok kuchi kuchlanishga proporsional ekanligini",
+    "Qarshilik haroratga bog'liqligini"
+   ],
+   "e": "Bu zaryadning saqlanish qonunidan kelib chiqadi."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Ampermetr zanjirga qanday ulanadi?",
+   "a": [
+    "Ketma-ket",
+    "Parallel",
+    "Aralash",
+    "Ulanmaydi"
+   ],
+   "e": "Ampermetrning ichki qarshiligi juda kichik bo'lishi kerak."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Voltmetr zanjirga qanday ulanadi?",
+   "a": [
+    "Parallel",
+    "Ketma-ket",
+    "Faqat manba ichiga",
+    "Faqat yerga ulanadi"
+   ],
+   "e": "Voltmetrning ichki qarshiligi juda katta bo'lishi kerak."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Metallarda elektr tokini qanday zarralar hosil qiladi?",
+   "a": [
+    "Erkin elektronlar",
+    "Musbat va manfiy ionlar",
+    "Protonlar",
+    "Neytronlar"
+   ],
+   "e": "Elektrolitlarda tokni ionlar hosil qiladi."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Metall o'tkazgich harorati oshganda uning qarshiligi qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga teng bo'ladi"
+   ],
+   "e": "Kristall panjara tebranishi elektronlar harakatiga ko'proq to'sqinlik qiladi."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Yarimo'tkazgichlar qarshiligi harorat oshganda qanday o'zgaradi?",
+   "a": [
+    "Kamayadi",
+    "Ortadi",
+    "O'zgarmaydi",
+    "Cheksiz ortadi"
+   ],
+   "e": "Harorat oshganda erkin zaryad tashuvchilar soni ko'payadi."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Elektroliz uchun Faradeyning birinchi qonuni qaysi?",
+   "a": [
+    "m = kIt",
+    "m = kI/t",
+    "m = It/k",
+    "m = k/It"
+   ],
+   "e": "Ajralgan modda massasi o'tgan zaryadga proporsional."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Ifrat o'tkazuvchanlik hodisasi nima?",
+   "a": [
+    "Past haroratda qarshilikning nolga tushishi",
+    "Yuqori haroratda o'tkazgichning erib ketishi",
+    "Tok kuchining o'z-o'zidan ortib borishi",
+    "Kuchlanishning nolga tushishi"
+   ],
+   "e": "Kritik haroratdan past haroratda kuzatiladi."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "p-n o'tish asosiy xususiyati nima?",
+   "a": [
+    "Tokni bir yo'nalishda o'tkazadi",
+    "Tokni ikkala yo'nalishda bir xil o'tkazadi va kuchaytiradi",
+    "Tokni umuman o'tkazmaydi",
+    "Tokni yorug'likka aylantirmaydi"
+   ],
+   "e": "Yarimo'tkazgichli diod shu xususiyat asosida ishlaydi."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "n-turdagi yarimo'tkazgichda asosiy zaryad tashuvchilar qaysi?",
+   "a": [
+    "Elektronlar",
+    "Kovaklar",
+    "Musbat ionlar",
+    "Protonlar"
+   ],
+   "e": "p-turda asosiy tashuvchilar — kovaklar."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Tranzistorning asosiy vazifasi nima?",
+   "a": [
+    "Signalni kuchaytirish va kalitlash",
+    "Elektr energiyasini to'plab saqlash",
+    "Faqat tokni to'g'rilash",
+    "Yorug'lik chiqarish"
+   ],
+   "e": "Tranzistor uch elektrodli yarimo'tkazgich asbob."
+  },
+  {
+   "b": "O'zgarmas elektr toki",
+   "q": "Qisqa tutashuv tokining formulasi qaysi?",
+   "a": [
+    "I = ε/r",
+    "I = ε/(R + r)²",
+    "I = ε·r",
+    "I = 0"
+   ],
+   "e": "Tashqi qarshilik nolga teng bo'lganda tok faqat manbaning ichki qarshiligi r bilan cheklanadi."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Magnit induksiyasi birligi qanday nomlanadi?",
+   "a": [
+    "Tesla",
+    "Veber",
     "Genri",
-    "Om",
-    "Tesla"
+    "Gauss-metr"
    ],
-   "e": "Genri — induktivlik, Tesla — magnit induksiya birligi."
+   "e": "Magnit oqimi birligi — veber, induktivlik birligi — genri."
   },
   {
-   "b": "Elektr",
-   "q": "Joul–Lens qonuni nimani ifodalaydi?",
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Tokli o'tkazgichga magnit maydonda ta'sir qiluvchi kuch qanday ataladi?",
    "a": [
-    "O'tkazgichda tok o'tganda ajraladigan issiqlik miqdorini: Q = I²Rt",
-    "Tok kuchini",
-    "Magnit maydon kuchini",
-    "Zaryadning saqlanishini"
+    "Amper kuchi",
+    "Lorens kuchi",
+    "Kulon kuchi",
+    "Arximed kuchi"
    ],
-   "e": "Issiqlik tok kuchi kvadratiga proporsional."
+   "e": "F = IBl·sinα."
   },
   {
-   "b": "Magnetizm",
-   "q": "Elektromagnit induksiya hodisasini kim kashf etgan?",
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Amper kuchi formulasi qaysi?",
    "a": [
-    "Maykl Faradey",
-    "Georg Om",
-    "Alessandro Volta",
-    "Isaak Nyuton"
+    "F = IBl·sinα",
+    "F = qvB·cosα",
+    "F = IB/l",
+    "F = Il/B"
    ],
-   "e": "1831-yilda kashf etilgan."
+   "e": "α — tok yo'nalishi va B vektori orasidagi burchak."
   },
   {
-   "b": "Magnetizm",
-   "q": "Magnit maydonda harakatlanayotgan zaryadli zarraga ta'sir etuvchi kuch qanday ataladi?",
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Magnit maydonda harakatlanuvchi zaryadga ta'sir qiluvchi kuch qanday ataladi?",
    "a": [
     "Lorens kuchi",
     "Amper kuchi",
     "Kulon kuchi",
-    "Arximed kuchi"
+    "Guk kuchi"
    ],
-   "e": "Amper kuchi — tokli o'tkazgichga ta'sir etadi."
+   "e": "F = qvB·sinα."
   },
   {
-   "b": "Magnetizm",
-   "q": "Transformator qanday tokda ishlaydi?",
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Zaryadlangan zarra magnit maydonga induksiya chiziqlariga perpendikulyar uchib kirsa, qanday traektoriya bo'ylab harakatlanadi?",
    "a": [
-    "Faqat o'zgaruvchan tokda",
-    "Faqat o'zgarmas tokda",
-    "Ikkalasida ham bir xil",
-    "Tok talab qilmaydi"
+    "Aylana",
+    "To'g'ri chiziq",
+    "Parabola",
+    "Spiral, faqat o'ng tomonga"
    ],
-   "e": "Transformator elektromagnit induksiyaga asoslangan, u magnit oqim o'zgarishini talab qiladi."
+   "e": "Lorens kuchi markazga intilma kuch vazifasini bajaradi."
   },
   {
-   "b": "Tebranishlar va to'lqinlar",
-   "q": "Matematik mayatnikning tebranish davri nimaga bog'liq?",
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Amper kuchi yo'nalishi qaysi qoida bilan aniqlanadi?",
    "a": [
-    "Ip uzunligi va erkin tushish tezlanishiga",
-    "Yuk massasiga",
-    "Tebranish amplitudasiga (kichik amplitudalarda)",
-    "Ip materialiga"
+    "Chap qo'l qoidasi",
+    "O'ng qo'l qoidasi (parma qoidasi)",
+    "Lens qoidasi",
+    "Kirxgof qoidasi"
    ],
-   "e": "T = 2π√(l/g)."
+   "e": "Induksiya chiziqlari kaftga kiradi, to'rt barmoq tok yo'nalishini ko'rsatadi."
   },
   {
-   "b": "Tebranishlar va to'lqinlar",
-   "q": "Tovush havoda taxminan qanday tezlikda tarqaladi?",
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Tokli to'g'ri o'tkazgich magnit maydoni chiziqlari yo'nalishi qaysi qoida bilan aniqlanadi?",
    "a": [
-    "≈340 m/s",
-    "≈3·10⁸ m/s",
-    "≈1500 m/s",
-    "≈34 m/s"
+    "Parma (o'ng vint) qoidasi",
+    "Chap qo'l qoidasi",
+    "Lens qoidasi",
+    "Om qoidasi"
    ],
-   "e": "Suvda ≈1500 m/s."
+   "e": "Parmaning ilgarilanma harakati tok yo'nalishiga mos bo'lsa, aylanishi chiziqlar yo'nalishini ko'rsatadi."
   },
   {
-   "b": "Tebranishlar va to'lqinlar",
-   "q": "Chastota birligi qaysi?",
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Magnit oqimi formulasi qaysi?",
+   "a": [
+    "Φ = BS·cosα",
+    "Φ = B/S",
+    "Φ = BS·sinα·t",
+    "Φ = B + S"
+   ],
+   "e": "α — B vektori va kontur normali orasidagi burchak."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Elektromagnit induksiya hodisasini kim kashf etgan?",
+   "a": [
+    "M. Faradey",
+    "A. Amper",
+    "G. Om",
+    "Sh. Kulon"
+   ],
+   "e": "1831-yilda kashf etilgan."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Elektromagnit induksiya qonuni (Faradey qonuni) qaysi?",
+   "a": [
+    "ε = −ΔΦ/Δt",
+    "ε = ΔΦ·Δt",
+    "ε = Φ/I",
+    "ε = BIl"
+   ],
+   "e": "Induksiya EYuK magnit oqimining o'zgarish tezligiga teng."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Lens qoidasi nimani ifodalaydi?",
+   "a": [
+    "Induksion tok o'zini hosil qilgan oqim o'zgarishiga qarshilik ko'rsatadi",
+    "Induksion tok har doim tashqi magnit maydon bilan bir xil yo'nalishda oqadi va uni kuchaytiradi",
+    "Induksion tok faqat o'zgarmas magnit maydonda hosil bo'ladi",
+    "Induksion tok kuchi qarshilikka bog'liq emasligini"
+   ],
+   "e": "Formuladagi minus ishorasi Lens qoidasini aks ettiradi."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "O'zinduksiya EYuK formulasi qaysi?",
+   "a": [
+    "ε = −LΔI/Δt",
+    "ε = LI²/2",
+    "ε = −ΔI/(LΔt)",
+    "ε = L·Δt/ΔI"
+   ],
+   "e": "L — induktivlik, birligi genri."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "G'altak magnit maydoni energiyasi formulasi qaysi?",
+   "a": [
+    "W = LI²/2",
+    "W = CU²/2",
+    "W = LI",
+    "W = L/I²"
+   ],
+   "e": "Kondensator elektr maydoni energiyasi bilan o'xshash."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Transformator qaysi hodisaga asoslanib ishlaydi?",
+   "a": [
+    "Elektromagnit induksiya",
+    "Fotoeffekt",
+    "Termoelektron emissiya",
+    "Elektroliz"
+   ],
+   "e": "Transformator faqat o'zgaruvchan tokda ishlaydi."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Transformatsiya koeffitsienti formulasi qaysi?",
+   "a": [
+    "k = U₁/U₂ = N₁/N₂",
+    "k = U₁·U₂",
+    "k = N₂/N₁·U₁",
+    "k = I₁/I₂ = N₁/N₂"
+   ],
+   "e": "Tok kuchlari esa o'ramlar soniga teskari proporsional: I₁/I₂ = N₂/N₁."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Pasaytiruvchi transformatorda qaysi chulg'amda o'ramlar soni ko'p?",
+   "a": [
+    "Birlamchi",
+    "Ikkilamchi",
+    "Ikkalasida teng",
+    "O'ramlar soni ahamiyatsiz"
+   ],
+   "e": "k > 1 bo'lsa transformator pasaytiruvchi."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Elektr energiyasini uzoq masofaga uzatishda kuchlanish nima uchun oshiriladi?",
+   "a": [
+    "Simlardagi issiqlik isrofini kamaytirish uchun",
+    "Iste'molchilarda elektr energiyasi narxini oshirish va hisoblagich ko'rsatkichini ko'paytirish uchun",
+    "Simlar og'irligini oshirish uchun",
+    "Tok kuchini oshirish uchun"
+   ],
+   "e": "Kuchlanish oshsa, tok kamayadi va I²R isrof kamayadi."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Ferromagnetiklarga qaysi moddalar kiradi?",
+   "a": [
+    "Temir, nikel, kobalt",
+    "Mis, alyuminiy, oltin",
+    "Shisha, rezina, plastmassa",
+    "Suv, kislorod, azot"
+   ],
+   "e": "Ferromagnetiklarda magnit singdiruvchanlik juda katta."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Kyuri nuqtasi nima?",
+   "a": [
+    "Ferromagnetik xossasini yo'qotadigan harorat",
+    "Moddaning qaynash harorati",
+    "Yarimo'tkazgich o'tkazgichga aylanadigan kuchlanish",
+    "Radioaktiv yemirilish to'xtaydigan harorat"
+   ],
+   "e": "Temir uchun Kyuri nuqtasi taxminan 770 °C."
+  },
+  {
+   "b": "Magnetizm va elektromagnit induksiya",
+   "q": "Elektr generatori qanday energiyani elektr energiyasiga aylantiradi?",
+   "a": [
+    "Mexanik energiyani",
+    "Elektr energiyasini mexanik energiyaga",
+    "Yorug'lik energiyasini issiqlikka",
+    "Kimyoviy energiyani yadro energiyasiga"
+   ],
+   "e": "Elektr dvigatel esa teskari aylantirishni bajaradi."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Matematik mayatnik tebranish davri formulasi qaysi?",
+   "a": [
+    "T = 2π√(l/g)",
+    "T = 2π√(g/l)",
+    "T = 2πlg",
+    "T = √(lg)/2π"
+   ],
+   "e": "Davr massa va amplitudaga (kichik amplitudalarda) bog'liq emas."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Prujinali mayatnik tebranish davri formulasi qaysi?",
+   "a": [
+    "T = 2π√(m/k)",
+    "T = 2π√(k/m)",
+    "T = 2πmk",
+    "T = m/(2πk)"
+   ],
+   "e": "m — yuk massasi, k — prujina bikirligi."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Matematik mayatnik ipi uzunligi 4 marta oshirilsa, davri qanday o'zgaradi?",
+   "a": [
+    "2 marta ortadi",
+    "4 marta ortadi",
+    "2 marta kamayadi",
+    "O'zgarmaydi"
+   ],
+   "e": "T ∼ √l."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Chastota birligi qanday nomlanadi?",
    "a": [
     "Gers",
     "Sekund",
-    "Metr",
+    "Radian",
     "Detsibel"
    ],
-   "e": "1 Gs — sekundiga bitta tebranish."
+   "e": "1 Gs — sekundiga bir tebranish."
   },
   {
-   "b": "Optika",
-   "q": "Yorug'likning vakuumdagi tezligi qancha?",
+   "b": "Tebranish va to'lqinlar",
+   "q": "Rezonans hodisasi qachon yuz beradi?",
    "a": [
-    "≈3·10⁸ m/s",
-    "≈3·10⁵ m/s",
-    "≈340 m/s",
-    "≈3·10⁶ m/s"
+    "Tashqi kuch chastotasi xususiy chastotaga teng bo'lganda",
+    "Tebranish amplitudasi nolga tushib, tizim to'xtaganda",
+    "Tashqi kuch butunlay yo'qolganda",
+    "Tebranish davri cheksiz kattalashganda"
    ],
-   "e": "c ≈ 299 792 km/s."
+   "e": "Rezonansda majburiy tebranishlar amplitudasi keskin ortadi."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Tebranish konturining xususiy tebranish davri formulasi (Tomson formulasi) qaysi?",
+   "a": [
+    "T = 2π√(LC)",
+    "T = 2π√(L/C)",
+    "T = 2πLC",
+    "T = √(LC)/2π"
+   ],
+   "e": "L — induktivlik, C — sig'im."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "To'lqin uzunligi, tezlik va chastota qanday bog'langan?",
+   "a": [
+    "λ = v/ν",
+    "λ = vν",
+    "λ = ν/v",
+    "λ = v²ν"
+   ],
+   "e": "λ = vT ham to'g'ri."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Ko'ndalang to'lqinda zarralar qanday tebranadi?",
+   "a": [
+    "To'lqin tarqalishiga perpendikulyar",
+    "To'lqin tarqalish yo'nalishi bo'ylab",
+    "Aylana bo'ylab",
+    "Umuman tebranmaydi"
+   ],
+   "e": "Bo'ylama to'lqinda tebranish tarqalish yo'nalishi bo'ylab bo'ladi."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Tovush to'lqinlari havoda qanday to'lqin hisoblanadi?",
+   "a": [
+    "Bo'ylama",
+    "Ko'ndalang",
+    "Elektromagnit",
+    "Faqat sirt to'lqini"
+   ],
+   "e": "Gazlarda faqat bo'ylama to'lqinlar tarqaladi."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Havoda tovush tezligi taxminan qancha?",
+   "a": [
+    "340 m/s",
+    "3·10⁸ m/s",
+    "1500 m/s",
+    "34 m/s"
+   ],
+   "e": "Suvda tovush tezligi taxminan 1500 m/s."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Tovush balandligi (toni) qaysi kattalikka bog'liq?",
+   "a": [
+    "Chastotaga",
+    "Amplitudaga",
+    "Tarqalish muhiti haroratiga",
+    "Manbagacha bo'lgan masofaga"
+   ],
+   "e": "Tovush qattiqligi esa amplitudaga bog'liq."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Elektromagnit to'lqinlarning vakuumdagi tezligi qancha?",
+   "a": [
+    "3·10⁸ m/s",
+    "340 m/s",
+    "3·10⁵ m/s",
+    "1,5·10³ m/s"
+   ],
+   "e": "Yorug'lik tezligi c ≈ 300 000 km/s."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Elektromagnit to'lqinlar mavjudligini nazariy bashorat qilgan olim kim?",
+   "a": [
+    "J. Maksvell",
+    "G. Gers",
+    "A. Popov",
+    "I. Nyuton"
+   ],
+   "e": "Gers ularni eksperimentda aniqlagan."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Exo (aks-sado) qaysi hodisaga asoslangan?",
+   "a": [
+    "Tovushning qaytishi",
+    "Tovushning sinishi",
+    "Tovushning yutilishi",
+    "Tovushning qutblanishi"
+   ],
+   "e": "Exolot va ultratovush diagnostikasi ham shunga asoslanadi."
+  },
+  {
+   "b": "Tebranish va to'lqinlar",
+   "q": "Doppler effekti nimani ifodalaydi?",
+   "a": [
+    "Manba harakatida qabul qilinuvchi chastota o'zgarishini",
+    "To'lqinlarning to'siqni aylanib o'tishini",
+    "To'lqinlar qo'shilganda kuchayishi yoki susayishini",
+    "To'lqin energiyasining muhitda yutilishini"
+   ],
+   "e": "Yaqinlashayotgan manba ovozi balandroq eshitiladi."
   },
   {
    "b": "Optika",
-   "q": "Yorug'likning qaytish qonuniga ko'ra qaysi tasdiq to'g'ri?",
+   "q": "Yorug'likning qaytish qonuni nimani ifodalaydi?",
    "a": [
     "Tushish burchagi qaytish burchagiga teng",
-    "Tushish burchagi qaytish burchagidan katta",
-    "Qaytish burchagi doim 90°",
-    "Burchaklar muhitga bog'liq"
+    "Tushish burchagi sinish burchagidan har doim ikki baravar katta bo'lishini",
+    "Yorug'lik faqat qora sirtdan qaytishini",
+    "Qaytgan nur har doim sirtga parallel bo'lishini"
    ],
-   "e": "Tushgan va qaytgan nurlar hamda normal bir tekislikda yotadi."
+   "e": "Tushgan nur, qaytgan nur va normal bir tekislikda yotadi."
   },
   {
-   "b": "Atom fizikasi",
+   "b": "Optika",
+   "q": "Sinish qonuni qaysi formula bilan ifodalanadi?",
+   "a": [
+    "sinα/sinγ = n₂/n₁",
+    "sinα·sinγ = n₁n₂",
+    "α + γ = 90°",
+    "cosα/cosγ = n₁/n₂"
+   ],
+   "e": "Snellius qonuni."
+  },
+  {
+   "b": "Optika",
+   "q": "Muhitning absolyut sindirish ko'rsatkichi formulasi qaysi?",
+   "a": [
+    "n = c/v",
+    "n = v/c",
+    "n = cv",
+    "n = c − v"
+   ],
+   "e": "c — vakuumdagi, v — muhitdagi yorug'lik tezligi."
+  },
+  {
+   "b": "Optika",
+   "q": "To'liq ichki qaytish qachon kuzatiladi?",
+   "a": [
+    "Optik zichroq muhitdan siyrakroqqa o'tishda, chegaraviy burchakdan katta burchakda",
+    "Optik siyrakroq muhitdan zichroqqa o'tishda har qanday tushish burchagida",
+    "Yorug'lik ko'zguga perpendikulyar tushganda",
+    "Faqat vakuumda"
+   ],
+   "e": "Optik tolalar shu hodisaga asoslangan."
+  },
+  {
+   "b": "Optika",
+   "q": "Yupqa linza formulasi qaysi?",
+   "a": [
+    "1/F = 1/d + 1/f",
+    "F = d + f",
+    "1/F = d·f",
+    "F = d/f"
+   ],
+   "e": "d — buyumgacha, f — tasvirgacha masofa."
+  },
+  {
+   "b": "Optika",
+   "q": "Linzaning optik kuchi birligi qanday nomlanadi?",
+   "a": [
+    "Dioptriya",
+    "Lyumen",
+    "Kandela",
+    "Lyuks"
+   ],
+   "e": "D = 1/F, F metrlarda."
+  },
+  {
+   "b": "Optika",
+   "q": "Fokus masofasi 0,5 m bo'lgan linzaning optik kuchi qancha?",
+   "a": [
+    "2 dptr",
+    "0,5 dptr",
+    "5 dptr",
+    "20 dptr"
+   ],
+   "e": "D = 1/0,5 = 2 dptr."
+  },
+  {
+   "b": "Optika",
+   "q": "Yaqindan ko'ruvchi (miopiya) ko'z qanday ko'zoynak bilan tuzatiladi?",
+   "a": [
+    "Sochuvchi linzali",
+    "Yig'uvchi linzali",
+    "Tekis shishali",
+    "Prizmali"
+   ],
+   "e": "Miopiyada tasvir to'r pardadan oldinda hosil bo'ladi."
+  },
+  {
+   "b": "Optika",
+   "q": "Yorug'lik dispersiyasi nima?",
+   "a": [
+    "Sindirish ko'rsatkichining to'lqin uzunligiga bog'liqligi",
+    "Yorug'likning to'siq chetlarini aylanib o'tishi va soya sohasiga kirishi",
+    "Yorug'likning ko'zgudan qaytishi",
+    "Yorug'likning qutblanishi"
+   ],
+   "e": "Prizmada oq yorug'lik spektrga ajraladi."
+  },
+  {
+   "b": "Optika",
+   "q": "Interferensiya deb nimaga aytiladi?",
+   "a": [
+    "Kogerent to'lqinlar qo'shilib, kuchayish va susayish manzarasi hosil qilishi",
+    "To'lqinlarning to'siqni aylanib o'tishi",
+    "Yorug'lik tezligining muhitga bog'liqligi",
+    "Yorug'likning moddada yutilishi"
+   ],
+   "e": "Yupqa pardalardagi rangli tasvirlar interferensiya natijasi."
+  },
+  {
+   "b": "Optika",
+   "q": "Difraksiya deb nimaga aytiladi?",
+   "a": [
+    "To'lqinlarning to'siqni aylanib o'tishi",
+    "To'lqinlarning qo'shilib kuchayishi va bir-birini so'ndirishi",
+    "Yorug'likning spektrga ajralishi",
+    "Yorug'likning faqat bir tekislikda tebranishi"
+   ],
+   "e": "To'siq o'lchami to'lqin uzunligiga yaqin bo'lsa, difraksiya yaqqol kuzatiladi."
+  },
+  {
+   "b": "Optika",
+   "q": "Yorug'likning qutblanishi uning qanday tabiatini isbotlaydi?",
+   "a": [
+    "Ko'ndalang to'lqin ekanligini",
+    "Bo'ylama to'lqin ekanligini",
+    "Zarralar oqimi ekanligini",
+    "Tovush to'lqini ekanligini"
+   ],
+   "e": "Faqat ko'ndalang to'lqinlar qutblanadi."
+  },
+  {
+   "b": "Optika",
+   "q": "Ko'rinadigan yorug'lik spektrida eng uzun to'lqin qaysi rangga mos keladi?",
+   "a": [
+    "Qizil",
+    "Binafsha",
+    "Yashil",
+    "Ko'k"
+   ],
+   "e": "Qizil ≈ 760 nm, binafsha ≈ 380 nm."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Foton energiyasi formulasi qaysi?",
+   "a": [
+    "E = hν",
+    "E = h/ν",
+    "E = mν",
+    "E = hν²/2"
+   ],
+   "e": "h ≈ 6,63·10⁻³⁴ J·s — Plank doimiysi."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Fotoeffekt hodisasi nima?",
+   "a": [
+    "Yorug'lik ta'sirida moddadan elektronlar urib chiqarilishi",
+    "Moddaning qizdirilganda yorug'lik chiqarishi va rangini o'zgartirishi",
+    "Yadroning o'z-o'zidan parchalanishi",
+    "Elektronlarning yadroga qulashi"
+   ],
+   "e": "Fotoeffekt yorug'likning kvant tabiatini isbotlaydi."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Fotoeffekt uchun Eynshteyn tenglamasi qaysi?",
+   "a": [
+    "hν = A + mv²/2",
+    "hν = A − mv²/2",
+    "hν = mc²",
+    "hν = A·mv"
+   ],
+   "e": "A — chiqish ishi."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Fotoeffektning qizil chegarasi nima?",
+   "a": [
+    "Fotoeffekt yuz beradigan minimal chastota",
+    "Fotoelektronlar tezligi eng katta bo'ladigan chastota",
+    "Yorug'likning qizil rangi",
+    "Fototok to'yinadigan kuchlanish"
+   ],
+   "e": "ν_min = A/h."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Rezerford tajribasi nimani isbotladi?",
+   "a": [
+    "Atomning musbat yadrosi borligini",
+    "Elektronning to'lqin xususiyatlarini",
+    "Yorug'likning qutblanishini",
+    "Neytronning mavjudligini"
+   ],
+   "e": "Alfa zarralarning sochilishi atomning planetar modelini asosladi."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
    "q": "Atom yadrosi qanday zarralardan tashkil topgan?",
    "a": [
     "Proton va neytronlardan",
     "Elektron va protonlardan",
     "Faqat elektronlardan",
-    "Foton va elektronlardan"
+    "Foton va neytronlardan"
    ],
-   "e": "Elektronlar yadro atrofida harakatlanadi."
+   "e": "Proton va neytronlar umumiy nom bilan nuklonlar deyiladi."
   },
   {
-   "b": "Atom fizikasi",
-   "q": "Fotoeffekt hodisasi nima?",
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Izotoplar deb nimaga aytiladi?",
    "a": [
-    "Yorug'lik ta'sirida moddadan elektronlarning chiqishi",
-    "Yorug'likning qaytishi",
-    "Yorug'likning sinishi",
-    "Yadroning bo'linishi"
+    "Protonlar soni bir xil, neytronlar soni turlicha bo'lgan atomlar",
+    "Neytronlar soni bir xil, lekin protonlar soni va kimyoviy xossalari butunlay turlicha bo'lgan atomlar",
+    "Massa soni bir xil atomlar",
+    "Elektronlar soni har xil bo'lgan ionlar"
    ],
-   "e": "Fotoeffekt nazariyasi uchun A. Eynshteyn Nobel mukofotini olgan."
+   "e": "Masalan, vodorod izotoplari: protiy, deyteriy, tritiy."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Alfa-zarra nima?",
+   "a": [
+    "Geliy yadrosi",
+    "Elektron",
+    "Yuqori energiyali foton",
+    "Neytron"
+   ],
+   "e": "Alfa-zarra 2 proton va 2 neytrondan iborat."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Beta-zarra nima?",
+   "a": [
+    "Elektron (yoki pozitron)",
+    "Geliy yadrosi",
+    "Proton",
+    "Foton"
+   ],
+   "e": "β⁻ yemirilishda neytron protonga aylanib, elektron chiqaradi."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Gamma-nurlanish nima?",
+   "a": [
+    "Qisqa to'lqinli elektromagnit nurlanish",
+    "Musbat zaryadli zarralar oqimi, ya'ni geliy yadrolari",
+    "Elektronlar oqimi",
+    "Neytronlar oqimi"
+   ],
+   "e": "Gamma-nurlar eng kuchli singuvchanlikka ega."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Yarim yemirilish davri nima?",
+   "a": [
+    "Radioaktiv yadrolarning yarmi yemiriladigan vaqt",
+    "Barcha radioaktiv yadrolar to'liq yemiriladigan vaqtning aniq yarmi va undan keyin nurlanish to'xtaydi",
+    "Bir yadro yemiriladigan vaqt",
+    "Nurlanish dozasi ikki baravar oshadigan vaqt"
+   ],
+   "e": "Har bir yarim yemirilish davridan keyin qolgan yadrolar soni ikki marta kamayadi."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Yarim yemirilish davri 2 soat bo'lgan moddadan 6 soatdan keyin dastlabki miqdorning qancha qismi qoladi?",
+   "a": [
+    "1/8",
+    "1/3",
+    "1/6",
+    "1/4"
+   ],
+   "e": "6 soat = 3 davr: (1/2)³ = 1/8."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Eynshteynning massa va energiya bog'lanish formulasi qaysi?",
+   "a": [
+    "E = mc²",
+    "E = mc",
+    "E = m/c²",
+    "E = mv²/2"
+   ],
+   "e": "Yadro reaksiyalaridagi energiya chiqishi shu formula bilan hisoblanadi."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Yadro reaktorida qanday reaksiya boshqariladi?",
+   "a": [
+    "Og'ir yadrolarning zanjir bo'linishi",
+    "Yengil yadrolarning termoyadro sintezi",
+    "Kimyoviy yonish reaksiyasi",
+    "Elektroliz reaksiyasi"
+   ],
+   "e": "Boshqaruv sterjenlari neytronlarni yutib, reaksiya tezligini rostlaydi."
+  },
+  {
+   "b": "Kvant, atom va yadro fizikasi",
+   "q": "Quyosh energiyasining manbai qaysi jarayon?",
+   "a": [
+    "Termoyadro sintezi",
+    "Uran yadrolarining bo'linishi",
+    "Ko'mirning yonishi",
+    "Elektromagnit induksiya"
+   ],
+   "e": "Vodorod yadrolari geliyga aylanib, katta energiya ajraladi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Avtomobil 72 km/soat tezlik bilan harakatlanmoqda. Bu necha m/s ga teng?",
+   "a": [
+    "20 m/s",
+    "72 m/s",
+    "7,2 m/s",
+    "36 m/s"
+   ],
+   "e": "72 000 m / 3600 s = 20 m/s."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Jism 5 s da tinch holatdan 20 m/s tezlikka erishdi. Uning tezlanishi qancha?",
+   "a": [
+    "4 m/s²",
+    "100 m/s²",
+    "0,25 m/s²",
+    "25 m/s²"
+   ],
+   "e": "a = Δv/t = 20/5 = 4 m/s²."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tinch holatdan 2 m/s² tezlanish bilan harakatlangan jism 10 s da qancha yo'l bosadi?",
+   "a": [
+    "100 m",
+    "20 m",
+    "200 m",
+    "10 m"
+   ],
+   "e": "s = at²/2 = 2·100/2 = 100 m."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Vertikal yuqoriga 20 m/s tezlik bilan otilgan jism qancha balandlikka ko'tariladi (g=10 m/s²)?",
+   "a": [
+    "20 m",
+    "40 m",
+    "10 m",
+    "200 m"
+   ],
+   "e": "h = v²/(2g) = 400/20 = 20 m."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Nisbiy tezlik deganda nima tushuniladi?",
+   "a": [
+    "Jismning boshqa harakatlanuvchi sanoq tizimiga nisbatan tezligi",
+    "Jismning Yerga nisbatan eng katta tezligi va uning o'rtacha qiymati",
+    "Yorug'lik tezligiga nisbatan foiz",
+    "Tezlanishning vaqtga nisbati"
+   ],
+   "e": "Tezliklarni qo'shish qonuni: v = v₁ + v₂ (vektor ko'rinishida)."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Ikki avtomobil bir-biriga qarama-qarshi 60 va 40 km/soat tezlikda harakatlanmoqda. Ularning nisbiy tezligi qancha?",
+   "a": [
+    "100 km/soat",
+    "20 km/soat",
+    "50 km/soat",
+    "2400 km/soat"
+   ],
+   "e": "Qarama-qarshi harakatda tezliklar qo'shiladi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Aylanish chastotasi 10 ayl/s bo'lsa, aylanish davri qancha?",
+   "a": [
+    "0,1 s",
+    "10 s",
+    "1 s",
+    "100 s"
+   ],
+   "e": "T = 1/ν."
+  },
+  {
+   "b": "Kinematika",
+   "q": "O'rtacha tezlik qanday aniqlanadi?",
+   "a": [
+    "Butun yo'lning butun vaqtga nisbati",
+    "Boshlang'ich va oxirgi tezliklarning ko'paytmasi, istalgan harakat turida",
+    "Eng katta tezlikning yarmi",
+    "Tezlanishning yo'lga ko'paytmasi"
+   ],
+   "e": "v_o'rt = s/t; (v₀+v)/2 faqat tekis o'zgaruvchan harakatda to'g'ri."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Inersiya o'lchovi qaysi fizik kattalik?",
+   "a": [
+    "Massa",
+    "Tezlik",
+    "Kuch",
+    "Tezlanish"
+   ],
+   "e": "Massa qancha katta bo'lsa, jism tezligini o'zgartirish shuncha qiyin."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Qiya tekislikda turgan jismga qaysi kuchlar ta'sir qiladi?",
+   "a": [
+    "Og'irlik, tayanch reaksiya va ishqalanish kuchlari",
+    "Faqat og'irlik kuchi, boshqa kuchlar qiya tekislikda yo'qoladi",
+    "Faqat Arximed kuchi",
+    "Faqat elastiklik va Lorens kuchlari"
+   ],
+   "e": "Muvozanatda bu kuchlarning vektor yig'indisi nolga teng."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massasi 1000 kg bo'lgan avtomobil 2 m/s² tezlanish bilan harakatlanishi uchun qanday kuch kerak (ishqalanishsiz)?",
+   "a": [
+    "2000 N",
+    "500 N",
+    "1002 N",
+    "20 000 N"
+   ],
+   "e": "F = ma = 1000·2."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Jismning og'irligi 50 N (g=10 m/s²). Uning massasi qancha?",
+   "a": [
+    "5 kg",
+    "50 kg",
+    "500 kg",
+    "0,5 kg"
+   ],
+   "e": "m = P/g."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Tinch ishqalanish kuchi qachon yuzaga keladi?",
+   "a": [
+    "Jismni siljitishga urinilganda, u hali qo'zg'almaganda",
+    "Jism sirt bo'ylab katta tezlik bilan sirpanib harakatlanayotganda",
+    "Jism havoda erkin uchganda",
+    "Jism suyuqlikda suzganda"
+   ],
+   "e": "Tinch ishqalanish kuchi qo'yilgan kuchga teng bo'lib, maksimal qiymatgacha ortadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Dumalanish ishqalanishi sirpanish ishqalanishiga nisbatan qanday?",
+   "a": [
+    "Ancha kichik",
+    "Ancha katta",
+    "Har doim teng",
+    "Nolga teng"
+   ],
+   "e": "Shuning uchun podshipniklar va g'ildiraklar ishlatiladi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Markazdan qochma kuch haqida qaysi fikr to'g'ri?",
+   "a": [
+    "Aylanuvchi sanoq tizimida kiritiladigan inersiya kuchi",
+    "Har qanday jismga doimo ta'sir qiluvchi, Yer tortishishiga teng real kuch",
+    "Aylana markaziga yo'nalgan elastiklik kuchi",
+    "Faqat elektr zaryadlariga ta'sir qiladigan kuch"
+   ],
+   "e": "Inersial sanoq tizimida faqat markazga intilma kuch mavjud."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "0,5 kg massali to'p 10 m/s tezlik bilan uchmoqda. Uning impulsi qancha?",
+   "a": [
+    "5 kg·m/s",
+    "50 kg·m/s",
+    "25 kg·m/s",
+    "20 kg·m/s"
+   ],
+   "e": "p = mv = 0,5·10."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Kuch impulsi formulasi qaysi?",
+   "a": [
+    "FΔt = Δp",
+    "F/Δt = p",
+    "FΔt = mv²",
+    "F = pΔt"
+   ],
+   "e": "Kuch impulsi jism impulsining o'zgarishiga teng."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Mutlaq noelastik to'qnashuvda qaysi kattalik saqlanadi?",
+   "a": [
+    "Impuls",
+    "Kinetik energiya",
+    "Ikkalasi ham saqlanadi",
+    "Hech biri saqlanmaydi"
+   ],
+   "e": "Energiyaning bir qismi ichki energiyaga aylanadi."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Mutlaq elastik to'qnashuvda qaysi kattaliklar saqlanadi?",
+   "a": [
+    "Impuls va kinetik energiya",
+    "Faqat kinetik energiya, impuls esa doimo yo'qoladi",
+    "Faqat impuls",
+    "Hech biri"
+   ],
+   "e": "Elastik to'qnashuvda deformatsiya to'liq tiklanadi."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "10 kg massali jism 5 m balandlikka ko'tarildi (g=10 m/s²). Uning potensial energiyasi qancha ortdi?",
+   "a": [
+    "500 J",
+    "50 J",
+    "5000 J",
+    "15 J"
+   ],
+   "e": "E = mgh = 10·10·5."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Kuch va ko'chish o'zaro perpendikulyar bo'lsa, kuch bajargan ish nimaga teng?",
+   "a": [
+    "Nolga",
+    "Fs ga",
+    "Maksimal qiymatga",
+    "−Fs ga"
+   ],
+   "e": "cos90° = 0."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Ishqalanish kuchi bajargan ish odatda qanday ishorali bo'ladi?",
+   "a": [
+    "Manfiy",
+    "Musbat",
+    "Nol",
+    "Har doim cheksiz"
+   ],
+   "e": "Ishqalanish kuchi harakatga qarama-qarshi yo'nalgan."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "Quvvatni kuch va tezlik orqali ifodalovchi formula qaysi?",
+   "a": [
+    "N = Fv",
+    "N = F/v",
+    "N = Fv²",
+    "N = F + v"
+   ],
+   "e": "Tekis harakatda N = A/t = Fs/t = Fv."
+  },
+  {
+   "b": "Saqlanish qonunlari",
+   "q": "1 ot kuchi taxminan necha vattga teng?",
+   "a": [
+    "736 Vt",
+    "100 Vt",
+    "1000 Vt",
+    "7360 Vt"
+   ],
+   "e": "Ot kuchi tizimdan tashqari quvvat birligi."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Normal sharoitda 1 mol ideal gaz qancha hajmni egallaydi?",
+   "a": [
+    "22,4 l",
+    "1 l",
+    "2,24 l",
+    "224 l"
+   ],
+   "e": "Normal sharoit: 0 °C va 101 325 Pa."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Bolsman doimiysi taxminan nechaga teng?",
+   "a": [
+    "1,38·10⁻²³ J/K",
+    "6,02·10²³ J/K",
+    "8,31 J/K",
+    "6,63·10⁻³⁴ J/K"
+   ],
+   "e": "k = R/N_A."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Gaz bosimi molekulyar-kinetik nazariyaga ko'ra nima bilan tushuntiriladi?",
+   "a": [
+    "Molekulalarning idish devorlariga urilishi",
+    "Molekulalarning bir-biriga tortilishi va zanjir hosil qilishi",
+    "Gazning og'irligi bilan",
+    "Idish devorlarining kengayishi bilan"
+   ],
+   "e": "p = (1/3)nm₀v²."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Gaz hajmi o'zgarmas bo'lganda absolyut harorati 2 marta oshirilsa, bosimi qanday o'zgaradi?",
+   "a": [
+    "2 marta ortadi",
+    "2 marta kamayadi",
+    "4 marta ortadi",
+    "O'zgarmaydi"
+   ],
+   "e": "Sharl qonuni: p/T = const."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Gaz harorati o'zgarmas bo'lganda hajmi 3 marta kamaytirilsa, bosimi qanday o'zgaradi?",
+   "a": [
+    "3 marta ortadi",
+    "3 marta kamayadi",
+    "9 marta ortadi",
+    "O'zgarmaydi"
+   ],
+   "e": "Boyl–Mariott qonuni: pV = const."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Qaynash harorati tashqi bosim kamayganda qanday o'zgaradi?",
+   "a": [
+    "Pasayadi",
+    "Ortadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Tog'larda suv 100 °C dan pastroq haroratda qaynaydi."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Kristall jismlar amorf jismlardan qaysi xususiyati bilan farq qiladi?",
+   "a": [
+    "Aniq erish haroratiga ega",
+    "Erish harorati yo'q, isitilganda asta-sekin yumshab boradi",
+    "Ularda atomlar tartibsiz joylashgan",
+    "Barcha yo'nalishlarda bir xil xossalarga ega bo'ladi"
+   ],
+   "e": "Kristallar anizotropiyaga ham ega."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Sublimatsiya nima?",
+   "a": [
+    "Qattiq holatdan bevosita gaz holatiga o'tish",
+    "Gaz holatidan suyuq holatga o'tish va tomchilar hosil bo'lishi",
+    "Suyuqlikdan qattiq holatga o'tish",
+    "Suyuqlikning qaynashi"
+   ],
+   "e": "Masalan, \"quruq muz\" (qattiq CO₂) sublimatsiyalanadi."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Mexanik kuchlanish formulasi qaysi?",
+   "a": [
+    "σ = F/S",
+    "σ = FS",
+    "σ = S/F",
+    "σ = F·l"
+   ],
+   "e": "Birligi paskal."
+  },
+  {
+   "b": "Molekulyar fizika",
+   "q": "Yung moduli nimani tavsiflaydi?",
+   "a": [
+    "Materialning elastik deformatsiyaga qarshiligini",
+    "Materialning elektr o'tkazuvchanligini va issiqlik sig'imini",
+    "Materialning zichligini",
+    "Materialning erish haroratini"
+   ],
+   "e": "Guk qonuni: σ = Eε."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "12 V kuchlanishda 3 A tok o'tayotgan o'tkazgich qarshiligi qancha?",
+   "a": [
+    "4 Om",
+    "36 Om",
+    "0,25 Om",
+    "15 Om"
+   ],
+   "e": "R = U/I."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "4 ta bir xil 10 Om li rezistor ketma-ket ulangan. Umumiy qarshilik qancha?",
+   "a": [
+    "40 Om",
+    "2,5 Om",
+    "10 Om",
+    "14 Om"
+   ],
+   "e": "R = 4·10."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "4 ta bir xil 10 Om li rezistor parallel ulangan. Umumiy qarshilik qancha?",
+   "a": [
+    "2,5 Om",
+    "40 Om",
+    "10 Om",
+    "0,4 Om"
+   ],
+   "e": "R = 10/4."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "Elektr isitkich qarshiligi 44 Om, tarmoq kuchlanishi 220 V. Uning quvvati qancha?",
+   "a": [
+    "1100 Vt",
+    "9680 Vt",
+    "5 Vt",
+    "264 Vt"
+   ],
+   "e": "P = U²/R = 48400/44."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "EYuK 12 V, ichki qarshilik 1 Om, tashqi qarshilik 5 Om. Zanjirdagi tok kuchi qancha?",
+   "a": [
+    "2 A",
+    "12 A",
+    "2,4 A",
+    "72 A"
+   ],
+   "e": "I = ε/(R+r) = 12/6."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "Kondensator sig'imi 2 mkF, kuchlanish 100 V. Kondensator zaryadi qancha?",
+   "a": [
+    "2·10⁻⁴ Kl",
+    "200 Kl",
+    "50 Kl",
+    "2·10⁻⁸ Kl"
+   ],
+   "e": "q = CU = 2·10⁻⁶·100."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "O'zgaruvchan tokning effektiv qiymati amplituda qiymatidan necha marta kichik?",
+   "a": [
+    "√2 marta",
+    "2 marta",
+    "3 marta",
+    "π marta"
+   ],
+   "e": "I_ef = I_m/√2."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "Maishiy elektr tarmog'ida o'zgaruvchan tok chastotasi qancha?",
+   "a": [
+    "50 Gs",
+    "60 kGs",
+    "220 Gs",
+    "1 Gs"
+   ],
+   "e": "O'zbekiston va ko'plab mamlakatlarda standart chastota 50 Gs."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "Induktiv qarshilik formulasi qaysi?",
+   "a": [
+    "X_L = ωL",
+    "X_L = 1/(ωL)",
+    "X_L = ω/L",
+    "X_L = L/ω²"
+   ],
+   "e": "Chastota oshsa, induktiv qarshilik ortadi."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "Sig'im qarshiligi formulasi qaysi?",
+   "a": [
+    "X_C = 1/(ωC)",
+    "X_C = ωC",
+    "X_C = C/ω",
+    "X_C = ω²C"
+   ],
+   "e": "Chastota oshsa, sig'im qarshiligi kamayadi."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "Ketma-ket RLC zanjirda kuchlanish rezonansi qachon yuz beradi?",
+   "a": [
+    "X_L = X_C bo'lganda",
+    "R = 0 bo'lganda, induktivlik va sig'im qiymatidan qat'i nazar",
+    "X_L = 2X_C bo'lganda",
+    "Kuchlanish nolga teng bo'lganda"
+   ],
+   "e": "Rezonansda zanjir impedansi minimal, tok maksimal."
+  },
+  {
+   "b": "Elektr va magnetizm",
+   "q": "Elektr dvigatel qaysi hodisaga asoslanib ishlaydi?",
+   "a": [
+    "Magnit maydonning tokli o'tkazgichga ta'siriga",
+    "Elektromagnit to'lqinlarning nurlanishiga",
+    "Termoelektron emissiyaga",
+    "Fotoeffektga"
+   ],
+   "e": "Amper kuchi rotorni aylantiradi."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Yassi ko'zguda tasvir qanday bo'ladi?",
+   "a": [
+    "Mavhum, to'g'ri, buyum o'lchamiga teng",
+    "Haqiqiy, teskari va kattalashgan",
+    "Haqiqiy, to'g'ri va kichiklashgan",
+    "Mavhum, teskari va kattalashgan"
+   ],
+   "e": "Tasvir ko'zgu orqasida, buyumdan ko'zguga teng masofada."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Yig'uvchi linzada buyum fokus va linza orasida joylashsa, tasvir qanday bo'ladi?",
+   "a": [
+    "Mavhum, to'g'ri, kattalashgan",
+    "Haqiqiy, teskari, kichiklashgan",
+    "Haqiqiy, teskari, teng",
+    "Tasvir hosil bo'lmaydi"
+   ],
+   "e": "Lupa shu holatda ishlaydi."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Fotoapparat obyektivi qanday tasvir beradi?",
+   "a": [
+    "Haqiqiy, teskari, kichiklashgan",
+    "Mavhum, to'g'ri, kattalashgan",
+    "Mavhum, teskari, kattalashgan",
+    "Haqiqiy, to'g'ri, teng"
+   ],
+   "e": "Buyum ikki fokus masofasidan uzoqda joylashadi."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Ultrabinafsha nurlanishning to'lqin uzunligi ko'rinadigan yorug'likka nisbatan qanday?",
+   "a": [
+    "Qisqaroq",
+    "Uzunroq",
+    "Bir xil",
+    "Cheksiz uzun"
+   ],
+   "e": "UB nurlar binafsha rangdan qisqa to'lqinli."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Rentgen nurlari qanday hosil qilinadi?",
+   "a": [
+    "Tez elektronlarning anodda keskin tormozlanishida",
+    "Radioaktiv yadrolarning alfa-yemirilishida va geliy yadrosi chiqishida",
+    "Quyosh nurining prizmada sinishida",
+    "Tovush to'lqinlarining qaytishida"
+   ],
+   "e": "Rentgen trubkasida elektronlar yuqori kuchlanish bilan tezlashtiriladi."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Bor postulatiga ko'ra atom qachon foton chiqaradi?",
+   "a": [
+    "Yuqori energetik sathdan pastkisiga o'tganda",
+    "Elektron statsionar orbitada aylanayotgan har bir lahzada",
+    "Yadro parchalanganda",
+    "Atom ionlashganda doimo"
+   ],
+   "e": "hν = E_m − E_n."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Lazer nurlanishining asosiy xossalari qaysi?",
+   "a": [
+    "Monoxromatik, kogerent, yo'nalgan",
+    "Oq rangli, tartibsiz va har tomonga tarqaluvchi",
+    "Faqat infraqizil sohada va juda kuchsiz",
+    "Faqat qutblanmagan va kogerent emas"
+   ],
+   "e": "Lazer majburiy nurlanish asosida ishlaydi."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Maxsus nisbiylik nazariyasining postulatlaridan biri qaysi?",
+   "a": [
+    "Vakuumda yorug'lik tezligi barcha inersial tizimlarda bir xil",
+    "Yorug'lik tezligi manba tezligiga qo'shiladi va har xil bo'ladi",
+    "Vaqt barcha tizimlarda mutlaq bir xil o'tadi va o'zgarmaydi",
+    "Massa tezlikka bog'liq emas"
+   ],
+   "e": "Ikkinchi postulat — barcha inersial tizimlarda fizika qonunlari bir xil."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Massa defekti nima?",
+   "a": [
+    "Yadro massasi bilan nuklonlar massalari yig'indisi farqi",
+    "Atomdagi elektronlar massasi va protonlar massasi yig'indisi",
+    "Yadroning yemirilish tezligi",
+    "Izotoplar massalari ayirmasi"
+   ],
+   "e": "Massa defekti bog'lanish energiyasiga mos keladi: E = Δmc²."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Zanjir yadro reaksiyasi uchun qaysi zarralar zarur?",
+   "a": [
+    "Neytronlar",
+    "Elektronlar",
+    "Fotonlar",
+    "Alfa-zarralar"
+   ],
+   "e": "Har bir bo'linishda 2–3 neytron ajralib, keyingi bo'linishlarni keltirib chiqaradi."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Radioaktiv nurlanishdan himoyalanishda qaysi material gamma-nurlarni yaxshi yutadi?",
+   "a": [
+    "Qo'rg'oshin",
+    "Qog'oz",
+    "Alyuminiy folga",
+    "Paxta"
+   ],
+   "e": "Alfa-zarrani qog'oz varag'i ham to'xtatadi."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Yutilgan nurlanish dozasi birligi qanday nomlanadi?",
+   "a": [
+    "Grey (Gr)",
+    "Bekkerel (Bk)",
+    "Kyuri (Ki)",
+    "Lyuks (lk)"
+   ],
+   "e": "1 Gr = 1 J/kg. Bekkerel — faollik birligi."
+  },
+  {
+   "b": "Optika va zamonaviy fizika",
+   "q": "Radioaktiv manba faolligi birligi qanday nomlanadi?",
+   "a": [
+    "Bekkerel",
+    "Grey",
+    "Zivert",
+    "Rentgen"
+   ],
+   "e": "1 Bk — sekundiga bir yemirilish."
+  },
+  {
+   "b": "Fizik kattaliklar va o'lchov",
+   "q": "Xalqaro birliklar tizimida (SI) nechta asosiy birlik bor?",
+   "a": [
+    "7 ta",
+    "3 ta",
+    "5 ta",
+    "12 ta"
+   ],
+   "e": "Metr, kilogramm, sekund, amper, kelvin, mol, kandela."
+  },
+  {
+   "b": "Fizik kattaliklar va o'lchov",
+   "q": "Quyidagilardan qaysi biri SI ning asosiy birligi?",
+   "a": [
+    "Amper",
+    "Volt",
+    "Nyuton",
+    "Joul"
+   ],
+   "e": "Volt, nyuton, joul — hosilaviy birliklar."
+  },
+  {
+   "b": "Fizik kattaliklar va o'lchov",
+   "q": "Quyidagilardan qaysi biri vektor kattalik?",
+   "a": [
+    "Kuch",
+    "Massa",
+    "Vaqt",
+    "Energiya"
+   ],
+   "e": "Vektor kattalik yo'nalishga ega."
+  },
+  {
+   "b": "Fizik kattaliklar va o'lchov",
+   "q": "Quyidagilardan qaysi biri skalyar kattalik?",
+   "a": [
+    "Ish",
+    "Tezlik",
+    "Tezlanish",
+    "Impuls"
+   ],
+   "e": "Ish skalyar, lekin ishorali bo'lishi mumkin."
+  },
+  {
+   "b": "Fizik kattaliklar va o'lchov",
+   "q": "\"Mega\" old qo'shimchasi qanday ko'paytuvchini bildiradi?",
+   "a": [
+    "10⁶",
+    "10³",
+    "10⁹",
+    "10⁻⁶"
+   ],
+   "e": "Kilo — 10³, giga — 10⁹, mikro — 10⁻⁶."
+  },
+  {
+   "b": "Fizik kattaliklar va o'lchov",
+   "q": "\"Mikro\" old qo'shimchasi qanday ko'paytuvchini bildiradi?",
+   "a": [
+    "10⁻⁶",
+    "10⁻³",
+    "10⁻⁹",
+    "10⁶"
+   ],
+   "e": "Milli — 10⁻³, nano — 10⁻⁹."
+  },
+  {
+   "b": "Fizik kattaliklar va o'lchov",
+   "q": "1 mm² necha m² ga teng?",
+   "a": [
+    "10⁻⁶ m²",
+    "10⁻³ m²",
+    "10⁻² m²",
+    "10⁻⁹ m²"
+   ],
+   "e": "(10⁻³)² = 10⁻⁶."
+  },
+  {
+   "b": "Fizik kattaliklar va o'lchov",
+   "q": "O'lchash xatoligi turlariga qaysilari kiradi?",
+   "a": [
+    "Tizimli va tasodifiy",
+    "Faqat to'g'ri va noto'g'ri",
+    "Musbat va katta",
+    "Qisqa va uzun"
+   ],
+   "e": "Qo'pol xatolik (promax) ham alohida ajratiladi."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Jismga ta'sir qiluvchi kuchlarning teng ta'sir etuvchisi nolga teng bo'lsa, jism qanday harakatlanadi?",
+   "a": [
+    "Tinch turadi yoki tekis to'g'ri chiziqli harakatlanadi",
+    "Albatta tekis tezlanuvchan harakat qiladi",
+    "Aylana bo'ylab harakatlanadi",
+    "Albatta to'xtaydi"
+   ],
+   "e": "Nyutonning birinchi qonuni."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Jismning muvozanat turlari qaysilar?",
+   "a": [
+    "Turg'un, noturg'un va befarq",
+    "Tez, sekin va o'rtacha",
+    "Ichki, tashqi va aralash",
+    "Elastik, plastik va mo'rt"
+   ],
+   "e": "Turg'un muvozanatda og'irlik markazi eng pastki holatda bo'ladi."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Tayanch yuzasi kattalashtirilsa, jism turg'unligi qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga teng bo'ladi"
+   ],
+   "e": "Og'irlik markazi pastroq va tayanch yuzi kattaroq bo'lsa, turg'unlik oshadi."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Oddiy mexanizmlarning \"oltin qoidasi\" nimani ifodalaydi?",
+   "a": [
+    "Kuchdan yutilsa, yo'ldan shuncha yutqaziladi",
+    "Oddiy mexanizm ishda yutuq beradi va energiyani ko'paytiradi",
+    "Kuch va yo'l bir vaqtda ikki baravar oshadi",
+    "Mexanizm ishqalanishni butunlay yo'qotadi"
+   ],
+   "e": "Hech qanday mexanizm ishdan yutuq bermaydi."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Qo'zg'aluvchan blok kuchdan necha marta yutuq beradi?",
+   "a": [
+    "2 marta",
+    "Yutuq bermaydi",
+    "4 marta",
+    "10 marta"
+   ],
+   "e": "Qo'zg'almas blok faqat kuch yo'nalishini o'zgartiradi."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Qo'zg'almas blokning vazifasi nima?",
+   "a": [
+    "Kuch yo'nalishini o'zgartirish",
+    "Kuchdan ikki marta yutuq berish va yo'lni qisqartirish",
+    "Ishdan yutuq berish",
+    "Jism massasini kamaytirish"
+   ],
+   "e": "Qo'zg'almas blok kuchdan yutuq bermaydi."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Gravitatsiya doimiysi G ning qiymati taxminan qancha?",
+   "a": [
+    "6,67·10⁻¹¹ N·m²/kg²",
+    "9,8 N·m²/kg²",
+    "9·10⁹ N·m²/kg²",
+    "6,02·10²³ N·m²/kg²"
+   ],
+   "e": "Uni birinchi bo'lib Kavendish o'lchagan."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Kepler qonunlari nimani tavsiflaydi?",
+   "a": [
+    "Sayyoralarning Quyosh atrofidagi harakatini",
+    "Atomdagi elektronlarning harakatini",
+    "Suyuqlikdagi bosim taqsimotini",
+    "Elektr zanjirlaridagi toklarni"
+   ],
+   "e": "Sayyoralar ellips orbitalar bo'ylab harakatlanadi."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Gidravlik press qaysi qonunga asoslanadi?",
+   "a": [
+    "Paskal qonuni",
+    "Arximed qonuni",
+    "Guk qonuni",
+    "Bernulli qonuni"
+   ],
+   "e": "Kichik porshenga qo'yilgan bosim katta porshenga uzatiladi."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Barometr nima o'lchaydi?",
+   "a": [
+    "Atmosfera bosimini",
+    "Havo namligini",
+    "Shamol tezligini",
+    "Havo haroratini"
+   ],
+   "e": "Aneroid barometri va simobli barometr mavjud."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Suvdagi bosim har 10 m chuqurlikda taxminan qanchaga ortadi?",
+   "a": [
+    "100 kPa ga",
+    "10 Pa ga",
+    "1 kPa ga",
+    "1 MPa ga"
+   ],
+   "e": "p = ρgh = 1000·10·10 = 100 000 Pa."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Hajmi 0,002 m³ bo'lgan jism suvga to'liq botirilgan. Unga ta'sir qiluvchi Arximed kuchi qancha (g=10 m/s²)?",
+   "a": [
+    "20 N",
+    "2 N",
+    "200 N",
+    "0,02 N"
+   ],
+   "e": "F = ρgV = 1000·10·0,002."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Aerodinamik ko'taruvchi kuch qaysi qonun bilan tushuntiriladi?",
+   "a": [
+    "Bernulli qonuni",
+    "Om qonuni",
+    "Kulon qonuni",
+    "Joul–Lens qonuni"
+   ],
+   "e": "Qanot ustida havo tezroq oqadi va bosim kamayadi."
+  },
+  {
+   "b": "Issiqlik",
+   "q": "Ichki energiya deb nimaga aytiladi?",
+   "a": [
+    "Molekulalar kinetik va o'zaro ta'sir energiyalari yig'indisi",
+    "Jismning Yerga nisbatan potensial energiyasi va uning tezligi",
+    "Jism harakatining kinetik energiyasi",
+    "Faqat elektronlar energiyasi"
+   ],
+   "e": "Ideal gaz ichki energiyasi faqat haroratga bog'liq."
+  },
+  {
+   "b": "Issiqlik",
+   "q": "Ichki energiyani o'zgartirishning qanday usullari bor?",
+   "a": [
+    "Ish bajarish va issiqlik uzatish",
+    "Faqat jismni ko'tarish",
+    "Faqat jismni tezlatish",
+    "Jism shaklini bo'yash"
+   ],
+   "e": "ΔU = Q − A (gaz bajargan ish uchun)."
+  },
+  {
+   "b": "Issiqlik",
+   "q": "Bir atomli ideal gazning ichki energiyasi formulasi qaysi?",
+   "a": [
+    "U = (3/2)νRT",
+    "U = (5/2)pV²",
+    "U = νRT/3",
+    "U = (3/2)mv"
+   ],
+   "e": "ν — modda miqdori."
+  },
+  {
+   "b": "Issiqlik",
+   "q": "Issiqlik o'tkazuvchanligi eng yuqori moddalar qaysi?",
+   "a": [
+    "Metallar",
+    "Gazlar",
+    "Yog'och",
+    "Ko'pik plastmassa"
+   ],
+   "e": "Metallarda erkin elektronlar issiqlikni tez uzatadi."
+  },
+  {
+   "b": "Issiqlik",
+   "q": "Termos qanday printsip asosida issiqlikni saqlaydi?",
+   "a": [
+    "Issiqlik uzatishning barcha turlarini kamaytirish",
+    "Ichidagi suyuqlikni elektr toki bilan doimiy isitish",
+    "Issiqlikni tashqariga tezroq chiqarish",
+    "Faqat konveksiyani kuchaytirish"
+   ],
+   "e": "Vakuum qatlami o'tkazuvchanlik va konveksiyani, ko'zgu sirt nurlanishni kamaytiradi."
+  },
+  {
+   "b": "Issiqlik",
+   "q": "Muzning erish harorati normal bosimda qancha?",
+   "a": [
+    "0 °C",
+    "100 °C",
+    "−10 °C",
+    "4 °C"
+   ],
+   "e": "Suvning eng katta zichligi esa +4 °C da kuzatiladi."
+  },
+  {
+   "b": "Issiqlik",
+   "q": "Sovitgich mashinasida issiqlik qayerdan qayerga uzatiladi?",
+   "a": [
+    "Sovuq kameradan atrof muhitga, tashqi ish hisobiga",
+    "Atrof muhitdan sovuq kameraga, o'z-o'zidan hech qanday ish sarflamasdan",
+    "Faqat kamera ichida aylanadi",
+    "Issiqlik uzatilmaydi"
+   ],
+   "e": "Kompressor ishini elektr dvigatel bajaradi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Elektr zanjiri eng sodda holda qanday elementlardan tashkil topadi?",
+   "a": [
+    "Tok manbai, iste'molchi, ulovchi simlar va kalit",
+    "Faqat iste'molchi va lampa",
+    "Faqat tok manbai",
+    "Faqat o'lchov asboblari"
+   ],
+   "e": "Zanjir yopiq bo'lgandagina tok oqadi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Tok yo'nalishi deb qaysi yo'nalish qabul qilingan?",
+   "a": [
+    "Musbat zaryadlar harakat yo'nalishi",
+    "Elektronlar harakat yo'nalishi",
+    "Neytronlar harakat yo'nalishi",
+    "Har doim chapdan o'ngga"
+   ],
+   "e": "Metallarda elektronlar tok yo'nalishiga teskari harakatlanadi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Galvanik element qanday energiyani elektr energiyasiga aylantiradi?",
+   "a": [
+    "Kimyoviy",
+    "Mexanik",
+    "Yorug'lik",
+    "Yadro"
+   ],
+   "e": "Akkumulyatorlar ham kimyoviy tok manbalaridir."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Quyosh batareyasi qanday energiyani elektr energiyasiga aylantiradi?",
+   "a": [
+    "Yorug'lik energiyasini",
+    "Kimyoviy energiyani",
+    "Shamol energiyasini",
+    "Issiqlik energiyasini ichki yonuv orqali"
+   ],
+   "e": "Fotoelementlarda ichki fotoeffekt yuz beradi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Termojuft qanday ishlaydi?",
+   "a": [
+    "Ikki xil metall kavsharlangan joylari harorati farqidan EYuK hosil bo'ladi",
+    "Metallni qizdirganda u yorug'lik chiqaradi va fotoelement uni elektrga aylantiradi",
+    "Magnit maydon o'zgarishidan tok hosil bo'ladi",
+    "Kimyoviy reaksiyadan tok hosil bo'ladi"
+   ],
+   "e": "Termojuftlar haroratni o'lchashda ishlatiladi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Gazlarda mustaqil razryad turlariga qaysi kiradi?",
+   "a": [
+    "Uchqun, yoy, toj va tlevchi razryad",
+    "Elektroliz va galvanoplastika",
+    "Fotoeffekt va termoemissiya",
+    "Faqat yashin"
+   ],
+   "e": "Yashin uchqun razryadining tabiiy ko'rinishi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Vakuumda tok qanday zarralar orqali o'tadi?",
+   "a": [
+    "Termoelektron emissiyada chiqqan elektronlar",
+    "Vakuumdagi molekulalar ionlari",
+    "Protonlar",
+    "Neytronlar"
+   ],
+   "e": "Vakuumli diod va elektron-nur trubkasi shunga asoslanadi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Yorug'lik diodi (LED) qanday asbob?",
+   "a": [
+    "p-n o'tishda yorug'lik chiqaruvchi yarimo'tkazgich",
+    "Ichida volfram tolasi bor cho'g'lanma lampa turi",
+    "Simob bug'i bilan to'ldirilgan lampa",
+    "Faqat infraqizil nur yutuvchi asbob"
+   ],
+   "e": "Elektron va kovaklar rekombinatsiyasida foton chiqadi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Elektromagnit rele qanday maqsadda ishlatiladi?",
+   "a": [
+    "Kichik tok bilan katta tokli zanjirni boshqarish",
+    "Tok kuchini o'lchash va qarshilikni hisoblash",
+    "Kuchlanishni bir necha marta oshirish",
+    "Elektr energiyasini saqlash"
+   ],
+   "e": "Rele kontaktlari elektromagnit tortishi bilan ulanadi yoki uziladi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Generatordagi o'zgaruvchan tok chastotasi nimaga bog'liq?",
+   "a": [
+    "Rotor aylanish tezligi va qutblar soniga",
+    "Faqat simlar rangiga va izolyatsiya turiga",
+    "Iste'molchilar soniga",
+    "Generator korpusi materialiga"
+   ],
+   "e": "f = pn/60, p — qutblar juftlari soni."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Uch fazali tok tizimida fazalar orasidagi siljish burchagi qancha?",
+   "a": [
+    "120°",
+    "90°",
+    "180°",
+    "60°"
+   ],
+   "e": "Uch fazali tizim aylanuvchi magnit maydon hosil qiladi."
+  },
+  {
+   "b": "Elektr va elektronika",
+   "q": "Uch fazali tarmoqda liniya kuchlanishi 380 V bo'lsa, faza kuchlanishi taxminan qancha?",
+   "a": [
+    "220 V",
+    "380 V",
+    "127 V",
+    "660 V"
+   ],
+   "e": "U_f = U_l/√3."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Garmonik tebranish tenglamasi qaysi?",
+   "a": [
+    "x = A·cos(ωt + φ₀)",
+    "x = At²/2",
+    "x = A/t",
+    "x = A·eᵗ"
+   ],
+   "e": "A — amplituda, ω — siklik chastota."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Siklik chastota va davr qanday bog'langan?",
+   "a": [
+    "ω = 2π/T",
+    "ω = T/2π",
+    "ω = 2πT",
+    "ω = 1/T²"
+   ],
+   "e": "ω = 2πν."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "So'nuvchi tebranishlarning sababi nima?",
+   "a": [
+    "Ishqalanish va qarshilik kuchlari",
+    "Tashqi davriy kuchning ta'siri",
+    "Rezonans hodisasi",
+    "Tebranish chastotasining oshishi"
+   ],
+   "e": "Energiya ishqalanishga sarflanib, amplituda kamayadi."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Radiolokatsiya qaysi hodisaga asoslangan?",
+   "a": [
+    "Radioto'lqinlarning qaytishi",
+    "Tovush to'lqinlarining sinishi",
+    "Yorug'likning dispersiyasi",
+    "Radioaktiv yemirilish"
+   ],
+   "e": "Signal borib-kelish vaqti bo'yicha masofa aniqlanadi."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Elektromagnit to'lqinlar shkalasida eng katta chastotaga ega nurlanish qaysi?",
+   "a": [
+    "Gamma-nurlanish",
+    "Radioto'lqinlar",
+    "Infraqizil nurlanish",
+    "Ko'rinadigan yorug'lik"
+   ],
+   "e": "Chastota ortishi bilan to'lqin uzunligi kamayadi."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Mikroskopning asosiy vazifasi nima?",
+   "a": [
+    "Mayda buyumlarning kattalashgan tasvirini olish",
+    "Uzoqdagi osmon jismlarini kuzatish",
+    "Yorug'likni spektrga ajratish",
+    "Yorug'lik tezligini o'lchash"
+   ],
+   "e": "Teleskop uzoqdagi jismlarni kuzatish uchun ishlatiladi."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Spektral tahlil nimaga asoslangan?",
+   "a": [
+    "Har bir kimyoviy element o'ziga xos chiziqli spektrga ega",
+    "Barcha moddalarning spektri bir xil va uzluksiz",
+    "Moddalarning zichligi har xil",
+    "Moddalarning issiqlik sig'imi turlicha"
+   ],
+   "e": "Spektr bo'yicha moddaning tarkibi aniqlanadi."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Fotonning impulsi formulasi qaysi?",
+   "a": [
+    "p = h/λ",
+    "p = hλ",
+    "p = mλ",
+    "p = λ/h"
+   ],
+   "e": "Fotonning tinchlikdagi massasi nolga teng."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "De-Broyl gipotezasiga ko'ra elektron qanday xususiyatga ega?",
+   "a": [
+    "To'lqin xususiyatiga ham",
+    "Faqat zarra xususiyatiga, to'lqin xususiyati umuman yo'q",
+    "Faqat musbat zaryadga",
+    "Massaga ega emas"
+   ],
+   "e": "λ = h/(mv). Elektron difraksiyasi buni tasdiqlaydi."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Uran-235 yadrosi bo'linishida asosan qanday energiya ajraladi?",
+   "a": [
+    "Bo'laklarning kinetik energiyasi",
+    "Faqat yorug'lik energiyasi",
+    "Faqat tovush energiyasi",
+    "Faqat kimyoviy energiya"
+   ],
+   "e": "Bo'laklar tormozlanib, energiya issiqlikka aylanadi."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Ekvivalent nurlanish dozasi birligi qaysi?",
+   "a": [
+    "Zivert",
+    "Grey",
+    "Bekkerel",
+    "Kulon/kg"
+   ],
+   "e": "Zivert nurlanishning biologik ta'sirini hisobga oladi."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Alfa-yemirilishda yadroning massa soni va zaryad soni qanday o'zgaradi?",
+   "a": [
+    "Massa soni 4 ga, zaryad soni 2 ga kamayadi",
+    "Massa soni o'zgarmaydi, zaryad soni 1 ga ortadi",
+    "Massa soni 2 ga, zaryad soni 4 ga kamayadi",
+    "Ikkalasi ham 1 ga ortadi"
+   ],
+   "e": "Alfa-zarra — ⁴₂He."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "β⁻ yemirilishda yadro zaryad soni qanday o'zgaradi?",
+   "a": [
+    "1 ga ortadi",
+    "1 ga kamayadi",
+    "2 ga kamayadi",
+    "O'zgarmaydi"
+   ],
+   "e": "Massa soni esa o'zgarmaydi."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Yadro kuchlarining xususiyatlaridan biri qaysi?",
+   "a": [
+    "Qisqa masofada ta'sir qiladi",
+    "Cheksiz uzoq masofada ta'sir qiladi va masofaga bog'liq emas",
+    "Faqat protonlar orasida ta'sir qiladi",
+    "Elektr kuchlaridan ancha kuchsiz"
+   ],
+   "e": "Ta'sir radiusi taxminan 10⁻¹⁵ m."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Atom elektr jihatdan neytral bo'lishining sababi nima?",
+   "a": [
+    "Protonlar soni elektronlar soniga teng",
+    "Neytronlar soni protonlar soniga teng",
+    "Yadroda faqat neytronlar bor",
+    "Elektronlar zaryadga ega emas"
+   ],
+   "e": "Proton va elektron zaryadlari modul jihatdan teng."
+  },
+  {
+   "b": "Tebranish, to'lqin va optika",
+   "q": "Mendeleyev jadvalidagi tartib raqami nimani bildiradi?",
+   "a": [
+    "Yadrodagi protonlar sonini",
+    "Yadrodagi neytronlar sonini",
+    "Atomning massa sonini",
+    "Valent elektronlar sonini"
+   ],
+   "e": "Tartib raqami Z — yadro zaryad soni."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Jism aylana bo'ylab tekis harakatlanganda qaysi kattalik o'zgarmaydi?",
+   "a": [
+    "Tezlik moduli",
+    "Tezlik vektori yo'nalishi, chunki harakat tekis va to'g'ri chiziqli hisoblanadi",
+    "Tezlanish vektori yo'nalishi",
+    "Jism koordinatalari"
+   ],
+   "e": "Tezlik yo'nalishi har lahzada o'zgaradi, shuning uchun markazga intilma tezlanish mavjud."
+  },
+  {
+   "b": "Mexanika",
+   "q": "Og'irlik markazi deb nimaga aytiladi?",
+   "a": [
+    "Og'irlik kuchlarining teng ta'sir etuvchisi qo'yilgan nuqta",
+    "Jismning eng og'ir qismi joylashgan va har doim uning ichida yotadigan nuqta",
+    "Jismning geometrik eng yuqori nuqtasi",
+    "Jismning tayanch nuqtasi"
+   ],
+   "e": "Halqa kabi jismlarda og'irlik markazi jismdan tashqarida bo'lishi mumkin."
+  },
+  {
+   "b": "Elektr",
+   "q": "Bir xil ishorali zaryadlar qanday o'zaro ta'sirlashadi?",
+   "a": [
+    "Itarishadi",
+    "Tortishadi",
+    "Ta'sirlashmaydi",
+    "Zaryadlar kattaligiga qarab tortishadi"
+   ],
+   "e": "Turli ishorali zaryadlar tortishadi."
+  },
+  {
+   "b": "Elektr",
+   "q": "Elektroskop nima uchun ishlatiladi?",
+   "a": [
+    "Jismning zaryadlanganligini aniqlash uchun",
+    "Tok kuchini aniq o'lchash uchun",
+    "Kuchlanishni oshirish uchun",
+    "Magnit maydon yo'nalishini aniqlash uchun"
+   ],
+   "e": "Elektroskop yaproqlari bir xil zaryad olib, itarishadi."
+  },
+  {
+   "b": "Optika",
+   "q": "Yorug'lik nurlari bir jinsli muhitda qanday tarqaladi?",
+   "a": [
+    "To'g'ri chiziq bo'ylab",
+    "Aylana bo'ylab",
+    "Parabola bo'ylab",
+    "Tasodifiy siniq chiziq bo'ylab"
+   ],
+   "e": "Soya va yarim soya hosil bo'lishi shu bilan tushuntiriladi."
+  },
+  {
+   "b": "Optika",
+   "q": "Quyosh tutilishi qachon yuz beradi?",
+   "a": [
+    "Oy Yer va Quyosh orasiga tushganda",
+    "Yer Quyosh va Oy orasiga tushganda",
+    "Oy Yerdan eng uzoq nuqtada bo'lganda",
+    "Quyosh ufqdan pastga tushganda"
+   ],
+   "e": "Yer Quyosh va Oy orasiga tushganda Oy tutilishi bo'ladi."
   }
  ]
 }
