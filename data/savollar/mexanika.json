@@ -1,0 +1,3330 @@
+{
+ "kod": "5PM0568",
+ "nomi": "Mexanika",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (10 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Statika",
+   "q": "Statika nimani o'rganadi?",
+   "a": [
+    "Kuchlar ta'sirida jismlarning muvozanatini",
+    "Jismlar harakatini uni keltirib chiqaruvchi kuchlarsiz, faqat geometrik nuqtai nazardan",
+    "Jismlar harakatini ularga ta'sir etuvchi kuchlar bilan bog'liq holda",
+    "Materiallarning kimyoviy tarkibi va ularning o'zgarishini"
+   ],
+   "e": "Kinematika — harakat geometriyasi, dinamika — kuch va harakat bog'liqligi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kinematika nimani o'rganadi?",
+   "a": [
+    "Harakatni uni yuzaga keltiruvchi sabablarsiz",
+    "Kuchlar ta'sirida jismlarning muvozanat shartlarini",
+    "Harakatni unga sabab bo'luvchi kuchlar bilan birga",
+    "Detallarning mustahkamlik va bikirlik hisobini"
+   ],
+   "e": "Trayektoriya, tezlik, tezlanish."
+  },
+  {
+   "b": "Statika",
+   "q": "Dinamika nimani o'rganadi?",
+   "a": [
+    "Jismlar harakatini ularga ta'sir etuvchi kuchlar bilan bog'liq holda",
+    "Faqat tinch turgan jismlar muvozanatini, harakatni esa umuman hisobga olmay",
+    "Harakatni faqat geometrik nuqtai nazardan",
+    "Faqat mashina detallarining yemirilishini"
+   ],
+   "e": "Nyuton qonunlari asosida."
+  },
+  {
+   "b": "Statika",
+   "q": "Absolyut qattiq jism deb qanday jismga aytiladi?",
+   "a": [
+    "Ixtiyoriy ikki nuqtasi orasidagi masofa o'zgarmaydigan jismga",
+    "Hech qanday tashqi kuch ta'sirida ham joyidan harakatlanmaydigan jismga",
+    "Faqat po'latdan yasalgan jismga",
+    "Massasi juda katta bo'lgan jismga"
+   ],
+   "e": "Deformatsiyasi hisobga olinmaydigan ideal model."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuch qanday kattalik?",
+   "a": [
+    "Vektor kattalik",
+    "Skalyar kattalik",
+    "O'lchamsiz kattalik",
+    "Tenzor emas, faqat son"
+   ],
+   "e": "Moduli, yo'nalishi va qo'yilish nuqtasi bilan aniqlanadi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchning xalqaro birliklar tizimidagi (SI) o'lchov birligi qaysi?",
+   "a": [
+    "Nyuton (N)",
+    "Kilogramm (kg)",
+    "Joul (J)",
+    "Vatt (W)"
+   ],
+   "e": "1 N = 1 kg·m/s²."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuch qaysi uchta element bilan to'liq aniqlanadi?",
+   "a": [
+    "Moduli, yo'nalishi va qo'yilish nuqtasi",
+    "Massasi, hajmi va zichligi",
+    "Tezligi, tezlanishi va vaqti",
+    "Uzunligi, kengligi va balandligi"
+   ],
+   "e": "Kuch ta'sir chizig'i ham shular orqali aniqlanadi."
+  },
+  {
+   "b": "Statika",
+   "q": "Teng ta'sir etuvchi kuch deb nimaga aytiladi?",
+   "a": [
+    "Kuchlar sistemasini almashtira oladigan bitta kuchga",
+    "Sistemadagi eng katta kuchga",
+    "Kuchlar sistemasini muvozanatlovchi kuchga",
+    "Sistemadagi kuchlar modullarining arifmetik yig'indisiga"
+   ],
+   "e": "Muvozanatlovchi kuch teng ta'sir etuvchiga teng va qarama-qarshi."
+  },
+  {
+   "b": "Statika",
+   "q": "Muvozanatlovchi kuch teng ta'sir etuvchi kuchga nisbatan qanday?",
+   "a": [
+    "Moduli teng, yo'nalishi qarama-qarshi",
+    "Moduli ikki baravar katta, yo'nalishi bir xil",
+    "Moduli teng, yo'nalishi bir xil",
+    "Unga perpendikulyar va moduli teng"
+   ],
+   "e": "Ular bir to'g'ri chiziqda yotadi."
+  },
+  {
+   "b": "Statika",
+   "q": "Statikaning birinchi aksiomasiga ko'ra erkin qattiq jismga qo'yilgan ikki kuch qachon muvozanatda bo'ladi?",
+   "a": [
+    "Modullari teng, bir to'g'ri chiziq bo'ylab qarama-qarshi yo'nalgan bo'lsa",
+    "Modullari teng va bir to'g'ri chiziq bo'ylab bir tomonga yo'nalgan bo'lsa",
+    "Ular o'zaro perpendikulyar bo'lsa",
+    "Ulardan biri ikkinchisidan ikki baravar katta bo'lsa"
+   ],
+   "e": "Ikki kuch muvozanati aksiomasi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchlar parallelogrammi aksiomasiga ko'ra bir nuqtaga qo'yilgan ikki kuchning teng ta'sir etuvchisi qanday topiladi?",
+   "a": [
+    "Shu kuchlarga qurilgan parallelogramm diagonali sifatida",
+    "Kuchlar modullarini oddiy qo'shib, yo'nalishini kattasi bo'yicha olib",
+    "Kattasidan kichigini ayirib",
+    "Kuchlar modullarini ko'paytirib"
+   ],
+   "e": "R² = F₁² + F₂² + 2F₁F₂cosα."
+  },
+  {
+   "b": "Statika",
+   "q": "Bir nuqtaga 90° burchak ostida qo'yilgan 3 N va 4 N kuchlarning teng ta'sir etuvchisi qancha?",
+   "a": [
+    "5 N",
+    "7 N",
+    "1 N",
+    "12 N"
+   ],
+   "e": "√(9+16) = 5."
+  },
+  {
+   "b": "Statika",
+   "q": "Bir to'g'ri chiziq bo'ylab bir tomonga yo'nalgan 6 N va 8 N kuchlarning teng ta'sir etuvchisi qancha?",
+   "a": [
+    "14 N",
+    "2 N",
+    "10 N",
+    "48 N"
+   ],
+   "e": "Bir yo'nalishda — qo'shiladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Bir to'g'ri chiziq bo'ylab qarama-qarshi yo'nalgan 10 N va 4 N kuchlarning teng ta'sir etuvchisi qancha?",
+   "a": [
+    "6 N, katta kuch tomonga",
+    "14 N, katta kuch tomonga",
+    "6 N, kichik kuch tomonga",
+    "40 N"
+   ],
+   "e": "Modullar ayiriladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Ta'sir va aks ta'sir aksiomasi (Nyutonning III qonuni) nimani ta'kidlaydi?",
+   "a": [
+    "Ikki jism bir-biriga teng va qarama-qarshi kuchlar bilan ta'sir qiladi",
+    "Ta'sir kuchi har doim aks ta'sir kuchidan katta bo'ladi",
+    "Aks ta'sir kuchi faqat harakatdagi jismlarda paydo bo'ladi",
+    "Ta'sir va aks ta'sir kuchlari bitta jismga qo'yiladi va muvozanatlashadi"
+   ],
+   "e": "Ular turli jismlarga qo'yilgani uchun muvozanatlashmaydi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchni qattiq jismda o'z ta'sir chizig'i bo'ylab ko'chirish mumkinmi?",
+   "a": [
+    "Ha, ta'sir o'zgarmaydi",
+    "Yo'q, har qanday ko'chirish ta'sirni o'zgartiradi",
+    "Faqat jism tinch holatda bo'lsa",
+    "Faqat kuch vertikal bo'lsa"
+   ],
+   "e": "Kuch — sirpanuvchi vektor (qattiq jism uchun)."
+  },
+  {
+   "b": "Statika",
+   "q": "Bog'lanish deb nimaga aytiladi?",
+   "a": [
+    "Jism harakatini cheklovchi boshqa jismlarga",
+    "Jismga qo'yilgan barcha aktiv kuchlarga va ularning momentlariga",
+    "Ikki kuch orasidagi burchakka",
+    "Jismning og'irlik markaziga"
+   ],
+   "e": "Bog'lanish ta'siri reaksiya kuchi bilan almashtiriladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Bog'lanish reaksiyasi qanday yo'nalgan bo'ladi?",
+   "a": [
+    "Bog'lanish to'sqinlik qilayotgan harakatga qarama-qarshi",
+    "Har doim vertikal yuqoriga",
+    "Har doim aktiv kuch yo'nalishida, uning ta'sir chizig'i bo'ylab",
+    "Har doim gorizontal"
+   ],
+   "e": "Bog'lanishdan ozod qilish aksiomasi."
+  },
+  {
+   "b": "Statika",
+   "q": "Silliq sirt reaksiyasi qanday yo'nalgan?",
+   "a": [
+    "Sirtga normal bo'ylab",
+    "Sirtga urinma bo'ylab",
+    "Har doim vertikal pastga",
+    "Og'irlik kuchi yo'nalishida"
+   ],
+   "e": "Ishqalanish bo'lmagani uchun urinma tashkil etuvchi yo'q."
+  },
+  {
+   "b": "Statika",
+   "q": "Cho'zilmaydigan ip (arqon) reaksiyasi qanday yo'nalgan?",
+   "a": [
+    "Ip bo'ylab, osilish nuqtasiga",
+    "Ipga perpendikulyar",
+    "Har doim vertikal pastga",
+    "Ipdan jismga tomon siqib"
+   ],
+   "e": "Ip faqat cho'zilishga ishlaydi."
+  },
+  {
+   "b": "Statika",
+   "q": "Qo'zg'almas sharnirli tayanch reaksiyasi nechta tashkil etuvchi bilan ifodalanadi (tekislikda)?",
+   "a": [
+    "Ikkita (Rx va Ry)",
+    "Bitta",
+    "Uchta (Rx, Ry va moment)",
+    "Nolta"
+   ],
+   "e": "Yo'nalishi oldindan noma'lum."
+  },
+  {
+   "b": "Statika",
+   "q": "Qo'zg'aluvchan sharnirli tayanch (katok) reaksiyasi qanday?",
+   "a": [
+    "Tayanch sirtiga perpendikulyar bitta kuch",
+    "Ikki tashkil etuvchili kuch va reaktiv moment (uchta noma'lum)",
+    "Har doim gorizontal kuch",
+    "Faqat reaktiv moment"
+   ],
+   "e": "Bitta noma'lum."
+  },
+  {
+   "b": "Statika",
+   "q": "Qistirib mahkamlangan (zadelka) tayanchda tekislikda nechta noma'lum reaksiya bor?",
+   "a": [
+    "Uchta: ikki kuch va reaktiv moment",
+    "Bitta kuch",
+    "Ikki kuch, moment yo'q",
+    "To'rtta kuch"
+   ],
+   "e": "Harakat va burilishni to'liq cheklaydi."
+  },
+  {
+   "b": "Statika",
+   "q": "Ikki uchi sharnirli, vaznsiz sterjen reaksiyasi qanday yo'nalgan?",
+   "a": [
+    "Sterjen o'qi bo'ylab",
+    "Sterjenga perpendikulyar",
+    "Har doim vertikal",
+    "Ixtiyoriy yo'nalishda"
+   ],
+   "e": "Sterjen faqat cho'zilish yoki siqilishga ishlaydi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kesishuvchi kuchlar sistemasi deb qanday sistemaga aytiladi?",
+   "a": [
+    "Ta'sir chiziqlari bir nuqtada kesishadigan kuchlarga",
+    "Barcha kuchlar o'zaro parallel bo'lgan sistemaga",
+    "Juft kuchlardan iborat sistemaga",
+    "Ta'sir chiziqlari hech qachon kesishmaydigan kuchlarga"
+   ],
+   "e": "Ularni bitta teng ta'sir etuvchiga keltirish mumkin."
+  },
+  {
+   "b": "Statika",
+   "q": "Tekislikdagi kesishuvchi kuchlar sistemasining muvozanat shartlari qanday?",
+   "a": [
+    "ΣFx = 0, ΣFy = 0",
+    "ΣM = 0 faqat",
+    "ΣFx = 0, ΣFy = 0, ΣFz = 0, ΣM = 0",
+    "ΣF = max"
+   ],
+   "e": "Ikkita tenglama, ikkita noma'lum topiladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuch o'qqa perpendikulyar bo'lsa, uning shu o'qdagi proyeksiyasi nimaga teng?",
+   "a": [
+    "Nolga",
+    "Kuch moduliga",
+    "Kuch modulining yarmiga",
+    "Cheksizlikka"
+   ],
+   "e": "F·cos90° = 0."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuch o'qqa parallel bo'lsa, uning proyeksiyasi nimaga teng?",
+   "a": [
+    "±F",
+    "Nolga",
+    "F/2",
+    "F·√2"
+   ],
+   "e": "Yo'nalishiga qarab ishora."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchning o'qdagi proyeksiyasi qaysi formula bilan topiladi (α — o'q bilan burchak)?",
+   "a": [
+    "F·cosα",
+    "F·tgα",
+    "F/α",
+    "F·α"
+   ],
+   "e": "Proyeksiya — skalyar kattalik."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuch ko'pburchagi yopiq bo'lishi nimani bildiradi?",
+   "a": [
+    "Kesishuvchi kuchlar sistemasi muvozanatda",
+    "Teng ta'sir etuvchi maksimal qiymatga ega",
+    "Kuchlar o'zaro parallel",
+    "Sistema faqat bitta kuchdan iborat"
+   ],
+   "e": "Geometrik muvozanat sharti."
+  },
+  {
+   "b": "Statika",
+   "q": "Uch kuch teoremasiga ko'ra muvozanatdagi uch parallel bo'lmagan kuchning ta'sir chiziqlari...",
+   "a": [
+    "bir nuqtada kesishadi",
+    "o'zaro perpendikulyar bo'ladi",
+    "har doim parallel bo'ladi",
+    "bir-biriga teng bo'ladi"
+   ],
+   "e": "Va ular bir tekislikda yotadi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchning nuqtaga nisbatan momenti qanday hisoblanadi?",
+   "a": [
+    "M = F·h, h — nuqtadan ta'sir chizig'igacha masofa",
+    "M = F/h, h — kuch qo'yilgan nuqtagacha bo'lgan to'g'ri masofa",
+    "M = F + h",
+    "M = F·t, t — ta'sir vaqti"
+   ],
+   "e": "h — kuch yelkasi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuch momentining SI dagi birligi qaysi?",
+   "a": [
+    "N·m",
+    "N/m",
+    "J/s",
+    "kg·m"
+   ],
+   "e": "Joul bilan aralashtirmaslik kerak (ish emas)."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuch yelkasi deb nimaga aytiladi?",
+   "a": [
+    "Moment markazidan kuch ta'sir chizig'igacha bo'lgan eng qisqa masofaga",
+    "Kuch vektorining uzunligiga",
+    "Kuch qo'yilgan nuqtadan moment markazigacha bo'lgan ixtiyoriy masofaga",
+    "Ikki kuch orasidagi burchakka"
+   ],
+   "e": "Perpendikulyar uzunligi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchning ta'sir chizig'i moment markazidan o'tsa, moment nimaga teng?",
+   "a": [
+    "Nolga",
+    "F ga",
+    "Maksimal qiymatga",
+    "F·l ga, l — sterjen uzunligi"
+   ],
+   "e": "Yelka nolga teng."
+  },
+  {
+   "b": "Statika",
+   "q": "Tekislikda kuch momentining ishorasi odatda qanday qabul qilinadi?",
+   "a": [
+    "Soat mili teskarisiga burasa — musbat",
+    "Har doim musbat",
+    "Har doim manfiy",
+    "Kuch kattaligiga qarab"
+   ],
+   "e": "Shartli qoida, ba'zan teskarisi qabul qilinadi."
+  },
+  {
+   "b": "Statika",
+   "q": "Varinyon teoremasi nimani ta'kidlaydi?",
+   "a": [
+    "Teng ta'sir etuvchining momenti tashkil etuvchilar momentlari yig'indisiga teng",
+    "Teng ta'sir etuvchi har doim sistemadagi eng katta kuchning momentiga teng",
+    "Moment kuch kvadratiga proporsional",
+    "Juft momenti nolga teng"
+   ],
+   "e": "Moment haqidagi teorema."
+  },
+  {
+   "b": "Statika",
+   "q": "Juft kuch deb nimaga aytiladi?",
+   "a": [
+    "Modullari teng, parallel, qarama-qarshi yo'nalgan ikki kuchga",
+    "Bir nuqtaga qo'yilgan teng ikki kuchga",
+    "Bir tomonga yo'nalgan, modullari teng bo'lgan parallel ikki kuchga",
+    "O'zaro perpendikulyar ikki kuchga"
+   ],
+   "e": "Juft jismni faqat aylantiradi."
+  },
+  {
+   "b": "Statika",
+   "q": "Juftning teng ta'sir etuvchisi bormi?",
+   "a": [
+    "Yo'q",
+    "Ha, u kuchlardan birining ikkilanganiga teng",
+    "Ha, u kuchlar ayirmasiga teng",
+    "Faqat jism harakatlansa"
+   ],
+   "e": "Juftni faqat juft muvozanatlay oladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Juft momenti qanday hisoblanadi?",
+   "a": [
+    "Kuchlardan birini juft yelkasiga ko'paytirib",
+    "Ikki kuch modullarini qo'shib",
+    "Kuchlarni yelka kvadratiga bo'lib",
+    "Kuchlar ayirmasini topib"
+   ],
+   "e": "M = F·d."
+  },
+  {
+   "b": "Statika",
+   "q": "Tekislikdagi juftlar sistemasining muvozanat sharti qanday?",
+   "a": [
+    "Momentlarining algebraik yig'indisi nolga teng",
+    "Kuchlarining yig'indisi nolga teng bo'lishi yetarli",
+    "Barcha juftlar bir xil yelkaga ega bo'lishi",
+    "Juftlar soni juft son bo'lishi"
+   ],
+   "e": "ΣM = 0."
+  },
+  {
+   "b": "Statika",
+   "q": "Juftni o'z ta'sir tekisligida ixtiyoriy ko'chirish uning ta'sirini o'zgartiradimi?",
+   "a": [
+    "Yo'q",
+    "Ha, har doim",
+    "Faqat juft momentini ikki baravar oshiradi",
+    "Faqat vertikal ko'chirishda o'zgartiradi"
+   ],
+   "e": "Juft momenti — erkin vektor."
+  },
+  {
+   "b": "Statika",
+   "q": "Sirpanish ishqalanish kuchi qaysi formula bilan topiladi (Kulon qonuni)?",
+   "a": [
+    "F = f·N",
+    "F = N/f",
+    "F = f + N",
+    "F = m·g/f"
+   ],
+   "e": "f — ishqalanish koeffitsiyenti, N — normal bosim kuchi."
+  },
+  {
+   "b": "Statika",
+   "q": "Sirpanish ishqalanish koeffitsiyenti nimaga bog'liq?",
+   "a": [
+    "Sirtlar materiali va holatiga",
+    "Tegib turgan sirtlar yuzasiga",
+    "Jism tezligining kvadratiga",
+    "Jism rangiga"
+   ],
+   "e": "Taxminan yuzaga bog'liq emas."
+  },
+  {
+   "b": "Statika",
+   "q": "Ishqalanish burchagi φ va ishqalanish koeffitsiyenti f qanday bog'langan?",
+   "a": [
+    "tgφ = f",
+    "sinφ = f",
+    "φ = f·90°",
+    "cosφ = f"
+   ],
+   "e": "To'liq reaksiyaning normal bilan hosil qilgan burchagi."
+  },
+  {
+   "b": "Statika",
+   "q": "Qiya tekislikdagi jism qaysi shartda sirpanmaydi (α — qiyalik burchagi)?",
+   "a": [
+    "tgα ≤ f",
+    "tgα > f",
+    "sinα > f",
+    "α > 90°"
+   ],
+   "e": "O'z-o'zidan tormozlanish sharti."
+  },
+  {
+   "b": "Statika",
+   "q": "Dumalash ishqalanishi odatda sirpanish ishqalanishiga nisbatan qanday?",
+   "a": [
+    "Ancha kichik",
+    "Ancha katta",
+    "Har doim teng",
+    "Nolga teng"
+   ],
+   "e": "Shuning uchun podshipniklar ishlatiladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Dumalash ishqalanish koeffitsiyenti qanday birlikda o'lchanadi?",
+   "a": [
+    "Uzunlik birligida (sm, mm)",
+    "O'lchamsiz son",
+    "Nyutonda",
+    "Radianda"
+   ],
+   "e": "U — yelka (masofa)."
+  },
+  {
+   "b": "Statika",
+   "q": "Tinchlikdagi ishqalanish kuchi qanday qiymatlarni qabul qiladi?",
+   "a": [
+    "Noldan maksimal f·N gacha",
+    "Har doim aniq f·N ga teng",
+    "Har doim nolga teng",
+    "f·N dan katta qiymatlarni"
+   ],
+   "e": "Siljituvchi kuchga teng bo'ladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Parallel kuchlar markazi deb nimaga aytiladi?",
+   "a": [
+    "Kuchlar burilganda ham teng ta'sir etuvchi o'tadigan nuqtaga",
+    "Eng katta kuch qo'yilgan nuqtaga",
+    "Jismning geometrik o'rtasiga har doim",
+    "Kuchlar ta'sir chiziqlari kesishgan nuqtaga"
+   ],
+   "e": "Og'irlik markazi — og'irlik kuchlari parallel kuchlar markazi."
+  },
+  {
+   "b": "Statika",
+   "q": "Bir tomonga yo'nalgan ikki parallel kuchning teng ta'sir etuvchisi nimaga teng?",
+   "a": [
+    "Ularning yig'indisiga",
+    "Ularning ayirmasiga",
+    "Nolga",
+    "Ularning ko'paytmasiga"
+   ],
+   "e": "Kuchlar orasida, kattasiga yaqin qo'yiladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Og'irlik markazi deb nimaga aytiladi?",
+   "a": [
+    "Jism zarrachalari og'irlik kuchlarining teng ta'sir etuvchisi qo'yilgan nuqtaga",
+    "Jismning eng og'ir zarrachasi joylashgan va tayanchga eng yaqin nuqtaga",
+    "Jismning eng pastki nuqtasiga",
+    "Jism yuzasining eng chetki nuqtasiga"
+   ],
+   "e": "Bir jinsli maydonda massa markazi bilan ustma-ust tushadi."
+  },
+  {
+   "b": "Statika",
+   "q": "Bir jinsli to'g'ri to'rtburchak plastinkaning og'irlik markazi qayerda?",
+   "a": [
+    "Diagonallar kesishgan nuqtada",
+    "Uzun tomon o'rtasida",
+    "Uchlaridan birida",
+    "Qisqa tomon o'rtasida"
+   ],
+   "e": "Simmetriya markazi."
+  },
+  {
+   "b": "Statika",
+   "q": "Bir jinsli uchburchak plastinkaning og'irlik markazi qayerda?",
+   "a": [
+    "Medianalar kesishgan nuqtada",
+    "Bissektrisalar kesishgan nuqtada",
+    "Balandliklar kesishgan nuqtada",
+    "Eng katta burchak uchida"
+   ],
+   "e": "Har bir medianani 2:1 nisbatda bo'ladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Uchburchak og'irlik markazi medianani uchidan hisoblaganda qanday nisbatda bo'ladi?",
+   "a": [
+    "2:1",
+    "1:1",
+    "3:1",
+    "1:2"
+   ],
+   "e": "Asosdan medianing 1/3 qismida."
+  },
+  {
+   "b": "Statika",
+   "q": "Bir jinsli doira plastinkaning og'irlik markazi qayerda?",
+   "a": [
+    "Markazida",
+    "Aylananing istalgan nuqtasida",
+    "Radiusning yarmida",
+    "Diametrning chetida"
+   ],
+   "e": "Simmetriya."
+  },
+  {
+   "b": "Statika",
+   "q": "Bir jinsli sterjenning og'irlik markazi qayerda?",
+   "a": [
+    "O'rtasida",
+    "Bir uchidan 1/3 masofada",
+    "Uchlaridan birida",
+    "Bir uchidan 1/4 masofada"
+   ],
+   "e": "Uzunlik bo'yicha simmetriya."
+  },
+  {
+   "b": "Statika",
+   "q": "Murakkab shakl og'irlik markazini topishda qaysi usul qo'llaniladi?",
+   "a": [
+    "Bo'laklarga ajratish",
+    "Shaklni faqat tarozida tortish",
+    "Eng katta qismining markazini olish",
+    "Shakl perimetrini o'lchash"
+   ],
+   "e": "Teshiklar uchun manfiy yuza usuli ham bor."
+  },
+  {
+   "b": "Statika",
+   "q": "Og'irlik markazi koordinatasi qaysi formula bilan topiladi (tekis shakl)?",
+   "a": [
+    "xc = Σ(Ai·xi)/ΣAi",
+    "xc = ΣAi/Σxi",
+    "xc = Σxi/n faqat",
+    "xc = ΣAi·Σxi"
+   ],
+   "e": "Statik momentlar orqali."
+  },
+  {
+   "b": "Statika",
+   "q": "Yuzaning o'qqa nisbatan statik momenti qanday hisoblanadi?",
+   "a": [
+    "S = A·y_c",
+    "S = A/y_c",
+    "S = A·y_c²",
+    "S = A + y_c"
+   ],
+   "e": "O'q og'irlik markazidan o'tsa, S = 0."
+  },
+  {
+   "b": "Statika",
+   "q": "Muvozanatning qaysi turida jism chetga og'dirilganda dastlabki holatiga qaytadi?",
+   "a": [
+    "Turg'un",
+    "Noturg'un",
+    "Befarq",
+    "Dinamik"
+   ],
+   "e": "Og'irlik markazi eng past holatda."
+  },
+  {
+   "b": "Statika",
+   "q": "Tayanch yuzasiga ega jism qachon ag'darilmaydi?",
+   "a": [
+    "Og'irlik markazidan vertikal tayanch yuzasi ichidan o'tsa",
+    "Og'irlik markazi tayanch yuzasidan tashqarida va undan yuqoriroq bo'lsa",
+    "Jism juda yengil bo'lsa",
+    "Tayanch yuzasi juda kichik bo'lsa"
+   ],
+   "e": "Turg'unlik momenti ag'daruvchi momentdan katta."
+  },
+  {
+   "b": "Statika",
+   "q": "Turg'unlik koeffitsiyenti qanday aniqlanadi?",
+   "a": [
+    "Tutib turuvchi momentning ag'daruvchi momentga nisbati",
+    "Ag'daruvchi momentning tutib turuvchi momentga ko'paytmasi",
+    "Jism massasining tayanch yuzasiga nisbati",
+    "Jism balandligining kengligiga nisbati"
+   ],
+   "e": "k > 1 bo'lishi kerak."
+  },
+  {
+   "b": "Statika",
+   "q": "Tekislikdagi ixtiyoriy kuchlar sistemasining muvozanat shartlari nechta tenglamadan iborat?",
+   "a": [
+    "Uchta",
+    "Ikkita",
+    "Oltita",
+    "Bitta"
+   ],
+   "e": "ΣFx = 0, ΣFy = 0, ΣM = 0."
+  },
+  {
+   "b": "Statika",
+   "q": "Fazodagi ixtiyoriy kuchlar sistemasining muvozanat shartlari nechta tenglamadan iborat?",
+   "a": [
+    "Oltita",
+    "Uchta",
+    "To'rtta",
+    "Ikkita"
+   ],
+   "e": "Uch proyeksiya va uch o'qqa nisbatan moment."
+  },
+  {
+   "b": "Statika",
+   "q": "Tekislikdagi parallel kuchlar sistemasi uchun nechta muvozanat tenglamasi bor?",
+   "a": [
+    "Ikkita",
+    "Uchta",
+    "Oltita",
+    "Bitta"
+   ],
+   "e": "ΣFy = 0 va ΣM = 0."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchning o'qqa nisbatan momenti qachon nolga teng?",
+   "a": [
+    "Kuch o'qqa parallel yoki uni kesib o'tsa",
+    "Kuch o'qqa perpendikulyar va undan uzoqda bo'lsa",
+    "Kuch juda katta bo'lsa",
+    "Kuch o'qdan maksimal uzoqlikda bo'lsa"
+   ],
+   "e": "Ya'ni kuch va o'q bir tekislikda yotsa."
+  },
+  {
+   "b": "Statika",
+   "q": "Tekis kuchlar sistemasini ixtiyoriy markazga keltirganda nima hosil bo'ladi?",
+   "a": [
+    "Bosh vektor va bosh moment",
+    "Faqat bitta juft",
+    "Faqat bitta kuch, moment yo'qoladi",
+    "Ikkita parallel kuch"
+   ],
+   "e": "Puanso teoremasi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchni o'ziga parallel ko'chirganda nima qo'shish kerak?",
+   "a": [
+    "Juft",
+    "Ikkinchi teng kuch",
+    "Ishqalanish kuchi",
+    "Hech narsa"
+   ],
+   "e": "Juft momenti kuchning yangi markazga nisbatan momentiga teng."
+  },
+  {
+   "b": "Statika",
+   "q": "Statik aniq masala deb qanday masalaga aytiladi?",
+   "a": [
+    "Noma'lumlar soni muvozanat tenglamalari sonidan oshmaydigan masalaga",
+    "Noma'lumlar soni muvozanat tenglamalari sonidan ancha ko'p bo'lgan masalaga",
+    "Faqat bitta kuch qatnashgan masalaga",
+    "Kuchlar umuman qatnashmagan masalaga"
+   ],
+   "e": "Aks holda — statik noaniq."
+  },
+  {
+   "b": "Statika",
+   "q": "Ikki tayanchli balka (sharnirli va katokli) statik jihatdan qanday?",
+   "a": [
+    "Statik aniq",
+    "Statik noaniq",
+    "Geometrik o'zgaruvchan",
+    "Mexanizm"
+   ],
+   "e": "Uch noma'lum — uch tenglama."
+  },
+  {
+   "b": "Statika",
+   "q": "Balkaga uzunligi bo'yicha tekis taqsimlangan q yuklamaning teng ta'sir etuvchisi qancha?",
+   "a": [
+    "Q = q·l",
+    "Q = q/l",
+    "Q = q·l²",
+    "Q = q·l/2"
+   ],
+   "e": "Yuklama o'rtasiga qo'yiladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Tekis taqsimlangan yuklamaning teng ta'sir etuvchisi qayerga qo'yiladi?",
+   "a": [
+    "Yuklama uchastkasining o'rtasiga",
+    "Uchastka boshiga",
+    "Uchastka oxiriga",
+    "Uchastkaning 1/3 qismiga"
+   ],
+   "e": "Uchburchak yuklamada — og'irlik markaziga."
+  },
+  {
+   "b": "Statika",
+   "q": "Uzunligi 6 m balkaga 2 kN/m tekis yuklama qo'yilgan. Teng ta'sir etuvchi qancha?",
+   "a": [
+    "12 kN",
+    "3 kN",
+    "8 kN",
+    "36 kN"
+   ],
+   "e": "2 · 6 = 12."
+  },
+  {
+   "b": "Statika",
+   "q": "Ikki tayanchli 4 m uzunlikdagi balka o'rtasiga 10 kN kuch qo'yilgan. Har bir tayanch reaksiyasi qancha?",
+   "a": [
+    "5 kN",
+    "10 kN",
+    "2,5 kN",
+    "20 kN"
+   ],
+   "e": "Simmetriya: 10/2."
+  },
+  {
+   "b": "Statika",
+   "q": "Ferma deb nimaga aytiladi?",
+   "a": [
+    "Tugunlarda sharnirli biriktirilgan sterjenlar sistemasiga",
+    "Bitta yaxlit egiluvchan plastinkadan yasalgan, tugunsiz konstruksiyaga",
+    "Arqonlar bilan osilgan to'siqqa",
+    "Faqat payvandlangan sterjenga"
+   ],
+   "e": "Sterjenlar faqat cho'zilish/siqilishga ishlaydi."
+  },
+  {
+   "b": "Statika",
+   "q": "Ferma sterjenlaridagi zo'riqishlarni topishning usullaridan biri qaysi?",
+   "a": [
+    "Tugunlarni kesish usuli",
+    "Tarozida tortish usuli",
+    "Rangini aniqlash usuli",
+    "Sterjenlarni sanash usuli"
+   ],
+   "e": "Ritter usuli (kesim usuli) ham bor."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Trayektoriya deb nimaga aytiladi?",
+   "a": [
+    "Nuqta harakatlanganda chizgan chiziqqa",
+    "Boshlang'ich va oxirgi nuqtani tutashtiruvchi to'g'ri kesmaga",
+    "Nuqtaning bosib o'tgan yo'li uzunligiga",
+    "Harakat vaqtining tezlikka nisbatiga"
+   ],
+   "e": "To'g'ri chiziqli yoki egri chiziqli bo'ladi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Nuqta harakatini berishning qaysi usullari mavjud?",
+   "a": [
+    "Vektor, koordinata va tabiiy",
+    "Faqat grafik usul",
+    "Faqat jadval usuli",
+    "Kimyoviy va fizik"
+   ],
+   "e": "Tabiiy usulda trayektoriya va yoy koordinatasi s(t) beriladi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tezlik qanday kattalik?",
+   "a": [
+    "Vektor",
+    "Skalyar",
+    "O'lchamsiz",
+    "Doimiy son"
+   ],
+   "e": "Trayektoriyaga urinma bo'ylab yo'nalgan."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Nuqta tezligi trayektoriyaga nisbatan qanday yo'nalgan?",
+   "a": [
+    "Urinma bo'ylab",
+    "Normal bo'ylab egrilik markaziga",
+    "Har doim vertikal",
+    "Trayektoriyaga perpendikulyar tashqariga"
+   ],
+   "e": "v = ds/dt."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tezlikning SI dagi birligi qaysi?",
+   "a": [
+    "m/s",
+    "m/s²",
+    "km·soat",
+    "N/s"
+   ],
+   "e": "1 km/soat = 1/3,6 m/s."
+  },
+  {
+   "b": "Kinematika",
+   "q": "72 km/soat necha m/s ga teng?",
+   "a": [
+    "20 m/s",
+    "72 m/s",
+    "7,2 m/s",
+    "36 m/s"
+   ],
+   "e": "72/3,6 = 20."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis harakatda bosib o'tilgan yo'l qanday topiladi?",
+   "a": [
+    "s = v·t",
+    "s = v/t",
+    "s = a·t²",
+    "s = v·t²"
+   ],
+   "e": "Tezlik o'zgarmas."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tezlanish nimani ko'rsatadi?",
+   "a": [
+    "Tezlikning vaqt birligida o'zgarishini",
+    "Bosib o'tilgan yo'lning harakat vaqtiga ko'paytmasini",
+    "Harakat vaqtini",
+    "Jism massasini"
+   ],
+   "e": "a = dv/dt, birligi m/s²."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis tezlanuvchan harakatda tezlik formulasi qaysi?",
+   "a": [
+    "v = v₀ + a·t",
+    "v = v₀·a·t",
+    "v = a/t",
+    "v = v₀ − t"
+   ],
+   "e": "Tezlanish o'zgarmas."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis tezlanuvchan harakatda yo'l formulasi qaysi?",
+   "a": [
+    "s = v₀t + at²/2",
+    "s = v₀t + at",
+    "s = at",
+    "s = v₀/t + a"
+   ],
+   "e": "v₀ = 0 bo'lsa s = at²/2."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tinch holatdan 2 m/s² tezlanish bilan harakatlangan jism 5 s da qancha yo'l bosadi?",
+   "a": [
+    "25 m",
+    "10 m",
+    "50 m",
+    "5 m"
+   ],
+   "e": "2·25/2 = 25."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tinch holatdan 3 m/s² tezlanish bilan harakatlangan jism tezligi 4 s dan keyin qancha?",
+   "a": [
+    "12 m/s",
+    "7 m/s",
+    "24 m/s",
+    "3 m/s"
+   ],
+   "e": "v = at."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Egri chiziqli harakatda to'liq tezlanish qanday tashkil etuvchilardan iborat?",
+   "a": [
+    "Urinma va normal tezlanish",
+    "Faqat urinma tezlanish",
+    "Faqat erkin tushish tezlanishi",
+    "Burchak va chiziqli tezlik"
+   ],
+   "e": "a = √(aτ² + an²)."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Normal (markazga intilma) tezlanish qanday hisoblanadi?",
+   "a": [
+    "an = v²/ρ",
+    "an = v·ρ",
+    "an = ρ/v",
+    "an = dv/dt"
+   ],
+   "e": "ρ — egrilik radiusi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Urinma tezlanish nimani tavsiflaydi?",
+   "a": [
+    "Tezlik modulining o'zgarishini",
+    "Tezlik yo'nalishining o'zgarishini",
+    "Trayektoriya egriligini",
+    "Jism massasini"
+   ],
+   "e": "aτ = dv/dt."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Normal tezlanish nimani tavsiflaydi?",
+   "a": [
+    "Tezlik yo'nalishining o'zgarishini",
+    "Tezlik modulining o'zgarishini",
+    "Jism og'irligini",
+    "Bosib o'tilgan yo'lni"
+   ],
+   "e": "To'g'ri chiziqli harakatda an = 0."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis aylanma harakatda qaysi tezlanish nolga teng?",
+   "a": [
+    "Urinma",
+    "Normal",
+    "To'liq",
+    "Hech qaysi"
+   ],
+   "e": "Tezlik moduli o'zgarmas, yo'nalishi o'zgaradi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "To'g'ri chiziqli tekis harakatda tezlanish nimaga teng?",
+   "a": [
+    "Nolga",
+    "Tezlikka",
+    "g ga",
+    "v²/R ga"
+   ],
+   "e": "Tezlik moduli ham, yo'nalishi ham o'zgarmaydi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Radiusi 2 m aylana bo'ylab 4 m/s tezlik bilan tekis harakatlanayotgan nuqtaning tezlanishi qancha?",
+   "a": [
+    "8 m/s²",
+    "2 m/s²",
+    "16 m/s²",
+    "0"
+   ],
+   "e": "v²/R = 16/2."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Qattiq jismning ilgarilanma harakati deb qanday harakatga aytiladi?",
+   "a": [
+    "Jismdagi har qanday to'g'ri chiziq o'ziga parallel qoladigan harakatga",
+    "Jism qo'zg'almas o'q atrofida o'zgarmas burchak tezlik bilan aylanadigan harakatga",
+    "Jism nuqtalari har xil tezlikka ega bo'lgan harakatga",
+    "Faqat to'g'ri chiziq bo'ylab harakatga"
+   ],
+   "e": "Barcha nuqtalar bir xil tezlik va tezlanishga ega."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Ilgarilanma harakatda jism nuqtalarining tezliklari qanday bo'ladi?",
+   "a": [
+    "Bir xil",
+    "Markazdan uzoqlashgan sari ortadi",
+    "Har xil va tasodifiy",
+    "Faqat bitta nuqtada nolga teng"
+   ],
+   "e": "Shu sababli jism harakati bitta nuqta harakati bilan aniqlanadi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Ilgarilanma harakat trayektoriyasi egri chiziq bo'lishi mumkinmi?",
+   "a": [
+    "Ha",
+    "Yo'q, faqat to'g'ri chiziq",
+    "Faqat aylana bo'lsa",
+    "Faqat parabola bo'lsa"
+   ],
+   "e": "Masalan, velosiped pedali shatunining harakati (ba'zi mexanizmlarda)."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Qo'zg'almas o'q atrofidagi aylanma harakatda qaysi kattalik barcha nuqtalar uchun bir xil?",
+   "a": [
+    "Burchak tezligi",
+    "Chiziqli tezlik",
+    "Normal tezlanish",
+    "Bosib o'tilgan yo'l"
+   ],
+   "e": "ω — jism uchun umumiy."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Burchak tezligining birligi qaysi?",
+   "a": [
+    "rad/s",
+    "m/s",
+    "m/s²",
+    "N·m"
+   ],
+   "e": "ω = dφ/dt."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Aylanish chastotasi n (ayl/min) va burchak tezligi ω (rad/s) qanday bog'langan?",
+   "a": [
+    "ω = πn/30",
+    "ω = 30n/π",
+    "ω = n/60",
+    "ω = 2n"
+   ],
+   "e": "ω = 2πn/60."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Aylanish chastotasi 300 ayl/min bo'lsa, burchak tezligi taxminan qancha?",
+   "a": [
+    "31,4 rad/s",
+    "300 rad/s",
+    "5 rad/s",
+    "10 rad/s"
+   ],
+   "e": "π·300/30 = 10π."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Aylanayotgan jism nuqtasining chiziqli tezligi qanday topiladi?",
+   "a": [
+    "v = ω·r",
+    "v = ω/r",
+    "v = ω·r²",
+    "v = r/ω"
+   ],
+   "e": "r — aylanish o'qigacha masofa."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Aylanayotgan jismning aylanish o'qidagi nuqtalari tezligi nimaga teng?",
+   "a": [
+    "Nolga",
+    "Maksimal qiymatga",
+    "ω ga",
+    "Chetki nuqtalar tezligiga"
+   ],
+   "e": "r = 0."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Burchak tezlanishi nimani ko'rsatadi?",
+   "a": [
+    "Burchak tezligining vaqt birligida o'zgarishini",
+    "Burilish burchagining aylanish radiusiga nisbatini",
+    "Chiziqli tezlikni",
+    "Aylanish radiusini"
+   ],
+   "e": "ε = dω/dt, rad/s²."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Aylanma harakatdagi nuqtaning urinma tezlanishi qanday topiladi?",
+   "a": [
+    "aτ = ε·r",
+    "aτ = ω²·r",
+    "aτ = ε/r",
+    "aτ = ω·r"
+   ],
+   "e": "Normal tezlanish an = ω²·r."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Aylanma harakatdagi nuqtaning normal tezlanishi qanday topiladi?",
+   "a": [
+    "an = ω²·r",
+    "an = ε·r",
+    "an = ω/r",
+    "an = ε²·r"
+   ],
+   "e": "Markazga yo'nalgan."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Bir aylanish davri T va burchak tezligi ω qanday bog'langan?",
+   "a": [
+    "ω = 2π/T",
+    "ω = T/2π",
+    "ω = 2πT",
+    "ω = π/T"
+   ],
+   "e": "T — sekundlarda."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis-parallel harakat deb qanday harakatga aytiladi?",
+   "a": [
+    "Jism barcha nuqtalari bitta qo'zg'almas tekislikka parallel tekisliklarda harakatlanadigan harakatga",
+    "Jism faqat qo'zg'almas o'q atrofida aylanadigan harakatga",
+    "Jism barcha nuqtalari parallel to'g'ri chiziqlar bo'ylab bir xil tezlikda harakatlanadigan harakatga",
+    "Jism bitta qo'zg'almas nuqta atrofida aylanadigan harakatga"
+   ],
+   "e": "Masalan, to'g'ri yo'lda dumalayotgan g'ildirak."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis-parallel harakatni qanday oddiy harakatlarga ajratish mumkin?",
+   "a": [
+    "Qutb bilan ilgarilanma va qutb atrofida aylanma",
+    "Faqat ikki ilgarilanma",
+    "Faqat ikki aylanma harakat, bitta qo'zg'almas o'q atrofida",
+    "Tebranma va sakrovchi"
+   ],
+   "e": "Qutb ixtiyoriy tanlanadi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tezliklar oniy markazi (TOM) nima?",
+   "a": [
+    "Ayni paytda tezligi nolga teng bo'lgan nuqta",
+    "Jismning og'irlik markazi",
+    "Tezligi eng katta bo'lgan, jism chetidagi nuqta",
+    "Aylanish o'qining doimiy nuqtasi"
+   ],
+   "e": "Shu onda jism shu nuqta atrofida aylanayotgandek bo'ladi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Sirpanmasdan dumalayotgan g'ildirakning tezliklar oniy markazi qayerda?",
+   "a": [
+    "Yer bilan tegib turgan nuqtada",
+    "G'ildirak markazida",
+    "G'ildirakning eng yuqori nuqtasida",
+    "Cheksizlikda"
+   ],
+   "e": "Shu sababli yuqori nuqta tezligi 2v."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Sirpanmasdan dumalayotgan g'ildirak markazi v tezlikda harakatlansa, eng yuqori nuqtasi tezligi qancha?",
+   "a": [
+    "2v",
+    "v",
+    "0",
+    "v/2"
+   ],
+   "e": "TOM dan masofa 2R."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Ikki nuqta tezliklari parallel va teng bo'lsa (ilgarilanma holat), tezliklar oniy markazi qayerda?",
+   "a": [
+    "Cheksizlikda",
+    "Ikki nuqta o'rtasida",
+    "Birinchi nuqtada",
+    "Jism markazida"
+   ],
+   "e": "Oniy ilgarilanma harakat."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Murakkab harakatda nuqtaning absolyut tezligi qanday topiladi?",
+   "a": [
+    "Nisbiy va ko'chirma tezliklarning vektor yig'indisi",
+    "Nisbiy va ko'chirma tezliklar ayirmasi faqat",
+    "Faqat ko'chirma tezlik",
+    "Nisbiy tezlik kvadrati"
+   ],
+   "e": "Tezliklarni qo'shish teoremasi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Koriolis tezlanishi qachon nolga teng?",
+   "a": [
+    "Ko'chirma harakat ilgarilanma bo'lsa",
+    "Nisbiy tezlik juda katta bo'lsa",
+    "Ko'chirma harakat aylanma bo'lsa har doim",
+    "Nuqta tinch turgan bo'lsa ham emas"
+   ],
+   "e": "ac = 2ωe×vr; ωe = 0."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Daryoda oqimga qarshi suzayotgan qayiqning qirg'oqqa nisbatan tezligi qanday?",
+   "a": [
+    "Qayiq tezligidan oqim tezligi ayrilgani",
+    "Qayiq va oqim tezliklarining arifmetik yig'indisi",
+    "Faqat oqim tezligi",
+    "Qayiq tezligi ikki baravar"
+   ],
+   "e": "Qarama-qarshi yo'nalgan vektorlar."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Dinamikaning birinchi qonuni (inersiya qonuni) nimani ta'kidlaydi?",
+   "a": [
+    "Kuch ta'sir etmasa, nuqta tinch yoki to'g'ri chiziqli tekis harakatda bo'ladi",
+    "Kuch ta'sir etmasa, nuqta asta-sekin sekinlashib, albatta to'xtab qoladi",
+    "Kuch tezlanishga teskari proporsional",
+    "Har qanday ta'sirga teng aks ta'sir bor"
+   ],
+   "e": "Galiley — Nyuton qonuni."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Dinamikaning asosiy (ikkinchi) qonuni qanday ifodalanadi?",
+   "a": [
+    "F = m·a",
+    "F = m/a",
+    "F = m·v",
+    "F = a/m"
+   ],
+   "e": "Tezlanish kuch yo'nalishida."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massasi 5 kg jismga 20 N kuch ta'sir etsa, tezlanish qancha?",
+   "a": [
+    "4 m/s²",
+    "100 m/s²",
+    "0,25 m/s²",
+    "15 m/s²"
+   ],
+   "e": "a = F/m."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massasi 2 kg jismga 3 m/s² tezlanish berish uchun qancha kuch kerak?",
+   "a": [
+    "6 N",
+    "1,5 N",
+    "5 N",
+    "0,67 N"
+   ],
+   "e": "F = ma."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massa nimaning o'lchovi?",
+   "a": [
+    "Jism inertligining",
+    "Jism hajmining",
+    "Jism tezligining",
+    "Jism haroratining"
+   ],
+   "e": "SI da kg."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Og'irlik kuchi qanday hisoblanadi?",
+   "a": [
+    "G = m·g",
+    "G = m/g",
+    "G = g/m",
+    "G = m + g"
+   ],
+   "e": "g ≈ 9,81 m/s²."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massasi 10 kg jismning og'irlik kuchi taxminan qancha?",
+   "a": [
+    "98 N",
+    "10 N",
+    "1 N",
+    "980 N"
+   ],
+   "e": "10 · 9,81."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Erkin tushish tezlanishi taxminan qancha?",
+   "a": [
+    "9,81 m/s²",
+    "1 m/s²",
+    "98,1 m/s²",
+    "0,981 m/s²"
+   ],
+   "e": "Joyga qarab biroz farq qiladi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Dinamikaning birinchi asosiy masalasi qanday?",
+   "a": [
+    "Ma'lum harakat bo'yicha ta'sir etuvchi kuchni topish",
+    "Ma'lum kuch bo'yicha nuqtaning harakat qonunini integrallab topish",
+    "Faqat jism massasini topish",
+    "Faqat trayektoriyani chizish"
+   ],
+   "e": "Differensiallash orqali yechiladi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Dinamikaning ikkinchi asosiy masalasi qanday?",
+   "a": [
+    "Ma'lum kuchlar bo'yicha harakat qonunini topish",
+    "Ma'lum harakat qonuni bo'yicha ta'sir etuvchi kuchni differensiallab topish",
+    "Faqat muvozanat shartini tekshirish",
+    "Faqat tezlikni o'lchash"
+   ],
+   "e": "Differensial tenglamalarni integrallash, boshlang'ich shartlar kerak."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ikkinchi asosiy masalani yechishda integrallash doimiylari nima orqali topiladi?",
+   "a": [
+    "Boshlang'ich shartlar",
+    "Jism rangi",
+    "Trayektoriya uzunligi",
+    "Og'irlik markazi"
+   ],
+   "e": "x₀ va v₀."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Gorizontal otilgan jism trayektoriyasi qanday chiziq?",
+   "a": [
+    "Parabola",
+    "To'g'ri chiziq",
+    "Aylana",
+    "Giperbola"
+   ],
+   "e": "Havo qarshiligi hisobga olinmasa."
+  },
+  {
+   "b": "Dinamika",
+   "q": "45 m balandlikdan erkin tushgan jism yerga qancha vaqtda tushadi (g = 10 m/s²)?",
+   "a": [
+    "3 s",
+    "4,5 s",
+    "9 s",
+    "2 s"
+   ],
+   "e": "t = √(2h/g) = √9."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Dalamber printsipiga ko'ra harakatdagi nuqtaga nima qo'shilsa, muvozanat tenglamalari yozish mumkin?",
+   "a": [
+    "Inersiya kuchi −m·a",
+    "Ikkinchi og'irlik kuchi",
+    "Ishqalanish kuchi ikkilangan",
+    "Hech narsa"
+   ],
+   "e": "Kinetostatika usuli."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Inersiya kuchi qanday yo'nalgan?",
+   "a": [
+    "Tezlanishga qarama-qarshi",
+    "Tezlanish bo'ylab",
+    "Har doim vertikal pastga",
+    "Tezlikka perpendikulyar"
+   ],
+   "e": "Fin = −m·a."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Liftda yuqoriga a tezlanish bilan ko'tarilayotgan odamning og'irligi qanday?",
+   "a": [
+    "m(g + a)",
+    "m(g − a)",
+    "m·g",
+    "0"
+   ],
+   "e": "Ortiqcha yuklanish."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Erkin tushayotgan liftda odamning og'irligi qancha?",
+   "a": [
+    "Nolga teng (vaznsizlik)",
+    "m·g",
+    "2m·g",
+    "m·g/2"
+   ],
+   "e": "a = g."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Markazga intilma kuch qanday hisoblanadi?",
+   "a": [
+    "F = m·v²/R",
+    "F = m·v·R",
+    "F = m·R/v",
+    "F = v²/(mR)"
+   ],
+   "e": "Aylana bo'ylab harakatni ta'minlaydi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Moddiy nuqtaning erkin tebranishlari chastotasi qaysi kattaliklarga bog'liq (prujina)?",
+   "a": [
+    "Prujina bikirligi va massaga",
+    "Faqat tebranish amplitudasiga",
+    "Faqat boshlang'ich tezlikka",
+    "Jism rangiga"
+   ],
+   "e": "k = √(c/m)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Prujinali mayatnikning tebranish davri formulasi qaysi?",
+   "a": [
+    "T = 2π√(m/c)",
+    "T = 2π√(c/m)",
+    "T = 2πm·c",
+    "T = m/c"
+   ],
+   "e": "c — prujina bikirligi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Matematik mayatnikning tebranish davri nimaga bog'liq?",
+   "a": [
+    "Ip uzunligi va g ga",
+    "Yuk massasiga",
+    "Amplitudaga (kichik tebranishda)",
+    "Yuk rangiga"
+   ],
+   "e": "T = 2π√(l/g)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massani 4 marta oshirsak, prujinali mayatnik davri qanday o'zgaradi?",
+   "a": [
+    "2 marta ortadi",
+    "4 marta ortadi",
+    "2 marta kamayadi",
+    "O'zgarmaydi"
+   ],
+   "e": "T ~ √m."
+  },
+  {
+   "b": "Dinamika",
+   "q": "So'nuvchi tebranishlar sababi nima?",
+   "a": [
+    "Qarshilik kuchlari",
+    "Tiklovchi kuchning ortishi",
+    "Massa ortishi",
+    "Tashqi davriy kuch"
+   ],
+   "e": "Energiya issiqlikka aylanadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Majburiy tebranishlar qachon yuzaga keladi?",
+   "a": [
+    "Davriy o'zgaruvchi tashqi kuch ta'sirida",
+    "Faqat qarshilik kuchlari ta'sirida, tashqi kuchsiz",
+    "Hech qanday kuch bo'lmaganda",
+    "Faqat boshlang'ich turtkidan keyin"
+   ],
+   "e": "Chastotasi tashqi kuch chastotasiga teng."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Rezonans hodisasi nima?",
+   "a": [
+    "Tashqi kuch chastotasi xususiy chastotaga tenglashganda amplitudaning keskin ortishi",
+    "Tashqi kuch chastotasi ortganda tebranishlarning to'satdan to'xtab qolishi",
+    "Tebranish davrining nolga tushishi",
+    "Massaning ortishi"
+   ],
+   "e": "Mashinalar uchun xavfli."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mashinalarda rezonansning oldini olish uchun nima qilinadi?",
+   "a": [
+    "Xususiy chastota ish chastotasidan uzoqlashtiriladi",
+    "Ish chastotasi xususiy chastotaga tenglashtiriladi",
+    "Barcha amortizatorlar olib tashlanadi",
+    "Massani nolga tushiriladi"
+   ],
+   "e": "Dempferlar ham ishlatiladi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Harakat miqdori (impuls) qanday hisoblanadi?",
+   "a": [
+    "p = m·v",
+    "p = m·a",
+    "p = m·v²/2",
+    "p = F/t"
+   ],
+   "e": "Vektor kattalik."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Kuch impulsi qanday hisoblanadi (o'zgarmas kuch)?",
+   "a": [
+    "S = F·t",
+    "S = F/t",
+    "S = F·s",
+    "S = m·a"
+   ],
+   "e": "Birligi N·s."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Harakat miqdorining o'zgarishi haqidagi teorema nima deydi?",
+   "a": [
+    "Harakat miqdori o'zgarishi kuch impulsiga teng",
+    "Harakat miqdori har doim nolga teng",
+    "Kinetik energiya o'zgarmaydi",
+    "Kuch tezlikka teng"
+   ],
+   "e": "m·v₂ − m·v₁ = F·t."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Yopiq sistemada qaysi kattalik saqlanadi?",
+   "a": [
+    "Harakat miqdori",
+    "Har bir jism tezligi",
+    "Har bir jism tezlanishi",
+    "Ishqalanish kuchi"
+   ],
+   "e": "Tashqi kuchlar bosh vektori nolga teng bo'lsa."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massa markazining harakati haqidagi teorema nima deydi?",
+   "a": [
+    "Massa markazi butun massa va tashqi kuchlar unga qo'yilgan nuqta kabi harakatlanadi",
+    "Massa markazi har doim tinch turadi",
+    "Massa markazi faqat ichki kuchlar ta'sirida, tashqi kuchlarga bog'liq bo'lmay harakatlanadi",
+    "Massa markazi sistema tashqarisida bo'ladi"
+   ],
+   "e": "Ichki kuchlar massa markazi harakatini o'zgartirmaydi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Inersiya momenti aylanma harakatda nimaning o'lchovi?",
+   "a": [
+    "Jism inertligining",
+    "Jism tezligining",
+    "Burilish burchagining",
+    "Kuch yelkasining"
+   ],
+   "e": "J = Σm·r²."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Moddiy nuqtaning o'qqa nisbatan inersiya momenti qanday?",
+   "a": [
+    "J = m·r²",
+    "J = m·r",
+    "J = m/r²",
+    "J = m²·r"
+   ],
+   "e": "Birligi kg·m²."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Bir jinsli yaxlit silindrning o'z o'qiga nisbatan inersiya momenti qanday?",
+   "a": [
+    "J = mR²/2",
+    "J = mR²",
+    "J = 2mR²/5",
+    "J = mR²/12"
+   ],
+   "e": "Halqa uchun mR²."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Parallel o'qlar teoremasi (Gyuygens-Shteyner) qanday ifodalanadi?",
+   "a": [
+    "J = Jc + m·d²",
+    "J = Jc − m·d",
+    "J = Jc·m·d",
+    "J = Jc/d²"
+   ],
+   "e": "d — o'qlar orasidagi masofa."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Aylanma harakat dinamikasining asosiy tenglamasi qaysi?",
+   "a": [
+    "J·ε = M",
+    "J·ω = F",
+    "m·ε = M",
+    "J = M·ε"
+   ],
+   "e": "F = ma ga o'xshash."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ichki kuchlar mexanik sistema uchun qanday xususiyatga ega?",
+   "a": [
+    "Bosh vektori va bosh momenti nolga teng",
+    "Ular har doim tashqi kuchlardan katta",
+    "Ular sistema massa markazini harakatlantiradi",
+    "Ular faqat bitta jismga ta'sir qiladi"
+   ],
+   "e": "Juft-juft teng va qarama-qarshi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mexanik sistemaning kinetik momenti (impuls momenti) qachon saqlanadi?",
+   "a": [
+    "Tashqi kuchlarning o'qqa nisbatan momenti nolga teng bo'lsa",
+    "Tashqi kuchlar maksimal bo'lsa",
+    "Ichki kuchlar nolga teng bo'lsa, tashqi kuchlardan qat'i nazar",
+    "Sistema massasi o'zgarsa"
+   ],
+   "e": "Masalan, figurachi qo'llarini yig'sa tezroq aylanadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "O'zgarmas kuchning to'g'ri chiziqli ko'chishdagi ishi qanday hisoblanadi?",
+   "a": [
+    "A = F·s·cosα",
+    "A = F·s·sinα",
+    "A = F/s",
+    "A = F·t"
+   ],
+   "e": "α — kuch va ko'chish orasidagi burchak."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Kuch ko'chishga perpendikulyar bo'lsa, uning ishi nimaga teng?",
+   "a": [
+    "Nolga",
+    "F·s ga",
+    "Maksimal qiymatga",
+    "−F·s ga"
+   ],
+   "e": "cos90° = 0."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ishqalanish kuchining ishi odatda qanday ishorali?",
+   "a": [
+    "Manfiy",
+    "Musbat",
+    "Har doim nolga teng",
+    "Cheksiz"
+   ],
+   "e": "Harakatga qarshi yo'nalgan."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ishning SI dagi birligi qaysi?",
+   "a": [
+    "Joul",
+    "Vatt",
+    "Nyuton",
+    "Paskal"
+   ],
+   "e": "1 J = 1 N·m."
+  },
+  {
+   "b": "Dinamika",
+   "q": "50 N kuch ta'sirida jism kuch yo'nalishida 4 m ko'chdi. Bajarilgan ish qancha?",
+   "a": [
+    "200 J",
+    "12,5 J",
+    "54 J",
+    "46 J"
+   ],
+   "e": "A = F·s."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Og'irlik kuchining ishi nimaga bog'liq?",
+   "a": [
+    "Balandliklar farqiga",
+    "Trayektoriya shakliga",
+    "Harakat vaqtiga",
+    "Jism tezligiga"
+   ],
+   "e": "A = m·g·h; potensial kuch."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Prujina elastiklik kuchining ishi qanday hisoblanadi (deformatsiya noldan x gacha)?",
+   "a": [
+    "A = −c·x²/2",
+    "A = c·x",
+    "A = −c/x",
+    "A = c·x³"
+   ],
+   "e": "Manfiy — kuch deformatsiyaga qarshi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Aylanma harakatda kuch momentining ishi qanday?",
+   "a": [
+    "A = M·φ",
+    "A = M/φ",
+    "A = M·ω²",
+    "A = M + φ"
+   ],
+   "e": "φ — burilish burchagi (rad)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Quvvat nima?",
+   "a": [
+    "Vaqt birligida bajarilgan ish",
+    "Bajarilgan to'liq ish",
+    "Kuchning yo'lga nisbati",
+    "Massaning tezlikka ko'paytmasi"
+   ],
+   "e": "N = A/t, birligi Vatt."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ilgarilanma harakatda quvvat kuch va tezlik orqali qanday ifodalanadi?",
+   "a": [
+    "N = F·v",
+    "N = F/v",
+    "N = F·v²",
+    "N = m·v"
+   ],
+   "e": "Kuch tezlik bo'ylab bo'lsa."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Aylanma harakatda quvvat qanday ifodalanadi?",
+   "a": [
+    "N = M·ω",
+    "N = M/ω",
+    "N = J·ω",
+    "N = M·ε"
+   ],
+   "e": "Val hisoblarida asosiy formula."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Valning quvvati 10 kW, burchak tezligi 100 rad/s. Burovchi moment qancha?",
+   "a": [
+    "100 N·m",
+    "1000 N·m",
+    "10 N·m",
+    "0,1 N·m"
+   ],
+   "e": "M = N/ω = 10000/100."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Foydali ish koeffitsiyenti (FIK) qanday aniqlanadi?",
+   "a": [
+    "Foydali ishning sarflangan ishga nisbati",
+    "Sarflangan ishning foydali ishga nisbati",
+    "Foydali va sarflangan ish yig'indisi",
+    "Quvvatning vaqtga ko'paytmasi"
+   ],
+   "e": "η < 1 har doim."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ketma-ket ulangan mexanizmlarning umumiy FIK qanday topiladi?",
+   "a": [
+    "Alohida FIK lar ko'paytmasi",
+    "Alohida FIK lar yig'indisi",
+    "Eng katta FIK",
+    "O'rtacha arifmetik"
+   ],
+   "e": "η = η₁·η₂·η₃..."
+  },
+  {
+   "b": "Dinamika",
+   "q": "FIK lari 0,9 va 0,8 bo'lgan ikki uzatma ketma-ket ulangan. Umumiy FIK qancha?",
+   "a": [
+    "0,72",
+    "1,7",
+    "0,85",
+    "0,1"
+   ],
+   "e": "0,9·0,8."
+  },
+  {
+   "b": "Dinamika",
+   "q": "1 ot kuchi taxminan necha vattga teng?",
+   "a": [
+    "736 W",
+    "1000 W",
+    "100 W",
+    "75 W"
+   ],
+   "e": "Metrik ot kuchi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Moddiy nuqtaning kinetik energiyasi qanday hisoblanadi?",
+   "a": [
+    "T = m·v²/2",
+    "T = m·v",
+    "T = m·g·h",
+    "T = m·v²"
+   ],
+   "e": "Skalyar, har doim musbat."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Tezlik 2 marta oshsa, kinetik energiya qanday o'zgaradi?",
+   "a": [
+    "4 marta ortadi",
+    "2 marta ortadi",
+    "O'zgarmaydi",
+    "8 marta ortadi"
+   ],
+   "e": "T ~ v²."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Aylanayotgan jismning kinetik energiyasi qanday?",
+   "a": [
+    "T = J·ω²/2",
+    "T = J·ω/2",
+    "T = m·ω²",
+    "T = J²·ω/2"
+   ],
+   "e": "J — inersiya momenti."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Kinetik energiya o'zgarishi haqidagi teorema nima deydi?",
+   "a": [
+    "Kinetik energiya o'zgarishi barcha kuchlar ishlari yig'indisiga teng",
+    "Kinetik energiya har doim saqlanadi, kuchlar ishidan qat'i nazar",
+    "Kinetik energiya potensial energiyaga teng",
+    "Kinetik energiya impulsga teng"
+   ],
+   "e": "T₂ − T₁ = ΣA."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Potensial energiya (og'irlik maydonida) qanday hisoblanadi?",
+   "a": [
+    "П = m·g·h",
+    "П = m·v²/2",
+    "П = m·g/h",
+    "П = m·h"
+   ],
+   "e": "h — nol sathga nisbatan balandlik."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mexanik energiyaning saqlanish qonuni qachon bajariladi?",
+   "a": [
+    "Faqat potensial kuchlar ta'sir etganda",
+    "Ishqalanish kuchi katta bo'lganda",
+    "Har qanday kuchlar, jumladan ishqalanish kuchlari ta'sirida",
+    "Jism tinch turganda faqat"
+   ],
+   "e": "T + П = const."
+  },
+  {
+   "b": "Dinamika",
+   "q": "5 m balandlikdan erkin tushgan jismning yerga tushishdagi tezligi qancha (g = 10 m/s²)?",
+   "a": [
+    "10 m/s",
+    "5 m/s",
+    "50 m/s",
+    "100 m/s"
+   ],
+   "e": "v = √(2gh) = √100."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mumkin bo'lgan ko'chishlar printsipi (Lagranj) nimani ta'kidlaydi?",
+   "a": [
+    "Ideal bog'lanishli sistema muvozanatida aktiv kuchlar elementar ishlari yig'indisi nolga teng",
+    "Har qanday sistemada muvozanat holatida kinetik energiya va barcha reaksiyalar nolga teng",
+    "Barcha reaksiya kuchlari maksimal bo'ladi",
+    "Sistema faqat harakatda bo'lganda ishlaydi"
+   ],
+   "e": "Analitik mexanika asosi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ideal bog'lanish deb qanday bog'lanishga aytiladi?",
+   "a": [
+    "Reaksiyalarining har qanday mumkin bo'lgan ko'chishdagi ishlari yig'indisi nolga teng bog'lanishga",
+    "Hech qachon uzilmaydigan, juda mustahkam bog'lanishga",
+    "Faqat po'latdan yasalgan tayanchga",
+    "Ishqalanishi juda katta bo'lgan sirtga"
+   ],
+   "e": "Masalan, silliq sirt, cho'zilmas ip."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Zarba (urilish) nazariyasida tiklanish koeffitsiyenti k nimani ko'rsatadi?",
+   "a": [
+    "Urilishdan keyingi va oldingi nisbiy tezliklar nisbatini",
+    "Urilayotgan jismlar massalari nisbatini va ularning hajmlarini",
+    "Urilish vaqtini",
+    "Urilish kuchini"
+   ],
+   "e": "Mutlaq elastik k = 1, noelastik k = 0."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mutlaq noelastik urilishda nima saqlanadi?",
+   "a": [
+    "Harakat miqdori",
+    "Kinetik energiya",
+    "Har bir jism tezligi",
+    "Har ikkisi ham saqlanmaydi"
+   ],
+   "e": "Kinetik energiyaning bir qismi issiqlikka aylanadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mexanik sistemaning erkinlik darajasi soni nimani bildiradi?",
+   "a": [
+    "Holatini aniqlovchi mustaqil koordinatalar sonini",
+    "Sistemadagi barcha jismlar va ular orasidagi bog'lanishlar sonini",
+    "Sistemadagi kuchlar sonini",
+    "Tayanchlar sonini"
+   ],
+   "e": "Erkin qattiq jismda fazoda 6 ta."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Fazodagi erkin qattiq jism nechta erkinlik darajasiga ega?",
+   "a": [
+    "6",
+    "3",
+    "2",
+    "1"
+   ],
+   "e": "3 ilgarilanma, 3 aylanma."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Qo'zg'almas o'q atrofida aylanuvchi jism nechta erkinlik darajasiga ega?",
+   "a": [
+    "1",
+    "2",
+    "3",
+    "6"
+   ],
+   "e": "Burilish burchagi φ."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Umumlashgan koordinatalar nima?",
+   "a": [
+    "Sistema holatini bir qiymatli aniqlovchi mustaqil parametrlar",
+    "Faqat Dekart koordinatalari, ya'ni x, y, z o'qlaridagi qiymatlar",
+    "Sistema massalari",
+    "Tashqi kuchlar"
+   ],
+   "e": "Lagranj tenglamalarida qo'llaniladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchlar sistemasi deb nimaga aytiladi?",
+   "a": [
+    "Jismga ta'sir etuvchi kuchlar to'plamiga",
+    "Faqat bitta nuqtaga qo'yilgan ikki kuchga",
+    "Kuch o'lchovchi asboblar to'plamiga",
+    "Jismning ichki zarrachalari majmuiga"
+   ],
+   "e": "Ekvivalent sistemalar bir xil ta'sir ko'rsatadi."
+  },
+  {
+   "b": "Statika",
+   "q": "Ekvivalent kuchlar sistemalari deb qanday sistemalarga aytiladi?",
+   "a": [
+    "Jismga bir xil ta'sir ko'rsatuvchi sistemalarga",
+    "Kuchlari soni bir xil bo'lgan istalgan sistemalarga",
+    "Kuchlarining modullari yig'indisi teng sistemalarga",
+    "Faqat parallel kuchlardan iborat sistemalarga"
+   ],
+   "e": "Biri ikkinchisi bilan almashtirilishi mumkin."
+  },
+  {
+   "b": "Statika",
+   "q": "Nolga ekvivalent (muvozanatlashgan) sistemani jismga qo'shish yoki olib tashlash uning holatini o'zgartiradimi?",
+   "a": [
+    "Yo'q",
+    "Ha, har doim tezlantiradi",
+    "Ha, jismni aylantiradi",
+    "Faqat jism tinch bo'lsa o'zgartiradi"
+   ],
+   "e": "Statikaning aksiomalaridan biri."
+  },
+  {
+   "b": "Statika",
+   "q": "Qotish aksiomasi (printsipi) nimani ta'kidlaydi?",
+   "a": [
+    "Qotgan jismda ham muvozanat saqlanadi",
+    "Har qanday jism kuch ta'sirida qotib qoladi",
+    "Qattiq jism hech qachon muvozanatda bo'lmaydi",
+    "Qotgan jism ikki baravar og'irlashadi"
+   ],
+   "e": "Muvozanat shartlari zarur, lekin yetarli emas."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchning o'qqa nisbatan momentini topish uchun nima qilinadi?",
+   "a": [
+    "Kuch o'qqa perpendikulyar tekislikka proyeksiyalanadi",
+    "Kuch o'qqa parallel ko'chiriladi va ikkilanadi",
+    "Kuch moduli o'q uzunligiga ko'paytiriladi",
+    "Kuch vektori o'qdagi proyeksiyasiga bo'linadi"
+   ],
+   "e": "So'ng proyeksiyaning o'q va tekislik kesishish nuqtasiga nisbatan momenti olinadi."
+  },
+  {
+   "b": "Statika",
+   "q": "Kuchning nuqtaga nisbatan moment vektori qanday ifodalanadi?",
+   "a": [
+    "M = r × F",
+    "M = r · F (skalyar ko'paytma)",
+    "M = F/r",
+    "M = r + F"
+   ],
+   "e": "Vektor ko'paytma, moment tekisligiga perpendikulyar."
+  },
+  {
+   "b": "Statika",
+   "q": "Juft momenti vektori qanday yo'nalgan?",
+   "a": [
+    "Juft tekisligiga perpendikulyar",
+    "Juft kuchlaridan biri bo'ylab",
+    "Juft yelkasi bo'ylab",
+    "Har doim vertikal yuqoriga"
+   ],
+   "e": "O'ng parma qoidasi."
+  },
+  {
+   "b": "Statika",
+   "q": "Fazodagi juftlar sistemasining muvozanat sharti qanday?",
+   "a": [
+    "Juftlar momentlarining vektor yig'indisi nolga teng",
+    "Juftlar soni juft va ular o'zaro parallel bo'lishi kerak",
+    "Barcha juftlar bitta tekislikda yotishi shart",
+    "Juftlar yelkalari teng bo'lishi kerak"
+   ],
+   "e": "Uch proyeksiya tenglamasi."
+  },
+  {
+   "b": "Statika",
+   "q": "Fazodagi kesishuvchi kuchlar sistemasining muvozanat tenglamalari nechta?",
+   "a": [
+    "Uchta",
+    "Oltita",
+    "Ikkita",
+    "Bitta"
+   ],
+   "e": "ΣFx = ΣFy = ΣFz = 0."
+  },
+  {
+   "b": "Statika",
+   "q": "Fazodagi parallel kuchlar sistemasining muvozanat tenglamalari nechta?",
+   "a": [
+    "Uchta",
+    "Oltita",
+    "Ikkita",
+    "To'rtta"
+   ],
+   "e": "Bitta proyeksiya va ikki moment tenglamasi."
+  },
+  {
+   "b": "Statika",
+   "q": "Statik invariantlar nima?",
+   "a": [
+    "Keltirish markaziga bog'liq bo'lmagan kattaliklar",
+    "Har bir keltirish markazida o'zgaruvchi kattaliklar",
+    "Faqat jism massasi va hajmi",
+    "Kuchlarning modullari yig'indisi"
+   ],
+   "e": "Bosh vektor va uning bosh momentga skalyar ko'paytmasi."
+  },
+  {
+   "b": "Statika",
+   "q": "Dinamik vint (dinama) nima?",
+   "a": [
+    "Kuch va unga parallel o'qli juft majmui",
+    "Bir nuqtaga qo'yilgan ikki teng kuch",
+    "Faqat juftlar sistemasi",
+    "Faqat parallel kuchlar sistemasi"
+   ],
+   "e": "Fazodagi sistemaning eng sodda ko'rinishi (umumiy holda)."
+  },
+  {
+   "b": "Statika",
+   "q": "Ishqalanish konusi nima?",
+   "a": [
+    "To'liq reaksiya yo'nalishlari chegarasi bo'lgan konus",
+    "Konussimon detalning ishqalanuvchi yon yuzasi",
+    "Ishqalanish kuchining uzunlik bo'yicha epyurasi",
+    "Konussimon rolikli podshipnik turi"
+   ],
+   "e": "Uchidagi yarim burchak — ishqalanish burchagi."
+  },
+  {
+   "b": "Statika",
+   "q": "Jism qiya tekislikda tinch turibdi. Tinchlikdagi ishqalanish kuchi qanday yo'nalgan?",
+   "a": [
+    "Qiya tekislik bo'ylab yuqoriga",
+    "Qiya tekislik bo'ylab pastga",
+    "Tekislikka perpendikulyar",
+    "Vertikal pastga"
+   ],
+   "e": "Sirpanishga to'sqinlik qiladi."
+  },
+  {
+   "b": "Statika",
+   "q": "Massasi 10 kg jism gorizontal sirtda, f = 0,3. Jismni siljitish uchun kerakli gorizontal kuch taxminan qancha (g = 10)?",
+   "a": [
+    "30 N",
+    "3 N",
+    "100 N",
+    "300 N"
+   ],
+   "e": "F = f·m·g."
+  },
+  {
+   "b": "Statika",
+   "q": "Og'irlik markazini tajriba yo'li bilan topish usuli qaysi?",
+   "a": [
+    "Osib qo'yish usuli",
+    "Kesish usuli faqat nazariy",
+    "Integrallash usuli",
+    "Bo'laklash usuli"
+   ],
+   "e": "Ikki nuqtadan osib, vertikallar kesishishi."
+  },
+  {
+   "b": "Statika",
+   "q": "Yarim doira plastinka og'irlik markazining diametrdan masofasi qanday?",
+   "a": [
+    "4R/(3π)",
+    "R/2",
+    "2R/π",
+    "R/3"
+   ],
+   "e": "≈ 0,424R."
+  },
+  {
+   "b": "Statika",
+   "q": "Doira yoyi (yarim aylana sim) og'irlik markazining diametrdan masofasi qanday?",
+   "a": [
+    "2R/π",
+    "4R/(3π)",
+    "R/2",
+    "R"
+   ],
+   "e": "≈ 0,637R."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Nuqta harakati x = 2t², y = 3t tenglamalar bilan berilgan. t = 1 s da tezlik moduli qancha?",
+   "a": [
+    "5 m/s",
+    "4 m/s",
+    "3 m/s",
+    "7 m/s"
+   ],
+   "e": "vx = 4t = 4, vy = 3 → √(16 + 9)."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Nuqta harakati s = 3t² + 2t qonun bilan berilgan. t = 2 s da tezlik qancha?",
+   "a": [
+    "14 m/s",
+    "16 m/s",
+    "12 m/s",
+    "8 m/s"
+   ],
+   "e": "v = 6t + 2."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Nuqta harakati s = t³ qonun bilan berilgan. t = 1 s da urinma tezlanish qancha?",
+   "a": [
+    "6 m/s²",
+    "3 m/s²",
+    "1 m/s²",
+    "0"
+   ],
+   "e": "v = 3t², aτ = 6t."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Nuqta x = 5cos(2t) qonun bo'yicha harakatlanmoqda. Bu qanday harakat?",
+   "a": [
+    "Garmonik tebranma",
+    "Tekis to'g'ri chiziqli",
+    "Tekis tezlanuvchan",
+    "Aylana bo'ylab tekis"
+   ],
+   "e": "Amplituda 5, burchak chastota 2 rad/s."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Trayektoriyaning egrilik radiusi qanday topiladi (tezlik va normal tezlanish orqali)?",
+   "a": [
+    "ρ = v²/an",
+    "ρ = an/v²",
+    "ρ = v·an",
+    "ρ = v/an"
+   ],
+   "e": "To'g'ri chiziqda ρ = ∞."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tabiiy koordinata o'qlari qaysilar?",
+   "a": [
+    "Urinma, bosh normal va binormal",
+    "Faqat x va y o'qlari",
+    "Radial va burchak o'qlari",
+    "Faqat vertikal o'q"
+   ],
+   "e": "Tabiiy uchyoqlik."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Qutb koordinatalarida radial tezlik qanday ifodalanadi?",
+   "a": [
+    "vr = dr/dt",
+    "vr = r·dφ/dt",
+    "vr = r²",
+    "vr = φ/t"
+   ],
+   "e": "Ko'ndalang tezlik vφ = r·dφ/dt."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Jism φ = 2t² qonun bilan aylanmoqda. t = 3 s da burchak tezlik qancha?",
+   "a": [
+    "12 rad/s",
+    "18 rad/s",
+    "6 rad/s",
+    "4 rad/s"
+   ],
+   "e": "ω = 4t."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis o'zgaruvchan aylanma harakatda burchak tezlik formulasi qaysi?",
+   "a": [
+    "ω = ω₀ + ε·t",
+    "ω = ω₀·ε·t",
+    "ω = ε/t",
+    "ω = ω₀ − t²"
+   ],
+   "e": "ε = const."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tinch holatdan ε = 2 rad/s² bilan aylangan g'ildirak 5 s da necha radian buriladi?",
+   "a": [
+    "25 rad",
+    "10 rad",
+    "50 rad",
+    "5 rad"
+   ],
+   "e": "φ = εt²/2."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Radiusi 0,5 m g'ildirak ω = 10 rad/s, ε = 4 rad/s² bilan aylanmoqda. Gardishdagi nuqtaning normal tezlanishi qancha?",
+   "a": [
+    "50 m/s²",
+    "2 m/s²",
+    "5 m/s²",
+    "20 m/s²"
+   ],
+   "e": "an = ω²r = 100·0,5."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Yuqoridagi g'ildirakda gardishdagi nuqtaning urinma tezlanishi qancha?",
+   "a": [
+    "2 m/s²",
+    "50 m/s²",
+    "4 m/s²",
+    "8 m/s²"
+   ],
+   "e": "aτ = εr = 4·0,5."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tekis-parallel harakatda jism nuqtasining tezligi qanday topiladi (qutb usuli)?",
+   "a": [
+    "vB = vA + vBA, vBA = ω·AB",
+    "vB = vA − ω",
+    "vB = ω/AB",
+    "vB = vA · ω"
+   ],
+   "e": "vBA ⟂ AB."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Ikki nuqta tezliklari proyeksiyalari haqidagi teorema nima deydi?",
+   "a": [
+    "Tutashtiruvchi chiziqqa proyeksiyalar teng",
+    "Ikki nuqta tezliklari har doim teng",
+    "Ikki nuqta tezliklari har doim perpendikulyar",
+    "Ikki nuqta tezliklari yig'indisi nolga teng"
+   ],
+   "e": "Qattiq jism masofasi o'zgarmasligidan kelib chiqadi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tezliklar oniy markazi ma'lum bo'lsa, nuqta tezligi qanday topiladi?",
+   "a": [
+    "v = ω·PM, PM ga perpendikulyar",
+    "v = ω/PM, PM bo'ylab",
+    "v = PM², PM bo'ylab",
+    "v = ω + PM"
+   ],
+   "e": "P — TOM."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tezlanishlar oniy markazi nima?",
+   "a": [
+    "Ayni paytda tezlanishi nolga teng nuqta",
+    "Ayni paytda tezligi nolga teng bo'lgan nuqta",
+    "Jismning og'irlik markazi",
+    "Aylanish o'qining nuqtasi"
+   ],
+   "e": "Odatda TOM bilan ustma-ust tushmaydi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Qo'zg'almas nuqta atrofida aylanishda burchak tezlik vektori qanday yo'nalgan?",
+   "a": [
+    "Oniy aylanish o'qi bo'ylab",
+    "Nuqta tezligi bo'ylab",
+    "Jismning og'irlik markaziga",
+    "Har doim vertikal"
+   ],
+   "e": "Sferik harakat, Eyler burchaklari."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Eyler burchaklari nima uchun ishlatiladi?",
+   "a": [
+    "Jismning burchak holatini aniqlash uchun",
+    "Kuchlar momentini hisoblash uchun",
+    "Og'irlik markazini topish uchun",
+    "Ishqalanish koeffitsiyentini aniqlash uchun"
+   ],
+   "e": "Pretsessiya, nutatsiya, xususiy aylanish."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Murakkab harakatda absolyut tezlanish qanday tashkil etuvchilardan iborat?",
+   "a": [
+    "Nisbiy, ko'chirma va Koriolis tezlanishlari",
+    "Faqat nisbiy va ko'chirma tezlanishlarining yig'indisi",
+    "Faqat Koriolis tezlanishi",
+    "Faqat erkin tushish tezlanishi"
+   ],
+   "e": "Koriolis teoremasi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Koriolis tezlanishi qanday formula bilan topiladi?",
+   "a": [
+    "ac = 2·ωe × vr",
+    "ac = ωe·vr/2",
+    "ac = ωe²·r",
+    "ac = vr²/r"
+   ],
+   "e": "Ko'chirma burchak tezligi va nisbiy tezlikning vektor ko'paytmasi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Koriolis tezlanishi qachon nolga teng bo'ladi (ωe ≠ 0)?",
+   "a": [
+    "Nisbiy tezlik ωe ga parallel bo'lsa",
+    "Nisbiy tezlik ωe ga perpendikulyar bo'lsa",
+    "Nisbiy tezlik maksimal bo'lsa",
+    "Hech qachon"
+   ],
+   "e": "Vektor ko'paytma nolga teng."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Shimoliy yarimsharda daryolarning o'ng qirg'og'i ko'proq yuvilishiga sabab nima?",
+   "a": [
+    "Koriolis kuchi ta'siri",
+    "Shamolning g'arbdan esishi",
+    "Quyosh nuri ta'siri",
+    "Oy tortishi"
+   ],
+   "e": "Ber qonuni."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Tramvay vagonida yurayotgan yo'lovchining yerga nisbatan tezligi qaysi harakatga misol?",
+   "a": [
+    "Murakkab harakat",
+    "Faqat ilgarilanma harakat",
+    "Faqat aylanma harakat",
+    "Sferik harakat"
+   ],
+   "e": "Nisbiy + ko'chirma."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Inersial sanoq sistemasi deb qanday sistemaga aytiladi?",
+   "a": [
+    "Inersiya qonuni bajariladigan sistemaga",
+    "Tezlanish bilan aylanayotgan har qanday sistemaga",
+    "Faqat Yer markaziga bog'langan, aylanuvchi sistemaga",
+    "Har doim tormozlanayotgan transport vositasiga bog'langan sistemaga"
+   ],
+   "e": "Ko'pchilik texnik masalalarda Yer inersial deb olinadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Moddiy nuqta harakatining differensial tenglamasi Dekart koordinatalarida qanday yoziladi?",
+   "a": [
+    "m·ẍ = ΣFx, m·ÿ = ΣFy, m·z̈ = ΣFz",
+    "m·ẋ = ΣFx, m·ẏ = ΣFy, m·ż = ΣFz",
+    "ẍ = m·ΣFx",
+    "m = ΣF·x"
+   ],
+   "e": "Ikkinchi tartibli tenglamalar."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Nisbiy harakat dinamikasida qanday qo'shimcha kuchlar kiritiladi?",
+   "a": [
+    "Ko'chirma va Koriolis inersiya kuchlari",
+    "Faqat ishqalanish va qarshilik kuchlari",
+    "Faqat elastiklik kuchlari",
+    "Hech qanday kuch kiritilmaydi"
+   ],
+   "e": "Noinersial sistemada."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Koriolis inersiya kuchi qanday ifodalanadi?",
+   "a": [
+    "Φc = −2m·(ωe × vr)",
+    "Φc = m·g",
+    "Φc = m·ω²·r",
+    "Φc = −m·a"
+   ],
+   "e": "Nisbiy tezlikka perpendikulyar."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Aylanuvchi platformadagi tinch jismga qanday inersiya kuchi ta'sir qiladi (nisbiy harakat yo'q)?",
+   "a": [
+    "Markazdan qochma inersiya kuchi",
+    "Koriolis inersiya kuchi, nisbiy tezlikka perpendikulyar",
+    "Faqat platforma sirtidagi ishqalanish kuchi",
+    "Hech qanday kuch ta'sir qilmaydi"
+   ],
+   "e": "Φ = m·ω²·r, vr = 0 da Koriolis yo'q."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Nisbiy muvozanat sharti qanday?",
+   "a": [
+    "Haqiqiy kuchlar va ko'chirma inersiya kuchi muvozanatda bo'lishi",
+    "Faqat og'irlik kuchi va normal reaksiya nolga teng bo'lishi",
+    "Koriolis inersiya kuchi maksimal bo'lishi",
+    "Jism absolyut tezligi nolga teng bo'lishi"
+   ],
+   "e": "Nisbiy tinchlikda Koriolis kuchi nolga teng."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Erkin tebranishlar differensial tenglamasi qanday ko'rinishda?",
+   "a": [
+    "ẍ + k²x = 0",
+    "ẍ − k²x = 0",
+    "ẋ + k·x = 0",
+    "ẍ = const"
+   ],
+   "e": "Yechimi x = A·sin(kt + α)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Erkin tebranishlar amplitudasi nimaga bog'liq?",
+   "a": [
+    "Boshlang'ich shartlarga",
+    "Faqat prujina bikirligiga",
+    "Faqat massaga",
+    "Faqat vaqtga"
+   ],
+   "e": "A = √(x₀² + v₀²/k²)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massasi 2 kg yuk bikirligi 200 N/m prujinaga osilgan. Xususiy burchak chastota qancha?",
+   "a": [
+    "10 rad/s",
+    "100 rad/s",
+    "1 rad/s",
+    "400 rad/s"
+   ],
+   "e": "k = √(200/2)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Prujinaga osilgan yukning statik cho'zilishi 10 sm. Tebranish davri taxminan qancha (g ≈ 9,81)?",
+   "a": [
+    "0,63 s",
+    "6,3 s",
+    "0,1 s",
+    "1 s"
+   ],
+   "e": "T = 2π√(δst/g) = 2π√(0,0102)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ikki prujina ketma-ket ulanganda ekvivalent bikirlik qanday topiladi?",
+   "a": [
+    "1/c = 1/c₁ + 1/c₂",
+    "c = c₁ + c₂",
+    "c = c₁·c₂",
+    "c = c₁ − c₂"
+   ],
+   "e": "Parallel ulanganda c = c₁ + c₂."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Bikirliklari 100 va 300 N/m bo'lgan prujinalar parallel ulangan. Ekvivalent bikirlik qancha?",
+   "a": [
+    "400 N/m",
+    "75 N/m",
+    "200 N/m",
+    "30 000 N/m"
+   ],
+   "e": "c₁ + c₂."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Qovushqoq qarshilikda so'nuvchi tebranishlar amplitudasi qanday kamayadi?",
+   "a": [
+    "Eksponensial qonun bo'yicha",
+    "Chiziqli ravishda, har davrda bir xil miqdorga",
+    "Birinchi davrdayoq darhol nolga tushadi",
+    "Umuman kamaymaydi"
+   ],
+   "e": "A·e^(−nt)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "So'nishning logarifmik dekrementi nimani tavsiflaydi?",
+   "a": [
+    "Ketma-ket amplitudalar nisbatining logarifmini",
+    "Tebranishlarning burchak chastotasini, rad/s da",
+    "Tebranayotgan jismning massasini",
+    "Prujinaning cho'zilgan uzunligini"
+   ],
+   "e": "Λ = n·T₁."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Kritik so'nishda (n ≥ k) qanday harakat bo'ladi?",
+   "a": [
+    "Aperiodik, tebranishsiz",
+    "Davriy tebranish ortib boradi",
+    "Rezonans",
+    "Garmonik tebranish"
+   ],
+   "e": "Jism muvozanat holatiga tebranmasdan qaytadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Majburiy tebranishlar amplitudasi rezonansda qarshilik bo'lmaganda qanday bo'ladi?",
+   "a": [
+    "Vaqt bilan cheksiz o'sadi",
+    "Nolga teng bo'lib qoladi",
+    "O'zgarmas va juda kichik bo'ladi",
+    "Asta-sekin kamayib boradi"
+   ],
+   "e": "Real tizimlarda qarshilik uni cheklaydi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Dinamik koeffitsiyent (kuchaytirish koeffitsiyenti) nimani ko'rsatadi?",
+   "a": [
+    "Majburiy tebranish amplitudasining statik siljishga nisbatini",
+    "Massaning prujina bikirligiga nisbatini",
+    "Xususiy va majburiy chastotalar yig'indisini",
+    "Davr va chastota ko'paytmasini"
+   ],
+   "e": "η = 1/|1 − z²| (qarshiliksiz)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Tebranishlarni izolyatsiya qilish (vibroizolyatsiya) qachon samarali?",
+   "a": [
+    "Ish chastotasi xususiy chastotadan √2 marta katta bo'lganda",
+    "Ish chastotasi xususiy chastotaga aniq teng bo'lganda",
+    "Xususiy chastota cheksiz katta bo'lganda",
+    "Hech qachon samarali bo'lmaydi"
+   ],
+   "e": "Yumshoq amortizatorlar qo'llaniladi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mexanik sistemaning harakat miqdori qanday aniqlanadi?",
+   "a": [
+    "Q = M·vC",
+    "Q = M·aC",
+    "Q = J·ω",
+    "Q = M·vC²/2"
+   ],
+   "e": "vC — massa markazi tezligi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Aylanayotgan g'ildirak (massa markazi qo'zg'almas) harakat miqdori nimaga teng?",
+   "a": [
+    "Nolga",
+    "J·ω ga",
+    "M·ω·R ga",
+    "Cheksizga"
+   ],
+   "e": "vC = 0."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Qayiqdan sakragan odam tufayli qayiqning orqaga surilishi qaysi qonun bilan tushuntiriladi?",
+   "a": [
+    "Harakat miqdorining saqlanishi",
+    "Faqat mexanik energiyaning saqlanishi qonuni",
+    "Elastiklikdagi Guk qonuni",
+    "Suyuqlikdagi Arximed qonuni"
+   ],
+   "e": "Tashqi gorizontal kuchlar kichik."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Reaktiv harakat qaysi teoremaga asoslanadi?",
+   "a": [
+    "Harakat miqdori o'zgarishi haqidagi teorema",
+    "Kinetik energiya o'zgarishi haqidagi teorema",
+    "Varinyon teoremasi",
+    "Uch kuch teoremasi"
+   ],
+   "e": "Meshcherskiy tenglamasi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mexanik sistemaning o'qqa nisbatan kinetik momenti (aylanma harakatda) qanday?",
+   "a": [
+    "Lz = Jz·ω",
+    "Lz = M·v",
+    "Lz = Jz·ω²/2",
+    "Lz = Jz/ω"
+   ],
+   "e": "Impuls momenti."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Kinetik moment o'zgarishi haqidagi teorema nima deydi?",
+   "a": [
+    "dL/dt = tashqi kuchlar bosh momenti",
+    "dL/dt = ichki kuchlar yig'indisi",
+    "dL/dt = 0 har doim",
+    "L = M·g"
+   ],
+   "e": "Moment teoremasi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Figurachi qo'llarini tanasiga yaqinlashtirsa, aylanish tezligi nega ortadi?",
+   "a": [
+    "Inersiya momenti kamayib, kinetik moment saqlanadi",
+    "Kinetik energiya kamayib, massa ortadi",
+    "Tanasining massasi ortadi",
+    "Muz bilan ishqalanish ortadi"
+   ],
+   "e": "J₁ω₁ = J₂ω₂."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Inersiya radiusi nima?",
+   "a": [
+    "J = M·i² bo'ladigan masofa",
+    "Jismning geometrik radiusi",
+    "Og'irlik markazidan chetgacha masofa",
+    "Aylanish o'qidan eng uzoq nuqtagacha masofa"
+   ],
+   "e": "i = √(J/M)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ingichka bir jinsli sterjenning o'rtasidan o'tuvchi perpendikulyar o'qqa nisbatan inersiya momenti qanday?",
+   "a": [
+    "Ml²/12",
+    "Ml²/3",
+    "Ml²/2",
+    "Ml²"
+   ],
+   "e": "Uchidan o'tuvchi o'qqa — Ml²/3."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Bir jinsli sharning markazidan o'tuvchi o'qqa nisbatan inersiya momenti qanday?",
+   "a": [
+    "2MR²/5",
+    "MR²/2",
+    "MR²",
+    "2MR²/3"
+   ],
+   "e": "Yupqa sferik qobiq — 2MR²/3."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ingichka halqaning o'z o'qiga nisbatan inersiya momenti qanday?",
+   "a": [
+    "MR²",
+    "MR²/2",
+    "2MR²/5",
+    "MR²/12"
+   ],
+   "e": "Barcha massa radius R da."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Tekis-parallel harakatdagi jismning kinetik energiyasi qanday?",
+   "a": [
+    "T = MvC²/2 + JCω²/2",
+    "T = MvC²/2 faqat",
+    "T = JCω²/2 faqat",
+    "T = M·vC·ω"
+   ],
+   "e": "Kyonig teoremasi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Sirpanmasdan dumalayotgan yaxlit silindrning kinetik energiyasi qanday (v — markaz tezligi)?",
+   "a": [
+    "3Mv²/4",
+    "Mv²/2",
+    "Mv²",
+    "Mv²/4"
+   ],
+   "e": "Mv²/2 + (MR²/2)(v/R)²/2."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Dalamber printsipi mexanik sistema uchun nimani ta'kidlaydi?",
+   "a": [
+    "Aktiv kuchlar, reaksiyalar va inersiya kuchlari muvozanatda",
+    "Faqat aktiv kuchlar o'zaro muvozanatda bo'ladi",
+    "Inersiya kuchlari har doim nolga teng bo'ladi",
+    "Reaksiya kuchlari har doim nolga teng bo'ladi"
+   ],
+   "e": "Kinetostatika."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Qattiq jism inersiya kuchlarini qo'zg'almas o'q atrofida aylanishda qanday keltirish mumkin?",
+   "a": [
+    "Bosh vektor −M·aC va bosh moment −Jz·ε",
+    "Faqat bitta kuch M·g",
+    "Faqat bitta juft J·ω",
+    "Hech qanday kuchga keltirib bo'lmaydi"
+   ],
+   "e": "Kinetostatika usuli."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Aylanuvchi jismda dinamik reaksiyalar paydo bo'lmasligi uchun aylanish o'qi qanday bo'lishi kerak?",
+   "a": [
+    "Bosh markaziy inersiya o'qi",
+    "Ixtiyoriy o'q",
+    "Og'irlik markazidan uzoqda joylashgan o'q",
+    "Faqat vertikal o'q"
+   ],
+   "e": "Dinamik muvozanatlash."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Rotorni statik muvozanatlash nimani ta'minlaydi?",
+   "a": [
+    "Massa markazi aylanish o'qida yotishini",
+    "Rotorning ikki baravar tezroq aylanishini",
+    "Rotor massasining nolga tushishini",
+    "Podshipniklar olib tashlanishini"
+   ],
+   "e": "Dinamik muvozanatlash — markazdan qochma momentlar ham nol."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Lagranjning II tur tenglamalari qanday koordinatalarda yoziladi?",
+   "a": [
+    "Umumlashgan koordinatalarda",
+    "Faqat Dekart koordinatalarida",
+    "Faqat qutb koordinatalarida",
+    "Faqat sferik koordinatalarda"
+   ],
+   "e": "d/dt(∂T/∂q̇) − ∂T/∂q = Q."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Umumlashgan kuch qanday aniqlanadi?",
+   "a": [
+    "Mumkin bo'lgan ko'chishdagi ish koeffitsiyenti sifatida",
+    "Barcha kuchlar modullarining arifmetik yig'indisi sifatida",
+    "Faqat reaksiya kuchlari yig'indisi sifatida",
+    "Massa va tezlanish ko'paytmasi sifatida"
+   ],
+   "e": "δA = ΣQj·δqj."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Dinamikaning umumiy tenglamasi (Dalamber–Lagranj printsipi) nimani ifodalaydi?",
+   "a": [
+    "Aktiv va inersiya kuchlarining mumkin bo'lgan ishlari yig'indisi nolga teng",
+    "Kinetik energiya har qanday holatda saqlanadi",
+    "Barcha reaksiya kuchlari ishi maksimal bo'ladi",
+    "Sistema massasi o'zgarmaydi"
+   ],
+   "e": "Ideal bog'lanishlar uchun."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Golonom bog'lanish nima?",
+   "a": [
+    "Faqat koordinatalar va vaqtni cheklovchi bog'lanish",
+    "Faqat tezliklarni cheklovchi integrallanmaydigan bog'lanish",
+    "Ishqalanishli bog'lanish",
+    "Hech narsani cheklamaydigan bog'lanish"
+   ],
+   "e": "Geometrik bog'lanishlar."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Statsionar bog'lanish nima?",
+   "a": [
+    "Tenglamasida vaqt oshkor qatnashmaydigan bog'lanish",
+    "Vaqt bilan o'zgaruvchi, harakatlanuvchi bog'lanish",
+    "Faqat harakatlanuvchi tayanch",
+    "Elastik prujinali bog'lanish"
+   ],
+   "e": "Masalan, qo'zg'almas sirt."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massasi 1000 kg avtomobil 20 m/s tezlikdan 10 s da tekis tormozlanib to'xtadi. Tormozlash kuchi qancha?",
+   "a": [
+    "2000 N",
+    "200 N",
+    "20 000 N",
+    "10 000 N"
+   ],
+   "e": "a = 2 m/s², F = ma."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massasi 2 kg jism 10 m/s tezlikda harakatlanmoqda. Kinetik energiyasi qancha?",
+   "a": [
+    "100 J",
+    "20 J",
+    "200 J",
+    "50 J"
+   ],
+   "e": "2·100/2."
+  },
+  {
+   "b": "Dinamika",
+   "q": "20 m balandlikdan tushgan 3 kg jismning yerga tushishdagi kinetik energiyasi (havo qarshiligisiz, g = 10)?",
+   "a": [
+    "600 J",
+    "60 J",
+    "6000 J",
+    "200 J"
+   ],
+   "e": "mgh."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Prujina 0,1 m siqildi, bikirligi 1000 N/m. To'plangan potensial energiya qancha?",
+   "a": [
+    "5 J",
+    "100 J",
+    "50 J",
+    "10 J"
+   ],
+   "e": "cx²/2."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Massasi 0,5 kg jism ipda R = 1 m aylana bo'ylab v = 4 m/s tezlik bilan gorizontal tekislikda aylanmoqda. Ip taranglik kuchi qancha?",
+   "a": [
+    "8 N",
+    "2 N",
+    "16 N",
+    "4 N"
+   ],
+   "e": "mv²/R."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Qiya tekislik bo'ylab ishqalanishsiz sirpanayotgan jism tezlanishi qanday (α — qiyalik burchagi)?",
+   "a": [
+    "a = g·sinα",
+    "a = g·cosα",
+    "a = g",
+    "a = g·tgα"
+   ],
+   "e": "Massaga bog'liq emas."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Ishqalanish bilan qiya tekislikdan sirpanayotgan jism tezlanishi qanday?",
+   "a": [
+    "a = g(sinα − f·cosα)",
+    "a = g(sinα + f·cosα)",
+    "a = g·f",
+    "a = g(cosα − f·sinα)"
+   ],
+   "e": "f — ishqalanish koeffitsiyenti."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Gorizontga 45° burchak ostida v₀ tezlik bilan otilgan jismning uchish masofasi qanday (havo qarshiligisiz)?",
+   "a": [
+    "v₀²/g",
+    "v₀²/(2g)",
+    "2v₀²/g",
+    "v₀/g"
+   ],
+   "e": "L = v₀²·sin2α/g, maksimal 45° da."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Vertikal yuqoriga 20 m/s tezlik bilan otilgan jism qancha balandlikka ko'tariladi (g = 10)?",
+   "a": [
+    "20 m",
+    "40 m",
+    "10 m",
+    "2 m"
+   ],
+   "e": "h = v₀²/(2g)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Havo qarshiligi tezlik kvadratiga proporsional bo'lganda, tushayotgan jism qanday holatga yetadi?",
+   "a": [
+    "O'zgarmas chegaraviy tezlikka",
+    "Cheksiz o'suvchi tezlikka",
+    "Darhol to'xtab qoladi",
+    "Tezlik tebranma o'zgaradi"
+   ],
+   "e": "Og'irlik va qarshilik tenglashadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Moddiy nuqta kinetik energiyasining o'zgarishi haqidagi teorema differensial shaklda qanday?",
+   "a": [
+    "dT = δA",
+    "dT = 0",
+    "dT = F·dt",
+    "dT = m·dv"
+   ],
+   "e": "Elementar ish."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Potensial kuch deb qanday kuchga aytiladi?",
+   "a": [
+    "Ishi trayektoriya shakliga bog'liq bo'lmagan kuchga",
+    "Ishi trayektoriya uzunligiga proporsional kuchga",
+    "Har doim nolga teng ish bajaruvchi kuchga",
+    "Faqat ishqalanish kuchiga"
+   ],
+   "e": "Og'irlik, elastiklik kuchlari."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Nopotensial (dissipativ) kuchga misol qaysi?",
+   "a": [
+    "Ishqalanish kuchi",
+    "Og'irlik kuchi",
+    "Prujina elastiklik kuchi",
+    "Gravitatsion tortishish kuchi"
+   ],
+   "e": "Mexanik energiyani kamaytiradi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mexanik sistemaning kinetik energiyasi o'zgarishida ichki kuchlar ishi hisobga olinadimi?",
+   "a": [
+    "Ha, umumiy holda",
+    "Yo'q, hech qachon",
+    "Faqat qattiq jismda",
+    "Faqat tashqi kuchlar bo'lmaganda"
+   ],
+   "e": "O'zgarmas sistemada (qattiq jism) ichki kuchlar ishi nolga teng."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mumkin bo'lgan ko'chish deb nimaga aytiladi?",
+   "a": [
+    "Bog'lanishlar ruxsat beradigan cheksiz kichik xayoliy ko'chishga",
+    "Jismning haqiqatda vaqt davomida bosib o'tgan yo'liga",
+    "Faqat vertikal yo'nalishdagi ko'chishga",
+    "Bog'lanishlarni buzuvchi ko'chishga"
+   ],
+   "e": "δr."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Gidravlik press yoki richag uchun mumkin bo'lgan ko'chishlar printsipidan qanday xulosa chiqadi?",
+   "a": [
+    "Kuchdan yutilsa, yo'ldan yutqaziladi",
+    "Kuchdan ham, yo'ldan ham yutiladi",
+    "Kuchdan ham, yo'ldan ham yutqaziladi",
+    "Ish nolga teng bo'ladi"
+   ],
+   "e": "Mexanikaning \"oltin qoidasi\"."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Richagning qisqa yelkasi 0,2 m, uzun yelkasi 1 m. 100 N yukni ko'tarish uchun uzun yelkaga qancha kuch kerak?",
+   "a": [
+    "20 N",
+    "500 N",
+    "100 N",
+    "50 N"
+   ],
+   "e": "F₁l₁ = F₂l₂."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Qo'zg'aluvchan blok kuchdan necha marta yutuq beradi (ishqalanishsiz)?",
+   "a": [
+    "2 marta",
+    "4 marta",
+    "Yutuq bermaydi",
+    "10 marta"
+   ],
+   "e": "Qo'zg'almas blok faqat yo'nalishni o'zgartiradi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Fizik mayatnik davri qanday?",
+   "a": [
+    "T = 2π√(J/(M·g·a))",
+    "T = 2π√(l/g)",
+    "T = 2π√(m/c)",
+    "T = J·g/a"
+   ],
+   "e": "a — osilish nuqtasidan massa markazigacha masofa."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Fizik mayatnikning keltirilgan uzunligi nima?",
+   "a": [
+    "Davri teng matematik mayatnik uzunligi",
+    "Mayatnikning geometrik uzunligi",
+    "Osilish nuqtasidan massa markazigacha masofa",
+    "Mayatnik radiusi"
+   ],
+   "e": "lk = J/(M·a)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Zarba nazariyasida asosiy taxmin nima?",
+   "a": [
+    "Zarba vaqtida jism ko'chishi hisobga olinmaydi",
+    "Zarba vaqti juda uzun, kuchi esa kichik deb olinadi",
+    "Zarba kuchi hisobga olinmaydigan darajada kichik",
+    "Jismlar hech qachon to'qnashmaydi deb olinadi"
+   ],
+   "e": "Zarba impulsi chekli, vaqt cheksiz kichik."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mutlaq elastik markaziy zarbada teng massali sharlardan biri tinch bo'lsa nima bo'ladi?",
+   "a": [
+    "Harakatdagi shar to'xtaydi, tinch shar uning tezligini oladi",
+    "Ikkala shar birga harakatlanadi",
+    "Ikkala shar to'xtaydi",
+    "Ikkala shar teskari tomonga uchadi"
+   ],
+   "e": "Tezliklar almashinadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Mutlaq noelastik zarbada m va m massali sharlar (biri v tezlikda, biri tinch) birlashsa, umumiy tezlik qancha?",
+   "a": [
+    "v/2",
+    "v",
+    "2v",
+    "0"
+   ],
+   "e": "mv = 2m·u."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Tiklanish koeffitsiyenti k = 1 bo'lsa, zarba qanday?",
+   "a": [
+    "Mutlaq elastik",
+    "Mutlaq noelastik",
+    "Qisman elastik",
+    "Zarba bo'lmaydi"
+   ],
+   "e": "Kinetik energiya saqlanadi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Zarba markazi nima?",
+   "a": [
+    "Zarbada o'qda reaksiya hosil bo'lmaydigan nuqta",
+    "Jismning og'irlik markazi",
+    "Zarba kuchi eng katta bo'lgan nuqta",
+    "Aylanish o'qidagi nuqta"
+   ],
+   "e": "Beysbol tayog'i \"shirin nuqtasi\"."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Giroskop xossasi nima?",
+   "a": [
+    "Tez aylanuvchi o'q o'z yo'nalishini saqlashga intiladi",
+    "Tez aylanuvchi jismning massasi aylanish tezligi bilan ortadi",
+    "Giroskop hech qachon o'z o'qi atrofida aylanmaydi",
+    "Giroskop faqat vertikal holatda ishlaydi"
+   ],
+   "e": "Navigatsiya asboblarida."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Giroskopik pretsessiya nima?",
+   "a": [
+    "Tashqi moment ta'sirida aylanish o'qining sekin burilishi",
+    "Aylanish tezligining tashqi moment ta'sirida keskin ortishi",
+    "Giroskopning darhol to'xtab qolishi",
+    "Giroskop massasining kamayishi"
+   ],
+   "e": "Ω = M/(Jω)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "O'zgaruvchan massali nuqta dinamikasi tenglamasi kimning nomi bilan ataladi?",
+   "a": [
+    "Meshcherskiy",
+    "Nyuton",
+    "Guk",
+    "Paskal"
+   ],
+   "e": "Raketa harakati."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Siolkovskiy formulasi nimani aniqlaydi?",
+   "a": [
+    "Raketaning yoqilg'i yonib bo'lgandagi tezligini",
+    "Raketaning og'irlik markazi holatini parvoz davomida",
+    "Raketa korpusining mustahkamligini",
+    "Raketa yoqilg'isi haroratini"
+   ],
+   "e": "v = u·ln(M₀/M)."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Gamilton printsipi nimaga asoslanadi?",
+   "a": [
+    "Haqiqiy harakatda ta'sir integrali statsionar qiymatga ega",
+    "Kinetik energiya har doim maksimal qiymatga ega bo'ladi",
+    "Potensial energiya har doim nolga teng bo'ladi",
+    "Harakat miqdori har doim o'zgaradi"
+   ],
+   "e": "Eng kichik ta'sir printsipi."
+  },
+  {
+   "b": "Dinamika",
+   "q": "Lagranj funksiyasi qanday aniqlanadi?",
+   "a": [
+    "L = T − П",
+    "L = T + П",
+    "L = T·П",
+    "L = T/П"
+   ],
+   "e": "Kinetik va potensial energiyalar ayirmasi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Krivoship-polzun mexanizmida krivoship qanday harakat qiladi?",
+   "a": [
+    "Aylanma",
+    "Ilgarilanma-qaytma",
+    "Tekis-parallel",
+    "Sferik"
+   ],
+   "e": "Polzun — ilgarilanma, shatun — tekis-parallel."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Krivoship-polzun mexanizmida shatun qanday harakat qiladi?",
+   "a": [
+    "Tekis-parallel",
+    "Aylanma",
+    "Ilgarilanma",
+    "Tinch turadi"
+   ],
+   "e": "TOM orqali tezliklar topiladi."
+  },
+  {
+   "b": "Kinematika",
+   "q": "Velosiped g'ildiragi tekis yo'lda sirpanmasdan dumalaydi. G'ildirak markazining trayektoriyasi qanday?",
+   "a": [
+    "To'g'ri chiziq",
+    "Sikloida",
+    "Aylana",
+    "Parabola"
+   ],
+   "e": "Gardishdagi nuqta sikloida chizadi."
+  }
+ ]
+}
