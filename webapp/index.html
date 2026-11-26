@@ -3,185 +3,134 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
-<title>Attestatsiya</title>
+<title>Attestatsiyaga tayyorlov</title>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#0F1226; --bg2:#171B36; --card:#1B2042; --card2:#222850; --line:#2C3363;
+  --bg:#0F1226; --card:#1B2042; --card2:#222850; --line:#2C3363;
   --green:#22F573; --green-d:#12C95A; --pink:#F70077; --orange:#FF8C4C; --blue:#5498FF;
   --white:#F7F8F9; --muted:#9AA1C9; --dim:#6B729E;
-  --r:18px; --r-sm:12px;
-  --safe-b:env(safe-area-inset-bottom,0px);
+  --r:18px; --safe-b:env(safe-area-inset-bottom,0px);
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;padding:0}
-body{
-  font-family:Manrope,system-ui,sans-serif;color:var(--white);background:var(--bg);
-  min-height:100vh;overflow-x:hidden;font-size:15px;line-height:1.45;
-}
-body::before{ /* fon nurlari */
-  content:"";position:fixed;inset:-20% -30% auto -30%;height:120%;z-index:-1;pointer-events:none;
-  background:
-    radial-gradient(40% 30% at 15% 10%, rgba(120,60,220,.35), transparent 70%),
-    radial-gradient(35% 25% at 90% 35%, rgba(34,245,115,.12), transparent 70%),
-    radial-gradient(45% 30% at 30% 80%, rgba(84,152,255,.18), transparent 70%),
-    linear-gradient(180deg,#141832 0%, #0F1226 60%);
-}
+body{font-family:Manrope,system-ui,sans-serif;color:var(--white);background:var(--bg);min-height:100vh;overflow-x:hidden;font-size:15px;line-height:1.45}
+body::before{content:"";position:fixed;inset:-20% -30% auto -30%;height:120%;z-index:-1;pointer-events:none;
+  background:radial-gradient(40% 30% at 15% 10%,rgba(84,152,255,.22),transparent 70%),radial-gradient(35% 25% at 90% 35%,rgba(34,245,115,.08),transparent 70%),linear-gradient(180deg,#141832 0%,#0F1226 60%)}
 h1,h2,.serif{font-family:Fraunces,Georgia,serif;font-weight:800;letter-spacing:-.01em;margin:0}
 button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
 input{font:inherit}
 .app{max-width:520px;margin:0 auto;padding:14px 16px calc(96px + var(--safe-b))}
 .hidden{display:none!important}
-
-/* yuqori panel */
-.topbar{display:flex;align-items:center;gap:10px;margin-bottom:18px}
-.ava{width:40px;height:40px;border-radius:50%;flex:none;display:grid;place-items:center;font-weight:800;
-  background:linear-gradient(135deg,var(--blue),#8a5cff);overflow:hidden;font-size:15px}
+.topbar{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.ava{width:40px;height:40px;border-radius:50%;flex:none;display:grid;place-items:center;font-weight:800;background:linear-gradient(135deg,var(--blue),#8a5cff);overflow:hidden;font-size:15px}
 .ava img{width:100%;height:100%;object-fit:cover}
 .topbar .who{flex:1;min-width:0}
 .topbar .who b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .topbar .who small{color:var(--muted);font-size:12px}
-.pill{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);
-  border-radius:999px;padding:6px 11px;font-weight:700;font-size:13px;white-space:nowrap}
-.pill svg{width:16px;height:16px}
-
-/* sarlavha */
-.hero{margin:6px 0 18px;position:relative}
-.hero h1{font-size:34px;line-height:1.05}
-.hero h1 .g{color:var(--green);display:block}
-.hero p{color:var(--muted);margin:10px 0 0;font-size:14px;max-width:34ch}
-.spark{position:absolute;right:8px;top:30px;width:34px;height:34px;color:var(--green)}
-
-/* kartochka */
-.card{background:linear-gradient(180deg,rgba(34,40,80,.92),rgba(27,32,66,.92));border:1px solid var(--line);
-  border-radius:var(--r);padding:16px;margin-bottom:14px;backdrop-filter:blur(8px)}
-.card h3{margin:0 0 12px;font-size:15px;font-weight:800}
-.card .sub{color:var(--muted);font-size:13px;margin:-6px 0 12px}
-
-/* daraja */
-.lvl{display:flex;gap:14px;align-items:center}
-.lvl .gem{width:64px;height:64px;flex:none;filter:drop-shadow(0 6px 18px rgba(34,245,115,.45))}
-.lvl .info{flex:1;min-width:0}
-.lvl .name{font-family:Fraunces,serif;font-weight:800;font-size:20px}
-.lvl .meta{color:var(--muted);font-size:12.5px;margin-top:2px}
-.bar{height:9px;border-radius:9px;background:#0E1230;overflow:hidden;margin-top:10px;border:1px solid var(--line)}
-.bar i{display:block;height:100%;width:0;border-radius:9px;background:linear-gradient(90deg,var(--green-d),var(--green));
-  box-shadow:0 0 12px rgba(34,245,115,.6);transition:width .8s cubic-bezier(.2,.8,.2,1)}
-.levels{display:flex;align-items:flex-start;justify-content:space-between;margin-top:16px;gap:2px}
-.levels .l{flex:1;text-align:center;font-size:10.5px;color:var(--muted);line-height:1.25}
-.levels .l svg{width:34px;height:34px;display:block;margin:0 auto 4px}
-.levels .l.off svg{filter:grayscale(1) brightness(.55);opacity:.7}
-.levels .l b{display:block;color:var(--white);font-size:11px}
-.levels .arrow{color:var(--dim);font-size:10px;padding-top:12px}
-
-/* check-in */
-.days{display:flex;gap:6px;justify-content:space-between;margin-bottom:12px}
-.day{flex:1;text-align:center;font-size:10px;color:var(--dim)}
-.day .c{width:100%;aspect-ratio:1;max-width:40px;margin:0 auto 4px;border-radius:50%;display:grid;place-items:center;
-  font-weight:800;font-size:11.5px;background:var(--white);color:#141832}
-.day.done .c{background:var(--green);color:#06210F;box-shadow:0 0 12px rgba(34,245,115,.55)}
-.day.next .c{outline:2px dashed var(--green);outline-offset:2px}
-
-/* tugmalar */
-.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px 16px;border-radius:14px;
-  font-weight:800;font-size:15px;background:var(--green);color:#06210F;box-shadow:0 8px 24px rgba(34,245,115,.25);
-  transition:transform .12s, opacity .2s}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 11px;font-weight:700;font-size:12.5px;white-space:nowrap}
+.pill.g{border-color:rgba(34,245,115,.5);color:var(--green)}
+.card{background:linear-gradient(180deg,rgba(34,40,80,.92),rgba(27,32,66,.92));border:1px solid var(--line);border-radius:var(--r);padding:16px;margin-bottom:14px}
+.card h3{margin:0 0 10px;font-size:15px;font-weight:800}
+.sub{color:var(--muted);font-size:13px;margin:0 0 12px}
+.grp{font-size:12px;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin:16px 2px 8px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px 16px;border-radius:14px;font-weight:800;font-size:15px;background:var(--green);color:#06210F;box-shadow:0 8px 24px rgba(34,245,115,.2);transition:transform .12s,opacity .2s}
 .btn:active{transform:scale(.98)}
 .btn[disabled]{opacity:.45;box-shadow:none}
 .btn.ghost{background:var(--card2);color:var(--white);box-shadow:none;border:1px solid var(--line)}
-.btn.white{background:var(--white);color:#141832;box-shadow:none}
-.row{display:flex;gap:10px}
-.row>*{flex:1}
-
-/* statistika */
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);padding:12px 10px;text-align:center}
-.stat b{display:block;font-family:Fraunces,serif;font-size:22px}
-.stat span{font-size:11.5px;color:var(--muted)}
-
-/* ro'yxat */
+.btn.sm{padding:9px 12px;font-size:13px;width:auto;border-radius:11px}
+.row{display:flex;gap:10px}.row>*{flex:1}
 .list{display:flex;flex-direction:column;gap:8px}
-.item{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;
-  padding:13px 14px;text-align:left;width:100%;transition:border-color .15s, background .15s}
+.item{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 14px;text-align:left;width:100%}
 .item:active{background:var(--card2)}
 .item .t{flex:1;min-width:0}
 .item .t b{display:block;font-weight:700;font-size:14px}
 .item .t small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
 .item .n{color:var(--muted);font-size:12px;font-weight:700;white-space:nowrap}
-.item .chev{color:var(--dim)}
-.tag{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 7px;border-radius:999px;margin-left:6px;vertical-align:1px}
+.chev{color:var(--dim)}
+.tag{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 7px;border-radius:999px;vertical-align:1px}
 .tag.g{background:rgba(34,245,115,.14);color:var(--green)}
 .tag.b{background:rgba(84,152,255,.15);color:var(--blue)}
-.grp{font-size:12px;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin:14px 2px 6px}
-
+.tag.p{background:rgba(247,0,119,.14);color:#ff5aa8}
 .crumbs{display:flex;align-items:center;gap:8px;margin-bottom:12px}
 .back{width:36px;height:36px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:grid;place-items:center;flex:none}
 .crumbs .ct{min-width:0}
 .crumbs .ct small{color:var(--muted);font-size:12px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .crumbs .ct b{font-family:Fraunces,serif;font-size:20px;display:block;line-height:1.15}
-.search{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#12163A;color:var(--white);
-  margin-bottom:10px;outline:none}
-.search:focus{border-color:var(--green)}
-.seg{display:flex;background:#12163A;border:1px solid var(--line);border-radius:999px;padding:4px;margin-bottom:14px}
+.search,.inp{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#12163A;color:var(--white);margin-bottom:10px;outline:none}
+.search:focus,.inp:focus{border-color:var(--green)}
+.seg{display:flex;background:#12163A;border:1px solid var(--line);border-radius:999px;padding:4px;margin-bottom:12px}
 .seg button{flex:1;padding:9px 6px;border-radius:999px;font-weight:800;font-size:13px;color:var(--muted)}
 .seg button.on{background:var(--green);color:#06210F}
-
-/* test */
-.qhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;font-size:13px;color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 10px}
+.kpi b{display:block;font-family:Fraunces,serif;font-size:22px;line-height:1.1}
+.kpi span{font-size:11.5px;color:var(--muted)}
+.ready{display:flex;gap:16px;align-items:center}
+.ready svg{width:104px;height:104px;flex:none}
+.ready .v{font-family:Fraunces,serif;font-size:20px}
+.bar{height:8px;border-radius:8px;background:#0E1230;overflow:hidden;border:1px solid var(--line);position:relative}
+.bar i{display:block;height:100%;border-radius:8px;background:var(--green);transition:width .7s}
+.bar i.low{background:var(--pink)}.bar i.mid{background:var(--orange)}
+.bar .mark{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--white);opacity:.55}
+.subj{padding:12px 0;border-top:1px solid var(--line)}
+.subj:first-child{border-top:0;padding-top:0}
+.subj .h{display:flex;justify-content:space-between;gap:8px;font-size:14px;font-weight:700;margin-bottom:6px}
+.subj .h span{white-space:nowrap}
+.subj .m{display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--muted);font-size:12px;margin-top:6px}
+.trend{display:flex;align-items:flex-end;gap:6px;height:90px;padding-top:6px}
+.trend div{flex:1;border-radius:6px 6px 2px 2px;min-height:4px}
+.trend div.ok{background:var(--green)}.trend div.no{background:var(--pink)}
+.weak{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line);font-size:13.5px}
+.weak:first-child{border-top:0;padding-top:0}
+.weak .pc{font-weight:800;color:#ff5aa8;min-width:42px}
+.mode{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:13px 14px;margin-bottom:8px}
+.mode.on{border-color:var(--green);background:rgba(34,245,115,.06)}
+.mode .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:#12163A;flex:none;font-size:17px}
+.mode b{display:block;font-size:14px}.mode small{color:var(--muted);font-size:12px}
+.qhead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px;font-size:13px;color:var(--muted)}
 .qhead b{color:var(--white)}
+.qhead>span:first-child{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.qhead>b{white-space:nowrap}
+.timer{font-variant-numeric:tabular-nums;font-weight:800;color:var(--white)}
+.timer.warn{color:var(--orange)}
 .qtext{font-size:17px;font-weight:700;line-height:1.4;margin:6px 0 16px}
-.opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;background:var(--card);border:1.5px solid var(--line);
-  border-radius:14px;padding:13px 14px;margin-bottom:9px;font-size:14.5px;transition:all .18s}
+.opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:13px 14px;margin-bottom:9px;font-size:14.5px}
 .opt .L{width:28px;height:28px;flex:none;border-radius:9px;display:grid;place-items:center;font-weight:800;background:#12163A;color:var(--muted)}
-.opt.sel{border-color:var(--blue)}
-.opt.ok{border-color:var(--green);background:rgba(34,245,115,.1)}
-.opt.ok .L{background:var(--green);color:#06210F}
-.opt.bad{border-color:var(--pink);background:rgba(247,0,119,.1)}
-.opt.bad .L{background:var(--pink);color:#fff}
-.opt[disabled]{cursor:default}
-.explain{border-left:3px solid var(--green);background:rgba(34,245,115,.06);padding:10px 12px;border-radius:0 12px 12px 0;
-  color:#CFE9DA;font-size:13.5px;margin:6px 0 14px}
+.opt.sel{border-color:var(--blue)}.opt.sel .L{background:var(--blue);color:#fff}
+.opt.ok{border-color:var(--green);background:rgba(34,245,115,.1)}.opt.ok .L{background:var(--green);color:#06210F}
+.opt.bad{border-color:var(--pink);background:rgba(247,0,119,.1)}.opt.bad .L{background:var(--pink);color:#fff}
+.explain{border-left:3px solid var(--green);background:rgba(34,245,115,.06);padding:10px 12px;border-radius:0 12px 12px 0;color:#CFE9DA;font-size:13.5px;margin:6px 0 14px}
 .explain.bad{border-color:var(--pink);background:rgba(247,0,119,.07);color:#F2C9DC}
-
-/* yuklanish */
 .loader{display:flex;flex-direction:column;align-items:center;text-align:center;padding:60px 12px}
-.ring{width:56px;height:56px;border-radius:50%;border:4px solid rgba(34,245,115,.15);border-top-color:var(--green);animation:spin 1s linear infinite;margin-bottom:18px}
+.ring{width:48px;height:48px;border-radius:50%;border:4px solid rgba(34,245,115,.15);border-top-color:var(--green);animation:spin 1s linear infinite;margin-bottom:16px}
 @keyframes spin{to{transform:rotate(360deg)}}
-.loader b{font-family:Fraunces,serif;font-size:20px}
-.loader p{color:var(--muted);margin:8px 0 0;font-size:13.5px;min-height:40px}
-
-/* natija */
-.score{display:grid;place-items:center;margin:8px 0 16px}
-.score svg{width:170px;height:170px}
-.score .pc{font-family:Fraunces,serif;font-size:40px;font-weight:800}
-.badge{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;font-weight:800;font-size:13px}
-.badge.g{background:rgba(34,245,115,.15);color:var(--green)}
-.badge.p{background:rgba(247,0,119,.15);color:#ff5aa8}
-.xpgain{font-family:Fraunces,serif;font-size:26px;color:var(--green)}
-
-/* reyting */
-.lb .item{padding:10px 12px}
-.rank{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:800;color:var(--muted);flex:none}
-.rank.r1{background:#FFC83D;color:#3a2600}.rank.r2{background:#C9D3F2;color:#1d2340}.rank.r3{background:var(--orange);color:#3a1600}
-.lb .ava{width:32px;height:32px;font-size:12px}
-.lb .xp{font-weight:800;font-size:13px;display:flex;align-items:center;gap:5px}
-.lb .xp svg{width:14px;height:14px}
-.me-row{position:sticky;bottom:calc(84px + var(--safe-b));margin-top:10px;border-color:var(--green)!important;background:#1A2A3A!important}
-
-/* pastki menyu */
-.nav{position:fixed;left:0;right:0;bottom:0;z-index:10;padding:8px 16px calc(10px + var(--safe-b));
-  background:linear-gradient(180deg,rgba(15,18,38,0),rgba(15,18,38,.96) 30%)}
+.loader p{color:var(--muted);margin:8px 0 0;font-size:13.5px}
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:6px}
+.plan{position:relative;text-align:left;background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:14px}
+.plan.on{border-color:var(--green);background:rgba(34,245,115,.06)}
+.plan b{display:block;font-size:14px}
+.plan .pr{font-family:Fraunces,serif;font-size:22px;margin:6px 0 2px}
+.plan small{color:var(--muted);font-size:12px}
+.plan .best{position:absolute;top:-9px;right:10px;background:var(--green);color:#06210F;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:999px}
+.cardno{display:flex;align-items:center;justify-content:space-between;gap:10px;background:linear-gradient(135deg,#2a3270,#1c2150);border:1px solid var(--line);border-radius:16px;padding:16px}
+.cardno .num{font-family:ui-monospace,Menlo,monospace;font-size:18px;letter-spacing:.05em;font-weight:700}
+.cardno small{display:block;color:var(--muted);font-size:12px;margin-top:4px}
+.steps{margin:0;padding-left:18px;color:var(--muted);font-size:13.5px}
+.steps li{margin:4px 0}.steps b{color:var(--white)}
+.upload{display:flex;align-items:center;gap:10px;border:1.5px dashed var(--line);border-radius:14px;padding:14px;margin-bottom:10px;cursor:pointer;color:var(--muted);font-size:13.5px}
+.upload.has{border-color:var(--green);color:var(--white)}
+.lock{font-size:12px;color:var(--orange);font-weight:800}
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:10;padding:8px 16px calc(10px + var(--safe-b));background:linear-gradient(180deg,rgba(15,18,38,0),rgba(15,18,38,.96) 30%)}
 .nav .in{max-width:520px;margin:0 auto;display:flex;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:6px}
 .nav button{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:7px 0;border-radius:14px;font-size:11px;font-weight:700;color:var(--muted)}
 .nav button svg{width:22px;height:22px}
 .nav button.on{color:var(--green);background:rgba(34,245,115,.08)}
-
-.empty{color:var(--muted);text-align:center;padding:24px 8px;font-size:13.5px}
-.toast{position:fixed;left:50%;top:14px;transform:translate(-50%,-120%);background:var(--card2);border:1px solid var(--line);
-  padding:10px 16px;border-radius:12px;font-weight:700;font-size:13.5px;z-index:50;transition:transform .3s;max-width:90vw;text-align:center}
+.empty{color:var(--muted);text-align:center;padding:22px 8px;font-size:13.5px}
+.toast{position:fixed;left:50%;top:14px;transform:translate(-50%,-140%);background:var(--card2);border:1px solid var(--line);padding:10px 16px;border-radius:12px;font-weight:700;font-size:13.5px;z-index:50;transition:transform .3s;max-width:90vw;text-align:center}
 .toast.show{transform:translate(-50%,0)}
 .fade{animation:fade .25s ease}
 @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -190,318 +139,290 @@ input{font:inherit}
 </head>
 <body>
 <div class="app" id="app"></div>
-<nav class="nav" id="nav">
-  <div class="in">
-    <button data-tab="home" class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Bosh sahifa</button>
-    <button data-tab="test"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg>Test</button>
-    <button data-tab="rating"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>Reyting</button>
-  </div>
-</nav>
+<nav class="nav" id="nav"><div class="in">
+  <button data-tab="home" class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Tahlil</button>
+  <button data-tab="test"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg>Test</button>
+  <button data-tab="premium"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M12 21 8 9l4-6 4 6z"/></svg>Premium</button>
+</div></nav>
 <div class="toast" id="toast"></div>
-
 <script>
 "use strict";
 const tg = window.Telegram && Telegram.WebApp;
-if (tg) {
-  tg.ready(); tg.expand();
-  try { tg.setHeaderColor("#141832"); tg.setBackgroundColor("#0F1226"); } catch (e) {}
-}
+if (tg) { tg.ready(); tg.expand(); try { tg.setHeaderColor("#141832"); tg.setBackgroundColor("#0F1226"); } catch (e) {} }
 const $app = document.getElementById("app");
 const LETTERS = "ABCD";
-const GEM_COLORS = [["#5BFF9C","#22F573","#0E9F48"],["#9CC4FF","#5498FF","#2B5FC7"],["#FFC29C","#FF8C4C","#C7531A"],["#FF7AB8","#F70077","#A1004E"],["#FFFFFF","#C9B8FF","#7B5CFF"]];
-const LEVEL_NAMES = ["Boshlovchi","Izlanuvchi","Malakali","Ekspert","Ustoz"];
-const LEVEL_XP = [0,300,1000,3000,7000];
-
-/* ---------- yordamchilar ---------- */
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmt = n => Number(n||0).toLocaleString("ru-RU").replace(/ /g," ");
-const haptic = (t) => { try { t==="ok"||t==="err" ? tg.HapticFeedback.notificationOccurred(t==="ok"?"success":"error") : tg.HapticFeedback.impactOccurred("light"); } catch(e){} };
-function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2600); }
-function gem(level, cls=""){
-  const [a,b,c] = GEM_COLORS[Math.max(0,Math.min(4,level-1))];
-  const id = "g"+Math.random().toString(36).slice(2,8);
-  return `<svg class="${cls}" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${a}"/><stop offset=".55" stop-color="${b}"/><stop offset="1" stop-color="${c}"/></linearGradient></defs>
-  <path d="M32 3 55 20 47 55H17L9 20Z" fill="url(#${id})"/><path d="M32 3 40 20H24Z M9 20h46L32 61Z" fill="#fff" opacity=".16"/><path d="M24 20 32 61 40 20Z" fill="#fff" opacity=".12"/><path d="M32 3 24 20 9 20Z" fill="#fff" opacity=".3"/></svg>`;
-}
-function avatar(name, photo){
-  if (photo) return `<div class="ava"><img src="${esc(photo)}" alt="" referrerpolicy="no-referrer"></div>`;
-  const ini = String(name||"?").trim().split(/\s+/).map(w=>w[0]).join("").slice(0,2).toUpperCase();
-  return `<div class="ava">${esc(ini)}</div>`;
-}
-
-async function api(path, body){
-  const headers = {"Content-Type":"application/json"};
+const pc = (a,b) => b ? Math.round(100*a/b) : 0;
+const PASS = () => S.me?.pass_percent || 60;
+const cls = p => p >= PASS() ? "" : (p >= 40 ? "mid" : "low");
+const haptic = t => { try { t==="ok"||t==="err" ? tg.HapticFeedback.notificationOccurred(t==="ok"?"success":"error") : tg.HapticFeedback.impactOccurred("light"); } catch(e){} };
+function toast(m){ const t=document.getElementById("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2800); }
+function avatar(name, photo){ if (photo) return `<div class="ava"><img src="${esc(photo)}" alt="" referrerpolicy="no-referrer"></div>`; const ini=String(name||"?").trim().split(/\s+/).map(w=>w[0]).join("").slice(0,2).toUpperCase(); return `<div class="ava">${esc(ini)}</div>`; }
+const mmss = s => `${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`;
+class PayErr extends Error {}
+async function api(path, body, form){
+  const headers = {}; if (!form) headers["Content-Type"]="application/json";
   if (tg && tg.initData) headers.Authorization = "tma " + tg.initData;
-  const r = await fetch(path, {method: body ? "POST" : "GET", headers, body: body ? JSON.stringify(body) : undefined});
-  if (!r.ok) { const t = await r.text(); throw new Error(t || ("Xato " + r.status)); }
+  const r = await fetch(path, {method: body||form ? "POST" : "GET", headers, body: form || (body ? JSON.stringify(body) : undefined)});
+  if (!r.ok) { let t = await r.text(); try { const j = JSON.parse(t); t = j.message || j.text || t; } catch(e){}
+    if (r.status===402) throw new PayErr(t); throw new Error(t || ("Xato " + r.status)); }
   return r.json();
 }
+const S = { tab:"home", me:null, catalog:null, bank:[], bankSel:null, path:[], fanlar:null, filter:"", soni:10, rejim:"mashq",
+            quiz:null, qi:0, answered:null, picks:{}, result:null, loading:false, plan:"3oy", chek:null, timerH:null };
 
-/* ---------- holat ---------- */
-const S = { tab:"home", me:null, catalog:null, bank:[], bankSel:null, path:[], fanlar:null, quiz:null, qi:0, answered:null, result:null, filter:"", soni:10, loadingTip:0 };
-
-function setTab(t){
-  S.tab = t;
-  document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("on", b.dataset.tab===t));
-  render(); window.scrollTo(0,0);
-}
-document.querySelectorAll(".nav button").forEach(b=>b.onclick=()=>{ haptic(); if (S.quiz && !S.result && b.dataset.tab!=="test") { if(!confirm("Testni tark etasizmi? Javob berilgan savollar hisoblanadi.")) return; finishQuiz(true); } setTab(b.dataset.tab); });
-
-function backBtn(show, fn){
-  if (!tg) return;
-  tg.BackButton.offClick(backBtn._fn || (()=>{}));
-  if (show) { backBtn._fn = fn; tg.BackButton.onClick(fn); tg.BackButton.show(); } else tg.BackButton.hide();
-}
-
-/* ---------- ekranlar ---------- */
+function setTab(t){ S.tab=t; document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("on", b.dataset.tab===t)); render(); window.scrollTo(0,0); }
+document.querySelectorAll(".nav button").forEach(b=>b.onclick=()=>{ haptic(); if (S.quiz && !S.result) { if(!confirm("Testni yakunlaysizmi? Javob berilgan savollar hisoblanadi.")) return; finishQuiz(); } setTab(b.dataset.tab); });
+function backBtn(show, fn){ if (!tg) return; tg.BackButton.offClick(backBtn._fn||(()=>{})); if (show) { backBtn._fn=fn; tg.BackButton.onClick(fn); tg.BackButton.show(); } else tg.BackButton.hide(); }
 function render(){
   document.getElementById("nav").classList.toggle("hidden", !!(S.quiz && !S.result));
   if (S.tab==="home") return renderHome();
-  if (S.tab==="rating") return renderRating();
+  if (S.tab==="premium") return renderPremium();
   return renderTest();
 }
-
 function topbar(){
   const u = tg && tg.initDataUnsafe && tg.initDataUnsafe.user;
   const name = u ? [u.first_name,u.last_name].filter(Boolean).join(" ") : (S.me?.name || "Mehmon");
-  const lv = S.me ? S.me.level.level : 1;
-  return `<div class="topbar">${avatar(name, u && u.photo_url)}
-    <div class="who"><b>${esc(name)}</b><small>${esc(S.me ? S.me.level.name : "")}${S.me ? " · #" + S.me.rank : ""}</small></div>
-    <span class="pill">${gem(lv)}${fmt(S.me?.xp)} XP</span></div>`;
+  const st = !S.me ? "" : S.me.premium ? `<span class="pill g">💎 ${esc(S.me.premium_until)} gacha</span>` : `<span class="pill">Bepul: ${S.me.free_left}/${S.me.free_questions}</span>`;
+  return `<div class="topbar">${avatar(name, u && u.photo_url)}<div class="who"><b>${esc(name)}</b><small>Attestatsiyaga tayyorlov</small></div>${st}</div>`;
 }
+function daysLeft(){ const d = new Date((S.me?.imtihon_sanasi||"2026-12-04")+"T09:00:00+05:00"); return Math.ceil((d - new Date())/864e5); }
 
+/* ================= TAHLIL ================= */
 function renderHome(){
   backBtn(false);
   const me = S.me;
   if (!me) { $app.innerHTML = topbar() + `<div class="loader"><div class="ring"></div></div>`; return; }
-  const L = me.level, lvl = L.level;
-  const pct = L.to ? Math.min(100, Math.round(100*(me.xp-L.from)/(L.to-L.from))) : 100;
-  const left = L.to ? `${L.next_name} darajasigacha ${fmt(L.to-me.xp)} XP` : "Eng yuqori daraja!";
-  const levels = LEVEL_NAMES.map((n,i)=>`${i?'<span class="arrow">▶</span>':''}<div class="l ${lvl>i?'':'off'}">${gem(i+1)}<b>${n}</b>${fmt(LEVEL_XP[i])} XP</div>`).join("");
-  const nextDay = me.checked_today ? me.streak : me.streak + 1;
-  const days = me.checkin_xp.map((x,i)=>{
-    const done = i < me.streak; const next = !me.checked_today && i === me.streak;
-    return `<div class="day ${done?'done':''} ${next?'next':''}"><div class="c">+${x}</div>${i+1}-kun</div>`;
-  }).join("");
-  const hist = me.history.length ? me.history.map(h=>`<div class="item"><div class="t"><b>${esc(h.fan)}</b><small>${esc(h.vaqt)}</small></div>
-      <span class="tag ${h.foiz>=me.pass_percent?'g':'b'}">${h.togri}/${h.jami} · ${h.foiz}%</span></div>`).join("")
-    : `<div class="empty">Hali test topshirmadingiz. Birinchi testni boshlang!</div>`;
+  const A = me.tahlil, P = PASS(), acc = pc(A.togri, A.jami), dl = daysLeft();
+  const C = 2*Math.PI*42, off = C*(1-acc/100), col = acc>=P ? "var(--green)" : acc>=40 ? "var(--orange)" : "var(--pink)";
+  const verdict = !A.jami ? "Hali javoblar yo'q. Birinchi testni boshlang." : acc>=P ? `O'tish balidan (${P}%) yuqori. Natijani barqaror saqlang va sinov imtihonida tekshiring.` : `O'tish bali — ${P}%. Quyidagi zaif mavzularni takrorlang.`;
+  const subj = A.fanlar.length ? A.fanlar.slice().sort((a,b)=>pc(a.togri,a.jami)-pc(b.togri,b.jami)).map(f=>{
+      const p = pc(f.togri,f.jami), cov = f.bazada ? pc(f.korilgan,f.bazada) : 0;
+      return `<div class="subj"><div class="h"><div>${esc(f.nomi)}</div><span>${p}%</span></div>
+        <div class="bar"><i class="${cls(p)}" style="width:${p}%"></i><span class="mark" style="left:${P}%"></span></div>
+        <div class="m"><span>${f.jami} ta javob · bazaning ${cov}% ko'rilgan${f.xatolar?` · <b style="color:#ff5aa8">${f.xatolar} ta xato</b>`:""}</span>
+        ${f.xatolar?`<button class="btn sm ghost" data-mist="${esc(f.sid)}">Xatolar ustida</button>`:""}</div></div>`; }).join("")
+    : `<div class="empty">Testlar natijasi shu yerda fanlar kesimida ko'rinadi.</div>`;
+  const weak = A.bolimlar.filter(b=>b.jami>=2 && pc(b.togri,b.jami)<P).sort((a,b)=>pc(a.togri,a.jami)-pc(b.togri,b.jami)).slice(0,6);
+  const weakHtml = weak.length ? weak.map(b=>`<div class="weak"><span class="pc">${pc(b.togri,b.jami)}%</span><div><b>${esc(b.bolim)}</b><br><span style="color:var(--muted);font-size:12px">${esc(b.fan)} · ${b.togri}/${b.jami} to'g'ri</span></div></div>`).join("")
+    : `<div class="empty" style="padding:8px">${A.jami ? "Zaif mavzu aniqlanmadi. Bo'limda kamida 2 ta javob bo'lganda tahlil qilinadi." : "Javoblaringiz asosida zaif mavzular aniqlanadi."}</div>`;
+  const trend = A.trend.length ? `<div class="trend">${A.trend.map(t=>`<div class="${t.foiz>=P?'ok':'no'}" style="height:${Math.max(4,t.foiz)}%" title="${esc(t.fan)} ${t.foiz}%"></div>`).join("")}</div>
+      <p class="sub" style="margin:8px 0 0">Oxirgi ${A.trend.length} ta test · yashil — o'tish balidan yuqori</p>` : `<div class="empty" style="padding:8px">Testlar topshirilgach natijalar dinamikasi ko'rinadi.</div>`;
   $app.innerHTML = `<div class="fade">${topbar()}
-    <div class="hero"><h1>Attestatsiyaga<span class="g">tayyorlan</span></h1>
-      <svg class="spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19"/></svg>
-      <p>${esc(S.catalog ? S.catalog.yil : 2026)}-yilgi rasmiy o'quv dasturlari asosida texnikum fanlaridan test.</p></div>
-    <div class="card"><div class="lvl">${gem(lvl,"gem")}<div class="info"><div class="name">${esc(L.name)}</div>
-      <div class="meta">${fmt(me.xp)} XP · ${esc(left)}</div><div class="bar"><i id="lvbar"></i></div></div></div>
-      <div class="levels">${levels}</div></div>
-    <div class="card"><h3>Kunlik check-in</h3><p class="sub">Har kuni kiring va XP to'plang. Ketma-ketlik: ${me.streak} kun</p>
-      <div class="days">${days}</div>
-      <button class="btn" id="checkin" ${me.checked_today?'disabled':''}>${me.checked_today?'Bugun belgilandi ✓':`Check-in (+${me.checkin_xp[Math.min(nextDay,7)-1]} XP)`}</button></div>
-    <div class="stats"><div class="stat"><b>${me.tests}</b><span>Testlar</span></div>
-      <div class="stat"><b>${me.avg}%</b><span>O'rtacha</span></div><div class="stat"><b>${fmt(me.correct)}</b><span>To'g'ri javob</span></div></div>
-    <button class="btn" id="go" style="margin-bottom:18px">Testni boshlash</button>
-    <div class="grp">Oxirgi natijalar</div><div class="list">${hist}</div></div>`;
-  requestAnimationFrame(()=>{ const b=document.getElementById("lvbar"); if(b) b.style.width=pct+"%"; });
-  document.getElementById("go").onclick = ()=>{ haptic(); setTab("test"); };
-  const ci = document.getElementById("checkin");
-  ci.onclick = async ()=>{
-    ci.disabled = true;
-    try { const r = await api("/api/checkin", {}); if (r.ok) { haptic("ok"); toast(`+${r.xp_gained} XP! Ketma-ketlik davom etmoqda`); } await loadMe(); renderHome(); }
-    catch(e){ toast(e.message); ci.disabled = false; }
-  };
+    <div class="kpis"><div class="kpi"><b>${dl>0?dl:"—"}</b><span>${dl>0?"kun qoldi":"attestatsiya"}</span></div>
+      <div class="kpi"><b>${fmt(A.jami)}</b><span>javob berildi</span></div><div class="kpi"><b>${A.trend.length}</b><span>test</span></div></div>
+    <div class="card"><div class="ready"><svg viewBox="0 0 104 104"><circle cx="52" cy="52" r="42" stroke="#232955" stroke-width="10" fill="none"/>
+      <circle cx="52" cy="52" r="42" stroke="${col}" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${off}" transform="rotate(-90 52 52)"/>
+      <text x="52" y="58" text-anchor="middle" fill="#F7F8F9" font-family="Fraunces,serif" font-weight="800" font-size="22">${A.jami?acc+"%":"—"}</text></svg>
+      <div><div class="v">Tayyorlik darajasi</div><p class="sub" style="margin:4px 0 0">${esc(verdict)}</p></div></div></div>
+    ${!me.premium ? `<div class="card" style="border-color:rgba(255,140,76,.45)"><h3>Bepul sinov: ${me.free_left} ta savol qoldi</h3><p class="sub">To'liq tayyorgarlik uchun premium: cheksiz testlar, 40 savollik sinov imtihoni va xatolar ustida ishlash.</p><button class="btn" data-go="premium">Premium olish</button></div>` : ""}
+    <div class="card"><h3>Fanlar bo'yicha natija</h3><p class="sub">Oq chiziq — o'tish bali (${P}%)</p>${subj}</div>
+    <div class="card"><h3>Zaif mavzular</h3><p class="sub">Shu bo'limlarni birinchi navbatda takrorlang</p>${weakHtml}</div>
+    <div class="card"><h3>Natijalar dinamikasi</h3>${trend}</div>
+    <button class="btn" data-go="test">Testni boshlash</button></div>`;
+  $app.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{ haptic(); setTab(b.dataset.go); });
+  $app.querySelectorAll("[data-mist]").forEach(b=>b.onclick=()=>{ haptic(); if (!S.me.premium) { toast("Bu rejim premium foydalanuvchilar uchun"); return setTab("premium"); } S.bankSel=b.dataset.mist; S.rejim="xatolar"; setTab("test"); });
 }
 
-/* ----- test: tanlash qadamlari ----- */
-function crumbs(title, sub){
-  return `<div class="crumbs">${(S.path.length||S.bankSel)?`<button class="back" id="back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg></button>`:""}
-    <div class="ct"><small>${esc(sub||"")}</small><b>${esc(title)}</b></div></div>`;
-}
-function goBack(){ haptic(); if (S.bankSel) { S.bankSel=null; render(); return; } S.path.pop(); S.filter=""; if (S.path.length<3) S.fanlar=null; render(); }
-function bindBack(){ const b=document.getElementById("back"); if(b) b.onclick=goBack; backBtn(S.path.length>0 || !!S.bankSel, goBack); }
+/* ================= TEST: tanlash ================= */
+function crumbs(title, sub){ return `<div class="crumbs">${(S.path.length||S.bankSel)?`<button class="back" id="back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg></button>`:""}<div class="ct"><small>${esc(sub||"")}</small><b>${esc(title)}</b></div></div>`; }
+function goBack(){ haptic(); if (S.bankSel) { S.bankSel=null; S.rejim="mashq"; render(); return; } S.path.pop(); S.filter=""; if (S.path.length<3) S.fanlar=null; render(); }
+function bindBack(){ const b=document.getElementById("back"); if(b) b.onclick=goBack; backBtn(S.path.length>0||!!S.bankSel, goBack); }
 function searchBox(ph){ return `<input class="search" id="q" placeholder="${esc(ph)}" value="${esc(S.filter)}" autocomplete="off">`; }
 function bindSearch(){ const q=document.getElementById("q"); if(!q) return; q.oninput=()=>{ S.filter=q.value; const pos=q.selectionStart; render(); const n=document.getElementById("q"); n.focus(); n.setSelectionRange(pos,pos); }; }
-const match = (s) => !S.filter || s.toLowerCase().includes(S.filter.toLowerCase());
+const match = s => !S.filter || s.toLowerCase().includes(S.filter.toLowerCase());
+const subjStat = sid => (S.me?.tahlil.fanlar||[]).find(f=>f.sid===sid);
 
+function modePicker(sid){
+  const P = S.me?.premium, st = subjStat(sid), mist = st ? st.xatolar : 0;
+  const m = (id, ic, t, d) => `<button class="mode ${S.rejim===id?'on':''}" data-mode="${id}"><span class="ic">${ic}</span><span><b>${t}${id!=="mashq"&&!P?' <span class="lock">· premium</span>':''}</b><small>${d}</small></span></button>`;
+  return m("mashq","📝","Mashq","Har javobdan keyin to'g'ri javob va izoh")
+    + m("imtihon","⏱","Sinov imtihoni","40 savol · 80 daqiqa · javoblar oxirida ochiladi · 80 ballik tizim")
+    + m("xatolar","🎯",`Xatolar ustida ishlash${mist?` (${mist})`:""}`, mist ? "Faqat ilgari xato javob bergan savollaringiz" : "Hozircha bu fanda xato javoblaringiz yo'q");
+}
+function startCard(sid, max){
+  const free = S.me && !S.me.premium ? S.me.free_left : null;
+  return `<div class="card"><h3>Rejim</h3>${modePicker(sid)}
+    ${S.rejim==="mashq" ? `<h3 style="margin-top:12px">Savollar soni</h3><div class="seg">${[10,20,30].map(n=>{ const off=n>max && n-10>=max; return `<button data-n="${n}" class="${S.soni===n?'on':''}" ${off?'disabled style="opacity:.35"':''}>${n>max && !off ? max : n} ta</button>`; }).join("")}</div>` : ""}
+    ${S.rejim==="imtihon" ? `<p class="sub">Bazadagi ${Math.min(40,max)} ta savol aralashtiriladi. Vaqt: ${Math.min(40,max)*2} daqiqa.</p>` : ""}
+    ${free!==null ? `<p class="sub">Bepul sinovda ${free} ta savol qoldi${free<S.soni ? ` — test ${free} ta savoldan iborat bo'ladi` : ""}.</p>` : ""}
+    <button class="btn" id="start">Boshlash</button></div>`;
+}
 function renderTest(){
   if (S.result) return renderResult();
   if (S.quiz) return renderQuestion();
-  if (S.loading) return renderLoading();
+  if (S.loading) { backBtn(false); $app.innerHTML = `<div class="loader"><div class="ring"></div><b class="serif" style="font-size:20px">Test tayyorlanmoqda</b><p>Savollar va variantlar aralashtirilmoqda…</p></div>`; return; }
   const C = S.catalog;
   if (!C) { $app.innerHTML = `<div class="loader"><div class="ring"></div></div>`; return; }
-  const [bi, yi, mi, fsel] = S.path;
+  const [bi, yi, mi] = S.path;
   let html = "";
   if (S.bankSel) {
-    const B = S.bank.find(x=>x.id===S.bankSel);
-    html = crumbs(B.nomi, (B.kod?B.kod+" · ":"") + "Attestatsiya fanlari") + `<div class="card"><h3>Savollar soni</h3>
-      ${countSeg(B.soni)}
-      <p class="sub" style="margin:0 0 10px">Bazada ${B.soni} ta tayyor savol bor. Har safar savollar va javob variantlari aralashtiriladi.</p>
-      ${B.bolimlar.length?`<div class="grp" style="margin-top:4px">Bo'limlar</div><p class="sub" style="margin:0 0 14px">${B.bolimlar.map(esc).join(" · ")}</p>`:""}
-      <button class="btn" id="start">Testni boshlash</button></div>
-      <p class="sub" style="font-size:11.5px">Manba: ${esc(B.manba)}</p>`;
+    const B = S.bank.find(x=>x.id===S.bankSel), st = subjStat(B.id);
+    html = crumbs(B.nomi, (B.kod?B.kod+" · ":"") + `${B.soni} ta savol bazada`)
+      + (st ? `<div class="card"><h3>Shu fandagi natijangiz: ${pc(st.togri,st.jami)}%</h3><div class="bar"><i class="${cls(pc(st.togri,st.jami))}" style="width:${pc(st.togri,st.jami)}%"></i><span class="mark" style="left:${PASS()}%"></span></div><p class="sub" style="margin:8px 0 0">${st.jami} ta javob · bazaning ${pc(st.korilgan,B.soni)}% ko'rilgan</p></div>` : "")
+      + startCard(B.id, B.soni)
+      + (B.bolimlar.length ? `<div class="grp">Qamrab olingan bo'limlar</div><p class="sub">${B.bolimlar.map(esc).join(" · ")}</p>` : "")
+      + `<p class="sub" style="font-size:11.5px">Manba: ${esc(B.manba)}</p>`;
   } else if (bi === undefined) {
-    const bankList = S.bank.length ? `<div class="grp">Attestatsiya fanlari · tayyor savollar</div><div class="list" style="margin-bottom:6px">` + S.bank.map(b=>
-      `<button class="item" data-bank="${esc(b.id)}"><div class="t"><b>${esc(b.nomi)}</b><small>${esc([b.kod, b.soni+" ta savol"].filter(Boolean).join(" · "))}</small></div><span class="tag g">tayyor</span><span class="chev">›</span></button>`).join("") + `</div>` : "";
-    html = crumbs("Fanni tanlang", "Attestatsiya fani yoki mutaxassislik orqali") + bankList + `<div class="grp">Mutaxassislik bo'yicha · bilim sohasi</div><div class="list">` + C.sohalar.map((s,i)=>{
-      const n = s.y.reduce((a,y)=>a+y.m.length,0);
-      return `<button class="item" data-i="${i}"><div class="t"><b>${esc(s.n)}</b><small>${s.y.length} yo'nalish</small></div><span class="n">${n}</span><span class="chev">›</span></button>`;}).join("") + `</div>`;
+    html = crumbs("Fanni tanlang", "Attestatsiya fani yoki mutaxassislik orqali")
+      + `<div class="grp">Attestatsiya fanlari</div><div class="list" style="margin-bottom:6px">` + S.bank.map(b=>{ const st=subjStat(b.id);
+        return `<button class="item" data-bank="${esc(b.id)}"><div class="t"><b>${esc(b.nomi)}</b><small>${esc([b.kod, b.soni+" ta savol"].filter(Boolean).join(" · "))}</small></div>${st?`<span class="tag ${pc(st.togri,st.jami)>=PASS()?'g':'p'}">${pc(st.togri,st.jami)}%</span>`:""}<span class="chev">›</span></button>`; }).join("") + `</div>`
+      + `<div class="grp">Mutaxassislik bo'yicha</div><div class="list">` + C.sohalar.map((s,i)=>`<button class="item" data-i="${i}"><div class="t"><b>${esc(s.n)}</b><small>${s.y.length} yo'nalish</small></div><span class="chev">›</span></button>`).join("") + `</div>`;
   } else if (yi === undefined) {
     const s = C.sohalar[bi];
-    html = crumbs("Yo'nalish", s.n) + searchBox("Yo'nalishni qidirish") + `<div class="list">` + s.y.map((y,i)=> match(y.k+" "+y.n) ?
-      `<button class="item" data-i="${i}"><div class="t"><b>${esc(y.n)}</b><small>${esc(y.k)}</small></div><span class="n">${y.m.length}</span><span class="chev">›</span></button>` : "").join("") + `</div>`;
+    html = crumbs("Yo'nalish", s.n) + searchBox("Qidirish") + `<div class="list">` + s.y.map((y,i)=> match(y.k+" "+y.n) ? `<button class="item" data-i="${i}"><div class="t"><b>${esc(y.n)}</b><small>${esc(y.k)}</small></div><span class="n">${y.m.length}</span><span class="chev">›</span></button>` : "").join("") + `</div>`;
   } else if (mi === undefined) {
     const y = C.sohalar[bi].y[yi];
-    html = crumbs("Mutaxassislik", y.n) + searchBox("Mutaxassislikni qidirish") + `<div class="list">` + y.m.map((m,i)=> match(m.k+" "+m.n) ?
-      `<button class="item" data-i="${i}"><div class="t"><b>${esc(m.n)}</b><small>${esc(m.k)}</small></div><span class="n">${m.f?m.f+" fan":"fan yozasiz"}</span><span class="chev">›</span></button>` : "").join("") + `</div>`;
-  } else if (fsel === undefined) {
-    const m = C.sohalar[bi].y[yi].m[mi];
-    if (!S.fanlar) { $app.innerHTML = crumbs("Fanlar", m.n) + `<div class="loader"><div class="ring"></div></div>`; bindBack(); loadFanlar(); return; }
-    const F = S.fanlar.fanlar;
-    let body = `<div class="card"><h3>Fan nomini o'zingiz yozing</h3><div class="row"><input class="search" id="ownfan" placeholder="Masalan: Elektrotexnika asoslari" style="margin:0"><button class="btn" id="ownbtn" style="flex:0 0 auto;width:auto;padding:0 18px">›</button></div></div>`;
-    if (F.length) {
-      body = searchBox("Fanni qidirish") + groupFanlar(F) + body;
-    } else {
-      body = `<div class="empty">Bu mutaxassislik uchun saytda o'quv dasturi hali joylanmagan.</div>` + body;
-    }
-    html = crumbs("Fanni tanlang", `${m.k} · ${m.n}`) + body;
+    html = crumbs("Mutaxassislik", y.n) + searchBox("Qidirish") + `<div class="list">` + y.m.map((m,i)=> match(m.k+" "+m.n) ? `<button class="item" data-i="${i}"><div class="t"><b>${esc(m.n)}</b><small>${esc(m.k)}</small></div><span class="n">${m.f?m.f+" fan":""}</span><span class="chev">›</span></button>` : "").join("") + `</div>`;
   } else {
     const m = C.sohalar[bi].y[yi].m[mi];
-    const fan = typeof fsel === "number" ? S.fanlar.fanlar[fsel] : {nomi: fsel};
-    html = crumbs(fan.nomi, `${m.k} · ${m.n}`) + `<div class="card"><h3>Savollar soni</h3>
-      ${countSeg(30)}
-      <p class="sub" style="margin:0 0 14px">${fan.bank?"Bu fan bo'yicha tayyor savollar bazasi bor.":"Bu fan bo'yicha tayyor savollar hali yo'q: \"Attestatsiya fanlari\" bo'limidan yaqin fanni tanlang yoki administrator AI rejimini yoqishi kerak."}
-      To'g'ri javob uchun +10 XP, ${S.me?S.me.pass_percent:60}% dan yuqori natija uchun +50 XP.</p>
-      <button class="btn" id="start">Testni boshlash</button></div>`;
+    if (!S.fanlar) { $app.innerHTML = crumbs("Fanlar", m.n) + `<div class="loader"><div class="ring"></div></div>`; bindBack(); loadFanlar(); return; }
+    const F = S.fanlar.fanlar.filter(f=>match(f.kod+" "+f.nomi));
+    const withB = F.filter(f=>f.bank), noB = F.filter(f=>!f.bank);
+    html = crumbs("Fanni tanlang", `${m.k} · ${m.n}`) + searchBox("Fanni qidirish")
+      + (withB.length ? `<div class="grp">Tayyor savollari bor</div><div class="list">` + withB.map(f=>`<button class="item" data-bk="${esc(f.bank)}"><div class="t"><b>${esc(f.nomi)}</b><small>${esc([f.kod, f.soat&&f.soat+" soat"].filter(Boolean).join(" · "))}</small></div><span class="tag g">savollar bor</span><span class="chev">›</span></button>`).join("") + `</div>` : "")
+      + (noB.length ? `<div class="grp">Tayyor savollar hali yo'q</div><div class="list">` + noB.map(f=>`<div class="item" style="opacity:.55"><div class="t"><b>${esc(f.nomi)}</b><small>${esc(f.kod||"")}</small></div></div>`).join("") + `</div>` : "")
+      + (!S.fanlar.fanlar.length ? `<div class="empty">Bu mutaxassislik uchun saytda o'quv dasturi hali joylanmagan. "Attestatsiya fanlari" ro'yxatidan foydalaning.</div>` : "");
   }
   $app.innerHTML = `<div class="fade">${html}</div>`;
   bindBack(); bindSearch();
   $app.querySelectorAll(".item[data-i]").forEach(el=>el.onclick=()=>{ haptic(); S.path.push(+el.dataset.i); S.filter=""; render(); window.scrollTo(0,0); });
-  $app.querySelectorAll("[data-bank]").forEach(el=>el.onclick=()=>{ haptic(); S.bankSel=el.dataset.bank; const B=S.bank.find(x=>x.id===S.bankSel); if (B && S.soni>B.soni) S.soni=10; render(); window.scrollTo(0,0); });
-  $app.querySelectorAll("[data-f]").forEach(el=>el.onclick=()=>{ haptic(); S.path.push(+el.dataset.f); S.filter=""; render(); window.scrollTo(0,0); });
+  $app.querySelectorAll("[data-bank],[data-bk]").forEach(el=>el.onclick=()=>{ haptic(); S.bankSel=el.dataset.bank||el.dataset.bk; S.rejim="mashq"; S.filter=""; render(); window.scrollTo(0,0); });
   $app.querySelectorAll("[data-n]:not([disabled])").forEach(el=>el.onclick=()=>{ haptic(); S.soni=+el.dataset.n; render(); });
-  const own = document.getElementById("ownbtn");
-  if (own) own.onclick = ()=>{ const v=document.getElementById("ownfan").value.trim(); if(v.length<3) return toast("Fan nomini to'liqroq yozing"); S.path.push(v); render(); };
+  $app.querySelectorAll("[data-mode]").forEach(el=>el.onclick=()=>{ haptic(); const id=el.dataset.mode; if (id!=="mashq" && !S.me?.premium) { toast("Bu rejim premium foydalanuvchilar uchun"); return setTab("premium"); } S.rejim=id; render(); });
   const st = document.getElementById("start"); if (st) st.onclick = startQuiz;
 }
-function countSeg(max){
-  return `<div class="seg">${[10,20,30].map(n=>{ const off = n>max && n-10>=max; return `<button data-n="${n}" class="${S.soni===n?'on':''}" ${off?'disabled style="opacity:.35"':''}>${n>max&&!off?max:n} ta</button>`; }).join("")}</div>`;
-}
-function groupFanlar(F){
-  const groups = {};
-  F.forEach((f,i)=>{ if(!match(f.kod+" "+f.nomi)) return; const g=f.blok||"Fanlar"; (groups[g]=groups[g]||[]).push([f,i]); });
-  const keys = Object.keys(groups);
-  if (!keys.length) return `<div class="empty">Hech narsa topilmadi</div>`;
-  return keys.map(g=>`<div class="grp">${esc(g)}</div><div class="list">` + groups[g].map(([f,i])=>
-    `<button class="item" data-f="${i}"><div class="t"><b>${esc(f.nomi)}${f.bank?'<span class="tag g">savollar bor</span>':''}</b><small>${esc([f.kod, f.soat && (f.soat+" soat")].filter(Boolean).join(" · "))}</small></div><span class="chev">›</span></button>`).join("") + `</div>`).join("");
-}
-async function loadFanlar(){
-  const [b,y,m] = S.path;
-  try { S.fanlar = await api(`/api/fanlar?b=${b}&y=${y}&m=${m}`); } catch(e){ toast(e.message); S.fanlar = {fanlar:[]}; }
-  if (S.tab==="test") render();
-}
+async function loadFanlar(){ const [b,y,m]=S.path; try { S.fanlar = await api(`/api/fanlar?b=${b}&y=${y}&m=${m}`); } catch(e){ toast(e.message); S.fanlar={fanlar:[]}; } if (S.tab==="test") render(); }
 
-/* ----- test jarayoni ----- */
-const TIPS = ["Fan dasturi o'qilmoqda…","Savollar tuzilmoqda…","Javob variantlari tekshirilmoqda…","Izohlar yozilmoqda…","Deyarli tayyor…"];
-function renderLoading(){
-  backBtn(false);
-  $app.innerHTML = `<div class="loader fade"><div class="ring"></div><b>Test tayyorlanmoqda</b><p id="tip">${TIPS[S.loadingTip%TIPS.length]}<br><span style="color:var(--dim)">1–2 daqiqa vaqt olishi mumkin</span></p></div>`;
-}
+/* ================= TEST: jarayon ================= */
 async function startQuiz(){
-  haptic();
-  const [b,y,m,f] = S.path;
-  const body = S.bankSel ? {bank:S.bankSel, soni:S.soni} : {b,y,m,soni:S.soni};
-  if (!S.bankSel) { if (typeof f === "number") body.f = f; else body.fan = f; }
-  S.loading = true; S.loadingTip = 0; render();
-  const tick = setInterval(()=>{ S.loadingTip++; const t=document.getElementById("tip"); if(t) t.firstChild.textContent = TIPS[Math.min(S.loadingTip,TIPS.length-1)]; }, 9000);
-  try { S.quiz = await api("/api/quiz", body); S.qi = 0; S.answered = null; S.result = null; haptic("ok"); }
-  catch(e){ toast(e.message || "Xatolik"); haptic("err"); }
-  finally { clearInterval(tick); S.loading = false; render(); }
+  haptic(); S.loading = true; render();
+  try {
+    S.quiz = await api("/api/quiz", {bank:S.bankSel, soni:S.soni, rejim:S.rejim});
+    S.qi=0; S.answered=null; S.picks={}; S.result=null; S.quiz.t0=Date.now();
+    if (S.quiz.vaqt_limit) startTimer();
+  } catch(e){ toast(e.message); S.loading=false; if (e instanceof PayErr) return setTab("premium"); }
+  S.loading=false; render();
 }
+function startTimer(){ clearInterval(S.timerH); S.timerH = setInterval(()=>{ if (!S.quiz||S.result) return clearInterval(S.timerH);
+  const left = Math.max(0, Math.round(S.quiz.vaqt_limit - (Date.now()-S.quiz.t0)/1000)); const el=document.getElementById("timer");
+  if (el) { el.textContent = mmss(left); el.classList.toggle("warn", left<300); }
+  if (left<=0) { clearInterval(S.timerH); toast("Vaqt tugadi"); finishQuiz(); } }, 1000); }
 function renderQuestion(){
-  const Q = S.quiz, q = Q.savollar[S.qi], A = S.answered;
+  const Q=S.quiz, q=Q.savollar[S.qi], A=S.answered, exam = Q.rejim==="imtihon", n=Q.savollar.length;
   backBtn(true, ()=>{ if(confirm("Testni yakunlaysizmi?")) finishQuiz(); });
-  const prog = Math.round(100*(S.qi + (A?1:0))/Q.savollar.length);
-  const opts = q.variantlar.map((v,k)=>{
-    let cls = "";
-    if (A) { if (k===A.togri) cls="ok"; else if (k===A.javob) cls="bad"; }
-    return `<button class="opt ${cls}" data-k="${k}" ${A?"disabled":""}><span class="L">${LETTERS[k]}</span><span>${esc(v)}</span></button>`;
-  }).join("");
-  const last = S.qi === Q.savollar.length-1;
+  const pick = S.picks[S.qi];
+  const opts = q.variantlar.map((v,k)=>{ let c=""; if (exam) { if (pick===k) c="sel"; } else if (A) { if (k===A.togri) c="ok"; else if (k===A.javob) c="bad"; }
+    return `<button class="opt ${c}" data-k="${k}" ${(!exam&&A)?"disabled":""}><span class="L">${LETTERS[k]}</span><span>${esc(v)}</span></button>`; }).join("");
+  const last = S.qi===n-1, done = Object.keys(S.picks).length;
+  const left = exam ? Math.max(0, Math.round(Q.vaqt_limit-(Date.now()-Q.t0)/1000)) : 0;
   $app.innerHTML = `<div class="${A?'':'fade'}">
-    <div class="qhead"><span>${esc(Q.fan)}</span><b>${S.qi+1} / ${Q.savollar.length}</b></div>
-    <div class="bar" style="margin:0 0 14px"><i style="width:${prog}%"></i></div>
-    ${q.bolim?`<span class="tag b" style="margin:0 0 4px">${esc(q.bolim)}</span>`:""}
+    <div class="qhead"><span>${esc(Q.fan)}${exam?' · imtihon':''}</span>${exam?`<span class="timer ${left<300?'warn':''}" id="timer">${mmss(left)}</span>`:""}<b>${S.qi+1} / ${n}</b></div>
+    <div class="bar" style="margin:0 0 14px"><i style="width:${pc(done,n)}%"></i></div>
+    ${q.bolim?`<span class="tag b">${esc(q.bolim)}</span>`:""}
     <div class="qtext">${esc(q.savol)}</div>${opts}
-    ${A?`<div class="explain ${A.correct?'':'bad'}"><b>${A.correct?"To'g'ri! +10 XP":"Noto'g'ri"}</b><br>${esc(A.izoh)}</div>
-      <button class="btn" id="next">${last?"Natijani ko'rish":"Keyingi savol"}</button>`:""}
+    ${(!exam && A)?`<div class="explain ${A.correct?'':'bad'}"><b>${A.correct?"To'g'ri":"Noto'g'ri"}</b><br>${esc(A.izoh)}</div>`:""}
+    ${exam ? `<div class="row"><button class="btn ghost" id="prev" ${S.qi===0?"disabled":""}>‹ Oldingi</button><button class="btn" id="next">${last?"Yakunlash":"Keyingi ›"}</button></div>`
+           : (A?`<button class="btn" id="next">${last?"Natijani ko'rish":"Keyingi savol"}</button>`:"")}
     <button class="btn ghost" id="stop" style="margin-top:10px">Testni yakunlash</button></div>`;
   $app.querySelectorAll(".opt").forEach(el=>el.onclick=()=>answer(+el.dataset.k));
-  const n = document.getElementById("next"); if (n) n.onclick = ()=>{ haptic(); if (last) finishQuiz(); else { S.qi++; S.answered=null; render(); window.scrollTo(0,0); } };
-  document.getElementById("stop").onclick = ()=>{ if(confirm("Testni yakunlaysizmi? Javob berilgan savollar hisoblanadi.")) finishQuiz(); };
+  const nx=document.getElementById("next"); if (nx) nx.onclick=()=>{ haptic(); if (last) { if (exam && done<n && !confirm(`${n-done} ta savolga javob berilmagan. Yakunlaysizmi?`)) return; finishQuiz(); } else { S.qi++; S.answered=null; render(); window.scrollTo(0,0); } };
+  const pv=document.getElementById("prev"); if (pv) pv.onclick=()=>{ S.qi--; render(); };
+  document.getElementById("stop").onclick=()=>{ if(confirm("Testni yakunlaysizmi? Javob berilgan savollar hisoblanadi.")) finishQuiz(); };
 }
 async function answer(k){
-  if (S.answered || S._busy) return;
-  S._busy = true;
-  $app.querySelectorAll(".opt").forEach(el=>{ el.disabled = true; if(+el.dataset.k===k) el.classList.add("sel"); });
-  try { const r = await api("/api/quiz/answer", {id:S.quiz.id, i:S.qi, javob:k}); S.answered = {...r, javob:k}; haptic(r.correct?"ok":"err"); }
-  catch(e){ toast(e.message); }
-  finally { S._busy = false; render(); }
-}
-async function finishQuiz(silent){
+  const exam = S.quiz.rejim==="imtihon";
+  if (exam && S.picks[S.qi]!==undefined) return toast("Imtihonda tanlangan javobni o'zgartirib bo'lmaydi");
+  if (S._busy || (!exam && S.answered)) return;
+  S._busy=true;
   try {
-    const r = await api("/api/quiz/finish", {id:S.quiz.id});
-    if (!r.saved) { S.quiz=null; S.result=null; if(!silent) render(); return; }
-    S.result = r; await loadMe();
-  } catch(e){ toast(e.message); S.quiz=null; }
-  if (!silent) { render(); window.scrollTo(0,0); }
+    const r = await api("/api/quiz/answer", {id:S.quiz.id, i:S.qi, javob:k});
+    S.picks[S.qi]=k;
+    if (!exam) { S.answered={...r, javob:k}; haptic(r.correct?"ok":"err"); }
+    else { haptic(); if (S.qi < S.quiz.savollar.length-1) { S.qi++; } }
+  } catch(e){ toast(e.message); if (e instanceof PayErr) { S._busy=false; return finishQuiz(); } }
+  S._busy=false; render();
+}
+async function finishQuiz(){
+  clearInterval(S.timerH);
+  try { const r = await api("/api/quiz/finish", {id:S.quiz.id}); if (!r.saved) { S.quiz=null; S.result=null; render(); return; } S.result=r; await loadMe(); }
+  catch(e){ toast(e.message); S.quiz=null; }
+  render(); window.scrollTo(0,0);
 }
 function renderResult(){
   backBtn(false);
-  const R = S.result, C = 2*Math.PI*70, off = C*(1-R.foiz/100);
-  const color = R.passed ? "var(--green)" : "var(--pink)";
-  const wrong = R.wrong.length ? `<div class="grp">Xatolar ustida ishlash</div><div class="list">` + R.wrong.map(w=>`<div class="card" style="margin:0"><b style="font-size:14px">${esc(w.savol)}</b>
-      <div class="explain" style="margin:8px 0 0"><b>${esc(w.togri_javob)}</b><br>${esc(w.izoh)}</div></div>`).join("") + `</div>` : "";
-  $app.innerHTML = `<div class="fade" style="text-align:center">
-    <h2 style="font-size:28px;margin-top:6px">${R.passed?"Ajoyib natija!":"Yana harakat qiling"}</h2>
-    <div class="score"><svg viewBox="0 0 170 170"><circle cx="85" cy="85" r="70" stroke="#232955" stroke-width="12" fill="none"/>
-      <circle cx="85" cy="85" r="70" stroke="${color}" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C}" transform="rotate(-90 85 85)" id="arc" style="transition:stroke-dashoffset 1s cubic-bezier(.2,.8,.2,1)"/>
-      <text x="85" y="92" text-anchor="middle" fill="#F7F8F9" font-family="Fraunces,serif" font-weight="800" font-size="36">${R.foiz}%</text>
+  const R=S.result, P=PASS(), C=2*Math.PI*70, col=R.passed?"var(--green)":"var(--pink)", hasBall = R.ball!==null && R.ball!==undefined;
+  const bol = R.bolimlar.map(b=>{ const p=pc(b.togri,b.jami); return `<div class="subj"><div class="h"><div>${esc(b.bolim)}</div><span>${b.togri}/${b.jami}</span></div><div class="bar"><i class="${cls(p)}" style="width:${p}%"></i><span class="mark" style="left:${P}%"></span></div></div>`; }).join("");
+  const weak = R.bolimlar.filter(b=>pc(b.togri,b.jami)<P).map(b=>b.bolim);
+  const wrong = R.xatolar.length ? `<div class="grp">Xatolar tahlili (${R.xatolar.length})</div><div class="list">` + R.xatolar.map(w=>`<div class="card" style="margin:0">${w.bolim?`<span class="tag b">${esc(w.bolim)}</span>`:""}<b style="display:block;font-size:14px;margin-top:6px">${esc(w.savol)}</b>
+      <p class="sub" style="margin:8px 0 4px">Sizning javobingiz: <span style="color:#ff5aa8">${esc(w.sizning)}</span></p>
+      <div class="explain" style="margin:4px 0 0"><b>${esc(w.togri_javob)}</b><br>${esc(w.izoh)}</div></div>`).join("") + `</div>` : "";
+  $app.innerHTML = `<div class="fade">
+    <h2 style="font-size:26px;margin:6px 0 2px;text-align:center">${R.rejim==="imtihon"?"Sinov imtihoni natijasi":R.rejim==="xatolar"?"Xatolar ustida ishlash":"Test natijasi"}</h2>
+    <div style="display:grid;place-items:center;margin:8px 0 6px"><svg viewBox="0 0 170 170" style="width:160px;height:160px"><circle cx="85" cy="85" r="70" stroke="#232955" stroke-width="12" fill="none"/>
+      <circle cx="85" cy="85" r="70" stroke="${col}" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-R.foiz/100)}" transform="rotate(-90 85 85)"/>
+      <text x="85" y="92" text-anchor="middle" fill="#F7F8F9" font-family="Fraunces,serif" font-weight="800" font-size="34">${R.foiz}%</text>
       <text x="85" y="114" text-anchor="middle" fill="#9AA1C9" font-family="Manrope" font-size="12">${R.togri} / ${R.jami} to'g'ri</text></svg></div>
-    <span class="badge ${R.passed?'g':'p'}">${R.passed?"✓ O'tdi":"✗ O'tmadi"} · o'tish bali ${S.me?S.me.pass_percent:60}%</span>
-    <div class="card" style="margin-top:16px;text-align:left"><div class="lvl">${gem(R.level.level,"gem")}<div class="info">
-      <div class="xpgain">+${R.xp_gained} XP</div><div class="meta">${R.level_up?`🎉 Yangi daraja: <b style="color:var(--white)">${esc(R.level.name)}</b>`:`Jami ${fmt(R.xp)} XP · ${esc(R.level.name)}`}</div></div></div></div>
-    <div class="row" style="margin-bottom:6px"><button class="btn ghost" id="home">Bosh sahifa</button><button class="btn" id="again">Yana test</button></div>
-    <div style="text-align:left">${wrong}</div></div>`;
-  requestAnimationFrame(()=>requestAnimationFrame(()=>{ const a=document.getElementById("arc"); if(a) a.style.strokeDashoffset = off; }));
+    <div class="kpis"><div class="kpi"><b>${hasBall?R.ball+"/"+R.jami*2:R.togri}</b><span>${hasBall?"ball":"to'g'ri javob"}</span></div>
+      <div class="kpi"><b style="color:${col}">${R.passed?"O'tdi":"O'tmadi"}</b><span>o'tish bali ${P}%</span></div><div class="kpi"><b>${mmss(R.vaqt)}</b><span>sarflangan vaqt</span></div></div>
+    ${weak.length?`<div class="card"><h3>Tavsiya</h3><p class="sub" style="margin:0">Takrorlang: <b style="color:var(--white)">${weak.map(esc).join(", ")}</b>.${S.me?.premium?" So'ng \"Xatolar ustida ishlash\" rejimida xatolaringizni qayta yeching.":""}</p></div>`:""}
+    ${bol?`<div class="card"><h3>Bo'limlar bo'yicha</h3>${bol}</div>`:""}
+    ${R.free_left===0 && !R.premium ? `<div class="card" style="border-color:rgba(255,140,76,.45)"><h3>Bepul savollar tugadi</h3><p class="sub">Tayyorgarlikni davom ettirish uchun premium oling.</p><button class="btn" id="toPrem">Premium olish</button></div>` : ""}
+    <div class="row" style="margin-bottom:6px"><button class="btn ghost" id="home">Tahlil</button><button class="btn" id="again">Yana test</button></div>
+    ${wrong}</div>`;
   if (R.passed) haptic("ok");
-  document.getElementById("home").onclick = ()=>{ S.quiz=null; S.result=null; S.path=[]; S.fanlar=null; S.bankSel=null; setTab("home"); };
-  document.getElementById("again").onclick = ()=>{ S.quiz=null; S.result=null; render(); };
+  const tp=document.getElementById("toPrem"); if (tp) tp.onclick=()=>{ S.quiz=null; S.result=null; setTab("premium"); };
+  document.getElementById("home").onclick=()=>{ S.quiz=null; S.result=null; S.path=[]; S.fanlar=null; S.bankSel=null; setTab("home"); };
+  document.getElementById("again").onclick=()=>{ S.quiz=null; S.result=null; if (S.rejim==="xatolar") S.rejim="mashq"; render(); };
 }
 
-/* ----- reyting ----- */
-async function renderRating(){
+/* ================= PREMIUM ================= */
+function renderPremium(){
   backBtn(false);
-  $app.innerHTML = `<div class="fade"><h1 style="font-size:30px;margin:4px 0 4px">Reyting <span style="color:var(--green)">🏆</span></h1>
-    <p style="color:var(--muted);margin:0 0 16px;font-size:13.5px">Eng faol o'qituvchilar. XP test va check-in orqali to'planadi.</p><div id="lb"><div class="loader"><div class="ring"></div></div></div></div>`;
-  try {
-    const d = await api("/api/leaderboard");
-    if (S.tab !== "rating") return;
-    const row = (u,i,me) => `<div class="item ${me?'me-row':''}"><span class="rank ${i<3&&!me?'r'+(i+1):''}">${me?d.me.rank:i+1}</span>${avatar(u.name,u.photo)}
-      <div class="t"><b>${me?"Siz":esc(u.name)}</b><small>${LEVEL_NAMES[(u.level||1)-1]}</small></div><span class="xp">${gem(u.level||1)}${fmt(u.xp)}</span></div>`;
-    const inTop = d.top.some(u=>u.user_id===d.me.user_id);
-    document.getElementById("lb").innerHTML = `<div class="list lb">` + (d.top.length ? d.top.map((u,i)=>row(u,i,false)).join("") : `<div class="empty">Hali hech kim XP to'plamagan. Birinchi bo'ling!</div>`) +
-      (inTop ? "" : row(d.me,0,true)) + `</div>`;
-  } catch(e){ document.getElementById("lb").innerHTML = `<div class="empty">${esc(e.message)}</div>`; }
+  const me=S.me; if (!me) { $app.innerHTML = `<div class="loader"><div class="ring"></div></div>`; return; }
+  const plan = me.tariflar.find(p=>p.id===S.plan) || me.tariflar[0];
+  const plans = me.tariflar.map(p=>`<button class="plan ${plan.id===p.id?'on':''}" data-plan="${p.id}">${p.id==="3oy"?'<span class="best">foydali</span>':""}<b>${esc(p.nomi)}</b><div class="pr">${esc(p.narx_text)}</div><small>${p.kun} kun to'liq kirish</small></button>`).join("");
+  const card = (me.karta||"").replace(/(\d{4})(?=\d)/g,"$1 ");
+  $app.innerHTML = `<div class="fade">${topbar()}
+    <h1 style="font-size:28px;margin:2px 0 6px">Premium</h1>
+    <p class="sub">${me.premium ? `Premium faol: <b style="color:var(--green)">${esc(me.premium_until)}</b> gacha. Muddatni uzaytirish uchun yangi kod kiritishingiz mumkin.` : `Bepul sinov: ${me.free_questions} ta savol (${me.free_left} ta qoldi).`}</p>
+    <div class="card"><h3>Premium imkoniyatlari</h3><ul class="steps">
+      <li><b>Cheksiz mashq</b> — barcha ${S.bank.length} ta fan bo'yicha</li>
+      <li><b>Sinov imtihoni</b> — 40 savol, 80 daqiqa, rasmiy 80 ballik tizim</li>
+      <li><b>Xatolar ustida ishlash</b> — faqat xato javob bergan savollaringiz</li>
+      <li><b>To'liq tahlil</b> — fanlar va bo'limlar kesimida zaif mavzular</li></ul></div>
+    <div class="grp">1. Tarifni tanlang</div><div class="plans">${plans}</div>
+    <div class="grp">2. Kartaga to'lov qiling</div>
+    <div class="cardno"><div><div class="num">${esc(card||"—")}</div><small>${esc(me.karta_egasi||"")}</small></div><button class="btn sm" id="copy">Nusxa</button></div>
+    <p class="sub" style="margin-top:10px">Shu kartaga <b style="color:var(--white)">${esc(plan.narx_text)}</b> o'tkazing (${esc(plan.nomi)}).</p>
+    <div class="grp">3. Chek rasmini yuboring</div>
+    ${me.pending ? `<div class="card"><h3>⏳ Chekingiz tekshirilmoqda</h3><p class="sub" style="margin:0">Admin tasdiqlagach, Telegram'da sizga faollashtirish kodi keladi.</p></div>` : `
+    <label class="upload ${S.chek?'has':''}" for="chek">${S.chek?`✅ ${esc(S.chek.name)}`:"📎 To'lov cheki rasmini tanlang (skrinshot)"}</label>
+    <input type="file" id="chek" accept="image/*,application/pdf" class="hidden">
+    <button class="btn" id="send" ${S.chek?"":"disabled"}>Chekni yuborish</button>
+    <p class="sub" style="margin-top:8px">Chekni bot chatiga rasm qilib ham yuborishingiz mumkin.</p>`}
+    <div class="grp">4. Faollashtirish kodi</div>
+    <div class="card"><p class="sub">Admin yuborgan kodni kiriting (masalan: ABCD-EFGH-JKLM)</p>
+      <input class="inp" id="code" placeholder="XXXX-XXXX-XXXX" autocomplete="off" style="text-transform:uppercase;letter-spacing:.08em">
+      <button class="btn" id="redeem">Faollashtirish</button></div>
+    ${me.admin?`<p class="sub" style="text-align:center">Savollar bo'yicha: ${esc(me.admin)}</p>`:""}</div>`;
+  $app.querySelectorAll("[data-plan]").forEach(b=>b.onclick=()=>{ haptic(); S.plan=b.dataset.plan; renderPremium(); });
+  document.getElementById("copy").onclick=async()=>{ try { await navigator.clipboard.writeText(me.karta); toast("Karta raqami nusxalandi"); } catch(e){ toast(me.karta); } };
+  const f=document.getElementById("chek"); if (f) f.onchange=()=>{ S.chek=f.files[0]||null; renderPremium(); };
+  const sd=document.getElementById("send"); if (sd) sd.onclick=async()=>{ sd.disabled=true; sd.textContent="Yuborilmoqda…";
+    const fd=new FormData(); fd.append("tarif", plan.id); fd.append("chek", S.chek, S.chek.name);
+    try { await api("/api/payment", null, fd); S.chek=null; haptic("ok"); toast("Chek yuborildi. Admin tasdiqlagach kod keladi."); await loadMe(); } catch(e){ toast(e.message); }
+    renderPremium(); };
+  document.getElementById("redeem").onclick=async()=>{ const c=document.getElementById("code").value.trim(); if (c.length<8) return toast("Kodni to'liq kiriting");
+    try { const r=await api("/api/code",{code:c}); haptic("ok"); toast(r.message); await loadMe(); renderPremium(); } catch(e){ haptic("err"); toast(e.message); } };
 }
 
-/* ---------- ishga tushirish ---------- */
 async function loadMe(){ S.me = await api("/api/me"); }
 (async function init(){
   render();
-  try {
-    await Promise.all([loadMe(), api("/api/catalog").then(c=>S.catalog=c), api("/api/bank").then(b=>S.bank=b.fanlar).catch(()=>{})]);
-  } catch(e) {
-    $app.innerHTML = `<div class="loader"><b>Ulanib bo'lmadi</b><p>${esc(e.message)}<br>Ilovani Telegram bot orqali oching.</p></div>`;
-    return;
-  }
+  try { await Promise.all([loadMe(), api("/api/catalog").then(c=>S.catalog=c), api("/api/bank").then(b=>S.bank=b.fanlar)]); }
+  catch(e){ $app.innerHTML = `<div class="loader"><b>Ulanib bo'lmadi</b><p>${esc(e.message)}<br>Ilovani Telegram bot orqali oching.</p></div>`; return; }
   render();
 })();
 </script>

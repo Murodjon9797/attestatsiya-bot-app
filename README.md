@@ -6,9 +6,25 @@ Test savollarini sun'iy intellekt (Claude) har safar yangidan tuzadi.
 
 **Oqim:** Bilim sohasi → Yo'nalish → Mutaxassislik → Fan → Savollar soni (10/20/30) → Test → Natija
 
+## Premium va to'lov
+
+- Bepul: `FREE_QUESTIONS` ta savol (standart 5). Keyin premium kerak.
+- Tariflar: 1 oy — `PRICE_1M` (40 000 so'm), 3 oy — `PRICE_3M` (60 000 so'm).
+- To'lov: foydalanuvchi `CARD_NUMBER` kartaga (egasi `CARD_OWNER`) pul o'tkazadi va chek rasmini
+  ilovada yoki chatda yuboradi. Chek adminga **[✅ 1 oylik kod] [✅ 3 oylik kod] [❌ Rad etish]**
+  tugmalari bilan keladi. Admin tasdiqlasa, bot foydalanuvchiga faollashtirish kodini yuboradi.
+- Foydalanuvchi kodni `/kod ABCD-EFGH-JKLM` yoki ilovadagi Premium bo'limida kiritadi.
+- Admin bo'lish: botga `/admin <ADMIN_CLAIM_CODE>` yozing (kod bir martalik). Yoki `ADMIN_IDS` ga Telegram ID.
+- Admin buyruqlari: `/kod1`, `/kod3` — qo'lda kod yaratish (naqd to'lov va h.k.), `/statistika`.
+- **Muhim:** `DATABASE_URL` (PostgreSQL, masalan Neon bepul) bo'lmasa, Render'da server qayta ishga
+  tushganda obunalar va natijalar o'chadi.
+
+Premium imkoniyatlari: cheksiz mashq, sinov imtihoni (vaqtli, javoblar oxirida), xatolar ustida ishlash,
+fanlar va bo'limlar kesimida tahlil.
+
 Bot ikki ko'rinishda ishlaydi:
-- **Mini App** (Telegram ichida ochiladigan ilova): XP va darajalar (Boshlovchi → Ustoz), kunlik check-in,
-  reyting, chiroyli test oynasi. Fayllar: `webapp/index.html`, `bot/web.py`.
+- **Mini App** (Telegram ichida ochiladigan ilova): tahlil (tayyorlik darajasi, fanlar va zaif mavzular,
+  dinamika), test (mashq, sinov imtihoni, xatolar ustida ishlash), premium. Fayllar: `webapp/index.html`, `bot/web.py`.
 - **Chat rejimi**: tugmalar orqali xuddi shu test (Mini App ochilmaydigan qurilmalar uchun).
 
 ## Tuzilma

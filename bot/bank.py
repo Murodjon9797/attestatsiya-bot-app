@@ -50,14 +50,19 @@ class QuestionBank:
                 return s["id"]
         return None
 
-    def draw(self, sid: str, soni: int) -> list[dict]:
-        """Tasodifiy `soni` ta savol: [{savol, variantlar, togri, izoh}], variantlar aralashtirilgan."""
-        qs = random.sample(self.subjects[sid]["savollar"], min(soni, len(self.subjects[sid]["savollar"])))
-        out = []
-        for q in qs:
-            opts = list(q["a"])
-            correct = opts[0]
-            random.shuffle(opts)
-            out.append({"savol": q["q"], "variantlar": opts, "togri": opts.index(correct),
-                        "izoh": q.get("e", ""), "bolim": q.get("b", "")})
-        return out
+    def _render(self, sid: str, idx: int) -> dict:
+        q = self.subjects[sid]["savollar"][idx]
+        opts = list(q["a"])
+        correct = opts[0]
+        random.shuffle(opts)
+        return {"qid": f"{sid}:{idx}", "sid": sid, "savol": q["q"], "variantlar": opts,
+                "togri": opts.index(correct), "izoh": q.get("e", ""), "bolim": q.get("b", "")}
+
+    def draw(self, sid: str, soni: int, only: list[str] | None = None) -> list[dict]:
+        """Tasodifiy `soni` ta savol (variantlar aralashtirilgan). `only` — faqat shu qid'lardan."""
+        n = len(self.subjects[sid]["savollar"])
+        pool = list(range(n))
+        if only is not None:
+            allowed = {int(q.split(":")[1]) for q in only if q.startswith(sid + ":")}
+            pool = [i for i in pool if i in allowed]
+        return [self._render(sid, i) for i in random.sample(pool, min(soni, len(pool)))]

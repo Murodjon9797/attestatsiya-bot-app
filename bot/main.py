@@ -23,7 +23,8 @@ from aiogram.types import (BotCommand, CallbackQuery, InlineKeyboardButton, Inli
 
 from bot.bank import QuestionBank
 from bot.data import Catalog
-from bot.db import XP_PASS_BONUS, XP_PER_CORRECT, ResultsDB
+from bot.db import ResultsDB
+from bot.premium import Premium
 from bot import quiz
 from claude_json import ClaudeError
 
@@ -37,6 +38,7 @@ LETTERS = "ABCD"
 catalog: Catalog
 bank: QuestionBank
 db: ResultsDB
+premium: Premium
 claude: anthropic.AsyncAnthropic
 PASS_PERCENT = 60
 WEBAPP_URL = ""
@@ -89,19 +91,36 @@ def sohalar_kb() -> InlineKeyboardMarkup:
     kb = paged(items, 0, "noop", None)
     if bank.subjects:
         kb.inline_keyboard.insert(0, [btn(f"📚 Attestatsiya fanlari — tayyor savollar ({len(bank.subjects)})", "bk:0")])
+    kb.inline_keyboard.insert(0, [btn("💎 Premium", "premium"), btn("📊 Tahlil", "tahlil")])
     if WEBAPP_URL:
         kb.inline_keyboard.insert(0, [InlineKeyboardButton(text="📱 Ilovani ochish", web_app=WebAppInfo(url=WEBAPP_URL))])
     return kb
 
 
+def access(uid: int) -> tuple[bool, int]:
+    """(premium faolmi, qolgan bepul savollar soni)."""
+    if db.premium_until(uid):
+        return True, 10 ** 6
+    return False, max(0, premium.free_questions - db.answered_count(uid))
+
+
+def paywall_kb() -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(inline_keyboard=[[btn("💎 Premium olish", "premium")], [btn("🏠 Bosh menyu", "home")]])
+
+
 async def menu_home(target: CallbackQuery | Message, state: FSMContext) -> None:
     await state.clear()
-    ny, nm, nf = catalog.stats()
-    text = (f"<b>🎓 Texnikum o'qituvchilari attestatsiyasi — {catalog.yil}</b>\n\n"
-            f"Ma'lumotlar: edu.profedu.uz ({catalog.yangilangan})\n"
-            f"Yo'nalishlar: {ny}, mutaxassisliklar: {nm}"
-            + (f", fanlar ro'yxati bor: {nf}" if nf else "") +
-            "\n\nBilim sohasini tanlang:")
+    uid = target.from_user.id
+    db.touch_user(uid, target.from_user.full_name, target.from_user.username or "")
+    is_p, left = access(uid)
+    until = db.premium_until(uid)
+    holat = (f"💎 Premium: <b>{until.strftime('%d.%m.%Y')}</b> gacha" if is_p
+             else f"🆓 Bepul savollar qoldi: <b>{left}</b> / {premium.free_questions}")
+    text = (f"<b>🎓 Texnikum o'qituvchilari attestatsiyasiga tayyorlov — {catalog.yil}</b>\n\n"
+            f"{holat}\n\n"
+            f"📚 {len(bank.subjects)} ta attestatsiya fani bo'yicha tayyor savollar, "
+            "bo'limlar kesimida tahlil va zaif mavzular bo'yicha tavsiyalar.\n\n"
+            "Fanni tanlang yoki mutaxassislik bo'yicha qidiring:")
     await show(target, text, sohalar_kb())
 
 
@@ -246,11 +265,17 @@ async def cb_start_test(cb: CallbackQuery, state: FSMContext) -> None:
     if d.get("busy"):
         return await cb.answer("Test tayyorlanmoqda, kuting...", show_alert=True)
     soni = int(cb.data[2:])
+    is_p, left = access(cb.from_user.id)
+    if left <= 0:
+        await cb.answer()
+        return await cb.message.edit_text(
+            f"🔒 Bepul {premium.free_questions} ta savol tugadi.\n\n" + premium.payment_text(), reply_markup=paywall_kb())
+    soni = min(soni, left)
     sid = d.get("bank") or bank.match(d["fan"])
     await cb.answer()
     if sid:  # tayyor savollar bazasi — API kaliti kerak emas
         qs = bank.draw(sid, soni)
-    elif os.getenv("ANTHROPIC_API_KEY") or os.getenv("ANTHROPIC_AUTH_TOKEN"):
+    elif is_p and (os.getenv("ANTHROPIC_API_KEY") or os.getenv("ANTHROPIC_AUTH_TOKEN")):
         y = catalog.yunalish(d["bi"], d["yi"])
         m = catalog.mutaxassislik(d["bi"], d["yi"], d["mi"])
         await state.update_data(busy=True)
@@ -277,7 +302,7 @@ async def cb_start_test(cb: CallbackQuery, state: FSMContext) -> None:
                                                                [btn("🏠 Bosh menyu", "home")]]))
 
     await state.set_state(St.test)
-    await state.update_data(busy=False, qs=qs, qi=0, score=0, wrong=[])
+    await state.update_data(busy=False, qs=qs, qi=0, score=0, wrong=[], sid=sid or "", trial=not is_p)
     text, kb = question_view(qs[0], 0, len(qs))
     await cb.message.edit_text(text, reply_markup=kb)
 
@@ -291,7 +316,14 @@ async def cb_answer(cb: CallbackQuery, state: FSMContext) -> None:
         return await cb.answer("Bu savolga javob berilgan.")
     qs = d["qs"]
     q = qs[qi]
+    if d.get("trial") and access(cb.from_user.id)[1] <= 0:
+        await state.update_data(qs=qs[:qi])
+        await cb.answer()
+        await cb.message.answer(f"🔒 Bepul {premium.free_questions} ta savol tugadi.\n\n" + premium.payment_text(),
+                                reply_markup=paywall_kb())
+        return await finish(cb, state) if qi > 0 else await state.set_state(None)
     ok = k == q["togri"]
+    db.record_answer(cb.from_user.id, q.get("sid", ""), q.get("qid", ""), q.get("bolim", ""), ok)
     score = d["score"] + ok
     wrong = d["wrong"] + ([] if ok else [qi])
     mark = "✅ To'g'ri!" if ok else f"❌ Noto'g'ri. To'g'ri javob: <b>{LETTERS[q['togri']]}</b>"
@@ -301,11 +333,16 @@ async def cb_answer(cb: CallbackQuery, state: FSMContext) -> None:
     await cb.answer("✅" if ok else "❌")
     qi += 1
     await state.update_data(qi=qi, score=score, wrong=wrong)
-    if qi < len(qs):
+    if qi < len(qs) and not (d.get("trial") and access(cb.from_user.id)[1] <= 0):
         text, kb = question_view(qs[qi], qi, len(qs))
         await cb.message.answer(text, reply_markup=kb)
     else:
+        if qi < len(qs):
+            await state.update_data(qs=qs[:qi])
         await finish(cb, state)
+        if d.get("trial") and access(cb.from_user.id)[1] <= 0:
+            await cb.message.answer(f"🔒 Bepul {premium.free_questions} ta savol tugadi. Tayyorgarlikni davom "
+                                    "ettirish uchun premium oling.\n\n" + premium.payment_text(), reply_markup=paywall_kb())
 
 
 @router.callback_query(F.data.startswith("a:"))
@@ -334,14 +371,20 @@ async def finish(cb: CallbackQuery, state: FSMContext) -> None:
     else:
         mutax = "Attestatsiya fanlari"
     u = cb.from_user
-    db.save(u.id, u.full_name, mutax, d["fan"], score, n)
-    db.touch_user(u.id, u.full_name, u.username or "")
-    passed = 100 * score / n >= PASS_PERCENT
-    db.add_xp(u.id, score * XP_PER_CORRECT + (XP_PASS_BONUS if passed else 0))
+    db.save(u.id, d["fan"], score, n, d.get("sid", ""), "mashq")
     verdict = "🟢 <b>O'tdi</b>" if pct >= PASS_PERCENT else "🔴 <b>O'tmadi</b>"
     text = (f"🏁 <b>Test yakunlandi</b>\n\n"
             f"Fan: {escape(d['fan'])}\nMutaxassislik: {escape(mutax)}\n\n"
             f"Natija: <b>{score}/{n}</b> ({pct}%) — {verdict} (o'tish bali {PASS_PERCENT}%)")
+    bol: dict[str, list[int]] = {}
+    for i, q in enumerate(d["qs"]):
+        b = bol.setdefault(q.get("bolim") or "Umumiy", [0, 0])
+        b[1] += 1
+        b[0] += int(i not in d["wrong"])
+    if len(bol) > 1 or "Umumiy" not in bol:
+        text += "\n\n<b>Bo'limlar bo'yicha:</b>\n" + "\n".join(
+            f"{'🟢' if v[0] / v[1] >= PASS_PERCENT / 100 else '🔴'} {escape(k)}: {v[0]}/{v[1]}"
+            for k, v in sorted(bol.items(), key=lambda x: x[1][0] / x[1][1]))
     if d["wrong"]:
         text += "\n\n<b>Qayta ko'rib chiqing:</b>\n" + "\n".join(
             f"• {i + 1}-savol: {escape(d['qs'][i]['savol'][:90])}" for i in d["wrong"][:15])
@@ -368,17 +411,48 @@ async def on_results(msg: Message) -> None:
     if not rows:
         return await msg.answer("Hali test topshirmagansiz. /start")
     await msg.answer("<b>Oxirgi natijalaringiz:</b>\n\n" + "\n".join(
-        f"{v} — {escape(f)}: {t}/{j} ({p}%)" for v, f, t, j, p in rows))
+        f"{v[:16]} — {escape(f)}: {t}/{j} ({p}%)" for v, f, t, j, p, _ in rows))
+
+
+@router.message(Command("tahlil"))
+async def on_tahlil(msg: Message) -> None:
+    await msg.answer(tahlil_text(msg.from_user.id))
+
+
+@router.callback_query(F.data == "tahlil")
+async def cb_tahlil(cb: CallbackQuery) -> None:
+    await cb.answer()
+    await cb.message.answer(tahlil_text(cb.from_user.id))
+
+
+def tahlil_text(uid: int) -> str:
+    a = db.analytics(uid)
+    if not a["jami"]:
+        return "📊 Hali savollarga javob bermadingiz. Testni boshlang — tahlil shu yerda paydo bo'ladi."
+    names = {s["id"]: s["nomi"] for s in bank.listing()}
+    pct = round(100 * a["togri"] / a["jami"])
+    lines = [f"📊 <b>Tahlil</b>\n\nJami javoblar: {a['jami']}, to'g'ri: {a['togri']} (<b>{pct}%</b>)"]
+    if a["fanlar"]:
+        lines.append("\n<b>Fanlar bo'yicha:</b>")
+        for f in sorted(a["fanlar"], key=lambda x: x["togri"] / x["jami"]):
+            p = round(100 * f["togri"] / f["jami"])
+            lines.append(f"{'🟢' if p >= PASS_PERCENT else '🔴'} {escape(names.get(f['sid'], f['sid']))}: {p}% ({f['jami']} ta javob)")
+    weak = sorted((b for b in a["bolimlar"] if b["jami"] >= 2), key=lambda b: b["togri"] / b["jami"])[:5]
+    weak = [b for b in weak if b["togri"] / b["jami"] < PASS_PERCENT / 100]
+    if weak:
+        lines.append("\n<b>Zaif mavzular — takrorlang:</b>")
+        lines += [f"• {escape(b['bolim'])} ({escape(names.get(b['sid'], ''))}): {b['togri']}/{b['jami']}" for b in weak]
+    return "\n".join(lines)
 
 
 @router.message(Command("help"))
 async def on_help(msg: Message) -> None:
     await msg.answer(
-        "Bot texnikum o'qituvchilariga attestatsiyaga tayyorlanish uchun test o'tkazadi.\n\n"
-        "1. Bilim sohasi → yo'nalish → mutaxassislikni tanlang\n"
-        "2. Fanni tanlang (yoki nomini yozing)\n"
-        "3. Savollar sonini tanlang — test sun'iy intellekt yordamida tuziladi\n\n"
-        "/start — bosh menyu\n/natijalar — oxirgi natijalar")
+        "Bot texnikum o'qituvchilarini attestatsiyaga tayyorlaydi: fanlar bo'yicha test, "
+        "bo'limlar kesimida tahlil va zaif mavzular.\n\n"
+        f"Bepul: {premium.free_questions} ta savol. Keyin — premium (/premium).\n\n"
+        "/start — bosh menyu\n/tahlil — natijalar tahlili\n/natijalar — oxirgi testlar\n"
+        "/premium — tariflar va to'lov\n/kod — faollashtirish kodini kiritish")
 
 
 @router.message(St.test)
@@ -388,13 +462,15 @@ async def on_text_in_test(msg: Message) -> None:
 
 # ---------------- ishga tushirish ----------------
 async def run() -> None:
-    global catalog, db, claude, PASS_PERCENT, WEBAPP_URL
+    global catalog, db, claude, PASS_PERCENT, WEBAPP_URL, premium
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     token = os.getenv("BOT_TOKEN")
     if not token:
         raise SystemExit(".env faylida BOT_TOKEN ko'rsatilmagan.")
     catalog = Catalog(os.getenv("DATA_FILE", "data/fanlar_2026.json"))
-    db = ResultsDB(os.getenv("DB_FILE", "data/natijalar.sqlite3"))
+    db = ResultsDB(os.getenv("DB_FILE", "data/natijalar.sqlite3"), os.getenv("DATABASE_URL", ""))
+    log.info("Ma'lumotlar bazasi: %s", "PostgreSQL" if db.pg else "SQLite (server qayta ishga tushsa o'chadi!)")
+    premium = Premium(db)
     global bank
     bank = QuestionBank(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "savollar"))
     log.info("Savollar bazasi: %d ta fan, %d ta savol", len(bank.subjects),
@@ -408,19 +484,27 @@ async def run() -> None:
     bot = Bot(token, default=DefaultBotProperties(parse_mode=ParseMode.HTML,
                                                   link_preview_is_disabled=True))
     dp = Dispatcher(storage=MemoryStorage())
+    premium.bot = bot
+    dp.include_router(premium.router())  # chek rasmlari va admin tugmalari test holatidan oldin ushlanadi
     dp.include_router(router)
     await bot.set_my_commands([
         BotCommand(command="start", description="Bosh menyu"),
-        BotCommand(command="natijalar", description="Mening natijalarim"),
+        BotCommand(command="tahlil", description="Natijalar tahlili"),
+        BotCommand(command="premium", description="Premium va to'lov"),
+        BotCommand(command="kod", description="Faollashtirish kodini kiritish"),
+        BotCommand(command="natijalar", description="Oxirgi testlar"),
         BotCommand(command="help", description="Yordam"),
     ])
+    if not premium.admins:
+        log.warning("ADMIN_IDS ko'rsatilmagan — to'lov cheklari hech kimga yuborilmaydi!")
 
     # Mini App veb-serveri (API + sahifa) bot bilan bitta jarayonda ishlaydi
     from aiohttp import web as aioweb
 
     from bot.web import build_app
 
-    app = build_app(token=token, catalog=catalog, db=db, claude=claude, pass_percent=PASS_PERCENT, bank=bank)
+    app = build_app(token=token, catalog=catalog, db=db, claude=claude, pass_percent=PASS_PERCENT, bank=bank,
+                    premium=premium)
 
     # Ommaviy manzil bo'lsa webhook: Telegram xabari uxlab qolgan bepul serverni ham uyg'otadi
     webhook_path = webhook_secret = ""
