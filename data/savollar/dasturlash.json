@@ -3149,6 +3149,160 @@
     "Dastur juda tez ishlaganda"
    ],
    "e": "Nom xato yozilgan yoki ko'rinish sohasidan tashqarida."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"int a = 3, b = 4; cout << (a < b);\" nima chiqaradi?",
+   "a": [
+    "1",
+    "0",
+    "true (so'z sifatida)",
+    "3"
+   ],
+   "e": "bool qiymat cout da 1 yoki 0 bo'lib chiqadi (boolalpha bo'lmasa)."
+  },
+  {
+   "b": "Amallar",
+   "q": "\"cout << 7 % 2 * 3;\" nima chiqaradi?",
+   "a": [
+    "3",
+    "1",
+    "6",
+    "21"
+   ],
+   "e": "% va * bir xil ustuvorlikda, chapdan o'ngga: (7 % 2) * 3."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"int i = 0; while (i < 3) { cout << i; i++; }\" nima chiqaradi?",
+   "a": [
+    "012",
+    "123",
+    "0123",
+    "3"
+   ],
+   "e": "i = 3 da shart yolg'on."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "\"for (int i = 5; i >= 1; i--) cout << i;\" nima chiqaradi?",
+   "a": [
+    "54321",
+    "12345",
+    "5432",
+    "4321"
+   ],
+   "e": "Kamayuvchi sikl."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "\"int f(int n) { return n == 0 ? 0 : n + f(n - 1); }\" — f(4) nechaga teng?",
+   "a": [
+    "10",
+    "4",
+    "24",
+    "6"
+   ],
+   "e": "4 + 3 + 2 + 1 + 0."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Funksiya prototipi nima uchun main() dan oldin yoziladi?",
+   "a": [
+    "Funksiyani aniqlanishidan oldin chaqirish uchun",
+    "Funksiyani tezroq ishlashi uchun, chunki kompilyator uni birinchi o'rinda optimallashtiradi",
+    "Funksiyani yashirish uchun",
+    "Funksiyani o'chirish uchun"
+   ],
+   "e": "Kompilyator funksiya imzosini oldindan bilishi kerak."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"int a[] = {4, 1, 9, 2}; int m = a[0]; for (int x : a) if (x > m) m = x;\" dan keyin m nechaga teng?",
+   "a": [
+    "9",
+    "4",
+    "1",
+    "2"
+   ],
+   "e": "Eng katta element."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "\"string s = \"kompyuter\"; cout << s.length();\" nima chiqaradi?",
+   "a": [
+    "9",
+    "8",
+    "10",
+    "1"
+   ],
+   "e": "k-o-m-p-y-u-t-e-r — 9 ta belgi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Saralangan \"vector<int>\" da elementni tez topish uchun qaysi funksiya ishlatiladi?",
+   "a": [
+    "binary_search()",
+    "linear_find()",
+    "find_fast()",
+    "search_all()"
+   ],
+   "e": "<algorithm> dagi binary_search O(log n) da ishlaydi."
+  },
+  {
+   "b": "OYD",
+   "q": "\"class Doira { double r; public: double yuza() { return 3.14 * r * r; } };\" da yuza() nima?",
+   "a": [
+    "Metod",
+    "Maydon",
+    "Konstruktor",
+    "Destruktor"
+   ],
+   "e": "Sinf ichidagi funksiya — metod."
+  },
+  {
+   "b": "OYD",
+   "q": "Bitta sinfdan nechta obyekt yaratish mumkin?",
+   "a": [
+    "Istalgancha (xotira yetguncha)",
+    "Faqat bitta",
+    "Faqat ikkita",
+    "Hech qanday"
+   ],
+   "e": "Singleton naqshi bundan istisno — atayin bitta obyekt."
+  },
+  {
+   "b": "Xatolar",
+   "q": "\"cin >> x;\" da x int, foydalanuvchi \"abc\" kiritsa nima bo'ladi?",
+   "a": [
+    "O'qish muvaffaqiyatsiz bo'lib, cin xato holatiga o'tadi",
+    "x avtomatik ravishda \"abc\" satriga aylanadi",
+    "Dastur kompilyatsiya xatosi beradi",
+    "x ga 3 yoziladi"
+   ],
+   "e": "cin.fail() bilan tekshirish mumkin."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Xotirani ikki marta bo'shatish (double delete) nimaga olib keladi?",
+   "a": [
+    "Aniqlanmagan xatti-harakat",
+    "Xotira ikki baravar ko'payadi",
+    "Hech narsa bo'lmaydi",
+    "Kompilyator buni tuzatadi"
+   ],
+   "e": "delete dan keyin ko'rsatkichga nullptr berish tavsiya etiladi."
+  },
+  {
+   "b": "Fayllar bilan ishlash",
+   "q": "Faylga son yozish qanday bajariladi?",
+   "a": [
+    "f << x;",
+    "f >> x;",
+    "x >> f;",
+    "write x to f;"
+   ],
+   "e": "ofstream obyektiga << operatori bilan yoziladi."
   }
  ]
 }
