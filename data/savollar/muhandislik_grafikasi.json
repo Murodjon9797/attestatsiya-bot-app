@@ -1,0 +1,32 @@
+{
+ "kod": "5PM0596",
+ "nomi": "Muhandislik va kompyuter grafikasi",
+ "manba": "2026-yilgi texnikum o'quv rejalari (42 ta mutaxassislikda o'qitiladi)",
+ "savollar": [
+  {"b": "Chizma standartlari", "q": "Chizmaning asosiy yozuvi (shtamp) odatda formatning qaysi qismida joylashadi?", "a": ["O'ng pastki burchagida", "Chap yuqori burchagida", "Markazida", "Chap pastki burchagida"], "e": "Asosiy yozuvda chizma nomi, masshtab, material va bajaruvchilar ko'rsatiladi."},
+  {"b": "Chizma standartlari", "q": "A3 formatining o'lchamlari qancha?", "a": ["297 × 420 mm", "210 × 297 mm", "420 × 594 mm", "594 × 841 mm"], "e": "A0 — 841×1189 mm, keyingi har bir format oldingisining yarmi."},
+  {"b": "Chizma standartlari", "q": "Kichiklashtirish masshtabi qaysi?", "a": ["1:2", "2:1", "1:1", "5:1"], "e": "1:2 — tasvir haqiqiydan ikki marta kichik."},
+  {"b": "Chizma standartlari", "q": "Chizmada o'lchamlar qanday birlikda va qanday ko'rsatiladi?", "a": ["Millimetrda, birlik belgisi yozilmaydi", "Santimetrda, \"sm\" yoziladi", "Metrda, \"m\" yoziladi", "Dyuymda"], "e": "Boshqa birlik ishlatilsa, u alohida ko'rsatiladi."},
+  {"b": "Chizma standartlari", "q": "Ko'rinmas kontur chiziqlari qaysi chiziq turida chiziladi?", "a": ["Shtrix chiziq", "Asosiy yo'g'on tutash chiziq", "Shtrix-punktir chiziq", "To'lqinsimon chiziq"], "e": "To'lqinsimon chiziq — uzilish chizig'i."},
+  {"b": "Chizma standartlari", "q": "Aylana diametri o'lcham sonidan oldin qanday belgi bilan ko'rsatiladi?", "a": ["⌀", "R", "□", "∠"], "e": "R — radius, □ — kvadrat belgisi."},
+  {"b": "Tasvirlar", "q": "Asosiy ko'rinish (bosh ko'rinish) qaysi proyeksiyalar tekisligida joylashadi?", "a": ["Frontal tekislikda (old tomondan ko'rinish)", "Gorizontal tekislikda", "Profil tekislikda", "Aksonometriyada"], "e": "Bosh ko'rinish detal haqida eng ko'p ma'lumot berishi kerak."},
+  {"b": "Tasvirlar", "q": "Ustdan ko'rinish bosh ko'rinishga nisbatan chizmada qayerda joylashadi?", "a": ["Bosh ko'rinish ostida", "Bosh ko'rinish ustida", "Bosh ko'rinishdan chapda", "Ixtiyoriy joyda"], "e": "Chapdan ko'rinish esa bosh ko'rinishdan o'ngda joylashadi."},
+  {"b": "Tasvirlar", "q": "Qirqimda kesilgan sohalar qanday belgilanadi?", "a": ["Material turiga mos shtrixlash bilan", "Bo'yash bilan", "Nuqtalar bilan", "Belgilanmaydi"], "e": "Metallar uchun 45° burchakli ingichka chiziqlar bilan shtrixlanadi."},
+  {"b": "Tasvirlar", "q": "Simmetrik detalning yarmini ko'rinish, yarmini qirqim bilan tasvirlash qanday ataladi?", "a": ["Ko'rinish va qirqimni birlashtirish", "Mahalliy qirqim", "Pog'onali qirqim", "Uchinchi ko'rinish"], "e": "Chegarasi simmetriya o'qi (shtrix-punktir) bo'ladi."},
+  {"b": "Tasvirlar", "q": "Detalning kichik elementini kattalashtirib ko'rsatuvchi qo'shimcha tasvir qanday ataladi?", "a": ["Chiqarma element (vynosnoy element)", "Kesim", "Qirqim", "Bosh ko'rinish"], "e": "Chiqarma element harf bilan belgilanadi va masshtabi ko'rsatiladi."},
+  {"b": "Rezbalar va birikmalar", "q": "Chizmada rezba qanday belgilanadi (masalan, metrik rezba)?", "a": ["M harfi va nominal diametr, masalan M20", "R harfi bilan", "⌀ belgisi bilan faqat", "Rezba belgilanmaydi"], "e": "Mayda qadamli rezbada qadam ham ko'rsatiladi: M20×1,5."},
+  {"b": "Rezbalar va birikmalar", "q": "Qaysi birikma ajraladigan birikma hisoblanadi?", "a": ["Boltli birikma", "Payvand birikma", "Parchinli birikma", "Yelimli birikma"], "e": "Ajraladigan birikmalar detallarni shikastlamay ajratish imkonini beradi."},
+  {"b": "Rezbalar va birikmalar", "q": "Yig'ish chizmasiga ilova qilinadigan, tarkibiy qismlar ro'yxati keltirilgan hujjat qanday ataladi?", "a": ["Spetsifikatsiya", "Eskiz", "Tushuntirish xati", "Smeta"], "e": "Spetsifikatsiyada pozitsiya raqamlari, belgilanish va soni ko'rsatiladi."},
+  {"b": "Rezbalar va birikmalar", "q": "O'lchash asboblari yordamida, qo'lda, ko'z bilan chamalab bajarilgan detal chizmasi qanday ataladi?", "a": ["Eskiz", "Ishchi chizma", "Yig'ish chizmasi", "Aksonometriya"], "e": "Eskiz asosida keyinchalik ishchi chizma tayyorlanadi."},
+  {"b": "Aksonometriya", "q": "Frontal dimetriyada y o'qi bo'yicha qisqarish koeffitsiyenti qancha?", "a": ["0,5", "1", "0,82", "0,94"], "e": "x va z o'qlari bo'yicha o'lchamlar o'zgarmaydi."},
+  {"b": "Aksonometriya", "q": "Izometriyada aylana qanday shaklda tasvirlanadi?", "a": ["Ellips (ko'pincha oval bilan almashtiriladi)", "Aylana", "Kvadrat", "Parabola"], "e": "Amalda ellips oval bilan almashtiriladi."},
+  {"b": "Kompyuter grafikasi", "q": "Vektor grafikaning rastr grafikadan asosiy afzalligi nima?", "a": ["Kattalashtirilganda sifat yo'qolmaydi", "Fotosuratlar uchun qulayroq", "Fayl doimo kattaroq", "Piksellardan iborat"], "e": "Vektor tasvir geometrik obyektlar formulalari bilan saqlanadi."},
+  {"b": "Kompyuter grafikasi", "q": "Qaysi fayl formati rastr tasvir hisoblanadi?", "a": ["JPEG", "SVG", "DWG", "DXF"], "e": "DWG va DXF — AutoCAD chizma formatlari."},
+  {"b": "Kompyuter grafikasi", "q": "AutoCAD chizmalarining asosiy fayl formati qaysi?", "a": [".dwg", ".docx", ".xlsx", ".mp3"], "e": ".dxf — boshqa dasturlar bilan almashish uchun format."},
+  {"b": "Kompyuter grafikasi", "q": "AutoCAD'da obyektlarni guruhlab, ularning ko'rinishi va xossalarini boshqarish uchun nima ishlatiladi?", "a": ["Qatlamlar (Layers)", "Shriftlar", "Makroslar", "Arxivlar"], "e": "Har bir qatlam uchun rang, chiziq turi va qalinligi belgilanadi."},
+  {"b": "Kompyuter grafikasi", "q": "AutoCAD'da to'g'ri chiziq kesmasini chizish buyrug'i qaysi?", "a": ["LINE", "CIRCLE", "TRIM", "HATCH"], "e": "TRIM — qirqish, HATCH — shtrixlash buyrug'i."},
+  {"b": "Kompyuter grafikasi", "q": "AutoCAD'da obyektni nusxalash buyrug'i qaysi?", "a": ["COPY", "MOVE", "ERASE", "ROTATE"], "e": "MOVE — ko'chirish, ERASE — o'chirish, ROTATE — burish."},
+  {"b": "Kompyuter grafikasi", "q": "Uch o'lchamli (3D) modellash uchun mo'ljallangan dasturga misol qaysi?", "a": ["SolidWorks (yoki KOMPAS-3D, Inventor)", "Notepad", "Excel", "PowerPoint"], "e": "3D modeldan avtomatik ravishda chizmalar olish mumkin."},
+  {"b": "Kompyuter grafikasi", "q": "RGB rang modeli qaysi ranglarga asoslangan?", "a": ["Qizil, yashil, ko'k", "Moviy, pushti, sariq, qora", "Qora va oq", "Qizil, sariq, ko'k"], "e": "CMYK — bosmaxona uchun rang modeli."}
+ ]
+}

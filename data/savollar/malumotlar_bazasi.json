@@ -1,0 +1,32 @@
+{
+ "kod": "5PM0489",
+ "nomi": "Ma'lumotlar bazasi",
+ "manba": "2026-yilgi texnikum o'quv rejalari (11 ta mutaxassislikda o'qitiladi)",
+ "savollar": [
+  {"b": "Asosiy tushunchalar", "q": "MBBT (ma'lumotlar bazasini boshqarish tizimi) nima?", "a": ["Ma'lumotlar bazasini yaratish, yuritish va unga murojaat qilish uchun dasturiy ta'minot", "Kompyuter qurilmasi", "Faqat jadval chizish dasturi", "Operatsion tizim"], "e": "Masalan: MySQL, PostgreSQL, MS Access, Oracle."},
+  {"b": "Asosiy tushunchalar", "q": "Relyatsion ma'lumotlar bazasida ma'lumotlar qanday ko'rinishda saqlanadi?", "a": ["O'zaro bog'langan jadvallar ko'rinishida", "Daraxt ko'rinishida faqat", "Matnli fayllarda", "Rasmlar ko'rinishida"], "e": "Relyatsion model E. Kodd tomonidan taklif qilingan."},
+  {"b": "Asosiy tushunchalar", "q": "Jadvaldagi har bir yozuvni yagona tarzda aniqlovchi maydon qanday ataladi?", "a": ["Birlamchi kalit (Primary Key)", "Tashqi kalit", "Indeks", "Atribut"], "e": "Birlamchi kalit qiymatlari takrorlanmaydi va bo'sh bo'lmaydi."},
+  {"b": "Asosiy tushunchalar", "q": "Boshqa jadvalning birlamchi kalitiga murojaat qiluvchi maydon qanday ataladi?", "a": ["Tashqi kalit (Foreign Key)", "Birlamchi kalit", "Surrogat kalit", "Unikal maydon"], "e": "Tashqi kalit jadvallar orasidagi bog'lanishni ta'minlaydi."},
+  {"b": "Asosiy tushunchalar", "q": "\"Bir talaba bir nechta fanni o'qiydi, bir fanni bir nechta talaba o'qiydi\" — bu qanday bog'lanish?", "a": ["Ko'pga-ko'p", "Birga-bir", "Birga-ko'p", "Bog'lanish yo'q"], "e": "Ko'pga-ko'p bog'lanish oraliq jadval orqali amalga oshiriladi."},
+  {"b": "SQL", "q": "SQL'da jadvaldan ma'lumot tanlash buyrug'i qaysi?", "a": ["SELECT", "INSERT", "UPDATE", "DELETE"], "e": "SELECT ustunlar FROM jadval WHERE shart."},
+  {"b": "SQL", "q": "Jadvalga yangi yozuv qo'shish uchun qaysi SQL buyrug'i ishlatiladi?", "a": ["INSERT INTO", "ADD ROW", "UPDATE", "CREATE"], "e": "INSERT INTO jadval (ustunlar) VALUES (qiymatlar)."},
+  {"b": "SQL", "q": "Mavjud yozuvlarni o'zgartirish uchun qaysi buyruq ishlatiladi?", "a": ["UPDATE", "ALTER", "INSERT", "SELECT"], "e": "ALTER — jadval tuzilmasini o'zgartiradi."},
+  {"b": "SQL", "q": "SQL'da natijalarni saralash uchun qaysi ibora ishlatiladi?", "a": ["ORDER BY", "GROUP BY", "SORT", "WHERE"], "e": "ORDER BY ... ASC (o'suvchi) yoki DESC (kamayuvchi)."},
+  {"b": "SQL", "q": "Yozuvlarni guruhlash uchun qaysi ibora ishlatiladi?", "a": ["GROUP BY", "ORDER BY", "HAVING faqat", "JOIN"], "e": "HAVING guruhlangan natijalarga shart qo'yadi."},
+  {"b": "SQL", "q": "Jadvaldagi yozuvlar sonini hisoblovchi agregat funksiya qaysi?", "a": ["COUNT()", "SUM()", "AVG()", "MAX()"], "e": "SUM — yig'indi, AVG — o'rtacha, MAX — eng katta qiymat."},
+  {"b": "SQL", "q": "Ikki jadvaldan faqat mos keladigan yozuvlarni birlashtiruvchi JOIN turi qaysi?", "a": ["INNER JOIN", "LEFT JOIN", "FULL JOIN", "CROSS JOIN"], "e": "LEFT JOIN chap jadvalning barcha yozuvlarini qaytaradi."},
+  {"b": "SQL", "q": "WHERE ism LIKE 'A%' sharti nimani tanlaydi?", "a": ["\"A\" harfi bilan boshlanadigan ismlarni", "\"A\" bilan tugaydigan ismlarni", "Aynan \"A%\" matnini", "Ichida \"A\" bo'lmagan ismlarni"], "e": "% — istalgan sondagi belgilar."},
+  {"b": "SQL", "q": "Yangi jadval yaratish uchun qaysi buyruq ishlatiladi?", "a": ["CREATE TABLE", "NEW TABLE", "INSERT TABLE", "MAKE TABLE"], "e": "DROP TABLE — jadvalni o'chiradi."},
+  {"b": "SQL", "q": "Takrorlanuvchi qiymatlarni natijadan chiqarib tashlash uchun qaysi kalit so'z ishlatiladi?", "a": ["DISTINCT", "UNIQUE", "LIMIT", "ONLY"], "e": "SELECT DISTINCT shahar FROM talabalar."},
+  {"b": "Normallashtirish", "q": "Normallashtirishning asosiy maqsadi nima?", "a": ["Ma'lumotlar takrorlanishini (ortiqchaligini) kamaytirish va anomaliyalarni bartaraf etish", "Jadvallar sonini kamaytirish har doim", "Ma'lumotni shifrlash", "So'rovlarni sekinlashtirish"], "e": "Normal shakllar: 1NF, 2NF, 3NF, BCNF..."},
+  {"b": "Normallashtirish", "q": "Birinchi normal shakl (1NF) talabi qaysi?", "a": ["Har bir katakda faqat bitta atomar qiymat bo'lishi", "Tashqi kalitlar bo'lmasligi", "Jadvalda bitta ustun bo'lishi", "Kalit bo'lmasligi"], "e": "Takrorlanuvchi guruhlar va ro'yxatli qiymatlar bo'lmasligi kerak."},
+  {"b": "Normallashtirish", "q": "Uchinchi normal shakl (3NF) qanday bog'liqlikni bartaraf etadi?", "a": ["Kalit bo'lmagan atributlarning tranzitiv bog'liqligini", "Atomar bo'lmagan qiymatlarni", "Birlamchi kalitni", "Barcha bog'lanishlarni"], "e": "Har bir kalit bo'lmagan atribut faqat kalitga bog'liq bo'lishi kerak."},
+  {"b": "Loyihalash", "q": "ER-diagramma nimani tasvirlaydi?", "a": ["Mohiyatlar va ular orasidagi bog'lanishlarni", "Dastur algoritmini", "Tarmoq topologiyasini", "Elektr sxemani"], "e": "ER — Entity-Relationship (mohiyat-bog'lanish)."},
+  {"b": "Loyihalash", "q": "Jadvaldagi ustun boshqacha qanday ataladi?", "a": ["Maydon (atribut)", "Yozuv (kortej)", "Kalit", "Indeks"], "e": "Qator — yozuv yoki kortej deb ataladi."},
+  {"b": "Ishonchlilik", "q": "Tranzaksiyalarning ACID xossalaridagi \"A\" (Atomicity) nimani bildiradi?", "a": ["Tranzaksiya to'liq bajariladi yoki umuman bajarilmaydi", "Tranzaksiya tez bajariladi", "Ma'lumot shifrlanadi", "Bir nechta foydalanuvchi ishlaydi"], "e": "C — yaxlitlik, I — izolyatsiya, D — barqarorlik."},
+  {"b": "Ishonchlilik", "q": "Indeksning asosiy vazifasi nima?", "a": ["Ma'lumotlarni qidirishni tezlashtirish", "Ma'lumotni o'chirish", "Jadvalni shifrlash", "Zaxira nusxa olish"], "e": "Indeks yozish amallarini biroz sekinlashtirishi mumkin."},
+  {"b": "Ishonchlilik", "q": "SQL inyeksiya hujumidan himoyalanishning to'g'ri usuli qaysi?", "a": ["Parametrlashtirilgan (tayyorlangan) so'rovlardan foydalanish", "Foydalanuvchi kiritgan matnni to'g'ridan-to'g'ri so'rovga qo'shish", "Parolni ochiq saqlash", "Barcha xatolarni yashirish"], "e": "Parametrlar so'rov matnidan alohida uzatiladi."},
+  {"b": "Ishonchlilik", "q": "Ma'lumotlar bazasidan zaxira nusxa olishning maqsadi nima?", "a": ["Nosozlik yoki xatodan keyin ma'lumotlarni tiklash", "So'rovlarni tezlashtirish", "Jadvallarni birlashtirish", "Foydalanuvchilarni ko'paytirish"], "e": "Zaxira nusxalar muntazam olinishi va tiklash sinab ko'rilishi kerak."},
+  {"b": "NoSQL", "q": "Hujjatlarga yo'naltirilgan NoSQL MBBTga misol qaysi?", "a": ["MongoDB", "MySQL", "PostgreSQL", "MS Access"], "e": "MongoDB ma'lumotlarni JSON'ga o'xshash hujjatlar ko'rinishida saqlaydi."}
+ ]
+}

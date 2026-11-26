@@ -21,6 +21,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import (BotCommand, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup,
                            MenuButtonWebApp, Message, WebAppInfo)
 
+from bot.bank import QuestionBank
 from bot.data import Catalog
 from bot.db import XP_PASS_BONUS, XP_PER_CORRECT, ResultsDB
 from bot import quiz
@@ -34,6 +35,7 @@ COUNTS = (10, 20, 30)
 LETTERS = "ABCD"
 
 catalog: Catalog
+bank: QuestionBank
 db: ResultsDB
 claude: anthropic.AsyncAnthropic
 PASS_PERCENT = 60
@@ -85,6 +87,8 @@ def sohalar_kb() -> InlineKeyboardMarkup:
     items = [(f"{s['nomi']} ({sum(len(y['mutaxassisliklar']) for y in s['yunalishlar'])})", f"b:{i}:0")
              for i, s in enumerate(catalog.sohalar)]
     kb = paged(items, 0, "noop", None)
+    if bank.subjects:
+        kb.inline_keyboard.insert(0, [btn(f"📚 Attestatsiya fanlari — tayyor savollar ({len(bank.subjects)})", "bk:0")])
     if WEBAPP_URL:
         kb.inline_keyboard.insert(0, [InlineKeyboardButton(text="📱 Ilovani ochish", web_app=WebAppInfo(url=WEBAPP_URL))])
     return kb
@@ -149,7 +153,7 @@ async def cb_mutaxassislik(cb: CallbackQuery, state: FSMContext) -> None:
     bi, yi, mi, page = int(bi), int(yi), int(mi), int(page)
     m = catalog.mutaxassislik(bi, yi, mi)
     await state.set_state(None)
-    await state.update_data(bi=bi, yi=yi, mi=mi)
+    await state.update_data(bi=bi, yi=yi, mi=mi, bank=None)
     head = f"<b>{escape(m['kod'])} — {escape(m['nomi'])}</b>\n<a href=\"{m['url']}\">Saytdagi sahifasi</a>\n\n"
     write_btn = [[btn("✍️ Fan nomini o'zim yozaman", "type")]]
     if m["fanlar"]:
@@ -162,6 +166,26 @@ async def cb_mutaxassislik(cb: CallbackQuery, state: FSMContext) -> None:
         await show(cb, head + "Bu mutaxassislik uchun fanlar ro'yxati hali yuklanmagan.\n"
                               "✍️ Attestatsiya topshiradigan <b>fan nomini yozib yuboring</b>:",
                    paged([], 0, "noop", f"y:{bi}:{yi}:0"))
+
+
+@router.callback_query(F.data.startswith("bk:"))
+async def cb_bank_list(cb: CallbackQuery) -> None:
+    page = int(cb.data[3:])
+    items = [(f"{s['kod'] + ' ' if s.get('kod') else ''}{s['nomi']} ({len(s['savollar'])})", f"bs:{sid}")
+             for sid, s in bank.subjects.items()]
+    await show(cb, "<b>📚 Attestatsiya fanlari</b>\nTayyor savollar bazasi bor fanlar. Fanni tanlang:",
+               paged(items, page, "bk:{}", "home"))
+
+
+@router.callback_query(F.data.startswith("bs:"))
+async def cb_bank_pick(cb: CallbackQuery, state: FSMContext) -> None:
+    sid = cb.data[3:]
+    if sid not in bank.subjects:
+        return await cb.answer("Fan topilmadi", show_alert=True)
+    await state.set_state(None)
+    await state.update_data(fan=bank.subjects[sid]["nomi"], bank=sid, blok="", natijalar="", mazmun="",
+                            bi=None, yi=None, mi=None)
+    await ask_count(cb, bank.subjects[sid]["nomi"])
 
 
 @router.callback_query(F.data == "type")
@@ -217,30 +241,40 @@ def question_view(q: dict, i: int, n: int) -> tuple[str, InlineKeyboardMarkup]:
 @router.callback_query(F.data.startswith("n:"))
 async def cb_start_test(cb: CallbackQuery, state: FSMContext) -> None:
     d = await state.get_data()
-    if "fan" not in d or "mi" not in d:
+    if "fan" not in d or ("mi" not in d and not d.get("bank")):
         return await menu_home(cb, state)
     if d.get("busy"):
         return await cb.answer("Test tayyorlanmoqda, kuting...", show_alert=True)
     soni = int(cb.data[2:])
-    y = catalog.yunalish(d["bi"], d["yi"])
-    m = catalog.mutaxassislik(d["bi"], d["yi"], d["mi"])
-    await state.update_data(busy=True)
+    sid = d.get("bank") or bank.match(d["fan"])
     await cb.answer()
-    await cb.message.edit_text(
-        f"⏳ <b>{escape(d['fan'])}</b> fanidan {soni} ta savol tuzilmoqda...\n"
-        "Bu 1-2 daqiqa vaqt olishi mumkin.")
-    try:
-        qs = await quiz.generate(claude, fan=d["fan"], blok=d.get("blok", ""),
-                                 natijalar=d.get("natijalar", ""), mazmun=d.get("mazmun", ""),
-                                 mutaxassislik=f"{m['kod']} {m['nomi']}",
-                                 yunalish=f"{y['kod']} {y['nomi']}", soni=soni)
-    except ClaudeError as e:
-        await state.update_data(busy=False)
-        return await cb.message.edit_text(f"❌ Xatolik: {escape(str(e))}", reply_markup=count_kb())
-    except Exception:
-        log.exception("test tuzishda xato")
-        await state.update_data(busy=False)
-        return await cb.message.edit_text("❌ Kutilmagan xatolik. Qayta urinib ko'ring.", reply_markup=count_kb())
+    if sid:  # tayyor savollar bazasi — API kaliti kerak emas
+        qs = bank.draw(sid, soni)
+    elif os.getenv("ANTHROPIC_API_KEY") or os.getenv("ANTHROPIC_AUTH_TOKEN"):
+        y = catalog.yunalish(d["bi"], d["yi"])
+        m = catalog.mutaxassislik(d["bi"], d["yi"], d["mi"])
+        await state.update_data(busy=True)
+        await cb.message.edit_text(
+            f"⏳ <b>{escape(d['fan'])}</b> fanidan {soni} ta savol tuzilmoqda...\n"
+            "Bu 1-2 daqiqa vaqt olishi mumkin.")
+        try:
+            qs = await quiz.generate(claude, fan=d["fan"], blok=d.get("blok", ""),
+                                     natijalar=d.get("natijalar", ""), mazmun=d.get("mazmun", ""),
+                                     mutaxassislik=f"{m['kod']} {m['nomi']}",
+                                     yunalish=f"{y['kod']} {y['nomi']}", soni=soni)
+        except ClaudeError as e:
+            await state.update_data(busy=False)
+            return await cb.message.edit_text(f"❌ Xatolik: {escape(str(e))}", reply_markup=count_kb())
+        except Exception:
+            log.exception("test tuzishda xato")
+            await state.update_data(busy=False)
+            return await cb.message.edit_text("❌ Kutilmagan xatolik. Qayta urinib ko'ring.", reply_markup=count_kb())
+    else:
+        return await cb.message.edit_text(
+            f"ℹ️ <b>{escape(d['fan'])}</b> fani bo'yicha tayyor savollar hali yo'q.\n"
+            "\"📚 Attestatsiya fanlari\" bo'limidan yaqin fanni tanlang.",
+            reply_markup=InlineKeyboardMarkup(inline_keyboard=[[btn("📚 Attestatsiya fanlari", "bk:0")],
+                                                               [btn("🏠 Bosh menyu", "home")]]))
 
     await state.set_state(St.test)
     await state.update_data(busy=False, qs=qs, qi=0, score=0, wrong=[])
@@ -294,15 +328,19 @@ async def finish(cb: CallbackQuery, state: FSMContext) -> None:
     d = await state.get_data()
     n, score = len(d["qs"]), d["score"]
     pct = round(100 * score / n, 1)
-    m = catalog.mutaxassislik(d["bi"], d["yi"], d["mi"])
+    if d.get("mi") is not None:
+        m = catalog.mutaxassislik(d["bi"], d["yi"], d["mi"])
+        mutax = f"{m['kod']} {m['nomi']}"
+    else:
+        mutax = "Attestatsiya fanlari"
     u = cb.from_user
-    db.save(u.id, u.full_name, f"{m['kod']} {m['nomi']}", d["fan"], score, n)
+    db.save(u.id, u.full_name, mutax, d["fan"], score, n)
     db.touch_user(u.id, u.full_name, u.username or "")
     passed = 100 * score / n >= PASS_PERCENT
     db.add_xp(u.id, score * XP_PER_CORRECT + (XP_PASS_BONUS if passed else 0))
     verdict = "🟢 <b>O'tdi</b>" if pct >= PASS_PERCENT else "🔴 <b>O'tmadi</b>"
     text = (f"🏁 <b>Test yakunlandi</b>\n\n"
-            f"Fan: {escape(d['fan'])}\nMutaxassislik: {escape(m['kod'])} {escape(m['nomi'])}\n\n"
+            f"Fan: {escape(d['fan'])}\nMutaxassislik: {escape(mutax)}\n\n"
             f"Natija: <b>{score}/{n}</b> ({pct}%) — {verdict} (o'tish bali {PASS_PERCENT}%)")
     if d["wrong"]:
         text += "\n\n<b>Qayta ko'rib chiqing:</b>\n" + "\n".join(
@@ -311,7 +349,8 @@ async def finish(cb: CallbackQuery, state: FSMContext) -> None:
     await state.update_data(qs=None, wrong=None)
     await cb.message.answer(text[:4000], reply_markup=InlineKeyboardMarkup(inline_keyboard=[
         [btn("🔁 Shu fandan yana test", "again")],
-        [btn("📚 Boshqa fan", f"m:{d['bi']}:{d['yi']}:{d['mi']}:0"), btn("🏠 Bosh menyu", "home")],
+        [btn("📚 Boshqa fan", f"m:{d['bi']}:{d['yi']}:{d['mi']}:0" if d.get("mi") is not None else "bk:0"),
+         btn("🏠 Bosh menyu", "home")],
     ]))
 
 
@@ -356,6 +395,10 @@ async def run() -> None:
         raise SystemExit(".env faylida BOT_TOKEN ko'rsatilmagan.")
     catalog = Catalog(os.getenv("DATA_FILE", "data/fanlar_2026.json"))
     db = ResultsDB(os.getenv("DB_FILE", "data/natijalar.sqlite3"))
+    global bank
+    bank = QuestionBank(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "savollar"))
+    log.info("Savollar bazasi: %d ta fan, %d ta savol", len(bank.subjects),
+             sum(len(x["savollar"]) for x in bank.subjects.values()))
     claude = anthropic.AsyncAnthropic()
     PASS_PERCENT = int(os.getenv("PASS_PERCENT", "60"))
     # Render.com o'zi RENDER_EXTERNAL_URL (https://<nom>.onrender.com) beradi
@@ -377,7 +420,7 @@ async def run() -> None:
 
     from bot.web import build_app
 
-    app = build_app(token=token, catalog=catalog, db=db, claude=claude, pass_percent=PASS_PERCENT)
+    app = build_app(token=token, catalog=catalog, db=db, claude=claude, pass_percent=PASS_PERCENT, bank=bank)
 
     # Ommaviy manzil bo'lsa webhook: Telegram xabari uxlab qolgan bepul serverni ham uyg'otadi
     webhook_path = webhook_secret = ""

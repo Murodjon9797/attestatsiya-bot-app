@@ -1,0 +1,32 @@
+{
+ "kod": "5PM0266",
+ "nomi": "Elektrotexnika va elektronika asoslari",
+ "manba": "2026-yilgi texnikum o'quv rejalari (15 ta mutaxassislikda o'qitiladi)",
+ "savollar": [
+  {"b": "O'zgarmas tok zanjirlari", "q": "Kirxgofning birinchi qonuni nimani ifodalaydi?", "a": ["Tugunga kiruvchi toklar yig'indisi chiquvchi toklar yig'indisiga teng", "Berk konturdagi EYuK lar yig'indisi kuchlanish tushuvlari yig'indisiga teng", "Tok kuchlanishga proporsional", "Quvvat tok kvadratiga proporsional"], "e": "Ikkinchi qonun — berk kontur uchun kuchlanishlar balansi."},
+  {"b": "O'zgarmas tok zanjirlari", "q": "Kirxgofning ikkinchi qonuni nimaga taalluqli?", "a": ["Berk konturdagi EYuK va kuchlanish tushuvlari yig'indisiga", "Tugundagi toklarga", "Magnit oqimga", "Sig'imga"], "e": "ΣE = ΣI·R."},
+  {"b": "O'zgarmas tok zanjirlari", "q": "Ketma-ket ulangan 4 Om va 6 Om li rezistorlarning umumiy qarshiligi qancha?", "a": ["10 Om", "2,4 Om", "24 Om", "2 Om"], "e": "Ketma-ket ulanishda qarshiliklar qo'shiladi."},
+  {"b": "O'zgarmas tok zanjirlari", "q": "Ketma-ket ulanishda barcha elementlar uchun qaysi kattalik bir xil bo'ladi?", "a": ["Tok kuchi", "Kuchlanish", "Quvvat", "Qarshilik"], "e": "Parallel ulanishda kuchlanish bir xil bo'ladi."},
+  {"b": "O'zgarmas tok zanjirlari", "q": "To'liq zanjir uchun Om qonuni qaysi?", "a": ["I = E / (R + r)", "I = U / R", "I = E·R", "I = E / r"], "e": "r — manbaning ichki qarshiligi."},
+  {"b": "O'zgaruvchan tok", "q": "O'zbekiston elektr tarmog'idagi o'zgaruvchan tokning standart chastotasi qancha?", "a": ["50 Gs", "60 Gs", "100 Gs", "400 Gs"], "e": "60 Gs AQSh va ba'zi mamlakatlarda qo'llaniladi."},
+  {"b": "O'zgaruvchan tok", "q": "Sinusoidal tokning amplituda qiymati Iₘ bo'lsa, ta'sir etuvchi (effektiv) qiymati qancha?", "a": ["Iₘ/√2 ≈ 0,707·Iₘ", "Iₘ/2", "Iₘ·√2", "Iₘ"], "e": "Uy tarmog'idagi 220 V — ta'sir etuvchi qiymat."},
+  {"b": "O'zgaruvchan tok", "q": "Induktivlikning o'zgaruvchan tokka qarshiligi qanday hisoblanadi?", "a": ["X_L = 2πfL", "X_L = 1/(2πfL)", "X_L = R", "X_L = 2πf/L"], "e": "Chastota ortsa, induktiv qarshilik ortadi."},
+  {"b": "O'zgaruvchan tok", "q": "Kondensatorning sig'im qarshiligi chastota ortishi bilan qanday o'zgaradi?", "a": ["Kamayadi", "Ortadi", "O'zgarmaydi", "Nolga teng bo'ladi har doim"], "e": "X_C = 1/(2πfC)."},
+  {"b": "O'zgaruvchan tok", "q": "Quvvat koeffitsiyenti (cos φ) nimani ko'rsatadi?", "a": ["Aktiv quvvatning to'liq quvvatdagi ulushini", "Reaktiv quvvatni", "Tok chastotasini", "Qarshilikni"], "e": "P = S·cos φ."},
+  {"b": "O'zgaruvchan tok", "q": "Ketma-ket RLC zanjirida kuchlanishlar rezonansi qachon yuz beradi?", "a": ["X_L = X_C bo'lganda", "R = 0 bo'lganda", "X_L > X_C bo'lganda", "Tok nolga teng bo'lganda"], "e": "Rezonansda zanjir qarshiligi minimal (R), tok maksimal bo'ladi."},
+  {"b": "Uch fazali tizimlar", "q": "Uch fazali tarmoqda liniya kuchlanishi 380 V bo'lsa, \"yulduz\" ulanishda faza kuchlanishi qancha?", "a": ["≈220 V", "380 V", "660 V", "127 V"], "e": "U_f = U_l / √3."},
+  {"b": "Uch fazali tizimlar", "q": "Uch fazali tizimda fazalar orasidagi siljish burchagi qancha?", "a": ["120°", "90°", "180°", "60°"], "e": "360° / 3 = 120°."},
+  {"b": "Elektr mashinalari", "q": "Transformatorning transformatsiya koeffitsiyenti qanday aniqlanadi?", "a": ["Birlamchi va ikkilamchi chulg'amlar o'ramlari sonining nisbati", "Toklar yig'indisi", "Quvvatlar ayirmasi", "Chastotalar nisbati"], "e": "k = w₁/w₂ ≈ U₁/U₂."},
+  {"b": "Elektr mashinalari", "q": "Asinxron dvigatelda rotorning aylanish tezligi magnit maydon tezligiga nisbatan qanday bo'ladi?", "a": ["Biroz kichik (sirpanish mavjud)", "Aynan teng", "Ikki barobar katta", "Nolga teng"], "e": "Sirpanish s = (n₁ − n₂)/n₁."},
+  {"b": "Elektr mashinalari", "q": "Uch fazali asinxron dvigatelning aylanish yo'nalishini qanday o'zgartirish mumkin?", "a": ["Ikki fazani o'zaro almashtirib ulash orqali", "Kuchlanishni oshirish orqali", "Chastotani kamaytirish orqali", "Bitta fazani uzib qo'yish orqali"], "e": "Fazalar ketma-ketligi o'zgarsa, aylanuvchi maydon yo'nalishi o'zgaradi."},
+  {"b": "Elektr mashinalari", "q": "O'zgarmas tok mashinasida kollektorning vazifasi nima?", "a": ["Yakor chulg'amidagi o'zgaruvchan EYuK ni tashqi zanjirda o'zgarmas tokka aylantirish (to'g'rilash)", "Magnit maydon hosil qilish", "Mashinani sovitish", "Tezlikni o'lchash"], "e": "Kollektor mexanik to'g'rilagich vazifasini bajaradi."},
+  {"b": "O'lchash asboblari", "q": "Ampermetr zanjirga qanday ulanadi?", "a": ["Ketma-ket", "Parallel", "Yerga", "Ixtiyoriy"], "e": "Ampermetr ichki qarshiligi juda kichik bo'ladi."},
+  {"b": "O'lchash asboblari", "q": "Voltmetr zanjirga qanday ulanadi?", "a": ["O'lchanayotgan qismga parallel", "Ketma-ket", "Faqat manbadan keyin", "Yerga"], "e": "Voltmetr ichki qarshiligi juda katta bo'ladi."},
+  {"b": "O'lchash asboblari", "q": "Elektr energiyasi iste'molini hisobga olish uchun qaysi asbob ishlatiladi?", "a": ["Elektr hisoblagich", "Ommetr", "Chastotomer", "Megaommetr"], "e": "Hisoblagich kVt·soatlarda ko'rsatadi."},
+  {"b": "O'lchash asboblari", "q": "Izolyatsiya qarshiligi qaysi asbob bilan o'lchanadi?", "a": ["Megaommetr", "Ampermetr", "Vattmetr", "Fazometr"], "e": "Izolyatsiya qarshiligi megaomlarda o'lchanadi."},
+  {"b": "Elektronika", "q": "Diodli to'g'rilagichning vazifasi nima?", "a": ["O'zgaruvchan tokni o'zgarmas (pulsatsiyalanuvchi) tokka aylantirish", "Kuchlanishni oshirish", "Chastotani o'zgartirish", "Signalni kuchaytirish"], "e": "Ko'prik sxemasi to'rt diodda yig'iladi."},
+  {"b": "Elektronika", "q": "To'g'rilangan kuchlanish pulsatsiyasini kamaytirish uchun nima ishlatiladi?", "a": ["Silliqlovchi filtr (masalan, kondensator)", "Rezistor ketma-ket", "Saqlagich", "Transformator"], "e": "Kondensator kuchlanish pasayganda zaryadini yuklamaga beradi."},
+  {"b": "Elektronika", "q": "Tiristor qanday yarim o'tkazgichli asbob?", "a": ["Boshqariladigan to'rt qatlamli (p-n-p-n) kalit", "Oddiy ikki qatlamli diod", "Rezistor", "Kondensator"], "e": "Boshqaruv elektrodiga impuls berilganda ochiladi."},
+  {"b": "Elektronika", "q": "Raqamli texnikada \"VA\" (AND) mantiqiy elementi qachon 1 chiqaradi?", "a": ["Barcha kirishlar 1 bo'lganda", "Kamida bitta kirish 1 bo'lganda", "Barcha kirishlar 0 bo'lganda", "Kirishlar har xil bo'lganda"], "e": "\"YOKI\" (OR) kamida bitta kirish 1 bo'lsa, 1 chiqaradi."}
+ ]
+}

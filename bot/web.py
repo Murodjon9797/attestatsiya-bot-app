@@ -16,6 +16,7 @@ from aiogram.utils.web_app import safe_parse_webapp_init_data
 from aiohttp import web
 
 from bot import quiz
+from bot.bank import QuestionBank
 from bot.data import Catalog
 from bot.db import XP_PASS_BONUS, XP_PER_CORRECT, ResultsDB, level_info
 from claude_json import ClaudeError
@@ -26,7 +27,13 @@ QUIZ_TTL = 3 * 3600
 MAX_GENERATIONS = 30  # butun server bo'yicha bir vaqtda tuzilayotgan testlar
 
 
-def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_percent: int) -> web.Application:
+def has_ai() -> bool:
+    return bool(os.getenv("ANTHROPIC_API_KEY") or os.getenv("ANTHROPIC_AUTH_TOKEN"))
+
+
+def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_percent: int,
+              bank: QuestionBank | None = None) -> web.Application:
+    bank = bank or QuestionBank(Path(__file__).resolve().parent.parent / "data" / "savollar")
     quizzes: dict[str, dict] = {}
     generating: set[int] = set()
     dev_user = os.getenv("WEBAPP_DEV_USER")  # faqat lokal sinov uchun (brauzerda Telegram'siz)
@@ -80,7 +87,8 @@ def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_perce
         return web.json_response({
             "kod": m["kod"], "nomi": m["nomi"], "url": m["url"],
             "fanlar": [{"kod": f.get("kod", ""), "nomi": f["nomi"], "blok": f.get("blok", ""),
-                        "soat": f.get("soat", ""), "dastur": bool(f.get("mazmun") or f.get("natijalar"))}
+                        "soat": f.get("soat", ""), "dastur": bool(f.get("mazmun") or f.get("natijalar")),
+                        "bank": bank.match(f["nomi"], f.get("kod", "")) is not None}
                        for f in m["fanlar"]],
         })
 
@@ -106,51 +114,78 @@ def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_perce
                                                      "level": me["level"]["level"]}})
 
     # ---------------- test ----------------
+    async def api_bank(request: web.Request) -> web.Response:
+        auth(request)
+        return web.json_response({"fanlar": bank.listing()})
+
     async def api_quiz_new(request: web.Request) -> web.Response:
         u = auth(request)
         cleanup()
         body = await request.json()
         try:
-            bi, yi, mi = int(body["b"]), int(body["y"]), int(body["m"])
             soni = int(body.get("soni", 10))
-            m = catalog.mutaxassislik(bi, yi, mi)
-            y = catalog.yunalish(bi, yi)
-        except (KeyError, ValueError, IndexError, TypeError):
+        except (ValueError, TypeError):
             raise web.HTTPBadRequest(text="noto'g'ri so'rov")
         if soni not in (10, 20, 30):
             raise web.HTTPBadRequest(text="savollar soni 10, 20 yoki 30 bo'lishi kerak")
-        fi = body.get("f")
-        if fi is not None:
-            try:
-                f = m["fanlar"][int(fi)]
-            except (ValueError, IndexError, TypeError):
+
+        m = y = None
+        if body.get("bank"):  # to'g'ridan-to'g'ri "Attestatsiya fanlari" bo'limidan
+            sid = str(body["bank"])
+            if sid not in bank.subjects:
                 raise web.HTTPBadRequest(text="fan topilmadi")
+            f = {"nomi": bank.subjects[sid]["nomi"]}
         else:
-            nomi = " ".join(str(body.get("fan", "")).split())[:150]
-            if len(nomi) < 3:
-                raise web.HTTPBadRequest(text="fan nomini kiriting")
-            f = {"nomi": nomi}
-        if u["id"] in generating:
-            raise web.HTTPTooManyRequests(text="Oldingi test hali tayyorlanmoqda")
-        if len(generating) >= MAX_GENERATIONS:
-            raise web.HTTPServiceUnavailable(text="Server band, birozdan so'ng urinib ko'ring")
-        generating.add(u["id"])
-        try:
-            qs = await quiz.generate(claude, fan=f["nomi"], blok=f.get("blok", ""),
-                                     natijalar=f.get("natijalar", ""), mazmun=f.get("mazmun", ""),
-                                     mutaxassislik=f"{m['kod']} {m['nomi']}",
-                                     yunalish=f"{y['kod']} {y['nomi']}", soni=soni)
-        except ClaudeError as e:
-            raise web.HTTPBadGateway(text=str(e))
-        finally:
-            generating.discard(u["id"])
+            try:
+                bi, yi, mi = int(body["b"]), int(body["y"]), int(body["m"])
+                m = catalog.mutaxassislik(bi, yi, mi)
+                y = catalog.yunalish(bi, yi)
+            except (KeyError, ValueError, IndexError, TypeError):
+                raise web.HTTPBadRequest(text="noto'g'ri so'rov")
+            fi = body.get("f")
+            if fi is not None:
+                try:
+                    f = m["fanlar"][int(fi)]
+                except (ValueError, IndexError, TypeError):
+                    raise web.HTTPBadRequest(text="fan topilmadi")
+            else:
+                nomi = " ".join(str(body.get("fan", "")).split())[:150]
+                if len(nomi) < 3:
+                    raise web.HTTPBadRequest(text="fan nomini kiriting")
+                f = {"nomi": nomi}
+            sid = bank.match(f["nomi"], f.get("kod", ""))
+        mutax = f"{m['kod']} {m['nomi']}" if m else "Attestatsiya fanlari"
+
+        if sid:  # tayyor savollar bazasi — API kaliti kerak emas
+            qs = bank.draw(sid, soni)
+            fan_nomi = bank.subjects[sid]["nomi"]
+        elif has_ai():
+            if u["id"] in generating:
+                raise web.HTTPTooManyRequests(text="Oldingi test hali tayyorlanmoqda")
+            if len(generating) >= MAX_GENERATIONS:
+                raise web.HTTPServiceUnavailable(text="Server band, birozdan so'ng urinib ko'ring")
+            generating.add(u["id"])
+            try:
+                qs = await quiz.generate(claude, fan=f["nomi"], blok=f.get("blok", ""),
+                                         natijalar=f.get("natijalar", ""), mazmun=f.get("mazmun", ""),
+                                         mutaxassislik=mutax, yunalish=f"{y['kod']} {y['nomi']}" if y else "",
+                                         soni=soni)
+            except ClaudeError as e:
+                raise web.HTTPBadGateway(text=str(e))
+            finally:
+                generating.discard(u["id"])
+            fan_nomi = f["nomi"]
+        else:
+            raise web.HTTPNotFound(text=f"\"{f['nomi']}\" fani bo'yicha tayyor savollar hali yo'q. "
+                                        "\"Attestatsiya fanlari\" bo'limidagi fanlardan birini tanlang.")
         qid = secrets.token_urlsafe(12)
-        quizzes[qid] = {"user": u["id"], "name": u["name"], "fan": f["nomi"],
-                        "mutaxassislik": f"{m['kod']} {m['nomi']}", "qs": qs, "answers": {},
+        quizzes[qid] = {"user": u["id"], "name": u["name"], "fan": fan_nomi,
+                        "mutaxassislik": mutax, "qs": qs, "answers": {},
                         "created": time.time(), "done": False}
         return web.json_response({
-            "id": qid, "fan": f["nomi"], "mutaxassislik": f"{m['kod']} {m['nomi']}",
-            "savollar": [{"savol": q["savol"], "variantlar": q["variantlar"]} for q in qs],
+            "id": qid, "fan": fan_nomi, "mutaxassislik": mutax, "bank": bool(sid),
+            "savollar": [{"savol": q["savol"], "variantlar": q["variantlar"], "bolim": q.get("bolim", "")}
+                         for q in qs],
         })
 
     def get_quiz(u: dict, qid: str) -> dict:
@@ -212,6 +247,7 @@ def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_perce
     app.router.add_get("/health", health)
     app.router.add_get("/api/catalog", api_catalog)
     app.router.add_get("/api/fanlar", api_fanlar)
+    app.router.add_get("/api/bank", api_bank)
     app.router.add_get("/api/me", api_me)
     app.router.add_post("/api/checkin", api_checkin)
     app.router.add_get("/api/leaderboard", api_leaderboard)

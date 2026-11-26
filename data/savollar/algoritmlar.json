@@ -1,0 +1,32 @@
+{
+ "kod": "5PM0491",
+ "nomi": "Ma'lumotlar tuzilmasi va algoritmlar",
+ "manba": "2026-yilgi texnikum o'quv rejalari (16 ta mutaxassislikda o'qitiladi)",
+ "savollar": [
+  {"b": "Murakkablik", "q": "Algoritm murakkabligini baholashda \"O katta\" (Big O) belgisi nimani ifodalaydi?", "a": ["Kirish hajmi ortishi bilan ish vaqtining eng yomon holdagi o'sish tartibini", "Dastur hajmini baytlarda", "Protsessor chastotasini", "Xotiradagi o'zgaruvchilar sonini"], "e": "Masalan, O(n) — chiziqli, O(n²) — kvadratik o'sish."},
+  {"b": "Murakkablik", "q": "Massivdagi elementni indeks bo'yicha olishning vaqt murakkabligi qanday?", "a": ["O(1)", "O(n)", "O(log n)", "O(n²)"], "e": "Element manzili indeks orqali to'g'ridan-to'g'ri hisoblanadi."},
+  {"b": "Murakkablik", "q": "Tartiblanmagan massivda chiziqli qidiruvning eng yomon holdagi murakkabligi qanday?", "a": ["O(n)", "O(1)", "O(log n)", "O(n log n)"], "e": "Har bir elementni tekshirish kerak bo'lishi mumkin."},
+  {"b": "Qidiruv", "q": "Ikkilik (binar) qidiruvni qo'llash uchun massiv qanday bo'lishi kerak?", "a": ["Saralangan", "Teskari tartibda yozilgan bo'lishi shart", "Faqat juft sonlardan iborat", "Bo'sh"], "e": "Har qadamda qidiruv oralig'i ikki marta qisqaradi."},
+  {"b": "Qidiruv", "q": "Ikkilik qidiruvning murakkabligi qanday?", "a": ["O(log n)", "O(n)", "O(n²)", "O(1)"], "e": "1024 elementli massivda ko'pi bilan ≈10 ta qadam."},
+  {"b": "Saralash", "q": "Pufakchali saralash (bubble sort)ning o'rtacha murakkabligi qanday?", "a": ["O(n²)", "O(n log n)", "O(n)", "O(log n)"], "e": "Qo'shni elementlar qayta-qayta solishtiriladi va almashtiriladi."},
+  {"b": "Saralash", "q": "Birlashtirib saralash (merge sort)ning murakkabligi qanday?", "a": ["O(n log n)", "O(n²)", "O(n)", "O(2ⁿ)"], "e": "\"Bo'l va hukmronlik qil\" tamoyiliga asoslangan."},
+  {"b": "Saralash", "q": "Tez saralash (quick sort)da massiv qaysi element atrofida bo'linadi?", "a": ["Tayanch (pivot) element", "Doim birinchi element", "Eng katta element", "O'rta arifmetik qiymat"], "e": "Pivotdan kichiklar chapga, kattalar o'ngga o'tkaziladi."},
+  {"b": "Saralash", "q": "Tez saralashning eng yomon holdagi murakkabligi qanday?", "a": ["O(n²)", "O(n log n)", "O(n)", "O(log n)"], "e": "Pivot har safar eng kichik yoki eng katta bo'lib chiqsa."},
+  {"b": "Chiziqli tuzilmalar", "q": "Stek (stack) qaysi tamoyil asosida ishlaydi?", "a": ["LIFO — oxirgi kirgan birinchi chiqadi", "FIFO — birinchi kirgan birinchi chiqadi", "Tasodifiy tartibda", "Ustuvorlik bo'yicha"], "e": "Stek amallari: push va pop."},
+  {"b": "Chiziqli tuzilmalar", "q": "Navbat (queue) qaysi tamoyil asosida ishlaydi?", "a": ["FIFO", "LIFO", "Tasodifiy", "Faqat oxiridan o'chirish"], "e": "Element oxiriga qo'shiladi, boshidan olinadi."},
+  {"b": "Chiziqli tuzilmalar", "q": "Bog'langan ro'yxatning massivdan afzalligi nimada?", "a": ["O'rtaga element qo'shish va o'chirish ko'chirishsiz bajariladi", "Indeks bo'yicha murojaat tezroq", "Kamroq xotira talab qiladi har doim", "Saralash shart emas"], "e": "Kamchiligi: indeks bo'yicha murojaat O(n)."},
+  {"b": "Chiziqli tuzilmalar", "q": "Qavslar muvozanatini tekshirish uchun qaysi tuzilma qulay?", "a": ["Stek", "Navbat", "Xesh-jadval", "Graf"], "e": "Ochiluvchi qavs stekka qo'shiladi, yopiluvchi kelganda olinadi."},
+  {"b": "Daraxtlar", "q": "Ikkilik qidiruv daraxtida chap qism daraxtdagi barcha qiymatlar ildizga nisbatan qanday bo'ladi?", "a": ["Kichik", "Katta", "Teng", "Ixtiyoriy"], "e": "O'ng qism daraxtdagi qiymatlar katta bo'ladi."},
+  {"b": "Daraxtlar", "q": "Ikkilik qidiruv daraxtini simmetrik (in-order) aylanib chiqish qanday natija beradi?", "a": ["Qiymatlarni o'sish tartibida", "Qiymatlarni kamayish tartibida", "Faqat barglarni", "Faqat ildizni"], "e": "Tartib: chap — ildiz — o'ng."},
+  {"b": "Daraxtlar", "q": "Daraxtdagi bolalari bo'lmagan tugun qanday ataladi?", "a": ["Barg", "Ildiz", "Ota tugun", "Qirra"], "e": "Ildiz — ota tuguni bo'lmagan yagona tugun."},
+  {"b": "Daraxtlar", "q": "Uyum (heap) tuzilmasi qaysi masalada keng qo'llaniladi?", "a": ["Ustuvorlik navbati va heap sort", "Matnni shifrlash", "Fayllarni arxivlash", "Rasm chizish"], "e": "Max-heapda ildizda eng katta element turadi."},
+  {"b": "Xeshlash", "q": "Xesh-jadvalda qidiruvning o'rtacha murakkabligi qanday?", "a": ["O(1)", "O(n)", "O(log n)", "O(n²)"], "e": "Kolliziyalar ko'p bo'lsa, eng yomon holda O(n)."},
+  {"b": "Xeshlash", "q": "Ikki turli kalit bir xil xesh qiymat bersa, bu qanday ataladi?", "a": ["Kolliziya", "Rekursiya", "Iteratsiya", "Overflow"], "e": "Zanjirlar yoki ochiq adreslash usullari bilan hal qilinadi."},
+  {"b": "Graflar", "q": "Grafni kenglik bo'yicha aylanib chiqish (BFS) qaysi tuzilmadan foydalanadi?", "a": ["Navbat", "Stek", "Xesh-jadval", "Uyum"], "e": "Chuqurlik bo'yicha aylanib chiqish (DFS) stek yoki rekursiyadan foydalanadi."},
+  {"b": "Graflar", "q": "Manfiy bo'lmagan og'irlikli grafda eng qisqa yo'lni topish algoritmi qaysi?", "a": ["Deykstra algoritmi", "Pufakchali saralash", "Ikkilik qidiruv", "Evklid algoritmi"], "e": "Deykstra algoritmi manfiy og'irlikli qirralarda to'g'ri ishlamaydi."},
+  {"b": "Graflar", "q": "Graf qanday elementlardan iborat?", "a": ["Uchlar (tugunlar) va qirralar", "Faqat sonlar", "Satrlar va ustunlar", "Kalit va qiymatlar"], "e": "Graf qo'shnilik matritsasi yoki ro'yxati bilan ifodalanadi."},
+  {"b": "Algoritm usullari", "q": "Evklid algoritmi nimani topish uchun ishlatiladi?", "a": ["Ikki sonning EKUBini", "Sonning faktorialini", "Massiv yig'indisini", "Eng qisqa yo'lni"], "e": "EKUB(a, b) = EKUB(b, a mod b)."},
+  {"b": "Algoritm usullari", "q": "Dinamik dasturlashning asosiy g'oyasi nima?", "a": ["Takrorlanuvchi kichik masalalar yechimlarini saqlab, qayta hisoblamaslik", "Masalani tasodifiy yechish", "Faqat rekursiyasiz ishlash", "Barcha variantlarni har safar qayta hisoblash"], "e": "Masalan, Fibonachchi sonlarini memoizatsiya bilan hisoblash."},
+  {"b": "Algoritm usullari", "q": "Faktorialni rekursiv hisoblashda to'xtash sharti qaysi bo'ladi?", "a": ["n = 0 (yoki n = 1) bo'lganda 1 qaytarish", "n manfiy bo'lganda davom etish", "To'xtash sharti kerak emas", "n = 10 bo'lganda"], "e": "To'xtash sharti bo'lmasa, stek to'lib ketadi."}
+ ]
+}

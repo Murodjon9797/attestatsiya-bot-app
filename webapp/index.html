@@ -238,7 +238,7 @@ async function api(path, body){
 }
 
 /* ---------- holat ---------- */
-const S = { tab:"home", me:null, catalog:null, path:[], fanlar:null, quiz:null, qi:0, answered:null, result:null, filter:"", soni:10, loadingTip:0 };
+const S = { tab:"home", me:null, catalog:null, bank:[], bankSel:null, path:[], fanlar:null, quiz:null, qi:0, answered:null, result:null, filter:"", soni:10, loadingTip:0 };
 
 function setTab(t){
   S.tab = t;
@@ -312,11 +312,11 @@ function renderHome(){
 
 /* ----- test: tanlash qadamlari ----- */
 function crumbs(title, sub){
-  return `<div class="crumbs">${S.path.length?`<button class="back" id="back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg></button>`:""}
+  return `<div class="crumbs">${(S.path.length||S.bankSel)?`<button class="back" id="back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg></button>`:""}
     <div class="ct"><small>${esc(sub||"")}</small><b>${esc(title)}</b></div></div>`;
 }
-function goBack(){ haptic(); S.path.pop(); S.filter=""; if (S.path.length<3) S.fanlar=null; render(); }
-function bindBack(){ const b=document.getElementById("back"); if(b) b.onclick=goBack; backBtn(S.path.length>0, goBack); }
+function goBack(){ haptic(); if (S.bankSel) { S.bankSel=null; render(); return; } S.path.pop(); S.filter=""; if (S.path.length<3) S.fanlar=null; render(); }
+function bindBack(){ const b=document.getElementById("back"); if(b) b.onclick=goBack; backBtn(S.path.length>0 || !!S.bankSel, goBack); }
 function searchBox(ph){ return `<input class="search" id="q" placeholder="${esc(ph)}" value="${esc(S.filter)}" autocomplete="off">`; }
 function bindSearch(){ const q=document.getElementById("q"); if(!q) return; q.oninput=()=>{ S.filter=q.value; const pos=q.selectionStart; render(); const n=document.getElementById("q"); n.focus(); n.setSelectionRange(pos,pos); }; }
 const match = (s) => !S.filter || s.toLowerCase().includes(S.filter.toLowerCase());
@@ -329,8 +329,18 @@ function renderTest(){
   if (!C) { $app.innerHTML = `<div class="loader"><div class="ring"></div></div>`; return; }
   const [bi, yi, mi, fsel] = S.path;
   let html = "";
-  if (bi === undefined) {
-    html = crumbs("Bilim sohasi", "1-qadam / 5") + `<div class="list">` + C.sohalar.map((s,i)=>{
+  if (S.bankSel) {
+    const B = S.bank.find(x=>x.id===S.bankSel);
+    html = crumbs(B.nomi, (B.kod?B.kod+" · ":"") + "Attestatsiya fanlari") + `<div class="card"><h3>Savollar soni</h3>
+      ${countSeg(B.soni)}
+      <p class="sub" style="margin:0 0 10px">Bazada ${B.soni} ta tayyor savol bor. Har safar savollar va javob variantlari aralashtiriladi.</p>
+      ${B.bolimlar.length?`<div class="grp" style="margin-top:4px">Bo'limlar</div><p class="sub" style="margin:0 0 14px">${B.bolimlar.map(esc).join(" · ")}</p>`:""}
+      <button class="btn" id="start">Testni boshlash</button></div>
+      <p class="sub" style="font-size:11.5px">Manba: ${esc(B.manba)}</p>`;
+  } else if (bi === undefined) {
+    const bankList = S.bank.length ? `<div class="grp">Attestatsiya fanlari · tayyor savollar</div><div class="list" style="margin-bottom:6px">` + S.bank.map(b=>
+      `<button class="item" data-bank="${esc(b.id)}"><div class="t"><b>${esc(b.nomi)}</b><small>${esc([b.kod, b.soni+" ta savol"].filter(Boolean).join(" · "))}</small></div><span class="tag g">tayyor</span><span class="chev">›</span></button>`).join("") + `</div>` : "";
+    html = crumbs("Fanni tanlang", "Attestatsiya fani yoki mutaxassislik orqali") + bankList + `<div class="grp">Mutaxassislik bo'yicha · bilim sohasi</div><div class="list">` + C.sohalar.map((s,i)=>{
       const n = s.y.reduce((a,y)=>a+y.m.length,0);
       return `<button class="item" data-i="${i}"><div class="t"><b>${esc(s.n)}</b><small>${s.y.length} yo'nalish</small></div><span class="n">${n}</span><span class="chev">›</span></button>`;}).join("") + `</div>`;
   } else if (yi === undefined) {
@@ -356,19 +366,23 @@ function renderTest(){
     const m = C.sohalar[bi].y[yi].m[mi];
     const fan = typeof fsel === "number" ? S.fanlar.fanlar[fsel] : {nomi: fsel};
     html = crumbs(fan.nomi, `${m.k} · ${m.n}`) + `<div class="card"><h3>Savollar soni</h3>
-      <div class="seg">${[10,20,30].map(n=>`<button data-n="${n}" class="${S.soni===n?'on':''}">${n} ta</button>`).join("")}</div>
-      <p class="sub" style="margin:0 0 14px">${fan.dastur?"Savollar shu fanning 2026-yilgi rasmiy o'quv dasturidagi mazmun va o'qitish natijalari asosida tuziladi.":"Savollar fan nomi va mutaxassislik asosida tuziladi."}
+      ${countSeg(30)}
+      <p class="sub" style="margin:0 0 14px">${fan.bank?"Bu fan bo'yicha tayyor savollar bazasi bor.":"Bu fan bo'yicha tayyor savollar hali yo'q: \"Attestatsiya fanlari\" bo'limidan yaqin fanni tanlang yoki administrator AI rejimini yoqishi kerak."}
       To'g'ri javob uchun +10 XP, ${S.me?S.me.pass_percent:60}% dan yuqori natija uchun +50 XP.</p>
       <button class="btn" id="start">Testni boshlash</button></div>`;
   }
   $app.innerHTML = `<div class="fade">${html}</div>`;
   bindBack(); bindSearch();
   $app.querySelectorAll(".item[data-i]").forEach(el=>el.onclick=()=>{ haptic(); S.path.push(+el.dataset.i); S.filter=""; render(); window.scrollTo(0,0); });
+  $app.querySelectorAll("[data-bank]").forEach(el=>el.onclick=()=>{ haptic(); S.bankSel=el.dataset.bank; const B=S.bank.find(x=>x.id===S.bankSel); if (B && S.soni>B.soni) S.soni=10; render(); window.scrollTo(0,0); });
   $app.querySelectorAll("[data-f]").forEach(el=>el.onclick=()=>{ haptic(); S.path.push(+el.dataset.f); S.filter=""; render(); window.scrollTo(0,0); });
-  $app.querySelectorAll("[data-n]").forEach(el=>el.onclick=()=>{ haptic(); S.soni=+el.dataset.n; render(); });
+  $app.querySelectorAll("[data-n]:not([disabled])").forEach(el=>el.onclick=()=>{ haptic(); S.soni=+el.dataset.n; render(); });
   const own = document.getElementById("ownbtn");
   if (own) own.onclick = ()=>{ const v=document.getElementById("ownfan").value.trim(); if(v.length<3) return toast("Fan nomini to'liqroq yozing"); S.path.push(v); render(); };
   const st = document.getElementById("start"); if (st) st.onclick = startQuiz;
+}
+function countSeg(max){
+  return `<div class="seg">${[10,20,30].map(n=>{ const off = n>max && n-10>=max; return `<button data-n="${n}" class="${S.soni===n?'on':''}" ${off?'disabled style="opacity:.35"':''}>${n>max&&!off?max:n} ta</button>`; }).join("")}</div>`;
 }
 function groupFanlar(F){
   const groups = {};
@@ -376,7 +390,7 @@ function groupFanlar(F){
   const keys = Object.keys(groups);
   if (!keys.length) return `<div class="empty">Hech narsa topilmadi</div>`;
   return keys.map(g=>`<div class="grp">${esc(g)}</div><div class="list">` + groups[g].map(([f,i])=>
-    `<button class="item" data-f="${i}"><div class="t"><b>${esc(f.nomi)}${f.dastur?'<span class="tag g">dastur</span>':''}</b><small>${esc([f.kod, f.soat && (f.soat+" soat")].filter(Boolean).join(" · "))}</small></div><span class="chev">›</span></button>`).join("") + `</div>`).join("");
+    `<button class="item" data-f="${i}"><div class="t"><b>${esc(f.nomi)}${f.bank?'<span class="tag g">savollar bor</span>':''}</b><small>${esc([f.kod, f.soat && (f.soat+" soat")].filter(Boolean).join(" · "))}</small></div><span class="chev">›</span></button>`).join("") + `</div>`).join("");
 }
 async function loadFanlar(){
   const [b,y,m] = S.path;
@@ -393,7 +407,8 @@ function renderLoading(){
 async function startQuiz(){
   haptic();
   const [b,y,m,f] = S.path;
-  const body = {b,y,m,soni:S.soni}; if (typeof f === "number") body.f = f; else body.fan = f;
+  const body = S.bankSel ? {bank:S.bankSel, soni:S.soni} : {b,y,m,soni:S.soni};
+  if (!S.bankSel) { if (typeof f === "number") body.f = f; else body.fan = f; }
   S.loading = true; S.loadingTip = 0; render();
   const tick = setInterval(()=>{ S.loadingTip++; const t=document.getElementById("tip"); if(t) t.firstChild.textContent = TIPS[Math.min(S.loadingTip,TIPS.length-1)]; }, 9000);
   try { S.quiz = await api("/api/quiz", body); S.qi = 0; S.answered = null; S.result = null; haptic("ok"); }
@@ -413,6 +428,7 @@ function renderQuestion(){
   $app.innerHTML = `<div class="${A?'':'fade'}">
     <div class="qhead"><span>${esc(Q.fan)}</span><b>${S.qi+1} / ${Q.savollar.length}</b></div>
     <div class="bar" style="margin:0 0 14px"><i style="width:${prog}%"></i></div>
+    ${q.bolim?`<span class="tag b" style="margin:0 0 4px">${esc(q.bolim)}</span>`:""}
     <div class="qtext">${esc(q.savol)}</div>${opts}
     ${A?`<div class="explain ${A.correct?'':'bad'}"><b>${A.correct?"To'g'ri! +10 XP":"Noto'g'ri"}</b><br>${esc(A.izoh)}</div>
       <button class="btn" id="next">${last?"Natijani ko'rish":"Keyingi savol"}</button>`:""}
@@ -456,7 +472,7 @@ function renderResult(){
     <div style="text-align:left">${wrong}</div></div>`;
   requestAnimationFrame(()=>requestAnimationFrame(()=>{ const a=document.getElementById("arc"); if(a) a.style.strokeDashoffset = off; }));
   if (R.passed) haptic("ok");
-  document.getElementById("home").onclick = ()=>{ S.quiz=null; S.result=null; S.path=[]; S.fanlar=null; setTab("home"); };
+  document.getElementById("home").onclick = ()=>{ S.quiz=null; S.result=null; S.path=[]; S.fanlar=null; S.bankSel=null; setTab("home"); };
   document.getElementById("again").onclick = ()=>{ S.quiz=null; S.result=null; render(); };
 }
 
@@ -481,7 +497,7 @@ async function loadMe(){ S.me = await api("/api/me"); }
 (async function init(){
   render();
   try {
-    await Promise.all([loadMe(), api("/api/catalog").then(c=>S.catalog=c)]);
+    await Promise.all([loadMe(), api("/api/catalog").then(c=>S.catalog=c), api("/api/bank").then(b=>S.bank=b.fanlar).catch(()=>{})]);
   } catch(e) {
     $app.innerHTML = `<div class="loader"><b>Ulanib bo'lmadi</b><p>${esc(e.message)}<br>Ilovani Telegram bot orqali oching.</p></div>`;
     return;
