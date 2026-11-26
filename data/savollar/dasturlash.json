@@ -1,32 +1,283 @@
 {
  "kod": "5PM0187",
  "nomi": "Dasturlash",
+ "turi": "maxsus",
  "manba": "2026-yilgi texnikum o'quv rejalari (16 ta mutaxassislikda o'qitiladi)",
  "savollar": [
-  {"b": "Asosiy tushunchalar", "q": "Kompilyator nima?", "a": ["Dastur matnini to'liq mashina kodiga o'giruvchi dastur", "Dasturni satrma-satr bajaruvchi dastur", "Matn muharriri", "Ma'lumotlar bazasi"], "e": "Satrma-satr bajaruvchi dastur — interpretator."},
-  {"b": "Asosiy tushunchalar", "q": "O'zgaruvchi nima?", "a": ["Nomga ega, qiymati dastur davomida o'zgarishi mumkin bo'lgan xotira sohasi", "Doim o'zgarmas qiymat", "Funksiya nomi", "Izoh satri"], "e": "Konstanta qiymati o'zgarmaydi."},
-  {"b": "Asosiy tushunchalar", "q": "Python tilida izoh (kommentariya) qaysi belgi bilan boshlanadi?", "a": ["#", "//", "/*", "--"], "e": "// — C, C++, Java, JavaScript tillarida."},
-  {"b": "Ma'lumot turlari", "q": "Python'da type(3.14) natijasi qaysi?", "a": ["float", "int", "str", "bool"], "e": "Kasr sonlar float turiga mansub."},
-  {"b": "Ma'lumot turlari", "q": "Mantiqiy (bool) tur qanday qiymatlarni qabul qiladi?", "a": ["True va False", "0 dan 9 gacha", "Istalgan matn", "Faqat 1"], "e": "Taqqoslash amallari natijasi mantiqiy qiymatdir."},
-  {"b": "Ma'lumot turlari", "q": "Python'da \"5\" + \"3\" ifodaning natijasi qaysi?", "a": ["\"53\"", "8", "\"8\"", "Xato"], "e": "Satrlar qo'shilganda ular ulanadi (konkatenatsiya)."},
-  {"b": "Amallar", "q": "Python'da 17 // 5 amalining natijasi qaysi?", "a": ["3", "2", "3.4", "2.0"], "e": "// — butun bo'lish."},
-  {"b": "Amallar", "q": "Python'da 17 % 5 amalining natijasi qaysi?", "a": ["2", "3", "3.4", "5"], "e": "% — bo'linmaning qoldig'i."},
-  {"b": "Amallar", "q": "Python'da 2 ** 3 amalining natijasi qaysi?", "a": ["8", "6", "9", "5"], "e": "** — darajaga ko'tarish."},
-  {"b": "Boshqaruv tuzilmalari", "q": "Shartga qarab turli amallarni bajarish uchun qaysi operator ishlatiladi?", "a": ["if ... else", "for", "while", "return"], "e": "if — tarmoqlanish operatori."},
-  {"b": "Boshqaruv tuzilmalari", "q": "Python'da range(5) qaysi sonlar ketma-ketligini hosil qiladi?", "a": ["0, 1, 2, 3, 4", "1, 2, 3, 4, 5", "0, 1, 2, 3, 4, 5", "5"], "e": "Yuqori chegara kirmaydi."},
-  {"b": "Boshqaruv tuzilmalari", "q": "Takrorlanishlar soni oldindan noma'lum, shart bajarilguncha davom etadigan sikl qaysi?", "a": ["while", "for ... in range(n)", "if", "def"], "e": "while sikli shart rost bo'lguncha bajariladi."},
-  {"b": "Boshqaruv tuzilmalari", "q": "Siklni muddatidan oldin to'xtatish uchun qaysi operator ishlatiladi?", "a": ["break", "continue", "pass", "return har doim"], "e": "continue joriy iteratsiyaning qolganini o'tkazib yuboradi."},
-  {"b": "Boshqaruv tuzilmalari", "q": "Quyidagi kod nima chiqaradi? s = 0; for i in range(1, 4): s += i; print(s)", "a": ["6", "10", "3", "4"], "e": "1 + 2 + 3 = 6."},
-  {"b": "Funksiyalar", "q": "Python'da funksiya qaysi kalit so'z bilan e'lon qilinadi?", "a": ["def", "function", "func", "lambda har doim"], "e": "lambda — qisqa anonim funksiyalar uchun."},
-  {"b": "Funksiyalar", "q": "Funksiyadan qiymat qaytarish uchun qaysi operator ishlatiladi?", "a": ["return", "print", "break", "yield faqat"], "e": "print qiymatni faqat ekranga chiqaradi."},
-  {"b": "Funksiyalar", "q": "O'z-o'zini chaqiradigan funksiya qanday ataladi?", "a": ["Rekursiv funksiya", "Anonim funksiya", "Ichki funksiya", "Generator"], "e": "Rekursiyada albatta to'xtash sharti bo'lishi kerak."},
-  {"b": "Ma'lumotlar tuzilmalari", "q": "Python'da ro'yxat (list) qanday qavslar bilan yoziladi?", "a": ["[ ]", "( )", "{ }", "< >"], "e": "( ) — kortej (tuple), { } — lug'at yoki to'plam."},
-  {"b": "Ma'lumotlar tuzilmalari", "q": "a = [10, 20, 30] bo'lsa, a[1] nimaga teng?", "a": ["20", "10", "30", "Xato"], "e": "Indekslash 0 dan boshlanadi."},
-  {"b": "Ma'lumotlar tuzilmalari", "q": "Python'da ro'yxat uzunligini qaysi funksiya qaytaradi?", "a": ["len()", "size()", "count()", "length()"], "e": "len([1, 2, 3]) = 3."},
-  {"b": "Ma'lumotlar tuzilmalari", "q": "Python'da \"kalit: qiymat\" juftliklarini saqlovchi tuzilma qaysi?", "a": ["Lug'at (dict)", "Ro'yxat (list)", "Kortej (tuple)", "Satr (str)"], "e": "Masalan: {\"ism\": \"Ali\", \"yosh\": 20}."},
-  {"b": "OYD", "q": "Obyektga yo'naltirilgan dasturlashning asosiy tamoyillari qaysilar?", "a": ["Inkapsulyatsiya, vorislik, polimorfizm (va abstraksiya)", "Sikl, shart, funksiya", "Kompilyatsiya, interpretatsiya, bajarish", "Kiritish, qayta ishlash, chiqarish"], "e": "OYD tamoyillari sinf va obyekt tushunchalariga asoslanadi."},
-  {"b": "OYD", "q": "Sinf (class) va obyekt orasidagi munosabat qanday?", "a": ["Obyekt — sinfning nusxasi (ekzemplyari)", "Sinf — obyektning nusxasi", "Ular bir xil tushuncha", "Obyekt funksiyaning turi"], "e": "Sinf — andoza, obyekt — shu andoza asosida yaratilgan nusxa."},
-  {"b": "Xatolar", "q": "Python'da istisnolarni (xatolarni) ushlash uchun qaysi konstruksiya ishlatiladi?", "a": ["try ... except", "if ... else", "for ... in", "with ... as faqat"], "e": "finally bloki har doim bajariladi."},
-  {"b": "Xatolar", "q": "Dasturdagi mantiqiy xatolarni topish va tuzatish jarayoni qanday ataladi?", "a": ["Otladka (debugging)", "Kompilyatsiya", "Arxivlash", "Formatlash"], "e": "Debugger dasturni qadamma-qadam bajarish imkonini beradi."}
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kompilyator nima?",
+   "a": [
+    "Dastur matnini to'liq mashina kodiga o'giruvchi dastur",
+    "Dasturni satrma-satr bajaruvchi dastur",
+    "Matn muharriri",
+    "Ma'lumotlar bazasi"
+   ],
+   "e": "Satrma-satr bajaruvchi dastur — interpretator."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "O'zgaruvchi nima?",
+   "a": [
+    "Nomga ega, qiymati dastur davomida o'zgarishi mumkin bo'lgan xotira sohasi",
+    "Doim o'zgarmas qiymat",
+    "Funksiya nomi",
+    "Izoh satri"
+   ],
+   "e": "Konstanta qiymati o'zgarmaydi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Python tilida izoh (kommentariya) qaysi belgi bilan boshlanadi?",
+   "a": [
+    "#",
+    "//",
+    "/*",
+    "--"
+   ],
+   "e": "// — C, C++, Java, JavaScript tillarida."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Python'da type(3.14) natijasi qaysi?",
+   "a": [
+    "float",
+    "int",
+    "str",
+    "bool"
+   ],
+   "e": "Kasr sonlar float turiga mansub."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Mantiqiy (bool) tur qanday qiymatlarni qabul qiladi?",
+   "a": [
+    "True va False",
+    "0 dan 9 gacha",
+    "Istalgan matn",
+    "Faqat 1"
+   ],
+   "e": "Taqqoslash amallari natijasi mantiqiy qiymatdir."
+  },
+  {
+   "b": "Ma'lumot turlari",
+   "q": "Python'da \"5\" + \"3\" ifodaning natijasi qaysi?",
+   "a": [
+    "\"53\"",
+    "8",
+    "\"8\"",
+    "Xato"
+   ],
+   "e": "Satrlar qo'shilganda ular ulanadi (konkatenatsiya)."
+  },
+  {
+   "b": "Amallar",
+   "q": "Python'da 17 // 5 amalining natijasi qaysi?",
+   "a": [
+    "3",
+    "2",
+    "3.4",
+    "2.0"
+   ],
+   "e": "// — butun bo'lish."
+  },
+  {
+   "b": "Amallar",
+   "q": "Python'da 17 % 5 amalining natijasi qaysi?",
+   "a": [
+    "2",
+    "3",
+    "3.4",
+    "5"
+   ],
+   "e": "% — bo'linmaning qoldig'i."
+  },
+  {
+   "b": "Amallar",
+   "q": "Python'da 2 ** 3 amalining natijasi qaysi?",
+   "a": [
+    "8",
+    "6",
+    "9",
+    "5"
+   ],
+   "e": "** — darajaga ko'tarish."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Shartga qarab turli amallarni bajarish uchun qaysi operator ishlatiladi?",
+   "a": [
+    "if ... else",
+    "for",
+    "while",
+    "return"
+   ],
+   "e": "if — tarmoqlanish operatori."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Python'da range(5) qaysi sonlar ketma-ketligini hosil qiladi?",
+   "a": [
+    "0, 1, 2, 3, 4",
+    "1, 2, 3, 4, 5",
+    "0, 1, 2, 3, 4, 5",
+    "5"
+   ],
+   "e": "Yuqori chegara kirmaydi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Takrorlanishlar soni oldindan noma'lum, shart bajarilguncha davom etadigan sikl qaysi?",
+   "a": [
+    "while",
+    "for ... in range(n)",
+    "if",
+    "def"
+   ],
+   "e": "while sikli shart rost bo'lguncha bajariladi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Siklni muddatidan oldin to'xtatish uchun qaysi operator ishlatiladi?",
+   "a": [
+    "break",
+    "continue",
+    "pass",
+    "return har doim"
+   ],
+   "e": "continue joriy iteratsiyaning qolganini o'tkazib yuboradi."
+  },
+  {
+   "b": "Boshqaruv tuzilmalari",
+   "q": "Quyidagi kod nima chiqaradi? s = 0; for i in range(1, 4): s += i; print(s)",
+   "a": [
+    "6",
+    "10",
+    "3",
+    "4"
+   ],
+   "e": "1 + 2 + 3 = 6."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Python'da funksiya qaysi kalit so'z bilan e'lon qilinadi?",
+   "a": [
+    "def",
+    "function",
+    "func",
+    "lambda har doim"
+   ],
+   "e": "lambda — qisqa anonim funksiyalar uchun."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "Funksiyadan qiymat qaytarish uchun qaysi operator ishlatiladi?",
+   "a": [
+    "return",
+    "print",
+    "break",
+    "yield faqat"
+   ],
+   "e": "print qiymatni faqat ekranga chiqaradi."
+  },
+  {
+   "b": "Funksiyalar",
+   "q": "O'z-o'zini chaqiradigan funksiya qanday ataladi?",
+   "a": [
+    "Rekursiv funksiya",
+    "Anonim funksiya",
+    "Ichki funksiya",
+    "Generator"
+   ],
+   "e": "Rekursiyada albatta to'xtash sharti bo'lishi kerak."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Python'da ro'yxat (list) qanday qavslar bilan yoziladi?",
+   "a": [
+    "[ ]",
+    "( )",
+    "{ }",
+    "< >"
+   ],
+   "e": "( ) — kortej (tuple), { } — lug'at yoki to'plam."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "a = [10, 20, 30] bo'lsa, a[1] nimaga teng?",
+   "a": [
+    "20",
+    "10",
+    "30",
+    "Xato"
+   ],
+   "e": "Indekslash 0 dan boshlanadi."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Python'da ro'yxat uzunligini qaysi funksiya qaytaradi?",
+   "a": [
+    "len()",
+    "size()",
+    "count()",
+    "length()"
+   ],
+   "e": "len([1, 2, 3]) = 3."
+  },
+  {
+   "b": "Ma'lumotlar tuzilmalari",
+   "q": "Python'da \"kalit: qiymat\" juftliklarini saqlovchi tuzilma qaysi?",
+   "a": [
+    "Lug'at (dict)",
+    "Ro'yxat (list)",
+    "Kortej (tuple)",
+    "Satr (str)"
+   ],
+   "e": "Masalan: {\"ism\": \"Ali\", \"yosh\": 20}."
+  },
+  {
+   "b": "OYD",
+   "q": "Obyektga yo'naltirilgan dasturlashning asosiy tamoyillari qaysilar?",
+   "a": [
+    "Inkapsulyatsiya, vorislik, polimorfizm (va abstraksiya)",
+    "Sikl, shart, funksiya",
+    "Kompilyatsiya, interpretatsiya, bajarish",
+    "Kiritish, qayta ishlash, chiqarish"
+   ],
+   "e": "OYD tamoyillari sinf va obyekt tushunchalariga asoslanadi."
+  },
+  {
+   "b": "OYD",
+   "q": "Sinf (class) va obyekt orasidagi munosabat qanday?",
+   "a": [
+    "Obyekt — sinfning nusxasi (ekzemplyari)",
+    "Sinf — obyektning nusxasi",
+    "Ular bir xil tushuncha",
+    "Obyekt funksiyaning turi"
+   ],
+   "e": "Sinf — andoza, obyekt — shu andoza asosida yaratilgan nusxa."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Python'da istisnolarni (xatolarni) ushlash uchun qaysi konstruksiya ishlatiladi?",
+   "a": [
+    "try ... except",
+    "if ... else",
+    "for ... in",
+    "with ... as faqat"
+   ],
+   "e": "finally bloki har doim bajariladi."
+  },
+  {
+   "b": "Xatolar",
+   "q": "Dasturdagi mantiqiy xatolarni topish va tuzatish jarayoni qanday ataladi?",
+   "a": [
+    "Otladka (debugging)",
+    "Kompilyatsiya",
+    "Arxivlash",
+    "Formatlash"
+   ],
+   "e": "Debugger dasturni qadamma-qadam bajarish imkonini beradi."
+  }
  ]
 }

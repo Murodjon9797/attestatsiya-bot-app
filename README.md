@@ -6,6 +6,31 @@ Test savollarini sun'iy intellekt (Claude) har safar yangidan tuzadi.
 
 **Oqim:** Bilim sohasi → Yo'nalish → Mutaxassislik → Fan → Savollar soni (10/20/30) → Test → Natija
 
+## Nizom bo'yicha tayyorlov
+
+Birinchi kirishda o'qituvchi VMning 572-son qarori bilan tasdiqlangan Nizom bo'yicha sozlaydi:
+lavozim (umumta'lim / umumkasbiy va maxsus fan o'qituvchisi / ishlab chiqarish ta'limi ustasi — 5-band bo'yicha
+attestatsiyaga jalb etilmaydi) → attestatsiya fani (maxsus fan o'qituvchisi — o'quv yuklamasi eng ko'p bo'lgan
+bitta fan, 18-band) → joriy malaka toifasi. Tahlil 44-band chegaralari bo'yicha ball prognozini ko'rsatadi:
+1-bosqich (pedagogik kengash, 20 ball) + 2-bosqich (40 test, 80 ball).
+
+## Brauzer (kompyuter) versiyasi
+
+Sayt manzili brauzerda ochilsa, "Telegram orqali kirish" oynasi chiqadi. Hisob, premium va natijalar
+bot bilan umumiy. Ishlashi uchun @BotFather → `/setdomain` → botni tanlang → server domenini yuboring
+(masalan `attestatsiya-bot-3da7.onrender.com`).
+
+## Savollar bazasini kengaytirish (har fanga 300 ta)
+
+`scripts/generate_bank.py` — Claude Opus 5.5 va Batch API orqali: reja → tuzish → kalitsiz mustaqil
+tekshiruv → javob uzunligi muvozanati (to'g'ri javob eng uzun bo'lgan savollar ≤25%). Kerak:
+`ANTHROPIC_API_KEY` va `data/generator/fanlar.json` (o'quv dasturlari mazmuni; `python scrape.py` dan
+keyin yaratiladi, ommaviy repoga yuklanmaydi).
+
+```bash
+python scripts/generate_bank.py --fanlar 2
+```
+
 ## Premium va to'lov
 
 - Bepul: `FREE_QUESTIONS` ta savol (standart 5). Keyin premium kerak.

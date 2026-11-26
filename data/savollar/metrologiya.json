@@ -1,32 +1,283 @@
 {
  "kod": "5PM0564",
  "nomi": "Metrologiya, standartlashtirish va sertifikatlashtirish",
+ "turi": "maxsus",
  "manba": "2026-yilgi texnikum o'quv rejalari",
  "savollar": [
-  {"b": "Metrologiya", "q": "Metrologiya nima haqidagi fan?", "a": ["O'lchashlar, ularning birligini ta'minlash usul va vositalari, talab etilgan aniqlikka erishish haqidagi fan", "Ob-havo haqidagi fan", "Metallar haqidagi fan", "Mahsulot narxi haqidagi fan"], "e": "Meteorologiya — ob-havo haqidagi fan, ularni adashtirmaslik kerak."},
-  {"b": "Metrologiya", "q": "Xalqaro birliklar tizimi (SI)da nechta asosiy birlik bor?", "a": ["7 ta", "5 ta", "3 ta", "10 ta"], "e": "Metr, kilogramm, sekund, amper, kelvin, mol, kandela."},
-  {"b": "Metrologiya", "q": "SI tizimida yorug'lik kuchining asosiy birligi qaysi?", "a": ["Kandela", "Lyuks", "Lyumen", "Vatt"], "e": "Lyumen — yorug'lik oqimi, lyuks — yoritilganlik birligi."},
-  {"b": "Metrologiya", "q": "SI tizimida termodinamik harorat birligi qaysi?", "a": ["Kelvin", "Selsiy gradusi", "Farengeyt", "Joul"], "e": "°C hosilaviy, SI dan tashqari ruxsat etilgan birlik."},
-  {"b": "Metrologiya", "q": "\"Mega\" (M) old qo'shimchasi qaysi ko'paytuvchini bildiradi?", "a": ["10⁶", "10³", "10⁹", "10⁻⁶"], "e": "kilo — 10³, giga — 10⁹, mikro — 10⁻⁶."},
-  {"b": "O'lchash xatoliklari", "q": "Absolyut xatolik qanday aniqlanadi?", "a": ["O'lchangan va haqiqiy qiymatlar ayirmasi sifatida", "Xatolikning haqiqiy qiymatga nisbati sifatida", "O'lchash vaqti sifatida", "Asbob shkalasi uzunligi sifatida"], "e": "Δ = X_o'lch − X_haq."},
-  {"b": "O'lchash xatoliklari", "q": "Nisbiy xatolik qanday ifodalanadi?", "a": ["Absolyut xatolikning haqiqiy qiymatga nisbati (foizda)", "O'lchash birligida", "Faqat kilogrammda", "Asbob narxida"], "e": "δ = Δ / X·100%."},
-  {"b": "O'lchash xatoliklari", "q": "Bir xil sharoitda takroriy o'lchashlarda o'zgarmas qoladigan yoki qonuniy o'zgaradigan xatolik qanday ataladi?", "a": ["Sistematik xatolik", "Tasodifiy xatolik", "Qo'pol xatolik (promax)", "Nisbiy xatolik"], "e": "Sistematik xatolikni tuzatma kiritish orqali kamaytirish mumkin."},
-  {"b": "O'lchash xatoliklari", "q": "Tasodifiy xatolik ta'sirini kamaytirish usuli qaysi?", "a": ["O'lchashni ko'p marta takrorlab, o'rtacha qiymatni olish", "Asbobni bo'yash", "O'lchashni bir marta bajarish", "Shkalani olib tashlash"], "e": "Natijalar statistik usullar bilan qayta ishlanadi."},
-  {"b": "O'lchash xatoliklari", "q": "Asbobning aniqlik klassi nimani ko'rsatadi?", "a": ["Ruxsat etilgan asosiy xatolikning chegaraviy qiymatini", "Asbob narxini", "Asbob massasini", "Ishlab chiqarilgan yilni"], "e": "Masalan, 1,5 klassli asbob uchun keltirilgan xatolik ±1,5%."},
-  {"b": "O'lchash vositalari", "q": "Shtangensirkul bilan odatda qanday aniqlikda o'lchanadi?", "a": ["0,1 yoki 0,05 mm", "1 mm", "0,001 mm", "1 sm"], "e": "Mikrometr aniqligi — 0,01 mm."},
-  {"b": "O'lchash vositalari", "q": "O'lchash vositalarining metrologik tavsiflarini davriy tekshirish qanday ataladi?", "a": ["Qiyoslash (poverka)", "Kalibrlash har doim", "Sertifikatlash", "Standartlash"], "e": "Davlat metrologik nazoratiga taalluqli vositalar qiyoslanadi."},
-  {"b": "O'lchash vositalari", "q": "Birlikni eng yuqori aniqlikda qayta tiklovchi va saqlovchi o'lchash vositasi qanday ataladi?", "a": ["Etalon", "Ishchi o'lchash vositasi", "Indikator", "Sensor"], "e": "Birliklar o'lchamini etalonlardan ishchi vositalarga uzatish — tekshiruv sxemasi."},
-  {"b": "Standartlashtirish", "q": "Standartlashtirishning asosiy maqsadi nima?", "a": ["Mahsulot sifati, xavfsizligi va o'zaro almashinuvchanligini ta'minlash uchun yagona talablar o'rnatish", "Mahsulot narxini oshirish", "Raqobatni yo'q qilish", "Eksportni taqiqlash"], "e": "Standartlar majburiy yoki ixtiyoriy qo'llaniladi."},
-  {"b": "Standartlashtirish", "q": "O'zbekiston Respublikasining milliy standartlari qanday belgilanadi?", "a": ["O'z DSt", "GOST R", "DIN", "ANSI"], "e": "Davlatlararo standartlar — GOST, xalqaro — ISO."},
-  {"b": "Standartlashtirish", "q": "Sifat menejmenti tizimiga talablar belgilangan xalqaro standart qaysi?", "a": ["ISO 9001", "ISO 14001", "ISO 27001", "ISO 45001"], "e": "14001 — ekologik, 27001 — axborot xavfsizligi, 45001 — mehnat xavfsizligi menejmenti."},
-  {"b": "Standartlashtirish", "q": "Detallarning qo'shimcha ishlov berishsiz yig'ishga yaroqliligi qanday ataladi?", "a": ["O'zaro almashinuvchanlik", "Unifikatsiya", "Sertifikatlash", "Ishonchlilik"], "e": "O'zaro almashinuvchanlik dopusk va o'tqazishlar tizimi bilan ta'minlanadi."},
-  {"b": "Dopusk va o'tqazishlar", "q": "Dopusk (yo'l qo'yim) qanday aniqlanadi?", "a": ["Eng katta va eng kichik chegaraviy o'lchamlar ayirmasi", "Nominal o'lcham", "Haqiqiy o'lcham", "Teshik diametri"], "e": "Dopusk — yuqori va pastki chetlanishlar ayirmasi."},
-  {"b": "Dopusk va o'tqazishlar", "q": "Val diametri teshik diametridan doim kichik bo'lgan o'tqazish qanday ataladi?", "a": ["Tirqishli o'tqazish", "Tarangli o'tqazish", "O'tish o'tqazishi", "Nol o'tqazish"], "e": "Tarangli o'tqazishda val teshikdan katta bo'ladi."},
-  {"b": "Dopusk va o'tqazishlar", "q": "Kvalitet nimani belgilaydi?", "a": ["O'lchamning aniqlik darajasini (dopusk kattaligini)", "Materialning qattiqligini", "Detal rangini", "Ishlab chiqarish hajmini"], "e": "Kvalitet raqami ortsa, dopusk kattalashadi, aniqlik pasayadi."},
-  {"b": "Sertifikatlashtirish", "q": "Sertifikatlashtirish nima?", "a": ["Mahsulotning belgilangan talablarga muvofiqligini vakolatli uchinchi tomon tomonidan tasdiqlash", "Mahsulotni sotish", "Mahsulotni ishlab chiqarish", "Narxni belgilash"], "e": "Natijada muvofiqlik sertifikati beriladi."},
-  {"b": "Sertifikatlashtirish", "q": "Muvofiqlik deklaratsiyasini kim qabul qiladi?", "a": ["Ishlab chiqaruvchi (yetkazib beruvchi)ning o'zi", "Faqat iste'molchi", "Faqat bank", "Soliq organi"], "e": "Deklaratsiya — muvofiqlikni o'zi tasdiqlash shakli."},
-  {"b": "Sertifikatlashtirish", "q": "Sertifikatlashtirish organlarining vakolatini rasmiy tan olish qanday ataladi?", "a": ["Akkreditatsiya", "Litsenziyalash", "Patentlash", "Deklaratsiyalash"], "e": "Akkreditatsiya laboratoriyalar va organlarning malakasini tasdiqlaydi."},
-  {"b": "Sifat", "q": "Mahsulot sifati deganda nima tushuniladi?", "a": ["Mahsulotning belgilangan va ko'zda tutilgan ehtiyojlarni qondirish qobiliyatini belgilovchi xossalar majmui", "Faqat mahsulot narxi", "Faqat tashqi ko'rinish", "Ishlab chiqarish tezligi"], "e": "Sifat ko'rsatkichlari: ishonchlilik, texnologiklik, ergonomiklik va boshqalar."},
-  {"b": "Sifat", "q": "Sifatni boshqarishda keng qo'llaniladigan PDCA sikli bosqichlari qaysi?", "a": ["Rejalashtir — Bajar — Tekshir — Harakat qil", "Sotib ol — Sot — Hisobla — Arxivla", "Loyihala — Qur — Buz — Qayta qur", "Kirit — Chiqar — Saqla — O'chir"], "e": "Deming sikli: Plan-Do-Check-Act."}
+  {
+   "b": "Metrologiya",
+   "q": "Metrologiya nima haqidagi fan?",
+   "a": [
+    "O'lchashlar, ularning birligini ta'minlash usul va vositalari, talab etilgan aniqlikka erishish haqidagi fan",
+    "Ob-havo haqidagi fan",
+    "Metallar haqidagi fan",
+    "Mahsulot narxi haqidagi fan"
+   ],
+   "e": "Meteorologiya — ob-havo haqidagi fan, ularni adashtirmaslik kerak."
+  },
+  {
+   "b": "Metrologiya",
+   "q": "Xalqaro birliklar tizimi (SI)da nechta asosiy birlik bor?",
+   "a": [
+    "7 ta",
+    "5 ta",
+    "3 ta",
+    "10 ta"
+   ],
+   "e": "Metr, kilogramm, sekund, amper, kelvin, mol, kandela."
+  },
+  {
+   "b": "Metrologiya",
+   "q": "SI tizimida yorug'lik kuchining asosiy birligi qaysi?",
+   "a": [
+    "Kandela",
+    "Lyuks",
+    "Lyumen",
+    "Vatt"
+   ],
+   "e": "Lyumen — yorug'lik oqimi, lyuks — yoritilganlik birligi."
+  },
+  {
+   "b": "Metrologiya",
+   "q": "SI tizimida termodinamik harorat birligi qaysi?",
+   "a": [
+    "Kelvin",
+    "Selsiy gradusi",
+    "Farengeyt",
+    "Joul"
+   ],
+   "e": "°C hosilaviy, SI dan tashqari ruxsat etilgan birlik."
+  },
+  {
+   "b": "Metrologiya",
+   "q": "\"Mega\" (M) old qo'shimchasi qaysi ko'paytuvchini bildiradi?",
+   "a": [
+    "10⁶",
+    "10³",
+    "10⁹",
+    "10⁻⁶"
+   ],
+   "e": "kilo — 10³, giga — 10⁹, mikro — 10⁻⁶."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Absolyut xatolik qanday aniqlanadi?",
+   "a": [
+    "O'lchangan va haqiqiy qiymatlar ayirmasi sifatida",
+    "Xatolikning haqiqiy qiymatga nisbati sifatida",
+    "O'lchash vaqti sifatida",
+    "Asbob shkalasi uzunligi sifatida"
+   ],
+   "e": "Δ = X_o'lch − X_haq."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Nisbiy xatolik qanday ifodalanadi?",
+   "a": [
+    "Absolyut xatolikning haqiqiy qiymatga nisbati (foizda)",
+    "O'lchash birligida",
+    "Faqat kilogrammda",
+    "Asbob narxida"
+   ],
+   "e": "δ = Δ / X·100%."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Bir xil sharoitda takroriy o'lchashlarda o'zgarmas qoladigan yoki qonuniy o'zgaradigan xatolik qanday ataladi?",
+   "a": [
+    "Sistematik xatolik",
+    "Tasodifiy xatolik",
+    "Qo'pol xatolik (promax)",
+    "Nisbiy xatolik"
+   ],
+   "e": "Sistematik xatolikni tuzatma kiritish orqali kamaytirish mumkin."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Tasodifiy xatolik ta'sirini kamaytirish usuli qaysi?",
+   "a": [
+    "O'lchashni ko'p marta takrorlab, o'rtacha qiymatni olish",
+    "Asbobni bo'yash",
+    "O'lchashni bir marta bajarish",
+    "Shkalani olib tashlash"
+   ],
+   "e": "Natijalar statistik usullar bilan qayta ishlanadi."
+  },
+  {
+   "b": "O'lchash xatoliklari",
+   "q": "Asbobning aniqlik klassi nimani ko'rsatadi?",
+   "a": [
+    "Ruxsat etilgan asosiy xatolikning chegaraviy qiymatini",
+    "Asbob narxini",
+    "Asbob massasini",
+    "Ishlab chiqarilgan yilni"
+   ],
+   "e": "Masalan, 1,5 klassli asbob uchun keltirilgan xatolik ±1,5%."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Shtangensirkul bilan odatda qanday aniqlikda o'lchanadi?",
+   "a": [
+    "0,1 yoki 0,05 mm",
+    "1 mm",
+    "0,001 mm",
+    "1 sm"
+   ],
+   "e": "Mikrometr aniqligi — 0,01 mm."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "O'lchash vositalarining metrologik tavsiflarini davriy tekshirish qanday ataladi?",
+   "a": [
+    "Qiyoslash (poverka)",
+    "Kalibrlash har doim",
+    "Sertifikatlash",
+    "Standartlash"
+   ],
+   "e": "Davlat metrologik nazoratiga taalluqli vositalar qiyoslanadi."
+  },
+  {
+   "b": "O'lchash vositalari",
+   "q": "Birlikni eng yuqori aniqlikda qayta tiklovchi va saqlovchi o'lchash vositasi qanday ataladi?",
+   "a": [
+    "Etalon",
+    "Ishchi o'lchash vositasi",
+    "Indikator",
+    "Sensor"
+   ],
+   "e": "Birliklar o'lchamini etalonlardan ishchi vositalarga uzatish — tekshiruv sxemasi."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Standartlashtirishning asosiy maqsadi nima?",
+   "a": [
+    "Mahsulot sifati, xavfsizligi va o'zaro almashinuvchanligini ta'minlash uchun yagona talablar o'rnatish",
+    "Mahsulot narxini oshirish",
+    "Raqobatni yo'q qilish",
+    "Eksportni taqiqlash"
+   ],
+   "e": "Standartlar majburiy yoki ixtiyoriy qo'llaniladi."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "O'zbekiston Respublikasining milliy standartlari qanday belgilanadi?",
+   "a": [
+    "O'z DSt",
+    "GOST R",
+    "DIN",
+    "ANSI"
+   ],
+   "e": "Davlatlararo standartlar — GOST, xalqaro — ISO."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Sifat menejmenti tizimiga talablar belgilangan xalqaro standart qaysi?",
+   "a": [
+    "ISO 9001",
+    "ISO 14001",
+    "ISO 27001",
+    "ISO 45001"
+   ],
+   "e": "14001 — ekologik, 27001 — axborot xavfsizligi, 45001 — mehnat xavfsizligi menejmenti."
+  },
+  {
+   "b": "Standartlashtirish",
+   "q": "Detallarning qo'shimcha ishlov berishsiz yig'ishga yaroqliligi qanday ataladi?",
+   "a": [
+    "O'zaro almashinuvchanlik",
+    "Unifikatsiya",
+    "Sertifikatlash",
+    "Ishonchlilik"
+   ],
+   "e": "O'zaro almashinuvchanlik dopusk va o'tqazishlar tizimi bilan ta'minlanadi."
+  },
+  {
+   "b": "Dopusk va o'tqazishlar",
+   "q": "Dopusk (yo'l qo'yim) qanday aniqlanadi?",
+   "a": [
+    "Eng katta va eng kichik chegaraviy o'lchamlar ayirmasi",
+    "Nominal o'lcham",
+    "Haqiqiy o'lcham",
+    "Teshik diametri"
+   ],
+   "e": "Dopusk — yuqori va pastki chetlanishlar ayirmasi."
+  },
+  {
+   "b": "Dopusk va o'tqazishlar",
+   "q": "Val diametri teshik diametridan doim kichik bo'lgan o'tqazish qanday ataladi?",
+   "a": [
+    "Tirqishli o'tqazish",
+    "Tarangli o'tqazish",
+    "O'tish o'tqazishi",
+    "Nol o'tqazish"
+   ],
+   "e": "Tarangli o'tqazishda val teshikdan katta bo'ladi."
+  },
+  {
+   "b": "Dopusk va o'tqazishlar",
+   "q": "Kvalitet nimani belgilaydi?",
+   "a": [
+    "O'lchamning aniqlik darajasini (dopusk kattaligini)",
+    "Materialning qattiqligini",
+    "Detal rangini",
+    "Ishlab chiqarish hajmini"
+   ],
+   "e": "Kvalitet raqami ortsa, dopusk kattalashadi, aniqlik pasayadi."
+  },
+  {
+   "b": "Sertifikatlashtirish",
+   "q": "Sertifikatlashtirish nima?",
+   "a": [
+    "Mahsulotning belgilangan talablarga muvofiqligini vakolatli uchinchi tomon tomonidan tasdiqlash",
+    "Mahsulotni sotish",
+    "Mahsulotni ishlab chiqarish",
+    "Narxni belgilash"
+   ],
+   "e": "Natijada muvofiqlik sertifikati beriladi."
+  },
+  {
+   "b": "Sertifikatlashtirish",
+   "q": "Muvofiqlik deklaratsiyasini kim qabul qiladi?",
+   "a": [
+    "Ishlab chiqaruvchi (yetkazib beruvchi)ning o'zi",
+    "Faqat iste'molchi",
+    "Faqat bank",
+    "Soliq organi"
+   ],
+   "e": "Deklaratsiya — muvofiqlikni o'zi tasdiqlash shakli."
+  },
+  {
+   "b": "Sertifikatlashtirish",
+   "q": "Sertifikatlashtirish organlarining vakolatini rasmiy tan olish qanday ataladi?",
+   "a": [
+    "Akkreditatsiya",
+    "Litsenziyalash",
+    "Patentlash",
+    "Deklaratsiyalash"
+   ],
+   "e": "Akkreditatsiya laboratoriyalar va organlarning malakasini tasdiqlaydi."
+  },
+  {
+   "b": "Sifat",
+   "q": "Mahsulot sifati deganda nima tushuniladi?",
+   "a": [
+    "Mahsulotning belgilangan va ko'zda tutilgan ehtiyojlarni qondirish qobiliyatini belgilovchi xossalar majmui",
+    "Faqat mahsulot narxi",
+    "Faqat tashqi ko'rinish",
+    "Ishlab chiqarish tezligi"
+   ],
+   "e": "Sifat ko'rsatkichlari: ishonchlilik, texnologiklik, ergonomiklik va boshqalar."
+  },
+  {
+   "b": "Sifat",
+   "q": "Sifatni boshqarishda keng qo'llaniladigan PDCA sikli bosqichlari qaysi?",
+   "a": [
+    "Rejalashtir — Bajar — Tekshir — Harakat qil",
+    "Sotib ol — Sot — Hisobla — Arxivla",
+    "Loyihala — Qur — Buz — Qayta qur",
+    "Kirit — Chiqar — Saqla — O'chir"
+   ],
+   "e": "Deming sikli: Plan-Do-Check-Act."
+  }
  ]
 }

@@ -1,37 +1,338 @@
 {
  "kod": "",
  "nomi": "Bolalarning musiqiy ta'limi",
+ "turi": "maxsus",
  "manba": "O'rta maxsus va professional ta'lim tashkilotlari pedagog kadrlarini attestatsiyadan o'tkazish uchun Bolalarning musiqiy ta'limi fanidan malaka test sinovi topshiriqlari spetsifikatsiyasi (api-portal.gov.uz, 2025)",
  "savollar": [
-  {"b": "Boshlang'ich musiqa savodi", "q": "Musiqa tovushlari yozuvi uchun nechta chiziqdan iborat nota yo'li ishlatiladi?", "a": ["5 ta", "4 ta", "6 ta", "7 ta"], "e": "Nota yo'li (nota stani) besh chiziqdan iborat."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "Asosiy (natural) tovush pog'onalari nechta?", "a": ["7 ta", "5 ta", "8 ta", "12 ta"], "e": "Do, re, mi, fa, sol, lya, si."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "Butun nota cho'zimi bo'yicha nechta chorak notaga teng?", "a": ["4 ta", "2 ta", "8 ta", "3 ta"], "e": "Butun = 2 ta yarim = 4 ta chorak nota."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "Diyez belgisi tovushni qanday o'zgartiradi?", "a": ["Yarim tonga ko'taradi", "Yarim tonga pasaytiradi", "Butun tonga ko'taradi", "Avvalgi holiga qaytaradi"], "e": "Bemol yarim tonga pasaytiradi, bekar o'zgarishni bekor qiladi."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "Skripka kaliti nota yo'lining qaysi chizig'ida qaysi tovush joylashishini ko'rsatadi?", "a": ["2-chiziqda birinchi oktava \"sol\"", "1-chiziqda \"do\"", "4-chiziqda \"fa\"", "3-chiziqda \"lya\""], "e": "Shuning uchun u \"sol kaliti\" deb ham ataladi."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "Notadan keyin qo'yilgan nuqta uning cho'zimini qanchaga oshiradi?", "a": ["Yarmiga", "Ikki barobarga", "Choragiga", "O'zgartirmaydi"], "e": "Masalan, nuqtali yarim nota = 3 ta chorak."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "Musiqada sur'at (temp) nimani bildiradi?", "a": ["Ijro tezligini", "Tovush balandligini", "Tovush kuchini", "Tovush tembrini"], "e": "Masalan: allegro — tez, adagio — sekin."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "\"Forte\" (f) belgisi qanday ijroni bildiradi?", "a": ["Baland, kuchli", "Past, sekin", "Tez", "Bog'lab"], "e": "Piano (p) — past ovozda."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "Major lad qanday kayfiyatni ko'proq ifodalaydi?", "a": ["Quvnoq, yorqin", "G'amgin, mungli", "Tantanali-qayg'uli", "Neytral"], "e": "Minor lad odatda mungli, o'ychan kayfiyat beradi."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "2/4 o'lchovidagi taktda nechta hissa bor?", "a": ["Chorak cho'zimidagi 2 ta hissa", "Yarim cho'zimidagi 2 ta hissa", "Chorak cho'zimidagi 4 ta hissa", "Sakkizlik cho'zimidagi 2 ta hissa"], "e": "Surat — hissalar soni, maxraj — hissa cho'zimi."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "Ikki tovush orasidagi balandlik masofasi nima deb ataladi?", "a": ["Interval", "Akkord", "Lad", "Takt"], "e": "Masalan: prima, sekunda, tersiya, kvarta..."},
-  {"b": "Boshlang'ich musiqa savodi", "q": "Uch va undan ortiq tovushning bir vaqtda yangrashi nima deb ataladi?", "a": ["Akkord", "Interval", "Melodiya", "Ritm"], "e": "Eng sodda akkord — uchtovush (trezvuchiye)."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "\"Shashmaqom\" nechta maqomdan iborat?", "a": ["6 ta", "5 ta", "7 ta", "12 ta"], "e": "Buzruk, Rost, Navo, Dugoh, Segoh, Iroq."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "Qaysi biri Shashmaqom tarkibidagi maqom emas?", "a": ["Chorgoh", "Navo", "Dugoh", "Iroq"], "e": "Chorgoh Farg'ona-Toshkent maqom yo'llariga mansub."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "Doira qaysi cholg'u guruhiga mansub?", "a": ["Zarbli", "Torli-chertma", "Puflama", "Torli-kamonli"], "e": "Doira — o'zbek xalq zarbli cholg'usi."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "Qaysi cholg'u torli-kamonli hisoblanadi?", "a": ["G'ijjak", "Dutor", "Nay", "Rubob"], "e": "Dutor va rubob — chertma, nay — puflama cholg'u."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "Karnay va surnay qaysi cholg'ular guruhiga kiradi?", "a": ["Puflama", "Zarbli", "Torli", "Klavishli"], "e": "Ular odatda bayram va to'ylarda chalinadi."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "Dostonlarni do'mbira jo'rligida ijro etuvchi xalq ijrochisi qanday ataladi?", "a": ["Baxshi", "Hofiz", "Maqomchi", "Askiyachi"], "e": "Baxshilar terma va dostonlarni bo'g'iz ovozida ijro etadi."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "\"Alla\" qaysi turdagi xalq qo'shig'i?", "a": ["Oilaviy-maishiy (beshik qo'shig'i)", "Mehnat qo'shig'i", "Mavsumiy marosim qo'shig'i", "Tarixiy qo'shiq"], "e": "Alla bolani uxlatishda aytiladi."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "\"Boychechak\" qo'shig'i qaysi marosim bilan bog'liq?", "a": ["Bahor (Navro'z) bilan", "To'y bilan", "Hosil yig'imi bilan", "Motam bilan"], "e": "Bolalar bahor darakchisi boychechakni olib, qo'shiq aytib uyma-uy yurishgan."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "Qaysi cholg'u torli-chertma cholg'u hisoblanadi?", "a": ["Tanbur", "Nay", "Qo'shnay", "Doira"], "e": "Tanbur mediator (noxun) yordamida chertib chalinadi."},
-  {"b": "O'zbek xalq musiqa ijodiyoti", "q": "Shashmaqomni 1950–60-yillarda olti jildda nota yozuviga tushirgan o'zbek bastakori kim?", "a": ["Yunus Rajabiy", "Uzeyir Hojibekov", "Pyotr Chaykovskiy", "Volfgang Motsart"], "e": "Yunus Rajabiy Shashmaqomni yozib olgan va ko'plab xalq kuylarini qayta ishlagan."},
-  {"b": "Xorij musiqa madaniyati", "q": "\"Oy nuri\" sonatasining muallifi kim?", "a": ["Lyudvig van Betxoven", "Iogann Sebastyan Bax", "Frederik Shopen", "Jozef Gaydn"], "e": "Fortepiano uchun 14-sonata (op. 27 №2)."},
-  {"b": "Xorij musiqa madaniyati", "q": "\"Bolalar albomi\" fortepiano pyesalari to'plamining muallifi kim?", "a": ["Pyotr Chaykovskiy", "Volfgang Amadey Motsart", "Robert Shuman", "Sergey Prokofyev"], "e": "Chaykovskiyning \"Bolalar albomi\" (op. 39)."},
-  {"b": "Xorij musiqa madaniyati", "q": "\"Pyotr va bo'ri\" simfonik ertagining muallifi kim?", "a": ["Sergey Prokofyev", "Pyotr Chaykovskiy", "Kamil Sen-Sans", "Benjamin Britten"], "e": "Har bir qahramon alohida cholg'u bilan tasvirlanadi."},
-  {"b": "Xorij musiqa madaniyati", "q": "Simfonik orkestrdagi eng yirik va eng past ovozli torli-kamonli cholg'u qaysi?", "a": ["Kontrabas", "Violonchel", "Alt", "Skripka"], "e": "Torli-kamonli guruh: skripka, alt, violonchel, kontrabas."},
-  {"b": "Musiqa faoliyat turlari", "q": "Maktabgacha yoshdagi bolalar musiqiy faoliyatining asosiy turlariga nimalar kiradi?", "a": ["Tinglash, kuylash, musiqiy-ritmik harakatlar, cholg'u chalish", "Faqat tinglash", "Faqat nota yozish", "Faqat raqs"], "e": "Musiqa mashg'ulotlari shu faoliyat turlarini birlashtiradi."},
-  {"b": "Musiqa faoliyat turlari", "q": "Bolalar bilan qo'shiq o'rganishda dastlab nima qilinadi?", "a": ["Qo'shiq ifodali ijro etib eshittiriladi va mazmuni bo'yicha suhbat o'tkaziladi", "Darhol nota yozuvi o'rgatiladi", "Faqat so'zlari yodlatiladi", "Raqs harakatlari ko'rsatiladi"], "e": "Avval idrok, so'ng qismlab o'rganish va mustahkamlash."},
-  {"b": "Musiqa faoliyat turlari", "q": "Bolalar shovqinli cholg'ularidan iborat orkestr qanday ataladi?", "a": ["Shovqinli (bolalar) orkestri", "Simfonik orkestr", "Kamer orkestri", "Estrada orkestri"], "e": "Unda bubenchik, qayroq, doira, uchburchak kabi cholg'ular ishlatiladi."},
-  {"b": "Musiqa faoliyat turlari", "q": "Kichik yoshdagi bolalar uchun qo'shiq tanlashda qaysi talab muhim?", "a": ["Diapazoni tor va bolalar ovoziga mos bo'lishi", "Juda keng diapazonli bo'lishi", "Murakkab ritmli bo'lishi", "Faqat xorijiy tilda bo'lishi"], "e": "Bolalar ovozi diapazoni cheklangan, ovozni zo'riqtirmaslik kerak."}
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Musiqa tovushlari yozuvi uchun nechta chiziqdan iborat nota yo'li ishlatiladi?",
+   "a": [
+    "5 ta",
+    "4 ta",
+    "6 ta",
+    "7 ta"
+   ],
+   "e": "Nota yo'li (nota stani) besh chiziqdan iborat."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Asosiy (natural) tovush pog'onalari nechta?",
+   "a": [
+    "7 ta",
+    "5 ta",
+    "8 ta",
+    "12 ta"
+   ],
+   "e": "Do, re, mi, fa, sol, lya, si."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Butun nota cho'zimi bo'yicha nechta chorak notaga teng?",
+   "a": [
+    "4 ta",
+    "2 ta",
+    "8 ta",
+    "3 ta"
+   ],
+   "e": "Butun = 2 ta yarim = 4 ta chorak nota."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Diyez belgisi tovushni qanday o'zgartiradi?",
+   "a": [
+    "Yarim tonga ko'taradi",
+    "Yarim tonga pasaytiradi",
+    "Butun tonga ko'taradi",
+    "Avvalgi holiga qaytaradi"
+   ],
+   "e": "Bemol yarim tonga pasaytiradi, bekar o'zgarishni bekor qiladi."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Skripka kaliti nota yo'lining qaysi chizig'ida qaysi tovush joylashishini ko'rsatadi?",
+   "a": [
+    "2-chiziqda birinchi oktava \"sol\"",
+    "1-chiziqda \"do\"",
+    "4-chiziqda \"fa\"",
+    "3-chiziqda \"lya\""
+   ],
+   "e": "Shuning uchun u \"sol kaliti\" deb ham ataladi."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Notadan keyin qo'yilgan nuqta uning cho'zimini qanchaga oshiradi?",
+   "a": [
+    "Yarmiga",
+    "Ikki barobarga",
+    "Choragiga",
+    "O'zgartirmaydi"
+   ],
+   "e": "Masalan, nuqtali yarim nota = 3 ta chorak."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Musiqada sur'at (temp) nimani bildiradi?",
+   "a": [
+    "Ijro tezligini",
+    "Tovush balandligini",
+    "Tovush kuchini",
+    "Tovush tembrini"
+   ],
+   "e": "Masalan: allegro — tez, adagio — sekin."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "\"Forte\" (f) belgisi qanday ijroni bildiradi?",
+   "a": [
+    "Baland, kuchli",
+    "Past, sekin",
+    "Tez",
+    "Bog'lab"
+   ],
+   "e": "Piano (p) — past ovozda."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Major lad qanday kayfiyatni ko'proq ifodalaydi?",
+   "a": [
+    "Quvnoq, yorqin",
+    "G'amgin, mungli",
+    "Tantanali-qayg'uli",
+    "Neytral"
+   ],
+   "e": "Minor lad odatda mungli, o'ychan kayfiyat beradi."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "2/4 o'lchovidagi taktda nechta hissa bor?",
+   "a": [
+    "Chorak cho'zimidagi 2 ta hissa",
+    "Yarim cho'zimidagi 2 ta hissa",
+    "Chorak cho'zimidagi 4 ta hissa",
+    "Sakkizlik cho'zimidagi 2 ta hissa"
+   ],
+   "e": "Surat — hissalar soni, maxraj — hissa cho'zimi."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Ikki tovush orasidagi balandlik masofasi nima deb ataladi?",
+   "a": [
+    "Interval",
+    "Akkord",
+    "Lad",
+    "Takt"
+   ],
+   "e": "Masalan: prima, sekunda, tersiya, kvarta..."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Uch va undan ortiq tovushning bir vaqtda yangrashi nima deb ataladi?",
+   "a": [
+    "Akkord",
+    "Interval",
+    "Melodiya",
+    "Ritm"
+   ],
+   "e": "Eng sodda akkord — uchtovush (trezvuchiye)."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "\"Shashmaqom\" nechta maqomdan iborat?",
+   "a": [
+    "6 ta",
+    "5 ta",
+    "7 ta",
+    "12 ta"
+   ],
+   "e": "Buzruk, Rost, Navo, Dugoh, Segoh, Iroq."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "Qaysi biri Shashmaqom tarkibidagi maqom emas?",
+   "a": [
+    "Chorgoh",
+    "Navo",
+    "Dugoh",
+    "Iroq"
+   ],
+   "e": "Chorgoh Farg'ona-Toshkent maqom yo'llariga mansub."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "Doira qaysi cholg'u guruhiga mansub?",
+   "a": [
+    "Zarbli",
+    "Torli-chertma",
+    "Puflama",
+    "Torli-kamonli"
+   ],
+   "e": "Doira — o'zbek xalq zarbli cholg'usi."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "Qaysi cholg'u torli-kamonli hisoblanadi?",
+   "a": [
+    "G'ijjak",
+    "Dutor",
+    "Nay",
+    "Rubob"
+   ],
+   "e": "Dutor va rubob — chertma, nay — puflama cholg'u."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "Karnay va surnay qaysi cholg'ular guruhiga kiradi?",
+   "a": [
+    "Puflama",
+    "Zarbli",
+    "Torli",
+    "Klavishli"
+   ],
+   "e": "Ular odatda bayram va to'ylarda chalinadi."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "Dostonlarni do'mbira jo'rligida ijro etuvchi xalq ijrochisi qanday ataladi?",
+   "a": [
+    "Baxshi",
+    "Hofiz",
+    "Maqomchi",
+    "Askiyachi"
+   ],
+   "e": "Baxshilar terma va dostonlarni bo'g'iz ovozida ijro etadi."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "\"Alla\" qaysi turdagi xalq qo'shig'i?",
+   "a": [
+    "Oilaviy-maishiy (beshik qo'shig'i)",
+    "Mehnat qo'shig'i",
+    "Mavsumiy marosim qo'shig'i",
+    "Tarixiy qo'shiq"
+   ],
+   "e": "Alla bolani uxlatishda aytiladi."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "\"Boychechak\" qo'shig'i qaysi marosim bilan bog'liq?",
+   "a": [
+    "Bahor (Navro'z) bilan",
+    "To'y bilan",
+    "Hosil yig'imi bilan",
+    "Motam bilan"
+   ],
+   "e": "Bolalar bahor darakchisi boychechakni olib, qo'shiq aytib uyma-uy yurishgan."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "Qaysi cholg'u torli-chertma cholg'u hisoblanadi?",
+   "a": [
+    "Tanbur",
+    "Nay",
+    "Qo'shnay",
+    "Doira"
+   ],
+   "e": "Tanbur mediator (noxun) yordamida chertib chalinadi."
+  },
+  {
+   "b": "O'zbek xalq musiqa ijodiyoti",
+   "q": "Shashmaqomni 1950–60-yillarda olti jildda nota yozuviga tushirgan o'zbek bastakori kim?",
+   "a": [
+    "Yunus Rajabiy",
+    "Uzeyir Hojibekov",
+    "Pyotr Chaykovskiy",
+    "Volfgang Motsart"
+   ],
+   "e": "Yunus Rajabiy Shashmaqomni yozib olgan va ko'plab xalq kuylarini qayta ishlagan."
+  },
+  {
+   "b": "Xorij musiqa madaniyati",
+   "q": "\"Oy nuri\" sonatasining muallifi kim?",
+   "a": [
+    "Lyudvig van Betxoven",
+    "Iogann Sebastyan Bax",
+    "Frederik Shopen",
+    "Jozef Gaydn"
+   ],
+   "e": "Fortepiano uchun 14-sonata (op. 27 №2)."
+  },
+  {
+   "b": "Xorij musiqa madaniyati",
+   "q": "\"Bolalar albomi\" fortepiano pyesalari to'plamining muallifi kim?",
+   "a": [
+    "Pyotr Chaykovskiy",
+    "Volfgang Amadey Motsart",
+    "Robert Shuman",
+    "Sergey Prokofyev"
+   ],
+   "e": "Chaykovskiyning \"Bolalar albomi\" (op. 39)."
+  },
+  {
+   "b": "Xorij musiqa madaniyati",
+   "q": "\"Pyotr va bo'ri\" simfonik ertagining muallifi kim?",
+   "a": [
+    "Sergey Prokofyev",
+    "Pyotr Chaykovskiy",
+    "Kamil Sen-Sans",
+    "Benjamin Britten"
+   ],
+   "e": "Har bir qahramon alohida cholg'u bilan tasvirlanadi."
+  },
+  {
+   "b": "Xorij musiqa madaniyati",
+   "q": "Simfonik orkestrdagi eng yirik va eng past ovozli torli-kamonli cholg'u qaysi?",
+   "a": [
+    "Kontrabas",
+    "Violonchel",
+    "Alt",
+    "Skripka"
+   ],
+   "e": "Torli-kamonli guruh: skripka, alt, violonchel, kontrabas."
+  },
+  {
+   "b": "Musiqa faoliyat turlari",
+   "q": "Maktabgacha yoshdagi bolalar musiqiy faoliyatining asosiy turlariga nimalar kiradi?",
+   "a": [
+    "Tinglash, kuylash, musiqiy-ritmik harakatlar, cholg'u chalish",
+    "Faqat tinglash",
+    "Faqat nota yozish",
+    "Faqat raqs"
+   ],
+   "e": "Musiqa mashg'ulotlari shu faoliyat turlarini birlashtiradi."
+  },
+  {
+   "b": "Musiqa faoliyat turlari",
+   "q": "Bolalar bilan qo'shiq o'rganishda dastlab nima qilinadi?",
+   "a": [
+    "Qo'shiq ifodali ijro etib eshittiriladi va mazmuni bo'yicha suhbat o'tkaziladi",
+    "Darhol nota yozuvi o'rgatiladi",
+    "Faqat so'zlari yodlatiladi",
+    "Raqs harakatlari ko'rsatiladi"
+   ],
+   "e": "Avval idrok, so'ng qismlab o'rganish va mustahkamlash."
+  },
+  {
+   "b": "Musiqa faoliyat turlari",
+   "q": "Bolalar shovqinli cholg'ularidan iborat orkestr qanday ataladi?",
+   "a": [
+    "Shovqinli (bolalar) orkestri",
+    "Simfonik orkestr",
+    "Kamer orkestri",
+    "Estrada orkestri"
+   ],
+   "e": "Unda bubenchik, qayroq, doira, uchburchak kabi cholg'ular ishlatiladi."
+  },
+  {
+   "b": "Musiqa faoliyat turlari",
+   "q": "Kichik yoshdagi bolalar uchun qo'shiq tanlashda qaysi talab muhim?",
+   "a": [
+    "Diapazoni tor va bolalar ovoziga mos bo'lishi",
+    "Juda keng diapazonli bo'lishi",
+    "Murakkab ritmli bo'lishi",
+    "Faqat xorijiy tilda bo'lishi"
+   ],
+   "e": "Bolalar ovozi diapazoni cheklangan, ovozni zo'riqtirmaslik kerak."
+  }
  ]
 }

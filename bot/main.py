@@ -190,9 +190,12 @@ async def cb_mutaxassislik(cb: CallbackQuery, state: FSMContext) -> None:
 @router.callback_query(F.data.startswith("bk:"))
 async def cb_bank_list(cb: CallbackQuery) -> None:
     page = int(cb.data[3:])
-    items = [(f"{s['kod'] + ' ' if s.get('kod') else ''}{s['nomi']} ({len(s['savollar'])})", f"bs:{sid}")
-             for sid, s in bank.subjects.items()]
-    await show(cb, "<b>📚 Attestatsiya fanlari</b>\nTayyor savollar bazasi bor fanlar. Fanni tanlang:",
+    icon = {"umumtalim": "📘", "maxsus": "🛠", "bosqich1": "🧑‍🏫"}
+    items = [(f"{icon.get(x['turi'], '')} {x['nomi']} ({x['soni']})", f"bs:{x['id']}") for x in bank.listing()]
+    await show(cb, "<b>📚 Attestatsiya fanlari</b>\n\n"
+                   "🛠 — umumkasbiy va maxsus fanlar. Nizomga ko'ra o'quv yuklamasi eng ko'p bo'lgan bitta fan "
+                   "bo'yicha attestatsiyadan o'tasiz.\n📘 — umumta'lim fanlari.\n🧑‍🏫 — 1-bosqichga tayyorgarlik "
+                   "(pedagogik mahoratni kengash baholaydi, 20 ball).\n\n2-bosqich: fan bo'yicha 40 ta test, 80 ball.",
                paged(items, page, "bk:{}", "home"))
 
 
@@ -503,8 +506,9 @@ async def run() -> None:
 
     from bot.web import build_app
 
+    me = await bot.get_me()
     app = build_app(token=token, catalog=catalog, db=db, claude=claude, pass_percent=PASS_PERCENT, bank=bank,
-                    premium=premium)
+                    premium=premium, bot_username=me.username or "")
 
     # Ommaviy manzil bo'lsa webhook: Telegram xabari uxlab qolgan bepul serverni ham uyg'otadi
     webhook_path = webhook_secret = ""

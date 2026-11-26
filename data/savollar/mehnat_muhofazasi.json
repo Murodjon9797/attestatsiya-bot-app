@@ -1,37 +1,338 @@
 {
  "kod": "5PM0539",
  "nomi": "Mehnat muhofazasi va texnika xavfsizligi",
+ "turi": "maxsus",
  "manba": "2026-yilgi texnikum o'quv rejalari (68 ta mutaxassislikda o'qitiladi)",
  "savollar": [
-  {"b": "Asosiy tushunchalar", "q": "Mehnat muhofazasi deganda nima tushuniladi?", "a": ["Mehnat jarayonida xodim hayoti va sog'lig'ini saqlashga qaratilgan huquqiy, ijtimoiy-iqtisodiy, tashkiliy-texnik, sanitariya-gigiyena va davolash-profilaktika chora-tadbirlari tizimi", "Faqat yong'in xavfsizligi qoidalari", "Faqat ish haqini to'lash tartibi", "Ishlab chiqarish rejasini bajarish"], "e": "Mehnat muhofazasi kompleks tizim hisoblanadi."},
-  {"b": "Asosiy tushunchalar", "q": "Xavfli ishlab chiqarish omili nima?", "a": ["Xodimga ta'siri jarohat yoki sog'liqning keskin yomonlashishiga olib keladigan omil", "Uzoq ta'sirda kasallik keltiradigan omil", "Ish vaqtining uzunligi", "Ish joyining yorug'ligi"], "e": "Uzoq ta'sirda kasallikka olib keladigan omil — zararli omil deyiladi."},
-  {"b": "Asosiy tushunchalar", "q": "Zararli ishlab chiqarish omiliga misol qaysi?", "a": ["Ish zonasidagi yuqori shovqin va chang", "Aylanayotgan mexanizm qismlari", "Baland joydan yiqilish", "Elektr toki urishi"], "e": "Shovqin, chang, tebranish, zaharli moddalar uzoq vaqt ta'sir qilib kasb kasalliklarini keltirib chiqaradi."},
-  {"b": "Yo'riqnomalar", "q": "Ishga yangi qabul qilingan xodim bilan dastlab qanday yo'riqnoma o'tkaziladi?", "a": ["Kirish yo'riqnomasi", "Navbatdan tashqari yo'riqnoma", "Maqsadli yo'riqnoma", "Takroriy yo'riqnoma"], "e": "So'ng ish joyida birlamchi yo'riqnoma o'tkaziladi."},
-  {"b": "Yo'riqnomalar", "q": "Yangi texnologiya yoki uskuna joriy etilganda qanday yo'riqnoma o'tkaziladi?", "a": ["Navbatdan tashqari", "Kirish", "Takroriy", "Birlamchi"], "e": "Shuningdek, qoidalar o'zgarganda yoki baxtsiz hodisadan keyin ham o'tkaziladi."},
-  {"b": "Yo'riqnomalar", "q": "Bir martalik, asosiy vazifaga kirmaydigan ish (masalan, avariyani bartaraf etish) oldidan qanday yo'riqnoma o'tkaziladi?", "a": ["Maqsadli", "Kirish", "Takroriy", "Birlamchi"], "e": "Maqsadli yo'riqnoma naryad-ruxsatnoma bilan bajariladigan ishlarda ham o'tkaziladi."},
-  {"b": "Baxtsiz hodisalar", "q": "Ishlab chiqarishda baxtsiz hodisa sodir bo'lganda birinchi navbatda nima qilinadi?", "a": ["Jabrlanuvchiga birinchi yordam ko'rsatiladi va rahbarga xabar beriladi", "Hodisa joyi darhol tozalanadi", "Ish davom ettiriladi", "Faqat hujjat rasmiylashtiriladi"], "e": "Hodisa joyi holati, agar boshqalar uchun xavf bo'lmasa, tekshiruvgacha saqlanadi."},
-  {"b": "Baxtsiz hodisalar", "q": "Baxtsiz hodisalarni tahlil qilishning statistik usulida qaysi ko'rsatkich hisoblanadi?", "a": ["Jarohatlanish chastotasi koeffitsiyenti", "Mehnat unumdorligi", "Ish haqi fondi", "Mahsulot tannarxi"], "e": "Kch = N·1000 / R (N — hodisalar soni, R — o'rtacha ishchilar soni)."},
-  {"b": "Elektr xavfsizligi", "q": "Elektr toki inson organizmiga qanday ta'sir ko'rsatadi?", "a": ["Termik, elektrolitik, biologik va mexanik", "Faqat termik", "Faqat mexanik", "Faqat kimyoviy"], "e": "Biologik ta'sir — to'qimalarning qo'zg'alishi, mushaklarning tortishishi."},
-  {"b": "Elektr xavfsizligi", "q": "Elektr toki urganda jabrlanuvchiga yordam berishdan oldin nima qilish kerak?", "a": ["Jabrlanuvchini tok manbaidan ajratish (manbani o'chirish yoki dielektrik vosita bilan)", "Darhol qo'l bilan tortib olish", "Suv sepish", "Kutib turish"], "e": "Tok ostidagi odamga yalang'och qo'l bilan tegish yordamchini ham xavf ostiga qo'yadi."},
-  {"b": "Elektr xavfsizligi", "q": "Himoya yerga ulashning maqsadi nima?", "a": ["Korpusga kuchlanish o'tganda tegish kuchlanishini xavfsiz qiymatgacha kamaytirish", "Elektr energiyasini tejash", "Uskuna quvvatini oshirish", "Kuchlanishni stabillashtirish"], "e": "Uskunaning metall korpusi yer bilan ulanadi."},
-  {"b": "Elektr xavfsizligi", "q": "Qaysi biri asosiy dielektrik himoya vositasi hisoblanadi (1000 V gacha qurilmalarda)?", "a": ["Dielektrik qo'lqop", "Dielektrik gilamcha", "Ogohlantiruvchi plakat", "Kaska"], "e": "1000 V gacha qurilmalarda dielektrik qo'lqop va izolyatsiyalangan dastali asboblar asosiy vosita hisoblanadi."},
-  {"b": "Elektr xavfsizligi", "q": "\"Yoqmang! Odamlar ishlayapti\" plakati qayerga osiladi?", "a": ["Ta'mirlanayotgan qurilmaga kuchlanish beriladigan uzgich (kommutatsion apparat) dastasiga", "Xona eshigiga", "Elektr hisoblagichga", "Ish stoli ustiga"], "e": "Bu taqiqlovchi plakat xato yoqishning oldini oladi."},
-  {"b": "Yong'in xavfsizligi", "q": "Yonish sodir bo'lishi uchun qaysi uchta shart bo'lishi kerak?", "a": ["Yonuvchi modda, oksidlovchi (kislorod) va alangalanish manbai", "Suv, havo va issiqlik", "Yonuvchi modda, suv va shamol", "Kislorod, azot va issiqlik"], "e": "\"Yonish uchburchagi\" — birortasi yo'qotilsa yonish to'xtaydi."},
-  {"b": "Yong'in xavfsizligi", "q": "Kuchlanish ostidagi elektr uskunasidagi yong'inni o'chirish uchun qaysi o't o'chirgich ishlatiladi?", "a": ["Karbonat angidridli (OU) yoki kukunli", "Suvli", "Ko'pikli", "Suv-ko'pikli"], "e": "Suv va ko'pik elektr o'tkazadi."},
-  {"b": "Yong'in xavfsizligi", "q": "Benzin va moylarning yonishini o'chirishda nima ishlatib bo'lmaydi?", "a": ["Suv oqimi", "Ko'pik", "Qum", "Kukunli o't o'chirgich"], "e": "Yonayotgan neft mahsuloti suv ustida suzib, yong'in tarqaladi."},
-  {"b": "Yong'in xavfsizligi", "q": "Yong'in chiqqanda birinchi navbatda nima qilish kerak?", "a": ["Yong'in xizmatiga (101) xabar berish va odamlarni evakuatsiya qilish", "Mol-mulkni olib chiqish", "Derazalarni ochish", "Liftdan foydalanib tushish"], "e": "Yong'in vaqtida liftdan foydalanish taqiqlanadi."},
-  {"b": "Yong'in xavfsizligi", "q": "Bino ichida tutun ko'p bo'lsa, qanday harakatlanish kerak?", "a": ["Engashib yoki emaklab, nafas yo'llarini ho'l mato bilan to'sib", "Tik turib yugurib", "Yuqori qavatga ko'tarilib", "Ko'zni yumib"], "e": "Pol yaqinida tutun kamroq bo'ladi."},
-  {"b": "Ishlab chiqarish sanitariyasi", "q": "Shovqin darajasi qanday birlikda o'lchanadi?", "a": ["Detsibel (dB)", "Lyuks (lk)", "Gers (Gs)", "Paskal (Pa)"], "e": "Yoritilganlik — lyuksda, chastota — gersda o'lchanadi."},
-  {"b": "Ishlab chiqarish sanitariyasi", "q": "Ish joyining yoritilganligi qanday asbob bilan o'lchanadi?", "a": ["Lyuksmetr", "Shovqinmetr", "Psixrometr", "Anemometr"], "e": "Psixrometr — namlikni, anemometr — havo tezligini o'lchaydi."},
-  {"b": "Ishlab chiqarish sanitariyasi", "q": "Ish zonasi havosining mikroiqlimini qaysi parametrlar belgilaydi?", "a": ["Harorat, nisbiy namlik, havo harakati tezligi va issiqlik nurlanishi", "Faqat harorat", "Shovqin va tebranish", "Yoritilganlik va rang"], "e": "Mikroiqlim parametrlari sanitariya me'yorlari bilan cheklanadi."},
-  {"b": "Ishlab chiqarish sanitariyasi", "q": "Zararli moddalarning ish zonasidagi yo'l qo'yiladigan eng yuqori miqdori qanday qisqartma bilan belgilanadi?", "a": ["REK (ruxsat etilgan eng yuqori konsentratsiya)", "KPD", "GOST", "ISO"], "e": "REK mg/m³ da ifodalanadi."},
-  {"b": "Shaxsiy himoya vositalari", "q": "Shovqindan himoya qiluvchi shaxsiy vosita qaysi?", "a": ["Quloqchinlar va quloq tiqinlari (berushilar)", "Respirator", "Himoya ko'zoynagi", "Dielektrik galosh"], "e": "Respirator — nafas a'zolarini changdan himoya qiladi."},
-  {"b": "Shaxsiy himoya vositalari", "q": "Payvandlash ishlarida ko'zni nima himoya qiladi?", "a": ["Svetofiltrli himoya niqobi (shit)", "Oddiy quyosh ko'zoynagi", "Respirator", "Kaska"], "e": "Payvand yoyi kuchli ultrabinafsha nurlanish chiqaradi."},
-  {"b": "Mexanik xavfsizlik", "q": "Stanokning aylanuvchi qismlari bilan jarohatlanishning oldini olishning asosiy chorasi nima?", "a": ["Himoya to'siqlari (ograjdeniyalar) va blokirovka qurilmalari", "Ishni tezroq bajarish", "Qo'lqopda ishlash", "Stanokni bo'yash"], "e": "Aylanuvchi qismlar yonida qo'lqopda ishlash, aksincha, xavfni oshirishi mumkin."},
-  {"b": "Mexanik xavfsizlik", "q": "Balandlikda ishlashda yiqilishdan himoya qiluvchi asosiy vosita qaysi?", "a": ["Saqlovchi kamar (strahovka) va uni mahkamlash", "Rezina etik", "Respirator", "Fartuk"], "e": "Saqlovchi kamar mustahkam konstruksiyaga mahkamlanadi."},
-  {"b": "Birinchi tibbiy yordam", "q": "Kuchli arterial qon ketishida birinchi yordam qanday ko'rsatiladi?", "a": ["Yaradan yuqoriroqqa jgut qo'yiladi va qo'yilgan vaqt yozib qo'yiladi", "Yara suv bilan yuviladi", "Jabrlanuvchiga issiq choy beriladi", "Hech narsa qilinmaydi"], "e": "Arterial qon och qizil rangda, fontansimon oqadi."},
-  {"b": "Birinchi tibbiy yordam", "q": "Termik kuyishda birinchi yordam qanday?", "a": ["Kuygan joyni sovuq suv bilan sovitish va steril bog'lam qo'yish", "Yog' surtish", "Pufakchalarni yorish", "Spirt bilan artish"], "e": "Pufakchalarni yorish infeksiyaga yo'l ochadi."},
-  {"b": "Birinchi tibbiy yordam", "q": "Suyak sinishida birinchi yordamning asosiy talabi nima?", "a": ["Shikastlangan qo'l-oyoqni shina bilan harakatsizlantirish", "Suyakni joyiga solishga urinish", "Jabrlanuvchini yurgizish", "Shikastlangan joyni uqalash"], "e": "Shina sinish joyidan yuqori va pastdagi bo'g'imlarni qamrashi kerak."},
-  {"b": "Huquqiy asoslar", "q": "O'zbekiston Respublikasida mehnat muhofazasi masalalari asosan qaysi hujjatlar bilan tartibga solinadi?", "a": ["Mehnat kodeksi va \"Mehnatni muhofaza qilish to'g'risida\"gi Qonun", "Soliq kodeksi", "Oila kodeksi", "Yer kodeksi"], "e": "Ular asosida tarmoq qoidalari va yo'riqnomalar ishlab chiqiladi."}
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Mehnat muhofazasi deganda nima tushuniladi?",
+   "a": [
+    "Mehnat jarayonida xodim hayoti va sog'lig'ini saqlashga qaratilgan huquqiy, ijtimoiy-iqtisodiy, tashkiliy-texnik, sanitariya-gigiyena va davolash-profilaktika chora-tadbirlari tizimi",
+    "Faqat yong'in xavfsizligi qoidalari",
+    "Faqat ish haqini to'lash tartibi",
+    "Ishlab chiqarish rejasini bajarish"
+   ],
+   "e": "Mehnat muhofazasi kompleks tizim hisoblanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Xavfli ishlab chiqarish omili nima?",
+   "a": [
+    "Xodimga ta'siri jarohat yoki sog'liqning keskin yomonlashishiga olib keladigan omil",
+    "Uzoq ta'sirda kasallik keltiradigan omil",
+    "Ish vaqtining uzunligi",
+    "Ish joyining yorug'ligi"
+   ],
+   "e": "Uzoq ta'sirda kasallikka olib keladigan omil — zararli omil deyiladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Zararli ishlab chiqarish omiliga misol qaysi?",
+   "a": [
+    "Ish zonasidagi yuqori shovqin va chang",
+    "Aylanayotgan mexanizm qismlari",
+    "Baland joydan yiqilish",
+    "Elektr toki urishi"
+   ],
+   "e": "Shovqin, chang, tebranish, zaharli moddalar uzoq vaqt ta'sir qilib kasb kasalliklarini keltirib chiqaradi."
+  },
+  {
+   "b": "Yo'riqnomalar",
+   "q": "Ishga yangi qabul qilingan xodim bilan dastlab qanday yo'riqnoma o'tkaziladi?",
+   "a": [
+    "Kirish yo'riqnomasi",
+    "Navbatdan tashqari yo'riqnoma",
+    "Maqsadli yo'riqnoma",
+    "Takroriy yo'riqnoma"
+   ],
+   "e": "So'ng ish joyida birlamchi yo'riqnoma o'tkaziladi."
+  },
+  {
+   "b": "Yo'riqnomalar",
+   "q": "Yangi texnologiya yoki uskuna joriy etilganda qanday yo'riqnoma o'tkaziladi?",
+   "a": [
+    "Navbatdan tashqari",
+    "Kirish",
+    "Takroriy",
+    "Birlamchi"
+   ],
+   "e": "Shuningdek, qoidalar o'zgarganda yoki baxtsiz hodisadan keyin ham o'tkaziladi."
+  },
+  {
+   "b": "Yo'riqnomalar",
+   "q": "Bir martalik, asosiy vazifaga kirmaydigan ish (masalan, avariyani bartaraf etish) oldidan qanday yo'riqnoma o'tkaziladi?",
+   "a": [
+    "Maqsadli",
+    "Kirish",
+    "Takroriy",
+    "Birlamchi"
+   ],
+   "e": "Maqsadli yo'riqnoma naryad-ruxsatnoma bilan bajariladigan ishlarda ham o'tkaziladi."
+  },
+  {
+   "b": "Baxtsiz hodisalar",
+   "q": "Ishlab chiqarishda baxtsiz hodisa sodir bo'lganda birinchi navbatda nima qilinadi?",
+   "a": [
+    "Jabrlanuvchiga birinchi yordam ko'rsatiladi va rahbarga xabar beriladi",
+    "Hodisa joyi darhol tozalanadi",
+    "Ish davom ettiriladi",
+    "Faqat hujjat rasmiylashtiriladi"
+   ],
+   "e": "Hodisa joyi holati, agar boshqalar uchun xavf bo'lmasa, tekshiruvgacha saqlanadi."
+  },
+  {
+   "b": "Baxtsiz hodisalar",
+   "q": "Baxtsiz hodisalarni tahlil qilishning statistik usulida qaysi ko'rsatkich hisoblanadi?",
+   "a": [
+    "Jarohatlanish chastotasi koeffitsiyenti",
+    "Mehnat unumdorligi",
+    "Ish haqi fondi",
+    "Mahsulot tannarxi"
+   ],
+   "e": "Kch = N·1000 / R (N — hodisalar soni, R — o'rtacha ishchilar soni)."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Elektr toki inson organizmiga qanday ta'sir ko'rsatadi?",
+   "a": [
+    "Termik, elektrolitik, biologik va mexanik",
+    "Faqat termik",
+    "Faqat mexanik",
+    "Faqat kimyoviy"
+   ],
+   "e": "Biologik ta'sir — to'qimalarning qo'zg'alishi, mushaklarning tortishishi."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Elektr toki urganda jabrlanuvchiga yordam berishdan oldin nima qilish kerak?",
+   "a": [
+    "Jabrlanuvchini tok manbaidan ajratish (manbani o'chirish yoki dielektrik vosita bilan)",
+    "Darhol qo'l bilan tortib olish",
+    "Suv sepish",
+    "Kutib turish"
+   ],
+   "e": "Tok ostidagi odamga yalang'och qo'l bilan tegish yordamchini ham xavf ostiga qo'yadi."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Himoya yerga ulashning maqsadi nima?",
+   "a": [
+    "Korpusga kuchlanish o'tganda tegish kuchlanishini xavfsiz qiymatgacha kamaytirish",
+    "Elektr energiyasini tejash",
+    "Uskuna quvvatini oshirish",
+    "Kuchlanishni stabillashtirish"
+   ],
+   "e": "Uskunaning metall korpusi yer bilan ulanadi."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Qaysi biri asosiy dielektrik himoya vositasi hisoblanadi (1000 V gacha qurilmalarda)?",
+   "a": [
+    "Dielektrik qo'lqop",
+    "Dielektrik gilamcha",
+    "Ogohlantiruvchi plakat",
+    "Kaska"
+   ],
+   "e": "1000 V gacha qurilmalarda dielektrik qo'lqop va izolyatsiyalangan dastali asboblar asosiy vosita hisoblanadi."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "\"Yoqmang! Odamlar ishlayapti\" plakati qayerga osiladi?",
+   "a": [
+    "Ta'mirlanayotgan qurilmaga kuchlanish beriladigan uzgich (kommutatsion apparat) dastasiga",
+    "Xona eshigiga",
+    "Elektr hisoblagichga",
+    "Ish stoli ustiga"
+   ],
+   "e": "Bu taqiqlovchi plakat xato yoqishning oldini oladi."
+  },
+  {
+   "b": "Yong'in xavfsizligi",
+   "q": "Yonish sodir bo'lishi uchun qaysi uchta shart bo'lishi kerak?",
+   "a": [
+    "Yonuvchi modda, oksidlovchi (kislorod) va alangalanish manbai",
+    "Suv, havo va issiqlik",
+    "Yonuvchi modda, suv va shamol",
+    "Kislorod, azot va issiqlik"
+   ],
+   "e": "\"Yonish uchburchagi\" — birortasi yo'qotilsa yonish to'xtaydi."
+  },
+  {
+   "b": "Yong'in xavfsizligi",
+   "q": "Kuchlanish ostidagi elektr uskunasidagi yong'inni o'chirish uchun qaysi o't o'chirgich ishlatiladi?",
+   "a": [
+    "Karbonat angidridli (OU) yoki kukunli",
+    "Suvli",
+    "Ko'pikli",
+    "Suv-ko'pikli"
+   ],
+   "e": "Suv va ko'pik elektr o'tkazadi."
+  },
+  {
+   "b": "Yong'in xavfsizligi",
+   "q": "Benzin va moylarning yonishini o'chirishda nima ishlatib bo'lmaydi?",
+   "a": [
+    "Suv oqimi",
+    "Ko'pik",
+    "Qum",
+    "Kukunli o't o'chirgich"
+   ],
+   "e": "Yonayotgan neft mahsuloti suv ustida suzib, yong'in tarqaladi."
+  },
+  {
+   "b": "Yong'in xavfsizligi",
+   "q": "Yong'in chiqqanda birinchi navbatda nima qilish kerak?",
+   "a": [
+    "Yong'in xizmatiga (101) xabar berish va odamlarni evakuatsiya qilish",
+    "Mol-mulkni olib chiqish",
+    "Derazalarni ochish",
+    "Liftdan foydalanib tushish"
+   ],
+   "e": "Yong'in vaqtida liftdan foydalanish taqiqlanadi."
+  },
+  {
+   "b": "Yong'in xavfsizligi",
+   "q": "Bino ichida tutun ko'p bo'lsa, qanday harakatlanish kerak?",
+   "a": [
+    "Engashib yoki emaklab, nafas yo'llarini ho'l mato bilan to'sib",
+    "Tik turib yugurib",
+    "Yuqori qavatga ko'tarilib",
+    "Ko'zni yumib"
+   ],
+   "e": "Pol yaqinida tutun kamroq bo'ladi."
+  },
+  {
+   "b": "Ishlab chiqarish sanitariyasi",
+   "q": "Shovqin darajasi qanday birlikda o'lchanadi?",
+   "a": [
+    "Detsibel (dB)",
+    "Lyuks (lk)",
+    "Gers (Gs)",
+    "Paskal (Pa)"
+   ],
+   "e": "Yoritilganlik — lyuksda, chastota — gersda o'lchanadi."
+  },
+  {
+   "b": "Ishlab chiqarish sanitariyasi",
+   "q": "Ish joyining yoritilganligi qanday asbob bilan o'lchanadi?",
+   "a": [
+    "Lyuksmetr",
+    "Shovqinmetr",
+    "Psixrometr",
+    "Anemometr"
+   ],
+   "e": "Psixrometr — namlikni, anemometr — havo tezligini o'lchaydi."
+  },
+  {
+   "b": "Ishlab chiqarish sanitariyasi",
+   "q": "Ish zonasi havosining mikroiqlimini qaysi parametrlar belgilaydi?",
+   "a": [
+    "Harorat, nisbiy namlik, havo harakati tezligi va issiqlik nurlanishi",
+    "Faqat harorat",
+    "Shovqin va tebranish",
+    "Yoritilganlik va rang"
+   ],
+   "e": "Mikroiqlim parametrlari sanitariya me'yorlari bilan cheklanadi."
+  },
+  {
+   "b": "Ishlab chiqarish sanitariyasi",
+   "q": "Zararli moddalarning ish zonasidagi yo'l qo'yiladigan eng yuqori miqdori qanday qisqartma bilan belgilanadi?",
+   "a": [
+    "REK (ruxsat etilgan eng yuqori konsentratsiya)",
+    "KPD",
+    "GOST",
+    "ISO"
+   ],
+   "e": "REK mg/m³ da ifodalanadi."
+  },
+  {
+   "b": "Shaxsiy himoya vositalari",
+   "q": "Shovqindan himoya qiluvchi shaxsiy vosita qaysi?",
+   "a": [
+    "Quloqchinlar va quloq tiqinlari (berushilar)",
+    "Respirator",
+    "Himoya ko'zoynagi",
+    "Dielektrik galosh"
+   ],
+   "e": "Respirator — nafas a'zolarini changdan himoya qiladi."
+  },
+  {
+   "b": "Shaxsiy himoya vositalari",
+   "q": "Payvandlash ishlarida ko'zni nima himoya qiladi?",
+   "a": [
+    "Svetofiltrli himoya niqobi (shit)",
+    "Oddiy quyosh ko'zoynagi",
+    "Respirator",
+    "Kaska"
+   ],
+   "e": "Payvand yoyi kuchli ultrabinafsha nurlanish chiqaradi."
+  },
+  {
+   "b": "Mexanik xavfsizlik",
+   "q": "Stanokning aylanuvchi qismlari bilan jarohatlanishning oldini olishning asosiy chorasi nima?",
+   "a": [
+    "Himoya to'siqlari (ograjdeniyalar) va blokirovka qurilmalari",
+    "Ishni tezroq bajarish",
+    "Qo'lqopda ishlash",
+    "Stanokni bo'yash"
+   ],
+   "e": "Aylanuvchi qismlar yonida qo'lqopda ishlash, aksincha, xavfni oshirishi mumkin."
+  },
+  {
+   "b": "Mexanik xavfsizlik",
+   "q": "Balandlikda ishlashda yiqilishdan himoya qiluvchi asosiy vosita qaysi?",
+   "a": [
+    "Saqlovchi kamar (strahovka) va uni mahkamlash",
+    "Rezina etik",
+    "Respirator",
+    "Fartuk"
+   ],
+   "e": "Saqlovchi kamar mustahkam konstruksiyaga mahkamlanadi."
+  },
+  {
+   "b": "Birinchi tibbiy yordam",
+   "q": "Kuchli arterial qon ketishida birinchi yordam qanday ko'rsatiladi?",
+   "a": [
+    "Yaradan yuqoriroqqa jgut qo'yiladi va qo'yilgan vaqt yozib qo'yiladi",
+    "Yara suv bilan yuviladi",
+    "Jabrlanuvchiga issiq choy beriladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Arterial qon och qizil rangda, fontansimon oqadi."
+  },
+  {
+   "b": "Birinchi tibbiy yordam",
+   "q": "Termik kuyishda birinchi yordam qanday?",
+   "a": [
+    "Kuygan joyni sovuq suv bilan sovitish va steril bog'lam qo'yish",
+    "Yog' surtish",
+    "Pufakchalarni yorish",
+    "Spirt bilan artish"
+   ],
+   "e": "Pufakchalarni yorish infeksiyaga yo'l ochadi."
+  },
+  {
+   "b": "Birinchi tibbiy yordam",
+   "q": "Suyak sinishida birinchi yordamning asosiy talabi nima?",
+   "a": [
+    "Shikastlangan qo'l-oyoqni shina bilan harakatsizlantirish",
+    "Suyakni joyiga solishga urinish",
+    "Jabrlanuvchini yurgizish",
+    "Shikastlangan joyni uqalash"
+   ],
+   "e": "Shina sinish joyidan yuqori va pastdagi bo'g'imlarni qamrashi kerak."
+  },
+  {
+   "b": "Huquqiy asoslar",
+   "q": "O'zbekiston Respublikasida mehnat muhofazasi masalalari asosan qaysi hujjatlar bilan tartibga solinadi?",
+   "a": [
+    "Mehnat kodeksi va \"Mehnatni muhofaza qilish to'g'risida\"gi Qonun",
+    "Soliq kodeksi",
+    "Oila kodeksi",
+    "Yer kodeksi"
+   ],
+   "e": "Ular asosida tarmoq qoidalari va yo'riqnomalar ishlab chiqiladi."
+  }
  ]
 }

@@ -124,6 +124,18 @@ input{font:inherit}
 .upload{display:flex;align-items:center;gap:10px;border:1.5px dashed var(--line);border-radius:14px;padding:14px;margin-bottom:10px;cursor:pointer;color:var(--muted);font-size:13.5px}
 .upload.has{border-color:var(--green);color:var(--white)}
 .lock{font-size:12px;color:var(--orange);font-weight:800}
+.choice{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:14px;margin-bottom:9px}
+.choice.on{border-color:var(--green);background:rgba(34,245,115,.06)}
+.choice b{display:block;font-size:14.5px}.choice small{color:var(--muted);font-size:12.5px;display:block;margin-top:3px}
+.note{border-left:3px solid var(--blue);background:rgba(84,152,255,.08);padding:10px 12px;border-radius:0 12px 12px 0;color:#C9D8F5;font-size:12.5px;margin:0 0 12px}
+.steps-top{display:flex;gap:6px;margin:0 0 14px}.steps-top i{flex:1;height:4px;border-radius:4px;background:var(--line)}.steps-top i.on{background:var(--green)}
+.scale{position:relative;height:12px;border-radius:12px;background:#0E1230;border:1px solid var(--line);margin:22px 0 26px}
+.scale .fill{position:absolute;left:0;top:0;bottom:0;border-radius:12px}
+.scale .tick{position:absolute;top:-18px;transform:translateX(-50%);font-size:10.5px;color:var(--muted);white-space:nowrap}
+.scale .tick::after{content:"";position:absolute;left:50%;top:16px;width:2px;height:16px;background:var(--white);opacity:.5}
+.scale .you{position:absolute;top:16px;transform:translateX(-50%);font-size:11px;font-weight:800;white-space:nowrap}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13px;margin-bottom:12px}.kv span{color:var(--muted)}
+input[type=range]{width:100%;accent-color:var(--green)}
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:10;padding:8px 16px calc(10px + var(--safe-b));background:linear-gradient(180deg,rgba(15,18,38,0),rgba(15,18,38,.96) 30%)}
 .nav .in{max-width:520px;margin:0 auto;display:flex;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:6px}
 .nav button{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:7px 0;border-radius:14px;font-size:11px;font-weight:700;color:var(--muted)}
@@ -134,6 +146,10 @@ input{font:inherit}
 .toast.show{transform:translate(-50%,0)}
 .fade{animation:fade .25s ease}
 @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (min-width:900px){ .app{max-width:760px;padding-top:28px} .nav .in{max-width:760px} .kpis{gap:14px} .plans{gap:14px} }
+.login{max-width:420px;margin:8vh auto 0;text-align:center}
+.login h1{font-size:30px;margin:14px 0 8px}
+.login .w{display:flex;justify-content:center;min-height:48px;margin:22px 0 10px}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -147,14 +163,21 @@ input{font:inherit}
 <div class="toast" id="toast"></div>
 <script>
 "use strict";
-const tg = window.Telegram && Telegram.WebApp;
+const tg0 = window.Telegram && Telegram.WebApp;
+const tg = tg0 && tg0.initData ? tg0 : null;   // Telegram ichida ochilganmi
+const store = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k,v){ try { v===null ? localStorage.removeItem(k) : localStorage.setItem(k,v); } catch(e){} } };
 if (tg) { tg.ready(); tg.expand(); try { tg.setHeaderColor("#141832"); tg.setBackgroundColor("#0F1226"); } catch (e) {} }
 const $app = document.getElementById("app");
 const LETTERS = "ABCD";
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmt = n => Number(n||0).toLocaleString("ru-RU").replace(/ /g," ");
 const pc = (a,b) => b ? Math.round(100*a/b) : 0;
-const PASS = () => S.me?.pass_percent || 60;
+// O'tish foizi nizom (44-band) bo'yicha: toifani saqlash uchun kerakli jami ball − 1-bosqich bali, 80 ga nisbatan
+const PASS = () => { const p=S.me?.profil, nz=S.me?.nizom;
+  if (p && p.toifa && nz) { const ch=nz.toifalar[p.toifa].chegaralar, need=ch[ch.length-2].ball, b1=p.bosqich1??15;
+    return Math.max(0, Math.min(100, Math.ceil(100*(need-b1)/nz.bosqich2_max))); }
+  return S.me?.pass_percent || 60; };
+const PASS_NOTE = () => { const p=S.me?.profil; return p && p.toifa ? `toifangiz uchun ${PASS()}%` : `o'tish bali ${PASS()}%`; };
 const cls = p => p >= PASS() ? "" : (p >= 40 ? "mid" : "low");
 const haptic = t => { try { t==="ok"||t==="err" ? tg.HapticFeedback.notificationOccurred(t==="ok"?"success":"error") : tg.HapticFeedback.impactOccurred("light"); } catch(e){} };
 function toast(m){ const t=document.getElementById("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2800); }
@@ -163,31 +186,131 @@ const mmss = s => `${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).pa
 class PayErr extends Error {}
 async function api(path, body, form){
   const headers = {}; if (!form) headers["Content-Type"]="application/json";
-  if (tg && tg.initData) headers.Authorization = "tma " + tg.initData;
+  if (tg) headers.Authorization = "tma " + tg.initData;
+  else if (store.get("web_token")) headers.Authorization = "web " + store.get("web_token");
   const r = await fetch(path, {method: body||form ? "POST" : "GET", headers, body: form || (body ? JSON.stringify(body) : undefined)});
   if (!r.ok) { let t = await r.text(); try { const j = JSON.parse(t); t = j.message || j.text || t; } catch(e){}
-    if (r.status===402) throw new PayErr(t); throw new Error(t || ("Xato " + r.status)); }
+    if (r.status===402) throw new PayErr(t);
+    if (r.status===401 && !tg) { store.set("web_token", null); setTimeout(renderLogin, 0); }
+    throw new Error(t || ("Xato " + r.status)); }
   return r.json();
 }
 const S = { tab:"home", me:null, catalog:null, bank:[], bankSel:null, path:[], fanlar:null, filter:"", soni:10, rejim:"mashq",
-            quiz:null, qi:0, answered:null, picks:{}, result:null, loading:false, plan:"3oy", chek:null, timerH:null };
+            quiz:null, qi:0, answered:null, picks:{}, result:null, loading:false, plan:"3oy", chek:null, timerH:null, wiz:null };
 
 function setTab(t){ S.tab=t; document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("on", b.dataset.tab===t)); render(); window.scrollTo(0,0); }
 document.querySelectorAll(".nav button").forEach(b=>b.onclick=()=>{ haptic(); if (S.quiz && !S.result) { if(!confirm("Testni yakunlaysizmi? Javob berilgan savollar hisoblanadi.")) return; finishQuiz(); } setTab(b.dataset.tab); });
 function backBtn(show, fn){ if (!tg) return; tg.BackButton.offClick(backBtn._fn||(()=>{})); if (show) { backBtn._fn=fn; tg.BackButton.onClick(fn); tg.BackButton.show(); } else tg.BackButton.hide(); }
 function render(){
-  document.getElementById("nav").classList.toggle("hidden", !!(S.quiz && !S.result));
+  const wiz = S.wiz || (S.me && !S.me.profil && S.catalog);
+  document.getElementById("nav").classList.toggle("hidden", !!(S.quiz && !S.result) || !!wiz);
+  if (wiz) { if (!S.wiz) S.wiz = {step:1, path:[]}; return renderWizard(); }
   if (S.tab==="home") return renderHome();
   if (S.tab==="premium") return renderPremium();
   return renderTest();
 }
 function topbar(){
-  const u = tg && tg.initDataUnsafe && tg.initDataUnsafe.user;
-  const name = u ? [u.first_name,u.last_name].filter(Boolean).join(" ") : (S.me?.name || "Mehmon");
+  const u = tg ? tg.initDataUnsafe && tg.initDataUnsafe.user : {first_name: store.get("web_name")||"", photo_url: store.get("web_photo")||""};
+  const name = (u && u.first_name) ? [u.first_name,u.last_name].filter(Boolean).join(" ") : (S.me?.name || "Mehmon");
   const st = !S.me ? "" : S.me.premium ? `<span class="pill g">💎 ${esc(S.me.premium_until)} gacha</span>` : `<span class="pill">Bepul: ${S.me.free_left}/${S.me.free_questions}</span>`;
   return `<div class="topbar">${avatar(name, u && u.photo_url)}<div class="who"><b>${esc(name)}</b><small>Attestatsiyaga tayyorlov</small></div>${st}</div>`;
 }
 function daysLeft(){ const d = new Date((S.me?.imtihon_sanasi||"2026-12-04")+"T09:00:00+05:00"); return Math.ceil((d - new Date())/864e5); }
+
+/* ================= NIZOM BO'YICHA SOZLASH ================= */
+const NZ = () => S.me.nizom;
+function wizBack(){ const W=S.wiz; if (W.step===2 && W.path.length) { W.path.pop(); W.fanlar=null; } else if (W.step>1) W.step--; else if (S.me.profil) S.wiz=null; render(); }
+async function wizSave(){
+  const W=S.wiz;
+  try { await api("/api/profile",{lavozim:W.lavozim, toifa:W.toifa, sid:W.sid, fan_nomi:W.fan_nomi, mutax:W.mutax, bosqich1:W.bosqich1}); }
+  catch(e){ return toast(e.message); }
+  haptic("ok"); S.wiz=null; await loadMe(); setTab("home");
+}
+function renderWizard(){
+  const W=S.wiz, L=NZ().lavozimlar, T=NZ().toifalar;
+  backBtn(W.step>1 || !!S.me.profil, wizBack);
+  const head = (t,sub) => `<div class="steps-top">${[1,2,3].map(i=>`<i class="${i<=W.step?'on':''}"></i>`).join("")}</div>
+    <div class="crumbs">${(W.step>1||S.me.profil)?`<button class="back" id="wback"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg></button>`:""}<div class="ct"><small>${esc(sub)}</small><b>${esc(t)}</b></div></div>`;
+  let html="";
+  if (W.step===1) {
+    const opt=(id,d)=>`<button class="choice ${W.lavozim===id?'on':''}" data-lav="${id}"><span style="font-size:22px">${{umumtalim:"📘",maxsus:"🛠",usta:"👷"}[id]}</span><span><b>${esc(L[id])}</b><small>${d}</small></span></button>`;
+    html = head("Lavozimingiz", "1-qadam · Nizom bo'yicha sozlash")
+      + `<p class="note">VMning 572-son qarori bilan tasdiqlangan Nizom asosida: kim qaysi fandan va qanday tartibda attestatsiyadan o'tishi lavozimga bog'liq.</p>`
+      + opt("umumtalim","Matematika, ona tili va adabiyot, fizika, kimyo va boshqa umumta'lim fanlari. O'z fani bo'yicha attestatsiyadan o'tadi.")
+      + opt("maxsus","Mutaxassislik fanlari. Nizomga ko'ra o'quv yuklamasi eng ko'p bo'lgan bitta fan bo'yicha o'tadi, natija fan sohasidagi boshqa fanlarga ham tegishli.")
+      + opt("usta","Nizomning 5-bandiga ko'ra (2026-yil 9-oktabrdagi 552-son qaror tahriri) attestatsiyaga jalb etilmaydi.");
+  } else if (W.step===2) {
+    const B = S.bank;
+    const subjBtn = b => `<button class="item" data-wsid="${esc(b.id)}"><div class="t"><b>${esc(b.nomi)}</b><small>${esc([b.kod, b.soni+" ta tayyor savol"].filter(Boolean).join(" · "))}</small></div><span class="chev">›</span></button>`;
+    if (W.lavozim==="umumtalim") {
+      html = head("Qaysi fandan dars berasiz?", "2-qadam · Attestatsiya fani") + `<div class="list">` + B.filter(b=>b.turi==="umumtalim").map(subjBtn).join("") + `</div>`
+        + `<p class="sub" style="margin-top:12px">Faningiz ro'yxatda bo'lmasa, uni hozircha shu yerdan tanlab bo'lmaydi. Tez orada qo'shiladi.</p>`;
+    } else if (W.lavozim==="usta" && !W.ustaMashq) {
+      html = head("Ishlab chiqarish ta'limi ustasi", "2-qadam")
+        + `<div class="card"><h3>Attestatsiyaga jalb etilmaysiz</h3><p class="sub" style="margin:0">Nizomning 5-bandiga ko'ra (VMning 2026-yil 9-oktabrdagi 552-son qarori tahriri) barcha pedagog kadrlar attestatsiyaga jalb etiladi, <b style="color:var(--white)">kasbiy ta'lim tashkilotlarining ishlab chiqarish ta'limi ustalari bundan mustasno</b>.</p></div>
+        <button class="btn" id="ustaYes">Baribir mutaxassislik fanlari bo'yicha mashq qilaman</button>`;
+    } else {
+      const C=S.catalog, [bi,yi,mi]=W.path;
+      const hint = `<p class="note">Nizom (18-band): bir nechta umumkasbiy va maxsus fandan dars bersangiz, <b>o'quv yuklamasi eng ko'p bo'lgan fanni</b> tanlang. Yuklama teng bo'lsa — o'zingiz tanlagan fan.</p>`;
+      if (bi===undefined) html = head("Qaysi mutaxassislikda dars berasiz?", "2-qadam · bilim sohasi") + hint + `<div class="list">` + C.sohalar.map((s,i)=>`<button class="item" data-wi="${i}"><div class="t"><b>${esc(s.n)}</b></div><span class="chev">›</span></button>`).join("") + `</div>`
+        + `<div class="grp">Yoki fanni to'g'ridan-to'g'ri tanlang</div><div class="list">` + B.filter(b=>b.turi==="maxsus").map(subjBtn).join("") + `</div>`;
+      else if (yi===undefined) html = head("Yo'nalish", C.sohalar[bi].n) + `<div class="list">` + C.sohalar[bi].y.map((y,i)=>`<button class="item" data-wi="${i}"><div class="t"><b>${esc(y.n)}</b><small>${esc(y.k)}</small></div><span class="chev">›</span></button>`).join("") + `</div>`;
+      else if (mi===undefined) html = head("Mutaxassislik", C.sohalar[bi].y[yi].n) + `<div class="list">` + C.sohalar[bi].y[yi].m.map((m,i)=>`<button class="item" data-wi="${i}"><div class="t"><b>${esc(m.n)}</b><small>${esc(m.k)}</small></div><span class="chev">›</span></button>`).join("") + `</div>`;
+      else {
+        const m=C.sohalar[bi].y[yi].m[mi];
+        if (!W.fanlar) { api(`/api/fanlar?b=${bi}&y=${yi}&m=${mi}`).then(r=>{ W.fanlar=r.fanlar; render(); }).catch(e=>{ toast(e.message); W.fanlar=[]; render(); }); html = head("Fanlar", m.n) + `<div class="loader"><div class="ring"></div></div>`; }
+        else {
+          const groups={}; W.fanlar.forEach((f,i)=>{ if (/umumta|tabiiy|gumanitar/i.test(f.blok||"")) return; (groups[f.blok||"Fanlar"]=groups[f.blok||"Fanlar"]||[]).push([f,i]); });
+          html = head("Eng ko'p dars beradigan faningiz", `${m.k} · ${m.n}`) + hint
+            + (Object.keys(groups).length ? Object.entries(groups).map(([g,arr])=>`<div class="grp">${esc(g)}</div><div class="list">` + arr.map(([f,i])=>`<button class="item" data-wf="${i}"><div class="t"><b>${esc(f.nomi)}</b><small>${esc([f.kod, f.soat&&f.soat+" soat"].filter(Boolean).join(" · "))}</small></div>${f.bank?'<span class="tag g">savollar bor</span>':'<span class="tag p">savollar yo\'q</span>'}</button>`).join("") + `</div>`).join("")
+               : `<div class="empty">Bu mutaxassislik uchun saytda o'quv dasturi hali joylanmagan. Ortga qaytib, fanni to'g'ridan-to'g'ri tanlang.</div>`);
+        }
+      }
+    }
+  } else {
+    const opt=(id)=>`<button class="choice ${W.toifa===id?'on':''}" data-toifa="${id}"><span><b>${esc(T[id].nomi)}</b><small>${T[id].chegaralar.filter(c=>c.ball>0).map(c=>`${c.ball}+ ball — ${esc(c.natija)}`).join(" · ")}</small></span></button>`;
+    html = head("Joriy malaka toifangiz", "3-qadam · natija talablari")
+      + `<p class="note">Nizomning 44-bandi: ikkala bosqich natijasi (jami 100 ball) toifaga qarab baholanadi. 1-bosqich — pedagogik mahorat va psixologik tayyorgarlik (pedagogik kengash, 20 ball), 2-bosqich — fan bo'yicha 40 ta test (80 ball).</p>`
+      + Object.keys(T).map(opt).join("")
+      + `<div class="card" style="margin-top:6px"><h3>1-bosqichda kutilayotgan ballingiz: <span id="b1v">${W.bosqich1??15}</span> / 20</h3>
+         <input type="range" min="0" max="20" step="1" value="${W.bosqich1??15}" id="b1"><p class="sub" style="margin:6px 0 0">Pedagogik kengash baholaydi. Taxminiy ball — prognozni hisoblash uchun.</p></div>
+         <button class="btn" id="wsave" ${W.toifa?"":"disabled"}>Saqlash</button>`;
+  }
+  $app.innerHTML = `<div class="fade">${html}</div>`;
+  const wb=document.getElementById("wback"); if (wb) wb.onclick=wizBack;
+  $app.querySelectorAll("[data-lav]").forEach(b=>b.onclick=()=>{ haptic(); W.lavozim=b.dataset.lav; W.sid=null; W.fan_nomi=""; W.mutax=""; W.path=[]; W.fanlar=null; W.ustaMashq=false; W.step=2; render(); });
+  const uy=document.getElementById("ustaYes"); if (uy) uy.onclick=()=>{ W.ustaMashq=true; render(); };
+  $app.querySelectorAll("[data-wi]").forEach(b=>b.onclick=()=>{ haptic(); W.path.push(+b.dataset.wi); W.fanlar=null; render(); window.scrollTo(0,0); });
+  $app.querySelectorAll("[data-wsid]").forEach(b=>b.onclick=()=>{ haptic(); const x=S.bank.find(z=>z.id===b.dataset.wsid); W.sid=x.id; W.fan_nomi=x.nomi; W.mutax=""; W.step=3; render(); window.scrollTo(0,0); });
+  $app.querySelectorAll("[data-wf]").forEach(b=>b.onclick=()=>{ haptic(); const f=W.fanlar[+b.dataset.wf], [bi,yi,mi]=W.path, m=S.catalog.sohalar[bi].y[yi].m[mi];
+    W.sid=f.bank||null; W.fan_nomi=f.nomi; W.mutax=`${m.k} ${m.n}`; W.step=3; render(); window.scrollTo(0,0); });
+  $app.querySelectorAll("[data-toifa]").forEach(b=>b.onclick=()=>{ haptic(); W.toifa=b.dataset.toifa; render(); });
+  const r=document.getElementById("b1"); if (r) r.oninput=()=>{ W.bosqich1=+r.value; document.getElementById("b1v").textContent=r.value; };
+  const sv=document.getElementById("wsave"); if (sv) sv.onclick=()=>{ if (W.bosqich1==null) W.bosqich1=15; wizSave(); };
+}
+function editProfile(){ const p=S.me.profil||{}; S.wiz={step:1, path:[], lavozim:p.lavozim, toifa:p.toifa, sid:p.sid, fan_nomi:p.fan_nomi, mutax:p.mutax, bosqich1:p.bosqich1}; render(); window.scrollTo(0,0); }
+
+function attestCard(){
+  const p=S.me.profil; if (!p) return "";
+  const L=NZ().lavozimlar, T=NZ().toifalar, st = p.sid ? subjStat(p.sid) : null;
+  const acc = st && st.jami>=5 ? st.togri/st.jami : null;
+  const b2 = acc!==null ? Math.round(acc*80) : null, b1 = p.bosqich1 ?? null, jami = (b2!==null && b1!==null) ? b1+b2 : null;
+  let verdict = "", scale = "";
+  if (p.toifa) {
+    const ch = T[p.toifa].chegaralar;
+    if (jami!==null) { const r = ch.find(c=>jami>=c.ball); verdict = r ? r.natija : ""; }
+    const col = jami===null ? "var(--line)" : (jami>=ch[ch.length-2].ball ? "var(--green)" : "var(--pink)");
+    scale = `<div class="scale"><div class="fill" style="width:${jami??0}%;background:${col}"></div>${ch.filter(c=>c.ball>0).map(c=>`<span class="tick" style="left:${c.ball}%">${c.ball}</span>`).join("")}${jami!==null?`<span class="you" style="left:${Math.min(96,Math.max(4,jami))}%;color:${col}">siz: ${jami}</span>`:""}</div>`;
+  }
+  const usta = p.lavozim==="usta" ? `<p class="note" style="margin-top:4px">Ishlab chiqarish ta'limi ustalari Nizomning 5-bandiga ko'ra attestatsiyaga jalb etilmaydi. Bu yerdagi natijalar — mashq uchun.</p>` : "";
+  return `<div class="card"><div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h3>Mening attestatsiyam</h3><button class="btn sm ghost" id="editP">O'zgartirish</button></div>
+    <div class="kv"><span>Lavozim</span><b>${esc(L[p.lavozim]||"")}</b><span>Fan</span><b>${esc(p.fan_nomi||"—")}</b>${p.mutax?`<span>Mutaxassislik</span><b>${esc(p.mutax)}</b>`:""}${p.toifa?`<span>Toifa</span><b>${esc(T[p.toifa].nomi)}</b>`:""}</div>${usta}
+    ${p.sid ? `<div class="kpis" style="margin-bottom:4px"><div class="kpi"><b>${b1??"—"}<small style="font-size:12px;color:var(--muted)">/20</small></b><span>1-bosqich (kengash)</span></div>
+      <div class="kpi"><b>${b2??"—"}<small style="font-size:12px;color:var(--muted)">/80</small></b><span>2-bosqich prognozi</span></div><div class="kpi"><b>${jami??"—"}</b><span>jami / 100</span></div></div>
+      ${scale}${jami!==null?`<p class="sub" style="margin:0 0 12px">Prognoz: <b style="color:var(--white)">${esc(verdict)}</b>. 2-bosqich bali shu fandagi to'g'ri javoblaringiz ulushidan hisoblandi (${st.jami} ta javob).</p>`:`<p class="sub">Prognoz uchun shu fandan kamida 5 ta savolga javob bering.</p>`}
+      <button class="btn" id="goFan">Attestatsiya fanidan test</button>`
+    : `<p class="note">"${esc(p.fan_nomi||"")}" fani bo'yicha tayyor savollar hali yo'q. Nizomga ko'ra natija fan sohasidagi boshqa fanlarga ham tegishli bo'lgani uchun "Test" bo'limidagi mutaxassislik fanlaridan tayyorlanishingiz mumkin.</p>`}</div>`;
+}
 
 /* ================= TAHLIL ================= */
 function renderHome(){
@@ -196,7 +319,7 @@ function renderHome(){
   if (!me) { $app.innerHTML = topbar() + `<div class="loader"><div class="ring"></div></div>`; return; }
   const A = me.tahlil, P = PASS(), acc = pc(A.togri, A.jami), dl = daysLeft();
   const C = 2*Math.PI*42, off = C*(1-acc/100), col = acc>=P ? "var(--green)" : acc>=40 ? "var(--orange)" : "var(--pink)";
-  const verdict = !A.jami ? "Hali javoblar yo'q. Birinchi testni boshlang." : acc>=P ? `O'tish balidan (${P}%) yuqori. Natijani barqaror saqlang va sinov imtihonida tekshiring.` : `O'tish bali — ${P}%. Quyidagi zaif mavzularni takrorlang.`;
+  const verdict = !A.jami ? "Hali javoblar yo'q. Birinchi testni boshlang." : acc>=P ? `Kerakli darajadan (${P}%) yuqori. Natijani barqaror saqlang va sinov imtihonida tekshiring.` : `Kerakli daraja — ${P}%${S.me.profil&&S.me.profil.toifa?" (toifangizni saqlash uchun)":""}. Quyidagi zaif mavzularni takrorlang.`;
   const subj = A.fanlar.length ? A.fanlar.slice().sort((a,b)=>pc(a.togri,a.jami)-pc(b.togri,b.jami)).map(f=>{
       const p = pc(f.togri,f.jami), cov = f.bazada ? pc(f.korilgan,f.bazada) : 0;
       return `<div class="subj"><div class="h"><div>${esc(f.nomi)}</div><span>${p}%</span></div>
@@ -208,20 +331,23 @@ function renderHome(){
   const weakHtml = weak.length ? weak.map(b=>`<div class="weak"><span class="pc">${pc(b.togri,b.jami)}%</span><div><b>${esc(b.bolim)}</b><br><span style="color:var(--muted);font-size:12px">${esc(b.fan)} · ${b.togri}/${b.jami} to'g'ri</span></div></div>`).join("")
     : `<div class="empty" style="padding:8px">${A.jami ? "Zaif mavzu aniqlanmadi. Bo'limda kamida 2 ta javob bo'lganda tahlil qilinadi." : "Javoblaringiz asosida zaif mavzular aniqlanadi."}</div>`;
   const trend = A.trend.length ? `<div class="trend">${A.trend.map(t=>`<div class="${t.foiz>=P?'ok':'no'}" style="height:${Math.max(4,t.foiz)}%" title="${esc(t.fan)} ${t.foiz}%"></div>`).join("")}</div>
-      <p class="sub" style="margin:8px 0 0">Oxirgi ${A.trend.length} ta test · yashil — o'tish balidan yuqori</p>` : `<div class="empty" style="padding:8px">Testlar topshirilgach natijalar dinamikasi ko'rinadi.</div>`;
+      <p class="sub" style="margin:8px 0 0">Oxirgi ${A.trend.length} ta test · yashil — kerakli darajadan (${P}%) yuqori</p>` : `<div class="empty" style="padding:8px">Testlar topshirilgach natijalar dinamikasi ko'rinadi.</div>`;
   $app.innerHTML = `<div class="fade">${topbar()}
     <div class="kpis"><div class="kpi"><b>${dl>0?dl:"—"}</b><span>${dl>0?"kun qoldi":"attestatsiya"}</span></div>
       <div class="kpi"><b>${fmt(A.jami)}</b><span>javob berildi</span></div><div class="kpi"><b>${A.trend.length}</b><span>test</span></div></div>
+    ${attestCard()}
     <div class="card"><div class="ready"><svg viewBox="0 0 104 104"><circle cx="52" cy="52" r="42" stroke="#232955" stroke-width="10" fill="none"/>
       <circle cx="52" cy="52" r="42" stroke="${col}" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${off}" transform="rotate(-90 52 52)"/>
       <text x="52" y="58" text-anchor="middle" fill="#F7F8F9" font-family="Fraunces,serif" font-weight="800" font-size="22">${A.jami?acc+"%":"—"}</text></svg>
-      <div><div class="v">Tayyorlik darajasi</div><p class="sub" style="margin:4px 0 0">${esc(verdict)}</p></div></div></div>
+      <div><div class="v">Umumiy aniqlik</div><p class="sub" style="margin:4px 0 0">${esc(verdict)}</p></div></div></div>
     ${!me.premium ? `<div class="card" style="border-color:rgba(255,140,76,.45)"><h3>Bepul sinov: ${me.free_left} ta savol qoldi</h3><p class="sub">To'liq tayyorgarlik uchun premium: cheksiz testlar, 40 savollik sinov imtihoni va xatolar ustida ishlash.</p><button class="btn" data-go="premium">Premium olish</button></div>` : ""}
-    <div class="card"><h3>Fanlar bo'yicha natija</h3><p class="sub">Oq chiziq — o'tish bali (${P}%)</p>${subj}</div>
+    <div class="card"><h3>Fanlar bo'yicha natija</h3><p class="sub">Oq chiziq — kerakli daraja (${PASS_NOTE()})</p>${subj}</div>
     <div class="card"><h3>Zaif mavzular</h3><p class="sub">Shu bo'limlarni birinchi navbatda takrorlang</p>${weakHtml}</div>
     <div class="card"><h3>Natijalar dinamikasi</h3>${trend}</div>
     <button class="btn" data-go="test">Testni boshlash</button></div>`;
   $app.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{ haptic(); setTab(b.dataset.go); });
+  const ep=document.getElementById("editP"); if (ep) ep.onclick=()=>{ haptic(); editProfile(); };
+  const gf=document.getElementById("goFan"); if (gf) gf.onclick=()=>{ haptic(); S.bankSel=me.profil.sid; S.rejim="mashq"; setTab("test"); };
   $app.querySelectorAll("[data-mist]").forEach(b=>b.onclick=()=>{ haptic(); if (!S.me.premium) { toast("Bu rejim premium foydalanuvchilar uchun"); return setTab("premium"); } S.bankSel=b.dataset.mist; S.rejim="xatolar"; setTab("test"); });
 }
 
@@ -265,9 +391,14 @@ function renderTest(){
       + (B.bolimlar.length ? `<div class="grp">Qamrab olingan bo'limlar</div><p class="sub">${B.bolimlar.map(esc).join(" · ")}</p>` : "")
       + `<p class="sub" style="font-size:11.5px">Manba: ${esc(B.manba)}</p>`;
   } else if (bi === undefined) {
-    html = crumbs("Fanni tanlang", "Attestatsiya fani yoki mutaxassislik orqali")
-      + `<div class="grp">Attestatsiya fanlari</div><div class="list" style="margin-bottom:6px">` + S.bank.map(b=>{ const st=subjStat(b.id);
-        return `<button class="item" data-bank="${esc(b.id)}"><div class="t"><b>${esc(b.nomi)}</b><small>${esc([b.kod, b.soni+" ta savol"].filter(Boolean).join(" · "))}</small></div>${st?`<span class="tag ${pc(st.togri,st.jami)>=PASS()?'g':'p'}">${pc(st.togri,st.jami)}%</span>`:""}<span class="chev">›</span></button>`; }).join("") + `</div>`
+    const p = S.me.profil, mine = p && p.sid && S.bank.find(b=>b.id===p.sid);
+    const item = b => { const st=subjStat(b.id); return `<button class="item" data-bank="${esc(b.id)}"><div class="t"><b>${esc(b.nomi)}</b><small>${esc([b.kod, b.soni+" ta savol"].filter(Boolean).join(" · "))}</small></div>${st?`<span class="tag ${pc(st.togri,st.jami)>=PASS()?'g':'p'}">${pc(st.togri,st.jami)}%</span>`:""}<span class="chev">›</span></button>`; };
+    const grp = (t, turi, note) => { const arr = S.bank.filter(b=>b.turi===turi && b.id!==(mine&&mine.id)); return arr.length ? `<div class="grp">${t}</div>${note?`<p class="sub">${note}</p>`:""}<div class="list" style="margin-bottom:6px">${arr.map(item).join("")}</div>` : ""; };
+    html = crumbs("Fanni tanlang", "Nizom bo'yicha")
+      + (mine ? `<div class="grp">Sizning attestatsiya faningiz</div><div class="list" style="margin-bottom:6px">${item(mine)}</div>` : (p ? "" : `<button class="btn ghost" id="setP" style="margin-bottom:12px">Nizom bo'yicha sozlash</button>`))
+      + grp("Umumkasbiy va maxsus fanlar", "maxsus", p&&p.lavozim==="maxsus"?"Nizomga ko'ra natija fan sohasidagi boshqa fanlarga ham tegishli — yaqin fanlardan ham mashq qiling.":"")
+      + grp("Umumta'lim fanlari", "umumtalim")
+      + grp("1-bosqichga tayyorgarlik", "bosqich1", "1-bosqichni pedagogik (kuzatuv) kengashi 20 ballik tizimda baholaydi. Bu savollar — o'z-o'zini tekshirish uchun.")
       + `<div class="grp">Mutaxassislik bo'yicha</div><div class="list">` + C.sohalar.map((s,i)=>`<button class="item" data-i="${i}"><div class="t"><b>${esc(s.n)}</b><small>${s.y.length} yo'nalish</small></div><span class="chev">›</span></button>`).join("") + `</div>`;
   } else if (yi === undefined) {
     const s = C.sohalar[bi];
@@ -288,6 +419,7 @@ function renderTest(){
   $app.innerHTML = `<div class="fade">${html}</div>`;
   bindBack(); bindSearch();
   $app.querySelectorAll(".item[data-i]").forEach(el=>el.onclick=()=>{ haptic(); S.path.push(+el.dataset.i); S.filter=""; render(); window.scrollTo(0,0); });
+  const sp=document.getElementById("setP"); if (sp) sp.onclick=()=>{ haptic(); editProfile(); };
   $app.querySelectorAll("[data-bank],[data-bk]").forEach(el=>el.onclick=()=>{ haptic(); S.bankSel=el.dataset.bank||el.dataset.bk; S.rejim="mashq"; S.filter=""; render(); window.scrollTo(0,0); });
   $app.querySelectorAll("[data-n]:not([disabled])").forEach(el=>el.onclick=()=>{ haptic(); S.soni=+el.dataset.n; render(); });
   $app.querySelectorAll("[data-mode]").forEach(el=>el.onclick=()=>{ haptic(); const id=el.dataset.mode; if (id!=="mashq" && !S.me?.premium) { toast("Bu rejim premium foydalanuvchilar uchun"); return setTab("premium"); } S.rejim=id; render(); });
@@ -352,7 +484,8 @@ async function finishQuiz(){
 }
 function renderResult(){
   backBtn(false);
-  const R=S.result, P=PASS(), C=2*Math.PI*70, col=R.passed?"var(--green)":"var(--pink)", hasBall = R.ball!==null && R.ball!==undefined;
+  const R=S.result, P=PASS(); R.passed = R.foiz >= P;
+  const C=2*Math.PI*70, col=R.passed?"var(--green)":"var(--pink)", hasBall = R.ball!==null && R.ball!==undefined;
   const bol = R.bolimlar.map(b=>{ const p=pc(b.togri,b.jami); return `<div class="subj"><div class="h"><div>${esc(b.bolim)}</div><span>${b.togri}/${b.jami}</span></div><div class="bar"><i class="${cls(p)}" style="width:${p}%"></i><span class="mark" style="left:${P}%"></span></div></div>`; }).join("");
   const weak = R.bolimlar.filter(b=>pc(b.togri,b.jami)<P).map(b=>b.bolim);
   const wrong = R.xatolar.length ? `<div class="grp">Xatolar tahlili (${R.xatolar.length})</div><div class="list">` + R.xatolar.map(w=>`<div class="card" style="margin:0">${w.bolim?`<span class="tag b">${esc(w.bolim)}</span>`:""}<b style="display:block;font-size:14px;margin-top:6px">${esc(w.savol)}</b>
@@ -365,7 +498,7 @@ function renderResult(){
       <text x="85" y="92" text-anchor="middle" fill="#F7F8F9" font-family="Fraunces,serif" font-weight="800" font-size="34">${R.foiz}%</text>
       <text x="85" y="114" text-anchor="middle" fill="#9AA1C9" font-family="Manrope" font-size="12">${R.togri} / ${R.jami} to'g'ri</text></svg></div>
     <div class="kpis"><div class="kpi"><b>${hasBall?R.ball+"/"+R.jami*2:R.togri}</b><span>${hasBall?"ball":"to'g'ri javob"}</span></div>
-      <div class="kpi"><b style="color:${col}">${R.passed?"O'tdi":"O'tmadi"}</b><span>o'tish bali ${P}%</span></div><div class="kpi"><b>${mmss(R.vaqt)}</b><span>sarflangan vaqt</span></div></div>
+      <div class="kpi"><b style="color:${col}">${R.passed?"O'tdi":"O'tmadi"}</b><span>${esc(PASS_NOTE())}</span></div><div class="kpi"><b>${mmss(R.vaqt)}</b><span>sarflangan vaqt</span></div></div>
     ${weak.length?`<div class="card"><h3>Tavsiya</h3><p class="sub" style="margin:0">Takrorlang: <b style="color:var(--white)">${weak.map(esc).join(", ")}</b>.${S.me?.premium?" So'ng \"Xatolar ustida ishlash\" rejimida xatolaringizni qayta yeching.":""}</p></div>`:""}
     ${bol?`<div class="card"><h3>Bo'limlar bo'yicha</h3>${bol}</div>`:""}
     ${R.free_left===0 && !R.premium ? `<div class="card" style="border-color:rgba(255,140,76,.45)"><h3>Bepul savollar tugadi</h3><p class="sub">Tayyorgarlikni davom ettirish uchun premium oling.</p><button class="btn" id="toPrem">Premium olish</button></div>` : ""}
@@ -406,8 +539,10 @@ function renderPremium(){
     <div class="card"><p class="sub">Admin yuborgan kodni kiriting (masalan: ABCD-EFGH-JKLM)</p>
       <input class="inp" id="code" placeholder="XXXX-XXXX-XXXX" autocomplete="off" style="text-transform:uppercase;letter-spacing:.08em">
       <button class="btn" id="redeem">Faollashtirish</button></div>
-    ${me.admin?`<p class="sub" style="text-align:center">Savollar bo'yicha: ${esc(me.admin)}</p>`:""}</div>`;
+    ${me.admin?`<p class="sub" style="text-align:center">Savollar bo'yicha: ${esc(me.admin)}</p>`:""}
+    ${!tg?`<button class="btn ghost" id="logout" style="margin-top:8px">Chiqish</button>`:""}</div>`;
   $app.querySelectorAll("[data-plan]").forEach(b=>b.onclick=()=>{ haptic(); S.plan=b.dataset.plan; renderPremium(); });
+  const lo=document.getElementById("logout"); if (lo) lo.onclick=()=>{ store.set("web_token",null); store.set("web_name",null); store.set("web_photo",null); location.reload(); };
   document.getElementById("copy").onclick=async()=>{ try { await navigator.clipboard.writeText(me.karta); toast("Karta raqami nusxalandi"); } catch(e){ toast(me.karta); } };
   const f=document.getElementById("chek"); if (f) f.onchange=()=>{ S.chek=f.files[0]||null; renderPremium(); };
   const sd=document.getElementById("send"); if (sd) sd.onclick=async()=>{ sd.disabled=true; sd.textContent="Yuborilmoqda…";
@@ -419,10 +554,38 @@ function renderPremium(){
 }
 
 async function loadMe(){ S.me = await api("/api/me"); }
+
+/* ================= BRAUZER: Telegram orqali kirish ================= */
+async function renderLogin(){
+  document.getElementById("nav").classList.add("hidden");
+  let bu = ""; try { bu = (await (await fetch("/api/public")).json()).bot_username; } catch(e){}
+  $app.innerHTML = `<div class="login fade"><div class="ava" style="width:64px;height:64px;margin:0 auto;font-size:26px">🎓</div>
+    <h1>Attestatsiyaga tayyorlov</h1>
+    <p class="sub">Texnikum o'qituvchilari uchun: nizom bo'yicha fanlar, 2026-yilgi o'quv dasturlari asosidagi testlar va tahlil. Hisob, premium va natijalar Telegram bot bilan bir xil.</p>
+    <div class="w" id="tgw"></div>
+    <p class="sub" style="font-size:12px">Kirish Telegram'ning rasmiy oynasi orqali bo'ladi. Parolingiz so'ralmaydi.</p>
+    ${bu?`<p class="sub">Telegram'da: <a href="https://t.me/${esc(bu)}" style="color:var(--green)">@${esc(bu)}</a></p>`:""}</div>`;
+  if (!bu) return;
+  const sc = document.createElement("script");
+  sc.async = true; sc.src = "https://telegram.org/js/telegram-widget.js?22";
+  sc.setAttribute("data-telegram-login", bu); sc.setAttribute("data-size", "large"); sc.setAttribute("data-radius", "12");
+  sc.setAttribute("data-onauth", "onTgAuth(user)"); sc.setAttribute("data-request-access", "write");
+  document.getElementById("tgw").appendChild(sc);
+}
+window.onTgAuth = async function(user){
+  try {
+    const r = await fetch("/api/weblogin", {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(user)});
+    if (!r.ok) throw new Error(await r.text());
+    const d = await r.json(); store.set("web_token", d.token); store.set("web_name", d.name); store.set("web_photo", d.photo||"");
+    location.reload();
+  } catch(e){ toast(e.message || "Kirib bo'lmadi"); }
+};
+
 (async function init(){
+  if (!tg && !store.get("web_token")) return renderLogin();
   render();
   try { await Promise.all([loadMe(), api("/api/catalog").then(c=>S.catalog=c), api("/api/bank").then(b=>S.bank=b.fanlar)]); }
-  catch(e){ $app.innerHTML = `<div class="loader"><b>Ulanib bo'lmadi</b><p>${esc(e.message)}<br>Ilovani Telegram bot orqali oching.</p></div>`; return; }
+  catch(e){ if (!tg && !store.get("web_token")) return; $app.innerHTML = `<div class="loader"><b>Ulanib bo'lmadi</b><p>${esc(e.message)}</p></div>`; return; }
   render();
 })();
 </script>

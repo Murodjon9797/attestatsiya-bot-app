@@ -1,37 +1,338 @@
 {
  "kod": "5PM0181",
  "nomi": "Chizma geometriya va muhandislik grafikasi",
+ "turi": "maxsus",
  "manba": "O'rta maxsus va professional ta'lim tashkilotlari pedagog kadrlarini attestatsiyadan o'tkazish uchun Chizma geometriya va muhandislik grafikasi fanidan malaka test sinovi topshiriqlari spetsifikatsiyasi (api-portal.gov.uz, 2025)",
  "savollar": [
-  {"b": "Metrik va pozitsion masalalar", "q": "Chizma geometriyada asosiy proyeksiyalash usuli qaysi?", "a": ["Ortogonal (to'g'ri burchakli) proyeksiyalash", "Markaziy proyeksiyalash", "Perspektiv tasvirlash", "Erkin chizish"], "e": "Texnik chizmalar Monj usulida — ortogonal proyeksiyalarda bajariladi."},
-  {"b": "Metrik va pozitsion masalalar", "q": "Frontal proyeksiyalar tekisligi qanday belgilanadi?", "a": ["V (π₂)", "H (π₁)", "W (π₃)", "P"], "e": "H — gorizontal, V — frontal, W — profil tekisligi."},
-  {"b": "Metrik va pozitsion masalalar", "q": "Nuqtaning gorizontal va frontal proyeksiyalarini tutashtiruvchi chiziq nima deb ataladi?", "a": ["Bog'lovchi chiziq", "Proyeksiyalar o'qi", "Izlar chizig'i", "Gorizontal"], "e": "Bog'lovchi chiziq proyeksiyalar o'qiga perpendikulyar bo'ladi."},
-  {"b": "Metrik va pozitsion masalalar", "q": "H tekislikka perpendikulyar to'g'ri chiziq qanday ataladi?", "a": ["Gorizontal proyeksiyalovchi to'g'ri chiziq", "Gorizontal", "Frontal", "Profil to'g'ri chiziq"], "e": "Uning gorizontal proyeksiyasi nuqtaga aylanadi."},
-  {"b": "Metrik va pozitsion masalalar", "q": "Frontal proyeksiyalar tekisligiga parallel to'g'ri chiziq nima deb ataladi?", "a": ["Frontal", "Gorizontal", "Frontal proyeksiyalovchi chiziq", "Umumiy vaziyatdagi chiziq"], "e": "Frontal V tekislikka haqiqiy kattalikda proyeksiyalanadi."},
-  {"b": "Metrik va pozitsion masalalar", "q": "Umumiy vaziyatdagi kesmaning haqiqiy uzunligini topishning klassik usuli qaysi?", "a": ["To'g'ri burchakli uchburchak usuli", "Kesim usuli", "Yoyilma usuli", "Aksonometriya usuli"], "e": "Katetlardan biri kesma proyeksiyasi, ikkinchisi uchlarining koordinatalar farqi."},
-  {"b": "Metrik va pozitsion masalalar", "q": "Ikki to'g'ri chiziq parallel bo'lsa, ularning bir nomli proyeksiyalari qanday bo'ladi?", "a": ["O'zaro parallel", "Kesishadi", "Perpendikulyar", "Har doim ustma-ust tushadi"], "e": "Parallellik ortogonal proyeksiyalashda saqlanadi."},
-  {"b": "Metrik va pozitsion masalalar", "q": "Tekislikning proyeksiyalar tekisligi bilan kesishish chizig'i nima deb ataladi?", "a": ["Tekislik izi", "Gorizontal", "Bog'lovchi chiziq", "Yasovchi"], "e": "Masalan, gorizontal iz — tekislikning H bilan kesishish chizig'i."},
-  {"b": "Metrik va pozitsion masalalar", "q": "To'g'ri chiziq bilan tekislikning kesishish nuqtasini topishda qaysi usul qo'llaniladi?", "a": ["Yordamchi kesuvchi tekislik usuli", "Aylantirish usuli", "Yoyish usuli", "Perspektiva usuli"], "e": "To'g'ri chiziq orqali yordamchi proyeksiyalovchi tekislik o'tkaziladi."},
-  {"b": "Metrik va pozitsion masalalar", "q": "To'g'ri burchakning bir tomoni proyeksiyalar tekisligiga parallel bo'lsa, u shu tekislikka qanday proyeksiyalanadi?", "a": ["To'g'ri burchak bo'lib", "O'tkir burchak bo'lib", "O'tmas burchak bo'lib", "Nuqta bo'lib"], "e": "To'g'ri burchak proyeksiyasi haqidagi teorema."},
-  {"b": "Metrik va pozitsion masalalar", "q": "Tekislikda yotuvchi gorizontal chiziqning frontal proyeksiyasi qanday joylashadi?", "a": ["Proyeksiyalar o'qiga parallel", "O'qqa perpendikulyar", "O'qqa 45° burchak ostida", "Nuqtaga aylanadi"], "e": "Gorizontalning barcha nuqtalari bir xil balandlikda bo'ladi."},
-  {"b": "Epyurni qayta qurish usullari", "q": "Proyeksiyalar tekisliklarini almashtirish usulining maqsadi nima?", "a": ["Obyektni xususiy vaziyatga keltirib, masalani soddalashtirish", "Chizma masshtabini kattalashtirish", "Aksonometrik tasvir hosil qilish", "Kesim bajarish"], "e": "Yangi tekislik shunday tanlanadiki, obyekt unga parallel yoki perpendikulyar bo'ladi."},
-  {"b": "Epyurni qayta qurish usullari", "q": "Aylantirish usulida nuqta qaysi chiziq atrofida aylantiriladi?", "a": ["Proyeksiyalovchi o'q atrofida", "Ixtiyoriy egri chiziq atrofida", "Tekislik izi atrofida faqat", "Bog'lovchi chiziq atrofida"], "e": "Aylanish o'qi proyeksiyalar tekisliklaridan biriga perpendikulyar olinadi."},
-  {"b": "Epyurni qayta qurish usullari", "q": "Umumiy vaziyatdagi kesmani proyeksiyalovchi vaziyatga keltirish uchun tekisliklarni necha marta almashtirish kerak?", "a": ["2 marta", "1 marta", "3 marta", "4 marta"], "e": "Avval kesmaga parallel, so'ng unga perpendikulyar tekislik kiritiladi."},
-  {"b": "Epyurni qayta qurish usullari", "q": "Umumiy vaziyatdagi tekislik shaklining haqiqiy kattaligini aniqlash uchun nima qilinadi?", "a": ["Tekislikni proyeksiyalar tekisligiga parallel vaziyatga keltiriladi", "Shakl perspektivada chiziladi", "Shakl masshtabi o'zgartiriladi", "Faqat profil proyeksiyasi chiziladi"], "e": "Parallel holatda shakl buzilmasdan proyeksiyalanadi."},
-  {"b": "Epyurni qayta qurish usullari", "q": "Tekisliklarni almashtirish usulida yangi proyeksiyalar tekisligi eski tekisliklardan biriga nisbatan qanday joylashishi kerak?", "a": ["Perpendikulyar", "Parallel", "45° burchak ostida", "Ixtiyoriy"], "e": "Ortogonal proyeksiyalar tizimi saqlanishi shart."},
-  {"b": "Epyurni qayta qurish usullari", "q": "Ikki ayqash to'g'ri chiziq orasidagi eng qisqa masofani topish uchun chiziqlardan birini qanday vaziyatga keltirish kerak?", "a": ["Proyeksiyalovchi vaziyatga", "Umumiy vaziyatga", "Profil vaziyatga", "Gorizontal tekislikda yotadigan qilib"], "e": "Shunda masofa proyeksiyada haqiqiy kattalikda ko'rinadi."},
-  {"b": "Sirtlar", "q": "Silindrik sirt qanday hosil bo'ladi?", "a": ["To'g'ri chiziqning yo'naltiruvchi egri chiziq bo'ylab parallel harakati bilan", "To'g'ri chiziqning bitta nuqta atrofida aylanishi bilan", "Aylananing diametri atrofida aylanishi bilan", "Egri chiziqning o'z tekisligida siljishi bilan"], "e": "Silindrik sirt yasovchilari o'zaro parallel."},
-  {"b": "Sirtlar", "q": "Sferaning tekislik bilan kesimi har doim qanday shakl bo'ladi?", "a": ["Aylana", "Ellips", "Parabola", "Giperbola"], "e": "Kesim proyeksiyada ellips ko'rinishi mumkin, lekin haqiqiy shakli aylana."},
-  {"b": "Sirtlar", "q": "Konusni uning o'qiga perpendikulyar tekislik bilan kesganda qanday chiziq hosil bo'ladi?", "a": ["Aylana", "Ellips", "Parabola", "Giperbola"], "e": "O'qqa perpendikulyar kesim — aylana."},
-  {"b": "Sirtlar", "q": "Konusni bitta yasovchisiga parallel tekislik bilan kesganda qanday egri chiziq hosil bo'ladi?", "a": ["Parabola", "Ellips", "Aylana", "Giperbola"], "e": "Konus kesimlari klassifikatsiyasi."},
-  {"b": "Sirtlar", "q": "Ikki sirtning kesishish chizig'ini yasashda keng qo'llaniladigan usul qaysi?", "a": ["Yordamchi kesuvchi tekisliklar (yoki sferalar) usuli", "Yoyilma usuli", "Masshtab usuli", "Shtrixlash usuli"], "e": "Yordamchi sirt har ikkala sirtni oddiy chiziqlar bo'yicha kesadi."},
-  {"b": "Sirtlar", "q": "Sirt yoyilmasi deganda nima tushuniladi?", "a": ["Sirtning tekislikka uzilishsiz va burmasiz yoyib qo'yilgan tasviri", "Sirtning aksonometrik tasviri", "Sirtning kesimi", "Sirtning frontal proyeksiyasi"], "e": "Ko'pyoqlar, silindr va konus sirtlari aniq yoyiladi."},
-  {"b": "Sirtlar", "q": "Qaysi sirt aniq yoyilmaydigan sirtlarga kiradi?", "a": ["Sfera", "Silindr", "Konus", "Prizma"], "e": "Sferaning yoyilmasi faqat taqribiy usullar bilan quriladi."},
-  {"b": "Muhandislik grafikasi", "q": "Chizmalarda ko'rinadigan kontur chiziqlari qaysi chiziq turida chiziladi?", "a": ["Asosiy yo'g'on tutash chiziq", "Ingichka tutash chiziq", "Shtrix chiziq", "Shtrix-punktir chiziq"], "e": "Ko'rinmas kontur — shtrix, o'q chiziqlari — shtrix-punktir chiziq."},
-  {"b": "Muhandislik grafikasi", "q": "Simmetriya o'qi va markaz chiziqlari qaysi chiziq turida chiziladi?", "a": ["Ingichka shtrix-punktir chiziq", "Asosiy yo'g'on chiziq", "Shtrix chiziq", "To'lqinsimon chiziq"], "e": "Davlat standarti bo'yicha o'q chiziqlari shtrix-punktirda chiziladi."},
-  {"b": "Muhandislik grafikasi", "q": "Kattalashtirish masshtabi qaysi?", "a": ["2:1", "1:2", "1:1", "1:5"], "e": "2:1 — tasvir haqiqiy o'lchamdan ikki marta katta."},
-  {"b": "Muhandislik grafikasi", "q": "A4 formatining o'lchamlari qancha?", "a": ["210 × 297 mm", "297 × 420 mm", "148 × 210 mm", "420 × 594 mm"], "e": "A3 — 297×420 mm, A5 — 148×210 mm."},
-  {"b": "Muhandislik grafikasi", "q": "Qirqimning kesimdan farqi nimada?", "a": ["Qirqimda kesuvchi tekislik ortidagi qism ham tasvirlanadi", "Qirqim faqat aksonometriyada bajariladi", "Kesimda shtrixlash qilinmaydi", "Ular orasida farq yo'q"], "e": "Kesimda faqat kesuvchi tekislikda yotgan shakl ko'rsatiladi."},
-  {"b": "Muhandislik grafikasi", "q": "To'g'ri burchakli izometriyada o'qlar orasidagi burchaklar qancha?", "a": ["120°", "90°", "135°", "97° va 131°"], "e": "Izometriyada x, y, z o'qlari o'zaro 120° hosil qiladi."}
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "Chizma geometriyada asosiy proyeksiyalash usuli qaysi?",
+   "a": [
+    "Ortogonal (to'g'ri burchakli) proyeksiyalash",
+    "Markaziy proyeksiyalash",
+    "Perspektiv tasvirlash",
+    "Erkin chizish"
+   ],
+   "e": "Texnik chizmalar Monj usulida — ortogonal proyeksiyalarda bajariladi."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "Frontal proyeksiyalar tekisligi qanday belgilanadi?",
+   "a": [
+    "V (π₂)",
+    "H (π₁)",
+    "W (π₃)",
+    "P"
+   ],
+   "e": "H — gorizontal, V — frontal, W — profil tekisligi."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "Nuqtaning gorizontal va frontal proyeksiyalarini tutashtiruvchi chiziq nima deb ataladi?",
+   "a": [
+    "Bog'lovchi chiziq",
+    "Proyeksiyalar o'qi",
+    "Izlar chizig'i",
+    "Gorizontal"
+   ],
+   "e": "Bog'lovchi chiziq proyeksiyalar o'qiga perpendikulyar bo'ladi."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "H tekislikka perpendikulyar to'g'ri chiziq qanday ataladi?",
+   "a": [
+    "Gorizontal proyeksiyalovchi to'g'ri chiziq",
+    "Gorizontal",
+    "Frontal",
+    "Profil to'g'ri chiziq"
+   ],
+   "e": "Uning gorizontal proyeksiyasi nuqtaga aylanadi."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "Frontal proyeksiyalar tekisligiga parallel to'g'ri chiziq nima deb ataladi?",
+   "a": [
+    "Frontal",
+    "Gorizontal",
+    "Frontal proyeksiyalovchi chiziq",
+    "Umumiy vaziyatdagi chiziq"
+   ],
+   "e": "Frontal V tekislikka haqiqiy kattalikda proyeksiyalanadi."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "Umumiy vaziyatdagi kesmaning haqiqiy uzunligini topishning klassik usuli qaysi?",
+   "a": [
+    "To'g'ri burchakli uchburchak usuli",
+    "Kesim usuli",
+    "Yoyilma usuli",
+    "Aksonometriya usuli"
+   ],
+   "e": "Katetlardan biri kesma proyeksiyasi, ikkinchisi uchlarining koordinatalar farqi."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "Ikki to'g'ri chiziq parallel bo'lsa, ularning bir nomli proyeksiyalari qanday bo'ladi?",
+   "a": [
+    "O'zaro parallel",
+    "Kesishadi",
+    "Perpendikulyar",
+    "Har doim ustma-ust tushadi"
+   ],
+   "e": "Parallellik ortogonal proyeksiyalashda saqlanadi."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "Tekislikning proyeksiyalar tekisligi bilan kesishish chizig'i nima deb ataladi?",
+   "a": [
+    "Tekislik izi",
+    "Gorizontal",
+    "Bog'lovchi chiziq",
+    "Yasovchi"
+   ],
+   "e": "Masalan, gorizontal iz — tekislikning H bilan kesishish chizig'i."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "To'g'ri chiziq bilan tekislikning kesishish nuqtasini topishda qaysi usul qo'llaniladi?",
+   "a": [
+    "Yordamchi kesuvchi tekislik usuli",
+    "Aylantirish usuli",
+    "Yoyish usuli",
+    "Perspektiva usuli"
+   ],
+   "e": "To'g'ri chiziq orqali yordamchi proyeksiyalovchi tekislik o'tkaziladi."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "To'g'ri burchakning bir tomoni proyeksiyalar tekisligiga parallel bo'lsa, u shu tekislikka qanday proyeksiyalanadi?",
+   "a": [
+    "To'g'ri burchak bo'lib",
+    "O'tkir burchak bo'lib",
+    "O'tmas burchak bo'lib",
+    "Nuqta bo'lib"
+   ],
+   "e": "To'g'ri burchak proyeksiyasi haqidagi teorema."
+  },
+  {
+   "b": "Metrik va pozitsion masalalar",
+   "q": "Tekislikda yotuvchi gorizontal chiziqning frontal proyeksiyasi qanday joylashadi?",
+   "a": [
+    "Proyeksiyalar o'qiga parallel",
+    "O'qqa perpendikulyar",
+    "O'qqa 45° burchak ostida",
+    "Nuqtaga aylanadi"
+   ],
+   "e": "Gorizontalning barcha nuqtalari bir xil balandlikda bo'ladi."
+  },
+  {
+   "b": "Epyurni qayta qurish usullari",
+   "q": "Proyeksiyalar tekisliklarini almashtirish usulining maqsadi nima?",
+   "a": [
+    "Obyektni xususiy vaziyatga keltirib, masalani soddalashtirish",
+    "Chizma masshtabini kattalashtirish",
+    "Aksonometrik tasvir hosil qilish",
+    "Kesim bajarish"
+   ],
+   "e": "Yangi tekislik shunday tanlanadiki, obyekt unga parallel yoki perpendikulyar bo'ladi."
+  },
+  {
+   "b": "Epyurni qayta qurish usullari",
+   "q": "Aylantirish usulida nuqta qaysi chiziq atrofida aylantiriladi?",
+   "a": [
+    "Proyeksiyalovchi o'q atrofida",
+    "Ixtiyoriy egri chiziq atrofida",
+    "Tekislik izi atrofida faqat",
+    "Bog'lovchi chiziq atrofida"
+   ],
+   "e": "Aylanish o'qi proyeksiyalar tekisliklaridan biriga perpendikulyar olinadi."
+  },
+  {
+   "b": "Epyurni qayta qurish usullari",
+   "q": "Umumiy vaziyatdagi kesmani proyeksiyalovchi vaziyatga keltirish uchun tekisliklarni necha marta almashtirish kerak?",
+   "a": [
+    "2 marta",
+    "1 marta",
+    "3 marta",
+    "4 marta"
+   ],
+   "e": "Avval kesmaga parallel, so'ng unga perpendikulyar tekislik kiritiladi."
+  },
+  {
+   "b": "Epyurni qayta qurish usullari",
+   "q": "Umumiy vaziyatdagi tekislik shaklining haqiqiy kattaligini aniqlash uchun nima qilinadi?",
+   "a": [
+    "Tekislikni proyeksiyalar tekisligiga parallel vaziyatga keltiriladi",
+    "Shakl perspektivada chiziladi",
+    "Shakl masshtabi o'zgartiriladi",
+    "Faqat profil proyeksiyasi chiziladi"
+   ],
+   "e": "Parallel holatda shakl buzilmasdan proyeksiyalanadi."
+  },
+  {
+   "b": "Epyurni qayta qurish usullari",
+   "q": "Tekisliklarni almashtirish usulida yangi proyeksiyalar tekisligi eski tekisliklardan biriga nisbatan qanday joylashishi kerak?",
+   "a": [
+    "Perpendikulyar",
+    "Parallel",
+    "45° burchak ostida",
+    "Ixtiyoriy"
+   ],
+   "e": "Ortogonal proyeksiyalar tizimi saqlanishi shart."
+  },
+  {
+   "b": "Epyurni qayta qurish usullari",
+   "q": "Ikki ayqash to'g'ri chiziq orasidagi eng qisqa masofani topish uchun chiziqlardan birini qanday vaziyatga keltirish kerak?",
+   "a": [
+    "Proyeksiyalovchi vaziyatga",
+    "Umumiy vaziyatga",
+    "Profil vaziyatga",
+    "Gorizontal tekislikda yotadigan qilib"
+   ],
+   "e": "Shunda masofa proyeksiyada haqiqiy kattalikda ko'rinadi."
+  },
+  {
+   "b": "Sirtlar",
+   "q": "Silindrik sirt qanday hosil bo'ladi?",
+   "a": [
+    "To'g'ri chiziqning yo'naltiruvchi egri chiziq bo'ylab parallel harakati bilan",
+    "To'g'ri chiziqning bitta nuqta atrofida aylanishi bilan",
+    "Aylananing diametri atrofida aylanishi bilan",
+    "Egri chiziqning o'z tekisligida siljishi bilan"
+   ],
+   "e": "Silindrik sirt yasovchilari o'zaro parallel."
+  },
+  {
+   "b": "Sirtlar",
+   "q": "Sferaning tekislik bilan kesimi har doim qanday shakl bo'ladi?",
+   "a": [
+    "Aylana",
+    "Ellips",
+    "Parabola",
+    "Giperbola"
+   ],
+   "e": "Kesim proyeksiyada ellips ko'rinishi mumkin, lekin haqiqiy shakli aylana."
+  },
+  {
+   "b": "Sirtlar",
+   "q": "Konusni uning o'qiga perpendikulyar tekislik bilan kesganda qanday chiziq hosil bo'ladi?",
+   "a": [
+    "Aylana",
+    "Ellips",
+    "Parabola",
+    "Giperbola"
+   ],
+   "e": "O'qqa perpendikulyar kesim — aylana."
+  },
+  {
+   "b": "Sirtlar",
+   "q": "Konusni bitta yasovchisiga parallel tekislik bilan kesganda qanday egri chiziq hosil bo'ladi?",
+   "a": [
+    "Parabola",
+    "Ellips",
+    "Aylana",
+    "Giperbola"
+   ],
+   "e": "Konus kesimlari klassifikatsiyasi."
+  },
+  {
+   "b": "Sirtlar",
+   "q": "Ikki sirtning kesishish chizig'ini yasashda keng qo'llaniladigan usul qaysi?",
+   "a": [
+    "Yordamchi kesuvchi tekisliklar (yoki sferalar) usuli",
+    "Yoyilma usuli",
+    "Masshtab usuli",
+    "Shtrixlash usuli"
+   ],
+   "e": "Yordamchi sirt har ikkala sirtni oddiy chiziqlar bo'yicha kesadi."
+  },
+  {
+   "b": "Sirtlar",
+   "q": "Sirt yoyilmasi deganda nima tushuniladi?",
+   "a": [
+    "Sirtning tekislikka uzilishsiz va burmasiz yoyib qo'yilgan tasviri",
+    "Sirtning aksonometrik tasviri",
+    "Sirtning kesimi",
+    "Sirtning frontal proyeksiyasi"
+   ],
+   "e": "Ko'pyoqlar, silindr va konus sirtlari aniq yoyiladi."
+  },
+  {
+   "b": "Sirtlar",
+   "q": "Qaysi sirt aniq yoyilmaydigan sirtlarga kiradi?",
+   "a": [
+    "Sfera",
+    "Silindr",
+    "Konus",
+    "Prizma"
+   ],
+   "e": "Sferaning yoyilmasi faqat taqribiy usullar bilan quriladi."
+  },
+  {
+   "b": "Muhandislik grafikasi",
+   "q": "Chizmalarda ko'rinadigan kontur chiziqlari qaysi chiziq turida chiziladi?",
+   "a": [
+    "Asosiy yo'g'on tutash chiziq",
+    "Ingichka tutash chiziq",
+    "Shtrix chiziq",
+    "Shtrix-punktir chiziq"
+   ],
+   "e": "Ko'rinmas kontur — shtrix, o'q chiziqlari — shtrix-punktir chiziq."
+  },
+  {
+   "b": "Muhandislik grafikasi",
+   "q": "Simmetriya o'qi va markaz chiziqlari qaysi chiziq turida chiziladi?",
+   "a": [
+    "Ingichka shtrix-punktir chiziq",
+    "Asosiy yo'g'on chiziq",
+    "Shtrix chiziq",
+    "To'lqinsimon chiziq"
+   ],
+   "e": "Davlat standarti bo'yicha o'q chiziqlari shtrix-punktirda chiziladi."
+  },
+  {
+   "b": "Muhandislik grafikasi",
+   "q": "Kattalashtirish masshtabi qaysi?",
+   "a": [
+    "2:1",
+    "1:2",
+    "1:1",
+    "1:5"
+   ],
+   "e": "2:1 — tasvir haqiqiy o'lchamdan ikki marta katta."
+  },
+  {
+   "b": "Muhandislik grafikasi",
+   "q": "A4 formatining o'lchamlari qancha?",
+   "a": [
+    "210 × 297 mm",
+    "297 × 420 mm",
+    "148 × 210 mm",
+    "420 × 594 mm"
+   ],
+   "e": "A3 — 297×420 mm, A5 — 148×210 mm."
+  },
+  {
+   "b": "Muhandislik grafikasi",
+   "q": "Qirqimning kesimdan farqi nimada?",
+   "a": [
+    "Qirqimda kesuvchi tekislik ortidagi qism ham tasvirlanadi",
+    "Qirqim faqat aksonometriyada bajariladi",
+    "Kesimda shtrixlash qilinmaydi",
+    "Ular orasida farq yo'q"
+   ],
+   "e": "Kesimda faqat kesuvchi tekislikda yotgan shakl ko'rsatiladi."
+  },
+  {
+   "b": "Muhandislik grafikasi",
+   "q": "To'g'ri burchakli izometriyada o'qlar orasidagi burchaklar qancha?",
+   "a": [
+    "120°",
+    "90°",
+    "135°",
+    "97° va 131°"
+   ],
+   "e": "Izometriyada x, y, z o'qlari o'zaro 120° hosil qiladi."
+  }
  ]
 }

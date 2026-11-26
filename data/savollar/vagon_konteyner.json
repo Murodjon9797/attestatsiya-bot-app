@@ -1,37 +1,338 @@
 {
  "kod": "5PM0990",
  "nomi": "Vagon va konteynerlar tuzilishi",
+ "turi": "maxsus",
  "manba": "O'rta maxsus va professional ta'lim tashkilotlari pedagog kadrlarini attestatsiyadan o'tkazish uchun Vagon va konteynerlar tuzilishi fanidan malaka sinovi topshiriqlari spetsifikatsiyasi (api-portal.gov.uz, 2025)",
  "savollar": [
-  {"b": "Vagonlar haqida umumiy ma'lumotlar", "q": "Vagonlar vazifasiga ko'ra qanday asosiy guruhlarga bo'linadi?", "a": ["Yuk va yo'lovchi vagonlari", "Elektr va dizel vagonlari", "Ikki va to'rt o'qli vagonlar", "Ochiq va yopiq vagonlar"], "e": "Bundan tashqari maxsus vazifali vagonlar ham bor."},
-  {"b": "Vagonlar haqida umumiy ma'lumotlar", "q": "Vagonning asosiy qismlariga nimalar kiradi?", "a": ["Kuzov, rama, yurish qismlari, urilib-tortish va tormoz uskunalari", "Faqat kuzov va g'ildiraklar", "Dvigatel va transmissiya", "Pantograf va transformator"], "e": "Vagon o'zi harakatlanmaydi — uni lokomotiv tortadi."},
-  {"b": "Vagonlar haqida umumiy ma'lumotlar", "q": "Vagonning yuk ko'tarish qobiliyati nima?", "a": ["Vagonga yuklash mumkin bo'lgan eng katta yuk massasi", "Bo'sh vagon massasi", "Vagon kuzovining hajmi", "Vagonning o'qlar soni"], "e": "Bo'sh vagon massasi — tara deb ataladi."},
-  {"b": "Vagonlar haqida umumiy ma'lumotlar", "q": "Vagon tarasi nima?", "a": ["Bo'sh vagonning massasi", "Yuk massasi", "Yuk va vagon massasi yig'indisi", "O'qqa tushadigan yuk"], "e": "Tara koeffitsiyenti — taraning yuk ko'tarish qobiliyatiga nisbati."},
-  {"b": "Gabaritlar", "q": "Harakatdagi tarkib gabariti nima?", "a": ["Vagon chiqib ketmasligi kerak bo'lgan cheklovchi ko'ndalang kontur", "Vagonning uzunligi", "Rels orasidagi masofa", "Stansiya yo'llari soni"], "e": "Gabarit harakat xavfsizligini, inshootlarga tegmaslikni ta'minlaydi."},
-  {"b": "Gabaritlar", "q": "MDH temir yo'llarida keng tarqalgan rels izi kengligi qancha?", "a": ["1520 mm", "1435 mm", "1067 mm", "1000 mm"], "e": "1435 mm — Yevropa standart izi."},
-  {"b": "G'ildirak juftlari", "q": "G'ildirak jufti qanday qismlardan iborat?", "a": ["O'q va unga mahkam presslangan ikki g'ildirak", "Ikki alohida aylanadigan g'ildirak", "G'ildirak va buksa", "Rama va prujina"], "e": "G'ildiraklar o'qqa issiq yoki sovuq presslash bilan o'rnatiladi."},
-  {"b": "G'ildirak juftlari", "q": "G'ildirak gardishining (rebordasining) vazifasi nima?", "a": ["G'ildirak juftini relsdan chiqib ketishdan saqlash", "Tormozlashni ta'minlash", "Shovqinni kamaytirish", "Yukni taqsimlash"], "e": "Gardish g'ildirak ichki tomonida joylashgan."},
-  {"b": "G'ildirak juftlari", "q": "G'ildirakning relsga tegib turadigan yuzasi qanday shaklda bo'ladi?", "a": ["Konussimon", "Tekis silindrik", "Sharsimon", "Tishli"], "e": "Konuslik g'ildirak juftining yo'l o'qiga nisbatan markazlashishiga yordam beradi."},
-  {"b": "G'ildirak juftlari", "q": "Yuk vagoni g'ildiraklarida qaysi nuqson bo'lsa, vagonni ekspluatatsiya qilish taqiqlanadi?", "a": ["Ruxsat etilganidan chuqur polzun (tekis yeyilish) bo'lsa", "Bo'yog'i ko'chgan bo'lsa", "Raqami xira bo'lsa", "G'ildirak toza bo'lmasa"], "e": "Polzun zarbali yuklama hosil qilib, rels va o'qni shikastlaydi."},
-  {"b": "G'ildirak juftlari", "q": "Kolodkali tormozlashda ishqalanish qayerda yuzaga keladi?", "a": ["Kolodka va g'ildirakning aylanish sirti orasida", "G'ildirak va rels orasida", "Buksa podshipnigida", "Avtoulagichda"], "e": "Kolodkali tormozda ishqalanish g'ildirak yuzasida yuzaga keladi."},
-  {"b": "Buksalar", "q": "Buksaning asosiy vazifasi nima?", "a": ["Vagon og'irligini o'q bo'yniga uzatish va podshipniklarni joylashtirish", "Vagonlarni bir-biriga ulash", "Tormoz kuchini uzatish", "Kuzovni isitish"], "e": "Buksa — o'q bo'yni va rama orasidagi tugun."},
-  {"b": "Buksalar", "q": "Zamonaviy vagon buksalarida asosan qanday podshipniklar ishlatiladi?", "a": ["Rolikli (dumalash) podshipniklari", "Sirpanish podshipniklari", "Magnit podshipniklar", "Havo yostiqli podshipniklar"], "e": "Rolikli buksalar ishonchli va kam ishqalanishli."},
-  {"b": "Buksalar", "q": "Harakatda buksaning haddan tashqari qizib ketishi nimaga olib kelishi mumkin?", "a": ["O'q bo'ynining kesilishiga va halokatga", "Tormozning kuchayishiga", "Vagon tezligining oshishiga", "Hech qanday oqibatga"], "e": "Shu sababli buksalar haroratini nazorat qiluvchi qurilmalar ishlatiladi."},
-  {"b": "Ressorlar va tebranish so'ndirgichlari", "q": "Ressor osmasining vazifasi nima?", "a": ["Zarbalarni yumshatish va tebranishlarni kamaytirish", "Vagonni tormozlash", "Yuklarni mahkamlash", "Vagonlarni ulash"], "e": "Ressor osmasi yo'l notekisliklaridan keladigan dinamik kuchlarni so'ndiradi."},
-  {"b": "Ressorlar va tebranish so'ndirgichlari", "q": "Yuk vagonlari aravachalarida tebranishlarni so'ndirish uchun ko'pincha qanday so'ndirgich ishlatiladi?", "a": ["Ishqalanishli (friksion) so'ndirgich", "Gidravlik so'ndirgich faqat", "Pnevmatik yostiq", "Elektromagnit so'ndirgich"], "e": "Friksion pona so'ndirgichlar yuk aravachalarida keng tarqalgan."},
-  {"b": "Aravachalar", "q": "Yuk vagonining ikki o'qli aravachasi (masalan, 18-100 modeli) asosiy qismlari qaysilar?", "a": ["Ikki yon rama, ressor ustidagi balka, ressor to'plami, g'ildirak juftlari", "Kuzov va kabina", "Dvigatel va reduktor", "Pantograf va kontaktor"], "e": "Aravacha vagon kuzovini yo'l bo'ylab yo'naltiradi."},
-  {"b": "Aravachalar", "q": "Vagon kuzovi aravachaga qaysi qism orqali tayanadi?", "a": ["Podpyatnik (tayanch markaz) va yon tayanchlar orqali", "Buksa orqali", "Avtoulagich orqali", "G'ildirak gardishi orqali"], "e": "Podpyatnik kuzovning aravachaga nisbatan aylanishini ta'minlaydi."},
-  {"b": "Aravachalar", "q": "To'rt o'qli vagonda nechta aravacha bo'ladi?", "a": ["2 ta", "4 ta", "1 ta", "3 ta"], "e": "Har bir aravacha ikki o'qli."},
-  {"b": "Vagonosti generatorlari yuritmalari", "q": "Yo'lovchi vagonida vagonosti generatori qanday harakatga keltiriladi?", "a": ["G'ildirak jufti o'qidan reduktor-kardan yoki tasmali yuritma orqali", "Alohida dizel dvigateli orqali", "Kontakt tarmog'idan", "Akkumulyatordan"], "e": "Generator harakatda yoritish va batareyalarni zaryadlash uchun energiya beradi."},
-  {"b": "Urilib-tortish uskunalari", "q": "Urilib-tortish uskunasining vazifasi nima?", "a": ["Vagonlarni ulash, tortish va zarba kuchlarini uzatish hamda yumshatish", "Tormozlashni boshqarish", "Yukni tushirish", "Vagonni isitish"], "e": "Tarkibiga avtoulagich va yutuvchi apparat kiradi."},
-  {"b": "Urilib-tortish uskunalari", "q": "MDH temir yo'llari vagonlarida qaysi avtoulagich ishlatiladi?", "a": ["SA-3", "Shtift-kryukli ulagich", "Sharfenberg ulagichi", "Vintli ulagich"], "e": "SA-3 avtomatik ulagichi."},
-  {"b": "Urilib-tortish uskunalari", "q": "Yutuvchi apparatning vazifasi nima?", "a": ["Bo'ylama zarba va tortish kuchlari energiyasini yutish", "Tormoz havosini uzatish", "Vagonni yoritish", "Eshiklarni ochish"], "e": "U avtoulagich orqasida, rama ichida joylashadi."},
-  {"b": "Vagon kuzovlari", "q": "Yopiq yuk vagoni qanday yuklarni tashish uchun mo'ljallangan?", "a": ["Atmosfera ta'siridan himoyalanishi kerak bo'lgan yuklar", "Faqat suyuq yuklar", "Faqat uzun o'lchamli yuklar", "Faqat sochiluvchan ruda"], "e": "Masalan: don, sanoat mollari, qadoqlangan yuklar."},
-  {"b": "Yuk vagonlari", "q": "Yarim vagon (polvagon) asosan qanday yuklar uchun ishlatiladi?", "a": ["Ko'mir, ruda, tosh kabi sochiluvchan va namlikdan qo'rqmaydigan yuklar", "Oziq-ovqat mahsulotlari", "Yo'lovchilar", "Suyuq yoqilg'i"], "e": "Ochiq tepali, mustahkam kuzovli vagon."},
-  {"b": "Yuk vagonlari", "q": "Platforma vagoni qanday yuklar uchun mo'ljallangan?", "a": ["Uzun o'lchamli, og'ir va konteyner yuklar", "Sochiluvchan don", "Suyuqliklar", "Tez buziladigan yuklar"], "e": "Platforma bortlari pastki yoki olinadigan bo'ladi."},
-  {"b": "Sisternalar", "q": "Sisterna qanday yuklarni tashish uchun ishlatiladi?", "a": ["Suyuq va gazsimon yuklar", "Sochiluvchan yuklar", "Konteynerlar", "Yog'och"], "e": "Neft mahsulotlari, kislotalar, suyultirilgan gazlar va boshqalar."},
-  {"b": "Izotermik vagonlar", "q": "Izotermik vagonlar qaysi yuklar uchun mo'ljallangan?", "a": ["Tez buziladigan yuklar", "Ko'mir", "Metall prokat", "Qurilish qumi"], "e": "Ular ma'lum haroratni saqlaydi: refrijerator vagonlar shu jumlaga kiradi."},
-  {"b": "Yo'lovchi vagonlar", "q": "Yo'lovchi vagonining asosiy turlariga qaysilar kiradi?", "a": ["Kupe, plaskart, o'tiriladigan va SV vagonlar", "Platforma va sisterna", "Yarim vagon va xopper", "Refrijerator va termos"], "e": "Restoran va pochta-bagaj vagonlari ham yo'lovchi tarkibiga kiradi."},
-  {"b": "Konteynerlar", "q": "20 futlik universal konteynerning taxminiy tashqi uzunligi qancha?", "a": ["≈6,06 m", "≈12,19 m", "≈3 m", "≈9 m"], "e": "40 futlik konteyner ≈12,19 m."}
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonlar vazifasiga ko'ra qanday asosiy guruhlarga bo'linadi?",
+   "a": [
+    "Yuk va yo'lovchi vagonlari",
+    "Elektr va dizel vagonlari",
+    "Ikki va to'rt o'qli vagonlar",
+    "Ochiq va yopiq vagonlar"
+   ],
+   "e": "Bundan tashqari maxsus vazifali vagonlar ham bor."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonning asosiy qismlariga nimalar kiradi?",
+   "a": [
+    "Kuzov, rama, yurish qismlari, urilib-tortish va tormoz uskunalari",
+    "Faqat kuzov va g'ildiraklar",
+    "Dvigatel va transmissiya",
+    "Pantograf va transformator"
+   ],
+   "e": "Vagon o'zi harakatlanmaydi — uni lokomotiv tortadi."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonning yuk ko'tarish qobiliyati nima?",
+   "a": [
+    "Vagonga yuklash mumkin bo'lgan eng katta yuk massasi",
+    "Bo'sh vagon massasi",
+    "Vagon kuzovining hajmi",
+    "Vagonning o'qlar soni"
+   ],
+   "e": "Bo'sh vagon massasi — tara deb ataladi."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagon tarasi nima?",
+   "a": [
+    "Bo'sh vagonning massasi",
+    "Yuk massasi",
+    "Yuk va vagon massasi yig'indisi",
+    "O'qqa tushadigan yuk"
+   ],
+   "e": "Tara koeffitsiyenti — taraning yuk ko'tarish qobiliyatiga nisbati."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Harakatdagi tarkib gabariti nima?",
+   "a": [
+    "Vagon chiqib ketmasligi kerak bo'lgan cheklovchi ko'ndalang kontur",
+    "Vagonning uzunligi",
+    "Rels orasidagi masofa",
+    "Stansiya yo'llari soni"
+   ],
+   "e": "Gabarit harakat xavfsizligini, inshootlarga tegmaslikni ta'minlaydi."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "MDH temir yo'llarida keng tarqalgan rels izi kengligi qancha?",
+   "a": [
+    "1520 mm",
+    "1435 mm",
+    "1067 mm",
+    "1000 mm"
+   ],
+   "e": "1435 mm — Yevropa standart izi."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak jufti qanday qismlardan iborat?",
+   "a": [
+    "O'q va unga mahkam presslangan ikki g'ildirak",
+    "Ikki alohida aylanadigan g'ildirak",
+    "G'ildirak va buksa",
+    "Rama va prujina"
+   ],
+   "e": "G'ildiraklar o'qqa issiq yoki sovuq presslash bilan o'rnatiladi."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak gardishining (rebordasining) vazifasi nima?",
+   "a": [
+    "G'ildirak juftini relsdan chiqib ketishdan saqlash",
+    "Tormozlashni ta'minlash",
+    "Shovqinni kamaytirish",
+    "Yukni taqsimlash"
+   ],
+   "e": "Gardish g'ildirak ichki tomonida joylashgan."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirakning relsga tegib turadigan yuzasi qanday shaklda bo'ladi?",
+   "a": [
+    "Konussimon",
+    "Tekis silindrik",
+    "Sharsimon",
+    "Tishli"
+   ],
+   "e": "Konuslik g'ildirak juftining yo'l o'qiga nisbatan markazlashishiga yordam beradi."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "Yuk vagoni g'ildiraklarida qaysi nuqson bo'lsa, vagonni ekspluatatsiya qilish taqiqlanadi?",
+   "a": [
+    "Ruxsat etilganidan chuqur polzun (tekis yeyilish) bo'lsa",
+    "Bo'yog'i ko'chgan bo'lsa",
+    "Raqami xira bo'lsa",
+    "G'ildirak toza bo'lmasa"
+   ],
+   "e": "Polzun zarbali yuklama hosil qilib, rels va o'qni shikastlaydi."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "Kolodkali tormozlashda ishqalanish qayerda yuzaga keladi?",
+   "a": [
+    "Kolodka va g'ildirakning aylanish sirti orasida",
+    "G'ildirak va rels orasida",
+    "Buksa podshipnigida",
+    "Avtoulagichda"
+   ],
+   "e": "Kolodkali tormozda ishqalanish g'ildirak yuzasida yuzaga keladi."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Buksaning asosiy vazifasi nima?",
+   "a": [
+    "Vagon og'irligini o'q bo'yniga uzatish va podshipniklarni joylashtirish",
+    "Vagonlarni bir-biriga ulash",
+    "Tormoz kuchini uzatish",
+    "Kuzovni isitish"
+   ],
+   "e": "Buksa — o'q bo'yni va rama orasidagi tugun."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Zamonaviy vagon buksalarida asosan qanday podshipniklar ishlatiladi?",
+   "a": [
+    "Rolikli (dumalash) podshipniklari",
+    "Sirpanish podshipniklari",
+    "Magnit podshipniklar",
+    "Havo yostiqli podshipniklar"
+   ],
+   "e": "Rolikli buksalar ishonchli va kam ishqalanishli."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Harakatda buksaning haddan tashqari qizib ketishi nimaga olib kelishi mumkin?",
+   "a": [
+    "O'q bo'ynining kesilishiga va halokatga",
+    "Tormozning kuchayishiga",
+    "Vagon tezligining oshishiga",
+    "Hech qanday oqibatga"
+   ],
+   "e": "Shu sababli buksalar haroratini nazorat qiluvchi qurilmalar ishlatiladi."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Ressor osmasining vazifasi nima?",
+   "a": [
+    "Zarbalarni yumshatish va tebranishlarni kamaytirish",
+    "Vagonni tormozlash",
+    "Yuklarni mahkamlash",
+    "Vagonlarni ulash"
+   ],
+   "e": "Ressor osmasi yo'l notekisliklaridan keladigan dinamik kuchlarni so'ndiradi."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Yuk vagonlari aravachalarida tebranishlarni so'ndirish uchun ko'pincha qanday so'ndirgich ishlatiladi?",
+   "a": [
+    "Ishqalanishli (friksion) so'ndirgich",
+    "Gidravlik so'ndirgich faqat",
+    "Pnevmatik yostiq",
+    "Elektromagnit so'ndirgich"
+   ],
+   "e": "Friksion pona so'ndirgichlar yuk aravachalarida keng tarqalgan."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Yuk vagonining ikki o'qli aravachasi (masalan, 18-100 modeli) asosiy qismlari qaysilar?",
+   "a": [
+    "Ikki yon rama, ressor ustidagi balka, ressor to'plami, g'ildirak juftlari",
+    "Kuzov va kabina",
+    "Dvigatel va reduktor",
+    "Pantograf va kontaktor"
+   ],
+   "e": "Aravacha vagon kuzovini yo'l bo'ylab yo'naltiradi."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Vagon kuzovi aravachaga qaysi qism orqali tayanadi?",
+   "a": [
+    "Podpyatnik (tayanch markaz) va yon tayanchlar orqali",
+    "Buksa orqali",
+    "Avtoulagich orqali",
+    "G'ildirak gardishi orqali"
+   ],
+   "e": "Podpyatnik kuzovning aravachaga nisbatan aylanishini ta'minlaydi."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "To'rt o'qli vagonda nechta aravacha bo'ladi?",
+   "a": [
+    "2 ta",
+    "4 ta",
+    "1 ta",
+    "3 ta"
+   ],
+   "e": "Har bir aravacha ikki o'qli."
+  },
+  {
+   "b": "Vagonosti generatorlari yuritmalari",
+   "q": "Yo'lovchi vagonida vagonosti generatori qanday harakatga keltiriladi?",
+   "a": [
+    "G'ildirak jufti o'qidan reduktor-kardan yoki tasmali yuritma orqali",
+    "Alohida dizel dvigateli orqali",
+    "Kontakt tarmog'idan",
+    "Akkumulyatordan"
+   ],
+   "e": "Generator harakatda yoritish va batareyalarni zaryadlash uchun energiya beradi."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Urilib-tortish uskunasining vazifasi nima?",
+   "a": [
+    "Vagonlarni ulash, tortish va zarba kuchlarini uzatish hamda yumshatish",
+    "Tormozlashni boshqarish",
+    "Yukni tushirish",
+    "Vagonni isitish"
+   ],
+   "e": "Tarkibiga avtoulagich va yutuvchi apparat kiradi."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "MDH temir yo'llari vagonlarida qaysi avtoulagich ishlatiladi?",
+   "a": [
+    "SA-3",
+    "Shtift-kryukli ulagich",
+    "Sharfenberg ulagichi",
+    "Vintli ulagich"
+   ],
+   "e": "SA-3 avtomatik ulagichi."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Yutuvchi apparatning vazifasi nima?",
+   "a": [
+    "Bo'ylama zarba va tortish kuchlari energiyasini yutish",
+    "Tormoz havosini uzatish",
+    "Vagonni yoritish",
+    "Eshiklarni ochish"
+   ],
+   "e": "U avtoulagich orqasida, rama ichida joylashadi."
+  },
+  {
+   "b": "Vagon kuzovlari",
+   "q": "Yopiq yuk vagoni qanday yuklarni tashish uchun mo'ljallangan?",
+   "a": [
+    "Atmosfera ta'siridan himoyalanishi kerak bo'lgan yuklar",
+    "Faqat suyuq yuklar",
+    "Faqat uzun o'lchamli yuklar",
+    "Faqat sochiluvchan ruda"
+   ],
+   "e": "Masalan: don, sanoat mollari, qadoqlangan yuklar."
+  },
+  {
+   "b": "Yuk vagonlari",
+   "q": "Yarim vagon (polvagon) asosan qanday yuklar uchun ishlatiladi?",
+   "a": [
+    "Ko'mir, ruda, tosh kabi sochiluvchan va namlikdan qo'rqmaydigan yuklar",
+    "Oziq-ovqat mahsulotlari",
+    "Yo'lovchilar",
+    "Suyuq yoqilg'i"
+   ],
+   "e": "Ochiq tepali, mustahkam kuzovli vagon."
+  },
+  {
+   "b": "Yuk vagonlari",
+   "q": "Platforma vagoni qanday yuklar uchun mo'ljallangan?",
+   "a": [
+    "Uzun o'lchamli, og'ir va konteyner yuklar",
+    "Sochiluvchan don",
+    "Suyuqliklar",
+    "Tez buziladigan yuklar"
+   ],
+   "e": "Platforma bortlari pastki yoki olinadigan bo'ladi."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Sisterna qanday yuklarni tashish uchun ishlatiladi?",
+   "a": [
+    "Suyuq va gazsimon yuklar",
+    "Sochiluvchan yuklar",
+    "Konteynerlar",
+    "Yog'och"
+   ],
+   "e": "Neft mahsulotlari, kislotalar, suyultirilgan gazlar va boshqalar."
+  },
+  {
+   "b": "Izotermik vagonlar",
+   "q": "Izotermik vagonlar qaysi yuklar uchun mo'ljallangan?",
+   "a": [
+    "Tez buziladigan yuklar",
+    "Ko'mir",
+    "Metall prokat",
+    "Qurilish qumi"
+   ],
+   "e": "Ular ma'lum haroratni saqlaydi: refrijerator vagonlar shu jumlaga kiradi."
+  },
+  {
+   "b": "Yo'lovchi vagonlar",
+   "q": "Yo'lovchi vagonining asosiy turlariga qaysilar kiradi?",
+   "a": [
+    "Kupe, plaskart, o'tiriladigan va SV vagonlar",
+    "Platforma va sisterna",
+    "Yarim vagon va xopper",
+    "Refrijerator va termos"
+   ],
+   "e": "Restoran va pochta-bagaj vagonlari ham yo'lovchi tarkibiga kiradi."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "20 futlik universal konteynerning taxminiy tashqi uzunligi qancha?",
+   "a": [
+    "≈6,06 m",
+    "≈12,19 m",
+    "≈3 m",
+    "≈9 m"
+   ],
+   "e": "40 futlik konteyner ≈12,19 m."
+  }
  ]
 }

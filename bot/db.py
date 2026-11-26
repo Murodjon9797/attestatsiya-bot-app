@@ -52,6 +52,16 @@ CREATE TABLE IF NOT EXISTS codes (
     used_by BIGINT,
     used_at TEXT
 );
+CREATE TABLE IF NOT EXISTS profiles (
+    user_id BIGINT PRIMARY KEY,
+    lavozim TEXT,
+    toifa TEXT,
+    sid TEXT,
+    fan_nomi TEXT,
+    mutax TEXT,
+    bosqich1 INTEGER,
+    updated TEXT
+);
 CREATE TABLE IF NOT EXISTS admins (
     user_id BIGINT PRIMARY KEY,
     added TEXT
@@ -170,6 +180,20 @@ class ResultsDB:
         p = self._one("SELECT COUNT(*) FROM users WHERE premium_until > ?", (now().isoformat(timespec="seconds"),))
         u = self._one("SELECT COUNT(*) FROM users")
         return {"kodlar": r[0] or 0, "ishlatilgan": r[1] or 0, "premium": p[0] or 0, "foydalanuvchilar": u[0] or 0}
+
+    # ---------- nizom bo'yicha profil ----------
+    PROFILE_FIELDS = ("lavozim", "toifa", "sid", "fan_nomi", "mutax", "bosqich1")
+
+    def profile_get(self, user_id: int) -> dict | None:
+        r = self._one("SELECT lavozim, toifa, sid, fan_nomi, mutax, bosqich1 FROM profiles WHERE user_id = ?", (user_id,))
+        return dict(zip(self.PROFILE_FIELDS, r)) if r else None
+
+    def profile_set(self, user_id: int, p: dict) -> None:
+        vals = tuple(p.get(k) for k in self.PROFILE_FIELDS)
+        self._exec("INSERT INTO profiles (user_id, lavozim, toifa, sid, fan_nomi, mutax, bosqich1, updated) "
+                   "VALUES (?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT(user_id) DO UPDATE SET lavozim=excluded.lavozim, "
+                   "toifa=excluded.toifa, sid=excluded.sid, fan_nomi=excluded.fan_nomi, mutax=excluded.mutax, "
+                   "bosqich1=excluded.bosqich1, updated=excluded.updated", (user_id, *vals, ts()))
 
     # ---------- adminlar ----------
     def admin_ids(self) -> list[int]:

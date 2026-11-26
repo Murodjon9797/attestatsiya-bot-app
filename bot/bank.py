@@ -20,6 +20,12 @@ def _key(s: str) -> str:
     return re.sub(r"[^0-9a-zа-яёўқғҳ]+", "", s)
 
 
+def _words(s: str) -> list[str]:
+    s = re.sub(r"\(.*?\)", " ", s.lower())
+    s = re.sub(rf"[{APOS}]", "", s)
+    return [w for w in re.split(r"[^0-9a-zа-яёўқғҳ]+", s) if w and not w.isdigit()]
+
+
 class QuestionBank:
     def __init__(self, folder: str | Path):
         self.subjects: dict[str, dict] = {}
@@ -30,24 +36,38 @@ class QuestionBank:
                 self.subjects[p.stem] = {**d, "id": p.stem, "savollar": qs}
 
     def listing(self) -> list[dict]:
+        order = {"umumtalim": 0, "maxsus": 1, "bosqich1": 2}
         return [{"id": s["id"], "kod": s.get("kod", ""), "nomi": s["nomi"], "soni": len(s["savollar"]),
-                 "umumiy": bool(s.get("umumiy")), "manba": s.get("manba", ""),
+                 "turi": s.get("turi", "maxsus"), "manba": s.get("manba", ""),
                  "bolimlar": list(dict.fromkeys(q.get("b", "") for q in s["savollar"] if q.get("b")))}
-                for s in sorted(self.subjects.values(), key=lambda x: (not x.get("umumiy"), x["nomi"].lower()))]
+                for s in sorted(self.subjects.values(),
+                                key=lambda x: (order.get(x.get("turi", "maxsus"), 1), x["nomi"].lower()))]
 
     def match(self, nomi: str, kod: str = "") -> str | None:
-        """Fan nomi yoki kodi bo'yicha bazadagi mos fanni topadi."""
-        if kod:
-            for s in self.subjects.values():
-                if s.get("kod") and s["kod"] == kod:
-                    return s["id"]
-        k = _key(nomi)
-        if len(k) < 4:
+        """Fan nomi yoki kodi bo'yicha bazadagi mos fanni topadi.
+
+        Nom bo'yicha: fan nomi baza fani nomi bilan boshlanishi kerak ("Kiberxavfsizlik asoslari" →
+        "Kiberxavfsizlik") yoki "Oliy/Umumiy/Amaliy" so'zidan keyin shu nom kelishi kerak
+        ("Oliy matematika" → "Matematika"). "Tizimli dasturlash" kabi o'rtadagi moslik hisoblanmaydi.
+        """
+        fw = _words(nomi)
+        if not fw:
             return None
-        for s in self.subjects.values():
-            sk = _key(s["nomi"])
-            if k == sk or (len(k) >= 6 and (k in sk or sk in k)):
+        subjects = [x for x in self.subjects.values() if x.get("turi") != "bosqich1"]
+        for s in subjects:
+            bw = _words(s["nomi"])
+            if not bw:
+                continue
+            core = fw[1:] if fw[0] in ("oliy", "umumiy", "amaliy") else fw
+            prefix = core[:len(bw)] == bw and (len(bw) > 1 or len(core) - len(bw) <= 2)
+            shorter = len(fw) >= 2 and bw[:len(fw)] == fw
+            if prefix or shorter:
                 return s["id"]
+        # kod bo'yicha — faqat nom ham yaqin bo'lsa (hujjatlarda kodlar ba'zan siljigan)
+        if kod:
+            for s in subjects:
+                if s.get("kod") == kod and _words(s["nomi"])[:1] == fw[:1]:
+                    return s["id"]
         return None
 
     def _render(self, sid: str, idx: int) -> dict:

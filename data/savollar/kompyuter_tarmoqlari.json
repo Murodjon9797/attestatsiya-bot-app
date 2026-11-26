@@ -1,32 +1,283 @@
 {
  "kod": "5PM0452",
  "nomi": "Kompyuter tarmoqlari",
+ "turi": "maxsus",
  "manba": "2026-yilgi texnikum o'quv rejalari",
  "savollar": [
-  {"b": "OSI modeli", "q": "OSI modeli nechta sathdan iborat?", "a": ["7 ta", "4 ta", "5 ta", "8 ta"], "e": "Fizik, kanal, tarmoq, transport, seans, taqdimot, ilova."},
-  {"b": "OSI modeli", "q": "IP protokoli OSI modelining qaysi sathida ishlaydi?", "a": ["Tarmoq sathida", "Kanal sathida", "Transport sathida", "Ilova sathida"], "e": "IP marshrutlash va manzillashni ta'minlaydi."},
-  {"b": "OSI modeli", "q": "TCP va UDP protokollari qaysi sathga tegishli?", "a": ["Transport", "Tarmoq", "Fizik", "Seans"], "e": "TCP ishonchli, ulanishga asoslangan; UDP tez, ulanishsiz."},
-  {"b": "OSI modeli", "q": "Kommutator (switch) asosan OSI modelining qaysi sathida ishlaydi?", "a": ["Kanal (2-sath)", "Fizik (1-sath)", "Tarmoq (3-sath)", "Ilova (7-sath)"], "e": "Kommutator MAC-manzillar bo'yicha kadrlarni uzatadi."},
-  {"b": "OSI modeli", "q": "Marshrutizator (router) asosan qaysi sathda ishlaydi?", "a": ["Tarmoq (3-sath)", "Kanal (2-sath)", "Fizik (1-sath)", "Taqdimot (6-sath)"], "e": "Router IP-manzillar asosida paketlarni turli tarmoqlar orasida yo'naltiradi."},
-  {"b": "Manzillash", "q": "MAC-manzil uzunligi necha bit?", "a": ["48 bit", "32 bit", "128 bit", "64 bit"], "e": "Odatda 6 ta o'n oltilik juftlik bilan yoziladi."},
-  {"b": "Manzillash", "q": "IPv4 manzil uzunligi necha bit?", "a": ["32 bit", "48 bit", "64 bit", "128 bit"], "e": "IPv6 manzil — 128 bit."},
-  {"b": "Manzillash", "q": "Qaysi IP-manzil xususiy (private) diapazonga kiradi?", "a": ["192.168.1.10", "8.8.8.8", "213.230.64.1", "1.1.1.1"], "e": "Xususiy diapazonlar: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16."},
-  {"b": "Manzillash", "q": "/24 tarmoq niqobi (maskasi) o'nlik ko'rinishda qanday yoziladi?", "a": ["255.255.255.0", "255.255.0.0", "255.0.0.0", "255.255.255.255"], "e": "24 ta bir: 11111111.11111111.11111111.00000000."},
-  {"b": "Manzillash", "q": "/24 tarmoqda xostlar uchun nechta foydalanish mumkin bo'lgan manzil bor?", "a": ["254", "256", "255", "128"], "e": "2⁸ − 2 (tarmoq va keng uzatish manzillari ayiriladi)."},
-  {"b": "Manzillash", "q": "127.0.0.1 manzili nimani bildiradi?", "a": ["Lokal xostning o'zini (loopback)", "Marshrutizatorni", "DNS serverni", "Keng uzatish manzilini"], "e": "Tarmoq stekini sinash uchun ishlatiladi."},
-  {"b": "Xizmatlar", "q": "DNS xizmatining vazifasi nima?", "a": ["Domen nomlarini IP-manzillarga o'girish", "IP-manzillarni avtomatik tarqatish", "Elektron pochta yuborish", "Fayllarni uzatish"], "e": "Masalan: gov.uz → uning IP-manzili."},
-  {"b": "Xizmatlar", "q": "DHCP protokolining vazifasi nima?", "a": ["Qurilmalarga IP-manzil va tarmoq sozlamalarini avtomatik berish", "Domen nomlarini o'girish", "Veb-sahifalarni uzatish", "Shifrlash"], "e": "DHCP server manzillar pulini boshqaradi."},
-  {"b": "Xizmatlar", "q": "HTTPS protokoli standart bo'yicha qaysi portdan foydalanadi?", "a": ["443", "80", "21", "25"], "e": "80 — HTTP, 21 — FTP, 25 — SMTP."},
-  {"b": "Xizmatlar", "q": "Masofadagi serverni xavfsiz boshqarish uchun qaysi protokol ishlatiladi?", "a": ["SSH (22-port)", "Telnet", "HTTP", "FTP"], "e": "Telnet ma'lumotlarni shifrlamasdan uzatadi."},
-  {"b": "Xizmatlar", "q": "Tarmoqda xost mavjudligini tekshirish uchun qaysi buyruq ishlatiladi?", "a": ["ping", "ipconfig /release", "format", "chkdsk"], "e": "ping ICMP echo so'rovlarini yuboradi."},
-  {"b": "Fizik sath", "q": "Ethernet tarmog'ida keng tarqalgan kabel ulagichi qaysi?", "a": ["RJ-45", "RJ-11", "BNC", "USB-C"], "e": "RJ-11 — telefon liniyasi ulagichi."},
-  {"b": "Fizik sath", "q": "Optik tolali kabelning asosiy afzalligi nima?", "a": ["Yuqori tezlik, uzoq masofa va elektromagnit xalaqitlarga chidamlilik", "Arzonligi har doim", "Mis o'tkazgich ishlatilishi", "Montajning juda osonligi"], "e": "Ma'lumot yorug'lik signallari orqali uzatiladi."},
-  {"b": "Fizik sath", "q": "Cat 5e o'ralgan juftlik kabeli taxminan qancha masofagacha (segment) ishlaydi?", "a": ["100 m", "10 m", "1000 m", "5 km"], "e": "Ethernet segmentining standart chegarasi — 100 m."},
-  {"b": "Topologiyalar", "q": "Barcha qurilmalar markaziy kommutatorga ulangan topologiya qanday ataladi?", "a": ["Yulduz", "Shina", "Halqa", "To'r (mesh)"], "e": "Hozirgi LANlarda eng keng tarqalgan topologiya."},
-  {"b": "Topologiyalar", "q": "Shahar yoki mamlakat miqyosidagi katta tarmoq qanday ataladi?", "a": ["WAN", "LAN", "PAN", "VLAN"], "e": "Internet — eng yirik global tarmoq."},
-  {"b": "Simsiz tarmoqlar", "q": "Wi-Fi tarmoqlarini himoyalashda hozirgi tavsiya etilgan shifrlash standarti qaysi?", "a": ["WPA3 (yoki kamida WPA2)", "WEP", "Ochiq tarmoq", "WPS PIN"], "e": "WEP eskirgan va oson buziladi."},
-  {"b": "Simsiz tarmoqlar", "q": "Wi-Fi tarmoqlari asosan qaysi chastota diapazonlarida ishlaydi?", "a": ["2,4 GGs va 5 GGs (shuningdek 6 GGs)", "50 Gs", "900 kGs", "100 MGs"], "e": "5 GGs tezroq, 2,4 GGs uzoqroqqa yetadi."},
-  {"b": "Xavfsizlik", "q": "Tarmoqlararo ekran (firewall)ning vazifasi nima?", "a": ["Trafikni belgilangan qoidalar asosida filtrlash", "Kabellarni ulash", "IP-manzil tarqatish", "Domen nomlarini saqlash"], "e": "Apparat yoki dasturiy bo'lishi mumkin."},
-  {"b": "Xavfsizlik", "q": "VLAN texnologiyasi nima uchun ishlatiladi?", "a": ["Bitta fizik tarmoqni mantiqiy segmentlarga ajratish uchun", "Internet tezligini oshirish uchun", "Simsiz aloqa uchun", "Elektr ta'minoti uchun"], "e": "VLANlar keng uzatish domenlarini ajratadi va xavfsizlikni oshiradi."}
+  {
+   "b": "OSI modeli",
+   "q": "OSI modeli nechta sathdan iborat?",
+   "a": [
+    "7 ta",
+    "4 ta",
+    "5 ta",
+    "8 ta"
+   ],
+   "e": "Fizik, kanal, tarmoq, transport, seans, taqdimot, ilova."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "IP protokoli OSI modelining qaysi sathida ishlaydi?",
+   "a": [
+    "Tarmoq sathida",
+    "Kanal sathida",
+    "Transport sathida",
+    "Ilova sathida"
+   ],
+   "e": "IP marshrutlash va manzillashni ta'minlaydi."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "TCP va UDP protokollari qaysi sathga tegishli?",
+   "a": [
+    "Transport",
+    "Tarmoq",
+    "Fizik",
+    "Seans"
+   ],
+   "e": "TCP ishonchli, ulanishga asoslangan; UDP tez, ulanishsiz."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Kommutator (switch) asosan OSI modelining qaysi sathida ishlaydi?",
+   "a": [
+    "Kanal (2-sath)",
+    "Fizik (1-sath)",
+    "Tarmoq (3-sath)",
+    "Ilova (7-sath)"
+   ],
+   "e": "Kommutator MAC-manzillar bo'yicha kadrlarni uzatadi."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Marshrutizator (router) asosan qaysi sathda ishlaydi?",
+   "a": [
+    "Tarmoq (3-sath)",
+    "Kanal (2-sath)",
+    "Fizik (1-sath)",
+    "Taqdimot (6-sath)"
+   ],
+   "e": "Router IP-manzillar asosida paketlarni turli tarmoqlar orasida yo'naltiradi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "MAC-manzil uzunligi necha bit?",
+   "a": [
+    "48 bit",
+    "32 bit",
+    "128 bit",
+    "64 bit"
+   ],
+   "e": "Odatda 6 ta o'n oltilik juftlik bilan yoziladi."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IPv4 manzil uzunligi necha bit?",
+   "a": [
+    "32 bit",
+    "48 bit",
+    "64 bit",
+    "128 bit"
+   ],
+   "e": "IPv6 manzil — 128 bit."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Qaysi IP-manzil xususiy (private) diapazonga kiradi?",
+   "a": [
+    "192.168.1.10",
+    "8.8.8.8",
+    "213.230.64.1",
+    "1.1.1.1"
+   ],
+   "e": "Xususiy diapazonlar: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16."
+  },
+  {
+   "b": "Manzillash",
+   "q": "/24 tarmoq niqobi (maskasi) o'nlik ko'rinishda qanday yoziladi?",
+   "a": [
+    "255.255.255.0",
+    "255.255.0.0",
+    "255.0.0.0",
+    "255.255.255.255"
+   ],
+   "e": "24 ta bir: 11111111.11111111.11111111.00000000."
+  },
+  {
+   "b": "Manzillash",
+   "q": "/24 tarmoqda xostlar uchun nechta foydalanish mumkin bo'lgan manzil bor?",
+   "a": [
+    "254",
+    "256",
+    "255",
+    "128"
+   ],
+   "e": "2⁸ − 2 (tarmoq va keng uzatish manzillari ayiriladi)."
+  },
+  {
+   "b": "Manzillash",
+   "q": "127.0.0.1 manzili nimani bildiradi?",
+   "a": [
+    "Lokal xostning o'zini (loopback)",
+    "Marshrutizatorni",
+    "DNS serverni",
+    "Keng uzatish manzilini"
+   ],
+   "e": "Tarmoq stekini sinash uchun ishlatiladi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DNS xizmatining vazifasi nima?",
+   "a": [
+    "Domen nomlarini IP-manzillarga o'girish",
+    "IP-manzillarni avtomatik tarqatish",
+    "Elektron pochta yuborish",
+    "Fayllarni uzatish"
+   ],
+   "e": "Masalan: gov.uz → uning IP-manzili."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "DHCP protokolining vazifasi nima?",
+   "a": [
+    "Qurilmalarga IP-manzil va tarmoq sozlamalarini avtomatik berish",
+    "Domen nomlarini o'girish",
+    "Veb-sahifalarni uzatish",
+    "Shifrlash"
+   ],
+   "e": "DHCP server manzillar pulini boshqaradi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "HTTPS protokoli standart bo'yicha qaysi portdan foydalanadi?",
+   "a": [
+    "443",
+    "80",
+    "21",
+    "25"
+   ],
+   "e": "80 — HTTP, 21 — FTP, 25 — SMTP."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Masofadagi serverni xavfsiz boshqarish uchun qaysi protokol ishlatiladi?",
+   "a": [
+    "SSH (22-port)",
+    "Telnet",
+    "HTTP",
+    "FTP"
+   ],
+   "e": "Telnet ma'lumotlarni shifrlamasdan uzatadi."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Tarmoqda xost mavjudligini tekshirish uchun qaysi buyruq ishlatiladi?",
+   "a": [
+    "ping",
+    "ipconfig /release",
+    "format",
+    "chkdsk"
+   ],
+   "e": "ping ICMP echo so'rovlarini yuboradi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Ethernet tarmog'ida keng tarqalgan kabel ulagichi qaysi?",
+   "a": [
+    "RJ-45",
+    "RJ-11",
+    "BNC",
+    "USB-C"
+   ],
+   "e": "RJ-11 — telefon liniyasi ulagichi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Optik tolali kabelning asosiy afzalligi nima?",
+   "a": [
+    "Yuqori tezlik, uzoq masofa va elektromagnit xalaqitlarga chidamlilik",
+    "Arzonligi har doim",
+    "Mis o'tkazgich ishlatilishi",
+    "Montajning juda osonligi"
+   ],
+   "e": "Ma'lumot yorug'lik signallari orqali uzatiladi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Cat 5e o'ralgan juftlik kabeli taxminan qancha masofagacha (segment) ishlaydi?",
+   "a": [
+    "100 m",
+    "10 m",
+    "1000 m",
+    "5 km"
+   ],
+   "e": "Ethernet segmentining standart chegarasi — 100 m."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Barcha qurilmalar markaziy kommutatorga ulangan topologiya qanday ataladi?",
+   "a": [
+    "Yulduz",
+    "Shina",
+    "Halqa",
+    "To'r (mesh)"
+   ],
+   "e": "Hozirgi LANlarda eng keng tarqalgan topologiya."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Shahar yoki mamlakat miqyosidagi katta tarmoq qanday ataladi?",
+   "a": [
+    "WAN",
+    "LAN",
+    "PAN",
+    "VLAN"
+   ],
+   "e": "Internet — eng yirik global tarmoq."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi tarmoqlarini himoyalashda hozirgi tavsiya etilgan shifrlash standarti qaysi?",
+   "a": [
+    "WPA3 (yoki kamida WPA2)",
+    "WEP",
+    "Ochiq tarmoq",
+    "WPS PIN"
+   ],
+   "e": "WEP eskirgan va oson buziladi."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi tarmoqlari asosan qaysi chastota diapazonlarida ishlaydi?",
+   "a": [
+    "2,4 GGs va 5 GGs (shuningdek 6 GGs)",
+    "50 Gs",
+    "900 kGs",
+    "100 MGs"
+   ],
+   "e": "5 GGs tezroq, 2,4 GGs uzoqroqqa yetadi."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Tarmoqlararo ekran (firewall)ning vazifasi nima?",
+   "a": [
+    "Trafikni belgilangan qoidalar asosida filtrlash",
+    "Kabellarni ulash",
+    "IP-manzil tarqatish",
+    "Domen nomlarini saqlash"
+   ],
+   "e": "Apparat yoki dasturiy bo'lishi mumkin."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "VLAN texnologiyasi nima uchun ishlatiladi?",
+   "a": [
+    "Bitta fizik tarmoqni mantiqiy segmentlarga ajratish uchun",
+    "Internet tezligini oshirish uchun",
+    "Simsiz aloqa uchun",
+    "Elektr ta'minoti uchun"
+   ],
+   "e": "VLANlar keng uzatish domenlarini ajratadi va xavfsizlikni oshiradi."
+  }
  ]
 }

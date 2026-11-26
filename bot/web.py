@@ -6,6 +6,10 @@ ta savol beriladi, keyin premium (faollashtirish kodi) kerak bo'ladi.
 """
 from __future__ import annotations
 
+import base64
+import hashlib
+import hmac
+import json as _json
 import logging
 import os
 import secrets
@@ -19,6 +23,7 @@ from bot import quiz
 from bot.bank import QuestionBank
 from bot.data import Catalog
 from bot.db import ResultsDB
+from bot import nizom
 from bot.premium import Premium
 from claude_json import ClaudeError
 
@@ -34,14 +39,37 @@ def has_ai() -> bool:
 
 
 def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_percent: int,
-              bank: QuestionBank, premium: Premium) -> web.Application:
+              bank: QuestionBank, premium: Premium, bot_username: str = "") -> web.Application:
     quizzes: dict[str, dict] = {}
     generating: set[int] = set()
     dev_user = os.getenv("WEBAPP_DEV_USER")  # faqat lokal sinov uchun
+    web_key = hashlib.sha256(("web-session:" + token).encode()).digest()
+    WEB_TTL = 30 * 24 * 3600
+
+    def make_web_token(user: dict) -> str:
+        body = base64.urlsafe_b64encode(_json.dumps({"id": user["id"], "name": user["name"],
+                                                      "username": user.get("username", ""),
+                                                      "exp": int(time.time()) + WEB_TTL}).encode()).decode()
+        sig = hmac.new(web_key, body.encode(), hashlib.sha256).hexdigest()
+        return f"{body}.{sig}"
+
+    def read_web_token(tok: str) -> dict:
+        try:
+            body, sig = tok.rsplit(".", 1)
+            if not hmac.compare_digest(sig, hmac.new(web_key, body.encode(), hashlib.sha256).hexdigest()):
+                raise ValueError
+            d = _json.loads(base64.urlsafe_b64decode(body.encode()))
+            if d["exp"] < time.time():
+                raise ValueError
+            return {"id": int(d["id"]), "name": d["name"], "username": d.get("username", "")}
+        except Exception:
+            raise web.HTTPUnauthorized(text="Sessiya muddati tugagan, qayta kiring")
 
     def auth(request: web.Request) -> dict:
         h = request.headers.get("Authorization", "")
-        if h.startswith("tma "):
+        if h.startswith("web "):
+            user = read_web_token(h[4:])
+        elif h.startswith("tma "):
             try:
                 data = safe_parse_webapp_init_data(token, h[4:])
             except ValueError:
@@ -75,6 +103,25 @@ def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_perce
 
     async def health(_: web.Request) -> web.Response:
         return web.Response(text="ok")
+
+    async def api_public(_: web.Request) -> web.Response:
+        return web.json_response({"bot_username": bot_username})
+
+    async def api_weblogin(request: web.Request) -> web.Response:
+        """Telegram Login Widget ma'lumotini tekshiradi (core.telegram.org/widgets/login#checking-authorization)."""
+        d = {k: str(v) for k, v in (await request.json()).items() if v is not None}
+        h = d.pop("hash", "")
+        dcs = "\n".join(f"{k}={d[k]}" for k in sorted(d))
+        calc = hmac.new(hashlib.sha256(token.encode()).digest(), dcs.encode(), hashlib.sha256).hexdigest()
+        if not h or not hmac.compare_digest(calc, h):
+            raise web.HTTPUnauthorized(text="Telegram imzosi noto'g'ri")
+        if time.time() - int(d.get("auth_date", "0")) > 24 * 3600:
+            raise web.HTTPUnauthorized(text="Kirish ma'lumoti eskirgan, qayta kiring")
+        user = {"id": int(d["id"]), "name": " ".join(x for x in (d.get("first_name"), d.get("last_name")) if x),
+                "username": d.get("username", "")}
+        db.touch_user(user["id"], user["name"], user["username"])
+        return web.json_response({"token": make_web_token(user), "name": user["name"],
+                                  "photo": d.get("photo_url", "")})
 
     # ---------------- katalog ----------------
     async def api_catalog(request: web.Request) -> web.Response:
@@ -114,7 +161,29 @@ def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_perce
             "free_questions": premium.free_questions, "tariflar": premium.public_plans(),
             "karta": premium.card, "karta_egasi": premium.card_owner, "admin": premium.admin_contact,
             "imtihon_sanasi": premium.exam_date, "tahlil": a,
+            "profil": db.profile_get(u["id"]), "nizom": nizom.public(),
         })
+
+    async def api_profile(request: web.Request) -> web.Response:
+        u = auth(request)
+        b = await request.json()
+        lav = str(b.get("lavozim", ""))
+        if lav not in nizom.LAVOZIMLAR:
+            raise web.HTTPBadRequest(text="Lavozimni tanlang")
+        toifa = str(b.get("toifa", "")) or None
+        if toifa and toifa not in nizom.TOIFALAR:
+            raise web.HTTPBadRequest(text="Toifani tanlang")
+        sid = str(b.get("sid") or "") or None
+        if sid and sid not in bank.subjects:
+            raise web.HTTPBadRequest(text="Fan topilmadi")
+        try:
+            b1 = None if b.get("bosqich1") in (None, "") else max(0, min(nizom.BOSQICH1_MAX, int(b["bosqich1"])))
+        except (ValueError, TypeError):
+            raise web.HTTPBadRequest(text="1-bosqich bali 0–20 oralig'ida")
+        fan_nomi = str(b.get("fan_nomi") or (bank.subjects[sid]["nomi"] if sid else ""))[:150]
+        db.profile_set(u["id"], {"lavozim": lav, "toifa": toifa, "sid": sid, "fan_nomi": fan_nomi,
+                                 "mutax": str(b.get("mutax") or "")[:200], "bosqich1": b1})
+        return web.json_response({"ok": True, "profil": db.profile_get(u["id"])})
 
     async def api_code(request: web.Request) -> web.Response:
         u = auth(request)
@@ -296,11 +365,14 @@ def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_perce
     app = web.Application(client_max_size=10 * 1024 * 1024)
     app.router.add_get("/", index)
     app.router.add_get("/health", health)
+    app.router.add_get("/api/public", api_public)
+    app.router.add_post("/api/weblogin", api_weblogin)
     app.router.add_get("/api/catalog", api_catalog)
     app.router.add_get("/api/fanlar", api_fanlar)
     app.router.add_get("/api/bank", api_bank)
     app.router.add_get("/api/me", api_me)
     app.router.add_post("/api/code", api_code)
+    app.router.add_post("/api/profile", api_profile)
     app.router.add_post("/api/payment", api_payment)
     app.router.add_post("/api/quiz", api_quiz_new)
     app.router.add_post("/api/quiz/answer", api_quiz_answer)
