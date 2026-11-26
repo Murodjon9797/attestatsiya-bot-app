@@ -2,102 +2,366 @@
  "kod": "5PM0438",
  "nomi": "Kimyo",
  "turi": "umumtalim",
- "manba": "2026-yilgi texnikum o'quv rejalari (45 ta mutaxassislikda o'qitiladi)",
+ "manba": "2026-yilgi texnikum o'quv rejalari (45 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "Umumiy kimyo",
-   "q": "Avogadro soni taxminan nechaga teng?",
+   "q": "Kimyoviy element deb nimaga aytiladi?",
    "a": [
-    "6,02·10²³ mol⁻¹",
-    "6,02·10²³ g",
-    "3·10⁸ mol⁻¹",
-    "1,6·10⁻¹⁹ mol⁻¹"
+    "Yadro zaryadi bir xil atomlar turi",
+    "Bir xil massaga ega bo'lgan va bir xil kristall panjara hosil qiluvchi molekulalar to'plami",
+    "Har qanday murakkab modda",
+    "Faqat metallar guruhi"
    ],
-   "e": "1 mol moddada 6,02·10²³ ta zarracha bor."
+   "e": "Element yadrodagi protonlar soni bilan belgilanadi."
   },
   {
    "b": "Umumiy kimyo",
-   "q": "Normal sharoitda 1 mol gazning hajmi qancha?",
+   "q": "Oddiy moddaga qaysi biri misol bo'ladi?",
    "a": [
-    "22,4 l",
-    "11,2 l",
-    "1 l",
-    "24,5 l"
+    "O₂",
+    "H₂O",
+    "CO₂",
+    "NaCl"
    ],
-   "e": "Normal sharoit: 0 °C, 101,3 kPa."
+   "e": "Oddiy modda bir element atomlaridan tashkil topadi."
   },
   {
    "b": "Umumiy kimyo",
-   "q": "Suvning (H₂O) molyar massasi qancha?",
+   "q": "Murakkab moddaga qaysi biri misol bo'ladi?",
+   "a": [
+    "H₂SO₄",
+    "N₂",
+    "Fe",
+    "O₃"
+   ],
+   "e": "Murakkab modda bir necha element atomlaridan iborat."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Moddaning nisbiy molekulyar massasi qanday hisoblanadi?",
+   "a": [
+    "Tarkibidagi atomlar nisbiy massalari yig'indisi",
+    "Moddaning hajmi va zichligining ko'paytmasi sifatida grammlarda",
+    "Atomlar soni ko'paytmasi",
+    "Moddaning zichligi"
+   ],
+   "e": "Masalan, Mr(H₂O) = 2·1 + 16 = 18."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Suvning molyar massasi nechaga teng?",
    "a": [
     "18 g/mol",
     "16 g/mol",
-    "20 g/mol",
-    "10 g/mol"
+    "10 g/mol",
+    "20 g/mol"
    ],
-   "e": "2·1 + 16 = 18."
+   "e": "2·1 + 16."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "CO₂ ning molyar massasi nechaga teng?",
+   "a": [
+    "44 g/mol",
+    "28 g/mol",
+    "32 g/mol",
+    "40 g/mol"
+   ],
+   "e": "12 + 2·16."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "H₂SO₄ ning molyar massasi nechaga teng?",
+   "a": [
+    "98 g/mol",
+    "96 g/mol",
+    "49 g/mol",
+    "100 g/mol"
+   ],
+   "e": "2 + 32 + 64."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "1 mol moddada nechta zarracha bo'ladi?",
+   "a": [
+    "6,02·10²³",
+    "22,4",
+    "1000",
+    "6,02·10²²"
+   ],
+   "e": "Avogadro soni."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Normal sharoitda 1 mol gaz qancha hajmni egallaydi?",
+   "a": [
+    "22,4 l",
+    "1 l",
+    "11,2 l",
+    "44,8 l"
+   ],
+   "e": "Molyar hajm Vm = 22,4 l/mol."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "2 mol kislorod (O₂) massasi nechaga teng?",
+   "a": [
+    "64 g",
+    "32 g",
+    "16 g",
+    "128 g"
+   ],
+   "e": "m = n·M = 2·32."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Normal sharoitda 44,8 l vodorodda necha mol modda bor?",
+   "a": [
+    "2 mol",
+    "1 mol",
+    "4 mol",
+    "0,5 mol"
+   ],
+   "e": "n = V/Vm = 44,8/22,4."
   },
   {
    "b": "Umumiy kimyo",
    "q": "Massaning saqlanish qonunini kim kashf etgan?",
    "a": [
-    "M. V. Lomonosov va A. Lavuaze",
-    "D. I. Mendeleyev",
-    "R. Boyl",
+    "M. Lomonosov va A. Lavuaze",
+    "D. I. Mendeleyev va uning shogirdlari",
+    "A. Avogadro",
     "J. Dalton"
    ],
    "e": "Reaksiyaga kirgan moddalar massasi hosil bo'lgan moddalar massasiga teng."
   },
   {
+   "b": "Umumiy kimyo",
+   "q": "Tarkibning doimiylik qonuniga ko'ra nima o'zgarmaydi?",
+   "a": [
+    "Toza moddaning sifat va miqdoriy tarkibi",
+    "Moddaning agregat holati, hajmi va zichligi",
+    "Moddaning olinish usuli",
+    "Moddaning narxi"
+   ],
+   "e": "Olinish usulidan qat'i nazar."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Allotropiya deb nimaga aytiladi?",
+   "a": [
+    "Bir elementning bir necha oddiy modda hosil qilishi",
+    "Bir moddaning bir necha xil erituvchida turli miqdorda eriy olishi",
+    "Moddaning turli rangda bo'lishi",
+    "Murakkab moddaning parchalanishi"
+   ],
+   "e": "Masalan, kislorod O₂ va ozon O₃; olmos, grafit."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Uglerodning allotropik shakllariga qaysilar kiradi?",
+   "a": [
+    "Olmos va grafit",
+    "Ozon va kislorod",
+    "Qizil va oq fosfor",
+    "Rombik va monoklinik oltingugurt"
+   ],
+   "e": "Fulleren va grafen ham uglerod allotropiyalaridir."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "CuSO₄ tarkibidagi mis massa ulushi taxminan necha foiz (Cu=64, S=32, O=16)?",
+   "a": [
+    "40%",
+    "64%",
+    "20%",
+    "50%"
+   ],
+   "e": "64/160 = 0,4."
+  },
+  {
    "b": "Davriy qonun",
-   "q": "Kimyoviy elementlarning davriy qonunini kim kashf etgan?",
+   "q": "Davriy qonunni kim kashf etgan?",
    "a": [
     "D. I. Mendeleyev",
+    "M. V. Lomonosov",
     "A. Avogadro",
-    "E. Rezerford",
-    "N. Bor"
+    "E. Rezerford"
    ],
-   "e": "1869-yil."
+   "e": "1869-yilda."
   },
   {
    "b": "Davriy qonun",
-   "q": "Elementning tartib raqami nimani bildiradi?",
+   "q": "Elementlar xossalari zamonaviy davriy qonunga ko'ra nimaga davriy bog'liq?",
    "a": [
-    "Yadrodagi protonlar sonini",
-    "Neytronlar sonini",
-    "Atom massasini",
-    "Valentlikni"
+    "Atom yadrosi zaryadiga",
+    "Atomning nisbiy atom massasiga (izotoplar o'rtachasi)",
+    "Molekula hajmiga",
+    "Elementning rangiga"
    ],
-   "e": "Neytral atomda elektronlar soni ham tartib raqamiga teng."
+   "e": "Mendeleyev davrida atom massasiga deb ta'riflangan."
   },
   {
    "b": "Davriy qonun",
-   "q": "Davriy jadvalda bir guruhda yuqoridan pastga metallik xossalari qanday o'zgaradi?",
+   "q": "Davriy jadvalda nechta davr bor?",
+   "a": [
+    "7",
+    "8",
+    "18",
+    "10"
+   ],
+   "e": "1–3 kichik, 4–7 katta davrlar."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Guruh raqami asosiy guruhcha elementlari uchun nimani ko'rsatadi?",
+   "a": [
+    "Tashqi qavatdagi elektronlar sonini",
+    "Atomdagi elektron qavatlar (energetik pog'onalar) sonini",
+    "Neytronlar sonini",
+    "Atom massasini"
+   ],
+   "e": "Davr raqami elektron qavatlar sonini ko'rsatadi."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Davr raqami nimani ko'rsatadi?",
+   "a": [
+    "Elektron qavatlar sonini",
+    "Tashqi qavatdagi elektronlar sonini",
+    "Protonlar sonini",
+    "Valentlikni har doim"
+   ],
+   "e": "Masalan, Na 3-davrda — 3 ta elektron qavat."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Bir davrda chapdan o'ngga atom radiusi qanday o'zgaradi?",
+   "a": [
+    "Kamayadi",
+    "Ortadi",
+    "O'zgarmaydi",
+    "Avval ortadi, keyin kamayadi"
+   ],
+   "e": "Yadro zaryadi ortib, elektronlarni kuchliroq tortadi."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Asosiy guruhchada yuqoridan pastga metallik xossalari qanday o'zgaradi?",
    "a": [
     "Kuchayadi",
-    "Kamayadi",
+    "Susayadi",
     "O'zgarmaydi",
-    "Avval kamayib, so'ng kuchayadi"
+    "Yo'qoladi"
    ],
-   "e": "Atom radiusi ortib, tashqi elektronlar oson beriladi."
+   "e": "Atom radiusi ortadi, elektron berish osonlashadi."
   },
   {
    "b": "Davriy qonun",
-   "q": "Qaysi element ishqoriy metall hisoblanadi?",
+   "q": "Eng kuchli elektromanfiy element qaysi?",
    "a": [
-    "Natriy",
-    "Kalsiy",
-    "Alyuminiy",
-    "Temir"
+    "Ftor",
+    "Kislorod",
+    "Xlor",
+    "Natriy"
    ],
-   "e": "Ishqoriy metallar — I A guruh: Li, Na, K, Rb, Cs."
+   "e": "Ftor elektromanfiyligi 4,0 (Poling shkalasi)."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Ishqoriy metallar davriy jadvalning qaysi guruhida joylashgan?",
+   "a": [
+    "I guruh asosiy guruhcha",
+    "II guruh asosiy guruhcha",
+    "VII guruh",
+    "VIII guruh"
+   ],
+   "e": "Li, Na, K, Rb, Cs, Fr."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Galogenlar qaysi guruhda joylashgan?",
+   "a": [
+    "VII guruh asosiy guruhcha",
+    "VI guruh asosiy guruhcha (xalkogenlar)",
+    "I guruh",
+    "VIII guruh"
+   ],
+   "e": "F, Cl, Br, I, At."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Inert (nodir) gazlarga qaysi element kiradi?",
+   "a": [
+    "Argon",
+    "Azot",
+    "Kislorod",
+    "Xlor"
+   ],
+   "e": "He, Ne, Ar, Kr, Xe, Rn."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Natriy atomining elektron formulasi qaysi?",
+   "a": [
+    "1s²2s²2p⁶3s¹",
+    "1s²2s²2p⁶",
+    "1s²2s²2p⁶3s²",
+    "1s²2s²2p⁵"
+   ],
+   "e": "Na: Z = 11."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Uglerod atomida nechta elektron bor?",
+   "a": [
+    "6",
+    "12",
+    "4",
+    "14"
+   ],
+   "e": "Tartib raqami 6."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Xlor atomi tashqi qavatida nechta elektron bor?",
+   "a": [
+    "7",
+    "17",
+    "5",
+    "8"
+   ],
+   "e": "Cl: 2, 8, 7."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Izotoplar bir-biridan nimasi bilan farq qiladi?",
+   "a": [
+    "Neytronlar soni",
+    "Protonlar soni",
+    "Elektronlar soni neytral atomda",
+    "Kimyoviy xossalari keskin farq qiladi"
+   ],
+   "e": "¹²C va ¹⁴C — uglerod izotoplari."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "s-orbitalda ko'pi bilan nechta elektron joylashadi?",
+   "a": [
+    "2",
+    "6",
+    "10",
+    "8"
+   ],
+   "e": "p — 6, d — 10, f — 14."
   },
   {
    "b": "Kimyoviy bog'",
-   "q": "NaCl molekulasidagi kimyoviy bog' turi qaysi?",
+   "q": "NaCl molekulasida qanday kimyoviy bog' mavjud?",
    "a": [
     "Ion bog'",
-    "Kovalent qutbsiz",
+    "Kovalent qutbsiz bog'",
     "Metall bog'",
     "Vodorod bog'"
    ],
@@ -105,69 +369,366 @@
   },
   {
    "b": "Kimyoviy bog'",
-   "q": "H₂, O₂, N₂ molekulalaridagi bog' turi qaysi?",
+   "q": "H₂ molekulasida qanday bog' mavjud?",
    "a": [
     "Kovalent qutbsiz",
-    "Ion",
     "Kovalent qutbli",
+    "Ion",
     "Metall"
    ],
-   "e": "Bir xil atomlar orasidagi umumiy elektron juft."
+   "e": "Bir xil atomlar orasida."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "HCl molekulasida qanday bog' mavjud?",
+   "a": [
+    "Kovalent qutbli",
+    "Kovalent qutbsiz",
+    "Ion",
+    "Metall"
+   ],
+   "e": "Turli metallmaslar orasida."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Metallarda qanday kimyoviy bog' mavjud?",
+   "a": [
+    "Metall bog'",
+    "Ion bog'",
+    "Kovalent qutbsiz bog'",
+    "Vodorod bog'"
+   ],
+   "e": "Erkin elektronlar (\"elektron gaz\") hisobiga."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Suvning qaynash harorati yuqoriligi qaysi bog' bilan tushuntiriladi?",
+   "a": [
+    "Molekulalararo vodorod bog'",
+    "Molekuladagi kuchli ion bog'",
+    "Metall bog'",
+    "Kovalent qutbsiz bog'"
+   ],
+   "e": "Vodorod bog'lar molekulalarni bir-biriga bog'laydi."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Ammiak (NH₃) molekulasi qanday shaklga ega?",
+   "a": [
+    "Trigonal piramida",
+    "Chiziqli",
+    "Yassi uchburchak",
+    "Tetraedr"
+   ],
+   "e": "Azotda bitta taqsimlanmagan elektron jufti bor."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Metan (CH₄) molekulasi qanday shaklga ega?",
+   "a": [
+    "Tetraedr",
+    "Chiziqli",
+    "Yassi kvadrat",
+    "Burchakli"
+   ],
+   "e": "sp³ gibridlanish, valent burchak 109°28'."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "CO₂ molekulasi qanday shaklga ega?",
+   "a": [
+    "Chiziqli",
+    "Burchakli",
+    "Tetraedr",
+    "Piramida"
+   ],
+   "e": "sp gibridlanish, 180°."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Donor-akseptor mexanizmi bo'yicha qaysi ion hosil bo'ladi?",
+   "a": [
+    "NH₄⁺",
+    "Cl⁻",
+    "Na⁺",
+    "O²⁻"
+   ],
+   "e": "NH₃ dagi elektron jufti H⁺ ga beriladi."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Kristall panjarasi atomli bo'lgan modda qaysi?",
+   "a": [
+    "Olmos",
+    "Muz",
+    "Osh tuzi",
+    "Mis"
+   ],
+   "e": "Olmos — atom kristall panjara, NaCl — ion, muz — molekulyar."
   },
   {
    "b": "Anorganik birikmalar",
-   "q": "Qaysi modda kislota hisoblanadi?",
+   "q": "Asosli oksidga qaysi biri misol bo'ladi?",
    "a": [
-    "H₂SO₄",
-    "NaOH",
-    "NaCl",
+    "CaO",
+    "SO₃",
+    "CO₂",
+    "P₂O₅"
+   ],
+   "e": "Metall oksidlari (+1, +2) odatda asosli."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Kislotali oksidga qaysi biri misol bo'ladi?",
+   "a": [
+    "SO₃",
+    "Na₂O",
+    "CaO",
+    "MgO"
+   ],
+   "e": "SO₃ + H₂O → H₂SO₄."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Amfoter oksidga qaysi biri misol bo'ladi?",
+   "a": [
+    "Al₂O₃",
+    "Na₂O",
+    "SO₂",
+    "CO₂"
+   ],
+   "e": "ZnO, Al₂O₃ — ham kislota, ham ishqor bilan reaksiyaga kirishadi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Befarq (tuz hosil qilmaydigan) oksidga qaysi biri misol?",
+   "a": [
+    "CO",
+    "CO₂",
+    "SO₂",
     "CaO"
    ],
-   "e": "NaOH — asos, NaCl — tuz, CaO — oksid."
+   "e": "CO, NO, N₂O — befarq oksidlar."
   },
   {
    "b": "Anorganik birikmalar",
-   "q": "Kislota va asos orasidagi reaksiya qanday ataladi?",
+   "q": "Ishqorlarga qaysi modda kiradi?",
    "a": [
-    "Neytrallanish",
-    "Gidroliz",
-    "Oksidlanish",
-    "Polimerlanish"
+    "NaOH",
+    "Cu(OH)₂",
+    "Fe(OH)₃",
+    "Al(OH)₃"
    ],
-   "e": "Natijada tuz va suv hosil bo'ladi."
+   "e": "Ishqorlar suvda eriydigan asoslardir."
   },
   {
    "b": "Anorganik birikmalar",
-   "q": "Lakmus ishqoriy muhitda qanday rangga kiradi?",
+   "q": "Kislorodsiz kislotaga qaysi biri misol bo'ladi?",
    "a": [
-    "Ko'k",
+    "HCl",
+    "H₂SO₄",
+    "HNO₃",
+    "H₃PO₄"
+   ],
+   "e": "HCl, HBr, H₂S — kislorodsiz kislotalar."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Ikki negizli kislota qaysi?",
+   "a": [
+    "H₂SO₄",
+    "HNO₃",
+    "HCl",
+    "H₃PO₄"
+   ],
+   "e": "Negizlilik — ajraladigan vodorod atomlari soni."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "NaHCO₃ qanday tuz turiga kiradi?",
+   "a": [
+    "Nordon tuz",
+    "O'rta (normal) tuz",
+    "Asosli tuz",
+    "Qo'sh tuz"
+   ],
+   "e": "Tarkibida vodorod saqlaydi (ichimlik sodasi)."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Natriy sulfatning formulasi qaysi?",
+   "a": [
+    "Na₂SO₄",
+    "Na₂SO₃",
+    "Na₂S",
+    "NaHSO₄"
+   ],
+   "e": "Sulfit — SO₃²⁻, sulfid — S²⁻."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Kalsiy karbonatning formulasi qaysi?",
+   "a": [
+    "CaCO₃",
+    "CaC₂",
+    "Ca(HCO₃)₂",
+    "CaO"
+   ],
+   "e": "Bo'r, marmar, ohaktosh tarkibida."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Fenolftalein ishqoriy muhitda qanday rangga kiradi?",
+   "a": [
+    "To'q pushti (malina)",
+    "Rangsiz",
+    "Sariq",
+    "Ko'k"
+   ],
+   "e": "Kislotali va neytral muhitda rangsiz."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Lakmus kislotali muhitda qanday rangga kiradi?",
+   "a": [
     "Qizil",
+    "Ko'k",
     "Binafsha",
     "Rangsiz"
    ],
-   "e": "Kislotali muhitda — qizil, neytral muhitda — binafsha."
+   "e": "Ishqoriy muhitda ko'k, neytralda binafsha."
   },
   {
    "b": "Anorganik birikmalar",
-   "q": "Neytral eritmaning pH qiymati qancha?",
+   "q": "Metilloranj kislotali muhitda qanday rangga kiradi?",
+   "a": [
+    "Qizil (pushti)",
+    "Sariq",
+    "Ko'k",
+    "Yashil"
+   ],
+   "e": "Ishqoriy muhitda sariq."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Toza suvning pH qiymati nechaga teng (25 °C)?",
    "a": [
     "7",
     "0",
     "14",
     "1"
    ],
-   "e": "pH < 7 — kislotali, pH > 7 — ishqoriy."
+   "e": "pH < 7 — kislotali, pH > 7 — ishqoriy muhit."
   },
   {
-   "b": "Anorganik birikmalar",
-   "q": "Ohak (so'ndirilmagan ohak) qaysi formula bilan ifodalanadi?",
+   "b": "Reaksiyalar",
+   "q": "Birikish reaksiyasiga qaysi biri misol bo'ladi?",
    "a": [
-    "CaO",
-    "Ca(OH)₂",
-    "CaCO₃",
-    "CaSO₄"
+    "2H₂ + O₂ → 2H₂O",
+    "CaCO₃ → CaO + CO₂",
+    "Zn + 2HCl → ZnCl₂ + H₂",
+    "NaOH + HCl → NaCl + H₂O"
    ],
-   "e": "Ca(OH)₂ — so'ndirilgan ohak, CaCO₃ — bo'r, ohaktosh."
+   "e": "Ikki yoki undan ko'p moddadan bitta modda hosil bo'ladi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Parchalanish reaksiyasiga qaysi biri misol bo'ladi?",
+   "a": [
+    "2H₂O₂ → 2H₂O + O₂",
+    "C + O₂ → CO₂",
+    "Fe + CuSO₄ → FeSO₄ + Cu",
+    "BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl"
+   ],
+   "e": "Bitta murakkab moddadan bir necha modda hosil bo'ladi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "O'rin olish reaksiyasiga qaysi biri misol bo'ladi?",
+   "a": [
+    "Fe + CuSO₄ → FeSO₄ + Cu",
+    "CaO + H₂O → Ca(OH)₂",
+    "2KClO₃ → 2KCl + 3O₂",
+    "KOH + HNO₃ → KNO₃ + H₂O"
+   ],
+   "e": "Oddiy modda murakkab moddadagi atomni almashtiradi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Almashinish reaksiyasiga qaysi biri misol bo'ladi?",
+   "a": [
+    "AgNO₃ + NaCl → AgCl + NaNO₃",
+    "2Mg + O₂ → 2MgO",
+    "Zn + H₂SO₄ → ZnSO₄ + H₂",
+    "2HgO → 2Hg + O₂"
+   ],
+   "e": "Ikki murakkab modda tarkibiy qismlarini almashadi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Neytrallanish reaksiyasi qaysi moddalar o'rtasida boradi?",
+   "a": [
+    "Kislota va asos",
+    "Metall va metallmas",
+    "Ikki oksid",
+    "Ikki oddiy modda"
+   ],
+   "e": "Natijada tuz va suv hosil bo'ladi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Ekzotermik reaksiya deb qanday reaksiyaga aytiladi?",
+   "a": [
+    "Issiqlik ajralib chiqadigan",
+    "Issiqlik yutiladigan",
+    "Faqat yorug'lik chiqaradigan",
+    "Katalizator ishtirokida boradigan"
+   ],
+   "e": "Yonish reaksiyalari ekzotermik."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Katalizator nima?",
+   "a": [
+    "Reaksiyani tezlashtirib, o'zi sarflanmaydigan modda",
+    "Reaksiyada to'liq sarflanib, mahsulot tarkibiga kiradigan modda",
+    "Reaksiyani to'xtatuvchi modda",
+    "Reaksiya mahsuloti"
+   ],
+   "e": "Ingibitor reaksiyani sekinlashtiradi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Harorat 10 °C ga oshirilganda reaksiya tezligi taxminan necha marta ortadi (Vant-Goff qoidasi)?",
+   "a": [
+    "2–4 marta",
+    "10 marta",
+    "100 marta",
+    "O'zgarmaydi"
+   ],
+   "e": "γ — temperatura koeffitsienti (2–4)."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Kimyoviy muvozanatni siljitish qaysi tamoyil bilan tushuntiriladi?",
+   "a": [
+    "Le Shatelye tamoyili",
+    "Avogadro qonuni (teng hajmlarda teng molekulalar)",
+    "Om qonuni",
+    "Arximed qonuni"
+   ],
+   "e": "Tizim tashqi ta'sirni kamaytiruvchi tomonga siljiydi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "N₂ + 3H₂ ⇌ 2NH₃ (ekzotermik) reaksiyada bosim oshirilsa muvozanat qayerga siljiydi?",
+   "a": [
+    "Ammiak hosil bo'lish tomonga",
+    "Azot va vodorod hosil bo'lish tomonga",
+    "Siljimaydi",
+    "Reaksiya to'xtaydi"
+   ],
+   "e": "Gaz molekulalari kamayadigan tomonga (4 → 2)."
   },
   {
    "b": "Reaksiyalar",
@@ -175,120 +736,582 @@
    "a": [
     "Elektron beradi",
     "Elektron qabul qiladi",
-    "Proton beradi",
-    "Neytron qabul qiladi"
+    "Proton qabul qiladi",
+    "Neytron beradi"
    ],
-   "e": "Elektron qabul qilish — qaytarilish."
+   "e": "Oksidlanish darajasi ortadi."
   },
   {
    "b": "Reaksiyalar",
-   "q": "Katalizator reaksiyaga qanday ta'sir qiladi?",
+   "q": "Qaytaruvchi deb qanday zarrachaga aytiladi?",
    "a": [
-    "Reaksiya tezligini o'zgartiradi, o'zi sarflanmaydi",
-    "Reaksiya mahsulotini o'zgartiradi",
-    "Muvozanatni siljitadi",
-    "Reaksiyada to'liq sarflanadi"
+    "Elektron beradigan",
+    "Elektron qabul qiladigan",
+    "Proton beradigan",
+    "Neytral zarracha"
    ],
-   "e": "Katalizator faollanish energiyasini kamaytiradi."
+   "e": "Qaytaruvchi o'zi oksidlanadi."
   },
   {
    "b": "Reaksiyalar",
-   "q": "Le Shatelye prinsipiga ko'ra, muvozanatdagi tizimda reagent konsentratsiyasi oshirilsa, muvozanat qayerga siljiydi?",
+   "q": "H₂SO₄ da oltingugurtning oksidlanish darajasi nechaga teng?",
    "a": [
-    "Mahsulotlar hosil bo'lishi tomon",
-    "Reagentlar tomon",
-    "Siljimaydi",
-    "Reaksiya to'xtaydi"
+    "+6",
+    "+4",
+    "−2",
+    "+2"
    ],
-   "e": "Tizim tashqi ta'sirni kamaytirishga intiladi."
+   "e": "2·(+1) + x + 4·(−2) = 0."
   },
   {
    "b": "Reaksiyalar",
-   "q": "Issiqlik ajralib chiqadigan reaksiya qanday ataladi?",
+   "q": "KMnO₄ da marganesning oksidlanish darajasi nechaga teng?",
    "a": [
-    "Ekzotermik",
-    "Endotermik",
-    "Katalitik",
-    "Qaytar"
+    "+7",
+    "+4",
+    "+2",
+    "+6"
    ],
-   "e": "Endotermik reaksiyada issiqlik yutiladi."
+   "e": "+1 + x + 4·(−2) = 0."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "NH₃ da azotning oksidlanish darajasi nechaga teng?",
+   "a": [
+    "−3",
+    "+3",
+    "+5",
+    "0"
+   ],
+   "e": "x + 3·(+1) = 0."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Oddiy moddalarda elementning oksidlanish darajasi nechaga teng?",
+   "a": [
+    "0",
+    "+1",
+    "−1",
+    "Guruh raqamiga"
+   ],
+   "e": "Masalan, O₂, Fe, Cl₂."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Zn + 2HCl → ZnCl₂ + H₂ reaksiyasida qaytaruvchi qaysi?",
+   "a": [
+    "Zn",
+    "HCl",
+    "ZnCl₂",
+    "H₂"
+   ],
+   "e": "Zn⁰ → Zn²⁺ (elektron beradi)."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Elektroliz deb nimaga aytiladi?",
+   "a": [
+    "Elektr toki ta'sirida eritma yoki suyuqlanmada boradigan oksidlanish-qaytarilish",
+    "Moddaning elektr toki ta'sirisiz suvda ionlarga ajralishi va eritmaning qizishi jarayoni",
+    "Metallarning havoda zanglashi",
+    "Moddaning yonishi"
+   ],
+   "e": "Katodda qaytarilish, anodda oksidlanish boradi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "CuSO₄ eritmasi elektroliz qilinganda katodda nima ajraladi?",
+   "a": [
+    "Mis",
+    "Vodorod",
+    "Kislorod",
+    "Oltingugurt"
+   ],
+   "e": "Mis kuchlanishlar qatorida vodoroddan keyin turadi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Gidroliz deb nimaga aytiladi?",
+   "a": [
+    "Tuz ionlarining suv bilan almashinish reaksiyasi",
+    "Moddaning yonish reaksiyasi",
+    "Metalning kislota bilan reaksiyasi",
+    "Gazning siqilishi va suyuqlikka aylanishi"
+   ],
+   "e": "Kuchsiz kislota yoki kuchsiz asos qoldig'i gidrolizlanadi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Na₂CO₃ eritmasi qanday muhitga ega?",
+   "a": [
+    "Ishqoriy",
+    "Kislotali",
+    "Neytral",
+    "Muhiti yo'q"
+   ],
+   "e": "Kuchli asos va kuchsiz kislota tuzi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "NaCl eritmasi qanday muhitga ega?",
+   "a": [
+    "Neytral",
+    "Kislotali",
+    "Ishqoriy",
+    "Kuchli kislotali"
+   ],
+   "e": "Kuchli asos va kuchli kislota tuzi gidrolizlanmaydi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Reaksiya tenglamasi: CH₄ + 2O₂ → CO₂ + 2H₂O. 1 mol metan yonishi uchun necha mol kislorod kerak?",
+   "a": [
+    "2 mol",
+    "1 mol",
+    "3 mol",
+    "4 mol"
+   ],
+   "e": "Koeffitsientlar bo'yicha."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "2H₂ + O₂ → 2H₂O. 4 g vodorod yonganda necha gramm suv hosil bo'ladi?",
+   "a": [
+    "36 g",
+    "18 g",
+    "32 g",
+    "4 g"
+   ],
+   "e": "4 g H₂ = 2 mol → 2 mol H₂O = 36 g."
   },
   {
    "b": "Eritmalar",
-   "q": "Eritmaning massa ulushi qanday hisoblanadi?",
+   "q": "Eritma deb nimaga aytiladi?",
+   "a": [
+    "Erituvchi va erigan moddadan iborat bir jinsli sistema",
+    "Ikki aralashmaydigan suyuqlikning qatlam-qatlam turgan aralashmasi",
+    "Suyuqlikdagi qattiq zarrachalar suspenziyasi",
+    "Toza suv"
+   ],
+   "e": "Eritmalar bir jinsli (gomogen) bo'ladi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Moddaning massa ulushi qanday hisoblanadi?",
    "a": [
     "Erigan modda massasining eritma massasiga nisbati",
-    "Erituvchi massasining erigan modda massasiga nisbati",
-    "Moddaning molyar massasi",
-    "Eritma hajmining massaga nisbati"
+    "Erigan modda massasining erituvchi massasiga nisbati",
+    "Eritma hajmining modda massasiga nisbati",
+    "Modda miqdorining hajmga nisbati"
    ],
    "e": "ω = m(modda)/m(eritma)·100%."
   },
   {
    "b": "Eritmalar",
-   "q": "200 g eritmada 20 g tuz bo'lsa, tuzning massa ulushi qancha?",
+   "q": "200 g suvda 50 g tuz eritildi. Tuzning massa ulushi necha foiz?",
    "a": [
-    "10%",
     "20%",
-    "5%",
-    "11%"
+    "25%",
+    "50%",
+    "40%"
    ],
-   "e": "20/200·100% = 10%."
+   "e": "50/(200 + 50) = 0,2."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "300 g 10% li eritmada necha gramm erigan modda bor?",
+   "a": [
+    "30 g",
+    "10 g",
+    "3 g",
+    "270 g"
+   ],
+   "e": "300·0,1."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Molyar konsentratsiya qanday birlikda ifodalanadi?",
+   "a": [
+    "mol/l",
+    "g/mol",
+    "%",
+    "g/ml"
+   ],
+   "e": "C = n/V."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "2 l eritmada 1 mol NaOH bor. Molyar konsentratsiyasi qancha?",
+   "a": [
+    "0,5 mol/l",
+    "2 mol/l",
+    "1 mol/l",
+    "40 mol/l"
+   ],
+   "e": "C = 1/2."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Elektrolitlar deb qanday moddalarga aytiladi?",
+   "a": [
+    "Eritmasi yoki suyuqlanmasi tok o'tkazadigan moddalar",
+    "Hech qanday holatda (eritmada ham, suyuqlanmada ham) tok o'tkazmaydigan moddalar",
+    "Faqat metallar",
+    "Faqat gazlar"
+   ],
+   "e": "Kislotalar, asoslar, tuzlar — elektrolitlar."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Kuchsiz elektrolitga qaysi biri misol bo'ladi?",
+   "a": [
+    "CH₃COOH",
+    "HCl",
+    "NaOH",
+    "NaCl"
+   ],
+   "e": "Sirka kislota qisman dissotsilanadi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Elektrolitik dissotsilanish nazariyasini kim yaratgan?",
+   "a": [
+    "S. Arrenius",
+    "D. Mendeleyev",
+    "A. Butlerov",
+    "M. Faradey"
+   ],
+   "e": "1887-yil."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Qattiq moddalarning eruvchanligi harorat ortishi bilan odatda qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Gazlar eruvchanligi esa harorat oshganda kamayadi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "To'yingan eritma deb qanday eritmaga aytiladi?",
+   "a": [
+    "Berilgan haroratda moddani boshqa erita olmaydigan eritma",
+    "Moddani istalgan haroratda cheksiz miqdorda erita oladigan eritma",
+    "Juda suyultirilgan eritma",
+    "Qaynayotgan eritma"
+   ],
+   "e": "To'yinmagan eritma yana modda erita oladi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Ionli reaksiya oxirigacha borishi uchun qanday shart bajarilishi kerak?",
+   "a": [
+    "Cho'kma, gaz yoki kam dissotsilanadigan modda hosil bo'lishi",
+    "Reaksiyada albatta katalizator ishtirok etishi va harorat yuqori bo'lishi",
+    "Eritma rangsiz bo'lishi",
+    "Harorat 0 °C bo'lishi"
+   ],
+   "e": "Bertolle qoidasi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Ba²⁺ + SO₄²⁻ → ? qisqa ionli tenglamada nima hosil bo'ladi?",
+   "a": [
+    "BaSO₄ (oq cho'kma)",
+    "BaS (gaz)",
+    "H₂SO₄",
+    "Ba(OH)₂"
+   ],
+   "e": "Sulfat-ionga sifat reaksiyasi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Cl⁻ ioniga sifat reaksiyasi qaysi ion bilan amalga oshiriladi?",
+   "a": [
+    "Ag⁺",
+    "Ba²⁺",
+    "Fe³⁺",
+    "Na⁺"
+   ],
+   "e": "AgCl — oq pishloqsimon cho'kma."
   },
   {
    "b": "Metallar",
-   "q": "Temirning korroziyasi (zanglashi) uchun nima zarur?",
+   "q": "Metallarning umumiy fizik xossalariga nima kiradi?",
    "a": [
-    "Kislorod va namlik",
-    "Faqat azot",
-    "Faqat quruq havo",
-    "Vakuum"
+    "Elektr va issiqlik o'tkazuvchanlik, metall yaltiroqlik",
+    "Mo'rtlik va elektr tokini mutlaqo o'tkazmaslik",
+    "Faqat suyuq holatda bo'lish va past qaynash harorati",
+    "Shaffoflik"
    ],
-   "e": "Korroziyadan himoya: bo'yash, rux qoplash, ingibitorlar."
+   "e": "Erkin elektronlar bu xossalarni ta'minlaydi."
   },
   {
    "b": "Metallar",
-   "q": "Rux bilan qoplangan temir qanday ataladi?",
+   "q": "Xona haroratida suyuq bo'lgan metall qaysi?",
    "a": [
-    "Ruxlangan (galvanizlangan) temir",
-    "Oq tunuka",
+    "Simob",
+    "Natriy",
+    "Qo'rg'oshin",
+    "Alyuminiy"
+   ],
+   "e": "Simob −39 °C da qotadi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Eng yaxshi elektr o'tkazuvchi metall qaysi?",
+   "a": [
+    "Kumush",
+    "Temir",
+    "Qo'rg'oshin",
+    "Alyuminiy"
+   ],
+   "e": "Keyin mis, oltin, alyuminiy."
+  },
+  {
+   "b": "Metallar",
+   "q": "Metallar kuchlanishlar qatorida vodoroddan oldin turgan metallar kislotalar bilan qanday reaksiyaga kirishadi?",
+   "a": [
+    "Vodorodni siqib chiqaradi",
+    "Hech qanday reaksiyaga kirishmaydi",
+    "Kislorod ajratadi",
+    "Faqat cho'kma hosil qiladi"
+   ],
+   "e": "Masalan, Zn + 2HCl → ZnCl₂ + H₂."
+  },
+  {
+   "b": "Metallar",
+   "q": "Qaysi metall suyultirilgan xlorid kislota bilan reaksiyaga kirishmaydi?",
+   "a": [
+    "Mis",
+    "Rux",
+    "Temir",
+    "Magniy"
+   ],
+   "e": "Mis kuchlanishlar qatorida vodoroddan keyin."
+  },
+  {
+   "b": "Metallar",
+   "q": "Temirni korroziyadan himoyalash usullaridan biri qaysi?",
+   "a": [
+    "Ruxlash (sinklash)",
+    "Temirni nam joyda saqlash",
+    "Temirni tuzli suvga botirish",
+    "Temirni kislotaga tushirish"
+   ],
+   "e": "Rux temirdan faolroq va himoya qatlami hosil qiladi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Korroziya deb nimaga aytiladi?",
+   "a": [
+    "Metallarning muhit ta'sirida yemirilishi",
+    "Metallarni yuqori haroratda eritib, qoliplarga quyish jarayoni",
+    "Metallarni bolg'alash",
+    "Metallarning elektr o'tkazuvchanligi"
+   ],
+   "e": "Kimyoviy va elektrokimyoviy korroziya ajratiladi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Cho'yan va po'lat qaysi elementlar qotishmasi?",
+   "a": [
+    "Temir va uglerod",
+    "Mis va rux",
+    "Mis va qalay",
+    "Alyuminiy va magniy"
+   ],
+   "e": "Cho'yanda uglerod 2,14% dan ko'p, po'latda kam."
+  },
+  {
+   "b": "Metallar",
+   "q": "Latun qaysi metallar qotishmasi?",
+   "a": [
+    "Mis va rux",
+    "Mis va qalay",
+    "Temir va xrom",
+    "Alyuminiy va mis"
+   ],
+   "e": "Bronza — mis va qalay (yoki boshqa elementlar)."
+  },
+  {
+   "b": "Metallar",
+   "q": "Alyuminiy sanoatda qanday olinadi?",
+   "a": [
+    "Al₂O₃ suyuqlanmasini elektroliz qilib",
+    "Alyuminiy oksidini ko'mir bilan qaytarib",
+    "Alyuminiy tuzini suvda eritib",
+    "Boksitni qizdirib, havoda yoqib"
+   ],
+   "e": "Kriolit suyuqlanmasida elektroliz."
+  },
+  {
+   "b": "Metallar",
+   "q": "Ishqoriy metallar suv bilan reaksiyaga kirishganda nima hosil bo'ladi?",
+   "a": [
+    "Ishqor va vodorod",
+    "Oksid va kislorod",
+    "Tuz va suv",
+    "Kislota va vodorod"
+   ],
+   "e": "2Na + 2H₂O → 2NaOH + H₂."
+  },
+  {
+   "b": "Metallar",
+   "q": "Suvning qattiqligiga qaysi ionlar sabab bo'ladi?",
+   "a": [
+    "Ca²⁺ va Mg²⁺",
+    "Na⁺ va K⁺",
+    "Cl⁻ va Br⁻",
+    "H⁺ va OH⁻"
+   ],
+   "e": "Vaqtinchalik qattiqlik qaynatish bilan yo'qotiladi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Domna pechida temir rudasidan nima olinadi?",
+   "a": [
     "Cho'yan",
-    "Po'lat"
+    "Toza alyuminiy",
+    "Mis",
+    "Po'lat to'g'ridan-to'g'ri"
    ],
-   "e": "Oq tunuka — qalay bilan qoplangan temir."
-  },
-  {
-   "b": "Metallar",
-   "q": "Po'lat cho'yandan nima bilan farq qiladi?",
-   "a": [
-    "Uglerod miqdori kamroq (≈2,14% gacha)",
-    "Uglerod miqdori ko'proq",
-    "Temir umuman bo'lmaydi",
-    "Mis qo'shilgan"
-   ],
-   "e": "Cho'yanda uglerod 2,14% dan ko'p."
+   "e": "Cho'yandan keyin po'lat olinadi."
   },
   {
    "b": "Organik kimyo",
-   "q": "Metanning formulasi qaysi?",
+   "q": "Organik moddalar tuzilish nazariyasini kim yaratgan?",
+   "a": [
+    "A. M. Butlerov",
+    "D. I. Mendeleyev",
+    "M. V. Lomonosov",
+    "S. Arrenius"
+   ],
+   "e": "1861-yilda."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Organik birikmalarda uglerodning valentligi nechaga teng?",
+   "a": [
+    "IV",
+    "II",
+    "III",
+    "I"
+   ],
+   "e": "Uglerod to'rt valentli."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Alkanlarning umumiy formulasi qaysi?",
+   "a": [
+    "CₙH₂ₙ₊₂",
+    "CₙH₂ₙ",
+    "CₙH₂ₙ₋₂",
+    "CₙH₂ₙ₋₆"
+   ],
+   "e": "Alkenlar — CₙH₂ₙ, alkinlar — CₙH₂ₙ₋₂."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Metan formulasi qaysi?",
    "a": [
     "CH₄",
     "C₂H₆",
     "C₂H₄",
-    "CH₃OH"
+    "C₂H₂"
    ],
-   "e": "Metan — eng oddiy alkan, tabiiy gazning asosiy tarkibiy qismi."
+   "e": "Eng oddiy alkan."
   },
   {
    "b": "Organik kimyo",
-   "q": "Alkenlar molekulasida qanday bog' bo'ladi?",
+   "q": "Etilen (eten) formulasi qaysi?",
    "a": [
-    "Bitta qo'sh bog' (C=C)",
-    "Faqat oddiy bog'lar",
-    "Uch karrali bog'",
-    "Ion bog'"
+    "C₂H₄",
+    "C₂H₆",
+    "C₂H₂",
+    "CH₄"
    ],
-   "e": "Alkinlarda uch karrali bog' bo'ladi."
+   "e": "Bitta qo'sh bog' bor."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Atsetilen (etin) formulasi qaysi?",
+   "a": [
+    "C₂H₂",
+    "C₂H₄",
+    "C₂H₆",
+    "C₆H₆"
+   ],
+   "e": "Bitta uch bog' bor."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Benzolning molekulyar formulasi qaysi?",
+   "a": [
+    "C₆H₆",
+    "C₆H₁₂",
+    "C₆H₁₄",
+    "C₆H₅OH"
+   ],
+   "e": "Aromatik uglevodorod."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Izomerlar deb qanday moddalarga aytiladi?",
+   "a": [
+    "Tarkibi bir xil, tuzilishi turlicha bo'lgan moddalar",
+    "Tuzilishi bir xil, tarkibi turlicha bo'lgan moddalar",
+    "Bir xil gomologik qatordagi moddalar",
+    "Faqat bir xil rangli moddalar"
+   ],
+   "e": "Masalan, butan va izobutan."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Gomologlar bir-biridan qaysi guruhga farq qiladi?",
+   "a": [
+    "CH₂",
+    "CH₃",
+    "OH",
+    "COOH"
+   ],
+   "e": "Gomologik farq — CH₂."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Alkanlar uchun qanday reaksiyalar xos?",
+   "a": [
+    "O'rin olish (masalan, galogenlash)",
+    "Birikish reaksiyalari (gidrogenlash)",
+    "Polimerlanish",
+    "Gidratlanish"
+   ],
+   "e": "Alkanlar to'yingan uglevodorodlar."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Alkenlarga qanday reaksiyalar xos?",
+   "a": [
+    "Birikish",
+    "Faqat o'rin olish",
+    "Faqat parchalanish",
+    "Reaksiyaga kirishmaydi"
+   ],
+   "e": "Qo'sh bog' bo'yicha birikish boradi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Brom suvini rangsizlantiradigan modda qaysi?",
+   "a": [
+    "Etilen",
+    "Metan",
+    "Etan",
+    "Propan"
+   ],
+   "e": "To'yinmagan uglevodorodlarga sifat reaksiyasi."
   },
   {
    "b": "Organik kimyo",
@@ -297,42 +1320,2000 @@
     "C₂H₅OH",
     "CH₃OH",
     "CH₃COOH",
-    "C₆H₆"
+    "C₂H₆"
    ],
-   "e": "CH₃OH — metanol (zaharli), CH₃COOH — sirka kislota."
+   "e": "Etanol."
   },
   {
    "b": "Organik kimyo",
-   "q": "Benzol (C₆H₆) qaysi uglevodorodlar sinfiga kiradi?",
+   "q": "Metanol qanday xususiyatga ega?",
    "a": [
-    "Aromatik",
-    "Alkanlar",
-    "Alkenlar",
-    "Alkinlar"
+    "Juda zaharli",
+    "Oziq-ovqat sanoatida ichimlik sifatida ishlatiladi",
+    "Zaharsiz va xavfsiz",
+    "Suvda erimaydi"
    ],
-   "e": "Benzol halqasi aromatik tizim hisoblanadi."
+   "e": "Kam miqdori ko'rlik va o'limga olib kelishi mumkin."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Spirtlarning funksional guruhi qaysi?",
+   "a": [
+    "−OH",
+    "−COOH",
+    "−CHO",
+    "−NH₂"
+   ],
+   "e": "Gidroksil guruh."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Karbon kislotalarning funksional guruhi qaysi?",
+   "a": [
+    "−COOH",
+    "−OH",
+    "−CHO",
+    "−NO₂"
+   ],
+   "e": "Karboksil guruh."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Aldegidlarning funksional guruhi qaysi?",
+   "a": [
+    "−CHO",
+    "−COOH",
+    "−OH",
+    "−NH₂"
+   ],
+   "e": "Karbonil guruh (aldegid)."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Aminlarning funksional guruhi qaysi?",
+   "a": [
+    "−NH₂",
+    "−NO₂",
+    "−OH",
+    "−COOH"
+   ],
+   "e": "Aminoguruh."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Sirka kislotaning formulasi qaysi?",
+   "a": [
+    "CH₃COOH",
+    "HCOOH",
+    "C₂H₅OH",
+    "CH₃CHO"
+   ],
+   "e": "Etan kislotasi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Kumush ko'zgu reaksiyasi qaysi sinf birikmalariga sifat reaksiyasi?",
+   "a": [
+    "Aldegidlar",
+    "Spirtlar",
+    "Alkanlar",
+    "Efirlar"
+   ],
+   "e": "Aldegid kumush oksidining ammiakli eritmasini qaytaradi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Murakkab efirlar qanday reaksiya natijasida hosil bo'ladi?",
+   "a": [
+    "Eterifikatsiya (kislota + spirt)",
+    "Gidrogenlash (qo'sh bog'ga vodorod biriktirish)",
+    "Polimerlanish",
+    "Krekinglash"
+   ],
+   "e": "Kislota va spirtdan suv ajralib, efir hosil bo'ladi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Yog'lar qanday birikmalar sinfiga kiradi?",
+   "a": [
+    "Glitserin va yuqori yog' kislotalarining murakkab efirlari",
+    "Uglevodlar (polisaxaridlar va disaxaridlar)",
+    "Oqsillar",
+    "Alkanlar"
+   ],
+   "e": "Yog'lar ishqoriy gidrolizi sovun beradi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Sovunlanish reaksiyasi nima?",
+   "a": [
+    "Yog'larning ishqoriy gidrolizi",
+    "Spirtning kislorod ta'sirida aldegidgacha oksidlanishi",
+    "Alkenning polimerlanishi",
+    "Glyukozaning bijg'ishi"
+   ],
+   "e": "Natijada glitserin va sovun hosil bo'ladi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Glyukozaning molekulyar formulasi qaysi?",
+   "a": [
+    "C₆H₁₂O₆",
+    "C₁₂H₂₂O₁₁",
+    "(C₆H₁₀O₅)ₙ",
+    "C₆H₆"
+   ],
+   "e": "Saxaroza — C₁₂H₂₂O₁₁."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Kraxmal qanday modda?",
+   "a": [
+    "Tabiiy polisaxarid",
+    "Monosaxarid (oddiy shirin uglevod)",
+    "Oqsil",
+    "Yog'"
+   ],
+   "e": "Formulasi (C₆H₁₀O₅)ₙ."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Kraxmalga sifat reaksiyasi qaysi?",
+   "a": [
+    "Yod bilan ko'k rang",
+    "Brom suvi bilan rangsizlanish",
+    "Fenolftalein bilan pushti rang",
+    "Mis gidroksid bilan qizil cho'kma"
+   ],
+   "e": "Yod-kraxmal reaksiyasi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Sellyuloza qayerda ko'p uchraydi?",
+   "a": [
+    "O'simlik hujayra devorida (paxta, yog'och)",
+    "Hayvonlar yog' to'qimasida va jigarda",
+    "Tuxum oqida",
+    "Neftda"
+   ],
+   "e": "Paxta deyarli toza sellyulozadan iborat."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Oqsillar qanday monomerlardan tuzilgan?",
+   "a": [
+    "Aminokislotalar",
+    "Glyukoza",
+    "Nukleotidlar",
+    "Yog' kislotalari"
+   ],
+   "e": "Aminokislotalar peptid bog' bilan birikadi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Oqsillarga sifat reaksiyasi qaysi?",
+   "a": [
+    "Biuret reaksiyasi (binafsha rang)",
+    "Kumush ko'zgu reaksiyasi (ammiakli eritma)",
+    "Yod bilan ko'k rang",
+    "Brom suvining rangsizlanishi"
+   ],
+   "e": "Ishqoriy muhitda CuSO₄ bilan binafsha rang."
   },
   {
    "b": "Organik kimyo",
    "q": "Polietilen qanday reaksiya natijasida olinadi?",
    "a": [
-    "Etilenning polimerlanishi",
-    "Metanning yonishi",
-    "Benzolning nitrolanishi",
-    "Spirtning oksidlanishi"
+    "Etilenni polimerlash",
+    "Etanni katalizator ishtirokida gidrogenlash",
+    "Metanni xlorlash",
+    "Benzolni nitrolash"
    ],
    "e": "n CH₂=CH₂ → (−CH₂−CH₂−)ₙ."
   },
   {
    "b": "Organik kimyo",
-   "q": "Oqsillarning tarkibiy birligi nima?",
+   "q": "Polimer molekulasidagi takrorlanuvchi bo'g'in qanday nomlanadi?",
    "a": [
-    "Aminokislotalar",
-    "Glyukoza",
-    "Yog' kislotalar",
-    "Nukleotidlar faqat"
+    "Elementar bo'g'in (zveno)",
+    "Monomer molekulasi (boshlang'ich modda)",
+    "Polimerlanish darajasi",
+    "Katalizator"
    ],
-   "e": "Aminokislotalar peptid bog'lar bilan bog'lanadi."
+   "e": "Polimerlanish darajasi — bo'g'inlar soni (n)."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Neftni qayta ishlashning birlamchi usuli qaysi?",
+   "a": [
+    "Haydash (fraksiyalarga ajratish)",
+    "Katalitik krekinglash (molekulalarni parchalash)",
+    "Polimerlash",
+    "Gidroliz"
+   ],
+   "e": "Krekinglash — ikkilamchi qayta ishlash."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Krekinglash nima?",
+   "a": [
+    "Uzun zanjirli uglevodorodlarni qisqaroqlarga parchalash",
+    "Kichik molekulalarni yirik polimerga birlashtirish",
+    "Neftni fraksiyalarga haydash",
+    "Benzinga rang beruvchi va antidetonator qo'shish jarayoni"
+   ],
+   "e": "Termik va katalitik krekinglash mavjud."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Tabiiy gazning asosiy tarkibiy qismi qaysi?",
+   "a": [
+    "Metan",
+    "Etan",
+    "Propan",
+    "Butan"
+   ],
+   "e": "Tabiiy gazning 90% dan ko'prog'i metan."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Benzinning detonatsiyaga chidamliligi qanday ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Oktan soni",
+    "Setan soni",
+    "Yopishqoqlik",
+    "Zichlik"
+   ],
+   "e": "Dizel yoqilg'isi uchun setan soni ishlatiladi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Fenolning formulasi qaysi?",
+   "a": [
+    "C₆H₅OH",
+    "C₆H₆",
+    "C₂H₅OH",
+    "C₆H₁₂O₆"
+   ],
+   "e": "Fenol — aromatik spirt (kuchsiz kislota xossali)."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Anilin formulasi qaysi?",
+   "a": [
+    "C₆H₅NH₂",
+    "C₆H₅NO₂",
+    "C₆H₅OH",
+    "CH₃NH₂"
+   ],
+   "e": "Anilin nitrobenzolni qaytarish orqali olinadi (Zinin reaksiyasi)."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Etil spirti olishning sanoat usullaridan biri qaysi?",
+   "a": [
+    "Etilenni gidratlash",
+    "Metanni xlorlash",
+    "Benzolni nitrolash",
+    "Sirka kislotasini neytrallash"
+   ],
+   "e": "Shuningdek glyukozani bijg'itish orqali olinadi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Glyukozaning spirtli bijg'ishi natijasida nima hosil bo'ladi?",
+   "a": [
+    "Etanol va karbonat angidrid",
+    "Metanol, kislorod va ozroq sirka kislotasi",
+    "Sirka kislota va vodorod",
+    "Glitserin va suv"
+   ],
+   "e": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Kauchukni vulkanlash nima?",
+   "a": [
+    "Kauchukni oltingugurt bilan qizdirib rezina olish",
+    "Kauchukni suvda eritish",
+    "Kauchukni xlor bilan ishlab, uning eruvchanligini oshirish",
+    "Kauchukni yoqish"
+   ],
+   "e": "Vulkanlash kauchukni elastik va mustahkam qiladi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Nuklein kislotalar qanday monomerlardan tuzilgan?",
+   "a": [
+    "Nukleotidlar",
+    "Aminokislotalar",
+    "Monosaxaridlar",
+    "Yog' kislotalari"
+   ],
+   "e": "DNK va RNK — nuklein kislotalar."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Formaldegid (metanal) suvdagi 40% li eritmasi qanday nomlanadi?",
+   "a": [
+    "Formalin",
+    "Spirt",
+    "Glitserin",
+    "Atseton"
+   ],
+   "e": "Biologik preparatlarni saqlashda ishlatiladi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Atsetonning sinfi qaysi?",
+   "a": [
+    "Keton",
+    "Aldegid",
+    "Spirt",
+    "Efir"
+   ],
+   "e": "CH₃COCH₃ — eng oddiy keton."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Glitserin qanday spirt?",
+   "a": [
+    "Uch atomli",
+    "Bir atomli",
+    "Ikki atomli",
+    "To'rt atomli"
+   ],
+   "e": "C₃H₅(OH)₃."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Mis(II) gidroksid bilan ko'k eritma hosil qiluvchi ko'p atomli spirtlarga sifat reaksiyasi qaysi moddada kuzatiladi?",
+   "a": [
+    "Glitserin",
+    "Etanol",
+    "Metanol",
+    "Fenol"
+   ],
+   "e": "Ko'p atomli spirtlar Cu(OH)₂ bilan yorqin ko'k kompleks hosil qiladi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Sintetik tolaga qaysi biri misol bo'ladi?",
+   "a": [
+    "Kapron",
+    "Paxta",
+    "Jun",
+    "Ipak (tabiiy)"
+   ],
+   "e": "Kapron, lavsan, neylon — sintetik tolalar."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Sun'iy tolaga qaysi biri misol bo'ladi?",
+   "a": [
+    "Atsetat tola",
+    "Kapron (poliamid tola)",
+    "Paxta",
+    "Jun"
+   ],
+   "e": "Sun'iy tolalar tabiiy polimerlarni (sellyulozani) kimyoviy qayta ishlab olinadi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Ammiakning formulasi qaysi?",
+   "a": [
+    "NH₃",
+    "N₂O",
+    "HNO₃",
+    "NH₄Cl"
+   ],
+   "e": "Ammiak — o'tkir hidli gaz."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Sanoatda ammiak qanday usulda olinadi?",
+   "a": [
+    "Azot va vodoroddan katalizator ishtirokida (Gaber usuli)",
+    "Ammoniy xloridni suvda eritib, eritmani uzoq qaynatish orqali",
+    "Azot kislotasini qaytarib",
+    "Havoni suyultirib"
+   ],
+   "e": "N₂ + 3H₂ ⇌ 2NH₃, temir katalizator, yuqori bosim."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Nitrat kislotaning formulasi qaysi?",
+   "a": [
+    "HNO₃",
+    "HNO₂",
+    "H₂SO₄",
+    "H₃PO₄"
+   ],
+   "e": "Kuchli oksidlovchi kislota."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Konsentrlangan sulfat kislota qanday xususiyatga ega?",
+   "a": [
+    "Kuchli suv tortuvchi va oksidlovchi",
+    "Zaif kislota bo'lib, hech qanday metal bilan reaksiyaga kirishmaydi",
+    "Uchuvchan va hidli",
+    "Ishqoriy xossaga ega"
+   ],
+   "e": "Organik moddalarni ko'mirlantiradi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Sulfat kislotani suyultirishda qaysi qoida bajariladi?",
+   "a": [
+    "Kislota suvga ingichka oqim bilan quyiladi",
+    "Suv kislotaga tez va katta oqim bilan quyiladi",
+    "Ikkalasi bir vaqtda idishga to'kiladi",
+    "Kislota qaynoq suvga solinadi"
+   ],
+   "e": "Teskari holatda kuchli qizish va sachrash yuz beradi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Fosfor kislotaning formulasi qaysi?",
+   "a": [
+    "H₃PO₄",
+    "HPO₃",
+    "H₂SO₄",
+    "HClO₄"
+   ],
+   "e": "Uch negizli kislota."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Mineral o'g'itlarga qaysi biri kiradi?",
+   "a": [
+    "Superfosfat",
+    "Kraxmal",
+    "Etanol",
+    "Polietilen"
+   ],
+   "e": "Azotli, fosforli, kaliyli o'g'itlar ajratiladi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Karbamid (mochevina) qanday o'g'it?",
+   "a": [
+    "Azotli",
+    "Fosforli",
+    "Kaliyli",
+    "Mikroo'g'it"
+   ],
+   "e": "(NH₂)₂CO tarkibida 46% gacha azot."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Selitra deb qanday birikmalarga aytiladi?",
+   "a": [
+    "Nitrat kislota tuzlari",
+    "Sulfat kislota tuzlari",
+    "Xlorid kislota tuzlari",
+    "Karbonat kislota tuzlari"
+   ],
+   "e": "Masalan, KNO₃ — kaliyli selitra."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Xlorning laboratoriyada olinish usullaridan biri qaysi?",
+   "a": [
+    "MnO₂ ga konsentrlangan HCl ta'sir ettirish",
+    "NaCl ni suvda eritish",
+    "Xlorid kislotani qizdirish va bug'latish",
+    "Natriy gidroksid eritmasini elektroliz qilib, anodda ajratish"
+   ],
+   "e": "Sanoatda NaCl eritmasi elektroliz qilinadi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Ozon (O₃) qatlamining ahamiyati nima?",
+   "a": [
+    "Yerni ultrabinafsha nurlardan himoya qiladi",
+    "Yer atmosferasini kislorod bilan to'yintiradi va issiqlikni ushlab qoladi",
+    "Yomg'ir hosil qiladi",
+    "Yerga issiqlik beradi"
+   ],
+   "e": "Freonlar ozon qatlamini yemiradi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Vodorod sulfid (H₂S) qanday hidga ega?",
+   "a": [
+    "Palag'da tuxum hidi",
+    "Hidsiz",
+    "Shirin meva hidi",
+    "Achchiq qalampir hidi"
+   ],
+   "e": "Juda zaharli gaz."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Karbonat angidrid (CO₂) qanday gaz?",
+   "a": [
+    "Rangsiz, havodan og'ir, yonishni quvvatlamaydi",
+    "Sariq-yashil rangli, havodan yengil va yaxshi yonuvchi gaz",
+    "Juda zaharli, o'tkir hidli",
+    "Faqat suyuq holatda uchraydi"
+   ],
+   "e": "O't o'chirgichlarda ishlatiladi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Is gazi (CO) qanday xususiyatga ega?",
+   "a": [
+    "Rangsiz, hidsiz, juda zaharli",
+    "O'tkir hidli, rangli va suvda yaxshi eriydigan",
+    "Zaharsiz va inert",
+    "Havodan ancha og'ir"
+   ],
+   "e": "Gemoglobin bilan barqaror birikma hosil qiladi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Ohak suvini loyqalatuvchi gaz qaysi?",
+   "a": [
+    "CO₂",
+    "O₂",
+    "H₂",
+    "N₂"
+   ],
+   "e": "Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Kremniy (IV) oksidi tabiatda qanday ko'rinishda uchraydi?",
+   "a": [
+    "Kvars, qum",
+    "Ohaktosh",
+    "Osh tuzi",
+    "Gips"
+   ],
+   "e": "SiO₂ — qum va kvars asosi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Shisha ishlab chiqarishda asosiy xomashyolar qaysi?",
+   "a": [
+    "Qum, soda va ohaktosh",
+    "Gil, temir rudasi va ko'mir",
+    "Neft, gaz va suv",
+    "Tuz, sulfat kislota va ammiak"
+   ],
+   "e": "Oddiy shisha — natriy va kalsiy silikatlari."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Sement qaysi xomashyodan olinadi?",
+   "a": [
+    "Ohaktosh va gil",
+    "Qum va soda",
+    "Temir rudasi va koks",
+    "Tuz va kislota"
+   ],
+   "e": "Klinkerni maydalab sement olinadi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "So'ndirilgan ohakning formulasi qaysi?",
+   "a": [
+    "Ca(OH)₂",
+    "CaO",
+    "CaCO₃",
+    "CaSO₄"
+   ],
+   "e": "CaO + H₂O → Ca(OH)₂ (so'ndirish)."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Gipsning formulasi qaysi?",
+   "a": [
+    "CaSO₄·2H₂O",
+    "CaCO₃",
+    "Ca(OH)₂",
+    "CaCl₂"
+   ],
+   "e": "Qurilish va tibbiyotda ishlatiladi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Vodorod peroksidning formulasi qaysi?",
+   "a": [
+    "H₂O₂",
+    "H₂O",
+    "HO",
+    "H₂O₃"
+   ],
+   "e": "Antiseptik va oqartiruvchi sifatida ishlatiladi."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Laboratoriyada kislorod olish usullaridan biri qaysi?",
+   "a": [
+    "KMnO₄ ni qizdirish",
+    "Suvni muzlatish",
+    "Ohak suviga CO₂ yuborish",
+    "NaCl ni eritish"
+   ],
+   "e": "2KMnO₄ → K₂MnO₄ + MnO₂ + O₂."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Vodorodni laboratoriyada olish usuli qaysi?",
+   "a": [
+    "Rux va xlorid kislota reaksiyasi",
+    "Misni sovuq suvga tushirib, uzoq vaqt qoldirish",
+    "Kislorodni qizdirish",
+    "Ohakni so'ndirish"
+   ],
+   "e": "Zn + 2HCl → ZnCl₂ + H₂."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "10 g kalsiy karbonat parchalanganda necha gramm CaO hosil bo'ladi (Ca=40)?",
+   "a": [
+    "5,6 g",
+    "10 g",
+    "4,4 g",
+    "2,8 g"
+   ],
+   "e": "CaCO₃ (100) → CaO (56): 10·56/100."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Havodagi kislorodning hajmiy ulushi taxminan necha foiz?",
+   "a": [
+    "21%",
+    "78%",
+    "1%",
+    "50%"
+   ],
+   "e": "Azot ≈ 78%, argon ≈ 0,9%."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Gazning vodorodga nisbatan zichligi 16 ga teng. Uning molyar massasi nechaga teng?",
+   "a": [
+    "32 g/mol",
+    "16 g/mol",
+    "8 g/mol",
+    "64 g/mol"
+   ],
+   "e": "M = 2·D(H₂)."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Qaysi gaz havodan yengil?",
+   "a": [
+    "Vodorod",
+    "Karbonat angidrid",
+    "Xlor",
+    "Kislorod"
+   ],
+   "e": "Havoning o'rtacha molyar massasi 29 g/mol."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Kimyoviy reaksiya tezligi qaysi omillarga bog'liq?",
+   "a": [
+    "Konsentratsiya, harorat, katalizator, sirt yuzasi",
+    "Faqat reaksiya olib boriladigan idishning rangi va shakliga",
+    "Faqat reaksiya o'tkaziladigan xona hajmiga",
+    "Hech qanday omilga bog'liq emas"
+   ],
+   "e": "Reaksiyaga kirishuvchi moddalar tabiati ham ta'sir qiladi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Fizik hodisaga qaysi biri misol bo'ladi?",
+   "a": [
+    "Muzning erishi",
+    "Temirning zanglashi",
+    "Qog'ozning yonishi",
+    "Sutning achishi"
+   ],
+   "e": "Fizik hodisada yangi modda hosil bo'lmaydi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Kimyoviy hodisaga qaysi biri misol bo'ladi?",
+   "a": [
+    "Yog'ochning yonishi",
+    "Suvning bug'lanishi",
+    "Shishaning sinishi",
+    "Shakarning suvda erishi"
+   ],
+   "e": "Kimyoviy hodisada yangi moddalar hosil bo'ladi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Aralashmalarni ajratishda filtrlash qaysi holatda qo'llaniladi?",
+   "a": [
+    "Suyuqlikdan erimagan qattiq zarralarni ajratishda",
+    "Ikki aralashuvchi suyuqlikni (spirt va suvni) bir-biridan ajratishda",
+    "Erigan tuzni suvdan ajratishda",
+    "Gazlar aralashmasini ajratishda"
+   ],
+   "e": "Erigan tuz bug'latish yoki kristallash orqali ajratiladi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Distillyatsiya (haydash) nimaga asoslangan?",
+   "a": [
+    "Moddalarning qaynash haroratlari farqiga",
+    "Moddalarning rangi farqiga",
+    "Moddalarning magnit xossalari va zichliklari farqiga",
+    "Moddalarning hidiga"
+   ],
+   "e": "Distillangan suv shu usulda olinadi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Kimyoviy laboratoriyada moddani hidlashning to'g'ri usuli qaysi?",
+   "a": [
+    "Qo'l bilan havoni o'ziga yelpib hidlash",
+    "Idishni burunga yaqin olib chuqur nafas olish",
+    "Moddani tatib ko'rish",
+    "Idishni ochiq qoldirib, xonani to'ldirish"
+   ],
+   "e": "Zaharli bug'lardan ehtiyot bo'lish kerak."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Kaliyning tartib raqami nechaga teng?",
+   "a": [
+    "19",
+    "11",
+    "20",
+    "39"
+   ],
+   "e": "K: Z = 19, Ar ≈ 39."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Kislorod atomining tashqi qavatida nechta elektron bor?",
+   "a": [
+    "6",
+    "8",
+    "2",
+    "4"
+   ],
+   "e": "O: 2, 6."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Magniy qaysi guruhda joylashgan?",
+   "a": [
+    "II guruh asosiy guruhcha",
+    "I guruh asosiy guruhcha (ishqoriy metallar)",
+    "III guruh",
+    "VI guruh"
+   ],
+   "e": "Ishqoriy-yer metallari bilan bir guruhda."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Elementning eng yuqori oksidlanish darajasi asosiy guruhchalarda odatda nimaga teng?",
+   "a": [
+    "Guruh raqamiga",
+    "Davr raqamiga",
+    "Tartib raqamiga",
+    "Neytronlar soniga"
+   ],
+   "e": "Masalan, S (VI guruh) — +6."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Metallmasslarning vodorodli birikmalaridagi oksidlanish darajasi qanday topiladi?",
+   "a": [
+    "8 − guruh raqami (manfiy ishora bilan)",
+    "Guruh raqamiga ikki qo'shiladi va musbat ishora bilan olinadi",
+    "Davr raqami",
+    "Har doim −1"
+   ],
+   "e": "Masalan, N: 8 − 5 = 3 → NH₃ da −3."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Temir atomining tartib raqami nechaga teng?",
+   "a": [
+    "26",
+    "56",
+    "30",
+    "8"
+   ],
+   "e": "Fe: Z = 26, Ar ≈ 56."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Elektromanfiylik farqi juda katta bo'lgan atomlar orasida qanday bog' hosil bo'ladi?",
+   "a": [
+    "Ion bog'",
+    "Kovalent qutbsiz bog'",
+    "Metall bog'",
+    "Vodorod bog'"
+   ],
+   "e": "Masalan, Na va Cl."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Suv molekulasidagi H–O–H valent burchagi taxminan qancha?",
+   "a": [
+    "104,5°",
+    "180°",
+    "90°",
+    "120°"
+   ],
+   "e": "Kislorodda ikki taqsimlanmagan elektron jufti burchakni kichraytiradi."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Sigma (σ) bog' qanday hosil bo'ladi?",
+   "a": [
+    "Orbitallarning bog' o'qi bo'ylab qoplanishidan",
+    "Orbitallarning bog' o'qiga perpendikulyar yon tomondan qoplanishidan",
+    "Elektronlarning to'liq o'tishidan",
+    "Ionlar tortishishidan"
+   ],
+   "e": "Pi (π) bog' yon tomondan qoplanishdan hosil bo'ladi."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Uch bog'da nechta sigma va pi bog' bor?",
+   "a": [
+    "1 sigma, 2 pi",
+    "3 sigma",
+    "2 sigma, 1 pi",
+    "3 pi"
+   ],
+   "e": "Masalan, atsetilenda C≡C."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Molekulyar kristall panjarali moddalarning xususiyati nima?",
+   "a": [
+    "Past erish harorati va uchuvchanlik",
+    "Juda yuqori qattiqlik va erish harorati",
+    "Yaxshi elektr o'tkazuvchanlik",
+    "Faqat metallarga xos"
+   ],
+   "e": "Masalan, muz, yod, quruq muz."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "5% li 200 g eritmaga 50 g suv qo'shildi. Yangi massa ulushi necha foiz?",
+   "a": [
+    "4%",
+    "5%",
+    "2,5%",
+    "10%"
+   ],
+   "e": "Modda 10 g; 10/250 = 0,04."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Kristallogidratga qaysi biri misol bo'ladi?",
+   "a": [
+    "CuSO₄·5H₂O",
+    "CuSO₄",
+    "NaCl",
+    "H₂SO₄"
+   ],
+   "e": "Mis kuporosi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Kolloid eritmalarni haqiqiy eritmalardan farqlash uchun qaysi effekt ishlatiladi?",
+   "a": [
+    "Tindal effekti",
+    "Doppler effekti",
+    "Fotoeffekt",
+    "Kompton effekti"
+   ],
+   "e": "Kolloid eritmada yorug'lik nuri yo'li ko'rinadi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Suvli eritmada H⁺ ionlari konsentratsiyasi 10⁻³ mol/l bo'lsa, pH nechaga teng?",
+   "a": [
+    "3",
+    "11",
+    "7",
+    "−3"
+   ],
+   "e": "pH = −lg[H⁺]."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Bufer eritmalarning asosiy xossasi nima?",
+   "a": [
+    "pH ni deyarli o'zgarmas saqlash",
+    "Har qanday moddani eritish va rangini o'zgartirish",
+    "Doimiy qaynab turish",
+    "Elektr tokini o'tkazmaslik"
+   ],
+   "e": "Qon — tabiiy bufer tizimi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Temirning qaysi oksidi magnit xossaga ega?",
+   "a": [
+    "Fe₃O₄",
+    "FeO",
+    "Fe₂O₃",
+    "FeO₃"
+   ],
+   "e": "Magnetit."
+  },
+  {
+   "b": "Metallar",
+   "q": "Zanglash (temir korroziyasi) uchun qaysi omillar zarur?",
+   "a": [
+    "Kislorod va namlik",
+    "Faqat quruq havo va yuqori harorat",
+    "Faqat vakuum",
+    "Faqat yorug'lik"
+   ],
+   "e": "Tuzlar korroziyani tezlashtiradi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Eng yengil metall qaysi?",
+   "a": [
+    "Litiy",
+    "Alyuminiy",
+    "Natriy",
+    "Magniy"
+   ],
+   "e": "Litiy zichligi 0,53 g/sm³."
+  },
+  {
+   "b": "Metallar",
+   "q": "Eng qiyin suyuqlanadigan metall qaysi?",
+   "a": [
+    "Volfram",
+    "Temir",
+    "Mis",
+    "Simob"
+   ],
+   "e": "Volfram 3422 °C da suyuqlanadi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Galvanostegiya nima?",
+   "a": [
+    "Elektroliz yordamida buyumni boshqa metall bilan qoplash",
+    "Metallarni gaz alangasi yordamida payvandlash va kesish",
+    "Metallarni quyish",
+    "Metallarni bo'yash"
+   ],
+   "e": "Masalan, nikellash, xromlash."
+  },
+  {
+   "b": "Metallar",
+   "q": "Metallarni rudadan olishning pirometallurgik usuli nimaga asoslangan?",
+   "a": [
+    "Yuqori haroratda qaytarish",
+    "Suvda eritish",
+    "Elektroliz",
+    "Mikroorganizmlar ta'sirida eritmaga o'tkazish"
+   ],
+   "e": "Gidrometallurgiya eritmalar bilan, elektrometallurgiya elektroliz bilan ishlaydi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Propanning formulasi qaysi?",
+   "a": [
+    "C₃H₈",
+    "C₃H₆",
+    "C₄H₁₀",
+    "C₂H₆"
+   ],
+   "e": "CₙH₂ₙ₊₂, n = 3."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Butanning izomerlari nechta?",
+   "a": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "e": "n-butan va izobutan."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Benzolga xos reaksiya turi qaysi?",
+   "a": [
+    "O'rin olish",
+    "Faqat birikish",
+    "Faqat polimerlanish",
+    "Faqat gidroliz"
+   ],
+   "e": "Aromatik halqa barqaror, odatda o'rin olish reaksiyalari boradi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Polivinilxlorid (PVX) qaysi monomerdan olinadi?",
+   "a": [
+    "Vinilxlorid",
+    "Etilen (eten)",
+    "Stirol",
+    "Propilen"
+   ],
+   "e": "CH₂=CHCl."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Aminokislotalar qanday xossaga ega?",
+   "a": [
+    "Amfoter",
+    "Faqat kislotali",
+    "Faqat asosli",
+    "Neytral, reaksiyaga kirishmaydi"
+   ],
+   "e": "Tarkibida −NH₂ va −COOH guruhlari bor."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Saxaroza gidrolizlanganda nima hosil bo'ladi?",
+   "a": [
+    "Glyukoza va fruktoza",
+    "Faqat glyukoza (ikki molekula)",
+    "Kraxmal",
+    "Sellyuloza"
+   ],
+   "e": "C₁₂H₂₂O₁₁ + H₂O → C₆H₁₂O₆ + C₆H₁₂O₆."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Fotosintez jarayonida qanday modda hosil bo'ladi?",
+   "a": [
+    "Glyukoza va kislorod",
+    "Karbonat angidrid va suv",
+    "Metan va azot",
+    "Oqsil va yog'"
+   ],
+   "e": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Fermentlar qanday tabiatga ega?",
+   "a": [
+    "Oqsil tabiatli biologik katalizatorlar",
+    "Uglevod tabiatli zaxira oziq moddalari",
+    "Mineral tuzlar",
+    "Yog'lar"
+   ],
+   "e": "Fermentlar hujayradagi reaksiyalarni tezlashtiradi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Atom-molekulyar ta'limotni rivojlantirgan rus olimi kim?",
+   "a": [
+    "M. V. Lomonosov",
+    "A. M. Butlerov, organik moddalar tuzilish nazariyasi muallifi",
+    "N. N. Zinin",
+    "D. I. Mendeleyev"
+   ],
+   "e": "Lomonosov \"korpuskulyar\" nazariyani ilgari surgan."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Kimyoviy formuladagi indeks nimani ko'rsatadi?",
+   "a": [
+    "Molekuladagi atomlar sonini",
+    "Reaksiyadagi molekulalar sonini (koeffitsientni)",
+    "Elementning valentligini",
+    "Moddaning massasini"
+   ],
+   "e": "Koeffitsient formula oldida yoziladi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "3H₂O yozuvida \"3\" nimani bildiradi?",
+   "a": [
+    "Uchta suv molekulasini",
+    "Uchta vodorod atomini",
+    "Uchta kislorod atomini",
+    "Suvning massasini"
+   ],
+   "e": "Koeffitsient molekulalar sonini ko'rsatadi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Suvdagi vodorodning massa ulushi taxminan necha foiz?",
+   "a": [
+    "11%",
+    "2%",
+    "33%",
+    "89%"
+   ],
+   "e": "2/18 ≈ 0,111."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "0,5 mol NaCl massasi nechaga teng (Na=23, Cl=35,5)?",
+   "a": [
+    "29,25 g",
+    "58,5 g",
+    "117 g",
+    "23 g"
+   ],
+   "e": "0,5·58,5."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "11,2 l (n.sh.) CO₂ ning massasi nechaga teng?",
+   "a": [
+    "22 g",
+    "44 g",
+    "11 g",
+    "88 g"
+   ],
+   "e": "0,5 mol·44 g/mol."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Avogadro qonuni nimani ifodalaydi?",
+   "a": [
+    "Bir xil sharoitda teng hajmdagi gazlarda molekulalar soni teng",
+    "Gaz bosimi uning haroratiga teskari proporsional ekanligini",
+    "Reaksiyaga kirgan moddalar massasi saqlanishini",
+    "Moddaning tarkibi doimiyligini"
+   ],
+   "e": "Shundan molyar hajm tushunchasi kelib chiqadi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Valentlik nima?",
+   "a": [
+    "Atomning boshqa atomlar bilan hosil qiladigan bog'lar soni",
+    "Atom yadrosidagi neytronlar soni",
+    "Atomning massa soni",
+    "Molekuladagi atomlar soni"
+   ],
+   "e": "Masalan, H₂O da kislorod ikki valentli."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Bir davrda chapdan o'ngga elektromanfiylik qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Avval kamayib, keyin ortadi"
+   ],
+   "e": "Galogenlar davrning eng elektromanfiy elementlari."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Asosiy guruhchada yuqoridan pastga atom radiusi qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga intiladi"
+   ],
+   "e": "Elektron qavatlar soni ortadi."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Ishqoriy-yer metallariga qaysi element kiradi?",
+   "a": [
+    "Kalsiy",
+    "Natriy",
+    "Alyuminiy",
+    "Temir"
+   ],
+   "e": "Ca, Sr, Ba, Ra."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Amfoter gidroksid hosil qiluvchi element qaysi?",
+   "a": [
+    "Rux",
+    "Natriy",
+    "Kaliy",
+    "Kalsiy"
+   ],
+   "e": "Zn(OH)₂ ham kislota, ham ishqor bilan reaksiyaga kirishadi."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "d-elementlarga qaysi element kiradi?",
+   "a": [
+    "Temir",
+    "Natriy",
+    "Kislorod",
+    "Uglerod"
+   ],
+   "e": "d-elementlar — yonaki guruhcha elementlari."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Qutbli kovalent bog'da umumiy elektron jufti qanday joylashadi?",
+   "a": [
+    "Elektromanfiyroq atom tomonga siljigan",
+    "Ikki atom o'rtasida aniq teng masofada",
+    "To'liq bir atomga o'tgan",
+    "Molekuladan tashqarida"
+   ],
+   "e": "To'liq o'tsa — ion bog'."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Ion kristall panjarali moddalarga qaysi xossa xos?",
+   "a": [
+    "Yuqori erish harorati va qattiqlik",
+    "Juda past erish harorati va uchuvchanlik",
+    "Metall yaltiroqlik va bolg'alanuvchanlik",
+    "Qattiq holatda yaxshi elektr o'tkazuvchanlik"
+   ],
+   "e": "Ularning suyuqlanmasi va eritmasi tok o'tkazadi."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Etilen molekulasida uglerod atomlari qanday gibridlangan?",
+   "a": [
+    "sp²",
+    "sp³",
+    "sp",
+    "Gibridlanmagan"
+   ],
+   "e": "Valent burchak 120°."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Qaytar reaksiya deb qanday reaksiyaga aytiladi?",
+   "a": [
+    "Bir vaqtda ikki qarama-qarshi yo'nalishda boradigan",
+    "Faqat bir yo'nalishda boradigan va oxirigacha yetadigan",
+    "Faqat katalizator bilan boradigan",
+    "Issiqlik yutadigan"
+   ],
+   "e": "Qaytar reaksiyalarda kimyoviy muvozanat qaror topadi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Endotermik reaksiyaga qaysi biri misol?",
+   "a": [
+    "Kalsiy karbonatning parchalanishi",
+    "Ko'mirning yonishi",
+    "Vodorodning yonishi",
+    "Neytrallanish"
+   ],
+   "e": "Parchalanish uchun issiqlik sarflanadi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Reaksiyaning issiqlik effekti qanday birlikda ifodalanadi?",
+   "a": [
+    "kJ/mol",
+    "mol/l",
+    "g/mol",
+    "Pa"
+   ],
+   "e": "Termokimyoviy tenglamada Q yoki ΔH ko'rsatiladi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Oksidlovchi qanday zarrachaga aytiladi?",
+   "a": [
+    "Elektron qabul qiladigan",
+    "Elektron beradigan",
+    "Neytron beradigan",
+    "Proton qabul qilmaydigan"
+   ],
+   "e": "Oksidlovchi o'zi qaytariladi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Cl₂ + 2KBr → 2KCl + Br₂ reaksiyasida oksidlovchi qaysi?",
+   "a": [
+    "Cl₂",
+    "KBr",
+    "KCl",
+    "Br₂"
+   ],
+   "e": "Cl⁰ → Cl⁻ (elektron qabul qiladi)."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Mis kuporosi eritmasiga temir mix tushirilsa nima kuzatiladi?",
+   "a": [
+    "Mix sirtida qizil mis qatlami hosil bo'ladi",
+    "Mix eriydi va eritma qizarib ketadi, gaz chiqadi",
+    "Hech qanday o'zgarish bo'lmaydi",
+    "Eritma oq cho'kmaga aylanadi"
+   ],
+   "e": "Fe + CuSO₄ → FeSO₄ + Cu."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Yonish reaksiyalarida qaysi modda doimo ishtirok etadi?",
+   "a": [
+    "Oksidlovchi (odatda kislorod)",
+    "Katalizator",
+    "Suv",
+    "Ingibitor"
+   ],
+   "e": "Yonish — tez oksidlanish."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "20% li 150 g eritmani tayyorlash uchun necha gramm tuz kerak?",
+   "a": [
+    "30 g",
+    "20 g",
+    "120 g",
+    "15 g"
+   ],
+   "e": "150·0,2."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Eritma bug'latilganda massa ulushi qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Erituvchi kamayadi, modda miqdori saqlanadi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Gazlarning suvda eruvchanligi bosim ortishi bilan qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Genri qonuni; gazli ichimliklar bosim ostida to'ldiriladi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Ishqor eritmasiga kislota qo'shilganda pH qanday o'zgaradi?",
+   "a": [
+    "Kamayadi",
+    "Ortadi",
+    "O'zgarmaydi",
+    "14 ga yetadi"
+   ],
+   "e": "Muhit neytrallanadi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Kuchli kislotaga qaysi biri misol bo'ladi?",
+   "a": [
+    "HCl",
+    "H₂CO₃",
+    "CH₃COOH",
+    "H₂S"
+   ],
+   "e": "HCl, HNO₃, H₂SO₄ — kuchli kislotalar."
+  },
+  {
+   "b": "Metallar",
+   "q": "Natriy qanday saqlanadi?",
+   "a": [
+    "Kerosin ostida",
+    "Ochiq idishda havoda",
+    "Suv ostida",
+    "Spirtda"
+   ],
+   "e": "Natriy havo va suv bilan shiddatli reaksiyaga kirishadi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Alyuminiy havoda nima uchun yemirilmaydi?",
+   "a": [
+    "Sirtida zich oksid plyonka hosil bo'ladi",
+    "U umuman kislorod bilan reaksiyaga kirishmaydi, chunki eng passiv metall",
+    "U doimo moy bilan qoplangan",
+    "U suyuq holatda bo'ladi"
+   ],
+   "e": "Al₂O₃ plyonkasi himoya qiladi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Temirning sulfat kislota bilan suyultirilgan holatdagi reaksiyasida nima hosil bo'ladi?",
+   "a": [
+    "FeSO₄ va H₂",
+    "Fe₂(SO₄)₃ va SO₂",
+    "FeS va H₂O",
+    "Reaksiya bormaydi"
+   ],
+   "e": "Suyultirilgan H₂SO₄ bilan temir(II) sulfat hosil bo'ladi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Konsentrlangan nitrat kislota bilan sovuqda passivlanadigan metall qaysi?",
+   "a": [
+    "Temir",
+    "Mis",
+    "Kumush",
+    "Rux"
+   ],
+   "e": "Temir, alyuminiy, xrom passivlanadi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Zanglamaydigan po'lat tarkibiga qaysi elementlar qo'shiladi?",
+   "a": [
+    "Xrom va nikel",
+    "Qo'rg'oshin va qalay",
+    "Natriy va kaliy",
+    "Oltingugurt va fosfor"
+   ],
+   "e": "Masalan, 12X18H10T markali po'lat."
+  },
+  {
+   "b": "Metallar",
+   "q": "Bronza qaysi metallarning qotishmasi?",
+   "a": [
+    "Mis va qalay (yoki alyuminiy, kremniy)",
+    "Mis va rux",
+    "Temir va uglerod",
+    "Alyuminiy va magniy"
+   ],
+   "e": "Latun — mis va rux qotishmasi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Duralyumin qotishmasining asosi qaysi metall?",
+   "a": [
+    "Alyuminiy",
+    "Mis",
+    "Temir",
+    "Titan"
+   ],
+   "e": "Tarkibida mis, magniy, marganes bor."
+  },
+  {
+   "b": "Metallar",
+   "q": "Metallarning elektrokimyoviy kuchlanishlar qatorida eng faol metall qaysi?",
+   "a": [
+    "Litiy",
+    "Oltin",
+    "Mis",
+    "Temir"
+   ],
+   "e": "Qator boshidagi metallar eng faol qaytaruvchilardir."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Gomologik qatorda molekulyar massa ortishi bilan alkanlar qaynash harorati qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Molekulalararo ta'sir kuchayadi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Metanning to'liq yonishida nima hosil bo'ladi?",
+   "a": [
+    "CO₂ va H₂O",
+    "CO va H₂",
+    "C va H₂O",
+    "CH₃OH"
+   ],
+   "e": "CH₄ + 2O₂ → CO₂ + 2H₂O."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Etilendan etil spirti olish reaksiyasi qanday nomlanadi?",
+   "a": [
+    "Gidratlanish",
+    "Gidrogenlanish",
+    "Degidratlanish",
+    "Galogenlanish"
+   ],
+   "e": "C₂H₄ + H₂O → C₂H₅OH."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Etil spirtini degidratlab nima olinadi?",
+   "a": [
+    "Etilen",
+    "Atsetilen",
+    "Metan",
+    "Sirka kislota"
+   ],
+   "e": "Konsentrlangan H₂SO₄ ishtirokida qizdirib."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Sirka kislotaning suvdagi 9% li eritmasi qanday nomlanadi?",
+   "a": [
+    "Sirka (oshxona sirkasi)",
+    "Formalin",
+    "Spirt",
+    "Kuporos"
+   ],
+   "e": "70–80% li eritma sirka essensiyasi deyiladi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Kaprolaktamdan qanday polimer olinadi?",
+   "a": [
+    "Kapron",
+    "Polietilen",
+    "Polistirol",
+    "Kauchuk"
+   ],
+   "e": "Kapron — poliamid tola."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Uglevodlar qanday elementlardan tashkil topgan?",
+   "a": [
+    "C, H, O",
+    "C, H, N",
+    "C, H, S",
+    "C, N, O, P"
+   ],
+   "e": "Umumiy formula Cₙ(H₂O)ₘ."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Organik birikmalarni yoqib, tarkibida uglerod borligini qanday aniqlash mumkin?",
+   "a": [
+    "Ajralgan CO₂ ni ohak suvi orqali o'tkazib",
+    "Moddaning rangiga qarab",
+    "Moddaning hidiga qarab",
+    "Moddani suvga solib"
+   ],
+   "e": "Ohak suvi loyqalanadi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Neftning tarkibi asosan nimadan iborat?",
+   "a": [
+    "Uglevodorodlar aralashmasi",
+    "Toza metan",
+    "Faqat suv va tuzlar",
+    "Faqat oqsillar"
+   ],
+   "e": "Alkanlar, sikloalkanlar va aromatik uglevodorodlar."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Benzin qaysi uglevodorodlar aralashmasi?",
+   "a": [
+    "Asosan C₅–C₁₁ uglevodorodlar",
+    "Asosan C₁–C₂ gazlar",
+    "Asosan C₂₀ dan yuqori qattiq moddalar",
+    "Toza benzol"
+   ],
+   "e": "Kerosin C₁₁–C₁₆, dizel yoqilg'isi undan og'irroq fraksiya."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Laboratoriyada qizdirish uchun qaysi idish ishlatiladi?",
+   "a": [
+    "Issiqbardosh shisha kolba yoki probirka",
+    "Oddiy plastik stakan va bir martalik idishlar",
+    "Yog'och idish",
+    "Qog'oz stakan"
+   ],
+   "e": "Probirka qizdirilganda og'zi odamlarga qaratilmaydi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Kislota teriga tushsa birinchi navbatda nima qilinadi?",
+   "a": [
+    "Ko'p miqdordagi suv bilan yuviladi",
+    "Darhol konsentrlangan ishqor eritmasi bilan artiladi",
+    "Yog' surtiladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "So'ng 2% li natriy gidrokarbonat eritmasi bilan ishlanadi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Kimyoviy moddani tatib ko'rish mumkinmi?",
+   "a": [
+    "Mumkin emas",
+    "Mumkin, agar oz miqdorda bo'lsa",
+    "Mumkin, agar modda rangsiz bo'lsa",
+    "Mumkin, agar o'qituvchi yonida bo'lsa"
+   ],
+   "e": "Laboratoriyada moddalarni tatib ko'rish qat'iyan taqiqlanadi."
+  },
+  {
+   "b": "Umumiy kimyo",
+   "q": "Moddaning ekvivalenti tushunchasi qaysi qonun bilan bog'liq?",
+   "a": [
+    "Ekvivalentlar qonuni",
+    "Arximed qonuni",
+    "Om qonuni",
+    "Guk qonuni"
+   ],
+   "e": "Moddalar o'zaro ekvivalent miqdorlarda reaksiyaga kirishadi."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Qaysi element atomida 2 ta elektron qavat va tashqi qavatda 5 ta elektron bor?",
+   "a": [
+    "Azot",
+    "Fosfor",
+    "Uglerod",
+    "Kislorod"
+   ],
+   "e": "N: 2, 5."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Yod qaysi guruhga kiradi?",
+   "a": [
+    "Galogenlar",
+    "Ishqoriy metallar",
+    "Nodir gazlar",
+    "Ishqoriy-yer metallari"
+   ],
+   "e": "Yod — VII guruh asosiy guruhcha elementi."
+  },
+  {
+   "b": "Davriy qonun",
+   "q": "Vodorodning izotoplari qaysilar?",
+   "a": [
+    "Protiy, deyteriy, tritiy",
+    "Ozon, kislorod, azot",
+    "Olmos, grafit, karbin",
+    "Geliy, neon, argon"
+   ],
+   "e": "Deyteriy \"og'ir suv\" tarkibida."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Kovalent bog' hosil bo'lishida nima sodir bo'ladi?",
+   "a": [
+    "Umumiy elektron juftlari hosil bo'ladi",
+    "Elektronlar bir atomdan ikkinchisiga to'liq o'tib, ionlar hosil bo'ladi",
+    "Atomlar yadrolari qo'shiladi",
+    "Neytronlar almashiladi"
+   ],
+   "e": "Almashinish va donor-akseptor mexanizmlari mavjud."
+  },
+  {
+   "b": "Kimyoviy bog'",
+   "q": "Vodorod bog' qaysi atomlar ishtirokida hosil bo'ladi?",
+   "a": [
+    "H va kuchli elektromanfiy atom (F, O, N)",
+    "Faqat ikki metall atomi orasida",
+    "Faqat inert gazlar orasida",
+    "Faqat ikki uglerod atomi orasida"
+   ],
+   "e": "Vodorod bog' oqsillar va DNK tuzilishida muhim."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Asoslar kislotali oksidlar bilan reaksiyaga kirishganda nima hosil bo'ladi?",
+   "a": [
+    "Tuz va suv",
+    "Kislota va vodorod",
+    "Oksid va kislorod",
+    "Faqat suv"
+   ],
+   "e": "2NaOH + CO₂ → Na₂CO₃ + H₂O."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Asosli tuzga qaysi biri misol bo'ladi?",
+   "a": [
+    "(CuOH)₂CO₃",
+    "NaHCO₃",
+    "Na₂SO₄",
+    "KCl"
+   ],
+   "e": "Malaxit — asosli mis karbonati."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Osh tuzining kimyoviy nomi qaysi?",
+   "a": [
+    "Natriy xlorid",
+    "Natriy karbonat",
+    "Kaliy xlorid",
+    "Kalsiy xlorid"
+   ],
+   "e": "NaCl."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Ichimlik sodasining kimyoviy formulasi qaysi?",
+   "a": [
+    "NaHCO₃",
+    "Na₂CO₃",
+    "NaOH",
+    "CaCO₃"
+   ],
+   "e": "Na₂CO₃ — kalsinatsiyalangan soda."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Kaustik soda (o'yuvchi natriy) formulasi qaysi?",
+   "a": [
+    "NaOH",
+    "NaHCO₃",
+    "Na₂CO₃",
+    "NaCl"
+   ],
+   "e": "Kuchli ishqor."
+  },
+  {
+   "b": "Anorganik birikmalar",
+   "q": "Marganes(IV) oksidi vodorod peroksid parchalanishida qanday rol o'ynaydi?",
+   "a": [
+    "Katalizator",
+    "Qaytaruvchi va asosiy reagent",
+    "Ingibitor",
+    "Mahsulot"
+   ],
+   "e": "2H₂O₂ → 2H₂O + O₂ (MnO₂ katalizator)."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Reaksiya tezligini kamaytiruvchi moddalar qanday nomlanadi?",
+   "a": [
+    "Ingibitorlar",
+    "Katalizatorlar",
+    "Indikatorlar",
+    "Elektrolitlar"
+   ],
+   "e": "Ingibitorlar korroziyani sekinlashtirishda ishlatiladi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Reaksiyaga kirishuvchi modda konsentratsiyasi oshirilsa, reaksiya tezligi qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "To'xtaydi"
+   ],
+   "e": "Massalar ta'siri qonuni."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Qattiq moddani maydalash reaksiya tezligiga qanday ta'sir qiladi?",
+   "a": [
+    "Tezlikni oshiradi",
+    "Tezlikni kamaytiradi",
+    "Ta'sir qilmaydi",
+    "Reaksiyani to'xtatadi"
+   ],
+   "e": "Kontakt sirti ortadi."
+  },
+  {
+   "b": "Reaksiyalar",
+   "q": "Elektrolizda katod qanday zaryadga ega?",
+   "a": [
+    "Manfiy",
+    "Musbat",
+    "Neytral",
+    "O'zgaruvchan"
+   ],
+   "e": "Katodda kationlar qaytariladi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Suv qanday erituvchi hisoblanadi?",
+   "a": [
+    "Qutbli universal erituvchi",
+    "Qutbsiz erituvchi bo'lib, faqat yog'larni eritadi",
+    "Faqat metallarni eritadi",
+    "Hech narsani eritmaydi"
+   ],
+   "e": "Ion va qutbli moddalar suvda yaxshi eriydi."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Yog'lar suvda erimaydi, lekin qaysi erituvchida yaxshi eriydi?",
+   "a": [
+    "Benzin",
+    "Osh tuzi eritmasi",
+    "Distillangan suv",
+    "Sirka kislota eritmasi"
+   ],
+   "e": "\"O'xshash o'xshashda eriydi\"."
+  },
+  {
+   "b": "Eritmalar",
+   "q": "Fiziologik eritma tarkibida NaCl ning massa ulushi qancha?",
+   "a": [
+    "0,9%",
+    "9%",
+    "0,09%",
+    "90%"
+   ],
+   "e": "Tibbiyotda infuziya uchun ishlatiladi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Mis havoda uzoq turganda qanday qatlam bilan qoplanadi?",
+   "a": [
+    "Yashil patina (asosli karbonat)",
+    "Oq rangli kukun va kristallar",
+    "Qora zang",
+    "Qizil zang"
+   ],
+   "e": "(CuOH)₂CO₃."
+  },
+  {
+   "b": "Metallar",
+   "q": "Cho'yanni po'latga aylantirishning mohiyati nima?",
+   "a": [
+    "Uglerod va qo'shimchalarni oksidlab kamaytirish",
+    "Cho'yanga ko'proq uglerod qo'shib, uni qattiqlashtirish",
+    "Cho'yanni suvda sovitish",
+    "Cho'yanni bo'yash"
+   ],
+   "e": "Konverter va elektr pechlarida bajariladi."
+  },
+  {
+   "b": "Metallar",
+   "q": "Qaysi metall eng ko'p ishlab chiqariladi?",
+   "a": [
+    "Temir",
+    "Oltin",
+    "Kumush",
+    "Platina"
+   ],
+   "e": "Jahon metallurgiyasining asosiy qismi temir va po'lat."
+  },
+  {
+   "b": "Metallar",
+   "q": "Titan qotishmalari qayerda keng ishlatiladi?",
+   "a": [
+    "Aviatsiya va kosmik texnikada",
+    "Faqat zargarlik buyumlarida, chunki u juda yumshoq",
+    "Elektr o'tkazgichlarda",
+    "Akkumulyator plastinalarida"
+   ],
+   "e": "Titan yengil, mustahkam va korroziyaga chidamli."
+  },
+  {
+   "b": "Metallar",
+   "q": "Qo'rg'oshinli akkumulyatorda qanday elektrolit ishlatiladi?",
+   "a": [
+    "Suyultirilgan sulfat kislota",
+    "Natriy xlorid eritmasi",
+    "Distillangan suv",
+    "Nitrat kislota"
+   ],
+   "e": "Elektrolit zichligi zaryad darajasini ko'rsatadi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Sikloalkanlarning umumiy formulasi qaysi?",
+   "a": [
+    "CₙH₂ₙ",
+    "CₙH₂ₙ₊₂",
+    "CₙH₂ₙ₋₂",
+    "CₙH₂ₙ₋₆"
+   ],
+   "e": "Alkenlar bilan izomer."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Arenlarning (benzol qatori) umumiy formulasi qaysi?",
+   "a": [
+    "CₙH₂ₙ₋₆",
+    "CₙH₂ₙ₊₂",
+    "CₙH₂ₙ",
+    "CₙH₂ₙ₋₂"
+   ],
+   "e": "Benzol C₆H₆."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Toluolning formulasi qaysi?",
+   "a": [
+    "C₆H₅CH₃",
+    "C₆H₆",
+    "C₆H₅OH",
+    "C₆H₅NH₂"
+   ],
+   "e": "Metilbenzol."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Polistirol qaysi monomerdan olinadi?",
+   "a": [
+    "Stirol",
+    "Etilen",
+    "Propilen",
+    "Vinilxlorid"
+   ],
+   "e": "C₆H₅CH=CH₂."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Mochevina (karbamid) birinchi bo'lib anorganik moddadan kim tomonidan sintez qilingan?",
+   "a": [
+    "F. Vyoler",
+    "A. Butlerov",
+    "N. Zinin",
+    "M. Lomonosov"
+   ],
+   "e": "1828-yilda; \"hayotiy kuch\" nazariyasiga zarba berdi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Fenolning suvli eritmasi qanday nomlanadi?",
+   "a": [
+    "Karbol kislota",
+    "Formalin",
+    "Spirt",
+    "Glitserin"
+   ],
+   "e": "Dezinfeksiyalovchi vosita sifatida ishlatilgan."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Vitaminlar organizmda qanday rol o'ynaydi?",
+   "a": [
+    "Moddalar almashinuvini boshqaradi",
+    "Asosiy energiya manbai bo'lib xizmat qiladi",
+    "Faqat suyak tuzilishini hosil qiladi",
+    "Hech qanday rol o'ynamaydi"
+   ],
+   "e": "Ko'pchiligi fermentlar tarkibiga kiradi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Gidrogenlash yo'li bilan o'simlik moyidan nima olinadi?",
+   "a": [
+    "Qattiq yog' (margarin)",
+    "Sovun",
+    "Glitserin",
+    "Spirt"
+   ],
+   "e": "Qo'sh bog'larga vodorod birikadi."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Etilenglikol qanday maqsadda ishlatiladi?",
+   "a": [
+    "Antifriz tayyorlashda",
+    "Oziq-ovqat qo'shimchasi sifatida",
+    "Ichimlik sifatida",
+    "O'g'it sifatida"
+   ],
+   "e": "Ikki atomli spirt, zaharli."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Sintetik kauchuk olishda dastlabki xomashyolardan biri qaysi?",
+   "a": [
+    "Butadiyen",
+    "Glyukoza",
+    "Sirka kislota",
+    "Benzoy kislota"
+   ],
+   "e": "S. V. Lebedev butadiyen kauchugini sintez qilgan."
+  },
+  {
+   "b": "Organik kimyo",
+   "q": "Organik moddalarning noorganik moddalardan asosiy farqi nima?",
+   "a": [
+    "Tarkibida uglerod bo'lib, ko'pchiligi yonuvchan",
+    "Barchasi suvda yaxshi eriydi va tok o'tkazadi",
+    "Hammasi yuqori haroratda suyuqlanadi",
+    "Tarkibida kislorod bo'lmaydi"
+   ],
+   "e": "CO, CO₂, karbonatlar noorganik hisoblanadi."
   }
  ]
 }
