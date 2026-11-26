@@ -3127,6 +3127,182 @@
     "Monitor tufayli"
    ],
    "e": "Protokol xarajatlari."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Brauzer manzil satriga IP-manzil yozib saytga kirish mumkinmi?",
+   "a": [
+    "Ha",
+    "Yo'q, saytlarga faqat domen nomi orqali kirish mumkin",
+    "Faqat IPv6 bilan",
+    "Faqat mobil telefonda"
+   ],
+   "e": "DNS chetlab o'tiladi (agar server ruxsat bersa)."
+  },
+  {
+   "b": "Xizmatlar",
+   "q": "Kompyuterdagi \"hosts\" fayli nima uchun ishlatiladi?",
+   "a": [
+    "Domen nomlarini IP-manzillarga qo'lda bog'lash",
+    "Tarmoq kartasi drayverini saqlash",
+    "Wi-Fi parollarini saqlash",
+    "Brauzer tarixini saqlash"
+   ],
+   "e": "DNS dan oldin tekshiriladi."
+  },
+  {
+   "b": "Fizik sath",
+   "q": "Tarmoq indikatori (port chirog'i) yonmasa, ehtimoliy sabab nima?",
+   "a": [
+    "Kabel yoki port nosozligi",
+    "Kompyuter juda tez ishlayotgani",
+    "Monitor o'chiqligi",
+    "Printer qog'ozsizligi"
+   ],
+   "e": "Link chirog'i fizik ulanishni ko'rsatadi."
+  },
+  {
+   "b": "Kommutatsiya",
+   "q": "VLAN ID qiymatlari qaysi oraliqda bo'ladi?",
+   "a": [
+    "1–4094",
+    "1–100",
+    "0–255",
+    "1–65535"
+   ],
+   "e": "12 bitli maydon."
+  },
+  {
+   "b": "Marshrutlash",
+   "q": "Routerda \"show ip route\" kabi buyruq nimani ko'rsatadi?",
+   "a": [
+    "Marshrutlash jadvalini",
+    "Wi-Fi parolini",
+    "Ulangan foydalanuvchilar ismlarini",
+    "Router haroratini"
+   ],
+   "e": "Cisco IOS buyrug'i."
+  },
+  {
+   "b": "Simsiz tarmoqlar",
+   "q": "Wi-Fi tarmog'iga ulangan qurilmalar ro'yxatini qayerdan ko'rish mumkin?",
+   "a": [
+    "Router boshqaruv panelidan",
+    "Kompyuter monitorining menyusidan",
+    "Elektr hisoblagichdan",
+    "Telefon kalkulyatoridan"
+   ],
+   "e": "DHCP ijaralari ro'yxatida."
+  },
+  {
+   "b": "Xavfsizlik",
+   "q": "Uy routeriga begona qurilma ulanganini sezsangiz nima qilish kerak?",
+   "a": [
+    "Wi-Fi parolini o'zgartirish",
+    "Hech narsa qilmaslik, chunki bu zararsiz",
+    "Routerni o'chirib, hech qachon yoqmaslik",
+    "Parolni ijtimoiy tarmoqda e'lon qilish"
+   ],
+   "e": "WPA2/WPA3 va kuchli parol."
+  },
+  {
+   "b": "Manzillash",
+   "q": "Qaysi qurilma odatda tarmoqda statik IP-manzilga ega bo'lishi kerak?",
+   "a": [
+    "Server",
+    "Mehmonning smartfoni",
+    "Vaqtinchalik noutbuk",
+    "Mehmon planshet"
+   ],
+   "e": "Printerlar va routerlar ham."
+  },
+  {
+   "b": "Manzillash",
+   "q": "IPv4 manzillari tugashi muammosini qanday texnologiyalar hal qiladi?",
+   "a": [
+    "NAT va IPv6",
+    "Yangi kabel turlari",
+    "Wi-Fi 6",
+    "Bluetooth"
+   ],
+   "e": "Xususiy manzillar va kengaytirilgan manzillar maydoni."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "OSI modelini xalqaro miqyosda qaysi tashkilot ishlab chiqqan?",
+   "a": [
+    "ISO",
+    "IEEE faqat",
+    "W3C",
+    "FIFA"
+   ],
+   "e": "Open Systems Interconnection, 1984."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "IEEE tashkiloti tarmoqlar sohasida nima bilan mashhur?",
+   "a": [
+    "802 standartlari (Ethernet, Wi-Fi)",
+    "Veb-sahifalar uchun HTML standarti",
+    "Sport musobaqalari",
+    "Kino sanoati"
+   ],
+   "e": "802.3, 802.11."
+  },
+  {
+   "b": "OSI modeli",
+   "q": "Internet standartlarini (RFC) qaysi tashkilot ishlab chiqadi?",
+   "a": [
+    "IETF",
+    "ISO 9001 qo'mitasi",
+    "FIFA",
+    "UNESCO"
+   ],
+   "e": "Internet Engineering Task Force."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Intranet nima?",
+   "a": [
+    "Tashkilot ichidagi yopiq tarmoq",
+    "Butun dunyo bo'ylab ochiq global tarmoq",
+    "Faqat mobil tarmoq",
+    "Bluetooth tarmog'i"
+   ],
+   "e": "Internet texnologiyalari asosida."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "Ekstranet nima?",
+   "a": [
+    "Hamkorlar uchun qisman ochilgan korporativ tarmoq",
+    "Faqat korxona ichidagi xodimlar uchun tarmoq",
+    "Butun internet",
+    "Uy Wi-Fi tarmog'i"
+   ],
+   "e": "Masalan, yetkazib beruvchilar portali."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "SAN (saqlash tarmog'i) nima uchun ishlatiladi?",
+   "a": [
+    "Serverlarni ma'lumot saqlash tizimlariga ulash",
+    "Shahar bo'ylab internet tarqatish",
+    "Bluetooth qurilmalarni ulash",
+    "Telefon qo'ng'iroqlari"
+   ],
+   "e": "Storage Area Network."
+  },
+  {
+   "b": "Topologiyalar",
+   "q": "NAS qurilmasi nima?",
+   "a": [
+    "Tarmoqqa ulangan fayl saqlash qurilmasi",
+    "Tarmoq kabeli turi",
+    "Wi-Fi standarti",
+    "Router modeli"
+   ],
+   "e": "Network Attached Storage."
   }
  ]
 }
