@@ -2,282 +2,3230 @@
  "kod": "5PM0464",
  "nomi": "Konstruksion materiallar (materialshunoslik)",
  "turi": "maxsus",
- "manba": "2026-yilgi texnikum o'quv rejalari",
+ "manba": "2026-yilgi texnikum o'quv rejalari; savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "Metallarning tuzilishi",
-   "q": "Metallarning kristall panjarasida atomlar orasidagi bog' turi qaysi?",
+   "q": "Metallarning kristall panjarasi asosan qanday turlarda bo'ladi?",
    "a": [
-    "Metall bog'",
-    "Ion bog'",
-    "Kovalent qutbsiz bog'",
-    "Vodorod bog'"
+    "Hajmiy markazlashgan kub, yoqlari markazlashgan kub, geksagonal zich joylashgan",
+    "Faqat oddiy kub va tetraedr, boshqa turlar metallarda uchramaydi",
+    "Faqat amorf tuzilish",
+    "Faqat tolasimon tuzilish"
    ],
-   "e": "Erkin elektronlar metallarning elektr o'tkazuvchanligini ta'minlaydi."
+   "e": "OCK, GCK va GZJ panjaralar."
   },
   {
    "b": "Metallarning tuzilishi",
-   "q": "Temir qaysi haroratda suyuqlanadi (taxminan)?",
+   "q": "Alfa-temir (α-Fe) qanday kristall panjaraga ega?",
+   "a": [
+    "Hajmiy markazlashgan kub",
+    "Yoqlari markazlashgan kub",
+    "Geksagonal zich joylashgan",
+    "Amorf"
+   ],
+   "e": "911 °C dan past haroratda barqaror."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Gamma-temir (γ-Fe) qanday kristall panjaraga ega?",
+   "a": [
+    "Yoqlari markazlashgan kub",
+    "Hajmiy markazlashgan kub",
+    "Geksagonal",
+    "Tetragonal"
+   ],
+   "e": "911–1392 °C oralig'ida barqaror."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Polimorfizm (allotropiya) metallarda nimani bildiradi?",
+   "a": [
+    "Haroratga qarab kristall panjara turining o'zgarishi",
+    "Metallning turli ranglarda bo'lishi, havoda oksidlanib zanglashi va xiralashishi",
+    "Metallning suyuqlanishi",
+    "Metallning boshqa metall bilan aralashishi"
+   ],
+   "e": "Masalan, temir, titan, qalay."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Kristallanish deb nimaga aytiladi?",
+   "a": [
+    "Suyuq holatdan qattiq kristall holatga o'tish",
+    "Qattiq metallni bolg'alash va prokatlash jarayoni",
+    "Metallning zanglashi",
+    "Metallning bug'lanishi"
+   ],
+   "e": "Kristallanish markazlari hosil bo'lib, o'sadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "O'ta sovitish darajasi oshganda metall donasi qanday bo'ladi?",
+   "a": [
+    "Maydaroq",
+    "Yirikroq",
+    "O'zgarmaydi",
+    "Amorf"
+   ],
+   "e": "Kristallanish markazlari ko'payadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Mayda donali metallning yirik donaliga nisbatan afzalligi nima?",
+   "a": [
+    "Mustahkamlik va qovushoqlik yuqoriroq",
+    "Mo'rtligi yuqoriroq va mustahkamligi pastroq",
+    "Elektr o'tkazuvchanligi har doim yuqoriroq",
+    "Erish harorati pastroq"
+   ],
+   "e": "Donalar chegaralari dislokatsiyalar harakatini to'sadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Kristall panjaradagi chiziqli nuqson qanday nomlanadi?",
+   "a": [
+    "Dislokatsiya",
+    "Vakansiya",
+    "Dona chegarasi",
+    "G'ovak"
+   ],
+   "e": "Vakansiya — nuqtaviy nuqson."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Qotishma deb nimaga aytiladi?",
+   "a": [
+    "Ikki yoki undan ortiq element birikmasidan olingan metall material",
+    "Faqat bitta toza metalldan iborat, qo'shimchasiz kristall material",
+    "Metallning oksidi",
+    "Metall bo'lmagan material"
+   ],
+   "e": "Asosiy komponent metall bo'ladi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Qattiq eritma nima?",
+   "a": [
+    "Bir komponent atomlari boshqasining panjarasida joylashgan faza",
+    "Ikki metallning qatlam-qatlam turgan, bir-biriga erimagan mexanik aralashmasi",
+    "Metallning suyuq holati",
+    "Kimyoviy birikma"
+   ],
+   "e": "O'rin olish va kiritish qattiq eritmalari."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Holat diagrammasi nimani ko'rsatadi?",
+   "a": [
+    "Qotishma fazalari va tarkibining haroratga bog'liqligi",
+    "Metallning bozordagi narxi va unga bo'lgan talabning vaqt bo'yicha o'zgarishi",
+    "Metallning rangi va yaltiroqligini",
+    "Metallning og'irligini"
+   ],
+   "e": "Muvozanat holatlari uchun."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Evtektika nima?",
+   "a": [
+    "Suyuqlikdan bir vaqtda ikki faza kristallanadigan aralashma",
+    "Qattiq holatda bir fazadan bir vaqtda ikki yangi faza hosil bo'lishi jarayoni",
+    "Toza metallning kristallanishi",
+    "Metallning bug'lanishi"
+   ],
+   "e": "Qattiq holatdagi o'xshash jarayon — evtektoid."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Po'latda uglerod miqdori ko'pi bilan qancha bo'ladi?",
+   "a": [
+    "2,14%",
+    "0,5%",
+    "6,67%",
+    "4,3%"
+   ],
+   "e": "Undan ko'p bo'lsa — cho'yan."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Sementit nima?",
+   "a": [
+    "Temir karbidi Fe₃C",
+    "Ugleroddagi temir qattiq eritmasi",
+    "Toza temir",
+    "Grafit"
+   ],
+   "e": "Tarkibida 6,67% uglerod, juda qattiq va mo'rt."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Ferrit nima?",
+   "a": [
+    "Uglerodning α-temirdagi qattiq eritmasi",
+    "Uglerodning γ-temirdagi qattiq eritmasi",
+    "Temir karbidi",
+    "Ferrit va sementit aralashmasi"
+   ],
+   "e": "Yumshoq va plastik."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Austenit nima?",
+   "a": [
+    "Uglerodning γ-temirdagi qattiq eritmasi",
+    "Uglerodning α-temirdagi qattiq eritmasi",
+    "Temir karbidi",
+    "Grafit va ferrit aralashmasi"
+   ],
+   "e": "Yuqori haroratda mavjud, plastik."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Perlit nima?",
+   "a": [
+    "Ferrit va sementitning evtektoid aralashmasi",
+    "Austenit va sementitning yuqori haroratdagi aralashmasi",
+    "Toza ferrit",
+    "Grafit"
+   ],
+   "e": "0,8% uglerod, 727 °C da hosil bo'ladi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Ledeburit nima?",
+   "a": [
+    "Austenit va sementitning evtektik aralashmasi",
+    "Ferrit va sementitning evtektoid aralashmasi, 727 °C da hosil bo'ladigan",
+    "Toza austenit",
+    "Grafit kiritmalari"
+   ],
+   "e": "4,3% uglerod, 1147 °C."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Temir-sementit diagrammasida evtektoid harorati qancha?",
+   "a": [
+    "727 °C",
+    "1147 °C",
+    "911 °C",
+    "1539 °C"
+   ],
+   "e": "Perlit hosil bo'lish harorati."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Temirning erish harorati taxminan qancha?",
    "a": [
     "1539 °C",
+    "727 °C",
     "660 °C",
-    "1083 °C",
     "3410 °C"
    ],
-   "e": "660 °C — alyuminiy, 1083 °C — mis, 3410 °C — volfram."
+   "e": "Alyuminiy ≈ 660 °C, volfram ≈ 3410 °C."
   },
   {
-   "b": "Metallarning tuzilishi",
-   "q": "Materialning qattiqligi qaysi usul bilan o'lchanadi?",
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Evtektoid po'lat tarkibida qancha uglerod bor?",
    "a": [
-    "Brinell, Rokvell yoki Vikkers usuli",
-    "Ampermetr bilan",
-    "Lyuksmetr bilan",
-    "Termometr bilan"
+    "0,8%",
+    "0,02%",
+    "2,14%",
+    "4,3%"
    ],
-   "e": "Brinell usulida po'lat sharcha botiriladi."
+   "e": "Undan kam — evtektoidgacha, ko'p — evtektoiddan keyingi po'lat."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Po'latda uglerod miqdori oshganda qanday o'zgarish bo'ladi?",
+   "a": [
+    "Qattiqlik va mustahkamlik ortadi, plastiklik kamayadi",
+    "Plastiklik va payvandlanuvchanlik oshadi, qattiqlik kamayadi",
+    "Hech narsa o'zgarmaydi",
+    "Faqat rangi o'zgaradi"
+   ],
+   "e": "Sementit ulushi ortadi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Kulrang cho'yanda grafit qanday shaklda bo'ladi?",
+   "a": [
+    "Plastinkasimon",
+    "Sharsimon",
+    "Bodroqsimon",
+    "Grafit bo'lmaydi"
+   ],
+   "e": "SCh markasi bilan belgilanadi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Yuqori mustahkam cho'yanda grafit qanday shaklda bo'ladi?",
+   "a": [
+    "Sharsimon",
+    "Plastinkasimon",
+    "Bodroqsimon",
+    "Ignasimon"
+   ],
+   "e": "Magniy bilan modifikatsiyalanadi; VCh markasi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Bolg'alanuvchan cho'yanda grafit qanday shaklda bo'ladi?",
+   "a": [
+    "Bodroqsimon (paxtasimon)",
+    "Plastinkasimon",
+    "Sharsimon",
+    "Tolasimon"
+   ],
+   "e": "Oq cho'yanni uzoq yumshatib olinadi; KCh markasi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Oq cho'yanda uglerod qanday holatda bo'ladi?",
+   "a": [
+    "Sementit (bog'langan) holatda",
+    "Erkin grafit holatda",
+    "Gaz holatda",
+    "Qattiq eritmada faqat"
+   ],
+   "e": "Siniq yuzasi oq, juda qattiq va mo'rt."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "\"St3\" markali po'lat qanday po'lat?",
+   "a": [
+    "Oddiy sifatli uglerodli konstruksion po'lat",
+    "Yuqori legirlangan, xrom va nikelli zanglamas po'lat",
+    "Asbobsozlik tezkesar po'lati",
+    "Cho'yan markasi"
+   ],
+   "e": "Qurilish metall konstruksiyalarida keng ishlatiladi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "\"Po'lat 45\" markasida 45 raqami nimani bildiradi?",
+   "a": [
+    "Uglerod miqdori 0,45%",
+    "Uglerod miqdori 45%",
+    "Mustahkamlik chegarasi 45 MPa",
+    "Qattiqlik 45 HRC"
+   ],
+   "e": "Sifatli uglerodli konstruksion po'lat."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "\"U8\" markali po'lat qanday po'lat?",
+   "a": [
+    "Uglerodli asbobsozlik po'lati, 0,8% C",
+    "Konstruksion po'lat, tarkibida 8% uglerod bo'lgan",
+    "Zanglamas po'lat",
+    "Cho'yan"
+   ],
+   "e": "U harfi — uglerodli asbobsozlik po'lati."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Legirlangan po'lat markasida \"X\" harfi qaysi elementni bildiradi?",
+   "a": [
+    "Xrom",
+    "Nikel",
+    "Marganes",
+    "Volfram"
+   ],
+   "e": "H — nikel, G — marganes, V — volfram (GOST)."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Legirlangan po'lat markasida \"H\" harfi qaysi elementni bildiradi?",
+   "a": [
+    "Nikel",
+    "Xrom",
+    "Kremniy",
+    "Molibden"
+   ],
+   "e": "M — molibden, S — kremniy."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "\"40X\" markali po'latda uglerod va xrom miqdori qancha?",
+   "a": [
+    "0,40% C, ~1% Cr",
+    "40% C, 1% Cr",
+    "4% C, 0,1% Cr",
+    "0,4% Cr, 1% C"
+   ],
+   "e": "Harfdan keyin raqam bo'lmasa, element ~1%."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "\"12X18H10T\" markali po'lat qanday po'lat?",
+   "a": [
+    "Zanglamas xrom-nikelli po'lat",
+    "Tezkesar asbobsozlik po'lati, volfram va molibdenli",
+    "Oddiy uglerodli po'lat",
+    "Podshipnik po'lati"
+   ],
+   "e": "0,12% C, 18% Cr, 10% Ni, titan."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Podshipnik po'lati markasiga misol qaysi?",
+   "a": [
+    "ShX15",
+    "St3",
+    "U8",
+    "L63"
+   ],
+   "e": "Sh — podshipnik, X15 — 1,5% xrom."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Tezkesar po'lat markasiga misol qaysi?",
+   "a": [
+    "R6M5",
+    "45",
+    "ShX15",
+    "65G"
+   ],
+   "e": "R — tezkesar, 6% volfram, 5% molibden."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Prujina po'lati markasiga misol qaysi?",
+   "a": [
+    "65G",
+    "R6M5",
+    "12X18H10T",
+    "U12"
+   ],
+   "e": "Yuqori elastiklik chegarasi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Gadfild po'lati (110G13L) qanday xususiyatga ega?",
+   "a": [
+    "Zarbda yeyilishga juda chidamli",
+    "Juda yumshoq va oson ishlanadi",
+    "Zanglamaydi va oziq-ovqat sanoatida ishlatiladi",
+    "Elektr tokini yaxshi o'tkazadi"
+   ],
+   "e": "Yuqori marganesli austenitli po'lat; ekskavator kovshlari, temir yo'l krestovinalari."
   },
   {
    "b": "Mexanik xossalar",
    "q": "Mustahkamlik nima?",
    "a": [
-    "Materialning tashqi kuchlar ta'sirida yemirilishga qarshilik ko'rsatish xossasi",
-    "Materialning rangi",
-    "Materialning zichligi",
-    "Elektr o'tkazuvchanligi"
+    "Materialning tashqi kuchlar ta'sirida buzilishga qarshiligi",
+    "Materialning ishqalanishga qarshiligi va sirtining yeyilishga chidamliligi",
+    "Materialning qizdirilganda kengayishi",
+    "Materialning elektr o'tkazuvchanligi"
    ],
-   "e": "Cho'zilishdagi mustahkamlik chegarasi σ_v bilan belgilanadi."
+   "e": "Mustahkamlik chegarasi σ_v (MPa)."
   },
   {
    "b": "Mexanik xossalar",
    "q": "Plastiklik nima?",
    "a": [
-    "Materialning yemirilmasdan qoldiq deformatsiyalanish qobiliyati",
-    "Materialning tez sinishi",
-    "Materialning yuqori qattiqligi",
-    "Materialning magnitlanishi"
+    "Buzilmasdan qoldiq deformatsiyalanish qobiliyati",
+    "Kuch olingach dastlabki shaklga to'liq qaytish qobiliyati",
+    "Sirtga qattiqroq jism botishiga qarshilik",
+    "Zarbga qarshilik"
    ],
-   "e": "Plastiklik nisbiy uzayish va nisbiy torayish bilan baholanadi."
+   "e": "Nisbiy uzayish va torayish bilan baholanadi."
   },
   {
    "b": "Mexanik xossalar",
-   "q": "Zarbiy qovushoqlik qanday sinov bilan aniqlanadi?",
+   "q": "Elastiklik nima?",
    "a": [
-    "Mayatnikli kopyorda kesikli namunani sindirish bilan",
-    "Cho'zish mashinasida sekin cho'zish bilan",
-    "Namunani qizdirish bilan",
-    "Namunani suvga botirish bilan"
+    "Kuch olingach dastlabki shaklga qaytish qobiliyati",
+    "Qoldiq deformatsiyaga uchrab, yangi shaklni saqlab qolish qobiliyati",
+    "Buzilishga qarshilik",
+    "Yeyilishga chidamlilik"
    ],
-   "e": "Natija J/sm² da ifodalanadi."
+   "e": "Guk qonuni elastik sohada bajariladi."
   },
   {
-   "b": "Temir-uglerod qotishmalari",
-   "q": "Po'latda uglerod miqdori qancha bo'ladi?",
+   "b": "Mexanik xossalar",
+   "q": "Qattiqlik nima?",
    "a": [
-    "2,14% gacha",
-    "2,14% dan ko'p",
-    "10% dan ko'p",
-    "Uglerod bo'lmaydi"
+    "Sirtga qattiqroq jism botishiga qarshilik",
+    "Materialning zarbiy yuklamaga chidamliligi",
+    "Materialning cho'zilishga qarshiligi",
+    "Materialning issiqlik o'tkazuvchanligi"
    ],
-   "e": "Cho'yanda uglerod 2,14% dan ko'p."
+   "e": "Brinell, Rokvell, Vikkers usullari."
   },
   {
-   "b": "Temir-uglerod qotishmalari",
-   "q": "Kulrang cho'yanda uglerod asosan qanday shaklda bo'ladi?",
+   "b": "Mexanik xossalar",
+   "q": "Brinell usulida indentor sifatida nima ishlatiladi?",
    "a": [
-    "Plastinkasimon grafit",
-    "Sementit",
-    "Sharsimon grafit",
-    "Erigan holatda"
+    "Qattiq sharcha",
+    "Olmos piramida",
+    "Olmos konus",
+    "Igna"
    ],
-   "e": "Yuqori mustahkam cho'yanda grafit sharsimon bo'ladi."
+   "e": "Qattiqlik HB bilan belgilanadi."
   },
   {
-   "b": "Temir-uglerod qotishmalari",
-   "q": "Po'lat markasi \"40X\" dagi \"X\" harfi nimani bildiradi?",
+   "b": "Mexanik xossalar",
+   "q": "Rokvell usulida (C shkala) indentor sifatida nima ishlatiladi?",
    "a": [
-    "Xrom bilan legirlanganligini",
-    "Xlor borligini",
-    "Yuqori uglerodliligini",
-    "Mis borligini"
+    "Olmos konus",
+    "Po'lat sharcha",
+    "Olmos piramida",
+    "Plastik konus"
    ],
-   "e": "40 — uglerod miqdori ≈0,40%; X — xrom (Rossiya/GOST belgilanishi)."
+   "e": "HRC — toblangan po'latlar uchun."
   },
   {
-   "b": "Temir-uglerod qotishmalari",
-   "q": "Zanglamaydigan po'lat asosan qaysi element hisobiga korroziyaga chidamli bo'ladi?",
+   "b": "Mexanik xossalar",
+   "q": "Vikkers usulida indentor sifatida nima ishlatiladi?",
    "a": [
-    "Xrom (≈12% dan ko'p)",
-    "Oltingugurt",
-    "Fosfor",
-    "Uglerod"
+    "To'rt yoqli olmos piramida",
+    "Po'lat sharcha",
+    "Olmos konus",
+    "Toshdan yasalgan kub"
    ],
-   "e": "Xrom sirtda himoya oksid pardasi hosil qiladi."
+   "e": "Uchidagi burchak 136°; HV."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Zarbiy qovushoqlik qanday asbobda aniqlanadi?",
+   "a": [
+    "Mayatnikli koper",
+    "Brinell pressi",
+    "Mikroskop",
+    "Dilatometr"
+   ],
+   "e": "Kesikli namunani bir zarbda sindirishga sarflangan ish."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Toliqish (charchoq) nima?",
+   "a": [
+    "Takroriy o'zgaruvchan yuklamadan buzilish",
+    "Bir marta qo'yilgan katta statik yuklamadan to'satdan sinish",
+    "Yuqori haroratda erish",
+    "Korroziya natijasida yemirilish"
+   ],
+   "e": "Val, prujina, g'ildirak o'qlari uchun muhim."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Polzuchest (siljuvchanlik) nima?",
+   "a": [
+    "Doimiy yuklama ostida vaqt o'tishi bilan deformatsiyaning asta-sekin ortishi",
+    "Bir lahzalik zarb natijasida mo'rt sinish va darz ketish",
+    "Materialning issiqlikdan kengayishi",
+    "Materialning magnitlanishi"
+   ],
+   "e": "Yuqori haroratda ishlaydigan detallar uchun muhim."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Cho'zilishga sinashda qaysi xossalar aniqlanadi?",
+   "a": [
+    "Mustahkamlik chegarasi, oquvchanlik chegarasi, nisbiy uzayish",
+    "Faqat qattiqlik va issiqlik o'tkazuvchanlik koeffitsienti",
+    "Faqat elektr qarshilik",
+    "Faqat zichlik"
+   ],
+   "e": "Cho'zilish diagrammasi quriladi."
   },
   {
    "b": "Termik ishlov berish",
-   "q": "Toblash (zakalka)dan maqsad nima?",
+   "q": "Termik ishlov berishning asosiy turlari qaysilar?",
    "a": [
-    "Po'latning qattiqligi va mustahkamligini oshirish",
-    "Po'latni yumshatish",
-    "Po'latni bo'yash",
-    "Po'latni eritish"
+    "Yumshatish, normallash, toblash, bo'shatish",
+    "Bolg'alash, prokatlash, presslash, cho'zish",
+    "Payvandlash, kavsharlash, yelimlash",
+    "Bo'yash, laklash, emallash"
    ],
-   "e": "Qizdirib, so'ng tez sovitiladi (suv yoki moyda)."
+   "e": "Ular qizdirish, saqlash va sovitish rejimlari bilan farq qiladi."
   },
   {
    "b": "Termik ishlov berish",
-   "q": "Toblashdan keyin qo'shimcha ravishda qaysi termik ishlov o'tkaziladi?",
+   "q": "Toblash (zakalka) nima uchun bajariladi?",
    "a": [
-    "Bo'shatish (otpusk)",
-    "Normallash",
-    "Kuydirish (otjig)",
-    "Sementitlash"
+    "Qattiqlik va mustahkamlikni oshirish uchun",
+    "Materialni yumshatib, ichki kuchlanishlarni butunlay olib tashlash uchun",
+    "Detal rangini o'zgartirish uchun",
+    "Detal o'lchamini kattalashtirish uchun"
    ],
-   "e": "Bo'shatish ichki kuchlanishlarni kamaytiradi va mo'rtlikni pasaytiradi."
+   "e": "Austenit holatgacha qizdirib, tez sovitiladi."
   },
   {
    "b": "Termik ishlov berish",
-   "q": "Kuydirish (otjig)da sovitish qanday amalga oshiriladi?",
+   "q": "Toblashda po'lat qanday sovitiladi?",
    "a": [
-    "Pech bilan birga sekin",
-    "Suvda tez",
-    "Moyda",
-    "Havoda tez puflab"
+    "Tez (suv, moy)",
+    "Pech bilan birga juda sekin",
+    "Ochiq havoda",
+    "Umuman sovitilmaydi"
    ],
-   "e": "Kuydirish materialni yumshatadi va tuzilmasini tekislaydi."
+   "e": "Martensit struktura hosil bo'ladi."
   },
   {
    "b": "Termik ishlov berish",
-   "q": "Sementitlash qanday ishlov berish?",
+   "q": "Martensit nima?",
    "a": [
-    "Po'lat sirt qatlamini uglerod bilan to'yintirish",
-    "Sirtni azot bilan to'yintirish",
-    "Sirtni bo'yash",
-    "Detalni payvandlash"
+    "Uglerodning α-temirdagi o'ta to'yingan qattiq eritmasi",
+    "Ferrit va sementitning plastinkasimon yumshoq aralashmasi, sekin sovitishda hosil bo'ladigan",
+    "Toza austenit",
+    "Grafit"
    ],
-   "e": "So'ng toblash bilan qattiq sirt va qovushoq o'zak olinadi."
+   "e": "Juda qattiq va mo'rt."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Bo'shatish (otpusk) nima uchun bajariladi?",
+   "a": [
+    "Toblashdan keyingi mo'rtlik va ichki kuchlanishlarni kamaytirish uchun",
+    "Qattiqlikni toblashdan ham ko'proq oshirish va martensitni ko'paytirish uchun",
+    "Po'latni suyuqlantirish uchun",
+    "Detalni zanglashdan himoya qilish uchun"
+   ],
+   "e": "Toblangan po'lat qayta qizdirilib sovitiladi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Past haroratli bo'shatish qanday haroratda bajariladi?",
+   "a": [
+    "150–250 °C",
+    "500–680 °C",
+    "727–900 °C",
+    "1000–1200 °C"
+   ],
+   "e": "Kesuvchi asboblar uchun, qattiqlik saqlanadi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Yuqori haroratli bo'shatish qanday haroratda bajariladi?",
+   "a": [
+    "500–680 °C",
+    "150–250 °C",
+    "50–100 °C",
+    "900–1100 °C"
+   ],
+   "e": "Valar, shesternyalar uchun qovushoqlik beradi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "\"Yaxshilash\" deb qanday termik ishlov ataladi?",
+   "a": [
+    "Toblash va yuqori haroratli bo'shatish",
+    "Faqat yumshatish",
+    "Faqat normallash",
+    "Toblash va past haroratli bo'shatish"
+   ],
+   "e": "Mustahkamlik va qovushoqlikning eng yaxshi uyg'unligi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Yumshatish (otjig) qanday sovitish bilan bajariladi?",
+   "a": [
+    "Pech bilan birga sekin sovitish",
+    "Suvda yoki tuzli eritmada juda tez sovitish",
+    "Moyda sovitish",
+    "Suyuq azotda sovitish"
+   ],
+   "e": "Qattiqlik kamayadi, ishlov berish osonlashadi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Normallash yumshatishdan nimasi bilan farq qiladi?",
+   "a": [
+    "Ochiq havoda sovitiladi",
+    "Suvda sovitiladi",
+    "Pechda juda sekin sovitiladi",
+    "Sovitilmaydi"
+   ],
+   "e": "Donalar maydalanadi, struktura bir jinsli bo'ladi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Toblashda po'latning qattiqlashish qobiliyati qanday ataladi?",
+   "a": [
+    "Toblanuvchanlik",
+    "Toblanish chuqurligi faqat",
+    "Plastiklik",
+    "Payvandlanuvchanlik"
+   ],
+   "e": "Toblanish chuqurligi — toblangan qatlam qalinligi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Legirlovchi elementlar toblanish chuqurligiga qanday ta'sir qiladi?",
+   "a": [
+    "Oshiradi",
+    "Kamaytiradi",
+    "Ta'sir qilmaydi",
+    "Nolga tushiradi"
+   ],
+   "e": "Legirlangan po'latlar moyda ham chuqur toblanadi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Sirtni toblashning usullaridan biri qaysi?",
+   "a": [
+    "YuCh toklar bilan toblash",
+    "Pechda bir xil qizdirib toblash",
+    "Yumshatish",
+    "Normallash"
+   ],
+   "e": "Sirt qattiq, o'zak qovushoq qoladi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Sementatsiya nima?",
+   "a": [
+    "Sirt qatlamini uglerod bilan boyitish",
+    "Sirtni azot bilan boyitish va nitridlar hosil qilish",
+    "Sirtni xrom bilan qoplash",
+    "Sirtni bo'yash"
+   ],
+   "e": "Kam uglerodli po'latlarda, keyin toblanadi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Azotlash nima beradi?",
+   "a": [
+    "Sirtning yuqori qattiqligi va yeyilishga chidamliligi",
+    "Sirtning yumshashi va plastikligining oshishi, ishlov berishning osonlashishi",
+    "Detalning og'irlashishi",
+    "Detalning magnit xossasini yo'qotishi"
+   ],
+   "e": "500–600 °C da, toblashsiz qattiq qatlam hosil bo'ladi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Sianlash (nitrotsementatsiya) nima?",
+   "a": [
+    "Sirtni bir vaqtda uglerod va azot bilan boyitish",
+    "Sirtni faqat kislorod bilan boyitish",
+    "Sirtni rux bilan qoplash va korroziyadan himoya qilish",
+    "Sirtni sovuqda ishlash"
+   ],
+   "e": "Kimyoviy-termik ishlov turi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Toblashda darz ketishning asosiy sababi nima?",
+   "a": [
+    "Katta ichki kuchlanishlar",
+    "Juda sekin sovitish",
+    "Past qizdirish harorati",
+    "Detalning toza sirti"
+   ],
+   "e": "Murakkab shaklli detallarda xavf yuqori."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Po'latni qizdirishda dekarbonizatsiya nima?",
+   "a": [
+    "Sirt qatlamidan uglerodning yo'qolishi",
+    "Sirtni uglerod bilan boyitish va qattiqlikni oshirish jarayoni",
+    "Detal o'lchamining ortishi",
+    "Detal rangining o'zgarishi faqat"
+   ],
+   "e": "Himoya muhitida qizdirish uni oldini oladi."
   },
   {
    "b": "Rangli metallar",
-   "q": "Mis va rux qotishmasi qanday ataladi?",
+   "q": "Misning asosiy xususiyati nima?",
    "a": [
-    "Latun (jez)",
-    "Bronza",
-    "Dyuralyumin",
-    "Babbit"
+    "Yuqori elektr va issiqlik o'tkazuvchanlik",
+    "Juda yuqori qattiqlik va mo'rtlik, toblashga moyillik",
+    "Magnit xossaga egalik",
+    "Juda yengillik"
    ],
-   "e": "Bronza — misning qalay va boshqa elementlar bilan qotishmasi."
+   "e": "Elektr o'tkazgichlar uchun asosiy material."
   },
   {
    "b": "Rangli metallar",
-   "q": "Dyuralyumin asosan qaysi metall asosidagi qotishma?",
+   "q": "Latun qanday qotishma?",
    "a": [
-    "Alyuminiy",
-    "Mis",
-    "Temir",
-    "Qo'rg'oshin"
+    "Mis va rux",
+    "Mis va qalay",
+    "Alyuminiy va mis",
+    "Temir va nikel"
    ],
-   "e": "Yengil va mustahkam bo'lgani uchun aviatsiyada ishlatiladi."
+   "e": "L63 — 63% mis."
   },
   {
    "b": "Rangli metallar",
-   "q": "Elektr o'tkazgichlar uchun eng ko'p ishlatiladigan rangli metallar qaysilar?",
+   "q": "Bronza qanday qotishma?",
    "a": [
-    "Mis va alyuminiy",
-    "Qo'rg'oshin va qalay",
-    "Volfram va molibden",
-    "Nikel va kobalt"
+    "Misning qalay yoki boshqa elementlar (ruxdan tashqari) bilan qotishmasi",
+    "Misning rux bilan qotishmasi",
+    "Alyuminiy va magniy qotishmasi",
+    "Temir va uglerod qotishmasi"
    ],
-   "e": "Mis eng yaxshi o'tkazuvchanlikka, alyuminiy yengillikka ega."
+   "e": "Qalayli, alyuminiyli, berilliyli bronzalar."
   },
   {
-   "b": "Nometall materiallar",
-   "q": "Termoplastik polimerlarning asosiy xususiyati nima?",
+   "b": "Rangli metallar",
+   "q": "\"BrOF\" markasidagi \"O\" va \"F\" harflari nimani bildiradi?",
    "a": [
-    "Qizdirilganda yumshab, sovitilganda qayta qotishi (qayta ishlash mumkin)",
-    "Qizdirilganda qaytmas qotishi",
-    "Elektr tokini yaxshi o'tkazishi",
-    "Suvda erishi"
+    "Qalay va fosfor",
+    "Oltin va temir",
+    "Kislorod va ftor",
+    "Osmiy va fermiy"
    ],
-   "e": "Masalan: polietilen, polipropilen, PVX."
+   "e": "Qalayli-fosforli bronza."
   },
   {
-   "b": "Nometall materiallar",
-   "q": "Kompozitsion material nima?",
+   "b": "Rangli metallar",
+   "q": "Alyuminiyning zichligi taxminan qancha?",
    "a": [
-    "Turli xossali komponentlardan (matritsa va armaturalovchi to'ldiruvchi) tashkil topgan material",
-    "Faqat toza metall",
-    "Faqat shisha",
-    "Suyuq material"
+    "2,7 g/sm³",
+    "7,8 g/sm³",
+    "8,9 g/sm³",
+    "11,3 g/sm³"
    ],
-   "e": "Masalan: shisha plastik, uglerod tolali plastik, temir-beton."
+   "e": "Po'lat ≈ 7,8, mis ≈ 8,9, qo'rg'oshin ≈ 11,3 g/sm³."
   },
   {
-   "b": "Nometall materiallar",
-   "q": "Rezina qaysi jarayon natijasida xom kauchukdan olinadi?",
+   "b": "Rangli metallar",
+   "q": "Duralyumin qanday qotishma?",
    "a": [
-    "Vulkanizatsiya (oltingugurt bilan ishlov berish)",
-    "Toblash",
-    "Elektroliz",
-    "Distillyatsiya"
+    "Alyuminiy-mis-magniy qotishmasi",
+    "Mis-rux qotishmasi, ya'ni latunning bir turi",
+    "Temir-xrom qotishmasi",
+    "Titan-vanadiy qotishmasi"
    ],
-   "e": "Vulkanizatsiya elastiklik va mustahkamlikni oshiradi."
+   "e": "Termik ishlov bilan mustahkamlanadi; aviatsiyada."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Silumin qanday qotishma?",
+   "a": [
+    "Alyuminiy-kremniy quyma qotishmasi",
+    "Alyuminiy-mis deformatsiyalanuvchi qotishmasi",
+    "Mis-qalay qotishmasi",
+    "Temir-kremniy po'lati"
+   ],
+   "e": "Yaxshi quyiluvchanlikka ega."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Titan qotishmalarining asosiy afzalligi nima?",
+   "a": [
+    "Yuqori solishtirma mustahkamlik va korroziyaga chidamlilik",
+    "Juda arzonligi, oson ishlanishi va payvandlanishi",
+    "Juda yuqori elektr o'tkazuvchanlik",
+    "Yuqori zichlik"
+   ],
+   "e": "Aviatsiya, kosmik texnika va tibbiyotda."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Babbitlar nima uchun ishlatiladi?",
+   "a": [
+    "Sirpanish podshipniklari vkladishlari uchun",
+    "Kesuvchi asboblar va frezalarning tishlari uchun",
+    "Elektr o'tkazgichlar uchun",
+    "Prujinalar uchun"
+   ],
+   "e": "Qalay yoki qo'rg'oshin asosidagi antifriksion qotishmalar."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Magniy qotishmalarining asosiy xususiyati nima?",
+   "a": [
+    "Eng yengil konstruksion metall qotishmalari",
+    "Eng og'ir va zich metall qotishmalari",
+    "Eng qattiq qotishmalar",
+    "Eng yaxshi elektr o'tkazgichlar"
+   ],
+   "e": "Zichligi ≈ 1,74 g/sm³."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Qo'rg'oshin qayerda ko'p ishlatiladi?",
+   "a": [
+    "Akkumulyatorlarda va radiatsiyadan himoyada",
+    "Samolyot korpuslari va yengil konstruksiyalarda",
+    "Oziq-ovqat idishlarida",
+    "Kesuvchi asboblarda"
+   ],
+   "e": "Qo'rg'oshin zaharli, oziq-ovqatga tegmasligi kerak."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Nikel qotishmalari (masalan, nixrom) qayerda ishlatiladi?",
+   "a": [
+    "Isitish elementlarida",
+    "Elektr o'tkazgich simlarda, chunki qarshiligi juda kichik",
+    "Oziq-ovqat qadoqlashda",
+    "Shisha ishlab chiqarishda"
+   ],
+   "e": "Nixrom yuqori elektr qarshilik va issiqbardoshlikka ega."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Rux qoplamasi (sinklash) nima uchun qo'llaniladi?",
+   "a": [
+    "Po'latni korroziyadan himoya qilish uchun",
+    "Po'latni yanada qattiqroq qilish uchun",
+    "Elektr o'tkazuvchanlikni oshirish uchun",
+    "Detalni magnitlash uchun"
+   ],
+   "e": "Rux protektor sifatida ishlaydi."
   },
   {
    "b": "Korroziya",
-   "q": "Elektrokimyoviy korroziya qachon sodir bo'ladi?",
+   "q": "Korroziya deb nimaga aytiladi?",
    "a": [
-    "Metall elektrolit muhit (masalan, namlik) bilan aloqada bo'lganda",
+    "Metallning muhit bilan o'zaro ta'sirida yemirilishi",
+    "Metallning mexanik ishqalanish va abraziv zarralardan yeyilishi",
+    "Metallning qizdirilganda kengayishi",
+    "Metallning magnitlanishi"
+   ],
+   "e": "Kimyoviy va elektrokimyoviy korroziya."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Elektrokimyoviy korroziya qachon yuz beradi?",
+   "a": [
+    "Elektrolit muhitida galvanik juftlar hosil bo'lganda",
+    "Faqat quruq gazlarda yuqori haroratda, namliksiz",
     "Faqat vakuumda",
-    "Faqat quruq gazda yuqori haroratda",
     "Hech qachon"
    ],
-   "e": "Quruq gazlarda yuqori haroratda kimyoviy korroziya yuz beradi."
+   "e": "Masalan, nam havoda po'latning zanglashi."
   },
   {
    "b": "Korroziya",
-   "q": "Po'latni korroziyadan himoyalashning protektor usuli nimaga asoslangan?",
+   "q": "Kimyoviy korroziyaga misol qaysi?",
    "a": [
-    "Faolroq metall (masalan, rux) asosiy metall o'rniga yemirilishiga",
-    "Metallni qizdirishga",
-    "Metallni magnitlashga",
-    "Metallni sovitishga"
+    "Yuqori haroratda po'latning gaz bilan oksidlanishi",
+    "Dengiz suvida kema korpusining zanglashi",
+    "Tuproqdagi quvurning yemirilishi",
+    "Nam havoda mixning zanglashi"
    ],
-   "e": "Protektor anod vazifasini bajaradi."
+   "e": "Elektrolitsiz muhitda."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Protektor himoya nima?",
+   "a": [
+    "Faolroq metall qo'shib, asosiy metallni himoya qilish",
+    "Metallni bo'yoq yoki emal bilan qoplab, havodan ajratish",
+    "Metallni moylash",
+    "Metallni qizdirish"
+   ],
+   "e": "Masalan, kema korpusiga rux plitalari."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Katodli himoya nima?",
+   "a": [
+    "Metallga tashqi manbadan manfiy potensial berish",
+    "Metallni anodga aylantirib, unga musbat potensial berish",
+    "Metallni sovitish",
+    "Metallni kislotada yuvish"
+   ],
+   "e": "Yer osti quvurlarida qo'llaniladi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Korroziyaga qarshi metall qoplamalarga misol qaysi?",
+   "a": [
+    "Xromlash, nikellash, ruxlash",
+    "Bo'yash, laklash",
+    "Moylash, mumlash",
+    "Rezina qoplash"
+   ],
+   "e": "Galvanik yoki issiq usulda qoplanadi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Korroziya ingibitorlari nima?",
+   "a": [
+    "Muhitga qo'shilib korroziyani sekinlashtiruvchi moddalar",
+    "Korroziyani tezlashtiruvchi kislotalar va tuzlar",
+    "Metallni eritadigan moddalar",
+    "Bo'yoq turlari"
+   ],
+   "e": "Sovitish tizimlari va quvurlarda ishlatiladi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Zanglamas po'latning korroziyaga chidamliligi nima bilan tushuntiriladi?",
+   "a": [
+    "Xrom oksidining zich passiv plyonkasi bilan",
+    "Po'latning juda yuqori uglerod miqdori bilan",
+    "Po'lat sirtidagi bo'yoq bilan",
+    "Po'latning magnit xossasi bilan"
+   ],
+   "e": "Kamida 12–13% xrom talab qilinadi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Qayta qizdirilganda yumshab, qayta shakllantiriladigan plastmassalar qanday nomlanadi?",
+   "a": [
+    "Termoplastlar",
+    "Termoreaktiv plastmassalar, ular qizdirilganda qaytmas qotib qoladi",
+    "Keramika",
+    "Kompozitlar"
+   ],
+   "e": "Polietilen, polipropilen, PVX."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Qizdirilganda qaytmas qotadigan plastmassalar qanday nomlanadi?",
+   "a": [
+    "Termoreaktivlar",
+    "Termoplastlar, ular qayta eritilib, qayta quyilishi mumkin",
+    "Elastomerlar",
+    "Metallar"
+   ],
+   "e": "Fenolformaldegid, epoksid smolalari."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Kompozit material nima?",
+   "a": [
+    "Matritsa va armaturadan tashkil topgan material",
+    "Faqat bitta toza metalldan iborat bir jinsli material",
+    "Faqat suyuq material",
+    "Faqat gaz"
+   ],
+   "e": "Masalan, shisha plastik, uglerod tolali plastik."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Rezina qanday olinadi?",
+   "a": [
+    "Kauchukni vulkanlash orqali",
+    "Shishani eritib, tezda sovitish orqali",
+    "Yog'ochni presslash orqali",
+    "Metallni toblash orqali"
+   ],
+   "e": "Oltingugurt bilan qizdiriladi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Keramik materiallarning asosiy xususiyati nima?",
+   "a": [
+    "Issiqbardoshlik va qattiqlik",
+    "Yuqori plastiklik va elektr o'tkazuvchanlik",
+    "Juda yengil va egiluvchan",
+    "Suvda eruvchanlik"
+   ],
+   "e": "Lekin mo'rt."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Shisha qanday tuzilishga ega?",
+   "a": [
+    "Amorf",
+    "Kristall, aniq erish haroratiga ega",
+    "Tolasimon",
+    "Metall"
+   ],
+   "e": "Aniq erish harorati yo'q, asta-sekin yumshaydi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Elektr izolyatsiyasida ishlatiladigan material qaysi?",
+   "a": [
+    "Chinni",
+    "Mis, chunki u tokni juda yaxshi o'tkazadi",
+    "Alyuminiy",
+    "Grafit"
+   ],
+   "e": "Slyuda, PVX, rezina ham izolyator."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Polietilen qanday material?",
+   "a": [
+    "Termoplast",
+    "Termoreaktiv plastmassa",
+    "Metall qotishma",
+    "Keramika"
+   ],
+   "e": "Quvurlar, plyonkalar, idishlar."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Ftoroplast (teflon) qanday xususiyatga ega?",
+   "a": [
+    "Kimyoviy chidamlilik va past ishqalanish",
+    "Yuqori elektr o'tkazuvchanlik va magnit xossa",
+    "Juda past erish harorati",
+    "Suvda eruvchanlik"
+   ],
+   "e": "Antifriksion qoplamalar va zichlagichlarda."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Yog'och materiallarning kamchiligi nima?",
+   "a": [
+    "Namlik ta'siri va yonuvchanlik",
+    "Juda yuqori zichlik va og'irlik",
+    "Elektr tokini yaxshi o'tkazishi",
+    "Magnitlanishi"
+   ],
+   "e": "Antiseptiklar va antipirenlar bilan ishlanadi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Uglerod tolali kompozitlar qayerda ishlatiladi?",
+   "a": [
+    "Aviatsiya, sport anjomlari, avtomobilsozlik",
+    "Faqat qurilish g'ishtlarida",
+    "Faqat oziq-ovqat qadoqlashda",
+    "Faqat elektr simlarida"
+   ],
+   "e": "Yengil va juda mustahkam."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Beton qanday material?",
+   "a": [
+    "Sement, to'ldiruvchi va suv aralashmasidan sun'iy tosh",
+    "Metallarning quyma qotishmasi, temir va alyuminiy asosida",
+    "Plastmassa turi",
+    "Tabiiy tog' jinsi"
+   ],
+   "e": "Temir-beton armatura bilan mustahkamlanadi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Lak-bo'yoq materiallarining asosiy vazifasi nima?",
+   "a": [
+    "Himoya va bezash",
+    "Detalni magnitlash va elektr o'tkazuvchanligini oshirish",
+    "Detalni og'irlashtirish",
+    "Detalni eritish"
+   ],
+   "e": "Korroziyadan himoya qiladi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Elimlar (kleylar) qanday birikma hosil qiladi?",
+   "a": [
+    "Ajralmaydigan",
+    "Ajraladigan, istalgan payt ochiladigan",
+    "Rezbali",
+    "Harakatlanuvchi"
+   ],
+   "e": "Epoksid, poliuretan elimlar."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Kesuvchi asbob materiallariga qo'yiladigan asosiy talab qaysi?",
+   "a": [
+    "Yuqori qattiqlik va issiqbardoshlik",
+    "Yuqori plastiklik va past qattiqlik, oson egilish",
+    "Yuqori elektr o'tkazuvchanlik",
+    "Past zichlik"
+   ],
+   "e": "Yeyilishga chidamlilik ham zarur."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Issiqbardoshlik (qizilbardoshlik) nima?",
+   "a": [
+    "Yuqori haroratda qattiqlikni saqlash qobiliyati",
+    "Past haroratda mo'rtlashish",
+    "Qizdirilganda rangini o'zgartirish",
+    "Qizdirilganda erib ketish va keyin qayta qotish qobiliyati"
+   ],
+   "e": "Tezkesar po'lat ≈ 600 °C gacha."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Qattiq qotishmalar asosan nimadan iborat?",
+   "a": [
+    "Volfram karbidi va kobalt",
+    "Temir va uglerod",
+    "Mis va rux",
+    "Alyuminiy va kremniy"
+   ],
+   "e": "Kukun metallurgiyasi usulida olinadi."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "\"VK8\" markali qattiq qotishmada 8 raqami nimani bildiradi?",
+   "a": [
+    "8% kobalt",
+    "8% volfram",
+    "8% uglerod",
+    "8 HRC qattiqlik"
+   ],
+   "e": "Qolgani volfram karbidi."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "\"T15K6\" qattiq qotishmasida T15 nimani bildiradi?",
+   "a": [
+    "15% titan karbidi",
+    "15% temir",
+    "15% tantal",
+    "15 marta tezroq"
+   ],
+   "e": "K6 — 6% kobalt."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Eng qattiq asbobsozlik materiali qaysi?",
+   "a": [
+    "Olmos",
+    "Tezkesar po'lat",
+    "Qattiq qotishma",
+    "Uglerodli asbob po'lati"
+   ],
+   "e": "Kubik bor nitridi (elbor) ikkinchi o'rinda."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Kubik bor nitridi (elbor) qayerda ishlatiladi?",
+   "a": [
+    "Toblangan po'latlarga ishlov berishda",
+    "Faqat yog'ochni kesish va mebel detallarini ishlashda",
+    "Faqat plastmassani quyishda",
+    "Faqat elektr izolyatsiyasida"
+   ],
+   "e": "Olmos temir bilan yuqori haroratda reaksiyaga kirishadi, elbor esa yo'q."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Mineralokeramika asbob materiali nimadan iborat?",
+   "a": [
+    "Alyuminiy oksidi asosida",
+    "Mis va qalay qotishmasidan",
+    "Temir va ugleroddan",
+    "Yog'och tolalaridan"
+   ],
+   "e": "Juda issiqbardosh, lekin mo'rt."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Uglerodli asbob po'latlari qanday kamchilikka ega?",
+   "a": [
+    "Past issiqbardoshlik (200–250 °C)",
+    "Juda yuqori narx va olishning murakkabligi",
+    "Juda past qattiqlik",
+    "Magnit xossaga ega emasligi"
+   ],
+   "e": "Faqat past tezlikdagi kesishda."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Shtamp po'latlariga qanday talab qo'yiladi?",
+   "a": [
+    "Qattiqlik, yeyilishga va zarbga chidamlilik",
+    "Faqat yuqori elektr o'tkazuvchanlik va magnit xossa",
+    "Faqat yengillik",
+    "Faqat zanglamaslik"
+   ],
+   "e": "Masalan, X12M."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "O'lchov asboblari uchun po'latlarga qanday talab qo'yiladi?",
+   "a": [
+    "O'lcham barqarorligi va yeyilishga chidamlilik",
+    "Yuqori plastiklik va yumshoqlik",
+    "Elektr o'tkazuvchanlik",
+    "Magnitsizlik faqat"
+   ],
+   "e": "Kalibrlar, plitkalar uchun."
   },
   {
    "b": "Payvandlanuvchanlik",
-   "q": "Qaysi po'latlar yaxshi payvandlanadi?",
+   "q": "Payvandlanuvchanlik nima?",
    "a": [
-    "Kam uglerodli po'latlar",
-    "Yuqori uglerodli asbobsozlik po'latlari",
-    "Kulrang cho'yan",
-    "Toblangan po'latlar"
+    "Sifatli payvand birikma hosil qilish qobiliyati",
+    "Metallning qizdirilganda erib ketish tezligi va suyuqlanish harorati",
+    "Metallning zanglashga moyilligi",
+    "Metallning elektr o'tkazuvchanligi"
    ],
-   "e": "Uglerod miqdori ortishi bilan payvandlanuvchanlik yomonlashadi."
+   "e": "Darzsiz, mustahkam chok hosil bo'lishi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Qaysi po'lat eng yaxshi payvandlanadi?",
+   "a": [
+    "Kam uglerodli po'lat",
+    "Yuqori uglerodli asbob po'lati",
+    "Oq cho'yan",
+    "Tezkesar po'lat"
+   ],
+   "e": "Uglerod oshgani sari payvandlanuvchanlik yomonlashadi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Uglerod ekvivalenti nima uchun hisoblanadi?",
+   "a": [
+    "Po'latning payvandlanuvchanligini baholash uchun",
+    "Po'latning bozor narxini va tannarxini aniqlash uchun",
+    "Po'lat rangini aniqlash uchun",
+    "Po'lat og'irligini hisoblash uchun"
+   ],
+   "e": "Legirlovchi elementlar ta'siri uglerodga keltiriladi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Cho'yanni payvandlashda qanday qiyinchilik bor?",
+   "a": [
+    "Darz ketish va oq qatlam hosil bo'lishi",
+    "Juda oson payvandlanishi va hech qanday qiyinchilik yo'qligi",
+    "Cho'yan payvandda erimaydi",
+    "Cho'yan payvanddan keyin magnitlanadi"
+   ],
+   "e": "Oldindan qizdirish va maxsus elektrodlar talab qilinadi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvandlashdan oldin qalin po'latni qizdirish nima uchun kerak?",
+   "a": [
+    "Sovish tezligini kamaytirib, darz ketishning oldini olish uchun",
+    "Payvand chokini bo'yashdan oldin quritish va changsizlantirish uchun",
+    "Elektr energiyasini tejash uchun",
+    "Detal o'lchamini oshirish uchun"
+   ],
+   "e": "Ayniqsa legirlangan va o'rta uglerodli po'latlarda."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Termik ta'sir zonasi nima?",
+   "a": [
+    "Chok yonidagi strukturasi o'zgargan metall qismi",
+    "Payvandchi va yordamchi xodimlar turadigan xavfli zona",
+    "Elektrod ushlagichning qizigan qismi",
+    "Payvand kabelining uzunligi"
+   ],
+   "e": "Bu zonada mo'rtlik paydo bo'lishi mumkin."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Alyuminiyni payvandlashda asosiy qiyinchilik nima?",
+   "a": [
+    "Sirtdagi qiyin eriydigan oksid plyonka",
+    "Alyuminiyning juda yuqori erish harorati, 3000 °C dan oshiq",
+    "Alyuminiyning magnit xossasi",
+    "Alyuminiyning juda past issiqlik o'tkazuvchanligi"
+   ],
+   "e": "Argon himoyasida payvandlanadi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvandlashda himoya gazi sifatida nima ishlatiladi?",
+   "a": [
+    "Argon yoki karbonat angidrid",
+    "Kislorod faqat",
+    "Vodorod va metan",
+    "Xlor"
+   ],
+   "e": "Havo ta'siridan chokni himoya qiladi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Metallarning plastik deformatsiyasi asosan qaysi mexanizm bilan sodir bo'ladi?",
+   "a": [
+    "Dislokatsiyalarning siljishi",
+    "Atomlarning to'liq bug'lanishi",
+    "Elektronlarning yo'qolishi",
+    "Yadroning parchalanishi"
+   ],
+   "e": "Sirpanish tekisliklari bo'ylab."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Naklyop (sovuqda puxtalanish) nima?",
+   "a": [
+    "Sovuq deformatsiyada qattiqlik va mustahkamlikning ortishi",
+    "Qizdirishda metallning yumshashi va donalarining yiriklashishi",
+    "Metallning zanglashi",
+    "Metallning erishi"
+   ],
+   "e": "Dislokatsiyalar zichligi ortadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Rekristallizatsiya nima?",
+   "a": [
+    "Deformatsiyalangan metallni qizdirganda yangi donalar hosil bo'lishi",
+    "Metallning sovuqda puxtalanishi, ya'ni naklyop hosil bo'lishi",
+    "Metallning suyuqlanishi",
+    "Metallning oksidlanishi"
+   ],
+   "e": "Naklyop yo'qoladi, plastiklik tiklanadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Kukun metallurgiyasi nima?",
+   "a": [
+    "Metall kukunlarini presslab, pishirish orqali buyum olish",
+    "Metallarni suyuqlantirib, qum qoliplarga quyish va sovitish",
+    "Metallarni bolg'alash",
+    "Metallarni kesish"
+   ],
+   "e": "Qattiq qotishmalar, g'ovakli podshipniklar shu usulda olinadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Metallarning izotropligi nimani bildiradi?",
+   "a": [
+    "Xossalarning barcha yo'nalishlarda bir xilligini",
+    "Xossalarning yo'nalishga qarab har xil bo'lishini",
+    "Metallning radioaktivligini",
+    "Metallning izotoplarga bo'linishini"
+   ],
+   "e": "Polikristall metallar odatda kvazizotrop."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Oquvchanlik chegarasi nima?",
+   "a": [
+    "Sezilarli qoldiq deformatsiya boshlanadigan kuchlanish",
+    "Namuna butunlay sinadigan eng katta kuchlanish, ya'ni mustahkamlik chegarasi",
+    "Material eriy boshlaydigan harorat",
+    "Elastiklik moduli"
+   ],
+   "e": "σ_t yoki σ_0,2."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Elastiklik moduli (Yung moduli) po'lat uchun taxminan qancha?",
+   "a": [
+    "200 GPa",
+    "2 GPa, ya'ni plastmassalarga yaqin qiymat",
+    "70 MPa",
+    "2000 GPa"
+   ],
+   "e": "Alyuminiy uchun ≈ 70 GPa."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Nisbiy uzayish nimani tavsiflaydi?",
+   "a": [
+    "Plastiklikni",
+    "Qattiqlikni va sirtning yeyilishini",
+    "Elektr qarshilikni",
+    "Issiqlik sig'imini"
+   ],
+   "e": "δ = Δl/l₀·100%."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Mo'rt materiallar qanday sinadi?",
+   "a": [
+    "Sezilarli plastik deformatsiyasiz",
+    "Katta plastik deformatsiya va bo'yin hosil qilib",
+    "Hech qachon sinmaydi",
+    "Faqat qizdirilganda"
+   ],
+   "e": "Masalan, cho'yan, shisha."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Sovuqda mo'rtlik qaysi metallarga xos?",
+   "a": [
+    "Hajmiy markazlashgan kub panjarali (masalan, uglerodli po'lat)",
+    "Yoqlari markazlashgan kub panjarali (masalan, mis, alyuminiy)",
+    "Barcha metallarga bir xil",
+    "Hech qaysi metallga"
+   ],
+   "e": "Past haroratda zarbiy qovushoqlik keskin kamayadi."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Materialning yeyilishga chidamliligi qaysi xossa bilan ko'proq bog'liq?",
+   "a": [
+    "Qattiqlik",
+    "Elektr o'tkazuvchanlik",
+    "Magnit singdiruvchanlik",
+    "Rang"
+   ],
+   "e": "Qattiq sirt kamroq yeyiladi."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Brinell qattiqligi HB 200 bo'lgan po'lat qanday po'lat?",
+   "a": [
+    "O'rtacha qattiqlikdagi konstruksion po'lat",
+    "Toblangan asbob po'lati, eng qattiq holatda",
+    "Juda yumshoq qo'rg'oshin",
+    "Olmos"
+   ],
+   "e": "Toblangan asbob po'latlari HRC 60 atrofida."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Po'latdagi zararli qo'shimchalar qaysilar?",
+   "a": [
+    "Oltingugurt va fosfor",
+    "Xrom va nikel",
+    "Marganes va kremniy (kam miqdorda)",
+    "Molibden va volfram"
+   ],
+   "e": "Oltingugurt qizil mo'rtlik, fosfor sovuq mo'rtlik beradi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Oltingugurt po'latda qanday nuqsonga sabab bo'ladi?",
+   "a": [
+    "Qizil mo'rtlik",
+    "Sovuq mo'rtlik",
+    "Magnitlanish",
+    "Zanglamaslik"
+   ],
+   "e": "Yuqori haroratda bosim bilan ishlashda darz ketadi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Fosfor po'latda qanday nuqsonga sabab bo'ladi?",
+   "a": [
+    "Sovuq mo'rtlik",
+    "Qizil mo'rtlik",
+    "Yumshoqlik",
+    "Elektr o'tkazuvchanlikning oshishi"
+   ],
+   "e": "Past haroratda zarbiy qovushoqlik kamayadi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Avtomat po'latlarida (A12) oltingugurt nima uchun ataylab qo'shiladi?",
+   "a": [
+    "Qirindini mayda sindirib, kesishni osonlashtirish uchun",
+    "Po'latni zanglamaydigan qilish va uning sirtini yaltiratish uchun",
+    "Po'lat qattiqligini maksimal oshirish uchun",
+    "Po'latni elektr izolyatoriga aylantirish uchun"
+   ],
+   "e": "Avtomat stanoklarda mayda detallar uchun."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Qaynovchi, yarim tinch va tinch po'latlar nima bilan farqlanadi?",
+   "a": [
+    "Kislorodsizlantirish (raskisleniye) darajasi bilan",
+    "Uglerod miqdori bilan faqat, boshqa tarkibiy farq yo'q",
+    "Rangi bilan",
+    "Narxi bilan"
+   ],
+   "e": "Belgilanishi: kp, ps, sp."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Legirlangan po'latlarda xrom asosan nima beradi?",
+   "a": [
+    "Toblanuvchanlik va korroziyaga chidamlilik",
+    "Faqat elektr o'tkazuvchanlikni oshiradi va po'latni yumshatadi",
+    "Po'latni radioaktiv qiladi",
+    "Po'latni magnitsiz qiladi"
+   ],
+   "e": "12% dan ko'p xrom zanglamaslik beradi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Nikel po'latga qanday xossa beradi?",
+   "a": [
+    "Qovushoqlik va sovuqqa chidamlilik",
+    "Mo'rtlik va qattiqlik, plastiklikni kamaytiradi",
+    "Elektr o'tkazuvchanlik",
+    "Rang"
+   ],
+   "e": "Austenitni barqarorlashtiradi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Volfram va molibden tezkesar po'latga nima beradi?",
+   "a": [
+    "Issiqbardoshlik",
+    "Plastiklik va yumshoqlik",
+    "Korroziyaga chidamlilik faqat",
+    "Magnit xossalar"
+   ],
+   "e": "Karbidlar hosil qiladi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Cho'yanning po'latga nisbatan afzalligi nima?",
+   "a": [
+    "Yaxshi quyiluvchanlik va arzonlik",
+    "Yuqori plastiklik va payvandlanuvchanlik",
+    "Yuqori zarbiy qovushoqlik",
+    "Bolg'alanishi"
+   ],
+   "e": "Murakkab shaklli korpuslar quyiladi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Kulrang cho'yanning qaysi xossasi uni stanok stanina uchun mos qiladi?",
+   "a": [
+    "Tebranishlarni so'ndirish qobiliyati",
+    "Yuqori plastiklik va cho'ziluvchanlik",
+    "Elektr o'tkazuvchanligi",
+    "Magnitsizligi"
+   ],
+   "e": "Grafit plastinkalari tebranishni yutadi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Termik ishlov berishning uch bosqichi qaysilar?",
+   "a": [
+    "Qizdirish, saqlash, sovitish",
+    "Kesish, payvandlash, bo'yash",
+    "Quyish, bolg'alash, prokatlash",
+    "Tozalash, moylash, o'rash"
+   ],
+   "e": "Har bir bosqich rejimi natijani belgilaydi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Qaysi po'lat toblashda deyarli qattiqlashmaydi?",
+   "a": [
+    "Kam uglerodli (0,1–0,2% C)",
+    "Evtektoid (0,8% C)",
+    "Asbobsozlik U10",
+    "Tezkesar R6M5"
+   ],
+   "e": "Shuning uchun ular sementatsiya qilinadi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Toblash muhitlaridan qaysi biri eng tez sovitadi?",
+   "a": [
+    "Tuzli suv",
+    "Mineral moy",
+    "Havo",
+    "Pech"
+   ],
+   "e": "Moy sekinroq, kamroq darz beradi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Moyda toblash suvda toblashdan qanday afzallikka ega?",
+   "a": [
+    "Darz va qiyshayish xavfi kamroq",
+    "Har doim yuqoriroq qattiqlik beradi",
+    "Arzonroq va tezroq",
+    "Detalni zanglamaydigan qiladi"
+   ],
+   "e": "Legirlangan po'latlar moyda toblanadi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Izotermik toblash nima?",
+   "a": [
+    "Oraliq haroratli muhitda saqlab sovitish",
+    "Suyuq azotda yoki quruq muzda juda tez sovitish",
+    "Pechda sekin sovitish",
+    "Toblashsiz bo'shatish"
+   ],
+   "e": "Beynit struktura olinadi, kuchlanishlar kam."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Sovuq bilan ishlov berish (-70 °C gacha) nima uchun bajariladi?",
+   "a": [
+    "Qoldiq austenitni martensitga aylantirish uchun",
+    "Po'latni yumshatish va ichki kuchlanishlarni to'liq yo'qotish uchun",
+    "Po'latni zanglamaydigan qilish uchun",
+    "Po'latni magnitlash uchun"
+   ],
+   "e": "O'lchov asboblari va podshipniklar uchun."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Diffuzion yumshatish (gomogenlash) nima uchun bajariladi?",
+   "a": [
+    "Kimyoviy bir jinslilikni oshirish uchun",
+    "Sirtni qattiqlashtirish va uglerod bilan boyitish uchun",
+    "Detalni tez sovitish uchun",
+    "Detalni bo'yash uchun"
+   ],
+   "e": "Quymalardagi likvatsiyani kamaytiradi."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Misning erish harorati taxminan qancha?",
+   "a": [
+    "1083 °C",
+    "660 °C",
+    "1539 °C",
+    "327 °C"
+   ],
+   "e": "Qo'rg'oshin ≈ 327 °C."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Alyuminiyning erish harorati taxminan qancha?",
+   "a": [
+    "660 °C",
+    "1083 °C",
+    "1539 °C",
+    "232 °C"
+   ],
+   "e": "Qalay ≈ 232 °C."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Alyuminiyning korroziyaga chidamliligi nima bilan tushuntiriladi?",
+   "a": [
+    "Zich oksid plyonka bilan",
+    "Uning juda yuqori zichligi bilan",
+    "Uning magnit xossasi bilan",
+    "Uning tarkibidagi uglerod bilan"
+   ],
+   "e": "Al₂O₃ plyonka metallni himoya qiladi."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Anodlash (alyuminiyda) nima?",
+   "a": [
+    "Elektrokimyoviy usulda qalinroq oksid qatlam hosil qilish",
+    "Alyuminiyni boshqa metall (nikel yoki xrom) bilan galvanik qoplash",
+    "Alyuminiyni toblash",
+    "Alyuminiyni eritish"
+   ],
+   "e": "Korroziyaga chidamlilik va bezak uchun."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Berilliyli bronza qanday xususiyatga ega?",
+   "a": [
+    "Yuqori mustahkamlik va elastiklik, uchqun chiqarmaydi",
+    "Juda yumshoq va plastik, prujinalarga yaroqsiz",
+    "Juda arzon va keng tarqalgan",
+    "Magnit xossaga ega"
+   ],
+   "e": "Prujinalar, portlash xavfli muhit asboblari uchun."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Kumushning texnikadagi asosiy qo'llanilishi qaysi?",
+   "a": [
+    "Elektr kontaktlari va kavsharlar",
+    "Konstruksion to'sinlar va ko'prik fermalari",
+    "Quvurlar",
+    "Avtomobil kuzovlari"
+   ],
+   "e": "Eng yaxshi elektr o'tkazuvchi metall."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Pitting korroziya nima?",
+   "a": [
+    "Sirtda chuqur nuqtali yemirilish",
+    "Butun sirt bo'ylab bir tekis yemirilish",
+    "Faqat payvand chokida yemirilish",
+    "Mexanik yeyilish"
+   ],
+   "e": "Zanglamas po'latlarda xloridlar ta'sirida."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Kristallitlararo korroziya qayerda rivojlanadi?",
+   "a": [
+    "Dona chegaralari bo'ylab",
+    "Faqat metall sirtida bir tekis",
+    "Faqat bo'yoq ostida",
+    "Faqat rezbada"
+   ],
+   "e": "Zanglamas po'latlarda karbidlar hosil bo'lganda; titan qo'shimchasi oldini oladi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Kuchlanishli korroziyaviy darz ketish nima?",
+   "a": [
+    "Mexanik kuchlanish va korroziv muhitning birgalikdagi ta'sirida darz ketish",
+    "Faqat mexanik zarbdan to'satdan sinish, muhit ta'sirisiz",
+    "Faqat yuqori haroratda erish",
+    "Faqat bo'yoqning ko'chishi"
+   ],
+   "e": "Bosim ostidagi idishlarda xavfli."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Turli metallarni bir-biriga tegizib ulashda qanday xavf bor?",
+   "a": [
+    "Kontakt (galvanik) korroziya",
+    "Detallarning magnitlanishi",
+    "Detallarning qizib ketishi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Faolroq metall yemiriladi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Fosfatlash nima?",
+   "a": [
+    "Po'lat sirtida himoya fosfat plyonkasi hosil qilish",
+    "Po'latni fosfor bilan legirlab, uning mustahkamligini oshirish",
+    "Po'latni toblash",
+    "Po'latni eritish"
+   ],
+   "e": "Bo'yoq ostiga grunt sifatida."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Polimerlarning qarishi nima?",
+   "a": [
+    "Vaqt, yorug'lik va issiqlik ta'sirida xossalarning yomonlashishi",
+    "Polimerning mustahkamligi vaqt o'tishi bilan doimiy ortib borishi",
+    "Polimerning rangining yorqinlashishi",
+    "Polimerning metallga aylanishi"
+   ],
+   "e": "Ultrabinafsha nurlar ayniqsa ta'sir qiladi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Shisha plastik (shisha tolali plastik) nima?",
+   "a": [
+    "Shisha tola bilan armaturalangan polimer",
+    "Rangli shishadan yasalgan oyna",
+    "Plastmassa qoplangan shisha butilka yoki idish",
+    "Shisha va po'lat qotishmasi"
+   ],
+   "e": "Qayiqlar, quvurlar, idishlar ishlab chiqarishda."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Grafit qanday xususiyatga ega?",
+   "a": [
+    "Elektr o'tkazuvchan, yumshoq, moylovchi",
+    "Elektr izolyator, juda qattiq va shaffof",
+    "Magnit xossaga ega",
+    "Suvda eriydi"
+   ],
+   "e": "Elektrodlar va qattiq moylash materiali."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Asbest nima uchun hozirda cheklangan?",
+   "a": [
+    "Sog'liq uchun xavfli (kanserogen)",
+    "Juda qimmat va kam uchraydi",
+    "Issiqlikka chidamsiz",
+    "Elektr tokini o'tkazadi"
+   ],
+   "e": "Muqobil issiqlik izolyatsiya materiallari qo'llaniladi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Metallarning asosiy xossalari guruhlariga qaysilar kiradi?",
+   "a": [
+    "Fizik, kimyoviy, mexanik, texnologik",
+    "Faqat rang va hid, ya'ni organoleptik xossalar",
+    "Faqat narx va ishlab chiqaruvchi",
+    "Faqat og'irlik"
+   ],
+   "e": "Texnologik — quyiluvchanlik, payvandlanuvchanlik, kesib ishlanuvchanlik."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Texnologik xossalarga qaysi biri kiradi?",
+   "a": [
+    "Quyiluvchanlik",
+    "Zichlik, ya'ni hajm birligidagi massa",
+    "Elektr o'tkazuvchanlik",
+    "Korroziyaga chidamlilik"
+   ],
+   "e": "Bosim bilan ishlanuvchanlik ham texnologik xossa."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Metallografiya nimani o'rganadi?",
+   "a": [
+    "Metallarning ichki tuzilishini",
+    "Metallarning bozordagi narxlarini",
+    "Metall konlari joylashuvini",
+    "Metallarni bo'yash usullarini"
+   ],
+   "e": "Mikroskop yordamida shliflar tekshiriladi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Shlif nima?",
+   "a": [
+    "Mikroskopda tekshirish uchun silliqlangan namuna",
+    "Metall qirindisi",
+    "Payvand elektrodi",
+    "Kesuvchi asbob turi"
+   ],
+   "e": "Kimyoviy edirilgach struktura ko'rinadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Defektoskopiya nima uchun qo'llaniladi?",
+   "a": [
+    "Ichki nuqsonlarni buzmasdan aniqlash uchun",
+    "Metallni ataylab sindirib, siniq yuzasini o'rganish uchun",
+    "Metall rangini aniqlash uchun",
+    "Metall narxini hisoblash uchun"
+   ],
+   "e": "Ultratovush, rentgen, magnit kukun usullari."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "\"VCh60\" markasi nimani bildiradi?",
+   "a": [
+    "Yuqori mustahkam cho'yan, σ_v ≈ 600 MPa",
+    "Bolg'alanuvchan cho'yan, 60% uglerodli",
+    "Kulrang cho'yan, 6% grafitli",
+    "Po'lat 60"
+   ],
+   "e": "Sharsimon grafitli cho'yan."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "\"SCh20\" markasi nimani bildiradi?",
+   "a": [
+    "Kulrang cho'yan, σ_v ≈ 200 MPa",
+    "Yuqori mustahkam cho'yan, 20% grafitli",
+    "Po'lat 20",
+    "Bronza"
+   ],
+   "e": "Plastinkasimon grafitli."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Po'lat ishlab chiqarishning zamonaviy asosiy usullari qaysilar?",
+   "a": [
+    "Kislorod-konverter va elektr yoy pechi",
+    "Faqat qo'l bilan temirchilik ustaxonasida bolg'alash",
+    "Faqat domna pechi",
+    "Faqat elektroliz"
+   ],
+   "e": "Martin usuli deyarli ishlatilmaydi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Domna pechida qanday mahsulot olinadi?",
+   "a": [
+    "Cho'yan",
+    "Toza alyuminiy",
+    "Mis",
+    "Tayyor zanglamas po'lat"
+   ],
+   "e": "Temir rudasi koks bilan qaytariladi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Toblangan detalni bo'shatmasdan ishlatish nima uchun xavfli?",
+   "a": [
+    "Mo'rt sinish xavfi yuqori",
+    "Detal juda yumshoq bo'lib, tez yeyiladi",
+    "Detal magnitlanib qoladi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Ichki kuchlanishlar saqlanib qoladi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Kesuvchi asboblar (keski, metchik) toblashdan keyin qaysi bo'shatishdan o'tkaziladi?",
+   "a": [
+    "Past haroratli",
+    "Yuqori haroratli",
+    "O'rta haroratli faqat",
+    "Bo'shatilmaydi"
+   ],
+   "e": "Qattiqlik saqlanadi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Prujinalar toblashdan keyin qaysi bo'shatishdan o'tkaziladi?",
+   "a": [
+    "O'rta haroratli (350–500 °C)",
+    "Past haroratli (150–250 °C)",
+    "Yuqori haroratli (600 °C dan yuqori)",
+    "Bo'shatilmaydi"
+   ],
+   "e": "Yuqori elastiklik chegarasi olinadi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Val va shesternyalar uchun qaysi termik ishlov eng mos?",
+   "a": [
+    "Yaxshilash",
+    "Faqat yumshatish",
+    "Faqat past bo'shatish",
+    "Hech qanday ishlov"
+   ],
+   "e": "Mustahkamlik va qovushoqlik uyg'unligi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Yumshatishdan keyin po'latga mexanik ishlov berish nima uchun osonlashadi?",
+   "a": [
+    "Qattiqlik kamayadi",
+    "Qattiqlik maksimal darajaga yetadi",
+    "Po'lat suyuq bo'ladi",
+    "Po'lat magnitlanadi"
+   ],
+   "e": "Kesib ishlanuvchanlik yaxshilanadi."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Qalayning asosiy qo'llanilishi qaysi?",
+   "a": [
+    "Kavsharlar va oq tunuka",
+    "Konstruksion to'sinlar",
+    "Prujinalar",
+    "Kesuvchi asboblar"
+   ],
+   "e": "Konserva bankalari qalaylangan tunukadan."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Mis-nikel qotishmasi (melxior) qayerda ishlatiladi?",
+   "a": [
+    "Tangalar va dengiz suvi quvurlarida",
+    "Domna pechlarida",
+    "Kesuvchi asboblarda",
+    "Elektr izolyatsiyasida"
+   ],
+   "e": "Korroziyaga chidamli."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Rangli metallar va qotishmalarni belgilashda \"M1\" nimani bildiradi?",
+   "a": [
+    "Mis (texnik toza)",
+    "Magniy",
+    "Marganes",
+    "Molibden"
+   ],
+   "e": "M00, M0, M1 — tozalik darajasi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Atmosfera korroziyasini tezlashtiruvchi omillar qaysilar?",
+   "a": [
+    "Namlik, oltingugurt gazlari va tuzlar",
+    "Quruq toza havo va past harorat",
+    "Vakuum",
+    "Qorong'ilik"
+   ],
+   "e": "Sanoat va dengiz bo'yi atmosferasi agressiv."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Bo'yoq qoplamasi korroziyadan qanday himoya qiladi?",
+   "a": [
+    "Metallni muhitdan ajratib",
+    "Metallni elektr bilan ta'minlab",
+    "Metallni qizdirib",
+    "Metallni magnitlab"
+   ],
+   "e": "Qoplama butunligi muhim."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Korroziya tezligi qanday birlikda ifodalanadi?",
+   "a": [
+    "mm/yil",
+    "kg/m³",
+    "Vt/m",
+    "Gs"
+   ],
+   "e": "Yoki g/(m²·soat)."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Polipropilen qanday material?",
+   "a": [
+    "Termoplast",
+    "Termoreaktiv plastmassa",
+    "Keramika",
+    "Metall"
+   ],
+   "e": "Quvurlar, idishlar, avtomobil detallari."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Epoksid smolalari qanday material?",
+   "a": [
+    "Termoreaktiv",
+    "Termoplast",
+    "Metall",
+    "Shisha"
+   ],
+   "e": "Elim, kompozit matritsasi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Elastomerlarga qaysi material kiradi?",
+   "a": [
+    "Rezina",
+    "Shisha",
+    "Po'lat",
+    "Chinni"
+   ],
+   "e": "Katta elastik deformatsiyaga qodir."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Kapron (poliamid) qayerda ishlatiladi?",
+   "a": [
+    "Tolalar va mashina detallari (shesternyalar, vtulkalar)",
+    "Faqat elektr kabellarining mis o'tkazgichlari sifatida",
+    "Faqat oziq-ovqat sifatida",
+    "Faqat qurilish g'ishti sifatida"
+   ],
+   "e": "Antifriksion va mustahkam."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Organik shisha (pleksiglas) qanday material?",
+   "a": [
+    "Shaffof termoplast (polimetilmetakrilat)",
+    "Oddiy silikat shisha",
+    "Metall qotishma",
+    "Keramika"
+   ],
+   "e": "Yengil, sinmaydi."
   },
   {
    "b": "Asbobsozlik materiallari",
-   "q": "Tez kesar po'latning (masalan, R6M5) asosiy xususiyati nima?",
+   "q": "Qattiq qotishma plastinalar asbob korpusiga qanday mahkamlanadi?",
    "a": [
-    "Yuqori haroratda ham qattiqligini saqlashi (issiqbardoshlik)",
-    "Juda yumshoqligi",
-    "Arzonligi",
-    "Elektr o'tkazmasligi"
+    "Kavsharlab yoki mexanik",
+    "Faqat yelim bilan",
+    "Faqat payvand bilan",
+    "Mahkamlanmaydi"
    ],
-   "e": "Volfram va molibden bilan legirlangan."
+   "e": "Almashtiriladigan plastinalar vint bilan qisiladi."
   },
   {
    "b": "Asbobsozlik materiallari",
-   "q": "Qattiq qotishmalar (masalan, VK8) asosan nimadan iborat?",
+   "q": "Volfram-kobaltli qattiq qotishmalar (VK) qaysi materiallarni kesishga mos?",
    "a": [
-    "Volfram karbidi va kobalt bog'lovchidan",
-    "Temir va ugleroddan",
-    "Mis va ruxdan",
-    "Alyuminiy va kremniydan"
+    "Cho'yan va rangli metallar",
+    "Faqat yog'och va plastmassa",
+    "Faqat toblangan po'lat",
+    "Faqat shisha"
    ],
-   "e": "Kesuvchi asboblar plastinkalari uchun ishlatiladi."
+   "e": "TK guruhi — po'latlar uchun."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Abraziv materiallarga qaysi biri kiradi?",
+   "a": [
+    "Elektrokorund",
+    "Mis",
+    "Polietilen",
+    "Rezina"
+   ],
+   "e": "Karborund (kremniy karbidi) ham abraziv."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Elektrod qoplamasi qanday vazifani bajaradi?",
+   "a": [
+    "Yoyni barqarorlashtiradi va chokni himoya qiladi",
+    "Elektrodni chiroyli qiladi va narxini oshiradi",
+    "Elektrodni sovitadi",
+    "Elektrodni magnitlaydi"
+   ],
+   "e": "Shlak va himoya gazi hosil qiladi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvand chokidagi g'ovaklar sababi nima?",
+   "a": [
+    "Erigan metallga gazlar kirishi",
+    "Juda yaxshi tozalangan va quritilgan elektrodlar",
+    "Past tok",
+    "Metallning qalinligi"
+   ],
+   "e": "Nam elektrodlar g'ovak beradi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvandlashdan keyin yuqori haroratli bo'shatish nima uchun bajariladi?",
+   "a": [
+    "Payvand kuchlanishlarini kamaytirish uchun",
+    "Chokni qattiqroq va mo'rtroq qilish uchun",
+    "Chokni bo'yash uchun",
+    "Chokni sovitish uchun"
+   ],
+   "e": "Mas'ul konstruksiyalarda majburiy."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvandlashda deformatsiya (qiyshayish) nimadan kelib chiqadi?",
+   "a": [
+    "Notekis qizish va sovish",
+    "Elektrodning rangidan",
+    "Payvandchining kiyimidan",
+    "Xona yoritilganligidan"
+   ],
+   "e": "Mahkamlash moslamalari va to'g'ri tartib kamaytiradi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvand chokining sifatini nazorat qilish usullariga qaysi kiradi?",
+   "a": [
+    "Ultratovushli va rentgen nazorati",
+    "Faqat chokning rangiga qarab baholash",
+    "Faqat chokni hidlash",
+    "Hech qanday nazorat kerak emas"
+   ],
+   "e": "Vizual nazorat ham birinchi bosqich."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Toza temir qanday xossaga ega?",
+   "a": [
+    "Yumshoq va plastik",
+    "Juda qattiq va mo'rt, xuddi oq cho'yan kabi",
+    "Suyuq holatda xona haroratida",
+    "Magnit xossaga ega emas har qanday haroratda"
+   ],
+   "e": "Texnik toza temir konstruksion material sifatida kam ishlatiladi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Temir qaysi haroratda magnit xossalarini yo'qotadi?",
+   "a": [
+    "768 °C",
+    "100 °C, ya'ni suvning qaynash haroratida",
+    "1539 °C",
+    "0 °C"
+   ],
+   "e": "Kyuri nuqtasi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Dona chegaralari metall xossalariga qanday ta'sir qiladi?",
+   "a": [
+    "Mustahkamlikni oshiradi",
+    "Har doim mustahkamlikni keskin kamaytirib, metallni mo'rt qiladi",
+    "Hech qanday ta'sir qilmaydi",
+    "Faqat rangni o'zgartiradi"
+   ],
+   "e": "Xoll–Petch munosabati."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Amorf metallar (metall shishalar) qanday olinadi?",
+   "a": [
+    "Juda tez sovitish orqali",
+    "Pechda juda sekin sovitish orqali, kristall o'sishi uchun",
+    "Bolg'alash orqali",
+    "Elektroliz orqali"
+   ],
+   "e": "Kristall panjara hosil bo'lmaydi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Po'latlar ishlatilishiga ko'ra qanday guruhlarga bo'linadi?",
+   "a": [
+    "Konstruksion va asbobsozlik",
+    "Faqat qizil va ko'k rangli po'latlar",
+    "Faqat og'ir va yengil",
+    "Faqat arzon va qimmat"
+   ],
+   "e": "Maxsus xossali po'latlar ham ajratiladi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Uglerodli po'latlar uglerod miqdoriga ko'ra qanday bo'linadi?",
+   "a": [
+    "Kam, o'rta va yuqori uglerodli",
+    "Faqat toza va iflos po'latlar",
+    "Faqat legirlangan va zanglamas",
+    "Faqat quyma va prokat"
+   ],
+   "e": "Kam — 0,25% gacha, o'rta — 0,25–0,6%, yuqori — 0,6% dan ko'p."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Legirlangan po'latlar legirlash darajasiga ko'ra qanday bo'linadi?",
+   "a": [
+    "Kam, o'rta, yuqori legirlangan",
+    "Faqat bir va ikki legirlangan",
+    "Faqat qora va rangli",
+    "Faqat magnitli va magnitsiz"
+   ],
+   "e": "Kam — 2,5% gacha, o'rta — 2,5–10%, yuqori — 10% dan ko'p."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Elektrotexnik po'lat tarkibiga qaysi element qo'shiladi?",
+   "a": [
+    "Kremniy",
+    "Uglerod ko'p miqdorda, qattiqlikni oshirish uchun",
+    "Qo'rg'oshin",
+    "Oltingugurt"
+   ],
+   "e": "Gisterezis va uyurma toklar isrofini kamaytiradi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Issiqbardosh po'latlar qayerda ishlatiladi?",
+   "a": [
+    "Turbina va pech detallarida",
+    "Faqat oshxona pichoqlarida",
+    "Faqat bolalar o'yinchoqlarida",
+    "Faqat bezak buyumlarida"
+   ],
+   "e": "Yuqori haroratda mustahkamlikni saqlaydi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Toblash harorati evtektoidgacha po'latlar uchun qanday tanlanadi?",
+   "a": [
+    "Ac3 dan 30–50 °C yuqori",
+    "Ac1 dan 200 °C past, ya'ni austenitlanishsiz",
+    "Erish haroratiga teng",
+    "Xona haroratida"
+   ],
+   "e": "To'liq austenitlanish uchun."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Qizdirish vaqtini tanlashda nimalar hisobga olinadi?",
+   "a": [
+    "Detal o'lchami va materiali",
+    "Faqat ustaxona devorlarining rangi",
+    "Faqat kun vaqti",
+    "Faqat operator yoshi"
+   ],
+   "e": "Detal butun kesimi bo'yicha qizishi kerak."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Lazer bilan sirtni toblashning afzalligi nima?",
+   "a": [
+    "Mahalliy va aniq ishlov",
+    "Butun detalni bir tekis qizdirish va pechni almashtirish",
+    "Arzonligi va hech qanday uskuna talab qilmasligi",
+    "Detalni yumshatish"
+   ],
+   "e": "Deformatsiya minimal."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Termomexanik ishlov berish nima?",
+   "a": [
+    "Plastik deformatsiya va termik ishlovni birlashtirish",
+    "Faqat sovuqda bolg'alash, qizdirishsiz",
+    "Faqat bo'yash",
+    "Faqat kesish"
+   ],
+   "e": "Yuqori mustahkamlik olinadi."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Mis qotishmalari qanday guruhlarga bo'linadi?",
+   "a": [
+    "Latunlar va bronzalar",
+    "Faqat duralyuminlar va siluminlar",
+    "Faqat cho'yanlar",
+    "Faqat qattiq qotishmalar"
+   ],
+   "e": "Mis-nikel qotishmalari ham bor."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Alyuminiy qotishmalari qanday guruhlarga bo'linadi?",
+   "a": [
+    "Deformatsiyalanuvchi va quyma",
+    "Faqat qora va oq qotishmalar",
+    "Faqat magnitli va magnitsiz",
+    "Faqat issiq va sovuq"
+   ],
+   "e": "Duralyumin — deformatsiyalanuvchi, silumin — quyma."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Titanning zichligi taxminan qancha?",
+   "a": [
+    "4,5 g/sm³",
+    "7,8 g/sm³, xuddi po'lat kabi",
+    "1,7 g/sm³",
+    "19,3 g/sm³"
+   ],
+   "e": "Po'latdan yengil, alyuminiydan og'ir."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Volframning asosiy xususiyati nima?",
+   "a": [
+    "Eng yuqori erish harorati",
+    "Eng past erish harorati, xona haroratida suyuq",
+    "Eng yengil metall",
+    "Eng yaxshi elektr o'tkazgich"
+   ],
+   "e": "≈ 3422 °C; cho'g'lanma lampa tolalari."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Dengiz suvida korroziya nima uchun kuchli?",
+   "a": [
+    "Xloridlar ko'pligi",
+    "Suvning juda sovuqligi va toza bo'lishi",
+    "Dengiz suvida kislorod umuman yo'qligi",
+    "Yorug'lik yo'qligi"
+   ],
+   "e": "Xlorid ionlari passiv plyonkani buzadi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Quvurlarni tuproq korroziyasidan himoyalashning usuli qaysi?",
+   "a": [
+    "Izolyatsiya va katodli himoya",
+    "Quvurlarni yalang'och qoldirib, nam tuproqqa ko'mish",
+    "Quvurlarni tuz bilan to'ldirish",
+    "Quvurlarni qizdirish"
+   ],
+   "e": "Bitum yoki polimer izolyatsiya."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Issiq usulda ruxlash nima?",
+   "a": [
+    "Detalni eritilgan ruxga botirish",
+    "Ruxni detalga bo'yoq kabi cho'tka bilan surtish",
+    "Detalni rux kukuni bilan ishqalash",
+    "Detalni ruxli suvda yuvish"
+   ],
+   "e": "Qalin va mustahkam qoplama."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Termoplastlarning afzalligi nima?",
+   "a": [
+    "Qayta ishlash mumkinligi",
+    "Qizdirilganda qaytmas qotishi va eritib bo'lmasligi",
+    "Juda yuqori issiqbardoshlik, 1000 °C gacha",
+    "Elektr tokini yaxshi o'tkazishi"
+   ],
+   "e": "Chiqindilarni qayta eritish mumkin."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "PVX (polivinilxlorid) qayerda keng ishlatiladi?",
+   "a": [
+    "Kabel izolyatsiyasi va quvurlarda",
+    "Kesuvchi asboblar plastinalarida",
+    "Domna pechi futerovkasida",
+    "Turbina parraklarida"
+   ],
+   "e": "Kimyoviy chidamli."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Kompozitlarda matritsaning vazifasi nima?",
+   "a": [
+    "Armaturani bog'lash va yuklamani uzatish",
+    "Faqat rang berish va bezash",
+    "Faqat og'irlikni oshirish",
+    "Faqat elektr o'tkazish"
+   ],
+   "e": "Armatura mustahkamlikni beradi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Keramikaning metallga nisbatan asosiy kamchiligi nima?",
+   "a": [
+    "Mo'rtlik",
+    "Past issiqbardoshlik va tez erishi",
+    "Yuqori elektr o'tkazuvchanlik",
+    "Yuqori zichlik har doim"
+   ],
+   "e": "Zarbga chidamsiz."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Tezkesar po'latlar qaysi elementlar bilan legirlanadi?",
+   "a": [
+    "Volfram, molibden, vanadiy, kobalt",
+    "Faqat mis va rux",
+    "Faqat alyuminiy",
+    "Faqat oltingugurt va fosfor"
+   ],
+   "e": "Karbidlar issiqbardoshlik beradi."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Kesuvchi asbob sirtiga TiN qoplamasi nima uchun qoplanadi?",
+   "a": [
+    "Yeyilishga chidamlilikni oshirish uchun",
+    "Asbobni chiroyli oltin rangga bo'yash va boshqa hech narsa",
+    "Asbobni og'irlashtirish uchun",
+    "Asbobni magnitlash uchun"
+   ],
+   "e": "Titan nitridi qoplamasi."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Qaysi material eng yuqori kesish tezligiga imkon beradi?",
+   "a": [
+    "Olmos va elbor",
+    "Uglerodli asbob po'lati U8",
+    "Oddiy konstruksion po'lat St3",
+    "Mis"
+   ],
+   "e": "Lekin ular qimmat va mo'rt."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Zanglamas po'latni payvandlashda nima e'tiborga olinadi?",
+   "a": [
+    "Kristallitlararo korroziya xavfi",
+    "Po'latning juda past erish harorati, 300 °C",
+    "Po'latning magnitlanishi",
+    "Hech narsa, oddiy po'latdek payvandlanadi"
+   ],
+   "e": "Titan yoki niobiyli markalar tanlanadi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvandlashda \"yoy\" nima?",
+   "a": [
+    "Elektrod va detal orasidagi elektr razryadi",
+    "Payvand chokining shakli, yarim aylana ko'rinishida",
+    "Payvandchining qo'l harakati",
+    "Elektrod ushlagich"
+   ],
+   "e": "Harorati 5000 °C dan yuqori."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Mis payvandlashda qanday qiyinchilik tug'diradi?",
+   "a": [
+    "Yuqori issiqlik o'tkazuvchanlik",
+    "Juda past erish harorati, 100 °C",
+    "Magnit xossa",
+    "Juda yuqori qattiqlik"
+   ],
+   "e": "Ko'proq issiqlik va oldindan qizdirish talab qilinadi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Kontakt (nuqtali) payvandlash qayerda keng qo'llaniladi?",
+   "a": [
+    "Avtomobil kuzovi yupqa listlarida",
+    "Qalin ko'prik fermalarida faqat",
+    "Quvurlarni yer ostida",
+    "Cho'yan korpuslarda"
+   ],
+   "e": "Tok va bosim bilan."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Qattiqlik va mustahkamlik orasida qanday bog'liqlik bor (po'latlar uchun)?",
+   "a": [
+    "Taxminan to'g'ri proporsional",
+    "Teskari: qattiqlik oshganda mustahkamlik doim kamayadi",
+    "Hech qanday bog'liqlik yo'q",
+    "Faqat cho'yanlarda bog'liq"
+   ],
+   "e": "σ_v ≈ 3,4·HB (MPa)."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Zarbiy qovushoqlik birligi qaysi?",
+   "a": [
+    "J/sm²",
+    "MPa",
+    "HB",
+    "%"
+   ],
+   "e": "KCU, KCV."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Mikroqattiqlik qanday o'lchanadi?",
+   "a": [
+    "Kichik yuklamali Vikkers usulida",
+    "Katta po'lat sharcha bilan Brinell usulida",
+    "Mayatnikli koperda",
+    "Tarozida"
+   ],
+   "e": "Alohida fazalar qattiqligini o'lchash uchun."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Qaysi po'lat avtomobil kuzov listlari uchun mos?",
+   "a": [
+    "Kam uglerodli, plastik po'lat",
+    "Yuqori uglerodli asbob po'lati, juda qattiq va mo'rt",
+    "Oq cho'yan",
+    "Tezkesar po'lat"
+   ],
+   "e": "Shtamplash uchun yuqori plastiklik kerak."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Temir yo'l relslari qanday po'latdan tayyorlanadi?",
+   "a": [
+    "Yuqori uglerodli, marganesli rels po'lati",
+    "Kam uglerodli, juda yumshoq listli po'lat",
+    "Alyuminiy qotishmasi",
+    "Bronza"
+   ],
+   "e": "Yeyilishga chidamlilik va mustahkamlik talab qilinadi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Armatura po'lati qayerda ishlatiladi?",
+   "a": [
+    "Temir-beton konstruksiyalarda",
+    "Faqat kesuvchi asboblarda",
+    "Faqat podshipniklarda",
+    "Faqat elektr simlarida"
+   ],
+   "e": "Masalan, A400 sinfi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Po'lat markasidagi \"L\" harfi (masalan, 35L) nimani bildiradi?",
+   "a": [
+    "Quyma po'lat",
+    "Latun",
+    "Legirlangan",
+    "Listli prokat"
+   ],
+   "e": "Quyma detallar uchun."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Po'lat markasidagi \"A\" harfi oxirida (masalan, 30XGSA) nimani bildiradi?",
+   "a": [
+    "Yuqori sifatli po'lat",
+    "Avtomat po'lati",
+    "Alyuminiyli po'lat",
+    "Arzon po'lat"
+   ],
+   "e": "Zararli qo'shimchalar kam."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Sementatsiyadan keyin detal qanday termik ishlovdan o'tkaziladi?",
+   "a": [
+    "Toblash va past haroratli bo'shatish",
+    "Faqat yumshatish, qattiqlikni kamaytirish uchun",
+    "Hech qanday ishlov berilmaydi",
+    "Faqat normallash va boshqa hech narsa"
+   ],
+   "e": "Sirt qattiq, o'zak qovushoq."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Sementatsiya qilinadigan po'latga misol qaysi?",
+   "a": [
+    "20X",
+    "U12",
+    "65G",
+    "R18"
+   ],
+   "e": "Kam uglerodli legirlangan po'lat."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Azotlash qilinadigan po'latga misol qaysi?",
+   "a": [
+    "38X2MYuA",
+    "St0",
+    "U7",
+    "L63"
+   ],
+   "e": "Alyuminiy, xrom, molibdenli po'lat."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Bo'shatishda mo'rtlik (otpusknaya xrupkost) qaysi haroratlarda kuzatilishi mumkin?",
+   "a": [
+    "250–400 °C va 500–600 °C oralig'ida",
+    "Faqat 20–50 °C oralig'ida",
+    "Faqat 1000 °C dan yuqori",
+    "Hech qachon kuzatilmaydi"
+   ],
+   "e": "Legirlangan po'latlarda molibden qo'shimchasi kamaytiradi."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Mis qanday rangda?",
+   "a": [
+    "Qizg'ish",
+    "Kumushsimon oq",
+    "Sariq",
+    "Kulrang-qora"
+   ],
+   "e": "Latun — sariq."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Latunning bronzaga nisbatan afzalligi nima?",
+   "a": [
+    "Arzonroq va yaxshi ishlanadi",
+    "Yuqoriroq korroziyaga chidamlilik va antifriksionlik har doim",
+    "Yuqoriroq elektr o'tkazuvchanlik",
+    "Magnit xossa"
+   ],
+   "e": "Rux misdan arzon."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Qaysi metall eng yaxshi korroziyaga chidamli asl metall?",
+   "a": [
+    "Oltin",
+    "Temir",
+    "Rux",
+    "Magniy"
+   ],
+   "e": "Platina ham juda chidamli."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Alyuminiyning issiqlik o'tkazuvchanligi qanday?",
+   "a": [
+    "Yuqori",
+    "Juda past, xuddi plastmassa kabi",
+    "Nolga teng",
+    "Po'latnikidan ancha past"
+   ],
+   "e": "Radiatorlar va issiqlik almashgichlarda."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Gaz korroziyasidan himoyalash usuli qaysi?",
+   "a": [
+    "Issiqbardosh legirlash (xrom, alyuminiy, kremniy)",
+    "Detalni suvda saqlash",
+    "Detalni tuz bilan qoplash",
+    "Detalni kislotada yuvish"
+   ],
+   "e": "Zich oksid plyonkalar hosil bo'ladi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Avtomobil kuzovini korroziyadan himoya qilish usullari qaysilar?",
+   "a": [
+    "Ruxlash, fosfatlash, gruntlash va bo'yash",
+    "Faqat yuvish va quritish",
+    "Faqat qishda tuzli yo'llarda yurish",
+    "Hech qanday himoya kerak emas"
+   ],
+   "e": "Ko'p qatlamli himoya."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Korroziya ko'rsatkichi sifatida massa yo'qotilishi qanday o'lchanadi?",
+   "a": [
+    "g/(m²·soat)",
+    "kg·m/s²",
+    "V/m",
+    "dB"
+   ],
+   "e": "Sirt birligidan vaqt birligida yo'qolgan massa."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Penoplastlar qayerda ishlatiladi?",
+   "a": [
+    "Issiqlik va tovush izolyatsiyasida",
+    "Kesuvchi asboblarda",
+    "Elektr kontaktlarida",
+    "Podshipnik vkladishlarida"
+   ],
+   "e": "Masalan, penopolistirol."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Getinaks va tekstolit qanday materiallar?",
+   "a": [
+    "Qatlamli plastiklar",
+    "Metall qotishmalar",
+    "Keramika",
+    "Shisha"
+   ],
+   "e": "Qog'oz yoki mato smola bilan shimdiriladi; elektr izolyatsiyada."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Silikon kauchuk qanday xususiyatga ega?",
+   "a": [
+    "Issiqlik va sovuqqa chidamli",
+    "Juda past haroratda erib ketadi",
+    "Elektr tokini yaxshi o'tkazadi",
+    "Magnitlanadi"
+   ],
+   "e": "−60...+250 °C oralig'ida ishlaydi."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Kesuvchi asboblarni sovitish-moylash suyuqligi nima uchun kerak?",
+   "a": [
+    "Haroratni pasaytirish va yeyilishni kamaytirish uchun",
+    "Asbobni og'irlashtirish va tezlikni kamaytirish uchun",
+    "Detalni bo'yash uchun",
+    "Detalni magnitlash uchun"
+   ],
+   "e": "Emulsiyalar va moylar."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Kesuvchi asbob qaysi qismi bevosita materialni kesadi?",
+   "a": [
+    "Kesuvchi qirra",
+    "Asbob dastasi",
+    "Mahkamlash qismi",
+    "Korpus"
+   ],
+   "e": "Qirra burchaklari kesish sifatiga ta'sir qiladi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvand birikmalarining turlari qaysilar?",
+   "a": [
+    "Uchma-uch, burchakli, tavrli, ustma-ust",
+    "Faqat rezbali va shponkali",
+    "Faqat parchinli",
+    "Faqat yelimli"
+   ],
+   "e": "Chok shakli bo'yicha turlanadi."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Gaz payvandlashda qaysi gazlar ishlatiladi?",
+   "a": [
+    "Atsetilen va kislorod",
+    "Azot va geliy",
+    "Vodorod va xlor",
+    "Metan va ammiak"
+   ],
+   "e": "Alanga harorati ≈ 3100 °C."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Elektroshlak payvandlash qayerda qo'llaniladi?",
+   "a": [
+    "Juda qalin metallarda",
+    "Faqat yupqa folgada",
+    "Faqat plastmassada",
+    "Faqat shishada"
+   ],
+   "e": "Bir o'tishda katta qalinlik payvandlanadi."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Puxtalik (nadejnost) va chidamlilik (dolgovechnost) qanday tushunchalar?",
+   "a": [
+    "Detalning uzoq va buzilmasdan ishlash qobiliyati ko'rsatkichlari",
+    "Detal rangining o'zgarmasligi va yaltiroqligi",
+    "Detal narxining arzonligi",
+    "Detal og'irligining kamligi"
+   ],
+   "e": "Material tanlashda hisobga olinadi."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Konstruksion material tanlashda asosiy mezonlar qaysilar?",
+   "a": [
+    "Ish sharoiti, mexanik xossalar, texnologiklik va narx",
+    "Faqat rangi va tashqi ko'rinishi",
+    "Faqat ishlab chiqaruvchi mamlakat",
+    "Faqat og'irligi"
+   ],
+   "e": "Kompleks yondashuv kerak."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Plastik deformatsiya natijasida metallda qanday o'zgarish bo'ladi?",
+   "a": [
+    "Donalar cho'ziladi, mustahkamlik ortadi",
+    "Donalar yo'qoladi va metall amorf bo'ladi",
+    "Metall suyuqlanadi",
+    "Metall rangini o'zgartiradi faqat"
+   ],
+   "e": "Naklyop hodisasi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Kristallanishda dendritlar nima?",
+   "a": [
+    "Daraxtsimon shaklli kristallar",
+    "Metall ichidagi gaz pufakchalari",
+    "Metall sirtidagi zang",
+    "Metall qirindilari"
+   ],
+   "e": "Asosiy o'q va shoxlar ko'rinishida o'sadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Quymada likvatsiya nima?",
+   "a": [
+    "Kimyoviy tarkibning notekis taqsimlanishi",
+    "Quymaning juda bir jinsli bo'lishi",
+    "Quymaning magnitlanishi",
+    "Quymaning rangining o'zgarishi"
+   ],
+   "e": "Diffuzion yumshatish bilan kamaytiriladi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Quymadagi kirishish (usadka) bo'shlig'i nima sababdan hosil bo'ladi?",
+   "a": [
+    "Qotishda hajm kamayishidan",
+    "Qotishda hajm kengayishidan",
+    "Qolipning juda katta bo'lishidan faqat",
+    "Metallning magnitlanishidan"
+   ],
+   "e": "Pribыl (qo'shimcha quyma) bilan oldi olinadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Metallarning issiqlikdan kengayishi qaysi koeffitsient bilan tavsiflanadi?",
+   "a": [
+    "Chiziqli kengayish koeffitsienti",
+    "Elastiklik moduli",
+    "Puasson koeffitsienti",
+    "Ishqalanish koeffitsienti"
+   ],
+   "e": "Turli metallar birikmasida hisobga olinadi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Po'latning asosiy komponentlari qaysilar?",
+   "a": [
+    "Temir va uglerod",
+    "Mis va rux, ya'ni latun komponentlari",
+    "Alyuminiy va kremniy",
+    "Qalay va qo'rg'oshin"
+   ],
+   "e": "Shuningdek doimiy qo'shimchalar: Mn, Si, S, P."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Uglerod miqdori 3,5% bo'lgan qotishma qanday nomlanadi?",
+   "a": [
+    "Cho'yan",
+    "Po'lat, chunki 4% dan kam uglerod saqlaydi",
+    "Bronza",
+    "Latun"
+   ],
+   "e": "2,14% dan ortiq — cho'yan."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Marganes po'latga qanday ta'sir qiladi?",
+   "a": [
+    "Kislorodsizlantiradi va mustahkamlikni oshiradi",
+    "Po'latni zanglamaydigan va magnitsiz qiladi har qanday miqdorda",
+    "Po'latni juda mo'rt qiladi",
+    "Hech qanday ta'sir qilmaydi"
+   ],
+   "e": "Oltingugurtning zararli ta'sirini ham kamaytiradi."
+  },
+  {
+   "b": "Temir-uglerod qotishmalari",
+   "q": "Kremniy po'latda qanday vazifani bajaradi?",
+   "a": [
+    "Kislorodsizlantiruvchi va elastiklikni oshiruvchi",
+    "Po'latni yumshatib, plastikligini keskin oshiruvchi",
+    "Po'latni zaharli qiluvchi",
+    "Po'latni shaffof qiluvchi"
+   ],
+   "e": "Prujina po'latlarida (60S2)."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Qaysi struktura eng qattiq?",
+   "a": [
+    "Martensit",
+    "Ferrit",
+    "Austenit",
+    "Perlit"
+   ],
+   "e": "Toblash natijasi."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Qaysi struktura eng yumshoq?",
+   "a": [
+    "Ferrit",
+    "Martensit",
+    "Sementit",
+    "Ledeburit"
+   ],
+   "e": "Deyarli toza α-temir."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Qizdirilgan po'lat rangi bo'yicha haroratni taxminlash mumkinmi?",
+   "a": [
+    "Ha, taxminan (cho'g'lanish ranglari)",
+    "Yo'q, po'lat qizdirilganda rangi umuman o'zgarmaydi",
+    "Faqat 50 °C gacha",
+    "Faqat suvda"
+   ],
+   "e": "To'q qizil ≈ 650 °C, och sariq ≈ 1100 °C."
+  },
+  {
+   "b": "Termik ishlov berish",
+   "q": "Bo'shatish ranglari (qarayalik ranglari) nimani bildiradi?",
+   "a": [
+    "Sirtdagi oksid plyonka rangi bo'yicha bo'shatish harorati",
+    "Po'latning legirlash darajasini aniq ko'rsatadi",
+    "Po'latning uglerod miqdorini",
+    "Po'latning narxini"
+   ],
+   "e": "Somon rang ≈ 220 °C, ko'k ≈ 300 °C."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Qaysi rangli metall eng keng ishlab chiqariladi?",
+   "a": [
+    "Alyuminiy",
+    "Oltin",
+    "Kumush",
+    "Platina"
+   ],
+   "e": "Jahonda temirdan keyin ikkinchi o'rinda."
+  },
+  {
+   "b": "Rangli metallar",
+   "q": "Mis kabellarni alyuminiy bilan almashtirishning afzalligi nima?",
+   "a": [
+    "Yengillik va arzonlik",
+    "Alyuminiyning elektr o'tkazuvchanligi misdan ikki baravar yuqoriligi",
+    "Alyuminiyning yuqori qattiqligi",
+    "Alyuminiy zanglamasligi va korroziyaga to'liq chidamliligi"
+   ],
+   "e": "Lekin kesimi kattaroq bo'lishi kerak."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Korroziyaning iqtisodiy zarari qanday?",
+   "a": [
+    "Juda katta, metall fondining sezilarli qismi yo'qotiladi",
+    "Ahamiyatsiz, chunki zang metallni mustahkamlaydi",
+    "Faqat bezak buyumlarida seziladi",
+    "Umuman zarar yo'q"
+   ],
+   "e": "Himoya choralari xarajatlarni kamaytiradi."
+  },
+  {
+   "b": "Korroziya",
+   "q": "Zang (temir oksidi gidratlari) qatlami metallni himoya qiladimi?",
+   "a": [
+    "Yo'q, g'ovak va namlikni o'tkazadi",
+    "Ha, zich bo'lib, keyingi korroziyani butunlay to'xtatadi",
+    "Ha, faqat qishda",
+    "Ha, faqat yozda"
+   ],
+   "e": "Alyuminiy oksidi esa zich va himoyalovchi."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Laminatlangan yog'och (fanera) qanday tuzilgan?",
+   "a": [
+    "Tolalar yo'nalishi almashtirilgan yupqa qatlamlar",
+    "Bitta yaxlit yog'och bo'lagi, qatlamsiz",
+    "Plastmassa granulalari",
+    "Metall listlar"
+   ],
+   "e": "Mustahkamlik barcha yo'nalishda bir tekis."
+  },
+  {
+   "b": "Nometall materiallar",
+   "q": "Shishaning asosiy xomashyosi qaysi?",
+   "a": [
+    "Kvars qumi",
+    "Temir rudasi",
+    "Neft",
+    "Kauchuk"
+   ],
+   "e": "Soda va ohaktosh qo'shiladi."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Sun'iy olmos qanday olinadi?",
+   "a": [
+    "Grafitni yuqori bosim va haroratda",
+    "Ko'mirni suvda qaynatib",
+    "Qumni eritib",
+    "Metallarni toblab"
+   ],
+   "e": "Sintetik olmoslar asboblarda keng ishlatiladi."
+  },
+  {
+   "b": "Asbobsozlik materiallari",
+   "q": "Qattiq qotishmalarning tezkesar po'latga nisbatan kamchiligi nima?",
+   "a": [
+    "Mo'rtroq",
+    "Issiqbardoshligi ancha past, 200 °C da yumshaydi",
+    "Qattiqligi past",
+    "Yeyilishga chidamsiz"
+   ],
+   "e": "Zarbli yuklamalarda sinishi mumkin."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvandlashda elektrodni tanlash nimaga bog'liq?",
+   "a": [
+    "Payvandlanadigan metall turi va qalinligiga",
+    "Faqat elektrod qutisining rangiga",
+    "Faqat payvandchining bo'yiga",
+    "Faqat ob-havoga"
+   ],
+   "e": "Masalan, E42, E46 elektrodlari."
+  },
+  {
+   "b": "Payvandlanuvchanlik",
+   "q": "Payvand chokidagi darzlarning asosiy turlari qaysilar?",
+   "a": [
+    "Issiq va sovuq darzlar",
+    "Faqat rangli va rangsiz darzlar",
+    "Faqat ichki va bezak darzlar",
+    "Darz hosil bo'lmaydi"
+   ],
+   "e": "Issiq darzlar kristallanishda, sovuq darzlar sovigandan keyin."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Puasson koeffitsienti nimani tavsiflaydi?",
+   "a": [
+    "Ko'ndalang va bo'ylama deformatsiyalar nisbatini",
+    "Materialning zichligini",
+    "Materialning elektr qarshiligini",
+    "Materialning erish haroratini"
+   ],
+   "e": "Po'lat uchun ≈ 0,3."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Materialning sovuqqa chidamliligi qaysi sinov bilan baholanadi?",
+   "a": [
+    "Past haroratda zarbiy sinov",
+    "Yuqori haroratda polzuchestga sinov",
+    "Elektr qarshilikni o'lchash",
+    "Rangni tekshirish"
+   ],
+   "e": "Mo'rtlik harorat chegarasi aniqlanadi."
+  },
+  {
+   "b": "Mexanik xossalar",
+   "q": "Materialning toliqish chegarasi nima?",
+   "a": [
+    "Cheksiz ko'p sikllarga buzilmasdan chidaydigan eng katta kuchlanish",
+    "Bir marta statik cho'zishda sinish kuchlanishi",
+    "Material eriydigan harorat",
+    "Material zanglaydigan vaqt"
+   ],
+   "e": "Po'latlar uchun baza 10⁷ sikl."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Metallarda elektr o'tkazuvchanlikni qanday zarralar ta'minlaydi?",
+   "a": [
+    "Erkin elektronlar",
+    "Ionlar, xuddi elektrolitlardagidek",
+    "Neytronlar",
+    "Protonlar"
+   ],
+   "e": "Metall bog'lanish."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Metallarning bolg'alanuvchanligi nimaga bog'liq?",
+   "a": [
+    "Plastiklikka",
+    "Mo'rtlikka va qattiqlikka, ular qancha yuqori bo'lsa, shuncha yaxshi",
+    "Rangga",
+    "Elektr o'tkazuvchanlikka"
+   ],
+   "e": "Masalan, oltin juda yaxshi bolg'alanadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Qotishmalarning holat diagrammasini qurish uchun qanday tahlil ishlatiladi?",
+   "a": [
+    "Termik tahlil (sovish egri chiziqlari)",
+    "Faqat ko'z bilan kuzatish",
+    "Faqat o'lchash lentasi",
+    "Faqat tarozi"
+   ],
+   "e": "Kritik nuqtalar aniqlanadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Metall ichidagi kiritmalar (nemetall) qanday ta'sir qiladi?",
+   "a": [
+    "Mustahkamlik va plastiklikni pasaytiradi",
+    "Har doim mustahkamlikni keskin oshiradi va foydali",
+    "Hech qanday ta'sir qilmaydi",
+    "Metallni shaffof qiladi"
+   ],
+   "e": "Oksidlar, sulfidlar kuchlanish konsentratorlari bo'ladi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Qaysi metall xona haroratida suyuq?",
+   "a": [
+    "Simob",
+    "Galliy, ya'ni 30 °C da eriydigan metall, xona haroratida qattiq",
+    "Qo'rg'oshin",
+    "Qalay"
+   ],
+   "e": "Simob −39 °C da qotadi."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Metallarni zichligiga ko'ra yengil metallarga qaysilar kiradi?",
+   "a": [
+    "Alyuminiy, magniy, titan",
+    "Qo'rg'oshin, volfram, oltin",
+    "Temir, mis, nikel",
+    "Simob, platina"
+   ],
+   "e": "Zichligi 5 g/sm³ dan kam."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Nodir (asl) metallarga qaysilar kiradi?",
+   "a": [
+    "Oltin, kumush, platina",
+    "Temir, alyuminiy, mis",
+    "Natriy, kaliy",
+    "Qo'rg'oshin, rux"
+   ],
+   "e": "Korroziyaga juda chidamli."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Qiyin eriydigan metallarga qaysilar kiradi?",
+   "a": [
+    "Volfram, molibden, tantal",
+    "Qalay, qo'rg'oshin, rux",
+    "Alyuminiy, magniy",
+    "Simob, galliy"
+   ],
+   "e": "Erish harorati 2000 °C dan yuqori."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Temir va uning qotishmalari qanday metallar guruhiga kiradi?",
+   "a": [
+    "Qora metallar",
+    "Rangli metallar",
+    "Nodir metallar",
+    "Siyrak yer metallari"
+   ],
+   "e": "Qolganlari — rangli metallar."
+  },
+  {
+   "b": "Metallarning tuzilishi",
+   "q": "Materialshunoslik fani nimani o'rganadi?",
+   "a": [
+    "Materiallar tuzilishi, xossalari va ularni boshqarishni",
+    "Faqat materiallar narxini va savdosini",
+    "Faqat konlarni qidirishni",
+    "Faqat bo'yash texnologiyasini"
+   ],
+   "e": "Tarkib — tuzilish — xossa bog'liqligi."
   }
  ]
 }
