@@ -2907,6 +2907,391 @@
     "Talabalar sonini"
    ],
    "e": "Ikki agregat bir so'rovda."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar bazasi tizimi qanday tarkibiy qismlardan iborat?",
+   "a": [
+    "Ma'lumotlar, MBBT, apparat, foydalanuvchilar",
+    "Faqat kompyuter monitori va klaviatura",
+    "Faqat dasturlash tili",
+    "Faqat internet kabeli"
+   ],
+   "e": "Shuningdek protseduralar va hujjatlar."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlarning yaxlitligi deganda nima tushuniladi?",
+   "a": [
+    "Ma'lumotlarning to'g'riligi va ziddiyatsizligi",
+    "Ma'lumotlarning hajmi kattaligi va ko'p joy egallashi",
+    "Ma'lumotlarning rangli ko'rinishi",
+    "Ma'lumotlarning tez o'chirilishi"
+   ],
+   "e": "Cheklovlar orqali ta'minlanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotlar xavfsizligi nimani o'z ichiga oladi?",
+   "a": [
+    "Ruxsatsiz kirish, o'zgartirish va yo'qotishdan himoya",
+    "Faqat ma'lumotlarni chiroyli formatlash",
+    "Faqat jadval nomlarini qisqartirish",
+    "Faqat serverni bo'yash"
+   ],
+   "e": "Autentifikatsiya, avtorizatsiya, shifrlash, zaxiralash."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Taqsimlangan MB nima?",
+   "a": [
+    "Bir nechta joylashgan serverlarda saqlanadigan yagona MB",
+    "Faqat bitta kompyuterda saqlanadigan kichik MB",
+    "Har bir foydalanuvchi uchun alohida MB",
+    "Qog'ozdagi kartoteka"
+   ],
+   "e": "Tarmoq orqali bog'langan."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT ism FROM talaba WHERE ism LIKE '%ov';\" qaysi ismlarni tanlaydi?",
+   "a": [
+    "\"ov\" bilan tugaydiganlarni",
+    "\"ov\" bilan boshlanadiganlarni",
+    "Ichida \"ov\" bo'lmaganlarni",
+    "Faqat \"ov\" ga tengini"
+   ],
+   "e": "% — istalgan belgilar ketma-ketligi."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM t WHERE a = 1 OR b = 2;\" qachon qatorni qaytaradi?",
+   "a": [
+    "Kamida bitta shart bajarilganda",
+    "Ikkala shart ham bajarilganda",
+    "Hech bir shart bajarilmaganda",
+    "Har doim"
+   ],
+   "e": "OR — mantiqiy YOKI."
+  },
+  {
+   "b": "SQL",
+   "q": "\"UPDATE talaba SET guruh = 'B' WHERE guruh = 'A';\" nima qiladi?",
+   "a": [
+    "A guruhdagilarni B guruhga o'tkazadi",
+    "B guruhdagilarni A ga o'tkazadi",
+    "Barcha talabalarni o'chiradi",
+    "Yangi guruh yaratadi"
+   ],
+   "e": "Shartga mos qatorlar yangilanadi."
+  },
+  {
+   "b": "SQL",
+   "q": "Jadval nomini o'zgartirish qanday yoziladi (PostgreSQL)?",
+   "a": [
+    "ALTER TABLE eski RENAME TO yangi;",
+    "RENAME eski yangi;",
+    "UPDATE TABLE eski SET yangi;",
+    "CHANGE NAME eski yangi;"
+   ],
+   "e": "MySQL da RENAME TABLE ham bor."
+  },
+  {
+   "b": "SQL",
+   "q": "UNIQUE cheklovi nima qiladi?",
+   "a": [
+    "Ustundagi qiymatlar takrorlanmasligini ta'minlaydi",
+    "Ustunni bo'sh qilib qo'yadi",
+    "Ustunni avtomatik raqamlaydi",
+    "Ustunni yashiradi"
+   ],
+   "e": "Birlamchi kalitdan farqli, NULL ga ruxsat berishi mumkin."
+  },
+  {
+   "b": "SQL",
+   "q": "DEFAULT cheklovi nima uchun ishlatiladi?",
+   "a": [
+    "Qiymat berilmaganda standart qiymat qo'yish uchun",
+    "Ustunni o'chirish uchun",
+    "Jadvalni saralash uchun",
+    "Foydalanuvchi yaratish uchun"
+   ],
+   "e": "Masalan, holat VARCHAR DEFAULT 'faol'."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Funksional bog'liqlik \"pasport_raqami → ism\" nima bildiradi?",
+   "a": [
+    "Pasport raqami ismni bir ma'noli aniqlaydi",
+    "Ism pasport raqamini har doim aniqlaydi",
+    "Ular bog'liq emas",
+    "Ikkalasi ham kalit emas"
+   ],
+   "e": "Teskarisi har doim to'g'ri emas (bir xil ismlilar)."
+  },
+  {
+   "b": "Normallashtirish",
+   "q": "Normallashtirish jarayonida jadvallar qanday ajratiladi?",
+   "a": [
+    "Ma'lumot yo'qotmasdan dekompozitsiya qilinadi",
+    "Ba'zi ma'lumotlarni o'chirib, jadval kichraytiriladi",
+    "Tasodifiy ustunlar olib tashlanadi",
+    "Jadvallar birlashtiriladi"
+   ],
+   "e": "Yo'qotishsiz birlashtirish xossasi saqlanishi kerak."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Kasalxona MB sida \"Shifokor\" va \"Bemor\" orasidagi qabul munosabati qanday?",
+   "a": [
+    "Ko'p-ko'p (Qabul jadvali orqali)",
+    "Bir-bir",
+    "Munosabat yo'q",
+    "Faqat bir-ko'p, bemordan shifokorga"
+   ],
+   "e": "Qabul jadvali sana va tashxisni saqlaydi."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "MB loyihasida \"katalog\" (lookup) jadvali nima?",
+   "a": [
+    "Cheklangan qiymatlar ro'yxatini saqlovchi kichik jadval",
+    "Barcha ma'lumotlar saqlanadigan asosiy katta jadval",
+    "Zaxira nusxa jadvali",
+    "O'chirilgan yozuvlar jadvali"
+   ],
+   "e": "Masalan, viloyatlar, lavozimlar ro'yxati."
+  },
+  {
+   "b": "Loyihalash",
+   "q": "Telefon raqamini qaysi ma'lumot turida saqlash to'g'ri?",
+   "a": [
+    "VARCHAR",
+    "INT, chunki telefon raqami arifmetik amallarda ishlatiladi",
+    "DECIMAL",
+    "BOOLEAN"
+   ],
+   "e": "Bosh nol va \"+\" belgisi yo'qolmasligi uchun."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Tranzaksiya o'rtasida server o'chib qolsa, MBBT nima qiladi?",
+   "a": [
+    "Tasdiqlanmagan o'zgarishlarni bekor qiladi",
+    "Barcha o'zgarishlarni yarim holatda qoldiradi",
+    "MB ni butunlay o'chiradi",
+    "Hech narsa qilmaydi"
+   ],
+   "e": "Jurnal yordamida tiklash."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "MB ga kirish huquqini olib qo'yish buyrug'i qaysi?",
+   "a": [
+    "REVOKE",
+    "GRANT",
+    "DENY ALL faqat",
+    "DELETE USER"
+   ],
+   "e": "REVOKE SELECT ON jadval FROM foydalanuvchi."
+  },
+  {
+   "b": "Ishonchlilik",
+   "q": "Maxfiy ma'lumotlarni ko'rsatmaslik uchun VIEW dan qanday foydalanish mumkin?",
+   "a": [
+    "Faqat ruxsat etilgan ustunlarni ko'rsatuvchi VIEW yaratish",
+    "Jadvalni o'chirib, faqat VIEW qoldirish",
+    "Barcha foydalanuvchilarga jadvalga to'liq kirish berish",
+    "VIEW bu maqsadda ishlatilmaydi"
+   ],
+   "e": "Foydalanuvchiga faqat VIEW ga huquq beriladi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "Hujjat bazasida bitta hujjat odatda nimaga mos keladi?",
+   "a": [
+    "Bitta obyekt (masalan, bitta buyurtma barcha qismlari bilan)",
+    "Bitta jadval ustuniga",
+    "Butun ma'lumotlar bazasiga",
+    "Bitta indeksga"
+   ],
+   "e": "Bog'liq ma'lumotlar birga saqlanadi."
+  },
+  {
+   "b": "NoSQL",
+   "q": "NoSQL bazalarning gorizontal masshtablashdagi afzalligi nima?",
+   "a": [
+    "Yangi serverlar qo'shish orqali oson kengayish",
+    "Faqat bitta kuchli server talab qilinishi",
+    "Masshtablashni umuman qo'llab-quvvatlamasligi",
+    "Har doim SQL dan sekinroq bo'lishi"
+   ],
+   "e": "Sharding ichki qo'llab-quvvatlanadi."
+  },
+  {
+   "b": "SQL",
+   "q": "Qaysi so'rov har bir guruhdagi talabalar sonini chiqaradi?",
+   "a": [
+    "SELECT guruh, COUNT(*) FROM talaba GROUP BY guruh;",
+    "SELECT COUNT(guruh) FROM talaba;",
+    "SELECT guruh FROM talaba ORDER BY COUNT;",
+    "SELECT * FROM talaba WHERE COUNT(*) > 0;"
+   ],
+   "e": "Guruhlash va sanash."
+  },
+  {
+   "b": "SQL",
+   "q": "Qaysi so'rov 2-guruhdagi talabalarni ism bo'yicha teskari tartibda chiqaradi?",
+   "a": [
+    "SELECT * FROM talaba WHERE guruh = 2 ORDER BY ism DESC;",
+    "SELECT * FROM talaba ORDER BY guruh = 2;",
+    "SELECT * FROM talaba WHERE ism DESC = 2;",
+    "SELECT DESC ism FROM talaba WHERE 2;"
+   ],
+   "e": "WHERE va ORDER BY ... DESC."
+  },
+  {
+   "b": "SQL",
+   "q": "Qaysi so'rov eng yosh talabaning yoshini chiqaradi?",
+   "a": [
+    "SELECT MIN(yosh) FROM talaba;",
+    "SELECT MAX(yosh) FROM talaba;",
+    "SELECT yosh FROM talaba LIMIT 1;",
+    "SELECT COUNT(yosh) FROM talaba;"
+   ],
+   "e": "LIMIT 1 saralashsiz tasodifiy qatorni berishi mumkin."
+  },
+  {
+   "b": "SQL",
+   "q": "\"SELECT * FROM a INNER JOIN b ON a.id = b.a_id;\" ni boshqacha qanday yozish mumkin?",
+   "a": [
+    "SELECT * FROM a, b WHERE a.id = b.a_id;",
+    "SELECT * FROM a UNION b;",
+    "SELECT * FROM a EXCEPT b;",
+    "SELECT * FROM a, b;"
+   ],
+   "e": "Eski (implitsit) JOIN sintaksisi."
+  },
+  {
+   "b": "SQL",
+   "q": "NULL qiymatli qatorlar ORDER BY da qayerda chiqadi?",
+   "a": [
+    "MBBT ga bog'liq (boshida yoki oxirida); NULLS FIRST/LAST bilan boshqariladi",
+    "Har doim o'chirib tashlanadi",
+    "Har doim xato beradi",
+    "Har doim o'rtada chiqadi"
+   ],
+   "e": "PostgreSQL da ASC da oxirida."
+  },
+  {
+   "b": "SQL",
+   "q": "Ma'lumotlar bazasidan zaxira nusxa olish uchun PostgreSQL da qaysi utilita ishlatiladi?",
+   "a": [
+    "pg_dump",
+    "mysqlcheck",
+    "ping",
+    "ls"
+   ],
+   "e": "Tiklash uchun pg_restore yoki psql."
+  },
+  {
+   "b": "SQL",
+   "q": "Jadvaldagi qatorlar sonini tez bilish uchun qaysi so'rov ishlatiladi?",
+   "a": [
+    "SELECT COUNT(*) FROM jadval;",
+    "SELECT SUM(*) FROM jadval;",
+    "SELECT ROWS jadval;",
+    "COUNT jadval;"
+   ],
+   "e": "Agregat funksiya."
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da kalit so'zlar registrga sezgirmi?",
+   "a": [
+    "Yo'q, SELECT va select bir xil",
+    "Ha, faqat katta harflar bilan yozilganlari ishlaydi",
+    "Ha, faqat kichik harflar bilan yozilganlari ishlaydi",
+    "Faqat juma kunlari sezgir"
+   ],
+   "e": "Odatda o'qilishi uchun katta harflar bilan yoziladi."
+  },
+  {
+   "b": "SQL",
+   "q": "Ma'lumotlar bazasida \"sxema\" (schema) PostgreSQL da yana nimani bildiradi?",
+   "a": [
+    "Jadvallarni guruhlovchi nomlar fazosini",
+    "Faqat diagramma rasmini",
+    "Faqat zaxira faylini",
+    "Faqat foydalanuvchi parolini"
+   ],
+   "e": "Masalan, public.talaba."
+  },
+  {
+   "b": "SQL",
+   "q": "Qaysi MBBT ochiq kodli?",
+   "a": [
+    "PostgreSQL",
+    "Oracle Database (pullik korporativ litsenziya)",
+    "Microsoft SQL Server Enterprise",
+    "IBM Db2 Enterprise"
+   ],
+   "e": "MySQL, MariaDB, SQLite ham ochiq kodli."
+  },
+  {
+   "b": "SQL",
+   "q": "Ma'lumotlarni eksport qilish nima?",
+   "a": [
+    "MB dagi ma'lumotlarni tashqi faylga chiqarish",
+    "Tashqi fayldan ma'lumotlarni MB ga yuklash",
+    "Ma'lumotlarni o'chirish",
+    "Jadvalni saralash"
+   ],
+   "e": "Import — teskari jarayon."
+  },
+  {
+   "b": "SQL",
+   "q": "Ma'lumotlar bazasida \"mantiqiy o'chirish\" (soft delete) nima?",
+   "a": [
+    "Yozuvni o'chirmasdan \"o'chirilgan\" deb belgilash",
+    "Yozuvni diskdan butunlay va qaytarib bo'lmaydigan qilib o'chirish",
+    "Jadvalni o'chirish",
+    "Indeksni o'chirish"
+   ],
+   "e": "Masalan, deleted_at ustuni."
+  },
+  {
+   "b": "SQL",
+   "q": "Katta jadvalni bo'laklarga ajratish (partitioning) nima beradi?",
+   "a": [
+    "So'rovlar va texnik xizmatni tezlashtiradi",
+    "Jadval hajmini ikki baravar oshiradi",
+    "Ma'lumotlarni o'chiradi",
+    "Jadvalni normallashtiradi"
+   ],
+   "e": "Masalan, sana bo'yicha oylik bo'laklar."
+  },
+  {
+   "b": "SQL",
+   "q": "\"Ma'lumotlar bazasi\" kursida amaliy ishlar uchun eng qulay yengil MBBT qaysi?",
+   "a": [
+    "SQLite",
+    "Taqsimlangan Hadoop klasteri",
+    "Oracle RAC",
+    "Mainframe IMS"
+   ],
+   "e": "O'rnatishsiz, bitta faylda ishlaydi."
+  },
+  {
+   "b": "SQL",
+   "q": "Ma'lumotlarni vizual loyihalash uchun qaysi vosita ishlatiladi?",
+   "a": [
+    "ER-diagramma chizish dasturlari (masalan, draw.io, MySQL Workbench)",
+    "Faqat matn muharriri",
+    "Faqat kalkulyator",
+    "Faqat audio pleyer"
+   ],
+   "e": "Jadvallar va bog'lanishlarni grafik ko'rinishda chizish."
   }
  ]
 }
