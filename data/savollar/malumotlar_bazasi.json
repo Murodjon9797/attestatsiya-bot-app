@@ -3292,6 +3292,28 @@
     "Faqat audio pleyer"
    ],
    "e": "Jadvallar va bog'lanishlarni grafik ko'rinishda chizish."
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da jadvaldagi takrorlanmaydigan qiymatlarni tanlash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "DISTINCT",
+    "UNIQUE INDEX",
+    "GROUP ONLY",
+    "SINGLE"
+   ],
+   "e": "SELECT DISTINCT shahar FROM mijozlar;"
+  },
+  {
+   "b": "SQL",
+   "q": "SQL da natijalar sonini cheklash uchun (PostgreSQL, MySQL) qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "LIMIT",
+    "TOP ONLY",
+    "MAXROWS",
+    "STOP"
+   ],
+   "e": "SELECT * FROM t LIMIT 10;"
   }
  ]
 }
