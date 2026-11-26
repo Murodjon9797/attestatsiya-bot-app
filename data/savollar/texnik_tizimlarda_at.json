@@ -2,7 +2,7 @@
  "kod": "5PM0858",
  "nomi": "Texnik tizimlarda axborot texnologiyalari",
  "turi": "maxsus",
- "manba": "2026-yilgi texnikum o'quv rejalari (33 ta mutaxassislikda o'qitiladi)",
+ "manba": "2026-yilgi texnikum o'quv rejalari (33 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "Asosiy tushunchalar",
@@ -13,326 +13,3307 @@
     "Kilobayt",
     "Gers"
    ],
+   "e": "Bit 0 yoki 1 qiymatini qabul qiladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "1 bayt necha bitga teng?",
+   "a": [
+    "8",
+    "2",
+    "10",
+    "1024"
+   ],
    "e": "1 bayt = 8 bit."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "1 kilobayt necha baytga teng (ikkilik tizimda)?",
+   "q": "1 kilobayt (KB) necha baytga teng (ikkilik tizimda)?",
    "a": [
     "1024",
     "1000",
-    "512",
-    "8"
+    "8",
+    "512"
    ],
-   "e": "1 KB = 2¹⁰ bayt."
+   "e": "2¹⁰ = 1024 bayt; SI bo'yicha kB = 1000 bayt, ikkilik KiB = 1024."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "O'nlik sanoq sistemasidagi 10 soni ikkilik sistemada qanday yoziladi?",
+   "q": "1 GB necha MB ga teng (ikkilik tizimda)?",
    "a": [
+    "1024",
+    "1000",
+    "100",
+    "8"
+   ],
+   "e": "Har bir pog'ona 1024 marta katta."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Axborot texnologiyalari deganda nima tushuniladi?",
+   "a": [
+    "Axborotni yig'ish, qayta ishlash, saqlash va uzatish usullari majmui",
+    "Faqat kompyuter yig'ish, ta'mirlash va ularni ehtiyot qismlar bilan ta'minlash ishlari",
+    "Faqat internetga ulanish xizmati",
+    "Faqat bosmaxona texnologiyasi"
+   ],
+   "e": "AT apparat, dasturiy va tashkiliy vositalarni qamrab oladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ikkilik sanoq sistemasida qaysi raqamlar ishlatiladi?",
+   "a": [
+    "0 va 1",
+    "0 dan 9 gacha",
+    "1 va 2",
+    "0 dan 7 gacha"
+   ],
+   "e": "Kompyuter ichida barcha ma'lumotlar ikkilik kodda saqlanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ikkilik sanoq sistemasidagi 1010 soni o'nlik sistemada nechaga teng?",
+   "a": [
+    "10",
     "1010",
-    "1100",
-    "1001",
-    "0110"
+    "5",
+    "12"
    ],
-   "e": "8 + 2 = 10."
+   "e": "1·8 + 0·4 + 1·2 + 0·1 = 10."
   },
   {
-   "b": "Apparat ta'minoti",
-   "q": "Kompyuterda barcha hisoblash amallarini bajaruvchi asosiy qurilma qaysi?",
+   "b": "Asosiy tushunchalar",
+   "q": "O'nlik sistemadagi 13 soni ikkilik sistemada qanday yoziladi?",
    "a": [
-    "Markaziy protsessor",
-    "Monitor",
-    "Qattiq disk",
-    "Klaviatura"
+    "1101",
+    "1011",
+    "1110",
+    "1001"
    ],
-   "e": "Protsessor buyruqlarni bajaradi va boshqa qurilmalarni boshqaradi."
+   "e": "8 + 4 + 1 = 13."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "O'n oltilik sanoq sistemasida \"F\" raqami o'nlik sistemada nechaga teng?",
+   "a": [
+    "15",
+    "16",
+    "14",
+    "10"
+   ],
+   "e": "A=10, B=11, ..., F=15."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Sakkizlik sistemadagi 17 soni o'nlik sistemada nechaga teng?",
+   "a": [
+    "15",
+    "17",
+    "8",
+    "23"
+   ],
+   "e": "1·8 + 7 = 15."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "ASCII kodlash tizimida bitta belgi necha bit bilan kodlanadi (standart)?",
+   "a": [
+    "7 bit (kengaytirilgani 8 bit)",
+    "16 bit (har doim, barcha kodlashlarda)",
+    "32 bit",
+    "4 bit"
+   ],
+   "e": "Unicode (UTF-16) da asosiy belgilar 16 bit bilan kodlanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Unicode standartining asosiy afzalligi nima?",
+   "a": [
+    "Dunyodagi barcha yozuv tizimlari belgilarini kodlay oladi",
+    "Faqat lotin alifbosini kodlaydi va kam xotira talab qiladi",
+    "Faqat raqamlarni kodlaydi",
+    "Faqat rasmlarni siqadi"
+   ],
+   "e": "UTF-8 internetda eng keng tarqalgan kodlash."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Raqamlashtirish (digitalizatsiya) nima?",
+   "a": [
+    "Analog signal yoki ma'lumotni raqamli ko'rinishga o'tkazish",
+    "Raqamli ma'lumotni qog'ozga chop etish va uni arxivda saqlash jarayoni",
+    "Kompyuterni o'chirish",
+    "Faqat sonlarni yozish"
+   ],
+   "e": "Masalan, datchikdan kelgan kuchlanish ADC orqali raqamga aylantiriladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Analog-raqamli o'zgartkich (ADC) nima qiladi?",
+   "a": [
+    "Uzluksiz signalni raqamli kodga aylantiradi",
+    "Raqamli kodni uzluksiz signalga aylantiradi",
+    "Signalni kuchaytiradi",
+    "Signalni o'chiradi"
+   ],
+   "e": "DAC esa teskari o'zgartirishni bajaradi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Diskretlash chastotasi nima?",
+   "a": [
+    "Signaldan bir sekundda olinadigan namunalar soni",
+    "Signalning maksimal amplitudasi va uning o'zgarish diapazoni",
+    "Signalning uzatish masofasi",
+    "Faylning hajmi"
+   ],
+   "e": "Kotelnikov (Naykvist) teoremasiga ko'ra u signalning maksimal chastotasidan kamida 2 marta katta bo'lishi kerak."
   },
   {
    "b": "Apparat ta'minoti",
-   "q": "Tezkor xotira (RAM)ning asosiy xususiyati qaysi?",
+   "q": "Kompyuterning markaziy protsessori qanday qisqartma bilan belgilanadi?",
+   "a": [
+    "CPU",
+    "GPU",
+    "RAM",
+    "HDD"
+   ],
+   "e": "GPU — grafik protsessor."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Protsessorning asosiy vazifasi nima?",
+   "a": [
+    "Buyruqlarni bajarish va ma'lumotlarni qayta ishlash",
+    "Ma'lumotlarni uzoq muddat saqlash, hatto elektr o'chganda ham",
+    "Tasvirni ekranga chiqarish",
+    "Internetga ulanish"
+   ],
+   "e": "Protsessor arifmetik-mantiqiy qurilma va boshqaruv qurilmasidan iborat."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Protsessor takt chastotasi qanday birlikda o'lchanadi?",
+   "a": [
+    "Gigagers (GGs)",
+    "Gigabayt (GB) va megabayt (MB)",
+    "Vatt (Vt)",
+    "Volt (V)"
+   ],
+   "e": "Takt chastotasi sekundiga bajariladigan taktlar soni."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Operativ xotira (RAM) qanday xususiyatga ega?",
    "a": [
     "Elektr o'chganda ma'lumotlar yo'qoladi",
-    "Ma'lumotlar doimiy saqlanadi",
+    "Ma'lumotlar elektr o'chganda ham abadiy saqlanadi va o'zgartirib bo'lmaydi",
     "Faqat o'qish uchun mo'ljallangan",
-    "Tashqi qurilma hisoblanadi"
+    "Faqat tashqi qurilma hisoblanadi"
    ],
-   "e": "Doimiy saqlash uchun SSD/HDD ishlatiladi."
+   "e": "RAM energiyaga bog'liq (volatil) xotira."
   },
   {
    "b": "Apparat ta'minoti",
-   "q": "Qaysi qurilma ma'lumot kiritish qurilmasi hisoblanadi?",
+   "q": "ROM xotira qanday xotira?",
+   "a": [
+    "Faqat o'qish uchun mo'ljallangan doimiy xotira",
+    "Tez o'zgaruvchan, elektr o'chganda tozalanadigan vaqtinchalik xotira",
+    "Tashqi qattiq disk",
+    "Grafik karta xotirasi"
+   ],
+   "e": "BIOS/UEFI dasturi doimiy xotirada saqlanadi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "SSD diskning HDD ga nisbatan asosiy afzalligi nima?",
+   "a": [
+    "Yuqori tezlik va mexanik qismlarning yo'qligi",
+    "Arzonligi va katta magnit plastinalarining mavjudligi",
+    "Faqat CD disklarni o'qiy olishi",
+    "Elektr talab qilmasligi"
+   ],
+   "e": "SSD flesh-xotira asosida ishlaydi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Kesh xotira nima uchun kerak?",
+   "a": [
+    "Protsessor va RAM orasida tez murojaatni ta'minlash",
+    "Fayllarni uzoq muddat arxivlash va zaxira nusxasini yaratish uchun",
+    "Internet sahifalarini chop etish uchun",
+    "Kompyuterni sovitish uchun"
+   ],
+   "e": "Kesh protsessor ichida joylashgan juda tez xotira."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Ona plata (motherboard) vazifasi nima?",
+   "a": [
+    "Kompyuter qurilmalarini o'zaro bog'lash",
+    "Faqat tovush chiqarish",
+    "Faqat tasvirni chop etish",
+    "Faqat ma'lumotlarni uzoq muddat saqlash va ularni arxivlash"
+   ],
+   "e": "Unda protsessor, xotira, kengaytirish slotlari joylashadi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Kiritish qurilmasiga qaysi biri misol bo'ladi?",
    "a": [
     "Skaner",
     "Printer",
     "Monitor",
     "Karnay"
    ],
-   "e": "Printer, monitor va karnay — chiqarish qurilmalari."
+   "e": "Klaviatura, sichqoncha, mikrofon, skaner — kiritish qurilmalari."
   },
   {
    "b": "Apparat ta'minoti",
-   "q": "SSD ning HDD ga nisbatan asosiy afzalligi nima?",
+   "q": "Chiqarish qurilmasiga qaysi biri misol bo'ladi?",
    "a": [
-    "Yuqori o'qish-yozish tezligi va harakatlanuvchi qismlarning yo'qligi",
-    "Arzonligi har doim",
-    "Hajmi doim kattaroq",
-    "Magnit diskda ishlashi"
+    "Printer",
+    "Klaviatura",
+    "Sichqoncha",
+    "Mikrofon"
    ],
-   "e": "SSD flesh-xotiraga asoslangan."
+   "e": "Monitor, printer, karnay — chiqarish qurilmalari."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Monitorning ruxsat etish qobiliyati nimani bildiradi?",
+   "a": [
+    "Ekrandagi piksellar soni (masalan 1920×1080)",
+    "Monitorning og'irligi",
+    "Monitor ekranining dyuymlarda o'lchanadigan diagonali uzunligi",
+    "Monitor quvvat sarfi"
+   ],
+   "e": "Diagonal alohida parametr hisoblanadi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "USB qisqartmasi nimani bildiradi?",
+   "a": [
+    "Universal ketma-ket shina",
+    "Ulkan saqlash bloki",
+    "Foydalanuvchi tizim bufer",
+    "Universal tovush bloki"
+   ],
+   "e": "Universal Serial Bus — qurilmalarni ulash interfeysi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Uzluksiz quvvat manbai (UPS) nima uchun ishlatiladi?",
+   "a": [
+    "Elektr uzilganda qurilmani vaqtincha ta'minlash uchun",
+    "Kompyuter protsessori tezligini ikki baravar oshirish uchun",
+    "Internet tezligini oshirish uchun",
+    "Printerni sovitish uchun"
+   ],
+   "e": "UPS akkumulyator hisobiga ishlaydi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Fon Neyman arxitekturasining asosiy printsipi qaysi?",
+   "a": [
+    "Dastur va ma'lumotlar bir xotirada saqlanadi",
+    "Dastur va ma'lumotlar har doim turli kompyuterlarda saqlanadi",
+    "Kompyuter faqat analog signallar bilan ishlaydi",
+    "Xotira umuman ishlatilmaydi"
+   ],
+   "e": "Garvard arxitekturasida dastur va ma'lumot xotiralari alohida."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Mikrokontroller nima?",
+   "a": [
+    "Protsessor, xotira va kiritish-chiqarish portlari bitta mikrosxemada",
+    "Faqat katta serverlarda ishlatiladigan va alohida bloklardan iborat tizim",
+    "Monitorning bir turi",
+    "Dasturlash tili"
+   ],
+   "e": "Mikrokontrollerlar maishiy texnika va avtomatikada keng qo'llaniladi."
   },
   {
    "b": "Dasturiy ta'minot",
    "q": "Operatsion tizimning asosiy vazifasi nima?",
    "a": [
-    "Kompyuter resurslarini boshqarish va foydalanuvchi bilan muloqotni ta'minlash",
-    "Faqat matn terish",
-    "Faqat internetga ulanish",
-    "Faqat o'yinlarni ishga tushirish"
+    "Kompyuter resurslarini boshqarish va foydalanuvchi bilan muloqot",
+    "Faqat matn terish, hujjatlarni tahrirlash va ularni chop etish",
+    "Faqat rasm chizish",
+    "Faqat o'yin o'ynash"
    ],
-   "e": "Masalan: Windows, Linux, macOS."
+   "e": "OT fayllar, xotira, jarayonlar va qurilmalarni boshqaradi."
   },
   {
    "b": "Dasturiy ta'minot",
-   "q": "Qaysi dastur elektron jadval muharriri hisoblanadi?",
+   "q": "Quyidagilardan qaysi biri operatsion tizim?",
+   "a": [
+    "Linux",
+    "Microsoft Word",
+    "Google Chrome",
+    "Adobe Photoshop"
+   ],
+   "e": "Windows, Linux, macOS, Android — operatsion tizimlar."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Drayver nima?",
+   "a": [
+    "OT va qurilma o'rtasida bog'lovchi dastur",
+    "Kompyuterning qattiq diski",
+    "Kompyuterni viruslardan himoya qiluvchi antivirus dasturi",
+    "Kompyuter o'yini"
+   ],
+   "e": "Har bir qurilma uchun mos drayver o'rnatiladi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Amaliy dasturiy ta'minotga qaysi biri kiradi?",
+   "a": [
+    "Matn muharriri",
+    "Operatsion tizim yadrosi",
+    "BIOS",
+    "Drayverlar"
+   ],
+   "e": "Amaliy dasturlar foydalanuvchining aniq vazifalarini bajaradi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Fayl kengaytmasi nimani ko'rsatadi?",
+   "a": [
+    "Fayl turini",
+    "Fayl hajmini",
+    "Fayl yaratilgan sanani",
+    "Fayl muallifini"
+   ],
+   "e": "Masalan, .docx — Word hujjati, .xlsx — Excel jadvali."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": ".xlsx kengaytmali fayl qaysi dasturga tegishli?",
    "a": [
     "Microsoft Excel",
     "Microsoft Word",
-    "Paint",
-    "Notepad"
+    "PowerPoint",
+    "Notepad (oddiy matn muharriri)"
    ],
-   "e": "Excel hisob-kitob va jadvallar bilan ishlash uchun."
+   "e": ".pptx — PowerPoint, .docx — Word."
   },
   {
    "b": "Dasturiy ta'minot",
-   "q": "Excel'da A1 dan A10 gacha bo'lgan kataklar yig'indisini hisoblash formulasi qaysi?",
+   "q": "Fayllarni arxivlashning asosiy maqsadi nima?",
    "a": [
-    "=SUM(A1:A10) (=СУММ(A1:A10))",
-    "=A1+A10",
-    "=COUNT(A1:A10)",
-    "=MAX(A1:A10)"
+    "Fayl hajmini kichraytirish va ularni guruhlash",
+    "Fayllarni butunlay o'chirib yuborish va diskni tozalash",
+    "Fayllarni rangli qilish",
+    "Fayllarni chop etish"
    ],
-   "e": "COUNT — sonlar miqdorini, MAX — eng kattasini topadi."
+   "e": "ZIP, RAR, 7z — keng tarqalgan arxiv formatlari."
   },
   {
    "b": "Dasturiy ta'minot",
-   "q": "Excel'da $A$1 ko'rinishidagi murojaat qanday ataladi?",
+   "q": "Excelda katakdagi formula qaysi belgi bilan boshlanadi?",
+   "a": [
+    "=",
+    "#",
+    "@",
+    "$"
+   ],
+   "e": "Masalan, =A1+B1."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda A1 dan A10 gacha bo'lgan kataklar yig'indisini hisoblovchi formula qaysi?",
+   "a": [
+    "=SUM(A1:A10)",
+    "=SUM(A1;A10)",
+    "=ADD(A1-A10)",
+    "=TOTAL(A1+A10)"
+   ],
+   "e": "Rus/o'zbek lokalizatsiyasida =СУММ(A1:A10)."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda o'rta arifmetik qiymatni hisoblovchi funksiya qaysi?",
+   "a": [
+    "AVERAGE",
+    "SUM",
+    "COUNT",
+    "MAX"
+   ],
+   "e": "COUNT — sonli kataklar sonini hisoblaydi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda \"$A$1\" yozuvi nimani bildiradi?",
    "a": [
     "Absolyut murojaat",
     "Nisbiy murojaat",
-    "Aralash murojaat",
-    "Doiraviy murojaat"
+    "Pul formatidagi qiymat",
+    "Xato qiymat"
    ],
    "e": "Formula nusxalanganda absolyut murojaat o'zgarmaydi."
   },
   {
    "b": "Dasturiy ta'minot",
-   "q": "Texnik chizmalarni kompyuterda bajarish uchun mo'ljallangan tizimlar qanday ataladi?",
+   "q": "Excelda shartli hisoblash uchun qaysi funksiya ishlatiladi?",
    "a": [
-    "SAPR (CAD) tizimlari, masalan AutoCAD, KOMPAS",
-    "Matn muharrirlari",
-    "Brauzerlar",
-    "Antiviruslar"
+    "IF",
+    "SUM",
+    "ROUND",
+    "LEN"
    ],
-   "e": "CAD — Computer-Aided Design (avtomatlashtirilgan loyihalash)."
+   "e": "=IF(A1>50; \"o'tdi\"; \"o'tmadi\")."
   },
   {
    "b": "Dasturiy ta'minot",
-   "q": "Fayl kengaytmasi .pdf qanday turdagi faylni bildiradi?",
+   "q": "Excelda \"#DIV/0!\" xatosi nimani bildiradi?",
    "a": [
-    "Ko'chma hujjat formati",
-    "Audio fayl",
-    "Arxiv",
-    "Bajariluvchi dastur"
+    "Nolga bo'lish",
+    "Katak juda tor",
+    "Noma'lum funksiya nomi",
+    "Noto'g'ri murojaat"
    ],
-   "e": "PDF hujjat ko'rinishini har qanday qurilmada saqlaydi."
+   "e": "\"#####\" katak tor bo'lganda, \"#NAME?\" noma'lum nom bo'lganda chiqadi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Matn muharririda hujjatni saqlash uchun qaysi tugmalar kombinatsiyasi ishlatiladi?",
+   "a": [
+    "Ctrl+S",
+    "Ctrl+C",
+    "Ctrl+V",
+    "Ctrl+X"
+   ],
+   "e": "Ctrl+C — nusxalash, Ctrl+V — qo'yish, Ctrl+X — kesib olish."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Taqdimot (prezentatsiya) tayyorlash uchun qaysi dastur mo'ljallangan?",
+   "a": [
+    "PowerPoint",
+    "Excel",
+    "Paint",
+    "Notepad"
+   ],
+   "e": "LibreOffice Impress, Google Slides ham shunday dasturlar."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Bulutli texnologiyalar nima?",
+   "a": [
+    "Internet orqali masofaviy hisoblash resurslaridan foydalanish",
+    "Faqat ob-havo ma'lumotlarini olish",
+    "Kompyuterni sovitish tizimi",
+    "Faqat kompyuterning mahalliy diskida saqlangan ma'lumotlardan foydalanish"
+   ],
+   "e": "Masalan, Google Drive, Microsoft 365."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Litsenziyasiz dasturiy ta'minotdan foydalanish qanday oqibatlarga olib keladi?",
+   "a": [
+    "Huquqiy javobgarlik va xavfsizlik xatarlari",
+    "Hech qanday oqibat bo'lmaydi, chunki dastur bepul olingan",
+    "Kompyuterning ishlash muddati uzayadi",
+    "Dasturning avtomatik yangilanishi va kompyuter tezligining oshishi"
+   ],
+   "e": "Bunday dasturlarda zararli kod bo'lishi ehtimoli yuqori."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Ochiq kodli dasturiy ta'minotning xususiyati nima?",
+   "a": [
+    "Manba kodi ochiq va erkin o'zgartirilishi mumkin",
+    "Manba kodi yashirin, faqat pullik va o'zgartirish taqiqlangan",
+    "Faqat bitta kompyuterda ishlaydi",
+    "Faqat davlat idoralarida ishlatiladi"
+   ],
+   "e": "Linux, LibreOffice — ochiq kodli dasturlarga misol."
   },
   {
    "b": "Tarmoqlar va internet",
-   "q": "Mahalliy kompyuter tarmog'i qanday qisqartma bilan belgilanadi?",
+   "q": "Lokal tarmoq qanday qisqartma bilan belgilanadi?",
    "a": [
     "LAN",
     "WAN",
-    "URL",
-    "HTML"
+    "MAN",
+    "PAN"
    ],
-   "e": "WAN — global tarmoq."
-  },
-  {
-   "b": "Tarmoqlar va internet",
-   "q": "Veb-sahifalarni ko'rish uchun mo'ljallangan dastur qanday ataladi?",
-   "a": [
-    "Brauzer",
-    "Kompilyator",
-    "Drayver",
-    "Arxivator"
-   ],
-   "e": "Masalan: Chrome, Firefox, Edge."
+   "e": "WAN — global, MAN — shahar, PAN — shaxsiy tarmoq."
   },
   {
    "b": "Tarmoqlar va internet",
    "q": "IP-manzilning vazifasi nima?",
    "a": [
-    "Tarmoqdagi qurilmani noyob identifikatsiyalash",
-    "Faylni siqish",
-    "Parolni saqlash",
-    "Ekran o'lchamini belgilash"
+    "Tarmoqdagi qurilmani noyob identifikatsiya qilish",
+    "Kompyuter protsessori tezligi va operativ xotira hajmini ko'rsatish",
+    "Faylning nomini belgilash",
+    "Elektron pochta parolini saqlash"
    ],
    "e": "IPv4 manzil 4 ta oktetdan iborat, masalan 192.168.1.1."
   },
   {
    "b": "Tarmoqlar va internet",
-   "q": "Elektron pochta manzilida majburiy bo'lgan belgi qaysi?",
+   "q": "IPv4 manzil necha bitdan iborat?",
    "a": [
-    "@",
-    "#",
-    "&",
-    "%"
+    "32",
+    "64",
+    "128",
+    "16"
    ],
-   "e": "Masalan: ism@domen.uz."
+   "e": "IPv6 manzil 128 bitdan iborat."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "DNS xizmatining vazifasi nima?",
+   "a": [
+    "Domen nomlarini IP-manzillarga aylantirish",
+    "Elektron xatlarni shifrlash",
+    "Fayllarni siqish",
+    "Kompyuterni viruslardan himoya qilish va zararli saytlarni bloklash"
+   ],
+   "e": "Masalan, gov.uz → IP-manzil."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Veb-sahifalarni uzatish protokoli qaysi?",
+   "a": [
+    "HTTP/HTTPS",
+    "FTP",
+    "SMTP",
+    "POP3"
+   ],
+   "e": "HTTPS — shifrlangan HTTP."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron pochta jo'natish protokoli qaysi?",
+   "a": [
+    "SMTP",
+    "HTTP",
+    "FTP",
+    "DNS"
+   ],
+   "e": "Qabul qilish uchun POP3 va IMAP ishlatiladi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Router (marshrutizator) vazifasi nima?",
+   "a": [
+    "Tarmoqlar o'rtasida paketlarni yo'naltirish",
+    "Faqat bitta kompyuterni elektr bilan ta'minlash",
+    "Hujjatlarni chop etish",
+    "Ma'lumotlarni diskda saqlash"
+   ],
+   "e": "Router tarmoq qatlamida ishlaydi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Wi-Fi qanday texnologiya?",
+   "a": [
+    "Simsiz lokal tarmoq texnologiyasi",
+    "Simli optik tarmoq",
+    "Mobil aloqa standarti 2G",
+    "Sun'iy yo'ldosh orqali televideniye signalini uzatish texnologiyasi"
+   ],
+   "e": "IEEE 802.11 standartlari oilasi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ma'lumot uzatish tezligi qanday birlikda o'lchanadi?",
+   "a": [
+    "bit/s (Mbit/s, Gbit/s)",
+    "Gers (Gs) va kilogers (kGs)",
+    "Bayt",
+    "Vatt"
+   ],
+   "e": "Masalan, 100 Mbit/s."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Optik tolali kabelning afzalligi nima?",
+   "a": [
+    "Yuqori tezlik va elektromagnit xalaqitlarga chidamlilik",
+    "Arzonligi, mis simdan ham yengil payvandlanishi va oson ulanishi",
+    "Faqat qisqa masofada ishlashi",
+    "Elektr tokini yaxshi o'tkazishi"
+   ],
+   "e": "Ma'lumot yorug'lik signali orqali uzatiladi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "URL nima?",
+   "a": [
+    "Internetdagi resurs manzili",
+    "Kompyuter protsessorining turi va modeli",
+    "Elektron pochta paroli",
+    "Tarmoq kabeli turi"
+   ],
+   "e": "Masalan, https://example.uz/index.html."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Axborot xavfsizligining uchta asosiy tamoyili qaysi?",
+   "a": [
+    "Konfidensiallik, yaxlitlik, foydalanuvchanlik",
+    "Tezlik, arzonlik, qulaylik va ma'lumotlarning chiroyli ko'rinishi",
+    "Hajm, rang, shakl",
+    "Parol, login, elektron pochta"
+   ],
+   "e": "Inglizcha qisqartmasi — CIA triadasi."
   },
   {
    "b": "Axborot xavfsizligi",
    "q": "Kompyuter virusi nima?",
    "a": [
-    "O'z-o'zidan ko'payib, zarar yetkazadigan dastur",
-    "Kompyuter qismining nosozligi",
-    "Internet tezligi",
-    "Operatsion tizim turi"
+    "O'z-o'zidan ko'payuvchi zararli dastur",
+    "Kompyuter qismlarini tozalovchi va changdan himoya qiluvchi maxsus qurilma",
+    "Operatsion tizimning foydali yangilanishi",
+    "Monitordagi nuqson"
    ],
-   "e": "Himoya uchun antivirus dasturlari ishlatiladi."
+   "e": "Viruslar boshqa fayllarga o'z kodini yozib tarqaladi."
   },
   {
    "b": "Axborot xavfsizligi",
-   "q": "Ishonchli parolga qaysi talab qo'yiladi?",
+   "q": "Antivirus dasturining vazifasi nima?",
    "a": [
-    "Katta-kichik harflar, raqamlar va belgilar aralashgan, yetarlicha uzun bo'lishi",
-    "Tug'ilgan sana bo'lishi",
-    "\"123456\" kabi oddiy bo'lishi",
-    "Faqat ismdan iborat bo'lishi"
+    "Zararli dasturlarni aniqlash va zararsizlantirish",
+    "Kompyuterni internetga ulash va trafikni tezlashtirish",
+    "Hujjatlarni chop etish",
+    "Fayllarni arxivlash"
    ],
-   "e": "Har bir xizmat uchun alohida parol ishlatish tavsiya etiladi."
+   "e": "Antivirus bazalari muntazam yangilanishi kerak."
   },
   {
    "b": "Axborot xavfsizligi",
    "q": "Fishing (phishing) hujumi nima?",
    "a": [
-    "Soxta xat yoki sayt orqali foydalanuvchi ma'lumotlarini aldab olish",
-    "Kompyuterni qizdirish",
-    "Tarmoq kabelini uzish",
-    "Fayllarni arxivlash"
+    "Soxta xabar orqali shaxsiy ma'lumotlarni aldab olish",
+    "Kompyuterni jismoniy shikastlash va uning qismlarini o'g'irlash",
+    "Tarmoq kabelini kesish",
+    "Kompyuterni qizib ketishga majburlash"
    ],
-   "e": "Shubhali havolalarni ochmaslik va manzilni tekshirish kerak."
+   "e": "Soxta bank sayti yoki xat orqali parol va karta ma'lumotlari so'raladi."
   },
   {
    "b": "Axborot xavfsizligi",
-   "q": "Ma'lumotlarni zaxira nusxalash (backup) nima uchun kerak?",
+   "q": "Ishonchli parolga qaysi talab qo'yiladi?",
    "a": [
-    "Ma'lumot yo'qolganda uni tiklash uchun",
-    "Kompyuter tezligini oshirish uchun",
-    "Internetni tezlashtirish uchun",
-    "Ekranni yoritish uchun"
+    "Uzun, katta-kichik harf, raqam va belgilar aralash",
+    "Faqat tug'ilgan sana yoki telefon raqami, oson eslab qolish uchun",
+    "Faqat \"123456\"",
+    "Faqat ismingiz"
    ],
-   "e": "Zaxira nusxa alohida qurilma yoki bulutda saqlanadi."
+   "e": "Kamida 12 belgi tavsiya etiladi."
   },
   {
-   "b": "Avtomatlashtirish",
-   "q": "Sanoatda texnologik jarayonlarni boshqarish uchun ishlatiladigan dasturlanuvchi kontroller qanday ataladi?",
+   "b": "Axborot xavfsizligi",
+   "q": "Ikki bosqichli autentifikatsiya nima?",
    "a": [
-    "PLK (PLC)",
-    "GPU",
-    "BIOS",
-    "USB"
+    "Paroldan tashqari qo'shimcha tasdiqlash (SMS-kod, ilova)",
+    "Bir xil parolni kirishda ikki marta ketma-ket terib tasdiqlash",
+    "Ikki xil brauzerdan kirish",
+    "Ikki kompyuterdan bir vaqtda kirish"
    ],
-   "e": "Dasturlanuvchi mantiqiy kontroller datchiklardan signallarni olib, ijrochi mexanizmlarni boshqaradi."
+   "e": "Parol o'g'irlansa ham akkaunt himoyalanadi."
   },
   {
-   "b": "Avtomatlashtirish",
-   "q": "Datchik (sensor)ning vazifasi nima?",
+   "b": "Axborot xavfsizligi",
+   "q": "Tarmoqlararo ekran (firewall) vazifasi nima?",
    "a": [
-    "Fizik kattalikni o'lchab, uni signalga aylantirish",
+    "Tarmoq trafigini qoidalar asosida filtrlash",
+    "Kompyuterni yong'indan himoya qilish uchun maxsus devor",
+    "Fayllarni siqish",
+    "Monitorni yorug'likdan himoya qilish"
+   ],
+   "e": "Ruxsat etilmagan ulanishlarni bloklaydi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Shifrlash nima?",
+   "a": [
+    "Ma'lumotni kalitsiz o'qib bo'lmaydigan ko'rinishga keltirish",
+    "Ma'lumotni butunlay o'chirib yuborish",
     "Ma'lumotni chop etish",
-    "Elektr energiyasini saqlash",
-    "Dasturni kompilyatsiya qilish"
+    "Ma'lumotni siqib arxivlash va uning hajmini kamaytirish jarayoni"
    ],
-   "e": "Masalan: harorat, bosim, sath datchiklari."
+   "e": "Simmetrik va asimmetrik shifrlash usullari mavjud."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ma'lumotlarning zaxira nusxasini olish (backup) nima uchun kerak?",
+   "a": [
+    "Yo'qolganda tiklash uchun",
+    "Kompyuter tezligini oshirish va diskni tozalash uchun",
+    "Viruslarni tarqatish uchun",
+    "Internet tezligini oshirish uchun"
+   ],
+   "e": "\"3-2-1\" qoidasi: 3 nusxa, 2 xil tashuvchi, 1 tasi boshqa joyda."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ijtimoiy muhandislik (social engineering) nima?",
+   "a": [
+    "Inson psixologiyasidan foydalanib ma'lumot olish",
+    "Ijtimoiy tarmoqlar uchun dasturiy ta'minot ishlab chiqish va sinash",
+    "Muhandislarni ishga yollash",
+    "Kompyuterni ta'mirlash"
+   ],
+   "e": "Hujumchi ishonchli shaxs qiyofasida harakat qiladi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "DDoS hujumi nima?",
+   "a": [
+    "Ko'p manbadan so'rov yuborib xizmatni ishdan chiqarish",
+    "Bitta faylni nusxalash va uni boshqa papkaga ko'chirish",
+    "Parolni o'zgartirish",
+    "Dasturni yangilash"
+   ],
+   "e": "Distributed Denial of Service — taqsimlangan xizmat ko'rsatishni rad etish."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Troyan dasturi qanday xususiyatga ega?",
+   "a": [
+    "Foydali dastur qiyofasida yashirin zararli harakat qiladi",
+    "O'zini ochiq ko'rsatib, faqat foydali ishlarni bajaradi",
+    "O'zini yashirmasdan, foydalanuvchi ruxsati bilan tizimni yangilaydi",
+    "Kompyuterni tezlashtiradi"
+   ],
+   "e": "Troyan o'z-o'zidan ko'paymaydi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "HTTPS protokolining HTTP dan farqi nima?",
+   "a": [
+    "Ma'lumotlar shifrlangan holda uzatiladi",
+    "Sahifalar tezroq ochiladi, lekin shifrlanmaydi",
+    "Faqat rasmlar uzatiladi",
+    "Hech qanday farqi yo'q"
+   ],
+   "e": "HTTPS TLS protokoli orqali shifrlaydi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Elektron raqamli imzo (ERI) nima uchun ishlatiladi?",
+   "a": [
+    "Hujjat muallifi va yaxlitligini tasdiqlash uchun",
+    "Hujjatni chiroyli bezash va rangli qilish uchun",
+    "Hujjatni boshqa formatga o'girish uchun",
+    "Hujjat hajmini kichraytirish va uni tezroq jo'natish uchun"
+   ],
+   "e": "ERI qog'ozdagi imzo va muhr bilan teng kuchga ega."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Shaxsiy ma'lumotlarni himoya qilish O'zbekistonda qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"Shaxsga doir ma'lumotlar to'g'risida\"gi Qonun",
+    "\"Yo'l harakati xavfsizligi to'g'risida\"gi Qonun",
+    "\"Davlat tili to'g'risida\"gi Qonun",
+    "\"Iste'molchilar huquqlari to'g'risida\"gi Qonun"
+   ],
+   "e": "Qonun 2019-yilda qabul qilingan."
   },
   {
    "b": "Avtomatlashtirish",
-   "q": "SCADA tizimlari nima uchun ishlatiladi?",
+   "q": "Datchik (sensor) vazifasi nima?",
    "a": [
-    "Texnologik jarayonlarni masofadan kuzatish va boshqarish uchun",
-    "Matn tahriri uchun",
-    "Rasm chizish uchun",
-    "Musiqa tinglash uchun"
+    "Fizik kattalikni o'lchab, signalga aylantirish",
+    "Boshqaruv buyrug'iga ko'ra mexanizmni harakatga keltirish va kuch hosil qilish",
+    "Ma'lumotni ekranga chiqarish",
+    "Ma'lumotni saqlash"
    ],
-   "e": "SCADA — Supervisory Control And Data Acquisition."
+   "e": "Masalan, harorat datchigi haroratni elektr signaliga aylantiradi."
   },
   {
    "b": "Avtomatlashtirish",
-   "q": "\"Narsalar interneti\" (IoT) deganda nima tushuniladi?",
+   "q": "Ijro mexanizmi (aktuator) vazifasi nima?",
    "a": [
-    "Datchik va qurilmalarning tarmoq orqali o'zaro ma'lumot almashishi",
-    "Faqat ijtimoiy tarmoqlar",
-    "Elektron pochta xizmati",
-    "Qog'oz hujjatlar arxivi"
+    "Boshqaruv signali bo'yicha obyektga ta'sir qilish",
+    "Fizik kattalikni o'lchash va uni raqamli signalga aylantirish",
+    "Ma'lumotlarni arxivlash",
+    "Signalni filtrlash"
    ],
-   "e": "Aqlli uy, aqlli zavod tizimlari IoT ga asoslanadi."
+   "e": "Masalan, elektr dvigatel, klapan, rele."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "PLC (dasturlanuvchi mantiqiy kontroller) nima?",
+   "a": [
+    "Sanoat jarayonlarini boshqaruvchi maxsus kompyuter",
+    "Ofisda hujjat chop etuvchi printer turi",
+    "Elektr zanjirlarini qisqa tutashuvdan himoya qiluvchi avtomat o'chirgich",
+    "Tarmoq kabeli turi"
+   ],
+   "e": "PLC datchiklardan signal olib, dastur bo'yicha ijro mexanizmlarini boshqaradi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "SCADA tizimi nima uchun ishlatiladi?",
+   "a": [
+    "Texnologik jarayonlarni dispetcherlik nazorati va ma'lumot yig'ish",
+    "Faqat buxgalteriya hisobini yuritish va soliq hisobotlarini tayyorlash",
+    "Faqat matn terish",
+    "Faqat videolarni tahrirlash"
+   ],
+   "e": "Supervisory Control And Data Acquisition."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Teskari aloqali avtomatik boshqaruv tizimi qanday ishlaydi?",
+   "a": [
+    "Chiqish qiymati o'lchanib, berilgan qiymat bilan solishtiriladi",
+    "Chiqish qiymati hech qachon o'lchanmaydi va boshqaruv ochiq zanjir bo'yicha boradi",
+    "Faqat qo'lda boshqariladi",
+    "Faqat vaqt bo'yicha ishlaydi"
+   ],
+   "e": "Farq (xatolik) asosida boshqaruv ta'siri o'zgartiriladi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "PID-rostlagichda \"I\" harfi nimani bildiradi?",
+   "a": [
+    "Integral tashkil etuvchi",
+    "Indikator",
+    "Interfeys",
+    "Impulsli boshqaruv (impuls kengligi modulyatsiyasi)"
+   ],
+   "e": "P — proporsional, I — integral, D — differensial."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Narsalar interneti (IoT) nima?",
+   "a": [
+    "Qurilmalarning internet orqali o'zaro ma'lumot almashuvi",
+    "Faqat kompyuterlar o'rtasidagi lokal tarmoq, internetga ulanmagan",
+    "Internetdagi do'konlar ro'yxati",
+    "Faqat smartfon ilovasi"
+   ],
+   "e": "Masalan, aqlli hisoblagichlar, aqlli uy tizimlari."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Telemetriya nima?",
+   "a": [
+    "Masofadan o'lchash va ma'lumot uzatish",
+    "Telefon orqali gaplashish",
+    "Televizor ko'rish",
+    "Masofadan turib uskunalarni dasturlash uchun mo'ljallangan maxsus til"
+   ],
+   "e": "Masalan, temir yo'l yoki energetika obyektlari holatini masofadan kuzatish."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Raqamli egizak (digital twin) nima?",
+   "a": [
+    "Real obyektning raqamli modeli",
+    "Kompyuterdagi barcha fayllarning zaxira nusxasi va arxivi",
+    "Ikki bir xil kompyuter",
+    "Raqamli fotoapparat"
+   ],
+   "e": "Raqamli egizak real ma'lumotlar asosida obyekt holatini modellashtiradi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Avtomatlashtirishning asosiy maqsadi nima?",
+   "a": [
+    "Unumdorlik, sifat va xavfsizlikni oshirish",
+    "Ish o'rinlarini ko'paytirish va qo'l mehnatini oshirish",
+    "Elektr energiyasi sarfini oshirish",
+    "Jarayonlarni sekinlashtirish"
+   ],
+   "e": "Inson xavfli va monoton ishlardan ozod qilinadi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Robototexnik tizimda manipulyator nima?",
+   "a": [
+    "Inson qo'li kabi harakat qiluvchi mexanizm",
+    "Robotning dasturlash tili",
+    "Robotning elektr ta'minoti va akkumulyator bloki",
+    "Robotning g'ildiragi"
+   ],
+   "e": "Manipulyator bo'g'inlari erkinlik darajalari bilan tavsiflanadi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "GPS tizimi nima uchun ishlatiladi?",
+   "a": [
+    "Joylashuvni aniqlash uchun",
+    "Ma'lumotlarni shifrlash uchun",
+    "Elektr energiyasini uzatish uchun",
+    "Rasmlarni tahrirlash uchun"
+   ],
+   "e": "Sun'iy yo'ldoshlar signallari asosida koordinatalar aniqlanadi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "RFID texnologiyasi nima?",
+   "a": [
+    "Radiochastotali identifikatsiya",
+    "Raqamli fotosurat formati",
+    "Robotlarni dasturlash uchun mo'ljallangan radio-buyruqlar tili",
+    "Rangli printer turi"
+   ],
+   "e": "Yuklar, vagonlar va mahsulotlarni avtomatik aniqlashda ishlatiladi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Shtrix-kod nima uchun ishlatiladi?",
+   "a": [
+    "Mahsulot ma'lumotini avtomatik o'qish uchun",
+    "Mahsulotni bezash va reklama qilish uchun",
+    "Mahsulot narxini oshirish uchun",
+    "Mahsulot ma'lumotlarini shifrlab, uni o'qilmaydigan qilish uchun"
+   ],
+   "e": "QR-kod ikki o'lchamli shtrix-kod hisoblanadi."
   },
   {
    "b": "Ma'lumotlar bilan ishlash",
-   "q": "Ma'lumotlar bazasidagi jadvalning har bir qatori nima deb ataladi?",
+   "q": "Ma'lumotlar bazasi nima?",
    "a": [
-    "Yozuv",
-    "Maydon",
-    "Kalit",
-    "So'rov"
+    "Tartiblangan ma'lumotlar to'plami",
+    "Kompyuterning qattiq diski va uning bo'limlari",
+    "Matn muharriri",
+    "Kompyuter tarmog'i"
    ],
-   "e": "Ustun — maydon deb ataladi."
+   "e": "MB ma'lumotlarni saqlash va tezkor izlashni ta'minlaydi."
   },
   {
    "b": "Ma'lumotlar bilan ishlash",
-   "q": "Ma'lumotlarni grafik ko'rinishda tasvirlash uchun Excel'da nima ishlatiladi?",
+   "q": "MBBT qisqartmasi nimani bildiradi?",
    "a": [
-    "Diagramma",
-    "Makros",
-    "Filtr",
-    "Sahifa raqami"
+    "Ma'lumotlar bazasini boshqarish tizimi",
+    "Mahalliy bank bo'limlari tarmog'i",
+    "Ma'lumotlarni bloklarga bo'lib saqlovchi tarmoq texnologiyasi",
+    "Monitor boshqaruv bloki texnologiyasi"
    ],
-   "e": "Ustunli, chiziqli, doiraviy va boshqa diagrammalar."
+   "e": "Masalan, MySQL, PostgreSQL, MS Access."
   },
   {
    "b": "Ma'lumotlar bilan ishlash",
-   "q": "Bulutli texnologiyalarning asosiy afzalligi nima?",
+   "q": "Relyatsion MB da ma'lumotlar qanday ko'rinishda saqlanadi?",
    "a": [
-    "Ma'lumot va dasturlarga istalgan joydan internet orqali kirish",
-    "Internetsiz ishlash",
-    "Faqat bitta kompyuterda saqlash",
-    "Qog'ozda saqlash"
+    "Jadvallar",
+    "Faqat rasmlar",
+    "Daraxtsimon papkalar",
+    "Audio fayllar"
    ],
-   "e": "Masalan: Google Drive, OneDrive."
+   "e": "Jadval satrlari — yozuvlar, ustunlari — maydonlar."
   },
   {
    "b": "Ma'lumotlar bilan ishlash",
-   "q": "Algoritmning qaysi xossasi uning chekli sondagi qadamdan keyin tugashini bildiradi?",
+   "q": "Jadvaldagi har bir yozuvni noyob aniqlovchi maydon qanday nomlanadi?",
    "a": [
-    "Natijaviylik (cheklilik)",
-    "Diskretlik",
-    "Ommaviylik",
-    "Tushunarlilik"
+    "Birlamchi kalit",
+    "Tashqi kalit (boshqa jadvalga murojaat qiluvchi)",
+    "Indeks",
+    "Filtr"
    ],
-   "e": "Algoritm xossalari: diskretlik, aniqlik, tushunarlilik, natijaviylik, ommaviylik."
+   "e": "Primary key takrorlanmaydi."
   },
   {
    "b": "Ma'lumotlar bilan ishlash",
+   "q": "SQL tilida jadvaldan ma'lumot tanlash buyrug'i qaysi?",
+   "a": [
+    "SELECT",
+    "INSERT",
+    "DELETE",
+    "UPDATE"
+   ],
+   "e": "SELECT * FROM jadval."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "SQL da yangi yozuv qo'shish buyrug'i qaysi?",
+   "a": [
+    "INSERT",
+    "SELECT",
+    "DROP",
+    "ALTER"
+   ],
+   "e": "INSERT INTO jadval VALUES (...)."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Katta hajmdagi ma'lumotlar (Big Data) qanday xususiyatlar bilan tavsiflanadi?",
+   "a": [
+    "Hajm, tezlik, xilma-xillik",
+    "Faqat kichik hajm va past tezlik",
+    "Faqat matnli ma'lumotlar",
+    "Faqat bitta jadval"
+   ],
+   "e": "\"3V\": Volume, Velocity, Variety."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Ma'lumotlarni vizuallashtirish nima?",
+   "a": [
+    "Ma'lumotlarni grafik va diagrammalar ko'rinishida tasvirlash",
+    "Ma'lumotlarni butunlay o'chirib, yangi ma'lumot kiritish",
+    "Ma'lumotlarni shifrlash va ularga kirishni cheklash usullari",
+    "Ma'lumotlarni qog'ozga ko'chirish"
+   ],
+   "e": "Excel diagrammalari, dashboardlar misol bo'ladi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Excelda ma'lumotlarni saralash nima qiladi?",
+   "a": [
+    "Qatorlarni tanlangan ustun bo'yicha tartiblaydi",
+    "Faqat tanlangan bitta katakdagi ma'lumotni o'chirib tashlaydi",
+    "Faylni yopadi",
+    "Formulalarni o'chiradi"
+   ],
+   "e": "O'sish yoki kamayish bo'yicha saralash mumkin."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Excelda filtr nima uchun ishlatiladi?",
+   "a": [
+    "Shartga mos qatorlarni ko'rsatish uchun",
+    "Barcha ma'lumotlarni butunlay o'chirish uchun",
+    "Faylni shifrlash uchun",
+    "Ustunlar kengligini o'zgartirish uchun"
+   ],
+   "e": "Filtrlangan qatorlar yashiriladi, lekin o'chirilmaydi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "CSV formatidagi faylda ma'lumotlar qanday ajratiladi?",
+   "a": [
+    "Vergul (yoki nuqtali vergul) bilan",
+    "Faqat tabulyatsiya belgisi va bo'sh satrlar bilan",
+    "Faqat rasm bilan",
+    "Bo'sh sahifalar bilan"
+   ],
+   "e": "Comma-Separated Values."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Algoritm nima?",
+   "a": [
+    "Masalani yechish uchun aniq ko'rsatmalar ketma-ketligi",
+    "Kompyuterning qattiq diski",
+    "Biror dasturlash tilida yozilgan tayyor dastur matni",
+    "Kompyuter virusi"
+   ],
+   "e": "Algoritm aniqlik, cheklilik, ommaviylik xossalariga ega."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
    "q": "Blok-sxemada romb shakli nimani bildiradi?",
    "a": [
-    "Shart tekshirish (tarmoqlanish)",
-    "Boshlanish/tugash",
-    "Hisoblash amali",
-    "Ma'lumot kiritish"
+    "Shart (tarmoqlanish)",
+    "Boshlanish va tugash",
+    "Kiritish-chiqarish",
+    "Hisoblash amali"
    ],
-   "e": "Boshlanish/tugash — oval, amal — to'g'ri to'rtburchak, kiritish/chiqarish — parallelogramm."
+   "e": "Ovall — boshlanish/tugash, parallelogramm — kiritish/chiqarish, to'rtburchak — amal."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Takrorlanuvchi algoritm qanday nomlanadi?",
+   "a": [
+    "Siklik",
+    "Chiziqli",
+    "Tarmoqlanuvchi",
+    "Rekursiv emas"
+   ],
+   "e": "Chiziqli algoritmda amallar ketma-ket, bir martadan bajariladi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Matematik modellashtirish nima?",
+   "a": [
+    "Obyektni matematik tenglamalar bilan ifodalash",
+    "Obyektning jismoniy nusxasini yasash va uni sinash",
+    "Obyektni rasmga olish",
+    "Obyektni sotish"
+   ],
+   "e": "Model asosida obyekt xatti-harakati tahlil qilinadi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "MATLAB dasturi asosan nima uchun mo'ljallangan?",
+   "a": [
+    "Muhandislik hisob-kitoblari va modellashtirish",
+    "Matn terish, hujjatlarni rasmiylashtirish va ularni chop etish",
+    "Musiqa tinglash",
+    "Internet sahifalarini ko'rish"
+   ],
+   "e": "Simulink kengaytmasi dinamik tizimlarni modellashtiradi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python dasturlash tilining afzalliklaridan biri qaysi?",
+   "a": [
+    "Sodda sintaksis va boy kutubxonalar",
+    "Faqat mikroprotsessor assemblerida yozilgan",
+    "Faqat Windowsda ishlaydi",
+    "Faqat o'yinlar yaratadi"
+   ],
+   "e": "NumPy, Pandas, Matplotlib kutubxonalari muhandislikda keng ishlatiladi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Dasturda o'zgaruvchi nima?",
+   "a": [
+    "Qiymat saqlanadigan nomlangan xotira sohasi",
+    "Dasturning nomi",
+    "Dastur bajarilishida o'zgarmaydigan qat'iy qiymat (konstanta)",
+    "Dastur xatosi"
+   ],
+   "e": "O'zgaruvchi qiymati dastur bajarilishida o'zgarishi mumkin."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Kompilyator nima qiladi?",
+   "a": [
+    "Dastur matnini mashina kodiga o'giradi",
+    "Dasturni internetga yuklaydi va boshqa foydalanuvchilarga tarqatadi",
+    "Dasturni o'chiradi",
+    "Dasturni chop etadi"
+   ],
+   "e": "Interpretator esa dasturni qatorma-qator bajaradi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Sun'iy intellektning asosiy yo'nalishlaridan biri qaysi?",
+   "a": [
+    "Mashinali o'qitish",
+    "Kompyuter yig'ish",
+    "Kabel yotqizish",
+    "Monitor ta'mirlash"
+   ],
+   "e": "Mashinali o'qitish ma'lumotlar asosida modellarni o'rgatadi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "CAD tizimlari texnik sohada nima uchun ishlatiladi?",
+   "a": [
+    "Loyihalashni avtomatlashtirish",
+    "Korxonada buxgalteriya hisobini yuritish va hisobotlar tayyorlash",
+    "Elektron pochta jo'natish",
+    "Videokonferensiya"
+   ],
+   "e": "AutoCAD, KOMPAS-3D, SolidWorks misol bo'ladi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Raqamli texnologiyalarning texnik tizimlarda qo'llanishiga misol qaysi?",
+   "a": [
+    "Uskunalar holatini masofadan monitoring qilish",
+    "Uskunalar holatini qog'ozli jurnalda qo'lda qayd etib borish",
+    "Hisob-kitobni cho'tda bajarish",
+    "Xabarlarni pochta kaptari orqali yuborish"
+   ],
+   "e": "Monitoring nosozliklarni oldindan aniqlash imkonini beradi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Axborot jarayonlariga qaysilar kiradi?",
+   "a": [
+    "Yig'ish, saqlash, qayta ishlash, uzatish",
+    "Faqat chop etish, skanerlash va nusxa ko'chirish orqali hujjat aylanishi",
+    "Faqat kompyuterni yoqish va o'chirish",
+    "Faqat matn yozish"
+   ],
+   "e": "Axborot jarayonlari har qanday axborot tizimining asosini tashkil etadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Axborot tizimi nima?",
+   "a": [
+    "Axborotni yig'ish, saqlash va qayta ishlash uchun vositalar va xodimlar majmui",
+    "Faqat bitta kompyuter va unga o'rnatilgan amaliy dasturlar to'plami",
+    "Faqat dasturiy ta'minot",
+    "Faqat internet tarmog'i"
+   ],
+   "e": "Axborot tizimi texnik, dasturiy, axborot va tashkiliy ta'minotdan iborat."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ikkilik sistemadagi 1111 soni o'nlik sistemada nechaga teng?",
+   "a": [
+    "15",
+    "16",
+    "11",
+    "1111"
+   ],
+   "e": "8 + 4 + 2 + 1 = 15."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "O'nlik 255 soni o'n oltilik sistemada qanday yoziladi?",
+   "a": [
+    "FF",
+    "255",
+    "EE",
+    "1F"
+   ],
+   "e": "15·16 + 15 = 255."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "8 bit bilan nechta turli qiymatni kodlash mumkin?",
+   "a": [
+    "256",
+    "8",
+    "128",
+    "512"
+   ],
+   "e": "2⁸ = 256."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Mantiqiy \"VA\" (AND) amali qachon rost natija beradi?",
+   "a": [
+    "Ikkala operand ham rost bo'lganda",
+    "Kamida bitta operand rost bo'lganda",
+    "Ikkala operand ham yolg'on bo'lganda",
+    "Operandlar har xil bo'lganda"
+   ],
+   "e": "\"YOKI\" (OR) kamida bittasi rost bo'lsa rost."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Mantiqiy \"YOKI\" (OR) amali qachon yolg'on natija beradi?",
+   "a": [
+    "Ikkala operand ham yolg'on bo'lganda",
+    "Ikkala operand ham rost bo'lganda",
+    "Kamida bitta operand rost bo'lganda",
+    "Operandlardan biri rost, ikkinchisi yolg'on bo'lganda"
+   ],
+   "e": "Faqat 0 OR 0 = 0."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "\"Inkor\" (NOT) amali 1 ga qo'llanilsa natija nechaga teng?",
+   "a": [
+    "0",
+    "1",
+    "2",
+    "−1"
+   ],
+   "e": "Inkor qiymatni teskarisiga o'zgartiradi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "XOR (istisno qiluvchi YOKI) amali qachon 1 beradi?",
+   "a": [
+    "Operandlar har xil bo'lganda",
+    "Ikkala operand ham 1 bo'lganda",
+    "Ikkala operand ham 0 bo'lganda",
+    "Har doim"
+   ],
+   "e": "0⊕1 = 1, 1⊕1 = 0."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Protsessor yadrolari sonining ko'payishi nimaga imkon beradi?",
+   "a": [
+    "Bir vaqtda ko'proq vazifani parallel bajarishga",
+    "Operativ xotira hajmini avtomatik ravishda ikki baravar oshirishga",
+    "Monitor ruxsat etish qobiliyatini oshirishga",
+    "Internet tezligini oshirishga"
+   ],
+   "e": "Ko'p yadroli protsessorlar parallel hisoblashni ta'minlaydi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Videokartaning asosiy vazifasi nima?",
+   "a": [
+    "Tasvirni qayta ishlash va monitorga chiqarish",
+    "Ovozni yozib olish, qayta ishlash va karnaylarga uzatish",
+    "Ma'lumotlarni uzoq muddat saqlash",
+    "Internetga ulanish"
+   ],
+   "e": "Zamonaviy GPU lar parallel hisoblashlarda ham ishlatiladi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "BIOS (UEFI) qanday vazifani bajaradi?",
+   "a": [
+    "Kompyuterni yoqishda qurilmalarni tekshirib, OT ni yuklaydi",
+    "Foydalanuvchi hujjatlarini saqlaydi, tahrirlaydi va ularni zaxiralaydi",
+    "Internet sahifalarini ochadi",
+    "Antivirus vazifasini bajaradi"
+   ],
+   "e": "POST — yoqilishdagi o'z-o'zini tekshirish jarayoni."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Tashqi xotira qurilmasiga qaysi biri misol?",
+   "a": [
+    "Flesh-xotira (USB-disk)",
+    "Operativ xotira (RAM) modullari",
+    "Protsessor keshi",
+    "Registrlar"
+   ],
+   "e": "Tashqi xotira ma'lumotni elektr o'chganda ham saqlaydi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Lazer printerning siyohli printerga nisbatan afzalligi nima?",
+   "a": [
+    "Yuqori tezlik va bir sahifa narxining arzonligi",
+    "Fotosuratlarni eng yuqori rang sifatida chop etish va arzon narx",
+    "Faqat rangli chop etish",
+    "Elektr talab qilmasligi"
+   ],
+   "e": "Lazer printerda kukun (toner) ishlatiladi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Ko'p funksiyali qurilma (MFU) qanday imkoniyatlarni birlashtiradi?",
+   "a": [
+    "Printer, skaner va nusxa ko'chirish",
+    "Monitor, klaviatura, sichqoncha va karnaylar",
+    "Protsessor va operativ xotira",
+    "Router va modem"
+   ],
+   "e": "Ayrim MFU larda faks ham bo'ladi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Sanoat kompyuterlarining oddiy ofis kompyuterlaridan farqi nima?",
+   "a": [
+    "Chang, namlik, tebranish va haroratga chidamliligi",
+    "Faqat chiroyli dizayni va kichik o'lchami bilan, ichki tuzilishi bir xil",
+    "Faqat o'yinlar uchun mo'ljallangani",
+    "Monitorsiz ishlamasligi"
+   ],
+   "e": "Sanoat kompyuterlari og'ir sharoitda uzluksiz ishlaydi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Server nima?",
+   "a": [
+    "Boshqa kompyuterlarga xizmat ko'rsatuvchi kompyuter",
+    "Faqat o'yin o'ynash uchun mo'ljallangan kuchli kompyuter",
+    "Tarmoq kabelining turi",
+    "Printer drayveri"
+   ],
+   "e": "Fayl, pochta, veb-serverlar mavjud."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "RAID massivlari nima uchun ishlatiladi?",
+   "a": [
+    "Disklarni birlashtirib, ishonchlilik yoki tezlikni oshirish",
+    "Monitorlarni bir-biriga ulash va ekranni kattalashtirish uchun",
+    "Printerlarni boshqarish uchun",
+    "Faqat ovoz yozish uchun"
+   ],
+   "e": "Masalan, RAID 1 — ko'zgulash, RAID 0 — tezlik."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Operatsion tizimda \"fayl tizimi\" nima?",
+   "a": [
+    "Fayllarni diskda tashkil etish va saqlash usuli",
+    "Barcha fayllarni avtomatik o'chiruvchi va diskni formatlovchi dastur",
+    "Faqat matn fayllari",
+    "Faqat tarmoq sozlamalari"
+   ],
+   "e": "NTFS, FAT32, ext4 — fayl tizimlariga misol."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Linux OT da joriy papka tarkibini ko'rish buyrug'i qaysi?",
+   "a": [
+    "ls",
+    "cd",
+    "rm",
+    "mkdir"
+   ],
+   "e": "cd — papkaga o'tish, rm — o'chirish, mkdir — papka yaratish."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Windows OT da topshiriqlar dispetcherini ochish uchun qaysi tugmalar ishlatiladi?",
+   "a": [
+    "Ctrl+Shift+Esc",
+    "Ctrl+Alt+Tab (oynalar orasida o'tish)",
+    "Alt+F4",
+    "Win+L"
+   ],
+   "e": "Alt+F4 — oynani yopish, Win+L — ekranni qulflash."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Fayl va papkalarga to'liq yo'l (path) misoli qaysi?",
+   "a": [
+    "C:\\Hujjatlar\\hisobot.docx",
+    "hisobot.docx (faqat fayl nomi)",
+    ".docx",
+    "Hujjatlar"
+   ],
+   "e": "To'liq yo'l disk, papkalar va fayl nomini o'z ichiga oladi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Matn muharririda \"Ctrl+Z\" nima qiladi?",
+   "a": [
+    "Oxirgi amalni bekor qiladi",
+    "Hujjatni oxirgi holatida saqlab, uni yopadi",
+    "Matnni nusxalaydi",
+    "Hujjatni chop etadi"
+   ],
+   "e": "Ctrl+Y — bekor qilingan amalni qaytaradi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda \"=MAX(B1:B20)\" formula nima hisoblaydi?",
+   "a": [
+    "Eng katta qiymatni",
+    "Yig'indini",
+    "O'rtacha qiymatni",
+    "Eng kichik qiymatni"
+   ],
+   "e": "MIN — eng kichik qiymat."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda \"=COUNT(A1:A10)\" funksiyasi nima qaytaradi?",
+   "a": [
+    "Sonli qiymatli kataklar sonini",
+    "Diapazondagi barcha sonli qiymatlarning yig'indisini",
+    "Eng katta qiymatni",
+    "Bo'sh kataklar sonini"
+   ],
+   "e": "COUNTA — bo'sh bo'lmagan kataklar sonini qaytaradi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda formula nusxalanganda A1 nisbiy murojaati qanday o'zgaradi?",
+   "a": [
+    "Ko'chish yo'nalishiga mos ravishda siljiydi",
+    "Hech qachon o'zgarmaydi, chunki u har doim qat'iy bog'langan",
+    "O'chib ketadi",
+    "Xato qiymatga aylanadi"
+   ],
+   "e": "Masalan, bir qator pastga nusxalansa A2 bo'ladi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda \"VLOOKUP\" funksiyasi nima uchun ishlatiladi?",
+   "a": [
+    "Jadvaldan qiymatni izlab topish uchun",
+    "Kataklarni shartga qarab ranglash va formatlash uchun",
+    "Diagramma yaratish uchun",
+    "Faylni saqlash uchun"
+   ],
+   "e": "Birinchi ustundan izlab, mos qatordagi qiymatni qaytaradi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Matn muharririda \"kolontitul\" nima?",
+   "a": [
+    "Har bir sahifa yuqorisi yoki pastidagi takrorlanuvchi matn",
+    "Hujjatning birinchi sahifasidagi sarlavha va muallif ma'lumotlari",
+    "Jadvalning birinchi ustuni",
+    "Rasm ostidagi izoh"
+   ],
+   "e": "Unga sahifa raqami, hujjat nomi yoziladi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Antivirus bazasini muntazam yangilash nima uchun kerak?",
+   "a": [
+    "Yangi zararli dasturlarni aniqlash uchun",
+    "Kompyuter ekranini yorqinroq qilish va tezlikni oshirish uchun",
+    "Internet tarifini o'zgartirish uchun",
+    "Printerni sozlash uchun"
+   ],
+   "e": "Har kuni yangi zararli dasturlar paydo bo'ladi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Dastur \"versiyasi\" nimani bildiradi?",
+   "a": [
+    "Dasturning ma'lum holati va o'zgarishlar bosqichi",
+    "Dasturning narxi va litsenziya turi",
+    "Dastur muallifining ismini",
+    "Dastur saqlangan papkani"
+   ],
+   "e": "Masalan, 2.1.3 — katta, kichik va tuzatish versiyalari."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Virtualizatsiya nima?",
+   "a": [
+    "Bitta jismoniy kompyuterda bir nechta virtual mashinani ishlatish",
+    "Kompyuterni butunlay o'chirib, qismlarga ajratish va qayta yig'ish",
+    "Faqat 3D o'yinlar",
+    "Faqat virtual reallik ko'zoynagi"
+   ],
+   "e": "VirtualBox, VMware, Hyper-V misol bo'ladi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Tarmoq topologiyasi nima?",
+   "a": [
+    "Tarmoq qurilmalarining ulanish sxemasi",
+    "Tarmoq kabelining turi, rangi va maksimal uzunligi",
+    "Internet provayderining nomi",
+    "Kompyuterlar soni"
+   ],
+   "e": "Yulduz, shina, halqa, to'r topologiyalari mavjud."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "\"Yulduz\" topologiyasida kompyuterlar qanday ulanadi?",
+   "a": [
+    "Markaziy qurilmaga (kommutatorga)",
+    "Bitta umumiy kabelga ketma-ket, uchlarida terminatorlar bilan",
+    "Halqa shaklida bir-biriga",
+    "Hech qanday ulanmaydi"
+   ],
+   "e": "Markaziy qurilma ishdan chiqsa, tarmoq to'xtaydi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Kommutator (switch) vazifasi nima?",
+   "a": [
+    "Lokal tarmoq ichida kadrlarni manziliga yo'naltirish",
+    "Turli tarmoqlar orasida marshrutlash va internetga chiqish",
+    "Elektr energiyasini taqsimlash",
+    "Simsiz signal kuchaytirish"
+   ],
+   "e": "Kommutator MAC-manzillar asosida ishlaydi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "MAC-manzil nima?",
+   "a": [
+    "Tarmoq adapterining noyob apparat manzili",
+    "Kompyuterga provayder tomonidan beriladigan IP-manzil",
+    "Veb-saytning domen nomi",
+    "Elektron pochta manzili"
+   ],
+   "e": "MAC-manzil 48 bitdan iborat."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "OSI modeli nechta qatlamdan iborat?",
+   "a": [
+    "7",
+    "4",
+    "5",
+    "3"
+   ],
+   "e": "Fizik, kanal, tarmoq, transport, seans, taqdimot, ilova."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "TCP/IP modelida transport qatlamining asosiy protokollari qaysi?",
+   "a": [
+    "TCP va UDP",
+    "HTTP va FTP",
+    "IP va ICMP",
+    "Ethernet va Wi-Fi"
+   ],
+   "e": "TCP ishonchli, UDP tezkor uzatishni ta'minlaydi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ping buyrug'i nima uchun ishlatiladi?",
+   "a": [
+    "Tarmoq ulanishini tekshirish uchun",
+    "Internetdan fayllarni yuklab olish tezligini oshirish uchun",
+    "Elektron xat yuborish uchun",
+    "Kompyuterni o'chirish uchun"
+   ],
+   "e": "ICMP so'rovlari yuborilib, javob vaqti o'lchanadi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "DHCP xizmati nima qiladi?",
+   "a": [
+    "Qurilmalarga avtomatik IP-manzil beradi",
+    "Domen nomlarini IP-manzilga aylantiradi",
+    "Elektron pochtani shifrlaydi",
+    "Fayllarni zaxiralaydi"
+   ],
+   "e": "Domen nomlarini DNS aylantiradi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "VPN texnologiyasi nima uchun ishlatiladi?",
+   "a": [
+    "Ommaviy tarmoq orqali xavfsiz shifrlangan ulanish uchun",
+    "Internet tezligini doimiy ravishda bir necha baravar oshirish uchun",
+    "Faqat video ko'rish uchun",
+    "Printerga ulanish uchun"
+   ],
+   "e": "Virtual Private Network — virtual xususiy tarmoq."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron pochta manzilida \"@\" belgisi nimani ajratadi?",
+   "a": [
+    "Foydalanuvchi nomi va pochta serveri domenini",
+    "Ism va familiyani",
+    "Foydalanuvchining paroli va login nomini",
+    "Mamlakat va shaharni"
+   ],
+   "e": "Masalan, ism@domen.uz."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Brauzer nima?",
+   "a": [
+    "Veb-sahifalarni ko'rish dasturi",
+    "Kompyuter qurilmasi",
+    "Elektron pochta serveri",
+    "Kompyuter resurslarini boshqaruvchi operatsion tizim"
+   ],
+   "e": "Chrome, Firefox, Edge — brauzerlar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Qidiruv tizimida aniq ibora bo'yicha izlash uchun nima ishlatiladi?",
+   "a": [
+    "Iborani qo'shtirnoq ichida yozish",
+    "Iborani katta harflar bilan yozish",
+    "Iborani teskari yozish",
+    "Har bir so'zdan keyin nuqta qo'yish"
+   ],
+   "e": "Masalan, \"mehnat muhofazasi\"."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Mobil aloqaning 4G va 5G avlodlari asosan nimasi bilan farqlanadi?",
+   "a": [
+    "Ma'lumot uzatish tezligi va kechikish vaqti",
+    "Faqat telefon apparatining rangi va o'lchami",
+    "Faqat SMS xabar uzunligi",
+    "Faqat abonent raqami formati"
+   ],
+   "e": "5G yuqori tezlik va past kechikishni ta'minlaydi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Harorat datchiklariga qaysi biri misol bo'ladi?",
+   "a": [
+    "Termojuft",
+    "Fotodiod",
+    "Mikrofon",
+    "Tenzometr"
+   ],
+   "e": "Termorezistorlar ham harorat datchigi hisoblanadi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Tenzometrik datchik nimani o'lchaydi?",
+   "a": [
+    "Deformatsiya va kuchni",
+    "Haroratni va uning o'zgarish tezligini",
+    "Yorug'likni",
+    "Namlikni"
+   ],
+   "e": "Tenzorezistor qarshiligi deformatsiyaga qarab o'zgaradi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Avtomatik boshqaruvda rostlanadigan kattalik deb nimaga aytiladi?",
+   "a": [
+    "Ma'lum qiymatda ushlab turilishi kerak bo'lgan kattalik",
+    "Tizimga tashqaridan ta'sir qiluvchi g'alayon kattaligi",
+    "Boshqaruv qurilmasining nomi",
+    "Datchikning narxi"
+   ],
+   "e": "Masalan, pechdagi harorat yoki quvurdagi bosim."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Ochiq (teskari aloqasiz) boshqaruv tizimining kamchiligi nima?",
+   "a": [
+    "G'alayonlar ta'sirini avtomatik tuzatmaydi",
+    "Juda murakkab va qimmat bo'lib, ko'p datchik talab qiladi",
+    "Faqat qo'lda ishlaydi",
+    "Hech qanday kamchiligi yo'q"
+   ],
+   "e": "Natija o'lchanmagani uchun xatolik kompensatsiyalanmaydi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Sanoat tarmoqlarida keng tarqalgan protokol qaysi?",
+   "a": [
+    "Modbus",
+    "HTTP",
+    "SMTP",
+    "Bluetooth Audio"
+   ],
+   "e": "Profibus, Profinet, CAN ham sanoat protokollari."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Avtomobillarda bloklar o'rtasida ma'lumot almashish uchun qaysi shina ishlatiladi?",
+   "a": [
+    "CAN",
+    "USB",
+    "HDMI",
+    "VGA"
+   ],
+   "e": "Controller Area Network."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Diagnostika skaneri avtomobilda nima qiladi?",
+   "a": [
+    "Elektron bloklardagi xato kodlarini o'qiydi",
+    "Avtomobil shinalaridagi bosimni avtomatik damlab to'g'rilaydi",
+    "Yoqilg'i quyadi",
+    "Kuzovni bo'yaydi"
+   ],
+   "e": "OBD-II diagnostika ulagichi orqali ulanadi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Mashinali ko'rish (machine vision) sanoatda nima uchun qo'llaniladi?",
+   "a": [
+    "Mahsulot sifatini kamera orqali avtomatik nazorat qilish",
+    "Ishchilarning ko'rish qobiliyatini tekshirish va ko'zoynak tanlash",
+    "Faqat filmlar suratga olish",
+    "Faqat kompyuter o'yinlari"
+   ],
+   "e": "Tasvirni tahlil qilish orqali nuqsonlar aniqlanadi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Aqlli elektr hisoblagich (smart meter) nima imkoniyat beradi?",
+   "a": [
+    "Iste'molni masofadan avtomatik hisoblash",
+    "Elektr energiyasini bepul ishlab chiqarish",
+    "Kuchlanishni ikki baravar oshirish",
+    "Simlarni qisqa tutashuvdan himoya qilish"
+   ],
+   "e": "Ma'lumotlar markazlashgan tizimga uzatiladi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "SQL da jadvaldagi yozuvni o'chirish buyrug'i qaysi?",
+   "a": [
+    "DELETE",
+    "DROP",
+    "REMOVE",
+    "ERASE"
+   ],
+   "e": "DROP butun jadvalni o'chiradi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "SQL da ma'lumotni o'zgartirish buyrug'i qaysi?",
+   "a": [
+    "UPDATE",
+    "CHANGE",
+    "MODIFY",
+    "INSERT"
+   ],
+   "e": "UPDATE jadval SET maydon = qiymat WHERE shart."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "SQL so'rovida WHERE qismi nima uchun ishlatiladi?",
+   "a": [
+    "Shart bo'yicha yozuvlarni tanlash uchun",
+    "Jadval nomini o'zgartirish uchun",
+    "Natijani saralash uchun",
+    "Jadvalga yangi ustun qo'shib, uni standart qiymat bilan to'ldirish uchun"
+   ],
+   "e": "Saralash uchun ORDER BY ishlatiladi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Tashqi kalit (foreign key) nima?",
+   "a": [
+    "Boshqa jadval birlamchi kalitiga murojaat qiluvchi maydon",
+    "Jadvaldagi har bir yozuvni noyob belgilovchi asosiy maydon",
+    "Jadval nomi",
+    "Jadvaldagi eng katta qiymat"
+   ],
+   "e": "Tashqi kalit jadvallar orasida bog'lanish o'rnatadi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Ma'lumotlarni normallashtirishdan maqsad nima?",
+   "a": [
+    "Takrorlanishni kamaytirish va yaxlitlikni ta'minlash",
+    "Ma'lumotlar hajmini sun'iy ravishda oshirish va ularni ko'paytirish",
+    "Jadvallarni ranglash",
+    "Ma'lumotlarni shifrlash"
+   ],
+   "e": "Normal formalar (1NF, 2NF, 3NF) bosqichma-bosqich qo'llaniladi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Excelda pivot (yig'ma) jadval nima uchun ishlatiladi?",
+   "a": [
+    "Katta ma'lumotlarni guruhlab tahlil qilish uchun",
+    "Kataklarni birlashtirib, ularga chegara va rang berish uchun",
+    "Faylni parol bilan himoyalash uchun",
+    "Formulalarni o'chirish uchun"
+   ],
+   "e": "Yig'ma jadval ma'lumotlarni turli kesimlarda umumlashtiradi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Ma'lumotlar ombori (data warehouse) nima?",
+   "a": [
+    "Tahlil uchun turli manbalardan yig'ilgan markazlashgan ma'lumotlar bazasi",
+    "Kompyuter qismlari va ehtiyot qismlar saqlanadigan omborxona hisobi",
+    "Flesh-xotira turi",
+    "Elektron pochta papkasi"
+   ],
+   "e": "Hisobot va qaror qabul qilishni qo'llab-quvvatlaydi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Blok-sxemada parallelogramm shakli nimani bildiradi?",
+   "a": [
+    "Ma'lumot kiritish yoki chiqarish",
+    "Shart tekshirish va tarmoqlanish",
+    "Algoritm boshlanishi",
+    "Sikl"
+   ],
+   "e": "Romb — shart, oval — boshlanish/tugash."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Algoritmning \"cheklilik\" xossasi nimani bildiradi?",
+   "a": [
+    "Algoritm chekli qadamlardan keyin tugaydi",
+    "Algoritm faqat bitta aniq masalani yechadi va boshqasiga qo'llanmaydi",
+    "Algoritm cheksiz takrorlanadi",
+    "Algoritm faqat kompyuterda bajariladi"
+   ],
+   "e": "Boshqa xossalar: aniqlik, tushunarlilik, ommaviylik, natijaviylik."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Dasturdagi sintaktik xato nima?",
+   "a": [
+    "Til qoidalarining buzilishi",
+    "Dastur noto'g'ri natija berishi, lekin to'liq ishlashi",
+    "Kompyuterning qizib ketishi",
+    "Foydalanuvchining noto'g'ri ma'lumot kiritishi"
+   ],
+   "e": "Mantiqiy xatoda dastur ishlaydi, lekin natija noto'g'ri."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python tilida ekranga matn chiqarish funksiyasi qaysi?",
+   "a": [
+    "print()",
+    "input()",
+    "len()",
+    "range()"
+   ],
+   "e": "input() — klaviaturadan ma'lumot o'qiydi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python da \"for i in range(5)\" sikli necha marta bajariladi?",
+   "a": [
+    "5",
+    "4",
+    "6",
+    "Cheksiz"
+   ],
+   "e": "i = 0, 1, 2, 3, 4."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Simulyatsiya (imitatsion modellashtirish) nima?",
+   "a": [
+    "Tizim ishlashini kompyuterda vaqt bo'yicha takrorlash",
+    "Tizimni jismoniy buzib ko'rib, chidamlilik chegarasini aniqlash",
+    "Tizim haqida hisobot yozish",
+    "Tizim uchun reklama tayyorlash"
+   ],
+   "e": "Masalan, transport oqimi yoki ishlab chiqarish liniyasini modellashtirish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Axborotning qaysi xususiyati uning o'z vaqtida olinishini bildiradi?",
+   "a": [
+    "Dolzarblik",
+    "To'liqlik va har tomonlama tushunarlilik, ma'lumotning hajmi",
+    "Ishonchlilik",
+    "Tushunarlilik"
+   ],
+   "e": "Axborot xossalari: ishonchlilik, to'liqlik, dolzarblik, aniqlik, tushunarlilik."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Raqamli iqtisodiyotning asosiy omili nima?",
+   "a": [
+    "Raqamli ko'rinishdagi ma'lumotlar",
+    "Faqat qog'oz hujjatlar va naqd pul aylanmasi hamda an'anaviy savdo",
+    "Faqat qishloq xo'jaligi mahsulotlari",
+    "Faqat og'ir sanoat"
+   ],
+   "e": "Ma'lumotlar raqamli iqtisodiyotda asosiy resurs hisoblanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Elektron hujjat aylanishi tizimining afzalligi nima?",
+   "a": [
+    "Hujjatlarni tez izlash, yuborish va nazorat qilish",
+    "Qog'oz sarfini va arxiv xonalarini ko'paytirish, hujjatlarni qo'lda tashish",
+    "Hujjatlarni faqat pochta orqali yuborish",
+    "Hujjatlarni imzosiz qoldirish"
+   ],
+   "e": "O'zbekistonda davlat idoralarida \"E-hujjat\" kabi tizimlar qo'llaniladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ikkilik sistemada 101 + 11 yig'indisi nechaga teng?",
+   "a": [
+    "1000",
+    "112",
+    "110",
+    "1001"
+   ],
+   "e": "5 + 3 = 8 = 1000₂."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "1 Mbit/s tezlikda 1 MB (8 Mbit) fayl taxminan necha sekundda uzatiladi?",
+   "a": [
+    "8",
+    "1",
+    "0,125",
+    "80"
+   ],
+   "e": "8 Mbit / 1 Mbit/s = 8 s."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ma'lumotni siqish (kompressiya) qanday turlarga bo'linadi?",
+   "a": [
+    "Yo'qotishsiz va yo'qotishli",
+    "Tez va sekin, kompyuter quvvatiga qarab",
+    "Rangli va oq-qora",
+    "Matnli va raqamli"
+   ],
+   "e": "ZIP — yo'qotishsiz, JPEG va MP3 — yo'qotishli siqish."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Operativ xotira hajmining yetishmasligi qanday oqibatga olib keladi?",
+   "a": [
+    "Tizim sekinlashadi",
+    "Monitor tasviri rangsiz bo'lib qoladi va tovush chiqmaydi",
+    "Printer ishlamaydi",
+    "Internet butunlay uziladi"
+   ],
+   "e": "OT diskdagi almashuv fayliga murojaat qila boshlaydi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Kompyuter quvvat bloki (PSU) vazifasi nima?",
+   "a": [
+    "Tarmoq kuchlanishini qismlar uchun past o'zgarmas kuchlanishga aylantirish",
+    "Kompyuterni internetga ulash",
+    "Tasvirni monitorga chiqarish",
+    "Ma'lumotlarni saqlash"
+   ],
+   "e": "Odatda +12 V, +5 V, +3,3 V kuchlanishlar beriladi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Termopasta protsessorda nima uchun ishlatiladi?",
+   "a": [
+    "Protsessordan radiatorga issiqlik uzatishni yaxshilash",
+    "Protsessorni ona plataga yopishtirish va mahkamlash uchun",
+    "Elektr tokini o'tkazish uchun",
+    "Protsessor tezligini oshirish uchun"
+   ],
+   "e": "Termopasta mikroskopik havo bo'shliqlarini to'ldiradi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Raqamli kamera matritsasining sifat ko'rsatkichi qaysi?",
+   "a": [
+    "Megapiksellar soni va sensor o'lchami",
+    "Kameraning og'irligi va korpus rangi, batareya hajmi",
+    "Faqat ekran o'lchami",
+    "Faqat xotira kartasi hajmi"
+   ],
+   "e": "Sensor o'lchami yorug'lik sezgirligiga ta'sir qiladi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Planshet va smartfonlarda qanday ekran texnologiyalari keng tarqalgan?",
+   "a": [
+    "LCD (IPS) va OLED",
+    "Elektron-nur trubkali (CRT) monitorlar",
+    "Proyektor ekranlari",
+    "Faqat qog'oz ekranlar"
+   ],
+   "e": "OLED piksellar o'zi yorug'lik chiqaradi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Kompyuter ishlashida \"qizib ketish\" asosan nimaga olib keladi?",
+   "a": [
+    "Tizim beqarorligi va qismlar ishdan chiqishi",
+    "Kompyuter tezligining doimiy oshishi va energiya tejalishi",
+    "Internet tezligining oshishi",
+    "Ekran yorqinligining oshishi"
+   ],
+   "e": "Sovitish tizimi muntazam changdan tozalanadi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Ofis dasturlar paketiga qaysilar kiradi?",
+   "a": [
+    "Matn muharriri, elektron jadval, taqdimot dasturi",
+    "Operatsion tizim yadrosi, drayverlar va BIOS",
+    "Faqat antivirus",
+    "Faqat brauzerlar"
+   ],
+   "e": "Microsoft Office, LibreOffice, Google Workspace."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda diagramma qurish uchun qaysi menyu ishlatiladi?",
+   "a": [
+    "Insert (Вставка, Qo'shish)",
+    "File (Fayl)",
+    "View (Ko'rinish)",
+    "Review (Tekshirish)"
+   ],
+   "e": "Ma'lumotlar diapazoni tanlanib, diagramma turi tanlanadi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda katakdagi sanalar ayirmasi nimani beradi?",
+   "a": [
+    "Kunlar sonini",
+    "Oylar sonini har doim",
+    "Yillar sonini",
+    "Xato qiymatni"
+   ],
+   "e": "Excel sanalarni tartib raqami sifatida saqlaydi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda \"=ROUND(3,456; 2)\" formulasi natijasi nechaga teng?",
+   "a": [
+    "3,46",
+    "3,45",
+    "3,5",
+    "3"
+   ],
+   "e": "Ikki xonagacha yaxlitlash."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda \"=IF(A1>=60; \"o'tdi\"; \"yiqildi\")\" formulasida A1 = 60 bo'lsa natija qanday?",
+   "a": [
+    "o'tdi",
+    "yiqildi",
+    "Xato",
+    "60"
+   ],
+   "e": "Shart ≥ bo'lgani uchun rost."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Matn muharririda jadval qo'shish nima uchun qulay?",
+   "a": [
+    "Ma'lumotlarni tartibli ustun va satrlarda joylashtirish uchun",
+    "Hujjatni avtomatik tarjima qilish va imloni tekshirish uchun",
+    "Hujjatni parol bilan himoyalash uchun",
+    "Hujjatni elektron pochtaga yuborish uchun"
+   ],
+   "e": "Jadvalda hisob-kitob ham bajarish mumkin."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Taqdimotda slaydlar orasidagi o'tish effekti qanday nomlanadi?",
+   "a": [
+    "Transition (o'tish)",
+    "Animation (animatsiya, obyekt harakati)",
+    "Layout (maket)",
+    "Theme (mavzu)"
+   ],
+   "e": "Animatsiya slayd ichidagi obyektlarga qo'llaniladi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Operatsion tizimni yangilash (update) nima uchun muhim?",
+   "a": [
+    "Xavfsizlik zaifliklarini yopish va xatolarni tuzatish uchun",
+    "Kompyuter qismlarini avtomatik almashtirish uchun",
+    "Faqat ekran rangini o'zgartirish uchun",
+    "Internet narxini kamaytirish uchun"
+   ],
+   "e": "Yangilanishsiz tizim zararli dasturlarga zaif bo'ladi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Fayl va papkalarga kirish huquqlarini belgilash nima uchun kerak?",
+   "a": [
+    "Ma'lumotlarga ruxsatsiz kirishni cheklash uchun",
+    "Fayllar hajmini kamaytirish va ularni tezroq ochish uchun",
+    "Fayllarni rangli qilish uchun",
+    "Fayllarni avtomatik o'chirish uchun"
+   ],
+   "e": "O'qish, yozish, bajarish huquqlari ajratiladi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Linux OT da yangi papka yaratish buyrug'i qaysi?",
+   "a": [
+    "mkdir",
+    "ls",
+    "cp",
+    "pwd"
+   ],
+   "e": "pwd — joriy papka yo'lini ko'rsatadi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Linux OT da faylni nusxalash buyrug'i qaysi?",
+   "a": [
+    "cp",
+    "mv",
+    "rm",
+    "cat"
+   ],
+   "e": "mv — ko'chirish yoki nomini o'zgartirish."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Mobil ilova (app) nima?",
+   "a": [
+    "Smartfon yoki planshet uchun dastur",
+    "Kompyuterning ichki qismi va unga ulanadigan kabel",
+    "Internet provayderi",
+    "Faqat o'yin konsoli"
+   ],
+   "e": "Ilovalar Google Play, App Store orqali tarqatiladi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Internet tarmog'ining asosiy protokollar steki qaysi?",
+   "a": [
+    "TCP/IP",
+    "USB",
+    "HDMI",
+    "Bluetooth"
+   ],
+   "e": "TCP/IP barcha internet xizmatlarining asosi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "\"192.168.1.10\" qanday IP-manzil turiga kiradi?",
+   "a": [
+    "Xususiy (lokal) manzil",
+    "Ommaviy (global) manzil, internetda noyob",
+    "IPv6 manzil",
+    "MAC-manzil"
+   ],
+   "e": "192.168.0.0/16 diapazoni lokal tarmoqlar uchun ajratilgan."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Tarmoq niqobi (subnet mask) 255.255.255.0 bo'lsa, bitta tarmoqda nechta xostga manzil berish mumkin?",
+   "a": [
+    "254",
+    "256",
+    "255",
+    "128"
+   ],
+   "e": "256 − 2 (tarmoq va keng uzatish manzillari)."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Gibrid (aralash) topologiya nima?",
+   "a": [
+    "Turli topologiyalarning birikmasi",
+    "Faqat yulduz topologiyasi va uning nusxasi",
+    "Faqat simsiz tarmoq",
+    "Faqat bitta kompyuter"
+   ],
+   "e": "Katta tarmoqlar odatda gibrid topologiyada quriladi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Wi-Fi tarmog'ini himoyalash uchun qaysi shifrlash standarti tavsiya etiladi?",
+   "a": [
+    "WPA2 yoki WPA3",
+    "WEP, chunki u eng zamonaviy va buzilmaydigan standart",
+    "Shifrlashsiz ochiq tarmoq",
+    "Faqat MAC-filtr"
+   ],
+   "e": "WEP eskirgan va oson buziladi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Tarmoq orqali faylni uzatish protokoli qaysi?",
+   "a": [
+    "FTP",
+    "SMTP",
+    "DNS",
+    "ICMP"
+   ],
+   "e": "SFTP — shifrlangan variant."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Proxy-server vazifasi nima?",
+   "a": [
+    "Mijoz va internet orasida vositachi sifatida so'rovlarni uzatish",
+    "Kompyuterni elektr bilan ta'minlash va kuchlanishni barqarorlashtirish",
+    "Fayllarni chop etish",
+    "Monitor tasvirini kuchaytirish"
+   ],
+   "e": "Proxy keshlash, filtrlash va anonimlik uchun ishlatiladi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ping natijasida \"Request timed out\" xabari nimani bildiradi?",
+   "a": [
+    "Javob kelmadi",
+    "Ulanish juda tez va muvaffaqiyatli bo'ldi",
+    "Kompyuter o'chirildi",
+    "Fayl yuklab olindi"
+   ],
+   "e": "Manzil yetib bo'lmaydi yoki ICMP bloklangan."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Zararli dasturlarning qaysi turi fayllarni shifrlab, to'lov talab qiladi?",
+   "a": [
+    "Ransomware (to'lov talab qiluvchi)",
+    "Adware (reklama ko'rsatuvchi, foydalanuvchiga zararsiz)",
+    "Spyware",
+    "Keylogger"
+   ],
+   "e": "Zaxira nusxalar bunday hujumdan keyin tiklanish imkonini beradi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Keylogger dasturi nima qiladi?",
+   "a": [
+    "Klaviaturadagi bosishlarni yashirincha yozib oladi",
+    "Klaviaturani changdan tozalaydi va tugmalarni yoritadi",
+    "Kompyuterni tezlashtiradi",
+    "Parollarni avtomatik yaratadi"
+   ],
+   "e": "Parollarni o'g'irlash uchun ishlatiladi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Noma'lum manbadan kelgan elektron xatdagi ilovani ochish nima uchun xavfli?",
+   "a": [
+    "Zararli dastur bo'lishi mumkin",
+    "Xat avtomatik ravishda o'chib ketadi va qayta tiklanmaydi",
+    "Kompyuter ekrani yorqinlashadi",
+    "Internet tezligi oshadi"
+   ],
+   "e": "Ilovalar antivirus bilan tekshiriladi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Simmetrik shifrlashning xususiyati nima?",
+   "a": [
+    "Shifrlash va deshifrlash uchun bitta kalit ishlatiladi",
+    "Ochiq va yopiq kalitlar juftligi ishlatiladi, ular har xil",
+    "Kalit umuman ishlatilmaydi",
+    "Faqat rasmlarni shifrlaydi"
+   ],
+   "e": "AES — simmetrik algoritm, RSA — asimmetrik."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Asimmetrik shifrlashda qaysi kalit ochiq e'lon qilinadi?",
+   "a": [
+    "Ochiq kalit",
+    "Yopiq (maxfiy) kalit",
+    "Ikkala kalit ham",
+    "Hech qaysi"
+   ],
+   "e": "Yopiq kalit faqat egasida saqlanadi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Xesh-funksiya nima uchun ishlatiladi?",
+   "a": [
+    "Ma'lumot yaxlitligini tekshirish va parollarni saqlash",
+    "Ma'lumotni keyinchalik to'liq qayta tiklash mumkin bo'lgan holda siqish",
+    "Rasmlarni bezash",
+    "Tarmoqni tezlashtirish"
+   ],
+   "e": "Xeshdan dastlabki ma'lumotni tiklab bo'lmaydi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Jamoat Wi-Fi tarmog'ida qanday ehtiyot chorasi ko'riladi?",
+   "a": [
+    "Muhim ma'lumotlarni kiritmaslik yoki VPN ishlatish",
+    "Barcha parollarni ochiq holda saqlash va bank tizimlariga kirish",
+    "Antivirusni o'chirish",
+    "Fayl almashishni yoqib qo'yish"
+   ],
+   "e": "Ochiq tarmoqda trafikni ushlab qolish mumkin."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Elektr energetikasida rele himoyasi nima uchun kerak?",
+   "a": [
+    "Shikastlangan qismni tez aniqlab, tarmoqdan uzish",
+    "Elektr energiyasini to'plab, kechasi tarmoqqa qaytarish",
+    "Kuchlanishni doimiy oshirish",
+    "Hisoblagich ko'rsatkichini kamaytirish"
+   ],
+   "e": "Zamonaviy rele himoyasi mikroprotsessorli terminallarda bajariladi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Temir yo'l transportida avtomatik blokirovka tizimi nima uchun ishlatiladi?",
+   "a": [
+    "Poyezdlar harakatini xavfsiz intervalda boshqarish",
+    "Vagonlarni avtomatik bo'yash va yuvish uchun",
+    "Yo'lovchilar chiptalarini sotish uchun",
+    "Lokomotiv yoqilg'isini hisoblash uchun"
+   ],
+   "e": "Svetoforlar blok-uchastkalar bandligiga qarab avtomatik o'zgaradi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Kimyoviy texnologiyada jarayonni avtomatik boshqarishning ahamiyati nima?",
+   "a": [
+    "Parametrlarni aniq ushlab turish va avariyalarning oldini olish",
+    "Mahsulot sifatini pasaytirish va xomashyo sarfini oshirish",
+    "Ishchilarni xavfli zonada ko'proq ushlab turish",
+    "Faqat qog'oz hisobotlarni ko'paytirish"
+   ],
+   "e": "Harorat, bosim, sarf va sath avtomatik rostlanadi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Gibrid avtomobilda elektron boshqaruv bloki nimani boshqaradi?",
+   "a": [
+    "Ichki yonuv dvigateli va elektr motor ishini muvofiqlashtirishni",
+    "Faqat avtomobil radiosi va multimedia tizimini",
+    "Faqat eshik qulflarini",
+    "Faqat oyna tozalagichlarni"
+   ],
+   "e": "Batareya zaryadi ham boshqaruv blokida nazorat qilinadi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Avtomatlashtirilgan dispetcherlik markazining asosiy vazifasi nima?",
+   "a": [
+    "Obyektlar holatini real vaqtda kuzatish va boshqarish",
+    "Xodimlarga ish haqi hisoblash va kadrlar hujjatlarini yuritish",
+    "Faqat reklama tarqatish",
+    "Faqat telefon qo'ng'iroqlariga javob berish"
+   ],
+   "e": "Dispetcher SCADA ekranida obyektlar holatini ko'radi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Diskret (raqamli) signal analog signaldan qanday farq qiladi?",
+   "a": [
+    "Cheklangan qiymatlar to'plamini qabul qiladi",
+    "Uzluksiz ravishda istalgan qiymatni qabul qiladi",
+    "Faqat yorug'lik shaklida uzatiladi",
+    "Faqat ovoz shaklida bo'ladi"
+   ],
+   "e": "Masalan, \"yoqilgan/o'chirilgan\" holatlar."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "4–20 mA tok signali sanoatda nima uchun keng ishlatiladi?",
+   "a": [
+    "Uzoq masofada xalaqitga chidamli va uzilishni aniqlash mumkin",
+    "Juda yuqori kuchlanish talab qilib, energiyani ko'p sarflagani uchun",
+    "Faqat ovozni uzatish uchun mos bo'lgani uchun",
+    "Kabelsiz uzatilgani uchun"
+   ],
+   "e": "0 mA signal liniya uzilganini bildiradi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "SQL da natijani saralash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "ORDER BY",
+    "GROUP BY",
+    "WHERE",
+    "HAVING"
+   ],
+   "e": "GROUP BY — guruhlash."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "SQL da \"COUNT(*)\" funksiyasi nima qaytaradi?",
+   "a": [
+    "Yozuvlar sonini",
+    "Ustunlar yig'indisini",
+    "Eng katta qiymatni",
+    "Jadval nomini"
+   ],
+   "e": "Agregat funksiyalar: COUNT, SUM, AVG, MIN, MAX."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Jadvaldagi ma'lumotlarni boshqa jadval bilan birlashtirish uchun SQL da nima ishlatiladi?",
+   "a": [
+    "JOIN",
+    "UNION ALL har doim",
+    "DROP",
+    "CREATE"
+   ],
+   "e": "INNER JOIN, LEFT JOIN kabi turlar mavjud."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "NoSQL ma'lumotlar bazalarining xususiyati nima?",
+   "a": [
+    "Qat'iy jadval sxemasisiz moslashuvchan tuzilma",
+    "Faqat qat'iy jadvallar va SQL tilidagi so'rovlar",
+    "Faqat qog'ozda saqlanadi",
+    "Faqat bitta foydalanuvchi uchun"
+   ],
+   "e": "Masalan, MongoDB hujjat yo'naltirilgan baza."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Ma'lumotlar tahlilida \"anomaliya\" nima?",
+   "a": [
+    "Umumiy qonuniyatdan keskin farq qiluvchi qiymat",
+    "Eng ko'p uchraydigan o'rtacha qiymat",
+    "Jadval nomi",
+    "Ustunlar soni"
+   ],
+   "e": "Anomaliyalar nosozlik yoki xato belgisi bo'lishi mumkin."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python da shart operatori qaysi kalit so'z bilan yoziladi?",
+   "a": [
+    "if",
+    "for",
+    "while",
+    "def"
+   ],
+   "e": "def — funksiya e'lon qilish."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python da funksiya qaysi kalit so'z bilan e'lon qilinadi?",
+   "a": [
+    "def",
+    "function",
+    "func",
+    "lambda har doim"
+   ],
+   "e": "def nom(parametrlar):"
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "\"while\" sikli qachon to'xtaydi?",
+   "a": [
+    "Shart yolg'on bo'lganda",
+    "Shart rost bo'lganda",
+    "Har doim 10 marta bajarilgach",
+    "Hech qachon"
+   ],
+   "e": "Shart har iteratsiyadan oldin tekshiriladi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Ro'yxatdagi elementlarni tartiblash qanday algoritm deb ataladi?",
+   "a": [
+    "Saralash algoritmi",
+    "Qidiruv algoritmi",
+    "Shifrlash algoritmi",
+    "Siqish algoritmi"
+   ],
+   "e": "Masalan, pufakchali, tez saralash."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Dastur testlashning maqsadi nima?",
+   "a": [
+    "Xatolarni aniqlash",
+    "Dasturni chiroyli qilish va unga reklama joylash",
+    "Dasturni o'chirish",
+    "Dastur narxini oshirish"
+   ],
+   "e": "Test natijasida dastur talablarga mosligi tekshiriladi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Muhandislik hisob-kitoblarida \"iteratsion usul\" nima?",
+   "a": [
+    "Yechimga ketma-ket yaqinlashish usuli",
+    "Bir marta hisoblab, aniq javob olish usuli",
+    "Grafik chizish usuli",
+    "Faqat qo'lda hisoblash"
+   ],
+   "e": "Masalan, Nyuton usuli bilan tenglama ildizini topish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Informatika fani nimani o'rganadi?",
+   "a": [
+    "Axborotni EHM yordamida qayta ishlash qonuniyatlari va usullarini",
+    "Faqat kompyuterlarni yig'ish, ta'mirlash va ularga ehtiyot qism tanlashni",
+    "Faqat matematik formulalarni",
+    "Faqat chet tillarini"
+   ],
+   "e": "Informatika axborot va axborot jarayonlarini o'rganadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Kompyuterning ishlash tezligi ko'p jihatdan qaysi qurilmaga bog'liq?",
+   "a": [
+    "Protsessor",
+    "Sichqoncha va klaviatura modeli",
+    "Monitor rangi",
+    "Karnaylar"
+   ],
+   "e": "RAM hajmi va disk turi ham tezlikka ta'sir qiladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ikkilik sistemadagi 1000 soni o'nlik sistemada nechaga teng?",
+   "a": [
+    "8",
+    "1000",
+    "4",
+    "16"
+   ],
+   "e": "2³ = 8."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "O'nlik 100 soni ikkilik sistemada qanday yoziladi?",
+   "a": [
+    "1100100",
+    "1100010",
+    "1010100",
+    "100"
+   ],
+   "e": "64 + 32 + 4 = 100."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Grafik tasvirda 24 bitli rang chuqurligi nechta rangni kodlay oladi?",
+   "a": [
+    "Taxminan 16,7 million",
+    "256",
+    "65 536",
+    "24"
+   ],
+   "e": "2²⁴ = 16 777 216."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Kompyuterga yangi qurilma ulanganda OT uni avtomatik tanib olish texnologiyasi qanday nomlanadi?",
+   "a": [
+    "Plug and Play",
+    "Copy and Paste",
+    "Drag and Drop",
+    "Print Screen"
+   ],
+   "e": "Plug and Play — \"ulab ishlat\"."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "HDMI interfeysi nima uchun ishlatiladi?",
+   "a": [
+    "Raqamli video va audio uzatish",
+    "Faqat elektr quvvati uzatish va zaryadlash",
+    "Faqat tarmoqqa ulanish",
+    "Faqat sichqoncha ulash"
+   ],
+   "e": "Monitor, televizor va proyektorlarni ulash uchun."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Proyektor nima uchun ishlatiladi?",
+   "a": [
+    "Tasvirni katta ekranga chiqarish",
+    "Hujjatlarni skanerlash va raqamlashtirish",
+    "Ovoz yozib olish",
+    "Ma'lumot saqlash"
+   ],
+   "e": "Dars va taqdimotlarda keng qo'llaniladi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Interaktiv doska qanday qurilma?",
+   "a": [
+    "Sensorli ekran yoki proyeksiya orqali boshqariladigan doska",
+    "Faqat bo'r bilan yoziladigan oddiy qora taxta",
+    "Faqat qog'oz plakat",
+    "Printerning bir turi"
+   ],
+   "e": "Interaktiv doska kompyuter bilan birga ishlaydi."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "3D printer qanday ishlaydi?",
+   "a": [
+    "Materialni qatlamma-qatlam yotqizib hajmli buyum yasaydi",
+    "Qog'ozga uch rangli tasvir chop etadi va laminatlaydi",
+    "Faqat matnni chop etadi",
+    "Hujjatlarni skanerlaydi"
+   ],
+   "e": "Additiv texnologiyalar prototiplash va ishlab chiqarishda qo'llaniladi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Tizimli dasturiy ta'minotga nima kiradi?",
+   "a": [
+    "Operatsion tizim, drayverlar, utilitalar",
+    "Matn muharriri, elektron jadval va taqdimot dasturlari",
+    "Kompyuter o'yinlari",
+    "Grafik muharrirlar"
+   ],
+   "e": "Tizimli dasturlar kompyuter ishini ta'minlaydi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Utilita dasturlari qanday vazifani bajaradi?",
+   "a": [
+    "Tizimga xizmat ko'rsatish (tozalash, tekshirish, arxivlash)",
+    "Foydalanuvchi uchun matn terish va hujjatlarni rasmiylashtirish",
+    "Faqat internet sahifalarini ko'rsatish",
+    "Faqat musiqa ijro etish"
+   ],
+   "e": "Masalan, disk defragmentatori, arxivatorlar."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excel jadvalida ustunlar qanday belgilanadi?",
+   "a": [
+    "Lotin harflari bilan (A, B, C...)",
+    "Raqamlar bilan (1, 2, 3...)",
+    "Rim raqamlari bilan",
+    "Rang bilan"
+   ],
+   "e": "Satrlar raqamlar bilan belgilanadi."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda B3 yozuvi nimani bildiradi?",
+   "a": [
+    "B ustun va 3-satr kesishmasidagi katak",
+    "3-ustun va B satr kesishmasidagi katak",
+    "B varaqning 3-sahifasi",
+    "3 ta katakdan iborat diapazon"
+   ],
+   "e": "Katak manzili ustun harfi va satr raqamidan iborat."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda \"=A1*B1\" formulasi nima hisoblaydi?",
+   "a": [
+    "A1 va B1 qiymatlari ko'paytmasini",
+    "A1 va B1 qiymatlari yig'indisini",
+    "A1 ni B1 ga bo'linmasini",
+    "A1 ning B1 darajasini"
+   ],
+   "e": "* — ko'paytirish, / — bo'lish, ^ — darajaga ko'tarish."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Matn muharririda \"Ctrl+B\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Matnni qalin (bold) qiladi",
+    "Matnni o'chiradi",
+    "Hujjatni yopadi",
+    "Matnni chop etadi"
+   ],
+   "e": "Ctrl+I — kursiv, Ctrl+U — tagiga chizish."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "PDF formatining asosiy afzalligi nima?",
+   "a": [
+    "Hujjat har qanday qurilmada bir xil ko'rinadi",
+    "Hujjatni har qanday dasturda oson tahrirlash mumkin va u juda kichik bo'ladi",
+    "Faqat rasm saqlaydi",
+    "Faqat Windowsda ochiladi"
+   ],
+   "e": "PDF — Portable Document Format."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Google Docs yoki Microsoft 365 kabi onlayn ofis xizmatlarining afzalligi nima?",
+   "a": [
+    "Bir hujjat ustida bir nechta kishi bir vaqtda ishlashi",
+    "Internet bo'lmasa ham boshqa kompyuterlardagi hujjatlarni ko'ra olishi",
+    "Hujjatlarni faqat chop etish mumkinligi",
+    "Hujjatlarni o'zgartirib bo'lmasligi"
+   ],
+   "e": "Hamkorlikda tahrirlash va avtomatik saqlash imkoniyati mavjud."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ma'lumot paketining manzilga yetib borish yo'lini aniqlash buyrug'i qaysi (Windows)?",
+   "a": [
+    "tracert",
+    "ping",
+    "ipconfig",
+    "netstat"
+   ],
+   "e": "Linuxda traceroute."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Windowsda kompyuterning IP-manzilini ko'rish buyrug'i qaysi?",
+   "a": [
+    "ipconfig",
+    "tracert",
+    "dir",
+    "format"
+   ],
+   "e": "Linuxda ip addr yoki ifconfig."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ethernet kabelining keng tarqalgan ulagichi qaysi?",
+   "a": [
+    "RJ-45",
+    "RJ-11",
+    "USB-C",
+    "VGA"
+   ],
+   "e": "RJ-11 — telefon ulagichi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "\"Buralgan juftlik\" (twisted pair) kabelida nechta o'tkazgich bor?",
+   "a": [
+    "8 (4 juft)",
+    "2 (1 juft)",
+    "4 (2 juft)",
+    "16 (8 juft)"
+   ],
+   "e": "Gigabit Ethernet uchun barcha 4 juft ishlatiladi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Veb-sayt manzilidagi \".uz\" qismi nimani bildiradi?",
+   "a": [
+    "O'zbekiston milliy domen zonasini",
+    "Sayt yaratilgan yilni",
+    "Sayt muallifini",
+    "Saytning tilini har doim"
+   ],
+   "e": ".uz — O'zbekiston uchun mamlakat kodi domeni."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Bulutli xizmatlarning SaaS modeli nimani bildiradi?",
+   "a": [
+    "Dasturiy ta'minotni xizmat sifatida taqdim etish",
+    "Serverlarni ijaraga olib, ularni o'zi to'liq boshqarish",
+    "Faqat ma'lumotlarni qog'ozga chop etish",
+    "Faqat kompyuter sotib olish"
+   ],
+   "e": "IaaS — infratuzilma, PaaS — platforma xizmati."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Kompyuter viruslarining tarqalish yo'llaridan biri qaysi?",
+   "a": [
+    "Noma'lum flesh-xotiralar va ilovalar",
+    "Monitorni tozalash va klaviaturani almashtirish",
+    "Kompyuterni o'chirib qo'yish",
+    "Printerni ishlatish"
+   ],
+   "e": "Flesh-xotiralarni antivirus bilan tekshirish tavsiya etiladi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "\"Qora ro'yxat\" va \"oq ro'yxat\" tushunchalari xavfsizlikda nimani bildiradi?",
+   "a": [
+    "Ruxsat etilmagan va ruxsat etilgan obyektlar ro'yxatlarini",
+    "Faqat qora va oq rangli fayllarni",
+    "Faqat ishdan bo'shatilgan xodimlarni",
+    "Faqat printerlar ro'yxatini"
+   ],
+   "e": "Oq ro'yxatda faqat ruxsat etilganlar ishlaydi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Foydalanuvchiga minimal zarur huquq berish tamoyili qanday nomlanadi?",
+   "a": [
+    "Eng kam imtiyozlar tamoyili",
+    "Maksimal ruxsatlar tamoyili, ya'ni hamma uchun to'liq ruxsat",
+    "Ochiq kirish tamoyili",
+    "Parolsiz kirish tamoyili"
+   ],
+   "e": "Bu ruxsatsiz harakatlar zararini kamaytiradi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Biometrik autentifikatsiyaga qaysi usul kiradi?",
+   "a": [
+    "Barmoq izi bo'yicha tanish",
+    "Parol kiritish",
+    "SMS-kod",
+    "PIN-kod"
+   ],
+   "e": "Yuz, ko'z qorachig'i, ovoz bo'yicha tanish ham biometrikdir."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Axborot xavfsizligi hodisasi aniqlansa birinchi navbatda nima qilinadi?",
+   "a": [
+    "Mas'ul xodimga xabar berish va hodisani cheklash",
+    "Hech kimga aytmasdan barcha fayllarni o'chirish",
+    "Kompyuterni sotib yuborish",
+    "E'tibor bermasdan ishlashni davom ettirish"
+   ],
+   "e": "Hodisaga javob berish rejasiga amal qilinadi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Pnevmatik ijro mexanizmlari qanday energiya bilan ishlaydi?",
+   "a": [
+    "Siqilgan havo",
+    "Suyuqlik bosimi (gidravlika)",
+    "Faqat elektr toki",
+    "Quyosh nuri"
+   ],
+   "e": "Gidravlik mexanizmlar suyuqlik bosimi bilan ishlaydi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Releli-kontaktorli sxemalarning PLC ga nisbatan kamchiligi nima?",
+   "a": [
+    "Mantiqni o'zgartirish uchun simlarni qayta ulash kerak",
+    "Dasturni kompyuterda tez o'zgartirib, yangi mantiqni darhol yuklash mumkin",
+    "Juda kam joy egallaydi",
+    "Hech qanday kamchiligi yo'q"
+   ],
+   "e": "PLC da mantiq dastur orqali o'zgartiriladi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "PLC dasturlash tillaridan biri qaysi?",
+   "a": [
+    "Ladder Diagram (LD)",
+    "HTML",
+    "CSS",
+    "SQL"
+   ],
+   "e": "IEC 61131-3 standarti: LD, FBD, ST, IL, SFC."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Inson-mashina interfeysi (HMI) nima?",
+   "a": [
+    "Operator va boshqaruv tizimi o'rtasidagi muloqot paneli",
+    "Faqat robotning mexanik qo'li",
+    "Faqat elektr kabeli",
+    "Faqat datchik turi"
+   ],
+   "e": "Sensorli panellar orqali parametrlar kuzatiladi va o'zgartiriladi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Chastota o'zgartkichi (inverter) elektr yuritmada nima qiladi?",
+   "a": [
+    "Dvigatel aylanish tezligini rostlaydi",
+    "Dvigatelni sovitadi va uning moylanishini ta'minlaydi",
+    "Dvigatel rangini o'zgartiradi",
+    "Dvigatelni yerga ulaydi"
+   ],
+   "e": "Ta'minot chastotasini o'zgartirib, asinxron dvigatel tezligi boshqariladi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Enkoder nimani o'lchaydi?",
+   "a": [
+    "Burilish burchagi va aylanish tezligini",
+    "Havo namligini va bosimini",
+    "Suyuqlik sathini",
+    "Elektr qarshiligini"
+   ],
+   "e": "Inkremental va absolyut enkoderlar mavjud."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Ma'lumotlar bazasida \"yozuv\" nima?",
+   "a": [
+    "Jadvaldagi bitta satr",
+    "Jadvaldagi bitta ustun nomi",
+    "Butun ma'lumotlar bazasi fayli",
+    "Jadval nomi"
+   ],
+   "e": "Ustun — maydon (atribut)."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Ma'lumotlarni import qilish nima?",
+   "a": [
+    "Tashqi fayldan ma'lumotlarni dasturga yuklash",
+    "Dasturdagi ma'lumotlarni butunlay o'chirib yuborish",
+    "Ma'lumotlarni chop etish",
+    "Ma'lumotlarni shifrlash"
+   ],
+   "e": "Eksport — teskari jarayon."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Ma'lumotlarning yaxlitligi nimani bildiradi?",
+   "a": [
+    "Ma'lumotlarning to'g'riligi va ziddiyatsizligi",
+    "Ma'lumotlarning hajmi kattaligi va ko'p joy egallashi",
+    "Ma'lumotlarning rangli ko'rinishi",
+    "Ma'lumotlarning tez o'chirilishi"
+   ],
+   "e": "Cheklovlar va kalitlar yaxlitlikni ta'minlaydi."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Excelda shartli formatlash nima uchun ishlatiladi?",
+   "a": [
+    "Shartga mos kataklarni avtomatik ajratib ko'rsatish uchun",
+    "Barcha formulalarni qiymatga aylantirib, faylni qulflash uchun",
+    "Faylni boshqa formatda saqlash uchun",
+    "Jadvalni chop etish uchun"
+   ],
+   "e": "Masalan, 60 dan kichik qiymatlarni qizil rangda ko'rsatish."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Chiziqli algoritm deb qanday algoritmga aytiladi?",
+   "a": [
+    "Amallar ketma-ket bir martadan bajariladigan",
+    "Shartga qarab turli yo'llardan biri tanlanadigan",
+    "Amallar ko'p marta takrorlanadigan",
+    "Hech qanday amal bajarilmaydigan"
+   ],
+   "e": "Tarmoqlanuvchi va siklik algoritmlardan farqlanadi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python da ro'yxat (list) qanday qavslar bilan yoziladi?",
+   "a": [
+    "[ ]",
+    "( )",
+    "{ }",
+    "< >"
+   ],
+   "e": "( ) — kortej, { } — lug'at yoki to'plam."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python da \"len([3, 5, 7])\" natijasi nechaga teng?",
+   "a": [
+    "3",
+    "15",
+    "7",
+    "2"
+   ],
+   "e": "len() elementlar sonini qaytaradi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python da \"10 // 3\" ifodasi natijasi nechaga teng?",
+   "a": [
+    "3",
+    "3,33",
+    "1",
+    "30"
+   ],
+   "e": "// — butun bo'lish, % — qoldiq."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python da \"10 % 3\" ifodasi natijasi nechaga teng?",
+   "a": [
+    "1",
+    "3",
+    "0",
+    "3,33"
+   ],
+   "e": "% — bo'lishdagi qoldiq."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Rekursiya nima?",
+   "a": [
+    "Funksiyaning o'zini o'zi chaqirishi",
+    "Dasturning boshqa kompyuterda ishga tushishi",
+    "Faylni nusxalash",
+    "Siklni to'xtatish buyrug'i"
+   ],
+   "e": "Rekursiyada albatta to'xtash sharti bo'lishi kerak."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Psevdokod nima?",
+   "a": [
+    "Algoritmni oddiy tilga yaqin shaklda yozish",
+    "Biror dasturlash tilida yozilgan tayyor, kompilyatsiya qilinadigan dastur",
+    "Shifrlangan parol",
+    "Kompyuter virusi"
+   ],
+   "e": "Psevdokod dasturlashdan oldin algoritmni tushuntirish uchun ishlatiladi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Texnik tizimni modellashtirishda \"adekvatlik\" nimani bildiradi?",
+   "a": [
+    "Model real obyekt xususiyatlarini to'g'ri aks ettiradi",
+    "Model juda chiroyli ko'rinadi va rangli grafiklarga ega",
+    "Model juda qimmat",
+    "Model faqat qog'ozda bajarilgan"
+   ],
+   "e": "Adekvatlik tajriba natijalari bilan solishtirib tekshiriladi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Sun'iy neyron tarmoqlari nima uchun ishlatiladi?",
+   "a": [
+    "Ma'lumotlardan qonuniyatlarni o'rganib, prognoz qilish",
+    "Elektr energiyasini uzatish va taqsimlash uchun",
+    "Kompyuter tarmog'ini kabel bilan ulash uchun",
+    "Faqat matn terish uchun"
+   ],
+   "e": "Masalan, tasvirni tanib olish, nosozlikni bashorat qilish."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Qattiq disk (HDD) hajmi odatda qanday birlikda ko'rsatiladi?",
+   "a": [
+    "GB yoki TB",
+    "MGs yoki GGs (chastota birliklari)",
+    "dpi",
+    "Vt"
+   ],
+   "e": "1 TB ≈ 1000 GB (ishlab chiqaruvchilar o'nlik prefiksdan foydalanadi)."
+  },
+  {
+   "b": "Apparat ta'minoti",
+   "q": "Noutbuk batareyasi qanday turda bo'ladi?",
+   "a": [
+    "Litiy-ionli",
+    "Qo'rg'oshin-kislotali avtomobil akkumulyatori",
+    "Ishqoriy bir martalik batareyka",
+    "Ko'mir-rux elementi"
+   ],
+   "e": "Litiy-ionli batareyalar yuqori energiya zichligiga ega."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda \"=SUM(A1:A3)\" bo'lsa va A1=2, A2=4, A3=6 bo'lsa, natija nechaga teng?",
+   "a": [
+    "12",
+    "6",
+    "4",
+    "2"
+   ],
+   "e": "2 + 4 + 6."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Excelda \"=AVERAGE(A1:A3)\" bo'lsa va A1=2, A2=4, A3=6 bo'lsa, natija nechaga teng?",
+   "a": [
+    "4",
+    "12",
+    "6",
+    "3"
+   ],
+   "e": "12/3."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Matn muharririda \"Ctrl+A\" nima qiladi?",
+   "a": [
+    "Butun matnni belgilaydi",
+    "Matnni o'chiradi",
+    "Yangi hujjat ochadi",
+    "Matnni saqlaydi"
+   ],
+   "e": "Ctrl+N — yangi hujjat."
+  },
+  {
+   "b": "Dasturiy ta'minot",
+   "q": "Fayl nomida qaysi belgini ishlatib bo'lmaydi (Windows)?",
+   "a": [
+    "?",
+    "_",
+    "-",
+    "1"
+   ],
+   "e": "Windowsda \\ / : * ? \" < > | belgilari taqiqlangan."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Bluetooth texnologiyasi qanday masofada ishlashga mo'ljallangan?",
+   "a": [
+    "Qisqa masofada (odatda 10 m gacha)",
+    "Bir necha yuz kilometr masofada, sun'iy yo'ldosh orqali",
+    "Faqat kabel orqali",
+    "Faqat optik tola orqali"
+   ],
+   "e": "Bluetooth shaxsiy tarmoq (PAN) uchun."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Internetda ma'lumot qidirishda manbaning ishonchliligini qanday tekshirish mumkin?",
+   "a": [
+    "Rasmiy saytlar va bir nechta manbalarni solishtirish orqali",
+    "Faqat birinchi chiqqan natijaga ishonib, boshqasini tekshirmaslik orqali",
+    "Saytning rangiga qarab",
+    "Saytdagi reklamalar soniga qarab"
+   ],
+   "e": "Rasmiy manbalar, masalan, gov.uz domenlari."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Zaxira nusxa saqlashning \"3-2-1\" qoidasida \"1\" nimani bildiradi?",
+   "a": [
+    "Bitta nusxa boshqa joyda saqlanadi",
+    "Bitta disk yetarli",
+    "Bir kunda bir marta saqlash",
+    "Bitta parol"
+   ],
+   "e": "3 nusxa, 2 xil tashuvchi, 1 tasi tashqi joyda."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Spam nima?",
+   "a": [
+    "Ruxsatsiz ommaviy yuboriladigan xabarlar",
+    "Muhim rasmiy xabarlar, davlat idoralaridan keladigan bildirishnomalar",
+    "Kompyuter qismi",
+    "Antivirus turi"
+   ],
+   "e": "Spam ko'pincha fishing va zararli havolalarni o'z ichiga oladi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Sath datchigi nimani o'lchaydi?",
+   "a": [
+    "Idishdagi suyuqlik yoki sochiluvchan material balandligini",
+    "Elektr tarmog'idagi kuchlanish va tok kuchini",
+    "Havodagi chang miqdorini",
+    "Ovoz balandligini"
+   ],
+   "e": "Ultratovushli, sig'imli, qalqovichli sath datchiklari mavjud."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Bosim datchigi (manometrik datchik) qayerda qo'llaniladi?",
+   "a": [
+    "Quvurlar va idishlardagi bosimni nazorat qilishda",
+    "Faqat ovozni yozib olishda va uni kuchaytirishda",
+    "Faqat yorug'likni o'lchashda",
+    "Faqat matn terishda"
+   ],
+   "e": "Signal boshqaruv tizimiga uzatiladi."
+  },
+  {
+   "b": "Avtomatlashtirish",
+   "q": "Avtomatik tizimda \"ishonchlilik\" ko'rsatkichi qaysi?",
+   "a": [
+    "Ishdan chiqishlar orasidagi o'rtacha vaqt",
+    "Tizimning rangi va dizayni, operator paneli ko'rinishi",
+    "Tizim narxi",
+    "Tizim og'irligi"
+   ],
+   "e": "MTBF — Mean Time Between Failures."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "SQL da yangi jadval yaratish buyrug'i qaysi?",
+   "a": [
+    "CREATE TABLE",
+    "NEW TABLE",
+    "MAKE TABLE",
+    "ADD TABLE"
+   ],
+   "e": "CREATE TABLE nom (maydonlar)."
+  },
+  {
+   "b": "Ma'lumotlar bilan ishlash",
+   "q": "Ma'lumotlar bazasida indeks nima uchun kerak?",
+   "a": [
+    "Qidiruvni tezlashtirish uchun",
+    "Jadvalni ranglash va chiroyli ko'rsatish uchun",
+    "Ma'lumotlarni o'chirish uchun",
+    "Jadval nomini yashirish uchun"
+   ],
+   "e": "Indeks kitobdagi mundarijaga o'xshaydi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python da \"x = 5; x += 3\" dan keyin x nechaga teng?",
+   "a": [
+    "8",
+    "5",
+    "3",
+    "53"
+   ],
+   "e": "x += 3 → x = x + 3."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Python da \"2 ** 3\" ifodasi natijasi nechaga teng?",
+   "a": [
+    "8",
+    "6",
+    "5",
+    "9"
+   ],
+   "e": "** — darajaga ko'tarish."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Dasturdagi mantiqiy xatoning belgisi qaysi?",
+   "a": [
+    "Dastur ishlaydi, lekin noto'g'ri natija beradi",
+    "Dastur umuman ishga tushmaydi, kompilyator xato chiqaradi",
+    "Kompyuter o'chib qoladi",
+    "Monitor qorayadi"
+   ],
+   "e": "Sintaktik xatoda dastur ishga tushmaydi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Ikkilik (binar) qidiruv qanday ro'yxatda ishlaydi?",
+   "a": [
+    "Saralangan ro'yxatda",
+    "Har qanday saralanmagan ro'yxatda bir xil samarali",
+    "Faqat bo'sh ro'yxatda",
+    "Faqat matnli ro'yxatda"
+   ],
+   "e": "Har qadamda qidiruv sohasi ikki marta kamayadi."
+  },
+  {
+   "b": "Algoritmlash va modellashtirish",
+   "q": "Algoritmning samaradorligi qanday baholanadi?",
+   "a": [
+    "Vaqt va xotira sarfi bo'yicha",
+    "Dastur matnining chiroyliligi va izohlar soni bo'yicha",
+    "Dasturchi tajribasi bo'yicha",
+    "Kompyuter narxi bo'yicha"
+   ],
+   "e": "Murakkablik O(n), O(log n) kabi belgilanadi."
   }
  ]
 }
