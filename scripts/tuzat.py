@@ -11,6 +11,11 @@ for line in Path(sys.argv[2]).read_text().splitlines():
         continue
     i, j, t = line.split("|", 2)
     a = d["savollar"][int(i)]["a"]
+    if j == "s":  # eng qisqa noto'g'ri variantni almashtirish
+        j = str(min(range(1, 4), key=lambda k: len(a[k])))
+    if t.strip() in a:
+        print(f"TAKROR {i}: '{t.strip()[:50]}' allaqachon bor — o'tkazildi")
+        continue
     a[int(j)] = t.strip()
     for x in range(1, 4):
         if x == int(j):

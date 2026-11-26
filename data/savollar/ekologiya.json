@@ -2,282 +2,3274 @@
  "kod": "5PM0225",
  "nomi": "Ekologiya va atrof muhit muhofazasi",
  "turi": "maxsus",
- "manba": "2026-yilgi texnikum o'quv rejalari (24 ta mutaxassislikda o'qitiladi)",
+ "manba": "2026-yilgi texnikum o'quv rejalari (24 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
   {
    "b": "Asosiy tushunchalar",
    "q": "\"Ekologiya\" atamasini fanga kim kiritgan?",
    "a": [
-    "Ernst Gekkel",
-    "Charlz Darvin",
-    "Karl Linney",
-    "V. I. Vernadskiy"
+    "E. Gekkel",
+    "V. I. Vernadskiy, biosfera haqidagi ta'limot muallifi",
+    "Ch. Darvin",
+    "A. Tensli"
    ],
-   "e": "1866-yilda nemis biologi E. Gekkel kiritgan."
+   "e": "1866-yilda nemis olimi Ernst Gekkel taklif etgan."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "Ekotizim nima?",
+   "q": "Ekologiya nimani o'rganadi?",
    "a": [
-    "Tirik organizmlar jamoasi va ularning yashash muhitidan iborat yagona tizim",
-    "Faqat o'simliklar to'plami",
-    "Faqat hayvonlar populyatsiyasi",
-    "Jonsiz tabiat"
+    "Organizmlarning o'zaro va muhit bilan munosabatlarini",
+    "Faqat o'simliklarning ichki tuzilishini va hujayra tarkibini",
+    "Faqat yer osti boyliklarini",
+    "Faqat ob-havo prognozini"
    ],
-   "e": "Ekotizimda modda va energiya almashinuvi sodir bo'ladi."
+   "e": "Yunoncha \"oikos\" — uy, \"logos\" — ta'limot."
   },
   {
    "b": "Asosiy tushunchalar",
    "q": "Biosfera haqidagi ta'limotni kim yaratgan?",
    "a": [
     "V. I. Vernadskiy",
-    "E. Gekkel",
-    "Ch. Darvin",
-    "I. Pavlov"
+    "E. Gekkel, \"ekologiya\" atamasi muallifi",
+    "K. Linney",
+    "Ch. Darvin"
    ],
-   "e": "Biosfera — Yerning hayot tarqalgan qobig'i."
+   "e": "Biosfera — hayot tarqalgan Yer qobig'i."
   },
   {
    "b": "Asosiy tushunchalar",
-   "q": "Bir turga mansub, ma'lum hududda yashovchi individlar yig'indisi qanday ataladi?",
+   "q": "Noosfera tushunchasi nimani bildiradi?",
    "a": [
-    "Populyatsiya",
-    "Biotsenoz",
-    "Ekotizim",
-    "Biosfera"
+    "Inson aqli boshqaradigan biosfera bosqichi",
+    "Atmosferaning eng yuqori qatlamini va undagi gazlarni",
+    "Okean tubini",
+    "Yer yadrosini"
    ],
-   "e": "Biotsenoz — turli populyatsiyalar jamoasi."
+   "e": "\"Aql sferasi\" — Vernadskiy g'oyasi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekotizim atamasini kim kiritgan?",
+   "a": [
+    "A. Tensli",
+    "V. N. Sukachev",
+    "E. Gekkel",
+    "Yu. Libix"
+   ],
+   "e": "1935-yilda ingliz olimi Artur Tensli."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Biogeotsenoz tushunchasini kim kiritgan?",
+   "a": [
+    "V. N. Sukachev",
+    "A. Tensli",
+    "V. I. Vernadskiy",
+    "E. Gekkel"
+   ],
+   "e": "Biogeotsenoz — ekotizimning quruqlikdagi bir jinsli qismi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Populyatsiya deb nimaga aytiladi?",
+   "a": [
+    "Bir hududda yashovchi bir tur individlari guruhi",
+    "Turli turlarga mansub va bir hududda yashovchi barcha organizmlar majmui",
+    "Bir sinfga mansub hayvonlar",
+    "Faqat o'simliklar jamoasi"
+   ],
+   "e": "Populyatsiya — turning tarkibiy birligi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Biotsenoz nima?",
+   "a": [
+    "Bir hududdagi turli tur organizmlar jamoasi",
+    "Bir turning alohida individi va uning nasl-nasabi",
+    "Jonsiz tabiat omillari majmui",
+    "Faqat mikroorganizmlar"
+   ],
+   "e": "Biotsenoz va biotop birgalikda biogeotsenozni tashkil etadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Biotop nima?",
+   "a": [
+    "Biotsenoz egallagan hudud va uning jonsiz sharoitlari",
+    "Bir turning barcha individlari va ularning tarqalish areali",
+    "Faqat hayvonlar jamoasi",
+    "Oziq zanjiri"
+   ],
+   "e": "Biotop — yashash joyi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik nisha nimani bildiradi?",
+   "a": [
+    "Turning ekotizimdagi o'rni va vazifasi",
+    "Faqat turning yashash joyining geografik koordinatalari",
+    "Faqat organizm hajmi",
+    "Turning nomi"
+   ],
+   "e": "Nisha resurslar va sharoitlarga talablarni o'z ichiga oladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Autekologiya nimani o'rganadi?",
+   "a": [
+    "Alohida tur va muhit munosabatini",
+    "Ekotizimlar va biosferani yaxlit holda",
+    "Populyatsiyalar dinamikasini",
+    "Faqat odamlar jamiyatini"
+   ],
+   "e": "Demekologiya — populyatsiyalar, sinekologiya — jamoalar ekologiyasi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Sinekologiya nimani o'rganadi?",
+   "a": [
+    "Jamoalar va ekotizimlarni",
+    "Alohida tur organizmini va uning muhitga moslashuvini",
+    "Faqat hujayrani",
+    "Faqat genlarni"
+   ],
+   "e": "Turlararo munosabatlar va ekotizim tuzilishi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik monitoring nima?",
+   "a": [
+    "Atrof-muhit holatini kuzatish, baholash va prognozlash",
+    "Faqat daraxt ekish, ko'kalamzorlashtirish va obodonlashtirish ishlari",
+    "Atrof-muhitni ifloslantirish",
+    "Faqat ob-havo ma'lumotini e'lon qilish"
+   ],
+   "e": "Monitoring natijalari qaror qabul qilish uchun asos bo'ladi."
   },
   {
    "b": "Ekologik omillar",
    "q": "Ekologik omillar qanday guruhlarga bo'linadi?",
    "a": [
     "Abiotik, biotik va antropogen",
-    "Faqat iqlimiy",
-    "Faqat kimyoviy",
+    "Faqat iqlimiy, geologik va tuproq omillari",
+    "Faqat jonli va jonsiz",
     "Ichki va tashqi"
    ],
-   "e": "Antropogen omillar — inson faoliyati bilan bog'liq."
+   "e": "Antropogen — inson faoliyati bilan bog'liq omillar."
   },
   {
    "b": "Ekologik omillar",
-   "q": "Qaysi omil abiotik hisoblanadi?",
+   "q": "Abiotik omillarga qaysi biri kiradi?",
    "a": [
     "Harorat",
-    "Raqobat",
     "Yirtqichlik",
+    "Raqobat",
     "Parazitizm"
    ],
-   "e": "Abiotik — jonsiz tabiat omillari: harorat, yorug'lik, namlik."
+   "e": "Yorug'lik, namlik, tuproq tarkibi ham abiotik omillar."
   },
   {
    "b": "Ekologik omillar",
-   "q": "Minimum qonuni (Libix qonuni) nimani ifodalaydi?",
+   "q": "Biotik omillarga qaysi biri kiradi?",
    "a": [
-    "Organizm rivojini eng kam miqdorda bo'lgan omil cheklaydi",
-    "Omillar ko'p bo'lsa, rivoj tezlashadi",
-    "Barcha omillar bir xil ta'sir qiladi",
-    "Harorat yagona cheklovchi omil"
+    "Raqobat",
+    "Harorat",
+    "Yorug'lik",
+    "Havo bosimi"
+   ],
+   "e": "Organizmlarning bir-biriga ta'siri."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Antropogen omilga qaysi biri misol bo'ladi?",
+   "a": [
+    "Sanoat chiqindilari",
+    "Vulqon otilishi va undan keyingi kul yog'ishi",
+    "Zilzila",
+    "Quyosh nurlanishi"
+   ],
+   "e": "Inson faoliyati natijasidagi ta'sirlar."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Libixning minimum qonuni nimani ifodalaydi?",
+   "a": [
+    "Organizm rivojini minimumdagi omil cheklaydi",
+    "Barcha omillar maksimumda bo'lsa, organizm eng yaxshi rivojlanadi",
+    "Omillar bir-birini to'liq almashtiradi",
+    "Organizmga faqat harorat ta'sir qiladi"
    ],
    "e": "Cheklovchi omil tushunchasi."
   },
   {
-   "b": "Oziq zanjirlari",
-   "q": "Oziq zanjirida produtsentlar kimlar?",
+   "b": "Ekologik omillar",
+   "q": "Shelfordning tolerantlik qonuni nimani ifodalaydi?",
    "a": [
-    "Fotosintez qiluvchi yashil o'simliklar",
-    "Yirtqich hayvonlar",
-    "Zamburug'lar",
-    "Bakteriyalar-parchalovchilar"
+    "Omilning ham tanqisligi, ham ortiqchaligi cheklovchi bo'lishi mumkin",
+    "Organizm har qanday sharoitga vaqt o'tishi bilan cheksiz moslasha oladi",
+    "Faqat minimumdagi omil cheklovchi",
+    "Omillar hech qachon cheklovchi bo'lmaydi"
    ],
-   "e": "Produtsentlar noorganik moddalardan organik modda hosil qiladi."
+   "e": "Har bir omil uchun chidamlilik oralig'i mavjud."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Evribiont organizmlar qanday xususiyatga ega?",
+   "a": [
+    "Keng chidamlilik oralig'iga ega",
+    "Juda tor chidamlilik oralig'iga ega va faqat bitta sharoitda yashaydi",
+    "Faqat suvda yashaydi",
+    "Faqat tunda faol"
+   ],
+   "e": "Stenobiontlar — tor oraliqqa ega."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Fotoperiodizm nima?",
+   "a": [
+    "Organizmlarning kun uzunligiga javob reaksiyasi",
+    "O'simliklarning faqat suv va mineral moddalarga bo'lgan ehtiyoji",
+    "Hayvonlarning ko'payishi",
+    "Tuproq unumdorligi"
+   ],
+   "e": "Gullash va qushlar migratsiyasi fotoperiodga bog'liq."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Simbioz turiga qaysi biri kiradi?",
+   "a": [
+    "Mutualizm",
+    "Yirtqichlik",
+    "Raqobat",
+    "Amensalizm"
+   ],
+   "e": "Mutualizmda har ikki tur foyda ko'radi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Parazitizmda qaysi tur foyda ko'radi?",
+   "a": [
+    "Faqat parazit",
+    "Faqat xo'jayin",
+    "Ikkalasi ham teng",
+    "Hech biri"
+   ],
+   "e": "Parazit xo'jayin hisobiga yashaydi va unga zarar yetkazadi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Kommensalizm nima?",
+   "a": [
+    "Bir tur foyda ko'radi, ikkinchisiga ta'sir yo'q",
+    "Ikki tur ham foyda ko'radi va bir-birisiz yashay olmaydi",
+    "Ikki tur ham zarar ko'radi",
+    "Bir tur ikkinchisini yeydi"
+   ],
+   "e": "Masalan, akula va yopishqoq baliq."
   },
   {
    "b": "Oziq zanjirlari",
-   "q": "Organik qoldiqlarni parchalovchi organizmlar qanday ataladi?",
+   "q": "Produtsentlar qaysi organizmlar?",
    "a": [
-    "Redutsentlar",
-    "Produtsentlar",
-    "Konsumentlar",
-    "Avtotroflar"
+    "Yashil o'simliklar",
+    "O'txo'r hayvonlar (birlamchi iste'molchilar)",
+    "Yirtqichlar",
+    "Zamburug'lar"
+   ],
+   "e": "Organik moddani anorganikdan hosil qiladi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Konsumentlar qaysi organizmlar?",
+   "a": [
+    "Tayyor organik modda bilan oziqlanuvchilar",
+    "Quyosh nuri yordamida fotosintez qiluvchi yashil o'simliklar",
+    "Faqat bakteriyalar",
+    "Faqat zamburug'lar"
+   ],
+   "e": "I tartibli — o'txo'rlar, II tartibli — yirtqichlar."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Redutsentlar ekotizimda qanday vazifani bajaradi?",
+   "a": [
+    "Organik qoldiqlarni mineral moddalarga parchalaydi",
+    "Quyosh energiyasidan foydalanib anorganik moddadan organik modda hosil qiladi",
+    "O'simliklarni changlatadi",
+    "Faqat yirtqichlarni oziqlantiradi"
    ],
    "e": "Bakteriyalar va zamburug'lar."
   },
   {
    "b": "Oziq zanjirlari",
-   "q": "Ekologik piramida qoidasiga ko'ra, keyingi trofik darajaga energiyaning taxminan qancha qismi o'tadi?",
+   "q": "Ekologik piramida qoidasiga ko'ra keyingi trofik darajaga energiyaning taxminan qancha qismi o'tadi?",
    "a": [
-    "≈10%",
-    "≈50%",
-    "≈90%",
-    "100%"
+    "10%",
+    "50%",
+    "90%",
+    "1%"
    ],
-   "e": "Qolgan qismi nafas olish va issiqlikka sarflanadi."
+   "e": "Lindemanning 10% qoidasi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "To'g'ri oziq zanjiri qaysi?",
+   "a": [
+    "O't → chigirtka → qurbaqa → ilon",
+    "Ilon → qurbaqa → chigirtka → o't",
+    "Chigirtka → o't → ilon → qurbaqa",
+    "Qurbaqa → o't → ilon → chigirtka"
+   ],
+   "e": "Zanjir produtsentdan boshlanadi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Detrit oziq zanjiri nimadan boshlanadi?",
+   "a": [
+    "O'lik organik qoldiqlardan",
+    "Tirik yashil o'simliklardan",
+    "Yirtqichlardan",
+    "Quyosh nuridan bevosita"
+   ],
+   "e": "Detritofaglar va redutsentlar ishtirok etadi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Trofik daraja nima?",
+   "a": [
+    "Oziq zanjiridagi organizmlarning o'rni",
+    "Tuproq qatlamining chuqurligi va undagi organizmlar soni",
+    "Organizmning yoshi",
+    "Populyatsiya zichligi"
+   ],
+   "e": "Produtsentlar — 1-trofik daraja."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Moddalarning biologik aylanishi nimani ta'minlaydi?",
+   "a": [
+    "Elementlarning ekotizimda qayta ishlatilishini",
+    "Energiyaning to'liq qayta tiklanishini va abadiy aylanishini",
+    "Faqat suvning bug'lanishini",
+    "Faqat tog' jinslarining yemirilishini"
+   ],
+   "e": "Moddalar aylanadi, energiya esa bir tomonlama oqadi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Uglerodning biosferadagi aylanishida asosiy jarayonlar qaysi?",
+   "a": [
+    "Fotosintez va nafas olish",
+    "Faqat yonish va vulqonlar",
+    "Faqat suv bug'lanishi",
+    "Faqat tuproq eroziyasi"
+   ],
+   "e": "Yoqilg'i yoqish atmosferada CO₂ ni ko'paytiradi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Azotni atmosferadan bog'lovchi organizmlar qaysi?",
+   "a": [
+    "Tuganak bakteriyalari",
+    "Yashil suvo'tlar va suv o'simliklari",
+    "O'txo'r hayvonlar",
+    "Yirtqich qushlar"
+   ],
+   "e": "Dukkakli o'simliklar ildizidagi tuganaklarda yashaydi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Biomassa piramidasi nimani ko'rsatadi?",
+   "a": [
+    "Har bir trofik darajadagi organizmlar massasini",
+    "Organizmlarning yoshi va ko'payish tezligi",
+    "Turlar nomlarini",
+    "Hududning maydonini"
+   ],
+   "e": "Quruqlikda odatda asosi keng piramida."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Biosferaning yuqori chegarasi nima bilan belgilanadi?",
+   "a": [
+    "Ozon qatlami",
+    "Bulutlar qatlami",
+    "Tog' cho'qqilari",
+    "Troposferaning pastki qismi"
+   ],
+   "e": "Ozon qatlami taxminan 20–25 km balandlikda."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Atmosferaning Yer sirtiga eng yaqin qatlami qanday nomlanadi?",
+   "a": [
+    "Troposfera",
+    "Stratosfera",
+    "Mezosfera",
+    "Termosfera"
+   ],
+   "e": "Ob-havo hodisalari troposferada sodir bo'ladi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Gidrosfera nima?",
+   "a": [
+    "Yerning suv qobig'i",
+    "Yerning havo qobig'i",
+    "Yerning tosh qobig'i",
+    "Yerning hayot qobig'i"
+   ],
+   "e": "Okeanlar, dengizlar, daryolar, muzliklar, yer osti suvlari."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Litosfera nima?",
+   "a": [
+    "Yerning qattiq tosh qobig'i",
+    "Yerning suv qobig'i",
+    "Atmosferaning yuqori qatlami",
+    "Biosferaning tirik moddasi"
+   ],
+   "e": "Er po'sti va mantiyaning yuqori qismi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Agrotsenoz tabiiy biotsenozdan qanday farq qiladi?",
+   "a": [
+    "Turlar soni kam va inson qo'llab-quvvatlashiga muhtoj",
+    "Turlar xilma-xilligi ancha katta va o'z-o'zini to'liq boshqaradi",
+    "Unda produtsentlar bo'lmaydi",
+    "Unda energiya oqimi bo'lmaydi"
+   ],
+   "e": "Agrotsenoz — sun'iy ekotizim (dala, bog')."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Suksessiya nima?",
+   "a": [
+    "Ekotizimlarning tabiiy ketma-ket almashinuvi",
+    "Bir turning boshqa hududga ko'chishi va u yerda iqlimlashishi",
+    "Oziq zanjirining uzilishi",
+    "Populyatsiyaning qisqarishi"
+   ],
+   "e": "Masalan, ko'l botqoqlikka, keyin o'rmonga aylanishi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Biologik xilma-xillik nima?",
+   "a": [
+    "Genlar, turlar va ekotizimlar xilma-xilligi",
+    "Faqat hayvonlar turlari soni va ularning populyatsiyalari",
+    "Faqat o'simliklarning rangi",
+    "Faqat bir hududdagi daraxtlar soni"
+   ],
+   "e": "Xilma-xillik ekotizim barqarorligini ta'minlaydi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Qizil kitob nima?",
+   "a": [
+    "Noyob va yo'qolib ketish xavfi ostidagi turlar ro'yxati",
+    "Barcha mavjud hayvon va o'simlik turlarining to'liq katalogi",
+    "Ekologik jarimalar ro'yxati",
+    "Qishloq xo'jalik ekinlari ro'yxati"
+   ],
+   "e": "O'zbekiston Respublikasi Qizil kitobi muntazam qayta nashr etiladi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Endemik turlar deb qanday turlarga aytiladi?",
+   "a": [
+    "Faqat ma'lum hududda tarqalgan turlar",
+    "Butun dunyoda, barcha qit'alarda keng tarqalgan turlar",
+    "Faqat suvda yashovchi turlar",
+    "Faqat xonaki hayvonlar"
+   ],
+   "e": "Endemiklar hududning noyobligini ko'rsatadi."
   },
   {
    "b": "Atmosfera muhofazasi",
-   "q": "\"Issiqxona effekti\"ni kuchaytiruvchi asosiy gaz qaysi?",
+   "q": "Atmosfera havosining asosiy tarkibiy qismi qaysi gaz?",
    "a": [
-    "Karbonat angidrid (CO₂)",
+    "Azot",
+    "Kislorod, chunki u hayot uchun eng zarur va hajmning yarmidan ko'pini egallaydi",
+    "Karbonat angidrid",
+    "Argon"
+   ],
+   "e": "Azot ≈ 78%, kislorod ≈ 21%."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Parnik (issiqxona) effektini kuchaytiruvchi asosiy gaz qaysi?",
+   "a": [
+    "CO₂",
+    "N₂",
+    "O₂",
+    "Ar"
+   ],
+   "e": "Metan, azot (I) oksidi, suv bug'i ham parnik gazlari."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Parnik effektining global oqibati nima?",
+   "a": [
+    "Iqlim isishi",
+    "Ozon qatlamining tiklanishi va havoning tozalanishi",
+    "Okean sathining pasayishi",
+    "Muzliklarning ko'payishi"
+   ],
+   "e": "Muzliklar erishi va dengiz sathi ko'tarilishi kuzatiladi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Ozon qatlamini yemiruvchi asosiy moddalar qaysi?",
+   "a": [
+    "Freonlar",
+    "Azot va kislorod",
+    "Suv bug'i",
+    "Inert gazlar"
+   ],
+   "e": "Xlorftoruglerodlar stratosferada xlor ajratadi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Ozon qatlamini himoya qilish bo'yicha xalqaro hujjat qaysi?",
+   "a": [
+    "Monreal protokoli",
+    "Kioto protokoli",
+    "Ramsar konvensiyasi",
+    "Bazel konvensiyasi"
+   ],
+   "e": "1987-yilda qabul qilingan."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Kislotali yomg'irlarning asosiy sababi qaysi gazlar?",
+   "a": [
+    "SO₂ va NOₓ",
+    "CO₂ va O₂",
+    "N₂ va Ar",
+    "H₂ va He"
+   ],
+   "e": "Ular suv bug'i bilan sulfat va nitrat kislotalarni hosil qiladi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Fotokimyoviy smog qanday sharoitda hosil bo'ladi?",
+   "a": [
+    "Avtomobil chiqindilari quyosh nuri ta'sirida",
+    "Qishda sovuq, nam va shamolsiz havoda ko'mir tutuni to'planganda",
+    "Faqat vulqon otilganda",
+    "Faqat o'rmonlarda"
+   ],
+   "e": "\"Los-Anjeles tipidagi\" smog."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Avtomobil chiqindi gazlaridagi eng zaharli komponentlardan biri qaysi?",
+   "a": [
+    "Is gazi (CO)",
     "Azot (N₂)",
     "Kislorod (O₂)",
-    "Argon (Ar)"
+    "Suv bug'i"
    ],
-   "e": "Metan va suv bug'i ham issiqxona gazlari hisoblanadi."
+   "e": "Shuningdek azot oksidlari, uglevodorodlar, qurum."
   },
   {
    "b": "Atmosfera muhofazasi",
-   "q": "Ozon qatlami Yerni nimadan himoya qiladi?",
+   "q": "Avtomobil chiqindilarini zararsizlantiruvchi qurilma qanday nomlanadi?",
    "a": [
-    "Quyoshning ultrabinafsha nurlanishidan",
-    "Meteoritlardan",
-    "Shamoldan",
-    "Infraqizil nurlardan"
+    "Katalitik neytralizator",
+    "Karbyurator (yoqilg'i-havo aralashmasini tayyorlovchi)",
+    "Generator",
+    "Radiator"
    ],
-   "e": "Ozon qatlamini freonlar yemiradi."
+   "e": "CO va uglevodorodlarni CO₂ va suvga oksidlaydi."
   },
   {
    "b": "Atmosfera muhofazasi",
-   "q": "Kislotali yomg'irlarning asosiy sababi nima?",
-   "a": [
-    "Atmosferaga oltingugurt va azot oksidlarining chiqarilishi",
-    "Ozon miqdorining ortishi",
-    "Kislorodning kamayishi",
-    "Vulqonlarning to'xtashi"
-   ],
-   "e": "Bu oksidlar suv bilan kislotalar hosil qiladi."
-  },
-  {
-   "b": "Atmosfera muhofazasi",
-   "q": "Sanoat chiqindi gazlarini changdan tozalash uchun qaysi qurilma ishlatiladi?",
+   "q": "Sanoat changini ushlovchi qurilmalarga qaysi biri kiradi?",
    "a": [
     "Siklon va elektrofiltr",
-    "Nasos",
+    "Nasos, kompressor va havo puflovchi ventilyatorlar",
     "Transformator",
-    "Kompressor"
+    "Konveyer"
    ],
-   "e": "Siklon markazdan qochma kuch hisobiga zarralarni ajratadi."
+   "e": "Yengli filtrlar va skrubberlar ham ishlatiladi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Atmosfera havosidagi zararli moddalar uchun REK nimani bildiradi?",
+   "a": [
+    "Ruxsat etilgan eng yuqori konsentratsiya",
+    "Respublika ekologik qo'mitasining kunlik hisoboti",
+    "Radiatsion ekologik koeffitsient",
+    "Real ekologik kuzatuv"
+   ],
+   "e": "REK inson sog'lig'iga zarar yetkazmaydigan konsentratsiya."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Global iqlim o'zgarishiga qarshi kurash bo'yicha 2015-yilgi kelishuv qaysi?",
+   "a": [
+    "Parij kelishuvi",
+    "Monreal protokoli",
+    "Stokgolm deklaratsiyasi",
+    "Bazel konvensiyasi"
+   ],
+   "e": "Global isishni 2 °C dan past darajada ushlab turish maqsadi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Shaharlarda havo sifatini yaxshilashning samarali usuli qaysi?",
+   "a": [
+    "Ko'kalamzorlashtirish va jamoat transportini rivojlantirish",
+    "Avtomobillar sonini va sanoat korxonalarini shahar markazida ko'paytirish",
+    "Daraxtlarni kesish",
+    "Chiqindilarni ochiq yoqish"
+   ],
+   "e": "Yashil zonalar changni ushlaydi va kislorod chiqaradi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Chiqindilarni ochiq havoda yoqish nima uchun taqiqlanadi?",
+   "a": [
+    "Zaharli moddalar (dioksinlar) ajraladi",
+    "Chiqindilar juda tez va to'liq yo'qoladi, iz qoldirmaydi",
+    "Yoqish qimmat turadi",
+    "Hech qanday zarari yo'q"
+   ],
+   "e": "Plastmassa yonganda dioksin va furanlar ajraladi."
   },
   {
    "b": "Gidrosfera muhofazasi",
-   "q": "Orol dengizining qurishiga asosiy sabab nima bo'lgan?",
+   "q": "Yer yuzidagi suvning taxminan qancha qismi chuchuk suv?",
    "a": [
-    "Amudaryo va Sirdaryo suvlarining sug'orish uchun haddan tashqari olinishi",
-    "Zilzila",
-    "Dengizning muzlashi",
-    "Okean bilan bog'lanish"
+    "2,5–3%",
+    "50%",
+    "97%",
+    "25%"
    ],
-   "e": "Orolbo'yi ekologik inqiroz hududi hisoblanadi."
+   "e": "Chuchuk suvning katta qismi muzliklarda."
   },
   {
    "b": "Gidrosfera muhofazasi",
-   "q": "Oqova suvlarni biologik tozalash nimaga asoslangan?",
+   "q": "Suv havzalarining evtrofikatsiyasiga nima sabab bo'ladi?",
    "a": [
-    "Mikroorganizmlar yordamida organik ifloslantiruvchilarni parchalashga",
-    "Suvni qaynatishga",
-    "Faqat filtrlashga",
-    "Xlorlashga"
+    "Azot va fosfor birikmalarining ko'payishi",
+    "Suv haroratining pasayishi, muzlash va oqim tezligining ortishi",
+    "Baliqlar sonining ko'payishi",
+    "Suvning tozalanishi"
    ],
-   "e": "Aerotenk va biofiltrlarda amalga oshiriladi."
+   "e": "Suvo'tlar ko'payib, kislorod kamayadi."
   },
   {
    "b": "Gidrosfera muhofazasi",
-   "q": "Suv havzasining evtrofikatsiyasi nima?",
+   "q": "Oqova suvlarni tozalashning mexanik usuliga nima kiradi?",
    "a": [
-    "Biogen moddalar (azot, fosfor) ko'payib, suvo'tlarning haddan tashqari rivojlanishi",
-    "Suvning muzlashi",
-    "Suvning sho'rlanishi faqat",
-    "Suvning bug'lanishi"
+    "Tindirish va filtrlash",
+    "Xlorlash, ozonlash va ultrabinafsha nurlash",
+    "Biologik oksidlash",
+    "Neytrallash"
    ],
-   "e": "Natijada kislorod kamayib, baliqlar nobud bo'ladi."
+   "e": "Mexanik usulda erimagan aralashmalar ajratiladi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Oqova suvlarni biologik tozalashda nima ishlatiladi?",
+   "a": [
+    "Mikroorganizmlar (faol loy)",
+    "Faqat qum va shag'aldan iborat mexanik filtrlar",
+    "Faqat xlor",
+    "Faqat magnitlar"
+   ],
+   "e": "Aerotenklar va biofiltrlarda organik moddalar parchalanadi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Ichimlik suvini zararsizlantirishning keng tarqalgan usuli qaysi?",
+   "a": [
+    "Xlorlash",
+    "Tuzlash",
+    "Muzlatish",
+    "Bo'yash"
+   ],
+   "e": "Ozonlash va ultrabinafsha nurlash ham qo'llaniladi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Orol dengizi qurishining asosiy sababi nima?",
+   "a": [
+    "Amudaryo va Sirdaryo suvining sug'orishga haddan tashqari olinishi",
+    "Dengizga meteorit tushishi va tubining ochilishi",
+    "Okean suvi sathining ko'tarilishi",
+    "Yog'ingarchilikning ko'payishi va bug'lanishning kamayishi"
+   ],
+   "e": "XX asrning 60-yillaridan boshlab suv oqimi keskin kamaydi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Orol fojiasining ekologik oqibatlaridan biri qaysi?",
+   "a": [
+    "Tuz-chang bo'ronlari va cho'llanish",
+    "Hududda o'rmonlar maydonining keskin ortishi va namlik oshishi",
+    "Baliqchilikning rivojlanishi",
+    "Iqlimning yumshashi"
+   ],
+   "e": "Quruq tubdan tuz va pestitsid qoldiqlari tarqaladi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Suvni tejashning qishloq xo'jaligidagi samarali usuli qaysi?",
+   "a": [
+    "Tomchilatib sug'orish",
+    "Egatlarni suv bilan to'ldirib bostirib sug'orish",
+    "Kanallarni ochiq va qoplamasiz qoldirish",
+    "Kechasi sug'ormaslik"
+   ],
+   "e": "Tomchilatib sug'orish suv sarfini sezilarli kamaytiradi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Suv havzalari bo'yida suvni muhofaza qilish zonalari nima uchun belgilanadi?",
+   "a": [
+    "Suvni ifloslanish va qirg'oq yemirilishidan himoya qilish uchun",
+    "Bu hududlarda sanoat korxonalari va chiqindi poligonlarini joylashtirish uchun",
+    "Chiqindilarni joylashtirish uchun",
+    "Faqat turizmni rivojlantirish uchun"
+   ],
+   "e": "Bu zonalarda xo'jalik faoliyati cheklanadi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Neft mahsulotlari suv havzasiga tushganda qanday zarar yetkazadi?",
+   "a": [
+    "Suv yuzasida plyonka hosil qilib, kislorod almashinuvini buzadi",
+    "Suvni tozalab, unga foydali minerallar va organik moddalar qo'shadi",
+    "Suv haroratini pasaytiradi va muzlatadi",
+    "Hech qanday zarar yetkazmaydi"
+   ],
+   "e": "Baliqlar, qushlar va plankton nobud bo'ladi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Suvning biologik kislorod iste'moli (BKI) ko'rsatkichi nimani baholaydi?",
+   "a": [
+    "Suvning organik moddalar bilan ifloslanish darajasini",
+    "Suvning harorati, oqim tezligi va tiniqlik darajasini",
+    "Suvning rangini",
+    "Suvning tuzliligini faqat"
+   ],
+   "e": "BKI qancha yuqori bo'lsa, ifloslanish shuncha kuchli."
   },
   {
    "b": "Litosfera muhofazasi",
    "q": "Tuproq eroziyasi nima?",
    "a": [
-    "Tuproqning suv va shamol ta'sirida yemirilishi va yuvilishi",
-    "Tuproqning unumdorligi ortishi",
-    "Tuproqning muzlashi",
-    "Tuproqqa o'g'it solish"
+    "Tuproqning suv va shamol ta'sirida yemirilishi",
+    "Tuproqqa o'g'it solish va uning unumdorligini oshirish",
+    "Tuproqni haydash",
+    "Tuproqning sho'rlanishi"
    ],
-   "e": "Eroziyaga qarshi ihota daraxtzorlari va to'g'ri agrotexnika qo'llaniladi."
+   "e": "Suv va shamol eroziyasi ajratiladi."
   },
   {
    "b": "Litosfera muhofazasi",
-   "q": "Qattiq maishiy chiqindilarni boshqarishning eng maqbul yo'nalishi qaysi?",
+   "q": "Tuproqning ikkilamchi sho'rlanishiga asosan nima sabab bo'ladi?",
    "a": [
-    "Saralash va qayta ishlash",
-    "Ochiq joyda yoqish",
-    "Daryoga tashlash",
-    "Ko'mib tashlash har doim"
+    "Noto'g'ri sug'orish va zovurlarning ishlamasligi",
+    "Ko'p daraxt ekish",
+    "Tuproqqa organik o'g'it solish va almashlab ekishni qo'llash",
+    "Yog'ingarchilikning kamligi faqat"
    ],
-   "e": "Iyerarxiya: kamaytirish → qayta foydalanish → qayta ishlash → zararsizlantirish."
+   "e": "Grunt suvlari ko'tarilib, tuzlar sirtga chiqadi."
   },
   {
    "b": "Litosfera muhofazasi",
-   "q": "Sug'oriladigan yerlarda ikkilamchi sho'rlanishning asosiy sababi nima?",
+   "q": "Sho'rlangan yerlarni yaxshilash usuli qaysi?",
    "a": [
-    "Noto'g'ri sug'orish va zovur tizimlarining yaxshi ishlamasligi",
-    "Ko'p yomg'ir yog'ishi",
-    "O'rmonlar ko'pligi",
-    "Past harorat"
+    "Sho'r yuvish va zovurlar tizimini tiklash",
+    "Tuproqqa ko'proq tuz solish",
+    "Sug'orishni butunlay to'xtatib, yerni tashlab qo'yish",
+    "Tuproqni asfalt bilan qoplash"
    ],
-   "e": "Sizot suvlari ko'tarilib, tuzlarni yuzaga olib chiqadi."
+   "e": "Melioratsiya tadbirlari."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Rekultivatsiya nima?",
+   "a": [
+    "Buzilgan yerlarni qayta tiklash",
+    "Yangi yerlarni o'zlashtirish uchun o'rmonlarni kesish",
+    "Tuproqni sho'rlantirish",
+    "Konlarni ochish"
+   ],
+   "e": "Texnik va biologik bosqichlardan iborat."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Pestitsidlardan haddan tashqari foydalanishning oqibati nima?",
+   "a": [
+    "Tuproq, suv va oziq-ovqatning zaharlanishi",
+    "Tuproq unumdorligining doimiy oshishi va zararkunandalarning yo'qolishi",
+    "Hech qanday salbiy ta'sir yo'q",
+    "Faqat begona o'tlarning yo'qolishi"
+   ],
+   "e": "Pestitsidlar oziq zanjiri bo'ylab to'planadi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Cho'llanishga qarshi kurashning samarali usuli qaysi?",
+   "a": [
+    "Saksovul kabi o'simliklarni ekish va yaylovlarni oqilona foydalanish",
+    "Daraxtlarni kesish, yaylovlarda nazoratsiz mol boqish va yerlarni haydash",
+    "Suvni ko'proq bug'latish",
+    "Tuproqni haydab qoldirish"
+   ],
+   "e": "Orolning quruq tubida saksovul o'rmonlari barpo etilmoqda."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Yer osti boyliklarini qazib olishda ekologik talablarga nima kiradi?",
+   "a": [
+    "Buzilgan yerlarni rekultivatsiya qilish",
+    "Chiqindi jinslarni daryo va soylarga tashlab, yerni tekislamaslik",
+    "Yerni tiklamasdan tashlab ketish",
+    "Konlarni nazoratsiz portlatish"
+   ],
+   "e": "Yer qa'ri to'g'risidagi qonunchilikda belgilangan."
   },
   {
    "b": "Muhofaza tizimi",
-   "q": "Qo'riqxonalarning asosiy vazifasi nima?",
+   "q": "O'zbekiston Respublikasining tabiatni muhofaza qilish sohasidagi asosiy qonuni qaysi?",
    "a": [
-    "Tabiiy komplekslarni xo'jalik faoliyatidan to'liq chetlatib, muhofaza qilish",
-    "Ov qilishni tashkil etish",
-    "Turizmni rivojlantirish faqat",
-    "Qurilish maydonlarini tayyorlash"
+    "\"Tabiatni muhofaza qilish to'g'risida\"gi Qonun",
+    "\"Iste'molchilarning huquqlarini himoya qilish to'g'risida\"gi Qonun",
+    "\"Raqobat to'g'risida\"gi Qonun",
+    "\"Tadbirkorlik to'g'risida\"gi Qonun"
    ],
-   "e": "O'zbekistonda Zomin, Chotqol, Hisor va boshqa qo'riqxonalar bor."
-  },
-  {
-   "b": "Muhofaza tizimi",
-   "q": "\"Qizil kitob\"ga qanday turlar kiritiladi?",
-   "a": [
-    "Yo'qolib ketish xavfi ostidagi noyob o'simlik va hayvon turlari",
-    "Eng ko'p tarqalgan turlar",
-    "Faqat uy hayvonlari",
-    "Begona o'tlar"
-   ],
-   "e": "O'zbekiston Respublikasining Qizil kitobi muntazam qayta nashr etiladi."
+   "e": "1992-yil 9-dekabrda qabul qilingan."
   },
   {
    "b": "Muhofaza tizimi",
    "q": "Ekologik ekspertizaning maqsadi nima?",
    "a": [
-    "Rejalashtirilgan faoliyatning atrof muhitga ta'sirini oldindan baholash",
+    "Loyihalarning atrof-muhitga ta'sirini baholash",
+    "Korxonalarning moliyaviy hisobotlarini tekshirish",
     "Mahsulot narxini belgilash",
-    "Soliq hisoblash",
-    "Ishchilarni attestatsiyadan o'tkazish"
+    "Xodimlarni attestatsiyadan o'tkazish"
    ],
-   "e": "Ekspertiza xulosasisiz xavfli obyektlar qurilishiga ruxsat berilmaydi."
+   "e": "Ekologik ekspertiza xulosasisiz loyiha moliyalashtirilmaydi."
   },
   {
    "b": "Muhofaza tizimi",
-   "q": "Barqaror rivojlanish tushunchasi nimani anglatadi?",
+   "q": "Muhofaza etiladigan tabiiy hududlarga qaysi biri kiradi?",
    "a": [
-    "Kelajak avlodlar imkoniyatlariga zarar yetkazmagan holda bugungi ehtiyojlarni qondirish",
-    "Faqat iqtisodiy o'sish",
-    "Tabiatdan foydalanishni to'liq to'xtatish",
-    "Sanoatni yopish"
+    "Qo'riqxona",
+    "Sanoat zonasi",
+    "Chiqindi poligoni",
+    "Avtoturargoh"
    ],
-   "e": "BMT Barqaror rivojlanish maqsadlari (2030)."
+   "e": "Qo'riqxonalar, milliy bog'lar, buyurtmaxonalar, tabiat yodgorliklari."
   },
   {
    "b": "Muhofaza tizimi",
-   "q": "Atmosfera havosidagi zararli moddalar miqdorining me'yori qanday belgilanadi?",
+   "q": "Qo'riqxona hududida qanday faoliyat taqiqlanadi?",
    "a": [
-    "REK (ruxsat etilgan eng yuqori konsentratsiya)",
-    "pH",
-    "FIK",
-    "dB"
+    "Har qanday xo'jalik faoliyati",
+    "Ilmiy kuzatuvlar va tadqiqotlar o'tkazish",
+    "Qo'riqlash ishlari",
+    "Ekologik monitoring"
    ],
-   "e": "REK mg/m³ birligida ifodalanadi."
+   "e": "Qo'riqxonada tabiat tabiiy holatida saqlanadi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Milliy bog' qo'riqxonadan qanday farq qiladi?",
+   "a": [
+    "Cheklangan turizm va dam olishga ruxsat beriladi",
+    "Unda istalgan xo'jalik faoliyati, jumladan sanoat qurilishiga ruxsat bor",
+    "Unda hayvonlar yo'q",
+    "Uni hech kim nazorat qilmaydi"
+   ],
+   "e": "O'zbekistonda Zomin, Ugom-Chotqol milliy bog'lari bor."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Atrof-muhitga zarar yetkazganlik uchun qanday javobgarlik choralari mavjud?",
+   "a": [
+    "Intizomiy, ma'muriy, jinoiy va fuqarolik-huquqiy",
+    "Faqat og'zaki ogohlantirish va jamoatchilik muhokamasi",
+    "Faqat korxona rahbariyatining ichki tekshiruvi",
+    "Hech qanday javobgarlik yo'q"
+   ],
+   "e": "Yetkazilgan zarar qoplanishi shart."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "\"Ifloslantiruvchi to'laydi\" tamoyili nimani anglatadi?",
+   "a": [
+    "Ifloslanish uchun aybdor zararni qoplaydi",
+    "Barcha xarajatlarni davlat byudjeti to'laydi",
+    "Aholi ifloslanish uchun soliq to'laydi",
+    "Ifloslantiruvchi rag'batlantiriladi"
+   ],
+   "e": "Ekologik to'lovlar va jarimalar shunga asoslangan."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "BMTning atrof-muhit bo'yicha dasturi qanday qisqartma bilan ataladi?",
+   "a": [
+    "UNEP",
+    "UNESCO",
+    "UNICEF",
+    "WHO"
+   ],
+   "e": "United Nations Environment Programme, 1972-yilda tashkil etilgan."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Biologik xilma-xillik to'g'risidagi konvensiya qachon qabul qilingan?",
+   "a": [
+    "1992-yil, Rio-de-Janeyro",
+    "1972-yil, Stokgolm",
+    "1997-yil, Kioto (Yaponiya)",
+    "2015-yil, Parij"
+   ],
+   "e": "Rio sammitida barqaror rivojlanish g'oyasi ham qabul qilindi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Chiqindilarni boshqarish ierarxiyasida eng ustuvor yo'nalish qaysi?",
+   "a": [
+    "Chiqindi hosil bo'lishining oldini olish",
+    "Chiqindilarni maxsus sanitariya poligonlarida ko'mish va zichlash",
+    "Chiqindilarni yoqish",
+    "Chiqindilarni daryoga tashlash"
+   ],
+   "e": "Ierarxiya: oldini olish → qayta ishlatish → qayta ishlash → energiya olish → ko'mish."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Qattiq maishiy chiqindilarni saralashning ahamiyati nima?",
+   "a": [
+    "Qayta ishlashga yaroqli materiallarni ajratish",
+    "Chiqindilar hajmini oshirib, ularni yig'ish xarajatini kamaytirish",
+    "Poligonlarni tezroq to'ldirish",
+    "Chiqindilarni rang bo'yicha bezash"
+   ],
+   "e": "Qog'oz, plastmassa, shisha, metall alohida yig'iladi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Plastik chiqindilarning asosiy ekologik xavfi nima?",
+   "a": [
+    "Tabiatda juda sekin parchalanishi",
+    "Juda tez chirib, tuproqni o'g'itlashi",
+    "Suvda to'liq erib ketishi",
+    "Hech qanday xavfi yo'qligi"
+   ],
+   "e": "Ayrim plastmassalar yuzlab yillar davomida parchalanmaydi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Mikroplastik nima?",
+   "a": [
+    "5 mm dan kichik plastik zarralar",
+    "Mikroskop yasashda ishlatiladigan plastmassa",
+    "Faqat dorilar tarkibidagi modda",
+    "Biologik parchalanuvchi o'simlik tolasi"
+   ],
+   "e": "Mikroplastik oziq zanjiriga o'tadi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Xavfli chiqindilarga qaysi biri kiradi?",
+   "a": [
+    "Simobli lampalar va batareyalar",
+    "Oziq-ovqat qoldiqlari",
+    "Qog'oz va karton",
+    "Shisha idishlar"
+   ],
+   "e": "Xavfli chiqindilar alohida yig'iladi va zararsizlantiriladi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Kompostlash nima?",
+   "a": [
+    "Organik chiqindilarni mikroorganizmlar yordamida o'g'itga aylantirish",
+    "Plastik chiqindilarni yuqori haroratda eritib, qayta quyish va granulalash",
+    "Metallarni qayta eritish",
+    "Shisha chiqindilarni maydalash"
+   ],
+   "e": "Kompost tuproq unumdorligini oshiradi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Tibbiy chiqindilar qanday zararsizlantiriladi?",
+   "a": [
+    "Maxsus sterilizatsiya yoki yoqish qurilmalarida",
+    "Maishiy chiqindilar bilan birga ochiq poligonga tashlanadi",
+    "Daryoga oqiziladi",
+    "Hech qanday ishlov berilmaydi"
+   ],
+   "e": "Ular infeksiya tarqatish xavfiga ega."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Sanitariya poligoni ochiq chiqindixonadan qanday farq qiladi?",
+   "a": [
+    "Tuproq va suvni himoyalovchi gidroizolyatsiyaga ega",
+    "U shahar markazida joylashgan va hech qanday qoplamaga ega emas",
+    "Unda chiqindilar yoqib turiladi",
+    "Unda hech qanday nazorat yo'q"
+   ],
+   "e": "Fil'trat yig'iladi va tozalanadi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Ikkilamchi xomashyo deb nimaga aytiladi?",
+   "a": [
+    "Qayta ishlashga yaroqli chiqindilar",
+    "Birinchi marta qazib olingan foydali qazilma",
+    "Import qilingan mahsulot",
+    "Faqat oziq-ovqat mahsulotlari"
+   ],
+   "e": "Makulatura, metallolom, shisha siniqlari."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Chiqindisiz texnologiya nima?",
+   "a": [
+    "Xomashyo va chiqindilardan to'liq foydalanadigan ishlab chiqarish",
+    "Chiqindilarni yashirin joylarga ko'mib, hisobotda ko'rsatmaslik usuli",
+    "Faqat qo'l mehnatiga asoslangan ishlab chiqarish",
+    "Ishlab chiqarishni to'xtatish"
+   ],
+   "e": "Yopiq tsiklli texnologiyalar asosida quriladi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Barqaror rivojlanish nimani anglatadi?",
+   "a": [
+    "Kelajak avlodlar ehtiyojiga zarar yetkazmasdan hozirgi ehtiyojlarni qondirish",
+    "Faqat iqtisodiy o'sishni maksimal darajada oshirish, tabiiy resurslardan cheklovsiz foydalangan holda",
+    "Barcha sanoat korxonalarini yopib, qishloq turmushiga qaytish",
+    "Sanoatni butunlay to'xtatish"
+   ],
+   "e": "Iqtisodiy, ijtimoiy va ekologik jihatlar muvozanati."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "BMTning Barqaror rivojlanish maqsadlari nechta?",
+   "a": [
+    "17",
+    "10",
+    "8",
+    "25"
+   ],
+   "e": "2015-yilda 2030-yilgacha bo'lgan davr uchun qabul qilingan."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Qayta tiklanadigan energiya manbalariga qaysi biri kiradi?",
+   "a": [
+    "Quyosh energiyasi",
+    "Ko'mir",
+    "Neft",
+    "Tabiiy gaz"
+   ],
+   "e": "Shamol, gidro, geotermal, biomassa energiyasi ham qayta tiklanadi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Tugaydigan qayta tiklanmaydigan tabiiy resurslarga qaysi biri kiradi?",
+   "a": [
+    "Neft",
+    "Quyosh nuri",
+    "Shamol",
+    "O'rmon (to'g'ri foydalanilganda)"
+   ],
+   "e": "Foydali qazilmalar qayta tiklanmaydi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "\"Yashil iqtisodiyot\" nimani nazarda tutadi?",
+   "a": [
+    "Resurs tejamkor va kam uglerodli iqtisodiyotni",
+    "Faqat yashil rangli mahsulotlar ishlab chiqarishni",
+    "Faqat qishloq xo'jaligini",
+    "Iqtisodiy o'sishni to'xtatishni"
+   ],
+   "e": "Energiya samaradorligi va qayta tiklanuvchi energiya asosiy yo'nalishlar."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Energiyani tejashning maishiy usuliga qaysi biri kiradi?",
+   "a": [
+    "LED lampalardan foydalanish",
+    "Cho'g'lanma lampalarni kun bo'yi yoqib qo'yish",
+    "Isitish paytida derazalarni ochiq qoldirish",
+    "Elektr asboblarni doim tarmoqda qoldirish"
+   ],
+   "e": "LED lampalar cho'g'lanma lampalardan bir necha marta kam energiya sarflaydi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Uglerod izi (carbon footprint) nima?",
+   "a": [
+    "Faoliyat natijasida chiqariladigan parnik gazlar miqdori",
+    "Ko'mir va neft konlarining joylashuvini ko'rsatuvchi geologik xarita",
+    "Qalam izi",
+    "Tuproqdagi uglerod miqdori"
+   ],
+   "e": "CO₂-ekvivalentda o'lchanadi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Ekologik ta'limning asosiy maqsadi nima?",
+   "a": [
+    "Aholida ekologik madaniyat va mas'uliyatni shakllantirish",
+    "Faqat biologiya imtihoniga tayyorlash",
+    "Faqat sayohatlarni tashkil qilish",
+    "Faqat qishloq xo'jaligi va o'rmonchilik mutaxassislarini kasbiy tayyorlash"
+   ],
+   "e": "Ekologik ta'lim uzluksiz bo'lishi kerak."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Harorat omiliga ko'ra issiqqonli hayvonlar qanday nomlanadi?",
+   "a": [
+    "Gomoyotermlar",
+    "Poykilotermlar",
+    "Fototroflar",
+    "Kserofitlar"
+   ],
+   "e": "Poykilotermlar — tana harorati muhitga bog'liq hayvonlar."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Qurg'oqchilikka moslashgan o'simliklar qanday nomlanadi?",
+   "a": [
+    "Kserofitlar",
+    "Gidrofitlar",
+    "Gigrofitlar",
+    "Geliofitlar"
+   ],
+   "e": "Masalan, saksovul, yantoq, kaktus."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Yorug'sevar o'simliklar qanday nomlanadi?",
+   "a": [
+    "Geliofitlar",
+    "Ssiofitlar",
+    "Gidrofitlar",
+    "Galofitlar"
+   ],
+   "e": "Ssiofitlar — soyasevar o'simliklar."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Sho'r tuproqda o'sadigan o'simliklar qanday nomlanadi?",
+   "a": [
+    "Galofitlar",
+    "Kserofitlar",
+    "Gidrofitlar",
+    "Epifitlar"
+   ],
+   "e": "Masalan, sho'ra, qorasho'ra."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Hayvonlarning qishki uyquga ketishi qaysi omilga moslashuv?",
+   "a": [
+    "Haroratning pasayishi va oziq tanqisligi",
+    "Yorug'likning ko'payishi va kunning uzayishi",
+    "Namlikning keskin ortishi",
+    "Yirtqichlarning yo'qligi"
+   ],
+   "e": "Qishki uyquda moddalar almashinuvi sekinlashadi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Raqobat qanday hollarda eng kuchli bo'ladi?",
+   "a": [
+    "Turlar bir xil resurslarga ehtiyoj sezganda",
+    "Turlar butunlay har xil resurslardan foydalanganda",
+    "Resurslar cheksiz ko'p bo'lganda",
+    "Turlar turli qit'alarda yashaganda"
+   ],
+   "e": "Gauze printsipi: bir nishani ikki tur uzoq bo'lisha olmaydi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Energiya oqimi ekotizimda qanday yo'nalishda bo'ladi?",
+   "a": [
+    "Bir tomonlama, produtsentlardan konsumentlarga",
+    "Aylanma, energiya qayta-qayta ishlatiladi",
+    "Konsumentlardan produtsentlarga",
+    "Faqat redutsentlardan produtsentlarga"
+   ],
+   "e": "Energiya har bir darajada issiqlik sifatida yo'qoladi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Oziq zanjirida zaharli moddalar to'planishi qanday nomlanadi?",
+   "a": [
+    "Biomagnifikatsiya (biologik to'planish)",
+    "Fotosintez",
+    "Suksessiya",
+    "Biodegradatsiya"
+   ],
+   "e": "Yuqori trofik darajadagi organizmlarda konsentratsiya eng yuqori."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Oziq to'ri nima?",
+   "a": [
+    "O'zaro bog'langan oziq zanjirlari majmui",
+    "Faqat bitta oziq zanjiri va uning barcha trofik darajalari",
+    "Baliq ovlash to'ri",
+    "O'simlik ildizlari tizimi"
+   ],
+   "e": "Murakkab oziq to'ri ekotizim barqarorligini oshiradi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik muvozanat nima?",
+   "a": [
+    "Ekotizimdagi tarkib va jarayonlarning nisbiy barqarorligi",
+    "Ekotizimdagi barcha turlarning soni doimo bir xil bo'lishi va o'zgarmasligi",
+    "Faqat suv va havoning teng miqdori",
+    "Odamlar sonining doimiyligi"
+   ],
+   "e": "Muvozanat dinamik xarakterga ega."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik inqiroz nima?",
+   "a": [
+    "Tabiat va jamiyat o'rtasidagi muvozanatning keskin buzilishi",
+    "Ekologiya fanining jadal rivojlanishi va yangi yo'nalishlar paydo bo'lishi",
+    "Ekologik tashkilotlar soni ortishi",
+    "Ob-havoning mavsumiy o'zgarishi"
+   ],
+   "e": "Masalan, Orol fojiasi — mintaqaviy ekologik inqiroz."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Urbanizatsiyaning ekologik muammolaridan biri qaysi?",
+   "a": [
+    "Havo va suvning ifloslanishi, shovqin",
+    "Tabiiy o'rmonlar maydonining ko'payishi",
+    "Yovvoyi hayvonlar sonining ortishi",
+    "Qishloq xo'jalik yerlarining kengayishi"
+   ],
+   "e": "Shaharlar \"issiqlik oroli\" effektini ham hosil qiladi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Issiqlik elektr stansiyalarining asosiy ekologik ta'siri nima?",
+   "a": [
+    "CO₂, SO₂ va kul chiqarishi",
+    "Faqat shovqin",
+    "Faqat radioaktiv nurlanish",
+    "Faqat suvni sovitish"
+   ],
+   "e": "Gaz yoqilg'iga o'tish chiqindilarni kamaytiradi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Ozon qatlami yupqalashganda qanday xavf ortadi?",
+   "a": [
+    "Teri saratoni va ko'z kasalliklari",
+    "Havo harorati keskin pasayishi",
+    "Yog'ingarchilik ko'payishi",
+    "Zilzilalar soni ortishi"
+   ],
+   "e": "Ultrabinafsha nurlanish kuchayadi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Kioto protokoli nimaga bag'ishlangan?",
+   "a": [
+    "Parnik gazlari chiqindilarini kamaytirishga",
+    "Ozon qatlamini yemiruvchi moddalarni taqiqlashga",
+    "Botqoqliklarni muhofaza qilishga",
+    "Xavfli chiqindilarni tashishga"
+   ],
+   "e": "1997-yilda qabul qilingan."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Ramsar konvensiyasi nimani muhofaza qiladi?",
+   "a": [
+    "Botqoq va suv-botqoq yerlarni",
+    "Ozon qatlamini",
+    "Tog' muzliklarini",
+    "Cho'llarni"
+   ],
+   "e": "1971-yilda Ramsar shahrida (Eron) qabul qilingan."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Yer osti suvlarining ifloslanish manbalaridan biri qaysi?",
+   "a": [
+    "Chiqindi poligonlaridan sizib chiqqan suyuqlik",
+    "Toza yomg'ir suvi va tog'lardagi qor erishidan hosil bo'lgan suv",
+    "Tog'dagi muzliklar",
+    "Daraxt ildizlari"
+   ],
+   "e": "Filtrat tarkibida og'ir metallar va organik moddalar bo'ladi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Termik ifloslanish nima?",
+   "a": [
+    "Suv havzasiga isitilgan suvning tashlanishi",
+    "Suvning muzlashi",
+    "Suvga tuz qo'shilishi",
+    "Suvga yorug'lik tushishi"
+   ],
+   "e": "Isitilgan suvda kislorod kamayadi, ekotizim buziladi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Tuproq unumdorligini oshiruvchi tabiiy omil qaysi?",
+   "a": [
+    "Gumus (chirindi) miqdori",
+    "Tuproqdagi plastik qoldiqlar",
+    "Tuproqning siqilishi",
+    "Tuproqning sho'rlanishi"
+   ],
+   "e": "Gumus organik qoldiqlarning parchalanishidan hosil bo'ladi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Almashlab ekishning ekologik ahamiyati nima?",
+   "a": [
+    "Tuproq unumdorligini saqlash va zararkunandalarni kamaytirish",
+    "Bir xil ekinni har yili bir dalada ekib, tuproqni tez charchatish va o'g'itni ko'paytirish",
+    "Pestitsid sarfini oshirish",
+    "Suv sarfini ko'paytirish"
+   ],
+   "e": "Dukkakli ekinlar tuproqni azot bilan boyitadi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Ixotazorlarning (o'rmon polosalari) ahamiyati nima?",
+   "a": [
+    "Shamol eroziyasidan himoya va mikroiqlimni yaxshilash",
+    "Dalalar maydonini kamaytirib, hosildorlikni pasaytirish",
+    "Tuproqni sho'rlantirish",
+    "Suv sarfini oshirish"
+   ],
+   "e": "Ixotazorlar namlikni saqlaydi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ekologik audit nima?",
+   "a": [
+    "Korxona faoliyatining ekologik talablarga mosligini mustaqil baholash",
+    "Korxonaning moliyaviy hisobotlarini va soliq to'lovlarini mustaqil tekshirish",
+    "Xodimlar ish vaqtini nazorat qilish",
+    "Mahsulot narxini hisoblash"
+   ],
+   "e": "Audit natijasida kamchiliklarni bartaraf etish choralari belgilanadi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "ISO 14001 standarti nimaga bag'ishlangan?",
+   "a": [
+    "Ekologik menejment tizimiga",
+    "Sifat menejment tizimiga",
+    "Axborot xavfsizligiga",
+    "Mehnat muhofazasiga"
+   ],
+   "e": "ISO 9001 — sifat, ISO 45001 — mehnat muhofazasi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Atrof-muhitga ta'sirni baholash (ATB) qachon o'tkaziladi?",
+   "a": [
+    "Loyihani amalga oshirishdan oldin",
+    "Obyekt qurib bo'lingandan keyin, 10 yil o'tgach",
+    "Faqat avariya sodir bo'lgandan keyin",
+    "Hech qachon o'tkazilmaydi"
+   ],
+   "e": "Oldindan baholash zararli ta'sirlarning oldini oladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologiyaning qaysi bo'limi inson va atrof-muhit munosabatini o'rganadi?",
+   "a": [
+    "Inson ekologiyasi",
+    "Autekologiya, ya'ni alohida turning muhitga moslashuvini o'rganuvchi bo'lim",
+    "Paleoekologiya",
+    "Gidrobiologiya"
+   ],
+   "e": "Ijtimoiy ekologiya ham jamiyat va tabiat munosabatini o'rganadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Sanoat ekologiyasi nimani o'rganadi?",
+   "a": [
+    "Ishlab chiqarishning atrof-muhitga ta'sirini",
+    "Faqat yovvoyi hayvonlar xulq-atvorini va ularning migratsiyasini",
+    "Faqat o'rmon ekotizimlarini",
+    "Faqat okean tubini"
+   ],
+   "e": "Sanoat chiqindilarini kamaytirish yo'llari ishlab chiqiladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Tabiiy resurslar qanday turlarga bo'linadi?",
+   "a": [
+    "Tugaydigan va tugamaydigan",
+    "Faqat suv va havo",
+    "Faqat qishloq xo'jalik resurslari",
+    "Faqat foydali qazilmalar"
+   ],
+   "e": "Tugaydiganlar qayta tiklanadigan va tiklanmaydiganlarga bo'linadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Gomeostaz nima?",
+   "a": [
+    "Tizimning ichki muvozanatni saqlash qobiliyati",
+    "Tizimning tez o'zgarishi va yangi holatga o'tishi",
+    "Organizmlarning o'limi",
+    "Turlarning yo'qolishi"
+   ],
+   "e": "Ekotizim va organizm darajasida kuzatiladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik xavfsizlik nima?",
+   "a": [
+    "Inson va tabiatning ekologik tahdidlardan himoyalanganlik holati",
+    "Faqat yong'in xavfsizligi choralari",
+    "Faqat sanoat korxonalari hududini qo'riqlash va kirish-chiqishni nazorat qilish tizimi",
+    "Faqat yo'l harakati xavfsizligi"
+   ],
+   "e": "Davlat siyosatining muhim yo'nalishi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Ekologik plastiklik nima?",
+   "a": [
+    "Organizmning omil o'zgarishiga chidash qobiliyati",
+    "O'simliklarning plastinkasimon barg shakli",
+    "O'simliklarning plastinkasimon barglari",
+    "Plastik chiqindilarning tabiatda asta-sekin parchalanib ketish xususiyati"
+   ],
+   "e": "Plastiklik yuqori bo'lgan turlar keng tarqaladi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Cheklovchi omil deb qanday omilga aytiladi?",
+   "a": [
+    "Organizm uchun optimumdan eng ko'p chetlangan omil",
+    "Organizm uchun optimal qiymatda bo'lgan omil",
+    "Hech qanday ta'sir qilmaydigan omil",
+    "Faqat inson faoliyati bilan bog'liq omil"
+   ],
+   "e": "Masalan, cho'lda suv cheklovchi omil."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Suvda yashovchi organizmlar uchun qaysi abiotik omil muhim?",
+   "a": [
+    "Suvda erigan kislorod miqdori",
+    "Shamol tezligi va yo'nalishi",
+    "Tuproqning mexanik tarkibi",
+    "Havodagi chang va qurum miqdori"
+   ],
+   "e": "Harorat, sho'rlik va yorug'lik ham muhim."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Biologik ritmlarga misol qaysi?",
+   "a": [
+    "Sutkalik faollik tsikli",
+    "Tog' jinslarining yemirilishi",
+    "Zilzila",
+    "Vulqon otilishi"
+   ],
+   "e": "Sirkadian ritm taxminan 24 soatlik."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Xemosintez qiluvchi organizmlar qaysilar?",
+   "a": [
+    "Ayrim bakteriyalar",
+    "Yashil o'simliklar",
+    "Yirtqich hayvonlar",
+    "Zamburug'lar"
+   ],
+   "e": "Ular anorganik moddalarni oksidlab energiya oladi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Ikkinchi tartibli konsumentga qaysi biri misol?",
+   "a": [
+    "Tulki",
+    "Quyon",
+    "Bug'doy",
+    "Chigirtka"
+   ],
+   "e": "Tulki o'txo'r hayvonlarni yeydi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Saprofaglar nima bilan oziqlanadi?",
+   "a": [
+    "O'lik organik qoldiqlar bilan",
+    "Tirik o'simliklar bilan",
+    "Faqat tirik hayvonlar bilan",
+    "Quyosh nuri bilan"
+   ],
+   "e": "Masalan, yomg'ir chuvalchanglari."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Ekotizim mahsuldorligi nima?",
+   "a": [
+    "Vaqt birligida hosil bo'ladigan biomassa",
+    "Ekotizim egallagan maydon",
+    "Ekotizimning paydo bo'lganidan beri o'tgan yoshi",
+    "Ekotizimdagi turlar soni va ularning xilma-xilligi"
+   ],
+   "e": "Birlamchi mahsuldorlik produtsentlarga tegishli."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Biosferadagi tirik moddaning asosiy qismi qayerda to'plangan?",
+   "a": [
+    "Quruqlik o'simliklarida",
+    "Okean tubidagi baliqlarda",
+    "Atmosferaning yuqori qatlamida",
+    "Muzliklarda"
+   ],
+   "e": "Biomassaning katta qismi o'rmonlarga to'g'ri keladi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Tropik o'rmonlarning sayyora uchun ahamiyati nima?",
+   "a": [
+    "Kislorod ishlab chiqarish va biologik xilma-xillikni saqlash",
+    "Faqat yog'och tayyorlash manbai bo'lib, boshqa ahamiyati yo'q",
+    "Iqlimga hech qanday ta'sir qilmaydi",
+    "Faqat turizm uchun"
+   ],
+   "e": "\"Sayyora o'pkasi\" deb ataladi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Botqoqliklarning ekologik ahamiyati nima?",
+   "a": [
+    "Suvni filtrlaydi va ko'plab turlar uchun yashash joyi",
+    "Hech qanday ahamiyati yo'q, ularni quritish kerak",
+    "Faqat chivin va boshqa hasharotlar ko'payadigan zararli hudud",
+    "Faqat torf qazish uchun"
+   ],
+   "e": "Botqoqliklar \"Yerning buyraklari\" deb ataladi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Tog' ekotizimlarida balandlik ortishi bilan nima o'zgaradi?",
+   "a": [
+    "Harorat va o'simliklar tarkibi",
+    "Faqat tuproq rangi",
+    "Hech narsa o'zgarmaydi",
+    "Faqat hayvonlar rangi"
+   ],
+   "e": "Vertikal mintaqalanish kuzatiladi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "O'zbekistonda qaysi qo'riqxona eng qadimgilaridan biri hisoblanadi?",
+   "a": [
+    "Chotqol tog'-o'rmon biosfera qo'riqxonasi",
+    "Zomin milliy bog'i (1976-yilda tashkil etilgan)",
+    "Ugom-Chotqol milliy bog'i",
+    "Hisor qo'riqxonasi"
+   ],
+   "e": "Chotqol qo'riqxonasi 1947-yilda tashkil etilgan."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Atmosferaning tabiiy ifloslanish manbalariga qaysi biri kiradi?",
+   "a": [
+    "Vulqon otilishi va chang bo'ronlari",
+    "Avtomobillar va sanoat korxonalari",
+    "Issiqlik elektr stansiyalari",
+    "Chiqindilarni yoqish"
+   ],
+   "e": "Antropogen manbalar inson faoliyati bilan bog'liq."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Shaharlarda havo ifloslanishining asosiy manbai qaysi?",
+   "a": [
+    "Avtotransport",
+    "O'rmonlar",
+    "Daryolar",
+    "Qishloq xo'jalik ekinlari"
+   ],
+   "e": "Ko'p shaharlarda chiqindilarning yarmidan ko'pi transportga to'g'ri keladi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Elektromobillarning ekologik afzalligi nima?",
+   "a": [
+    "Harakat joyida chiqindi gaz chiqarmaydi",
+    "Ishlab chiqarishda umuman resurs talab qilmaydi",
+    "Shovqinni oshiradi",
+    "Benzin sarfini ko'paytiradi"
+   ],
+   "e": "Batareya ishlab chiqarish va utilizatsiyasi muammolari ham bor."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Sanoat korxonalarida gaz chiqindilarini tozalash uchun qaysi usul ishlatiladi?",
+   "a": [
+    "Absorbsiya va adsorbsiya",
+    "Faqat baland quvur qurish",
+    "Gazlarni ochiq havoga chiqarish",
+    "Gazlarni bo'yash"
+   ],
+   "e": "Skrubberlarda zararli gazlar suyuqlikka yutiladi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Baland mo'rilar (quvurlar) qurish ifloslanish muammosini hal qiladimi?",
+   "a": [
+    "Yo'q, faqat ifloslanishni kengroq hududga tarqatadi",
+    "Ha, chunki chiqindilar kosmosga ketadi va yo'qoladi",
+    "Ha, chiqindilar butunlay zararsizlanadi",
+    "Ha, chiqindilar bulutga aylanadi"
+   ],
+   "e": "Tozalash qurilmalari zarur."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Kollektor-drenaj suvlarining asosiy muammosi nima?",
+   "a": [
+    "Yuqori sho'rlik va pestitsid qoldiqlari",
+    "Juda sovuq va muzli bo'lishi",
+    "Juda toza, mineralsizlangan va ichishga yaroqli bo'lishi",
+    "Suv miqdorining kamligi"
+   ],
+   "e": "Bu suvlar daryolarga qaytib, ularni sho'rlantiradi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Suv resurslaridan oqilona foydalanishning asosiy yo'nalishi qaysi?",
+   "a": [
+    "Suvni tejovchi texnologiyalarni joriy etish",
+    "Suvni cheklovsiz ishlatish",
+    "Kanallarni qoplamasiz qoldirish",
+    "Oqova suvlarni tozalamasdan tashlash"
+   ],
+   "e": "Aylanma suv ta'minoti sanoatda suv sarfini kamaytiradi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Aylanma suv ta'minoti nima?",
+   "a": [
+    "Ishlatilgan suvni tozalab, qayta ishlatish tizimi",
+    "Suvni daryodan olib, ishlatib, yana daryoga tashlash",
+    "Faqat yomg'ir suvidan foydalanish",
+    "Suvni muzlatib saqlash"
+   ],
+   "e": "Toza suv olinishi va oqova tashlanishi kamayadi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Ichimlik suvi sifatini nazorat qilishda qaysi ko'rsatkich tekshiriladi?",
+   "a": [
+    "Mikrobiologik va kimyoviy ko'rsatkichlar",
+    "Faqat suv rangi, hidi va ta'mi (organoleptik)",
+    "Faqat suv harorati",
+    "Faqat suv narxi"
+   ],
+   "e": "Davlat standarti talablari belgilangan."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Tuproq ifloslanishining asosiy manbalari qaysilar?",
+   "a": [
+    "Sanoat chiqindilari, pestitsidlar va maishiy chiqindilar",
+    "O'simlik ildizlari va yomg'ir chuvalchanglari faoliyati",
+    "Tog' jinslarining tabiiy nurashi va qor erishi",
+    "Daraxt barglarining to'kilishi"
+   ],
+   "e": "Og'ir metallar tuproqda uzoq saqlanadi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Og'ir metallarga qaysi biri kiradi?",
+   "a": [
+    "Qo'rg'oshin",
+    "Natriy",
+    "Kaliy",
+    "Kalsiy"
+   ],
+   "e": "Simob, kadmiy, qo'rg'oshin — eng xavfli og'ir metallar."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Jarlik eroziyasining oldini olish usuli qaysi?",
+   "a": [
+    "Qiyaliklarda daraxt ekish va terrasalash",
+    "Qiyaliklarda o'simliklarni yo'qotib, yerni shudgorlash",
+    "Qiyaliklarni suv bilan bostirish",
+    "Qiyaliklarga chiqindi tashlash"
+   ],
+   "e": "O'simlik ildizlari tuproqni mustahkamlaydi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "O'zbekistonda atmosfera havosini muhofaza qilish qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"Atmosfera havosini muhofaza qilish to'g'risida\"gi Qonun",
+    "\"Suv va suvdan foydalanish to'g'risida\"gi Qonun",
+    "\"Muhofaza etiladigan tabiiy hududlar to'g'risida\"gi Qonun",
+    "\"Chiqindilar to'g'risida\"gi Qonun"
+   ],
+   "e": "1996-yilda qabul qilingan."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Chiqindilar bilan bog'liq munosabatlar qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"Chiqindilar to'g'risida\"gi Qonun",
+    "\"Atmosfera havosini muhofaza qilish to'g'risida\"gi Qonun",
+    "\"O'rmon to'g'risida\"gi Qonun",
+    "\"Hayvonot dunyosini muhofaza qilish to'g'risida\"gi Qonun"
+   ],
+   "e": "2002-yilda qabul qilingan."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ekologik nazoratning qanday turlari mavjud?",
+   "a": [
+    "Davlat, idoraviy, ishlab chiqarish va jamoatchilik nazorati",
+    "Faqat oilaviy va maktab nazorati",
+    "Faqat xalqaro tashkilotlar tomonidan yiliga bir marta o'tkaziladigan nazorat",
+    "Nazorat mavjud emas, faqat ixtiyoriy hisobot"
+   ],
+   "e": "Jamoatchilik nazorati fuqarolar va nodavlat tashkilotlar tomonidan amalga oshiriladi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ekologik pasport nima?",
+   "a": [
+    "Korxonaning tabiiy resurslardan foydalanishi va ifloslantirishi haqidagi hujjat",
+    "Fuqaroning shaxsini tasdiqlovchi hujjat",
+    "Korxonaning moliyaviy holati va xodimlari soni haqidagi hisobot hujjati",
+    "Daraxtning yoshi haqidagi hujjat"
+   ],
+   "e": "Ekologik pasportda chiqindilar hajmi va tarkibi ko'rsatiladi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ekologik sug'urta nima uchun kerak?",
+   "a": [
+    "Avariya natijasidagi ekologik zararni qoplash uchun",
+    "Xodimlarning sog'lig'ini sug'urtalash uchun",
+    "Avtomobilni o'g'irlikdan sug'urtalash uchun",
+    "Mulkni yong'indan sug'urtalash uchun"
+   ],
+   "e": "Xavfli obyektlar uchun majburiy."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Tabiatni muhofaza qilishda jamoatchilikning roli nima?",
+   "a": [
+    "Ekologik nazorat va qarorlar qabul qilishda ishtirok etish",
+    "Hech qanday roli yo'q, qarorlarni faqat davlat qabul qiladi",
+    "Faqat ekologik jarimalarni to'lash va subbotniklarda qatnashish",
+    "Faqat bayram tadbirlarida qatnashish"
+   ],
+   "e": "Fuqarolar ekologik axborot olish huquqiga ega."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Makulatura qayta ishlanganda qanday ekologik foyda bor?",
+   "a": [
+    "Daraxtlar kesilishi kamayadi",
+    "Daraxtlar ko'proq kesiladi",
+    "Suv sarfi ortadi",
+    "Hech qanday foyda yo'q"
+   ],
+   "e": "1 tonna makulatura taxminan 15–17 daraxtni tejaydi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Batareyalarni maishiy chiqindi bilan tashlash nima uchun xavfli?",
+   "a": [
+    "Og'ir metallar tuproq va suvga o'tadi",
+    "Batareyalar tezda tabiiy holda parchalanadi",
+    "Ular o'g'it vazifasini bajaradi",
+    "Hech qanday xavfi yo'q"
+   ],
+   "e": "Batareyalar maxsus yig'ish punktlariga topshiriladi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Biogaz nima?",
+   "a": [
+    "Organik chiqindilarning anaerob parchalanishidan hosil bo'ladigan gaz",
+    "Neftni haydashdan olinadigan suyultirilgan gaz",
+    "Vulqon gazlari",
+    "Vulqon otilishida ajraladigan oltingugurtli gazlar aralashmasi"
+   ],
+   "e": "Asosiy tarkibi — metan."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Elektron chiqindilarning xavfi nima?",
+   "a": [
+    "Tarkibida zaharli og'ir metallar bo'lishi",
+    "Faqat yoqimsiz tashqi ko'rinishi",
+    "Tarkibida hech qanday qimmatli material yo'qligi",
+    "Tabiatda juda tez chirib, tuproqni o'g'itlashi"
+   ],
+   "e": "Elektron chiqindilardan qimmatbaho metallarni ham ajratib olish mumkin."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Shamol elektr stansiyalarining afzalligi nima?",
+   "a": [
+    "Parnik gazi chiqarmasligi",
+    "Har qanday ob-havoda bir xil quvvat berishi",
+    "Hech qanday joy egallamasligi",
+    "Yoqilg'i bilan ishlashi"
+   ],
+   "e": "Kamchiligi — quvvatning shamolga bog'liqligi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Quyosh fotoelektr stansiyalari O'zbekistonda nima uchun istiqbolli?",
+   "a": [
+    "Yilda quyoshli kunlar ko'p",
+    "Mamlakatda quyosh nuri juda kam bo'lgani uchun",
+    "Ular eng arzon ko'mir bilan ishlagani uchun",
+    "Ular hech qanday texnologiya talab qilmagani uchun"
+   ],
+   "e": "O'zbekistonda yiliga 300 kunga yaqin quyoshli kun bo'ladi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Energiya samaradorligini oshirishning qurilishdagi usuli qaysi?",
+   "a": [
+    "Binolarni issiqlik izolyatsiyasi bilan qoplash",
+    "Devorlarni yupqaroq qilib, derazalarni kattalashtirish",
+    "Isitishni kun bo'yi maksimal rejimda ishlatish",
+    "Eski derazalarni almashtirmaslik"
+   ],
+   "e": "Issiqlik yo'qotishlari kamayadi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Ekologik toza mahsulot belgisi (eko-yorliq) nimani bildiradi?",
+   "a": [
+    "Mahsulot atrof-muhitga kam zararli ekanini",
+    "Mahsulot eng arzon ekanini",
+    "Mahsulot import qilinganini",
+    "Mahsulot yangi ekanini"
+   ],
+   "e": "Eko-yorliqlar sertifikatsiya asosida beriladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik tizimning asosiy tarkibiy qismlari qaysilar?",
+   "a": [
+    "Biotsenoz va biotop",
+    "Faqat o'simliklar va ularning ildizlari, tuproqning yuqori qatlami bilan birga",
+    "Faqat hayvonlar",
+    "Faqat suv va havo"
+   ],
+   "e": "Tirik va jonsiz komponentlar birligi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Antropogen landshaft nima?",
+   "a": [
+    "Inson faoliyati natijasida o'zgargan landshaft",
+    "Inson ta'siri bo'lmagan yovvoyi tabiat hududi",
+    "Faqat tog'li va baland qoyali hududlar landshafti",
+    "Faqat suv havzasi"
+   ],
+   "e": "Shaharlar, dalalar, suv omborlari."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik madaniyat nimani anglatadi?",
+   "a": [
+    "Tabiatga ongli va mas'uliyatli munosabat",
+    "Faqat ekologiya fanidan yaxshi baho olish",
+    "Tabiat manzaralarini chizish",
+    "Faqat gul o'stirish"
+   ],
+   "e": "Ekologik madaniyat ta'lim va tarbiya orqali shakllanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Global ekologik muammolarga qaysi biri kiradi?",
+   "a": [
+    "Iqlim o'zgarishi",
+    "Bitta daraxtning qurishi",
+    "Mahalladagi axlat qutisining to'lishi",
+    "Bir xonadagi chang"
+   ],
+   "e": "Shuningdek ozon qatlami, biologik xilma-xillik kamayishi, cho'llanish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Mintaqaviy ekologik muammoga O'zbekistondan misol keltiring.",
+   "a": [
+    "Orol dengizining qurishi",
+    "Antarktida muzliklarining erishi",
+    "Amazoniya o'rmonlarining kesilishi",
+    "Tinch okeanidagi plastik orol"
+   ],
+   "e": "Orol fojiasi butun Markaziy Osiyoga ta'sir ko'rsatmoqda."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Tuproqning sho'rlanishiga chidamli bo'lmagan ekinlarda nima kuzatiladi?",
+   "a": [
+    "Hosildorlikning kamayishi",
+    "Hosildorlikning keskin oshishi va pishish tezlashishi",
+    "Hech qanday o'zgarish bo'lmaydi",
+    "O'simliklar balandligining ortishi"
+   ],
+   "e": "Sho'rlanish ekinlar o'sishini cheklaydi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Allelopatiya nima?",
+   "a": [
+    "O'simliklarning kimyoviy moddalar orqali bir-biriga ta'siri",
+    "Hayvonlarning tovush signallari orqali o'zaro muloqot qilishi",
+    "Qushlarning migratsiyasi",
+    "Baliqlarning uvildiriq tashlashi"
+   ],
+   "e": "Masalan, yong'oq ildiz ajratmalari boshqa o'simliklarni bostiradi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Populyatsiya zichligi nima?",
+   "a": [
+    "Birlik maydon yoki hajmdagi individlar soni",
+    "Populyatsiyaning umumiy massasi",
+    "Populyatsiya yashaydigan hududning chegarasi",
+    "Individlarning o'rtacha yoshi"
+   ],
+   "e": "Masalan, 1 ga dagi daraxtlar soni."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Populyatsiya soniga ta'sir qiluvchi omillarga qaysilar kiradi?",
+   "a": [
+    "Tug'ilish, o'lim, migratsiya",
+    "Faqat individlarning rangi va tana o'lchamlari",
+    "Faqat hududning nomi",
+    "Faqat yil fasli nomi"
+   ],
+   "e": "Tug'ilish va immigratsiya sonni oshiradi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Ekologik piramidaning qaysi turi har doim to'g'ri (asosi keng) shaklda bo'ladi?",
+   "a": [
+    "Energiya piramidasi",
+    "Sonlar piramidasi",
+    "Biomassa piramidasi",
+    "Barchasi har doim teskari"
+   ],
+   "e": "Energiya har bir darajada kamayib boradi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Okeandagi asosiy produtsentlar qaysilar?",
+   "a": [
+    "Fitoplankton",
+    "Kitlar",
+    "Akulalar",
+    "Delfinlar"
+   ],
+   "e": "Fitoplankton atmosfera kislorodining katta qismini ishlab chiqaradi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "\"O't → sigir → odam\" zanjirida odam qaysi trofik darajada?",
+   "a": [
+    "Uchinchi",
+    "Birinchi",
+    "Ikkinchi",
+    "To'rtinchi"
+   ],
+   "e": "O't — 1, sigir — 2, odam — 3."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Ekotizimning o'z-o'zini boshqarishi nimaga asoslangan?",
+   "a": [
+    "Teskari aloqa mexanizmlariga",
+    "Faqat inson aralashuvi va ma'muriy boshqaruvga",
+    "Faqat iqlimga",
+    "Faqat tasodifga"
+   ],
+   "e": "Yirtqich-o'lja munosabatlari populyatsiyalarni boshqaradi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Cho'l ekotizimlariga xos o'simlik qaysi?",
+   "a": [
+    "Saksovul",
+    "Archa",
+    "Qarag'ay",
+    "Lola daraxti"
+   ],
+   "e": "Saksovul O'zbekiston cho'llarida keng tarqalgan."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "To'qay ekotizimlari qayerda joylashgan?",
+   "a": [
+    "Daryo vodiylari bo'ylab",
+    "Baland tog' cho'qqilarida",
+    "Qumli cho'llar markazida",
+    "Okean tubida"
+   ],
+   "e": "Amudaryo va Sirdaryo to'qaylarida tug'ay bug'usi yashaydi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Biosferadagi kislorodning asosiy manbai nima?",
+   "a": [
+    "Fotosintez",
+    "Vulqonlar",
+    "Yonish jarayonlari",
+    "Nafas olish"
+   ],
+   "e": "Yashil o'simliklar va fitoplankton."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Havo ifloslanishining inson sog'lig'iga eng ko'p ta'sir qiladigan tizimi qaysi?",
+   "a": [
+    "Nafas olish tizimi",
+    "Tayanch-harakat tizimi",
+    "Eshitish organlari",
+    "Teri rangi"
+   ],
+   "e": "Astma, bronxit va o'pka kasalliklari ko'payadi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "PM2.5 belgisi nimani bildiradi?",
+   "a": [
+    "Diametri 2,5 mkm dan kichik muallaq zarrachalar",
+    "Havodagi kislorod miqdorining me'yordan 2,5 foiz kamayishi",
+    "2,5 kun davomida o'lchangan harorat",
+    "Avtomobil tezligi 2,5 km/soat"
+   ],
+   "e": "Bunday zarrachalar o'pkaning chuqur qismiga kiradi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Global isishning oqibatlaridan biri qaysi?",
+   "a": [
+    "Ekstremal ob-havo hodisalarining ko'payishi",
+    "Barcha muzliklarning qalinlashishi va dengiz sathining keskin pasayishi",
+    "Qishning uzayishi",
+    "Yog'ingarchilik umuman yo'qolishi"
+   ],
+   "e": "Qurg'oqchilik, suv toshqinlari, issiq to'lqinlari kuchaymoqda."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Metan atmosferaga asosan qaysi manbalardan tushadi?",
+   "a": [
+    "Chorvachilik, sholikorlik va chiqindi poligonlari",
+    "Faqat quyosh nuri ta'sirida suvning parchalanishidan",
+    "Faqat okean to'lqinlaridan",
+    "Faqat shamoldan"
+   ],
+   "e": "Gaz quvurlaridan sizib chiqishlar ham manba."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Okeanlarning plastik bilan ifloslanishi qanday zarar keltiradi?",
+   "a": [
+    "Dengiz hayvonlari plastikni yutib nobud bo'ladi",
+    "Okean suvini tozalab, baliqlar sonini oshiradi",
+    "Hech qanday zarari yo'q",
+    "Faqat to'lqinlarni kuchaytiradi"
+   ],
+   "e": "Plastik bo'laklari oziq zanjiriga kiradi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Daryolar o'zanini tartibga solishning ekologik xavfi nima?",
+   "a": [
+    "Ekotizimlarning buzilishi va baliqlar migratsiyasining to'xtashi",
+    "Baliqlar sonining keskin ortishi va suv sifatining yaxshilanishi",
+    "Hech qanday xavfi yo'q",
+    "Faqat suv rangining o'zgarishi"
+   ],
+   "e": "To'g'onlar baliqlarning uvildiriq tashlash joylariga yo'lni to'sadi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Sanoat oqova suvlari tarkibidagi og'ir metallar qanday zarar keltiradi?",
+   "a": [
+    "Organizmlarda to'planib, zaharlanishga olib keladi",
+    "Suvni foydali minerallar bilan boyitib, uning sifatini yaxshilaydi",
+    "Suv o'simliklarining o'sishini tezlashtiradi",
+    "Suvning harorati pasayadi"
+   ],
+   "e": "Biomagnifikatsiya orqali inson organizmiga ham o'tadi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Tuproq hosil bo'lishi uchun asosan qancha vaqt kerak?",
+   "a": [
+    "Juda uzoq (1 sm uchun yuzlab yil)",
+    "Bir necha kun",
+    "Bir mavsum",
+    "Bir yil"
+   ],
+   "e": "Shuning uchun tuproq amalda qayta tiklanmaydigan resurs."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Haddan tashqari mineral o'g'it ishlatishning oqibati nima?",
+   "a": [
+    "Suv havzalarining evtrofikatsiyasi va nitratlar to'planishi",
+    "Tuproq tuzilishining yaxshilanishi va undagi gumus miqdorining ortishi",
+    "Hech qanday salbiy oqibat yo'q",
+    "Hasharotlar sonining kamayishi"
+   ],
+   "e": "Nitratlar sabzavotlar orqali organizmga tushadi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Yer osti boyliklarini ochiq usulda qazib olish qanday ekologik muammo tug'diradi?",
+   "a": [
+    "Katta maydonlarda landshaft buziladi",
+    "Tuproq unumdorligi oshadi",
+    "Yer osti suvlari tozalanadi",
+    "Hech qanday muammo tug'dirmaydi"
+   ],
+   "e": "Karyerlar va ag'darmalar hosil bo'ladi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ekologik huquqbuzarlik uchun jinoiy javobgarlik qaysi kodeksda belgilangan?",
+   "a": [
+    "Jinoyat kodeksi",
+    "Oila kodeksi",
+    "Soliq kodeksi",
+    "Bojxona kodeksi"
+   ],
+   "e": "Ma'muriy javobgarlik Ma'muriy javobgarlik to'g'risidagi kodeksda belgilangan."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Atrof-muhitni muhofaza qilish bo'yicha davlat nazoratini qaysi organ amalga oshiradi?",
+   "a": [
+    "Ekologiya sohasidagi vakolatli davlat organi",
+    "Faqat Moliya vazirligi va soliq organlari",
+    "Faqat Sport vazirligi",
+    "Faqat mahalla fuqarolar yig'ini"
+   ],
+   "e": "Soha bo'yicha vazirlik va uning hududiy bo'linmalari."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ekologik me'yorlash nimani belgilaydi?",
+   "a": [
+    "Atrof-muhitga ruxsat etilgan ta'sir chegaralarini",
+    "Mahsulotlarning narxini",
+    "Xodimlarning ish haqini",
+    "Transport tariflarini"
+   ],
+   "e": "REK, REChT (ruxsat etilgan eng yuqori chiqindi) kabi me'yorlar."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ruxsat etilgan eng yuqori chiqindi (REYCh) me'yori kimga belgilanadi?",
+   "a": [
+    "Ifloslantiruvchi manba (korxona)ga",
+    "Har bir fuqaroga yashash joyiga qarab alohida",
+    "Faqat davlat idoralariga",
+    "Faqat transport vositalariga"
+   ],
+   "e": "Bu me'yor REK ga rioya qilinishini ta'minlaydi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Xalqaro \"Yer kuni\" qachon nishonlanadi?",
+   "a": [
+    "22-aprel",
+    "5-iyun",
+    "1-may",
+    "16-sentyabr"
+   ],
+   "e": "5-iyun — Butunjahon atrof-muhitni muhofaza qilish kuni, 16-sentyabr — Ozon qatlamini muhofaza qilish kuni."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Butunjahon atrof-muhitni muhofaza qilish kuni qachon nishonlanadi?",
+   "a": [
+    "5-iyun",
+    "22-aprel",
+    "22-mart",
+    "8-mart"
+   ],
+   "e": "22-mart — Butunjahon suv kuni."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "\"3R\" tamoyili nimani anglatadi?",
+   "a": [
+    "Kamaytirish, qayta foydalanish, qayta ishlash",
+    "Yig'ish, tashish, yoqish",
+    "Ko'mish, yoqish, tashlash",
+    "Sotish, sotib olish, ishlatish"
+   ],
+   "e": "Reduce, Reuse, Recycle."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Shisha idishni qayta ishlashning afzalligi nima?",
+   "a": [
+    "Shisha cheksiz marta sifatini yo'qotmay qayta ishlanadi",
+    "Shisha qayta ishlanganda zaharli gazga aylanib, atmosferani ifloslaydi",
+    "Shishani qayta ishlab bo'lmaydi",
+    "Shisha tabiatda tez chiriydi"
+   ],
+   "e": "Xomashyo va energiya tejaladi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Metallolomni qayta ishlashning afzalligi nima?",
+   "a": [
+    "Rudadan olishga nisbatan energiya va xomashyo tejaladi",
+    "Metall sifati keskin yomonlashadi va foydalanib bo'lmaydi",
+    "Qayta ishlash rudadan olishga qaraganda ko'proq energiya talab qiladi",
+    "Hech qanday afzalligi yo'q"
+   ],
+   "e": "Alyuminiyni qayta ishlash rudadan olishga nisbatan ancha kam energiya talab qiladi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Qishloq xo'jalik chiqindilaridan qanday foydalanish mumkin?",
+   "a": [
+    "Kompost va biogaz olish",
+    "Ularni daryolarga tashlash",
+    "Ularni ochiq yoqish",
+    "Ularni yo'llarga sepish"
+   ],
+   "e": "Go'ng va o'simlik qoldiqlari qimmatli resurs."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Barqaror rivojlanishning uchta asosiy tarkibiy qismi qaysi?",
+   "a": [
+    "Iqtisodiy, ijtimoiy, ekologik",
+    "Siyosiy, harbiy va madaniy-ma'rifiy yo'nalishlar",
+    "Moliyaviy, bank, soliq",
+    "Sport, turizm, san'at"
+   ],
+   "e": "Ularning muvozanati barqaror rivojlanishni ta'minlaydi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Ekologik turizmning (ekoturizm) asosiy tamoyili nima?",
+   "a": [
+    "Tabiatga zarar yetkazmasdan uni o'rganish va asrash",
+    "Tabiat hududlarida katta mehmonxonalar va avtomagistrallar qurish",
+    "Yovvoyi hayvonlarni ovlash",
+    "Chiqindilarni tabiatda qoldirish"
+   ],
+   "e": "Ekoturizm mahalliy aholiga ham foyda keltiradi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Suvni tejashning maishiy usuliga qaysi biri kiradi?",
+   "a": [
+    "Oqayotgan jo'mraklarni ta'mirlash",
+    "Tish yuvishda suvni doim ochiq qoldirish",
+    "Mashinani shlang bilan har kuni yuvish",
+    "Bog'ni kunduzi issiqda sug'orish"
+   ],
+   "e": "Bir oqayotgan jo'mrak sutkasiga o'nlab litr suvni isrof qiladi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Yashil qurilish (green building) nimani nazarda tutadi?",
+   "a": [
+    "Energiya va resurs tejovchi, ekologik toza binolar qurish",
+    "Binolarni faqat yashil rangga bo'yash va tomlarga o't ekish",
+    "Faqat daraxtlardan uy qurish",
+    "Binolarni o'rmon ichida qurish"
+   ],
+   "e": "Quyosh panellari, issiqlik izolyatsiyasi, yomg'ir suvini yig'ish."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Organizmlar va muhitning o'zaro ta'siri qanday nomlanadi?",
+   "a": [
+    "Ekologik munosabatlar",
+    "Faqat organizmlarning ichki fiziologik jarayonlari va hujayra almashinuvi",
+    "Faqat iqlimiy o'zgarishlar va ob-havo hodisalari",
+    "Faqat organizmlarning anatomik tuzilishi"
+   ],
+   "e": "Ekologiya aynan shu munosabatlarni o'rganadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Tabiatdan foydalanish turlariga qaysi biri kiradi?",
+   "a": [
+    "Oqilona",
+    "Faqat maksimal darajada, resurslarning tiklanishini hisobga olmagan holda",
+    "Faqat taqiqlangan, hech qanday foydalanishga yo'l qo'yilmaydigan",
+    "Faqat tasodifiy va rejasiz"
+   ],
+   "e": "Oqilona va nooqilona tabiatdan foydalanish ajratiladi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Biosferaning tirik moddasi bajaradigan funksiyalardan biri qaysi?",
+   "a": [
+    "Energetik",
+    "Faqat bezak va manzara hosil qilish funksiyasi",
+    "Faqat tog' jinslarini mexanik yemirish funksiyasi",
+    "Hech qanday funksiya bajarmaydi"
+   ],
+   "e": "Shuningdek gaz, konsentratsion, oksidlanish-qaytarilish funksiyalari."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Tuproqdagi organizmlar uchun qaysi omil muhim?",
+   "a": [
+    "Aeratsiya",
+    "Atmosfera bosimining sutkalik o'zgarishi va shamol yo'nalishi",
+    "Oy fazalari va yulduzlar joylashuvi",
+    "Bulutlarning shakli va rangi"
+   ],
+   "e": "Tuproqdagi havo almashinuvi ildizlar va mikroorganizmlar uchun zarur."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Hayvonlarning yil fasllariga qarab rangini o'zgartirishi qanday moslashuv?",
+   "a": [
+    "Mavsumiy",
+    "Tasodifiy, hech qanday sababsiz yuz beradigan o'zgarish",
+    "Kasallik belgisi",
+    "Faqat qarilik belgisi"
+   ],
+   "e": "Masalan, oq quyon qishda oqaradi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Yirtqich va o'lja populyatsiyalari soni qanday o'zgaradi?",
+   "a": [
+    "Davriy tebranadi",
+    "Har doim bir xil, o'zgarmas darajada saqlanadi",
+    "Faqat o'sib boradi",
+    "Faqat kamayib boradi"
+   ],
+   "e": "O'lja ko'paysa, yirtqich ham ko'payadi va aksincha."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Birinchi tartibli konsumentga misol qaysi?",
+   "a": [
+    "Quyon",
+    "Bo'ri, chunki u boshqa hayvonlarni ovlaydi va yirtqich hisoblanadi",
+    "Burgut",
+    "Yo'lbars"
+   ],
+   "e": "O'txo'r hayvonlar birinchi tartibli konsumentlar."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Oziq zanjirining birinchi bo'g'ini odatda nima?",
+   "a": [
+    "Produtsent",
+    "Eng katta yirtqich hayvon, ya'ni zanjir cho'qqisidagi organizm",
+    "Redutsent",
+    "Ikkinchi tartibli konsument"
+   ],
+   "e": "Yashil o'simliklar organik modda hosil qiladi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Fotosintez uchun qaysi energiya manbai zarur?",
+   "a": [
+    "Quyosh nuri",
+    "Yer qa'ridagi issiqlik va vulqon energiyasi",
+    "Shamol energiyasi",
+    "Tuproqdagi elektr toki"
+   ],
+   "e": "Xlorofill yorug'lik energiyasini yutadi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Ekotizim barqarorligini nima oshiradi?",
+   "a": [
+    "Turlar xilma-xilligi",
+    "Faqat bitta tur sonining ko'pligi va boshqa turlarning yo'qligi",
+    "Turlar sonining keskin kamayishi",
+    "Oziq zanjirlarining qisqarishi"
+   ],
+   "e": "Xilma-xil jamoalar tashqi ta'sirlarga chidamliroq."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Monokultura (bir xil ekin) maydonlarining ekologik kamchiligi nima?",
+   "a": [
+    "Zararkunandalarga zaiflik",
+    "Turlar xilma-xilligining juda yuqori bo'lishi va tabiiy muvozanat",
+    "Tuproq unumdorligining doimiy oshishi",
+    "Hech qanday kamchiligi yo'q"
+   ],
+   "e": "Bir turga xos zararkunanda tez ko'payadi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Introduksiya nima?",
+   "a": [
+    "Turni yangi hududga keltirish",
+    "Turni butunlay yo'q qilish va uning yashash joyini buzish",
+    "Turni qo'riqxonada saqlash",
+    "Turning tabiiy tarqalishi"
+   ],
+   "e": "Ba'zan introduksiya qilingan turlar mahalliy turlarni siqib chiqaradi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Ozon qatlami atmosferaning qaysi qatlamida joylashgan?",
+   "a": [
+    "Stratosfera",
+    "Troposfera, ya'ni Yer sirtiga eng yaqin va ob-havo hosil bo'ladigan qatlam",
+    "Termosfera",
+    "Ekzosfera"
+   ],
+   "e": "Taxminan 20–25 km balandlikda maksimal konsentratsiya."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Atmosfera havosi sifatini kuzatish postlari nima o'lchaydi?",
+   "a": [
+    "Ifloslovchi moddalar konsentratsiyasini",
+    "Faqat aholining soni va zichligini, transport oqimini",
+    "Faqat tuproq namligini",
+    "Faqat daryo suvining sathini"
+   ],
+   "e": "Natijalar REK bilan solishtiriladi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Temperaturali inversiya nima uchun havo ifloslanishini kuchaytiradi?",
+   "a": [
+    "Havo vertikal aralashmaydi",
+    "Havo juda tez ko'tarilib, ifloslantiruvchilarni kosmosga olib ketadi",
+    "Shamol juda kuchli esadi",
+    "Yomg'ir ko'p yog'adi"
+   ],
+   "e": "Iliq qatlam sovuq havo ustida \"qopqoq\" bo'ladi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Gaz yoqilg'isiga o'tish havo sifatiga qanday ta'sir qiladi?",
+   "a": [
+    "Chiqindilarni kamaytiradi",
+    "Ko'mirga nisbatan chiqindilarni ko'paytiradi va qurum ortadi",
+    "Hech qanday ta'sir qilmaydi",
+    "Faqat shovqinni oshiradi"
+   ],
+   "e": "Tabiiy gaz yonganda kul va oltingugurt oksidi kam ajraladi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Suv omborlarining ekologik salbiy ta'siri nima?",
+   "a": [
+    "Yerlarning suv ostida qolishi",
+    "Suv bug'lanishining to'liq to'xtashi va iqlimning qurg'oqchil bo'lishi",
+    "Daryo ekotizimlarining yaxshilanishi",
+    "Hech qanday salbiy ta'sir yo'q"
+   ],
+   "e": "Shuningdek bug'lanish ortadi, baliqlar migratsiyasi buziladi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Suvning tiniqligi nimani ko'rsatadi?",
+   "a": [
+    "Muallaq zarralar miqdorini",
+    "Suvning tuzliligini va undagi kimyoviy elementlar tarkibini",
+    "Suvning haroratini",
+    "Suvning oqim tezligini"
+   ],
+   "e": "Tiniqlik Sekki diski bilan o'lchanadi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Sanoat korxonalarining suvni ifloslantirishini kamaytirishning eng samarali yo'li qaysi?",
+   "a": [
+    "Aylanma suv ta'minoti",
+    "Oqova suvlarni daryoga tozalamasdan to'g'ridan-to'g'ri tashlash",
+    "Oqova suvlarni yer ostiga quyish",
+    "Suv olishni ko'paytirish"
+   ],
+   "e": "Suv qayta ishlatiladi va tashlanmaydi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Tuproqni muhofaza qilishning agrotexnik usuli qaysi?",
+   "a": [
+    "Almashlab ekish",
+    "Qiyaliklarni yuqoridan pastga qarab chuqur haydash",
+    "O'simlik qoldiqlarini dalada yoqish",
+    "Bir ekinni ko'p yillar davomida ekish"
+   ],
+   "e": "Shuningdek mulchalash, minimal ishlov berish."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Yaylovlarning degradatsiyasiga asosan nima sabab bo'ladi?",
+   "a": [
+    "Haddan tashqari mol boqish",
+    "Yaylovlarga daraxt ekish va ularni o'rab qo'yish",
+    "Yaylovlarni dam oldirish",
+    "Yaylovlarni sug'orish"
+   ],
+   "e": "O'simlik qoplami yo'qoladi va eroziya boshlanadi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Tuproqning ifloslanishini qanday ko'rsatkich bilan baholash mumkin?",
+   "a": [
+    "Zararli moddalar konsentratsiyasi",
+    "Faqat tuproq rangi va undagi toshlar soni",
+    "Faqat dala maydoni",
+    "Faqat yer narxi"
+   ],
+   "e": "Tuproq uchun ham REK me'yorlari belgilangan."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Suv resurslari bilan bog'liq munosabatlar qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"Suv va suvdan foydalanish to'g'risida\"gi Qonun",
+    "\"Atmosfera havosini muhofaza qilish to'g'risida\"gi Qonun, chunki suv bug'i havoda bo'ladi",
+    "\"Yo'l harakati to'g'risida\"gi Qonun",
+    "\"Ta'lim to'g'risida\"gi Qonun"
+   ],
+   "e": "1993-yilda qabul qilingan."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "O'rmonlarni muhofaza qilish qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"O'rmon to'g'risida\"gi Qonun",
+    "\"Chiqindilar to'g'risida\"gi Qonun",
+    "\"Transport to'g'risida\"gi Qonun",
+    "\"Energiyadan oqilona foydalanish to'g'risida\"gi Qonun"
+   ],
+   "e": "O'rmon fondi davlat muhofazasida."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ekologik huquqning asosiy tamoyillaridan biri qaysi?",
+   "a": [
+    "Ekologik xavfsizlikning ustuvorligi",
+    "Iqtisodiy foydaning tabiatni muhofaza qilishdan har doim ustun turishi",
+    "Tabiiy resurslardan cheklovsiz foydalanish",
+    "Ekologik ma'lumotlarni yashirish"
+   ],
+   "e": "Inson hayoti va sog'lig'i ustuvor."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Chiqindilarni yoqish zavodlarining afzalligi nima?",
+   "a": [
+    "Hajm kamayadi va energiya olinadi",
+    "Hech qanday chiqindi gaz ajralmaydi va tozalash talab qilinmaydi",
+    "Barcha chiqindilar foydali mahsulotga aylanadi",
+    "Arzonligi va oddiyligi"
+   ],
+   "e": "Gaz tozalash tizimlari majburiy."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Organik chiqindilar poligonda qanday gaz hosil qiladi?",
+   "a": [
+    "Metan",
+    "Kislorod",
+    "Azot",
+    "Geliy"
+   ],
+   "e": "Poligon gazini yig'ib, energiya olish mumkin."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Qurilish chiqindilaridan qanday foydalanish mumkin?",
+   "a": [
+    "Maydalab, qurilish materiali sifatida",
+    "Ularni daryolarga va jarliklarga tashlab yuborish orqali",
+    "Faqat yoqish orqali",
+    "Hech qanday foydalanib bo'lmaydi"
+   ],
+   "e": "Beton va g'isht siniqlari maydalanib to'ldiruvchi sifatida ishlatiladi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Iqlim o'zgarishiga moslashish choralariga qaysi biri kiradi?",
+   "a": [
+    "Qurg'oqchilikka chidamli ekinlar",
+    "Barcha daraxtlarni kesib, maydonni ekin uchun ochish",
+    "Suvni isrof qilishni ko'paytirish",
+    "Hech qanday chora ko'rmaslik"
+   ],
+   "e": "Suv tejovchi texnologiyalar ham moslashish choralariga kiradi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Energiya samaradorligi nima?",
+   "a": [
+    "Kam energiya bilan ko'proq natija olish",
+    "Energiya ishlab chiqarishni keskin ko'paytirib, sarfni oshirish",
+    "Elektr energiyasidan butunlay voz kechish",
+    "Faqat ko'mir ishlatish"
+   ],
+   "e": "Energiya tejamkor texnologiyalar xarajatlarni kamaytiradi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Qayta tiklanuvchi energiya manbalarining kamchiligi qaysi?",
+   "a": [
+    "Ob-havoga bog'liqlik",
+    "Juda ko'p parnik gazi chiqarishi va havoni ifloslantirishi",
+    "Tugab qolish xavfi",
+    "Radioaktiv chiqindilar hosil qilishi"
+   ],
+   "e": "Energiya to'plash tizimlari (akkumulyatorlar) talab qilinadi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Geotermal energiya manbai nima?",
+   "a": [
+    "Yer ichki issiqligi",
+    "Quyosh nurining ko'zgular yordamida to'planishi",
+    "Okean to'lqinlari",
+    "Ko'mir yonishi"
+   ],
+   "e": "Islandiya geotermal energiyadan keng foydalanadi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Gidroelektr stansiyalarining afzalligi nima?",
+   "a": [
+    "Yoqilg'i yoqmasdan elektr ishlab chiqarish",
+    "Hech qanday ekologik ta'sir ko'rsatmasligi va joy egallamasligi",
+    "Faqat cho'lda qurilishi",
+    "Ko'mir bilan ishlashi"
+   ],
+   "e": "Kamchiligi — katta maydonlarni suv bosishi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik prognozlash nima?",
+   "a": [
+    "Atrof-muhit holatining kelajakdagi o'zgarishini oldindan baholash",
+    "O'tgan yillardagi ob-havo ma'lumotlarini arxivlash",
+    "Faqat yomg'ir yog'ishini aytish",
+    "Faqat zilzilani bashorat qilish"
+   ],
+   "e": "Prognoz monitoring ma'lumotlariga asoslanadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik omilning optimum zonasi nima?",
+   "a": [
+    "Organizm hayot faoliyati uchun eng qulay qiymatlar oralig'i",
+    "Organizm nobud bo'ladigan qiymat",
+    "Omilning eng past qiymati",
+    "Omilning o'rtacha yillik qiymati"
+   ],
+   "e": "Optimumdan chetlashganda organizm holati yomonlashadi."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Antropogen ta'sirning to'g'ridan-to'g'ri turiga qaysi biri misol?",
+   "a": [
+    "O'rmonlarni kesish",
+    "Iqlim o'zgarishi natijasida qushlar migratsiyasining o'zgarishi",
+    "Ozon qatlamining yupqalashuvi orqali o'simliklarga ta'sir",
+    "Kislotali yomg'irlarning ko'llarga ta'siri"
+   ],
+   "e": "Bilvosita ta'sirlar zanjir orqali namoyon bo'ladi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Kun uzunligi qaysi ekologik omil guruhiga kiradi?",
+   "a": [
+    "Abiotik",
+    "Biotik",
+    "Antropogen",
+    "Ijtimoiy"
+   ],
+   "e": "Yorug'lik rejimi — abiotik omil."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Changlatuvchi hasharotlar va o'simliklar munosabati qanday turga kiradi?",
+   "a": [
+    "Mutualizm",
+    "Parazitizm",
+    "Raqobat",
+    "Yirtqichlik"
+   ],
+   "e": "Ikkala tomon ham foyda ko'radi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Neytralizm nima?",
+   "a": [
+    "Turlar bir-biriga bevosita ta'sir qilmaydi",
+    "Turlar bir-birini yeydi",
+    "Turlar bir xil oziq uchun kurashadi",
+    "Bir tur ikkinchisini zaharlaydi"
+   ],
+   "e": "Masalan, bir o'rmondagi olmaxon va los."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Yirtqich qushlarda pestitsidlar to'planishi nima uchun yuqori bo'ladi?",
+   "a": [
+    "Ular oziq zanjirining yuqori bo'g'inida turadi",
+    "Ular faqat toza suv ichadi",
+    "Ular faqat o'simlik bilan oziqlanadi",
+    "Ular pestitsidlarni o'zlari ishlab chiqaradi"
+   ],
+   "e": "Biomagnifikatsiya natijasi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Tuproq mikroorganizmlarining ekotizimdagi roli nima?",
+   "a": [
+    "Organik moddalarni parchalab, mineral elementlarni qaytarish",
+    "Quyosh nurini yutib, kislorod ishlab chiqarish",
+    "Yirtqich hayvonlarni oziqlantirish",
+    "Hech qanday rol o'ynamaydi"
+   ],
+   "e": "Ular moddalar aylanishini yopiq qiladi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "O'zbekiston hududida qanday asosiy tabiiy ekotizimlar mavjud?",
+   "a": [
+    "Cho'l, tog', to'qay, adir",
+    "Tundra va tayga",
+    "Tropik o'rmonlar va mangrlar",
+    "Arktika muzliklari"
+   ],
+   "e": "Hududning katta qismini cho'llar egallaydi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Qizilqum qanday tabiiy zonaga kiradi?",
+   "a": [
+    "Cho'l",
+    "Tayga",
+    "Tundra",
+    "Dasht-o'rmon"
+   ],
+   "e": "Qizilqum Markaziy Osiyodagi yirik cho'llardan biri."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Ekotizimning tashqi energiya manbai nima?",
+   "a": [
+    "Quyosh",
+    "Tuproq",
+    "Suv",
+    "Shamol"
+   ],
+   "e": "Kemosintetik ekotizimlar bundan istisno."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Ozonni yemiruvchi moddalardan voz kechish uchun sovitgichlarda nima ishlatila boshlandi?",
+   "a": [
+    "Ozonga xavfsiz sovituvchi agentlar",
+    "Xlorftoruglerodlar (freon-12) miqdorini ikki baravar oshirish",
+    "Simob bug'lari",
+    "Oltingugurt dioksid"
+   ],
+   "e": "Monreal protokoli talablariga muvofiq."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Avtomobil yoqilg'isidan qo'rg'oshinli qo'shimchalar nima uchun chiqarilgan?",
+   "a": [
+    "Qo'rg'oshin zaharli va havoni ifloslantiradi",
+    "Qo'rg'oshin yoqilg'i narxini juda arzonlashtirgani uchun",
+    "Qo'rg'oshin dvigatel quvvatini oshirgani uchun",
+    "Qo'rg'oshin ekologik toza bo'lgani uchun"
+   ],
+   "e": "Tetraetilqo'rg'oshin ko'p mamlakatlarda taqiqlangan."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Atmosferaga chang chiqindilarining asosiy manbalaridan biri qaysi?",
+   "a": [
+    "Sement va qurilish materiallari zavodlari",
+    "Ko'kalamzorlashtirilgan bog'lar",
+    "Toza suv havzalari",
+    "Quyosh panellari"
+   ],
+   "e": "Siklonlar va filtrlar changni ushlaydi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Suvning ifloslanish turlariga qaysilar kiradi?",
+   "a": [
+    "Kimyoviy, biologik, fizik (termik, radioaktiv)",
+    "Faqat rangli va rangsiz",
+    "Faqat issiq va sovuq",
+    "Faqat chuchuk va sho'r"
+   ],
+   "e": "Har bir turga qarshi alohida tozalash usullari qo'llaniladi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Patogen mikroorganizmlar bilan ifloslangan suv qanday kasalliklarga sabab bo'ladi?",
+   "a": [
+    "Ichak infeksiyalari (vabo, dizenteriya)",
+    "Faqat suyak sinishi",
+    "Faqat ko'rish o'tkirligining oshishi",
+    "Hech qanday kasallik"
+   ],
+   "e": "Shuning uchun ichimlik suvi zararsizlantiriladi."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Amudaryo va Sirdaryo suvlaridan foydalanish qaysi darajada tartibga solinadi?",
+   "a": [
+    "Davlatlararo kelishuvlar asosida",
+    "Har bir fermer o'z xohishiga ko'ra cheklovsiz foydalanadi",
+    "Hech qanday tartibga solinmaydi",
+    "Faqat bitta tuman tomonidan"
+   ],
+   "e": "Markaziy Osiyo davlatlari suv xo'jaligi bo'yicha muvofiqlashtiruvchi komissiyasi faoliyat yuritadi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Biologik rekultivatsiya bosqichida nima qilinadi?",
+   "a": [
+    "O'simliklar ekilib, tuproq unumdorligi tiklanadi",
+    "Yer tekislanib, yuqori qatlam olib tashlanadi",
+    "Karyerlar suvga to'ldiriladi",
+    "Yer asfalt bilan qoplanadi"
+   ],
+   "e": "Texnik bosqichdan keyin bajariladi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Tuproqni siqilishdan himoya qilish uchun nima qilinadi?",
+   "a": [
+    "Og'ir texnika harakatini kamaytirish",
+    "Tuproqni og'ir texnika bilan tez-tez bosish",
+    "Tuproqni sun'iy ravishda zichlash",
+    "Tuproqni asfalt bilan qoplash"
+   ],
+   "e": "Siqilgan tuproqda havo va suv almashinuvi yomonlashadi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ekologik ekspertiza qanday turlarga bo'linadi?",
+   "a": [
+    "Davlat va jamoatchilik ekologik ekspertizasi",
+    "Faqat xalqaro ekspertiza",
+    "Faqat ichki tekshiruv",
+    "Faqat sud ekspertizasi"
+   ],
+   "e": "\"Ekologik ekspertiza to'g'risida\"gi Qonun bilan tartibga solinadi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Hayvonot dunyosini muhofaza qilish chora-tadbirlariga qaysi biri kiradi?",
+   "a": [
+    "Ovni tartibga solish va noyob turlarni muhofaza qilish",
+    "Barcha turlarni cheklovsiz ovlashga ruxsat berish",
+    "Yashash joylarini buzish",
+    "Hayvonlarni chet elga sotish"
+   ],
+   "e": "Qo'riqxonalar va Qizil kitob muhim vosita."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Brakonerlik nima?",
+   "a": [
+    "Noqonuniy ov yoki baliq ovlash",
+    "Hayvonlarni qonuniy asosda boqish",
+    "Qushlarni kuzatish",
+    "Hayvonlarni davolash"
+   ],
+   "e": "Brakonerlik uchun ma'muriy va jinoiy javobgarlik belgilangan."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Chiqindilarni manbaida saralash nimani anglatadi?",
+   "a": [
+    "Chiqindilar hosil bo'lgan joyda turlarga ajratib yig'ish",
+    "Barcha chiqindilarni bitta konteynerga aralashtirib tashlash",
+    "Chiqindilarni poligonda yoqish",
+    "Chiqindilarni daryoga oqizish"
+   ],
+   "e": "Rangli konteynerlar qo'llaniladi."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Plastik paketlardan voz kechishning muqobili qaysi?",
+   "a": [
+    "Ko'p martalik matoli sumkalar",
+    "Bir martalik paketlarni ikki baravar ko'proq ishlatish",
+    "Paketlarni yoqib yo'qotish",
+    "Paketlarni tuproqqa ko'mish"
+   ],
+   "e": "Ko'plab mamlakatlarda bir martalik paketlar cheklangan."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Ekologik iz (ecological footprint) nimani ko'rsatadi?",
+   "a": [
+    "Inson ehtiyojlarini qondirish uchun zarur biologik mahsuldor maydon",
+    "Inson oyoq izining o'lchami",
+    "Tuproqdagi hayvon izlari",
+    "Ekologlar soni"
+   ],
+   "e": "Gektarlarda ifodalanadi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Yopiq aylanma iqtisodiyot (circular economy) nimani nazarda tutadi?",
+   "a": [
+    "Mahsulot va materiallarni qayta-qayta foydalanish",
+    "Olish → ishlatish → tashlash chiziqli modeli",
+    "Faqat yangi xomashyo qazib olish",
+    "Chiqindilarni ko'paytirish"
+   ],
+   "e": "Chiqindi resurs sifatida qaraladi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Elektr energiyasini tejashning maishiy usuliga qaysi biri kiradi?",
+   "a": [
+    "Xonadan chiqishda chiroqni o'chirish",
+    "Barcha jihozlarni kun bo'yi yoqib qo'yish",
+    "Eski, ko'p energiya sarflovchi asboblardan foydalanish",
+    "Sovitgich eshigini ochiq qoldirish"
+   ],
+   "e": "Energiya samaradorligi sinfi yuqori asboblarni tanlash ham muhim."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Atrof-muhit deganda nima tushuniladi?",
+   "a": [
+    "Inson yashaydigan tabiiy va sun'iy muhit",
+    "Faqat shahar ko'chalari, binolar va transport infratuzilmasi majmui",
+    "Faqat o'rmonlar va ulardagi yovvoyi hayvonlar",
+    "Faqat kosmik fazo"
+   ],
+   "e": "Tabiiy va antropogen omillar birgalikda."
+  },
+  {
+   "b": "Asosiy tushunchalar",
+   "q": "Ekologik muammolarni hal qilishda xalqaro hamkorlik nima uchun zarur?",
+   "a": [
+    "Ifloslanish chegara bilmaydi",
+    "Har bir davlat muammolarni faqat o'zi mustaqil hal qila olgani uchun bu kerak emas",
+    "Faqat iqtisodiy foyda uchun",
+    "Faqat turizm uchun"
+   ],
+   "e": "Havo va suv oqimlari ifloslanishni boshqa mamlakatlarga olib boradi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Namlikni sevuvchi o'simliklar qanday nomlanadi?",
+   "a": [
+    "Gigrofitlar",
+    "Kserofitlar, ya'ni qurg'oqchilikka chidamli cho'l o'simliklari",
+    "Galofitlar",
+    "Geliofitlar"
+   ],
+   "e": "Botqoq va nam joylarda o'sadi."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Tana harorati muhit haroratiga bog'liq hayvonlar qanday nomlanadi?",
+   "a": [
+    "Poykilotermlar",
+    "Gomoyotermlar, ya'ni doimiy tana haroratini saqlovchi issiqqonlilar",
+    "Fototroflar",
+    "Saprofitlar"
+   ],
+   "e": "Baliqlar, suvda va quruqlikda yashovchilar, sudralib yuruvchilar."
+  },
+  {
+   "b": "Ekologik omillar",
+   "q": "Hayvonlarning issiq iqlimga moslashuviga misol qaysi?",
+   "a": [
+    "Katta quloqlar",
+    "Qalin teri osti yog' qatlami va kalta quloqlar, mo'ynaning qalinlashishi",
+    "Qishki uyquga ketish",
+    "Oq rangli mo'yna"
+   ],
+   "e": "Masalan, cho'l tulkisi (fenek) quloqlari orqali issiqlik chiqaradi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Organizmlarning oziqlanish usuliga ko'ra avtotroflar qaysilar?",
+   "a": [
+    "Organik moddani o'zi sintezlaydiganlar",
+    "Faqat tayyor organik moddalar bilan oziqlanadigan, boshqa organizmlarga bog'liq turlar",
+    "Faqat o'lik qoldiqlar bilan oziqlanuvchilar",
+    "Faqat parazitlar"
+   ],
+   "e": "Geterotroflar tayyor organik moddani iste'mol qiladi."
+  },
+  {
+   "b": "Oziq zanjirlari",
+   "q": "Ekotizimdan redutsentlar yo'qolsa nima bo'ladi?",
+   "a": [
+    "Organik qoldiqlar to'planadi",
+    "Ekotizim yanada barqaror bo'lib, mahsuldorligi keskin oshadi",
+    "Hech narsa o'zgarmaydi",
+    "Produtsentlar tezroq ko'payadi"
+   ],
+   "e": "Moddalar aylanishi to'xtaydi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Biosferaning pastki chegarasi qayergacha yetadi?",
+   "a": [
+    "Okean tubi va litosferaning bir necha km chuqurligigacha",
+    "Faqat tuproqning yuqori 10 sm qatlamigacha",
+    "Faqat dengiz yuzasigacha",
+    "Yer markazigacha"
+   ],
+   "e": "Bakteriyalar yer osti chuqur qatlamlarida ham uchraydi."
+  },
+  {
+   "b": "Ekotizimlar va biosfera",
+   "q": "Ekotizimdagi asosiy jarayonlar qaysilar?",
+   "a": [
+    "Energiya oqimi va moddalar aylanishi",
+    "Faqat tuproq eroziyasi va tog' jinslarining nurashi",
+    "Faqat suvning muzlashi",
+    "Faqat bulut hosil bo'lishi"
+   ],
+   "e": "Bu ikki jarayon ekotizim faoliyatini ta'minlaydi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Kislotali yomg'irlar qanday zarar keltiradi?",
+   "a": [
+    "O'rmonlar va ko'llarga zarar",
+    "Tuproq unumdorligini oshirib, o'simliklar o'sishini tezlashtiradi",
+    "Hech qanday zarar keltirmaydi",
+    "Faqat bulutlar rangini o'zgartiradi"
+   ],
+   "e": "Binolar va yodgorliklar ham yemiriladi."
+  },
+  {
+   "b": "Atmosfera muhofazasi",
+   "q": "Smog asosan qayerlarda kuzatiladi?",
+   "a": [
+    "Yirik sanoat shaharlarida",
+    "Baland tog'larda, aholi yashamaydigan hududlarda",
+    "Ochiq okeanda",
+    "Antarktidada"
+   ],
+   "e": "Transport va sanoat chiqindilari ko'p bo'lgan joylarda."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Kimyoviy tozalashda oqova suvlar qanday zararsizlantiriladi?",
+   "a": [
+    "Reagentlar qo'shib",
+    "Faqat tindirib qo'yib, hech qanday modda qo'shmasdan",
+    "Faqat qum orqali o'tkazib",
+    "Faqat muzlatib"
+   ],
+   "e": "Neytrallash, oksidlash, koagulyatsiya."
+  },
+  {
+   "b": "Gidrosfera muhofazasi",
+   "q": "Dengiz suvini chuchuklashtirish usuli qaysi?",
+   "a": [
+    "Teskari osmos",
+    "Dengiz suviga ko'proq tuz qo'shish va uni quyoshda qoldirish",
+    "Suvni muzlatmasdan aralashtirish",
+    "Suvni bo'yash"
+   ],
+   "e": "Distillyatsiya ham qo'llaniladi."
+  },
+  {
+   "b": "Litosfera muhofazasi",
+   "q": "Tuproq eroziyasining oldini olishda o'simlik qoplamining roli nima?",
+   "a": [
+    "Tuproqni mustahkamlaydi",
+    "Tuproqni yumshatib, uning yuvilishini tezlashtiradi",
+    "Hech qanday roli yo'q",
+    "Tuproqni sho'rlantiradi"
+   ],
+   "e": "Ildizlar tuproq zarrachalarini ushlab turadi."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "O'zbekistonda muhofaza etiladigan tabiiy hududlar qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"Muhofaza etiladigan tabiiy hududlar to'g'risida\"gi Qonun",
+    "\"Shaharsozlik to'g'risida\"gi Qonun",
+    "\"Turizm to'g'risida\"gi Qonun",
+    "\"Davlat boji to'g'risida\"gi Qonun"
+   ],
+   "e": "Qo'riqxonalar, milliy bog'lar va boshqa toifalar belgilangan."
+  },
+  {
+   "b": "Muhofaza tizimi",
+   "q": "Ekologik axborotning ochiqligi tamoyili nimani anglatadi?",
+   "a": [
+    "Fuqarolar atrof-muhit haqida ma'lumot olish huquqiga ega",
+    "Ekologik ma'lumotlar faqat davlat siri sifatida yashirin saqlanadi",
+    "Ma'lumotlar faqat pullik beriladi",
+    "Ma'lumot olish taqiqlangan"
+   ],
+   "e": "Orxus konvensiyasi bu huquqni mustahkamlagan."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Simobli lampalar qanday utilizatsiya qilinadi?",
+   "a": [
+    "Maxsus qabul punktlarida",
+    "Maishiy chiqindi konteyneriga tashlab, sindirib yuboriladi",
+    "Daryoga tashlanadi",
+    "Yoqib yuboriladi"
+   ],
+   "e": "Simob bug'lari juda zaharli."
+  },
+  {
+   "b": "Chiqindilar boshqaruvi",
+   "q": "Organik chiqindilarni poligonga tashlash o'rniga nima qilish samaraliroq?",
+   "a": [
+    "Kompostlash",
+    "Ularni plastik bilan aralashtirib yoqish",
+    "Ularni suvga tashlash",
+    "Ularni yo'l chetida qoldirish"
+   ],
+   "e": "Kompost tuproq uchun o'g'it."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Biologik xilma-xillikni saqlashning in-situ usuli nima?",
+   "a": [
+    "Turni tabiiy yashash joyida saqlash",
+    "Turni hayvonot bog'i yoki urug' bankida, tabiiy muhitdan tashqarida saqlash",
+    "Turni yo'q qilish",
+    "Turni boshqa qit'aga ko'chirish"
+   ],
+   "e": "Ex-situ — tabiiy muhitdan tashqarida saqlash."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Ekologik toza transportga qaysi biri kiradi?",
+   "a": [
+    "Velosiped",
+    "Eski dizel yuk mashinasi, filtrsiz va chiqindi gazlari ko'p",
+    "Ko'mir bilan ishlovchi parovoz",
+    "Benzinli mototsikl"
+   ],
+   "e": "Elektr transporti ham ekologik toza hisoblanadi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "\"Yashil makon\" umummilliy loyihasining maqsadi nima?",
+   "a": [
+    "Ko'kalamzorlashtirish",
+    "Barcha daraxtlarni kesib, yangi binolar qurish",
+    "Faqat yashil rangli bo'yoq ishlab chiqarish",
+    "Faqat sport inshootlari qurish"
+   ],
+   "e": "O'zbekistonda har yili millionlab ko'chat ekilmoqda."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Iqlim o'zgarishini yumshatish choralariga qaysi biri kiradi?",
+   "a": [
+    "Parnik gazlarini kamaytirish",
+    "Ko'mir yoqishni ko'paytirish va o'rmonlarni kesish",
+    "Energiya sarfini oshirish",
+    "Chiqindilarni ochiq yoqish"
+   ],
+   "e": "Qayta tiklanuvchi energiya, energiya samaradorligi, o'rmonlarni tiklash."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "O'rmonlarni tiklashning ekologik ahamiyati nima?",
+   "a": [
+    "CO₂ yutilishi",
+    "Atmosferadagi karbonat angidrid miqdorining keskin ortishi",
+    "Tuproq eroziyasining kuchayishi",
+    "Biologik xilma-xillikning kamayishi"
+   ],
+   "e": "O'rmonlar uglerodni to'playdi."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Ekologik ta'lim qaysi bosqichdan boshlanishi kerak?",
+   "a": [
+    "Maktabgacha ta'limdan",
+    "Faqat oliy ta'limdan keyin, mutaxassislik tanlanganda",
+    "Faqat pensiya yoshida",
+    "Hech qachon"
+   ],
+   "e": "Ekologik ta'lim uzluksiz bo'lishi kerak."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Atrof-muhitni muhofaza qilish bo'yicha 1972-yilda o'tkazilgan birinchi BMT konferensiyasi qayerda bo'lgan?",
+   "a": [
+    "Stokgolm",
+    "Rio-de-Janeyro",
+    "Kioto",
+    "Parij"
+   ],
+   "e": "Shu konferensiyadan keyin UNEP tashkil etilgan."
+  },
+  {
+   "b": "Barqaror rivojlanish",
+   "q": "Ekologik muammolarni hal qilishda har bir fuqaro nima qila oladi?",
+   "a": [
+    "Resurslarni tejash",
+    "Hech narsa qila olmaydi, bu faqat davlat va xalqaro tashkilotlar vazifasi",
+    "Faqat boshqalarni tanqid qilish",
+    "Chiqindilarni ko'chaga tashlash"
+   ],
+   "e": "Saralash, tejash, daraxt ekish — har kimning hissasi."
   }
  ]
 }
