@@ -1,0 +1,15 @@
+[Unit]
+Description=Attestatsiya Telegram bot va Mini App
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=attestatsiya
+WorkingDirectory=/opt/attestatsiya_bot
+ExecStart=/opt/attestatsiya_bot/.venv/bin/python run_bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

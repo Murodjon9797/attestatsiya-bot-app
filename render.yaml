@@ -1,0 +1,18 @@
+# Render.com Blueprint: GitHub'dagi repozitoriyni ulaganda shu fayl bo'yicha bepul server yaratiladi.
+services:
+  - type: web
+    name: attestatsiya-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run_bot.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: BOT_TOKEN
+        sync: false          # Render so'raydi — @BotFather bergan token
+      - key: ANTHROPIC_API_KEY
+        sync: false          # Render so'raydi — console.anthropic.com dagi kalit
+      - key: PASS_PERCENT
+        value: "60"

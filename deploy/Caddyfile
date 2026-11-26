@@ -1,0 +1,6 @@
+# Caddy avtomatik ravishda Let's Encrypt HTTPS sertifikatini oladi.
+# "bot.sizning-domen.uz" o'rniga o'z domeningizni yozing (DNS A yozuvi server IP'siga qarashi kerak).
+bot.sizning-domen.uz {
+	encode gzip
+	reverse_proxy 127.0.0.1:8080
+}
