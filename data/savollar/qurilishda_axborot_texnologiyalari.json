@@ -1,0 +1,3242 @@
+{
+ "kod": "5PM0745",
+ "nomi": "Qurilishda axborot texnologiyalari (python, matlab)",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (6 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Axborot texnologiyalari nima?",
+   "a": [
+    "Axborot bilan ishlash usullari majmui",
+    "Faqat kompyuterlarni ta'mirlash va yig'ish jarayoni",
+    "Faqat telefon aloqasi xizmatlari",
+    "Faqat qog'oz hujjatlarni arxivlash"
+   ],
+   "e": "AKT — axborot-kommunikatsiya texnologiyalari."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Axborotning eng kichik o'lchov birligi qaysi?",
+   "a": [
+    "Bit",
+    "Bayt",
+    "Kilobayt",
+    "Gers"
+   ],
+   "e": "0 yoki 1."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "1 bayt necha bitga teng?",
+   "a": [
+    "8",
+    "2",
+    "10",
+    "1024"
+   ],
+   "e": "Bitta belgi kodlanadi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "1 kilobayt necha baytga teng (ikkilik tizimda)?",
+   "a": [
+    "1024",
+    "1000",
+    "8",
+    "100"
+   ],
+   "e": "2¹⁰."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "1 gigabayt necha megabaytga teng?",
+   "a": [
+    "1024",
+    "1000 000",
+    "100",
+    "8"
+   ],
+   "e": "Ikkilik tizimda."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuterning markaziy protsessori qanday nomlanadi?",
+   "a": [
+    "CPU",
+    "GPU",
+    "RAM",
+    "SSD"
+   ],
+   "e": "Central Processing Unit."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Operativ xotira (RAM) qanday xususiyatga ega?",
+   "a": [
+    "Elektr o'chganda ma'lumot yo'qoladi",
+    "Ma'lumotni abadiy saqlaydi, elektrsiz ham",
+    "Faqat o'qish uchun mo'ljallangan",
+    "Faqat tashqi qurilmalarda bo'ladi"
+   ],
+   "e": "Energiyaga bog'liq xotira."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ma'lumotlarni uzoq muddat saqlash qurilmasiga misol qaysi?",
+   "a": [
+    "Qattiq disk (HDD/SSD)",
+    "Operativ xotira (RAM)",
+    "Protsessor keshi",
+    "Monitor"
+   ],
+   "e": "Doimiy xotira."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kiritish qurilmasiga misol qaysi?",
+   "a": [
+    "Klaviatura",
+    "Monitor",
+    "Printer",
+    "Karnay"
+   ],
+   "e": "Sichqoncha, skaner ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Chiqarish qurilmasiga misol qaysi?",
+   "a": [
+    "Printer",
+    "Klaviatura",
+    "Sichqoncha",
+    "Mikrofon"
+   ],
+   "e": "Monitor, karnay ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Operatsion tizimga misol qaysi?",
+   "a": [
+    "Windows",
+    "Microsoft Word",
+    "Google Chrome",
+    "Adobe Photoshop"
+   ],
+   "e": "Linux, macOS, Android ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Operatsion tizimning asosiy vazifasi nima?",
+   "a": [
+    "Resurslarni boshqarish",
+    "Faqat matn terish",
+    "Faqat rasm chizish",
+    "Faqat internetga ulanish"
+   ],
+   "e": "Foydalanuvchi va apparat orasida vositachi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Amaliy dasturiy ta'minotga misol qaysi?",
+   "a": [
+    "Matn muharriri",
+    "BIOS",
+    "Drayver",
+    "Operatsion tizim yadrosi"
+   ],
+   "e": "Foydalanuvchi vazifalari uchun."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Fayl kengaytmasi \".xlsx\" qaysi dasturga tegishli?",
+   "a": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "PowerPoint",
+    "Paint"
+   ],
+   "e": "Elektron jadval."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\".docx\" kengaytmali fayl qaysi dasturda ochiladi?",
+   "a": [
+    "Microsoft Word",
+    "Microsoft Excel",
+    "Windows Media Player",
+    "Paint"
+   ],
+   "e": "Matn hujjati."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\".pptx\" kengaytmasi qaysi turdagi fayl?",
+   "a": [
+    "Taqdimot",
+    "Jadval",
+    "Rasm",
+    "Audio"
+   ],
+   "e": "PowerPoint."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\".pdf\" formatining afzalligi nima?",
+   "a": [
+    "Ko'rinish o'zgarmaydi",
+    "Faylni har doim oson tahrirlash mumkin",
+    "Faqat rasm saqlaydi",
+    "Faqat audio saqlaydi"
+   ],
+   "e": "Portable Document Format."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Arxivlash dasturining vazifasi nima?",
+   "a": [
+    "Fayllarni siqish",
+    "Fayllarni butunlay o'chirish",
+    "Viruslarni yaratish",
+    "Rasmlarni bo'yash"
+   ],
+   "e": "ZIP, RAR, 7z."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Bulutli texnologiyalar nima?",
+   "a": [
+    "Masofaviy hisoblash va saqlash",
+    "Faqat ob-havo prognozi dasturlari",
+    "Faqat lokal disk",
+    "Faqat printerlar tarmog'i"
+   ],
+   "e": "Google Drive, OneDrive."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ikkilik sanoq sistemasida qaysi raqamlar ishlatiladi?",
+   "a": [
+    "0 va 1",
+    "0 dan 9 gacha",
+    "1 va 2",
+    "A dan F gacha"
+   ],
+   "e": "Kompyuter ichki tili."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "O'nlik 5 soni ikkilik sistemada qanday yoziladi?",
+   "a": [
+    "101",
+    "110",
+    "111",
+    "100"
+   ],
+   "e": "4 + 1."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ikkilik 1010 o'nlik sistemada qancha?",
+   "a": [
+    "10",
+    "12",
+    "8",
+    "5"
+   ],
+   "e": "8 + 2."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Matn muharririda \"Ctrl + C\" nima qiladi?",
+   "a": [
+    "Nusxa oladi",
+    "Joylashtiradi",
+    "Kesib oladi",
+    "Saqlaydi"
+   ],
+   "e": "Ctrl + V — joylashtirish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + V\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Joylashtiradi",
+    "Nusxa oladi",
+    "Bekor qiladi",
+    "Chop etadi"
+   ],
+   "e": "Paste."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + Z\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Amalni bekor qiladi",
+    "Faylni saqlaydi",
+    "Matnni qalin qiladi",
+    "Yangi hujjat ochadi"
+   ],
+   "e": "Undo."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + S\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Hujjatni saqlaydi",
+    "Hujjatni o'chiradi",
+    "Hujjatni chop etadi",
+    "Matnni qidiradi"
+   ],
+   "e": "Save."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excel jadvalida A1 nima?",
+   "a": [
+    "Katak manzili",
+    "Formula",
+    "Diagramma",
+    "Varaq nomi"
+   ],
+   "e": "A ustun, 1 satr."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda formula qaysi belgi bilan boshlanadi?",
+   "a": [
+    "=",
+    "#",
+    "@",
+    "&"
+   ],
+   "e": "Masalan, =A1+B1."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda A1:A10 kataklar yig'indisini qaysi formula hisoblaydi?",
+   "a": [
+    "=SUM(A1:A10)",
+    "=COUNT(A1:A10)",
+    "=AVERAGE(A1:A10)",
+    "=MAX(A1:A10)"
+   ],
+   "e": "СУММ (rus versiyada)."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda o'rtacha qiymatni qaysi funksiya hisoblaydi?",
+   "a": [
+    "AVERAGE",
+    "SUM",
+    "COUNT",
+    "MIN"
+   ],
+   "e": "СРЗНАЧ."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda shartli hisoblash uchun qaysi funksiya ishlatiladi?",
+   "a": [
+    "IF",
+    "SUM",
+    "MAX",
+    "LEN"
+   ],
+   "e": "=IF(shart; ha; yo'q)."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda $A$1 yozuvi nimani bildiradi?",
+   "a": [
+    "Absolyut manzil",
+    "Nisbiy manzil",
+    "Matn",
+    "Valyuta formati"
+   ],
+   "e": "Nusxalashda o'zgarmaydi."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda katakdagi \"#DIV/0!\" xatosi nimani bildiradi?",
+   "a": [
+    "Nolga bo'lish",
+    "Noma'lum funksiya",
+    "Matnli qiymat",
+    "Katak juda tor"
+   ],
+   "e": "Bo'luvchi nol."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda \"#####\" ko'rinishi nimani bildiradi?",
+   "a": [
+    "Ustun tor",
+    "Formulada xato",
+    "Nolga bo'lish",
+    "Fayl buzilgan"
+   ],
+   "e": "Ustunni kengaytirish kerak."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Ma'lumotlarni vizual ko'rsatish uchun Excelda nima ishlatiladi?",
+   "a": [
+    "Diagrammalar",
+    "Makroslar faqat",
+    "Shriftlar",
+    "Sahifa raqamlari"
+   ],
+   "e": "Ustunli, doiraviy, chiziqli."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda ma'lumotlarni saralash nima beradi?",
+   "a": [
+    "Ma'lumotlarni tartiblash",
+    "Ma'lumotlarni o'chirish",
+    "Formulalarni bekor qilish",
+    "Faylni shifrlash"
+   ],
+   "e": "O'sish yoki kamayish tartibida."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda \"filtr\" nima uchun ishlatiladi?",
+   "a": [
+    "Shartga mos satrlarni ko'rsatish",
+    "Barcha ma'lumotlarni o'chirish uchun",
+    "Diagramma chizish uchun",
+    "Faylni chop etish uchun"
+   ],
+   "e": "Avtofiltr."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda VLOOKUP (ВПР) funksiyasi nima qiladi?",
+   "a": [
+    "Jadvaldan qiymat qidiradi",
+    "Yig'indini hisoblaydi",
+    "Matnni birlashtiradi",
+    "Sanani chiqaradi"
+   ],
+   "e": "Vertikal qidiruv."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Svodnaya (pivot) jadval nima uchun ishlatiladi?",
+   "a": [
+    "Ma'lumotlarni umumlashtirish",
+    "Rasm qo'shish uchun",
+    "Matnni tarjima qilish uchun",
+    "Viruslarni tekshirish uchun"
+   ],
+   "e": "Tahlil vositasi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Internet nima?",
+   "a": [
+    "Kompyuter tarmoqlarining global tarmog'i",
+    "Faqat bitta tashkilot ichidagi lokal tarmoq",
+    "Faqat televideniye tizimi",
+    "Faqat telefon liniyasi"
+   ],
+   "e": "TCP/IP protokollari asosida."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Lokal tarmoq qanday qisqartma bilan ataladi?",
+   "a": [
+    "LAN",
+    "WAN",
+    "URL",
+    "HTML"
+   ],
+   "e": "Local Area Network."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Veb-sahifa manzili qanday nomlanadi?",
+   "a": [
+    "URL",
+    "IP-port",
+    "MAC",
+    "PDF"
+   ],
+   "e": "Uniform Resource Locator."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Veb-sahifalar qaysi til asosida yaratiladi?",
+   "a": [
+    "HTML",
+    "SQL",
+    "Excel",
+    "Paint"
+   ],
+   "e": "HyperText Markup Language."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Brauzerga misol qaysi?",
+   "a": [
+    "Google Chrome",
+    "Microsoft Excel",
+    "Windows Explorer faqat fayl uchun",
+    "Notepad"
+   ],
+   "e": "Firefox, Edge, Safari ham."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Qidiruv tizimiga misol qaysi?",
+   "a": [
+    "Google",
+    "Microsoft Word",
+    "WinRAR",
+    "Skype"
+   ],
+   "e": "Yandex, Bing ham."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron pochta manzilida \"@\" belgisi nimani ajratadi?",
+   "a": [
+    "Login va domenni",
+    "Parol va loginni",
+    "Sana va vaqtni",
+    "Fayl nomi va kengaytmani"
+   ],
+   "e": "user@domain.uz."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "HTTPS protokolining HTTP dan farqi nima?",
+   "a": [
+    "Shifrlangan uzatish",
+    "Faqat rasm uzatadi",
+    "Shifrlashsiz ishlaydi",
+    "Faqat lokal tarmoqda ishlaydi"
+   ],
+   "e": "SSL/TLS."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "IP-manzil nima?",
+   "a": [
+    "Qurilma manzili",
+    "Elektron pochta paroli",
+    "Fayl nomi",
+    "Dastur nomi"
+   ],
+   "e": "Masalan, 192.168.1.1."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Wi-Fi nima?",
+   "a": [
+    "Simsiz tarmoq",
+    "Simli telefon aloqasi",
+    "Kompyuter protsessori turi",
+    "Matn muharriri"
+   ],
+   "e": "Radio to'lqinlar orqali."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Videokonferensiya uchun qaysi platforma ishlatiladi?",
+   "a": [
+    "Zoom",
+    "Excel",
+    "Paint",
+    "WinRAR"
+   ],
+   "e": "Microsoft Teams, Google Meet ham."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Kompyuter virusi nima?",
+   "a": [
+    "Zararli dastur",
+    "Kompyuterning foydali qismi",
+    "Matn muharriri turi",
+    "Operatsion tizimning yangilanishi"
+   ],
+   "e": "Antivirus bilan himoya qilinadi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Antivirus dasturiga misol qaysi?",
+   "a": [
+    "Kaspersky",
+    "Microsoft Word",
+    "Google Chrome",
+    "Telegram"
+   ],
+   "e": "ESET, Avast ham."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Fishing (phishing) nima?",
+   "a": [
+    "Ma'lumotlarni aldov bilan o'g'irlash",
+    "Baliq ovlash dasturi",
+    "Fayllarni arxivlash",
+    "Kompyuterni tozalash"
+   ],
+   "e": "Soxta saytlar va xatlar."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Kuchli parolning belgisi qaysi?",
+   "a": [
+    "Turli belgilar aralashmasi",
+    "Faqat tug'ilgan sana",
+    "\"123456\"",
+    "Faqat ism"
+   ],
+   "e": "Kamida 8–12 belgi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ikki bosqichli autentifikatsiya nima beradi?",
+   "a": [
+    "Qo'shimcha himoya",
+    "Parolni butunlay bekor qiladi",
+    "Internetni tezlashtiradi",
+    "Faylni siqadi"
+   ],
+   "e": "SMS kod yoki ilova."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ma'lumotlarning zaxira nusxasi (backup) nima uchun kerak?",
+   "a": [
+    "Ma'lumot yo'qolsa tiklash uchun",
+    "Kompyuterni tezlashtirish uchun",
+    "Viruslarni ko'paytirish uchun",
+    "Internet trafikini kamaytirish uchun"
+   ],
+   "e": "Muntazam bajarilishi kerak."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Shaxsga doir ma'lumotlarni himoya qilish O'zbekistonda qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"Shaxsga doir ma'lumotlar to'g'risida\"gi",
+    "\"Yo'l harakati to'g'risida\"gi Qonun",
+    "Oila kodeksi",
+    "Soliq kodeksi"
+   ],
+   "e": "2019-yilda qabul qilingan."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ijtimoiy muhandislik hujumi nimaga asoslanadi?",
+   "a": [
+    "Insonni aldashga",
+    "Faqat kompyuter apparatini buzishga",
+    "Faqat elektr tarmog'ini uzishga",
+    "Faqat parolni taxmin qilishga"
+   ],
+   "e": "Fishing, soxta qo'ng'iroqlar."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Shifrlash nima?",
+   "a": [
+    "Ma'lumotni yopiq holatga keltirish",
+    "Ma'lumotni o'chirish",
+    "Ma'lumotni chop etish",
+    "Ma'lumotni siqish faqat"
+   ],
+   "e": "Konfidensiallikni ta'minlaydi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Elektron raqamli imzo (ERI) nima uchun ishlatiladi?",
+   "a": [
+    "Muallifni tasdiqlash uchun",
+    "Hujjatni rangli chop etish uchun",
+    "Faylni arxivlash uchun",
+    "Internetni tezlashtirish uchun"
+   ],
+   "e": "Yuridik kuchga ega."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Ma'lumotlar bazasi nima?",
+   "a": [
+    "Tartiblangan ma'lumotlar",
+    "Tasodifiy matnlar yig'indisi",
+    "Faqat rasmlar papkasi",
+    "Faqat audio fayllar"
+   ],
+   "e": "MBBT orqali boshqariladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "MBBTga misol qaysi?",
+   "a": [
+    "Microsoft Access",
+    "Microsoft Paint",
+    "WinRAR",
+    "Google Chrome"
+   ],
+   "e": "MySQL, PostgreSQL ham."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Relyatsion ma'lumotlar bazasida ma'lumotlar qanday saqlanadi?",
+   "a": [
+    "Jadvallarda",
+    "Faqat rasmlarda",
+    "Faqat audio fayllarda",
+    "Faqat matnli xatlarda"
+   ],
+   "e": "Satrlar va ustunlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Jadvaldagi har bir yozuvni noyob aniqlovchi maydon nima deyiladi?",
+   "a": [
+    "Birlamchi kalit",
+    "Tashqi kalit",
+    "Indeks faqat",
+    "Formula"
+   ],
+   "e": "Primary key."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "SQL tilida ma'lumot tanlash buyrug'i qaysi?",
+   "a": [
+    "SELECT",
+    "DELETE",
+    "DROP",
+    "INSERT"
+   ],
+   "e": "SELECT * FROM jadval."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Katta ma'lumotlar (Big Data) nima?",
+   "a": [
+    "Juda katta hajmdagi ma'lumotlar",
+    "Kichik matnli fayllar",
+    "Faqat bitta jadval",
+    "Faqat qog'oz hujjatlar"
+   ],
+   "e": "Hajm, tezlik, xilma-xillik."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Sun'iy intellekt nima?",
+   "a": [
+    "Aqliy faoliyatni taqlid qiluvchi tizim",
+    "Faqat kalkulyator",
+    "Faqat matn muharriri",
+    "Faqat printer drayveri"
+   ],
+   "e": "Mashinali o'qitish."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Raqamlashtirish (digitalizatsiya) nima?",
+   "a": [
+    "Raqamli texnologiyalarga o'tish",
+    "Hujjatlarni faqat qog'ozda saqlash",
+    "Kompyuterlardan voz kechish",
+    "Internetni o'chirish"
+   ],
+   "e": "Raqamli O'zbekiston — 2030 strategiyasi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "\"Elektron hukumat\" tizimining maqsadi nima?",
+   "a": [
+    "Elektron davlat xizmatlari",
+    "Davlat idoralarini yopish",
+    "Qog'oz hujjatlarni ko'paytirish",
+    "Internetni cheklash"
+   ],
+   "e": "my.gov.uz portali."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "O'zbekistonda davlat xizmatlarining yagona interaktiv portali qaysi?",
+   "a": [
+    "my.gov.uz",
+    "google.com",
+    "wikipedia.org",
+    "youtube.com"
+   ],
+   "e": "Yagona interaktiv davlat xizmatlari portali."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "QR-kod nima?",
+   "a": [
+    "Ikki o'lchovli kod",
+    "Kompyuter virusi",
+    "Operatsion tizim",
+    "Internet brauzeri"
+   ],
+   "e": "Smartfon kamerasi bilan o'qiladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Narsalar interneti (IoT) nima?",
+   "a": [
+    "Ulangan qurilmalar tarmog'i",
+    "Faqat kompyuterlar tarmog'i",
+    "Faqat telefon aloqasi",
+    "Faqat televideniye"
+   ],
+   "e": "Datchiklar, aqlli qurilmalar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Mobil ilova nima?",
+   "a": [
+    "Smartfon uchun dastur",
+    "Kompyuter klaviaturasi",
+    "Printer kartriji",
+    "Monitor kabeli"
+   ],
+   "e": "Android, iOS."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Taqdimot dasturiga misol qaysi?",
+   "a": [
+    "PowerPoint",
+    "Excel",
+    "Access",
+    "Notepad"
+   ],
+   "e": "Google Slides ham."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Grafik muharrirga misol qaysi?",
+   "a": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Access",
+    "Skype"
+   ],
+   "e": "Rastr grafika."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Axborotning xossalariga nima kiradi?",
+   "a": [
+    "Ishonchlilik, to'liqlik",
+    "Og'irlik, rang va hajm",
+    "Harorat va bosim",
+    "Uzunlik va kenglik"
+   ],
+   "e": "Foydalilik, tushunarlilik ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ma'lumot va axborot farqi nima?",
+   "a": [
+    "Axborot — ma'no berilgan ma'lumot",
+    "Ma'lumot har doim axborotdan muhimroq",
+    "Ular mutlaqo bir xil",
+    "Axborot faqat raqamlar"
+   ],
+   "e": "Ma'lumot — xom faktlar."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter avlodlari element bazasiga ko'ra qanday rivojlangan?",
+   "a": [
+    "Lampa → tranzistor → IS → mikroprotsessor",
+    "Mikroprotsessor → lampa → tranzistor",
+    "Faqat lampali kompyuterlar mavjud",
+    "Tranzistor → lampa → integral sxema"
+   ],
+   "e": "To'rt avlod."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Protsessor takt chastotasi qanday birlikda o'lchanadi?",
+   "a": [
+    "GGs",
+    "GB",
+    "Vt",
+    "dpi"
+   ],
+   "e": "Gigagers."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Monitorning ekran ruxsati nimani bildiradi?",
+   "a": [
+    "Piksellar sonini",
+    "Monitor og'irligini",
+    "Elektr sarfini",
+    "Ovoz balandligini"
+   ],
+   "e": "Masalan, 1920×1080."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Printerning sifat ko'rsatkichi qaysi?",
+   "a": [
+    "dpi (dyuymdagi nuqtalar)",
+    "GGs",
+    "Mbit/s",
+    "Vt"
+   ],
+   "e": "Ruxsat."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "USB nima?",
+   "a": [
+    "Universal port",
+    "Operatsion tizim turi",
+    "Dasturlash tili",
+    "Antivirus dasturi"
+   ],
+   "e": "Universal Serial Bus."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Fleshka qanday xotira turiga kiradi?",
+   "a": [
+    "Flesh-xotira (doimiy)",
+    "Operativ xotira",
+    "Protsessor keshi",
+    "Videoxotira"
+   ],
+   "e": "Elektrsiz ham saqlaydi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "SSD ning HDD ga nisbatan afzalligi nima?",
+   "a": [
+    "Tezroq va zarbaga chidamli",
+    "Har doim arzonroq va katta hajmli",
+    "Magnit disklar asosida ishlaydi",
+    "Elektrsiz ishlaydi"
+   ],
+   "e": "Harakatlanuvchi qismlari yo'q."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Drayver nima?",
+   "a": [
+    "Qurilma dasturi",
+    "Kompyuter korpusidagi vint",
+    "Matn muharriri",
+    "Antivirus bazasi"
+   ],
+   "e": "Printer, videokarta drayverlari."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Litsenziyali dasturiy ta'minot nima?",
+   "a": [
+    "Qonuniy dastur",
+    "Ruxsatsiz nusxalangan dastur",
+    "Virusli dastur",
+    "Faqat bepul o'yin"
+   ],
+   "e": "Mualliflik huquqi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ochiq kodli dasturga misol qaysi?",
+   "a": [
+    "Linux",
+    "Microsoft Windows",
+    "Adobe Photoshop",
+    "Microsoft Office"
+   ],
+   "e": "LibreOffice, Firefox ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Fayl nima?",
+   "a": [
+    "Nomlangan ma'lumotlar",
+    "Kompyuter korpusi",
+    "Klaviatura tugmasi",
+    "Monitor ekrani"
+   ],
+   "e": "Nom va kengaytma."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Papka (katalog) nima uchun ishlatiladi?",
+   "a": [
+    "Fayllarni guruhlash uchun",
+    "Fayllarni o'chirish uchun",
+    "Internetga ulanish uchun",
+    "Ovoz yozish uchun"
+   ],
+   "e": "Ierarxik tuzilma."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\"Savat\" (Korzina) nima?",
+   "a": [
+    "O'chirilganlar joyi",
+    "Internet do'kon",
+    "Antivirus dasturi",
+    "Printer navbati"
+   ],
+   "e": "Tiklash mumkin."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Algoritm nima?",
+   "a": [
+    "Aniq qadamlar ketma-ketligi",
+    "Kompyuter qurilmasi",
+    "Fayl turi",
+    "Tarmoq turi"
+   ],
+   "e": "Chiziqli, tarmoqlanuvchi, takrorlanuvchi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Dasturlash tiliga misol qaysi?",
+   "a": [
+    "Python",
+    "Excel",
+    "Windows",
+    "Chrome"
+   ],
+   "e": "Java, C++ ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Blok-sxemada romb shakli nimani bildiradi?",
+   "a": [
+    "Shart (tarmoqlanish)",
+    "Boshlanish",
+    "Kiritish",
+    "Hisoblash"
+   ],
+   "e": "Ha/yo'q chiqishlari."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Word da matnni qalin (bold) qilish kombinatsiyasi qaysi?",
+   "a": [
+    "Ctrl + B",
+    "Ctrl + I",
+    "Ctrl + U",
+    "Ctrl + P"
+   ],
+   "e": "I — kursiv, U — tagiga chizish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Hujjatni chop etish kombinatsiyasi qaysi?",
+   "a": [
+    "Ctrl + P",
+    "Ctrl + S",
+    "Ctrl + C",
+    "Ctrl + A"
+   ],
+   "e": "Print."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + A\" nima qiladi?",
+   "a": [
+    "Hammasini belgilaydi",
+    "Faylni saqlaydi",
+    "Matnni o'chiradi",
+    "Yangi oyna ochadi"
+   ],
+   "e": "Select All."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Word da sahifa raqamlarini qo'yish qaysi menyuda?",
+   "a": [
+    "Qo'shish (Insert)",
+    "Fayl (File) — Chiqish",
+    "Ko'rinish (View) — Masshtab",
+    "Pochta (Mailings)"
+   ],
+   "e": "Kolontitullar ham."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Word da jadval qo'shish mumkinmi?",
+   "a": [
+    "Ha",
+    "Yo'q, faqat Excel da",
+    "Faqat rasm sifatida",
+    "Faqat PDF da"
+   ],
+   "e": "Insert → Table."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda =MAX(B1:B5) nima qaytaradi?",
+   "a": [
+    "Eng katta qiymatni",
+    "Eng kichik qiymatni",
+    "Yig'indini",
+    "O'rtachani"
+   ],
+   "e": "MIN — eng kichik."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda =COUNT(A1:A10) nima hisoblaydi?",
+   "a": [
+    "Sonli kataklar sonini",
+    "Kataklar yig'indisini",
+    "Eng katta qiymatni",
+    "Matnli kataklarni"
+   ],
+   "e": "COUNTA — bo'sh bo'lmaganlarni."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "A1 = 5, A2 = 3 bo'lsa, =A1*A2 natijasi qancha?",
+   "a": [
+    "15",
+    "8",
+    "53",
+    "2"
+   ],
+   "e": "Ko'paytirish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "A1 = 10, B1 = 4 bo'lsa, =A1/B1 natijasi qancha?",
+   "a": [
+    "2,5",
+    "40",
+    "6",
+    "14"
+   ],
+   "e": "Bo'lish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda foiz formatini qo'llaganda 0,25 qanday ko'rinadi?",
+   "a": [
+    "25%",
+    "0,25%",
+    "2,5%",
+    "250%"
+   ],
+   "e": "×100."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda ma'lumotni katakda yangi satrga o'tkazish uchun nima bosiladi?",
+   "a": [
+    "Alt + Enter",
+    "Ctrl + Z",
+    "Shift + Tab",
+    "F5"
+   ],
+   "e": "Katak ichida."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excel ishchi kitobi nima?",
+   "a": [
+    "Varaqlardan iborat fayl",
+    "Faqat bitta katak",
+    "Diagramma turi",
+    "Formula turi"
+   ],
+   "e": "Workbook."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Formulani boshqa kataklarga nusxalashda nisbiy manzil qanday o'zgaradi?",
+   "a": [
+    "Mos ravishda o'zgaradi",
+    "Hech qachon o'zgarmaydi",
+    "Har doim A1 ga aylanadi",
+    "O'chib ketadi"
+   ],
+   "e": "A1 → A2."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Taqdimot slaydida animatsiya nima uchun ishlatiladi?",
+   "a": [
+    "Paydo bo'lish effektlari uchun",
+    "Faylni saqlash uchun",
+    "Matnni tarjima qilish uchun",
+    "Virusni o'chirish uchun"
+   ],
+   "e": "Me'yorida qo'llash kerak."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Yaxshi taqdimot slaydi qanday bo'lishi kerak?",
+   "a": [
+    "Qisqa matn va aniq tuzilma",
+    "Juda ko'p mayda matn va ko'p rang",
+    "Faqat matn, rasm va diagrammalarsiz",
+    "Har slaydda turli shrift va fon"
+   ],
+   "e": "Auditoriyaga yo'naltirilgan."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Domen nomidagi \".uz\" nimani bildiradi?",
+   "a": [
+    "O'zbekiston milliy domeni",
+    "Tijorat tashkilotini",
+    "Ta'lim muassasasini faqat",
+    "Davlat organini faqat"
+   ],
+   "e": "Country code TLD."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Internet tezligi qanday birlikda o'lchanadi?",
+   "a": [
+    "Mbit/s",
+    "GGs",
+    "dpi",
+    "Vt"
+   ],
+   "e": "Megabit sekundiga."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Router nima vazifani bajaradi?",
+   "a": [
+    "Ma'lumot yo'naltiradi",
+    "Matn yozadi",
+    "Rasm chop etadi",
+    "Ovoz yozadi"
+   ],
+   "e": "Uy tarmog'ini internetga ulaydi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron pochta xatiga fayl biriktirish qanday nomlanadi?",
+   "a": [
+    "Ilova (attachment)",
+    "Spam",
+    "Imzo",
+    "Mavzu"
+   ],
+   "e": "Hajmi cheklangan."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Spam nima?",
+   "a": [
+    "Keraksiz ommaviy xabarlar",
+    "Muhim rasmiy xat",
+    "Fayl turi",
+    "Antivirus"
+   ],
+   "e": "Ehtiyot bo'lish kerak."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ijtimoiy tarmoqda shaxsiy ma'lumotlarni joylashda nima muhim?",
+   "a": [
+    "Maxfiylik sozlamalari",
+    "Barcha ma'lumotlarni ochiq e'lon qilish",
+    "Parolni postda yozish",
+    "Bank karta raqamini ulashish"
+   ],
+   "e": "Raqamli gigiyena."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Kiberxavfsizlik nima?",
+   "a": [
+    "Raqamli tahdidlardan himoya",
+    "Kompyuterni changdan tozalash",
+    "Internetni tezlashtirish",
+    "Dasturlarni bepul yuklab olish"
+   ],
+   "e": "Texnik va tashkiliy choralar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ochiq Wi-Fi tarmoqlarida nima tavsiya etilmaydi?",
+   "a": [
+    "Bank operatsiyalarini bajarish",
+    "Yangiliklarni o'qish",
+    "Ob-havoni ko'rish",
+    "Xaritadan foydalanish"
+   ],
+   "e": "Trafik ushlanishi mumkin."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Dasturiy ta'minotni yangilab turish nima uchun muhim?",
+   "a": [
+    "Zaifliklar tuzatiladi",
+    "Kompyuter albatta sekinlashadi",
+    "Litsenziya bekor qilinadi",
+    "Fayllar o'chib ketadi"
+   ],
+   "e": "Avtomatik yangilanishlar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron tijorat nima?",
+   "a": [
+    "Internet orqali savdo",
+    "Faqat bozorda naqd savdo",
+    "Faqat barter",
+    "Faqat ulgurji ombor"
+   ],
+   "e": "Onlayn do'konlar, to'lov tizimlari."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Onlayn to'lov tizimiga misol qaysi (O'zbekiston)?",
+   "a": [
+    "Click, Payme",
+    "Paint, Notepad",
+    "Excel, Word",
+    "WinRAR, 7-Zip"
+   ],
+   "e": "Mobil to'lovlar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Masofaviy ta'lim platformasiga misol qaysi?",
+   "a": [
+    "Moodle",
+    "WinRAR",
+    "Paint",
+    "Calculator"
+   ],
+   "e": "Google Classroom ham."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Geoaxborot tizimi (GIS) nima?",
+   "a": [
+    "Fazoviy ma'lumotlar tizimi",
+    "Grafik muharrir",
+    "Matn muharriri",
+    "Antivirus"
+   ],
+   "e": "Xaritalar bilan ishlash."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Blokcheyn texnologiyasining asosiy xususiyati nima?",
+   "a": [
+    "O'zgarmas taqsimlangan yozuvlar",
+    "Ma'lumotlarni bitta markazda saqlash",
+    "Ma'lumotlarni o'chirish oson",
+    "Faqat matn saqlash"
+   ],
+   "e": "Kriptovalyutalar asosi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Chatbot nima?",
+   "a": [
+    "Avtomatik muloqot dasturi",
+    "Printer turi",
+    "Fayl formati",
+    "Kompyuter korpusi"
+   ],
+   "e": "Masalan, Telegram botlari."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Raqamli savodxonlik nima?",
+   "a": [
+    "Xavfsiz va to'g'ri foydalanish qobiliyati",
+    "Faqat kompyuter yig'ish",
+    "Faqat dasturlash",
+    "Faqat matn terish tezligi"
+   ],
+   "e": "Zamonaviy kompetensiya."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python qanday dasturlash tili?",
+   "a": [
+    "Yuqori darajali, interpretatsiya qilinadigan",
+    "Faqat mashina kodida yoziladigan quyi darajali til",
+    "Faqat veb-sahifalarni bezash uchun belgilash tili",
+    "Faqat ma'lumotlar bazasi so'rovlari tili"
+   ],
+   "e": "Sodda sintaksis."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da ekranga chiqarish funksiyasi qaysi?",
+   "a": [
+    "print()",
+    "input()",
+    "len()",
+    "type()"
+   ],
+   "e": "print(\"Salom\")."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da foydalanuvchidan ma'lumot kiritish funksiyasi qaysi?",
+   "a": [
+    "input()",
+    "print()",
+    "range()",
+    "open()"
+   ],
+   "e": "Natija satr (str) turida."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da izoh qaysi belgi bilan boshlanadi?",
+   "a": [
+    "#",
+    "//",
+    "/*",
+    "--"
+   ],
+   "e": "Bir qatorli izoh."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da kod bloklari qanday ajratiladi?",
+   "a": [
+    "Chekinish bilan",
+    "Figurali qavslar { } bilan",
+    "begin/end so'zlari bilan",
+    "Nuqtali vergul bilan"
+   ],
+   "e": "Odatda 4 ta probel."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "type(3.14) natijasi qanday?",
+   "a": [
+    "float",
+    "int",
+    "str",
+    "bool"
+   ],
+   "e": "Haqiqiy son."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "type(\"15\") natijasi qanday?",
+   "a": [
+    "str",
+    "int",
+    "float",
+    "list"
+   ],
+   "e": "Qo'shtirnoqdagi qiymat — satr."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "int(\"25\") + 5 natijasi qancha?",
+   "a": [
+    "30",
+    "\"255\"",
+    "255",
+    "Xato"
+   ],
+   "e": "Satr butun songa o'giriladi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "\"25\" + \"5\" natijasi qanday?",
+   "a": [
+    "\"255\"",
+    "30",
+    "20",
+    "Xato"
+   ],
+   "e": "Satrlar birlashadi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da 7 // 2 natijasi qancha?",
+   "a": [
+    "3",
+    "3.5",
+    "1",
+    "4"
+   ],
+   "e": "Butun bo'lish."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da 7 % 2 natijasi qancha?",
+   "a": [
+    "1",
+    "3",
+    "3.5",
+    "0"
+   ],
+   "e": "Qoldiq."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da 2 ** 3 natijasi qancha?",
+   "a": [
+    "8",
+    "6",
+    "5",
+    "9"
+   ],
+   "e": "Darajaga ko'tarish."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da 7 / 2 natijasi qancha?",
+   "a": [
+    "3.5",
+    "3",
+    "4",
+    "1"
+   ],
+   "e": "Oddiy bo'lish float qaytaradi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da mantiqiy qiymatlar qaysilar?",
+   "a": [
+    "True va False",
+    "true va false",
+    "1 va 0 faqat",
+    "Yes va No"
+   ],
+   "e": "bool turi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da \"teng emas\" operatori qaysi?",
+   "a": [
+    "!=",
+    "<>",
+    "=!",
+    "=="
+   ],
+   "e": "Taqqoslash."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da shart operatori qanday yoziladi?",
+   "a": [
+    "if shart:",
+    "if (shart) then",
+    "when shart do",
+    "case shart"
+   ],
+   "e": "elif va else ham bor."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da range(5) qanday sonlarni hosil qiladi?",
+   "a": [
+    "0, 1, 2, 3, 4",
+    "1, 2, 3, 4, 5",
+    "0, 1, 2, 3, 4, 5",
+    "5, 4, 3, 2, 1"
+   ],
+   "e": "Oxirgi qiymat kirmaydi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "range(2, 10, 3) qanday sonlarni hosil qiladi?",
+   "a": [
+    "2, 5, 8",
+    "2, 3, 4",
+    "3, 6, 9",
+    "2, 5, 8, 11"
+   ],
+   "e": "Qadam 3."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da for sikli bilan ro'yxat elementlarini aylanish qanday yoziladi?",
+   "a": [
+    "for x in royxat:",
+    "for (i = 0; i < n; i++)",
+    "foreach royxat as x",
+    "loop royxat"
+   ],
+   "e": "Iteratsiya."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "while sikli qachon to'xtaydi?",
+   "a": [
+    "Shart yolg'on bo'lganda",
+    "Har doim 10 marta takrorlangandan keyin",
+    "Faqat print chaqirilganda",
+    "Hech qachon"
+   ],
+   "e": "Yoki break bilan."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "break operatori nima qiladi?",
+   "a": [
+    "Siklni darhol to'xtatadi",
+    "Keyingi iteratsiyaga o'tadi",
+    "Dasturni qayta ishga tushiradi",
+    "Xato chiqaradi"
+   ],
+   "e": "continue — keyingi qadamga."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "continue operatori nima qiladi?",
+   "a": [
+    "Qolganini o'tkazib yuboradi",
+    "Siklni butunlay to'xtatadi",
+    "Funksiyadan chiqadi",
+    "Dasturni yopadi"
+   ],
+   "e": "Keyingi aylanish."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da ro'yxat (list) qanday yaratiladi?",
+   "a": [
+    "[1, 2, 3]",
+    "(1, 2, 3)",
+    "{1, 2, 3}",
+    "<1, 2, 3>"
+   ],
+   "e": "O'zgaruvchan tur."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "a = [10, 20, 30] bo'lsa, a[0] qanday?",
+   "a": [
+    "10",
+    "20",
+    "30",
+    "Xato"
+   ],
+   "e": "Indeks 0 dan boshlanadi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "a = [10, 20, 30] bo'lsa, a[-1] qanday?",
+   "a": [
+    "30",
+    "10",
+    "20",
+    "Xato"
+   ],
+   "e": "Oxirgi element."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "a = [10, 20, 30] bo'lsa, len(a) qancha?",
+   "a": [
+    "3",
+    "2",
+    "30",
+    "60"
+   ],
+   "e": "Elementlar soni."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Ro'yxat oxiriga element qo'shish metodi qaysi?",
+   "a": [
+    "append()",
+    "add()",
+    "insert_end()",
+    "push()"
+   ],
+   "e": "a.append(40)."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "a = [1, 2, 3, 4, 5] bo'lsa, a[1:3] qanday?",
+   "a": [
+    "[2, 3]",
+    "[1, 2, 3]",
+    "[2, 3, 4]",
+    "[1, 2]"
+   ],
+   "e": "Kesma, oxiri kirmaydi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Kortej (tuple) ro'yxatdan nimasi bilan farq qiladi?",
+   "a": [
+    "O'zgartirib bo'lmaydi",
+    "Faqat sonlarni saqlaydi",
+    "Kvadrat qavsda yoziladi",
+    "Elementlari tartibsiz"
+   ],
+   "e": "(1, 2, 3)."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Lug'at (dict) qanday ko'rinishda?",
+   "a": [
+    "{\"kalit\": qiymat}",
+    "[kalit, qiymat]",
+    "(kalit; qiymat)",
+    "<kalit=qiymat>"
+   ],
+   "e": "Kalit-qiymat juftliklari."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "d = {\"a\": 1, \"b\": 2} bo'lsa, d[\"b\"] qanday?",
+   "a": [
+    "2",
+    "1",
+    "\"b\"",
+    "Xato"
+   ],
+   "e": "Kalit bo'yicha murojaat."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "To'plam (set) qanday xususiyatga ega?",
+   "a": [
+    "Takroriy elementlarsiz",
+    "Faqat tartiblangan va takrorli",
+    "Faqat satrlar saqlaydi",
+    "O'zgarmaydi"
+   ],
+   "e": "{1, 2, 3}."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "set([1, 1, 2, 3, 3]) natijasi qanday?",
+   "a": [
+    "{1, 2, 3}",
+    "[1, 1, 2, 3, 3]",
+    "{1, 1, 2, 3, 3}",
+    "3"
+   ],
+   "e": "Takrorlar olib tashlanadi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da funksiya qanday e'lon qilinadi?",
+   "a": [
+    "def nom(parametrlar):",
+    "function nom()",
+    "func nom() {}",
+    "void nom()"
+   ],
+   "e": "return bilan qiymat qaytaradi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "def f(x): return x * 2 bo'lsa, f(5) natijasi qancha?",
+   "a": [
+    "10",
+    "7",
+    "25",
+    "5"
+   ],
+   "e": "Funksiya chaqiruvi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "lambda ifodasi nima?",
+   "a": [
+    "Anonim qisqa funksiya",
+    "Sikl turi",
+    "Modul nomi",
+    "Xato turi"
+   ],
+   "e": "lambda x: x + 1."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da modulni ulash qanday bajariladi?",
+   "a": [
+    "import math",
+    "include math",
+    "using math",
+    "require math"
+   ],
+   "e": "Kutubxonalar."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "math.sqrt(16) natijasi qancha?",
+   "a": [
+    "4.0",
+    "8",
+    "256",
+    "2"
+   ],
+   "e": "Kvadrat ildiz."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da xatolarni ushlash qaysi konstruksiya bilan bajariladi?",
+   "a": [
+    "try ... except",
+    "if ... else",
+    "for ... in",
+    "def ... return"
+   ],
+   "e": "Istisnolar."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "10 / 0 ifodasi qanday xatoga olib keladi?",
+   "a": [
+    "ZeroDivisionError",
+    "TypeError",
+    "NameError",
+    "IndexError"
+   ],
+   "e": "Nolga bo'lish."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Mavjud bo'lmagan indeksga murojaat qanday xato beradi?",
+   "a": [
+    "IndexError",
+    "KeyError",
+    "ZeroDivisionError",
+    "SyntaxError"
+   ],
+   "e": "Ro'yxat chegarasidan tashqari."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da faylni o'qish uchun ochish qanday yoziladi?",
+   "a": [
+    "open(\"fayl.txt\", \"r\")",
+    "open(\"fayl.txt\", \"w\")",
+    "read(\"fayl.txt\")",
+    "file(\"fayl.txt\").write()"
+   ],
+   "e": "\"w\" — yozish, \"a\" — qo'shish."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "with open(...) as f: konstruksiyasining afzalligi nima?",
+   "a": [
+    "Fayl avtomatik yopiladi",
+    "Fayl hech qachon ochilmaydi",
+    "Fayl o'chib ketadi",
+    "Fayl ikki marta o'qiladi"
+   ],
+   "e": "Kontekst menejeri."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Satrni katta harflarga o'tkazish metodi qaysi?",
+   "a": [
+    "upper()",
+    "lower()",
+    "title()",
+    "strip()"
+   ],
+   "e": "\"abc\".upper() → \"ABC\"."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "\"  salom  \".strip() natijasi qanday?",
+   "a": [
+    "\"salom\"",
+    "\"  salom\"",
+    "\"salom  \"",
+    "\"SALOM\""
+   ],
+   "e": "Chetdagi bo'shliqlar olib tashlanadi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "f-satr (f-string) qanday yoziladi?",
+   "a": [
+    "f\"Natija: {x}\"",
+    "\"Natija: \" + {x}",
+    "s\"Natija: x\"",
+    "\"Natija: %x\""
+   ],
+   "e": "Python 3.6+."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Ro'yxat generatori [x*x for x in range(4)] natijasi qanday?",
+   "a": [
+    "[0, 1, 4, 9]",
+    "[1, 4, 9, 16]",
+    "[0, 1, 2, 3]",
+    "[0, 2, 4, 6]"
+   ],
+   "e": "List comprehension."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Sonli hisoblashlar va massivlar uchun Python kutubxonasi qaysi?",
+   "a": [
+    "NumPy",
+    "Tkinter",
+    "Flask",
+    "Pygame"
+   ],
+   "e": "Massiv va matritsa amallari."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da grafik chizish uchun keng qo'llaniladigan kutubxona qaysi?",
+   "a": [
+    "Matplotlib",
+    "NumPy faqat hisob uchun",
+    "Requests",
+    "Django"
+   ],
+   "e": "plt.plot()."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Jadval ko'rinishidagi ma'lumotlar bilan ishlash uchun Python kutubxonasi qaysi?",
+   "a": [
+    "pandas",
+    "math",
+    "random",
+    "os"
+   ],
+   "e": "DataFrame."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "NumPy da np.array([1, 2, 3]) * 2 natijasi qanday?",
+   "a": [
+    "[2, 4, 6]",
+    "[1, 2, 3, 1, 2, 3]",
+    "12",
+    "Xato"
+   ],
+   "e": "Vektorlashgan amal."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Ilmiy hisoblar (integral, optimallashtirish) uchun Python kutubxonasi qaysi?",
+   "a": [
+    "SciPy",
+    "Pillow",
+    "Selenium",
+    "Kivy"
+   ],
+   "e": "scipy.integrate, scipy.optimize."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB nomi nimani anglatadi?",
+   "a": [
+    "Matrix Laboratory",
+    "Mathematical Table Language",
+    "Machine Translation Lab",
+    "Map Tool Library"
+   ],
+   "e": "Matritsalar bilan ishlashga yo'naltirilgan."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da asosiy ma'lumot turi qaysi?",
+   "a": [
+    "Matritsa (massiv)",
+    "Faqat matnli satr",
+    "Faqat mantiqiy qiymat",
+    "Faqat lug'at"
+   ],
+   "e": "Skalyar ham 1×1 matritsa."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da satr vektori qanday yaratiladi?",
+   "a": [
+    "v = [1 2 3]",
+    "v = (1; 2; 3)",
+    "v = {1, 2, 3} faqat",
+    "v = <1 2 3>"
+   ],
+   "e": "Vergul yoki probel bilan."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da ustun vektori qanday yaratiladi?",
+   "a": [
+    "v = [1; 2; 3]",
+    "v = [1 2 3]",
+    "v = (1 2 3)",
+    "v = {1 2 3}"
+   ],
+   "e": "Nuqtali vergul — yangi satr."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da 2×2 matritsa qanday yoziladi?",
+   "a": [
+    "A = [1 2; 3 4]",
+    "A = [1, 2, 3, 4]",
+    "A = (1 2)(3 4)",
+    "A = {1 2; 3 4} faqat"
+   ],
+   "e": "Satrlar ; bilan ajratiladi."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da buyruq oxiridagi nuqtali vergul nima qiladi?",
+   "a": [
+    "Chiqishni bostiradi",
+    "Buyruqni bekor qiladi",
+    "Xato chiqaradi",
+    "Yangi matritsa yaratadi"
+   ],
+   "e": "Chiqishni bostiradi."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da izoh qaysi belgi bilan boshlanadi?",
+   "a": [
+    "%",
+    "#",
+    "//",
+    "--"
+   ],
+   "e": "Bir qatorli izoh."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da indekslash qaysi sondan boshlanadi?",
+   "a": [
+    "1",
+    "0",
+    "−1",
+    "2"
+   ],
+   "e": "Python dan farqli."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "A = [1 2; 3 4] bo'lsa, A(2,1) qanday?",
+   "a": [
+    "3",
+    "2",
+    "1",
+    "4"
+   ],
+   "e": "2-satr, 1-ustun."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da A' nimani bildiradi?",
+   "a": [
+    "A ning transponirlangani",
+    "A ning teskarisi",
+    "A ning determinanti",
+    "A ning izi"
+   ],
+   "e": "Apostrof — transpozitsiya."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da matritsa determinanti qaysi funksiya bilan topiladi?",
+   "a": [
+    "det(A)",
+    "inv(A)",
+    "rank(A)",
+    "size(A)"
+   ],
+   "e": "det([1 2;3 4]) = −2."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da teskari matritsa qaysi funksiya bilan topiladi?",
+   "a": [
+    "inv(A)",
+    "det(A)",
+    "trans(A)",
+    "eye(A)"
+   ],
+   "e": "A^(-1) ham."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da A*B va A.*B farqi nima?",
+   "a": [
+    "A*B matritsaviy, A.*B elementlararo",
+    "Ikkalasi bir xil",
+    "A.*B — matritsaviy, A*B — elementlararo",
+    "A.*B xato hisoblanadi"
+   ],
+   "e": "Nuqta — elementlar bo'yicha."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da chiziqli tenglamalar sistemasi Ax = b qanday yechiladi?",
+   "a": [
+    "x = A\\b",
+    "x = b\\A",
+    "x = A*b",
+    "x = b/A faqat satr uchun emas"
+   ],
+   "e": "Chap bo'lish operatori."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da birlik matritsa qaysi funksiya bilan yaratiladi?",
+   "a": [
+    "eye(n)",
+    "ones(n)",
+    "zeros(n)",
+    "rand(n)"
+   ],
+   "e": "n×n birlik matritsa."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "zeros(2,3) nima yaratadi?",
+   "a": [
+    "2×3 nol matritsa",
+    "3×2 birlik matritsa",
+    "2×3 birlardan iborat matritsa",
+    "Tasodifiy matritsa"
+   ],
+   "e": "ones — birlar."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da 0:0.5:2 ifodasi qanday vektor hosil qiladi?",
+   "a": [
+    "[0 0.5 1 1.5 2]",
+    "[0 1 2]",
+    "[0.5 1 1.5]",
+    "[0 2]"
+   ],
+   "e": "Boshlang'ich:qadam:oxirgi."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "linspace(0, 1, 5) nima hosil qiladi?",
+   "a": [
+    "5 ta teng taqsimlangan nuqta",
+    "0 dan 5 gacha butun sonlar",
+    "5 ta tasodifiy son",
+    "1 dan 5 gacha"
+   ],
+   "e": "[0 0.25 0.5 0.75 1]."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da grafik chizish funksiyasi qaysi?",
+   "a": [
+    "plot(x, y)",
+    "draw(x, y)",
+    "graph(x, y)",
+    "line_chart(x, y)"
+   ],
+   "e": "Ikki o'lchovli grafik."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da grafikka sarlavha qo'shish funksiyasi qaysi?",
+   "a": [
+    "title()",
+    "name()",
+    "header()",
+    "label_top()"
+   ],
+   "e": "xlabel, ylabel — o'q nomlari."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "Bir oynada bir nechta grafik chizish uchun nima ishlatiladi?",
+   "a": [
+    "hold on yoki subplot",
+    "clear all",
+    "close all",
+    "clc"
+   ],
+   "e": "Grafiklarni ustma-ust qo'yish."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da clc buyrug'i nima qiladi?",
+   "a": [
+    "Buyruqlar oynasini tozalaydi",
+    "Barcha o'zgaruvchilarni o'chiradi",
+    "Grafiklarni yopadi",
+    "Dasturni saqlaydi"
+   ],
+   "e": "clear — o'zgaruvchilarni o'chiradi."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da skript fayllari qaysi kengaytmaga ega?",
+   "a": [
+    ".m",
+    ".py",
+    ".mat faqat ma'lumot",
+    ".exe"
+   ],
+   "e": "M-fayllar."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da funksiya fayli qanday boshlanadi?",
+   "a": [
+    "function y = nom(x)",
+    "def nom(x):",
+    "void nom(x)",
+    "func nom(x)"
+   ],
+   "e": "Fayl nomi funksiya nomiga mos."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da for sikli qanday yoziladi?",
+   "a": [
+    "for i = 1:10 ... end",
+    "for (i = 0; i < 10; i++)",
+    "for i in range(10):",
+    "loop i to 10"
+   ],
+   "e": "end bilan tugaydi."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da shart operatori qanday tugaydi?",
+   "a": [
+    "end",
+    "endif faqat",
+    "fi",
+    "}"
+   ],
+   "e": "if ... elseif ... else ... end."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da \"teng emas\" operatori qaysi?",
+   "a": [
+    "~=",
+    "!=",
+    "<>",
+    "=/="
+   ],
+   "e": "Tilda belgisi."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da polinom ildizlarini topish funksiyasi qaysi?",
+   "a": [
+    "roots()",
+    "poly()",
+    "polyval()",
+    "solve() faqat simvolik"
+   ],
+   "e": "roots([1 -3 2]) → 2 va 1."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "polyval([1 0 -1], 2) natijasi qancha?",
+   "a": [
+    "3",
+    "1",
+    "−1",
+    "4"
+   ],
+   "e": "x² − 1 da x = 2."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da sonli integrallash funksiyasi qaysi?",
+   "a": [
+    "integral()",
+    "diff()",
+    "sum() faqat",
+    "plot()"
+   ],
+   "e": "Masalan, integral(@(x) x.^2, 0, 1)."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da @(x) x.^2 yozuvi nimani bildiradi?",
+   "a": [
+    "Anonim funksiyani",
+    "Izohni",
+    "Matritsani",
+    "Xatoni"
+   ],
+   "e": "Function handle."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "Oddiy differensial tenglamalarni sonli yechish uchun MATLAB funksiyasi qaysi?",
+   "a": [
+    "ode45",
+    "det",
+    "plot",
+    "inv"
+   ],
+   "e": "Runge–Kutta usuli."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da ma'lumotlarni .mat faylga saqlash buyrug'i qaysi?",
+   "a": [
+    "save",
+    "load",
+    "open",
+    "print"
+   ],
+   "e": "load — yuklash."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "Simulink nima?",
+   "a": [
+    "Blok-sxemali modellash muhiti",
+    "MATLAB ning matn muharriri",
+    "Antivirus dasturi",
+    "Faqat grafik chizish funksiyasi"
+   ],
+   "e": "MATLAB tarkibida."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da size(A) nimani qaytaradi?",
+   "a": [
+    "Matritsa o'lchamlarini",
+    "Matritsa elementlari yig'indisini",
+    "Determinantni",
+    "Eng katta elementni"
+   ],
+   "e": "[satrlar ustunlar]."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da max([3 7 2]) natijasi qancha?",
+   "a": [
+    "7",
+    "3",
+    "2",
+    "12"
+   ],
+   "e": "Eng katta element."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da sum([1 2 3 4]) natijasi qancha?",
+   "a": [
+    "10",
+    "4",
+    "24",
+    "1"
+   ],
+   "e": "Yig'indi."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da mean([2 4 6]) natijasi qancha?",
+   "a": [
+    "4",
+    "12",
+    "6",
+    "2"
+   ],
+   "e": "O'rtacha."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "AutoCAD dasturi nima uchun ishlatiladi?",
+   "a": [
+    "Avtomatlashtirilgan loyihalash uchun",
+    "Faqat buxgalteriya hisobini yuritish uchun",
+    "Faqat video montaj qilish uchun",
+    "Faqat musiqa yozish uchun"
+   ],
+   "e": "CAD tizimi."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "CAD qisqartmasi nimani bildiradi?",
+   "a": [
+    "Kompyuter yordamida loyihalash",
+    "Kompyuter yordamida audit",
+    "Markaziy avtomatik disk",
+    "Kodlangan arxiv ma'lumoti"
+   ],
+   "e": "Computer-Aided Design."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "BIM texnologiyasi nima?",
+   "a": [
+    "Binoning axborot modeli",
+    "Bino ichidagi musiqa tizimi",
+    "Qurilish materiallari do'koni",
+    "Bino qorovul xizmati"
+   ],
+   "e": "Building Information Modeling."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "BIM ning an'anaviy 2D chizmadan afzalligi nima?",
+   "a": [
+    "Yagona bog'langan 3D model",
+    "Faqat qog'ozda chizish mumkinligi",
+    "Ma'lumotlarning bir-biriga bog'lanmasligi",
+    "O'zgarishlarni kiritib bo'lmasligi"
+   ],
+   "e": "To'qnashuvlarni aniqlash."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "BIM dasturiga misol qaysi?",
+   "a": [
+    "Revit",
+    "Excel",
+    "Paint",
+    "Skype"
+   ],
+   "e": "ArchiCAD, Tekla ham."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "ArchiCAD asosan kimlar uchun mo'ljallangan?",
+   "a": [
+    "Arxitektorlar uchun",
+    "Buxgalterlar uchun",
+    "Shifokorlar uchun",
+    "Haydovchilar uchun"
+   ],
+   "e": "Arxitektura BIM dasturi."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilish konstruksiyalarini hisoblash dasturiga misol qaysi?",
+   "a": [
+    "LIRA-SAPR yoki SCAD",
+    "Microsoft Word",
+    "Adobe Photoshop",
+    "Google Chrome"
+   ],
+   "e": "Chekli elementlar usuli."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Chekli elementlar usuli (MKE) nimaga asoslanadi?",
+   "a": [
+    "Kichik elementlarga bo'lib hisoblash",
+    "Konstruksiyani butunlay bir element deb olishga",
+    "Faqat ko'z bilan baholashga",
+    "Tasodifiy sonlarga"
+   ],
+   "e": "Kuchlanish va deformatsiyalarni topish."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Smeta hisoblash dasturining vazifasi nima?",
+   "a": [
+    "Qurilish qiymatini",
+    "Bino rangini tanlash",
+    "Ishchilarni yollash",
+    "Ob-havoni bashorat qilish"
+   ],
+   "e": "Resurslar va narxlar."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "MS Project dasturi qurilishda nima uchun ishlatiladi?",
+   "a": [
+    "Jadvalni rejalash uchun",
+    "Chizma chizish uchun",
+    "Beton aralashtirish uchun",
+    "Matn tarjima qilish uchun"
+   ],
+   "e": "Gant diagrammasi."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "AutoCAD da qatlamlar (layers) nima uchun kerak?",
+   "a": [
+    "Elementlarni guruhlash uchun",
+    "Faylni shifrlash uchun",
+    "Rasmni bo'yash uchun",
+    "Internetga ulanish uchun"
+   ],
+   "e": "Devorlar, o'qlar, o'lchamlar."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "AutoCAD fayllari qaysi kengaytmaga ega?",
+   "a": [
+    ".dwg",
+    ".docx",
+    ".xlsx",
+    ".mp3"
+   ],
+   "e": "DXF — almashinuv formati."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "IFC formati BIM da nima uchun ishlatiladi?",
+   "a": [
+    "Model almashish uchun",
+    "Faqat rasm saqlash uchun",
+    "Faqat audio uchun",
+    "Faqat matn uchun"
+   ],
+   "e": "Ochiq standart."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilishda 3D lazer skanerlash nima beradi?",
+   "a": [
+    "Aniq raqamli modelni",
+    "Binoni avtomatik qurishni",
+    "Ishchilarni boshqarishni",
+    "Materiallarni ishlab chiqarishni"
+   ],
+   "e": "Nuqtalar buluti."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilish maydonchasini dron bilan kuzatish nima beradi?",
+   "a": [
+    "Tez monitoring",
+    "Betonni quyish",
+    "G'isht terish",
+    "Kranni boshqarish"
+   ],
+   "e": "Aerofotosyomka."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "BIM da \"to'qnashuvlarni aniqlash\" (clash detection) nima?",
+   "a": [
+    "Kesishishlarni topish",
+    "Ishchilar orasidagi nizolarni hal qilish",
+    "Avtomobillar to'qnashuvini tahlil qilish",
+    "Ob-havo prognozi"
+   ],
+   "e": "Masalan, quvur va to'sin."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilishda \"4D BIM\" nima qo'shadi?",
+   "a": [
+    "Vaqt (jadval)",
+    "Rang",
+    "Ovoz",
+    "Hid"
+   ],
+   "e": "5D — qiymat."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilishda \"5D BIM\" nima qo'shadi?",
+   "a": [
+    "Qiymat (smeta)",
+    "Vaqt",
+    "Rang",
+    "Harorat"
+   ],
+   "e": "Xarajatlarni modellashtirish."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Geodezik o'lchov natijalarini qurilish loyihasiga kiritish uchun qanday ma'lumot almashinuvi qulay?",
+   "a": [
+    "Koordinatalar fayllari",
+    "Faqat qo'lda yozilgan qog'oz",
+    "Faqat og'zaki xabar",
+    "Faqat fotosurat"
+   ],
+   "e": "Raqamli almashinuv."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilish materiallari sarfini hisoblashda elektron jadvalning afzalligi nima?",
+   "a": [
+    "Tez qayta hisoblash",
+    "Faqat matn yozish",
+    "Hisoblashning imkonsizligi",
+    "Xatolarning ko'payishi"
+   ],
+   "e": "Excel, Google Sheets."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da to'g'ri to'rtburchak kesimli to'sin inersiya momentini (b, h) hisoblash formulasi qanday yoziladi?",
+   "a": [
+    "I = b * h**3 / 12",
+    "I = b * h / 12",
+    "I = b ** 3 * h",
+    "I = (b + h) / 12"
+   ],
+   "e": "bh³/12."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "b = 0.2, h = 0.4 bo'lsa, b * h natijasi Python da qancha (taxminan)?",
+   "a": [
+    "0.08",
+    "0.6",
+    "0.8",
+    "8"
+   ],
+   "e": "Kesim yuzasi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da sonni 2 xonagacha yaxlitlash funksiyasi qaysi?",
+   "a": [
+    "round(x, 2)",
+    "int(x, 2)",
+    "abs(x, 2)",
+    "floor(x, 2)"
+   ],
+   "e": "round(3.14159, 2) → 3.14."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da abs(-7) natijasi qancha?",
+   "a": [
+    "7",
+    "−7",
+    "0",
+    "49"
+   ],
+   "e": "Modul."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da max([3, 9, 4]) natijasi qancha?",
+   "a": [
+    "9",
+    "3",
+    "4",
+    "16"
+   ],
+   "e": "Eng katta."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da sum([1, 2, 3]) natijasi qancha?",
+   "a": [
+    "6",
+    "3",
+    "123",
+    "1"
+   ],
+   "e": "Yig'indi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da sorted([3, 1, 2]) natijasi qanday?",
+   "a": [
+    "[1, 2, 3]",
+    "[3, 2, 1]",
+    "[3, 1, 2]",
+    "6"
+   ],
+   "e": "Yangi saralangan ro'yxat."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da \"Beton\".lower() natijasi qanday?",
+   "a": [
+    "\"beton\"",
+    "\"BETON\"",
+    "\"Beton\"",
+    "\"noteB\""
+   ],
+   "e": "Kichik harflar."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da len(\"Qurilish\") natijasi qancha?",
+   "a": [
+    "8",
+    "7",
+    "9",
+    "1"
+   ],
+   "e": "Q-u-r-i-l-i-s-h."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da x = 5; x += 3 dan keyin x qancha?",
+   "a": [
+    "8",
+    "5",
+    "3",
+    "53"
+   ],
+   "e": "Qisqa yozuv."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da 10 > 5 and 3 > 7 ifodasi qanday?",
+   "a": [
+    "False",
+    "True",
+    "10",
+    "Xato"
+   ],
+   "e": "Ikkinchi shart yolg'on."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da 10 > 5 or 3 > 7 ifodasi qanday?",
+   "a": [
+    "True",
+    "False",
+    "7",
+    "Xato"
+   ],
+   "e": "Birinchisi rost."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da not True qiymati qanday?",
+   "a": [
+    "False",
+    "True",
+    "0 faqat",
+    "None"
+   ],
+   "e": "Inkor."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da None nima?",
+   "a": [
+    "Qiymat yo'qligi",
+    "Nol soni",
+    "Bo'sh satr",
+    "Xato"
+   ],
+   "e": "NoneType."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da obyektga yo'naltirilgan dasturlashda sinf qanday e'lon qilinadi?",
+   "a": [
+    "class Nom:",
+    "def class Nom",
+    "struct Nom",
+    "object Nom()"
+   ],
+   "e": "__init__ — konstruktor."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da __init__ metodi nima vazifani bajaradi?",
+   "a": [
+    "Obyektni boshlang'ich holatga keltiradi",
+    "Dasturni yopadi",
+    "Faylni o'chiradi",
+    "Siklni to'xtatadi"
+   ],
+   "e": "Konstruktor."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da self nimani bildiradi?",
+   "a": [
+    "Sinfning joriy obyektini",
+    "Global o'zgaruvchini",
+    "Modul nomini",
+    "Xato turini"
+   ],
+   "e": "Metodning birinchi parametri."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da paketlarni o'rnatish vositasi qaysi?",
+   "a": [
+    "pip",
+    "npm faqat JavaScript uchun",
+    "apt faqat Linux tizimi uchun",
+    "git"
+   ],
+   "e": "pip install numpy."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Jupyter Notebook nima?",
+   "a": [
+    "Kod, matn va grafik muhiti",
+    "Faqat matn muharriri",
+    "Antivirus",
+    "Operatsion tizim"
+   ],
+   "e": "Interaktiv hisoblar."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da while True: ichida break bo'lmasa nima bo'ladi?",
+   "a": [
+    "Cheksiz sikl",
+    "Sikl bir marta bajariladi",
+    "Xato chiqadi darhol",
+    "Dastur bajarilmaydi"
+   ],
+   "e": "Ehtiyot bo'lish kerak."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "NumPy da matritsalarni ko'paytirish operatori qaysi?",
+   "a": [
+    "@",
+    "*",
+    "&",
+    "%"
+   ],
+   "e": "Yoki np.dot()."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "np.linalg.solve(A, b) nima qiladi?",
+   "a": [
+    "Ax = b sistemasini yechadi",
+    "A determinantini topadi",
+    "Grafik chizadi",
+    "Faylni o'qiydi"
+   ],
+   "e": "Chiziqli algebra."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Matplotlib da grafikni ko'rsatish buyrug'i qaysi?",
+   "a": [
+    "plt.show()",
+    "plt.print()",
+    "plt.run()",
+    "plt.open()"
+   ],
+   "e": "Oyna ochiladi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "pandas da Excel faylni o'qish funksiyasi qaysi?",
+   "a": [
+    "pd.read_excel()",
+    "pd.open_xlsx()",
+    "pd.load()",
+    "pd.excel()"
+   ],
+   "e": "read_csv — CSV uchun."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da dasturni xatolarsiz ishlashini tekshirishning eng sodda usuli qaysi?",
+   "a": [
+    "Test bilan ishga tushirish",
+    "Kodni hech qachon ishga tushirmaslik",
+    "Faqat chiroyli yozish",
+    "Izohlarni o'chirish"
+   ],
+   "e": "Sinov va debug."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da a = [1, 2, 3]; a.insert(0, 9) dan keyin a qanday?",
+   "a": [
+    "[9, 1, 2, 3]",
+    "[1, 2, 3, 9]",
+    "[9, 2, 3]",
+    "[1, 9, 2, 3]"
+   ],
+   "e": "0-indeksga qo'shish."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da a = [1, 2, 3]; a.pop() nima qaytaradi?",
+   "a": [
+    "3",
+    "1",
+    "[1, 2]",
+    "None"
+   ],
+   "e": "Oxirgi elementni olib tashlaydi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da \"a,b,c\".split(\",\") natijasi qanday?",
+   "a": [
+    "[\"a\", \"b\", \"c\"]",
+    "\"abc\"",
+    "[\"a,b,c\"]",
+    "(\"a\", \"b\", \"c\")"
+   ],
+   "e": "Satrni bo'lish."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da \"-\".join([\"a\", \"b\"]) natijasi qanday?",
+   "a": [
+    "\"a-b\"",
+    "\"ab\"",
+    "[\"a\", \"-\", \"b\"]",
+    "\"-ab\""
+   ],
+   "e": "Birlashtirish."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da 3 in [1, 2, 3] ifodasi qanday?",
+   "a": [
+    "True",
+    "False",
+    "3",
+    "Xato"
+   ],
+   "e": "A'zolikni tekshirish."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da for i, x in enumerate([\"a\", \"b\"]) da i qanday qiymatlar oladi?",
+   "a": [
+    "0 va 1",
+    "1 va 2",
+    "\"a\" va \"b\"",
+    "Faqat 0"
+   ],
+   "e": "Indeks va element."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da zip([1, 2], [\"a\", \"b\"]) nimani hosil qiladi?",
+   "a": [
+    "(1, \"a\") va (2, \"b\") juftliklar",
+    "[1, 2, \"a\", \"b\"]",
+    "{1: 2}",
+    "Xato"
+   ],
+   "e": "Parallel iteratsiya."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da global o'zgaruvchini funksiya ichida o'zgartirish uchun nima yoziladi?",
+   "a": [
+    "global",
+    "local",
+    "static",
+    "extern"
+   ],
+   "e": "global x."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da funksiyaning standart parametr qiymati qanday beriladi?",
+   "a": [
+    "def f(x=10):",
+    "def f(x:=10):",
+    "def f(10=x):",
+    "def f(x==10):"
+   ],
+   "e": "Default argument."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da *args nima uchun ishlatiladi?",
+   "a": [
+    "Ixtiyoriy sondagi argumentlarni qabul qilish uchun",
+    "Ko'paytirish uchun faqat",
+    "Izoh yozish uchun",
+    "Modul ulash uchun"
+   ],
+   "e": "Kortej sifatida keladi."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da x = [1 2 3]; x.^2 natijasi qanday?",
+   "a": [
+    "[1 4 9]",
+    "14",
+    "[2 4 6]",
+    "Xato"
+   ],
+   "e": "Elementlar kvadrati."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da A = [1 2; 3 4]; A*A natijasi qanday?",
+   "a": [
+    "[7 10; 15 22]",
+    "[1 4; 9 16]",
+    "[2 4; 6 8]",
+    "[1 2; 3 4]"
+   ],
+   "e": "Matritsaviy ko'paytma."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da numel([1 2 3; 4 5 6]) natijasi qancha?",
+   "a": [
+    "6",
+    "2",
+    "3",
+    "21"
+   ],
+   "e": "Elementlar soni."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da disp() funksiyasi nima qiladi?",
+   "a": [
+    "Qiymatni ekranga chiqaradi",
+    "Grafik chizadi",
+    "Faylni o'chiradi",
+    "Matritsani teskari qiladi"
+   ],
+   "e": "Display."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da input() funksiyasi nima qiladi?",
+   "a": [
+    "Foydalanuvchidan qiymat so'raydi",
+    "Faylga yozadi",
+    "Grafik yopadi",
+    "Xato chiqaradi"
+   ],
+   "e": "Interaktiv kiritish."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da sqrt(25) natijasi qancha?",
+   "a": [
+    "5",
+    "625",
+    "12.5",
+    "2.5"
+   ],
+   "e": "Kvadrat ildiz."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da pi o'zgaruvchisi nimaga teng?",
+   "a": [
+    "3.1416 (π)",
+    "2.7183",
+    "1",
+    "0"
+   ],
+   "e": "Doimiy."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da exp(0) natijasi qancha?",
+   "a": [
+    "1",
+    "0",
+    "e",
+    "Xato"
+   ],
+   "e": "e⁰ = 1."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da x = linspace(0, 2*pi, 100); y = sin(x); plot(x, y) nima chizadi?",
+   "a": [
+    "Sinusoidani",
+    "To'g'ri chiziqni",
+    "Doirani",
+    "Parabolani"
+   ],
+   "e": "Bir davr."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da grafikka to'r (setka) qo'shish buyrug'i qaysi?",
+   "a": [
+    "grid on",
+    "net on",
+    "mesh off",
+    "line on"
+   ],
+   "e": "Yordamchi chiziqlar."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da 3D sirt chizish funksiyasi qaysi?",
+   "a": [
+    "surf",
+    "plot",
+    "bar",
+    "pie"
+   ],
+   "e": "meshgrid bilan birga."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da ustunli diagramma funksiyasi qaysi?",
+   "a": [
+    "bar",
+    "pie",
+    "surf",
+    "plot3"
+   ],
+   "e": "Bar chart."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da polyfit funksiyasi nima qiladi?",
+   "a": [
+    "Ma'lumotlarga ko'phadni moslashtiradi",
+    "Ko'phad ildizlarini topadi",
+    "Grafik chizadi",
+    "Integral hisoblaydi"
+   ],
+   "e": "Eng kichik kvadratlar."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da fzero funksiyasi nima qiladi?",
+   "a": [
+    "Funksiya nolini (ildizini) topadi",
+    "Matritsani nolga aylantiradi",
+    "Grafikni tozalaydi",
+    "O'zgaruvchilarni o'chiradi"
+   ],
+   "e": "Sonli usul."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da while sikli qanday tugaydi?",
+   "a": [
+    "end",
+    "loop",
+    "wend",
+    "done"
+   ],
+   "e": "while shart ... end."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilishda \"raqamli egizak\" nima?",
+   "a": [
+    "Obyektning ekspluatatsiyadagi virtual modeli",
+    "Ikki bir xil bino",
+    "Ikkita qurilish krani",
+    "Ikki muhandis"
+   ],
+   "e": "Monitoring va boshqaruv."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilish konstruksiyalarida datchiklar orqali monitoring nimani kuzatadi?",
+   "a": [
+    "Deformatsiya va yoriqlarni",
+    "Ishchilar kayfiyatini",
+    "Materiallar narxini",
+    "Ob-havoni faqat"
+   ],
+   "e": "Strukturaviy monitoring."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Tekla Structures dasturi asosan nima uchun ishlatiladi?",
+   "a": [
+    "Metall va temir-beton konstruksiyalarni modellashtirish",
+    "Buxgalteriya hisobi",
+    "Rasm chizish",
+    "Musiqa yozish"
+   ],
+   "e": "BIM dasturi."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilish loyihalari uchun bulutli hamkorlik platformasining afzalligi nima?",
+   "a": [
+    "Barcha ishtirokchilar yagona modelda ishlaydi",
+    "Har kim alohida eski nusxa bilan ishlaydi",
+    "Ma'lumotlar yo'qoladi",
+    "Hamkorlik imkonsiz"
+   ],
+   "e": "Common Data Environment."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilish sohasida AutoCAD da masshtab nima uchun to'g'ri sozlanadi?",
+   "a": [
+    "Chizma o'lchamlari to'g'ri chiqishi uchun",
+    "Rang chiroyli bo'lishi uchun",
+    "Fayl kichrayishi uchun",
+    "Internet tezlashishi uchun"
+   ],
+   "e": "Chop etishda."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilish obyekti energiya samaradorligini modellashtirish dasturlari nimani hisoblaydi?",
+   "a": [
+    "Issiqlik yo'qotishlari va energiya sarfini",
+    "Ishchilar sonini",
+    "Bino rangini",
+    "Avtoturargoh joylarini faqat"
+   ],
+   "e": "Energiya auditi."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Python yordamida qurilish hisob-kitoblarini avtomatlashtirishning afzalligi nima?",
+   "a": [
+    "Takroriy hisoblarni tez bajarish",
+    "Hisobning qo'lda bajarilishi",
+    "Xatolarning ko'payishi",
+    "Natijalarning yo'qolishi"
+   ],
+   "e": "Skriptlar."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Beton hajmi V = a·b·h. a = 10 m, b = 5 m, h = 0,2 m bo'lsa, V qancha?",
+   "a": [
+    "10 m³",
+    "15,2 m³",
+    "50 m³",
+    "1 m³"
+   ],
+   "e": "Python da: V = 10*5*0.2."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "MATLAB yoki Python da tenglamalar sistemasini yechish qurilishda qayerda kerak?",
+   "a": [
+    "Statik noaniq konstruksiyalarni hisoblashda",
+    "Bino rangini tanlashda",
+    "Ishchilar ish haqini hisoblashda",
+    "Material sotib olishda"
+   ],
+   "e": "Ko'chishlar usuli."
+  },
+  {
+   "b": "Qurilishda kompyuter dasturlari",
+   "q": "Qurilishda GIS nima uchun qo'llaniladi?",
+   "a": [
+    "Hudud va infratuzilmani tahlil qilish uchun",
+    "Faqat bino ichini bo'yash uchun",
+    "Faqat beton quyish uchun",
+    "Faqat ishchilarni yollash uchun"
+   ],
+   "e": "Shaharsozlik rejalash."
+  }
+ ]
+}
