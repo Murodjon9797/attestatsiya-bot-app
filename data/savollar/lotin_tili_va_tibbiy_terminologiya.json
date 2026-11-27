@@ -1,0 +1,3440 @@
+{
+ "kod": "",
+ "nomi": "Lotin tili va tibbiy terminologiya",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (6 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "Lotin alifbosida nechta harf bor?",
+   "a": [
+    "25",
+    "33",
+    "21",
+    "29"
+   ],
+   "e": "Klassik tibbiy darsliklarda 25 harf."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "Lotin tilida \"c\" harfi e, i, y, ae, oe oldida qanday o'qiladi?",
+   "a": [
+    "[ts]",
+    "[k]",
+    "[ch]",
+    "[s] faqat so'z oxirida"
+   ],
+   "e": "Masalan, cito [tsito]."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "Lotin tilida \"c\" harfi a, o, u oldida qanday o'qiladi?",
+   "a": [
+    "[k]",
+    "[ts]",
+    "[ch]",
+    "[sh]"
+   ],
+   "e": "Masalan, caput [kaput]."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"ae\" diftongi qanday o'qiladi?",
+   "a": [
+    "[e]",
+    "[ay]",
+    "[a]",
+    "[o]"
+   ],
+   "e": "Masalan, vertebrae."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"oe\" diftongi qanday o'qiladi?",
+   "a": [
+    "[e]",
+    "[o]",
+    "[oy]",
+    "[u]"
+   ],
+   "e": "Masalan, oedema [edema]."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"s\" harfi ikki unli orasida qanday o'qiladi?",
+   "a": [
+    "[z]",
+    "[s]",
+    "[sh]",
+    "[ts]"
+   ],
+   "e": "Masalan, nasus [nazus]."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"ti\" birikmasi unli oldida qanday o'qiladi?",
+   "a": [
+    "[tsi]",
+    "[ti]",
+    "[chi]",
+    "[shi]"
+   ],
+   "e": "Masalan, solutio [solutsio]."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"ch\" harf birikmasi qanday o'qiladi?",
+   "a": [
+    "[x]",
+    "[ch]",
+    "[sh]",
+    "[k]"
+   ],
+   "e": "Masalan, chirurgia."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"ph\" harf birikmasi qanday o'qiladi?",
+   "a": [
+    "[f]",
+    "[p]",
+    "[ph]",
+    "[v]"
+   ],
+   "e": "Masalan, pharmacia."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"th\" harf birikmasi qanday o'qiladi?",
+   "a": [
+    "[t]",
+    "[s]",
+    "[th]",
+    "[d]"
+   ],
+   "e": "Masalan, thorax."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"rh\" harf birikmasi qanday o'qiladi?",
+   "a": [
+    "[r]",
+    "[rx]",
+    "[h]",
+    "[rg]"
+   ],
+   "e": "Masalan, rheum."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"qu\" harf birikmasi qanday o'qiladi?",
+   "a": [
+    "[kv]",
+    "[ku]",
+    "[k]",
+    "[kyu]"
+   ],
+   "e": "Masalan, aqua [akva]."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"ngu\" birikmasi unli oldida qanday o'qiladi?",
+   "a": [
+    "[ngv]",
+    "[ngu]",
+    "[ng]",
+    "[nyu]"
+   ],
+   "e": "Masalan, lingua [lingva]."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "Lotin tilida urg'u qaysi bo'g'inga tushmaydi?",
+   "a": [
+    "Oxirgi bo'g'inga",
+    "Oxiridan ikkinchi bo'g'inga",
+    "Oxiridan uchinchi bo'g'inga",
+    "Ikki bo'g'inli so'zda birinchisiga"
+   ],
+   "e": "Ikki bo'g'inli so'zlarda birinchi bo'g'inga."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "Oxiridan ikkinchi bo'g'in uzun bo'lsa, urg'u qayerga tushadi?",
+   "a": [
+    "Oxiridan ikkinchi bo'g'inga",
+    "Oxiridan uchinchi bo'g'inga",
+    "Oxirgi bo'g'inga",
+    "Birinchi bo'g'inga har doim"
+   ],
+   "e": "Qisqa bo'lsa — uchinchisiga."
+  },
+  {
+   "b": "Alifbo va talaffuz",
+   "q": "\"y\" harfi qanday o'qiladi?",
+   "a": [
+    "[i]",
+    "[y]",
+    "[u]",
+    "[yu]"
+   ],
+   "e": "Grekcha so'zlarda, masalan, lympha."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "Lotin tilida otning nechta grammatik rodi bor?",
+   "a": [
+    "Uchta",
+    "Ikkita",
+    "To'rtta",
+    "Beshta"
+   ],
+   "e": "Masculinum, femininum, neutrum."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "Lotin tilida otlar nechta turlanishga bo'linadi?",
+   "a": [
+    "Beshta",
+    "Uchta",
+    "To'rtta",
+    "Oltita"
+   ],
+   "e": "Genetivus singularis oxiriga ko'ra."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "Otning turlanishi qaysi shakl bo'yicha aniqlanadi?",
+   "a": [
+    "Genetivus singularis qo'shimchasi bo'yicha",
+    "Nominativus pluralis bo'yicha",
+    "Accusativus singularis bo'yicha",
+    "Ablativus pluralis bo'yicha"
+   ],
+   "e": "Lug'at shaklida beriladi."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "I turlanish otlarining Gen. sing. qo'shimchasi qaysi?",
+   "a": [
+    "-ae",
+    "-i",
+    "-is",
+    "-us"
+   ],
+   "e": "Masalan, vena, venae."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "II turlanish otlarining Gen. sing. qo'shimchasi qaysi?",
+   "a": [
+    "-i",
+    "-ae",
+    "-is",
+    "-ei"
+   ],
+   "e": "Masalan, musculus, i."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "III turlanish otlarining Gen. sing. qo'shimchasi qaysi?",
+   "a": [
+    "-is",
+    "-i",
+    "-ae",
+    "-us"
+   ],
+   "e": "Masalan, dens, dentis."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "IV turlanish otlarining Gen. sing. qo'shimchasi qaysi?",
+   "a": [
+    "-us",
+    "-is",
+    "-i",
+    "-ei"
+   ],
+   "e": "Masalan, ductus, us."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "V turlanish otlarining Gen. sing. qo'shimchasi qaysi?",
+   "a": [
+    "-ei",
+    "-us",
+    "-is",
+    "-ae"
+   ],
+   "e": "Masalan, facies, ei."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Vena\" so'zi qaysi rodga mansub?",
+   "a": [
+    "Ayol rodi (f)",
+    "Erkak rodi (m)",
+    "O'rta rod (n)",
+    "Umumiy rod"
+   ],
+   "e": "I turlanish."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Musculus\" so'zi qaysi rodga mansub?",
+   "a": [
+    "Erkak rodi (m)",
+    "Ayol rodi (f)",
+    "O'rta rod (n)",
+    "Umumiy rod"
+   ],
+   "e": "II turlanish."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Os, ossis\" so'zi qaysi rodga mansub?",
+   "a": [
+    "O'rta rod (n)",
+    "Erkak rodi (m)",
+    "Ayol rodi (f)",
+    "Umumiy rod"
+   ],
+   "e": "Suyak."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "Tibbiy terminologiyada asosan qaysi kelishiklar qo'llanadi?",
+   "a": [
+    "Nominativus va Genetivus",
+    "Faqat Vocativus",
+    "Faqat Dativus",
+    "Faqat Locativus"
+   ],
+   "e": "Retseptda Accusativus, Ablativus ham."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "O'rta rod otlarining Nom. pl. qo'shimchasi qaysi?",
+   "a": [
+    "-a",
+    "-i",
+    "-ae",
+    "-es"
+   ],
+   "e": "Masalan, ligamentum → ligamenta."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Vertebra\" so'zining Nom. pl. shakli qaysi?",
+   "a": [
+    "vertebrae",
+    "vertebri",
+    "vertebras",
+    "vertebrum"
+   ],
+   "e": "I turlanish."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Nervus\" so'zining Nom. pl. shakli qaysi?",
+   "a": [
+    "nervi",
+    "nervae",
+    "nervus",
+    "nerva"
+   ],
+   "e": "II turlanish, m."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Ligamentum\" so'zining Nom. pl. shakli qaysi?",
+   "a": [
+    "ligamenta",
+    "ligamenti",
+    "ligamentae",
+    "ligamentes"
+   ],
+   "e": "II turlanish, n."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Ductus\" so'zining Nom. pl. shakli qaysi?",
+   "a": [
+    "ductus",
+    "ducti",
+    "ductae",
+    "ducta"
+   ],
+   "e": "IV turlanish, m."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Pars, partis\" ning Gen. pl. shakli qaysi?",
+   "a": [
+    "partium",
+    "partorum",
+    "partarum",
+    "partis"
+   ],
+   "e": "III turlanish, aralash tip."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Costa\" so'zining Gen. pl. shakli qaysi?",
+   "a": [
+    "costarum",
+    "costorum",
+    "costae",
+    "costis"
+   ],
+   "e": "I turlanish."
+  },
+  {
+   "b": "Ot: rod, son, kelishik",
+   "q": "\"Musculus\" so'zining Gen. pl. shakli qaysi?",
+   "a": [
+    "musculorum",
+    "muscularum",
+    "musculi",
+    "musculum"
+   ],
+   "e": "II turlanish."
+  },
+  {
+   "b": "Sifat",
+   "q": "Lotin tilida sifatlar nechta guruhga bo'linadi?",
+   "a": [
+    "Ikkita",
+    "Uchta",
+    "To'rtta",
+    "Bitta"
+   ],
+   "e": "I–II turlanish va III turlanish sifatlari."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Longus, a, um\" qaysi guruh sifati?",
+   "a": [
+    "I guruh (I–II turlanish)",
+    "II guruh (III turlanish)",
+    "IV turlanish",
+    "V turlanish"
+   ],
+   "e": "m — longus, f — longa, n — longum."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Brevis, e\" qaysi guruh sifati?",
+   "a": [
+    "II guruh (III turlanish)",
+    "I guruh (I–II turlanish)",
+    "IV turlanish",
+    "V turlanish"
+   ],
+   "e": "Ikki oxirli sifat."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Musculus\" bilan \"longus, a, um\" kelishtirilganda qaysi shakl to'g'ri?",
+   "a": [
+    "musculus longus",
+    "musculus longa",
+    "musculus longum",
+    "musculus longi"
+   ],
+   "e": "Rod, son, kelishikda moslashadi."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Vena\" bilan \"superficialis, e\" kelishtirilganda qaysi shakl to'g'ri?",
+   "a": [
+    "vena superficialis",
+    "vena superficiale",
+    "vena superficialus",
+    "vena superficialia"
+   ],
+   "e": "f — superficialis."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Os\" bilan \"temporalis, e\" kelishtirilganda qaysi shakl to'g'ri?",
+   "a": [
+    "os temporale",
+    "os temporalis",
+    "os temporalus",
+    "os temporala"
+   ],
+   "e": "n — temporale."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Major\" sifati qaysi daraja shakli?",
+   "a": [
+    "Qiyosiy daraja",
+    "Oddiy daraja",
+    "Orttirma daraja",
+    "Sifatdosh"
+   ],
+   "e": "Katta(roq)."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Major\" sifatining o'rta roddagi shakli qaysi?",
+   "a": [
+    "majus",
+    "major",
+    "majum",
+    "majora"
+   ],
+   "e": "Qiyosiy daraja n — -ius (majus)."
+  },
+  {
+   "b": "Sifat",
+   "q": "Orttirma daraja qo'shimchasi asosan qaysi?",
+   "a": [
+    "-issimus, a, um",
+    "-ior, -ius",
+    "-alis, e",
+    "-osus, a, um"
+   ],
+   "e": "Masalan, longissimus."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Musculus latissimus dorsi\" da \"latissimus\" qanday daraja?",
+   "a": [
+    "Orttirma daraja",
+    "Qiyosiy daraja",
+    "Oddiy daraja",
+    "Fe'l shakli"
+   ],
+   "e": "Eng keng."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Minimus\" qaysi sifatning orttirma darajasi?",
+   "a": [
+    "parvus",
+    "magnus",
+    "bonus",
+    "malus"
+   ],
+   "e": "Kichik — eng kichik."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Maximus\" qaysi sifatning orttirma darajasi?",
+   "a": [
+    "magnus",
+    "parvus",
+    "longus",
+    "latus"
+   ],
+   "e": "Katta — eng katta."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Dexter, tra, trum\" qanday ma'noni bildiradi?",
+   "a": [
+    "O'ng",
+    "Chap",
+    "Old",
+    "Orqa"
+   ],
+   "e": "Sinister — chap."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Sinister, tra, trum\" qanday ma'noni bildiradi?",
+   "a": [
+    "Chap",
+    "O'ng",
+    "Yuqori",
+    "Pastki"
+   ],
+   "e": "Anatomiyada."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Superior, ius\" ma'nosi nima?",
+   "a": [
+    "Yuqoriroq",
+    "Pastroq",
+    "Oldingi",
+    "Orqadagi"
+   ],
+   "e": "Qiyosiy daraja."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Inferior, ius\" ma'nosi nima?",
+   "a": [
+    "Pastroq",
+    "Yuqoriroq",
+    "Ichki",
+    "Tashqi"
+   ],
+   "e": "Qiyosiy daraja."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Anterior, ius\" ma'nosi nima?",
+   "a": [
+    "Oldingi",
+    "Orqa",
+    "Yon",
+    "O'rta"
+   ],
+   "e": "Posterior — orqa."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Internus, a, um\" ma'nosi nima?",
+   "a": [
+    "Ichki",
+    "Tashqi",
+    "O'rta",
+    "Yuza"
+   ],
+   "e": "Externus — tashqi."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Medius, a, um\" ma'nosi nima?",
+   "a": [
+    "O'rta",
+    "Yon",
+    "Ichki",
+    "Chuqur"
+   ],
+   "e": "Medialis — medial."
+  },
+  {
+   "b": "Sifat",
+   "q": "\"Profundus, a, um\" ma'nosi nima?",
+   "a": [
+    "Chuqur",
+    "Yuza",
+    "Uzun",
+    "Keng"
+   ],
+   "e": "Superficialis — yuza."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Caput\" so'zining ma'nosi nima?",
+   "a": [
+    "Bosh",
+    "Bo'yin",
+    "Ko'krak",
+    "Qorin"
+   ],
+   "e": "Caput, itis n."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Collum\" so'zining ma'nosi nima?",
+   "a": [
+    "Bo'yin",
+    "Bosh",
+    "Yelka",
+    "Bel"
+   ],
+   "e": "II turlanish, n."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Thorax\" so'zining ma'nosi nima?",
+   "a": [
+    "Ko'krak qafasi",
+    "Qorin bo'shlig'i",
+    "Chanoq",
+    "Bosh suyagi"
+   ],
+   "e": "Thorax, acis m."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Abdomen\" so'zining ma'nosi nima?",
+   "a": [
+    "Qorin",
+    "Ko'krak",
+    "Bel",
+    "Son"
+   ],
+   "e": "Abdomen, inis n."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Cor, cordis\" ma'nosi nima?",
+   "a": [
+    "Yurak",
+    "O'pka",
+    "Jigar",
+    "Buyrak"
+   ],
+   "e": "O'rta rod."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Pulmo, onis\" ma'nosi nima?",
+   "a": [
+    "O'pka",
+    "Yurak",
+    "Me'da",
+    "Taloq"
+   ],
+   "e": "Grekcha — pneumon."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Hepar, atis\" ma'nosi nima?",
+   "a": [
+    "Jigar",
+    "Taloq",
+    "Buyrak",
+    "Ichak"
+   ],
+   "e": "Grekcha; lotincha — jecur."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Ren, renis\" ma'nosi nima?",
+   "a": [
+    "Buyrak",
+    "Jigar",
+    "Siydik pufagi",
+    "Taloq"
+   ],
+   "e": "Grekcha — nephros."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Lien, lienis\" ma'nosi nima?",
+   "a": [
+    "Taloq",
+    "Buyrak",
+    "Jigar",
+    "Oshqozon osti bezi"
+   ],
+   "e": "Grekcha — splen."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Ventriculus\" so'zining ikki ma'nosi qaysi?",
+   "a": [
+    "Me'da va qorincha (yurak, miya)",
+    "Ingichka ichak va yo'g'on ichak",
+    "O'pka va bronxlar",
+    "Bo'g'im va bo'g'im xaltasi"
+   ],
+   "e": "Grekcha me'da — gaster."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Os, oris\" ma'nosi nima?",
+   "a": [
+    "Og'iz",
+    "Suyak",
+    "Quloq",
+    "Burun"
+   ],
+   "e": "Os, ossis — suyak."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Os, ossis\" ma'nosi nima?",
+   "a": [
+    "Suyak",
+    "Og'iz",
+    "Tish",
+    "Bo'g'im"
+   ],
+   "e": "Grekcha — osteon."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Dens, dentis\" ma'nosi nima?",
+   "a": [
+    "Tish",
+    "Til",
+    "Lab",
+    "Milk"
+   ],
+   "e": "Grekcha — odus, odontos."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Lingua\" ma'nosi nima?",
+   "a": [
+    "Til",
+    "Lab",
+    "Tish",
+    "Tanglay"
+   ],
+   "e": "Grekcha — glossa."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Oculus\" ma'nosi nima?",
+   "a": [
+    "Ko'z",
+    "Quloq",
+    "Burun",
+    "Qosh"
+   ],
+   "e": "Grekcha — ophthalmos."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Auris\" ma'nosi nima?",
+   "a": [
+    "Quloq",
+    "Ko'z",
+    "Burun",
+    "Og'iz"
+   ],
+   "e": "Grekcha — us, otos."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Nasus\" ma'nosi nima?",
+   "a": [
+    "Burun",
+    "Quloq",
+    "Lab",
+    "Yonoq"
+   ],
+   "e": "Grekcha — rhis, rhinos."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Manus\" ma'nosi nima?",
+   "a": [
+    "Qo'l panjasi",
+    "Oyoq panjasi",
+    "Yelka",
+    "Tirsak"
+   ],
+   "e": "IV turlanish, f."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Pes, pedis\" ma'nosi nima?",
+   "a": [
+    "Oyoq panjasi",
+    "Qo'l panjasi",
+    "Tizza",
+    "Son"
+   ],
+   "e": "III turlanish, m."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Vertebra\" ma'nosi nima?",
+   "a": [
+    "Umurtqa",
+    "Qovurg'a",
+    "To'sh suyagi",
+    "Kurak"
+   ],
+   "e": "Columna vertebralis — umurtqa pog'onasi."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Costa\" ma'nosi nima?",
+   "a": [
+    "Qovurg'a",
+    "Umurtqa",
+    "O'mrov",
+    "Kurak"
+   ],
+   "e": "I turlanish, f."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Sternum\" ma'nosi nima?",
+   "a": [
+    "To'sh suyagi",
+    "O'mrov suyagi",
+    "Kurak suyagi",
+    "Yelka suyagi"
+   ],
+   "e": "II turlanish, n."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Clavicula\" ma'nosi nima?",
+   "a": [
+    "O'mrov suyagi",
+    "Kurak suyagi",
+    "To'sh suyagi",
+    "Tirsak suyagi"
+   ],
+   "e": "Kalitcha."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Scapula\" ma'nosi nima?",
+   "a": [
+    "Kurak suyagi",
+    "O'mrov suyagi",
+    "Qovurg'a",
+    "Umurtqa"
+   ],
+   "e": "I turlanish."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Femur, oris\" ma'nosi nima?",
+   "a": [
+    "Son suyagi",
+    "Boldir suyagi",
+    "Yelka suyagi",
+    "Tizza qopqog'i"
+   ],
+   "e": "Eng uzun suyak."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Humerus\" ma'nosi nima?",
+   "a": [
+    "Yelka suyagi",
+    "Son suyagi",
+    "Bilak suyagi",
+    "O'mrov suyagi"
+   ],
+   "e": "II turlanish, m."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Tibia\" ma'nosi nima?",
+   "a": [
+    "Katta boldir suyagi",
+    "Kichik boldir suyagi",
+    "Son suyagi",
+    "Tirsak suyagi"
+   ],
+   "e": "Fibula — kichik boldir."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Radius\" ma'nosi nima?",
+   "a": [
+    "Bilak suyagi",
+    "Tirsak suyagi",
+    "Yelka suyagi",
+    "Boldir suyagi"
+   ],
+   "e": "Ulna — tirsak suyagi."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Cranium\" ma'nosi nima?",
+   "a": [
+    "Bosh suyagi (kalla)",
+    "Pastki jag' suyagi",
+    "Umurtqa pog'onasi",
+    "Chanoq suyaklari"
+   ],
+   "e": "II turlanish, n."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Mandibula\" ma'nosi nima?",
+   "a": [
+    "Pastki jag'",
+    "Yuqori jag'",
+    "Yonoq suyagi",
+    "Peshona suyagi"
+   ],
+   "e": "Maxilla — yuqori jag'."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Articulatio\" ma'nosi nima?",
+   "a": [
+    "Bo'g'im",
+    "Pay",
+    "Muskul",
+    "Suyak"
+   ],
+   "e": "Grekcha — arthron."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Ligamentum\" ma'nosi nima?",
+   "a": [
+    "Boylam",
+    "Muskul",
+    "Nerv",
+    "Arteriya"
+   ],
+   "e": "II turlanish, n."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Musculus\" ma'nosi nima?",
+   "a": [
+    "Muskul",
+    "Nerv",
+    "Vena",
+    "Pay"
+   ],
+   "e": "Grekcha — mys, myos."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Nervus\" ma'nosi nima?",
+   "a": [
+    "Nerv",
+    "Muskul",
+    "Tomir",
+    "Boylam"
+   ],
+   "e": "Grekcha — neuron."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Vas, vasis\" ma'nosi nima?",
+   "a": [
+    "Tomir",
+    "Nerv",
+    "Bez",
+    "Pay"
+   ],
+   "e": "Grekcha — angeion."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Glandula\" ma'nosi nima?",
+   "a": [
+    "Bez",
+    "Tomir",
+    "Teri",
+    "Suyak"
+   ],
+   "e": "Grekcha — aden."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Cutis\" ma'nosi nima?",
+   "a": [
+    "Teri",
+    "Soch",
+    "Tirnoq",
+    "Muskul"
+   ],
+   "e": "Grekcha — derma."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Sanguis, inis\" ma'nosi nima?",
+   "a": [
+    "Qon",
+    "Limfa",
+    "O't",
+    "Siydik"
+   ],
+   "e": "Grekcha — haima."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Foramen\" ma'nosi nima?",
+   "a": [
+    "Teshik",
+    "Do'mboq",
+    "Chuqurcha",
+    "Kanal"
+   ],
+   "e": "Foramen magnum."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Fossa\" ma'nosi nima?",
+   "a": [
+    "Chuqurcha",
+    "Teshik",
+    "Do'mboq",
+    "Qirra"
+   ],
+   "e": "I turlanish."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Processus\" ma'nosi nima?",
+   "a": [
+    "O'simta",
+    "Teshik",
+    "Kanal",
+    "Bo'g'im"
+   ],
+   "e": "IV turlanish."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Canalis\" ma'nosi nima?",
+   "a": [
+    "Kanal",
+    "Teshik",
+    "O'simta",
+    "Chuqurcha"
+   ],
+   "e": "III turlanish, m."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Tuberculum\" ma'nosi nima?",
+   "a": [
+    "Do'mboqcha",
+    "Chuqurcha",
+    "Teshik",
+    "Kanal"
+   ],
+   "e": "Kichraytirma shakl."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Facies\" ma'nosi nima?",
+   "a": [
+    "Yuza; yuz",
+    "Qirra (chekka)",
+    "Teshik (tirqish)",
+    "Chuqur (botiq)"
+   ],
+   "e": "V turlanish."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Margo, inis\" ma'nosi nima?",
+   "a": [
+    "Qirra (chekka)",
+    "Yuza (sirt)",
+    "Uch (cho'qqi)",
+    "Asos (tub)"
+   ],
+   "e": "III turlanish, m."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Basis\" ma'nosi nima?",
+   "a": [
+    "Asos",
+    "Uch",
+    "Qirra",
+    "Tana"
+   ],
+   "e": "Basis cranii."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Apex, icis\" ma'nosi nima?",
+   "a": [
+    "Uch (cho'qqi)",
+    "Asos (tub)",
+    "Tana (gavda)",
+    "Bo'yin (bo'yincha)"
+   ],
+   "e": "Apex pulmonis."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Corpus, oris\" ma'nosi nima?",
+   "a": [
+    "Tana",
+    "Bosh",
+    "Uch",
+    "Qirra"
+   ],
+   "e": "Corpus vertebrae."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Arteria\" ma'nosi nima?",
+   "a": [
+    "Arteriya",
+    "Vena",
+    "Nerv",
+    "Limfa tugun"
+   ],
+   "e": "I turlanish."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Vena cava superior\" ning tarjimasi qaysi?",
+   "a": [
+    "Yuqori kovak vena",
+    "Pastki kovak vena",
+    "Yuqori o'pka venasi",
+    "Darvoza venasi"
+   ],
+   "e": "Cava — kovak."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Vena portae\" ning tarjimasi qaysi?",
+   "a": [
+    "Darvoza venasi",
+    "Kovak vena",
+    "Bo'yinturuq venasi",
+    "O'mrov osti venasi"
+   ],
+   "e": "Porta, ae — darvoza."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Musculus biceps brachii\" ning tarjimasi qaysi?",
+   "a": [
+    "Yelkaning ikki boshli muskuli",
+    "Sonning to'rt boshli muskuli",
+    "Yelkaning uch boshli muskuli",
+    "Boldirning uch boshli muskuli"
+   ],
+   "e": "Brachium — yelka."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Ossa cranii\" ning tarjimasi qaysi?",
+   "a": [
+    "Bosh suyagi suyaklari",
+    "Umurtqa pog'onasi suyaklari",
+    "Qo'l suyaklari",
+    "Chanoq suyaklari"
+   ],
+   "e": "Ossa — ko'plik."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Columna vertebralis\" ning tarjimasi qaysi?",
+   "a": [
+    "Umurtqa pog'onasi",
+    "Qovurg'a yoyi",
+    "Ko'krak qafasi",
+    "To'sh suyagi"
+   ],
+   "e": "Columna — ustun."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Cavum oris\" ning tarjimasi qaysi?",
+   "a": [
+    "Og'iz bo'shlig'i",
+    "Burun bo'shlig'i",
+    "Qorin bo'shlig'i",
+    "Ko'krak bo'shlig'i"
+   ],
+   "e": "Cavum, i n."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Cavitas abdominis\" ning tarjimasi qaysi?",
+   "a": [
+    "Qorin bo'shlig'i",
+    "Ko'krak bo'shlig'i",
+    "Og'iz bo'shlig'i",
+    "Chanoq bo'shlig'i"
+   ],
+   "e": "Abdominis — Gen. sing."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Septum nasi\" ning tarjimasi qaysi?",
+   "a": [
+    "Burun to'sig'i",
+    "Burun bo'shlig'i",
+    "Burun qanoti",
+    "Burun uchi"
+   ],
+   "e": "Septum — to'siq."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Truncus\" ma'nosi nima?",
+   "a": [
+    "Tana; stvol",
+    "Qo'l (yuqori muchcha)",
+    "Oyoq (pastki muchcha)",
+    "Bosh (kalla)"
+   ],
+   "e": "Truncus pulmonalis."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Membrum superius\" ning tarjimasi qaysi?",
+   "a": [
+    "Yuqori muchcha (qo'l)",
+    "Pastki muchcha (oyoq)",
+    "Yuqori jag'",
+    "Yuqori lab"
+   ],
+   "e": "Membrum inferius — oyoq."
+  },
+  {
+   "b": "Anatomik terminologiya",
+   "q": "\"Palpebra\" ma'nosi nima?",
+   "a": [
+    "Qovoq (ko'z qovog'i)",
+    "Qosh (ko'z ustida)",
+    "Kiprik (qovoq chetida)",
+    "Qorachiq (ko'z markazida)"
+   ],
+   "e": "Grekcha — blepharon."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-itis\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Yallig'lanish",
+    "O'sma",
+    "Og'riq",
+    "Kengayish"
+   ],
+   "e": "Masalan, gastritis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-oma\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "O'sma",
+    "Yallig'lanish",
+    "Og'riq",
+    "Qon ketish"
+   ],
+   "e": "Masalan, lipoma."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-algia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Og'riq",
+    "Yallig'lanish",
+    "O'sma",
+    "Kesish"
+   ],
+   "e": "Masalan, neuralgia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-ectomia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Olib tashlash (kesib olib tashlash)",
+    "Kesib ochish (ochib ko'rish)",
+    "Tikish (choklash)",
+    "Ko'rish (endoskopiya)"
+   ],
+   "e": "Masalan, appendectomia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-tomia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Kesish (kesib ochish)",
+    "Olib tashlash (butunlay)",
+    "Tikish (choklash)",
+    "Ko'rish (endoskopiya)"
+   ],
+   "e": "Masalan, laparotomia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-scopia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Ko'rish (tekshirish)",
+    "Kesish (kesib ochish)",
+    "Yozib olish (tasvirlash)",
+    "O'lchash (hajmini aniqlash)"
+   ],
+   "e": "Masalan, gastroscopia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-graphia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Yozib olish (tasvirlash)",
+    "Ko'rish (endoskopik)",
+    "Kesish (kesib ochish)",
+    "Tikish (chok qo'yish)"
+   ],
+   "e": "Masalan, radiographia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-rrhagia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Qon ketish",
+    "Og'riq",
+    "Yallig'lanish",
+    "O'sma"
+   ],
+   "e": "Masalan, gastrorrhagia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-rrhaphia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Tikish",
+    "Kesish",
+    "Olib tashlash",
+    "Qon ketish"
+   ],
+   "e": "Masalan, herniorrhaphia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-pathia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Kasallik",
+    "Davolash",
+    "Og'riq",
+    "Yallig'lanish"
+   ],
+   "e": "Masalan, nephropathia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-therapia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Davolash",
+    "Kasallik",
+    "Tekshirish",
+    "Kesish"
+   ],
+   "e": "Masalan, chemotherapia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-logia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Fan, ta'limot",
+    "Kasallik",
+    "Og'riq",
+    "O'sma"
+   ],
+   "e": "Masalan, cardiologia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-ectasia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Kengayish",
+    "Torayish",
+    "Yorilish",
+    "Tushish"
+   ],
+   "e": "Masalan, bronchoectasia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-ptosis\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Tushish (pastga siljish)",
+    "Kengayish",
+    "Torayish",
+    "Yallig'lanish"
+   ],
+   "e": "Masalan, nephroptosis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-stenosis\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Torayish",
+    "Kengayish",
+    "Tushish",
+    "Yorilish"
+   ],
+   "e": "Masalan, stenosis mitralis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-sclerosis\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Qattiqlashish",
+    "Yumshash",
+    "Kengayish",
+    "Qon ketish"
+   ],
+   "e": "Masalan, atherosclerosis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-malacia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Yumshash",
+    "Qattiqlashish",
+    "Kengayish",
+    "Torayish"
+   ],
+   "e": "Masalan, osteomalacia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-plegia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Falaj",
+    "Og'riq",
+    "Tirishish",
+    "Titrash"
+   ],
+   "e": "Masalan, hemiplegia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-aemia\" (-emia) qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Qonga oid holat",
+    "Siydikka oid holat",
+    "Og'riq holati",
+    "Yallig'lanish holati"
+   ],
+   "e": "Masalan, anaemia, glycaemia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-uria\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Siydikka oid holat",
+    "Qonga oid holat",
+    "O'tga oid holat",
+    "Najasga oid holat"
+   ],
+   "e": "Masalan, haematuria."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-stomia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Sun'iy teshik (oqma) hosil qilish",
+    "Organni butunlay olib tashlash",
+    "Yarani tikib, choklash",
+    "Organni endoskop bilan ko'rish"
+   ],
+   "e": "Masalan, gastrostomia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-pexia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Mahkamlash",
+    "Kesish",
+    "Tikish",
+    "Ko'rish"
+   ],
+   "e": "Masalan, nephropexia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-lysis\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Parchalanish, bo'shatish",
+    "Qattiqlashish, zichlashish",
+    "Torayish, siqilish",
+    "Tikish, choklash"
+   ],
+   "e": "Masalan, haemolysis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-genesis\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Kelib chiqish, hosil bo'lish",
+    "Yo'qolish, so'nish",
+    "Davolash, tuzatish",
+    "Kesish, ochish"
+   ],
+   "e": "Masalan, pathogenesis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-phobia\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Qo'rquv",
+    "Muhabbat",
+    "Og'riq",
+    "Uyqu"
+   ],
+   "e": "Masalan, hydrophobia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"-osis\" qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Kasallik holati (noyallig'lanish)",
+    "Faqat yallig'lanish jarayoni",
+    "Faqat yaxshi sifatli o'sma",
+    "Faqat o'tkir og'riq"
+   ],
+   "e": "Masalan, nephrosis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Hyper-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Ortiqcha, yuqori",
+    "Kam, past",
+    "Yo'q",
+    "Ichida"
+   ],
+   "e": "Masalan, hypertonia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Hypo-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Kam, past",
+    "Ortiqcha",
+    "Ichida",
+    "Atrofida"
+   ],
+   "e": "Masalan, hypotonia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"A-/an-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Yo'qlik, inkor",
+    "Ortiqchalik",
+    "Atrofida",
+    "Ustida"
+   ],
+   "e": "Masalan, anaemia, aphonia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Dys-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Buzilish, qiyinlashish",
+    "Ortiqchalik, kuchayish",
+    "Yo'qlik, inkor",
+    "Normallik, me'yor"
+   ],
+   "e": "Masalan, dyspepsia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Brady-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Sekin",
+    "Tez",
+    "Katta",
+    "Kichik"
+   ],
+   "e": "Masalan, bradycardia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Tachy-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Tez",
+    "Sekin",
+    "Ko'p",
+    "Kam"
+   ],
+   "e": "Masalan, tachycardia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Peri-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Atrofida",
+    "Ichida",
+    "Ustida",
+    "Ostida"
+   ],
+   "e": "Masalan, pericarditis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Endo-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Ichida",
+    "Tashqarisida",
+    "Atrofida",
+    "Ustida"
+   ],
+   "e": "Masalan, endocarditis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Para-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Yonida, yaqinida",
+    "Ichida, ichkarisida",
+    "Ustida, yuqorisida",
+    "Ostida, pastida"
+   ],
+   "e": "Masalan, paranephritis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Epi-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Ustida",
+    "Ostida",
+    "Ichida",
+    "Orqasida"
+   ],
+   "e": "Masalan, epigastrium."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Sub-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Ostida",
+    "Ustida",
+    "Atrofida",
+    "Orasida"
+   ],
+   "e": "Masalan, subcutaneus."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Inter-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Orasida",
+    "Ichida",
+    "Ustida",
+    "Ostida"
+   ],
+   "e": "Masalan, intercostalis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Poly-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Ko'p",
+    "Kam",
+    "Bitta",
+    "Yarim"
+   ],
+   "e": "Masalan, polyuria."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Oligo-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Kam",
+    "Ko'p",
+    "Tez",
+    "Sekin"
+   ],
+   "e": "Masalan, oliguria."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Hemi-\" old qo'shimchasi nimani bildiradi?",
+   "a": [
+    "Yarim",
+    "To'liq",
+    "Ikki",
+    "Ko'p"
+   ],
+   "e": "Masalan, hemiplegia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Gastr-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Me'da",
+    "Ichak",
+    "Jigar",
+    "Buyrak"
+   ],
+   "e": "Grekcha gaster."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Enter-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Ichak (ingichka)",
+    "Me'da",
+    "Jigar",
+    "Taloq"
+   ],
+   "e": "Enteritis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Col-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Yo'g'on ichak",
+    "Ingichka ichak",
+    "Me'da",
+    "Qizilo'ngach"
+   ],
+   "e": "Colitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Hepat-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Jigar",
+    "Buyrak",
+    "Taloq",
+    "O't pufagi"
+   ],
+   "e": "Hepatitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Nephr-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Buyrak",
+    "Jigar",
+    "Siydik pufagi",
+    "Taloq"
+   ],
+   "e": "Nephritis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Cyst-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Siydik pufagi (pufak)",
+    "Buyrak (buyrak jomi)",
+    "Bachadon (bachadon bo'yni)",
+    "Me'da (me'da tubi)"
+   ],
+   "e": "Cystitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Cardi-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Yurak",
+    "O'pka",
+    "Tomir",
+    "Qon"
+   ],
+   "e": "Cardiologia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Pneum-/pneumon-\" termin elementi nimani bildiradi?",
+   "a": [
+    "O'pka; havo",
+    "Yurak",
+    "Jigar",
+    "Bronx faqat"
+   ],
+   "e": "Pneumonia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Oste-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Suyak",
+    "Bo'g'im",
+    "Muskul",
+    "Tog'ay"
+   ],
+   "e": "Osteomyelitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Arthr-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Bo'g'im",
+    "Suyak",
+    "Muskul",
+    "Pay"
+   ],
+   "e": "Arthritis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"My-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Muskul",
+    "Nerv",
+    "Suyak",
+    "Bo'g'im"
+   ],
+   "e": "Myositis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Neur-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Nerv",
+    "Muskul",
+    "Miya",
+    "Qon"
+   ],
+   "e": "Neuritis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Encephal-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Bosh miya",
+    "Orqa miya",
+    "Nerv",
+    "Bosh suyagi"
+   ],
+   "e": "Encephalitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Myel-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Orqa miya; ilik",
+    "Bosh miya",
+    "Muskul",
+    "Nerv tolasi faqat"
+   ],
+   "e": "Myelitis, osteomyelitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Derm-/dermat-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Teri",
+    "Soch",
+    "Tirnoq",
+    "Muskul"
+   ],
+   "e": "Dermatitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Haem-/haemat-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Qon",
+    "Limfa",
+    "O't",
+    "Siydik"
+   ],
+   "e": "Haematologia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Angi-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Tomir",
+    "Nerv",
+    "Bez",
+    "Yurak"
+   ],
+   "e": "Angiographia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Phleb-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Vena",
+    "Arteriya",
+    "Kapillyar",
+    "Limfa"
+   ],
+   "e": "Phlebitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Ophthalm-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Ko'z",
+    "Quloq",
+    "Burun",
+    "Tomoq"
+   ],
+   "e": "Ophthalmologia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Ot-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Quloq",
+    "Ko'z",
+    "Burun",
+    "Tish"
+   ],
+   "e": "Otitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Rhin-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Burun",
+    "Quloq",
+    "Tomoq",
+    "Til"
+   ],
+   "e": "Rhinitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Stomat-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Og'iz bo'shlig'i",
+    "Me'da",
+    "Tish",
+    "Til"
+   ],
+   "e": "Stomatitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Odont-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Tish",
+    "Og'iz",
+    "Jag'",
+    "Til"
+   ],
+   "e": "Odontologia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Gloss-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Til",
+    "Tish",
+    "Lab",
+    "Tomoq"
+   ],
+   "e": "Glossitis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Hyster-/metr-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Bachadon",
+    "Tuxumdon",
+    "Qin",
+    "Sut bezi"
+   ],
+   "e": "Hysterectomia, endometritis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Mast-/mamm-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Sut bezi",
+    "Bachadon",
+    "Tuxumdon",
+    "Qalqonsimon bez"
+   ],
+   "e": "Mastitis, mammographia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Ped-\" (grekcha paes) termin elementi nimani bildiradi?",
+   "a": [
+    "Bola",
+    "Oyoq",
+    "Qari",
+    "Ayol"
+   ],
+   "e": "Paediatria."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Geront-/ger-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Keksa, qarilik",
+    "Bola, go'dak",
+    "Ayol, xotin-qiz",
+    "Erkak, ota"
+   ],
+   "e": "Gerontologia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Gynaec-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Ayol",
+    "Erkak",
+    "Bola",
+    "Qari"
+   ],
+   "e": "Gynaecologia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Leuc-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Oq",
+    "Qizil",
+    "Qora",
+    "Sariq"
+   ],
+   "e": "Leucocytus."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Erythr-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Qizil",
+    "Oq",
+    "Sariq",
+    "Ko'k"
+   ],
+   "e": "Erythrocytus."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Cyan-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Ko'k",
+    "Qizil",
+    "Oq",
+    "Sariq"
+   ],
+   "e": "Cyanosis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Melan-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Qora",
+    "Oq",
+    "Qizil",
+    "Yashil"
+   ],
+   "e": "Melanoma."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Lip-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Yog'",
+    "Shakar",
+    "Suv",
+    "Oqsil"
+   ],
+   "e": "Lipoma."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Glyc-/gluc-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Shakar (shirin)",
+    "Yog'",
+    "Tuz",
+    "Suv"
+   ],
+   "e": "Glycaemia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Hydr-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Suv",
+    "Yog'",
+    "Qon",
+    "Havo"
+   ],
+   "e": "Hydrocephalia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Pyo-\" termin elementi nimani bildiradi?",
+   "a": [
+    "Yiring",
+    "Qon",
+    "Suv",
+    "Siydik"
+   ],
+   "e": "Pyodermia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Necr-\" termin elementi nimani bildiradi?",
+   "a": [
+    "O'lik, o'lim",
+    "Hayot, tiriklik",
+    "Tug'ilish, paydo bo'lish",
+    "O'sish, rivojlanish"
+   ],
+   "e": "Necrosis."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Onc-\" termin elementi nimani bildiradi?",
+   "a": [
+    "O'sma",
+    "Yallig'lanish",
+    "Og'riq",
+    "Qon"
+   ],
+   "e": "Oncologia."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Algos\" so'zidan qaysi termin hosil bo'lgan?",
+   "a": [
+    "Analgesia (og'riqsizlik)",
+    "Anaemia (kamqonlik)",
+    "Aphonia (ovozsizlik)",
+    "Anuria (siydiksizlik)"
+   ],
+   "e": "Algos — og'riq."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Gastroenterocolitis\" terminining ma'nosi nima?",
+   "a": [
+    "Me'da, ingichka va yo'g'on ichak yallig'lanishi",
+    "Faqat me'da shilliq qavatining yallig'lanishi",
+    "Faqat jigar to'qimasining yallig'lanishi",
+    "Me'da va ichakda o'sma paydo bo'lishi"
+   ],
+   "e": "Ko'p asosli termin."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Cholecystectomia\" terminining ma'nosi nima?",
+   "a": [
+    "O't pufagini olib tashlash",
+    "O't pufagini kesib ochish",
+    "O't pufagining yallig'lanishi",
+    "O't pufagini ko'rish"
+   ],
+   "e": "Chole — o't, cystis — pufak."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Haematuria\" terminining ma'nosi nima?",
+   "a": [
+    "Siydikda qon bo'lishi",
+    "Qonda shakar miqdorining ortishi",
+    "Siydik miqdorining kamayishi",
+    "Qonda gemoglobin kamligi"
+   ],
+   "e": "Haem- + -uria."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Leucocytosis\" terminining ma'nosi nima?",
+   "a": [
+    "Qonda leykotsitlar ko'payishi",
+    "Qonda leykotsitlar kamayishi",
+    "Qonda eritrotsitlar ko'payishi",
+    "Qon ivishining buzilishi"
+   ],
+   "e": "Leucopenia — kamayishi."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Hepatomegalia\" terminining ma'nosi nima?",
+   "a": [
+    "Jigar kattalashishi",
+    "Jigar kichrayishi",
+    "Jigar yallig'lanishi",
+    "Jigar o'smasi"
+   ],
+   "e": "Megal- — katta."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Bradycardia\" terminining ma'nosi nima?",
+   "a": [
+    "Yurak urishi sekinlashishi",
+    "Yurak urishining tezlashishi",
+    "Yurak o'lchamlarining kattalashishi",
+    "Yurak sohasida og'riq paydo bo'lishi"
+   ],
+   "e": "<60/min."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Dyspnoe\" terminining ma'nosi nima?",
+   "a": [
+    "Hansirash (nafas qisishi)",
+    "Nafasning butunlay to'xtashi",
+    "Yurak urishining tezlashishi",
+    "Quruq yoki balg'amli yo'tal"
+   ],
+   "e": "Pnoe — nafas."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Apnoe\" terminining ma'nosi nima?",
+   "a": [
+    "Nafas to'xtashi",
+    "Hansirash",
+    "Tez nafas",
+    "Chuqur nafas"
+   ],
+   "e": "A- — yo'qlik."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Polyuria\" terminining ma'nosi nima?",
+   "a": [
+    "Siydik ko'p ajralishi",
+    "Siydikning kam miqdorda ajralishi",
+    "Siydik ajralishining to'xtashi",
+    "Siydikda qon paydo bo'lishi"
+   ],
+   "e": "Qandli diabetda."
+  },
+  {
+   "b": "Klinik terminologiya",
+   "q": "\"Anuria\" terminining ma'nosi nima?",
+   "a": [
+    "Siydik ajralmasligi",
+    "Siydik ko'p ajralishi",
+    "Siydikda yiring",
+    "Siydikda oqsil"
+   ],
+   "e": "Buyrak yetishmovchiligida."
+  },
+  {
+   "b": "Retseptura",
+   "q": "Retsept qaysi so'z bilan boshlanadi?",
+   "a": [
+    "Recipe (Rp.)",
+    "Misce (M.)",
+    "Da (D.)",
+    "Signa (S.)"
+   ],
+   "e": "\"Ol\"."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Recipe\" fe'lidan keyin dori nomi qaysi kelishikda yoziladi?",
+   "a": [
+    "Genetivusda",
+    "Nominativusda",
+    "Dativusda",
+    "Vocativusda"
+   ],
+   "e": "Masalan, Rp.: Tabulettam Analgini."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"M.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Misce — aralashtir",
+    "Misce — ber",
+    "Da — aralashtir",
+    "Signa — aralashtir"
+   ],
+   "e": "Retseptda."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"D.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Da — ber",
+    "Divide — bo'l",
+    "Detur — aralashtir",
+    "Dosis — doza"
+   ],
+   "e": "Bermoq."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"S.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Signa — belgila",
+    "Sume — ol",
+    "Solve — erit",
+    "Sterilisa — sterilla"
+   ],
+   "e": "Qo'llash usuli yoziladi."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"D.t.d.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Da tales doses — shunday dozadan ber",
+    "Da tabulettas — tabletkalar ber",
+    "Divide in partes aequales — teng qismlarga bo'l",
+    "Detur ad vitrum — shishaga berilsin"
+   ],
+   "e": "Doza soni bilan."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"D.S.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Ber. Belgila.",
+    "Bo'l. Aralashtir.",
+    "Ol. Ber.",
+    "Erit. Belgila."
+   ],
+   "e": "Da. Signa."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"M.f.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Misce, fiat — aralashtir, hosil bo'lsin",
+    "Misce, fac — aralashtir va tayyorla",
+    "Misce, filtra — aralashtir va suz",
+    "Misce, funde — aralashtir va quy"
+   ],
+   "e": "Masalan, M.f. pulvis."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"q.s.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Quantum satis — qancha kerak bo'lsa",
+    "Quaque semel — har gal bir martadan",
+    "Quantum sufficiat — eng kam miqdorda",
+    "Quater sumendum — kuniga to'rt marta"
+   ],
+   "e": "Miqdorsiz."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"ana\" qisqartmasi retseptda nimani bildiradi?",
+   "a": [
+    "Teng miqdorda",
+    "Ikki baravar",
+    "Yarim miqdorda",
+    "Qancha kerak bo'lsa"
+   ],
+   "e": "aa deb ham yoziladi."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Cito!\" so'zi retseptda nimani bildiradi?",
+   "a": [
+    "Tez",
+    "Sekin",
+    "Ehtiyotkorlik bilan",
+    "Ertalab"
+   ],
+   "e": "Shoshilinch tayyorlash."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Statim!\" so'zi retseptda nimani bildiradi?",
+   "a": [
+    "Darhol",
+    "Ertaga",
+    "Kechqurun",
+    "Ovqatdan keyin"
+   ],
+   "e": "Zudlik bilan."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Repete!\" so'zi retseptda nimani bildiradi?",
+   "a": [
+    "Takrorla",
+    "To'xtat",
+    "Bekor qil",
+    "Erit"
+   ],
+   "e": "Retsept takrorlanadi."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Tab.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Tabuletta — tabletka",
+    "Tinctura — spirtli nastoyka",
+    "Tabula — jadval, taxta",
+    "Tubus — naycha, trubka"
+   ],
+   "e": "Dori shakli."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Tinct.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Tinctura — nastoyka",
+    "Tabuletta — tabletka",
+    "Tunica — parda",
+    "Tussis — yo'tal"
+   ],
+   "e": "Spirtli suyuq dori shakli."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Sol.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Solutio — eritma",
+    "Solve — erit",
+    "Solidus — qattiq",
+    "Sola — yolg'iz"
+   ],
+   "e": "Dori shakli."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Ung.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Unguentum — surtma (malham)",
+    "Unus — bitta, yagona",
+    "Unguis — tirnoq",
+    "Usus — foydalanish, qo'llash"
+   ],
+   "e": "Yumshoq dori shakli."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Supp.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Suppositorium — sham",
+    "Suspensio — suspenziya",
+    "Suprarenalis — buyrak usti",
+    "Supra — ustida"
+   ],
+   "e": "Rektal yoki vaginal."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Caps.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Capsula — kapsula",
+    "Caput — bosh, kalla",
+    "Capillus — soch tolasi",
+    "Capitulum — bob, boshcha"
+   ],
+   "e": "Dori shakli."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Amp.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Ampulla — ampula",
+    "Amplus — keng",
+    "Amylum — kraxmal",
+    "Aqua — suv"
+   ],
+   "e": "In'yeksion eritma idishi."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Pulv.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Pulvis — kukun",
+    "Pulmo — o'pka",
+    "Pulsus — tomir urishi",
+    "Pulpa — tish pulpasi"
+   ],
+   "e": "Dori shakli."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Supp.\" da \"Rp.: Supp. cum Ichthyolo 0,2\" ning ma'nosi nima?",
+   "a": [
+    "Ixtiolli sham 0,2",
+    "Ixtiolli tabletka 0,2",
+    "Ixtiolli eritma 0,2",
+    "Ixtiolli surtma 0,2"
+   ],
+   "e": "Cum — bilan."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Pro injectionibus\" nimani bildiradi?",
+   "a": [
+    "In'yeksiyalar uchun",
+    "Ichish uchun",
+    "Surtish uchun",
+    "Ko'zga tomizish uchun"
+   ],
+   "e": "Aqua pro injectionibus."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Pro infantibus\" nimani bildiradi?",
+   "a": [
+    "Bolalar uchun",
+    "Kattalar uchun",
+    "Ayollar uchun",
+    "Qariyalar uchun"
+   ],
+   "e": "Pro + Ablativus."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Per os\" iborasi nimani bildiradi?",
+   "a": [
+    "Og'iz orqali",
+    "Teri orqali",
+    "Vena orqali",
+    "Burun orqali"
+   ],
+   "e": "Peroral qabul."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Ante cibum\" iborasi nimani bildiradi?",
+   "a": [
+    "Ovqatdan oldin",
+    "Ovqatdan keyin",
+    "Ovqat paytida",
+    "Och qoringa kechasi"
+   ],
+   "e": "Post cibum — ovqatdan keyin."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Post cibum\" iborasi nimani bildiradi?",
+   "a": [
+    "Ovqatdan keyin",
+    "Ovqatdan oldin",
+    "Ovqat paytida",
+    "Uyqudan oldin"
+   ],
+   "e": "Ante — oldin."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Pro dosi\" iborasi nimani bildiradi?",
+   "a": [
+    "Bir martalik doza uchun",
+    "Bir sutkalik umumiy doza uchun",
+    "Butun davolash kursi dozasi uchun",
+    "Faqat bolalar dozasi uchun"
+   ],
+   "e": "Pro die — bir kunga."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Pro die\" iborasi nimani bildiradi?",
+   "a": [
+    "Bir kunga (sutkalik)",
+    "Bir martalik qabul uchun",
+    "Bir hafta davomida",
+    "Bir oy davomida"
+   ],
+   "e": "Sutkalik doza."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"In vitro\" iborasi nimani bildiradi?",
+   "a": [
+    "Probirkada",
+    "Tirik organizmda",
+    "Murda tekshiruvida",
+    "Tabiiy muhitda"
+   ],
+   "e": "In vivo — tirik organizmda."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"In vivo\" iborasi nimani bildiradi?",
+   "a": [
+    "Tirik organizmda",
+    "Probirkada",
+    "Laboratoriyada faqat",
+    "Murda tekshiruvida"
+   ],
+   "e": "Tajriba turi."
+  },
+  {
+   "b": "Retseptura",
+   "q": "Retseptda qattiq dori moddalari miqdori qanday birlikda yoziladi?",
+   "a": [
+    "Grammda",
+    "Litrda",
+    "Metrda",
+    "Donada faqat"
+   ],
+   "e": "Masalan, 0,5."
+  },
+  {
+   "b": "Retseptura",
+   "q": "Retseptda suyuq dori moddalari qanday birlikda yoziladi?",
+   "a": [
+    "Millilitrda yoki tomchida",
+    "Faqat grammda, o'nli kasr bilan",
+    "Faqat santimetrda",
+    "Faqat donada (dona hisobida)"
+   ],
+   "e": "Masalan, 10 ml."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Gtt.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Guttae — tomchilar",
+    "Gargarisma — chayqash",
+    "Gelatina — jelatin",
+    "Granula — granula"
+   ],
+   "e": "Tomchi soni."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Aq. destill.\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Aqua destillata — distillangan suv",
+    "Aqua pura — tozalangan suv",
+    "Aqua fontana — buloq suvi",
+    "Aqua marina — dengiz suvi"
+   ],
+   "e": "Erituvchi."
+  },
+  {
+   "b": "Retseptura",
+   "q": "\"Steril.!\" so'zi retseptda nimani bildiradi?",
+   "a": [
+    "Sterilizatsiya qil",
+    "Suz (filtrla)",
+    "Aralashtir",
+    "Belgila (yoz)"
+   ],
+   "e": "Sterilisetur!"
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "Antibiotiklar nomida ko'p uchraydigan \"-cillin\" chastotali qismi nimani bildiradi?",
+   "a": [
+    "Penitsillin guruhi antibiotiklari",
+    "Sulfanilamid preparatlari",
+    "Steroid gormonlar",
+    "Suvda eriydigan vitaminlar"
+   ],
+   "e": "Ampicillinum, Oxacillinum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"-mycin\" chastotali qismi nimani bildiradi?",
+   "a": [
+    "Zamburug'lardan olingan antibiotiklar",
+    "Suvda eriydigan vitaminlar",
+    "Steroid gormonlar",
+    "Og'riqsizlantiruvchi vositalar"
+   ],
+   "e": "Streptomycinum, Erythromycinum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"-cain-\" chastotali qismi qaysi guruh dorilariga xos?",
+   "a": [
+    "Mahalliy anestetiklar",
+    "Keng ta'sirli antibiotiklar",
+    "Yog'da eriydigan vitaminlar",
+    "Jinsiy gormonlar"
+   ],
+   "e": "Novocainum, Lidocainum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"-sulfa-\" chastotali qismi qaysi guruh dorilariga xos?",
+   "a": [
+    "Sulfanilamidlar",
+    "Penitsillinlar",
+    "Kortikosteroidlar",
+    "Vitaminlar"
+   ],
+   "e": "Sulfadimezinum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Vit-\" chastotali qismi nimani bildiradi?",
+   "a": [
+    "Vitaminli preparatlar",
+    "Penitsillin guruhi antibiotiklari",
+    "Steroid gormonlar",
+    "Mahalliy anestetiklar"
+   ],
+   "e": "Aevitum, Revitum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"-cort-\" chastotali qismi qaysi guruhga xos?",
+   "a": [
+    "Buyrak usti bezi po'stlog'i gormonlari",
+    "Keng ta'sirli antibiotiklar",
+    "Mahalliy og'riqsizlantiruvchilar",
+    "Yog'da eriydigan vitaminlar"
+   ],
+   "e": "Hydrocortisonum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"-thyr-\" chastotali qismi qaysi guruhga xos?",
+   "a": [
+    "Qalqonsimon bezga ta'sir qiluvchi dorilar",
+    "Penitsillin guruhi antibiotiklari",
+    "Mahalliy anestetiklar",
+    "Siydik haydovchi vositalar"
+   ],
+   "e": "Thyroxinum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"-cyclin\" chastotali qismi qaysi guruh antibiotiklariga xos?",
+   "a": [
+    "Tetrasiklinlar",
+    "Penitsillinlar",
+    "Aminoglikozidlar",
+    "Makrolidlar"
+   ],
+   "e": "Tetracyclinum, Doxycyclinum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"-azol-\" chastotali qismi ko'pincha qaysi guruhga xos?",
+   "a": [
+    "Zamburug'larga va mikroblarga qarshi vositalar",
+    "Faqat suvda eriydigan vitaminlar",
+    "Faqat jinsiy gormonlar",
+    "Faqat yurak glikozidlari"
+   ],
+   "e": "Metronidazolum, Clotrimazolum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"-ol\" qo'shimchasi kimyoviy nomlarda ko'pincha nimani bildiradi?",
+   "a": [
+    "Spirtlar va fenollar",
+    "Organik kislotalar",
+    "Noorganik tuzlar",
+    "Metall oksidlari"
+   ],
+   "e": "Mentholum, Phenolum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "Lotin tilida dori moddalari nomi qaysi rodda bo'ladi?",
+   "a": [
+    "O'rta rodda (-um)",
+    "Har doim ayol rodida (-a)",
+    "Har doim erkak rodida (-us)",
+    "Rodga ega emas"
+   ],
+   "e": "Analginum, Ampicillinum."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Natrii chloridum\" ning tarjimasi qaysi?",
+   "a": [
+    "Natriy xlorid",
+    "Kaliy xlorid",
+    "Kalsiy xlorid",
+    "Natriy gidrokarbonat"
+   ],
+   "e": "Osh tuzi."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Kalii permanganas\" ning tarjimasi qaysi?",
+   "a": [
+    "Kaliy permanganat",
+    "Kaliy xlorid",
+    "Kaliy yodid",
+    "Natriy permanganat"
+   ],
+   "e": "Marganets."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Natrii hydrocarbonas\" ning tarjimasi qaysi?",
+   "a": [
+    "Natriy gidrokarbonat",
+    "Natriy xlorid",
+    "Natriy sulfat",
+    "Natriy tiosulfat"
+   ],
+   "e": "Antatsid."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Acidum ascorbinicum\" ning tarjimasi qaysi?",
+   "a": [
+    "Askorbin kislota",
+    "Atsetilsalitsil kislota",
+    "Borat kislota",
+    "Nikotin kislota"
+   ],
+   "e": "Vitamin."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Acidum acetylsalicylicum\" ning tarjimasi qaysi?",
+   "a": [
+    "Atsetilsalitsil kislota",
+    "Askorbin kislota",
+    "Folat kislota",
+    "Glutamin kislota"
+   ],
+   "e": "NYaQV."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Acidum boricum\" ning tarjimasi qaysi?",
+   "a": [
+    "Borat kislota",
+    "Xlorid kislota",
+    "Sulfat kislota",
+    "Sirka kislota"
+   ],
+   "e": "Antiseptik."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Hydrogenii peroxydum\" ning tarjimasi qaysi?",
+   "a": [
+    "Vodorod peroksid",
+    "Vodorod xlorid",
+    "Natriy peroksid",
+    "Kislorod gidrat"
+   ],
+   "e": "Antiseptik."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Oleum Ricini\" ning tarjimasi qaysi?",
+   "a": [
+    "Kanakunjut moyi",
+    "Zaytun moyi",
+    "Baliq moyi",
+    "Shaftoli moyi"
+   ],
+   "e": "Surgi."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Oleum Vaselini\" ning tarjimasi qaysi?",
+   "a": [
+    "Vazelin moyi",
+    "Kanakunjut moyi",
+    "Zig'ir moyi",
+    "Kungaboqar moyi"
+   ],
+   "e": "Mineral moy."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Folium\" so'zining ma'nosi nima?",
+   "a": [
+    "Barg",
+    "Gul",
+    "Ildiz",
+    "Meva"
+   ],
+   "e": "Folia — barglar."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Flos, floris\" ma'nosi nima?",
+   "a": [
+    "Gul",
+    "Barg",
+    "Po'stloq",
+    "Urug'"
+   ],
+   "e": "Flores Chamomillae."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Radix, icis\" ma'nosi nima?",
+   "a": [
+    "Ildiz",
+    "Barg",
+    "Meva",
+    "Urug'"
+   ],
+   "e": "Radix Valerianae."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Fructus\" ma'nosi nima?",
+   "a": [
+    "Meva",
+    "Urug'",
+    "Gul",
+    "Ildiz"
+   ],
+   "e": "Fructus Rosae."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Semen, inis\" ma'nosi nima?",
+   "a": [
+    "Urug'",
+    "Meva",
+    "Barg",
+    "Po'stloq"
+   ],
+   "e": "Semen Lini."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Cortex, icis\" ma'nosi nima?",
+   "a": [
+    "Po'stloq",
+    "Barg",
+    "Ildiz",
+    "Gul"
+   ],
+   "e": "Cortex Quercus."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Herba\" ma'nosi nima?",
+   "a": [
+    "Yer ustki qismi (o't)",
+    "Faqat ildiz qismi",
+    "Faqat urug' qismi",
+    "Faqat po'stloq qismi"
+   ],
+   "e": "Herba Hyperici."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Flores Chamomillae\" ning tarjimasi qaysi?",
+   "a": [
+    "Moychechak gullari",
+    "Moychechak barglari",
+    "Yalpiz barglari",
+    "Na'matak mevalari"
+   ],
+   "e": "Dorivor xom ashyo."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Folia Menthae piperitae\" ning tarjimasi qaysi?",
+   "a": [
+    "Qalampir yalpiz barglari",
+    "Moychechak gullari",
+    "Valeriana ildizi",
+    "Eman po'stlog'i"
+   ],
+   "e": "Mentha piperita."
+  },
+  {
+   "b": "Farmatsevtik terminologiya",
+   "q": "\"Radix Valerianae\" ning tarjimasi qaysi?",
+   "a": [
+    "Valeriana ildizi",
+    "Valeriana barglari",
+    "Valeriana gullari",
+    "Valeriana mevalari"
+   ],
+   "e": "Tinchlantiruvchi."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "Lotin fe'llari nechta tuslanishga bo'linadi?",
+   "a": [
+    "To'rtta",
+    "Ikkita",
+    "Uchta",
+    "Beshta"
+   ],
+   "e": "Infinitiv asos oxiriga ko'ra."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "Lotin fe'lining infinitiv qo'shimchasi qaysi?",
+   "a": [
+    "-re",
+    "-ae",
+    "-us",
+    "-is"
+   ],
+   "e": "Masalan, miscere, dare."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "Buyruq maylining birlik shakli qanday hosil bo'ladi?",
+   "a": [
+    "Infinitivdan -re ni olib tashlash bilan",
+    "Infinitiv oxiriga yana -re qo'shib",
+    "Infinitiv oxiriga -tur qo'shimchasini qo'shib",
+    "Infinitiv oxiriga -ntur qo'shimchasini qo'shib"
+   ],
+   "e": "Misce, da, signa."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "\"Misceatur\" shakli nimani bildiradi?",
+   "a": [
+    "Aralashtirilsin",
+    "Aralashtir",
+    "Aralashtirdim",
+    "Aralashtirish"
+   ],
+   "e": "Konyunktiv, majhul nisbat."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "\"Detur\" shakli nimani bildiradi?",
+   "a": [
+    "Berilsin",
+    "Ber",
+    "Berdi",
+    "Berish"
+   ],
+   "e": "Dare — bermoq."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "\"Signetur\" shakli nimani bildiradi?",
+   "a": [
+    "Belgilansin",
+    "Belgila",
+    "Belgiladi",
+    "Belgilash"
+   ],
+   "e": "Signare."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "\"Fiat\" shakli nimani bildiradi?",
+   "a": [
+    "Hosil bo'lsin",
+    "Hosil qil",
+    "Hosil bo'ldi",
+    "Hosil bo'lish"
+   ],
+   "e": "Fio, fieri."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "Retseptda \"cum\" predlogi qaysi kelishikni talab qiladi?",
+   "a": [
+    "Ablativus",
+    "Accusativus",
+    "Genetivus",
+    "Dativus"
+   ],
+   "e": "Masalan, cum Oleo."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "\"In\" predlogi harakat yo'nalishi bildirilganda qaysi kelishikni talab qiladi?",
+   "a": [
+    "Accusativus",
+    "Ablativus",
+    "Genetivus",
+    "Nominativus"
+   ],
+   "e": "In ampullis (Abl.) — joy."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "\"Pro\" predlogi qaysi kelishikni talab qiladi?",
+   "a": [
+    "Ablativus",
+    "Accusativus",
+    "Genetivus",
+    "Dativus"
+   ],
+   "e": "Pro injectionibus."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "\"Ad\" predlogi qaysi kelishikni talab qiladi?",
+   "a": [
+    "Accusativus",
+    "Ablativus",
+    "Genetivus",
+    "Dativus"
+   ],
+   "e": "Ad 200 ml."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "\"Sine\" predlogining ma'nosi nima?",
+   "a": [
+    "-siz (holda emas)",
+    "bilan (birga)",
+    "uchun (maqsadida)",
+    "ustida (yuqorisida)"
+   ],
+   "e": "Sine — Abl."
+  },
+  {
+   "b": "Fe'l va grammatika",
+   "q": "\"Contra\" predlogining ma'nosi nima?",
+   "a": [
+    "Qarshi",
+    "Bilan",
+    "Uchun",
+    "Ichida"
+   ],
+   "e": "Contra tussim — yo'talga qarshi."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Noli nocere!\" iborasining ma'nosi nima?",
+   "a": [
+    "Zarar yetkazma!",
+    "Shoshilma!",
+    "Unutma!",
+    "Ishonma!"
+   ],
+   "e": "Gippokrat tamoyili."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Primum non nocere\" iborasining ma'nosi nima?",
+   "a": [
+    "Avvalo zarar yetkazma",
+    "Avvalo davolab qo'y",
+    "Avvalo tekshir",
+    "Avvalo dori ber"
+   ],
+   "e": "Tibbiy etika asosi."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Mens sana in corpore sano\" iborasining ma'nosi nima?",
+   "a": [
+    "Sog' tanda sog' aql",
+    "Bilim kuchdir",
+    "Hayot qisqa, san'at boqiy",
+    "Takrorlash bilim onasi"
+   ],
+   "e": "Yuvenal."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Vita brevis, ars longa\" iborasining ma'nosi nima?",
+   "a": [
+    "Hayot qisqa, san'at boqiy",
+    "Sog' tanda sog' aql",
+    "Avvalo zarar yetkazma",
+    "Bilim — kuch"
+   ],
+   "e": "Gippokrat."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Repetitio est mater studiorum\" iborasining ma'nosi nima?",
+   "a": [
+    "Takrorlash — ilm onasi",
+    "Bilim kuchdir",
+    "Yashash uchun yeymiz",
+    "Kasallikni emas, bemorni davola"
+   ],
+   "e": "Ta'lim haqida."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Ubi pus, ibi evacua\" iborasining ma'nosi nima?",
+   "a": [
+    "Yiring bor joyni bo'shat",
+    "Yiring bor joyni tik",
+    "Yiring bor joyni bog'la",
+    "Yiring bor joyga dori surt"
+   ],
+   "e": "Jarrohlik tamoyili."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Non curat morbum, sed aegrotum\" ning ma'nosi nima?",
+   "a": [
+    "Kasallikni emas, bemorni davola",
+    "Bemorni emas, kasallikni davola",
+    "Kasallikning oldini ol",
+    "Davolashdan oldin tekshir"
+   ],
+   "e": "M.Ya. Mudrov g'oyasi."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Status praesens\" iborasining ma'nosi nima?",
+   "a": [
+    "Bemorning hozirgi holati",
+    "Kasallikning to'liq tarixi",
+    "Bemorning hayot anamnezi",
+    "Yakuniy klinik tashxis"
+   ],
+   "e": "Kasallik tarixida."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Anamnesis vitae\" iborasining ma'nosi nima?",
+   "a": [
+    "Hayot anamnezi",
+    "Kasallik anamnezi",
+    "Hozirgi holat",
+    "Yakuniy tashxis"
+   ],
+   "e": "Anamnesis morbi — kasallik anamnezi."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Exitus letalis\" iborasining ma'nosi nima?",
+   "a": [
+    "O'lim bilan tugash",
+    "Sog'ayish",
+    "Remissiya",
+    "Kasallik boshlanishi"
+   ],
+   "e": "Halokatli oqibat."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Lege artis\" iborasining ma'nosi nima?",
+   "a": [
+    "San'at (kasb) qoidalariga ko'ra",
+    "Qonun bo'yicha jazolash tartibi",
+    "Tez va shoshilinch bajarish",
+    "Taxminan, ko'z chamasi bilan"
+   ],
+   "e": "To'g'ri bajarilgan muolaja."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Locus morbi\" iborasining ma'nosi nima?",
+   "a": [
+    "Kasallik joyi (o'chog'i)",
+    "Kasallik sababi",
+    "Kasallik vaqti",
+    "Kasallik nomi"
+   ],
+   "e": "Locus — joy."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Diagnosis\" so'zining asl ma'nosi nima?",
+   "a": [
+    "Aniqlash, tanib olish",
+    "Davolash",
+    "Kesish",
+    "Oldini olish"
+   ],
+   "e": "Grekcha."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Prognosis\" so'zining ma'nosi nima?",
+   "a": [
+    "Kasallik oqibatini oldindan aytish",
+    "Kasallikning batafsil tarixi",
+    "Kasallikning asosiy sababi",
+    "Bemorni davolash rejasi"
+   ],
+   "e": "Pro — oldin."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Profilaxis\" so'zining ma'nosi nima?",
+   "a": [
+    "Kasallikning oldini olish",
+    "Kasallikni davolash",
+    "Kasallikni aniqlash",
+    "Kasallikni yozish"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Etiologia\" nimani o'rganadi?",
+   "a": [
+    "Kasallik sabablarini",
+    "Kasallik belgilarini",
+    "Davolash usullarini",
+    "Kasallik oqibatini"
+   ],
+   "e": "Aitia — sabab."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Symptoma\" so'zining ma'nosi nima?",
+   "a": [
+    "Kasallik belgisi",
+    "Kasallik sababi",
+    "Davolash usuli",
+    "Dori shakli"
+   ],
+   "e": "Grekcha."
+  },
+  {
+   "b": "Aforizmlar va iboralar",
+   "q": "\"Syndromum\" so'zining ma'nosi nima?",
+   "a": [
+    "Belgilar majmui",
+    "Bitta belgi",
+    "Kasallik sababi",
+    "Davolash rejasi"
+   ],
+   "e": "Birga keladigan belgilar."
+  },
+  {
+   "b": "Qisqartmalar va sonlar",
+   "q": "Retseptda \"№ 10\" nimani bildiradi?",
+   "a": [
+    "Numero — 10 dona (soni)",
+    "10 gramm quruq modda",
+    "10 millilitr eritma",
+    "10 tomchi suyuqlik"
+   ],
+   "e": "Doza soni."
+  },
+  {
+   "b": "Qisqartmalar va sonlar",
+   "q": "\"t.i.d.\" (ter in die) qisqartmasi nimani bildiradi?",
+   "a": [
+    "Kuniga 3 marta",
+    "Kuniga 2 marta",
+    "Kuniga 4 marta",
+    "Kuniga 1 marta"
+   ],
+   "e": "Ter — uch marta."
+  },
+  {
+   "b": "Qisqartmalar va sonlar",
+   "q": "\"b.i.d.\" (bis in die) qisqartmasi nimani bildiradi?",
+   "a": [
+    "Kuniga 2 marta",
+    "Kuniga 3 marta",
+    "Kuniga 1 marta",
+    "Haftada 2 marta"
+   ],
+   "e": "Bis — ikki marta."
+  },
+  {
+   "b": "Qisqartmalar va sonlar",
+   "q": "\"Unus, una, unum\" qaysi son?",
+   "a": [
+    "Bir",
+    "Ikki",
+    "Uch",
+    "O'n"
+   ],
+   "e": "Sanoq son."
+  },
+  {
+   "b": "Qisqartmalar va sonlar",
+   "q": "\"Duo, duae, duo\" qaysi son?",
+   "a": [
+    "Ikki",
+    "Bir",
+    "Uch",
+    "To'rt"
+   ],
+   "e": "Sanoq son."
+  },
+  {
+   "b": "Qisqartmalar va sonlar",
+   "q": "\"Decem\" qaysi son?",
+   "a": [
+    "O'n",
+    "Yuz",
+    "Ming",
+    "Besh"
+   ],
+   "e": "Rim raqami X."
+  },
+  {
+   "b": "Qisqartmalar va sonlar",
+   "q": "Rim raqamlarida \"C\" qaysi sonni bildiradi?",
+   "a": [
+    "100",
+    "50",
+    "500",
+    "1000"
+   ],
+   "e": "Centum."
+  },
+  {
+   "b": "Qisqartmalar va sonlar",
+   "q": "Rim raqamlarida \"D\" qaysi sonni bildiradi?",
+   "a": [
+    "500",
+    "100",
+    "1000",
+    "50"
+   ],
+   "e": "Quingenti."
+  }
+ ]
+}
