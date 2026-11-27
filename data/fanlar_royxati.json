@@ -572,6 +572,146 @@
   {
    "nomi": "Fransuz tili",
    "bank": "fransuz_tili"
+  },
+  {
+   "nomi": "Tibbiy kimyo",
+   "bank": "kimyo"
+  },
+  {
+   "nomi": "Noorganik kimyo",
+   "bank": "kimyo"
+  },
+  {
+   "nomi": "Organik kimyo",
+   "bank": "kimyo"
+  },
+  {
+   "nomi": "Organik kimyo va noorganik kimyo",
+   "bank": "kimyo"
+  },
+  {
+   "nomi": "Organik kimyo asoslari",
+   "bank": "kimyo"
+  },
+  {
+   "nomi": "Qishloq xo'jaligi mashinalarining tuzilishi va ularga texnik xizmat ko'rsatish",
+   "bank": "traktorlar"
+  },
+  {
+   "nomi": "Qishloq xo'jaligida mexanizatsiyalashgan ishlar texnologiyasi",
+   "bank": "traktorlar"
+  },
+  {
+   "nomi": "Tikuvchilik materialshunosligi",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Ayollar kiyimini konstruksiyalash va modellashtirish",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Tikuvchilik jihozlari",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Kiyimni konstruksiyalash va modellashtirish",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Tikuv buyumlarini loyihalash",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Tikuvchilik mahsulotlari modeli va konstruksiyasini yaratish",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Ayollar kiyimini konstruksiyalash va modellashtirish texnologiyasi",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Avtomobil dvigatellariga servis xizmat ko'rsatish va ta'mirlash",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Avtomobil yurish qismlariga texnik xizmat ko'rsatish va ta'mirlash",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Avtomobil elektr va elektron jihozlari tuzilishi, ularga texnik xizmat ko'rsatish va ta'mirlash",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Avtomobil dvigatellariga texnik xizmat ko'rsatish va ta'mirlash",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Avtomobil dvigatellariga servis xizmat ko'rsatish va ta'mirlash texnologiyasi",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Avtomobil dvigatellariga servis xizmat ko'rsatish va ta'mirlash ishlarida ishlatiladigan jihoz va asbob-uskunalar",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Avtomobil transportlarida yuklarni tashish",
+   "bank": "tashishlarni_tashkil_etish"
+  },
+  {
+   "nomi": "Avtomobillarda tashishni tashkil etish",
+   "bank": "tashishlarni_tashkil_etish"
+  },
+  {
+   "nomi": "Avtomobillarda tashish",
+   "bank": "tashishlarni_tashkil_etish"
+  },
+  {
+   "nomi": "O'simliklarni himoya qilish",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Paxtachilik",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Paxta yetishtirish",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Donli ekinlar",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "G'alla ekinlarini parvarishlash agrotexnikasi",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Kartoshka yetishtirish",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Sabzavotchilik va polizchilik",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Epidemiologiya asoslari",
+   "bank": "yuqumli_kasalliklar"
+  },
+  {
+   "nomi": "Hayot faoliyati xavfsizligi",
+   "bank": "mehnat_muhofazasi"
+  },
+  {
+   "nomi": "Metallar texnologiyasi",
+   "bank": "konstruksion_materiallar"
+  },
+  {
+   "nomi": "Materialshunoslik",
+   "bank": "konstruksion_materiallar"
+  },
+  {
+   "nomi": "Gigiena va sanitariya-gigiena tekshirish usullari",
+   "bank": "umumiy_gigiyena_va_ekologiya"
   }
  ],
  "tez_orada": [
@@ -583,11 +723,6 @@
   {
    "id": "t25e4ded5",
    "nomi": "Akusherlik va ginekologiyada hamshiralik ishi",
-   "kat": "tib"
-  },
-  {
-   "id": "t44548d6c",
-   "nomi": "Tibbiy kimyo",
    "kat": "tib"
   },
   {
@@ -631,29 +766,9 @@
    "kat": "um"
   },
   {
-   "id": "t7888707d",
-   "nomi": "Tikuvchilik materialshunosligi",
-   "kat": "xiz"
-  },
-  {
-   "id": "t24e7a3b5",
-   "nomi": "Ayollar kiyimini konstruksiyalash va modellashtirish",
-   "kat": "xiz"
-  },
-  {
-   "id": "t95120e65",
-   "nomi": "Avtomobil dvigatellariga servis xizmat ko'rsatish va ta'mirlash",
-   "kat": "tr"
-  },
-  {
    "id": "tffcb8847",
    "nomi": "Maktabgacha yoshdagi bolalar psixologiyasi",
    "kat": "ped"
-  },
-  {
-   "id": "t3bb8d5e9",
-   "nomi": "Noorganik kimyo",
-   "kat": "um"
   },
   {
    "id": "tb0eb825a",
@@ -736,11 +851,6 @@
    "kat": "til"
   },
   {
-   "id": "t6406f405",
-   "nomi": "Tikuvchilik jihozlari",
-   "kat": "xiz"
-  },
-  {
    "id": "t47ed691d",
    "nomi": "Qo'lda yoyli payvandlash jihozlari va texnologiyasi",
    "kat": "muh"
@@ -751,11 +861,6 @@
    "kat": "it"
   },
   {
-   "id": "t0a8da6a5",
-   "nomi": "Qishloq xo'jaligi mashinalarining tuzilishi va ularga texnik xizmat ko'rsatish",
-   "kat": "qx"
-  },
-  {
    "id": "td361bde6",
    "nomi": "Nutq o'stirish va bolalar adabiyoti",
    "kat": "ped"
@@ -764,11 +869,6 @@
    "id": "tddd8c121",
    "nomi": "Kompyuter tizimlarining dasturiy ta'minoti",
    "kat": "it"
-  },
-  {
-   "id": "te261dfb7",
-   "nomi": "Qishloq xo'jaligida mexanizatsiyalashgan ishlar texnologiyasi",
-   "kat": "qx"
   },
   {
    "id": "t0f85e3d6",
@@ -784,11 +884,6 @@
    "id": "t1f1fa380",
    "nomi": "Buxgalteriya hisobi nazariyasi",
    "kat": "iqt"
-  },
-  {
-   "id": "tfed9a558",
-   "nomi": "Kiyimni konstruksiyalash va modellashtirish",
-   "kat": "xiz"
   },
   {
    "id": "tadea7e20",
@@ -876,11 +971,6 @@
    "kat": "ped"
   },
   {
-   "id": "t11aa9e42",
-   "nomi": "O'simliklarni himoya qilish",
-   "kat": "qx"
-  },
-  {
    "id": "tf68c2f3f",
    "nomi": "Foydali qazilmalarni ochiq usulida qazib olish",
    "kat": "muh"
@@ -889,11 +979,6 @@
    "id": "td42bc486",
    "nomi": "Tokarlik va frezalash dastgohlarida metallarga ishlov berish texnologiyasi",
    "kat": "muh"
-  },
-  {
-   "id": "t0edd88e5",
-   "nomi": "Paxtachilik",
-   "kat": "qx"
   },
   {
    "id": "t65eed5c8",
@@ -929,11 +1014,6 @@
    "id": "tfbfdc84e",
    "nomi": "Suv tejovchi sug'orish texnologiyalari",
    "kat": "qx"
-  },
-  {
-   "id": "td214a371",
-   "nomi": "Avtomobil transportlarida yuklarni tashish",
-   "kat": "tr"
   },
   {
    "id": "t7f04e3f3",
@@ -1021,16 +1101,6 @@
    "kat": "tr"
   },
   {
-   "id": "t27b13ec6",
-   "nomi": "Organik kimyo",
-   "kat": "um"
-  },
-  {
-   "id": "t5f65e8d2",
-   "nomi": "Metallar texnologiyasi",
-   "kat": "muh"
-  },
-  {
    "id": "t5557b7eb",
    "nomi": "Hayvonlarni oziqlantirish va zoogigiyena",
    "kat": "tib"
@@ -1064,26 +1134,6 @@
    "id": "t43fd81fb",
    "nomi": "Tasviriy faoliyat nazariyasi va metodikasi",
    "kat": "ped"
-  },
-  {
-   "id": "t0303ab45",
-   "nomi": "Tikuv buyumlarini loyihalash",
-   "kat": "xiz"
-  },
-  {
-   "id": "t9947a90d",
-   "nomi": "Avtomobil yurish qismlariga texnik xizmat ko'rsatish va ta'mirlash",
-   "kat": "tr"
-  },
-  {
-   "id": "tfd3e50ec",
-   "nomi": "Paxta yetishtirish",
-   "kat": "qx"
-  },
-  {
-   "id": "te7ffc545",
-   "nomi": "Tikuvchilik mahsulotlari modeli va konstruksiyasini yaratish",
-   "kat": "xiz"
   },
   {
    "id": "t75ea5927",
@@ -1141,18 +1191,8 @@
    "kat": "tib"
   },
   {
-   "id": "tcb6081a8",
-   "nomi": "Organik kimyo va noorganik kimyo",
-   "kat": "um"
-  },
-  {
    "id": "t2f51e2ca",
    "nomi": "Yuk va tijorat ishlarini boshqarish",
-   "kat": "tr"
-  },
-  {
-   "id": "t8f3f20bb",
-   "nomi": "Avtomobillarda tashishni tashkil etish",
    "kat": "tr"
   },
   {
@@ -1186,11 +1226,6 @@
    "kat": "tib"
   },
   {
-   "id": "te47f6872",
-   "nomi": "Hayot faoliyati xavfsizligi",
-   "kat": "ijt"
-  },
-  {
    "id": "t98b91946",
    "nomi": "Kimyo sanoati xom-ashyolari va mahsulotlari",
    "kat": "muh"
@@ -1214,11 +1249,6 @@
    "id": "t8876fb1d",
    "nomi": "Umumiy ovqatlanish korxonalarida sanitariya, gigiyena va ovqatlanish fiziologiyasi",
    "kat": "tib"
-  },
-  {
-   "id": "t6c9e030a",
-   "nomi": "Ayollar kiyimini konstruksiyalash va modellashtirish texnologiyasi",
-   "kat": "xiz"
   },
   {
    "id": "t2b2d20c1",
@@ -1271,11 +1301,6 @@
    "kat": "tr"
   },
   {
-   "id": "tb09adb13",
-   "nomi": "Donli ekinlar",
-   "kat": "qx"
-  },
-  {
    "id": "t9cfe9649",
    "nomi": "Mobil qurilmalarning dasturiy ta'minoti",
    "kat": "it"
@@ -1311,29 +1336,14 @@
    "kat": "ijt"
   },
   {
-   "id": "tcdbd31bd",
-   "nomi": "Materialshunoslik",
-   "kat": "muh"
-  },
-  {
    "id": "tde1996a3",
    "nomi": "MTTda bolalarni ijodkorligini rivojlantirishda sahnalashtirish",
    "kat": "ped"
   },
   {
-   "id": "tc7666d48",
-   "nomi": "Avtomobil elektr va elektron jihozlari tuzilishi, ularga texnik xizmat ko'rsatish va ta'mirlash",
-   "kat": "tr"
-  },
-  {
    "id": "t2476767c",
    "nomi": "Davlat byudjeti",
    "kat": "iqt"
-  },
-  {
-   "id": "t932c3d45",
-   "nomi": "Avtomobillarda tashish",
-   "kat": "tr"
   },
   {
    "id": "tf2f28c96",
@@ -1346,11 +1356,6 @@
    "kat": "tib"
   },
   {
-   "id": "t2e7e2e70",
-   "nomi": "G'alla ekinlarini parvarishlash agrotexnikasi",
-   "kat": "qx"
-  },
-  {
    "id": "tc76681c5",
    "nomi": "Kutubxona fondini shakllantirish hisobga olish va hisobdan chiqarish",
    "kat": "ped"
@@ -1359,11 +1364,6 @@
    "id": "tc040a82a",
    "nomi": "Tuproqshunoslik va agrokimyo asoslari",
    "kat": "qx"
-  },
-  {
-   "id": "t1fd463ec",
-   "nomi": "Avtomobil dvigatellariga texnik xizmat ko'rsatish va ta'mirlash",
-   "kat": "tr"
   },
   {
    "id": "taed57f51",
@@ -1426,19 +1426,9 @@
    "kat": "ped"
   },
   {
-   "id": "t5907cffa",
-   "nomi": "Gigiena va sanitariya-gigiena tekshirish usullari",
-   "kat": "tib"
-  },
-  {
    "id": "t498c0020",
    "nomi": "Elektr va elektromexanik uskunalarning ekspluatatsiyasi va texnik xizmat ko'rsatish asoslari",
    "kat": "muh"
-  },
-  {
-   "id": "t6be27899",
-   "nomi": "Avtomobil dvigatellariga servis xizmat ko'rsatish va ta'mirlash texnologiyasi",
-   "kat": "tr"
   },
   {
    "id": "t66bff6b5",
@@ -1486,18 +1476,8 @@
    "kat": "xiz"
   },
   {
-   "id": "t244201a4",
-   "nomi": "Kartoshka yetishtirish",
-   "kat": "qx"
-  },
-  {
    "id": "t4e31711b",
    "nomi": "Gidroekologiya",
-   "kat": "qx"
-  },
-  {
-   "id": "t99708516",
-   "nomi": "Sabzavotchilik va polizchilik",
    "kat": "qx"
   },
   {
@@ -1616,11 +1596,6 @@
    "kat": "ped"
   },
   {
-   "id": "tfcd7b9bd",
-   "nomi": "Epidemiologiya asoslari",
-   "kat": "tib"
-  },
-  {
    "id": "t13f0a1b5",
    "nomi": "Gidromeliorativ mashina va jihozlarining tuzilishi, ishlatilishi va ularga texnik xizmat ko'rsatish",
    "kat": "til"
@@ -1691,11 +1666,6 @@
    "kat": "muh"
   },
   {
-   "id": "t7d9f85c3",
-   "nomi": "Organik kimyo asoslari",
-   "kat": "um"
-  },
-  {
    "id": "t04163a56",
    "nomi": "Elektr stansiya elektr jihozlari",
    "kat": "muh"
@@ -1734,11 +1704,6 @@
    "id": "tdff1cb2c",
    "nomi": "Elektr stansiya turbina jihozlarini ta'mirlash",
    "kat": "muh"
-  },
-  {
-   "id": "t3fecdaf9",
-   "nomi": "Avtomobil dvigatellariga servis xizmat ko'rsatish va ta'mirlash ishlarida ishlatiladigan jihoz va asbob-uskunalar",
-   "kat": "tr"
   },
   {
    "id": "tabb85efd",
