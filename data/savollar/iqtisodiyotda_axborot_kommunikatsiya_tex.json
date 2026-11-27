@@ -2934,7 +2934,7 @@
    "b": "Elektron davlat va raqamli iqtisodiyot",
    "q": "Mobil aloqa operatorlari raqamli iqtisodiyotda qanday rol o'ynaydi?",
    "a": [
-    "Infratuzilma va mobil xizmatlar",
+    "Infratuzilma va xizmatlar",
     "Faqat qog'oz pochta",
     "Faqat televizor sotuvi",
     "Hech qanday rol"
@@ -2945,7 +2945,7 @@
    "b": "Iqtisodiy axborot tizimlari",
    "q": "Korporativ axborot tizimining afzalligi nima?",
    "a": [
-    "Bo'limlar ma'lumotlarining yagona bazada integratsiyasi",
+    "Ma'lumotlar integratsiyasi",
     "Har bir bo'limning alohida, bog'lanmagan dasturi",
     "Ma'lumot almashinuvining to'xtashi",
     "Xatolarning ko'payishi"
@@ -2956,7 +2956,7 @@
    "b": "Iqtisodiy axborot tizimlari",
    "q": "Hujjat aylanishi tizimida \"marshrut\" nima?",
    "a": [
-    "Hujjatning kelishuv va imzolash yo'li",
+    "Kelishuv va imzolash yo'li",
     "Avtobus yo'nalishi",
     "Tarmoq kabeli",
     "Printer navbati"
@@ -2978,7 +2978,7 @@
    "b": "Iqtisodiy axborot tizimlari",
    "q": "Audit jurnali (log) nima uchun kerak?",
    "a": [
-    "Tizimdagi harakatlarni qayd etish uchun",
+    "Harakatlarni qayd etish",
     "Dekorativ bezak uchun",
     "Fayllarni o'chirish uchun",
     "Internetni tezlashtirish uchun"
@@ -3000,7 +3000,7 @@
    "b": "Excelda iqtisodiy hisoblar",
    "q": "Excelda =SUMPRODUCT(A1:A3;B1:B3) nima hisoblaydi?",
    "a": [
-    "Juft ko'paytmalar yig'indisini",
+    "Ko'paytmalar yig'indisini",
     "Faqat A ustun yig'indisini",
     "Faqat eng katta qiymatni",
     "Kataklar sonini"
@@ -3110,7 +3110,7 @@
    "b": "Ma'lumotlar bazasi va tahlil",
    "q": "Ma'lumotlar bazasida indeks nima uchun kerak?",
    "a": [
-    "Qidiruvni tezlashtirish uchun",
+    "Qidiruvni tezlashtirish",
     "Ma'lumotni o'chirish uchun",
     "Jadvalni bo'yash uchun",
     "Parol qo'yish uchun"
@@ -3143,7 +3143,7 @@
    "b": "Ma'lumotlar bazasi va tahlil",
    "q": "Iqtisodiy ma'lumotlarni vizuallashtirishda \"infografika\" nima?",
    "a": [
-    "Ma'lumotni grafik tasvirlar orqali berish",
+    "Grafik tasvirlash",
     "Faqat matnli hisobot",
     "Faqat raqamlar jadvali",
     "Audio yozuv"
@@ -3165,7 +3165,7 @@
    "b": "Ma'lumotlar bazasi va tahlil",
    "q": "Ma'lumotlardagi \"anomaliya\" nima?",
    "a": [
-    "Odatdagidan keskin farqlanuvchi qiymat",
+    "Keskin farqlanuvchi qiymat",
     "Eng ko'p uchraydigan qiymat",
     "O'rtacha qiymat",
     "Nol qiymat"
@@ -3198,7 +3198,7 @@
    "b": "Axborot va kompyuter asoslari",
    "q": "Planshet qanday qurilma?",
    "a": [
-    "Sensorli ekranli ko'chma kompyuter",
+    "Sensorli ko'chma kompyuter",
     "Faqat telefon",
     "Faqat printer",
     "Faqat skaner"
@@ -3226,6 +3226,83 @@
     "Monitorni maksimal yorqin qilish"
    ],
    "e": "Ko'z va bel salomatligi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter xotirasi hajmi 16 GB. Bu necha MB?",
+   "a": [
+    "16 384 MB",
+    "1600 MB",
+    "160 MB",
+    "16 000 000 MB"
+   ],
+   "e": "16 · 1024."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "2048 KB necha MB ga teng?",
+   "a": [
+    "2 MB",
+    "20 MB",
+    "0,2 MB",
+    "2048 MB"
+   ],
+   "e": "2048 / 1024."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ikkilik 1111 o'nlik sistemada qancha?",
+   "a": [
+    "15",
+    "11",
+    "16",
+    "4"
+   ],
+   "e": "8 + 4 + 2 + 1."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "O'n oltilik sanoq sistemasida \"A\" raqami o'nlikda nechaga teng?",
+   "a": [
+    "10",
+    "1",
+    "11",
+    "16"
+   ],
+   "e": "A = 10, F = 15."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Bir belgi Unicode (UTF-16) da odatda necha bayt egallaydi?",
+   "a": [
+    "2",
+    "1",
+    "8",
+    "16"
+   ],
+   "e": "ASCII da 1 bayt."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "8 bitli kod bilan nechta turli belgi kodlash mumkin?",
+   "a": [
+    "256",
+    "8",
+    "128",
+    "64"
+   ],
+   "e": "2⁸."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuterni xavfsiz o'chirish uchun nima qilinadi?",
+   "a": [
+    "Operatsion tizim orqali \"Zavershenie raboty\"",
+    "Elektr kabelini sug'urib olish",
+    "Monitorni o'chirish yetarli",
+    "Klaviaturani uzish"
+   ],
+   "e": "Ma'lumotlar saqlanadi."
   }
  ]
 }
