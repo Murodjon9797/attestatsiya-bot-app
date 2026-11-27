@@ -1829,6 +1829,1492 @@
     "Saytning bosh sahifasidagi asosiy rasm"
    ],
    "e": "Odatda 16×16, 32×32."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Bosmaxonaga maket topshirishda \"bleed\" (vylet) nima?",
+   "a": [
+    "Kesish chizig'idan tashqari zaxira",
+    "Matnning ichki chegarasi",
+    "Sahifa raqami",
+    "Shriftning qalinligi"
+   ],
+   "e": "Odatda 3 mm."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Poligrafiyada standart \"vylet\" (bleed) o'lchami odatda qancha?",
+   "a": [
+    "3 mm",
+    "30 mm",
+    "0,1 mm",
+    "10 sm"
+   ],
+   "e": "Oq chiziq qolmasligi uchun."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Ko'p sahifali nashrlarni (kitob, jurnal) maketlash uchun mo'ljallangan dastur qaysi?",
+   "a": [
+    "Adobe InDesign",
+    "Adobe Photoshop",
+    "Blender",
+    "Audacity"
+   ],
+   "e": "Sahifalash dasturi."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Bosmaxonaga yuborish uchun keng tarqalgan format qaysi?",
+   "a": [
+    "PDF",
+    "DOCX",
+    "MP4",
+    "TXT"
+   ],
+   "e": "Shriftlar va ranglar saqlanadi."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "A4 formatning o'lchami qancha?",
+   "a": [
+    "210×297 mm",
+    "148×210 mm",
+    "297×420 mm",
+    "100×150 mm"
+   ],
+   "e": "ISO 216."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "A3 format A4 dan qanday farq qiladi?",
+   "a": [
+    "Ikki baravar katta",
+    "Ikki baravar kichik",
+    "Bir xil",
+    "To'rt baravar kichik"
+   ],
+   "e": "297×420 mm."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Vizitka (tashrif qog'ozi) uchun keng tarqalgan o'lcham qaysi?",
+   "a": [
+    "90×50 mm",
+    "210×297 mm",
+    "420×594 mm",
+    "10×10 mm"
+   ],
+   "e": "Yevropa standarti 85×55 mm ham."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Ofset bosmada rangli tasvir qanday ranglar bilan bosiladi?",
+   "a": [
+    "CMYK to'rt rang bilan",
+    "Faqat RGB bilan",
+    "Faqat qora rang bilan",
+    "Faqat oq rang bilan"
+   ],
+   "e": "To'rt rangli bosma."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Kichik tirajlar va tezkor chop etish uchun qaysi bosma usuli qulay?",
+   "a": [
+    "Raqamli",
+    "Ofset bosma",
+    "Gravyura",
+    "Litografiya"
+   ],
+   "e": "Qolip tayyorlanmaydi."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Banner va katta formatdagi tashqi reklama uchun qanday bosma ishlatiladi?",
+   "a": [
+    "Keng formatli bosma",
+    "Vizitka bosmasi",
+    "Termobosma chek printeri",
+    "Matritsali printer"
+   ],
+   "e": "Interyer va ekster."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Matbaada \"tiraj\" nima?",
+   "a": [
+    "Nashr nusxalari soni",
+    "Sahifadagi so'zlar soni",
+    "Bosma mashinaning tezligi",
+    "Qog'ozning qalinligi"
+   ],
+   "e": "Nusxalar soni."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Qog'oz zichligi qanday birlikda o'lchanadi?",
+   "a": [
+    "g/m²",
+    "dpi",
+    "pt",
+    "km/soat"
+   ],
+   "e": "Masalan, ofis qog'ozi 80 g/m²."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Laminatsiya bosma mahsulotga nima beradi?",
+   "a": [
+    "Himoya qatlami va yaltiroq yoki mat yuza",
+    "Bosma ranglarini sezilarli xiralashtiradi",
+    "Qog'ozni yupqalashtirib, egiluvchan qiladi",
+    "Faylni siqadi"
+   ],
+   "e": "Post-bosma ishlov."
+  },
+  {
+   "b": "Poligrafiya va maketlash",
+   "q": "Kitob muqovasining umurtqa qismi (koreshok) kengligi nimaga bog'liq?",
+   "a": [
+    "Sahifalar soni va qog'oz qalinligiga",
+    "Kitob nomining va muallif ismining uzunligiga",
+    "Muallif yoshiga",
+    "Shriftning rangi va o'lchamiga"
+   ],
+   "e": "Maketda hisoblanadi."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "Fotoapparatda diafragma nima bilan belgilanadi?",
+   "a": [
+    "f-son",
+    "ISO qiymati",
+    "Soniya ulushlari",
+    "Megapiksel"
+   ],
+   "e": "Teshik kattaligi."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "Diafragma kengroq ochilsa (kichik f-son) nima bo'ladi?",
+   "a": [
+    "Ko'proq yorug'lik kiradi, fon xiralashadi",
+    "Kamroq yorug'lik kiradi, kadr qorayadi",
+    "Butun kadr boshdan-oxir keskin bo'ladi",
+    "Kadr qora-oq bo'lib qoladi"
+   ],
+   "e": "Kichik maydon chuqurligi."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "Ekspozitsiya uchburchagiga nimalar kiradi?",
+   "a": [
+    "Diafragma, zatvor, ISO",
+    "Megapiksel, xotira, batareya",
+    "Fokus, zoom, flesh",
+    "Format, fayl, papka"
+   ],
+   "e": "Yoritilganlikni belgilaydi."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "ISO qiymati oshirilganda qanday kamchilik paydo bo'ladi?",
+   "a": [
+    "Shovqin ortadi",
+    "Tasvir to'liq qorayadi",
+    "Rang yo'qoladi",
+    "Fokus yo'qoladi"
+   ],
+   "e": "Sezgirlik ortadi."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "Harakatni \"muzlatish\" uchun qanday zatvor tezligi kerak?",
+   "a": [
+    "Qisqa",
+    "Uzoq (masalan, 2 s)",
+    "Faqat 1 soniya",
+    "Zatvor ahamiyatsiz"
+   ],
+   "e": "Sport suratlari."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "RAW formatida suratga olishning afzalligi nima?",
+   "a": [
+    "Keyingi ishlov uchun ko'proq ma'lumot saqlanadi",
+    "Fayl hajmi eng kichik bo'ladi",
+    "Har qanday dasturda darhol ochiladi",
+    "Tasvir avtomatik chiroyli bo'ladi"
+   ],
+   "e": "Siqilmagan sensor ma'lumoti."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "Oq balans (White Balance) nimani to'g'rilaydi?",
+   "a": [
+    "Yorug'lik manbaining rang haroratini",
+    "Tasvirning keskinligi va aniqligini",
+    "Fayl hajmini",
+    "Kadrning o'lchami va tomonlar nisbatini"
+   ],
+   "e": "Kelvin."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "Portret suratda fonni xiralashtirish effekti qanday ataladi?",
+   "a": [
+    "Boke",
+    "Panorama",
+    "HDR",
+    "Makro"
+   ],
+   "e": "Kichik maydon chuqurligi."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "HDR texnologiyasi nima beradi?",
+   "a": [
+    "Yorug' va qorong'i joylarda detallarni saqlash",
+    "Faqat qora-oq tasvir hosil qilish",
+    "Kadrni kichraytirib, hajmni tejash",
+    "Ovoz yozish"
+   ],
+   "e": "Bir nechta ekspozitsiya birlashtiriladi."
+  },
+  {
+   "b": "Fotografiya asoslari",
+   "q": "Makro suratga olish nima?",
+   "a": [
+    "Kichik ob'ektni yaqindan olish",
+    "Juda uzoqdagi ob'ektlarni olish",
+    "Panorama olish",
+    "Kechasi osmonni olish"
+   ],
+   "e": "Hasharotlar, gullar."
+  },
+  {
+   "b": "Veb-grafika qo'shimcha",
+   "q": "Veb-sayt uchun tasvirlarni optimallashtirish nima uchun kerak?",
+   "a": [
+    "Sahifa tez yuklanishi uchun",
+    "Tasvir sifatini maksimal oshirish uchun",
+    "Saytni yopish uchun",
+    "Shriftni o'zgartirish uchun"
+   ],
+   "e": "Hajmni kamaytirish."
+  },
+  {
+   "b": "Veb-grafika qo'shimcha",
+   "q": "Banner reklamada CTA tugmasi nima?",
+   "a": [
+    "Harakatga undovchi tugma",
+    "Sahifaning fon rasmi",
+    "Saytning manzili",
+    "Shrift turi"
+   ],
+   "e": "Call to Action."
+  },
+  {
+   "b": "Veb-grafika qo'shimcha",
+   "q": "Mobil ilovalar ikonkasi qanday bo'lishi kerak?",
+   "a": [
+    "Sodda, kichik o'lchamda ham tanib bo'ladigan",
+    "Ko'p mayda matn va yozuvlarga ega",
+    "Faqat batafsil fotosuratdan iborat",
+    "Juda ko'p detalli"
+   ],
+   "e": "Kichik o'lchamda o'qilishi."
+  },
+  {
+   "b": "Veb-grafika qo'shimcha",
+   "q": "Ijtimoiy tarmoqlar uchun kvadrat post odatda qanday nisbatda bo'ladi?",
+   "a": [
+    "1:1",
+    "16:9",
+    "4:1",
+    "1:4"
+   ],
+   "e": "Masalan, 1080×1080."
+  },
+  {
+   "b": "Veb-grafika qo'shimcha",
+   "q": "Gorizontal video va prezentatsiyalar uchun standart tomonlar nisbati qaysi?",
+   "a": [
+    "16:9",
+    "1:1",
+    "9:16",
+    "3:1"
+   ],
+   "e": "Keng ekran."
+  },
+  {
+   "b": "Veb-grafika qo'shimcha",
+   "q": "Infografika nima?",
+   "a": [
+    "Ma'lumotni grafik taqdim etish",
+    "Faqat matnli maqola",
+    "Faqat ovozli xabar",
+    "Dastur kodi"
+   ],
+   "e": "Diagramma, piktogramma, matn."
+  },
+  {
+   "b": "Veb-grafika qo'shimcha",
+   "q": "Mokap (mockup) nima?",
+   "a": [
+    "Dizaynning real ob'ektdagi ko'rinishi",
+    "Tayyor chop etilgan mahsulot",
+    "Dizayn dasturining nomi",
+    "Fayl formati"
+   ],
+   "e": "Taqdimot uchun."
+  },
+  {
+   "b": "Veb-grafika qo'shimcha",
+   "q": "Dizayner portfoliosi nima uchun kerak?",
+   "a": [
+    "Ishlarni namoyish qilish uchun",
+    "Faqat soliq hisobotini topshirish uchun",
+    "Kompyuterni himoyalash uchun",
+    "Faylni arxivlash uchun"
+   ],
+   "e": "Behance, Dribbble."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da yangi qatlam yaratish uchun qaysi tugmalar ishlatiladi?",
+   "a": [
+    "Ctrl + Shift + N",
+    "Ctrl + Shift + S",
+    "Ctrl + Alt + Delete",
+    "Alt + F4"
+   ],
+   "e": "New Layer."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da hamma narsani ajratish (Select All) tugmalari qaysi?",
+   "a": [
+    "Ctrl + A",
+    "Ctrl + D",
+    "Ctrl + I",
+    "Ctrl + J"
+   ],
+   "e": "Ctrl + D — ajratishni bekor qilish."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da ajratishni bekor qilish (Deselect) uchun qaysi tugmalar ishlatiladi?",
+   "a": [
+    "Ctrl + D",
+    "Ctrl + A",
+    "Ctrl + T",
+    "Ctrl + E"
+   ],
+   "e": "Deselect."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da qatlamni nusxalash uchun qaysi tugmalar ishlatiladi?",
+   "a": [
+    "Ctrl + J",
+    "Ctrl + K",
+    "Ctrl + L",
+    "Ctrl + M"
+   ],
+   "e": "Layer via Copy."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da tasvir ranglarini teskari (negativ) qilish qaysi tugmalar bilan bajariladi?",
+   "a": [
+    "Ctrl + I",
+    "Ctrl + U",
+    "Ctrl + B",
+    "Ctrl + R"
+   ],
+   "e": "Invert."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da \"Hue/Saturation\" oynasini ochish tugmalari qaysi?",
+   "a": [
+    "Ctrl + U",
+    "Ctrl + I",
+    "Ctrl + L",
+    "Ctrl + G"
+   ],
+   "e": "Rang tusi va to'yinganlik."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da \"Levels\" oynasini ochish tugmalari qaysi?",
+   "a": [
+    "Ctrl + L",
+    "Ctrl + U",
+    "Ctrl + M",
+    "Ctrl + K"
+   ],
+   "e": "Darajalar."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da \"Curves\" oynasini ochish tugmalari qaysi?",
+   "a": [
+    "Ctrl + M",
+    "Ctrl + L",
+    "Ctrl + B",
+    "Ctrl + Y"
+   ],
+   "e": "Egri chiziqlar."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da chizg'ichlarni (Rulers) ko'rsatish tugmalari qaysi?",
+   "a": [
+    "Ctrl + R",
+    "Ctrl + G",
+    "Ctrl + H",
+    "Ctrl + F"
+   ],
+   "e": "Yo'naltiruvchi chiziqlar uchun."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Pipetka (Eyedropper) asbobi nima qiladi?",
+   "a": [
+    "Tasvirdan rang namunasini oladi",
+    "Tasvirni kerakli o'lchamda kesadi",
+    "Ajratilgan sohaga matn qo'shadi",
+    "Qatlam yaratadi"
+   ],
+   "e": "I tugmasi."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Gradient asbobi nima qiladi?",
+   "a": [
+    "Sohani rang o'tishi bilan to'ldiradi",
+    "Tasvirni Gauss usulida xiralashtiradi",
+    "Ajratilgan ob'ektni boshqa joyga ko'chiradi",
+    "Matnni tekislaydi"
+   ],
+   "e": "G tugmasi."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "\"Lasso\" asbobi nima uchun ishlatiladi?",
+   "a": [
+    "Qo'lda erkin shakldagi soha ajratish",
+    "Rang palitrasidan rang tanlash",
+    "Matn kiritish",
+    "Tasvirni proporsional masshtablash"
+   ],
+   "e": "Polygonal, Magnetic turlari."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "\"Dodge\" va \"Burn\" asboblari nima qiladi?",
+   "a": [
+    "Tasvir qismlarini yorituvchi va qoraytiruvchi",
+    "Rangni boshqasiga almashtiruvchi va o'chiruvchi",
+    "Qatlamni yaratuvchi va o'chiruvchi",
+    "Matnni kattalashtiruvchi va kichraytiruvchi"
+   ],
+   "e": "Mahalliy tonal tuzatish."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Qatlam uslublaridan (Layer Style) \"Drop Shadow\" nima qo'shadi?",
+   "a": [
+    "Soya",
+    "Gradient fon",
+    "Matn",
+    "Ramka chizig'i"
+   ],
+   "e": "Hajm effekti."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da \"Liquify\" filtri nima uchun ishlatiladi?",
+   "a": [
+    "Deformatsiyalab retush qilish",
+    "Tasvirni xiralashtirish",
+    "Matnni vektorga aylantirish",
+    "Faylni siqish"
+   ],
+   "e": "Portret retushi."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Photoshop'da tasvirni veb uchun saqlash buyrug'i qaysi?",
+   "a": [
+    "Export As",
+    "Save As PSD",
+    "Print",
+    "Place Embedded"
+   ],
+   "e": "Optimallashtirib saqlash."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "CorelDRAW'da shakllarni guruhlash uchun qaysi tugmalar ishlatiladi?",
+   "a": [
+    "Ctrl + G",
+    "Ctrl + U",
+    "Ctrl + Q",
+    "Ctrl + K"
+   ],
+   "e": "Group."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "CorelDRAW'da \"Shape Tool\" (F10) nima qiladi?",
+   "a": [
+    "Tugunlarni tahrirlab, shaklni o'zgartiradi",
+    "Hujjatga yangi sahifa qo'shadi",
+    "Faylni boshqa formatga eksport qiladi",
+    "Rangni o'chiradi"
+   ],
+   "e": "Node editing."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Illustrator'da \"Direct Selection Tool\" nima uchun ishlatiladi?",
+   "a": [
+    "Alohida nuqtalarni tanlash",
+    "Butun ob'ektni tanlash",
+    "Rangni tanlash",
+    "Matn yozish"
+   ],
+   "e": "Oq strelka (A)."
+  },
+  {
+   "b": "Grafik dasturlar amaliyoti",
+   "q": "Illustrator'da \"Shape Builder Tool\" nima qiladi?",
+   "a": [
+    "Shakllarni birlashtiradi yoki ajratadi",
+    "Tasvirni xiralashtiradi",
+    "Shrift yuklaydi",
+    "Faylni chop etadi"
+   ],
+   "e": "Shift + M."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "Grafik planshet nima uchun ishlatiladi?",
+   "a": [
+    "Qalam bilan raqamli chizish uchun",
+    "Faqat matn yozish va tahrirlash uchun",
+    "Ovozni yozib, tahrirlash uchun",
+    "Internetga ulanish uchun"
+   ],
+   "e": "Bosim sezgirligi."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "Monitor rang kalibrlash nima uchun kerak?",
+   "a": [
+    "Ranglarni aniq ko'rsatish uchun",
+    "Ekran yorqinligini doimo maksimal qilish uchun",
+    "Monitor narxini oshirish uchun",
+    "Ekran o'lchamini o'zgartirish uchun"
+   ],
+   "e": "Kolorimetr."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "Rang profili (ICC profil) nimani ta'riflaydi?",
+   "a": [
+    "Qurilmaning rang aks ettirishini",
+    "Faylning yaratilgan sanasini",
+    "Dizaynerning ismini",
+    "Shrift o'lchamini"
+   ],
+   "e": "Rangni boshqarish."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "sRGB rang maydoni asosan qayerda standart hisoblanadi?",
+   "a": [
+    "Veb va oddiy monitorlarda",
+    "Faqat ofset bosmada",
+    "Faqat kinoteatrlarda",
+    "Faqat rentgen tasvirlarida"
+   ],
+   "e": "Eng keng tarqalgan."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "Adobe RGB rang maydoni sRGB dan qanday farq qiladi?",
+   "a": [
+    "Kengroq rang qamroviga ega",
+    "Torroq rang qamroviga ega",
+    "Faqat oq-qora tasvirlar uchun",
+    "Hech qanday farqi yo'q"
+   ],
+   "e": "Professional fotografiya."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "Generativ sun'iy intellekt grafikada qanday qo'llanadi?",
+   "a": [
+    "Matnli tavsif asosida tasvir yaratish",
+    "Kompyuterdagi fayllarni avtomatik o'chirish",
+    "Tizimga yangi shriftlarni o'rnatish",
+    "Faqat printerni sozlash"
+   ],
+   "e": "Masalan, Generative Fill."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "Sun'iy intellekt yaratgan tasvirlardan foydalanishda nimaga e'tibor berish kerak?",
+   "a": [
+    "Litsenziya shartlari va mualliflik huquqi",
+    "Faqat fayl nomi va kengaytmasiga",
+    "Faqat fayl nomiga",
+    "Hech narsaga"
+   ],
+   "e": "Huquqiy jihat."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "Kompyuter grafikasida \"anti-aliasing\" nima?",
+   "a": [
+    "Qirralarni silliqlash",
+    "Tasvirni qora-oq qilish",
+    "Ranglarni invertlash",
+    "Faylni siqish"
+   ],
+   "e": "Oraliq piksellar."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "Videokartaning grafik ishlov berishdagi roli nima?",
+   "a": [
+    "Hisoblash va render tezligini oshirish",
+    "Matnni chop etish",
+    "Ovozni yozish",
+    "Internet tezligini oshirish"
+   ],
+   "e": "GPU."
+  },
+  {
+   "b": "Grafik qurilmalar va texnologiyalar",
+   "q": "Grafik dizaynerning ish joyidagi monitor uchun qaysi xususiyat muhim?",
+   "a": [
+    "Aniq rang uzatish (IPS matritsa)",
+    "Faqat yuqori yangilanish chastotasi",
+    "Faqat egilgan ekran",
+    "Faqat kichik o'lcham"
+   ],
+   "e": "Rang aniqligi."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Dizayn loyihasining birinchi bosqichi qaysi?",
+   "a": [
+    "Topshiriq va talablarni o'rganish",
+    "Yakuniy faylni chop etish",
+    "Mijozga hisob-faktura yuborish",
+    "Logotipni darhol chizish"
+   ],
+   "e": "Brif."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Brif (dizayn topshirig'i) nima?",
+   "a": [
+    "Talab va maqsad yozilgan hujjat",
+    "Tayyor dizayn fayli",
+    "Bosmaxona hisob-fakturasi",
+    "Shriftlar to'plami"
+   ],
+   "e": "Loyiha asosi."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Moodboard (kayfiyat taxtasi) nima uchun tuziladi?",
+   "a": [
+    "Uslub va g'oyalarni vizual to'plash",
+    "Yakuniy logotipni chop etish uchun",
+    "Mijoz bilan shartnoma tuzish uchun",
+    "Faylni arxivlash uchun"
+   ],
+   "e": "Ilhom manbalari."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Eskiz bosqichi nima beradi?",
+   "a": [
+    "G'oyalarni tez sinab ko'rish imkonini",
+    "Yakuniy chop etilgan tayyor mahsulotni",
+    "Loyiha bo'yicha moliyaviy hisobotni",
+    "Saytning kodini"
+   ],
+   "e": "Qo'lda yoki raqamli."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Mijozga dizaynni taqdim etishda nima tavsiya etiladi?",
+   "a": [
+    "Bir nechta variant va asoslangan izoh",
+    "Faqat bitta variant, izohsiz",
+    "Manba fayllarni oldindan berib yuborish",
+    "Taqdimotsiz faqat hisob yuborish"
+   ],
+   "e": "Professional yondashuv."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Dizayner manba fayllarini (PSD, AI) tartibda saqlashi nima uchun muhim?",
+   "a": [
+    "Keyin tahrirlash va qayta ishlatish",
+    "Faqat disk joyini band qilish uchun",
+    "Mijozdan yashirish uchun",
+    "Hech qanday ahamiyati yo'q"
+   ],
+   "e": "Fayl tartibi."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Fayllarni nomlashda qaysi tamoyil to'g'ri?",
+   "a": [
+    "Mazmunli nom va versiya raqami",
+    "Tasodifiy belgilar",
+    "Hamma fayllarga bir xil nom berish",
+    "Tasodifiy harf va raqamlardan iborat nom"
+   ],
+   "e": "Masalan, logo_v2.ai."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Ish jarayonida zaxira nusxa (backup) olish nima uchun kerak?",
+   "a": [
+    "Ma'lumot yo'qolishining oldini olish uchun",
+    "Kompyuterni sekinlashtirmaslik uchun",
+    "Fayl sifatini avtomatik oshirish uchun",
+    "Dasturni yangilash uchun"
+   ],
+   "e": "Bulut yoki tashqi disk."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Bepul stok tasvirlardan foydalanishda nima tekshiriladi?",
+   "a": [
+    "Litsenziya turi",
+    "Faqat tasvir rangi",
+    "Faqat fayl hajmi",
+    "Hech narsa tekshirilmaydi"
+   ],
+   "e": "Masalan, CC0."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Creative Commons litsenziyasi nima?",
+   "a": [
+    "Ochiq litsenziyalar tizimi",
+    "Pullik dastur turi",
+    "Fayl formati",
+    "Shrift oilasi"
+   ],
+   "e": "CC BY, CC0."
+  },
+  {
+   "b": "Dizayn jarayoni va kasbiy faoliyat",
+   "q": "Kompyuterda uzoq ishlaganda dizayner sog'lig'i uchun nima muhim?",
+   "a": [
+    "Ergonomik ish joyi va muntazam tanaffus",
+    "Uzluksiz 10 soat davomida ishlash",
+    "Qorong'i xonada yorug'liksiz ishlash",
+    "Ekranga juda yaqin o'tirish"
+   ],
+   "e": "Ko'z va umurtqa salomatligi."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da to'g'ri to'rtburchak chizish buyrug'i qaysi?",
+   "a": [
+    "RECTANG",
+    "CIRCLE",
+    "ARC",
+    "HATCH"
+   ],
+   "e": "Ikki burchak nuqtasi."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da yoy chizish buyrug'i qaysi?",
+   "a": [
+    "ARC",
+    "LINE",
+    "TRIM",
+    "MOVE"
+   ],
+   "e": "Uch nuqta bo'yicha."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da obyektni nusxalash buyrug'i qaysi?",
+   "a": [
+    "COPY",
+    "ERASE",
+    "EXPLODE",
+    "ZOOM"
+   ],
+   "e": "Ko'chirmasdan nusxalash."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da obyektni aylantirish buyrug'i qaysi?",
+   "a": [
+    "ROTATE",
+    "MIRROR",
+    "SCALE",
+    "OFFSET"
+   ],
+   "e": "Burchak bo'yicha."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da parallel nusxa (ekvidistanta) yaratish buyrug'i qaysi?",
+   "a": [
+    "OFFSET",
+    "ROTATE",
+    "FILLET",
+    "ARRAY"
+   ],
+   "e": "Berilgan masofada."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da obyektlarni massiv (ko'p nusxa) shaklida joylash buyrug'i qaysi?",
+   "a": [
+    "ARRAY",
+    "OFFSET",
+    "TRIM",
+    "EXTEND"
+   ],
+   "e": "To'g'ri burchakli yoki qutbli."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da o'lcham qo'yish buyruqlari qaysi guruhga kiradi?",
+   "a": [
+    "DIM",
+    "HATCH",
+    "LAYER",
+    "PLOT"
+   ],
+   "e": "Chiziqli, burchak, radius."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da chizmani chop etish buyrug'i qaysi?",
+   "a": [
+    "PLOT",
+    "SAVE",
+    "OPEN",
+    "UNDO"
+   ],
+   "e": "Print."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da chiziqni boshqa chiziqqacha uzaytirish buyrug'i qaysi?",
+   "a": [
+    "EXTEND",
+    "TRIM",
+    "BREAK",
+    "JOIN"
+   ],
+   "e": "Chegaragacha uzaytirish."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da ekran ko'rinishini kattalashtirish/kichraytirish buyrug'i qaysi?",
+   "a": [
+    "ZOOM",
+    "SCALE",
+    "STRETCH",
+    "MOVE"
+   ],
+   "e": "Obyekt o'lchami o'zgarmaydi."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da qatlamlarni boshqarish buyrug'i qaysi?",
+   "a": [
+    "LAYER",
+    "BLOCK",
+    "GROUP",
+    "LIST"
+   ],
+   "e": "Layer Properties Manager."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "AutoCAD'da qayta ishlatiladigan elementlar to'plami qanday ataladi?",
+   "a": [
+    "Blok",
+    "Qatlam",
+    "Shtrix",
+    "Ko'rinish"
+   ],
+   "e": "Insert bilan qo'yiladi."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "3D modellashtirishda \"Loft\" operatsiyasi nima qiladi?",
+   "a": [
+    "Kesimlardan o'tuvchi jism yaratadi",
+    "Jismni o'chiradi",
+    "Jismni bo'yaydi",
+    "Jismni nusxalaydi"
+   ],
+   "e": "Kesimlar orasida yuzalar."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "\"Sweep\" operatsiyasi nima qiladi?",
+   "a": [
+    "Profilni yo'l bo'ylab surib jism yasaydi",
+    "Jismni ikki bo'lakka bo'ladi",
+    "Jism rangini o'zgartiradi",
+    "Jismni o'chiradi"
+   ],
+   "e": "Masalan, quvur."
+  },
+  {
+   "b": "AutoCAD va muhandislik grafikasi qo'shimcha",
+   "q": "Muhandislik grafikasida kesim nima uchun ko'rsatiladi?",
+   "a": [
+    "Ichki tuzilishni ko'rsatish uchun",
+    "Detal rangini ko'rsatish uchun",
+    "Detal narxini ko'rsatish uchun",
+    "Detal og'irligini ko'rsatish uchun"
+   ],
+   "e": "Shtrixlanadi."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Tasvirdagi barcha piksellar soni (masalan, 12 Mp) nimani bildiradi?",
+   "a": [
+    "Megapiksel",
+    "Megabayt",
+    "Megagers",
+    "Megavatt"
+   ],
+   "e": "Million piksel."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Rang chuqurligi (bit depth) nimani belgilaydi?",
+   "a": [
+    "Pikseldagi ranglar soni",
+    "Tasvirning eni va bo'yi",
+    "Fayl nomi uzunligi",
+    "Ekran diagonali"
+   ],
+   "e": "8, 16, 24 bit."
+  },
+  {
+   "b": "Atamalar",
+   "q": "24-bitli rangli tasvir taxminan nechta rangni aks ettiradi?",
+   "a": [
+    "16,7 million",
+    "256",
+    "65 536",
+    "1 milliard"
+   ],
+   "e": "True Color."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Alfa-kanal nima saqlaydi?",
+   "a": [
+    "Shaffoflik ma'lumotini",
+    "Ovoz treklari ma'lumotini",
+    "Faylning yaratilgan sanasini",
+    "Shrift turini"
+   ],
+   "e": "PNG, TIFF."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Gistogramma tasvirda nimani ko'rsatadi?",
+   "a": [
+    "Yorqinlik bo'yicha piksellar taqsimoti",
+    "Faylning yaratilgan sanasini",
+    "Ishlatilgan shriftlar ro'yxatini",
+    "Qatlamlar sonini"
+   ],
+   "e": "Ekspozitsiya tahlili."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Retush nima?",
+   "a": [
+    "Nuqsonlarni tuzatish",
+    "Tasvirni chop etish",
+    "Tasvirni o'chirish",
+    "Tasvirni arxivlash"
+   ],
+   "e": "Fotosuratni tahrirlash."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Kollaj nima?",
+   "a": [
+    "Tasvirlarni birlashtirib kompozitsiya",
+    "Bitta tasvirni kesish",
+    "Tasvirni qora-oq qilish",
+    "Tasvirni siqish"
+   ],
+   "e": "Fotomontaj."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Piktogramma nima?",
+   "a": [
+    "Soddalashgan ma'noli belgi",
+    "Batafsil fotosurat",
+    "Uzun matn",
+    "Video rolik"
+   ],
+   "e": "Ikonka."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Tipografikada \"shrift kegli\" nimani bildiradi?",
+   "a": [
+    "Shrift o'lchami",
+    "Shrift rangi",
+    "Shrift nomi",
+    "Shrift qiyaligi"
+   ],
+   "e": "Punktlarda."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Ligatura nima?",
+   "a": [
+    "Harflarning birikkan belgisi",
+    "Matnning chegarasi",
+    "Sahifa raqami",
+    "Qator uzunligi"
+   ],
+   "e": "Masalan, \"fi\"."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Tasvirni ma'lum burchakka egish (qiyshaytirish) qanday ataladi?",
+   "a": [
+    "Skew (qiyalash)",
+    "Crop (qirqish)",
+    "Fill (to'ldirish)",
+    "Blur (xiralashtirish)"
+   ],
+   "e": "Transformatsiya turi."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Ob'ektni gorizontal yoki vertikal ko'zgu aksida aylantirish qanday ataladi?",
+   "a": [
+    "Flip",
+    "Rotate (burish)",
+    "Scale (masshtab)",
+    "Warp (egish)"
+   ],
+   "e": "Mirror."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Vinyetka effekti nima?",
+   "a": [
+    "Kadr chetlarining qorayishi",
+    "Kadr markazining oqarishi",
+    "Rangning invertlanishi",
+    "Shriftning qalinlashishi"
+   ],
+   "e": "Diqqatni markazga jalb qiladi."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Duoton nima?",
+   "a": [
+    "Ikki rangli tasvir",
+    "To'rt rangli tasvir",
+    "Faqat qora tasvir",
+    "Animatsiyali tasvir"
+   ],
+   "e": "Poligrafiya effekti."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Tasvirni kichik fayl hajmida saqlash uchun ranglar sonini kamaytirish qanday ataladi?",
+   "a": [
+    "Ranglarni indekslash",
+    "Rasterlash",
+    "Trassirovka",
+    "Renderlash"
+   ],
+   "e": "GIF, PNG-8."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Shriftni veb-saytga ulash uchun keng qo'llanadigan bepul xizmat qaysi?",
+   "a": [
+    "Google Fonts",
+    "Google Maps",
+    "Google Translate",
+    "Google Drive"
+   ],
+   "e": "Veb-shriftlar."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Grafik dizaynda \"flat design\" uslubi nimani anglatadi?",
+   "a": [
+    "Hajmsiz tekis elementlar",
+    "Fotorealistik 3D tasvirlar",
+    "Ko'p detalli bezaklar",
+    "Faqat qora-oq tasvirlar"
+   ],
+   "e": "Minimalizm."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Skevomorfizm dizaynda nimani anglatadi?",
+   "a": [
+    "Real ob'ektlarni taqlid qilish",
+    "Faqat geometrik shakllardan foydalanish",
+    "Faqat matnli dizayn",
+    "Faqat bir rangli dizayn"
+   ],
+   "e": "Masalan, charm teksturali ilova."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Minimalizm uslubining asosiy tamoyili qaysi?",
+   "a": [
+    "Soddalik",
+    "Iloji boricha ko'p bezak",
+    "Har bir burchakni to'ldirish",
+    "Ko'p rang va shrift ishlatish"
+   ],
+   "e": "\"Kamroq — ko'proq\"."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Rang psixologiyasida qizil rang ko'pincha nimani ifodalaydi?",
+   "a": [
+    "Energiya, ehtiros, diqqat",
+    "Xotirjamlik, sokinlik va osoyishtalik",
+    "Tabiat va ekologiya",
+    "Sovuqlik va masofa saqlash"
+   ],
+   "e": "Ogohlantirish va faollik."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Rang psixologiyasida ko'k rang ko'pincha nimani ifodalaydi?",
+   "a": [
+    "Ishonch va xotirjamlik",
+    "Xavf, g'azab va ogohlantirish",
+    "Ochlik va issiqlik",
+    "Shoshilinchlik va tezkorlik"
+   ],
+   "e": "Banklar, texnologiya brendlari."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Yashil rang ko'pincha qaysi tushuncha bilan bog'lanadi?",
+   "a": [
+    "Tabiat va ekologiya",
+    "Xavf va taqiq",
+    "Motam va qayg'u",
+    "Hashamat, boylik va oltin"
+   ],
+   "e": "Eko-brendlar."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Matnni o'qish oson bo'lishi uchun qator uzunligi taxminan qancha belgi tavsiya etiladi?",
+   "a": [
+    "50–75 belgi",
+    "5–10 belgi",
+    "200–300 belgi",
+    "Cheklanmagan"
+   ],
+   "e": "Tipografik qoida."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Grafik dizaynda \"alignment\" (tekislash) nima uchun muhim?",
+   "a": [
+    "Tartib va bog'liqlik yaratadi",
+    "Elementlarni tartibsiz joylashtiradi",
+    "Matnni o'qib bo'lmaydigan qiladi",
+    "Ranglarni o'chiradi"
+   ],
+   "e": "Vizual tartib."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Raqamli tasvirda \"pikselizatsiya\" qachon yuzaga keladi?",
+   "a": [
+    "Past ruxsatli tasvir kattalashtirilganda",
+    "Vektor tasvir kichraytirilganda",
+    "Tasvir PDF ga saqlanganda",
+    "Shrift o'zgartirilganda"
+   ],
+   "e": "Ruxsat yetishmovchiligi."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Tasvirdagi \"aliasing\" artefakti qayerda ko'proq ko'rinadi?",
+   "a": [
+    "Qiya chiziq va egri qirralarda",
+    "Bir tekis rangli katta fonda",
+    "Matnsiz oq varaq yuzasida",
+    "Matn bo'lmagan joyda"
+   ],
+   "e": "Zinapoya effekti."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Kompyuter grafikasining qo'llanish sohalariga nima kiradi?",
+   "a": [
+    "Reklama, kino, o'yin, muhandislik",
+    "Faqat buxgalteriya hisobi",
+    "Faqat matn yozish",
+    "Faqat ovoz yozish"
+   ],
+   "e": "Keng soha."
+  },
+  {
+   "b": "Atamalar",
+   "q": "O'yin grafikasida real vaqt renderi nima?",
+   "a": [
+    "Har kadrni bir zumda hisoblash",
+    "Bitta kadrni bir necha soat hisoblash",
+    "Faqat chop etish uchun render",
+    "Faqat qog'ozga chizish"
+   ],
+   "e": "30–60+ fps."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Virtual reallik (VR) nima?",
+   "a": [
+    "Sun'iy 3D muhitga to'liq jalb etish",
+    "Oddiy matn muharriri",
+    "Printer turi",
+    "Fayl formati"
+   ],
+   "e": "Shlem orqali."
+  },
+  {
+   "b": "Atamalar",
+   "q": "Kengaytirilgan reallik (AR) nima?",
+   "a": [
+    "Realga virtual ob'ekt qo'shish",
+    "Real dunyoni butunlay almashtirish",
+    "Faqat ovozli texnologiya",
+    "Faqat qog'oz texnologiyasi"
+   ],
+   "e": "Smartfon kamerasi orqali."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qaysi format bir faylda bir nechta sahifa va vektor-rastr elementlarni saqlay oladi?",
+   "a": [
+    "PDF",
+    "JPEG",
+    "GIF",
+    "BMP"
+   ],
+   "e": "Universal hujjat formati."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qaysi format yo'qotishsiz siqish bilan veb-grafikada keng qo'llanadi?",
+   "a": [
+    "PNG",
+    "JPEG",
+    "MP3",
+    "AVI"
+   ],
+   "e": "Lossless."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qaysi dastur 3D animatsiya va modellashtirish uchun professional paket hisoblanadi?",
+   "a": [
+    "Autodesk Maya",
+    "Microsoft Excel",
+    "Adobe Acrobat",
+    "Notepad++"
+   ],
+   "e": "Kino va o'yin sanoati."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Vektor grafikada egri chiziq shaklini boshqaruvchi elementlar qanday ataladi?",
+   "a": [
+    "Tayanch nuqta va yo'naltiruvchilar",
+    "Piksellar va kanallar",
+    "Qatlamlar va niqoblar",
+    "Kadrlar va treklar"
+   ],
+   "e": "Bezye egri chiziqlari."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Rastr muharrirda \"kanal\" (channel) nimani saqlaydi?",
+   "a": [
+    "Bitta rang komponentasi yorqinligini",
+    "Fayl nomini",
+    "Shrift ro'yxatini",
+    "Ovoz trekini"
+   ],
+   "e": "R, G, B kanallari."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Logotip qaysi formatda topshirilishi maqsadga muvofiq?",
+   "a": [
+    "Vektor formatda",
+    "Faqat past sifatli JPEG",
+    "Faqat BMP",
+    "Faqat GIF animatsiya"
+   ],
+   "e": "Masshtablash uchun."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Poligrafiyada qora matn uchun qaysi rang tavsiya etiladi?",
+   "a": [
+    "Faqat K (100% qora)",
+    "To'rtta rangning 100% aralashmasi",
+    "RGB qora",
+    "Ko'k va qizil aralashmasi"
+   ],
+   "e": "Registratsiya xatolarining oldini olish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Kompozitsiyada \"markaz\" (fokus nuqta) nima?",
+   "a": [
+    "Diqqatni birinchi tortuvchi element",
+    "Sahifaning geometrik o'rtasi doimo",
+    "Eng kichik element",
+    "Sahifa raqami"
+   ],
+   "e": "Dominant."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Tasvir o'lchamini proporsional o'zgartirish uchun Photoshop'da qaysi tugma bosib turiladi (eski versiyalarda)?",
+   "a": [
+    "Shift",
+    "Ctrl",
+    "Alt + Ctrl + Delete",
+    "Esc"
+   ],
+   "e": "Nisbatni saqlash."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Sahifa maketida \"kolontitul\" nima?",
+   "a": [
+    "Sahifadagi takrorlanuvchi yuqori/past yozuv",
+    "Sahifaning o'rtasidagi rasm",
+    "Muqova rangi",
+    "Kitob nomi faqat muqovada"
+   ],
+   "e": "Sarlavha, sahifa raqami."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Video formatda \"bitreyt\" nimani bildiradi?",
+   "a": [
+    "Soniyadagi ma'lumot hajmini",
+    "Videoning davomiyligini",
+    "Kadr o'lchamini",
+    "Ovoz balandligini"
+   ],
+   "e": "Sifat va hajmga ta'sir."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Kadrlar chastotasi 30 fps bo'lgan 10 soniyalik videoda nechta kadr bor?",
+   "a": [
+    "300",
+    "30",
+    "3000",
+    "40"
+   ],
+   "e": "30 × 10."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "3D sahnada kamera nima vazifani bajaradi?",
+   "a": [
+    "Ko'rinish nuqtasini belgilaydi",
+    "Modelni bo'yaydi",
+    "Ovozni yozadi",
+    "Faylni siqadi"
+   ],
+   "e": "Ko'rinish burchagi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Kompyuter grafikasida \"shablon\" (template) nima?",
+   "a": [
+    "Qayta foydalaniladigan tayyor maket",
+    "Faqat bir marta ishlatiladigan fayl",
+    "O'rnatilgan shrift turi",
+    "Rang modeli"
+   ],
+   "e": "Tezkor ish uchun."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bosma mahsulot maketida xavfsiz zona (safe zone) nima uchun kerak?",
+   "a": [
+    "Muhim matn kesilib ketmasligi uchun",
+    "Fon rasmini kengroq joylash uchun",
+    "Fayl hajmini kamaytirish uchun",
+    "Rangni o'zgartirish uchun"
+   ],
+   "e": "Kesish chizig'idan ichkarida."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Dizaynda \"kontrast\" va \"uyg'unlik\" qanday munosabatda bo'lishi kerak?",
+   "a": [
+    "Muvozanatda bo'lishi",
+    "Faqat kontrast bo'lishi kerak",
+    "Faqat uyg'unlik bo'lishi kerak",
+    "Ikkalasi ham kerak emas"
+   ],
+   "e": "Kompozitsiya muvozanati."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Grafik dizayner uchun asosiy kasbiy kompetensiyalarga nima kiradi?",
+   "a": [
+    "Kompozitsiya, rang, shrift, dasturlar",
+    "Faqat tez yozish",
+    "Faqat buxgalteriya",
+    "Faqat dasturlash"
+   ],
+   "e": "Kasbiy standart."
   }
- ]
+ ],
+ "kalit": "grafika dizayn photoshop illustrator corel dizayner kompyuter grafikasi poligrafiya"
 }

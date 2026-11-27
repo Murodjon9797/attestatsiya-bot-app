@@ -115,7 +115,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
     ("qx", "🌱 Qishloq xo'jaligi va biologiya", [
         "biologiya", "botanika_va_osimliklar_fiziologiyasi", "osimlikshunoslik", "ekologiya"]),
     ("iqt", "📈 Iqtisodiyot va boshqaruv", ["iqtisodiyot_nazariyasi", "menejment_asoslari"]),
-    ("xiz", "✂️ Yengil sanoat va xizmat ko'rsatish", ["tikuvchilik"]),
+    ("xiz", "✂️ Yengil sanoat, dizayn va xizmat", ["tikuvchilik", "kompyuter_grafikasi"]),
     ("ped", "🎵 San'at va pedagogika", ["maktabgacha_pedagogika", "musiqiy_talim", "pedagogik_mahorat"]),
     ("um", "📘 Umumta'lim fanlari", ["matematika", "fizika", "kimyo", "informatika", "jismoniy_tarbiya"]),
 ]
