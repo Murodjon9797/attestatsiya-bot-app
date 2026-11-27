@@ -64,8 +64,8 @@
    "q": "Ixtisoslashtirilgan tibbiy yordam qaysi muassasalarda ko'rsatiladi?",
    "a": [
     "Ixtisoslashgan markazlarda",
-    "Faqat dorixonalarda",
-    "Faqat maktablarda",
+    "Faqat dorixona va apteka shoxobchalarida",
+    "Faqat maktab tibbiyot xonalarida",
     "Faqat sport zallarida"
    ],
    "e": "Ikkilamchi va uchlamchi darajalar."
@@ -108,8 +108,8 @@
    "q": "Majburiy tibbiy sug'urta nima?",
    "a": [
     "Kafolatlangan yordam tizimi",
-    "Ixtiyoriy shaxsiy omonat",
-    "Avtomobil sug'urtasi",
+    "Ixtiyoriy shaxsiy omonat va jamg'arma",
+    "Avtomobil sug'urtasining bir turi",
     "Mulk sug'urtasi"
    ],
    "e": "O'zbekistonda bosqichma-bosqich joriy etilmoqda."
@@ -119,9 +119,9 @@
    "q": "Kafolatlangan tibbiy yordam hajmi nima?",
    "a": [
     "Bepul xizmatlar ro'yxati",
-    "Faqat pullik xizmatlar",
-    "Faqat kosmetologiya",
-    "Faqat sanatoriya"
+    "Faqat pullik va tijorat xizmatlari",
+    "Faqat kosmetologiya xizmatlari",
+    "Faqat sanatoriya davolash"
    ],
    "e": "Davlat dasturi."
   },
@@ -130,8 +130,8 @@
    "q": "Tibbiy yordam sifatini baholashda qaysi yondashuv qo'llaniladi?",
    "a": [
     "Tuzilma, jarayon, natija",
-    "Faqat bino rangi",
-    "Faqat xodimlar soni",
+    "Faqat bino rangi va bezagi",
+    "Faqat xodimlar soni va yoshi",
     "Faqat dorilar narxi"
    ],
    "e": "A. Donabedian modeli."
@@ -284,9 +284,9 @@
    "q": "Ko'rgazmalilik ko'rsatkichi nima?",
    "a": [
     "Bazisga nisbatan o'zgarish",
-    "Kasallar ulushi",
-    "Shifokorlar soni",
-    "Bemorlar yoshi"
+    "Kasallar ulushi foizlarda",
+    "Shifokorlar soni 10 000 aholiga",
+    "Bemorlarning o'rtacha yoshi"
    ],
    "e": "Bazis 100% deb olinadi."
   },
@@ -295,8 +295,8 @@
    "q": "Kasalliklar tuzilmasini ko'rsatish uchun qaysi diagramma mos?",
    "a": [
     "Sektorli diagramma",
-    "Chiziqli grafik",
-    "Kartogramma",
+    "Chiziqli grafik (dinamika)",
+    "Kartogramma (hudud bo'yicha)",
     "Nuqtali diagramma"
    ],
    "e": "Ulushlar."
@@ -911,9 +911,9 @@
    "q": "Yuqishning fekal-oral mexanizmiga misol qaysi?",
    "a": [
     "Ichak infeksiyalari",
-    "Gripp",
-    "Bezgak",
-    "Sifilis"
+    "Gripp va O'RVI",
+    "Bezgak va leyshmanioz",
+    "Sifilis va gonoreya"
    ],
    "e": "Suv, oziq-ovqat, iflos qo'llar."
   },
@@ -1034,7 +1034,7 @@
     "Kemiruvchilarni yo'qotish",
     "Hasharotlarni yo'qotish",
     "Suvni zararsizlantirish",
-    "Havoni tozalash"
+    "Havoni tozalash va shamollatish"
    ],
    "e": "Kalamush, sichqon."
   },
@@ -1186,7 +1186,7 @@
    "q": "Sporadik kasallanish nima?",
    "a": [
     "Yakka-yakka holatlar",
-    "Ommaviy kasallanish",
+    "Ommaviy kasallanish (epidemiya)",
     "Pandemiya",
     "Endemiya"
    ],
@@ -1637,9 +1637,9 @@
    "q": "Aholining mexanik harakati nima?",
    "a": [
     "Migratsiya",
-    "Tug'ilish",
-    "O'lim",
-    "Nikoh"
+    "Tug'ilish va o'lim nisbati",
+    "O'lim ko'rsatkichi",
+    "Nikoh va ajralishlar"
    ],
    "e": "Ko'chib kelish va ketish."
   },
@@ -1725,7 +1725,7 @@
    "q": "Fertillik ko'rsatkichi kimlarga nisbatan hisoblanadi?",
    "a": [
     "15–49 yoshli ayollarga",
-    "Barcha aholiga",
+    "Barcha aholiga, yoshidan qat'i nazar",
     "Faqat erkaklarga",
     "Faqat bolalarga"
    ],
@@ -1791,7 +1791,7 @@
    "q": "Vaqtincha mehnatga layoqatsizlik qanday hujjat bilan rasmiylashtiriladi?",
    "a": [
     "Layoqatsizlik varaqasi",
-    "Ishga qabul buyrug'i",
+    "Ishga qabul qilish buyrug'i",
     "Diplom",
     "Pasport"
    ],
@@ -1824,8 +1824,8 @@
    "q": "Surunkali yuqumli bo'lmagan kasalliklarga misol qaysi?",
    "a": [
     "Yurak kasalliklari, diabet",
-    "Gripp",
-    "Qizamiq",
+    "Gripp va O'RVI",
+    "Qizamiq va qizilcha",
     "Vabo"
    ],
    "e": "Asosiy o'lim sabablari."
@@ -1846,7 +1846,7 @@
    "q": "Xavf omillariga misol qaysi (yurak kasalliklari uchun)?",
    "a": [
     "Chekish va gipertoniya",
-    "Muntazam sport",
+    "Muntazam jismoniy mashqlar",
     "Sog'lom ovqatlanish",
     "Yetarli uyqu"
    ],
@@ -1879,7 +1879,7 @@
    "q": "Mehnatga layoqatsizlik bilan kasallanishning asosiy ko'rsatkichi qaysi?",
    "a": [
     "100 ishchiga holatlar",
-    "Ishchilar ish haqi",
+    "Ishchilarning o'rtacha ish haqi",
     "Ish joylari soni",
     "Korxona foydasi"
    ],
@@ -1901,7 +1901,7 @@
    "q": "Koyka aylanmasi nimani ko'rsatadi?",
    "a": [
     "Bir koykadagi bemorlar soni",
-    "Koyka narxini",
+    "Bitta koykaning narxini",
     "Koyka o'lchamini",
     "Koyka rangini"
    ],
@@ -1912,7 +1912,7 @@
    "q": "O'rtacha yillik koyka bandligi qanday hisoblanadi?",
    "a": [
     "O'rin-kunlar / koykalar",
-    "Bemorlar / shifokorlar",
+    "Bemorlar / shifokorlar soni",
     "Koykalar × 365",
     "Shifoxonalar soni"
    ],
@@ -1956,7 +1956,7 @@
    "q": "Onalik va bolalikni muhofaza qilish tizimi nimaga qaratilgan?",
    "a": [
     "Ona va bola salomatligiga",
-    "Faqat qariyalarga",
+    "Faqat qariyalar parvarishiga",
     "Faqat sportchilarga",
     "Faqat harbiylarga"
    ],
@@ -1972,6 +1972,754 @@
     "Profilaktik emlash"
    ],
    "e": "Tibbiy, ijtimoiy, kasbiy."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Gigiyena fani nimani o'rganadi?",
+   "a": [
+    "Muhitning salomatlikka ta'sirini",
+    "Faqat kasalliklarni jarrohlik yo'li bilan davolashni",
+    "Faqat dorilar ishlab chiqarish texnologiyasini",
+    "Faqat odam anatomiyasini"
+   ],
+   "e": "Profilaktik tibbiyot asosi."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Gigiyenaning asosiy maqsadi nima?",
+   "a": [
+    "Kasalliklarning oldini olish",
+    "Faqat bemorlarni operatsiya qilish",
+    "Faqat dori sotish",
+    "Faqat tashxis qo'yish"
+   ],
+   "e": "Salomatlikni mustahkamlash."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Gigiyenik me'yorlash nima?",
+   "a": [
+    "Xavfsiz chegaralarni belgilash",
+    "Dorilar dozasini belgilash",
+    "Shifokorlar maoshini belgilash",
+    "Bemorlar sonini belgilash"
+   ],
+   "e": "REK (YoChK) va boshqalar."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "REK (ruxsat etilgan eng yuqori konsentratsiya) nima?",
+   "a": [
+    "Zararsiz eng katta konsentratsiya",
+    "Eng kichik zararli konsentratsiya",
+    "O'rtacha konsentratsiya",
+    "Nol konsentratsiya"
+   ],
+   "e": "Havoda, suvda, tuproqda."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Gigiyenaning tadqiqot usullariga nima kiradi?",
+   "a": [
+    "Sanitariya va laboratoriya usullari",
+    "Faqat jarrohlik operatsiyalari va narkoz",
+    "Faqat fizioterapiya muolajalari",
+    "Faqat psixoterapiya seanslari"
+   ],
+   "e": "Instrumental o'lchovlar ham."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Ekologiya nimani o'rganadi?",
+   "a": [
+    "Organizm va muhit munosabatini",
+    "Faqat yulduzlar va sayyoralar harakatini",
+    "Faqat tog' jinslari tarkibini",
+    "Faqat kompyuter dasturlarini"
+   ],
+   "e": "E. Gekkel atamasi."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Biosfera nima?",
+   "a": [
+    "Tirik organizmlar qobig'i",
+    "Faqat Yerning havo qobig'i (atmosfera)",
+    "Faqat okean va dengizlar suvi",
+    "Faqat Yerning ichki yadrosi"
+   ],
+   "e": "V.I. Vernadskiy ta'limoti."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Abiotik omillarga nima kiradi?",
+   "a": [
+    "Harorat, yorug'lik, namlik",
+    "O'simliklar va hayvonlar o'rtasidagi raqobat",
+    "Bakteriyalar va viruslar ta'siri",
+    "Odamlarning xo'jalik faoliyati"
+   ],
+   "e": "Jonsiz tabiat omillari."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Biotik omillarga nima kiradi?",
+   "a": [
+    "Tiriklar ta'siri",
+    "Harorat va bosim",
+    "Radiatsiya",
+    "Tuproq kislotaliligi"
+   ],
+   "e": "Raqobat, parazitizm."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Antropogen omil nima?",
+   "a": [
+    "Inson faoliyati ta'siri",
+    "Faqat zilzila va suv toshqinlari",
+    "Faqat quyosh faolligi",
+    "Faqat yer silkinishi"
+   ],
+   "e": "Ifloslanish, urbanizatsiya."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Bolalar va o'smirlar gigiyenasi nimani o'rganadi?",
+   "a": [
+    "O'sayotgan organizmga muhit ta'sirini",
+    "Faqat kattalar mehnat sharoitini va ish haqini",
+    "Faqat qariyalar parvarishi va pensiya masalalarini",
+    "Faqat hayvonlar parvarishini"
+   ],
+   "e": "Ta'lim va tarbiya sharoitlari."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Jismoniy rivojlanishning asosiy ko'rsatkichlari qaysilar?",
+   "a": [
+    "Bo'y, vazn, ko'krak aylanasi",
+    "Faqat soch rangi va uzunligi",
+    "Faqat ko'z rangi",
+    "Faqat qon guruhi"
+   ],
+   "e": "Antropometriya."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Maktab partasi (stoli) bolaning nimasiga mos tanlanishi kerak?",
+   "a": [
+    "Bo'yiga",
+    "Ko'z rangiga",
+    "Kiyimiga",
+    "Sinf raqamiga faqat"
+   ],
+   "e": "Qomat buzilishining oldini olish."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Dars jadvalini tuzishda qaysi gigiyenik tamoyil hisobga olinadi?",
+   "a": [
+    "Ish qobiliyati dinamikasi",
+    "Faqat o'qituvchilarning shaxsiy istagi",
+    "Faqat sinf xonalari soni",
+    "Faqat ob-havo"
+   ],
+   "e": "Qiyin fanlar 2–3-darslarda."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Bolalarda miopiyaning (yaqindan ko'rish) oldini olish uchun nima muhim?",
+   "a": [
+    "Yoritish va tanaffus",
+    "Qorong'ida o'qish",
+    "Ekranga juda yaqin qarash",
+    "Uzoq vaqt telefon o'ynash"
+   ],
+   "e": "Masofa 30–35 sm."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Bolalarda qomat buzilishining sababi nima bo'lishi mumkin?",
+   "a": [
+    "Noto'g'ri o'tirish",
+    "Ko'p sport bilan shug'ullanish",
+    "To'g'ri ovqatlanish",
+    "Yetarli uyqu"
+   ],
+   "e": "Skolioz."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Maktab yoshidagi bolalar uchun tavsiya etilgan uyqu davomiyligi taxminan qancha?",
+   "a": [
+    "9–11 soat",
+    "3–4 soat",
+    "5–6 soat",
+    "14–16 soat"
+   ],
+   "e": "Yoshga qarab."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Sinf xonasining yoritilganligi qaysi nisbat bilan baholanadi (tabiiy)?",
+   "a": [
+    "Yorug'lik koeffitsiyenti",
+    "Shovqin darajasi detsibellarda",
+    "Namlik foizi",
+    "Havo tezligi"
+   ],
+   "e": "Deraza va pol maydoni nisbati."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Bolalar muassasalarida qanday chora yuqumli kasalliklarning oldini oladi?",
+   "a": [
+    "Ertalabki filtr va emlash",
+    "Hech qanday chora",
+    "Faqat ovqat miqdorini oshirish",
+    "Faqat o'yinchoqlarni ko'paytirish"
+   ],
+   "e": "Tibbiy nazorat."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Akseleratsiya nima?",
+   "a": [
+    "Rivojlanish tezlashuvi",
+    "Rivojlanishning sekinlashuvi",
+    "Qarish jarayoni",
+    "Kasallik turi"
+   ],
+   "e": "XX asr hodisasi."
+  },
+  {
+   "b": "Kasalxona gigiyenasi",
+   "q": "Kasalxona gigiyenasining asosiy vazifasi nima?",
+   "a": [
+    "Bemor va xodimlar uchun xavfsiz muhit",
+    "Faqat kasalxona binosini chiroyli bezash va bo'yash",
+    "Faqat xodimlar ish haqini oshirish va mukofotlash",
+    "Faqat dorixona savdosini rivojlantirish"
+   ],
+   "e": "KII profilaktikasi."
+  },
+  {
+   "b": "Kasalxona gigiyenasi",
+   "q": "Palatalarda bir bemorga to'g'ri keladigan maydon nima uchun me'yorlanadi?",
+   "a": [
+    "Infeksiya va noqulaylikning oldini olish uchun",
+    "Faqat mebel sonini kamaytirish va pul tejash uchun",
+    "Faqat ko'proq bemor joylashtirish uchun",
+    "Faqat xona rangini tanlash uchun"
+   ],
+   "e": "Sanitariya me'yorlari."
+  },
+  {
+   "b": "Kasalxona gigiyenasi",
+   "q": "Operatsiya xonasida havoni tozalash uchun nima qo'llaniladi?",
+   "a": [
+    "Filtrli ventilyatsiya va UB lampalar",
+    "Derazalarni doimiy ochiq qoldirish va changni haydash",
+    "Faqat atir sepish",
+    "Hech qanday tozalash"
+   ],
+   "e": "Asepsiya."
+  },
+  {
+   "b": "Kasalxona gigiyenasi",
+   "q": "Kasalxonada nam tozalash qanchalik tez-tez o'tkaziladi?",
+   "a": [
+    "Kuniga kamida 2 marta",
+    "Oyda bir marta",
+    "Yilda bir marta",
+    "Umuman o'tkazilmaydi"
+   ],
+   "e": "Dezinfektantlar bilan."
+  },
+  {
+   "b": "Kasalxona gigiyenasi",
+   "q": "Bosh tozalash (general uborka) operatsiya bloklarida qanchalik tez-tez o'tkaziladi?",
+   "a": [
+    "Haftada bir marta",
+    "Yilda bir marta",
+    "Har soatda",
+    "Hech qachon"
+   ],
+   "e": "Sanitariya qoidalariga ko'ra."
+  },
+  {
+   "b": "Kasalxona gigiyenasi",
+   "q": "Choyshab va kiyimlar kasalxonada qanday ishlov beriladi?",
+   "a": [
+    "Kirxonada dezinfeksiya bilan",
+    "Oddiy qo'lda, sovuq suvda yuviladi",
+    "Yuvilmasdan qayta ishlatiladi",
+    "Faqat quyoshda quritiladi"
+   ],
+   "e": "Kesishgan infeksiyaning oldini olish."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Kompyuter bilan ishlashda bolalar uchun uzluksiz vaqt cheklanishi nima uchun kerak?",
+   "a": [
+    "Charchashning oldini olish",
+    "Kompyuterni tejash",
+    "Elektr tejash faqat",
+    "Hech qanday sabab yo'q"
+   ],
+   "e": "Yoshga qarab 10–30 daqiqa."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Maktab sumkasi og'irligi nimaga ta'sir qiladi?",
+   "a": [
+    "Qomat va umurtqa holatiga",
+    "Ko'z rangiga",
+    "Soch o'sishiga",
+    "Bo'y uzunligiga bevosita"
+   ],
+   "e": "Me'yordan oshmasligi kerak."
+  },
+  {
+   "b": "Bolalar va o'smirlar gigiyenasi",
+   "q": "Jismoniy tarbiya darslarining gigiyenik ahamiyati nima?",
+   "a": [
+    "Salomatlikni mustahkamlash",
+    "Faqat baho olish",
+    "Faqat vaqt o'tkazish",
+    "Faqat musobaqaga tayyorlanish"
+   ],
+   "e": "Gipodinamiya profilaktikasi."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Gigiyena fanining asoschilaridan biri qaysi olim?",
+   "a": [
+    "Maks Pettenkofer",
+    "Lui Paster",
+    "Robert Kox",
+    "Ivan Pavlov"
+   ],
+   "e": "Eksperimental gigiyena."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Sanitariya nima?",
+   "a": [
+    "Gigiyena talablarini amalga oshirish choralari",
+    "Faqat kasalliklarni davolash usullari",
+    "Faqat dorilar ishlab chiqarish",
+    "Faqat sport mashg'ulotlari"
+   ],
+   "e": "Amaliy yo'nalish."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Davlat sanitariya nazoratini qaysi xizmat amalga oshiradi?",
+   "a": [
+    "Sanitariya-epidemiologik osoyishtalik xizmati",
+    "Soliq xizmati",
+    "Bojxona xizmati",
+    "Sport qo'mitasi"
+   ],
+   "e": "SES."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Gigiyenik tashxis nima?",
+   "a": [
+    "Aholi salomatligi va muhit holatini baholash",
+    "Bemorga jarrohlik tashxisi",
+    "Faqat qon tahlili",
+    "Faqat rentgen"
+   ],
+   "e": "Profilaktik yo'nalish."
+  },
+  {
+   "b": "Gigiyena asoslari",
+   "q": "Atrof-muhitning salomatlikka ta'siri qaysi ko'rsatkichlar orqali baholanadi?",
+   "a": [
+    "Kasallanish va o'lim ko'rsatkichlari",
+    "Faqat aholi daromadi",
+    "Faqat avtomobillar soni",
+    "Faqat binolar soni"
+   ],
+   "e": "Epidemiologik tahlil."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Sog'liqni saqlash tizimining asosiy modellari qaysilar?",
+   "a": [
+    "Davlat, sug'urta va xususiy",
+    "Faqat harbiy va fuqarolik tibbiyoti modellari",
+    "Faqat shahar va qishloq shifoxonalari modellari",
+    "Faqat ilmiy va amaliy tibbiyot modellari"
+   ],
+   "e": "Semashko, Bismark, Beveridj modellari."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Semashko modeli nimaga asoslanadi?",
+   "a": [
+    "Davlat byudjeti hisobidan moliyalashtirishga",
+    "Faqat xususiy sug'urta kompaniyalariga",
+    "Faqat bemorlarning to'g'ridan-to'g'ri to'loviga",
+    "Faqat xayriya fondlariga"
+   ],
+   "e": "Sobiq SSSR tizimi."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Bismark modeli nimaga asoslanadi?",
+   "a": [
+    "Majburiy sug'urtaga",
+    "Faqat davlat byudjetiga",
+    "Faqat xayriyaga",
+    "Faqat pullik xizmatlarga"
+   ],
+   "e": "Germaniya."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Sog'liqni saqlash muassasalarini litsenziyalash nima uchun kerak?",
+   "a": [
+    "Talablarga moslikni tasdiqlash",
+    "Faqat bino rangini tanlash uchun",
+    "Faqat reklama qilish uchun",
+    "Faqat ish haqini oshirish uchun"
+   ],
+   "e": "Davlat nazorati."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Tibbiy muassasaning akkreditatsiyasi nimani tasdiqlaydi?",
+   "a": [
+    "Sifat standartlariga moslikni",
+    "Faqat bino maydonini",
+    "Faqat avtoturargoh hajmini",
+    "Faqat xodimlar yoshini"
+   ],
+   "e": "Sifat nazorati."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Telemeditsina sog'liqni saqlash tizimida qanday muammoni hal qiladi?",
+   "a": [
+    "Chekka hududlarda yordam",
+    "Shifokorlar sonini kamaytirishni",
+    "Dorilarni qimmatlashtirishni",
+    "Kasalxonalarni yopishni"
+   ],
+   "e": "Masofaviy konsultatsiya."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Sog'liqni saqlashda inson resurslarini rejalashtirish nima uchun muhim?",
+   "a": [
+    "Kadrlar ta'minoti uchun",
+    "Faqat ish haqini kamaytirish uchun",
+    "Faqat binolarni ta'mirlash uchun",
+    "Faqat dorilar sotish uchun"
+   ],
+   "e": "Shifokor va hamshiralar."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Hamshiraning sog'liqni saqlash tizimidagi asosiy roli nima?",
+   "a": [
+    "Parvarish va profilaktika",
+    "Faqat bino tozalash",
+    "Faqat hisob-kitob ishlari",
+    "Faqat jarrohlik operatsiyalari"
+   ],
+   "e": "Birlamchi bo'g'in."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Oilaviy shifokor (umumiy amaliyot shifokori) nima bilan shug'ullanadi?",
+   "a": [
+    "Birlamchi yordam",
+    "Faqat yurak operatsiyalari",
+    "Faqat ilmiy tadqiqotlar",
+    "Faqat sud-tibbiy ekspertiza"
+   ],
+   "e": "Profilaktika va davolash."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Qishloq vrachlik punktining (QVP) vazifasi nima?",
+   "a": [
+    "Qishloq aholisiga birlamchi yordam",
+    "Faqat shahar aholisiga ixtisoslashgan yordam",
+    "Faqat sanatoriya",
+    "Faqat dorixona"
+   ],
+   "e": "BTSY muassasasi."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Sog'liqni saqlashda \"patronaj hamshirasi\" qanday ishlaydi?",
+   "a": [
+    "Uyda kuzatish",
+    "Faqat operatsiya xonasida",
+    "Faqat laboratoriyada",
+    "Faqat ma'muriyatda"
+   ],
+   "e": "Chaqaloqlar, homiladorlar."
+  },
+  {
+   "b": "Sog'liqni saqlash tizimi",
+   "q": "Davolash-profilaktika muassasasi hisobot shakllari nima uchun to'ldiriladi?",
+   "a": [
+    "Statistik nazorat uchun",
+    "Faqat arxivga yig'ish uchun",
+    "Faqat bemorlarga sovg'a qilish uchun",
+    "Faqat reklama uchun"
+   ],
+   "e": "Davlat statistik hisoboti."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Arifmetik o'rtacha bilan birga qaysi ko'rsatkich keltiriladi?",
+   "a": [
+    "O'rtacha xatolik",
+    "Faqat bemor ismi",
+    "Faqat sana",
+    "Faqat shifokor familiyasi"
+   ],
+   "e": "M ± m."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Ishonchlilik koeffitsiyenti (Styudent t) qachon ishlatiladi?",
+   "a": [
+    "Farq ahamiyatini baholashda",
+    "Faqat bemor yoshini hisoblashda",
+    "Faqat diagramma chizishda",
+    "Faqat jadval tuzishda"
+   ],
+   "e": "t ≥ 2 — ahamiyatli (katta tanlanmada)."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Korrelyatsiya koeffitsiyenti 0,8 bo'lsa bog'lanish qanday?",
+   "a": [
+    "Kuchli to'g'ri",
+    "Kuchsiz teskari",
+    "Bog'lanish yo'q",
+    "Kuchli teskari"
+   ],
+   "e": "|r| > 0,7."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Standartlashtirish usuli tibbiy statistikada nima uchun qo'llaniladi?",
+   "a": [
+    "Har xil guruhlarni taqqoslash",
+    "Faqat jadvalni bezash uchun",
+    "Faqat raqamlarni yaxlitlash uchun",
+    "Faqat foizni hisoblash uchun"
+   ],
+   "e": "Yosh tarkibi farqlari."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Dinamik qator nima?",
+   "a": [
+    "Vaqt bo'yicha qator",
+    "Bitta vaqtdagi ko'rsatkich",
+    "Faqat mutlaq son",
+    "Faqat foiz"
+   ],
+   "e": "O'sish sur'ati."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "O'sish sur'ati qanday hisoblanadi?",
+   "a": [
+    "Keyingi / oldingi × 100%",
+    "Oldingi + keyingi daraja",
+    "Keyingi − oldingi daraja faqat",
+    "Ikki darajaning ko'paytmasi"
+   ],
+   "e": "Foizlarda."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Kasallanish 2023-yilda 50, 2024-yilda 60 (1000 aholiga). O'sish sur'ati qancha?",
+   "a": [
+    "120%",
+    "10%",
+    "83%",
+    "110%"
+   ],
+   "e": "60/50 × 100."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Yuqoridagi misolda qo'shimcha o'sish sur'ati qancha?",
+   "a": [
+    "20%",
+    "120%",
+    "10%",
+    "60%"
+   ],
+   "e": "120% − 100%."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Kogortali tadqiqot nima?",
+   "a": [
+    "Guruhni kuzatish",
+    "Bir martalik so'rov",
+    "Faqat laboratoriya tajribasi",
+    "Faqat adabiyot tahlili"
+   ],
+   "e": "Prospektiv tadqiqot."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "\"Holat-nazorat\" (case-control) tadqiqotida nima solishtiriladi?",
+   "a": [
+    "Oldingi ta'sirlar",
+    "Faqat dorilar narxi",
+    "Faqat shifokorlar soni",
+    "Faqat bino maydoni"
+   ],
+   "e": "Retrospektiv tadqiqot."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Randomizatsiyalangan nazorat qilinadigan tadqiqot (RNT) nima?",
+   "a": [
+    "Tasodifiy taqsimlangan tajriba",
+    "Faqat bitta bemor tarixi",
+    "Faqat so'rovnoma",
+    "Faqat ekspert fikri"
+   ],
+   "e": "Dalillarning eng yuqori darajalaridan."
+  },
+  {
+   "b": "Tibbiy statistika",
+   "q": "Nisbiy xavf (RR) nimani ko'rsatadi?",
+   "a": [
+    "Xavf necha marta yuqoriligini",
+    "Bemorlar sonini",
+    "Shifokorlar sonini",
+    "Dorilar narxini"
+   ],
+   "e": "Kogortali tadqiqotda."
+  },
+  {
+   "b": "Demografiya",
+   "q": "Tug'ilish darajasi past bo'lsa va o'lim yuqori bo'lsa nima yuz beradi?",
+   "a": [
+    "Aholi tabiiy kamayadi",
+    "Aholi tez ko'payadi",
+    "Aholi o'zgarmaydi",
+    "Faqat migratsiya ortadi"
+   ],
+   "e": "Depopulyatsiya."
+  },
+  {
+   "b": "Demografiya",
+   "q": "Aholining yosh tarkibi qanday grafikda ko'rsatiladi?",
+   "a": [
+    "Yosh-jins piramidasi",
+    "Doiraviy diagramma faqat",
+    "Kartogramma",
+    "Chiziqli grafik"
+   ],
+   "e": "Progressiv, statsionar, regressiv turlar."
+  },
+  {
+   "b": "Demografiya",
+   "q": "Progressiv turdagi aholi piramidasi nimani bildiradi?",
+   "a": [
+    "Bolalar ulushi yuqori",
+    "Keksalar ulushi yuqori",
+    "Barcha yoshlar teng",
+    "Aholi yo'q"
+   ],
+   "e": "Yosh aholi."
+  },
+  {
+   "b": "Demografiya",
+   "q": "Migratsiya sog'liqni saqlashga qanday ta'sir qiladi?",
+   "a": [
+    "Ehtiyojni o'zgartiradi",
+    "Hech qanday ta'sir qilmaydi",
+    "Faqat bino rangini o'zgartiradi",
+    "Faqat ob-havoni o'zgartiradi"
+   ],
+   "e": "Yuqumli kasalliklar importi."
+  },
+  {
+   "b": "Demografiya",
+   "q": "Nikoh va ajralish ko'rsatkichlari qaysi statistikaga kiradi?",
+   "a": [
+    "Demografik statistika",
+    "Sanitariya-tibbiy faoliyat statistikasi",
+    "Moliyaviy statistika",
+    "Sport statistikasi"
+   ],
+   "e": "Fuqarolik holati."
+  },
+  {
+   "b": "Kasallanish va nogironlik",
+   "q": "Kasbiy kasallanish qaysi ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Ishchilar soniga nisbatan",
+    "Faqat korxona foydasi",
+    "Faqat ish haqi",
+    "Faqat ishchilar yoshi"
+   ],
+   "e": "10 000 ishchiga."
+  },
+  {
+   "b": "Kasallanish va nogironlik",
+   "q": "Shikastlanishlar (travmatizm) qanday turlarga bo'linadi?",
+   "a": [
+    "Ishlab chiqarish, maishiy va boshqalar",
+    "Faqat sport",
+    "Faqat maishiy",
+    "Faqat bolalik"
+   ],
+   "e": "Profilaktika choralari."
+  },
+  {
+   "b": "Kasallanish va nogironlik",
+   "q": "Onkologik kasallanishni erta aniqlash nima beradi?",
+   "a": [
+    "Samaradorlik ortadi",
+    "Davolashni qiyinlashtiradi",
+    "O'limni oshiradi",
+    "Hech qanday foyda yo'q"
+   ],
+   "e": "Skrining dasturlari."
+  },
+  {
+   "b": "Kasallanish va nogironlik",
+   "q": "Nogironlik guruhlari soni nechta (O'zbekiston)?",
+   "a": [
+    "3",
+    "1",
+    "5",
+    "10"
+   ],
+   "e": "I, II, III guruh."
+  },
+  {
+   "b": "Kasallanish va nogironlik",
+   "q": "Ijtimoiy ahamiyatga ega kasalliklarga misol qaysi?",
+   "a": [
+    "Sil, OIV, diabet",
+    "Oddiy shamollash",
+    "Yengil tirnalish",
+    "Uyqusizlik bir kecha"
+   ],
+   "e": "Davlat dasturlari."
   }
  ]
 }
