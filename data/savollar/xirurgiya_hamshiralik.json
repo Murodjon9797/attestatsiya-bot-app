@@ -1,0 +1,3331 @@
+{
+ "kod": "",
+ "nomi": "Xirurgiya va reanimatsiyada hamshiralik ishi",
+ "turi": "maxsus",
+ "manba": "Xirurgiya va reanimatsiyada hamshiralik ishi darsliklari (tibbiyot kollejlari uchun), SanQvaN, O'zbekiston SSV aseptika-antiseptika bo'yicha buyruqlari",
+ "savollar": [
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Aseptika nima?",
+   "a": [
+    "Mikroblar yaraga tushishining oldini olish",
+    "Yaradagi mikroblarni yo'qotish choralari",
+    "Bemorni operatsiyaga tayyorlashda ovqatlantirish tartibi",
+    "Og'riqsizlantirish usuli"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Antiseptika nima?",
+   "a": [
+    "Yara va organizmdagi mikroblarni yo'qotish",
+    "Mikroblar tushishini oldini olish",
+    "Faqat asboblarni oqar suvda sovunlab yuvish",
+    "Faqat xonani shamollatish"
+   ],
+   "e": "Davolash choralari."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Antiseptikaning turlari qaysilar?",
+   "a": [
+    "Mexanik, fizik, kimyoviy, biologik",
+    "Faqat dori vositalari bilan kimyoviy ishlov",
+    "Faqat mexanik",
+    "Issiq va sovuq"
+   ],
+   "e": "Aralash antiseptika ham."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Yarani birlamchi jarrohlik ishlovi qaysi antiseptika turiga kiradi?",
+   "a": [
+    "Mexanik",
+    "Kimyoviy",
+    "Biologik",
+    "Fizik"
+   ],
+   "e": "O'lik to'qimalar kesib olinadi."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Yarani drenajlash qaysi antiseptika turiga kiradi?",
+   "a": [
+    "Fizik",
+    "Kimyoviy",
+    "Biologik",
+    "Mexanik faqat"
+   ],
+   "e": "Suyuqlik chiqishi."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Antibiotiklar va vaksinalar qaysi antiseptika turiga kiradi?",
+   "a": [
+    "Biologik",
+    "Mexanik",
+    "Fizik",
+    "Faqat kimyoviy"
+   ],
+   "e": "Biologik preparatlar."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Avtoklavda sterilizatsiyaning asosiy rejimi qaysi?",
+   "a": [
+    "132 °C, 2 atm, 20 daqiqa",
+    "60 °C, 1 atm, 5 daqiqa",
+    "100 °C, bosimsiz, 1 daqiqa",
+    "200 °C, 5 atm, 3 soat"
+   ],
+   "e": "Bug' bilan sterilizatsiya."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Avtoklavda yumshoq rejim qanday?",
+   "a": [
+    "120 °C, 1,1 atm, 45 daqiqa",
+    "132 °C, 2 atm, 20 daqiqa",
+    "180 °C, quruq issiqlik bilan 60 daqiqa",
+    "80 °C, 10 daqiqa"
+   ],
+   "e": "Rezina va polimer buyumlar."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Quruq issiqlik shkafida (sterilizatorda) asosiy rejim qanday?",
+   "a": [
+    "180 °C, 60 daqiqa",
+    "120 °C, 5 daqiqa",
+    "100 °C, 10 daqiqa",
+    "250 °C, 1 daqiqa"
+   ],
+   "e": "Metall asboblar."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Sterilizatsiyadan oldingi tozalashning sifati qaysi sinama bilan tekshiriladi?",
+   "a": [
+    "Azopiram sinamasi (qon qoldig'i)",
+    "Mantu sinamasi",
+    "Zimnitskiy sinamasi (siydik zichligi)",
+    "Nechiporenko sinamasi"
+   ],
+   "e": "Fenolftalein — yuvuvchi vosita qoldig'i."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Bikslarda sterillangan material ochilmasa qancha vaqt steril saqlanadi?",
+   "a": [
+    "3 sutka (filtrsiz biks)",
+    "1 soat",
+    "1 yil (germetik o'ram bo'lmasa ham)",
+    "Cheksiz"
+   ],
+   "e": "Ochilgandan keyin — 6 soat."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Ochilgan biksdagi material qancha vaqt ichida ishlatilishi kerak?",
+   "a": [
+    "6 soat",
+    "3 sutka",
+    "1 hafta",
+    "1 oy"
+   ],
+   "e": "Steril stol ham 6 soat."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Sterillik nazoratining eng ishonchli usuli qaysi?",
+   "a": [
+    "Bakteriologik (biologik indikatorlar)",
+    "Ko'z bilan qarab rangini aniqlash usuli",
+    "Hidlab ko'rish",
+    "Qo'l bilan paypaslash"
+   ],
+   "e": "Kimyoviy indikatorlar ham qo'llanadi."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Jarrohning qo'llariga operatsiyadan oldin ishlov berishda asosiy qoida qaysi?",
+   "a": [
+    "Barmoq uchidan tirsakka qarab ishlov beriladi",
+    "Tirsakdan barmoq uchiga qarab ishlov beriladi",
+    "Faqat kaft yuziga",
+    "Tartibsiz"
+   ],
+   "e": "Qo'llar yuqoriga tutiladi."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Steril qo'lqop kiyilgandan keyin qo'llar qanday tutiladi?",
+   "a": [
+    "Bel darajasidan yuqorida, oldinda",
+    "Cho'ntakka solinadi",
+    "Qo'ltiq ostiga qisiladi",
+    "Pastga tushiriladi, bel darajasidan past tutiladi"
+   ],
+   "e": "Sterillikni saqlash."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Operatsion blokning eng toza (steril) zonasi qaysi?",
+   "a": [
+    "Operatsiya zali va sterilizatsiya xonasi",
+    "Yo'lak, dahliz va bemorlar kutish xonasi",
+    "Kiyinish xonasi",
+    "Hojatxona"
+   ],
+   "e": "Zonallik prinsipi."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Operatsiya zalida generalni tozalash qancha muddatda o'tkaziladi?",
+   "a": [
+    "Haftada bir marta",
+    "Yilda bir marta",
+    "Oyda bir marta, faqat ta'mirdan keyin",
+    "Hech qachon"
+   ],
+   "e": "Kundalik joriy tozalash ham."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Operatsiya maydoniga ishlov berishda qanday tamoyil qo'llanadi?",
+   "a": [
+    "Markazdan chetga, keng qilib",
+    "Chetdan markazga qarab, tor maydonda",
+    "Faqat bir marta, tor",
+    "Ishlov berilmaydi"
+   ],
+   "e": "Filonchikov-Grossix qoidasi."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Jarrohlik choklari uchun so'riluvchi material qaysi?",
+   "a": [
+    "Ketgut",
+    "Ipak",
+    "Neylon",
+    "Metall sim"
+   ],
+   "e": "Organizmda so'riladi."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Endogen infeksiya manbai qaysi?",
+   "a": [
+    "Bemordagi surunkali yallig'lanish o'choqlari",
+    "Jarrohning qo'llari va operatsiya xonasi havosi",
+    "Asboblar",
+    "Havo"
+   ],
+   "e": "Masalan, kariyes tishlar."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Ekzogen infeksiyaning yo'llariga qaysilar kiradi?",
+   "a": [
+    "Havo, tomchi, kontakt, implantatsion",
+    "Faqat irsiy yo'l bilan ota-onadan o'tish",
+    "Faqat ichki",
+    "Faqat endogen"
+   ],
+   "e": "Tashqi manbalar."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Implantatsion infeksiya qanday yuqadi?",
+   "a": [
+    "Organizmda qoladigan chok va protezlar orqali",
+    "Havo-tomchi orqali, yo'talganda va aksirganda",
+    "Qo'l orqali",
+    "Ovqat orqali"
+   ],
+   "e": "Sterillik talab qilinadi."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Jarrohlik kiyimi (xalat, niqob) nima uchun kiyiladi?",
+   "a": [
+    "Ekzogen infeksiyaning oldini olish uchun",
+    "Chiroyli ko'rinish uchun",
+    "Isinish va kiyimni ifloslanishdan saqlash uchun",
+    "Bemorni qo'rqitish uchun"
+   ],
+   "e": "Havo-tomchi yo'li."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Niqob qancha vaqtda almashtiriladi?",
+   "a": [
+    "Har 2–4 soatda va namlanganda",
+    "Haftada bir marta yoki ifloslanganda",
+    "Oyda bir marta",
+    "Almashtirilmaydi"
+   ],
+   "e": "Samaradorlik pasayadi."
+  },
+  {
+   "b": "Aseptika va antiseptika",
+   "q": "Kvarslash (UB nurlantirish) nima uchun qo'llanadi?",
+   "a": [
+    "Havo va yuzalarni zararsizlantirish",
+    "Xonani isitish uchun",
+    "Asboblarni sterillash uchun",
+    "Bemorni davolash uchun"
+   ],
+   "e": "Fizik dezinfeksiya."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Arterial qon ketishning belgisi qaysi?",
+   "a": [
+    "Och qizil qon fontan (otilib) chiqadi",
+    "To'q qizil qon sekin oqib chiqadi",
+    "Qon butun yuzadan tomchilab sizadi",
+    "Qon faqat ichki bo'shliqqa yig'iladi"
+   ],
+   "e": "Puls ritmida otiladi."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Venoz qon ketishning belgisi qaysi?",
+   "a": [
+    "To'q qizil qon bir tekis oqadi",
+    "Och qizil qon otilib chiqadi",
+    "Qon butun yuzadan sizib chiqadi",
+    "Qon ko'pikli va pushti rangda"
+   ],
+   "e": "Bosim past."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Kapillyar qon ketish qanday kechadi?",
+   "a": [
+    "Butun yara yuzasidan sizib chiqadi",
+    "Och qizil qon fontan bo'lib otiladi",
+    "To'q qizil qon kuchli oqim bilan chiqadi",
+    "Faqat ichki a'zolardan bo'ladi"
+   ],
+   "e": "Bosuvchi bog'lam yetarli."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Parenximatoz qon ketish qaysi a'zolardan bo'ladi?",
+   "a": [
+    "Jigar, taloq, buyrak, o'pka",
+    "Teri va teri osti kletchatkasi",
+    "Qo'l va oyoq mushaklari",
+    "Faqat yirik arteriyalar"
+   ],
+   "e": "To'xtatish qiyin."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Son arteriyasidan qon ketganda vaqtincha to'xtatishning eng samarali usuli qaysi?",
+   "a": [
+    "Jgut qo'yish",
+    "Sovuq qo'yish",
+    "Oyoqni pastga tushirish",
+    "Yaraga yod surtish"
+   ],
+   "e": "Chov burmasi sohasida barmoq bilan bosish ham."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Jgut yozda qancha vaqtgacha qo'yiladi?",
+   "a": [
+    "1 soatgacha",
+    "2 soatgacha",
+    "6 soatgacha",
+    "24 soatgacha"
+   ],
+   "e": "Qishda 30 daqiqa (ayrim manbalarda 1–1,5 va 0,5–1 soat)."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Jgut qo'yilganda unga nima biriktiriladi?",
+   "a": [
+    "Qo'yilgan vaqti yozilgan qog'oz",
+    "Bemorning ism-familiyasi xolos",
+    "Qon guruhini ko'rsatuvchi yorliq",
+    "Hech narsa biriktirilmaydi"
+   ],
+   "e": "Ko'rinadigan joyga."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Jgut to'g'ri qo'yilganini qanday bilish mumkin?",
+   "a": [
+    "Qon ketish to'xtaydi, periferik puls yo'qoladi",
+    "Oyoq qizarib, puls kuchayadi",
+    "Qon ketish kuchayadi, teri ko'karib shishadi",
+    "Bemor og'riqni umuman sezmaydi"
+   ],
+   "e": "Venoz turg'unlik — noto'g'ri jgut belgisi."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Jgut qayerga qo'yiladi?",
+   "a": [
+    "Yaradan yuqoriroqqa, kiyim yoki mato ustidan",
+    "Yaraning bevosita ustiga, ochiq teriga",
+    "Yaradan pastroqqa, ochiq teriga",
+    "Bo'g'im ustiga, yalang'och teriga"
+   ],
+   "e": "Arterial qon ketishda."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Venoz qon ketishda birinchi yordam qaysi?",
+   "a": [
+    "Bosuvchi bog'lam qo'yish",
+    "Yaradan yuqoriga jgut qo'yish",
+    "Yaraga issiq grelka qo'yish",
+    "Yarani ochiq qoldirish"
+   ],
+   "e": "Oyoq-qo'l ko'tariladi."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Qon ketishni oxirgi (definitiv) to'xtatish usuli qaysi?",
+   "a": [
+    "Tomirni bog'lash yoki tikish",
+    "Jgut qo'yish",
+    "Barmoq bilan bosish",
+    "Bo'g'imni maksimal bukish"
+   ],
+   "e": "Jarrohlik usuli."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Burundan qon ketganda bemorga qanday holat beriladi?",
+   "a": [
+    "Boshi biroz oldinga egilgan holda o'tqaziladi",
+    "Boshi orqaga tashlangan holda yotqiziladi",
+    "Chalqancha, oyoqlari ko'tarilgan holatda",
+    "Qorni bilan, boshi pastga osilgan holatda"
+   ],
+   "e": "Burun qanotlari bosiladi, sovuq qo'yiladi."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "O'pkadan qon ketishning belgisi qaysi?",
+   "a": [
+    "Yo'talganda ko'pikli och qizil qon",
+    "Qusuq \"kofe quyqasi\" rangida",
+    "Najas qora rangli (melena)",
+    "Siydik qizg'ish rangda"
+   ],
+   "e": "Gemoptoe."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Oshqozondan qon ketishning belgisi qaysi?",
+   "a": [
+    "\"Kofe quyqasi\" rangidagi qusish",
+    "Ko'pikli och qizil qonli yo'tal",
+    "Siydikda qon bo'lishi",
+    "Burundan qon oqishi"
+   ],
+   "e": "Melena ham bo'ladi."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Melena nima?",
+   "a": [
+    "Qora rangli, smolasimon najas",
+    "Qusuqda qon bo'lishi",
+    "Siydikda qon bo'lishi",
+    "Balg'amda qon bo'lishi"
+   ],
+   "e": "Yuqori GIT qon ketishi."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Oshqozondan qon ketganda qorin ustiga nima qo'yiladi?",
+   "a": [
+    "Muzli xalta",
+    "Issiq grelka",
+    "Isituvchi kompress",
+    "Xantal qog'ozi"
+   ],
+   "e": "Ovqat va suv berilmaydi."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Gemartroz nima?",
+   "a": [
+    "Bo'g'im bo'shlig'iga qon to'planishi",
+    "Plevra bo'shlig'iga qon to'planishi",
+    "Qorin bo'shlig'iga qon to'planishi",
+    "Perikardga qon to'planishi"
+   ],
+   "e": "Gemotoraks — plevrada."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Gemotoraks nima?",
+   "a": [
+    "Plevra bo'shlig'ida qon to'planishi",
+    "Qorin bo'shlig'ida qon to'planishi",
+    "Bo'g'im bo'shlig'ida qon to'planishi",
+    "Bosh suyagi ichida qon to'planishi"
+   ],
+   "e": "Gemoperitoneum — qorinda."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Katta qon yo'qotishda bemor qanday holatga yotqiziladi?",
+   "a": [
+    "Oyoqlari ko'tarilgan, boshi pastroq holatda",
+    "O'tirgan holda, boshi oldinga egilgan",
+    "Yarim o'tirgan, oyoqlari pastga tushirilgan",
+    "Qorni bilan, boshi baland qilingan"
+   ],
+   "e": "Autotransfuziya holati."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Shok indeksi (Algover indeksi) qanday hisoblanadi?",
+   "a": [
+    "Puls chastotasi sistolik bosimga bo'linadi",
+    "Sistolik bosim pulsga bo'linadi",
+    "Diastolik bosim sistolikka bo'linadi",
+    "Nafas soni pulsga bo'linadi"
+   ],
+   "e": "Me'yorda 0,5; 1 — xavfli, 1,5 — og'ir."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Shok indeksi 1,5 ga teng bo'lsa qon yo'qotish qancha?",
+   "a": [
+    "Taxminan 30–50% (og'ir)",
+    "Taxminan 5% (yengil)",
+    "Qon yo'qotish yo'q",
+    "Taxminan 1% dan kam"
+   ],
+   "e": "Og'ir qon yo'qotish."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Bilak arteriyasidan qon ketganda qo'lni qanday holatda bukish samarali?",
+   "a": [
+    "Tirsak bo'g'imida maksimal bukish",
+    "Qo'lni pastga osiltirib qo'yish",
+    "Qo'lni to'liq yozib turish",
+    "Barmoqlarni mushtga qisish"
+   ],
+   "e": "Bo'g'imni maksimal bukish usuli."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Uyqu arteriyasini barmoq bilan bosish qayerga qilinadi?",
+   "a": [
+    "VI bo'yin umurtqasi ko'ndalang o'simtasiga",
+    "O'mrov suyagi ostidagi I qovurg'aga",
+    "Elka suyagining ichki yuzasiga",
+    "Son suyagiga chov burmasida"
+   ],
+   "e": "Uyqu do'mbog'i."
+  },
+  {
+   "b": "Qon ketish va qon to'xtatish",
+   "q": "Gemofiliya kasalligida qon ketishning sababi nima?",
+   "a": [
+    "Qon ivish omillari (VIII yoki IX) yetishmasligi",
+    "Trombotsitlar haddan tashqari ko'payishi",
+    "Eritrotsitlar sonining ko'payishi",
+    "Leykotsitlar sonining kamayishi"
+   ],
+   "e": "Irsiy kasallik, asosan erkaklarda."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "AB0 tizimida I (0) qon guruhida qanday antigen va antitelalar bor?",
+   "a": [
+    "Antigen yo'q, α va β antitelalar bor",
+    "A antigen va β antitela bor",
+    "B antigen va α antitela bor",
+    "A va B antigenlar bor, antitela yo'q"
+   ],
+   "e": "Universal donor deb atalgan."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "IV (AB) qon guruhida qanday antigen va antitelalar bor?",
+   "a": [
+    "A va B antigenlar bor, antitela yo'q",
+    "Antigen yo'q, α va β antitelalar bor",
+    "A antigen va β antitela bor",
+    "B antigen va α antitela bor"
+   ],
+   "e": "Universal retsipiyent deb atalgan."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "II (A) qon guruhining tarkibi qanday?",
+   "a": [
+    "A antigen va β antitela",
+    "B antigen va α antitela",
+    "A va B antigen, antitela yo'q",
+    "Antigen yo'q, α va β antitela"
+   ],
+   "e": "Agglyutinogen A."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Qon guruhi standart zardoblar bilan aniqlanganda agglyutinatsiya I va II guruh zardoblarida bo'lib, III da bo'lmasa, qon guruhi qaysi?",
+   "a": [
+    "III (B)",
+    "II (A)",
+    "I (0)",
+    "IV (AB)"
+   ],
+   "e": "B antigen I va II zardobdagi β bilan reaksiyaga kirishadi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Standart zardoblarning barchasida agglyutinatsiya bo'lsa (IV zardobdan tashqari), qon guruhi qaysi?",
+   "a": [
+    "IV (AB)",
+    "I (0)",
+    "II (A)",
+    "III (B)"
+   ],
+   "e": "IV guruh zardobi bilan nazorat qilinadi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Hech bir standart zardobda agglyutinatsiya bo'lmasa, qon guruhi qaysi?",
+   "a": [
+    "I (0)",
+    "IV (AB)",
+    "II (A)",
+    "III (B)"
+   ],
+   "e": "Antigen yo'q."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Qon guruhini aniqlashda natija qancha vaqtdan keyin baholanadi?",
+   "a": [
+    "5 daqiqadan keyin",
+    "30 soniyadan keyin",
+    "1 soatdan keyin",
+    "24 soatdan keyin"
+   ],
+   "e": "Fiziologik eritma qo'shilib."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Qon quyishdan oldin qaysi individual moslik sinamalari o'tkaziladi?",
+   "a": [
+    "AB0 va rezus bo'yicha moslik sinamalari",
+    "Faqat bemordan qon guruhini og'zaki so'rash",
+    "Faqat gemoglobinni aniqlash",
+    "Faqat qon bosimini o'lchash"
+   ],
+   "e": "Keyin biologik sinama."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Biologik sinama qanday o'tkaziladi?",
+   "a": [
+    "10–15 ml qon 3 marta, 3 daqiqa oraliqda quyiladi",
+    "500 ml qon bir martada tez oqim bilan quyiladi",
+    "1 ml qon teri ostiga yuboriladi",
+    "Qon og'iz orqali beriladi"
+   ],
+   "e": "Har biridan keyin bemor holati kuzatiladi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Biologik sinamada mos kelmaslik belgisi qaysi?",
+   "a": [
+    "Bel og'rig'i, ko'krak siqilishi, yuz qizarishi",
+    "Bemorning tinch va yaxshi holati",
+    "Puls va arterial bosimning o'zgarmay qolishi",
+    "Ishtahaning yaxshilanishi"
+   ],
+   "e": "Quyish darhol to'xtatiladi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Qon quyilgandan keyin bemor qancha vaqt kuzatiladi?",
+   "a": [
+    "24 soat (birinchi 3 soatda har soatda harorat)",
+    "10 daqiqa, keyin bemor uyga javob beriladi",
+    "1 hafta kasalxonada",
+    "Kuzatilmaydi"
+   ],
+   "e": "Siydik ham tekshiriladi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Qon quyilgandan keyin bemorning birinchi siydigida nima tekshiriladi?",
+   "a": [
+    "Gemoliz belgilari (siydik rangi, oqsil)",
+    "Qand miqdori va keton tanachalari borligi",
+    "Bakteriyalar soni",
+    "Siydik solishtirma og'irligi xolos"
+   ],
+   "e": "Gemotransfuzion asorat belgisi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Gemotransfuzion shokning asosiy sababi nima?",
+   "a": [
+    "Guruh yoki rezus bo'yicha mos kelmagan qon",
+    "Qonni juda sekin, tomchilab quyish",
+    "Qonni isitib quyish",
+    "Bemorning och qolishi"
+   ],
+   "e": "Gemoliz."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Konservalangan qon qanday haroratda saqlanadi?",
+   "a": [
+    "+4 dan +6 °C gacha",
+    "-20 °C da muzlatilgan holda",
+    "Xona haroratida",
+    "+37 °C da"
+   ],
+   "e": "Maxsus sovutgichda."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Qon yoki uning komponentini quyishdan oldin nima qilinadi?",
+   "a": [
+    "Xona haroratida 30–40 daqiqa ushlab turiladi",
+    "Qaynatilib sterillanadi",
+    "Muzlatkichdan olib darhol, sovuq holda quyiladi",
+    "Suv bilan suyultiriladi"
+   ],
+   "e": "Yoki maxsus qurilmada +37 °C gacha isitiladi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Konservalangan qonni quyishda natriy sitrat ta'sirida qaysi asorat bo'lishi mumkin?",
+   "a": [
+    "Sitrat intoksikatsiyasi (gipokalsiyemiya)",
+    "Giperkalsiyemiya va qon bosimining oshishi",
+    "Gipoglikemiya",
+    "Allergik dermatit xolos"
+   ],
+   "e": "Kalsiy glyukonat yuboriladi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Qon quyishda havo emboliyasining oldini olish uchun nima qilinadi?",
+   "a": [
+    "Tizimdan havo to'liq chiqariladi",
+    "Tizimga havo maxsus yuboriladi",
+    "Qon tez yuboriladi",
+    "Igna kattaroq olinadi"
+   ],
+   "e": "Emboliyaga olib kelishi mumkin."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Rezus-manfiy bemorga qanday qon quyiladi?",
+   "a": [
+    "Faqat rezus-manfiy qon",
+    "Istalgan rezusli qon",
+    "Faqat rezus-musbat qon",
+    "Rezusning ahamiyati yo'q"
+   ],
+   "e": "Sensibilizatsiya xavfi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Eritrotsitar massa asosan qanday holatda quyiladi?",
+   "a": [
+    "Anemiya va qon yo'qotishda",
+    "Gemofiliyada ivish omili sifatida",
+    "Gipoproteinemiyada oqsil sifatida",
+    "Infeksiyada immunitet uchun"
+   ],
+   "e": "Gemoglobinni oshiradi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Yangi muzlatilgan plazma asosan nima uchun quyiladi?",
+   "a": [
+    "Qon ivish omillarini to'ldirish uchun",
+    "Eritrotsitlarni ko'paytirish uchun",
+    "Gemoglobin miqdorini tez oshirish uchun",
+    "Leykotsitlarni ko'paytirish uchun"
+   ],
+   "e": "Koagulopatiyalarda."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Albumin eritmasi qaysi guruhga kiradi?",
+   "a": [
+    "Qon preparatlari",
+    "Qon komponentlari",
+    "Kristalloid eritmalar",
+    "Sintetik kolloidlar"
+   ],
+   "e": "Plazmadan olinadi."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Qon quyish tizimi necha marta ishlatiladi?",
+   "a": [
+    "Bir marta",
+    "Ikki marta",
+    "Sterillab ko'p marta",
+    "Bir kun davomida hamma bemorlarga"
+   ],
+   "e": "Bir martalik."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Gemotransfuziya bayonnomasi (protokoli) qayerda rasmiylashtiriladi?",
+   "a": [
+    "Kasallik tarixida va qon quyish jurnalida",
+    "Faqat og'zaki xabar qilinadi",
+    "Faqat bemorga beriladigan ko'chirmada",
+    "Hech qayerda yozilmaydi"
+   ],
+   "e": "Hujjatlashtirish majburiy."
+  },
+  {
+   "b": "Qon quyish (gemotransfuziya)",
+   "q": "Qon quyishdan keyin qon solingan idishda qancha miqdor qoldirilib, saqlanadi?",
+   "a": [
+    "Taxminan 10–15 ml, 48 soat davomida sovutgichda",
+    "Idish darhol tashlab yuboriladi",
+    "200 ml qoldirilib, 1 oy xona haroratida",
+    "Idish yuvilib qayta ishlatiladi"
+   ],
+   "e": "Asorat yuzaga kelsa tekshirish uchun."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Yaraning asosiy belgilari qaysilar?",
+   "a": [
+    "Og'riq, qon ketish, yara chetlarining ochilishi",
+    "Isitma, yo'tal, tumov va kuchli bosh og'rig'i",
+    "Qichishish, toshma va teri shishi",
+    "Ko'ngil aynishi, qusish, ich ketishi"
+   ],
+   "e": "Klassik uchlik."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Qaysi yara o'tkir qirrali narsa bilan hosil bo'lib, chetlari tekis bo'ladi?",
+   "a": [
+    "Kesilgan yara",
+    "Ezilgan yara",
+    "Tishlangan yara",
+    "O'q tekkan yara"
+   ],
+   "e": "Yaxshi bitadi."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Qaysi yara eng xavfli infeksiyalanadi va quturish xavfi bor?",
+   "a": [
+    "Hayvon tishlagan yara",
+    "Kesilgan yara (o'tkir pichoqdan)",
+    "Sanchilgan yara (igna, mixdan)",
+    "Operatsion yara (steril sharoitda)"
+   ],
+   "e": "Antirabik yordam kerak."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Sanchilgan yaraning asosiy xavfi nima?",
+   "a": [
+    "Chuqur a'zolar shikastlanishi va anaerob infeksiya",
+    "Katta yuzadan kapillyar qon ketishi",
+    "Chetlari tekis va silliq bo'lishi",
+    "Tez va hech qanday asoratsiz bitib ketishi"
+   ],
+   "e": "Tashqi teshik kichik."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Yaraning birlamchi bitishi uchun qanday shartlar kerak?",
+   "a": [
+    "Chetlari tekis va yaqin, infeksiya yo'q",
+    "Yara katta va ochiq, chetlari yiringli",
+    "Chetlari ezilgan, nekrozli",
+    "Yarada yot jism qolgan"
+   ],
+   "e": "Chandiq ingichka."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Ikkilamchi bitish qanday kechadi?",
+   "a": [
+    "Granulyatsiya to'qimasi orqali, yiringlash bilan",
+    "Chandiqsiz, 2–3 kun ichida tez bitadi",
+    "Faqat chetlarining o'zaro yopishishi bilan",
+    "Qobiq ostida, yiringlashsiz bitadi"
+   ],
+   "e": "Qo'pol chandiq."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Yarani birlamchi jarrohlik ishlovi qancha vaqtgacha o'tkazilsa erta hisoblanadi?",
+   "a": [
+    "Dastlabki 24 soat ichida",
+    "Jarohatdan keyingi 1 hafta ichida",
+    "Jarohatdan keyingi 1 oy ichida",
+    "Bemor murojaat qilgan har qanday vaqtda"
+   ],
+   "e": "24–48 soat — kechiktirilgan."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Yaraning yiringlash belgilari qaysilar?",
+   "a": [
+    "Og'riq, shish, qizarish, harorat",
+    "Yaraning quruq, toza va og'riqsiz bo'lishi",
+    "Chetlarining tekis yopishishi",
+    "Og'riqning butunlay yo'qolishi"
+   ],
+   "e": "Yallig'lanish belgilari."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Yiringli yarada birinchi fazada qaysi vosita qo'llanadi?",
+   "a": [
+    "Gipertonik eritmali bog'lam",
+    "Faqat quruq steril doka bog'lami",
+    "Yog'li malhamli (vazelinli) bog'lam",
+    "Gipsli bog'lam va qat'iy immobilizatsiya"
+   ],
+   "e": "Yiringni tortadi."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Qoqshol profilaktikasi qachon o'tkaziladi?",
+   "a": [
+    "Tuproq bilan ifloslangan har qanday yarada",
+    "Faqat operatsiyadan keyingi yaralarda",
+    "Faqat bosh va yuz jarohatlarida",
+    "Faqat I darajali kuyishlarda"
+   ],
+   "e": "Qoqsholga qarshi zardob/anatoksin."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Desmurgiya nima?",
+   "a": [
+    "Bog'lamlar haqidagi ta'limot",
+    "Suyak sinishlarini davolash haqidagi ta'limot",
+    "Qon quyish haqidagi ta'limot",
+    "Og'riqsizlantirish haqidagi ta'limot"
+   ],
+   "e": "Yunoncha desmos — bog'lam."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Bog'lam qanday qismlardan iborat?",
+   "a": [
+    "Bog'lov materiali va mahkamlovchi qism",
+    "Faqat bint (doka tasmasi)",
+    "Faqat paxta va doka salfetkasi",
+    "Faqat leykoplastir yoki kleol"
+   ],
+   "e": "Bint, leykoplastir, kleol bilan mahkamlanadi."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Bint bilan bog'lam qo'yishda asosiy qoida qaysi?",
+   "a": [
+    "Chapdan o'ngga, pastdan yuqoriga, yarmini yopib",
+    "O'ngdan chapga, yuqoridan pastga, oraliq qoldirib",
+    "Tartibsiz, iloji boricha qattiq tortib bog'lanadi",
+    "Faqat bitta aylana bilan, bo'sh qilib"
+   ],
+   "e": "Bint boshlanishi qo'lda."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Barmoqqa qanday bog'lam qo'yiladi?",
+   "a": [
+    "Spiralsimon yoki \"qo'lqop\" bog'lam",
+    "Dezo bog'lami (qo'l tanaga)",
+    "Kepka bog'lami (bosh qismga)",
+    "Toshbaqasimon bog'lam"
+   ],
+   "e": "Bosh barmoqqa — boshoqsimon."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Tirsak va tizza bo'g'imiga qaysi bog'lam qo'yiladi?",
+   "a": [
+    "Toshbaqasimon bog'lam",
+    "Kepka bog'lami (Gippokrat qalpog'i)",
+    "Dezo bog'lami yoki sakkizsimon",
+    "Slingsimon (palaxmonsimon) bog'lam"
+   ],
+   "e": "Bo'g'imda harakatni saqlaydi."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Elka bo'g'imiga qaysi bog'lam qo'yiladi?",
+   "a": [
+    "Boshoqsimon bog'lam",
+    "Kepka bog'lami",
+    "Qo'lqopsimon bog'lam",
+    "Slingsimon bog'lam"
+   ],
+   "e": "Sakkizsimon ham."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "O'mrov suyagi sinishida qaysi bog'lam qo'yiladi?",
+   "a": [
+    "Dezo bog'lami yoki sakkizsimon bog'lam",
+    "Kepka bog'lami yoki chepets",
+    "Qo'lqopsimon bog'lam (barmoqlarga)",
+    "Toshbaqasimon bog'lam (tirsakka)"
+   ],
+   "e": "Qo'lni tanaga mahkamlaydi."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Boshning sochli qismiga qaysi bog'lam qo'yiladi?",
+   "a": [
+    "\"Kepka\" yoki chepets bog'lami",
+    "Dezo bog'lami (qo'lni tanaga mahkamlovchi)",
+    "Qo'lqopsimon bog'lam yoki spiral",
+    "Boshoqsimon yoki sakkizsimon bog'lam"
+   ],
+   "e": "Chepetsda bint tasmasi iyak ostidan o'tadi."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Ko'zga bog'lam qanday qo'yiladi?",
+   "a": [
+    "Monokulyar yoki binokulyar",
+    "Dezo bog'lami yoki sakkizsimon",
+    "Toshbaqasimon bog'lam",
+    "Qo'lqopsimon bog'lam"
+   ],
+   "e": "Bir yoki ikki ko'zga."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Burun, lab, iyakka qaysi bog'lam qo'yiladi?",
+   "a": [
+    "Slingsimon (o'qsimon) bog'lam",
+    "Dezo bog'lami (qo'lni tanaga)",
+    "Spiral (aylana) bog'lam",
+    "Toshbaqasimon bog'lam"
+   ],
+   "e": "Sling — palaxmon."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Ochiq pnevmotoraksda qaysi bog'lam qo'yiladi?",
+   "a": [
+    "Okklyuziv (germetik) bog'lam",
+    "Oddiy quruq doka bog'lami",
+    "Bosuvchi (kompressiv) bog'lam",
+    "Sovutuvchi nam kompress"
+   ],
+   "e": "Havo o'tkazmaydigan material."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Okklyuziv bog'lam qanday qo'yiladi?",
+   "a": [
+    "Havo o'tkazmaydigan material zich mahkamlanadi",
+    "Yaraga quruq paxta qo'yilib bo'sh bog'lanadi",
+    "Yara ochiq qoldirilib kuzatiladi",
+    "Yaraga issiq grelka qo'yilib isitiladi"
+   ],
+   "e": "Masalan, individual paket qobig'i."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Bint bog'lam juda qattiq bog'langanini qanday bilish mumkin?",
+   "a": [
+    "Ko'karish, shish, uvishish, og'riq",
+    "Bog'lamning sirpanib tushishi",
+    "Bemor hech narsani sezmasligi",
+    "Terining pushti, iliq va sezgisi saqlanishi"
+   ],
+   "e": "Bog'lam bo'shatiladi."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Ko'krak qafasiga qaysi bog'lam qo'yiladi?",
+   "a": [
+    "Spiral bog'lam",
+    "Kepka bog'lami yoki chepets",
+    "Qo'lqopsimon bog'lam",
+    "Slingsimon (o'qsimon) bog'lam"
+   ],
+   "e": "Nafas chiqarishda bog'lanadi."
+  },
+  {
+   "b": "Yaralar va desmurgiya",
+   "q": "Sut beziga qanday bog'lam qo'yiladi?",
+   "a": [
+    "Ko'taruvchi (suspenzor) bog'lam",
+    "Dezo bog'lami (qo'lni tanaga)",
+    "Qo'lqopsimon bog'lam",
+    "Kepka bog'lami (boshga)"
+   ],
+   "e": "Sut bezini ko'tarib turadi."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "I darajali kuyish belgisi qaysi?",
+   "a": [
+    "Teri qizarishi va shishi (eritema)",
+    "Ichida tiniq suyuqlik bo'lgan pufakchalar",
+    "Terining butun qavati nekrozi",
+    "Suyak va mushaklarning ko'mirlanishi"
+   ],
+   "e": "Epidermis shikastlanadi."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "II darajali kuyish belgisi qaysi?",
+   "a": [
+    "Ichida tiniq suyuqlik bo'lgan pufakchalar",
+    "Faqat teri qizarishi, pufaklar hosil bo'lmaydi",
+    "Qora quruq qobiq (strup) hosil bo'lishi",
+    "To'qimalarning ko'mirlanishi"
+   ],
+   "e": "Pufak — bulla."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "IV darajali kuyish belgisi qaysi?",
+   "a": [
+    "Teri, mushak va suyakning ko'mirlanishi",
+    "Faqat teri qizarishi va yengil shish",
+    "Tiniq suyuqlikli yupqa pufaklar",
+    "Faqat epidermisning ko'chib tushishi"
+   ],
+   "e": "Eng og'ir daraja."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Kuyish maydonini \"to'qqizlar qoidasi\" bo'yicha baholashda bitta qo'l necha foizni tashkil etadi?",
+   "a": [
+    "9%",
+    "18%",
+    "1%",
+    "36%"
+   ],
+   "e": "Bosh va bo'yin ham 9%."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "\"To'qqizlar qoidasi\" bo'yicha bitta oyoq necha foiz?",
+   "a": [
+    "18%",
+    "9%",
+    "1%",
+    "27%"
+   ],
+   "e": "Tananing old va orqa yuzasi ham 18% dan."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Kaft qoidasi bo'yicha bemor kafti tana yuzasining necha foizini tashkil qiladi?",
+   "a": [
+    "1%",
+    "9%",
+    "5%",
+    "18%"
+   ],
+   "e": "Kichik kuyishlarni baholashda."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Oraliq (perineum) sohasi \"to'qqizlar qoidasi\" bo'yicha necha foiz?",
+   "a": [
+    "1%",
+    "9%",
+    "18%",
+    "5%"
+   ],
+   "e": "Jami 100%."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Termik kuyishda birinchi yordam qaysi?",
+   "a": [
+    "Sovuq suv bilan 10–20 daqiqa sovutish",
+    "Kuygan joyga yog' yoki moy surtish",
+    "Pufaklarni darhol teshib, terini olib tashlash",
+    "Kuygan joyga issiq kompress qo'yish"
+   ],
+   "e": "Keyin steril bog'lam."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Kuyishda pufaklar bilan qanday munosabatda bo'linadi?",
+   "a": [
+    "Birinchi yordamda pufaklar teshilmaydi",
+    "Darhol qaychi bilan kesib olib tashlanadi",
+    "Igna bilan teshilib yod surtiladi",
+    "Qo'l bilan bosib yoriladi"
+   ],
+   "e": "Infeksiya xavfi."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Kuyish kasalligining birinchi davri qaysi?",
+   "a": [
+    "Kuyish shoki",
+    "Septikotoksemiya",
+    "Toksemiya",
+    "Rekonvalessensiya"
+   ],
+   "e": "1–3 kun davom etadi."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Kuyish kasalligining davrlari to'g'ri tartibda berilgan qatorni ko'rsating.",
+   "a": [
+    "Shok, toksemiya, septikotoksemiya, sog'ayish",
+    "Toksemiya, shok, sog'ayish, septikotoksemiya",
+    "Sog'ayish, shok, toksemiya, septikotoksemiya",
+    "Septikotoksemiya, toksemiya, shok, sog'ayish"
+   ],
+   "e": "To'rt davr."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Kislota bilan kimyoviy kuyishda qanday ishlov beriladi?",
+   "a": [
+    "Oqar suv bilan uzoq yuviladi, so'ng soda eritmasi",
+    "Darhol kuchsiz kislota eritmasi bilan yuviladi",
+    "Yog' surtilib, issiq bog'lam qo'yiladi",
+    "Hech narsa qilinmay ochiq qoldiriladi"
+   ],
+   "e": "Ishqor bilan kuyishda — kuchsiz kislota (sirka, limon)."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Ishqor bilan kuyishda neytrallash uchun qaysi eritma qo'llanadi?",
+   "a": [
+    "Kuchsiz sirka yoki limon kislotasi eritmasi",
+    "Natriy gidrokarbonat (soda) eritmasi",
+    "Ammiak eritmasi",
+    "Kaliy permanganatning kuchli to'q eritmasi"
+   ],
+   "e": "Avval suv bilan uzoq yuviladi."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Sovuq urishining reaktiv davrida qanday yordam ko'rsatiladi?",
+   "a": [
+    "Asta-sekin isitish, issiq ichimlik, aseptik bog'lam",
+    "Qor bilan sovuq urgan joyni qattiq ishqalash",
+    "Darhol 60 °C li issiq suvga solib isitish",
+    "Spirt ichirib, sovuq joyda qoldirish"
+   ],
+   "e": "Qor bilan ishqalash man etiladi."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Sovuq urishining yashirin (prereaktiv) davri belgisi qaysi?",
+   "a": [
+    "Teri oqarishi va sezgining yo'qolishi",
+    "Kuchli qizarish va tiniq suyuqlikli pufaklar",
+    "Qora nekroz va mumifikatsiya",
+    "Yuqori harorat va terlash"
+   ],
+   "e": "Daraja keyin aniqlanadi."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Elektr toki urganda birinchi navbatda nima qilinadi?",
+   "a": [
+    "Jabrlanuvchi tok manbaidan xavfsiz ajratiladi",
+    "Jabrlanuvchini darhol yalang qo'l bilan tortish",
+    "Yuziga suv sepib hushiga keltirishga urinish",
+    "Jabrlanuvchini tuproqqa ko'mib qo'yish"
+   ],
+   "e": "Quruq yog'och tayoq bilan."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Elektr toki o'tgan joyda terida nima hosil bo'ladi?",
+   "a": [
+    "Tok belgilari (kirish va chiqish joylarida)",
+    "Ko'p sonli tiniq suyuqlikli pufakchalar",
+    "Butun tana bo'ylab qizil mayda toshma",
+    "Terida hech qanday o'zgarish bo'lmaydi"
+   ],
+   "e": "Elektr belgilari."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Elektrotravmada o'limning asosiy sababi nima?",
+   "a": [
+    "Yurak fibrillyatsiyasi va nafas to'xtashi",
+    "Teri kuyishi va tashqi qon ketishi",
+    "Uzun naysimon suyaklarning sinishi",
+    "Oshqozon shilliq qavati yarasi"
+   ],
+   "e": "YuO'R kerak."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Quyosh urishida birinchi yordam qaysi?",
+   "a": [
+    "Salqin joyga olib o'tish, boshga sovuq qo'yish",
+    "Quyoshda qoldirib, issiq choy ichirish",
+    "Qalin ko'rpaga o'rab terlatish",
+    "Issiq vannaga tushirib isitish"
+   ],
+   "e": "Suyuqlik ichiriladi."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Bemor kuyish shokida bo'lganda infuzion terapiyada asosan nima qo'llanadi?",
+   "a": [
+    "Kristalloid va kolloid eritmalar (vena ichiga)",
+    "Faqat og'iz orqali ko'p miqdorda suv va choy",
+    "Kuchli siydik haydovchi dorilar",
+    "Faqat issiq vanna va dam olish"
+   ],
+   "e": "Gipovolemiya bartaraf etiladi."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Kuyish yarasida hosil bo'lgan quruq nekrotik qobiq qanday ataladi?",
+   "a": [
+    "Strup",
+    "Granulyatsiya",
+    "Epitelizatsiya",
+    "Keloid"
+   ],
+   "e": "Strup ostida infeksiya rivojlanishi mumkin."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Bolalarda kuyish maydoni necha foizdan oshsa kuyish shoki rivojlanishi mumkin?",
+   "a": [
+    "5–10% dan ortiq",
+    "50% dan ortiq",
+    "80% dan ortiq",
+    "Faqat 100% bo'lsa"
+   ],
+   "e": "Kattalarda 15–20% dan ortiq."
+  },
+  {
+   "b": "Kuyish, sovuq urishi, elektrotravma",
+   "q": "Nafas yo'llarining kuyishiga shubha belgisi qaysi?",
+   "a": [
+    "Yuz va burun tuklari kuyishi, ovoz bo'g'iqligi",
+    "Oyoq panjasining kuyishi",
+    "Kaftda bitta kichik pufak",
+    "Faqat qo'l va bilak terisining qizarishi"
+   ],
+   "e": "Yopiq xonada yong'in."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Suyak sinishining mutlaq (ishonchli) belgisi qaysi?",
+   "a": [
+    "Patologik harakatchanlik va krepitatsiya",
+    "Og'riq va sinish sohasida shish",
+    "Teri qizarishi va mahalliy qizish",
+    "Tana haroratining 38 °C dan oshishi"
+   ],
+   "e": "Shuningdek deformatsiya, suyak bo'laklari ko'rinishi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Suyak sinishining nisbiy belgilariga qaysilar kiradi?",
+   "a": [
+    "Og'riq, shish, funksiya buzilishi",
+    "Krepitatsiya va patologik harakatchanlik",
+    "Yarada suyak bo'laklari ko'rinishi",
+    "Rentgenda sinish chizig'i"
+   ],
+   "e": "Boshqa shikastlarda ham bo'ladi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Ochiq sinish deb nimaga aytiladi?",
+   "a": [
+    "Sinish sohasida teri butunligi buzilgan sinishga",
+    "Teri butun qolgan, faqat suyak singan",
+    "Faqat suyakning darz ketishi (yorilishi)",
+    "Bo'g'im bo'shlig'i ichidagi sinish"
+   ],
+   "e": "Infeksiya xavfi yuqori."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Transport immobilizatsiyasida asosiy qoida qaysi?",
+   "a": [
+    "Yuqori va pastdagi ikki bo'g'im mahkamlanadi",
+    "Faqat sinish joyining o'zi mahkamlanadi",
+    "Faqat sinishdan pastdagi bo'g'im mahkamlanadi",
+    "Shina ochiq teriga to'g'ridan-to'g'ri qo'yiladi"
+   ],
+   "e": "Son sinishida — uch bo'g'im."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Son suyagi sinishida nechta bo'g'im immobilizatsiya qilinadi?",
+   "a": [
+    "Uchta (son-chanoq, tizza, boldir-panja)",
+    "Bitta (faqat tizza bo'g'imi)",
+    "Ikkita (tizza va boldir-panja)",
+    "Immobilizatsiya umuman qilinmaydi"
+   ],
+   "e": "Diterixs shinasi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Son suyagi sinishida qaysi shina qo'llanadi?",
+   "a": [
+    "Diterixs shinasi",
+    "Kramer shinasi faqat panjaga",
+    "Elansk shinasi",
+    "Bog'lam qo'yilmaydi"
+   ],
+   "e": "Tortish (traksiya) shinasi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Kramer shinasi qanday shina?",
+   "a": [
+    "Narvonsimon simli moslashuvchan shina",
+    "Yog'ochdan qilingan tortuvchi shina",
+    "Pnevmatik (havo bilan to'ldiriladigan) shina",
+    "Gipsdan quyiladigan shina"
+   ],
+   "e": "Har qanday shaklga keltiriladi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Ochiq sinishda birinchi yordam tartibi qanday?",
+   "a": [
+    "Qon to'xtatish, bog'lam, og'riqsizlantirish, shina",
+    "Suyak bo'laklarini joyiga solish, keyin bog'lam qo'yish",
+    "Avval shina, keyin qon to'xtatish",
+    "Faqat og'riqsizlantirish, bog'lamsiz"
+   ],
+   "e": "Suyak bo'laklari joyiga solinmaydi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Umurtqa pog'onasi shikastlangan bemor qanday tashiladi?",
+   "a": [
+    "Qattiq taxta ustida chalqancha yotqizib",
+    "Yumshoq zambilda yonboshlatib",
+    "O'tirgan holatda yengil avtomobilda",
+    "Qo'lda ko'tarib, tanasini bukkan holda"
+   ],
+   "e": "Bo'yin umurtqasi — bo'yin yoqasi bilan."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Chanoq suyagi sinishida bemorga qanday holat beriladi?",
+   "a": [
+    "\"Baqa\" holati (Volkovich holati)",
+    "Qorni bilan yotqizilib, boshi pastda",
+    "O'tirgan holatda, oyoqlari osilgan",
+    "Oyoqlari to'g'ri, yonboshlab yotqiziladi"
+   ],
+   "e": "Tizzalar ostiga valik."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Qovurg'a sinishining asosiy belgisi qaysi?",
+   "a": [
+    "Nafas olishda va yo'talganda kuchayadigan og'riq",
+    "Qo'lda patologik harakatchanlik",
+    "Qorin pastki qismida tortuvchi doimiy og'riq",
+    "Bosh aylanishi va qayta-qayta qusish"
+   ],
+   "e": "\"Uzilgan nafas\" belgisi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Chiqish (lyuksatsiya) nima?",
+   "a": [
+    "Bo'g'im yuzalarining to'liq siljishi",
+    "Suyak butunligining to'liq buzilishi",
+    "Mushakning yirtilishi",
+    "Paylarning cho'zilishi"
+   ],
+   "e": "Qisman — subluksatsiya."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Chiqishning asosiy belgisi qaysi?",
+   "a": [
+    "Bo'g'imda \"prujinali\" qarshilik va harakat bo'lmasligi",
+    "Krepitatsiya va patologik harakatchanlik",
+    "Terida tiniq suyuqlikli pufaklar paydo bo'lishi",
+    "Bo'g'im sohasining oqarib sovib qolishi"
+   ],
+   "e": "Bo'g'im shakli o'zgaradi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Eng ko'p uchraydigan chiqish qaysi bo'g'imda bo'ladi?",
+   "a": [
+    "Elka bo'g'imida",
+    "Tizza bo'g'imida",
+    "Chanoq-son bo'g'imida",
+    "Boldir-panja bo'g'imida"
+   ],
+   "e": "Barcha chiqishlarning taxminan yarmi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Gips bog'lam qo'yilgandan keyin hamshira nimani kuzatadi?",
+   "a": [
+    "Pastki qismdagi qon aylanishi, rang, sezgi va shishni",
+    "Faqat gipsning qanchalik tez qotishini",
+    "Faqat bemorning ishtahasi va uyqusini",
+    "Faqat gips bog'lamning rangi, tozaligi va qurishini"
+   ],
+   "e": "Siqilish belgisida gips kesiladi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Gips bog'lami to'liq qotishi uchun qancha vaqt kerak?",
+   "a": [
+    "24–48 soat",
+    "1–2 daqiqa",
+    "1 hafta",
+    "1 oy"
+   ],
+   "e": "Dastlab 5–10 daqiqada qotadi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Lat yeyishda (kontuziyada) birinchi kun nima qo'yiladi?",
+   "a": [
+    "Sovuq (muzli xalta)",
+    "Issiq grelka",
+    "Isituvchi kompress",
+    "Xantal qog'ozi (gorchichnik)"
+   ],
+   "e": "2–3 kundan keyin issiq muolajalar."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Payning cho'zilishida birinchi yordam qaysi?",
+   "a": [
+    "Sovuq qo'yish, siquvchi bog'lam, tinchlik",
+    "Bo'g'imni faol uqalash va isitish",
+    "Issiq vanna qilish va bug'lash",
+    "Bo'g'imga darhol to'liq yuk berish"
+   ],
+   "e": "Odatda boldir-panja bo'g'imida."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Uzoq ezilish sindromi (krash-sindrom) qanday holatda rivojlanadi?",
+   "a": [
+    "Uzoq vaqt og'ir narsa ostida ezilganda",
+    "Qisqa muddatli lat yeyishdan keyin",
+    "Yuzaki teri shilinishida",
+    "Oddiy sinishda gips qo'yilganda"
+   ],
+   "e": "Toksemiya, o'tkir buyrak yetishmovchiligi."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Uzoq ezilish sindromida ezilgan oyoq-qo'l bo'shatilishdan oldin nima qilinadi?",
+   "a": [
+    "Ezilgan joydan yuqoriga jgut qo'yiladi",
+    "Hech narsa qilinmay darhol bo'shatiladi",
+    "Oyoqqa issiq grelka qo'yiladi",
+    "Oyoq faol uqalanadi"
+   ],
+   "e": "Toksinlar oqimini cheklash uchun; keyin siquvchi bog'lam, sovuq."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Skelet tortmasi (traksiyasi) qanday maqsadda qo'llanadi?",
+   "a": [
+    "Bo'laklarni asta-sekin joyiga keltirish",
+    "Faqat og'riqni kamaytirish uchun qo'yiladi",
+    "Sinish sohasidan qon ketishini to'xtatish uchun",
+    "Bemor erta yurib ketishi uchun qo'yiladi"
+   ],
+   "e": "Kirshner simi orqali."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Kalla-miya shikastining (miya chayqalishining) belgisi qaysi?",
+   "a": [
+    "Qisqa muddatli hush yo'qotish, bosh og'rig'i, qusish",
+    "Oyoqlarda shish va qizarish paydo bo'lishi, isitma",
+    "Qo'l barmoqlarida krepitatsiya eshitilishi",
+    "Yuqori harorat va kuchli terlash"
+   ],
+   "e": "Retrograd amneziya."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Bosh suyagi asosi sinishining belgisi qaysi?",
+   "a": [
+    "\"Ko'zoynak\" simptomi va quloqdan likvor oqishi",
+    "Qo'lda patologik harakatchanlik",
+    "Qorinda keskin xanjarsimon og'riq va qusish",
+    "Oyoq tizza bo'g'imida shish"
+   ],
+   "e": "Burundan ham likvor oqishi mumkin."
+  },
+  {
+   "b": "Travmatologiya: sinish, chiqish, immobilizatsiya",
+   "q": "Quloqdan likvor oqqanda nima qilinmaydi?",
+   "a": [
+    "Quloq yuvilmaydi va tamponlanmaydi",
+    "Bemorga tinchlik beriladi",
+    "Steril bog'lam qo'yiladi",
+    "Bemor zudlik bilan kasalxonaga yuboriladi"
+   ],
+   "e": "Infeksiya kirishi xavfi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Operatsiyadan oldingi davr qachon boshlanadi?",
+   "a": [
+    "Bemor jarrohlik bo'limiga kelgan paytdan",
+    "Operatsiya stolida narkoz berilgan paytdan",
+    "Bemor kasalxonadan uyga javob berilgandan",
+    "Jarroh teri kesigini qilgan paytdan boshlab"
+   ],
+   "e": "Operatsiya boshlanguncha davom etadi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Rejali operatsiyadan oldingi kecha bemorga nima qilinadi?",
+   "a": [
+    "Gigiyenik vanna, tozalovchi huqna",
+    "Ko'p miqdorda go'shtli, to'yimli kechki ovqat",
+    "Hech qanday tayyorgarlik ko'rilmaydi, uxlatiladi",
+    "Bemorga og'ir jismoniy mashqlar bajartiriladi"
+   ],
+   "e": "Kechqurun tinchlantiruvchi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Operatsiya kuni ertalab bemorga nima berilmaydi?",
+   "a": [
+    "Ovqat va suyuqlik (och qoringa)",
+    "Tinchlantiruvchi so'z va psixologik yordam",
+    "Toza ichki kiyim va steril ko'ylak",
+    "Shifokor buyurgan premedikatsiya"
+   ],
+   "e": "Aspiratsiya xavfi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Operatsiya maydonidagi tuklar qachon olinadi?",
+   "a": [
+    "Operatsiya kuni ertalab",
+    "Operatsiyadan bir hafta oldin uyda",
+    "Operatsiyadan keyin, chok qo'yilgach",
+    "Tuklar umuman olinmaydi"
+   ],
+   "e": "Oldingi kunda olinsa, mikroyaralar infeksiyalanadi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Premedikatsiya nima?",
+   "a": [
+    "Narkozdan oldin dorilar bilan tayyorlash",
+    "Operatsiyadan keyingi og'riqsizlantirish",
+    "Operatsiya maydoniga ishlov berish",
+    "Qon quyishdan oldingi sinama"
+   ],
+   "e": "Odatda 30–40 daqiqa oldin."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Premedikatsiyada qaysi dori qo'llanadi?",
+   "a": [
+    "Atropin",
+    "Insulin (qandni pasaytirish uchun)",
+    "Furosemid (siydik haydash uchun)",
+    "Geparin (qon ivishini pasaytirish)"
+   ],
+   "e": "Narkotik analgetik va antigistamin ham."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Shoshilinch operatsiyadan oldin oshqozon qanday tayyorlanadi?",
+   "a": [
+    "Zond orqali oshqozon tarkibi chiqariladi",
+    "Bemorga 1 litr suv ichiriladi",
+    "Sifon huqna qilinib ichak yuviladi",
+    "Hech qanday tayyorgarlik ko'rilmaydi"
+   ],
+   "e": "Aspiratsiyaning oldini olish."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Narkozdan chiqayotgan bemor qanday holatda yotqiziladi?",
+   "a": [
+    "Chalqancha, boshi yonga burilgan holda, yostiqsiz",
+    "Qorni bilan, boshi pastga osilgan holda, baland yostiqda",
+    "Yarim o'tirgan holatda, baland yostiqda",
+    "Yon tomonga, oyoqlari qoringa bukilgan"
+   ],
+   "e": "Qusuq aspiratsiyasining oldini olish."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Qorin bo'shlig'i operatsiyasidan keyin choklar ustiga birinchi soatlarda nima qo'yiladi?",
+   "a": [
+    "Muzli xalta yoki yuk (qum xaltasi)",
+    "Issiq grelka (qon aylanishi uchun)",
+    "Isituvchi spirtli kompress",
+    "Hech narsa qo'yilmaydi"
+   ],
+   "e": "Qon ketishning oldini olish."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Operatsiyadan keyingi gipostatik pnevmoniyaning oldini olish uchun nima qilinadi?",
+   "a": [
+    "Nafas gimnastikasi, erta faollashtirish",
+    "Bemor bir necha kun qimirlamay yotqiziladi",
+    "Chuqur nafas olish taqiqlanadi",
+    "Bemorga muzdek suv ichiriladi"
+   ],
+   "e": "Yarim o'tirgan holat ham."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Operatsiyadan keyin siydik tutilib qolganda birinchi navbatda nima qilinadi?",
+   "a": [
+    "Reflektor usullar",
+    "Darhol takroriy jarrohlik operatsiyasi",
+    "Bemorga bir necha litr suv ichirish",
+    "Vena ichiga kuchli siydik haydovchi dori"
+   ],
+   "e": "Natija bo'lmasa kateterlash."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Operatsiyadan keyingi meteorizm (qorin dam bo'lishi) da nima qilinadi?",
+   "a": [
+    "Gaz chiqaruvchi naycha qo'yiladi",
+    "Bemorga ko'p ovqat beriladi",
+    "Bemor qimirlamay yotadi",
+    "Qorinni issiq bilan isitish taqiqlanadi"
+   ],
+   "e": "Gipertonik huqna ham."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Choklar odatda nechanchi kuni olinadi (qorin devorida)?",
+   "a": [
+    "7–8-kuni",
+    "1-kuni",
+    "30-kuni",
+    "14–21-kuni"
+   ],
+   "e": "Yuz va bo'yinda 4–5-kuni."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Yuz va bo'yin sohasidagi choklar nechanchi kuni olinadi?",
+   "a": [
+    "4–5-kuni",
+    "10–12-kuni",
+    "14-kuni",
+    "1-kuni"
+   ],
+   "e": "Qon ta'minoti yaxshi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Operatsiya yarasining yiringlash belgisi qaysi?",
+   "a": [
+    "Yara sohasida shish, qizarish, og'riq, isitma",
+    "Yara chetlarining quruq va oqarib qolishi",
+    "Yaradagi og'riqning butunlay yo'qolishi",
+    "Tana haroratining me'yordan pasayishi"
+   ],
+   "e": "Odatda 3–5-kunlarda."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Eventratsiya nima?",
+   "a": [
+    "Operatsiya yarasi ochilib, ichki a'zolarning chiqishi",
+    "Yaraning birlamchi niyat bilan bitishi",
+    "Chok atrofidagi terining qizarishi",
+    "Operatsiyadan keyingi ko'ngil aynishi va qusish"
+   ],
+   "e": "Shoshilinch jarrohlik yordami."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Drenaj nima uchun qo'yiladi?",
+   "a": [
+    "Yara yoki bo'shliqdan suyuqlikni chiqarish uchun",
+    "Faqat yara ichiga dori kiritish uchun",
+    "Choklarni ichkaridan mahkamlash uchun",
+    "Bemorni parenteral yo'l bilan ovqatlantirish uchun"
+   ],
+   "e": "Passiv va aktiv drenajlar."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Drenajdan ajralayotgan suyuqlikda hamshira nimani kuzatadi?",
+   "a": [
+    "Miqdori, rangi, xarakteri (qon, yiring, o't)",
+    "Faqat ajralmaning hidini",
+    "Faqat ajralmaning haroratini",
+    "Hech narsani kuzatmaydi, shifokor kuzatadi"
+   ],
+   "e": "Hujjatlashtiriladi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Kolostoma nima?",
+   "a": [
+    "Yo'g'on ichakning qorin devoridagi teshigi",
+    "Oshqozonga burun orqali qo'yilgan zond",
+    "Siydik pufagiga qo'yilgan doimiy kateter",
+    "Traxeyaga qo'yilgan nafas naychasi"
+   ],
+   "e": "Najas kalopriyomnikka yig'iladi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Stoma atrofidagi teri qanday parvarish qilinadi?",
+   "a": [
+    "Yuviladi, quritiladi, himoya pastasi surtiladi",
+    "Spirt bilan kuchli ishqalanib tozalanadi",
+    "Hech qanday parvarish qilinmaydi",
+    "Yod eritmasi bilan har soatda surtiladi"
+   ],
+   "e": "Masalan, Lassar pastasi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Gastrostoma orqali ovqatlantirishdan keyin naycha bilan nima qilinadi?",
+   "a": [
+    "Iliq suv bilan yuviladi va berkitiladi",
+    "Naycha olib tashlanib, keyin qayta qo'yiladi",
+    "Naychaga shprits bilan havo yuboriladi",
+    "Naycha ochiq qoldirilib kuzatiladi"
+   ],
+   "e": "Ovqat suyuq, iliq holda beriladi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Traxeostoma kanyulasining ichki naychasi qanday parvarish qilinadi?",
+   "a": [
+    "Muntazam olinib tozalanadi va zararsizlantiriladi",
+    "Hech qachon olinmaydi va tozalanmaydi",
+    "Faqat oyda bir marta shifokor olib tozalaydi",
+    "Har kuni yangi traxeostomiya qilinadi"
+   ],
+   "e": "Shilliq bilan tiqilib qolmasligi uchun."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Operatsiyadan keyin yotoq yaralarining oldini olish uchun bemor qancha vaqtda ag'dariladi?",
+   "a": [
+    "Har 2 soatda",
+    "Kuniga bir marta",
+    "Haftada bir marta",
+    "Ag'darilmaydi"
+   ],
+   "e": "Choyshab tekis va quruq bo'ladi."
+  },
+  {
+   "b": "Operatsiya oldi va keyingi davr",
+   "q": "Operatsiyadan keyingi tromboemboliyaning oldini olish uchun nima qilinadi?",
+   "a": [
+    "Oyoqlarni elastik bintlash, erta faollashtirish",
+    "Bemorni uzoq vaqt qimirlatmay yotqizish",
+    "Oyoqlarga issiq grelka qo'yib turish",
+    "Ichiladigan suyuqlikni keskin cheklash"
+   ],
+   "e": "Antikoagulyantlar."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Mahalliy anesteziyada eng ko'p qo'llanadigan dori qaysi?",
+   "a": [
+    "Novokain (prokain) yoki lidokain",
+    "Morfin yoki promedol tabletkasi",
+    "Atropin va dimedrol aralashmasi",
+    "Ftorotan bug'i yoki azot oksidi"
+   ],
+   "e": "0,25–0,5% eritmalar."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Infiltratsion anesteziya (A.V. Vishnevskiy usuli) qanday bajariladi?",
+   "a": [
+    "Kuchsiz eritma to'qimalarga qatlam-qatlam yuboriladi",
+    "Dori vena ichiga bir martada tez oqim bilan yuboriladi",
+    "Anestetik o'murtqa miya kanaliga yuboriladi",
+    "Bug'li anestetik niqob orqali beriladi"
+   ],
+   "e": "\"Taranglashgan infiltrat\" usuli."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Spinal anesteziyada anestetik qayerga yuboriladi?",
+   "a": [
+    "Subaraxnoidal bo'shliqqa (orqa miya suyuqligiga)",
+    "Teri ostiga, operatsiya sohasiga qatlamma-qatlam",
+    "Mushak ichiga, son sohasiga",
+    "Vena ichiga, tirsak bukilmasiga"
+   ],
+   "e": "Belning pastki qismida."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Epidural anesteziyada dori qayerga yuboriladi?",
+   "a": [
+    "Qattiq miya pardasi ustidagi bo'shliqqa",
+    "Subaraxnoidal bo'shliqqa (orqa miya suyuqligiga)",
+    "Plevra bo'shlig'iga, qovurg'alar orasidan",
+    "Bo'g'im bo'shlig'iga, tizza sohasidan"
+   ],
+   "e": "Kateter qoldirilib, uzoq og'riqsizlantirish."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Spinal anesteziyadan keyin bemor qancha vaqt gorizontal holatda yotadi?",
+   "a": [
+    "Kamida bir sutka (bosh og'rig'ining oldini olish)",
+    "5 daqiqa, keyin darhol yurishga ruxsat",
+    "Bir hafta davomida qimirlamay yotadi",
+    "Bemor darhol o'tirib, ovqatlanishi mumkin"
+   ],
+   "e": "Likvor oqishi tufayli bosh og'rig'i."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Umumiy anesteziya (narkoz) nima?",
+   "a": [
+    "Hush yo'qolishi bilan kechadigan og'riqsizlantirish",
+    "Faqat bitta sohani og'riqsizlantirish, hush saqlanadi",
+    "Faqat tinchlantirish, hush saqlanadi",
+    "Faqat mushaklarni bo'shashtirish"
+   ],
+   "e": "Markaziy asab tizimiga ta'sir."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Ingalyatsion narkoz qanday beriladi?",
+   "a": [
+    "Nafas yo'li orqali bug' yoki gaz holida",
+    "Dori vena ichiga sekin yuborilib beriladi",
+    "Dori og'iz orqali tabletka shaklida beriladi",
+    "Dori teri ostiga yuborilib, so'riladi"
+   ],
+   "e": "Niqob yoki intubatsion naycha."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Vena ichi narkozi uchun qaysi preparat qo'llanadi?",
+   "a": [
+    "Tiopental natriy, propofol, ketamin",
+    "Novokain, lidokain, trimekain",
+    "Atropin, metatsin, skopolamin",
+    "Furosemid, mannit, gipotiazid"
+   ],
+   "e": "Qisqa muddatli narkoz."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Miorelaksantlar narkozda nima uchun qo'llanadi?",
+   "a": [
+    "Skelet mushaklarini bo'shashtirish uchun",
+    "Qon bosimini tez ko'tarish uchun",
+    "Qonning ivish xususiyatini oshirish uchun",
+    "Narkozdan keyin bemorni uyg'otish uchun"
+   ],
+   "e": "Sun'iy o'pka ventilyatsiyasi bilan."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Narkozning qaysi bosqichida qo'zg'alish kuzatiladi?",
+   "a": [
+    "II bosqich (qo'zg'alish bosqichi)",
+    "I bosqich (analgeziya)",
+    "III bosqich (jarrohlik bosqichi)",
+    "IV bosqich (dozaning oshib ketishi)"
+   ],
+   "e": "Gvedel tasnifi."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Operatsiyalar asosan narkozning qaysi bosqichida bajariladi?",
+   "a": [
+    "III (jarrohlik) bosqichida",
+    "I (analgeziya) bosqichida",
+    "II (qo'zg'alish) bosqichida",
+    "Agonal bosqichda"
+   ],
+   "e": "Bir necha darajaga bo'linadi."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Narkozning eng xavfli asoratlaridan biri qaysi?",
+   "a": [
+    "Qusuqning nafas yo'liga tushishi",
+    "Bemorning narkozdan tez va chuqur uxlab qolishi",
+    "Ishtahaning oshishi",
+    "Terining biroz qizarishi"
+   ],
+   "e": "Mendelson sindromi."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Narkozdan keyin tilning orqaga ketishida nima qilinadi?",
+   "a": [
+    "Jag' oldinga chiqariladi, havo o'tkazgich qo'yiladi",
+    "Bemor o'tqazib qo'yilib, boshi egiladi",
+    "Bemorga og'iz orqali iliq suv ichiriladi",
+    "Hech narsa qilinmaydi, o'zi tiklanadi"
+   ],
+   "e": "Safar usuli."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Intubatsiya nima?",
+   "a": [
+    "Traxeyaga maxsus naycha kiritish",
+    "Oshqozonga zond kiritish",
+    "Siydik pufagiga kateter kiritish",
+    "Venaga kateter kiritish"
+   ],
+   "e": "Nafas yo'li o'tkazuvchanligi."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Intubatsiya uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Laringoskop",
+    "Sistoskop",
+    "Gastroskop",
+    "Rektoskop"
+   ],
+   "e": "Hiqildoqni ko'rish."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Anesteziologik kartada narkoz paytida nima qayd qilinadi?",
+   "a": [
+    "Har 5–10 daqiqada puls, arterial bosim, nafas",
+    "Faqat operatsiya boshlangan va tugagan vaqt",
+    "Faqat bemorning ismi va palata raqami",
+    "Hech narsa qayd qilinmaydi, og'zaki aytiladi"
+   ],
+   "e": "Monitoring."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Pulsoksimetr nimani o'lchaydi?",
+   "a": [
+    "Qonning kislorod bilan to'yinishini",
+    "Qondagi glyukoza miqdorini",
+    "Arterial bosimni (sistolik va diastolik)",
+    "Tana haroratini va terlashni"
+   ],
+   "e": "Me'yor 95–100%."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Me'yorda SpO₂ ko'rsatkichi necha foiz?",
+   "a": [
+    "95–100%",
+    "50–60%",
+    "70–80%",
+    "30–40%"
+   ],
+   "e": "90% dan past — gipoksemiya."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "Lokal anestetiklarga allergiyani aniqlash uchun nima qilinadi?",
+   "a": [
+    "Anamnez so'raladi, sinama qilinadi",
+    "Hech narsa so'ralmaydi, dori darhol yuboriladi",
+    "Dori sinab ko'rish uchun katta dozada yuboriladi",
+    "Bemor avval ovqatlantirilib, keyin yuboriladi"
+   ],
+   "e": "Anafilaksiya xavfi."
+  },
+  {
+   "b": "Anesteziologiya",
+   "q": "O'tkazuvchanlik anesteziyasi (Oberst-Lukashevich) qayerda qo'llanadi?",
+   "a": [
+    "Barmoqlarda",
+    "Qorin bo'shlig'i operatsiyalarida",
+    "Ko'krak qafasi operatsiyalarida",
+    "Bosh miya operatsiyalarida"
+   ],
+   "e": "Barmoq asosida nervlar blokadasi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Terminal holatlarga qaysilar kiradi?",
+   "a": [
+    "Preagoniya, agoniya, klinik o'lim",
+    "Shok, kollaps, hushdan ketish va koma",
+    "Faqat biologik o'lim va murda dog'lari",
+    "Isitma, titroq va qattiq terlash davri"
+   ],
+   "e": "Biologik o'limdan oldingi davrlar."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Klinik o'lim normal haroratda o'rtacha qancha davom etadi?",
+   "a": [
+    "3–5 daqiqa",
+    "30–40 daqiqa",
+    "1–2 soat",
+    "10–15 soniya"
+   ],
+   "e": "Keyin bosh miya po'stlog'ida qaytmas o'zgarishlar."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Klinik o'limning asosiy belgilari qaysilar?",
+   "a": [
+    "Hush, nafas va yirik arteriyalarda puls yo'q",
+    "Murda dog'lari va murda qotishi paydo bo'lgan",
+    "\"Mushuk ko'zi\" belgisi va shox parda xiralashuvi",
+    "Hush saqlangan, nafas tez va yuzaki"
+   ],
+   "e": "Qorachiq kengaygan, yorug'likka reaksiya yo'q."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Biologik o'limning erta belgisi qaysi?",
+   "a": [
+    "\"Mushuk ko'zi\" (Beloglazov) belgisi",
+    "Qorachiqlarning yorug'likka tez torayishi",
+    "Uyqu arteriyasida sust puls borligi",
+    "Terining pushti va iliq bo'lishi"
+   ],
+   "e": "Shox parda qurishi ham."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Kattalarda yurak-o'pka reanimatsiyasida ko'krakni bosish va nafas berish nisbati qanday?",
+   "a": [
+    "30 : 2",
+    "15 : 1",
+    "5 : 1",
+    "2 : 30"
+   ],
+   "e": "Bir yoki ikki reanimator uchun bir xil."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Yopiq yurak massajida ko'krakni bosish chastotasi qancha bo'lishi kerak?",
+   "a": [
+    "Daqiqasiga 100–120 marta",
+    "Daqiqasiga 30–40 marta",
+    "Daqiqasiga 60 marta",
+    "Daqiqasiga 200 marta"
+   ],
+   "e": "Zamonaviy tavsiyalar."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Kattalarda yopiq yurak massajida ko'krak qafasi qancha chuqurlikka bosiladi?",
+   "a": [
+    "5–6 sm",
+    "1–2 sm",
+    "10–12 sm",
+    "0,5 sm"
+   ],
+   "e": "To'liq qaytib kelishiga imkon beriladi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Yopiq yurak massajida qo'llar qayerga qo'yiladi?",
+   "a": [
+    "To'sh suyagining pastki yarmiga (markazga)",
+    "Ko'krak qafasining chap tomoniga, qovurg'alarga",
+    "Qorinning yuqori qismiga, xanjarsimon o'simta ostiga",
+    "To'sh suyagining yuqori uchiga, o'mrov yoniga"
+   ],
+   "e": "Qo'llar tirsakda bukilmaydi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "YuO'R o'tkazishda bemor qanday yuzaga yotqiziladi?",
+   "a": [
+    "Qattiq, tekis yuzaga chalqancha",
+    "Yumshoq karavotga, yonboshlatib yotqiziladi",
+    "O'tirgan holatda, kresloga suyab qo'yiladi",
+    "Qorni bilan yumshoq to'shakka yotqiziladi"
+   ],
+   "e": "Aks holda massaj samarasiz."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Nafas yo'li o'tkazuvchanligini tiklashda Safar usuli nimani o'z ichiga oladi?",
+   "a": [
+    "Boshni orqaga egish, jag'ni chiqarish, og'izni ochish",
+    "Bemorni qorni bilan yotqizib, orqasiga urish",
+    "Boshni oldinga egib, iyakni ko'krakka tegizish",
+    "Bemorni o'tqazib, qo'llarini ko'tarish"
+   ],
+   "e": "Uch usul."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Yuqori nafas yo'liga yot jism tiqilganda kattalarga qaysi usul qo'llanadi?",
+   "a": [
+    "Geymlix usuli (qorin yuqori qismiga turtki)",
+    "Safar usuli (boshni orqaga egib, jag'ni chiqarish)",
+    "Darhol yopiq yurak massajini boshlash",
+    "Bemorga ko'p miqdorda suv ichirish"
+   ],
+   "e": "Hushsiz bo'lsa YuO'R."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "YuO'R samaradorligining belgisi qaysi?",
+   "a": [
+    "Qorachiq torayishi, teri pushtilanishi",
+    "Qorachiqning yanada kengayib, reaksiyasiz qolishi",
+    "Terining ko'karishi va sovishining kuchayishi",
+    "Ko'krak qafasining harakatsiz bo'lib qolishi"
+   ],
+   "e": "Mustaqil nafas paydo bo'lishi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Defibrillyatsiya qaysi aritmiyada samarali?",
+   "a": [
+    "Qorinchalar fibrillyatsiyasida",
+    "Asistoliyada (yurak to'xtashida)",
+    "Sinus bradikardiyasida",
+    "Normal sinus ritmida"
+   ],
+   "e": "Elektr toki zarbasi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Yurak to'xtashida vena ichiga yuboriladigan asosiy dori qaysi?",
+   "a": [
+    "Adrenalin (epinefrin) 1 mg",
+    "Insulin 10 TB teri ostiga",
+    "Furosemid 40 mg mushak ichiga",
+    "Analgin 50% 2 ml mushak ichiga"
+   ],
+   "e": "Har 3–5 daqiqada."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "YuO'R qachon to'xtatiladi?",
+   "a": [
+    "30 daqiqa samarasiz bo'lsa yoki biologik o'lim belgilarida",
+    "2 daqiqadan keyin natija bo'lmasa, darhol to'xtatiladi",
+    "Reanimator charchasa, natijadan qat'i nazar",
+    "Bemorning qarindoshlari so'rasa"
+   ],
+   "e": "Samara bo'lsa davom etadi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Shok nima?",
+   "a": [
+    "A'zolar qon ta'minotining o'tkir buzilishi",
+    "Faqat bir oyoq-qo'lda sezgining yo'qolishi",
+    "Tana haroratining qisqa muddatli oshishi",
+    "Faqat qisqa vaqt hushdan ketish (sinkope)"
+   ],
+   "e": "Mikrotsirkulyatsiya buziladi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Travmatik shokning erektil fazasi belgisi qaysi?",
+   "a": [
+    "Qo'zg'alish, gapga uchish, bosim normal yoki yuqori",
+    "Befarqlik, bosimning keskin pasayishi",
+    "Hushsizlik va nafasning to'xtab qolishi",
+    "Teri oqarishi, puls ipsimon, siydik ajralmaydi"
+   ],
+   "e": "Qisqa davom etadi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Travmatik shokning torpid fazasi belgisi qaysi?",
+   "a": [
+    "Befarq, bosim past, puls tez va ipsimon",
+    "Bemor qo'zg'algan, ko'p gapiradi, bosim yuqori",
+    "Bosim yuqori, yuz qizargan",
+    "Nafas sekin va chuqur, puls siyrak"
+   ],
+   "e": "Pirogov ta'rifi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Anafilaktik shokda birinchi navbatda qaysi dori yuboriladi?",
+   "a": [
+    "Adrenalin 0,1% eritmasi mushak ichiga",
+    "Penitsillin vena ichiga katta dozada",
+    "Novokain eritmasi teri ostiga",
+    "Insulin mushak ichiga, keyin glyukoza"
+   ],
+   "e": "Allergen to'xtatiladi, keyin GKS, antigistamin."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Kardiogen shokning asosiy sababi qaysi?",
+   "a": [
+    "O'tkir miokard infarkti",
+    "Katta hajmdagi qon yo'qotish",
+    "Allergen moddaning yuborilishi",
+    "Og'ir bakterial infeksiya (sepsis)"
+   ],
+   "e": "Yurak nasos funksiyasining buzilishi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Gipovolemik shokning asosiy sababi nima?",
+   "a": [
+    "Qon yoki suyuqlikni ko'p yo'qotish",
+    "Yurak qisqaruvchanligining pasayishi",
+    "Allergik reaksiya rivojlanishi",
+    "Bakterial toksinlar ta'siri"
+   ],
+   "e": "Qon ketish, kuyish, qusish."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Kollaps nima?",
+   "a": [
+    "Tomir tonusining o'tkir pasayishi",
+    "Yurakning to'liq to'xtashi (asistoliya)",
+    "Nafasning to'liq to'xtashi (apnoe)",
+    "Qon bosimining keskin oshishi (kriz)"
+   ],
+   "e": "Bosim tushadi, teri oqaradi."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Hushdan ketgan bemorga qanday holat beriladi (nafas va puls bor)?",
+   "a": [
+    "Barqaror yon holat (tiklanish holati)",
+    "O'tirgan holatda, boshi orqaga",
+    "Chalqancha, boshi ostida baland yostiq",
+    "Qorni bilan, qo'llari orqada"
+   ],
+   "e": "Tilni tutilib qolishi va aspiratsiyaning oldini olish."
+  },
+  {
+   "b": "Reanimatsiya va terminal holatlar",
+   "q": "Suvga cho'kkan odamga birinchi yordamda nima qilinadi?",
+   "a": [
+    "Og'iz tozalanadi, nafas yo'li ochilib YuO'R boshlanadi",
+    "Avval kiyimlari quritilib, issiq choy ichiriladi",
+    "Avval kiyimlar quritiladi, keyin kutiladi",
+    "Bemorni boshi bilan pastga osib uzoq silkitish"
+   ],
+   "e": "Vaqt yo'qotilmaydi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "\"O'tkir qorin\" sindromida hamshira nima qilmasligi kerak?",
+   "a": [
+    "Og'riq qoldiruvchi va issiq qo'yish",
+    "Bemorni shifokorga zudlik bilan ko'rsatish",
+    "Qorin ustiga muzli xalta qo'yish va kuzatish",
+    "Ovqat va suyuqlik berishdan tiyilish"
+   ],
+   "e": "Klinik manzara yashirinadi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "O'tkir appenditsitda og'riq odatda qayerdan boshlanadi?",
+   "a": [
+    "To'sh osti (epigastriy) sohasidan",
+    "Chap yonbosh sohasidan, songa tarqab",
+    "Bel sohasidan, orqadan",
+    "Chap qovurg'a ostidan"
+   ],
+   "e": "Keyin o'ng yonbosh sohasiga ko'chadi (Kocher belgisi)."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Shchetkin–Blyumberg belgisi nimani ko'rsatadi?",
+   "a": [
+    "Qorin pardasi ta'sirlanishini",
+    "Jigarning kattalashganini va qattiqlashganini",
+    "Siydik yo'lida tosh borligini",
+    "O'pkaning pastki bo'lagi yallig'lanishini"
+   ],
+   "e": "Qo'l keskin olinganda og'riq kuchayadi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "O'tkir xoletsistitda og'riq qayerda bo'ladi?",
+   "a": [
+    "O'ng qovurg'a ostida, o'ng kurakka tarqaydi",
+    "Chap yonbosh sohasida, songa tarqaydi",
+    "Kindik atrofida, chov sohasiga tarqaydi",
+    "Chap qovurg'a ostida, yurakka tarqaydi"
+   ],
+   "e": "Ortner, Murfi belgilari."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "O'tkir pankreatitda og'riqning xarakteri qanday?",
+   "a": [
+    "Belbog'simon, kuchli, qusish bilan",
+    "Faqat o'ng yonbosh sohasida, sust va doimiy",
+    "Faqat chov sohasida, xurujsimon, qusishsiz",
+    "Og'riq bo'lmaydi, faqat ich ketishi kuzatiladi"
+   ],
+   "e": "Ko'pincha spirtli ichimlik, yog'li ovqatdan keyin."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Oshqozon yarasining teshilishi (perforatsiyasi) da og'riq qanday bo'ladi?",
+   "a": [
+    "To'satdan, \"xanjar sanchilgandek\" kuchli",
+    "Asta-sekin kuchayuvchi, sust va tortuvchi",
+    "Faqat ovqatdan keyin paydo bo'ladigan yengil",
+    "Og'riqsiz, faqat ko'ngil aynishi bilan kechadi"
+   ],
+   "e": "Qorin \"taxtasimon\" taranglashadi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Ichak tutilishining asosiy belgilari qaysilar?",
+   "a": [
+    "Xurujsimon og'riq, qusish, gaz va najas chiqmasligi",
+    "Ich ketishi, yuqori isitma va terida toshma",
+    "Siydikning ko'payishi, kuchli chanqash",
+    "Yo'tal, hansirash va yiringli balg'am"
+   ],
+   "e": "Qorin dam bo'ladi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Churra qisilib qolganda hamshira nima qilmaydi?",
+   "a": [
+    "Churrani joyiga solishga urinmaydi",
+    "Bemorni zudlik bilan jarrohga yuboradi",
+    "Bemorni zambilda yotgan holda tashiydi",
+    "Bemorning holatini kuzatib, qayd qiladi"
+   ],
+   "e": "Qisilgan ichak nekrozga uchragan bo'lishi mumkin."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Peritonit nima?",
+   "a": [
+    "Qorin pardasining yallig'lanishi",
+    "Plevraning yallig'lanishi",
+    "Perikardning yallig'lanishi",
+    "Suyak ko'migining yallig'lanishi"
+   ],
+   "e": "Ko'pincha ikkilamchi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Peritonitda bemor qanday holatda yotadi?",
+   "a": [
+    "Oyoqlarini qoringa tortib, harakatsiz",
+    "Faol harakatlanib, tez-tez o'rnidan turadi",
+    "Qorni bilan, oyoqlari to'g'ri yotadi",
+    "Boshi pastga osilgan holatda yotadi"
+   ],
+   "e": "Majburiy holat."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Buyrak sanchig'ida og'riq qayerga tarqaydi?",
+   "a": [
+    "Chov sohasi va jinsiy a'zolarga",
+    "Chap qo'l va kurakka",
+    "Boshning ensa qismiga",
+    "Pastki jag' va tishlarga"
+   ],
+   "e": "Bemor bezovta, joyida tura olmaydi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Pasternatskiy belgisi musbat bo'lishi qaysi a'zo kasalligini ko'rsatadi?",
+   "a": [
+    "Buyrak",
+    "Jigar",
+    "Oshqozon",
+    "Yurak"
+   ],
+   "e": "Bel sohasiga urib ko'rish."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "O'tkir siydik tutilishida birinchi yordam nima?",
+   "a": [
+    "Siydik pufagini kateter bilan bo'shatish",
+    "Vena ichiga siydik haydovchi dori yuborish",
+    "Bemorga 1–2 litr suv ichirish",
+    "Qorin pastiga muzli xalta qo'yish"
+   ],
+   "e": "Kateterlash."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Fibrogastroduodenoskopiyaga (FGDS) bemor qanday tayyorlanadi?",
+   "a": [
+    "Och qoringa, oxirgi ovqat kechqurun",
+    "Tekshiruvdan oldin to'yib ovqatlanadi",
+    "Bir hafta oldin ovqat butunlay to'xtatiladi",
+    "Bariy suspenziyasi ichiriladi"
+   ],
+   "e": "Olib qo'yiladigan protezlar olinadi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Kolonoskopiyaga tayyorlashda nima qilinadi?",
+   "a": [
+    "Shlaksiz parhez va ichakni tozalash",
+    "Faqat tekshiruvdan oldin ko'p ovqat berish",
+    "Hech qanday tayyorgarlik talab qilinmaydi",
+    "Faqat siydik haydovchi dori ichirish"
+   ],
+   "e": "Masalan, Fortrans."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Yiringli infeksiyaning eng ko'p uchraydigan qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Oltin rang stafilokokk",
+    "Qoqshol tayoqchasi",
+    "Sil mikobakteriyasi",
+    "Gripp virusi"
+   ],
+   "e": "Streptokokk ham."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Furunkul nima?",
+   "a": [
+    "Follikula va yog' bezining yiringli yallig'lanishi",
+    "Bir necha follikulaning qo'shilib yallig'lanishi",
+    "Apokrin ter bezlarining yiringli yallig'lanishi",
+    "Limfa tugunining yiringli yallig'lanishi"
+   ],
+   "e": "Bir follikula."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Karbunkul furunkuldan nimasi bilan farq qiladi?",
+   "a": [
+    "Bir necha follikulani qamrab oladi",
+    "Faqat bitta follikulani qamraydi, teshigi bitta",
+    "Ter bezlarining yallig'lanishi hisoblanadi",
+    "Hech qanday farqi yo'q, ikkalasi bir kasallik"
+   ],
+   "e": "Og'irroq kechadi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Yuzdagi furunkul nima uchun xavfli?",
+   "a": [
+    "Infeksiya bosh miyaga o'tishi mumkin",
+    "Faqat kosmetik nuqson (chandiq) qoldiradi",
+    "Tezda o'z-o'zidan, asoratsiz yo'qoladi",
+    "Boshqa sohalardagidan xavfli emas"
+   ],
+   "e": "Siqish man etiladi."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Gidradenit nima?",
+   "a": [
+    "Apokrin ter bezlarining yiringli yallig'lanishi",
+    "Soch follikulasi va yog' bezining yallig'lanishi",
+    "Barmoq to'qimalarining yiringli yallig'lanishi",
+    "Sut bezining o'tkir yiringli yallig'lanishi"
+   ],
+   "e": "Ko'pincha qo'ltiq ostida, \"it yelini\"."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Panaritsiy nima?",
+   "a": [
+    "Barmoq to'qimalarining o'tkir yiringli yallig'lanishi",
+    "Sut bezining o'tkir yiringli yallig'lanishi",
+    "Qo'ltiq ostidagi ter bezlarining yallig'lanishi",
+    "Uzun suyaklar ko'migining yallig'lanishi"
+   ],
+   "e": "Teri, teri osti, pay, suyak panaritsiylari."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Flegmona nima?",
+   "a": [
+    "Kletchatkaning tarqalgan yiringli yallig'lanishi",
+    "Kapsula bilan chegaralangan yiring bo'shlig'i",
+    "Soch follikulasining yiringli yallig'lanishi",
+    "Limfa tomirlarining o'tkir yallig'lanishi"
+   ],
+   "e": "Absess — chegaralangan."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Absess nima?",
+   "a": [
+    "To'qimada kapsula bilan chegaralangan yiring yig'ilishi",
+    "Kletchatkaning tarqalgan yiringli yallig'lanishi",
+    "Teri ostida qon to'planishi (gematoma)",
+    "Bo'g'im bo'shlig'ida suyuqlik yig'ilishi"
+   ],
+   "e": "Piogen kapsula."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Sepsis nima?",
+   "a": [
+    "Infeksiyaga tizimli javob va a'zolar disfunksiyasi",
+    "Faqat mahalliy, chegaralangan yiringli yallig'lanish",
+    "Faqat teri ostidagi kichik absess",
+    "Qon guruhlarining mos kelmasligi natijasi"
+   ],
+   "e": "Umumiy infeksiya."
+  },
+  {
+   "b": "O'tkir qorin va qorin bo'shlig'i jarrohligi",
+   "q": "Gazli gangrenaning qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Klostridiyalar (anaerob mikroblar)",
+    "Oltin rang stafilokokk va streptokokklar",
+    "Ichak tayoqchasi",
+    "Streptokokk"
+   ],
+   "e": "Krepitatsiya, shish, to'qima nekrozi."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Qaysi asbob to'qimalarni kesish uchun ishlatiladi?",
+   "a": [
+    "Skalpel",
+    "Kocher qisqichi",
+    "Pinset",
+    "Farabef ilgagi"
+   ],
+   "e": "Kesuvchi asboblar guruhi."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Kocher qisqichi qaysi guruh asboblariga kiradi?",
+   "a": [
+    "Qon to'xtatuvchi asboblar",
+    "Kesuvchi asboblar",
+    "To'qimalarni ajratuvchi ilgaklar",
+    "Chok qo'yuvchi asboblar"
+   ],
+   "e": "Tishli qisqich."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Billrot qisqichining Kocher qisqichidan farqi nima?",
+   "a": [
+    "Billrot qisqichining uchida tishchalar yo'q",
+    "Billrot qisqichi kesuvchi asbob hisoblanadi",
+    "Billrot qisqichi faqat suyak uchun ishlatiladi",
+    "Hech qanday farqi yo'q"
+   ],
+   "e": "Kocherda uchida tishcha bor."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Igna ushlagich qaysi guruhga kiradi?",
+   "a": [
+    "Chok qo'yuvchi asboblar",
+    "Qon to'xtatuvchi (gemostatik) asboblar",
+    "Kesuvchi asboblar (skalpel, qaychi)",
+    "Yordamchi asboblar (ilgaklar, zondlar)"
+   ],
+   "e": "Gegar, Matyo igna ushlagichlari."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Farabef ilgaklari nima uchun ishlatiladi?",
+   "a": [
+    "Yara chetlarini kerib turish uchun",
+    "To'qimalarni qatlam-qatlam kesish uchun",
+    "Qon tomirlarni qisib, qonni to'xtatish uchun",
+    "Teri va aponevrozga chok qo'yish uchun"
+   ],
+   "e": "Yordamchi asboblar."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Mikulich qisqichi nima uchun ishlatiladi?",
+   "a": [
+    "Qorin pardasini va salfetkalarni ushlash uchun",
+    "Uzun naysimon suyaklarni kesish uchun",
+    "Tishlarni sug'urish va ildizini olish uchun",
+    "Ko'z qovoqlarini ochib turish uchun"
+   ],
+   "e": "Qorin operatsiyalarida."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Trepanatsiya uchun qaysi asboblar to'plami kerak?",
+   "a": [
+    "Bosh suyagini teshish va kesish asboblari",
+    "Faqat ko'z operatsiyalari uchun mikroasboblar",
+    "Faqat igna ushlagich",
+    "Faqat skalpel, pinset va tomir qisqichlari"
+   ],
+   "e": "Neyroxirurgiya."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Asboblarni operatsiya hamshirasi jarrohga qanday uzatadi?",
+   "a": [
+    "Ishchi qismi pastga, dastasi jarroh kaftiga",
+    "Ishchi qismi jarroh tomonga qaratib",
+    "Asbob stol ustiga jarroh yoniga qo'yiladi",
+    "Jarrohning o'zi stoldan olib ishlatadi"
+   ],
+   "e": "\"Kaftga\" uzatish."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Operatsiyadan oldin va keyin hamshira nimani albatta sanaydi?",
+   "a": [
+    "Salfetkalar, tamponlar va asboblar sonini",
+    "Faqat operatsiya boshlangan va tugagan vaqtini",
+    "Faqat bemorning yurak urishi va nafasini",
+    "Faqat operatsiyada qatnashgan xodimlar sonini"
+   ],
+   "e": "Qorin bo'shlig'ida yot jism qolmasligi uchun."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Siydik pufagini kateterlashda qaysi qoida asosiy?",
+   "a": [
+    "Aseptika qoidalariga qat'iy rioya qilinadi",
+    "Kateter qo'l bilan ushlanadi, qo'lqopsiz",
+    "Kateter kuch bilan kiritiladi",
+    "Siydik pufagi bir zumda to'liq bo'shatiladi"
+   ],
+   "e": "Siydik yo'li infeksiyasining oldini olish."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Doimiy (Foley) kateteri qanday mahkamlanadi?",
+   "a": [
+    "Kateter uchidagi ballon suv bilan to'ldiriladi",
+    "Leykoplastir bilan siydik yo'liga yopishtiriladi",
+    "Chok bilan tikib qo'yiladi",
+    "Hech qanday mahkamlanmaydi"
+   ],
+   "e": "Steril suv."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Plevral punksiya qaysi qovurg'a oralig'ida o'tkaziladi (suyuqlik chiqarishda)?",
+   "a": [
+    "VII–VIII qovurg'a oralig'ida",
+    "II qovurg'a oralig'ida, o'mrov o'rta chizig'i bo'yicha",
+    "IV qovurg'a oralig'ida, to'sh chetida",
+    "XII qovurg'a ostida"
+   ],
+   "e": "Havo chiqarishda — II qovurg'a oralig'i."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Plevral punksiyada igna qovurg'aning qaysi qirrasi bo'ylab kiritiladi?",
+   "a": [
+    "Pastdagi qovurg'aning yuqori qirrasi bo'ylab",
+    "Yuqoridagi qovurg'aning pastki qirrasi bo'ylab",
+    "Qovurg'a suyagi orqali",
+    "Farqi yo'q"
+   ],
+   "e": "Qovurg'a osti tomir-nerv tutami shikastlanmasligi uchun."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Laparotsentez nima?",
+   "a": [
+    "Qorin bo'shlig'idan suyuqlik chiqarish uchun punksiya",
+    "Plevra bo'shlig'idan havo yoki suyuqlik olish",
+    "Tizza bo'g'imidan suyuqlik olish punksiyasi",
+    "Orqa miya kanalidan likvor olish punksiyasi"
+   ],
+   "e": "Astsitda."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Lyumbal punksiya qayerda bajariladi?",
+   "a": [
+    "III–IV yoki IV–V bel umurtqalari orasida",
+    "Bo'yin umurtqalari orasida (C3–C4)",
+    "Ko'krak umurtqalari orasida (Th6–Th7)",
+    "Dumg'aza suyagi teshiklari orqali"
+   ],
+   "e": "Orqa miya tugaydigan joydan pastda."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Bo'g'im punksiyasi asosan nima uchun o'tkaziladi?",
+   "a": [
+    "Suyuqlikni chiqarish va tekshirish uchun",
+    "Bo'g'imni immobilizatsiya qilish uchun",
+    "Bo'g'imni ichidan uqalash uchun",
+    "Bo'g'imga issiq eritma yuborib isitish uchun"
+   ],
+   "e": "Gemartrozda."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Burun-oshqozon zondi qo'yishda zond uzunligi qanday aniqlanadi?",
+   "a": [
+    "Burun uchi–quloq solinchagi–xanjarsimon o'simta",
+    "Faqat bemorning bo'yiga qarab hisoblanadi",
+    "Har doim 10 sm kiritiladi",
+    "Taxminan, hech qanday o'lchovsiz kiritiladi"
+   ],
+   "e": "Zondning holati tekshiriladi."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Tozalovchi huqna uchun qancha suv ishlatiladi (kattalar)?",
+   "a": [
+    "1–1,5 litr",
+    "50–100 ml",
+    "5 litr",
+    "10 litr"
+   ],
+   "e": "Harorati 20–22 °C."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Sifon huqna qachon qo'llanadi?",
+   "a": [
+    "Ichak tutilishida, ichakni yuvish uchun",
+    "Har kuni ich qotishining oldini olish uchun",
+    "Faqat dori yuborish uchun",
+    "Faqat bolalarda tug'ma kasallikda"
+   ],
+   "e": "10–12 litr suv bilan."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Gipertonik huqnada qaysi eritma ishlatiladi?",
+   "a": [
+    "10% natriy xlorid yoki 25% magniy sulfat eritmasi",
+    "0,9% natriy xlorid (izotonik) eritmasi",
+    "5% glyukoza eritmasi",
+    "Distillangan suv yoki qaynatilgan suv"
+   ],
+   "e": "50–100 ml, ichakni qo'zg'atadi."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Yog'li huqna qachon qo'llanadi?",
+   "a": [
+    "Surunkali ich qotishida",
+    "O'tkir ich ketishida",
+    "Ichakdan qon ketishida",
+    "Operatsiyadan oldin darhol"
+   ],
+   "e": "100–200 ml iliq moy."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Gaz chiqaruvchi naycha ichakda qancha vaqtgacha qoldiriladi?",
+   "a": [
+    "1–2 soatgacha",
+    "Bir sutka (24 soat)",
+    "Bir hafta",
+    "Doimiy qoldiriladi"
+   ],
+   "e": "Yotoq yaralari xavfi."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Operatsiya hamshirasi steril stolni necha soat saqlay oladi?",
+   "a": [
+    "6 soat",
+    "24 soat",
+    "3 sutka",
+    "1 hafta"
+   ],
+   "e": "Keyin qayta yoziladi."
+  },
+  {
+   "b": "Jarrohlik asboblari va manipulyatsiyalar",
+   "q": "Muzli xalta qanday qo'yiladi?",
+   "a": [
+    "Mato orqali, 20–30 daqiqa, tanaffus bilan",
+    "To'g'ridan-to'g'ri teriga, sutka davomida",
+    "Faqat bosh orqasiga, 5 daqiqaga",
+    "Kiyim ostiga, uzoq vaqtga"
+   ],
+   "e": "Sovuq urishining oldini olish."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "Hamshira bemor qoni bilan ifloslangan igna bilan jarohatlansa birinchi navbatda nima qiladi?",
+   "a": [
+    "Qonni siqib chiqarib yuvadi, spirt bilan ishlov beradi",
+    "Yarani darhol og'iz bilan so'rib, tupurib tashlaydi",
+    "Hech narsa qilmaydi, ishni davom ettiradi",
+    "Yaraga issiq kompress qo'yib, bog'laydi"
+   ],
+   "e": "Avariya holati jurnalga qayd qilinadi."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "Ko'zga bemor qoni tushganda nima qilinadi?",
+   "a": [
+    "Ko'p miqdorda oqar suv bilan yuviladi",
+    "Ko'z qo'l bilan qattiq ishqalanib tozalanadi",
+    "Ko'zga 70% spirt eritmasi tomiziladi",
+    "Hech narsa qilinmaydi, o'zi yuviladi"
+   ],
+   "e": "Ishqalanmaydi."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "OIV infeksiyasining jarrohlik bo'limida yuqish yo'li qaysi?",
+   "a": [
+    "Qon va qon komponentlari orqali (parenteral)",
+    "Havo-tomchi yo'li bilan, yo'talganda",
+    "Qo'l berib ko'rishganda, teri orqali",
+    "Umumiy idishdan ovqatlanganda"
+   ],
+   "e": "Igna bilan jarohatlanish xavfli."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "Jarrohlik bo'limi xodimlari qaysi virusli gepatitga qarshi emlanadi?",
+   "a": [
+    "Virusli gepatit B",
+    "Virusli gepatit A",
+    "Virusli gepatit E",
+    "Emlanmaydi"
+   ],
+   "e": "Kasbiy xavf."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "Ishlatilgan ignalar qayerga tashlanadi?",
+   "a": [
+    "Teshilmaydigan maxsus konteynerga, qalpoqchasi kiydirilmay",
+    "Oddiy polietilen xaltaga, maishiy chiqindi bilan birga",
+    "Qalpoqchasini kiydirib, chiqindi savatiga",
+    "Yuvib, qayta foydalanish uchun stolga"
+   ],
+   "e": "Qalpoqcha kiydirishda jarohat xavfi."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "Tibbiy chiqindilarning qaysi sinfi epidemiologik xavfli hisoblanadi?",
+   "a": [
+    "B sinf",
+    "A sinf",
+    "D sinf",
+    "G sinf"
+   ],
+   "e": "A — xavfsiz, B — xavfli, V — o'ta xavfli, G — kimyoviy, D — radioaktiv."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "Qo'llarni gigiyenik yuvish qancha vaqt davom etadi?",
+   "a": [
+    "Kamida 40–60 soniya",
+    "5 soniya, faqat suv bilan chayish",
+    "10 daqiqa, cho'tka bilan ishqalab",
+    "1 soniya, antiseptik sepib"
+   ],
+   "e": "Antiseptik bilan — 20–30 soniya."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "Kasalxona ichi infeksiyasi (KII) nima?",
+   "a": [
+    "Kasalxonaga yotgandan 48 soat va undan keyin yuzaga kelgan infeksiya",
+    "Bemor kasalxonaga yotqizilishidan oldin yuqtirgan infeksiya",
+    "Faqat bolalarda bo'ladigan infeksiya",
+    "Faqat uyda yuqadigan infeksiya"
+   ],
+   "e": "Nozokomial infeksiya."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "Dezinfeksiyaning qaysi turi infeksiya o'chog'ida bemor bo'lgan paytda o'tkaziladi?",
+   "a": [
+    "Joriy dezinfeksiya",
+    "Yakuniy dezinfeksiya",
+    "Profilaktik dezinfeksiya",
+    "Sterilizatsiya"
+   ],
+   "e": "Yakuniy — bemor chiqib ketgandan keyin."
+  },
+  {
+   "b": "Infeksion xavfsizlik va xodimlar himoyasi",
+   "q": "Xlor saqlovchi dezinfeksiyalovchi vositalar bilan ishlaganda nima kiyiladi?",
+   "a": [
+    "Respirator (niqob), qo'lqop, ko'zoynak, fartuk",
+    "Hech qanday himoya vositasi kerak emas",
+    "Faqat bosh kiyim (qalpoqcha)",
+    "Faqat oyoq kiyim ustidan bahil"
+   ],
+   "e": "Ta'sirchan va zaharli."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Gematuriya nima?",
+   "a": [
+    "Siydikda qon bo'lishi",
+    "Siydikda oqsil bo'lishi",
+    "Siydikda qand bo'lishi",
+    "Siydik ajralmasligi"
+   ],
+   "e": "Makro va mikrogematuriya."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Anuriya nima?",
+   "a": [
+    "Siydik ajralishining to'xtashi",
+    "Sutkalik siydikning 3 litrdan ko'p bo'lishi",
+    "Kechasi ko'p siydik ajralishi",
+    "Og'riqli siyish"
+   ],
+   "e": "Ishuriya — siydik tutilishi."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Ishuriya nima?",
+   "a": [
+    "Siydik pufagida siydikning tutilib qolishi",
+    "Siydik ajralishining umuman bo'lmasligi (anuriya)",
+    "Kechasi tez-tez va ko'p siyish (nikturiya)",
+    "Siydikda qon paydo bo'lishi (gematuriya)"
+   ],
+   "e": "Siydik pufagi to'la."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Prostata adenomasida asosiy shikoyat qaysi?",
+   "a": [
+    "Siyishning qiyinlashishi, tez-tez va kechasi siyish",
+    "Qorin yuqori qismida ovqatdan keyingi xurujsimon og'riq",
+    "Yo'tal, hansirash va ko'krakda og'riq",
+    "Bosh og'rig'i va ko'rishning pasayishi"
+   ],
+   "e": "Keksa erkaklarda."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Sut bezini o'z-o'zini tekshirish qachon o'tkaziladi?",
+   "a": [
+    "Har oy, hayz tugagandan keyingi 5–7-kunlarda",
+    "Faqat yilda bir marta, tug'ilgan kunda",
+    "Faqat hayz kunlarida, har oy",
+    "Hech qachon, faqat shifokor tekshiradi"
+   ],
+   "e": "Menopauzada — oyning bir kunida."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Xavfli o'smaning xavfsiz o'smadan asosiy farqi qaysi?",
+   "a": [
+    "Atrof to'qimalarga o'sib kiradi va metastaz beradi",
+    "Sekin o'sadi va aniq kapsulaga ega bo'ladi",
+    "Olib tashlangandan keyin hech qachon qaytalanmaydi",
+    "Faqat yosh bolalarda uchraydi va tez yo'qoladi"
+   ],
+   "e": "Infiltrativ o'sish."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Onkologik bemorga og'riqsizlantirishda qanday tamoyil qo'llanadi?",
+   "a": [
+    "JSST \"uch pog'onali zinapoya\" tamoyili",
+    "Faqat og'riq juda kuchayganda, bir martalik in'eksiya",
+    "Faqat narkotik bo'lmagan dorilar",
+    "Og'riqsizlantirish o'tkazilmaydi"
+   ],
+   "e": "\"Soat bo'yicha\", \"og'iz orqali\"."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Varikoz kasalligida bemorga qanday tavsiya beriladi?",
+   "a": [
+    "Elastik bint yoki kompression paypoq kiyish",
+    "Oyoqqa kechqurun issiq vanna qilish",
+    "Uzoq vaqt tik turib ishlashni davom ettirish",
+    "Oyoqni pastga osiltirib o'tirib dam olish"
+   ],
+   "e": "Venoz qaytishni yaxshilaydi."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Tromboflebitda oyoq qanday holatda bo'ladi?",
+   "a": [
+    "Ko'tarilgan holatda, tinch",
+    "Pastga osiltirilgan holatda",
+    "Faol uqalanadi",
+    "Issiq vannaga solinadi"
+   ],
+   "e": "Uqalash tromboemboliya xavfi."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Obliteratsiyalovchi endarteriitning asosiy xavf omili qaysi?",
+   "a": [
+    "Chekish",
+    "Ko'p meva iste'mol qilish",
+    "Jismoniy faollik",
+    "Ko'p suv ichish"
+   ],
+   "e": "\"Oraliq oqsoqlanish\"."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Yotoq yarasining I bosqichi belgisi qaysi?",
+   "a": [
+    "Bosilib turgan joyda bosganda yo'qolmaydigan qizarish",
+    "Mushak va suyakkacha yetgan chuqur yara",
+    "Teri barcha qavatlarining to'liq nekrozi va qora qobiq",
+    "Ichida yiringli bo'shliq va oqma yo'l"
+   ],
+   "e": "Teri butun."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Yotoq yaralari ko'pincha qayerda hosil bo'ladi?",
+   "a": [
+    "Dumg'aza, kuraklar, tovonlar, ensada",
+    "Qorin old devori va kindik atrofida",
+    "Bilakning ichki yuzasi va kaftda",
+    "Sonning old yuzasi va tizza ustida"
+   ],
+   "e": "Suyak bo'rtiqlari ustida."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Ko'krak qafasi jarohatidan keyingi plevral drenaj (Byulau bo'yicha) qanday ishlaydi?",
+   "a": [
+    "Naycha suv ostidagi idishga ulanadi",
+    "Naycha ochiq havoga chiqarilib qo'yiladi",
+    "Naycha qisqich bilan doim yopiq turadi",
+    "Naycha bemorning og'ziga ulanadi"
+   ],
+   "e": "Suvli zatvor."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Plevral drenajli idish qayerda joylashtiriladi?",
+   "a": [
+    "Bemor ko'krak qafasidan pastda",
+    "Bemor boshidan yuqorida, shtativda",
+    "Bemor ko'kragi ustida, bog'lab qo'yilgan",
+    "Farqi yo'q, istalgan joyda"
+   ],
+   "e": "Suyuqlik qaytib kirmasligi uchun."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Mastit nima?",
+   "a": [
+    "Sut bezining yallig'lanishi",
+    "Bachadon yallig'lanishi",
+    "Qalqonsimon bez yallig'lanishi",
+    "Ter bezi yallig'lanishi"
+   ],
+   "e": "Ko'pincha emizikli onalarda."
+  },
+  {
+   "b": "Urologiya, onkologiya va boshqa bo'limlar",
+   "q": "Osteomielit nima?",
+   "a": [
+    "Suyak ko'migi va suyakning yiringli yallig'lanishi",
+    "Bo'g'im xaltasining yallig'lanishi (bursit)",
+    "Skelet mushagining yallig'lanishi (miozit)",
+    "Teri osti kletchatkasining yallig'lanishi"
+   ],
+   "e": "Gematogen va travmatik."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Sun'iy o'pka ventilyatsiyasidagi bemorda traxeya sanatsiyasi qanday o'tkaziladi?",
+   "a": [
+    "Steril kateter bilan, aseptika qoidalariga rioya qilib",
+    "Oddiy toza kateter bilan, qo'lqopsiz bajariladi",
+    "Og'iz orqali shprits bilan suv yuborib yuviladi",
+    "Sanatsiya umuman o'tkazilmaydi, xavfli"
+   ],
+   "e": "Bir martalik kateter."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Markaziy vena kateteri qo'yilgan bemorda hamshiraning asosiy vazifasi qaysi?",
+   "a": [
+    "Kateter joyini aseptik parvarish qilish",
+    "Kateterni har kuni o'zi olib, yangisini qo'yish",
+    "Kateterdan qon olish va dori yuborishni man qilish",
+    "Kateter uchini ochiq qoldirib, havo kirgizish"
+   ],
+   "e": "Geparinli \"qulf\" ham."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Parenteral oziqlantirish deganda nima tushuniladi?",
+   "a": [
+    "Oziq moddalarni vena ichiga yuborish",
+    "Zond orqali oshqozonga suyuq ovqat berish",
+    "Og'iz orqali suyuq, maydalangan ovqat berish",
+    "Huqna orqali to'g'ri ichakka ovqat yuborish"
+   ],
+   "e": "Aminokislotalar, yog' emulsiyalari, glyukoza."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Enteral oziqlantirish qanday amalga oshiriladi?",
+   "a": [
+    "Oshqozon-ichak trakti orqali",
+    "Faqat vena ichiga eritmalar yuborib",
+    "Faqat mushak ichiga in'eksiya qilib",
+    "Faqat teri ostiga eritma yuborib"
+   ],
+   "e": "Fiziologik yo'l."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Sutkalik diurezni hisoblashda nima e'tiborga olinadi?",
+   "a": [
+    "Kirgan va chiqqan suyuqlik miqdori",
+    "Faqat bemor yegan ovqat hajmi",
+    "Faqat bemorning ertalabki tana vazni",
+    "Faqat sutkada ichilgan choy miqdori"
+   ],
+   "e": "Suv balansi."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Glazgo koma shkalasi nimani baholaydi?",
+   "a": [
+    "Hush darajasini",
+    "Og'riq kuchini (0 dan 10 gacha)",
+    "Qon yo'qotish hajmini (foizda)",
+    "Kuyish maydonini (to'qqizlar qoidasi)"
+   ],
+   "e": "3 dan 15 ballgacha."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Glazgo shkalasi bo'yicha 15 ball nimani bildiradi?",
+   "a": [
+    "Hush to'liq saqlangan",
+    "Chuqur koma",
+    "Miya o'limi",
+    "Sopor"
+   ],
+   "e": "8 va undan kam — koma."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Reanimatsiya bo'limida bemorlarning ko'rsatkichlari qanday kuzatiladi?",
+   "a": [
+    "Monitor orqali uzluksiz (EKG, SpO₂, AB, nafas)",
+    "Faqat ertalab bir marta o'lchanadi",
+    "Faqat bemor shikoyat qilganda o'lchanadi",
+    "Kuzatilmaydi, faqat shifokor ko'rigi"
+   ],
+   "e": "Intensiv kuzatuv."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Arterial bosim keskin pasayganda (kollaps) bemorga qanday holat beriladi?",
+   "a": [
+    "Gorizontal, oyoqlari ko'tarilgan holat",
+    "O'tirgan holat, oyoqlari pastga osilgan",
+    "Boshi baland ko'tarilgan yarim o'tirgan holat",
+    "Qorni bilan yotqizilgan, boshi yonda"
+   ],
+   "e": "Miyaga qon oqimini yaxshilaydi."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Gipertermiyada (40 °C dan yuqori) jismoniy sovutish usuli qaysi?",
+   "a": [
+    "Yirik tomirlar sohasiga muz, ho'l artish",
+    "Qalin ko'rpaga o'rab terlatish",
+    "Issiq choy va iliq sut ichirib terlatish",
+    "Oyoqlarga issiq grelka qo'yish"
+   ],
+   "e": "Antipiretiklar bilan birga."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Oksigenoterapiyada kislorod nima uchun namlanadi?",
+   "a": [
+    "Shilliq qavat qurishining oldini olish uchun",
+    "Kislorodni tana haroratigacha isitish uchun",
+    "Kislorod oqimi tezligini oshirish uchun",
+    "Kislorodning o'ziga xos hidini yo'qotish uchun"
+   ],
+   "e": "Bobrov apparati orqali."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Burun kanyulasi orqali kislorod berilganda oqim tezligi odatda qancha?",
+   "a": [
+    "2–6 l/daqiqa",
+    "20–30 l/daqiqa",
+    "0,1 l/daqiqa",
+    "50 l/daqiqa"
+   ],
+   "e": "Shifokor buyrug'iga ko'ra."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Operatsiyadan keyingi birinchi sutkada bemor qancha vaqtda kuzatiladi?",
+   "a": [
+    "Har 1–2 soatda puls, AB, nafas, bog'lam",
+    "Faqat sutkada bir marta, ertalab",
+    "Faqat bemor o'zi chaqirganda",
+    "Kuzatilmaydi, bemor uxlashi kerak"
+   ],
+   "e": "Erta asoratlarni aniqlash."
+  },
+  {
+   "b": "Qo'shimcha: reanimatsiya bo'limida parvarish",
+   "q": "Reanimatsiya bo'limida bemor qarindoshlari bilan muloqotda hamshira nimaga rioya qiladi?",
+   "a": [
+    "Tibbiy sir va deontologiya qoidalariga",
+    "Barcha ma'lumotni batafsil aytib beradi",
+    "Hech qanday javob bermaydi, haydaydi",
+    "Tashxisni mustaqil e'lon qiladi"
+   ],
+   "e": "Ma'lumot shifokor tomonidan beriladi."
+  }
+ ],
+ "kalit": "xirurgiya jarrohlik reanimatsiya hamshira anesteziya travmatologiya desmurgiya aseptika"
+}
