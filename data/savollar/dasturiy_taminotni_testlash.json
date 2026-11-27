@@ -1,0 +1,1383 @@
+{
+ "kod": "5PM0185",
+ "nomi": "Dasturiy ta’minotni testlash",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (6 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Testlash asoslari",
+   "q": "Dasturiy ta'minotni testlash nima?",
+   "a": [
+    "Talablarga moslikni tekshirish",
+    "Dasturni yozish va kompilyatsiya qilishning o'zi",
+    "Dasturni foydalanuvchilarga sotish jarayoni",
+    "Kompyuter apparatini ta'mirlash"
+   ],
+   "e": "Nuqsonlarni aniqlash."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Testlashning asosiy maqsadi nima?",
+   "a": [
+    "Nuqsonlarni aniqlash",
+    "Dasturda xato yo'qligini to'liq isbotlash",
+    "Dasturchilarni jazolash",
+    "Dastur kodini o'chirish"
+   ],
+   "e": "Testlash xatolar borligini ko'rsatadi, yo'qligini emas."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Testlash tamoyillaridan biri qaysi?",
+   "a": [
+    "To'liq (exhaustive) testlash imkonsiz",
+    "Har qanday dasturni barcha kirishlarda tekshirish mumkin",
+    "Testlash faqat oxirida o'tkaziladi",
+    "Xatolar hamma modulda teng taqsimlangan"
+   ],
+   "e": "ISTQB tamoyillari."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "\"Pestitsid paradoksi\" testlashda nimani anglatadi?",
+   "a": [
+    "Eski testlar yangi xato topmaydi",
+    "Testlar dasturni zararlaydi",
+    "Test qancha ko'p bo'lsa, xato shuncha ko'p paydo bo'ladi",
+    "Testlashni to'xtatish kerak"
+   ],
+   "e": "Testlarni yangilab turish zarur."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Xatolarning to'planishi (defect clustering) tamoyili nimani bildiradi?",
+   "a": [
+    "Nuqsonlar oz modulda to'planadi",
+    "Xatolar barcha modullarda bir xil",
+    "Xatolar faqat interfeysda bo'ladi",
+    "Xatolar faqat ma'lumotlar bazasida bo'ladi"
+   ],
+   "e": "Pareto tamoyili."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Erta testlash tamoyili nima uchun muhim?",
+   "a": [
+    "Tuzatish arzonroq",
+    "Dastur sekinlashadi",
+    "Testlash umuman kerak bo'lmaydi",
+    "Talablar o'zgarmaydi"
+   ],
+   "e": "Talablar bosqichidan boshlash."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Xato (error), nuqson (defect) va nosozlik (failure) farqi nima?",
+   "a": [
+    "Xato → nuqson → nosozlik",
+    "Ular mutlaqo bir xil tushunchalar",
+    "Nosozlik har doim apparat buzilishi",
+    "Nuqson faqat hujjatda bo'ladi"
+   ],
+   "e": "Sabab–natija zanjiri."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Verifikatsiya va validatsiya farqi nima?",
+   "a": [
+    "To'g'ri qurilganmi va to'g'ri narsami",
+    "Ikkalasi bir xil",
+    "Validatsiya faqat kodni o'qish",
+    "Verifikatsiya faqat foydalanuvchi testi"
+   ],
+   "e": "\"Building the product right\" va \"building the right product\"."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Sifatni ta'minlash (QA) va sifat nazorati (QC) farqi nima?",
+   "a": [
+    "QA jarayonga, QC mahsulotga",
+    "Ular bir xil",
+    "QA faqat testlash",
+    "QC faqat hujjatlashtirish"
+   ],
+   "e": "QA oldini olishga qaratilgan."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Test-keys (test case) nima?",
+   "a": [
+    "Qadamlar va kutilgan natija",
+    "Dastur kodi fayli",
+    "Xato hisoboti",
+    "Foydalanuvchi qo'llanmasi"
+   ],
+   "e": "Takrorlanadigan sinov."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Test-keys tarkibiga nima kiradi?",
+   "a": [
+    "Shartlar, qadamlar, natija",
+    "Faqat dastur nomi",
+    "Faqat dasturchi ismi",
+    "Faqat sana"
+   ],
+   "e": "Haqiqiy natija ham qayd etiladi."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Bag-report (xato hisoboti) da nima bo'lishi shart?",
+   "a": [
+    "Qadamlar va natijalar",
+    "Faqat \"dastur ishlamayapti\" degan so'z",
+    "Dasturchining shaxsiy telefoni",
+    "Faqat skrinshot, izohsiz"
+   ],
+   "e": "Muhimlik va ustuvorlik ham."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Nuqsonning muhimligi (severity) nimani bildiradi?",
+   "a": [
+    "Tizimga ta'sir darajasini",
+    "Tuzatish navbatini",
+    "Dasturchining tajribasini",
+    "Test-keys sonini"
+   ],
+   "e": "Blocker, critical, major, minor."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Nuqsonning ustuvorligi (priority) nimani bildiradi?",
+   "a": [
+    "Shoshilinchlikni",
+    "Tizimga ta'sir kuchini",
+    "Nuqson topilgan vaqtni",
+    "Testerning ismini"
+   ],
+   "e": "Biznes ehtiyojiga bog'liq."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Nuqsonning hayot siklida \"Reopened\" holati qachon beriladi?",
+   "a": [
+    "Xato qayta paydo bo'lsa",
+    "Nuqson birinchi marta topilganda",
+    "Nuqson rad etilganda",
+    "Nuqson yopilganda va tekshirilganda"
+   ],
+   "e": "Qayta tekshiruvdan o'tmadi."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Test rejasi (test plan) nima?",
+   "a": [
+    "Testlash rejasi hujjati",
+    "Bitta test-keys",
+    "Dastur kodi",
+    "Xato hisoboti"
+   ],
+   "e": "IEEE 829."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Test strategiyasi nimani belgilaydi?",
+   "a": [
+    "Umumiy yondashuvni",
+    "Faqat bitta funksiyani",
+    "Faqat dasturchining ish vaqtini",
+    "Faqat server narxini"
+   ],
+   "e": "Darajalar, turlar, vositalar."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Chek-list (tekshiruv ro'yxati) test-keysdan nimasi bilan farq qiladi?",
+   "a": [
+    "Qisqa va batafsil qadamlarsiz",
+    "Har doim uzunroq va batafsil",
+    "Dastur kodini o'z ichiga oladi",
+    "Faqat avtomatlashtirilgan"
+   ],
+   "e": "Tajribali testerlar uchun."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Kirish va chiqish mezonlari (entry/exit criteria) nimani belgilaydi?",
+   "a": [
+    "Boshlash va tugatish shartlarini",
+    "Ofisga kirish vaqtini",
+    "Parol talablarini",
+    "Ish haqini"
+   ],
+   "e": "Masalan, kritik xatolar yo'qligi."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Regressiya nuqsoni nima?",
+   "a": [
+    "Eski funksiyaning buzilishi",
+    "Birinchi marta topilgan yangi funksiya xatosi",
+    "Apparat nosozligi",
+    "Hujjatdagi imlo xatosi"
+   ],
+   "e": "Regressiya testlash bilan aniqlanadi."
+  },
+  {
+   "b": "Testlash darajalari",
+   "q": "Testlash darajalari qaysilar?",
+   "a": [
+    "Modul, integratsion, tizimli, qabul",
+    "Faqat foydalanuvchi va dasturchi",
+    "Faqat oldin va keyin",
+    "Faqat qo'lda va avtomatik"
+   ],
+   "e": "Unit, integration, system, acceptance."
+  },
+  {
+   "b": "Testlash darajalari",
+   "q": "Modulli (unit) testlashni odatda kim bajaradi?",
+   "a": [
+    "Dasturchi",
+    "Faqat oxirgi foydalanuvchi",
+    "Faqat menejer",
+    "Faqat buyurtmachi"
+   ],
+   "e": "Alohida funksiya va sinflar."
+  },
+  {
+   "b": "Testlash darajalari",
+   "q": "Integratsion testlash nimani tekshiradi?",
+   "a": [
+    "Modullar o'zaro ishlashini",
+    "Faqat bitta funksiyani alohida",
+    "Faqat foydalanuvchi interfeysi rangini",
+    "Faqat hujjatlarni"
+   ],
+   "e": "Interfeyslar."
+  },
+  {
+   "b": "Testlash darajalari",
+   "q": "Tizimli testlash nimani tekshiradi?",
+   "a": [
+    "Butun tizimni",
+    "Faqat bitta o'zgaruvchini",
+    "Faqat kompilyatorni",
+    "Faqat dasturchi kodini o'qish"
+   ],
+   "e": "To'liq yig'ilgan mahsulot."
+  },
+  {
+   "b": "Testlash darajalari",
+   "q": "Qabul testlashi (acceptance) maqsadi nima?",
+   "a": [
+    "Buyurtmachi ehtiyojiga moslik",
+    "Dasturchini ishga qabul qilish",
+    "Faqat modulni tekshirish",
+    "Xatolarni yashirish"
+   ],
+   "e": "UAT — foydalanuvchi qabul testi."
+  },
+  {
+   "b": "Testlash darajalari",
+   "q": "Alfa-testlash qayerda o'tkaziladi?",
+   "a": [
+    "Ishlab chiquvchi tashkilot ichida",
+    "Faqat oxirgi foydalanuvchilar uyida",
+    "Faqat ishlab chiqarishda (production)",
+    "Hech qayerda"
+   ],
+   "e": "Beta — tashqi foydalanuvchilar."
+  },
+  {
+   "b": "Testlash darajalari",
+   "q": "Beta-testlash nima?",
+   "a": [
+    "Real foydalanuvchilar sinovi",
+    "Dasturchining modulli testi",
+    "Kod tahlili",
+    "Apparat sinovi"
+   ],
+   "e": "Fikr-mulohaza yig'ish."
+  },
+  {
+   "b": "Testlash darajalari",
+   "q": "Integratsiyada \"yuqoridan pastga\" yondashuvda nima ishlatiladi?",
+   "a": [
+    "Zaglushkalar (stub)",
+    "Drayverlar faqat",
+    "Hech narsa",
+    "Faqat ma'lumotlar bazasi"
+   ],
+   "e": "Pastdan yuqoriga — drayverlar."
+  },
+  {
+   "b": "Testlash darajalari",
+   "q": "\"Katta portlash\" (Big Bang) integratsiyasining kamchiligi nima?",
+   "a": [
+    "Xatoni lokalizatsiya qilish qiyin",
+    "Juda ko'p vaqt talab qiladi har doim",
+    "Modullar kerak emas",
+    "Hech qanday kamchiligi yo'q"
+   ],
+   "e": "Hamma modul birdan ulanadi."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Funksional testlash nimani tekshiradi?",
+   "a": [
+    "Tizim nima qilishini",
+    "Tizim qanchalik tez va yuklamaga chidamli ishlashini",
+    "Faqat dastur kodining uslubini",
+    "Faqat serverning harorat rejimini"
+   ],
+   "e": "Talablardagi funksiyalar."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Nofunksional testlashga nima kiradi?",
+   "a": [
+    "Unumdorlik, xavfsizlik, qulaylik",
+    "Faqat tugma bosilganda natija chiqishi",
+    "Faqat kirish va chiqish qiymatlari",
+    "Faqat ma'lumotlar bazasi so'rovlari"
+   ],
+   "e": "\"Qanday ishlaydi\"."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Yuklama (load) testlashi nimani tekshiradi?",
+   "a": [
+    "Kutilgan yuklamada ishlashni",
+    "Tizim ranglarini",
+    "Faqat imlo xatolarini",
+    "Faqat hujjatlarni"
+   ],
+   "e": "Masalan, 1000 foydalanuvchi."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Stress-testlash nimani aniqlaydi?",
+   "a": [
+    "Tizim chegarasini",
+    "Faqat normal ish rejimini",
+    "Faqat interfeys dizaynini",
+    "Faqat litsenziyani"
+   ],
+   "e": "Qayta tiklanish qobiliyati."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Usability (foydalanish qulayligi) testi nimani baholaydi?",
+   "a": [
+    "Qulaylikni",
+    "Server quvvatini",
+    "Kod murakkabligini",
+    "Xatolar sonini faqat"
+   ],
+   "e": "Intuitiv interfeys."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Xavfsizlik testlashi nimani tekshiradi?",
+   "a": [
+    "Ruxsatsiz kirishga chidamlilikni",
+    "Faqat tugmalar rangini",
+    "Faqat tezlikni",
+    "Faqat imloni"
+   ],
+   "e": "Zaifliklar."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Smoke-testlash nima?",
+   "a": [
+    "Tezkor asosiy tekshiruv",
+    "Barcha funksiyalarni chuqur tekshirish",
+    "Faqat xavfsizlik testi",
+    "Faqat hujjat tekshiruvi"
+   ],
+   "e": "Build barqarorligi."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Sanity-testlash nima?",
+   "a": [
+    "Tor tekshiruv",
+    "To'liq regressiya",
+    "Yuklama testi",
+    "Kod tahlili"
+   ],
+   "e": "Tez tasdiqlash."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Regressiya testlashi qachon o'tkaziladi?",
+   "a": [
+    "O'zgarishlardan keyin",
+    "Faqat loyiha boshida",
+    "Hech qachon",
+    "Faqat yil oxirida"
+   ],
+   "e": "Avtomatlashtirish uchun qulay."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Qayta testlash (re-testing) nima?",
+   "a": [
+    "Tuzatilganni qayta tekshirish",
+    "Barcha testlarni yangidan yozish",
+    "Dasturni qayta o'rnatish",
+    "Testerlarni almashtirish"
+   ],
+   "e": "Confirmation testing."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Moslik (compatibility) testlashi nimani tekshiradi?",
+   "a": [
+    "Turli muhitlarda ishlashni",
+    "Faqat bitta kompyuterda ishlashni",
+    "Faqat kod uslubini",
+    "Faqat xatolar sonini"
+   ],
+   "e": "Brauzer, OT, qurilmalar."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Lokalizatsiya testlashi nimani tekshiradi?",
+   "a": [
+    "Til va mintaqa mosligini",
+    "Faqat server joylashuvini",
+    "Faqat tezlikni",
+    "Faqat xavfsizlikni"
+   ],
+   "e": "Tarjima, sana formati."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Ad-hoc testlash nima?",
+   "a": [
+    "Rejasiz, norasmiy testlash",
+    "Qat'iy hujjatlashtirilgan testlash",
+    "Faqat avtomatik testlash",
+    "Faqat yuklama testi"
+   ],
+   "e": "Tajribaga asoslangan."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Tadqiqot (exploratory) testlash nima?",
+   "a": [
+    "O'rganib testlash",
+    "Faqat oldindan yozilgan skript bo'yicha testlash",
+    "Faqat kodni o'qish",
+    "Testlashdan voz kechish"
+   ],
+   "e": "Sessiyalarga asoslangan."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "A/B testlash nima?",
+   "a": [
+    "Ikki variantni solishtirish",
+    "Ikki dasturchini solishtirish",
+    "Ikki serverni o'chirish",
+    "Ikki xatoni birlashtirish"
+   ],
+   "e": "Konversiya bo'yicha."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Qora quti usuli nimaga asoslanadi?",
+   "a": [
+    "Spetsifikatsiyaga, kodni bilmasdan",
+    "Dastur ichki kodini tahlil qilishga",
+    "Faqat apparat sxemasiga",
+    "Faqat dasturchi xotirasiga"
+   ],
+   "e": "Kirish–chiqish."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Oq quti usuli nimaga asoslanadi?",
+   "a": [
+    "Ichki kod tuzilmasiga",
+    "Faqat foydalanuvchi interfeysiga",
+    "Faqat talablar hujjatiga",
+    "Faqat dizaynga"
+   ],
+   "e": "Kod qamrovi."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Kulrang quti usuli nima?",
+   "a": [
+    "Qisman bilib testlash",
+    "Kodni to'liq bilib testlash",
+    "Kodni umuman bilmasdan testlash",
+    "Testlashdan voz kechish"
+   ],
+   "e": "Qora va oq quti aralashmasi."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Ekvivalent sinflarga ajratish texnikasi nimaga asoslanadi?",
+   "a": [
+    "Guruhdan bitta qiymatni tekshirishga",
+    "Barcha mumkin bo'lgan qiymatlarni tekshirishga",
+    "Faqat tasodifiy qiymatlarga",
+    "Faqat nol qiymatga"
+   ],
+   "e": "Testlar sonini kamaytiradi."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Yosh maydoni 18 dan 60 gacha qabul qiladi. Ekvivalent sinflar nechta?",
+   "a": [
+    "3 (kichik, to'g'ri, katta)",
+    "1",
+    "2",
+    "43"
+   ],
+   "e": "<18, 18–60, >60."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Chegaraviy qiymatlar tahlili nimani tekshiradi?",
+   "a": [
+    "Chegaralar va yaqin qiymatlarni",
+    "Faqat oraliq o'rtasini",
+    "Faqat tasodifiy qiymatlarni",
+    "Faqat manfiy sonlarni"
+   ],
+   "e": "Xatolar ko'pincha chegarada."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "1–100 oraliq uchun chegaraviy qiymatlar qaysilar?",
+   "a": [
+    "0, 1, 100, 101",
+    "50 faqat",
+    "1 va 50",
+    "25, 50, 75"
+   ],
+   "e": "Ikki nuqtali chegaraviy tahlil."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Qarorlar jadvali texnikasi qachon qo'llaniladi?",
+   "a": [
+    "Shartlar kombinatsiyasi bo'lganda",
+    "Faqat bitta oddiy shart bo'lganda",
+    "Faqat yuklama testida",
+    "Faqat interfeys rangida"
+   ],
+   "e": "Biznes qoidalari."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Holatlar o'tishi (state transition) texnikasi nimani modellashtiradi?",
+   "a": [
+    "Holatlar va o'tishlarni",
+    "Faqat ma'lumotlar bazasi jadvallarini",
+    "Faqat interfeys ranglarini",
+    "Faqat server yuklamasini"
+   ],
+   "e": "Masalan, bankomat."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Juftlik (pairwise) testlash nimani kamaytiradi?",
+   "a": [
+    "Kombinatsiyalar sonini",
+    "Xatolar sonini",
+    "Test muhiti narxini",
+    "Talablar sonini"
+   ],
+   "e": "Barcha juftliklar qamrab olinadi."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Operatorlar qamrovi (statement coverage) nimani o'lchaydi?",
+   "a": [
+    "Bajarilgan satrlar ulushini",
+    "Test-keyslar sonini",
+    "Xatolar sonini",
+    "Foydalanuvchilar sonini"
+   ],
+   "e": "Oq quti metrikasi."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Tarmoqlar qamrovi (branch coverage) nimani o'lchaydi?",
+   "a": [
+    "Bajarilgan tarmoqlar ulushini",
+    "Faqat satrlar sonini",
+    "Faqat funksiyalar sonini",
+    "Faqat fayllar sonini"
+   ],
+   "e": "if ning har ikki yo'li."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "100% tarmoqlar qamrovi 100% operatorlar qamrovini ta'minlaydimi?",
+   "a": [
+    "Ha",
+    "Yo'q",
+    "Faqat Python da",
+    "Faqat kichik dasturda"
+   ],
+   "e": "Tarmoq qamrovi kuchliroq."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Xatoni taxmin qilish (error guessing) texnikasi nimaga asoslanadi?",
+   "a": [
+    "Testerning tajribasiga",
+    "Faqat formal spetsifikatsiyaga",
+    "Faqat kod qamroviga",
+    "Faqat tasodifga"
+   ],
+   "e": "Tipik xatolar ro'yxati."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Foydalanish ssenariylari (use case) bo'yicha testlash nimani tekshiradi?",
+   "a": [
+    "Foydalanuvchi va tizim ta'sirini",
+    "Faqat kod uslubini",
+    "Faqat serverni",
+    "Faqat hujjatni"
+   ],
+   "e": "Asosiy va muqobil oqimlar."
+  },
+  {
+   "b": "Statik testlash",
+   "q": "Statik testlash nima?",
+   "a": [
+    "Kodni ishga tushirmasdan tekshirish",
+    "Dasturni real foydalanuvchilar bilan ishga tushirib sinash",
+    "Faqat yuklama ostida serverni sinash",
+    "Faqat avtomatik skriptlarni bajarish"
+   ],
+   "e": "Review, statik tahlil."
+  },
+  {
+   "b": "Statik testlash",
+   "q": "Dinamik testlash nima?",
+   "a": [
+    "Dasturni ishga tushirib tekshirish",
+    "Faqat hujjatlarni o'qib chiqish va izoh yozish",
+    "Faqat kodni ko'z bilan ko'rib chiqish",
+    "Faqat talablarni muhokama qilish"
+   ],
+   "e": "Test-keyslar bajariladi."
+  },
+  {
+   "b": "Statik testlash",
+   "q": "Kod review (ko'rib chiqish) nima beradi?",
+   "a": [
+    "Xatolarni erta aniqlash",
+    "Dasturni tezlashtirishni avtomatik ravishda",
+    "Serverni sovutishni",
+    "Foydalanuvchilar sonini oshirishni"
+   ],
+   "e": "Hamkasblar tekshiruvi."
+  },
+  {
+   "b": "Statik testlash",
+   "q": "Inspeksiya review ning qaysi turi?",
+   "a": [
+    "Eng rasmiy turi",
+    "Eng norasmiy turi",
+    "Faqat avtomatik turi",
+    "Review turi emas"
+   ],
+   "e": "Moderator, rollar, chek-listlar."
+  },
+  {
+   "b": "Statik testlash",
+   "q": "Statik kod analizatoriga misol qaysi?",
+   "a": [
+    "SonarQube",
+    "Selenium",
+    "JMeter",
+    "Postman"
+   ],
+   "e": "Kod sifati tahlili."
+  },
+  {
+   "b": "Statik testlash",
+   "q": "Talablarni testlash (review) nima uchun muhim?",
+   "a": [
+    "Noaniqliklarni erta topish uchun",
+    "Kodni tezroq yozish uchun",
+    "Serverni sotish uchun",
+    "Testerni ishdan bo'shatish uchun"
+   ],
+   "e": "Eng arzon tuzatish bosqichi."
+  },
+  {
+   "b": "Statik testlash",
+   "q": "Yaxshi talab qanday bo'lishi kerak?",
+   "a": [
+    "Aniq, tekshiriladigan, to'liq",
+    "Noaniq va ikki xil tushuniladigan",
+    "Faqat og'zaki aytilgan",
+    "Iloji boricha umumiy"
+   ],
+   "e": "Testlanuvchanlik."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Testlarni avtomatlashtirishning asosiy afzalligi nima?",
+   "a": [
+    "Takroriy testlarni tez bajarish",
+    "Har qanday testni avtomatlashtirish shart",
+    "Testerlar umuman kerak bo'lmaydi",
+    "Xatolar avtomatik tuzatiladi"
+   ],
+   "e": "Regressiya uchun ayniqsa."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Qaysi testlarni avtomatlashtirish odatda samarasiz?",
+   "a": [
+    "Bir martalik va tez o'zgaruvchan testlar",
+    "Ko'p takrorlanadigan regressiya testlari",
+    "Ma'lumotlarga asoslangan testlar",
+    "Yuklama testlari"
+   ],
+   "e": "Xarajat qoplanmaydi."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Veb-ilovalarni avtomatik testlash vositasi qaysi?",
+   "a": [
+    "Selenium",
+    "JMeter faqat yuklama uchun",
+    "Git",
+    "Docker"
+   ],
+   "e": "Brauzer avtomatizatsiyasi."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Yuklama testlash vositasi qaysi?",
+   "a": [
+    "JMeter",
+    "Selenium IDE",
+    "JUnit",
+    "Figma"
+   ],
+   "e": "Apache JMeter."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "API testlash uchun ommabop vosita qaysi?",
+   "a": [
+    "Postman",
+    "Photoshop",
+    "Excel",
+    "Paint"
+   ],
+   "e": "So'rov yuborish va tekshirish."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Java da modulli testlash freymvorki qaysi?",
+   "a": [
+    "JUnit",
+    "pytest",
+    "Mocha",
+    "RSpec"
+   ],
+   "e": "Assert lar."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Python da modulli testlash freymvorki qaysi?",
+   "a": [
+    "pytest",
+    "JUnit",
+    "NUnit",
+    "Jasmine"
+   ],
+   "e": "unittest ham."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Mobil ilovalarni avtomatik testlash vositasi qaysi?",
+   "a": [
+    "Appium",
+    "JMeter",
+    "Jenkins",
+    "SonarQube"
+   ],
+   "e": "Android va iOS."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Assert (tasdiq) testda nima qiladi?",
+   "a": [
+    "Natijani kutilgan bilan solishtiradi",
+    "Dasturni o'chiradi",
+    "Kodni formatlaydi",
+    "Xatoni yashiradi"
+   ],
+   "e": "Mos kelmasa test yiqiladi."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Mock obyekti nima?",
+   "a": [
+    "Taqlid qiluvchi soxta obyekt",
+    "Haqiqiy ma'lumotlar bazasi",
+    "Foydalanuvchi interfeysi",
+    "Xato hisoboti"
+   ],
+   "e": "Izolyatsiyada testlash."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "TDD (Test Driven Development) nima?",
+   "a": [
+    "Avval test, keyin kod",
+    "Avval kod, testsiz ishlash",
+    "Faqat qo'lda testlash",
+    "Faqat yuklama testi"
+   ],
+   "e": "Qizil–yashil–refaktoring."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "BDD da test ssenariylari qanday tilda yoziladi?",
+   "a": [
+    "Gherkin (Given–When–Then)",
+    "Faqat assembler",
+    "Faqat SQL",
+    "Faqat HTML"
+   ],
+   "e": "Cucumber vositasi."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "CI (uzluksiz integratsiya) nima?",
+   "a": [
+    "Tez-tez birlashtirib tekshirish",
+    "Kodni yilda bir marta birlashtirish",
+    "Testlashdan voz kechish",
+    "Faqat qo'lda yig'ish"
+   ],
+   "e": "Jenkins, GitHub Actions."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "CI/CD vositasiga misol qaysi?",
+   "a": [
+    "Jenkins",
+    "Photoshop",
+    "Word",
+    "Paint"
+   ],
+   "e": "GitLab CI ham."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Nuqsonlarni kuzatish tizimiga misol qaysi?",
+   "a": [
+    "Jira",
+    "Excel faqat",
+    "Notepad",
+    "Calculator"
+   ],
+   "e": "Bugzilla, Redmine ham."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Versiyalarni boshqarish tizimi qaysi?",
+   "a": [
+    "Git",
+    "Jira",
+    "Selenium",
+    "Postman"
+   ],
+   "e": "Kod tarixi."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Test muhiti (test environment) nima?",
+   "a": [
+    "Test uchun sozlangan muhit",
+    "Dasturchining shaxsiy kompyuteri faqat",
+    "Ishlab chiqarish (production) serveri",
+    "Ofis xonasi"
+   ],
+   "e": "Production ga yaqin bo'lishi kerak."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Test ma'lumotlari tayyorlashda nimaga e'tibor beriladi?",
+   "a": [
+    "Real holat va maxfiylik",
+    "Haqiqiy mijozlarning parollari",
+    "Faqat bitta qiymat",
+    "Tasodifiy matn"
+   ],
+   "e": "Anonimlashtirish."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Flaky (beqaror) test nima?",
+   "a": [
+    "Ba'zan o'tib, ba'zan yiqiladigan test",
+    "Har doim muvaffaqiyatli o'tadigan test",
+    "Hech qachon ishga tushmaydigan test",
+    "Faqat qo'lda bajariladigan test"
+   ],
+   "e": "Ishonchni pasaytiradi."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Ma'lumotlarga asoslangan (data-driven) testlash nima?",
+   "a": [
+    "Turli ma'lumotlar bilan bitta test",
+    "Faqat bitta qiymat bilan testlash",
+    "Ma'lumotlar bazasini o'chirish",
+    "Testlarsiz ishlash"
+   ],
+   "e": "Jadvaldan parametrlar."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Page Object pattern avtomatlashtirishda nima beradi?",
+   "a": [
+    "Qayta ishlatishni osonlashtiradi",
+    "Testlarni sekinlashtiradi",
+    "Interfeysni bo'yaydi",
+    "Xatolarni yashiradi"
+   ],
+   "e": "Sahifa elementlari alohida sinfda."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Sharshara (waterfall) modelida testlash qachon o'tkaziladi?",
+   "a": [
+    "Ishlab chiqishdan keyin",
+    "Har kuni, kod bilan parallel",
+    "Loyihadan oldin",
+    "Hech qachon"
+   ],
+   "e": "Ketma-ket bosqichlar."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "V-modelning xususiyati nima?",
+   "a": [
+    "Bosqichga mos test bosqichi",
+    "Testlash umuman yo'q",
+    "Faqat bitta bosqich",
+    "Faqat foydalanuvchi testi"
+   ],
+   "e": "Verifikatsiya va validatsiya modeli."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Agile yondashuvida testlash qanday tashkil etiladi?",
+   "a": [
+    "Uzluksiz",
+    "Faqat loyiha oxirida",
+    "Faqat loyiha boshida",
+    "Umuman o'tkazilmaydi"
+   ],
+   "e": "Sprintlar."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Scrum da \"sprint\" nima?",
+   "a": [
+    "Qisqa ish davri",
+    "Yugurish musobaqasi",
+    "Xato turi",
+    "Test vositasi"
+   ],
+   "e": "Odatda 1–4 hafta."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "\"Definition of Done\" nima?",
+   "a": [
+    "Tayyorlik mezonlari",
+    "Loyihani yopish buyrug'i",
+    "Testerning ish vaqti",
+    "Server holati"
+   ],
+   "e": "Testlar o'tgan bo'lishi kerak."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Shift-left testlash g'oyasi nima?",
+   "a": [
+    "Testlashni erta boshlash",
+    "Testlashni oxirga qoldirish",
+    "Faqat chap tomondagi tugmalarni tekshirish",
+    "Testlashni bekor qilish"
+   ],
+   "e": "Erta testlash tamoyili."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Riskka asoslangan testlash nima?",
+   "a": [
+    "Xavfli sohalarga ustuvorlik",
+    "Barcha sohalarni teng testlash",
+    "Faqat oson joylarni testlash",
+    "Testlashni to'xtatish"
+   ],
+   "e": "Cheklangan resurslarda."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "HTTP so'rovida 200 holat kodi nimani bildiradi?",
+   "a": [
+    "Muvaffaqiyatli",
+    "Sahifa topilmadi va server javob bermadi",
+    "Server ichki xatosi yuz berdi",
+    "Kirish taqiqlangan"
+   ],
+   "e": "OK."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "HTTP 404 kodi nimani bildiradi?",
+   "a": [
+    "Resurs topilmadi",
+    "So'rov muvaffaqiyatli bajarildi",
+    "Server ichki xatosi",
+    "Avtorizatsiya talab qilinadi"
+   ],
+   "e": "Not Found."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "HTTP 500 kodi nimani bildiradi?",
+   "a": [
+    "Server ichki xatosi",
+    "Resurs topilmadi",
+    "Muvaffaqiyatli bajarildi",
+    "Yo'naltirish"
+   ],
+   "e": "Internal Server Error."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "HTTP 401 kodi nimani bildiradi?",
+   "a": [
+    "Autentifikatsiya kerak",
+    "Muvaffaqiyatli bajarildi",
+    "Server xatosi",
+    "Resurs ko'chirilgan"
+   ],
+   "e": "Unauthorized."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "HTTP 403 kodi nimani bildiradi?",
+   "a": [
+    "Kirish taqiqlangan",
+    "Resurs topilmadi",
+    "Muvaffaqiyatli",
+    "Server ortiqcha yuklangan"
+   ],
+   "e": "Forbidden."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "HTTP 201 kodi nimani bildiradi?",
+   "a": [
+    "Resurs yaratildi",
+    "Resurs o'chirildi",
+    "Xato so'rov",
+    "Server xatosi"
+   ],
+   "e": "Created, odatda POST dan keyin."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "HTTP 400 kodi nimani bildiradi?",
+   "a": [
+    "Noto'g'ri so'rov",
+    "Muvaffaqiyatli so'rov",
+    "Resurs yaratildi",
+    "Server o'chirilgan"
+   ],
+   "e": "Bad Request."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "REST API da ma'lumot olish uchun qaysi metod ishlatiladi?",
+   "a": [
+    "GET",
+    "POST",
+    "DELETE",
+    "PATCH"
+   ],
+   "e": "Xavfsiz metod."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "REST API da yangi resurs yaratish uchun odatda qaysi metod ishlatiladi?",
+   "a": [
+    "POST",
+    "GET",
+    "DELETE",
+    "HEAD"
+   ],
+   "e": "201 Created."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "REST API da resursni o'chirish metodi qaysi?",
+   "a": [
+    "DELETE",
+    "GET",
+    "POST",
+    "OPTIONS"
+   ],
+   "e": "Idempotent."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "API javoblari odatda qaysi formatda bo'ladi?",
+   "a": [
+    "JSON",
+    "MP3",
+    "EXE",
+    "BMP"
+   ],
+   "e": "XML ham uchraydi."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Veb-sahifa elementlarini tekshirish uchun brauzerning qaysi vositasi ishlatiladi?",
+   "a": [
+    "DevTools (F12)",
+    "Faqat manzil satri",
+    "Faqat xatcho'plar",
+    "Faqat yuklab olishlar oynasi"
+   ],
+   "e": "Elements, Console, Network."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "DevTools ning \"Network\" bo'limi nimani ko'rsatadi?",
+   "a": [
+    "Tarmoq so'rovlarini",
+    "Faqat sahifa ranglarini",
+    "Faqat kompyuter haroratini",
+    "Faqat foydalanuvchi parolini"
+   ],
+   "e": "Holat kodlari, vaqt."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Krossbrauzer testlash nima?",
+   "a": [
+    "Turli brauzerlarda tekshirish",
+    "Faqat bitta brauzerda tekshirish",
+    "Brauzerni o'chirish",
+    "Brauzerni o'rnatish"
+   ],
+   "e": "Chrome, Firefox, Safari."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Adaptiv dizaynni testlashda nima tekshiriladi?",
+   "a": [
+    "Ekran o'lchamlarida ko'rinish",
+    "Faqat server tezligi",
+    "Faqat parol uzunligi",
+    "Faqat kod uslubi"
+   ],
+   "e": "Mobil, planshet, desktop."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "SQL in'ektsiyasi qanday zaiflik?",
+   "a": [
+    "So'rovga zararli SQL kod kiritish",
+    "Server elektr ta'minoti uzilishi",
+    "Interfeys rangining noto'g'riligi",
+    "Shrift xatosi"
+   ],
+   "e": "Kirish ma'lumotlarini tekshirmaslik."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "XSS zaifligi nima?",
+   "a": [
+    "Zararli skript joylash",
+    "Serverni sovutish muammosi",
+    "Ma'lumotlar bazasi zaxirasi",
+    "Brauzerni yangilash"
+   ],
+   "e": "Cross-Site Scripting."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Kirish formasida parol maydonini testlashda nima tekshiriladi?",
+   "a": [
+    "Yashirilish va cheklovlar",
+    "Faqat maydon rangi",
+    "Faqat sahifa sarlavhasi",
+    "Faqat rasm o'lchami"
+   ],
+   "e": "Uzunlik, murakkablik, xato xabarlari."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Login sahifasida noto'g'ri parol kiritilganda kutilgan natija nima?",
+   "a": [
+    "Xato xabari, rad etish",
+    "Tizimga baribir kirish",
+    "Sahifaning qulab tushishi",
+    "Parolning ochiq ko'rsatilishi"
+   ],
+   "e": "Negativ test."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Negativ testlash nima?",
+   "a": [
+    "Noto'g'ri kiritishni tekshirish",
+    "Faqat to'g'ri qiymatlar bilan testlash",
+    "Testlarni o'chirish",
+    "Testerning kayfiyatini tekshirish"
+   ],
+   "e": "Ijobiy test bilan birga."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Mobil ilovada uzilgan internetda nima tekshiriladi?",
+   "a": [
+    "Xatosiz xabar berishi",
+    "Ilova tezlashishi",
+    "Batareya zaryadlanishi",
+    "Ekran rangi"
+   ],
+   "e": "Offline holat."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Mobil ilovani testlashda qaysi omil muhim emas?",
+   "a": [
+    "Ishlab chiquvchi ofisining rangi",
+    "Turli qurilmalar va OT versiyalari",
+    "Ekran o'lchamlari",
+    "Tarmoq sharoitlari"
+   ],
+   "e": "Fragmentatsiya."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Test qamrovi (coverage) nimani ko'rsatadi?",
+   "a": [
+    "Qamrab olingan ulushni",
+    "Testerlar sonini",
+    "Xatolar narxini",
+    "Ofis maydonini"
+   ],
+   "e": "Talablar yoki kod qamrovi."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Kuzatuvchanlik matritsasi (traceability matrix) nima?",
+   "a": [
+    "Talab va test jadvali",
+    "Xodimlar ish jadvali",
+    "Server joylashuvi",
+    "Ofis xaritasi"
+   ],
+   "e": "Har talab testlanganini ko'rsatadi."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Test hisoboti (test summary report) nimani o'z ichiga oladi?",
+   "a": [
+    "Natijalar va xulosalar",
+    "Faqat testerning ismi",
+    "Faqat sana",
+    "Faqat dastur nomi"
+   ],
+   "e": "Qaror qabul qilish uchun."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Nuqson zichligi qanday hisoblanadi?",
+   "a": [
+    "Nuqsonlar soni / kod hajmi",
+    "Testlar soni / testerlar soni",
+    "Kod hajmi × xatolar",
+    "Testerlar / dasturchilar"
+   ],
+   "e": "Masalan, 1000 satrga."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "5000 satr kodda 10 ta nuqson topildi. 1000 satrga zichlik qancha?",
+   "a": [
+    "2",
+    "10",
+    "50",
+    "0,5"
+   ],
+   "e": "10/5."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "\"Blocker\" darajasidagi nuqson nimani bildiradi?",
+   "a": [
+    "Ish to'xtaydi",
+    "Kosmetik xato",
+    "Imlo xatosi",
+    "Taklif"
+   ],
+   "e": "Eng yuqori muhimlik."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Kosmetik nuqsonga misol qaysi?",
+   "a": [
+    "Matnning biroz siljishi",
+    "To'lovning amalga oshmasligi",
+    "Ma'lumotlarning yo'qolishi",
+    "Tizimning qulashi"
+   ],
+   "e": "Minor/trivial."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Testerning asosiy fazilatlaridan biri qaysi?",
+   "a": [
+    "Diqqatlilik",
+    "Faqat tez yozish",
+    "Faqat chiroyli chizish",
+    "Faqat baland ovozda gapirish"
+   ],
+   "e": "Detallarga e'tibor."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Testlashni qachon to'xtatish mumkin?",
+   "a": [
+    "Mezonlar bajarilganda",
+    "Birinchi xato topilganda",
+    "Tester charchaganda",
+    "Hech qachon"
+   ],
+   "e": "Risk va muddatlar hisobga olinadi."
+  }
+ ]
+}
