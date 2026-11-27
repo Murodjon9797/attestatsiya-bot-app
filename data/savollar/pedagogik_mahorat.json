@@ -9,7 +9,7 @@
    "q": "Blum taksonomiyasining eng quyi kognitiv darajasi qaysi?",
    "a": [
     "Bilish (eslab qolish)",
-    "Tahlil",
+    "Tahlil qilish",
     "Baholash",
     "Yaratish"
    ],
@@ -30,10 +30,10 @@
    "b": "Pedagogik mahorat",
    "q": "\"Aqliy hujum\" (brainstorming) metodining asosiy qoidasi qaysi?",
    "a": [
-    "G'oyalar dastlab tanqid qilinmasdan erkin to'planadi",
+    "G'oyalar avval tanqidsiz to'planadi",
     "Faqat bitta to'g'ri javob qabul qilinadi",
-    "O'qituvchi barcha g'oyalarni o'zi aytadi",
-    "G'oyalar darhol baholanadi"
+    "O'qituvchi barcha g'oyalarni o'zi aytib beradi",
+    "Har bir g'oya darhol tanqid qilinib baholanadi"
    ],
    "e": "Tahlil va saralash keyingi bosqichda bajariladi."
   },
@@ -41,10 +41,10 @@
    "b": "Pedagogik mahorat",
    "q": "Keys-stadi (case study) metodining mohiyati nima?",
    "a": [
-    "Real yoki real hayotga yaqin vaziyatni tahlil qilib, yechim ishlab chiqish",
-    "Darslikni ovoz chiqarib o'qish",
-    "Faqat test yechish",
-    "Ma'ruzani konspekt qilish"
+    "Real vaziyatni tahlil qilib yechim topish",
+    "Darslik matnini ovoz chiqarib o'qish",
+    "Faqat test topshiriqlarini yechish",
+    "Ma'ruzani so'zma-so'z konspekt qilish"
    ],
    "e": "Keys o'quvchilarda amaliy qaror qabul qilish ko'nikmasini rivojlantiradi."
   },
@@ -52,10 +52,10 @@
    "b": "Pedagogik mahorat",
    "q": "Kasbiy ta'limda kompetensiyaviy yondashuvning asosiy maqsadi nima?",
    "a": [
-    "Bilim, ko'nikma va malakalarni real kasbiy faoliyatda qo'llay olish qobiliyatini shakllantirish",
+    "Bilimlarni kasbiy faoliyatda qo'llay olish",
     "Faqat nazariy bilimlarni yodlatish",
-    "Dars soatlarini ko'paytirish",
-    "Baholashni bekor qilish"
+    "Dars soatlari sonini ko'paytirish",
+    "Baholash tizimini bekor qilish"
    ],
    "e": "Natija o'quvchi \"nimani biladi\" emas, \"nimani qila oladi\" bilan o'lchanadi."
   },
@@ -63,10 +63,10 @@
    "b": "Pedagogik mahorat",
    "q": "Formativ (shakllantiruvchi) baholashning asosiy vazifasi nima?",
    "a": [
-    "O'qitish jarayonida o'quvchiga qayta aloqa berib, o'zlashtirishni yaxshilash",
+    "Jarayonda qayta aloqa berib, yaxshilash",
     "Kurs yakunida yakuniy baho qo'yish",
-    "O'quvchilarni reytinglash faqat",
-    "Diplom berish"
+    "Faqat o'quvchilarni reyting bo'yicha saralash",
+    "Diplom yoki sertifikat berish"
    ],
    "e": "Summativ baholash — bosqich yakunidagi natijani qayd etadi."
   },
@@ -75,9 +75,9 @@
    "q": "Dars maqsadlarini SMART tamoyili bo'yicha qo'yishda \"M\" harfi nimani bildiradi?",
    "a": [
     "O'lchanadigan (Measurable)",
-    "Murakkab",
-    "Motivatsion",
-    "Majburiy"
+    "Murakkab (Multiple)",
+    "Motivatsion (Motivational)",
+    "Majburiy (Mandatory)"
    ],
    "e": "SMART: aniq, o'lchanadigan, erishiladigan, dolzarb, muddati belgilangan."
   },
@@ -85,10 +85,10 @@
    "b": "Pedagogik mahorat",
    "q": "Muammoli ta'limning asosiy belgisi nima?",
    "a": [
-    "O'quvchilar oldiga muammoli vaziyat qo'yilib, ular yechimni mustaqil izlaydi",
-    "O'qituvchi tayyor xulosalarni aytadi",
-    "Faqat yodlash",
-    "Darsda savol berilmaydi"
+    "O'quvchi muammo yechimini mustaqil izlaydi",
+    "O'qituvchi tayyor xulosalarni aytib beradi",
+    "Faqat ta'riflarni yodlash talab qilinadi",
+    "Darsda o'quvchilarga savol berilmaydi"
    ],
    "e": "Muammoli vaziyat bilish ehtiyojini uyg'otadi."
   },
@@ -96,10 +96,10 @@
    "b": "Pedagogik mahorat",
    "q": "Hamkorlikda o'qitish (kichik guruhlarda ishlash)ning asosiy afzalligi nima?",
    "a": [
-    "O'quvchilarda muloqot, jamoada ishlash va o'zaro mas'uliyat ko'nikmalari rivojlanadi",
-    "O'qituvchi darsga tayyorlanmaydi",
-    "Baholash talab qilinmaydi",
-    "Dars vaqti qisqaradi"
+    "Muloqot va jamoada ishlash ko'nikmasi",
+    "O'qituvchining darsga tayyorlanmasligi",
+    "Baholashning talab qilinmasligi",
+    "Dars vaqtining qisqarishi"
    ],
    "e": "Har bir guruh a'zosining vazifasi aniq belgilanishi kerak."
   },
@@ -107,10 +107,10 @@
    "b": "Pedagogik mahorat",
    "q": "Ishlab chiqarish ta'limi ustasining amaliy mashg'ulotdagi asosiy bosqichlari qaysi?",
    "a": [
-    "Kirish yo'riqnomasi, joriy yo'riqnoma (mustaqil bajarish va kuzatish), yakuniy yo'riqnoma",
-    "Faqat ma'ruza",
-    "Faqat test",
-    "Faqat uyga vazifa"
+    "Kirish, joriy va yakuniy yo'riqnoma",
+    "Faqat ma'ruza va konspekt",
+    "Faqat yozma test va baholash",
+    "Faqat uyga vazifa berish"
    ],
    "e": "Amaliy mashg'ulotda xavfsizlik texnikasi bo'yicha yo'riqnoma majburiy."
   },
@@ -118,10 +118,10 @@
    "b": "Pedagogik mahorat",
    "q": "Dual ta'limning asosiy xususiyati nima?",
    "a": [
-    "Nazariy ta'lim ta'lim muassasasida, amaliy ta'lim korxonada olib boriladi",
-    "Faqat masofaviy o'qitish",
-    "Faqat nazariy o'qitish",
-    "Ikki xil tilda o'qitish"
+    "Nazariya kollejda, amaliyot korxonada",
+    "Faqat masofaviy, onlayn o'qitish",
+    "Faqat nazariy, auditoriyada o'qitish",
+    "Ikki xil tilda parallel o'qitish"
    ],
    "e": "Korxona ta'lim jarayonining teng huquqli ishtirokchisi bo'ladi."
   },
@@ -129,10 +129,10 @@
    "b": "Pedagogik mahorat",
    "q": "\"Flipped classroom\" (teskari sinf) modelining mohiyati nima?",
    "a": [
-    "Yangi materialni o'quvchi uyda mustaqil o'rganadi, darsda esa amaliy faoliyat bilan mustahkamlanadi",
-    "Dars teskari tartibda o'tiladi",
-    "O'quvchilar o'qituvchini baholaydi faqat",
-    "Dars faqat oxiridan boshlanadi"
+    "Yangi mavzu uyda, amaliyot darsda",
+    "Dars teskari tartibda, oxiridan o'tiladi",
+    "O'quvchilar faqat o'qituvchini baholaydi",
+    "Dars faqat uy vazifasini tekshirishdan iborat"
    ],
    "e": "Dars vaqti muhokama va amaliy ishlarga sarflanadi."
   },
@@ -140,10 +140,10 @@
    "b": "Pedagogik mahorat",
    "q": "Inklyuziv ta'lim nimani anglatadi?",
    "a": [
-    "Alohida ta'lim ehtiyojlari bo'lgan o'quvchilarning umumiy ta'lim muhitida birga o'qishini ta'minlash",
-    "Faqat a'lochilarni alohida o'qitish",
-    "Ta'limni pullik qilish",
-    "Faqat masofaviy ta'lim"
+    "Alohida ehtiyojli o'quvchilarning birga o'qishi",
+    "Faqat a'lochi o'quvchilarni alohida o'qitish",
+    "Ta'limni to'liq pullik shaklga o'tkazish",
+    "Barcha o'quvchilarni faqat masofaviy o'qitish"
    ],
    "e": "Inklyuziya moslashtirilgan o'quv sharoitlarini talab qiladi."
   },
@@ -151,9 +151,9 @@
    "b": "Pedagogik mahorat",
    "q": "Dars tahlilida o'qituvchining \"refleksiya\" bosqichi nimani ko'zda tutadi?",
    "a": [
-    "O'quvchilarning o'z faoliyati va natijalarini anglab, baholashi",
-    "Uyga vazifa berish",
-    "Davomatni tekshirish",
+    "O'z faoliyatini anglash va baholash",
+    "Uyga vazifa berish va tushuntirish",
+    "Davomatni tekshirish va qayd etish",
     "Yangi mavzuni bayon qilish"
    ],
    "e": "Refleksiya o'zini o'zi baholash ko'nikmasini shakllantiradi."
@@ -162,10 +162,10 @@
    "b": "Pedagogik mahorat",
    "q": "Pedagogik muloqotda \"faol tinglash\"ning belgisi qaysi?",
    "a": [
-    "Suhbatdoshning fikrini aniqlashtiruvchi savollar berish va qayta ifodalash",
-    "Suhbatdoshni bo'lib qo'yish",
-    "Faqat o'z fikrini aytish",
-    "Javob bermaslik"
+    "Aniqlashtiruvchi savollar, qayta ifodalash",
+    "Suhbatdoshning gapini bo'lib qo'yish",
+    "Faqat o'z fikrini qayta-qayta aytish",
+    "Savollarga umuman javob bermaslik"
    ],
    "e": "Faol tinglash o'quvchida ishonch hosil qiladi."
   },
@@ -195,10 +195,10 @@
    "b": "Kasbiy standart",
    "q": "Kasbiy standart nima?",
    "a": [
-    "Muayyan kasbiy faoliyat uchun zarur bilim, ko'nikma va malakalarga qo'yiladigan talablarni belgilovchi hujjat",
+    "Kasbiy talablarni belgilovchi hujjat",
     "Ish haqi miqdorini belgilovchi hujjat",
-    "O'quv darsligi",
-    "Mehnat shartnomasi"
+    "Fan bo'yicha o'quv darsligi",
+    "Xodim bilan tuzilgan mehnat shartnomasi"
    ],
    "e": "Kasbiy standartlar ta'lim dasturlarini ishlab chiqishda asos bo'ladi."
   },
@@ -206,10 +206,10 @@
    "b": "Kasbiy standart",
    "q": "Milliy malaka ramkasi nimani tavsiflaydi?",
    "a": [
-    "Malaka darajalarini va har bir darajaga mos ta'lim natijalarini",
-    "Faqat oliy ta'lim yo'nalishlarini",
-    "Ish haqi stavkalarini",
-    "Davlat byudjetini"
+    "Malaka darajalari va ta'lim natijalarini",
+    "Faqat oliy ta'lim yo'nalishlari ro'yxatini",
+    "Pedagoglar ish haqi stavkalarini",
+    "Ta'lim tizimining davlat byudjetini"
    ],
    "e": "Texnikum bitiruvchilari 5-malaka darajasiga mos keladi (2026-yilgi dasturlar)."
   },
@@ -217,10 +217,10 @@
    "b": "Kasbiy standart",
    "q": "Pedagog kadrlar attestatsiyasining asosiy maqsadi nima?",
    "a": [
-    "Pedagoglarning kasbiy malakasi, bilimi va pedagogik mahoratini baholash",
-    "Pedagoglar sonini kamaytirish",
-    "Dars jadvalini tuzish",
-    "O'quvchilarni baholash"
+    "Pedagoglar malakasini baholash",
+    "Pedagoglar sonini qisqartirish",
+    "Dars jadvalini qayta tuzish",
+    "O'quvchilar bilimini baholash"
    ],
    "e": "Attestatsiya natijasiga ko'ra malaka toifasi beriladi yoki tasdiqlanadi."
   },
@@ -228,7 +228,7 @@
    "b": "Kasbiy standart",
    "q": "Pedagog kadrlar attestatsiyasi tartibi qaysi hujjat bilan belgilangan?",
    "a": [
-    "Vazirlar Mahkamasining 2021-yil 17-sentabrdagi 572-son qarori",
+    "VMning 572-son qarori",
     "Soliq kodeksi",
     "Oila kodeksi",
     "Bojxona kodeksi"
@@ -239,7 +239,7 @@
    "b": "Kasbiy standart",
    "q": "Malaka sinovining fan bo'yicha test topshiriqlari spetsifikatsiyalariga ko'ra har bir to'g'ri javob necha ball bilan baholanadi?",
    "a": [
-    "2 ball (40 ta topshiriq — 80 ball)",
+    "2 ball",
     "1 ball",
     "5 ball",
     "10 ball"
@@ -250,8 +250,8 @@
    "b": "Kasbiy standart",
    "q": "O'qituvchining kasbiy rivojlanishining asosiy shakllaridan biri qaysi?",
    "a": [
-    "Muntazam malaka oshirish kurslari va o'z ustida mustaqil ishlash",
-    "Darslarni qisqartirish",
+    "Malaka oshirish va mustaqil ishlash",
+    "Dars soatlarini qisqartirish",
     "Faqat ish stajini to'plash",
     "Dars ishlanmalarini yozmaslik"
    ],
@@ -272,12 +272,3037 @@
    "b": "Kasbiy standart",
    "q": "Raqamli ta'lim resurslaridan foydalanishda pedagogga qaysi talab qo'yiladi?",
    "a": [
-    "Manbaning ishonchliligini tekshirish va mualliflik huquqiga rioya qilish",
+    "Manbani tekshirish, mualliflik huquqiga rioya",
     "Istalgan materialni manbasiz tarqatish",
     "Faqat qog'oz darsliklardan foydalanish",
-    "O'quvchilarning parollarini to'plash"
+    "O'quvchilarning parollarini yig'ib olish"
    ],
    "e": "Raqamli savodxonlik — zamonaviy pedagog kompetensiyasi."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Didaktika nimani o'rganadi?",
+   "a": [
+    "Ta'lim nazariyasini",
+    "Faqat tarbiya jarayonining ruhiy asoslarini",
+    "Faqat maktab binolarini loyihalash qoidalarini",
+    "Faqat o'quvchilarning jismoniy rivojlanishini"
+   ],
+   "e": "Yunoncha didaktikos — o'rgatuvchi."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "\"Buyuk didaktika\" asarining muallifi kim?",
+   "a": [
+    "Yan Amos Komenskiy",
+    "Jan-Jak Russo",
+    "Iogann Pestalotstsi",
+    "Konstantin Ushinskiy"
+   ],
+   "e": "XVII asr, sinf-dars tizimi asoschisi."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Sinf-dars tizimining asoschisi kim?",
+   "a": [
+    "Yan Amos Komenskiy",
+    "Abu Nasr Forobiy",
+    "Jon Dyui",
+    "Anton Makarenko"
+   ],
+   "e": "\"Buyuk didaktika\"."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Ta'limning asosiy funksiyalari qaysilar?",
+   "a": [
+    "Ta'limiy, tarbiyaviy va rivojlantiruvchi",
+    "Faqat nazorat qiluvchi va jazolovchi funksiyalar",
+    "Faqat ko'ngilochar va dam oldiruvchi funksiyalar",
+    "Faqat ma'muriy va xo'jalik funksiyalari"
+   ],
+   "e": "Uchlik funksiya."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Ko'rgazmalilik tamoyili nimani talab qiladi?",
+   "a": [
+    "Materialni sezgilar orqali idrok ettirishni",
+    "Faqat og'zaki bayon bilan cheklanishni",
+    "O'quvchilarni faqat yozma ish bilan band qilishni",
+    "Darsni faqat darslik matnini o'qib o'tishni"
+   ],
+   "e": "\"Oltin qoida\" — Komenskiy."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Ta'limning ilmiylik tamoyili nimani anglatadi?",
+   "a": [
+    "Bilimlar fanning zamonaviy yutuqlariga mosligini",
+    "Faqat qadimiy kitoblardan foydalanishni",
+    "Faqat o'qituvchining shaxsiy fikrini o'rgatishni",
+    "Ilmiy atamalarni umuman ishlatmaslikni"
+   ],
+   "e": "Asoslangan bilim."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Tizimlilik va izchillik tamoyili nimani talab qiladi?",
+   "a": [
+    "Materialni oddiydan murakkabga izchil berishni",
+    "Mavzularni tasodifiy tartibda o'tishni",
+    "Murakkab mavzulardan boshlab oddiysiga o'tishni",
+    "Har darsda yangi fanni boshlashni"
+   ],
+   "e": "Bilimlar tizimi."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Ta'limning onglilik va faollik tamoyili nimani bildiradi?",
+   "a": [
+    "O'quvchi bilimni tushunib, faol o'zlashtirishini",
+    "O'quvchi materialni tushunmay yodlashini",
+    "O'quvchi darsda faqat jim tinglovchi bo'lishini",
+    "Darsda faqat o'qituvchining o'zi faol bo'lishini"
+   ],
+   "e": "Sub'ekt sifatida."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Ta'lim mazmuni qaysi hujjatlarda aks etadi?",
+   "a": [
+    "DTS, o'quv reja, dastur, darsliklar",
+    "Faqat o'qituvchining shaxsiy kundaligida",
+    "Faqat ota-onalar majlisi bayonnomasida",
+    "Faqat ta'lim muassasasi ustavida"
+   ],
+   "e": "Me'yoriy hujjatlar."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "O'quv reja nima?",
+   "a": [
+    "Fanlar, ketma-ketlik va soatlarni belgilovchi hujjat",
+    "Bitta darsning batafsil konspekti va ishlanmasi",
+    "O'quvchining shaxsiy kundaligi va baholari",
+    "Ta'lim muassasasi binosining qavatlar rejasi"
+   ],
+   "e": "Ta'lim muassasasi darajasida."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "O'quv dasturi (fan dasturi) nimani belgilaydi?",
+   "a": [
+    "Fanning maqsadi, mazmuni, mavzulari va talablarini",
+    "Faqat haftalik dars jadvalini",
+    "Faqat o'qituvchilar ish haqi miqdorini",
+    "Faqat ta'til kunlari va bayramlarni"
+   ],
+   "e": "Fan bo'yicha."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Dars nima?",
+   "a": [
+    "Ta'limning asosiy tashkiliy shakli",
+    "Faqat yakuniy imtihon turi",
+    "Faqat sinfdan tashqari tadbir",
+    "Faqat uy vazifasi tekshiruvi"
+   ],
+   "e": "Vaqt, joy va tarkib aniq."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Dars turlariga qaysilar kiradi?",
+   "a": [
+    "Yangi bilim, mustahkamlash, nazorat, aralash",
+    "Faqat ma'ruza va yakuniy imtihon",
+    "Faqat sport va musiqa darslari",
+    "Faqat ochiq va yopiq darslar"
+   ],
+   "e": "Didaktik maqsadga ko'ra."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Aralash (kombinatsiyalashgan) darsda nimalar birlashadi?",
+   "a": [
+    "Takrorlash, yangi mavzu, mustahkamlash",
+    "Faqat yozma nazorat ishi",
+    "Faqat yangi mavzu bayoni",
+    "Faqat o'quv ekskursiyasi"
+   ],
+   "e": "Eng ko'p tarqalgan dars turi."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Ta'lim metodi nima?",
+   "a": [
+    "Birgalikdagi faoliyat usuli",
+    "Faqat darslik muallifining yondashuvi",
+    "Faqat sinf xonasi jihozlari to'plami",
+    "Faqat baholash shkalasi va mezonlari"
+   ],
+   "e": "Yo'l, usul."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Og'zaki ta'lim metodlariga qaysilar kiradi?",
+   "a": [
+    "Hikoya, tushuntirish, suhbat, ma'ruza",
+    "Tajriba va laboratoriya ishi",
+    "Ekskursiya va kuzatish",
+    "Mashq va amaliy ish"
+   ],
+   "e": "So'z orqali."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Ko'rgazmali metodlarga qaysilar kiradi?",
+   "a": [
+    "Namoyish va illyustratsiya",
+    "Hikoya va suhbat",
+    "Mashq va test",
+    "Bahs va munozara"
+   ],
+   "e": "Ko'rib idrok etish."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Amaliy metodlarga qaysilar kiradi?",
+   "a": [
+    "Mashq va laboratoriya ishlari",
+    "Hikoya va ma'ruza",
+    "Illyustratsiya va namoyish",
+    "Suhbat va tushuntirish"
+   ],
+   "e": "Ko'nikma shakllantiradi."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Evristik suhbatning mohiyati nima?",
+   "a": [
+    "Savollar orqali \"kashf\" ettirish",
+    "O'qituvchining uzluksiz monologi",
+    "O'quvchilarning matnni ko'chirib yozishi",
+    "Faqat test topshiriqlarini yechish"
+   ],
+   "e": "Suqrot usuli."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Ta'lim vositalariga nimalar kiradi?",
+   "a": [
+    "Darslik, ko'rgazmali va raqamli vositalar",
+    "Faqat o'qituvchining ovozi va nutqi",
+    "Faqat sinfdagi o'quvchilar soni",
+    "Faqat haftalik dars jadvali"
+   ],
+   "e": "Moddiy va ideal vositalar."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Ta'limning tashkiliy shakllariga qaysilar kiradi?",
+   "a": [
+    "Dars, ekskursiya, amaliyot",
+    "Faqat yakuniy imtihon",
+    "Faqat ta'til va dam olish",
+    "Faqat ota-onalar majlisi"
+   ],
+   "e": "Frontal, guruhli, individual."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Frontal ish shaklining mohiyati nima?",
+   "a": [
+    "O'qituvchi butun sinf bilan bir vaqtda ishlaydi",
+    "Har bir o'quvchi alohida topshiriq bajaradi",
+    "O'quvchilar juft-juft bo'lib ishlaydi",
+    "O'quvchilar uyda mustaqil ishlaydi"
+   ],
+   "e": "Jamoaviy shakl."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Individual ta'limning afzalligi nima?",
+   "a": [
+    "Har bir o'quvchi sur'atini hisobga olish",
+    "Barcha o'quvchilarga bir xil topshiriq berish",
+    "O'quvchilar o'rtasidagi muloqotni ko'paytirish",
+    "O'qituvchining vaqtini tejash"
+   ],
+   "e": "Tabaqalashtirish."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Tabaqalashtirilgan ta'lim nimani anglatadi?",
+   "a": [
+    "Darajaga mos turli topshiriqlar berish",
+    "Barcha o'quvchilarga bir xil topshiriq berish",
+    "Kuchsiz o'quvchilarni darsdan chetlatish",
+    "Faqat a'lochi o'quvchilar bilan ishlash"
+   ],
+   "e": "Differensial yondashuv."
+  },
+  {
+   "b": "Pedagogika va didaktika asoslari",
+   "q": "Pedagogik jarayonning asosiy sub'ektlari kimlar?",
+   "a": [
+    "O'qituvchi va o'quvchi",
+    "Faqat ota-onalar",
+    "Faqat direktor",
+    "Faqat vazirlik xodimlari"
+   ],
+   "e": "Ikki tomonlama jarayon."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "Pedagogik texnologiya nima?",
+   "a": [
+    "Kafolatlangan natijali ta'lim loyihasi",
+    "Faqat kompyuter va proyektordan foydalanish",
+    "Darsni ixtiyoriy, rejasiz o'tkazish usuli",
+    "O'quvchilarni jazolash va rag'batlantirish tizimi"
+   ],
+   "e": "Maqsad — natija."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Klaster\" metodining mohiyati nima?",
+   "a": [
+    "Tushunchadan tarmoqlanuvchi g'oyalar sxemasi",
+    "O'quvchilarni bo'yiga qarab saflash",
+    "Matnni so'zma-so'z yodlab aytish",
+    "Faqat yozma test yechish"
+   ],
+   "e": "Fikrlar xaritasi."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Insert\" metodida matn o'qishda qanday belgilar qo'yiladi?",
+   "a": [
+    "\"V\", \"+\", \"–\", \"?\" belgilari",
+    "Faqat raqamlar bilan tartiblash",
+    "Faqat rangli qalam bilan chizish",
+    "Hech qanday belgi qo'yilmaydi"
+   ],
+   "e": "Bilaman, yangi, qarama-qarshi, savol."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Venn diagrammasi\" nima uchun qo'llanadi?",
+   "a": [
+    "Tushunchalarni taqqoslash uchun",
+    "Bitta tushunchani yodlash uchun",
+    "Dars davomatini qayd etish uchun",
+    "O'quvchilarni baholash jadvali uchun"
+   ],
+   "e": "Umumiy va farqli jihatlar."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Zigzag\" (arra) metodida o'quvchilar qanday ishlaydi?",
+   "a": [
+    "Har biri bir qismni o'rganib, o'rgatadi",
+    "Hamma bir xil qismni yolg'iz o'qiydi",
+    "Faqat o'qituvchi tushuntirib beradi",
+    "O'quvchilar faqat test yechadi"
+   ],
+   "e": "Ekspert guruhlari."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"BBB\" (Bilaman — Bilishni xohlayman — Bildim) jadvali qanday maqsadda ishlatiladi?",
+   "a": [
+    "Oldingi va yangi bilimni anglash",
+    "Faqat uy vazifasini qayd etish",
+    "O'quvchilar davomatini hisoblash",
+    "Faqat yakuniy imtihon o'tkazish"
+   ],
+   "e": "Refleksiya ham."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Sinkveyn\" nima?",
+   "a": [
+    "Besh qatorli qisqa xulosa",
+    "Uzun hikoya yoki insho yozish",
+    "Matematik formula va isbot",
+    "Ko'p tanlovli test savoli turi"
+   ],
+   "e": "Ot, 2 sifat, 3 fe'l, jumla, sinonim."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"FSMU\" texnologiyasining harflari nimani anglatadi?",
+   "a": [
+    "Fikr, Sabab, Misol, Umumlashtirish",
+    "Fan, Sinf, Maktab, Ustoz",
+    "Faol, Sust, Mustaqil, Umumiy",
+    "Formula, Son, Masala, Usul"
+   ],
+   "e": "Munozarani tashkil etish."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Aqliy hujum\" qanday bosqichlardan iborat?",
+   "a": [
+    "G'oya yig'ish, so'ng tahlil",
+    "Faqat o'qituvchi g'oyasini yozish",
+    "Faqat yakuniy test o'tkazish",
+    "G'oyalarni darhol rad etish"
+   ],
+   "e": "Ikki bosqich."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Rolli o'yin\" metodining afzalligi nima?",
+   "a": [
+    "Real vaziyatni modellashtiradi",
+    "O'quvchilarni passiv tinglovchiga aylantiradi",
+    "Faqat yodlashga yo'naltirilgan",
+    "Muloqotni cheklaydi"
+   ],
+   "e": "Simulyatsiya."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Loyiha metodi\" ning asosiy mohiyati nima?",
+   "a": [
+    "Real muammo bo'yicha mahsulot yaratish",
+    "O'qituvchi tayyor loyihani o'quvchilarga topshiradi",
+    "Faqat nazariy ma'ruza tinglash",
+    "Darslikni ko'chirib yozish"
+   ],
+   "e": "Dj. Dyui, V. Kilpatrik."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Debat\" metodi nimaga o'rgatadi?",
+   "a": [
+    "Fikrni dalil bilan himoyalashga",
+    "Raqibni haqoratlashga",
+    "Faqat yodlangan matnni aytishga",
+    "Jim o'tirishga"
+   ],
+   "e": "Tanqidiy fikrlash."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Baliq skeleti\" (Isikava diagrammasi) nima uchun ishlatiladi?",
+   "a": [
+    "Muammo sabablarini tahlil qilish uchun",
+    "Biologiya darsida baliq chizish uchun",
+    "O'quvchilarni guruhlarga bo'lish uchun",
+    "Davomatni hisoblash uchun"
+   ],
+   "e": "Sabab-oqibat."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"SWOT-tahlil\" nimani o'rganadi?",
+   "a": [
+    "Kuchli, zaif tomon, imkoniyat, xavf",
+    "Faqat o'quvchilarning baholarini",
+    "Faqat dars jadvalini",
+    "Faqat moliyaviy hisobotni"
+   ],
+   "e": "Strengths, Weaknesses, Opportunities, Threats."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Keys\" metodining asosiy bosqichlari qaysilar?",
+   "a": [
+    "Tanishish, tahlil, yechim, himoya",
+    "Faqat keysni o'qib berish",
+    "Faqat yakuniy baho qo'yish",
+    "Faqat uy vazifasi berish"
+   ],
+   "e": "Garvard biznes maktabi."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "Tanqidiy fikrlashni rivojlantirish texnologiyasining bosqichlari qaysilar?",
+   "a": [
+    "Chaqiriq, anglash, mulohaza",
+    "Tinglash, yodlash, aytib berish",
+    "Ko'chirish, o'qish, yozish",
+    "Test, baho, jazo"
+   ],
+   "e": "Uch bosqichli model."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "Kichik guruhlarda ishlashda guruh a'zolari soni odatda qancha bo'lishi maqbul?",
+   "a": [
+    "4–6 kishi",
+    "15–20 kishi",
+    "1 kishi",
+    "Butun sinf"
+   ],
+   "e": "Samarali hamkorlik."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Charxpalak\" metodida nima qilinadi?",
+   "a": [
+    "Guruhlar topshiriqni aylantirib bajaradi",
+    "O'quvchilar charxpalak yasaydi",
+    "Faqat o'qituvchi gapiradi",
+    "Faqat bitta o'quvchi javob beradi"
+   ],
+   "e": "O'zaro tekshirish."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Blits-so'rov\" metodining xususiyati nima?",
+   "a": [
+    "Qisqa vaqtda tez savol-javob",
+    "Uzoq yozma insho yozish",
+    "Bir soatlik uzluksiz ma'ruza",
+    "O'quv ekskursiyasi o'tkazish"
+   ],
+   "e": "Faollashtirish."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "Gamifikatsiya nima?",
+   "a": [
+    "Ta'limda o'yin elementlaridan foydalanish",
+    "Darslarni butunlay bekor qilish",
+    "Faqat sport musobaqasi o'tkazish",
+    "Kompyuter o'yinlarini taqiqlash"
+   ],
+   "e": "Ball, daraja, mukofot."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "Interfaol ta'limning an'anaviy ta'limdan asosiy farqi nima?",
+   "a": [
+    "O'quvchi faol, o'qituvchi yo'naltiruvchi",
+    "O'qituvchi yagona bilim manbai, o'quvchi passiv",
+    "Faqat test bilan baholash",
+    "Darslik ishlatilmaydi"
+   ],
+   "e": "Hamkorlik."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "Moderator (fasilitator) sifatida o'qituvchining roli nima?",
+   "a": [
+    "Tashkil etish va yo'naltirish",
+    "Barcha javoblarni o'zi aytish",
+    "O'quvchilarni faqat nazorat qilish",
+    "Darsda ishtirok etmaslik"
+   ],
+   "e": "Yo'naltiruvchi."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Pinbord\" texnikasining mohiyati nima?",
+   "a": [
+    "Kartochkadagi g'oyalarni guruhlash",
+    "Doskani bo'r bilan bo'yash",
+    "Faqat og'zaki javob berish",
+    "Uyga vazifa yozib berish"
+   ],
+   "e": "Vizuallashtirish."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Mental xarita\" (mind map) nima?",
+   "a": [
+    "Markaziy g'oyadan tarmoqlanuvchi sxema",
+    "O'quvchilarning yashash joyi xaritasi",
+    "Geografik xarita",
+    "Dars jadvali"
+   ],
+   "e": "Toni Byuzen."
+  },
+  {
+   "b": "Interfaol metodlar va pedagogik texnologiyalar",
+   "q": "\"Muzyorar\" (ice-breaker) mashqining maqsadi nima?",
+   "a": [
+    "Do'stona muhit yaratish",
+    "O'quvchilarni sovuq suvga cho'miltirish",
+    "Yakuniy nazorat o'tkazish",
+    "Bahoni pasaytirish"
+   ],
+   "e": "Dars boshida."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Diagnostik baholash qachon o'tkaziladi?",
+   "a": [
+    "O'qitish boshlanishidan oldin",
+    "Faqat o'quv yili tugaganidan keyin",
+    "Faqat bitiruv imtihonlari vaqtida",
+    "O'quvchi ta'lim muassasasini tark etganda"
+   ],
+   "e": "Boshlang'ich darajani aniqlash."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Summativ baholashning maqsadi nima?",
+   "a": [
+    "Yakuniy natijani aniqlash",
+    "Dars jarayonida doimiy qayta aloqa berish",
+    "O'quvchilarning qiziqishlarini aniqlash",
+    "Faqat davomatni hisobga olish"
+   ],
+   "e": "Bo'lim yoki kurs yakunida."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Baholash mezonlari (rubrika) nima uchun kerak?",
+   "a": [
+    "Baholashni shaffof va xolis qilish uchun",
+    "O'qituvchi xohlagancha baho qo'yishi uchun",
+    "O'quvchilardan mezonlarni yashirish uchun",
+    "Baholashni qiyinlashtirish uchun"
+   ],
+   "e": "Oldindan e'lon qilinadi."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Reyting tizimida baholash nimaga asoslanadi?",
+   "a": [
+    "To'plangan ballar yig'indisiga",
+    "Faqat o'qituvchining kayfiyatiga",
+    "Faqat o'quvchining tashqi ko'rinishiga",
+    "Faqat ota-onalarning fikriga"
+   ],
+   "e": "Joriy, oraliq, yakuniy."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Test topshirig'ining validligi nimani anglatadi?",
+   "a": [
+    "O'lchashi kerak bo'lgan narsani o'lchashi",
+    "Test sahifalarining chiroyli bezatilishi",
+    "Testning juda ko'p savollardan iboratligi",
+    "Testning faqat bir marta qo'llanishi"
+   ],
+   "e": "Yaroqlilik."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Testning ishonchliligi (reliability) nimani bildiradi?",
+   "a": [
+    "Takroriy qo'llanganda barqaror natija berishi",
+    "Faqat qiyin va murakkab savollardan iborat bo'lishi",
+    "Javoblarning hammaga oldindan ma'lumligi",
+    "Test muallifining mashhurligi"
+   ],
+   "e": "Barqarorlik."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Yopiq turdagi test topshirig'i qanday bo'ladi?",
+   "a": [
+    "Tayyor javob variantlaridan tanlanadi",
+    "O'quvchi javobni o'zi yozib to'ldiradi",
+    "O'quvchi insho yozadi",
+    "O'quvchi og'zaki javob beradi"
+   ],
+   "e": "Ko'p tanlovli."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Ochiq turdagi test topshirig'i qanday bo'ladi?",
+   "a": [
+    "Javob mustaqil yoziladi",
+    "To'rt variantdan bittasi tanlanadi",
+    "\"Ha\" yoki \"yo'q\" javobi belgilanadi",
+    "Moslikni chiziq bilan ko'rsatadi"
+   ],
+   "e": "Erkin javob."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "O'z-o'zini baholashning ahamiyati nima?",
+   "a": [
+    "Mas'uliyat va refleksiyani rivojlantiradi",
+    "O'qituvchining ishini butunlay yo'q qiladi",
+    "Baholarni sun'iy oshirishga olib keladi",
+    "Ta'lim sifatiga ta'sir qilmaydi"
+   ],
+   "e": "Metakognitiv ko'nikma."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "O'zaro baholash (peer assessment) nima?",
+   "a": [
+    "O'quvchilarning bir-birini baholashi",
+    "O'qituvchilarning bir-birini baholashi",
+    "Ota-onalarning o'qituvchini baholashi",
+    "Direktorning o'quvchilarni baholashi"
+   ],
+   "e": "Hamkorlikni rivojlantiradi."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Portfolio baholashda nima to'planadi?",
+   "a": [
+    "O'quvchining ishlari va yutuqlari",
+    "Faqat o'qituvchining dars ishlanmalari",
+    "Faqat ota-onalarning arizalari",
+    "Faqat davomat jurnali"
+   ],
+   "e": "Rivojlanish dinamikasi."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Baholashda qayta aloqa (feedback) qanday bo'lishi kerak?",
+   "a": [
+    "Aniq, o'z vaqtida, rivojlantiruvchi",
+    "Umumiy, kechiktirilgan va tanqidiy",
+    "Faqat baho raqami bilan, izohsiz",
+    "Faqat boshqa o'quvchilar oldida"
+   ],
+   "e": "Konstruktiv."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Bilimni nazorat qilishning og'zaki shakliga qaysi kiradi?",
+   "a": [
+    "Suhbat va og'zaki so'rov",
+    "Yozma nazorat ishi",
+    "Kompyuterda test topshirish",
+    "Insho yoki referat yozish"
+   ],
+   "e": "Individual va frontal so'rov."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Joriy nazoratning maqsadi nima?",
+   "a": [
+    "Mavzular o'zlashtirilishini kuzatish",
+    "Faqat yil oxirida baho qo'yish",
+    "Faqat o'quvchini kursdan chetlatish",
+    "O'qituvchining ish haqini belgilash"
+   ],
+   "e": "Muntazam nazorat."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Kasbiy ta'limda amaliy ko'nikmalar qanday baholanadi?",
+   "a": [
+    "Amaliy topshiriq va kuzatuv varaqasi",
+    "Faqat nazariy test bilan",
+    "Faqat insho yozish bilan",
+    "Faqat davomat bilan"
+   ],
+   "e": "Ish natijasi va jarayoni."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Blum taksonomiyasi bo'yicha \"tahlil\" darajasidagi savol qaysi?",
+   "a": [
+    "\"Qaysi omillar sababchi bo'lgan?\"",
+    "\"Ta'rifini ayting\"",
+    "\"Sanab bering\"",
+    "\"Nomini yozing\""
+   ],
+   "e": "Tarkibiy qismlarga ajratish."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Blum taksonomiyasi bo'yicha \"qo'llash\" darajasidagi topshiriq qaysi?",
+   "a": [
+    "Formulani yangi masalaga tatbiq etish",
+    "Ta'rifni yoddan aytib berish",
+    "Mavzu nomini eslab qolish",
+    "Matnni ko'chirib yozish"
+   ],
+   "e": "Yangi vaziyatda foydalanish."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Blum taksonomiyasining qayta ko'rib chiqilgan versiyasida necha daraja bor?",
+   "a": [
+    "6 ta",
+    "3 ta",
+    "10 ta",
+    "4 ta"
+   ],
+   "e": "Eslash, tushunish, qo'llash, tahlil, baholash, yaratish."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Baholashning xolislik tamoyili nimani talab qiladi?",
+   "a": [
+    "Barcha o'quvchilarni bir xil mezonda baholash",
+    "Yaxshi ko'rgan o'quvchiga yuqori baho qo'yish",
+    "Ota-onaning lavozimiga qarab baholash",
+    "O'quvchining tashqi ko'rinishiga qarab baholash"
+   ],
+   "e": "Adolatlilik."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Kredit-modul tizimida GPA nima?",
+   "a": [
+    "O'rtacha o'zlashtirish ko'rsatkichi",
+    "O'quvchining davomat foizi",
+    "O'qituvchining reyting bali",
+    "Ta'lim muassasasining reytingi"
+   ],
+   "e": "Grade Point Average."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Kompetensiya nima?",
+   "a": [
+    "Bilimni amalda qo'llash qobiliyati",
+    "Faqat yodlangan nazariy bilimlar",
+    "Faqat diplom yoki sertifikat",
+    "Faqat ish staji"
+   ],
+   "e": "Kompetensiyaviy yondashuv."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Ta'lim natijalari (learning outcomes) qanday yoziladi?",
+   "a": [
+    "O'quvchi nima qila olishi fe'llar bilan",
+    "Faqat o'qituvchi nima qilishi bilan",
+    "Faqat mavzu nomlari ro'yxati bilan",
+    "Faqat soatlar soni bilan"
+   ],
+   "e": "Kuzatiladigan, o'lchanadigan."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Diagnostik test natijalari qanday ishlatiladi?",
+   "a": [
+    "O'qitishni darajaga moslash uchun",
+    "O'quvchilarni jazolash uchun",
+    "Ota-onalarga jarima solish uchun",
+    "Hech qanday maqsadda ishlatilmaydi"
+   ],
+   "e": "Tabaqalashtirish."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Baholashda \"halo-effekt\" nima?",
+   "a": [
+    "Umumiy taassurot bahoga ta'sir qilishi",
+    "Baholash mezonlariga qat'iy rioya qilish",
+    "Barcha o'quvchilarga bir xil baho qo'yish",
+    "Baholashni avtomatlashtirish"
+   ],
+   "e": "Sub'ektivlik xatosi."
+  },
+  {
+   "b": "Baholash va nazorat",
+   "q": "Mustaqil ishni baholashda nimaga e'tibor beriladi?",
+   "a": [
+    "Mustaqillik va talablarga moslik",
+    "Faqat sahifalar soniga",
+    "Faqat muqova rangiga",
+    "Faqat topshirilgan vaqtga"
+   ],
+   "e": "Mezonlar asosida."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "O'smirlik davrining (12–15 yosh) yetakchi faoliyati qaysi?",
+   "a": [
+    "Tengdoshlar bilan muloqot",
+    "O'yin faoliyati",
+    "Mehnat faoliyati",
+    "Predmetli-manipulyativ faoliyat"
+   ],
+   "e": "D. B. Elkonin davriylashtirishi."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Ilk o'spirinlik (15–18 yosh) davrining asosiy vazifasi nima?",
+   "a": [
+    "Kasbiy o'zini anglash",
+    "Yurish va gapirishni o'rganish",
+    "O'yin orqali dunyoni bilish",
+    "Faqat jismoniy o'sish"
+   ],
+   "e": "Texnikum o'quvchilari yoshi."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Motivatsiya nima?",
+   "a": [
+    "Faoliyatga undovchi kuch",
+    "Faqat tashqi jazo va tanbeh",
+    "Faqat baho qo'yish usuli",
+    "Faqat dars jadvali"
+   ],
+   "e": "Ichki va tashqi motivatsiya."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Ichki motivatsiyaga misol qaysi?",
+   "a": [
+    "Fanga qiziqish",
+    "Yuqori baho uchun o'qish",
+    "Jazodan qo'rqib o'qish",
+    "Mukofot uchun o'qish"
+   ],
+   "e": "Faoliyatning o'zidan qoniqish."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Temperament turlariga qaysilar kiradi?",
+   "a": [
+    "Sangvinik, xolerik, flegmatik, melanxolik",
+    "Introvert, ekstravert, ambivert, neytral",
+    "Lider, ijrochi, kuzatuvchi, tanqidchi",
+    "Vizual, audial, kinestetik, raqamli turlar"
+   ],
+   "e": "Gippokrat — Galen."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Xolerik temperamentga xos xususiyat qaysi?",
+   "a": [
+    "Tez qo'zg'aluvchan, jo'shqin",
+    "Sokin, sekin, barqaror",
+    "Ta'sirchan, tez charchaydigan",
+    "Quvnoq, muvozanatli, harakatchan"
+   ],
+   "e": "Kuchli, muvozanatsiz."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Flegmatik temperamentga xos xususiyat qaysi?",
+   "a": [
+    "Sokin, sabrli, sekin ko'nikadi",
+    "Jo'shqin va tez g'azablanuvchi",
+    "Juda ta'sirchan va xavotirli",
+    "Tez o'zgaruvchan kayfiyatli"
+   ],
+   "e": "Kuchli, muvozanatli, inert."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Idrok turlariga ko'ra o'quvchilar qanday turlarga bo'linadi?",
+   "a": [
+    "Vizual, audial, kinestetik",
+    "Sangvinik, xolerik, flegmatik",
+    "Lider, ijrochi, kuzatuvchi",
+    "A'lochi, o'rtacha, past"
+   ],
+   "e": "Ta'lim uslublari (VAK)."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Kinestetik o'quvchi qanday yaxshi o'rganadi?",
+   "a": [
+    "Harakat va amaliy faoliyat orqali",
+    "Faqat eshitish orqali",
+    "Faqat jadval va rasmlarni ko'rish orqali",
+    "Faqat matnni o'qish orqali"
+   ],
+   "e": "Kasbiy ta'limda muhim."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Diqqatning ixtiyoriy turi nima?",
+   "a": [
+    "Maqsadli, irodaviy diqqat",
+    "Kutilmagan ovozga beixtiyor qaratilgan diqqat",
+    "Uyqu holatidagi diqqat",
+    "Diqqatning butunlay yo'qligi"
+   ],
+   "e": "Ixtiyorsiz — beixtiyor."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Xotira jarayonlariga qaysilar kiradi?",
+   "a": [
+    "Eslash, saqlash, esga tushirish",
+    "Faqat ko'rish va eshitish",
+    "Faqat o'ylash va gapirish",
+    "Faqat yurish va yugurish"
+   ],
+   "e": "Asosiy jarayonlar."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Ebbingauz egri chizig'i nimani ko'rsatadi?",
+   "a": [
+    "Unutish avval tez kechishini",
+    "Xotira yosh bilan doim kuchayishini",
+    "Unutish umuman bo'lmasligini",
+    "Takrorlash foydasiz ekanini"
+   ],
+   "e": "Takrorlash zarurati."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Vygotskiyning \"eng yaqin rivojlanish zonasi\" nima?",
+   "a": [
+    "Yordam bilan bajara oladigan soha",
+    "O'quvchi mustaqil bajara oladigan barcha vazifalar",
+    "O'quvchi hech qachon bajara olmaydigan vazifalar",
+    "Maktab hududining yaqin atrofi"
+   ],
+   "e": "Ta'lim rivojlanishdan oldinda yuradi."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Maslou ehtiyojlar ierarxiyasining eng quyi pog'onasi qaysi?",
+   "a": [
+    "Fiziologik ehtiyojlar",
+    "O'zini namoyon qilish ehtiyoji",
+    "Hurmat ehtiyoji",
+    "Ijtimoiy ehtiyojlar"
+   ],
+   "e": "Piramida."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Maslou ierarxiyasining eng yuqori pog'onasi qaysi?",
+   "a": [
+    "O'zini namoyon qilish",
+    "Xavfsizlik ehtiyoji",
+    "Fiziologik ehtiyojlar",
+    "Mansublik ehtiyoji"
+   ],
+   "e": "Self-actualization."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Pedagogik nizoni hal qilishda eng samarali strategiya qaysi?",
+   "a": [
+    "Hamkorlik",
+    "Kuch ishlatish va majburlash",
+    "Nizodan butunlay qochish",
+    "Faqat bir tomonga yon bosish"
+   ],
+   "e": "Tomas–Kilmenn."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "\"Kasbiy charchash\" (burnout) sindromining belgisi qaysi?",
+   "a": [
+    "Hissiy toliqish, befarqlik",
+    "Ishga qiziqishning keskin ortishi",
+    "Doimiy quvonch va g'ayrat",
+    "Ish samaradorligining oshishi"
+   ],
+   "e": "Pedagoglarda ko'p uchraydi."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "O'quvchida o'quv faoliyatiga qiziqishni oshirish usuli qaysi?",
+   "a": [
+    "Muvaffaqiyat vaziyatini yaratish",
+    "Faqat jazo va tanbeh berish",
+    "Darsni monoton o'tkazish",
+    "O'quvchini boshqalar oldida kamsitish"
+   ],
+   "e": "Motivatsiya."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Empatiya nima?",
+   "a": [
+    "Boshqalar hissini tushunish",
+    "Faqat o'z manfaatini o'ylash",
+    "Boshqalarga befarq bo'lish",
+    "Har doim tanqid qilish"
+   ],
+   "e": "Pedagog uchun muhim sifat."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Pedagogik takt nima?",
+   "a": [
+    "Muomalada me'yor va odobni saqlash",
+    "Darsni qattiq intizom bilan o'tkazish",
+    "O'quvchilarga ovoz ko'tarish",
+    "Faqat a'lochilar bilan muloqot"
+   ],
+   "e": "Pedagogik mahorat tarkibiy qismi."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Avtoritar boshqaruv uslubiga xos belgi qaysi?",
+   "a": [
+    "Qat'iy buyruq va nazorat",
+    "O'quvchilar bilan maslahatlashib qaror qabul qilish",
+    "To'liq erkinlik, hech qanday nazorat yo'q",
+    "Hamkorlik va o'zaro hurmat"
+   ],
+   "e": "Lyuin tasnifi."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Demokratik boshqaruv uslubiga xos belgi qaysi?",
+   "a": [
+    "Hamkorlik va maslahatlashish",
+    "Faqat buyruq berish va qat'iy nazorat",
+    "Butunlay befarqlik va nazoratsizlik",
+    "O'quvchilarni jazolash orqali boshqarish"
+   ],
+   "e": "Eng samarali uslub."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Liberal (erkin) uslubning salbiy tomoni nima?",
+   "a": [
+    "Nazorat sustligi va intizomsizlik",
+    "O'quvchilarning haddan tashqari faolligi",
+    "Qat'iy tartib va buyruqlar",
+    "O'qituvchining doimiy nazorati"
+   ],
+   "e": "Ruxsat beruvchi uslub."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Deviant xulq nima?",
+   "a": [
+    "Me'yordan og'uvchi xulq",
+    "A'lo o'qish va namunali xulq",
+    "Sportga qiziqish",
+    "Kitob o'qishga qiziqish"
+   ],
+   "e": "Profilaktik ish talab qiladi."
+  },
+  {
+   "b": "Pedagogik psixologiya va yosh xususiyatlari",
+   "q": "Pedagogik refleksiya nima?",
+   "a": [
+    "O'z faoliyatini tahlil qilish",
+    "Faqat o'quvchilarni baholash",
+    "Faqat dars jadvalini tuzish",
+    "Faqat hujjatlarni to'ldirish"
+   ],
+   "e": "Kasbiy o'sish manbai."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Amaldagi \"Ta'lim to'g'risida\"gi O'zbekiston Respublikasi Qonuni qachon qabul qilingan?",
+   "a": [
+    "2020-yil 23-sentabr",
+    "1992-yil 2-iyul",
+    "1997-yil 29-avgust",
+    "2017-yil 7-fevral"
+   ],
+   "e": "O'RQ-637."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "\"Ta'lim to'g'risida\"gi Qonunga ko'ra professional ta'lim qaysi darajalarni o'z ichiga oladi?",
+   "a": [
+    "Boshlang'ich, o'rta va o'rta maxsus",
+    "Faqat bakalavriat va magistratura",
+    "Faqat maktabgacha va boshlang'ich ta'lim",
+    "Faqat malaka oshirish kurslari"
+   ],
+   "e": "Kasb-hunar maktabi, kollej, texnikum."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "O'rta maxsus professional ta'lim qaysi ta'lim muassasalarida beriladi?",
+   "a": [
+    "Texnikumlarda",
+    "Kasb-hunar maktablarida",
+    "Umumta'lim maktablarida",
+    "Maktabgacha ta'lim tashkilotlarida"
+   ],
+   "e": "Kollejlar — o'rta professional."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Boshlang'ich professional ta'lim qaysi muassasalarda beriladi?",
+   "a": [
+    "Kasb-hunar maktablarida",
+    "Texnikumlarda",
+    "Oliy ta'lim muassasalarida",
+    "Akademik litseylarda"
+   ],
+   "e": "9-sinf bitiruvchilari uchun."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Qonunga ko'ra ta'lim tizimining asosiy tamoyillaridan biri qaysi?",
+   "a": [
+    "Insonparvarlik va demokratik xarakteri",
+    "Ta'limning faqat pullik bo'lishi",
+    "Ta'limning faqat diniy asosda bo'lishi",
+    "Ta'limda tanlov erkinligining yo'qligi"
+   ],
+   "e": "Qonunning 4-moddasi."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Umumiy o'rta ta'lim O'zbekistonda qanday xarakterga ega?",
+   "a": [
+    "Majburiy",
+    "Ixtiyoriy",
+    "Faqat pullik",
+    "Faqat shahar aholisi uchun"
+   ],
+   "e": "11 yillik."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Pedagog xodimlarning malaka toifalari qaysilar?",
+   "a": [
+    "Ikkinchi, birinchi va oliy toifa",
+    "Faqat bitta umumiy toifa",
+    "Boshlang'ich, o'rta, yuqori, eng yuqori, maksimal",
+    "Toifalar mavjud emas"
+   ],
+   "e": "Attestatsiya natijasi asosida."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Pedagogning kasbiy faoliyatini tartibga soluvchi asosiy qonun hujjatlari qaysilar?",
+   "a": [
+    "\"Ta'lim to'g'risida\"gi Qonun va Mehnat kodeksi",
+    "Faqat Soliq kodeksi va soliq qonunlari",
+    "Faqat Bojxona kodeksi",
+    "Faqat Havo kodeksi va aviatsiya qoidalari"
+   ],
+   "e": "Shuningdek, VM qarorlari."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "O'qituvchining huquqlaridan biri qaysi?",
+   "a": [
+    "Ta'lim metodlarini erkin tanlash",
+    "O'quvchini jismoniy jazolash",
+    "Darsga sababsiz kelmaslik",
+    "O'quvchi ma'lumotlarini oshkor qilish"
+   ],
+   "e": "Kasbiy erkinlik."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "O'qituvchining asosiy majburiyatlaridan biri qaysi?",
+   "a": [
+    "O'quvchilar sha'nini hurmat qilish",
+    "O'quvchilardan sovg'a talab qilish",
+    "Darsni o'z xohishicha qoldirish",
+    "O'quvchilarni kamsitish"
+   ],
+   "e": "Pedagog odobi."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Ta'lim muassasasida o'quvchilarga jismoniy va ruhiy zo'ravonlik qo'llash haqida qaysi fikr to'g'ri?",
+   "a": [
+    "Qat'iyan taqiqlanadi",
+    "Intizom uchun ruxsat etiladi",
+    "Faqat ota-ona roziligi bilan mumkin",
+    "Faqat katta sinflarda mumkin"
+   ],
+   "e": "Qonun bilan himoyalangan."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Bolaning huquqlari to'g'risidagi BMT Konvensiyasi qachon qabul qilingan?",
+   "a": [
+    "1989-yilda",
+    "1948-yilda",
+    "2000-yilda",
+    "1966-yilda"
+   ],
+   "e": "O'zbekiston 1992-yilda qo'shilgan."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Inson huquqlari umumjahon deklaratsiyasi qachon qabul qilingan?",
+   "a": [
+    "1948-yil 10-dekabr",
+    "1989-yil 20-noyabr",
+    "1991-yil 1-sentabr",
+    "1992-yil 8-dekabr"
+   ],
+   "e": "BMT Bosh Assambleyasi."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "O'zbekiston Respublikasining amaldagi Konstitutsiyasi qachon qabul qilingan (yangi tahrirda)?",
+   "a": [
+    "2023-yil 30-aprel referendumda",
+    "1991-yil 31-avgust, mustaqillik kuni",
+    "2017-yil 7-fevral, Harakatlar strategiyasi bilan",
+    "2000-yil 1-yanvar, yangi asr boshida"
+   ],
+   "e": "1992-yil 8-dekabrdagi Konstitutsiya yangi tahrirda."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Konstitutsiyaga ko'ra ta'lim olish huquqi kimga tegishli?",
+   "a": [
+    "Har bir shaxsga",
+    "Faqat fuqarolarning bir qismiga",
+    "Faqat erkaklarga",
+    "Faqat shaharliklarga"
+   ],
+   "e": "Konstitutsiyaviy huquq."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Kasbiy standartlar asosida nima ishlab chiqiladi?",
+   "a": [
+    "Standart va dasturlar",
+    "Soliq stavkalari",
+    "Bojxona tariflari",
+    "Transport qoidalari"
+   ],
+   "e": "Mehnat bozori talablari."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Milliy malaka ramkasida nechta malaka darajasi belgilangan?",
+   "a": [
+    "8 ta",
+    "3 ta",
+    "12 ta",
+    "5 ta"
+   ],
+   "e": "Yevropa malaka ramkasiga muvofiq."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Ijtimoiy hamkorlik professional ta'limda nimani anglatadi?",
+   "a": [
+    "Kollej va ish beruvchilar hamkorligi",
+    "Faqat o'quvchilar o'rtasidagi do'stlik",
+    "Faqat ota-onalar majlisi",
+    "Faqat sport musobaqalari"
+   ],
+   "e": "Dual ta'lim, amaliyot."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Ishlab chiqarish amaliyotining asosiy maqsadi nima?",
+   "a": [
+    "Ish joyida kasbiy ko'nikma shakllantirish",
+    "O'quvchilarni dam oldirish",
+    "Darslarni qisqartirish",
+    "Faqat nazariy bilimni takrorlash"
+   ],
+   "e": "Korxonada."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Ta'lim sifatini ta'minlashda ichki nazorat kim tomonidan amalga oshiriladi?",
+   "a": [
+    "Ta'lim muassasasining o'zi",
+    "Faqat chet el tashkilotlari",
+    "Faqat ota-onalar qo'mitasi",
+    "Faqat o'quvchilar kengashi"
+   ],
+   "e": "O'z-o'zini baholash."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Ta'lim muassasalarini akkreditatsiya qilishdan maqsad nima?",
+   "a": [
+    "Sifat talablarga mosligini tasdiqlash",
+    "O'qituvchilar ish haqini belgilash",
+    "Dars jadvalini tasdiqlash",
+    "O'quvchilarni qabul qilishni to'xtatish"
+   ],
+   "e": "Davlat akkreditatsiyasi."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Ta'limda \"uzluksizlik\" tamoyili nimani anglatadi?",
+   "a": [
+    "Umrbod o'qish imkoniyati",
+    "Ta'limning faqat bolalikda bo'lishi",
+    "Ta'limning faqat 11 yil bo'lishi",
+    "Ta'limda tanaffus bo'lmasligi"
+   ],
+   "e": "\"Lifelong learning\"."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Pedagogning malaka oshirishi qanday shakllarda amalga oshiriladi?",
+   "a": [
+    "Kurslar, seminarlar, mustaqil ta'lim",
+    "Faqat ish stajini oshirish orqali",
+    "Faqat bayram tadbirlarida",
+    "Malaka oshirish talab qilinmaydi"
+   ],
+   "e": "Uzluksiz kasbiy rivojlanish."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Ota-onalar bilan hamkorlikning maqsadi nima?",
+   "a": [
+    "Ta'lim-tarbiyada birgalikda ishlash",
+    "Faqat ta'mir uchun pul yig'ish",
+    "Faqat o'quvchini jazolash",
+    "O'qituvchini nazorat qilish"
+   ],
+   "e": "Oila — maktab — mahalla."
+  },
+  {
+   "b": "Ta'lim tizimi va me'yoriy asoslar",
+   "q": "Kasbga yo'naltirish ishining maqsadi nima?",
+   "a": [
+    "Mos kasb tanlashda yordam",
+    "O'quvchini majburan kasbga biriktirish",
+    "Faqat oliygohga tayyorlash",
+    "O'quvchini o'qishdan chetlatish"
+   ],
+   "e": "Kasbiy orientatsiya."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Dars ishlanmasida (texnologik xaritada) birinchi navbatda nima belgilanadi?",
+   "a": [
+    "Dars maqsadi va kutilgan natijalar",
+    "O'quvchilarning ota-onalari ismlari",
+    "Sinf xonasidagi stullar soni",
+    "O'qituvchining kiyimi"
+   ],
+   "e": "Maqsaddan natijaga."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Dars maqsadlari qanday turlarga bo'linadi?",
+   "a": [
+    "Ta'limiy, tarbiyaviy, rivojlantiruvchi",
+    "Moliyaviy, xo'jalik va ma'muriy maqsadlar",
+    "Faqat nazorat va jazo maqsadlari",
+    "Faqat ko'ngilochar maqsadlar"
+   ],
+   "e": "Uch maqsad."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Darsning tashkiliy qismida nima qilinadi?",
+   "a": [
+    "Salomlashish, davomat, tayyorlik",
+    "Yakuniy imtihon o'tkaziladi",
+    "Yangi mavzu to'liq tushuntiriladi",
+    "Uyga vazifa tekshirilmaydi"
+   ],
+   "e": "2–3 daqiqa."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Darsda motivatsiya bosqichining maqsadi nima?",
+   "a": [
+    "Mavzuga qiziqish uyg'otish",
+    "O'quvchilarni jazolash bilan qo'rqitish",
+    "Faqat davomatni tekshirish",
+    "Darsni erta tugatish"
+   ],
+   "e": "Muammoli savol, video, misol."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Yangi mavzuni mustahkamlash bosqichida nima qilinadi?",
+   "a": [
+    "Mashq va savol-javob bilan tekshiriladi",
+    "Faqat yangi mavzu nomi aytiladi",
+    "O'quvchilarga dam beriladi",
+    "Faqat uyga vazifa yoziladi"
+   ],
+   "e": "Qo'llash."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Uyga vazifa qanday bo'lishi kerak?",
+   "a": [
+    "Aniq, hajmi me'yorida, mavzuga mos",
+    "Juda katta hajmli va tushunarsiz",
+    "Mavzuga aloqasi yo'q topshiriq",
+    "Faqat matnni ko'chirib yozishdan iborat"
+   ],
+   "e": "Tabaqalashtirilgan bo'lishi mumkin."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Dars tahlilida nimalar baholanadi?",
+   "a": [
+    "Maqsad, metod, faollik, natija",
+    "Faqat o'qituvchining kiyimi",
+    "Faqat xona harorati",
+    "Faqat dars boshlanish vaqti"
+   ],
+   "e": "Kompleks tahlil."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Ochiq darsning asosiy maqsadi nima?",
+   "a": [
+    "Tajribani ommalashtirish",
+    "O'quvchilarni sinash uchun qiyin test",
+    "O'qituvchini jazolash",
+    "Darsni bekor qilish"
+   ],
+   "e": "Metodik ish."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Taqvim-mavzu rejasi nima?",
+   "a": [
+    "Mavzularni soat va muddatga taqsimlash",
+    "Bitta darsning batafsil konspekti",
+    "O'quvchilar davomat jurnali",
+    "Ta'til kunlari ro'yxati"
+   ],
+   "e": "Yillik/semestr."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Darsning \"refleksiya\" bosqichida qaysi savol mos?",
+   "a": [
+    "\"Bugun nimani o'rgandingiz?\"",
+    "\"Davomatda kim yo'q?\"",
+    "\"Uyga vazifani kim bajarmadi?\"",
+    "\"Kim navbatchi?\""
+   ],
+   "e": "Anglash va baholash."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Kasbiy ta'limda nazariy va amaliy mashg'ulotlar nisbati odatda qanday bo'ladi?",
+   "a": [
+    "Amaliy mashg'ulotlar ulushi yuqori",
+    "Faqat nazariy mashg'ulotlar o'tkaziladi",
+    "Amaliy mashg'ulotlar umuman yo'q",
+    "Nazariya va amaliyot bir-biriga bog'lanmagan"
+   ],
+   "e": "Kompetensiya shakllanishi uchun."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Laboratoriya mashg'ulotida xavfsizlik bo'yicha yo'riqnoma qachon o'tkaziladi?",
+   "a": [
+    "Ish boshlanishidan oldin",
+    "Ish tugagandan keyin, xulosa sifatida",
+    "Faqat o'quv yili oxirida bir marta",
+    "Umuman o'tkazilmaydi, ixtiyoriy"
+   ],
+   "e": "Jurnalga qayd etiladi."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Dars vaqtini samarali taqsimlash nima uchun muhim?",
+   "a": [
+    "Barcha bosqichlarni to'liq bajarish uchun",
+    "Darsni tezroq tugatish uchun",
+    "O'quvchilarni charchatish uchun",
+    "Faqat bitta bosqichga e'tibor berish uchun"
+   ],
+   "e": "Taym-menejment."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Darsda o'quvchilar faolligini oshirishning samarali yo'li qaysi?",
+   "a": [
+    "Interfaol metodlar va guruh ishlari",
+    "Faqat o'qituvchining uzun ma'ruzasi",
+    "O'quvchilarga savol bermaslik",
+    "Faqat doskadan ko'chirtirish"
+   ],
+   "e": "Faol o'rganish."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "O'quv mashg'ulotida ko'rgazmalilikni ta'minlash vositasi qaysi?",
+   "a": [
+    "Maket, plakat, video, namuna",
+    "Faqat o'qituvchining og'zaki bayoni",
+    "Faqat uy vazifasi",
+    "Faqat davomat jurnali"
+   ],
+   "e": "Didaktik materiallar."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Integratsiyalashgan dars nima?",
+   "a": [
+    "Bir necha fan mazmunini birlashtiradi",
+    "Faqat bitta fandan nazorat ishi",
+    "Faqat sport musobaqasi",
+    "Faqat ota-onalar majlisi"
+   ],
+   "e": "Fanlararo aloqa."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Fanlararo aloqaning ahamiyati nima?",
+   "a": [
+    "Bilimlarni yaxlit tizimga keltiradi",
+    "Fanlarni bir-biridan uzib qo'yadi",
+    "Dars soatlarini qisqartiradi",
+    "O'quvchini mavzudan chalg'itadi"
+   ],
+   "e": "Yaxlit dunyoqarash."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Noan'anaviy dars shakllariga misol qaysi?",
+   "a": [
+    "Dars-o'yin, dars-sayohat",
+    "Faqat ma'ruza va konspekt",
+    "Faqat yozma nazorat",
+    "Faqat imtihon"
+   ],
+   "e": "Ijodiy shakllar."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Darsda vaqtni boshqarishda qaysi xato ko'p uchraydi?",
+   "a": [
+    "Bir bosqichga ortiqcha vaqt sarflash",
+    "Barcha bosqichlarni rejaga muvofiq bajarish",
+    "Refleksiya uchun vaqt qoldirish",
+    "Uyga vazifani tushuntirish"
+   ],
+   "e": "Reja va real vaqt."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Dars samaradorligining asosiy ko'rsatkichi nima?",
+   "a": [
+    "Ta'lim natijalariga erishilgani",
+    "O'qituvchining ko'p gapirgani",
+    "Doskaning to'liq yozilgani",
+    "Darsning qo'ng'iroqdan oldin tugashi"
+   ],
+   "e": "Natijaga yo'naltirilganlik."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Mustaqil ta'limni tashkil etishda o'qituvchining vazifasi nima?",
+   "a": [
+    "Topshiriq, manba, mezon berish",
+    "O'quvchini butunlay o'z holiga tashlash",
+    "Topshiriqni o'zi bajarib berish",
+    "Mustaqil ishni tekshirmaslik"
+   ],
+   "e": "Yo'naltirish va nazorat."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Amaliy mashg'ulotda \"ko'rsatib berish — takrorlash — mustaqil bajarish\" ketma-ketligi nimani anglatadi?",
+   "a": [
+    "Ko'nikmaning bosqichli shakllanishi",
+    "Faqat nazariy bilimni berishni",
+    "Faqat baholashni",
+    "Faqat davomatni"
+   ],
+   "e": "Ishlab chiqarish ta'limi."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Darsda xato qilgan o'quvchiga qanday munosabatda bo'lish kerak?",
+   "a": [
+    "Xatoni tushuntirib, yordam berish",
+    "Boshqalar oldida masxara qilish",
+    "Darsdan chiqarib yuborish",
+    "E'tiborsiz qoldirish"
+   ],
+   "e": "Xato — o'rganish imkoniyati."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "Darsning yakuniy qismida nima bajariladi?",
+   "a": [
+    "Xulosa, baholash va uy vazifasi",
+    "Yangi mavzuni bayon qilishni boshlash",
+    "Davomatni boshidan qayta tekshirish",
+    "Darsni izohsiz to'xtatish"
+   ],
+   "e": "Yakunlash."
+  },
+  {
+   "b": "Darsni loyihalash va o'tkazish",
+   "q": "O'quv mashg'ulotida axborot-kommunikatsiya texnologiyalaridan foydalanishning afzalligi nima?",
+   "a": [
+    "Ko'rgazmalilik va interaktivlik oshadi",
+    "O'qituvchi keraksiz bo'lib qoladi",
+    "O'quvchilar faqat o'yin o'ynaydi",
+    "Dars sifati albatta pasayadi"
+   ],
+   "e": "Raqamli ta'lim."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Guruh rahbari (kurator) ning asosiy vazifasi nima?",
+   "a": [
+    "Tarbiyaviy ishlarni tashkil etish",
+    "Faqat dars jadvalini tuzish",
+    "Faqat ta'mirlash ishlarini boshqarish",
+    "Faqat oshxona menyusini tuzish"
+   ],
+   "e": "O'quvchi — ota-ona — muassasa."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "O'quvchilar jamoasini shakllantirishda muhim omil qaysi?",
+   "a": [
+    "Umumiy maqsad va faoliyat",
+    "O'quvchilarni bir-biridan ajratish",
+    "Faqat individual jazolar",
+    "Raqobatni dushmanlikka aylantirish"
+   ],
+   "e": "A. S. Makarenko."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "\"Jamoa orqali tarbiya\" g'oyasi qaysi pedagogga tegishli?",
+   "a": [
+    "Anton Makarenko",
+    "Mariya Montessori",
+    "Jan Piaje",
+    "Benjamin Blum"
+   ],
+   "e": "\"Pedagogik poema\"."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Abdulla Avloniyning \"Turkiy guliston yoxud axloq\" asari nimaga bag'ishlangan?",
+   "a": [
+    "Axloqiy tarbiyaga",
+    "Matematika masalalariga",
+    "Geografik kashfiyotlarga",
+    "Tibbiy davolash usullariga"
+   ],
+   "e": "\"Tarbiya biz uchun yo hayot — yo mamot...\""
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "\"Tarbiya biz uchun yo hayot — yo mamot, yo najot — yo halokat...\" so'zlari kimga tegishli?",
+   "a": [
+    "Abdulla Avloniy",
+    "Alisher Navoiy",
+    "Mahmudxo'ja Behbudiy",
+    "Abdurauf Fitrat"
+   ],
+   "e": "Jadid ma'rifatparvari."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Abu Nasr Forobiy ta'lim-tarbiyaga oid qaysi g'oyani ilgari surgan?",
+   "a": [
+    "Ta'lim so'z bilan, tarbiya amal bilan",
+    "Ta'lim faqat jazo orqali amalga oshadi",
+    "Tarbiya kerak emas, faqat bilim kerak",
+    "Faqat zodagonlar ta'lim olishi kerak"
+   ],
+   "e": "\"Fozil odamlar shahri\"."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Pedagogik etikaning asosiy tamoyili qaysi?",
+   "a": [
+    "O'quvchi shaxsini hurmat qilish",
+    "O'quvchini kamsitish va masxaralash",
+    "O'quvchilarga xolis bo'lmaslik",
+    "O'quvchi sirlarini oshkor qilish"
+   ],
+   "e": "Kasbiy odob."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Ta'lim muassasasida korrupsiyaga qarshi kurashda pedagogdan nima talab qilinadi?",
+   "a": [
+    "Halollik va xolislik",
+    "Baho evaziga sovg'a qabul qilish",
+    "Imtihonda pul talab qilish",
+    "Qarindoshlarni imtiyozli baholash"
+   ],
+   "e": "Halol baholash."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Manfaatlar to'qnashuvi nima?",
+   "a": [
+    "Shaxsiy manfaatning xizmatga ta'siri",
+    "O'quvchilarning sport musobaqasi",
+    "O'qituvchilarning metodik kengashi",
+    "Ota-onalar bilan uchrashuv"
+   ],
+   "e": "Oldini olish kerak."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Buliing (bullying) nima?",
+   "a": [
+    "Muntazam kamsitish va ta'qib",
+    "Do'stona sport musobaqasi",
+    "Guruhda birgalikda ishlash",
+    "Ota-onalar bilan hamkorlik"
+   ],
+   "e": "Profilaktika va aralashuv."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Pedagog buliing holatini aniqlaganda nima qilishi kerak?",
+   "a": [
+    "Aralashib, jabrlanuvchini himoyalash",
+    "E'tiborsiz qoldirish",
+    "Jabrlanuvchini ayblash",
+    "Faqat yil oxirida xabar berish"
+   ],
+   "e": "Psixolog va ota-onalar bilan."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Tarbiyaviy soatning maqsadi nima?",
+   "a": [
+    "Ma'naviy-axloqiy fazilatlarni shakllantirish",
+    "Faqat qo'shimcha matematika darsi",
+    "O'quvchilarni jazolash",
+    "Faqat davomatni tekshirish"
+   ],
+   "e": "Sinfdan tashqari tarbiya."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Vatanparvarlik tarbiyasining mazmuni nima?",
+   "a": [
+    "Vatanga muhabbatni shakllantirish",
+    "Boshqa xalqlarni kamsitish",
+    "Faqat harbiy mashg'ulotlar",
+    "Faqat bayramlarni nishonlash"
+   ],
+   "e": "Milliy qadriyatlar asosida."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Ekologik tarbiyaning maqsadi nima?",
+   "a": [
+    "Tabiatga mas'uliyatli munosabat",
+    "Tabiatdan cheksiz foydalanishga o'rgatish",
+    "Faqat gul o'stirishni o'rgatish",
+    "Faqat sanoatni rivojlantirish"
+   ],
+   "e": "Barqaror rivojlanish."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Iqtisodiy tarbiya o'quvchida nimani shakllantiradi?",
+   "a": [
+    "Tejamkorlik va tadbirkorlik",
+    "Isrofgarchilik va behuda sarf",
+    "Qarz olishga moyillik",
+    "Mehnatga befarqlik"
+   ],
+   "e": "Moliyaviy savodxonlik."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Huquqiy tarbiyaning maqsadi nima?",
+   "a": [
+    "Huquqiy madaniyatni shakllantirish",
+    "Qonunlarni chetlab o'tishga o'rgatish",
+    "Faqat jinoyatlarni o'rganish",
+    "Huquqiy bilimlarni taqiqlash"
+   ],
+   "e": "Huquqiy madaniyat."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Mehnat tarbiyasi kasbiy ta'limda qanday ahamiyatga ega?",
+   "a": [
+    "Mehnatsevarlikni tarbiyalaydi",
+    "Mehnatdan qochishga o'rgatadi",
+    "Faqat jismoniy charchoqqa olib keladi",
+    "Hech qanday ahamiyatga ega emas"
+   ],
+   "e": "Kasbga hurmat."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Oila va ta'lim muassasasi hamkorligining samarali shakli qaysi?",
+   "a": [
+    "Majlis, suhbat, birgalikdagi tadbir",
+    "Faqat ota-onalarga jarima solish",
+    "Faqat ta'mir uchun mablag' yig'ish",
+    "Ota-onalar bilan umuman aloqa qilmaslik"
+   ],
+   "e": "Pedagogik hamkorlik."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Qiyin tarbiyalanuvchi o'quvchi bilan ishlashda qaysi yondashuv to'g'ri?",
+   "a": [
+    "Sababini aniqlab, individual yondashish",
+    "Darhol ta'lim muassasasidan haydash",
+    "Boshqalar oldida doimiy tanqid qilish",
+    "E'tibor bermaslik"
+   ],
+   "e": "Psixolog bilan hamkorlik."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Pedagogning nutq madaniyatiga qo'yiladigan talab qaysi?",
+   "a": [
+    "Aniq, savodli va hurmatli nutq",
+    "Jargon va qo'pol so'zlar ishlatish",
+    "Juda tez va tushunarsiz gapirish",
+    "Faqat chet tilida gapirish"
+   ],
+   "e": "Pedagogik nutq."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Pedagogik mahoratning asosiy tarkibiy qismlari qaysilar?",
+   "a": [
+    "Bilim, qobiliyat, texnika, takt",
+    "Faqat chiroyli kiyinish",
+    "Faqat ko'p ish staji",
+    "Faqat yuqori ovoz"
+   ],
+   "e": "I. A. Zyazyun."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Pedagogik texnika tarkibiga nimalar kiradi?",
+   "a": [
+    "Nutq, mimika, pantomimika",
+    "Faqat kompyuter dasturlari",
+    "Faqat doska va bo'r",
+    "Faqat dars jadvali"
+   ],
+   "e": "Tashqi ifoda."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Pedagogik imidj nima?",
+   "a": [
+    "Pedagogning obrazi",
+    "Faqat pedagogning fotosurati",
+    "Faqat ish haqi miqdori",
+    "Faqat diplom bahosi"
+   ],
+   "e": "Tashqi ko'rinish, muomala, obro'."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Pedagogik obro' (avtoritet) qanday shakllanadi?",
+   "a": [
+    "Bilim, adolat va hurmat orqali",
+    "Faqat qattiq jazolar orqali",
+    "Faqat baland ovoz bilan gapirish orqali",
+    "Faqat qimmat kiyinish orqali"
+   ],
+   "e": "Haqiqiy obro'."
+  },
+  {
+   "b": "Tarbiya, sinf boshqaruvi va pedagogik etika",
+   "q": "Inklyuziv ta'limda pedagogning vazifasi nima?",
+   "a": [
+    "Ehtiyojga mos sharoit yaratish",
+    "Alohida ehtiyojli o'quvchilarni ajratish",
+    "Faqat sog'lom o'quvchilar bilan ishlash",
+    "Barcha o'quvchilarga bir xil talab qo'yish"
+   ],
+   "e": "Moslashtirilgan dastur."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Masofaviy ta'limning asosiy afzalligi nima?",
+   "a": [
+    "Joy va vaqtdan qat'i nazar o'qish imkoniyati",
+    "O'qituvchi bilan muloqotning to'liq yo'qligi",
+    "Faqat qog'oz darsliklardan foydalanish",
+    "Barcha uchun bir xil va qat'iy jadval"
+   ],
+   "e": "Moslashuvchanlik."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Aralash ta'lim (blended learning) nima?",
+   "a": [
+    "Auditoriya va onlayn uyg'unligi",
+    "Faqat onlayn darslar",
+    "Faqat an'anaviy ma'ruzalar",
+    "Faqat mustaqil ta'lim, o'qituvchisiz"
+   ],
+   "e": "Gibrid model."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "LMS tizimiga misol qaysi?",
+   "a": [
+    "Moodle",
+    "Photoshop",
+    "Excel",
+    "Paint"
+   ],
+   "e": "O'quv jarayonini boshqarish."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "MOOC nima?",
+   "a": [
+    "Ommaviy ochiq onlayn kurslar",
+    "Maktab o'quv rejasi",
+    "Mahalliy o'qituvchilar kengashi",
+    "Imtihon turi"
+   ],
+   "e": "Coursera, edX."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Pedagogning raqamli kompetensiyasi nimani o'z ichiga oladi?",
+   "a": [
+    "Raqamli vositalardan samarali foydalanish",
+    "Faqat kompyuter yoqishni bilish",
+    "Faqat ijtimoiy tarmoqlarda faol bo'lish",
+    "Faqat kompyuter o'yinlarini bilish"
+   ],
+   "e": "DigCompEdu."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Elektron o'quv resurslarini yaratishda nimaga e'tibor beriladi?",
+   "a": [
+    "Aniqlik, interaktivlik, qulaylik",
+    "Faqat rang-baranglik va animatsiya",
+    "Faqat hajmning kattaligi",
+    "Faqat muallif ismining yirik yozilishi"
+   ],
+   "e": "Didaktik talablar."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Onlayn darsda o'quvchilar faolligini oshirish usuli qaysi?",
+   "a": [
+    "So'rovnoma va interaktiv topshiriqlar",
+    "Kameralarni o'chirib, faqat ma'ruza o'qish",
+    "Savol berishni taqiqlash",
+    "Darsni yozib olib, efirga chiqmaslik"
+   ],
+   "e": "Interaktivlik."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Sun'iy intellekt vositalarini ta'limda qo'llashda pedagog nimaga e'tibor beradi?",
+   "a": [
+    "Akademik halollik va natijani tanqidiy tekshirish",
+    "O'quvchilarga ishni SI bilan ko'chirishga ruxsat berish",
+    "SI javoblarini tekshirmasdan qabul qilish",
+    "SIdan butunlay voz kechish shart"
+   ],
+   "e": "Mas'uliyatli foydalanish."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Plagiat nima?",
+   "a": [
+    "Birovning ishini o'zinikidek ko'rsatish",
+    "O'z ishini mustaqil yozish",
+    "Manbani ko'rsatib iqtibos keltirish",
+    "Hamkorlikda loyiha tayyorlash"
+   ],
+   "e": "Akademik qoidabuzarlik."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Iqtibos keltirishda qanday qoidaga rioya qilinadi?",
+   "a": [
+    "Manba va muallif ko'rsatiladi",
+    "Manba hech qachon ko'rsatilmaydi",
+    "Faqat muallif ismi yashiriladi",
+    "Iqtibos keltirish taqiqlangan"
+   ],
+   "e": "Mualliflik huquqi."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "STEAM ta'limi nimani anglatadi?",
+   "a": [
+    "Fan, texnologiya, san'at, matematika",
+    "Faqat sport mashg'ulotlari",
+    "Faqat chet tillarini o'rganish",
+    "Faqat tarixiy bilimlar"
+   ],
+   "e": "Science, Technology, Engineering, Arts, Math."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "\"Soft skills\" deganda nima tushuniladi?",
+   "a": [
+    "Muloqot va jamoada ishlash",
+    "Faqat texnik va kasbiy ko'nikmalar",
+    "Faqat jismoniy kuch",
+    "Faqat kompyuter dasturlash"
+   ],
+   "e": "Universal ko'nikmalar."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "\"Hard skills\" ga misol qaysi?",
+   "a": [
+    "Payvandlash ko'nikmasi",
+    "Empatiya va muloqot madaniyati",
+    "Jamoada ishlash qobiliyati",
+    "Ijodiy va tanqidiy fikrlash"
+   ],
+   "e": "Kasbiy-texnik ko'nikmalar."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "XXI asr \"4K\" ko'nikmalariga qaysilar kiradi?",
+   "a": [
+    "Kreativlik, tanqidiy fikr, muloqot",
+    "Kitob, kompyuter, kamera, kalkulyator",
+    "Kuch, kelishuv, kafolat, kredit",
+    "Kasb, kollej, kurs, kitob"
+   ],
+   "e": "4C."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Tanqidiy fikrlash nima?",
+   "a": [
+    "Tahlil qilib, asosli xulosa chiqarish",
+    "Har qanday fikrni ko'r-ko'rona qabul qilish",
+    "Hamma narsani rad etish",
+    "Faqat boshqalarni tanqid qilish"
+   ],
+   "e": "Dalillarga asoslanish."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Kreativ fikrlashni rivojlantirishga qaysi topshiriq mos?",
+   "a": [
+    "Noodatiy yechimlar topish",
+    "Ta'rifni yoddan aytish",
+    "Matnni ko'chirib yozish",
+    "Tayyor javobni tanlash"
+   ],
+   "e": "Divergent fikrlash."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Ta'limda \"personalizatsiya\" nimani anglatadi?",
+   "a": [
+    "Ta'limni ehtiyojga moslashtirish",
+    "Barcha o'quvchilarga bir xil dastur",
+    "Faqat guruh baholash",
+    "O'quvchilarni bir-biriga taqqoslash"
+   ],
+   "e": "Individual trayektoriya."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Mikrota'lim (microlearning) nima?",
+   "a": [
+    "Qisqa o'quv bloklari",
+    "Uzoq davom etuvchi semestrlik kurs",
+    "Faqat mikroskop bilan ishlash",
+    "Faqat bitta darsni bekor qilish"
+   ],
+   "e": "3–10 daqiqalik modullar."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Elektron jurnal (e-jurnal) ning afzalligi nima?",
+   "a": [
+    "Shaffof va tez qayd etish",
+    "Baholarni yashirish imkoniyati",
+    "Ota-onalarning ma'lumotdan uzilishi",
+    "Qog'oz sarfining ko'payishi"
+   ],
+   "e": "Raqamlashtirish."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Onlayn ta'limda kiberxavfsizlik bo'yicha pedagogning vazifasi nima?",
+   "a": [
+    "Xavfsiz internetga o'rgatish",
+    "Parollarni hammaga ochiq aytish",
+    "Shaxsiy ma'lumotlarni internetga joylash",
+    "Shubhali havolalarni ochishni tavsiya qilish"
+   ],
+   "e": "Raqamli gigiyena."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Videodars tayyorlashda eng muhim talab qaysi?",
+   "a": [
+    "Aniq maqsad va qisqa bayon",
+    "Imkon qadar uzun, 2 soatlik video",
+    "Ovozsiz va izohsiz video",
+    "Mavzuga aloqasiz musiqa ko'p bo'lishi"
+   ],
+   "e": "5–15 daqiqa."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Virtual laboratoriyaning afzalligi nima?",
+   "a": [
+    "Tajribalarni xavfsiz modellashtirish",
+    "Real amaliyotni butunlay almashtirish shart",
+    "Faqat o'yin sifatida foydalanish",
+    "O'quvchilarning qiziqishini so'ndirish"
+   ],
+   "e": "Simulyatorlar."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Kasbiy ta'limda simulyatorlardan foydalanish nima beradi?",
+   "a": [
+    "Xavfsiz amaliy mashq",
+    "Amaliyotni butunlay bekor qilish",
+    "O'qituvchining ishini yo'q qilish",
+    "Faqat nazariy bilim berish"
+   ],
+   "e": "Haydovchilik, payvandlash simulyatorlari."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Dars samaradorligini oshirishda \"qayta aloqa\" qanday ahamiyatga ega?",
+   "a": [
+    "Xatoni anglab tuzatishga yordam",
+    "O'quvchini tushkunlikka tushiradi",
+    "Hech qanday ahamiyatga ega emas",
+    "Faqat o'qituvchining vaqtini oladi"
+   ],
+   "e": "Formativ baholash."
+  },
+  {
+   "b": "Raqamli ta'lim va zamonaviy yondashuvlar",
+   "q": "Ta'limda \"o'quvchiga yo'naltirilgan\" yondashuv nimani anglatadi?",
+   "a": [
+    "O'quvchi ehtiyoji markazda",
+    "O'qituvchi markazda, o'quvchi passiv bo'lishini",
+    "Faqat dastur hajmini bajarishni",
+    "Faqat baholashga e'tibor berishni"
+   ],
+   "e": "Sub'ekt-sub'ekt munosabati."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "\"Qobusnoma\" asarining muallifi kim?",
+   "a": [
+    "Kaykovus",
+    "Yusuf Xos Hojib",
+    "Alisher Navoiy",
+    "Abu Ali ibn Sino"
+   ],
+   "e": "XI asr, farzandiga nasihatlar."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "\"Qutadg'u bilig\" asarining muallifi kim?",
+   "a": [
+    "Yusuf Xos Hojib",
+    "Mahmud Koshg'ariy",
+    "Ahmad Yugnakiy",
+    "Kaykovus"
+   ],
+   "e": "1069-yil."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "\"Mahbub ul-qulub\" asarida ta'lim-tarbiya masalalarini yoritgan mutafakkir kim?",
+   "a": [
+    "Alisher Navoiy",
+    "Abdulla Avloniy",
+    "Abu Rayhon Beruniy",
+    "Zahiriddin Bobur"
+   ],
+   "e": "Muallim haqida ham fikrlar."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Abu Ali ibn Sino bola tarbiyasida nimaga alohida e'tibor qaratgan?",
+   "a": [
+    "Jismoniy va ruhiy tarbiya uyg'unligiga",
+    "Faqat jazolash usullariga",
+    "Faqat savdo-sotiqqa o'rgatishga",
+    "Tarbiyaning keraksizligiga"
+   ],
+   "e": "\"Tib qonunlari\"."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Mahmudxo'ja Behbudiy qaysi harakatning yetakchilaridan biri?",
+   "a": [
+    "Jadidchilik",
+    "Romantizm",
+    "Gumanizm (Yevropa)",
+    "Pragmatizm"
+   ],
+   "e": "Yangi usul maktablari."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Jadid maktablarining asosiy yangiligi nima edi?",
+   "a": [
+    "Tovush usulida savod o'rgatish",
+    "Faqat matnni yodlash usuli",
+    "Faqat diniy fanlarni o'qitish",
+    "Ta'limni butunlay taqiqlash"
+   ],
+   "e": "Usuli savtiya."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Mariya Montessori pedagogikasining asosiy g'oyasi nima?",
+   "a": [
+    "Erkin rivojlanish va tayyorlangan muhit",
+    "Qattiq intizom va jazo",
+    "Faqat yodlash",
+    "Faqat jamoaviy mashg'ulotlar"
+   ],
+   "e": "\"Menga o'zim qilishimga yordam ber\"."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Jon Dyui qaysi g'oya tarafdori bo'lgan?",
+   "a": [
+    "\"Amal orqali o'rganish\"",
+    "Faqat ma'ruza orqali o'qitish",
+    "Ta'limni ijtimoiy hayotdan ajratish",
+    "Faqat jazo orqali tarbiyalash"
+   ],
+   "e": "Pragmatik pedagogika."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Konstantin Ushinskiy pedagogikada qanday tamoyilni ilgari surgan?",
+   "a": [
+    "Xalqchillik va ona tilida o'qitish",
+    "Faqat chet tilida o'qitish",
+    "Faqat zodagonlar uchun ta'lim",
+    "Ta'limda milliylikni rad etish"
+   ],
+   "e": "Rus pedagogikasi asoschisi."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Jan Piaje qaysi soha bo'yicha mashhur?",
+   "a": [
+    "Intellekt rivojlanish bosqichlari",
+    "Sinf-dars tizimi",
+    "Jamoa orqali tarbiya",
+    "Dual ta'lim tizimi"
+   ],
+   "e": "Kognitiv rivojlanish."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Lev Vygotskiy nazariyasi qanday ataladi?",
+   "a": [
+    "Madaniy-tarixiy nazariya",
+    "Bixeviorizm",
+    "Psixoanaliz",
+    "Gumanistik psixologiya"
+   ],
+   "e": "Ijtimoiy muhit roli."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Bixeviorizm ta'limni qanday tushuntiradi?",
+   "a": [
+    "Rag'bat orqali xulq shakllanishi",
+    "Faqat ichki ruhiy kechinmalar",
+    "Faqat ongsiz istaklar",
+    "Faqat irsiy omillar"
+   ],
+   "e": "Skinner, Torndayk."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Konstruktivizm ta'limni qanday tushuntiradi?",
+   "a": [
+    "O'quvchi bilimni faol tarzda o'zi quradi",
+    "Bilim tayyor holda o'qituvchidan ko'chiriladi",
+    "Faqat yodlash orqali bilim olinadi",
+    "Bilim faqat irsiyat orqali beriladi"
+   ],
+   "e": "Piaje, Vygotskiy."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Gumanistik pedagogikaning asosiy g'oyasi nima?",
+   "a": [
+    "O'zini namoyon qilishga sharoit",
+    "Faqat qattiq nazorat va intizom",
+    "Bolani jazo bilan tarbiyalash",
+    "Shaxsni inkor etish"
+   ],
+   "e": "K. Rodjers, A. Maslou."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Suqrot usuli nimaga asoslangan?",
+   "a": [
+    "Savollar orqali haqiqatni topishga",
+    "Uzluksiz ma'ruza va konspektga",
+    "Faqat yozma test topshirishga",
+    "Jazo va qo'rqitishga"
+   ],
+   "e": "Majevtika."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Jan-Jak Russoning \"Emil yoki tarbiya haqida\" asarida qaysi g'oya bor?",
+   "a": [
+    "Tabiatga muvofiq tarbiya",
+    "Qattiq intizom va tayoq",
+    "Faqat diniy tarbiya",
+    "Faqat davlat tarbiyasi"
+   ],
+   "e": "Erkin tarbiya."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Iogann Pestalotstsi qaysi g'oya bilan mashhur?",
+   "a": [
+    "Rivojlantiruvchi va mehnat ta'limi",
+    "Ta'limni faqat pullik qilish",
+    "Jazoni ta'limning asosi qilish",
+    "Faqat oliy ta'limni rivojlantirish"
+   ],
+   "e": "Elementar ta'lim."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Abu Rayhon Beruniy ta'limda qanday tamoyilni muhim deb hisoblagan?",
+   "a": [
+    "Bilimni izchil, charchatmasdan berish",
+    "O'quvchini uzluksiz charchatish",
+    "Faqat bitta fanni o'qitish",
+    "Bilim berishni cheklash"
+   ],
+   "e": "Ko'rgazmalilik, izchillik."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Al-Xorazmiyning ilmiy merosi qaysi fan rivojiga ulkan hissa qo'shgan?",
+   "a": [
+    "Matematika",
+    "Faqat musiqa nazariyasi",
+    "Faqat tibbiyot",
+    "Faqat huquqshunoslik"
+   ],
+   "e": "\"Al-jabr\"."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Ulug'bek madrasasi qayerda joylashgan?",
+   "a": [
+    "Samarqandda",
+    "Toshkentda",
+    "Xivada",
+    "Qo'qonda"
+   ],
+   "e": "Registon."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Mirzo Ulug'bek qaysi fan sohasida mashhur?",
+   "a": [
+    "Astronomiya",
+    "Tibbiyot",
+    "Musiqa",
+    "Huquq"
+   ],
+   "e": "\"Zij-i Ko'ragoniy\"."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Abdurauf Fitrat ta'lim haqida qaysi asarni yozgan?",
+   "a": [
+    "\"Rahbari najot\"",
+    "\"Qutadg'u bilig\"",
+    "\"Boburnoma\"",
+    "\"Devonu lug'otit turk\""
+   ],
+   "e": "Jadid adibi."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Ishoqxon Ibrat qaysi sohada ma'rifatparvar sifatida tanilgan?",
+   "a": [
+    "Yangi usul maktabi va matbaa",
+    "Faqat harbiy ish",
+    "Faqat savdo",
+    "Faqat qishloq xo'jaligi"
+   ],
+   "e": "Namangan, To'raqo'rg'on."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "Munavvarqori Abdurashidxonov nima bilan mashhur?",
+   "a": [
+    "Jadid maktablari va darsliklar",
+    "Faqat she'r yozish",
+    "Faqat me'morchilik",
+    "Faqat harbiy yurishlar"
+   ],
+   "e": "Toshkent jadidlari yetakchisi."
+  },
+  {
+   "b": "Pedagogika tarixi va mutafakkirlar",
+   "q": "\"Ilm olish beshikdan qabrgacha farzdir\" mazmunidagi g'oya qaysi tamoyilga mos?",
+   "a": [
+    "Uzluksiz ta'lim",
+    "Ta'limni cheklash",
+    "Faqat bolalik ta'limi",
+    "Ta'limning keraksizligi"
+   ],
+   "e": "Lifelong learning."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Ishlab chiqarish ta'limi ustasining asosiy vazifasi nima?",
+   "a": [
+    "Amaliy kasbiy ko'nikmalarni o'rgatish",
+    "Faqat nazariy ma'ruza o'qish",
+    "Faqat hujjatlarni rasmiylashtirish",
+    "Faqat o'quvchilar davomatini yuritish"
+   ],
+   "e": "Ustaxona va korxonada."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Kirish yo'riqnomasida nima tushuntiriladi?",
+   "a": [
+    "Maqsad, usul, xavfsizlik",
+    "Faqat ish haqi miqdori",
+    "Faqat ta'til muddatlari",
+    "Faqat dam olish kunlari"
+   ],
+   "e": "Amaliy mashg'ulot boshida."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Joriy yo'riqnoma qachon o'tkaziladi?",
+   "a": [
+    "Mustaqil ish vaqtida",
+    "Mashg'ulot boshlanishidan oldin faqat",
+    "Mashg'ulot tugagandan bir hafta keyin",
+    "Faqat yil oxirida"
+   ],
+   "e": "Kuzatish va tuzatish."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Yakuniy yo'riqnomada nima qilinadi?",
+   "a": [
+    "Natijalar tahlil qilinadi",
+    "Yangi mavzu boshlanadi",
+    "Faqat asboblar tarqatiladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Xatolar tahlili."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Mehnat xavfsizligi bo'yicha dastlabki (kirish) yo'riqnoma qachon o'tkaziladi?",
+   "a": [
+    "Ishga yoki o'qishga qabul qilinganda",
+    "Faqat baxtsiz hodisadan keyin",
+    "Faqat ta'tildan qaytganda",
+    "Hech qachon o'tkazilmaydi"
+   ],
+   "e": "Jurnalda qayd etiladi."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Takroriy yo'riqnoma qancha muddatda o'tkaziladi?",
+   "a": [
+    "Kamida 6 oyda bir marta",
+    "5 yilda bir marta",
+    "Faqat ishga kirganda",
+    "Hech qachon"
+   ],
+   "e": "Ayrim xavfli ishlarda 3 oyda."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Ustaxonada ish boshlashdan oldin o'quvchi nimani tekshiradi?",
+   "a": [
+    "Asboblar sozligini",
+    "Faqat telefonidagi xabarlarni",
+    "Faqat kiyimining rangini",
+    "Hech narsani tekshirmaydi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Ustaxonada shaxsiy himoya vositalariga nimalar kiradi?",
+   "a": [
+    "Maxsus kiyim, ko'zoynak, qo'lqop",
+    "Faqat qo'l soati va uzuk",
+    "Faqat sharf va galstuk",
+    "Hech qanday vosita kerak emas"
+   ],
+   "e": "Ish turiga qarab."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Ustaxonada baxtsiz hodisa yuz berganda birinchi navbatda nima qilinadi?",
+   "a": [
+    "Yordam berib, xabar qilinadi",
+    "Hodisani yashirish",
+    "Ishni davom ettirish",
+    "Jabrlanuvchini ayblash"
+   ],
+   "e": "Birinchi tibbiy yordam."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Kasbiy ta'limda \"malaka\" nimani anglatadi?",
+   "a": [
+    "Puxta ko'nikma",
+    "Faqat nazariy bilimlar yig'indisi",
+    "Faqat diplom yoki sertifikat",
+    "Faqat ish staji"
+   ],
+   "e": "Ko'nikma — malaka."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Ko'nikma va malaka o'rtasidagi farq nima?",
+   "a": [
+    "Malaka — avtomatlashgan ko'nikma",
+    "Ko'nikma malakadan yuqori daraja",
+    "Ular o'rtasida farq yo'q",
+    "Malaka faqat nazariy bilim"
+   ],
+   "e": "Mashq orqali."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Amaliy ish uchun o'quv-texnologik xaritada nima ko'rsatiladi?",
+   "a": [
+    "Operatsiyalar va asboblar",
+    "Faqat o'quvchilar ismlari",
+    "Faqat ta'til muddatlari",
+    "Faqat dars jadvali"
+   ],
+   "e": "Ish tartibi."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Kasbiy ta'limda baholashda qaysi mezon muhim?",
+   "a": [
+    "Sifat, aniqlik, xavfsizlik",
+    "Faqat o'quvchining tashqi ko'rinishi",
+    "Faqat sarflangan qog'oz miqdori",
+    "Faqat o'quvchining yoshi"
+   ],
+   "e": "Amaliy natija."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Malakaviy imtihon (kasbiy attestatsiya) nimani tekshiradi?",
+   "a": [
+    "Kasbiy standartga moslikni",
+    "Faqat jismoniy tayyorgarlikni",
+    "Faqat chet tili bilimini",
+    "Faqat sport natijalarini"
+   ],
+   "e": "Malaka berish."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "WorldSkills harakatining maqsadi nima?",
+   "a": [
+    "Kasbiy mahoratni rivojlantirish",
+    "Faqat sport musobaqalari o'tkazish",
+    "Faqat oliy ta'limni rivojlantirish",
+    "Faqat san'at festivallari"
+   ],
+   "e": "Kasbiy chempionatlar."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Mentorlik nima?",
+   "a": [
+    "Ustoz-shogird yordami",
+    "Faqat o'quvchini jazolash",
+    "Faqat hujjatlarni tekshirish",
+    "Faqat ish haqini hisoblash"
+   ],
+   "e": "Ustoz-shogird."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Korxonada amaliyot rahbari kim bo'ladi?",
+   "a": [
+    "Korxona mutaxassisi",
+    "Faqat o'quvchining ota-onasi",
+    "Ta'lim muassasasining qorovuli",
+    "Hech kim tayinlanmaydi"
+   ],
+   "e": "Ta'lim muassasasi bilan birga."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Kasbiy ta'limda \"modul\" nima?",
+   "a": [
+    "Kompetensiyaga oid o'quv bloki",
+    "Faqat bitta dars soati",
+    "Faqat imtihon turi",
+    "Faqat o'quvchilar guruhi"
+   ],
+   "e": "Modulli ta'lim."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Ustaxonada yong'in chiqqanda nima qilinadi?",
+   "a": [
+    "Tok uziladi, o'chiriladi, evakuatsiya",
+    "Hamma yong'inni tomosha qiladi",
+    "Eshiklar qulflanadi",
+    "Ishni davom ettirish kerak"
+   ],
+   "e": "Evakuatsiya rejasi."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Elektr asboblar bilan ishlashda qaysi qoida asosiy?",
+   "a": [
+    "Izolyatsiya butunligi",
+    "Nam qo'l bilan ishlash",
+    "Shikastlangan sim bilan ishlash",
+    "Asbobni ishlab turgan holda ta'mirlash"
+   ],
+   "e": "Elektr xavfsizligi."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "O'quv ustaxonasi qanday talablarga javob berishi kerak?",
+   "a": [
+    "Xavfsizlik me'yorlariga",
+    "Faqat chiroyli bezakka",
+    "Faqat kichik hajmga",
+    "Hech qanday talab yo'q"
+   ],
+   "e": "Sanitariya me'yorlari."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Kasbiy ta'limda nazariy ta'lim o'qituvchisi va usta hamkorligi nima beradi?",
+   "a": [
+    "Nazariya va amaliyot uyg'unligini",
+    "Darslarning takrorlanishini",
+    "O'quvchilarning chalg'ishini",
+    "Dars soatlarining kamayishini"
+   ],
+   "e": "Integratsiya."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Professional ta'limda \"ish beruvchi buyurtmasi\" asosida o'qitish nimani bildiradi?",
+   "a": [
+    "Bozor ehtiyojiga mos tayyorlash",
+    "Faqat ta'lim muassasasi xohishini",
+    "Faqat o'quvchi xohishini",
+    "Hech qanday ehtiyojni hisobga olmaslikni"
+   ],
+   "e": "Ijtimoiy buyurtma."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Bitiruvchilarni ishga joylashtirish monitoringi nima uchun o'tkaziladi?",
+   "a": [
+    "Ta'lim sifatini baholash uchun",
+    "Faqat bitiruvchilarni nazorat qilish uchun",
+    "Faqat statistik raqam uchun",
+    "Hech qanday maqsadsiz"
+   ],
+   "e": "Samaradorlik ko'rsatkichi."
+  },
+  {
+   "b": "Kasbiy ta'lim metodikasi va mehnat xavfsizligi",
+   "q": "Kasbiy ta'limda o'quvchi portfoliosiga nima kiradi?",
+   "a": [
+    "Ishlar va sertifikatlar",
+    "Faqat ota-onaning ish joyi haqida ma'lumot",
+    "Faqat o'quvchining fotosuratlari",
+    "Faqat davomat jurnalidan ko'chirma"
+   ],
+   "e": "Kasbiy rivojlanish dalili."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Darsda o'quvchi o'qituvchiga qo'pollik qildi. Eng to'g'ri harakat qaysi?",
+   "a": [
+    "Xotirjam qolib, keyin alohida suhbatlashish",
+    "Butun guruh oldida baqirib, haqorat qilish",
+    "Darhol jismoniy jazo qo'llash",
+    "E'tibor bermay, holatni butunlay unutish"
+   ],
+   "e": "Pedagogik takt."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Guruhning yarmi uy vazifasini bajarmagan. Pedagog nima qilishi to'g'ri?",
+   "a": [
+    "Sababini aniqlab, vazifani qayta ko'rish",
+    "Hammaga \"2\" baho qo'yib, sababini so'ramaslik",
+    "Ota-onalarni darhol chaqirib, jarima solish",
+    "Bundan keyin uy vazifasini butunlay bekor qilish"
+   ],
+   "e": "Refleksiya."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Darsda bir o'quvchi doim javob beradi, boshqalar jim. Qanday yo'l tutish kerak?",
+   "a": [
+    "Guruh ishi va navbat usulini qo'llash",
+    "Faqat shu o'quvchidan so'rashda davom etish",
+    "Faol o'quvchini darsdan chiqarib yuborish",
+    "Jim o'quvchilarga past baho qo'yish"
+   ],
+   "e": "Barchani jalb etish."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "O'quvchi darsga muntazam kechikadi. Birinchi qadam nima bo'lishi kerak?",
+   "a": [
+    "Individual suhbat o'tkazish",
+    "Darhol ta'lim muassasasidan chetlatish",
+    "Guruh oldida masxara qilish",
+    "Darsga kiritmaslik"
+   ],
+   "e": "Individual yondashuv."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Ota-ona farzandiga yuqori baho qo'yishni talab qilmoqda. Pedagog nima qiladi?",
+   "a": [
+    "Mezonlarni tushuntirib, xolis qoladi",
+    "Talabga ko'ra bahoni oshirib qo'yadi",
+    "Ota-onani haqorat qilib, suhbatni to'xtatadi",
+    "Sovg'a evaziga bahoni o'zgartiradi"
+   ],
+   "e": "Halol baholash."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Yangi o'quvchi guruhga moslasha olmayapti. Kurator nima qilishi kerak?",
+   "a": [
+    "Qo'llab-quvvatlovchi muhit yaratish",
+    "Uni o'z holiga qo'yib, e'tibor bermaslik",
+    "Boshqa guruhga majburan o'tkazish",
+    "Guruh oldida uning kamchiliklarini aytish"
+   ],
+   "e": "Adaptatsiya."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "O'quvchi testda ko'chirayotgani aniqlandi. To'g'ri yo'l qaysi?",
+   "a": [
+    "Qoidaga ko'ra chora ko'rib, tushuntirish",
+    "Guruh oldida qattiq kamsitish",
+    "Hech narsa demay, e'tiborsiz qoldirish",
+    "Barcha o'quvchilarga past baho qo'yish"
+   ],
+   "e": "Adolatli munosabat."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Amaliy mashg'ulotda o'quvchi xavfsizlik qoidasini buzdi. Usta nima qiladi?",
+   "a": [
+    "Ishni to'xtatib, qoidani tushuntiradi",
+    "Davom etishiga ruxsat beradi",
+    "Faqat yil oxirida eslatadi",
+    "Boshqalarga ham buzishga ruxsat beradi"
+   ],
+   "e": "Xavfsizlik birinchi o'rinda."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Darsda o'quvchilar mavzuni tushunmadilar. O'qituvchining birinchi harakati nima?",
+   "a": [
+    "Boshqa usulda qayta tushuntirish",
+    "O'quvchilarni dangasalikda ayblash",
+    "Mavzuni o'tkazib yuborish",
+    "Darsni to'xtatib chiqib ketish"
+   ],
+   "e": "Moslashuvchanlik."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Guruhdagi ikki o'quvchi o'rtasida nizo chiqdi. Kurator qanday harakat qiladi?",
+   "a": [
+    "Ikkala tomonni tinglab, murosaga keltiradi",
+    "Faqat bir tomonni yoqlaydi",
+    "Ikkalasini jazolaydi, sababini so'ramaydi",
+    "Nizoga aralashmaydi"
+   ],
+   "e": "Mediatsiya."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Iqtidorli o'quvchi darsda zerikmoqda. Qanday yondashuv to'g'ri?",
+   "a": [
+    "Murakkabroq, ijodiy topshiriqlar berish",
+    "Uni boshqalar bilan bir xil vazifaga majburlash",
+    "Darsdan chiqarib yuborish",
+    "Uning savollariga javob bermaslik"
+   ],
+   "e": "Tabaqalashtirish."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "O'quvchi oilaviy muammolar tufayli o'qishdan orqada qolmoqda. Pedagog nima qiladi?",
+   "a": [
+    "Psixolog bilan birga yordam beradi",
+    "Muammoni guruhga ochiq e'lon qiladi",
+    "O'quvchiga past baho qo'yib, e'tibor bermaydi",
+    "Ota-onalarni guruh oldida tanqid qiladi"
+   ],
+   "e": "Ijtimoiy-pedagogik yordam."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Ochiq darsdan keyin kasbdoshlar tanqidiy fikr bildirdi. Pedagog nima qilishi to'g'ri?",
+   "a": [
+    "Tahlil qilib, ishini takomillashtiradi",
+    "Xafa bo'lib, ochiq darslardan butunlay voz kechish",
+    "Tanqid qilganlarni ayblash",
+    "Fikrlarga e'tibor bermaslik"
+   ],
+   "e": "Kasbiy o'sish."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Dars vaqtida proyektor ishlamay qoldi. Pedagog qanday yo'l tutadi?",
+   "a": [
+    "Zaxira reja bilan davom ettiradi",
+    "Darsni darhol bekor qiladi",
+    "O'quvchilarni uyga jo'natadi",
+    "Butun dars davomida proyektorni tuzatadi"
+   ],
+   "e": "Moslashuvchanlik."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Guruhda bir o'quvchini boshqalar kamsitayotgani ma'lum bo'ldi. Kurator nima qiladi?",
+   "a": [
+    "Aralashib, jabrlanuvchini himoyalaydi",
+    "Bolalar o'yini deb e'tibor bermaydi",
+    "Jabrlanuvchini boshqa guruhga o'tkazadi, xolos",
+    "Faqat yil oxirida xabar beradi"
+   ],
+   "e": "Buliingga qarshi."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "O'quvchi darsda telefoni bilan chalg'iyapti. Eng samarali yondashuv qaysi?",
+   "a": [
+    "Kelishilgan qoidani eslatish",
+    "Telefonni olib, sindirib tashlash",
+    "O'quvchini guruh oldida haqorat qilish",
+    "Butun dars davomida e'tibor bermaslik"
+   ],
+   "e": "Sinf qoidalari."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Pedagog o'z darsining samarasizligini sezdi. Birinchi qadam nima?",
+   "a": [
+    "Darsni tahlil qilish",
+    "O'quvchilarni dangasalikda ayblash",
+    "Darsni butunlay bekor qilish",
+    "Hech narsani o'zgartirmaslik"
+   ],
+   "e": "Pedagogik refleksiya."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "O'quvchi kasb tanlashda ikkilanmoqda. Pedagog qanday yordam beradi?",
+   "a": [
+    "Qiziqishini aniqlab, ma'lumot beradi",
+    "O'zi xohlagan kasbni majburan tanlatadi",
+    "E'tibor bermaydi",
+    "Faqat oliy ta'limga kirishni talab qiladi"
+   ],
+   "e": "Kasbga yo'naltirish."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Guruhda o'zlashtirish pasaydi. Kurator va o'qituvchi birinchi navbatda nima qiladi?",
+   "a": [
+    "Sababni tahlil qilib, reja tuzadi",
+    "Faqat o'quvchilarni jazolaydi",
+    "Baholarni sun'iy oshiradi",
+    "Hech narsa qilmaydi"
+   ],
+   "e": "Monitoring."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "O'quvchi darsda noto'g'ri, lekin qiziqarli fikr bildirdi. Pedagog qanday munosabatda bo'ladi?",
+   "a": [
+    "Fikrni qadrlab, xatoni tushuntiradi",
+    "Fikrni masxara qilib, kulib yuboradi",
+    "O'quvchini jim bo'lishga majburlaydi",
+    "Darhol past baho qo'yadi"
+   ],
+   "e": "Psixologik xavfsiz muhit."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Masofaviy darsda o'quvchilar kameralarini yoqmayapti. To'g'ri yondashuv qaysi?",
+   "a": [
+    "Interaktiv topshiriqlar berish",
+    "Kamera yoqmaganlarga past baho qo'yish",
+    "Onlayn darsni to'xtatib qo'yish",
+    "O'quvchilarni haqorat qilish"
+   ],
+   "e": "Onlayn pedagogika."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Yangi ishga kelgan yosh pedagog qiyinchilikka duch kelmoqda. Qaysi tizim yordam beradi?",
+   "a": [
+    "Ustoz-shogird (mentorlik) tizimi",
+    "Uni darhol ishdan bo'shatish",
+    "Hech qanday yordam ko'rsatmaslik",
+    "Faqat jarima va hayfsan berish"
+   ],
+   "e": "Kasbiy moslashuv."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "O'quvchi amaliyotda korxona talablarini bajarmayapti. Amaliyot rahbari nima qiladi?",
+   "a": [
+    "Sababni aniqlab, birga chora ko'radi",
+    "Darhol amaliyotdan haydaydi",
+    "E'tibor bermaydi",
+    "O'quvchi o'rniga ishni o'zi bajaradi"
+   ],
+   "e": "Hamkorlik."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Darsda vaqt yetmay qoldi. Pedagog qaysi bosqichni qisqartirmasligi kerak?",
+   "a": [
+    "Xulosa va uy vazifasini",
+    "Ortiqcha takrorlash bosqichini",
+    "Kechikkanlarni tekshirishni",
+    "Mavzuga aloqasiz suhbatni"
+   ],
+   "e": "Yakunlash muhim."
+  },
+  {
+   "b": "Vaziyatli pedagogik topshiriqlar",
+   "q": "Ota-onalar majlisida ota-ona o'qituvchini tanqid qildi. To'g'ri munosabat qaysi?",
+   "a": [
+    "Tinglab, dalil bilan tushuntirish",
+    "Ovozni ko'tarib, bahslashish",
+    "Majlisni darhol tark etish",
+    "Ota-onani javoban haqorat qilish"
+   ],
+   "e": "Konstruktiv muloqot."
   }
  ]
 }
