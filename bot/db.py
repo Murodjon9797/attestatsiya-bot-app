@@ -93,9 +93,7 @@ class ResultsDB:
         self.pg = database_url.startswith(("postgres://", "postgresql://"))
         self.url = database_url
         if self.pg:
-            import psycopg
-
-            self.conn = psycopg.connect(database_url, autocommit=True)
+            self.conn = self._pg_connect()
             serial = "BIGSERIAL PRIMARY KEY"
         else:
             Path(path).parent.mkdir(parents=True, exist_ok=True)
@@ -106,20 +104,33 @@ class ResultsDB:
                 self._exec(stmt)
 
     # ---------- past daraja ----------
+    def _pg_connect(self):
+        import psycopg
+
+        # keepalive: bulutli Postgres (Neon) uzoq kutishda ulanishni uzib qo'ymasligi uchun
+        return psycopg.connect(self.url, autocommit=True, connect_timeout=15,
+                               keepalives=1, keepalives_idle=30, keepalives_interval=10, keepalives_count=3)
+
     def _exec(self, sql: str, args: tuple = ()):
         if self.pg:
             sql = sql.replace("?", "%s")
         with self.lock:
             try:
                 cur = self.conn.execute(sql, args)
-            except Exception:
-                if self.pg and getattr(self.conn, "closed", False):  # uzilgan ulanishni tiklash
-                    import psycopg
-
-                    self.conn = psycopg.connect(self.url, autocommit=True)
-                    cur = self.conn.execute(sql, args)
-                else:
+            except Exception as e:
+                if not self.pg:
                     raise
+                import psycopg
+
+                # Ulanish uzilgan bo'lsa (Neon uxlab qolgan, tarmoq uzilishi) — qayta ulanib, bir marta takrorlaymiz
+                if not isinstance(e, (psycopg.OperationalError, psycopg.InterfaceError)) and not self.conn.closed:
+                    raise
+                try:
+                    self.conn.close()
+                except Exception:
+                    pass
+                self.conn = self._pg_connect()
+                cur = self.conn.execute(sql, args)
             if not self.pg:
                 self.conn.commit()
             return cur

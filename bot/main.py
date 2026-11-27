@@ -18,7 +18,7 @@ from aiogram.filters import Command, CommandStart
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
-from aiogram.types import (BotCommand, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup,
+from aiogram.types import (BotCommand, CallbackQuery, ErrorEvent, InlineKeyboardButton, InlineKeyboardMarkup,
                            MenuButtonWebApp, Message, WebAppInfo)
 
 from bot.bank import QuestionBank
@@ -464,6 +464,33 @@ async def on_text_in_test(msg: Message) -> None:
 
 
 # ---------------- ishga tushirish ----------------
+async def _keepalive(bot: Bot, public_url: str, webhook_url: str, secret: str, allowed: list[str]) -> None:
+    """Bepul Render 15 daqiqa so'rovsiz qolsa uxlaydi: har 10 daqiqada o'z manziliga murojaat qilamiz.
+    Shu bilan birga webhook o'chib qolgan yoki boshqa manzilga o'zgargan bo'lsa, qayta o'rnatamiz."""
+    from aiohttp import ClientSession, ClientTimeout
+
+    interval = int(os.getenv("KEEPALIVE_SECONDS", "600"))
+    while True:
+        await asyncio.sleep(interval)
+        try:
+            async with ClientSession(timeout=ClientTimeout(total=30)) as s:
+                async with s.get(public_url + "/health") as r:
+                    if r.status != 200:
+                        log.warning("Keepalive: /health %s qaytardi", r.status)
+        except Exception as e:
+            log.warning("Keepalive so'rovi bajarilmadi: %s", e)
+        try:
+            info = await bot.get_webhook_info()
+            if info.url != webhook_url:
+                await bot.set_webhook(webhook_url, secret_token=secret, allowed_updates=allowed)
+                log.warning("Webhook qayta o'rnatildi (avval: %r)", info.url)
+            elif info.last_error_message:
+                log.warning("Telegram webhook xatosi: %s (navbatda %d ta)", info.last_error_message,
+                            info.pending_update_count)
+        except Exception as e:
+            log.warning("Webhook tekshiruvi bajarilmadi: %s", e)
+
+
 async def run() -> None:
     global catalog, db, claude, PASS_PERCENT, WEBAPP_URL, premium
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
@@ -531,13 +558,29 @@ async def run() -> None:
     else:
         log.warning("WEBAPP_URL ko'rsatilmagan — Mini App tugmasi chiqmaydi (faqat chat rejimi).")
 
+    # Har qanday kutilmagan xato: log yoziladi, foydalanuvchi javobsiz qolmaydi, bot to'xtamaydi
+    @dp.errors()
+    async def on_error(event: ErrorEvent) -> bool:
+        log.exception("Ishlov berishda xato: %s", event.exception, exc_info=event.exception)
+        upd = event.update
+        try:
+            if upd.callback_query:
+                await upd.callback_query.answer("Xatolik yuz berdi, qaytadan urinib ko'ring.", show_alert=True)
+            elif upd.message:
+                await upd.message.answer("⚠️ Xatolik yuz berdi. Qaytadan urinib ko'ring yoki /start bosing.")
+        except Exception:
+            pass
+        return True
+
     log.info("Bot ishga tushdi: %d ta mutaxassislik", catalog.stats()[1])
     try:
         if webhook_path:
-            await bot.set_webhook(public_url + webhook_path, secret_token=webhook_secret,
-                                  allowed_updates=dp.resolve_used_update_types())
+            webhook_url = public_url + webhook_path
+            allowed = dp.resolve_used_update_types()
+            await bot.set_webhook(webhook_url, secret_token=webhook_secret, allowed_updates=allowed)
             log.info("Webhook rejimi: %s/tg/…", public_url)
             await dp.emit_startup(bot=bot)
+            keepalive_task = asyncio.create_task(_keepalive(bot, public_url, webhook_url, webhook_secret, allowed))  # noqa: F841
             await asyncio.Event().wait()
         else:
             await bot.delete_webhook()
