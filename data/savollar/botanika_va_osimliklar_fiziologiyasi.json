@@ -1,0 +1,3341 @@
+{
+ "kod": "5PM0161",
+ "nomi": "Botanika va o‘simliklar fiziologiyasi",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (6 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Botanika",
+   "q": "Botanika nimani o'rganadi?",
+   "a": [
+    "O'simliklarni",
+    "Hayvonlarning xulq-atvori va ko'payishini",
+    "Faqat zamburug'lar va bakteriyalarni",
+    "Faqat odam organizmini"
+   ],
+   "e": "Tuzilish, fiziologiya, tasnif."
+  },
+  {
+   "b": "Botanika",
+   "q": "O'simlikning vegetativ organlariga nima kiradi?",
+   "a": [
+    "Ildiz, poya, barg",
+    "Gul, meva, urug'",
+    "Faqat gul va barg",
+    "Faqat urug' va meva"
+   ],
+   "e": "Generativ — gul, meva, urug'."
+  },
+  {
+   "b": "Botanika",
+   "q": "O'simlikning generativ organlariga nima kiradi?",
+   "a": [
+    "Gul, meva, urug'",
+    "Ildiz, poya, barg",
+    "Faqat ildiz",
+    "Faqat poya"
+   ],
+   "e": "Ko'payish organlari."
+  },
+  {
+   "b": "Botanika",
+   "q": "Ildizning asosiy vazifasi nima?",
+   "a": [
+    "Suv so'rish va mahkamlash",
+    "Fotosintez qilib organik modda hosil qilish",
+    "Gullarning changlanishini ta'minlash",
+    "Urug' va meva hosil qilish"
+   ],
+   "e": "Ildiz tukchalari."
+  },
+  {
+   "b": "Botanika",
+   "q": "Ildiz tukchalari qaysi zonada joylashgan?",
+   "a": [
+    "So'rish zonasida",
+    "Bo'linish zonasida",
+    "Ildiz qinida",
+    "O'tkazuvchi zonada"
+   ],
+   "e": "So'rish yuzasini oshiradi."
+  },
+  {
+   "b": "Botanika",
+   "q": "Barg og'izchalarining vazifasi nima?",
+   "a": [
+    "Gaz almashinuvi",
+    "Ildizdan suv so'rish",
+    "Changlanish",
+    "Urug' hosil qilish"
+   ],
+   "e": "Transpiratsiya."
+  },
+  {
+   "b": "Botanika",
+   "q": "Fotosintez uchun nima zarur?",
+   "a": [
+    "Yorug'lik, CO₂ va suv",
+    "Faqat kislorod va qorong'ilik",
+    "Faqat tuproqdagi azot tuzlari",
+    "Faqat past harorat va qorong'ilik"
+   ],
+   "e": "Xlorofill ishtirokida."
+  },
+  {
+   "b": "Botanika",
+   "q": "Fotosintez natijasida nima hosil bo'ladi?",
+   "a": [
+    "Organik modda va kislorod",
+    "Faqat karbonat angidrid gazi",
+    "Faqat azot va ammiak",
+    "Faqat suv bug'i va issiqlik"
+   ],
+   "e": "Glyukoza."
+  },
+  {
+   "b": "Botanika",
+   "q": "Transpiratsiya nima?",
+   "a": [
+    "Suvning bug'lanishi",
+    "Suvning ildizga so'rilishi",
+    "Changlanish",
+    "Urug'lanish"
+   ],
+   "e": "Asosan barg orqali."
+  },
+  {
+   "b": "Botanika",
+   "q": "Ksilema (yog'ochlik) bo'ylab nima harakatlanadi?",
+   "a": [
+    "Suv va mineral moddalar",
+    "Organik moddalar pastga",
+    "Faqat kislorod",
+    "Faqat chang"
+   ],
+   "e": "Ildizdan yuqoriga."
+  },
+  {
+   "b": "Botanika",
+   "q": "Floema (lub) bo'ylab nima harakatlanadi?",
+   "a": [
+    "Organik moddalar",
+    "Faqat suv",
+    "Faqat mineral tuzlar",
+    "Faqat havo"
+   ],
+   "e": "Barglardan boshqa a'zolarga."
+  },
+  {
+   "b": "Botanika",
+   "q": "Ikki pallalilarga xos belgi qaysi?",
+   "a": [
+    "O'q ildiz va to'rsimon tomirlanish",
+    "Popuk ildiz va parallel tomirlanish",
+    "Faqat bitta urug'palla",
+    "Gulning 3 tadan bo'lagi"
+   ],
+   "e": "Masalan, loviya."
+  },
+  {
+   "b": "Botanika",
+   "q": "Bir pallalilarga misol qaysi?",
+   "a": [
+    "Bug'doy, makkajo'xori",
+    "Loviya, no'xat va mosh",
+    "Olma, o'rik va olcha",
+    "G'o'za va kungaboqar"
+   ],
+   "e": "Popuk ildiz."
+  },
+  {
+   "b": "Botanika",
+   "q": "Changlanish nima?",
+   "a": [
+    "Changning tumshuqchaga tushishi",
+    "Urug'ning tuproqda unib chiqishi",
+    "Mevaning to'liq pishib yetilishi",
+    "Kuzda barglarning to'kilishi"
+   ],
+   "e": "O'z-o'zidan va chetdan changlanish."
+  },
+  {
+   "b": "Botanika",
+   "q": "Gulli o'simliklarda qo'sh urug'lanishni kim kashf etgan?",
+   "a": [
+    "S.G. Navashin",
+    "G. Mendel",
+    "Ch. Darvin",
+    "K. Timiryazev"
+   ],
+   "e": "1898-yil."
+  },
+  {
+   "b": "Botanika",
+   "q": "Vegetativ ko'payishga misol qaysi?",
+   "a": [
+    "Qalamcha, payvand, tugunak",
+    "Urug' bilan ko'payish",
+    "Spora bilan ko'payish faqat",
+    "Chang bilan ko'payish"
+   ],
+   "e": "Ona o'simlik xususiyati saqlanadi."
+  },
+  {
+   "b": "Botanika",
+   "q": "Kartoshka tugunagi qaysi organning shakl o'zgarishi?",
+   "a": [
+    "Poya",
+    "Ildiz",
+    "Barg",
+    "Meva"
+   ],
+   "e": "Ko'zchalari bor."
+  },
+  {
+   "b": "Botanika",
+   "q": "Sabzi va lavlagi ildizmevasi qaysi organ?",
+   "a": [
+    "Ildiz",
+    "Yer osti poyasi",
+    "Shakli o'zgargan barg",
+    "Gul o'qi"
+   ],
+   "e": "Zaxira moddalar."
+  },
+  {
+   "b": "Botanika",
+   "q": "Piyozning yeyiladigan qismi nima?",
+   "a": [
+    "Piyozbosh",
+    "Shakli o'zgargan ildiz",
+    "Etli meva",
+    "Gul to'plami"
+   ],
+   "e": "Etli barglar."
+  },
+  {
+   "b": "Botanika",
+   "q": "Yo'sinlar qanday ko'payadi?",
+   "a": [
+    "Spora bilan",
+    "Urug' bilan",
+    "Faqat payvand bilan",
+    "Meva bilan"
+   ],
+   "e": "Yuksak sporali o'simliklar."
+  },
+  {
+   "b": "Botanika",
+   "q": "Qirqquloqlar qaysi guruhga kiradi?",
+   "a": [
+    "Yuksak sporali o'simliklar",
+    "Gulli (yopiq urug'li) o'simliklar",
+    "Ochiq urug'li o'simliklar",
+    "Suvo'tlar"
+   ],
+   "e": "Spora bilan ko'payadi."
+  },
+  {
+   "b": "Botanika",
+   "q": "Ochiq urug'li o'simliklarga misol qaysi?",
+   "a": [
+    "Qarag'ay va archa",
+    "Olma va o'rik",
+    "Bug'doy va arpa",
+    "G'o'za va kungaboqar"
+   ],
+   "e": "Urug'i mevada emas."
+  },
+  {
+   "b": "Botanika",
+   "q": "Yopiq urug'li o'simliklarning asosiy belgisi nima?",
+   "a": [
+    "Gul va meva hosil qilishi",
+    "Faqat spora bilan ko'payishi",
+    "Urug'kurtakning ochiq turishi",
+    "Barg va ildizning yo'qligi"
+   ],
+   "e": "Eng keng tarqalgan guruh."
+  },
+  {
+   "b": "Botanika",
+   "q": "Suvo'tlarning asosiy belgisi nima?",
+   "a": [
+    "Tallom tanasi",
+    "Gul va mevasi bor",
+    "Urug' hosil qiladi",
+    "Ildizi rivojlangan"
+   ],
+   "e": "Tuban o'simliklar."
+  },
+  {
+   "b": "Botanika",
+   "q": "O'simliklarda azot asosan qaysi shaklda o'zlashtiriladi?",
+   "a": [
+    "Tuproqdagi nitrat va ammoniy tuzlari",
+    "Havodagi erkin azot to'g'ridan-to'g'ri barcha o'simliklarda",
+    "Faqat organik oqsillar",
+    "Faqat suv bug'i"
+   ],
+   "e": "Dukkaklilarda tuganak bakteriyalar yordam beradi."
+  },
+  {
+   "b": "Botanika",
+   "q": "Dukkakli o'simliklarning ildizidagi tugunak bakteriyalar nima qiladi?",
+   "a": [
+    "Azot o'zlashtiradi",
+    "Ildizni chiritib, o'simlikni nobud qiladi",
+    "Ildizda fotosintez jarayonini bajaradi",
+    "Tuproqdagi kislorodni o'zlashtiradi"
+   ],
+   "e": "Tuproq unumdorligi."
+  },
+  {
+   "b": "Botanika",
+   "q": "G'o'za qaysi oilaga kiradi?",
+   "a": [
+    "Gulxayridoshlar",
+    "Karamdoshlar (butguldoshlar)",
+    "Bug'doydoshlar (qo'ng'irboshdoshlar)",
+    "Ra'nodoshlar (atirguldoshlar)"
+   ],
+   "e": "Malvaceae."
+  },
+  {
+   "b": "Botanika",
+   "q": "Bug'doy qaysi oilaga kiradi?",
+   "a": [
+    "Bug'doydoshlar",
+    "Gulxayridoshlar",
+    "Ra'nodoshlar",
+    "Ituzumdoshlar"
+   ],
+   "e": "Poaceae."
+  },
+  {
+   "b": "Botanika",
+   "q": "Kartoshka va pomidor qaysi oilaga kiradi?",
+   "a": [
+    "Ituzumdoshlar",
+    "Karamdoshlar",
+    "Bug'doydoshlar",
+    "Dukkaklilar"
+   ],
+   "e": "Solanaceae."
+  },
+  {
+   "b": "Botanika",
+   "q": "Olma va o'rik qaysi oilaga kiradi?",
+   "a": [
+    "Ra'nodoshlar",
+    "Ituzumdoshlar",
+    "Bug'doydoshlar",
+    "Karamdoshlar"
+   ],
+   "e": "Rosaceae."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Selektsiya nimani o'rganadi?",
+   "a": [
+    "Nav va zot yaratish",
+    "Faqat yovvoyi hayvonlarni",
+    "Faqat fotoqazilmalarni",
+    "Faqat tog' jinslarini"
+   ],
+   "e": "N.I. Vavilov."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Madaniy o'simliklarning kelib chiqish markazlari ta'limotini kim yaratgan?",
+   "a": [
+    "N.I. Vavilov",
+    "I.V. Michurin",
+    "Ch. Darvin",
+    "G. Mendel"
+   ],
+   "e": "Gomologik qatorlar qonuni."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Geterozis nima?",
+   "a": [
+    "Duragay kuchi",
+    "Duragaylarning kuchsiz bo'lishi",
+    "Mutatsiya turi",
+    "Kasallik"
+   ],
+   "e": "Duragay kuch."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Poliploidiya nima?",
+   "a": [
+    "Xromosomalarning karrali ortishi",
+    "Xromosomalar sonining ikki baravar kamayishi",
+    "Faqat bitta genning nuqtali o'zgarishi",
+    "Hujayraning dasturlashgan o'limi"
+   ],
+   "e": "Selektsiyada qo'llaniladi."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Klonlash nima?",
+   "a": [
+    "Bir xil nusxalar olish",
+    "Turli turlarni chatishtirish",
+    "Mutatsiya keltirish",
+    "Tanlab olish"
+   ],
+   "e": "Dolli qo'yi."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Biotexnologiya nima?",
+   "a": [
+    "Tiriklardan amaliy foydalanish",
+    "Faqat mashinasozlik texnologiyalari",
+    "Faqat bino va inshootlar qurilishi",
+    "Faqat metallarni eritish texnologiyasi"
+   ],
+   "e": "Fermentlar, vaksinalar, GMO."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Insulin hozirda qanday ishlab chiqariladi?",
+   "a": [
+    "Bakteriyalarda (gen muhandisligi)",
+    "Faqat hayvon oshqozon osti bezidan",
+    "Kimyoviy sintez bilan qo'lda",
+    "O'simliklardan ajratib"
+   ],
+   "e": "Rekombinant insulin."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "GMO nima?",
+   "a": [
+    "Genetik modifikatsiyalangan organizm",
+    "Gidroponika usulida o'stirilgan organizm",
+    "Genlari o'zgarmagan organizm",
+    "Yovvoyi organizm"
+   ],
+   "e": "Transgen."
+  },
+  {
+   "b": "Botanika",
+   "q": "Fotosintezning yorug'lik bosqichi qayerda boradi?",
+   "a": [
+    "Xloroplast tilakoidlarida",
+    "Xloroplast stromasida",
+    "Mitoxondriya matriksida",
+    "Hujayra yadrosida"
+   ],
+   "e": "Suv fotolizi."
+  },
+  {
+   "b": "Botanika",
+   "q": "Fotosintezning qorong'ilik bosqichi (Kalvin sikli) qayerda boradi?",
+   "a": [
+    "Xloroplast stromasida",
+    "Xloroplast tilakoidlarida",
+    "Hujayra sitoplazmasida",
+    "Hujayra vakuolasida"
+   ],
+   "e": "CO₂ fiksatsiyasi."
+  },
+  {
+   "b": "Botanika",
+   "q": "Gul formulasida \"K\" harfi nimani bildiradi?",
+   "a": [
+    "Kosachabarg",
+    "Tojbarg (gultoj)",
+    "Changchi",
+    "Urug'chi"
+   ],
+   "e": "Ch — changchi, U — urug'chi."
+  },
+  {
+   "b": "Botanika",
+   "q": "Meva nimadan rivojlanadi?",
+   "a": [
+    "Urug'chi tugunchasidan",
+    "Tojbarglardan (gultojdan)",
+    "Changchilardan",
+    "Kosachabarglardan"
+   ],
+   "e": "Urug' — urug'kurtakdan."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "O'simlik hujayrasini hayvon hujayrasidan farqlovchi tuzilma qaysi?",
+   "a": [
+    "Sellyulozali hujayra devori",
+    "Yadro va yadrocha mavjudligi",
+    "Mitoxondriya va ribosomalar",
+    "Tashqi sitoplazmatik membrana"
+   ],
+   "e": "Plastidalar va yirik vakuola ham."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Xloroplastlarda qaysi pigment asosiy hisoblanadi?",
+   "a": [
+    "Xlorofill",
+    "Karotin",
+    "Antotsian",
+    "Melanin"
+   ],
+   "e": "Yashil rang beradi."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Xromoplastlar o'simlikka qanday rang beradi?",
+   "a": [
+    "Sariq, to'q sariq, qizil",
+    "Faqat yashil rang beradi",
+    "Faqat oq (rangsiz) holat",
+    "Faqat ko'k va binafsha rang"
+   ],
+   "e": "Karotinoidlar."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Leykoplastlarning asosiy vazifasi nima?",
+   "a": [
+    "Kraxmal va boshqa moddalarni to'plash",
+    "Fotosintez jarayonini amalga oshirish",
+    "Gul va mevalarni bo'yash",
+    "Hujayra devorini sintezlash"
+   ],
+   "e": "Rangsiz plastidalar."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Hujayra shirasi qayerda to'planadi?",
+   "a": [
+    "Vakuolada",
+    "Yadroda",
+    "Ribosomada",
+    "Golji apparatida"
+   ],
+   "e": "Turgor bosimini hosil qiladi."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Turgor nima?",
+   "a": [
+    "Hujayra ichki bosimi tufayli taranglik",
+    "Hujayraning suv yo'qotib bujmayib qolishi",
+    "Hujayra devorining yemirilib ketishi",
+    "Hujayraning mitoz yo'li bilan bo'linishi"
+   ],
+   "e": "Plazmolizga qarama-qarshi."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Plazmoliz nima?",
+   "a": [
+    "Sitoplazmaning devordan ajralishi",
+    "Hujayraning suv shimib bo'kib ketishi",
+    "Yadroning ikkiga bo'linib ketishi",
+    "Xloroplastlar sonining ko'payishi"
+   ],
+   "e": "Gipertonik eritmada."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Plazmodesmalar nima?",
+   "a": [
+    "Qo'shni hujayralarni bog'lovchi sitoplazma iplari",
+    "Hujayra devoridagi sellyuloza tolalari to'plami",
+    "Yadro qobig'idagi mayda teshikchalar",
+    "Xloroplast ichidagi tilakoidlar to'plami"
+   ],
+   "e": "Simplast."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Hosil qiluvchi to'qima (meristema) vazifasi nima?",
+   "a": [
+    "Bo'linib, yangi hujayralar hosil qilish",
+    "Suv va mineral moddalarni yuqoriga o'tkazish",
+    "O'simlikni tashqi muhit ta'siridan himoyalash",
+    "Zaxira organik moddalarni to'plab saqlash"
+   ],
+   "e": "O'sish nuqtalari."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Kambiy qaysi to'qima turiga kiradi?",
+   "a": [
+    "Yon meristema",
+    "Uchki meristema",
+    "Qoplovchi to'qima",
+    "O'tkazuvchi to'qima"
+   ],
+   "e": "Poyaning yo'g'onlashishi."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Epidermis qaysi to'qima turiga kiradi?",
+   "a": [
+    "Qoplovchi to'qima",
+    "Mexanik to'qima",
+    "O'tkazuvchi to'qima",
+    "Hosil qiluvchi to'qima"
+   ],
+   "e": "Barg va yosh poya sirti."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Probka qaysi to'qima turiga kiradi?",
+   "a": [
+    "Ikkilamchi qoplovchi to'qima",
+    "Birlamchi o'tkazuvchi to'qima",
+    "Asosiy fotosintezlovchi to'qima",
+    "Uchki hosil qiluvchi to'qima"
+   ],
+   "e": "O'lik hujayralardan iborat."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Kollenxima va sklerenxima qaysi to'qimaga kiradi?",
+   "a": [
+    "Mexanik to'qima",
+    "Qoplovchi to'qima",
+    "O'tkazuvchi to'qima",
+    "Ajratuvchi to'qima"
+   ],
+   "e": "Tayanch vazifasi."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Ksilemaning o'tkazuvchi elementlari qaysilar?",
+   "a": [
+    "Traxeya va traxeidlar",
+    "Elaksimon naylar va yo'ldosh hujayralar",
+    "Kollenxima hujayralari",
+    "Epidermis hujayralari"
+   ],
+   "e": "O'lik hujayralar."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Floemaning o'tkazuvchi elementlari qaysilar?",
+   "a": [
+    "Elaksimon naylar",
+    "Traxeyalar",
+    "Traxeidlar",
+    "Sklereidlar"
+   ],
+   "e": "Tirik hujayralar."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Xlorenxima qaysi to'qima turiga kiradi?",
+   "a": [
+    "Asosiy (assimilyatsion) to'qima",
+    "Mexanik (tayanch) to'qima",
+    "Qoplovchi to'qima",
+    "O'tkazuvchi to'qima"
+   ],
+   "e": "Fotosintez bajaradi."
+  },
+  {
+   "b": "O'simlik hujayrasi va to'qimalari",
+   "q": "Nektardonlar qaysi to'qimaga kiradi?",
+   "a": [
+    "Ajratuvchi to'qima",
+    "Mexanik to'qima",
+    "O'tkazuvchi to'qima",
+    "Qoplovchi to'qima"
+   ],
+   "e": "Nektar ajratadi."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Popuk ildiz tizimi qaysi o'simliklarga xos?",
+   "a": [
+    "Bir pallalilarga",
+    "Ikki pallalilarga",
+    "Ochiq urug'lilarga",
+    "Qirqquloqlarga"
+   ],
+   "e": "Bug'doy, makkajo'xori."
+  },
+  {
+   "b": "Ildiz",
+   "q": "O'q ildiz tizimi qaysi o'simliklarga xos?",
+   "a": [
+    "Ikki pallalilarga",
+    "Bir pallalilarga",
+    "Yo'sinlarga",
+    "Suvo'tlarga"
+   ],
+   "e": "Asosiy ildiz yaxshi rivojlangan."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Ildiz qinchasining vazifasi nima?",
+   "a": [
+    "O'sish nuqtasini himoyalash",
+    "Tuproqdan suvni shimib olish",
+    "Ildizda fotosintez qilish",
+    "Zaxira moddalarni to'plash"
+   ],
+   "e": "Ildiz uchida."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Ildizning qaysi zonasida hujayralar bo'linadi?",
+   "a": [
+    "Bo'linish zonasida",
+    "So'rish zonasida",
+    "O'tkazish zonasida",
+    "Cho'zilish zonasida"
+   ],
+   "e": "Meristema."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Ildiz bosimi nimaning natijasi?",
+   "a": [
+    "Suvning ildizdan yuqoriga haydalishi",
+    "Barglardan suvning bug'lanib chiqishi",
+    "Poyaning kambiy hisobiga yo'g'onlashishi",
+    "Gullarning ertalab ochilishi"
+   ],
+   "e": "Gutatsiya va shira oqishi."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Gutatsiya nima?",
+   "a": [
+    "Suvning barg uchidan tomchi holida ajralishi",
+    "Suvning og'izchalar orqali bug' holida chiqishi",
+    "Kuzda barglarning sarg'ayib to'kilishi",
+    "Gulning hasharotlar yordamida changlanishi"
+   ],
+   "e": "Ildiz bosimi tufayli."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Mikoriza nima?",
+   "a": [
+    "Ildiz va zamburug' simbiozi",
+    "Ildizdagi tugunak bakteriyalar",
+    "Ildizning chirishi",
+    "Ildizdagi zararkunanda"
+   ],
+   "e": "Suv va fosfor o'zlashtirish yaxshilanadi."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Qo'shimcha (adventiv) ildizlar qayerdan o'sib chiqadi?",
+   "a": [
+    "Poya yoki bargdan",
+    "Faqat asosiy ildizdan",
+    "Faqat yon ildizdan",
+    "Faqat gul tagidan"
+   ],
+   "e": "Masalan, qalamchalarda."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Havo ildizlari qaysi o'simliklarda uchraydi?",
+   "a": [
+    "Orxideya va monstera kabi epifitlarda",
+    "Bug'doy, arpa va boshqa boshoqlilarda",
+    "Sabzi va lavlagi kabi ildizmevalilarda",
+    "Olma va o'rik kabi mevali daraxtlarda"
+   ],
+   "e": "Havodan namlik oladi."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Tirgak ildizlar qaysi o'simliklarda uchraydi?",
+   "a": [
+    "Makkajo'xorida",
+    "Kartoshkada",
+    "Sabzida",
+    "Piyozda"
+   ],
+   "e": "Poyani mustahkamlaydi."
+  },
+  {
+   "b": "Ildiz",
+   "q": "Ildiz tunganagi qaysi o'simliklarda bo'ladi?",
+   "a": [
+    "Kartoshkagulda (georgin)",
+    "Kartoshkada",
+    "Piyozda",
+    "Bug'doyda"
+   ],
+   "e": "Kartoshka tugunagi — poya."
+  },
+  {
+   "b": "Poya",
+   "q": "Poyaning asosiy vazifasi nima?",
+   "a": [
+    "Moddalarni o'tkazish va barglarni tutib turish",
+    "Faqat tuproqdan suvni shimib olish",
+    "Faqat urug' va meva hosil qilish",
+    "Faqat gullarning changlanishini ta'minlash"
+   ],
+   "e": "Ildiz va barg aloqasi."
+  },
+  {
+   "b": "Poya",
+   "q": "Poyaning bo'g'imi nima?",
+   "a": [
+    "Barg birikkan joy",
+    "Ikki barg orasidagi qism",
+    "Poyaning uchi",
+    "Ildiz bo'g'zi"
+   ],
+   "e": "Bo'g'im oralig'i — orasidagi qism."
+  },
+  {
+   "b": "Poya",
+   "q": "Kurtak nima?",
+   "a": [
+    "Novdaning boshlang'ichi",
+    "Ildizning o'sish nuqtasi",
+    "Gulning changchisi",
+    "Mevaning urug'i"
+   ],
+   "e": "Vegetativ va generativ."
+  },
+  {
+   "b": "Poya",
+   "q": "Daraxt poyasining yillik halqalari nima hosil qiladi?",
+   "a": [
+    "Kambiy faoliyati",
+    "Probka qatlami",
+    "O'zak hujayralari",
+    "Epidermis"
+   ],
+   "e": "Bahor va kuz yog'ochligi farqi."
+  },
+  {
+   "b": "Poya",
+   "q": "Daraxt yoshini qanday aniqlash mumkin?",
+   "a": [
+    "Yillik halqalar soni bo'yicha",
+    "Barglar soni bo'yicha",
+    "Ildiz uzunligi bo'yicha",
+    "Bir yildagi gullar soni bo'yicha"
+   ],
+   "e": "Kesmada sanaladi."
+  },
+  {
+   "b": "Poya",
+   "q": "Ildizpoya qaysi o'simliklarda uchraydi?",
+   "a": [
+    "Ajriq va g'umayda",
+    "Kartoshkada",
+    "Piyozda",
+    "Sabzida"
+   ],
+   "e": "Yer osti poyasi."
+  },
+  {
+   "b": "Poya",
+   "q": "Piyozbosh qaysi organning shakl o'zgarishi?",
+   "a": [
+    "Qisqargan poya va etli barglar",
+    "Faqat shakli o'zgargan ildiz",
+    "Faqat gul to'plami",
+    "Faqat etli meva"
+   ],
+   "e": "Tubi — qisqargan poya."
+  },
+  {
+   "b": "Poya",
+   "q": "Kaktusda tikanlar nimaning shakl o'zgarishi?",
+   "a": [
+    "Barg",
+    "Poya",
+    "Ildiz",
+    "Gul"
+   ],
+   "e": "Bug'lanishni kamaytiradi."
+  },
+  {
+   "b": "Poya",
+   "q": "Do'lanadagi tikanlar nimaning shakl o'zgarishi?",
+   "a": [
+    "Novda",
+    "Barg",
+    "Ildiz",
+    "Gul"
+   ],
+   "e": "Novda tikanlari."
+  },
+  {
+   "b": "Poya",
+   "q": "Uzumdagi jingalaklar nimaning shakl o'zgarishi?",
+   "a": [
+    "Novda",
+    "Ildiz",
+    "Gul",
+    "Urug'"
+   ],
+   "e": "Tayanchga ilashish uchun."
+  },
+  {
+   "b": "Poya",
+   "q": "Novdani payvandlash nima maqsadda qilinadi?",
+   "a": [
+    "Navning qimmatli belgilarini saqlash",
+    "O'simlikni tezroq qurib qolishiga erishish",
+    "Ildiz tizimini butunlay yo'qotish",
+    "Gullash va hosil berishni to'xtatish"
+   ],
+   "e": "Payvandust va payvandtag."
+  },
+  {
+   "b": "Barg",
+   "q": "Barg qanday qismlardan iborat?",
+   "a": [
+    "Barg plastinkasi, barg bandi, yonbargchalar",
+    "Faqat ildiz va poya qismlari",
+    "Faqat gulkosa va gultoj barglar",
+    "Faqat urug' va meva qismlari"
+   ],
+   "e": "Bandsiz barglar ham bor."
+  },
+  {
+   "b": "Barg",
+   "q": "Barg mezofilli qanday to'qimalardan iborat?",
+   "a": [
+    "Ustunsimon va bulutsimon to'qima",
+    "Faqat epidermis hujayralari",
+    "Faqat probka hujayralari",
+    "Faqat kambiy hujayralari"
+   ],
+   "e": "Fotosintez joyi."
+  },
+  {
+   "b": "Barg",
+   "q": "Barg tomirlari nimadan iborat?",
+   "a": [
+    "O'tkazuvchi naylar tutamlaridan",
+    "Faqat mexanik sklerenxima tolalaridan",
+    "Faqat epidermis hujayralaridan",
+    "Faqat havo bo'shliqlari tizimidan"
+   ],
+   "e": "Ksilema va floema."
+  },
+  {
+   "b": "Barg",
+   "q": "Bir pallalilarda barg tomirlanishi qanday?",
+   "a": [
+    "Parallel yoki yoysimon",
+    "To'rsimon (patsimon)",
+    "Panjasimon to'r",
+    "Tomirsiz"
+   ],
+   "e": "Bug'doy, makkajo'xori."
+  },
+  {
+   "b": "Barg",
+   "q": "Murakkab barg nima?",
+   "a": [
+    "Bir bandda bir nechta barg plastinkasi",
+    "Bitta bandda bitta plastinka",
+    "Bandsiz oddiy o'troq barg",
+    "Gulga aylangan shaklan o'zgargan barg"
+   ],
+   "e": "Masalan, atirgul, akatsiya."
+  },
+  {
+   "b": "Barg",
+   "q": "Barg joylashuvi turlari qaysilar?",
+   "a": [
+    "Ketma-ket, qarama-qarshi, halqasimon",
+    "Faqat ketma-ket joylashuv",
+    "Faqat qarama-qarshi joylashuv",
+    "Faqat to'p-to'p joylashuv turi"
+   ],
+   "e": "Filotaksis."
+  },
+  {
+   "b": "Barg",
+   "q": "Barg to'kilishining ahamiyati nima?",
+   "a": [
+    "Qishda suv bug'lanishini kamaytirish",
+    "Qishda fotosintez jarayonini kuchaytirish",
+    "Ildiz tizimining o'sishini tezlashtirish",
+    "Kelasi yil gullashni tezlashtirish"
+   ],
+   "e": "Moslanish."
+  },
+  {
+   "b": "Barg",
+   "q": "Kuzda barglarning sarg'ayishiga sabab nima?",
+   "a": [
+    "Xlorofillning parchalanishi",
+    "Xlorofillning ko'payishi",
+    "Barg hujayralarining bo'linishi",
+    "Suvning ko'payishi"
+   ],
+   "e": "Karotinoidlar ko'rinib qoladi."
+  },
+  {
+   "b": "Barg",
+   "q": "Og'izchalar ochilishi nimaga bog'liq?",
+   "a": [
+    "Tutashtiruvchi hujayralar turgoriga",
+    "Faqat ildiz tizimining uzunligiga",
+    "Faqat gul tojbarglarining rangiga",
+    "Faqat poyaning qalinligiga"
+   ],
+   "e": "K⁺ ionlari ishtirok etadi."
+  },
+  {
+   "b": "Barg",
+   "q": "Og'izchalar ko'pincha bargning qaysi tomonida ko'p bo'ladi?",
+   "a": [
+    "Pastki tomonida",
+    "Yuqori tomonida",
+    "Faqat bandida",
+    "Faqat chetida"
+   ],
+   "e": "Bug'lanish kamayadi."
+  },
+  {
+   "b": "Barg",
+   "q": "Suv o'simliklari (nilufar) da og'izchalar qayerda bo'ladi?",
+   "a": [
+    "Bargning yuqori tomonida",
+    "Bargning pastki tomonida",
+    "Faqat ildizda",
+    "Og'izcha bo'lmaydi"
+   ],
+   "e": "Pastki tomon suvga tegadi."
+  },
+  {
+   "b": "Barg",
+   "q": "Hasharotxo'r o'simlikka misol qaysi?",
+   "a": [
+    "Drozera (shudringo't)",
+    "Bug'doy",
+    "G'o'za",
+    "Kartoshka"
+   ],
+   "e": "Azot tanqisligiga moslashgan."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Gulning asosiy qismlari qaysilar?",
+   "a": [
+    "Kosacha, toj, changchi va urug'chi",
+    "Faqat ildiz, poya va barg qismlari",
+    "Faqat barg bandi va yonbargchalar",
+    "Faqat urug' po'sti va murtak"
+   ],
+   "e": "Gulyonbarg ham bor."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Changchi qanday qismlardan iborat?",
+   "a": [
+    "Changdon va chang ipi",
+    "Tumshuqcha, ustuncha va tuguncha",
+    "Kosachabarg va tojbarg",
+    "Urug'kurtak va murtak xaltasi"
+   ],
+   "e": "Changdonda chang hosil bo'ladi."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Urug'chi qanday qismlardan iborat?",
+   "a": [
+    "Tumshuqcha, ustuncha, tuguncha",
+    "Changdon va chang ipidan iborat",
+    "Kosachabarg va tojbargdan iborat",
+    "Gul o'rni va gul bandidan iborat"
+   ],
+   "e": "Tugunchada urug'kurtak."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Ikki jinsli gul nima?",
+   "a": [
+    "Changchi va urug'chisi bor gul",
+    "Faqat changchilari bor gul",
+    "Faqat urug'chilari bor gul",
+    "Changchi ham, urug'chi ham yo'q gul"
+   ],
+   "e": "Ko'p o'simliklarda."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Bir uyli o'simlikka misol qaysi?",
+   "a": [
+    "Makkajo'xori",
+    "Tol",
+    "Terak",
+    "Ismaloq"
+   ],
+   "e": "Erkak va urg'ochi gullar bir o'simlikda."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Ikki uyli o'simlikka misol qaysi?",
+   "a": [
+    "Tol",
+    "Makkajo'xori",
+    "Bodring",
+    "Qovoq"
+   ],
+   "e": "Erkak va urg'ochi gullar har xil o'simlikda."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Chetdan changlanish usullari qaysilar?",
+   "a": [
+    "Hasharot, shamol, suv yordamida",
+    "Faqat o'z-o'zidan (avtogamiya) changlanish",
+    "Faqat ildiz tizimi orqali changlanish",
+    "Faqat urug'lar orqali changlanish"
+   ],
+   "e": "Entomofiliya, anemofiliya."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Shamol yordamida changlanadigan o'simlik gullariga xos belgi qaysi?",
+   "a": [
+    "Mayda, ko'rimsiz, changi ko'p",
+    "Yirik, rangli, nektarli va xushbo'y",
+    "Faqat kechasi ochiladigan oq gullar",
+    "Gul tojbarglari juda yirik va qizil"
+   ],
+   "e": "Masalan, bug'doy, tol."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Qo'sh urug'lanishda ikkinchi spermiy nima bilan qo'shiladi?",
+   "a": [
+    "Markaziy hujayra bilan",
+    "Tuxum hujayra bilan",
+    "Sinergidalar bilan",
+    "Antipod hujayralar bilan"
+   ],
+   "e": "Endosperm (3n) hosil bo'ladi."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Endosperm qanday ploidlikka ega?",
+   "a": [
+    "Triploid (3n)",
+    "Gaploid (n)",
+    "Diploid (2n)",
+    "Tetraploid (4n)"
+   ],
+   "e": "Gulli o'simliklarda."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Urug' qismlari qaysilar?",
+   "a": [
+    "Urug' po'sti, murtak, endosperm",
+    "Faqat meva eti va qattiq po'stloq",
+    "Kosachabarg, tojbarg va gul o'rni",
+    "Changdon, chang ipi va changchilar"
+   ],
+   "e": "Ba'zilarida endosperm yo'q."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Murtak qanday qismlardan iborat?",
+   "a": [
+    "Murtak ildizcha, poyacha, kurtakcha, urug'palla",
+    "Faqat qattiq urug' po'sti",
+    "Faqat endosperm va kraxmal donachalari",
+    "Faqat etli meva yonligi"
+   ],
+   "e": "Kelajakdagi o'simlik."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Urug' unib chiqishi uchun qaysi sharoitlar zarur?",
+   "a": [
+    "Suv, havo (kislorod), issiqlik",
+    "Faqat kuchli yorug'lik va mineral o'g'it",
+    "Faqat qorong'ilik va past harorat",
+    "Faqat quruq va zich tuproq"
+   ],
+   "e": "Ko'p urug'lar uchun yorug'lik shart emas."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Ho'l mevaga misol qaysi?",
+   "a": [
+    "Rezavor meva (pomidor, uzum)",
+    "Dukkak (no'xat)",
+    "Ko'sak (g'o'za)",
+    "Don (bug'doy)"
+   ],
+   "e": "Meva yonligi etli."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Quruq ko'p urug'li mevaga misol qaysi?",
+   "a": [
+    "Ko'sak",
+    "Rezavor",
+    "Danakli meva",
+    "Olma meva"
+   ],
+   "e": "G'o'za, ko'knor."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Danakli mevaga misol qaysi?",
+   "a": [
+    "O'rik",
+    "Pomidor",
+    "Uzum",
+    "Bodring"
+   ],
+   "e": "Ichki qavati qattiq danak."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Bug'doy mevasi qanday nomlanadi?",
+   "a": [
+    "Don",
+    "Dukkak",
+    "Ko'sak",
+    "Yong'oq"
+   ],
+   "e": "Meva yonligi urug' po'sti bilan qo'shilgan."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Dukkak mevasi qaysi oilaga xos?",
+   "a": [
+    "Dukkakdoshlarga",
+    "Ra'nodoshlarga",
+    "Ituzumdoshlarga",
+    "Murakkabguldoshlarga"
+   ],
+   "e": "No'xat, loviya."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Qo'zoq (qo'zoqcha) mevasi qaysi oilaga xos?",
+   "a": [
+    "Karamdoshlarga (butguldoshlar)",
+    "Dukkakdoshlarga",
+    "Bug'doydoshlarga",
+    "Ra'nodoshlarga"
+   ],
+   "e": "Karam, turp."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Pista va bodom qanday tarqaladi?",
+   "a": [
+    "Odam va hayvonlar orqali",
+    "Faqat shamol orqali qanotlari bilan",
+    "Faqat suv oqimi orqali",
+    "O'z-o'zidan otilib"
+   ],
+   "e": "Zoxoriya, antropoxoriya."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Qoqio't urug'lari qanday tarqaladi?",
+   "a": [
+    "Shamol yordamida",
+    "Suv yordamida",
+    "Hayvon junida",
+    "Otilib tarqaladi"
+   ],
+   "e": "Uchma tukchalar."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "To'pgul nima?",
+   "a": [
+    "Bir o'qda joylashgan gullar to'plami",
+    "Bitta yakka joylashgan yirik gul",
+    "Bir shoxda joylashgan mevalar to'plami",
+    "Novda uchidagi barglar to'plami"
+   ],
+   "e": "Savatcha, boshoq, soyabon..."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Kungaboqar to'pguli qanday nomlanadi?",
+   "a": [
+    "Savatcha",
+    "Boshoq",
+    "Soyabon",
+    "Shingil"
+   ],
+   "e": "Murakkabguldoshlar."
+  },
+  {
+   "b": "Gul, meva va urug'",
+   "q": "Sabzi va ukrop to'pguli qanday nomlanadi?",
+   "a": [
+    "Murakkab soyabon",
+    "Savatcha",
+    "Boshoq",
+    "Kuchala"
+   ],
+   "e": "Soyabonguldoshlar (selderdoshlar)."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Sistematikaning asosiy birligi qaysi?",
+   "a": [
+    "Tur",
+    "Oila",
+    "Turkum",
+    "Bo'lim"
+   ],
+   "e": "Kategoriya."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Binar nomenklaturani kim joriy qilgan?",
+   "a": [
+    "K. Linney",
+    "Ch. Darvin",
+    "G. Mendel",
+    "N. Vavilov"
+   ],
+   "e": "Turkum + tur nomi."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "O'simliklar sistematik kategoriyalarining to'g'ri tartibi qaysi?",
+   "a": [
+    "Tur → turkum → oila → tartib → sinf → bo'lim",
+    "Oila → tur → bo'lim → sinf → turkum",
+    "Bo'lim → tur → oila → turkum",
+    "Sinf → tur → turkum → oila"
+   ],
+   "e": "Hayvonlarda bo'lim o'rniga tip."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Yuksak o'simliklarga qaysilar kiradi?",
+   "a": [
+    "Yo'sinlar, qirqquloqlar, ochiq va yopiq urug'lilar",
+    "Faqat bir hujayrali va ko'p hujayrali suvo'tlar",
+    "Faqat qalpoqli va mog'or zamburug'lari",
+    "Faqat tuproq va suv bakteriyalari"
+   ],
+   "e": "Tuban o'simliklar — suvo'tlar."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Qirqbo'g'imlar va plaunlar qanday ko'payadi?",
+   "a": [
+    "Sporalar orqali",
+    "Urug'lar orqali",
+    "Faqat tugunaklar orqali",
+    "Faqat piyozboshlar orqali"
+   ],
+   "e": "Yuksak sporali o'simliklar."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Qirqquloqning gametofiti qanday nomlanadi?",
+   "a": [
+    "O'simta (protalliy)",
+    "Spora qutichasi",
+    "Yashil barg",
+    "Ildizpoya"
+   ],
+   "e": "Mayda yurak shaklida."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Yo'sinlarda hayot siklida qaysi bo'g'in ustun?",
+   "a": [
+    "Gametofit",
+    "Sporofit",
+    "Ikkalasi teng",
+    "Faqat spora"
+   ],
+   "e": "Boshqa yuksak o'simliklarda sporofit ustun."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Qarag'ay qaysi bo'limga kiradi?",
+   "a": [
+    "Ochiq urug'lilar",
+    "Yopiq urug'lilar",
+    "Qirqquloqlar",
+    "Yo'sinlar"
+   ],
+   "e": "Qubbalarda urug'lar."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Murakkabguldoshlar oilasiga misol qaysi?",
+   "a": [
+    "Kungaboqar",
+    "Bug'doy",
+    "Karam",
+    "Olma"
+   ],
+   "e": "Savatcha to'pgul."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Piyozdoshlar oilasiga misol qaysi?",
+   "a": [
+    "Piyoz va sarimsoq",
+    "Bug'doy va arpa",
+    "Olma va nok",
+    "Karam va turp"
+   ],
+   "e": "Bir pallalilar."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Qovoqdoshlar oilasiga misol qaysi?",
+   "a": [
+    "Qovun, tarvuz, bodring",
+    "Pomidor, kartoshka",
+    "No'xat, loviya",
+    "Olma, behi"
+   ],
+   "e": "Soxta rezavor meva — qovoq meva."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Ituzumdoshlar oilasiga misol qaysi?",
+   "a": [
+    "Pomidor va baqlajon",
+    "Karam va turp",
+    "Qovun va bodring",
+    "Bug'doy va sholi"
+   ],
+   "e": "Kartoshka ham."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Dukkakdoshlar oilasiga misol qaysi?",
+   "a": [
+    "No'xat va beda",
+    "Kungaboqar va qoqio't",
+    "Olma va o'rik",
+    "Pomidor va kartoshka"
+   ],
+   "e": "Azot to'plovchi."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Karamdoshlar (butguldoshlar) gulining xususiyati nima?",
+   "a": [
+    "To'rt tojbarg butsimon joylashgan",
+    "Besh tojbarg qo'shilib o'sgan",
+    "Uch tojbarg va olti changchi bor",
+    "Tojbarglari umuman yo'q"
+   ],
+   "e": "K4 C4 A2+4 G(2)."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Bug'doydoshlar oilasiga misol qaysi?",
+   "a": [
+    "Sholi va makkajo'xori",
+    "Loviya va no'xat",
+    "Pomidor va baqlajon",
+    "Olma va behi"
+   ],
+   "e": "Bir pallalilar, don meva."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Ra'nodoshlarga misol qaysi?",
+   "a": [
+    "Olma, o'rik, atirgul",
+    "Sholi, bug'doy, arpa",
+    "Karam, turp, sholg'om",
+    "Piyoz, sarimsoq, lola"
+   ],
+   "e": "Rosaceae."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Lola qaysi oilaga kiradi?",
+   "a": [
+    "Lolaguldoshlar",
+    "Ra'nodoshlar",
+    "Karamdoshlar",
+    "Bug'doydoshlar"
+   ],
+   "e": "O'zbekistonda ko'p turlari bor."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "O'zbekiston Qizil kitobiga kiritilgan o'simlikka misol qaysi?",
+   "a": [
+    "Greyg lolasi",
+    "Bug'doy",
+    "G'o'za",
+    "Ajriq"
+   ],
+   "e": "Noyob turlar muhofazasi."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Lishayniklar qanday organizmlar?",
+   "a": [
+    "Zamburug' va suvo'tning simbiozi",
+    "Yo'sinlarning bir turi",
+    "Qirqquloqlarning bir turi",
+    "Bakteriyalar koloniyasi"
+   ],
+   "e": "Havo tozaligi indikatori."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Xlorella qaysi guruhga kiradi?",
+   "a": [
+    "Bir hujayrali yashil suvo'tlar",
+    "Ko'p hujayrali qizil suvo'tlar",
+    "Yuksak sporali o'simliklar",
+    "Zamburug'lar"
+   ],
+   "e": "Oziq va ozuqa sifatida."
+  },
+  {
+   "b": "O'simliklar sistematikasi",
+   "q": "Laminariya (dengiz karami) qaysi guruhga kiradi?",
+   "a": [
+    "Qo'ng'ir suvo'tlar",
+    "Yashil suvo'tlar",
+    "Yuksak yo'sinlar",
+    "Qirqquloqlar"
+   ],
+   "e": "Yod manbai."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "O'simlikda suv harakatining asosiy harakatlantiruvchi kuchlari qaysilar?",
+   "a": [
+    "Ildiz bosimi va transpiratsiya",
+    "Faqat gravitatsiya kuchi va shamol",
+    "Faqat fotosintez va nafas olish",
+    "Faqat hujayra bo'linishi va o'sishi"
+   ],
+   "e": "Yuqori va pastki harakatlantiruvchi kuch."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Osmos nima?",
+   "a": [
+    "Suvning yarim o'tkazgich membranadan o'tishi",
+    "Moddalarning ATF sarflab faqat faol tashilishi",
+    "Gazlarning og'izchalar orqali tashqariga chiqishi",
+    "Kraxmalning fermentlar ta'sirida glyukozaga parchalanishi"
+   ],
+   "e": "Past konsentratsiyadan yuqoriga."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "So'lish nima sababdan yuz beradi?",
+   "a": [
+    "Suv yo'qotish suv kelishidan oshganda",
+    "Hujayralarga me'yoridan ortiq suv kirganda",
+    "Fotosintez jarayoni keskin kuchayib ketganda",
+    "Ildiz tizimi juda tez o'sib ketganda"
+   ],
+   "e": "Turgor pasayadi."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Transpiratsiyaning ahamiyati nima?",
+   "a": [
+    "Bargni sovitish va suv harakatini ta'minlash",
+    "Faqat ildizni tuproqqa mustahkam mahkamlash",
+    "Faqat urug' hosil bo'lishini tezlashtirish",
+    "Faqat hasharotlar yordamida changlanishni ta'minlash"
+   ],
+   "e": "Mineral moddalar ham ko'tariladi."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Transpiratsiya koeffitsiyenti nima?",
+   "a": [
+    "1 g quruq modda hosil qilish uchun sarflangan suv miqdori",
+    "Bir sutkada bitta o'simlik bug'latgan suv miqdori",
+    "Bargning 1 mm² yuzasidagi og'izchalar soni",
+    "Ildiz tizimi tomonidan shimilgan azot miqdori"
+   ],
+   "e": "Odatda 300–600."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Kserofitlar qanday o'simliklar?",
+   "a": [
+    "Qurg'oqchilikka chidamli",
+    "Faqat suvda o'sadigan",
+    "Ortiqcha nam sharoitda o'sadigan",
+    "Faqat soyada o'sadigan"
+   ],
+   "e": "Saksovul, kaktus."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Gidrofitlar qanday o'simliklar?",
+   "a": [
+    "Suvda yoki juda nam joyda o'sadigan",
+    "Qurg'oqchilikka chidamli cho'l o'simliklari",
+    "Sho'r tuproqda o'sishga moslashgan o'simliklar",
+    "Faqat qumli tuproqda o'sadigan o'simliklar"
+   ],
+   "e": "Nilufar, qamish."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Galofitlar qanday o'simliklar?",
+   "a": [
+    "Sho'r tuproqda o'sadigan",
+    "Faqat suvda o'sadigan",
+    "Faqat soyada o'sadigan",
+    "Faqat tog'da o'sadigan"
+   ],
+   "e": "Sho'ra, qorasho'ra."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Mezofitlar qanday sharoitda o'sadi?",
+   "a": [
+    "O'rtacha namlikda",
+    "O'ta qurg'oqchilikda",
+    "Faqat suv ichida",
+    "Faqat sho'r yerda"
+   ],
+   "e": "Ko'pchilik madaniy o'simliklar."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Efemerlar nima?",
+   "a": [
+    "Qisqa vegetatsiyali bir yilliklar",
+    "Ko'p yillik yirik daraxtlar",
+    "Faqat suv ichida o'sadigan o'simliklar",
+    "Doim yashil bo'lib turadigan butalar"
+   ],
+   "e": "Bahorda tez o'sib, urug' beradi."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Kserofitlarning moslanishiga misol qaysi?",
+   "a": [
+    "Barglarning kichrayishi yoki tikanga aylanishi",
+    "Barglarning juda yiriklashuvi va yupqalashuvi",
+    "Og'izchalarning barg yuqorisida ko'payishi",
+    "Ildizlarning faqat yuza qatlamda tarqalishi"
+   ],
+   "e": "Bug'lanishni kamaytirish."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotosintezning umumiy tenglamasi qaysi?",
+   "a": [
+    "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+    "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+    "6O₂ + 6H₂O → C₆H₁₂O₆ + 6CO₂",
+    "2H₂O → 2H₂ + O₂ faqat"
+   ],
+   "e": "Yorug'lik energiyasi hisobiga."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotosintezda ajraladigan kislorod qaysi moddadan hosil bo'ladi?",
+   "a": [
+    "Suvdan",
+    "Karbonat angidriddan",
+    "Glyukozadan",
+    "Xlorofilldan"
+   ],
+   "e": "Suv fotolizi."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotosintezning yorug'lik bosqichida nima hosil bo'ladi?",
+   "a": [
+    "ATF, NADF·H va O₂",
+    "Glyukoza va kraxmal",
+    "Faqat CO₂ va suv",
+    "Aminokislotalar va oqsillar"
+   ],
+   "e": "Qorong'ilik bosqichida ishlatiladi."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Kalvin siklida CO₂ ni biriktiruvchi ferment qaysi?",
+   "a": [
+    "Rubisko",
+    "Amilaza",
+    "Lipaza",
+    "Katalaza"
+   ],
+   "e": "Ribulozabisfosfat karboksilaza."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "C₄ o'simliklarga misol qaysi?",
+   "a": [
+    "Makkajo'xori va shakarqamish",
+    "Bug'doy va sholi",
+    "Kartoshka va pomidor",
+    "Olma va o'rik"
+   ],
+   "e": "Issiq iqlimda samarali."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "CAM-fotosintez qaysi o'simliklarga xos?",
+   "a": [
+    "Kaktus va sukkulentlarga",
+    "Bug'doy va arpaga",
+    "Sholi va makkajo'xoriga",
+    "Suv o'simliklariga"
+   ],
+   "e": "Og'izchalar kechasi ochiladi."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotosintez uchun eng samarali yorug'lik nurlari qaysilar?",
+   "a": [
+    "Qizil va ko'k-binafsha",
+    "Faqat yashil va sariq nurlar",
+    "Faqat infraqizil (issiqlik) nurlar",
+    "Faqat ultrabinafsha nurlar"
+   ],
+   "e": "Yashil nur aks etadi."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotonafas nima?",
+   "a": [
+    "Yorug'likda kislorod yutib CO₂ ajratish",
+    "Qorong'ilikda xloroplastlarda kraxmal sintezi",
+    "Ildiz tukchalari orqali suv shimilishi",
+    "Changdonlarda chang donachalari hosil bo'lishi"
+   ],
+   "e": "C₃ o'simliklarda ko'proq."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotosintez jadalligiga qaysi omillar ta'sir qiladi?",
+   "a": [
+    "Yorug'lik, CO₂, harorat, suv",
+    "Faqat tuproqning rangi",
+    "Faqat gul tojbarglarining rangi",
+    "Faqat Oyning fazalari"
+   ],
+   "e": "Cheklovchi omil qonuni."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Kompensatsiya nuqtasi nima?",
+   "a": [
+    "Fotosintez va nafas tezligi tenglashgan holat",
+    "Fotosintez jarayonining eng yuqori tezligi",
+    "Nafas olish jarayonining to'liq to'xtashi",
+    "Suv bug'lanishining eng yuqori nuqtasi"
+   ],
+   "e": "Yorug'lik yoki CO₂ bo'yicha."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotosintezni kim birinchi bo'lib tajribada isbotlagan (o'simlik havoni tozalashi)?",
+   "a": [
+    "J. Pristli",
+    "Ch. Darvin",
+    "G. Mendel",
+    "L. Paster"
+   ],
+   "e": "Sichqon va o'simlik tajribasi, 1771."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotosintezning kosmik rolini kim ta'kidlagan?",
+   "a": [
+    "K.A. Timiryazev",
+    "I.P. Pavlov",
+    "N.I. Vavilov",
+    "I.V. Michurin"
+   ],
+   "e": "\"O'simlikning hayoti\"."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Xlorofill molekulasi markazida qaysi atom joylashgan?",
+   "a": [
+    "Magniy",
+    "Temir",
+    "Mis",
+    "Rux"
+   ],
+   "e": "Gemoglobinda temir."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Soyaga chidamli o'simliklar qanday nomlanadi?",
+   "a": [
+    "Ssiofitlar",
+    "Geliofitlar",
+    "Kserofitlar",
+    "Galofitlar"
+   ],
+   "e": "Yorug'sevarlar — geliofitlar."
+  },
+  {
+   "b": "Nafas olish",
+   "q": "O'simliklarda nafas olish qayerda boradi?",
+   "a": [
+    "Mitoxondriyalarda",
+    "Faqat xloroplastlarda",
+    "Faqat vakuolada",
+    "Faqat hujayra devorida"
+   ],
+   "e": "Barcha tirik hujayralarda."
+  },
+  {
+   "b": "Nafas olish",
+   "q": "Nafas olishning umumiy tenglamasi qaysi?",
+   "a": [
+    "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energiya",
+    "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (yorug'likda)",
+    "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (kislorodsiz)",
+    "2H₂ + O₂ → 2H₂O + issiqlik energiyasi"
+   ],
+   "e": "Fotosintezga teskari."
+  },
+  {
+   "b": "Nafas olish",
+   "q": "O'simliklar qachon nafas oladi?",
+   "a": [
+    "Kecha-kunduz doimo",
+    "Faqat quyoshli kunduzi",
+    "Faqat qorong'i kechasi",
+    "Faqat bahor va yoz oylarida"
+   ],
+   "e": "Fotosintez faqat yorug'likda."
+  },
+  {
+   "b": "Nafas olish",
+   "q": "Spirtli bijg'ish qaysi sharoitda boradi?",
+   "a": [
+    "Kislorodsiz",
+    "Kislorod ko'p bo'lganda",
+    "Faqat yorug'likda",
+    "Faqat sovuqda"
+   ],
+   "e": "Etil spirti va CO₂."
+  },
+  {
+   "b": "Nafas olish",
+   "q": "Omborda saqlanayotgan donning qizishiga sabab nima?",
+   "a": [
+    "Jadal nafas olishda issiqlik ajralishi",
+    "Fotosintez jarayonining kuchayishi",
+    "Don ichidagi suvning muzlashi",
+    "Kraxmalning qayta hosil bo'lishi"
+   ],
+   "e": "Namlik yuqori bo'lsa."
+  },
+  {
+   "b": "Nafas olish",
+   "q": "Mevalarni saqlashda nafasni sekinlashtirish uchun nima qilinadi?",
+   "a": [
+    "Harorat pasaytiriladi va CO₂ oshiriladi",
+    "Harorat oshiriladi va O₂ ko'paytiriladi",
+    "Yorug'lik kuchaytiriladi",
+    "Namlik keskin oshiriladi"
+   ],
+   "e": "Nazoratli atmosfera."
+  },
+  {
+   "b": "Nafas olish",
+   "q": "Glikoliz qayerda boradi?",
+   "a": [
+    "Sitoplazmada",
+    "Mitoxondriya matriksida",
+    "Xloroplast stromasida",
+    "Yadroda"
+   ],
+   "e": "Glyukoza → piruvat."
+  },
+  {
+   "b": "Nafas olish",
+   "q": "Krebs sikli qayerda boradi?",
+   "a": [
+    "Mitoxondriya matriksida",
+    "Sitoplazmada",
+    "Xloroplast tilakoidida",
+    "Ribosomada"
+   ],
+   "e": "Uchkarbon kislotalar sikli."
+  },
+  {
+   "b": "Nafas olish",
+   "q": "Nafas koeffitsiyenti nima?",
+   "a": [
+    "Ajralgan CO₂ ning yutilgan O₂ ga nisbati",
+    "Yutilgan suvning bug'langan suvga nisbati",
+    "Fotosintez va o'sish nisbati",
+    "Ildiz va poya massasi nisbati"
+   ],
+   "e": "Uglevodlarda ≈1."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Makroelementlarga qaysilar kiradi?",
+   "a": [
+    "N, P, K, Ca, Mg, S",
+    "Fe, Mn, Zn, Cu, B",
+    "Faqat oltin va kumush (Au, Ag)",
+    "Faqat qo'rg'oshin va simob (Pb, Hg)"
+   ],
+   "e": "Ko'p miqdorda kerak."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Mikroelementlarga qaysilar kiradi?",
+   "a": [
+    "Fe, Mn, Zn, Cu, B, Mo",
+    "N, P, K",
+    "Ca, Mg, S",
+    "C, H, O"
+   ],
+   "e": "Oz miqdorda kerak."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Azot yetishmasa barglarda qanday belgi kuzatiladi?",
+   "a": [
+    "Pastki barglar sarg'ayadi",
+    "Barglar to'q yashil bo'lib ketadi",
+    "Barglar binafsha tusga kiradi faqat",
+    "Barglarda hech o'zgarish bo'lmaydi"
+   ],
+   "e": "Xloroz, o'sish sustlashadi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Fosfor yetishmasligining belgisi qaysi?",
+   "a": [
+    "Barglarning qizg'ish-binafsha tusga kirishi",
+    "Barglarning oqarib, rangsizlanib ketishi",
+    "Barg chetlarining qo'ng'ir tusda kuyishi",
+    "Faqat yosh barglarning sarg'ayishi"
+   ],
+   "e": "Antotsian to'planadi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Kaliy yetishmasligining belgisi qaysi?",
+   "a": [
+    "Barg chetlarining qo'ng'ir kuyishi",
+    "Barglarning binafsha bo'lishi",
+    "Barg tomirlarining to'q yashil bo'lishi",
+    "Barglarning yiriklashishi"
+   ],
+   "e": "Pastki barglardan boshlanadi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Temir yetishmasligida qanday belgi kuzatiladi?",
+   "a": [
+    "Yosh barglarda xloroz",
+    "Eski barglarning qizarishi",
+    "Ildizlarning yo'g'onlashishi",
+    "Gullarning ko'payishi"
+   ],
+   "e": "Temir harakatsiz element."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Azotli o'g'itga misol qaysi?",
+   "a": [
+    "Karbamid (mochevina)",
+    "Superfosfat",
+    "Kaliy xlorid",
+    "Ohak (kalsiy karbonat)"
+   ],
+   "e": "46% azot."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Fosforli o'g'itga misol qaysi?",
+   "a": [
+    "Superfosfat",
+    "Ammiakli selitra",
+    "Kaliy sulfat",
+    "Karbamid"
+   ],
+   "e": "P₂O₅ manbai."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Kaliyli o'g'itga misol qaysi?",
+   "a": [
+    "Kaliy xlorid",
+    "Superfosfat",
+    "Karbamid",
+    "Ammoniy sulfat"
+   ],
+   "e": "K₂O manbai."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Organik o'g'itga misol qaysi?",
+   "a": [
+    "Go'ng va kompost",
+    "Superfosfat",
+    "Karbamid",
+    "Kaliy xlorid"
+   ],
+   "e": "Tuproq strukturasini yaxshilaydi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Gidroponika nima?",
+   "a": [
+    "O'simlikni tuproqsiz, ozuqa eritmasida o'stirish",
+    "O'simlikni faqat toza qumda o'stirish",
+    "O'simlikni suvsiz, quruq sharoitda o'stirish",
+    "Faqat suv o'simliklarini o'rganish usuli"
+   ],
+   "e": "Issiqxonalarda qo'llanadi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Azotfiksatsiya nima?",
+   "a": [
+    "Atmosfera azotini bog'lab o'zlashtiriladigan shaklga o'tkazish",
+    "Azotning tuproqdan havoga erkin holda chiqishi",
+    "Azotli o'g'itlarning yomg'ir bilan yuvilib ketishi",
+    "Oqsillarning chirituvchi bakteriyalar ta'sirida parchalanishi"
+   ],
+   "e": "Tugunak bakteriyalar, azotobakter."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Denitrifikatsiya nima?",
+   "a": [
+    "Nitratlardan erkin azot ajralishi",
+    "Atmosfera azotining tugunaklarda bog'lanishi",
+    "Ammiakning nitratlarga oksidlanishi",
+    "Aminokislotalardan oqsillar sintezi"
+   ],
+   "e": "Azot yo'qotiladi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Nitrifikatsiya nima?",
+   "a": [
+    "Ammiakning nitratlarga oksidlanishi",
+    "Nitratlardan erkin azot gazining ajralishi",
+    "Atmosfera azotining tugunaklarda bog'lanishi",
+    "Azotning o'simlik oqsillariga aylanishi"
+   ],
+   "e": "Nitrifikator bakteriyalar."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Tuproq kislotaliligini kamaytirish uchun nima qo'llanadi?",
+   "a": [
+    "Ohaklash",
+    "Gipslash",
+    "Sho'r yuvish",
+    "Azotli o'g'it"
+   ],
+   "e": "Kislotali tuproqlarda."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Sho'rlangan tuproqlar qanday yaxshilanadi?",
+   "a": [
+    "Sho'r yuvish va zovur orqali",
+    "Ko'proq tuz solish orqali",
+    "Sug'orishni butunlay to'xtatish orqali",
+    "Faqat ohaklash orqali"
+   ],
+   "e": "O'zbekistonda dolzarb."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Auksinlarning asosiy ta'siri nima?",
+   "a": [
+    "Hujayralar cho'zilishini rag'batlantirish",
+    "Barg va mevalarning to'kilishini tezlashtirish",
+    "Urug'larni tinim holatida ushlab turish",
+    "Mevalarning pishishini to'xtatib qo'yish"
+   ],
+   "e": "Ildiz hosil bo'lishi ham."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Gibberellinlarning ta'siri nima?",
+   "a": [
+    "Poya o'sishi va urug' unishini tezlashtirish",
+    "Barglarning sarg'ayib to'kilishini tezlashtirish",
+    "Hujayra bo'linishini butunlay to'xtatish",
+    "Og'izchalarni yopib, o'sishni sekinlashtirish"
+   ],
+   "e": "Mitti navlarda bo'yni oshiradi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Sitokininlarning asosiy ta'siri nima?",
+   "a": [
+    "Hujayra bo'linishini rag'batlantirish",
+    "Mevalarning pishishini tezlashtirish",
+    "Og'izchalarning yopilishini ta'minlash",
+    "Barglarning qarishini tezlashtirish"
+   ],
+   "e": "Qarishni sekinlashtiradi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Abssiz kislotaning vazifasi nima?",
+   "a": [
+    "Tinim holati va og'izchalar yopilishi",
+    "Poyaning tez cho'zilishini ta'minlash",
+    "Hujayra bo'linishini kuchaytirish",
+    "Mevalarning yiriklashishini ta'minlash"
+   ],
+   "e": "\"Stress gormoni\"."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Etilen qaysi jarayonga ta'sir qiladi?",
+   "a": [
+    "Mevalarning pishishi",
+    "Ildiz tukchalarining hosil bo'lishi",
+    "Xlorofillning sintezlanishi",
+    "Urug'ning tinim holatiga o'tishi"
+   ],
+   "e": "Gaz holidagi gormon."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Defoliantlar nima uchun qo'llanadi?",
+   "a": [
+    "G'o'za bargini terimdan oldin to'kish",
+    "G'o'zaning vegetativ o'sishini tezlashtirish",
+    "Ko'saklarning ochilishini kechiktirib to'xtatish",
+    "G'o'za ildiz tizimini kuchaytirish"
+   ],
+   "e": "Mashinada terish uchun."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Fototropizm nima?",
+   "a": [
+    "Yorug'lik tomon egilib o'sish",
+    "Yerning tortishish kuchiga javoban o'sish",
+    "Suv tomonga qarab ildizning o'sishi",
+    "Tegishga javoban jingalakning o'ralishi"
+   ],
+   "e": "Auksinlar ishtirok etadi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Ildizning musbat geotropizmi nimani bildiradi?",
+   "a": [
+    "Ildiz pastga o'sadi",
+    "Ildiz yorug'lik tomonga o'sadi",
+    "Ildiz yuqoriga qarab o'sadi",
+    "Ildiz gorizontal yo'nalishda o'sadi"
+   ],
+   "e": "Poyada manfiy geotropizm."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Nastiya nima?",
+   "a": [
+    "Yo'nalishsiz ta'sirotga javob harakati",
+    "Yorug'lik manbai tomonga yo'nalgan egilish",
+    "Kimyoviy modda konsentratsiyasi tomonga o'sish",
+    "Faqat ildizning Yer markazi tomon o'sishi"
+   ],
+   "e": "Gullarning ochilib-yopilishi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Uyatchan mimozaning barglari tegilganda yig'ilishi qanday harakat?",
+   "a": [
+    "Seysmonastiya",
+    "Fototropizm",
+    "Geotropizm",
+    "Gidrotropizm"
+   ],
+   "e": "Turgor o'zgarishi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Fotoperiodizm nima?",
+   "a": [
+    "Kun uzunligiga javob reaksiyasi",
+    "Yorug'lik tomon egilib o'sish",
+    "Haroratga nisbatan chidamlilik",
+    "Kechasi og'izchalarning ochilishi"
+   ],
+   "e": "Gullash vaqtini belgilaydi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Qisqa kun o'simliklariga misol qaysi?",
+   "a": [
+    "Xrizantema va soya",
+    "Bug'doy va arpa",
+    "Javdar va suli",
+    "Lavlagi va sabzi"
+   ],
+   "e": "Kun qisqarganda gullaydi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Uzun kun o'simliklariga misol qaysi?",
+   "a": [
+    "Bug'doy va javdar",
+    "Xrizantema va soya",
+    "Makkajo'xori va tariq",
+    "Sholi va kanop"
+   ],
+   "e": "Shimoliy kengliklar."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Yarovizatsiya nima?",
+   "a": [
+    "Gullash uchun past harorat ta'siri",
+    "Urug'ni yuqori haroratda quritish",
+    "O'simlikni qorong'ida saqlash",
+    "Tuproqqa azot qo'shish"
+   ],
+   "e": "Kuzgi g'allalar."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Stratifikatsiya nima?",
+   "a": [
+    "Urug'larni sovuq va namda saqlash",
+    "Urug'larni issiqda tez quritish",
+    "Urug'larni kislotada qaynatish",
+    "Urug'larni faqat quyoshda saqlash"
+   ],
+   "e": "Tinimni buzadi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Skarifikatsiya nima?",
+   "a": [
+    "Qattiq urug' po'stini shikastlash",
+    "Urug'ni uzoq vaqt sovuqda saqlash",
+    "Urug'ni mineral o'g'itga botirish",
+    "Urug'ni yorug'likda undirish"
+   ],
+   "e": "Suv kirishi osonlashadi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "O'simliklarda tinim davri nima?",
+   "a": [
+    "O'sishning vaqtincha to'xtashi",
+    "O'simlikning butunlay nobud bo'lishi",
+    "Fotosintezning eng jadal davri",
+    "Gullash va meva tugish davri"
+   ],
+   "e": "Noqulay sharoitga moslanish."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Apikal dominantlik nima?",
+   "a": [
+    "Uchki kurtakning yon kurtaklarni bostirishi",
+    "Yon kurtaklarning uchki kurtakni bostirishi",
+    "Ildizning poyadan tez o'sishi",
+    "Barglarning gullarni bostirishi"
+   ],
+   "e": "Auksin ta'siri; chilpish buni yo'qotadi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "G'o'zani chilpish nima uchun qilinadi?",
+   "a": [
+    "Ko'saklarga oziq yo'naltirish uchun",
+    "O'simlikni tezroq qurishiga erishish",
+    "Ildiz tizimini kesib qisqartirish",
+    "Barglar sonini ko'paytirish uchun"
+   ],
+   "e": "Uchki o'sishni to'xtatadi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Ontogenezda o'simlikning vegetativ davri nimani o'z ichiga oladi?",
+   "a": [
+    "Ildiz, poya va barglarning o'sishi",
+    "Faqat gullash va changlanish jarayoni",
+    "Faqat mevaning pishib yetilishi",
+    "Faqat urug'ning to'kilishi va tarqalishi"
+   ],
+   "e": "Generativ davrdan oldin."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Polikarp o'simliklar nima?",
+   "a": [
+    "Ko'p marta meva beradiganlar",
+    "Hayotida bir marta meva beradiganlar",
+    "Hech qachon gullamaydigan o'simliklar",
+    "Faqat vegetativ ko'payadiganlar"
+   ],
+   "e": "Daraxtlar, butalar."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Monokarp o'simliklar nima?",
+   "a": [
+    "Hayotida bir marta meva beradiganlar",
+    "Har yili meva beradigan daraxtlar",
+    "Faqat spora bilan ko'payadiganlar",
+    "Hech qachon gullamaydigan o'simliklar"
+   ],
+   "e": "Bir yilliklar, ba'zi ko'p yilliklar."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Sovuqqa chidamlilik nima?",
+   "a": [
+    "Manfiy haroratga bardosh berish",
+    "Yuqori haroratda normal o'sa olish qobiliyati",
+    "Sho'rlangan tuproqda o'sa olish qobiliyati",
+    "Uzoq vaqt suv ostida yashay olish qobiliyati"
+   ],
+   "e": "Qishki chidamlilik."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Chiniqtirish nima?",
+   "a": [
+    "Noqulay sharoitga asta-sekin moslashtirish",
+    "O'simlikni birdaniga qattiq sovuqda qoldirish",
+    "O'simlikni mineral o'g'itlar bilan to'yintirish",
+    "O'simlikni kimyoviy preparatlar bilan ishlash"
+   ],
+   "e": "Masalan, ko'chatni sovuqqa o'rgatish."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Sho'rga chidamli o'simliklar qanday nomlanadi?",
+   "a": [
+    "Galofitlar",
+    "Gidrofitlar",
+    "Mezofitlar",
+    "Geliofitlar"
+   ],
+   "e": "Hujayra shirasi konsentratsiyasi yuqori."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Issiqqa chidamli o'simliklarda qaysi moslanish kuzatiladi?",
+   "a": [
+    "Jadal transpiratsiya bilan sovish",
+    "Barglarning juda yupqa va keng bo'lishi",
+    "Og'izchalarning doim yopiq turishi",
+    "Ildizlarning faqat yuzada bo'lishi"
+   ],
+   "e": "Issiqlik zarbasi oqsillari ham."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "O'simliklarda stressga javob sifatida qaysi gormon ko'payadi?",
+   "a": [
+    "Abssiz kislota",
+    "Gibberellin",
+    "Sitokinin",
+    "Auksin"
+   ],
+   "e": "Og'izchalarni yopadi."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Qurg'oqchilik paytida o'simlikda nima kuzatiladi?",
+   "a": [
+    "Og'izchalar yopiladi, o'sish sekinlashadi",
+    "Og'izchalar kengroq ochilib, bug'lanish kuchayadi",
+    "Fotosintez jarayoni keskin kuchayadi",
+    "Barg plastinkalari yiriklashib, yupqalashadi"
+   ],
+   "e": "Suvni tejash."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Fitontsidlar nima?",
+   "a": [
+    "Mikroblarni o'ldiruvchi o'simlik moddalari",
+    "O'simlik o'sishini tezlashtiruvchi gormonlar",
+    "Mineral o'g'it tarkibidagi tuzlar",
+    "Barg rangini beruvchi pigmentlar"
+   ],
+   "e": "Piyoz, sarimsoq — B.P. Tokin."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Allelopatiya nima?",
+   "a": [
+    "O'simliklarning kimyoviy o'zaro ta'siri",
+    "O'simliklarning bir-biriga changlanishi",
+    "O'simliklarning birgalikda o'sishi",
+    "O'simliklarning hasharotlar bilan simbiozi"
+   ],
+   "e": "Ajratmalar orqali."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproqning asosiy xususiyati nima?",
+   "a": [
+    "Unumdorlik",
+    "Faqat rangi",
+    "Faqat qattiqligi",
+    "Faqat harorati"
+   ],
+   "e": "V.V. Dokuchayev ta'limoti."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Gumus nima?",
+   "a": [
+    "Tuproqdagi chirindi organik modda",
+    "Tuproq tarkibidagi mayda qum zarralari",
+    "Tuproqdagi tosh va shag'al bo'laklari",
+    "Tuproq suvida erigan mineral tuzlar eritmasi"
+   ],
+   "e": "Unumdorlik asosi."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproqshunoslik fanining asoschisi kim?",
+   "a": [
+    "V.V. Dokuchayev",
+    "K.A. Timiryazev",
+    "I.V. Michurin",
+    "N.I. Vavilov"
+   ],
+   "e": "Tuproq hosil qiluvchi omillar."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Bo'z tuproqlar qayerda tarqalgan?",
+   "a": [
+    "O'zbekistonning tog' oldi tekisliklarida",
+    "Shimoliy tundra mintaqasida",
+    "Tropik o'rmonlarda",
+    "Faqat baland tog' cho'qqilarida"
+   ],
+   "e": "Asosiy sug'oriladigan tuproqlar."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproq eroziyasi nima?",
+   "a": [
+    "Tuproqning suv yoki shamol ta'sirida yemirilishi",
+    "Tuproqning mineral o'g'itlar bilan boyitilishi",
+    "Tuproqning chirindi (gumus) bilan to'yinishi",
+    "Tuproqning sho'r yuvish orqali tozalanishi"
+   ],
+   "e": "Irrigatsion va shamol eroziyasi."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproqning mexanik tarkibiga ko'ra turlari qaysilar?",
+   "a": [
+    "Qumli, qumloq, qumoq, soz",
+    "Faqat qora va qizil tuproqlar",
+    "Faqat nam va quruq tuproqlar",
+    "Faqat sho'r va chuchuk tuproqlar"
+   ],
+   "e": "Zarralar o'lchami bo'yicha."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproqning pH qiymati 7 dan past bo'lsa, tuproq qanday?",
+   "a": [
+    "Kislotali",
+    "Ishqoriy",
+    "Neytral",
+    "Sho'r"
+   ],
+   "e": "pH 7 — neytral."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Almashlab ekishning ahamiyati nima?",
+   "a": [
+    "Tuproq unumdorligini saqlash va kasalliklarni kamaytirish",
+    "Faqat bitta ekinni yillar davomida bir joyga ekish",
+    "Tuproqni ataylab sho'rlantirib, tuzlarni to'plash",
+    "Barcha turdagi o'g'itlardan butunlay voz kechish"
+   ],
+   "e": "Beda — azot to'playdi."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Sideratlar nima?",
+   "a": [
+    "Ko'kat o'g'it sifatida haydaladigan o'simliklar",
+    "Kimyoviy sanoat usulida olingan mineral o'g'itlar",
+    "Begona o'tlarga qarshi qo'llanadigan gerbitsidlar",
+    "Zararkunanda hasharotlarga qarshi vositalar"
+   ],
+   "e": "Masalan, beda, no'xat."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "Geliofitlar qanday o'simliklar?",
+   "a": [
+    "Yorug'sevar o'simliklar",
+    "Soyasevar o'simliklar",
+    "Sho'rsevar o'simliklar",
+    "Suvsevar o'simliklar"
+   ],
+   "e": "Ochiq joylarda."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "Fitotsenoz nima?",
+   "a": [
+    "O'simliklar jamoasi",
+    "Faqat bitta o'simlik turi",
+    "Hayvonlar jamoasi",
+    "Tuproq mikroorganizmlari"
+   ],
+   "e": "Biotsenozning bir qismi."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "Saksovul qaysi hududda o'sadi?",
+   "a": [
+    "Cho'lda",
+    "Tog' o'rmonlarida",
+    "Botqoqlarda",
+    "Tundrada"
+   ],
+   "e": "Qumni mustahkamlaydi."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "Archazorlar O'zbekistonda qayerda tarqalgan?",
+   "a": [
+    "Tog'larda",
+    "Qumli cho'llarda",
+    "Daryo deltasida",
+    "Sho'rxoklarda"
+   ],
+   "e": "Tog' yonbag'irlari."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "To'qay o'simliklari qayerda o'sadi?",
+   "a": [
+    "Daryo bo'ylarida",
+    "Baland tog' cho'qqilarida",
+    "Qumli cho'llar markazida",
+    "Qoyali tog' yon bag'irlarida"
+   ],
+   "e": "Tol, terak, yulg'un."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "Parazit o'simlikka misol qaysi?",
+   "a": [
+    "Zarpechak",
+    "Bug'doy",
+    "Lola",
+    "Archa"
+   ],
+   "e": "Xlorofillsiz, so'rg'ichlari bor."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "Yarim parazit o'simlikka misol qaysi?",
+   "a": [
+    "Omela",
+    "Zarpechak",
+    "Shumg'iya",
+    "Raflesiya"
+   ],
+   "e": "Xlorofilli, lekin suvni xo'jayindan oladi."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "Epifitlar nima?",
+   "a": [
+    "Boshqa o'simlik ustida o'sib, undan oziqlanmaydigan o'simliklar",
+    "Boshqa o'simlik hisobiga oziqlanadigan parazit o'simliklar",
+    "Faqat tuproq ostida yashaydigan xlorofillsiz o'simliklar",
+    "Faqat chuchuk suv ichida o'sadigan suv o'simliklari"
+   ],
+   "e": "Orxideyalar, bromeliyalar."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "Begona o'tlarga qarshi kimyoviy vositalar qanday nomlanadi?",
+   "a": [
+    "Gerbitsidlar",
+    "Insektitsidlar",
+    "Fungitsidlar",
+    "Rodentitsidlar"
+   ],
+   "e": "Zamburug'larga — fungitsid."
+  },
+  {
+   "b": "O'simliklar ekologiyasi",
+   "q": "Zamburug' kasalliklariga qarshi vositalar qanday nomlanadi?",
+   "a": [
+    "Fungitsidlar",
+    "Gerbitsidlar",
+    "Insektitsidlar",
+    "Akaritsidlar"
+   ],
+   "e": "Masalan, mis kuporosi."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "O'simliklarda asosiy zaxira uglevod qaysi?",
+   "a": [
+    "Kraxmal",
+    "Glikogen",
+    "Xitin",
+    "Laktoza"
+   ],
+   "e": "Hayvonlarda glikogen."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Hujayra devorining asosiy tarkibiy qismi qaysi?",
+   "a": [
+    "Sellyuloza",
+    "Kraxmal",
+    "Glikogen",
+    "Xitin"
+   ],
+   "e": "Zamburug'larda xitin."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Kraxmalni yod bilan aniqlaganda qanday rang hosil bo'ladi?",
+   "a": [
+    "Ko'k-binafsha",
+    "Qizil-qo'ng'ir",
+    "Och sariq",
+    "Zangori-yashil"
+   ],
+   "e": "Sifat reaksiyasi."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Lavlagi va shakarqamishdagi asosiy shakar qaysi?",
+   "a": [
+    "Saxaroza",
+    "Laktoza",
+    "Maltoza",
+    "Glyukoza faqat"
+   ],
+   "e": "Disaxarid."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Kungaboqar urug'ida asosan qaysi zaxira modda to'planadi?",
+   "a": [
+    "Yog'",
+    "Kraxmal",
+    "Sellyuloza",
+    "Inulin"
+   ],
+   "e": "Moyli ekin."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Dukkakli o'simliklar urug'ida qaysi modda ko'p?",
+   "a": [
+    "Oqsil",
+    "Yog' faqat",
+    "Sellyuloza",
+    "Inulin"
+   ],
+   "e": "No'xat, soya, loviya."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Yer noki (topinambur) ildiz tugunaklarida qaysi uglevod to'planadi?",
+   "a": [
+    "Inulin",
+    "Kraxmal",
+    "Glikogen",
+    "Xitin"
+   ],
+   "e": "Fruktoza polimeri."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Alkaloidlarga misol qaysi?",
+   "a": [
+    "Kofein va nikotin",
+    "Glyukoza va fruktoza",
+    "Kraxmal va sellyuloza",
+    "Kalsiy va magniy"
+   ],
+   "e": "Azotli organik birikmalar."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Efir moylari qaysi o'simliklarda ko'p?",
+   "a": [
+    "Yalpiz va rayhonda",
+    "Bug'doy va arpada",
+    "Kartoshka va lavlagida",
+    "Bodring va qovoqda"
+   ],
+   "e": "Xushbo'y moddalar."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Antotsianlar o'simlikka qanday rang beradi?",
+   "a": [
+    "Qizil, ko'k, binafsha",
+    "Faqat yashil rang",
+    "Faqat och sariq rang",
+    "Faqat oq (rangsiz)"
+   ],
+   "e": "Hujayra shirasida."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Lignin nima beradi?",
+   "a": [
+    "Hujayra devoriga qattiqlik",
+    "Barglarga to'q yashil rang",
+    "Gullarga o'tkir xushbo'y hid",
+    "Mevalarga shirin ta'm va xushbo'ylik"
+   ],
+   "e": "Yog'ochlanish."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Suberin qaysi to'qimada bo'ladi?",
+   "a": [
+    "Probkada",
+    "Floemada",
+    "Meristemada",
+    "Xlorenximada"
+   ],
+   "e": "Suv o'tkazmaydi."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Qaysi vitamin o'simlik mahsulotlarida deyarli bo'lmaydi?",
+   "a": [
+    "B12",
+    "C",
+    "A (provitamin)",
+    "K"
+   ],
+   "e": "B12 bakteriyalar sintezlaydi."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Na'matak mevasi qaysi vitaminga boy?",
+   "a": [
+    "C vitamini",
+    "D vitamini",
+    "B12 vitamini",
+    "K vitamini"
+   ],
+   "e": "Askorbin kislota."
+  },
+  {
+   "b": "O'simliklar biokimyosi",
+   "q": "Sabzi qaysi provitaminga boy?",
+   "a": [
+    "Karotin (provitamin A)",
+    "Kalsiferol (D vitamini)",
+    "Tokoferol (E vitamini)",
+    "Kobalamin (B12 vitamini)"
+   ],
+   "e": "Beta-karotin."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "O'simliklarning jinssiz ko'payishiga misol qaysi?",
+   "a": [
+    "Spora orqali ko'payish",
+    "Urug' orqali ko'payish",
+    "Qo'sh urug'lanish",
+    "Changlanish"
+   ],
+   "e": "Vegetativ ham jinssiz."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Qalamchadan ko'paytiriladigan o'simlikka misol qaysi?",
+   "a": [
+    "Tol va uzum",
+    "Bug'doy va arpa",
+    "Makkajo'xori va sholi",
+    "Kungaboqar va qovoq"
+   ],
+   "e": "Qo'shimcha ildiz hosil qiladi."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Qulupnay qanday vegetativ ko'payadi?",
+   "a": [
+    "Gajaklar (mo'ylovlar) orqali",
+    "Yer osti piyozboshlari orqali",
+    "Yer osti poya tugunaklari orqali",
+    "Uzun yer osti ildizpoyalari orqali"
+   ],
+   "e": "Yer ustki o'rmalovchi novdalar."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Parxish nima?",
+   "a": [
+    "Novdani tuproqqa egib ildiz oldirish",
+    "Kurtakni boshqa o'simlikka payvandlash",
+    "Urug'ni sovuqda saqlash",
+    "Barg qalamchasini suvda saqlash"
+   ],
+   "e": "Uzum, smorodina."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Okulirovka nima?",
+   "a": [
+    "Kurtak bilan payvandlash",
+    "Qalamcha bilan payvandlash",
+    "Novdani egib ildiz oldirish",
+    "Urug'dan ko'paytirish"
+   ],
+   "e": "Ko'zcha payvand."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Mikroklonal ko'paytirish nima?",
+   "a": [
+    "To'qima kulturasidan ko'plab o'simlik olish",
+    "Urug'larni seyalka bilan dalaga sepish",
+    "Novdani tuproqqa egib, ko'mib qo'yish",
+    "Piyozboshni bir necha bo'lakka ajratish"
+   ],
+   "e": "Biotexnologik usul, virussiz material."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Partenokarpiya nima?",
+   "a": [
+    "Urug'lanmasdan urug'siz meva hosil bo'lishi",
+    "Gulli o'simliklarda ikki marta urug'lanish",
+    "Urug'ning odatdagidan tez unib chiqishi",
+    "Bir mavsumda mevaning ikki marta pishishi"
+   ],
+   "e": "Banan, ayrim uzum navlari."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Apomiksis nima?",
+   "a": [
+    "Urug'lanishsiz urug' hosil bo'lishi",
+    "Gulli o'simliklarda ikki marta urug'lanish",
+    "Faqat qalamcha orqali vegetativ ko'payish",
+    "Changlanishsiz gulning ochilishi"
+   ],
+   "e": "Jinssiz urug' hosil bo'lishi."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Avtogamiya nima?",
+   "a": [
+    "O'z-o'zidan changlanish",
+    "Chetdan changlanish",
+    "Shamol bilan changlanish",
+    "Hasharot bilan changlanish"
+   ],
+   "e": "Bug'doy, no'xat."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Gulchang donachasida nechta hujayra bo'ladi?",
+   "a": [
+    "Ikkita (vegetativ va generativ)",
+    "Bitta",
+    "To'rtta",
+    "Sakkizta"
+   ],
+   "e": "Generativ hujayradan ikki spermiy."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Murtak xaltasi odatda nechta hujayradan iborat?",
+   "a": [
+    "Yettita (sakkiz yadroli)",
+    "Ikkita",
+    "To'rtta",
+    "O'nta"
+   ],
+   "e": "Tuxum hujayra, sinergidalar, antipodlar, markaziy hujayra."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Moychechak qanday xususiyati bilan qadrlanadi?",
+   "a": [
+    "Yallig'lanishga qarshi",
+    "Qon bosimini keskin oshirish",
+    "Uyquni butunlay yo'qotish",
+    "Ishtahani to'liq bo'g'ish"
+   ],
+   "e": "Damlama sifatida."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Valeriana (o'tdorivor) ning asosiy ta'siri nima?",
+   "a": [
+    "Tinchlantiruvchi",
+    "Qo'zg'atuvchi",
+    "Qon ivituvchi",
+    "Siydik haydovchi faqat"
+   ],
+   "e": "Asab tizimiga."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Achchiq shuvoq (qora shuvoq) asosan qanday maqsadda ishlatiladi?",
+   "a": [
+    "Ishtaha ochuvchi va hazmni yaxshilovchi",
+    "Arterial qon bosimini oshiruvchi",
+    "Kuchli uyqu chaqiruvchi vosita",
+    "Qon ivishini kuchaytiruvchi vosita"
+   ],
+   "e": "Achchiq moddalar."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Qizilmiya (shirinmiya) ildizi qanday maqsadda ishlatiladi?",
+   "a": [
+    "Yo'talga qarshi, balg'am ko'chiruvchi",
+    "Kuchli uyqu chaqiruvchi tinchlantiruvchi",
+    "Qon ivishini kuchaytiruvchi vosita",
+    "Og'riqsizlantiruvchi narkotik modda"
+   ],
+   "e": "O'zbekistonda ko'p tarqalgan."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Dalachoy (zveroboy) qaysi oilaga kiradi?",
+   "a": [
+    "Dalachoydoshlar",
+    "Bug'doydoshlar",
+    "Ra'nodoshlar",
+    "Karamdoshlar (butguldoshlar)"
+   ],
+   "e": "Dorivor o'simlik."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Zubturum (bargi) qanday maqsadda ishlatiladi?",
+   "a": [
+    "Yara bitkazuvchi",
+    "Uyqu chaqiruvchi",
+    "Qon bosimini oshiruvchi",
+    "Ishtahani bo'g'uvchi"
+   ],
+   "e": "Xalq tabobatida."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Zaharli o'simlikka misol qaysi?",
+   "a": [
+    "Mingdevona",
+    "Yalpiz",
+    "Rayhon",
+    "Ukrop"
+   ],
+   "e": "Alkaloidlar bor."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "G'o'za tolasi asosan qaysi moddadan iborat?",
+   "a": [
+    "Sellyulozadan",
+    "Oqsil va aminokislotalardan",
+    "O'simlik yog'i va moylardan",
+    "Kraxmal va qandlardan"
+   ],
+   "e": "Qariyb sof sellyuloza."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Texnik ekinlarga misol qaysi?",
+   "a": [
+    "G'o'za va zig'ir",
+    "Bug'doy va arpa",
+    "Olma va nok",
+    "Pomidor va bodring"
+   ],
+   "e": "Tola, moy beradi."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Ozuqabop ekinlarga misol qaysi?",
+   "a": [
+    "Beda va makkajo'xori (silos)",
+    "G'o'za, zig'ir va kanop",
+    "Lola, atirgul va chinnigul",
+    "Archa, qarag'ay va sadr"
+   ],
+   "e": "Chorva uchun."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Madaniy o'simliklarning nechta asosiy kelib chiqish markazi aniqlangan (Vavilov bo'yicha)?",
+   "a": [
+    "Yettita",
+    "Uchta",
+    "O'nta",
+    "Yigirmata"
+   ],
+   "e": "Klassik sxema."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Kartoshka va pomidorning vatani qayer?",
+   "a": [
+    "Janubiy Amerika",
+    "Janubiy Osiyo",
+    "O'rta yer dengizi",
+    "Afrika"
+   ],
+   "e": "And markazi."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Sholining kelib chiqish markazi qaysi?",
+   "a": [
+    "Janubiy Osiyo tropik markazi",
+    "Janubiy Amerika (And tog'lari)",
+    "Shimoliy Afrika (Sahroi Kabir)",
+    "O'rta yer dengizi sohillari"
+   ],
+   "e": "Hindiston, Xitoy."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Makkajo'xorining vatani qayer?",
+   "a": [
+    "Markaziy Amerika (Meksika)",
+    "Sharqiy Osiyo (Xitoy)",
+    "Janubiy Osiyo (Hindiston)",
+    "Efiopiya tog'liklari"
+   ],
+   "e": "Markaziy Amerika markazi."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Olma, nok, o'rikning ko'plab yovvoyi ajdodlari qaysi markazga mansub?",
+   "a": [
+    "O'rta Osiyo (Old Osiyo)",
+    "Janubiy Amerika (And)",
+    "Avstraliya qit'asi",
+    "Janubiy Afrika"
+   ],
+   "e": "O'zbekiston ham kiradi."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Endemik o'simliklar nima?",
+   "a": [
+    "Faqat ma'lum hududda tarqalgan turlar",
+    "Butun Yer yuzi bo'ylab keng tarqalgan turlar",
+    "Faqat inson ekib o'stiradigan madaniy o'simliklar",
+    "Faqat ekinzorlardagi begona o'tlar"
+   ],
+   "e": "Masalan, ayrim lola turlari."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Relikt o'simliklar nima?",
+   "a": [
+    "Qadimgi davrlardan saqlanib qolgan turlar",
+    "Seleksionerlar yaqinda yaratgan yangi navlar",
+    "Faqat ekinzorlarda o'sadigan begona o'tlar",
+    "Faqat dalalarda ekiladigan madaniy ekinlar"
+   ],
+   "e": "Ginkgo, metasekvoyya."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "O'zbekistonda eng ko'p ekiladigan texnik ekin qaysi?",
+   "a": [
+    "G'o'za",
+    "Kanop",
+    "Zig'ir",
+    "Qand lavlagi"
+   ],
+   "e": "Paxtachilik."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Kosmopolit o'simliklar nima?",
+   "a": [
+    "Yer sharining ko'p hududlarida tarqalgan turlar",
+    "Faqat bitta kichik hududga xos endemik turlar",
+    "Faqat kosmik stansiyada o'stirilgan o'simliklar",
+    "Faqat okean tubida o'sadigan suvo'tlar"
+   ],
+   "e": "Masalan, qamish, zubturum."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "O'zbekiston hududida nechtaga yaqin yovvoyi o'simlik turi uchraydi?",
+   "a": [
+    "4300 dan ortiq",
+    "300 ga yaqin",
+    "50 000 dan ortiq",
+    "900 ga yaqin"
+   ],
+   "e": "Taxminan 4500 tur atrofida."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Suvning ksilema bo'ylab uzluksiz ko'tarilishini nima ta'minlaydi?",
+   "a": [
+    "Suv molekulalarining kogeziyasi",
+    "Floema bo'ylab harakatlanadigan shakar oqimi",
+    "Hujayra devoridagi lignin moddasi",
+    "Barglardagi xlorofill pigmenti"
+   ],
+   "e": "Kogeziya-tension nazariya."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Suv potensiali qaysi yo'nalishda harakatlanadi?",
+   "a": [
+    "Yuqoridan past potensial tomonga",
+    "Pastdan yuqori potensial tomonga",
+    "Faqat gorizontal yo'nalishda",
+    "Potensialga bog'liq emas"
+   ],
+   "e": "Tuproq → ildiz → barg → atmosfera."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Kutikulyar transpiratsiya nima?",
+   "a": [
+    "Barg sirti orqali bug'lanish",
+    "Og'izchalar orqali bug'lanish",
+    "Ildiz orqali bug'lanish",
+    "Gul orqali bug'lanish"
+   ],
+   "e": "Umumiy bug'lanishning kichik qismi."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Gilos va olmaning sug'orishga eng ko'p ehtiyoj sezadigan davri qaysi?",
+   "a": [
+    "Meva tugish va o'sish davri",
+    "Qishki tinim davri",
+    "Barglar to'kilgandan keyin",
+    "Kurtaklar uxlab turganda"
+   ],
+   "e": "Kritik davr."
+  },
+  {
+   "b": "Suv rejimi",
+   "q": "Tomchilatib sug'orishning afzalligi nima?",
+   "a": [
+    "Suvni tejash va tuproq sho'rlanishini kamaytirish",
+    "Suvni ko'proq sarflab, hosilni kamaytirish",
+    "Tuproqni tezroq sho'rlantirib, zichlashtirish",
+    "Ildizlarning qurib qolishiga olib kelish"
+   ],
+   "e": "Zamonaviy texnologiya."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotosintezda hosil bo'lgan birlamchi organik modda qaysi?",
+   "a": [
+    "Glyukoza (uglevod)",
+    "Oqsil",
+    "Yog'",
+    "Nuklein kislota"
+   ],
+   "e": "Keyin kraxmalga aylanadi."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Xloroplastning ichki membrana tuzilmalari qanday nomlanadi?",
+   "a": [
+    "Tilakoidlar (granalar)",
+    "Kristalar",
+    "Sisternalar",
+    "Mikrotrubkalar"
+   ],
+   "e": "Kristalar mitoxondriyada."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Karotinoidlarning fotosintezdagi vazifasi nima?",
+   "a": [
+    "Qo'shimcha nur yutish va xlorofillni himoyalash",
+    "CO₂ ni to'g'ridan-to'g'ri biriktirib glyukoza hosil qilish",
+    "Havodagi kislorodni yutib, nafasni kuchaytirish",
+    "Hosil bo'lgan glyukozani parchalab energiya olish"
+   ],
+   "e": "Yordamchi pigmentlar."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Issiqxonada hosildorlikni oshirish uchun havoga nima qo'shiladi?",
+   "a": [
+    "Karbonat angidrid",
+    "Azot",
+    "Argon",
+    "Vodorod"
+   ],
+   "e": "CO₂ bilan oziqlantirish."
+  },
+  {
+   "b": "Fotosintez",
+   "q": "Fotosintezning sof mahsuldorligi nima?",
+   "a": [
+    "Fotosintez va nafas farqi",
+    "Faqat qorong'ida nafas olish tezligi",
+    "Faqat og'izchalar orqali bug'lanish tezligi",
+    "Faqat poyaning bo'yiga o'sish tezligi"
+   ],
+   "e": "Biomassa to'planishi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Kalsiy yetishmasligida birinchi navbatda qaysi organlar zararlanadi?",
+   "a": [
+    "Yosh barglar va o'sish nuqtalari",
+    "Faqat eski pastki barglar",
+    "Faqat ildiz po'stlog'i",
+    "Faqat poyaning o'zagi"
+   ],
+   "e": "Kalsiy harakatsiz."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Magniy yetishmasligida qanday belgi kuzatiladi?",
+   "a": [
+    "Barg tomirlari orasida xloroz",
+    "Barglarning qizarib ketishi",
+    "Barg chetlarining kuyishi",
+    "Barglarning to'q yashil bo'lishi"
+   ],
+   "e": "Xlorofill tarkibida Mg bor."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Bor yetishmasligida qaysi jarayon buziladi?",
+   "a": [
+    "Gullash va meva tugish",
+    "Faqat ildiz tukchalarining hosil bo'lishi",
+    "Faqat barglarning to'kilishi",
+    "Faqat poyaning yo'g'onlashishi"
+   ],
+   "e": "Chang naychasi o'sishi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Molibden qaysi jarayonda muhim?",
+   "a": [
+    "Azotfiksatsiya va nitrat qaytarilishi",
+    "Fotosintezda suvning fotolizi (parchalanishi)",
+    "Leykoplastlarda kraxmal to'planishi",
+    "Hujayra devorining sellyulozadan qurilishi"
+   ],
+   "e": "Nitrogenaza tarkibida."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Sug'oriladigan dehqonchilikda o'g'itni sug'orish suvi bilan berish nima deyiladi?",
+   "a": [
+    "Fertigatsiya",
+    "Defoliatsiya",
+    "Stratifikatsiya",
+    "Yarovizatsiya"
+   ],
+   "e": "Tomchilatib sug'orishda."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Ildiz hosil qilishni tezlashtirish uchun qalamchalarga qaysi gormon qo'llanadi?",
+   "a": [
+    "Auksin",
+    "Etilen",
+    "Abssiz kislota",
+    "Gibberellin faqat"
+   ],
+   "e": "Geteroauksin."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Uzumda urug'siz yirik meva olish uchun qaysi gormon qo'llanadi?",
+   "a": [
+    "Gibberellin",
+    "Abssiz kislota",
+    "Etilen",
+    "Sitokinin faqat"
+   ],
+   "e": "Mevalar yiriklashadi."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Bananlarni tezroq pishirish uchun omborlarda qaysi gaz qo'llanadi?",
+   "a": [
+    "Etilen",
+    "Azot",
+    "Kislorod",
+    "Argon"
+   ],
+   "e": "Pishish gormoni."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Gidrotropizm nima?",
+   "a": [
+    "Ildizning nam tomonga o'sishi",
+    "Poyaning yorug'lik tomonga o'sishi",
+    "Barglarning tegishga javobi",
+    "Gulning kunduzi ochilishi"
+   ],
+   "e": "Suvga nisbatan tropizm."
+  },
+  {
+   "b": "O'sish, rivojlanish va fitogormonlar",
+   "q": "Tigmotropizm nima?",
+   "a": [
+    "Tegishga javoban o'ralish",
+    "Yorug'likka javoban egilish",
+    "Gravitatsiyaga javoban o'sish",
+    "Kimyoviy moddaga javoban o'sish"
+   ],
+   "e": "Jingalaklar, chirmovuqlar."
+  }
+ ]
+}
