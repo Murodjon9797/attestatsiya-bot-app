@@ -1565,6 +1565,1745 @@
     "Yonuvchi suyuqliklar yonida chekish"
    ],
    "e": "Mehnat muhofazasi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "To'rt taktli dvigatelda ish yo'li taktida klapanlar holati qanday?",
+   "a": [
+    "Ikkalasi yopiq",
+    "Ikkalasi ham to'liq ochiq",
+    "Faqat kiritish klapani ochiq",
+    "Faqat chiqarish klapani ochiq"
+   ],
+   "e": "Gazlar porshenni itaradi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Kiritish taktida qaysi klapan ochiq bo'ladi?",
+   "a": [
+    "Kiritish klapani",
+    "Chiqarish klapani",
+    "Ikkala klapan yopiq",
+    "Xavfsizlik klapani"
+   ],
+   "e": "Porshen pastga harakatlanadi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Porshenning eng yuqori holati qanday ataladi?",
+   "a": [
+    "YuChN",
+    "Pastki chekka nuqta (PChN)",
+    "O'rta holat nuqtasi",
+    "Neytral holat nuqtasi"
+   ],
+   "e": "Chekka nuqtalar."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Porshen yo'li nima?",
+   "a": [
+    "Chekka nuqtalar oralig'i",
+    "Silindrning ichki diametri",
+    "Porshenning umumiy balandligi",
+    "Shatunning to'liq uzunligi"
+   ],
+   "e": "Hod porshnya."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatel ko'p tutun chiqarishi va moy sarfining ortishi nimadan dalolat beradi?",
+   "a": [
+    "Porshen halqalari yeyilishidan",
+    "Shinalar bosimining pastligidan",
+    "Akkumulyator zaryadining ortiqchaligidan",
+    "Tormoz suyuqligining yangiligidan"
+   ],
+   "e": "Moy yonish kamerasiga o'tadi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dizel dvigatelini sovuqda ishga tushirishni nima osonlashtiradi?",
+   "a": [
+    "Cho'g'lanish shamlari",
+    "Uchqun shamlari",
+    "Qo'shimcha faralar",
+    "Rul kuchaytirgichi"
+   ],
+   "e": "Havoni isitadi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Yuqori bosimli yoqilg'i nasosi qaysi dvigatelda ishlatiladi?",
+   "a": [
+    "Dizel dvigatelida",
+    "Faqat elektr dvigatelida",
+    "Faqat bug' mashinasida",
+    "Faqat gaz turbinasida"
+   ],
+   "e": "YuBYoN."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Common Rail nima?",
+   "a": [
+    "Umumiy yoqilg'i magistrali",
+    "Tormoz tizimining bir turi",
+    "Rul boshqaruvining turi",
+    "Shina markirovkasining turi"
+   ],
+   "e": "Zamonaviy dizel tizimi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Mexanik uzatmalar qutisida orqaga harakat qanday ta'minlanadi?",
+   "a": [
+    "Oraliq shesternya orqali",
+    "Dvigatelni teskari aylantirib",
+    "Differensialni qulflab",
+    "Kardan valini olib tashlab"
+   ],
+   "e": "Aylanish yo'nalishi o'zgaradi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Tarqatish qutisi qaysi avtomobillarda bo'ladi?",
+   "a": [
+    "To'liq yuritmali avtomobillarda",
+    "Faqat bitta yetakchi o'qli avtomobillarda",
+    "Faqat mototsikllarda",
+    "Faqat tirkamalarda"
+   ],
+   "e": "Momentni o'qlarga taqsimlaydi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Differensialni qulflash nima uchun kerak?",
+   "a": [
+    "O'tuvchanlikni oshirish",
+    "Yoqilg'i sarfini kamaytirish",
+    "Tezlikni maksimal oshirish",
+    "Shovqinni kamaytirish"
+   ],
+   "e": "Yo'ltanlamas avtomobillarda."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Ilashish muftasining yetaklanuvchi diski nimaga ulangan?",
+   "a": [
+    "Birlamchi valga",
+    "To'g'ridan-to'g'ri g'ildirakka",
+    "Generator validga",
+    "Rul validga"
+   ],
+   "e": "Mufta tuzilishi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Ilashish muftasi yuritmasi qanday bo'lishi mumkin?",
+   "a": [
+    "Mexanik yoki gidravlik",
+    "Faqat elektron va pnevmatik",
+    "Faqat qo'lda boshqariladigan",
+    "Faqat magnitli"
+   ],
+   "e": "Trosli yoki gidravlik."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Avtomobil ramasi qanday vazifani bajaradi?",
+   "a": [
+    "Agregatlarni o'rnatish asosi",
+    "Dvigatelni sovitish vositasi",
+    "Yoqilg'i saqlash idishi",
+    "Elektr energiya manbai"
+   ],
+   "e": "Yuk avtomobillarida ko'p."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Yuk ko'taruvchi kuzov nima?",
+   "a": [
+    "Ramasiz kuzov",
+    "Faqat ochiq bortli kuzov",
+    "Faqat tirkama kuzovi",
+    "Faqat yog'ochdan yasalgan kuzov"
+   ],
+   "e": "Yengil avtomobillarda."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Stabilizator (ko'ndalang turg'unlik) nima uchun kerak?",
+   "a": [
+    "Qiyshayishni kamaytirish",
+    "Dvigatel quvvatini oshirish",
+    "Yoqilg'i sarfini oshirish",
+    "Tormoz yo'lini uzaytirish"
+   ],
+   "e": "Torsion."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Kamerasiz shinaning afzalligi nima?",
+   "a": [
+    "Havo sekin chiqadi",
+    "Damlash umuman shart emas",
+    "Hech qachon yeyilmaydi",
+    "Faqat qishda ishlatiladi"
+   ],
+   "e": "Xavfsizroq."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "G'ildirak gaykalarini tortish tartibi qanday bo'lishi kerak?",
+   "a": [
+    "Krest (diagonal) tartibda",
+    "Faqat soat yo'nalishida ketma-ket",
+    "Tasodifiy tartibda",
+    "Faqat bittasini tortish yetarli"
+   ],
+   "e": "Disk bir tekis o'rnashadi."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Rul trapetsiyasining vazifasi nima?",
+   "a": [
+    "Turli burchakka burish",
+    "Dvigatelni ishga tushirish",
+    "Tormozni kuchaytirish",
+    "Kuzovni ko'tarish"
+   ],
+   "e": "Sirpanishsiz burilish."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Rul tyagalari uchlari (nakonechnik) yeyilsa nima kuzatiladi?",
+   "a": [
+    "Rul lyufti ortadi",
+    "Dvigatel quvvati oshadi",
+    "Yoqilg'i tejaladi",
+    "Faralar yorqinlashadi"
+   ],
+   "e": "Almashtiriladi."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Elektr rul kuchaytirgichining (EUR) afzalligi nima?",
+   "a": [
+    "Yoqilg'i tejamkorligi",
+    "Ko'p moy talab qilishi",
+    "Og'ir rul burish",
+    "Doimiy nasos ishlashi"
+   ],
+   "e": "Faqat burishda ishlaydi."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Tormoz suyuqligi nima uchun muntazam almashtiriladi?",
+   "a": [
+    "Qaynash harorati pasayadi",
+    "Rangi o'zgarib qolgani uchun faqat",
+    "Hidi yomonlashgani uchun faqat",
+    "Narxi oshgani uchun"
+   ],
+   "e": "Gigroskopiklik."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Pnevmatik tormoz tizimi qaysi avtomobillarda ishlatiladi?",
+   "a": [
+    "Yuk avto va avtobusda",
+    "Faqat yengil avtomobillarda",
+    "Faqat mototsikllarda",
+    "Faqat velosipedlarda"
+   ],
+   "e": "Siqilgan havo bilan."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Akkumulyator zaryadi past bo'lsa dvigatelni ishga tushirishda nima kuzatiladi?",
+   "a": [
+    "Starter sekin aylanadi",
+    "Starter juda tez aylanadi",
+    "Faralar yorqinroq yonadi",
+    "Dvigatel o'zi ishlab ketadi"
+   ],
+   "e": "Zaryadlash kerak."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Akkumulyator kuchlanishi qaysi asbob bilan tekshiriladi?",
+   "a": [
+    "Voltmetr",
+    "Manometr",
+    "Kompressometr",
+    "Termometr"
+   ],
+   "e": "To'liq zaryadda ~12,6 V."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Avtomobil signal (klakson) qaysi tizimga kiradi?",
+   "a": [
+    "Elektr jihozlari",
+    "Transmissiya",
+    "Yurish qismi",
+    "Sovitish tizimi"
+   ],
+   "e": "Tovush signali."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Burilish ko'rsatkichlari qanday rangda yonadi?",
+   "a": [
+    "To'q sariq",
+    "Ko'k",
+    "Yashil",
+    "Binafsha"
+   ],
+   "e": "Miltillovchi."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Avtomobilning orqa gabarit chiroqlari qanday rangda?",
+   "a": [
+    "Qizil",
+    "Oq",
+    "Ko'k",
+    "Yashil"
+   ],
+   "e": "Tashqi yoritish."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Orqaga harakat chirog'i qanday rangda?",
+   "a": [
+    "Oq",
+    "Qizil",
+    "Sariq",
+    "Ko'k"
+   ],
+   "e": "Orqa tomonda."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Avtomobil elektr sxemasida \"massa\" nima?",
+   "a": [
+    "Manfiy o'tkazgich",
+    "Akkumulyatorning musbat klemmasi",
+    "Generatorning chiqish qismi",
+    "Saqlagichlar bloki"
+   ],
+   "e": "Bir simli tizim."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobil yurgan masofasini qaysi asbob ko'rsatadi?",
+   "a": [
+    "Odometr",
+    "Taxometr",
+    "Spidometr",
+    "Termometr"
+   ],
+   "e": "Km hisoblagich."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Dvigatel tirsakli valining aylanish chastotasini qaysi asbob ko'rsatadi?",
+   "a": [
+    "Taxometr",
+    "Odometr",
+    "Ampermetr",
+    "Manometr"
+   ],
+   "e": "ayl/min."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Moy darajasi qanday tekshiriladi?",
+   "a": [
+    "Shup bilan",
+    "Spidometr bilan",
+    "Rul bilan",
+    "Ko'zgu bilan"
+   ],
+   "e": "Dvigatel o'chirilgan holda."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Moy darajasini tekshirishda avtomobil qanday turishi kerak?",
+   "a": [
+    "Tekis joyda",
+    "Qiyalikda",
+    "Ko'targichda yon tomonga",
+    "Harakatda"
+   ],
+   "e": "Aniq o'lchash uchun."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Antifriz darajasi qayerdan tekshiriladi?",
+   "a": [
+    "Kengaytirish bachogidan",
+    "Moy karteridan",
+    "Yoqilg'i bakidan",
+    "Tormoz barabanidan"
+   ],
+   "e": "MIN–MAX belgilari."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Issiq dvigatelda radiator qopqog'ini ochish nima uchun xavfli?",
+   "a": [
+    "Kuyish xavfi",
+    "Dvigatel quvvati oshib ketadi",
+    "Akkumulyator zaryadlanib ketadi",
+    "Hech qanday xavfi yo'q"
+   ],
+   "e": "Kuyish xavfi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Shina bosimi qachon o'lchanishi kerak?",
+   "a": [
+    "Sovuq shinada",
+    "Uzoq yo'ldan keyin darhol",
+    "Shina qizib turganda",
+    "Faqat yozda bir marta"
+   ],
+   "e": "Aniq ko'rsatkich."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobil yuvishda dvigatel bo'linmasini yuvganda nimaga e'tibor beriladi?",
+   "a": [
+    "Elektr qismlarni suvdan himoyalash",
+    "Dvigatelni ishlatib qo'yish",
+    "Kuchli bosimni elektr qismlarga yo'naltirish",
+    "Qopqoqlarni ochiq qoldirish"
+   ],
+   "e": "Qisqa tutashuv xavfi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobilni ijaraga berish yoki sotishdan oldin qaysi hujjat tekshiriladi?",
+   "a": [
+    "Texnik pasport",
+    "Haydovchi tibbiy ma'lumotnomasi faqat",
+    "Shina sertifikati",
+    "Moy cheki"
+   ],
+   "e": "Ro'yxatdan o'tganlik."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Xavfsizlik kamarining vazifasi nima?",
+   "a": [
+    "Jarohatni kamaytirish",
+    "Yoqilg'ini tejash",
+    "Dvigatelni sovitish",
+    "Rulni yengillatish"
+   ],
+   "e": "Passiv xavfsizlik."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Havo yostiqchasi (airbag) qaysi xavfsizlikka kiradi?",
+   "a": [
+    "Passiv xavfsizlikka",
+    "Aktiv xavfsizlikka",
+    "Ekologik xavfsizlikka",
+    "Yong'in xavfsizligiga"
+   ],
+   "e": "To'qnashuvda ochiladi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Aktiv xavfsizlik tizimlariga misol qaysi?",
+   "a": [
+    "ABS va ESP",
+    "Xavfsizlik kamari va havo yostiqchasi",
+    "Bosh suyanchig'i va kuzov",
+    "Bamper va eshik to'sinlari"
+   ],
+   "e": "Avariyaning oldini oladi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Avtomobilda o't o'chirgich bo'lishi shartmi?",
+   "a": [
+    "Ha, majburiy",
+    "Yo'q, kerak emas",
+    "Faqat yuk avtomobillarida",
+    "Faqat yozda"
+   ],
+   "e": "Aptechka va avariya belgisi ham."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Avariya to'xtash belgisi qanday shaklda bo'ladi?",
+   "a": [
+    "Qizil uchburchak",
+    "Ko'k doira",
+    "Yashil kvadrat",
+    "Sariq romb"
+   ],
+   "e": "Ogohlantirish."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Xavfsizlik yostiqchasi (airbag) bo'lgan old o'rindiqqa bolalar o'rindig'ini orqa tomonga qaratib o'rnatish mumkinmi?",
+   "a": [
+    "Yo'q",
+    "Ha, har doim xavfsiz",
+    "Faqat qishda",
+    "Faqat tunda"
+   ],
+   "e": "Yostiqcha ochilganda bolaga zarar yetkazadi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "\"O'lik zona\" nima?",
+   "a": [
+    "Ko'zgularda ko'rinmaydigan joy",
+    "Yo'ldagi chuqurlik",
+    "Svetoforsiz chorraha",
+    "Tunnel ichidagi qorong'i joy"
+   ],
+   "e": "Bo'lak almashtirishdan oldin bosh burib qarash."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Bosh tayanchining (podgolovnik) asosiy vazifasi nima?",
+   "a": [
+    "Orqadan zarbada bo'yinni himoyalash",
+    "Haydovchiga qulaylik uchun faqat bezak",
+    "Radioni ushlab turish",
+    "Kamarni mahkamlash"
+   ],
+   "e": "To'g'ri balandlikda sozlanishi kerak."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Kunduzi yaqin chiroqni yoqib yurishning foydasi nima?",
+   "a": [
+    "Yaxshiroq ko'rinadi",
+    "Yoqilg'i tejaladi",
+    "Akkumulyator zaryadlanadi tezroq",
+    "Hech qanday foyda yo'q"
+   ],
+   "e": "Kunduzgi yugurish chiroqlari ham shu maqsadda."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Avtomobilda harakatlanishda bolani qo'lda ushlab o'tirish nima uchun xavfli?",
+   "a": [
+    "To'qnashuvda bolani ushlab qolib bo'lmaydi",
+    "Bola tezroq uxlab qoladi va charchaydi",
+    "Avtomobil yoqilg'ini ko'p sarflaydi",
+    "Bu hech qanday xavf tug'dirmaydi"
+   ],
+   "e": "Inersiya kuchi juda katta."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Tunda harakatlanishning asosiy xavfi nima?",
+   "a": [
+    "Ko'rinish masofasining qisqarishi",
+    "Yo'l qoplamasining kengayishi",
+    "Yo'lda transport ko'payishi har doim",
+    "Yoqilg'i sarfi oshishi"
+   ],
+   "e": "Charchoq ham ortadi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Tumanda harakatlanishda nima qilish kerak?",
+   "a": [
+    "Tezlikni kamaytirish, yaqin chiroqni yoqish",
+    "Uzoq chiroqni yoqib, tezlikni oshirish",
+    "Faralarni o'chirib, faqat gabaritlar bilan yurish",
+    "Avariya ishorasini yoqib, tezlikni saqlash"
+   ],
+   "e": "Uzoq chiroq tumanda aks etib ko'rinishni yomonlashtiradi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Kech kuzda yo'lda xazonlar nimaga olib keladi?",
+   "a": [
+    "Ilashishning kamayishiga",
+    "Ilashishning kuchayishiga",
+    "Tormoz yo'lining qisqarishiga",
+    "Hech narsaga"
+   ],
+   "e": "Ho'l barglar sirpanchiq."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Yoqilg'i tejamkor va ekologik haydash usuli qaysi?",
+   "a": [
+    "Ravon tezlashish va bir xil tezlik",
+    "Keskin tezlashish va keskin tormozlash",
+    "Dvigatelni uzoq vaqt bekor ishlatish",
+    "Doimiy yuqori aylanishlarda haydash"
+   ],
+   "e": "Shinalar bosimini ham kuzatish."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Avtomobil suvga botgan yo'ldan o'tgandan keyin nima qilish kerak?",
+   "a": [
+    "Tormozlarni quritish",
+    "Darhol yuqori tezlikka chiqish",
+    "Tormozni umuman ishlatmaslik",
+    "Shinalardan havoni chiqarish"
+   ],
+   "e": "Ho'l tormoz kolodkalari samarasiz."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "\"Ikki soniya qoidasi\" nimani anglatadi?",
+   "a": [
+    "Kamida 2 soniyalik oraliq saqlash",
+    "Har ikki soniyada tormoz bosish",
+    "Svetoforda ikki soniya kutish",
+    "Ikki soniya ichida quvib o'tish"
+   ],
+   "e": "Yomon ob-havoda oraliq oshiriladi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Tog' yo'lidan uzoq pastga tushishda qanday usul tavsiya etiladi?",
+   "a": [
+    "Dvigatel bilan tormozlash (past uzatmada)",
+    "Neytral uzatmada tushish",
+    "Dvigatelni o'chirib tushish",
+    "Faqat ishchi tormozni uzluksiz bosib turish"
+   ],
+   "e": "Tormozlar qizib ketmasligi uchun."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Avtomobil sirpanib ketsa (orqa o'qda), rulni qaysi tomonga burish kerak?",
+   "a": [
+    "Sirpanish tomoniga",
+    "Sirpanishga qarama-qarshi tomonga keskin",
+    "Rulni qo'yib yuborish kerak",
+    "Rulni harakatsiz ushlash kerak"
+   ],
+   "e": "Va gazni ravon kamaytirish."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Muzli yo'lda tormozlanish yo'li quruq asfaltga nisbatan qanday?",
+   "a": [
+    "Bir necha marta uzayadi",
+    "Qisqaradi",
+    "O'zgarmaydi",
+    "Nolga teng bo'ladi"
+   ],
+   "e": "Ilashish koeffitsiyenti past."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Haydovchining o'rtacha reaksiya vaqti taxminan qancha?",
+   "a": [
+    "0,8–1 s",
+    "0,01 s",
+    "5–10 s",
+    "30 s"
+   ],
+   "e": "Charchoq va alkogol uni oshiradi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Yo'l bo'yida bolalarni ko'rganda haydovchi nima qilishi kerak?",
+   "a": [
+    "Tezlikni kamaytirib, ehtiyot bo'lishi",
+    "Ovozli signal berib, tezlikni oshirishi",
+    "Ularga e'tibor bermasligi",
+    "Faralarni miltillatib o'tib ketishi"
+   ],
+   "e": "Bolalar xatti-harakati oldindan aytib bo'lmaydi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Avtomobil g'ildiragi yo'l chetidagi tuproqqa tushib ketsa nima qilish kerak?",
+   "a": [
+    "Ravon sekinlashib, ehtiyot bilan qaytish",
+    "Rulni keskin burib, darhol qaytish",
+    "Tormozni keskin bosish",
+    "Tezlikni oshirish"
+   ],
+   "e": "Keskin harakat ag'darilishga olib kelishi mumkin."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Yomg'ir boshlanishining dastlabki daqiqalarida yo'l qanday holatda bo'ladi?",
+   "a": [
+    "Ayniqsa sirpanchiq",
+    "Eng xavfsiz holatda",
+    "Quruq yo'ldan ham yaxshiroq ilashishda",
+    "Hech qanday o'zgarishsiz"
+   ],
+   "e": "Chang va moy suv bilan aralashadi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Tezlikni tanlashda haydovchi nimalarni hisobga olishi kerak?",
+   "a": [
+    "Yo'l, ob-havo va transport holatini",
+    "Faqat avtomobil spidometridagi eng katta qiymatni",
+    "Faqat yo'lovchilar istagini",
+    "Faqat yoqilg'i narxini"
+   ],
+   "e": "Belgilangan cheklovdan oshmagan holda."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Tezlik 2 marta oshsa, tormozlanish yo'li taxminan necha marta ortadi?",
+   "a": [
+    "4 marta",
+    "2 marta",
+    "O'zgarmaydi",
+    "8 marta"
+   ],
+   "e": "Tezlik kvadratiga proporsional."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Uzoq safarda charchoqning oldini olish uchun nima qilish kerak?",
+   "a": [
+    "Muntazam tanaffus qilish",
+    "Energetik ichimliklar ichib, to'xtamasdan yurish",
+    "Tezlikni oshirib, yo'lni qisqartirish",
+    "Musiqani baland qo'yish"
+   ],
+   "e": "Har 2–3 soatda dam olish tavsiya etiladi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Yuk avtomobili yonida harakatlanishda qanday xavf bor?",
+   "a": [
+    "Haydovchi sizni ko'rmasligi mumkin",
+    "Yuk avtomobili sizni tortib ketadi",
+    "Hech qanday xavf yo'q",
+    "Yuk avtomobili har doim sekin yuradi"
+   ],
+   "e": "Katta \"o'lik zonalar\"."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Haydovchi o'rindig'i va rulni to'g'ri sozlash nimaga ta'sir qiladi?",
+   "a": [
+    "Boshqaruv qulayligi va xavfsizlikka",
+    "Faqat avtomobilning tashqi ko'rinishiga",
+    "Faqat radioning ovoz sifatiga",
+    "Hech narsaga"
+   ],
+   "e": "Pedallar va ko'zgularga yetish."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Oldindagi transport vositasigacha xavfsiz masofa qanday tanlanadi?",
+   "a": [
+    "To'qnashuvsiz to'xtashga yetadigan qilib",
+    "Iloji boricha yaqin, 1 m atrofida",
+    "Faqat yuk avtomobillari uchun belgilanadi",
+    "Masofa ahamiyatsiz"
+   ],
+   "e": "\"Ikki soniya\" qoidasi amaliy yo'l-yo'riq."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "To'xtash yo'li qanday tashkil etuvchilardan iborat?",
+   "a": [
+    "Reaksiya yo'li va tormozlanish yo'li",
+    "Faqat tormoz pedalini bosish vaqti",
+    "Faqat shinalar diametri va kengligi",
+    "Faqat dvigatel quvvati"
+   ],
+   "e": "Reaksiya vaqtida avtomobil oldingi tezlikda harakatlanadi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Avtobus bekatida to'xtagan avtobus yonidan o'tishda qanday xavf bor?",
+   "a": [
+    "Avtobus oldidan piyoda chiqib qolishi",
+    "Avtobusning to'satdan orqaga harakatlanishi",
+    "Avtobus eshiklarining yopilmay qolishi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Tezlikni kamaytirish kerak."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Xavfsizlik kamari YTH da qanday himoya qiladi?",
+   "a": [
+    "Tanani o'rindiqda ushlab turadi",
+    "Avtomobil tezligini avtomatik kamaytiradi",
+    "Tormozni avtomatik ishga tushiradi",
+    "Hech qanday foyda bermaydi"
+   ],
+   "e": "Xavfsizlik yostiqchasi faqat kamar bilan samarali."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Harakat vaqtida shina yorilsa nima qilish kerak?",
+   "a": [
+    "Rulni mahkam ushlab sekinlashish",
+    "Tormozni keskin bosish",
+    "Rulni keskin burish",
+    "Tezlikni oshirish"
+   ],
+   "e": "Keyin xavfsiz joyda to'xtash."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Xavf paydo bo'lganda haydovchi birinchi navbatda nima qilishi kerak?",
+   "a": [
+    "Tezlikni kamaytirib to'xtash",
+    "Tezlikni oshirib, xavfdan uzoqlashish",
+    "Faqat ovozli signal berish",
+    "Rulni keskin burib, qarshi bo'lakka chiqish"
+   ],
+   "e": "YHQ talabi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "72 km/soat tezlikda 1 s reaksiya vaqtida avtomobil qancha yo'l bosadi?",
+   "a": [
+    "20 m",
+    "7,2 m",
+    "72 m",
+    "2 m"
+   ],
+   "e": "72 km/soat = 20 m/s."
+  },
+  {
+   "b": "Ekspluatatsion materiallar",
+   "q": "Qishki dizel yoqilg'isining asosiy xususiyati nima?",
+   "a": [
+    "Past haroratda qotmaydi",
+    "Oktan soni yuqori",
+    "Rangi qizil bo'ladi",
+    "Faqat yozda ishlatiladi"
+   ],
+   "e": "Parafin kristallanmaydi."
+  },
+  {
+   "b": "Ekspluatatsion materiallar",
+   "q": "Transmission moylar qaysi agregatlarda ishlatiladi?",
+   "a": [
+    "Quti va ko'priklarda",
+    "Faqat dvigatel karterida",
+    "Faqat sovitish tizimida",
+    "Faqat tormoz tizimida"
+   ],
+   "e": "Shesternyalarni moylash."
+  },
+  {
+   "b": "Ekspluatatsion materiallar",
+   "q": "Konsistent surkov (solidol, litol) qayerda ishlatiladi?",
+   "a": [
+    "Podshipniklarda",
+    "Yoqilg'i bakida",
+    "Sovitish radiatorida",
+    "Tormoz silindrlarida"
+   ],
+   "e": "Quyuq moylash materiali."
+  },
+  {
+   "b": "Ekspluatatsion materiallar",
+   "q": "Turli markadagi antifrizlarni aralashtirish haqida qoida qaysi?",
+   "a": [
+    "Tavsiya etilmaydi",
+    "Har doim aralashtirish kerak",
+    "Suv bilan almashtirish mumkin",
+    "Moy bilan aralashtirish kerak"
+   ],
+   "e": "Kimyoviy mos kelmaslik."
+  },
+  {
+   "b": "Ekspluatatsion materiallar",
+   "q": "Distillangan suv avtomobilda qayerda ishlatilishi mumkin?",
+   "a": [
+    "Akkumulyatorda",
+    "Moy karterida",
+    "Yoqilg'i bakida",
+    "Tormoz tizimida"
+   ],
+   "e": "Elektrolit darajasi uchun."
+  },
+  {
+   "b": "Diagnostika va nosozliklar",
+   "q": "Dvigatel \"troit\" (bir silindr ishlamaydi) bo'lsa ehtimoliy sabab qaysi?",
+   "a": [
+    "Sham nosozligi",
+    "Shinaning yangi bo'lishi",
+    "Kuzovning bo'yalgani",
+    "Faralarning yonishi"
+   ],
+   "e": "Notekis ishlash."
+  },
+  {
+   "b": "Diagnostika va nosozliklar",
+   "q": "Chiqindi gaz qora tutun bo'lsa nimadan dalolat beradi?",
+   "a": [
+    "Boyitilgan aralashmadan",
+    "Moyning toza bo'lishidan",
+    "Shinalar bosimidan",
+    "Akkumulyator zaryadidan"
+   ],
+   "e": "Yoqilg'i ortiqcha."
+  },
+  {
+   "b": "Diagnostika va nosozliklar",
+   "q": "Chiqindi gaz ko'kish tutun bo'lsa nimadan dalolat beradi?",
+   "a": [
+    "Moy yonayotganidan",
+    "Yoqilg'i tejalayotganidan",
+    "Antifriz yangiligidan",
+    "Tormoz sozligidan"
+   ],
+   "e": "Halqalar yeyilgan."
+  },
+  {
+   "b": "Diagnostika va nosozliklar",
+   "q": "Chiqindi gazda oq quyuq bug' (issiq dvigatelda) nimadan dalolat berishi mumkin?",
+   "a": [
+    "Antifriz yonmoqda",
+    "Moy darajasi me'yorda ekanidan",
+    "Shinalar yangiligidan",
+    "Faralar sozligidan"
+   ],
+   "e": "Qistirma shikastlangan bo'lishi mumkin."
+  },
+  {
+   "b": "Diagnostika va nosozliklar",
+   "q": "Avtomobil tormozlashda bir tomonga tortsa sababi nima bo'lishi mumkin?",
+   "a": [
+    "Tormoz nosozligi",
+    "Yoqilg'ining sifati",
+    "Radio ovozi baland",
+    "Faralarning nosozligi"
+   ],
+   "e": "Teng kuch bo'lmaydi."
+  },
+  {
+   "b": "Diagnostika va nosozliklar",
+   "q": "Generator nosoz bo'lsa asboblar panelida nima yonadi?",
+   "a": [
+    "Zaryad ko'rsatkichi",
+    "Moy darajasi ko'rsatkichi",
+    "Yoqilg'i ko'rsatkichi",
+    "Burilish ko'rsatkichi"
+   ],
+   "e": "Zaryadlanmaslik."
+  },
+  {
+   "b": "Diagnostika va nosozliklar",
+   "q": "\"Check Engine\" chirog'i yonsa nima qilish kerak?",
+   "a": [
+    "Diagnostikadan o'tkazish",
+    "E'tibor bermaslik",
+    "Chiroqni o'chirib tashlash",
+    "Shinalarni almashtirish"
+   ],
+   "e": "Xatolik kodi."
+  },
+  {
+   "b": "Diagnostika va nosozliklar",
+   "q": "Amortizator nosozligining belgisi qaysi?",
+   "a": [
+    "Uzoq tebranish",
+    "Yoqilg'i tejalishi",
+    "Dvigatel kuchayishi",
+    "Faralar yorqinlashishi"
+   ],
+   "e": "Moy oqishi ham."
+  },
+  {
+   "b": "Diagnostika va nosozliklar",
+   "q": "Ilashish muftasi sirpanayotganini qanday aniqlash mumkin?",
+   "a": [
+    "Aylanish oshadi, tezlik oshmaydi",
+    "Tezlik keskin oshadi",
+    "Dvigatel o'chib qoladi",
+    "Rul og'irlashadi"
+   ],
+   "e": "Disk yeyilgan."
+  },
+  {
+   "b": "Zamonaviy avtomobillar",
+   "q": "Gibrid avtomobil nima?",
+   "a": [
+    "ICE + elektr dvigatel",
+    "Faqat benzinli avtomobil",
+    "Faqat dizel avtomobil",
+    "Ot bilan tortiladigan arava"
+   ],
+   "e": "Ikki xil yuritma."
+  },
+  {
+   "b": "Zamonaviy avtomobillar",
+   "q": "Elektromobilning energiya manbai nima?",
+   "a": [
+    "Batareya",
+    "Benzin baki",
+    "Dizel baki",
+    "Gaz ballon"
+   ],
+   "e": "Litiy-ionli batareya."
+  },
+  {
+   "b": "Zamonaviy avtomobillar",
+   "q": "Elektromobil tormozlashda energiyani qanday qaytaradi?",
+   "a": [
+    "Rekuperativ tormozlash",
+    "Kolodkalarni qizdirish",
+    "Shinalarni sovitish",
+    "Moyni isitish"
+   ],
+   "e": "Generator rejimi."
+  },
+  {
+   "b": "Zamonaviy avtomobillar",
+   "q": "Parkovka datchiklari qanday ishlaydi?",
+   "a": [
+    "Ultratovush bilan",
+    "Termometr yordamida",
+    "Manometr yordamida",
+    "Kompas yordamida"
+   ],
+   "e": "Masofani o'lchaydi."
+  },
+  {
+   "b": "Zamonaviy avtomobillar",
+   "q": "Kruiz-kontrol nima qiladi?",
+   "a": [
+    "Tezlikni ushlaydi",
+    "Rulni avtomatik buradi",
+    "Dvigatelni o'chiradi",
+    "Shinalarni damlaydi"
+   ],
+   "e": "Uzoq yo'lda qulay."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Kuzov turiga ko'ra \"sedan\" qanday avtomobil?",
+   "a": [
+    "Yopiq, alohida bagajli",
+    "Ochiq tomli kuzov",
+    "Bortli yuk kuzovi",
+    "O'zi ag'daradigan kuzov"
+   ],
+   "e": "To'rt eshikli."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "\"Xetchbek\" kuzovining xususiyati nima?",
+   "a": [
+    "Orqa eshik bilan",
+    "Tomi umuman yo'q",
+    "Faqat ikki o'rindiqli",
+    "Yuk kuzovi ochiq"
+   ],
+   "e": "Uchinchi/beshinchi eshik."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Avtosamosval qanday avtomobil?",
+   "a": [
+    "O'zi ag'daradigan yuk avto",
+    "Yo'lovchi avtobusi",
+    "Sport avtomobili",
+    "Tirkama"
+   ],
+   "e": "Sochiluvchan yuk."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Avtomobil identifikatsiya raqami (VIN) nechta belgidan iborat?",
+   "a": [
+    "17 ta",
+    "10 ta",
+    "12 ta",
+    "25 ta"
+   ],
+   "e": "Xalqaro standart."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Avtomobil yuk ko'tarish qobiliyati nimani bildiradi?",
+   "a": [
+    "Ruxsat etilgan yuk",
+    "Bo'sh avtomobil massasini",
+    "Dvigatel quvvatini",
+    "Maksimal tezlikni"
+   ],
+   "e": "Texnik tavsif."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobilni saqlashga qo'yishdan oldin nima qilinadi?",
+   "a": [
+    "Konservatsiya ishlari bajariladi",
+    "Shinalarni olib tashlash shart emas, hech narsa qilinmaydi",
+    "Bakka suv quyiladi",
+    "Akkumulyator ochiq qoldiriladi"
+   ],
+   "e": "Uzoq saqlash."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobil korroziyasining oldini olish uchun nima qilinadi?",
+   "a": [
+    "Antikorroziya ishlovi",
+    "Kuzovni nam joyda saqlash",
+    "Bo'yoqni qirib tashlash",
+    "Tuzli suv bilan yuvish"
+   ],
+   "e": "Himoya qoplamalari."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobil ta'mirida \"agregat usuli\" nima?",
+   "a": [
+    "Agregatni almashtirish",
+    "Barcha detallarni joyida ta'mirlash",
+    "Avtomobilni butunlay almashtirish",
+    "Ta'mirni kechiktirish"
+   ],
+   "e": "Bekor turish qisqaradi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Detallarni yuvish uchun ustaxonada nima ishlatilmasligi kerak?",
+   "a": [
+    "Benzin (yong'in xavfi)",
+    "Maxsus yuvuvchi eritmalar",
+    "Ishqoriy eritmalar",
+    "Moechnaya uskunasi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Payvandlash ishlarini yoqilg'i baki yonida bajarish mumkinmi?",
+   "a": [
+    "Yo'q, taqiqlanadi",
+    "Ha, har doim",
+    "Faqat kunduzi",
+    "Faqat yozda"
+   ],
+   "e": "Portlash xavfi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatelning litr quvvati nimani bildiradi?",
+   "a": [
+    "1 litr hajmga quvvat",
+    "1 litr yoqilg'idagi quvvat",
+    "Moy karterining hajmini",
+    "Yoqilg'i bakining hajmini"
+   ],
+   "e": "kVt/l."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatel quvvati qaysi birliklarda ifodalanadi?",
+   "a": [
+    "kVt yoki ot kuchi",
+    "Litr yoki kilogramm",
+    "Metr yoki santimetr",
+    "Volt yoki amper"
+   ],
+   "e": "1 o.k. ≈ 0,736 kVt."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Burovchi moment qaysi birlikda o'lchanadi?",
+   "a": [
+    "N·m",
+    "kVt",
+    "km/soat",
+    "litr"
+   ],
+   "e": "Nyuton-metr."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatelni ishga tushirishdan oldin haydovchi nimani tekshiradi?",
+   "a": [
+    "Moy va suyuqlik darajalarini",
+    "Faqat radio ishlashini",
+    "Faqat oyna tozaligini",
+    "Faqat o'rindiq rangini"
+   ],
+   "e": "Kundalik ko'rik."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Yoqilg'i sarfi qanday ifodalanadi?",
+   "a": [
+    "l/100 km",
+    "km/soat",
+    "ayl/min",
+    "kVt/soat"
+   ],
+   "e": "Tejamkorlik ko'rsatkichi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Benzinli dvigatelda detonatsiya belgisi qaysi?",
+   "a": [
+    "Metall taqillashi",
+    "Yumshoq shovqinsiz ishlash",
+    "Tutunning yo'qligi",
+    "Moy sarfining yo'qligi"
+   ],
+   "e": "Past oktanli benzin."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Avtomatik qutida \"P\" holati nimani bildiradi?",
+   "a": [
+    "To'xtab turish",
+    "Orqaga yurish",
+    "Neytral",
+    "Oldinga yurish"
+   ],
+   "e": "Parking."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Avtomatik qutida \"R\" holati nimani bildiradi?",
+   "a": [
+    "Orqaga yurish",
+    "To'xtab turish",
+    "Neytral",
+    "Sport rejimi"
+   ],
+   "e": "Reverse."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Avtomatik qutida \"N\" holati nimani bildiradi?",
+   "a": [
+    "Neytral",
+    "Orqaga yurish",
+    "To'xtab turish",
+    "Oldinga yurish"
+   ],
+   "e": "Neutral."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Avtomatik qutida \"D\" holati nimani bildiradi?",
+   "a": [
+    "Oldinga yurish",
+    "Orqaga yurish",
+    "To'xtab turish",
+    "Neytral"
+   ],
+   "e": "Drive."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Gidrotransformator qaysi uzatmalar qutisida bo'ladi?",
+   "a": [
+    "Avtomatik qutida",
+    "Mexanik qutida",
+    "Faqat velosipedda",
+    "Faqat tirkamada"
+   ],
+   "e": "Moment uzatadi."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Shinalarni qaysi tartibda almashtirib qo'yish (rotatsiya) tavsiya etiladi?",
+   "a": [
+    "Ishlab chiqaruvchi sxemasi bo'yicha",
+    "Hech qachon almashtirmaslik",
+    "Faqat bitta shinani almashtirish",
+    "Tasodifiy tartibda"
+   ],
+   "e": "Bir tekis yeyilish."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Zaxira g'ildirak (\"dokatka\") bilan maksimal tezlik qanday bo'ladi?",
+   "a": [
+    "Cheklangan (odatda 80 km/soat)",
+    "Cheklanmagan",
+    "200 km/soat",
+    "150 km/soat"
+   ],
+   "e": "Vaqtinchalik g'ildirak."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Shina yon tomonidagi yorilish va bo'rtiq nimani anglatadi?",
+   "a": [
+    "Foydalanish xavfli",
+    "Shina yangi",
+    "Shina mustahkamroq",
+    "Hech qanday ahamiyatsiz"
+   ],
+   "e": "Almashtirish kerak."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Akkumulyatorni tashqi manbadan \"prikurit\" qilishda qaysi tartib to'g'ri?",
+   "a": [
+    "Avval musbat, keyin manfiy simlar ulanadi",
+    "Avval manfiy simlar ulanadi",
+    "Simlar tasodifiy ulanadi",
+    "Bitta sim yetarli"
+   ],
+   "e": "Xavfsiz ulash."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Avtomobildagi saqlagich kuysa nima qilish kerak?",
+   "a": [
+    "Xuddi shu nominaldagisini qo'yish",
+    "Simni o'rniga qo'yish",
+    "Kattaroq nominalli qo'yish",
+    "Saqlagichsiz qoldirish"
+   ],
+   "e": "Yong'in xavfi."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Ksenon faralar qanday chiroq turiga kiradi?",
+   "a": [
+    "Gaz razryadli",
+    "Cho'g'lanma",
+    "Shamli",
+    "Kerosinli"
+   ],
+   "e": "Yorqin yorug'lik."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobil periodik texnik ko'rigi nima uchun o'tkaziladi?",
+   "a": [
+    "Xavfsizlik talablariga muvofiqlikni tekshirish",
+    "Avtomobilni bo'yash uchun",
+    "Avtomobilni sotish uchun",
+    "Yoqilg'i quyish uchun"
+   ],
+   "e": "Davlat texnik ko'rigi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Tormoz disklari qachon almashtiriladi?",
+   "a": [
+    "Ruxsat etilgan qalinlikdan yeyilganda",
+    "Har oyda",
+    "Hech qachon",
+    "Faqat rangi o'zgarganda"
+   ],
+   "e": "Minimal qalinlik."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Diagnostika skaneri nima qiladi?",
+   "a": [
+    "Xatolik kodlarini o'qiydi",
+    "Shinalarni damlaydi",
+    "Moyni almashtiradi",
+    "Kuzovni bo'yaydi"
+   ],
+   "e": "OBD orqali."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Dvigatel ta'miridan keyin \"obkatka\" nima?",
+   "a": [
+    "Yangi detallarni yengil rejimda moslashtirish",
+    "Avtomobilni yuvish",
+    "Shinani almashtirish",
+    "Moyni to'kish"
+   ],
+   "e": "Ishlashga moslashuv."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobil ta'mirida detalni tiklash usullaridan biri qaysi?",
+   "a": [
+    "Payvandlash va qoplash",
+    "Detalni bo'yab qo'yish",
+    "Detalni tashlab yuborish faqat",
+    "Detalni muzlatish"
+   ],
+   "e": "Restavratsiya."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Haydovchi qaysi vaqtda dam olishi kerak (uzoq yo'lda)?",
+   "a": [
+    "Har 2–3 soatda",
+    "Faqat manzilga yetganda",
+    "Hech qachon",
+    "Har 10 soatda"
+   ],
+   "e": "Charchoqning oldini olish."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Avtomobilni yo'lga chiqishdan oldin tekshirish nima deyiladi?",
+   "a": [
+    "Reysoldi ko'rik",
+    "Kapital ta'mir",
+    "Mavsumiy xizmat",
+    "Davlat ro'yxati"
+   ],
+   "e": "Texnik holat."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Qish mavsumida avtomobilni qanday tayyorlash kerak?",
+   "a": [
+    "Qishki shina va antifrizni tekshirish",
+    "Antifrizni suv bilan almashtirish",
+    "Akkumulyatorni olib tashlash",
+    "Shinalarni bo'shatish"
+   ],
+   "e": "Mavsumiy tayyorgarlik."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Yomg'irda tormoz yo'li qanday o'zgaradi?",
+   "a": [
+    "Uzayadi",
+    "Qisqaradi",
+    "O'zgarmaydi",
+    "Nolga teng"
+   ],
+   "e": "Ilashish kamayadi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Akvaplaning nima?",
+   "a": [
+    "Shinaning suv qatlamida sirpanishi",
+    "Dvigatelning qizib ketishi",
+    "Akkumulyator zaryadsizlanishi",
+    "Moy oqishi"
+   ],
+   "e": "Yuqori tezlikda ko'lmakda."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Haydovchi ko'zgularini qachon sozlashi kerak?",
+   "a": [
+    "Harakatni boshlashdan oldin",
+    "Harakat davomida tez-tez",
+    "Hech qachon",
+    "Faqat kechasi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Avtomobilning bazasi (kolesnaya baza) nima?",
+   "a": [
+    "Oldingi va orqa o'qlar orasidagi masofa",
+    "Avtomobil kengligi",
+    "Avtomobil balandligi",
+    "Klirens"
+   ],
+   "e": "Uzunlik o'lchami."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Klirens nima?",
+   "a": [
+    "Yo'l bilan eng past nuqta orasidagi masofa",
+    "O'qlar orasidagi masofa",
+    "G'ildiraklar kengligi",
+    "Kuzov uzunligi"
+   ],
+   "e": "Yo'ldan balandlik."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "G'ildirak izi (koleya) nima?",
+   "a": [
+    "Bir o'qdagi g'ildiraklar markazlari orasidagi masofa",
+    "O'qlar orasidagi masofa",
+    "Avtomobil balandligi",
+    "Bagaj hajmi"
+   ],
+   "e": "Ko'ndalang o'lcham."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Avtomobilning to'la massasi nima?",
+   "a": [
+    "Yuk va yo'lovchilar bilan maksimal ruxsat etilgan massa",
+    "Bo'sh avtomobil massasi",
+    "Dvigatel massasi",
+    "Shinalar massasi"
+   ],
+   "e": "Ruxsat etilgan maksimal massa."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Benzinli dvigatelga dizel yoqilg'isi quyilsa nima bo'ladi?",
+   "a": [
+    "Dvigatel normal ishlamaydi",
+    "Quvvati ikki baravar oshadi",
+    "Yoqilg'i tejaladi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Noto'g'ri yoqilg'i."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatel V-simon joylashuvi nimani bildiradi?",
+   "a": [
+    "Silindrlar ikki qatorda burchak ostida",
+    "Silindrlar bir qatorda",
+    "Silindrlar qarama-qarshi gorizontal",
+    "Bitta silindr"
+   ],
+   "e": "Masalan, V6, V8."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Bir qatorli to'rt silindrli dvigatel qanday belgilanadi?",
+   "a": [
+    "R4 (I4)",
+    "V8",
+    "W12",
+    "V6"
+   ],
+   "e": "Ryadnyy."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Oppozit dvigatel nima?",
+   "a": [
+    "Silindrlar 180° qarama-qarshi joylashgan",
+    "Silindrlar bir qatorda",
+    "Silindrlar V-simon 90°",
+    "Bitta silindrli"
+   ],
+   "e": "Masalan, Subaru."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Robotlashtirilgan uzatmalar qutisi nima?",
+   "a": [
+    "Avtomatik boshqariladigan mexanik quti",
+    "Faqat qo'lda almashtiriladigan quti",
+    "Variator",
+    "Gidromexanik quti"
+   ],
+   "e": "Elektron yuritma."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Uzatish soni katta bo'lsa nima bo'ladi?",
+   "a": [
+    "Tortish kuchi ortadi, tezlik kamayadi",
+    "Tezlik ortadi, kuch kamayadi",
+    "Hech narsa o'zgarmaydi",
+    "Dvigatel o'chadi"
+   ],
+   "e": "Past uzatma."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Disk g'ildirakni gupchakka nima mahkamlaydi?",
+   "a": [
+    "G'ildirak boltlari yoki gaykalari",
+    "Payvand chok",
+    "Yelim",
+    "Arqon"
+   ],
+   "e": "Mahkamlash."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Shinaning yuk ko'tarish indeksi nimani bildiradi?",
+   "a": [
+    "Ruxsat etilgan maksimal yukni",
+    "Shina rangini",
+    "Shina narxini",
+    "Shina yoshini"
+   ],
+   "e": "Markirovkada."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Shinaning tezlik indeksi (masalan, H) nimani bildiradi?",
+   "a": [
+    "Ruxsat etilgan maksimal tezlikni",
+    "Shina kengligini",
+    "Disk diametrini",
+    "Ishlab chiqarilgan joyni"
+   ],
+   "e": "H — 210 km/soat."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Rul mexanizmining keng tarqalgan turi qaysi?",
+   "a": [
+    "Reykali",
+    "Zanjirli",
+    "Tasmali",
+    "Pnevmatik"
+   ],
+   "e": "Tishli reyka."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Tormoz tizimi ikki konturli bo'lishining afzalligi nima?",
+   "a": [
+    "Biri ishdan chiqsa ham tormoz ishlaydi",
+    "Tormoz yo'li uzayadi",
+    "Suyuqlik ko'p sarflanadi",
+    "Pedal og'irlashadi"
+   ],
+   "e": "Ishonchlilik."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Tormoz chiroqlari qachon yonadi?",
+   "a": [
+    "Tormoz pedali bosilganda",
+    "Burilishda",
+    "Orqaga yurishda",
+    "Dvigatel ishga tushganda"
+   ],
+   "e": "Stop-signal."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Starter qanday dvigatel?",
+   "a": [
+    "O'zgarmas tok elektr dvigateli",
+    "Ichki yonuv dvigateli",
+    "Bug' dvigateli",
+    "Pnevmatik dvigatel"
+   ],
+   "e": "Akkumulyatordan ta'minlanadi."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Uchqun shami elektrodlari orasidagi zazor nimaga ta'sir qiladi?",
+   "a": [
+    "Uchqun sifatiga",
+    "Shina bosimiga",
+    "Tormoz kuchiga",
+    "Rul burilishiga"
+   ],
+   "e": "Sozlanadi."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Akkumulyatorning sovuqda ishga tushirish toki qanday belgilanadi?",
+   "a": [
+    "CCA",
+    "RPM",
+    "VIN",
+    "ABS"
+   ],
+   "e": "Cold Cranking Amps."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Ta'mirlash ustaxonasida ishlatilgan latta qayerga tashlanadi?",
+   "a": [
+    "Yopiq metall qutiga",
+    "Ochiq yerga",
+    "Yonuvchi suyuqlik yoniga",
+    "Kanalizatsiyaga"
+   ],
+   "e": "Yong'in xavfsizligi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobil kuzovini bo'yashdan oldin nima qilinadi?",
+   "a": [
+    "Yuzani tozalash va gruntlash",
+    "Bo'yoqni to'g'ridan-to'g'ri surtish",
+    "Kuzovni namlash",
+    "Zangni qoldirish"
+   ],
+   "e": "Tayyorlov."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtoservisda ko'targichdan foydalanishda nima taqiqlanadi?",
+   "a": [
+    "Nosoz ko'targichda ishlash",
+    "Ko'rikdan o'tgan ko'targichda ishlash",
+    "Tayanch nuqtalarni tekshirish",
+    "Qo'l tormozini tortish"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Ish joyini yoritishda qaysi lampa xavfsiz hisoblanadi?",
+   "a": [
+    "Past kuchlanishli (12–36 V) ko'chma lampa",
+    "220 V himoyasiz lampa",
+    "Ochiq olovli fonus",
+    "Shamdon"
+   ],
+   "e": "Elektr xavfsizligi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Tirkama ulangan avtomobilda nimaga e'tibor berish kerak?",
+   "a": [
+    "Tormoz yo'li uzayishiga",
+    "Tezlikni oshirishga",
+    "Burilishni keskinlashtirishga",
+    "Ko'zgularni yig'ishga"
+   ],
+   "e": "Og'irlik ortadi."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Muzli yo'lda to'xtashni qanday boshlash kerak?",
+   "a": [
+    "Silliq va oldindan tormozlash",
+    "Keskin tormozlash",
+    "Rulni keskin burish",
+    "Tezlikni oshirish"
+   ],
+   "e": "Sirpanishning oldini olish."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Kechasi qarshidan kelayotgan avtomobilga yaqinlashganda nima qilinadi?",
+   "a": [
+    "Uzoq chiroqdan yaqin chiroqqa o'tiladi",
+    "Uzoq chiroq yoqib qo'yiladi",
+    "Chiroqlar o'chiriladi",
+    "Signal chalinadi"
+   ],
+   "e": "Ko'zni qamashtirmaslik."
+  },
+  {
+   "b": "Xavfsiz boshqarish asoslari",
+   "q": "Haydash vaqtida telefondan foydalanish qanday baholanadi?",
+   "a": [
+    "Xavfli va qonun bilan cheklangan",
+    "To'liq xavfsiz",
+    "Tavsiya etiladi",
+    "Majburiy"
+   ],
+   "e": "Diqqat chalg'iydi."
   }
- ]
+ ],
+ "kalit": "avtomobil mashina B C toifa servis ta'mirlash dvigatel haydovchi"
 }

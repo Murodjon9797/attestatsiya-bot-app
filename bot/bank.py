@@ -111,7 +111,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "umumiy_gigiyena_va_ekologiya", "jamiyat_sogliqni_saqlash_va_tibbiy_stati", "valeologiya"]),
     ("tr", "🚆 Transport", [
         "temir_yol_umumiy_kursi", "temir_yollardan_texnik_foydalanish_qoida", "tashishlarni_tashkil_etish",
-        "vagon_konteyner", "yol_harakati_qoidalari_va_harakat_xavfsi"]),
+        "vagon_konteyner", "yol_harakati_qoidalari_va_harakat_xavfsi", "avtomobillar_tuzilishi"]),
     ("qx", "🌱 Qishloq xo'jaligi va biologiya", [
         "biologiya", "botanika_va_osimliklar_fiziologiyasi", "osimlikshunoslik", "ekologiya"]),
     ("iqt", "📈 Iqtisodiyot va boshqaruv", ["iqtisodiyot_nazariyasi", "menejment_asoslari"]),
