@@ -105,6 +105,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "konstruksion_materiallar", "metrologiya", "chizma_geometriya", "issiqlik_texnikasi_va_gidroenergetika",
         "radiotexnika_antenna", "geodeziya", "mehnat_muhofazasi"]),
     ("tib", "🩺 Tibbiyot", [
+        "hamshiralik_ishi",
         "lotin_tili_va_tibbiy_terminologiya", "mikrobiologiya_virusologiya_va_immunolog", "yuqumli_kasalliklar",
         "tibbiy_biologiya_umumiy_genetika", "tibbiy_psixologiya_va_shaxslararo_muloqo",
         "umumiy_gigiyena_va_ekologiya", "jamiyat_sogliqni_saqlash_va_tibbiy_stati", "valeologiya"]),
