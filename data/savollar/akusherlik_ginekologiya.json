@@ -1,0 +1,3331 @@
+{
+ "kod": "",
+ "nomi": "Akusherlik va ginekologiyada hamshiralik ishi",
+ "turi": "maxsus",
+ "manba": "Akusherlik va ginekologiyada hamshiralik ishi darsliklari (tibbiyot kollejlari uchun), O'zbekiston SSV klinik protokollari, JSST tavsiyalari",
+ "savollar": [
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Ayol ichki jinsiy a'zolariga qaysilar kiradi?",
+   "a": [
+    "Bachadon, naylar, tuxumdonlar, qin",
+    "Katta va kichik uyatli lablar hamda klitor",
+    "Qin dahlizi va katta dahliz (Bartolin) bezlari",
+    "Qov do'mbog'i, oraliq sohasi va qizlik pardasi"
+   ],
+   "e": "Tashqi — vulva."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Urug'lanish odatda qayerda sodir bo'ladi?",
+   "a": [
+    "Bachadon nayining ampulyar qismida",
+    "Bachadon bo'shlig'ining tubi sohasida",
+    "Tuxumdonning follikula ichida",
+    "Qinning orqa gumbazida"
+   ],
+   "e": "Keyin zigota bachadonga ko'chadi."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Normal hayz sikli davomiyligi qancha?",
+   "a": [
+    "21–35 kun (o'rtacha 28 kun)",
+    "7–10 kun (har hafta)",
+    "40–50 kun (o'rtacha 45 kun)",
+    "60–90 kun (har uch oyda)"
+   ],
+   "e": "Hayz 3–7 kun."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Ovulyatsiya 28 kunlik siklda odatda qachon sodir bo'ladi?",
+   "a": [
+    "14-kun atrofida",
+    "1-kuni (hayz boshlanishi bilan)",
+    "28-kuni (hayz oldidan)",
+    "5-kuni (hayz tugashi bilan)"
+   ],
+   "e": "LG cho'qqisi."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Menarxe nima?",
+   "a": [
+    "Birinchi hayz kelishi",
+    "Hayzning butunlay to'xtashi",
+    "Hayz vaqtidagi og'riq",
+    "Hayzning kechikishi"
+   ],
+   "e": "Odatda 11–14 yosh."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Menopauza nima?",
+   "a": [
+    "Oxirgi mustaqil hayz",
+    "Birinchi hayz kelishi",
+    "Homiladorlik davri",
+    "Tug'ruqdan keyingi davr"
+   ],
+   "e": "O'rtacha 45–55 yosh."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Hayz siklini boshqaruvchi gipofiz gormonlari qaysilar?",
+   "a": [
+    "FSG va LG",
+    "Insulin va glyukagon",
+    "Tiroksin va kalsitonin",
+    "Adrenalin va noradrenalin"
+   ],
+   "e": "Follikulostimullovchi va lyuteinlovchi."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Sariq tana qaysi gormonni ishlab chiqaradi?",
+   "a": [
+    "Progesteron",
+    "Oksitotsin",
+    "Prolaktin",
+    "Insulin"
+   ],
+   "e": "Homiladorlikni saqlovchi gormon."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Ayol jinsiy gormonlari asosan qayerda ishlab chiqariladi?",
+   "a": [
+    "Tuxumdonlarda",
+    "Bachadonda",
+    "Qinda",
+    "Sut bezlarida"
+   ],
+   "e": "Estrogenlar va progesteron."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Chanoqning qaysi o'lchami tashqi kon'yugata deyiladi?",
+   "a": [
+    "Qov simfizi va V bel umurtqasi orasi (20–21 sm)",
+    "Yonbosh suyagi oldingi ustki o'siqlari orasidagi masofa (25–26 sm)",
+    "Yonbosh suyagi qirralarining eng uzoq nuqtalari orasidagi masofa",
+    "Son suyagi katta ko'st o'siqlari orasidagi masofa (30–31 sm)"
+   ],
+   "e": "Conjugata externa."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Distantia spinarum normal holda qancha?",
+   "a": [
+    "25–26 sm",
+    "28–29 sm",
+    "30–31 sm",
+    "20–21 sm"
+   ],
+   "e": "Yonbosh suyagi oldingi ustki o'siqlari orasi."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Distantia cristarum normal holda qancha?",
+   "a": [
+    "28–29 sm",
+    "25–26 sm",
+    "20–21 sm",
+    "35–36 sm"
+   ],
+   "e": "Yonbosh qirralarining eng uzoq nuqtalari orasi."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Distantia trochanterica normal holda qancha?",
+   "a": [
+    "30–31 sm",
+    "25–26 sm",
+    "28–29 sm",
+    "20–21 sm"
+   ],
+   "e": "Son suyagi katta ko'st o'siqlari orasi."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Chanoq o'lchamlarini o'lchaydigan asbob qanday ataladi?",
+   "a": [
+    "Tazomer",
+    "Stetoskop",
+    "Tonometr",
+    "Spirometr"
+   ],
+   "e": "Pelvimetr."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Haqiqiy (akusherlik) kon'yugata normal holda qancha?",
+   "a": [
+    "11 sm",
+    "20 sm",
+    "25 sm",
+    "7 sm"
+   ],
+   "e": "Tashqi kon'yugatadan 9 sm ayiriladi."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Mixaelis rombi nimani baholash uchun ishlatiladi?",
+   "a": [
+    "Chanoq shakli va uning torayishini",
+    "Bachadon tubining qov ustidan balandligini",
+    "Homila yurak urishi soni va ritmini",
+    "Kindik sohasidagi qorin aylanasini"
+   ],
+   "e": "Dumg'aza sohasidagi romb."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Soloviyov indeksi nimani o'lchaydi?",
+   "a": [
+    "Bilak-kaft bo'g'imi aylanasini (suyak qalinligini)",
+    "Bachadon tubining qov ustidan balandligini",
+    "Kindik sohasidagi qorin aylanasini",
+    "Homila boshining aylanasini"
+   ],
+   "e": "14 sm dan katta — suyaklar qalin."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Platsenta qanday vazifalarni bajaradi?",
+   "a": [
+    "Nafas, oziqlantirish, himoya, endokrin",
+    "Faqat homilani tashqi zarbalardan himoyalash",
+    "Faqat homila uchun qon hujayralari ishlab chiqarish",
+    "Faqat homila suyaklarini hosil qilish"
+   ],
+   "e": "Ona-homila tizimi."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Normal homiladorlikda amniotik suyuqlik (qog'onoq suvi) miqdori qancha?",
+   "a": [
+    "0,5–1,5 litr",
+    "5–6 litr (homila vazniga teng)",
+    "50–100 ml (bir stakandan kam)",
+    "3–4 litr (doimiy ko'payib boradi)"
+   ],
+   "e": "Ko'p bo'lsa — ko'p suvlilik."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Homiladorlikning ishonchli (shubhasiz) belgisi qaysi?",
+   "a": [
+    "Homila yurak urishi yoki UTTda homila",
+    "Hayzning kechikishi va ko'ngil aynishi",
+    "Sut bezlarining kattalashib, og'rishi",
+    "Qorinning kattalashishi va pigmentatsiya"
+   ],
+   "e": "Ishonchli belgilar."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Homiladorlikning gumonli belgilariga qaysilar kiradi?",
+   "a": [
+    "Ko'ngil aynishi, ta'm o'zgarishi",
+    "Homila yurak urishining eshitilishi",
+    "Homila harakatini qo'l bilan sezish",
+    "UTTda homila tasvirini aniqlash"
+   ],
+   "e": "Subyektiv belgilar."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Homiladorlikning ehtimoliy belgilariga qaysilar kiradi?",
+   "a": [
+    "Hayz to'xtashi, bachadon kattalashishi",
+    "Homila yurak urishining eshitilishi",
+    "UTTda homila va yurak urishi tasviri",
+    "Homila qismlarini paypaslab aniqlash"
+   ],
+   "e": "Ob'ektiv, lekin shubhasiz emas."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Homiladorlikni erta aniqlash uchun qaysi gormon tekshiriladi?",
+   "a": [
+    "Xorionik gonadotropin (XG)",
+    "Insulin (oshqozon osti bezi)",
+    "Tiroksin (qalqonsimon bez)",
+    "Kortizol (buyrak usti bezi)"
+   ],
+   "e": "Test-chiziqlar."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Homiladorlik o'rtacha necha hafta davom etadi?",
+   "a": [
+    "40 hafta (280 kun)",
+    "30 hafta (210 kun)",
+    "50 hafta (350 kun)",
+    "36 hafta (252 kun)"
+   ],
+   "e": "Oxirgi hayzning 1-kunidan."
+  },
+  {
+   "b": "Ayol jinsiy a'zolari anatomiyasi va fiziologiyasi",
+   "q": "Negele formulasi bo'yicha tug'ruq muddati qanday hisoblanadi?",
+   "a": [
+    "Oxirgi hayz 1-kunidan 3 oy ayirib, 7 kun qo'shiladi",
+    "Oxirgi hayz 1-kuniga 3 oy qo'shib, 7 kun ayiriladi",
+    "Ovulyatsiyaga 9 oy qo'shiladi",
+    "Birinchi qimirlash kuniga 10 hafta qo'shiladi"
+   ],
+   "e": "Masalan, 10-may → 17-fevral."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homilador ayol ayollar konsultatsiyasida qachongacha ro'yxatga olinishi tavsiya etiladi?",
+   "a": [
+    "12 haftagacha",
+    "30 haftadan keyin",
+    "Faqat tug'ruqdan oldin",
+    "20–24 haftada"
+   ],
+   "e": "Erta ro'yxatga olish."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "JSST tavsiyasiga ko'ra normal homiladorlikda antenatal tashriflar soni kamida nechta bo'lishi kerak?",
+   "a": [
+    "8 ta",
+    "2 ta",
+    "4 ta",
+    "20 ta"
+   ],
+   "e": "2016-yil tavsiyasi."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Leopold usullari nima uchun qo'llanadi?",
+   "a": [
+    "Homila joylashuvi va holatini aniqlash",
+    "Homila yurak urishini eshitish va sanash",
+    "Chanoq o'lchamlarini o'lchash uchun",
+    "Qon bosimini o'lchash uchun"
+   ],
+   "e": "Tashqi akusherlik tekshiruvi (4 usul)."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Leopoldning I usuli bilan nima aniqlanadi?",
+   "a": [
+    "Bachadon tubi balandligi va tubdagi homila qismi",
+    "Homila orqasi va mayda qismlari",
+    "Oldinda yotgan qism",
+    "Oldinda yotgan qismning chanoqqa kirish darajasi"
+   ],
+   "e": "Odatda tubda — dumba."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Leopoldning II usuli bilan nima aniqlanadi?",
+   "a": [
+    "Homila holati va pozitsiyasi",
+    "Bachadon tubining balandligi va undagi qism",
+    "Kichik chanoqqa kirishda oldinda yotgan qism",
+    "Boshning kichik chanoqqa kirish darajasi"
+   ],
+   "e": "Yon tomonlar paypaslanadi."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homila yurak urishi qanday asbob bilan eshitiladi?",
+   "a": [
+    "Akusherlik stetoskopi",
+    "Tonometr va fonendoskop",
+    "Tazomer (pelvimetr)",
+    "Otoskop va rinoskop"
+   ],
+   "e": "Pinar stetoskopi."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homila yurak urishining normal chastotasi qancha?",
+   "a": [
+    "110–160 marta/daqiqa",
+    "60–80 marta/daqiqa",
+    "180–220 marta/daqiqa",
+    "40–50 marta/daqiqa"
+   ],
+   "e": "Ayrim manbalarda 120–160."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Bosh bilan oldinda yotganda (I pozitsiya) homila yurak urishi qayerda yaxshi eshitiladi?",
+   "a": [
+    "Kindikdan pastda, chap tomonda",
+    "Kindikdan yuqorida, o'ng tomonda",
+    "Bachadon tubida",
+    "Qov ustida, o'rtada"
+   ],
+   "e": "Orqa chapda."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Birinchi homiladorlikda homila harakati odatda nechanchi haftadan seziladi?",
+   "a": [
+    "20-haftadan",
+    "8-haftadan",
+    "36-haftadan",
+    "12-haftadan"
+   ],
+   "e": "Qayta tug'uvchilarda 18-hafta."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homiladorlikda bachadon tubi balandligi qanday o'lchanadi?",
+   "a": [
+    "Santimetrli lenta bilan",
+    "Tazomer yordamida chanoq orqali",
+    "Ko'z bilan chamalab, taxminan",
+    "Tonometr manjeti yordamida"
+   ],
+   "e": "Gravidogramma."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "36 haftalik homiladorlikda bachadon tubi qayerda joylashadi?",
+   "a": [
+    "Xanjarsimon o'simta va qovurg'a ravog'i darajasida",
+    "Qov simfizi ustida, 2–3 barmoq yuqorida",
+    "Kindik darajasida yoki undan biroz pastda",
+    "Kindik va qov simfizi o'rtasida"
+   ],
+   "e": "40 haftada biroz pastga tushadi."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "24 haftalik homiladorlikda bachadon tubi odatda qayerda bo'ladi?",
+   "a": [
+    "Kindik darajasida",
+    "Qov ustida",
+    "Xanjarsimon o'simta darajasida",
+    "Bachadon tashqariga chiqmaydi"
+   ],
+   "e": "20–24 hafta."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homiladorlikda temir tanqisligi kamqonligining oldini olish uchun nima tavsiya etiladi?",
+   "a": [
+    "Temir va foliy kislotasi preparatlari, temirga boy ovqat",
+    "Ovqatdan go'sht va jigarni butunlay chiqarish",
+    "Ovqatdan keyin faqat qahva va qora choy ichish",
+    "Hech qanday profilaktika kerak emas"
+   ],
+   "e": "JSST tavsiyasi."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homiladorlikning birinchi trimestrida foliy kislotasi nima uchun buyuriladi?",
+   "a": [
+    "Homila nerv nayi nuqsonlarining oldini olish uchun",
+    "Arterial bosimni yetarli darajaga oshirish uchun",
+    "Ko'ngil aynishi va qusishni kamaytirish uchun",
+    "Tug'ruq faoliyatini tezlashtirish uchun"
+   ],
+   "e": "Homiladorlikdan oldin boshlanadi."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homiladorlikda gemoglobinning pastki me'yori qancha?",
+   "a": [
+    "110 g/l",
+    "80 g/l",
+    "150 g/l",
+    "60 g/l"
+   ],
+   "e": "Kam bo'lsa — anemiya."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homilador ayolda shish, gipertenziya va proteinuriya qaysi kasallikka xos?",
+   "a": [
+    "Preeklampsiya",
+    "Qandli diabet",
+    "Pielonefrit",
+    "Anemiya"
+   ],
+   "e": "Homiladorlik gipertenziyasi."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Preeklampsiyada arterial bosim necha mm sim. ust.dan yuqori bo'ladi?",
+   "a": [
+    "140/90",
+    "100/60",
+    "110/70",
+    "120/80"
+   ],
+   "e": "20 haftadan keyin."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Eklampsiyaning asosiy belgisi qaysi?",
+   "a": [
+    "Tutqanoq xurujlari (tirishishlar)",
+    "Faqat ertalabki ko'ngil aynishi",
+    "Faqat oyoqlarda kechki shish",
+    "Faqat bosh aylanishi va holsizlik"
+   ],
+   "e": "Preeklampsiya fonida."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Eklampsiya xurujida qaysi dori asosiy hisoblanadi?",
+   "a": [
+    "Magniy sulfat",
+    "Oksitotsin (bachadon qisqartiruvchi)",
+    "Atropin sulfat",
+    "Insulin (qisqa ta'sirli)"
+   ],
+   "e": "Tirishishning oldini olish."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Eklampsiya xurujida hamshira birinchi navbatda nima qiladi?",
+   "a": [
+    "Yonboshlatib, nafas yo'lini ta'minlaydi",
+    "Ayolga og'iz orqali suv va ovqat beradi",
+    "Ayolni xonada yolg'iz qoldirib, shifokorga boradi",
+    "Ayolni o'tqazib, qo'l-oyog'ini ushlab turadi"
+   ],
+   "e": "Jarohatlanishdan saqlash."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homiladorlarda erta toksikozning asosiy belgisi qaysi?",
+   "a": [
+    "Ko'ngil aynishi va qusish",
+    "Arterial bosimning oshishi",
+    "Oyoqlarda shish va siydikda oqsil",
+    "Tutqanoq xurujlari"
+   ],
+   "e": "Birinchi trimestr."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homiladorlikda rezus-konflikt qachon yuzaga kelishi mumkin?",
+   "a": [
+    "Ona rezus-manfiy, homila rezus-musbat bo'lganda",
+    "Ona va homila rezus-musbat bo'lganda",
+    "Ona rezus-musbat, homila rezus-manfiy bo'lganda",
+    "Ikkalasi ham rezus-manfiy bo'lganda"
+   ],
+   "e": "Gemolitik kasallik."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Rezus-manfiy onaga sensibilizatsiyaning oldini olish uchun nima yuboriladi?",
+   "a": [
+    "Anti-D immunoglobulin",
+    "Oksitotsin eritmasi",
+    "Insulin (qisqa ta'sirli)",
+    "Vitamin K (fitomenadion)"
+   ],
+   "e": "28 hafta va tug'ruqdan keyin 72 soat ichida."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Gestatsion qandli diabetni aniqlash uchun qaysi tekshiruv o'tkaziladi?",
+   "a": [
+    "Glyukozaga tolerantlik testi (24–28 haftada)",
+    "Umumiy siydik tahlili (oqsil uchun)",
+    "Koagulogramma (qon ivishi)",
+    "Elektrokardiografiya (EKG)"
+   ],
+   "e": "OGTT."
+  },
+  {
+   "b": "Homiladorlikni kuzatish",
+   "q": "Homiladorlikda qaysi tekshiruv homila rivojlanishini kuzatishda asosiy hisoblanadi?",
+   "a": [
+    "Ultratovush tekshiruvi",
+    "Rentgenografiya",
+    "Kompyuter tomografiyasi",
+    "Fluorografiya"
+   ],
+   "e": "Rentgen tavsiya etilmaydi."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Tug'ruqning nechta davri bor?",
+   "a": [
+    "3 ta",
+    "2 ta",
+    "5 ta",
+    "1 ta"
+   ],
+   "e": "Ochilish, haydash, yo'ldosh."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Tug'ruqning birinchi davri qanday ataladi?",
+   "a": [
+    "Bachadon bo'yni ochilish davri",
+    "Homilani haydash (kuchanish) davri",
+    "Yo'ldosh ajralishi va tug'ilish davri",
+    "Tug'ruqdan keyingi erta davr"
+   ],
+   "e": "Eng uzun davr."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Tug'ruqning ikkinchi davri qachon boshlanadi?",
+   "a": [
+    "Bachadon bo'yni to'liq ochilgandan keyin",
+    "Birinchi muntazam to'lg'oqlar boshlanganda",
+    "Qog'onoq suvi oqib ketgan paytdan",
+    "Yo'ldosh tushgandan keyin darhol"
+   ],
+   "e": "Haydash davri."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Tug'ruqning uchinchi davri nima bilan tugaydi?",
+   "a": [
+    "Yo'ldosh tug'ilishi bilan",
+    "Homila tug'ilishi bilan",
+    "Bachadon bo'yni ochilishi bilan",
+    "Qog'onoq suvi oqishi bilan"
+   ],
+   "e": "Yo'ldosh davri."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Birinchi tug'uvchi ayolda tug'ruq o'rtacha qancha davom etadi?",
+   "a": [
+    "10–12 soat",
+    "1–2 soat",
+    "24–36 soat",
+    "30 daqiqa"
+   ],
+   "e": "Qayta tug'uvchida 6–8 soat."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Qog'onoq suvining o'z vaqtida ketishi qachon hisoblanadi?",
+   "a": [
+    "Bachadon bo'yni to'liq ochilganda",
+    "Muntazam to'lg'oqlar boshlanmasdan oldin",
+    "Homiladorlikning 30-haftasida, tug'ruqsiz",
+    "Yo'ldosh tug'ilgandan keyin, oxirida"
+   ],
+   "e": "Muddatidan oldin — to'lg'oqlargacha."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Partogramma nima?",
+   "a": [
+    "Tug'ruq kechishini grafik ko'rinishda qayd etish",
+    "Homiladorlik muddatini hisoblash jadvali",
+    "Yangi tug'ilgan chaqaloq vaznini qayd etish jadvali",
+    "Ayolning hayz taqvimi va sikl jadvali"
+   ],
+   "e": "JSST tavsiyasi."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Partogrammada \"ogohlantirish chizig'i\" kesib o'tilsa nimani bildiradi?",
+   "a": [
+    "Tug'ruq sekin kechmoqda, qo'shimcha baholash kerak",
+    "Tug'ruq normal tezlikda, asoratsiz kechmoqda",
+    "Tug'ruq to'liq tugadi, yo'ldosh tushdi",
+    "Ayolni uyga javob berish mumkinligini"
+   ],
+   "e": "Harakat chizig'i ham bor."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Normal tug'ruqda ayol nima qilishi tavsiya etiladi (birinchi davrda)?",
+   "a": [
+    "Erkin harakatlanish, qulay holat tanlash, suyuqlik ichish",
+    "Butun davr davomida qimirlamay chalqancha yotish",
+    "Tug'ruq davomida umuman suv ichmaslik",
+    "Birinchi to'lg'oqdan boshlab doim kuchanish"
+   ],
+   "e": "JSST — xotirjam tug'ruq."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Tug'ruqning ikkinchi davrida homila yurak urishi qanchada tekshiriladi?",
+   "a": [
+    "Har 5 daqiqada yoki har kuchanishdan keyin",
+    "Har 2 soatda bir marta, navbatchilik bo'yicha",
+    "Faqat tug'ruq oxirida, chaqaloq tug'ilganda",
+    "Ikkinchi davrda tekshirish talab qilinmaydi"
+   ],
+   "e": "Gipoksiyani erta aniqlash."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Yo'ldosh ajralish belgilariga qaysilar kiradi?",
+   "a": [
+    "Shreder, Alfeld, Kyustner–Chukalov",
+    "Leopold usullari",
+    "Pasternatskiy belgisi",
+    "Shchetkin–Blyumberg belgisi"
+   ],
+   "e": "Ajralish belgilari."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Tug'ruqning uchinchi davrini faol olib borishda nima qilinadi?",
+   "a": [
+    "Oksitotsin, kindikni tortish, uqalash",
+    "Hech narsa qilinmaydi, 2 soat kutib turiladi",
+    "Ayolga ovqat beriladi va dam olishi kutiladi",
+    "Ayol darhol o'rnidan turg'izilib yurgiziladi"
+   ],
+   "e": "Qon ketish profilaktikasi."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Oksitotsin qanday ta'sir qiladi?",
+   "a": [
+    "Bachadon qisqarishini kuchaytiradi",
+    "Bachadon mushaklarini bo'shashtiradi",
+    "Qon bosimini keskin oshiradi",
+    "Sut ishlab chiqarishni to'xtatadi"
+   ],
+   "e": "Sut ajralishiga ham ta'sir."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Normal tug'ruqda fiziologik qon yo'qotish qancha?",
+   "a": [
+    "Tana vaznining 0,5% gacha",
+    "1500 ml (tana vaznining 3%)",
+    "1 litrdan ortiq",
+    "50 ml dan kam"
+   ],
+   "e": "500 ml dan ortiq — patologik."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Yo'ldosh tug'ilgandan keyin nima tekshiriladi?",
+   "a": [
+    "Yo'ldosh va pardalarning butunligi",
+    "Faqat yo'ldoshning rangi va hidi",
+    "Faqat kindik tizimchasining uzunligi",
+    "Hech narsa tekshirilmaydi, tashlanadi"
+   ],
+   "e": "Qoldiq — qon ketish sababi."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Epiziotomiya nima?",
+   "a": [
+    "Oraliqni yorilishdan saqlash uchun kesish",
+    "Bachadon devorini kesish operatsiyasi",
+    "Kindik tizimchasini kesish va bog'lash",
+    "Qorin old devorini kesish (laparotomiya)"
+   ],
+   "e": "Ko'rsatmaga ko'ra."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Kesar kesish operatsiyasi nima?",
+   "a": [
+    "Qorin va bachadon devorini kesib olish",
+    "Qin orqali akusherlik qisqichi bilan olish",
+    "Vakuum ekstraktor yordamida tortib olish",
+    "Homilani qo'l bilan oyog'iga burib olish"
+   ],
+   "e": "Ko'rsatmalar bo'yicha."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Homila boshining eng ko'p uchraydigan oldinda kelishi qaysi?",
+   "a": [
+    "Ensa bilan oldinda kelish (oldingi turi)",
+    "Yuz bilan oldinda kelish (yoyilgan)",
+    "Peshona bilan oldinda kelish",
+    "Dumba bilan oldinda kelish (sof)"
+   ],
+   "e": "Fiziologik."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Dumba bilan oldinda kelish qanday holat hisoblanadi?",
+   "a": [
+    "Patologik akusherlik holati",
+    "Eng ko'p uchraydigan normal holat",
+    "Faqat egizaklarda bo'ladigan holat",
+    "Homila uchun xavfsiz holat"
+   ],
+   "e": "3–5% hollarda."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Homilaning ko'ndalang holatida tug'ruq qanday olib boriladi?",
+   "a": [
+    "Kesar kesish yo'li bilan",
+    "Tabiiy yo'l bilan, kutib turiladi",
+    "Faqat vakuum ekstraktor bilan",
+    "Faqat qisqich bilan"
+   ],
+   "e": "Tabiiy tug'ruq mumkin emas."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Muddatidan oldingi tug'ruq qaysi muddatda sodir bo'lgan tug'ruq?",
+   "a": [
+    "22 haftadan 37 haftagacha",
+    "42 haftadan keyin",
+    "38–41 hafta oralig'ida",
+    "12 haftagacha"
+   ],
+   "e": "Muddatidan o'tgan — 42 haftadan keyin."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Muddatidan o'tgan homiladorlik qachondan hisoblanadi?",
+   "a": [
+    "42 hafta va undan ko'p",
+    "37 hafta",
+    "40 hafta",
+    "30 hafta"
+   ],
+   "e": "Homila uchun xavfli."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Tug'ruqdan keyingi erta davr qancha davom etadi?",
+   "a": [
+    "Tug'ruqdan keyingi 2 soat",
+    "Tug'ruqdan keyingi 6 hafta",
+    "Tug'ruqdan keyingi 1 yil",
+    "Tug'ruqdan keyingi 10 kun"
+   ],
+   "e": "Qon ketish xavfi yuqori."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Tug'ruqdan keyingi erta davrda onaning qorin pastiga nima qo'yiladi?",
+   "a": [
+    "Muzli xalta",
+    "Issiq grelka",
+    "Isituvchi kompress",
+    "Xantal qog'ozi"
+   ],
+   "e": "Bachadon qisqarishi uchun."
+  },
+  {
+   "b": "Tug'ruq va uni olib borish",
+   "q": "Tug'ruq zalida havo harorati qancha bo'lishi tavsiya etiladi?",
+   "a": [
+    "25–28 °C",
+    "15–16 °C",
+    "35–40 °C",
+    "10 °C"
+   ],
+   "e": "Chaqaloq sovqotmasligi uchun."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Tug'ruqdan keyingi (kech) davr qancha davom etadi?",
+   "a": [
+    "6–8 hafta (42 kun)",
+    "Tug'ruqdan keyingi 2 soat",
+    "Tug'ruqdan keyingi 1 yil",
+    "Tug'ruqdan keyingi 3 kun"
+   ],
+   "e": "Puerperal davr."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Loxiya nima?",
+   "a": [
+    "Tug'ruqdan keyingi bachadon ajralmalari",
+    "Sut bezidan ajraladigan og'iz suti",
+    "Siydikda qon paydo bo'lishi",
+    "Tug'ruqdan oldin oqadigan qog'onoq suvi"
+   ],
+   "e": "Qonli → sarg'ish → oqish."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Tug'ruqdan keyin bachadon involyutsiyasi nimani anglatadi?",
+   "a": [
+    "Bachadonning asl holatiga qaytishi",
+    "Bachadon hajmining yanada kattalashishi",
+    "Bachadon shilliq qavatining yallig'lanishi",
+    "Bachadon bo'ynining to'liq ochilishi"
+   ],
+   "e": "Kuniga 1–2 sm pasayadi."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Tug'ruqdan keyingi birinchi kunda bachadon tubi qayerda bo'ladi?",
+   "a": [
+    "Kindik darajasida",
+    "Qov ustida",
+    "Xanjarsimon o'simta darajasida",
+    "Qo'l bilan aniqlanmaydi"
+   ],
+   "e": "10–12-kunga kelib qov orqasiga yashirinadi."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Chaqaloqni ko'krakka birinchi marta qachon qo'yish tavsiya etiladi?",
+   "a": [
+    "Tug'ilgandan keyin birinchi soat ichida",
+    "Tug'ilgandan 24 soat o'tgandan keyin",
+    "Tug'ruqdan keyingi 3-kuni, sut kelganda",
+    "Faqat chaqaloq birinchi marta yig'lagandan so'ng"
+   ],
+   "e": "Erta emizish."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Og'iz suti (molozivo) ning ahamiyati nimada?",
+   "a": [
+    "Immunoglobulinlarga boy, himoyalaydi",
+    "Hech qanday foydasi yo'q, sog'ib tashlanadi",
+    "Faqat suv va tuzlardan iborat bo'ladi",
+    "Chaqaloqqa zararli, birinchi kunlar berilmaydi"
+   ],
+   "e": "Birinchi kunlar."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "JSST tavsiyasi bo'yicha faqat ko'krak suti bilan oziqlantirish qancha davom etishi kerak?",
+   "a": [
+    "6 oygacha",
+    "1 oygacha",
+    "2 yilgacha faqat sut",
+    "2 haftagacha"
+   ],
+   "e": "Keyin qo'shimcha ovqat bilan 2 yoshgacha."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "\"Teri-teriga\" kontakt nima uchun muhim?",
+   "a": [
+    "Isinish va emizishni boshlash uchun",
+    "Faqat chaqaloqni tortish va o'lchash uchun",
+    "Faqat chaqaloqni yuvintirib tozalash uchun",
+    "Hech qanday ahamiyati yo'q, an'ana xolos"
+   ],
+   "e": "Kangaroo usuli."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Laktostaz nima?",
+   "a": [
+    "Sut bezida sut dimlanib qolishi",
+    "Sutning umuman bo'lmasligi",
+    "Sut bezining yiringli yallig'lanishi",
+    "Ko'krak uchi yorilishi"
+   ],
+   "e": "Tez-tez emizish, sog'ish."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Laktatsion mastitning belgisi qaysi?",
+   "a": [
+    "Sut bezida og'riq, qizarish, isitma",
+    "Sut miqdorining keskin ko'payishi",
+    "Bachadon sohasidagi tortuvchi og'riq",
+    "Oyoqlarda kechki shish paydo bo'lishi"
+   ],
+   "e": "Davolash kerak."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Yangi tug'ilgan chaqaloq holati qaysi shkala bilan baholanadi?",
+   "a": [
+    "Apgar shkalasi",
+    "Glazgo shkalasi",
+    "Leopold usullari",
+    "Bishop shkalasi"
+   ],
+   "e": "1- va 5-daqiqada."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Apgar shkalasi qaysi belgilarni o'z ichiga oladi?",
+   "a": [
+    "Yurak urishi, nafas, tonus, reflekslar, rang",
+    "Vazn, bo'y, bosh va ko'krak aylanasi",
+    "Harorat, arterial bosim, qand, gemoglobin",
+    "Ko'z rangi, soch, tirnoq va tishlar holati"
+   ],
+   "e": "Har biri 0–2 ball."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Apgar shkalasi bo'yicha necha ball normal holat hisoblanadi?",
+   "a": [
+    "8–10 ball",
+    "0–3 ball",
+    "4–6 ball",
+    "15–20 ball"
+   ],
+   "e": "4–7 — o'rta, 0–3 — og'ir."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Yangi tug'ilgan chaqaloqning normal vazni qancha?",
+   "a": [
+    "2500–4000 g",
+    "1000–1500 g",
+    "5000–6000 g",
+    "500–1000 g"
+   ],
+   "e": "2500 g dan kam — kam vaznli."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Yangi tug'ilgan chaqaloqning normal bo'yi qancha?",
+   "a": [
+    "48–54 sm",
+    "30–35 sm",
+    "60–70 sm",
+    "40 sm"
+   ],
+   "e": "Muddatida tug'ilgan."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Chaqaloq ko'zlariga gonoblennoreya profilaktikasi uchun nima qo'llanadi?",
+   "a": [
+    "Antibakterial ko'z malhami",
+    "Oddiy qaynatilgan suv tomizish",
+    "Ko'zlarni yopiq holda bintlab qo'yish",
+    "Hech narsa qo'llanmaydi, o'zi tozalanadi"
+   ],
+   "e": "Tug'ilgandan keyin darhol."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Yangi tug'ilgan chaqaloqqa K vitamini nima uchun yuboriladi?",
+   "a": [
+    "Gemorragik kasallikning oldini olish uchun",
+    "Ko'rish o'tkirligini yaxshilash uchun",
+    "Suyaklar o'sishini tezlashtirish uchun",
+    "Tana haroratini tushirish uchun"
+   ],
+   "e": "Qon ivishi."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Tug'ruqxonada chaqaloqqa qaysi emlashlar qilinadi?",
+   "a": [
+    "Gepatit B va BCG (sil)",
+    "Qizamiq, qizilcha va parotit",
+    "Gripp va pnevmokokk infeksiyasi",
+    "Faqat difteriya va qoqshol"
+   ],
+   "e": "Milliy emlash taqvimi."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Kindik qoldig'i qanday parvarish qilinadi?",
+   "a": [
+    "Quruq va toza saqlanadi, o'z-o'zidan tushadi",
+    "Har kuni bog'lab, antibiotikli malham surtiladi",
+    "Bir haftadan keyin qo'l bilan sug'urib olinadi",
+    "Doim nam salfetka bilan yopib qo'yiladi"
+   ],
+   "e": "JSST — quruq parvarish."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Chaqaloqlarda fiziologik sariqlik odatda qachon paydo bo'ladi?",
+   "a": [
+    "2–3-kuni",
+    "Tug'ilgan zahoti birinchi soatda",
+    "1 oydan keyin",
+    "6 oyligida"
+   ],
+   "e": "7–10-kunlarda yo'qoladi."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Chaqaloqning tug'ilgandan keyingi birinchi kunlardagi vazn yo'qotishi qanday ataladi?",
+   "a": [
+    "Fiziologik vazn yo'qotish (5–8% gacha)",
+    "Patologik gipotrofiya (oziqlanish yetishmovchiligi)",
+    "Tug'ma semirish va shish",
+    "Suvsizlanish kasalligi (eksikoz)"
+   ],
+   "e": "10-kunga tiklanadi."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Chaqaloqni cho'miltirishda suv harorati qancha bo'lishi kerak?",
+   "a": [
+    "36–37 °C",
+    "20–22 °C",
+    "42–45 °C",
+    "30 °C dan past"
+   ],
+   "e": "Termometr bilan tekshiriladi."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Muddatidan oldin tug'ilgan chaqaloqni parvarishlashda asosiy vazifa nima?",
+   "a": [
+    "Issiqlik, oziqlantirish, himoya",
+    "Uni salqin xonada, kiyimsiz saqlash",
+    "Ko'krak bilan emizishni butunlay taqiqlash",
+    "Kuniga bir necha marta cho'miltirish"
+   ],
+   "e": "Kyuvez, kangaroo usuli."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Neonatal skrining nima uchun o'tkaziladi?",
+   "a": [
+    "Tug'ma kasalliklarni erta aniqlash uchun",
+    "Chaqaloq vaznini aniq aniqlash uchun",
+    "Chaqaloq bo'yini va bosh aylanasini o'lchash uchun",
+    "Chaqaloqning ko'z rangini aniqlash uchun"
+   ],
+   "e": "Tovondan qon olinadi."
+  },
+  {
+   "b": "Tug'ruqdan keyingi davr va chaqaloq parvarishi",
+   "q": "Tug'ruqdan keyin ayol qachon yurishi tavsiya etiladi (normal tug'ruqda)?",
+   "a": [
+    "4–6 soatdan keyin",
+    "10 kundan keyin",
+    "1 oydan keyin",
+    "Darhol tug'ruq stolidan tushib"
+   ],
+   "e": "Erta faollashtirish."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Homiladorlikning birinchi yarmida qon ketishning eng ko'p sababi qaysi?",
+   "a": [
+    "O'z-o'zidan bola tashlash (abort)",
+    "Yo'ldoshning oldinda kelishi",
+    "Yo'ldoshning muddatidan oldin ko'chishi",
+    "Bachadon yorilishi"
+   ],
+   "e": "Ektopik homiladorlik ham."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Bachadondan tashqari (ektopik) homiladorlik ko'pincha qayerda joylashadi?",
+   "a": [
+    "Bachadon nayida",
+    "Tuxumdonda",
+    "Qorin bo'shlig'ida",
+    "Bachadon bo'ynida"
+   ],
+   "e": "95–98%."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Bachadon nayida homiladorlik buzilganda qanday belgilar bo'ladi?",
+   "a": [
+    "Keskin og'riq, hushdan ketish, ichki qon ketish",
+    "Faqat ertalabki ko'ngil aynishi va holsizlik",
+    "Faqat bosh og'rig'i va ko'rishning xiralashuvi",
+    "Oyoqlarda shish va arterial bosim oshishi"
+   ],
+   "e": "Shoshilinch operatsiya."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Yo'ldoshning oldinda kelishining asosiy belgisi qaysi?",
+   "a": [
+    "Og'riqsiz, qaytalanuvchi, och qizil qon ketish",
+    "Kuchli og'riq bilan to'q, ivigan qon ketish",
+    "Qog'onoq suvining yashil rangda oqishi",
+    "Tutqanoq xurujlari va hushdan ketish"
+   ],
+   "e": "Homiladorlikning ikkinchi yarmida."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Yo'ldosh oldinda kelganda nima qilish mumkin emas?",
+   "a": [
+    "Qin orqali ichki tekshiruv",
+    "Ayolni gorizontal holatda yotqizish",
+    "Zudlik bilan shifokorni chaqirish",
+    "Qon bosimi va pulsni o'lchab borish"
+   ],
+   "e": "Qon ketishni kuchaytiradi."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Normal joylashgan yo'ldoshning muddatidan oldin ko'chishi qanday belgilar bilan kechadi?",
+   "a": [
+    "Kuchli og'riq, bachadon taranglashishi",
+    "Og'riqsiz, qaytalanuvchi och qizil qon ketish",
+    "Faqat siydik miqdorining ko'payishi",
+    "Faqat yo'tal va hansirash paydo bo'lishi"
+   ],
+   "e": "Preeklampsiya fonida ko'p."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Tug'ruqdan keyingi qon ketishning eng ko'p sababi qaysi?",
+   "a": [
+    "Bachadon atoniyasi (qisqarmasligi)",
+    "Ona va homila qon guruhining mos kelmasligi",
+    "Homiladorlikdagi temir tanqisligi anemiyasi",
+    "Arterial bosimning me'yordan yuqoriligi"
+   ],
+   "e": "\"4T\" — tonus, to'qima, travma, trombin."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Tug'ruqdan keyingi qon ketishning \"4T\" sabablariga nimalar kiradi?",
+   "a": [
+    "Tonus, to'qima, travma, trombin",
+    "Temperatura, taxikardiya, tremor, toksikoz",
+    "Tug'ruq, tana, tomir, terlash",
+    "Toshma, titroq, tirishish, tutilish"
+   ],
+   "e": "Bachadon tonusi, qolgan to'qima, yirtilish, ivish buzilishi."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Bachadon atoniyasida hamshiraning birinchi harakati nima?",
+   "a": [
+    "Bachadonni tashqi uqalash",
+    "Ayolga issiq choy va ovqat berish",
+    "Ayolni o'rnidan turg'izib yurgizish",
+    "Qorin pastiga issiq grelka qo'yish"
+   ],
+   "e": "Uterotoniklar, muz."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Bachadon atoniyasida qaysi dori qo'llanadi?",
+   "a": [
+    "Oksitotsin",
+    "Magniy sulfat",
+    "Atropin",
+    "Furosemid"
+   ],
+   "e": "Uterotonik."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Qog'onoq suvining muddatidan oldin ketishi qanday xavf tug'diradi?",
+   "a": [
+    "Infeksiya va erta tug'ruq",
+    "Homila vaznining tez oshib ketishi",
+    "Ona arterial bosimining pasayishi",
+    "Hech qanday xavf tug'dirmaydi"
+   ],
+   "e": "Kuzatuv, antibiotik."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Qog'onoq suvi yashil rangda bo'lsa nimani bildiradi?",
+   "a": [
+    "Homila gipoksiyasi belgisi",
+    "Normal holat, xavotirga o'rin yo'q",
+    "Infeksiya yo'qligini ko'rsatadi",
+    "Tug'ruq tugaganini bildiradi"
+   ],
+   "e": "Homila holati baholanadi."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Homila gipoksiyasining belgisi qaysi?",
+   "a": [
+    "Yurak urishi 110 dan kam yoki 160 dan ko'p",
+    "Yurak urishi 140 marta, harakat normal",
+    "Onaning ishtahasi keskin ortishi",
+    "Ona arterial bosimining normalligi"
+   ],
+   "e": "Ona harakatni sanaydi."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Tor chanoqning anatomik belgisi qaysi?",
+   "a": [
+    "Haqiqiy kon'yugata 11 sm dan kichik",
+    "Haqiqiy kon'yugata 13 sm bo'lishi",
+    "Tashqi kon'yugata 20–21 sm bo'lishi",
+    "Distantia spinarum 25–26 sm bo'lishi"
+   ],
+   "e": "Darajalarga bo'linadi."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Ko'p suvlilik (polihidramnion) da qanday asorat bo'lishi mumkin?",
+   "a": [
+    "Noto'g'ri holat, kindik tushishi",
+    "Faqat homila vaznining kamayishi",
+    "Faqat onaning ishtahasi ortishi",
+    "Hech qanday asorat kuzatilmaydi"
+   ],
+   "e": "Qandli diabet, nuqsonlar bilan bog'liq."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Egizak homiladorlik qaysi tekshiruv bilan ishonchli aniqlanadi?",
+   "a": [
+    "Ultratovush tekshiruvi",
+    "Umumiy qon tahlili",
+    "Siydik tahlili",
+    "Qon bosimini o'lchash"
+   ],
+   "e": "Ikki homila tasviri."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Kindik tushganda (prolaps) hamshira nima qiladi?",
+   "a": [
+    "Tizza-tirsak holati va shoshilinch yordam",
+    "Kindikni qin ichiga qo'l bilan qayta itaradi",
+    "Ayolni o'rnidan turg'izib yurgizadi",
+    "Hech narsa qilmay, tug'ruqni kutib turadi"
+   ],
+   "e": "Kindik bosilmasligi uchun."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Tug'ruqdan keyingi septik asoratlarning oldini olish uchun asosiy chora qaysi?",
+   "a": [
+    "Aseptika va antiseptikaga rioya",
+    "Ayolni ko'p va to'yimli ovqatlantirish",
+    "Ayolni tug'ruqdan keyin uzoq yotqizish",
+    "Chaqaloqni onadan alohida saqlash"
+   ],
+   "e": "Qo'l gigiyenasi."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Tug'ruqdan keyingi endometritning belgisi qaysi?",
+   "a": [
+    "Isitma, og'riq, loxiya hidi",
+    "Sut ajralishining keskin ko'payishi",
+    "Ishtahaning oshishi va uyquchanlik",
+    "Faqat bosh aylanishi, isitmasiz"
+   ],
+   "e": "3–5-kunlarda."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Gipertenziv holatlarda homilador ayolga qanday parvarish beriladi?",
+   "a": [
+    "Tinch muhit, bosim va oqsil nazorati",
+    "Shovqinli, yorug' xonada saqlash",
+    "Ko'p tuzli, sho'r ovqat berish",
+    "Kuchli jismoniy yuklama tavsiya qilish"
+   ],
+   "e": "Preeklampsiya kuzatuvi."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Bachadon yorilish xavfi qaysi holatda yuqori?",
+   "a": [
+    "Bachadonda chandiq bo'lganda",
+    "Birinchi homiladorlik va yosh ona bo'lganda",
+    "Chanoq o'lchamlari me'yorda bo'lganda",
+    "Homila kichik vaznli bo'lganda"
+   ],
+   "e": "Kuzatuv."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Homila o'lik tug'ilishi (antenatal o'lim) belgisi qaysi?",
+   "a": [
+    "Harakat va yurak urishi yo'qolishi",
+    "Homila harakatining kuchayishi",
+    "Qorin hajmining tez oshishi",
+    "Ona ishtahasining oshishi"
+   ],
+   "e": "UTT bilan tasdiqlanadi."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Homiladorlikda qusish og'ir kechsa (gipermezis) qanday xavf bor?",
+   "a": [
+    "Suvsizlanish va elektrolit buzilishi",
+    "Ishtaha oshib, tez semirib ketish",
+    "Arterial bosimning keskin oshib ketishi",
+    "Homilaning juda tez o'sishi"
+   ],
+   "e": "Statsionar davolash."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Homiladorlikda pielonefritning belgisi qaysi?",
+   "a": [
+    "Isitma, bel og'rig'i, dizuriya",
+    "Faqat ertalabki ko'ngil aynishi",
+    "Faqat oyoqlarda kechki shish",
+    "Faqat bosh og'rig'i, isitmasiz"
+   ],
+   "e": "Siydik tahlili."
+  },
+  {
+   "b": "Akusherlik patologiyasi va qon ketishlar",
+   "q": "Muddatidan oldingi tug'ruq xavfida chaqaloq o'pkasini yetiltirish uchun nima yuboriladi?",
+   "a": [
+    "Kortikosteroidlar",
+    "Oksitotsin (bachadon qisqartiruvchi)",
+    "Insulin (qisqa ta'sirli)",
+    "Magniy sulfat (yolg'iz o'zi)"
+   ],
+   "e": "24–34 haftada."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Amenoreya nima?",
+   "a": [
+    "6 oy va undan ortiq hayz bo'lmasligi",
+    "Hayzning qattiq og'riq bilan kechishi",
+    "Hayzning ko'p qon va laxtalar bilan kechishi",
+    "Hayzlar oralig'ida qonli ajralma kelishi"
+   ],
+   "e": "Birlamchi va ikkilamchi."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Algomenoreya (dismenoreya) nima?",
+   "a": [
+    "Og'riqli hayz",
+    "Hayzning bo'lmasligi",
+    "Hayzning juda kam kelishi",
+    "Hayzning tez-tez kelishi"
+   ],
+   "e": "Davolash simptomatik."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Menorragiya nima?",
+   "a": [
+    "Ko'p va uzoq davom etuvchi hayz",
+    "Hayzning 6 oy davomida umuman bo'lmasligi",
+    "Hayzning kuchli og'riq bilan kechishi",
+    "Hayzlar oralig'ida qonli ajralma kelishi"
+   ],
+   "e": "Anemiyaga olib keladi."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Metrorragiya nima?",
+   "a": [
+    "Siklga bog'liq bo'lmagan qon ketish",
+    "Hayzning ko'p va uzoq kelishi",
+    "Hayzning og'riq bilan kechishi",
+    "Hayzning bir necha kunga kechikishi"
+   ],
+   "e": "Atsiklik qon ketish."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Kolpit (vaginit) nima?",
+   "a": [
+    "Qin shilliq qavatining yallig'lanishi",
+    "Bachadon bo'ynining yallig'lanishi",
+    "Tuxumdonning yallig'lanishi",
+    "Bachadon nayining yallig'lanishi"
+   ],
+   "e": "Bel ketishi, qichishish."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Salpingoofarit (adneksit) nima?",
+   "a": [
+    "Bachadon ortiqlari yallig'lanishi",
+    "Qin shilliq qavatining yallig'lanishi",
+    "Sut bezining yiringli yallig'lanishi",
+    "Siydik pufagining yallig'lanishi"
+   ],
+   "e": "Bepushtlik sababi."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Endometrit nima?",
+   "a": [
+    "Bachadon shilliq qavatining yallig'lanishi",
+    "Bachadon mushak qavatining xavfsiz o'smasi",
+    "Qin shilliq qavatining yallig'lanishi",
+    "Tuxumdonda suyuqlikli kista hosil bo'lishi"
+   ],
+   "e": "Ko'pincha abort yoki tug'ruqdan keyin."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Bachadon miomasi nima?",
+   "a": [
+    "Bachadon mushak qavatining xavfsiz o'smasi",
+    "Bachadon bo'ynining xavfli o'smasi (saraton)",
+    "Tuxumdonda suyuqlikli kista hosil bo'lishi",
+    "Qin shilliq qavatining yallig'lanishi"
+   ],
+   "e": "Leyomioma."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Bachadon miomasining asosiy belgisi qaysi?",
+   "a": [
+    "Ko'p va uzoq hayz, qorin pastida og'irlik",
+    "Faqat yuqori isitma va titroq",
+    "Faqat quruq yo'tal va hansirash",
+    "Faqat bosh aylanishi va holsizlik"
+   ],
+   "e": "Anemiya."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Endometrioz nima?",
+   "a": [
+    "Endometriy to'qimasining bachadondan tashqarida o'sishi",
+    "Bachadon shilliq qavatining o'tkir yallig'lanishi",
+    "Tuxumdonning xavfli o'smasi (saraton)",
+    "Menopauzada qin shilliq qavatining qurishi"
+   ],
+   "e": "Og'riq va bepushtlik."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Tuxumdon kistasi oyoqchasi buralganda qanday belgi bo'ladi?",
+   "a": [
+    "To'satdan kuchli og'riq, qusish",
+    "Og'riqsiz, qaytalanuvchi qon ketish",
+    "Hayz miqdorining ko'payishi",
+    "Bosh og'rig'i va ko'ngil aynishi"
+   ],
+   "e": "Shoshilinch operatsiya."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Bachadon bo'yni saratoni rivojlanishida asosiy xavf omili qaysi?",
+   "a": [
+    "Inson papillomavirusi (VPCh, HPV)",
+    "Gripp virusi (A va B)",
+    "Ichak tayoqchasi (E. coli)",
+    "Oltin rang stafilokokk"
+   ],
+   "e": "16 va 18 turlari."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Bachadon bo'yni saratonining oldini olishda qaysi emlash qo'llanadi?",
+   "a": [
+    "VPChga qarshi emlash (qizlarga)",
+    "BCG (silga qarshi) emlashi",
+    "Grippga qarshi mavsumiy emlash",
+    "Qizamiq va qizilchaga qarshi emlash"
+   ],
+   "e": "O'zbekistonda 9–14 yoshli qizlar."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Bachadon bo'yni saratonini erta aniqlash uchun qaysi tekshiruv o'tkaziladi?",
+   "a": [
+    "PAP-test (sitologik surtma)",
+    "Umumiy qon tahlili",
+    "Umumiy siydik tahlili",
+    "Elektrokardiografiya (EKG)"
+   ],
+   "e": "Skrining."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Sut bezi saratonini erta aniqlashda qaysi usul qo'llanadi?",
+   "a": [
+    "O'z-o'zini tekshirish, mammografiya",
+    "Faqat arterial bosimni o'lchash",
+    "Faqat umumiy siydik tahlili",
+    "Faqat elektrokardiografiya (EKG)"
+   ],
+   "e": "40 yoshdan keyin mammografiya."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Bepushtlik deb qachon aytiladi?",
+   "a": [
+    "1 yil davomida homiladorlik bo'lmasa",
+    "1 oy davomida homiladorlik bo'lmasa",
+    "Birinchi hayzdan keyin darhol",
+    "Faqat 40 yoshdan keyin"
+   ],
+   "e": "Erkak va ayol omili."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Qin kandidozining (molochnitsa) asosiy belgisi qaysi?",
+   "a": [
+    "Oq, pishloqsimon ajralma va qichishish",
+    "Sariq-yashil, ko'pikli ajralma",
+    "Qonli, jigarrang ajralma",
+    "Ajralmaning umuman bo'lmasligi"
+   ],
+   "e": "Zamburug'li infeksiya."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Trixomoniazning ajralmasi qanday bo'ladi?",
+   "a": [
+    "Sariq-yashil, ko'pikli",
+    "Oq, quyuq, pishloqsimon",
+    "Tiniq, hidsiz, oz miqdorda",
+    "Qonli, quyuq va jigarrang"
+   ],
+   "e": "Jinsiy yo'l bilan yuqadi."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Jinsiy yo'l bilan yuqadigan infeksiyalarga qaysilar kiradi?",
+   "a": [
+    "Gonoreya, sifilis, xlamidioz, trixomoniaz",
+    "Gripp, angina va o'tkir bronxit",
+    "Gepatit A va bakterial dizenteriya",
+    "Qizamiq, suvchechak va qizilcha"
+   ],
+   "e": "Profilaktika — himoya vositalari."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Klimakterik sindromning belgisi qaysi?",
+   "a": [
+    "Issiqlik \"to'lqinlari\", terlash, asabiylik",
+    "Hayz miqdorining keskin ko'payishi",
+    "Faqat ishtahaning butunlay yo'qolishi",
+    "Uzoq davom etadigan quruq yo'tal"
+   ],
+   "e": "Menopauza atrofida."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Ginekologik ko'rik uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Ginekologik ko'zgu (Kusko ko'zgusi)",
+    "Laringoskop (hiqildoq uchun)",
+    "Otoskop (quloq uchun)",
+    "Tazomer (chanoq o'lchash uchun)"
+   ],
+   "e": "Bimanual tekshiruv ham."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Ginekologik ko'rikdan oldin ayol nima qilishi kerak?",
+   "a": [
+    "Siydik pufagini bo'shatishi",
+    "1 litr suv ichib kelishi",
+    "Ko'rikdan oldin to'yib ovqatlanishi",
+    "Sport mashg'ulotidan keyin kelishi"
+   ],
+   "e": "Aniq tekshiruv uchun."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Qin gumbazi orqali punksiya (kuldotsentez) qachon qo'llanadi?",
+   "a": [
+    "Qorin bo'shlig'ida qonga gumon bo'lganda",
+    "Hayz og'rig'ini davolash maqsadida",
+    "Homiladorlikni erta aniqlash maqsadida",
+    "Sut ajralishini ko'paytirish maqsadida"
+   ],
+   "e": "Ektopik homiladorlikda."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Kolposkopiya nima?",
+   "a": [
+    "Bachadon bo'ynini kattalashtirib ko'rish",
+    "Qorin bo'shlig'ini kesib, ko'z bilan tekshirish",
+    "Sut bezini rentgen nurlari bilan tekshirish",
+    "Siydik pufagini endoskop bilan ko'rish"
+   ],
+   "e": "Kolposkop."
+  },
+  {
+   "b": "Ginekologik kasalliklar",
+   "q": "Abortdan keyingi asoratlarga qaysilar kiradi?",
+   "a": [
+    "Qon ketish, infeksiya, bepushtlik",
+    "Ishtahaning ortishi va semirish",
+    "Bo'yning o'sishi",
+    "Ko'rishning yaxshilanishi"
+   ],
+   "e": "Xavfsiz abort qonun doirasida."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Oilani rejalashtirishning asosiy maqsadi nima?",
+   "a": [
+    "Farzandlar soni va oralig'ini ongli tanlash",
+    "Tug'ilishni davlat tomonidan butunlay to'xtatish",
+    "Faqat erkaklar reproduktiv salomatligini saqlash",
+    "Faqat keksa yoshdagilarni parvarish qilish"
+   ],
+   "e": "Ona va bola salomatligi."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Tug'ruqlar orasidagi optimal interval qancha bo'lishi tavsiya etiladi?",
+   "a": [
+    "Kamida 2–3 yil",
+    "3–6 oy (tezroq tug'ish uchun)",
+    "Kamida 10 yil",
+    "1 oy, oraliq ahamiyatsiz"
+   ],
+   "e": "Ona organizmi tiklanishi uchun."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Bachadon ichi vositasi (spiral) qanday kontratseptiv usulga kiradi?",
+   "a": [
+    "Uzoq muddatli qaytar usul",
+    "Doimiy (qaytmas) jarrohlik usuli",
+    "Faqat shoshilinch kontratseptsiya usuli",
+    "Tabiiy (kalendar) usul"
+   ],
+   "e": "5–10 yil."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Kombinatsiyalangan og'iz kontratseptivlari tarkibida nima bor?",
+   "a": [
+    "Estrogen va progestagen",
+    "Faqat oksitotsin gormoni",
+    "Faqat insulin va glyukoza",
+    "Keng spektrli antibiotik"
+   ],
+   "e": "Ovulyatsiyani to'xtatadi."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Laktatsion amenoreya usuli (LAM) qachon samarali?",
+   "a": [
+    "Chaqaloq 6 oygacha, faqat ko'krak suti",
+    "Chaqaloq 2 yoshga to'lgan bo'lsa ham",
+    "Aralash yoki sun'iy oziqlantirishda ham",
+    "Hayz tiklangandan keyin ham"
+   ],
+   "e": "Uchta shart."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Prezervativning boshqa usullardan afzalligi nima?",
+   "a": [
+    "JYYI va OIVdan ham himoya qiladi",
+    "100% samaradorlik",
+    "Bir marta ishlatib, abadiy himoya",
+    "Faqat ayollar ishlatadi"
+   ],
+   "e": "Ikki tomonlama himoya."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Shoshilinch kontratseptsiya qachon qo'llanadi?",
+   "a": [
+    "Himoyasiz aloqadan keyin 72–120 soat ichida",
+    "Faqat homiladorlik tasdiqlangandan keyin",
+    "Faqat hayz kunlarida, har oy",
+    "Muntazam ravishda har kuni ertalab"
+   ],
+   "e": "Doimiy usul sifatida emas."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Ayollar jarrohlik sterilizatsiyasi qanday usul?",
+   "a": [
+    "Bachadon naylarini bog'lash (doimiy usul)",
+    "Bachadon ichiga spiral qo'yish",
+    "Har kuni gormonal tabletka ichish",
+    "Erkak prezervativini qo'llash"
+   ],
+   "e": "Qaytmas."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Reproduktiv yosh qaysi oraliqda hisoblanadi?",
+   "a": [
+    "15–49 yosh",
+    "5–10 yosh",
+    "60–80 yosh",
+    "50–70 yosh"
+   ],
+   "e": "Statistik ko'rsatkich."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Homiladorlikka tayyorgarlik (prekonsepsion) davrida nima tavsiya etiladi?",
+   "a": [
+    "Foliy kislotasi va sog'lom turmush",
+    "Spirtli ichimliklarni muntazam iste'mol qilish",
+    "Chekishni davom ettirish yoki ko'paytirish",
+    "Hech qanday tayyorgarlik talab qilinmaydi"
+   ],
+   "e": "3 oy oldin."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Onalar o'limi deganda nima tushuniladi?",
+   "a": [
+    "Homiladorlik, tug'ruq va 42 kun ichidagi o'lim",
+    "Faqat tug'ruq jarayonidagi o'lim",
+    "Ayollarning istalgan sabab bilan o'limi",
+    "Faqat 1 yoshgacha bo'lgan bolalar o'limi"
+   ],
+   "e": "100 000 tirik tug'ilishga."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Perinatal davr qaysi muddatni o'z ichiga oladi?",
+   "a": [
+    "22-haftadan tug'ilgandan keyingi 7 kungacha",
+    "Faqat tug'ruq jarayonining o'zi",
+    "Tug'ilgandan keyingi birinchi 1 yil",
+    "Faqat homiladorlikning birinchi trimestri"
+   ],
+   "e": "Perinatal o'lim ko'rsatkichi."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Neonatal davr qancha davom etadi?",
+   "a": [
+    "Tug'ilgandan keyingi 28 kun",
+    "Tug'ilgandan keyingi 1 yil",
+    "Tug'ilgandan keyingi 7 kun",
+    "Tug'ilgandan keyingi 3 yil"
+   ],
+   "e": "Yangi tug'ilgan chaqaloqlik davri."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "\"Xavf guruhidagi\" homiladorlarga kimlar kiradi?",
+   "a": [
+    "Surunkali kasallik yoki 35 yoshdan katta",
+    "Faqat sog'lom, 25 yoshli ayollar",
+    "Faqat birinchi marta homilador bo'lganlar",
+    "Faqat bo'yi baland, vazni normal ayollar"
+   ],
+   "e": "Kuchaytirilgan kuzatuv."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Homiladorlikda qaysi odat homilaga eng zararli?",
+   "a": [
+    "Chekish va spirtli ichimlik iste'mol qilish",
+    "Toza havoda muntazam sayr qilish",
+    "Sabzavot va mevalarni ko'p iste'mol qilish",
+    "Kechasi kamida 8 soat uxlash"
+   ],
+   "e": "Homila rivojlanishi buziladi."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Homiladorlikda yengil jismoniy faollik haqida qaysi fikr to'g'ri?",
+   "a": [
+    "Asoratsiz homiladorlikda yengil jismoniy faollik foydali",
+    "Har qanday jismoniy faollik butunlay taqiqlanadi",
+    "Faqat og'ir atletika va intensiv sport foydali",
+    "Faqat yotib dam olish tavsiya etiladi"
+   ],
+   "e": "Yurish, suzish."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "\"Onalar maktabi\" ning asosiy vazifasi nima?",
+   "a": [
+    "Tug'ruqqa va chaqaloq parvarishiga tayyorlash",
+    "Ayollarni yangi kasbga o'qitish va ishga joylash",
+    "Bolalarni maktabga tayyorlash va o'qitish",
+    "Oila byudjetini rejalashtirishni o'rgatish"
+   ],
+   "e": "Psixoprofilaktik tayyorgarlik."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Homiladorlikda tishlarni davolash haqida qaysi fikr to'g'ri?",
+   "a": [
+    "Og'iz bo'shlig'i sanatsiyasi o'tkazilishi kerak",
+    "Homiladorlikda tishlarni umuman davolash mumkin emas",
+    "Tishlarni faqat tug'ruqdan keyin 5 yil o'tgach davolash",
+    "Og'iz gigiyenasi muhim emas"
+   ],
+   "e": "Infeksiya o'chog'i."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Homilador ayolning sutkalik ovqat ratsionida nimaga e'tibor beriladi?",
+   "a": [
+    "Muvozanatli, oqsil va vitaminga boy ovqat",
+    "Faqat shirinliklar va un mahsulotlari",
+    "Faqat yog'li va qovurilgan ovqatlar",
+    "Ovqat miqdorini keskin cheklash"
+   ],
+   "e": "Kuniga 4–5 mahal."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Homiladorlikda tana vaznining umumiy normal oshishi qancha?",
+   "a": [
+    "Taxminan 10–12 kg",
+    "30–40 kg",
+    "1–2 kg",
+    "Vazn umuman oshmasligi kerak"
+   ],
+   "e": "TVI ga qarab."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Homiladorlikda qaysi dori vositalarini qabul qilish mumkin?",
+   "a": [
+    "Faqat shifokor buyurganlarini",
+    "Istalgan dorini mustaqil ravishda",
+    "Barcha antibiotiklarni cheklovsiz",
+    "Faqat televizorda reklama qilinganlarini"
+   ],
+   "e": "Teratogen ta'sir."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Teratogen omil nima?",
+   "a": [
+    "Tug'ma nuqsonlarni keltirib chiqaruvchi omil",
+    "Homila o'sishini tezlashtiruvchi vitamin",
+    "Tug'ruqni yengillashtiruvchi gormon",
+    "Chaqaloq vaznini oshiruvchi modda"
+   ],
+   "e": "Dorilar, nurlanish, infeksiyalar."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Qaysi infeksiya homiladorlikda homila uchun ayniqsa xavfli (TORCH)?",
+   "a": [
+    "Qizilcha (rubella)",
+    "Oddiy tumov (rinit)",
+    "Tish kariyesi",
+    "Oyoq kafti zamburug'i"
+   ],
+   "e": "Toksoplazma, qizilcha, sitomegalovirus, gerpes."
+  },
+  {
+   "b": "Oilani rejalashtirish va reproduktiv salomatlik",
+   "q": "Ona-bola skriningi doirasida homiladorlikda qanday UTT skrininglari o'tkaziladi?",
+   "a": [
+    "11–14, 18–21 va 30–34 haftalarda",
+    "Faqat tug'ruqdan bir kun oldin",
+    "Faqat homiladorlikning 4-haftasida",
+    "UTT umuman o'tkazilmaydi"
+   ],
+   "e": "Uch marta."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Qinni yuvish (spritsevaniye) uchun eritma harorati qancha bo'lishi kerak?",
+   "a": [
+    "37–38 °C",
+    "10–15 °C, sovuq holda",
+    "50–55 °C, issiq holda",
+    "20 °C, xona haroratida"
+   ],
+   "e": "Shifokor buyrug'i bilan."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Tashqi jinsiy a'zolar gigiyenik tozalovi qaysi yo'nalishda bajariladi?",
+   "a": [
+    "Oldindan orqaga",
+    "Orqadan oldinga, anus tomondan",
+    "Aylanma harakatlar bilan, tartibsiz",
+    "Pastdan yuqoriga, oraliqdan qovga"
+   ],
+   "e": "Ichak infeksiyasi tushmasligi uchun."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Tug'ruqdan keyin oraliq choklari qanday parvarish qilinadi?",
+   "a": [
+    "Toza, quruq saqlanadi, antiseptik bilan ishlanadi",
+    "Choklar issiq kompress bilan isitiladi",
+    "Ayol choklar ustiga o'tirishi tavsiya etiladi",
+    "Parvarish talab qilinmaydi, o'zi bitadi"
+   ],
+   "e": "Choklar 5-kuni olinadi (so'rilmaydiganlar)."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Tug'ruqdan keyingi ayolga gigiyenik prokladka qanchada almashtiriladi?",
+   "a": [
+    "Har 2–4 soatda yoki ifloslanganda",
+    "Sutkasiga bir marta, faqat ertalab",
+    "Uch kunda bir marta, cho'milganda",
+    "Faqat kasalxonadan chiqish kuni"
+   ],
+   "e": "Infeksiya profilaktikasi."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Homilador ayolda qorin aylanasi qayerda o'lchanadi?",
+   "a": [
+    "Kindik sohasida",
+    "Qov simfizi ustida",
+    "Xanjarsimon o'simta darajasida",
+    "Qovurg'alar ostidan"
+   ],
+   "e": "Homila vaznini taxminlash."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Jordaniya formulasi bo'yicha homila vazni qanday taxminlanadi?",
+   "a": [
+    "Qorin aylanasi × bachadon tubi",
+    "Qorin aylanasi + ona vazni",
+    "Ona bo'yi × ona vazni",
+    "Bachadon tubi balandligi ÷ 2"
+   ],
+   "e": "Grammda."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Homilador ayolning arterial bosimi qaysi qo'lda o'lchanadi?",
+   "a": [
+    "Ikkala qo'lda",
+    "Faqat chap qo'lda, bir marta",
+    "Faqat oyoqda",
+    "O'lchanmaydi"
+   ],
+   "e": "Farq aniqlanadi."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Homiladorlikda yashirin shishlarni aniqlash uchun nima nazorat qilinadi?",
+   "a": [
+    "Haftalik vazn ortishi va sutkalik diurez",
+    "Faqat soch o'sishi va to'kilishi",
+    "Faqat tirnoqlar rangi va shakli",
+    "Faqat ko'z oqining rangi"
+   ],
+   "e": "Haftasiga 300–400 g dan ko'p — patologik."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Homiladorlikda siydikda oqsil qanday usul bilan tekshiriladi?",
+   "a": [
+    "Umumiy siydik tahlili yoki test-chiziqcha bilan",
+    "Arterial bosimni ikkala qo'lda o'lchash bilan",
+    "Siydik rangiga faqat ko'z bilan qarab",
+    "Buyraklarni rentgen tekshiruvi bilan"
+   ],
+   "e": "Proteinuriya."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Kardiotokografiya (KTG) nimani qayd etadi?",
+   "a": [
+    "Homila yurak urishi va bachadon qisqarishlarini",
+    "Ona bosh miyasining elektr faoliyatini",
+    "Ona o'pkasining tiriklik sig'imini",
+    "Homilaning taxminiy vazni va bo'yini"
+   ],
+   "e": "Homila holatini baholash."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Amniotomiya nima?",
+   "a": [
+    "Qog'onoq pardasini sun'iy ochish",
+    "Bachadon devorini kesish",
+    "Kindik tizimchasini kesish",
+    "Oraliqni kesish (epiziotomiya)"
+   ],
+   "e": "Tug'ruqni induksiyalash."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Bachadon bo'shlig'ini qirish (kyuretaj) qanday maqsadda bajariladi?",
+   "a": [
+    "Tashxis yoki davolash maqsadida",
+    "Faqat kosmetik maqsadda",
+    "Homiladorlikni saqlab qolish uchun",
+    "Tug'ruqni tezlashtirish uchun"
+   ],
+   "e": "Gisteroskopiya bilan birga."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Ginekologik operatsiyadan oldin ayol qanday tayyorlanadi?",
+   "a": [
+    "Tahlillar, qin sanatsiyasi, huqna, och qoringa",
+    "Ko'p ovqat berish va suv cheklanmaydi",
+    "Hech qanday tayyorgarlik ko'rilmaydi",
+    "Faqat sochini yuvish"
+   ],
+   "e": "Umumiy jarrohlik tayyorgarligi."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Mastitning oldini olish uchun emizikli onaga nima tavsiya etiladi?",
+   "a": [
+    "To'g'ri emizish va sut bezini to'liq bo'shatish",
+    "Emizishni darhol butunlay to'xtatish",
+    "Sut bezini bint bilan qattiq bog'lash",
+    "Ko'krakni har kuni sovuq suvda yuvish"
+   ],
+   "e": "Ko'krak uchi yorilishining oldini olish."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Chaqaloqni ko'krakka to'g'ri qo'yish belgisi qaysi?",
+   "a": [
+    "Og'iz keng ochiq, areolani qamragan",
+    "Chaqaloq faqat ko'krak uchini so'radi",
+    "Chaqaloqning pastki labi ichkariga burilgan",
+    "So'rganda chapillatib, onaga og'riq beradi"
+   ],
+   "e": "To'g'ri ushlash."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Ko'krak sutini saqlash muddati xona haroratida qancha?",
+   "a": [
+    "4–6 soatgacha",
+    "3 kungacha",
+    "1 haftagacha",
+    "1 oygacha"
+   ],
+   "e": "Muzlatkichda 3–5 kun."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Tug'ruqdan keyingi depressiyaning belgisi qaysi?",
+   "a": [
+    "Tushkunlik, uyqusizlik, befarqlik",
+    "Ishtahaning oshishi va doimiy quvonch",
+    "Faqat ertalabki bosh og'rig'i",
+    "Faqat oyoqlardagi og'riq va charchoq"
+   ],
+   "e": "Psixologik yordam."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Chaqaloqni sovuqqotishdan (gipotermiya) saqlash uchun nima qilinadi?",
+   "a": [
+    "Quritiladi, onaga qo'yiladi, o'raladi",
+    "Darhol cho'miltirilib, salqin xonaga olinadi",
+    "Kiyimsiz, ochiq yo'rgakda qoldiriladi",
+    "Derazasi ochiq, shamollatilgan xonada saqlanadi"
+   ],
+   "e": "\"Issiq zanjir\"."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Kindik tizimchasini kesish qachon tavsiya etiladi (JSST)?",
+   "a": [
+    "Pulsatsiya to'xtagach",
+    "Tug'ilgan zahoti, 1 soniya ichida",
+    "Tug'ilgandan 1 soat o'tgach",
+    "Tug'ilgandan 1 kun o'tgach"
+   ],
+   "e": "Kechiktirilgan kesish."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Chaqaloqni birinchi marta cho'miltirish qachon tavsiya etiladi?",
+   "a": [
+    "Tug'ilgandan kamida 24 soat o'tgach",
+    "Tug'ilgan zahoti, darhol",
+    "Tug'ilgandan 1 oy o'tgach",
+    "Kindik qoldig'i tushgandan 1 oy keyin"
+   ],
+   "e": "Gipotermiyaning oldini olish."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Tug'ruqdan keyin kasalxonadan chiqarishda onaga nima tushuntiriladi?",
+   "a": [
+    "Xavfli belgilar, emizish, parvarish",
+    "Faqat chaqaloqqa qo'yiladigan ism",
+    "Faqat ovqat tayyorlash retseptlari",
+    "Hech narsa tushuntirilmaydi"
+   ],
+   "e": "Patronaj."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Tug'ruqdan keyingi davrda xavfli belgi qaysi?",
+   "a": [
+    "Ko'p qon ketish, yuqori isitma",
+    "Normal, kamayib boruvchi loxiya ajralishi",
+    "Sut kelishi va sut bezlarining to'lishi",
+    "Bachadonning asta-sekin qisqarishi"
+   ],
+   "e": "Darhol shifokorga murojaat."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Homilador ayolda pastki oyoq venalarining varikozida nima tavsiya etiladi?",
+   "a": [
+    "Kompression paypoq, oyoqlarni ko'tarish",
+    "Uzoq vaqt tik turib ishlash",
+    "Har kuni issiq vanna qabul qilish",
+    "Oyoqlarni pastga osiltirib o'tirish"
+   ],
+   "e": "Tromboz profilaktikasi."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Homiladorlikning oxirgi oylarida ayol chalqancha yotganda bosh aylanishi va bosim tushishi nima bilan bog'liq?",
+   "a": [
+    "Bachadon pastki kovak venani bosishi bilan",
+    "Ovqat yetishmasligi va qand pasayishi bilan",
+    "Ko'p suyuqlik ichish va shish bilan",
+    "Uyquning ko'pligi va kam harakat bilan"
+   ],
+   "e": "Chap yonboshlab yotish tavsiya etiladi."
+  },
+  {
+   "b": "Akusherlik-ginekologik manipulyatsiyalar va parvarish",
+   "q": "Homilador ayolga qaysi yonboshda yotish tavsiya etiladi (oxirgi trimestr)?",
+   "a": [
+    "Chap yonboshda",
+    "Faqat chalqancha",
+    "Faqat qorin bilan",
+    "O'ng yonboshda doim"
+   ],
+   "e": "Qon aylanishi yaxshilanadi."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Homila bosh suyagidagi katta liqildoq qanday shaklda?",
+   "a": [
+    "Romb",
+    "Uchburchak",
+    "Doira",
+    "Kvadrat"
+   ],
+   "e": "Kichik liqildoq — uchburchak."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Kichik liqildoq qanday shaklda?",
+   "a": [
+    "Uchburchak",
+    "Romb shaklida, katta",
+    "Doira shaklida",
+    "To'g'ri to'rtburchak shaklida"
+   ],
+   "e": "Ensa sohasida."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Katta liqildoq odatda qachon yopiladi?",
+   "a": [
+    "12–18 oyligida",
+    "Tug'ilgandan keyin 1 haftada",
+    "5 yoshda",
+    "10 yoshda"
+   ],
+   "e": "Kichigi 2–3 oyda."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Homila boshining ensa bilan oldinda kelishida tug'ilish qaysi o'lcham bilan sodir bo'ladi?",
+   "a": [
+    "Kichik qiyshiq o'lcham (9,5 sm)",
+    "Katta qiyshiq o'lcham (13,5 sm)",
+    "To'g'ri o'lcham (12 sm)",
+    "Vertikal o'lcham (9,5 sm, yuz bilan)"
+   ],
+   "e": "Eng qulay o'lcham."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Homilaning chanoqdagi joylashuvini ifodalovchi tushunchalar qaysilar?",
+   "a": [
+    "Holat, pozitsiya, tur, oldinda kelish",
+    "Vazn, bo'y, jins va teri rangi",
+    "Yurak urishi, harakat va nafas harakatlari",
+    "Bosh aylanasi va ko'krak aylanasi"
+   ],
+   "e": "Akusherlik terminologiyasi."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Homila holati (situs) nima?",
+   "a": [
+    "Homila o'qining bachadon o'qiga nisbati",
+    "Homila orqasining bachadon yon devoriga nisbati",
+    "Homila orqasining old yoki orqaga qaraganligi",
+    "Chanoqqa yaqin qism"
+   ],
+   "e": "Bo'ylama, ko'ndalang, qiyshiq."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Homila pozitsiyasi nima?",
+   "a": [
+    "Homila orqasining bachadon yon devoriga nisbati",
+    "Homila o'qining bachadon o'qiga nisbati",
+    "Kichik chanoqqa kiruvchi homila qismi",
+    "Homilaning taxminiy vazni va bo'yi"
+   ],
+   "e": "I — chapda, II — o'ngda."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Oldinda kelish (praesentatio) deb nimaga aytiladi?",
+   "a": [
+    "Kichik chanoq kirishiga yaqin turgan homila qismiga",
+    "Bachadon tubida joylashgan homila qismiga",
+    "Bachadon old devoriga qaragan homila orqasiga",
+    "Homilaning bukilgan qo'l va oyoqlariga"
+   ],
+   "e": "Bosh yoki dumba."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Tug'ruq biomexanizmining birinchi momenti nima (ensa bilan oldinda kelishda)?",
+   "a": [
+    "Boshning bukilishi",
+    "Boshning yoyilishi",
+    "Yelkalarning ichki burilishi",
+    "Boshning tashqi burilishi"
+   ],
+   "e": "Iyak ko'krakka yaqinlashadi."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Tug'ruq biomexanizmida boshning ichki burilishi qayerda sodir bo'ladi?",
+   "a": [
+    "Kichik chanoq bo'shlig'ida",
+    "Bachadon tubida, tug'ruq boshlanishida",
+    "Qin dahlizida, bosh tashqariga chiqqanda",
+    "Chanoqdan tashqarida, bosh tug'ilgandan so'ng"
+   ],
+   "e": "Ensa oldinga buriladi."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Homila boshi tug'ilgandan keyin qaysi harakat sodir bo'ladi?",
+   "a": [
+    "Boshning tashqi, yelkaning ichki burilishi",
+    "Boshning kuchli bukilishi (fleksiyasi)",
+    "Boshning kichik chanoqdagi ichki burilishi",
+    "Hech qanday harakat bo'lmaydi, tug'ruq tugaydi"
+   ],
+   "e": "Yelkalar chiqishi."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "To'lg'oq nima?",
+   "a": [
+    "Bachadonning ixtiyorsiz, muntazam qisqarishi",
+    "Qorin pressining ixtiyoriy qisqarishi",
+    "Oyoq mushaklarining og'riqli tirishishi",
+    "Homilaning bachadondagi faol harakati"
+   ],
+   "e": "Kuchanish — qorin pressi ishtirokida."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Kuchanish nima?",
+   "a": [
+    "Qorin pressi va diafragmaning ixtiyoriy qisqarishi",
+    "Bachadon mushaklarining ixtiyorsiz qisqarishi",
+    "Homila boshining chanoqda bukilishi",
+    "Qog'onoq suvining to'satdan ketishi"
+   ],
+   "e": "Ikkinchi davrda."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Tug'ruq oldi (prelyuminar) davrining belgisi qaysi?",
+   "a": [
+    "Notekis qisqarishlar, shilliq tiqin ketishi",
+    "Muntazam, kuchli to'lg'oqlar va bachadon bo'yni ochilishi",
+    "Qog'onoq suvining yashil rangda ketishi",
+    "Homila boshi tug'ilishi"
+   ],
+   "e": "\"Soxta to'lg'oqlar\"."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Bachadon bo'yni yetilganligi qaysi shkala bilan baholanadi?",
+   "a": [
+    "Bishop shkalasi",
+    "Apgar shkalasi",
+    "Glazgo shkalasi",
+    "Silverman shkalasi"
+   ],
+   "e": "Tug'ruqni induksiyalashdan oldin."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Tug'ruq faoliyati sustligi (birlamchi) belgisi qaysi?",
+   "a": [
+    "To'lg'oqlar kuchsiz, siyrak",
+    "To'lg'oqlar juda kuchli va tez-tez takrorlanadi",
+    "Qog'onoq suvi me'yordan ancha ko'p",
+    "Homila juda kichik vaznli bo'ladi"
+   ],
+   "e": "Partogrammada aniqlanadi."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Juda tez tug'ruq qanday xavf tug'diradi?",
+   "a": [
+    "Yirtilish va homila jarohati",
+    "Homila vaznining keskin oshishi",
+    "Onaning yaxshi dam olishi",
+    "Hech qanday xavf tug'dirmaydi"
+   ],
+   "e": "Birinchi tug'uvchida 4 soatdan kam."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Yelka distotsiyasi nima?",
+   "a": [
+    "Yelkalar tutilib qolishi",
+    "Homila boshining umuman tug'ilmay qolishi",
+    "Yo'ldoshning bachadonda tutilib qolishi",
+    "Kindik tizimchasining qinga tushishi"
+   ],
+   "e": "Shoshilinch holat."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Homilaning gipoksiyasida tug'ruqda qanday holatda ayolni yotqizish tavsiya etiladi?",
+   "a": [
+    "Chap yonboshda",
+    "Chalqancha, boshi past",
+    "O'tirgan holatda oyoq osilib",
+    "Qorin bilan"
+   ],
+   "e": "Bachadon-yo'ldosh qon oqimi."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Muddatidan oldin tug'ilgan chaqaloqning belgilari qaysilar?",
+   "a": [
+    "Kam vazn, lanugo ko'p, reflekslar sust",
+    "Vazni 4 kg, terisi quruq va yorilgan",
+    "Qattiq bosh suyaklari va uzun tirnoqlar",
+    "Kuchli yig'i va mushaklar tonusining yuqoriligi"
+   ],
+   "e": "Yetilmaganlik."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Muddatidan o'tib tug'ilgan chaqaloqqa xos belgi qaysi?",
+   "a": [
+    "Quruq teri, uzun tirnoqlar",
+    "Lanugoning ko'pligi va yumshoq quloq suprasi",
+    "Vaznning juda kamligi (1500 g dan kam)",
+    "Terida pishloqsimon moyning juda ko'pligi"
+   ],
+   "e": "Klifford belgilari."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Asfiksiyada tug'ilgan chaqaloqqa birinchi navbatda nima qilinadi?",
+   "a": [
+    "Nafas yo'li tozalanadi, quritiladi, isitiladi",
+    "Darhol iliq suvda cho'miltiriladi",
+    "Onaning ko'kragiga qo'yib, kutib turiladi",
+    "Hech narsa qilinmaydi, o'zi nafas oladi"
+   ],
+   "e": "Neonatal reanimatsiya."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Chaqaloq reanimatsiyasining \"oltin daqiqa\"si nimani anglatadi?",
+   "a": [
+    "Birinchi daqiqada ventilyatsiya",
+    "Tug'ilgandan keyin 1 soat ichida emizish",
+    "Tug'ilgandan keyin 1 kun ichida emlash",
+    "Tug'ilgandan keyin 1 hafta ichida tortish"
+   ],
+   "e": "Nafas bo'lmasa."
+  },
+  {
+   "b": "Homila va tug'ruq biomexanizmi",
+   "q": "Pishloqsimon moy (vernix caseosa) ning vazifasi nima?",
+   "a": [
+    "Terini himoyalash",
+    "Homila vaznini oshirish",
+    "Homila yurak urishini kuchaytirish",
+    "Qog'onoq suvi miqdorini ko'paytirish"
+   ],
+   "e": "Majburan olib tashlanmaydi."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Anafilaktik shokda homilador ayolga birinchi navbatda nima yuboriladi?",
+   "a": [
+    "Adrenalin",
+    "Oksitotsin eritmasi tomir ichiga",
+    "Magniy sulfat eritmasi mushak ichiga",
+    "Kalsiy glyukonat eritmasi og'iz orqali"
+   ],
+   "e": "Mushak ichiga 0,1% eritma."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Homilador ayolda YuO'R o'tkazishda bachadon qanday holatga suriladi?",
+   "a": [
+    "Chap tomonga qo'l bilan suriladi",
+    "O'ng tomonga qattiq bosib suriladi",
+    "Bachadon qo'l bilan pastga, chanoqqa bosiladi",
+    "Bachadonga hech qanday ta'sir ko'rsatilmaydi"
+   ],
+   "e": "Aortokaval kompressiyaning oldini olish."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruqxonada OIV infeksiyasining onadan bolaga yuqishini oldini olishda nima qilinadi?",
+   "a": [
+    "Onaga ART, chaqaloqqa profilaktika",
+    "Hech qanday chora ko'rilmaydi, kuzatiladi",
+    "Chaqaloq darhol onadan butunlay ajratiladi",
+    "Ona emlanadi, chaqaloqqa antibiotik beriladi"
+   ],
+   "e": "Vertikal yuqish."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruqxona xodimlarining qo'l gigiyenasi qachon bajariladi?",
+   "a": [
+    "Har bir bemor bilan aloqadan oldin va keyin",
+    "Faqat ish kuni boshida, bir marta",
+    "Faqat ovqatlanishdan oldin",
+    "Faqat qo'llar ko'rinib turgan darajada ifloslanganda"
+   ],
+   "e": "JSST 5 lahza."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruq zali qanday tozalanadi?",
+   "a": [
+    "Har tug'ruqdan keyin joriy, haftada general",
+    "Faqat oyda bir marta, umumiy tozalash",
+    "Faqat yilda bir marta, ta'mirdan keyin",
+    "Tozalanmaydi, faqat shamollatiladi"
+   ],
+   "e": "Dezinfeksiya rejimi."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruqdan keyingi bo'limda \"ona va bola birga\" turishining afzalligi nima?",
+   "a": [
+    "Emizish yaxshilanadi, infeksiya kamayadi",
+    "Chaqaloq onaning shovqinidan bezovta bo'ladi",
+    "Ona dam ololmaydi, tiklanishi sekinlashadi",
+    "Chaqaloqqa tibbiy nazorat butunlay yo'qoladi"
+   ],
+   "e": "JSST tavsiyasi."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Gepatit B bilan kasallangan onadan tug'ilgan chaqaloqqa nima qilinadi?",
+   "a": [
+    "Emlash va immunoglobulin",
+    "Emizish taqiqlanadi va emlash qoldiriladi",
+    "Chaqaloq faqat bir yildan keyin emlanadi",
+    "Hech qanday chora ko'rilmaydi"
+   ],
+   "e": "Faol va passiv profilaktika."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Akusherlik qon ketishida hamshira qaysi ko'rsatkichlarni nazorat qiladi?",
+   "a": [
+    "AB, puls, qon yo'qotish hajmi, diurez",
+    "Faqat tana harorati va teri rangi",
+    "Faqat ko'z qorachig'ining kattaligi",
+    "Faqat ayolning bo'yi va vazni"
+   ],
+   "e": "Shok indeksi."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruqdan keyingi qon yo'qotish qancha bo'lsa patologik hisoblanadi (tabiiy tug'ruqda)?",
+   "a": [
+    "500 ml dan ortiq",
+    "100 ml dan ortiq",
+    "50 ml dan ortiq",
+    "2000 ml dan ortiq bo'lgandagina"
+   ],
+   "e": "Kesar kesishda 1000 ml."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Massiv akusherlik qon ketishida qanday chora ko'riladi?",
+   "a": [
+    "Vena kateteri, infuziya, qon quyish",
+    "Bemor uyiga jo'natiladi",
+    "Faqat og'iz orqali suv beriladi",
+    "Faqat issiq grelka qo'yiladi"
+   ],
+   "e": "Jamoa yondashuvi."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Bachadonni ikki qo'l bilan siqish (bimanual kompressiya) qachon qo'llanadi?",
+   "a": [
+    "Atoniyada qon ketishni to'xtatish",
+    "Homila boshini chanoqda burish uchun",
+    "Qog'onoq suvini tezroq chiqarish uchun",
+    "Tug'ruq faoliyatini tezlashtirish uchun"
+   ],
+   "e": "Vaqtinchalik chora."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Eklampsiyada ayol joylashgan xona qanday bo'lishi kerak?",
+   "a": [
+    "Qorong'ilashtirilgan, sokin, shovqinsiz",
+    "Yorug', shovqinli va odamlar ko'p xona",
+    "Ochiq deraza oldida, salqin xona",
+    "Umumiy palatada boshqa bemorlar bilan"
+   ],
+   "e": "Tashqi qo'zg'atuvchilar xurujni qo'zg'atadi."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Magniy sulfat bilan davolashda dozaning oshib ketishi belgisi qaysi?",
+   "a": [
+    "Tizza refleksi yo'qolishi, nafas sekinlashishi",
+    "Tizza refleksining keskin kuchayishi",
+    "Taxikardiya va arterial bosimning oshishi",
+    "Ishtahaning oshishi va uyquchanlik"
+   ],
+   "e": "Antidot — kalsiy glyukonat."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Magniy sulfat dozasi oshib ketganda antidot sifatida nima yuboriladi?",
+   "a": [
+    "Kalsiy glyukonat",
+    "Oksitotsin eritmasi",
+    "Insulin (qisqa ta'sirli)",
+    "Glyukoza 40% eritmasi"
+   ],
+   "e": "10% eritma."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruqdagi ayolda yuqori isitma va titroq qanday asoratni ko'rsatishi mumkin?",
+   "a": [
+    "Xorioamnionit (infeksiya)",
+    "Normal tug'ruqning fiziologik belgisi",
+    "Yo'ldoshning tushib bo'lganligi",
+    "Kuchanish davrining boshlanishi"
+   ],
+   "e": "Antibiotik terapiya."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Septik shok belgilariga qaysilar kiradi?",
+   "a": [
+    "Past bosim, taxikardiya",
+    "Normal bosim va puls",
+    "Faqat oyoq og'rig'i",
+    "Faqat yo'tal"
+   ],
+   "e": "Shoshilinch davolash."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Homilador ayol yiqilib qorni bilan zarb olganda nima qilinadi?",
+   "a": [
+    "Shoshilinch ko'rik (KTG, UTT)",
+    "Hech narsa qilinmaydi",
+    "Qorin uqalanadi",
+    "Issiq vanna buyuriladi"
+   ],
+   "e": "KTG, UTT."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Bachadon bo'yni yetishmovchiligida qanday chora qo'llanadi?",
+   "a": [
+    "Bachadon bo'yniga chok",
+    "Bachadonni to'liq olib tashlash",
+    "Faqat ovqat miqdorini cheklash",
+    "Hech qanday chora qo'llanmaydi"
+   ],
+   "e": "Serklyaj."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruq vaqtida oraliq yirtilishining oldini olishda nima qilinadi?",
+   "a": [
+    "Boshni sekin chiqarish, oraliqni himoyalash",
+    "Ayolni qattiq kuchantirish",
+    "Homila boshini tezroq tortish",
+    "Oraliq yog' bilan surtilib, tez tug'diriladi"
+   ],
+   "e": "Akusherlik qo'llanmasi."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruqdan keyingi tromboemboliyaning oldini olishda nima tavsiya etiladi?",
+   "a": [
+    "Erta faollashtirish, antikoagulyantlar",
+    "Uzoq vaqt yotib, harakatlanmaslik",
+    "Suyuqlikni cheklash",
+    "Oyoqlarga issiq qo'yish"
+   ],
+   "e": "Kesar kesishdan keyin ayniqsa."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Homilador ayolda qattiq bosh og'rig'i, ko'z oldida \"chivinlar\" va epigastral og'riq nimadan dalolat beradi?",
+   "a": [
+    "Og'ir preeklampsiya (eklampsiya xavfi)",
+    "Oddiy charchoq va uyqusizlik",
+    "Faqat temir tanqisligi kamqonligi",
+    "Birinchi trimestrdagi erta toksikoz"
+   ],
+   "e": "Shoshilinch yordam."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "HELLP-sindrom nimani o'z ichiga oladi?",
+   "a": [
+    "Gemoliz, fermentlar, trombotsitopeniya",
+    "Yuqori gemoglobin va trombotsitoz",
+    "Faqat qand miqdori oshishi",
+    "Faqat siydik ko'payishi"
+   ],
+   "e": "Og'ir preeklampsiya asorati."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruqxonada chaqaloqlarni almashtirib yubormaslik uchun nima qilinadi?",
+   "a": [
+    "Bir xil raqamli bilaguzuklar",
+    "Chaqaloqlar faqat vazniga qarab ajratiladi",
+    "Chaqaloqlarga ism yozilmaydi",
+    "Ona chaqaloqni faqat chiqishda ko'radi"
+   ],
+   "e": "Identifikatsiya."
+  },
+  {
+   "b": "Shoshilinch holatlar va infeksion xavfsizlik",
+   "q": "Tug'ruqxonada ishlatilgan yo'ldosh qanday utilizatsiya qilinadi?",
+   "a": [
+    "B sinf tibbiy chiqindi sifatida",
+    "Oddiy maishiy chiqindiga tashlanadi",
+    "Kanalizatsiyaga oqiziladi",
+    "Hovliga ko'mib qo'yiladi"
+   ],
+   "e": "Epidemiologik xavfli chiqindi."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Homiladorlikning qaysi muddatida abort o'z-o'zidan bo'lsa erta abort deyiladi?",
+   "a": [
+    "12 haftagacha",
+    "22–28 hafta oralig'ida",
+    "30 haftadan keyin, tug'ruq oldidan",
+    "37 haftadan keyin, muddatida"
+   ],
+   "e": "Kech abort — 12–22 hafta."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Xavf soluvchi abortning (iminens) belgisi qaysi?",
+   "a": [
+    "Qorin pastida tortuvchi og'riq, oz qonli ajralma",
+    "Ko'p qon ketishi va homila to'qimasi chiqishi",
+    "Isitma va yiringli ajralma bilan og'riq",
+    "Hech qanday belgi bo'lmaydi, faqat UTTda"
+   ],
+   "e": "Homiladorlikni saqlash mumkin."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Pufakli ko'chish (trofoblast kasalligi) da qaysi gormon keskin oshadi?",
+   "a": [
+    "Xorionik gonadotropin",
+    "Prolaktin va oksitotsin",
+    "Insulin va glyukagon",
+    "Tiroksin va kalsitonin"
+   ],
+   "e": "Bachadon muddatdan katta."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Homiladorlikda temir tanqisligi anemiyasining belgisi qaysi?",
+   "a": [
+    "Holsizlik, oqarish, Hb 110 g/l dan kam",
+    "Terining qizarishi va gemoglobin 160 g/l",
+    "Ishtahaning oshishi va semirish",
+    "Arterial bosimning keskin oshishi"
+   ],
+   "e": "Temir preparatlari."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Homiladorlikda qandli diabet homila uchun qanday xavf tug'diradi?",
+   "a": [
+    "Yirik homila (makrosomiya) va nuqsonlar",
+    "Homila vaznining keskin kamayishi",
+    "Homila yurak urishining doimiy to'xtashi",
+    "Hech qanday xavf tug'dirmaydi"
+   ],
+   "e": "Qand nazorati."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Qin orqali tekshirishda (bimanual) qaysi qo'l qinga kiritiladi?",
+   "a": [
+    "O'ng qo'lning ikki barmog'i",
+    "Chap qo'lning butun kafti",
+    "Ikkala qo'lning bir barmog'i",
+    "Faqat bosh barmoq"
+   ],
+   "e": "Chap qo'l qorin devorida."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Sitologik surtma (PAP-test) olishdan oldin ayolga nima tavsiya etiladi?",
+   "a": [
+    "1–2 kun jinsiy aloqadan tiyilish",
+    "Tekshiruvdan oldin qinni yuvish",
+    "Hayz vaqtida kelish",
+    "Tekshiruvdan oldin ko'p suv ichish"
+   ],
+   "e": "Aniq natija uchun."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Qin mikroflorasi tahlilida \"toza\"lik darajasining necha darajasi bor?",
+   "a": [
+    "4 daraja",
+    "2 daraja",
+    "10 daraja",
+    "6 daraja"
+   ],
+   "e": "I–II — me'yor."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Klimakteriy davrida osteoporozning oldini olish uchun nima tavsiya etiladi?",
+   "a": [
+    "Kalsiy va D vitamini, jismoniy faollik",
+    "Faqat yotib dam olish, harakatsizlik",
+    "Kalsiyli mahsulotlarni butunlay cheklash",
+    "Kuniga ko'p miqdorda qahva ichish"
+   ],
+   "e": "Suyak zichligi kamayadi."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Postmenopauzada qindan qon ketishi nimaga shubha uyg'otadi?",
+   "a": [
+    "Endometriy saratoni yoki giperplaziyasi",
+    "Normal fiziologik jarayon, xavfsiz",
+    "Yangi homiladorlik boshlanganini",
+    "Hayz siklining qayta tiklanishini"
+   ],
+   "e": "Tekshirish shart."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Bachadon tushishi (prolaps) ning asosiy sababi nima?",
+   "a": [
+    "Chanoq tubi mushaklari zaifligi",
+    "Bachadonning yallig'lanishi",
+    "Tuxumdon kistasi",
+    "Hayz buzilishi"
+   ],
+   "e": "Kegel mashqlari."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Kegel mashqlari nima uchun tavsiya etiladi?",
+   "a": [
+    "Chanoq tubi mushaklarini mustahkamlash uchun",
+    "Qo'l va yelka mushaklarini o'stirish uchun",
+    "Ko'rish o'tkirligini yaxshilash uchun",
+    "Tana vaznini tez oshirish uchun"
+   ],
+   "e": "Tug'ruqdan keyin ham."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Polikistoz tuxumdon sindromining belgisi qaysi?",
+   "a": [
+    "Sikl buzilishi, tuklanish, bepushtlik",
+    "Hayzning ko'payishi va semizlikning kamayishi",
+    "Faqat isitma",
+    "Faqat yo'tal"
+   ],
+   "e": "Gormonal kasallik."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Bartolinit nima?",
+   "a": [
+    "Qin dahlizi katta bezining yallig'lanishi",
+    "Bachadon shilliq qavatining yallig'lanishi",
+    "Tuxumdonning o'tkir yallig'lanishi",
+    "Sut bezining yiringli yallig'lanishi"
+   ],
+   "e": "Absess bo'lishi mumkin."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Bachadon bo'yni eroziyasi (ektopiyasi) qaysi tekshiruv bilan aniqlanadi?",
+   "a": [
+    "Ko'zgu orqali ko'rish va kolposkopiya",
+    "Arterial bosimni ikki qo'lda o'lchash",
+    "Elektrokardiografiya (EKG)",
+    "Ko'krak qafasi fluorografiyasi"
+   ],
+   "e": "Sitologiya bilan."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Bachadondan tashqari homiladorlik xavf omili qaysi?",
+   "a": [
+    "Naylarning yallig'lanishi",
+    "Birinchi hayzning erta kelishi",
+    "Muntazam sport bilan shug'ullanish",
+    "Ko'p meva va sabzavot iste'mol qilish"
+   ],
+   "e": "Nay o'tkazuvchanligi buziladi."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Ginekologik bemorni operatsiyadan keyin parvarishlashda nimaga e'tibor beriladi?",
+   "a": [
+    "Bog'lam, ajralma, diurez, harorat",
+    "Faqat ovqatlanish tartibi va ishtahasi",
+    "Faqat dam olish va televizor ko'rishi",
+    "Faqat shaxsiy gigiyena va soch tarashi"
+   ],
+   "e": "Erta asoratlarni aniqlash."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Laparoskopiya nima?",
+   "a": [
+    "Kichik teshik orqali optik asbob bilan",
+    "Qorin devorini keng kesib ochish",
+    "Qin orqali ko'zgu bilan ko'rish",
+    "Kontrast modda bilan rentgen tekshiruvi"
+   ],
+   "e": "Kam invaziv."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Gisteroskopiya nima?",
+   "a": [
+    "Bachadon bo'shlig'ini optik asbob bilan ko'rish",
+    "Sut bezini ultratovush bilan tekshirish",
+    "Tuxumdonni jarrohlik yo'li bilan olish",
+    "Qorin bo'shlig'ini igna bilan punksiya qilish"
+   ],
+   "e": "Tashxis va davolash."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Homiladorlikda gripp bilan kasallanishning oldini olish uchun nima tavsiya etiladi?",
+   "a": [
+    "Inaktivlangan gripp vaksinasi bilan emlash",
+    "Tirik attenuirlangan vaksinalar bilan emlash",
+    "Antibiotiklarni profilaktik maqsadda ichish",
+    "Hech qanday profilaktika kerak emas"
+   ],
+   "e": "JSST tavsiyasi."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Homiladorlikda qaysi vaksinalar qarshi ko'rsatma hisoblanadi?",
+   "a": [
+    "Tirik vaksinalar",
+    "Inaktivlangan gripp vaksinasi",
+    "Qoqsholga qarshi anatoksin",
+    "Gepatit B vaksinasi"
+   ],
+   "e": "Teratogen xavf."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Ko'krak bezining o'z-o'zini tekshirishda qanday o'zgarish shubhali?",
+   "a": [
+    "Tugun, teri tortilishi, qonli ajralma",
+    "Ikkala bezning simmetrikligi",
+    "Yumshoq va bir xil tuzilma",
+    "Hech qanday o'zgarish yo'qligi"
+   ],
+   "e": "Shifokorga murojaat."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Hayz siklining birinchi (follikulyar) fazasida qaysi gormon ustun bo'ladi?",
+   "a": [
+    "Estrogen",
+    "Progesteron",
+    "Oksitotsin",
+    "Prolaktin"
+   ],
+   "e": "Ikkinchi fazada — progesteron."
+  },
+  {
+   "b": "Qo'shimcha: diagnostika va kasalliklar",
+   "q": "Bazal haroratni o'lchash nima maqsadda qo'llanadi?",
+   "a": [
+    "Ovulyatsiyani aniqlash uchun",
+    "Qon bosimini aniqlash uchun",
+    "Homila vaznini aniqlash uchun",
+    "Qand miqdorini aniqlash uchun"
+   ],
+   "e": "To'g'ri ichakda, ertalab."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Homilador ayolning individual kartasi qayerda yuritiladi?",
+   "a": [
+    "Ayollar konsultatsiyasi yoki oilaviy poliklinikada",
+    "Faqat tug'ruqxona qabulxonasida, tug'ruq kuni",
+    "Faqat ish joyidagi kadrlar bo'limida",
+    "Hech qayerda yuritilmaydi, og'zaki kuzatiladi"
+   ],
+   "e": "Kuzatuv hujjati."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruqxonaga qabul qilishda homiladordan qaysi hujjat so'raladi?",
+   "a": [
+    "Almashinuv kartasi",
+    "Faqat diplom va mehnat daftarchasi",
+    "Faqat yashash joyidan ma'lumotnoma",
+    "Hech qanday hujjat talab qilinmaydi"
+   ],
+   "e": "Homiladorlik kechishi haqida ma'lumot."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruqxona qabul bo'limida homilador ayol qanday filtrdan o'tadi?",
+   "a": [
+    "Fiziologik yoki observatsion bo'limga",
+    "Barcha ayollar bitta umumiy palataga",
+    "Ayollar faqat yoshiga qarab taqsimlanadi",
+    "Ayollar faqat bo'yiga qarab taqsimlanadi"
+   ],
+   "e": "Infeksiya belgisi bo'lsa — observatsion."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Observatsion bo'limga qaysi ayollar yotqiziladi?",
+   "a": [
+    "Isitmasi yoki infeksiya belgisi borlar",
+    "Faqat birinchi marta tug'uvchi sog'lom ayollar",
+    "Faqat egizak homilador ayollar",
+    "Faqat 20 yoshgacha bo'lgan ayollar"
+   ],
+   "e": "Infeksiyani tarqatmaslik."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Patronaj nima?",
+   "a": [
+    "Uyga borib kuzatish",
+    "Faqat statsionarda yotqizib davolash",
+    "Dorixonada retsept bo'yicha dori berish",
+    "Laboratoriyada qon va siydik tekshiruvi"
+   ],
+   "e": "Antenatal va postnatal patronaj."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruqdan keyingi birinchi patronaj qachon o'tkaziladi?",
+   "a": [
+    "Chiqqandan keyin 1–3 kun ichida",
+    "Tug'ruqdan bir yil o'tgandan keyin",
+    "Faqat bola maktabga borganda",
+    "Patronaj o'tkazilmaydi"
+   ],
+   "e": "Ona va chaqaloq kuzatuvi."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Hamshiralik jarayonining birinchi bosqichi qaysi?",
+   "a": [
+    "Bemorni tekshirish (ma'lumot to'plash)",
+    "Hamshiralik tashxisini (muammoni) qo'yish",
+    "Parvarish rejasini tuzish va kelishish",
+    "Amalga oshirilgan ishlar natijasini baholash"
+   ],
+   "e": "5 bosqich."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Hamshiralik jarayonining bosqichlari to'g'ri ketma-ketlikda qaysi qatorda?",
+   "a": [
+    "Tekshirish, tashxis, rejalashtirish, amalga oshirish, baholash",
+    "Baholash, tekshirish, tashxis, rejalashtirish, amalga oshirish",
+    "Rejalashtirish, tekshirish, baholash, tashxis, amalga oshirish",
+    "Amalga oshirish, tashxis, tekshirish, baholash, rejalashtirish"
+   ],
+   "e": "Hamshiralik jarayoni."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Homiladorlikda hamshiralik muammosiga misol qaysi?",
+   "a": [
+    "Ko'ngil aynishi tufayli ovqatlanish buzilishi",
+    "Appenditsit sababli operatsiyaga tayyorlash",
+    "Rentgen tasvirini o'qish",
+    "Dori retseptini yozish"
+   ],
+   "e": "Hamshira mustaqil hal qila oladigan muammo."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruqdagi ayolga psixologik yordam qanday ko'rsatiladi?",
+   "a": [
+    "Tinchlantirish va qo'llab-quvvatlash",
+    "Qo'rqitish va ovozni ko'tarib gapirish",
+    "Yolg'iz qoldirish",
+    "Savollariga javob bermaslik"
+   ],
+   "e": "Hurmatli parvarish."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruqda og'riqni kamaytirishning nomedikamentoz usullariga qaysilar kiradi?",
+   "a": [
+    "Nafas mashqlari, uqalash, harakat",
+    "Faqat narkotik analgetiklar yuborish",
+    "Faqat umumiy narkoz",
+    "Faqat spinal anesteziya"
+   ],
+   "e": "Psixoprofilaktika."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Epidural anesteziya tug'ruqda qanday maqsadda qo'llanadi?",
+   "a": [
+    "Tug'ruq og'rig'ini kamaytirish uchun",
+    "Bachadon qisqarishini kuchaytirish uchun",
+    "Homila yurak urishini tezlatish uchun",
+    "Qog'onoq suvini chiqarish uchun"
+   ],
+   "e": "Ko'rsatma va roziligi bilan."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Bemorning tibbiy aralashuvga roziligi qanday rasmiylashtiriladi?",
+   "a": [
+    "Xabardor qilingan holda yozma rozilik",
+    "Roziliksiz, shifokor qarori bilan bajariladi",
+    "Faqat qo'shni yoki tanishning roziligi bilan",
+    "Faqat telefon orqali og'zaki so'rab"
+   ],
+   "e": "Bemor huquqi."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Akusherlik amaliyotida tibbiy sirni saqlash nimani anglatadi?",
+   "a": [
+    "Ma'lumotni uchinchi shaxslarga oshkor qilmaslik",
+    "Barcha ma'lumotni ijtimoiy tarmoqda e'lon qilish",
+    "Faqat qo'shnilarga aytish",
+    "Tashxisni hammaga ma'lum qilish"
+   ],
+   "e": "Deontologiya."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruqxonada \"Bolalarga do'stona shifoxona\" tashabbusi nimaga qaratilgan?",
+   "a": [
+    "Ko'krak sutini qo'llab-quvvatlash",
+    "Sun'iy sut aralashmalarini targ'ib qilish",
+    "Chaqaloqni onadan alohida xonada saqlash",
+    "Emizish soni va vaqtini qat'iy cheklash"
+   ],
+   "e": "JSST/UNISEF."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Bolalarga do'stona shifoxonada nimadan foydalanish cheklanadi?",
+   "a": [
+    "Sut o'rnini bosuvchi aralashmalar va so'rg'ichlar",
+    "Ko'krak suti bilan erta va tez-tez emizish",
+    "Onaning chaqaloq bilan birga bo'lishi",
+    "Chaqaloq bilan teri-teriga kontakt"
+   ],
+   "e": "Emizishni himoyalash."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Ona va bola salomatligini muhofaza qilishning asosiy ko'rsatkichlariga qaysilar kiradi?",
+   "a": [
+    "Onalar o'limi, perinatal va go'daklar o'limi",
+    "Faqat tug'ruqxonadagi o'rinlar soni",
+    "Faqat tumandagi shifokorlar soni",
+    "Faqat dorixonalardagi dori narxlari"
+   ],
+   "e": "Statistik ko'rsatkichlar."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Go'daklar o'limi ko'rsatkichi qanday hisoblanadi?",
+   "a": [
+    "1 yoshgacha o'limlar 1000 tirik tug'ilganga",
+    "5 yoshgacha vafot etganlar 100 tug'ilganga",
+    "Barcha bolalar o'limi aholiga nisbatan",
+    "Faqat tug'ruqda vafot etganlar"
+   ],
+   "e": "‰ da."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruqdan keyin onaning ruhiy holatini kuzatish nima uchun muhim?",
+   "a": [
+    "Tug'ruqdan keyingi depressiyani erta aniqlash uchun",
+    "Faqat ishtahasi va ovqatlanishini bilish uchun",
+    "Faqat uxlash vaqtini hisoblash uchun",
+    "Muhim emas, ruhiy holat o'zi tiklanadi"
+   ],
+   "e": "Psixologik yordam."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Homilador ayol uchun ish joyida qanday imtiyozlar qonun bilan belgilangan?",
+   "a": [
+    "Og'ir ishdan ozod qilish va ta'til",
+    "Imtiyozlar mavjud emas, umumiy tartibda ishlaydi",
+    "Faqat qo'shimcha ish soatlari",
+    "Faqat tungi smenalar"
+   ],
+   "e": "Mehnat kodeksi."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruqxonada chaqaloqlar bo'limi xonasida havo qanday zararsizlantiriladi?",
+   "a": [
+    "Kvarslash va shamollatish",
+    "Faqat xushbo'y atir sepib turish",
+    "Derazalar doim yopiq, shamollatilmaydi",
+    "Hech qanday chora ko'rilmaydi"
+   ],
+   "e": "Sanitariya rejimi."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruq zaliga kirishda tibbiyot xodimi nima kiyadi?",
+   "a": [
+    "Xalat, niqob, qalpoq, maxsus poyabzal",
+    "Ko'cha kiyimi va ko'cha poyabzalida",
+    "Faqat qo'lqop",
+    "Hech qanday maxsus kiyim"
+   ],
+   "e": "Sanitariya-epidemiologik rejim."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Ayollar konsultatsiyasining asosiy vazifasi nima?",
+   "a": [
+    "Homiladorlarni kuzatish va profilaktika",
+    "Faqat jarrohlik operatsiyalarini bajarish",
+    "Faqat tug'ruqni qabul qilish",
+    "Faqat bolalarni emlash"
+   ],
+   "e": "Ambulator akusherlik-ginekologik yordam."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Skrining markazining homiladorlikdagi asosiy vazifasi nima?",
+   "a": [
+    "Homila nuqsonlarini erta aniqlash",
+    "Tug'ruqni qabul qilish va olib borish",
+    "Faqat ona qon bosimini o'lchash",
+    "Faqat chaqaloqlarni emlash"
+   ],
+   "e": "Prenatal skrining."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Ayolning reproduktiv salomatligiga salbiy ta'sir qiluvchi omil qaysi?",
+   "a": [
+    "Erta nikoh, qisqa oraliq",
+    "Sog'lom va muvozanatli ovqatlanish",
+    "Muntazam mo''tadil jismoniy faollik",
+    "Muntazam profilaktik tibbiy ko'rik"
+   ],
+   "e": "18 yoshgacha homiladorlik xavfli."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Qarindoshlar orasidagi nikohning asosiy xavfi nima?",
+   "a": [
+    "Irsiy kasalliklar xavfi oshishi",
+    "Bolalarning bo'yi baland bo'lishi",
+    "Bolalarning aqlli bo'lishi kafolatlanishi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Tibbiy-genetik maslahat."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tibbiy-genetik maslahat kimlarga tavsiya etiladi?",
+   "a": [
+    "Irsiy kasallik, 35 yoshdan katta",
+    "Faqat 20 yoshli sog'lom ayollarga",
+    "Faqat erkaklar",
+    "Hech kimga"
+   ],
+   "e": "Xavfni baholash."
+  },
+  {
+   "b": "Tashkiliy masalalar va hamshiralik jarayoni",
+   "q": "Tug'ruq ta'tili O'zbekistonda necha kalendar kun beriladi (normal tug'ruqda)?",
+   "a": [
+    "126 kun",
+    "30 kun",
+    "365 kun",
+    "14 kun"
+   ],
+   "e": "Asoratli tug'ruqda ko'proq."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Homiladorlikning ikkinchi trimestri qaysi haftalarni o'z ichiga oladi?",
+   "a": [
+    "14–27 hafta",
+    "1–13 hafta, birinchi uch oy",
+    "28–40 hafta, oxirgi uch oy",
+    "40–42 hafta, muddatidan o'tgan davr"
+   ],
+   "e": "Uchinchi — 28 haftadan."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Qog'onoq suvi ketganini tasdiqlash uchun qanday test qo'llanadi?",
+   "a": [
+    "Amniotest (pH yoki maxsus test-chiziq)",
+    "Umumiy qon tahlili va EKG",
+    "Siydikda qand miqdorini aniqlash",
+    "Arterial bosimni ikki qo'lda o'lchash"
+   ],
+   "e": "Qin ajralmasi tekshiriladi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Tug'ruqdan keyin ayolda siydik tutilib qolsa birinchi navbatda nima qilinadi?",
+   "a": [
+    "Reflektor usullar (suv oqizish, iliq suv)",
+    "Darhol jarrohlik operatsiyasi o'tkaziladi",
+    "Ko'p miqdorda suyuqlik ichiriladi va kutiladi",
+    "Qorin pastiga muzli xalta qo'yiladi"
+   ],
+   "e": "Natija bo'lmasa — kateterlash."
+  }
+ ],
+ "kalit": "akusherlik ginekologiya homiladorlik tug'ruq doya hamshira ona bola"
+}
