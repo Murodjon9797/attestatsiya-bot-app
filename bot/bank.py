@@ -93,6 +93,8 @@ class QuestionBank:
 
 # ---------------- yo'nalishlar bo'yicha guruhlash va qidiruv ----------------
 CATEGORIES: list[tuple[str, str, list[str]]] = [
+    ("til", "🗣 Tillar", ["ingliz_tili", "rus_tili", "nemis_tili", "ona_tili_adabiyot"]),
+    ("ijt", "🏛 Ijtimoiy fanlar", ["tarix", "davlat_va_huquq_asoslari", "tarbiya", "biznes_asoslari"]),
     ("it", "💻 Axborot texnologiyalari", [
         "dasturlash", "algoritmlar", "malumotlar_bazasi", "kompyuter_tarmoqlari", "kiberxavfsizlik",
         "dasturiy_taminotni_testlash", "iqtisodiyotda_axborot_kommunikatsiya_tex",
@@ -113,7 +115,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "biologiya", "botanika_va_osimliklar_fiziologiyasi", "osimlikshunoslik", "ekologiya"]),
     ("iqt", "📈 Iqtisodiyot va boshqaruv", ["iqtisodiyot_nazariyasi", "menejment_asoslari"]),
     ("ped", "🎵 San'at va pedagogika", ["musiqiy_talim", "pedagogik_mahorat"]),
-    ("um", "📘 Umumta'lim fanlari", ["matematika", "fizika", "kimyo", "ona_tili_adabiyot"]),
+    ("um", "📘 Umumta'lim fanlari", ["matematika", "fizika", "kimyo", "informatika", "jismoniy_tarbiya"]),
 ]
 
 # Qidiruvda qo'shimcha kalit so'zlar (foydalanuvchi boshqacha yozishi mumkin)
@@ -126,6 +128,8 @@ ALIASES: dict[str, str] = {
     "iqt": "iqtisod iqtisodiyot buxgalteriya boshqaruv",
     "ped": "musiqa pedagogika pedagogik",
     "um": "umumtalim",
+    "til": "til tillar language english ingliz rus nemis",
+    "ijt": "ijtimoiy tarix huquq",
 }
 
 
