@@ -3132,7 +3132,7 @@
    "b": "Haydovchi psixologiyasi",
    "q": "Haydovchi psixologiyasi fani nimani o'rganadi?",
    "a": [
-    "Haydovchining psixik jarayonlari va xulqini",
+    "Psixik jarayonlar va xulqni",
     "Faqat avtomobil dvigatelining tuzilishini",
     "Faqat yo'l qurilish texnologiyasini",
     "Faqat yoqilg'i kimyosini"
@@ -3143,7 +3143,7 @@
    "b": "Haydovchi psixologiyasi",
    "q": "Idrok (persepsiya) haydovchi uchun nima beradi?",
    "a": [
-    "Yo'l vaziyatini to'g'ri qabul qilishni",
+    "Vaziyatni to'g'ri qabul qilishni",
     "Avtomobilni ta'mirlash ko'nikmasini",
     "Yoqilg'i narxini bilishni",
     "Radio sozlashni"
@@ -3198,7 +3198,7 @@
    "b": "Birinchi tibbiy yordam",
    "q": "Birinchi yordam ko'rsatuvchi o'z xavfsizligini qanday ta'minlaydi?",
    "a": [
-    "Hodisa joyini xavfsiz qilib, himoya qo'lqoplaridan foydalanadi",
+    "Joyni xavfsiz qilib, qo'lqop taqadi",
     "O'z xavfsizligiga e'tibor bermaydi",
     "Yonayotgan avtomobilga darhol sakraydi",
     "Elektr simiga qo'l bilan tegadi"
@@ -3209,7 +3209,7 @@
    "b": "Birinchi tibbiy yordam",
    "q": "Kuchli qon ketishda jabrlanuvchini qanday holatga yotqizish kerak?",
    "a": [
-    "Chalqancha, oyoqlarini biroz ko'tarib",
+    "Oyoqlarini ko'tarib, chalqancha",
     "O'tirgan holda, boshini egib",
     "Qorniga, qo'llarini ko'tarib",
     "Tik turgan holda"
@@ -3231,7 +3231,7 @@
    "b": "Birinchi tibbiy yordam",
    "q": "Issiq urganda birinchi yordam qanday?",
    "a": [
-    "Salqin joyga o'tkazib, sovitish va suv berish",
+    "Salqin joyda sovitish",
     "Quyoshda qoldirish",
     "Issiq choy berib, adyolga o'rash",
     "Jismoniy mashq qildirish"
@@ -3242,7 +3242,7 @@
    "b": "Birinchi tibbiy yordam",
    "q": "Bo'yin umurtqasi shikastlanishida jabrlanuvchining boshi qanday tutiladi?",
    "a": [
-    "Qimirlatmasdan, tana bilan bir chiziqda",
+    "Qimirlatmasdan",
     "Keskin orqaga tashlab",
     "Yon tomonga burab",
     "Ko'kragiga egib"
@@ -3264,7 +3264,7 @@
    "b": "Birinchi tibbiy yordam",
    "q": "Hushsiz jabrlanuvchidan mototsikl shlemini kim yechishi kerak?",
    "a": [
-    "Zarurat bo'lsa, ikki kishi bo'yinni ushlab",
+    "Ikki kishi, bo'yinni ushlab",
     "Bir kishi keskin tortib",
     "Hech qachon yechilmaydi, nafas olmasa ham",
     "Jabrlanuvchining o'zi"
@@ -3275,7 +3275,7 @@
    "b": "Birinchi tibbiy yordam",
    "q": "Jabrlanuvchini kasalxonaga o'z transportida olib borish qachon mumkin?",
    "a": [
-    "Tez yordam kelishi imkonsiz va holat og'ir bo'lmaganda",
+    "Tez yordam imkonsiz bo'lganda",
     "Har doim, eng yaxshi usul",
     "Umurtqa sinishida har doim",
     "Hech qachon"
@@ -3286,7 +3286,7 @@
    "b": "Javobgarlik va hujjatlar",
    "q": "Transport vositasini ro'yxatdan o'tkazish nima uchun majburiy?",
    "a": [
-    "Egasini aniqlash va hisobini yuritish uchun",
+    "Egasini aniqlash uchun",
     "Avtomobil rangini tanlash uchun",
     "Yoqilg'i chegirmasini olish uchun",
     "Hech qanday zarurat yo'q"
@@ -3297,7 +3297,7 @@
    "b": "Javobgarlik va hujjatlar",
    "q": "Ishonchnoma asosida transport vositasini boshqarish nimani anglatadi?",
    "a": [
-    "Egasi boshqa shaxsga boshqarish huquqini beradi",
+    "Boshqarish huquqini berish",
     "Har qanday shaxs guvohnomasiz boshqara oladi",
     "Avtomobil davlatga o'tadi",
     "Avtomobil sotib yuboriladi"
@@ -3330,23 +3330,12 @@
    "b": "Yo'l belgilari va svetofor",
    "q": "Sariq rangli chiziqlar nimani bildiradi?",
    "a": [
-    "To'xtash cheklovlari yoki vaqtinchalik yo'nalishlarni",
+    "Cheklovlar yoki vaqtinchalik chiziqlar",
     "Faqat bezak",
     "Asosiy yo'l o'qini doimo",
     "Velosiped yo'lagini faqat"
    ],
    "e": "Vaqtinchalik chiziqlar oq chiziqlardan ustun."
-  },
-  {
-   "b": "Yo'l belgilari va svetofor",
-   "q": "Ogohlantiruvchi belgilar aholi punktidan tashqarida xavfli joydan qancha masofada o'rnatiladi?",
-   "a": [
-    "150–300 m",
-    "1–5 m",
-    "1–2 km",
-    "5–10 m"
-   ],
-   "e": "Aholi punktida — 50–100 m."
   }
  ]
 }
