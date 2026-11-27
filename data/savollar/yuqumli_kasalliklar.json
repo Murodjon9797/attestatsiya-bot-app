@@ -1,0 +1,2406 @@
+{
+ "kod": "",
+ "nomi": "Yuqumli kasalliklar",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (6 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Epidemik jarayonning uch bo'g'ini qaysilar?",
+   "a": [
+    "Manba, yuqish yo'li, moyil organizm",
+    "Shifokor, bemor va dorixona",
+    "Qon, siydik va najas",
+    "Bakteriya, virus va zamburug'"
+   ],
+   "e": "L.V. Gromashevskiy."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Infeksiya manbai deb nimaga aytiladi?",
+   "a": [
+    "Qo'zg'atuvchini ajratuvchi organizm",
+    "Faqat ifloslangan suv havzasi",
+    "Faqat kasalxona binosi",
+    "Faqat oziq-ovqat do'koni"
+   ],
+   "e": "Bemor, tashuvchi, hayvon."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Antroponoz nima?",
+   "a": [
+    "Odamdan odamga yuqadigan",
+    "Faqat hayvonlardan yuqadigan kasallik",
+    "Faqat tuproqdan yuqadigan kasallik",
+    "Yuqmaydigan kasallik"
+   ],
+   "e": "Masalan, qizamiq."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Zoonoz nima?",
+   "a": [
+    "Hayvondan yuqadigan",
+    "Faqat odamlar orasidagi kasallik",
+    "Irsiy kasallik",
+    "Kasbiy kasallik"
+   ],
+   "e": "Quturish, brutsellyoz."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Yuqishning fekal-oral mexanizmiga misol qaysi?",
+   "a": [
+    "Ichak infeksiyalari",
+    "Gripp",
+    "Bezgak",
+    "Sifilis"
+   ],
+   "e": "Suv, oziq-ovqat, iflos qo'llar."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Yuqishning aerogen (havo-tomchi) mexanizmiga misol qaysi?",
+   "a": [
+    "Gripp va qizamiq",
+    "Dizenteriya",
+    "Gepatit A",
+    "Bezgak"
+   ],
+   "e": "Nafas yo'llari infeksiyalari."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Transmissiv yuqish mexanizmi nima?",
+   "a": [
+    "Bo'g'imoyoqlilar orqali",
+    "Havo orqali yuqish",
+    "Oziq-ovqat orqali yuqish",
+    "Teri orqali yuqish"
+   ],
+   "e": "Bezgak, leyshmanioz."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Vertikal yuqish yo'li nima?",
+   "a": [
+    "Onadan homilaga yuqish",
+    "Kasaldan shifokorga yuqish",
+    "Hayvondan odamga yuqish",
+    "Havo orqali yuqish"
+   ],
+   "e": "OIV, qizilcha."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Inkubatsion (yashirin) davr nima?",
+   "a": [
+    "Belgilar paydo bo'lguncha davr",
+    "Kasallikning eng og'ir davri",
+    "Tuzalgandan keyingi davr",
+    "Davolash davri"
+   ],
+   "e": "Har kasallikda turlicha."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Karantin nima?",
+   "a": [
+    "Cheklov choralari",
+    "Kasalxonaning dam olish kuni",
+    "Dorilar ro'yxati",
+    "Vaksina turi"
+   ],
+   "e": "Izolyatsiya va kuzatuv."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Epidemiya nima?",
+   "a": [
+    "Ommaviy tarqalish",
+    "Bitta kishining kasalligi",
+    "Kasallikning yo'qolishi",
+    "Faqat hayvonlar kasalligi"
+   ],
+   "e": "Sporadik darajadan yuqori."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Pandemiya nima?",
+   "a": [
+    "Qit'alarga tarqalish",
+    "Bitta oiladagi kasallik",
+    "Mahalliy kasallik",
+    "Yuqmaydigan kasallik"
+   ],
+   "e": "Masalan, COVID-19."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Endemiya nima?",
+   "a": [
+    "Doimiy mahalliy kasallik",
+    "Butun dunyoga tarqalgan kasallik",
+    "Bir martalik holat",
+    "Faqat import qilingan kasallik"
+   ],
+   "e": "Tabiiy o'choqlar."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Infeksiya o'chog'ida dezinfeksiya turlari qaysilar?",
+   "a": [
+    "Joriy va yakuniy",
+    "Faqat ertalabki va kechki",
+    "Faqat ichki va tashqi",
+    "Faqat qishki va yozgi"
+   ],
+   "e": "Joriy — bemor bo'lganda, yakuniy — ketgandan keyin."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Dezinseksiya nima?",
+   "a": [
+    "Hasharotlarni yo'qotish",
+    "Kemiruvchilarni yo'qotish",
+    "Mikroblarni yo'qotish",
+    "Changni yo'qotish"
+   ],
+   "e": "Pashsha, chivin, bit."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Deratizatsiya nima?",
+   "a": [
+    "Kemiruvchilarni yo'qotish",
+    "Hasharotlarni yo'qotish",
+    "Suvni zararsizlantirish",
+    "Havoni tozalash"
+   ],
+   "e": "Kalamush, sichqon."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Bemorni izolyatsiya qilishning maqsadi nima?",
+   "a": [
+    "Tarqalishni to'xtatish",
+    "Bemorni jazolash",
+    "Davolashni kechiktirish",
+    "Tashxisni yashirish"
+   ],
+   "e": "Manbani zararsizlantirish."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Profilaktik emlash taqvimi nima?",
+   "a": [
+    "Emlash rejasi",
+    "Kasalxona ish jadvali",
+    "Dorilar narxlari ro'yxati",
+    "Shifokorlar navbatchiligi"
+   ],
+   "e": "Milliy emlash kalendari."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Epidemiologik anamnez nima uchun yig'iladi?",
+   "a": [
+    "Yuqish yo'lini aniqlash",
+    "Bemorning ish haqini bilish uchun",
+    "Bemorning sevimli taomini bilish uchun",
+    "Faqat qon guruhini aniqlash uchun"
+   ],
+   "e": "Kontaktlar, safarlar."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Tashuvchilik nima?",
+   "a": [
+    "Belgilarsiz ajratish",
+    "Kasallikning og'ir shakli",
+    "Immunitetning to'liq yo'qligi",
+    "Vaksinaga allergiya"
+   ],
+   "e": "Masalan, qorin tifi tashuvchiligi."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Qorin tifining xarakterli belgisi qaysi?",
+   "a": [
+    "Uzoq isitma, rozeola",
+    "Faqat yo'tal",
+    "Faqat bo'g'im og'rig'i",
+    "Faqat ko'z qizarishi"
+   ],
+   "e": "Ichak teshilishi xavfi."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Vaboning asosiy klinik belgisi nima?",
+   "a": [
+    "Ko'p suyuq ich ketish",
+    "Yuqori isitma va bosh og'rig'i",
+    "Teri toshmasi",
+    "Bo'g'im og'rig'i"
+   ],
+   "e": "\"Guruch qaynatmasi\" ko'rinishidagi najas."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Vabo davolashining asosi nima?",
+   "a": [
+    "Suyuqlikni tiklash",
+    "Faqat og'riq qoldiruvchilar",
+    "Faqat vitaminlar",
+    "Faqat parhez"
+   ],
+   "e": "Regidratatsiya."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Dizenteriyada najas qanday bo'ladi?",
+   "a": [
+    "Shilliq va qon aralash",
+    "Ko'p, suvsimon, qonsiz",
+    "Normal",
+    "Qora rangda, ko'p"
+   ],
+   "e": "Tenezmlar."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Salmonellyozda infeksiya manbai ko'pincha nima?",
+   "a": [
+    "Parranda mahsulotlari",
+    "Faqat chivinlar",
+    "Faqat bemor odam havosi",
+    "Faqat tuproq"
+   ],
+   "e": "Tuxum, go'sht."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Botulizmning asosiy belgilariga nima kiradi?",
+   "a": [
+    "Ko'rish va yutish buzilishi",
+    "Yuqori isitma va toshma",
+    "Kuchli ich ketishi",
+    "Sariqlik"
+   ],
+   "e": "Neyrotoksin."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Botulizmda maxsus davolash vositasi qaysi?",
+   "a": [
+    "Antitoksik zardob",
+    "Antibiotiklar faqat",
+    "Vitaminlar",
+    "Ich suradigan dorilar"
+   ],
+   "e": "Toksinni neytrallash."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Rotavirusli infeksiya ko'pincha kimlarda uchraydi?",
+   "a": [
+    "Bolalarda",
+    "Faqat qariyalarda",
+    "Faqat sportchilarda",
+    "Faqat homiladorlarda"
+   ],
+   "e": "Qusish, diareya."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Ichak infeksiyalarining profilaktikasida asosiy chora nima?",
+   "a": [
+    "Gigiyena",
+    "Faqat niqob taqish",
+    "Faqat issiq kiyinish",
+    "Faqat sport bilan shug'ullanish"
+   ],
+   "e": "Sanitariya-gigiyena."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Suvsizlanish (degidratatsiya) belgilariga nima kiradi?",
+   "a": [
+    "Og'iz qurishi, siydik kamayishi",
+    "Teri shishishi va ko'p siydik",
+    "Vazn ortishi",
+    "Tana harorati pasayishi faqat"
+   ],
+   "e": "Bolalarda xavfli."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Og'iz orqali regidratatsiya uchun nima ishlatiladi?",
+   "a": [
+    "ORS eritmasi",
+    "Gazli ichimliklar",
+    "Kofe",
+    "Spirtli ichimliklar"
+   ],
+   "e": "VOZ tavsiyasi."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Gepatit A ning asosiy belgisi qaysi?",
+   "a": [
+    "Sariqlik",
+    "Teri toshmasi",
+    "Yo'tal",
+    "Bo'g'im og'rig'i"
+   ],
+   "e": "Jigar zararlanishi."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Gepatit A ga qarshi profilaktika qanday?",
+   "a": [
+    "Gigiyena va emlash",
+    "Faqat antibiotik qabul qilish",
+    "Faqat qon quyish",
+    "Faqat jismoniy mashq"
+   ],
+   "e": "Fekal-oral yo'l."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Gelmintozlar profilaktikasining asosi nima?",
+   "a": [
+    "Qo'l va mahsulotlarni yuvish",
+    "Faqat ko'zoynak taqish",
+    "Faqat issiq kiyinish",
+    "Faqat erta uxlash"
+   ],
+   "e": "Sabzavot-mevalarni yuvish."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Enterobioz (gijja) qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Ostritsalar",
+    "Askaridalar",
+    "Exinokokk",
+    "Bichak gijja"
+   ],
+   "e": "Bolalarda ko'p."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Grippning asosiy belgilari qaysilar?",
+   "a": [
+    "Yuqori isitma va intoksikatsiya",
+    "Faqat suyuq ich ketishi va qorin og'rig'i",
+    "Faqat teri toshmalari va qichishish",
+    "Faqat sariqlik va jigar kattalashuvi"
+   ],
+   "e": "Bosh, mushak og'rig'i."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Grippning eng xavfli asorati qaysi?",
+   "a": [
+    "Pnevmoniya",
+    "Soch to'kilishi va teri quruqligi",
+    "Tish kariesi",
+    "Ko'rish o'tkirligining oshishi"
+   ],
+   "e": "Ayniqsa qariyalarda."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Grippning maxsus profilaktikasi qanday?",
+   "a": [
+    "Yillik emlash",
+    "Faqat antibiotiklarni doimiy ichish",
+    "Faqat issiq vanna qabul qilish",
+    "Faqat sovuq suv ichish"
+   ],
+   "e": "Mavsumiy vaksina."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Qizamiqqa xos belgi qaysi?",
+   "a": [
+    "Filatov–Koplik dog'lari",
+    "Rozeolyoz toshma qorinda",
+    "Sariqlik",
+    "Xurujsimon yo'tal faqat"
+   ],
+   "e": "Lunj shilliq qavatida."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Qizamiq toshmasining xususiyati nima?",
+   "a": [
+    "Bosqichma-bosqich toshish",
+    "Bir vaqtda butun tanada paydo bo'lish",
+    "Faqat oyoqda",
+    "Faqat qo'lda"
+   ],
+   "e": "Yuzdan pastga."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Suvchechak toshmasi qanday xususiyatga ega?",
+   "a": [
+    "Pufakchali, to'lqinsimon",
+    "Faqat qon quyilishi ko'rinishida",
+    "Faqat qo'l kaftida",
+    "Hech qachon qichishmaydi"
+   ],
+   "e": "Turli bosqichdagi elementlar."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Skarlatinaga xos belgi qaysi?",
+   "a": [
+    "Nuqtali toshma, \"malina til\"",
+    "Pufakchali toshma",
+    "Sariqlik",
+    "Diareya"
+   ],
+   "e": "Streptokokk infeksiyasi."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Difteriyada tomoqda nima kuzatiladi?",
+   "a": [
+    "Kulrang-oq parda",
+    "Shilliq qavatdagi pufakchalar",
+    "Qora dog'lar",
+    "O'zgarishsiz tomoq"
+   ],
+   "e": "Ajratish qiyin, qonaydi."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Ko'kyo'talga xos yo'tal qanday?",
+   "a": [
+    "Xurujsimon, reprizli",
+    "Yengil, bir martalik",
+    "Faqat ertalab quruq",
+    "Yo'tal bo'lmaydi"
+   ],
+   "e": "Hushtakli nafas."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Meningokokk infeksiyasining xavfli belgisi qaysi?",
+   "a": [
+    "Gemorragik toshma",
+    "Kuchli ich ketishi",
+    "Sariqlik",
+    "Bo'g'im shishi"
+   ],
+   "e": "Meningokokkemiya."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Meningitning asosiy belgilari qaysilar?",
+   "a": [
+    "Ensa rigidligi",
+    "Faqat teri qichishi",
+    "Faqat tish og'rig'i",
+    "Faqat ko'z qizarishi"
+   ],
+   "e": "Meningeal sindrom."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Silning asosiy belgilariga nima kiradi?",
+   "a": [
+    "Uzoq yo'tal, ozish",
+    "Faqat bir kunlik isitma",
+    "Faqat teri toshmasi",
+    "Faqat bo'g'im og'rig'i"
+   ],
+   "e": "Kechki terlash."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Silni erta aniqlash usullaridan biri qaysi?",
+   "a": [
+    "Flyuorografiya",
+    "Elektrokardiografiya",
+    "Gastroskopiya",
+    "Audiometriya"
+   ],
+   "e": "Kattalarda."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Silga qarshi vaksina qaysi?",
+   "a": [
+    "BTsJ",
+    "AKDS",
+    "QQP",
+    "OPV"
+   ],
+   "e": "Tug'ruqxonada."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "COVID-19 ning asosiy yuqish yo'li qaysi?",
+   "a": [
+    "Havo-tomchi",
+    "Faqat oziq-ovqat orqali",
+    "Faqat qon quyish orqali",
+    "Faqat hasharot chaqishi orqali"
+   ],
+   "e": "Kontakt yo'li ham."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Respirator infeksiyalarning nospetsifik profilaktikasiga nima kiradi?",
+   "a": [
+    "Niqob va gigiyena",
+    "Faqat antibiotik qabul qilish",
+    "Faqat issiq ovqat yeyish",
+    "Faqat ko'p uxlash"
+   ],
+   "e": "Gigiyena choralari."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Epidemik parotitning asorati qaysi?",
+   "a": [
+    "Orxit va pankreatit",
+    "Soch to'kilishi",
+    "Ko'rish yaxshilanishi",
+    "Tish o'sishi"
+   ],
+   "e": "Bez a'zolari zararlanadi."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Qizilchaning homiladorlikdagi xavfi nima?",
+   "a": [
+    "Homila nuqsonlari",
+    "Onaning bo'yi o'sishi",
+    "Hech qanday xavf yo'q",
+    "Faqat soch rangi o'zgarishi"
+   ],
+   "e": "Ayniqsa birinchi trimestrda."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "OIV qanday yo'llar bilan yuqadi?",
+   "a": [
+    "Qon, jinsiy, onadan bolaga",
+    "Qo'l berib ko'rishish orqali",
+    "Umumiy idishdan ovqatlanish orqali",
+    "Chivin chaqishi orqali"
+   ],
+   "e": "Maishiy yo'l bilan yuqmaydi."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "OITS bosqichi nima bilan tavsiflanadi?",
+   "a": [
+    "Opportunistik infeksiyalar",
+    "Immunitetning keskin kuchayishi",
+    "Faqat bir kunlik isitma",
+    "Tuzalish"
+   ],
+   "e": "CD4 keskin kamayishi."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "OIV infeksiyasini laboratoriya tasdiqlash usuli qaysi?",
+   "a": [
+    "IFA va immunoblot",
+    "Faqat qonda qand o'lchash",
+    "Faqat EKG",
+    "Faqat rentgen"
+   ],
+   "e": "PZR ham."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "Gepatit B profilaktikasining eng samarali usuli qaysi?",
+   "a": [
+    "Emlash",
+    "Faqat parhez",
+    "Faqat vitaminlar",
+    "Faqat jismoniy mashq"
+   ],
+   "e": "Yangi tug'ilganlardan boshlab."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "Gepatit C ning xavfli tomoni nima?",
+   "a": [
+    "Ko'pincha surunkalashadi",
+    "Doimo bir kunda tuzaladi",
+    "Faqat bolalarda uchraydi",
+    "Hech qanday asorati yo'q"
+   ],
+   "e": "Sirroz, jigar saratoni."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "Tibbiyot xodimi uchun qon bilan ifloslangan igna sanchilishida birinchi chora nima?",
+   "a": [
+    "Yarani yuvib, xabar berish",
+    "Hech narsa qilmaslik",
+    "Yarani qisib qonni to'xtatish va yashirish",
+    "Faqat bint bog'lash"
+   ],
+   "e": "Avariya holati protokoli."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "Bir martalik shpritslarni qayta ishlatish nimaga olib keladi?",
+   "a": [
+    "Infeksiya tarqalishiga",
+    "Shpritsning mustahkamlanishiga",
+    "Dori samarasining oshishiga",
+    "Hech narsaga"
+   ],
+   "e": "Qat'iyan taqiqlanadi."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Bezgakning xarakterli belgisi qaysi?",
+   "a": [
+    "Xurujsimon isitma",
+    "Doimiy past harorat",
+    "Teri pufakchalari",
+    "Ich ketishi faqat"
+   ],
+   "e": "Titroq — isitma — terlash."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Bezgakni tashuvchi qaysi?",
+   "a": [
+    "Anofeles chivini",
+    "Uy pashshasi",
+    "Iskabtopar (moskit)",
+    "Iksod kanasi"
+   ],
+   "e": "Urg'ochi chivinlar."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Bezgak diagnostikasining asosiy usuli qaysi?",
+   "a": [
+    "Qon surtmasi mikroskopiyasi",
+    "Siydik tahlili",
+    "EKG",
+    "Spirometriya"
+   ],
+   "e": "\"Qalin tomchi\"."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Teri leyshmaniozining belgisi qaysi?",
+   "a": [
+    "Teri yarasi",
+    "Sariqlik",
+    "Ich ketishi",
+    "Yo'tal"
+   ],
+   "e": "\"Pendinka\"."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Visseral leyshmaniozda qaysi a'zolar kattalashadi?",
+   "a": [
+    "Jigar va taloq",
+    "Faqat ko'z olmasi",
+    "Faqat o'rta quloq",
+    "Faqat tish milki"
+   ],
+   "e": "Gepatosplenomegaliya."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Kana ensefaliti qanday yuqadi?",
+   "a": [
+    "Kana chaqishi",
+    "Chivin chaqishi",
+    "Havo-tomchi",
+    "Qon quyish"
+   ],
+   "e": "Bahor-yoz mavsumi."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Qrim-Kongo gemorragik isitmasini qaysi tashuvchi yuqtiradi?",
+   "a": [
+    "Kanalar",
+    "Pashshalar",
+    "Chivinlar",
+    "Burgalar"
+   ],
+   "e": "Qon ketish sindromi."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Quturishning yashirin davri nimaga bog'liq?",
+   "a": [
+    "Tishlash joyiga",
+    "Bemorning yoshi faqat",
+    "Ob-havoga",
+    "Kunning vaqtiga"
+   ],
+   "e": "Boshga yaqin bo'lsa qisqa."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Hayvon tishlaganda birinchi chora nima?",
+   "a": [
+    "Yuvish va murojaat",
+    "Yarani bog'lab, unutish",
+    "Faqat yod surtish",
+    "Hayvonni qidirmaslik"
+   ],
+   "e": "Quturishga qarshi emlash."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Quturish rivojlangandan keyin qanday kechadi?",
+   "a": [
+    "Deyarli har doim o'lim bilan",
+    "Har doim o'z-o'zidan tuzaladi",
+    "Faqat yengil kechadi",
+    "Surunkali, xavfsiz"
+   ],
+   "e": "Shuning uchun profilaktika muhim."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Brutsellyozning asosiy belgilari qaysilar?",
+   "a": [
+    "Uzoq isitma, terlash",
+    "Faqat bir kunlik yo'tal",
+    "Faqat teri pufakchalari",
+    "Faqat sariqlik"
+   ],
+   "e": "Surunkalashishi mumkin."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Brutsellyoz profilaktikasida nima muhim?",
+   "a": [
+    "Sutni qaynatish",
+    "Faqat qo'l kremi ishlatish",
+    "Faqat issiq kiyinish",
+    "Faqat ko'p uxlash"
+   ],
+   "e": "Veterinariya nazorati."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Kuydirgining teri shaklida qanday o'zgarish bo'ladi?",
+   "a": [
+    "Qora qo'tir (karbunkul)",
+    "Pufakchali toshma",
+    "Sariq dog'",
+    "Oq parda"
+   ],
+   "e": "Og'riqsiz."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "O'latning shakllari qaysilar?",
+   "a": [
+    "Bubon va o'pka shakllari",
+    "Faqat teri shakli",
+    "Faqat ko'z shakli",
+    "Faqat tish shakli"
+   ],
+   "e": "Juda xavfli infeksiya."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Viruslarning asosiy xususiyati nima?",
+   "a": [
+    "Faqat tirik hujayra ichida ko'payadi",
+    "Sun'iy ozuqa muhitida mustaqil ko'payadi",
+    "Hujayra tuzilishiga va ribosomalarga ega",
+    "Mustaqil modda almashinuviga ega"
+   ],
+   "e": "Obligat hujayra ichi parazitlari."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Virus zarrachasi (virion) tarkibiga nima kiradi?",
+   "a": [
+    "Nuklein kislota va kapsid",
+    "Yadro, sitoplazma va ribosomalar",
+    "Faqat lipidlar",
+    "Faqat uglevodlar"
+   ],
+   "e": "Ba'zilarida tashqi lipid qobiq bor."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Viruslarda qanday nuklein kislota bo'ladi?",
+   "a": [
+    "DNK yoki RNK",
+    "Har doim ham DNK, ham RNK",
+    "Nuklein kislota bo'lmaydi",
+    "Faqat oqsil"
+   ],
+   "e": "Viruslarni tasniflash asosi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Viruslarni qanday mikroskopda ko'rish mumkin?",
+   "a": [
+    "Elektron mikroskopda",
+    "Oddiy yorug'lik mikroskopida",
+    "Lupa bilan",
+    "Ko'z bilan"
+   ],
+   "e": "O'lchami nanometrlarda."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Bakteriofag nima?",
+   "a": [
+    "Bakteriyalar virusi",
+    "Bakteriyalarni yeyuvchi hujayra",
+    "Zamburug' turi",
+    "Antibiotik"
+   ],
+   "e": "Fagoterapiya."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Retroviruslarning o'ziga xos fermenti qaysi?",
+   "a": [
+    "Teskari transkriptaza",
+    "Amilaza",
+    "Lipaza",
+    "Pepsin"
+   ],
+   "e": "RNK dan DNK sintezi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "OITS qo'zg'atuvchisi qaysi?",
+   "a": [
+    "OIV",
+    "Gepatit A virusi",
+    "Gripp virusi",
+    "Qizamiq virusi"
+   ],
+   "e": "Retrovirus."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "OIV asosan qaysi hujayralarni zararlaydi?",
+   "a": [
+    "CD4+ T-limfotsitlarni",
+    "Eritrotsitlarni",
+    "Trombotsitlarni",
+    "Teri epiteliysini"
+   ],
+   "e": "T-xelperlar."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Gripp virusining antigen o'zgaruvchanligi nimaga bog'liq?",
+   "a": [
+    "Yuza antigenlari o'zgarishiga",
+    "Kapsula hosil qilishiga",
+    "Spora hosil qilishiga",
+    "Xivchinlar soniga"
+   ],
+   "e": "Drift va shift."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Gepatit B virusi qanday yo'l bilan yuqadi?",
+   "a": [
+    "Qon va jinsiy yo'l",
+    "Faqat havo-tomchi",
+    "Faqat oziq-ovqat orqali",
+    "Faqat hasharotlar orqali"
+   ],
+   "e": "Parenteral yo'l."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Gepatit A virusi asosan qanday yuqadi?",
+   "a": [
+    "Fekal-oral yo'l bilan",
+    "Qon quyish orqali",
+    "Jinsiy yo'l bilan faqat",
+    "Hasharot chaqishi orqali"
+   ],
+   "e": "\"Iflos qo'llar kasalligi\"."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Qizamiq qanday yo'l bilan yuqadi?",
+   "a": [
+    "Havo-tomchi",
+    "Fekal-oral",
+    "Qon orqali",
+    "Hasharot orqali"
+   ],
+   "e": "Juda yuqumli."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Quturish virusi odamga qanday yuqadi?",
+   "a": [
+    "Hayvon tishlashi",
+    "Havo-tomchi yo'l bilan",
+    "Oziq-ovqat orqali",
+    "Suv orqali"
+   ],
+   "e": "Neyrotrop virus."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "COVID-19 qo'zg'atuvchisi qaysi virus?",
+   "a": [
+    "SARS-CoV-2",
+    "OIV",
+    "Gepatit C virusi",
+    "Qizamiq virusi"
+   ],
+   "e": "Koronaviruslar oilasi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Interferonlar nima?",
+   "a": [
+    "Virusga qarshi oqsillar",
+    "Bakteriyalarning toksinlari",
+    "Antibiotiklar",
+    "Vitaminlar"
+   ],
+   "e": "Hujayralar ishlab chiqaradi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Antibiotiklar viruslarga ta'sir qiladimi?",
+   "a": [
+    "Yo'q",
+    "Ha, har doim",
+    "Faqat grippga",
+    "Faqat gepatitga"
+   ],
+   "e": "Antivirus dorilar boshqa guruh."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Virusni o'stirish uchun qaysi muhit ishlatiladi?",
+   "a": [
+    "Hujayra kulturasi",
+    "Oddiy go'sht-pepton agari",
+    "Qumli tuproq",
+    "Distillangan suv"
+   ],
+   "e": "Tirik hujayra kerak."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Sitopatik ta'sir nima?",
+   "a": [
+    "Hujayradagi o'zgarishlar",
+    "Bakteriyalarning bo'linishi",
+    "Zamburug' sporasining o'sishi",
+    "Antibiotik ta'siri"
+   ],
+   "e": "Hujayra kulturasida kuzatiladi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Prionlar nima?",
+   "a": [
+    "Infeksion oqsillar",
+    "DNK li viruslar",
+    "Bakteriyalar",
+    "Zamburug'lar"
+   ],
+   "e": "Nuklein kislotasiz."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Onkogen viruslarga misol qaysi?",
+   "a": [
+    "Papillomavirus",
+    "Gripp virusi",
+    "Qizamiq virusi",
+    "Poliomiyelit virusi"
+   ],
+   "e": "Bachadon bo'yni saratoni."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Stafilokokklar qanday kasalliklar qo'zg'atadi?",
+   "a": [
+    "Yiringli infeksiyalar",
+    "Faqat vabo va ichak infeksiyalari",
+    "Faqat bezgak",
+    "Faqat qizamiq"
+   ],
+   "e": "Furunkul, sepsis, ovqat zaharlanishi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Streptokokklar keltirib chiqaradigan kasallikka misol qaysi?",
+   "a": [
+    "Angina va skarlatina",
+    "Sil va moxov",
+    "Vabo va o'lat",
+    "Brutsellyoz"
+   ],
+   "e": "A guruh streptokokki."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Meningokokk qanday kasallik qo'zg'atadi?",
+   "a": [
+    "Meningit",
+    "Gonoreya",
+    "Sifilis",
+    "Botulizm"
+   ],
+   "e": "Gram-manfiy diplokokk."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Gonoreya qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Gonokokk",
+    "Meningokokk",
+    "Treponema",
+    "Xlamidiya"
+   ],
+   "e": "Neisseria gonorrhoeae."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Ichak tayoqchasi (E. coli) normal holatda qayerda yashaydi?",
+   "a": [
+    "Yo'g'on ichakda",
+    "Qon tomirlarida",
+    "O'pka alveolalarida",
+    "Bosh miyada"
+   ],
+   "e": "Normal mikroflora vakili."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Qorin tifi qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Salmonella typhi",
+    "Shigella",
+    "Vibrio cholerae",
+    "Clostridium tetani"
+   ],
+   "e": "Ichak infeksiyasi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Dizenteriya qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Shigellalar",
+    "Salmonellalar",
+    "Vibrionlar",
+    "Mikobakteriyalar"
+   ],
+   "e": "Yo'g'on ichak zararlanadi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Vabo qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Vibrio cholerae",
+    "Salmonella",
+    "Shigella",
+    "Yersinia pestis"
+   ],
+   "e": "Kuchli suvsizlanish."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "O'lat qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Yersinia pestis",
+    "Vibrio cholerae",
+    "Bacillus anthracis",
+    "Brucella"
+   ],
+   "e": "Kemiruvchilar va burgalar orqali."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Kuydirgi qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Bacillus anthracis",
+    "Clostridium botulinum",
+    "Yersinia pestis",
+    "Treponema pallidum"
+   ],
+   "e": "Spora hosil qiladi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Qoqshol qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Clostridium tetani",
+    "Clostridium botulinum",
+    "Bacillus anthracis",
+    "Staphylococcus aureus"
+   ],
+   "e": "Anaerob, neyrotoksin."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Botulizm qanday yuqadi?",
+   "a": [
+    "Zararlangan konservalar",
+    "Havo-tomchi yo'l bilan",
+    "Qon quyish orqali",
+    "Hasharot chaqishi orqali"
+   ],
+   "e": "Eng kuchli toksinlardan."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Difteriya qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Corynebacterium diphtheriae",
+    "Bordetella pertussis",
+    "Mycobacterium tuberculosis",
+    "Streptococcus pyogenes"
+   ],
+   "e": "Ekzotoksin."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Ko'kyo'tal qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Bordetella pertussis",
+    "Corynebacterium diphtheriae",
+    "Haemophilus influenzae",
+    "Klebsiella"
+   ],
+   "e": "AKDS vaksinasi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Sil qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Mycobacterium tuberculosis",
+    "Mycobacterium leprae",
+    "Treponema pallidum",
+    "Brucella melitensis"
+   ],
+   "e": "Kox tayoqchasi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Moxov qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Mycobacterium leprae",
+    "Mycobacterium tuberculosis",
+    "Treponema pallidum",
+    "Borrelia"
+   ],
+   "e": "Gansen tayoqchasi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Sifilis qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Treponema pallidum",
+    "Neisseria gonorrhoeae",
+    "Chlamydia trachomatis",
+    "Candida albicans"
+   ],
+   "e": "Spiroxeta."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Brutsellyoz odamga asosan qanday yuqadi?",
+   "a": [
+    "Hayvon mahsulotlari orqali",
+    "Faqat havo-tomchi bilan",
+    "Faqat qon quyishda",
+    "Faqat chivin chaqishida"
+   ],
+   "e": "Pishirilmagan sut, go'sht."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Bezgak qo'zg'atuvchisi qaysi guruhga kiradi?",
+   "a": [
+    "Sodda hayvonlar",
+    "Bakteriyalar",
+    "Viruslar",
+    "Zamburug'lar"
+   ],
+   "e": "Anofeles chivini tashiydi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Kandidoz qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Candida zamburug'lari",
+    "Stafilokokklar",
+    "Respirator viruslar",
+    "Gelmintlar"
+   ],
+   "e": "Achitqisimon zamburug'."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Leyshmanioz qo'zg'atuvchisi qanday tashiladi?",
+   "a": [
+    "Iskabtopar (moskit) orqali",
+    "Iksod kanalari orqali",
+    "Kalamush burgalari orqali",
+    "Bit orqali"
+   ],
+   "e": "Teri va visseral shakllar."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Lyamblioz qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Giardia lamblia",
+    "Plasmodium",
+    "Leishmania",
+    "Trichomonas"
+   ],
+   "e": "Ingichka ichak."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Gerpes viruslari qanday xususiyatga ega?",
+   "a": [
+    "Organizmda latent saqlanadi",
+    "Faqat bir marta kasallik qo'zg'atib, butunlay yo'qoladi",
+    "Faqat o'simliklarni zararlaydi",
+    "Faqat bakteriyalarni zararlaydi"
+   ],
+   "e": "Qayta faollashadi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Suvchechak qo'zg'atuvchisi qaysi virus?",
+   "a": [
+    "Varicella-zoster virusi",
+    "Qizamiq virusi",
+    "Qizilcha virusi",
+    "Gripp virusi"
+   ],
+   "e": "Gerpesviruslar oilasi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "O'rab oluvchi temiratki (opoyasyvayushchiy lishay) qaysi virus qo'zg'atadi?",
+   "a": [
+    "Varicella-zoster",
+    "Papillomavirus",
+    "Adenovirus",
+    "Rinovirus"
+   ],
+   "e": "Suvchechakdan keyin latent."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Qizilcha homiladorlikda nima uchun xavfli?",
+   "a": [
+    "Homila nuqsonlari",
+    "Onaning bo'yini o'zgartiradi",
+    "Hech qanday xavf yo'q",
+    "Faqat sochni to'kadi"
+   ],
+   "e": "Tug'ma qizilcha sindromi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Poliomiyelit qaysi a'zoni zararlaydi?",
+   "a": [
+    "Harakat neyronlarini",
+    "Faqat terini",
+    "Faqat jigarni",
+    "Faqat ko'zni"
+   ],
+   "e": "Falajlar."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Epidemik parotit (tepki) asosan qaysi a'zoni zararlaydi?",
+   "a": [
+    "So'lak bezlarini",
+    "O'pkani",
+    "Yurakni",
+    "Buyrakni"
+   ],
+   "e": "Paramiksoviruslar."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Gepatit C virusi qanday nuklein kislotaga ega?",
+   "a": [
+    "RNK",
+    "DNK",
+    "Ikkalasi ham",
+    "Nuklein kislotasiz"
+   ],
+   "e": "Flaviviruslar."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Gepatit D virusi qanday xususiyatga ega?",
+   "a": [
+    "Faqat gepatit B bilan",
+    "Mustaqil, boshqa virussiz ko'payadi",
+    "Faqat bakteriyalarni zararlaydi",
+    "DNK li yirik virus"
+   ],
+   "e": "Defekt virus."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Rotaviruslar qanday kasallik qo'zg'atadi?",
+   "a": [
+    "Bolalarda o'tkir diareya",
+    "Sil va moxov",
+    "Bezgak",
+    "Qoqshol"
+   ],
+   "e": "Fekal-oral yo'l."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Adenoviruslar qanday kasalliklar qo'zg'atadi?",
+   "a": [
+    "Nafas va ko'z infeksiyalari",
+    "Faqat suyak sinishi",
+    "Faqat diabet",
+    "Faqat gipertoniya"
+   ],
+   "e": "Konyunktivit, faringit."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Ebola virusi qanday kasallik qo'zg'atadi?",
+   "a": [
+    "Gemorragik isitma",
+    "Oddiy shamollash",
+    "Teri qichimasi",
+    "Tish kariesi"
+   ],
+   "e": "O'lim darajasi yuqori."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Virus genomining o'zgarishiga eng moyil viruslar qaysilar?",
+   "a": [
+    "RNK li viruslar",
+    "DNK li yirik viruslar",
+    "Prionlar",
+    "Bakteriofaglar faqat"
+   ],
+   "e": "Replikatsiyada xatolar ko'p."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Antivirus dori asiklovir qaysi viruslarga qarshi ishlatiladi?",
+   "a": [
+    "Gerpesviruslarga",
+    "Gripp virusiga faqat",
+    "OIV ga faqat",
+    "Bakteriyalarga"
+   ],
+   "e": "DNK sintezini to'xtatadi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "OIV infeksiyasini davolashda qanday terapiya qo'llaniladi?",
+   "a": [
+    "Antiretrovirus terapiya",
+    "Faqat antibiotik terapiya",
+    "Faqat vitamin terapiya",
+    "Faqat jarrohlik"
+   ],
+   "e": "Bir nechta dori kombinatsiyasi."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Viruslarning hujayraga kirishining birinchi bosqichi nima?",
+   "a": [
+    "Retseptorga birikish",
+    "Yangi virionlarning chiqishi",
+    "Nuklein kislota sintezi",
+    "Kapsid yig'ilishi"
+   ],
+   "e": "Keyin kirish, yechinish, sintez, yig'ilish, chiqish."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Virusga qarshi vaksinaga misol qaysi?",
+   "a": [
+    "QQP vaksinasi",
+    "BTsJ",
+    "AKDS ning ko'kyo'tal komponenti",
+    "Qoqshol anatoksini"
+   ],
+   "e": "Tirik vaksina."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Pnevmokokk qanday kasallik qo'zg'atadi?",
+   "a": [
+    "Pnevmoniya",
+    "Vabo",
+    "Bezgak",
+    "Sifilis"
+   ],
+   "e": "Streptococcus pneumoniae."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Gelikobakter (Helicobacter pylori) qanday kasallik bilan bog'liq?",
+   "a": [
+    "Oshqozon yarasi",
+    "Sil",
+    "Qizamiq",
+    "Suvchechak"
+   ],
+   "e": "Spiralsimon bakteriya."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Listerioz homiladorlar uchun nima uchun xavfli?",
+   "a": [
+    "Homila zararlanishi mumkin",
+    "Onaning ko'zi rangini o'zgartiradi",
+    "Xavfsiz infeksiya",
+    "Faqat sochni zararlaydi"
+   ],
+   "e": "Listeria monocytogenes."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Xlamidiyalar qanday mikroorganizmlar?",
+   "a": [
+    "Hujayra ichi bakteriyalari",
+    "Erkin yashovchi zamburug'lar",
+    "Viruslar",
+    "Gelmintlar"
+   ],
+   "e": "Trachoma, urogenital infeksiyalar."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Rikketsiyalar qanday tashiladi?",
+   "a": [
+    "Bit va kanalar",
+    "Faqat havo-tomchi",
+    "Faqat suv orqali",
+    "Faqat qon quyishda"
+   ],
+   "e": "Toshmali tif."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Leptospiroz odamga qanday yuqadi?",
+   "a": [
+    "Ifloslangan suv orqali",
+    "Faqat havo-tomchi",
+    "Faqat chivin chaqishida",
+    "Faqat qon quyishda"
+   ],
+   "e": "Spiroxeta."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Kokliyush (ko'kyo'tal) uchun xos belgi qaysi?",
+   "a": [
+    "Xurujsimon yo'tal",
+    "Teri toshmasi va qichishi",
+    "Sariqlik",
+    "Diareya"
+   ],
+   "e": "Bolalarda."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Difteriyaning xavfli asorati nima?",
+   "a": [
+    "Miokardit",
+    "Soch to'kilishi",
+    "Tish kariesi",
+    "Ko'rish o'tkirlashuvi"
+   ],
+   "e": "Toksin ta'siri."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Gazli gangrena qo'zg'atuvchilari qaysilar?",
+   "a": [
+    "Klostridiyalar",
+    "Stafilokokklar",
+    "Viruslar",
+    "Zamburug'lar"
+   ],
+   "e": "Anaerob infeksiya."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Psevdomonas (ko'k yiring tayoqchasi) qayerda ko'p uchraydi?",
+   "a": [
+    "Kasalxonada",
+    "Faqat sog'lom terida",
+    "Faqat sut mahsulotlarida",
+    "Faqat tog' havosida"
+   ],
+   "e": "Antibiotiklarga chidamli."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Klebsiella qanday kasallik qo'zg'atishi mumkin?",
+   "a": [
+    "Pnevmoniya",
+    "Faqat bezgak",
+    "Faqat qizamiq",
+    "Faqat quturish"
+   ],
+   "e": "Kapsulali tayoqcha."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Toksoplazmoz qo'zg'atuvchisi qaysi guruhga kiradi?",
+   "a": [
+    "Sodda hayvonlar",
+    "Bakteriyalar",
+    "Viruslar",
+    "Gelmintlar (yassi chuvalchanglar)"
+   ],
+   "e": "Mushuklar asosiy xo'jayin."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Trixomoniaz qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Trichomonas vaginalis",
+    "Treponema pallidum",
+    "Giardia lamblia",
+    "Plasmodium vivax"
+   ],
+   "e": "Jinsiy yo'l bilan."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Amyobiaz qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Entamoeba histolytica",
+    "Giardia lamblia",
+    "Plasmodium falciparum",
+    "Toxoplasma gondii"
+   ],
+   "e": "Amyobali dizenteriya."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Aspergillyoz qo'zg'atuvchisi qaysi guruhga kiradi?",
+   "a": [
+    "Mog'or zamburug'lari",
+    "Bakteriyalar",
+    "Viruslar",
+    "Sodda hayvonlar (amyobalar)"
+   ],
+   "e": "Aspergillus."
+  },
+  {
+   "b": "Qo'zg'atuvchilar",
+   "q": "Dermatofitlar qanday kasalliklar qo'zg'atadi?",
+   "a": [
+    "Teri zamburug'li kasalliklari",
+    "Faqat o'pka kasalliklari",
+    "Faqat yurak kasalliklari",
+    "Faqat buyrak kasalliklari"
+   ],
+   "e": "Trixofitiya, mikrosporiya."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Emlashdan keyingi oddiy reaksiyaga misol qaysi?",
+   "a": [
+    "Ukol joyida qizarish",
+    "Anafilaktik shok har doim",
+    "Ko'rish yo'qolishi",
+    "Falaj"
+   ],
+   "e": "1–2 kunda o'tadi."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Vaksinalarni saqlashda qanday harorat rejimi kerak (ko'pchilik vaksinalar)?",
+   "a": [
+    "+2 dan +8 °C gacha",
+    "−40 °C dan past har doim",
+    "+25 dan +30 °C gacha",
+    "Xona harorati, quyoshda"
+   ],
+   "e": "Sovuq zanjir."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "\"Sovuq zanjir\" nima?",
+   "a": [
+    "Vaksinani sovuqda saqlash tizimi",
+    "Muzlatilgan go'sht savdosi",
+    "Qishki kiyimlar ro'yxati",
+    "Sovuq ichimliklar ishlab chiqarish"
+   ],
+   "e": "Vaksina samaradorligini saqlaydi."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Emlashga mutlaq qarshi ko'rsatma qaysi?",
+   "a": [
+    "Og'ir allergik reaksiya",
+    "Yengil burun oqishi",
+    "Yaqinda ovqatlangan bo'lish",
+    "Ertalabki charchoq"
+   ],
+   "e": "Tibbiy ko'rikdan keyin."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "AKDS vaksinasi qaysi kasalliklarga qarshi?",
+   "a": [
+    "Ko'kyo'tal, difteriya, qoqshol",
+    "Qizamiq, qizilcha, tepki",
+    "Sil, gripp, gepatit",
+    "Bezgak, vabo, o'lat"
+   ],
+   "e": "Adsorbsiyalangan vaksina."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Poliomiyelitga qarshi og'iz orqali beriladigan vaksina qanday?",
+   "a": [
+    "Tirik vaksina (OPV)",
+    "Anatoksin",
+    "Immunoglobulin",
+    "Antibiotik"
+   ],
+   "e": "Tomchi shaklida."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Shoshilinch profilaktika qachon o'tkaziladi?",
+   "a": [
+    "Xavfdan keyin darhol",
+    "Faqat bir yildan keyin",
+    "Kasallik tugagandan keyin",
+    "Hech qachon"
+   ],
+   "e": "Masalan, quturishda."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Qoqsholning shoshilinch profilaktikasi qachon kerak?",
+   "a": [
+    "Ifloslangan yaralarda",
+    "Faqat grippda",
+    "Faqat ich ketishida",
+    "Faqat bosh og'rig'ida"
+   ],
+   "e": "Anatoksin va zardob."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Tibbiy xodimlarning qo'l gigiyenasida qaysi vosita samarali?",
+   "a": [
+    "Spirtli antiseptik",
+    "Oddiy suv, sovunsiz",
+    "Faqat sochiq",
+    "Faqat qo'lqop, yuvmasdan"
+   ],
+   "e": "20–30 soniya."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Shaxsiy himoya vositalariga nima kiradi?",
+   "a": [
+    "Niqob, qo'lqop, xalat",
+    "Faqat soat va uzuk",
+    "Faqat tufli",
+    "Faqat bosh kiyim"
+   ],
+   "e": "Infeksiyadan himoya."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Respirator (FFP2/N95) oddiy niqobdan nimasi bilan farq qiladi?",
+   "a": [
+    "Yuqoriroq filtrlash",
+    "Faqat rangi bilan",
+    "Hech qanday farqi yo'q",
+    "Faqat narxi bilan"
+   ],
+   "e": "Aerozoldan himoya."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "Tibbiy chiqindilarning eng xavfli toifasi qaysi?",
+   "a": [
+    "Yuqumli chiqindilar",
+    "Qog'oz qadoqlar",
+    "Oziq-ovqat qoldiqlari",
+    "Plastik idishlar"
+   ],
+   "e": "Maxsus utilizatsiya."
+  },
+  {
+   "b": "Profilaktika va emlash",
+   "q": "O'tkir tibbiy chiqindilar (ignalar) qayerga tashlanadi?",
+   "a": [
+    "Teshilmaydigan konteynerga",
+    "Oddiy axlat qutisiga",
+    "Qog'oz paketga",
+    "Kanalizatsiyaga"
+   ],
+   "e": "Shikastlanishning oldini olish."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Isitma deb tana haroratining qancha bo'lishiga aytiladi?",
+   "a": [
+    "37 °C dan yuqori",
+    "35 °C dan past",
+    "36,6 °C",
+    "34 °C"
+   ],
+   "e": "Subfebril, febril, giperpireksiya."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Giperpireksiya qanday harorat?",
+   "a": [
+    "41 °C dan yuqori",
+    "37,1–38 °C",
+    "36 °C",
+    "35 °C"
+   ],
+   "e": "Hayot uchun xavfli."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Ekzantema nima?",
+   "a": [
+    "Teridagi toshma",
+    "Shilliq qavatdagi toshma",
+    "Ichki a'zo shishi",
+    "Ko'z qizarishi"
+   ],
+   "e": "Enantema — shilliq qavatda."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Sariqlik qaysi pigment to'planishi bilan bog'liq?",
+   "a": [
+    "Bilirubin",
+    "Gemoglobin",
+    "Melanin",
+    "Xlorofil"
+   ],
+   "e": "Jigar kasalliklari."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Intoksikatsiya sindromiga nima kiradi?",
+   "a": [
+    "Holsizlik, bosh og'rig'i, isitma",
+    "Vazn ortishi va ishtaha kuchayishi",
+    "Ko'rish yaxshilanishi",
+    "Faqat soch to'kilishi"
+   ],
+   "e": "Toksinlar ta'siri."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Limfadenopatiya nima?",
+   "a": [
+    "Limfa tugunlari kattalashuvi",
+    "Limfa tugunlarining yo'qolishi",
+    "Qon bosimining oshishi",
+    "Yurak urishining sekinlashuvi"
+   ],
+   "e": "Ko'plab infeksiyalarda."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Gepatosplenomegaliya nima?",
+   "a": [
+    "Jigar va taloq kattalashuvi",
+    "Buyraklar kichrayishi",
+    "O'pka shishi",
+    "Miya kattalashuvi"
+   ],
+   "e": "Leyshmanioz, bezgak va boshqalar."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Lumbal punksiya qaysi kasallik diagnostikasida qo'llaniladi?",
+   "a": [
+    "Meningit",
+    "Gastrit",
+    "Sistit",
+    "Konyunktivit"
+   ],
+   "e": "Orqa miya suyuqligi tahlili."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Qonni bakteriologik ekish (gemokultura) qachon olinadi?",
+   "a": [
+    "Isitma cho'qqisida",
+    "Faqat tuzalgandan keyin",
+    "Faqat ovqatdan keyin",
+    "Istalgan vaqtda, antibiotikdan keyin"
+   ],
+   "e": "Bakteriemiyani aniqlash."
+  },
+  {
+   "b": "Klinik belgilar va diagnostika",
+   "q": "Ekspress-testlar diagnostikada nima beradi?",
+   "a": [
+    "Tez natija",
+    "Faqat sekin natija",
+    "Hech qanday natija",
+    "Faqat noto'g'ri natija"
+   ],
+   "e": "Masalan, gripp, COVID testlari."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Bakterial infeksiyalarni davolashda asosiy dori guruhi qaysi?",
+   "a": [
+    "Antibiotiklar",
+    "Antivirus dorilar",
+    "Antigelmint dorilar",
+    "Antimalyar dorilar faqat"
+   ],
+   "e": "Sezgirlikka qarab."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Antibiotiklarni noto'g'ri qo'llashning asosiy xavfi nima?",
+   "a": [
+    "Chidamlilik",
+    "Immunitetning kuchayishi",
+    "Vaznning tez ortishi",
+    "Ko'rishning yaxshilanishi"
+   ],
+   "e": "Rezistentlik."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Antibiotik kursini muddatidan oldin to'xtatish nimaga olib keladi?",
+   "a": [
+    "Qaytalanish va chidamlilik",
+    "Tezroq tuzalish",
+    "Hech narsaga",
+    "Immunitetning ortishi"
+   ],
+   "e": "Kursni oxirigacha bajarish."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Virusli infeksiyalarda antibiotik qachon buyuriladi?",
+   "a": [
+    "Bakterial asorat qo'shilganda",
+    "Har doim birinchi kundan",
+    "Hech qachon, hatto asoratda ham",
+    "Faqat bolalarga"
+   ],
+   "e": "Viruslarga ta'sir qilmaydi."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Simptomatik davolash nima?",
+   "a": [
+    "Belgilarni yengillatish",
+    "Qo'zg'atuvchini yo'qotish",
+    "Immunitetni hosil qilish",
+    "Kasallikning oldini olish"
+   ],
+   "e": "Isitmani tushirish va boshqalar."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Etiotrop davolash nima?",
+   "a": [
+    "Qo'zg'atuvchiga qarshi",
+    "Faqat og'riqni qoldirish",
+    "Faqat parhez",
+    "Faqat dam olish"
+   ],
+   "e": "Antibiotik, antivirus."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Patogenetik davolash nimaga qaratilgan?",
+   "a": [
+    "Kasallik mexanizmiga",
+    "Faqat qo'zg'atuvchiga",
+    "Faqat ruhiy holatga",
+    "Faqat tashqi ko'rinishga"
+   ],
+   "e": "Detoksikatsiya, regidratatsiya."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Isitmani tushirish uchun bolalarda tavsiya etiladigan dori qaysi?",
+   "a": [
+    "Paratsetamol yoki ibuprofen",
+    "Aspirin bolalarga har doim",
+    "Antibiotik",
+    "Vitamin"
+   ],
+   "e": "Aspirin bolalarda Reye sindromi xavfi."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Yuqumli kasalliklar shifoxonasida bemorlarni joylashtirish qanday tamoyilga asoslanadi?",
+   "a": [
+    "Alohida bo'limlarda",
+    "Barcha bemorlarni bir xonada",
+    "Faqat yoshi bo'yicha",
+    "Faqat familiyasi bo'yicha"
+   ],
+   "e": "Kesishgan infeksiyaning oldini olish."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Boks (izolyator) nima uchun kerak?",
+   "a": [
+    "Bemorni ajratish uchun",
+    "Tibbiyot xodimlari dam olishi uchun",
+    "Dorilar saqlash uchun",
+    "Ovqat tayyorlash uchun"
+   ],
+   "e": "Meltser boksi."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Bemordan tuzalgandan keyin qo'zg'atuvchi ajralishi davom etsa bu nima deyiladi?",
+   "a": [
+    "Rekonvalessent tashuvchilik",
+    "To'liq sog'ayish",
+    "Qayta zararlanish",
+    "Inkubatsiya"
+   ],
+   "e": "Nazorat tekshiruvlari."
+  },
+  {
+   "b": "Davolash asoslari",
+   "q": "Dispanser kuzatuvi nima uchun kerak?",
+   "a": [
+    "Holatni nazorat qilish",
+    "Bemorni jazolash uchun",
+    "Ish haqini hisoblash uchun",
+    "Faqat statistika uchun"
+   ],
+   "e": "Surunkalashishning oldini olish."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Qorin tifining eng xavfli asoratlari qaysilar?",
+   "a": [
+    "Ichak teshilishi va qon ketishi",
+    "Teri qichishi va soch to'kilishi",
+    "Ko'rish o'tkirlashuvi",
+    "Bo'y o'sishi"
+   ],
+   "e": "2–3-hafta."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Qorin tifida qaysi tekshiruv birinchi haftada eng informativ?",
+   "a": [
+    "Gemokultura",
+    "Najas tahlili",
+    "Siydik tahlili",
+    "Vidal reaksiyasi birinchi kuni"
+   ],
+   "e": "Qonda qo'zg'atuvchi."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Vabo epidemiyasida eng muhim profilaktik chora qaysi?",
+   "a": [
+    "Suvni zararsizlantirish",
+    "Faqat issiq kiyinish",
+    "Faqat yo'tal dorisi ichish",
+    "Faqat niqob taqish"
+   ],
+   "e": "Suv orqali tarqaladi."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Shigellyozda tenezm nima?",
+   "a": [
+    "Soxta og'riqli chaqiriqlar",
+    "Qorinning shishishi",
+    "Ishtahaning ortishi",
+    "Terining sarg'ayishi"
+   ],
+   "e": "Yo'g'on ichak zararlanishi."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Ovqatdan zaharlanish (toksikoinfeksiya) uchun xos xususiyat qaysi?",
+   "a": [
+    "Qisqa yashirin davr va guruhli holatlar",
+    "Juda uzoq yashirin davr, yakka holatlar",
+    "Faqat qishda uchrashi",
+    "Faqat bolalarda uchrashi"
+   ],
+   "e": "Umumiy ovqat."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Ich ketishi bilan kasallangan bolada eng muhim xavf nima?",
+   "a": [
+    "Suvsizlanish",
+    "Vazn ortishi",
+    "Bo'y o'sishi",
+    "Ishtaha ortishi"
+   ],
+   "e": "Regidratatsiya."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Ichak infeksiyalarida bemorga qanday parhez tavsiya etiladi?",
+   "a": [
+    "Yengil ovqat, ko'p suyuqlik",
+    "Yog'li va achchiq ovqatlar",
+    "Spirtli ichimliklar",
+    "Ovqatdan butunlay voz kechish"
+   ],
+   "e": "Parhez № 4."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Gepatit E homiladorlar uchun nima uchun xavfli?",
+   "a": [
+    "O'lim xavfi yuqori",
+    "Hech qanday xavfi yo'q",
+    "Faqat ko'zni zararlaydi",
+    "Faqat sochni zararlaydi"
+   ],
+   "e": "Fekal-oral yo'l."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Askaridoz qanday yuqadi?",
+   "a": [
+    "Iflos qo'l va sabzavot",
+    "Faqat chivin chaqishi orqali",
+    "Faqat havo orqali",
+    "Faqat qon quyish orqali"
+   ],
+   "e": "Tuxumlar tuproqda yetiladi."
+  },
+  {
+   "b": "Ichak infeksiyalari",
+   "q": "Exinokokkoz qaysi hayvonlardan yuqadi?",
+   "a": [
+    "Itlardan",
+    "Baliqlardan",
+    "Qushlardan",
+    "Hasharotlardan"
+   ],
+   "e": "Jigar, o'pka kistalari."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Qizamiqqa qarshi emlash qaysi vaksina tarkibida?",
+   "a": [
+    "QQP",
+    "AKDS",
+    "BTsJ",
+    "OPV"
+   ],
+   "e": "Qizamiq, qizilcha, parotit."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Suvchechakli bolani bolalar jamoasidan qancha muddat ajratiladi?",
+   "a": [
+    "Toshmadan 5 kun keyin",
+    "Faqat bir soatga",
+    "Bir yilga",
+    "Ajratilmaydi"
+   ],
+   "e": "Qobiqlanguncha yuqumli."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Angina va skarlatinaning umumiy qo'zg'atuvchisi qaysi?",
+   "a": [
+    "A guruh streptokokki",
+    "Stafilokokk",
+    "Meningokokk",
+    "Adenovirus"
+   ],
+   "e": "Revmatizm asorati."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Difteriyada maxsus davolash vositasi qaysi?",
+   "a": [
+    "Antitoksik zardob",
+    "Faqat vitaminlar",
+    "Faqat og'riq qoldiruvchi",
+    "Faqat parhez"
+   ],
+   "e": "Erta yuborish muhim."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Infeksion mononukleoz qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Epshteyn–Barr virusi",
+    "Gripp virusi",
+    "Gepatit A virusi",
+    "Qizamiq virusi"
+   ],
+   "e": "Angina, limfadenopatiya."
+  },
+  {
+   "b": "Havo-tomchi infeksiyalari",
+   "q": "Legionellyoz qanday yuqadi?",
+   "a": [
+    "Suv aerozoli orqali",
+    "Faqat ovqat orqali",
+    "Faqat hasharot orqali",
+    "Faqat qon orqali"
+   ],
+   "e": "Pnevmoniya."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "OIV ning \"deraza davri\" nima?",
+   "a": [
+    "Testlar manfiy davri",
+    "Kasallikning so'nggi bosqichi",
+    "Davolanish davri",
+    "Emlash davri"
+   ],
+   "e": "Antitelalar hali hosil bo'lmagan."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "OIV infeksiyasi profilaktikasining asosiy yo'li qaysi?",
+   "a": [
+    "Xavfsiz aloqa, steril asbob",
+    "Faqat issiq kiyinish",
+    "Faqat vitaminlar",
+    "Faqat antibiotiklar"
+   ],
+   "e": "Prezervativ, bir martalik shpritslar."
+  },
+  {
+   "b": "Qon orqali yuqadigan infeksiyalar",
+   "q": "Gepatit B ning onadan bolaga yuqishining oldini olish uchun nima qilinadi?",
+   "a": [
+    "Emlash va immunoglobulin",
+    "Bolani sut bilan boqmaslik faqat",
+    "Hech narsa qilinmaydi",
+    "Faqat antibiotik berish"
+   ],
+   "e": "Birinchi 12 soat ichida."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Bezgakning tropik shakli qaysi plazmodiy bilan bog'liq?",
+   "a": [
+    "Plasmodium falciparum",
+    "Plasmodium vivax",
+    "Plasmodium malariae",
+    "Plasmodium ovale"
+   ],
+   "e": "Eng og'ir shakl."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Bezgak profilaktikasida nima muhim?",
+   "a": [
+    "Chivinlardan himoya",
+    "Faqat qo'l yuvish",
+    "Faqat sut qaynatish",
+    "Faqat niqob taqish"
+   ],
+   "e": "Setkalar, repellentlar."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Toshmali tif qanday yuqadi?",
+   "a": [
+    "Bit orqali",
+    "Chivin orqali",
+    "Kana orqali",
+    "Burga orqali"
+   ],
+   "e": "Rikketsiya."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Leptospirozda qaysi a'zolar ko'proq zararlanadi?",
+   "a": [
+    "Jigar va buyrak",
+    "Faqat teri",
+    "Faqat ko'z",
+    "Faqat tish"
+   ],
+   "e": "Sariqlik, buyrak yetishmovchiligi."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Tulyaremiya qanday tabiiy o'choqli kasallik?",
+   "a": [
+    "Kemiruvchilar zoonozi",
+    "Faqat odamlar orasidagi kasallik",
+    "Irsiy kasallik",
+    "Yuqmaydigan kasallik"
+   ],
+   "e": "Francisella tularensis."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Qushlar grippi odamga qanday yuqadi?",
+   "a": [
+    "Parranda bilan aloqa",
+    "Faqat baliq orqali",
+    "Faqat sabzavot orqali",
+    "Faqat suv orqali"
+   ],
+   "e": "Zoonoz gripp."
+  },
+  {
+   "b": "Transmissiv infeksiyalar va zoonozlar",
+   "q": "Toksoplazmoz homiladorlarda nima uchun xavfli?",
+   "a": [
+    "Homila zararlanadi",
+    "Onaning bo'yi o'sadi",
+    "Xavfli emas",
+    "Faqat soch to'kiladi"
+   ],
+   "e": "Mushuklar bilan aloqa."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Infeksiya o'chog'ida kontakt shaxslar bilan qanday chora ko'riladi?",
+   "a": [
+    "Tibbiy kuzatuv",
+    "Hech qanday chora",
+    "Faqat jarima",
+    "Faqat sertifikat berish"
+   ],
+   "e": "Inkubatsiya davri davomida."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Yuqumli kasallik haqida shoshilinch xabarnoma kimga yuboriladi?",
+   "a": [
+    "SES ga",
+    "Faqat bemor qarindoshlariga",
+    "Faqat ish joyiga",
+    "Hech kimga"
+   ],
+   "e": "Belgilangan muddatda."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Epidemik o'choqning chegaralari nimaga qarab belgilanadi?",
+   "a": [
+    "Manba va yo'llarga qarab",
+    "Faqat ko'cha nomiga",
+    "Faqat ob-havoga",
+    "Faqat bemorning yoshiga"
+   ],
+   "e": "Epidemiologik tekshiruv."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Immunoprofilaktika nima?",
+   "a": [
+    "Emlash orqali oldini olish",
+    "Faqat davolash",
+    "Faqat dezinfeksiya",
+    "Faqat izolyatsiya"
+   ],
+   "e": "Vaksina va zardoblar."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Epidemiyaga qarshi choralar qaysi uch yo'nalishga qaratiladi?",
+   "a": [
+    "Manba, yuqish yo'li, moyil aholi",
+    "Faqat dorixona, shifoxona, laboratoriya",
+    "Faqat suv, havo, tuproq",
+    "Faqat bolalar, kattalar, qariyalar"
+   ],
+   "e": "Har bir bo'g'inga ta'sir."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Yuqumli kasallikning surunkali shakli nima?",
+   "a": [
+    "Uzoq davom etuvchi shakl",
+    "Bir kunda tuzaladigan shakl",
+    "Belgilarsiz shakl",
+    "Faqat bolalardagi shakl"
+   ],
+   "e": "Masalan, surunkali gepatit."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Reinfeksiya nima?",
+   "a": [
+    "Qayta zararlanish",
+    "Kasallik belgilarining kuchayishi",
+    "Birinchi zararlanish",
+    "Emlash"
+   ],
+   "e": "Superinfeksiyadan farq qiladi."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Superinfeksiya nima?",
+   "a": [
+    "Yangi infeksiya qo'shilishi",
+    "Tuzalgandan keyin qayta zararlanish",
+    "Belgilarsiz tashuvchilik",
+    "Emlashga reaksiya"
+   ],
+   "e": "Masalan, gepatit B + D."
+  },
+  {
+   "b": "Epidemiologiya asoslari",
+   "q": "Nozokomial (kasalxona ichi) infeksiya qachon tashxislanadi?",
+   "a": [
+    "48 soatdan keyin",
+    "Uyda paydo bo'lsa",
+    "Kasalxonaga kelmasdan oldin",
+    "Faqat chet elda"
+   ],
+   "e": "Gospital infeksiya."
+  }
+ ]
+}
