@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "Raqamli axborotlarni qayta ishlash va yaratish texnologiyasi",
+ "turi": "maxsus",
+ "manba": "Kasb-hunar ta'limi uchun 'Raqamli axborotlarni yaratish va qayta ishlash' o'quv qo'llanmalari, MS Office va multimedia dasturlari hujjatlari",
+ "savollar": [
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Axborot miqdorining eng kichik o'lchov birligi qaysi?",
+   "a": [
+    "Bit",
+    "Bayt",
+    "Kilobayt",
+    "Gerts"
+   ],
+   "e": "0 yoki 1."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "1 bayt necha bitga teng?",
+   "a": [
+    "8 bit",
+    "2 bit",
+    "10 bit",
+    "16 bit"
+   ],
+   "e": "1 bayt = 8 bit."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "1 kilobayt (KB) necha baytga teng?",
+   "a": [
+    "1024 bayt",
+    "1000 bit",
+    "100 bayt",
+    "8 bayt"
+   ],
+   "e": "2¹⁰."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "1 gigabayt necha megabaytga teng?",
+   "a": [
+    "1024 MB",
+    "100 MB",
+    "1000 KB",
+    "8 MB"
+   ],
+   "e": "Ikkilik prefikslar."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Ikkilik sanoq sistemasida 1011₂ soni o'nlikda nechaga teng?",
+   "a": [
+    "11",
+    "9",
+    "13",
+    "1011"
+   ],
+   "e": "8+0+2+1."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "O'nlik 25 soni ikkilik sistemada qanday yoziladi?",
+   "a": [
+    "11001",
+    "10101",
+    "11010",
+    "10011"
+   ],
+   "e": "16+8+1."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Unicode kodlash standartining ASCII dan asosiy afzalligi nima?",
+   "a": [
+    "Dunyoning deyarli barcha yozuvlaridagi belgilarni kodlay oladi",
+    "Faqat lotin harflarini kodlaydi, shuning uchun tezroq ishlaydi",
+    "Har bir belgini faqat 1 bit bilan kodlaydi",
+    "Faqat raqamlarni kodlashga mo'ljallangan"
+   ],
+   "e": "UTF-8, UTF-16."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "ASCII kod jadvalining asosiy qismida nechta belgi bor?",
+   "a": [
+    "128 ta",
+    "256 ta",
+    "64 ta",
+    "1024 ta"
+   ],
+   "e": "7 bitli; kengaytirilgani 256."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Rangli rasmni RGB modelida kodlashda qaysi ranglar asos qilib olinadi?",
+   "a": [
+    "Qizil, yashil, ko'k",
+    "Ko'k, sariq, qizil",
+    "Oq, qora, kulrang",
+    "Havorang, binafsha, sariq"
+   ],
+   "e": "Red, Green, Blue — ekran uchun."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Bosmaxona (poligrafiya) uchun qaysi rang modeli qo'llanadi?",
+   "a": [
+    "CMYK",
+    "RGB",
+    "HSB",
+    "Lab faqat"
+   ],
+   "e": "Cyan, Magenta, Yellow, Key (qora)."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "24 bitli rang chuqurligida nechta rang ifodalanadi?",
+   "a": [
+    "Taxminan 16,7 million",
+    "256 (8 bitli palitra)",
+    "65 536 (High Color)",
+    "1024 (10 bitli palitra)"
+   ],
+   "e": "2²⁴."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Rastr tasvir nimalardan tashkil topadi?",
+   "a": [
+    "Piksellar (nuqtalar) to'plamidan",
+    "Matematik formulalar bilan berilgan chiziqlardan",
+    "Faqat matn belgilaridan",
+    "Faqat ovoz signallaridan"
+   ],
+   "e": "Kattalashtirilsa sifat yo'qoladi."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Vektor grafikaning asosiy afzalligi nima?",
+   "a": [
+    "Masshtab o'zgarganda sifat yo'qolmaydi",
+    "Fotosuratlarni eng tabiiy va aniq aks ettiradi",
+    "Fayl hajmi har doim kattaroq bo'ladi",
+    "Faqat piksellar bilan ishlaydi"
+   ],
+   "e": "Logotip, chizmalar uchun."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Tasvir o'lchamlari (ruxsati) qanday birlikda ifodalanadi?",
+   "a": [
+    "dpi yoki ppi (dyuymdagi nuqtalar soni)",
+    "Gerts (Hz) — tebranish chastotasi",
+    "Bit/soniya — uzatish tezligi",
+    "Kilobayt — fayl hajmi"
+   ],
+   "e": "Bosmaga 300 dpi."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Bosmaga chiqariladigan rasm uchun tavsiya etiladigan o'lcham (ruxsat) qancha?",
+   "a": [
+    "300 dpi",
+    "72 dpi",
+    "10 dpi",
+    "3000 dpi"
+   ],
+   "e": "Ekran uchun 72–96 ppi."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Ovozni raqamlashtirishda diskretizatsiya chastotasi nimani bildiradi?",
+   "a": [
+    "Bir soniyada signal o'lchanishlar soni",
+    "Ovozning balandligini (desibelda)",
+    "Audio fayl nomining uzunligini",
+    "Karnay yoki naushnik quvvatini"
+   ],
+   "e": "Masalan, 44,1 kHz."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Audio CD sifatidagi diskretizatsiya chastotasi qancha?",
+   "a": [
+    "44,1 kHz",
+    "8 kHz",
+    "1 kHz",
+    "1 MHz"
+   ],
+   "e": "16 bit, stereo."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Ovoz kodlashda bit chuqurligi (razryadlilik) nimaga ta'sir qiladi?",
+   "a": [
+    "Ovoz balandligi darajalarining aniqligiga",
+    "Ovozning umumiy davomiyligiga",
+    "Audio fayl nomi va kengaytmasiga",
+    "Kanallar soniga (mono yoki stereo)"
+   ],
+   "e": "16 bit = 65 536 daraja."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Ma'lumotlarni siqish (arxivlash) nima uchun qo'llanadi?",
+   "a": [
+    "Fayl hajmini kamaytirish uchun",
+    "Fayl hajmini oshirish uchun",
+    "Faylni ko'rinmas qilish uchun",
+    "Fayl kengaytmasini o'zgartirish uchun"
+   ],
+   "e": "ZIP, RAR, 7z."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Yo'qotishli siqish qaysi formatda qo'llanadi?",
+   "a": [
+    "JPEG",
+    "ZIP",
+    "PNG",
+    "TXT"
+   ],
+   "e": "MP3 ham yo'qotishli."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Yo'qotishsiz siqishli tasvir formati qaysi?",
+   "a": [
+    "PNG",
+    "JPEG",
+    "MP3",
+    "MP4"
+   ],
+   "e": "Shaffoflikni qo'llaydi."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Raqamli axborotning analog axborotdan asosiy farqi nima?",
+   "a": [
+    "Diskret (uzlukli) qiymatlar bilan ifodalanadi",
+    "Uzluksiz o'zgaruvchi signal bilan ifodalanadi",
+    "Faqat qog'ozda saqlanadi",
+    "Nusxa olinganda sifati yo'qoladi"
+   ],
+   "e": "Nusxada sifat yo'qolmaydi."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Analog signalni raqamli signalga aylantiruvchi qurilma qanday ataladi?",
+   "a": [
+    "ATO' (analog-raqamli o'zgartirgich)",
+    "RAO' (raqamli-analog o'zgartirgich)",
+    "Kuchaytirgich",
+    "Transformator"
+   ],
+   "e": "ADC."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "Skaner qanday qurilma?",
+   "a": [
+    "Qog'ozdagi tasvirni raqamlashtiruvchi qurilma",
+    "Raqamli tasvirni qog'ozga chiqaruvchi qurilma",
+    "Ovoz signalini kuchaytiruvchi qurilma",
+    "Ma'lumotlarni uzoq muddat saqlovchi qurilma"
+   ],
+   "e": "Kiritish qurilmasi."
+  },
+  {
+   "b": "Axborot va uni kodlash",
+   "q": "OCR texnologiyasi nima qiladi?",
+   "a": [
+    "Tasvirdagi matnni tahrirlanadigan matnga aylantiradi",
+    "Matnni sun'iy ovoz bilan o'qib beradi",
+    "Video fayllarni yo'qotishsiz siqadi",
+    "Oq-qora rasmni avtomatik rangli qiladi"
+   ],
+   "e": "Optik belgilarni tanish (ABBYY FineReader)."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "MS Word hujjatining standart kengaytmasi qaysi (2007 va keyingi versiyalar)?",
+   "a": [
+    ".docx",
+    ".xlsx",
+    ".pptx",
+    ".txt"
+   ],
+   "e": "Eski versiyada .doc."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "MS Word'da yangi hujjat yaratish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": [
+    "Ctrl+N",
+    "Ctrl+O",
+    "Ctrl+S",
+    "Ctrl+P"
+   ],
+   "e": "New."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "MS Word'da hujjatni saqlash tugmalar birikmasi qaysi?",
+   "a": [
+    "Ctrl+S",
+    "Ctrl+N",
+    "Ctrl+Z",
+    "Ctrl+A"
+   ],
+   "e": "Save."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Oxirgi amalni bekor qilish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": [
+    "Ctrl+Z",
+    "Ctrl+Y",
+    "Ctrl+X",
+    "Ctrl+B"
+   ],
+   "e": "Ctrl+Y — qaytarish."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Butun hujjatni belgilash uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": [
+    "Ctrl+A",
+    "Ctrl+E",
+    "Ctrl+L",
+    "Ctrl+H"
+   ],
+   "e": "Select All."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Matnni qalin (bold) qilish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": [
+    "Ctrl+B",
+    "Ctrl+I",
+    "Ctrl+U",
+    "Ctrl+K"
+   ],
+   "e": "I — kursiv, U — tagiga chizish."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Matnni markaz bo'yicha tekislash uchun qaysi tugmalar ishlatiladi?",
+   "a": [
+    "Ctrl+E",
+    "Ctrl+L",
+    "Ctrl+R",
+    "Ctrl+J"
+   ],
+   "e": "J — kenglik bo'yicha."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Matnni kenglik bo'yicha tekislash tugmalar birikmasi qaysi?",
+   "a": [
+    "Ctrl+J",
+    "Ctrl+E",
+    "Ctrl+R",
+    "Ctrl+L"
+   ],
+   "e": "Justify."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "MS Word'da \"Topish va almashtirish\" oynasini ochish uchun qaysi birikma ishlatiladi?",
+   "a": [
+    "Ctrl+H",
+    "Ctrl+F",
+    "Ctrl+G",
+    "Ctrl+K"
+   ],
+   "e": "Ctrl+F — faqat topish."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Giperhavola qo'yish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": [
+    "Ctrl+K",
+    "Ctrl+H",
+    "Ctrl+L",
+    "Ctrl+M"
+   ],
+   "e": "Hyperlink."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "MS Word'da yangi sahifaga majburiy o'tish (sahifa uzilishi) qaysi birikma bilan qo'yiladi?",
+   "a": [
+    "Ctrl+Enter",
+    "Shift+Enter",
+    "Alt+Enter",
+    "Tab"
+   ],
+   "e": "Shift+Enter — qator uzilishi."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Xatboshi ichida yangi qatorga o'tish (qator uzilishi) qaysi birikma bilan bajariladi?",
+   "a": [
+    "Shift+Enter",
+    "Ctrl+Enter",
+    "Alt+Tab",
+    "Ctrl+Tab"
+   ],
+   "e": "Yangi xatboshi yaratilmaydi."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Rasmiy hujjatlar uchun odatda qaysi shrift va o'lcham tavsiya etiladi?",
+   "a": [
+    "Times New Roman, 14 pt",
+    "Comic Sans, 20 pt",
+    "Arial Black, 8 pt",
+    "Wingdings, 12 pt"
+   ],
+   "e": "Ish yuritish talablari."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Sahifa yo'nalishi (kitob yoki albom) qaysi bo'limda o'zgartiriladi?",
+   "a": [
+    "Maket (Layout) bo'limida",
+    "Ko'rib chiqish (Review) bo'limida",
+    "Rassomlik (Draw) bo'limida",
+    "Pochta (Mailings) bo'limida"
+   ],
+   "e": "Orientation."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Sahifa raqamlarini qo'yish qaysi bo'limda bajariladi?",
+   "a": [
+    "Qo'yish (Insert) bo'limida",
+    "Fayl (File) bo'limida",
+    "Ko'rinish (View) bo'limida",
+    "Havolalar (References) bo'limida"
+   ],
+   "e": "Page Number."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Avtomatik mundarija qaysi bo'limda yaratiladi?",
+   "a": [
+    "Havolalar (References)",
+    "Qo'yish (Insert)",
+    "Dizayn (Design)",
+    "Ko'rinish (View)"
+   ],
+   "e": "Sarlavha uslublari asosida."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Avtomatik mundarija yaratish uchun sarlavhalarga nima qo'llanishi kerak?",
+   "a": [
+    "Sarlavha uslublari (Heading 1, Heading 2 ...)",
+    "Faqat qalin (Bold) va katta o'lchamli shrift",
+    "Faqat rangli matn va fon bo'yog'i",
+    "Faqat tagiga chizilgan (Underline) matn"
+   ],
+   "e": "Styles."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Kolontitul nima?",
+   "a": [
+    "Har sahifada takrorlanuvchi yuqori/pastki matn",
+    "Jadvalning birinchi ustuni va sarlavha qatori",
+    "Hujjatning birinchi xatboshisi (kirish qismi)",
+    "Rasm yoki diagramma ostidagi izoh matni"
+   ],
+   "e": "Header/Footer."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Hujjatdagi tahrirlarni kuzatib borish (Track Changes) qaysi bo'limda yoqiladi?",
+   "a": [
+    "Ko'rib chiqish (Review)",
+    "Qo'yish (Insert)",
+    "Maket (Layout)",
+    "Pochta (Mailings)"
+   ],
+   "e": "Tuzatishlarni qayd qilish."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Ommaviy xatlar (birlashtirish) funksiyasi qaysi bo'limda joylashgan?",
+   "a": [
+    "Pochta (Mailings)",
+    "Havolalar (References)",
+    "Ko'rinish (View)",
+    "Dizayn (Design)"
+   ],
+   "e": "Mail Merge."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Xatboshining birinchi qatori chekinishi (abzats) odatda qancha bo'ladi?",
+   "a": [
+    "1,25 sm",
+    "5 sm",
+    "0,1 sm",
+    "10 sm"
+   ],
+   "e": "Rasmiy hujjat talablari."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Qatorlar orasidagi interval rasmiy hujjatlarda odatda qanday olinadi?",
+   "a": [
+    "1 yoki 1,5",
+    "2,5",
+    "0,5",
+    "3"
+   ],
+   "e": "Talabga ko'ra."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Formatlash namunasi (Format Painter) vositasi nima qiladi?",
+   "a": [
+    "Bir matn formatini boshqa matnga nusxalaydi",
+    "Belgilangan matnni butunlay o'chiradi",
+    "Matnni boshqa tilga avtomatik tarjima qiladi",
+    "Hujjatni tanlangan printerda chop etadi"
+   ],
+   "e": "Mo'yqalam belgisi."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "MS Word'da jadvaldagi kataklarni birlashtirish buyrug'i qaysi?",
+   "a": [
+    "Kataklarni birlashtirish (Merge Cells)",
+    "Kataklarni bo'lish (Split Cells)",
+    "Jadvalni butunlay o'chirish (Delete Table)",
+    "Jadvalga yangi qator qo'shish (Insert Row)"
+   ],
+   "e": "Maket (Layout) — jadval bilan ishlash."
+  },
+  {
+   "b": "Matn muharriri (MS Word)",
+   "q": "Hujjatni PDF formatida saqlash qanday bajariladi?",
+   "a": [
+    "Fayl — Boshqacha saqlash — PDF",
+    "Faqat maxsus pullik dastur orqali",
+    "Hujjatni chop etib, keyin skanerlab",
+    "Fayl kengaytmasini qo'lda .pdf ga o'zgartirib"
+   ],
+   "e": "Save As / Export."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "MS Excel faylining standart kengaytmasi qaysi?",
+   "a": [
+    ".xlsx",
+    ".docx",
+    ".pptx",
+    ".accdb"
+   ],
+   "e": "Makrosli — .xlsm."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Excel'da formula qaysi belgi bilan boshlanadi?",
+   "a": [
+    "= (teng)",
+    "# (panjara)",
+    "@ (kuchukcha)",
+    "$ (dollar)"
+   ],
+   "e": "Masalan, =A1+B1."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Excel'da A1 katakka nisbatan mutlaq murojaat qanday yoziladi?",
+   "a": [
+    "$A$1",
+    "A1",
+    "A$1$",
+    "#A#1"
+   ],
+   "e": "F4 tugmasi bilan."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Formula nusxalanganda o'zgarmaydigan murojaat qanday ataladi?",
+   "a": [
+    "Mutlaq (absolyut) murojaat",
+    "Nisbiy murojaat",
+    "Aralash murojaat",
+    "Doiraviy murojaat"
+   ],
+   "e": "$ belgisi."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "$A1 qanday murojaat turi?",
+   "a": [
+    "Aralash murojaat (ustun mahkamlangan)",
+    "Mutlaq murojaat (ustun va qator mahkamlangan)",
+    "Nisbiy murojaat (ikkalasi ham o'zgaradi)",
+    "Noto'g'ri yozuv, Excel xato beradi"
+   ],
+   "e": "Qator o'zgaradi."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Nisbiy va mutlaq murojaatlarni almashtirish uchun qaysi tugma bosiladi?",
+   "a": [
+    "F4",
+    "F1",
+    "F5",
+    "F12"
+   ],
+   "e": "Formula tahririda."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "A1 dan A10 gacha kataklar yig'indisini topuvchi formula qaysi?",
+   "a": [
+    "=SUM(A1:A10)",
+    "=SUM(A1;A10)",
+    "=ADD(A1-A10)",
+    "=TOTAL(A1+A10)"
+   ],
+   "e": "O'zbekcha/ruscha versiyada СУММ."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Kataklardagi sonlarning o'rta arifmetigini topuvchi funksiya qaysi?",
+   "a": [
+    "AVERAGE (СРЗНАЧ)",
+    "SUM (СУММ)",
+    "COUNT (СЧЁТ)",
+    "MAX (МАКС)"
+   ],
+   "e": "Bo'sh kataklar hisobga olinmaydi."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Sonli qiymatga ega kataklar sonini sanovchi funksiya qaysi?",
+   "a": [
+    "COUNT (СЧЁТ)",
+    "SUM (СУММ)",
+    "AVERAGE (СРЗНАЧ)",
+    "ROUND (ОКРУГЛ)"
+   ],
+   "e": "COUNTA — bo'sh bo'lmagan kataklar."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Shart bo'yicha qiymat qaytaruvchi funksiya qaysi?",
+   "a": [
+    "IF (ЕСЛИ)",
+    "SUM (СУММ)",
+    "MIN (МИН)",
+    "LEN (ДЛСТР)"
+   ],
+   "e": "=IF(A1>50;\"o'tdi\";\"o'tmadi\")."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Shart bo'yicha kataklar sonini sanovchi funksiya qaysi?",
+   "a": [
+    "COUNTIF (СЧЁТЕСЛИ)",
+    "SUMIF (СУММЕСЛИ)",
+    "IF (ЕСЛИ)",
+    "VLOOKUP (ВПР)"
+   ],
+   "e": "Masalan, \"a'lo\" baholar soni."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Jadvaldan vertikal bo'yicha qiymat qidiruvchi funksiya qaysi?",
+   "a": [
+    "VLOOKUP (ВПР)",
+    "HLOOKUP (ГПР)",
+    "COUNTIF (СЧЁТЕСЛИ)",
+    "CONCATENATE (СЦЕПИТЬ)"
+   ],
+   "e": "Birinchi ustun bo'yicha qidiradi."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Excel'da #DIV/0! xatosi nimani bildiradi?",
+   "a": [
+    "Nolga bo'lish holati",
+    "Katak kengligi yetmasligi",
+    "Funksiya nomi noto'g'ri yozilgani",
+    "Mavjud bo'lmagan havola"
+   ],
+   "e": "Nolga bo'lish mumkin emas."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Katakda \"#####\" belgilari ko'rinsa, bu odatda nimani bildiradi?",
+   "a": [
+    "Ustun kengligi son yoki sanani ko'rsatishga yetmaydi",
+    "Formulada nolga bo'lish amali bajarilgan",
+    "Funksiya nomi noto'g'ri yozilgan",
+    "Katak parol bilan himoyalangan, o'qib bo'lmaydi"
+   ],
+   "e": "Ustunni kengaytirish kerak."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "#NAME? xatosi nimani bildiradi?",
+   "a": [
+    "Formula yoki funksiya nomi noto'g'ri yozilgan",
+    "Formulada nolga bo'lish amali bor",
+    "Ustun kengligi son uchun yetarli emas",
+    "Qidirilgan qiymat jadvalda topilmadi"
+   ],
+   "e": "Masalan, =SUMM()."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Excel'da katak manzili qanday shakllanadi?",
+   "a": [
+    "Ustun harfi va qator raqamidan (masalan, B5)",
+    "Qator raqami va varaq nomidan (5-Varaq1)",
+    "Faqat ustun harfidan (masalan, B)",
+    "Faqat qator raqamidan (masalan, 5)"
+   ],
+   "e": "A1 uslubi."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Excel ishchi kitobi (Workbook) nimalardan iborat?",
+   "a": [
+    "Bir yoki bir nechta ishchi varaqdan",
+    "Faqat bitta slayd va uning eslatmalaridan",
+    "Faqat bitta jadval va sarlavhadan",
+    "Faqat diagramma va grafiklardan"
+   ],
+   "e": "Varaqlar yorliqlari pastda."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Ma'lumotlarni ma'lum shart bo'yicha ko'rsatish (qolganini yashirish) qanday ataladi?",
+   "a": [
+    "Filtrlash",
+    "Saralash",
+    "Formatlash",
+    "Birlashtirish"
+   ],
+   "e": "AutoFilter."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Ma'lumotlarni o'sish yoki kamayish tartibida joylashtirish nima deyiladi?",
+   "a": [
+    "Saralash",
+    "Filtrlash",
+    "Guruhlash",
+    "Konsolidatsiya"
+   ],
+   "e": "Sort."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Katak qiymatiga qarab uning rangini avtomatik o'zgartirish funksiyasi qaysi?",
+   "a": [
+    "Shartli formatlash",
+    "Ma'lumotlarni tekshirish",
+    "Avtoto'ldirish",
+    "Format namunasi"
+   ],
+   "e": "Conditional Formatting."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Katakka faqat belgilangan qiymatlar kiritilishini ta'minlovchi vosita qaysi?",
+   "a": [
+    "Ma'lumotlarni tekshirish (Data Validation)",
+    "Shartli formatlash (Conditional Formatting)",
+    "Saralash (o'sish yoki kamayish bo'yicha)",
+    "Avtofiltr (AutoFilter) orqali yashirish"
+   ],
+   "e": "Ochiladigan ro'yxat yaratish ham."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Katta jadvalni tahlil qilish va umumlashtirish uchun qaysi vosita qo'llanadi?",
+   "a": [
+    "Yig'ma (Pivot) jadval",
+    "Oddiy matn qutisi (Text Box)",
+    "Rasm yoki SmartArt qo'yish",
+    "Kolontitul (Header/Footer)"
+   ],
+   "e": "PivotTable."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Vaqt bo'yicha o'zgarishlarni ko'rsatish uchun qaysi diagramma turi qulay?",
+   "a": [
+    "Grafik (chiziqli diagramma)",
+    "Doiraviy (Pie) diagramma",
+    "Faqat raqamli jadval ko'rinishi",
+    "Rasm yoki fotosurat"
+   ],
+   "e": "Tendensiyalar."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Butunning qismlarini foizda ko'rsatish uchun qaysi diagramma qulay?",
+   "a": [
+    "Doiraviy diagramma",
+    "Chiziqli grafik (Line)",
+    "Nuqtali diagramma (Scatter)",
+    "Yig'ma (Pivot) jadval"
+   ],
+   "e": "Pie chart."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "Excel'da qatorni yoki ustunni mahkamlash (aylantirganda ko'rinib turishi) qanday ataladi?",
+   "a": [
+    "Sohalarni mahkamlash (Freeze Panes)",
+    "Kataklarni birlashtirish (Merge)",
+    "Varaqni parol bilan himoyalash",
+    "Ustunni vaqtincha yashirish (Hide)"
+   ],
+   "e": "Ko'rinish (View) bo'limida."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "=ROUND(3,456;2) formulasi natijasi qanday?",
+   "a": [
+    "3,46",
+    "3,45",
+    "3,4",
+    "3"
+   ],
+   "e": "Ikki xona aniqlikda yaxlitlash."
+  },
+  {
+   "b": "Elektron jadval (MS Excel)",
+   "q": "=MAX(4;9;2) natijasi qanday?",
+   "a": [
+    "9",
+    "2",
+    "15",
+    "4"
+   ],
+   "e": "Eng katta qiymat."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "MS PowerPoint faylining standart kengaytmasi qaysi?",
+   "a": [
+    ".pptx",
+    ".docx",
+    ".xlsx",
+    ".mdb"
+   ],
+   "e": "Namoyish — .ppsx."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "PowerPoint'da taqdimotni boshidan namoyish qilish uchun qaysi tugma bosiladi?",
+   "a": [
+    "F5",
+    "F1",
+    "F7",
+    "F12"
+   ],
+   "e": "Shift+F5 — joriy slayddan."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Joriy slayddan namoyishni boshlash tugmalar birikmasi qaysi?",
+   "a": [
+    "Shift+F5",
+    "Ctrl+F5",
+    "Alt+F4",
+    "F2"
+   ],
+   "e": "From Current Slide."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Slayddan slaydga o'tish effekti qanday ataladi?",
+   "a": [
+    "O'tish (Transition)",
+    "Animatsiya (Animation)",
+    "Dizayn mavzusi (Theme)",
+    "Slayd maketi (Layout)"
+   ],
+   "e": "Transitions bo'limi."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Slayd ichidagi alohida ob'ektga harakat effekti berish qanday ataladi?",
+   "a": [
+    "Animatsiya",
+    "O'tish",
+    "Gipermurojaat",
+    "Kolontitul"
+   ],
+   "e": "Kirish, ajratish, chiqish, harakat yo'li."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Barcha slaydlar uchun yagona dizayn (shrift, rang, logotip) qaysi rejimda o'rnatiladi?",
+   "a": [
+    "Slaydlar namunasi (Slide Master)",
+    "Oddiy tahrirlash rejimi (Normal)",
+    "Slaydlarni saralovchi rejim (Slide Sorter)",
+    "O'qish rejimi (Reading View)"
+   ],
+   "e": "View — Slide Master."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Slaydlarni ketma-ketligini tez o'zgartirish uchun qaysi rejim qulay?",
+   "a": [
+    "Slaydlarni saralovchi (Slide Sorter)",
+    "Slaydlar namunasi (Slide Master)",
+    "Eslatmalar sahifasi (Notes Page)",
+    "Namoyish rejimi (Slide Show)"
+   ],
+   "e": "Kichik nusxalar ko'rinishida."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Ma'ruzachi uchun yordamchi matn slaydning qaysi qismiga yoziladi?",
+   "a": [
+    "Eslatmalar (Notes) sohasiga",
+    "Sarlavha maydoniga, kichik shriftda",
+    "Pastki kolontitulga (Footer)",
+    "Slayd foniga, shaffof matn sifatida"
+   ],
+   "e": "Tinglovchilarga ko'rinmaydi."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Yaxshi taqdimot slaydida matn hajmi qanday bo'lishi tavsiya etiladi?",
+   "a": [
+    "Qisqa tezislar, bir slaydda 6–7 qatordan oshmagan",
+    "Butun ma'ruza matni mayda shriftda",
+    "Matn umuman bo'lmaydi, faqat rasmlar",
+    "Har slaydda kamida 30 qator matn"
+   ],
+   "e": "\"6×6\" qoidasi."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Taqdimotda o'qilishi oson bo'lishi uchun asosiy matn shrift o'lchami qancha bo'lishi tavsiya etiladi?",
+   "a": [
+    "Kamida 24 pt",
+    "8 pt",
+    "10 pt",
+    "6 pt"
+   ],
+   "e": "Sarlavha — 32–44 pt."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "PowerPoint'da slaydga video yoki ovoz qaysi bo'lim orqali qo'yiladi?",
+   "a": [
+    "Qo'yish (Insert) — Media",
+    "Dizayn (Design) — Mavzular",
+    "O'tishlar (Transitions) — Effektlar",
+    "Ko'rib chiqish (Review) — Izohlar"
+   ],
+   "e": "Video, Audio."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "SmartArt vositasi nima uchun ishlatiladi?",
+   "a": [
+    "Ma'lumotni grafik sxema ko'rinishida tasvirlash uchun",
+    "Faqat fotosuratlarni kesish va tahrirlash uchun",
+    "Faqat mikrofon orqali ovoz yozish uchun",
+    "Faqat imlo va grammatikani tekshirish uchun"
+   ],
+   "e": "Diagramma ko'rinishidagi matn."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Taqdimotni boshqa kompyuterda dasturisiz ko'rsatish uchun qaysi formatda saqlash qulay?",
+   "a": [
+    "PDF yoki video (MP4)",
+    ".txt (oddiy matn)",
+    ".xlsx (elektron jadval)",
+    ".bmp (rastr rasm)"
+   ],
+   "e": "Export."
+  },
+  {
+   "b": "Taqdimotlar (MS PowerPoint)",
+   "q": "Taqdimotda rang tanlashda qaysi tamoyil to'g'ri?",
+   "a": [
+    "Fon va matn o'rtasida yuqori kontrast bo'lishi",
+    "Fon va matn bir xil yoki yaqin rangda bo'lishi",
+    "Har bir slaydda 10 xil yorqin rang ishlatish",
+    "Faqat qizil fonda sariq rangli matn yozish"
+   ],
+   "e": "O'qilishi muhim."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Yo'qotishli siqiladigan audio format qaysi?",
+   "a": [
+    "MP3",
+    "WAV",
+    "FLAC",
+    "AIFF"
+   ],
+   "e": "Ovoz sifati biroz yo'qoladi."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Siqilmagan (PCM) audio formatiga misol qaysi?",
+   "a": [
+    "WAV",
+    "MP3",
+    "AAC",
+    "OGG"
+   ],
+   "e": "Hajmi katta."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Video fayl formatlariga qaysilar kiradi?",
+   "a": [
+    "MP4, AVI, MKV",
+    "MP3, WAV, FLAC",
+    "JPEG, PNG, GIF",
+    "DOCX, XLSX, PPTX"
+   ],
+   "e": "Konteyner formatlar."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Kodek nima?",
+   "a": [
+    "Audio/video kodlash-dekodlash algoritmi",
+    "Video kamera yoki fotoapparat turi",
+    "Mikrofonning ichki qurilmasi",
+    "Fayl nomi va uning kengaytmasi"
+   ],
+   "e": "H.264, H.265, AAC."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Kadrlar chastotasi (fps) nimani bildiradi?",
+   "a": [
+    "Bir soniyada ko'rsatiladigan kadrlar sonini",
+    "Video faylning umumiy hajmini (MB)",
+    "Ovozning balandligini (dB)",
+    "Ekranning diagonal o'lchamini"
+   ],
+   "e": "24, 25, 30, 60 fps."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Full HD video o'lchami (ruxsati) qanday?",
+   "a": [
+    "1920×1080 piksel",
+    "1280×720 piksel",
+    "3840×2160 piksel",
+    "640×480 piksel"
+   ],
+   "e": "720p — HD, 2160p — 4K."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "4K (UHD) video o'lchami qanday?",
+   "a": [
+    "3840×2160 piksel",
+    "1920×1080 piksel",
+    "1280×720 piksel",
+    "800×600 piksel"
+   ],
+   "e": "Ultra HD."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Video montaj dasturiga misol qaysi?",
+   "a": [
+    "Adobe Premiere Pro",
+    "MS Excel (elektron jadval)",
+    "Notepad (bloknot)",
+    "7-Zip (arxivator)"
+   ],
+   "e": "DaVinci Resolve, Camtasia ham."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Ovozni yozish va tahrirlash uchun qaysi dastur ishlatiladi?",
+   "a": [
+    "Audacity",
+    "MS Access",
+    "AutoCAD",
+    "Paint"
+   ],
+   "e": "Bepul audio muharrir."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Bitreyt (bit rate) nimani bildiradi?",
+   "a": [
+    "Vaqt birligidagi ma'lumot hajmini",
+    "Faylning yaratilgan sanasi va vaqtini",
+    "Monitor ekranining yorqinligini",
+    "Klaviaturada yozish tezligini"
+   ],
+   "e": "kbit/s, Mbit/s."
+  },
+  {
+   "b": "Multimedia: audio va video",
+   "q": "Video montajda \"timeline\" (vaqt shkalasi) nima?",
+   "a": [
+    "Klip va ovozlar vaqt bo'yicha joylanadigan soha",
+    "Faylni diskka saqlash oynasi",
+    "Videoni internetga yuklash tugmasi",
+    "Kompyuterning tizim soati va sanasi"
+   ],
+   "e": "Montaj stoli."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Rastr grafik muharririga misol qaysi?",
+   "a": [
+    "Adobe Photoshop",
+    "CorelDRAW",
+    "Adobe Illustrator",
+    "Inkscape"
+   ],
+   "e": "GIMP ham rastr."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Vektor grafik muharririga misol qaysi?",
+   "a": [
+    "CorelDRAW",
+    "Adobe Photoshop",
+    "MS Paint",
+    "GIMP"
+   ],
+   "e": "Illustrator, Inkscape ham."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Photoshop'da qatlamlar (layers) nima uchun kerak?",
+   "a": [
+    "Tasvir qismlarini bir-biriga ta'sir qilmay alohida tahrirlash uchun",
+    "Faylni diskka tezroq saqlash uchun",
+    "Tasvirni printerda chop etish uchun",
+    "Faylni ZIP arxivga joylash uchun"
+   ],
+   "e": "Qatlamlar paneli."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Photoshop'ning o'z fayl formati qaysi?",
+   "a": [
+    "PSD",
+    "CDR",
+    "AI",
+    "DOCX"
+   ],
+   "e": "Qatlamlarni saqlaydi."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "CorelDRAW dasturining o'z fayl formati qaysi?",
+   "a": [
+    "CDR",
+    "PSD",
+    "XCF",
+    "PNG"
+   ],
+   "e": "Vektor format."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Shaffof fonli tasvirni saqlash uchun qaysi format mos?",
+   "a": [
+    "PNG",
+    "JPEG",
+    "BMP",
+    "DOCX"
+   ],
+   "e": "Alfa-kanal."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Animatsiyali oddiy tasvirlar uchun qaysi format qo'llanadi?",
+   "a": [
+    "GIF",
+    "PSD",
+    "TIFF",
+    "RAW"
+   ],
+   "e": "256 rang."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Universal vektor format sifatida veb-sahifalarda keng qo'llanadigan format qaysi?",
+   "a": [
+    "SVG",
+    "BMP",
+    "JPEG",
+    "MP4"
+   ],
+   "e": "XML asosida."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Rasmning keraksiz qismini kesib tashlash amali qanday ataladi?",
+   "a": [
+    "Kadrlash (Crop)",
+    "Ranglarni teskari qilish (Invert)",
+    "Xiralashtirish (Blur)",
+    "Aylantirish (Rotate)"
+   ],
+   "e": "Crop."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Rasm ranglarini sozlashda \"yorqinlik/kontrast\" qaysi menyuda joylashgan (Photoshop)?",
+   "a": [
+    "Image — Adjustments",
+    "File — Save As",
+    "Window — Layers",
+    "Help — About"
+   ],
+   "e": "Tasvir — Tuzatishlar."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Photoshop'da rasmdagi nuqsonlarni (dog', chizilgan joy) tuzatuvchi vosita qaysi?",
+   "a": [
+    "Healing Brush yoki Clone Stamp",
+    "Matn vositasi (Type Tool)",
+    "Ko'chirish vositasi (Move Tool)",
+    "Qalam vositasi (Pen Tool)"
+   ],
+   "e": "Retush."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Bitta rangdagi sohani bir bosishda ajratish vositasi qaysi?",
+   "a": [
+    "Sehrli tayoqcha (Magic Wand)",
+    "To'rtburchak ajratish",
+    "Lasso (erkin ajratish)",
+    "Ko'chirish vositasi"
+   ],
+   "e": "Tolerance parametri."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Rasm o'lchamini kattalashtirganda rastr tasvirda nima sodir bo'ladi?",
+   "a": [
+    "Piksellar ko'rinib, sifat pasayadi (pikselizatsiya)",
+    "Sifat yaxshilanib, tafsilotlar ko'payadi",
+    "Fayl avtomatik vektor formatga aylanadi",
+    "Hech narsa o'zgarmaydi, sifat saqlanadi"
+   ],
+   "e": "Interpolyatsiya."
+  },
+  {
+   "b": "Grafik tasvirlarni qayta ishlash",
+   "q": "Fotokameralarning qayta ishlanmagan \"xom\" formati qanday ataladi?",
+   "a": [
+    "RAW",
+    "JPEG",
+    "GIF",
+    "PNG"
+   ],
+   "e": "Maksimal ma'lumot saqlanadi."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Fayl kengaytmasi nimani ko'rsatadi?",
+   "a": [
+    "Fayl turi va u qaysi dasturda ochilishini",
+    "Faylning yaratilgan sanasi va vaqtini",
+    "Fayl muallifining ismi va lavozimini",
+    "Faylning diskdagi hajmini (KB, MB)"
+   ],
+   "e": "Nuqtadan keyingi qism."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Faylni nusxalash tugmalar birikmasi qaysi?",
+   "a": [
+    "Ctrl+C",
+    "Ctrl+V",
+    "Ctrl+X",
+    "Ctrl+Z"
+   ],
+   "e": "Ctrl+V — qo'yish."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Faylni kesib olish (ko'chirish uchun) tugmalar birikmasi qaysi?",
+   "a": [
+    "Ctrl+X",
+    "Ctrl+C",
+    "Ctrl+V",
+    "Ctrl+A"
+   ],
+   "e": "Keyin Ctrl+V."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Faylni savatchaga tashlamay butunlay o'chirish birikmasi qaysi?",
+   "a": [
+    "Shift+Delete",
+    "Ctrl+Delete",
+    "Alt+Delete",
+    "Delete"
+   ],
+   "e": "Tiklab bo'lmaydi."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Ochiq oynalar orasida o'tish uchun qaysi birikma ishlatiladi?",
+   "a": [
+    "Alt+Tab",
+    "Ctrl+Tab",
+    "Shift+Tab",
+    "Win+L"
+   ],
+   "e": "Win+Tab — vazifalar ko'rinishi."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Windows'da kompyuterni qulflash tugmalar birikmasi qaysi?",
+   "a": [
+    "Win+L",
+    "Win+D",
+    "Win+E",
+    "Alt+F4"
+   ],
+   "e": "Lock."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Fayl tizimiga misol qaysi?",
+   "a": [
+    "NTFS",
+    "HTML",
+    "JPEG",
+    "HTTP"
+   ],
+   "e": "FAT32, exFAT ham."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "FAT32 fayl tizimida bitta faylning maksimal hajmi qancha?",
+   "a": [
+    "4 GB dan biroz kam",
+    "1 TB",
+    "100 MB",
+    "Cheksiz"
+   ],
+   "e": "Katta fayllar uchun NTFS yoki exFAT."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Papkaning to'liq yo'li (manzili) qanday ko'rinishda yoziladi (Windows)?",
+   "a": [
+    "C:\\Hujjatlar\\Hisobot.docx",
+    "C/Hujjatlar/Hisobot.docx:",
+    "Hisobot.docx@C",
+    "\\\\Hisobot.docx\\C:"
+   ],
+   "e": "Disk — papka — fayl."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Zaxira nusxa (backup) nima uchun yaratiladi?",
+   "a": [
+    "Ma'lumot yo'qolganda yoki buzilganda tiklash uchun",
+    "Kompyuterning ishlash tezligini oshirish uchun",
+    "Diskdagi bo'sh joyni ko'paytirish uchun",
+    "Ekran yorqinligi va rangini sozlash uchun"
+   ],
+   "e": "\"3-2-1\" qoidasi."
+  },
+  {
+   "b": "Fayllar va operatsion tizim",
+   "q": "Bulutli saqlash xizmatiga misol qaysi?",
+   "a": [
+    "Google Drive",
+    "MS Paint",
+    "Notepad",
+    "Windows Media Player"
+   ],
+   "e": "OneDrive, Dropbox ham."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Veb-sahifalarni yaratish uchun asosiy belgilash tili qaysi?",
+   "a": [
+    "HTML",
+    "SQL",
+    "C++",
+    "Python"
+   ],
+   "e": "HyperText Markup Language."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Veb-sahifaning tashqi ko'rinishini (stil) belgilash uchun qaysi til ishlatiladi?",
+   "a": [
+    "CSS",
+    "HTML",
+    "PHP",
+    "SQL"
+   ],
+   "e": "Cascading Style Sheets."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "URL nima?",
+   "a": [
+    "Internetdagi resursning yagona manzili",
+    "Elektron pochta mijozi (dasturi)",
+    "Fayllarni arxivlash formati",
+    "Kompyuter virusining bir turi"
+   ],
+   "e": "Uniform Resource Locator."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "HTTPS protokolining HTTP dan farqi nima?",
+   "a": [
+    "Ma'lumotlar shifrlangan holda uzatiladi",
+    "Faqat rasmlarni uzatadi",
+    "Faqat elektron pochta uchun ishlatiladi",
+    "Tezligi har doim 10 barobar kam"
+   ],
+   "e": "SSL/TLS."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Brauzer nima?",
+   "a": [
+    "Veb-sahifalarni ko'rish uchun dastur",
+    "Matnli hujjatlar muharriri",
+    "Zararli dasturlarga qarshi dastur",
+    "Kompyuterni boshqaruvchi operatsion tizim"
+   ],
+   "e": "Chrome, Firefox, Edge."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Elektron pochta manzilida qaysi belgi albatta bo'ladi?",
+   "a": [
+    "@",
+    "#",
+    "%",
+    "&"
+   ],
+   "e": "foydalanuvchi@domen."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Elektron xatni bir vaqtda boshqa qabul qiluvchiga yashirin nusxa sifatida yuborish maydoni qaysi?",
+   "a": [
+    "BCC (Yashirin nusxa)",
+    "CC (oddiy nusxa)",
+    "To (asosiy qabul qiluvchi)",
+    "Subject (xat mavzusi)"
+   ],
+   "e": "Boshqa qabul qiluvchilar ko'rmaydi."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Qidiruv tizimida aniq ibora bo'yicha qidirish uchun so'zlar qanday yoziladi?",
+   "a": [
+    "Qo'shtirnoq ichida",
+    "Qavs ichida",
+    "Yulduzcha bilan ajratib",
+    "Katta harflar bilan"
+   ],
+   "e": "\"raqamli texnologiya\"."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Domen nomidagi \".uz\" nimani bildiradi?",
+   "a": [
+    "O'zbekiston milliy domen zonasini",
+    "Universitetlar va oliy ta'lim saytlarini",
+    "Faqat tijorat (biznes) saytlarini",
+    "Faqat davlat idoralari saytlarini"
+   ],
+   "e": ".gov.uz — davlat idoralari."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Bulutli hujjatlar bilan birgalikda ishlash xizmatiga misol qaysi?",
+   "a": [
+    "Google Docs",
+    "MS Paint",
+    "WinRAR",
+    "Notepad"
+   ],
+   "e": "Office 365 Online ham."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "IP-manzil nima?",
+   "a": [
+    "Tarmoqdagi qurilmaning yagona raqamli manzili",
+    "Elektron pochta qutisining paroli",
+    "Veb-sahifaning sarlavha nomi",
+    "Foydalaniladigan brauzer turi va versiyasi"
+   ],
+   "e": "IPv4: 192.168.1.1."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Fishing nima?",
+   "a": [
+    "Soxta sayt yoki xat orqali shaxsiy ma'lumotlarni o'g'irlash usuli",
+    "Fayllarni yo'qotishsiz siqish usuli",
+    "Kompyuter ishini tezlashtirish usuli",
+    "Raqamli rasmlarni tahrirlash usuli"
+   ],
+   "e": "Havolaga ehtiyot bo'lish."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Ishonchli parolga qaysi talab qo'yiladi?",
+   "a": [
+    "Kamida 8–12 belgi: harf, raqam va maxsus belgi",
+    "Faqat tug'ilgan sana (masalan, 01011990)",
+    "Faqat ketma-ket raqamlar (\"123456\")",
+    "Ism va familiya, kichik harflarda"
+   ],
+   "e": "Har bir xizmat uchun alohida parol."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Ikki bosqichli autentifikatsiya nima?",
+   "a": [
+    "Paroldan tashqari qo'shimcha tasdiqlash",
+    "Bir xil parolni ketma-ket ikki marta kiritish",
+    "Bir vaqtda ikki xil brauzerdan foydalanish",
+    "Ikkita kompyuterda navbatma-navbat ishlash"
+   ],
+   "e": "2FA."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Kompyuter virusi nima?",
+   "a": [
+    "O'zini ko'paytirib, zarar yetkazuvchi dastur",
+    "Protsessorni sovutuvchi ventilyator",
+    "Matnli hujjatlar muharriri",
+    "Monitordagi zavod nuqsoni (o'lik piksel)"
+   ],
+   "e": "Zararli dastur (malware)."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Antivirus dasturiga misol qaysi?",
+   "a": [
+    "Kaspersky, ESET NOD32, Windows Defender",
+    "Word, Excel, PowerPoint",
+    "Chrome, Firefox, Opera",
+    "Photoshop, CorelDRAW, GIMP"
+   ],
+   "e": "Muntazam yangilanishi kerak."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Shaxsga doir ma'lumotlar to'g'risidagi O'zbekiston qonuni qachon qabul qilingan?",
+   "a": [
+    "2019-yilda",
+    "1991-yilda",
+    "2005-yilda",
+    "2023-yilda"
+   ],
+   "e": "O'RQ-547, 2019-yil 2-iyul."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Mualliflik huquqi bilan himoyalangan rasmdan foydalanishda nima qilinishi kerak?",
+   "a": [
+    "Muallif ruxsati yoki litsenziya shartlari",
+    "Istalgancha erkin va bepul foydalaniladi",
+    "Faqat rasm fayli nomi o'zgartiriladi",
+    "Faqat rasm o'lchami kichraytiriladi"
+   ],
+   "e": "Creative Commons litsenziyalari."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "QR-kod nima?",
+   "a": [
+    "Ma'lumotni kodlovchi ikki o'lchovli shtrix-kod",
+    "Grafik fayl kengaytmasi",
+    "Zararli dastur turi",
+    "Monitorning bir turi"
+   ],
+   "e": "Quick Response."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Elektron raqamli imzo (ERI) nima uchun ishlatiladi?",
+   "a": [
+    "Hujjat haqiqiyligi va muallifini tasdiqlash",
+    "Hujjatni rangli printerda chop etish uchun",
+    "Hujjat fayli hajmini kichraytirish uchun",
+    "Hujjatni boshqa tilga avtomatik tarjima qilish"
+   ],
+   "e": "Qog'ozdagi imzoga tenglashtirilgan."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Veb-sahifadagi boshqa sahifaga o'tkazuvchi matn yoki rasm qanday ataladi?",
+   "a": [
+    "Giperhavola",
+    "Kolontitul",
+    "Shrift",
+    "Piksel"
+   ],
+   "e": "Hyperlink."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Veb-saytga ma'lumot (rasm, fayl) yuklash jarayoni qanday ataladi?",
+   "a": [
+    "Upload (yuklash)",
+    "Download (yuklab olish)",
+    "Reboot (qayta yuklash)",
+    "Install (o'rnatish)"
+   ],
+   "e": "Download — internetdan kompyuterga."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Videokonferensiya o'tkazish uchun qaysi dastur ishlatiladi?",
+   "a": [
+    "Zoom yoki Google Meet",
+    "MS Excel",
+    "Adobe Photoshop",
+    "WinRAR"
+   ],
+   "e": "Masofaviy ta'lim."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Google Forms xizmati nima uchun ishlatiladi?",
+   "a": [
+    "So'rovnoma va test tuzish, javoblarni yig'ish uchun",
+    "Video montaj qilish va effekt berish uchun",
+    "Rastr rasmni vektorga aylantirish uchun",
+    "Kompyuterni viruslardan tozalash uchun"
+   ],
+   "e": "Javoblar jadvalga yig'iladi."
+  },
+  {
+   "b": "Internet va veb-texnologiyalar",
+   "q": "Cookie (kuki) fayllar nima?",
+   "a": [
+    "Sayt brauzerda saqlaydigan kichik ma'lumot fayllari",
+    "Kompyuter viruslari va troyanlar",
+    "Saytdagi rasm va logotip fayllari",
+    "Yuklab olingan arxiv fayllari"
+   ],
+   "e": "Sessiya va sozlamalar."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Kompyuterning \"miyasi\" deb ataladigan, buyruqlarni bajaruvchi qurilma qaysi?",
+   "a": [
+    "Markaziy protsessor (CPU)",
+    "Qattiq magnit disk (HDD)",
+    "Monitor (displey)",
+    "Klaviatura va sichqoncha"
+   ],
+   "e": "Chastotasi GHz da."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Tezkor xotira (RAM) ning asosiy xususiyati nima?",
+   "a": [
+    "Kompyuter o'chganda ma'lumot o'chadi",
+    "Ma'lumotni kompyuter o'chganda ham saqlaydi",
+    "Faqat o'qish uchun mo'ljallangan (ROM)",
+    "Faqat rasm va video fayllarni saqlaydi"
+   ],
+   "e": "Energiyaga bog'liq xotira."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "SSD diskning HDD dan asosiy afzalligi nima?",
+   "a": [
+    "Harakatlanuvchi qismsiz, tezligi yuqori",
+    "Hajmi doim kattaroq va narxi arzonroq",
+    "Ma'lumotni aylanuvchi magnit plastinalarda saqlaydi",
+    "Faqat CD va DVD disklarni o'qiy oladi"
+   ],
+   "e": "Flesh xotira asosida."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Kiritish qurilmalariga qaysilar kiradi?",
+   "a": [
+    "Klaviatura, sichqoncha, skaner, mikrofon",
+    "Monitor, printer, karnay, naushnik",
+    "Protsessor, tezkor xotira, ona plata",
+    "Proyektor, plotter va interaktiv doska"
+   ],
+   "e": "Chiqarish — monitor, printer."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Chiqarish qurilmalariga qaysilar kiradi?",
+   "a": [
+    "Monitor, printer, karnay, proyektor",
+    "Klaviatura, sichqoncha, skaner, kamera",
+    "Mikrofon, veb-kamera va grafik planshet",
+    "Joystik, sensorli panel va shtrix-skaner"
+   ],
+   "e": "Natijani foydalanuvchiga beradi."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Lazerli printerning ishlash asosi nima?",
+   "a": [
+    "Toner lazer va issiqlik bilan o'rnatiladi",
+    "Siyoh tomchilari sopladan qog'ozga sepiladi",
+    "Ignalar bo'yoqli lenta orqali qog'ozga uriladi",
+    "Termoqog'oz qizdirilib kimyoviy qoraytiriladi"
+   ],
+   "e": "Kartrijda toner."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Purkagichli (struyli) printer qanday ishlaydi?",
+   "a": [
+    "Mayda siyoh tomchilari qog'ozga sepiladi",
+    "Toner kukuni lazer nuri yordamida o'rnatiladi",
+    "Ignalar bo'yoqli lentaga uriladi",
+    "Maxsus termoqog'oz qizdiriladi"
+   ],
+   "e": "Rangli fotosurat bosish uchun qulay."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Grafik plansheti (planshet-digitayzer) nima uchun ishlatiladi?",
+   "a": [
+    "Qo'lda chizilganni kompyuterga kiritish",
+    "Matnni sun'iy ovozga aylantirish uchun",
+    "Hujjatlarni qog'ozga chop etish uchun",
+    "Kompyuterni simsiz internetga ulash uchun"
+   ],
+   "e": "Pero bilan."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Monitor ekranining o'lchami qanday o'lchanadi?",
+   "a": [
+    "Diagonal bo'yicha dyuymda",
+    "Eni bo'yicha santimetrda",
+    "Bo'yi bo'yicha metrda",
+    "Og'irligi bo'yicha kilogrammda"
+   ],
+   "e": "1 dyuym = 2,54 sm."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "USB nima?",
+   "a": [
+    "Universal ketma-ket port (shina)",
+    "Markaziy protsessorning bir turi",
+    "Disk fayl tizimining nomi",
+    "Video fayllarni siqish formati"
+   ],
+   "e": "Universal Serial Bus."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Videokarta (GPU) ning asosiy vazifasi nima?",
+   "a": [
+    "Tasvirni qayta ishlash va monitorga chiqarish",
+    "Mikrofon orqali ovozni yozish",
+    "Kompyuterni internetga ulash",
+    "Elektr ta'minotini barqarorlashtirish"
+   ],
+   "e": "3D grafika, video montajda muhim."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Ovoz kartasi nima uchun kerak?",
+   "a": [
+    "Raqamli audioni qayta ishlash va chiqarish",
+    "Tasvirni monitorga chiqarish uchun",
+    "Ma'lumotni uzoq muddat saqlash uchun",
+    "Elektr energiyasini qurilmalarga taqsimlash uchun"
+   ],
+   "e": "Audio interfeys."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Proyektorda tasvir yorqinligi qanday birlikda ifodalanadi?",
+   "a": [
+    "Lyumen (ANSI lm)",
+    "Gerts (Hz)",
+    "Megabayt (MB)",
+    "Volt (V)"
+   ],
+   "e": "Katta zalda yuqori lyumen."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Kompyuterning barcha qurilmalarini birlashtiruvchi asosiy plata qanday ataladi?",
+   "a": [
+    "Ona plata (motherboard)",
+    "Videokarta (grafik adapter)",
+    "Tarmoq kartasi (Ethernet)",
+    "Ovoz kartasi (audio adapter)"
+   ],
+   "e": "Sistemaviy plata."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "BIOS nima?",
+   "a": [
+    "Qurilmalarni tekshirib, tizimni yuklovchi dastur",
+    "Matnli hujjatlarni tahrirlovchi dastur",
+    "Zararli dasturlarni aniqlovchi antivirus",
+    "Audio va video fayllarni ijro etuvchi pleyer"
+   ],
+   "e": "Hozir UEFI."
+  },
+  {
+   "b": "Kompyuter qurilmalari",
+   "q": "Uzluksiz quvvat manbai (UPS) nima uchun kerak?",
+   "a": [
+    "Elektr o'chganda qisqa vaqt quvvat beradi",
+    "Internetga ulanish tezligini oshiradi",
+    "Monitor yorqinligi va rangini sozlaydi",
+    "Printer va skanerni kompyuterga ulaydi"
+   ],
+   "e": "Akkumulyator."
+  },
+  {
+   "b": "Ma'lumotlar bazasi asoslari",
+   "q": "MS Access dasturi nima uchun mo'ljallangan?",
+   "a": [
+    "Ma'lumotlar bazasini yaratish va boshqarish",
+    "Slaydli taqdimotlar yaratish uchun",
+    "Vektor va rastr rasmlar chizish uchun",
+    "Audio va video montaj qilish uchun"
+   ],
+   "e": "Relyatsion MBBT."
+  },
+  {
+   "b": "Ma'lumotlar bazasi asoslari",
+   "q": "Relyatsion ma'lumotlar bazasida ma'lumotlar qanday shaklda saqlanadi?",
+   "a": [
+    "O'zaro bog'langan jadvallar ko'rinishida",
+    "Faqat formatlanmagan matnli hujjat ko'rinishida",
+    "Faqat rastr rasm (skrinshot) ko'rinishida",
+    "Faqat ovozli yoki video fayl ko'rinishida"
+   ],
+   "e": "Qatorlar — yozuvlar, ustunlar — maydonlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi asoslari",
+   "q": "Jadvaldagi har bir yozuvni yagona aniqlovchi maydon qanday ataladi?",
+   "a": [
+    "Birlamchi kalit (Primary Key)",
+    "Tashqi kalit (Foreign Key)",
+    "Indeks (tezkor qidiruv uchun)",
+    "Filtr (yozuvlarni tanlash uchun)"
+   ],
+   "e": "Takrorlanmaydi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi asoslari",
+   "q": "Ma'lumotlar bazasida ma'lum shart bo'yicha ma'lumot tanlab olish vositasi qaysi?",
+   "a": [
+    "So'rov (Query)",
+    "Forma (Form)",
+    "Hisobot (Report)",
+    "Makros"
+   ],
+   "e": "SQL SELECT."
+  },
+  {
+   "b": "Ma'lumotlar bazasi asoslari",
+   "q": "Ma'lumot kiritish uchun qulay interfeys yaratuvchi Access ob'ekti qaysi?",
+   "a": [
+    "Forma (Form)",
+    "So'rov (Query)",
+    "Hisobot (Report)",
+    "Jadval (Table)"
+   ],
+   "e": "Foydalanuvchi uchun."
+  },
+  {
+   "b": "Ma'lumotlar bazasi asoslari",
+   "q": "Ma'lumotlarni chop etish uchun tayyor ko'rinishda chiqaruvchi Access ob'ekti qaysi?",
+   "a": [
+    "Hisobot (Report)",
+    "Forma (ma'lumot kiritish oynasi)",
+    "So'rov (shart bo'yicha tanlash)",
+    "Modul (VBA dastur kodi)"
+   ],
+   "e": "Guruhlash, yig'indilar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi asoslari",
+   "q": "SQL tilida jadvaldan ma'lumot tanlash buyrug'i qaysi?",
+   "a": [
+    "SELECT",
+    "DELETE",
+    "INSERT",
+    "DROP"
+   ],
+   "e": "SELECT * FROM jadval."
+  },
+  {
+   "b": "Ma'lumotlar bazasi asoslari",
+   "q": "MS Access fayli kengaytmasi qaysi?",
+   "a": [
+    ".accdb",
+    ".xlsx",
+    ".pptx",
+    ".psd"
+   ],
+   "e": "Eski — .mdb."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "MS Word'da imlo xatolari qanday belgilanadi?",
+   "a": [
+    "Qizil to'lqinli chiziq bilan",
+    "Yashil to'g'ri chiziq bilan qalin qilib",
+    "Sariq fon bilan bo'yab ajratiladi",
+    "Ko'k qalin ramka bilan o'raladi"
+   ],
+   "e": "F7 — imloni tekshirish."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Imlo va grammatikani tekshirish uchun qaysi tugma bosiladi?",
+   "a": [
+    "F7",
+    "F5",
+    "F1",
+    "F12"
+   ],
+   "e": "Review — Spelling & Grammar."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "F12 tugmasi MS Office dasturlarida qaysi amalni bajaradi?",
+   "a": [
+    "\"Boshqacha saqlash\" oynasini ochadi",
+    "Imlo tekshiruvini boshlaydi",
+    "Yordam (Help) oynasini ochadi",
+    "Taqdimot namoyishini boshlaydi"
+   ],
+   "e": "Save As."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "MS Word'da matnga izoh (comment) qo'shish qaysi bo'lim orqali bajariladi?",
+   "a": [
+    "Ko'rib chiqish (Review) — Izoh yaratish",
+    "Qo'yish (Insert) — Rasm qo'yish",
+    "Maket (Layout) — Hoshiyalar",
+    "Ko'rinish (View) — Lineyka"
+   ],
+   "e": "Comment."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Sahifaning pastki qismiga qo'yiladigan izoh (sharh) qanday ataladi?",
+   "a": [
+    "Sahifa osti izohi (Footnote)",
+    "Kolontitul (Header)",
+    "Xatboshi (Paragraph)",
+    "Mundarija (Table of Contents)"
+   ],
+   "e": "References — Insert Footnote."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Matnni ikki yoki undan ortiq ustunga bo'lish qaysi buyruq orqali bajariladi?",
+   "a": [
+    "Maket (Layout) — Ustunlar (Columns)",
+    "Qo'yish (Insert) — Jadval",
+    "Dizayn (Design) — Mavzular",
+    "Ko'rib chiqish (Review) — Tarjima"
+   ],
+   "e": "Gazeta uslubi."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Hujjatning barcha sahifalariga \"Namuna\" degan shaffof yozuv qanday qo'yiladi?",
+   "a": [
+    "Dizayn (Design) — Suv belgisi (Watermark)",
+    "Qo'yish (Insert) — Matn qutisi (Text Box)",
+    "Ko'rinish (View) — Masshtab (Zoom)",
+    "Fayl (File) — Ma'lumot (Info)"
+   ],
+   "e": "Watermark."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Bir hujjatdagi bir xil formatlarni tez qo'llash uchun nima yaratiladi?",
+   "a": [
+    "Uslub (Style)",
+    "Makros",
+    "Kolontitul",
+    "Sahifa uzilishi"
+   ],
+   "e": "Styles galereyasi."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Bir xil turdagi ko'p hujjatlarni tez yaratish uchun nima ishlatiladi?",
+   "a": [
+    "Shablon (Template)",
+    "Izoh (Comment)",
+    "Kolontitul (Footer)",
+    "Formatlash namunasi"
+   ],
+   "e": ".dotx."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "MS Word shabloni fayl kengaytmasi qaysi?",
+   "a": [
+    ".dotx",
+    ".docx",
+    ".xltx",
+    ".potx"
+   ],
+   "e": ".xltx — Excel shabloni."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Hujjatni tahrirlashdan himoyalash qanday amalga oshiriladi?",
+   "a": [
+    "Fayl — Ma'lumot — Hujjatni himoyalash",
+    "Hujjat nomini faqat katta harflarda yozish",
+    "Hujjatni faqat qora rangli shriftda yozish",
+    "Hujjat fayli hajmini arxivlab kichraytirish"
+   ],
+   "e": "Protect Document."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Bir necha belgini ajratib, ularni yuqori indeks (masalan, m²) qilish birikmasi qaysi?",
+   "a": [
+    "Ctrl+Shift+=",
+    "Ctrl+=",
+    "Ctrl+Shift+A",
+    "Ctrl+Alt+S"
+   ],
+   "e": "Ctrl+= — pastki indeks."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Pastki indeks (masalan, H₂O) qilish uchun qaysi birikma ishlatiladi?",
+   "a": [
+    "Ctrl+=",
+    "Ctrl+Shift+=",
+    "Ctrl+Shift+P",
+    "Alt+="
+   ],
+   "e": "Subscript."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "MS Word'da matematik formulalar yozish uchun qaysi vosita ishlatiladi?",
+   "a": [
+    "Qo'yish (Insert) — Tenglama (Equation)",
+    "Qo'yish (Insert) — Kolontitul (Header)",
+    "Dizayn (Design) — Sahifa rangi",
+    "Maket (Layout) — Hoshiyalar"
+   ],
+   "e": "Alt+=."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Rasmiy hujjatlarda sahifa hoshiyalari odatda qanday bo'ladi?",
+   "a": [
+    "Chap 30 mm, o'ng 10–15 mm, yuqori va past 20 mm",
+    "Barcha tomondan bir xil, 5 mm dan",
+    "Chap 10 mm, o'ng 50 mm, yuqori 5 mm",
+    "Hoshiyalar umuman qoldirilmaydi, to'liq varaq"
+   ],
+   "e": "Ish yuritish talablari (namunaviy)."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Elektron hujjat aylanishining asosiy afzalligi nima?",
+   "a": [
+    "Tez yuborish, qidirish va nazorat imkoniyati",
+    "Qog'oz sarfining ko'payishi va arxivning kattalashuvi",
+    "Hujjatlarni faqat qo'lda imzolash zarurati",
+    "Hujjatlarni faqat pochta orqali yuborish"
+   ],
+   "e": "E-hujjat tizimlari."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Davlat idoralarida elektron hujjat aylanishi uchun O'zbekistonda qaysi tizim qo'llanadi?",
+   "a": [
+    "E-hujjat (edo.ijro.uz) va ijro.gov.uz tizimlari",
+    "Faqat ijtimoiy tarmoqlar (Instagram, Telegram)",
+    "Faqat qog'oz ro'yxatga olish jurnallari",
+    "Faqat telefon orqali og'zaki topshiriqlar"
+   ],
+   "e": "Ijro intizomi nazorati."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Excel'da ketma-ket sonlar yoki sanalarni tez to'ldirish uchun nima ishlatiladi?",
+   "a": [
+    "Avtoto'ldirish markeri",
+    "Shartli formatlash (Conditional Formatting)",
+    "Ma'lumotlarni tekshirish (Data Validation) oynasi",
+    "Kataklarni birlashtirish (Merge) buyrug'i"
+   ],
+   "e": "Flash Fill ham."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Excel'da =CONCATENATE (СЦЕПИТЬ) funksiyasi nima qiladi?",
+   "a": [
+    "Bir necha katakdagi matnlarni birlashtiradi",
+    "Kataklardagi sonlarni o'zaro ko'paytiradi",
+    "Belgilangan kataklarni butunlay o'chiradi",
+    "Matnni bo'shliq bo'yicha bo'laklarga ajratadi"
+   ],
+   "e": "Yoki & operatori."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Excel'da =TODAY() funksiyasi nimani qaytaradi?",
+   "a": [
+    "Joriy sanani",
+    "Joriy vaqtni soniyagacha",
+    "Hafta kunining nomini",
+    "Yil boshidan o'tgan kunlar sonini"
+   ],
+   "e": "=NOW() — sana va vaqt."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Excel'da diagramma yaratish uchun avval nima qilinadi?",
+   "a": [
+    "Ma'lumotlar diapazoni belgilanadi",
+    "Ishchi varaq o'chirilib, yangisi ochiladi",
+    "Fayl saqlanib, dastur yopiladi",
+    "Barcha kataklar bitta katakka birlashtiriladi"
+   ],
+   "e": "Keyin Insert — Chart."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Excel'da =SUMIF(A1:A10;\">5\") formulasi nima hisoblaydi?",
+   "a": [
+    "5 dan katta sonlar yig'indisini",
+    "5 dan katta sonlar sonini (miqdorini)",
+    "Barcha sonlarning o'rta arifmetigini",
+    "Diapazondagi eng katta sonni"
+   ],
+   "e": "Shartli yig'indi."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Excel'da katakdagi sonni foiz ko'rinishida ko'rsatish uchun nima qilinadi?",
+   "a": [
+    "Katak formati \"Foiz\" (Percentage) ga o'zgartiriladi",
+    "Songa qo'lda % belgisi yoziladi, so'ng matnga aylantiriladi",
+    "Katak rangi qizilga o'zgartiriladi",
+    "Formula ichida % so'zi yoziladi"
+   ],
+   "e": "Ctrl+Shift+%."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Excel'da varaqni yangi nom bilan atash qanday bajariladi?",
+   "a": [
+    "Yorliqda ikki marta bosib nom yoziladi",
+    "Fayl nomini Explorer'da o'zgartirish orqali",
+    "Varaqdagi kataklarni birlashtirish orqali",
+    "Varaqni o'chirib, yangisini qayta yaratib"
+   ],
+   "e": "Yoki o'ng tugma — Rename."
+  },
+  {
+   "b": "Hujjatlar bilan ishlash (kengaytirilgan)",
+   "q": "Excel'da formula natijasini emas, formulaning o'zini ko'rsatish uchun qaysi birikma ishlatiladi?",
+   "a": [
+    "Ctrl+` (apostrof oldidagi tugma)",
+    "Ctrl+F (qidirish)",
+    "Ctrl+P (chop etish)",
+    "Ctrl+Home (boshiga o'tish)"
+   ],
+   "e": "Formulalarni ko'rsatish rejimi."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Video montajda ikki klip orasidagi silliq o'tish effekti qanday ataladi?",
+   "a": [
+    "Transition (o'tish)",
+    "Rendering (eksport)",
+    "Trimming (qirqish)",
+    "Keyframe (kalit kadr)"
+   ],
+   "e": "Masalan, Cross Dissolve."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Montaj qilingan videoni yakuniy faylga aylantirish jarayoni qanday ataladi?",
+   "a": [
+    "Render (eksport)",
+    "Import (fayllarni loyihaga qo'shish)",
+    "Trim (klipni qirqish)",
+    "Capture (kameradan yozib olish)"
+   ],
+   "e": "Kodek va formatni tanlash."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Video yoki audio klipning keraksiz bosh yoki oxirini qirqish qanday ataladi?",
+   "a": [
+    "Trim (qirqish)",
+    "Render (eksport qilish)",
+    "Mix (aralashtirish)",
+    "Zoom (kattalashtirish)"
+   ],
+   "e": "Montajning asosiy amali."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "\"Xromakey\" (yashil fon) texnologiyasi nima uchun ishlatiladi?",
+   "a": [
+    "Bir rangli fonni boshqa fon bilan almashtirish",
+    "Ovoz yozuvini fon shovqinidan tozalash uchun",
+    "Videoni 2–4 barobar tezlashtirish uchun",
+    "Rangli videoni qora-oq ko'rinishga o'tkazish uchun"
+   ],
+   "e": "Chroma key."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Videodagi titrlar (subtitrlar) uchun keng tarqalgan fayl formati qaysi?",
+   "a": [
+    "SRT",
+    "MP3",
+    "PSD",
+    "XLSX"
+   ],
+   "e": "Matn va vaqt kodlari."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Ovoz yozishda shovqinni kamaytirish uchun nima qilinadi?",
+   "a": [
+    "Tinch xonada, shovqinni filtrlab yoziladi",
+    "Mikrofon so'zlovchidan imkon qadar uzoqqa qo'yiladi",
+    "Ovoz kuchaytirgichi maksimal darajaga qo'yiladi",
+    "Xonada ventilyator va konditsioner yoqib qo'yiladi"
+   ],
+   "e": "Noise Reduction effekti."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Ovoz yozishda signal haddan tashqari baland bo'lib, buzilishi qanday ataladi?",
+   "a": [
+    "Klipping (cheklanish)",
+    "Ekvalayzer (chastota sozlash)",
+    "Normalizatsiya (darajani tenglash)",
+    "Fade-in (asta kuchayish)"
+   ],
+   "e": "Signal darajasini kamaytirish kerak."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Ovozning asta-sekin kuchayib boshlanishi effekti qanday ataladi?",
+   "a": [
+    "Fade In",
+    "Fade Out",
+    "Echo",
+    "Reverse"
+   ],
+   "e": "Fade Out — asta pasayish."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Ekvalayzer (EQ) nima uchun ishlatiladi?",
+   "a": [
+    "Ovozning turli chastotalari balandligini sozlash uchun",
+    "Video klipni kerakli joyidan kesish uchun",
+    "Audio fayl formatini o'zgartirish uchun",
+    "Rasm va videoni yorqinroq qilish uchun"
+   ],
+   "e": "Past, o'rta, yuqori chastotalar."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Kompyuter ekranidagi harakatlarni videoga yozish nima deyiladi?",
+   "a": [
+    "Skrinkast (ekranni yozish)",
+    "Skrinshot (ekran rasmi)",
+    "Skanerlash (qog'ozdan raqamlash)",
+    "Rendering (yakuniy eksport)"
+   ],
+   "e": "OBS Studio, Camtasia."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Ekranning bir lahzalik rasmini olish (skrinshot) Windows'da qaysi tugma bilan bajariladi?",
+   "a": [
+    "PrtScn (Print Screen)",
+    "Esc (Escape)",
+    "Caps Lock",
+    "Insert (Ins)"
+   ],
+   "e": "Win+Shift+S — qism."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Ochiq manbali bepul video yozish va translyatsiya dasturi qaysi?",
+   "a": [
+    "OBS Studio",
+    "MS Access",
+    "Adobe Acrobat",
+    "CorelDRAW"
+   ],
+   "e": "Open Broadcaster Software."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Videoning tomonlar nisbati 16:9 bo'lsa, bu qanday format?",
+   "a": [
+    "Keng ekranli (widescreen)",
+    "Kvadrat format",
+    "Vertikal (telefon) format",
+    "Eski televizor formati (4:3)"
+   ],
+   "e": "Zamonaviy standart."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Ijtimoiy tarmoqlardagi qisqa vertikal videolar uchun qaysi tomonlar nisbati qo'llanadi?",
+   "a": [
+    "9:16",
+    "16:9",
+    "4:3",
+    "21:9"
+   ],
+   "e": "Reels, Shorts."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Infografika nima?",
+   "a": [
+    "Ma'lumotni vizual tasvirlash",
+    "Faqat formatlanmagan matnli hujjat",
+    "Faqat diktor ovozi yozilgan audio fayl",
+    "Faqat dasturlash tilidagi kod"
+   ],
+   "e": "Canva, Piktochart."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Onlayn dizayn yaratish uchun keng tarqalgan bepul platforma qaysi?",
+   "a": [
+    "Canva",
+    "MS Access",
+    "AutoCAD",
+    "WinRAR"
+   ],
+   "e": "Shablonlar asosida."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Podkast nima?",
+   "a": [
+    "Internetdagi audio ko'rsatuvlar seriyasi",
+    "Kompyuter virusining yangi turi",
+    "Vektor rasm formati",
+    "Elektron jadval turi"
+   ],
+   "e": "Muntazam epizodlar."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Raqamli kontent yaratishda mualliflik huquqi buzilmasligi uchun nimadan foydalanish tavsiya etiladi?",
+   "a": [
+    "Ochiq litsenziyali materiallardan",
+    "Istalgan saytdan topilgan materiallardan",
+    "Boshqa mualliflar videolaridan, ruxsatsiz",
+    "Televizor ko'rsatuvlaridan yozib olingan qismlardan"
+   ],
+   "e": "Manbani ko'rsatish."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Videodagi kalit kadr (keyframe) nima uchun ishlatiladi?",
+   "a": [
+    "Parametr o'zgarishini vaqt bo'yicha belgilash",
+    "Videoni internetga tezroq yuklash uchun",
+    "Loyiha faylini arxivlab saqlash uchun",
+    "Klipdagi ovozni butunlay o'chirish uchun"
+   ],
+   "e": "Animatsiya."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Bir vaqtda bir necha video qatlamini ustma-ust qo'yib montaj qilish qanday ataladi?",
+   "a": [
+    "Ko'p trekli (multitrek) montaj",
+    "Chiziqli bo'lmagan saqlash (arxivlash)",
+    "Bir trekli ketma-ket yozish",
+    "Rendering (yakuniy eksport)"
+   ],
+   "e": "Video va audio treklar."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Chiziqli bo'lmagan montaj nimani anglatadi?",
+   "a": [
+    "Istalgan qismni istalgan tartibda tahrirlash",
+    "Faqat videotasmada ketma-ket qirqib yopishtirish",
+    "Faqat jonli efirni to'g'ridan-to'g'ri yozish",
+    "Videoni faqat boshidan oxirigacha ko'rib chiqish"
+   ],
+   "e": "NLE."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Video fayl hajmini kamaytirishning asosiy usuli qaysi?",
+   "a": [
+    "Bitreytni pasaytirish yoki H.265 kodek",
+    "Videoni uzunroq va sekinroq qilish",
+    "Ruxsatni Full HD dan 4K ga oshirish",
+    "Kadrlar chastotasini 120 fps ga oshirish"
+   ],
+   "e": "Sifat/hajm balansi."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "H.264 nima?",
+   "a": [
+    "Keng tarqalgan video siqish standarti (kodek)",
+    "Audio karnay (dinamik) turi",
+    "Monitor ekrani ruxsati",
+    "Disk fayl tizimi nomi"
+   ],
+   "e": "AVC."
+  },
+  {
+   "b": "Raqamli kontent yaratish va video/audio ishlash",
+   "q": "Taqdimot yoki video uchun ovoz (diktor matni) yozish qanday ataladi?",
+   "a": [
+    "Ovoz berish (Voice-over)",
+    "Rendering (yakuniy eksport)",
+    "Skrinshot (ekran rasmi)",
+    "Kadrlash (Crop)"
+   ],
+   "e": "Diktor ovozi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Operatsion tizimga misollar qaysi qatorda berilgan?",
+   "a": [
+    "Windows, Linux, macOS, Android",
+    "Word, Excel, PowerPoint, Access",
+    "Chrome, Firefox, Opera, Edge",
+    "Photoshop, Premiere, Audition, Illustrator"
+   ],
+   "e": "Tizimli dasturiy ta'minot."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Amaliy dasturiy ta'minotga nimalar kiradi?",
+   "a": [
+    "Matn, jadval va grafik muharrirlar",
+    "BIOS, UEFI va qurilma drayverlari",
+    "Faqat operatsion tizimlar va ularning yadrosi",
+    "Faqat kompilyatorlar va dasturlash muhitlari"
+   ],
+   "e": "Foydalanuvchi vazifalari uchun."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Drayver nima?",
+   "a": [
+    "OT ning qurilma bilan ishlash dasturi",
+    "Kompyuter virusining yashirin turi",
+    "Oddiy matn muharriri dasturi",
+    "Monitor va proyektorning turi"
+   ],
+   "e": "Printer, videokarta drayverlari."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Windows'da \"Vazifalar dispetcheri\" qaysi birikma bilan ochiladi?",
+   "a": [
+    "Ctrl+Shift+Esc",
+    "Ctrl+Alt+Tab",
+    "Win+R",
+    "Alt+F4"
+   ],
+   "e": "Osilib qolgan dasturni yopish."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Alt+F4 birikmasi nima qiladi?",
+   "a": [
+    "Faol oynani (dasturni) yopadi",
+    "Yangi bo'sh oyna ochadi",
+    "Belgilangan faylni nusxalaydi",
+    "Ekranni parol bilan qulflaydi"
+   ],
+   "e": "Ish stolida — o'chirish oynasi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Win+D birikmasi nima qiladi?",
+   "a": [
+    "Barcha oynalarni yig'ib, ish stolini ko'rsatadi",
+    "Fayl boshqaruvchisini (Explorer) ochadi",
+    "Kompyuterni parol bilan qulflaydi",
+    "Ekrandagi harakatlarni videoga yozadi"
+   ],
+   "e": "Desktop."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Win+E birikmasi nima qiladi?",
+   "a": [
+    "Fayl boshqaruvchisini (Explorer) ochadi",
+    "Barcha oynalarni yig'ib, ish stolini ko'rsatadi",
+    "Standart brauzerni ochadi",
+    "Elektron pochta dasturini ochadi"
+   ],
+   "e": "Explorer."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Arxivator dasturiga misol qaysi?",
+   "a": [
+    "WinRAR, 7-Zip",
+    "Paint, Photoshop",
+    "Word, WordPad",
+    "Chrome, Edge"
+   ],
+   "e": "ZIP, RAR, 7z."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Ko'p tomli arxiv nima?",
+   "a": [
+    "Bir necha qismga bo'lingan arxiv",
+    "Parol bilan himoyalangan shifrlangan arxiv",
+    "Ichida hech qanday fayl yo'q bo'sh arxiv",
+    "Faqat rasm fayllarini saqlaydigan arxiv"
+   ],
+   "e": "Katta faylni bo'lib uzatish uchun."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "O'z-o'zidan ochiladigan (SFX) arxiv qanday kengaytmaga ega bo'ladi?",
+   "a": [
+    ".exe",
+    ".zip",
+    ".docx",
+    ".jpg"
+   ],
+   "e": "Arxivatorsiz ochiladi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Litsenziyali dasturiy ta'minotdan foydalanishning afzalligi nima?",
+   "a": [
+    "Qonuniylik, yangilanishlar va texnik qo'llab-quvvatlash",
+    "Narxi har doim bepul bo'lishi",
+    "Qo'shimcha dasturlar va reklamalar bilan kelishi",
+    "Hech qachon yangilanmasligi va o'zgarmasligi"
+   ],
+   "e": "Piratlik — huquqbuzarlik."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Erkin (ochiq kodli) ofis paketiga misol qaysi?",
+   "a": [
+    "LibreOffice",
+    "MS Office",
+    "Adobe Creative Cloud",
+    "CorelDRAW Graphics Suite"
+   ],
+   "e": "Bepul."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Dasturni kompyuterga o'rnatish jarayoni qanday ataladi?",
+   "a": [
+    "Instalyatsiya (o'rnatish)",
+    "Defragmentatsiya (diskni tartiblash)",
+    "Formatlash (diskni tozalash)",
+    "Arxivlash (fayllarni siqish)"
+   ],
+   "e": "Install."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Diskni formatlash natijasida nima bo'ladi?",
+   "a": [
+    "Ma'lumotlar o'chib, yangi fayl tizimi yaratiladi",
+    "Disk hajmi ikki barobar oshadi",
+    "Diskdagi barcha fayllar avtomatik arxivlanadi",
+    "Faqat viruslar o'chirilib, fayllar qoladi"
+   ],
+   "e": "Ehtiyot bo'lish kerak."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Diskni defragmentatsiya qilish nima uchun kerak (HDD)?",
+   "a": [
+    "Fayl bo'laklarini tartiblab, tezlikni oshirish",
+    "Diskdagi viruslarni topib o'chirish uchun",
+    "Diskning umumiy hajmini oshirish uchun",
+    "Fayllarni avtomatik arxivlash uchun"
+   ],
+   "e": "SSD uchun kerak emas."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Windows'da o'chirilgan fayllar avval qayerga tushadi?",
+   "a": [
+    "Savatchaga (Recycle Bin)",
+    "Ish stoliga (Desktop)",
+    "Yuklamalar (Downloads) papkasiga",
+    "Windows tizim papkasiga"
+   ],
+   "e": "Tiklash mumkin."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Yorliq (shortcut) nima?",
+   "a": [
+    "Fayl yoki dasturga tez kirish uchun havola",
+    "Faylning to'liq ikkinchi nusxasi",
+    "Siqilgan (arxivlangan) fayl",
+    "Yashirin tizim fayli"
+   ],
+   "e": "Strelkali belgi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Windows'da \"Bajarish\" (Run) oynasi qaysi birikma bilan ochiladi?",
+   "a": [
+    "Win+R",
+    "Win+E",
+    "Win+L",
+    "Win+D"
+   ],
+   "e": "Buyruqlarni ishga tushirish."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Fayl atributi \"Faqat o'qish uchun\" (Read-only) bo'lsa nima bo'ladi?",
+   "a": [
+    "Faylni o'zgartirib, shu nom bilan saqlab bo'lmaydi",
+    "Faylni umuman ochib bo'lmaydi",
+    "Fayl Explorer'da ko'rinmay qoladi",
+    "Fayl bir oydan keyin avtomatik o'chiriladi"
+   ],
+   "e": "Himoya atributi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Ochiq manbali operatsion tizimga misol qaysi?",
+   "a": [
+    "Linux (Ubuntu)",
+    "Windows 11",
+    "macOS",
+    "iOS"
+   ],
+   "e": "Bepul tarqatiladi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Mobil qurilmalar uchun keng tarqalgan operatsion tizimlar qaysilar?",
+   "a": [
+    "Android va iOS",
+    "Windows XP va MS-DOS",
+    "Linux Mint va Fedora",
+    "BIOS va UEFI"
+   ],
+   "e": "Smartfonlar."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Dasturlarni yangilab turish (update) nima uchun muhim?",
+   "a": [
+    "Zaifliklarni tuzatish va yangi imkoniyatlar uchun",
+    "Kompyuter xotirasini to'ldirib qo'yish uchun",
+    "Dastur ishlashini ataylab sekinlashtirish uchun",
+    "Eski fayllarni avtomatik o'chirish uchun"
+   ],
+   "e": "Avtomatik yangilanish."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Kompyuterda ishlovchining ko'zi uchun monitor qanday masofada joylashishi tavsiya etiladi?",
+   "a": [
+    "Ko'zdan 50–70 sm masofada",
+    "Ko'zdan 10 sm masofada",
+    "Ko'zdan 2 metr masofada",
+    "Masofaning ahamiyati yo'q"
+   ],
+   "e": "SanQvaN talablari."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Kompyuterda uzoq ishlaganda qanday tanaffus tavsiya etiladi?",
+   "a": [
+    "Har 45–60 daqiqada 10–15 daqiqa tanaffus",
+    "Tanaffus umuman kerak emas, ish to'xtamaydi",
+    "Faqat ish kuni oxirida bitta uzun tanaffus",
+    "Har 5 daqiqada 1 soatlik tanaffus"
+   ],
+   "e": "Mehnat gigiyenasi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minot",
+   "q": "Elektr xavfsizligi qoidasiga ko'ra kompyuterni tozalashdan oldin nima qilinadi?",
+   "a": [
+    "Kompyuter elektr tarmog'idan uziladi",
+    "Kompyuter yoqilgan holda nam latta bilan artiladi",
+    "Faqat monitor o'chiriladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Xavfsizlik texnikasi."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Lokal tarmoq (LAN) nima?",
+   "a": [
+    "Bino yoki xona doirasidagi tarmoq",
+    "Butun dunyo bo'ylab tarqalgan global tarmoq",
+    "Faqat mobil telefonlar orasidagi tarmoq",
+    "Bir shahar miqyosidagi telefon tarmog'i"
+   ],
+   "e": "WAN — global."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Wi-Fi nima?",
+   "a": [
+    "Simsiz lokal tarmoq texnologiyasi",
+    "Simli telefon aloqasi standarti",
+    "Optik tolali kabelning turi",
+    "Kompyuter protsessorining modeli"
+   ],
+   "e": "IEEE 802.11."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Router (marshrutizator) qanday vazifani bajaradi?",
+   "a": [
+    "Tarmoqlar orasida paketlarni yo'naltiradi",
+    "Hujjatlarni qog'ozga chop etadi",
+    "Audio signalni kuchaytirib beradi",
+    "Qog'ozdagi tasvirni skanerlaydi"
+   ],
+   "e": "Uy internetida ham."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Internet tezligi qanday birlikda o'lchanadi?",
+   "a": [
+    "Mbit/s (megabit soniyada)",
+    "MB (megabayt, fayl hajmi)",
+    "GHz (gigagerts, chastota)",
+    "dpi (nuqta dyuymda, ruxsat)"
+   ],
+   "e": "100 Mbit/s ≈ 12,5 MB/s."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "100 Mbit/s tezlikda nazariy jihatdan soniyasiga taxminan qancha megabayt yuklanadi?",
+   "a": [
+    "12,5 MB",
+    "100 MB",
+    "800 MB",
+    "1 MB"
+   ],
+   "e": "100 / 8."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Bulutli hisoblash (cloud computing) nima?",
+   "a": [
+    "Internet orqali masofaviy resurslardan foydalanish",
+    "Kompyuter protsessorini sovutish texnologiyasi",
+    "Ob-havo prognozi dasturi",
+    "Faqat flesh-xotirada saqlash"
+   ],
+   "e": "SaaS, PaaS, IaaS."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Sun'iy intellekt (SI) asosidagi matn yaratuvchi vositalardan foydalanishda nimaga e'tibor berish kerak?",
+   "a": [
+    "Natijani tekshirish va akademik halollik",
+    "Natijani tekshirmay o'z ishi sifatida topshirish",
+    "Shaxsiy va maxfiy ma'lumotlarni cheklovsiz kiritish",
+    "Faqat SI javobiga to'liq ishonish"
+   ],
+   "e": "Raqamli savodxonlik."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Katta ma'lumotlar (Big Data) nima?",
+   "a": [
+    "Juda katta hajmdagi murakkab ma'lumotlar",
+    "Faqat katta shriftda yozilgan ma'lumotlar",
+    "Faqat bitta fayldagi kichik jadval",
+    "Qog'ozda saqlanadigan arxiv"
+   ],
+   "e": "Hajm, tezlik, xilma-xillik."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Narsalar interneti (IoT) nima?",
+   "a": [
+    "O'zaro bog'langan \"aqlli\" qurilmalar tarmog'i",
+    "Faqat kompyuterlar orasidagi lokal tarmoq",
+    "Internet do'konlar yig'indisi",
+    "Faqat ijtimoiy tarmoqlar"
+   ],
+   "e": "Aqlli uy, sensorlar."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Raqamli savodxonlik nima?",
+   "a": [
+    "Raqamli texnologiyalardan xavfsiz foydalanish ko'nikmasi",
+    "Faqat klaviaturada tez yozish ko'nikmasi",
+    "Faqat matematik hisoblash qobiliyati",
+    "Faqat chet tilini bilish"
+   ],
+   "e": "Zamonaviy kompetensiya."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Davlat xizmatlarini onlayn olish uchun O'zbekistondagi yagona portal qaysi?",
+   "a": [
+    "my.gov.uz",
+    "google.com (qidiruv tizimi)",
+    "wikipedia.org (ensiklopediya)",
+    "youtube.com (video xosting)"
+   ],
+   "e": "ERI yoki OneID orqali kirish."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "OneID tizimi nima uchun xizmat qiladi?",
+   "a": [
+    "Davlat tizimlarida yagona identifikatsiya uchun",
+    "Fotosuratlarni onlayn tahrirlash uchun",
+    "Video fayllarni montaj qilish uchun",
+    "Musiqa tinglash va yuklab olish uchun"
+   ],
+   "e": "id.egov.uz."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Masofaviy ta'lim platformasiga misol qaysi?",
+   "a": [
+    "Moodle",
+    "Photoshop",
+    "WinRAR",
+    "Excel"
+   ],
+   "e": "LMS — o'quv boshqaruv tizimi."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "LMS nima?",
+   "a": [
+    "O'quv jarayonini boshqarish tizimi",
+    "Lokal tarmoqni ulovchi kabel turi",
+    "Vektor rasm fayli formati",
+    "Fayllarni arxivlash dasturi"
+   ],
+   "e": "Moodle, Google Classroom."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Google Classroom nima uchun ishlatiladi?",
+   "a": [
+    "Topshiriqlarni tashkil etish va baholash",
+    "Video montaj va effektlar qo'shish",
+    "Rastr rasmlarni vektorga aylantirish",
+    "Kompyuterni antivirus bilan tekshirish"
+   ],
+   "e": "Onlayn sinfxona."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Fayllarni ko'p foydalanuvchi bilan bir vaqtda tahrirlash imkonini beruvchi texnologiya qanday ataladi?",
+   "a": [
+    "Birgalikda ishlash (hamkorlikda tahrirlash)",
+    "Arxivlash (fayllarni siqish)",
+    "Defragmentatsiya (diskni tartiblash)",
+    "Skanerlash (qog'ozni raqamlash)"
+   ],
+   "e": "Google Docs, Office 365."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Kriptografiya nima?",
+   "a": [
+    "Ma'lumotlarni shifrlash haqidagi fan",
+    "Rasmlarni qo'lda chizish usuli",
+    "Mikrofon orqali ovoz yozish usuli",
+    "Fayllarni arxivlash va siqish usuli"
+   ],
+   "e": "Maxfiylik."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Blokcheyn texnologiyasining asosiy xususiyati nima?",
+   "a": [
+    "Ma'lumot o'zgartirib bo'lmaydigan bloklar zanjirida",
+    "Ma'lumotlar faqat bitta markaziy kompyuterda",
+    "Ma'lumotlar istalgan vaqtda iz qoldirmay o'zgartiriladi",
+    "Faqat rasmlarni saqlash uchun ishlatiladi"
+   ],
+   "e": "Kriptovalyutalar asosi."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Spam nima?",
+   "a": [
+    "Ommaviy keraksiz reklama xatlari",
+    "Muhim rasmiy xatlar va buyruqlar",
+    "Ma'lumotlarning zaxira nusxasi",
+    "Parol bilan shifrlangan fayl"
+   ],
+   "e": "Filtrlar."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Ijtimoiy muhandislik (social engineering) nima?",
+   "a": [
+    "Aldab maxfiy ma'lumot olish usullari",
+    "Ijtimoiy tarmoq dasturini ishlab chiqish",
+    "Kompyuter qurilmalarini ta'mirlash usuli",
+    "Ma'lumotlar bazasini loyihalash usuli"
+   ],
+   "e": "Fishing — bir turi."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "VPN nima uchun ishlatiladi?",
+   "a": [
+    "Himoyalangan (shifrlangan) ulanish uchun",
+    "Hujjatlarni tarmoq printerida chop etish uchun",
+    "Rasmlarni onlayn tahrirlash uchun",
+    "Mikrofon orqali ovoz yozish uchun"
+   ],
+   "e": "Virtual Private Network."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Zararli dastur turi — \"troyan\" qanday xususiyatga ega?",
+   "a": [
+    "Foydali dastur niqobida zarar yetkazadi",
+    "Ochiq ishlaydi, o'zini hech qachon yashirmaydi",
+    "Faqat printer drayverlariga zarar yetkazadi",
+    "Faqat elektr ta'minotini o'chirib qo'yadi"
+   ],
+   "e": "Troya oti."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Ransomware (to'lov talab qiluvchi dastur) nima qiladi?",
+   "a": [
+    "Fayllarni shifrlab, to'lov talab qiladi",
+    "Kompyuterni tezlashtirib, xotirani tozalaydi",
+    "Fayllarni avtomatik bulutga zaxiralaydi",
+    "Boshqa viruslarni topib o'chiradi"
+   ],
+   "e": "Zaxira nusxa — himoya."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Ochiq Wi-Fi tarmoqlarida ishlashda qanday ehtiyot choralari ko'riladi?",
+   "a": [
+    "Maxfiy ma'lumot kiritilmaydi, VPN ishlatiladi",
+    "Barcha parollar ochiq tarmoqda kiritiladi",
+    "Antivirus va xavfsizlik devori o'chiriladi",
+    "Fayl almashish to'liq ochiq yoqiladi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Raqamli texnologiyalar va tarmoqlar",
+   "q": "Gigabit Ethernet tarmog'ining nazariy tezligi qancha?",
+   "a": [
+    "1 Gbit/s",
+    "10 Mbit/s",
+    "100 Gbit/s",
+    "1 Kbit/s"
+   ],
+   "e": "1000 Mbit/s."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Word hujjatida 50 sahifali hisobotga avtomatik yangilanadigan mundarija qo'yish uchun birinchi navbatda nima qilish kerak?",
+   "a": [
+    "Bo'lim nomlariga sarlavha uslublarini qo'llash",
+    "Har bir sahifa raqamini qo'lda yozib chiqish",
+    "Hujjatni PDF ga aylantirib, qayta ochish",
+    "Barcha matnni bitta katta jadvalga joylashtirish"
+   ],
+   "e": "Keyin References — Table of Contents."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "200 ta o'quvchiga shaxsiy taklifnoma (har biriga o'z ismi bilan) tayyorlash uchun qaysi vosita eng qulay?",
+   "a": [
+    "Ommaviy xatlar (Mail Merge)",
+    "Har bir taklifnomani qo'lda alohida yozish",
+    "PowerPoint'da 200 ta slayd yaratish",
+    "Paint dasturida har birini chizish"
+   ],
+   "e": "Ma'lumot manbai — jadval."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Excel'da 500 ta o'quvchining baholaridan \"5\" baho olganlar sonini topish uchun qaysi formula to'g'ri?",
+   "a": [
+    "=COUNTIF(B2:B501;5)",
+    "=SUM(B2:B501;5)",
+    "=AVERAGE(B2:B501)",
+    "=COUNT(B2:B501)"
+   ],
+   "e": "Shart bo'yicha sanash."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Excel'da B2 katakdagi ball 60 va undan yuqori bo'lsa \"o'tdi\", aks holda \"o'tmadi\" chiqarish formulasi qaysi?",
+   "a": [
+    "=IF(B2>=60;\"o'tdi\";\"o'tmadi\")",
+    "=IF(B2<60;\"o'tdi\";\"o'tmadi\")",
+    "=COUNTIF(B2;\"o'tdi\")",
+    "=SUM(B2>=60)"
+   ],
+   "e": "Mantiqiy shart."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Fotosuratni saytga joylash uchun hajmini kamaytirish kerak. Qaysi usul to'g'ri?",
+   "a": [
+    "O'lchamini kichraytirib, JPEG'ni optimallash",
+    "Rasmni BMP formatiga aylantirish",
+    "Rasm ruxsatini 600 dpi ga oshirish",
+    "Rasmni PSD formatida qatlamlar bilan saqlash"
+   ],
+   "e": "Veb uchun optimallashtirish."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Logotipni har xil o'lchamda (vizitka va banner) sifatli chop etish uchun qaysi formatda yaratish to'g'ri?",
+   "a": [
+    "Vektor formatda (SVG, AI, CDR)",
+    "Kichik o'lchamli JPEG rasm sifatida",
+    "GIF animatsiya ko'rinishida",
+    "Ekrandan olingan skrinshot sifatida"
+   ],
+   "e": "Masshtablanadi."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Muhim hujjatlar yo'qolmasligi uchun eng ishonchli yondashuv qaysi?",
+   "a": [
+    "Zaxirani turli joyda saqlash",
+    "Faqat ish stolida bitta nusxada saqlash",
+    "Faqat savatchada vaqtincha saqlash",
+    "Fayllar nomini tez-tez o'zgartirib turish"
+   ],
+   "e": "3-2-1 qoidasi."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Qog'ozdagi eski hujjatni tahrirlash uchun Word'ga o'tkazish kerak. Qanday yo'l to'g'ri?",
+   "a": [
+    "Skanerlab, OCR dasturi bilan matnni tanib olish",
+    "Hujjatni telefon bilan suratga olib Word'ga qo'yish",
+    "Hujjatni qo'lda yangi qog'ozga ko'chirib yozish",
+    "Hujjatni faks orqali o'ziga qayta yuborish"
+   ],
+   "e": "ABBYY FineReader."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Taqdimotni proyektorda ko'rsatishda matn yaxshi o'qilmayapti. Eng to'g'ri yechim qaysi?",
+   "a": [
+    "Shriftni kattalashtirib, kontrastni oshirish",
+    "Slayddagi matn hajmini yanada ko'paytirish",
+    "Shrift o'lchamini yanada kichraytirish",
+    "Fon rangini matn rangiga yaqinlashtirish"
+   ],
+   "e": "Kontrast muhim."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Videoni elektron pochta orqali yuborish uchun hajmi juda katta. Eng qulay yechim qaysi?",
+   "a": [
+    "Bulutga yuklab, havolasini yuborish",
+    "Videoni Word hujjatiga qo'yib yuborish",
+    "Videoni 10 ta xatga bo'lib yuborish",
+    "Videoni BMP formatiga aylantirib yuborish"
+   ],
+   "e": "Google Drive, Yandex Disk."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Excel'da jadval sarlavhasi uzun ro'yxatni pastga aylantirganda ko'rinib turishi uchun nima qilinadi?",
+   "a": [
+    "Sohalarni mahkamlash (Freeze Panes)",
+    "Sarlavhani har 20 qatorda takror yozish",
+    "Sarlavha shriftini kattalashtirish",
+    "Sarlavhani rasmga aylantirib qo'yish"
+   ],
+   "e": "Freeze Top Row."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Word'da bir hujjatning bir qismi albom yo'nalishida bo'lishi kerak. Qanday qilinadi?",
+   "a": [
+    "Bo'lim uzilishi qo'yib, faqat shu bo'limni o'zgartirish",
+    "Butun hujjatni albom yo'nalishiga o'zgartirish",
+    "Ushbu qismni alohida faylga ajratish shart",
+    "Matnni 90° ga aylantirib qo'yish"
+   ],
+   "e": "Section Break — Next Page."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Kompyuterga noma'lum fleshka ulanganda xavfsizlik nuqtai nazaridan birinchi nima qilinadi?",
+   "a": [
+    "Antivirus bilan tekshiriladi",
+    "Undagi barcha .exe fayllar darhol ishga tushiriladi",
+    "Antivirus o'chirib qo'yiladi",
+    "Fleshka formatlanmay ishlatiladi"
+   ],
+   "e": "Avtozapusk o'chirilgan bo'lishi kerak."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Bir hujjatni 5 nafar o'qituvchi bir vaqtda tahrirlashi kerak. Qaysi yechim qulay?",
+   "a": [
+    "Bulutda umumiy kirish bilan ochish",
+    "Hujjatni 5 ta fleshkaga nusxalab tarqatish",
+    "Hujjatni chop etib, qo'lda tuzatish",
+    "Har kim o'z nusxasini alohida tahrirlab yuborishi"
+   ],
+   "e": "Real vaqtda hamkorlik."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Ovozli darslikni yozishda mikrofon ovozi past chiqdi. Audacity'da qaysi effekt ovoz darajasini tenglashtiradi?",
+   "a": [
+    "Normalize yoki Amplify",
+    "Teskari aylantirish (Reverse)",
+    "Shovqin yaratish (Generate Noise)",
+    "Tezlikni o'zgartirish (Change Speed)"
+   ],
+   "e": "Klippingsiz kuchaytirish."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Excel'dagi jadvalni Word hisobotiga ma'lumotlar o'zgarganda avtomatik yangilanadigan qilib qo'yish uchun nima qilinadi?",
+   "a": [
+    "Bog'langan ob'ekt (Paste Link) sifatida",
+    "Skrinshot qilinib, rasm sifatida",
+    "Jadval qo'lda qayta yoziladi",
+    "Oddiy formatsiz matn sifatida"
+   ],
+   "e": "OLE bog'lanish."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "PDF hujjatdagi matnni tahrirlash kerak. Qaysi yo'l to'g'ri?",
+   "a": [
+    "Word'da konvertatsiya qilib yoki PDF muharririda",
+    "Kengaytmani .docx ga qo'lda o'zgartirish",
+    "PDF faylni arxivlab, keyin ochish",
+    "PDF faylni Paint dasturida ochish"
+   ],
+   "e": "Adobe Acrobat, Word."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "O'quvchilar uchun onlayn test o'tkazib, natijalarni avtomatik jadvalga yig'ish uchun qaysi vosita qulay?",
+   "a": [
+    "Google Forms",
+    "MS Paint",
+    "Windows Media Player",
+    "Notepad"
+   ],
+   "e": "Javoblar Google Sheets'ga."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Rasmdagi orqa fonni olib tashlab, shaffof qilib saqlash kerak. Qaysi format tanlanadi?",
+   "a": [
+    "PNG",
+    "JPEG",
+    "BMP",
+    "MP4"
+   ],
+   "e": "JPEG shaffoflikni qo'llamaydi."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Elektron jadvalda xato kiritilishning oldini olish uchun \"Jinsi\" ustuniga faqat \"Erkak\" yoki \"Ayol\" kiritilishini ta'minlash kerak. Qaysi vosita ishlatiladi?",
+   "a": [
+    "Data Validation — List",
+    "Shartli formatlash (Conditional Formatting)",
+    "Saralash (A dan Ya gacha)",
+    "Kataklarni birlashtirish (Merge)"
+   ],
+   "e": "Ochiladigan ro'yxat."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Katta hajmdagi rasmlar to'plamini bir faylga jamlab, hajmini kamaytirib yuborish uchun nima qilinadi?",
+   "a": [
+    "Papkani ZIP yoki 7z arxivga joylash",
+    "Har bir rasmni Word hujjatiga qo'yish",
+    "Rasmlarni BMP ga aylantirish",
+    "Rasmlarni bitta PowerPoint slaydiga joylash"
+   ],
+   "e": "Arxivlash."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Word'da uzun hujjatdagi barcha \"kollej\" so'zini \"texnikum\" ga almashtirish uchun eng tez usul qaysi?",
+   "a": [
+    "Ctrl+H — \"Hammasini almashtirish\"",
+    "Har bir so'zni qo'lda topib o'zgartirish",
+    "Hujjatni boshidan qaytadan yozish",
+    "Imlo tekshiruvini (F7) ishga tushirish"
+   ],
+   "e": "Replace All."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Taqdimot har bir slaydga 5 soniyadan avtomatik o'tishi kerak. Qanday sozlanadi?",
+   "a": [
+    "Transitions — After: 5 soniya",
+    "Har bir slaydga 5 soniyalik video qo'yish",
+    "Slayd namunasida vaqtni matn bilan yozish",
+    "Barcha animatsiyalarni o'chirib qo'yish"
+   ],
+   "e": "Avtomatik namoyish."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Excel'da bir ustundagi qiymatlar 2 ta o'nlik raqam bilan ko'rsatilishi kerak. Qanday bajariladi?",
+   "a": [
+    "Katak formati — Sonli, 2 xona",
+    "Har bir songa qo'lda \",00\" yozib chiqish",
+    "Ustun kengligini kamaytirish",
+    "Shrift turini o'zgartirish"
+   ],
+   "e": "Format Cells — Number."
+  },
+  {
+   "b": "Amaliy vaziyatlar",
+   "q": "Hujjatni uchinchi shaxslar ochmasligi uchun nima qilinadi?",
+   "a": [
+    "Hujjat parol bilan shifrlanadi",
+    "Hujjat nomi o'zgartiriladi",
+    "Hujjat ish stoliga qo'yiladi",
+    "Hujjat shriftini kichraytiriladi"
+   ],
+   "e": "Fayl — Ma'lumot — Parol bilan shifrlash."
+  }
+ ],
+ "kalit": "raqamli axborot kompyuter operatori office word excel powerpoint multimedia ofis"
+}
