@@ -1,0 +1,1273 @@
+{
+ "kod": "5PM1041",
+ "nomi": "Yo‘l harakati qoidalari va harakat xavfsizligi",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (10 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Yo'l harakati qatnashchilariga kimlar kiradi?",
+   "a": [
+    "Haydovchilar, piyodalar va yo'lovchilar",
+    "Faqat transport vositalarini boshqaruvchi haydovchilar",
+    "Faqat yo'l harakati xavfsizligi xizmati xodimlari",
+    "Faqat yo'l quruvchi tashkilotlar xodimlari"
+   ],
+   "e": "Harakat jarayonida bevosita ishtirok etuvchi shaxslar."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "O'zbekistonda transport vositalari harakati yo'lning qaysi tomonida tashkil etilgan?",
+   "a": [
+    "O'ng tomonida",
+    "Chap tomonida",
+    "Yo'l o'rtasida",
+    "Haydovchi tanlagan tomonda"
+   ],
+   "e": "O'ng tomonlama harakat."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "\"Haydovchi\" deb kimga aytiladi?",
+   "a": [
+    "Transport vositasini boshqarayotgan shaxsga",
+    "Faqat yo'lovchi tashuvchi avtobus egasiga",
+    "Transport vositasida o'tirgan har qanday shaxsga",
+    "Faqat avtomaktab o'qituvchisiga"
+   ],
+   "e": "Haydovchilikka o'rgatuvchi instruktor ham haydovchi hisoblanadi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "\"Piyoda\" deb kimga aytiladi?",
+   "a": [
+    "Transport vositasidan tashqaridagi shaxsga",
+    "Faqat yo'lak bo'ylab yugurayotgan sportchiga",
+    "Transport vositasida o'tirgan yo'lovchiga",
+    "Velosipedda harakatlanayotgan shaxsga"
+   ],
+   "e": "Nogironlar aravachasidagi shaxs ham piyodaga tenglashtiriladi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Velosipedni yetaklab borayotgan shaxs qaysi qatnashchiga tenglashtiriladi?",
+   "a": [
+    "Piyodaga",
+    "Haydovchiga",
+    "Yo'lovchiga",
+    "Tartibga soluvchiga"
+   ],
+   "e": "Mopedni yetaklab borayotgan shaxs ham."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "\"Qatnov qismi\" nima?",
+   "a": [
+    "Relssiz transport harakatlanadigan qism",
+    "Piyodalar harakatlanishi uchun mo'ljallangan yo'lak",
+    "Yo'l chetidagi o'tloq va ariq",
+    "Faqat tramvay relslari joylashgan qism"
+   ],
+   "e": "Yo'l bir nechta qatnov qismiga ega bo'lishi mumkin."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "\"Yo'l yoqasi\" nima uchun mo'ljallangan?",
+   "a": [
+    "To'xtash va ayrim hollarda harakatlanish uchun",
+    "Asosiy transport oqimining doimiy harakati uchun",
+    "Faqat yuk mashinalarini quvib o'tish uchun",
+    "Faqat temir yo'l transporti uchun"
+   ],
+   "e": "Qatnov qismiga tutashgan qism."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "\"Chorraha\" nima?",
+   "a": [
+    "Yo'llar bir sathda kesishgan joy",
+    "Ko'p qavatli transport ayirmasi (estakada)",
+    "Yo'l chetidagi avtoturargoh",
+    "Piyodalar yer osti o'tish joyi"
+   ],
+   "e": "Hovlilardan chiqish joylari chorraha hisoblanmaydi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "\"Majburiy to'xtash\" nima?",
+   "a": [
+    "Texnik nosozlik yoki xavf tufayli harakatni to'xtatish",
+    "Haydovchining dam olish uchun xohlagan joyda to'xtashi",
+    "Yo'lovchilarni tushirish uchun to'xtash",
+    "Svetoforning yashil chirog'ida to'xtash"
+   ],
+   "e": "Avariya ishorasi yoqiladi, belgi qo'yiladi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "\"To'xtab turish\" (stoyanka) \"to'xtash\"dan nimasi bilan farq qiladi?",
+   "a": [
+    "Davomiyligi 5 daqiqadan ortiq",
+    "Faqat tunda bajarilishi bilan",
+    "Faqat yuk ortish uchun mo'ljallanganligi bilan",
+    "Hech qanday farqi yo'q"
+   ],
+   "e": "Yo'lovchilarni chiqarish va yuk ortish bundan mustasno."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Yo'l harakati xavfsizligining asosiy omillari qaysilar?",
+   "a": [
+    "Haydovchi, transport vositasi, yo'l va muhit",
+    "Faqat transport vositasining narxi va markasi",
+    "Faqat yo'l belgilarining rangi",
+    "Faqat haydovchining yoshi"
+   ],
+   "e": "\"Haydovchi–avtomobil–yo'l–muhit\" tizimi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Yo'l-transport hodisalarining eng ko'p sababi nima?",
+   "a": [
+    "Inson omili (haydovchi xatosi)",
+    "Faqat ob-havo sharoiti",
+    "Faqat yo'l qoplamasining sifati",
+    "Faqat transport vositasi rangi"
+   ],
+   "e": "Tezlikni oshirish, chalg'ish, mastlik."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Yo'l harakati sohasidagi asosiy qonun qaysi?",
+   "a": [
+    "\"Yo'l harakati xavfsizligi to'g'risida\"gi Qonun",
+    "\"Avtomobil transporti to'g'risida\"gi Qonun",
+    "\"Ta'lim to'g'risida\"gi Qonun",
+    "Soliq kodeksi"
+   ],
+   "e": "Yo'l harakati qoidalari Vazirlar Mahkamasi qarori bilan tasdiqlanadi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Yo'l harakati qoidalarini buzganlik uchun ma'muriy javobgarlik qaysi hujjatda belgilangan?",
+   "a": [
+    "Ma'muriy javobgarlik to'g'risidagi kodeks",
+    "Fuqarolik kodeksining majburiyatlar bo'limi",
+    "Oila kodeksi",
+    "Bojxona kodeksi"
+   ],
+   "e": "Jinoiy javobgarlik — Jinoyat kodeksida."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Ma'muriy jazo turlariga qaysilar kiradi?",
+   "a": [
+    "Jarima, huquqdan mahrum qilish va boshqalar",
+    "Faqat og'zaki tanbeh va maslahat",
+    "Faqat transport vositasini yuvish majburiyati",
+    "Faqat mukofot berish"
+   ],
+   "e": "Ogohlantirish ham bor."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Haydovchi o'zi bilan qaysi hujjatlarni olib yurishi shart?",
+   "a": [
+    "Haydovchilik va qayd etish guvohnomasi",
+    "Faqat pasport va diplom",
+    "Faqat tibbiy karta",
+    "Faqat ish joyidan ma'lumotnoma"
+   ],
+   "e": "Majburiy sug'urta polisi ham talab qilinadi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Haydovchiga transport vositasini mast holda boshqarish mumkinmi?",
+   "a": [
+    "Yo'q, qat'iyan taqiqlanadi",
+    "Ha, agar kam ichgan bo'lsa",
+    "Faqat tunda mumkin",
+    "Faqat qishloq yo'llarida mumkin"
+   ],
+   "e": "Og'ir ma'muriy va jinoiy javobgarlik."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Charchagan yoki kasal holatda transport vositasini boshqarish qanday baholanadi?",
+   "a": [
+    "Taqiqlanadi",
+    "Ruxsat etiladi, faqat musiqa yoqish kerak",
+    "Faqat qisqa masofada ruxsat",
+    "Ahamiyati yo'q"
+   ],
+   "e": "Diqqat va reaksiya vaqti yomonlashadi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Harakat vaqtida qo'lda ushlab telefonda gaplashish mumkinmi?",
+   "a": [
+    "Yo'q, faqat \"qo'llar bo'sh\" qurilmasi bilan",
+    "Ha, istalgan holatda mumkin",
+    "Faqat svetoforda turganda emas, harakatda mumkin",
+    "Faqat tunda mumkin"
+   ],
+   "e": "Chalg'ish — YTH sababi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Xavfsizlik kamari kimlar tomonidan taqilishi kerak?",
+   "a": [
+    "Haydovchi va yo'lovchilar",
+    "Faqat old o'rindiqdagi yo'lovchi",
+    "Faqat uzoq safarda haydovchi",
+    "Hech kim, ixtiyoriy"
+   ],
+   "e": "Bolalar uchun maxsus vositalar."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Kichik yoshdagi bolalarni avtomobilda tashishda nima talab qilinadi?",
+   "a": [
+    "Yoshga mos bolalar o'rindig'i",
+    "Bolani kattalar qo'lida ushlab o'tirishi kifoya",
+    "Bolani yukxonada tashish",
+    "Hech qanday talab yo'q"
+   ],
+   "e": "Old o'rindiqda tashish cheklangan."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Mototsikl haydovchisi va yo'lovchisi nima taqishi shart?",
+   "a": [
+    "Bog'langan mototsikl shlemini",
+    "Faqat quyoshdan himoya ko'zoynagini",
+    "Faqat charm qo'lqop va kurtkani",
+    "Hech qanday himoya vositasini"
+   ],
+   "e": "Bosh jarohatlarining oldini oladi."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Tartibga soluvchi (regulirovshik) va svetofor ishorasi zid bo'lsa, kimga bo'ysuniladi?",
+   "a": [
+    "Tartibga soluvchiga",
+    "Svetoforga",
+    "Yo'l belgilariga",
+    "Haydovchi o'zi tanlaydi"
+   ],
+   "e": "Tartibga soluvchi ishoralari ustuvor."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Svetofor ishorasi va ustuvorlik belgisi zid bo'lsa, qaysi biriga amal qilinadi?",
+   "a": [
+    "Svetoforga",
+    "Ustuvorlik belgisiga",
+    "Yo'l chizig'iga",
+    "Hech biriga"
+   ],
+   "e": "Svetofor ishlamasa — belgilarga."
+  },
+  {
+   "b": "Umumiy qoidalar",
+   "q": "Maxsus ovozli va yorug'lik ishorasi yoqilgan transport vositasiga nisbatan haydovchi nima qilishi kerak?",
+   "a": [
+    "Yo'l berishi kerak",
+    "Uni quvib o'tishga harakat qilishi kerak",
+    "Tezlikni oshirib, oldiga tushishi kerak",
+    "E'tibor bermasligi kerak"
+   ],
+   "e": "Tez yordam, o't o'chirish, IIV avtomobillari."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Ogohlantiruvchi belgilar odatda qanday shaklda bo'ladi?",
+   "a": [
+    "Qizil hoshiyali uchburchak",
+    "Ko'k fonli doira, oq ramzli",
+    "Ko'k fonli to'rtburchak, oq yozuvli",
+    "Qizil fonli sakkizburchak"
+   ],
+   "e": "Xavfli yo'l qismiga yaqinlashish haqida xabar beradi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Taqiqlovchi belgilar odatda qanday shaklda bo'ladi?",
+   "a": [
+    "Qizil hoshiyali doira",
+    "Qizil hoshiyali uchburchak, burchagi yuqoriga qaragan",
+    "Ko'k fonli to'rtburchak",
+    "Sariq romb"
+   ],
+   "e": "Harakatga cheklov kiritadi yoki bekor qiladi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Buyuruvchi belgilar odatda qanday ko'rinishda?",
+   "a": [
+    "Ko'k doira, oq ramz",
+    "Qizil hoshiyali oq uchburchak",
+    "Sariq fonli to'rtburchak",
+    "Qora fonli romb"
+   ],
+   "e": "Masalan, \"To'g'riga harakatlanish\"."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "\"Bosh yo'l\" belgisi qanday ko'rinishda?",
+   "a": [
+    "Oq hoshiyali sariq romb",
+    "Qizil hoshiyali teskari uchburchak",
+    "Qizil sakkizburchak",
+    "Ko'k doira"
+   ],
+   "e": "Ustuvorlik belgisi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "\"Yo'l bering\" belgisi qanday ko'rinishda?",
+   "a": [
+    "Uchi pastga qaragan uchburchak",
+    "Oq hoshiyali sariq romb",
+    "Ko'k fonli kvadrat",
+    "Qizil hoshiyali doira, ichida strelka"
+   ],
+   "e": "Kesib o'tilayotgan yo'ldagilarga yo'l berish majburiyati."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "\"To'xtamasdan harakatlanish taqiqlangan\" (STOP) belgisi qanday shaklda?",
+   "a": [
+    "Qizil sakkizburchak",
+    "Sariq romb",
+    "Ko'k to'rtburchak",
+    "Qizil hoshiyali uchburchak"
+   ],
+   "e": "To'xtash chizig'i oldida, u bo'lmasa — belgi oldida to'xtash shart."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Axborot-ishora belgilari qanday vazifani bajaradi?",
+   "a": [
+    "Rejim va obyektlar haqida xabar beradi",
+    "Faqat xavfli yo'l qismi haqida ogohlantiradi",
+    "Faqat harakatni taqiqlaydi",
+    "Faqat tezlikni oshirishni buyuradi"
+   ],
+   "e": "Masalan, \"Piyodalar o'tish joyi\", \"Avtomagistral\"."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Qo'shimcha axborot belgilari (lavhachalar) nima uchun ishlatiladi?",
+   "a": [
+    "Asosiy belgini aniqlashtirish uchun",
+    "Asosiy belgini butunlay bekor qilish uchun",
+    "Faqat reklama joylashtirish uchun",
+    "Faqat yo'l nomini yozish uchun"
+   ],
+   "e": "Masofa, vaqt, transport turi va boshqalar."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Vaqtinchalik (sariq fonli) belgi va doimiy belgi ma'nosi zid bo'lsa, qaysi biriga amal qilinadi?",
+   "a": [
+    "Vaqtinchalik belgiga",
+    "Doimiy belgiga",
+    "Ikkalasiga ham amal qilinmaydi",
+    "Haydovchi o'zi tanlaydi"
+   ],
+   "e": "Masalan, ta'mirlash ishlari joyida."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Svetoforning qizil ishorasi nimani bildiradi?",
+   "a": [
+    "Harakatni taqiqlaydi",
+    "Harakatni ehtiyotkorlik bilan ruxsat etadi",
+    "Faqat o'ngga burilishga ruxsat beradi",
+    "Tezlikni oshirishni buyuradi"
+   ],
+   "e": "Qizil miltillovchi ham taqiqlaydi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Svetoforning yashil miltillovchi ishorasi nimani bildiradi?",
+   "a": [
+    "Ruxsat vaqti tugayotganini",
+    "Harakat butunlay taqiqlanganini",
+    "Svetofor ishdan chiqqanini",
+    "Faqat piyodalar harakatiga ruxsatni"
+   ],
+   "e": "Tez orada taqiqlovchi ishora yonadi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Svetoforning sariq miltillovchi ishorasi nimani bildiradi?",
+   "a": [
+    "Tartibga solinmagan chorraha",
+    "Harakat to'liq taqiqlangan",
+    "Faqat jamoat transportiga ruxsat",
+    "Svetofor qizil rejimda ishlayapti"
+   ],
+   "e": "Ustuvorlik belgilariga amal qilinadi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Qizil va sariq ishoralar bir vaqtda yonsa nimani bildiradi?",
+   "a": [
+    "Taqiq, tez orada yashil yonadi",
+    "Harakatga darhol ruxsat beriladi",
+    "Svetofor nosoz",
+    "Faqat chapga burilishga ruxsat"
+   ],
+   "e": "Tayyorlanish signali."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Asosiy yashil ishorasi yonib turganda qo'shimcha seksiyadagi yashil strelka o'chiq bo'lsa nima bildiradi?",
+   "a": [
+    "Strelka yo'nalishida taqiq",
+    "Strelka yo'nalishida harakatga ruxsat",
+    "Svetofor nosozligi",
+    "Faqat tramvayga ruxsat"
+   ],
+   "e": "Qo'shimcha seksiya o'chiqligi taqiq hisoblanadi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Tartibga soluvchi qo'lini yuqoriga ko'targan ishora nimani bildiradi?",
+   "a": [
+    "Hammaga harakat taqiqlanadi",
+    "Barcha yo'nalishlarda harakatga ruxsat",
+    "Faqat piyodalarga ruxsat",
+    "Faqat o'ngga burilishga ruxsat"
+   ],
+   "e": "Chorrahaga kirganlar harakatni tugatadi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Gorizontal yo'l chizig'i 1.1 (yaxlit chiziq) ni kesib o'tish mumkinmi?",
+   "a": [
+    "Yo'q",
+    "Ha, istalgan holatda",
+    "Faqat quvib o'tishda",
+    "Faqat tunda"
+   ],
+   "e": "Qarama-qarshi oqimlarni ajratadi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Uzuq chiziq (1.5) qanday imkon beradi?",
+   "a": [
+    "Har ikki tomondan kesib o'tishga",
+    "Hech qaysi tomondan kesib o'tmaslikka",
+    "Faqat avtobuslarga kesib o'tishga",
+    "Faqat piyodalarga kesib o'tishga"
+   ],
+   "e": "Bo'laklarni ajratish uchun."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "Yaxlit chiziq yonida uzuq chiziq bo'lsa (1.11), kim kesib o'tishi mumkin?",
+   "a": [
+    "Uzuq chiziq tomonidagilar",
+    "Yaxlit chiziq tomonidagilar",
+    "Hech kim",
+    "Faqat yuk avtomobillari"
+   ],
+   "e": "Yaxlit tomondan kesib o'tish taqiqlanadi."
+  },
+  {
+   "b": "Yo'l belgilari va svetofor",
+   "q": "\"Zebra\" chizig'i (1.14) nimani bildiradi?",
+   "a": [
+    "Piyodalar o'tish joyini",
+    "Transport to'xtash joyini",
+    "Tramvay yo'lini",
+    "Velosiped yo'lagini"
+   ],
+   "e": "Piyodalarga yo'l berish majburiy."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Teng ahamiyatli yo'llar chorrahasida haydovchi kimga yo'l berishi kerak?",
+   "a": [
+    "O'ng tomondan yaqinlashayotganlarga",
+    "Chap tomondan yaqinlashayotganlarga",
+    "Hech kimga",
+    "Faqat yuk avtomobillariga"
+   ],
+   "e": "\"O'ng qo'l qoidasi\"."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Teng ahamiyatli yo'llar chorrahasida tramvay relssiz transportga nisbatan qanday ustuvorlikka ega?",
+   "a": [
+    "Har doim ustuvor",
+    "Har doim yo'l berishi kerak",
+    "Faqat chapdan kelsa ustuvor",
+    "Ustuvorligi yo'q"
+   ],
+   "e": "Relssiz transport yo'l beradi."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Chapga burilayotgan haydovchi qarshi tomondan kelayotgan qaysi transportga yo'l beradi?",
+   "a": [
+    "To'g'riga va o'ngga yurganlarga",
+    "Hech qaysisiga, u ustuvor",
+    "Faqat chapga burilayotganlarga",
+    "Faqat to'xtab turganlarga"
+   ],
+   "e": "Tartibga solingan chorrahada ham."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "O'ngga yoki chapga burilishda haydovchi kimlarga yo'l berishi kerak?",
+   "a": [
+    "Piyodalarga",
+    "Faqat avtobuslarga",
+    "Hech kimga",
+    "Faqat o'zidan orqadagi transportga"
+   ],
+   "e": "Velosipedchilarga ham."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Hovli hududidan yo'lga chiqayotgan haydovchi kimga yo'l berishi kerak?",
+   "a": [
+    "Barcha qatnashchilarga",
+    "Faqat piyodalarga",
+    "Faqat tramvayga",
+    "Hech kimga"
+   ],
+   "e": "Yo'ldoshlardan chiqishda ham shunday."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Bosh yo'lda harakatlanayotgan haydovchi ikkinchi darajali yo'ldagiga nisbatan qanday?",
+   "a": [
+    "Ustuvor",
+    "Yo'l berishi shart",
+    "Ustuvorlik tasodifiy",
+    "Har doim to'xtashi kerak"
+   ],
+   "e": "Ikkinchi darajali yo'ldagilar yo'l beradi."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Svetofor yashil ishorasida chorrahaga kirib bo'lmaydigan tirbandlik bo'lsa nima qilish kerak?",
+   "a": [
+    "Chorrahaga chiqmaslik",
+    "Chorrahaga kirib, o'rtada to'xtash",
+    "Ovozli signal bilan oldinga siljish",
+    "Yo'l yoqasidan aylanib o'tish"
+   ],
+   "e": "Ko'ndalang harakatga to'sqinlik qilmaslik uchun."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Aylanma harakatli chorrahada (tegishli belgi bo'lsa) kim ustuvor bo'ladi?",
+   "a": [
+    "Aylana bo'ylab harakatlanayotganlar",
+    "Aylanaga endi kirib kelayotgan transport vositalari",
+    "Faqat yuk avtomobillari va avtobuslar",
+    "Hech kim, hammasi teng huquqli"
+   ],
+   "e": "\"Yo'l bering\" belgisi bilan birga bo'lganda."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Piyodalar o'tish joyiga yaqinlashganda unda piyoda bo'lsa haydovchi nima qiladi?",
+   "a": [
+    "Yo'l beradi",
+    "Ovozli signal berib, o'tib ketadi",
+    "Tezlikni oshirib, tez o'tib ketadi",
+    "Piyodani aylanib o'tadi"
+   ],
+   "e": "Tartibga solinmagan o'tish joyida."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Bolalarni olib ketayotgan maxsus belgili avtobus to'xtaganda haydovchi nima qiladi?",
+   "a": [
+    "Tezlikni kamaytiradi",
+    "Tezlikni oshirib o'tib ketadi",
+    "Ovozli signal beradi",
+    "Avtobusni o'ng tomondan quvib o'tadi"
+   ],
+   "e": "Bolalar to'satdan chiqishi mumkin."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Temir yo'l kesishmasiga poyezd yaqinlashayotgan bo'lsa haydovchi nima qiladi?",
+   "a": [
+    "To'xtash chizig'i oldida to'xtaydi",
+    "Tezlikni oshirib, poyezddan oldin o'tib ketadi",
+    "Ovozli signal berib, kesishmaga kiradi",
+    "Kesishmada to'xtab kutadi"
+   ],
+   "e": "Belgi va svetoforga amal qilinadi."
+  },
+  {
+   "b": "Chorrahalar va ustuvorlik",
+   "q": "Temir yo'l kesishmasida transport vositasi majburan to'xtab qolsa nima qilish kerak?",
+   "a": [
+    "Kesishmani bo'shatish choralarini ko'radi",
+    "Avtomobilda o'tirib kutish",
+    "Hech narsa qilmaslik",
+    "Faqat avariya ishorasini yoqib, ketib qolish"
+   ],
+   "e": "Poyezdga to'xtash ishorasi beriladi."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Harakatni boshlash, qayta tizilish yoki burilishdan oldin haydovchi nima qilishi kerak?",
+   "a": [
+    "Ishora berib, xavfsizlikka ishonch hosil qilish",
+    "Faqat ovozli signal berib, darhol manyovrni bajarishi",
+    "Tezlikni keskin oshirib, oldinga chiqib olishi",
+    "Hech qanday ishora bermasdan, tez harakat qilishi"
+   ],
+   "e": "Ishora manyovr tugagach o'chiriladi."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Burilish ko'rsatkichi nosoz bo'lsa ishorani qanday berish mumkin?",
+   "a": [
+    "Qo'l bilan",
+    "Faqat ovozli signal bilan",
+    "Faqat fara bilan miltillatib",
+    "Ishora berish shart emas"
+   ],
+   "e": "Chap qo'l yon tomonga cho'zilgan — chapga burilish."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "O'ngga burilishdan oldin transport vositasi qayerda bo'lishi kerak?",
+   "a": [
+    "Qatnov qismining o'ng chetiga yaqin",
+    "Qatnov qismining chap chetida",
+    "Yo'l o'rtasida",
+    "Qarama-qarshi harakat bo'lagida"
+   ],
+   "e": "Burilishdan oldin tegishli chetki holatni egallash."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Qayrilib olish (razvorot) qayerlarda taqiqlanadi?",
+   "a": [
+    "Piyodalar o'tish joyi, tunnel, ko'prikda",
+    "Faqat keng va ko'rinishi yaxshi yo'lda",
+    "Faqat chorrahada, ruxsat etilgan joyda",
+    "Hech qayerda taqiqlanmaydi"
+   ],
+   "e": "Temir yo'l kesishmasida va ko'rinish cheklangan joyda ham."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Orqaga harakatlanish qayerlarda taqiqlanadi?",
+   "a": [
+    "Chorrahada va piyodalar o'tish joyida",
+    "Faqat hovli hududida",
+    "Faqat avtoturargohda",
+    "Hech qayerda"
+   ],
+   "e": "Tunnel, ko'prik, temir yo'l kesishmasida ham."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Quvib o'tish deb nimaga aytiladi?",
+   "a": [
+    "Qarama-qarshi bo'lakka chiqib, oldindagini o'tib ketish",
+    "Bir bo'lakda turib, oldindagi bilan yonma-yon yurish",
+    "Svetoforda birinchi bo'lib harakatlanish",
+    "To'xtab turgan transportni o'ng tomondan aylanib o'tish"
+   ],
+   "e": "Ilgarilab ketish — o'z bo'lagida o'tib ketish."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Quvib o'tish qayerlarda taqiqlanadi?",
+   "a": [
+    "O'tish joylari va temir yo'l kesishmalarida",
+    "Faqat bo'sh, to'g'ri va keng yo'lda",
+    "Faqat kunduzi, yaxshi ko'rinishda",
+    "Hech qayerda taqiqlanmaydi"
+   ],
+   "e": "Tartibga solingan chorrahalar va cheklangan ko'rinishda ham."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Quvib o'tilayotgan transport vositasi haydovchisi nima qilmasligi kerak?",
+   "a": [
+    "Tezlikni oshirish yoki to'sqinlik qilish",
+    "O'z bo'lagida harakatni davom ettirish",
+    "O'ng tomonga biroz surilish",
+    "Tezlikni saqlash"
+   ],
+   "e": "Quvib o'tishga yordam berish kerak."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Oldindagi transport chapga burilish ishorasini bergan bo'lsa, uni chap tomondan quvib o'tish mumkinmi?",
+   "a": [
+    "Yo'q",
+    "Ha, tezroq o'tib ketish kerak",
+    "Faqat ovozli signal bergandan keyin",
+    "Faqat tunda"
+   ],
+   "e": "Uni o'ng tomondan aylanib o'tish mumkin (sharoit bo'lsa)."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Qarama-qarshi harakatlanish qiyin bo'lgan joyda (to'siq bo'lsa) kim yo'l beradi?",
+   "a": [
+    "To'siq o'z tomonida bo'lgan haydovchi",
+    "To'siq bo'lmagan tomondagi haydovchi",
+    "Tezroq harakatlanayotgan haydovchi",
+    "Kattaroq avtomobil haydovchisi"
+   ],
+   "e": "Qiyalikda pastga tushayotgan yo'l beradi (belgi bo'lsa)."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Avariya to'xtash belgisi aholi punktida transport vositasidan kamida qancha masofaga qo'yiladi?",
+   "a": [
+    "15 m",
+    "5 m",
+    "50 m",
+    "100 m"
+   ],
+   "e": "Aholi punktidan tashqarida — kamida 30 m."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Avariya to'xtash belgisi aholi punktidan tashqarida kamida qancha masofaga qo'yiladi?",
+   "a": [
+    "30 m",
+    "15 m",
+    "5 m",
+    "150 m"
+   ],
+   "e": "Ko'rinishni ta'minlash uchun."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Avariya yorug'lik ishorasi qachon yoqilishi shart?",
+   "a": [
+    "YTH yoki majburiy to'xtashda",
+    "Avtomobil yuvilayotganda",
+    "Har bir chorrahada burilishdan oldin",
+    "Faqat quyoshli kunda"
+   ],
+   "e": "Shatakka olinganda ham."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Transport vositasini to'xtatish qayerlarda taqiqlanadi?",
+   "a": [
+    "O'tish joyida va temir yo'l kesishmasida",
+    "Maxsus belgilangan to'xtash joylarida",
+    "Yo'l yoqasida, harakatga xalaqit bermay",
+    "Avtoturargohlarda"
+   ],
+   "e": "Tunnel va ko'priklarda ham."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Transport vositasini to'xtatib, undan chiqib ketishdan oldin haydovchi nima qilishi kerak?",
+   "a": [
+    "O'z-o'zidan harakatlanishining oldini olish",
+    "Dvigatelni ishlab turgan holda qoldirish",
+    "Eshiklarni ochiq qoldirish",
+    "Kalitni o'tirgichda qoldirish"
+   ],
+   "e": "To'xtash tormozi, uzatma."
+  },
+  {
+   "b": "Manyovr va harakatlanish",
+   "q": "Eshikni ochishdan oldin nimaga ishonch hosil qilish kerak?",
+   "a": [
+    "Boshqa qatnashchilarga xavf yo'qligiga",
+    "Avtomobil toza ekaniga",
+    "Radioning o'chiq ekaniga",
+    "Yoqilg'i yetarli ekaniga"
+   ],
+   "e": "Velosipedchilar va o'tib ketayotgan transport."
+  },
+  {
+   "b": "Tashqi yoritish",
+   "q": "Qorong'i vaqtda harakatlanganda qaysi chiroqlar yoqilishi kerak?",
+   "a": [
+    "Yaqin yoki uzoq chiroqlar",
+    "Faqat avariya ishorasi",
+    "Faqat salon chirog'i",
+    "Hech qanday chiroq"
+   ],
+   "e": "Tirkamada gabarit chiroqlar ham."
+  },
+  {
+   "b": "Tashqi yoritish",
+   "q": "Qarama-qarshi transport bilan kamida qancha masofada uzoq chiroq yaqin chiroqqa almashtiriladi?",
+   "a": [
+    "150 m",
+    "10 m",
+    "50 m",
+    "1 km"
+   ],
+   "e": "Ko'zni qamashtirmaslik uchun."
+  },
+  {
+   "b": "Tashqi yoritish",
+   "q": "Ko'z qamashganda haydovchi nima qilishi kerak?",
+   "a": [
+    "Avariya ishorasini yoqib, sekinlashib to'xtash",
+    "Tezlikni oshirib, tezroq o'tib ketishi",
+    "Darhol chap bo'lakka o'tishi",
+    "Ko'zini yumib harakatni davom ettirishi"
+   ],
+   "e": "Xavfsiz to'xtash."
+  },
+  {
+   "b": "Tashqi yoritish",
+   "q": "Tumanga qarshi chiroqlar qachon yoqiladi?",
+   "a": [
+    "Ko'rinish yomonlashganda",
+    "Faqat quyoshli kunda",
+    "Faqat avtomobil to'xtab turganda",
+    "Hech qachon"
+   ],
+   "e": "Yaqin yoki uzoq chiroq bilan birga."
+  },
+  {
+   "b": "Tashqi yoritish",
+   "q": "Sizni boshqa avtomobil quvib o'tayotganda, uzoq chiroq yoniq bo'lsa nima qilish kerak?",
+   "a": [
+    "Uzoq chiroqni yaqinga almashtirish",
+    "Uzoq chiroqni yoqib, signal berish",
+    "Faralarni butunlay o'chirish",
+    "Avariya ishorasini yoqish"
+   ],
+   "e": "Ko'zgularda aks etadi."
+  },
+  {
+   "b": "Tashqi yoritish",
+   "q": "Tunnelda yoritilgan bo'lsa ham qaysi chiroq yoqiladi?",
+   "a": [
+    "Yaqin chiroq",
+    "Faqat avariya ishorasi",
+    "Faqat salon chirog'i",
+    "Hech qanday chiroq"
+   ],
+   "e": "Ko'rinish uchun."
+  },
+  {
+   "b": "Shatak va yuk tashish",
+   "q": "Shatakka olishda bikr ulagich ishlatilsa, tortib olinayotgan avtomobilda haydovchi bo'lishi shartmi?",
+   "a": [
+    "Bo'lmasligi mumkin",
+    "Har doim ikkita haydovchi bo'lishi shart",
+    "Faqat tunda bo'lishi shart",
+    "Hech qachon bo'lmasligi kerak"
+   ],
+   "e": "Egiluvchan ulagichda haydovchi albatta bo'ladi."
+  },
+  {
+   "b": "Shatak va yuk tashish",
+   "q": "Egiluvchan ulagich bilan shatakka olishda avtomobillar orasidagi masofa qancha bo'lishi kerak?",
+   "a": [
+    "4–6 m",
+    "0,5–1 m",
+    "10–15 m",
+    "20 m dan ko'p"
+   ],
+   "e": "Ulagich ogohlantiruvchi bayroqchalar bilan belgilanadi."
+  },
+  {
+   "b": "Shatak va yuk tashish",
+   "q": "Qaysi holatda egiluvchan ulagich bilan shatakka olish taqiqlanadi?",
+   "a": [
+    "Muzli yo'lda",
+    "Quruq asfaltda kunduzi",
+    "Aholi punktidan tashqarida yozda",
+    "Hovli hududida"
+   ],
+   "e": "Tormozlanish xavfli."
+  },
+  {
+   "b": "Shatak va yuk tashish",
+   "q": "Yuk transport vositasining ortiq chiqib turgan qismi qanday belgilanadi?",
+   "a": [
+    "Ogohlantiruvchi belgi yoki bayroqcha bilan",
+    "Faqat avtomobil rangiga moslab bo'yaladi",
+    "Hech qanday belgilanmaydi",
+    "Faqat ovozli signal bilan ogohlantiriladi"
+   ],
+   "e": "Qorong'ida yorug'lik qaytargich."
+  },
+  {
+   "b": "Shatak va yuk tashish",
+   "q": "Yuk qanday joylashtirilishi kerak?",
+   "a": [
+    "Ko'rinishni to'smaydigan va mustahkam",
+    "Faqat yukxona to'lgunicha, mahkamlamasdan",
+    "Raqam belgisini to'sib qo'yadigan qilib",
+    "Chiroqlarni yopib qo'yadigan qilib"
+   ],
+   "e": "Turg'unlikni buzmasligi kerak."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "To'xtash yo'li qanday tashkil etuvchilardan iborat?",
+   "a": [
+    "Reaksiya yo'li va tormozlanish yo'li",
+    "Faqat tormoz pedalini bosish vaqti",
+    "Faqat shinalar diametri va kengligi",
+    "Faqat dvigatel quvvati"
+   ],
+   "e": "Reaksiya vaqtida avtomobil oldingi tezlikda harakatlanadi."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Tezlik 2 marta oshsa, tormozlanish yo'li taxminan necha marta ortadi?",
+   "a": [
+    "4 marta",
+    "2 marta",
+    "O'zgarmaydi",
+    "8 marta"
+   ],
+   "e": "Tezlik kvadratiga proporsional."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Haydovchining o'rtacha reaksiya vaqti taxminan qancha?",
+   "a": [
+    "0,8–1 s",
+    "0,01 s",
+    "5–10 s",
+    "30 s"
+   ],
+   "e": "Charchoq va alkogol uni oshiradi."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "72 km/soat tezlikda 1 s reaksiya vaqtida avtomobil qancha yo'l bosadi?",
+   "a": [
+    "20 m",
+    "7,2 m",
+    "72 m",
+    "2 m"
+   ],
+   "e": "72 km/soat = 20 m/s."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Muzli yo'lda tormozlanish yo'li quruq asfaltga nisbatan qanday?",
+   "a": [
+    "Bir necha marta uzayadi",
+    "Qisqaradi",
+    "O'zgarmaydi",
+    "Nolga teng bo'ladi"
+   ],
+   "e": "Ilashish koeffitsiyenti past."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Oldindagi transport vositasigacha xavfsiz masofa qanday tanlanadi?",
+   "a": [
+    "To'qnashuvsiz to'xtashga yetadigan qilib",
+    "Iloji boricha yaqin, 1 m atrofida",
+    "Faqat yuk avtomobillari uchun belgilanadi",
+    "Masofa ahamiyatsiz"
+   ],
+   "e": "\"Ikki soniya\" qoidasi amaliy yo'l-yo'riq."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "\"Ikki soniya qoidasi\" nimani anglatadi?",
+   "a": [
+    "Kamida 2 soniyalik oraliq saqlash",
+    "Har ikki soniyada tormoz bosish",
+    "Svetoforda ikki soniya kutish",
+    "Ikki soniya ichida quvib o'tish"
+   ],
+   "e": "Yomon ob-havoda oraliq oshiriladi."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Akvaplanirovaniye (suvda sirpanish) qachon yuzaga keladi?",
+   "a": [
+    "Ho'l yo'lda yuqori tezlikda",
+    "Quruq yo'lda past tezlikda",
+    "Faqat qishda qorda",
+    "To'xtab turgan avtomobilda"
+   ],
+   "e": "Shina va yo'l orasida suv qatlami hosil bo'ladi."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Akvaplanirovaniye boshlansa nima qilish kerak?",
+   "a": [
+    "Gazni qo'yib, rulni to'g'ri ushlash",
+    "Tormozni keskin bosish",
+    "Rulni keskin burish",
+    "Tezlikni oshirish"
+   ],
+   "e": "Ravon sekinlashish."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Avtomobil sirpanib ketsa (orqa o'qda), rulni qaysi tomonga burish kerak?",
+   "a": [
+    "Sirpanish tomoniga",
+    "Sirpanishga qarama-qarshi tomonga keskin",
+    "Rulni qo'yib yuborish kerak",
+    "Rulni harakatsiz ushlash kerak"
+   ],
+   "e": "Va gazni ravon kamaytirish."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "ABS tizimining vazifasi nima?",
+   "a": [
+    "G'ildiraklarni bloklanishdan saqlash",
+    "Dvigatel quvvatini oshirish",
+    "Yoqilg'ini tejash",
+    "Avtomobilni avtomatik boshqarish"
+   ],
+   "e": "Boshqaruvchanlik saqlanadi."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Tumanda harakatlanishda nima qilish kerak?",
+   "a": [
+    "Tezlikni kamaytirish, yaqin chiroqni yoqish",
+    "Uzoq chiroqni yoqib, tezlikni oshirish",
+    "Faralarni o'chirib, faqat gabaritlar bilan yurish",
+    "Avariya ishorasini yoqib, tezlikni saqlash"
+   ],
+   "e": "Uzoq chiroq tumanda aks etib ko'rinishni yomonlashtiradi."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Tunda harakatlanishning asosiy xavfi nima?",
+   "a": [
+    "Ko'rinish masofasining qisqarishi",
+    "Yo'l qoplamasining kengayishi",
+    "Yo'lda transport ko'payishi har doim",
+    "Yoqilg'i sarfi oshishi"
+   ],
+   "e": "Charchoq ham ortadi."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Qishda avtomobilni qanday tayyorlash kerak?",
+   "a": [
+    "Qishki shinalar va texnik ko'rik",
+    "Shinalardan havoni chiqarib qo'yish",
+    "Tormoz suyuqligini to'kib tashlash",
+    "Akkumulyatorni olib qo'yish"
+   ],
+   "e": "Sovutish suyuqligi muzlamaydigan bo'lishi kerak."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Tog' yo'lidan uzoq pastga tushishda qanday usul tavsiya etiladi?",
+   "a": [
+    "Dvigatel bilan tormozlash (past uzatmada)",
+    "Neytral uzatmada tushish",
+    "Dvigatelni o'chirib tushish",
+    "Faqat ishchi tormozni uzluksiz bosib turish"
+   ],
+   "e": "Tormozlar qizib ketmasligi uchun."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Piyodalar o'tish joyi oldida to'xtagan avtomobilni quvib o'tish mumkinmi?",
+   "a": [
+    "Yo'q",
+    "Ha, tezroq o'tish kerak",
+    "Faqat ovozli signal bilan",
+    "Faqat tunda"
+   ],
+   "e": "Uning orqasidan piyoda chiqishi mumkin."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Avtobus bekatida to'xtagan avtobus yonidan o'tishda qanday xavf bor?",
+   "a": [
+    "Avtobus oldidan piyoda chiqib qolishi",
+    "Avtobusning to'satdan orqaga harakatlanishi",
+    "Avtobus eshiklarining yopilmay qolishi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Tezlikni kamaytirish kerak."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Yo'l bo'yida bolalarni ko'rganda haydovchi nima qilishi kerak?",
+   "a": [
+    "Tezlikni kamaytirib, ehtiyot bo'lishi",
+    "Ovozli signal berib, tezlikni oshirishi",
+    "Ularga e'tibor bermasligi",
+    "Faralarni miltillatib o'tib ketishi"
+   ],
+   "e": "Bolalar xatti-harakati oldindan aytib bo'lmaydi."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Velosipedchini quvib o'tishda nima muhim?",
+   "a": [
+    "Yon tomondan yetarli oraliq saqlash",
+    "Unga iloji boricha yaqin o'tish",
+    "Ovozli signal berib, uni yo'ldan chiqarish",
+    "Tezlikni keskin oshirish"
+   ],
+   "e": "Velosipedchi muvozanatni yo'qotishi mumkin."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Uzoq safarda charchoqning oldini olish uchun nima qilish kerak?",
+   "a": [
+    "Muntazam tanaffus qilish",
+    "Energetik ichimliklar ichib, to'xtamasdan yurish",
+    "Tezlikni oshirib, yo'lni qisqartirish",
+    "Musiqani baland qo'yish"
+   ],
+   "e": "Har 2–3 soatda dam olish tavsiya etiladi."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Tezlikni tanlashda haydovchi nimalarni hisobga olishi kerak?",
+   "a": [
+    "Yo'l, ob-havo va transport holatini",
+    "Faqat avtomobil spidometridagi eng katta qiymatni",
+    "Faqat yo'lovchilar istagini",
+    "Faqat yoqilg'i narxini"
+   ],
+   "e": "Belgilangan cheklovdan oshmagan holda."
+  },
+  {
+   "b": "Xavfsiz boshqarish",
+   "q": "Xavf paydo bo'lganda haydovchi birinchi navbatda nima qilishi kerak?",
+   "a": [
+    "Tezlikni kamaytirib to'xtash",
+    "Tezlikni oshirib, xavfdan uzoqlashish",
+    "Faqat ovozli signal berish",
+    "Rulni keskin burib, qarshi bo'lakka chiqish"
+   ],
+   "e": "YHQ talabi."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Qaysi nosozlikda transport vositasidan foydalanish taqiqlanadi?",
+   "a": [
+    "Ishchi tormoz tizimi nosoz bo'lsa",
+    "Radio ishlamasa",
+    "Salon gilami iflos bo'lsa",
+    "Avtomobil rangi o'chgan bo'lsa"
+   ],
+   "e": "Rul boshqaruvi nosozligi ham."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Ishchi tormoz tizimi yo'lda ishdan chiqsa haydovchi nima qiladi?",
+   "a": [
+    "To'xtaydi, harakatni davom ettirmaydi",
+    "Manzilga yetguncha yurishni davom ettiradi",
+    "Tezlikni oshiradi",
+    "Faqat avariya ishorasini yoqib davom etadi"
+   ],
+   "e": "Shatakka olish yoki evakuator."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Yengil avtomobil shinasi protektorining qoldiq chuqurligi kamida qancha bo'lishi kerak?",
+   "a": [
+    "1,6 mm",
+    "0,5 mm",
+    "5 mm",
+    "10 mm"
+   ],
+   "e": "Kam bo'lsa foydalanish taqiqlanadi."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Bir o'qqa turli o'lchamdagi yoki turli rusumdagi shinalar o'rnatish mumkinmi?",
+   "a": [
+    "Yo'q",
+    "Ha, istalgan holatda",
+    "Faqat qishda",
+    "Faqat orqa o'qqa"
+   ],
+   "e": "Boshqaruvchanlik buziladi."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Shinadagi havo bosimi me'yordan past bo'lsa nima yuz beradi?",
+   "a": [
+    "Boshqaruvchanlik yomonlashadi",
+    "Yoqilg'i sarfi keskin kamayadi",
+    "Tormoz yo'li qisqaradi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Muntazam tekshirish kerak."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Rul g'ildiragining erkin yurishi me'yordan oshsa nima qilish kerak?",
+   "a": [
+    "Nosozlikni bartaraf etish",
+    "Tezlikni oshirib yurish",
+    "Rulni qattiqroq ushlash kifoya",
+    "E'tibor bermaslik"
+   ],
+   "e": "Boshqaruv xavfli."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Tunda faralardan biri ishlamasa harakatlanish mumkinmi?",
+   "a": [
+    "Yo'q",
+    "Ha, bitta fara yetarli",
+    "Faqat shaharda mumkin",
+    "Faqat avtomagistralda mumkin"
+   ],
+   "e": "Nosozlik bartaraf etilishi kerak."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Shamol oynasi tozalagichi (dvornik) yomg'irda ishlamasa nima qilish kerak?",
+   "a": [
+    "Harakatni to'xtatish",
+    "Tezlikni oshirish",
+    "Oynani ochib haydash",
+    "Faqat tunda haydash"
+   ],
+   "e": "Ko'rinish ta'minlanmaydi."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Avtomobil aptechkasi, o't o'chirgich va avariya to'xtash belgisi nima uchun majburiy?",
+   "a": [
+    "Favqulodda vaziyat uchun",
+    "Faqat texnik ko'rikdan o'tish uchun",
+    "Faqat bezak uchun",
+    "Hech qanday zarurati yo'q"
+   ],
+   "e": "Yengil avtomobil jihozlanishi."
+  },
+  {
+   "b": "Texnik holat",
+   "q": "Texnik ko'rikning maqsadi nima?",
+   "a": [
+    "Xavfsizlik talablariga moslikni tekshirish",
+    "Avtomobilning bozor narxini aniqlash",
+    "Avtomobilni bo'yash",
+    "Haydovchini imtihondan o'tkazish"
+   ],
+   "e": "Davriy o'tkaziladi."
+  }
+ ]
+}
