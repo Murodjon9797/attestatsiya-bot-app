@@ -594,7 +594,7 @@
     "O'tirgan, oyoqlari pastda",
     "Boshi pastda, oyoqlari baland",
     "Qorin bilan yotgan",
-    "Boshi pastda"
+    "Qorin bilan, yuzi pastga"
    ],
    "e": "Venoz qaytishni kamaytirish."
   },
@@ -1268,6 +1268,2042 @@
     "Faqat bemor eslab qoladi"
    ],
    "e": "Xavfsizlik."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Yotoq yaralarining (dekubitus) oldini olishda asosiy chora qaysi?",
+   "a": [
+    "Har 2 soatda holatni o'zgartirish",
+    "Bemorni bir holatda uzoq yotqizish",
+    "Terini nam holda qoldirish",
+    "Choyshab burmalarini to'g'rilamaslik"
+   ],
+   "e": "Bosimni kamaytirish."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Yotoq yaralari ko'proq qaysi joylarda paydo bo'ladi?",
+   "a": [
+    "Dumg'aza, tovon, kurak",
+    "Kaft va barmoq uchlari",
+    "Yuz va peshona",
+    "Qorin o'rtasi"
+   ],
+   "e": "Suyak bo'rtiqlari."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Yotoq yarasi xavfini baholash shkalasi qaysi?",
+   "a": [
+    "Norton shkalasi",
+    "Glazgo shkalasi",
+    "Apgar shkalasi",
+    "Rixter shkalasi"
+   ],
+   "e": "Xavf darajasi."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Og'ir bemorning og'iz bo'shlig'iga ishlov berish nima uchun kerak?",
+   "a": [
+    "Stomatitning oldini olish",
+    "Ishtahani kamaytirish uchun",
+    "Nutqni yaxshilash uchun",
+    "Tishlarni oqartirish uchun"
+   ],
+   "e": "Shaxsiy gigiyena."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Isitmaning birinchi bosqichida (harorat ko'tarilishi) bemorga qanday parvarish kerak?",
+   "a": [
+    "Isitish",
+    "Sovuq kompress va yechintirish",
+    "Muzli xalta qo'yish",
+    "Sovuq suvda cho'miltirish"
+   ],
+   "e": "Qaltirash bosqichi."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Isitmaning ikkinchi bosqichida (yuqori harorat) qanday parvarish kerak?",
+   "a": [
+    "Sovituvchi choralar, ko'p ichimlik",
+    "Qalin adyol bilan isitish",
+    "Issiq grelka qo'yish",
+    "Suyuqlikni cheklash"
+   ],
+   "e": "Issiqlik berishni kuchaytirish."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Haroratning kritik pasayishida qanday xavf bor?",
+   "a": [
+    "Kollaps",
+    "Gipertonik kriz",
+    "Ishtaha ochilishi",
+    "Uyqusizlik"
+   ],
+   "e": "Shoshilinch kuzatuv."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Sovuq kompress qanday ta'sir qiladi?",
+   "a": [
+    "Tomirlarni toraytirib, shishni kamaytiradi",
+    "Qon tomirlarini kengaytiradi",
+    "Haroratni oshiradi",
+    "Qon ivishini sekinlashtiradi"
+   ],
+   "e": "Shikastlanishdan keyin."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Isituvchi kompress qanday qatlamlardan iborat?",
+   "a": [
+    "Nam mato, kleyonka, paxta, bint",
+    "Faqat quruq paxta",
+    "Faqat muz",
+    "Faqat yod to'ri"
+   ],
+   "e": "To'rt qavat."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Grelka qaysi holatda qo'llash qat'iyan man etiladi?",
+   "a": [
+    "O'tkir qorin og'rig'ida",
+    "Sovqotganda",
+    "Mushak spazmida",
+    "Bo'g'im og'rig'ining surunkali davrida"
+   ],
+   "e": "Yallig'lanishni kuchaytiradi."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Oksigenoterapiyada kislorod nima uchun namlantiriladi?",
+   "a": [
+    "Shilliq qavat qurimasligi uchun",
+    "Kislorodni sovitish uchun",
+    "Kislorod hajmini oshirish uchun",
+    "Kislorodni bo'yash uchun"
+   ],
+   "e": "Bobrov apparati."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Nebulayzer nima?",
+   "a": [
+    "Dorini aerozolga aylantiruvchi ingalyator",
+    "Qon bosimini o'lchovchi asbob",
+    "Haroratni o'lchovchi asbob",
+    "Qand miqdorini o'lchovchi asbob"
+   ],
+   "e": "Astma va bronxitda."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Me'dani yuvishda zondning uzunligi qanday aniqlanadi?",
+   "a": [
+    "Og'izdan quloq va kindikkacha",
+    "Bemorning bo'yiga teng",
+    "Har doim 10 sm",
+    "Taxminan, o'lchamay"
+   ],
+   "e": "To'g'ri joylashtirish."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Me'dani yuvish uchun qancha suv tayyorlanadi (kattalarda)?",
+   "a": [
+    "10 litrgacha",
+    "100 ml",
+    "500 ml",
+    "50 litr"
+   ],
+   "e": "Toza suv chiqquncha."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Bemorni zond orqali ovqatlantirishda ovqat qanday bo'lishi kerak?",
+   "a": [
+    "Suyuq va iliq",
+    "Qattiq va sovuq",
+    "Juda issiq",
+    "Quruq kukun"
+   ],
+   "e": "Enteral oziqlantirish."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Og'ir bemorni ovqatlantirishda qaysi holat to'g'ri?",
+   "a": [
+    "Yarim o'tirgan holat",
+    "Qorni bilan yotgan holat",
+    "Boshi pastda yotgan holat",
+    "Chalqancha, bosh tekis"
+   ],
+   "e": "Aspiratsiyaning oldini olish."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Fauler holati nima?",
+   "a": [
+    "Yarim o'tirgan holat",
+    "Qorin bilan yotish",
+    "Yon tomonda yotish",
+    "Boshi pastga egilgan holat"
+   ],
+   "e": "Nafas olishni yengillashtiradi."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Trendelenburg holati nima?",
+   "a": [
+    "Oyoq tomoni baland",
+    "Yarim o'tirgan holat",
+    "Yon tomonga yotish",
+    "Qorin bilan yotish"
+   ],
+   "e": "Shokda, qon ketishda."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Siydik qopi kateterizatsiyasida asosiy talab qaysi?",
+   "a": [
+    "Aseptikaga rioya",
+    "Kateterni yuvmasdan qayta ishlatish",
+    "Qo'lqopsiz bajarish",
+    "Tezroq, kuch bilan kiritish"
+   ],
+   "e": "Infeksiyaning oldini olish."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Venaga tomchilatib yuborishda (sistema) havo pufakchalari qachon chiqariladi?",
+   "a": [
+    "Bemorga ulashdan oldin",
+    "Bemorga ulangandan keyin",
+    "Hech qachon",
+    "Infuziya tugagach"
+   ],
+   "e": "Havo emboliyasi xavfi."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Teri ostiga in'eksiya uchun igna qanday burchakda kiritiladi?",
+   "a": [
+    "45°",
+    "90°",
+    "5°",
+    "180°"
+   ],
+   "e": "Teri burmasiga."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Venaga in'eksiya qilishda igna kesimi qayerga qaratiladi?",
+   "a": [
+    "Yuqoriga",
+    "Pastga",
+    "Yon tomonga",
+    "Ahamiyatsiz"
+   ],
+   "e": "Venaga oson kirishi uchun."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Dori in'eksiyasidan keyin bemor qancha vaqt kuzatiladi (allergiya xavfi bo'lsa)?",
+   "a": [
+    "Kamida 30 daqiqa",
+    "1 soniya",
+    "1 daqiqa",
+    "Kuzatish shart emas"
+   ],
+   "e": "Anafilaksiya xavfi."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Banka va xantal qo'yish (gorchichnik) hozirda qanday baholanadi?",
+   "a": [
+    "Eskirgan, ko'rsatmasi cheklangan",
+    "Barcha kasalliklarda majburiy",
+    "Eng samarali zamonaviy usul",
+    "Faqat bolalarda qo'llanadi"
+   ],
+   "e": "Dalillarga asoslangan tibbiyot."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Bemor tana vaznini o'lchash qachon bajariladi?",
+   "a": [
+    "Ertalab, och qoringa",
+    "Kechqurun, ovqatdan keyin",
+    "Istalgan vaqtda, kiyimda",
+    "Faqat oyda bir marta"
+   ],
+   "e": "Taqqoslash uchun."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Gigiyenik vanna qanday haroratda bo'ladi?",
+   "a": [
+    "36–37 °C",
+    "45–50 °C",
+    "20 °C",
+    "10 °C"
+   ],
+   "e": "Bemor holatiga qarab."
+  },
+  {
+   "b": "Bemor parvarishi va manipulyatsiyalar",
+   "q": "Keksa bemorlar parvarishida qaysi xavf alohida e'tibor talab qiladi?",
+   "a": [
+    "Yiqilish va jarohatlanish",
+    "Haddan tashqari tez o'sish",
+    "Ko'p ovqat yeyish",
+    "Tez o'sish"
+   ],
+   "e": "Xavfsiz muhit."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Hushdan ketish (sinkope) holatida bemorga birinchi yordam qanday?",
+   "a": [
+    "Yotqizib, oyoqlarini ko'tarish",
+    "O'tqazib, boshini orqaga tashlash",
+    "Darhol suv ichirish",
+    "Yuziga urish"
+   ],
+   "e": "Miyaga qon oqimi."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Astmatik statusda bemorning holati qanday?",
+   "a": [
+    "Uzoq, dori bilan o'tmaydigan bo'g'ilish",
+    "Qisqa yo'tal xuruji",
+    "Yengil burun bitishi",
+    "Bir martalik aksirish"
+   ],
+   "e": "Shoshilinch reanimatsiya."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Yurak to'xtaganda kattalarda ko'krak qafasini bosish chastotasi qancha?",
+   "a": [
+    "Daqiqasiga 100–120",
+    "Daqiqasiga 30–40",
+    "Daqiqasiga 60",
+    "Daqiqasiga 200"
+   ],
+   "e": "Chuqurligi 5–6 sm."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Klinik o'lim belgilari qaysilar?",
+   "a": [
+    "Hushsizlik, nafas va puls yo'qligi",
+    "Yuqori harorat va yo'tal",
+    "Qorin og'rig'i va qusish",
+    "Teri qichishi"
+   ],
+   "e": "4–6 daqiqa ichida reanimatsiya."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Biologik o'limning ishonchli belgisi qaysi?",
+   "a": [
+    "Murda dog'lari",
+    "Puls sekinlashishi",
+    "Nafas tezlashishi",
+    "Isitma"
+   ],
+   "e": "Qaytarib bo'lmaydi."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Gipertonik krizda bemorning oyoqlariga nima qo'yish tavsiya etiladi?",
+   "a": [
+    "Iliq grelka",
+    "Muzli xalta",
+    "Sovuq kompress",
+    "Hech narsa, oyoqlar ko'tariladi"
+   ],
+   "e": "Chalg'ituvchi chora."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Bronxial astma xurujida kislorod qanday beriladi?",
+   "a": [
+    "Namlangan holda",
+    "Quruq holda, cheklovsiz",
+    "Issiq holda",
+    "Kislorod berilmaydi"
+   ],
+   "e": "Oksigenoterapiya."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "O'tkir allergik reaksiyada allergen dori bo'lsa hamshira birinchi navbatda nima qiladi?",
+   "a": [
+    "Yuborishni to'xtatadi",
+    "Dozani oshiradi",
+    "Kuzatishsiz davom ettiradi",
+    "Bemorni uyiga jo'natadi"
+   ],
+   "e": "So'ng yordam ko'rsatadi."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Diabetik koma turini aniqlashda qaysi tekshiruv birinchi o'rinda?",
+   "a": [
+    "Glyukozani o'lchash",
+    "Qon bosimini o'lchash",
+    "Haroratni o'lchash",
+    "Bo'y-vazn o'lchash"
+   ],
+   "e": "Glyukometr."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Gipoglikemik komada hushsiz bemorga qanday yordam beriladi?",
+   "a": [
+    "Venaga glyukoza",
+    "Og'ziga qand solib qo'yish",
+    "Insulin yuborish",
+    "Suv ichirish"
+   ],
+   "e": "Aspiratsiya xavfi."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Me'da-ichakdan qon ketishida qorinning ustiga nima qo'yiladi?",
+   "a": [
+    "Muzli xalta",
+    "Issiq grelka",
+    "Isituvchi kompress",
+    "Xantal"
+   ],
+   "e": "Qon tomirlarni toraytiradi."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Buyrak sanchig'ida (shifokor ko'rsatmasi bo'lsa) qanday termik muolaja yordam beradi?",
+   "a": [
+    "Iliq grelka yoki vanna",
+    "Muzli xalta",
+    "Sovuq dush",
+    "Hech qanday muolaja"
+   ],
+   "e": "Spazmni bo'shatadi (diagnoz aniq bo'lsa)."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Ovqatdan o'tkir zaharlanishda birinchi yordam qanday?",
+   "a": [
+    "Me'da yuvish, sorbent",
+    "Spirtli ichimlik berish",
+    "Yog'li ovqat berish",
+    "Ich to'xtatuvchi dori berish"
+   ],
+   "e": "Zaharni chiqarish."
+  },
+  {
+   "b": "Terapiyada shoshilinch holatlar",
+   "q": "Epileptik tutqanoqda bemorga nima qilish kerak?",
+   "a": [
+    "Boshni himoyalab, yon tomonga burish",
+    "Og'ziga qattiq buyum tiqish",
+    "Qo'l-oyog'ini kuch bilan ushlab turish",
+    "Suv ichirish"
+   ],
+   "e": "Jarohatlanishning oldini olish."
+  },
+  {
+   "b": "Infeksion xavfsizlik",
+   "q": "Qo'lni gigiyenik yuvish kamida qancha davom etadi?",
+   "a": [
+    "40–60 soniya",
+    "5 soniya",
+    "10 daqiqa",
+    "1 soniya"
+   ],
+   "e": "JSST tavsiyasi."
+  },
+  {
+   "b": "Infeksion xavfsizlik",
+   "q": "Qo'llarni antiseptik bilan ishlov berish qachon bajariladi?",
+   "a": [
+    "Har bir aloqadan oldin va keyin",
+    "Faqat ish kuni oxirida",
+    "Faqat haftada bir marta",
+    "Faqat qo'l iflos ko'ringanda"
+   ],
+   "e": "\"Besh lahza\" qoidasi."
+  },
+  {
+   "b": "Infeksion xavfsizlik",
+   "q": "Ishlatilgan bir martalik shprits ignasi qayerga tashlanadi?",
+   "a": [
+    "Teshilmaydigan konteynerga",
+    "Oddiy axlat chelagiga",
+    "Qog'oz qutiga",
+    "Lavaboga"
+   ],
+   "e": "Igna qopqog'i qayta kiydirilmaydi."
+  },
+  {
+   "b": "Infeksion xavfsizlik",
+   "q": "Ignaga qopqoqni qayta kiydirish nima uchun man etiladi?",
+   "a": [
+    "Igna sanchilish xavfi",
+    "Qopqoq qimmat bo'lgani uchun",
+    "Igna o'tmaslashadi",
+    "Qopqoq sinib qoladi"
+   ],
+   "e": "Gemokontakt infeksiyalar."
+  },
+  {
+   "b": "Infeksion xavfsizlik",
+   "q": "Tibbiy chiqindilarning eng xavfli sinfi qaysi?",
+   "a": [
+    "B va V sinfi",
+    "A sinfi (maishiy)",
+    "Faqat qog'oz chiqindilari",
+    "Faqat oziq-ovqat chiqindilari"
+   ],
+   "e": "Maxsus utilizatsiya."
+  },
+  {
+   "b": "Infeksion xavfsizlik",
+   "q": "Tibbiyot xodimi bemor qoni bilan ifloslansa, birinchi navbatda nima qiladi?",
+   "a": [
+    "Yuvib, antiseptik bilan ishlov berish",
+    "Hech narsa qilmaydi",
+    "Joyni ishqalab qizartiradi",
+    "Faqat ro'mol bilan artadi"
+   ],
+   "e": "Avariya holati qayd etiladi."
+  },
+  {
+   "b": "Infeksion xavfsizlik",
+   "q": "Shifoxona ichi infeksiyasi (VBI) nima?",
+   "a": [
+    "Shifoxonada yuqqan infeksiya",
+    "Faqat uyda yuqqan kasallik",
+    "Irsiy kasallik",
+    "Allergik reaksiya"
+   ],
+   "e": "Nozokomial infeksiya."
+  },
+  {
+   "b": "Infeksion xavfsizlik",
+   "q": "Palatani kvarslash nima uchun o'tkaziladi?",
+   "a": [
+    "Havoni UB nur bilan zararsizlantirish",
+    "Xonani isitish uchun",
+    "Xonani yoritish uchun",
+    "Havoni namlantirish uchun"
+   ],
+   "e": "Dezinfeksiya usuli."
+  },
+  {
+   "b": "Infeksion xavfsizlik",
+   "q": "Sterilizatsiyadan oldingi tozalash sifatini tekshirish uchun qaysi sinama qo'llanadi?",
+   "a": [
+    "Azopiram sinamasi",
+    "Mantu sinamasi",
+    "Zimnitskiy sinamasi",
+    "Grenger sinamasi"
+   ],
+   "e": "Qon qoldiqlari."
+  },
+  {
+   "b": "Hamshiralik etikasi",
+   "q": "Tibbiy sir nima?",
+   "a": [
+    "Bemor haqidagi shaxsiy ma'lumot",
+    "Shifoxona binosining rejasi",
+    "Dorilar narxi",
+    "Xodimlar ish jadvali"
+   ],
+   "e": "Oshkor qilinmaydi."
+  },
+  {
+   "b": "Hamshiralik etikasi",
+   "q": "Bemorga uning kasalligi haqida kim ma'lumot beradi?",
+   "a": [
+    "Shifokor",
+    "Sanitar",
+    "Qo'shni bemor",
+    "Istalgan xodim"
+   ],
+   "e": "Hamshira o'z vakolati doirasida."
+  },
+  {
+   "b": "Hamshiralik etikasi",
+   "q": "Deontologiya nimani o'rganadi?",
+   "a": [
+    "Kasbiy burch va axloqni",
+    "Dorilar tarkibini",
+    "Kasalliklar sababini",
+    "Shifoxona qurilishini"
+   ],
+   "e": "Tibbiy etika."
+  },
+  {
+   "b": "Hamshiralik etikasi",
+   "q": "Yatrogeniya nima?",
+   "a": [
+    "Xodim tufayli bemorga zarar",
+    "Irsiy kasallik",
+    "Yuqumli kasallik",
+    "Allergiya turi"
+   ],
+   "e": "Ehtiyotkor muloqot."
+  },
+  {
+   "b": "Hamshiralik etikasi",
+   "q": "Bemordan tibbiy aralashuvga rozilik olish qanday ataladi?",
+   "a": [
+    "Xabardor rozilik",
+    "Majburiy davolash",
+    "Yashirin davolash",
+    "Ma'muriy buyruq"
+   ],
+   "e": "Bemor huquqi."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "FGDS (fibrogastroduodenoskopiya) oldidan bemor qanday tayyorlanadi?",
+   "a": [
+    "Och qoringa",
+    "Ertalab mo'l nonushta qiladi",
+    "Bir kun oldin ko'p suyuqlik ichadi",
+    "Tayyorgarlik talab qilinmaydi"
+   ],
+   "e": "Oshqozon bo'sh bo'lishi kerak."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Kolonoskopiyaga tayyorlashda asosiy talab qaysi?",
+   "a": [
+    "Ichakni to'liq tozalash",
+    "Ko'p go'shtli ovqat yeyish",
+    "Faqat suv ichmaslik",
+    "Tayyorgarlik kerak emas"
+   ],
+   "e": "Shlaksiz parhez."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Qorin bo'shlig'i a'zolari UTT siga tayyorlashda nima tavsiya etiladi?",
+   "a": [
+    "Gaz hosil qiluvchilarni cheklash",
+    "Ko'p qora non va dukkaklilar yeyish",
+    "Gazli ichimliklar ichish",
+    "Tekshiruvdan oldin ovqatlanish"
+   ],
+   "e": "Meteorizmni kamaytirish."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Siydik qopi UTT sidan oldin nima qilinadi?",
+   "a": [
+    "Qovuq to'ldiriladi",
+    "Qovuq to'liq bo'shatiladi",
+    "Och qoringa bo'lish kifoya",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Ko'rinishni yaxshilash."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Qondagi glyukoza va lipidlarni tekshirish uchun qon qanday holatda olinadi?",
+   "a": [
+    "8–12 soat ochlikdan keyin",
+    "Ovqatdan darhol keyin",
+    "Shirinlik yegandan keyin",
+    "Istalgan vaqtda"
+   ],
+   "e": "Aniqlik uchun."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Qon biokimyoviy tahlili uchun qon qayerdan olinadi?",
+   "a": [
+    "Venadan",
+    "Barmoqdan",
+    "Quloqdan",
+    "Tovondan"
+   ],
+   "e": "Probirkada."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Siydikni bakteriologik tekshirish uchun qanday idish ishlatiladi?",
+   "a": [
+    "Steril idish",
+    "Oddiy shisha banka",
+    "Plastik stakan, yuvilmagan",
+    "Istalgan idish"
+   ],
+   "e": "Mikroflorani aniqlash."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Sutkalik siydikda qand miqdorini aniqlash uchun siydik qanday yig'iladi?",
+   "a": [
+    "24 soat bitta idishga",
+    "Faqat ertalabki porsiya",
+    "Har 3 soatda alohida",
+    "Faqat kechki porsiya"
+   ],
+   "e": "Umumiy hajm o'lchanadi."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Najasni gijja tuxumiga tekshirish uchun namuna qanday olinadi?",
+   "a": [
+    "Turli joyidan, toza idishga",
+    "Huqnadan keyingi suvdan",
+    "Faqat bir kundan keyin",
+    "Qog'ozga o'rab"
+   ],
+   "e": "Iliq holda yetkaziladi."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Rentgenologik tekshiruvda kontrast modda sifatida oshqozon uchun nima ishlatiladi?",
+   "a": [
+    "Bariy sulfat suspenziyasi",
+    "Yod damlamasi ichdan",
+    "Natriy xloridning fiziologik eritmasi",
+    "Kaliy permanganat"
+   ],
+   "e": "Rentgenkontrast."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Yodli kontrast moddalar bilan tekshiruvdan oldin nima aniqlanadi?",
+   "a": [
+    "Yodga allergiya",
+    "Bemorning bo'yi",
+    "Ko'z rangi",
+    "Qon guruhi faqat"
+   ],
+   "e": "Anafilaksiya xavfi."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "EKG olishda bemor qanday holatda bo'ladi?",
+   "a": [
+    "Chalqancha, tinch",
+    "Tik turgan holda",
+    "Yugurayotganda",
+    "O'tirib gaplashayotganda"
+   ],
+   "e": "Mushak titrashi xalaqit beradi."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Spirometriya nima?",
+   "a": [
+    "Nafas hajmlarini o'lchash",
+    "Qon bosimini o'lchash",
+    "Yurak ritmini yozish",
+    "Qand miqdorini o'lchash"
+   ],
+   "e": "Tashqi nafas funksiyasi."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Xolter monitoringi nima?",
+   "a": [
+    "Sutkalik EKG yozish",
+    "Sutkalik siydik yig'ish",
+    "Qon bosimini bir marta o'lchash",
+    "Haroratni kuzatish"
+   ],
+   "e": "Aritmiyalarni aniqlash."
+  },
+  {
+   "b": "Tekshiruvlarga tayyorlash",
+   "q": "Plevral punksiyadan keyin olingan suyuqlik bilan nima qilinadi?",
+   "a": [
+    "Laboratoriyaga yuboriladi",
+    "Tashlab yuboriladi",
+    "Bemorga qaytariladi",
+    "Saqlab qo'yiladi"
+   ],
+   "e": "Sitologik, bakteriologik tahlil."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "Nitroglitserinni qabul qilganda bemorda qanday nojo'ya ta'sir ko'p uchraydi?",
+   "a": [
+    "Bosh og'rig'i",
+    "Ich qotishi",
+    "Sariqlik",
+    "Yo'tal"
+   ],
+   "e": "Tomirlar kengayishi."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "Diuretiklar qabul qilayotgan bemorda nima nazorat qilinadi?",
+   "a": [
+    "Diurez, vazn va qon bosimi",
+    "Faqat soch holati",
+    "Faqat ko'rish o'tkirligi",
+    "Faqat bemorning bo'yi"
+   ],
+   "e": "Elektrolitlar ham."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "Antikoagulyant qabul qilayotgan bemorda qaysi belgilar kuzatiladi?",
+   "a": [
+    "Qon ketish belgilari",
+    "Uyquchanlik",
+    "Ishtaha oshishi",
+    "Terining qurishi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "Glyukokortikoid ingalyatsiyasidan keyin bemorga nima tavsiya etiladi?",
+   "a": [
+    "Og'izni chayish",
+    "Ovqat yemaslik",
+    "Darhol yugurish",
+    "Suv ichmaslik"
+   ],
+   "e": "Kandidozning oldini olish."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "Antibiotiklarni qabul qilish vaqtiga qanday qoida qo'llanadi?",
+   "a": [
+    "Bir xil vaqt oralig'ida",
+    "Istalgan vaqtda, tartibsiz",
+    "Faqat kayfiyat yomonlashganda",
+    "Faqat kechasi bir marta"
+   ],
+   "e": "Konsentratsiyani ushlash."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "Insulin flakonini ishlatishdan oldin qanday saqlanadi?",
+   "a": [
+    "Muzlatkichda, muzlatmasdan",
+    "Muzlatgich kamerasida",
+    "Quyosh tushadigan joyda",
+    "Issiq batareya yonida"
+   ],
+   "e": "Ochilgani xona haroratida."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "Bemorga tabletka berishda hamshira nima qiladi?",
+   "a": [
+    "Ichganini kuzatadi",
+    "Dorini tumbochkaga qoldirib ketadi",
+    "Qo'shni bemorga beradi",
+    "Dori nomini aytmaydi"
+   ],
+   "e": "Nazorat."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "Yurak glikozidlarini berishdan oldin nima tekshiriladi?",
+   "a": [
+    "Puls",
+    "Harorat",
+    "Bo'y",
+    "Siydik rangi"
+   ],
+   "e": "Bradikardiya xavfi."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "NYaQV qabul qilayotgan bemorga qanday maslahat beriladi?",
+   "a": [
+    "Ovqatdan keyin qabul qilish",
+    "Och qoringa qabul qilish",
+    "Spirtli ichimlik bilan ichish",
+    "Ko'p miqdorda birdaniga ichish"
+   ],
+   "e": "Oshqozonni himoya qilish."
+  },
+  {
+   "b": "Terapiyada dori vositalari",
+   "q": "Temir preparatlarini venaga yuborishda qanday xavf bor?",
+   "a": [
+    "Allergik reaksiya",
+    "Gipoglikemiya",
+    "Ko'rishning yaxshilanishi",
+    "Sochning o'sishi"
+   ],
+   "e": "Ehtiyotkorlik bilan."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Bronxoektatik kasallikda balg'am qachon ko'p ajraladi?",
+   "a": [
+    "Ertalab, \"og'iz to'la\" holda",
+    "Faqat kechqurun oz miqdorda",
+    "Umuman ajralmaydi, quruq yo'tal",
+    "Faqat ovqatdan keyin"
+   ],
+   "e": "Bronx kengayishlari."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "O'pka abssessi yorilganda qanday balg'am ajraladi?",
+   "a": [
+    "Ko'p, hidli yiringli",
+    "Oz, shaffof, hidsiz",
+    "Zangsimon, quyuq",
+    "Pushti ko'pikli"
+   ],
+   "e": "Drenaj holati."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Pnevmoniyada hamshira bemorga qanday ichimlik rejimini tavsiya etadi?",
+   "a": [
+    "Ko'p iliq ichimlik",
+    "Suyuqlikni keskin cheklash",
+    "Faqat sovuq suv",
+    "Faqat gazli ichimlik"
+   ],
+   "e": "Intoksikatsiyani kamaytirish."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Bronxial astmaning profilaktikasida nima muhim?",
+   "a": [
+    "Allergenlar bilan aloqani kamaytirish",
+    "Uyda ko'p gilam va chang saqlash",
+    "Chekish",
+    "Mo'ynali hayvonlar bilan yaqin bo'lish"
+   ],
+   "e": "Gipoallergen muhit."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Sil kasalligini erta aniqlash uchun kattalarda qanday tekshiruv o'tkaziladi?",
+   "a": [
+    "Flyuorografiya",
+    "EKG",
+    "UTT qorin",
+    "Siydik tahlili"
+   ],
+   "e": "Profilaktik ko'rik."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Bolalarda silni aniqlashning skrining usuli qaysi?",
+   "a": [
+    "Mantu sinamasi",
+    "Flyuorografiya har oy",
+    "Qon guruhi tahlili",
+    "EKG"
+   ],
+   "e": "Tuberkulin diagnostikasi."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Gastritning asosiy belgilari qaysilar?",
+   "a": [
+    "Og'riq, ko'ngil aynishi, kekirish",
+    "Bosh og'rig'i va burun bitishi",
+    "Bel og'rig'i va dizuriya",
+    "Bo'g'im og'rig'i"
+   ],
+   "e": "Oshqozon shilliq qavati yallig'lanishi."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Surunkali enteritda qanday belgi kuzatiladi?",
+   "a": [
+    "Ich ketishi va ozib ketish",
+    "Ich qotishi va semirish",
+    "Yo'tal va balg'am",
+    "Sariqlik va teri qichishi"
+   ],
+   "e": "So'rilish buzilishi."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Qorin dam bo'lishi qanday ataladi?",
+   "a": [
+    "Meteorizm",
+    "Assit",
+    "Diareya",
+    "Disfagiya"
+   ],
+   "e": "Gaz to'planishi."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Yutishning qiyinlashuvi qanday ataladi?",
+   "a": [
+    "Disfagiya",
+    "Dispepsiya",
+    "Dizuriya",
+    "Dispnoe"
+   ],
+   "e": "Qizilo'ngach kasalliklarida."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Jigar kasalliklarida bemor terisining qichishi nima bilan bog'liq?",
+   "a": [
+    "O't kislotalari to'planishi",
+    "Qand ortishi",
+    "Temir yetishmasligi",
+    "Kalsiy ortishi"
+   ],
+   "e": "Xolestaz."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Sistit belgilari qaysilar?",
+   "a": [
+    "Tez-tez og'riqli siyish",
+    "Ko'p siydik, og'riqsiz",
+    "Siydik yo'qligi",
+    "Qorinning o'ng yuqorisida og'riq"
+   ],
+   "e": "Qovuq yallig'lanishi."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Pielonefrit bilan og'rigan bemorga qanday ichimlik rejimi tavsiya etiladi?",
+   "a": [
+    "Ko'p suyuqlik ichish",
+    "Suyuqlikni butunlay to'xtatish",
+    "Faqat sho'r suv",
+    "Faqat qahva"
+   ],
+   "e": "Siydik yo'llarini yuvish."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Gemodializ qachon qo'llanadi?",
+   "a": [
+    "Og'ir buyrak yetishmovchiligida",
+    "Yengil shamollashda",
+    "Bosh og'rig'ida",
+    "Ich qotishida"
+   ],
+   "e": "Qonni tozalash."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Anemiyali bemorlarda qanday parvarish muhim?",
+   "a": [
+    "Yiqilishning oldini olish",
+    "Faqat jismoniy yuklamani oshirish",
+    "Ovqatni cheklash",
+    "Kislorod berishni to'xtatish"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Leykozli bemor parvarishida asosiy e'tibor nimaga qaratiladi?",
+   "a": [
+    "Infeksiyadan himoya",
+    "Ko'p mehmon qabul qilish",
+    "Sovuq havoda sayr",
+    "Xom ovqat iste'mol qilish"
+   ],
+   "e": "Immunitet pasaygan."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Revmatoid artritli bemorga qaysi tavsiya to'g'ri?",
+   "a": [
+    "Bo'g'imlarni harakatda saqlash",
+    "Bo'g'imlarni butunlay harakatsiz qoldirish",
+    "Faqat yotoq rejimi umrbod",
+    "Sovuq vannalar qabul qilish"
+   ],
+   "e": "Funksiyani saqlash."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Osteoartroz qanday kasallik?",
+   "a": [
+    "Tog'ayning degenerativ kasalligi",
+    "Bo'g'imning yiringli yallig'lanishi",
+    "Suyakning o'smasi",
+    "Mushak yallig'lanishi"
+   ],
+   "e": "Keksalarda ko'p."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Osteoporozning asosiy xavfi nima?",
+   "a": [
+    "Suyak sinishi",
+    "Ko'rishning pasayishi",
+    "Qon bosimi oshishi",
+    "Siydik ko'payishi"
+   ],
+   "e": "Suyak zichligi kamayadi."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Semirishni baholash uchun qaysi ko'rsatkich ishlatiladi?",
+   "a": [
+    "TMI",
+    "Puls chastotasi",
+    "Nafas soni",
+    "Harorat"
+   ],
+   "e": "Vazn / bo'y²."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Normal tana massasi indeksi qancha?",
+   "a": [
+    "18,5–24,9 kg/m²",
+    "10–15 kg/m²",
+    "30–35 kg/m²",
+    "40 kg/m² dan yuqori"
+   ],
+   "e": "JSST mezoni."
+  },
+  {
+   "b": "Ichki kasalliklar qo'shimcha",
+   "q": "Metabolik sindromga nima kiradi?",
+   "a": [
+    "Semizlik, gipertoniya, qand buzilishi",
+    "Faqat past bo'y",
+    "Faqat ko'z kasalligi",
+    "Faqat tish kariesi"
+   ],
+   "e": "Yurak-qon tomir xavfi."
+  },
+  {
+   "b": "Profilaktika va reabilitatsiya",
+   "q": "Dispanser kuzatuvining maqsadi nima?",
+   "a": [
+    "Surunkali bemorlarni muntazam kuzatish",
+    "Bemorni bir marta ko'rib, unutish",
+    "Faqat sog'lom odamlarni kuzatish",
+    "Faqat bolalarni kuzatish"
+   ],
+   "e": "Faol kuzatuv."
+  },
+  {
+   "b": "Profilaktika va reabilitatsiya",
+   "q": "Birlamchi profilaktika nima?",
+   "a": [
+    "Kasallik paydo bo'lishini oldini olish",
+    "Kasallik asoratlarini davolash",
+    "Nogironlikni reabilitatsiya qilish",
+    "Faqat dori berish"
+   ],
+   "e": "Sog'lom turmush, emlash."
+  },
+  {
+   "b": "Profilaktika va reabilitatsiya",
+   "q": "Ikkilamchi profilaktika nima?",
+   "a": [
+    "Erta aniqlash va qo'zishni oldini olish",
+    "Kasallikning paydo bo'lishini oldini olish",
+    "Faqat jarrohlik",
+    "Faqat sanatoriy"
+   ],
+   "e": "Skrining."
+  },
+  {
+   "b": "Profilaktika va reabilitatsiya",
+   "q": "Uchlamchi profilaktika nimaga qaratilgan?",
+   "a": [
+    "Asorat va nogironlikni oldini olish",
+    "Sog'lom odamni emlash",
+    "Kasallikni erta aniqlash",
+    "Atrof-muhitni tozalash"
+   ],
+   "e": "Reabilitatsiya."
+  },
+  {
+   "b": "Profilaktika va reabilitatsiya",
+   "q": "Kardiologik reabilitatsiyaning asosiy usuli qaysi?",
+   "a": [
+    "Dozalangan yuklama",
+    "Uzoq yotoq rejimi",
+    "Faqat dori",
+    "Ko'p tuzli ovqat"
+   ],
+   "e": "Bosqichma-bosqich."
+  },
+  {
+   "b": "Profilaktika va reabilitatsiya",
+   "q": "Gripp profilaktikasining eng samarali usuli qaysi?",
+   "a": [
+    "Har yili emlash",
+    "Antibiotik qabul qilish",
+    "Sovuq suv ichish",
+    "Uyqusizlik"
+   ],
+   "e": "Mavsumiy vaksina."
+  },
+  {
+   "b": "Profilaktika va reabilitatsiya",
+   "q": "Bemorlar maktabi (masalan, diabet maktabi) nima uchun tashkil etiladi?",
+   "a": [
+    "O'zini nazorat qilishga o'rgatish",
+    "Bemorni ishdan bo'shatish uchun",
+    "Shifokorlarni imtihon qilish uchun",
+    "Dori sotish uchun"
+   ],
+   "e": "O'z-o'zini boshqarish."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Yurak sohasidagi og'riq bilan kechadigan holat qanday ataladi?",
+   "a": [
+    "Kardialgiya",
+    "Artralgiya",
+    "Mialgiya",
+    "Nevralgiya"
+   ],
+   "e": "Yurak og'rig'i."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Bo'g'imlardagi og'riq qanday ataladi?",
+   "a": [
+    "Artralgiya",
+    "Kardialgiya",
+    "Gastralgiya",
+    "Sefalgiya"
+   ],
+   "e": "Artr — bo'g'im."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Bosh og'rig'i tibbiyotda qanday ataladi?",
+   "a": [
+    "Sefalgiya",
+    "Mialgiya",
+    "Artralgiya",
+    "Torakalgiya"
+   ],
+   "e": "Cephal — bosh."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Qon tupurish qanday ataladi?",
+   "a": [
+    "Gemoptoe",
+    "Gematuriya",
+    "Gematemezis",
+    "Melena"
+   ],
+   "e": "O'pkadan qon."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Qon aralash qusish qanday ataladi?",
+   "a": [
+    "Gematemezis",
+    "Gemoptoe",
+    "Gematuriya",
+    "Epistaksis"
+   ],
+   "e": "Oshqozondan qon ketishi."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Qora, smolasimon najas qanday ataladi?",
+   "a": [
+    "Melena",
+    "Steatoreya",
+    "Diareya",
+    "Gematuriya"
+   ],
+   "e": "Yuqori OIT dan qon ketish."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Siydikda qon bo'lishi qanday ataladi?",
+   "a": [
+    "Gematuriya",
+    "Proteinuriya",
+    "Glyukozuriya",
+    "Piuriya"
+   ],
+   "e": "Buyrak va siydik yo'llari kasalliklari."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Siydikda yiring bo'lishi qanday ataladi?",
+   "a": [
+    "Piuriya",
+    "Gematuriya",
+    "Oliguriya",
+    "Anuriya"
+   ],
+   "e": "Yiringli yallig'lanish."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Siydik umuman ajralmasligi qanday ataladi?",
+   "a": [
+    "Anuriya",
+    "Poliuriya",
+    "Oliguriya",
+    "Nikturiya"
+   ],
+   "e": "Shoshilinch holat."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Tunda siydikning kunduzgidan ko'p ajralishi qanday ataladi?",
+   "a": [
+    "Nikturiya",
+    "Poliuriya",
+    "Anuriya",
+    "Dizuriya"
+   ],
+   "e": "Yurak, buyrak yetishmovchiligi."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Burundan qon ketishi qanday ataladi?",
+   "a": [
+    "Epistaksis",
+    "Gemoptoe",
+    "Melena",
+    "Gematemezis"
+   ],
+   "e": "Gipertoniyada ham uchraydi."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Teri va shilliq qavatlarning ko'kimtir tusga kirishi qanday ataladi?",
+   "a": [
+    "Sianoz",
+    "Ikterus",
+    "Giperemiya",
+    "Pigmentatsiya"
+   ],
+   "e": "Kislorod yetishmovchiligi."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Teri va skleraning sarg'ayishi qanday ataladi?",
+   "a": [
+    "Ikterus",
+    "Sianoz",
+    "Rangparlik",
+    "Eritema"
+   ],
+   "e": "Bilirubin ortishi."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Tana vaznining keskin kamayib, holsizlanish qanday ataladi?",
+   "a": [
+    "Kaxeksiya",
+    "Semirish",
+    "Gipertrofiya",
+    "Akromegaliya"
+   ],
+   "e": "Og'ir kasalliklarda."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Ishtahaning yo'qolishi qanday ataladi?",
+   "a": [
+    "Anoreksiya",
+    "Bulimiya",
+    "Polifagiya",
+    "Disfagiya"
+   ],
+   "e": "Ko'p kasalliklarda."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Kuchli chanqoq qanday ataladi?",
+   "a": [
+    "Polidipsiya",
+    "Poliuriya",
+    "Polifagiya",
+    "Dispepsiya"
+   ],
+   "e": "Qandli diabetda."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Ko'ngil aynishi tibbiyotda qanday ataladi?",
+   "a": [
+    "Nauzeya",
+    "Vomitus",
+    "Disfagiya",
+    "Pirozis"
+   ],
+   "e": "Qusish — vomitus."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Jig'ildon qaynashi qanday ataladi?",
+   "a": [
+    "Pirozis",
+    "Nauzeya",
+    "Meteorizm",
+    "Kolika"
+   ],
+   "e": "Kislotali reflyuks."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Hansirash (nafas yetishmasligi hissi) qanday ataladi?",
+   "a": [
+    "Dispnoe",
+    "Apnoe",
+    "Eupnoe",
+    "Bradipnoe"
+   ],
+   "e": "Inspirator, ekspirator, aralash."
+  },
+  {
+   "b": "Klinik atamalar",
+   "q": "Shish tibbiyotda qanday ataladi?",
+   "a": [
+    "Edema",
+    "Eritema",
+    "Ekzema",
+    "Empiyema"
+   ],
+   "e": "Suyuqlik to'planishi."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Statsionar bemorning asosiy tibbiy hujjati qaysi?",
+   "a": [
+    "Kasallik tarixi",
+    "Ambulator karta",
+    "Pasport",
+    "Mehnat daftarchasi"
+   ],
+   "e": "Forma 003/u."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Hamshiralik postida tayinlanishlar qayerga yoziladi?",
+   "a": [
+    "Tayinlanishlar varag'iga",
+    "Bemorning pasportiga",
+    "Oshxona menyusiga",
+    "Ish haqi vedomostiga"
+   ],
+   "e": "Shifokor yozadi, hamshira bajaradi."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Navbatchilikni topshirishda hamshira nima qiladi?",
+   "a": [
+    "Og'ir bemorlar va tayinlanishlarni",
+    "Hech narsa aytmay ketadi",
+    "Faqat kalitni beradi",
+    "Faqat dorixonaga qo'ng'iroq qiladi"
+   ],
+   "e": "Uzluksiz parvarish."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Kuchli ta'sirli va narkotik dorilar qanday hisobga olinadi?",
+   "a": [
+    "Maxsus jurnalda",
+    "Hech qanday hisobsiz",
+    "Faqat og'zaki",
+    "Bemor o'zi yozadi"
+   ],
+   "e": "Qat'iy hisob."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Portsion talab (porsionnik) nima uchun tuziladi?",
+   "a": [
+    "Parhez bo'yicha ovqatlantirish uchun",
+    "Dorilarni buyurtma qilish uchun",
+    "Xodimlar ish jadvali uchun",
+    "Mehmonlarni ro'yxatga olish uchun"
+   ],
+   "e": "Oshxonaga beriladi."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Bemorni bo'limga qabul qilishda hamshira avval nima tekshiradi?",
+   "a": [
+    "Pedikulyoz va teri holatini",
+    "Bemorning mehnat stajini",
+    "Bemorning kiyim narxini",
+    "Bemorning telefon modelini"
+   ],
+   "e": "Sanitar ishlov."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Pedikulyoz aniqlansa nima qilinadi?",
+   "a": [
+    "Pedikulitsid bilan ishlov, qayd",
+    "Hech narsa qilinmaydi",
+    "Bemorga ruxsat berilmaydi va qaytariladi",
+    "Faqat sochini taraydi"
+   ],
+   "e": "Epidemiologik talab."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Shifoxonada bemorni boshqa bo'limga o'tkazishda nima kuzatiladi?",
+   "a": [
+    "Hujjatlari bilan, mos transportda",
+    "Hujjatlarsiz, yolg'iz",
+    "Piyoda, holatidan qat'i nazar",
+    "Navbatchi bilmagan holda"
+   ],
+   "e": "Xavfsiz tashish."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Bemor bilan muloqotda hamshira qanday usulni qo'llaydi?",
+   "a": [
+    "Tinglash va tushuntirish",
+    "Tibbiy atamalar bilan tez gapirish",
+    "Bemorni e'tiborsiz qoldirish",
+    "Bemorni qo'rqitish"
+   ],
+   "e": "Terapevtik muloqot."
+  },
+  {
+   "b": "Hamshiralik hujjatlari va tashkiliy masalalar",
+   "q": "Palliativ yordamning maqsadi nima?",
+   "a": [
+    "Hayot sifatini yaxshilash",
+    "Bemorni to'liq tuzatish",
+    "Faqat operatsiya qilish",
+    "Faqat diagnostika"
+   ],
+   "e": "Og'riq va simptomlarni yengillatish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bemorning umumiy holati qanday darajalarga bo'linadi?",
+   "a": [
+    "Qoniqarli, o'rta og'ir, og'ir",
+    "Faqat yaxshi va yomon",
+    "Faqat sog'lom va kasal",
+    "Faqat yengil"
+   ],
+   "e": "Klinik baholash."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bemorning majburiy holati nimani bildiradi?",
+   "a": [
+    "Ahvolni yengillatuvchi holat",
+    "Shifokor buyurgan sport mashqi",
+    "Bemorning sevimli o'tirish joyi",
+    "Uyqu paytidagi holat"
+   ],
+   "e": "Masalan, ortopnoe."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Hushning buzilish darajalari qaysi shkala bilan baholanadi?",
+   "a": [
+    "Glazgo koma shkalasi",
+    "Apgar shkalasi",
+    "Norton shkalasi",
+    "Bofort shkalasi"
+   ],
+   "e": "3 dan 15 ballgacha."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bemor xonasining havosi qancha vaqtda shamollatiladi?",
+   "a": [
+    "Kuniga kamida 3–4 marta",
+    "Oyda bir marta",
+    "Umuman shamollatilmaydi",
+    "Faqat yozda"
+   ],
+   "e": "Sanitariya talabi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Palatani nam tozalash kuniga necha marta o'tkaziladi?",
+   "a": [
+    "Kamida 2 marta",
+    "Haftada bir marta",
+    "Oyda bir marta",
+    "Kerak emas"
+   ],
+   "e": "Dezinfeksiya vositasi bilan."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Ichki ishlar uchun hamshira qo'lqopni qachon almashtiradi?",
+   "a": [
+    "Har bir bemordan keyin",
+    "Ish kuni oxirida",
+    "Haftada bir marta",
+    "Yirtilmaguncha almashtirmaydi"
+   ],
+   "e": "Kross-infeksiyaning oldini olish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Gipertoniya bilan og'rigan bemorga uyda AQB ni qachon o'lchash tavsiya etiladi?",
+   "a": [
+    "Ertalab va kechqurun",
+    "Oyda bir marta",
+    "Faqat bosh og'riganda",
+    "Hech qachon"
+   ],
+   "e": "O'z-o'zini nazorat."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qandli diabetli bemorga qaysi mahsulot cheklanadi?",
+   "a": [
+    "Shakar va shirinliklar",
+    "Sabzavotlar",
+    "Suv",
+    "Suv va ko'katlar"
+   ],
+   "e": "Glikemik indeks."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Surunkali yurak yetishmovchiligida bemorga suyuqlik ichishga qanday tavsiya beriladi?",
+   "a": [
+    "Belgilangan miqdorda cheklash",
+    "Cheksiz ko'p ichish",
+    "Faqat sho'r suv ichish",
+    "Umuman ichmaslik"
+   ],
+   "e": "Shishni kamaytirish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bronxial astmali bemor ingalyatorni qanday ishlatishi kerak?",
+   "a": [
+    "Nafas olish bilan birga bosish",
+    "Nafas chiqarayotganda bosish",
+    "Og'izdan uzoqda havoga bosish",
+    "Ingalyatorni silkitmasdan teskari tutish"
+   ],
+   "e": "To'g'ri texnika."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Spenser ingalyatsiyada nima beradi?",
+   "a": [
+    "Dori yaxshiroq yetishini",
+    "Dori dozasini kamaytirishni",
+    "Ingalyatorni bezashni",
+    "Dorini sovitishni"
+   ],
+   "e": "Ayniqsa bolalar va keksalarda."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Yotoq rejimidagi bemorda o'pka asoratlarining oldini olish uchun nima qilinadi?",
+   "a": [
+    "Nafas gimnastikasi, holatni o'zgartirish",
+    "Harakatsiz yotish",
+    "Xonani yopiq saqlash",
+    "Suyuqlikni cheklash"
+   ],
+   "e": "Gipostatik pnevmoniya profilaktikasi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Keksa bemorlarda dori dozalash nima uchun ehtiyotkorlik talab qiladi?",
+   "a": [
+    "Jigar-buyrak faoliyati pasaygani uchun",
+    "Ular dorini yaxshi ko'rmagani uchun",
+    "Dorilar qimmat bo'lgani uchun",
+    "Ular kam ovqatlanmagani uchun"
+   ],
+   "e": "Kumulyatsiya xavfi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Terapiya bo'limida hamshiraning asosiy vazifasi nima?",
+   "a": [
+    "Tayinlanishlar va parvarish",
+    "Mustaqil tashxis qo'yish va jarrohlik",
+    "Faqat hujjat yozish",
+    "Faqat ovqat tarqatish"
+   ],
+   "e": "Kasbiy vazifalar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bemor ahvoli keskin yomonlashsa hamshira birinchi navbatda nima qiladi?",
+   "a": [
+    "Shifokorni chaqirib, holatni baholaydi",
+    "Navbat tugashini kutadi",
+    "Bemorni boshqa palataga yolg'iz o'tkazadi",
+    "Qarindoshlariga qo'ng'iroq qilib kutadi"
+   ],
+   "e": "Shoshilinch javob."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Hamshiralik parvarishi rejasida maqsad qanday bo'lishi kerak?",
+   "a": [
+    "Aniq, o'lchanadigan va muddatli",
+    "Noaniq va umumiy",
+    "Faqat shifokor uchun",
+    "Bemor bilan kelishmasdan"
+   ],
+   "e": "SMART maqsad."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bemor muolajadan bosh tortsa hamshira nima qiladi?",
+   "a": [
+    "Sababini aniqlab, shifokorga aytadi",
+    "Majburan bajaradi",
+    "Hech kimga aytmaydi",
+    "Bemorni jazolaydi"
+   ],
+   "e": "Bemor huquqi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bemorni gigiyenik yuvintirishda harakat yo'nalishi qanday bo'ladi?",
+   "a": [
+    "Toza sohadan iflosroq sohaga",
+    "Iflos sohadan toza sohaga",
+    "Tasodifiy, istalgan tomonga",
+    "Faqat oyoqdan boshga"
+   ],
+   "e": "Infeksiyani tarqatmaslik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Og'ir bemorning ko'zlariga qanday parvarish qilinadi?",
+   "a": [
+    "Tashqi burchakdan ichkiga",
+    "Ichki burchakdan tashqariga bir tampon bilan",
+    "Qo'l bilan ishqalash",
+    "Parvarish shart emas"
+   ],
+   "e": "Har ko'zga alohida tampon."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Hamshira o'z malakasini oshirish uchun nima qiladi?",
+   "a": [
+    "Malaka oshirish va attestatsiya",
+    "Hech narsa o'qimaydi",
+    "Faqat tajribaga tayanadi, o'qimaydi",
+    "Kasbni o'zgartiradi"
+   ],
+   "e": "Uzluksiz ta'lim."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Bronxial astmada bemorning xonasida nima bo'lmasligi kerak?",
+   "a": [
+    "Gilam va mo'ynali buyumlar",
+    "Toza havo va namlik nazorati",
+    "Muntazam nam tozalash",
+    "Gipoallergen choyshab"
+   ],
+   "e": "Allergenlar manbai."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Yurak-qon tomir kasalliklarida qaysi mineral cheklanadi?",
+   "a": [
+    "Natriy",
+    "Kaliy",
+    "Magniy",
+    "Kalsiy"
+   ],
+   "e": "Suyuqlik ushlanishi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Diuretik qabul qilayotgan bemorga qaysi mahsulot tavsiya etiladi (kaliy yo'qotilsa)?",
+   "a": [
+    "Mayiz, o'rik, banan",
+    "Osh tuzi",
+    "Qand",
+    "Qahva"
+   ],
+   "e": "Kaliyga boy."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Jigar sirrozida bemorning qorin aylanasi nima uchun o'lchanadi?",
+   "a": [
+    "Assit dinamikasini kuzatish uchun",
+    "Kiyim o'lchamini aniqlash uchun",
+    "Ishtahani baholash uchun",
+    "Bemorning bo'yini hisoblash uchun"
+   ],
+   "e": "Suyuqlik to'planishi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Surunkali pankreatitda qanday parhez tavsiya etiladi?",
+   "a": [
+    "Yog'li va spirtli ichimlikni cheklash",
+    "Ko'p yog'li va achchiq ovqat",
+    "Faqat spirtli ichimlik",
+    "Cheklovsiz ovqatlanish"
+   ],
+   "e": "Oshqozon osti bezini tejash."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "O'tkir pankreatitning birinchi kunlarida qanday parhez qo'llanadi?",
+   "a": [
+    "Ochlik, sovuq va tinchlik",
+    "Ko'p ovqat va issiq grelka",
+    "Faqat yog'li ovqat",
+    "Faqat shirinliklar"
+   ],
+   "e": "Bezni tinchlantirish."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Anemiyali bemorda terining rangi qanday bo'ladi?",
+   "a": [
+    "Rangpar",
+    "Qizil",
+    "Sariq faqat",
+    "Ko'kimtir faqat"
+   ],
+   "e": "Gemoglobin kamligi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Gemodializdagi bemorda fistula joylashgan qo'lda nima qilinmaydi?",
+   "a": [
+    "AQB o'lchanmaydi",
+    "Qo'l yuviladi",
+    "Qo'l kuzatiladi",
+    "Qo'lga e'tibor beriladi"
+   ],
+   "e": "Fistulani saqlash."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Keksa bemorlarda suvsizlanishning belgisi qaysi?",
+   "a": [
+    "Teri qurishi, siydik kamayishi",
+    "Ko'p terlash va shish",
+    "Ko'p siydik ajralishi",
+    "Teri namligining ortishi"
+   ],
+   "e": "Chanqoq hissi kamaygan."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Bemorning yuqori harorati qaysi qiymatdan isitma tushiruvchi berish uchun asos bo'ladi (kattalarda, odatda)?",
+   "a": [
+    "38,5 °C dan yuqori",
+    "36,6 °C",
+    "37,0 °C",
+    "35,5 °C"
+   ],
+   "e": "Holatga qarab shifokor qaror qiladi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Qonni ivish vaqtiga tekshirish qaysi kasalliklarda muhim?",
+   "a": [
+    "Ivish buzilishi va antikoagulyantda",
+    "Faqat ko'z kasalliklarida",
+    "Faqat tish kasalliklarida",
+    "Faqat teri kasalliklarida"
+   ],
+   "e": "Koagulogramma."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Hamshira infuziya paytida tomchilar tezligini nima bilan nazorat qiladi?",
+   "a": [
+    "Qisqich bilan",
+    "Shpritsni bosib",
+    "Flakonni silkitib",
+    "Bemordan so'rab"
+   ],
+   "e": "Daqiqadagi tomchilar."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Infuziya paytida in'eksiya joyida shish paydo bo'lsa nima qilinadi?",
+   "a": [
+    "To'xtatib, shifokorga xabar berish",
+    "Tezlik oshiriladi",
+    "E'tibor berilmaydi",
+    "Joyi uqalanadi"
+   ],
+   "e": "Infiltrat."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Pnevmoniyadan keyin tiklanish davrida nima tavsiya etiladi?",
+   "a": [
+    "Nafas mashqlari, asta faollik",
+    "Uzoq yotoq rejimi",
+    "Chekishni davom ettirish",
+    "Sovuq havoda uzoq sayr"
+   ],
+   "e": "Reabilitatsiya."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Qandli diabetli bemor jismoniy mashqdan oldin nimani tekshirishi kerak?",
+   "a": [
+    "Glyukozani",
+    "Ko'z rangini",
+    "Bo'yini",
+    "Soch holatini"
+   ],
+   "e": "Gipoglikemiya xavfi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Gipertoniyada qaysi odat AQB ni oshiradi?",
+   "a": [
+    "Ko'p tuz va spirtli ichimlik",
+    "Muntazam yurish",
+    "Meva-sabzavot iste'moli",
+    "Yetarli uyqu"
+   ],
+   "e": "Xavf omillari."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Hamshira bemor bilan suhbatda qaysi xatoga yo'l qo'ymasligi kerak?",
+   "a": [
+    "Gapini bo'lish",
+    "Bemorni diqqat bilan tinglash",
+    "Tushunarli tilda gapirish",
+    "Bemorni qo'llab-quvvatlash"
+   ],
+   "e": "Muloqot odobi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Ichki kasalliklar bo'limida eng ko'p uchraydigan surunkali kasalliklardan biri qaysi?",
+   "a": [
+    "Arterial gipertenziya",
+    "O'tkir appenditsit",
+    "Kuyish va sovuq urishi",
+    "Kuyish"
+   ],
+   "e": "Jarrohlik bo'limi emas."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Terapiya bo'limida bemor kun tartibiga nima kiradi?",
+   "a": [
+    "Uyqu, ovqat, muolaja vaqtlari",
+    "Faqat tun bo'yi televizor ko'rish",
+    "Faqat mehmon qabul qilish",
+    "Faqat kechki sayr"
+   ],
+   "e": "Shifoxona rejimi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Bemorni shifoxonadan chiqarishda hamshira nima tushuntiradi?",
+   "a": [
+    "Dori, parhez va qayta ko'rikni",
+    "Hech narsa tushuntirmaydi",
+    "Faqat to'lov summasini",
+    "Faqat transport jadvalini"
+   ],
+   "e": "Uzluksiz parvarish."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Kislorod ballonlari bilan ishlashda qaysi xavfsizlik qoidasi muhim?",
+   "a": [
+    "Yog' va olovdan uzoq saqlash",
+    "Ballonni isitish",
+    "Ballon yonida chekish",
+    "Ballonni yog'li qo'l bilan ushlash"
+   ],
+   "e": "Portlash xavfi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Bemorning shaxsiy buyumlarini saqlashda hamshira nimaga amal qiladi?",
+   "a": [
+    "Ro'yxat bilan topshirish",
+    "Buyumlarni o'zida saqlaydi",
+    "Ro'yxatsiz qoldiradi",
+    "Boshqa bemorga beradi"
+   ],
+   "e": "Javobgarlik."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Terapiya bo'limida hamshiraning ish joyi qanday nomlanadi?",
+   "a": [
+    "Hamshiralik posti",
+    "Operatsion blok",
+    "Rentgen xonasi",
+    "Dorixona ombori"
+   ],
+   "e": "Post hamshirasi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Muolaja xonasida qanday muolajalar bajariladi?",
+   "a": [
+    "In'eksiyalar va qon olish",
+    "Jarrohlik operatsiyalari",
+    "Ovqat tayyorlash",
+    "Kiyim va choyshablarni yuvish"
+   ],
+   "e": "Muolaja hamshirasi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Muolaja xonasida generalni tozalash qancha muddatda bir marta o'tkaziladi?",
+   "a": [
+    "Haftada bir marta",
+    "Yilda bir marta",
+    "Hech qachon",
+    "Har soatda"
+   ],
+   "e": "Sanitariya me'yori."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Biologik suyuqliklar bilan ishlashda hamshira qanday himoya vositalaridan foydalanadi?",
+   "a": [
+    "Qo'lqop, niqob, ko'zoynak",
+    "Faqat sochiq",
+    "Faqat rezina etik",
+    "Hech qanday vosita"
+   ],
+   "e": "Standart ehtiyot choralari."
   }
- ]
+ ],
+ "kalit": "terapiya ichki kasalliklar hamshira hamshiralik terapevtik"
 }
