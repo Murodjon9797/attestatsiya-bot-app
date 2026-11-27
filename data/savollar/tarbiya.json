@@ -1,0 +1,3331 @@
+{
+ "kod": "",
+ "nomi": "Tarbiya",
+ "turi": "umumiy",
+ "manba": "Umumiy o'rta ta'lim \"Tarbiya\" fani o'quv dasturi va darsliklari, pedagogika nazariyasi va tarixi darsliklari, Sharq allomalari asarlari, O'zbekiston Respublikasi Konstitutsiyasi va ta'lim to'g'risidagi qonunchilik",
+ "savollar": [
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Pedagogikada \"tarbiya\" tushunchasi keng ma'noda nimani anglatadi?",
+   "a": [
+    "Shaxsni har tomonlama shakllantirish jarayoni",
+    "Faqat maktabda bilim berish va baholash",
+    "Faqat jismoniy mashqlar bajarish jarayoni",
+    "Faqat oiladagi kundalik yumushlarga o'rgatish"
+   ],
+   "e": "Ta'lim va tarbiyaning birligi."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Tarbiyaning asosiy tarkibiy qismlariga nima kiradi?",
+   "a": [
+    "Aqliy, axloqiy, jismoniy, estetik, mehnat tarbiyasi",
+    "Faqat aqliy va jismoniy tarbiya, boshqasi yo'q",
+    "Faqat diniy va harbiy tayyorgarlik",
+    "Faqat musiqa va rasm darslari"
+   ],
+   "e": "Har tomonlama tarbiya."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Aqliy tarbiyaning maqsadi nima?",
+   "a": [
+    "Tafakkur va bilish qobiliyatini rivojlantirish",
+    "Faqat jismoniy chidamlilikni oshirish",
+    "Faqat go'zallikni his qilishni o'rgatish",
+    "Faqat mehnat ko'nikmalarini berish"
+   ],
+   "e": "Ilmiy dunyoqarash."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Axloqiy tarbiya nimaga qaratilgan?",
+   "a": [
+    "Xulq-atvor me'yorlari va odob",
+    "Faqat matematik bilimlarni chuqurlashtirish",
+    "Faqat sport natijalarini oshirish",
+    "Faqat chet tillarini o'rgatish"
+   ],
+   "e": "Axloqiy ong va odatlar."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Estetik tarbiya nimani shakllantiradi?",
+   "a": [
+    "Go'zallikni idrok etish va yaratish qobiliyatini",
+    "Faqat jismoniy kuch va chaqqonlikni",
+    "Faqat huquqiy bilim va ko'nikmalarni",
+    "Faqat iqtisodiy hisob-kitob ko'nikmasini"
+   ],
+   "e": "San'at, tabiat, mehnatdagi go'zallik."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Mehnat tarbiyasining maqsadi nima?",
+   "a": [
+    "Mehnatsevarlik va kasbiy ko'nikmalar",
+    "Faqat dam olish madaniyatini o'rgatish",
+    "Faqat she'r yodlash qobiliyati",
+    "Faqat sport musobaqalarida g'olib bo'lish"
+   ],
+   "e": "Kasb tanlashga tayyorlash."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Ekologik tarbiya nimani nazarda tutadi?",
+   "a": [
+    "Tabiatga ongli va mas'uliyatli munosabat",
+    "Faqat o'simlik va hayvonlar nomlarini yodlash",
+    "Faqat sanoat korxonalarini rivojlantirish",
+    "Tabiat boyliklaridan cheklovsiz foydalanish"
+   ],
+   "e": "Atrof-muhitni asrash."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Huquqiy tarbiyaning maqsadi nima?",
+   "a": [
+    "Qonunga hurmat va huquqiy madaniyat",
+    "Faqat yurist kasbini egallashga tayyorlash",
+    "Faqat jazodan qo'rqitish orqali itoat",
+    "Faqat qonun moddalarini yoddan bilish"
+   ],
+   "e": "Huquqiy ong."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Iqtisodiy tarbiya qanday sifatlarni shakllantiradi?",
+   "a": [
+    "Tejamkorlik, tadbirkorlik, oqilona iste'mol",
+    "Isrofgarchilik va behuda xarajat qilish",
+    "Faqat boylik orttirishga intilish, har qanday yo'l bilan",
+    "Pulga mutlaqo befarqlik"
+   ],
+   "e": "Moliyaviy savodxonlik."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Vatanparvarlik tarbiyasi nimaga yo'naltiriladi?",
+   "a": [
+    "Vatanga muhabbat va unga sadoqat",
+    "Boshqa xalqlarni kamsitishga",
+    "Faqat harbiy xizmatga tayyorlashga",
+    "Faqat tarixiy sanalarni yodlashga"
+   ],
+   "e": "Bag'rikenglik bilan uyg'un."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Tarbiya jarayonining asosiy sub'ektlari kimlar?",
+   "a": [
+    "Tarbiyachi va tarbiyalanuvchi",
+    "Faqat davlat organlari",
+    "Faqat ota-onalar, o'qituvchisiz",
+    "Faqat ommaviy axborot vositalari"
+   ],
+   "e": "Hamkorlikdagi faoliyat."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "Shaxs rivojlanishiga ta'sir etuvchi asosiy omillar qaysilar?",
+   "a": [
+    "Irsiyat, muhit, tarbiya",
+    "Faqat irsiyat, boshqa hech narsa",
+    "Faqat ob-havo va iqlim sharoiti",
+    "Faqat iqtisodiy ahvol"
+   ],
+   "e": "Tarbiya — yetakchi omil."
+  },
+  {
+   "b": "Tarbiya nazariyasi",
+   "q": "\"Tarbiya\" fani umumiy o'rta ta'lim maktablarida qachondan o'qitila boshlangan?",
+   "a": [
+    "2020–2021 o'quv yilidan",
+    "1991–1992 o'quv yilidan",
+    "2010–2011 o'quv yilidan",
+    "2024–2025 o'quv yilidan"
+   ],
+   "e": "Odobnoma, Vatan tuyg'usi, dinshunoslik va boshqa fanlar o'rniga yagona fan."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Tarbiya metodi nima?",
+   "a": [
+    "Tarbiyaviy maqsadga erishish usullari",
+    "Bitta darsning davomiyligi",
+    "Ta'lim muassasasining nizomi",
+    "Sinfdagi o'quvchilar ro'yxati"
+   ],
+   "e": "Ishontirish, mashq, rag'bat va boshqalar."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Ishontirish metodi qanday amalga oshiriladi?",
+   "a": [
+    "Suhbat, tushuntirish, misollar orqali",
+    "Faqat jazolash va tanbeh berish orqali",
+    "Faqat buyruq va taqiqlar orqali",
+    "Faqat jismoniy mashqlar orqali"
+   ],
+   "e": "Ongga ta'sir."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Mashq metodining tarbiyadagi vazifasi nima?",
+   "a": [
+    "Ijobiy odatlarni shakllantirish",
+    "Faqat bilimlarni tekshirish",
+    "Faqat jazo berish",
+    "O'quvchini dars davomida band qilib qo'yish"
+   ],
+   "e": "Takroriy harakat."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Rag'batlantirish metodiga misol qaysi?",
+   "a": [
+    "Maqtov, minnatdorchilik, mukofot",
+    "Tanbeh va qat'iy ogohlantirish",
+    "Darsdan vaqtincha chetlatish",
+    "Ota-onani maktabga chaqirish"
+   ],
+   "e": "Ijobiy xulqni mustahkamlaydi."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Jazolash metodidan foydalanishda qaysi talab muhim?",
+   "a": [
+    "Adolatli bo'lish, shaxsni kamsitmaslik",
+    "Jismoniy jazo qo'llashga ruxsat",
+    "Butun sinf oldida tanbeh berib uyaltirish",
+    "Har bir xatoga eng og'ir jazo berish"
+   ],
+   "e": "Pedagogik odob."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Shaxsiy namuna metodi nimaga asoslanadi?",
+   "a": [
+    "Tarbiyachining o'z xulqi orqali ta'sir",
+    "Faqat kitobdan o'qib berish usuliga",
+    "Faqat jazolash va rag'batlash tizimiga",
+    "Faqat test topshiriqlari natijasiga"
+   ],
+   "e": "Bolalar taqlid qiladi."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Jamoa orqali tarbiya g'oyasini kim ishlab chiqqan?",
+   "a": [
+    "A.S. Makarenko",
+    "Ya.A. Komenskiy",
+    "J.J. Russo",
+    "I.G. Pestalotsi"
+   ],
+   "e": "\"Pedagogik doston\"."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Tarbiyaviy soat (sinf soati) kim tomonidan o'tkaziladi?",
+   "a": [
+    "Sinf rahbari",
+    "Maktab oshpazi",
+    "Faqat direktor",
+    "Faqat o'quvchilar ota-onalari"
+   ],
+   "e": "Tarbiyaviy ishning asosiy shakli."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Sinfdan tashqari tarbiyaviy ishlar shakliga nima kiradi?",
+   "a": [
+    "To'garaklar, ekskursiyalar, tadbirlar",
+    "Faqat dars jadvalidagi mashg'ulotlar",
+    "Faqat choraklik imtihonlar",
+    "Faqat uyga beriladigan vazifalar"
+   ],
+   "e": "Bo'sh vaqtni mazmunli o'tkazish."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Tarbiyaviy tadbir rejasini tuzishda birinchi navbatda nima belgilanadi?",
+   "a": [
+    "Maqsad",
+    "Tadbir oxirida beriladigan sovg'alar",
+    "Zal bezagining rangi",
+    "Mehmonlar soni"
+   ],
+   "e": "Maqsad — natijani belgilaydi."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Muammoli vaziyat metodi tarbiyada nimaga xizmat qiladi?",
+   "a": [
+    "Axloqiy tanlov qilishni o'rgatadi",
+    "O'quvchini jazolashga xizmat qiladi",
+    "Faqat bilim tekshiradi",
+    "Dars vaqtini to'ldiradi"
+   ],
+   "e": "Mustaqil fikrlash."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Kuzatish metodi tarbiyaviy ishda nima uchun qo'llanadi?",
+   "a": [
+    "O'quvchi xulqini o'rganish uchun",
+    "O'quvchini jazolash uchun",
+    "Faqat baho qo'yish uchun",
+    "Ota-onadan to'lov undirish uchun"
+   ],
+   "e": "Pedagogik tashxis."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Individual yondashuv nimani anglatadi?",
+   "a": [
+    "Har bir bolaning xususiyatini hisobga olish",
+    "Barcha bolalarga bir xil talab qo'yish, istisnosiz",
+    "Faqat a'lochilar bilan ishlash",
+    "Faqat qoloq o'quvchilarni jazolash"
+   ],
+   "e": "Shaxsga yo'naltirilgan tarbiya."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Tarbiyada izchillik tamoyili nimani talab qiladi?",
+   "a": [
+    "Ta'sirlarning muntazam va uzluksiz bo'lishini",
+    "Tarbiyaviy ishni vaqti-vaqti bilan bajarishni",
+    "Faqat bayramlarda tadbir o'tkazishni",
+    "Talablarni har kuni o'zgartirishni"
+   ],
+   "e": "Tizimlilik."
+  },
+  {
+   "b": "Tarbiya metodlari va shakllari",
+   "q": "Oila, maktab va mahalla hamkorligi nima uchun muhim?",
+   "a": [
+    "Tarbiyaviy ta'sirlarning birligini ta'minlash uchun",
+    "Faqat moliyaviy yordam olish maqsadida",
+    "Bir-birining faoliyatini nazorat qilish uchun",
+    "Tarbiya mas'uliyatini boshqaga yuklash uchun"
+   ],
+   "e": "Yagona talablar."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Fozil odamlar shahri\" asarining muallifi kim?",
+   "a": [
+    "Abu Nasr Forobiy",
+    "Abu Ali ibn Sino",
+    "Abu Rayhon Beruniy",
+    "Yusuf Xos Hojib"
+   ],
+   "e": "Ideal jamiyat va komil inson haqida."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "Abu Nasr Forobiy Sharqda qanday nom bilan ulug'langan?",
+   "a": [
+    "\"Ikkinchi muallim\"",
+    "\"Shayx ur-rais\"",
+    "\"Sohibqiron\"",
+    "\"Mirzo\""
+   ],
+   "e": "Birinchi muallim — Arastu."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "Ibn Sino oila tarbiyasiga oid qaysi risolani yozgan?",
+   "a": [
+    "\"Tadbiri manzil\"",
+    "\"Fozil odamlar shahri\"",
+    "\"Mahbub ul-qulub\"",
+    "\"Hibat ul-haqoyiq\""
+   ],
+   "e": "Oilani boshqarish va bola tarbiyasi."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "Abu Ali ibn Sino qanday faxriy nom bilan atalgan?",
+   "a": [
+    "\"Shayx ur-rais\"",
+    "\"Ikkinchi muallim\"",
+    "\"Ustozi avval\"",
+    "\"Sulton ul-ulamo\""
+   ],
+   "e": "Olimlar sardori."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Qutadg'u bilig\" asarining muallifi kim?",
+   "a": [
+    "Yusuf Xos Hojib",
+    "Ahmad Yugnakiy",
+    "Mahmud Koshg'ariy",
+    "Kaykovus"
+   ],
+   "e": "XI asr, \"Baxtga eltuvchi bilim\"."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Qutadg'u bilig\" nomi qanday ma'noni anglatadi?",
+   "a": [
+    "Baxtga eltuvchi bilim",
+    "Haqiqatlar armug'oni",
+    "Qalblar sevgani",
+    "Yaxshilar bog'i"
+   ],
+   "e": "Turkiy didaktik doston."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Hibat ul-haqoyiq\" asarining muallifi kim?",
+   "a": [
+    "Ahmad Yugnakiy",
+    "Yusuf Xos Hojib",
+    "Alisher Navoiy",
+    "Abdulla Avloniy"
+   ],
+   "e": "\"Haqiqatlar armug'oni\"."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Qobusnoma\" asari kimga nasihat sifatida yozilgan?",
+   "a": [
+    "Muallifning o'g'liga",
+    "Podshohning vaziriga",
+    "Shogirdlar jamoasiga",
+    "Muallifning ustoziga"
+   ],
+   "e": "Kaykovus o'g'li Gilonshohga."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Mahbub ul-qulub\" asarining muallifi kim?",
+   "a": [
+    "Alisher Navoiy",
+    "Zahiriddin Bobur",
+    "Abdurahmon Jomiy",
+    "Lutfiy"
+   ],
+   "e": "Axloqiy-ta'limiy asar."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Mahbub ul-qulub\" nomi qanday tarjima qilinadi?",
+   "a": [
+    "Qalblar sevgani",
+    "Baxtga eltuvchi bilim",
+    "Hayratlar ezguligi",
+    "Haqiqatlar armug'oni"
+   ],
+   "e": "1500-yil atrofida yozilgan."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Turkiy guliston yoxud axloq\" asarining muallifi kim?",
+   "a": [
+    "Abdulla Avloniy",
+    "Mahmudxo'ja Behbudiy",
+    "Abdurauf Fitrat",
+    "Munavvar qori"
+   ],
+   "e": "1913-yil."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Tarbiya biz uchun yo hayot — yo mamot, yo najot — yo halokat, yo saodat — yo falokat masalasidir\" degan fikr kimga tegishli?",
+   "a": [
+    "Abdulla Avloniy",
+    "Alisher Navoiy",
+    "Abu Nasr Forobiy",
+    "Amir Temur"
+   ],
+   "e": "\"Turkiy guliston yoxud axloq\"."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "Abdulla Avloniy xulqlarni qanday guruhlarga ajratgan?",
+   "a": [
+    "Yaxshi va yomon xulqlar",
+    "Shahar va qishloq xulqlari",
+    "Erkak va ayol xulqlari",
+    "Boy va kambag'al xulqlari"
+   ],
+   "e": "Fazilat va illatlar."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "Jadidchilik harakatining asosiy maqsadlaridan biri nima edi?",
+   "a": [
+    "Yangi usul maktablari orqali ma'rifat tarqatish",
+    "Barcha maktablarni yopib, savodsizlikni saqlash",
+    "Faqat savdo-sotiqni rivojlantirish",
+    "Faqat harbiy qo'shin tuzish"
+   ],
+   "e": "Usuli jadid."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Padarkush\" dramasining muallifi kim?",
+   "a": [
+    "Mahmudxo'ja Behbudiy",
+    "Abdulla Qodiriy",
+    "Cho'lpon",
+    "Hamza Hakimzoda Niyoziy"
+   ],
+   "e": "Ilk o'zbek dramasi, ta'lim ahamiyati haqida."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "Abdurauf Fitratning oila tarbiyasiga bag'ishlangan asari qaysi?",
+   "a": [
+    "\"Oila yoki oila boshqarish tartiblari\"",
+    "\"Turkiy guliston\"",
+    "\"Qobusnoma\"",
+    "\"Tadbiri manzil\""
+   ],
+   "e": "1916-yil."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "Imom Buxoriyning odob-axloqqa bag'ishlangan asari qaysi?",
+   "a": [
+    "\"Al-adab al-mufrad\"",
+    "\"Tib qonunlari\"",
+    "\"Mezon ul-avzon\"",
+    "\"Hayrat ul-abror\""
+   ],
+   "e": "Odob haqidagi hadislar."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Dil ba yoru dast ba kor\" (Ko'ngil Allohda, qo'l mehnatda) shiori qaysi allomaga tegishli?",
+   "a": [
+    "Bahouddin Naqshband",
+    "Ahmad Yassaviy",
+    "Najmiddin Kubro",
+    "Imom Moturidiy"
+   ],
+   "e": "Mehnatsevarlik g'oyasi."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Boburnoma\" qaysi janrdagi asar?",
+   "a": [
+    "Memuar (tarixiy-avtobiografik)",
+    "She'riy doston",
+    "Tibbiy qo'llanma",
+    "Diniy tafsir"
+   ],
+   "e": "Zahiriddin Muhammad Bobur."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "Mirzo Ulug'bek davrida Samarqandda qurilgan ta'lim maskani qaysi?",
+   "a": [
+    "Ulug'bek madrasasi",
+    "Ko'kaldosh madrasasi",
+    "Mir Arab madrasasi",
+    "Sherdor madrasasi"
+   ],
+   "e": "1417–1420-yillar."
+  },
+  {
+   "b": "Sharq allomalarining tarbiyaviy merosi",
+   "q": "\"Devonu lug'otit turk\" asarining muallifi kim?",
+   "a": [
+    "Mahmud Koshg'ariy",
+    "Yusuf Xos Hojib",
+    "Ahmad Yugnakiy",
+    "Alisher Navoiy"
+   ],
+   "e": "Turkiy tillar lug'ati, maqollar."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "\"Buyuk didaktika\" asarining muallifi kim?",
+   "a": [
+    "Yan Amos Komenskiy",
+    "Jan Jak Russo",
+    "Iogann Pestalotsi",
+    "Konstantin Ushinskiy"
+   ],
+   "e": "Sinf-dars tizimi asoschisi."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "Sinf-dars tizimini asoslab bergan pedagog kim?",
+   "a": [
+    "Ya.A. Komenskiy",
+    "A.S. Makarenko",
+    "J. Lokk",
+    "F. Frebel"
+   ],
+   "e": "XVII asr."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "\"Emil yoki tarbiya haqida\" asarining muallifi kim?",
+   "a": [
+    "Jan Jak Russo",
+    "Jon Lokk",
+    "Iogann Pestalotsi",
+    "Adolf Disterveg"
+   ],
+   "e": "Tabiiy tarbiya g'oyasi."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "\"Pedagogik doston\" asarining muallifi kim?",
+   "a": [
+    "A.S. Makarenko",
+    "V.A. Suxomlinskiy",
+    "K.D. Ushinskiy",
+    "L.N. Tolstoy"
+   ],
+   "e": "Jamoa tarbiyasi."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "\"Yuragimni bolalarga bag'ishlayman\" asarining muallifi kim?",
+   "a": [
+    "V.A. Suxomlinskiy",
+    "A.S. Makarenko",
+    "Ya.A. Komenskiy",
+    "J.J. Russo"
+   ],
+   "e": "Insonparvar pedagogika."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "\"Inson tarbiya predmeti sifatida\" asarining muallifi kim?",
+   "a": [
+    "K.D. Ushinskiy",
+    "A.S. Makarenko",
+    "V.A. Suxomlinskiy",
+    "Ya.A. Komenskiy"
+   ],
+   "e": "Pedagogik antropologiya."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "Birinchi \"bolalar bog'chasi\" (Kindergarten) tushunchasini kiritgan pedagog kim?",
+   "a": [
+    "Fridrix Frebel",
+    "Mariya Montessori",
+    "Jon Dyui",
+    "Jan Jak Russo"
+   ],
+   "e": "XIX asr, Germaniya."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "Mariya Montessori pedagogikasining asosiy g'oyasi nima?",
+   "a": [
+    "Bolaning mustaqil faoliyatini rivojlantirish",
+    "Qattiq intizom va jismoniy jazoga tayanish",
+    "Faqat yodlash orqali bilim berish",
+    "Bolani o'yin faoliyatidan chetlatish"
+   ],
+   "e": "Tayyorlangan muhit."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "\"Tarbiya haqida fikrlar\" asarining muallifi kim?",
+   "a": [
+    "Jon Lokk",
+    "Jan Jak Russo",
+    "Fridrix Frebel",
+    "Iogann Herbart"
+   ],
+   "e": "Jentlmen tarbiyasi."
+  },
+  {
+   "b": "Jahon pedagogikasi tarixi",
+   "q": "Iogann Pestalotsi qanday ta'lim g'oyasini ilgari surgan?",
+   "a": [
+    "Rivojlantiruvchi, tabiatga mos boshlang'ich ta'lim",
+    "Faqat diniy ta'limni rivojlantirish",
+    "Faqat harbiy tarbiyaga e'tibor berish",
+    "Faqat oliy ta'limni isloh qilish"
+   ],
+   "e": "Elementar ta'lim nazariyasi."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Qadriyat nima?",
+   "a": [
+    "Inson va jamiyat uchun ahamiyatli narsa va g'oyalar",
+    "Bozordagi tovarlarning belgilangan narxi",
+    "Davlat tomonidan undiriladigan soliqlar",
+    "Eskirgan urf-odatlarning yozma ro'yxati"
+   ],
+   "e": "Moddiy va ma'naviy qadriyatlar."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Umuminsoniy qadriyatlarga nima kiradi?",
+   "a": [
+    "Hayot, tinchlik, erkinlik, ezgulik",
+    "Bir millatning o'ziga xos marosimlari",
+    "Bir oilaning avloddan avlodga o'tgan odati",
+    "Moda va kiyim tanlash an'anasi"
+   ],
+   "e": "Barcha xalqlar uchun umumiy."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Milliy qadriyatlarga misol qaysi?",
+   "a": [
+    "Mehmondo'stlik, kattalarga hurmat",
+    "Isrofgarchilik va dabdababozlik",
+    "Boshqalarni kamsitish va mensimaslik",
+    "Loqaydlik va befarqlik"
+   ],
+   "e": "O'zbek xalqining an'analari."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Ma'naviyat nima?",
+   "a": [
+    "Insonning ruhiy, axloqiy va intellektual boyligi",
+    "Insonning moddiy boyligi va mulki",
+    "Kiyinish va tashqi ko'rinish madaniyati",
+    "Jismoniy kuch va chidamlilik"
+   ],
+   "e": "Ichki dunyo."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Hashar qanday an'ana?",
+   "a": [
+    "Jamoa bo'lib beg'araz yordam berish",
+    "Yakka tartibda pul ishlab topish",
+    "Bayramlarda o'zaro sovg'a almashish",
+    "Haftalik savdo bozorining bir turi"
+   ],
+   "e": "O'zaro yordam."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Navro'z bayrami qachon nishonlanadi?",
+   "a": [
+    "21-mart",
+    "1-sentyabr",
+    "8-dekabr",
+    "9-may"
+   ],
+   "e": "Bahor bayrami, yangi kun."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Navro'z YuNESKOning qaysi ro'yxatiga kiritilgan?",
+   "a": [
+    "Nomoddiy madaniy meros",
+    "Yo'qolib borayotgan hayvonlar",
+    "Tabiiy meros obyektlari",
+    "Xalqaro sport tadbirlari"
+   ],
+   "e": "2009-yil."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Xotira va qadrlash kuni qachon nishonlanadi?",
+   "a": [
+    "9-may",
+    "1-iyun",
+    "21-mart",
+    "1-oktabr"
+   ],
+   "e": "Urushda halok bo'lganlar xotirasi."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "O'qituvchi va murabbiylar kuni qachon nishonlanadi?",
+   "a": [
+    "1-oktabr",
+    "1-sentyabr",
+    "8-mart",
+    "31-avgust"
+   ],
+   "e": "Ustozlar bayrami."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Mustaqillik kuni qachon nishonlanadi?",
+   "a": [
+    "1-sentyabr",
+    "31-avgust",
+    "8-dekabr",
+    "21-mart"
+   ],
+   "e": "Asosiy davlat bayrami."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Davlat ramzlariga hurmat nimada namoyon bo'ladi?",
+   "a": [
+    "Madhiya yangraganda o'rnidan turish",
+    "Davlat bayrog'ini e'tiborsiz yerga qo'yish",
+    "Madhiya yangraganda suhbatni davom ettirish",
+    "Davlat gerbi tasviridan hazil uchun foydalanish"
+   ],
+   "e": "Fuqarolik tarbiyasi."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Bag'rikenglik (tolerantlik) nima?",
+   "a": [
+    "Boshqalarning qarashlariga hurmat bilan munosabat",
+    "Boshqalarning fikriga mutlaqo toqat qilmaslik",
+    "O'z fikr va e'tiqodidan butunlay voz kechish",
+    "Har qanday qonunbuzarlikka indamay chidash"
+   ],
+   "e": "Millatlararo totuvlik."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Millatlararo totuvlik qanday qadriyat?",
+   "a": [
+    "Turli millat vakillarining do'stona hamjihatligi",
+    "Bir millatning boshqalardan ustunligini e'tirof etish",
+    "Millatlarning bir-biridan ajralib yashashi",
+    "Boshqa millat vakillariga befarq munosabat"
+   ],
+   "e": "O'zbekistonda 130 dan ortiq millat vakillari yashaydi."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Mehr-oqibat tushunchasi nimani anglatadi?",
+   "a": [
+    "Yaqinlarga g'amxo'rlik va hurmat",
+    "Faqat moddiy foyda ko'zlab munosabat qilish",
+    "Qarindoshlardan uzoqlashib yashash",
+    "Boshqalarning dardiga befarq qarash"
+   ],
+   "e": "Oilaviy qadriyat."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "\"Ustoz — otangdek ulug'\" maqoli qaysi qadriyatni ifodalaydi?",
+   "a": [
+    "Ustozni hurmat qilish",
+    "Mehnatni qadrlash",
+    "Tabiatni asrash",
+    "Vaqtni tejash"
+   ],
+   "e": "Xalq og'zaki ijodi."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "\"Mehnat — mehnatning tagi rohat\" maqoli qaysi fazilatga undaydi?",
+   "a": [
+    "Mehnatsevarlik",
+    "Dangasalik",
+    "Maqtanchoqlik",
+    "Isrofgarchilik"
+   ],
+   "e": "Mehnat tarbiyasi."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "\"Vatan — ostonadan boshlanadi\" degan ibora nimani anglatadi?",
+   "a": [
+    "Vatanga muhabbat oila va uydan boshlanadi",
+    "Vatan faqat davlat chegaralari bilan belgilanadi",
+    "Vatan tushunchasi faqat poytaxtga tegishli",
+    "Ostona uyning eng muhim qurilish qismi"
+   ],
+   "e": "Vatanparvarlik."
+  },
+  {
+   "b": "Milliy qadriyatlar va ma'naviyat",
+   "q": "Isrofgarchilikka qarshi tarbiya qaysi qadriyatga asoslanadi?",
+   "a": [
+    "Tejamkorlik va qanoat",
+    "Maqtanchoqlik",
+    "Hasadgo'ylik",
+    "Loqaydlik"
+   ],
+   "e": "To'y-marosimlarni ham tartibga solish."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Oila tarbiyasining asosiy vazifasi nima?",
+   "a": [
+    "Bolaning shaxsini oila muhitida shakllantirish",
+    "Faqat bolani o'z vaqtida ovqatlantirish",
+    "Faqat maktab vazifalarini bajartirish",
+    "Bolani tengdoshlaridan ajratib saqlash"
+   ],
+   "e": "Birlamchi tarbiya instituti."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Oilada ota-onaning shaxsiy namunasi nima uchun muhim?",
+   "a": [
+    "Bolalar kattalarga taqlid qiladi",
+    "Bolalar faqat kitobdan o'rganadi",
+    "Namuna tarbiyaga ta'sir qilmaydi",
+    "Faqat maktab o'qituvchisi namuna bo'ladi"
+   ],
+   "e": "Namuna orqali tarbiya."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Oilada farzandlarga mehnat vazifalari berishning maqsadi nima?",
+   "a": [
+    "Mas'uliyat va mustaqillikni shakllantirish",
+    "Bolani xatolari uchun jazolash",
+    "Ota-onaning ko'proq dam olishi uchun",
+    "Bolani darslardan chalg'itish uchun"
+   ],
+   "e": "Yoshiga mos topshiriqlar."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Oilaviy muloqotda nimaga e'tibor berish kerak?",
+   "a": [
+    "Hurmat, tinglash va samimiylik",
+    "Baqirish va tahdid",
+    "Bolaning fikrini inobatga olmaslik",
+    "Faqat tanqid qilish"
+   ],
+   "e": "Ijobiy psixologik muhit."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Bola tarbiyasida ota-onaning talablari qanday bo'lishi kerak?",
+   "a": [
+    "Bir xil va izchil",
+    "\"Kitob ash-shifo\"",
+    "\"Qutadg'u bilig\"",
+    "\"Boburnoma\""
+   ],
+   "e": "Yagona talablar."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Bolaga haddan tashqari erkalik (gipervasiylik) nimaga olib kelishi mumkin?",
+   "a": [
+    "Mustaqillikning yetishmasligiga",
+    "Kuchli iroda va qat'iyatlilikka",
+    "Yuqori mas'uliyat hissiga",
+    "Mustaqil qaror qabul qila olishga"
+   ],
+   "e": "Tarbiya xatosi."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Oilada kitobxonlik madaniyatini shakllantirishning eng samarali usuli qaysi?",
+   "a": [
+    "Ota-onaning o'zi kitob o'qishi va birga o'qish",
+    "Kitob o'qimagani uchun bolani jazolash",
+    "Uyda umuman kitob saqlamaslik",
+    "Faqat telefon o'yinlariga ruxsat berish"
+   ],
+   "e": "Oilaviy mutolaa."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Qaysi asarda oila boshqarish va bola tarbiyasi haqida Ibn Sino fikr yuritgan?",
+   "a": [
+    "\"Tadbiri manzil\"",
+    "\"Kitob ash-shifo\" faqat falsafa",
+    "\"Qutadg'u bilig\"",
+    "\"Boburnoma\""
+   ],
+   "e": "Oilaviy tarbiya."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Gender tenglik tarbiyasi nimani anglatadi?",
+   "a": [
+    "Qiz va o'g'il bolalarga teng imkoniyat",
+    "Faqat o'g'il bolalarga ta'lim berish",
+    "Qizlarni ta'limdan chetlatish",
+    "Faqat qizlarga sport bilan shug'ullanish"
+   ],
+   "e": "Konstitutsiyaviy tenglik."
+  },
+  {
+   "b": "Oila tarbiyasi",
+   "q": "Oilada farzandga moliyaviy savodxonlikni qanday o'rgatish mumkin?",
+   "a": [
+    "Cho'ntak puli va xarajatlarni rejalashtirish orqali",
+    "Pul haqida bola bilan umuman gaplashmaslik",
+    "Bolaning har qanday istagini so'zsiz bajarish",
+    "Bolaga faqat qarz olishni o'rgatish"
+   ],
+   "e": "Iqtisodiy tarbiya."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Media savodxonlik nima?",
+   "a": [
+    "Axborotni tanqidiy tahlil qilish ko'nikmasi",
+    "Ijtimoiy tarmoqda ko'p vaqt o'tkazish odati",
+    "Har qanday xabarni darhol tarqatish istagi",
+    "Faqat televizor ko'rishni yoqtirish"
+   ],
+   "e": "Yolg'on xabarlarni ajrata olish."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Feyk (soxta) xabarni aniqlashning birinchi qadami qaysi?",
+   "a": [
+    "Manbaning ishonchliligini tekshirish",
+    "Xabarni tekshirmay darhol do'stlarga yuborish",
+    "Faqat sarlavhani o'qib, mazmuniga ishonish",
+    "Ko'p \"layk\" yig'gani uchun haqiqat deb bilish"
+   ],
+   "e": "Rasmiy manbalar bilan solishtirish."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Kiberbulling nima?",
+   "a": [
+    "Internet orqali tahqirlash va ta'qib qilish",
+    "Kompyuter o'yinlarida raqibdan g'olib chiqish",
+    "Onlayn darslarda faol qatnashib baho olish",
+    "Elektron pochta orqali rasmiy xat yozish"
+   ],
+   "e": "Psixologik zo'ravonlik shakli."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "O'quvchi kiberbullingga uchrasa, birinchi navbatda nima qilishi kerak?",
+   "a": [
+    "Kattalarga (ota-ona, o'qituvchiga) xabar berish",
+    "Javoban o'zi ham haqoratli xabar yozish",
+    "Hech kimga aytmay, sir saqlab yurish",
+    "Tahdid qilgan shaxsga shaxsiy ma'lumot yuborish"
+   ],
+   "e": "Dalillarni saqlash ham muhim."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Internetda shaxsiy ma'lumotlarni himoyalash uchun nima qilinmaydi?",
+   "a": [
+    "Parolni notanish odamlarga aytish",
+    "Murakkab parol qo'yish",
+    "Ikki bosqichli autentifikatsiyani yoqish",
+    "Notanish havolalarni ochmaslik"
+   ],
+   "e": "Raqamli gigiyena."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Kompyuter o'yinlariga haddan tashqari berilish qanday muammoga olib kelishi mumkin?",
+   "a": [
+    "Qaramlik va o'qishning pasayishi",
+    "Xotiraning cheksiz yaxshilanishi",
+    "Jismoniy sog'liqning mustahkamlanishi",
+    "Ijtimoiy faollikning keskin oshishi"
+   ],
+   "e": "Gaming disorder."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Giyohvandlikning oldini olish bo'yicha eng samarali yo'nalish qaysi?",
+   "a": [
+    "Profilaktika va sog'lom turmush tarziga o'rgatish",
+    "Muammo haqida bolalar bilan umuman gapirmaslik",
+    "Faqat jazo choralarini kuchaytirish",
+    "O'smirlarni bo'sh vaqtida nazoratsiz qoldirish"
+   ],
+   "e": "Erta profilaktika."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Diniy ekstremizmning tarbiyaviy profilaktikasi nimaga asoslanadi?",
+   "a": [
+    "Ma'rifat va to'g'ri diniy bilim",
+    "Barcha dinlarni taqiqlash",
+    "Yoshlarni jamiyatdan ajratish",
+    "Noma'lum saytlardan ma'lumot olish"
+   ],
+   "e": "\"Jaholatga qarshi ma'rifat\"."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "\"Jaholatga qarshi ma'rifat\" g'oyasi nimani anglatadi?",
+   "a": [
+    "Bilim va ma'naviyat orqali yot g'oyalarga qarshi turish",
+    "Bilimsizlik va loqaydlikni qo'llab-quvvatlash",
+    "Faqat qurolli kuch ishlatish orqali kurashish",
+    "Barcha diniy kitoblarni taqiqlab qo'yish"
+   ],
+   "e": "Davlat siyosatining tamoyili."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Spirtli ichimlik va tamaki mahsulotlarini voyaga yetmaganlarga sotish qanday baholanadi?",
+   "a": [
+    "Qonun bilan taqiqlanadi",
+    "Ota-ona roziligi bilan ruxsat etiladi",
+    "Bayramlarda ruxsat etiladi",
+    "Cheklov yo'q"
+   ],
+   "e": "Bola salomatligi."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Odam savdosi qurboniga aylanmaslik uchun yoshlar nimaga e'tibor berishi kerak?",
+   "a": [
+    "Chet elda ish taklifini rasmiy manbalardan tekshirishga",
+    "Pasportni notanish vositachiga topshirishga",
+    "Ijtimoiy tarmoqdagi har qanday taklifga ishonishga",
+    "Hujjatsiz, norasmiy yo'l bilan chet elga ketishga"
+   ],
+   "e": "Rasmiy mehnat migratsiyasi."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Huquqbuzarlikning oldini olishda maktab qanday rol o'ynaydi?",
+   "a": [
+    "Huquqiy tarbiya va bo'sh vaqtni mazmunli tashkil etish",
+    "Muammoli o'quvchilarni maktabdan chetlatish",
+    "Qiyin o'quvchilarga umuman e'tibor bermaslik",
+    "Har bir holatda o'quvchini militsiyaga topshirish"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "\"Xavf guruhi\"dagi o'quvchilar bilan ishlashda nima muhim?",
+   "a": [
+    "Individual yondashuv va psixologik yordam",
+    "Ularni sinfdan ajratib, boshqalardan farqlash",
+    "Ularni sinf oldida ochiq tanqid qilish",
+    "Ular bilan ishlashni butunlay to'xtatish"
+   ],
+   "e": "Ijtimoiy-pedagogik qo'llab-quvvatlash."
+  },
+  {
+   "b": "Zamonaviy tahdidlar va profilaktika",
+   "q": "Bulling (maktabda zo'ravonlik) aniqlansa, pedagog nima qilishi kerak?",
+   "a": [
+    "Darhol aralashib, vaziyatni bartaraf etish",
+    "Bolalarning o'zi hal qilishini kutib turish",
+    "Jabrlanuvchini vaziyatga sababchi deb ayblash",
+    "Voqea haqida hech kimga aytmaslik"
+   ],
+   "e": "Xavfsiz muhit."
+  },
+  {
+   "b": "Sog'lom turmush tarzi",
+   "q": "Sog'lom turmush tarzining asosiy tarkibiy qismlari qaysilar?",
+   "a": [
+    "Ovqatlanish, harakat, kun tartibi",
+    "Kechasi uxlamay o'yin o'ynash",
+    "Ovqatlanishni muntazam o'tkazib yuborish",
+    "Kun bo'yi harakatsiz o'tirish"
+   ],
+   "e": "Salomatlik asosi."
+  },
+  {
+   "b": "Sog'lom turmush tarzi",
+   "q": "O'quvchining kun tartibi nima uchun muhim?",
+   "a": [
+    "Charchoqning oldini oladi, samaradorlikni oshiradi",
+    "Bolaning erkinligini butunlay cheklaydi",
+    "Uyqu vaqtini sezilarli kamaytiradi",
+    "Darslarni o'zlashtirishga xalaqit beradi"
+   ],
+   "e": "Gigiyenik talab."
+  },
+  {
+   "b": "Sog'lom turmush tarzi",
+   "q": "Maktab yoshidagi bolalar uchun tavsiya etiladigan uyqu davomiyligi qancha?",
+   "a": [
+    "9–11 soat",
+    "4–5 soat",
+    "6 soatdan kam",
+    "14–16 soat"
+   ],
+   "e": "Yoshga qarab o'zgaradi."
+  },
+  {
+   "b": "Sog'lom turmush tarzi",
+   "q": "Shaxsiy gigiyena ko'nikmalariga nima kiradi?",
+   "a": [
+    "Qo'l yuvish, tish tozalash, toza kiyinish",
+    "Ovqatdan oldin qo'l yuvmaslik",
+    "Boshqa odamning tish cho'tkasidan foydalanish",
+    "Kiyimni yuvmasdan kiyish"
+   ],
+   "e": "Kasallik profilaktikasi."
+  },
+  {
+   "b": "Sog'lom turmush tarzi",
+   "q": "Jismoniy faollik o'smirlar uchun kuniga kamida qancha tavsiya etiladi (JSST)?",
+   "a": [
+    "60 daqiqa",
+    "5 daqiqa",
+    "10 daqiqa haftasiga bir marta",
+    "4 soat kompyuterda"
+   ],
+   "e": "O'rtacha va yuqori intensivlikda."
+  },
+  {
+   "b": "Sog'lom turmush tarzi",
+   "q": "Kompyuter bilan ishlashda ko'z sog'lig'ini saqlash uchun nima qilinadi?",
+   "a": [
+    "Muntazam tanaffus va ko'z mashqlari",
+    "Ekranga juda yaqin o'tirib ishlash",
+    "Qorong'i xonada yorug'liksiz ishlash",
+    "Tanaffussiz, ketma-ket ko'p soat ishlash"
+   ],
+   "e": "20-20-20 qoidasi."
+  },
+  {
+   "b": "Sog'lom turmush tarzi",
+   "q": "Fast-fud mahsulotlarini haddan tashqari iste'mol qilish nimaga olib keladi?",
+   "a": [
+    "Ortiqcha vazn va sog'liq muammolariga",
+    "Immunitetning cheksiz mustahkamlanishiga",
+    "Bo'yning tez o'sishiga",
+    "Xotiraning yaxshilanishiga"
+   ],
+   "e": "Muvozanatli ovqatlanish."
+  },
+  {
+   "b": "Ekologik va iqtisodiy tarbiya",
+   "q": "Orol dengizi muammosi qanday muammo?",
+   "a": [
+    "Ekologik falokat",
+    "Faqat iqtisodiy muvaffaqiyat",
+    "Sport sohasidagi muammo",
+    "Faqat madaniy tadbir"
+   ],
+   "e": "Dengizning qurishi."
+  },
+  {
+   "b": "Ekologik va iqtisodiy tarbiya",
+   "q": "Chiqindilarni saralab yig'ish nima uchun muhim?",
+   "a": [
+    "Qayta ishlash va tabiatni asrash uchun",
+    "Chiqindi miqdorini ko'paytirish uchun",
+    "Ko'cha va hovlilarni ifloslantirish uchun",
+    "Buning hech qanday ahamiyati yo'q"
+   ],
+   "e": "Ekologik madaniyat."
+  },
+  {
+   "b": "Ekologik va iqtisodiy tarbiya",
+   "q": "\"Yashil makon\" umummilliy loyihasining maqsadi nima?",
+   "a": [
+    "Daraxt va ko'chatlar ekib, yashil hududlarni ko'paytirish",
+    "Eski daraxtlarni kesib, joyni bo'shatish",
+    "Shahar atrofida yangi sanoat zavodlari qurish",
+    "Bog'larni avtomobil to'xtash joyiga aylantirish"
+   ],
+   "e": "Ekologik tarbiya."
+  },
+  {
+   "b": "Ekologik va iqtisodiy tarbiya",
+   "q": "Suvni tejash bo'yicha maktab o'quvchisi nima qila oladi?",
+   "a": [
+    "Jo'mrakni ochiq qoldirmaslik",
+    "Suvni behuda oqizish",
+    "Oqayotgan jo'mrakka e'tibor bermaslik",
+    "Ko'chani suv bilan yuvish"
+   ],
+   "e": "Kundalik odatlar."
+  },
+  {
+   "b": "Ekologik va iqtisodiy tarbiya",
+   "q": "Elektr energiyasini tejash odatiga misol qaysi?",
+   "a": [
+    "Xonadan chiqqanda chiroqni o'chirish",
+    "Kunduzi chiroqlarni yoqib qo'yish",
+    "Televizorni kechasi yoqilgan qoldirish",
+    "Oynani ochib, konditsionerni yoqish"
+   ],
+   "e": "Iqtisodiy tarbiya."
+  },
+  {
+   "b": "Ekologik va iqtisodiy tarbiya",
+   "q": "O'quvchilarda tadbirkorlik ko'nikmasini shakllantirishga misol qaysi?",
+   "a": [
+    "Maktab yarmarkasida kichik loyiha tashkil etish",
+    "Boshqa o'quvchining uy vazifasini ko'chirib olish",
+    "Darsdan qochib, vaqtni behuda o'tkazish",
+    "Boshqalarning g'oyasini o'ziniki qilib ko'rsatish"
+   ],
+   "e": "Amaliy iqtisodiy tarbiya."
+  },
+  {
+   "b": "Ekologik va iqtisodiy tarbiya",
+   "q": "Moliyaviy savodxonlikka nima kiradi?",
+   "a": [
+    "Daromad va xarajatni rejalashtirish, jamg'arish",
+    "Barcha pulni bir kunda sarflab yuborish",
+    "Har bir xaridni qarzga olib qilish",
+    "Daromad va xarajat hisobini yuritmaslik"
+   ],
+   "e": "Budjet tuzish."
+  },
+  {
+   "b": "Ekologik va iqtisodiy tarbiya",
+   "q": "Kredit olishda o'smirlarga qanday tushuncha berilishi kerak?",
+   "a": [
+    "Qarzni foizi bilan qaytarish majburiyati",
+    "Kreditni qaytarish shart emasligi",
+    "Kredit bankning bepul sovg'asi ekani",
+    "Kredit faqat voyaga yetmaganlarga berilishi"
+   ],
+   "e": "Mas'uliyatli moliyaviy xulq."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Sinf rahbarining asosiy vazifasi nima?",
+   "a": [
+    "Sinf jamoasini shakllantirish, tarbiyani tashkil etish",
+    "Faqat davomat jurnalini to'ldirib, boshqa ishga aralashmaslik",
+    "Faqat maktab xo'jalik ishlariga javob berish",
+    "Faqat imtihon savollarini tuzish"
+   ],
+   "e": "Tarbiyaviy ishning tashkilotchisi."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Sinf rahbari o'quvchini o'rganish uchun qaysi hujjatdan foydalanadi?",
+   "a": [
+    "Psixologik-pedagogik tavsifnoma",
+    "Maktab oshxonasining haftalik menyusi",
+    "Kutubxonadagi kitoblarning ro'yxati",
+    "Dars jadvalining ko'chirma nusxasi"
+   ],
+   "e": "Shaxsni o'rganish natijalari."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Ota-onalar majlisining asosiy maqsadi nima?",
+   "a": [
+    "Ta'lim-tarbiyada hamkorlik",
+    "Ota-onalardan pul yig'ish va hisobot so'rash",
+    "O'quvchilarni ota-onalar oldida uyaltirish",
+    "Faqat yaxshi baholarni e'lon qilish"
+   ],
+   "e": "Pedagogik hamkorlik."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Ota-onalar bilan individual suhbatda nimaga rioya qilinadi?",
+   "a": [
+    "Xushmuomalalik va maxfiylik",
+    "Boshqa ota-onalar oldida tanqid",
+    "Bolani faqat ayblash",
+    "Suhbat mazmunini hammaga aytish"
+   ],
+   "e": "Pedagogik odob."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Uyga tashrif (oilani o'rganish) nima maqsadda o'tkaziladi?",
+   "a": [
+    "Oilaviy muhitni bilish",
+    "Oila a'zolarini nazorat qilish va tergov qilish",
+    "Ota-onadan sovg'a olish",
+    "Uy jihozlarini baholash"
+   ],
+   "e": "Individual yondashuv uchun."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "O'quvchilar o'zini o'zi boshqarish organi nima beradi?",
+   "a": [
+    "Tashabbuskorlik va mas'uliyatni rivojlantiradi",
+    "O'qituvchini sinf ishlaridan ozod qiladi",
+    "O'quvchilar o'rtasida nizolarni kuchaytiradi",
+    "Darslarni bekor qilish huquqini beradi"
+   ],
+   "e": "Demokratik tarbiya."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Sinf jamoasini shakllantirishda dastlabki bosqichda kim yetakchilik qiladi?",
+   "a": [
+    "Sinf rahbari",
+    "Eng kichik o'quvchi",
+    "Tasodifiy tanlangan ota-ona",
+    "Maktab qorovuli"
+   ],
+   "e": "Keyin faollar ishga tushadi."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Sinf rahbarining yillik ish rejasi nimani o'z ichiga oladi?",
+   "a": [
+    "Tarbiyaviy tadbirlar, mavzular va muddatlar",
+    "Faqat o'quvchilarning uy manzillari",
+    "Faqat haftalik dars jadvali",
+    "Faqat maktabning moliyaviy hisoboti"
+   ],
+   "e": "Rejalashtirish."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Sinf soatining mavzusi qanday tanlanadi?",
+   "a": [
+    "O'quvchilar yoshi va ehtiyojlariga mos",
+    "Tasodifiy, hech qanday maqsadsiz",
+    "Faqat o'qituvchining shaxsiy qiziqishiga ko'ra",
+    "Faqat o'tgan yilgi mavzular takrorlanadi"
+   ],
+   "e": "Dolzarblik."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "O'quvchilar davomatini nazorat qilishda sinf rahbari nima qiladi?",
+   "a": [
+    "Sababini aniqlab, ota-ona bilan bog'lanadi",
+    "Sababsiz qatnashmaslikka e'tibor bermaydi",
+    "O'quvchini darhol maktabdan chiqaradi",
+    "Faqat jurnalga belgi qo'yib, chora ko'rmaydi"
+   ],
+   "e": "Profilaktik ish."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Kasbga yo'naltirish ishining maqsadi nima?",
+   "a": [
+    "Mos kasb tanlashga yordam berish",
+    "O'quvchiga majburan kasb tanlab berish",
+    "Barcha o'quvchilarni bitta kasbga yo'naltirish",
+    "Kasb tanlashni ota-onaga to'liq qoldirish"
+   ],
+   "e": "Kasbiy tashxis va maslahat."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Iqtidorli o'quvchilar bilan ishlashda nima muhim?",
+   "a": [
+    "Qobiliyatini rivojlantiruvchi qo'shimcha imkoniyatlar",
+    "Ularni boshqalardan ajratib, maqtanchoqlikka o'rgatish",
+    "Ularga qo'shimcha vazifa bermaslik",
+    "Ularni boshqa o'quvchilarga qarshi qo'yish"
+   ],
+   "e": "Olimpiadalar, to'garaklar."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "O'quvchilar bilan tarbiyaviy suhbat qanday tashkil etiladi?",
+   "a": [
+    "Ishonchli muhitda, ochiq muloqot shaklida",
+    "Baqirib, qo'rqitish orqali",
+    "Faqat yozma buyruq shaklida",
+    "Boshqa o'quvchilar oldida tanbeh sifatida"
+   ],
+   "e": "Ishontirish metodi."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Yoshlar ittifoqi qanday tashkilot?",
+   "a": [
+    "Yoshlarning jamoat birlashmasi",
+    "Davlat soliq xizmatining bo'limi",
+    "Xususiy savdo korxonasi",
+    "Harbiy qism va bo'linma"
+   ],
+   "e": "Yoshlar manfaatlarini ifoda etadi."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "\"Kamalak\" bolalar tashkiloti qaysi yoshdagi bolalarni birlashtiradi?",
+   "a": [
+    "Maktab yoshidagi bolalar",
+    "Faqat talabalar",
+    "Faqat nafaqaxo'rlar",
+    "Faqat harbiy xizmatchilar"
+   ],
+   "e": "Bolalar tashkiloti."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "\"Yoshlarga oid davlat siyosati to'g'risida\"gi qonun qachon qabul qilingan?",
+   "a": [
+    "2016-yil",
+    "1991-yil",
+    "2005-yil",
+    "2023-yil"
+   ],
+   "e": "2016-yil 14-sentyabr."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Qonunga ko'ra \"yoshlar\" necha yoshgacha bo'lgan shaxslar hisoblanadi?",
+   "a": [
+    "30 yoshgacha (30 yosh kiradi)",
+    "18 yoshgacha, voyaga yetguncha",
+    "25 yoshgacha, oliy ta'lim tugaguncha",
+    "40 yoshgacha, o'rta yoshgacha"
+   ],
+   "e": "14 yoshdan 30 yoshgacha."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Maktabda tarbiyaviy ishlar bo'yicha direktor o'rinbosarining vazifasi nima?",
+   "a": [
+    "Maktabdagi tarbiyaviy ishlarni muvofiqlashtirish",
+    "Faqat maktab oshxonasi ishini boshqarish",
+    "Faqat sport zalini ta'mirlashni tashkil etish",
+    "Faqat dars jadvalini tuzib chiqish"
+   ],
+   "e": "Ma'naviy-ma'rifiy ishlar."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Maktab psixologining tarbiyadagi roli nima?",
+   "a": [
+    "Psixologik holatni o'rganish va yordam",
+    "O'quvchilarga baho qo'yish",
+    "Darslarni o'qitish",
+    "Maktab xo'jaligini boshqarish"
+   ],
+   "e": "Psixologik xizmat."
+  },
+  {
+   "b": "Sinf rahbari faoliyati",
+   "q": "Ota-onalar universiteti (yoki pedagogik ta'lim) nimaga xizmat qiladi?",
+   "a": [
+    "Pedagogik madaniyatni oshirishga",
+    "Ota-onalarga diplom berishga",
+    "Ota-onalarni imtihondan o'tkazishga",
+    "Ota-onalardan to'lov undirishga"
+   ],
+   "e": "Oila-maktab hamkorligi."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Kichik maktab yoshi qaysi davrni o'z ichiga oladi?",
+   "a": [
+    "6–7 yoshdan 10–11 yoshgacha",
+    "1 yoshdan 3 yoshgacha bo'lgan davr",
+    "15 yoshdan 18 yoshgacha bo'lgan davr",
+    "20 yoshdan 25 yoshgacha bo'lgan davr"
+   ],
+   "e": "Boshlang'ich sinflar."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Kichik maktab yoshidagi yetakchi faoliyat qaysi?",
+   "a": [
+    "O'quv faoliyati",
+    "O'yin faoliyati",
+    "Mehnat faoliyati",
+    "Kasbiy faoliyat"
+   ],
+   "e": "Maktabgacha yoshda — o'yin."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Maktabgacha yoshdagi bolaning yetakchi faoliyati qaysi?",
+   "a": [
+    "O'yin",
+    "O'quv faoliyati",
+    "Kasbiy faoliyat",
+    "Ilmiy tadqiqot"
+   ],
+   "e": "L.S. Vigotskiy, D.B. Elkonin."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "O'smirlik davri qaysi yoshlarni o'z ichiga oladi?",
+   "a": [
+    "Taxminan 11–15 yosh",
+    "Taxminan 3–6 yosh",
+    "Taxminan 20–30 yosh",
+    "Taxminan 40–50 yosh"
+   ],
+   "e": "Keyin ilk o'spirinlik."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "O'smirlik davrining asosiy psixologik xususiyati qaysi?",
+   "a": [
+    "Kattalik hissi va mustaqillikka intilish",
+    "Kattalarga to'liq bog'liqlik va itoatkorlik",
+    "Qiziqishlarning butunlay yo'qolishi",
+    "Tengdoshlar bilan muloqotga ehtiyoj yo'qligi"
+   ],
+   "e": "\"O'tish davri\"."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "O'smirlar uchun eng muhim muloqot doirasi qaysi?",
+   "a": [
+    "Tengdoshlar bilan muloqot",
+    "Faqat o'qituvchi bilan rasmiy muloqot",
+    "Faqat kichik bolalar bilan muloqot",
+    "Faqat notanish kattalar bilan"
+   ],
+   "e": "Yetakchi faoliyat — intim-shaxsiy muloqot."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Temperamentning qaysi turi tez, harakatchan va jo'shqin bo'ladi?",
+   "a": [
+    "Xolerik",
+    "Flegmatik",
+    "Melanxolik",
+    "Sangvinik bo'lmagan barcha turlar"
+   ],
+   "e": "Gippokrat tasnifi."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Temperamentning qaysi turi sokin, vazmin va sekin bo'ladi?",
+   "a": [
+    "Flegmatik",
+    "Xolerik",
+    "Sangvinik",
+    "Ekstravert xolerik"
+   ],
+   "e": "Barqaror kayfiyat."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Tez ta'sirlanuvchan, ta'sirchan va xavotirli temperament qaysi?",
+   "a": [
+    "Melanxolik",
+    "Sangvinik",
+    "Flegmatik",
+    "Xolerik"
+   ],
+   "e": "Nozik qalbli."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Quvnoq, muloqotga moyil va muvozanatli temperament qaysi?",
+   "a": [
+    "Sangvinik",
+    "Melanxolik",
+    "Flegmatik",
+    "Xolerik"
+   ],
+   "e": "Faol va barqaror."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Xarakter temperamentdan nimasi bilan farq qiladi?",
+   "a": [
+    "Tarbiya va hayot tajribasida shakllanadi",
+    "Faqat tug'ma bo'lib, umr bo'yi o'zgarmaydi",
+    "Faqat asab tizimining turiga bog'liq bo'ladi",
+    "Shaxsning xulq-atvoriga hech ta'sir qilmaydi"
+   ],
+   "e": "Temperament — tug'ma asos."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "A. Maslou ehtiyojlar ierarxiyasining asosida qaysi ehtiyoj turadi?",
+   "a": [
+    "Fiziologik ehtiyojlar",
+    "O'zini namoyon etish ehtiyoji",
+    "Hurmat qozonish ehtiyoji",
+    "Ijtimoiy ehtiyojlar"
+   ],
+   "e": "Piramida asosi."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Maslou piramidasining eng yuqori pog'onasi qaysi?",
+   "a": [
+    "O'zini namoyon etish",
+    "Xavfsizlik ehtiyoji",
+    "Fiziologik ehtiyojlar",
+    "Mansublik ehtiyoji"
+   ],
+   "e": "Shaxs salohiyatini ro'yobga chiqarish."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Ichki motivatsiya nima?",
+   "a": [
+    "Faoliyatning o'ziga qiziqish",
+    "Faqat mukofot uchun harakat",
+    "Jazodan qo'rqib bajarish",
+    "Boshqalar majburlagani uchun bajarish"
+   ],
+   "e": "Eng barqaror motiv."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Tashqi motivatsiyaga misol qaysi?",
+   "a": [
+    "Yaxshi baho yoki sovg'a uchun o'qish",
+    "Bilimga bo'lgan qiziqish tufayli o'qish",
+    "Yangi narsani kashf qilish quvonchi uchun",
+    "Mavzuning o'zi yoqqani uchun o'qish"
+   ],
+   "e": "Rag'bat yoki jazo."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Vigotskiyning \"yaqin rivojlanish zonasi\" tushunchasi nimani anglatadi?",
+   "a": [
+    "Bola kattalar yordamida bajara oladigan vazifalar darajasi",
+    "Bola hech kimning yordamisiz bajaradigan vazifalar",
+    "Bola hech qachon bajara olmaydigan vazifalar",
+    "Bola yashaydigan uyga yaqin hudud"
+   ],
+   "e": "Ta'lim rivojlanishdan oldinda yurishi kerak."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Shaxsning o'z-o'zini baholashi past bo'lsa, pedagog nima qilishi kerak?",
+   "a": [
+    "Muvaffaqiyat vaziyatlarini yaratish",
+    "Uni tez-tez tanqid qilish",
+    "Uni boshqalar bilan solishtirib kamsitish",
+    "Unga e'tibor bermaslik"
+   ],
+   "e": "Ijobiy qo'llab-quvvatlash."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Empatiya nima?",
+   "a": [
+    "Boshqaning his-tuyg'ularini tushunish va hamdardlik",
+    "O'z manfaatini har doim birinchi o'ringa qo'yish",
+    "Boshqalarning his-tuyg'ulariga befarq bo'lish",
+    "O'z hissiyotlarini butunlay bostirib yashash"
+   ],
+   "e": "Pedagogning muhim sifati."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Emotsional intellekt nimani o'z ichiga oladi?",
+   "a": [
+    "O'z va boshqalarning his-tuyg'ularini anglash va boshqarish",
+    "Faqat matematik masalalarni tez yechish qobiliyati",
+    "Faqat katta hajmdagi matnni yodlash qobiliyati",
+    "Faqat jismoniy chaqqonlik va kuch"
+   ],
+   "e": "D. Goulman."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Pedagogik nizoni hal qilishda eng samarali uslub qaysi?",
+   "a": [
+    "Hamkorlik",
+    "Raqobat va kuch ishlatish",
+    "Muammodan qochish",
+    "Har doim yon berish"
+   ],
+   "e": "Tomas–Kilmen modeli."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Deviant xulq nima?",
+   "a": [
+    "Ijtimoiy me'yorlardan og'ishgan xulq",
+    "Namunali va intizomli xulq-atvor",
+    "Darslarni yuqori darajada o'zlashtirish",
+    "Jamoat ishlarida faol ishtirok etish"
+   ],
+   "e": "Profilaktika talab qiladi."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Giperaktiv bola bilan ishlashda nima tavsiya etiladi?",
+   "a": [
+    "Qisqa topshiriqlar va harakatli tanaffuslar",
+    "Uzoq vaqt qimirlamay o'tirishga majburlash",
+    "Har bir harakati uchun doimiy tanbeh berish",
+    "Darsdan sinfdan chiqarib yuborish"
+   ],
+   "e": "Diqqatni boshqarish."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Diqqatning qaysi turi irodaviy kuch talab qiladi?",
+   "a": [
+    "Ixtiyoriy diqqat",
+    "Ixtiyorsiz diqqat",
+    "Tasodifiy diqqat",
+    "Reflektor diqqat"
+   ],
+   "e": "Maqsadga yo'naltirilgan."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Xotira turlaridan qaysi biri mazmunni tushunishga asoslanadi?",
+   "a": [
+    "Mantiqiy (ma'noli) xotira",
+    "Mexanik xotira",
+    "Motor xotira",
+    "Qisqa muddatli xotira"
+   ],
+   "e": "Samarali yodlash."
+  },
+  {
+   "b": "Yosh va pedagogik psixologiya",
+   "q": "Pigmalion effekti (Rozental effekti) nimani anglatadi?",
+   "a": [
+    "Pedagogning kutishi o'quvchi natijasiga ta'sir qiladi",
+    "O'quvchi o'ziga o'qituvchini tanlay oladi",
+    "A'lochi o'quvchilar har doim omadli bo'ladi",
+    "Baho o'quvchi xulqiga hech ta'sir qilmaydi"
+   ],
+   "e": "Ijobiy kutish — yaxshi natija."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "\"Aqliy hujum\" (breynstorming) metodining asosiy qoidasi qaysi?",
+   "a": [
+    "G'oyalar dastlab tanqid qilinmaydi",
+    "Faqat eng yaxshi o'quvchi gapiradi",
+    "Har bir g'oya darhol baholanadi",
+    "G'oyalar soni cheklanadi"
+   ],
+   "e": "Ko'p g'oya to'plash."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "\"Klaster\" metodi nima?",
+   "a": [
+    "Tushunchalar o'rtasidagi bog'lanishni grafik ifodalash",
+    "Real vaziyatni tahlil qilib, yechim topish",
+    "Ikki tushunchani kesishgan doiralarda taqqoslash",
+    "Matnni maxsus belgilar qo'yib o'qish"
+   ],
+   "e": "G'oyalar to'dasi."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "\"Keys-stadi\" metodi nimaga asoslanadi?",
+   "a": [
+    "Real vaziyatni tahlil qilib yechim topish",
+    "Tushunchalar bog'lanishini grafik tarmoqda ko'rsatish",
+    "Ikki tushunchani doiralar orqali taqqoslash",
+    "G'oyalarni tanqidsiz, erkin to'plash"
+   ],
+   "e": "Vaziyatli o'qitish."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Venn diagrammasi qanday maqsadda qo'llanadi?",
+   "a": [
+    "Ikki yoki undan ortiq tushunchani taqqoslash",
+    "Tushunchalar bog'lanishini tarmoq shaklida chizish",
+    "Matnni maxsus belgilar qo'yib tahlil qilish",
+    "Mavzu qismlarini o'rganib, bir-biriga o'rgatish"
+   ],
+   "e": "Umumiy va farqli jihatlar."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "\"Insert\" metodi qanday ishlaydi?",
+   "a": [
+    "Matnni belgilar qo'yib o'qish va tahlil qilish",
+    "Tushunchalarni kesishgan doiralarda taqqoslash",
+    "Real hayotiy vaziyatni tahlil qilish",
+    "G'oyalarni kartochkalarga yozib guruhlash"
+   ],
+   "e": "V, +, −, ? belgilari."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "\"Bilaman — Bilishni xohlayman — Bilib oldim\" (BBB) jadvali nimaga xizmat qiladi?",
+   "a": [
+    "O'quvchi bilimini va o'zlashtirishini aniqlash",
+    "Fikr, sabab, misol va umumlashtirishni yozish",
+    "Kuchli va zaif tomonlarni aniqlash",
+    "Real vaziyatni tahlil qilib yechim topish"
+   ],
+   "e": "Refleksiya vositasi."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "\"FSMU\" texnologiyasi qanday bosqichlardan iborat?",
+   "a": [
+    "Fikr, sabab, misol, umumlashtirish",
+    "Faqat savol va javob",
+    "Rasm, she'r, qo'shiq, raqs",
+    "O'qish, yozish, tinglash, gapirish"
+   ],
+   "e": "Fikrni asoslashga o'rgatadi."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Debat metodining tarbiyaviy ahamiyati nima?",
+   "a": [
+    "Fikrni asoslash va muxolif fikrni hurmat qilish",
+    "Raqibni haqoratlab, har qanday yo'l bilan yengish",
+    "Faqat ovoz balandligi bilan g'olib chiqish",
+    "O'z fikridan birinchi e'tirozdayoq voz kechish"
+   ],
+   "e": "Muloqot madaniyati."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "\"Rolli o'yin\" metodi tarbiya darsida nima beradi?",
+   "a": [
+    "Hayotiy vaziyatni o'ynab, xulq namunalarini o'zlashtirish",
+    "Faqat ko'ngilochar dam olish, maqsadsiz",
+    "Darsdan qochish uchun qulay imkoniyat",
+    "Baholashni butunlay bekor qilish vositasi"
+   ],
+   "e": "Sotsializatsiya."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "SWOT tahlili nimani o'rganadi?",
+   "a": [
+    "Kuchli, zaif tomonlar, imkoniyat va xavflarni",
+    "Faqat o'quvchilarning choraklik baholarini",
+    "Faqat maktabning moliyaviy holatini",
+    "Faqat dars jadvalining qulayligini"
+   ],
+   "e": "Strengths, Weaknesses, Opportunities, Threats."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "\"Zigzag\" (arra) metodida o'quvchilar qanday ishlaydi?",
+   "a": [
+    "Har biri mavzu qismini o'rganib, boshqalarga o'rgatadi",
+    "Hamma bir xil topshiriqni yakka o'zi bajaradi",
+    "Faqat o'qituvchi gapiradi, o'quvchilar yozadi",
+    "G'oyalar tanqidsiz erkin aytiladi"
+   ],
+   "e": "Hamkorlikda o'qitish."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Refleksiya darsning qaysi bosqichida o'tkaziladi?",
+   "a": [
+    "Darsning yakunida",
+    "Faqat dars boshlanmasdan oldin",
+    "Faqat tanaffus paytida",
+    "Hech qachon o'tkazilmaydi"
+   ],
+   "e": "O'z faoliyatini tahlil qilish."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Tarbiya darsida baholashning asosiy xususiyati qaysi?",
+   "a": [
+    "Shaxsiy sifatlar va faollikni rag'batlantiruvchi baholash",
+    "Faqat yodlangan ta'riflar uchun qo'yiladigan baho",
+    "Faqat xulq uchun jazo sifatida qo'yiladigan baho",
+    "Faqat chorak yakunidagi yozma ish bahosi"
+   ],
+   "e": "Formativ baholash."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Formativ (shakllantiruvchi) baholash nima?",
+   "a": [
+    "O'qish jarayonida qayta aloqa beruvchi baholash",
+    "Faqat chorak oxiridagi yakuniy imtihon",
+    "Faqat bitiruvchilar uchun davlat imtihoni",
+    "O'quvchini intizom uchun jazolovchi baho"
+   ],
+   "e": "Jarayon davomida."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Summativ baholash qachon o'tkaziladi?",
+   "a": [
+    "Bo'lim yoki davr yakunida",
+    "Har bir darsning har daqiqasida",
+    "Faqat dars boshida, savol-javobda",
+    "Umuman o'tkazilmaydi"
+   ],
+   "e": "Yakuniy natija."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Darsda \"muammoli savol\" berishdan maqsad nima?",
+   "a": [
+    "O'quvchini mustaqil fikrlashga undash",
+    "O'quvchini qo'rqitib, intizomga solish",
+    "Dars vaqtini cho'zib to'ldirish",
+    "Javob bera olmagani uchun jazolash"
+   ],
+   "e": "Muammoli ta'lim."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Tarbiya darsida hayotiy misollardan foydalanish nima uchun muhim?",
+   "a": [
+    "Mavzu o'quvchiga yaqin va tushunarli bo'ladi",
+    "Darsni asosiy mavzudan chalg'itish uchun",
+    "Dars vaqtini o'tkazib yuborish uchun",
+    "O'quvchilarni charchatib qo'yish uchun"
+   ],
+   "e": "Hayot bilan bog'liqlik."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Dars rejasida tarbiyaviy maqsad qanday ifodalanadi?",
+   "a": [
+    "Qaysi sifat yoki qadriyat shakllanishi ko'rsatiladi",
+    "Faqat darslikdagi sahifa raqami yoziladi",
+    "Faqat sinfdagi o'quvchilar soni yoziladi",
+    "Tarbiyaviy maqsad rejada yozilmaydi"
+   ],
+   "e": "Aniq va o'lchanadigan maqsad."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Interfaol metodlarning asosiy afzalligi nima?",
+   "a": [
+    "O'quvchilarning faol ishtirokini ta'minlaydi",
+    "O'qituvchini darsda butunlay passiv qiladi",
+    "Darsni nazoratsiz holatga keltiradi",
+    "Bilim berish jarayonini to'xtatadi"
+   ],
+   "e": "Sub'ekt-sub'ekt munosabat."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Loyiha metodi tarbiya fanida qanday natija beradi?",
+   "a": [
+    "Amaliy ijtimoiy loyiha va jamoaviy mas'uliyat",
+    "Internetdan referat ko'chirib topshirish",
+    "O'qituvchi tayyorlagan taqdimotni tomosha qilish",
+    "Hech qanday amaliy natija bermaydi"
+   ],
+   "e": "Masalan, mahallaga yordam loyihasi."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Ekskursiya tarbiyaviy vosita sifatida nimaga xizmat qiladi?",
+   "a": [
+    "Bilimlarni real hayot bilan bog'lashga",
+    "Darsdan butunlay qochib dam olishga",
+    "O'quvchilarni jismonan charchatishga",
+    "Faqat ko'ngilochar sayohatga"
+   ],
+   "e": "Muzey, tarixiy obidalar."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Tarbiya darsida multimedia vositalari qanday ishlatilishi kerak?",
+   "a": [
+    "Maqsadga muvofiq, mavzuni boyitish uchun",
+    "Butun darsni faqat video bilan to'ldirish",
+    "O'quvchilarni chalg'itish uchun",
+    "Umuman ishlatilmasligi kerak"
+   ],
+   "e": "Vizualizatsiya."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "\"Pinbord\" metodi nima?",
+   "a": [
+    "G'oyalarni kartochkalarga yozib doskaga joylashtirish va guruhlash",
+    "Ovoz chiqarib she'r o'qish va yodlash",
+    "Tushunchalarni kesishgan doiralarda taqqoslash",
+    "Real vaziyatni tahlil qilib yechim topish"
+   ],
+   "e": "Vizual muhokama."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Kichik guruhlarda ishlashning afzalligi nima?",
+   "a": [
+    "Har bir o'quvchi faol ishtirok etadi",
+    "Faqat eng faol bir o'quvchi ishlaydi",
+    "O'qituvchi umuman ishtirok etmaydi",
+    "O'quvchilar o'rtasida nizolar kuchayadi"
+   ],
+   "e": "Hamkorlik ko'nikmasi."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Tarbiya darsining samaradorligi qanday aniqlanadi?",
+   "a": [
+    "O'quvchilar xulq-atvoridagi ijobiy o'zgarishlar bilan",
+    "Faqat o'qilgan sahifalar soni bilan",
+    "Faqat darsning davomiyligi bilan",
+    "Faqat doskaga yozilgan matn hajmi bilan"
+   ],
+   "e": "Tarbiyalanganlik darajasi."
+  },
+  {
+   "b": "Tarbiya fanini o'qitish metodikasi",
+   "q": "Tarbiyalanganlik darajasini o'rganish usullariga nima kiradi?",
+   "a": [
+    "Kuzatish, so'rovnoma, suhbat",
+    "Faqat yakuniy test imtihoni",
+    "Faqat bo'y va vazn o'lchovlari",
+    "Faqat ota-onaning og'zaki fikri"
+   ],
+   "e": "Pedagogik diagnostika."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Axloq nima?",
+   "a": [
+    "Jamiyatda qabul qilingan xulq me'yorlari tizimi",
+    "Davlat tomonidan majburiy o'rnatilgan qonunlar tizimi",
+    "Shaxsning jismoniy rivojlanish darajasi",
+    "Kiyinish va tashqi ko'rinish qoidalari"
+   ],
+   "e": "Jamoatchilik fikri bilan ta'minlanadi."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Odob nima?",
+   "a": [
+    "Kundalik xulqda namoyon bo'ladigan axloq qoidalari",
+    "Davlat organlari faoliyatini tartibga soluvchi normalar",
+    "Shaxsning tug'ma temperament turi",
+    "Iqtisodiy munosabatlar qoidalari"
+   ],
+   "e": "Salomlashish, muomala, dasturxon odobi."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Etika fani nimani o'rganadi?",
+   "a": [
+    "Axloq va uning qonuniyatlarini",
+    "Davlat va huquq tuzilishini",
+    "Tirik organizmlar tuzilishini",
+    "Jamiyatning iqtisodiy rivojini"
+   ],
+   "e": "Falsafiy fan."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Kattalar bilan salomlashishda o'zbek odobiga ko'ra kim birinchi salom beradi?",
+   "a": [
+    "Yoshi kichik",
+    "Yoshi katta",
+    "Kim tezroq ko'rsa, yoshidan qat'i nazar faqat u",
+    "Salomlashish shart emas"
+   ],
+   "e": "Hurmat belgisi."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Suhbatdoshni tinglash madaniyatiga nima kiradi?",
+   "a": [
+    "Gapini bo'lmasdan diqqat bilan eshitish",
+    "Uning gapini tez-tez bo'lib, o'z fikrini aytish",
+    "Telefonga qarab, e'tiborsiz o'tirish",
+    "Gapirayotganda boshqa ishlar bilan band bo'lish"
+   ],
+   "e": "Muloqot odobi."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Nutq madaniyatining asosiy talablaridan biri qaysi?",
+   "a": [
+    "To'g'rilik, aniqlik, ta'sirchanlik",
+    "Haqoratli so'zlardan erkin foydalanish",
+    "Jargon va so'kinish so'zlarini ko'p ishlatish",
+    "Tushunarsiz va chalkash gapirish"
+   ],
+   "e": "Adabiy til me'yorlari."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Dasturxon odobiga ko'ra ovqatlanishni kim boshlaydi?",
+   "a": [
+    "Davradagi eng katta inson",
+    "Eng kichik bola",
+    "Kim tezroq o'tirsa",
+    "Mehmonlar emas, faqat uy egasining bolalari"
+   ],
+   "e": "Milliy an'ana."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Jamoat transportida qanday odob qoidasiga amal qilinadi?",
+   "a": [
+    "Keksalar va nogironlarga joy berish",
+    "Baland ovozda telefonda gaplashish",
+    "Eshik oldida turib boshqalarga xalaqit berish",
+    "Navbatsiz itarib kirish"
+   ],
+   "e": "Jamoat joyidagi odob."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Mehmon kutishda o'zbek odobining asosiy talabi qaysi?",
+   "a": [
+    "Ochiq chehra va izzat-hurmat bilan qarshilash",
+    "Mehmonni eshik oldida uzoq kuttirib qo'yish",
+    "Mehmonga e'tibor bermay, o'z ishi bilan band bo'lish",
+    "Mehmon kelganidan norozilikni yashirmaslik"
+   ],
+   "e": "Mehmondo'stlik."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Rostgo'ylik qanday fazilat?",
+   "a": [
+    "Har doim haqiqatni gapirish",
+    "O'z manfaati uchun yolg'on gapirish",
+    "Haqiqatni yashirib, jim turish",
+    "Boshqalarni aldab, foyda ko'rish"
+   ],
+   "e": "Asosiy axloqiy fazilat."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Kamtarlik nimani anglatadi?",
+   "a": [
+    "O'zini boshqalardan ustun qo'ymaslik",
+    "O'z yutuqlarini doimo maqtab yurish",
+    "Boshqalarni mensimaslik",
+    "Har doim birinchi bo'lishga intilish, boshqalarni chetga surib"
+   ],
+   "e": "Kibrning aksi."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Saxiylik qanday fazilat?",
+   "a": [
+    "Bor narsasini boshqalar bilan baham ko'rish",
+    "Hamma narsani faqat o'zi uchun yig'ib qo'yish",
+    "Boshqalarning mol-mulkiga ko'z tikish",
+    "Yordam so'rab kelganlarni rad etish"
+   ],
+   "e": "Baxillikning aksi."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Vafodorlik qanday fazilat?",
+   "a": [
+    "Va'da va do'stlikka sodiqlik",
+    "Do'stni qiyin vaziyatda tashlab ketish",
+    "Berilgan va'dani unutish",
+    "Manfaat yo'qolgach aloqani uzish"
+   ],
+   "e": "Ishonchlilik."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Halollik deganda nima tushuniladi?",
+   "a": [
+    "Pok mehnat va boshqalarning haqiga xiyonat qilmaslik",
+    "Boshqalarning mehnati natijasini o'zlashtirish",
+    "Imtihonda yashirincha ko'chirib yozish",
+    "Topib olgan narsani egasiga qaytarmaslik"
+   ],
+   "e": "Ma'naviy pok yashash."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Andisha tushunchasi nimani anglatadi?",
+   "a": [
+    "O'zgalar his-tuyg'usini o'ylab, ehtiyotkor muomala",
+    "Fikrini qo'pol va to'g'ridan-to'g'ri aytish",
+    "Boshqalarning fikri va holatiga qiziqmaslik",
+    "Har qanday joyda baland ovozda gapirish"
+   ],
+   "e": "O'zbek milliy fazilati."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Hayo nima?",
+   "a": [
+    "Uyalish va odobsizlikdan tiyilish hissi",
+    "Qo'rqoqlik va jur'atsizlik ko'rsatish",
+    "Har qanday ishga befarq munosabat",
+    "O'zini boshqalardan yuqori tutish"
+   ],
+   "e": "Axloqiy fazilat."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Kasbiy etika nima?",
+   "a": [
+    "Muayyan kasb egalari amal qiladigan axloq qoidalari",
+    "Xodimlarning ish haqini hisoblash tartibi",
+    "Korxonaning ish vaqti jadvali",
+    "Kasb tanlash uchun psixologik test"
+   ],
+   "e": "Masalan, pedagogik etika."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Pedagogik takt nima?",
+   "a": [
+    "O'quvchiga ta'sir ko'rsatishda me'yor va odob hissi",
+    "O'qituvchining haftalik dars soatlari soni",
+    "Darsning qat'iy belgilangan jadvali",
+    "O'quvchilarni guruhlarga ajratish usuli"
+   ],
+   "e": "Pedagogik mahoratning tarkibi."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "O'qituvchi o'quvchining shaxsiy sirlarini boshqalarga aytishi qanday baholanadi?",
+   "a": [
+    "Pedagogik etikaga zid",
+    "Tarbiyaviy jihatdan foydali",
+    "Sinf jamoasini mustahkamlaydi",
+    "Ota-onalar uchun majburiy"
+   ],
+   "e": "Maxfiylik."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Telefon orqali muloqot odobiga nima kiradi?",
+   "a": [
+    "Salomlashib, o'zini tanishtirish va qisqa gapirish",
+    "Ertalab juda erta yoki yarim tunda qo'ng'iroq qilish",
+    "Salomlashmasdan darhol o'z talabini aytish",
+    "Suhbatdoshni kuttirib, boshqa ish bilan band bo'lish"
+   ],
+   "e": "Muloqot madaniyati."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Internetdagi muloqot odobi (netiket) nimani talab qiladi?",
+   "a": [
+    "Boshqalarni hurmat qilish, haqoratdan tiyilish",
+    "Anonim holda istalgan kishini haqoratlash",
+    "Boshqalarning shaxsiy ma'lumotlarini tarqatish",
+    "Tekshirilmagan yolg'on xabarlarni ko'paytirish"
+   ],
+   "e": "Raqamli madaniyat."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Kiyinish madaniyatining asosiy talabi qaysi?",
+   "a": [
+    "Vaziyatga mos, ozoda va did bilan kiyinish",
+    "Har qanday joyga bir xil kiyimda borish",
+    "Faqat qimmatbaho brend kiyimlar kiyish",
+    "Ozodalik va tozalikka e'tibor bermaslik"
+   ],
+   "e": "Estetik madaniyat."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Mahalladagi qo'shnichilik odobiga nima kiradi?",
+   "a": [
+    "O'zaro yordam va xotirjamlikni saqlash",
+    "Kechasi baland ovozda musiqa qo'yish",
+    "Qo'shnining hovlisiga chiqindi tashlash",
+    "Qo'shnilar haqida g'iybat tarqatish"
+   ],
+   "e": "\"Qo'shni haqqi\"."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "G'iybat qanday illat?",
+   "a": [
+    "Birovning orqasidan yomon gap tarqatish",
+    "Boshqa odamga beg'araz yaxshilik qilish",
+    "Haqiqatni yuzma-yuz, odob bilan aytish",
+    "Birovning yaxshi ishini maqtash"
+   ],
+   "e": "Axloqsiz xulq."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Hasad nima?",
+   "a": [
+    "Boshqaning yutug'idan norozilik",
+    "Boshqaning yutug'idan chin dildan quvonish",
+    "Muhtojga yordam berish istagi",
+    "O'z ustida ishlab, rivojlanish istagi"
+   ],
+   "e": "Salbiy his."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Kechirimli bo'lish nimani anglatadi?",
+   "a": [
+    "Boshqaning xatosini kechira olish",
+    "Har bir xato uchun albatta qasos olish",
+    "Xatoni umr bo'yi eslab, yuziga solish",
+    "Kechirim so'ragan odamni rad etish"
+   ],
+   "e": "Bag'rikenglik belgisi."
+  },
+  {
+   "b": "Odob-axloq va muomala madaniyati",
+   "q": "Mas'uliyat hissi qanday namoyon bo'ladi?",
+   "a": [
+    "Zimmasidagi ishni o'z vaqtida va sifatli bajarishda",
+    "Topshirilgan ishni boshqalarga yuklab qo'yish",
+    "Berilgan va'dalarni bajarmaslik",
+    "O'z xatolari uchun boshqalarni ayblash"
+   ],
+   "e": "Shaxsiy fazilat."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Fors shohi Kir II qo'shinini yenggan massagetlar malikasi kim?",
+   "a": [
+    "To'maris",
+    "Bibixonim",
+    "Nodirabegim",
+    "Zebunniso"
+   ],
+   "e": "Mil. avv. VI asr."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "O'z jonini fido qilib, Doro qo'shinini cho'lga boshlab borgan cho'pon kim?",
+   "a": [
+    "Shiroq",
+    "Spitamen",
+    "Muqanna",
+    "Temur Malik"
+   ],
+   "e": "Vatanparvarlik timsoli."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Aleksandr Makedonskiy qo'shiniga qarshi kurashga boshchilik qilgan sug'd sarkardasi kim?",
+   "a": [
+    "Spitamen",
+    "Shiroq",
+    "Jaloliddin Manguberdi",
+    "Najmiddin Kubro"
+   ],
+   "e": "Mil. avv. IV asr."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Mo'g'ul bosqinchilariga qarshi qahramonona kurashgan Xorazmshoh kim?",
+   "a": [
+    "Jaloliddin Manguberdi",
+    "Amir Temur",
+    "Mirzo Ulug'bek",
+    "Zahiriddin Bobur"
+   ],
+   "e": "XIII asr."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Xo'jand shahrini mo'g'ullardan himoya qilgan qahramon kim?",
+   "a": [
+    "Temur Malik",
+    "Spitamen",
+    "Muqanna",
+    "Shiroq"
+   ],
+   "e": "1220-yillar."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Urganch mudofaasida halok bo'lgan mashhur shayx kim?",
+   "a": [
+    "Najmiddin Kubro",
+    "Bahouddin Naqshband",
+    "Ahmad Yassaviy",
+    "Imom Moturidiy"
+   ],
+   "e": "1221-yil."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Arab xalifaligiga qarshi \"Oq kiyimlilar\" qo'zg'oloniga kim boshchilik qilgan?",
+   "a": [
+    "Muqanna",
+    "Spitamen",
+    "Temur Malik",
+    "Shiroq"
+   ],
+   "e": "VIII asr."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Amir Temur qayerda tug'ilgan?",
+   "a": [
+    "Kesh (Shahrisabz) yaqinida",
+    "Buxoro shahrida",
+    "Xiva shahrida",
+    "Qo'qon shahrida"
+   ],
+   "e": "1336-yil."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Mirzo Ulug'bek qanday ilmiy yutug'i bilan mashhur?",
+   "a": [
+    "Samarqand rasadxonasi va yulduzlar jadvali",
+    "Ibn Sinoning \"Tib qonunlari\" asari",
+    "Algebra fanining asoslari",
+    "Hindistonda saltanat tuzgani"
+   ],
+   "e": "\"Ziji jadidi Ko'ragoniy\"."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "\"Algebra\" atamasi qaysi olim asari nomidan kelib chiqqan?",
+   "a": [
+    "Al-Xorazmiy",
+    "Al-Farg'oniy",
+    "Beruniy",
+    "Ibn Sino"
+   ],
+   "e": "\"Al-jabr val-muqobala\"."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Nil daryosi suv sathini o'lchovchi asbobni (Miqyos an-Nil) yaratgan olim kim?",
+   "a": [
+    "Ahmad al-Farg'oniy",
+    "Muhammad al-Xorazmiy",
+    "Abu Rayhon Beruniy",
+    "Mirzo Ulug'bek"
+   ],
+   "e": "IX asr."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "\"Al-Jome' as-sahih\" hadis to'plamining muallifi kim?",
+   "a": [
+    "Imom Buxoriy",
+    "Imom Termiziy",
+    "Imom Moturidiy",
+    "Bahouddin Naqshband"
+   ],
+   "e": "Eng ishonchli hadis to'plamlaridan."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "\"O'tkan kunlar\" — birinchi o'zbek romanining muallifi kim?",
+   "a": [
+    "Abdulla Qodiriy",
+    "Abdulhamid Cho'lpon",
+    "Oybek",
+    "G'afur G'ulom"
+   ],
+   "e": "1920-yillar."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Alisher Navoiyning besh dostondan iborat asari qanday nomlanadi?",
+   "a": [
+    "\"Xamsa\"",
+    "\"Mahbub ul-qulub\"",
+    "\"Muhokamat ul-lug'atayn\"",
+    "\"Boburnoma\""
+   ],
+   "e": "Turkiy tildagi birinchi \"Xamsa\"."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "\"Muhokamat ul-lug'atayn\" asarida Navoiy nimani asoslagan?",
+   "a": [
+    "Turkiy tilning boyligi va imkoniyatlarini",
+    "Tibbiyot va dorishunoslik qonuniyatlarini",
+    "Osmon jismlari harakatini hisoblashni",
+    "Davlatni boshqarish qoidalarini"
+   ],
+   "e": "Ikki til muhokamasi."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Qatag'on qurbonlarini yod etish kuni qachon nishonlanadi?",
+   "a": [
+    "31-avgust",
+    "9-may",
+    "1-iyun",
+    "14-yanvar"
+   ],
+   "e": "Shahidlar xotirasi."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Vatan himoyachilari kuni qachon nishonlanadi?",
+   "a": [
+    "14-yanvar",
+    "9-may",
+    "1-oktabr",
+    "8-dekabr"
+   ],
+   "e": "Qurolli Kuchlar tashkil topgan kun (1992)."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "O'zbek tili bayrami kuni qachon nishonlanadi?",
+   "a": [
+    "21-oktabr",
+    "21-mart",
+    "1-sentyabr",
+    "8-dekabr"
+   ],
+   "e": "1989-yilgi Davlat tili haqidagi qonun."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Xalqaro bolalarni himoya qilish kuni qachon?",
+   "a": [
+    "1-iyun",
+    "1-sentyabr",
+    "1-oktabr",
+    "1-may"
+   ],
+   "e": "Bolalar bayrami."
+  },
+  {
+   "b": "Vatanparvarlik va tarixiy shaxslar",
+   "q": "Vatanparvarlik tarbiyasida tarixiy shaxslar hayotini o'rganishning ahamiyati nima?",
+   "a": [
+    "Ibratli namuna va milliy iftixor tuyg'usini shakllantiradi",
+    "O'quvchilarni boshqa xalqlardan ustun deb bilishga undaydi",
+    "Tarixiy sanalarni faqat yodlash uchun kerak",
+    "Hech qanday tarbiyaviy ahamiyatga ega emas"
+   ],
+   "e": "Tarixiy xotira."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Fuqarolik tarbiyasining asosiy maqsadi nima?",
+   "a": [
+    "Faol, mas'uliyatli va qonunga hurmatli fuqaroni shakllantirish",
+    "Davlat ishlariga befarq shaxsni tarbiyalash",
+    "Faqat shaxsiy manfaatni ko'zlovchi inson",
+    "Qonunlarni mensimaydigan erkin shaxs"
+   ],
+   "e": "Fuqarolik pozitsiyasi."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "O'quvchida fuqarolik faolligi qanday namoyon bo'ladi?",
+   "a": [
+    "Jamoat ishlarida va ko'ngillilik faoliyatida ishtirok",
+    "Jamiyat muammolariga befarq qarab turish",
+    "Faqat o'z manfaatini o'ylab yashash",
+    "Har qanday jamoat tashabbusidan qochish"
+   ],
+   "e": "Volontyorlik."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Ko'ngillilik (volontyorlik) nima?",
+   "a": [
+    "Jamiyat foydasi uchun ixtiyoriy, beg'araz faoliyat",
+    "Majburiy va haq to'lanadigan mehnat",
+    "Faqat o'z oilasi uchun ishlash",
+    "Davlat xizmatining bir turi"
+   ],
+   "e": "Ijtimoiy faollik."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Saylovda ishtirok etish fuqaroning qanday huquqi?",
+   "a": [
+    "Siyosiy huquqi",
+    "Iqtisodiy huquqi",
+    "Madaniy huquqi",
+    "Oilaviy huquqi"
+   ],
+   "e": "18 yoshdan."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Bola huquqlari to'g'risidagi BMT konvensiyasiga ko'ra bola kim hisoblanadi?",
+   "a": [
+    "18 yoshga to'lmagan har bir inson",
+    "14 yoshga to'lmagan inson",
+    "12 yoshga to'lmagan inson",
+    "21 yoshga to'lmagan inson"
+   ],
+   "e": "1989-yil konvensiyasi."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Bolaning o'z fikrini erkin ifoda etish huquqi nimani anglatadi?",
+   "a": [
+    "Unga taalluqli masalalarda fikri tinglanadi",
+    "Bola har qanday qarorni yakka o'zi qabul qiladi",
+    "Bola fikrini aytishi taqiqlanadi",
+    "Faqat kattalar fikri hisobga olinadi"
+   ],
+   "e": "BMT konvensiyasi, 12-modda."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Bola huquqlari bilan birga uning burchlari ham bormi?",
+   "a": [
+    "Ha, o'qish, kattalarni hurmat qilish kabi burchlar bor",
+    "Yo'q, bolaning faqat huquqlari bo'ladi",
+    "Burchlar faqat voyaga yetgandan keyin paydo bo'ladi",
+    "Faqat o'g'il bolalarning burchlari bo'ladi"
+   ],
+   "e": "Huquq va burch birligi."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Mahalla instituti tarbiyada qanday rol o'ynaydi?",
+   "a": [
+    "Jamoatchilik nazorati va o'zaro yordam orqali",
+    "Faqat kommunal to'lovlarni yig'ish orqali",
+    "Faqat to'y va marosimlarni o'tkazish orqali",
+    "Tarbiya masalalariga hech qanday aloqasi yo'q"
+   ],
+   "e": "Fuqarolarning o'zini o'zi boshqarish organi."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Davlat madhiyasi yangraganda o'quvchilar qanday xulq ko'rsatishi kerak?",
+   "a": [
+    "O'rnidan turib, o'ng qo'lini ko'ksiga qo'yadi",
+    "O'tirgan joyida suhbatni davom ettiradi",
+    "Telefonida o'yin o'ynashda davom etadi",
+    "Indamay xonadan chiqib ketadi"
+   ],
+   "e": "Davlat ramzlariga hurmat."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Jamoat mulkini asrash qanday fazilatni ifodalaydi?",
+   "a": [
+    "Fuqarolik mas'uliyatini",
+    "Befarqlikni",
+    "Isrofgarchilikni",
+    "Loqaydlikni"
+   ],
+   "e": "Maktab jihozlari, bog'lar, yo'llar."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Korrupsiyaga qarshi tarbiya maktabda nimadan boshlanadi?",
+   "a": [
+    "Halollik va adolat qadriyatlarini singdirishdan",
+    "Pora berish usullarini tushuntirishdan",
+    "Qonunbuzarlik holatlariga ko'z yumishdan",
+    "Imtihonda ko'chirishni rag'batlantirishdan"
+   ],
+   "e": "Korrupsiyaga murosasizlik."
+  },
+  {
+   "b": "Fuqarolik tarbiyasi",
+   "q": "Akademik halollik nimani anglatadi?",
+   "a": [
+    "O'z mehnati bilan ish bajarish, ko'chirmaslik",
+    "Boshqaning ishini o'ziniki qilib topshirish",
+    "Imtihonda yashirincha telefondan foydalanish",
+    "Internetdan referatni o'zgartirmay ko'chirish"
+   ],
+   "e": "Plagiatga qarshi."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "Jahon dinlaridan eng qadimiysi qaysi?",
+   "a": [
+    "Buddizm",
+    "Xristianlik",
+    "Islom",
+    "Barchasi bir vaqtda paydo bo'lgan"
+   ],
+   "e": "Mil. avv. VI–V asrlar, Hindiston."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "Islom dini qaysi asrda vujudga kelgan?",
+   "a": [
+    "VII asrda",
+    "Mil. avv. VI asrda",
+    "I asrda",
+    "XII asrda"
+   ],
+   "e": "Arabiston yarim oroli."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "Xristianlik qayerda vujudga kelgan?",
+   "a": [
+    "Falastinda",
+    "Hindistonda",
+    "Xitoyda",
+    "Misrda"
+   ],
+   "e": "Milodiy I asr."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "O'zbekistonda rasmiy ro'yxatdan o'tgan diniy konfessiyalar soni nechta?",
+   "a": [
+    "16 ta",
+    "3 ta",
+    "50 ta",
+    "1 ta"
+   ],
+   "e": "Turli diniy tashkilotlar faoliyat yuritadi."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "\"Vijdon erkinligi va diniy tashkilotlar to'g'risida\"gi qonunning yangi tahriri qachon qabul qilingan?",
+   "a": [
+    "2021-yil",
+    "1991-yil",
+    "1998-yil",
+    "2010-yil"
+   ],
+   "e": "2021-yil 5-iyul."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "Dunyoviy davlatda din va davlat munosabati qanday?",
+   "a": [
+    "Din davlatdan ajratilgan, e'tiqod erkin",
+    "Davlat bitta dinni hamma uchun majburiy qiladi",
+    "Mamlakatda barcha dinlar taqiqlanadi",
+    "Diniy tashkilotlar davlatni boshqaradi"
+   ],
+   "e": "Konstitutsiyaviy tamoyil."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "Ta'lim muassasalarida diniy tarbiya to'g'risida qonun nimani belgilaydi?",
+   "a": [
+    "Ta'lim tizimi dindan ajratilgan",
+    "Barcha fanlar diniy asosda o'qitiladi",
+    "Diniy marosimlar majburiy",
+    "Diniy tashkilotlar maktabni boshqaradi"
+   ],
+   "e": "Dunyoviy ta'lim."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "Diniy bag'rikenglik nimani anglatadi?",
+   "a": [
+    "Turli e'tiqod vakillariga hurmat",
+    "Boshqa din vakillarini kamsitish",
+    "Barcha e'tiqodlarni taqiqlash",
+    "Faqat bitta dinni haqiqiy deb tan olish"
+   ],
+   "e": "Totuvlik asosi."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "Missionerlik va prozelitizm O'zbekiston qonunchiligiga ko'ra qanday baholanadi?",
+   "a": [
+    "Taqiqlanadi",
+    "Rag'batlantiriladi",
+    "Majburiy",
+    "Faqat maktablarda ruxsat etiladi"
+   ],
+   "e": "Bir dindagilarni boshqasiga o'tkazish harakati."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "Imom Buxoriy xalqaro ilmiy-tadqiqot markazi qayerda joylashgan?",
+   "a": [
+    "Samarqand",
+    "Nukus",
+    "Termiz",
+    "Andijon"
+   ],
+   "e": "Islom ma'rifatini o'rganish."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "Diniy ekstremizmga qarshi kurashda eng samarali vosita qaysi?",
+   "a": [
+    "Ma'rifat va diniy savodxonlik",
+    "Jaholat va bilimsizlik",
+    "Yot g'oyalarga befarqlik",
+    "Noma'lum manbalardan ta'lim olish"
+   ],
+   "e": "\"Jaholatga qarshi ma'rifat\"."
+  },
+  {
+   "b": "Diniy bag'rikenglik va dunyoviylik",
+   "q": "O'zbekistonda Ramazon va Qurbon hayitlari qanday kun hisoblanadi?",
+   "a": [
+    "Dam olish kuni (bayram)",
+    "Oddiy ish kuni",
+    "Faqat maktablar uchun ish kuni",
+    "Rasmiy taqiqlangan kun"
+   ],
+   "e": "Diniy bayramlar."
+  },
+  {
+   "b": "Estetik tarbiya",
+   "q": "Estetik tarbiyaning asosiy vositalari qaysilar?",
+   "a": [
+    "San'at, tabiat, mehnat va kundalik hayot go'zalligi",
+    "Jazo va majburlash choralari tizimi",
+    "Matematik formulalar va qoidalar",
+    "Faqat sport musobaqalaridagi g'alabalar"
+   ],
+   "e": "Go'zallikni idrok etish."
+  },
+  {
+   "b": "Estetik tarbiya",
+   "q": "Badiiy did nima?",
+   "a": [
+    "Go'zallikni his qilish va baholash qobiliyati",
+    "Ovqatning ta'mini tatib ajrata olish",
+    "Qisqa masofaga tez yugura olish",
+    "Katta hajmdagi matnni yodlay olish"
+   ],
+   "e": "Estetik madaniyat."
+  },
+  {
+   "b": "Estetik tarbiya",
+   "q": "Musiqiy tarbiyada maqom san'atining ahamiyati nima?",
+   "a": [
+    "Milliy musiqiy merosni anglash",
+    "Faqat zamonaviy pop musiqani o'rganish",
+    "Musiqadan butunlay voz kechish",
+    "Faqat chet el musiqasini tinglash"
+   ],
+   "e": "\"Shashmaqom\"."
+  },
+  {
+   "b": "Estetik tarbiya",
+   "q": "\"Shashmaqom\" nechta maqomdan iborat?",
+   "a": [
+    "Oltita",
+    "To'rtta",
+    "O'nta",
+    "Ikkita"
+   ],
+   "e": "Buzruk, Rost, Navo, Dugoh, Segoh, Iroq."
+  },
+  {
+   "b": "Estetik tarbiya",
+   "q": "Muzey va teatrlarga borish o'quvchida nimani shakllantiradi?",
+   "a": [
+    "Madaniy ehtiyoj va estetik didni",
+    "Befarqlik va loqaydlik kayfiyatini",
+    "Faqat dam olish va ko'ngilochar odatni",
+    "Hech qanday sifatni shakllantirmaydi"
+   ],
+   "e": "Madaniy tarbiya."
+  },
+  {
+   "b": "Estetik tarbiya",
+   "q": "Badiiy adabiyot o'qishning tarbiyaviy ahamiyati nima?",
+   "a": [
+    "Axloqiy fazilatlar va tafakkurni rivojlantiradi",
+    "Vaqtni bekor sarflashga olib keladi",
+    "Faqat yangi so'zlarni yodlashga xizmat qiladi",
+    "Faqat imtihonga tayyorlanish vositasi"
+   ],
+   "e": "Kitobxonlik."
+  },
+  {
+   "b": "Mehnat tarbiyasi va kasbga yo'naltirish",
+   "q": "Mehnat tarbiyasi qaysi yoshdan boshlanadi?",
+   "a": [
+    "Maktabgacha yoshdan, oilada",
+    "Faqat 18 yoshdan keyin",
+    "Faqat oliy ta'limda",
+    "Faqat ishga kirgandan keyin"
+   ],
+   "e": "O'z-o'ziga xizmat."
+  },
+  {
+   "b": "Mehnat tarbiyasi va kasbga yo'naltirish",
+   "q": "O'z-o'ziga xizmat mehnatiga misol qaysi?",
+   "a": [
+    "O'rinni yig'ishtirish, kiyimni tartibga solish",
+    "Zavodda dastgohda ishlab chiqarish",
+    "Daladagi qishloq xo'jaligi ishlari",
+    "Qurilish obyektidagi ishlar"
+   ],
+   "e": "Bolalar uchun mos mehnat."
+  },
+  {
+   "b": "Mehnat tarbiyasi va kasbga yo'naltirish",
+   "q": "Jamoat foydali mehnatiga misol qaysi?",
+   "a": [
+    "Maktab hovlisini obodonlashtirish",
+    "Faqat o'z xonasini yig'ishtirish",
+    "Shaxsiy kompyuterda o'yin o'ynash",
+    "Uyda televizor tomosha qilish"
+   ],
+   "e": "Jamoaviy mehnat."
+  },
+  {
+   "b": "Mehnat tarbiyasi va kasbga yo'naltirish",
+   "q": "Kasbga yo'naltirishda o'quvchining nimasi hisobga olinadi?",
+   "a": [
+    "Qiziqishi, qobiliyati va sog'lig'i",
+    "Faqat ota-onasining kasbi",
+    "Faqat do'stlarining tanlagan kasbi",
+    "Faqat kasbning hozirgi mashhurligi"
+   ],
+   "e": "Kasbiy tashxis."
+  },
+  {
+   "b": "Mehnat tarbiyasi va kasbga yo'naltirish",
+   "q": "Hunarmandchilik an'analarini o'rgatishning tarbiyaviy ahamiyati nima?",
+   "a": [
+    "Milliy merosni asrash va mehnatsevarlik",
+    "Faqat tez pul ishlash usullarini o'rgatish",
+    "Zamonaviy kasblardan voz kechishga undash",
+    "Hech qanday tarbiyaviy ahamiyati yo'q"
+   ],
+   "e": "\"Usta-shogird\" an'anasi."
+  },
+  {
+   "b": "Mehnat tarbiyasi va kasbga yo'naltirish",
+   "q": "\"Usta-shogird\" an'anasining mohiyati nima?",
+   "a": [
+    "Tajribani bevosita amaliyotda o'rgatish",
+    "Shogirdni faqat nazariy kitob bilan o'qitish",
+    "Ustaning shogirddan pul olishi",
+    "Shogirdni faqat jazolash"
+   ],
+   "e": "Kasbiy meros."
+  },
+  {
+   "b": "Jismoniy tarbiya va salomatlik madaniyati",
+   "q": "Jismoniy tarbiyaning tarbiyaviy vazifasiga nima kiradi?",
+   "a": [
+    "Iroda, intizom va jamoaviylikni shakllantirish",
+    "Faqat muskul kuchini oshirish",
+    "Raqibni har qanday yo'l bilan yengishga o'rgatish",
+    "Asosiy darslarni qoldirishga sabab bo'lish"
+   ],
+   "e": "Har tomonlama tarbiya."
+  },
+  {
+   "b": "Jismoniy tarbiya va salomatlik madaniyati",
+   "q": "Sportdagi \"fair play\" tamoyili nimani anglatadi?",
+   "a": [
+    "Halol va adolatli o'yin",
+    "Har qanday yo'l bilan g'alaba qozonish",
+    "Hakamni aldash",
+    "Raqibni haqoratlash"
+   ],
+   "e": "Sport etikasi."
+  },
+  {
+   "b": "Jismoniy tarbiya va salomatlik madaniyati",
+   "q": "Doping qo'llash sport etikasida qanday baholanadi?",
+   "a": [
+    "Taqiqlangan va noinsof xatti-harakat",
+    "Natijani oshirish uchun rag'batlantiriladigan usul",
+    "Musobaqadan oldin majburiy tibbiy talab",
+    "Faqat yosh sportchilarga ruxsat etilgan usul"
+   ],
+   "e": "Sog'liq uchun xavfli."
+  },
+  {
+   "b": "Jismoniy tarbiya va salomatlik madaniyati",
+   "q": "Ertalabki badantarbiya qanday foyda beradi?",
+   "a": [
+    "Organizmni uyg'otib, ish qobiliyatini oshiradi",
+    "Kun bo'yi charchoq va holsizlik keltiradi",
+    "Tungi uyquni buzib yuboradi",
+    "Organizmga hech qanday foyda bermaydi"
+   ],
+   "e": "Kun tartibining qismi."
+  },
+  {
+   "b": "Jismoniy tarbiya va salomatlik madaniyati",
+   "q": "Ochiq havoda sayr qilishning sog'liq uchun ahamiyati nima?",
+   "a": [
+    "Organizmni chiniqtiradi va kayfiyatni ko'taradi",
+    "Immunitetni sezilarli pasaytiradi",
+    "Charchoq va holsizlikni oshiradi",
+    "Tungi uyquni yomonlashtiradi"
+   ],
+   "e": "Sog'lom turmush."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Tarbiyaning insonparvarlik tamoyili nimani talab qiladi?",
+   "a": [
+    "Bola shaxsini hurmat qilish",
+    "Bolaga qat'iy itoatni majburlash",
+    "Bolani doimiy nazorat ostida jazolash",
+    "Bolaning fikrini inobatga olmaslik"
+   ],
+   "e": "Gumanistik pedagogika."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Tarbiyaning hayot bilan bog'liqlik tamoyili nimani anglatadi?",
+   "a": [
+    "Tarbiya real hayot vazifalariga tayanadi",
+    "Tarbiya hayotdan ajratilgan holda olib boriladi",
+    "Tarbiya faqat kitobdagi misollarga asoslanadi",
+    "Tarbiya faqat o'tmish voqealarini o'rganadi"
+   ],
+   "e": "Amaliy yo'nalganlik."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Talabchanlik va hurmatning uyg'unligi tamoyilini kim asoslagan?",
+   "a": [
+    "A.S. Makarenko",
+    "Ya.A. Komenskiy",
+    "J.J. Russo",
+    "F. Frebel"
+   ],
+   "e": "\"Iloji boricha ko'p talab, iloji boricha ko'p hurmat\"."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Tarbiyada ijobiy jihatlarga tayanish tamoyili nimani anglatadi?",
+   "a": [
+    "Yaxshi sifatlarni rivojlantirib, kamchilikni yo'qotish",
+    "Faqat bolaning kamchiliklarini sanab o'tish",
+    "Bolaning yutuqlariga e'tibor bermaslik",
+    "Har bir xatoni ommaviy muhokama qilish"
+   ],
+   "e": "Optimistik yondashuv."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "O'z-o'zini tarbiyalash nima?",
+   "a": [
+    "Shaxsning o'zini ongli ravishda takomillashtirishi",
+    "Boshqalarni o'z namunasi asosida tarbiyalash",
+    "Har qanday tarbiyaviy ta'sirdan voz kechish",
+    "Ota-onaning bolani uyda tarbiyalashi"
+   ],
+   "e": "Tarbiyaning oliy bosqichi."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "O'z-o'zini tarbiyalash usullariga nima kiradi?",
+   "a": [
+    "Kundalik yuritish, o'zini nazorat qilish, maqsad qo'yish",
+    "Faqat atrofdagilarni tanqid qilib yurish",
+    "Kun tartibisiz, rejasiz yashash",
+    "Mas'uliyatni boshqalarga yuklash"
+   ],
+   "e": "Irodani chiniqtirish."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Qayta tarbiyalash qachon zarur bo'ladi?",
+   "a": [
+    "Shaxsda salbiy odatlar shakllanganda",
+    "Bola a'lo o'qiganda",
+    "Bola sportda g'olib bo'lganda",
+    "Bola kitob o'qishni yaxshi ko'rganda"
+   ],
+   "e": "Korreksion tarbiya."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Inklyuziv ta'lim muhitida tarbiyaning asosiy vazifasi nima?",
+   "a": [
+    "Ularni teng huquqli jamoa a'zosi deb qabul qilish",
+    "Alohida ehtiyojli bolalarni boshqalardan ajratish",
+    "Ularni darslarga qo'ymaslik",
+    "Ular bilan muloqotni cheklash"
+   ],
+   "e": "Teng imkoniyatlar."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Bolalar o'rtasidagi nizoni hal qilishda pedagog qanday yo'l tutadi?",
+   "a": [
+    "Ikki tomonni tinglab, kelishuvga yordam beradi",
+    "Kuchliroq bolaning tarafini olib, masalani yopadi",
+    "Ikkalasini ham sinf oldida jazolaydi",
+    "Nizoga aralashmay, o'z holiga qo'yadi"
+   ],
+   "e": "Mediatsiya."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Tarbiyaviy tadbir ssenariysida nima bo'lishi kerak?",
+   "a": [
+    "Maqsad, mazmun, ishtirokchilar va natija",
+    "Faqat tadbirda yangraydigan musiqalar ro'yxati",
+    "Faqat taklif etilgan mehmonlar ismlari",
+    "Faqat ziyofat uchun ovqatlanish menyusi"
+   ],
+   "e": "Puxta rejalashtirish."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Kitobxonlik madaniyatini oshirish bo'yicha maktabda qanday tadbir samarali?",
+   "a": [
+    "Kitobxonlik tanlovlari va muhokama klublari",
+    "Kitob o'qimagan o'quvchilarni jazolash",
+    "Kutubxonani ta'mirga yopib qo'yish",
+    "Faqat darslikni o'qishni talab qilish"
+   ],
+   "e": "\"Yosh kitobxon\" tanlovi."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "\"Besh tashabbus\" loyihasi yoshlar uchun qanday yo'nalishlarni qamrab oladi?",
+   "a": [
+    "San'at, sport, IT, kitobxonlik, ayollar bandligi",
+    "Faqat harbiy tayyorgarlik",
+    "Faqat qishloq xo'jaligi",
+    "Faqat chet tillarini o'rganish"
+   ],
+   "e": "2019-yilda ilgari surilgan."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Ota-onalarning farzand tarbiyasi uchun javobgarligi qaysi hujjatda mustahkamlangan?",
+   "a": [
+    "Konstitutsiya va Oila kodeksida",
+    "Faqat maktab ichki tartib qoidalarida",
+    "Faqat mahalla e'lonlarida",
+    "Hech qayerda mustahkamlanmagan"
+   ],
+   "e": "Huquqiy majburiyat."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Sinf rahbari \"qiyin\" o'quvchi bilan ishlashni nimadan boshlaydi?",
+   "a": [
+    "Xulqi sabablarini o'rganishdan",
+    "Uni darhol jazolashdan",
+    "Uni boshqa sinfga o'tkazishdan",
+    "Ota-onasini ayblashdan"
+   ],
+   "e": "Pedagogik tashxis."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Tarbiyaviy ishda \"sinf jamoasi\" qanday rol o'ynaydi?",
+   "a": [
+    "Shaxsni ijtimoiylashtiruvchi muhit",
+    "Faqat ma'muriy birlik",
+    "Faqat baho qo'yish guruhi",
+    "Tarbiyaga ta'sir qilmaydigan guruh"
+   ],
+   "e": "Makarenko g'oyasi."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "O'quvchilarda vaqtni qadrlash odatini shakllantirish uchun nima qilinadi?",
+   "a": [
+    "Kun tartibini rejalashtirishga o'rgatish",
+    "Vazifalarni oxirgi daqiqaga qoldirishga ruxsat",
+    "Kechikishlarga e'tibor bermaslik",
+    "Vaqtni hisoblamaslik"
+   ],
+   "e": "Taym-menejment."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Shaxsning ijtimoiylashuvi nima?",
+   "a": [
+    "Jamiyat me'yorlari va rollarini o'zlashtirish jarayoni",
+    "Jamiyatdan butunlay ajralib, yolg'iz yashash",
+    "Faqat kompyuter orqali virtual muloqot qilish",
+    "Ijtimoiy me'yorlarni ongli ravishda inkor etish"
+   ],
+   "e": "Sotsializatsiya."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Ota-ona bilan hamkorlikda raqamli xavfsizlikni ta'minlashga misol qaysi?",
+   "a": [
+    "Internet faoliyatini birga kuzatish va suhbat",
+    "Bolaga cheklovsiz va nazoratsiz internet berish",
+    "Internet haqida umuman gapirmaslik",
+    "Bolani internetdagi muammolar uchun jazolash"
+   ],
+   "e": "Ota-ona nazorati."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Tarbiyaviy jarayonda pedagogning nutqi qanday bo'lishi kerak?",
+   "a": [
+    "Aniq, xushmuomala va namunali",
+    "Qo'pol, buyruqona va baland ovozli",
+    "Jargon va haqoratli so'zlarga boy",
+    "Tushunarsiz va chalkash ifodali"
+   ],
+   "e": "Shaxsiy namuna."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "O'quvchida mustaqillikni rivojlantirish uchun qanday yondashuv to'g'ri?",
+   "a": [
+    "Yoshiga mos tanlov va mas'uliyat berish",
+    "Barcha qarorlarni uning o'rniga qabul qilish",
+    "Har bir qadamini qat'iy cheklash",
+    "Xato qilishiga mutlaqo yo'l qo'ymaslik"
+   ],
+   "e": "Mas'uliyat orqali o'sish."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Tarbiyaviy ishning natijasini baholashda qaysi mezon muhim?",
+   "a": [
+    "O'quvchi xulqi va munosabatlaridagi barqaror o'zgarishlar",
+    "O'tkazilgan tadbirlarning umumiy soni",
+    "Tadbirlarga sarflangan mablag' miqdori",
+    "Tadbirdan olingan fotosuratlar soni"
+   ],
+   "e": "Sifat ko'rsatkichi."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Yoshlar o'rtasida mutolaa madaniyatini targ'ib qiluvchi \"Yosh kitobxon\" tanlovi qaysi tashabbus doirasida?",
+   "a": [
+    "\"Besh tashabbus\"",
+    "\"Obod qishloq\"",
+    "\"Temir daftar\"",
+    "\"Yashil makon\""
+   ],
+   "e": "Kitobxonlik yo'nalishi."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Ma'naviy tahdidlarga qarshi immunitet nima?",
+   "a": [
+    "Yot g'oyalarga qarshi tura oladigan ongli e'tiqod",
+    "Yuqumli kasalliklarga qarshi emlash",
+    "Internetdan butunlay voz kechish",
+    "Har qanday g'oyani tanqidsiz qabul qilish"
+   ],
+   "e": "Mafkuraviy immunitet."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Bolaning qadr-qimmatini kamsituvchi tarbiya usullari qanday oqibatga olib keladi?",
+   "a": [
+    "O'ziga ishonchsizlik va tajovuzkorlik",
+    "Kuchli iroda va mustaqillik",
+    "Yuqori o'z-o'zini hurmat",
+    "Ijobiy ijtimoiy faollik"
+   ],
+   "e": "Salbiy oqibatlar."
+  },
+  {
+   "b": "Tarbiya tamoyillari va qo'shimcha masalalar",
+   "q": "Tarbiya jarayonining yakuniy maqsadi nima?",
+   "a": [
+    "Barkamol shaxsni shakllantirish",
+    "Faqat yaxshi baho olish",
+    "Faqat itoatkor shaxs tarbiyalash",
+    "Faqat jismoniy kuchli shaxs"
+   ],
+   "e": "Har tomonlama rivojlangan inson."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Ta'lim to'g'risidagi qonunga ko'ra ta'lim va tarbiya qanday tamoyil asosida olib boriladi?",
+   "a": [
+    "Insonparvarlik va demokratik xususiyat",
+    "Avtoritar va majburlov asosida",
+    "Faqat diniy asosda",
+    "Faqat harbiy intizom asosida"
+   ],
+   "e": "Ta'lim sohasidagi davlat siyosati tamoyillari."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Uzluksiz ta'lim tizimida tarbiya qaysi bosqichda boshlanadi?",
+   "a": [
+    "Maktabgacha ta'limdan",
+    "Faqat oliy ta'limdan",
+    "Faqat kasb-hunar ta'limidan",
+    "Faqat malaka oshirishdan"
+   ],
+   "e": "Uzluksizlik."
+  }
+ ],
+ "kalit": "tarbiya ma'naviyat odobnoma sinf rahbari pedagogika tarbiyaviy ish"
+}
