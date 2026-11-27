@@ -1,0 +1,3342 @@
+{
+ "kod": "",
+ "nomi": "Tikuvchilik: ayollar kiyimini tikish texnologiyasi",
+ "turi": "maxsus",
+ "manba": "Kasb-hunar ta'limi o'quv dasturi (tikuvchi), tikuvchilik materialshunosligi, kiyim konstruksiyalash va tikish texnologiyasi darsliklari, GOST/O'zDSt standartlari",
+ "savollar": [
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Qaysi tola o'simlik kelib chiqishli tabiiy tola hisoblanadi?",
+   "a": [
+    "Paxta",
+    "Jun",
+    "Tabiiy ipak",
+    "Viskoza"
+   ],
+   "e": "Zig'ir va kanop ham o'simlik tolasi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Hayvon kelib chiqishli tabiiy tolani ko'rsating.",
+   "a": [
+    "Jun",
+    "Zig'ir",
+    "Paxta",
+    "Lavsan"
+   ],
+   "e": "Tabiiy ipak ham hayvon tolasi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Viskoza qanday tola?",
+   "a": [
+    "Sun'iy tola",
+    "Sintetik tola",
+    "O'simlik tolasi",
+    "Hayvon tolasi"
+   ],
+   "e": "Yog'och sellyulozasidan olinadi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Qaysi tola sintetik hisoblanadi?",
+   "a": [
+    "Poliester (lavsan)",
+    "Viskoza",
+    "Atsetat",
+    "Zig'ir"
+   ],
+   "e": "Neft mahsulotlaridan sintez qilinadi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Elastan (lykra) tolasining asosiy xususiyati nima?",
+   "a": [
+    "Juda yuqori cho'ziluvchanlik",
+    "Namni juda yaxshi yutib olishi",
+    "Olovda umuman yonmasligi",
+    "Qattiqligi va mo'rtligi"
+   ],
+   "e": "Cho'zilib, asl holiga qaytadi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Paxta tolasi yonganda qanday hid chiqadi?",
+   "a": [
+    "Kuygan qog'oz hidi",
+    "Kuygan soch hidi",
+    "Sirka hidi",
+    "Hech qanday hid chiqmaydi"
+   ],
+   "e": "Kul — kulrang, yumshoq."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Jun tolasi yonganda qanday belgi kuzatiladi?",
+   "a": [
+    "Kuygan soch hidi, qora mo'rt sharcha",
+    "Kuygan qog'oz hidi, kulrang kul",
+    "Eriydi va qattiq sharcha hosil bo'ladi",
+    "Umuman yonmaydi"
+   ],
+   "e": "Oqsil tola."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Sintetik tola yonganda qanday holat kuzatiladi?",
+   "a": [
+    "Eriydi, qattiq sharcha qoladi",
+    "Kuygan qog'oz hidi, yumshoq kul",
+    "Kuygan soch hidi, mo'rt kul",
+    "Hech qanday o'zgarish bo'lmaydi"
+   ],
+   "e": "Termoplastik."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Qaysi tola eng yaxshi gigroskopik (namni yutuvchi) xususiyatga ega?",
+   "a": [
+    "Zig'ir",
+    "Poliamid",
+    "Poliester",
+    "Akril"
+   ],
+   "e": "Tabiiy tolalar gigiyenik."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Tabiiy ipak qaysi hasharot pillasidan olinadi?",
+   "a": [
+    "Ipak qurti",
+    "Asalari",
+    "O'rgimchak",
+    "Chumoli"
+   ],
+   "e": "Ipakchilik."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Gazlamaning tanda iplari qanday joylashadi?",
+   "a": [
+    "Jiyakka parallel, uzunasiga",
+    "Jiyakka perpendikulyar, eniga",
+    "Diagonal, 45° burchakda",
+    "Tasodifiy tartibda"
+   ],
+   "e": "Arqoq — ko'ndalang."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Arqoq iplari gazlamada qanday joylashadi?",
+   "a": [
+    "Eniga, ko'ndalang",
+    "Uzunasiga, jiyak bo'ylab",
+    "Faqat jiyak ichida",
+    "Diagonal bo'ylab"
+   ],
+   "e": "Tanda iplariga perpendikulyar."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Tanda ipining arqoq ipidan farqi qaysi?",
+   "a": [
+    "Kam cho'ziladi, mustahkamroq",
+    "Ko'proq cho'ziladi",
+    "Har doim yo'g'onroq va bo'shroq",
+    "Faqat rangli bo'ladi"
+   ],
+   "e": "Tanda yo'nalishini aniqlash usuli."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Jiyak (kromka) nima?",
+   "a": [
+    "Gazlamaning bo'ylama zich cheti",
+    "Gazlamaning ko'ndalang kesilgan qirqimi",
+    "Gazlama yuzidagi bosma naqsh",
+    "Gazlamaning teskari (orqa) tomoni"
+   ],
+   "e": "Tanda yo'nalishini ko'rsatadi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Gazlama o'rilishining eng oddiy turi qaysi?",
+   "a": [
+    "Polotno",
+    "Sarja o'rilish",
+    "Atlas o'rilish",
+    "Jakkard o'rilish"
+   ],
+   "e": "Tanda va arqoq navbatma-navbat."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Sarja o'rilishi qanday belgi bilan aniqlanadi?",
+   "a": [
+    "Diagonal chiziqlar",
+    "Silliq yaltiroq yuza",
+    "Shaxmat katakchalari",
+    "Murakkab yirik naqsh"
+   ],
+   "e": "Masalan, jinsi gazlama."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Atlas o'rilishida yuzada qaysi iplar ustunlik qiladi?",
+   "a": [
+    "Tanda iplari",
+    "Arqoq iplari",
+    "Ikkalasi teng",
+    "Jiyak iplari"
+   ],
+   "e": "Satin o'rilishida — arqoq."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Jinsi gazlama (denim) odatda qanday o'rilishda bo'ladi?",
+   "a": [
+    "Sarja",
+    "Polotno",
+    "Atlas",
+    "Trikotaj"
+   ],
+   "e": "Diagonal tuzilish."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Gazlamaning kirishishi (usadka) nima?",
+   "a": [
+    "Yuvish yoki namlanishda o'lchamlarning kichrayishi",
+    "Dazmollash vaqtida eni kengayishi",
+    "Quyoshda rangining o'zgarishi",
+    "Ishqalanishdan yaltiroqligining ortishi"
+   ],
+   "e": "Bichishdan oldin dekatirovka qilinadi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Dekatirovka nima?",
+   "a": [
+    "Gazlamani bichishdan oldin namlab-dazmollab kirishtirish",
+    "Gazlamani kerakli rangga bo'yash",
+    "Gazlamaga bosma naqsh tushirish",
+    "Gazlamani andozalar bo'yicha kesish"
+   ],
+   "e": "Keyinchalik kirishishning oldini oladi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Qaysi gazlamani eng yuqori haroratda dazmollash mumkin?",
+   "a": [
+    "Zig'ir",
+    "Tabiiy ipak",
+    "Poliester",
+    "Jun"
+   ],
+   "e": "Zig'ir — eng yuqori, sintetika — eng past."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Sintetik gazlamalar qanday haroratda dazmollanadi?",
+   "a": [
+    "Past haroratda",
+    "Eng yuqori haroratda",
+    "Faqat bug'siz eng issiq rejimda",
+    "Umuman dazmollab bo'lmaydi"
+   ],
+   "e": "Yuqori haroratda eriydi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Jun gazlamani dazmollashda nima ishlatiladi?",
+   "a": [
+    "Nam latta orqali dazmollanadi",
+    "Quruq holda eng yuqori haroratda",
+    "To'g'ridan-to'g'ri yuz tomonidan",
+    "Faqat sovuq dazmol bilan"
+   ],
+   "e": "Yaltiroq iz qolmasligi uchun."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Gazlamaning yuz tomonini qanday aniqlash mumkin?",
+   "a": [
+    "Naqshi yorqinroq, yuzasi tekisroq",
+    "Har doim xiraroq tomoni",
+    "Tugunchalar ko'p tomoni",
+    "Jiyak teshikchalari chiqib turgan tomoni"
+   ],
+   "e": "Jiyakda teshikchalar teskari tomondan bo'rtadi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Gazlamaning eni nima?",
+   "a": [
+    "Jiyaklar orasidagi masofa",
+    "Gazlama uzunligi",
+    "Gazlama qalinligi",
+    "Bir metr gazlama og'irligi"
+   ],
+   "e": "Odatda 90–150 sm."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Trikotaj polotno gazlamadan nimasi bilan farq qiladi?",
+   "a": [
+    "Ilmoqlardan to'qiladi",
+    "Tanda va arqoqdan o'riladi",
+    "Faqat paxtadan tayyorlanadi",
+    "Cho'zilmaydi"
+   ],
+   "e": "Elastik."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Noto'qima material qanday olinadi?",
+   "a": [
+    "Tolalarni yopishtirish yoki presslash orqali",
+    "Tanda va arqoq iplarini o'rish orqali",
+    "Ilmoqlarni bir-biriga to'qish orqali",
+    "Faqat qo'lda tikib biriktirish orqali"
+   ],
+   "e": "Masalan, flizelin."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Flizelin kiyimda nima uchun ishlatiladi?",
+   "a": [
+    "Detallarni qotirish uchun yopishtiriladi",
+    "Astar sifatida butun kiyimga tikiladi",
+    "Bezak tasmasi sifatida qo'llanadi",
+    "Ilmoq tikish uchun ip o'rnida"
+   ],
+   "e": "Yoqa, manjet, bort."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Dublerin nima?",
+   "a": [
+    "Yelim qatlamli qotiruvchi material",
+    "Bezak uchun ishlatiladigan to'r",
+    "Yupqa tabiiy ipak gazlama turi",
+    "Plastmassa tugma turi"
+   ],
+   "e": "Qotiruvchi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Astar gazlamaga qanday talab qo'yiladi?",
+   "a": [
+    "Silliq, mustahkam, sirpanuvchan",
+    "Qalin, g'adir-budur va og'ir",
+    "Juda cho'ziluvchan, elastik",
+    "Tuksimon, qattiq va to'kiluvchan"
+   ],
+   "e": "Kiyishni qulaylashtiradi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Bo'z — qanday gazlama?",
+   "a": [
+    "Paxtadan polotno o'rilishli oddiy gazlama",
+    "Ipakdan atlas o'rilishli bezakli gazlama",
+    "Jundan sarja o'rilishli palto gazlamasi",
+    "Sintetik iplardan to'qilgan trikotaj"
+   ],
+   "e": "An'anaviy gazlama."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Batist qanday gazlama?",
+   "a": [
+    "Yupqa, shaffof paxta gazlama",
+    "Qalin jun gazlama",
+    "Junli palto gazlamasi",
+    "Charm o'rnini bosuvchi material"
+   ],
+   "e": "Bluzka, ko'ylaklar uchun."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Drap qanday kiyimlar uchun ishlatiladi?",
+   "a": [
+    "Palto",
+    "Yozgi bluzka",
+    "Ichki kiyim",
+    "Ro'mol"
+   ],
+   "e": "Qalin jun gazlama."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Shifon qanday gazlama?",
+   "a": [
+    "Yengil, shaffof",
+    "Qalin, issiq",
+    "Qattiq, qotirilgan",
+    "Tuksimon, mo'ynali"
+   ],
+   "e": "Ko'ylak va sharflar uchun."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Velvet (barxat) gazlamaning xususiyati qaysi?",
+   "a": [
+    "Yuzasida qisqa zich tuklar bor",
+    "Yuzasi butunlay silliq yaltiroq",
+    "Shaffof yupqa",
+    "Diagonal naqshli"
+   ],
+   "e": "Tuk yo'nalishi bir xil bichiladi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Tukli gazlamalarni bichishda nimaga e'tibor beriladi?",
+   "a": [
+    "Barcha detallarda tuk yo'nalishi bir xil bo'lishiga",
+    "Detallarni har xil yo'nalishda joylashtirishga",
+    "Tuklarni oldindan qirqib tashlashga",
+    "Detallarni faqat arqoq bo'ylab bichishga"
+   ],
+   "e": "Aks holda rang turlicha ko'rinadi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Gazlamaning havo o'tkazuvchanligi qaysi xossaga kiradi?",
+   "a": [
+    "Gigiyenik",
+    "Mexanik",
+    "Optik",
+    "Texnologik"
+   ],
+   "e": "Shuningdek gigroskopiklik."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Gazlamaning to'kiluvchanligi (osypayemost) qaysi xossaga kiradi?",
+   "a": [
+    "Texnologik",
+    "Gigiyenik",
+    "Estetik",
+    "Optik"
+   ],
+   "e": "Qirqimlar yo'rmalashni talab qiladi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Qaysi gazlama g'ijimlanuvchanligi eng yuqori?",
+   "a": [
+    "Zig'ir",
+    "Poliester",
+    "Jun krep",
+    "Trikotaj"
+   ],
+   "e": "Zig'ir oson g'ijimlanadi."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Gazlamaning drapirovkalanishi nima?",
+   "a": [
+    "Yumshoq burmalar hosil qilish qobiliyati",
+    "Yirtilish va ishqalanishga chidamliligi",
+    "Rangining yuvilishga chidamliligi",
+    "Namni yutish va bug'latish xossasi"
+   ],
+   "e": "Estetik xossa."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Kiyim yorlig'idagi belgilar (piktogrammalar) nimani bildiradi?",
+   "a": [
+    "Parvarish qoidalarini",
+    "Kiyim narxini",
+    "Ishlab chiqaruvchi manzilini",
+    "Kiyim o'lchamini emas, rangini"
+   ],
+   "e": "Yuvish, dazmollash, kimyoviy tozalash."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Yorliqdagi dazmol belgisi ichida bitta nuqta nimani bildiradi?",
+   "a": [
+    "Past haroratda dazmollash (≈110 °C)",
+    "Eng yuqori haroratda dazmollash",
+    "Dazmollash qat'iyan taqiqlanadi",
+    "Faqat bug' bilan dazmollash majburiy"
+   ],
+   "e": "Uch nuqta — yuqori (≈200 °C)."
+  },
+  {
+   "b": "Tolalar va gazlamalar",
+   "q": "Yorliqdagi chizilgan (X) tog'ora belgisi nimani bildiradi?",
+   "a": [
+    "Suvda yuvish mumkin emas",
+    "Faqat qo'lda yuvish mumkin",
+    "30 °C dan oshmagan suvda yuvish",
+    "Qaynatib yuvish mumkin"
+   ],
+   "e": "Faqat kimyoviy tozalash."
+  },
+  {
+   "b": "Tikuv asboblari va jihozlari",
+   "q": "Angishvona (naperstok) qaysi barmoqqa kiyiladi?",
+   "a": [
+    "O'ng qo'lning o'rta barmog'iga",
+    "Chap qo'lning bosh barmog'iga",
+    "O'ng qo'lning ko'rsatkich barmog'iga",
+    "Chap qo'lning jimjilog'iga"
+   ],
+   "e": "Ignani itarish uchun."
+  },
+  {
+   "b": "Tikuv asboblari va jihozlari",
+   "q": "Gazlamaga belgi qo'yish uchun nima ishlatiladi?",
+   "a": [
+    "Tikuvchi bo'ri yoki sovun bo'lagi",
+    "Moyli bo'yoq yoki lak",
+    "Siyohli ruchka yoki marker",
+    "Pechka ko'miri"
+   ],
+   "e": "Oson ketadigan belgi."
+  },
+  {
+   "b": "Tikuv asboblari va jihozlari",
+   "q": "Qaychini boshqa odamga qanday uzatish kerak?",
+   "a": [
+    "Tig'lari yopiq, dastasi bilan oldinga",
+    "Tig'lari ochiq holda, uchi bilan oldinga",
+    "Masofadan ehtiyotlab uloqtirib",
+    "Tig'lari ochiq holda stol ustiga tashlab"
+   ],
+   "e": "Xavfsizlik qoidasi."
+  },
+  {
+   "b": "Tikuv asboblari va jihozlari",
+   "q": "Ignalarni ish vaqtida qayerda saqlash kerak?",
+   "a": [
+    "Ignadonda (ignaqadagichda)",
+    "Og'izda",
+    "Kiyim yoqasiga sanchib",
+    "Stol ustida sochilgan holda"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Tikuv asboblari va jihozlari",
+   "q": "Santimetrli lenta uzunligi odatda qancha?",
+   "a": [
+    "1,5 m",
+    "50 sm",
+    "100 m",
+    "15 sm"
+   ],
+   "e": "O'lchov olish uchun."
+  },
+  {
+   "b": "Tikuv asboblari va jihozlari",
+   "q": "Lekalo nima?",
+   "a": [
+    "Egri chiziqlarni chizish uchun chizg'ich",
+    "Gazlama kesuvchi aylanma pichoq",
+    "Ip o'raladigan katta g'altak",
+    "Tugma qadash uchun moslama"
+   ],
+   "e": "Andoza konturlarini chizishda."
+  },
+  {
+   "b": "Tikuv asboblari va jihozlari",
+   "q": "Manekenning tikuvchilikdagi vazifasi nima?",
+   "a": [
+    "Kiyimni o'lchab, shakl berish va tekshirish",
+    "Gazlamani bo'yash va quritish",
+    "Ip va ignalarni saqlash",
+    "Dazmol haroratini o'lchash"
+   ],
+   "e": "Tikuvchi manekeni."
+  },
+  {
+   "b": "Tikuv asboblari va jihozlari",
+   "q": "Dazmollashda kiyimning yaltiroq bo'lib qolmasligi uchun nima qilinadi?",
+   "a": [
+    "Nam latta orqali dazmollanadi",
+    "Eng yuqori haroratda bosiladi",
+    "Kiyim yuz tomonidan uzoq bosiladi",
+    "Dazmol suvsiz ishlatiladi"
+   ],
+   "e": "Ayniqsa jun va qora gazlamalar."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Maishiy tikuv mashinasida qanday chok hosil bo'ladi?",
+   "a": [
+    "Mokili (ikki ipli) chok",
+    "Bir ipli zanjirli chok",
+    "Uch ipli yo'rma (overlok) chok",
+    "Faqat ko'rinmaydigan yashirin chok"
+   ],
+   "e": "Ustki va pastki ip."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Tikuv mashinasida pastki ip qayerga o'raladi?",
+   "a": [
+    "Shpulyaga (g'altakchaga)",
+    "Ignaning ko'ziga to'g'ridan-to'g'ri",
+    "Ip tortgich richagiga",
+    "Bosuvchi oyoqchaning ostiga"
+   ],
+   "e": "Shpulya mokiga joylanadi."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Tikuv mashinasida gazlamani oldinga suruvchi qism qaysi?",
+   "a": [
+    "Reyka",
+    "Ip tortgich",
+    "Volan",
+    "Shpulya"
+   ],
+   "e": "Transportyor."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Tikuv mashinasi oyoqchasi (lapka) vazifasi nima?",
+   "a": [
+    "Gazlamani reykaga bosib turish",
+    "Ipni avtomatik kesish",
+    "Ignani o'tkirlab turish",
+    "Shpulyaga ip o'rash"
+   ],
+   "e": "Bosuvchi oyoqcha."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Mashina ignasining ko'zi qayerda joylashgan?",
+   "a": [
+    "Uchiga yaqin",
+    "Ignaning kolbasi yonida",
+    "Ignaning o'rtasida",
+    "Igna ko'zi bo'lmaydi"
+   ],
+   "e": "Qo'l ignasidan farqi."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Igna raqami kattalashsa, igna qanday bo'ladi?",
+   "a": [
+    "Yo'g'onroq",
+    "Ingichkaroq",
+    "Qisqaroq",
+    "O'zgarmaydi"
+   ],
+   "e": "Metrik raqam — diametr ×100."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Ip raqami kattalashsa, ip qanday bo'ladi?",
+   "a": [
+    "Ingichkaroq",
+    "Yo'g'onroq",
+    "Mustahkamroq va qalinroq",
+    "Rangliroq"
+   ],
+   "e": "Igna raqamiga teskari."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Yupqa ipak gazlama uchun qaysi igna mos?",
+   "a": [
+    "Ingichka igna (masalan, 70)",
+    "Yo'g'on igna (masalan, 110)",
+    "Charm uchun igna",
+    "Jinsi uchun igna"
+   ],
+   "e": "Gazlamani teshib yubormaslik."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Tikuvda chok tashlab ketilsa (propusk), eng ko'p uchraydigan sabab nima?",
+   "a": [
+    "Igna egilgan yoki noto'g'ri o'rnatilgan",
+    "Shpulyaga ip haddan tashqari ko'p o'ralgan",
+    "Gazlama juda keng va og'ir",
+    "Mashina yaqinda moylangan"
+   ],
+   "e": "Ignani to'g'ri o'rnatish."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Ustki ip tez-tez uzilsa, sabab nima bo'lishi mumkin?",
+   "a": [
+    "Ustki ipning tarangligi haddan tashqari kuchli",
+    "Gazlama eni juda keng",
+    "Bosuvchi oyoqcha ko'tarilgan",
+    "Mashina yangi sotib olingan"
+   ],
+   "e": "Taranglikni sozlash."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Chokning pastki qismida ip halqalari (petlya) hosil bo'lsa, nima sozlanadi?",
+   "a": [
+    "Ustki ip tarangligi",
+    "Igna raqami",
+    "Lapka bosimi",
+    "Chok uzunligi"
+   ],
+   "e": "Ustki ip bo'sh — pastda halqa."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Ish tugagach tikuv mashinasini qanday holatda qoldirish kerak?",
+   "a": [
+    "Elektrdan uzib, igna ostiga gazlama bo'lagini qo'yib",
+    "Elektrga ulangan, yoqilgan holda",
+    "Igna ko'tarilgan, lapka ochiq holda",
+    "Moy quyib, to'ldirib qo'yib"
+   ],
+   "e": "Xavfsizlik va parvarish."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Tikuv mashinasini moylash uchun qanday moy ishlatiladi?",
+   "a": [
+    "Maxsus mashina moyi",
+    "O'simlik yog'i",
+    "Benzin",
+    "Suv"
+   ],
+   "e": "Yog' qotib qoladi."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Overlok mashinasi nima uchun ishlatiladi?",
+   "a": [
+    "Qirqimlarni yo'rmash va bir vaqtda tikish",
+    "Tugmalarni avtomatik qadash",
+    "Tugma uchun ilmoq ochish",
+    "Gazlamaga kashta tikish"
+   ],
+   "e": "Ko'p ipli yo'rma chok."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Ilmoq tikish (petlya) yarim avtomati nima qiladi?",
+   "a": [
+    "Tugma uchun ilmoq ochadi va tikadi",
+    "Gazlamani andoza bo'yicha bichadi",
+    "Tayyor detallarni dazmollaydi",
+    "Qirqimlarni yelim bilan yopishtiradi"
+   ],
+   "e": "Maxsus mashina."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Distalanma chok (zigzag) qachon ishlatiladi?",
+   "a": [
+    "Qirqimni yo'rmash va cho'ziluvchan gazlamada",
+    "Faqat detallarni vaqtincha ko'klash uchun",
+    "Faqat tugma qadash uchun",
+    "Faqat dazmollashdan oldin"
+   ],
+   "e": "Universal mashina funksiyasi."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Chokning boshida va oxirida mahkamlash (zakrepka) qanday bajariladi?",
+   "a": [
+    "Teskari yurish bilan 1–1,5 sm",
+    "Ipni tugun qilmasdan qoldirib",
+    "Ipni kuydirib",
+    "Yelim surtib"
+   ],
+   "e": "Chok so'kilmasligi uchun."
+  },
+  {
+   "b": "Tikuv mashinasi",
+   "q": "Tikishda mashina chokining standart uzunligi (chok qadami) odatda qancha?",
+   "a": [
+    "2–3 mm",
+    "10–12 mm",
+    "0,1 mm",
+    "20 mm"
+   ],
+   "e": "Gazlama qalinligiga bog'liq."
+  },
+  {
+   "b": "Qo'l choklari",
+   "q": "Ko'klash (smetka) chokining vazifasi nima?",
+   "a": [
+    "Detallarni vaqtincha biriktirish",
+    "Detallarni doimiy va mustahkam biriktirish",
+    "Qirqimlarni bezakli hoshiyalash",
+    "Tugma va ilgaklarni qadash"
+   ],
+   "e": "Keyin olib tashlanadi."
+  },
+  {
+   "b": "Qo'l choklari",
+   "q": "Nusxa ko'chirish (kopirovka) chokining vazifasi qaysi?",
+   "a": [
+    "Chiziqlarni bir detaldan ikkinchisiga ko'chirish",
+    "Detallarni mahkam doimiy tikish",
+    "Qirqimlarni yo'rmab to'kilmaslik",
+    "Kiyimga bezak berish"
+   ],
+   "e": "Simmetrik detallar uchun."
+  },
+  {
+   "b": "Qo'l choklari",
+   "q": "Yashirin (potaynoy) chok qayerda ishlatiladi?",
+   "a": [
+    "Etak va yeng uchini ko'rinmas qilib tikishda",
+    "Yon choklarni mustahkam biriktirishda",
+    "Tugma uchun ilmoq ochishda",
+    "Tugma va ilgak qadashda"
+   ],
+   "e": "Yuz tomondan deyarli ko'rinmaydi."
+  },
+  {
+   "b": "Qo'l choklari",
+   "q": "Qo'lda yo'rmash (obmetka) chokining vazifasi nima?",
+   "a": [
+    "Qirqimning to'kilishini oldini olish",
+    "Detallarni vaqtincha ulash",
+    "Chiziqlarni bir detaldan ko'chirish",
+    "Kiyim yuziga bezak berish"
+   ],
+   "e": "Qiyshiq yoki xochsimon chok."
+  },
+  {
+   "b": "Qo'l choklari",
+   "q": "Qo'l ishida ipning optimal uzunligi qancha?",
+   "a": [
+    "50–60 sm",
+    "2–3 m",
+    "10 sm",
+    "5 m"
+   ],
+   "e": "Chalkashmaydi."
+  },
+  {
+   "b": "Qo'l choklari",
+   "q": "\"Ignaning orqasidan\" (nazad igloy) chok qanday chok?",
+   "a": [
+    "Mustahkam, mashina chokiga o'xshash qo'l choki",
+    "Vaqtincha ko'klash uchun siyrak chok",
+    "Chiziqlarni ko'chirish uchun chok",
+    "Bezak uchun zanjirsimon chok"
+   ],
+   "e": "Qo'lda mustahkam tikish."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Ikki detalni yuzma-yuz qo'yib bir chiziq bo'yicha tikish qanday chok?",
+   "a": [
+    "Tikma chok",
+    "Qo'yma chok",
+    "Qaytarma chok",
+    "Ko'klash"
+   ],
+   "e": "Eng ko'p ishlatiladigan chok."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Tikma chokdan keyin qirqimlarni ikki tomonga yoyib dazmollash qanday ataladi?",
+   "a": [
+    "Yoyib dazmollash",
+    "Bukib dazmollash",
+    "Kirishtirish",
+    "Cho'zish"
+   ],
+   "e": "Razutyuzhka."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Qirqimlarni bir tomonga yotqizib dazmollash qanday ataladi?",
+   "a": [
+    "Yotqizib dazmollash",
+    "Yoyib dazmollash",
+    "Bug'lash",
+    "Cho'zish"
+   ],
+   "e": "Zautyuzhka."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Qo'yma (nakladnoy) chok qanday bajariladi?",
+   "a": [
+    "Bir detal ikkinchisining ustiga qo'yib tikiladi",
+    "Detallar yuzma-yuz qo'yib tikiladi",
+    "Qirqim ikki marta bukib tikiladi",
+    "Faqat qo'lda ko'rinmas tikiladi"
+   ],
+   "e": "Masalan, ustki cho'ntak."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Yopiq qirqimli bukib tikish chokida qirqim necha marta bukiladi?",
+   "a": [
+    "Ikki marta",
+    "Bir marta",
+    "Uch marta",
+    "Bukilmaydi"
+   ],
+   "e": "Qirqim chok ichida yopiladi."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Ikki qatorli (fransuz) chok qaysi gazlamalar uchun qulay?",
+   "a": [
+    "Yupqa, to'kiluvchan gazlamalar",
+    "Qalin palto va kostyum gazlamalari",
+    "Charm va sun'iy mo'yna",
+    "Cho'ziluvchan trikotaj"
+   ],
+   "e": "Qirqim ichkarida yopiladi."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Kant (kantik) chok qayerda ishlatiladi?",
+   "a": [
+    "Detal qirqimini bezakli hoshiyalashda",
+    "Faqat kiyimning ichki choklarida",
+    "Tugma qadash joylarida",
+    "Ilmoq tikishda mustahkamlash uchun"
+   ],
+   "e": "Qirqimlarni o'rab olish."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Bezakli (otdelochnaya) qator qanday chok?",
+   "a": [
+    "Yuz tomondan ko'rinadigan bezak uchun chok",
+    "Teskari tomondagi yashirin chok",
+    "Vaqtincha ko'klash choki",
+    "Ilmoq atrofini tikish choki"
+   ],
+   "e": "Ko'pincha qo'sh qator."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Chok qo'yimi (pripusk) nima?",
+   "a": [
+    "Chok uchun qoldirilgan gazlama zaxirasi",
+    "Detalning tashqi yuz qismi",
+    "Tugmalar orasidagi masofa",
+    "Gazlamaning bo'ylama jiyagi"
+   ],
+   "e": "Odatda 1–1,5 sm."
+  },
+  {
+   "b": "Mashina choklari",
+   "q": "Etak qo'yimi odatda qancha qoldiriladi?",
+   "a": [
+    "3–5 sm",
+    "0,2 sm",
+    "15–20 sm",
+    "Qo'yim qoldirilmaydi"
+   ],
+   "e": "Gazlama va modelga bog'liq."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Qomatdan o'lchov olishda qaysi tomondan o'lchanadi?",
+   "a": [
+    "O'ng tomondan",
+    "Faqat chap tomondan, egilgan holda",
+    "Orqa tomondan, o'tirgan holda",
+    "Istalgan tomondan, kiyim ustidan"
+   ],
+   "e": "Odam tik, erkin turadi."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Ko'krak yarim aylanasi qanday belgilanadi?",
+   "a": [
+    "Sg",
+    "St",
+    "Sb",
+    "Dts"
+   ],
+   "e": "Sg — ko'krak, St — bel, Sb — son."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Bel yarim aylanasi qanday belgilanadi?",
+   "a": [
+    "St",
+    "Sg",
+    "Sb",
+    "Shp"
+   ],
+   "e": "Talliya."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Son yarim aylanasi qanday belgilanadi?",
+   "a": [
+    "Sb",
+    "St",
+    "Sg",
+    "Dsb"
+   ],
+   "e": "Bedra."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Son aylanasi qayerdan o'lchanadi?",
+   "a": [
+    "Dumbaning eng bo'rtgan nuqtalaridan",
+    "Belning eng ingichka joyidan baland",
+    "Tizza ustidan, oyoq bukilgan holda",
+    "Ko'krakning eng bo'rtgan joyidan"
+   ],
+   "e": "Gorizontal holda."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Bel aylanasi qayerdan o'lchanadi?",
+   "a": [
+    "Gavdaning eng ingichka joyidan",
+    "Sonning eng bo'rtgan joyidan",
+    "Ko'krak ostidan, kurak bo'ylab",
+    "Kindikdan 10 sm pastdan"
+   ],
+   "e": "Gorizontal."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Rossiya/MDH tizimida ayollar kiyimining o'lchami (razmeri) qanday aniqlanadi?",
+   "a": [
+    "Ko'krak aylanasining yarmi",
+    "Bel aylanasining to'liq qiymati",
+    "Bo'yning uchdan bir qismi",
+    "Son aylanasining ikki baravari"
+   ],
+   "e": "Masalan, ko'krak 96 sm — 48 o'lcham."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Ko'krak aylanasi 100 sm bo'lsa, kiyim o'lchami qancha?",
+   "a": [
+    "50",
+    "100",
+    "25",
+    "44"
+   ],
+   "e": "100 : 2 = 50."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "O'lchov olishda santimetr lentani qanday tutish kerak?",
+   "a": [
+    "Taranglamasdan, tanaga yopishtirib",
+    "Kuchli tortib, tanani biroz siqib",
+    "Juda bo'sh, osilib turadigan qilib",
+    "Kiyimning qalin qatlami ustidan"
+   ],
+   "e": "Aniq o'lchov."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Kiyim chizmasiga erkinlik qo'shimchasi nima uchun qo'shiladi?",
+   "a": [
+    "Harakat va nafas erkinligi uchun",
+    "Gazlamani tejash uchun",
+    "Chok qo'yimi o'rniga ishlatish uchun",
+    "Faqat bezak berish uchun"
+   ],
+   "e": "Pribavka."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Yubka uzunligi qanday o'lchanadi?",
+   "a": [
+    "Bel chizig'idan kerakli uzunlikkacha",
+    "Yelka nuqtasidan to tizzagacha",
+    "Ko'krak chizig'idan polgacha",
+    "Tizza ostidan to'piqqacha"
+   ],
+   "e": "Yon tomondan."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Yelka kengligi qanday o'lchanadi?",
+   "a": [
+    "Bo'yin asosidan yelka uchigacha",
+    "Bir qo'l uchidan ikkinchi qo'l uchigacha",
+    "Bo'yin asosidan bel chizig'igacha",
+    "Ko'krak markazidan kurakkacha"
+   ],
+   "e": "Shp."
+  },
+  {
+   "b": "O'lchov olish",
+   "q": "Orqa uzunligi beligacha qanday o'lchanadi?",
+   "a": [
+    "7-bo'yin umurtqasidan bel chizig'igacha",
+    "Yelka nuqtasidan tizzagacha",
+    "Bo'yin oldidan ko'krak markazigacha",
+    "Kurak ostidan son chizig'igacha"
+   ],
+   "e": "Dts."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Kiyim konstruksiyasi chizmasi qanday masshtabda chiziladi?",
+   "a": [
+    "1:1 (andoza) yoki 1:4 (o'quv chizma)",
+    "Faqat 10:1 kattalashtirilgan",
+    "Faqat 1:1000 kichraytirilgan",
+    "Masshtab umuman ishlatilmaydi"
+   ],
+   "e": "Andoza — haqiqiy o'lchamda."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "To'g'ri yubka chizmasida asosiy gorizontal chiziqlar qaysilar?",
+   "a": [
+    "Bel, son va tag chiziqlari",
+    "Ko'krak, yelka va yeng",
+    "Tizza va to'piq chiziqlari faqat",
+    "Bo'yin va yoqa chiziqlari"
+   ],
+   "e": "Asosiy to'r."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Yubka chizmasida vitochka (qisma) nima uchun chiziladi?",
+   "a": [
+    "Bel va son farqini taqsimlash uchun",
+    "Faqat bezak sifatida ishlatiladi",
+    "Cho'ntak joyini belgilash uchun",
+    "Etakni kengaytirib, klesh berish uchun"
+   ],
+   "e": "Yubka belga yopishib turadi."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "\"Quyosh\" yubkasi qanday shaklda bichiladi?",
+   "a": [
+    "To'liq doira shaklida",
+    "To'g'ri to'rtburchak shaklida",
+    "Uchburchak shaklida",
+    "Trapetsiya shaklida faqat ikki bo'lak"
+   ],
+   "e": "Klesh yubka."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "\"Yarim quyosh\" yubkasi qanday bichiladi?",
+   "a": [
+    "Yarim doira shaklida",
+    "To'liq doira shaklida",
+    "Kvadrat shaklida",
+    "Sakkiz bo'lak to'rtburchak"
+   ],
+   "e": "Konussimon yubka."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Plisse yubka qanday tuzilishga ega?",
+   "a": [
+    "Mayda bir tomonlama burmalar",
+    "Bitta yirik va chuqur vitochka",
+    "Doiraviy, burmasiz klesh shakli",
+    "Yon chokdagi uzun qirqma"
+   ],
+   "e": "Termik ishlov bilan mahkamlanadi."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Bantli burma (bantovaya skladka) qanday burma?",
+   "a": [
+    "Qarama-qarshi ikki burmadan iborat",
+    "Bir tomonga yotqizilgan oddiy burma",
+    "Mayda burmalardan iborat to'plam",
+    "Faqat yeng uchiga beriladigan burma"
+   ],
+   "e": "Ichki va tashqi bant burma."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Yelkali kiyim asos chizmasida qanday asosiy chiziqlar bor?",
+   "a": [
+    "Ko'krak, bel, son chiziqlari",
+    "Faqat tag va etak chiziqlari",
+    "Tizza va to'piq chiziqlari",
+    "Faqat yoqa chizig'i"
+   ],
+   "e": "Asos to'ri."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Ko'krak vitochkasi nima uchun kerak?",
+   "a": [
+    "Ko'krak bo'rtig'iga hajm berish uchun",
+    "Kiyimni bo'yiga qisqartirish uchun",
+    "Tugmalarni to'g'ri joylashtirish uchun",
+    "Ustki cho'ntak tikish uchun"
+   ],
+   "e": "Old bo'lakda."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Yeng o'mizi (prolyma) nima?",
+   "a": [
+    "Yeng tikiladigan kesilgan joy",
+    "Yoqa tikiladigan bo'yin o'mizi",
+    "Etakning bukib tikilgan qismi",
+    "Ichki cho'ntak teshigi"
+   ],
+   "e": "Yeng va o'miz mos bo'lishi kerak."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Yeng okati nima?",
+   "a": [
+    "Yengning yuqori, o'mizga tikiladigan qismi",
+    "Yengning pastki, bilakdagi uchi",
+    "Yengning bo'ylama choki",
+    "Yeng uchiga tikiladigan manjet"
+   ],
+   "e": "O'tqazma yeng."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Andoza (lekalo) nima?",
+   "a": [
+    "Detalning qattiq qog'ozdagi nusxasi",
+    "Tikuv mashinasining almashtiriladigan qismi",
+    "Kiyimni bezovchi tasma",
+    "Bug'li dazmolning turi"
+   ],
+   "e": "Bichish uchun."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Andozada tanda ipi yo'nalishi qanday belgilanadi?",
+   "a": [
+    "Ikki tomonlama strelka bilan",
+    "Bitta doira yoki aylana bilan",
+    "Xoch belgisi bilan",
+    "Hech qanday belgi qo'yilmaydi"
+   ],
+   "e": "Bichishda jiyakka parallel qo'yiladi."
+  },
+  {
+   "b": "Konstruksiyalash",
+   "q": "Nazorat belgilari (nadseчki) nima uchun qo'yiladi?",
+   "a": [
+    "Detallarni to'g'ri ulash uchun",
+    "Gazlamani bezash va naqsh berish uchun",
+    "Detalni bo'yiga qisqartirish uchun",
+    "Tugma joyini yashirish uchun"
+   ],
+   "e": "Moslashtirish."
+  },
+  {
+   "b": "Modellashtirish",
+   "q": "Modellashtirish nima?",
+   "a": [
+    "Asos chizmasiga model o'zgarishlarini kiritish",
+    "Gazlamani tanlash va sotib olish",
+    "Tayyor kiyimni dazmollash",
+    "Tugma va ilgaklarni qadash"
+   ],
+   "e": "Asos — konstruksiya."
+  },
+  {
+   "b": "Modellashtirish",
+   "q": "Vitochkani ko'chirish qanday maqsadda bajariladi?",
+   "a": [
+    "Model chiziqlarini o'zgartirish uchun",
+    "Gazlamani tejash uchun emas, ko'paytirish uchun",
+    "Kiyimni qisqartirish uchun",
+    "Chokni yo'q qilish uchun"
+   ],
+   "e": "Hajm saqlanadi."
+  },
+  {
+   "b": "Modellashtirish",
+   "q": "Relyef chiziq nima?",
+   "a": [
+    "Vitochka o'rnini bosuvchi qirqma chiziq",
+    "Etakdagi bezakli kashta chizig'i",
+    "Old bo'lakdagi tugmalar qatori",
+    "Yoqaning tashqi chekkasi"
+   ],
+   "e": "Qomatga yopishtiradi."
+  },
+  {
+   "b": "Modellashtirish",
+   "q": "Kokketka nima?",
+   "a": [
+    "Kiyimning yuqori qismidagi qirqma detal",
+    "Yeng uchiga tikiladigan manjet",
+    "Etakdagi bezakli burma",
+    "Cho'ntakni yopuvchi qopqoq"
+   ],
+   "e": "Yelka yoki bel qismida."
+  },
+  {
+   "b": "Modellashtirish",
+   "q": "Detalni kengaytirish uchun qanday usul qo'llanadi?",
+   "a": [
+    "Kesib, bo'laklarni yoyish",
+    "Chok qo'yimini kesib tashlash",
+    "Detalni dazmollab cho'zish",
+    "Tugmalarni ko'chirish"
+   ],
+   "e": "Parallel yoki konussimon kengaytirish."
+  },
+  {
+   "b": "Modellashtirish",
+   "q": "\"A\" siluet qanday shakl?",
+   "a": [
+    "Pastga qarab kengayib boradi",
+    "Yelka keng, etak tor",
+    "To'g'ri, kengaymagan",
+    "Belda keskin qisilgan, pastda tor"
+   ],
+   "e": "Trapetsiya."
+  },
+  {
+   "b": "Modellashtirish",
+   "q": "\"X\" siluet qanday shaklga ega?",
+   "a": [
+    "Belda qisilgan, yelka va etak keng",
+    "Pastga qarab bir tekis kengayadi",
+    "To'g'ri, belga yopishmagan",
+    "O'rtada keng, uchlarida toraygan"
+   ],
+   "e": "Qum soat shakli."
+  },
+  {
+   "b": "Modellashtirish",
+   "q": "\"H\" siluet qanday kiyim shakli?",
+   "a": [
+    "To'g'ri siluet",
+    "Trapetsiya siluet",
+    "O'rtasi bo'rtgan siluet",
+    "Belda qisilgan siluet"
+   ],
+   "e": "Rektangulyar."
+  },
+  {
+   "b": "Modellashtirish",
+   "q": "\"O\" siluet qanday shakl?",
+   "a": [
+    "O'rtasi keng, uchlari toraygan",
+    "To'g'ri to'rtburchak shaklida",
+    "Pastga qarab kengaygan",
+    "Belda qisilgan, etak keng"
+   ],
+   "e": "Oval siluet."
+  },
+  {
+   "b": "Bichish",
+   "q": "Gazlamani bichishga tayyorlashda birinchi navbatda nima qilinadi?",
+   "a": [
+    "Nuqsonlarni tekshirib, dekatirovka qilish",
+    "Darhol qaychi bilan kesishni boshlash",
+    "Detallarni ko'klab tikish",
+    "Tugma va ilgaklarni qadash"
+   ],
+   "e": "Tayyorlov ishlari."
+  },
+  {
+   "b": "Bichish",
+   "q": "Andozalar gazlamaga qanday joylashtiriladi?",
+   "a": [
+    "Tanda yo'nalishiga mos, tejamkor",
+    "Tasodifiy yo'nalishda",
+    "Faqat arqoq bo'ylab, oralig'i keng",
+    "Diagonal bo'yicha, jiyakni hisobga olmay"
+   ],
+   "e": "Tejamkor joylash."
+  },
+  {
+   "b": "Bichish",
+   "q": "Simmetrik detallarni bichishda gazlama qanday buklanadi?",
+   "a": [
+    "Yuzi ichkariga qaratib",
+    "Yuzi tashqariga qaratib",
+    "To'rt marta buklab",
+    "Buklanmaydi"
+   ],
+   "e": "Juft detallar bir xil chiqadi."
+  },
+  {
+   "b": "Bichish",
+   "q": "Qiya yo'nalishda (diagonal) bichilgan bo'lakning xususiyati qaysi?",
+   "a": [
+    "Ko'proq cho'ziladi",
+    "Umuman cho'zilmaydi",
+    "Qattiqlashadi",
+    "Rangi o'zgaradi"
+   ],
+   "e": "Qiya tasma uchun."
+  },
+  {
+   "b": "Bichish",
+   "q": "Qiya tasma qanday bichiladi?",
+   "a": [
+    "Tanda ipiga 45° burchak ostida",
+    "Tanda ipi bo'ylab, jiyakka parallel",
+    "Arqoq ipi bo'ylab, jiyakka tik",
+    "Jiyakning o'zini qirqib olib"
+   ],
+   "e": "Egilgan qirqimlarni ishlashda."
+  },
+  {
+   "b": "Bichish",
+   "q": "Katak yoki yo'l-yo'l gazlamani bichishda nimaga e'tibor beriladi?",
+   "a": [
+    "Naqshlarni choklarda moslashtirishga",
+    "Naqshlarni turli yo'nalishga qo'yishga",
+    "Faqat arqoq bo'ylab bichishga",
+    "Naqshni hisobga olmaslikka"
+   ],
+   "e": "Ko'proq gazlama sarflanadi."
+  },
+  {
+   "b": "Bichish",
+   "q": "Bichishdan keyin detallarga qanday ishlov beriladi?",
+   "a": [
+    "Chiziqlar ko'chirilib, detallar terib qo'yiladi",
+    "Darhol dazmollab, yuvib quritiladi",
+    "Detallar kerakli rangga bo'yaladi",
+    "Detallar yelim bilan yopishtiriladi"
+   ],
+   "e": "Komplektlash."
+  },
+  {
+   "b": "Bichish",
+   "q": "Kiyim uchun gazlama sarfi qanday hisoblanadi?",
+   "a": [
+    "Model, gazlama eni va o'lchamga qarab",
+    "Faqat kiyimning rangiga qarab",
+    "Faqat tugmalar soniga qarab",
+    "Har qanday kiyimga 1 metr olinadi"
+   ],
+   "e": "Masalan, yubka uchun: uzunlik + qo'yimlar."
+  },
+  {
+   "b": "Namlab-isitib ishlov berish",
+   "q": "Namlab-isitib ishlov berishning (NII) asosiy omillari qaysilar?",
+   "a": [
+    "Namlik, harorat, bosim, vaqt",
+    "Faqat ip, igna va tikuv mashinasi",
+    "Rang, naqsh va gazlama jilosi",
+    "Qaychi, bo'r va santimetr lenta"
+   ],
+   "e": "Detalga shakl beriladi."
+  },
+  {
+   "b": "Namlab-isitib ishlov berish",
+   "q": "Detal chetini cho'zib dazmollash (ottyajka) nima uchun qilinadi?",
+   "a": [
+    "Botiq shakl berish uchun",
+    "Qirqimni qisqartirish uchun",
+    "Chokni yoyish uchun",
+    "Yaltiroq izni ketkazish uchun"
+   ],
+   "e": "Masalan, bel qismi."
+  },
+  {
+   "b": "Namlab-isitib ishlov berish",
+   "q": "Kirishtirib dazmollash (sutyujka) nima uchun bajariladi?",
+   "a": [
+    "Ortiqcha uzunlikni qisqartirib, bo'rtiq shakl berish",
+    "Detalni uzaytirib, tekis holga keltirish",
+    "Chok qo'yimlarini ikki tomonga yoyish",
+    "Gazlamadagi yaltiroq izni yo'qotish"
+   ],
+   "e": "Masalan, yeng okati."
+  },
+  {
+   "b": "Namlab-isitib ishlov berish",
+   "q": "Bug'lash (otparivanie) nima uchun qilinadi?",
+   "a": [
+    "Yaltiroq izni yo'qotish uchun",
+    "Detalga botiq shakl berish uchun",
+    "Chokni mahkamlash uchun",
+    "Gazlamani bo'yash uchun"
+   ],
+   "e": "Dazmol tegmasdan bug' beriladi."
+  },
+  {
+   "b": "Namlab-isitib ishlov berish",
+   "q": "Bukib dazmollash nima?",
+   "a": [
+    "Detal chetini bukib, buklamni mahkamlash",
+    "Chok qo'yimini ikki tomonga yoyish",
+    "Detal chetini cho'zib, botiq shakl berish",
+    "Dazmol tegizmasdan kiyimni bug'lash"
+   ],
+   "e": "Etak, yeng uchi."
+  },
+  {
+   "b": "Namlab-isitib ishlov berish",
+   "q": "Tikish jarayonida har bir chokdan keyin nima qilinadi?",
+   "a": [
+    "Dazmollab ishlov beriladi",
+    "Kiyim yuviladi",
+    "Detal qaytadan bichiladi",
+    "Hech narsa qilinmaydi, oxirida dazmollanadi"
+   ],
+   "e": "Sifatli tikish qoidasi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Vitochka qaysi yo'nalishda tikiladi?",
+   "a": [
+    "Keng qismidan uchiga qarab",
+    "Uchidan keng qismiga qarab",
+    "O'rtasidan ikki tomonga",
+    "Istalgan yo'nalishda, ikki marta"
+   ],
+   "e": "Uchida bo'rtiq qolmasligi uchun."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Vitochka uchida ip qanday mahkamlanadi?",
+   "a": [
+    "Ip tugun qilib bog'lanadi",
+    "Teskari yurish bilan qalin mahkamlanadi",
+    "Ip kesib, ochiq qoldiriladi",
+    "Yelim bilan yopishtiriladi"
+   ],
+   "e": "Uchida teskari yurish qilinmaydi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Bel vitochkalari dazmollashda qayerga yotqiziladi?",
+   "a": [
+    "O'rtaga (markazga) qarab",
+    "Yon chok tomonga qarab",
+    "Etak tomonga qarab pastga",
+    "Ikki tomonga yoyib"
+   ],
+   "e": "Yubka va bluzkada."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Ustki (nakladnoy) cho'ntak qanday tikiladi?",
+   "a": [
+    "Detal ustiga qo'yib, chetidan tikiladi",
+    "Detalni kesib, qopchani ichkariga tikiladi",
+    "Yon chokning ochiq qismiga joylashtiriladi",
+    "Faqat yelim bilan yopishtirib qo'yiladi"
+   ],
+   "e": "Eng oddiy cho'ntak."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Qirqma (prorezhnoy) cho'ntak qanday hosil bo'ladi?",
+   "a": [
+    "Detalni kesib, ichkaridan qopcha tikiladi",
+    "Detal ustiga tayyor cho'ntak qo'yib tikiladi",
+    "Yon chokning ochiq qoldirilgan qismi orqali",
+    "Faqat bezak uchun, ichida qopchasi yo'q"
+   ],
+   "e": "Listochka yoki qopqoqli."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Yon chokdagi cho'ntak qanday ishlanadi?",
+   "a": [
+    "Yon chokning bir qismi ochiq qoldirilib qopcha ulanadi",
+    "Old bo'lak o'rtasi kesilib ishlanadi",
+    "Orqa bo'lakka ustidan qo'yib tikiladi",
+    "Kokketka chokiga ulab qo'yiladi"
+   ],
+   "e": "Yubka va shimlarda."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Cho'ntakning qopqog'i (klapan) vazifasi qaysi?",
+   "a": [
+    "Cho'ntak kirishini yopish va bezash",
+    "Cho'ntak hajmini kattalashtirish",
+    "Cho'ntakni kiyimga mahkamlash",
+    "Cho'ntak chuqurligini qisqartirish"
+   ],
+   "e": "Klapanli cho'ntak."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Yoqaning ichki va ustki qismlari qanday tikiladi?",
+   "a": [
+    "Yuzma-yuz qo'yib, chetidan tikib ag'dariladi",
+    "Ust-ustiga qo'yib, qirqimlari ochiq qoldiriladi",
+    "Faqat qo'lda ko'klab, tikilmaydi",
+    "Yelimli qotirma bilan yopishtiriladi"
+   ],
+   "e": "Keyin chok chetga chiqarilib dazmollanadi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Ag'darilgan yoqada chok qayerga chiqariladi (kant)?",
+   "a": [
+    "Ostki tomonga biroz siljitiladi",
+    "Ustki tomonga, aniq ko'rinadigan qilib",
+    "Yoqaning qoq o'rtasiga",
+    "Chok joylashuvining farqi yo'q"
+   ],
+   "e": "Yuz tomondan ko'rinmaydi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Yoqaning burchaklarini ag'darishdan oldin nima qilinadi?",
+   "a": [
+    "Chok qo'yimi burchakda qiyalab kesiladi",
+    "Burchak umuman tikilmay qoldiriladi",
+    "Burchakka yelim surtib qotiriladi",
+    "Burchakka bezak tugma qadaladi"
+   ],
+   "e": "Burchak tekis chiqadi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Tik yoqa (stoyka) qanday yoqa?",
+   "a": [
+    "Bo'yin atrofida tik turadigan yoqa",
+    "Yelkaga yotib turadigan keng yoqa",
+    "Old bo'lak bilan yaxlit bichilgan yoqa",
+    "Ag'darma qaytarma yoqa"
+   ],
+   "e": "Masalan, xitoycha yoqa."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Shalsimon yoqa qanday bichiladi?",
+   "a": [
+    "Old bo'lak bilan yaxlit",
+    "Alohida tik yoqa sifatida",
+    "Faqat orqa bo'lak bilan",
+    "Yeng bilan birga"
+   ],
+   "e": "Xalat va kostyumlarda."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "O'tqazma yeng qayerga tikiladi?",
+   "a": [
+    "Yeng o'miziga",
+    "Yoqa o'miziga",
+    "Kiyimning yon chokiga",
+    "Kokketkaga"
+   ],
+   "e": "Eng keng tarqalgan yeng."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Reglan yengning xususiyati qaysi?",
+   "a": [
+    "Yelka qismi yeng bilan birga bichiladi",
+    "Yeng o'miziga oddiy tikiladi",
+    "Old bo'lak bilan yaxlit bichiladi va choksiz",
+    "Yeng umuman bo'lmaydi"
+   ],
+   "e": "Qiya chok bo'yin tomonga ketadi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Yaxlit bichilgan yeng (tsel'nokroeny) qanday?",
+   "a": [
+    "Kiyim bo'lagi bilan birga bichiladi",
+    "Alohida bichilib, o'mizga tikiladi",
+    "Yelka qismi bilan qiyalab ulanadi",
+    "Faqat yengsiz kiyimlarda uchraydi"
+   ],
+   "e": "Masalan, \"kimono\" yeng."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Yengni o'mizga tikishdan oldin okat qismiga nima qilinadi?",
+   "a": [
+    "Mayda qadamli chok bilan kirishtiriladi",
+    "Okat qismi cho'zib dazmollanadi",
+    "Okat ortiqchasi qirqib tashlanadi",
+    "Okat yelimli qotirma bilan qotiriladi"
+   ],
+   "e": "Yeng o'mizdan biroz uzun."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Manjet nima?",
+   "a": [
+    "Yeng uchiga tikiladigan alohida detal",
+    "Yoqaning ostki ichki qismi",
+    "Etakdagi bezakli hoshiya",
+    "Cho'ntakni yopuvchi qopqoq"
+   ],
+   "e": "Tugma bilan qadaladi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Yubka beliga qanday ishlov beriladi?",
+   "a": [
+    "Belbog' yoki ichki hoshiya (obtachka) bilan",
+    "Faqat qirqimni ochiq qoldirib",
+    "Faqat yelimli tasma bilan",
+    "Faqat tugmalar qatori bilan"
+   ],
+   "e": "Bel qismi ishlanadi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Obtachka (ichki hoshiya) nima?",
+   "a": [
+    "Qirqimni ichkaridan ishlash uchun detal",
+    "Kiyim yuziga tikiladigan bezak",
+    "Yeng uchiga tikiladigan manjet",
+    "Tugmalar qadaladigan tasma"
+   ],
+   "e": "Bo'yin, o'miz, bel qirqimlari."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Yashirin molniya (tasma qulf) qayerda ko'p ishlatiladi?",
+   "a": [
+    "Ko'ylak va yubkalarda",
+    "Ish kiyimining cho'ntagida",
+    "Paltoning yengida",
+    "Faqat sumkalarda"
+   ],
+   "e": "Ko'rinmas tikiladi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Tugma ilmog'ining uzunligi qanday aniqlanadi?",
+   "a": [
+    "Tugma diametri + qalinligi",
+    "Tugma diametrining yarmi",
+    "Har qanday tugma uchun 5 sm",
+    "Gazlama eniga qarab"
+   ],
+   "e": "Odatda diametr + 0,1–0,3 sm."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Ayollar kiyimida tugmalar qaysi tomonga qadaladi?",
+   "a": [
+    "Chap bo'lakka, ilmoqlar o'ng bo'lakda",
+    "O'ng bo'lakka, ilmoqlar chap bo'lakda",
+    "Ikkala bo'lakka ham, ilmoqsiz",
+    "Faqat orqa bo'lakka"
+   ],
+   "e": "Ayollar kiyimida o'ng bo'lak chap bo'lak ustiga yopiladi; erkaklarda aksincha."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Tugmani qadashda \"oyoqcha\" nima uchun qoldiriladi?",
+   "a": [
+    "Ilmoqqa erkin joylashishi uchun",
+    "Tugma ko'rinmay turishi uchun",
+    "Ipni tejab qolish uchun",
+    "Tugmaga bezak berish uchun"
+   ],
+   "e": "Qalin gazlamalarda muhim."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Etakni bukib tikishdan oldin nima qilinadi?",
+   "a": [
+    "Uzunligi tekislanib, belgilanadi",
+    "Etak ortiqchasi qirqib tashlanadi",
+    "Etakka yelim surtib qotiriladi",
+    "Hech narsa qilinmay, darhol tikiladi"
+   ],
+   "e": "Teng uzunlik."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Astarli yubkada astar qayerga biriktiriladi?",
+   "a": [
+    "Bel qismiga",
+    "Faqat etakka",
+    "Faqat yon chokka",
+    "Hech qayerga biriktirilmaydi"
+   ],
+   "e": "Etagi erkin qoladi."
+  },
+  {
+   "b": "Detallarga ishlov berish",
+   "q": "Kiyimga ishlov berishning to'g'ri ketma-ketligi qaysi?",
+   "a": [
+    "Mayda detallar, so'ng yig'ish, keyin tugallash",
+    "Avval tugallash, keyin bichish",
+    "Avval tugma qadash, keyin bichish",
+    "Avval dazmollash, keyin o'lchov olish"
+   ],
+   "e": "Texnologik ketma-ketlik."
+  },
+  {
+   "b": "Primerka va sifat",
+   "q": "Primerka (kiydirib ko'rish) nima uchun o'tkaziladi?",
+   "a": [
+    "Kiyimni qomatga moslashtirish uchun",
+    "Kiyimni kerakli rangga bo'yash uchun",
+    "Gazlamaning narxini aniqlash uchun",
+    "Kerakli tugmalar sonini hisoblash uchun"
+   ],
+   "e": "Ko'klangan holatda."
+  },
+  {
+   "b": "Primerka va sifat",
+   "q": "Birinchi primerkada kiyim qanday holatda bo'ladi?",
+   "a": [
+    "Ko'klangan holatda",
+    "To'liq tikilgan, dazmollangan",
+    "Faqat bichilgan, ko'klanmagan",
+    "Yuvilgan va quritilgan"
+   ],
+   "e": "Kamchiliklar tuzatiladi."
+  },
+  {
+   "b": "Primerka va sifat",
+   "q": "Yubka orqa tomonida etak ko'tarilib turishi nimani bildiradi?",
+   "a": [
+    "Bel chizig'i noto'g'ri, orqada qisqartirish kerak",
+    "Gazlama sifatsiz va kirishib qolgan",
+    "Tugmalar haddan tashqari ko'p",
+    "Yon choklar juda tor tikilgan"
+   ],
+   "e": "Qomat xususiyati."
+  },
+  {
+   "b": "Primerka va sifat",
+   "q": "Kiyimda yelka qismida ko'ndalang burmalar hosil bo'lsa nima qilinadi?",
+   "a": [
+    "Yelka qiyaligi tuzatiladi",
+    "Etak uzunligi uzaytiriladi",
+    "Yeng uzunligi qisqartiriladi",
+    "Ustki cho'ntak olib tashlanadi"
+   ],
+   "e": "Primerkadagi tuzatish."
+  },
+  {
+   "b": "Primerka va sifat",
+   "q": "Tayyor kiyim sifatini tekshirishda nimaga e'tibor beriladi?",
+   "a": [
+    "Choklar to'g'riligi va simmetriya",
+    "Faqat kiyimning sotuv narxiga",
+    "Faqat yorliqning rangiga",
+    "Faqat qadoqning shakliga"
+   ],
+   "e": "Texnik nazorat."
+  },
+  {
+   "b": "Primerka va sifat",
+   "q": "Tayyor kiyimga oxirgi bosqichda qanday ishlov beriladi?",
+   "a": [
+    "Ortiqcha iplar olinib, dazmollanadi",
+    "Kiyim qaytadan bichiladi",
+    "Barcha choklar so'kib qayta tikiladi",
+    "Kiyim boshqa rangga bo'yaladi"
+   ],
+   "e": "Tugallash."
+  },
+  {
+   "b": "Primerka va sifat",
+   "q": "Tikuv mahsulotida \"nuqson\" nima?",
+   "a": [
+    "Standart talablariga mos kelmaslik",
+    "Gazlamaning yuz tomoni",
+    "Kiyimdagi bezak elementi",
+    "Chok uchun qoldirilgan qo'yim"
+   ],
+   "e": "Bichish yoki tikish nuqsoni."
+  },
+  {
+   "b": "Kiyim turlari va assortiment",
+   "q": "Yelkali kiyimlarga qaysi kiyim kiradi?",
+   "a": [
+    "Ko'ylak",
+    "Yubka va shim",
+    "Bel bilan cheklangan etak",
+    "Faqat bosh kiyimi"
+   ],
+   "e": "Yelkaga tayanadi."
+  },
+  {
+   "b": "Kiyim turlari va assortiment",
+   "q": "Belli kiyimlarga qaysi kiyim kiradi?",
+   "a": [
+    "Yubka",
+    "Ko'ylak va palto",
+    "Bluzka va jaket",
+    "Xalat va plash"
+   ],
+   "e": "Belga tayanadi."
+  },
+  {
+   "b": "Kiyim turlari va assortiment",
+   "q": "Ustki kiyimga qaysi kiyim kiradi?",
+   "a": [
+    "Palto",
+    "Ichki ko'ylak",
+    "Pijama",
+    "Mayka"
+   ],
+   "e": "Plash, kurtka ham."
+  },
+  {
+   "b": "Kiyim turlari va assortiment",
+   "q": "Bluzka qanday kiyim?",
+   "a": [
+    "Yengil yelkali kiyim",
+    "Qalin qishki ustki kiyim",
+    "Belli kiyim turi",
+    "Bosh kiyimi turi"
+   ],
+   "e": "Yubka yoki shim bilan kiyiladi."
+  },
+  {
+   "b": "Kiyim turlari va assortiment",
+   "q": "Sarafan qanday kiyim?",
+   "a": [
+    "Yengsiz, bluzka ustidan kiyiladigan ko'ylak",
+    "Uzun yengli, astarli qishki palto",
+    "Belga tikilgan kalta yubka",
+    "Kalta, qalin erkaklar kurtkasi"
+   ],
+   "e": "Ko'pincha keng yelkali."
+  },
+  {
+   "b": "Kiyim turlari va assortiment",
+   "q": "Jaket qaysi kiyim guruhiga mansub?",
+   "a": [
+    "Yelkali kiyim, kostyum qismi",
+    "Belli kiyim, yubkaning bir turi",
+    "Ichki kiyimning bir turi",
+    "Bosh kiyimining bir turi"
+   ],
+   "e": "Kostyum = jaket + yubka/shim."
+  },
+  {
+   "b": "Kiyim turlari va assortiment",
+   "q": "Kombinezon nima?",
+   "a": [
+    "Ustki va pastki qismi yaxlit kiyim",
+    "Faqat ustki qismdan iborat kiyim",
+    "Faqat yubka va bluzkadan iborat to'plam",
+    "Bosh kiyimi bilan birga palto"
+   ],
+   "e": "Ish va bolalar kiyimida."
+  },
+  {
+   "b": "Kiyim turlari va assortiment",
+   "q": "Fartuk (perednik) qanday vazifani bajaradi?",
+   "a": [
+    "Kiyimni ifloslanishdan himoya qiladi",
+    "Sovuqda tanani isitib turadi",
+    "Faqat bayram bezagi hisoblanadi",
+    "Ichki kiyim o'rnini bosadi"
+   ],
+   "e": "Ish kiyimi."
+  },
+  {
+   "b": "Kiyim turlari va assortiment",
+   "q": "Kiyim kiyilish mavsumiga ko'ra qanday guruhlarga bo'linadi?",
+   "a": [
+    "Yozgi, qishki, bahor-kuzgi",
+    "Faqat uy va ko'cha kiyimlari",
+    "Faqat erkak va ayol kiyimlari",
+    "Faqat bolalar va kattalar kiyimlari"
+   ],
+   "e": "Mavsumiy tasnif."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "O'zbek milliy gazlamasi \"atlas\" asosan qaysi tolalardan to'qiladi?",
+   "a": [
+    "Tabiiy ipak",
+    "Jun va kanop",
+    "Sintetik poliester",
+    "Zig'ir va paxta"
+   ],
+   "e": "Marg'ilon atlasi mashhur."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "Adras gazlamasi qanday tarkibga ega?",
+   "a": [
+    "Ipak va paxta",
+    "Faqat jun",
+    "Faqat sintetik tola",
+    "Zig'ir va kanop"
+   ],
+   "e": "Tanda — ipak, arqoq — paxta."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "Abr (ikat) usuli nimani anglatadi?",
+   "a": [
+    "Iplarni to'qishdan oldin bog'lab bo'yash",
+    "Tayyor gazlamaga qolip bilan naqsh bosish",
+    "Tayyor gazlamaga kashta tikish",
+    "Gazlamani qirqib, yamoq solish"
+   ],
+   "e": "Atlas va adrasda."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "Atlas gazlama ishlab chiqarish bilan mashhur shahar qaysi?",
+   "a": [
+    "Marg'ilon",
+    "Nukus",
+    "Termiz",
+    "Navoiy"
+   ],
+   "e": "\"Yodgorlik\" fabrikasi."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "Chopon qanday kiyim?",
+   "a": [
+    "Uzun, paxtali milliy ustki kiyim",
+    "Kalta, yengsiz yozgi ko'ylak",
+    "Belga tikilgan milliy yubka",
+    "Bosh kiyimining bir turi"
+   ],
+   "e": "Erkaklar va ayollar choponi."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "Do'ppi qanday kiyim?",
+   "a": [
+    "Milliy bosh kiyimi",
+    "Milliy oyoq kiyimi",
+    "Milliy kamar",
+    "Milliy ustki kiyim"
+   ],
+   "e": "Chust do'ppisi mashhur."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "Kamzul qanday kiyim?",
+   "a": [
+    "Belga yopishgan milliy nimcha",
+    "Uzun, paxtali ustki chopon",
+    "Ayollarning bosh kiyimi",
+    "Milliy oyoq kiyimi"
+   ],
+   "e": "Ayollar milliy kiyimi."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "Lozim qanday kiyim?",
+   "a": [
+    "Ko'ylak ostidan kiyiladigan milliy shim",
+    "Ayollarning milliy bosh ro'moli",
+    "Uzun, paxtali milliy chopon",
+    "Kashta tikilgan milliy belbog'"
+   ],
+   "e": "Pochasi bezatilgan."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "Zardo'zlik qanday hunar?",
+   "a": [
+    "Zar (oltin) ip bilan kashta tikish",
+    "Yog'ochga naqsh o'yib bezash",
+    "Loydan idishlar yasash",
+    "Misdan buyumlar yasash"
+   ],
+   "e": "Buxoro zardo'zligi."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "So'zana nima?",
+   "a": [
+    "Yirik kashtali devoriy bezak mato",
+    "Ayollarning milliy kamzuli",
+    "Erkaklarning bosh kiyimi",
+    "Jun iplardan to'qilgan gilam"
+   ],
+   "e": "Kashtachilik namunasi."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "Kashtachilikda \"iroqi\" choki qanday chok?",
+   "a": [
+    "Mayda, zich xochsimon chok",
+    "Yirik, siyrak zanjirsimon chok",
+    "Mashinada tikiladigan tikma chok",
+    "Overlok mashinasining choki"
+   ],
+   "e": "Shahrisabz iroqi kashtasi."
+  },
+  {
+   "b": "Milliy kiyim va hunarmandchilik",
+   "q": "\"Bosma\" chok kashtachilikda nima uchun ishlatiladi?",
+   "a": [
+    "Katta naqsh yuzalarini to'ldirish",
+    "Gazlama qirqimini yo'rmash",
+    "Tugma va ilgaklarni qadash",
+    "Detallarni vaqtincha ulash"
+   ],
+   "e": "An'anaviy kashta choki."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Kiyim kompozitsiyasining asosiy vositalariga nima kiradi?",
+   "a": [
+    "Shakl, rang, faktura, ritm",
+    "Narx, o'lcham va yorliq",
+    "Ip raqami va igna turi",
+    "Dazmol harorati va bosimi"
+   ],
+   "e": "Badiiy loyihalash."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Axromatik ranglarga qaysi ranglar kiradi?",
+   "a": [
+    "Oq, kulrang, qora",
+    "Qizil, sariq, ko'k",
+    "Yashil, binafsha",
+    "To'q sariq, pushti"
+   ],
+   "e": "Rang tusi yo'q."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Asosiy (birlamchi) ranglar qaysilar?",
+   "a": [
+    "Qizil, sariq, ko'k",
+    "Yashil, to'q sariq, binafsha",
+    "Oq, qora, kulrang",
+    "Pushti, jigarrang, havorang"
+   ],
+   "e": "Aralashtirib olinmaydi."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Komplementar (qarama-qarshi) ranglarga misol qaysi?",
+   "a": [
+    "Qizil va yashil",
+    "Qizil va to'q sariq",
+    "Ko'k va havorang",
+    "Sariq va oq"
+   ],
+   "e": "Rang doirasida qarama-qarshi."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Iliq ranglarga qaysilar kiradi?",
+   "a": [
+    "Qizil, sariq",
+    "Ko'k, havorang",
+    "Yashil-ko'k",
+    "Binafsha-ko'k"
+   ],
+   "e": "Olov, quyosh."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Qomatni vizual ingichka ko'rsatish uchun qanday chiziqlar ishlatiladi?",
+   "a": [
+    "Vertikal chiziqlar",
+    "Keng gorizontal chiziqlar",
+    "Yirik katak naqsh",
+    "Yorqin och rangli keng chiziqlar"
+   ],
+   "e": "Optik illyuziya."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Kiyimda ritm qanday hosil qilinadi?",
+   "a": [
+    "Elementlarning takrorlanishi bilan",
+    "Faqat bitta rang ishlatish bilan",
+    "Barcha chiziqlarni olib tashlash bilan",
+    "Faqat qalin gazlama tanlash bilan"
+   ],
+   "e": "Tugmalar, burmalar, naqsh."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Kiyimda simmetriya nimani anglatadi?",
+   "a": [
+    "Markaz chiziqqa nisbatan bir xillik",
+    "Ikki tomonning keskin farq qilishi",
+    "Faqat bir tomonga bezak berilishi",
+    "Kiyimning rangsiz bo'lishi"
+   ],
+   "e": "Assimetriya — aksincha."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "\"Kichik qora ko'ylak\"ni modaga kiritgan modelyer kim?",
+   "a": [
+    "Koko Shanel",
+    "Kristian Dior",
+    "Pyer Karden",
+    "Jorjo Armani"
+   ],
+   "e": "1926-yil."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "1947-yilda \"New Look\" kolleksiyasini kim taqdim etgan?",
+   "a": [
+    "Kristian Dior",
+    "Koko Shanel",
+    "Iv Sen-Loran",
+    "Valentino"
+   ],
+   "e": "Belda qisilgan, keng yubkali siluet."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Kapsula garderob nima?",
+   "a": [
+    "O'zaro yaxshi uyg'unlashadigan kiyimlarning kichik to'plami",
+    "Faqat bitta kiyimdan iborat garderob",
+    "Mavsumiy chegirmali kiyimlar",
+    "Faqat bayram kiyimlari"
+   ],
+   "e": "Turli kombinatsiyalar."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Eskiz nima?",
+   "a": [
+    "Kiyim modelining dastlabki rasmi",
+    "Kiyimning yakuniy andozasi",
+    "Tikuv mashinasining chizmasi",
+    "Gazlamaning kichik namunasi"
+   ],
+   "e": "Badiiy loyihalash bosqichi."
+  },
+  {
+   "b": "Kompozitsiya, rang va moda",
+   "q": "Texnik rasm (tekhnicheskiy risunok) eskizdan nimasi bilan farq qiladi?",
+   "a": [
+    "Choklar va detallar aniq ko'rsatiladi",
+    "Faqat rang va kayfiyat aks ettiriladi",
+    "Odam qomati bilan birga chiziladi",
+    "Eskizdan hech qanday farqi yo'q"
+   ],
+   "e": "Old va orqa ko'rinish."
+  },
+  {
+   "b": "Tikuv furniturasi va bezaklar",
+   "q": "Furnituraga nima kiradi?",
+   "a": [
+    "Tugma, molniya, ilgak",
+    "Asosiy gazlama va astar",
+    "Ip va igna",
+    "Bo'r va santimetr lenta"
+   ],
+   "e": "Qadama va bezak elementlari."
+  },
+  {
+   "b": "Tikuv furniturasi va bezaklar",
+   "q": "Volan nima?",
+   "a": [
+    "Qirqimga tikilgan to'lqinsimon bezak detal",
+    "Yubkadagi tekis bel detali",
+    "Cho'ntakni yopuvchi qopqoq",
+    "Tik yoqaning bir turi"
+   ],
+   "e": "Doira bo'lagidan bichiladi."
+  },
+  {
+   "b": "Tikuv furniturasi va bezaklar",
+   "q": "Ryusha (burmali tasma) qanday hosil qilinadi?",
+   "a": [
+    "Tasmani mayda burmalab tikish orqali",
+    "Gazlamani doira shaklida bichish orqali",
+    "Tugmalarni qator qadash orqali",
+    "Detalni yelimlab"
+   ],
+   "e": "Bezak."
+  },
+  {
+   "b": "Tikuv furniturasi va bezaklar",
+   "q": "Applikatsiya nima?",
+   "a": [
+    "Asosga boshqa mato bo'laklarini tikib bezash",
+    "Gazlamaga qolip bilan rang bosish",
+    "Tugma uchun ilmoq ochish",
+    "Kiyimni maxsus usulda yuvish"
+   ],
+   "e": "Dekorativ usul."
+  },
+  {
+   "b": "Tikuv furniturasi va bezaklar",
+   "q": "Kant tasmasi nima uchun ishlatiladi?",
+   "a": [
+    "Choklarga bezakli hoshiya berish",
+    "Detallarni qotirish va qattiqlik berish",
+    "Tugmalarni mustahkam qadash",
+    "Tugma uchun ilmoq ochish"
+   ],
+   "e": "Chok ichiga qo'yiladi."
+  },
+  {
+   "b": "Tikuv furniturasi va bezaklar",
+   "q": "Kiyimga tugmani qadashda qanday ip tanlanadi?",
+   "a": [
+    "Mustahkam, rangi mos ip",
+    "Eng ingichka ipak ip",
+    "Har qanday rangdagi bo'sh ip",
+    "Elastik rezina ip"
+   ],
+   "e": "Tugma tushib ketmasligi uchun."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Tikuv mashinasida ishlaganda barmoqlar qanday holatda bo'lishi kerak?",
+   "a": [
+    "Igna ostidan uzoqda",
+    "Igna ostida, gazlamani bosib",
+    "Reyka ustida",
+    "Lapka ostida"
+   ],
+   "e": "Jarohatlanishning oldini olish."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Elektr dazmol bilan ishlashda nima taqiqlanadi?",
+   "a": [
+    "Yoqilgan dazmolni qarovsiz qoldirish",
+    "Dazmolni maxsus taglikka qo'yish",
+    "Ishdan oldin simni tekshirish",
+    "Haroratni gazlama turiga moslash"
+   ],
+   "e": "Yong'in xavfi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Elektr mashinaga ip o'tkazish yoki ignani almashtirish qanday holatda bajariladi?",
+   "a": [
+    "Mashina o'chirilgan holatda",
+    "Mashina tez yurayotganda",
+    "Pedal bosilgan holda",
+    "Mashina yoqilgan, lapka tushirilgan"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Siniq igna qayerga tashlanadi?",
+   "a": [
+    "Maxsus idishga",
+    "Polga",
+    "Gazlama ustiga",
+    "Oddiy axlat qutisi ustiga ochiq holda"
+   ],
+   "e": "Jarohat xavfi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Tikuvchi ish joyining yoritilishi qanday bo'lishi kerak?",
+   "a": [
+    "Yetarli va bir tekis",
+    "Faqat oyna orqali tushadigan yorug'lik",
+    "Xira va qorong'i",
+    "Ko'zni qamashtiruvchi kuchli nur"
+   ],
+   "e": "Ko'z charchamasligi uchun."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Tikuv sanoatida potok (oqim) usuli nima?",
+   "a": [
+    "Ish operatsiyalarga bo'linib ketma-ket bajariladi",
+    "Bitta tikuvchi butun kiyimni tikadi",
+    "Kiyim faqat qo'lda tikiladi",
+    "Kiyim faqat buyurtma bo'yicha tikiladi"
+   ],
+   "e": "Ommaviy ishlab chiqarish."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Individual buyurtma bo'yicha tikish qayerda amalga oshiriladi?",
+   "a": [
+    "Atelyeda",
+    "Yirik tikuv fabrikasining konveyerida",
+    "To'qimachilik kombinatida",
+    "Ip yigiruv fabrikasida"
+   ],
+   "e": "Mijoz o'lchovi bo'yicha."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Texnologik karta nimani o'z ichiga oladi?",
+   "a": [
+    "Operatsiyalar ketma-ketligi, jihoz va vaqt",
+    "Faqat tayyor kiyimning narxi",
+    "Faqat mijozning telefon raqami",
+    "Faqat gazlamaning rangi"
+   ],
+   "e": "Ishlab chiqarish hujjati."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Tikuvchi ish joyida o'tirish holatiga qanday talab qo'yiladi?",
+   "a": [
+    "Qaddi tik, oyoqlar polga tayangan",
+    "Oldinga qattiq egilib, mashinaga yaqin",
+    "Bir oyoqni ikkinchisi ustiga qo'yib",
+    "Stulda yarim yotgan holda"
+   ],
+   "e": "Ergonomika."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Gazlamani kesuvchi elektr pichoq qayerda ishlatiladi?",
+   "a": [
+    "Ko'p qatlamli to'shamani bichishda",
+    "Tugmalarni avtomatik qadashda",
+    "Tugma uchun ilmoq ochishda",
+    "Tayyor kiyimni dazmollashda"
+   ],
+   "e": "Tikuv fabrikasida."
+  },
+  {
+   "b": "Mehnat xavfsizligi va ishlab chiqarish",
+   "q": "Bug'li dazmol bilan ishlashda nima tavsiya etiladi?",
+   "a": [
+    "Distillangan yoki yumshoq suv quyish",
+    "Sho'r yoki minerallashgan suv quyish",
+    "Shakarli suv quyish",
+    "Suv quymasdan bug' rejimini yoqish"
+   ],
+   "e": "Ohak qatlami hosil bo'lmasligi uchun."
+  },
+  {
+   "b": "Ko'ylak va bluzka tikish texnologiyasi",
+   "q": "Ko'ylakni tikishda odatda birinchi navbatda nima bajariladi?",
+   "a": [
+    "Vitochkalar tikiladi",
+    "Etak bukib tikiladi va dazmollanadi",
+    "Tugmalar qadaladi va ilmoqlar ochiladi",
+    "Yoqa bo'yin o'miziga ulanadi"
+   ],
+   "e": "Avval mayda detallar va vitochkalar."
+  },
+  {
+   "b": "Ko'ylak va bluzka tikish texnologiyasi",
+   "q": "Ko'ylakda yelka choklari qachon tikiladi?",
+   "a": [
+    "Yoqa va yeng ulashdan oldin",
+    "Etak tikilib bo'lgach, eng oxirida",
+    "Tugmalar qadalgandan keyin",
+    "Kiyim dazmollangandan keyin"
+   ],
+   "e": "Yelka chokisiz yoqa ulanmaydi."
+  },
+  {
+   "b": "Ko'ylak va bluzka tikish texnologiyasi",
+   "q": "Yengsiz ko'ylakda o'miz qirqimi qanday ishlanadi?",
+   "a": [
+    "Obtachka yoki qiya tasma bilan",
+    "Qirqim ochiq holda qoldiriladi",
+    "Faqat yelim bilan qotiriladi",
+    "Qo'lda ko'klab, keyin so'kiladi"
+   ],
+   "e": "Chiroyli va mustahkam chet."
+  },
+  {
+   "b": "Ko'ylak va bluzka tikish texnologiyasi",
+   "q": "Bluzkada tugma qatori (bort) qanday qotiriladi?",
+   "a": [
+    "Ichki tomondan qotirma yopishtiriladi",
+    "Tashqi tomondan bezakli to'r tikiladi",
+    "Bortga qo'shimcha cho'ntak tikib qo'yiladi",
+    "Hech qanday qotirma ishlatilmaydi, ochiq qoladi"
+   ],
+   "e": "Ilmoqlar mustahkam bo'ladi."
+  },
+  {
+   "b": "Ko'ylak va bluzka tikish texnologiyasi",
+   "q": "Ko'ylakda bel chokining vazifasi nima?",
+   "a": [
+    "Ustki va pastki qismni ulash",
+    "Yengni kiyimning o'miziga ulash",
+    "Yoqani shakllantirib qotirish",
+    "Ichki cho'ntakni yashirib turish"
+   ],
+   "e": "Ajratib bichilgan ko'ylak."
+  },
+  {
+   "b": "Ko'ylak va bluzka tikish texnologiyasi",
+   "q": "Yeng uchiga qirqma (shlitsa) nima uchun qilinadi?",
+   "a": [
+    "Qo'l erkin kirishi uchun",
+    "Yengni qisqartirish uchun",
+    "Bezak naqsh berish uchun faqat",
+    "Gazlamani tejash uchun"
+   ],
+   "e": "Manjetli yenglarda."
+  },
+  {
+   "b": "Yubka va shim tikish",
+   "q": "To'g'ri yubkani tikish ketma-ketligida molniya qachon tikiladi?",
+   "a": [
+    "Chok tikilgach, beldan oldin",
+    "Etak bukilgandan keyin eng oxirida",
+    "Bichishdan oldin gazlamaga",
+    "Yubka dazmollangandan keyin"
+   ],
+   "e": "Texnologik ketma-ketlik."
+  },
+  {
+   "b": "Yubka va shim tikish",
+   "q": "Orqa o'rta chokdagi shlitsa (qirqma) yubkada nima uchun qilinadi?",
+   "a": [
+    "Yurish qulayligi uchun",
+    "Yubkani uzaytirish uchun",
+    "Cho'ntak o'rnatish uchun",
+    "Bel kengligini oshirish uchun"
+   ],
+   "e": "Tor yubkalarda."
+  },
+  {
+   "b": "Yubka va shim tikish",
+   "q": "Shim chizmasida qaysi o'lchov asosiy hisoblanadi?",
+   "a": [
+    "Son yarim aylanasi",
+    "Bo'yin aylanasi",
+    "Bilak aylanasi",
+    "Ko'krak yarim aylanasi"
+   ],
+   "e": "Shim kengligini belgilaydi."
+  },
+  {
+   "b": "Yubka va shim tikish",
+   "q": "Shimning qadam choki qaysi chok?",
+   "a": [
+    "Oyoq ichki tomonidagi chok",
+    "Oyoqning tashqi yon choki",
+    "Shimning bel choki",
+    "Shim pochasining etak choki"
+   ],
+   "e": "Ichki chok."
+  },
+  {
+   "b": "Yubka va shim tikish",
+   "q": "Shim strelkasi (tekis buklami) qanday hosil qilinadi?",
+   "a": [
+    "Namlab-isitib dazmollash orqali",
+    "Ikki qavat qilib chok tikish orqali",
+    "Yelim surtib qotirish orqali",
+    "Qaychi bilan kesib shakl berish orqali"
+   ],
+   "e": "NII."
+  },
+  {
+   "b": "Yubka va shim tikish",
+   "q": "Shimning old qismidagi poyasiga (kirishiga) nima o'rnatiladi?",
+   "a": [
+    "Molniya yoki tugmali qadama",
+    "Yon cho'ntakning qopqog'i",
+    "Yeng uchidagi manjet",
+    "Tik turadigan yoqa"
+   ],
+   "e": "Gulfik."
+  },
+  {
+   "b": "Trikotaj va maxsus materiallar bilan ishlash",
+   "q": "Trikotajni tikishda qanday chok afzal?",
+   "a": [
+    "Cho'ziluvchan chok",
+    "Qattiq to'g'ri chok, juda kalta qadamda",
+    "Faqat qo'lda ko'klash choki",
+    "Yelim bilan yopishtirish"
+   ],
+   "e": "Chok uzilib ketmasligi uchun."
+  },
+  {
+   "b": "Trikotaj va maxsus materiallar bilan ishlash",
+   "q": "Trikotaj uchun qanday igna ishlatiladi?",
+   "a": [
+    "Yumaloq uchli igna",
+    "O'tkir uchli charm ignasi",
+    "Uchburchak uchli igna",
+    "Juda yo'g'on jinsi ignasi"
+   ],
+   "e": "Ilmoqlarni yirtmaydi."
+  },
+  {
+   "b": "Trikotaj va maxsus materiallar bilan ishlash",
+   "q": "Charm yoki uning o'rnini bosuvchi materialni tikishda nima tavsiya etilmaydi?",
+   "a": [
+    "Ko'p marta so'kib qayta tikish",
+    "Maxsus charm ignasini ishlatish",
+    "Uzunroq chok qadamini tanlash",
+    "Teflon oyoqchadan foydalanish"
+   ],
+   "e": "Teshiklar qoladi."
+  },
+  {
+   "b": "Trikotaj va maxsus materiallar bilan ishlash",
+   "q": "Sirpanchiq ipak gazlamani bichishda qanday usul qo'llanadi?",
+   "a": [
+    "Qog'oz ustiga qo'yib bichish",
+    "Quruq holda cho'zib bichish",
+    "Ko'p qatlamda elektr pichoq bilan",
+    "Igna sanchmasdan erkin holda"
+   ],
+   "e": "Gazlama siljimaydi."
+  },
+  {
+   "b": "Trikotaj va maxsus materiallar bilan ishlash",
+   "q": "Mo'ynali materialni bichishda nimaga e'tibor beriladi?",
+   "a": [
+    "Tuk yo'nalishi va teskari tomondan kesish",
+    "Tukni butunlay qirqib tashlash",
+    "Faqat yuz tomondan katta qaychi bilan kesish",
+    "Qiya yo'nalishda bichish"
+   ],
+   "e": "Tuklar kesilmaydi."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Kanop tolasi qayerdan olinadi?",
+   "a": [
+    "O'simlik poyasidan",
+    "Hayvon junidan",
+    "Neftdan",
+    "Yog'och sellyulozasidan kimyoviy yo'l bilan"
+   ],
+   "e": "Qop va arqon materiallari."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Kashmir qaysi hayvonning junidan olinadi?",
+   "a": [
+    "Kashmir echkisi",
+    "Merinos qo'yi",
+    "Ikki o'rkachli tuya",
+    "Angor quyoni"
+   ],
+   "e": "Juda yumshoq jun."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Mohair (moher) qaysi hayvonning junidan olinadi?",
+   "a": [
+    "Angor echkisi",
+    "Angor quyoni",
+    "Merinos qo'yi",
+    "Alpaka"
+   ],
+   "e": "Yaltiroq uzun tolali."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Angora juni qaysi hayvondan olinadi?",
+   "a": [
+    "Angor quyoni",
+    "Angor echkisi",
+    "Tuya",
+    "Lama"
+   ],
+   "e": "Mohair bilan adashtirmaslik kerak."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Gazlamaning \"pilling\" nuqsoni nima?",
+   "a": [
+    "Yuzada mayda tugunchalar hosil bo'lishi",
+    "Rangning yuvishdan tez o'chishi",
+    "Gazlamaning namdan kirishishi",
+    "Gazlamaning ishqalanishdan yaltirashi"
+   ],
+   "e": "Ishqalanishdan."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Paxta gazlamasini merserizatsiya qilish nima beradi?",
+   "a": [
+    "Yaltiroqlik va mustahkamlik",
+    "Suv o'tkazmaslik",
+    "Olovga chidamlilik",
+    "Juda yuqori cho'ziluvchanlik"
+   ],
+   "e": "Ishqor bilan ishlov."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Gabardin qanday o'rilishdagi gazlama?",
+   "a": [
+    "Sarja o'rilishli zich gazlama",
+    "Polotno o'rilishli yupqa gazlama",
+    "Trikotaj polotno",
+    "Noto'qima material"
+   ],
+   "e": "Plash va kostyumlar uchun."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Krepdeshin qanday gazlama?",
+   "a": [
+    "Yupqa ipak (yoki sun'iy) krep gazlama",
+    "Qalin jun palto gazlamasi",
+    "Dag'al zig'ir qop gazlamasi",
+    "Tukli sun'iy mo'yna mato"
+   ],
+   "e": "Ko'ylak va bluzkalar uchun."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Organza qanday gazlama?",
+   "a": [
+    "Shaffof, qattiqroq yupqa gazlama",
+    "Qalin, yumshoq tukli gazlama",
+    "Qalin jun drap gazlama",
+    "Cho'ziluvchan trikotaj polotno"
+   ],
+   "e": "Bezak va to'y libosi uchun."
+  },
+  {
+   "b": "Materialshunoslik qo'shimcha",
+   "q": "Gazlama naqshining \"rapport\"i nima?",
+   "a": [
+    "Naqshning takrorlanuvchi bir birligi",
+    "Gazlamaning jiyaklar orasidagi eni",
+    "Bir metr gazlamaning og'irligi",
+    "Gazlamaning qalinligi"
+   ],
+   "e": "Naqshni moslashda hisobga olinadi."
+  },
+  {
+   "b": "Kiyim nuqsonlari va ularni bartaraf etish",
+   "q": "Chok bo'ylab gazlama burishib qolsa (posadka), sabab nima bo'lishi mumkin?",
+   "a": [
+    "Ip tarangligi juda kuchli",
+    "Igna juda o'tkir",
+    "Gazlama juda keng",
+    "Lapka butunlay ko'tarilgan"
+   ],
+   "e": "Taranglik va chok qadamini sozlash."
+  },
+  {
+   "b": "Kiyim nuqsonlari va ularni bartaraf etish",
+   "q": "Old bo'lakda bo'yin o'mizidan qiya burmalar tushsa, nimani bildiradi?",
+   "a": [
+    "Ko'krak qismida hajm yetishmaydi",
+    "Etak haddan tashqari uzun tikilgan",
+    "Yeng juda keng bichilgan",
+    "Cho'ntak noto'g'ri joyga tikilgan"
+   ],
+   "e": "Vitochkani o'zgartirish kerak."
+  },
+  {
+   "b": "Kiyim nuqsonlari va ularni bartaraf etish",
+   "q": "Yeng tikilgach yengning oldi yoki orqasida qiya burmalar hosil bo'lsa, nima qilinadi?",
+   "a": [
+    "Yeng o'mizda burib qayta o'rnatiladi",
+    "Yeng qisqartiriladi",
+    "Yeng choki so'kib tashlanadi va yengsiz qoldiriladi",
+    "Etak uzaytiriladi"
+   ],
+   "e": "Yeng balansi."
+  },
+  {
+   "b": "Kiyim nuqsonlari va ularni bartaraf etish",
+   "q": "Yubka yon choklari oldinga burilib ketsa, sabab nima?",
+   "a": [
+    "Bel va son nisbati noto'g'ri taqsimlangan",
+    "Gazlama rangi to'q tanlangan",
+    "Tugmalar juda katta qadalgan",
+    "Yubkada astar ishlatilmagan"
+   ],
+   "e": "Qomatga moslash kerak."
+  },
+  {
+   "b": "Kiyim nuqsonlari va ularni bartaraf etish",
+   "q": "Dazmollangan joyda yaltiroq iz paydo bo'lsa, qanday bartaraf etiladi?",
+   "a": [
+    "Bug'lash bilan",
+    "Qayta qizdirib bosish bilan",
+    "Bo'yoq surtish bilan",
+    "Qaychi bilan qirqish bilan"
+   ],
+   "e": "Bug' tolalarni ko'taradi."
+  },
+  {
+   "b": "Moda tarixi va kiyim madaniyati",
+   "q": "Krinolin qanday kiyim elementi?",
+   "a": [
+    "Yubkani keng qiluvchi karkas",
+    "Ayollar bosh kiyimining bezagi",
+    "Baland poshnali oyoq kiyimi",
+    "Ko'ylakning tik yoqasi turi"
+   ],
+   "e": "XIX asr modasi."
+  },
+  {
+   "b": "Moda tarixi va kiyim madaniyati",
+   "q": "Korset qanday vazifani bajargan?",
+   "a": [
+    "Belni qisib, qomatga shakl bergan",
+    "Oyoqlarni sovuqdan isitgan",
+    "Boshni quyoshdan himoyalagan",
+    "Kiyimni ifloslanishdan saqlagan"
+   ],
+   "e": "Tarixiy kiyim."
+  },
+  {
+   "b": "Moda tarixi va kiyim madaniyati",
+   "q": "Jinsi shimlarni ommalashtirgan kompaniya asoschisi kim?",
+   "a": [
+    "Levi Strauss",
+    "Koko Shanel",
+    "Kristian Dior",
+    "Gyuchchio Gucci"
+   ],
+   "e": "XIX asr oxiri, AQSh."
+  },
+  {
+   "b": "Moda tarixi va kiyim madaniyati",
+   "q": "Prêt-à-porter nimani anglatadi?",
+   "a": [
+    "Tayyor kiyim (ommaviy ishlab chiqarish)",
+    "Faqat buyurtma bo'yicha oliy moda",
+    "Maxsus ish kiyimi",
+    "Milliy an'anaviy kiyim"
+   ],
+   "e": "Fransuzcha \"kiyishga tayyor\"."
+  },
+  {
+   "b": "Moda tarixi va kiyim madaniyati",
+   "q": "Haute couture nimani anglatadi?",
+   "a": [
+    "Buyurtma asosidagi yuqori moda",
+    "Arzon ommaviy kiyim ishlab chiqarish",
+    "Sport va dam olish kiyimi",
+    "Maktab formasi"
+   ],
+   "e": "Qo'l mehnati, eksklyuziv."
+  },
+  {
+   "b": "Moda tarixi va kiyim madaniyati",
+   "q": "Moda haftaliklari bilan mashhur shaharlardan biri qaysi?",
+   "a": [
+    "Parij",
+    "Nukus",
+    "Reykyavik",
+    "Ulan-Bator"
+   ],
+   "e": "Milan, Nyu-York, London ham."
+  },
+  {
+   "b": "Konstruksiya hisoblari",
+   "q": "To'g'ri yubka chizmasida chizma to'ri kengligi qanday aniqlanadi?",
+   "a": [
+    "Son yarim aylanasi + erkinlik qo'shimchasi",
+    "Bel aylanasi + 20 sm",
+    "Yubka uzunligi + etak qo'yimi",
+    "Ko'krak aylanasining to'rtdan biri"
+   ],
+   "e": "Sb + Psb."
+  },
+  {
+   "b": "Konstruksiya hisoblari",
+   "q": "\"Quyosh\" yubka chizmasida bel chizig'i radiusi qanday hisoblanadi?",
+   "a": [
+    "Bel aylanasi : 2π",
+    "Bel aylanasi × 2",
+    "Son aylanasi : 4",
+    "Yubka uzunligi : 2"
+   ],
+   "e": "R = St×2 : 6,28."
+  },
+  {
+   "b": "Konstruksiya hisoblari",
+   "q": "Bel va son farqi katta bo'lsa yubkada vitochkalar soni qanday bo'ladi?",
+   "a": [
+    "Ko'proq yoki chuqurroq",
+    "Umuman bo'lmaydi",
+    "Faqat bitta qoldiriladi",
+    "Vitochka o'rniga etak qisqartiriladi"
+   ],
+   "e": "Farq taqsimlanadi."
+  },
+  {
+   "b": "Konstruksiya hisoblari",
+   "q": "Andozada qanday ma'lumotlar yoziladi?",
+   "a": [
+    "Detal nomi, soni, o'lcham, tanda yo'nalishi",
+    "Faqat mijozning ismi va telefoni",
+    "Faqat gazlamaning narxi",
+    "Hech qanday yozuv yozilmaydi"
+   ],
+   "e": "Andoza markirovkasi."
+  },
+  {
+   "b": "Sanoat tikuv jihozlari",
+   "q": "Sanoat tikuv mashinasining maishiy mashinadan asosiy farqi nima?",
+   "a": [
+    "Tezlik va ixtisoslashuv",
+    "Faqat qo'l bilan aylantirib ishlatilishi",
+    "Faqat bitta ip bilan ishlashi va sekinligi",
+    "Elektrsiz ishlashi va yengilligi"
+   ],
+   "e": "Daqiqasiga minglab chok."
+  },
+  {
+   "b": "Sanoat tikuv jihozlari",
+   "q": "Tugma qadash yarim avtomati nima qiladi?",
+   "a": [
+    "Tugmani avtomatik qadaydi",
+    "Gazlamani bichadi va qatlaydi",
+    "Qirqimlarni overlok qiladi",
+    "Tayyor kiyimni dazmollaydi"
+   ],
+   "e": "Ixtisoslashgan mashina."
+  },
+  {
+   "b": "Sanoat tikuv jihozlari",
+   "q": "Bug'-havo maneken (paro-vozdushnyy maneken) nima uchun ishlatiladi?",
+   "a": [
+    "Tayyor kiyimni bug' bilan tugallash",
+    "Gazlamani ko'p qatlamda bichib olish",
+    "Tugmalarni qadash va ilmoq ochish",
+    "Qirqimlarni yo'rmab tikib chiqish"
+   ],
+   "e": "Ustki kiyim uchun."
+  },
+  {
+   "b": "Sanoat tikuv jihozlari",
+   "q": "Dazmol pressi nima uchun ishlatiladi?",
+   "a": [
+    "Detallarga bosim va bug' bilan ishlov berish",
+    "Gazlamani tanda va arqoqdan to'qish",
+    "Tolalardan ip yigirish",
+    "Plastmassadan tugma tayyorlash"
+   ],
+   "e": "NII jihozi."
+  },
+  {
+   "b": "Sanoat tikuv jihozlari",
+   "q": "Yopishtirish pressi (dublirovka pressi) vazifasi nima?",
+   "a": [
+    "Qotirmani detalga yopishtirish",
+    "Qirqimlarni overlok bilan yo'rmash",
+    "Tugma uchun ilmoq ochish",
+    "Gazlamani kerakli rangga bo'yash"
+   ],
+   "e": "Harorat va bosim."
+  },
+  {
+   "b": "Sanoat tikuv jihozlari",
+   "q": "Ko'p ignali (ikki ignali) mashina nima uchun ishlatiladi?",
+   "a": [
+    "Parallel bezakli qatorlar tikish",
+    "Faqat tugma uchun ilmoq ochish",
+    "Faqat tugmalarni qadash",
+    "Faqat gazlamani qatlab kesish"
+   ],
+   "e": "Masalan, jinsi choklari."
+  },
+  {
+   "b": "Sanoat tikuv jihozlari",
+   "q": "Yashirin chok mashinasi qayerda ishlatiladi?",
+   "a": [
+    "Etakni ko'rinmas qilib tikishda",
+    "Yon choklarni mustahkam biriktirishda",
+    "Yoqani ag'darib tikishda",
+    "Gazlamani to'shamada kesishda"
+   ],
+   "e": "Potaynoy chok."
+  },
+  {
+   "b": "Sanoat tikuv jihozlari",
+   "q": "Plоskoshovnaya (yassi chok) mashinasi qaysi mahsulotlarda keng ishlatiladi?",
+   "a": [
+    "Trikotaj buyumlarda",
+    "Charm va sun'iy charm sumkalarda",
+    "Qishki palto astarida",
+    "Qalin deraza pardalarida"
+   ],
+   "e": "Cho'ziluvchan yassi chok."
+  },
+  {
+   "b": "Ishlab chiqarishni tashkil etish",
+   "q": "Tikuv korxonasida texnologik jarayon qaysi bosqichlardan iborat?",
+   "a": [
+    "Tayyorlov, bichish, tikish, tugallash",
+    "Faqat sotish va reklama qilish",
+    "Faqat ip yigirish va gazlama to'qish",
+    "Faqat gazlamani bo'yash va quritish"
+   ],
+   "e": "Asosiy sexlar."
+  },
+  {
+   "b": "Ishlab chiqarishni tashkil etish",
+   "q": "Tayyorlov sexida nima bajariladi?",
+   "a": [
+    "Gazlamani qabul qilish, o'lchash, tekshirish",
+    "Kiyimni yig'ib tikish",
+    "Tayyor kiyimni qadoqlash",
+    "Tayyor kiyimni do'konlarga sotish"
+   ],
+   "e": "Nuqsonlar aniqlanadi."
+  },
+  {
+   "b": "Ishlab chiqarishni tashkil etish",
+   "q": "Bichish sexida gazlama qanday holda bichiladi?",
+   "a": [
+    "Ko'p qatlamli to'shama shaklida",
+    "Faqat bitta qatlamda, qo'l qaychisi bilan",
+    "Kiyim to'liq tikilgandan keyin",
+    "Gazlama bo'yalgandan keyin, nam holda"
+   ],
+   "e": "Ommaviy ishlab chiqarish."
+  },
+  {
+   "b": "Ishlab chiqarishni tashkil etish",
+   "q": "Raskladka nima?",
+   "a": [
+    "Andozalarni to'shamaga joylashtirish sxemasi",
+    "Tayyor kiyimni do'kon peshtaxtasiga terish",
+    "Iplarni ranglariga ko'ra tanlash",
+    "Tugmalarni o'lchamiga ko'ra saralash"
+   ],
+   "e": "Gazlama sarfini kamaytiradi."
+  },
+  {
+   "b": "Ishlab chiqarishni tashkil etish",
+   "q": "Gazlama chiqindisi (mezhlekalnye vypady) qanday kamaytiriladi?",
+   "a": [
+    "Andozalarni zich joylashtirish orqali",
+    "Andozalarni siyrak joylashtirish orqali",
+    "Faqat keng gazlama sotib olish orqali",
+    "Detallarni kattaroq bichish orqali"
+   ],
+   "e": "Tejamkorlik."
+  },
+  {
+   "b": "Ishlab chiqarishni tashkil etish",
+   "q": "Tikuv mahsulotining texnik tavsifiga nima kiradi?",
+   "a": [
+    "Model tasviri, materiallar, ishlov berish usullari",
+    "Faqat doimiy mijozlar ro'yxati",
+    "Faqat do'kon manzili va telefoni",
+    "Faqat reklama matni"
+   ],
+   "e": "Texnik hujjat."
+  },
+  {
+   "b": "Ishlab chiqarishni tashkil etish",
+   "q": "Mehnat unumdorligini oshirishda nima muhim?",
+   "a": [
+    "Ish joyini to'g'ri tashkil etish",
+    "Ish kunini uzaytirish",
+    "Jihozlar sonini kamaytirish",
+    "Xodimlarni tez-tez almashtirish"
+   ],
+   "e": "Ergonomika va texnologiya."
+  },
+  {
+   "b": "Ishlab chiqarishni tashkil etish",
+   "q": "Sifat nazoratchisi (OTK) vazifasi nima?",
+   "a": [
+    "Mahsulotni standartga muvofiqligini tekshirish",
+    "Gazlama va furnitura sotib olish",
+    "Tayyor kiyimni reklama qilish",
+    "Xodimlar ish haqini hisoblash"
+   ],
+   "e": "Texnik nazorat bo'limi."
+  },
+  {
+   "b": "Qo'shimcha texnologik savollar",
+   "q": "Ko'klash chokining qadami mashina chokiga nisbatan qanday?",
+   "a": [
+    "Uzunroq (1–2 sm)",
+    "Qisqaroq (1 mm)",
+    "Bir xil",
+    "Umuman qadami bo'lmaydi"
+   ],
+   "e": "Oson so'kiladi."
+  },
+  {
+   "b": "Qo'shimcha texnologik savollar",
+   "q": "Gazlamani bukib tikishda qirqim yo'rmalanmasligi mumkin qachon?",
+   "a": [
+    "Yopiq qirqimli bukib tikilganda",
+    "Ochiq qirqimli bukib tikilganda",
+    "Qirqim har doim yo'rmalanishi shart",
+    "Faqat jun gazlamada"
+   ],
+   "e": "Qirqim ichkarida qoladi."
+  },
+  {
+   "b": "Qo'shimcha texnologik savollar",
+   "q": "Detallarni ulashdan oldin to'g'nag'ichlar qanday sanchiladi?",
+   "a": [
+    "Chok chizig'iga perpendikulyar",
+    "Chok chizig'i bo'ylab parallel",
+    "Faqat qirqim chetiga",
+    "Tasodifiy yo'nalishda"
+   ],
+   "e": "Mashinada tikish qulay."
+  },
+  {
+   "b": "Qo'shimcha texnologik savollar",
+   "q": "Yupqa gazlamada ilmoq ochishdan oldin nima qilinadi?",
+   "a": [
+    "Ilmoq joyi qotiriladi",
+    "Ilmoq joyi yupqalashtiriladi",
+    "Ilmoq joyiga teshik ochiladi",
+    "Ilmoq joyi bo'yaladi"
+   ],
+   "e": "Mustahkamlik."
+  },
+  {
+   "b": "Qo'shimcha texnologik savollar",
+   "q": "Tasma qulfni (molniya) tikish uchun qanday oyoqcha ishlatiladi?",
+   "a": [
+    "Bir tomonlama (molniya) oyoqcha",
+    "Ilmoq ochish uchun oyoqcha",
+    "Tugma qadash uchun oyoqcha",
+    "Kashta tikish uchun oyoqcha"
+   ],
+   "e": "Tishlarga yaqin tikadi."
+  },
+  {
+   "b": "Qo'shimcha texnologik savollar",
+   "q": "Etak chetini juda yupqa qilib bukib tikish uchun qaysi moslama ishlatiladi?",
+   "a": [
+    "Bukuvchi oyoqcha (zaposhivatel)",
+    "Tugma qadash uchun oyoqcha",
+    "Teflon qoplamali oyoqcha",
+    "Kant tikish uchun oyoqcha"
+   ],
+   "e": "Rubchik."
+  },
+  {
+   "b": "Qo'shimcha texnologik savollar",
+   "q": "Kiyimga astarni ulashning maqsadi nima?",
+   "a": [
+    "Ichki choklarni yopish va kiyishni qulaylashtirish",
+    "Kiyimni og'irroq va qalinroq qilish",
+    "Kiyimning rangini o'zgartirish",
+    "Asosiy gazlamani tejab qolish"
+   ],
+   "e": "Silliq ichki yuza."
+  },
+  {
+   "b": "Qo'shimcha texnologik savollar",
+   "q": "Etak chetini to'lqinsimon qilib ishlash uchun qanday usul qo'llanadi?",
+   "a": [
+    "Overlok bilan zich \"salat\" chok",
+    "Keng bukib, yashirin chok bilan",
+    "Bel tasma qo'shib",
+    "Kant tasma bilan qotirib"
+   ],
+   "e": "Yupqa trikotajda."
+  },
+  {
+   "b": "Kasbiy etika va ta'lim",
+   "q": "Tikuvchilik ustasi mijoz bilan muloqotda nimaga amal qiladi?",
+   "a": [
+    "Xushmuomalalik va muddatga rioya qilish",
+    "Buyurtmani istalgan vaqtda topshirish",
+    "Mijozning istagini inobatga olmaslik",
+    "Narxni oldindan aytmaslik"
+   ],
+   "e": "Kasbiy etika."
+  },
+  {
+   "b": "Kasbiy etika va ta'lim",
+   "q": "Kasb-hunar ta'limida amaliy mashg'ulotlarning asosiy maqsadi nima?",
+   "a": [
+    "Kasbiy ko'nikma va malakalarni shakllantirish",
+    "Faqat nazariy bilimlarni berish",
+    "Faqat imtihonlarga tayyorlash",
+    "O'quvchilarni dam oldirish"
+   ],
+   "e": "Ishlab chiqarish ta'limi."
+  },
+  {
+   "b": "Kasbiy etika va ta'lim",
+   "q": "Ishlab chiqarish ta'limi ustasi darsning qaysi bosqichida kirish instruktaji o'tkazadi?",
+   "a": [
+    "Darsning boshida",
+    "Dars tugagandan keyin",
+    "Faqat o'quv yili oxirida",
+    "Hech qachon"
+   ],
+   "e": "Joriy va yakuniy instruktaj ham bor."
+  },
+  {
+   "b": "Kasbiy etika va ta'lim",
+   "q": "Mashqlar ketma-ketligida qaysi tamoyil qo'llanadi?",
+   "a": [
+    "Oddiydan murakkabga",
+    "Murakkabdan oddiyga",
+    "Tasodifiy tartibda",
+    "Faqat murakkab vazifalar"
+   ],
+   "e": "Didaktik tamoyil."
+  },
+  {
+   "b": "Kasbiy etika va ta'lim",
+   "q": "O'quvchi birinchi marta tikuv mashinasida ishlashni nimadan boshlaydi?",
+   "a": [
+    "Ipsiz, qog'ozda chiziq bo'ylab tikishdan",
+    "Darhol to'liq ko'ylak tikishdan",
+    "Mashinani qismlarga ajratishdan",
+    "Yupqa ipakda ilmoq ochishdan"
+   ],
+   "e": "Mashinani boshqarish ko'nikmasi."
+  },
+  {
+   "b": "Kasbiy etika va ta'lim",
+   "q": "Tikuvchi kasbiga qo'yiladigan asosiy talablardan biri qaysi?",
+   "a": [
+    "Aniqlik va diqqatlilik",
+    "Jismoniy kuch va baland bo'y",
+    "Faqat chiroyli yozuv",
+    "Musiqa ijro etish qobiliyati"
+   ],
+   "e": "Kasbiy sifatlar."
+  },
+  {
+   "b": "Qo'shimcha materiallar",
+   "q": "Iplarning qaysi turi tikuvchilikda universal hisoblanadi?",
+   "a": [
+    "Poliester ip",
+    "Jun kalava",
+    "Zar ip",
+    "Rezina ip"
+   ],
+   "e": "Mustahkam, cho'ziluvchan."
+  },
+  {
+   "b": "Qo'shimcha materiallar",
+   "q": "Paxta ipining kamchiligi nima?",
+   "a": [
+    "Sintetik ipga nisbatan kamroq mustahkam",
+    "Juda cho'ziluvchan, chok burishadi",
+    "Yuqori haroratda erib ketadi",
+    "Hech qachon kirishmaydi"
+   ],
+   "e": "Paxta gazlamalari uchun mos."
+  },
+  {
+   "b": "Qo'shimcha materiallar",
+   "q": "Neylon ip qanday materiallar uchun qulay?",
+   "a": [
+    "Shaffof bezaklar va sintetik gazlamalar",
+    "Faqat qalin jun paltolar uchun",
+    "Faqat paxta bo'z gazlamalar uchun",
+    "Faqat charm poyabzallar uchun"
+   ],
+   "e": "Shaffof ip."
+  },
+  {
+   "b": "Qo'shimcha materiallar",
+   "q": "Rezina tasma kiyimda qayerda ishlatiladi?",
+   "a": [
+    "Bel va yeng uchida",
+    "Faqat yoqa chetida",
+    "Faqat cho'ntak qopqog'ida",
+    "Faqat tugma qatorida"
+   ],
+   "e": "Elastiklik beradi."
+  },
+  {
+   "b": "Qo'shimcha materiallar",
+   "q": "Velkro (lipuchka) qanday qadama?",
+   "a": [
+    "Ilgakli va halqali tasmalar juftligi",
+    "Metall ilgak va halqa juftligi",
+    "Plastmassa tugma va ilmoq",
+    "Yashirin tishli molniya"
+   ],
+   "e": "Tez qadaladi."
+  },
+  {
+   "b": "Qo'shimcha materiallar",
+   "q": "Knopka (press-tugma) qanday qadama?",
+   "a": [
+    "Bosib ulanadigan ikki qismli qadama",
+    "Ilmoq orqali o'tkaziladigan tugma",
+    "Tishli tasma qulf (molniya)",
+    "Gazlamadan tikilgan bog'ich"
+   ],
+   "e": "Ilmoq ochish shart emas."
+  },
+  {
+   "b": "Qo'shimcha materiallar",
+   "q": "Tugmaning qanday turlari bo'ladi?",
+   "a": [
+    "Teshikli va oyoqchali",
+    "Faqat teshikli tugmalar",
+    "Faqat metall tugmalar",
+    "Faqat yog'och tugmalar"
+   ],
+   "e": "Ikki yoki to'rt teshikli."
+  },
+  {
+   "b": "Qo'shimcha materiallar",
+   "q": "Kiyim yorlig'ida gazlama tarkibi qanday ko'rsatiladi?",
+   "a": [
+    "Tolalar foizi bilan",
+    "Faqat rang bilan",
+    "Faqat narx bilan",
+    "Hech qanday ko'rsatilmaydi"
+   ],
+   "e": "Masalan, 95% paxta, 5% elastan."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Gazlamani tanda yo'nalishini jiyak yo'q bo'lsa qanday aniqlash mumkin?",
+   "a": [
+    "Cho'zib ko'rish: kam cho'ziladigan yo'nalish",
+    "Gazlama rangiga qarab",
+    "Gazlamani hidlab ko'rish orqali",
+    "Gazlamaning og'irligini tortib"
+   ],
+   "e": "Tanda kam cho'ziladi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Qaysi o'lchov bo'yicha kiyimning bo'y guruhi aniqlanadi?",
+   "a": [
+    "Bo'y (rost)",
+    "Bel aylanasi",
+    "Bilak aylanasi",
+    "Bo'yin aylanasi"
+   ],
+   "e": "Masalan, 164 sm."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Kiyim o'lchamlari standartida qomat qaysi uch asosiy o'lchov bilan belgilanadi?",
+   "a": [
+    "Bo'y, ko'krak va son aylanalari",
+    "Bo'yin, bilak va tizza aylanalari",
+    "Oyoq uzunligi, qo'l uzunligi va bosh aylanasi",
+    "Faqat vazn"
+   ],
+   "e": "Masalan, 164-96-104."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Ayollar kiyimi qadalganda old bo'laklardan qaysi biri ustda turadi?",
+   "a": [
+    "O'ng bo'lak chap bo'lak ustida",
+    "Chap bo'lak o'ng bo'lak ustida",
+    "Ikkalasi yonma-yon",
+    "Bo'laklar ustma-ust tushmaydi"
+   ],
+   "e": "Erkaklar kiyimida aksincha."
+  }
+ ],
+ "kalit": "tikuvchi tikuvchilik kiyim konstruksiyalash modellashtirish ayollar kiyimi bichish"
+}

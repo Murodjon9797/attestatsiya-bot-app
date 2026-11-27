@@ -115,6 +115,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
     ("qx", "🌱 Qishloq xo'jaligi va biologiya", [
         "biologiya", "botanika_va_osimliklar_fiziologiyasi", "osimlikshunoslik", "ekologiya"]),
     ("iqt", "📈 Iqtisodiyot va boshqaruv", ["iqtisodiyot_nazariyasi", "menejment_asoslari"]),
+    ("xiz", "✂️ Yengil sanoat va xizmat ko'rsatish", ["tikuvchilik"]),
     ("ped", "🎵 San'at va pedagogika", ["musiqiy_talim", "pedagogik_mahorat"]),
     ("um", "📘 Umumta'lim fanlari", ["matematika", "fizika", "kimyo", "informatika", "jismoniy_tarbiya"]),
 ]
@@ -127,6 +128,7 @@ ALIASES: dict[str, str] = {
     "tr": "transport temiryol temir yol poyezd avtomobil",
     "qx": "qishloq agronomiya dehqonchilik",
     "iqt": "iqtisod iqtisodiyot buxgalteriya boshqaruv",
+    "xiz": "tikuv tikuvchi kiyim dizayn yengil sanoat xizmat",
     "ped": "musiqa pedagogika pedagogik",
     "um": "umumtalim",
     "til": "til tillar language english ingliz rus nemis",
