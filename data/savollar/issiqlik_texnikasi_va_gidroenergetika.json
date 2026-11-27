@@ -1,0 +1,3440 @@
+{
+ "kod": "5PM0405",
+ "nomi": "Issiqlik texnikasi va gidroenergetika",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (5 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Moddaning miqdori qanday birlikda o'lchanadi?",
+   "a": [
+    "Mol",
+    "Kilogramm",
+    "Litr",
+    "Kelvin"
+   ],
+   "e": "1 mol tarkibida Avogadro soniga teng zarracha bo'ladi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Avogadro soni taxminan nechaga teng?",
+   "a": [
+    "6,02·10²³ mol⁻¹",
+    "1,38·10⁻²³ mol⁻¹",
+    "9,8·10²³ mol⁻¹",
+    "8,31·10²³ mol⁻¹"
+   ],
+   "e": "N_A ≈ 6,02·10²³ mol⁻¹."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Broun harakati nimani isbotlaydi?",
+   "a": [
+    "Molekulalarning tartibsiz issiqlik harakatini",
+    "Jismlarning Yerga tortilishini",
+    "Yorug'likning to'lqin tabiatini",
+    "Elektr zaryadining saqlanishini"
+   ],
+   "e": "Suyuqlikdagi mayda zarralar molekulalar zarbidan tartibsiz harakatlanadi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Diffuziya deb nimaga aytiladi?",
+   "a": [
+    "Moddalarning issiqlik harakati tufayli o'zaro aralashishi",
+    "Suyuqlikning qaynash haroratida bug'ga aylanishi va ko'tarilishi",
+    "Qattiq jismning to'g'ridan-to'g'ri gazga aylanishi",
+    "Moddaning siqilishi"
+   ],
+   "e": "Harorat oshganda diffuziya tezlashadi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Ideal gaz holat tenglamasi (Mendeleyev–Klapeyron) qaysi?",
+   "a": [
+    "pV = (m/M)RT",
+    "pV = mRT/M²",
+    "p/V = RT",
+    "pT = mRV"
+   ],
+   "e": "R ≈ 8,31 J/(mol·K) — universal gaz doimiysi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Izotermik jarayonda qaysi kattalik o'zgarmaydi?",
+   "a": [
+    "Harorat",
+    "Bosim",
+    "Hajm",
+    "Issiqlik miqdori"
+   ],
+   "e": "Boyl–Mariott qonuni: pV = const."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Izobarik jarayonda qaysi qonun bajariladi?",
+   "a": [
+    "V/T = const (Gey-Lyussak)",
+    "pV = const (Boyl–Mariott)",
+    "p/T = const (Sharl)",
+    "pVT = const"
+   ],
+   "e": "Bosim o'zgarmas bo'lganda hajm absolyut haroratga proporsional."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Izoxorik jarayonda qaysi kattalik o'zgarmaydi?",
+   "a": [
+    "Hajm",
+    "Harorat",
+    "Bosim",
+    "Massa va harorat birga"
+   ],
+   "e": "Sharl qonuni: p/T = const."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "0 °C necha kelvinga teng?",
+   "a": [
+    "273 K",
+    "0 K",
+    "100 K",
+    "−273 K"
+   ],
+   "e": "T = t + 273."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Absolyut nol harorat nimaga teng?",
+   "a": [
+    "−273 °C",
+    "0 °C",
+    "−100 °C",
+    "−373 °C"
+   ],
+   "e": "Absolyut nolda molekulalarning issiqlik harakati nazariy jihatdan to'xtaydi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Ideal gaz molekulalarining o'rtacha kinetik energiyasi nimaga proporsional?",
+   "a": [
+    "Absolyut haroratga",
+    "Gaz hajmiga",
+    "Molekula diametri kvadratiga",
+    "Idish devorlari qalinligiga"
+   ],
+   "e": "E = (3/2)kT, k — Bolsman doimiysi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Havoning nisbiy namligi qanday ifodalanadi?",
+   "a": [
+    "Bug' zichligining to'yingan bug' zichligiga nisbati (%)",
+    "Havodagi barcha gazlar massasining suv massasiga nisbati",
+    "Suv bug'i bosimining atmosfera bosimiga ko'paytmasi",
+    "Havoning harorati va bosimi ayirmasi"
+   ],
+   "e": "φ = ρ/ρ₀·100%."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Shudring nuqtasi nima?",
+   "a": [
+    "Bug' to'yinadigan harorat",
+    "Suv qaynay boshlaydigan harorat",
+    "Muz eriy boshlaydigan harorat",
+    "Havo eng issiq bo'ladigan harorat"
+   ],
+   "e": "Havo shu haroratgacha soviganda shudring tusha boshlaydi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Sirt tarangligi tufayli qaysi hodisa yuz beradi?",
+   "a": [
+    "Kapillyar hodisalar",
+    "Elektromagnit induksiya",
+    "Fotoeffekt",
+    "Radioaktiv yemirilish"
+   ],
+   "e": "Ingichka naychalarda suyuqlik ko'tariladi yoki pasayadi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Termodinamikaning birinchi qonuni qanday ifodalanadi?",
+   "a": [
+    "Q = ΔU + A",
+    "Q = ΔU − A·T, bunda T — absolyut harorat",
+    "Q = A/ΔU",
+    "ΔU = Q·A"
+   ],
+   "e": "Gazga berilgan issiqlik ichki energiya o'zgarishi va gaz bajargan ishga sarflanadi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Adiabatik jarayon deb qanday jarayonga aytiladi?",
+   "a": [
+    "Tashqi muhit bilan issiqlik almashinuvisiz jarayon",
+    "Harorat doimiy saqlanadigan, issiqlik erkin almashinadigan jarayon",
+    "Bosim o'zgarmas bo'lgan jarayon",
+    "Hajm o'zgarmas bo'lgan jarayon"
+   ],
+   "e": "Adiabatik jarayonda Q = 0, ΔU = −A."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Izoxorik jarayonda gaz bajargan ish nimaga teng?",
+   "a": [
+    "Nolga",
+    "pV ga",
+    "Q ga",
+    "ΔU ga, ishora bilan"
+   ],
+   "e": "Hajm o'zgarmasa, ish bajarilmaydi: A = pΔV = 0."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Izobarik jarayonda gaz bajargan ish formulasi qaysi?",
+   "a": [
+    "A = pΔV",
+    "A = VΔp",
+    "A = p/ΔV",
+    "A = 0"
+   ],
+   "e": "Bosim o'zgarmas bo'lganda ish hajm o'zgarishiga proporsional."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Issiqlik miqdori formulasi (isitishda) qaysi?",
+   "a": [
+    "Q = cmΔt",
+    "Q = cm/Δt",
+    "Q = mΔt/c",
+    "Q = c + mΔt"
+   ],
+   "e": "c — solishtirma issiqlik sig'imi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Suvning solishtirma issiqlik sig'imi taxminan qancha?",
+   "a": [
+    "4200 J/(kg·°C)",
+    "420 J/(kg·°C)",
+    "1000 J/(kg·°C)",
+    "42 000 J/(kg·°C)"
+   ],
+   "e": "Suv katta issiqlik sig'imiga ega."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "2 kg suvni 10 °C ga isitish uchun qancha issiqlik kerak (c = 4200 J/(kg·°C))?",
+   "a": [
+    "84 kJ",
+    "8,4 kJ",
+    "42 kJ",
+    "840 kJ"
+   ],
+   "e": "Q = 4200·2·10 = 84 000 J."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Erish (suyuqlanish) issiqligi formulasi qaysi?",
+   "a": [
+    "Q = λm",
+    "Q = cmΔt",
+    "Q = rm·Δt",
+    "Q = qm/Δt"
+   ],
+   "e": "λ — solishtirma erish issiqligi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Bug'lanish issiqligi formulasi qaysi?",
+   "a": [
+    "Q = rm",
+    "Q = λm/t",
+    "Q = cm",
+    "Q = qmΔt"
+   ],
+   "e": "r (L) — solishtirma bug'lanish issiqligi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Yoqilg'i yonganda ajraladigan issiqlik formulasi qaysi?",
+   "a": [
+    "Q = qm",
+    "Q = cmΔt",
+    "Q = λm",
+    "Q = rm"
+   ],
+   "e": "q — yoqilg'ining solishtirma yonish issiqligi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Ideal issiqlik mashinasining (Karno sikli) FIK formulasi qaysi?",
+   "a": [
+    "η = (T₁ − T₂)/T₁",
+    "η = (T₁ + T₂)/T₂",
+    "η = T₂/T₁",
+    "η = T₁/(T₁ − T₂)"
+   ],
+   "e": "T₁ — isitkich, T₂ — sovitgich absolyut harorati."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Isitkich harorati 500 K, sovitgichniki 300 K bo'lsa, ideal mashina FIK qancha?",
+   "a": [
+    "40%",
+    "60%",
+    "25%",
+    "67%"
+   ],
+   "e": "η = (500−300)/500 = 0,4."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Termodinamikaning ikkinchi qonuniga ko'ra issiqlik o'z-o'zidan qanday uzatiladi?",
+   "a": [
+    "Issiq jismdan sovuqroq jismga",
+    "Sovuq jismdan issiqroq jismga, hech qanday ish sarflamasdan",
+    "Har ikki yo'nalishda bir xil ehtimol bilan",
+    "Faqat vakuumda"
+   ],
+   "e": "Teskari jarayon uchun tashqi ish kerak (sovitgich mashinasi)."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Issiqlik uzatishning qaysi turi vakuumda ham sodir bo'ladi?",
+   "a": [
+    "Nurlanish",
+    "Issiqlik o'tkazuvchanlik",
+    "Konveksiya",
+    "Hech qaysi"
+   ],
+   "e": "Quyosh issiqligi Yerga nurlanish orqali yetib keladi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Konveksiya qaysi muhitlarda sodir bo'ladi?",
+   "a": [
+    "Suyuqlik va gazlarda",
+    "Faqat qattiq jismlarda",
+    "Faqat vakuumda",
+    "Faqat metallarda"
+   ],
+   "e": "Konveksiya modda oqimlari bilan issiqlik ko'chishidir."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Ichki yonuv dvigatelining to'rt taktini to'g'ri tartibda ko'rsating.",
+   "a": [
+    "So'rish, siqish, ishchi yo'l, chiqarish",
+    "Siqish, so'rish, chiqarish, ishchi yo'l",
+    "Ishchi yo'l, so'rish, siqish, chiqarish",
+    "Chiqarish, ishchi yo'l, siqish, so'rish"
+   ],
+   "e": "Foydali ish faqat ishchi yo'l taktida bajariladi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Normal sharoitda 1 mol ideal gaz qancha hajmni egallaydi?",
+   "a": [
+    "22,4 l",
+    "1 l",
+    "2,24 l",
+    "224 l"
+   ],
+   "e": "Normal sharoit: 0 °C va 101 325 Pa."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Bolsman doimiysi taxminan nechaga teng?",
+   "a": [
+    "1,38·10⁻²³ J/K",
+    "6,02·10²³ J/K",
+    "8,31 J/K",
+    "6,63·10⁻³⁴ J/K"
+   ],
+   "e": "k = R/N_A."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Gaz bosimi molekulyar-kinetik nazariyaga ko'ra nima bilan tushuntiriladi?",
+   "a": [
+    "Molekulalarning idish devorlariga urilishi",
+    "Molekulalarning bir-biriga tortilishi va zanjir hosil qilishi",
+    "Gazning og'irligi bilan",
+    "Idish devorlarining kengayishi bilan"
+   ],
+   "e": "p = (1/3)nm₀v²."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Gaz hajmi o'zgarmas bo'lganda absolyut harorati 2 marta oshirilsa, bosimi qanday o'zgaradi?",
+   "a": [
+    "2 marta ortadi",
+    "2 marta kamayadi",
+    "4 marta ortadi",
+    "O'zgarmaydi"
+   ],
+   "e": "Sharl qonuni: p/T = const."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Gaz harorati o'zgarmas bo'lganda hajmi 3 marta kamaytirilsa, bosimi qanday o'zgaradi?",
+   "a": [
+    "3 marta ortadi",
+    "3 marta kamayadi",
+    "9 marta ortadi",
+    "O'zgarmaydi"
+   ],
+   "e": "Boyl–Mariott qonuni: pV = const."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Qaynash harorati tashqi bosim kamayganda qanday o'zgaradi?",
+   "a": [
+    "Pasayadi",
+    "Ortadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Tog'larda suv 100 °C dan pastroq haroratda qaynaydi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Kristall jismlar amorf jismlardan qaysi xususiyati bilan farq qiladi?",
+   "a": [
+    "Aniq erish haroratiga ega",
+    "Erish harorati yo'q, isitilganda asta-sekin yumshab boradi",
+    "Ularda atomlar tartibsiz joylashgan",
+    "Barcha yo'nalishlarda bir xil xossalarga ega bo'ladi"
+   ],
+   "e": "Kristallar anizotropiyaga ham ega."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Sublimatsiya nima?",
+   "a": [
+    "Qattiq holatdan bevosita gaz holatiga o'tish",
+    "Gaz holatidan suyuq holatga o'tish va tomchilar hosil bo'lishi",
+    "Suyuqlikdan qattiq holatga o'tish",
+    "Suyuqlikning qaynashi"
+   ],
+   "e": "Masalan, \"quruq muz\" (qattiq CO₂) sublimatsiyalanadi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Mexanik kuchlanish formulasi qaysi?",
+   "a": [
+    "σ = F/S",
+    "σ = FS",
+    "σ = S/F",
+    "σ = F·l"
+   ],
+   "e": "Birligi paskal."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Yung moduli nimani tavsiflaydi?",
+   "a": [
+    "Materialning elastik deformatsiyaga qarshiligini",
+    "Materialning elektr o'tkazuvchanligini va issiqlik sig'imini",
+    "Materialning zichligini",
+    "Materialning erish haroratini"
+   ],
+   "e": "Guk qonuni: σ = Eε."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Ichki energiya deb nimaga aytiladi?",
+   "a": [
+    "Molekulalar kinetik va o'zaro ta'sir energiyalari yig'indisi",
+    "Jismning Yerga nisbatan potensial energiyasi va uning tezligi",
+    "Jism harakatining kinetik energiyasi",
+    "Faqat elektronlar energiyasi"
+   ],
+   "e": "Ideal gaz ichki energiyasi faqat haroratga bog'liq."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Ichki energiyani o'zgartirishning qanday usullari bor?",
+   "a": [
+    "Ish bajarish va issiqlik uzatish",
+    "Faqat jismni ko'tarish",
+    "Faqat jismni tezlatish",
+    "Jism shaklini bo'yash"
+   ],
+   "e": "ΔU = Q − A (gaz bajargan ish uchun)."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Bir atomli ideal gazning ichki energiyasi formulasi qaysi?",
+   "a": [
+    "U = (3/2)νRT",
+    "U = (5/2)pV²",
+    "U = νRT/3",
+    "U = (3/2)mv"
+   ],
+   "e": "ν — modda miqdori."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Issiqlik o'tkazuvchanligi eng yuqori moddalar qaysi?",
+   "a": [
+    "Metallar",
+    "Gazlar",
+    "Yog'och",
+    "Ko'pik plastmassa"
+   ],
+   "e": "Metallarda erkin elektronlar issiqlikni tez uzatadi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Termos qanday printsip asosida issiqlikni saqlaydi?",
+   "a": [
+    "Issiqlik uzatishning barcha turlarini kamaytirish",
+    "Ichidagi suyuqlikni elektr toki bilan doimiy isitish",
+    "Issiqlikni tashqariga tezroq chiqarish",
+    "Faqat konveksiyani kuchaytirish"
+   ],
+   "e": "Vakuum qatlami o'tkazuvchanlik va konveksiyani, ko'zgu sirt nurlanishni kamaytiradi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Muzning erish harorati normal bosimda qancha?",
+   "a": [
+    "0 °C",
+    "100 °C",
+    "−10 °C",
+    "4 °C"
+   ],
+   "e": "Suvning eng katta zichligi esa +4 °C da kuzatiladi."
+  },
+  {
+   "b": "Termodinamika asoslari",
+   "q": "Sovitgich mashinasida issiqlik qayerdan qayerga uzatiladi?",
+   "a": [
+    "Sovuq kameradan atrof muhitga, tashqi ish hisobiga",
+    "Atrof muhitdan sovuq kameraga, o'z-o'zidan hech qanday ish sarflamasdan",
+    "Faqat kamera ichida aylanadi",
+    "Issiqlik uzatilmaydi"
+   ],
+   "e": "Kompressor ishini elektr dvigatel bajaradi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Asinxron dvigatelning nomi nimani bildiradi?",
+   "a": [
+    "Rotor aylanish tezligi magnit maydon tezligidan kichik",
+    "Rotor magnit maydon bilan aynan bir xil tezlikda aylanadi",
+    "Dvigatel o'zgarmas tokda ishlaydi",
+    "Dvigatelda rotor yo'q"
+   ],
+   "e": "Tezliklar farqi sirpanish deyiladi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Asinxron dvigatelda sirpanish formulasi qaysi?",
+   "a": [
+    "s = (n₁ − n₂)/n₁",
+    "s = n₁ + n₂",
+    "s = n₂/n₁ + 1",
+    "s = n₁·n₂"
+   ],
+   "e": "n₁ — maydon, n₂ — rotor tezligi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "50 Gs da 4 qutbli (p = 2) asinxron dvigatelning sinxron tezligi qancha?",
+   "a": [
+    "1500 ayl/min",
+    "3000 ayl/min",
+    "1000 ayl/min",
+    "750 ayl/min"
+   ],
+   "e": "60·50/2."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Qisqa tutashtirilgan rotorli asinxron dvigatel rotori qanday tuzilgan?",
+   "a": [
+    "\"Olmaxon g'ildiragi\" ko'rinishidagi sterjenlar",
+    "Kontakt halqalar va cho'tkalar bilan chulg'am",
+    "Doimiy magnitlardan yig'ilgan va kollektorga ulangan disk",
+    "Kollektor va yakor"
+   ],
+   "e": "Eng ko'p tarqalgan va ishonchli dvigatel turi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Sinxron mashinada rotor qanday tezlikda aylanadi?",
+   "a": [
+    "Magnit maydon bilan bir xil tezlikda",
+    "Magnit maydondan doim sekinroq",
+    "Magnit maydondan ikki baravar tez",
+    "Tasodifiy tezlikda"
+   ],
+   "e": "Elektr stansiyalaridagi generatorlar sinxron mashinalardir."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Asinxron dvigatelni ishga tushirishda ishga tushirish toki nominaldan taxminan necha marta katta?",
+   "a": [
+    "5–7 marta",
+    "1,1 marta",
+    "50–100 marta",
+    "Nominalga teng"
+   ],
+   "e": "Shuning uchun \"yulduz-uchburchak\" ishga tushirish usuli qo'llaniladi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Generator qanday energiyani elektr energiyasiga aylantiradi?",
+   "a": [
+    "Mexanik",
+    "Elektr energiyasini mexanik energiyaga",
+    "Yorug'lik energiyasini",
+    "Kimyoviy energiyani"
+   ],
+   "e": "Dvigatel teskari jarayonni bajaradi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Bir fazali asinxron dvigatelni ishga tushirish uchun nima kerak?",
+   "a": [
+    "Ishga tushirish chulg'ami va kondensator",
+    "Faqat o'zgarmas tok manbai",
+    "Kollektor, cho'tkalar va qo'shimcha o'zgarmas tok manbai",
+    "Hech narsa kerak emas, u o'zi aylanadi"
+   ],
+   "e": "Bir fazali tok o'z-o'zidan aylanuvchi maydon hosil qilmaydi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Asinxron dvigatel tezligini zamonaviy usulda rostlash uchun nima ishlatiladi?",
+   "a": [
+    "Chastota o'zgartkichi",
+    "Rotor chulg'amini uzish",
+    "Statorga o'zgarmas tok berish",
+    "Dvigatelni sovitish"
+   ],
+   "e": "Tezlik chastotaga proporsional."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Asinxron dvigatelning nominal sirpanishi odatda qanday?",
+   "a": [
+    "2–6%",
+    "50%",
+    "0%",
+    "100%"
+   ],
+   "e": "Ishga tushish paytida s = 1."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Asinxron generator nima uchun kam ishlatiladi?",
+   "a": [
+    "Reaktiv quvvat manbaini talab qiladi",
+    "U umuman elektr energiyasi ishlab chiqara olmaydi",
+    "Uning tuzilishi juda murakkab va qimmat",
+    "U faqat o'zgarmas tok beradi"
+   ],
+   "e": "Shamol elektr stansiyalarida qo'llaniladi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Generatorlarni parallel ishlashga ulash uchun qaysi shartlar bajarilishi kerak?",
+   "a": [
+    "Kuchlanish, chastota va fazalar mos bo'lishi",
+    "Faqat generatorlarning og'irligi, o'lchami va ishlab chiqaruvchisi bir xil bo'lishi",
+    "Faqat bir xil og'irlik",
+    "Hech qanday shart talab qilinmaydi"
+   ],
+   "e": "Sinxronlash talab qilinadi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Asinxron dvigatelning aylanish momenti kuchlanishga qanday bog'liq?",
+   "a": [
+    "Kuchlanish kvadratiga proporsional",
+    "Kuchlanishga bog'liq emas",
+    "Kuchlanishga teskari proporsional",
+    "Kuchlanish kubiga proporsional"
+   ],
+   "e": "Kuchlanish 10% pasaysa, moment ~19% kamayadi."
+  },
+  {
+   "b": "Elektr generatorlari",
+   "q": "Generatorda EYuK qaysi kattaliklarga bog'liq?",
+   "a": [
+    "Magnit oqimi va aylanish tezligiga",
+    "Faqat generator korpusining rangiga",
+    "Faqat yuklama qarshiligiga",
+    "Faqat havo haroratiga"
+   ],
+   "e": "E = cΦn."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Texnik termodinamika nimani o'rganadi?",
+   "a": [
+    "Issiqlik va mexanik ish o'zaro aylanishini",
+    "Faqat elektr tokining zanjirlarda tarqalishini",
+    "Faqat yorug'likning sinishi va qaytishini",
+    "Faqat qattiq jismlar mustahkamligini"
+   ],
+   "e": "Issiqlik mashinalari nazariyasi."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Ishchi jism nima?",
+   "a": [
+    "Issiqlik mashinasida energiya o'zgarishini amalga oshiruvchi modda",
+    "Mashinaning metall korpusi, qopqog'i va mahkamlash detallari",
+    "Mashinaga xizmat ko'rsatuvchi va uni boshqaruvchi operator",
+    "Mashinani avtomatik boshqaruvchi elektron blok va datchiklar"
+   ],
+   "e": "Bug', gaz, havo."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Termodinamik holat parametrlariga qaysilar kiradi?",
+   "a": [
+    "Bosim, harorat, solishtirma hajm",
+    "Faqat moddaning rangi, hidi va ta'mi",
+    "Faqat jismning tezligi va tezlanishi",
+    "Faqat jismning massasi va og'irlik kuchi"
+   ],
+   "e": "Asosiy parametrlar."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Absolyut harorat va Selsiy harorati o'rtasidagi bog'liqlik qaysi?",
+   "a": [
+    "T = t + 273,15",
+    "T = t − 273,15",
+    "T = 2t + 32",
+    "T = t / 273"
+   ],
+   "e": "Kelvin."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Absolyut bosim nima?",
+   "a": [
+    "Ortiqcha bosim va atmosfera bosimi yig'indisi",
+    "Faqat manometr ko'rsatgan bosim",
+    "Atmosfera bosimidan manometr bosimining ayirmasi",
+    "Faqat vakuum qiymati"
+   ],
+   "e": "p_abs = p_ort + p_atm."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Normal fizik sharoit qaysi?",
+   "a": [
+    "101325 Pa va 273,15 K",
+    "100 Pa va 300 K",
+    "1 MPa va 373 K",
+    "10 kPa va 0 K"
+   ],
+   "e": "760 mm sim. ust., 0 °C."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Termodinamikaning birinchi qonuni nimani ifodalaydi?",
+   "a": [
+    "Energiyaning saqlanish qonunini",
+    "Entropiyaning kamayish qonunini",
+    "Absolyut nolga erishib bo'lmasligini",
+    "Issiqlikning sovuqdan issiqqa o'tishini"
+   ],
+   "e": "Q = ΔU + L."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Termodinamikaning ikkinchi qonuniga ko'ra issiqlik o'z-o'zidan qayerga o'tadi?",
+   "a": [
+    "Issiq jismdan sovuq jismga",
+    "Sovuq jismdan issiq jismga",
+    "Hech qayerga o'tmaydi",
+    "Faqat bir xil haroratli jismlar orasida"
+   ],
+   "e": "Klauzius ta'rifi."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Izoxorik jarayonda nima o'zgarmaydi?",
+   "a": [
+    "Hajm",
+    "Bosim",
+    "Harorat",
+    "Entropiya"
+   ],
+   "e": "V = const."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Izobarik jarayonda nima o'zgarmaydi?",
+   "a": [
+    "Bosim",
+    "Hajm",
+    "Harorat",
+    "Ichki energiya"
+   ],
+   "e": "p = const."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Izotermik jarayonda nima o'zgarmaydi?",
+   "a": [
+    "Harorat",
+    "Bosim",
+    "Hajm",
+    "Issiqlik miqdori"
+   ],
+   "e": "T = const."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Adiabatik jarayon nima?",
+   "a": [
+    "Tashqi muhit bilan issiqlik almashinuvisiz jarayon",
+    "Harorat butunlay o'zgarmay qoladigan jarayon",
+    "Bosim butunlay o'zgarmay qoladigan jarayon",
+    "Hajm butunlay o'zgarmay qoladigan jarayon"
+   ],
+   "e": "q = 0."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Ideal gaz holat tenglamasi (Klapeyron-Mendeleyev) qaysi?",
+   "a": [
+    "pV = mRT",
+    "p = ρgh",
+    "F = ma",
+    "Q = cmΔt"
+   ],
+   "e": "Bir kilogramm uchun pv = RT."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Havo uchun gaz doimiysi R taxminan qancha?",
+   "a": [
+    "287 J/(kg·K)",
+    "8,31 J/(kg·K)",
+    "4187 J/(kg·K)",
+    "1005 J/(kg·K)"
+   ],
+   "e": "Universal: 8314 J/(kmol·K)."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Entalpiya nima?",
+   "a": [
+    "Ichki energiya va bosim-hajm ko'paytmasi yig'indisi",
+    "Faqat moddaning ichki energiyasi",
+    "Faqat gaz bajargan tashqi ish",
+    "Faqat jismning entropiyasi"
+   ],
+   "e": "h = u + pv."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Entropiya nimani tavsiflaydi?",
+   "a": [
+    "Issiqlik almashinuvi yo'nalishi va qaytmaslik darajasini",
+    "Faqat jismning massasini va zichligini",
+    "Faqat jismning rangini va yorqinligini",
+    "Faqat jismning tezligini va harakat yo'nalishini"
+   ],
+   "e": "ds = dq/T."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Karno siklining FIK formulasi qaysi?",
+   "a": [
+    "η = 1 − T₂/T₁",
+    "η = T₂/T₁",
+    "η = 1 + T₂/T₁",
+    "η = T₁ − T₂"
+   ],
+   "e": "Isitkich va sovitkich harorati."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Karno sikli qanday jarayonlardan iborat?",
+   "a": [
+    "Ikki izotermik va ikki adiabatik",
+    "Ikki izoxorik va ikki izobarik jarayon",
+    "Faqat to'rtta izotermik jarayon",
+    "Faqat to'rtta adiabatik jarayon"
+   ],
+   "e": "Ideal qaytar sikl."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Isitkich 500 K, sovitkich 300 K bo'lsa, Karno sikli FIK qancha?",
+   "a": [
+    "40%",
+    "60%",
+    "50%",
+    "30%"
+   ],
+   "e": "1 − 300/500 = 0,4."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Otto sikli qaysi dvigatelga xos?",
+   "a": [
+    "Benzinli ichki yonuv dvigateli",
+    "Dizel dvigateli (siqishdan alangalanuvchi)",
+    "Bug' turbinasi qurilmasi",
+    "Gaz turbinasi qurilmasi"
+   ],
+   "e": "Izoxorik issiqlik berish."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Dizel siklida issiqlik qaysi jarayonda beriladi?",
+   "a": [
+    "Izobarik",
+    "Izoxorik",
+    "Izotermik",
+    "Adiabatik"
+   ],
+   "e": "p = const."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Bug' kuch qurilmalarining asosiy sikli qaysi?",
+   "a": [
+    "Renkin sikli",
+    "Otto sikli",
+    "Dizel sikli",
+    "Brayton sikli"
+   ],
+   "e": "IES sikli."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Gaz turbina qurilmalarining ideal sikli qaysi?",
+   "a": [
+    "Brayton sikli",
+    "Renkin sikli",
+    "Otto sikli",
+    "Karno sikli"
+   ],
+   "e": "Izobarik issiqlik berish."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Siqish darajasi nima?",
+   "a": [
+    "Siqishdan oldingi va keyingi hajmlar nisbati",
+    "Bosimning absolyut haroratga nisbati",
+    "Gaz massasining hajmga nisbati",
+    "Dvigatel quvvatining aylanish tezligiga nisbati"
+   ],
+   "e": "ε = V₁/V₂."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Sovutish mashinasining samaradorligi qanday ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Sovutish koeffitsiyenti",
+    "FIK (har doim 1 dan kichik)",
+    "Siqish darajasi",
+    "Kengayish darajasi"
+   ],
+   "e": "ε = q₂/l."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Issiqlik nasosining vazifasi nima?",
+   "a": [
+    "Past haroratli manbadan issiqlikni yuqori haroratga uzatish",
+    "Yuqori haroratli manbani sovitib, elektr energiyasi olish",
+    "Faqat suvni quvurlar bo'ylab haydash",
+    "Faqat xona havosini changdan tozalash"
+   ],
+   "e": "Isitish uchun."
+  },
+  {
+   "b": "Suv bug'i",
+   "q": "To'yingan bug' nima?",
+   "a": [
+    "Suyuqlik bilan dinamik muvozanatdagi bug'",
+    "Suyuqlikdan ancha yuqori haroratdagi quruq bug'",
+    "Faqat muzdan hosil bo'lgan bug'",
+    "Faqat vakuumdagi bug'"
+   ],
+   "e": "Ho'l va quruq to'yingan."
+  },
+  {
+   "b": "Suv bug'i",
+   "q": "O'ta qizdirilgan bug' nima?",
+   "a": [
+    "To'yinish haroratidan yuqori haroratdagi bug'",
+    "Suyuqlik tomchilari aralashgan ho'l bug'",
+    "To'yinish haroratidan past haroratdagi bug'",
+    "Muzlash haroratidagi sovuq bug'"
+   ],
+   "e": "Turbinalarda qo'llanadi."
+  },
+  {
+   "b": "Suv bug'i",
+   "q": "Bug'ning quruqlik darajasi (x) nimani bildiradi?",
+   "a": [
+    "Ho'l bug'dagi quruq bug' massa ulushini",
+    "Bug'ning absolyut haroratini",
+    "Bug'ning ortiqcha bosimini",
+    "Bug'ning quvurdagi tezligini"
+   ],
+   "e": "0 ≤ x ≤ 1."
+  },
+  {
+   "b": "Suv bug'i",
+   "q": "Atmosfera bosimida suv qanday haroratda qaynaydi?",
+   "a": [
+    "100 °C",
+    "80 °C",
+    "120 °C",
+    "273 °C"
+   ],
+   "e": "Bosim ortsa qaynash harorati ortadi."
+  },
+  {
+   "b": "Suv bug'i",
+   "q": "Suvning kritik nuqtasi parametrlari qaysi?",
+   "a": [
+    "~22,1 MPa va ~374 °C",
+    "0,1 MPa va 100 °C",
+    "1 MPa va 180 °C",
+    "5 MPa va 250 °C"
+   ],
+   "e": "Suyuqlik va bug' farqi yo'qoladi."
+  },
+  {
+   "b": "Suv bug'i",
+   "q": "Suv bug'i jadvallari va diagrammalaridan qaysi biri keng qo'llanadi?",
+   "a": [
+    "h–s diagramma",
+    "U–I diagramma",
+    "F–a diagramma",
+    "m–v diagramma"
+   ],
+   "e": "Mollye diagrammasi."
+  },
+  {
+   "b": "Suv bug'i",
+   "q": "Suvning bug'lanish yashirin issiqligi (100 °C da) taxminan qancha?",
+   "a": [
+    "~2257 kJ/kg",
+    "~334 kJ/kg",
+    "~4,19 kJ/kg",
+    "~100 kJ/kg"
+   ],
+   "e": "Muzning erish issiqligi ~334 kJ/kg."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Issiqlik uzatishning asosiy usullari qaysilar?",
+   "a": [
+    "Issiqlik o'tkazuvchanlik, konveksiya, nurlanish",
+    "Faqat elektr toki va magnit maydoni ta'sirida uzatish",
+    "Faqat bosim va hajmning o'zgarishi orqali uzatish",
+    "Faqat kimyoviy reaksiyalar natijasida uzatish"
+   ],
+   "e": "Uch asosiy mexanizm."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Issiqlik o'tkazuvchanlik qonunini kim kashf etgan?",
+   "a": [
+    "J. Furye",
+    "I. Nyuton",
+    "D. Bernulli",
+    "B. Paskal"
+   ],
+   "e": "q = −λ·gradT."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Issiqlik o'tkazuvchanlik koeffitsiyenti (λ) birligi qaysi?",
+   "a": [
+    "Vt/(m·K)",
+    "Vt/(m²·K)",
+    "J/kg",
+    "Pa·s"
+   ],
+   "e": "Moddaning xossasi."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Eng yuqori issiqlik o'tkazuvchanlikka ega material qaysi?",
+   "a": [
+    "Mis",
+    "Shisha paxta",
+    "Yog'och",
+    "Havo"
+   ],
+   "e": "~390 Vt/(m·K)."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Issiqlik izolyatsiyasi uchun qanday materiallar qo'llanadi?",
+   "a": [
+    "Past λ li g'ovak materiallar",
+    "Yuqori λ li zich metallar (po'lat, cho'yan)",
+    "Faqat mis va alyuminiy plastinalar",
+    "Faqat zich og'ir beton bloklar"
+   ],
+   "e": "Mineral paxta, penoplast."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Konveksiya nima?",
+   "a": [
+    "Suyuqlik yoki gaz oqimi bilan issiqlik ko'chishi",
+    "Qattiq jism ichida zarralar tebranishi bilan uzatish",
+    "Elektromagnit to'lqinlar bilan uzatish",
+    "Faqat vakuumda issiqlik uzatish"
+   ],
+   "e": "Erkin va majburiy."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Nyuton-Rixman qonuni nimani ifodalaydi?",
+   "a": [
+    "Konvektiv issiqlik berishni: Q = αF(t_s − t_d)",
+    "Issiqlik o'tkazuvchanlikni: q = −λ·gradT (Furye)",
+    "Issiqlik nurlanishini: E = σT⁴ (Stefan-Bolsman)",
+    "Ideal gaz holatini: pV = mRT (Klapeyron)"
+   ],
+   "e": "α — issiqlik berish koeffitsiyenti."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Issiqlik nurlanishi qaysi qonun bilan tavsiflanadi?",
+   "a": [
+    "Stefan-Bolsman qonuni",
+    "Om qonuni",
+    "Paskal qonuni",
+    "Guk qonuni"
+   ],
+   "e": "E = σT⁴."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Vakuumda issiqlik qaysi usulda uzatiladi?",
+   "a": [
+    "Nurlanish orqali",
+    "Konveksiya orqali",
+    "Issiqlik o'tkazuvchanlik orqali",
+    "Umuman uzatilmaydi"
+   ],
+   "e": "Termos ishlash prinsipi."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Issiqlik uzatish koeffitsiyenti (k) birligi qaysi?",
+   "a": [
+    "Vt/(m²·K)",
+    "Vt/(m·K)",
+    "J/(kg·K)",
+    "m²/s"
+   ],
+   "e": "Devor orqali uzatish."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Issiqlik almashinuv apparati nima?",
+   "a": [
+    "Issiqlikni bir muhitdan ikkinchisiga uzatuvchi qurilma",
+    "Faqat elektr energiyasini boshqa turga o'zgartiruvchi qurilma",
+    "Faqat suvni nasos yordamida haydab beruvchi qurilma",
+    "Faqat havoni changdan filtrlab tozalovchi qurilma"
+   ],
+   "e": "Rekuperativ, regenerativ, aralashtiruvchi."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Qarama-qarshi oqimli issiqlik almashinuvchining afzalligi nima?",
+   "a": [
+    "Haroratlar farqidan samaraliroq foydalanadi",
+    "To'g'ri oqimliga nisbatan har doim kam samarali bo'ladi",
+    "Bunday sxemada issiqlik umuman uzatilmaydi",
+    "Faqat bitta issiqlik tashuvchi muhit bilan ishlaydi"
+   ],
+   "e": "To'g'ri oqimga nisbatan."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Qobiq-quvurli issiqlik almashinuvchi qaysi turga kiradi?",
+   "a": [
+    "Rekuperativ",
+    "Regenerativ",
+    "Aralashtiruvchi",
+    "Nurlanuvchi"
+   ],
+   "e": "Muhitlar devor bilan ajratilgan."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Reynolds soni nimani tavsiflaydi?",
+   "a": [
+    "Oqim rejimini (laminar yoki turbulent)",
+    "Issiqlik nurlanishining kuchi va jadalligini",
+    "Suyuqlikning elektr qarshiligini",
+    "Quvurdagi bosim o'lchov birligini"
+   ],
+   "e": "Re = vd/ν."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Quvurda laminar oqim taxminan qaysi Reynolds sonida bo'ladi?",
+   "a": [
+    "Re < 2300",
+    "Re > 10000",
+    "Re = 50000",
+    "Re > 100000"
+   ],
+   "e": "Kritik qiymat ~2300."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Nusselt soni nimani tavsiflaydi?",
+   "a": [
+    "Konvektiv issiqlik berish jadalligini",
+    "Quvurdagi oqimning o'rtacha tezligini",
+    "Quvur uzunligi bo'yicha bosim yo'qotishini",
+    "Isitkich spiralidagi elektr toki kuchini"
+   ],
+   "e": "Nu = αl/λ."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Yoqilg'ining yonish issiqligi nima?",
+   "a": [
+    "1 kg yoqilg'i to'liq yonganda ajraladigan issiqlik",
+    "Yoqilg'ining qaynash va bug'lanish harorati",
+    "Yoqilg'ining zichligi va qovushqoqligi",
+    "Yoqilg'ining bozordagi narxi"
+   ],
+   "e": "Yuqori va quyi yonish issiqligi."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Shartli yoqilg'ining yonish issiqligi qancha?",
+   "a": [
+    "29,3 MJ/kg (7000 kkal/kg)",
+    "4,19 MJ/kg (1000 kkal/kg)",
+    "100 MJ/kg (24000 kkal/kg)",
+    "1 MJ/kg (240 kkal/kg)"
+   ],
+   "e": "Taqqoslash birligi."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Tabiiy gazning asosiy tarkibiy qismi qaysi?",
+   "a": [
+    "Metan (CH₄)",
+    "Propan",
+    "Vodorod",
+    "Karbonat angidrid"
+   ],
+   "e": "90% dan ortiq."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Yoqilg'ining yonuvchi elementlari qaysilar?",
+   "a": [
+    "Uglerod, vodorod, oltingugurt",
+    "Azot, kislorod va kul",
+    "Faqat suv va mineral kul",
+    "Faqat argon va geliy"
+   ],
+   "e": "Ballast — kul, namlik."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Havo ortiqchaligi koeffitsiyenti (α) nima?",
+   "a": [
+    "Haqiqiy havo miqdorining nazariy zarur miqdorga nisbati",
+    "Yoqilg'i massasining havo massasiga nisbati",
+    "Tutun gazlari haroratining havo haroratiga nisbati",
+    "Kul miqdorining yoqilg'i massasiga nisbati"
+   ],
+   "e": "Odatda α > 1."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "To'liq yonmaslik belgisi qaysi?",
+   "a": [
+    "Tutun gazlarida CO paydo bo'lishi",
+    "Tutunda faqat CO₂ va H₂O bo'lishi",
+    "Alanganing ko'k va barqaror bo'lishi",
+    "Yoqilg'i sarfining kamayishi"
+   ],
+   "e": "Kimyoviy to'liqsiz yonish."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Qattiq yoqilg'iga misol qaysi?",
+   "a": [
+    "Ko'mir",
+    "Mazut",
+    "Tabiiy gaz",
+    "Benzin"
+   ],
+   "e": "Toshko'mir, qo'ng'ir ko'mir."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Suyuq yoqilg'iga misol qaysi?",
+   "a": [
+    "Mazut",
+    "Antratsit",
+    "Torf",
+    "Metan"
+   ],
+   "e": "Neft mahsuloti."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Yonish uchun zarur bo'lgan uchta shart qaysi?",
+   "a": [
+    "Yoqilg'i, oksidlovchi va alangalanish harorati",
+    "Faqat suv va yuqori bosim",
+    "Faqat past harorat va qorong'ilik",
+    "Faqat azot va argon gazlari"
+   ],
+   "e": "Yonish uchburchagi."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Bug' qozonining vazifasi nima?",
+   "a": [
+    "Yoqilg'i issiqligi hisobiga bug' hosil qilish",
+    "Elektr energiyasini to'g'ridan-to'g'ri ishlab chiqarish",
+    "Suvni sovitib, muz hosil qilish",
+    "Havoni siqib, kompressor vazifasini bajarish"
+   ],
+   "e": "IES asosiy jihozi."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Ekonomayzer nima uchun xizmat qiladi?",
+   "a": [
+    "Ta'minot suvini tutun gazlari bilan qizdirish",
+    "To'yingan bug'ni o'ta qizdirish",
+    "Yonish havosini sovitish",
+    "Kul va shlakni tozalash"
+   ],
+   "e": "FIKni oshiradi."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Bug' o'ta qizdirgichning vazifasi nima?",
+   "a": [
+    "To'yingan bug'ni o'ta qizdirilgan bug'ga aylantirish",
+    "Ta'minot suvini sovitish",
+    "Tutun gazlarini changdan tozalash",
+    "Yoqilg'ini changsimon holga maydalash"
+   ],
+   "e": "Turbina uchun."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Havo isitgichning qozondagi vazifasi nima?",
+   "a": [
+    "Yonish uchun beriladigan havoni qizdirish",
+    "Hosil bo'lgan bug'ni sovitish",
+    "Ta'minot suvini tuzlardan tozalash",
+    "Kul va shlakni chiqarib tashlash"
+   ],
+   "e": "Tutun issiqligidan foydalanish."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Qozon barabani nima uchun kerak?",
+   "a": [
+    "Bug'ni suvdan ajratish va suv aylanishini ta'minlash",
+    "Qattiq yoqilg'ini saqlash va uzatish",
+    "Kul va shlakni yig'ib olish",
+    "Generatorda elektr ishlab chiqarish"
+   ],
+   "e": "Barabanli qozonlarda."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Qozonning foydali ish koeffitsiyenti nima?",
+   "a": [
+    "Foydali issiqlikning yoqilg'i issiqligiga nisbati",
+    "Bug' bosimining bug' haroratiga nisbati",
+    "Suv massasining bug' massasiga nisbati",
+    "Yoqilg'i narxining uning hajmiga nisbati"
+   ],
+   "e": "Odatda 85–94%."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Qozon suvini kimyoviy tozalashdan maqsad nima?",
+   "a": [
+    "Quyqa (nakip) hosil bo'lishining oldini olish",
+    "Qozon suvini rangli qilish",
+    "Suvning ta'mini yaxshilash",
+    "Suvning bosimini oshirish"
+   ],
+   "e": "Qattiqlik tuzlari."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Quyqa (nakip) qozonda qanday zarar keltiradi?",
+   "a": [
+    "Issiqlik uzatishni yomonlashtirib, quvurlarni qizdirib yuboradi",
+    "Issiqlik uzatishni sezilarli yaxshilaydi",
+    "Yoqilg'i sarfini sezilarli kamaytiradi",
+    "Qozonning xizmat muddatini uzaytiradi"
+   ],
+   "e": "Past λ li qatlam."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Qozon xavfsizligi uchun qaysi armatura majburiy?",
+   "a": [
+    "Saqlovchi klapan, manometr, suv sathi ko'rsatkichi",
+    "Faqat bezak qopqoqlari va panjaralar",
+    "Faqat yoritish chiroqlari",
+    "Faqat korroziyaga qarshi rangli bo'yoq"
+   ],
+   "e": "Sanoat xavfsizligi qoidalari."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Suv quvurli qozonda suv qayerda harakatlanadi?",
+   "a": [
+    "Quvurlar ichida",
+    "Quvurlar tashqarisida, tutun ichida",
+    "Faqat baraban tashqarisida",
+    "Faqat o'txona devorida"
+   ],
+   "e": "Olov-quvurli qozonda — aksincha."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Bug' turbinasida energiya qanday o'zgaradi?",
+   "a": [
+    "Issiqlik energiyasi mexanik energiyaga",
+    "Elektr energiyasi to'g'ridan-to'g'ri issiqlikka aylanadi",
+    "Mexanik energiya kimyoviy energiyaga aylanadi",
+    "Yorug'lik energiyasi bug'ga aylanadi"
+   ],
+   "e": "Soplo va ishchi kuraklar."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Aktiv turbinada bug'ning kengayishi qayerda bo'ladi?",
+   "a": [
+    "Faqat soplolarda",
+    "Faqat ishchi kuraklarda",
+    "Soplo va kuraklarda teng",
+    "Kondensatorda"
+   ],
+   "e": "Reaktiv turbinada kuraklarda ham."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Kondensatsion IES da ishlatilgan bug' qayerga yuboriladi?",
+   "a": [
+    "Kondensatorga",
+    "Atmosferaga",
+    "Bevosita iste'molchiga",
+    "Qozon barabaniga"
+   ],
+   "e": "Vakuum hosil qilinadi."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Kondensatorda vakuum hosil qilishning maqsadi nima?",
+   "a": [
+    "FIKni oshirish",
+    "Bug' sarfini oshirish",
+    "Turbina tezligini kamaytirish",
+    "Suvni isitish"
+   ],
+   "e": "Past bosim."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Issiqlik elektr markazi (IEM) ning IES dan farqi nima?",
+   "a": [
+    "Issiqlik ham ishlab chiqaradi",
+    "Faqat issiqlik ishlab chiqaradi, elektr bermaydi",
+    "Faqat quyosh energiyasidan foydalanadi",
+    "Faqat daryo suvi oqimidan foydalanadi"
+   ],
+   "e": "Kogeneratsiya."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Kogeneratsiyaning afzalligi nima?",
+   "a": [
+    "Yoqilg'idan foydalanish samaradorligi yuqori",
+    "Yoqilg'i sarfi ikki baravar ortib ketadi",
+    "Faqat elektr energiyasi ishlab chiqariladi",
+    "Barcha issiqlik atmosferaga tashlanadi"
+   ],
+   "e": "80% gacha."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Kondensatsion IES ning odatiy FIK qancha?",
+   "a": [
+    "35–42%",
+    "90–95%",
+    "5–10%",
+    "70–80%"
+   ],
+   "e": "Issiqlikning katta qismi kondensatorda yo'qoladi."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Bug'-gaz qurilmasi (BGQ) ning afzalligi nima?",
+   "a": [
+    "FIK 55–60% gacha yetadi",
+    "FIK 10% dan oshmaydi, samarasiz",
+    "Faqat toshko'mir yoqilg'isida ishlaydi",
+    "Bunday qurilmada suv umuman ishlatilmaydi"
+   ],
+   "e": "Kombinatsiyalangan sikl."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Gaz turbina qurilmasining asosiy qismlari qaysilar?",
+   "a": [
+    "Kompressor, yonish kamerasi, gaz turbinasi",
+    "Qozon, kondensator va ta'minot nasosi",
+    "Faqat generator va transformator",
+    "Faqat to'g'on va suv ombori"
+   ],
+   "e": "Brayton sikli."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Sovutish minorasi (gradirnya) vazifasi nima?",
+   "a": [
+    "Aylanma suvni sovitish",
+    "Turbinaga beriladigan bug'ni qizdirish",
+    "Ko'mir va mazutni saqlash",
+    "Elektr energiyasini uzatish"
+   ],
+   "e": "Kondensator suvi."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Turbinaning nominal aylanish chastotasi (50 Hz tarmoq, 2 qutbli generator) qancha?",
+   "a": [
+    "3000 ayl/min",
+    "1000 ayl/min",
+    "500 ayl/min",
+    "6000 ayl/min"
+   ],
+   "e": "n = 60f/p."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Turbogenerator nima?",
+   "a": [
+    "Turbina aylantiradigan generator",
+    "Suv turbinasi bilan aylantiriladigan past tezlikli generator",
+    "Shamol bilan aylantiriladigan kichik generator",
+    "Quyosh panelli generator"
+   ],
+   "e": "Yuqori tezlikli."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Regenerativ isitishning maqsadi nima?",
+   "a": [
+    "Suvni bug' bilan isitib, FIKni oshirish",
+    "Bug'ni atmosferaga chiqarish",
+    "Kondensatorni isitish",
+    "Turbinani sovitish"
+   ],
+   "e": "Renkin siklini yaxshilaydi."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Deaerator vazifasi nima?",
+   "a": [
+    "Erigan gazlarni chiqarish",
+    "Ta'minot suvini muzlatib saqlash",
+    "Bug'ni qo'shimcha o'ta qizdirish",
+    "Qattiq yoqilg'ini maydalash"
+   ],
+   "e": "Korroziyaga qarshi (O₂, CO₂)."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "IES larda atrof-muhitga asosiy ta'sir qaysi?",
+   "a": [
+    "Tutun chiqindilari va issiqlik tashlanishi",
+    "Faqat shovqinsiz ishlash",
+    "Faqat havoni tozalash",
+    "Faqat suvni tozalash"
+   ],
+   "e": "Ekologik muammo."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Markazlashgan issiqlik ta'minotida issiqlik tashuvchi sifatida asosan nima ishlatiladi?",
+   "a": [
+    "Issiq suv va bug'",
+    "Faqat siqilgan havo",
+    "Faqat moy",
+    "Faqat azot"
+   ],
+   "e": "Issiqlik tarmoqlari."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Ochiq issiqlik ta'minoti tizimining xususiyati nima?",
+   "a": [
+    "Tarmoq suvi bevosita olinadi",
+    "Tarmoq suvi iste'molchiga umuman berilmaydi",
+    "Faqat bug' issiqlik tashuvchi sifatida ishlatiladi",
+    "Faqat elektr isitgichlar ishlatiladi"
+   ],
+   "e": "Yopiq tizimda olinmaydi."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Issiqlik punktining vazifasi nima?",
+   "a": [
+    "Issiqlikni moslab taqsimlash",
+    "Elektr energiyasini ishlab chiqarish",
+    "Yoqilg'ini qazib olish va tashish",
+    "Suvni sovitib muzlatish"
+   ],
+   "e": "ITP, MIP."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Radiator isitish tizimida issiqlik asosan qanday uzatiladi?",
+   "a": [
+    "Konveksiya va nurlanish orqali",
+    "Faqat qizdirgich orqali o'tgan elektr toki",
+    "Faqat suv bosimining o'zgarishi",
+    "Faqat tovush to'lqinlari"
+   ],
+   "e": "Isitish asboblari."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Sovutgich agentiga misol qaysi?",
+   "a": [
+    "Freon va ammiak",
+    "Faqat toza distillangan suv",
+    "Faqat atmosfera havosi",
+    "Faqat quruq qum"
+   ],
+   "e": "R134a, R717."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Bug'-kompression sovutish mashinasining asosiy elementlari qaysilar?",
+   "a": [
+    "Kompressor, kondensator, drossel, bug'latkich",
+    "Qozon, bug' turbinasi va generator",
+    "Nasos, to'g'on va suv turbinasi",
+    "Akkumulyator, invertor va quyosh paneli"
+   ],
+   "e": "Sovutish sikli."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Sovutish mashinasida bug'latkichda nima sodir bo'ladi?",
+   "a": [
+    "Agent qaynab, issiqlik yutadi",
+    "Agent kondensatsiyalanib, issiqlik beradi",
+    "Agent kompressorda siqiladi",
+    "Agent muzlab, qattiq holatga o'tadi"
+   ],
+   "e": "Sovutish effekti."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Quyosh kollektorining vazifasi nima?",
+   "a": [
+    "Quyosh nurlanishini issiqlikka aylantirish",
+    "Quyosh nurini to'g'ridan-to'g'ri elektrga aylantirish",
+    "Shamol energiyasini yig'ish",
+    "Suv oqimini boshqarish"
+   ],
+   "e": "Issiq suv ta'minoti."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Fotoelektrik panel nima qiladi?",
+   "a": [
+    "Nurni elektrga aylantiradi",
+    "Quyosh nurini issiqlikka aylantiradi",
+    "Shamol energiyasini o'zgartiradi",
+    "Suv oqimini aylantiradi"
+   ],
+   "e": "Fotoeffekt."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Geotermal energiya manbai nima?",
+   "a": [
+    "Yer ichki issiqligi",
+    "Quyoshning nurlanish energiyasi",
+    "Atmosferadagi shamol oqimi",
+    "Dengiz va okean to'lqinlari"
+   ],
+   "e": "Qayta tiklanuvchi manba."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Energiya tejamkorligini oshirish usuli qaysi?",
+   "a": [
+    "Izolyatsiya va issiqlik utilizatsiyasi",
+    "Izolyatsiyasiz ochiq quvurlardan foydalanish",
+    "Eshik va derazalarni doim ochiq qoldirish",
+    "Eskirgan qozonlarni almashtirmay ishlatish"
+   ],
+   "e": "Energiya auditi."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Gidrostatikaning asosiy tenglamasi qaysi?",
+   "a": [
+    "p = p₀ + ρgh",
+    "p = F·v (kuch va tezlik)",
+    "p = m/V (massa va hajm)",
+    "p = ρv² (zichlik va tezlik)"
+   ],
+   "e": "Chuqurlikda bosim."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Paskal qonuni nimani bildiradi?",
+   "a": [
+    "Bosim har tomonga bir xil uzatiladi",
+    "Bosim faqat pastga, idish tubiga uzatiladi",
+    "Bosim faqat yuqoriga, sirtga uzatiladi",
+    "Suyuqlik bosimni umuman uzatmaydi"
+   ],
+   "e": "Gidravlik press."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Arximed kuchi nimaga teng?",
+   "a": [
+    "Siqib chiqarilgan suyuqlik og'irligiga",
+    "Jismning havodagi o'z og'irligiga",
+    "Jism massasining ikki baravariga",
+    "Suyuqlik bosimining yarmiga"
+   ],
+   "e": "F = ρgV."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Uzluksizlik (sarf) tenglamasi qaysi?",
+   "a": [
+    "Q = v₁S₁ = v₂S₂",
+    "Q = ρgh (gidrostatik bosim)",
+    "Q = F/S (kuchning yuzaga nisbati)",
+    "Q = mv²/2 (kinetik energiya)"
+   ],
+   "e": "Siqilmaydigan suyuqlik."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Quvur torayganda suyuqlik tezligi qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga teng bo'ladi"
+   ],
+   "e": "Uzluksizlik tenglamasi."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Bernulli tenglamasi nimani ifodalaydi?",
+   "a": [
+    "Oqim energiyasining saqlanishini",
+    "Suyuqlik massasining ortib borishini",
+    "Elektr zaryadining saqlanishini",
+    "Issiqlikning nurlanishini"
+   ],
+   "e": "z + p/ρg + v²/2g = const."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Bernulli tenglamasidagi v²/2g hadi nima deyiladi?",
+   "a": [
+    "Tezlik napori",
+    "Geometrik napor",
+    "Pyezometrik napor",
+    "Yo'qotilgan napor"
+   ],
+   "e": "Kinetik energiya."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Napor qanday birlikda o'lchanadi?",
+   "a": [
+    "Metrda",
+    "Paskalda",
+    "Kilogrammda",
+    "Vattda"
+   ],
+   "e": "Suyuqlik ustuni balandligi."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Suyuqlik sarfi qanday birlikda o'lchanadi?",
+   "a": [
+    "m³/s",
+    "m/s",
+    "Pa",
+    "kg·m"
+   ],
+   "e": "Hajmiy sarf."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Quvurda gidravlik yo'qotishlar qanday turlarga bo'linadi?",
+   "a": [
+    "Uzunlik bo'yicha va mahalliy",
+    "Faqat issiqlik yo'qotishlari",
+    "Faqat elektr yo'qotishlari",
+    "Faqat yorug'lik yo'qotishlari"
+   ],
+   "e": "Darsi-Veysbax formulasi."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Gidravlik zarba nima?",
+   "a": [
+    "Oqim to'xtaganda bosim sakrashi",
+    "Suyuqlikning sekin bug'lanishi",
+    "Quvurning asta-sekin sovishi",
+    "Oqim tezligining bir tekis ortishi"
+   ],
+   "e": "N.Ye. Jukovskiy."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Kavitatsiya nima?",
+   "a": [
+    "Bug' pufakchalari hosil bo'lib yemirilishi",
+    "Suyuqlikning past haroratda muzlashi",
+    "Suyuqlik bosimining bir tekis oshishi",
+    "Suyuqlik qovushqoqligining ortishi"
+   ],
+   "e": "Nasos va turbinalarni yemiradi."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Markazdan qochma nasosda bosim qanday hosil bo'ladi?",
+   "a": [
+    "Aylanuvchi g'ildirak hisobiga",
+    "Porshenning ilgarilanma harakati hisobiga",
+    "Faqat og'irlik kuchi hisobiga",
+    "Faqat elektr maydoni hisobiga"
+   ],
+   "e": "Parrakli nasos."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Nasosning foydali quvvati formulasi qaysi?",
+   "a": [
+    "N = ρgQH",
+    "N = mv²/2",
+    "N = UI",
+    "N = F/S"
+   ],
+   "e": "Vatt."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Qovushqoqlik nima?",
+   "a": [
+    "Ichki ishqalanish xossasi",
+    "Suyuqlikning siqiluvchanligi",
+    "Suyuqlikning rangi va tiniqligi",
+    "Suyuqlikning elektr o'tkazuvchanligi"
+   ],
+   "e": "Dinamik va kinematik."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "GES qaysi energiyani elektr energiyasiga aylantiradi?",
+   "a": [
+    "Suv oqimi energiyasini",
+    "Yoqilg'ining kimyoviy energiyasini to'g'ridan-to'g'ri",
+    "Yadro bo'linishi energiyasini",
+    "Quyosh nurlanishining issiqligini"
+   ],
+   "e": "Gidravlik energiya."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "GES quvvatining formulasi qaysi?",
+   "a": [
+    "N = 9,81·Q·H·η",
+    "N = U·I·cosφ (elektr quvvati)",
+    "N = m·g·v² (massa va tezlik)",
+    "N = p·V·T (bosim, hajm, harorat)"
+   ],
+   "e": "kVt, Q — m³/s, H — m."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "GES quvvati asosan qaysi ikki kattalikka bog'liq?",
+   "a": [
+    "Suv sarfi va napor",
+    "Suv harorati va rangi",
+    "To'g'on rangi va shakli",
+    "Generator og'irligi va narxi"
+   ],
+   "e": "Q va H."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Napor nima (GES uchun)?",
+   "a": [
+    "Bef sathlari farqi",
+    "Suv omborining umumiy hajmi",
+    "To'g'onning uzunligi",
+    "Turbinaning aylanish tezligi"
+   ],
+   "e": "Metrda."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Yuqori bef nima?",
+   "a": [
+    "To'g'ondan yuqoridagi suv havzasi",
+    "To'g'ondan pastdagi chiqarish kanali",
+    "Turbinalar o'rnatilgan mashina zali",
+    "Generator va boshqaruv xonasi"
+   ],
+   "e": "Quyi bef — pastdagi qism."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Derivatsion GES nima?",
+   "a": [
+    "Suv kanal yoki tunnel orqali olib kelinadigan GES",
+    "To'g'onsiz, faqat daryo o'zanida ishlaydigan qurilma",
+    "Faqat dengiz to'lqinidan ishlaydigan qurilma",
+    "Faqat quyosh bilan ishlaydigan qurilma"
+   ],
+   "e": "Tog'li hududlarda."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "To'g'onli GES nima?",
+   "a": [
+    "Napor to'g'on bilan hosil qilinadigan GES",
+    "Napor faqat kanal bilan hosil qilinadigan GES",
+    "Suv ombori bo'lmagan kichik GES",
+    "Faqat shamol bilan ishlaydigan stansiya"
+   ],
+   "e": "Tekislik daryolarida."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Gidroakkumulyatsiyalovchi elektr stansiyasi (GAES) qanday ishlaydi?",
+   "a": [
+    "Kechasi suv haydaydi, kunduzi elektr beradi",
+    "Faqat doimiy bir xil quvvatda ishlaydi",
+    "Faqat suvni pastga tashlab, qayta ishlatmaydi",
+    "Faqat quyosh panellaridan quvvat oladi"
+   ],
+   "e": "Yuklama grafigini tekislaydi."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Pelton turbinasi qaysi naporlarga mo'ljallangan?",
+   "a": [
+    "Yuqori naporlar",
+    "Juda past naporlar",
+    "Faqat nol napor",
+    "Faqat dengiz suvi"
+   ],
+   "e": "Cho'michli (aktiv) turbina."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Kaplan turbinasi qaysi naporlarga mo'ljallangan?",
+   "a": [
+    "Past naporlar va katta sarf",
+    "Juda yuqori naporlar va kichik sarf",
+    "Faqat bug' naporlari",
+    "Faqat gaz naporlari"
+   ],
+   "e": "Burilma kurakli o'qli turbina."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Frensis turbinasi qaysi turga kiradi?",
+   "a": [
+    "Radial-o'qli reaktiv turbina",
+    "Cho'michli aktiv turbina (Pelton)",
+    "Ko'p bosqichli bug' turbinasi",
+    "Yonish kamerali gaz turbinasi"
+   ],
+   "e": "O'rta naporlar."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Gidrogenerator turbogeneratordan nimasi bilan farq qiladi?",
+   "a": [
+    "Past tezlik va ko'p qutblilik",
+    "Yuqori tezlik va kam qutblilik",
+    "Faqat o'zgarmas tok ishlab chiqarishi",
+    "Faqat bug' bilan aylanishi"
+   ],
+   "e": "Katta diametrli rotor."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "GESning afzalligi nima?",
+   "a": [
+    "Qayta tiklanuvchi manba, tez ishga tushish",
+    "Atmosferaga ko'p miqdorda CO₂ chiqaradi",
+    "Doimiy yoqilg'i tashishni talab qiladi",
+    "Ishga tushirish juda sekin, soatlab davom etadi"
+   ],
+   "e": "Manyovrlilik."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "GES qurilishining ekologik kamchiligi nima?",
+   "a": [
+    "Yerlarni suv bosishi, ekotizim o'zgarishi",
+    "Atmosferaga ko'p kul chiqarishi",
+    "Radioaktiv chiqindi hosil qilishi",
+    "Ko'mir yoqishni talab qilishi"
+   ],
+   "e": "Baliq migratsiyasi buziladi."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Baliq o'tkazgich nima uchun quriladi?",
+   "a": [
+    "Baliqlarning to'g'ondan o'tishi uchun",
+    "Turbina va generatorni sovitish uchun",
+    "Daryo suvini tozalash uchun",
+    "Kemalarni bir befdan ikkinchisiga o'tkazish uchun"
+   ],
+   "e": "Ekologik inshoot."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Shlyuz nima uchun quriladi?",
+   "a": [
+    "Kemalarni sathlar orasida o'tkazish",
+    "Baliqlarni ko'paytirish uchun",
+    "Elektr uzatish uchun",
+    "Suvni isitish uchun"
+   ],
+   "e": "Kema qatnovi."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Suv tashlagich (vodosbros) vazifasi nima?",
+   "a": [
+    "Ortiqcha suvni xavfsiz o'tkazish",
+    "Elektr energiyasini ishlab chiqarish",
+    "Turbinani moylash",
+    "Suvni muzlatish"
+   ],
+   "e": "Toshqinlarda."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Gidroturbina kameradagi spiral kamera vazifasi nima?",
+   "a": [
+    "Suvni g'ildirak atrofida taqsimlash",
+    "Suvni isitish",
+    "Turbinani to'xtatish",
+    "Elektr toki o'tkazish"
+   ],
+   "e": "Frensis turbinasida."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Yo'naltiruvchi apparat vazifasi nima?",
+   "a": [
+    "Turbinaga suv sarfini rostlash",
+    "Generator kuchlanishini oshirish",
+    "Suvni tozalash",
+    "To'g'onni mustahkamlash"
+   ],
+   "e": "Kuraklarini burish orqali."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "O'zbekistondagi eng yirik GES qaysi?",
+   "a": [
+    "Chorvoq GES",
+    "Farhod GES",
+    "Tuyamo'yin GES",
+    "Andijon GES"
+   ],
+   "e": "Chirchiq daryosida."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Chorvoq GES qaysi daryoda joylashgan?",
+   "a": [
+    "Chirchiq",
+    "Amudaryo",
+    "Zarafshon",
+    "Qashqadaryo"
+   ],
+   "e": "Toshkent viloyati."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Andijon suv ombori qaysi daryoda qurilgan?",
+   "a": [
+    "Qoradaryo",
+    "Chirchiq daryosi",
+    "Sirdaryo",
+    "Amudaryo"
+   ],
+   "e": "Andijon GES."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Tuyamo'yin gidrouzeli qaysi daryoda joylashgan?",
+   "a": [
+    "Amudaryo",
+    "Sirdaryo",
+    "Chirchiq",
+    "Zarafshon"
+   ],
+   "e": "Xorazm hududi."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Gidroturbinaning ishchi g'ildiragida kavitatsiya qanday zarar keltiradi?",
+   "a": [
+    "Kurak yuzasini yemiradi",
+    "Kuraklarni mustahkamlaydi",
+    "FIKni oshiradi",
+    "Hech qanday ta'sir qilmaydi"
+   ],
+   "e": "Eroziya."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Gidroagregat nima?",
+   "a": [
+    "Turbina va generator birligi",
+    "Faqat transformator",
+    "Faqat to'g'on",
+    "Faqat suv ombori"
+   ],
+   "e": "Asosiy energetik jihoz."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "GES ning o'rtacha FIK qancha?",
+   "a": [
+    "85–92%",
+    "30–35%",
+    "10–15%",
+    "50–55%"
+   ],
+   "e": "IESdan ancha yuqori."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Daryo oqimining yillik notekisligini tekislash uchun nima quriladi?",
+   "a": [
+    "Suv ombori",
+    "Shlyuz",
+    "Baliq o'tkazgich",
+    "Transformator podstansiyasi"
+   ],
+   "e": "Oqimni rostlash."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Mikro-GES nima?",
+   "a": [
+    "100 kVt gacha quvvatli kichik GES",
+    "1000 MVt dan ortiq quvvatli yirik GES",
+    "Faqat dengiz qirg'og'idagi to'lqin stansiyasi",
+    "Faqat yer ostiga qurilgan GES"
+   ],
+   "e": "Chekka hududlar uchun."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Gidroturbina aylanish chastotasi oshganda generatorda nima o'zgaradi?",
+   "a": [
+    "Chastota ortadi",
+    "Chastota kamayadi",
+    "Kuchlanish yo'qoladi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "f = pn/60."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Quvvati 10 m³/s sarf va 50 m napor, η = 0,9 bo'lsa, GES quvvati taxminan qancha?",
+   "a": [
+    "~4,4 MVt",
+    "~44 MVt",
+    "~440 kVt",
+    "~0,44 MVt"
+   ],
+   "e": "9,81·10·50·0,9 ≈ 4415 kVt."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Shamol elektr stansiyasi quvvati shamol tezligiga qanday bog'liq?",
+   "a": [
+    "Tezlikning kubiga proporsional",
+    "Tezlikka teskari proporsional",
+    "Tezlikka bog'liq emas",
+    "Tezlikning kvadrat ildiziga proporsional"
+   ],
+   "e": "P ~ v³."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Betz chegarasi nimani bildiradi?",
+   "a": [
+    "Nazariy maksimum ~59,3%",
+    "Quyosh panelining maksimal FIK 100%",
+    "GES ning ruxsat etilgan minimal napori",
+    "IES ning maksimal FIK 90%"
+   ],
+   "e": "Shamol turbinasi uchun."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Quyosh fotoelektrik panellarining odatiy FIK qancha?",
+   "a": [
+    "15–23%",
+    "80–90%",
+    "1–2%",
+    "50–60%"
+   ],
+   "e": "Kremniy panellar."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Invertorning quyosh elektr stansiyasidagi vazifasi nima?",
+   "a": [
+    "O'zgarmas tokni o'zgaruvchanga aylantirish",
+    "O'zgaruvchan tokni o'zgarmasga aylantirish",
+    "Quyosh nurini to'plash",
+    "Panelni sovitish"
+   ],
+   "e": "Tarmoqqa ulash."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Biogaz asosan qaysi gazdan iborat?",
+   "a": [
+    "Metan",
+    "Vodorod",
+    "Azot",
+    "Kislorod"
+   ],
+   "e": "50–70% CH₄."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Biogaz qanday jarayonda hosil bo'ladi?",
+   "a": [
+    "Anaerob bijg'ishda",
+    "Ko'mirni yuqori haroratda yoqishda",
+    "Suvni elektroliz qilishda",
+    "Neftni haydab, qayta ishlashda"
+   ],
+   "e": "Metantank."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Vodorod energetikasining afzalligi nima?",
+   "a": [
+    "Yonganda faqat suv hosil bo'ladi",
+    "Yonganda ko'p miqdorda CO₂ chiqaradi",
+    "Olish texnologiyasi juda oson va arzon",
+    "Saqlash va tashish juda oddiy"
+   ],
+   "e": "Ekologik toza."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Qayta tiklanmaydigan energiya manbaiga misol qaysi?",
+   "a": [
+    "Tabiiy gaz",
+    "Quyosh",
+    "Shamol",
+    "Daryo oqimi"
+   ],
+   "e": "Qazilma yoqilg'i."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "To'rt taktli dvigatel taktlari tartibi qaysi?",
+   "a": [
+    "Kiritish, siqish, ish yo'li, chiqarish",
+    "Siqish, kiritish, chiqarish, ish yo'li",
+    "Ish yo'li, siqish, kiritish, chiqarish",
+    "Chiqarish, ish yo'li, siqish, kiritish"
+   ],
+   "e": "Otto va dizel dvigatellari."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Dizel dvigatelida yoqilg'i qanday alangalanadi?",
+   "a": [
+    "Siqilgan havo issiqligidan",
+    "Elektr uchquni (sham) yordamida",
+    "Tashqi olov yordamida",
+    "Kimyoviy katalizator yordamida"
+   ],
+   "e": "Siqish darajasi 14–22."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Benzinli dvigatelda yonuvchi aralashma qanday alangalanadi?",
+   "a": [
+    "Uchqun shami yordamida",
+    "Siqilgan havo issiqligidan",
+    "Tashqi olov bilan",
+    "Quyosh nuri bilan"
+   ],
+   "e": "Majburiy alangalanish."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Detonatsiya nima?",
+   "a": [
+    "Portlashsimon nazoratsiz yonish",
+    "Aralashmaning sekin, bir tekis va to'liq yonishi",
+    "Dvigatelning yoqilg'isiz to'liq to'xtashi",
+    "Yoqilg'ining past haroratda muzlashi"
+   ],
+   "e": "Oktan soni bilan bog'liq."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Benzinning detonatsiyaga chidamliligi qaysi ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Oktan soni",
+    "Setan soni",
+    "Qovushqoqlik indeksi",
+    "Kul miqdori"
+   ],
+   "e": "Masalan, AI-92."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Dizel yoqilg'isining alangalanish sifati qaysi ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Setan soni",
+    "Oktan soni",
+    "Natura",
+    "Bonitet"
+   ],
+   "e": "Alangalanishning kechikishi."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Dvigatelning indikator quvvati nima?",
+   "a": [
+    "Silindrdagi gazlar quvvati",
+    "Tirsakli valdan olinadigan effektiv quvvat",
+    "Dvigatelga ulangan generator quvvati",
+    "Yoqilg'i nasosi iste'mol qiladigan quvvat"
+   ],
+   "e": "Effektiv quvvat — valdagi."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Mexanik FIK nima?",
+   "a": [
+    "Effektiv quvvatning indikator quvvatga nisbati",
+    "Indikator quvvatning yoqilg'i issiqligiga nisbati",
+    "Yoqilg'i sarfining tezlikka nisbati",
+    "Bosimning haroratga nisbati"
+   ],
+   "e": "Ishqalanish yo'qotishlari."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Turbonaddiv nima uchun qo'llanadi?",
+   "a": [
+    "Ko'proq havo berib quvvatni oshirish",
+    "Dvigatelni qo'shimcha suv bilan sovitish",
+    "Yoqilg'i sarfini ataylab oshirish",
+    "Chiqindi gazlar shovqinini kuchaytirish"
+   ],
+   "e": "Ishlatilgan gaz energiyasidan."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Porshenli kompressorda havo qanday siqiladi?",
+   "a": [
+    "Silindrda porshen harakati bilan",
+    "Aylanuvchi kurakli g'ildirak bilan",
+    "Faqat issiqlik bilan",
+    "Faqat elektr maydoni bilan"
+   ],
+   "e": "Hajmiy kompressor."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Ko'p bosqichli siqishda oraliq sovitish nima uchun kerak?",
+   "a": [
+    "Siqish ishini kamaytirish",
+    "Siqilayotgan havoni qo'shimcha qizdirish",
+    "Chiqishdagi bosimni kamaytirish",
+    "Kompressor valining aylanishini tezlashtirish"
+   ],
+   "e": "Izotermik jarayonga yaqinlashish."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Ventilyator va kompressorning asosiy farqi nima?",
+   "a": [
+    "Ventilyator past bosim hosil qiladi",
+    "Ventilyator yuqori bosim hosil qiladi",
+    "Kompressor faqat suyuqlik haydaydi",
+    "Ventilyator faqat suv haydaydi"
+   ],
+   "e": "Bosim nisbati."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Termojuft ishlash prinsipi qaysi?",
+   "a": [
+    "Ikki metall tutashuvida termo-EYuK",
+    "Suyuqlikning qizdirilganda kengayishi",
+    "Bimetall plastinaning qizib egilishi",
+    "Yopiq idishdagi gaz bosimining o'zgarishi"
+   ],
+   "e": "Zeebek effekti."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Qarshilik termometri ishlash prinsipi qaysi?",
+   "a": [
+    "Metall qarshiligining haroratga bog'liqligi",
+    "Ikki metall tutashuvida EYuK hosil bo'lishi",
+    "Simobning kengayishi",
+    "Nurlanish intensivligi"
+   ],
+   "e": "Platina, mis termometrlar."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Pirometr nima uchun ishlatiladi?",
+   "a": [
+    "Nurlanish bo'yicha masofadan o'lchash",
+    "Quvurdagi bosimni o'lchash",
+    "Suyuqlik sarfini o'lchash",
+    "Havo namligini o'lchash"
+   ],
+   "e": "Yuqori haroratlar."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Manometr nima o'lchaydi?",
+   "a": [
+    "Ortiqcha bosimni",
+    "Haroratni",
+    "Suyuqlik sarfini",
+    "Havo namligini"
+   ],
+   "e": "Vakuummetr — siyraklanishni."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Barometr nima o'lchaydi?",
+   "a": [
+    "Atmosfera bosimini",
+    "Ortiqcha bosimni",
+    "Haroratni",
+    "Suyuqlik sarfini"
+   ],
+   "e": "Meteorologiya."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Sarf o'lchash usullaridan biri qaysi?",
+   "a": [
+    "Torayish qurilmasi (diafragma)",
+    "Termojuft",
+    "Pirometr",
+    "Gigrometr"
+   ],
+   "e": "Bosim farqi bo'yicha."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Issiqlik hisoblagich (teplomer) nimani o'lchaydi?",
+   "a": [
+    "Iste'mol qilingan issiqlik miqdorini",
+    "Faqat tarmoq suvining haroratini",
+    "Faqat quvurdagi bosimni",
+    "Faqat elektr energiyasi sarfini"
+   ],
+   "e": "Sarf va harorat farqi."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Psixrometr nima o'lchaydi?",
+   "a": [
+    "Havo namligini",
+    "Havo bosimini",
+    "Havo tezligini",
+    "Havo tarkibini"
+   ],
+   "e": "Quruq va ho'l termometr."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Gaz analizator qozonxonada nima uchun kerak?",
+   "a": [
+    "Tutun gazlari tarkibini nazorat qilish",
+    "Qozondagi suv sathini o'lchash",
+    "Baraban ichidagi bug' bosimini o'lchash",
+    "Tarmoqdagi elektr kuchlanishini o'lchash"
+   ],
+   "e": "Yonish sifatini rostlash."
+  },
+  {
+   "b": "Issiqlik o'lchovlari va avtomatika",
+   "q": "Avtomatik rostlash tizimida \"teskari aloqa\" vazifasi nima?",
+   "a": [
+    "Haqiqiy va berilgan qiymatni solishtirish",
+    "Tizimni favqulodda butunlay o'chirish",
+    "Signalni kuchaytirmasdan uzatish",
+    "Faqat ovozli ogohlantirish berish"
+   ],
+   "e": "Yopiq kontur."
+  },
+  {
+   "b": "Atom energetikasi va energetika tizimi",
+   "q": "AES da issiqlik manbai nima?",
+   "a": [
+    "Yadro bo'linish reaksiyasi",
+    "Ko'mirning o'txonada yonishi",
+    "Daryo suvining oqimi",
+    "Quyosh nurlanishi"
+   ],
+   "e": "Uran-235."
+  },
+  {
+   "b": "Atom energetikasi va energetika tizimi",
+   "q": "Yadro reaktorida neytronlarni sekinlatuvchi modda qanday nomlanadi?",
+   "a": [
+    "Moderator (sekinlatgich)",
+    "Reflektor (qaytargich)",
+    "Absorber (yutgich)",
+    "Generator"
+   ],
+   "e": "Suv, grafit."
+  },
+  {
+   "b": "Atom energetikasi va energetika tizimi",
+   "q": "Reaktor quvvatini boshqarish sterjenlari nimadan yasaladi?",
+   "a": [
+    "Neytron yutuvchi materiallardan",
+    "Faqat konstruksion temirdan",
+    "Faqat elektrotexnik misdan",
+    "Faqat yengil alyuminiydan"
+   ],
+   "e": "Zanjir reaksiyasini boshqarish."
+  },
+  {
+   "b": "Atom energetikasi va energetika tizimi",
+   "q": "VVER reaktorida issiqlik tashuvchi va sekinlatgich nima?",
+   "a": [
+    "Oddiy suv (bosim ostida)",
+    "Grafit va havo",
+    "Suyuq natriy",
+    "Geliy gazi"
+   ],
+   "e": "Suv-suvli energetik reaktor."
+  },
+  {
+   "b": "Atom energetikasi va energetika tizimi",
+   "q": "Energetika tizimi nima?",
+   "a": [
+    "Stansiya, tarmoq va iste'molchilar tizimi",
+    "Faqat bitta yirik elektr stansiyasi",
+    "Faqat uy-ro'zg'or elektr asboblari",
+    "Faqat yoqilg'i saqlanadigan ombor"
+   ],
+   "e": "Yagona rejim."
+  },
+  {
+   "b": "Atom energetikasi va energetika tizimi",
+   "q": "Elektr energiyasini uzoq masofaga uzatishda yuqori kuchlanish nima uchun ishlatiladi?",
+   "a": [
+    "Yo'qotishlarni kamaytirish uchun",
+    "Liniyadagi yo'qotishlarni oshirish uchun",
+    "Liniyadagi tokni oshirish uchun",
+    "Simlarni og'irlashtirish uchun"
+   ],
+   "e": "P = I²R."
+  },
+  {
+   "b": "Atom energetikasi va energetika tizimi",
+   "q": "Yuklama grafigining \"cho'qqi\" qismini qaysi stansiyalar qoplashi qulay?",
+   "a": [
+    "GES va GAES",
+    "Faqat AES",
+    "Faqat kondensatsion IES",
+    "Faqat geotermal stansiyalar"
+   ],
+   "e": "Tez manyovr."
+  },
+  {
+   "b": "Atom energetikasi va energetika tizimi",
+   "q": "Bazaviy yuklamada asosan qaysi stansiyalar ishlaydi?",
+   "a": [
+    "AES va yirik IES",
+    "Faqat GAES",
+    "Faqat dizel generatorlar",
+    "Faqat quyosh panellari"
+   ],
+   "e": "Barqaror rejim."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Gravitatsion beton to'g'on qanday turg'unlikni ta'minlaydi?",
+   "a": [
+    "O'z og'irligi hisobiga",
+    "Faqat yon qirg'oqlarga tayanishi hisobiga",
+    "Faqat po'lat arqonlar hisobiga",
+    "Faqat suv bosimi hisobiga"
+   ],
+   "e": "Katta massa."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Arkali to'g'on qayerda qurish qulay?",
+   "a": [
+    "Tor va qoyali daralarda",
+    "Keng va tekis daryo vodiylarida",
+    "Qumli cho'llar o'rtasida",
+    "Botqoqli pasttekisliklarda"
+   ],
+   "e": "Kuchlar qirg'oqlarga uzatiladi."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Grunt (tuproq) to'g'onning afzalligi nima?",
+   "a": [
+    "Mahalliy materiallardan qurilishi",
+    "Faqat po'latdan qurilishi",
+    "Juda kam hajm talab qilishi",
+    "Suv o'tkazmasligi kafolati yo'qligi"
+   ],
+   "e": "Chorvoq — tosh-tuproq to'g'on."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Filtratsiya to'g'on uchun qanday xavf tug'diradi?",
+   "a": [
+    "Asos yuvilib, buzilish xavfi",
+    "To'g'on tanasini qo'shimcha mustahkamlaydi",
+    "Suv omborida suv sathini oshiradi",
+    "Elektr ishlab chiqarishni ko'paytiradi"
+   ],
+   "e": "Drenaj va ekran."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Suv olish inshooti vazifasi nima?",
+   "a": [
+    "Suvni olish va yo'naltirish",
+    "Suvni atmosferaga bug'latib yuborish",
+    "Suvni sovitib muzlatish",
+    "Elektr energiyasini uzatish"
+   ],
+   "e": "Bosh inshoot."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Bosimli quvur (turbina quvuri) vazifasi nima?",
+   "a": [
+    "Suvni turbinaga yetkazish",
+    "Ishlatilgan suvni turbinadan chiqarish",
+    "Bug'ni turbinaga yetkazish",
+    "Kompressorda havoni siqish"
+   ],
+   "e": "Derivatsion GESda."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Tenglashtiruvchi rezervuar nima uchun kerak?",
+   "a": [
+    "Gidravlik zarbani yumshatish",
+    "Tarmoq suvini isitish",
+    "Elektr energiyasini saqlash",
+    "Baliqlarni ko'paytirish"
+   ],
+   "e": "Derivatsiyada."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Nasos stansiyasining vazifasi nima?",
+   "a": [
+    "Suvni ko'tarish va haydash",
+    "Elektr energiyasini ishlab chiqarish",
+    "Suvni sovitib muzlatish",
+    "Qozonda bug' hosil qilish"
+   ],
+   "e": "Irrigatsiya va suv ta'minoti."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Amu-Buxoro kanali qaysi maqsadda qurilgan?",
+   "a": [
+    "Sug'orish uchun suv yetkazish",
+    "Faqat kema qatnovi uchun",
+    "Faqat elektr ishlab chiqarish uchun",
+    "Faqat baliq ovlash uchun"
+   ],
+   "e": "Yirik nasos stansiyalari bilan."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Qarshi magistral kanalining xususiyati nima?",
+   "a": [
+    "Nasos kaskadi bilan suv ko'tariladi",
+    "Suv faqat o'z og'irligi bilan oqadi",
+    "Kanal butunlay yer ostidan o'tadi",
+    "Bu kanal emas, elektr liniyasi"
+   ],
+   "e": "Qarshi cho'li."
+  },
+  {
+   "b": "Xavfsizlik va ekspluatatsiya",
+   "q": "Bosim ostida ishlaydigan idishlarni ishga tushirishdan oldin qanday sinov o'tkaziladi?",
+   "a": [
+    "Gidravlik sinov",
+    "Faqat ko'z bilan qarash",
+    "Faqat bo'yash",
+    "Faqat tozalash"
+   ],
+   "e": "Sinov bosimi bilan."
+  },
+  {
+   "b": "Xavfsizlik va ekspluatatsiya",
+   "q": "Qozonda suv sathi keskin pasayganda nima qilinadi?",
+   "a": [
+    "Yoqilg'i berish darhol to'xtatiladi",
+    "Qozonga sovuq suv tezda ko'p beriladi",
+    "Yonish jarayoni kuchaytiriladi",
+    "Saqlovchi klapan bekitib qo'yiladi"
+   ],
+   "e": "Portlash xavfi."
+  },
+  {
+   "b": "Xavfsizlik va ekspluatatsiya",
+   "q": "Issiqlik tarmoqlarida korroziyaning oldini olish usuli qaysi?",
+   "a": [
+    "Deaeratsiya va himoya qoplamalari",
+    "Suvga ataylab kislorod qo'shish",
+    "Quvurlarni ochiq havoda qoldirish",
+    "Issiqlik izolyatsiyasini olib tashlash"
+   ],
+   "e": "Ichki va tashqi korroziya."
+  },
+  {
+   "b": "Xavfsizlik va ekspluatatsiya",
+   "q": "Gaz qozonxonasida gaz hidi sezilganda birinchi navbatda nima qilinadi?",
+   "a": [
+    "Gazni to'xtatib, shamollatish",
+    "Chiroq yoqib, sizish joyini qidirish",
+    "Gugurt chaqib, sizishni tekshirish",
+    "Elektr jihozlarini yoqib ko'rish"
+   ],
+   "e": "Portlash xavfi."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Politropik jarayon nima?",
+   "a": [
+    "pVⁿ = const jarayoni",
+    "Faqat bosim o'zgarmaydigan jarayon",
+    "Faqat harorat o'zgarmaydigan jarayon",
+    "Faqat issiqlik almashinuvisiz jarayon"
+   ],
+   "e": "n — politropa ko'rsatkichi."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Adiabata ko'rsatkichi (k) havo uchun taxminan qancha?",
+   "a": [
+    "1,4",
+    "1,0",
+    "2,5",
+    "0,5"
+   ],
+   "e": "k = cp/cv."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Izotermik jarayonda ideal gazning ichki energiyasi qanday o'zgaradi?",
+   "a": [
+    "O'zgarmaydi",
+    "Ortadi",
+    "Kamayadi",
+    "Nolga teng bo'ladi"
+   ],
+   "e": "U faqat T ga bog'liq."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Adiabatik siqishda gaz harorati qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Ish ichki energiyaga aylanadi."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Ikkinchi tur abadiy dvigatelning mumkin emasligi qaysi qonundan kelib chiqadi?",
+   "a": [
+    "Termodinamikaning ikkinchi qonunidan",
+    "Termodinamikaning birinchi qonunidan",
+    "Nyutonning uchinchi qonunidan",
+    "Om qonunidan"
+   ],
+   "e": "Bitta manbadan ish olish mumkin emas."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Birinchi tur abadiy dvigatelning mumkin emasligi qaysi qonundan kelib chiqadi?",
+   "a": [
+    "Termodinamikaning birinchi qonunidan",
+    "Termodinamikaning ikkinchi qonunidan",
+    "Arximed qonunidan",
+    "Paskal qonunidan"
+   ],
+   "e": "Energiyani yo'qdan yaratib bo'lmaydi."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Gazlar aralashmasi uchun Dalton qonuni nimani bildiradi?",
+   "a": [
+    "Bosim parsial bosimlar yig'indisi",
+    "Umumiy bosim eng katta parsial bosimga teng",
+    "Bosim haroratga bog'liq emas",
+    "Bosim hajmga to'g'ri proporsional"
+   ],
+   "e": "p = Σpᵢ."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Nam havoning nisbiy namligi nima?",
+   "a": [
+    "Bug' parsial bosimining to'yinish bosimiga nisbati",
+    "Havo massasining hajmga nisbati",
+    "Havo haroratining bosimga nisbati",
+    "Suv massasining havo massasiga nisbati foizda emas"
+   ],
+   "e": "φ, %."
+  },
+  {
+   "b": "Texnik termodinamika",
+   "q": "Drossellash nima?",
+   "a": [
+    "Bosimning ish bajarmay pasayishi",
+    "Bosimning nasos bilan oshirilishi",
+    "Gazning izobarik qizdirilishi",
+    "Gazning izotermik siqilishi"
+   ],
+   "e": "Entalpiya o'zgarmaydi."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Ko'p qatlamli devorning umumiy termik qarshiligi qanday topiladi?",
+   "a": [
+    "Qatlamlar qarshiliklari yig'iladi",
+    "Eng katta qarshilik olinadi",
+    "Qarshiliklar ko'paytiriladi",
+    "Faqat birinchi qatlam hisobga olinadi"
+   ],
+   "e": "R = Σδᵢ/λᵢ."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Qora jism nima?",
+   "a": [
+    "Tushgan barcha nurlanishni yutuvchi jism",
+    "Tushgan barcha nurlanishni to'liq qaytaruvchi jism",
+    "Nurlanishni o'zidan to'liq o'tkazib yuboruvchi jism",
+    "Hech qanday harorat va nurlanishga ega bo'lmagan jism"
+   ],
+   "e": "Ideal nurlantirgich."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Qovurg'alash (rebra) issiqlik almashinuvchida nima uchun qo'llanadi?",
+   "a": [
+    "Issiqlik almashinuv yuzasini oshirish uchun",
+    "Issiqlik almashinuv yuzasini kamaytirish uchun",
+    "Issiqlik uzatishni butunlay to'xtatish uchun",
+    "Faqat tashqi ko'rinish va bezak uchun"
+   ],
+   "e": "Radiatorlarda."
+  },
+  {
+   "b": "Issiqlik uzatish",
+   "q": "Erkin konveksiya nimaning natijasida yuzaga keladi?",
+   "a": [
+    "Zichliklar farqi (harorat farqidan)",
+    "Nasos yoki ventilyatorning majburiy ishidan",
+    "Tashqi elektr maydonining ta'siridan",
+    "Tashqi magnit maydonining ta'siridan"
+   ],
+   "e": "Majburiyda — nasos, ventilyator."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Suyuqlikning zichligi qanday birlikda o'lchanadi?",
+   "a": [
+    "kg/m³",
+    "N/m",
+    "m/s²",
+    "Pa·s"
+   ],
+   "e": "Suv ~1000 kg/m³."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Pyezometr nima o'lchaydi?",
+   "a": [
+    "Bosimni ustun balandligi bilan",
+    "Suyuqlik haroratini",
+    "Suyuqlik tezligini elektr bilan",
+    "Suyuqlik rangini"
+   ],
+   "e": "Ochiq naycha."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Pito naychasi nima uchun ishlatiladi?",
+   "a": [
+    "Oqim tezligini o'lchash uchun",
+    "Quvurdagi bosimni oshirish uchun",
+    "Suyuqlikni isitish uchun",
+    "Suyuqlikni filtrlash uchun"
+   ],
+   "e": "To'liq va statik bosim farqi."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Nasosning so'rish balandligi nima bilan cheklanadi?",
+   "a": [
+    "Atmosfera bosimi va kavitatsiya bilan",
+    "Faqat nasos korpusining rangi bilan",
+    "Faqat bosimli quvurning uzunligi bilan",
+    "Hech narsa bilan cheklanmaydi"
+   ],
+   "e": "Nazariy ~10 m (suv uchun)."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Nasoslarni ketma-ket ulash nima beradi?",
+   "a": [
+    "Naporni oshiradi",
+    "Sarfni ikki baravar oshiradi",
+    "Naporni kamaytiradi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Parallel — sarfni oshiradi."
+  },
+  {
+   "b": "Gidravlika asoslari",
+   "q": "Nasoslarni parallel ulash nima beradi?",
+   "a": [
+    "Sarfni oshiradi",
+    "Faqat naporni oshiradi",
+    "Sarfni kamaytiradi",
+    "Quvvatni nolga tushiradi"
+   ],
+   "e": "Bir xil naporda."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Gidroenergetik resurslar qanday turlarga bo'linadi?",
+   "a": [
+    "Nazariy, texnik va iqtisodiy salohiyat",
+    "Faqat suv harorati bo'yicha tasnif",
+    "Faqat suvning rangi bo'yicha tasnif",
+    "Faqat daryodagi baliq turlari bo'yicha"
+   ],
+   "e": "Gidropotensial."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Kaskad GES nima?",
+   "a": [
+    "Ketma-ket GESlar tizimi",
+    "Faqat bitta yirik GES",
+    "Dengizdagi to'lqin stansiyasi",
+    "Quyosh va shamol stansiyasi"
+   ],
+   "e": "Masalan, Chirchiq-Bo'zsuv kaskadi."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Gidroturbinaning ishchi g'ildiragi nima vazifani bajaradi?",
+   "a": [
+    "Suv energiyasini aylanishga aylantiradi",
+    "Elektr energiyasini suvga beradi",
+    "Suvni isitadi",
+    "Suvni tozalaydi"
+   ],
+   "e": "Asosiy ishchi organ."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Turbinadan keyin suv qaysi qism orqali chiqadi?",
+   "a": [
+    "So'rish quvuri orqali",
+    "Spiral kamera orqali",
+    "Yo'naltiruvchi apparat orqali",
+    "Generator orqali"
+   ],
+   "e": "Kinetik energiyani qaytaradi."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Qaysi turbina Pelton turbinasi kabi aktiv turdagi hisoblanadi?",
+   "a": [
+    "Cho'michli turbina",
+    "Kaplan turbinasi",
+    "Frensis turbinasi",
+    "Propeller turbinasi"
+   ],
+   "e": "Bosim atmosfera bosimiga teng."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "GES ning o'rnatilgan quvvati nima?",
+   "a": [
+    "Agregatlar quvvatlari yig'indisi",
+    "Bir soatda ishlab chiqarilgan energiya",
+    "Bir yillik energiya miqdori",
+    "Eng kichik agregat quvvati"
+   ],
+   "e": "MVt da."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "O'rnatilgan quvvatdan foydalanish soati nimani bildiradi?",
+   "a": [
+    "Yillik ishlab chiqarish / o'rnatilgan quvvat",
+    "Generatorning aylanish chastotasini",
+    "Suv omborining hajmini",
+    "To'g'on balandligini"
+   ],
+   "e": "soat/yil."
+  },
+  {
+   "b": "Gidroenergetika",
+   "q": "Toshqin davrida GESda suv ortiqcha bo'lsa nima qilinadi?",
+   "a": [
+    "Suv tashlagich orqali o'tkaziladi",
+    "To'g'on ataylab buziladi",
+    "Turbinalar to'xtatiladi va suv to'planaveradi",
+    "Suv muzlatiladi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Quyosh elektr stansiyasining kamchiligi nima?",
+   "a": [
+    "Ishlab chiqarish kun va ob-havoga bog'liq",
+    "Kecha-kunduz doim bir xil quvvat beradi",
+    "Kechasi kunduzgidan ko'proq energiya beradi",
+    "Doimiy yoqilg'i yetkazib berishni talab qiladi"
+   ],
+   "e": "Akkumulyatsiya kerak."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Shamol turbinasining asosiy qismlari qaysilar?",
+   "a": [
+    "Rotor (parraklar), gondola, minora, generator",
+    "Qozon, kondensator va ta'minot nasosi",
+    "To'g'on, shlyuz va suv ombori",
+    "Reaktor, boshqaruv sterjeni va moderator"
+   ],
+   "e": "Shamol energetik qurilmasi."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "O'zbekistonda quyosh energetikasi uchun qulay omil qaysi?",
+   "a": [
+    "Yiliga 300 kundan ortiq quyoshli kunlar",
+    "Yil bo'yi doimiy bulutli ob-havo",
+    "Uzoq davom etadigan qutb kechasi",
+    "Deyarli har kuni yog'adigan yomg'ir"
+   ],
+   "e": "Yuqori insolyatsiya."
+  },
+  {
+   "b": "Qayta tiklanuvchi energetika",
+   "q": "Energiya akkumulyatsiyasi usuliga misol qaysi?",
+   "a": [
+    "Litiy-ion akkumulyatorlar va GAES",
+    "Faqat ko'mir saqlanadigan ochiq omborlar",
+    "Faqat izolyatsiyasiz ochiq quvurlar",
+    "Faqat izolyatsiyasiz mis simlar"
+   ],
+   "e": "Qayta tiklanuvchi manbalar bilan."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Dvigatelning litr quvvati nima?",
+   "a": [
+    "1 litr ishchi hajmga quvvat",
+    "Bir litr yoqilg'idan olinadigan quvvat",
+    "Moy hajmi",
+    "Sovutish suyuqligi hajmi"
+   ],
+   "e": "kVt/l."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Solishtirma yoqilg'i sarfi nima?",
+   "a": [
+    "1 kVt·soatga yoqilg'i massasi",
+    "Bir soatdagi umumiy yoqilg'i",
+    "Bir kilometrdagi yoqilg'i",
+    "Bak hajmi"
+   ],
+   "e": "g/(kVt·soat)."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Dvigatel sovitish tizimining vazifasi nima?",
+   "a": [
+    "Detallarni me'yoriy haroratda ushlash",
+    "Dvigatelni ataylab qizdirib yuborish",
+    "Yoqilg'ini silindrda yoqish",
+    "Kiritiladigan havoni siqish"
+   ],
+   "e": "Suyuqlik yoki havo bilan."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Moylash tizimining vazifasi nima?",
+   "a": [
+    "Ishqalanish va yeyilishni kamaytirish",
+    "Silindrdagi yoqilg'ini alangalatish",
+    "Kiritiladigan havoni changdan filtrlash",
+    "Qo'shimcha elektr energiyasi ishlab chiqarish"
+   ],
+   "e": "Shuningdek sovitish."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Vintli kompressor qaysi turga kiradi?",
+   "a": [
+    "Hajmiy (rotatsion) kompressor",
+    "Dinamik (markazdan qochma) kompressor",
+    "Ejektor",
+    "Ventilyator"
+   ],
+   "e": "Ikki vintli rotor."
+  },
+  {
+   "b": "Ichki yonuv dvigatellari va kompressorlar",
+   "q": "Kompressor quvvatini kamaytirish uchun qaysi jarayonga yaqinlashtirish foydali?",
+   "a": [
+    "Izotermik siqish",
+    "Adiabatik siqish (sovitishsiz)",
+    "Izoxorik qizdirish",
+    "Izobarik qizdirish"
+   ],
+   "e": "Eng kam ish sarfi."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Konditsionerning vazifasi nima?",
+   "a": [
+    "Havo harorati va namligini rostlash",
+    "Faqat elektr ishlab chiqarish",
+    "Faqat suvni qaynatish",
+    "Faqat ovoz kuchaytirish"
+   ],
+   "e": "Mikroiqlim."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Issiqlik nasosining samaradorlik koeffitsiyenti (COP) odatda qancha?",
+   "a": [
+    "3–5",
+    "0,1–0,3",
+    "50–100",
+    "Har doim 1"
+   ],
+   "e": "Iste'mol qilinganidan ko'p issiqlik beradi."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Issiqlik izolyatsiyalangan quvurlarning afzalligi nima?",
+   "a": [
+    "Issiqlik yo'qotishlari kamayadi",
+    "Issiqlik yo'qotishlari sezilarli ortadi",
+    "Quvurlar tezroq zanglab ishdan chiqadi",
+    "Tarmoqdagi suv tezroq soviydi"
+   ],
+   "e": "Energiya tejash."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Torf qaysi yoqilg'i turiga kiradi?",
+   "a": [
+    "Qattiq yoqilg'i",
+    "Suyuq yoqilg'i",
+    "Gazsimon yoqilg'i",
+    "Yadro yoqilg'isi"
+   ],
+   "e": "Eng yosh qazilma yoqilg'i."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Propan-butan aralashmasi qanday holatda saqlanadi?",
+   "a": [
+    "Suyultirilgan holda, bosim ostida",
+    "Faqat qattiq holda",
+    "Faqat ochiq idishda",
+    "Faqat muzlatilgan holda"
+   ],
+   "e": "Suyultirilgan neft gazi."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Yoqilg'idagi oltingugurt yonganda qanday zararli modda hosil bo'ladi?",
+   "a": [
+    "SO₂",
+    "O₂",
+    "N₂",
+    "H₂"
+   ],
+   "e": "Kislotali yomg'irlar."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Kul yoqilg'ining qaysi qismi?",
+   "a": [
+    "Yonmaydigan mineral qismi",
+    "Eng yonuvchan qismi",
+    "Gaz holidagi qismi",
+    "Suyuq qismi"
+   ],
+   "e": "Ballast."
+  },
+  {
+   "b": "Yoqilg'i va yonish",
+   "q": "Yoqilg'ining namligi yonishga qanday ta'sir qiladi?",
+   "a": [
+    "Yonish issiqligini kamaytiradi",
+    "Yonish issiqligini oshiradi",
+    "Ta'sir qilmaydi",
+    "Yonishni tezlashtiradi"
+   ],
+   "e": "Bug'lanishga issiqlik sarflanadi."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Qozonning bug' unumdorligi qanday birlikda o'lchanadi?",
+   "a": [
+    "t/soat",
+    "kVt/m",
+    "m/s",
+    "Pa·s"
+   ],
+   "e": "Soatiga bug' massasi."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Suv isituvchi qozonning bug' qozonidan farqi nima?",
+   "a": [
+    "Suvni qaynatmasdan isitadi",
+    "Faqat o'ta qizdirilgan bug' beradi",
+    "Faqat elektr ishlab chiqaradi",
+    "Faqat muz hosil qiladi"
+   ],
+   "e": "Issiqlik ta'minoti uchun."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Utilizator qozon nima?",
+   "a": [
+    "Chiqindi gazlar issiqligidan bug' hosil qiluvchi qozon",
+    "Faqat ko'mirda ishlaydigan qozon",
+    "Faqat elektr bilan isitiladigan qozon",
+    "Faqat quyosh bilan ishlaydigan qozon"
+   ],
+   "e": "BGQ da qo'llanadi."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Qozondan ketayotgan tutun gazlari harorati yuqori bo'lsa nima bo'ladi?",
+   "a": [
+    "Issiqlik yo'qotishi ortib, FIK pasayadi",
+    "FIK keskin oshadi",
+    "Yoqilg'i tejaladi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "q₂ — eng katta yo'qotish."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Mo'ri (dudbo'ron)ning vazifasi nima?",
+   "a": [
+    "Tutun gazlarini chiqarish va tortishni ta'minlash",
+    "Yoqilg'ini saqlash",
+    "Suvni isitish",
+    "Bug'ni sovitish"
+   ],
+   "e": "Tabiiy tortish."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Tutun so'rg'ich (dymosos) vazifasi nima?",
+   "a": [
+    "Tutun gazlarini majburiy so'rib chiqarish",
+    "Havoni o'txonaga haydash",
+    "Suvni qozonga haydash",
+    "Yoqilg'ini maydalash"
+   ],
+   "e": "Havo haydagich — ventilyator."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Qozonni \"puflash\" (produvka) nima uchun qilinadi?",
+   "a": [
+    "Qozon suvidagi tuz va shlamni chiqarish",
+    "Qozonni bo'yash",
+    "Qozonni isitish",
+    "Yoqilg'i qo'shish"
+   ],
+   "e": "Doimiy va davriy."
+  },
+  {
+   "b": "Qozon qurilmalari",
+   "q": "Ko'mir changsimon holda yoqilganda nima ishlatiladi?",
+   "a": [
+    "Ko'mir tegirmonlari",
+    "Faqat qo'lda yuklash",
+    "Faqat panjarali o'txona",
+    "Faqat suyuq gorelka"
+   ],
+   "e": "Yirik qozonlar."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Bug' turbinasining rotoriga nima mahkamlangan?",
+   "a": [
+    "Ishchi kuraklar",
+    "Soplo apparatlari",
+    "Kondensator quvurlari",
+    "Qozon barabani"
+   ],
+   "e": "Disklar va kuraklar."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Qarshi bosimli turbina nima?",
+   "a": [
+    "Ishlatilgan bug' iste'molchiga beriladigan turbina",
+    "Bug' to'liq kondensatorga yuboriladigan turbina",
+    "Suv bilan ishlaydigan turbina",
+    "Gaz bilan ishlaydigan turbina"
+   ],
+   "e": "Kondensatorsiz."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Turbinadan bug' olish (otbor) nima uchun qilinadi?",
+   "a": [
+    "Regenerativ isitish yoki iste'molchilar uchun",
+    "Turbinani to'xtatish uchun",
+    "Kondensatorni isitish uchun",
+    "Generatorni sovitish uchun"
+   ],
+   "e": "T va PT turbinalar."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Turbinani ishga tushirishdan oldin nima qilinadi?",
+   "a": [
+    "Asta-sekin qizdirish",
+    "Sovuq holda darhol to'liq yuklash",
+    "Moylashsiz ishga tushirish",
+    "Bug'ni maksimal bosimda birdaniga berish"
+   ],
+   "e": "Termik kuchlanishlarning oldini olish."
+  },
+  {
+   "b": "Turbinalar va issiqlik elektr stansiyalari",
+   "q": "Turbina ortiqcha tezlikka chiqsa nima ishga tushadi?",
+   "a": [
+    "Xavfsizlik avtomati (avtomat bezopasnosti)",
+    "Qo'shimcha bug' berish",
+    "Generator yuklamasi olib tashlanadi",
+    "Moylash o'chiriladi"
+   ],
+   "e": "Bug' berish to'xtatiladi."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Issiqlik tarmog'ining to'g'ri quvurida suv harorati qishda taxminan qancha bo'ladi?",
+   "a": [
+    "95–150 °C",
+    "10–20 °C",
+    "200–300 °C",
+    "0–5 °C"
+   ],
+   "e": "Harorat grafigi."
+  },
+  {
+   "b": "Issiqlik ta'minoti va sovutish",
+   "q": "Issiq suv ta'minotida suv harorati odatda qancha bo'lishi kerak?",
+   "a": [
+    "55–65 °C atrofida",
+    "5–10 °C",
+    "95–100 °C",
+    "30 °C dan oshmasligi"
+   ],
+   "e": "Sanitariya me'yorlari."
+  }
+ ]
+}
