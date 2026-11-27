@@ -96,7 +96,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
     ("til", "🗣 Tillar", ["ingliz_tili", "rus_tili", "nemis_tili", "ona_tili_adabiyot"]),
     ("ijt", "🏛 Ijtimoiy fanlar", ["tarix", "davlat_va_huquq_asoslari", "tarbiya", "biznes_asoslari"]),
     ("it", "💻 Axborot texnologiyalari", [
-        "dasturlash", "algoritmlar", "malumotlar_bazasi", "kompyuter_tarmoqlari", "kiberxavfsizlik",
+        "shaxsiy_kompyuter_arxitekturasi", "dasturlash", "algoritmlar", "malumotlar_bazasi", "kompyuter_tarmoqlari", "kiberxavfsizlik",
         "dasturiy_taminotni_testlash", "iqtisodiyotda_axborot_kommunikatsiya_tex",
         "qishloq_xojaligida_axborot_kommunikatsio", "qurilishda_axborot_texnologiyalari",
         "texnik_tizimlarda_at", "tibbiyotda_axborot_texnologiyalari", "muhandislik_grafikasi"]),

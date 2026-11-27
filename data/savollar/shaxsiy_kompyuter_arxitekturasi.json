@@ -1,0 +1,3342 @@
+{
+ "kod": "",
+ "nomi": "Shaxsiy kompyuter arxitekturasi va ofis jihozlariga texnik xizmat ko'rsatish",
+ "turi": "maxsus",
+ "manba": "Kompyuter arxitekturasi va texnik xizmat ko'rsatish bo'yicha kasb-hunar ta'limi o'quv dasturlari, ishlab chiqaruvchi qo'llanmalari (Intel, AMD, HP), CompTIA A+ mavzulari",
+ "savollar": [
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Axborot texnologiyalari nima?",
+   "a": [
+    "Axborot bilan ishlash usullari majmui",
+    "Faqat kompyuterlarni ta'mirlash va yig'ish jarayoni",
+    "Faqat telefon aloqasi xizmatlari",
+    "Faqat qog'oz hujjatlarni arxivlash"
+   ],
+   "e": "AKT — axborot-kommunikatsiya texnologiyalari."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Axborotning eng kichik o'lchov birligi qaysi?",
+   "a": [
+    "Bit",
+    "Bayt",
+    "Kilobayt",
+    "Gers"
+   ],
+   "e": "0 yoki 1."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "1 bayt necha bitga teng?",
+   "a": [
+    "8",
+    "2",
+    "10",
+    "1024"
+   ],
+   "e": "Bitta belgi kodlanadi."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "1 kilobayt necha baytga teng (ikkilik tizimda)?",
+   "a": [
+    "1024",
+    "1000",
+    "8",
+    "100"
+   ],
+   "e": "2¹⁰."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "1 gigabayt necha megabaytga teng?",
+   "a": [
+    "1024",
+    "1000 000",
+    "100",
+    "8"
+   ],
+   "e": "Ikkilik tizimda."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Kompyuterning markaziy protsessori qanday nomlanadi?",
+   "a": [
+    "CPU",
+    "GPU",
+    "RAM",
+    "SSD"
+   ],
+   "e": "Central Processing Unit."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Operativ xotira (RAM) qanday xususiyatga ega?",
+   "a": [
+    "Elektr o'chganda ma'lumot yo'qoladi",
+    "Ma'lumotni abadiy saqlaydi, elektrsiz ham",
+    "Faqat o'qish uchun mo'ljallangan",
+    "Faqat tashqi qurilmalarda bo'ladi"
+   ],
+   "e": "Energiyaga bog'liq xotira."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Ma'lumotlarni uzoq muddat saqlash qurilmasiga misol qaysi?",
+   "a": [
+    "Qattiq disk (HDD/SSD)",
+    "Operativ xotira (RAM)",
+    "Protsessor keshi",
+    "Monitor"
+   ],
+   "e": "Doimiy xotira."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Kiritish qurilmasiga misol qaysi?",
+   "a": [
+    "Klaviatura",
+    "Monitor",
+    "Printer",
+    "Karnay"
+   ],
+   "e": "Sichqoncha, skaner ham."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Chiqarish qurilmasiga misol qaysi?",
+   "a": [
+    "Printer",
+    "Klaviatura",
+    "Sichqoncha",
+    "Mikrofon"
+   ],
+   "e": "Monitor, karnay ham."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Operatsion tizimga misol qaysi?",
+   "a": [
+    "Windows",
+    "Microsoft Word",
+    "Google Chrome",
+    "Adobe Photoshop"
+   ],
+   "e": "Linux, macOS, Android ham."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Operatsion tizimning asosiy vazifasi nima?",
+   "a": [
+    "Resurslarni boshqarish",
+    "Faqat matn terish",
+    "Faqat rasm chizish",
+    "Faqat internetga ulanish"
+   ],
+   "e": "Foydalanuvchi va apparat orasida vositachi."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Amaliy dasturiy ta'minotga misol qaysi?",
+   "a": [
+    "Matn muharriri",
+    "BIOS",
+    "Drayver",
+    "Operatsion tizim yadrosi"
+   ],
+   "e": "Foydalanuvchi vazifalari uchun."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Fayl kengaytmasi \".xlsx\" qaysi dasturga tegishli?",
+   "a": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "PowerPoint",
+    "Paint"
+   ],
+   "e": "Elektron jadval."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "\".docx\" kengaytmali fayl qaysi dasturda ochiladi?",
+   "a": [
+    "Microsoft Word",
+    "Microsoft Excel",
+    "Windows Media Player",
+    "Paint"
+   ],
+   "e": "Matn hujjati."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "\".pptx\" kengaytmasi qaysi turdagi fayl?",
+   "a": [
+    "Taqdimot",
+    "Jadval",
+    "Rasm",
+    "Audio"
+   ],
+   "e": "PowerPoint."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "\".pdf\" formatining afzalligi nima?",
+   "a": [
+    "Ko'rinish o'zgarmaydi",
+    "Faylni har doim oson tahrirlash mumkin",
+    "Faqat rasm saqlaydi",
+    "Faqat audio saqlaydi"
+   ],
+   "e": "Portable Document Format."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Arxivlash dasturining vazifasi nima?",
+   "a": [
+    "Fayllarni siqish",
+    "Fayllarni butunlay o'chirish",
+    "Viruslarni yaratish",
+    "Rasmlarni bo'yash"
+   ],
+   "e": "ZIP, RAR, 7z."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Bulutli texnologiyalar nima?",
+   "a": [
+    "Masofaviy hisoblash va saqlash",
+    "Faqat ob-havo prognozi dasturlari",
+    "Faqat lokal disk",
+    "Faqat printerlar tarmog'i"
+   ],
+   "e": "Google Drive, OneDrive."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Ikkilik sanoq sistemasida qaysi raqamlar ishlatiladi?",
+   "a": [
+    "0 va 1",
+    "0 dan 9 gacha",
+    "1 va 2",
+    "A dan F gacha"
+   ],
+   "e": "Kompyuter ichki tili."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "O'nlik 5 soni ikkilik sistemada qanday yoziladi?",
+   "a": [
+    "101",
+    "110",
+    "111",
+    "100"
+   ],
+   "e": "4 + 1."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Ikkilik 1010 o'nlik sistemada qancha?",
+   "a": [
+    "10",
+    "12",
+    "8",
+    "5"
+   ],
+   "e": "8 + 2."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Axborotning xossalariga nima kiradi?",
+   "a": [
+    "Ishonchlilik, to'liqlik",
+    "Og'irlik, rang va hajm",
+    "Harorat va bosim",
+    "Uzunlik va kenglik"
+   ],
+   "e": "Foydalilik, tushunarlilik ham."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Ma'lumot va axborot farqi nima?",
+   "a": [
+    "Axborot — ma'no berilgan ma'lumot",
+    "Ma'lumot har doim axborotdan muhimroq",
+    "Ular mutlaqo bir xil",
+    "Axborot faqat raqamlar"
+   ],
+   "e": "Ma'lumot — xom faktlar."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Kompyuter avlodlari element bazasiga ko'ra qanday rivojlangan?",
+   "a": [
+    "Lampa → tranzistor → IS → mikroprotsessor",
+    "Mikroprotsessor → lampa → tranzistor",
+    "Faqat lampali kompyuterlar mavjud",
+    "Tranzistor → lampa → integral sxema"
+   ],
+   "e": "To'rt avlod."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Protsessor takt chastotasi qanday birlikda o'lchanadi?",
+   "a": [
+    "GGs",
+    "GB",
+    "Vt",
+    "dpi"
+   ],
+   "e": "Gigagers."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Monitorning ekran ruxsati nimani bildiradi?",
+   "a": [
+    "Piksellar sonini",
+    "Monitor og'irligini",
+    "Elektr sarfini",
+    "Ovoz balandligini"
+   ],
+   "e": "Masalan, 1920×1080."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Printerning sifat ko'rsatkichi qaysi?",
+   "a": [
+    "dpi (dyuymdagi nuqtalar)",
+    "GGs",
+    "Mbit/s",
+    "Vt"
+   ],
+   "e": "Ruxsat."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "USB nima?",
+   "a": [
+    "Universal port",
+    "Operatsion tizim turi",
+    "Dasturlash tili",
+    "Antivirus dasturi"
+   ],
+   "e": "Universal Serial Bus."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Fleshka qanday xotira turiga kiradi?",
+   "a": [
+    "Flesh-xotira (doimiy)",
+    "Operativ xotira",
+    "Protsessor keshi",
+    "Videoxotira"
+   ],
+   "e": "Elektrsiz ham saqlaydi."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "SSD ning HDD ga nisbatan afzalligi nima?",
+   "a": [
+    "Tezroq va zarbaga chidamli",
+    "Har doim arzonroq va katta hajmli",
+    "Magnit disklar asosida ishlaydi",
+    "Elektrsiz ishlaydi"
+   ],
+   "e": "Harakatlanuvchi qismlari yo'q."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Drayver nima?",
+   "a": [
+    "Qurilma dasturi",
+    "Kompyuter korpusidagi vint",
+    "Matn muharriri",
+    "Antivirus bazasi"
+   ],
+   "e": "Printer, videokarta drayverlari."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Litsenziyali dasturiy ta'minot nima?",
+   "a": [
+    "Qonuniy dastur",
+    "Ruxsatsiz nusxalangan dastur",
+    "Virusli dastur",
+    "Faqat bepul o'yin"
+   ],
+   "e": "Mualliflik huquqi."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Ochiq kodli dasturga misol qaysi?",
+   "a": [
+    "Linux",
+    "Microsoft Windows",
+    "Adobe Photoshop",
+    "Microsoft Office"
+   ],
+   "e": "LibreOffice, Firefox ham."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Fayl nima?",
+   "a": [
+    "Nomlangan ma'lumotlar",
+    "Kompyuter korpusi",
+    "Klaviatura tugmasi",
+    "Monitor ekrani"
+   ],
+   "e": "Nom va kengaytma."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Papka (katalog) nima uchun ishlatiladi?",
+   "a": [
+    "Fayllarni guruhlash uchun",
+    "Fayllarni o'chirish uchun",
+    "Internetga ulanish uchun",
+    "Ovoz yozish uchun"
+   ],
+   "e": "Ierarxik tuzilma."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "\"Savat\" (Korzina) nima?",
+   "a": [
+    "O'chirilganlar joyi",
+    "Internet do'konidagi xaridlar savati",
+    "Kompyuterdagi antivirus dasturi",
+    "Printerga yuborilgan hujjatlar navbati"
+   ],
+   "e": "Tiklash mumkin."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Algoritm nima?",
+   "a": [
+    "Aniq qadamlar ketma-ketligi",
+    "Kompyuterning ichki qurilmasi",
+    "Faylning maxsus turi va kengaytmasi",
+    "Kompyuter tarmog'ining bir turi"
+   ],
+   "e": "Chiziqli, tarmoqlanuvchi, takrorlanuvchi."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Dasturlash tiliga misol qaysi?",
+   "a": [
+    "Python",
+    "Excel",
+    "Windows",
+    "Chrome"
+   ],
+   "e": "Java, C++ ham."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Blok-sxemada romb shakli nimani bildiradi?",
+   "a": [
+    "Shart (tarmoqlanish)",
+    "Boshlanish",
+    "Kiritish",
+    "Hisoblash"
+   ],
+   "e": "Ha/yo'q chiqishlari."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "1011₂ sonini o'nlik sanoq sistemasida yozing.",
+   "a": [
+    "11",
+    "13",
+    "9",
+    "10"
+   ],
+   "e": "8+0+2+1 = 11."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "25₁₀ sonini ikkilik sanoq sistemasida yozing.",
+   "a": [
+    "11001",
+    "10101",
+    "11011",
+    "10011"
+   ],
+   "e": "16+8+1 = 25."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "1F₁₆ sonining o'nlik qiymati qancha?",
+   "a": [
+    "31",
+    "15",
+    "16",
+    "32"
+   ],
+   "e": "16+15 = 31."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "17₈ sonining o'nlik qiymati qancha?",
+   "a": [
+    "15",
+    "17",
+    "13",
+    "9"
+   ],
+   "e": "8+7 = 15."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "O'n oltilik sanoq sistemasida \"A\" raqami nechaga teng?",
+   "a": [
+    "10",
+    "11",
+    "1",
+    "16"
+   ],
+   "e": "A=10, ..., F=15."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "Sakkizlik sanoq sistemasida nechta raqam ishlatiladi?",
+   "a": [
+    "8 ta (0–7)",
+    "7 ta (1–7)",
+    "10 ta (0–9)",
+    "16 ta"
+   ],
+   "e": "Asos 8."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "Ikkilik sistemada 111 + 1 natijasi qanday?",
+   "a": [
+    "1000",
+    "1110",
+    "112",
+    "1111"
+   ],
+   "e": "7 + 1 = 8."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "Bir bayt bilan nechta turli qiymatni kodlash mumkin?",
+   "a": [
+    "256",
+    "255",
+    "128",
+    "512"
+   ],
+   "e": "2⁸ = 256."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "Mantiqiy \"VA\" (AND) amali qachon rost qiymat beradi?",
+   "a": [
+    "Ikkala operand rost bo'lganda",
+    "Kamida bittasi rost bo'lganda",
+    "Ikkalasi yolg'on bo'lganda",
+    "Har doim"
+   ],
+   "e": "Kon'yunksiya."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "Mantiqiy \"YOKI\" (OR) amali qachon yolg'on qiymat beradi?",
+   "a": [
+    "Ikkala operand yolg'on bo'lganda",
+    "Ikkalasi rost bo'lganda",
+    "Bittasi rost bo'lganda",
+    "Hech qachon"
+   ],
+   "e": "Diz'yunksiya."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "\"INKOR\" (NOT) amali rost qiymatga qo'llansa nima hosil bo'ladi?",
+   "a": [
+    "Yolg'on",
+    "Rost",
+    "Noaniq",
+    "Nol va bir"
+   ],
+   "e": "Inversiya."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "A = 1, B = 0 bo'lsa, A AND B qiymati qancha?",
+   "a": [
+    "0",
+    "1",
+    "2",
+    "Aniqlab bo'lmaydi"
+   ],
+   "e": "Ikkalasi 1 bo'lishi kerak."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "A = 1, B = 0 bo'lsa, A XOR B qiymati qancha?",
+   "a": [
+    "1",
+    "0",
+    "2",
+    "Aniqlab bo'lmaydi"
+   ],
+   "e": "Qiymatlar farqli bo'lsa — 1."
+  },
+  {
+   "b": "Sanoq sistemalari va mantiqiy asoslar",
+   "q": "Axborot miqdorining eng kichik o'lchov birligi qaysi?",
+   "a": [
+    "Bit",
+    "Bayt",
+    "Kilobayt",
+    "Herts"
+   ],
+   "e": "1 bayt = 8 bit."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Ethernet tarmoqlarida keng tarqalgan kabel turi qaysi?",
+   "a": [
+    "Buralgan juftlik (UTP)",
+    "Koaksial televizor kabeli",
+    "Telefon kabeli bir juftli",
+    "Elektr tarmog'i kabeli"
+   ],
+   "e": "RJ-45 ulagichi bilan."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Cat5e kabeli qanday maksimal tezlikni qo'llab-quvvatlaydi?",
+   "a": [
+    "1 Gbit/s",
+    "10 Mbit/s",
+    "100 Gbit/s",
+    "10 Gbit/s 100 m da"
+   ],
+   "e": "Segment uzunligi 100 m gacha."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Buralgan juftlik kabel segmentining standart maksimal uzunligi qancha?",
+   "a": [
+    "100 m",
+    "10 m",
+    "1 km",
+    "500 m"
+   ],
+   "e": "Undan uzoqqa kommutator yoki optika kerak."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Optik tolali kabelning afzalligi nima?",
+   "a": [
+    "Uzoq masofa, yuqori tezlik va xalaqitga chidamlilik",
+    "Arzonligi va oddiy mis kabel kabi oson payvandlanishi",
+    "Elektr tokini uzatishi",
+    "Faqat qisqa masofada ishlashi"
+   ],
+   "e": "Yorug'lik signali orqali."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Bir modali (single-mode) optik tola ko'p modalidan nimasi bilan farq qiladi?",
+   "a": [
+    "Uzoqroq masofaga uzatadi, yadrosi ingichka",
+    "Faqat qisqa masofada ishlaydi va yadrosi yo'g'on",
+    "Elektr tokini o'tkazadi",
+    "Farqi yo'q"
+   ],
+   "e": "Ko'p modali — bino ichida qisqa masofalar."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "T568B standartida RJ-45 ulagichning 1-simi qanday rangda?",
+   "a": [
+    "Oq-to'q sariq",
+    "Oq-yashil",
+    "Ko'k",
+    "Jigarrang"
+   ],
+   "e": "T568A da 1-sim — oq-yashil."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "To'g'ri (straight-through) kabel qaysi qurilmalarni ulash uchun ishlatiladi?",
+   "a": [
+    "Kompyuter va kommutator",
+    "Ikki kompyuterni to'g'ridan-to'g'ri (Auto MDI-X bo'lmaganda)",
+    "Ikki kommutatorni (eski qurilmalarda)",
+    "Ikki routerni"
+   ],
+   "e": "Turli turdagi qurilmalar uchun."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Ethernet da standart MTU qiymati qancha?",
+   "a": [
+    "1500 bayt",
+    "64 bayt",
+    "9000 bayt har doim",
+    "65535 bayt"
+   ],
+   "e": "Jumbo kadrlar 9000 baytgacha."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Duplex rejimi \"full-duplex\" nimani anglatadi?",
+   "a": [
+    "Bir vaqtda ikki yo'nalishda uzatish",
+    "Faqat bir yo'nalishda uzatish",
+    "Navbat bilan ikki yo'nalishda",
+    "Umuman uzatmaslik"
+   ],
+   "e": "Half-duplex — navbat bilan."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "PoE texnologiyasi nima?",
+   "a": [
+    "Ethernet kabeli orqali elektr ta'minoti berish",
+    "Optik tola orqali yuqori sifatli video va ovoz uzatish",
+    "Wi-Fi tezligini oshirish",
+    "Kabelni yerga ulash"
+   ],
+   "e": "IP kameralar, kirish nuqtalari uchun."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Koaksial kabel hozirda asosan qayerda ishlatiladi?",
+   "a": [
+    "Televideniye va kabel internetida",
+    "Zamonaviy ofis lokal tarmoqlarida asosiy kabel sifatida",
+    "Kompyuter ichida",
+    "Faqat telefonda"
+   ],
+   "e": "Eski Ethernet (10BASE2) da ishlatilgan."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Kabelning ishlashini tekshirish uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Kabel testeri",
+    "Lyuksmetr (yorug'lik o'lchagich)",
+    "Termometr",
+    "Barometr"
+   ],
+   "e": "Juftliklar ulanishini tekshiradi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "RJ-45 ulagichni kabelga mahkamlash uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Krimper (objim)",
+    "Payvand apparati",
+    "Lehim (kavsharlagich)",
+    "Bolg'a"
+   ],
+   "e": "Ulagich kontaktlarini simlarga bosadi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Ekranlangan buralgan juftlik qanday belgilanadi?",
+   "a": [
+    "STP (yoki FTP)",
+    "UTP",
+    "PoE",
+    "SFP"
+   ],
+   "e": "Elektromagnit xalaqitlardan himoyalangan."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "SFP moduli nima uchun ishlatiladi?",
+   "a": [
+    "Almashtiriladigan optik/mis modul ulash",
+    "Kompyuterga Ethernet kabeli orqali elektr ta'minoti berish",
+    "Wi-Fi signalini kuchaytirish",
+    "Tarmoq kabelini kesish"
+   ],
+   "e": "Small Form-factor Pluggable."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Signalning masofa bo'yicha susayishi qanday nomlanadi?",
+   "a": [
+    "So'nish (attenuatsiya)",
+    "Kuchayish (amplifikatsiya)",
+    "Kodlash",
+    "Modulyatsiya"
+   ],
+   "e": "Takrorlagichlar signalni tiklaydi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Takrorlagich (repeater) nima qiladi?",
+   "a": [
+    "Signalni kuchaytirib, masofani oshiradi",
+    "Paketlarni IP-manzil bo'yicha tegishli tarmoqqa yo'naltiradi",
+    "MAC-manzillarni o'qiydi",
+    "Ma'lumotlarni shifrlaydi"
+   ],
+   "e": "Fizik sath qurilmasi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Cat6 kabeli 10 Gbit/s tezlikni qancha masofagacha ta'minlaydi?",
+   "a": [
+    "55 m gacha",
+    "1000 m gacha, xuddi optik tola kabi",
+    "5 m gacha",
+    "500 m gacha"
+   ],
+   "e": "Cat6a — 100 m gacha."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Optik tolada ma'lumot qanday uzatiladi?",
+   "a": [
+    "Yorug'lik impulslari",
+    "Elektr toki impulslari",
+    "Radioto'lqinlar",
+    "Tovush to'lqinlari"
+   ],
+   "e": "To'liq ichki qaytish hodisasi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Media konverter nima uchun ishlatiladi?",
+   "a": [
+    "Optik va mis kabel orasida signalni o'zgartirish",
+    "Videoni bir formatdan boshqasiga o'girish",
+    "Musiqa fayllarini siqib, hajmini kamaytirish",
+    "Rasmlarning o'lchamini avtomatik o'zgartirish"
+   ],
+   "e": "Masalan, SFP dan RJ-45 ga."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Tarmoq kartasi (NIC) nima?",
+   "a": [
+    "Kompyuterni tarmoqqa ulovchi qurilma",
+    "Kompyuterning grafik protsessori",
+    "Qo'shimcha operativ xotira moduli",
+    "Elektr ta'minoti bloki va uning kabeli"
+   ],
+   "e": "Har birida noyob MAC-manzil bor."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Gigabit Ethernet tezligi qancha?",
+   "a": [
+    "1000 Mbit/s",
+    "100 Mbit/s (Fast Ethernet)",
+    "10 Mbit/s",
+    "10 000 Mbit/s"
+   ],
+   "e": "1 Gbit/s."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Bit uzatish tezligi va o'tkazish qobiliyati qanday birlikda o'lchanadi?",
+   "a": [
+    "bit/s",
+    "Bayt/kg",
+    "Gers/metr",
+    "Vatt"
+   ],
+   "e": "Mbit/s, Gbit/s."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Kechikish (latency) nima?",
+   "a": [
+    "Ma'lumot manbadan manzilgacha yetish vaqti",
+    "Uzatilayotgan ma'lumotning umumiy hajmi",
+    "Kabelning metrlardagi uzunligi",
+    "Tarmoqdagi faol qurilmalar soni"
+   ],
+   "e": "Millisekundlarda o'lchanadi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Jitter nima?",
+   "a": [
+    "Kechikishning o'zgaruvchanligi",
+    "Kabelning uzilishi",
+    "Paket hajmi",
+    "IP-manzil turi"
+   ],
+   "e": "VoIP sifatiga ta'sir qiladi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Paket yo'qolishi (packet loss) nima sababdan yuz beradi?",
+   "a": [
+    "Tarmoq yuklamasi yoki nosozlik",
+    "Kabelning to'g'ri va mahkam ulanganligi",
+    "Simsiz signalning juda yaxshi bo'lishi",
+    "Tarmoqda hech qanday trafik yo'qligi"
+   ],
+   "e": "Qayta uzatish yoki sifat pasayishiga olib keladi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Wi-Fi va Ethernet tezliklarini taqqoslaganda odatda qaysi biri barqarorroq?",
+   "a": [
+    "Ethernet",
+    "Wi-Fi, chunki unda kabel yo'q va xalaqitlar bo'lmaydi",
+    "Ikkalasi har doim bir xil",
+    "Hech biri"
+   ],
+   "e": "Simli ulanishda xalaqit kam."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Kabel kanalida tarmoq kabelini elektr kabeli bilan birga yotqizish nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Elektromagnit xalaqit",
+    "Kabel rangi o'zgarib qoladi",
+    "Kabel og'irlashadi",
+    "Kabel qisqaradi"
+   ],
+   "e": "Ajratish yoki ekranlangan kabel ishlatiladi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Patch-panel nima uchun ishlatiladi?",
+   "a": [
+    "Kabellarni tartibli ulash va boshqarish",
+    "Kompyuterlarni elektr bilan ta'minlash",
+    "Wi-Fi signalini xonalarga tarqatish",
+    "Ma'lumotlarni uzoq muddat saqlash"
+   ],
+   "e": "Server shkafida o'rnatiladi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Server shkafi (rack) o'lchov birligi qanday nomlanadi?",
+   "a": [
+    "U (unit)",
+    "Metr kvadrat",
+    "Litr",
+    "Kilogramm"
+   ],
+   "e": "1U = 44,45 mm."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Optik kabel ulagichlaridan biri qaysi?",
+   "a": [
+    "LC",
+    "RJ-11 (telefon ulagichi)",
+    "USB-A",
+    "HDMI"
+   ],
+   "e": "SC, ST ham optik ulagichlar."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Kabel kesishuvi (crossover) da qaysi juftliklar almashtiriladi (100BASE-TX)?",
+   "a": [
+    "Uzatish va qabul qilish juftliklari",
+    "Barcha sakkiz sim tasodifiy tartibda",
+    "Faqat jigarrang juftlik",
+    "Hech narsa almashtirilmaydi"
+   ],
+   "e": "1-2 va 3-6 simlar."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Auto MDI-X funksiyasi nima beradi?",
+   "a": [
+    "Kabel turini avtomatik aniqlash",
+    "Tarmoq tezligini 10 baravar oshirish",
+    "Wi-Fi ni avtomatik yoqish",
+    "IP-manzil berish"
+   ],
+   "e": "To'g'ri yoki kesishgan kabelni farqlamaslik."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Tarmoq kabelini oyoq osti yoki eshik ostidan o'tkazish nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Kabel shikastlanadi",
+    "Kabel ancha tezroq ishlay boshlaydi",
+    "Kabel rangi o'zgaradi",
+    "Hech qanday muammo yo'q"
+   ],
+   "e": "Kabel kanallari ishlatiladi."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Tarmoq kabeli uchun egilish radiusi nima uchun muhim?",
+   "a": [
+    "Ortiqcha egilish signalni buzadi",
+    "Kabel qancha ko'p egilsa, shuncha tez ishlaydi",
+    "Egilish ahamiyatsiz",
+    "Faqat elektr kabellari uchun"
+   ],
+   "e": "Ayniqsa optik tolalar uchun."
+  },
+  {
+   "b": "Tarmoq jihozlari va kabellar",
+   "q": "Tarmoq indikatori (port chirog'i) yonmasa, ehtimoliy sabab nima?",
+   "a": [
+    "Kabel yoki port nosozligi",
+    "Kompyuter juda tez ishlayotgani",
+    "Monitor o'chiqligi",
+    "Printer qog'ozsizligi"
+   ],
+   "e": "Link chirog'i fizik ulanishni ko'rsatadi."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Fon Neyman arxitekturasining asosiy tamoyili qaysi?",
+   "a": [
+    "Dastur va ma'lumotlar bitta xotirada saqlanadi",
+    "Dastur va ma'lumotlar alohida xotiralarda saqlanadi",
+    "Kompyuter faqat analog signal bilan ishlaydi",
+    "Protsessor xotirasiz ishlaydi"
+   ],
+   "e": "Saqlanuvchi dastur tamoyili."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Garvard arxitekturasining Fon Neyman arxitekturasidan farqi nima?",
+   "a": [
+    "Buyruqlar va ma'lumotlar uchun alohida xotira va shina",
+    "Bitta umumiy xotira va bitta umumiy shina ishlatiladi",
+    "Protsessor o'rniga analog hisoblagich ishlatiladi",
+    "Faqat o'nlik sanoq tizimida hisoblash bajariladi"
+   ],
+   "e": "Mikrokontrollerlarda keng tarqalgan."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Protsessorning arifmetik va mantiqiy amallarni bajaruvchi qismi qanday ataladi?",
+   "a": [
+    "ALU",
+    "Boshqaruv qurilmasi",
+    "Kesh xotira",
+    "Shina kontrolleri"
+   ],
+   "e": "Arithmetic Logic Unit."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Protsessorning boshqaruv qurilmasi nima qiladi?",
+   "a": [
+    "Buyruqlarni dekodlab, bajarilishini boshqaradi",
+    "Ma'lumotlarni uzoq muddat saqlab turadi",
+    "Tayyor tasvirni monitorga chiqaradi",
+    "Elektr tokini kerakli kuchlanishga o'zgartiradi"
+   ],
+   "e": "Control Unit."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Registr nima?",
+   "a": [
+    "Protsessor ichidagi eng tezkor kichik xotira",
+    "Qattiq diskdagi yashirin tizim bo'limi",
+    "Tashqi qurilmalarni ulash uchun mo'ljallangan port",
+    "Operatsion tizimning sozlamalar fayli"
+   ],
+   "e": "Ma'lumotlar bevosita registrlarda qayta ishlanadi."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Kesh xotiraning vazifasi nima?",
+   "a": [
+    "Tez-tez kerak bo'ladigan ma'lumotni tez berish",
+    "Fayllarni elektr o'chganda ham saqlash",
+    "Kompyuterni zaxira elektr bilan ta'minlash",
+    "Tasvirni qayta ishlab monitorga uzatish"
+   ],
+   "e": "Protsessor va RAM orasidagi bufer."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Kesh xotiraning qaysi darajasi protsessor yadrosiga eng yaqin va eng tez?",
+   "a": [
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+   ],
+   "e": "L1 — eng kichik va eng tez."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Ko'p yadroli protsessorning afzalligi nima?",
+   "a": [
+    "Bir vaqtda bir nechta vazifani parallel bajaradi",
+    "Elektr energiyasini deyarli iste'mol qilmaydi",
+    "Operativ xotira umuman kerak bo'lmaydi",
+    "Faqat bitta dasturni tezroq ishga tushiradi"
+   ],
+   "e": "Parallel hisoblash."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Hyper-Threading (SMT) texnologiyasi nima beradi?",
+   "a": [
+    "Bir yadroda ikki oqimni bajarish",
+    "Protsessor chastotasini ikki baravar oshirish",
+    "Kesh hajmini oshirish",
+    "Protsessorni sovitish"
+   ],
+   "e": "Mantiqiy yadrolar soni ikki baravar."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Protsessor razryadliligi (32/64 bit) nimani bildiradi?",
+   "a": [
+    "Bir taktda qayta ishlanadigan bitlar sonini",
+    "Protsessordagi yadrolar sonini",
+    "Kesh xotiraning umumiy hajmini",
+    "Protsessor korpusining o'lchamini"
+   ],
+   "e": "64-bitli tizim 4 GB dan ko'p RAM bilan ishlaydi."
+  },
+  {
+   "b": "Protsessor",
+   "q": "32-bitli operatsion tizim odatda qancha RAM ni bevosita adreslay oladi?",
+   "a": [
+    "4 GB gacha",
+    "64 GB gacha",
+    "1 TB gacha",
+    "512 MB gacha"
+   ],
+   "e": "2³² bayt = 4 GB."
+  },
+  {
+   "b": "Protsessor",
+   "q": "x86 arxitekturasi qaysi turdagi buyruqlar to'plamiga kiradi?",
+   "a": [
+    "CISC",
+    "RISC",
+    "VLIW",
+    "MISC"
+   ],
+   "e": "Murakkab buyruqlar to'plami."
+  },
+  {
+   "b": "Protsessor",
+   "q": "ARM protsessorlari qaysi arxitektura turiga mansub?",
+   "a": [
+    "RISC",
+    "CISC",
+    "Analog",
+    "Kvant"
+   ],
+   "e": "Qisqartirilgan buyruqlar to'plami; smartfonlarda keng."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Protsessorning TDP ko'rsatkichi nimani bildiradi?",
+   "a": [
+    "Issiqlik ajralishi (sovutish talabi), Vt",
+    "Protsessorning maksimal takt chastotasini",
+    "Uchinchi darajali kesh hajmini",
+    "Yadrolar va oqimlar sonini"
+   ],
+   "e": "Thermal Design Power."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Protsessor sokketi nima?",
+   "a": [
+    "Protsessor o'rnatiladigan uyacha",
+    "Operativ xotira moduli",
+    "Quvvat bloki ulagichi",
+    "Videokarta porti"
+   ],
+   "e": "Masalan, LGA1700, AM5."
+  },
+  {
+   "b": "Protsessor",
+   "q": "LGA turidagi sokketda kontakt nozik \"ignalar\" qayerda joylashgan?",
+   "a": [
+    "Ona platadagi sokketda",
+    "Protsessorning pastki yuzasida",
+    "Kulerning tagidagi plastinada",
+    "Operativ xotira modulida"
+   ],
+   "e": "Land Grid Array."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Protsessor va kuler orasiga termopasta nima uchun surtiladi?",
+   "a": [
+    "Issiqlik uzatilishini yaxshilash uchun",
+    "Protsessorni sokketga yopishtirib qo'yish uchun",
+    "Kulerga elektr tokini o'tkazish uchun",
+    "Protsessorni chang va namlikdan himoyalash uchun"
+   ],
+   "e": "Mikroskopik bo'shliqlarni to'ldiradi."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Protsessor qizib ketganda tizim qanday himoya choralarini ko'radi?",
+   "a": [
+    "Chastotani pasaytiradi yoki o'chadi",
+    "Chastotani avtomatik oshirib, tezlikni ko'taradi",
+    "Hech qanday himoya chorasini ko'rmaydi",
+    "Faqat videokartani o'chirib qo'yadi"
+   ],
+   "e": "Throttling va avariya o'chishi."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Overklokinq nima?",
+   "a": [
+    "Chastotani nominaldan oshirish",
+    "Kompyuterni changdan tozalash",
+    "Operatsion tizimni qayta o'rnatish",
+    "Protsessorni almashtirish"
+   ],
+   "e": "Qizish va beqarorlik xavfi bor."
+  },
+  {
+   "b": "Protsessor",
+   "q": "Integratsiyalashgan grafik yadro (iGPU) qayerda joylashadi?",
+   "a": [
+    "Protsessor kristalida",
+    "Alohida diskret videokartada",
+    "Quvvat blokining ichida",
+    "Qattiq diskning kontrollerida"
+   ],
+   "e": "Alohida videokartasiz tasvir chiqaradi."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Ona plataning asosiy vazifasi nima?",
+   "a": [
+    "Barcha komponentlarni o'zaro bog'lash",
+    "Ma'lumotlarni uzoq muddat saqlash",
+    "Hujjatlarni qog'ozga chop etish",
+    "Elektr tarmog'idagi sakrashlardan himoyalash"
+   ],
+   "e": "Motherboard — tizimning asosi."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Chipset nima?",
+   "a": [
+    "Ma'lumot almashuvini boshqaruvchi mikrosxemalar",
+    "Protsessorning bir turi",
+    "Operativ xotira moduli",
+    "Kuler turi"
+   ],
+   "e": "Ona plata imkoniyatlarini belgilaydi."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Zamonaviy kompyuterlarda shimoliy ko'prik (northbridge) vazifalari asosan qayerga o'tgan?",
+   "a": [
+    "Protsessorning ichiga",
+    "Quvvat blokining ichiga",
+    "Qattiq disk kontrolleriga",
+    "Monitorning boshqaruv platasiga"
+   ],
+   "e": "Xotira va PCIe kontrolleri protsessorda."
+  },
+  {
+   "b": "Ona plata",
+   "q": "ATX nima?",
+   "a": [
+    "Standart form-faktor",
+    "Protsessor turi",
+    "Operativ xotira turi",
+    "Fayl tizimi"
+   ],
+   "e": "Standart o'lcham 305×244 mm."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Mini-ITX form-faktori qanday ona plata?",
+   "a": [
+    "Kichik o'lchamli (170×170 mm)",
+    "Eng katta o'lchamli server platasi",
+    "Faqat noutbuklar uchun mo'ljallangan",
+    "Faqat ikki protsessorli platalar"
+   ],
+   "e": "Ixcham kompyuterlar uchun."
+  },
+  {
+   "b": "Ona plata",
+   "q": "PCI Express (PCIe) sloti asosan nima uchun ishlatiladi?",
+   "a": [
+    "Kengaytirish platalari uchun",
+    "Operativ xotira modullari uchun",
+    "Protsessorni o'rnatish uchun",
+    "Quvvat kabelini ulash uchun"
+   ],
+   "e": "x1, x4, x8, x16 variantlari bor."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Videokarta odatda qaysi slotga o'rnatiladi?",
+   "a": [
+    "PCIe x16",
+    "DIMM",
+    "SATA",
+    "M.2 Key B"
+   ],
+   "e": "Eng ko'p liniyali slot."
+  },
+  {
+   "b": "Ona plata",
+   "q": "CMOS batareyasi (CR2032) nima vazifani bajaradi?",
+   "a": [
+    "BIOS sozlamalari va soatni saqlaydi",
+    "Kompyuterni to'liq elektr bilan ta'minlaydi",
+    "Protsessorni qo'shimcha sovitadi",
+    "Qattiq disk motorini aylantiradi"
+   ],
+   "e": "Kompyuter o'chiq paytda."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Kompyuter o'chirilganda har safar sana va vaqt noto'g'ri bo'lib qolsa, sabab nima?",
+   "a": [
+    "CMOS batareyasi tugagan",
+    "Monitor kabeli shikastlangan",
+    "Klaviatura drayveri o'chib qolgan",
+    "Sichqoncha portga yaxshi ulanmagan"
+   ],
+   "e": "Batareyani almashtirish kerak."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Ona platadagi M.2 ulagichiga asosan nima o'rnatiladi?",
+   "a": [
+    "SSD nakopitel",
+    "Operativ xotira DIMM",
+    "Protsessor",
+    "Quvvat bloki"
+   ],
+   "e": "NVMe yoki SATA SSD."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Ona plata ATX 24-pin ulagichi nima uchun?",
+   "a": [
+    "Ona platani quvvatlash uchun",
+    "Monitorni ona plataga ulash uchun",
+    "Tarmoq kabelini ulash uchun",
+    "Klaviatura va sichqonchani ulash uchun"
+   ],
+   "e": "Asosiy quvvat ulagichi."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Protsessorni qo'shimcha quvvatlash uchun ona platadagi qaysi ulagich ishlatiladi?",
+   "a": [
+    "EPS 4+4 pin (CPU)",
+    "SATA",
+    "Molex",
+    "USB"
+   ],
+   "e": "12 V protsessor quvvati."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Front panel (F_PANEL) kontaktlariga nima ulanadi?",
+   "a": [
+    "Quvvat va reset tugmalari, indikatorlar",
+    "Videokarta va uning qo'shimcha quvvati",
+    "Operativ xotira modullari",
+    "Qattiq diskning ma'lumot kabeli"
+   ],
+   "e": "Korpusning old paneli."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Ona plata ustidagi kondensatorlar shishib qolsa, bu nimani bildiradi?",
+   "a": [
+    "Ular nosoz va almashtirish kerak",
+    "Bu normal holat, e'tibor berish shart emas",
+    "Plata tezligi oshganini bildiradi",
+    "Yangi platalarga xos belgi"
+   ],
+   "e": "Beqaror ishlash sababi."
+  },
+  {
+   "b": "Ona plata",
+   "q": "Ona plata korpusga nima orqali mahkamlanadi?",
+   "a": [
+    "Stoyka (distansion vtulka) va vintlar",
+    "Yelim bilan",
+    "Skotch bilan",
+    "To'g'ridan-to'g'ri korpus devoriga tegib"
+   ],
+   "e": "Qisqa tutashuvning oldini olish."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "BIOS nima?",
+   "a": [
+    "Asosiy kiritish-chiqarish tizimi",
+    "Kompyuterning operatsion tizimi",
+    "Antivirus dasturining yadrosi",
+    "Matnli hujjatlar muharriri"
+   ],
+   "e": "Basic Input/Output System."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "POST nima?",
+   "a": [
+    "Apparatni o'z-o'zini tekshirish",
+    "Elektron pochta yuborish protokoli",
+    "Diskdagi fayl tizimi turi",
+    "Printer uchun drayver dasturi"
+   ],
+   "e": "Power-On Self-Test."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "POST vaqtida bir uzun va ikki qisqa signal (AMI/Award) odatda nimani bildiradi?",
+   "a": [
+    "Videotizim nosozligi",
+    "Barcha qurilmalar soz, hammasi joyida",
+    "Klaviatura ulanmagan yoki topilmadi",
+    "Qattiq diskda bo'sh joy qolmagan"
+   ],
+   "e": "Signal kodlari BIOS ishlab chiqaruvchisiga bog'liq."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "Kompyuter yoqilganda bitta qisqa signal chalinsa, odatda bu nimani bildiradi?",
+   "a": [
+    "POST muvaffaqiyatli o'tdi",
+    "Protsessor nosoz yoki o'rnatilmagan",
+    "Operativ xotira umuman topilmadi",
+    "Quvvat bloki yetarli quvvat bermayapti"
+   ],
+   "e": "Normal holat."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "UEFI ning eski BIOS ga nisbatan afzalligi nima?",
+   "a": [
+    "Katta disklar va Secure Boot",
+    "Faqat matnli rejimda ishlaydi",
+    "Faqat MBR disklar bilan ishlaydi",
+    "Sichqoncha qo'llamaydi"
+   ],
+   "e": "GPT va grafik interfeys."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "Secure Boot funksiyasi nima qiladi?",
+   "a": [
+    "Faqat imzolangan yuklovchilarni ishga tushiradi",
+    "Disk o'qish-yozish tezligini oshiradi",
+    "Foydalanuvchi parollarini saqlaydi",
+    "Ekran yorqinligini avtomatik sozlaydi"
+   ],
+   "e": "Zararli yuklovchidan himoya."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "BIOS/UEFI sozlamalariga kirish uchun odatda qaysi tugmalar bosiladi?",
+   "a": [
+    "Del, F2",
+    "Ctrl+C",
+    "Alt+Tab",
+    "Win+L"
+   ],
+   "e": "Ishlab chiqaruvchiga qarab farq qiladi."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "Yuklanish ketma-ketligi (Boot order) qayerda sozlanadi?",
+   "a": [
+    "BIOS/UEFI da",
+    "Brauzerda",
+    "Matn muharririda",
+    "Printer sozlamalarida"
+   ],
+   "e": "Qaysi qurilmadan yuklanish tanlanadi."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "BIOS sozlamalarini zavod holatiga qaytarish usuli qaysi?",
+   "a": [
+    "CLR_CMOS jamperi",
+    "Monitorni almashtirish",
+    "Klaviaturani uzish",
+    "Diskni formatlash"
+   ],
+   "e": "Load Defaults ham mavjud."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "BIOS yangilash (proshivka) vaqtida elektr uzilsa nima bo'lishi mumkin?",
+   "a": [
+    "Ona plata ishga tushmay qolishi mumkin",
+    "Kompyuter tezligi sezilarli oshadi",
+    "Hech qanday oqibat bo'lmaydi",
+    "Faqat tizim soati noto'g'ri bo'ladi"
+   ],
+   "e": "Shu sababli UPS tavsiya etiladi."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "MBR bo'lim jadvali nechta asosiy bo'limni qo'llaydi?",
+   "a": [
+    "4 ta",
+    "128 ta",
+    "2 ta",
+    "Cheksiz"
+   ],
+   "e": "GPT — 128 ta gacha."
+  },
+  {
+   "b": "BIOS va UEFI",
+   "q": "GPT bo'lim jadvali qaysi tizim bilan birga ishlatiladi?",
+   "a": [
+    "UEFI",
+    "Faqat MS-DOS",
+    "Faqat eski BIOS",
+    "Faqat floppi disk"
+   ],
+   "e": "GUID Partition Table."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "Zamonaviy stol kompyuterlarida operativ xotira modullari qanday form-faktorda bo'ladi?",
+   "a": [
+    "DIMM",
+    "SO-DIMM",
+    "SIMM 30-pin",
+    "M.2"
+   ],
+   "e": "SO-DIMM — noutbuklar uchun."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "Noutbuklarda ishlatiladigan operativ xotira moduli qanday nomlanadi?",
+   "a": [
+    "SO-DIMM",
+    "DIMM",
+    "PCIe",
+    "SATA"
+   ],
+   "e": "Small Outline DIMM."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "DDR4 moduli DDR5 slotiga o'rnatiladimi?",
+   "a": [
+    "Yo'q, kalit kesigi mos kelmaydi",
+    "Ha, ikkala avlod to'liq mos keladi",
+    "Ha, faqat BIOS ni yangilash kifoya",
+    "Faqat noutbuk platalarida mos keladi"
+   ],
+   "e": "Avlodlar o'zaro mos emas."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "\"Dual Channel\" rejimi nima beradi?",
+   "a": [
+    "Xotira o'tkazuvchanligini oshiradi",
+    "Xotira hajmini ikki baravar kamaytiradi",
+    "Protsessorni sovitadi",
+    "Disk tezligini pasaytiradi"
+   ],
+   "e": "Ikki kanalda parallel ishlash."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "Dual Channel rejimi uchun ikki modul odatda qanday slotlarga qo'yiladi?",
+   "a": [
+    "Ona plata qo'llanmasida ko'rsatilgan juft slotlarga",
+    "Istalgan ikki qo'shni slotga, tartibsiz",
+    "Bir modul RAM slotiga, ikkinchisi PCIe slotiga",
+    "Ikkala modul bitta slotga ketma-ket"
+   ],
+   "e": "Odatda A2 va B2."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "Operativ xotira nosozligini tekshirish uchun qaysi dastur ishlatiladi?",
+   "a": [
+    "MemTest86",
+    "WinRAR",
+    "Paint",
+    "Notepad"
+   ],
+   "e": "Windows xotira diagnostikasi ham bor."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "ECC xotira nimasi bilan ajralib turadi?",
+   "a": [
+    "Xatolarni aniqlaydi va tuzatadi",
+    "Eng arzon va keng tarqalgan xotira turi",
+    "Faqat o'yin kompyuterlari uchun ishlab chiqariladi",
+    "Elektr quvvatisiz ma'lumotni saqlab qoladi"
+   ],
+   "e": "Serverlarda ishlatiladi."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "Xotira chastotasi (masalan, DDR4-3200) nimani ko'rsatadi?",
+   "a": [
+    "Ma'lumot uzatish tezligini",
+    "Modulning umumiy hajmini",
+    "Modulning ishlash kuchlanishini",
+    "Modul ishlab chiqarilgan yilni"
+   ],
+   "e": "MT/s."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "Xotira taymingi (CL) qiymati kichik bo'lsa nima bo'ladi?",
+   "a": [
+    "Kechikish kamroq",
+    "Hajm kattaroq",
+    "Kuchlanish yuqori",
+    "Xotira sekinroq"
+   ],
+   "e": "CAS Latency."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "XMP (yoki EXPO) profili nima uchun ishlatiladi?",
+   "a": [
+    "Xotirani zavod belgilagan yuqori rejimda ishlatish uchun",
+    "Protsessorning ortiqcha yadrolarini o'chirish uchun",
+    "Qattiq diskni bo'limlarga ajratish uchun",
+    "Monitor ranglarini kalibrlash uchun"
+   ],
+   "e": "BIOS da yoqiladi."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "Statik xotira (SRAM) qayerda ishlatiladi?",
+   "a": [
+    "Protsessor keshida",
+    "Fleshkada",
+    "Qattiq diskda",
+    "Optik diskda"
+   ],
+   "e": "Tez, lekin qimmat."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "Dinamik xotira (DRAM) nima uchun regeneratsiyani talab qiladi?",
+   "a": [
+    "Kondensatordagi zaryad vaqt o'tib yo'qoladi",
+    "U ma'lumotni magnit diskda saqlaydi",
+    "U ma'lumotni lazer yordamida yozadi",
+    "U faqat o'qish uchun mo'ljallangan"
+   ],
+   "e": "Davriy yangilash."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "ROM xotiraning asosiy xususiyati qaysi?",
+   "a": [
+    "Faqat o'qish uchun mo'ljallangan",
+    "Faqat yozish uchun ishlatiladi, o'qib bo'lmaydi",
+    "Elektr o'chganda barcha ma'lumot o'chadi",
+    "Protsessor keshidan ham tezroq ishlaydi"
+   ],
+   "e": "Read Only Memory."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "Virtual xotira (swap, pagefile) nima?",
+   "a": [
+    "RAM yetmaganda diskning bir qismidan foydalanish",
+    "Bulut serverida joylashgan qo'shimcha xotira",
+    "Protsessorning uchinchi darajali keshi",
+    "Videokartaning o'z xotirasi"
+   ],
+   "e": "pagefile.sys."
+  },
+  {
+   "b": "Operativ xotira",
+   "q": "RAM modulini o'rnatishda nima qilish kerak?",
+   "a": [
+    "Kompyuterni o'chirib, antistatik choralar ko'rish",
+    "Kompyuter yoniq holda tezroq o'rnatish",
+    "Modulni oltin kontaktlaridan ushlab o'rnatish",
+    "Kalit kesikka e'tibor bermasdan bosish"
+   ],
+   "e": "Statik zaryad xavfi."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "HDD da ma'lumot qanday saqlanadi?",
+   "a": [
+    "Magnit disklarda",
+    "Lazerli plastinkada",
+    "Kondensatorlarda",
+    "Qog'ozda"
+   ],
+   "e": "Plastinalar va magnit kallaklar."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "HDD aylanish tezligi qanday birlikda o'lchanadi?",
+   "a": [
+    "RPM (ayl/daq)",
+    "GHz",
+    "dpi",
+    "Vt"
+   ],
+   "e": "5400, 7200 RPM."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "SSD da ma'lumot qanday xotirada saqlanadi?",
+   "a": [
+    "NAND flesh-xotirada",
+    "Magnit plastinkada",
+    "Magnit lentada",
+    "Optik diskda"
+   ],
+   "e": "Harakatlanuvchi qismlarsiz."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "NVMe protokolli SSD qaysi interfeys orqali ishlaydi?",
+   "a": [
+    "PCIe",
+    "SATA",
+    "IDE",
+    "USB 1.1"
+   ],
+   "e": "SATA SSD dan ancha tez."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "SATA III interfeysining nazariy tezligi qancha?",
+   "a": [
+    "6 Gbit/s",
+    "1,5 Gbit/s",
+    "600 Gbit/s",
+    "100 Mbit/s"
+   ],
+   "e": "Taxminan 600 MB/s."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "SSD uchun defragmentatsiya qilish tavsiya etiladimi?",
+   "a": [
+    "Yo'q, foydasiz va resursni kamaytiradi",
+    "Ha, har kuni defragmentatsiya qilish shart",
+    "Ha, SSD tezligini ikki baravar oshiradi",
+    "Faqat yangi sotib olingan SSD uchun"
+   ],
+   "e": "TRIM ishlatiladi."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "TRIM buyrug'i nima uchun kerak?",
+   "a": [
+    "SSD ga bo'shatilgan bloklarni bildirish uchun",
+    "HDD ni past darajada formatlash uchun",
+    "Printer kallagini tozalash uchun",
+    "Operativ xotirani xatolarga sinash uchun"
+   ],
+   "e": "SSD ish tezligini saqlaydi."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "Qattiq diskning holatini (S.M.A.R.T.) ko'rish uchun qaysi dastur mos?",
+   "a": [
+    "CrystalDiskInfo",
+    "Paint",
+    "Calculator",
+    "WordPad"
+   ],
+   "e": "Self-Monitoring."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "HDD dan \"tiq-tiq\" ovoz chiqib, sekinlashsa nima qilish kerak?",
+   "a": [
+    "Ma'lumotni saqlab, diskni almashtirish",
+    "Darhol defragmentatsiya qilib ko'rish",
+    "E'tibor bermay ishlashda davom etish",
+    "Diskni yengil urib, kallakni joyiga keltirish"
+   ],
+   "e": "Mexanik nosozlik belgisi."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "RAID 1 massivi nimani ta'minlaydi?",
+   "a": [
+    "Ko'zgu nusxa (ishonchlilik)",
+    "Faqat o'qish-yozish tezligini oshirish",
+    "Ma'lumotlarni siqib, joy tejash",
+    "Ma'lumotlarni shifrlab himoyalash"
+   ],
+   "e": "Mirroring."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "RAID 0 ning asosiy kamchiligi nima?",
+   "a": [
+    "Bitta disk buzilsa barcha ma'lumot yo'qoladi",
+    "Ikki disk kabi sekin ishlaydi",
+    "Umumiy hajm ikki baravar kamayadi",
+    "Faqat bitta disk bilan ishlay oladi"
+   ],
+   "e": "Striping."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "Windows uchun asosiy fayl tizimi qaysi?",
+   "a": [
+    "NTFS",
+    "ext4",
+    "APFS",
+    "HFS"
+   ],
+   "e": "FAT32 — fleshkalar uchun."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "FAT32 fayl tizimida bitta faylning maksimal hajmi qancha?",
+   "a": [
+    "4 GB",
+    "16 TB",
+    "2 MB",
+    "Cheksiz"
+   ],
+   "e": "Katta fayllar uchun exFAT/NTFS."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "Diskni bo'limlarga ajratish uchun Windows da qaysi vosita bor?",
+   "a": [
+    "Disk Management (diskmgmt.msc)",
+    "Task Manager",
+    "Paint",
+    "Control + Z"
+   ],
+   "e": "Diskpart ham bor."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "Zaxira nusxalashda \"3-2-1\" qoidasi nimani anglatadi?",
+   "a": [
+    "3 nusxa, 2 xil tashuvchi, 1 tasi boshqa joyda",
+    "3 kunda 2 marta, 1 ta diskka nusxa olish",
+    "3 ta parol, 2 ta login, 1 ta kalit",
+    "3 kompyuter, 2 printer, 1 server"
+   ],
+   "e": "Ishonchli backup."
+  },
+  {
+   "b": "Tashqi xotira qurilmalari",
+   "q": "Optik disk DVD ning bir qatlamli sig'imi qancha?",
+   "a": [
+    "4,7 GB",
+    "700 MB",
+    "25 GB",
+    "1,44 MB"
+   ],
+   "e": "CD — 700 MB, Blu-ray — 25 GB."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Videokartaning asosiy protsessori qanday ataladi?",
+   "a": [
+    "GPU",
+    "CPU",
+    "PSU",
+    "HDD"
+   ],
+   "e": "Graphics Processing Unit."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Videokartaning o'z xotirasi qanday nomlanadi?",
+   "a": [
+    "VRAM (videoxotira)",
+    "ROM",
+    "CMOS",
+    "Kesh L1"
+   ],
+   "e": "GDDR6 va boshqalar."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Raqamli video interfeyslarga qaysilar kiradi?",
+   "a": [
+    "HDMI, DisplayPort",
+    "VGA, RCA",
+    "PS/2, COM",
+    "LPT, MIDI"
+   ],
+   "e": "VGA — analog."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "VGA interfeysi qanday signal uzatadi?",
+   "a": [
+    "Analog",
+    "Raqamli",
+    "Optik",
+    "Simsiz"
+   ],
+   "e": "D-Sub 15 pin."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Qaysi interfeys video bilan birga ovozni ham uzatadi?",
+   "a": [
+    "HDMI",
+    "VGA",
+    "DVI-A",
+    "PS/2"
+   ],
+   "e": "Audio va video bitta kabelda."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Monitorda Full HD ruxsati qancha?",
+   "a": [
+    "1920×1080",
+    "1280×720",
+    "3840×2160",
+    "800×600"
+   ],
+   "e": "4K — 3840×2160."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Monitorning yangilanish chastotasi qanday birlikda o'lchanadi?",
+   "a": [
+    "Gs (Hz)",
+    "dpi",
+    "GB",
+    "RPM"
+   ],
+   "e": "60, 144 Hz."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "IPS matritsaning afzalligi nima?",
+   "a": [
+    "Keng ko'rish burchagi va aniq ranglar",
+    "Eng arzon narx va eng tez javob",
+    "Faqat monoxrom tasvir ko'rsatish",
+    "Eng past kontrast va yorqinlik"
+   ],
+   "e": "TN — arzon va tez."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Monitorda \"o'lik piksel\" nima?",
+   "a": [
+    "Doimo yonmaydigan yoki bir rangda qolgan nuqta",
+    "Boshqalardan yorqinroq rangli piksel",
+    "Ekrandagi sichqoncha kursori",
+    "Ish stolidagi fon rasmi nuqtasi"
+   ],
+   "e": "Matritsa nuqsoni."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Ekran diagonali qanday birlikda o'lchanadi?",
+   "a": [
+    "Dyuym",
+    "Santimetr kvadrat",
+    "Piksel",
+    "Gers"
+   ],
+   "e": "1 dyuym = 2,54 sm."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Kompyuter ishlayapti, lekin monitorda \"No signal\" yozuvi chiqsa, avval nimani tekshirish kerak?",
+   "a": [
+    "Kabel va kirish manbasini",
+    "Printer ulanganligini",
+    "Klaviatura tilini",
+    "Antivirus holatini"
+   ],
+   "e": "Input source va ulanish."
+  },
+  {
+   "b": "Videotizim va monitorlar",
+   "q": "Videokarta qo'shimcha quvvat ulagichi qanday nomlanadi?",
+   "a": [
+    "PCIe 6/8-pin (yoki 12VHPWR)",
+    "SATA data",
+    "USB-C",
+    "RJ-45"
+   ],
+   "e": "Kuchli videokartalar uchun."
+  },
+  {
+   "b": "Quvvat bloki va elektr ta'minoti",
+   "q": "Quvvat bloki (PSU) nima qiladi?",
+   "a": [
+    "AC tokni past kuchlanishli DC ga aylantiradi",
+    "O'zgarmas tokni yuqori kuchlanishga aylantiradi",
+    "Ma'lumotlarni vaqtincha saqlab turadi",
+    "Tasvirni monitorga uzatadi"
+   ],
+   "e": "220 V AC → 12, 5, 3,3 V DC."
+  },
+  {
+   "b": "Quvvat bloki va elektr ta'minoti",
+   "q": "ATX quvvat blokining asosiy chiqish kuchlanishlari qaysilar?",
+   "a": [
+    "+12 V, +5 V, +3,3 V",
+    "+220 V, +110 V",
+    "+48 V, +24 V",
+    "+1 V, +2 V"
+   ],
+   "e": "Standart kuchlanishlar."
+  },
+  {
+   "b": "Quvvat bloki va elektr ta'minoti",
+   "q": "Quvvat blokidagi \"80 PLUS\" sertifikati nimani bildiradi?",
+   "a": [
+    "Yuqori FIK (energiya samaradorligi)",
+    "Blokning quvvati 80 Vt ekanini",
+    "Blokda 80 ta ulagich borligini",
+    "Blok 80 °C gacha qizishi mumkinligini"
+   ],
+   "e": "Bronze, Gold, Platinum."
+  },
+  {
+   "b": "Quvvat bloki va elektr ta'minoti",
+   "q": "Quvvat bloki quvvatini tanlashda nimaga asoslaniladi?",
+   "a": [
+    "Komponentlarning umumiy iste'moli va zaxira",
+    "Korpusning rangi va dizayniga",
+    "Monitor diagonali o'lchamiga",
+    "Klaviatura va sichqoncha turiga"
+   ],
+   "e": "20–30% zaxira tavsiya etiladi."
+  },
+  {
+   "b": "Quvvat bloki va elektr ta'minoti",
+   "q": "Quvvat blokini ochib ta'mirlash nima uchun xavfli?",
+   "a": [
+    "Kondensatorlarda yuqori kuchlanish qoladi",
+    "Blok juda og'ir, ko'tarish qiyin",
+    "Blok ichida sovutuvchi suyuqlik bor",
+    "Blok kuchli magnitlangan bo'ladi"
+   ],
+   "e": "O'chirilgandan keyin ham xavfli."
+  },
+  {
+   "b": "Quvvat bloki va elektr ta'minoti",
+   "q": "UPS (uzluksiz quvvat manbai) vazifasi nima?",
+   "a": [
+    "Uzilishda vaqtincha quvvat berish",
+    "Internet ulanish tezligini oshirish",
+    "Bir nechta printerni bitta portga ulash",
+    "Karnay ovozini kuchaytirish"
+   ],
+   "e": "Ma'lumotlarni saqlashga ulgurish."
+  },
+  {
+   "b": "Quvvat bloki va elektr ta'minoti",
+   "q": "UPS quvvati qanday birlikda ko'rsatiladi?",
+   "a": [
+    "VA va Vt",
+    "dpi",
+    "RPM",
+    "Mbit/s"
+   ],
+   "e": "Volt-amper."
+  },
+  {
+   "b": "Quvvat bloki va elektr ta'minoti",
+   "q": "Line-interactive UPS ning offline UPS dan afzalligi nima?",
+   "a": [
+    "Kuchlanishni stabillaydi (AVR)",
+    "Batareyasiz, faqat filtr sifatida ishlaydi",
+    "Faqat bitta rozetkaga ega bo'ladi",
+    "Kuchlanish tushganda o'chib qoladi"
+   ],
+   "e": "Avtomatik kuchlanish rostlagichi."
+  },
+  {
+   "b": "Quvvat bloki va elektr ta'minoti",
+   "q": "Kompyuter quvvat tugmasiga javob bermasa, avval nima tekshiriladi?",
+   "a": [
+    "Elektr kabeli va rozetka",
+    "Monitorning ekran ruxsatini",
+    "Printerdagi qog'oz miqdorini",
+    "Karnay ovoz balandligini"
+   ],
+   "e": "Oddiy sabablardan boshlash."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Lazer printerda tasvir qog'ozga qaysi modda yordamida tushiriladi?",
+   "a": [
+    "Toner (kukun)",
+    "Suyuq siyoh",
+    "Bo'yoq lentasi",
+    "Termoqog'oz qatlami"
+   ],
+   "e": "Toner kukuni."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Lazer printerda tonerni qog'ozga mahkamlovchi qism qaysi?",
+   "a": [
+    "Pech (fyuzer)",
+    "Rakel",
+    "Skaner lampasi",
+    "Qog'oz laganida joylashgan rolik"
+   ],
+   "e": "Yuqori harorat va bosim."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Lazer printer barabanining (fotobaraban) vazifasi nima?",
+   "a": [
+    "Elektrostatik tasvirni tonerga ko'chirish",
+    "Qog'ozni qizdirib, tonerni eritish",
+    "Siyohni kallak orqali purkash",
+    "Qog'ozni laganidan tortib olish"
+   ],
+   "e": "Fotoo'tkazgich."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Siyohli (struyniy) printerda tasvir qanday hosil qilinadi?",
+   "a": [
+    "Mayda siyoh tomchilari purkaladi",
+    "Toner kukuni qog'ozda qizdirib eritiladi",
+    "Ignalar bo'yoq lentasiga urib nuqta qoldiradi",
+    "Maxsus qog'oz issiqlik ta'sirida qorayadi"
+   ],
+   "e": "Pyezo yoki termik usul."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Matritsali (ignali) printerning hozirgi asosiy afzalligi nima?",
+   "a": [
+    "Ko'p nusxali blankalarni chop etadi",
+    "Eng yuqori sifatli rangli fotosurat",
+    "Eng jim ishlaydigan printer",
+    "Toner talab qilmaydigan lazer printer"
+   ],
+   "e": "Bank, kassa hujjatlari."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Termoprinter qayerda keng qo'llaniladi?",
+   "a": [
+    "Kassa cheklari va yorliqlarda",
+    "Plakatlar va katta chizmalarda",
+    "Rangli fotosuratlarda",
+    "Kitob nashriyotida"
+   ],
+   "e": "Termoqog'oz ishlatiladi."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Printer ruxsati qanday birlikda o'lchanadi?",
+   "a": [
+    "dpi",
+    "Hz",
+    "RPM",
+    "VA"
+   ],
+   "e": "Dots per inch."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Printer tezligi odatda qanday ko'rsatiladi?",
+   "a": [
+    "Daqiqasiga sahifa (ppm)",
+    "Soniyasiga kadr (fps)",
+    "Daqiqasiga aylanish (rpm)",
+    "Dyuymga nuqta (dpi)"
+   ],
+   "e": "Pages per minute."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Lazer printerda chop etilgan varaqda takroriy dog'lar bir xil oraliqda chiqsa, sabab nima bo'lishi mumkin?",
+   "a": [
+    "Baraban yoki rolikdagi nuqson",
+    "Kompyuterga tushgan virus ta'siri",
+    "Monitor ruxsati past qilib sozlangani",
+    "Printer drayverining eskirgan versiyasi"
+   ],
+   "e": "Oraliq rolik aylanasiga mos keladi."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Lazer printerda toner qo'lga yuqib, surtilib ketsa, qaysi qism nosoz?",
+   "a": [
+    "Fyuzer (pech)",
+    "Kartrijning chipi",
+    "USB kabel",
+    "Qog'oz sensori"
+   ],
+   "e": "Toner qizdirib mahkamlanmagan."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Siyohli printer uzoq vaqt ishlatilmasa nima sodir bo'lishi mumkin?",
+   "a": [
+    "Kallak siyoh qurib tiqiladi",
+    "Toner kukuni namlanib qoladi",
+    "Fyuzer qizib ketadi",
+    "Baraban magnitlanib qoladi"
+   ],
+   "e": "Tozalash rejimi ishlatiladi."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Printerda qog'oz tiqilib qolganda (jam) birinchi navbatda nima qilinadi?",
+   "a": [
+    "O'chirib, qog'ozni ehtiyotlab olish",
+    "Qog'ozni kuch bilan yirtib tortish",
+    "Printerni yoniq holda ichiga qo'l solish",
+    "Darhol kartrijni almashtirish"
+   ],
+   "e": "Qizigan fyuzerga ehtiyot bo'lish."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Kartrijni qayta to'ldirgandan keyin printer uni \"bo'sh\" deb ko'rsatsa, nima kerak?",
+   "a": [
+    "Chipni almashtirish yoki nollash",
+    "Kompyuterni formatlash",
+    "Monitorni almashtirish",
+    "Tarmoq kabelini uzish"
+   ],
+   "e": "Chip resursni hisoblaydi."
+  },
+  {
+   "b": "Printerlar",
+   "q": "CMYK qisqartmasidagi K harfi qaysi rangni bildiradi?",
+   "a": [
+    "Qora",
+    "Ko'k",
+    "Qizil",
+    "Sariq"
+   ],
+   "e": "Key — qora."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Chop etish navbati \"osilib\" qolsa, Windows da qaysi xizmat qayta ishga tushiriladi?",
+   "a": [
+    "Print Spooler",
+    "Windows Update",
+    "DNS Client",
+    "Bluetooth Support"
+   ],
+   "e": "Navbat tozalanadi."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Tarmoq printerini kompyuterga ulashning qulay usuli qaysi?",
+   "a": [
+    "Printerning IP manzili orqali",
+    "Faqat parallel LPT port orqali",
+    "Faqat infraqizil port orqali",
+    "Printerni kompyuterga yopishtirib"
+   ],
+   "e": "Ethernet yoki Wi-Fi."
+  },
+  {
+   "b": "Printerlar",
+   "q": "Lazer printer kartrijini almashtirishda nima tavsiya etiladi?",
+   "a": [
+    "Barabanni ushlamaslik, yorug'likdan saqlash",
+    "Barabanni barmoq bilan artib tozalash",
+    "Tonerni silkitib, kukunni to'kish",
+    "Kartrijni quyosh nurida qoldirish"
+   ],
+   "e": "Baraban yorug'likka sezgir."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Planshetli skanerda tasvirni o'qiydigan element qaysi?",
+   "a": [
+    "CCD yoki CIS sensori",
+    "Lazer barabani",
+    "Termokallak",
+    "Igna bloki"
+   ],
+   "e": "Yorug'likni elektr signalga aylantiradi."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "OCR texnologiyasi nima qiladi?",
+   "a": [
+    "Rasmdagi matnni tahrirlanadigan qiladi",
+    "Rasmni rangli qiladi",
+    "Faylni arxivlaydi",
+    "Printerni tozalaydi"
+   ],
+   "e": "Optical Character Recognition."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "MFU (ko'p funksiyali qurilma) qanday vazifalarni birlashtiradi?",
+   "a": [
+    "Printer, skaner va nusxa ko'chirish",
+    "Monitor, klaviatura va sichqoncha",
+    "Router, kommutator va modem",
+    "Proyektor, karnay va mikrofon"
+   ],
+   "e": "Ba'zilarida faks ham bor."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "ADF qurilmasi MFU da nima uchun xizmat qiladi?",
+   "a": [
+    "Hujjatlarni avtomatik uzatish",
+    "Toner kukunini aralashtirib tayyorlash",
+    "Qog'ozni kerakli o'lchamda kesish",
+    "Boshqaruv ekranini yoritib turish"
+   ],
+   "e": "Automatic Document Feeder."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Duplex chop etish nimani anglatadi?",
+   "a": [
+    "Varaqning ikki tomoniga chop etish",
+    "Har bir hujjatni ikki nusxada chop etish",
+    "Faqat ikki xil rangda chop etish",
+    "Bitta hujjatni ikki printerda chop etish"
+   ],
+   "e": "Ikki tomonlama."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Skanerlash natijasi xira va chiziqli chiqsa, avval nima qilinadi?",
+   "a": [
+    "Skaner oynasini tozalash",
+    "Skaner drayverini o'chirib tashlash",
+    "Kompyuter RAM ini almashtirish",
+    "Monitorni qayta sozlash"
+   ],
+   "e": "Chang va dog'lar."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Hujjatlarni arxivlash uchun skanerlashda qaysi format qulay?",
+   "a": [
+    "PDF",
+    "MP3",
+    "EXE",
+    "BAT"
+   ],
+   "e": "Ko'p sahifali hujjat."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Proyektorning yorqinligi qanday birlikda o'lchanadi?",
+   "a": [
+    "Lyumen (ANSI lm)",
+    "Vatt-soat",
+    "Detsibel",
+    "Gigabayt"
+   ],
+   "e": "Yorqin xona uchun ko'proq lyumen."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Proyektorni o'chirgandan keyin darhol elektrdan uzish nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Lampa ventilyator bilan sovishi kerak",
+    "Barcha ma'lumotlar o'chib ketadi",
+    "Rang sozlamalari zavod holatiga qaytadi",
+    "Pult bilan aloqa uzilib qoladi"
+   ],
+   "e": "Lampa resursi kamayadi."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Proyektor tasviri trapetsiya shaklida chiqsa, qaysi funksiya bilan tuzatiladi?",
+   "a": [
+    "Keystone",
+    "Zoom",
+    "Mute",
+    "Freeze"
+   ],
+   "e": "Geometrik buzilish."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Kompyuterni proyektorga ulashda Windows da ekranni ko'paytirish uchun qaysi tugmalar ishlatiladi?",
+   "a": [
+    "Win + P",
+    "Win + L",
+    "Ctrl + P",
+    "Alt + F4"
+   ],
+   "e": "Duplicate/Extend."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Interaktiv doska nima?",
+   "a": [
+    "Sensorli interaktiv doska",
+    "Bo'r bilan yoziladigan oddiy doska",
+    "Magnitli e'lonlar taxtasi",
+    "Faqat qog'oz varaqlar uchun stend"
+   ],
+   "e": "Ta'limda keng qo'llaniladi."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Laminator qanday vazifani bajaradi?",
+   "a": [
+    "Hujjatni plyonka bilan qoplaydi",
+    "Hujjatni skanerlab, raqamli nusxa oladi",
+    "Hujjatni mayda bo'laklarga maydalaydi",
+    "Hujjat varaqlarini skoba bilan tikadi"
+   ],
+   "e": "Himoya qatlami."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Shreder (qog'oz maydalagich) nima uchun ishlatiladi?",
+   "a": [
+    "Maxfiy hujjatlarni yo'q qilish uchun",
+    "Qog'oz varaqlarini bog'lab tikish uchun",
+    "Qog'ozni plyonka bilan qoplash uchun",
+    "Qog'ozga rangli chop etish uchun"
+   ],
+   "e": "Ma'lumot xavfsizligi."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Veb-kamera ruxsati qanday ko'rsatiladi?",
+   "a": [
+    "Piksel (masalan, 1080p)",
+    "Lyumen",
+    "dpi",
+    "Vatt"
+   ],
+   "e": "Video sifati."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Kompyuter karnaylarida \"2.1\" belgisi nimani bildiradi?",
+   "a": [
+    "Ikki karnay va bitta sabvufer",
+    "Ikki mikrofon va bitta karnay",
+    "Ikki kanal va bitta kabel",
+    "Ikki dasturiy drayver va bitta port"
+   ],
+   "e": "Sabvufer — past chastotalar."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Klaviaturaning standart tartibi qanday nomlanadi?",
+   "a": [
+    "QWERTY",
+    "ABCDEF",
+    "ЙЦУКЕН faqat",
+    "AZERTY faqat"
+   ],
+   "e": "Birinchi qatordagi harflar."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Optik sichqonchada harakat qanday aniqlanadi?",
+   "a": [
+    "Yorug'lik va sensor yordamida",
+    "Rezina shar va roliklar bilan",
+    "Giroskop bilan",
+    "Ovoz to'lqini bilan"
+   ],
+   "e": "Mexanik sichqonchada shar bor."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Sichqoncha sezgirligi qanday birlikda ifodalanadi?",
+   "a": [
+    "DPI (CPI)",
+    "Hz",
+    "ppm",
+    "VA"
+   ],
+   "e": "Dyuymga nuqta."
+  },
+  {
+   "b": "Skaner, MFU va boshqa ofis jihozlari",
+   "q": "Bluetooth sichqoncha ulanmasa, avval nimani tekshirish kerak?",
+   "a": [
+    "Batareya va Bluetooth yoqilganini",
+    "Monitorning ekran ruxsatini",
+    "Printerdagi qog'oz miqdorini",
+    "Qattiq diskdagi bo'sh joyni"
+   ],
+   "e": "Juftlash (pairing) ham."
+  },
+  {
+   "b": "Tashqi interfeyslar va portlar",
+   "q": "USB 3.0 portlari odatda qanday rangda bo'ladi?",
+   "a": [
+    "Ko'k",
+    "Qora",
+    "Oq",
+    "Qizil"
+   ],
+   "e": "USB 2.0 — qora/oq."
+  },
+  {
+   "b": "Tashqi interfeyslar va portlar",
+   "q": "USB 2.0 ning maksimal tezligi qancha?",
+   "a": [
+    "480 Mbit/s",
+    "5 Gbit/s",
+    "12 Mbit/s",
+    "40 Gbit/s"
+   ],
+   "e": "USB 3.0 — 5 Gbit/s."
+  },
+  {
+   "b": "Tashqi interfeyslar va portlar",
+   "q": "USB-C ulagichining afzalligi nima?",
+   "a": [
+    "Ikki tomonlama ulanadi",
+    "Faqat zaryadlash uchun",
+    "Faqat eski qurilmalar uchun",
+    "Ma'lumot uzatmaydi"
+   ],
+   "e": "Simmetrik ulagich."
+  },
+  {
+   "b": "Tashqi interfeyslar va portlar",
+   "q": "Thunderbolt 4 interfeysining maksimal tezligi qancha?",
+   "a": [
+    "40 Gbit/s",
+    "480 Mbit/s",
+    "1 Gbit/s",
+    "100 Mbit/s"
+   ],
+   "e": "USB-C ulagichda."
+  },
+  {
+   "b": "Tashqi interfeyslar va portlar",
+   "q": "Eski PS/2 porti nima uchun ishlatilgan?",
+   "a": [
+    "Klaviatura va sichqoncha uchun",
+    "Monitor yoki proyektor ulash uchun",
+    "Printer yoki skaner ulash uchun",
+    "Lokal tarmoq kabelini ulash uchun"
+   ],
+   "e": "Binafsha — klaviatura, yashil — sichqoncha."
+  },
+  {
+   "b": "Tashqi interfeyslar va portlar",
+   "q": "Kompyuter audio portlarida yashil rangli uyacha nima uchun?",
+   "a": [
+    "Karnay yoki quloqchin (chiqish)",
+    "Mikrofon ulash uchun kirish",
+    "Chiziqli audio kirish (line-in)",
+    "Tarmoq kabeli uchun port"
+   ],
+   "e": "Pushti — mikrofon, ko'k — line-in."
+  },
+  {
+   "b": "Tashqi interfeyslar va portlar",
+   "q": "COM (RS-232) port hozir asosan qayerda ishlatiladi?",
+   "a": [
+    "Sanoat va tarmoq uskunalari konsolida",
+    "Zamonaviy o'yin konsollarida",
+    "Smartfonlarni tez zaryadlashda",
+    "4K monitorlarni ulashda"
+   ],
+   "e": "Ketma-ket port."
+  },
+  {
+   "b": "Tashqi interfeyslar va portlar",
+   "q": "USB ga juda ko'p qurilma ulanib, quvvat yetmasa nima ishlatiladi?",
+   "a": [
+    "Tashqi quvvatli USB-hab",
+    "Qo'shimcha monitor ulash",
+    "Uzunroq USB kabel ishlatish",
+    "Boshqa model sichqonchaga almashtirish"
+   ],
+   "e": "Aktiv hab."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Kompyuter tizim blokini changdan tozalash uchun qaysi vosita eng mos?",
+   "a": [
+    "Siqilgan havo balloni va yumshoq cho'tka",
+    "Ho'l latta va yuvish vositasi",
+    "Oddiy maishiy changyutkichning kuchli rejimi",
+    "Metall cho'tka va benzin"
+   ],
+   "e": "Ventilyatorlarni ushlab turish kerak."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Tozalashda kuler parragini havo bilan juda tez aylantirish nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Ventilyator podshipnigi shikastlanishi mumkin",
+    "Kuler korpusining rangi o'zgarib ketadi",
+    "BIOS dagi barcha sozlamalar o'chib ketadi",
+    "Ventilyator keyin teskari tomonga aylanadi"
+   ],
+   "e": "Parrakni barmoq bilan ushlab turiladi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Elektron platalar kontaktlarini tozalash uchun qaysi suyuqlik ishlatiladi?",
+   "a": [
+    "Izopropil spirt",
+    "Suv",
+    "Atseton aralashmasi bilan sovun",
+    "Moy"
+   ],
+   "e": "Tez bug'lanadi, qoldiq qoldirmaydi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "RAM modulining kontaktlari oksidlanganda ularni nima bilan tozalash mumkin?",
+   "a": [
+    "Rezina o'chirg'ich (lastik)",
+    "Jilvir qog'oz",
+    "Pichoq tig'i",
+    "Ho'l latta"
+   ],
+   "e": "Yengil ishqalash."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Elektrostatik razryaddan (ESD) himoyalanish uchun nima ishlatiladi?",
+   "a": [
+    "Antistatik bilakuzuk",
+    "Rezina qo'lqop va jun kiyim",
+    "Metall soat taqib ishlash",
+    "Gilam ustida turib ishlash"
+   ],
+   "e": "Erga ulanadi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Kompyuter yoqilganda ventilyatorlar aylanadi, lekin ekranda tasvir yo'q va signal yo'q. Ehtimoliy sabab nima?",
+   "a": [
+    "RAM yoki videokarta kontakti",
+    "Sichqoncha batareyasi tugagan",
+    "Printer o'chirilgan",
+    "Internet uzilgan"
+   ],
+   "e": "Modullarni qayta o'rnatib ko'rish."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Kompyuter o'z-o'zidan o'chib qolsa, birinchi navbatda nimani tekshirish kerak?",
+   "a": [
+    "Qizish (harorat) va sovutish tizimini",
+    "Ish stolidagi fon rasmi va mavzuni",
+    "Klaviatura tartibi va til sozlamasini",
+    "Brauzer tarixi va kesh fayllarini"
+   ],
+   "e": "Kuler va termopasta."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Komponentlar haroratini kuzatish uchun qaysi dastur mos?",
+   "a": [
+    "HWMonitor",
+    "Paint",
+    "Notepad",
+    "Media Player"
+   ],
+   "e": "AIDA64, HWiNFO ham."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Windows \"ko'k ekran\" (BSOD) xatosi chiqsa, nima foydali?",
+   "a": [
+    "STOP kodini yozib olib, tahlil qilish",
+    "Monitorni darhol yangisiga almashtirish",
+    "Klaviaturani suv bilan yuvib tozalash",
+    "Ekran yorqinligini maksimal qilish"
+   ],
+   "e": "Drayver yoki apparat muammosi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Kompyuter juda sekin ishlasa, avval qaysi vositada resurs sarfini ko'rish mumkin?",
+   "a": [
+    "Vazifalar dispetcheri (Task Manager)",
+    "Kalkulyator",
+    "Paint",
+    "Ovoz sozlamalari"
+   ],
+   "e": "Ctrl+Shift+Esc."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Vazifalar dispetcherini tezkor ochish uchun qaysi tugmalar bosiladi?",
+   "a": [
+    "Ctrl + Shift + Esc",
+    "Ctrl + Alt + Tab",
+    "Win + D",
+    "Alt + F4"
+   ],
+   "e": "To'g'ridan-to'g'ri ochadi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Avtoyuklanishdagi keraksiz dasturlarni o'chirish nima beradi?",
+   "a": [
+    "Kompyuter tezroq yuklanadi",
+    "Diskdagi bo'sh joy sezilarli kamayadi",
+    "Internet ulanish tezligi pasayadi",
+    "Monitorning ekran ruxsati oshadi"
+   ],
+   "e": "Task Manager → Startup."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Qurilma drayveri muammosini qayerda ko'rish mumkin?",
+   "a": [
+    "Qurilmalar dispetcheri (Device Manager)",
+    "Brauzer sozlamalari",
+    "Kalkulyator",
+    "Savat (Korzina)"
+   ],
+   "e": "Sariq belgi — muammo."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Qurilmalar dispetcherida qurilma yonida sariq undov belgisi nimani bildiradi?",
+   "a": [
+    "Drayver yoki qurilmada muammo",
+    "Qurilma drayveri eng so'nggi versiyada",
+    "Qurilma maksimal tezlikda ishlayapti",
+    "Qurilma lokal tarmoqqa ulangan"
+   ],
+   "e": "Drayverni yangilash kerak."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Windows tizim fayllarini tekshirib tiklash uchun qaysi buyruq ishlatiladi?",
+   "a": [
+    "sfc /scannow",
+    "ipconfig /all",
+    "ping 8.8.8.8",
+    "dir /s"
+   ],
+   "e": "System File Checker."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Diskdagi fayl tizimi xatolarini tekshirish buyrug'i qaysi?",
+   "a": [
+    "chkdsk",
+    "tracert",
+    "format",
+    "tasklist"
+   ],
+   "e": "Check Disk."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Tizim muammosidan oldingi holatga qaytarish uchun Windows da nima ishlatiladi?",
+   "a": [
+    "Tizimni tiklash nuqtasi (System Restore)",
+    "Diskni to'liq formatlab qayta o'rnatish",
+    "Monitor sozlamalarini zavod holatiga qaytarish",
+    "Brauzer tarixi va cookie larni tozalash"
+   ],
+   "e": "Shaxsiy fayllar saqlanadi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Komponentni almashtirib, nosozlikni aniqlash usuli qanday nomlanadi?",
+   "a": [
+    "Ma'lum soz qism bilan almashtirib tekshirish",
+    "Kompyuter korpusiga yengil urib tekshirish",
+    "Dasturiy ta'minotni boshqatdan yozish",
+    "Nosozlik o'zi yo'qolguncha kutib turish"
+   ],
+   "e": "Diagnostikaning oddiy usuli."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Multimetr bilan quvvat blokining qaysi parametri tekshiriladi?",
+   "a": [
+    "Chiqish kuchlanishlari",
+    "Ekran ruxsati",
+    "Internet tezligi",
+    "Fayl hajmi"
+   ],
+   "e": "12 V, 5 V, 3,3 V."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Profilaktik texnik xizmat ko'rsatishning maqsadi nima?",
+   "a": [
+    "Nosozliklarning oldini olish",
+    "Faqat buzilgandan keyin ta'mirlash",
+    "Kompyuterni tezroq eskirtirish",
+    "Kafolatni bekor qilish"
+   ],
+   "e": "Rejali xizmat."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Nosozliklarni bartaraf etishda to'g'ri ketma-ketlik qaysi?",
+   "a": [
+    "Aniqlash, faraz, tekshirish, tuzatish, hujjatlash",
+    "Darhol barcha qismlarni almashtirish",
+    "Avval tuzatish, keyin muammoni aniqlash",
+    "Foydalanuvchidan so'ramasdan diskni formatlash"
+   ],
+   "e": "CompTIA troubleshooting modeli."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va diagnostika",
+   "q": "Kompyuter ta'mirlash jurnalida nima qayd etiladi?",
+   "a": [
+    "Nosozlik, bajarilgan ish va almashtirilgan qismlar",
+    "Faqat xizmat ko'rsatgan xodimning ismi",
+    "Faqat murojaat qilingan sana",
+    "Hech narsa qayd etilmaydi, shart emas"
+   ],
+   "e": "Hujjatlash."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "Windows ni o'rnatish uchun yuklanadigan fleshka qaysi dastur bilan tayyorlanadi?",
+   "a": [
+    "Rufus yoki Media Creation Tool",
+    "Paint",
+    "WinAmp",
+    "Calculator"
+   ],
+   "e": "Bootable USB."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "Windows o'rnatishda \"toza o'rnatish\" nimani bildiradi?",
+   "a": [
+    "Tizim bo'limini formatlab, yangidan o'rnatish",
+    "Eski tizim ustiga fayllarni saqlab yangilash",
+    "Faqat qurilma drayverlarini qayta o'rnatish",
+    "Faqat keraksiz dasturlarni o'chirish"
+   ],
+   "e": "Clean install."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "O'rnatilgandan keyin birinchi navbatda nima qilinadi?",
+   "a": [
+    "Drayverlar va yangilanishlarni o'rnatish",
+    "Antivirusni butunlay o'chirib qo'yish",
+    "Tarmoqdagi barcha portlarni ochish",
+    "Kirish parolini olib tashlash"
+   ],
+   "e": "Keyin kerakli dasturlar."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "Windows da qaysi akkaunt turi kundalik ish uchun xavfsizroq?",
+   "a": [
+    "Standart foydalanuvchi",
+    "Administrator",
+    "Mehmon emas, tizim (SYSTEM)",
+    "Parolsiz administrator"
+   ],
+   "e": "Minimal huquqlar tamoyili."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "Windows da tizim haqida asosiy ma'lumotni ko'rsatuvchi buyruq qaysi?",
+   "a": [
+    "msinfo32",
+    "notepad",
+    "mspaint",
+    "calc"
+   ],
+   "e": "System Information."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "DirectX diagnostika vositasini ochuvchi buyruq qaysi?",
+   "a": [
+    "dxdiag",
+    "regedit",
+    "cmd",
+    "explorer"
+   ],
+   "e": "Video va ovoz haqida ma'lumot."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "Tizim reyestrini tahrirlash vositasi qaysi?",
+   "a": [
+    "regedit",
+    "msconfig",
+    "control",
+    "dxdiag"
+   ],
+   "e": "Ehtiyotkorlik talab qiladi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "Linux operatsion tizimida yangi paketlarni o'rnatish uchun (Debian/Ubuntu) qaysi buyruq ishlatiladi?",
+   "a": [
+    "apt install",
+    "dir",
+    "format",
+    "regedit"
+   ],
+   "e": "Paket menejeri."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "Antivirus bazalarini muntazam yangilash nima uchun kerak?",
+   "a": [
+    "Yangi viruslarni aniqlash uchun",
+    "Kompyuterni sekinlashtirish uchun",
+    "Ekran ruxsatini oshirish uchun",
+    "Printerni sozlash uchun"
+   ],
+   "e": "Imzolar bazasi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "Ruxsatsiz o'rnatilgan (piratlik) dasturlardan foydalanishning xavfi nima?",
+   "a": [
+    "Zararli dastur va huquqiy javobgarlik",
+    "Kompyuter litsenziyaliga qaraganda tezroq ishlaydi",
+    "Yangilanishlar tez-tez va bepul keladi",
+    "Ishlab chiqaruvchi rasmiy texnik yordam beradi"
+   ],
+   "e": "Litsenziya talab qilinadi."
+  },
+  {
+   "b": "Operatsion tizim va dasturiy ta'minotga xizmat",
+   "q": "Ma'lumotlarni ishonchli o'chirish (qayta tiklab bo'lmaydigan qilib) uchun nima qilinadi?",
+   "a": [
+    "Maxsus dastur bilan bir necha marta ustidan yozish",
+    "Faylni Savatga tashlab, Savatni bo'shatish",
+    "Fayl nomi va kengaytmasini o'zgartirish",
+    "Faylni boshqa yashirin papkaga ko'chirish"
+   ],
+   "e": "Disk hisobdan chiqarilganda."
+  },
+  {
+   "b": "Noutbuk va mobil qurilmalarga xizmat",
+   "q": "Noutbuk batareyasining xizmat muddatini uzaytirish uchun nima tavsiya etiladi?",
+   "a": [
+    "Qizib ketishdan saqlash va to'liq razryadlamaslik",
+    "Har safar nolgacha to'liq razryadlash",
+    "Issiq joyda, ko'rpa ustida zaryadlash",
+    "Batareyani vaqti-vaqti bilan muzlatgichda saqlash"
+   ],
+   "e": "Li-ion xususiyati."
+  },
+  {
+   "b": "Noutbuk va mobil qurilmalarga xizmat",
+   "q": "Noutbuk batareyasi shishib qolsa nima qilish kerak?",
+   "a": [
+    "Foydalanishni to'xtatib, almashtirish",
+    "Bosib, korpus ichiga qaytarib kiritish",
+    "Teshib, ichidagi gazni chiqarib yuborish",
+    "Odatdagidek zaryadlashda davom etish"
+   ],
+   "e": "Yong'in xavfi."
+  },
+  {
+   "b": "Noutbuk va mobil qurilmalarga xizmat",
+   "q": "Noutbuk klaviaturasiga suyuqlik to'kilsa, birinchi qadam nima?",
+   "a": [
+    "Darhol o'chirib, quvvatdan uzish",
+    "Hech narsa qilmay ishlashda davom etish",
+    "Yoniq holda fen bilan issiq havoda quritish",
+    "Darhol zaryadlovchiga ulab qo'yish"
+   ],
+   "e": "Qisqa tutashuvning oldini olish."
+  },
+  {
+   "b": "Noutbuk va mobil qurilmalarga xizmat",
+   "q": "Noutbuk juda qizib, ventilyator shovqin qilsa, sabab ko'pincha nima?",
+   "a": [
+    "Radiator chang bilan to'lgan",
+    "Ekran yorqinligi juda past qilingan",
+    "Klaviatura tili noto'g'ri tanlangan",
+    "Wi-Fi adapter o'chirib qo'yilgan"
+   ],
+   "e": "Tozalash va termopastani almashtirish."
+  },
+  {
+   "b": "Noutbuk va mobil qurilmalarga xizmat",
+   "q": "Noutbukni yumshoq yuzada (ko'rpa ustida) ishlatish nima uchun zararli?",
+   "a": [
+    "Shamollatish teshiklari yopilib qiziydi",
+    "Ekran ruxsati avtomatik pasayadi",
+    "Wi-Fi signali haddan tashqari kuchayadi",
+    "Klaviatura javobi tezlashib ketadi"
+   ],
+   "e": "Havo aylanishi buziladi."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Tizim blokini ochishdan oldin nima qilish shart?",
+   "a": [
+    "Elektr tarmog'idan uzish",
+    "Kompyuterni yoqib qo'yish",
+    "Monitorni yoqish",
+    "Internetga ulash"
+   ],
+   "e": "Elektr xavfsizligi."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Kompyuter jihozlari yonganda qaysi o't o'chirgich ishlatiladi?",
+   "a": [
+    "CO₂ yoki kukunli",
+    "Suvli",
+    "Ko'pikli suvli",
+    "Qum solingan chelak bilan suv"
+   ],
+   "e": "Kuchlanish ostidagi jihozlarga suv mumkin emas."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Monitor oldida uzoq ishlaganda ko'z charchamasligi uchun nima tavsiya etiladi?",
+   "a": [
+    "Muntazam tanaffus va ko'z mashqlari",
+    "Ekran yorqinligini maksimal qilib ishlash",
+    "Ekranga 10–15 sm yaqinlikda o'tirish",
+    "Faqat qorong'i xonada ishlash"
+   ],
+   "e": "20-20-20 qoidasi."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Ish joyida monitor ko'zdan taxminan qanday masofada bo'lishi tavsiya etiladi?",
+   "a": [
+    "50–70 sm",
+    "10–15 sm",
+    "2 metr",
+    "5 sm"
+   ],
+   "e": "Ergonomika."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Lazer printer ishlaganda ozon hosil bo'lishi mumkin. Shuning uchun nima tavsiya etiladi?",
+   "a": [
+    "Xonani shamollatish",
+    "Printerni yopiq shkafga qo'yish",
+    "Printer yonida ovqatlanish",
+    "Printerni yostiq bilan yopish"
+   ],
+   "e": "Shamollatiladigan joy."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Tonerni to'kib yuborganda uni qanday tozalash kerak?",
+   "a": [
+    "Sovuq suvli nam latta bilan",
+    "Issiq suv bilan yuvish",
+    "Oddiy changyutkich bilan tortish",
+    "Og'iz bilan puflash"
+   ],
+   "e": "Issiq suv tonerni eritadi, mayda kukun tarqaladi."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Ishdan chiqqan kompyuter texnikasi qanday utilizatsiya qilinadi?",
+   "a": [
+    "Elektron chiqindilarni qabul qiluvchi tashkilotga topshiriladi",
+    "Oddiy maishiy chiqindi qutisiga tashlanadi",
+    "Hovlida yoqib yuboriladi",
+    "Qurilish chiqindilari bilan ko'miladi"
+   ],
+   "e": "Zararli moddalar mavjud."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Ishlatilgan batareyalarni nima qilish kerak?",
+   "a": [
+    "Maxsus yig'ish punktiga topshirish",
+    "Uni olovga tashlab yo'q qilish",
+    "Hovliga yerga ko'mib qo'yish",
+    "Oddiy maishiy axlatga tashlash"
+   ],
+   "e": "Ekologik xavfsizlik."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Kompyuter xonasida tarmoq kabellari qanday yotqizilishi kerak?",
+   "a": [
+    "Kabel kanallarida, yo'lakdan chetda",
+    "Polning o'rtasidan ochiq holda",
+    "Eshik ostidan va ostonadan",
+    "Isitish radiatori ustidan"
+   ],
+   "e": "Shikastlanish va yiqilish xavfi."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Bitta rozetkaga ko'p kuchli jihozlarni ulash nimaga olib keladi?",
+   "a": [
+    "Ortiqcha yuklanish va yong'in xavfi",
+    "Elektr energiyasi sezilarli tejaladi",
+    "Barcha jihozlar tezroq ishlaydi",
+    "Tarmoqdagi kuchlanish barqarorlashadi"
+   ],
+   "e": "Uzaytirgichlarni ketma-ket ulamaslik."
+  },
+  {
+   "b": "Elektr va mehnat xavfsizligi",
+   "q": "Tarmoq filtri (setevoy filtr) nimadan himoya qiladi?",
+   "a": [
+    "Kuchlanish sakrashi va shovqinlardan",
+    "Kompyuter viruslari va zararli dasturlardan",
+    "Chang va namlik kirishidan",
+    "Jihozlarning o'g'irlanishidan"
+   ],
+   "e": "Impulsli to'siqlar."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Protsessor, xotira va qurilmalarni bog'lovchi umumiy aloqa yo'llari qanday ataladi?",
+   "a": [
+    "Shina",
+    "Sokket va uning kontaktlari majmuasi",
+    "Quvvat blokining chiqish kabellari",
+    "Kesh xotiraning ichki bloklari"
+   ],
+   "e": "Ma'lumot, adres va boshqaruv shinalari."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Adres shinasining razryadi nimani belgilaydi?",
+   "a": [
+    "Adreslanadigan xotira hajmini",
+    "Monitorga uzatiladigan ranglar sonini",
+    "Quvvat blokining chiqish quvvatini",
+    "Klaviaturadagi tugmalar sonini"
+   ],
+   "e": "n razryad — 2ⁿ adres."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Xotira ierarxiyasida eng tez va eng kichik sig'imli bosqich qaysi?",
+   "a": [
+    "Registrlar",
+    "Qattiq disk va SSD nakopitellar",
+    "Operativ xotira modullari",
+    "Bulutli saqlash xizmatlari"
+   ],
+   "e": "Registr → kesh → RAM → disk."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Xotira ierarxiyasida eng katta sig'imli, ammo eng sekin bosqich qaysi?",
+   "a": [
+    "Tashqi xotira",
+    "Protsessor registrlari",
+    "Birinchi darajali kesh xotira",
+    "Ikkinchi darajali kesh xotira"
+   ],
+   "e": "Disklar, lentalar."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Protsessor buyruqni bajarish sikli qaysi bosqichlardan iborat?",
+   "a": [
+    "Olish, dekodlash, bajarish",
+    "Yuklash, chop etish, o'chirish",
+    "Formatlash, nusxalash, saqlash",
+    "Skanerlash, arxivlash, yuborish"
+   ],
+   "e": "Fetch – Decode – Execute."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Konveyer (pipeline) texnologiyasi protsessorda nima beradi?",
+   "a": [
+    "Bir nechta buyruqni bosqichma-bosqich bir vaqtda bajarish",
+    "Har bir buyruqni ketma-ket, birin-ketin bajarish",
+    "Protsessorni suyuqlik bilan sovitish",
+    "Operativ xotira hajmini ikki baravar oshirish"
+   ],
+   "e": "Unumdorlik ortadi."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Uzilish (interrupt) nima?",
+   "a": [
+    "Qurilmaning protsessorga signal berishi",
+    "Elektr tokining to'satdan uzilishi",
+    "Internet aloqasining yo'qolishi",
+    "Dasturni majburan o'chirish buyrug'i"
+   ],
+   "e": "IRQ."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "DMA (xotiraga bevosita murojaat) nima beradi?",
+   "a": [
+    "Protsessorsiz ma'lumot uzatish",
+    "Protsessorni har bir baytni ko'chirishga majburlash",
+    "Xotiradagi ma'lumotlarni shifrlash",
+    "Monitor yangilanish chastotasini oshirish"
+   ],
+   "e": "Direct Memory Access."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Protsessor unumdorligi ko'rsatkichlaridan biri qaysi?",
+   "a": [
+    "Takt chastotasi",
+    "Korpusning rangi va dizayni",
+    "Kulerning og'irligi",
+    "Ona plataning narxi"
+   ],
+   "e": "Yadrolar soni, IPC, kesh ham muhim."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Noutbuk protsessorlari nomidagi \"U\" harfi (Intel) odatda nimani bildiradi?",
+   "a": [
+    "Kam quvvat sarflaydi",
+    "Eng yuqori quvvatli overklok modeli",
+    "Integratsiyalashgan grafikasiz model",
+    "Faqat server uchun mo'ljallangan"
+   ],
+   "e": "Ultra low power."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "\"K\" harfi bilan tugaydigan Intel protsessorlari nimasi bilan farq qiladi?",
+   "a": [
+    "Overklok qilish mumkin",
+    "Grafik yadrosi yo'q",
+    "Faqat noutbuklar uchun",
+    "Kam quvvat sarflaydi"
+   ],
+   "e": "Ochiq ko'paytirgich."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Kompyuterning ichki komponentlari ichida eng ko'p issiqlik ajratadiganlari qaysilar?",
+   "a": [
+    "Protsessor va videokarta",
+    "Klaviatura va sichqoncha",
+    "CMOS batareyasi va jamperlar",
+    "SATA kabellari va vintlar"
+   ],
+   "e": "Faol sovutish talab qiladi."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Suyuqlikli sovutish tizimining asosiy qismlari qaysilar?",
+   "a": [
+    "Nasos, radiator, suv bloki",
+    "Lazer, baraban, fyuzer",
+    "Kallak, siyoh, sopo",
+    "Ignalar, lenta, rolik"
+   ],
+   "e": "AIO tizimlar."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Korpusda havo oqimini to'g'ri tashkil etish uchun odatda qanday sxema qo'llanadi?",
+   "a": [
+    "Old tomondan kirish, orqa va yuqoridan chiqish",
+    "Barcha ventilyatorlar faqat havoni ichkariga haydaydi",
+    "Barcha ventilyatorlar faqat havoni tashqariga chiqaradi",
+    "Ventilyatorlarsiz, korpus yopiq holda"
+   ],
+   "e": "Issiq havo yuqoriga ko'tariladi."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Ona plata va komponentlar mosligini tekshirishda qaysi hujjat asosiy manba?",
+   "a": [
+    "Ishlab chiqaruvchining QVL va qo'llanmasi",
+    "Ijtimoiy tarmoqlardagi tasodifiy izohlar",
+    "Do'kondagi reklama varaqasi",
+    "Korpus qutisidagi rasm"
+   ],
+   "e": "Qualified Vendor List."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Kompyuter yig'ishda protsessor sokketga qanday o'rnatiladi?",
+   "a": [
+    "Belgi (uchburchak) mos holda, kuch ishlatmasdan",
+    "Istalgan tomoniga burab, kuch bilan bosib",
+    "Termopastani sokketga surtib, yopishtirib",
+    "Avval kulerni o'rnatib, keyin protsessorni tiqib"
+   ],
+   "e": "Kontaktlar egilmasligi uchun."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Kompyuter yig'ilgandan so'ng birinchi ishga tushirishda nima tekshiriladi?",
+   "a": [
+    "POST va BIOS da qurilmalar aniqlanishi",
+    "Faqat korpus chiroqlarining rangi",
+    "Printerda test sahifasi chiqishi",
+    "Internet tezligi"
+   ],
+   "e": "Disk, RAM, protsessor aniqlanadimi."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Gibrid qattiq disk (SSHD) nima?",
+   "a": [
+    "HDD va kichik flesh-keshning birikmasi",
+    "Ikkita HDD ning RAID massivi",
+    "Optik disk va fleshka birikmasi",
+    "Faqat bulutda ishlovchi virtual disk"
+   ],
+   "e": "Tez-tez ishlatiladigan ma'lumot keshda."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Tarmoqqa ulangan xotira qurilmasi (fayl saqlovchi) qanday nomlanadi?",
+   "a": [
+    "NAS",
+    "UPS",
+    "KVM",
+    "PSU"
+   ],
+   "e": "Network Attached Storage."
+  },
+  {
+   "b": "Kompyuter arxitekturasi asoslari",
+   "q": "Bitta klaviatura, monitor va sichqoncha bilan bir nechta kompyuterni boshqarish qurilmasi qaysi?",
+   "a": [
+    "KVM-kommutator",
+    "USB-fleshka",
+    "Tarmoq filtri",
+    "Modem"
+   ],
+   "e": "Keyboard-Video-Mouse."
+  }
+ ],
+ "kalit": "kompyuter apparat ofis jihozlari printer texnik xizmat ta'mirlash EHM operator"
+}
