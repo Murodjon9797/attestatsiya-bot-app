@@ -41,7 +41,7 @@ class QuestionBank:
         kat = {sid: title for _, title, ids in cats for sid in ids}
         kat_n = {sid: n for n, (_, _, ids) in enumerate(cats) for sid in ids}
         return [{"id": s["id"], "kod": s.get("kod", ""), "nomi": s["nomi"], "soni": len(s["savollar"]),
-                 "turi": s.get("turi", "maxsus"), "manba": s.get("manba", ""), "kat": kat.get(s["id"], ""), "kat_n": kat_n.get(s["id"], 99),
+                 "turi": s.get("turi", "maxsus"), "manba": s.get("manba", ""), "kat": kat.get(s["id"], ""), "kalit": s.get("kalit", ""), "kat_n": kat_n.get(s["id"], 99),
                  "bolimlar": list(dict.fromkeys(q.get("b", "") for q in s["savollar"] if q.get("b")))}
                 for s in sorted(self.subjects.values(),
                                 key=lambda x: (order.get(x.get("turi", "maxsus"), 1), x["nomi"].lower()))]
@@ -155,7 +155,7 @@ def _search(bank: "QuestionBank", query: str) -> tuple[list[str], list[str]]:
         return [], []
     hits: list[tuple[int, str]] = []
     for sid, s in bank.subjects.items():
-        words = norm(s["nomi"] + " " + sid.replace("_", " ")).split()
+        words = norm(s["nomi"] + " " + sid.replace("_", " ") + " " + s.get("kalit", "")).split()
         if all(any(w.startswith(q) or (len(q) >= 5 and q in w) for w in words) for q in qw):
             score = sum(1 for q in qw for w in words if w == q)
             hits.append((-score, s["nomi"].lower(), sid))

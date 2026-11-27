@@ -1,6 +1,6 @@
 {
  "kod": "5PM0284",
- "nomi": "Fizika",
+ "nomi": "Fizika va astronomiya",
  "turi": "umumtalim",
  "manba": "2026-yilgi texnikum o'quv rejalari (68 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
  "savollar": [
@@ -3336,6 +3336,381 @@
     "Quyosh ufqdan pastga tushganda"
    ],
    "e": "Yer Quyosh va Oy orasiga tushganda Oy tutilishi bo'ladi."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Quyosh sistemasida nechta sayyora bor?",
+   "a": [
+    "8 ta",
+    "9 ta",
+    "7 ta",
+    "10 ta"
+   ],
+   "e": "2006-yildan Pluton mitti sayyora."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Quyoshga eng yaqin sayyora qaysi?",
+   "a": [
+    "Merkuriy",
+    "Venera",
+    "Mars",
+    "Yer"
+   ],
+   "e": "Ichki sayyora."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Quyosh sistemasidagi eng katta sayyora qaysi?",
+   "a": [
+    "Yupiter",
+    "Saturn",
+    "Neptun",
+    "Yer"
+   ],
+   "e": "Gaz giganti."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Halqalari bilan mashhur sayyora qaysi?",
+   "a": [
+    "Saturn",
+    "Mars",
+    "Merkuriy",
+    "Venera"
+   ],
+   "e": "Muz va tosh zarralari."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "\"Qizil sayyora\" deb qaysi sayyora ataladi?",
+   "a": [
+    "Mars",
+    "Yupiter",
+    "Venera",
+    "Merkuriy"
+   ],
+   "e": "Temir oksidi."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Quyosh sistemasidagi eng issiq sayyora qaysi?",
+   "a": [
+    "Venera",
+    "Merkuriy",
+    "Mars",
+    "Yupiter"
+   ],
+   "e": "Kuchli parnik effekti."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Yerdan Quyoshgacha bo'lgan o'rtacha masofa qancha?",
+   "a": [
+    "~150 mln km",
+    "~384 ming km",
+    "~1 mln km",
+    "~1 mlrd km"
+   ],
+   "e": "Astronomik birlik."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Yerdan Oygacha o'rtacha masofa qancha?",
+   "a": [
+    "~384 ming km",
+    "~150 mln km",
+    "~40 ming km",
+    "~1 mln km"
+   ],
+   "e": "Yerning tabiiy yo'ldoshi."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Yorug'lik yili nima?",
+   "a": [
+    "Yorug'likning yillik yo'li",
+    "Bir yil davomidagi kunlar soni",
+    "Quyoshning yorug'lik kuchi",
+    "Yerning aylanish davri"
+   ],
+   "e": "~9,46 × 10¹² km."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Yerning o'z o'qi atrofida aylanish davri qancha?",
+   "a": [
+    "~24 soat",
+    "~365 kun",
+    "~27 kun",
+    "~1 soat"
+   ],
+   "e": "Yulduz sutkasi ~23 s 56 min."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Yer Quyosh atrofini qancha vaqtda aylanib chiqadi?",
+   "a": [
+    "~365 sutka",
+    "24 soatda",
+    "30 kunda",
+    "12 yilda"
+   ],
+   "e": "Kabisa yili sababi."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Fasllar almashinuvining asosiy sababi nima?",
+   "a": [
+    "Yer o'qining og'maligi",
+    "Yerning Quyoshdan uzoqlashishi faqat",
+    "Oyning ta'siri",
+    "Quyosh faolligining o'zgarishi"
+   ],
+   "e": "~23,4°."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Oy fazalari nimaga bog'liq?",
+   "a": [
+    "O'zaro joylashuvga",
+    "Oyning o'z yorug'ligiga",
+    "Yer atmosferasiga",
+    "Bulutlarga"
+   ],
+   "e": "Sinodik oy ~29,5 sutka."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Quyosh tutilishi qachon sodir bo'ladi?",
+   "a": [
+    "Oy Yer bilan Quyosh orasidan o'tganda",
+    "Yer Oy bilan Quyosh orasida bo'lganda",
+    "Mars Quyoshni to'sganda",
+    "Kechasi har doim"
+   ],
+   "e": "Yangi oy fazasida."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Oy tutilishi qachon sodir bo'ladi?",
+   "a": [
+    "Oy Yer soyasiga tushganda",
+    "Oy Quyoshni to'sganda",
+    "Yer Oy soyasiga tushganda",
+    "Kunduzi har doim"
+   ],
+   "e": "To'linoy fazasida."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Quyosh qanday osmon jismi?",
+   "a": [
+    "Yulduz",
+    "Sayyora",
+    "Kometa",
+    "Asteroid"
+   ],
+   "e": "G sinfli sariq mitti."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Quyosh energiyasining manbai nima?",
+   "a": [
+    "Termoyadro sintezi",
+    "Ko'mirning yonishi",
+    "Yadro bo'linishi (uran)",
+    "Kimyoviy reaksiyalar"
+   ],
+   "e": "Yadroda."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Somon yo'li nima?",
+   "a": [
+    "Bizning galaktika",
+    "Yerning yo'ldoshi",
+    "Kometa dumi",
+    "Yulduz turkumi faqat"
+   ],
+   "e": "Spiral galaktika."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Keplerning birinchi qonuniga ko'ra sayyoralar qanday orbita bo'ylab harakatlanadi?",
+   "a": [
+    "Ellips bo'ylab",
+    "Aniq aylana bo'ylab",
+    "To'g'ri chiziq bo'ylab",
+    "Spiral bo'ylab"
+   ],
+   "e": "Elliptik orbita."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Geliotsentrik sistemani kim taklif qilgan?",
+   "a": [
+    "Nikolay Kopernik",
+    "Klavdiy Ptolemey",
+    "Aristotel",
+    "Isaak Nyuton"
+   ],
+   "e": "XVI asr."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Teleskopni astronomik kuzatuvlar uchun birinchilardan bo'lib kim qo'llagan?",
+   "a": [
+    "Galileo Galiley",
+    "Kopernik",
+    "Ptolemey",
+    "Kepler"
+   ],
+   "e": "1609–1610-yillar."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Butun olam tortishish qonunini kim kashf etgan?",
+   "a": [
+    "Isaak Nyuton",
+    "Galileo Galiley",
+    "Iogann Kepler",
+    "Albert Eynshteyn"
+   ],
+   "e": "1687-yil."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Kosmosga uchirilgan birinchi sun'iy yo'ldosh qachon uchirilgan?",
+   "a": [
+    "1957-yilda",
+    "1961-yilda",
+    "1969-yilda",
+    "1945-yilda"
+   ],
+   "e": "SSSR, 4-oktabr."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Birinchi kosmik tezlik qiymati taxminan qancha?",
+   "a": [
+    "7,9 km/s",
+    "11,2 km/s",
+    "16,7 km/s",
+    "3,0 km/s"
+   ],
+   "e": "Yer atrofida aylanish uchun."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Ikkinchi kosmik tezlik qiymati taxminan qancha?",
+   "a": [
+    "11,2 km/s",
+    "7,9 km/s",
+    "16,7 km/s",
+    "300 000 km/s"
+   ],
+   "e": "Yer tortishishini yengish."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Kometa nima?",
+   "a": [
+    "Muz-chang jism, dumli",
+    "Sayyoraning yo'ldoshi",
+    "Yulduz",
+    "Galaktika"
+   ],
+   "e": "Masalan, Galley kometasi."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Meteor nima?",
+   "a": [
+    "\"Uchar yulduz\"",
+    "Sayyora",
+    "Galaktika",
+    "Quyosh dog'i"
+   ],
+   "e": "Yerga yetib kelgani — meteorit."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Asteroidlar belbog'i qaysi sayyoralar orasida joylashgan?",
+   "a": [
+    "Mars va Yupiter",
+    "Yer va Mars",
+    "Venera va Yer",
+    "Saturn va Uran"
+   ],
+   "e": "Asosiy belbog'."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Yulduzlarning ko'rinma kattaligi nimani bildiradi?",
+   "a": [
+    "Ko'rinma yorqinlikni",
+    "Yulduzning haqiqiy o'lchamini",
+    "Yulduzning massasini",
+    "Yulduzning yoshini"
+   ],
+   "e": "Kichik qiymat — yorqinroq."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Qutb yulduzi qaysi yulduz turkumida joylashgan?",
+   "a": [
+    "Kichik Ayiq",
+    "Katta Ayiq",
+    "Orion",
+    "Kassiopeya"
+   ],
+   "e": "Shimol yo'nalishini ko'rsatadi."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Ulug'bek rasadxonasida yaratilgan yulduzlar katalogida nechta yulduz bor?",
+   "a": [
+    "1018 ta",
+    "500 ta",
+    "2000 ta",
+    "100 ta"
+   ],
+   "e": "\"Ziji Ko'ragoniy\"."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Galaktikalarning bir-biridan uzoqlashishini qaysi olim aniqlagan?",
+   "a": [
+    "Edvin Xabbl",
+    "Isaak Nyuton",
+    "Nikolay Kopernik",
+    "Tixo Brage"
+   ],
+   "e": "Koinot kengaymoqda."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Qora tuynuk nima?",
+   "a": [
+    "Yorug'lik chiqmaydigan soha",
+    "Quyoshdagi qora dog'",
+    "Sayyoralar orasidagi bo'shliq",
+    "Kometa dumi"
+   ],
+   "e": "Gravitatsion obyekt."
+  },
+  {
+   "b": "Astronomiya",
+   "q": "Yerning tabiiy yo'ldoshi nechta?",
+   "a": [
+    "1 ta",
+    "2 ta",
+    "0 ta",
+    "4 ta"
+   ],
+   "e": "Oy."
   }
- ]
+ ],
+ "kalit": "fizika astronomiya"
 }

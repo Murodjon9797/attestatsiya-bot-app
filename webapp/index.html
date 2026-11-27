@@ -252,7 +252,7 @@ function renderWizard(){
     } else {
       const hint = `<p class="note">Nizom (18-band): bir nechta umumkasbiy va maxsus fandan dars bersangiz, <b>o'quv yuklamasi eng ko'p bo'lgan fanni</b> tanlang. Yuklama teng bo'lsa — o'zingiz tanlagan fan.</p>`;
       const nrm = s => s.toLowerCase().replace(/[ʻʼ‘’`']/g,"");
-      const arr = B.filter(b=>b.turi==="maxsus" && (!W.q || nrm(b.nomi+" "+b.kat).includes(nrm(W.q.trim()))));
+      const arr = B.filter(b=>b.turi==="maxsus" && (!W.q || nrm(b.nomi+" "+b.kat+" "+(b.kalit||"")).includes(nrm(W.q.trim()))));
       const kats = [...new Set([...arr].sort((a,b)=>(a.kat_n??99)-(b.kat_n??99)).map(b=>b.kat))];
       html = head("Qaysi fandan dars berasiz?", "2-qadam · Attestatsiya fani") + hint
         + `<input class="search" id="wq" placeholder="🔍 Fan nomini yozing: dasturlash, lotin, temir yo'l…" value="${esc(W.q||"")}" autocomplete="off">`
@@ -388,7 +388,7 @@ function renderTest(){
     const p = S.me.profil, mine = p && p.sid && S.bank.find(b=>b.id===p.sid);
     const item = b => { const st=subjStat(b.id); return `<button class="item" data-bank="${esc(b.id)}"><div class="t"><b>${esc(b.nomi)}</b><small>${esc([b.kod, b.soni+" ta savol"].filter(Boolean).join(" · "))}</small></div>${st?`<span class="tag ${pc(st.togri,st.jami)>=PASS()?'g':'p'}">${pc(st.togri,st.jami)}%</span>`:""}<span class="chev">›</span></button>`; };
     const nrm = s => s.toLowerCase().replace(/[ʻʼ‘’`']/g,"");
-    const found = S.filter ? S.bank.filter(b => nrm(b.nomi+" "+b.kat).includes(nrm(S.filter.trim()))) : [];
+    const found = S.filter ? S.bank.filter(b => nrm(b.nomi+" "+b.kat+" "+(b.kalit||"")).includes(nrm(S.filter.trim()))) : [];
     const kats = [...new Set([...S.bank].sort((a,b)=>(a.kat_n??99)-(b.kat_n??99)).map(b=>b.kat))];
     html = crumbs("Fanni tanlang", `${S.bank.length} ta fan · nomini yozib qidiring`)
       + searchBox("🔍 Fan nomini yozing: dasturlash, lotin, temir yo'l…")
