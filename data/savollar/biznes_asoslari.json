@@ -1,0 +1,3341 @@
+{
+ "kod": "",
+ "nomi": "Biznes asoslari",
+ "turi": "umumtalim",
+ "manba": "Attestatsiya ro'yxatidagi fan (220+ o'qituvchi); savollar tadbirkorlik qonunchiligi, biznes-rejalashtirish, marketing, moliya va soliq asoslari bo'yicha",
+ "savollar": [
+  {
+   "b": "Talab va taklif",
+   "q": "Talab qonuni nimani ta'kidlaydi?",
+   "a": [
+    "Narx oshsa, talab miqdori kamayadi",
+    "Narx oshsa, talab miqdori ham albatta ortadi",
+    "Talab miqdori narxga hech qachon bog'liq bo'lmaydi",
+    "Narx pasaysa, talab miqdori ham kamayadi"
+   ],
+   "e": "Boshqa sharoitlar o'zgarmagan holda."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Taklif qonuni nimani ta'kidlaydi?",
+   "a": [
+    "Narx oshsa, taklif miqdori ortadi",
+    "Narx oshsa, ishlab chiqaruvchilar taklifni kamaytiradi",
+    "Taklif narxga bog'liq emas",
+    "Narx pasaysa, taklif ortadi"
+   ],
+   "e": "Ishlab chiqaruvchilar uchun foydali."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Talab egri chizig'i odatda qanday yo'nalishda?",
+   "a": [
+    "Pastga qiya (manfiy qiyalik)",
+    "Yuqoriga qiya (musbat qiyalik)",
+    "Gorizontal",
+    "Vertikal"
+   ],
+   "e": "Teskari bog'lanish."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Iste'molchilar daromadi oshsa, normal tovar talabi qanday o'zgaradi?",
+   "a": [
+    "Ortadi (egri o'ngga siljiydi)",
+    "Kamayadi (egri chapga siljiydi)",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Past sifatli tovarda aksincha."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "O'rinbosar tovar narxi oshsa, asosiy tovar talabi qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Masalan, choy va qahva."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "To'ldiruvchi tovar narxi oshsa, asosiy tovar talabi qanday o'zgaradi?",
+   "a": [
+    "Kamayadi",
+    "Ortadi",
+    "O'zgarmaydi",
+    "Ikki baravar ortadi"
+   ],
+   "e": "Masalan, avtomobil va benzin."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Bozor muvozanati nima?",
+   "a": [
+    "Talab va taklif tengligi",
+    "Narx eng yuqori bo'lgan holat",
+    "Taklif nolga teng holat",
+    "Davlat narxni belgilagan holat"
+   ],
+   "e": "Muvozanat narx va miqdor."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Narx muvozanatdan yuqori bo'lsa nima yuzaga keladi?",
+   "a": [
+    "Ortiqcha taklif",
+    "Tovar taqchilligi",
+    "Talab ortadi",
+    "Muvozanat saqlanadi"
+   ],
+   "e": "Narx pasayishga moyil."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Narx muvozanatdan past bo'lsa nima yuzaga keladi?",
+   "a": [
+    "Taqchillik",
+    "Ortiqcha taklif",
+    "Ishlab chiqarish to'xtaydi",
+    "Talab kamayadi"
+   ],
+   "e": "Narx ko'tarilishga moyil."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Davlat narxning yuqori chegarasini muvozanatdan past belgilasa nima bo'ladi?",
+   "a": [
+    "Taqchillik yuzaga keladi",
+    "Ortiqcha taklif yuzaga keladi",
+    "Muvozanat buzilmaydi",
+    "Ishlab chiqarish ortadi"
+   ],
+   "e": "Navbatlar, \"qora bozor\"."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Talabning narx bo'yicha elastikligi nimani ko'rsatadi?",
+   "a": [
+    "Narxga sezgirlikni",
+    "Taklifning daromadga bog'liqligini",
+    "Tovar sifatini",
+    "Ishlab chiqarish xarajatlarini"
+   ],
+   "e": "Foizli o'zgarishlar nisbati."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Narx 10% oshganda talab 20% kamaysa, elastiklik koeffitsiyenti (modul) qancha?",
+   "a": [
+    "2",
+    "0,5",
+    "10",
+    "20"
+   ],
+   "e": "20/10 — elastik talab."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Qaysi tovarlarga talab odatda noelastik?",
+   "a": [
+    "Birinchi zarurat tovarlari",
+    "Hashamatli buyumlar",
+    "Ko'p o'rinbosari bor tovarlar",
+    "Turistik sayohatlar"
+   ],
+   "e": "Narx o'zgarsa ham talab kam o'zgaradi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Talab elastik bo'lsa, narxni pasaytirish umumiy tushumga qanday ta'sir qiladi?",
+   "a": [
+    "Tushum ortadi",
+    "Tushum kamayadi",
+    "Tushum o'zgarmaydi",
+    "Tushum nolga tushadi"
+   ],
+   "e": "Miqdor narxdan tezroq ortadi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Taklif egri chizig'ining o'ngga siljishiga nima sabab bo'ladi?",
+   "a": [
+    "Texnologiyaning yaxshilanishi",
+    "Xomashyo narxining keskin oshishi",
+    "Soliqlarning oshishi",
+    "Ishlab chiqaruvchilar sonining kamayishi"
+   ],
+   "e": "Xarajatlar kamayadi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Giffen tovari nima?",
+   "a": [
+    "Narx oshsa talabi ortadigan tovar",
+    "Narx oshganda talabi kamayadigan normal tovar",
+    "Hashamatli tovar",
+    "Davlat tovari"
+   ],
+   "e": "Talab qonuniga istisno."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Veblen effekti nima?",
+   "a": [
+    "Obro' uchun talab ortishi",
+    "Arzon tovarga talabning kamayishi",
+    "Narxning soliq tufayli oshishi",
+    "Ishlab chiqarishning to'xtashi"
+   ],
+   "e": "Hashamat tovarlari."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Iste'molchi ortiqchaligi nima?",
+   "a": [
+    "Tayyor narx va haqiqiy narx farqi",
+    "Iste'molchining ortiqcha xaridlari",
+    "Sotilmagan tovarlar",
+    "Ortiqcha soliq"
+   ],
+   "e": "Iste'molchi foydasi."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Mukammal raqobat bozorining belgisi qaysi?",
+   "a": [
+    "Ko'p sotuvchi va bir xil mahsulot",
+    "Bitta sotuvchi va o'rinbosarsiz mahsulot",
+    "Bir nechta yirik sotuvchi",
+    "Bozorga kirish to'siqlari yuqori"
+   ],
+   "e": "Firma narxni belgilay olmaydi."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Monopoliya nima?",
+   "a": [
+    "Bitta sotuvchi hukmronligi",
+    "Ko'p sotuvchilar raqobati",
+    "Bitta xaridor hukmronligi",
+    "Davlatning narx belgilashi"
+   ],
+   "e": "Bozorga kirish to'siqlari."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Monopsoniya nima?",
+   "a": [
+    "Bozorda bitta xaridor hukmronligi",
+    "Bozorda bitta sotuvchi hukmronligi",
+    "Ikki sotuvchili bozor",
+    "Ko'p xaridor va ko'p sotuvchi"
+   ],
+   "e": "Masalan, yagona yirik ish beruvchi."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Oligopoliya nima?",
+   "a": [
+    "Bir nechta yirik firma",
+    "Yagona firma hukmronligi",
+    "Minglab mayda firmalar",
+    "Davlat monopoliyasi"
+   ],
+   "e": "Masalan, avtomobil sanoati."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Duopoliya nima?",
+   "a": [
+    "Ikki sotuvchili bozor",
+    "Bir sotuvchili bozor",
+    "Uch sotuvchili bozor",
+    "Ikki xaridorli bozor"
+   ],
+   "e": "Oligopoliyaning xususiy holi."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Monopolistik raqobatning belgisi qaysi?",
+   "a": [
+    "Ko'p firma, farqli mahsulot",
+    "Bitta firma, yagona mahsulot",
+    "Ikki firma, bir xil mahsulot",
+    "Davlat belgilagan narx"
+   ],
+   "e": "Masalan, restoranlar, kiyim."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Tabiiy monopoliyaga misol qaysi?",
+   "a": [
+    "Suv va elektr tarmoqlari",
+    "Kiyim-kechak do'konlari",
+    "Kafe va restoranlar",
+    "Qishloq xo'jaligi bozori"
+   ],
+   "e": "Bitta firma arzonroq xizmat ko'rsatadi."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Kartel nima?",
+   "a": [
+    "Kelishgan firmalar birlashmasi",
+    "Bitta mustaqil kichik firma",
+    "Davlat banki",
+    "Kasaba uyushmasi"
+   ],
+   "e": "Ko'pchilik mamlakatlarda taqiqlangan."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Antimonopol siyosatning maqsadi nima?",
+   "a": [
+    "Raqobatni himoya qilish",
+    "Monopoliyalarni kuchaytirish",
+    "Narxlarni oshirish",
+    "Kichik biznesni yopish"
+   ],
+   "e": "Raqobat to'g'risidagi qonunchilik."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Narx diskriminatsiyasi nima?",
+   "a": [
+    "Turli xaridorga turli narx",
+    "Barcha xaridorlarga bir xil narx",
+    "Narxni davlat belgilashi",
+    "Tovarni bepul tarqatish"
+   ],
+   "e": "Monopolist strategiyasi."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Mukammal raqobatda firma qisqa muddatda qaysi shartda foydani maksimallashtiradi?",
+   "a": [
+    "MC = P",
+    "MC = 0",
+    "P = 0",
+    "TC = 0"
+   ],
+   "e": "Chegaraviy xarajat narxga teng."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Monopolist foydani maksimallashtirish sharti qaysi?",
+   "a": [
+    "MR = MC",
+    "P = 0",
+    "TR = TC",
+    "MC = 0"
+   ],
+   "e": "Chegaraviy daromad = chegaraviy xarajat."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Doimiy xarajatlarga nima kiradi?",
+   "a": [
+    "Ijara va amortizatsiya",
+    "Xomashyo va materiallar xarajatlari",
+    "Ishbay ish haqi",
+    "Elektr energiyasi (ishlab chiqarishga)"
+   ],
+   "e": "Ishlab chiqarish hajmiga bog'liq emas."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "O'zgaruvchan xarajatlarga nima kiradi?",
+   "a": [
+    "Xomashyo va materiallar",
+    "Bino ijara haqi",
+    "Boshqaruv xodimlari maoshi",
+    "Sug'urta badallari"
+   ],
+   "e": "Hajm bilan birga o'zgaradi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Umumiy xarajat (TC) qanday aniqlanadi?",
+   "a": [
+    "TC = FC + VC",
+    "TC = FC − VC",
+    "TC = FC · VC",
+    "TC = VC / FC"
+   ],
+   "e": "Doimiy + o'zgaruvchan."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "O'rtacha umumiy xarajat (ATC) qanday hisoblanadi?",
+   "a": [
+    "ATC = TC/Q",
+    "ATC = TC·Q",
+    "ATC = Q/TC",
+    "ATC = TC − Q"
+   ],
+   "e": "Birlik mahsulotga."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Chegaraviy xarajat (MC) nima?",
+   "a": [
+    "Qo'shimcha birlik xarajati",
+    "Barcha mahsulot xarajatlari yig'indisi",
+    "Doimiy xarajatlar",
+    "O'rtacha xarajat"
+   ],
+   "e": "MC = ΔTC/ΔQ."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "FC = 100, VC = 300, Q = 50 bo'lsa, ATC qancha?",
+   "a": [
+    "8",
+    "6",
+    "2",
+    "400"
+   ],
+   "e": "400/50."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Buxgalteriya foydasi qanday hisoblanadi?",
+   "a": [
+    "Tushum minus aniq (oshkor) xarajatlar",
+    "Tushum minus barcha muqobil xarajatlar",
+    "Faqat tushum",
+    "Faqat xarajatlar"
+   ],
+   "e": "Iqtisodiy foyda — yashirin xarajatlar ham ayiriladi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Iqtisodiy foyda buxgalteriya foydasidan qanday farq qiladi?",
+   "a": [
+    "Yashirin xarajatlar ham ayiriladi",
+    "Har doim katta bo'ladi",
+    "Soliqlar qo'shiladi",
+    "Ular bir xil"
+   ],
+   "e": "Muqobil xarajatlar hisobga olinadi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Normal foyda nima?",
+   "a": [
+    "Minimal zarur foyda",
+    "Eng yuqori mumkin bo'lgan foyda",
+    "Zarar",
+    "Soliqdan keyingi har qanday foyda"
+   ],
+   "e": "Iqtisodiy foyda nolga teng holat."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Rentabellik qanday hisoblanadi?",
+   "a": [
+    "Foydaning xarajatlarga nisbati",
+    "Xarajatlarning foydaga ko'paytmasi",
+    "Tushum minus foyda",
+    "Foyda plus soliq"
+   ],
+   "e": "Foizlarda."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Tannarx nima?",
+   "a": [
+    "Ishlab chiqarish va sotish xarajatlari",
+    "Mahsulotning chakana narxi",
+    "Mahsulotdan olingan foyda",
+    "Soliq summasi"
+   ],
+   "e": "Birlik tannarx."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Amortizatsiya nima?",
+   "a": [
+    "Eskirish qiymatini o'tkazish",
+    "Yangi uskunani sotib olish",
+    "Ish haqini oshirish",
+    "Kredit foizini to'lash"
+   ],
+   "e": "Qayta tiklash fondi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Masshtab samarasi (ijobiy) nima?",
+   "a": [
+    "O'rtacha xarajat pasayishi",
+    "Ishlab chiqarish kengayganda xarajatlar keskin ortishi",
+    "Narxlarning oshishi",
+    "Foydaning yo'qolishi"
+   ],
+   "e": "Yirik ishlab chiqarish afzalligi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Kamayib boruvchi unumdorlik qonuni nimani anglatadi?",
+   "a": [
+    "Qo'shimcha mahsulot kamayishi",
+    "Har qanday omil oshirilsa mahsulot cheksiz ortadi",
+    "Unumdorlik doimo o'zgarmaydi",
+    "Xarajatlar doimo kamayadi"
+   ],
+   "e": "Boshqa omillar o'zgarmas holda."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Zararsizlik nuqtasida nima bo'ladi?",
+   "a": [
+    "Tushum xarajatlarga teng",
+    "Foyda maksimal",
+    "Xarajat nolga teng",
+    "Tushum nolga teng"
+   ],
+   "e": "Foyda ham, zarar ham yo'q."
+  },
+  {
+   "b": "Tadbirkorlik va agrobiznes",
+   "q": "Tadbirkorlik nima?",
+   "a": [
+    "Tashabbuskor foyda faoliyati",
+    "Faqat davlat xizmatida ishlash",
+    "Faqat xayriya faoliyati",
+    "Faqat jamg'arma to'plash"
+   ],
+   "e": "Tavakkal va mas'uliyat bilan."
+  },
+  {
+   "b": "Tadbirkorlik va agrobiznes",
+   "q": "Tadbirkorlik kapitali nima?",
+   "a": [
+    "Biznesdagi resurslar",
+    "Faqat shaxsiy jamg'arma kassasi",
+    "Faqat davlat byudjeti",
+    "Faqat bank kreditlari bo'yicha qarz"
+   ],
+   "e": "O'z va qarz kapitali."
+  },
+  {
+   "b": "Tadbirkorlik va agrobiznes",
+   "q": "Agrobiznes nima?",
+   "a": [
+    "Qishloq xo'jaligi bilan bog'liq majmua",
+    "Faqat shahar xizmatlari",
+    "Faqat bank faoliyati",
+    "Faqat og'ir sanoat"
+   ],
+   "e": "Agrosanoat majmui."
+  },
+  {
+   "b": "Tadbirkorlik va agrobiznes",
+   "q": "Fermer xo'jaligi nima?",
+   "a": [
+    "Tovar yetishtiruvchi xo'jalik",
+    "Davlat banki bo'limi",
+    "Sanoat korxonasi",
+    "Savdo markazi"
+   ],
+   "e": "O'zbekistonda asosiy agrar subyekt."
+  },
+  {
+   "b": "Tadbirkorlik va agrobiznes",
+   "q": "Dehqon xo'jaligi qanday xususiyatga ega?",
+   "a": [
+    "Oilaviy kichik xo'jalik",
+    "Minglab yollanma ishchili korporatsiya",
+    "Davlat sanoat korxonasi",
+    "Xorijiy kompaniya filiali"
+   ],
+   "e": "Tomorqa yerida."
+  },
+  {
+   "b": "Tadbirkorlik va agrobiznes",
+   "q": "Yer rentasi nima?",
+   "a": [
+    "Yerdan foydalanish to'lovi",
+    "Yer ostidagi foydali qazilmalar",
+    "Yerning geografik joylashuvi",
+    "Yerga qo'yiladigan bino"
+   ],
+   "e": "Differensial va absolyut renta."
+  },
+  {
+   "b": "Tadbirkorlik va agrobiznes",
+   "q": "Differensial renta nimaga bog'liq?",
+   "a": [
+    "Unumdorlik va joylashuvga",
+    "Faqat yer egasining ismiga",
+    "Faqat ob-havoga",
+    "Faqat davlat soliqlariga"
+   ],
+   "e": "Unumdor yerlarda qo'shimcha daromad."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Markaziy bankning asosiy vazifasi nima?",
+   "a": [
+    "Narxlar barqarorligini ta'minlash",
+    "Aholiga to'g'ridan-to'g'ri iste'mol kreditlari berish",
+    "Korxonalar mahsulotini sotish",
+    "Davlat byudjetini to'liq sarflash"
+   ],
+   "e": "Pul-kredit siyosati."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "O'zbekistonda pul emissiyasini qaysi organ amalga oshiradi?",
+   "a": [
+    "Markaziy bank",
+    "Moliya vazirligi",
+    "Soliq qo'mitasi",
+    "Tijorat banklari"
+   ],
+   "e": "Emissiya markazi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Qayta moliyalash (asosiy) stavkasining oshirilishi nimaga olib keladi?",
+   "a": [
+    "Kreditlar qimmatlashadi",
+    "Kreditlar arzonlashib, inflyatsiya tezlashadi",
+    "Pul massasi keskin ortadi",
+    "Ish haqi avtomatik oshadi"
+   ],
+   "e": "Qat'iy pul siyosati."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Majburiy zaxira normasi nima?",
+   "a": [
+    "Majburiy saqlanadigan depozit ulushi",
+    "Aholining naqd pul miqdori",
+    "Davlat oltin zaxirasi",
+    "Soliq stavkasi"
+   ],
+   "e": "Pul taklifini tartibga soladi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Tijorat bankining asosiy daromad manbai nima?",
+   "a": [
+    "Foizlar farqi",
+    "Pul bosib chiqarish",
+    "Soliq undirish",
+    "Davlat subsidiyalari"
+   ],
+   "e": "Foiz marjasi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Ochiq bozor operatsiyalari nima?",
+   "a": [
+    "Qimmatli qog'ozlar oldi-sottisi",
+    "Bozorda tovar savdosi",
+    "Tashqi savdo shartnomalari",
+    "Ko'chmas mulk sotuvi"
+   ],
+   "e": "Pul massasini boshqarish."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Kredit tamoyillariga nima kiradi?",
+   "a": [
+    "Qaytarilish, muddatlilik, to'lovlilik",
+    "Bepullik va qaytarilmaslik",
+    "Muddatsizlik",
+    "Faqat og'zaki kelishuv"
+   ],
+   "e": "Ta'minlanganlik ham."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Aksiya nima?",
+   "a": [
+    "Kapitaldagi ulush qog'ozi",
+    "Qarz majburiyati, qat'iy foiz bilan",
+    "Bank depoziti",
+    "Soliq kvitansiyasi"
+   ],
+   "e": "Dividend huquqini beradi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Obligatsiya nima?",
+   "a": [
+    "Qarz qimmatli qog'ozi",
+    "Kompaniya mulkidagi ulush",
+    "Valyuta turi",
+    "Sug'urta polisi"
+   ],
+   "e": "Belgilangan muddatda foiz bilan qaytariladi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Dividend nima?",
+   "a": [
+    "Aksiyadorlar foyda ulushi",
+    "Bank krediti foizi",
+    "Ish haqi",
+    "Soliq"
+   ],
+   "e": "Aksiya daromadi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Fond birjasi nima?",
+   "a": [
+    "Qimmatli qog'ozlar bozori",
+    "Oziq-ovqat bozori",
+    "Avtomobil bozori",
+    "Mehnat birjasi"
+   ],
+   "e": "Toshkent respublika fond birjasi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Davlat byudjeti nima?",
+   "a": [
+    "Daromad va xarajatlar rejasi",
+    "Korxona balansi",
+    "Aholi jamg'armasi",
+    "Bank depoziti"
+   ],
+   "e": "Har yili qonun bilan tasdiqlanadi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Byudjet taqchilligi nima?",
+   "a": [
+    "Xarajat daromaddan ko'p",
+    "Daromadning xarajatdan oshishi",
+    "Daromad va xarajat tengligi",
+    "Soliqlarning yo'qligi"
+   ],
+   "e": "Profitsit — aksincha."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Davlat byudjeti daromadlarining asosiy manbai nima?",
+   "a": [
+    "Soliqlar",
+    "Pul bosib chiqarish",
+    "Xayriya",
+    "Lotereya"
+   ],
+   "e": "Bojlar, yig'imlar ham."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "To'g'ridan-to'g'ri soliqlarga misol qaysi?",
+   "a": [
+    "Daromad solig'i",
+    "Qo'shilgan qiymat solig'i",
+    "Aksiz solig'i",
+    "Bojxona boji"
+   ],
+   "e": "Daromad yoki mulkdan to'g'ridan-to'g'ri."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Egri (bilvosita) soliqlarga misol qaysi?",
+   "a": [
+    "QQS",
+    "Daromad solig'i",
+    "Foyda solig'i",
+    "Mol-mulk solig'i"
+   ],
+   "e": "Narx tarkibiga kiritiladi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Progressiv soliq tizimi nimani anglatadi?",
+   "a": [
+    "Daromad bilan stavka oshadi",
+    "Barcha daromadlarga bir xil stavka",
+    "Daromad oshganda stavka kamayadi",
+    "Soliq umuman yo'q"
+   ],
+   "e": "Proporsional (yagona) stavkadan farq qiladi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Laffer egri chizig'i nimani ko'rsatadi?",
+   "a": [
+    "Stavka va tushumlar bog'lanishini",
+    "Narx va talab bog'lanishini",
+    "Inflyatsiya va ishsizlik bog'lanishini",
+    "Eksport va import bog'lanishini"
+   ],
+   "e": "Juda yuqori stavka tushumni kamaytiradi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Fiskal siyosat nima?",
+   "a": [
+    "Soliq va xarajatlar siyosati",
+    "Faqat foiz stavkasini o'zgartirish",
+    "Faqat valyuta kursini belgilash",
+    "Faqat tashqi savdo cheklovlari"
+   ],
+   "e": "Hukumat siyosati."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Ekspansion fiskal siyosatda nima qilinadi?",
+   "a": [
+    "Soliqni kamaytirish, xarajatni oshirish",
+    "Soliqlar oshiriladi va xarajatlar kamaytiriladi",
+    "Foiz stavkasi oshiriladi",
+    "Pul massasi kamaytiriladi"
+   ],
+   "e": "Tanazzulda qo'llaniladi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Davlat qarzi nima?",
+   "a": [
+    "Davlatning to'lanmagan qarzlari",
+    "Aholining banklarga qarzi",
+    "Korxonalarning soliq qarzi",
+    "Banklar foydasi"
+   ],
+   "e": "Ichki va tashqi qarz."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Sug'urtaning iqtisodiy mohiyati nima?",
+   "a": [
+    "Xavfni taqsimlash",
+    "Foydani kafolatlash",
+    "Soliqdan qochish",
+    "Kredit olish"
+   ],
+   "e": "Sug'urta fondi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Foydalilik nazariyasida \"naflilik\" nimani bildiradi?",
+   "a": [
+    "Iste'moldan olinadigan qoniqish",
+    "Tovarni ishlab chiqarishga sarflangan barcha xarajatlar yig'indisi",
+    "Tovarning do'kondagi chakana narxi va chegirmasi",
+    "Tovarning omborda saqlanish muddati"
+   ],
+   "e": "Utility."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Kamayib boruvchi chegaraviy naflilik qonuni nimani anglatadi?",
+   "a": [
+    "Har bir keyingi birlik qoniqishi kamayadi",
+    "Har bir keyingi birlik iste'moli qoniqishni muttasil oshiradi",
+    "Naflilik har doim o'zgarmas bo'lib qoladi",
+    "Naflilik faqat narxga bog'liq bo'ladi"
+   ],
+   "e": "Gossen qonuni."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Befarqlik egri chizig'i nimani ko'rsatadi?",
+   "a": [
+    "Bir xil naflilik beruvchi to'plamlarni",
+    "Iste'molchining daromadi bilan narx o'rtasidagi bog'lanishni",
+    "Firmaning ishlab chiqarish xarajatlarini",
+    "Davlatning soliq stavkalarini"
+   ],
+   "e": "Iste'molchi tanlovi nazariyasi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Byudjet chizig'i nimani ifodalaydi?",
+   "a": [
+    "Daromad bilan mumkin bo'lgan xaridlarni",
+    "Davlat byudjetining yillik daromadlarini",
+    "Firmaning yillik foydasini",
+    "Bankdagi depozitlar miqdorini"
+   ],
+   "e": "Narxlar va daromad bilan chegaralangan."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Daromad bo'yicha talab elastikligi manfiy bo'lsa, tovar qanday?",
+   "a": [
+    "Past sifatli (inferior)",
+    "Normal, sifatli va keng tarqalgan",
+    "Hashamatli va obro'li",
+    "Mutlaq noelastik tovar"
+   ],
+   "e": "Daromad oshsa, talab kamayadi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Taklif elastikligi qisqa muddatda odatda qanday?",
+   "a": [
+    "Pastroq",
+    "Uzoq muddatdagidan doimo yuqoriroq bo'ladi",
+    "Cheksiz katta bo'ladi",
+    "Har doim nolga teng"
+   ],
+   "e": "Ishlab chiqarishni tez o'zgartirib bo'lmaydi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Soliq ishlab chiqaruvchiga solinsa, taklif egri chizig'i qanday siljiydi?",
+   "a": [
+    "Chapga (yuqoriga)",
+    "O'ngga, pastga qarab siljiydi",
+    "Siljimaydi, faqat talab o'zgaradi",
+    "Gorizontal holatga keladi"
+   ],
+   "e": "Xarajatlar ortadi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Subsidiya ishlab chiqaruvchiga berilsa taklif qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi va narx oshadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Xarajatlar kamayadi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Qisqa muddatli davr nima?",
+   "a": [
+    "Ayrim omillar o'zgarmas bo'lgan davr",
+    "Barcha ishlab chiqarish omillari erkin o'zgaradigan davr",
+    "Faqat bir kunlik davr, kalendar bo'yicha",
+    "Firma yopilgan davr"
+   ],
+   "e": "Uzoq muddatda barcha omillar o'zgaruvchan."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Mukammal raqobatda firma qachon qisqa muddatda ishlab chiqarishni to'xtatadi?",
+   "a": [
+    "Narx o'rtacha o'zgaruvchan xarajatdan past bo'lsa",
+    "Narx o'rtacha umumiy xarajatdan biroz yuqori bo'lganda",
+    "Foyda maksimal bo'lganda",
+    "Talab ortganda"
+   ],
+   "e": "Doimiy xarajatlarni qoplay olmasa ham ishlash mumkin."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Q = 10 da TC = 500, Q = 11 da TC = 540. Chegaraviy xarajat qancha?",
+   "a": [
+    "40",
+    "540",
+    "49",
+    "500"
+   ],
+   "e": "540 − 500."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Narx 20, Q = 100, ATC = 15. Firma foydasi qancha?",
+   "a": [
+    "500",
+    "2000",
+    "1500",
+    "35"
+   ],
+   "e": "(20 − 15)·100."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Tushum TR = P × Q. P = 50, Q = 30 bo'lsa, TR qancha?",
+   "a": [
+    "1500",
+    "80",
+    "20",
+    "150"
+   ],
+   "e": "50·30."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Soliqning funksiyalariga nima kiradi?",
+   "a": [
+    "Fiskal va tartibga soluvchi",
+    "Faqat bezak va reklama funksiyasi",
+    "Faqat jazo berish funksiyasi",
+    "Faqat ishlab chiqarish funksiyasi"
+   ],
+   "e": "Ijtimoiy funksiya ham."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Aksiz solig'i odatda qaysi tovarlarga solinadi?",
+   "a": [
+    "Alkogol, tamaki, yoqilg'i",
+    "Non va sut mahsulotlari",
+    "Bolalar kiyimi",
+    "Dori-darmonlar"
+   ],
+   "e": "Egri soliq."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Bank depoziti nima?",
+   "a": [
+    "Bankka omonatga qo'yilgan pul",
+    "Bankdan olingan kredit",
+    "Bank xodimlari maoshi",
+    "Bank binosi"
+   ],
+   "e": "Talab qilinguncha va muddatli."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Kredit foizi 20%, inflyatsiya 12%. Real foiz taxminan qancha?",
+   "a": [
+    "8%",
+    "32%",
+    "20%",
+    "12%"
+   ],
+   "e": "Fisher tenglamasi (taxminiy)."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Iqtisodiy rentaning ma'nosi nima?",
+   "a": [
+    "Zarur minimumdan ortiq to'lov",
+    "Faqat yer ijarasi",
+    "Bank foizi",
+    "Ish haqi minimumi"
+   ],
+   "e": "Kam uchraydigan omillar daromadi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Uzoq muddatda mukammal raqobatdagi firmaning iqtisodiy foydasi qancha?",
+   "a": [
+    "Nolga teng",
+    "Har doim maksimal",
+    "Har doim manfiy",
+    "Cheksiz"
+   ],
+   "e": "Bozorga erkin kirish natijasi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Monopolistda narx chegaraviy xarajatga nisbatan qanday?",
+   "a": [
+    "Yuqoriroq",
+    "Pastroq",
+    "Teng",
+    "Nolga teng"
+   ],
+   "e": "Bozor hokimiyati."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Lerner indeksi nimani o'lchaydi?",
+   "a": [
+    "Monopol hokimiyat darajasini",
+    "Inflyatsiyani",
+    "Ishsizlikni",
+    "Soliq yukini"
+   ],
+   "e": "(P − MC)/P."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Talab Qd = 50 − p, taklif Qs = 2p − 10. Muvozanat narx qancha?",
+   "a": [
+    "20",
+    "30",
+    "10",
+    "40"
+   ],
+   "e": "50 − p = 2p − 10."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Yuqoridagi masalada muvozanat miqdor qancha?",
+   "a": [
+    "30",
+    "20",
+    "50",
+    "10"
+   ],
+   "e": "50 − 20."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Narx 100 dan 120 ga oshdi, talab 50 dan 45 ga kamaydi. Talab elastikligi (modul, oddiy foizlar bo'yicha) qancha?",
+   "a": [
+    "0,5",
+    "2",
+    "1",
+    "0,1"
+   ],
+   "e": "10% / 20%."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Elastiklik koeffitsiyenti 0,5 bo'lsa, talab qanday?",
+   "a": [
+    "Noelastik",
+    "Elastik",
+    "Birlik elastik",
+    "Mutlaq elastik"
+   ],
+   "e": "|E| < 1."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Elastiklik koeffitsiyenti 1 bo'lsa, talab qanday?",
+   "a": [
+    "Birlik elastik",
+    "Noelastik",
+    "Mutlaq noelastik",
+    "Mutlaq elastik"
+   ],
+   "e": "Tushum o'zgarmaydi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Mutlaq noelastik talab egri chizig'i qanday?",
+   "a": [
+    "Vertikal",
+    "Gorizontal",
+    "Pastga qiya",
+    "Yuqoriga qiya"
+   ],
+   "e": "E = 0."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Mutlaq elastik talab egri chizig'i qanday?",
+   "a": [
+    "Gorizontal",
+    "Vertikal",
+    "Pastga qiya",
+    "Yuqoriga qiya"
+   ],
+   "e": "E = ∞."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "FC = 200, AVC = 5, Q = 40 bo'lsa, TC qancha?",
+   "a": [
+    "400",
+    "205",
+    "245",
+    "8000"
+   ],
+   "e": "200 + 5·40."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "TC = 1000, Q = 50 bo'lsa, ATC qancha?",
+   "a": [
+    "20",
+    "50",
+    "1050",
+    "950"
+   ],
+   "e": "1000/50."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Foyda 300, xarajatlar 1500 bo'lsa, rentabellik qancha?",
+   "a": [
+    "20%",
+    "30%",
+    "5%",
+    "50%"
+   ],
+   "e": "300/1500."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Narx 30, AVC = 20, FC = 1000. Zararsizlik hajmi qancha?",
+   "a": [
+    "100",
+    "50",
+    "33",
+    "1000"
+   ],
+   "e": "1000/(30 − 20)."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Majburiy zaxira normasi 10% bo'lsa, oddiy bank multiplikatori qancha?",
+   "a": [
+    "10",
+    "0,1",
+    "1",
+    "100"
+   ],
+   "e": "1/0,1."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "1 000 000 so'm daromaddan 12% soliq ushlansa, qo'lga qancha tegadi?",
+   "a": [
+    "880 000 so'm",
+    "120 000 so'm",
+    "1 120 000 so'm",
+    "988 000 so'm"
+   ],
+   "e": "1 000 000 · 0,88."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Tovar narxi 1000 so'm, QQS 12% qo'shilsa, sotish narxi qancha?",
+   "a": [
+    "1120 so'm",
+    "1012 so'm",
+    "880 so'm",
+    "1200 so'm"
+   ],
+   "e": "1000·1,12."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Obligatsiya nominali 1000, yillik kupon 10%. Yillik daromad qancha?",
+   "a": [
+    "100",
+    "10",
+    "1000",
+    "1100"
+   ],
+   "e": "1000·0,1."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Byudjet daromadi 800, xarajati 900. Saldo qancha?",
+   "a": [
+    "−100 (taqchillik)",
+    "+100 (profitsit)",
+    "1700",
+    "0"
+   ],
+   "e": "800 − 900."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Bozorga kirish to'siqlariga nima kiradi?",
+   "a": [
+    "Patentlar, litsenziyalar va katta boshlang'ich kapital",
+    "Ko'p sonli mayda sotuvchilar",
+    "Mahsulotning bir xilligi",
+    "Axborotning to'liq ochiqligi"
+   ],
+   "e": "Monopoliyani saqlaydi."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Narx yetakchiligi qaysi bozor tuzilmasiga xos?",
+   "a": [
+    "Oligopoliya",
+    "Mukammal raqobat",
+    "Natural xo'jalik",
+    "Barter"
+   ],
+   "e": "Yirik firma narxni belgilaydi, boshqalar ergashadi."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Raqobatning narxdan tashqari usullariga nima kiradi?",
+   "a": [
+    "Sifat, reklama va xizmat ko'rsatish",
+    "Faqat narxni pasaytirish",
+    "Faqat narxni oshirish",
+    "Faqat soliqni kamaytirish"
+   ],
+   "e": "Differensiatsiya."
+  },
+  {
+   "b": "Raqobat va monopoliya",
+   "q": "Mukammal raqobatda firmaning talab egri chizig'i qanday?",
+   "a": [
+    "Gorizontal",
+    "Vertikal",
+    "Pastga qiya",
+    "Yuqoriga qiya"
+   ],
+   "e": "Firma narxni qabul qiluvchi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Rejalashtirish funksiyasining mohiyati nima?",
+   "a": [
+    "Maqsadlar va ularga erishish yo'llarini belgilash",
+    "Bajarilgan ishlarni tekshirib, xatolarni jazolash jarayoni",
+    "Xodimlarni moddiy rag'batlantirish tizimini yaratish",
+    "Bo'limlar orasida vakolatlarni taqsimlash"
+   ],
+   "e": "Strategik, taktik, operativ rejalashtirish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Piter Druker menejmentga qanday konsepsiyani kiritgan?",
+   "a": [
+    "Maqsadlar bo'yicha boshqaruv (MBO)",
+    "Mehnatni ilmiy tashkil etish va xronometraj",
+    "Ideal byurokratiya modeli",
+    "Ehtiyojlar piramidasi"
+   ],
+   "e": "Management by Objectives."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Byudjetlashtirish qaysi funksiyaga ko'proq tegishli?",
+   "a": [
+    "Rejalashtirish va nazorat",
+    "Faqat motivatsiya va rag'batlantirish",
+    "Faqat kommunikatsiya va muzokaralar",
+    "Faqat xodimlarni saralash va ishga olish"
+   ],
+   "e": "Moliyaviy reja va uning ijrosi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Yuqori bo'g'in menejeri uchun eng muhim ko'nikma qaysi?",
+   "a": [
+    "Konseptual (strategik) ko'nikma",
+    "Faqat dastgohda ishlash texnik ko'nikmasi",
+    "Faqat mashinkada matn terish",
+    "Faqat jismoniy chidamlilik"
+   ],
+   "e": "Kats modeli: texnik, insoniy, konseptual."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Eyzenxauer matritsasiga ko'ra muhim, lekin shoshilinch bo'lmagan ishlar bilan nima qilinadi?",
+   "a": [
+    "Rejalashtiriladi",
+    "Darhol tashlab yuboriladi",
+    "Boshqalarga topshiriladi har doim",
+    "E'tiborsiz qoldiriladi"
+   ],
+   "e": "Muhim va shoshilinch — darhol bajariladi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Teylor tizimining asosiy g'oyalaridan biri qaysi?",
+   "a": [
+    "Operatsiyalarni o'lchab, standartlashtirish",
+    "Xodimlarning ijtimoiy ehtiyojlarini birinchi o'ringa qo'yish",
+    "Boshqaruvda jamoaviy qaror qabul qilish",
+    "Tashkilotni ochiq tizim sifatida ko'rish"
+   ],
+   "e": "Vaqt va harakatlar tadqiqi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Marketing kompleksi \"4P\" ga nima kiradi?",
+   "a": [
+    "Mahsulot, narx, joy, rag'batlantirish",
+    "Reja, jarayon, odamlar, foyda",
+    "Kuch, zaiflik, imkoniyat, xavf",
+    "Siyosat, iqtisod, jamiyat, texnologiya"
+   ],
+   "e": "Product, Price, Place, Promotion."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Menejment san'at yoki fanmi?",
+   "a": [
+    "Ham fan, ham san'at",
+    "Faqat aniq fan, ijodkorliksiz",
+    "Faqat san'at, qoidalarsiz",
+    "Hech biri emas, faqat tasodif"
+   ],
+   "e": "Nazariya va shaxsiy mahorat birligi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "\"Boshqaruv sikli\" deganda nima tushuniladi?",
+   "a": [
+    "Funksiyalarning uzluksiz takrorlanishi",
+    "Rahbarning velosipedda ishga kelishi",
+    "Faqat bir martalik rejalashtirish jarayoni",
+    "Xodimlarning smenalar jadvali"
+   ],
+   "e": "Rejalashtirish → tashkil etish → motivatsiya → nazorat."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Tizimli yondashuvga ko'ra tashkilot qanday qaraladi?",
+   "a": [
+    "O'zaro bog'liq qismlardan iborat ochiq tizim",
+    "Tashqi muhitdan to'liq ajralgan yopiq tizim",
+    "Bir-biriga bog'liq bo'lmagan bo'limlar yig'indisi",
+    "Faqat rahbar va uning o'rinbosarlari"
+   ],
+   "e": "Kirish, jarayon, chiqish, qayta aloqa."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Korporativ boshqaruv nima?",
+   "a": [
+    "Boshqaruv va nazorat tizimi",
+    "Faqat korxona ichidagi sport musobaqalari",
+    "Faqat xodimlar uchun ovqatlanish tashkil etish",
+    "Faqat reklama kampaniyalari"
+   ],
+   "e": "Aksiyadorlar, kengash, ijroiya organi munosabatlari."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Menejmentning obyekti nima?",
+   "a": [
+    "Boshqariladigan tizim",
+    "Faqat korxona rahbari va uning o'rinbosarlari",
+    "Faqat davlat soliq va moliya organlari",
+    "Faqat raqobatchi firmalar"
+   ],
+   "e": "Subyekt — boshqaruvchi tizim (rahbar, apparat)."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Tashkilotning tashqi bilvosita muhitiga nima kiradi?",
+   "a": [
+    "Iqtisodiy va siyosiy vaziyat",
+    "Tashkilotning bevosita mijozlari",
+    "Tashkilotning yetkazib beruvchilari",
+    "Tashkilot xodimlari"
+   ],
+   "e": "Texnologiya, ijtimoiy-madaniy omillar ham."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "SMART maqsad tamoyilida \"M\" harfi nimani bildiradi?",
+   "a": [
+    "O'lchanadigan",
+    "Mas'uliyatli",
+    "Mashhur",
+    "Murakkab"
+   ],
+   "e": "Specific, Measurable, Achievable, Relevant, Time-bound."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Nazorat jarayoni bosqichlari qaysilar?",
+   "a": [
+    "Standart, o'lchash, tuzatish",
+    "Ishga olish, o'qitish, bo'shatish",
+    "Reklama, sotish, yetkazish",
+    "Rejalash, sotib olish, saqlash"
+   ],
+   "e": "Natijani standart bilan solishtirish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Xalqaro menejmentda qaysi omil alohida ahamiyatga ega?",
+   "a": [
+    "Madaniy farqlar",
+    "Faqat bitta tilda muloqot qilish",
+    "Faqat mahalliy qonunlarni bilish",
+    "Faqat bitta valyutada ishlash"
+   ],
+   "e": "G. Xofsted madaniyat o'lchovlari."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Boshqaruv madaniyati nimani o'z ichiga oladi?",
+   "a": [
+    "Uslub, etika va hujjatlar madaniyati",
+    "Faqat ofis mebellari dizayni",
+    "Faqat korxona logotipi rangi",
+    "Faqat ishchilar formasi"
+   ],
+   "e": "Tashkiliy madaniyatning bir qismi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Diversifikatsiya strategiyasi nimani anglatadi?",
+   "a": [
+    "Yangi bozorga yangi mahsulot bilan chiqish",
+    "Mavjud bozorda mavjud mahsulotni ko'paytirish",
+    "Mahsulot ishlab chiqarishni to'xtatish",
+    "Faqat narxni oshirish"
+   ],
+   "e": "Ansoff matritsasidagi eng riskli strategiya."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Rejalashtirishda \"prognozlash\" nima?",
+   "a": [
+    "Kelajakdagi holatni ilmiy bashorat qilish",
+    "O'tgan yilgi hisobotni ko'chirib yozish",
+    "Rejalarni yashirib qo'yish",
+    "Faqat ob-havo prognozini o'qish"
+   ],
+   "e": "Ekstrapolyatsiya, ekspert usullari."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Strategik boshqaruvning birinchi bosqichi nima?",
+   "a": [
+    "Muhitni tahlil qilish",
+    "Darhol strategiyani bajarishga kirishish",
+    "Natijalarni baholash va mukofotlash",
+    "Xodimlarni ishdan bo'shatish"
+   ],
+   "e": "Missiya va maqsadlar shundan keyin aniqlanadi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Boshqaruv qonunlaridan biri qaysi?",
+   "a": [
+    "Boshqaruvni ixtisoslashtirish qonuni",
+    "Butun dunyo tortishish qonuni",
+    "Om qonuni",
+    "Arximed qonuni"
+   ],
+   "e": "Integratsiya, vaqtni tejash qonunlari ham."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Biznes hajmini rejalashtirishda nima prognoz qilinadi?",
+   "a": [
+    "Sotuv va xizmat yuklamasi",
+    "Faqat xodimlarning tug'ilgan kunlari",
+    "Faqat ofis xonalari soni",
+    "Faqat bayram kunlari soni"
+   ],
+   "e": "Shu asosda ishchi kuchi rejalashtiriladi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Menejerning vaqtini boshqarishda \"o'g'rilar\"ga nima kiradi?",
+   "a": [
+    "Rejasiz uchrashuvlar va uzilishlar",
+    "Aniq rejalashtirilgan kun tartibi",
+    "Vazifalarni ustuvorlik bo'yicha saralash",
+    "Delegatsiyadan to'g'ri foydalanish"
+   ],
+   "e": "Telefon, e-mail, keraksiz yig'ilishlar."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Menejmentning asosiy funksiyalari qaysilar?",
+   "a": [
+    "Rejalashtirish, tashkil etish, motivatsiya va nazorat",
+    "Ishlab chiqarish, sotish, reklama va qadoqlash",
+    "Soliq to'lash, kredit olish, hisobot berish",
+    "Ishga olish, ishdan bo'shatish, ta'til berish"
+   ],
+   "e": "Muvofiqlashtirish — bog'lovchi jarayon."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Rejalashtirishning qaysi tamoyili rejalarning o'zgaruvchan sharoitga moslashishini talab qiladi?",
+   "a": [
+    "Moslashuvchanlik",
+    "Qat'iylik va o'zgarmaslik tamoyili",
+    "Maxfiylik va yopiqlik tamoyili",
+    "Tasodifiylik tamoyili"
+   ],
+   "e": "Uzluksizlik, aniqlik tamoyillari ham."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "\"ABC tahlil\" vaqtni boshqarishda nimani bildiradi?",
+   "a": [
+    "Vazifalarni muhimlik guruhlariga ajratishni",
+    "Alifbo tartibida ish bajarishni",
+    "Faqat uchta vazifa bajarishni",
+    "Vazifalarni tasodifiy tanlashni"
+   ],
+   "e": "A — eng muhim, C — kam muhim."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Operativ rejalashtirish qanday muddatni qamraydi?",
+   "a": [
+    "Kun, hafta, oy",
+    "O'n yildan ortiq uzoq istiqbolni belgilaydi",
+    "Faqat korxona tashkil etilgan kunni",
+    "Faqat besh yillik strategik davrni"
+   ],
+   "e": "Joriy ishlar jadvali."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Samaradorlik (effektivlik) va natijadorlik farqi nima?",
+   "a": [
+    "Samaradorlik — resurs tejamkorligi, natijadorlik — maqsadga erishish",
+    "Ular mutlaqo bir xil ma'noni anglatadi",
+    "Samaradorlik faqat reklamaga, natijadorlik faqat ishlab chiqarishga tegishli",
+    "Natijadorlik — resurslarni sarflash, samaradorlik — sarflamaslik"
+   ],
+   "e": "\"Ishni to'g'ri qilish\" va \"to'g'ri ishni qilish\"."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Motivatsiya funksiyasi bajarilmasa nima yuz beradi?",
+   "a": [
+    "Xodimlar faolligi pasayadi",
+    "Unumdorlik avtomatik ravishda keskin ortadi",
+    "Xodimlar o'zlari ish haqini oshiradi",
+    "Nazorat zarurati yo'qoladi"
+   ],
+   "e": "Qo'nimsizlik ortadi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Menejmentning asosiy maqsadi nima?",
+   "a": [
+    "Tashkilot samaradorligini oshirish",
+    "Faqat rahbarlar sonini ko'paytirish va lavozimlar yaratish",
+    "Faqat hujjatlar sonini oshirish va arxivni to'ldirish",
+    "Faqat xodimlarning ish vaqtini uzaytirish"
+   ],
+   "e": "Resurslardan oqilona foydalanish."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Tadbirkorlik faoliyatining asosiy maqsadi nima?",
+   "a": [
+    "Foyda (daromad) olish",
+    "Faqat xayriya qilish",
+    "Faqat soliq to'lamaslik",
+    "Faqat davlat xizmatini ko'rsatish"
+   ],
+   "e": "Tavakkalchilik asosidagi tashabbuskor faoliyat."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Tadbirkorning asosiy xususiyati qaysi?",
+   "a": [
+    "Tashabbuskorlik va tavakkal",
+    "Faqat buyruqni bajarish",
+    "Har qanday xavfdan qochish",
+    "Faqat yollanib ishlash"
+   ],
+   "e": "Innovatsion fikrlash."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Yakka tartibdagi tadbirkor (YaTT) qanday shaxs?",
+   "a": [
+    "Yuridik shaxssiz tadbirkor",
+    "Yuridik shaxs bo'lgan katta korxona",
+    "Davlat korxonasi",
+    "Notijorat tashkilot"
+   ],
+   "e": "O'z mol-mulki bilan javob beradi."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Mas'uliyati cheklangan jamiyat (MChJ) ishtirokchilari qanday javobgarlikka ega?",
+   "a": [
+    "Ulushi doirasida",
+    "Butun shaxsiy mol-mulki bilan",
+    "Hech qanday javobgarlikka ega emas",
+    "Faqat davlat oldida"
+   ],
+   "e": "Cheklangan javobgarlik."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Aksiyadorlik jamiyatining ustav kapitali nimaga bo'lingan?",
+   "a": [
+    "Aksiyalarga",
+    "Ulushlarga faqat og'zaki",
+    "Patentlarga",
+    "Litsenziyalarga"
+   ],
+   "e": "Aksiyador — aksiya egasi."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Kichik biznesning iqtisodiyotdagi asosiy roli nima?",
+   "a": [
+    "Ish o'rni va raqobat",
+    "Faqat monopoliyani kuchaytirish",
+    "Faqat importni oshirish",
+    "Ishsizlikni oshirish"
+   ],
+   "e": "Moslashuvchanlik."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Franchayzing nima?",
+   "a": [
+    "Brenddan haq evaziga foydalanish",
+    "Bankdan kredit olish",
+    "Davlatdan subsidiya olish",
+    "Korxonani sotish"
+   ],
+   "e": "Franchayzer va franchayzi."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Lizing nima?",
+   "a": [
+    "Uzoq muddatli moliyaviy ijara",
+    "Qisqa muddatli bank omonati",
+    "Aksiyalarni sotish",
+    "Soliq imtiyozi"
+   ],
+   "e": "Moliyaviy ijara."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Venchur kapital qanday investitsiya?",
+   "a": [
+    "Xavfli innovatsion sarmoya",
+    "Davlat obligatsiyalariga sarmoya",
+    "Bank omonati",
+    "Ko'chmas mulk ijarasi"
+   ],
+   "e": "Startaplar."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Startap nima?",
+   "a": [
+    "Yangi innovatsion loyiha",
+    "Eski yirik korxona",
+    "Davlat idorasi",
+    "Notijorat jamg'arma"
+   ],
+   "e": "Kengayuvchan model."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Biznes-inkubatorning vazifasi nima?",
+   "a": [
+    "Yangi tadbirkorlarni qo'llash",
+    "Yirik korxonalarni tugatish",
+    "Soliq yig'ish",
+    "Kreditlarni undirish"
+   ],
+   "e": "Joy, maslahat, xizmatlar."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Davlat ro'yxatidan o'tkazishdan o'tmasdan tadbirkorlik bilan shug'ullanish qanday baholanadi?",
+   "a": [
+    "Qonunga xilof faoliyat",
+    "Ruxsat etilgan faoliyat",
+    "Rag'batlantiriladigan faoliyat",
+    "Soliqsiz faoliyat"
+   ],
+   "e": "Javobgarlik bor."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Litsenziya nima?",
+   "a": [
+    "Maxsus ruxsatnoma",
+    "Soliq to'lovi",
+    "Bank krediti",
+    "Ish haqi"
+   ],
+   "e": "Litsenziyalanadigan faoliyat."
+  },
+  {
+   "b": "Tadbirkorlik asoslari",
+   "q": "Tadbirkorlik sub'ektlarining huquqlarini himoya qiluvchi lavozim qaysi?",
+   "a": [
+    "Biznes-ombudsman",
+    "Davlat soliq qo'mitasi raisi",
+    "Bojxona boshlig'i",
+    "Bank boshqaruvchisi"
+   ],
+   "e": "Biznes-ombudsman."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "Biznes-reja nima?",
+   "a": [
+    "G'oyani amalga oshirish rejasi",
+    "Korxona xodimlari ro'yxati",
+    "Faqat reklama matni",
+    "Faqat soliq deklaratsiyasi"
+   ],
+   "e": "Investorlar uchun ham muhim."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "Biznes-rejaning \"Rezyume\" bo'limi qayerda joylashadi?",
+   "a": [
+    "Boshida",
+    "Faqat oxirida ilova sifatida",
+    "O'rtasida",
+    "Umuman bo'lmaydi"
+   ],
+   "e": "Executive summary."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "Biznes-rejaning moliyaviy bo'limida nima ko'rsatiladi?",
+   "a": [
+    "Moliyaviy prognozlar",
+    "Faqat xodimlar ismlari",
+    "Faqat mahsulot rasmi",
+    "Faqat raqobatchilar manzili"
+   ],
+   "e": "Moliyaviy reja."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "Investitsiyaning o'zini oqlash muddati nimani ko'rsatadi?",
+   "a": [
+    "Mablag'ning qaytish muddati",
+    "Kreditning foiz stavkasini",
+    "Xodimlar sonini",
+    "Mahsulot narxini"
+   ],
+   "e": "Payback period."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "Zararsizlik nuqtasi nima?",
+   "a": [
+    "Daromad = xarajat nuqtasi",
+    "Maksimal foyda nuqtasi",
+    "Korxona bankrot bo'lgan nuqta",
+    "Narx eng yuqori bo'lgan nuqta"
+   ],
+   "e": "Break-even point."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "Zararsizlik nuqtasi (dona) qanday hisoblanadi?",
+   "a": [
+    "Doimiy xarajat ÷ marjinal daromad",
+    "Umumiy xarajat × narx",
+    "Foyda ÷ xodimlar soni",
+    "Narx − soliq"
+   ],
+   "e": "Marjinal daromad."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "Doimiy xarajatlarga misol qaysi?",
+   "a": [
+    "Ijara haqi",
+    "Xomashyo xarajati",
+    "Ishbay ish haqi",
+    "Qadoqlash materiali"
+   ],
+   "e": "Ishlab chiqarish hajmiga bog'liq emas."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "O'zgaruvchan xarajatlarga misol qaysi?",
+   "a": [
+    "Xomashyo va materiallar",
+    "Bino ijarasi",
+    "Qo'riqlash xizmati",
+    "Amortizatsiya (chiziqli)"
+   ],
+   "e": "Hajmga bog'liq."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "Rentabellik nimani ko'rsatadi?",
+   "a": [
+    "Foyda ÷ xarajat (aktiv)",
+    "Xodimlar sonini",
+    "Mahsulot rangini",
+    "Bino maydonini"
+   ],
+   "e": "Foizda."
+  },
+  {
+   "b": "Biznes-reja",
+   "q": "ROI (investitsiya rentabelligi) qanday hisoblanadi?",
+   "a": [
+    "(Daromad − investitsiya) ÷ investitsiya",
+    "Investitsiya × foiz",
+    "Foyda × soliq",
+    "Narx ÷ xarajat × 2"
+   ],
+   "e": "Return on Investment."
+  },
+  {
+   "b": "Marketing",
+   "q": "Marketing kompleksi \"4P\" nimalardan iborat?",
+   "a": [
+    "Mahsulot, narx, joy, rag'batlantirish",
+    "Pul, partner, plan, profit",
+    "Personal, press, print, price",
+    "Product, people, process, profit"
+   ],
+   "e": "Product, Price, Place, Promotion."
+  },
+  {
+   "b": "Marketing",
+   "q": "SWOT-tahlil nimani o'rganadi?",
+   "a": [
+    "Kuchli-zaif tomon, imkoniyat, xavf",
+    "Faqat moliyaviy balans",
+    "Faqat xodimlar soni",
+    "Faqat reklama byudjeti"
+   ],
+   "e": "Strategik tahlil."
+  },
+  {
+   "b": "Marketing",
+   "q": "Bozor segmentatsiyasi nima?",
+   "a": [
+    "Iste'molchilarni guruhlash",
+    "Bozorni yopish",
+    "Narxni oshirish",
+    "Mahsulotni yo'q qilish"
+   ],
+   "e": "Maqsadli segment."
+  },
+  {
+   "b": "Marketing",
+   "q": "Maqsadli auditoriya nima?",
+   "a": [
+    "Mo'ljallangan iste'molchilar",
+    "Barcha aholi",
+    "Faqat raqobatchilar",
+    "Faqat xodimlar"
+   ],
+   "e": "Target audience."
+  },
+  {
+   "b": "Marketing",
+   "q": "Brend nima?",
+   "a": [
+    "Nom, belgi va obraz",
+    "Faqat mahsulot narxi",
+    "Faqat zavod manzili",
+    "Soliq turi"
+   ],
+   "e": "Brend qiymati."
+  },
+  {
+   "b": "Marketing",
+   "q": "Raqobatchilarni tahlil qilishdan maqsad nima?",
+   "a": [
+    "Ustunlikni aniqlash",
+    "Raqobatchilarni ko'chirib olish",
+    "Bozordan chiqish",
+    "Narxni tasodifiy belgilash"
+   ],
+   "e": "Raqobat ustunligi."
+  },
+  {
+   "b": "Marketing",
+   "q": "Reklamaning asosiy vazifasi nima?",
+   "a": [
+    "Xabardor qilish va undash",
+    "Mahsulot narxini yashirish",
+    "Raqobatchini kamsitish",
+    "Soliqni kamaytirish"
+   ],
+   "e": "Kommunikatsiya."
+  },
+  {
+   "b": "Marketing",
+   "q": "Raqamli marketingga misol qaysi?",
+   "a": [
+    "Ijtimoiy tarmoqlarda reklama",
+    "Gazetadagi e'lon",
+    "Ko'cha bannerlari",
+    "Radio reklamasi"
+   ],
+   "e": "Digital marketing."
+  },
+  {
+   "b": "Marketing",
+   "q": "Mahsulotning hayot sikli bosqichlari qaysilar?",
+   "a": [
+    "Joriy etish, o'sish, yetuklik, pasayish",
+    "Ishlab chiqarish, sotish, soliq",
+    "Reja, nazorat, hisobot",
+    "Kirim, chiqim, qoldiq"
+   ],
+   "e": "Product life cycle."
+  },
+  {
+   "b": "Marketing",
+   "q": "Narx belgilashning \"xarajat + ustama\" usuli nimaga asoslanadi?",
+   "a": [
+    "Tannarx + ustama",
+    "Raqobatchi narxini ikki baravar oshirishga",
+    "Tasodifiy narxga",
+    "Davlat belgilagan narxga faqat"
+   ],
+   "e": "Cost-plus pricing."
+  },
+  {
+   "b": "Marketing",
+   "q": "Talab elastikligi nima?",
+   "a": [
+    "Talabning narxga ta'sirchanligi",
+    "Taklifning doimiyligi",
+    "Soliq stavkasi",
+    "Ish haqi darajasi"
+   ],
+   "e": "Elastik va noelastik talab."
+  },
+  {
+   "b": "Marketing",
+   "q": "Mijozlarni saqlab qolishning asosiy vositasi qaysi?",
+   "a": [
+    "Sifat va sodiqlik dasturlari",
+    "Narxni doimiy oshirish",
+    "Mijoz shikoyatlarini e'tiborsiz qoldirish",
+    "Xizmat sifatini pasaytirish"
+   ],
+   "e": "Loyalty."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Buxgalteriya balansining asosiy tenglamasi qaysi?",
+   "a": [
+    "Aktiv = Majburiyat + Kapital",
+    "Aktivlar = Daromad − Xarajat",
+    "Kapital = Foyda × Soliq",
+    "Passiv = Aktiv × 2"
+   ],
+   "e": "Balans tengligi."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Aylanma mablag'larga nima kiradi?",
+   "a": [
+    "Zaxiralar, debitorlik, pul",
+    "Binolar va inshootlar",
+    "Yer uchastkalari",
+    "Uzoq muddatli investitsiyalar"
+   ],
+   "e": "Joriy aktivlar."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Asosiy vositalarga nima kiradi?",
+   "a": [
+    "Bino, uskuna, transport",
+    "Xomashyo",
+    "Kassadagi pul",
+    "Tayyor mahsulot zaxirasi"
+   ],
+   "e": "Uzoq muddatli aktivlar."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Debitorlik qarzi nima?",
+   "a": [
+    "Boshqalarning korxonaga qarzi",
+    "Korxonaning boshqalarga qarzi",
+    "Soliq imtiyozi",
+    "Xodimlar soni"
+   ],
+   "e": "Kreditorlik — korxonaning qarzi."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Kreditorlik qarzi nima?",
+   "a": [
+    "Korxonaning boshqalarga qarzi",
+    "Boshqalarning korxonaga qarzi",
+    "Korxonaning foydasi",
+    "Korxona aktivlari"
+   ],
+   "e": "Majburiyat."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Pul oqimi (cash flow) nimani ko'rsatadi?",
+   "a": [
+    "Pul kirimi va chiqimi",
+    "Faqat xodimlar sonini",
+    "Faqat mahsulot turlarini",
+    "Faqat bino maydonini"
+   ],
+   "e": "Likvidlik."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Likvidlik nima?",
+   "a": [
+    "Tez pulga aylanish",
+    "Korxonaning yoshi",
+    "Xodimlar malakasi",
+    "Mahsulot sifati"
+   ],
+   "e": "To'lov qobiliyati."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Bankrotlik nima?",
+   "a": [
+    "Qarzni to'lay olmaslik",
+    "Foydaning ortishi",
+    "Yangi filial ochish",
+    "Kredit olishga ruxsat"
+   ],
+   "e": "Sud tomonidan e'tirof etiladi."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Qo'shilgan qiymat solig'i (QQS) qanday soliq turiga kiradi?",
+   "a": [
+    "Egri (bilvosita) soliq",
+    "To'g'ri soliq",
+    "Mahalliy yer solig'i",
+    "Mulk solig'i"
+   ],
+   "e": "Narxga qo'shiladi."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Jismoniy shaxslardan olinadigan daromad solig'i qanday soliq?",
+   "a": [
+    "To'g'ri soliq",
+    "Egri soliq",
+    "Bojxona to'lovi",
+    "Aksiz"
+   ],
+   "e": "Daromaddan olinadi."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Aksiz solig'i qaysi tovarlarga belgilanadi?",
+   "a": [
+    "Alkogol, tamaki, yoqilg'i",
+    "Barcha oziq-ovqat mahsulotlariga",
+    "Faqat kitoblarga",
+    "Faqat dori-darmonlarga"
+   ],
+   "e": "Aksiz osti tovarlari."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Soliq yukini qonuniy kamaytirish qanday ataladi?",
+   "a": [
+    "Soliqni rejalashtirish",
+    "Soliqdan bo'yin tovlash",
+    "Kontrabanda",
+    "Soxtalashtirish"
+   ],
+   "e": "Qonuniy imtiyozlardan foydalanish."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Kredit berishning asosiy tamoyillari qaysilar?",
+   "a": [
+    "Qaytarish, muddat, to'lov, ta'minot",
+    "Bepullik va muddatsizlik",
+    "Faqat do'stlik asosida",
+    "Qaytarmaslik"
+   ],
+   "e": "Bank krediti."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Garov krediti nima bilan ta'minlanadi?",
+   "a": [
+    "Mulk (garov) bilan",
+    "Faqat va'da bilan",
+    "Faqat reklama bilan",
+    "Hech narsa bilan"
+   ],
+   "e": "Ta'minlangan kredit."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Mikrokredit asosan kimlarga beriladi?",
+   "a": [
+    "Kichik biznesga",
+    "Faqat yirik korporatsiyalarga",
+    "Faqat davlat idoralariga",
+    "Faqat xorijiy banklarga"
+   ],
+   "e": "Kichik hajmdagi kredit."
+  },
+  {
+   "b": "Moliya va soliqlar",
+   "q": "Inflyatsiya biznesga qanday ta'sir qiladi?",
+   "a": [
+    "Xarid qobiliyatini pasaytiradi",
+    "Har doim foydani kamaytirmaydi va narxlarni tushiradi",
+    "Hech qanday ta'sir qilmaydi",
+    "Soliqlarni bekor qiladi"
+   ],
+   "e": "Narxlar umumiy darajasining oshishi."
+  },
+  {
+   "b": "Biznes etikasi va raqamli biznes",
+   "q": "Elektron tijorat (e-commerce) nima?",
+   "a": [
+    "Internet savdo",
+    "Faqat ko'cha savdosi",
+    "Faqat ulgurji bozor",
+    "Faqat davlat xaridlari qog'ozda"
+   ],
+   "e": "Onlayn savdo."
+  },
+  {
+   "b": "Biznes etikasi va raqamli biznes",
+   "q": "Biznesda korporativ ijtimoiy mas'uliyat nimani anglatadi?",
+   "a": [
+    "Jamiyat oldidagi mas'uliyat",
+    "Faqat foydani maksimallashtirish",
+    "Soliqdan qochish",
+    "Xodimlarni ko'paytirmaslik"
+   ],
+   "e": "CSR."
+  },
+  {
+   "b": "Biznes etikasi va raqamli biznes",
+   "q": "Tijorat siri nima?",
+   "a": [
+    "Maxfiy tijoriy ma'lumot",
+    "Ochiq reklama ma'lumoti",
+    "Davlat statistikasi",
+    "Mahsulot yorlig'i"
+   ],
+   "e": "Qonun bilan himoyalanadi."
+  },
+  {
+   "b": "Biznes etikasi va raqamli biznes",
+   "q": "Tovar belgisi (trademark) nima uchun ro'yxatdan o'tkaziladi?",
+   "a": [
+    "Brendni himoyalash",
+    "Soliq to'lamaslik uchun",
+    "Mahsulot narxini oshirish uchun",
+    "Raqobatchilarga berish uchun"
+   ],
+   "e": "Intellektual mulk."
+  },
+  {
+   "b": "Biznes etikasi va raqamli biznes",
+   "q": "Eksport nima?",
+   "a": [
+    "Chet elga sotish",
+    "Chet eldan tovar sotib olish",
+    "Ichki bozorda sotish",
+    "Tovarni yo'q qilish"
+   ],
+   "e": "Import — chet eldan olish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Xodimning kompetensiyasi nima?",
+   "a": [
+    "Bilim, ko'nikma va xulq-atvor majmui",
+    "Faqat diplomdagi baho",
+    "Faqat ish staji yillari",
+    "Faqat yoshi"
+   ],
+   "e": "Vazifani samarali bajarish qobiliyati."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Mentorlik (nastavnichestvo) nima?",
+   "a": [
+    "Tajribali xodimning yordami",
+    "Yangi xodimning rahbarni o'qitishi",
+    "Xodimlarning bir-birini nazorat qilishi",
+    "Tashqi auditorlik tekshiruvi"
+   ],
+   "e": "Tajriba uzatish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Mehnat shartnomasi kimlar o'rtasida tuziladi?",
+   "a": [
+    "Ish beruvchi va xodim",
+    "Xodim va uning oilasi",
+    "Ikki ish beruvchi",
+    "Xodim va soliq organi"
+   ],
+   "e": "Mehnat kodeksi asosida."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Xodimlarni ishdan bo'shatishda nimaga rioya qilish kerak?",
+   "a": [
+    "Mehnat qonunchiligiga",
+    "Faqat rahbarning kayfiyatiga",
+    "Faqat mish-mishlarga",
+    "Faqat xodimning tashqi ko'rinishiga"
+   ],
+   "e": "Asoslar va tartib qonunda belgilangan."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Kadrlarga ehtiyojni rejalashtirishning birinchi qadami nima?",
+   "a": [
+    "Kerakli lavozimlar va malakani aniqlash",
+    "Darhol barcha nomzodlarni ishga qabul qilish",
+    "Mavjud barcha xodimlarni ishdan bo'shatish",
+    "Faqat reklama e'loni berish, tahlilsiz"
+   ],
+   "e": "Ish hajmi va tashkilot strategiyasi asosida."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Ish o'rni tavsifi (job description) nima?",
+   "a": [
+    "Lavozim vazifalari va talablari bayoni",
+    "Xodimning shaxsiy rezyumesi",
+    "Korxona moliyaviy hisoboti",
+    "Ish beruvchining reklama e'loni faqat"
+   ],
+   "e": "Saralash va baholash asosi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Malaka oshirish nima?",
+   "a": [
+    "Bilim va ko'nikmalarni yangilash",
+    "Xodimni pastroq lavozimga o'tkazish",
+    "Ish haqini kamaytirish",
+    "Xodimni ta'tilga chiqarish"
+   ],
+   "e": "Kurslar, treninglar, stajirovka."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Xodimlarni jalb qilishning ichki manbasiga misol qaysi?",
+   "a": [
+    "Ichki ko'tarilish va rotatsiya",
+    "Kadrlar agentliklari orqali qidirish",
+    "Oliy o'quv yurtlari bitiruvchilari",
+    "Ish e'lonlari saytlari"
+   ],
+   "e": "Ichki manba — tashkilot xodimlari."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Sinov muddati nima uchun belgilanadi?",
+   "a": [
+    "Xodimning lavozimga mosligini tekshirish uchun",
+    "Xodimga ish haqi to'lamaslik uchun",
+    "Xodimni ta'tildan mahrum qilish uchun",
+    "Mehnat shartnomasini rasmiylashtirmaslik uchun"
+   ],
+   "e": "Mehnat qonunchiligida muddati cheklangan."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Kompetensiyaga asoslangan (vaziyatli) intervyuda nomzoddan nima so'raladi?",
+   "a": [
+    "Real vaziyatlardagi xatti-harakati",
+    "Faqat sevimli taomi va rangini",
+    "Faqat oilaviy ahvoli",
+    "Faqat siyosiy qarashlari"
+   ],
+   "e": "STAR usuli: vaziyat, vazifa, harakat, natija."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Adaptatsiya (moslashtirish) nima?",
+   "a": [
+    "Yangi xodimni moslashtirish",
+    "Xodimni ishdan bo'shatish jarayoni",
+    "Xodimning ish haqini kamaytirish",
+    "Korxonani yangi binoga ko'chirish"
+   ],
+   "e": "Kasbiy va ijtimoiy moslashish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Outplacement (autpleysment) nima?",
+   "a": [
+    "Yangi ish topishda yordam",
+    "Xodimni boshqa bo'limga o'tkazish",
+    "Yangi xodimni ishga qabul qilish",
+    "Xodimga qo'shimcha ta'til berish"
+   ],
+   "e": "Ijtimoiy mas'uliyat ko'rinishi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Ishga qabul qilishda test sinovlari nima uchun kerak?",
+   "a": [
+    "Nomzod qobiliyatlarini obyektiv baholash uchun",
+    "Nomzodni qo'rqitib, ishga olmaslik uchun",
+    "Faqat vaqtni cho'zish uchun",
+    "Nomzodning shaxsiy hayotini o'rganish uchun"
+   ],
+   "e": "Kasbiy, psixologik testlar."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Mehnat intizomi nima?",
+   "a": [
+    "Belgilangan tartib qoidalariga rioya qilish",
+    "Ish joyidan ruxsatsiz chiqib ketish",
+    "Ish vaqtini o'zboshimcha belgilash",
+    "Buyruqlarni bajarmaslik"
+   ],
+   "e": "Ichki mehnat tartibi qoidalari."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Yangi xodimni yo'naltirish (orientatsiya) dasturiga nima kiradi?",
+   "a": [
+    "Tashkilot va vazifalar bilan tanishtirish",
+    "Darhol eng murakkab loyihani mustaqil topshirish",
+    "Xodimni hech kim bilan tanishtirmaslik",
+    "Faqat ish haqi miqdorini aytish"
+   ],
+   "e": "Murabbiy (mentor) biriktiriladi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Xodimlar attestatsiyasi nima?",
+   "a": [
+    "Malaka va natijalarni davriy baholash",
+    "Xodimni ishga qabul qilish buyrug'i",
+    "Xodimning ta'til jadvali",
+    "Xodimning shaxsiy pasporti"
+   ],
+   "e": "Lavozimga moslik aniqlanadi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Treningning ma'ruzadan farqi nima?",
+   "a": [
+    "Faol amaliy mashqlar",
+    "Faqat nazariy bilim berish",
+    "Tinglovchilar faqat tinglaydi",
+    "Hech qanday amaliyot bo'lmaydi"
+   ],
+   "e": "Ko'nikma shakllantirish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "\"360 daraja\" baholash usuli nima?",
+   "a": [
+    "Rahbar, hamkasb va mijozlar baholashi",
+    "Faqat rahbarning bir o'zi baholashi",
+    "Xodimni faqat o'zi baholashi",
+    "Xodimni faqat bir marta baholash"
+   ],
+   "e": "Har tomonlama fikr."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Xodimlarni baholashda \"galo effekti\" nima?",
+   "a": [
+    "Bitta xususiyat umumiy bahoga ta'sir qilishi",
+    "Baholashning har doim aniq bo'lishi",
+    "Barcha xodimlarga bir xil baho qo'yish",
+    "Baholashning butunlay yo'qligi"
+   ],
+   "e": "Baholash xatosi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Kadrlarni boshqarish (HR) nimani o'z ichiga oladi?",
+   "a": [
+    "Tanlash, o'qitish, baholash, rag'batlantirish",
+    "Faqat ish haqi vedomostini tayyorlash va bankka yuborish",
+    "Faqat ishdan bo'shatish buyruqlarini rasmiylashtirish",
+    "Faqat ofis jihozlarini xarid qilish va hisobga olish"
+   ],
+   "e": "Inson resurslarini boshqarish."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Marjinalistlar narxni nima bilan tushuntiradi?",
+   "a": [
+    "Chegaraviy naflilik bilan",
+    "Faqat mehnat xarajatlari bilan",
+    "Faqat davlat buyrug'i bilan",
+    "Faqat oltin bilan"
+   ],
+   "e": "\"Marjinal inqilob\"."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Tovarning iste'mol qiymati nima?",
+   "a": [
+    "Uning foydaliligi",
+    "Uning bozordagi narxi",
+    "Unga sarflangan mehnat",
+    "Uning og'irligi"
+   ],
+   "e": "Ehtiyojni qondirish qobiliyati."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Iqtisodiyotda \"mikro\" va \"makro\" tushunchalarini kim keng joriy qilgan?",
+   "a": [
+    "Ragnar Frish",
+    "Adam Smit",
+    "Karl Marks",
+    "Aristotel"
+   ],
+   "e": "1933-yil."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Pul massasi oshib, ishlab chiqarish o'zgarmasa nima yuz beradi?",
+   "a": [
+    "Narxlar oshadi",
+    "Narxlar pasayadi",
+    "Ishsizlik yo'qoladi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Inflyatsiya."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Sharq mutafakkirlaridan qaysi biri iqtisodiy qarashlari bilan mashhur (davlat, mehnat taqsimoti haqida)?",
+   "a": [
+    "Ibn Xaldun",
+    "Isaak Nyuton",
+    "Galiley",
+    "Kopernik"
+   ],
+   "e": "\"Muqaddima\" asari."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Ishlab chiqarish imkoniyatlari egri chizig'idan ichkaridagi nuqta nimani bildiradi?",
+   "a": [
+    "Resurslar to'liq ishlatilmagan",
+    "Erishib bo'lmaydigan ishlab chiqarish",
+    "Eng samarali holat",
+    "Iqtisodiy o'sish"
+   ],
+   "e": "Ishsizlik yoki bo'sh quvvat."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Yalpi milliy baxt indeksi qaysi mamlakatda taklif etilgan?",
+   "a": [
+    "Butan",
+    "AQSh",
+    "Germaniya",
+    "Yaponiya"
+   ],
+   "e": "Farovonlikning muqobil o'lchovi."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Ishchi bir soatda 10 ta detal yoki 5 ta stul ishlab chiqaradi. 1 stulning muqobil xarajati qancha detal?",
+   "a": [
+    "2",
+    "5",
+    "10",
+    "0,5"
+   ],
+   "e": "10/5."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Pulning muomala vositasi funksiyasi nimani anglatadi?",
+   "a": [
+    "Ayirboshlashda vositachilik",
+    "Tovar qiymatini o'lchash",
+    "Boylik jamg'arish",
+    "Xalqaro to'lovlarni amalga oshirish"
+   ],
+   "e": "T — P — T."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Iqtisodiyotning asosiy muammosi nima?",
+   "a": [
+    "Resurslarning cheklanganligi",
+    "Pulning haddan tashqari ko'pligi",
+    "Ehtiyojlarning cheklanganligi",
+    "Tovarlarning ortiqchaligi"
+   ],
+   "e": "Shundan tanlov zarurati kelib chiqadi."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Iqtisodiy samaradorlik nimani anglatadi?",
+   "a": [
+    "Resursdan eng yaxshi natija",
+    "Iloji boricha ko'p resurs sarflash",
+    "Natijaga e'tibor bermaslik",
+    "Faqat xarajatlarni oshirish"
+   ],
+   "e": "Pareto samaradorligi."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Tovar nima?",
+   "a": [
+    "Ayirboshlash uchun mehnat mahsuli",
+    "O'z iste'moli uchun yetishtirilgan mahsulot",
+    "Faqat qimmatbaho metallar",
+    "Faqat xizmatlar"
+   ],
+   "e": "Iste'mol qiymati va qiymatga ega."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "\"Iqtisodiyot\" (oykonomiya) atamasi qaysi tildan kelib chiqqan?",
+   "a": [
+    "Qadimgi yunon tilidan",
+    "Lotin tilidan",
+    "Arab tilidan",
+    "Fors tilidan"
+   ],
+   "e": "\"Uy xo'jaligini boshqarish\"."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Ishlab chiqarish omillariga nima kiradi?",
+   "a": [
+    "Yer, mehnat, kapital, tadbirkorlik",
+    "Faqat pul, oltin va qimmatbaho qog'ozlar",
+    "Faqat soliqlar va bojxona to'lovlari",
+    "Faqat narx va talab"
+   ],
+   "e": "Omillar daromadlari: renta, ish haqi, foiz, foyda."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "\"Iqtisodiyot fanining otasi\" deb kim tan olingan?",
+   "a": [
+    "Adam Smit",
+    "Karl Marks",
+    "Jon Keyns",
+    "Milton Fridmen"
+   ],
+   "e": "\"Xalqlar boyligi\" (1776)."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Mikroiqtisodiyot nimani o'rganadi?",
+   "a": [
+    "Alohida subyektlar xulqini",
+    "Butun mamlakat iqtisodiyotini",
+    "Faqat jahon iqtisodiyotini",
+    "Faqat davlat byudjetini"
+   ],
+   "e": "Iste'molchi, firma, tarmoq."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "O'zbekiston milliy valyutasi qaysi?",
+   "a": [
+    "So'm",
+    "Tenge",
+    "Rubl",
+    "Manat"
+   ],
+   "e": "1994-yildan muomalada."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Pareto samaradorligi nima?",
+   "a": [
+    "Boshqani yomonlashtirmay yaxshilab bo'lmaydigan holat",
+    "Hammaning daromadi teng bo'lgan holat",
+    "Faqat davlat foydasi maksimal holat",
+    "Resurslar ishlatilmagan holat"
+   ],
+   "e": "Optimal taqsimot."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Amir Temurning \"Temur tuzuklari\"da qaysi iqtisodiy masala yoritilgan?",
+   "a": [
+    "Soliq siyosati va davlat boshqaruvi",
+    "Kriptovalyuta muomalasi",
+    "Fond birjasi faoliyati",
+    "Elektron tijorat"
+   ],
+   "e": "Adolatli soliq tamoyili."
+  },
+  {
+   "b": "Iqtisodiyot asoslari",
+   "q": "Barter nima?",
+   "a": [
+    "Pulsiz ayirboshlash",
+    "Kredit olish",
+    "Valyuta ayirboshlash",
+    "Soliq to'lash"
+   ],
+   "e": "Pul paydo bo'lgunga qadar keng tarqalgan."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Teskari logistika nima?",
+   "a": [
+    "Qaytarilgan tovar oqimi",
+    "Faqat yangi tovarlarni yetkazish",
+    "Faqat xomashyo sotib olish",
+    "Faqat reklama tarqatish"
+   ],
+   "e": "Reverse logistics."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Logistika markazi (terminal) vazifasi nima?",
+   "a": [
+    "Qabul, saqlash, saralash, jo'natish",
+    "Faqat yo'lovchilarga ovqat berish",
+    "Faqat transport vositalarini sotish",
+    "Faqat haydovchilarni dam oldirish"
+   ],
+   "e": "Hub."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "\"Oxirgi mil\" logistikasi nima?",
+   "a": [
+    "Iste'molchiga oxirgi yetkazish",
+    "Xomashyo qazib olish bosqichi",
+    "Zavodda ishlab chiqarish bosqichi",
+    "Portda kemaga yuklash bosqichi"
+   ],
+   "e": "Last mile."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Kross-doking nima?",
+   "a": [
+    "Saqlamasdan qayta yuklash",
+    "Yukni uzoq muddat omborda saqlash",
+    "Yukni yo'q qilish",
+    "Yukni qadoqlamasdan tashish"
+   ],
+   "e": "Tez aylanma."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Distributsiya markazi nima?",
+   "a": [
+    "Taqsimlovchi ombor",
+    "Faqat ishlab chiqarish sexi",
+    "Faqat chakana do'kon",
+    "Faqat avtobus bekati"
+   ],
+   "e": "Taqsimot."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Zaxiralarni boshqarishning maqsadi nima?",
+   "a": [
+    "Yetishmovchilik va ortiqchalikni oldini olish",
+    "Zaxiralarni maksimal oshirish har doim",
+    "Zaxirani butunlay yo'q qilish",
+    "Zaxiralarni hisobga olmaslik"
+   ],
+   "e": "Optimal daraja."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Logistika nima?",
+   "a": [
+    "Oqimlarni boshqarish",
+    "Faqat transport vositalarini bo'yash",
+    "Faqat chipta kassalarini boshqarish",
+    "Faqat haydovchilarni o'qitish"
+   ],
+   "e": "Oqimlar boshqaruvi."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Logistik xarajatlarga nima kiradi?",
+   "a": [
+    "Tashish, saqlash, boshqaruv xarajatlari",
+    "Faqat ishlab chiqarish uskunalari narxi",
+    "Faqat xodimlar bayrami xarajati",
+    "Faqat ofis mebeli narxi"
+   ],
+   "e": "Umumiy xarajat."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "3PL provayder nima?",
+   "a": [
+    "Tashqi logistika kompaniyasi",
+    "Faqat shahar yo'lovchi avtobusi",
+    "Faqat temir yo'l oraliq stansiyasi",
+    "Faqat chegaradagi bojxona posti"
+   ],
+   "e": "Third party logistics."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Logistikaning \"7R\" qoidasi nimani anglatadi?",
+   "a": [
+    "Kerakli yuk, joy, vaqt va boshqalar",
+    "Yetti xil transport turi majmui",
+    "Yetti kunlik uzluksiz ish haftasi",
+    "Yetti tonnalik yuk ko'tarish chegarasi"
+   ],
+   "e": "Logistika tamoyili."
+  },
+  {
+   "b": "Moliyaviy savodxonlik",
+   "q": "Oddiy foizda 1 000 000 so'm yillik 20% bilan 2 yilga qo'yilsa, foiz daromadi qancha?",
+   "a": [
+    "400 000 so'm",
+    "200 000 so'm",
+    "440 000 so'm",
+    "1 200 000 so'm"
+   ],
+   "e": "1 000 000 × 0,2 × 2."
+  },
+  {
+   "b": "Moliyaviy savodxonlik",
+   "q": "Murakkab foizda 1 000 000 so'm yillik 10% bilan 2 yildan keyin qancha bo'ladi?",
+   "a": [
+    "1 210 000 so'm",
+    "1 200 000 so'm",
+    "1 100 000 so'm",
+    "1 020 000 so'm"
+   ],
+   "e": "1 000 000 × 1,1²."
+  },
+  {
+   "b": "Moliyaviy savodxonlik",
+   "q": "Omonat (depozit) nima?",
+   "a": [
+    "Foizli omonat",
+    "Bankdan olingan qarz",
+    "Soliq to'lovi",
+    "Sug'urta polisi"
+   ],
+   "e": "Depozit."
+  },
+  {
+   "b": "Moliyaviy savodxonlik",
+   "q": "Kredit foiz stavkasi oshsa, qarz oluvchi uchun nima bo'ladi?",
+   "a": [
+    "Qarz qimmatlashadi",
+    "Qarz arzonlashadi",
+    "Hech narsa o'zgarmaydi",
+    "Qarz kechiriladi"
+   ],
+   "e": "Foiz to'lovi ortadi."
+  },
+  {
+   "b": "Moliyaviy savodxonlik",
+   "q": "Diversifikatsiya investitsiyada nima uchun kerak?",
+   "a": [
+    "Xavfni kamaytirish uchun",
+    "Daromadni kafolatlash uchun",
+    "Soliqdan qochish uchun",
+    "Xarajatni oshirish uchun"
+   ],
+   "e": "\"Tuxumlarni bir savatga solmaslik\"."
+  },
+  {
+   "b": "Moliyaviy savodxonlik",
+   "q": "Sug'urtaning asosiy vazifasi nima?",
+   "a": [
+    "Zararni qoplash",
+    "Foydani kafolatlash",
+    "Soliqni bekor qilish",
+    "Narxni oshirish"
+   ],
+   "e": "Xavfni taqsimlash."
+  },
+  {
+   "b": "Moliyaviy savodxonlik",
+   "q": "Shaxsiy byudjet tuzishning asosiy maqsadi nima?",
+   "a": [
+    "Daromad-xarajat nazorati",
+    "Xarajatlarni yashirish",
+    "Qarzni ko'paytirish",
+    "Daromadni hisobga olmaslik"
+   ],
+   "e": "Moliyaviy reja."
+  },
+  {
+   "b": "Moliyaviy savodxonlik",
+   "q": "Firibgarlikdan himoyalanish uchun bank kartasi haqida nima qilmaslik kerak?",
+   "a": [
+    "PIN va SMS-kodni aytmaslik",
+    "Kartani har doim o'zida saqlash",
+    "Bankning rasmiy ilovasidan foydalanish",
+    "Hisobni muntazam tekshirish"
+   ],
+   "e": "Kiberxavfsizlik."
+  },
+  {
+   "b": "Moliyaviy savodxonlik",
+   "q": "Naqd pulsiz to'lovning afzalligi nima?",
+   "a": [
+    "Tez va qulay to'lov",
+    "Hech qanday iz qolmasligi",
+    "Har doim komissiyasiz bo'lishi",
+    "Soliqdan ozod qilishi"
+   ],
+   "e": "Raqamli to'lovlar."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Biznes jarayonlarini avtomatlashtirish uchun qaysi tizim qo'llanadi?",
+   "a": [
+    "ERP tizimi",
+    "Faqat qog'oz jurnal",
+    "Faqat telefon daftari",
+    "Faqat doska"
+   ],
+   "e": "Korxona resurslarini rejalashtirish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "CRM tizimi nima uchun ishlatiladi?",
+   "a": [
+    "Mijozlar bilan ishlash",
+    "Faqat soliq hisoblash",
+    "Faqat ombor qo'riqlash",
+    "Faqat binoni isitish"
+   ],
+   "e": "Customer Relationship Management."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "KPI nima?",
+   "a": [
+    "Samaradorlik ko'rsatkichlari",
+    "Kredit foiz indeksi",
+    "Korxona pasporti",
+    "Kadrlar ro'yxati"
+   ],
+   "e": "Key Performance Indicators."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Delegatsiya (vakolat berish) nima?",
+   "a": [
+    "Vakolat topshirish",
+    "Xodimni ishdan bo'shatish",
+    "Barcha ishni rahbar o'zi bajarishi",
+    "Xodimlarni jazolash"
+   ],
+   "e": "Boshqaruv vositasi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Biznesda vaqtni boshqarishning \"Eyzenxauer matritsasi\" nimaga asoslanadi?",
+   "a": [
+    "Muhimlik va shoshilinchlik",
+    "Faqat narxlar bo'yicha",
+    "Faqat xodimlar yoshi bo'yicha",
+    "Faqat alifbo tartibida"
+   ],
+   "e": "To'rt kvadrant."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Ulgurji savdoning chakana savdodan farqi nima?",
+   "a": [
+    "Katta hajmda, qayta sotish uchun",
+    "Faqat oxirgi iste'molchiga dona-dona sotiladi",
+    "Faqat internetda sotiladi",
+    "Faqat bepul beriladi"
+   ],
+   "e": "Wholesale."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Ustama (natsenka) nima?",
+   "a": [
+    "Narxning tannarxdan ortig'i",
+    "Soliq turi",
+    "Chegirma",
+    "Jarima"
+   ],
+   "e": "Savdo ustamasi."
+  },
+  {
+   "b": "Logistika va savdo",
+   "q": "Chegirma (skidka) qanday maqsadda beriladi?",
+   "a": [
+    "Sotuvni rag'batlantirish uchun",
+    "Foydani oshirish uchun har doim",
+    "Mijozni jazolash uchun",
+    "Soliqni oshirish uchun"
+   ],
+   "e": "Marketing vositasi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Takman modeli bo'yicha jamoa rivojlanish bosqichlari qaysilar?",
+   "a": [
+    "Shakllanish, to'qnashuv, me'yorlanish, ishlash",
+    "Tug'ilish, o'sish, qarish, o'lim",
+    "Rejalashtirish, bajarish, tekshirish, harakat",
+    "Kirish, chiqish, qaytish, yakun"
+   ],
+   "e": "Forming, storming, norming, performing."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Ishbay ish haqi qanday hisoblanadi?",
+   "a": [
+    "Mahsulot soni × narx",
+    "Ishlangan soat × tarif",
+    "Faqat yillik oklad",
+    "Faqat mukofot"
+   ],
+   "e": "Unumdorlikni rag'batlantiradi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Moddiy rag'batlantirishga misol qaysi?",
+   "a": [
+    "Mukofot puli",
+    "Faxriy yorliq",
+    "Rahbarning og'zaki maqtovi",
+    "\"Yil xodimi\" unvoni"
+   ],
+   "e": "Ma'naviy rag'batlar ham muhim."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "MakGregorning \"X\" nazariyasiga ko'ra xodimlar qanday?",
+   "a": [
+    "Ishni yoqtirmaydi, nazorat talab qiladi",
+    "Ishni yoqtiradi va mas'uliyatni o'zi oladi",
+    "Doim ijodkor va tashabbuskor",
+    "Rahbarsiz ishlashni afzal ko'radi"
+   ],
+   "e": "\"Y\" nazariya — aksincha."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Xersi–Blanshard modelida rahbarlik uslubi nimaga qarab tanlanadi?",
+   "a": [
+    "Xodimlarning yetuklik darajasiga",
+    "Rahbarning shaxsiy kayfiyati va xarakteriga",
+    "Korxona logotipining rangiga",
+    "Xodimlarning yashash joyiga"
+   ],
+   "e": "Ko'rsatma, ishontirish, ishtirok, delegatsiya."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Motivatsiya nima?",
+   "a": [
+    "Faoliyatga undash jarayoni",
+    "Faqat xodimlarni ishdan bo'shatish bilan qo'rqitish",
+    "Faqat ish vaqtini uzaytirish",
+    "Faqat ish haqini kamaytirish"
+   ],
+   "e": "Ehtiyojlar, motivlar, rag'batlar."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Rahbarlik (liderlik) nima?",
+   "a": [
+    "Odamlarni maqsad sari yetaklash",
+    "Faqat lavozim bo'yicha eng yuqori maosh olish huquqi",
+    "Faqat hujjatlarni imzolash va muhr bosish vakolati",
+    "Faqat xodimlar ustidan nazorat kamerasini o'rnatish"
+   ],
+   "e": "Rasmiy va norasmiy lider bo'lishi mumkin."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Adams adolatlilik nazariyasiga ko'ra xodim nimani taqqoslaydi?",
+   "a": [
+    "O'z mehnati va mukofotini boshqalarniki bilan",
+    "O'z ish haqini korxonaning yillik foydasi bilan",
+    "O'z yoshini rahbarining yoshi bilan",
+    "Ish vaqtini dam olish vaqti bilan"
+   ],
+   "e": "Adolatsizlik motivatsiyani pasaytiradi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Rasmiy lider va norasmiy lider farqi nima?",
+   "a": [
+    "Rasmiy — tayinlangan, norasmiy — jamoa tan olgan",
+    "Rasmiy — jamoa tan olgan, norasmiy — tayinlangan",
+    "Ular hech qanday farq qilmaydi",
+    "Norasmiy lider faqat tashqi tashkilotdan keladi"
+   ],
+   "e": "Ikkalasi bitta shaxsda bo'lishi mumkin."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Grejding nima?",
+   "a": [
+    "Lavozim darajalari bo'yicha ish haqi",
+    "Xodimlarni yoshi bo'yicha saralash",
+    "Mahsulotni navlarga ajratish",
+    "Ish vaqtini qisqartirish"
+   ],
+   "e": "Ish haqi tizimini tartiblash."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Ish haqining vaqtbay shakli nimaga asoslanadi?",
+   "a": [
+    "Ishlangan vaqtga",
+    "Ishlab chiqarilgan mahsulot soniga",
+    "Korxona foydasiga",
+    "Xodimning yoshiga"
+   ],
+   "e": "Ishbay — mahsulot miqdoriga."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Bleyk–Mouton boshqaruv panjarasida \"9.9\" uslubi qanday nomlanadi?",
+   "a": [
+    "Jamoaviy boshqaruv",
+    "Qashshoq boshqaruv",
+    "Vazifaga yo'naltirilgan avtoritar boshqaruv",
+    "\"Dam olish klubi\" boshqaruvi"
+   ],
+   "e": "Odamlarga ham, ishga ham yuqori e'tibor."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Porter–Louler modeli qaysi nazariyalarni birlashtiradi?",
+   "a": [
+    "Kutish va adolatlilik nazariyalari",
+    "Teylor va Fayol tamoyillari",
+    "SWOT va PEST tahlillari",
+    "Lean va Kaizen"
+   ],
+   "e": "Natija → mukofot → qoniqish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Motivatsiyaning \"jarayon nazariyalari\"ga qaysi biri kiradi?",
+   "a": [
+    "Vrum nazariyasi",
+    "Maslou piramidasi",
+    "Gertsberg ikki omil nazariyasi",
+    "Mak-Klelland nazariyasi"
+   ],
+   "e": "Qanday qilib motivatsiya yuzaga kelishini tushuntiradi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Avtoritar rahbarlik uslubi qanday xususiyatga ega?",
+   "a": [
+    "Qarorlarni rahbar yakka o'zi qabul qiladi",
+    "Qarorlar jamoa bilan maslahatlashib qabul qilinadi",
+    "Rahbar deyarli aralashmaydi, xodimlar erkin",
+    "Qarorlar ovoz berish orqali qabul qilinadi"
+   ],
+   "e": "Favqulodda vaziyatlarda samarali bo'lishi mumkin."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Ma'naviy rag'batlantirishga misol qaysi?",
+   "a": [
+    "Tashakkurnoma va faxriy unvon",
+    "Ish haqini lavozim okladi bo'yicha oshirish",
+    "Choraklik pul mukofoti",
+    "Ish haqiga qo'shimcha to'lov"
+   ],
+   "e": "Tan olinish ehtiyojini qondiradi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Ekspert hokimiyati nimaga asoslanadi?",
+   "a": [
+    "Bilim va malakaga",
+    "Lavozimdagi rasmiy mavqega",
+    "Jazolash imkoniyatiga",
+    "Mukofotlash imkoniyatiga"
+   ],
+   "e": "Mutaxassisga ishonch."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Belbin bo'yicha jamoada nima muhim?",
+   "a": [
+    "Turli rollarni bajaruvchi a'zolar muvozanati",
+    "Barcha a'zolar bir xil rolni bajarishi",
+    "Faqat bitta kuchli lider bo'lishi",
+    "Rollarning umuman bo'lmasligi"
+   ],
+   "e": "9 ta jamoaviy rol."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Qaror qabul qilishda \"cheklangan ratsionallik\" (G. Saymon) nimani anglatadi?",
+   "a": [
+    "Axborot va vaqt cheklanganligini",
+    "Qaror har doim mutlaq optimal bo'lishini",
+    "Axborot cheksiz ekanini",
+    "Qaror qabul qilish mumkin emasligini"
+   ],
+   "e": "\"Qoniqarli\" yechim tanlanadi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Qarorlarni qabul qilishda \"Pareto tahlili\" nima beradi?",
+   "a": [
+    "Asosiy sabablarni ajratib olish",
+    "Barcha sabablarni teng baholash",
+    "Sabablarni tasodifiy tartiblash",
+    "Sabablarni butunlay e'tiborsiz qoldirish"
+   ],
+   "e": "80/20 qoidasi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "\"Guruhiy fikrlash\" (groupthink) nima?",
+   "a": [
+    "Tanqidiy fikrning bostirilishi",
+    "Guruhning ijodiy g'oyalar yaratishi",
+    "Guruh a'zolarining mustaqil fikrlashi",
+    "Guruhda qarorni ovoz bilan qabul qilish"
+   ],
+   "e": "Xato qarorlarga olib kelishi mumkin."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Noaniqlik sharoitida qaror qabul qilish nimani anglatadi?",
+   "a": [
+    "Ehtimollar noma'lumligi",
+    "Barcha natijalar aniq ma'lum bo'lishi",
+    "Qarorga hech qanday ta'sir yo'qligi",
+    "Qaror qabul qilish shart emasligi"
+   ],
+   "e": "Risk sharoitida ehtimollar ma'lum."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "\"Aqliy hujum\" (brainstorming) usuli muallifi kim?",
+   "a": [
+    "A. Osborn",
+    "F. Teylor",
+    "A. Maslou",
+    "M. Veber"
+   ],
+   "e": "G'oyalar tanqidsiz to'planadi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Aqliy hujum usulining asosiy qoidasi nima?",
+   "a": [
+    "G'oyalar tanqid qilinmaydi",
+    "Har bir g'oya darhol tanqid qilinadi",
+    "Faqat rahbar g'oya beradi",
+    "G'oyalar soni cheklanadi"
+   ],
+   "e": "Miqdor sifatga o'tadi."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Riskni kamaytirish usullaridan biri qaysi?",
+   "a": [
+    "Diversifikatsiya",
+    "Barcha resurslarni bitta loyihaga sarflash",
+    "Riskni e'tiborsiz qoldirish",
+    "Sug'urtadan voz kechish"
+   ],
+   "e": "Sug'urtalash, zaxira yaratish ham."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Boshqaruv qarori nima?",
+   "a": [
+    "Muqobillardan birini tanlash natijasi",
+    "Faqat rahbarning tasodifiy fikri",
+    "Faqat qonun matni",
+    "Faqat buxgalteriya yozuvi"
+   ],
+   "e": "Muammoni hal qilish uchun."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Guruhda qaror qabul qilishning afzalligi nima?",
+   "a": [
+    "Ko'proq bilim jalb qilinadi",
+    "Har doim tezroq qabul qilinadi",
+    "Javobgarlik aniqroq bo'ladi",
+    "Fikrlar xilma-xilligi kamayadi"
+   ],
+   "e": "Kamchiligi — vaqt va \"guruhiy fikrlash\"."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Qaror sifatini baholash mezonlaridan biri qaysi?",
+   "a": [
+    "Maqsadga erishish darajasi",
+    "Qaror matnining uzunligi",
+    "Qarorni imzolagan siyoh rangi",
+    "Qaror qabul qilingan kun"
+   ],
+   "e": "Samaradorlik va bajarilish muddati ham."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Qaror qabul qilishda kompyuter tizimlari (QQQT) nima beradi?",
+   "a": [
+    "Ma'lumotlarni tez tahlil qilish",
+    "Rahbarning javobgarligini butunlay olib tashlash",
+    "Qarorlarni tasodifiy tanlash",
+    "Axborotni yashirish"
+   ],
+   "e": "Qarorlarni qo'llab-quvvatlash tizimlari."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Dasturlashtirilmagan qaror qachon qabul qilinadi?",
+   "a": [
+    "Yangi, noaniq vaziyatlarda",
+    "Har kuni takrorlanuvchi oddiy vaziyatlarda",
+    "Faqat ish vaqti tugagandan keyin",
+    "Faqat bayram kunlari"
+   ],
+   "e": "Masalan, yangi bozorga chiqish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Morfologik tahlil usuli nima?",
+   "a": [
+    "Kombinatsiyalarni tizimli ko'rib chiqish",
+    "Faqat so'zlar tarkibini o'rganish",
+    "Faqat biologik organizmlarni tahlil qilish",
+    "Tasodifiy qaror tanlash"
+   ],
+   "e": "F. Svikki usuli."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Qaror qabul qilishda \"status-kvo\" tuzog'i nima?",
+   "a": [
+    "O'zgarishsiz holatni afzal ko'rish moyilligi",
+    "Doimiy yangi o'zgarishlarga intilish",
+    "Faqat ekspertlar fikriga tayanish",
+    "Barcha muqobillarni baholash"
+   ],
+   "e": "Kognitiv buzilish."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Qarorning bajarilishini tashkil etishda nima muhim?",
+   "a": [
+    "Ijrochi, muddat va nazoratni belgilash",
+    "Qarorni hech kimga yetkazmaslik",
+    "Muddatlarni ko'rsatmaslik",
+    "Nazoratni butunlay olib tashlash"
+   ],
+   "e": "Javobgar shaxslar aniq bo'lishi kerak."
+  },
+  {
+   "b": "Biznesni boshqarish",
+   "q": "Qaror qabul qilishda \"muqobillar\" nima?",
+   "a": [
+    "Mumkin bo'lgan yechim variantlari",
+    "Faqat bitta, yagona yechim",
+    "Qarorni bajaruvchi xodimlar ro'yxati",
+    "Qaror qabul qilingan sana"
+   ],
+   "e": "Kamida ikkita variant bo'lishi kerak."
+  }
+ ]
+}
