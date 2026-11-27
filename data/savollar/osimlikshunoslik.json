@@ -1,0 +1,3352 @@
+{
+ "kod": "5PM0648",
+ "nomi": "O‘simlikshunoslik",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (6 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Selektsiya nimani o'rganadi?",
+   "a": [
+    "Nav va zot yaratish",
+    "Faqat yovvoyi hayvonlarni",
+    "Faqat fotoqazilmalarni",
+    "Faqat tog' jinslarini"
+   ],
+   "e": "N.I. Vavilov."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Madaniy o'simliklarning kelib chiqish markazlari ta'limotini kim yaratgan?",
+   "a": [
+    "N.I. Vavilov",
+    "I.V. Michurin",
+    "Ch. Darvin",
+    "G. Mendel"
+   ],
+   "e": "Gomologik qatorlar qonuni."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Geterozis nima?",
+   "a": [
+    "Duragay kuchi",
+    "Duragaylarning kuchsiz bo'lishi",
+    "Mutatsiya turi",
+    "Kasallik"
+   ],
+   "e": "Duragay kuch."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Poliploidiya nima?",
+   "a": [
+    "Xromosomalarning karrali ortishi",
+    "Xromosomalar sonining ikki baravar kamayishi",
+    "Faqat bitta genning nuqtali o'zgarishi",
+    "Hujayraning dasturlashgan o'limi"
+   ],
+   "e": "Selektsiyada qo'llaniladi."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Klonlash nima?",
+   "a": [
+    "Bir xil nusxalar olish",
+    "Turli turlarni chatishtirish",
+    "Mutatsiya keltirish",
+    "Tanlab olish"
+   ],
+   "e": "Dolli qo'yi."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Biotexnologiya nima?",
+   "a": [
+    "Tiriklardan amaliy foydalanish",
+    "Faqat mashinasozlik texnologiyalari",
+    "Faqat bino va inshootlar qurilishi",
+    "Faqat metallarni eritish texnologiyasi"
+   ],
+   "e": "Fermentlar, vaksinalar, GMO."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "Insulin hozirda qanday ishlab chiqariladi?",
+   "a": [
+    "Bakteriyalarda (gen muhandisligi)",
+    "Faqat hayvon oshqozon osti bezidan",
+    "Kimyoviy sintez bilan qo'lda",
+    "O'simliklardan ajratib"
+   ],
+   "e": "Rekombinant insulin."
+  },
+  {
+   "b": "Selektsiya va biotexnologiya",
+   "q": "GMO nima?",
+   "a": [
+    "Genetik modifikatsiyalangan organizm",
+    "Gidroponika usulida o'stirilgan organizm",
+    "Genlari o'zgarmagan organizm",
+    "Yovvoyi organizm"
+   ],
+   "e": "Transgen."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Makroelementlarga qaysilar kiradi?",
+   "a": [
+    "N, P, K, Ca, Mg, S",
+    "Fe, Mn, Zn, Cu, B",
+    "Faqat oltin va kumush (Au, Ag)",
+    "Faqat qo'rg'oshin va simob (Pb, Hg)"
+   ],
+   "e": "Ko'p miqdorda kerak."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Mikroelementlarga qaysilar kiradi?",
+   "a": [
+    "Fe, Mn, Zn, Cu, B, Mo",
+    "N, P, K",
+    "Ca, Mg, S",
+    "C, H, O"
+   ],
+   "e": "Oz miqdorda kerak."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Azot yetishmasa barglarda qanday belgi kuzatiladi?",
+   "a": [
+    "Pastki barglar sarg'ayadi",
+    "Barglar to'q yashil bo'lib ketadi",
+    "Barglar binafsha tusga kiradi faqat",
+    "Barglarda hech o'zgarish bo'lmaydi"
+   ],
+   "e": "Xloroz, o'sish sustlashadi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Fosfor yetishmasligining belgisi qaysi?",
+   "a": [
+    "Barglarning qizg'ish-binafsha tusga kirishi",
+    "Barglarning oqarib, rangsizlanib ketishi",
+    "Barg chetlarining qo'ng'ir tusda kuyishi",
+    "Faqat yosh barglarning sarg'ayishi"
+   ],
+   "e": "Antotsian to'planadi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Kaliy yetishmasligining belgisi qaysi?",
+   "a": [
+    "Barg chetlarining qo'ng'ir kuyishi",
+    "Barglarning binafsha bo'lishi",
+    "Barg tomirlarining to'q yashil bo'lishi",
+    "Barglarning yiriklashishi"
+   ],
+   "e": "Pastki barglardan boshlanadi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Temir yetishmasligida qanday belgi kuzatiladi?",
+   "a": [
+    "Yosh barglarda xloroz",
+    "Eski barglarning qizarishi",
+    "Ildizlarning yo'g'onlashishi",
+    "Gullarning ko'payishi"
+   ],
+   "e": "Temir harakatsiz element."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Azotli o'g'itga misol qaysi?",
+   "a": [
+    "Karbamid (mochevina)",
+    "Superfosfat",
+    "Kaliy xlorid",
+    "Ohak (kalsiy karbonat)"
+   ],
+   "e": "46% azot."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Fosforli o'g'itga misol qaysi?",
+   "a": [
+    "Superfosfat",
+    "Ammiakli selitra",
+    "Kaliy sulfat",
+    "Karbamid"
+   ],
+   "e": "P₂O₅ manbai."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Kaliyli o'g'itga misol qaysi?",
+   "a": [
+    "Kaliy xlorid",
+    "Superfosfat",
+    "Karbamid",
+    "Ammoniy sulfat"
+   ],
+   "e": "K₂O manbai."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Organik o'g'itga misol qaysi?",
+   "a": [
+    "Go'ng va kompost",
+    "Superfosfat",
+    "Karbamid",
+    "Kaliy xlorid"
+   ],
+   "e": "Tuproq strukturasini yaxshilaydi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Gidroponika nima?",
+   "a": [
+    "O'simlikni tuproqsiz, ozuqa eritmasida o'stirish",
+    "O'simlikni faqat toza qumda o'stirish",
+    "O'simlikni suvsiz, quruq sharoitda o'stirish",
+    "Faqat suv o'simliklarini o'rganish usuli"
+   ],
+   "e": "Issiqxonalarda qo'llanadi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Azotfiksatsiya nima?",
+   "a": [
+    "Atmosfera azotini bog'lab o'zlashtiriladigan shaklga o'tkazish",
+    "Azotning tuproqdan havoga erkin holda chiqishi",
+    "Azotli o'g'itlarning yomg'ir bilan yuvilib ketishi",
+    "Oqsillarning chirituvchi bakteriyalar ta'sirida parchalanishi"
+   ],
+   "e": "Tugunak bakteriyalar, azotobakter."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Denitrifikatsiya nima?",
+   "a": [
+    "Nitratlardan erkin azot ajralishi",
+    "Atmosfera azotining tugunaklarda bog'lanishi",
+    "Ammiakning nitratlarga oksidlanishi",
+    "Aminokislotalardan oqsillar sintezi"
+   ],
+   "e": "Azot yo'qotiladi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Nitrifikatsiya nima?",
+   "a": [
+    "Ammiakning nitratlarga oksidlanishi",
+    "Nitratlardan erkin azot gazining ajralishi",
+    "Atmosfera azotining tugunaklarda bog'lanishi",
+    "Azotning o'simlik oqsillariga aylanishi"
+   ],
+   "e": "Nitrifikator bakteriyalar."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Tuproq kislotaliligini kamaytirish uchun nima qo'llanadi?",
+   "a": [
+    "Ohaklash",
+    "Gipslash",
+    "Sho'r yuvish",
+    "Azotli o'g'it"
+   ],
+   "e": "Kislotali tuproqlarda."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Sho'rlangan tuproqlar qanday yaxshilanadi?",
+   "a": [
+    "Sho'r yuvish va zovur orqali",
+    "Ko'proq tuz solish orqali",
+    "Sug'orishni butunlay to'xtatish orqali",
+    "Faqat ohaklash orqali"
+   ],
+   "e": "O'zbekistonda dolzarb."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Sovuqqa chidamlilik nima?",
+   "a": [
+    "Manfiy haroratga bardosh berish",
+    "Yuqori haroratda normal o'sa olish qobiliyati",
+    "Sho'rlangan tuproqda o'sa olish qobiliyati",
+    "Uzoq vaqt suv ostida yashay olish qobiliyati"
+   ],
+   "e": "Qishki chidamlilik."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Chiniqtirish nima?",
+   "a": [
+    "Noqulay sharoitga asta-sekin moslashtirish",
+    "O'simlikni birdaniga qattiq sovuqda qoldirish",
+    "O'simlikni mineral o'g'itlar bilan to'yintirish",
+    "O'simlikni kimyoviy preparatlar bilan ishlash"
+   ],
+   "e": "Masalan, ko'chatni sovuqqa o'rgatish."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Sho'rga chidamli o'simliklar qanday nomlanadi?",
+   "a": [
+    "Galofitlar",
+    "Gidrofitlar",
+    "Mezofitlar",
+    "Geliofitlar"
+   ],
+   "e": "Hujayra shirasi konsentratsiyasi yuqori."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Issiqqa chidamli o'simliklarda qaysi moslanish kuzatiladi?",
+   "a": [
+    "Jadal transpiratsiya bilan sovish",
+    "Barglarning juda yupqa va keng bo'lishi",
+    "Og'izchalarning doim yopiq turishi",
+    "Ildizlarning faqat yuzada bo'lishi"
+   ],
+   "e": "Issiqlik zarbasi oqsillari ham."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "O'simliklarda stressga javob sifatida qaysi gormon ko'payadi?",
+   "a": [
+    "Abssiz kislota",
+    "Gibberellin",
+    "Sitokinin",
+    "Auksin"
+   ],
+   "e": "Og'izchalarni yopadi."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Qurg'oqchilik paytida o'simlikda nima kuzatiladi?",
+   "a": [
+    "Og'izchalar yopiladi, o'sish sekinlashadi",
+    "Og'izchalar kengroq ochilib, bug'lanish kuchayadi",
+    "Fotosintez jarayoni keskin kuchayadi",
+    "Barg plastinkalari yiriklashib, yupqalashadi"
+   ],
+   "e": "Suvni tejash."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Fitontsidlar nima?",
+   "a": [
+    "Mikroblarni o'ldiruvchi o'simlik moddalari",
+    "O'simlik o'sishini tezlashtiruvchi gormonlar",
+    "Mineral o'g'it tarkibidagi tuzlar",
+    "Barg rangini beruvchi pigmentlar"
+   ],
+   "e": "Piyoz, sarimsoq — B.P. Tokin."
+  },
+  {
+   "b": "O'simliklarning chidamliligi",
+   "q": "Allelopatiya nima?",
+   "a": [
+    "O'simliklarning kimyoviy o'zaro ta'siri",
+    "O'simliklarning bir-biriga changlanishi",
+    "O'simliklarning birgalikda o'sishi",
+    "O'simliklarning hasharotlar bilan simbiozi"
+   ],
+   "e": "Ajratmalar orqali."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproqning asosiy xususiyati nima?",
+   "a": [
+    "Unumdorlik",
+    "Faqat rangi",
+    "Faqat qattiqligi",
+    "Faqat harorati"
+   ],
+   "e": "V.V. Dokuchayev ta'limoti."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Gumus nima?",
+   "a": [
+    "Tuproqdagi chirindi organik modda",
+    "Tuproq tarkibidagi mayda qum zarralari",
+    "Tuproqdagi tosh va shag'al bo'laklari",
+    "Tuproq suvida erigan mineral tuzlar eritmasi"
+   ],
+   "e": "Unumdorlik asosi."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproqshunoslik fanining asoschisi kim?",
+   "a": [
+    "V.V. Dokuchayev",
+    "K.A. Timiryazev",
+    "I.V. Michurin",
+    "N.I. Vavilov"
+   ],
+   "e": "Tuproq hosil qiluvchi omillar."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Bo'z tuproqlar qayerda tarqalgan?",
+   "a": [
+    "O'zbekistonning tog' oldi tekisliklarida",
+    "Shimoliy tundra mintaqasida",
+    "Tropik o'rmonlarda",
+    "Faqat baland tog' cho'qqilarida"
+   ],
+   "e": "Asosiy sug'oriladigan tuproqlar."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproq eroziyasi nima?",
+   "a": [
+    "Tuproqning suv yoki shamol ta'sirida yemirilishi",
+    "Tuproqning mineral o'g'itlar bilan boyitilishi",
+    "Tuproqning chirindi (gumus) bilan to'yinishi",
+    "Tuproqning sho'r yuvish orqali tozalanishi"
+   ],
+   "e": "Irrigatsion va shamol eroziyasi."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproqning mexanik tarkibiga ko'ra turlari qaysilar?",
+   "a": [
+    "Qumli, qumloq, qumoq, soz",
+    "Faqat qora va qizil tuproqlar",
+    "Faqat nam va quruq tuproqlar",
+    "Faqat sho'r va chuchuk tuproqlar"
+   ],
+   "e": "Zarralar o'lchami bo'yicha."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Tuproqning pH qiymati 7 dan past bo'lsa, tuproq qanday?",
+   "a": [
+    "Kislotali",
+    "Ishqoriy",
+    "Neytral",
+    "Sho'r"
+   ],
+   "e": "pH 7 — neytral."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Almashlab ekishning ahamiyati nima?",
+   "a": [
+    "Tuproq unumdorligini saqlash va kasalliklarni kamaytirish",
+    "Faqat bitta ekinni yillar davomida bir joyga ekish",
+    "Tuproqni ataylab sho'rlantirib, tuzlarni to'plash",
+    "Barcha turdagi o'g'itlardan butunlay voz kechish"
+   ],
+   "e": "Beda — azot to'playdi."
+  },
+  {
+   "b": "Tuproq va o'simlik",
+   "q": "Sideratlar nima?",
+   "a": [
+    "Ko'kat o'g'it sifatida haydaladigan o'simliklar",
+    "Kimyoviy sanoat usulida olingan mineral o'g'itlar",
+    "Begona o'tlarga qarshi qo'llanadigan gerbitsidlar",
+    "Zararkunanda hasharotlarga qarshi vositalar"
+   ],
+   "e": "Masalan, beda, no'xat."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "O'simliklarning jinssiz ko'payishiga misol qaysi?",
+   "a": [
+    "Spora orqali ko'payish",
+    "Urug' orqali ko'payish",
+    "Qo'sh urug'lanish",
+    "Changlanish"
+   ],
+   "e": "Vegetativ ham jinssiz."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Qalamchadan ko'paytiriladigan o'simlikka misol qaysi?",
+   "a": [
+    "Tol va uzum",
+    "Bug'doy va arpa",
+    "Makkajo'xori va sholi",
+    "Kungaboqar va qovoq"
+   ],
+   "e": "Qo'shimcha ildiz hosil qiladi."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Qulupnay qanday vegetativ ko'payadi?",
+   "a": [
+    "Gajaklar (mo'ylovlar) orqali",
+    "Yer osti piyozboshlari orqali",
+    "Yer osti poya tugunaklari orqali",
+    "Uzun yer osti ildizpoyalari orqali"
+   ],
+   "e": "Yer ustki o'rmalovchi novdalar."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Parxish nima?",
+   "a": [
+    "Novdani tuproqqa egib ildiz oldirish",
+    "Kurtakni boshqa o'simlikka payvandlash",
+    "Urug'ni sovuqda saqlash",
+    "Barg qalamchasini suvda saqlash"
+   ],
+   "e": "Uzum, smorodina."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Okulirovka nima?",
+   "a": [
+    "Kurtak bilan payvandlash",
+    "Qalamcha bilan payvandlash",
+    "Novdani egib ildiz oldirish",
+    "Urug'dan ko'paytirish"
+   ],
+   "e": "Ko'zcha payvand."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Mikroklonal ko'paytirish nima?",
+   "a": [
+    "To'qima kulturasidan ko'plab o'simlik olish",
+    "Urug'larni seyalka bilan dalaga sepish",
+    "Novdani tuproqqa egib, ko'mib qo'yish",
+    "Piyozboshni bir necha bo'lakka ajratish"
+   ],
+   "e": "Biotexnologik usul, virussiz material."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Partenokarpiya nima?",
+   "a": [
+    "Urug'lanmasdan urug'siz meva hosil bo'lishi",
+    "Gulli o'simliklarda ikki marta urug'lanish",
+    "Urug'ning odatdagidan tez unib chiqishi",
+    "Bir mavsumda mevaning ikki marta pishishi"
+   ],
+   "e": "Banan, ayrim uzum navlari."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Apomiksis nima?",
+   "a": [
+    "Urug'lanishsiz urug' hosil bo'lishi",
+    "Gulli o'simliklarda ikki marta urug'lanish",
+    "Faqat qalamcha orqali vegetativ ko'payish",
+    "Changlanishsiz gulning ochilishi"
+   ],
+   "e": "Jinssiz urug' hosil bo'lishi."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Avtogamiya nima?",
+   "a": [
+    "O'z-o'zidan changlanish",
+    "Chetdan changlanish",
+    "Shamol bilan changlanish",
+    "Hasharot bilan changlanish"
+   ],
+   "e": "Bug'doy, no'xat."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Gulchang donachasida nechta hujayra bo'ladi?",
+   "a": [
+    "Ikkita (vegetativ va generativ)",
+    "Bitta",
+    "To'rtta",
+    "Sakkizta"
+   ],
+   "e": "Generativ hujayradan ikki spermiy."
+  },
+  {
+   "b": "O'simliklarning ko'payishi",
+   "q": "Murtak xaltasi odatda nechta hujayradan iborat?",
+   "a": [
+    "Yettita (sakkiz yadroli)",
+    "Ikkita",
+    "To'rtta",
+    "O'nta"
+   ],
+   "e": "Tuxum hujayra, sinergidalar, antipodlar, markaziy hujayra."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Moychechak qanday xususiyati bilan qadrlanadi?",
+   "a": [
+    "Yallig'lanishga qarshi",
+    "Qon bosimini keskin oshirish",
+    "Uyquni butunlay yo'qotish",
+    "Ishtahani to'liq bo'g'ish"
+   ],
+   "e": "Damlama sifatida."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Valeriana (o'tdorivor) ning asosiy ta'siri nima?",
+   "a": [
+    "Tinchlantiruvchi",
+    "Qo'zg'atuvchi",
+    "Qon ivituvchi",
+    "Siydik haydovchi faqat"
+   ],
+   "e": "Asab tizimiga."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Achchiq shuvoq (qora shuvoq) asosan qanday maqsadda ishlatiladi?",
+   "a": [
+    "Ishtaha ochuvchi va hazmni yaxshilovchi",
+    "Arterial qon bosimini oshiruvchi",
+    "Kuchli uyqu chaqiruvchi vosita",
+    "Qon ivishini kuchaytiruvchi vosita"
+   ],
+   "e": "Achchiq moddalar."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Qizilmiya (shirinmiya) ildizi qanday maqsadda ishlatiladi?",
+   "a": [
+    "Yo'talga qarshi, balg'am ko'chiruvchi",
+    "Kuchli uyqu chaqiruvchi tinchlantiruvchi",
+    "Qon ivishini kuchaytiruvchi vosita",
+    "Og'riqsizlantiruvchi narkotik modda"
+   ],
+   "e": "O'zbekistonda ko'p tarqalgan."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Dalachoy (zveroboy) qaysi oilaga kiradi?",
+   "a": [
+    "Dalachoydoshlar",
+    "Bug'doydoshlar",
+    "Ra'nodoshlar",
+    "Karamdoshlar (butguldoshlar)"
+   ],
+   "e": "Dorivor o'simlik."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Zubturum (bargi) qanday maqsadda ishlatiladi?",
+   "a": [
+    "Yara bitkazuvchi",
+    "Uyqu chaqiruvchi",
+    "Qon bosimini oshiruvchi",
+    "Ishtahani bo'g'uvchi"
+   ],
+   "e": "Xalq tabobatida."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Zaharli o'simlikka misol qaysi?",
+   "a": [
+    "Mingdevona",
+    "Yalpiz",
+    "Rayhon",
+    "Ukrop"
+   ],
+   "e": "Alkaloidlar bor."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "G'o'za tolasi asosan qaysi moddadan iborat?",
+   "a": [
+    "Sellyulozadan",
+    "Oqsil va aminokislotalardan",
+    "O'simlik yog'i va moylardan",
+    "Kraxmal va qandlardan"
+   ],
+   "e": "Qariyb sof sellyuloza."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Texnik ekinlarga misol qaysi?",
+   "a": [
+    "G'o'za va zig'ir",
+    "Bug'doy va arpa",
+    "Olma va nok",
+    "Pomidor va bodring"
+   ],
+   "e": "Tola, moy beradi."
+  },
+  {
+   "b": "Dorivor va foydali o'simliklar",
+   "q": "Ozuqabop ekinlarga misol qaysi?",
+   "a": [
+    "Beda va makkajo'xori (silos)",
+    "G'o'za, zig'ir va kanop",
+    "Lola, atirgul va chinnigul",
+    "Archa, qarag'ay va sadr"
+   ],
+   "e": "Chorva uchun."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Madaniy o'simliklarning nechta asosiy kelib chiqish markazi aniqlangan (Vavilov bo'yicha)?",
+   "a": [
+    "Yettita",
+    "Uchta",
+    "O'nta",
+    "Yigirmata"
+   ],
+   "e": "Klassik sxema."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Kartoshka va pomidorning vatani qayer?",
+   "a": [
+    "Janubiy Amerika",
+    "Janubiy Osiyo",
+    "O'rta yer dengizi",
+    "Afrika"
+   ],
+   "e": "And markazi."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Sholining kelib chiqish markazi qaysi?",
+   "a": [
+    "Janubiy Osiyo tropik markazi",
+    "Janubiy Amerika (And tog'lari)",
+    "Shimoliy Afrika (Sahroi Kabir)",
+    "O'rta yer dengizi sohillari"
+   ],
+   "e": "Hindiston, Xitoy."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Makkajo'xorining vatani qayer?",
+   "a": [
+    "Markaziy Amerika (Meksika)",
+    "Sharqiy Osiyo (Xitoy)",
+    "Janubiy Osiyo (Hindiston)",
+    "Efiopiya tog'liklari"
+   ],
+   "e": "Markaziy Amerika markazi."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Olma, nok, o'rikning ko'plab yovvoyi ajdodlari qaysi markazga mansub?",
+   "a": [
+    "O'rta Osiyo (Old Osiyo)",
+    "Janubiy Amerika (And)",
+    "Avstraliya qit'asi",
+    "Janubiy Afrika"
+   ],
+   "e": "O'zbekiston ham kiradi."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Endemik o'simliklar nima?",
+   "a": [
+    "Faqat ma'lum hududda tarqalgan turlar",
+    "Butun Yer yuzi bo'ylab keng tarqalgan turlar",
+    "Faqat inson ekib o'stiradigan madaniy o'simliklar",
+    "Faqat ekinzorlardagi begona o'tlar"
+   ],
+   "e": "Masalan, ayrim lola turlari."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Relikt o'simliklar nima?",
+   "a": [
+    "Qadimgi davrlardan saqlanib qolgan turlar",
+    "Seleksionerlar yaqinda yaratgan yangi navlar",
+    "Faqat ekinzorlarda o'sadigan begona o'tlar",
+    "Faqat dalalarda ekiladigan madaniy ekinlar"
+   ],
+   "e": "Ginkgo, metasekvoyya."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "O'zbekistonda eng ko'p ekiladigan texnik ekin qaysi?",
+   "a": [
+    "G'o'za",
+    "Kanop",
+    "Zig'ir",
+    "Qand lavlagi"
+   ],
+   "e": "Paxtachilik."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "Kosmopolit o'simliklar nima?",
+   "a": [
+    "Yer sharining ko'p hududlarida tarqalgan turlar",
+    "Faqat bitta kichik hududga xos endemik turlar",
+    "Faqat kosmik stansiyada o'stirilgan o'simliklar",
+    "Faqat okean tubida o'sadigan suvo'tlar"
+   ],
+   "e": "Masalan, qamish, zubturum."
+  },
+  {
+   "b": "O'simliklar geografiyasi va kelib chiqishi",
+   "q": "O'zbekiston hududida nechtaga yaqin yovvoyi o'simlik turi uchraydi?",
+   "a": [
+    "4300 dan ortiq",
+    "300 ga yaqin",
+    "50 000 dan ortiq",
+    "900 ga yaqin"
+   ],
+   "e": "Taxminan 4500 tur atrofida."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Kalsiy yetishmasligida birinchi navbatda qaysi organlar zararlanadi?",
+   "a": [
+    "Yosh barglar va o'sish nuqtalari",
+    "Faqat eski pastki barglar",
+    "Faqat ildiz po'stlog'i",
+    "Faqat poyaning o'zagi"
+   ],
+   "e": "Kalsiy harakatsiz."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Magniy yetishmasligida qanday belgi kuzatiladi?",
+   "a": [
+    "Barg tomirlari orasida xloroz",
+    "Barglarning qizarib ketishi",
+    "Barg chetlarining kuyishi",
+    "Barglarning to'q yashil bo'lishi"
+   ],
+   "e": "Xlorofill tarkibida Mg bor."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Bor yetishmasligida qaysi jarayon buziladi?",
+   "a": [
+    "Gullash va meva tugish",
+    "Faqat ildiz tukchalarining hosil bo'lishi",
+    "Faqat barglarning to'kilishi",
+    "Faqat poyaning yo'g'onlashishi"
+   ],
+   "e": "Chang naychasi o'sishi."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Molibden qaysi jarayonda muhim?",
+   "a": [
+    "Azotfiksatsiya va nitrat qaytarilishi",
+    "Fotosintezda suvning fotolizi (parchalanishi)",
+    "Leykoplastlarda kraxmal to'planishi",
+    "Hujayra devorining sellyulozadan qurilishi"
+   ],
+   "e": "Nitrogenaza tarkibida."
+  },
+  {
+   "b": "Mineral oziqlanish",
+   "q": "Sug'oriladigan dehqonchilikda o'g'itni sug'orish suvi bilan berish nima deyiladi?",
+   "a": [
+    "Fertigatsiya",
+    "Defoliatsiya",
+    "Stratifikatsiya",
+    "Yarovizatsiya"
+   ],
+   "e": "Tomchilatib sug'orishda."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "O'simlikshunoslik fani nimani o'rganadi?",
+   "a": [
+    "Dala ekinlarining biologiyasi va yetishtirish texnologiyasini",
+    "Faqat yovvoyi o'simliklarning sistematikasi va tarqalishini",
+    "Faqat qishloq xo'jaligi hayvonlarini boqish usullarini",
+    "Faqat qishloq xo'jaligi texnikasini ta'mirlash usullarini"
+   ],
+   "e": "Agronomiyaning asosiy fani."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Haqiqiy don ekinlariga (1-guruh) qaysilar kiradi?",
+   "a": [
+    "Bug'doy, arpa, javdar, suli",
+    "Makkajo'xori, sholi, tariq, jo'xori",
+    "No'xat, loviya, mosh, soya",
+    "Kungaboqar, kunjut, zig'ir"
+   ],
+   "e": "Doni bo'ylama egatchali."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Tariqsimon don ekinlariga (2-guruh) qaysilar kiradi?",
+   "a": [
+    "Makkajo'xori, sholi, tariq, jo'xori",
+    "Bug'doy, arpa, javdar, suli",
+    "No'xat, loviya, mosh",
+    "G'o'za, kanop, zig'ir"
+   ],
+   "e": "Issiqsevar, kech ekiladi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Grechixa (marjumak) qaysi oilaga kiradi?",
+   "a": [
+    "Torondoshlar",
+    "Bug'doydoshlar",
+    "Dukkakdoshlar",
+    "Karamdoshlar"
+   ],
+   "e": "Yolg'on don ekini."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Bug'doy donining asosiy qimmatli tarkibiy qismi qaysi?",
+   "a": [
+    "Oqsil (kleykovina) va kraxmal",
+    "Faqat sellyuloza va lignin moddalari",
+    "Faqat o'simlik yog'i va efir moylari",
+    "Faqat mineral tuzlar, kul va suv"
+   ],
+   "e": "Non sifati kleykovinaga bog'liq."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Kleykovina nima?",
+   "a": [
+    "Bug'doy unidagi oqsil kompleksi",
+    "Bug'doy donining tashqi qattiq po'sti",
+    "Kraxmalning maxsus bir turi (amilopektin)",
+    "Don murtagidagi o'simlik yog'i"
+   ],
+   "e": "Xamirning cho'ziluvchanligi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Kuzgi bug'doy O'zbekistonda qachon ekiladi?",
+   "a": [
+    "Sentyabr oxiri – oktyabr",
+    "Mart oxiri – aprel boshlari",
+    "Iyun – iyul (yoz o'rtasi)",
+    "Dekabr – yanvar (qish o'rtasi)"
+   ],
+   "e": "Hududga qarab farqlanadi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Kuzgi bug'doyning bahorgidan asosiy farqi nima?",
+   "a": [
+    "Yarovizatsiya uchun qishki sovuq talab qiladi",
+    "Faqat yozda ekilib, shu yilning kuzida yig'iladi",
+    "Sovuqqa umuman chidamsiz, qishda nobud bo'ladi",
+    "Hech qachon boshoq chiqarmaydi, faqat ko'k massa beradi"
+   ],
+   "e": "Kuzgi shaklda yarovizatsiya."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Bug'doyning tuplanish fazasi nima?",
+   "a": [
+    "Yer ostki bo'g'imlardan yon novdalar hosil bo'lishi",
+    "Boshoqning oxirgi barg qinidan chiqishi",
+    "Donning sut pishish holatiga kirishi",
+    "Gullarning ochilib, changlanishi"
+   ],
+   "e": "Hosil shakllanishida muhim."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Boshoqli don ekinlarining rivojlanish fazalari tartibi qaysi?",
+   "a": [
+    "Unib chiqish, tuplanish, naychalash, boshoqlash, gullash, pishish",
+    "Gullash, unib chiqish, pishish, tuplanish, boshoqlash",
+    "Boshoqlash, tuplanish, unib chiqish, gullash, pishish",
+    "Pishish, gullash, naychalash, unib chiqish, tuplanish"
+   ],
+   "e": "Organogenez bosqichlari."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Donning to'liq pishish fazasida namligi taxminan qancha bo'ladi?",
+   "a": [
+    "14–16%",
+    "40–50%",
+    "60–70%",
+    "2–3%"
+   ],
+   "e": "Kombayn bilan yig'ishga tayyor."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Mum pishish fazasidagi don qanday bo'ladi?",
+   "a": [
+    "Tirnoq bilan eziladi, lekin sut chiqmaydi",
+    "Ezilganda oq suyuqlik (sut) chiqaradi",
+    "Juda qattiq bo'lib, tirnoq umuman botmaydi",
+    "Hali shakllanmagan, ichi bo'sh bo'ladi"
+   ],
+   "e": "Ikki fazali yig'ishda o'riladi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Qattiq bug'doy (Triticum durum) asosan nimaga ishlatiladi?",
+   "a": [
+    "Makaron mahsulotlari tayyorlashga",
+    "Faqat chorva mollari uchun ozuqaga",
+    "Faqat pivo va solod tayyorlashga",
+    "Faqat sanoatda kraxmal olishga"
+   ],
+   "e": "Kleykovinasi qattiq."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Arpa doni asosan nimaga ishlatiladi?",
+   "a": [
+    "Yem, yorma va pivo tayyorlashga",
+    "Faqat makaron mahsulotlari ishlab chiqarishga",
+    "Faqat o'simlik yog'i olishga",
+    "Faqat to'qimachilik uchun tola olishga"
+   ],
+   "e": "Solod tayyorlanadi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Javdar qaysi xususiyati bilan ajralib turadi?",
+   "a": [
+    "Sovuqqa eng chidamli don ekini",
+    "Faqat issiq tropiklarda o'sadi",
+    "Suvda o'sadigan ekin",
+    "Ko'p yillik daraxtsimon ekin"
+   ],
+   "e": "Chetdan changlanadi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Sholi qanday sharoitda yetishtiriladi?",
+   "a": [
+    "Suv bostirilgan cheklarda",
+    "Faqat qumli cho'llarda sug'orishsiz",
+    "Faqat baland tog'larda lalmi",
+    "Faqat issiqxonalarda"
+   ],
+   "e": "Gidrofit ekin."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "O'zbekistonda sholi asosan qaysi hududlarda ekiladi?",
+   "a": [
+    "Xorazm, Qoraqalpog'iston, Toshkent viloyati",
+    "Faqat Surxondaryoning baland tog'larida",
+    "Faqat Navoiy viloyatining qumli cho'llarida",
+    "Faqat Farg'ona vodiysini o'rab turgan tog'larda"
+   ],
+   "e": "Suv manbalari yaqinida."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Makkajo'xori qanday changlanadi?",
+   "a": [
+    "Chetdan, shamol yordamida",
+    "Faqat o'z-o'zidan, gul ochilmasdan",
+    "Faqat hasharotlar yordamida",
+    "Faqat suv yordamida"
+   ],
+   "e": "Bir uyli o'simlik."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Makkajo'xorining ro'vagida qanday gullar bo'ladi?",
+   "a": [
+    "Changchili (erkak) gullar",
+    "Urug'chili (urg'ochi) gullar",
+    "Ikki jinsli gullar",
+    "Gullar bo'lmaydi"
+   ],
+   "e": "So'tada urg'ochi gullar."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Silos uchun makkajo'xori qaysi fazada o'riladi?",
+   "a": [
+    "Sut-mum pishish fazasida",
+    "Unib chiqish va ikki barg fazasida",
+    "To'liq pishib, quriganidan keyin",
+    "Tuplanish va naychalash fazasida"
+   ],
+   "e": "Ozuqa sifati eng yuqori."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Jo'xorining (oqjo'xori) qimmatli xususiyati nima?",
+   "a": [
+    "Qurg'oqchilik va sho'rga chidamliligi",
+    "Faqat qattiq qishki sovuqlarga chidamliligi",
+    "Faqat qalin soyada yaxshi o'sishi",
+    "Faqat suv bostirilgan cheklarda o'sishi"
+   ],
+   "e": "Issiqsevar, kserofit."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Bug'doyning ekish me'yori asosan qanday ifodalanadi?",
+   "a": [
+    "Gektariga million unuvchan urug'",
+    "Gektariga dona hisobidagi mevalar soni",
+    "Gektariga sarflanadigan litr suv miqdori",
+    "Gektariga ekiladigan daraxt ko'chatlari soni"
+   ],
+   "e": "Masalan, 4–5 mln/ga."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "1000 dona urug' vazni nimani ko'rsatadi?",
+   "a": [
+    "Urug'ning yirikligi va to'laligi",
+    "Urug'ning namligi va quruqlik darajasi",
+    "Urug'ning tashqi rangi va yaltiroqligi",
+    "Urug'ning hidi va ta'mi"
+   ],
+   "e": "Ekish me'yorini hisoblashda."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Urug'ning unuvchanligi nima?",
+   "a": [
+    "Ma'lum muddatda normal unib chiqqan urug'lar foizi",
+    "Urug'ning dalada qancha chuqurlikka ekilishi",
+    "Urug'ning bir yillik hosildorligi",
+    "Urug'ning tashqi rangi va yaltiroqligi"
+   ],
+   "e": "Laboratoriyada aniqlanadi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Bug'doyning qaysi kasalligi \"zang\" deb ataladi?",
+   "a": [
+    "Zamburug'li kasallik, barglarda zang dog'lari",
+    "Virusli kasallik, barglari burishib qoladi",
+    "Hasharot zarari, poya ichi teshiladi",
+    "Fiziologik kasallik, ildizlari chiriydi"
+   ],
+   "e": "Sariq, qo'ng'ir, poya zangi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Qorakuya kasalligi qaysi ekinlarda ko'p uchraydi?",
+   "a": [
+    "Don ekinlarida",
+    "Faqat sabzavotlarda",
+    "Faqat mevali daraxtlarda",
+    "Faqat gullarda"
+   ],
+   "e": "Boshoq qora kukunga aylanadi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Qorakuyaga qarshi asosiy chora qaysi?",
+   "a": [
+    "Urug'ni ekishdan oldin dorilash",
+    "Hosilni odatdagidan kech yig'ib olish",
+    "Sug'orish sonini ikki baravar ko'paytirish",
+    "Mineral o'g'itlardan butunlay voz kechish"
+   ],
+   "e": "Fungitsidlar bilan."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Zararli xasva qaysi ekinga ko'proq zarar yetkazadi?",
+   "a": [
+    "Bug'doyga",
+    "G'o'zaga",
+    "Kartoshkaga",
+    "Pomidorga"
+   ],
+   "e": "Don sifati buziladi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Don hosilini yig'ishning bir fazali usuli nima?",
+   "a": [
+    "Kombayn bilan to'g'ridan-to'g'ri o'rib-yanchish",
+    "Avval o'rib, uyumga to'plab, keyin alohida yanchish",
+    "Qo'lda o'rib, xirmonda mollar bilan yanchish",
+    "Faqat ko'k massa holida silosga o'rib olish"
+   ],
+   "e": "To'liq pishgandan keyin."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Don hosilini yig'ishning ikki fazali usuli nima?",
+   "a": [
+    "Avval o'rib, uyumlarda quritib, keyin yanchish",
+    "Kombayn bilan bir yo'la to'g'ridan-to'g'ri yanchish",
+    "Faqat qo'lda o'rib, xirmonda yanchish",
+    "Faqat silos uchun ko'k massani o'rish"
+   ],
+   "e": "Mum pishish fazasida o'riladi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Lalmi dehqonchilik nima?",
+   "a": [
+    "Sug'orilmasdan, tabiiy namlik hisobiga dehqonchilik",
+    "Faqat tomchilatib sug'orish orqali dehqonchilik",
+    "Faqat issiqxonalarda sabzavot yetishtirish",
+    "Faqat gidroponika usulida tuproqsiz o'stirish"
+   ],
+   "e": "Tog' oldi hududlari."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Lalmikor yerlarda asosan qaysi ekinlar ekiladi?",
+   "a": [
+    "Bug'doy, arpa, no'xat",
+    "Sholi va g'o'za",
+    "Bodring va pomidor",
+    "Shakarqamish va choy"
+   ],
+   "e": "Qurg'oqchilikka chidamli."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Donning tovar sifatiga qaysi ko'rsatkich kiradi?",
+   "a": [
+    "Natura (1 litr don vazni)",
+    "Bir tupdagi barglar soni",
+    "Poyaning rangi",
+    "Ildiz uzunligi"
+   ],
+   "e": "g/l da ifodalanadi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Don omborda saqlanishi uchun namligi qancha bo'lishi kerak?",
+   "a": [
+    "14% dan oshmasligi",
+    "25–30% atrofida",
+    "40% dan yuqori",
+    "50–60% atrofida"
+   ],
+   "e": "Aks holda qiziydi va mog'orlaydi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Tritikale qanday ekin?",
+   "a": [
+    "Bug'doy va javdar duragayi",
+    "Arpa va suli duragayi",
+    "Sholi va tariq duragayi",
+    "Makkajo'xori va jo'xori duragayi"
+   ],
+   "e": "Sun'iy yaratilgan tur."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Suli doni asosan nimaga ishlatiladi?",
+   "a": [
+    "Yorma (gerkules) va ot yemi",
+    "Faqat makaron mahsulotlari",
+    "Faqat pivo va solod",
+    "Faqat o'simlik moyi olish"
+   ],
+   "e": "Parhezbop mahsulot."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Tariq doni qanday mahsulotga qayta ishlanadi?",
+   "a": [
+    "Pshyono (tariq yormasi)",
+    "Makaron mahsulotlari",
+    "Pivo uchun solod",
+    "Faqat sanoat kraxmali"
+   ],
+   "e": "Qisqa vegetatsiyali."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zaning madaniy turlaridan O'zbekistonda asosan qaysi biri ekiladi?",
+   "a": [
+    "O'rta tolali (Gossypium hirsutum)",
+    "Faqat yovvoyi Avstraliya g'o'zasi",
+    "Faqat daraxtsimon Afrika g'o'zasi",
+    "Faqat bir yillik Hind kanopi"
+   ],
+   "e": "Ingichka tolali — G. barbadense."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zaning rivojlanish fazalari tartibi qaysi?",
+   "a": [
+    "Unib chiqish, shonalash, gullash, pishish",
+    "Gullash, unib chiqish, shonalash, pishish",
+    "Pishish, shonalash, gullash, unib chiqish",
+    "Shonalash, pishish, unib chiqish, gullash"
+   ],
+   "e": "Ko'sak ochilishi bilan tugaydi."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zada \"shona\" nima?",
+   "a": [
+    "Gul g'unchasi",
+    "Pishgan ko'sak",
+    "Yon shox",
+    "Urug' tolasi"
+   ],
+   "e": "Uchburchak gulyonbarg bilan o'ralgan."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'za chigitini ekish uchun tuproq harorati kamida qancha bo'lishi kerak?",
+   "a": [
+    "12–14 °C",
+    "2–4 °C",
+    "25–30 °C",
+    "0 °C"
+   ],
+   "e": "10 sm chuqurlikda."
+  },
+  {
+   "b": "G'o'za",
+   "q": "O'zbekistonda g'o'za odatda qachon ekiladi?",
+   "a": [
+    "Aprel oyida",
+    "Yanvar oyida",
+    "Iyul oyida",
+    "Oktyabr oyida"
+   ],
+   "e": "Tuproq qizigach."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zaning hosil shoxlari qanday nomlanadi?",
+   "a": [
+    "Simpodial shoxlar",
+    "Monopodial shoxlar",
+    "Ildiz bachkilari",
+    "Gajaklar"
+   ],
+   "e": "Monopodial — o'suv shoxlari."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'za chilpish odatda qachon o'tkaziladi?",
+   "a": [
+    "Iyul oyida, 14–16 hosil shoxi chiqqanda",
+    "Mart oyida, chigit ekishdan oldin dalada",
+    "Sentyabrda, birinchi terimdan keyin",
+    "Dekabrda, qishki tinim davrida"
+   ],
+   "e": "Ko'saklarga oziq yo'naltiriladi."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Paxta tolasining asosiy sifat ko'rsatkichlari qaysilar?",
+   "a": [
+    "Uzunlik, pishiqlik, ingichkalik (mikroneyr)",
+    "Faqat tolaning rangi va hidi",
+    "Faqat bir ko'sakdagi tola og'irligi",
+    "Faqat bir ko'sakdagi chigitlar soni"
+   ],
+   "e": "Tola navi aniqlanadi."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Paxta chiqimi (tola chiqimi) nima?",
+   "a": [
+    "Xom ashyodagi tolaning foiz ulushi",
+    "Bir gektardan olingan ko'saklarning umumiy soni",
+    "Bir tupdagi barg va shoxlarning soni",
+    "Chigitning laboratoriyadagi unuvchanligi"
+   ],
+   "e": "O'rtacha 33–38%."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zaning asosiy zararkunandalaridan biri qaysi?",
+   "a": [
+    "Ko'sak qurti",
+    "Kolorado qo'ng'izi",
+    "Zararli xasva",
+    "Olma qurti"
+   ],
+   "e": "Ko'sak va shonalarni zararlaydi."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zada o'rgimchakkanaga qarshi qanday vositalar qo'llanadi?",
+   "a": [
+    "Akaritsidlar",
+    "Gerbitsidlar",
+    "Rodentitsidlar",
+    "Defoliantlar"
+   ],
+   "e": "Kanaga qarshi."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zaning vilt kasalligi qanday kasallik?",
+   "a": [
+    "So'lish (zamburug'li)",
+    "Virusli mozaika",
+    "Bakterial kuyish",
+    "Fiziologik sarg'ayish"
+   ],
+   "e": "Verticillium, Fusarium."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Viltga qarshi eng samarali chora qaysi?",
+   "a": [
+    "Chidamli navlar va almashlab ekish",
+    "Faqat sug'orishlar sonini ikki baravar oshirish",
+    "Chigitni odatdagidan bir oy kech ekish",
+    "Faqat azotli o'g'it me'yorini oshirish"
+   ],
+   "e": "Integratsiyalashgan himoya."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Biologik himoyada g'o'za zararkunandalariga qarshi qaysi entomofag qo'llanadi?",
+   "a": [
+    "Trixogramma",
+    "Kolorado qo'ng'izi",
+    "Shilliqqurt",
+    "Chigirtka"
+   ],
+   "e": "Tuxumxo'r parazit."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Brakon qanday entomofag?",
+   "a": [
+    "Tunlam qurtlari parazit pardaqanotlisi",
+    "Barg bitining yirtqichi bo'lgan qo'ng'iz",
+    "O'rgimchakkanani yeydigan kana",
+    "Begona o'tlarni yeydigan hasharot"
+   ],
+   "e": "Ko'sak qurtiga qarshi."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Defoliatsiya qachon o'tkaziladi?",
+   "a": [
+    "Ko'saklar 50–60% ochilganda",
+    "Shonalash boshlanishida",
+    "Gullash fazasida",
+    "Chigit ekilgandan keyin darhol"
+   ],
+   "e": "Mashina terimi uchun."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zaning ingichka tolali turi qaysi?",
+   "a": [
+    "Gossypium barbadense",
+    "Gossypium hirsutum",
+    "Gossypium herbaceum",
+    "Gossypium arboreum"
+   ],
+   "e": "Misr g'o'zasi."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'za qaysi yorug'lik va issiqlik talabiga ega?",
+   "a": [
+    "Issiqsevar va yorug'sevar",
+    "Sovuqsevar va soyasevar",
+    "Faqat qalin soyada o'sadi",
+    "Harorat va yorug'likka befarq"
+   ],
+   "e": "Sovuqqa chidamsiz."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'za qatorlari orasini kultivatsiya qilishdan maqsad nima?",
+   "a": [
+    "Tuproqni yumshatish va begona o'tlarni yo'qotish",
+    "Tuproqni zichlashtirib, qotirib qo'yish",
+    "Chigitni tuproqqa chuqurroq ko'mish",
+    "G'o'za ildizlarini kesib, qisqartirish"
+   ],
+   "e": "Havo almashinuvi yaxshilanadi."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Chigit ekishdan oldin nima uchun tuksizlantiriladi?",
+   "a": [
+    "Bir tekis ekish va dorilashni osonlashtirish uchun",
+    "Chigitning unuvchanligini butunlay yo'qotish uchun",
+    "Chigitni og'irlashtirib, shamolda uchmasligi uchun",
+    "Chigitning rangini o'zgartirib, navni ajratish uchun"
+   ],
+   "e": "Aniq ekish seyalkalari uchun."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Paxta tozalash zavodida xom ashyodan nima ajratiladi?",
+   "a": [
+    "Tola, chigit va lint",
+    "Faqat kraxmal va glyukoza",
+    "Faqat shakar (saxaroza)",
+    "Faqat oqsil va aminokislotalar"
+   ],
+   "e": "Jinlash jarayoni."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Chigitdan qanday mahsulot olinadi?",
+   "a": [
+    "Paxta yog'i va kunjara",
+    "Faqat to'qimachilik tolasi",
+    "Faqat shakar va qandlar",
+    "Faqat kraxmal va un"
+   ],
+   "e": "Kunjara — chorva ozuqasi."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Dukkakli don ekinlarining ahamiyati nima?",
+   "a": [
+    "Oqsilga boy va tuproqni azotga boyitadi",
+    "Tuproqni azotdan butunlay mahrum qiladi",
+    "Doni faqat kraxmaldan iborat bo'ladi",
+    "Faqat tola olish uchun ekiladi"
+   ],
+   "e": "Tugunak bakteriyalar."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Mosh qanday ekin sifatida ko'p ekiladi?",
+   "a": [
+    "Takroriy ekin (g'alladan keyin)",
+    "Faqat kuzgi asosiy ekin sifatida",
+    "Faqat isitiladigan issiqxona ekini",
+    "Faqat ko'p yillik ozuqa ekini"
+   ],
+   "e": "Qisqa vegetatsiyali."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Soya donida oqsil miqdori taxminan qancha?",
+   "a": [
+    "35–40%",
+    "3–5%",
+    "70–80%",
+    "10–12%"
+   ],
+   "e": "Yog' ham 18–20%."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Nitragin nima?",
+   "a": [
+    "Tugunak bakteriyalar asosidagi biopreparat",
+    "Sintetik kimyoviy azotli o'g'it",
+    "Begona o'tlarga qarshi gerbitsid",
+    "Zamburug'larga qarshi fungitsid"
+   ],
+   "e": "Dukkakli urug'larga ishlov."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Kungaboqar qaysi ekin guruhiga kiradi?",
+   "a": [
+    "Moyli ekinlar",
+    "Tolali ekinlar",
+    "Don ekinlari",
+    "Sabzavot ekinlari"
+   ],
+   "e": "Murakkabguldoshlar."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Kunjut (kunjit) qanday ekin?",
+   "a": [
+    "Issiqsevar moyli ekin",
+    "Sovuqqa chidamli don ekini",
+    "Tolali texnik ekin",
+    "Ko'p yillik ozuqa ekini"
+   ],
+   "e": "Urug'ida yog' ~50–60%."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Zig'ir qanday maqsadlarda ekiladi?",
+   "a": [
+    "Tola va moy olish uchun",
+    "Faqat silos uchun",
+    "Faqat dorivor gul uchun",
+    "Faqat shakar olish uchun"
+   ],
+   "e": "Tolali va moyli shakllari."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Kanop qanday ekin?",
+   "a": [
+    "Tolali texnik ekin",
+    "Moyli don ekini",
+    "Bargli sabzavot ekini",
+    "Poliz (qovoqdosh) ekini"
+   ],
+   "e": "Qop, arqon tayyorlanadi."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Qand lavlagining asosiy mahsuloti nima?",
+   "a": [
+    "Shakar (saxaroza)",
+    "Tola",
+    "O'simlik moyi",
+    "Kraxmal"
+   ],
+   "e": "Ildizmevasida 16–20%."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Tamaki qaysi oilaga kiradi?",
+   "a": [
+    "Ituzumdoshlar",
+    "Bug'doydoshlar",
+    "Dukkakdoshlar",
+    "Karamdoshlar"
+   ],
+   "e": "Nikotin alkaloidi."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Yeryong'oq (araxis) qanday xususiyatga ega?",
+   "a": [
+    "Mevasi yer ostida yetiladi",
+    "Mevasi daraxtda o'sadi",
+    "Faqat suvda o'sadi",
+    "Faqat tuganakdan ko'payadi"
+   ],
+   "e": "Dukkakdoshlar, moyli."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Maxsar qanday ekin?",
+   "a": [
+    "Qurg'oqchilikka chidamli moyli ekin",
+    "Suv bostirilgan cheklarda o'sadigan don ekini",
+    "Tolali texnik ekin (kanopsimon)",
+    "Ildizmevali sabzavot ekini"
+   ],
+   "e": "Lalmikorda ekiladi."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "No'xat qaysi sharoitda yaxshi o'sadi?",
+   "a": [
+    "Lalmi va qurg'oqchil sharoitda",
+    "Faqat suv bostirilgan cheklarda",
+    "Faqat tropik nam o'rmonlarda",
+    "Faqat issiqxonalarda"
+   ],
+   "e": "Qurg'oqchilikka chidamli."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Kartoshka qanday ko'paytiriladi?",
+   "a": [
+    "Tugunaklar orqali",
+    "Faqat qalamchalar va payvand orqali",
+    "Faqat ildiz bachkilari orqali",
+    "Faqat parxish usuli bilan"
+   ],
+   "e": "Urug'dan seleksiyada."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Kartoshkaning tugunaklarida asosan qaysi modda to'planadi?",
+   "a": [
+    "Kraxmal",
+    "Saxaroza va fruktoza",
+    "O'simlik yog'i",
+    "Sellyuloza tolalari"
+   ],
+   "e": "14–22%."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Kartoshkaning asosiy zararkunandasi qaysi?",
+   "a": [
+    "Kolorado qo'ng'izi",
+    "Ko'sak qurti va tunlamlar",
+    "Zararli xasva (don qandalasi)",
+    "Olma mevaxo'ri"
+   ],
+   "e": "Barglarni yeydi."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Kartoshka fitoftorozi qanday kasallik?",
+   "a": [
+    "Zamburug'simon kasallik",
+    "Bakterial vilt kasalligi",
+    "Hasharot keltiradigan zarar",
+    "Mineral oziqlanish buzilishi"
+   ],
+   "e": "Barg va tugunaklarda chirish."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Kartoshka tugunaklari yorug'likda nima uchun ko'karadi?",
+   "a": [
+    "Xlorofill va solanin hosil bo'ladi",
+    "Kraxmal tez shakarga aylanib, shirin bo'ladi",
+    "Tugunak po'sti qalinlashib, qattiqlashadi",
+    "Tugunakdagi suv bug'lanib, bujmayib qoladi"
+   ],
+   "e": "Solanin zaharli."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Pomidor ko'chatini ochiq yerga ekish uchun asosiy shart nima?",
+   "a": [
+    "Bahorgi sovuq xavfi o'tishi",
+    "Tuproqning to'liq muzlab turishi",
+    "Havo harorati 0 °C dan past bo'lishi",
+    "Kunlarning juda qisqa bo'lishi"
+   ],
+   "e": "Issiqsevar ekin."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Pomidor qaysi usulda ko'proq yetishtiriladi?",
+   "a": [
+    "Ko'chat orqali",
+    "Faqat tugunak orqali",
+    "Faqat piyozbosh orqali",
+    "Faqat qalamcha orqali"
+   ],
+   "e": "Erta hosil uchun."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Bodring qaysi oilaga kiradi?",
+   "a": [
+    "Qovoqdoshlar",
+    "Ituzumdoshlar",
+    "Karamdoshlar",
+    "Soyabonguldoshlar"
+   ],
+   "e": "Poliz-sabzavot."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Piyozning urug'i qanday nomlanadi?",
+   "a": [
+    "Chernushka",
+    "Ko'sak",
+    "Dukkak",
+    "Don"
+   ],
+   "e": "Qora mayda urug'lar."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Sabzi qaysi oilaga kiradi?",
+   "a": [
+    "Soyabonguldoshlar (selderdoshlar)",
+    "Ituzumdoshlar (pasliendoshlar)",
+    "Karamdoshlar (butguldoshlar)",
+    "Qovoqdoshlar"
+   ],
+   "e": "Ikki yillik o'simlik."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Karam qaysi oilaga kiradi?",
+   "a": [
+    "Karamdoshlar (butguldoshlar)",
+    "Ituzumdoshlar",
+    "Qovoqdoshlar",
+    "Soyabonguldoshlar"
+   ],
+   "e": "Ikki yillik."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Ikki yillik sabzavotlarga misol qaysi?",
+   "a": [
+    "Sabzi, lavlagi, karam",
+    "Pomidor, bodring, qalampir",
+    "Qovun, tarvuz, qovoq",
+    "Baqlajon, qalampir, loviya"
+   ],
+   "e": "Urug' ikkinchi yili beradi."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Qovun O'zbekistonning qaysi hududlari bilan mashhur?",
+   "a": [
+    "Xorazm va Mirzacho'l",
+    "Faqat Toshkent tog'lari",
+    "Faqat Chotqol tizmasi",
+    "Faqat Zarafshon muzliklari"
+   ],
+   "e": "Issiq quruq iqlim."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Tarvuzning asosiy talabi nima?",
+   "a": [
+    "Ko'p issiqlik va yorug'lik",
+    "Past harorat va soya",
+    "Doimiy suv bostirilishi",
+    "Qisqa kun va sovuq"
+   ],
+   "e": "Qurg'oqchilikka nisbatan chidamli."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Poliz ekinlariga qaysilar kiradi?",
+   "a": [
+    "Qovun, tarvuz, qovoq",
+    "Bug'doy, arpa, javdar",
+    "G'o'za, kanop, zig'ir",
+    "Beda, sebarga, esparset"
+   ],
+   "e": "Qovoqdoshlar."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Issiqxonada eng ko'p yetishtiriladigan sabzavotlar qaysilar?",
+   "a": [
+    "Pomidor va bodring",
+    "Kartoshka va sabzi",
+    "Piyoz va sarimsoq",
+    "Karam va lavlagi"
+   ],
+   "e": "Qishki-bahorgi davrda."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Sabzavotchilikda mulchalash nima?",
+   "a": [
+    "Tuproq sirtini qoplash",
+    "Tuproqni chuqur haydash",
+    "O'simlikni payvandlash",
+    "Urug'ni dorilash"
+   ],
+   "e": "Namlik saqlanadi, begona o't kamayadi."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Ko'chat yetishtirishning afzalligi nima?",
+   "a": [
+    "Erta va ko'proq hosil olish",
+    "Hosilni kechiktirish va kamaytirish",
+    "Urug' sarfini bir necha baravar oshirish",
+    "O'simlikni kasalliklarga moyil qilish"
+   ],
+   "e": "Vegetatsiya davri qisqaradi."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Sarimsoq qanday ko'paytiriladi?",
+   "a": [
+    "Piyozcha bo'laklari (tishlari) orqali",
+    "Faqat urug' orqali",
+    "Faqat tugunak orqali",
+    "Faqat qalamcha orqali"
+   ],
+   "e": "Vegetativ."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Bulg'or qalampiri qaysi vitaminga boy?",
+   "a": [
+    "C vitamini",
+    "D vitamini",
+    "B12 vitamini",
+    "K vitamini"
+   ],
+   "e": "Askorbin kislota."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Beda qanday ekin?",
+   "a": [
+    "Ko'p yillik dukkakli ozuqa ekini",
+    "Bir yillik moyli texnik ekin",
+    "Ko'p yillik tolali texnik ekin",
+    "Bir yillik boshoqli don ekini"
+   ],
+   "e": "Tuproqni azotga boyitadi."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Bedani bir mavsumda necha marta o'rish mumkin?",
+   "a": [
+    "4–6 marta",
+    "Faqat 1 marta",
+    "15–20 marta",
+    "Umuman o'rilmaydi"
+   ],
+   "e": "Sug'oriladigan yerlarda."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "G'o'za-beda almashlab ekishning ahamiyati nima?",
+   "a": [
+    "Tuproq unumdorligi oshadi, vilt kamayadi",
+    "Tuproq tezroq sho'rlanadi va zichlashadi",
+    "G'o'za hosili ikki baravar kamayadi",
+    "Azotli o'g'itlar ko'proq talab qilinadi"
+   ],
+   "e": "Klassik almashlab ekish."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Silos nima?",
+   "a": [
+    "Achitib saqlangan ko'k massa",
+    "Quyoshda quritilgan pichan",
+    "Maydalangan don yemi",
+    "Yog'i olingan kunjara"
+   ],
+   "e": "Sut kislotali bijg'ish."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Senaj nima?",
+   "a": [
+    "So'litilgan o'tdan tayyorlangan konservalangan ozuqa",
+    "Quyoshda to'liq quritilgan oddiy pichan",
+    "Donni maydalab tayyorlangan omuxta yem",
+    "Faqat ildizmevalardan iborat sersuv ozuqa"
+   ],
+   "e": "Namligi 45–55%."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Pichan tayyorlash uchun o'tlar qaysi fazada o'riladi?",
+   "a": [
+    "G'unchalash – gullash boshida",
+    "Urug' to'liq pishgandan keyin",
+    "Unib chiqish fazasida",
+    "Qishda qurigan holda"
+   ],
+   "e": "Oziqlilik eng yuqori."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Xashaki lavlagi nima uchun ekiladi?",
+   "a": [
+    "Chorva ozuqasi uchun",
+    "Shakar ishlab chiqarish uchun",
+    "Tola olish uchun",
+    "Moy olish uchun"
+   ],
+   "e": "Ildizmevali ozuqa."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Sudan o'ti qaysi oilaga kiradi?",
+   "a": [
+    "Bug'doydoshlar",
+    "Dukkakdoshlar",
+    "Karamdoshlar",
+    "Murakkabguldoshlar"
+   ],
+   "e": "Jo'xorining yaqini."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Ozuqa birligi nimani bildiradi?",
+   "a": [
+    "Ozuqaning to'yimlilik o'lchovi",
+    "Ozuqaning bozordagi narxi",
+    "Ozuqaning rangi va hidi",
+    "Ozuqaning egallagan hajmi"
+   ],
+   "e": "1 kg suli to'yimliligi."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Raps qanday ekin?",
+   "a": [
+    "Moyli va ozuqabop ekin",
+    "Faqat tolali ekin",
+    "Faqat sabzavot ekini",
+    "Faqat dorivor ekin"
+   ],
+   "e": "Karamdoshlar."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Esparset qanday ekin?",
+   "a": [
+    "Ko'p yillik dukkakli ozuqa ekini",
+    "Bir yillik moyli texnik ekin",
+    "Ko'p yillik tolali texnik ekin",
+    "Bir yillik bargli sabzavot"
+   ],
+   "e": "Lalmikorda ekiladi."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Ko'k konveyer nima?",
+   "a": [
+    "Mavsum davomida uzluksiz ko'k ozuqa ta'minoti",
+    "Pichanni quritish uchun lentali transportyor",
+    "Donni tozalash va saralash mashinasi",
+    "Silos tayyorlanadigan o'ra (transheya)"
+   ],
+   "e": "Turli muddatda ekiladigan ekinlar."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Shudgor (asosiy ishlov) qachon o'tkaziladi?",
+   "a": [
+    "Kuzda, hosil yig'ilgandan keyin",
+    "Faqat yozning eng issiq kunlarida",
+    "Faqat ekin gullab turganda",
+    "Faqat qor yog'ib turganda"
+   ],
+   "e": "Kuzgi shudgor."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Plug bilan haydashning asosiy vazifasi nima?",
+   "a": [
+    "Tuproq qatlamini ag'darib yumshatish",
+    "Tuproqni zichlashtirib, qatqaloq hosil qilish",
+    "Pishgan ekinlarni o'rib, bog'lab olish",
+    "Urug'larni ekishdan oldin dorilash"
+   ],
+   "e": "Begona o't va qoldiqlar ko'miladi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Boronalashdan maqsad nima?",
+   "a": [
+    "Tuproq yuzasini tekislash va kesaklarni maydalash",
+    "Tuproqni 40 sm chuqurlikda ag'darib haydash",
+    "Pishgan ekinlarni o'rib, yanchib olish",
+    "Chorva mollari uchun ko'k ozuqa tayyorlash"
+   ],
+   "e": "Namlikni saqlaydi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Mola bosishning vazifasi nima?",
+   "a": [
+    "Yer yuzini tekislash va zichlashtirish",
+    "Tuproqni chuqur ag'darib, qatlamlarni almashtirish",
+    "Begona o'tlarni kimyoviy usulda yo'qotish",
+    "Ekin qatorlarini egat orqali sug'orish"
+   ],
+   "e": "Ekishdan oldin."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Chizellash nima?",
+   "a": [
+    "Qatlamni ag'darmasdan chuqur yumshatish",
+    "Tuproqni ag'darib, qatlamlarni almashtirish",
+    "Tuproqqa organik o'g'it solish",
+    "Ekinlarni qo'lda o'tash"
+   ],
+   "e": "Shudgor tagi qatlamini buzadi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Ekish usullaridan biri qaysi?",
+   "a": [
+    "Qator oralab ekish",
+    "Faqat havodan sochib ekish",
+    "Faqat qo'lda bir donalab ekish",
+    "Faqat suvga tashlab ekish"
+   ],
+   "e": "Keng qatorli, tor qatorli, kvadrat-uyali."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Ekish chuqurligi nimaga bog'liq?",
+   "a": [
+    "Urug' yirikligi va tuproq namligiga",
+    "Faqat havoning rangi va bulutliligiga",
+    "Faqat Oy fazasi va yil fasliga",
+    "Faqat dalaning shakli va o'lchamiga"
+   ],
+   "e": "Mayda urug' sayozroq."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Navning asosiy belgisi nima?",
+   "a": [
+    "Irsiy bir xil va barqaror belgilar majmui",
+    "Faqat urug'ning tashqi rangi va shakli",
+    "Faqat o'simlikning bo'yi va barg soni",
+    "Faqat urug'ning bozordagi narxi"
+   ],
+   "e": "Seleksiya mahsuli."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Davlat nav sinovining maqsadi nima?",
+   "a": [
+    "Navning xo'jalik qimmatini baholash",
+    "Navni chet elga eksport qilib sotish",
+    "Eski navni butunlay yo'q qilish",
+    "Faqat yangi navga nom berib ro'yxatlash"
+   ],
+   "e": "Reyestrga kiritish uchun."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Superelita urug'i nima?",
+   "a": [
+    "Elitadan oldingi yuqori bosqich urug'i",
+    "Eng past sifatli ommaviy reproduksiya urug'i",
+    "Faqat chorva yemi uchun ajratilgan urug'",
+    "Kasallik bilan zararlangan yaroqsiz urug'"
+   ],
+   "e": "Urug'chilik bosqichlari."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Nav tozaligi nima?",
+   "a": [
+    "Asosiy nav o'simliklarining foiz ulushi",
+    "Urug'ning laboratoriyadagi unuvchanlik foizi",
+    "Urug'ning ombordagi namlik foizi",
+    "Urug'lik tarkibidagi begona o't urug'lari soni"
+   ],
+   "e": "Aprobatsiyada aniqlanadi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Aprobatsiya nima?",
+   "a": [
+    "Urug'lik ekinlarni dalada nav sifatiga tekshirish",
+    "Yig'ilgan hosilni omborga joylashtirish",
+    "Urug'larni bozorda sotish va tarqatish",
+    "Urug'lik dalani sug'orish va o'g'itlash"
+   ],
+   "e": "Nav tozaligi va zararlanish."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Urug'ni kalibrlash nima?",
+   "a": [
+    "Urug'larni yirikligi bo'yicha saralash",
+    "Urug'larni suvda namlab undirish",
+    "Urug'larni olovda qovurib quritish",
+    "Urug'larni bo'yoq bilan bo'yash"
+   ],
+   "e": "Bir tekis unib chiqish uchun."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Takroriy ekin nima?",
+   "a": [
+    "Asosiy ekin yig'ilgach, shu yili ekiladigan ekin",
+    "Har yili bir xil ekinni bir dalaga qayta ekish",
+    "Faqat kuzda ekiladigan asosiy kuzgi ekin",
+    "Faqat isitiladigan issiqxonada ekiladigan ekin"
+   ],
+   "e": "G'alladan keyin mosh, makkajo'xori."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Oraliq ekin nima?",
+   "a": [
+    "Ikki asosiy ekin oralig'ida ekiladigan ekin",
+    "Faqat bitta uzun qatorda ekiladigan ekin",
+    "Faqat dala chetiga himoya uchun ekiladigan ekin",
+    "Faqat ariq va suv bo'ylariga ekiladigan ekin"
+   ],
+   "e": "Siderat yoki ozuqa sifatida."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Monokultura nima?",
+   "a": [
+    "Bir ekinni yillar davomida bir dalaga ekish",
+    "Har yili dalada ekinlarni navbatma-navbat almashtirish",
+    "Bir dalaga bir vaqtda bir necha ekinni aralash ekish",
+    "Faqat ko'p yillik ozuqa ekinlarini ekish"
+   ],
+   "e": "Tuproq charchaydi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Egatlab sug'orishning asosiy afzalligi nima?",
+   "a": [
+    "Suv qator oralab bir tekis taqsimlanadi",
+    "Barcha dala yuzasini suvga to'liq bostirib qo'yadi",
+    "Faqat yomg'ir kabi barglar ustiga purkab beradi",
+    "Ekinlar suvni umuman talab qilmaydi"
+   ],
+   "e": "G'o'za va sabzavotlarda."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Yomg'irlatib sug'orish qaysi holda qulay?",
+   "a": [
+    "Notekis relyefli yerlarda",
+    "Faqat suv bostirilgan cheklarda",
+    "Faqat sho'r yuviladigan dalalarda",
+    "Faqat sholipoyalarda"
+   ],
+   "e": "Mikroiqlimni ham yaxshilaydi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Sug'orish me'yori nima?",
+   "a": [
+    "Bir sug'orishda gektarga beriladigan suv hajmi",
+    "Bir mavsumda o'tkaziladigan sug'orishlar soni",
+    "Dala ariqlarining umumiy uzunligi",
+    "Sug'orish suvining harorati"
+   ],
+   "e": "m³/ga."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Sizot suvlar yuza bo'lsa, qanday xavf tug'iladi?",
+   "a": [
+    "Ikkilamchi sho'rlanish",
+    "Tuproqning tez qurishi",
+    "Eroziya butunlay yo'qolishi",
+    "Gumus ko'payishi"
+   ],
+   "e": "Bug'lanishda tuz to'planadi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Agrotexnik tadbirlar majmuasi qanday nomlanadi?",
+   "a": [
+    "Ekin yetishtirish texnologiyasi",
+    "Chorvachilik mahsulotlari texnologiyasi",
+    "Oziq-ovqat mahsulotlarini qayta ishlash texnologiyasi",
+    "Bino va inshootlar qurilishi texnologiyasi"
+   ],
+   "e": "Ishlov, ekish, parvarish, yig'ish."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Integratsiyalashgan himoya nima?",
+   "a": [
+    "Turli usullarni uyg'unlashtirib qo'llash",
+    "Faqat kimyoviy pestitsidlardan foydalanish",
+    "Faqat zararkunandalarni qo'lda terib yo'qotish",
+    "Hech qanday himoya choralarini ko'rmaslik"
+   ],
+   "e": "Iqtisodiy zarar chegarasi hisobga olinadi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Iqtisodiy zarar chegarasi nima?",
+   "a": [
+    "Kurash iqtisodiy oqlanadigan zararkunanda soni",
+    "Daladagi zararkunandaning eng kichik soni",
+    "Ekinning eng yuqori hosildorlik darajasi",
+    "O'g'itning eng katta ruxsat etilgan me'yori"
+   ],
+   "e": "Shundan oshsa, choralar ko'riladi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Insektitsidlar nimaga qarshi qo'llanadi?",
+   "a": [
+    "Zararli hasharotlarga",
+    "Begona o'tlarga",
+    "Zamburug' kasalliklariga",
+    "Kemiruvchilarga"
+   ],
+   "e": "Hasharotlarga qarshi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Agrotexnik himoya usuliga misol qaysi?",
+   "a": [
+    "Almashlab ekish va o'z vaqtida ekish",
+    "Faqat zaharli kimyoviy moddalarni sepish",
+    "Faqat entomofaglarni dalaga chiqarish",
+    "Faqat feromon tutqichlarni o'rnatish"
+   ],
+   "e": "Profilaktik usul."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Feromon tutqichlar nima uchun qo'llanadi?",
+   "a": [
+    "Zararkunandalar sonini kuzatish va tutish",
+    "Begona o'tlarni kimyoviy yo'qotish",
+    "Tuproqni mineral moddalar bilan o'g'itlash",
+    "Ekinlarni tomchilatib sug'orish"
+   ],
+   "e": "Jinsiy jalb qiluvchi moddalar."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Karantin chora-tadbirlarining maqsadi nima?",
+   "a": [
+    "Xavfli organizmlar kirib kelishining oldini olish",
+    "Mahalliy zararkunandalar sonini ko'paytirish",
+    "Qishloq xo'jaligi mahsulotlari eksportini taqiqlash",
+    "Faqat urug'lik narxini oshirib sotish"
+   ],
+   "e": "Davlat nazorati."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Shira (barg biti) qanday zarar yetkazadi?",
+   "a": [
+    "Shirani so'rib, viruslarni tarqatadi",
+    "Faqat tuproqdagi ildizlarni kemiradi",
+    "Faqat pishgan donni teshib zararlaydi",
+    "Faqat poyani kesib, sindiradi"
+   ],
+   "e": "So'ruvchi zararkunanda."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Oltinko'z (zlatoglazka) qanday foyda keltiradi?",
+   "a": [
+    "Shira va kanalarni yeydi",
+    "Begona o'tlarni yo'qotadi",
+    "Tuproqni o'g'itlaydi",
+    "Gullarni changlatadi"
+   ],
+   "e": "Yirtqich entomofag."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Xonqizi (kokkinellida) qanday foydali hasharot?",
+   "a": [
+    "Shira bilan oziqlanadi",
+    "G'o'za barglarini yeb zararlaydi",
+    "Ombordagi donni zararlaydi",
+    "Tuproqdagi ildizlarni kemiradi"
+   ],
+   "e": "Biologik himoya."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Kimyoviy vositalar bilan ishlashda qanday talab muhim?",
+   "a": [
+    "Himoya vositalari va kutish muddatiga rioya",
+    "Hech qanday himoya vositasisiz ishlash",
+    "Hosilni ishlovdan keyin darhol iste'mol qilish",
+    "Qolgan preparatlarni suv havzasiga to'kish"
+   ],
+   "e": "Xavfsizlik qoidalari."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Begona o'tlarning zarari nima?",
+   "a": [
+    "Ekin bilan suv, oziq va yorug'lik uchun raqobatlashadi",
+    "Tuproqni atmosfera azoti bilan boyitadi",
+    "Asosiy ekin hosilini sezilarli oshiradi",
+    "Barcha zararkunandalarni butunlay yo'qotadi"
+   ],
+   "e": "Hosil kamayadi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Ko'p yillik ildizpoyali begona o'tga misol qaysi?",
+   "a": [
+    "G'umay",
+    "Ituzum",
+    "Sho'ra",
+    "Olabuta"
+   ],
+   "e": "Ajriq ham."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Zarpechak qanday begona o't?",
+   "a": [
+    "Parazit begona o't",
+    "Ko'p yillik daraxt",
+    "Foydali ozuqa o'ti",
+    "Dorivor ekin"
+   ],
+   "e": "Karantin ob'ekti."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Unshudring kasalligi qanday belgilanadi?",
+   "a": [
+    "Barglarda oq g'ubor paydo bo'ladi",
+    "Barglar qizarib, chetlaridan kuyib ketadi",
+    "Ildizlar haddan tashqari yo'g'onlashadi",
+    "Mevalar pishmasdan yorilib ketadi"
+   ],
+   "e": "Zamburug'li kasallik."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Chigirtkalarga qarshi qachon kurashish samarali?",
+   "a": [
+    "Lichinkalik davrida",
+    "Qishda tuxum holida",
+    "Ular uchib ketgandan keyin",
+    "Hosil yig'ilgandan keyin"
+   ],
+   "e": "Galalanishdan oldin."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Urug'li mevalarga qaysilar kiradi?",
+   "a": [
+    "Olma, nok, behi",
+    "O'rik, shaftoli, olcha va gilos",
+    "Yong'oq, bodom, pista va funduq",
+    "Uzum, qulupnay, smorodina va malina"
+   ],
+   "e": "Ra'nodoshlar."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Danakli mevalarga qaysilar kiradi?",
+   "a": [
+    "O'rik, shaftoli, olxo'ri",
+    "Olma, nok va behi kabi urug'lilar",
+    "Yong'oq, bodom va pista kabi yong'oqlar",
+    "Qulupnay, malina va smorodina kabi rezavorlar"
+   ],
+   "e": "Ichida danak."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Yong'oqmevalilarga qaysilar kiradi?",
+   "a": [
+    "Yong'oq, bodom, pista",
+    "Olma, nok va behi kabi urug'li mevalar",
+    "O'rik va shaftoli kabi danakli mevalar",
+    "Uzum va anjir kabi rezavor mevalar"
+   ],
+   "e": "Quruq meva."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Mevali daraxt ko'chatini ko'paytirishning asosiy usuli qaysi?",
+   "a": [
+    "Payvandlash",
+    "Faqat urug'dan undirish va ko'chirish",
+    "Faqat ildiz bachkilarini ajratib olish",
+    "Faqat bargidan qalamcha tayyorlash"
+   ],
+   "e": "Nav belgilari saqlanadi."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Payvandtag nima?",
+   "a": [
+    "Payvand qilinadigan ildizli o'simlik",
+    "Ustiga payvandlanadigan navli novda yoki kurtak",
+    "Payvand joyini bog'lash uchun lenta",
+    "Payvandlash uchun maxsus o'tkir pichoq"
+   ],
+   "e": "Yovvoyi yoki pakana shakl."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Payvandust nima?",
+   "a": [
+    "Payvandlanadigan nav novdasi yoki kurtagi",
+    "Ildiz tizimini beradigan yovvoyi o'simlik",
+    "Payvand joyini qoplaydigan bog' malhami",
+    "Ko'chatxonadagi tuproq qatlami"
+   ],
+   "e": "Nav belgilari undan."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Mevali daraxtlarni butash (kesish)dan maqsad nima?",
+   "a": [
+    "Shox-shabbani shakllantirish va hosilni boshqarish",
+    "Daraxtni butunlay quritib, o'rniga yangisini ekish",
+    "Barglar sonini ko'paytirib, soyani oshirish",
+    "Ildiz tizimini qisqartirib, o'sishni to'xtatish"
+   ],
+   "e": "Odatda erta bahorda."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Pakana payvandtaglarning afzalligi nima?",
+   "a": [
+    "Erta hosilga kirish va parvarish qulayligi",
+    "Daraxt bo'yining 15–20 metrga yetishi",
+    "Hosilga 10–12 yildan keyin kirishi",
+    "Sovuqqa va qurg'oqchilikka mutlaq chidamlilik"
+   ],
+   "e": "Intensiv bog'lar."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Intensiv bog'ning xususiyati nima?",
+   "a": [
+    "Zich ekilgan pakana daraxtlar",
+    "Siyrak ekilgan baland daraxtlar",
+    "Faqat yovvoyi mevali daraxtlar",
+    "Sug'orilmaydigan lalmi daraxtzor"
+   ],
+   "e": "Gektariga ko'p daraxt."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Bog'larda changlatuvchi navlar nima uchun ekiladi?",
+   "a": [
+    "O'zidan changlanmaydigan navlarda meva tugishi uchun",
+    "Daraxtlarni shamoldan himoya qilish uchun",
+    "Tuproqni azot bilan boyitish uchun",
+    "Zararkunandalarni hidi bilan qo'rqitish uchun"
+   ],
+   "e": "Chetdan changlanish."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Olma qurti (mevaxo'r) qanday zarar keltiradi?",
+   "a": [
+    "Mevaning ichini kemirib chiritadi",
+    "Faqat daraxt ildizlarini kemiradi",
+    "Faqat barglarning shirasini so'radi",
+    "Faqat po'stloqni kemirib quritadi"
+   ],
+   "e": "Feromon tutqichlar bilan kuzatiladi."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Uzum qanday ko'paytiriladi?",
+   "a": [
+    "Qalamcha va payvand orqali",
+    "Faqat urug' orqali, unib chiqqan nihollardan",
+    "Faqat tugunak va piyozbosh orqali",
+    "Faqat ildiz bachkilari va gajaklar orqali"
+   ],
+   "e": "Vegetativ."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Kishmish navli uzumning xususiyati nima?",
+   "a": [
+    "Urug'siz mayda rezavorli",
+    "Yirik, ko'p urug'li va qalin po'stli",
+    "Faqat vino tayyorlashga yaraydigan nordon",
+    "Faqat dekorativ, mevasi yeyilmaydigan"
+   ],
+   "e": "Quritishga yaroqli."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Uzumni qishda ko'mish nima uchun qilinadi?",
+   "a": [
+    "Sovuqdan himoyalash uchun",
+    "Hosilni tezroq pishirish uchun yozda",
+    "Barglarni ko'proq chiqarish uchun bahorda",
+    "Zararkunandalarni ko'paytirish uchun kuzda"
+   ],
+   "e": "Sovuq hududlarda."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Uzumning eng xavfli zamburug' kasalliklaridan biri qaysi?",
+   "a": [
+    "Oidium (unshudring)",
+    "Kartoshka fitoftorozi",
+    "G'o'za vilti",
+    "Bug'doy qorakuyasi"
+   ],
+   "e": "Oltingugurt preparatlari qo'llanadi."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Anor qaysi sharoitda yaxshi o'sadi?",
+   "a": [
+    "Issiq va quruq iqlimda",
+    "Juda sovuq va nam iqlimda",
+    "Faqat tropik o'rmon soyasida",
+    "Faqat baland tog' cho'qqilarida"
+   ],
+   "e": "Qishda ko'miladi ham."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Limon qanday sharoitda yetishtiriladi?",
+   "a": [
+    "Issiq limonariyda (transheyada)",
+    "Ochiq dalada qishda ham himoyasiz",
+    "Faqat tog' yonbag'irlarida lalmi",
+    "Faqat suv bostirilgan cheklarda"
+   ],
+   "e": "Sovuqqa chidamsiz."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Mevalarni sovutgichda saqlashning asosiy maqsadi nima?",
+   "a": [
+    "Nafas va pishishni sekinlashtirish",
+    "Mevalarni tezroq pishirib, yumshatish",
+    "Mevalarda shakarni kraxmalga aylantirish",
+    "Mevalarning rangini o'zgartirish"
+   ],
+   "e": "Saqlash muddati uzayadi."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Ko'chatxona nima?",
+   "a": [
+    "Ko'chat yetishtiriladigan maxsus maydon",
+    "Meva saqlanadigan sovutgichli ombor",
+    "Uzum quritiladigan maxsus xona",
+    "Don tozalanadigan xirmon"
+   ],
+   "e": "Payvandlash, chiniqtirish."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Daraxt tanasini oqlashning maqsadi nima?",
+   "a": [
+    "Quyosh kuyishi va zararkunandalardan himoya",
+    "Daraxtni chiroyli bo'yash va bezash",
+    "Daraxtni tezroq o'stirish va bo'yini oshirish",
+    "Daraxtni ko'proq suv shimishga majburlash"
+   ],
+   "e": "Ohak eritmasi bilan."
+  },
+  {
+   "b": "Hosilni saqlash va issiqxona",
+   "q": "Kartoshkani saqlash uchun optimal harorat qancha?",
+   "a": [
+    "2–4 °C",
+    "15–20 °C",
+    "−5 °C",
+    "25–30 °C"
+   ],
+   "e": "Undan past bo'lsa shirinlashadi."
+  },
+  {
+   "b": "Hosilni saqlash va issiqxona",
+   "q": "Piyozni saqlash uchun qanday sharoit kerak?",
+   "a": [
+    "Quruq va salqin joy",
+    "Nam va iliq joy",
+    "Suv bilan to'ldirilgan idish",
+    "Quyoshli ochiq maydon"
+   ],
+   "e": "Nam joyda unib ketadi."
+  },
+  {
+   "b": "Hosilni saqlash va issiqxona",
+   "q": "Issiqxonada eng muhim nazorat qilinadigan omillar qaysilar?",
+   "a": [
+    "Harorat, namlik, yorug'lik, CO₂",
+    "Faqat qo'shni dalalar holati",
+    "Faqat tashqi shamol yo'nalishi",
+    "Faqat tuproq rangi va hidi"
+   ],
+   "e": "Mikroiqlim."
+  },
+  {
+   "b": "Hosilni saqlash va issiqxona",
+   "q": "Issiqxonada bodring changlanishi uchun nima qilinadi?",
+   "a": [
+    "Partenokarpik navlar yoki asalarilar qo'llanadi",
+    "Gullar qo'lda yulib tashlanadi",
+    "Issiqxona butunlay qorong'ilantiriladi",
+    "Sug'orish butunlay to'xtatiladi"
+   ],
+   "e": "Partenokarpik duragaylar ko'p."
+  },
+  {
+   "b": "Hosilni saqlash va issiqxona",
+   "q": "Tomchilatib sug'orishda o'g'itni suv bilan berishning afzalligi nima?",
+   "a": [
+    "O'g'it ildizga aniq va tejamli yetadi",
+    "O'g'it sarfi bir necha baravar ortadi",
+    "O'g'it tuproq yuzasida to'planib qoladi",
+    "O'g'it o'simlikka umuman yetib bormaydi"
+   ],
+   "e": "Fertigatsiya."
+  },
+  {
+   "b": "Hosilni saqlash va issiqxona",
+   "q": "Issiqxonada qo'shimcha yoritish qachon zarur?",
+   "a": [
+    "Qishda yorug' kun qisqa bo'lganda",
+    "Yozning eng uzun kunlarida",
+    "Faqat tunda hosil terilganda",
+    "Hech qachon zarur emas"
+   ],
+   "e": "Fitolampalar."
+  },
+  {
+   "b": "Hosilni saqlash va issiqxona",
+   "q": "Gidroponikada o'simlik ildizi qayerda bo'ladi?",
+   "a": [
+    "Ozuqa eritmasi yoki substratda",
+    "Faqat qora tuproqda",
+    "Faqat qumli cho'lda",
+    "Faqat havoda, oziqsiz"
+   ],
+   "e": "Tuproqsiz texnologiya."
+  },
+  {
+   "b": "Tuproq unumdorligi va o'g'itlash",
+   "q": "Asosiy o'g'itlash qachon o'tkaziladi?",
+   "a": [
+    "Shudgordan oldin yoki u bilan birga",
+    "Faqat hosil yig'ilgandan keyin qishda",
+    "Faqat o'simlik gullab turganda",
+    "Faqat urug' unib chiqqandan bir oy keyin"
+   ],
+   "e": "Fosfor va kaliy ko'pincha."
+  },
+  {
+   "b": "Tuproq unumdorligi va o'g'itlash",
+   "q": "Oziqlantirish nima?",
+   "a": [
+    "Vegetatsiya davrida qo'shimcha o'g'it berish",
+    "Ekishdan oldin urug'ni dorilash",
+    "Hosilni omborga joylash",
+    "Tuproqni chuqur haydash"
+   ],
+   "e": "Asosan azotli o'g'it."
+  },
+  {
+   "b": "Tuproq unumdorligi va o'g'itlash",
+   "q": "Ammiakli selitrada azot miqdori qancha?",
+   "a": [
+    "34–35%",
+    "46%",
+    "10–12%",
+    "70%"
+   ],
+   "e": "NH₄NO₃."
+  },
+  {
+   "b": "Tuproq unumdorligi va o'g'itlash",
+   "q": "Karbamidda azot miqdori qancha?",
+   "a": [
+    "46%",
+    "21%",
+    "34%",
+    "15%"
+   ],
+   "e": "Eng konsentrlangan qattiq azotli o'g'it."
+  },
+  {
+   "b": "Tuproq unumdorligi va o'g'itlash",
+   "q": "Ammofos qanday o'g'it?",
+   "a": [
+    "Azot-fosforli murakkab o'g'it",
+    "Faqat kaliyli o'g'it",
+    "Faqat organik o'g'it",
+    "Faqat mikroo'g'it"
+   ],
+   "e": "NP."
+  },
+  {
+   "b": "Tuproq unumdorligi va o'g'itlash",
+   "q": "Go'ngni qanday holda solish yaxshiroq?",
+   "a": [
+    "Chirigan holda",
+    "Yangi, ko'p begona o't urug'i bilan",
+    "Kuydirilgan kul holida",
+    "Suvda to'liq eritilgan holda"
+   ],
+   "e": "Begona o't urug'lari kamayadi."
+  },
+  {
+   "b": "Tuproq unumdorligi va o'g'itlash",
+   "q": "Tuproq agrokimyoviy tahlili nima uchun o'tkaziladi?",
+   "a": [
+    "O'g'it me'yorini aniqlash uchun",
+    "Tuproq rangini o'zgartirish uchun",
+    "Dalani sotish narxini belgilash uchun",
+    "Sug'orishni to'xtatish uchun"
+   ],
+   "e": "NPK, gumus, pH."
+  },
+  {
+   "b": "Tuproq unumdorligi va o'g'itlash",
+   "q": "Bonitet balli nimani ko'rsatadi?",
+   "a": [
+    "Tuproq sifati bahosini",
+    "Dalaning maydonini",
+    "Ekin navining narxini",
+    "Sug'orish suvining tezligini"
+   ],
+   "e": "100 ballik tizim."
+  },
+  {
+   "b": "Tuproq unumdorligi va o'g'itlash",
+   "q": "Biogumus qanday olinadi?",
+   "a": [
+    "Yomg'ir chuvalchanglari yordamida",
+    "Kimyoviy zavodda sintez qilib",
+    "Tog' jinslarini maydalab",
+    "Neft mahsulotlarini qayta ishlab"
+   ],
+   "e": "Vermikompost."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Bug'doyning qaysi turi non yopish uchun asosiy hisoblanadi?",
+   "a": [
+    "Yumshoq bug'doy (Triticum aestivum)",
+    "Qattiq bug'doy (Triticum durum), makaron uchun",
+    "Tritikale, bug'doy va javdar duragayi",
+    "Spelta, po'stli qadimiy bug'doy turi"
+   ],
+   "e": "Kleykovinasi yaxshi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Don ekinlarining yotib qolishiga asosiy sabab nima?",
+   "a": [
+    "Ortiqcha azot va qalin ekish",
+    "Fosforli o'g'itning me'yorida berilishi",
+    "Siyrak ekish va kam sug'orish",
+    "Kaliyli o'g'itning ko'p berilishi"
+   ],
+   "e": "Poya mustahkamligi pasayadi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Kuzgi g'allani bahorda azot bilan oziqlantirish qaysi fazada muhim?",
+   "a": [
+    "Tuplanish – naychalash",
+    "Faqat to'liq pishish fazasida",
+    "Faqat hosil yig'ilgandan keyin",
+    "Faqat urug' ekilgan kuni"
+   ],
+   "e": "Hosil elementlari shakllanadi."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Makkajo'xori doni qaysi rangda bo'lishi mumkin?",
+   "a": [
+    "Sariq, oq, qizil va boshqa rangda",
+    "Faqat qora rangda bo'ladi, boshqa rang uchramaydi",
+    "Faqat yashil rangda, pishganda ham o'zgarmaydi",
+    "Faqat ko'k rangda bo'lib, boshqa navlar yo'q"
+   ],
+   "e": "Nav xususiyati."
+  },
+  {
+   "b": "Don ekinlari",
+   "q": "Sholi ko'chati qaysi usulda ham ekilishi mumkin?",
+   "a": [
+    "Ko'chat o'tqazish (ko'chatdan)",
+    "Faqat payvand usulida, yovvoyi tagga",
+    "Faqat yer osti tugunagidan ko'paytirib",
+    "Faqat poya qalamchasidan undirib"
+   ],
+   "e": "Osiyo mamlakatlarida keng."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zada ko'saklar to'kilishining sabablari qaysilar?",
+   "a": [
+    "Suv va oziq tanqisligi, yuqori harorat",
+    "Me'yorida sug'orish va o'z vaqtida o'g'itlash",
+    "Optimal harorat va yetarli yorug'lik",
+    "Zararkunanda va kasalliklarning to'liq yo'qligi"
+   ],
+   "e": "Fiziologik to'kilish."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'za qatqalog'ini buzish nima uchun muhim?",
+   "a": [
+    "Nihollar erkin unib chiqishi uchun",
+    "Tuproqdan namlikni tezroq chiqarish uchun",
+    "Chigitni tuproqqa chuqurroq ko'mish uchun",
+    "Begona o'tlarni ko'paytirish uchun"
+   ],
+   "e": "Yomg'irdan keyin."
+  },
+  {
+   "b": "G'o'za",
+   "q": "Paxta terimi qaysi usullarda olib boriladi?",
+   "a": [
+    "Qo'lda va paxta terish mashinasida",
+    "Faqat kombayn bilan don kabi o'rib",
+    "Faqat silos kombaynida maydalab",
+    "Faqat pichan o'roq mashinasida"
+   ],
+   "e": "Mashina terimidan oldin defoliatsiya."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'za yagonalash nima?",
+   "a": [
+    "Ortiqcha nihollarni olib, ko'chat qalinligini belgilash",
+    "Barcha nihollarni butunlay yulib, dalani bo'shatish",
+    "Chigitni qayta, ikkinchi marta ekib chiqish",
+    "G'o'za barglarini qirqib, kamaytirib tashlash"
+   ],
+   "e": "Bir uyada 1–2 o'simlik."
+  },
+  {
+   "b": "G'o'za",
+   "q": "G'o'zaning ko'chat qalinligi qanday ifodalanadi?",
+   "a": [
+    "Gektaridagi tup soni (ming tup/ga)",
+    "Bir gektardagi ko'saklarning umumiy og'irligi",
+    "Bir tupdagi barglar va shoxlarning soni",
+    "Bir ko'sakdagi chigitlarning soni"
+   ],
+   "e": "Masalan, 90–120 ming/ga."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Kungaboqarning asosiy zararkunanda-paraziti qaysi?",
+   "a": [
+    "Shumg'iya (parazit o'simlik)",
+    "Kolorado qo'ng'izi va uning lichinkalari",
+    "Ko'sak qurti (paxta tunlami)",
+    "Don qandalasi (zararli xasva)"
+   ],
+   "e": "Chidamli navlar ekiladi."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Soya qanday kun o'simligi?",
+   "a": [
+    "Qisqa kun o'simligi",
+    "Uzun kun o'simligi",
+    "Kun uzunligiga butunlay befarq",
+    "Faqat qorong'ida gullaydigan"
+   ],
+   "e": "Fotoperiodizm."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Qand lavlagining hosil shakllanishiga qaysi o'g'it ayniqsa muhim?",
+   "a": [
+    "Kaliyli va borli o'g'itlar",
+    "Faqat mis kuporosi va temir sulfat",
+    "Faqat ohak (kalsiy karbonat)",
+    "Faqat gips (kalsiy sulfat)"
+   ],
+   "e": "Shakar to'planishi."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Kunjara nima?",
+   "a": [
+    "Moy olingandan keyingi qoldiq",
+    "Pishmagan va maydalangan don massasi",
+    "Quritilgan va presslangan beda pichani",
+    "Maydalangan bug'doy somoni"
+   ],
+   "e": "Oqsilga boy yem."
+  },
+  {
+   "b": "Dukkakli, moyli va texnik ekinlar",
+   "q": "Loviya qaysi oilaga kiradi?",
+   "a": [
+    "Dukkakdoshlar",
+    "Ituzumdoshlar",
+    "Qovoqdoshlar",
+    "Bug'doydoshlar"
+   ],
+   "e": "Oqsilga boy."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Kartoshkani tuplash (chopiq qilib tuproq tortish) nima uchun kerak?",
+   "a": [
+    "Tugunaklar ko'payishi va ko'karmasligi uchun",
+    "Tugunaklarni tuproq yuziga chiqarib olish uchun",
+    "Barglarni tezroq quritib, hosilni tezlashtirish uchun",
+    "Ildizlarni kesib, o'simlik bo'yini pasaytirish uchun"
+   ],
+   "e": "Stolonlar ko'payadi."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Ertagi kartoshka O'zbekistonda qachon ekiladi?",
+   "a": [
+    "Fevral oxiri – mart",
+    "Iyul – avgust (yoz o'rtasi)",
+    "Oktyabr – noyabr (kuz oxiri)",
+    "Dekabr – yanvar (qish o'rtasi)"
+   ],
+   "e": "Takroriy ekin iyulda."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Sabzavot ekinlari iste'mol qilinadigan qismiga ko'ra qanday guruhlanadi?",
+   "a": [
+    "Ildizmevali, bargli, mevali, piyozli va boshqalar",
+    "Faqat don va dukkakli ekinlar guruhlari",
+    "Faqat tolali va moyli texnik ekinlar guruhlari",
+    "Faqat daraxtsimon va butasimon o'simliklar guruhlari"
+   ],
+   "e": "Qishloq xo'jaligi tasnifi."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Pomidorni chilpish va bachkilash nima uchun qilinadi?",
+   "a": [
+    "Meva hosiliga oziqni yo'naltirish uchun",
+    "O'simlikni tezroq qurib qolishiga erishish uchun",
+    "Gullashni butunlay to'xtatib qo'yish uchun",
+    "Barglar sonini ikki baravar ko'paytirish uchun"
+   ],
+   "e": "Yon novdalar olib tashlanadi."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Qovunning kechpishar navlari qanday xususiyatga ega?",
+   "a": [
+    "Uzoq saqlanadi",
+    "Tez buziladi va saqlanmaydi",
+    "Faqat yashil holda iste'mol qilinadi",
+    "Faqat urug' uchun ekiladi"
+   ],
+   "e": "Qishki navlar."
+  },
+  {
+   "b": "Kartoshka, sabzavot va poliz ekinlari",
+   "q": "Bodringni qaysi sharoit yaxshi o'stiradi?",
+   "a": [
+    "Iliqlik va yuqori namlik",
+    "Sovuq va quruq havo",
+    "Sho'r va qumli tuproq",
+    "Qattiq qishki sovuqlar"
+   ],
+   "e": "Issiqsevar."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Silosga yaxshi tushadigan ekin qaysi?",
+   "a": [
+    "Makkajo'xori",
+    "G'o'za",
+    "Kanop",
+    "Zig'ir"
+   ],
+   "e": "Qand moddasi ko'p."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Bedaning urug'i qanday o'simlikdan olinadi?",
+   "a": [
+    "Urug'likka qoldirilgan o'rimdan",
+    "Faqat birinchi o'rim oldidan yulingan bedadan",
+    "Faqat qishda tuproqqa ko'milgan bedadan",
+    "Faqat suv bostirilgan cheklardagi bedadan"
+   ],
+   "e": "Changlatuvchi hasharotlar muhim."
+  },
+  {
+   "b": "Ozuqa ekinlari",
+   "q": "Pichanning sifatini nima pasaytiradi?",
+   "a": [
+    "Yomg'irda qolishi va kech o'rilishi",
+    "O'z vaqtida o'rilib, tez quritilishi",
+    "Soyada asta-sekin so'litilishi",
+    "Tez to'planib, presslanib qo'yilishi"
+   ],
+   "e": "Oziq moddalar yuviladi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Minimal ishlov berish (No-till) nima?",
+   "a": [
+    "Tuproqni haydamasdan to'g'ridan-to'g'ri ekish",
+    "Tuproqni yiliga uch marta chuqur haydash",
+    "Faqat qo'lda ketmon bilan ishlov berish",
+    "Tuproqni o't qo'yib, yondirib tozalash"
+   ],
+   "e": "Eroziyani kamaytiradi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Urug'larni ekishdan oldin dorilashning maqsadi nima?",
+   "a": [
+    "Kasallik va zararkunandalardan himoya",
+    "Urug'ni og'irlashtirib, chuqur ekish",
+    "Urug'ning rangini o'zgartirib, navni ajratish",
+    "Urug'ning unuvchanligini kamaytirish"
+   ],
+   "e": "Fungitsid, insektitsid."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Seyalka nima?",
+   "a": [
+    "Urug' ekish mashinasi",
+    "Hosil yig'ish mashinasi",
+    "Tuproq haydash quroli",
+    "Pichan presslash mashinasi"
+   ],
+   "e": "Qatorlab ekadi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Kultivator nima uchun ishlatiladi?",
+   "a": [
+    "Tuproqni yumshatish va begona o'tlarni yo'qotish",
+    "Pishgan donni yanchish va tozalash",
+    "Ochilgan paxtani terib olish",
+    "Quritilgan pichanni presslash"
+   ],
+   "e": "Yuza ishlov."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Shamol eroziyasiga qarshi qanday chora ko'riladi?",
+   "a": [
+    "Ihota daraxtzorlari barpo etish",
+    "Daraxtlarni kesib tashlash",
+    "Tuproqni chang holiga keltirish",
+    "O'simlik qoplamini yo'qotish"
+   ],
+   "e": "Shamol tezligi pasayadi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Suv eroziyasiga qarshi qiyaliklarda qanday ishlov beriladi?",
+   "a": [
+    "Qiyalikka ko'ndalang haydash",
+    "Qiyalik bo'ylab tik haydash",
+    "Qiyalikni butunlay ochiq qoldirish",
+    "Qiyalikka ko'proq suv quyish"
+   ],
+   "e": "Oqim sekinlashadi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Fungitsidga misol qaysi?",
+   "a": [
+    "Bordo suyuqligi",
+    "Karbamid",
+    "Superfosfat",
+    "Ammiakli selitra"
+   ],
+   "e": "Mis kuporosi + ohak."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Biologik himoya usuli nima?",
+   "a": [
+    "Foydali organizmlardan foydalanish",
+    "Faqat zaharli kimyoviy moddalarni sepish",
+    "Faqat dalani yondirish",
+    "Faqat suv bostirish"
+   ],
+   "e": "Entomofaglar, biopreparatlar."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Kemiruvchilarga qarshi vositalar qanday nomlanadi?",
+   "a": [
+    "Rodentitsidlar",
+    "Gerbitsidlar",
+    "Fungitsidlar",
+    "Akaritsidlar"
+   ],
+   "e": "Sichqon, kalamushlarga qarshi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "O'simliklarning virusli kasalliklarini asosan nima tarqatadi?",
+   "a": [
+    "So'ruvchi hasharotlar (shira, oqqanot)",
+    "Faqat tuproqdagi yomg'ir chuvalchanglari",
+    "Faqat donxo'r qushlar",
+    "Faqat shamol bilan uchgan chang"
+   ],
+   "e": "Vektorlar."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Oqqanot (belokrilka) qayerda ko'p uchraydi?",
+   "a": [
+    "Issiqxonalarda",
+    "Faqat qorli tog'larda",
+    "Faqat cho'l qumlarida",
+    "Faqat suv ostida"
+   ],
+   "e": "Sabzavotlarni zararlaydi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Simqurt qaysi hasharotning lichinkasi?",
+   "a": [
+    "Chertmakli qo'ng'izning",
+    "Kapalakning",
+    "Chigirtkaning",
+    "Pashshaning"
+   ],
+   "e": "Ildiz va tugunaklarni zararlaydi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Kuzgi tunlam qanday zarar keltiradi?",
+   "a": [
+    "Qurtlari nihollarni ildiz bo'g'zidan kesadi",
+    "Faqat pishgan mevalarni teshib kiradi",
+    "Faqat barg shirasini so'rib oladi",
+    "Faqat omborda saqlanayotgan donni yeydi"
+   ],
+   "e": "Ko'p ekinlarni zararlaydi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Begona o'tlarga qarshi agrotexnik usul qaysi?",
+   "a": [
+    "Qatorlararo ishlov va to'g'ri almashlab ekish",
+    "Faqat gerbitsidlarni ko'p miqdorda sepish",
+    "Faqat dalani o't qo'yib yoqib yuborish",
+    "Hech qanday chora ko'rmaslik"
+   ],
+   "e": "Profilaktik usul."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "Pestitsid qoldiqlari uchun me'yoriy ko'rsatkich qanday nomlanadi?",
+   "a": [
+    "Ruxsat etilgan qoldiq miqdori (REQM)",
+    "Bonitet balli",
+    "Don naturasi",
+    "Transpiratsiya koeffitsiyenti"
+   ],
+   "e": "Oziq-ovqat xavfsizligi."
+  },
+  {
+   "b": "O'simliklarni himoya qilish",
+   "q": "G'alla omborlarida qaysi zararkunanda uchraydi?",
+   "a": [
+    "Don uzunburuni (omborxo'r)",
+    "Kolorado qo'ng'izi",
+    "Ko'sak qurti",
+    "O'rgimchakkana"
+   ],
+   "e": "Fumigatsiya qilinadi."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Mevali daraxtlarni ekish uchun eng qulay muddat qaysi?",
+   "a": [
+    "Erta bahor yoki kuz (tinim davri)",
+    "Yozning eng issiq oyi (iyul)",
+    "Gullash fazasining o'rtasi",
+    "Mevalar pishib yetilgan payt"
+   ],
+   "e": "Ko'chat tinim holatida."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Uzum ishkomining vazifasi nima?",
+   "a": [
+    "Tokni tayanchda ushlab, shakllantirish",
+    "Uzum boshlarini quritish uchun tayanch",
+    "Tokni sug'orish uchun quvur tizimi",
+    "Uzum hosilini saqlash uchun ombor"
+   ],
+   "e": "Shpaler, so'ri."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Shaftoli qaysi guruh mevasiga kiradi?",
+   "a": [
+    "Danakli mevalar",
+    "Urug'li mevalar",
+    "Yong'oq mevalar",
+    "Sitrus mevalar"
+   ],
+   "e": "Ra'nodoshlar."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Bog'larda erta bahorgi sovuqdan himoya qilish usuli qaysi?",
+   "a": [
+    "Tutatish va yomg'irlatib sug'orish",
+    "Daraxtlarni tagidan kesib tashlash",
+    "Gullagan shoxlardagi barglarni yulish",
+    "Ildizlarni ochib, sovuqqa qo'yish"
+   ],
+   "e": "Gullash davrida."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Quritilgan o'rik qanday nomlanadi?",
+   "a": [
+    "Turshak (danakli) yoki qaysi",
+    "Mayiz",
+    "Kishmish",
+    "Jiyda"
+   ],
+   "e": "Mayiz — quritilgan uzum."
+  },
+  {
+   "b": "Mevachilik va uzumchilik",
+   "q": "Mayiz nimadan tayyorlanadi?",
+   "a": [
+    "Uzumdan",
+    "O'rikdan",
+    "Olxo'ridan",
+    "Anjirdan"
+   ],
+   "e": "Quritish."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Ekinning vegetatsiya davri nima?",
+   "a": [
+    "Unib chiqishdan pishishgacha bo'lgan davr",
+    "Faqat gullash davomiyligi",
+    "Faqat hosilni saqlash muddati",
+    "Faqat urug'ni dorilash vaqti"
+   ],
+   "e": "Kunlarda o'lchanadi."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Faol haroratlar yig'indisi nima?",
+   "a": [
+    "Biologik minimumdan yuqori o'rtacha sutkalik haroratlar yig'indisi",
+    "Bir kunlik eng yuqori harorat",
+    "Qishdagi eng past harorat",
+    "Tuproqning bir martalik harorati"
+   ],
+   "e": "Ekin rayonlashtirishda."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Navlarni rayonlashtirish nima?",
+   "a": [
+    "Navni mos tuproq-iqlim hududiga joylashtirish",
+    "Navni barcha hududlarda taqiqlash",
+    "Navni faqat chet elga sotish",
+    "Navni faqat issiqxonada ekish"
+   ],
+   "e": "Davlat reyestri asosida."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Hosildorlik qanday birlikda ifodalanadi?",
+   "a": [
+    "Sentner/gektar (s/ga)",
+    "Litr/soat",
+    "Metr/sekund",
+    "Kilovatt/soat"
+   ],
+   "e": "1 s = 100 kg."
+  },
+  {
+   "b": "Agrotexnika va urug'chilik",
+   "q": "Hosil strukturasi tahlili nimani o'z ichiga oladi?",
+   "a": [
+    "Tup soni, boshoq/ko'sak soni, don vazni",
+    "Faqat dala maydoni",
+    "Faqat traktor soni",
+    "Faqat ishchilar soni"
+   ],
+   "e": "Hosil elementlari."
+  }
+ ]
+}
