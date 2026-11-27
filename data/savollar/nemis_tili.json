@@ -1,0 +1,3320 @@
+{
+ "kod": "",
+ "nomi": "Nemis tili",
+ "turi": "umumiy",
+ "manba": "Nemis tili grammatikasi (Duden, Helbig–Buscha), CEFR A1–B2 darajalari, O'zbekiston DTS va chet tili o'qitish metodikasi",
+ "savollar": [
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welcher Artikel ist richtig? ___ Mädchen spielt im Garten.",
+   "a": [
+    "Das",
+    "Die",
+    "Der",
+    "Den"
+   ],
+   "e": "Verkleinerungsform auf -chen ist immer neutral."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welcher Artikel passt? ___ Zeitung liegt auf dem Tisch.",
+   "a": [
+    "Die",
+    "Der",
+    "Das",
+    "Dem"
+   ],
+   "e": "Nomen auf -ung sind feminin."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welches Nomen ist maskulin?",
+   "a": [
+    "Montag",
+    "Freiheit",
+    "Häuschen",
+    "Universität"
+   ],
+   "e": "Wochentage sind maskulin."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welches Nomen ist feminin?",
+   "a": [
+    "Freundschaft",
+    "Fräulein",
+    "Frühling",
+    "Zentrum"
+   ],
+   "e": "-schaft ist feminin."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welches Nomen ist neutral?",
+   "a": [
+    "Museum",
+    "Lehrer",
+    "Wohnung",
+    "Gesundheit"
+   ],
+   "e": "Fremdwörter auf -um sind meist neutral."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welcher Artikel gehört zu „Gesellschaft“?",
+   "a": [
+    "die",
+    "der",
+    "das",
+    "den"
+   ],
+   "e": "-schaft → feminin."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welcher Artikel gehört zu „Frühling“?",
+   "a": [
+    "der",
+    "die",
+    "das",
+    "dem"
+   ],
+   "e": "Jahreszeiten sind maskulin."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Wie lautet der Plural von „das Buch“?",
+   "a": [
+    "die Bücher",
+    "die Buchen",
+    "die Buchs",
+    "die Büche"
+   ],
+   "e": "Umlaut + -er."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Wie lautet der Plural von „die Frau“?",
+   "a": [
+    "die Frauen",
+    "die Fraue",
+    "die Fräuer",
+    "die Fraus"
+   ],
+   "e": "Feminine Nomen oft -(e)n."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Wie lautet der Plural von „das Auto“?",
+   "a": [
+    "die Autos",
+    "die Autoen",
+    "die Auter",
+    "die Äuto"
+   ],
+   "e": "Wörter auf Vokal (Fremdwörter) oft -s."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Wie lautet der Plural von „der Tisch“?",
+   "a": [
+    "die Tische",
+    "die Tischen",
+    "die Tischer",
+    "die Tischs"
+   ],
+   "e": "Plural mit -e."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Wie lautet der Plural von „der Lehrer“?",
+   "a": [
+    "die Lehrer",
+    "die Lehrers",
+    "die Lehreren",
+    "die Lehrern"
+   ],
+   "e": "Maskuline Nomen auf -er bleiben unverändert."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welches Wort ist ein Kompositum mit dem richtigen Artikel?",
+   "a": [
+    "die Haustür",
+    "der Haustür",
+    "das Haustür",
+    "den Haustür"
+   ],
+   "e": "Das Grundwort (die Tür) bestimmt den Artikel."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welcher Artikel ist bei „Kindergarten“ richtig?",
+   "a": [
+    "der",
+    "die",
+    "das",
+    "den"
+   ],
+   "e": "Grundwort „der Garten“."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Welches Nomen gehört zur n-Deklination?",
+   "a": [
+    "der Student",
+    "der Tisch",
+    "der Vater",
+    "der Stuhl"
+   ],
+   "e": "Akk./Dat./Gen.: den/dem/des Studenten."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Ergänzen Sie: Ich kenne den ___ nicht.",
+   "a": [
+    "Studenten",
+    "Student",
+    "Students",
+    "Studente"
+   ],
+   "e": "n-Deklination im Akkusativ."
+  },
+  {
+   "b": "Artikel und Nomen",
+   "q": "Ergänzen Sie: Wir sprechen mit dem ___.",
+   "a": [
+    "Kollegen",
+    "Kollege",
+    "Kollegs",
+    "Kolleges"
+   ],
+   "e": "n-Deklination im Dativ."
+  },
+  {
+   "b": "Kasus",
+   "q": "Wie viele Kasus gibt es im Deutschen?",
+   "a": [
+    "Vier",
+    "Drei",
+    "Fünf",
+    "Sechs"
+   ],
+   "e": "Nominativ, Akkusativ, Dativ, Genitiv."
+  },
+  {
+   "b": "Kasus",
+   "q": "Auf welche Frage antwortet der Akkusativ?",
+   "a": [
+    "Wen? Was?",
+    "Wem?",
+    "Wessen?",
+    "Wer?"
+   ],
+   "e": "Direktes Objekt."
+  },
+  {
+   "b": "Kasus",
+   "q": "Auf welche Frage antwortet der Dativ?",
+   "a": [
+    "Wem?",
+    "Wen?",
+    "Wessen?",
+    "Wer? Was?"
+   ],
+   "e": "Indirektes Objekt."
+  },
+  {
+   "b": "Kasus",
+   "q": "Auf welche Frage antwortet der Genitiv?",
+   "a": [
+    "Wessen?",
+    "Wem?",
+    "Wen?",
+    "Wo?"
+   ],
+   "e": "Besitz."
+  },
+  {
+   "b": "Kasus",
+   "q": "Ergänzen Sie: Ich sehe ___ Mann.",
+   "a": [
+    "den",
+    "der",
+    "dem",
+    "des"
+   ],
+   "e": "sehen + Akkusativ, maskulin."
+  },
+  {
+   "b": "Kasus",
+   "q": "Ergänzen Sie: Ich helfe ___ Frau.",
+   "a": [
+    "der",
+    "die",
+    "den",
+    "das"
+   ],
+   "e": "helfen + Dativ, feminin."
+  },
+  {
+   "b": "Kasus",
+   "q": "Ergänzen Sie: Er gibt ___ Kind einen Ball.",
+   "a": [
+    "dem",
+    "das",
+    "den",
+    "der"
+   ],
+   "e": "Dativ neutral."
+  },
+  {
+   "b": "Kasus",
+   "q": "Ergänzen Sie: Das ist das Auto ___ Vaters.",
+   "a": [
+    "des",
+    "dem",
+    "den",
+    "der"
+   ],
+   "e": "Genitiv maskulin."
+  },
+  {
+   "b": "Kasus",
+   "q": "Welches Verb verlangt den Dativ?",
+   "a": [
+    "danken",
+    "sehen",
+    "lieben",
+    "kaufen"
+   ],
+   "e": "Ich danke dir."
+  },
+  {
+   "b": "Kasus",
+   "q": "Welches Verb verlangt den Akkusativ?",
+   "a": [
+    "besuchen",
+    "helfen",
+    "gefallen",
+    "gehören"
+   ],
+   "e": "Ich besuche meinen Freund."
+  },
+  {
+   "b": "Kasus",
+   "q": "Ergänzen Sie: Das Buch gehört ___.",
+   "a": [
+    "mir",
+    "mich",
+    "ich",
+    "mein"
+   ],
+   "e": "gehören + Dativ."
+  },
+  {
+   "b": "Kasus",
+   "q": "Ergänzen Sie: Kannst du ___ morgen anrufen?",
+   "a": [
+    "mich",
+    "mir",
+    "ich",
+    "meiner"
+   ],
+   "e": "anrufen + Akkusativ."
+  },
+  {
+   "b": "Kasus",
+   "q": "Ergänzen Sie: Wie geht es ___?",
+   "a": [
+    "Ihnen",
+    "Sie",
+    "Ihr",
+    "Ihre"
+   ],
+   "e": "Es geht + Dativ."
+  },
+  {
+   "b": "Kasus",
+   "q": "Ergänzen Sie: Ich habe ___ Bruder und zwei Schwestern.",
+   "a": [
+    "einen",
+    "ein",
+    "einem",
+    "einer"
+   ],
+   "e": "haben + Akkusativ, maskulin."
+  },
+  {
+   "b": "Kasus",
+   "q": "Ergänzen Sie: Wir wohnen in ___ kleinen Stadt.",
+   "a": [
+    "einer",
+    "eine",
+    "einem",
+    "einen"
+   ],
+   "e": "Wo? → Dativ, feminin."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Welche Präposition steht immer mit dem Dativ?",
+   "a": [
+    "mit",
+    "für",
+    "durch",
+    "ohne"
+   ],
+   "e": "aus, bei, mit, nach, seit, von, zu."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Welche Präposition steht immer mit dem Akkusativ?",
+   "a": [
+    "für",
+    "aus",
+    "bei",
+    "seit"
+   ],
+   "e": "durch, für, gegen, ohne, um."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Welche Präposition ist eine Wechselpräposition?",
+   "a": [
+    "auf",
+    "mit",
+    "ohne",
+    "seit"
+   ],
+   "e": "an, auf, hinter, in, neben, über, unter, vor, zwischen."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Ich lege das Buch auf ___ Tisch.",
+   "a": [
+    "den",
+    "dem",
+    "der",
+    "des"
+   ],
+   "e": "Wohin? → Akkusativ."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Das Buch liegt auf ___ Tisch.",
+   "a": [
+    "dem",
+    "den",
+    "der",
+    "das"
+   ],
+   "e": "Wo? → Dativ."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Ich fahre morgen ___ Berlin.",
+   "a": [
+    "nach",
+    "zu",
+    "in",
+    "bei"
+   ],
+   "e": "Städte ohne Artikel → nach."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Ich gehe heute ___ Arzt.",
+   "a": [
+    "zum",
+    "nach",
+    "ins",
+    "beim"
+   ],
+   "e": "Zu Personen → zu (zum = zu dem)."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Er kommt ___ Usbekistan.",
+   "a": [
+    "aus",
+    "von",
+    "nach",
+    "bei"
+   ],
+   "e": "Herkunft: aus + Land."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Ich lerne ___ zwei Jahren Deutsch.",
+   "a": [
+    "seit",
+    "vor",
+    "für",
+    "ab"
+   ],
+   "e": "Andauernde Handlung → seit."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Der Unterricht beginnt ___ 8 Uhr.",
+   "a": [
+    "um",
+    "am",
+    "im",
+    "zu"
+   ],
+   "e": "Uhrzeit → um."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Wir haben ___ Montag frei.",
+   "a": [
+    "am",
+    "um",
+    "im",
+    "in"
+   ],
+   "e": "Tage → am."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: ___ Sommer fahren wir ans Meer.",
+   "a": [
+    "Im",
+    "Am",
+    "Um",
+    "Zum"
+   ],
+   "e": "Jahreszeiten, Monate → im."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Welche Präposition verlangt den Genitiv?",
+   "a": [
+    "wegen",
+    "mit",
+    "für",
+    "gegen"
+   ],
+   "e": "wegen, trotz, während, statt."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: ___ des schlechten Wetters bleiben wir zu Hause.",
+   "a": [
+    "Wegen",
+    "Mit",
+    "Für",
+    "Ohne"
+   ],
+   "e": "Grund → wegen + Genitiv."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Ich warte ___ den Bus.",
+   "a": [
+    "auf",
+    "für",
+    "an",
+    "nach"
+   ],
+   "e": "warten auf + Akkusativ."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Sie interessiert sich ___ Musik.",
+   "a": [
+    "für",
+    "an",
+    "über",
+    "mit"
+   ],
+   "e": "sich interessieren für."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Ich denke oft ___ meine Eltern.",
+   "a": [
+    "an",
+    "über",
+    "auf",
+    "von"
+   ],
+   "e": "denken an + Akkusativ."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Er hat Angst ___ Hunden.",
+   "a": [
+    "vor",
+    "von",
+    "für",
+    "über"
+   ],
+   "e": "Angst vor + Dativ."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Wir freuen uns ___ die Ferien (die kommen).",
+   "a": [
+    "auf",
+    "über",
+    "an",
+    "für"
+   ],
+   "e": "sich freuen auf — Zukunft; über — Gegenwart/Vergangenheit."
+  },
+  {
+   "b": "Präpositionen",
+   "q": "Ergänzen Sie: Sie träumt ___ einer Reise nach Deutschland.",
+   "a": [
+    "von",
+    "über",
+    "an",
+    "auf"
+   ],
+   "e": "träumen von + Dativ."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie: Du ___ sehr gut Deutsch.",
+   "a": [
+    "sprichst",
+    "sprechst",
+    "sprecht",
+    "spricht"
+   ],
+   "e": "Vokalwechsel e → i: du sprichst."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie: Er ___ jeden Morgen Zeitung.",
+   "a": [
+    "liest",
+    "lest",
+    "lesst",
+    "liesst"
+   ],
+   "e": "lesen: er liest."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie: ___ du heute Abend Zeit?",
+   "a": [
+    "Hast",
+    "Habst",
+    "Hat",
+    "Habe"
+   ],
+   "e": "haben: du hast."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie: Wir ___ Studenten.",
+   "a": [
+    "sind",
+    "seid",
+    "sein",
+    "ist"
+   ],
+   "e": "sein: wir sind."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie: Ihr ___ zu spät.",
+   "a": [
+    "seid",
+    "sind",
+    "seit",
+    "bist"
+   ],
+   "e": "ihr seid (Verb); „seit“ ist Präposition."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie: Der Zug ___ um 9 Uhr ab.",
+   "a": [
+    "fährt",
+    "fahrt",
+    "fahren",
+    "fährst"
+   ],
+   "e": "fahren: er fährt; abfahren — trennbar."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welche Form ist das Präteritum von „gehen“ (er)?",
+   "a": [
+    "ging",
+    "gang",
+    "geht",
+    "gegangen"
+   ],
+   "e": "gehen – ging – gegangen."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welche Form ist das Partizip II von „schreiben“?",
+   "a": [
+    "geschrieben",
+    "geschreibt",
+    "geschriebt",
+    "schrieb"
+   ],
+   "e": "schreiben – schrieb – geschrieben."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welche Form ist das Partizip II von „bringen“?",
+   "a": [
+    "gebracht",
+    "gebringt",
+    "gebrungen",
+    "bracht"
+   ],
+   "e": "Gemischtes Verb."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welche Form ist das Präteritum von „sein“ (ich)?",
+   "a": [
+    "war",
+    "bin",
+    "wurde",
+    "gewesen"
+   ],
+   "e": "sein – war – gewesen."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Mit welchem Hilfsverb bildet „fahren“ (Ortswechsel) das Perfekt?",
+   "a": [
+    "sein",
+    "haben",
+    "werden",
+    "können"
+   ],
+   "e": "Ich bin nach Berlin gefahren."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Mit welchem Hilfsverb bildet „arbeiten“ das Perfekt?",
+   "a": [
+    "haben",
+    "sein",
+    "werden",
+    "lassen"
+   ],
+   "e": "Ich habe gearbeitet."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie: Gestern ___ ich ins Kino gegangen.",
+   "a": [
+    "bin",
+    "habe",
+    "war",
+    "wurde"
+   ],
+   "e": "gehen → sein."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie: Wir ___ gestern lange geschlafen.",
+   "a": [
+    "haben",
+    "sind",
+    "hatten geschlafen",
+    "werden"
+   ],
+   "e": "schlafen → haben."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie: Das Kind ___ schnell eingeschlafen.",
+   "a": [
+    "ist",
+    "hat",
+    "wird",
+    "habe"
+   ],
+   "e": "Zustandsänderung → sein."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welches Partizip II ist richtig für „studieren“?",
+   "a": [
+    "studiert",
+    "gestudiert",
+    "studieret",
+    "gestudieren"
+   ],
+   "e": "Verben auf -ieren ohne ge-."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welches Partizip II ist richtig für „besuchen“?",
+   "a": [
+    "besucht",
+    "gebesucht",
+    "besuchen",
+    "gebesuchen"
+   ],
+   "e": "Untrennbares Präfix be- → ohne ge-."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welches Partizip II ist richtig für „aufstehen“?",
+   "a": [
+    "aufgestanden",
+    "geaufstanden",
+    "aufgesteht",
+    "aufstanden"
+   ],
+   "e": "Trennbar: ge- zwischen Präfix und Stamm."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welche Zeitform: „Ich hatte schon gegessen, als er kam.“",
+   "a": [
+    "Plusquamperfekt",
+    "Perfekt",
+    "Präteritum",
+    "Futur II"
+   ],
+   "e": "hatte/war + Partizip II."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welche Zeitform: „Ich werde morgen anrufen.“",
+   "a": [
+    "Futur I",
+    "Futur II",
+    "Präsens",
+    "Perfekt"
+   ],
+   "e": "werden + Infinitiv."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welche Zeitform: „Bis morgen werde ich das Buch gelesen haben.“",
+   "a": [
+    "Futur II",
+    "Futur I",
+    "Plusquamperfekt",
+    "Perfekt"
+   ],
+   "e": "werden + Partizip II + haben/sein."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Welche Zeitform wird in der gesprochenen Sprache für die Vergangenheit am häufigsten benutzt?",
+   "a": [
+    "Perfekt",
+    "Präteritum",
+    "Plusquamperfekt",
+    "Futur II"
+   ],
+   "e": "Präteritum — v. a. schriftlich (außer sein, haben, Modalverben)."
+  },
+  {
+   "b": "Verben und Zeitformen",
+   "q": "Ergänzen Sie (Präteritum): Als Kind ___ ich in Samarkand.",
+   "a": [
+    "wohnte",
+    "wohnt",
+    "gewohnt",
+    "wohnten"
+   ],
+   "e": "Regelmäßig: -te."
+  },
+  {
+   "b": "Trennbare und untrennbare Verben",
+   "q": "Welches Verb ist trennbar?",
+   "a": [
+    "anrufen",
+    "besuchen",
+    "verstehen",
+    "erzählen"
+   ],
+   "e": "an- ist trennbar."
+  },
+  {
+   "b": "Trennbare und untrennbare Verben",
+   "q": "Welches Verb ist untrennbar?",
+   "a": [
+    "verstehen",
+    "einkaufen",
+    "mitkommen",
+    "aufmachen"
+   ],
+   "e": "Präfixe be-, ge-, er-, ver-, zer-, ent-, emp-, miss- sind untrennbar."
+  },
+  {
+   "b": "Trennbare und untrennbare Verben",
+   "q": "Wo steht das trennbare Präfix im Hauptsatz (Präsens)?",
+   "a": [
+    "Am Satzende",
+    "Am Satzanfang",
+    "Vor dem Verb",
+    "Nach dem Subjekt"
+   ],
+   "e": "Ich rufe dich morgen an."
+  },
+  {
+   "b": "Trennbare und untrennbare Verben",
+   "q": "Ergänzen Sie: Ich ___ jeden Tag um 6 Uhr ___.",
+   "a": [
+    "stehe … auf",
+    "aufstehe … —",
+    "stehe … an",
+    "auf … stehe"
+   ],
+   "e": "aufstehen ist trennbar."
+  },
+  {
+   "b": "Trennbare und untrennbare Verben",
+   "q": "Ergänzen Sie: Wann ___ der Film ___?",
+   "a": [
+    "fängt … an",
+    "anfängt … —",
+    "fängt … auf",
+    "fangt … an"
+   ],
+   "e": "anfangen: er fängt an."
+  },
+  {
+   "b": "Trennbare und untrennbare Verben",
+   "q": "Bildet man „Er sagt, dass er morgen ___.“ richtig?",
+   "a": [
+    "mitkommt",
+    "kommt mit",
+    "mit kommt",
+    "kommt"
+   ],
+   "e": "Im Nebensatz wird das Präfix nicht getrennt."
+  },
+  {
+   "b": "Trennbare und untrennbare Verben",
+   "q": "Wie heißt der Infinitiv mit „zu“ von „einkaufen“?",
+   "a": [
+    "einzukaufen",
+    "zu einkaufen",
+    "einkaufen zu",
+    "zueinkaufen"
+   ],
+   "e": "zu zwischen Präfix und Stamm."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Ergänzen Sie: Ich ___ gut schwimmen.",
+   "a": [
+    "kann",
+    "könne",
+    "kannst",
+    "können"
+   ],
+   "e": "können: ich kann."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Ergänzen Sie: Du ___ hier nicht rauchen. (Verbot)",
+   "a": [
+    "darfst",
+    "musst",
+    "willst",
+    "magst"
+   ],
+   "e": "nicht dürfen = Verbot."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Ergänzen Sie: Er ___ heute arbeiten, er hat keine Wahl.",
+   "a": [
+    "muss",
+    "darf",
+    "mag",
+    "will"
+   ],
+   "e": "Notwendigkeit."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Ergänzen Sie: ___ ich das Fenster öffnen? (Erlaubnis fragen)",
+   "a": [
+    "Darf",
+    "Muss",
+    "Mag",
+    "Soll"
+   ],
+   "e": "Erlaubnis → dürfen."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Ergänzen Sie: Der Arzt sagt, ich ___ mehr Sport treiben.",
+   "a": [
+    "soll",
+    "darf",
+    "kann",
+    "mag"
+   ],
+   "e": "Rat/Auftrag einer anderen Person → sollen."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Ergänzen Sie: Was ___ du später werden?",
+   "a": [
+    "willst",
+    "wollst",
+    "will",
+    "wollt"
+   ],
+   "e": "wollen: du willst."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Welche Bedeutung hat „nicht müssen“?",
+   "a": [
+    "Es ist nicht nötig",
+    "Es ist verboten",
+    "Es ist unmöglich",
+    "Es ist erlaubt"
+   ],
+   "e": "Du musst nicht kommen = brauchst nicht."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Ergänzen Sie: Ich ___ gern einen Kaffee. (höflich)",
+   "a": [
+    "möchte",
+    "mag",
+    "will",
+    "muss"
+   ],
+   "e": "möchte — höfliche Bitte."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Wo steht der Infinitiv im Satz mit Modalverb?",
+   "a": [
+    "Am Satzende",
+    "Nach dem Subjekt",
+    "Am Satzanfang",
+    "Vor dem Modalverb"
+   ],
+   "e": "Ich kann heute nicht kommen."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Ergänzen Sie (Präteritum): Gestern ___ ich lange arbeiten.",
+   "a": [
+    "musste",
+    "müsste",
+    "muss",
+    "gemusst"
+   ],
+   "e": "Präteritum von müssen."
+  },
+  {
+   "b": "Modalverben",
+   "q": "Welche Form ist Perfekt mit Modalverb richtig?",
+   "a": [
+    "Ich habe kommen müssen.",
+    "Ich habe kommen gemusst.",
+    "Ich bin kommen müssen.",
+    "Ich habe gemusst kommen."
+   ],
+   "e": "Ersatzinfinitiv."
+  },
+  {
+   "b": "Reflexive Verben und Imperativ",
+   "q": "Ergänzen Sie: Ich wasche ___ jeden Morgen.",
+   "a": [
+    "mich",
+    "mir",
+    "sich",
+    "mein"
+   ],
+   "e": "Reflexivpronomen im Akkusativ."
+  },
+  {
+   "b": "Reflexive Verben und Imperativ",
+   "q": "Ergänzen Sie: Ich putze ___ die Zähne.",
+   "a": [
+    "mir",
+    "mich",
+    "sich",
+    "mein"
+   ],
+   "e": "Mit Akkusativobjekt → Reflexivpronomen im Dativ."
+  },
+  {
+   "b": "Reflexive Verben und Imperativ",
+   "q": "Ergänzen Sie: Er freut ___ über das Geschenk.",
+   "a": [
+    "sich",
+    "ihn",
+    "ihm",
+    "er"
+   ],
+   "e": "3. Person → sich."
+  },
+  {
+   "b": "Reflexive Verben und Imperativ",
+   "q": "Wie lautet der Imperativ von „lesen“ (du)?",
+   "a": [
+    "Lies!",
+    "Lese!",
+    "Liest!",
+    "Lesen!"
+   ],
+   "e": "e → ie auch im Imperativ."
+  },
+  {
+   "b": "Reflexive Verben und Imperativ",
+   "q": "Wie lautet der Imperativ von „sein“ (ihr)?",
+   "a": [
+    "Seid!",
+    "Sind!",
+    "Seit!",
+    "Seiet!"
+   ],
+   "e": "Seid ruhig!"
+  },
+  {
+   "b": "Reflexive Verben und Imperativ",
+   "q": "Wie lautet der Imperativ von „kommen“ (Sie)?",
+   "a": [
+    "Kommen Sie!",
+    "Kommt Sie!",
+    "Komm Sie!",
+    "Sie kommen!"
+   ],
+   "e": "Höfliche Form: Verb + Sie."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Ergänzen Sie: Das ist ein ___ Haus.",
+   "a": [
+    "schönes",
+    "schöne",
+    "schöner",
+    "schönen"
+   ],
+   "e": "Unbestimmter Artikel, Neutrum Nominativ → -es."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Ergänzen Sie: Der ___ Mann ist mein Onkel.",
+   "a": [
+    "alte",
+    "alter",
+    "alten",
+    "altes"
+   ],
+   "e": "Bestimmter Artikel, Nominativ → -e."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Ergänzen Sie: Ich kaufe einen ___ Tisch.",
+   "a": [
+    "neuen",
+    "neuer",
+    "neue",
+    "neues"
+   ],
+   "e": "Akkusativ maskulin → -en."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Ergänzen Sie: Sie trinkt gern ___ Kaffee.",
+   "a": [
+    "heißen",
+    "heißer",
+    "heiße",
+    "heißes"
+   ],
+   "e": "Ohne Artikel, Akkusativ maskulin → -en."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Ergänzen Sie: Mit ___ Freunden fahre ich in Urlaub.",
+   "a": [
+    "guten",
+    "gute",
+    "guter",
+    "gutes"
+   ],
+   "e": "Dativ Plural → -en."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Ergänzen Sie: Ich trinke ___ Wasser.",
+   "a": [
+    "kaltes",
+    "kalte",
+    "kalten",
+    "kalter"
+   ],
+   "e": "Ohne Artikel, Neutrum Akkusativ → -es."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Wie lautet der Komparativ von „gut“?",
+   "a": [
+    "besser",
+    "güter",
+    "guter",
+    "am besten"
+   ],
+   "e": "gut – besser – am besten."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Wie lautet der Superlativ von „viel“?",
+   "a": [
+    "am meisten",
+    "am vielsten",
+    "mehr",
+    "am mehrsten"
+   ],
+   "e": "viel – mehr – am meisten."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Wie lautet der Komparativ von „groß“?",
+   "a": [
+    "größer",
+    "großer",
+    "grösster",
+    "mehr groß"
+   ],
+   "e": "Umlaut: groß – größer – am größten."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Wie lautet der Komparativ von „gern“?",
+   "a": [
+    "lieber",
+    "gerner",
+    "mehr gern",
+    "am liebsten"
+   ],
+   "e": "gern – lieber – am liebsten."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Wie lautet der Superlativ von „hoch“?",
+   "a": [
+    "am höchsten",
+    "am hochsten",
+    "am höhsten",
+    "höher"
+   ],
+   "e": "hoch – höher – am höchsten."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Ergänzen Sie: Anna ist so groß ___ ihre Schwester.",
+   "a": [
+    "wie",
+    "als",
+    "dass",
+    "wenn"
+   ],
+   "e": "Gleichheit: so … wie."
+  },
+  {
+   "b": "Adjektive und Komparation",
+   "q": "Ergänzen Sie: Taschkent ist größer ___ Buchara.",
+   "a": [
+    "als",
+    "wie",
+    "so",
+    "dann"
+   ],
+   "e": "Ungleichheit: Komparativ + als."
+  },
+  {
+   "b": "Pronomen",
+   "q": "Ergänzen Sie: Das ist meine Schwester. ___ Name ist Malika.",
+   "a": [
+    "Ihr",
+    "Sein",
+    "Ihre",
+    "Seine"
+   ],
+   "e": "Possessiv „ihr“; Name ist maskulin → Ihr."
+  },
+  {
+   "b": "Pronomen",
+   "q": "Ergänzen Sie: Das ist mein Bruder. Ich liebe ___.",
+   "a": [
+    "ihn",
+    "ihm",
+    "er",
+    "sein"
+   ],
+   "e": "Akkusativ: ihn."
+  },
+  {
+   "b": "Pronomen",
+   "q": "Ergänzen Sie: Ich gebe ___ (meiner Mutter) Blumen.",
+   "a": [
+    "ihr",
+    "sie",
+    "ihnen",
+    "ihre"
+   ],
+   "e": "Dativ feminin: ihr."
+  },
+  {
+   "b": "Pronomen",
+   "q": "Ergänzen Sie: Kinder, wo sind ___ Hefte?",
+   "a": [
+    "eure",
+    "euer",
+    "ihre",
+    "deine"
+   ],
+   "e": "ihr → euer/eure."
+  },
+  {
+   "b": "Pronomen",
+   "q": "Ergänzen Sie: ___ regnet heute.",
+   "a": [
+    "Es",
+    "Er",
+    "Das",
+    "Man"
+   ],
+   "e": "Unpersönliches „es“."
+  },
+  {
+   "b": "Pronomen",
+   "q": "Ergänzen Sie: In Deutschland ___ man viel Brot.",
+   "a": [
+    "isst",
+    "essen",
+    "esst",
+    "isse"
+   ],
+   "e": "man + 3. Person Singular."
+  },
+  {
+   "b": "Pronomen",
+   "q": "Welches Wort ist ein Indefinitpronomen?",
+   "a": [
+    "jemand",
+    "dieser",
+    "mein",
+    "welcher"
+   ],
+   "e": "jemand, niemand, etwas, nichts."
+  },
+  {
+   "b": "Pronomen",
+   "q": "Ergänzen Sie: Hast du ___ gesehen? — Nein, ich habe niemanden gesehen.",
+   "a": [
+    "jemanden",
+    "niemand",
+    "jemand",
+    "etwas"
+   ],
+   "e": "Akkusativ: jemanden."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "An welcher Stelle steht das konjugierte Verb im deutschen Aussagesatz?",
+   "a": [
+    "An zweiter Stelle",
+    "An erster Stelle",
+    "Am Satzende",
+    "An dritter Stelle"
+   ],
+   "e": "Verbzweitstellung."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Welcher Satz ist richtig?",
+   "a": [
+    "Morgen fahre ich nach Hause.",
+    "Morgen ich fahre nach Hause.",
+    "Morgen nach Hause ich fahre.",
+    "Ich morgen fahre nach Hause."
+   ],
+   "e": "Inversion nach Adverb."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Wo steht das Verb in einem Nebensatz mit „weil“?",
+   "a": [
+    "Am Ende des Nebensatzes",
+    "An zweiter Stelle",
+    "An erster Stelle",
+    "Direkt nach „weil“"
+   ],
+   "e": "…, weil ich krank bin."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Welche Konjunktion verändert die Wortstellung NICHT?",
+   "a": [
+    "denn",
+    "weil",
+    "dass",
+    "obwohl"
+   ],
+   "e": "aber, denn, oder, und, sondern — Position 0."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: Ich bleibe zu Hause, ___ ich krank bin.",
+   "a": [
+    "weil",
+    "denn",
+    "deshalb",
+    "trotzdem"
+   ],
+   "e": "Grund + Nebensatz."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: Ich bin krank, ___ bleibe ich zu Hause.",
+   "a": [
+    "deshalb",
+    "weil",
+    "denn",
+    "obwohl"
+   ],
+   "e": "Folge; deshalb → Inversion."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: ___ es regnet, gehen wir spazieren.",
+   "a": [
+    "Obwohl",
+    "Weil",
+    "Damit",
+    "Deshalb"
+   ],
+   "e": "Gegengrund → obwohl."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: Er lernt viel, ___ er die Prüfung besteht.",
+   "a": [
+    "damit",
+    "weil",
+    "obwohl",
+    "wenn"
+   ],
+   "e": "Zweck → damit."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: Ich weiß nicht, ___ er heute kommt.",
+   "a": [
+    "ob",
+    "dass",
+    "wenn",
+    "weil"
+   ],
+   "e": "Indirekte Ja/Nein-Frage → ob."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: ___ ich ein Kind war, wohnte ich auf dem Land.",
+   "a": [
+    "Als",
+    "Wenn",
+    "Wann",
+    "Ob"
+   ],
+   "e": "Einmalig in der Vergangenheit → als."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: Immer ___ ich Zeit habe, lese ich.",
+   "a": [
+    "wenn",
+    "als",
+    "wann",
+    "ob"
+   ],
+   "e": "Wiederholt → wenn."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: Er trinkt keinen Tee, ___ Kaffee.",
+   "a": [
+    "sondern",
+    "aber",
+    "oder",
+    "denn"
+   ],
+   "e": "Nach Verneinung: sondern."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: ___ ich nach Hause komme, rufe ich dich sofort an.",
+   "a": [
+    "Sobald",
+    "Ob",
+    "Dass",
+    "Damit"
+   ],
+   "e": "sobald — unmittelbar danach; Nebensatzkonjunktion."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Ergänzen Sie: Sie spricht ___ Deutsch ___ Englisch.",
+   "a": [
+    "sowohl … als auch",
+    "weder … oder",
+    "entweder … noch",
+    "nicht nur … sondern"
+   ],
+   "e": "Doppelkonjunktion."
+  },
+  {
+   "b": "Satzbau und Konjunktionen",
+   "q": "Welche Satzstellung im Nebensatz mit Modalverb ist richtig?",
+   "a": [
+    "…, dass er heute kommen kann.",
+    "…, dass er kann heute kommen.",
+    "…, dass er heute kann kommen.",
+    "…, dass kann er heute kommen."
+   ],
+   "e": "Konjugiertes Verb ganz am Ende."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Ergänzen Sie: Der Mann, ___ dort steht, ist mein Lehrer.",
+   "a": [
+    "der",
+    "den",
+    "dem",
+    "dessen"
+   ],
+   "e": "Nominativ maskulin."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Ergänzen Sie: Die Frau, ___ ich geholfen habe, ist nett.",
+   "a": [
+    "der",
+    "die",
+    "den",
+    "deren"
+   ],
+   "e": "helfen + Dativ, feminin → der."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Ergänzen Sie: Das Buch, ___ ich lese, ist spannend.",
+   "a": [
+    "das",
+    "dass",
+    "dem",
+    "den"
+   ],
+   "e": "Akkusativ neutral."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Ergänzen Sie: Der Student, ___ Vater Arzt ist, heißt Timur.",
+   "a": [
+    "dessen",
+    "deren",
+    "dem",
+    "der"
+   ],
+   "e": "Genitiv maskulin."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Wie wird das Vorgangspassiv gebildet?",
+   "a": [
+    "werden + Partizip II",
+    "sein + Infinitiv",
+    "haben + Partizip II",
+    "werden + Infinitiv"
+   ],
+   "e": "Das Haus wird gebaut."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Welcher Satz steht im Passiv?",
+   "a": [
+    "Der Brief wird geschrieben.",
+    "Er schreibt einen Brief.",
+    "Er hat einen Brief geschrieben.",
+    "Er wird einen Brief schreiben."
+   ],
+   "e": "werden + Partizip II."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Passiv Präteritum von „Das Haus wird gebaut“:",
+   "a": [
+    "Das Haus wurde gebaut.",
+    "Das Haus war gebaut.",
+    "Das Haus hat gebaut.",
+    "Das Haus ist gebaut worden geworden."
+   ],
+   "e": "wurde + Partizip II."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Passiv Perfekt: „Das Problem ___ gelöst ___.“",
+   "a": [
+    "ist … worden",
+    "hat … geworden",
+    "ist … geworden",
+    "wird … worden"
+   ],
+   "e": "Im Passiv: worden (ohne ge-)."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Ergänzen Sie (Konjunktiv II): Wenn ich Zeit ___, würde ich dich besuchen.",
+   "a": [
+    "hätte",
+    "habe",
+    "hatte",
+    "hätten"
+   ],
+   "e": "Irrealer Bedingungssatz."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Ergänzen Sie (Konjunktiv II): Wenn ich reich ___, würde ich reisen.",
+   "a": [
+    "wäre",
+    "war",
+    "bin",
+    "würde"
+   ],
+   "e": "sein → wäre."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Welche Form ist eine höfliche Bitte?",
+   "a": [
+    "Könnten Sie mir helfen?",
+    "Können Sie mir geholfen?",
+    "Helfen Sie mir sofort!",
+    "Sie helfen mir."
+   ],
+   "e": "Konjunktiv II für Höflichkeit."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Ergänzen Sie: An deiner Stelle ___ ich mehr lernen.",
+   "a": [
+    "würde",
+    "werde",
+    "wurde",
+    "wird"
+   ],
+   "e": "Ratschlag mit Konjunktiv II."
+  },
+  {
+   "b": "Relativsätze, Passiv, Konjunktiv",
+   "q": "Wofür wird der Konjunktiv I hauptsächlich verwendet?",
+   "a": [
+    "Indirekte Rede",
+    "Höfliche Bitten",
+    "Befehle",
+    "Vergangenheit"
+   ],
+   "e": "Er sagt, er sei krank."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was ist das Gegenteil von „billig“?",
+   "a": [
+    "teuer",
+    "günstig",
+    "preiswert",
+    "klein"
+   ],
+   "e": "Antonym."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was ist das Gegenteil von „früh“?",
+   "a": [
+    "spät",
+    "schnell",
+    "morgens",
+    "bald"
+   ],
+   "e": "Antonym."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was ist das Gegenteil von „leicht“ (Aufgabe)?",
+   "a": [
+    "schwer",
+    "hell",
+    "dünn",
+    "kurz"
+   ],
+   "e": "leicht – schwer/schwierig."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Welches Wort ist ein Synonym für „beginnen“?",
+   "a": [
+    "anfangen",
+    "aufhören",
+    "beenden",
+    "schließen"
+   ],
+   "e": "beginnen = anfangen."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Welches Wort ist ein Synonym für „schnell“?",
+   "a": [
+    "rasch",
+    "langsam",
+    "ruhig",
+    "leise"
+   ],
+   "e": "Synonym."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Welches Wort passt nicht in die Reihe?",
+   "a": [
+    "Tisch",
+    "Apfel",
+    "Birne",
+    "Banane"
+   ],
+   "e": "Tisch ist kein Obst."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Welches Wort passt nicht in die Reihe: Hose, Hemd, Rock, …?",
+   "a": [
+    "Gabel",
+    "Jacke",
+    "Mantel",
+    "Bluse"
+   ],
+   "e": "Gabel ist Besteck."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Wie heißt der Tag nach Dienstag?",
+   "a": [
+    "Mittwoch",
+    "Montag",
+    "Donnerstag",
+    "Freitag"
+   ],
+   "e": "Mo, Di, Mi, Do, Fr, Sa, So."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Welcher Monat hat 28 oder 29 Tage?",
+   "a": [
+    "Februar",
+    "Januar",
+    "März",
+    "Juni"
+   ],
+   "e": "Schaltjahr."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was bedeutet „Feierabend“?",
+   "a": [
+    "Ende des Arbeitstages",
+    "Ein Feiertag",
+    "Eine Geburtstagsfeier",
+    "Der Wochenanfang"
+   ],
+   "e": "Freizeit nach der Arbeit."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Wie sagt man höflich zu einem Erwachsenen, den man nicht kennt?",
+   "a": [
+    "Sie",
+    "du",
+    "ihr",
+    "er"
+   ],
+   "e": "Siezen."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was sagt man, wenn jemand niest?",
+   "a": [
+    "Gesundheit!",
+    "Guten Appetit!",
+    "Herzlichen Glückwunsch!",
+    "Gute Besserung im Voraus!"
+   ],
+   "e": "Kultureller Ausdruck."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was wünscht man vor dem Essen?",
+   "a": [
+    "Guten Appetit!",
+    "Gesundheit!",
+    "Viel Glück!",
+    "Gute Nacht!"
+   ],
+   "e": "Mahlzeit! ist auch üblich."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Welche Antwort passt? „Wie spät ist es?“",
+   "a": [
+    "Es ist halb drei.",
+    "Ich bin spät.",
+    "Es ist Montag.",
+    "Ich bin dreißig."
+   ],
+   "e": "Frage nach der Uhrzeit."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "„Halb acht“ bedeutet:",
+   "a": [
+    "7:30",
+    "8:30",
+    "8:00",
+    "7:15"
+   ],
+   "e": "Halb vor der nächsten vollen Stunde."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "„Viertel nach zehn“ bedeutet:",
+   "a": [
+    "10:15",
+    "9:45",
+    "10:45",
+    "10:25"
+   ],
+   "e": "Viertel nach."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Welches Wort bedeutet „Lehrkraft an der Universität“?",
+   "a": [
+    "Dozent",
+    "Schüler",
+    "Hausmeister",
+    "Erzieher"
+   ],
+   "e": "Hochschullehrer."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was ist „Kita“?",
+   "a": [
+    "Kindertagesstätte",
+    "Klassenzimmer",
+    "Kinderkrankenhaus",
+    "Kinderbuch"
+   ],
+   "e": "Vorschuleinrichtung."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was bedeutet „die Hausaufgabe“?",
+   "a": [
+    "Arbeit, die Schüler zu Hause machen",
+    "Reinigung der Wohnung",
+    "Miete für das Haus",
+    "Ein Hausbau"
+   ],
+   "e": "Schulwortschatz."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Welches Wort bezeichnet eine Note in der deutschen Schule als die beste?",
+   "a": [
+    "1 (sehr gut)",
+    "6 (ungenügend)",
+    "5 (mangelhaft)",
+    "3 (befriedigend)"
+   ],
+   "e": "Notenskala 1–6."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was bedeutet die Redewendung „Daumen drücken“?",
+   "a": [
+    "Viel Glück wünschen",
+    "Jemanden kritisieren",
+    "Etwas reparieren",
+    "Sich verletzen"
+   ],
+   "e": "Ich drücke dir die Daumen!"
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was bedeutet „Ich verstehe nur Bahnhof“?",
+   "a": [
+    "Ich verstehe gar nichts.",
+    "Ich warte am Bahnhof.",
+    "Ich fahre mit dem Zug.",
+    "Ich verstehe alles genau."
+   ],
+   "e": "Idiom."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was bedeutet „Tomaten auf den Augen haben“?",
+   "a": [
+    "Etwas Offensichtliches nicht sehen",
+    "Gern Gemüse essen",
+    "Rote Augen vom Weinen haben",
+    "Eine Brille brauchen beim Lesen"
+   ],
+   "e": "Idiom."
+  },
+  {
+   "b": "Wortschatz",
+   "q": "Was bedeutet „Das ist nicht mein Bier“?",
+   "a": [
+    "Das geht mich nichts an.",
+    "Ich trinke kein Bier.",
+    "Das gehört mir nicht, es ist dein Glas.",
+    "Ich bin müde."
+   ],
+   "e": "Umgangssprache."
+  },
+  {
+   "b": "Wortbildung",
+   "q": "Welches Suffix bildet aus Verben Nomen auf feminin, z. B. „wohnen → …“?",
+   "a": [
+    "-ung",
+    "-chen",
+    "-lich",
+    "-bar"
+   ],
+   "e": "die Wohnung."
+  },
+  {
+   "b": "Wortbildung",
+   "q": "Welches Suffix bildet aus Adjektiven feminine Nomen, z. B. „frei → …“?",
+   "a": [
+    "-heit",
+    "-ling",
+    "-er",
+    "-chen"
+   ],
+   "e": "die Freiheit."
+  },
+  {
+   "b": "Wortbildung",
+   "q": "Welches Suffix bildet Adjektive mit der Bedeutung „kann gemacht werden“?",
+   "a": [
+    "-bar",
+    "-los",
+    "-ung",
+    "-keit"
+   ],
+   "e": "lesbar, machbar."
+  },
+  {
+   "b": "Wortbildung",
+   "q": "Was bedeutet das Suffix „-los“ in „arbeitslos“?",
+   "a": [
+    "ohne",
+    "mit viel",
+    "sehr",
+    "wie"
+   ],
+   "e": "ohne Arbeit."
+  },
+  {
+   "b": "Wortbildung",
+   "q": "Welches Präfix gibt dem Adjektiv eine negative Bedeutung?",
+   "a": [
+    "un-",
+    "be-",
+    "ge-",
+    "ver-"
+   ],
+   "e": "unglücklich."
+  },
+  {
+   "b": "Wortbildung",
+   "q": "Was ist die feminine Form von „der Lehrer“?",
+   "a": [
+    "die Lehrerin",
+    "die Lehrerinne",
+    "die Lehrere",
+    "die Lehrerein"
+   ],
+   "e": "Suffix -in."
+  },
+  {
+   "b": "Wortbildung",
+   "q": "Wie heißt die Verkleinerungsform von „das Haus“?",
+   "a": [
+    "das Häuschen",
+    "das Hauschen",
+    "die Häuschen",
+    "der Häusling"
+   ],
+   "e": "-chen + Umlaut, neutral."
+  },
+  {
+   "b": "Wortbildung",
+   "q": "Welches Wort ist eine Zusammensetzung aus Verb + Nomen?",
+   "a": [
+    "Schreibtisch",
+    "Haustür",
+    "Großstadt",
+    "Kinderzimmer"
+   ],
+   "e": "schreiben + Tisch."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „ei“ in „mein“ ausgesprochen?",
+   "a": [
+    "[ai]",
+    "[ei]",
+    "[i:]",
+    "[e:]"
+   ],
+   "e": "ei = [ai]."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „ie“ in „Liebe“ ausgesprochen?",
+   "a": [
+    "Langes [i:]",
+    "[ie] getrennt",
+    "[ai]",
+    "Kurzes [e]"
+   ],
+   "e": "ie = langes i."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „eu“ in „heute“ ausgesprochen?",
+   "a": [
+    "[ɔy]",
+    "[eu]",
+    "[o:]",
+    "[ai]"
+   ],
+   "e": "eu/äu = [ɔy]."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „sch“ ausgesprochen?",
+   "a": [
+    "wie usbekisch „sh“",
+    "wie [s]",
+    "wie [sk]",
+    "wie [ch] in „ich“"
+   ],
+   "e": "[ʃ]."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „st“ am Wortanfang (z. B. „Stadt“) ausgesprochen?",
+   "a": [
+    "[ʃt]",
+    "[st]",
+    "[ts]",
+    "[sk]"
+   ],
+   "e": "Am Wortanfang: scht."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „z“ in „Zeit“ ausgesprochen?",
+   "a": [
+    "[ts]",
+    "[z]",
+    "[s]",
+    "[dz]"
+   ],
+   "e": "z = ts."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „w“ in „Wasser“ ausgesprochen?",
+   "a": [
+    "[v]",
+    "[w]",
+    "[f]",
+    "[u]"
+   ],
+   "e": "Deutsches w = [v]."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „v“ in „Vater“ ausgesprochen?",
+   "a": [
+    "[f]",
+    "[v]",
+    "[w]",
+    "[b]"
+   ],
+   "e": "In deutschen Wörtern v = [f]."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Was bezeichnet das Zeichen „ß“?",
+   "a": [
+    "Stimmloses [s] nach langem Vokal oder Diphthong",
+    "Doppeltes b",
+    "Langes [z] stimmhaft",
+    "Den Laut [ʃ]"
+   ],
+   "e": "Straße, heißen."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Welches Wort ist richtig geschrieben?",
+   "a": [
+    "Straße",
+    "Strase",
+    "Schtraße",
+    "Strahße"
+   ],
+   "e": "In der Schweiz: Strasse."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Was wird im Deutschen immer großgeschrieben?",
+   "a": [
+    "Nomen",
+    "Verben",
+    "Adjektive",
+    "Präpositionen"
+   ],
+   "e": "Substantive groß."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Welche Schreibweise der höflichen Anrede ist richtig?",
+   "a": [
+    "Haben Sie Zeit?",
+    "Haben sie Zeit? (höflich)",
+    "haben Sie zeit?",
+    "Haben SIE Zeit?"
+   ],
+   "e": "Höfliches Sie groß."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „ch“ nach a, o, u (z. B. „Buch“) ausgesprochen?",
+   "a": [
+    "Ach-Laut [x]",
+    "Ich-Laut [ç]",
+    "[k]",
+    "[ʃ]"
+   ],
+   "e": "Nach dunklen Vokalen."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird „ch“ in „ich“ ausgesprochen?",
+   "a": [
+    "Ich-Laut [ç]",
+    "Ach-Laut [x]",
+    "[k]",
+    "[tʃ]"
+   ],
+   "e": "Nach hellen Vokalen und Konsonanten."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Wie wird die Endung „-er“ in „Lehrer“ meist ausgesprochen?",
+   "a": [
+    "Als vokalisiertes [ɐ]",
+    "Als hartes, gerolltes [er]",
+    "Als [ir]",
+    "Gar nicht"
+   ],
+   "e": "R-Vokalisierung."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Was bedeutet die Abkürzung „z. B.“?",
+   "a": [
+    "zum Beispiel",
+    "zurück bitte",
+    "zwischen Bahnhöfen",
+    "zur Begrüßung"
+   ],
+   "e": "Abkürzung."
+  },
+  {
+   "b": "Phonetik und Rechtschreibung",
+   "q": "Was bedeutet „usw.“?",
+   "a": [
+    "und so weiter",
+    "und sonst wer",
+    "unten sehen wir",
+    "unser Schulweg"
+   ],
+   "e": "Abkürzung."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Was ist die Hauptstadt Deutschlands?",
+   "a": [
+    "Berlin",
+    "München",
+    "Hamburg",
+    "Frankfurt am Main"
+   ],
+   "e": "Seit 1990 (Regierungssitz seit 1999)."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Was ist die Hauptstadt Österreichs?",
+   "a": [
+    "Wien",
+    "Salzburg",
+    "Graz",
+    "Innsbruck"
+   ],
+   "e": "Wien."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Was ist die Bundesstadt (Regierungssitz) der Schweiz?",
+   "a": [
+    "Bern",
+    "Zürich",
+    "Genf",
+    "Basel"
+   ],
+   "e": "Bern."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Aus wie vielen Bundesländern besteht Deutschland?",
+   "a": [
+    "16",
+    "12",
+    "9",
+    "26"
+   ],
+   "e": "Föderaler Staat."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wie viele Bundesländer hat Österreich?",
+   "a": [
+    "9",
+    "16",
+    "26",
+    "7"
+   ],
+   "e": "Neun Bundesländer."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "In welchem Land ist Deutsch NICHT Amtssprache?",
+   "a": [
+    "Niederlande",
+    "Österreich",
+    "Schweiz",
+    "Liechtenstein"
+   ],
+   "e": "Dort spricht man Niederländisch."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Welche Farben hat die deutsche Flagge (von oben nach unten)?",
+   "a": [
+    "Schwarz, Rot, Gold",
+    "Rot, Weiß, Rot",
+    "Schwarz, Weiß, Rot",
+    "Rot, Gold, Schwarz"
+   ],
+   "e": "Schwarz-Rot-Gold."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Welcher Fluss ist der längste, der durch Deutschland fließt?",
+   "a": [
+    "Der Rhein",
+    "Die Elbe",
+    "Die Spree",
+    "Der Main"
+   ],
+   "e": "Längster Fluss auf deutschem Gebiet (Donau insgesamt länger, aber kürzer in Deutschland)."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "An welchem Fluss liegt Berlin?",
+   "a": [
+    "Spree",
+    "Rhein",
+    "Elbe",
+    "Isar"
+   ],
+   "e": "Spree und Havel."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Welches ist der höchste Berg Deutschlands?",
+   "a": [
+    "Zugspitze",
+    "Brocken",
+    "Feldberg",
+    "Watzmann"
+   ],
+   "e": "2962 m."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wann fiel die Berliner Mauer?",
+   "a": [
+    "1989",
+    "1990",
+    "1961",
+    "1945"
+   ],
+   "e": "9. November 1989."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wann wurde Deutschland wiedervereinigt?",
+   "a": [
+    "1990",
+    "1989",
+    "1949",
+    "1961"
+   ],
+   "e": "3. Oktober — Tag der Deutschen Einheit."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Welcher Tag ist der Nationalfeiertag Deutschlands?",
+   "a": [
+    "3. Oktober",
+    "9. November",
+    "1. Mai",
+    "8. Mai"
+   ],
+   "e": "Tag der Deutschen Einheit."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wer schrieb „Faust“?",
+   "a": [
+    "Johann Wolfgang von Goethe",
+    "Friedrich Schiller",
+    "Heinrich Heine",
+    "Thomas Mann"
+   ],
+   "e": "Hauptwerk Goethes."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wer schrieb das Drama „Die Räuber“?",
+   "a": [
+    "Friedrich Schiller",
+    "Johann Wolfgang von Goethe",
+    "Gotthold Ephraim Lessing",
+    "Bertolt Brecht"
+   ],
+   "e": "1781."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Welche Brüder sammelten deutsche Volksmärchen?",
+   "a": [
+    "Die Brüder Grimm",
+    "Die Brüder Mann",
+    "Die Brüder Humboldt",
+    "Die Brüder Wright"
+   ],
+   "e": "Kinder- und Hausmärchen."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Welcher Komponist wurde in Bonn geboren?",
+   "a": [
+    "Ludwig van Beethoven",
+    "Wolfgang Amadeus Mozart",
+    "Johann Sebastian Bach",
+    "Richard Wagner"
+   ],
+   "e": "1770 in Bonn."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "In welcher Stadt wurde Mozart geboren?",
+   "a": [
+    "Salzburg",
+    "Wien",
+    "Berlin",
+    "Leipzig"
+   ],
+   "e": "1756."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wie heißt das bekannte Volksfest in München?",
+   "a": [
+    "Oktoberfest",
+    "Karneval der Kulturen",
+    "Kieler Woche",
+    "Weihnachtsmarkt Dresden"
+   ],
+   "e": "Wiesn."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wie heißt das Goethe-Institut?",
+   "a": [
+    "Kulturinstitut zur Förderung der deutschen Sprache im Ausland",
+    "Deutsche staatliche Universität in Berlin",
+    "Bundesministerium für Bildung und Forschung",
+    "Verlag für deutsche Lehrbücher und Wörterbücher"
+   ],
+   "e": "Es gibt ein Goethe-Institut in Taschkent."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Was ist der DAAD?",
+   "a": [
+    "Deutscher Akademischer Austauschdienst",
+    "Deutsche Arbeitsagentur",
+    "Deutscher Automobilclub",
+    "Deutsches Archiv"
+   ],
+   "e": "Stipendien für Studierende."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Was ist die gemeinsame Währung in Deutschland und Österreich?",
+   "a": [
+    "Euro",
+    "Mark",
+    "Franken",
+    "Schilling"
+   ],
+   "e": "Seit 2002 Bargeld."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Welche Währung hat die Schweiz?",
+   "a": [
+    "Schweizer Franken",
+    "Euro",
+    "Schilling",
+    "Krone"
+   ],
+   "e": "CHF."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wie heißt das deutsche Parlament?",
+   "a": [
+    "Bundestag",
+    "Sejm",
+    "Senat",
+    "Duma"
+   ],
+   "e": "Der Bundestag sitzt im Reichstagsgebäude in Berlin."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wer ist das Regierungsoberhaupt in Deutschland?",
+   "a": [
+    "Bundeskanzler",
+    "Bundespräsident",
+    "König",
+    "Premierminister"
+   ],
+   "e": "Bundespräsident ist Staatsoberhaupt."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Was ist das „Abitur“?",
+   "a": [
+    "Abschlussprüfung am Gymnasium",
+    "Ein Diplom nach dem Universitätsstudium",
+    "Abschluss einer betrieblichen Berufsausbildung",
+    "Prüfung am Ende der Grundschule"
+   ],
+   "e": "Hochschulreife."
+  },
+  {
+   "b": "Landeskunde",
+   "q": "Wie heißt die duale Berufsausbildung in Deutschland?",
+   "a": [
+    "Ausbildung im Betrieb und in der Berufsschule",
+    "Studium gleichzeitig an zwei Universitäten",
+    "Arbeit abwechselnd in zwei Ländern",
+    "Schulunterricht nur am Abend"
+   ],
+   "e": "Duales System."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Wie viele Niveaustufen hat der Gemeinsame Europäische Referenzrahmen (GER)?",
+   "a": [
+    "Sechs",
+    "Drei",
+    "Vier",
+    "Acht"
+   ],
+   "e": "A1, A2, B1, B2, C1, C2."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Welche Niveaustufe bedeutet „selbstständige Sprachverwendung“?",
+   "a": [
+    "B1–B2",
+    "A1–A2",
+    "C1–C2",
+    "Nur A1"
+   ],
+   "e": "A — elementar, B — selbstständig, C — kompetent."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Welche vier Grundfertigkeiten werden im Fremdsprachenunterricht entwickelt?",
+   "a": [
+    "Hören, Sprechen, Lesen, Schreiben",
+    "Rechnen, Zeichnen, Singen, Turnen",
+    "Übersetzen, Diktieren, Abschreiben, Auswendiglernen",
+    "Grammatik, Lexik, Phonetik, Stilistik"
+   ],
+   "e": "Vier Fertigkeiten."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Welche Methode stellt die Kommunikation in den Mittelpunkt?",
+   "a": [
+    "Kommunikative Methode",
+    "Grammatik-Übersetzungs-Methode",
+    "Audiolinguale Methode",
+    "Direkte Methode nur mit Diktaten"
+   ],
+   "e": "Handlungsorientierung."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist typisch für die Grammatik-Übersetzungs-Methode?",
+   "a": [
+    "Regeln lernen und Texte übersetzen",
+    "Nur Rollenspiele und freies Sprechen",
+    "Völliger Verzicht auf die Muttersprache",
+    "Nur Hörübungen mit Tonaufnahmen"
+   ],
+   "e": "Klassische Methode."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist typisch für die direkte Methode?",
+   "a": [
+    "Unterricht nur in der Fremdsprache",
+    "Ständiges Übersetzen in die Muttersprache",
+    "Regeln werden vor allem auswendig gelernt",
+    "Im Unterricht wird kaum gesprochen"
+   ],
+   "e": "Einsprachigkeit."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist typisch für die audiolinguale Methode?",
+   "a": [
+    "Pattern Drill, Nachsprechen",
+    "Literarische Übersetzung von Texten",
+    "Langfristige Projektarbeit",
+    "Freie Diskussion über Probleme"
+   ],
+   "e": "Behaviorismus."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was bedeutet „Lernerautonomie“?",
+   "a": [
+    "Lernende steuern ihr Lernen selbst",
+    "Der Lehrer entscheidet über alles allein",
+    "Lernen ganz ohne Ziele und Pläne",
+    "Lernen ausschließlich in der Gruppe"
+   ],
+   "e": "Selbstständigkeit."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist ein „Warming-up“ im Unterricht?",
+   "a": [
+    "Kurze Einstiegsaktivität zur Aktivierung",
+    "Hausaufgabenkontrolle am Ende der Stunde",
+    "Schriftlicher Abschlusstest der Lektion",
+    "Eine Pause zwischen zwei Unterrichtsstunden"
+   ],
+   "e": "Einstimmung."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Welche Phase gehört zur Arbeit mit einem Lesetext?",
+   "a": [
+    "Vor, während und nach dem Lesen",
+    "Nur Übersetzung",
+    "Nur Auswendiglernen",
+    "Nur Vorlesen durch den Lehrer"
+   ],
+   "e": "Drei Phasen."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist „globales Lesen“?",
+   "a": [
+    "Den Hauptinhalt verstehen",
+    "Jedes einzelne Wort genau verstehen",
+    "Nur bestimmte Zahlen und Daten finden",
+    "Den Text laut und deutlich vorlesen"
+   ],
+   "e": "Lesestile: global, selektiv, detailliert."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist „selektives Lesen“?",
+   "a": [
+    "Gezielt bestimmte Informationen suchen",
+    "Den ganzen Text Wort für Wort übersetzen",
+    "Den Text vollständig auswendig lernen",
+    "Nur die Überschrift und das Bild betrachten"
+   ],
+   "e": "Scanning."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was versteht man unter „Wortschatzarbeit“?",
+   "a": [
+    "Einführung, Üben und Festigen neuer Wörter",
+    "Ausschließlich Grammatikregeln lernen",
+    "Nur Texte ins Usbekische übersetzen",
+    "Nur Diktate schreiben und korrigieren"
+   ],
+   "e": "Lexik."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Welche Methode zur Semantisierung neuer Wörter ist einsprachig?",
+   "a": [
+    "Bilder, Gestik, Synonyme",
+    "Übersetzung in die Muttersprache",
+    "Wörterbuch auf Usbekisch",
+    "Liste mit Übersetzungen"
+   ],
+   "e": "Semantisierung."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist ein Rollenspiel im DaF-Unterricht?",
+   "a": [
+    "Simulation einer Kommunikationssituation",
+    "Lautes Lesen eines Gedichts",
+    "Schreiben eines Diktats nach Gehör",
+    "Ein schriftlicher Grammatiktest"
+   ],
+   "e": "Sprechfertigkeit."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist Projektarbeit?",
+   "a": [
+    "Selbstständige Arbeit an einem Thema mit Ergebnis",
+    "Ein Vortrag des Lehrers zum Thema",
+    "Eine Einzelübung aus dem Lehrbuch",
+    "Eine mündliche Prüfung am Jahresende"
+   ],
+   "e": "Handlungsorientiert."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was bedeutet „Fehlerkorrektur durch Selbstkorrektur“?",
+   "a": [
+    "Lernende finden ihre Fehler selbst",
+    "Der Lehrer korrigiert sofort jeden Fehler",
+    "Fehler werden grundsätzlich ignoriert",
+    "Mitschüler verbessern laut die Fehler"
+   ],
+   "e": "Hinweis geben, nicht vorsagen."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Wann sollte man beim freien Sprechen Fehler korrigieren?",
+   "a": [
+    "Nach der Äußerung",
+    "Bei jedem Wort sofort unterbrechen",
+    "Nie",
+    "Nur schriftlich am Jahresende"
+   ],
+   "e": "Flüssigkeit vor Korrektheit."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist „Binnendifferenzierung“?",
+   "a": [
+    "Unterschiedliche Aufgaben nach Lernniveau in einer Klasse",
+    "Trennung der Klasse nach Geschlecht",
+    "Dieselbe Aufgabe für alle Lernenden",
+    "Zusatzunterricht nur für gute Schüler"
+   ],
+   "e": "Individualisierung."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist ein „Lückentext“?",
+   "a": [
+    "Text mit fehlenden Wörtern zum Ergänzen",
+    "Ein sehr langer Roman in Kapiteln",
+    "Ein Gedicht mit Reimen",
+    "Ein Dialog ganz ohne Fehler"
+   ],
+   "e": "Übungsform."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Welche Sozialform fördert die Sprechzeit jedes Lernenden am meisten?",
+   "a": [
+    "Partnerarbeit",
+    "Frontalunterricht",
+    "Lehrervortrag",
+    "Stillarbeit allein"
+   ],
+   "e": "Paare sprechen gleichzeitig."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist eine „Mindmap“ im Unterricht?",
+   "a": [
+    "Grafische Sammlung von Ideen um ein Thema",
+    "Eine geografische Landkarte",
+    "Ein kurzer Grammatiktest",
+    "Ein Heft für Vokabeln"
+   ],
+   "e": "Assoziogramm."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was bedeutet „Authentisches Material“?",
+   "a": [
+    "Originaltexte aus dem Alltag",
+    "Speziell vereinfachte Lehrbuchtexte",
+    "Übersetzte Texte",
+    "Selbst erfundene Sätze des Lehrers"
+   ],
+   "e": "Zeitungen, Fahrpläne, Speisekarten."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist das Ziel eines Hörverstehens „vor dem Hören“?",
+   "a": [
+    "Vorwissen aktivieren und Erwartungen wecken",
+    "Den Hörtext vorher übersetzen",
+    "Die Antworten auswendig lernen",
+    "Die Aufnahme mehrmals zurückspulen"
+   ],
+   "e": "Vorentlastung."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was versteht man unter „Phonetische Übung“?",
+   "a": [
+    "Übung zur Aussprache und Intonation",
+    "Übung zur Rechtschreibung",
+    "Übung zum Übersetzen",
+    "Übung zur Satzanalyse"
+   ],
+   "e": "Laute, Betonung, Melodie."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist ein „Diktat“?",
+   "a": [
+    "Schreiben eines vorgelesenen Textes",
+    "Freies Sprechen zu einem Thema",
+    "Stilles Lesen ohne Ton",
+    "Diskussion in der Gruppe"
+   ],
+   "e": "Kontrolle der Rechtschreibung."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Welche Prüfung bescheinigt Deutschkenntnisse auf Niveau B1 international?",
+   "a": [
+    "Goethe-Zertifikat B1",
+    "IELTS",
+    "TOEFL",
+    "DELF"
+   ],
+   "e": "Auch ÖSD, telc."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist TestDaF?",
+   "a": [
+    "Test Deutsch als Fremdsprache für das Studium",
+    "Ein bekanntes Grammatikbuch",
+    "Ein Schulfach am Gymnasium",
+    "Eine private Sprachschule"
+   ],
+   "e": "Hochschulzugang."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist ein „Lernziel“?",
+   "a": [
+    "Was Lernende am Ende können sollen",
+    "Die Seitenzahl der Lektion im Buch",
+    "Die Note in der Abschlussprüfung",
+    "Der Titel der Lektion"
+   ],
+   "e": "Operationalisierbar."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was bedeutet die Abkürzung „DaF“?",
+   "a": [
+    "Deutsch als Fremdsprache",
+    "Deutsch am Freitag",
+    "Deutsche Akademie Frankfurt",
+    "Deutsch als Familiensprache"
+   ],
+   "e": "Fachbegriff."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was bedeutet „DaZ“?",
+   "a": [
+    "Deutsch als Zweitsprache",
+    "Deutsch am Zentrum",
+    "Deutsche Zeitung",
+    "Deutsch als Zielsprache im Ausland"
+   ],
+   "e": "Für Migranten im deutschsprachigen Raum."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Welches Medium ist besonders für die Visualisierung im Unterricht geeignet?",
+   "a": [
+    "Bildkarten und Tafelbilder",
+    "Nur das Radio im Hintergrund",
+    "Nur Telefongespräche",
+    "Nur Diktate ohne Bilder"
+   ],
+   "e": "Visualisierung."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist das Prinzip „vom Leichten zum Schweren“?",
+   "a": [
+    "Stoff stufenweise steigern",
+    "Mit schwierigsten Themen beginnen",
+    "Nur leichte Themen behandeln",
+    "Schwere Themen weglassen"
+   ],
+   "e": "Didaktisches Prinzip."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist „Interkulturelles Lernen“?",
+   "a": [
+    "Eigene und fremde Kultur verstehen",
+    "Ausschließlich Grammatik lernen",
+    "Fremde Kulturen grundsätzlich ablehnen",
+    "Nur die eigene Kultur betrachten"
+   ],
+   "e": "Landeskunde."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Was ist ein „Portfolio“ im Sprachunterricht?",
+   "a": [
+    "Sammlung der Arbeiten und Selbsteinschätzungen",
+    "Ein Lehrbuch für die ganze Klasse",
+    "Ein Notenheft des Lehrers",
+    "Eine Tasche für Hefte und Bücher"
+   ],
+   "e": "Europäisches Sprachenportfolio."
+  },
+  {
+   "b": "Methodik des Deutschunterrichts",
+   "q": "Welche Aufgabe prüft das Hörverstehen?",
+   "a": [
+    "Richtig/Falsch nach einem Hörtext",
+    "Einen Aufsatz zum Thema schreiben",
+    "Eine Grammatiktabelle ausfüllen",
+    "Einen Text abschreiben"
+   ],
+   "e": "Testformat."
+  },
+  {
+   "b": "Fehlersuche",
+   "q": "Welcher Satz ist grammatisch richtig? (Wortstellung)",
+   "a": [
+    "Ich weiß, dass er Arzt ist.",
+    "Ich weiß, dass er ist Arzt.",
+    "Ich weiß, dass ist er Arzt.",
+    "Ich weiß, er dass Arzt ist."
+   ],
+   "e": "Verb am Ende des Nebensatzes."
+  },
+  {
+   "b": "Fehlersuche",
+   "q": "Welcher Satz enthält keinen Fehler (Artikel)?",
+   "a": [
+    "Ich habe keine Zeit.",
+    "Ich habe nicht Zeit.",
+    "Ich habe kein Zeit.",
+    "Ich habe keinen Zeit."
+   ],
+   "e": "kein- negiert Nomen; Zeit ist feminin."
+  },
+  {
+   "b": "Fehlersuche",
+   "q": "Welcher Satz ist korrekt (Perfekt)?",
+   "a": [
+    "Wir sind nach Samarkand gefahren.",
+    "Wir haben nach Samarkand gefahren.",
+    "Wir sind nach Samarkand gefährt.",
+    "Wir haben nach Samarkand gefahrt."
+   ],
+   "e": "fahren → sein."
+  },
+  {
+   "b": "Fehlersuche",
+   "q": "Welcher Satz ist richtig (Dativ nach „mit“)?",
+   "a": [
+    "Ich fahre mit dem Bus.",
+    "Ich fahre mit den Bus.",
+    "Ich fahre mit der Bus.",
+    "Ich fahre mit das Bus."
+   ],
+   "e": "mit + Dativ."
+  },
+  {
+   "b": "Fehlersuche",
+   "q": "Welcher Satz ist korrekt (Negation)?",
+   "a": [
+    "Ich komme heute nicht.",
+    "Ich nicht komme heute.",
+    "Ich komme kein heute.",
+    "Nicht ich komme heute."
+   ],
+   "e": "Satznegation."
+  },
+  {
+   "b": "Fehlersuche",
+   "q": "Welcher Satz ist richtig (Akkusativ nach „für“)?",
+   "a": [
+    "Das Geschenk ist für meinen Vater.",
+    "Das Geschenk ist für meinem Vater.",
+    "Das Geschenk ist für mein Vater.",
+    "Das Geschenk ist für meiner Vater."
+   ],
+   "e": "für + Akkusativ."
+  },
+  {
+   "b": "Fehlersuche",
+   "q": "Welche Antwort ist auf eine negative Frage richtig? „Hast du keinen Hunger?“ — (Ich habe Hunger.)",
+   "a": [
+    "Doch!",
+    "Ja!",
+    "Nein!",
+    "Nicht!"
+   ],
+   "e": "Doch widerspricht einer verneinten Frage."
+  },
+  {
+   "b": "Fehlersuche",
+   "q": "Welcher Satz ist richtig (Inversion)?",
+   "a": [
+    "Heute habe ich keine Zeit.",
+    "Heute ich habe keine Zeit.",
+    "Heute keine Zeit ich habe.",
+    "Ich heute habe keine Zeit."
+   ],
+   "e": "Verb an Position 2."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie: Ich habe keine Lust, heute ___.",
+   "a": [
+    "zu arbeiten",
+    "arbeiten",
+    "arbeite",
+    "gearbeitet zu"
+   ],
+   "e": "Infinitiv mit zu."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie: Es ist wichtig, jeden Tag Deutsch ___.",
+   "a": [
+    "zu üben",
+    "üben",
+    "übt",
+    "geübt"
+   ],
+   "e": "Infinitivkonstruktion."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Nach welchem Verb steht der Infinitiv OHNE „zu“?",
+   "a": [
+    "können",
+    "versuchen",
+    "vergessen",
+    "beginnen"
+   ],
+   "e": "Modalverben ohne zu."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie: Ich ___ mein Auto reparieren. (Jemand anderes macht es.)",
+   "a": [
+    "lasse",
+    "mache",
+    "werde",
+    "habe"
+   ],
+   "e": "lassen + Infinitiv."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie: Er geht ins Café, ___ Freunde zu treffen.",
+   "a": [
+    "um",
+    "damit",
+    "für",
+    "dass"
+   ],
+   "e": "um … zu — Zweck bei gleichem Subjekt."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie: Er ging weg, ___ sich zu verabschieden.",
+   "a": [
+    "ohne",
+    "um",
+    "statt dass",
+    "damit"
+   ],
+   "e": "ohne … zu."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Wie heißt die Zahl 21 auf Deutsch?",
+   "a": [
+    "einundzwanzig",
+    "zwanzigeins",
+    "zweiundzehn",
+    "einszwanzig"
+   ],
+   "e": "Einer vor Zehner."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Wie heißt die Zahl 1999 als Jahreszahl?",
+   "a": [
+    "neunzehnhundertneunundneunzig",
+    "eintausendneunhundertneunzigneun",
+    "neunzehnneunundneunzig hundert",
+    "tausendneunundneunzig"
+   ],
+   "e": "Jahreszahlen bis 1999 mit „hundert“."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Wie sagt man das Datum „1.9.“ richtig?",
+   "a": [
+    "der erste September",
+    "der eins September",
+    "der einte September",
+    "der ersten September"
+   ],
+   "e": "Ordinalzahl."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie: Ich habe am ___ (3.) Mai Geburtstag.",
+   "a": [
+    "dritten",
+    "dritte",
+    "drei",
+    "dreiten"
+   ],
+   "e": "am + Ordinalzahl -en."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Welches Verb ist unregelmäßig (stark)?",
+   "a": [
+    "trinken",
+    "machen",
+    "spielen",
+    "kaufen"
+   ],
+   "e": "trinken – trank – getrunken."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Was ist das Präteritum von „denken“ (ich)?",
+   "a": [
+    "dachte",
+    "denkte",
+    "dank",
+    "gedacht"
+   ],
+   "e": "Gemischtes Verb."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie: Wenn ich gestern Zeit gehabt ___, wäre ich gekommen.",
+   "a": [
+    "hätte",
+    "habe",
+    "hatte",
+    "würde"
+   ],
+   "e": "Konjunktiv II der Vergangenheit."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie: Er tut so, als ob er krank ___.",
+   "a": [
+    "wäre",
+    "ist",
+    "war",
+    "sein"
+   ],
+   "e": "Irrealer Vergleich."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie (indirekte Frage): Kannst du mir sagen, wo der Bahnhof ___?",
+   "a": [
+    "ist",
+    "ist er",
+    "sei ist",
+    "liegen"
+   ],
+   "e": "Verb am Ende."
+  },
+  {
+   "b": "Weitere Grammatik",
+   "q": "Ergänzen Sie (Genitiv): Das Fahrrad ___ Kindes ist neu.",
+   "a": [
+    "des",
+    "dem",
+    "der",
+    "den"
+   ],
+   "e": "Genitiv neutral + -es."
+  },
+  {
+   "b": "Schreiben und Kommunikation",
+   "q": "Wie beginnt man einen formellen Brief an eine unbekannte Person?",
+   "a": [
+    "Sehr geehrte Damen und Herren,",
+    "Hallo Leute,",
+    "Lieber Freund,",
+    "Hi!"
+   ],
+   "e": "Formelle Anrede."
+  },
+  {
+   "b": "Schreiben und Kommunikation",
+   "q": "Welche Grußformel passt am Ende eines formellen Briefes?",
+   "a": [
+    "Mit freundlichen Grüßen",
+    "Tschüss",
+    "Bis bald, dein",
+    "Küsschen"
+   ],
+   "e": "Standardformel."
+  },
+  {
+   "b": "Schreiben und Kommunikation",
+   "q": "Welche Anrede passt in einem Brief an einen Freund?",
+   "a": [
+    "Lieber Aziz,",
+    "Sehr geehrter Herr Aziz,",
+    "Sehr geehrte Damen und Herren,",
+    "An die Firma Aziz,"
+   ],
+   "e": "Informeller Brief."
+  },
+  {
+   "b": "Schreiben und Kommunikation",
+   "q": "Wie stellt man sich höflich vor?",
+   "a": [
+    "Darf ich mich vorstellen? Mein Name ist …",
+    "Wer bist du denn?",
+    "Gib mir deinen Namen!",
+    "Ich heiße, und du?"
+   ],
+   "e": "Formelle Situation."
+  },
+  {
+   "b": "Schreiben und Kommunikation",
+   "q": "Was antwortet man auf „Danke schön!“?",
+   "a": [
+    "Bitte schön!",
+    "Gesundheit!",
+    "Entschuldigung!",
+    "Auf Wiedersehen!"
+   ],
+   "e": "Höfliche Antwort."
+  },
+  {
+   "b": "Schreiben und Kommunikation",
+   "q": "Wie verabschiedet man sich am Telefon formell?",
+   "a": [
+    "Auf Wiederhören!",
+    "Auf Wiedersehen am Telefon!",
+    "Gute Nacht immer!",
+    "Tschüssi!"
+   ],
+   "e": "Am Telefon hört man sich."
+  },
+  {
+   "b": "Schreiben und Kommunikation",
+   "q": "Was sagt man, um eine Bitte höflich zu formulieren?",
+   "a": [
+    "Könnten Sie bitte …?",
+    "Mach sofort …!",
+    "Du musst …!",
+    "Gib her!"
+   ],
+   "e": "Konjunktiv II + bitte."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Die Bibliothek ist montags bis freitags von 9 bis 18 Uhr geöffnet.“ Wann ist sie geschlossen?",
+   "a": [
+    "Am Samstag",
+    "Am Montag um 10 Uhr",
+    "Am Mittwoch um 15 Uhr",
+    "Am Freitag um 12 Uhr"
+   ],
+   "e": "Nur werktags Mo–Fr."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Rauchen verboten!“ Was bedeutet das?",
+   "a": [
+    "Hier darf man nicht rauchen.",
+    "Hier muss man rauchen.",
+    "Hier kann man Zigaretten kaufen.",
+    "Hier ist ein Raucherbereich."
+   ],
+   "e": "Verbotsschild."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Ausverkauf! Alles 50 % billiger.“ Was bedeutet das?",
+   "a": [
+    "Die Preise sind halbiert.",
+    "Der Laden ist geschlossen.",
+    "Alles ist doppelt so teuer.",
+    "Man bekommt nichts mehr."
+   ],
+   "e": "Rabatt."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Bitte nicht stören!“ Wo hängt so ein Schild meist?",
+   "a": [
+    "An einer Hotelzimmertür",
+    "An einer Bushaltestelle",
+    "Auf einer Speisekarte",
+    "Auf einem Briefumschlag"
+   ],
+   "e": "Privatsphäre."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Anna ist älter als Tom, aber jünger als Lisa.“ Wer ist am ältesten?",
+   "a": [
+    "Lisa",
+    "Anna",
+    "Tom",
+    "Alle gleich alt"
+   ],
+   "e": "Lisa > Anna > Tom."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Der Zug nach München hat 20 Minuten Verspätung.“ Was bedeutet das?",
+   "a": [
+    "Der Zug kommt 20 Minuten später.",
+    "Der Zug kommt 20 Minuten früher.",
+    "Der Zug fällt aus.",
+    "Die Fahrt dauert 20 Minuten."
+   ],
+   "e": "Verspätung = später."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Eintritt frei“. Was bedeutet das?",
+   "a": [
+    "Man muss nichts bezahlen.",
+    "Der Eingang ist geschlossen.",
+    "Man darf nicht hinein.",
+    "Der Platz ist besetzt."
+   ],
+   "e": "Kostenlos."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Herr Weber ist bis zum 15. Mai im Urlaub.“ Wann kann man ihn wieder im Büro erreichen?",
+   "a": [
+    "Nach dem 15. Mai",
+    "Am 10. Mai",
+    "Vor dem 15. Mai",
+    "Am 1. Mai"
+   ],
+   "e": "Nach dem Urlaub."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Apotheke — Notdienst“. Was bedeutet „Notdienst“?",
+   "a": [
+    "Die Apotheke ist auch nachts oder am Feiertag geöffnet.",
+    "Die Apotheke ist heute geschlossen.",
+    "Die Apotheke verkauft keine Medikamente.",
+    "Die Apotheke ist in eine andere Straße umgezogen."
+   ],
+   "e": "Bereitschaft."
+  },
+  {
+   "b": "Lesen",
+   "q": "Lesen Sie: „Mindesthaltbarkeitsdatum: 12.03.“ Worauf bezieht sich das?",
+   "a": [
+    "Auf ein Lebensmittel",
+    "Auf eine Zugfahrkarte",
+    "Auf einen Reisepass",
+    "Auf einen Arzttermin"
+   ],
+   "e": "Ablaufdatum."
+  }
+ ],
+ "kalit": "deutsch german nemischa немецкий DaF"
+}
