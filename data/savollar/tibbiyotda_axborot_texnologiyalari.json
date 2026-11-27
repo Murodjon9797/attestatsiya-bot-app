@@ -1,0 +1,3330 @@
+{
+ "kod": "",
+ "nomi": "Tibbiyotda axborot texnologiyalari",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (5 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Axborot texnologiyalari nima?",
+   "a": [
+    "Axborot bilan ishlash usullari majmui",
+    "Faqat kompyuterlarni ta'mirlash va yig'ish jarayoni",
+    "Faqat telefon aloqasi xizmatlari",
+    "Faqat qog'oz hujjatlarni arxivlash"
+   ],
+   "e": "AKT — axborot-kommunikatsiya texnologiyalari."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Axborotning eng kichik o'lchov birligi qaysi?",
+   "a": [
+    "Bit",
+    "Bayt",
+    "Kilobayt",
+    "Gers"
+   ],
+   "e": "0 yoki 1."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "1 bayt necha bitga teng?",
+   "a": [
+    "8",
+    "2",
+    "10",
+    "1024"
+   ],
+   "e": "Bitta belgi kodlanadi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "1 kilobayt necha baytga teng (ikkilik tizimda)?",
+   "a": [
+    "1024",
+    "1000",
+    "8",
+    "100"
+   ],
+   "e": "2¹⁰."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "1 gigabayt necha megabaytga teng?",
+   "a": [
+    "1024",
+    "1000 000",
+    "100",
+    "8"
+   ],
+   "e": "Ikkilik tizimda."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuterning markaziy protsessori qanday nomlanadi?",
+   "a": [
+    "CPU",
+    "GPU",
+    "RAM",
+    "SSD"
+   ],
+   "e": "Central Processing Unit."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Operativ xotira (RAM) qanday xususiyatga ega?",
+   "a": [
+    "Elektr o'chganda ma'lumot yo'qoladi",
+    "Ma'lumotni abadiy saqlaydi, elektrsiz ham",
+    "Faqat o'qish uchun mo'ljallangan",
+    "Faqat tashqi qurilmalarda bo'ladi"
+   ],
+   "e": "Energiyaga bog'liq xotira."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ma'lumotlarni uzoq muddat saqlash qurilmasiga misol qaysi?",
+   "a": [
+    "Qattiq disk (HDD/SSD)",
+    "Operativ xotira (RAM)",
+    "Protsessor keshi",
+    "Monitor"
+   ],
+   "e": "Doimiy xotira."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kiritish qurilmasiga misol qaysi?",
+   "a": [
+    "Klaviatura",
+    "Monitor",
+    "Printer",
+    "Karnay"
+   ],
+   "e": "Sichqoncha, skaner ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Chiqarish qurilmasiga misol qaysi?",
+   "a": [
+    "Printer",
+    "Klaviatura",
+    "Sichqoncha",
+    "Mikrofon"
+   ],
+   "e": "Monitor, karnay ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Operatsion tizimga misol qaysi?",
+   "a": [
+    "Windows",
+    "Microsoft Word",
+    "Google Chrome",
+    "Adobe Photoshop"
+   ],
+   "e": "Linux, macOS, Android ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Operatsion tizimning asosiy vazifasi nima?",
+   "a": [
+    "Resurslarni boshqarish",
+    "Faqat matn terish",
+    "Faqat rasm chizish",
+    "Faqat internetga ulanish"
+   ],
+   "e": "Foydalanuvchi va apparat orasida vositachi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Amaliy dasturiy ta'minotga misol qaysi?",
+   "a": [
+    "Matn muharriri",
+    "BIOS",
+    "Drayver",
+    "Operatsion tizim yadrosi"
+   ],
+   "e": "Foydalanuvchi vazifalari uchun."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Fayl kengaytmasi \".xlsx\" qaysi dasturga tegishli?",
+   "a": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "PowerPoint",
+    "Paint"
+   ],
+   "e": "Elektron jadval."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\".docx\" kengaytmali fayl qaysi dasturda ochiladi?",
+   "a": [
+    "Microsoft Word",
+    "Microsoft Excel",
+    "Windows Media Player",
+    "Paint"
+   ],
+   "e": "Matn hujjati."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\".pptx\" kengaytmasi qaysi turdagi fayl?",
+   "a": [
+    "Taqdimot",
+    "Jadval",
+    "Rasm",
+    "Audio"
+   ],
+   "e": "PowerPoint."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\".pdf\" formatining afzalligi nima?",
+   "a": [
+    "Ko'rinish o'zgarmaydi",
+    "Faylni har doim oson tahrirlash mumkin",
+    "Faqat rasm saqlaydi",
+    "Faqat audio saqlaydi"
+   ],
+   "e": "Portable Document Format."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Arxivlash dasturining vazifasi nima?",
+   "a": [
+    "Fayllarni siqish",
+    "Fayllarni butunlay o'chirish",
+    "Viruslarni yaratish",
+    "Rasmlarni bo'yash"
+   ],
+   "e": "ZIP, RAR, 7z."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Bulutli texnologiyalar nima?",
+   "a": [
+    "Masofaviy hisoblash va saqlash",
+    "Faqat ob-havo prognozi dasturlari",
+    "Faqat lokal disk",
+    "Faqat printerlar tarmog'i"
+   ],
+   "e": "Google Drive, OneDrive."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ikkilik sanoq sistemasida qaysi raqamlar ishlatiladi?",
+   "a": [
+    "0 va 1",
+    "0 dan 9 gacha",
+    "1 va 2",
+    "A dan F gacha"
+   ],
+   "e": "Kompyuter ichki tili."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "O'nlik 5 soni ikkilik sistemada qanday yoziladi?",
+   "a": [
+    "101",
+    "110",
+    "111",
+    "100"
+   ],
+   "e": "4 + 1."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ikkilik 1010 o'nlik sistemada qancha?",
+   "a": [
+    "10",
+    "12",
+    "8",
+    "5"
+   ],
+   "e": "8 + 2."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Matn muharririda \"Ctrl + C\" nima qiladi?",
+   "a": [
+    "Nusxa oladi",
+    "Joylashtiradi",
+    "Kesib oladi",
+    "Saqlaydi"
+   ],
+   "e": "Ctrl + V — joylashtirish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + V\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Joylashtiradi",
+    "Nusxa oladi",
+    "Bekor qiladi",
+    "Chop etadi"
+   ],
+   "e": "Paste."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + Z\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Amalni bekor qiladi",
+    "Faylni saqlaydi",
+    "Matnni qalin qiladi",
+    "Yangi hujjat ochadi"
+   ],
+   "e": "Undo."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + S\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Hujjatni saqlaydi",
+    "Hujjatni o'chiradi",
+    "Hujjatni chop etadi",
+    "Matnni qidiradi"
+   ],
+   "e": "Save."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excel jadvalida A1 nima?",
+   "a": [
+    "Katak manzili",
+    "Formula",
+    "Diagramma",
+    "Varaq nomi"
+   ],
+   "e": "A ustun, 1 satr."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda formula qaysi belgi bilan boshlanadi?",
+   "a": [
+    "=",
+    "#",
+    "@",
+    "&"
+   ],
+   "e": "Masalan, =A1+B1."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda A1:A10 kataklar yig'indisini qaysi formula hisoblaydi?",
+   "a": [
+    "=SUM(A1:A10)",
+    "=COUNT(A1:A10)",
+    "=AVERAGE(A1:A10)",
+    "=MAX(A1:A10)"
+   ],
+   "e": "СУММ (rus versiyada)."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda o'rtacha qiymatni qaysi funksiya hisoblaydi?",
+   "a": [
+    "AVERAGE",
+    "SUM",
+    "COUNT",
+    "MIN"
+   ],
+   "e": "СРЗНАЧ."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda shartli hisoblash uchun qaysi funksiya ishlatiladi?",
+   "a": [
+    "IF",
+    "SUM",
+    "MAX",
+    "LEN"
+   ],
+   "e": "=IF(shart; ha; yo'q)."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda $A$1 yozuvi nimani bildiradi?",
+   "a": [
+    "Absolyut manzil",
+    "Nisbiy manzil",
+    "Matn",
+    "Valyuta formati"
+   ],
+   "e": "Nusxalashda o'zgarmaydi."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda katakdagi \"#DIV/0!\" xatosi nimani bildiradi?",
+   "a": [
+    "Nolga bo'lish",
+    "Noma'lum funksiya",
+    "Matnli qiymat",
+    "Katak juda tor"
+   ],
+   "e": "Bo'luvchi nol."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda \"#####\" ko'rinishi nimani bildiradi?",
+   "a": [
+    "Ustun tor",
+    "Formulada xato",
+    "Nolga bo'lish",
+    "Fayl buzilgan"
+   ],
+   "e": "Ustunni kengaytirish kerak."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Ma'lumotlarni vizual ko'rsatish uchun Excelda nima ishlatiladi?",
+   "a": [
+    "Diagrammalar",
+    "Makroslar faqat",
+    "Shriftlar",
+    "Sahifa raqamlari"
+   ],
+   "e": "Ustunli, doiraviy, chiziqli."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda ma'lumotlarni saralash nima beradi?",
+   "a": [
+    "Ma'lumotlarni tartiblash",
+    "Ma'lumotlarni o'chirish",
+    "Formulalarni bekor qilish",
+    "Faylni shifrlash"
+   ],
+   "e": "O'sish yoki kamayish tartibida."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda \"filtr\" nima uchun ishlatiladi?",
+   "a": [
+    "Shartga mos satrlarni ko'rsatish",
+    "Barcha ma'lumotlarni o'chirish uchun",
+    "Diagramma chizish uchun",
+    "Faylni chop etish uchun"
+   ],
+   "e": "Avtofiltr."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda VLOOKUP (ВПР) funksiyasi nima qiladi?",
+   "a": [
+    "Jadvaldan qiymat qidiradi",
+    "Yig'indini hisoblaydi",
+    "Matnni birlashtiradi",
+    "Sanani chiqaradi"
+   ],
+   "e": "Vertikal qidiruv."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Svodnaya (pivot) jadval nima uchun ishlatiladi?",
+   "a": [
+    "Ma'lumotlarni umumlashtirish",
+    "Rasm qo'shish uchun",
+    "Matnni tarjima qilish uchun",
+    "Viruslarni tekshirish uchun"
+   ],
+   "e": "Tahlil vositasi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Internet nima?",
+   "a": [
+    "Kompyuter tarmoqlarining global tarmog'i",
+    "Faqat bitta tashkilot ichidagi lokal tarmoq",
+    "Faqat televideniye tizimi",
+    "Faqat telefon liniyasi"
+   ],
+   "e": "TCP/IP protokollari asosida."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Lokal tarmoq qanday qisqartma bilan ataladi?",
+   "a": [
+    "LAN",
+    "WAN",
+    "URL",
+    "HTML"
+   ],
+   "e": "Local Area Network."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Veb-sahifa manzili qanday nomlanadi?",
+   "a": [
+    "URL",
+    "IP-port",
+    "MAC",
+    "PDF"
+   ],
+   "e": "Uniform Resource Locator."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Veb-sahifalar qaysi til asosida yaratiladi?",
+   "a": [
+    "HTML",
+    "SQL",
+    "Excel",
+    "Paint"
+   ],
+   "e": "HyperText Markup Language."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Brauzerga misol qaysi?",
+   "a": [
+    "Google Chrome",
+    "Microsoft Excel",
+    "Windows Explorer faqat fayl uchun",
+    "Notepad"
+   ],
+   "e": "Firefox, Edge, Safari ham."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Qidiruv tizimiga misol qaysi?",
+   "a": [
+    "Google",
+    "Microsoft Word",
+    "WinRAR",
+    "Skype"
+   ],
+   "e": "Yandex, Bing ham."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron pochta manzilida \"@\" belgisi nimani ajratadi?",
+   "a": [
+    "Login va domenni",
+    "Parol va loginni",
+    "Sana va vaqtni",
+    "Fayl nomi va kengaytmani"
+   ],
+   "e": "user@domain.uz."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "HTTPS protokolining HTTP dan farqi nima?",
+   "a": [
+    "Shifrlangan uzatish",
+    "Faqat rasm uzatadi",
+    "Shifrlashsiz ishlaydi",
+    "Faqat lokal tarmoqda ishlaydi"
+   ],
+   "e": "SSL/TLS."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "IP-manzil nima?",
+   "a": [
+    "Qurilma manzili",
+    "Elektron pochta paroli",
+    "Fayl nomi",
+    "Dastur nomi"
+   ],
+   "e": "Masalan, 192.168.1.1."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Wi-Fi nima?",
+   "a": [
+    "Simsiz tarmoq",
+    "Simli telefon aloqasi",
+    "Kompyuter protsessori turi",
+    "Matn muharriri"
+   ],
+   "e": "Radio to'lqinlar orqali."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Videokonferensiya uchun qaysi platforma ishlatiladi?",
+   "a": [
+    "Zoom",
+    "Excel",
+    "Paint",
+    "WinRAR"
+   ],
+   "e": "Microsoft Teams, Google Meet ham."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Kompyuter virusi nima?",
+   "a": [
+    "Zararli dastur",
+    "Kompyuterning foydali qismi",
+    "Matn muharriri turi",
+    "Operatsion tizimning yangilanishi"
+   ],
+   "e": "Antivirus bilan himoya qilinadi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Antivirus dasturiga misol qaysi?",
+   "a": [
+    "Kaspersky",
+    "Microsoft Word",
+    "Google Chrome",
+    "Telegram"
+   ],
+   "e": "ESET, Avast ham."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Fishing (phishing) nima?",
+   "a": [
+    "Ma'lumotlarni aldov bilan o'g'irlash",
+    "Baliq ovlash dasturi",
+    "Fayllarni arxivlash",
+    "Kompyuterni tozalash"
+   ],
+   "e": "Soxta saytlar va xatlar."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Kuchli parolning belgisi qaysi?",
+   "a": [
+    "Turli belgilar aralashmasi",
+    "Faqat tug'ilgan sana",
+    "\"123456\"",
+    "Faqat ism"
+   ],
+   "e": "Kamida 8–12 belgi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ikki bosqichli autentifikatsiya nima beradi?",
+   "a": [
+    "Qo'shimcha himoya",
+    "Parolni butunlay bekor qiladi",
+    "Internetni tezlashtiradi",
+    "Faylni siqadi"
+   ],
+   "e": "SMS kod yoki ilova."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ma'lumotlarning zaxira nusxasi (backup) nima uchun kerak?",
+   "a": [
+    "Ma'lumot yo'qolsa tiklash uchun",
+    "Kompyuterni tezlashtirish uchun",
+    "Viruslarni ko'paytirish uchun",
+    "Internet trafikini kamaytirish uchun"
+   ],
+   "e": "Muntazam bajarilishi kerak."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Shaxsga doir ma'lumotlarni himoya qilish O'zbekistonda qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"Shaxsga doir ma'lumotlar to'g'risida\"gi",
+    "\"Yo'l harakati to'g'risida\"gi Qonun",
+    "Oila kodeksi",
+    "Soliq kodeksi"
+   ],
+   "e": "2019-yilda qabul qilingan."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ijtimoiy muhandislik hujumi nimaga asoslanadi?",
+   "a": [
+    "Insonni aldashga",
+    "Faqat kompyuter apparatini buzishga",
+    "Faqat elektr tarmog'ini uzishga",
+    "Faqat parolni taxmin qilishga"
+   ],
+   "e": "Fishing, soxta qo'ng'iroqlar."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Shifrlash nima?",
+   "a": [
+    "Ma'lumotni yopiq holatga keltirish",
+    "Ma'lumotni o'chirish",
+    "Ma'lumotni chop etish",
+    "Ma'lumotni siqish faqat"
+   ],
+   "e": "Konfidensiallikni ta'minlaydi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Elektron raqamli imzo (ERI) nima uchun ishlatiladi?",
+   "a": [
+    "Muallifni tasdiqlash uchun",
+    "Hujjatni rangli chop etish uchun",
+    "Faylni arxivlash uchun",
+    "Internetni tezlashtirish uchun"
+   ],
+   "e": "Yuridik kuchga ega."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Ma'lumotlar bazasi nima?",
+   "a": [
+    "Tartiblangan ma'lumotlar",
+    "Tasodifiy matnlar yig'indisi",
+    "Faqat rasmlar papkasi",
+    "Faqat audio fayllar"
+   ],
+   "e": "MBBT orqali boshqariladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "MBBTga misol qaysi?",
+   "a": [
+    "Microsoft Access",
+    "Microsoft Paint",
+    "WinRAR",
+    "Google Chrome"
+   ],
+   "e": "MySQL, PostgreSQL ham."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Relyatsion ma'lumotlar bazasida ma'lumotlar qanday saqlanadi?",
+   "a": [
+    "Jadvallarda",
+    "Faqat rasmlarda",
+    "Faqat audio fayllarda",
+    "Faqat matnli xatlarda"
+   ],
+   "e": "Satrlar va ustunlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Jadvaldagi har bir yozuvni noyob aniqlovchi maydon nima deyiladi?",
+   "a": [
+    "Birlamchi kalit",
+    "Tashqi kalit",
+    "Indeks faqat",
+    "Formula"
+   ],
+   "e": "Primary key."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "SQL tilida ma'lumot tanlash buyrug'i qaysi?",
+   "a": [
+    "SELECT",
+    "DELETE",
+    "DROP",
+    "INSERT"
+   ],
+   "e": "SELECT * FROM jadval."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Katta ma'lumotlar (Big Data) nima?",
+   "a": [
+    "Juda katta hajmdagi ma'lumotlar",
+    "Kichik matnli fayllar",
+    "Faqat bitta jadval",
+    "Faqat qog'oz hujjatlar"
+   ],
+   "e": "Hajm, tezlik, xilma-xillik."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Sun'iy intellekt nima?",
+   "a": [
+    "Aqliy faoliyatni taqlid qiluvchi tizim",
+    "Faqat kalkulyator",
+    "Faqat matn muharriri",
+    "Faqat printer drayveri"
+   ],
+   "e": "Mashinali o'qitish."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Raqamlashtirish (digitalizatsiya) nima?",
+   "a": [
+    "Raqamli texnologiyalarga o'tish",
+    "Hujjatlarni faqat qog'ozda saqlash",
+    "Kompyuterlardan voz kechish",
+    "Internetni o'chirish"
+   ],
+   "e": "Raqamli O'zbekiston — 2030 strategiyasi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "\"Elektron hukumat\" tizimining maqsadi nima?",
+   "a": [
+    "Elektron davlat xizmatlari",
+    "Davlat idoralarini yopish",
+    "Qog'oz hujjatlarni ko'paytirish",
+    "Internetni cheklash"
+   ],
+   "e": "my.gov.uz portali."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "O'zbekistonda davlat xizmatlarining yagona interaktiv portali qaysi?",
+   "a": [
+    "my.gov.uz",
+    "google.com",
+    "wikipedia.org",
+    "youtube.com"
+   ],
+   "e": "Yagona interaktiv davlat xizmatlari portali."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "QR-kod nima?",
+   "a": [
+    "Ikki o'lchovli kod",
+    "Kompyuter virusi",
+    "Operatsion tizim",
+    "Internet brauzeri"
+   ],
+   "e": "Smartfon kamerasi bilan o'qiladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Narsalar interneti (IoT) nima?",
+   "a": [
+    "Ulangan qurilmalar tarmog'i",
+    "Faqat kompyuterlar tarmog'i",
+    "Faqat telefon aloqasi",
+    "Faqat televideniye"
+   ],
+   "e": "Datchiklar, aqlli qurilmalar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Mobil ilova nima?",
+   "a": [
+    "Smartfon uchun dastur",
+    "Kompyuter klaviaturasi",
+    "Printer kartriji",
+    "Monitor kabeli"
+   ],
+   "e": "Android, iOS."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Taqdimot dasturiga misol qaysi?",
+   "a": [
+    "PowerPoint",
+    "Excel",
+    "Access",
+    "Notepad"
+   ],
+   "e": "Google Slides ham."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Grafik muharrirga misol qaysi?",
+   "a": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Access",
+    "Skype"
+   ],
+   "e": "Rastr grafika."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Axborotning xossalariga nima kiradi?",
+   "a": [
+    "Ishonchlilik, to'liqlik",
+    "Og'irlik, rang va hajm",
+    "Harorat va bosim",
+    "Uzunlik va kenglik"
+   ],
+   "e": "Foydalilik, tushunarlilik ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ma'lumot va axborot farqi nima?",
+   "a": [
+    "Axborot — ma'no berilgan ma'lumot",
+    "Ma'lumot har doim axborotdan muhimroq",
+    "Ular mutlaqo bir xil",
+    "Axborot faqat raqamlar"
+   ],
+   "e": "Ma'lumot — xom faktlar."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter avlodlari element bazasiga ko'ra qanday rivojlangan?",
+   "a": [
+    "Lampa → tranzistor → IS → mikroprotsessor",
+    "Mikroprotsessor → lampa → tranzistor",
+    "Faqat lampali kompyuterlar mavjud",
+    "Tranzistor → lampa → integral sxema"
+   ],
+   "e": "To'rt avlod."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Protsessor takt chastotasi qanday birlikda o'lchanadi?",
+   "a": [
+    "GGs",
+    "GB",
+    "Vt",
+    "dpi"
+   ],
+   "e": "Gigagers."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Monitorning ekran ruxsati nimani bildiradi?",
+   "a": [
+    "Piksellar sonini",
+    "Monitor og'irligini",
+    "Elektr sarfini",
+    "Ovoz balandligini"
+   ],
+   "e": "Masalan, 1920×1080."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Printerning sifat ko'rsatkichi qaysi?",
+   "a": [
+    "dpi (dyuymdagi nuqtalar)",
+    "GGs",
+    "Mbit/s",
+    "Vt"
+   ],
+   "e": "Ruxsat."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "USB nima?",
+   "a": [
+    "Universal port",
+    "Operatsion tizim turi",
+    "Dasturlash tili",
+    "Antivirus dasturi"
+   ],
+   "e": "Universal Serial Bus."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Fleshka qanday xotira turiga kiradi?",
+   "a": [
+    "Flesh-xotira (doimiy)",
+    "Operativ xotira",
+    "Protsessor keshi",
+    "Videoxotira"
+   ],
+   "e": "Elektrsiz ham saqlaydi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "SSD ning HDD ga nisbatan afzalligi nima?",
+   "a": [
+    "Tezroq va zarbaga chidamli",
+    "Har doim arzonroq va katta hajmli",
+    "Magnit disklar asosida ishlaydi",
+    "Elektrsiz ishlaydi"
+   ],
+   "e": "Harakatlanuvchi qismlari yo'q."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Drayver nima?",
+   "a": [
+    "Qurilma dasturi",
+    "Kompyuter korpusidagi vint",
+    "Matn muharriri",
+    "Antivirus bazasi"
+   ],
+   "e": "Printer, videokarta drayverlari."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Litsenziyali dasturiy ta'minot nima?",
+   "a": [
+    "Qonuniy dastur",
+    "Ruxsatsiz nusxalangan dastur",
+    "Virusli dastur",
+    "Faqat bepul o'yin"
+   ],
+   "e": "Mualliflik huquqi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ochiq kodli dasturga misol qaysi?",
+   "a": [
+    "Linux",
+    "Microsoft Windows",
+    "Adobe Photoshop",
+    "Microsoft Office"
+   ],
+   "e": "LibreOffice, Firefox ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Fayl nima?",
+   "a": [
+    "Nomlangan ma'lumotlar",
+    "Kompyuter korpusi",
+    "Klaviatura tugmasi",
+    "Monitor ekrani"
+   ],
+   "e": "Nom va kengaytma."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Papka (katalog) nima uchun ishlatiladi?",
+   "a": [
+    "Fayllarni guruhlash uchun",
+    "Fayllarni o'chirish uchun",
+    "Internetga ulanish uchun",
+    "Ovoz yozish uchun"
+   ],
+   "e": "Ierarxik tuzilma."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\"Savat\" (Korzina) nima?",
+   "a": [
+    "O'chirilganlar joyi",
+    "Internet do'kon",
+    "Antivirus dasturi",
+    "Printer navbati"
+   ],
+   "e": "Tiklash mumkin."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Algoritm nima?",
+   "a": [
+    "Aniq qadamlar ketma-ketligi",
+    "Kompyuter qurilmasi",
+    "Fayl turi",
+    "Tarmoq turi"
+   ],
+   "e": "Chiziqli, tarmoqlanuvchi, takrorlanuvchi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Dasturlash tiliga misol qaysi?",
+   "a": [
+    "Python",
+    "Excel",
+    "Windows",
+    "Chrome"
+   ],
+   "e": "Java, C++ ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Blok-sxemada romb shakli nimani bildiradi?",
+   "a": [
+    "Shart (tarmoqlanish)",
+    "Boshlanish",
+    "Kiritish",
+    "Hisoblash"
+   ],
+   "e": "Ha/yo'q chiqishlari."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Word da matnni qalin (bold) qilish kombinatsiyasi qaysi?",
+   "a": [
+    "Ctrl + B",
+    "Ctrl + I",
+    "Ctrl + U",
+    "Ctrl + P"
+   ],
+   "e": "I — kursiv, U — tagiga chizish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Hujjatni chop etish kombinatsiyasi qaysi?",
+   "a": [
+    "Ctrl + P",
+    "Ctrl + S",
+    "Ctrl + C",
+    "Ctrl + A"
+   ],
+   "e": "Print."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + A\" nima qiladi?",
+   "a": [
+    "Hammasini belgilaydi",
+    "Faylni saqlaydi",
+    "Matnni o'chiradi",
+    "Yangi oyna ochadi"
+   ],
+   "e": "Select All."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Word da sahifa raqamlarini qo'yish qaysi menyuda?",
+   "a": [
+    "Qo'shish (Insert)",
+    "Fayl (File) — Chiqish",
+    "Ko'rinish (View) — Masshtab",
+    "Pochta (Mailings)"
+   ],
+   "e": "Kolontitullar ham."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Word da jadval qo'shish mumkinmi?",
+   "a": [
+    "Ha",
+    "Yo'q, faqat Excel da",
+    "Faqat rasm sifatida",
+    "Faqat PDF da"
+   ],
+   "e": "Insert → Table."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda =MAX(B1:B5) nima qaytaradi?",
+   "a": [
+    "Eng katta qiymatni",
+    "Eng kichik qiymatni",
+    "Yig'indini",
+    "O'rtachani"
+   ],
+   "e": "MIN — eng kichik."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda =COUNT(A1:A10) nima hisoblaydi?",
+   "a": [
+    "Sonli kataklar sonini",
+    "Kataklar yig'indisini",
+    "Eng katta qiymatni",
+    "Matnli kataklarni"
+   ],
+   "e": "COUNTA — bo'sh bo'lmaganlarni."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "A1 = 5, A2 = 3 bo'lsa, =A1*A2 natijasi qancha?",
+   "a": [
+    "15",
+    "8",
+    "53",
+    "2"
+   ],
+   "e": "Ko'paytirish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "A1 = 10, B1 = 4 bo'lsa, =A1/B1 natijasi qancha?",
+   "a": [
+    "2,5",
+    "40",
+    "6",
+    "14"
+   ],
+   "e": "Bo'lish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda foiz formatini qo'llaganda 0,25 qanday ko'rinadi?",
+   "a": [
+    "25%",
+    "0,25%",
+    "2,5%",
+    "250%"
+   ],
+   "e": "×100."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda ma'lumotni katakda yangi satrga o'tkazish uchun nima bosiladi?",
+   "a": [
+    "Alt + Enter",
+    "Ctrl + Z",
+    "Shift + Tab",
+    "F5"
+   ],
+   "e": "Katak ichida."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excel ishchi kitobi nima?",
+   "a": [
+    "Varaqlardan iborat fayl",
+    "Faqat bitta katak",
+    "Diagramma turi",
+    "Formula turi"
+   ],
+   "e": "Workbook."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Formulani boshqa kataklarga nusxalashda nisbiy manzil qanday o'zgaradi?",
+   "a": [
+    "Mos ravishda o'zgaradi",
+    "Hech qachon o'zgarmaydi",
+    "Har doim A1 ga aylanadi",
+    "O'chib ketadi"
+   ],
+   "e": "A1 → A2."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Taqdimot slaydida animatsiya nima uchun ishlatiladi?",
+   "a": [
+    "Paydo bo'lish effektlari uchun",
+    "Faylni saqlash uchun",
+    "Matnni tarjima qilish uchun",
+    "Virusni o'chirish uchun"
+   ],
+   "e": "Me'yorida qo'llash kerak."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Yaxshi taqdimot slaydi qanday bo'lishi kerak?",
+   "a": [
+    "Qisqa matn va aniq tuzilma",
+    "Juda ko'p mayda matn va ko'p rang",
+    "Faqat matn, rasm va diagrammalarsiz",
+    "Har slaydda turli shrift va fon"
+   ],
+   "e": "Auditoriyaga yo'naltirilgan."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Domen nomidagi \".uz\" nimani bildiradi?",
+   "a": [
+    "O'zbekiston milliy domeni",
+    "Tijorat tashkilotini",
+    "Ta'lim muassasasini faqat",
+    "Davlat organini faqat"
+   ],
+   "e": "Country code TLD."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Internet tezligi qanday birlikda o'lchanadi?",
+   "a": [
+    "Mbit/s",
+    "GGs",
+    "dpi",
+    "Vt"
+   ],
+   "e": "Megabit sekundiga."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Router nima vazifani bajaradi?",
+   "a": [
+    "Ma'lumot yo'naltiradi",
+    "Matn yozadi",
+    "Rasm chop etadi",
+    "Ovoz yozadi"
+   ],
+   "e": "Uy tarmog'ini internetga ulaydi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron pochta xatiga fayl biriktirish qanday nomlanadi?",
+   "a": [
+    "Ilova (attachment)",
+    "Spam",
+    "Imzo",
+    "Mavzu"
+   ],
+   "e": "Hajmi cheklangan."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Spam nima?",
+   "a": [
+    "Keraksiz ommaviy xabarlar",
+    "Muhim rasmiy xat",
+    "Fayl turi",
+    "Antivirus"
+   ],
+   "e": "Ehtiyot bo'lish kerak."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ijtimoiy tarmoqda shaxsiy ma'lumotlarni joylashda nima muhim?",
+   "a": [
+    "Maxfiylik sozlamalari",
+    "Barcha ma'lumotlarni ochiq e'lon qilish",
+    "Parolni postda yozish",
+    "Bank karta raqamini ulashish"
+   ],
+   "e": "Raqamli gigiyena."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Kiberxavfsizlik nima?",
+   "a": [
+    "Raqamli tahdidlardan himoya",
+    "Kompyuterni changdan tozalash",
+    "Internetni tezlashtirish",
+    "Dasturlarni bepul yuklab olish"
+   ],
+   "e": "Texnik va tashkiliy choralar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ochiq Wi-Fi tarmoqlarida nima tavsiya etilmaydi?",
+   "a": [
+    "Bank operatsiyalarini bajarish",
+    "Yangiliklarni o'qish",
+    "Ob-havoni ko'rish",
+    "Xaritadan foydalanish"
+   ],
+   "e": "Trafik ushlanishi mumkin."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Dasturiy ta'minotni yangilab turish nima uchun muhim?",
+   "a": [
+    "Zaifliklar tuzatiladi",
+    "Kompyuter albatta sekinlashadi",
+    "Litsenziya bekor qilinadi",
+    "Fayllar o'chib ketadi"
+   ],
+   "e": "Avtomatik yangilanishlar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron tijorat nima?",
+   "a": [
+    "Internet orqali savdo",
+    "Faqat bozorda naqd savdo",
+    "Faqat barter",
+    "Faqat ulgurji ombor"
+   ],
+   "e": "Onlayn do'konlar, to'lov tizimlari."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Onlayn to'lov tizimiga misol qaysi (O'zbekiston)?",
+   "a": [
+    "Click, Payme",
+    "Paint, Notepad",
+    "Excel, Word",
+    "WinRAR, 7-Zip"
+   ],
+   "e": "Mobil to'lovlar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Masofaviy ta'lim platformasiga misol qaysi?",
+   "a": [
+    "Moodle",
+    "WinRAR",
+    "Paint",
+    "Calculator"
+   ],
+   "e": "Google Classroom ham."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Geoaxborot tizimi (GIS) nima?",
+   "a": [
+    "Fazoviy ma'lumotlar tizimi",
+    "Grafik muharrir",
+    "Matn muharriri",
+    "Antivirus"
+   ],
+   "e": "Xaritalar bilan ishlash."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Blokcheyn texnologiyasining asosiy xususiyati nima?",
+   "a": [
+    "O'zgarmas taqsimlangan yozuvlar",
+    "Ma'lumotlarni bitta markazda saqlash",
+    "Ma'lumotlarni o'chirish oson",
+    "Faqat matn saqlash"
+   ],
+   "e": "Kriptovalyutalar asosi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Chatbot nima?",
+   "a": [
+    "Avtomatik muloqot dasturi",
+    "Printer turi",
+    "Fayl formati",
+    "Kompyuter korpusi"
+   ],
+   "e": "Masalan, Telegram botlari."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Raqamli savodxonlik nima?",
+   "a": [
+    "Xavfsiz va to'g'ri foydalanish qobiliyati",
+    "Faqat kompyuter yig'ish",
+    "Faqat dasturlash",
+    "Faqat matn terish tezligi"
+   ],
+   "e": "Zamonaviy kompetensiya."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda ma'lumotlarni prognozlash uchun qaysi vosita ishlatiladi?",
+   "a": [
+    "Trend chizig'i, FORECAST",
+    "Shrift o'lchami",
+    "Katak rangi",
+    "Sahifa chegarasi"
+   ],
+   "e": "Regressiya asosida."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda \"Parametr tanlash\" (Goal Seek) nima uchun ishlatiladi?",
+   "a": [
+    "Kirish qiymatini topishga",
+    "Faylni shifrlashga",
+    "Grafik rangini o'zgartirishga",
+    "Matnni tarjima qilishga"
+   ],
+   "e": "Teskari hisob."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda \"Yechim izlash\" (Solver) nima uchun ishlatiladi?",
+   "a": [
+    "Optimallashtirish uchun",
+    "Faqat matnni tekislash uchun",
+    "Faqat rasm qo'shish uchun",
+    "Faqat sahifani chop etish uchun"
+   ],
+   "e": "Chiziqli dasturlash."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =ROUND(3,456; 2) natijasi qancha?",
+   "a": [
+    "3,46",
+    "3,45",
+    "3,5",
+    "3"
+   ],
+   "e": "Ikki xonagacha yaxlitlash."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =SUMIF funksiyasi nima qiladi?",
+   "a": [
+    "Shartli yig'indi",
+    "Barcha kataklarni o'chiradi",
+    "Eng katta qiymatni topadi",
+    "Matnni birlashtiradi"
+   ],
+   "e": "СУММЕСЛИ."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =COUNTIF funksiyasi nima qiladi?",
+   "a": [
+    "Shartli sanash",
+    "Yig'indini hisoblaydi",
+    "O'rtachani topadi",
+    "Sanani chiqaradi"
+   ],
+   "e": "СЧЁТЕСЛИ."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda sana va vaqt bilan ishlash uchun qaysi funksiya joriy sanani beradi?",
+   "a": [
+    "TODAY",
+    "NOW faqat soat",
+    "SUM",
+    "DATEVALUE faqat matn"
+   ],
+   "e": "=TODAY()."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda ma'lumotlarni boshqa varaqdan olish formulasi qanday yoziladi?",
+   "a": [
+    "=Varaq2!A1",
+    "=A1@Varaq2",
+    "=Varaq2#A1",
+    "=A1/Varaq2"
+   ],
+   "e": "Varaq nomi va undov belgisi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda katta jadvalda sarlavhani doim ko'rinadigan qilish uchun nima qilinadi?",
+   "a": [
+    "Freeze Panes",
+    "Faylni PDF ga aylantirish",
+    "Shriftni kattalashtirish",
+    "Varaqni yashirish"
+   ],
+   "e": "View → Freeze."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda makros nima?",
+   "a": [
+    "Avtomatlashtiruvchi dastur",
+    "Katta shrift turi",
+    "Diagramma turi",
+    "Fayl kengaytmasi"
+   ],
+   "e": "VBA tilida."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Google Sheets ning Excel ga nisbatan afzalligi nima?",
+   "a": [
+    "Onlayn birgalikda ishlash imkoniyati",
+    "Internetsiz ham har doim to'liq ishlashi",
+    "Formulalarning umuman yo'qligi",
+    "Faqat bitta foydalanuvchi uchun"
+   ],
+   "e": "Bulutli jadval."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Google Forms iqtisodiy tadqiqotda nima uchun qo'llaniladi?",
+   "a": [
+    "So'rovnoma o'tkazish uchun",
+    "Faqat rasm tahrirlash uchun",
+    "Faqat video montaj uchun",
+    "Faqat antivirus sifatida"
+   ],
+   "e": "Natijalar jadvalga tushadi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda A2:A10 dagi eng kichik qiymatni qaysi formula topadi?",
+   "a": [
+    "=MIN(A2:A10)",
+    "=MAX(A2:A10)",
+    "=SUM(A2:A10)",
+    "=LEN(A2:A10)"
+   ],
+   "e": "Minimal qiymat."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda matnlarni birlashtirish funksiyasi qaysi?",
+   "a": [
+    "CONCAT (СЦЕП)",
+    "SUM",
+    "ROUND",
+    "COUNT"
+   ],
+   "e": "Yoki & belgisi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda katakdagi matn uzunligini qaysi funksiya beradi?",
+   "a": [
+    "LEN",
+    "SUM",
+    "MAX",
+    "IF"
+   ],
+   "e": "ДЛСТР."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =IF(A1>100;\"Ko'p\";\"Kam\") formulasi A1=150 da nima qaytaradi?",
+   "a": [
+    "Ko'p",
+    "Kam",
+    "150",
+    "Xato"
+   ],
+   "e": "Shart bajarildi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =AND(A1>0;B1>0) qachon TRUE qaytaradi?",
+   "a": [
+    "Ikkalasi bajarilsa",
+    "Kamida bittasi bajarilsa",
+    "Hech biri bajarilmasa",
+    "Har doim"
+   ],
+   "e": "Mantiqiy VA."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =OR() funksiyasi qachon TRUE qaytaradi?",
+   "a": [
+    "Kamida bitta shart bajarilsa",
+    "Barcha shartlar bajarilsa faqat",
+    "Hech qachon",
+    "Faqat sonlar bo'lsa"
+   ],
+   "e": "Mantiqiy YOKI."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda ma'lumotlarni tekshirish (Data Validation) nima uchun kerak?",
+   "a": [
+    "Xato kiritishni oldini olish",
+    "Faylni o'chirish uchun",
+    "Diagramma chizish uchun",
+    "Shriftni o'zgartirish uchun"
+   ],
+   "e": "Ruxsat etilgan qiymatlar ro'yxati."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda diagramma turini tanlashda ulushlarni ko'rsatish uchun qaysi biri mos?",
+   "a": [
+    "Doiraviy diagramma",
+    "Chiziqli grafik",
+    "Nuqtali diagramma",
+    "Gistogramma"
+   ],
+   "e": "Butunning qismlari."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Vaqt bo'yicha o'zgarishni ko'rsatish uchun qaysi diagramma mos?",
+   "a": [
+    "Chiziqli grafik",
+    "Doiraviy diagramma",
+    "Halqasimon diagramma",
+    "Matnli jadval"
+   ],
+   "e": "Dinamika."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda \"Ssenariylar menejeri\" nima uchun ishlatiladi?",
+   "a": [
+    "Variantlarni solishtirish",
+    "Faylni arxivlash uchun",
+    "Rasmni tahrirlash uchun",
+    "Internetga ulanish uchun"
+   ],
+   "e": "\"Agar ... bo'lsa\" tahlili."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda XLOOKUP funksiyasi VLOOKUP dan nimasi bilan qulay?",
+   "a": [
+    "Istalgan yo'nalishda qidiradi",
+    "Faqat birinchi ustunda ishlaydi",
+    "Faqat sonlar bilan ishlaydi",
+    "Faqat bitta katakda ishlaydi"
+   ],
+   "e": "Yangi Excel versiyalarida."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =A1*$B$1 formulasi pastga nusxalansa nima o'zgaradi?",
+   "a": [
+    "Faqat A1 manzili",
+    "Faqat $B$1 manzili",
+    "Ikkalasi ham",
+    "Hech biri"
+   ],
+   "e": "Absolyut manzil saqlanadi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da shart bo'yicha tanlash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "WHERE",
+    "ORDER",
+    "GROUP",
+    "FROM"
+   ],
+   "e": "SELECT ... WHERE narx > 100."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da natijani saralash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "ORDER BY",
+    "WHERE",
+    "JOIN",
+    "INSERT"
+   ],
+   "e": "ASC yoki DESC."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da guruhlab yig'indi olish uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "GROUP BY",
+    "ORDER BY",
+    "WHERE",
+    "DELETE"
+   ],
+   "e": "SUM bilan birga."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da yangi yozuv qo'shish buyrug'i qaysi?",
+   "a": [
+    "INSERT",
+    "SELECT",
+    "UPDATE",
+    "DROP"
+   ],
+   "e": "INSERT INTO ... VALUES."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da mavjud yozuvni o'zgartirish buyrug'i qaysi?",
+   "a": [
+    "UPDATE",
+    "INSERT",
+    "SELECT",
+    "CREATE"
+   ],
+   "e": "UPDATE ... SET."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ikki jadvalni bog'lash uchun SQL da nima ishlatiladi?",
+   "a": [
+    "JOIN",
+    "DROP",
+    "LIMIT",
+    "COUNT"
+   ],
+   "e": "Kalit maydonlar orqali."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Tashqi kalit (foreign key) nima?",
+   "a": [
+    "Havola qiluvchi maydon",
+    "Jadvaldagi eng katta qiymat",
+    "Parol",
+    "Fayl kengaytmasi"
+   ],
+   "e": "Jadvallar bog'lanishi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlarni tozalash (data cleaning) nima?",
+   "a": [
+    "Xatolarni bartaraf etish",
+    "Kompyuterni changdan tozalash",
+    "Ma'lumotlarni butunlay o'chirish",
+    "Monitorni artish"
+   ],
+   "e": "Tahlil sifati uchun."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlarni tahlil qilish uchun keng qo'llaniladigan dasturlash tili qaysi?",
+   "a": [
+    "Python",
+    "HTML",
+    "CSS",
+    "XML"
+   ],
+   "e": "pandas kutubxonasi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Mashinali o'qitish iqtisodiyotda nima uchun qo'llaniladi?",
+   "a": [
+    "Prognoz va tasniflash",
+    "Faqat matn terish uchun",
+    "Faqat rasm chizish uchun",
+    "Faqat fayl nusxalash uchun"
+   ],
+   "e": "Kredit skoringi, talab prognozi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Kredit skoringi nima?",
+   "a": [
+    "Ishonchlilikni baholash",
+    "Kredit karta dizayni",
+    "Bank binosini baholash",
+    "Soliq stavkasi"
+   ],
+   "e": "Avtomatlashtirilgan modellar."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda o'sish sur'atini hisoblash formulasi (B2 joriy, A2 oldingi) qanday?",
+   "a": [
+    "=B2/A2-1",
+    "=A2+B2",
+    "=A2*B2",
+    "=A2-B2+1"
+   ],
+   "e": "Foiz formatida."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda tasodifiy son hosil qiluvchi funksiya qaysi?",
+   "a": [
+    "RAND",
+    "SUM",
+    "ROUND",
+    "LEN"
+   ],
+   "e": "Monte-Karlo modellash."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da COUNT(*) nima qaytaradi?",
+   "a": [
+    "Yozuvlar sonini",
+    "Yig'indini",
+    "O'rtachani",
+    "Eng katta qiymatni"
+   ],
+   "e": "Agregat funksiya."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da AVG funksiyasi nima hisoblaydi?",
+   "a": [
+    "O'rtacha qiymatni",
+    "Yig'indini",
+    "Sonini",
+    "Minimumni"
+   ],
+   "e": "Agregat funksiya."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Normallashtirishning maqsadi nima?",
+   "a": [
+    "Takrorlanishni kamaytirish",
+    "Ma'lumotlarni ko'paytirish",
+    "Jadvallarni o'chirish",
+    "Kalitlarni bekor qilish"
+   ],
+   "e": "Normal shakllar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "OLAP texnologiyasi nima uchun ishlatiladi?",
+   "a": [
+    "Ko'p o'lchovli tahlil",
+    "Matn terish uchun",
+    "Rasm chizish uchun",
+    "Fayl o'chirish uchun"
+   ],
+   "e": "Ma'lumotlar kubi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlar intellektual tahlili (Data Mining) nima?",
+   "a": [
+    "Qonuniyatlarni topish",
+    "Faqat ma'lumotlarni o'chirish",
+    "Faqat jadval chizish",
+    "Faqat arxivlash"
+   ],
+   "e": "Yashirin bilimlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Elektron jadvalda \"jadval\" (Format as Table) ning afzalligi nima?",
+   "a": [
+    "Avtomatik filtr",
+    "Formulalarning ishlamasligi",
+    "Ma'lumotlarning yashirilishi",
+    "Faylning kattalashishi faqat"
+   ],
+   "e": "Strukturali havolalar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Iqtisodiy ma'lumotlarni import qilishda keng qo'llaniladigan oddiy format qaysi?",
+   "a": [
+    "CSV",
+    "EXE",
+    "MP4",
+    "JPG"
+   ],
+   "e": "Vergul bilan ajratilgan qiymatlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "API nima?",
+   "a": [
+    "Dasturlararo interfeys",
+    "Kompyuter korpusi",
+    "Shrift turi",
+    "Antivirus bazasi"
+   ],
+   "e": "Masalan, bank API."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =SUMPRODUCT(A1:A3;B1:B3) nima hisoblaydi?",
+   "a": [
+    "Ko'paytmalar yig'indisini",
+    "Faqat A ustun yig'indisini",
+    "Faqat eng katta qiymatni",
+    "Kataklar sonini"
+   ],
+   "e": "Masalan, miqdor × narx."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "A1:A3 = 2, 3, 4 va B1:B3 = 10, 20, 30 bo'lsa, SUMPRODUCT natijasi qancha?",
+   "a": [
+    "200",
+    "69",
+    "90",
+    "9"
+   ],
+   "e": "20 + 60 + 120."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =AVERAGE(10;20;30) natijasi qancha?",
+   "a": [
+    "20",
+    "60",
+    "30",
+    "10"
+   ],
+   "e": "60/3."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =MAX(5;12;7) natijasi qancha?",
+   "a": [
+    "12",
+    "5",
+    "7",
+    "24"
+   ],
+   "e": "Eng katta qiymat."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =COUNT(1;\"a\";3) natijasi qancha?",
+   "a": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "e": "Faqat sonlar sanaladi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =LEN(\"Bozor\") natijasi qancha?",
+   "a": [
+    "5",
+    "4",
+    "6",
+    "1"
+   ],
+   "e": "B-o-z-o-r."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =ROUND(12,345;1) natijasi qancha?",
+   "a": [
+    "12,3",
+    "12,35",
+    "12",
+    "12,4"
+   ],
+   "e": "Bir xonagacha."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =10% * 500 natijasi qancha?",
+   "a": [
+    "50",
+    "5",
+    "510",
+    "0,5"
+   ],
+   "e": "Foizni hisoblash."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da DELETE buyrug'i nima qiladi?",
+   "a": [
+    "Yozuvlarni o'chiradi",
+    "Yozuv qo'shadi",
+    "Yozuvni tanlaydi",
+    "Jadval yaratadi"
+   ],
+   "e": "WHERE bilan ehtiyotkorlik."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da CREATE TABLE nima qiladi?",
+   "a": [
+    "Yangi jadval yaratadi",
+    "Jadvalni o'chiradi",
+    "Yozuv qo'shadi",
+    "Ma'lumotni tanlaydi"
+   ],
+   "e": "Ustunlar va turlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlar bazasida indeks nima uchun kerak?",
+   "a": [
+    "Qidiruvni tezlashtirish",
+    "Ma'lumotni o'chirish uchun",
+    "Jadvalni bo'yash uchun",
+    "Parol qo'yish uchun"
+   ],
+   "e": "Katta jadvallarda."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumot turlaridan sana uchun qaysi tur ishlatiladi?",
+   "a": [
+    "DATE",
+    "INTEGER",
+    "BOOLEAN",
+    "TEXT faqat"
+   ],
+   "e": "Sana va vaqt turlari."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Mantiqiy ma'lumot turi qaysi qiymatlarni qabul qiladi?",
+   "a": [
+    "Rost yoki yolg'on",
+    "Faqat sonlar",
+    "Faqat matn",
+    "Faqat sanalar"
+   ],
+   "e": "BOOLEAN."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Iqtisodiy ma'lumotlarni vizuallashtirishda \"infografika\" nima?",
+   "a": [
+    "Grafik tasvirlash",
+    "Faqat matnli hisobot",
+    "Faqat raqamlar jadvali",
+    "Audio yozuv"
+   ],
+   "e": "Tushunarli taqdimot."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Prognozlashda vaqt qatorlari tahlili nimaga asoslanadi?",
+   "a": [
+    "O'tgan davr ma'lumotlariga",
+    "Tasodifiy taxminlarga",
+    "Faqat ekspert hissiyotiga",
+    "Faqat ob-havo prognoziga"
+   ],
+   "e": "Trend va mavsumiylik."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlardagi \"anomaliya\" nima?",
+   "a": [
+    "Keskin farqlanuvchi qiymat",
+    "Eng ko'p uchraydigan qiymat",
+    "O'rtacha qiymat",
+    "Nol qiymat"
+   ],
+   "e": "Firibgarlikni aniqlashda."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter tezligiga eng ko'p ta'sir qiluvchi qurilmalar qaysilar?",
+   "a": [
+    "Protsessor va operativ xotira",
+    "Sichqoncha va gilamcha",
+    "Karnay va mikrofon",
+    "Korpus rangi va o'lchami"
+   ],
+   "e": "SSD ham ta'sir qiladi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Noutbukning statsionar kompyuterga nisbatan afzalligi nima?",
+   "a": [
+    "Ko'chma va ixcham",
+    "Har doim kuchliroq va arzonroq",
+    "Batareyasiz ishlaydi",
+    "Monitor talab qiladi"
+   ],
+   "e": "Mobillik."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Planshet qanday qurilma?",
+   "a": [
+    "Sensorli ko'chma kompyuter",
+    "Faqat telefon",
+    "Faqat printer",
+    "Faqat skaner"
+   ],
+   "e": "Mobil qurilma."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter ergonomikasida monitor qanday joylashtiriladi?",
+   "a": [
+    "Ko'z darajasida yoki biroz pastda",
+    "Juda baland, boshni ko'tarib qaraladigan",
+    "Juda yaqin, 10 sm masofada",
+    "Orqa tomonda"
+   ],
+   "e": "50–70 sm masofa."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Uzoq vaqt kompyuterda ishlaganda nima tavsiya etiladi?",
+   "a": [
+    "Muntazam tanaffus qilish",
+    "To'xtovsiz 8 soat ishlash",
+    "Qorong'i xonada ishlash",
+    "Monitorni maksimal yorqin qilish"
+   ],
+   "e": "Ko'z va bel salomatligi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter xotirasi hajmi 16 GB. Bu necha MB?",
+   "a": [
+    "16 384 MB",
+    "1600 MB",
+    "160 MB",
+    "16 000 000 MB"
+   ],
+   "e": "16 · 1024."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "2048 KB necha MB ga teng?",
+   "a": [
+    "2 MB",
+    "20 MB",
+    "0,2 MB",
+    "2048 MB"
+   ],
+   "e": "2048 / 1024."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ikkilik 1111 o'nlik sistemada qancha?",
+   "a": [
+    "15",
+    "11",
+    "16",
+    "4"
+   ],
+   "e": "8 + 4 + 2 + 1."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "O'n oltilik sanoq sistemasida \"A\" raqami o'nlikda nechaga teng?",
+   "a": [
+    "10",
+    "1",
+    "11",
+    "16"
+   ],
+   "e": "A = 10, F = 15."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Bir belgi Unicode (UTF-16) da odatda necha bayt egallaydi?",
+   "a": [
+    "2",
+    "1",
+    "8",
+    "16"
+   ],
+   "e": "ASCII da 1 bayt."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "8 bitli kod bilan nechta turli belgi kodlash mumkin?",
+   "a": [
+    "256",
+    "8",
+    "128",
+    "64"
+   ],
+   "e": "2⁸."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuterni xavfsiz o'chirish uchun nima qilinadi?",
+   "a": [
+    "Operatsion tizim orqali \"Zavershenie raboty\"",
+    "Elektr kabelini sug'urib olish",
+    "Monitorni o'chirish yetarli",
+    "Klaviaturani uzish"
+   ],
+   "e": "Ma'lumotlar saqlanadi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy axborot tizimi (TAT) nima?",
+   "a": [
+    "Muassasa ma'lumotlarini boshqarish tizimi",
+    "Faqat shifoxona binosidagi telefon tarmog'i",
+    "Faqat dorixonadagi qog'oz hisob daftari",
+    "Faqat bemorlar uchun televizor"
+   ],
+   "e": "Qabul, davolash, hisobot."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Elektron tibbiy karta nima?",
+   "a": [
+    "Raqamli tibbiy yozuvlar",
+    "Bemorning qog'oz pasporti",
+    "Shifoxona binosining rejasi",
+    "Dori qadog'i"
+   ],
+   "e": "Tashxis, davolash, tahlillar."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Elektron tibbiy kartaning qog'oz kartadan afzalligi nima?",
+   "a": [
+    "Tez qidirish va yo'qolmaslik",
+    "Faqat bitta shifokor ko'ra olishi",
+    "O'qish qiyinligi",
+    "Tez eskirishi"
+   ],
+   "e": "Muassasalararo almashinuv."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Telemeditsina nima?",
+   "a": [
+    "Masofadan tibbiy xizmat ko'rsatish",
+    "Faqat televizorda tibbiy ko'rsatuv",
+    "Telefon do'koni",
+    "Dorini pochtada yuborish faqat"
+   ],
+   "e": "Video konsultatsiya, monitoring."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Teleradiologiya nima?",
+   "a": [
+    "Tasvirlarni masofadan tahlil qilish",
+    "Radio orqali dori reklamasi",
+    "Radiologning radio eshittirishi",
+    "Rentgen apparatini sotish"
+   ],
+   "e": "Tor mutaxassis xulosasi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy tasvirlarni saqlash va uzatishning xalqaro standarti qaysi?",
+   "a": [
+    "DICOM",
+    "JPEG faqat",
+    "MP3",
+    "DOCX"
+   ],
+   "e": "Digital Imaging and Communications in Medicine."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "PACS tizimi nima?",
+   "a": [
+    "Tasvirlar arxivi tizimi",
+    "Bemorlarni ovqatlantirish tizimi",
+    "Shifoxona to'lov tizimi faqat",
+    "Dori ishlab chiqarish tizimi"
+   ],
+   "e": "Picture Archiving and Communication System."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy axborot tizimlari o'rtasida ma'lumot almashinuvi standarti qaysi?",
+   "a": [
+    "HL7",
+    "HTML",
+    "USB",
+    "MP4"
+   ],
+   "e": "Health Level Seven."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Kasalliklar xalqaro tasnifi qanday qisqartma bilan ataladi?",
+   "a": [
+    "XKT (ICD)",
+    "SQL",
+    "GPS",
+    "PDF"
+   ],
+   "e": "XKT-10, XKT-11."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "XKT (ICD) tasnifi nima uchun ishlatiladi?",
+   "a": [
+    "Tashxislarni yagona kodlash uchun",
+    "Dori narxini belgilash uchun",
+    "Shifokor maoshini hisoblash uchun",
+    "Bemor manzilini yozish uchun"
+   ],
+   "e": "Statistika va hisobot."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Elektron retsept tizimining afzalligi nima?",
+   "a": [
+    "Xatolar kamayadi",
+    "Qo'lyozma o'qilmasligi ortadi",
+    "Dori berish to'xtaydi",
+    "Retseptlar yo'qoladi"
+   ],
+   "e": "Dorixonada tez tekshiruv."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Bemorlarni onlayn navbatga yozish tizimi nima beradi?",
+   "a": [
+    "Kutish kamayadi",
+    "Navbatni uzaytiradi",
+    "Shifokorlarni ishdan bo'shatadi",
+    "Qabulni bekor qiladi"
+   ],
+   "e": "Qulaylik."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Laboratoriya axborot tizimi (LIS) nima qiladi?",
+   "a": [
+    "Natijalarni qayd etadi",
+    "Bemorlarni ovqatlantiradi",
+    "Shifoxonani tozalaydi",
+    "Dori ishlab chiqaradi"
+   ],
+   "e": "Analizatorlar bilan integratsiya."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy ma'lumotlarning maxfiyligi nima uchun muhim?",
+   "a": [
+    "Shifokorlik siri tufayli",
+    "Ma'lumotlarni sotish uchun",
+    "Reklama uchun",
+    "Statistika yuritmaslik uchun"
+   ],
+   "e": "Qonun bilan himoyalangan."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Bemor ma'lumotlariga kim kirish huquqiga ega bo'lishi kerak?",
+   "a": [
+    "Vakolatli xodimlar",
+    "Har qanday tashrifchi",
+    "Ijtimoiy tarmoq foydalanuvchilari",
+    "Reklama agentliklari"
+   ],
+   "e": "Rollar bo'yicha kirish."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiyotda ekspert tizimlari nima qiladi?",
+   "a": [
+    "Maslahat beradi",
+    "Faqat to'lovlarni hisoblaydi",
+    "Faqat binoni qo'riqlaydi",
+    "Faqat ovqat tayyorlaydi"
+   ],
+   "e": "Qarorni qo'llab-quvvatlash."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Sun'iy intellekt tibbiyotda qayerda keng qo'llaniladi?",
+   "a": [
+    "Tasvirlarni tahlil qilishda",
+    "Faqat shifoxona oshxonasida",
+    "Faqat avtoturargohda",
+    "Faqat kir yuvishda"
+   ],
+   "e": "Rentgen, KT, MRT tahlili."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Kompyuter tomografiyasi (KT) qanday texnologiyaga asoslanadi?",
+   "a": [
+    "Rentgen va kompyuter",
+    "Faqat ultratovush",
+    "Faqat magnit maydoni",
+    "Faqat ko'z bilan ko'rish"
+   ],
+   "e": "Qatlamli tasvirlar."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "MRT qanday printsipga asoslanadi?",
+   "a": [
+    "Magnit-rezonans hodisasi",
+    "Rentgen nurlari",
+    "Radioaktiv izotoplar faqat",
+    "Ovoz to'lqinlari"
+   ],
+   "e": "Ionlashtiruvchi nurlanishsiz."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "UTT (ultratovush tekshiruvi) qanday ishlaydi?",
+   "a": [
+    "Ultratovush qaytishi",
+    "Rentgen nurlari asosida",
+    "Magnit maydoni asosida",
+    "Elektr toki asosida"
+   ],
+   "e": "Xavfsiz, keng tarqalgan."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Holter monitoringi nima?",
+   "a": [
+    "Sutkalik EKG qayd etish",
+    "Bir martalik qon bosimi o'lchash",
+    "Ko'rish o'tkirligini tekshirish",
+    "Tish rentgeni"
+   ],
+   "e": "Portativ yozuvchi qurilma."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Fitnes-bilaguzuk va aqlli soatlar sog'liqni saqlashda nima beradi?",
+   "a": [
+    "Puls kuzatish",
+    "Tashxisni rasmiy qo'yish",
+    "Operatsiya qilish",
+    "Dori yozish"
+   ],
+   "e": "Shaxsiy monitoring."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Glyukometr ma'lumotlarini mobil ilovaga uzatish nima beradi?",
+   "a": [
+    "Qand miqdorini muntazam kuzatish",
+    "Qand miqdorini avtomatik kamaytirish",
+    "Insulinni bekor qilish",
+    "Hech qanday foyda"
+   ],
+   "e": "Qandli diabet nazorati."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Masofaviy monitoring qaysi bemorlar uchun ayniqsa foydali?",
+   "a": [
+    "Surunkali kasalligi borlar",
+    "Faqat sog'lom sportchilar",
+    "Faqat yangi tug'ilgan chaqaloqlar",
+    "Hech kim uchun"
+   ],
+   "e": "Gipertoniya, diabet."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiyot xodimlari uchun elektron ma'lumotnoma va dori bazalarining ahamiyati nima?",
+   "a": [
+    "Dori mosligini tekshirish",
+    "Dori narxini oshirish",
+    "Retseptni yashirish",
+    "Dorilarni sotish"
+   ],
+   "e": "Dorilar o'zaro ta'siri."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Shifoxonada shtrix-kodli bilaguzuk nima uchun ishlatiladi?",
+   "a": [
+    "Identifikatsiya uchun",
+    "Bezak uchun",
+    "Bemorni kuzatmaslik uchun",
+    "Ovqat tanlash uchun"
+   ],
+   "e": "Xatolarni kamaytiradi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Skrining dasturlarida axborot tizimlari nima beradi?",
+   "a": [
+    "Xavf guruhlarini aniqlash",
+    "Kasalliklarni ko'paytirish",
+    "Bemorlarni yashirish",
+    "Tahlillarni bekor qilish"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy statistikada ma'lumotlarni yig'ish uchun Google Forms qanday ishlatiladi?",
+   "a": [
+    "So'rovnoma yaratiladi",
+    "Rentgen tasviri olinadi",
+    "Dori tayyorlanadi",
+    "Operatsiya rejalashtiriladi"
+   ],
+   "e": "Javoblar jadvalga tushadi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Google Forms javoblari qayerda avtomatik jamlanadi?",
+   "a": [
+    "Google Sheets da",
+    "Faqat qog'oz daftarda",
+    "Faqat Paint dasturida",
+    "Faqat audio faylda"
+   ],
+   "e": "Tahlil qilish oson."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy hisobotlarda bemorlar sonini kasallik bo'yicha sanash uchun Excelda qaysi funksiya qulay?",
+   "a": [
+    "COUNTIF",
+    "ROUND",
+    "LEN",
+    "TODAY"
+   ],
+   "e": "Shartli sanash."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Bemorlar yoshi ro'yxatidan o'rtacha yoshni topish uchun qaysi funksiya ishlatiladi?",
+   "a": [
+    "AVERAGE",
+    "SUM",
+    "COUNT",
+    "MAX"
+   ],
+   "e": "O'rtacha qiymat."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Kasallanish ko'rsatkichi 1000 aholiga qanday hisoblanadi?",
+   "a": [
+    "Kasallar soni / aholi × 1000",
+    "Aholi / kasallar × 100",
+    "Kasallar + aholi",
+    "Kasallar − aholi"
+   ],
+   "e": "Promille."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "50 000 aholida 250 ta yangi kasallanish holati. 1000 aholiga ko'rsatkich qancha?",
+   "a": [
+    "5",
+    "50",
+    "0,5",
+    "250"
+   ],
+   "e": "250/50 000 × 1000."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy ma'lumotlarni vizuallashtirishda doiraviy diagramma nima uchun qo'llaniladi?",
+   "a": [
+    "Ulushlarni ko'rsatish uchun",
+    "Vaqt dinamikasini ko'rsatish uchun",
+    "Matn yozish uchun",
+    "Rasm tahrirlash uchun"
+   ],
+   "e": "Masalan, kasalliklar tuzilmasi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Shifoxona axborot tizimining (HIS) asosiy modullariga nima kiradi?",
+   "a": [
+    "Qabul, statsionar, laboratoriya",
+    "Faqat avtoturargoh va qo'riqlash xizmati",
+    "Faqat oshxona menyusi va kir yuvish",
+    "Faqat bino ta'miri"
+   ],
+   "e": "Integratsiyalashgan tizim."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Bemorning roziligisiz tibbiy ma'lumotlarini uchinchi shaxsga berish mumkinmi?",
+   "a": [
+    "Yo'q",
+    "Ha, har qanday so'rov bo'yicha",
+    "Ha, reklama uchun",
+    "Ha, ijtimoiy tarmoqda e'lon qilish uchun"
+   ],
+   "e": "Shifokorlik siri."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy ma'lumotlarning zaxira nusxasi nima uchun ayniqsa muhim?",
+   "a": [
+    "Tarixni yo'qotmaslik uchun",
+    "Kompyuterni bezash uchun",
+    "Internetni tezlashtirish uchun",
+    "Shifokorlarni almashtirish uchun"
+   ],
+   "e": "Davolash uzluksizligi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiyot muassasasida kompyuterga kirish uchun shaxsiy parol nima uchun kerak?",
+   "a": [
+    "Shaxsga bog'lash uchun",
+    "Hamma bir parolni ishlatishi uchun",
+    "Tizimni sekinlashtirish uchun",
+    "Parolni yozib qo'yish uchun"
+   ],
+   "e": "Javobgarlik va audit."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiyot xodimi ish joyidan ketayotganda kompyuterni qanday qoldirishi kerak?",
+   "a": [
+    "Ekranni bloklab",
+    "Tizimda ochiq holda",
+    "Parolni ekranga yopishtirib",
+    "Bemorga topshirib"
+   ],
+   "e": "Ruxsatsiz kirishning oldini olish."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Elektron tibbiy kartada qanday ma'lumotlar saqlanadi?",
+   "a": [
+    "Anamnez, tashxis, davolash",
+    "Faqat bemor rasmi",
+    "Faqat to'lov kvitansiyasi",
+    "Faqat yashash joyi"
+   ],
+   "e": "Tibbiy tarix."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Telemeditsinada video konsultatsiya uchun nima kerak?",
+   "a": [
+    "Kamera va internet",
+    "Faqat qog'oz va qalam",
+    "Faqat faks apparati",
+    "Faqat radio"
+   ],
+   "e": "Xavfsiz platforma."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Telemeditsinaning qishloq aholisi uchun afzalligi nima?",
+   "a": [
+    "Masofaviy murojaat",
+    "Shaharga borish majburiyati",
+    "Xizmatlar narxining oshishi",
+    "Shifokorsiz qolish"
+   ],
+   "e": "Xizmat qulayligi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Mobil sog'liqni saqlash (mHealth) nima?",
+   "a": [
+    "Mobil tibbiy xizmatlar",
+    "Ko'chma shifoxona binosi",
+    "Tez yordam avtomobili",
+    "Dori sotuvchi kiosk"
+   ],
+   "e": "Ilovalar, eslatmalar."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Dori qabul qilishni eslatuvchi mobil ilovaning foydasi nima?",
+   "a": [
+    "Davolash rejimiga rioya oshadi",
+    "Dorilar avtomatik tayyorlanadi",
+    "Shifokorga murojaat bekor bo'ladi",
+    "Dorilar arzonlashadi"
+   ],
+   "e": "Eslatmalar."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Sun'iy intellektning tibbiyotdagi cheklovi nima?",
+   "a": [
+    "Qaror shifokorda qoladi",
+    "U shifokorni to'liq almashtiradi",
+    "U hech qachon xato qilmaydi",
+    "U faqat ovqat tayyorlaydi"
+   ],
+   "e": "Qo'llab-quvvatlovchi vosita."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Robot-jarrohlik tizimiga misol qaysi?",
+   "a": [
+    "Da Vinci tizimi",
+    "Microsoft Word",
+    "Google Chrome",
+    "WinRAR"
+   ],
+   "e": "Minimal invaziv operatsiyalar."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "3D-bosma tibbiyotda nimaga qo'llaniladi?",
+   "a": [
+    "Protezlar uchun",
+    "Faqat gazeta chop etish uchun",
+    "Faqat kiyim tikish uchun",
+    "Faqat ovqat pishirish uchun"
+   ],
+   "e": "Implantlar rejalashtirish."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Elektrokardiograf ma'lumotlarini raqamli saqlash nima beradi?",
+   "a": [
+    "Dinamikada solishtirish",
+    "EKG ni bekor qilish",
+    "Qog'oz sarfini oshirish",
+    "Tashxisni qiyinlashtirish"
+   ],
+   "e": "Arxiv va uzatish."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy asboblarni kompyuterga ulash qaysi interfeys orqali ko'p amalga oshiriladi?",
+   "a": [
+    "USB yoki tarmoq",
+    "Faqat og'zaki",
+    "Faqat pochta",
+    "Faqat faks"
+   ],
+   "e": "Ma'lumotlarni eksport qilish."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Dorixona axborot tizimi nimani nazorat qiladi?",
+   "a": [
+    "Zaxira va muddat",
+    "Faqat sotuvchi kiyimi",
+    "Faqat bino rangi",
+    "Faqat radio"
+   ],
+   "e": "Avtomatik ogohlantirish."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Epidemiologik monitoringda axborot tizimlari nima beradi?",
+   "a": [
+    "Tez aniqlash",
+    "Kasalliklarni yashirish",
+    "Emlashni bekor qilish",
+    "Statistikani buzish"
+   ],
+   "e": "Xaritalar va trendlar."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Emlash hisobini elektron yuritishning afzalligi nima?",
+   "a": [
+    "Muddat nazorati",
+    "Emlash taqvimini yo'qotish",
+    "Ma'lumotlarning chalkashishi",
+    "Emlashning bekor qilinishi"
+   ],
+   "e": "Eslatma tizimi."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Tibbiy statistikada \"o'lim ko'rsatkichi\" odatda qanday ifodalanadi?",
+   "a": [
+    "1000 aholiga nisbatan",
+    "Faqat mutlaq son sifatida",
+    "Faqat foizda bemorlarga",
+    "Faqat yillar soni bilan"
+   ],
+   "e": "Promille."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Bemorlarning qon bosimi ko'rsatkichlarini vaqt bo'yicha ko'rsatish uchun qaysi diagramma mos?",
+   "a": [
+    "Chiziqli grafik",
+    "Doiraviy diagramma",
+    "Matnli jadval faqat",
+    "Halqasimon diagramma"
+   ],
+   "e": "Dinamika."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Excelda bemorlarni yoshi bo'yicha saralash uchun nima qilinadi?",
+   "a": [
+    "Saralash qo'llaniladi",
+    "Fayl o'chiriladi",
+    "Shrift o'zgartiriladi",
+    "Varaq yashiriladi"
+   ],
+   "e": "O'sish yoki kamayish."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Excelda 60 yoshdan katta bemorlarni ajratib ko'rsatish uchun nima qo'llaniladi?",
+   "a": [
+    "Filtr",
+    "Faqat qalin shrift",
+    "Faylni chop etish",
+    "Ustunni o'chirish"
+   ],
+   "e": "Shart bo'yicha."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Bemorlar jadvalida takroriy yozuvlarni topish uchun nima qilinadi?",
+   "a": [
+    "Dublikatlarni o'chirish",
+    "Jadvalni butunlay o'chirish",
+    "Shriftni kattalashtirish",
+    "Faylni nomini o'zgartirish"
+   ],
+   "e": "Ma'lumotlar sifati."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Tibbiy tadqiqotda korrelyatsiya nimani ko'rsatadi?",
+   "a": [
+    "Bog'liqlikni",
+    "Faqat bemorlar sonini",
+    "Faqat dori narxini",
+    "Faqat shifokor stajini"
+   ],
+   "e": "Sabab-oqibat emas."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Klinik ma'lumotlarda o'rtacha qiymat bilan birga qaysi ko'rsatkich keltiriladi?",
+   "a": [
+    "Standart og'ish",
+    "Faqat bemor ismi",
+    "Faqat sana",
+    "Faqat shifokor familiyasi"
+   ],
+   "e": "M ± σ."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Statistik ahamiyatlilik odatda qaysi chegarada qabul qilinadi?",
+   "a": [
+    "p < 0,05",
+    "p > 0,5",
+    "p = 1",
+    "p = 10"
+   ],
+   "e": "95% ishonchlilik."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Google Sheets da bir vaqtda bir necha xodim ishlashining afzalligi nima?",
+   "a": [
+    "Real vaqtda yangilanish",
+    "Fayl bloklanib qoladi",
+    "Ma'lumotlar yo'qoladi",
+    "Faqat bitta odam ko'ra oladi"
+   ],
+   "e": "Hamkorlik."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Google Forms da majburiy savol qanday belgilanadi?",
+   "a": [
+    "Required tugmasi",
+    "Savolni qizil rangga bo'yash bilan",
+    "Savolni o'chirish bilan",
+    "Shaklni yopish bilan"
+   ],
+   "e": "To'ldirmasdan yuborib bo'lmaydi."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "So'rovnomada \"bir nechta javobdan bittasini tanlash\" savoli turi qanday nomlanadi?",
+   "a": [
+    "Radio tugmalar (Multiple choice)",
+    "Belgilash katakchalari (Checkboxes)",
+    "Matn maydoni",
+    "Fayl yuklash"
+   ],
+   "e": "Bitta tanlov."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "So'rovnomada bir nechta javobni belgilash mumkin bo'lgan savol turi qaysi?",
+   "a": [
+    "Checkboxes",
+    "Radio tugmalar",
+    "Sana",
+    "Vaqt"
+   ],
+   "e": "Ko'p tanlov."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Tibbiy hujjatni Word da shablon asosida tayyorlash nima beradi?",
+   "a": [
+    "Tez va bir xil shakl",
+    "Har safar yangi format",
+    "Xatolarning ko'payishi",
+    "Hujjatning yo'qolishi"
+   ],
+   "e": "Standartlashtirish."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Word da \"Pochta birlashtirish\" (Mail Merge) nima uchun ishlatiladi?",
+   "a": [
+    "Ko'plab shaxsiy hujjatlar",
+    "Elektron pochtani o'chirish",
+    "Rasm chizish",
+    "Diagramma qurish"
+   ],
+   "e": "Masalan, bemorlarga xatlar."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Taqdimotda tibbiy ma'lumotlarni ko'rsatishda nima tavsiya etiladi?",
+   "a": [
+    "Aniq diagrammalar",
+    "Ko'p mayda matn",
+    "Tasodifiy rasmlar",
+    "Ko'p animatsiya"
+   ],
+   "e": "Tushunarlilik."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Bemorlar oqimini boshqarish tizimida \"triaj\" nima?",
+   "a": [
+    "Bemorlarni holat og'irligiga qarab saralash",
+    "Bemorlarni familiya bo'yicha alifbo tartibida chaqirish",
+    "Bemorlarni yoshi bo'yicha guruhlash",
+    "Bemorlarni tasodifiy tanlash"
+   ],
+   "e": "Tez yordam bo'limida."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tez yordam chaqiruvlarini boshqarishda GPS nima beradi?",
+   "a": [
+    "Yaqin brigadani yo'naltirish",
+    "Bemor tashxisini qo'yish",
+    "Dori tayyorlash",
+    "Kasallikni davolash"
+   ],
+   "e": "Dispetcherlik tizimi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy muassasada kiberhujum (masalan, shifrlovchi virus) qanday oqibatga olib keladi?",
+   "a": [
+    "Tibbiy xizmat to'xtab qolishi",
+    "Davolash sifatining avtomatik oshishi",
+    "Bemorlar sonining kamayishi",
+    "Hech qanday oqibat yo'q"
+   ],
+   "e": "Zaxira va himoya muhim."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Bemor shaxsiy ma'lumotlarini anonimlashtirish nima?",
+   "a": [
+    "Shaxsni aniqlovchi belgilarni olib tashlash",
+    "Ma'lumotlarni butunlay o'chirish",
+    "Ma'lumotlarni ijtimoiy tarmoqda e'lon qilish",
+    "Ma'lumotlarni chop etish"
+   ],
+   "e": "Tadqiqotlarda ishlatish uchun."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy tasvirlarni ijtimoiy tarmoqlarda bemor ruxsatisiz joylash qanday baholanadi?",
+   "a": [
+    "Etikaning buzilishi",
+    "Ilmiy yutuq",
+    "Odatdagi amaliyot",
+    "Ruxsat etilgan reklama"
+   ],
+   "e": "Shifokorlik siri."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Klinik qarorlarni qo'llab-quvvatlash tizimi (CDSS) nima qiladi?",
+   "a": [
+    "Tavsiya va ogohlantirish",
+    "Shifokor o'rniga operatsiya qiladi",
+    "Bemorni ro'yxatdan o'chiradi",
+    "Dori narxini belgilaydi"
+   ],
+   "e": "Masalan, allergiya ogohlantirishi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Dorilarning o'zaro ta'sirini tekshirish dasturi nimaning oldini oladi?",
+   "a": [
+    "Xavfli kombinatsiyalarning",
+    "Dori ishlab chiqarishning",
+    "Dorixona ochilishining",
+    "Retsept yozishning"
+   ],
+   "e": "Bemor xavfsizligi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiyotda katta ma'lumotlar (Big Data) nimaga yordam beradi?",
+   "a": [
+    "Qonuniyatlarni aniqlashga",
+    "Shifoxonani tozalashga",
+    "Bemorlarni yashirishga",
+    "Dorilarni yo'q qilishga"
+   ],
+   "e": "Populyatsion tahlil."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Genomika va axborot texnologiyalari kesishmasidagi fan qaysi?",
+   "a": [
+    "Bioinformatika",
+    "Geodeziya",
+    "Metallurgiya",
+    "Kartografiya"
+   ],
+   "e": "DNK ma'lumotlarini tahlil qilish."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Virtual reallik tibbiy ta'limda nima uchun qo'llaniladi?",
+   "a": [
+    "Simulyatsiyada mashq uchun",
+    "Faqat o'yin o'ynash uchun",
+    "Faqat kino ko'rish uchun",
+    "Faqat musiqa tinglash uchun"
+   ],
+   "e": "Simulyatsion trening."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Tibbiy ta'limda elektron kutubxonalarga misol qaysi?",
+   "a": [
+    "PubMed",
+    "Instagram",
+    "TikTok",
+    "YouTube Music"
+   ],
+   "e": "Ilmiy maqolalar bazasi."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Dalillarga asoslangan tibbiyotda ma'lumot qidirishning ishonchli manbai qaysi?",
+   "a": [
+    "Klinik tavsiyalar",
+    "Ijtimoiy tarmoqdagi mish-mishlar",
+    "Reklama bannerlari",
+    "Noma'lum forumlar"
+   ],
+   "e": "Cochrane, PubMed."
+  },
+  {
+   "b": "Tibbiy axborot tizimlari",
+   "q": "Shifokor tibbiy ma'lumotni internetdan olganda nimaga e'tibor berishi kerak?",
+   "a": [
+    "Manbaning ishonchliligiga",
+    "Saytning rangiga",
+    "Reklama soniga",
+    "Sahifa uzunligiga"
+   ],
+   "e": "Ilmiy dalillar."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "200 nafar bemordan 30 tasida asorat kuzatildi. Asoratlar ulushi qancha?",
+   "a": [
+    "15%",
+    "30%",
+    "6,7%",
+    "20%"
+   ],
+   "e": "30/200."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Bir yilda 1200 nafar bemor yotqizildi, o'rtacha yotish muddati qanday hisoblanadi?",
+   "a": [
+    "O'rin-kunlar / bemorlar",
+    "Bemorlar soni / o'rinlar soni",
+    "O'rinlar × 365",
+    "Bemorlar + o'rinlar"
+   ],
+   "e": "Statsionar ko'rsatkichi."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Bemorlar vaznlari: 60, 70, 80 kg. O'rtacha vazn qancha?",
+   "a": [
+    "70 kg",
+    "210 kg",
+    "60 kg",
+    "80 kg"
+   ],
+   "e": "210/3."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Tana massasi indeksi (TMI) qanday hisoblanadi?",
+   "a": [
+    "Vazn (kg) / bo'y² (m²)",
+    "Bo'y / vazn",
+    "Vazn × bo'y",
+    "Vazn − bo'y"
+   ],
+   "e": "Excelda formula bilan."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Vazni 81 kg, bo'yi 1,8 m bo'lgan odamning TMI qancha?",
+   "a": [
+    "25",
+    "45",
+    "81",
+    "18"
+   ],
+   "e": "81/3,24."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Excelda TMI ni hisoblash formulasi (B2 — vazn, C2 — bo'y metrda) qanday?",
+   "a": [
+    "=B2/C2^2",
+    "=B2*C2",
+    "=C2/B2",
+    "=B2+C2"
+   ],
+   "e": "Daraja belgisi ^."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Excelda bemor yoshini tug'ilgan sanadan hisoblash uchun qaysi funksiya qulay?",
+   "a": [
+    "DATEDIF yoki YEARFRAC",
+    "SUM",
+    "CONCAT",
+    "LEN"
+   ],
+   "e": "Sana farqi."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Kasallik tuzilmasini ko'rsatishda eng ko'p uchraydigan kasallikni topish uchun nima qilinadi?",
+   "a": [
+    "Chastota bo'yicha saralash",
+    "Ma'lumotlar o'chiriladi",
+    "Shrift o'zgartiriladi",
+    "Fayl yopiladi"
+   ],
+   "e": "Pareto tahlili."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Tibbiy so'rovnoma natijalarini tahlil qilishda svodnaya jadval nima beradi?",
+   "a": [
+    "Guruhlab umumlashtirish",
+    "Javoblarni o'chirish",
+    "So'rovnomani yashirish",
+    "Rasm qo'shish"
+   ],
+   "e": "Pivot table."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Tibbiy muassasada kompyuter tarmog'i nima uchun kerak?",
+   "a": [
+    "Ma'lumot almashish uchun",
+    "Bemorlarni davolash o'rniga",
+    "Faqat o'yin o'ynash uchun",
+    "Dorilarni ishlab chiqarish uchun"
+   ],
+   "e": "Lokal tarmoq."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Elektron pochta orqali tibbiy hujjat yuborishda nima muhim?",
+   "a": [
+    "Xavfsiz kanal va to'g'ri adresat",
+    "Ochiq kanal va tasodifiy adresat",
+    "Ommaviy jo'natish",
+    "Parolsiz arxiv"
+   ],
+   "e": "Maxfiylik."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Tibbiy xodim uchun raqamli savodxonlikning ahamiyati nima?",
+   "a": [
+    "Samarali ishlash",
+    "Kompyuterlardan voz kechish",
+    "Qog'oz ishini ko'paytirish",
+    "Bemorlar bilan ishlamaslik"
+   ],
+   "e": "Zamonaviy talab."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Tibbiyotda IoT qurilmasiga misol qaysi?",
+   "a": [
+    "Ulangan infuzion nasos",
+    "Oddiy shprits",
+    "Qog'oz retsept",
+    "Yog'och kushetka"
+   ],
+   "e": "Masofaviy monitoring."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Videokonferensiya orqali konsilium o'tkazishning afzalligi nima?",
+   "a": [
+    "Mutaxassislarni birlashtirish",
+    "Shifokorlarning uchrashmasligi",
+    "Qarorning kechikishi",
+    "Xarajatning oshishi"
+   ],
+   "e": "Telekonsultatsiya."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Tibbiy xodimlar malakasini masofaviy oshirish platformasining afzalligi nima?",
+   "a": [
+    "Ishdan ajralmasdan o'qish",
+    "O'qishning imkonsizligi",
+    "Faqat chet elda o'qish",
+    "Sertifikatning yo'qligi"
+   ],
+   "e": "Uzluksiz tibbiy ta'lim."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Shifoxonada simsiz tarmoqni (Wi-Fi) bemorlar va xodimlar uchun ajratish nima uchun kerak?",
+   "a": [
+    "Xavfsizlik uchun",
+    "Internetni sekinlashtirish uchun",
+    "Parolni hammaga berish uchun",
+    "Tarmoqni o'chirish uchun"
+   ],
+   "e": "Segmentatsiya."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Tibbiy ma'lumotlar bazasida \"bemor ID\" nima?",
+   "a": [
+    "Noyob identifikator",
+    "Bemorning sevimli rangi",
+    "Shifokorning telefoni",
+    "Palata raqami faqat"
+   ],
+   "e": "Birlamchi kalit."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Shaxsiy tibbiy ma'lumotlarni bulutda saqlashda nimaga e'tibor beriladi?",
+   "a": [
+    "Shifrlashga",
+    "Bulut rangiga",
+    "Reklama miqdoriga",
+    "Faqat narxga"
+   ],
+   "e": "Mahalliylashtirish talablari."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Raqamli sog'liqni saqlash (eHealth) nima?",
+   "a": [
+    "AKT dan foydalanish",
+    "Faqat qog'oz tibbiy kartalar",
+    "Faqat dorixona savdosi",
+    "Faqat sport musobaqalari"
+   ],
+   "e": "Elektron xizmatlar majmui."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Tibbiyotda \"raqamli egizak\" g'oyasi nima?",
+   "a": [
+    "Virtual model",
+    "Ikki egizak bemor",
+    "Ikkita bir xil shifoxona",
+    "Ikkita bir xil dori"
+   ],
+   "e": "Davolashni modellashtirish."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuterda uzoq ishlaydigan tibbiy xodimlar uchun ko'rish gigiyenasi qoidasi qaysi?",
+   "a": [
+    "Ko'zga dam berish",
+    "Ekranni maksimal yorqin qilish",
+    "Ekranga juda yaqin o'tirish",
+    "Qorong'i xonada ishlash"
+   ],
+   "e": "\"20-20-20\" qoidasi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Tibbiy hujjatlarni arxivlashda qaysi format uzoq muddatli saqlashga mos?",
+   "a": [
+    "PDF/A",
+    "EXE",
+    "MP3",
+    "TMP"
+   ],
+   "e": "Arxiv standarti."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Tug'ilish ko'rsatkichi qanday hisoblanadi?",
+   "a": [
+    "Tug'ilganlar soni / aholi × 1000",
+    "Aholi / tug'ilganlar × 100",
+    "Tug'ilganlar + o'lganlar",
+    "Tug'ilganlar − aholi"
+   ],
+   "e": "Promille."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Tabiiy o'sish qanday aniqlanadi?",
+   "a": [
+    "Tug'ilish minus o'lim",
+    "Tug'ilish plus o'lim",
+    "O'lim minus tug'ilish",
+    "Migratsiya faqat"
+   ],
+   "e": "Demografik ko'rsatkich."
+  },
+  {
+   "b": "Tibbiy statistika va ma'lumotlar tahlili",
+   "q": "Gemoglobin qiymatlari: 120, 130, 140, 150. Mediana qancha?",
+   "a": [
+    "135",
+    "130",
+    "140",
+    "540"
+   ],
+   "e": "O'rtadagi ikkisining o'rtachasi."
+  }
+ ]
+}
