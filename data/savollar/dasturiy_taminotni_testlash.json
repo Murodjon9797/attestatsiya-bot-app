@@ -1378,6 +1378,1722 @@
     "Hech qachon"
    ],
    "e": "Risk va muddatlar hisobga olinadi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Kompilyatsiya xatosiga qaysi biri misol?",
+   "a": [
+    "Nuqtali vergul qo'yilmagani",
+    "Dastur noto'g'ri natija chiqarishi",
+    "Foydalanuvchi noto'g'ri son kiritishi",
+    "Internet uzilishi"
+   ],
+   "e": "Sintaktik xatolarda dastur kompilyatsiya bo'lmaydi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Bajarilish vaqtidagi (runtime) xatoga misol qaysi?",
+   "a": [
+    "Nolga bo'lish",
+    "Nuqtali vergulning yo'qligi",
+    "Noma'lum kalit so'z",
+    "Yopilmagan qavs"
+   ],
+   "e": "Dastur kompilyatsiya bo'ladi, lekin ishlash vaqtida xato yuz beradi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Istisnolarni qayta ishlash uchun C++ da qaysi blok ishlatiladi?",
+   "a": [
+    "try-catch",
+    "if-else",
+    "for-while",
+    "switch-case"
+   ],
+   "e": "Istisno throw bilan chiqariladi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Istisno (exception) qaysi operator bilan chiqariladi?",
+   "a": [
+    "throw",
+    "catch",
+    "try",
+    "raise"
+   ],
+   "e": "throw runtime_error(\"xato\");"
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Debugger (sozlagich) nima uchun ishlatiladi?",
+   "a": [
+    "Dasturni qadamma-qadam bajarib, xatolarni topish uchun",
+    "Dasturni kompilyatsiya qilmasdan internetga yuklash uchun",
+    "Dastur matnini chiroyli formatlash uchun",
+    "Dasturni shifrlash uchun"
+   ],
+   "e": "To'xtash nuqtalari (breakpoint) qo'yiladi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Mantiqiy xato qanday aniqlanadi?",
+   "a": [
+    "Test ma'lumotlari bilan natijani tekshirib",
+    "Kompilyator xabarlari orqali har doim avtomatik",
+    "Kompyuterni qayta yoqib",
+    "Dasturni o'chirib"
+   ],
+   "e": "Mantiqiy xatoda kompilyator xabar bermaydi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "\"if (x = 5)\" yozuvidagi xato nima?",
+   "a": [
+    "Taqqoslash o'rniga o'zlashtirish ishlatilgan",
+    "Qavslar noto'g'ri qo'yilgan",
+    "5 soni noto'g'ri",
+    "Bu yozuvda hech qanday xato yo'q"
+   ],
+   "e": "To'g'risi: if (x == 5)."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Ishga tushirilmagan (initsializatsiya qilinmagan) lokal o'zgaruvchining qiymati qanday bo'ladi?",
+   "a": [
+    "Aniqlanmagan (tasodifiy)",
+    "Har doim 0",
+    "Har doim 1",
+    "Har doim −1"
+   ],
+   "e": "Lokal o'zgaruvchilarni boshlang'ich qiymat bilan e'lon qilish tavsiya etiladi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Butun son to'lib ketishi (overflow) nima?",
+   "a": [
+    "Natija turning maksimal qiymatidan oshib ketishi",
+    "Massivning bo'sh qolishi",
+    "Ko'rsatkichning nullptr bo'lishi",
+    "Dastur kerakli faylni diskdan topa olmasligi"
+   ],
+   "e": "Masalan, int maksimal qiymatiga 1 qo'shish."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Ko'rsatkich nullptr bo'lganda unga murojaat qilish (*p) nimaga olib keladi?",
+   "a": [
+    "Dastur ishdan chiqishi (segmentation fault)",
+    "Ko'rsatkich avtomatik yangi xotiraga yo'naltiriladi",
+    "Har doim 0 qaytadi",
+    "Hech narsa bo'lmaydi"
+   ],
+   "e": "Murojaatdan oldin ko'rsatkichni tekshirish kerak."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Kompilyator ogohlantirishlari (warning) haqida qaysi fikr to'g'ri?",
+   "a": [
+    "Ular potensial xatolarni ko'rsatadi va e'tiborga olinishi kerak",
+    "Ular har doim e'tiborsiz qoldirilishi mumkin, chunki dastur baribir ishlaydi",
+    "Ular dasturni kompilyatsiya qilishga to'sqinlik qiladi",
+    "Ular faqat izohlarga tegishli"
+   ],
+   "e": "Ogohlantirishlar ko'pincha mantiqiy xatolar belgisi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Birlik testlash (unit testing) nima?",
+   "a": [
+    "Dasturning alohida qismlarini mustaqil tekshirish",
+    "Butun dasturni faqat foydalanuvchi tomonidan sinash",
+    "Dasturni bir marta ishga tushirib ko'rish",
+    "Dasturni kompilyatsiya qilish"
+   ],
+   "e": "Har bir funksiya alohida testlanadi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "\"cout << 10 / 0;\" bajarilganda nima yuz beradi?",
+   "a": [
+    "Aniqlanmagan xatti-harakat (odatda dastur ishdan chiqadi)",
+    "Ekranga 0 chiqadi va dastur normal davom etadi",
+    "Ekranga cheksizlik belgisi chiqadi",
+    "Kompilyator avtomatik ravishda 1 ga almashtiradi"
+   ],
+   "e": "Butun sonni nolga bo'lish taqiqlangan."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Assert (tasdiqlash) makrosi nima uchun ishlatiladi?",
+   "a": [
+    "Dastur ishlashida shartlar to'g'riligini tekshirish uchun",
+    "Foydalanuvchidan ma'lumot so'rash uchun",
+    "Dasturni tezlashtirish va xotira sarfini kamaytirish uchun",
+    "Faylni ochish uchun"
+   ],
+   "e": "Shart yolg'on bo'lsa, dastur xabar berib to'xtaydi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Chegaraviy qiymatlar bilan testlash nima?",
+   "a": [
+    "Kirish ma'lumotlarining chekka qiymatlarida tekshirish",
+    "Faqat o'rtacha qiymatlar bilan tekshirish",
+    "Dasturni umuman tekshirmaslik",
+    "Faqat dastur ishlab chiquvchining o'zi bitta tasodifiy qiymat bilan tekshirishi"
+   ],
+   "e": "Masalan, 0, maksimal qiymat, bo'sh massiv."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "\"int a[5]; for (int i = 0; i <= 5; i++) a[i] = 0;\" kodidagi xato nima?",
+   "a": [
+    "a[5] massiv chegarasidan tashqarida",
+    "Sikl umuman bajarilmaydi",
+    "a[0] ga murojaat qilib bo'lmaydi",
+    "Xato yo'q"
+   ],
+   "e": "Shart i < 5 bo'lishi kerak."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "\"Off-by-one\" xatosi nima?",
+   "a": [
+    "Sikl chegarasida bitta ortiq yoki kam iteratsiya",
+    "Kompyuterni o'chirib-yoqish xatosi",
+    "Fayl topilmasligi",
+    "Kompyuter qayta yoqilganda dasturning birinchi qatori o'tkazib yuborilishi"
+   ],
+   "e": "Ko'pincha < va <= ni chalkashtirishdan kelib chiqadi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Dasturdagi xatoni topish uchun eng oddiy usul qaysi?",
+   "a": [
+    "O'zgaruvchilar qiymatini oraliq chiqarish",
+    "Kompyuterni yangisiga almashtirish",
+    "Dastur matnini boshqa dasturlash tiliga to'liq ko'chirib yozish",
+    "Kodni butunlay o'chirib tashlash"
+   ],
+   "e": "Debugger yanada qulay vosita."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "\"Segmentation fault\" xatosi odatda nimani bildiradi?",
+   "a": [
+    "Ruxsat etilmagan xotira sohasiga murojaat",
+    "Sintaktik xato, ya'ni nuqtali vergul qo'yilmagani",
+    "Fayl muvaffaqiyatli yozilgani",
+    "Internet tezligi pastligi"
+   ],
+   "e": "Masalan, nullptr yoki chegaradan tashqari murojaat."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "\"undefined reference\" xatosi qaysi bosqichda chiqadi?",
+   "a": [
+    "Bog'lash (linking)",
+    "Bajarilish (runtime)",
+    "Preprotsessorda",
+    "Matn muharririda"
+   ],
+   "e": "Funksiya e'lon qilingan, lekin aniqlanmagan bo'lsa."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Kompilyator \"was not declared in this scope\" xabarini qachon beradi?",
+   "a": [
+    "O'zgaruvchi yoki funksiya e'lon qilinmasdan ishlatilganda",
+    "Dastur muvaffaqiyatli kompilyatsiya bo'lganda",
+    "Fayl diskda topilmaganda",
+    "Dastur juda tez ishlaganda"
+   ],
+   "e": "Nom xato yozilgan yoki ko'rinish sohasidan tashqarida."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "\"cin >> x;\" da x int, foydalanuvchi \"abc\" kiritsa nima bo'ladi?",
+   "a": [
+    "O'qish muvaffaqiyatsiz bo'lib, cin xato holatiga o'tadi",
+    "x avtomatik ravishda \"abc\" satriga aylanadi",
+    "Dastur kompilyatsiya xatosi beradi",
+    "x ga 3 yoziladi"
+   ],
+   "e": "cin.fail() bilan tekshirish mumkin."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Xotirani ikki marta bo'shatish (double delete) nimaga olib keladi?",
+   "a": [
+    "Aniqlanmagan xatti-harakat",
+    "Xotira ikki baravar ko'payadi",
+    "Hech narsa bo'lmaydi",
+    "Kompilyator buni tuzatadi"
+   ],
+   "e": "delete dan keyin ko'rsatkichga nullptr berish tavsiya etiladi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Dasturlash tili nima?",
+   "a": [
+    "Kompyuterga buyruqlar berish uchun rasmiy til",
+    "Kompyuter qismlarini bir-biriga ulash uchun mo'ljallangan kabel standarti",
+    "Operatsion tizimning grafik interfeysi",
+    "Faqat matn terish dasturi"
+   ],
+   "e": "Dasturlash tili sintaksis va semantikaga ega."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Yuqori darajali dasturlash tillariga qaysi biri kiradi?",
+   "a": [
+    "C++",
+    "Mashina kodi",
+    "Assembler",
+    "Ikkilik kod"
+   ],
+   "e": "Python, Java, C# ham yuqori darajali tillar."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Kompilyatsiya qilinadigan tilga qaysi biri misol?",
+   "a": [
+    "C++",
+    "JavaScript (brauzerda)",
+    "Bash skript",
+    "HTML"
+   ],
+   "e": "C++ dasturi kompilyator orqali mashina kodiga o'giriladi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Dastur yaratish bosqichlarining to'g'ri ketma-ketligi qaysi?",
+   "a": [
+    "Masala qo'yish, algoritm, kodlash, sinash, joriy etish",
+    "Kodlash, joriy etish, masala qo'yish, algoritm tuzish va oxirida sinash",
+    "Sinash, joriy etish, kodlash",
+    "Algoritm, sinash, masala qo'yish"
+   ],
+   "e": "Har bir bosqich oldingisiga tayanadi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "IDE nima?",
+   "a": [
+    "Integratsiyalashgan dasturlash muhiti",
+    "Internet tarmog'ini boshqarish dasturi",
+    "Ma'lumotlar bazasi turi",
+    "Operatsion tizim yadrosi"
+   ],
+   "e": "Masalan, Visual Studio, Code::Blocks, CLion."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "C++ dasturining bajarilishi qaysi funksiyadan boshlanadi?",
+   "a": [
+    "main()",
+    "start()",
+    "begin()",
+    "run()"
+   ],
+   "e": "int main() — dastur kirish nuqtasi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "C++ da ekranga chiqarish uchun qaysi obyekt ishlatiladi?",
+   "a": [
+    "cout",
+    "cin",
+    "printf faqat",
+    "scanf"
+   ],
+   "e": "cout << \"Salom\";"
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "C++ da klaviaturadan o'qish uchun qaysi obyekt ishlatiladi?",
+   "a": [
+    "cin",
+    "cout",
+    "cerr",
+    "clog"
+   ],
+   "e": "cin >> x;"
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "C++ da cout va cin qaysi sarlavha faylida e'lon qilingan?",
+   "a": [
+    "<iostream>",
+    "<cmath>",
+    "<string>",
+    "<vector>"
+   ],
+   "e": "#include <iostream>."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "C++ da bir qatorli izoh qanday yoziladi?",
+   "a": [
+    "//",
+    "#",
+    "--",
+    "<!-- -->"
+   ],
+   "e": "Ko'p qatorli izoh /* ... */."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "\"using namespace std;\" yozuvi nima uchun kerak?",
+   "a": [
+    "std nomlar fazosidagi nomlarni prefikssiz ishlatish uchun",
+    "Dasturni tezroq ishlashga majburlash va xotirani tejash uchun",
+    "Kutubxonani internetdan yuklash uchun",
+    "Dasturni shifrlash uchun"
+   ],
+   "e": "Aks holda std::cout kabi yoziladi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "C++ da har bir operator (ifoda) oxiriga qanday belgi qo'yiladi?",
+   "a": [
+    ";",
+    ":",
+    ".",
+    ","
+   ],
+   "e": "Nuqtali vergul operatorni tugatadi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Identifikator (o'zgaruvchi nomi) uchun qaysi nom to'g'ri?",
+   "a": [
+    "summa_1",
+    "1summa",
+    "summa-1",
+    "int"
+   ],
+   "e": "Raqam bilan boshlanmaydi, kalit so'z bo'lmaydi, chiziqcha ishlatilmaydi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "C++ katta va kichik harflarni farqlaydimi?",
+   "a": [
+    "Ha",
+    "Yo'q, Sum va sum bir xil o'zgaruvchi hisoblanadi",
+    "Faqat funksiya nomlarida farqlamaydi",
+    "Faqat izohlarda farqlaydi"
+   ],
+   "e": "Sum va sum — turli identifikatorlar."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Algoritmning qaysi xossasi har bir qadam bir xil tushunilishini talab qiladi?",
+   "a": [
+    "Aniqlik",
+    "Ommaviylik, ya'ni bir turdagi masalalar sinfiga qo'llanilishi",
+    "Cheklilik",
+    "Natijaviylik"
+   ],
+   "e": "Aniqlik (determinallik) — har bir buyruq bir ma'noli."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Interpretator kompilyatordan nimasi bilan farq qiladi?",
+   "a": [
+    "Dasturni qatorma-qator bajaradi",
+    "Dasturni to'liq mashina kodiga o'girib, bajariladigan fayl yaratadi",
+    "Faqat xatolarni ko'rsatadi",
+    "Faqat izohlarni o'qiydi"
+   ],
+   "e": "Python odatda interpretatsiya qilinadi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Bajariladigan fayl (Windows) odatda qanday kengaytmaga ega?",
+   "a": [
+    ".exe",
+    ".cpp",
+    ".h",
+    ".txt"
+   ],
+   "e": ".cpp — manba kod, .h — sarlavha fayli."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "C++ dasturining manba kodi fayli odatda qanday kengaytmaga ega?",
+   "a": [
+    ".cpp",
+    ".exe",
+    ".obj",
+    ".dll"
+   ],
+   "e": ".obj — obyekt fayl, .dll — dinamik kutubxona."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Preprotsessor direktivalari qaysi belgi bilan boshlanadi?",
+   "a": [
+    "#",
+    "@",
+    "$",
+    "//"
+   ],
+   "e": "#include, #define."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Kompilyatsiya jarayonida \"linker\" (bog'lovchi) qanday vazifani bajaradi?",
+   "a": [
+    "Obyekt fayllar va kutubxonalarni bitta bajariladigan faylga birlashtiradi",
+    "Manba kodni tahrirlaydi va izohlarni o'chiradi",
+    "Dasturni internetga yuklaydi",
+    "Dastur xatolarini avtomatik tuzatadi"
+   ],
+   "e": "Bog'lash kompilyatsiyadan keyingi bosqich."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Versiyalarni boshqarish tizimiga misol qaysi?",
+   "a": [
+    "Git",
+    "Excel",
+    "Paint",
+    "Notepad"
+   ],
+   "e": "Git kod o'zgarishlarini kuzatadi va jamoaviy ishlashni ta'minlaydi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Dasturiy ta'minot hayotiy siklining birinchi bosqichi qaysi?",
+   "a": [
+    "Talablarni tahlil qilish",
+    "Dasturni foydalanuvchilarga tarqatish va qo'llab-quvvatlash",
+    "Kodlash",
+    "Testlash"
+   ],
+   "e": "Keyin loyihalash, kodlash, testlash, joriy etish, kuzatib borish."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "\"Sharshara\" (Waterfall) modelining xususiyati nima?",
+   "a": [
+    "Bosqichlar qat'iy ketma-ket bajariladi",
+    "Bosqichlar qisqa iteratsiyalarda qayta-qayta takrorlanadi",
+    "Rejalashtirish umuman bo'lmaydi",
+    "Faqat testlash bosqichi bor"
+   ],
+   "e": "Agile esa iterativ yondashuv."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Agile (moslashuvchan) metodologiyasining asosiy g'oyasi nima?",
+   "a": [
+    "Qisqa iteratsiyalarda ishlash va o'zgarishlarga tez moslashish",
+    "Barcha talablarni loyiha boshida qat'iy belgilab, o'zgartirmaslik",
+    "Faqat hujjatlarni ko'p yozish",
+    "Mijoz bilan muloqot qilmaslik"
+   ],
+   "e": "Scrum — Agile ning mashhur freymvorki."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Kod sharhlash (code review) nima uchun o'tkaziladi?",
+   "a": [
+    "Xatolarni erta aniqlash va sifatni oshirish",
+    "Dasturchilarning ish vaqtini nazorat qilish va ularni jazolash",
+    "Kodni o'chirish",
+    "Kod hajmini oshirish"
+   ],
+   "e": "Boshqa dasturchi kodni ko'rib chiqadi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Git da o'zgarishlarni saqlash (qayd etish) buyrug'i qaysi?",
+   "a": [
+    "git commit",
+    "git push faqat",
+    "git clone",
+    "git init"
+   ],
+   "e": "git push — masofaviy repozitoriyga yuborish."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Kodni qayta ishlash (refaktoring) nima?",
+   "a": [
+    "Xatti-harakatni o'zgartirmasdan kod tuzilishini yaxshilash",
+    "Dasturga yangi funksiyalar qo'shish va interfeysni o'zgartirish",
+    "Dasturni boshqa tilga tarjima qilish",
+    "Dasturni o'chirib, qaytadan yozish"
+   ],
+   "e": "Refaktoring o'qiluvchanlik va qo'llab-quvvatlashni osonlashtiradi."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Dasturlash paradigmalariga qaysi biri kiradi?",
+   "a": [
+    "Protsedurali",
+    "Faqat grafik interfeysli, sichqoncha bilan chiziladigan dasturlash",
+    "Faqat ikkilik kodda yozish",
+    "Faqat matn muharriri"
+   ],
+   "e": "Protsedurali, obyektga yo'naltirilgan, funksional paradigmalar."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Tuzilmaviy dasturlashning asosiy konstruksiyalari qaysilar?",
+   "a": [
+    "Ketma-ketlik, tarmoqlanish, takrorlanish",
+    "Faqat goto va nishonlar",
+    "Faqat funksiyalar va sinflar",
+    "Kompilyatsiya, bog'lash va bajariladigan faylni ishga tushirish"
+   ],
+   "e": "Har qanday algoritmni shu uchta tuzilma bilan ifodalash mumkin."
+  },
+  {
+   "b": "Dasturlash asoslari",
+   "q": "Kutubxona (library) nima?",
+   "a": [
+    "Tayyor funksiya va sinflar to'plami",
+    "Dasturning faqat birinchi qatori",
+    "Kompyuterdagi barcha fayllar ro'yxati",
+    "Operatsion tizim nomi"
+   ],
+   "e": "Masalan, C++ standart kutubxonasi (STL)."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "SQL da jadvaldan barcha ustunlarni tanlash qanday yoziladi?",
+   "a": [
+    "SELECT * FROM jadval;",
+    "GET ALL FROM jadval;",
+    "SELECT ALL jadval;",
+    "SHOW jadval *;"
+   ],
+   "e": "* — barcha ustunlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "SQL da natijani saralash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "ORDER BY",
+    "SORT BY",
+    "GROUP BY",
+    "ARRANGE"
+   ],
+   "e": "DESC — kamayish tartibida."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "SQL da yangi yozuv qo'shish buyrug'i qaysi?",
+   "a": [
+    "INSERT INTO",
+    "ADD ROW",
+    "NEW RECORD",
+    "APPEND TO"
+   ],
+   "e": "INSERT INTO talaba (ism, yosh) VALUES ('Ali', 19);"
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "WHERE shartisiz \"DELETE FROM talaba;\" buyrug'i nima qiladi?",
+   "a": [
+    "Jadvaldagi barcha yozuvlarni o'chiradi",
+    "Faqat birinchi yozuvni o'chiradi",
+    "Jadvalning o'zini (tuzilmasini) o'chiradi",
+    "Hech narsa qilmaydi"
+   ],
+   "e": "Jadval tuzilmasi saqlanadi; DROP TABLE jadvalni butunlay o'chiradi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "Jadval tuzilmasini o'zgartirish (ustun qo'shish) buyrug'i qaysi?",
+   "a": [
+    "ALTER TABLE",
+    "UPDATE TABLE",
+    "CHANGE TABLE",
+    "MODIFY DATABASE"
+   ],
+   "e": "ALTER TABLE talaba ADD tel VARCHAR(20);"
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "CREATE, ALTER, DROP buyruqlari qaysi guruhga kiradi?",
+   "a": [
+    "DDL",
+    "DML",
+    "DCL",
+    "TCL"
+   ],
+   "e": "Data Definition Language."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "GRANT va REVOKE buyruqlari nima uchun ishlatiladi?",
+   "a": [
+    "Foydalanuvchi huquqlarini berish va olish",
+    "Jadval yaratish, uning tuzilmasini o'zgartirish va o'chirish",
+    "Yozuvlarni qo'shish va o'chirish",
+    "Tranzaksiyani tasdiqlash"
+   ],
+   "e": "DCL guruhi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT COUNT(*) FROM talaba;\" nima qaytaradi?",
+   "a": [
+    "Jadvaldagi yozuvlar sonini",
+    "Ustunlar sonini",
+    "Birinchi yozuvni",
+    "Jadval nomini"
+   ],
+   "e": "COUNT(ustun) NULL bo'lmaganlarni sanaydi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "HAVING va WHERE ning farqi nima?",
+   "a": [
+    "HAVING guruhlangan natijaga shart qo'yadi",
+    "HAVING faqat jadval yaratishda ishlatiladi",
+    "WHERE faqat agregat funksiyalar bilan ishlaydi",
+    "Farqi yo'q"
+   ],
+   "e": "WHERE guruhlashdan oldin qatorlarni filtrlaydi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "BETWEEN 10 AND 20 sharti qaysi qiymatlarni qamrab oladi?",
+   "a": [
+    "10 dan 20 gacha (chegaralar bilan)",
+    "10 dan 20 gacha, chegaralarsiz",
+    "Faqat 10 va 20",
+    "10 dan kichik va 20 dan katta"
+   ],
+   "e": "BETWEEN chegaraviy qiymatlarni o'z ichiga oladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "IN operatori nima uchun ishlatiladi?",
+   "a": [
+    "Qiymat ro'yxatdagi qiymatlardan biriga tengligini tekshirish",
+    "Jadvalga yangi qator qo'shib, unga ro'yxatdagi qiymatlarni yozish",
+    "Jadvallarni birlashtirish",
+    "Natijani saralash"
+   ],
+   "e": "WHERE shahar IN ('Toshkent', 'Samarqand')."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "LEFT JOIN nima qaytaradi?",
+   "a": [
+    "Chap jadvalning barcha qatorlari va o'ngdan mos kelganlarini",
+    "Faqat ikkala jadvalda mos kelganlarni, xuddi INNER JOIN kabi",
+    "O'ng jadvalning barcha qatorlarini",
+    "Faqat chap jadvaldagi mos kelmaganlarni"
+   ],
+   "e": "Mos kelmagan joylarda NULL bo'ladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "AS kalit so'zi nima uchun ishlatiladi?",
+   "a": [
+    "Ustun yoki jadvalga taxallus (alias) berish",
+    "Yangi jadval yaratib, unga so'rov natijasini nusxalash",
+    "Ma'lumotlarni o'chirish",
+    "Tranzaksiyani tasdiqlash"
+   ],
+   "e": "SELECT COUNT(*) AS soni FROM talaba;"
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "UNION operatori nima qiladi?",
+   "a": [
+    "Ikki so'rov natijalarini birlashtirib, takrorlarni olib tashlaydi",
+    "Ikki jadvalni ustunlar bo'yicha yonma-yon qo'shib, kengroq jadval hosil qiladi",
+    "Faqat umumiy qatorlarni qaytaradi",
+    "Jadvalni o'chiradi"
+   ],
+   "e": "UNION ALL takrorlarni saqlaydi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "Indeks nima uchun yaratiladi?",
+   "a": [
+    "Qidiruv va tanlashni tezlashtirish uchun",
+    "Jadval hajmini kamaytirish va ma'lumotlarni siqish uchun",
+    "Ma'lumotlarni shifrlash uchun",
+    "Jadvalni o'chirish uchun"
+   ],
+   "e": "Lekin yozish amallarini biroz sekinlashtiradi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT AVG(ball) FROM natija;\" nima qaytaradi?",
+   "a": [
+    "O'rtacha ballni",
+    "Eng yuqori ballni",
+    "Ballar yig'indisini",
+    "Yozuvlar sonini"
+   ],
+   "e": "AVG — o'rta arifmetik."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT guruh, COUNT(*) FROM talaba GROUP BY guruh HAVING COUNT(*) > 25;\" nima qaytaradi?",
+   "a": [
+    "Talabalari 25 dan ko'p bo'lgan guruhlar va ularning soni",
+    "Barcha talabalar ro'yxati va ularning guruhlari bo'yicha tartibi",
+    "25 ta talabaning ismi",
+    "Guruhlar sonini"
+   ],
+   "e": "HAVING guruhlarga shart qo'yadi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "Ikki jadvalni bog'lashda ON qismida odatda nima yoziladi?",
+   "a": [
+    "Birlamchi va tashqi kalitlar tengligi",
+    "Jadval nomlari faqat",
+    "Saralash tartibi va natijada ko'rsatiladigan ustunlar ro'yxati",
+    "Agregat funksiya"
+   ],
+   "e": "... JOIN guruh ON talaba.guruh_id = guruh.id."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"UPDATE mahsulot SET narx = narx * 1.1;\" nima qiladi?",
+   "a": [
+    "Barcha mahsulotlar narxini 10% oshiradi",
+    "Faqat birinchi mahsulot narxini oshiradi",
+    "Narxlarni 1,1 ga tenglaydi",
+    "Narxlarni 10% kamaytiradi"
+   ],
+   "e": "WHERE yo'qligi sababli barcha qatorlar yangilanadi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "FULL OUTER JOIN nima qaytaradi?",
+   "a": [
+    "Ikkala jadvalning barcha qatorlarini, mos kelmaganlarida NULL bilan",
+    "Faqat ikkala jadvalda mos kelgan qatorlarni, xuddi INNER JOIN kabi",
+    "Faqat chap jadval qatorlarini",
+    "Hech narsa qaytarmaydi"
+   ],
+   "e": "LEFT va RIGHT JOIN birlashmasi kabi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "Saqlanuvchi protsedura (stored procedure) nima?",
+   "a": [
+    "MB serverida saqlanadigan va chaqiriladigan SQL dastur bloki",
+    "Mijoz kompyuterida saqlanadigan va har safar qo'lda ochiladigan matnli fayl",
+    "Jadvalning zaxira nusxasi",
+    "Indeks turi"
+   ],
+   "e": "Takroriy amallarni samarali bajaradi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT CONCAT(ism, ' ', familiya) FROM talaba;\" nima qaytaradi?",
+   "a": [
+    "Ism va familiyani bo'sh joy bilan birlashtirilgan holda",
+    "Faqat ismlarni",
+    "Faqat familiyalarni",
+    "Ism va familiya uzunliklari yig'indisini, ya'ni belgilar sonini"
+   ],
+   "e": "Satrlarni birlashtirish funksiyasi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT * FROM a, b;\" (shartsiz) natijasi qanday?",
+   "a": [
+    "Dekart ko'paytma",
+    "Faqat mos keluvchi qatorlar",
+    "Faqat a jadval qatorlari",
+    "Xato"
+   ],
+   "e": "CROSS JOIN ga teng."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "COALESCE(a, b, c) funksiyasi nima qaytaradi?",
+   "a": [
+    "Birinchi NULL bo'lmagan qiymatni",
+    "Barcha qiymatlar yig'indisini, NULL larni nol deb hisoblab",
+    "Eng katta qiymatni",
+    "Har doim NULL"
+   ],
+   "e": "NULL o'rniga standart qiymat berishda qulay."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "EXISTS operatori nimani tekshiradi?",
+   "a": [
+    "Ichki so'rov kamida bitta qator qaytarishini",
+    "Jadval mavjudligini faqat ma'lumotlar lug'atida tekshirish",
+    "Ustun turi raqamligini",
+    "Qiymat NULL ekanligini"
+   ],
+   "e": "Korrelyatsiyalangan ichma-ich so'rovlarda ishlatiladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT * FROM mahsulot ORDER BY narx DESC LIMIT 3;\" nima qaytaradi?",
+   "a": [
+    "Eng qimmat 3 ta mahsulotni",
+    "Eng arzon 3 ta mahsulotni",
+    "Tasodifiy 3 ta mahsulotni",
+    "3-mahsulotni"
+   ],
+   "e": "DESC — kamayish tartibi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "SQL da satr uzunligini qaytaruvchi funksiya qaysi?",
+   "a": [
+    "LENGTH() (yoki LEN())",
+    "SIZE()",
+    "COUNT()",
+    "WIDTH()"
+   ],
+   "e": "MBBT ga qarab nomi farq qiladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT ism FROM talaba WHERE guruh_id IN (SELECT id FROM guruh WHERE kurs = 2);\" nima qaytaradi?",
+   "a": [
+    "2-kurs guruhlaridagi talabalar ismlarini",
+    "Barcha guruhlar nomlarini va ularning kurslarini",
+    "2 ta talaba ismini",
+    "Guruhlar sonini"
+   ],
+   "e": "Ichma-ich so'rov ro'yxat qaytaradi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "EXPLAIN buyrug'i nima uchun ishlatiladi?",
+   "a": [
+    "So'rov bajarilish rejasini ko'rish uchun",
+    "Jadval va ustunlarga matnli izoh (kommentariya) qo'shish uchun",
+    "Xatoni tuzatish uchun avtomatik",
+    "Ma'lumotlarni eksport qilish uchun"
+   ],
+   "e": "Optimallashtirishda yordam beradi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "SQL da \"teng emas\" operatori qaysi?",
+   "a": [
+    "<>",
+    "><, ya'ni teskari yozilgan taqqoslash belgisi",
+    "=!",
+    "~="
+   ],
+   "e": "Ko'pchilik MBBT da != ham ishlaydi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"WHERE yosh > 18 AND guruh = 'A'\" sharti qachon rost?",
+   "a": [
+    "Ikkala shart ham bajarilganda",
+    "Kamida bitta shart bajarilganda, ikkinchisi muhim emas",
+    "Hech bir shart bajarilmaganda",
+    "Har doim, shartlardan qat'i nazar"
+   ],
+   "e": "AND — mantiqiy VA."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "INSERT bilan bir nechta qatorni bir so'rovda qo'shish mumkinmi?",
+   "a": [
+    "Ha",
+    "Yo'q, har bir qator uchun alohida jadval yaratish kerak",
+    "Faqat bitta ustunli jadvalda",
+    "Faqat NoSQL bazalarda"
+   ],
+   "e": "VALUES (...), (...), (...)."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "Ustunni o'chirish qanday yoziladi?",
+   "a": [
+    "ALTER TABLE t DROP COLUMN ustun;",
+    "DELETE COLUMN ustun FROM t WHERE true;",
+    "REMOVE ustun FROM t;",
+    "DROP ustun ON t TABLE;"
+   ],
+   "e": "Ustundagi barcha ma'lumotlar yo'qoladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "Ko'rinish (VIEW) yaratish qanday yoziladi?",
+   "a": [
+    "CREATE VIEW v AS SELECT ...;",
+    "CREATE TABLE v FROM SELECT ... AS VIEW;",
+    "MAKE VIEW v WITH ...;",
+    "VIEW v = SELECT ...;"
+   ],
+   "e": "Ko'rinish so'rov natijasini virtual jadval sifatida taqdim etadi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT UPPER('salom');\" natijasi qanday?",
+   "a": [
+    "SALOM",
+    "salom, chunki funksiya faqat birinchi harfni o'zgartiradi",
+    "Salom",
+    "5"
+   ],
+   "e": "LOWER — kichik harflarga."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT COUNT(DISTINCT shahar) FROM mijoz;\" nima qaytaradi?",
+   "a": [
+    "Turli shaharlar sonini",
+    "Barcha mijozlar sonini, shaharlar takrorlansa ham",
+    "Eng ko'p mijozli shahar nomini",
+    "Shaharlar ro'yxatini"
+   ],
+   "e": "Takrorlanmas qiymatlar sanaladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT 5 + NULL;\" natijasi nima?",
+   "a": [
+    "NULL",
+    "5",
+    "0",
+    "Xato"
+   ],
+   "e": "NULL bilan arifmetik amal NULL beradi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "Sana bo'yicha oraliq tanlash qanday yoziladi?",
+   "a": [
+    "WHERE sana BETWEEN '2026-01-01' AND '2026-12-31'",
+    "WHERE sana IN 2026",
+    "WHERE sana = 2026-yil",
+    "WHERE YEAR = sana"
+   ],
+   "e": "Sana formatini MBBT talabiga moslash kerak."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "Agregat funksiyani WHERE ichida ishlatish mumkinmi?",
+   "a": [
+    "Yo'q, buning uchun HAVING ishlatiladi",
+    "Ha, WHERE COUNT(*) > 5 kabi yozish standart va to'g'ri",
+    "Faqat SUM uchun mumkin",
+    "Faqat NoSQL da mumkin"
+   ],
+   "e": "WHERE guruhlashdan oldin bajariladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasini testlash",
+   "q": "\"SELECT * FROM talaba WHERE ism IN ('Ali', 'Vali');\" nechta shartni tekshiradi?",
+   "a": [
+    "ism 'Ali' yoki 'Vali' ga teng bo'lishini",
+    "ism bir vaqtda ham 'Ali', ham 'Vali' bo'lishini",
+    "ism 'Ali' dan 'Vali' gacha alifbo oralig'ida bo'lishini",
+    "ism bo'sh bo'lishini"
+   ],
+   "e": "IN — YOKI shartlarining qisqa yozuvi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Zararli dastur (malware) nima?",
+   "a": [
+    "Zarar yetkazish uchun yaratilgan dastur",
+    "Kompyuterni tezlashtiruvchi foydali utilita va optimizator",
+    "Operatsion tizim yangilanishi",
+    "Brauzer kengaytmasi har doim"
+   ],
+   "e": "Viruslar, chuvalchanglar, troyanlar, to'lov talab qiluvchilar."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Troyan dasturi nima?",
+   "a": [
+    "Foydali dastur qiyofasidagi zararli dastur",
+    "O'zini o'zi ko'paytiruvchi tarmoq chuvalchangi",
+    "Antivirus dasturi",
+    "Operatsion tizim drayveri"
+   ],
+   "e": "Masalan, \"bepul o'yin\" ichida yashiringan."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Spyware (josus dastur) nima qiladi?",
+   "a": [
+    "Foydalanuvchi faoliyati haqida yashirin ma'lumot yig'adi",
+    "Fayllarni shifrlab, ularni qayta ochish uchun kriptovalyutada to'lov talab qiladi",
+    "Faqat reklama oynalarini ko'rsatadi",
+    "Kompyuterni tozalaydi"
+   ],
+   "e": "Keyloggerlar ham josus dasturlar turiga kiradi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Botnet nima?",
+   "a": [
+    "Hujumchi boshqaradigan zararlangan qurilmalar tarmog'i",
+    "Telegram va boshqa messenjerlar uchun yozilgan bot dasturlari to'plami",
+    "Robotlar ishlab chiqaruvchi zavod",
+    "Antivirus serverlari tarmog'i"
+   ],
+   "e": "DDoS hujumlari va spam tarqatishda ishlatiladi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Nishonli fishing (spear phishing) oddiy fishingdan nimasi bilan farq qiladi?",
+   "a": [
+    "Aniq shaxs yoki tashkilotga moslashtirilgan",
+    "Millionlab tasodifiy foydalanuvchilarga bir xil xat yuboriladi",
+    "Faqat telefon orqali amalga oshiriladi",
+    "Faqat baliq ovida"
+   ],
+   "e": "Shaxsiy ma'lumotlar asosida ishonchli ko'rinadi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "\"O'rtadagi odam\" (MITM) hujumi nima?",
+   "a": [
+    "Ikki tomon aloqasini yashirincha ushlab, o'zgartirish",
+    "Serverni ma'lumotlar markazidan jismoniy o'g'irlab ketish",
+    "Ofis xodimlarini ishdan bo'shatish",
+    "Kompyuterga virus yozish faqat"
+   ],
+   "e": "Shifrlash va sertifikat tekshiruvi himoya qiladi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Lug'at hujumi (dictionary attack) nima?",
+   "a": [
+    "Ko'p uchraydigan so'z va parollar ro'yxatini sinash",
+    "Barcha mumkin bo'lgan belgilar kombinatsiyasini tekshirish",
+    "Lug'at kitobini o'g'irlash",
+    "Tarjimon dasturini buzish"
+   ],
+   "e": "Oddiy parollar tez topiladi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "XSS (saytlararo skripting) hujumi nima?",
+   "a": [
+    "Veb-sahifaga boshqa foydalanuvchilar brauzerida bajariladigan skript joylash",
+    "Serverni elektr ta'minotidan uzib, saytni ishdan chiqarish",
+    "Parolni tasodifiy tanlash",
+    "Ma'lumotlar bazasini o'chirish"
+   ],
+   "e": "Kiritilgan ma'lumotni ekranlash himoya qiladi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "OWASP Top 10 nima?",
+   "a": [
+    "Veb-ilovalardagi eng xavfli zaifliklar ro'yxati",
+    "Eng yaxshi antivirus dasturlari va xavfsizlik vositalarining yillik reytingi",
+    "Eng tez kompyuterlar ro'yxati",
+    "Eng mashhur dasturlash tillari"
+   ],
+   "e": "Muntazam yangilanadi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Insayder tahdid nima?",
+   "a": [
+    "Tashkilot ichidagi xodim tomonidan yuzaga keladigan tahdid",
+    "Faqat tashqi xakerlar tomonidan internet orqali uyushtiriladigan hujum",
+    "Tabiiy ofat",
+    "Elektr uzilishi"
+   ],
+   "e": "Qasddan yoki ehtiyotsizlik tufayli."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Vishing nima?",
+   "a": [
+    "Telefon qo'ng'irog'i orqali fishing",
+    "Elektron pochta orqali spam",
+    "Wi-Fi orqali hujum",
+    "Video orqali hujum"
+   ],
+   "e": "Masalan, \"bank xodimi\" nomidan qo'ng'iroq."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Kriptojeking nima?",
+   "a": [
+    "Boshqalar kompyuteridan yashirincha kriptovalyuta qazish",
+    "Kriptovalyutani qonuniy sotib olish",
+    "Kriptografik kalitlarni yaratish va ularni xavfsiz saqlash",
+    "Hamyonni zaxiralash"
+   ],
+   "e": "Qurilma sekinlashadi, elektr sarfi ortadi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Session hijacking (seansni egallash) nima?",
+   "a": [
+    "Foydalanuvchi seans identifikatorini o'g'irlab, uning nomidan ishlash",
+    "Foydalanuvchi parolini uning roziligisiz o'zgartirib, akkauntni bloklash",
+    "Saytni yopish",
+    "Kompyuterni o'chirish"
+   ],
+   "e": "HTTPS va xavfsiz cookie lar himoya qiladi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Adware nima?",
+   "a": [
+    "Reklama ko'rsatuvchi istalmagan dastur",
+    "Fayllarni shifrlab, to'lov talab qiluvchi dastur",
+    "Tizim yadrosini yashiruvchi rootkit",
+    "Antivirus"
+   ],
+   "e": "Ko'pincha bepul dasturlar bilan o'rnatiladi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Backdoor (orqa eshik) nima?",
+   "a": [
+    "Himoyani chetlab o'tib yashirin kirish usuli",
+    "Server xonasining zaxira chiqish eshigi",
+    "Dasturni yangilash tugmasi",
+    "Tarmoq porti nomi faqat"
+   ],
+   "e": "Ishlab chiquvchi yoki hujumchi tomonidan qoldirilishi mumkin."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Supply chain (yetkazib berish zanjiri) hujumi nima?",
+   "a": [
+    "Uchinchi tomon dasturi yoki yetkazuvchi orqali tizimga kirish",
+    "Do'konga mahsulot yetkazishni to'xtatish va narxlarni oshirish",
+    "Yuk mashinasini o'g'irlash",
+    "Ombordagi tovarni buzish"
+   ],
+   "e": "Masalan, yangilanish serveriga zararli kod joylash."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Shoulder surfing (yelka ortidan qarash) nima?",
+   "a": [
+    "Parol kiritayotgan odamga qarab, uni bilib olish",
+    "Internetda tasodifiy saytlarni ketma-ket ko'rib chiqish odati",
+    "Sport turi",
+    "Tarmoqni skanerlash"
+   ],
+   "e": "Oddiy, lekin samarali usul."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Klikjeking (clickjacking) nima?",
+   "a": [
+    "Yashirin element ustiga foydalanuvchini bosishga majburlash",
+    "Sichqonchani o'g'irlash",
+    "Juda ko'p marta bosib saytni buzish",
+    "Reklama ko'rsatish faqat"
+   ],
+   "e": "X-Frame-Options sarlavhasi himoya qiladi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Watering hole hujumi nima?",
+   "a": [
+    "Nishon guruh tez-tez kiradigan saytni zararlash",
+    "Suv ta'minoti tizimini buzish",
+    "Bog'ni sug'orish dasturi",
+    "Elektron pochta spami"
+   ],
+   "e": "Nishon foydalanuvchilar tanish saytga kirib zararlanadi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Fayllarni shifrlab, kalit uchun pul talab qiluvchi zararli dastur qanday nomlanadi?",
+   "a": [
+    "Ransomware",
+    "Adware (reklama ko'rsatuvchi dastur)",
+    "Spyware (josuslik dasturi)",
+    "Keylogger (klaviatura yozuvchi)"
+   ],
+   "e": "To'lov talab qiluvchi dastur."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "O'zini foydali dastur qilib ko'rsatuvchi zararli dastur qanday nomlanadi?",
+   "a": [
+    "Troyan",
+    "Chuvalchang (tarmoq orqali o'zi tarqaladi)",
+    "Rootkit (yadroda yashirinadi)",
+    "Botnet (zararlangan qurilmalar tarmog'i)"
+   ],
+   "e": "Qadimgi Troya oti afsonasidan."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Soxta elektron xat orqali parolni aldab olish qanday nomlanadi?",
+   "a": [
+    "Fishing",
+    "Sniffing (trafikni tinglash)",
+    "Spoofing (manzilni soxtalashtirish)",
+    "Scanning (portlarni skanerlash)"
+   ],
+   "e": "Ingliz tilidagi \"fishing\" — baliq ovi so'zidan."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Jo'natuvchi manzilini soxtalashtirish qanday nomlanadi?",
+   "a": [
+    "Spoofing",
+    "Sniffing (trafikni ushlash)",
+    "Hashing (xesh hisoblash)",
+    "Salting (parolga tuz qo'shish)"
+   ],
+   "e": "IP, email, DNS spoofing."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Bir vaqtda ko'plab qurilmalardan so'rov yuborib saytni ishdan chiqarish qanday nomlanadi?",
+   "a": [
+    "DDoS",
+    "VPN (shifrlangan kanal)",
+    "SSH (xavfsiz masofaviy kirish)",
+    "TLS (trafikni shifrlash)"
+   ],
+   "e": "Distributed Denial of Service."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Veb-formaga zararli SQL kodini kiritish hujumi qanday nomlanadi?",
+   "a": [
+    "SQL injection",
+    "Cross-site scripting (brauzerda skript bajarish)",
+    "Clickjacking (yashirin tugma)",
+    "Typosquatting (o'xshash domen)"
+   ],
+   "e": "Ma'lumotlar bazasiga ruxsatsiz kirish."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Ijtimoiy tarmoqlarda shaxsiy ma'lumotlarni ko'p e'lon qilish nimaga olib kelishi mumkin?",
+   "a": [
+    "Nishonli hujumlar va shaxsni o'g'irlash",
+    "Akkauntning yanada xavfsiz bo'lishi",
+    "Internet tezligining oshishi",
+    "Hech narsaga"
+   ],
+   "e": "OSINT — ochiq manbalardan razvedka."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Hujumchilar zaifliklarni topish uchun avval nima qiladi?",
+   "a": [
+    "Razvedka (ma'lumot yig'ish)",
+    "Darhol tasodifiy tarzda tizimni buzishga harakat qiladi",
+    "Tizim egasidan ruxsat so'raydi",
+    "Hech narsa qilmaydi"
+   ],
+   "e": "Kiber hujum zanjirining birinchi bosqichi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Zararli dastur kompyuterga tushganining belgilari qaysilar?",
+   "a": [
+    "Tizim sekinlashuvi, noma'lum jarayonlar, g'ayrioddiy trafik",
+    "Kompyuterning odatdagidan tez ishlashi va hamma narsa joyida bo'lishi",
+    "Ekran yorqinligining oshishi",
+    "Hech qanday belgi bo'lmaydi har doim"
+   ],
+   "e": "Shubha tug'ilsa, tarmoqdan uzib, tekshirish kerak."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Sun'iy intellekt hujumchilar tomonidan qanday ishlatilishi mumkin?",
+   "a": [
+    "Ishonarli fishing xatlarini avtomatik yaratish",
+    "Faqat himoya tizimlarini kuchaytirish uchun",
+    "Faqat ob-havo prognozi uchun",
+    "Umuman ishlatilmaydi"
+   ],
+   "e": "Himoya tomonida ham SI keng qo'llaniladi."
+  },
+  {
+   "b": "Xavfsizlik testlash",
+   "q": "Hujumchilar QR-koddan qanday foydalanishi mumkin?",
+   "a": [
+    "Soxta saytga yo'naltiruvchi QR-kod joylash",
+    "QR-kod orqali kompyuterni jismonan sindirish",
+    "QR-kodni o'chirish",
+    "QR-kod orqali internetni tezlashtirish"
+   ],
+   "e": "\"Quishing\" — QR orqali fishing."
+  },
+  {
+   "b": "Unumdorlik testlash",
+   "q": "Javob vaqti (response time) nima?",
+   "a": [
+    "So'rovdan javobgacha vaqt",
+    "Dasturchining kod yozish tezligi va unumdorligi",
+    "Serverning ishlab chiqarilgan yili",
+    "Foydalanuvchining yoshi"
+   ],
+   "e": "Millisekundlarda."
+  },
+  {
+   "b": "Unumdorlik testlash",
+   "q": "O'tkazuvchanlik (throughput) unumdorlik testida nimani bildiradi?",
+   "a": [
+    "Vaqt birligida qayta ishlangan so'rovlar soni",
+    "Bitta so'rovning hajmi faqat",
+    "Serverning og'irligi",
+    "Kod satrlari soni"
+   ],
+   "e": "So'rov/sekund."
+  },
+  {
+   "b": "Unumdorlik testlash",
+   "q": "Chidamlilik (endurance/soak) testi nimani aniqlaydi?",
+   "a": [
+    "Uzoq vaqt ishlashda muammolarni",
+    "Bir sekundlik qisqa ishni",
+    "Faqat dizaynni",
+    "Faqat imloni"
+   ],
+   "e": "Masalan, xotira oqishi."
+  },
+  {
+   "b": "Unumdorlik testlash",
+   "q": "Xotira oqishi (memory leak) nima?",
+   "a": [
+    "Ishlatilmagan xotiraning bo'shatilmasligi",
+    "Xotiraning tezlashishi",
+    "Diskning to'lishi faqat",
+    "Internetning uzilishi"
+   ],
+   "e": "Vaqt o'tishi bilan sekinlashuv."
+  },
+  {
+   "b": "Unumdorlik testlash",
+   "q": "Spike testlash nima?",
+   "a": [
+    "Yuklamaning keskin sakrashiga reaksiyani tekshirish",
+    "Yuklamani asta-sekin kamaytirish",
+    "Faqat dizayn tekshiruvi",
+    "Kod tahlili"
+   ],
+   "e": "To'satdan ko'p foydalanuvchi."
+  },
+  {
+   "b": "Unumdorlik testlash",
+   "q": "Masshtablanuvchanlik testi nimani baholaydi?",
+   "a": [
+    "Resurs qo'shilganda unumdorlik o'sishini",
+    "Faqat ekran o'lchamini",
+    "Faqat fayl nomini",
+    "Faqat rangni"
+   ],
+   "e": "Gorizontal/vertikal masshtablash."
+  },
+  {
+   "b": "Unumdorlik testlash",
+   "q": "Unumdorlik testida \"virtual foydalanuvchi\" nima?",
+   "a": [
+    "Real foydalanuvchini taqlid qiluvchi skript",
+    "Haqiqiy mijoz",
+    "Tizim administratori",
+    "Testerning o'zi"
+   ],
+   "e": "JMeter thread lari."
+  },
+  {
+   "b": "Unumdorlik testlash",
+   "q": "Unumdorlik testida \"tor joy\" (bottleneck) nima?",
+   "a": [
+    "Butun tizimni sekinlatuvchi komponent",
+    "Eng tez komponent",
+    "Tarmoq kabelining uzunligi",
+    "Ekran o'lchami"
+   ],
+   "e": "CPU, xotira, DB, tarmoq."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Testlash hayot sikli (STLC) birinchi bosqichi qaysi?",
+   "a": [
+    "Talablarni tahlil qilish",
+    "Test-keyslarni bajarish",
+    "Hisobot yozish",
+    "Testlashni yopish"
+   ],
+   "e": "Keyin rejalashtirish, dizayn, bajarish."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Test-keys yozishda \"atomarlik\" tamoyili nimani anglatadi?",
+   "a": [
+    "Har test bitta narsani tekshiradi",
+    "Har test hamma narsani birdan tekshiradi",
+    "Test qadamlari yo'q",
+    "Kutilgan natija yozilmaydi"
+   ],
+   "e": "Aniqlik va lokalizatsiya."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Pozitiv test nima?",
+   "a": [
+    "To'g'ri ma'lumot bilan kutilgan ishlashni tekshirish",
+    "Noto'g'ri ma'lumot bilan tekshirish",
+    "Testni o'tkazib yuborish",
+    "Xatoni yashirish"
+   ],
+   "e": "\"Happy path\"."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "\"Happy path\" ssenariysi nima?",
+   "a": [
+    "Xatosiz asosiy foydalanish yo'li",
+    "Faqat xatolar ketma-ketligi",
+    "Test muhitini buzish",
+    "Tasodifiy harakatlar"
+   ],
+   "e": "Asosiy oqim."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Edge case (chekka holat) nima?",
+   "a": [
+    "Odatiy bo'lmagan, chegaraviy holat",
+    "Eng keng tarqalgan holat",
+    "Testlash shart bo'lmagan holat",
+    "Dizayn xatosi faqat"
+   ],
+   "e": "Masalan, bo'sh maydon."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Testerlar va dasturchilar o'rtasidagi samarali muloqot nimaga asoslanadi?",
+   "a": [
+    "Faktlarga va hurmatga",
+    "Ayblashga",
+    "Xatolarni yashirishga",
+    "Raqobatga"
+   ],
+   "e": "Umumiy maqsad — sifat."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Testlashda \"mustaqillik\" tamoyili nima uchun muhim?",
+   "a": [
+    "Xolis baho uchun",
+    "Testerni yolg'iz qoldirish uchun",
+    "Dasturchilarni chetlatish uchun",
+    "Hujjatlarni yashirish uchun"
+   ],
+   "e": "Mustaqil testerlar ko'proq xato topadi."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "ISTQB nima?",
+   "a": [
+    "Testerlar sertifikatsiya kengashi",
+    "Dasturlash tili",
+    "Operatsion tizim",
+    "Brauzer"
+   ],
+   "e": "Xalqaro standartlashtirilgan malaka."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "ISO/IEC 25010 standarti nimaga bag'ishlangan?",
+   "a": [
+    "Dasturiy mahsulot sifati modeliga",
+    "Oziq-ovqat xavfsizligiga",
+    "Ekologik menejmentga",
+    "Qurilish materiallariga"
+   ],
+   "e": "Funksionallik, ishonchlilik va boshqalar."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Ishonchlilik (reliability) sifat xususiyati nimani bildiradi?",
+   "a": [
+    "Muayyan vaqtda xatosiz ishlash qobiliyatini",
+    "Faqat chiroyli interfeysni",
+    "Faqat arzon narxni",
+    "Faqat katta hajmni"
+   ],
+   "e": "MTBF."
+  },
+  {
+   "b": "Testlash asoslari",
+   "q": "Qo'llab-quvvatlanuvchanlik (maintainability) nimani bildiradi?",
+   "a": [
+    "O'zgartirish va tuzatish osonligini",
+    "Faqat tezlikni",
+    "Faqat xavfsizlikni",
+    "Faqat dizaynni"
+   ],
+   "e": "Kod sifati."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Selenium WebDriver da elementni topish usullaridan biri qaysi?",
+   "a": [
+    "By.id",
+    "By.color",
+    "By.size",
+    "By.weight"
+   ],
+   "e": "XPath, CSS selector ham."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "XPath nima uchun ishlatiladi?",
+   "a": [
+    "Sahifa elementlarini topish uchun",
+    "Fayllarni siqish uchun",
+    "Rasmni bo'yash uchun",
+    "Parol yaratish uchun"
+   ],
+   "e": "XML/HTML yo'li."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Avtotestlarda \"kutish\" (wait) nima uchun kerak?",
+   "a": [
+    "Element yuklanishini kutish uchun",
+    "Testni ataylab sekinlashtirish uchun",
+    "Kompyuterni o'chirish uchun",
+    "Xatoni yashirish uchun"
+   ],
+   "e": "Explicit wait."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Headless brauzer nima?",
+   "a": [
+    "Grafik interfeyssiz ishlaydigan brauzer",
+    "Faqat mobil brauzer",
+    "Eski brauzer versiyasi",
+    "Brauzer kengaytmasi"
+   ],
+   "e": "CI muhitida tez testlash."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Docker test muhitida nima beradi?",
+   "a": [
+    "Bir xil, takrorlanadigan muhit",
+    "Har safar boshqacha muhit",
+    "Testlarni o'chirish",
+    "Kodni yashirish"
+   ],
+   "e": "Konteynerlar."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Kod qamrovini o'lchash vositasiga misol qaysi?",
+   "a": [
+    "JaCoCo yoki coverage.py",
+    "Photoshop",
+    "Excel",
+    "Skype"
+   ],
+   "e": "Qamrov hisoboti."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Playwright va Cypress qanday vositalar?",
+   "a": [
+    "Veb avtotestlash freymvorklari",
+    "Ma'lumotlar bazalari",
+    "Operatsion tizimlar",
+    "Grafik muharrirlar"
+   ],
+   "e": "Zamonaviy UI testlash."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Kontrakt testlash (contract testing) nimani tekshiradi?",
+   "a": [
+    "Servislar o'rtasidagi kelishilgan interfeysni",
+    "Faqat ishchilar mehnat shartnomasini",
+    "Faqat server narxini",
+    "Faqat foydalanuvchi parolini"
+   ],
+   "e": "Mikroservislar."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Kanban doskasida ustunlar odatda nimani bildiradi?",
+   "a": [
+    "Vazifa holatlarini",
+    "Xodimlar ismlarini",
+    "Ish haqini",
+    "Server nomlarini"
+   ],
+   "e": "To Do, In Progress, Done."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Scrum da \"Daily Scrum\" nima?",
+   "a": [
+    "Qisqa kundalik uchrashuv",
+    "Oylik hisobot",
+    "Yillik bayram",
+    "Dasturni chiqarish"
+   ],
+   "e": "15 daqiqa."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "DevOps madaniyatida testlashning o'rni qanday?",
+   "a": [
+    "Avtomatlashtirilgan va uzluksiz",
+    "Faqat oxirida qo'lda",
+    "Umuman yo'q",
+    "Faqat yilda bir marta"
+   ],
+   "e": "CI/CD quvuri."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Release candidate (RC) nima?",
+   "a": [
+    "Chiqarishga nomzod versiya",
+    "Eng birinchi prototip",
+    "Bekor qilingan versiya",
+    "Hujjat turi"
+   ],
+   "e": "Yakuniy tekshiruvdan o'tadi."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Hotfix nima?",
+   "a": [
+    "Shoshilinch tuzatish",
+    "Yangi katta funksiya",
+    "Rejali yangilanish",
+    "Dizayn o'zgarishi"
+   ],
+   "e": "Production dagi kritik xato uchun."
+  },
+  {
+   "b": "Jarayonlar va modellar",
+   "q": "Canary relizi nima?",
+   "a": [
+    "Yangilikni avval kichik foydalanuvchilar guruhiga chiqarish",
+    "Hammaga birdan chiqarish",
+    "Chiqarishni bekor qilish",
+    "Faqat ichki sinov"
+   ],
+   "e": "Xavfni kamaytirish."
   }
  ]
 }
