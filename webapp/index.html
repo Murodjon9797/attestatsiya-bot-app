@@ -250,22 +250,15 @@ function renderWizard(){
         + `<div class="card"><h3>Attestatsiyaga jalb etilmaysiz</h3><p class="sub" style="margin:0">Nizomning 5-bandiga ko'ra (VMning 2026-yil 9-oktabrdagi 552-son qarori tahriri) barcha pedagog kadrlar attestatsiyaga jalb etiladi, <b style="color:var(--white)">kasbiy ta'lim tashkilotlarining ishlab chiqarish ta'limi ustalari bundan mustasno</b>.</p></div>
         <button class="btn" id="ustaYes">Baribir mutaxassislik fanlari bo'yicha mashq qilaman</button>`;
     } else {
-      const C=S.catalog, [bi,yi,mi]=W.path;
       const hint = `<p class="note">Nizom (18-band): bir nechta umumkasbiy va maxsus fandan dars bersangiz, <b>o'quv yuklamasi eng ko'p bo'lgan fanni</b> tanlang. Yuklama teng bo'lsa — o'zingiz tanlagan fan.</p>`;
-      if (bi===undefined) html = head("Qaysi mutaxassislikda dars berasiz?", "2-qadam · bilim sohasi") + hint + `<div class="list">` + C.sohalar.map((s,i)=>`<button class="item" data-wi="${i}"><div class="t"><b>${esc(s.n)}</b></div><span class="chev">›</span></button>`).join("") + `</div>`
-        + `<div class="grp">Yoki fanni to'g'ridan-to'g'ri tanlang</div><div class="list">` + B.filter(b=>b.turi==="maxsus").map(subjBtn).join("") + `</div>`;
-      else if (yi===undefined) html = head("Yo'nalish", C.sohalar[bi].n) + `<div class="list">` + C.sohalar[bi].y.map((y,i)=>`<button class="item" data-wi="${i}"><div class="t"><b>${esc(y.n)}</b><small>${esc(y.k)}</small></div><span class="chev">›</span></button>`).join("") + `</div>`;
-      else if (mi===undefined) html = head("Mutaxassislik", C.sohalar[bi].y[yi].n) + `<div class="list">` + C.sohalar[bi].y[yi].m.map((m,i)=>`<button class="item" data-wi="${i}"><div class="t"><b>${esc(m.n)}</b><small>${esc(m.k)}</small></div><span class="chev">›</span></button>`).join("") + `</div>`;
-      else {
-        const m=C.sohalar[bi].y[yi].m[mi];
-        if (!W.fanlar) { api(`/api/fanlar?b=${bi}&y=${yi}&m=${mi}`).then(r=>{ W.fanlar=r.fanlar; render(); }).catch(e=>{ toast(e.message); W.fanlar=[]; render(); }); html = head("Fanlar", m.n) + `<div class="loader"><div class="ring"></div></div>`; }
-        else {
-          const groups={}; W.fanlar.forEach((f,i)=>{ if (/umumta|tabiiy|gumanitar/i.test(f.blok||"")) return; (groups[f.blok||"Fanlar"]=groups[f.blok||"Fanlar"]||[]).push([f,i]); });
-          html = head("Eng ko'p dars beradigan faningiz", `${m.k} · ${m.n}`) + hint
-            + (Object.keys(groups).length ? Object.entries(groups).map(([g,arr])=>`<div class="grp">${esc(g)}</div><div class="list">` + arr.map(([f,i])=>`<button class="item" data-wf="${i}"><div class="t"><b>${esc(f.nomi)}</b><small>${esc([f.kod, f.soat&&f.soat+" soat"].filter(Boolean).join(" · "))}</small></div>${f.bank?'<span class="tag g">savollar bor</span>':'<span class="tag p">savollar yo\'q</span>'}</button>`).join("") + `</div>`).join("")
-               : `<div class="empty">Bu mutaxassislik uchun saytda o'quv dasturi hali joylanmagan. Ortga qaytib, fanni to'g'ridan-to'g'ri tanlang.</div>`);
-        }
-      }
+      const nrm = s => s.toLowerCase().replace(/[ʻʼ‘’`']/g,"");
+      const arr = B.filter(b=>b.turi==="maxsus" && (!W.q || nrm(b.nomi+" "+b.kat).includes(nrm(W.q.trim()))));
+      const kats = [...new Set([...arr].sort((a,b)=>(a.kat_n??99)-(b.kat_n??99)).map(b=>b.kat))];
+      html = head("Qaysi fandan dars berasiz?", "2-qadam · Attestatsiya fani") + hint
+        + `<input class="search" id="wq" placeholder="🔍 Fan nomini yozing: dasturlash, lotin, temir yo'l…" value="${esc(W.q||"")}" autocomplete="off">`
+        + (arr.length ? (W.q ? `<div class="list">${arr.map(subjBtn).join("")}</div>`
+                             : kats.map(k=>`<div class="grp">${esc(k)}</div><div class="list" style="margin-bottom:6px">${arr.filter(b=>b.kat===k).map(subjBtn).join("")}</div>`).join(""))
+                      : `<div class="empty">Bunday fan topilmadi. Boshqacha yozib ko'ring.</div>`);
     }
   } else {
     const opt=(id)=>`<button class="choice ${W.toifa===id?'on':''}" data-toifa="${id}"><span><b>${esc(T[id].nomi)}</b><small>${T[id].chegaralar.filter(c=>c.ball>0).map(c=>`${c.ball}+ ball — ${esc(c.natija)}`).join(" · ")}</small></span></button>`;
@@ -278,6 +271,7 @@ function renderWizard(){
   }
   $app.innerHTML = `<div class="fade">${html}</div>`;
   const wb=document.getElementById("wback"); if (wb) wb.onclick=wizBack;
+  const wq=document.getElementById("wq"); if (wq) wq.oninput=()=>{ W.q=wq.value; const pos=wq.selectionStart; render(); const n=document.getElementById("wq"); n.focus(); n.setSelectionRange(pos,pos); };
   $app.querySelectorAll("[data-lav]").forEach(b=>b.onclick=()=>{ haptic(); W.lavozim=b.dataset.lav; W.sid=null; W.fan_nomi=""; W.mutax=""; W.path=[]; W.fanlar=null; W.ustaMashq=false; W.step=2; render(); });
   const uy=document.getElementById("ustaYes"); if (uy) uy.onclick=()=>{ W.ustaMashq=true; render(); };
   $app.querySelectorAll("[data-wi]").forEach(b=>b.onclick=()=>{ haptic(); W.path.push(+b.dataset.wi); W.fanlar=null; render(); window.scrollTo(0,0); });
@@ -402,7 +396,7 @@ function renderTest(){
           ? (found.length ? `<div class="list" style="margin-bottom:6px">${found.map(item).join("")}</div>` : `<div class="empty">Bunday fan topilmadi. Boshqacha yozib ko'ring.</div>`)
           : (mine ? `<div class="grp">Sizning attestatsiya faningiz</div><div class="list" style="margin-bottom:6px">${item(mine)}</div>` : (p ? "" : `<button class="btn ghost" id="setP" style="margin-bottom:12px">Nizom bo'yicha sozlash</button>`))
             + kats.map(k => { const arr = S.bank.filter(b=>b.kat===k && b.id!==(mine&&mine.id)); return arr.length ? `<div class="grp">${esc(k)}</div><div class="list" style="margin-bottom:6px">${arr.map(item).join("")}</div>` : ""; }).join(""))
-      + (S.filter ? "" : `<div class="grp">Mutaxassislik bo'yicha</div><div class="list">` + C.sohalar.map((s,i)=>`<button class="item" data-i="${i}"><div class="t"><b>${esc(s.n)}</b><small>${s.y.length} yo'nalish</small></div><span class="chev">›</span></button>`).join("") + `</div>`);
+;
   } else if (yi === undefined) {
     const s = C.sohalar[bi];
     html = crumbs("Yo'nalish", s.n) + searchBox("Qidirish") + `<div class="list">` + s.y.map((y,i)=> match(y.k+" "+y.n) ? `<button class="item" data-i="${i}"><div class="t"><b>${esc(y.n)}</b><small>${esc(y.k)}</small></div><span class="n">${y.m.length}</span><span class="chev">›</span></button>` : "").join("") + `</div>`;

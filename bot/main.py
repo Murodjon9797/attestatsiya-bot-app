@@ -104,7 +104,6 @@ def home_kb(uid: int) -> InlineKeyboardMarkup:
     if WEBAPP_URL:
         rows.append([InlineKeyboardButton(text="📱 Ilovani ochish", web_app=WebAppInfo(url=WEBAPP_URL))])
     rows.append([btn("💎 Premium", "premium"), btn("📊 Tahlil", "tahlil")])
-    rows.append([btn("🗂 Mutaxassislik bo'yicha izlash", "sohalar")])
     return InlineKeyboardMarkup(inline_keyboard=rows)
 
 
