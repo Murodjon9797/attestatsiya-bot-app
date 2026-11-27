@@ -1,0 +1,3331 @@
+{
+ "kod": "",
+ "nomi": "Traktorlar va qishloq xo'jaligi agregatlarining tuzilishi",
+ "turi": "maxsus",
+ "manba": "Traktorlar va qishloq xo'jaligi mashinalari tuzilishi bo'yicha kasb-hunar ta'limi darsliklari, TTZ/MTZ traktorlari texnik hujjatlari",
+ "savollar": [
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Traktorning asosiy qismlari qaysilar?",
+   "a": [
+    "Dvigatel, transmissiya, yurish qismi, boshqaruv",
+    "Faqat dvigatel, rul va g'ildiraklar",
+    "Faqat kabina, o'rindiq va boshqaruv richaglari",
+    "Faqat gidrotizim, osma qurilma va tirkama"
+   ],
+   "e": "Shuningdek elektr jihozlari."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Yurish qismining turiga ko'ra traktorlar qanday turlarga bo'linadi?",
+   "a": [
+    "G'ildirakli va zanjirli (gusenitsali)",
+    "Benzinli va dizelli dvigatelli",
+    "Yengil va og'ir vaznli",
+    "Bir o'qli va ko'p o'qli"
+   ],
+   "e": "Yarim zanjirli ham uchraydi."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Zanjirli traktorlarning g'ildirakli traktorlarga nisbatan asosiy afzalligi nima?",
+   "a": [
+    "Tuproqqa bosimi kam, ilashishi (tortish kuchi) yuqori",
+    "Harakat tezligi ancha yuqori va tejamkor",
+    "Asfalt yo'lda tez va qulay harakatlanishi mumkinligi",
+    "Ta'mirlash va texnik xizmati arzon hamda oson"
+   ],
+   "e": "Og'ir ishlarda."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Universal-chopiq traktorlariga misol qaysi?",
+   "a": [
+    "TTZ-80, MTZ-80/82",
+    "T-150K, K-700",
+    "DT-75, T-4A",
+    "T-130, T-170"
+   ],
+   "e": "Chopiq ekinlarni ishlashda."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Traktorning tortish sinfi nimani bildiradi?",
+   "a": [
+    "Ilgakdagi nominal tortish kuchini",
+    "Dvigatel silindrlari sonini va joylashuvini",
+    "Kabinadagi o'rindiqlar sonini",
+    "Yonilg'i bakining hajmini (litrda)"
+   ],
+   "e": "kN (tonna-kuch) da."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "MTZ-80 traktorining tortish sinfi qaysi?",
+   "a": [
+    "1,4",
+    "0,6",
+    "3",
+    "5"
+   ],
+   "e": "14 kN."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Traktorning agrotexnik oralig'i (klirensi) nima?",
+   "a": [
+    "Yerdan traktorning eng past nuqtasigacha masofa",
+    "Old va orqa o'qlar orasidagi masofa",
+    "Chap va o'ng g'ildiraklar markazlari orasidagi masofa",
+    "Yerdan kabina tomigacha bo'lgan balandlik"
+   ],
+   "e": "Chopiq traktorlarda katta."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Traktor koleyasi (iz kengligi) nima?",
+   "a": [
+    "Bir o'qdagi g'ildiraklar markazlari orasidagi masofa",
+    "Old va orqa o'qlar markazlari orasidagi masofa",
+    "Yerdan kabina tomigacha bo'lgan balandlik",
+    "Orqa yetakchi g'ildirakning tashqi diametri"
+   ],
+   "e": "Qator oralig'iga moslab o'zgartiriladi."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Traktor bazasi nima?",
+   "a": [
+    "Old va orqa o'qlar orasidagi masofa",
+    "Chap va o'ng g'ildiraklar orasidagi masofa",
+    "Yerdan eng past nuqtagacha masofa",
+    "Traktorning umumiy uzunligi"
+   ],
+   "e": "Turg'unlikka ta'sir qiladi."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Traktorlarda asosan qanday dvigatellar qo'llanadi?",
+   "a": [
+    "To'rt taktli dizel dvigatellari",
+    "Ikki taktli benzin dvigatellari",
+    "Elektr dvigatellari",
+    "Bug' mashinalari"
+   ],
+   "e": "Tejamkor va katta burovchi moment."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Dizel dvigatelida yonilg'i qanday alangalanadi?",
+   "a": [
+    "Siqilgan va qizigan havodan o'z-o'zidan",
+    "Uchqun shamidan elektr uchqun bilan",
+    "Tashqi olov manbaidan, qizdirgich sham orqali",
+    "Maxsus gaz gorelkasidan doimiy alanga bilan"
+   ],
+   "e": "Siqish darajasi 14–22."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "To'rt taktli dvigatelning ish sikli taktlari tartibi qanday?",
+   "a": [
+    "So'rish, siqish, ish yo'li, chiqarish",
+    "Siqish, so'rish, chiqarish, ish yo'li",
+    "Ish yo'li, so'rish, siqish, chiqarish",
+    "Chiqarish, ish yo'li, siqish, so'rish"
+   ],
+   "e": "Tirsakli val 2 marta aylanadi."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "To'rt taktli dvigatelning bir ish siklida tirsakli val necha marta aylanadi?",
+   "a": [
+    "2 marta",
+    "1 marta",
+    "4 marta",
+    "0,5 marta"
+   ],
+   "e": "720°."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Dvigatelning siqish darajasi nima?",
+   "a": [
+    "To'liq hajmning yonish kamerasi hajmiga nisbati",
+    "Porshen yo'lining silindr diametriga bo'lgan nisbati",
+    "Silindrlar sonining dvigatel hajmiga nisbati",
+    "Yonilg'i sarfining dvigatel quvvatiga nisbati"
+   ],
+   "e": "ε = Va/Vc."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Dvigatelning litraj hajmi nima?",
+   "a": [
+    "Barcha silindrlar ishchi hajmlarining yig'indisi",
+    "Bitta silindr yonish kamerasining hajmi (litrda)",
+    "Yonilg'i bakining to'liq hajmi",
+    "Moy karterining hajmi"
+   ],
+   "e": "Litrlarda."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Porshenning yuqori va pastki chekka nuqtalari orasidagi masofa qanday ataladi?",
+   "a": [
+    "Porshen yo'li",
+    "Silindr diametri",
+    "Siqish darajasi",
+    "Yonish kamerasi"
+   ],
+   "e": "S."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Krivoship-shatun mexanizmining vazifasi nima?",
+   "a": [
+    "Ilgarilanma harakatni aylanma harakatga aylantirish",
+    "Yonilg'ini yuqori bosim ostida silindrga purkash",
+    "Klapanlarni o'z vaqtida ochish va yopish",
+    "Dvigatelni suyuqlik bilan majburiy sovutish"
+   ],
+   "e": "KShM."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Krivoship-shatun mexanizmining qo'zg'aluvchan qismlariga nimalar kiradi?",
+   "a": [
+    "Porshen, halqalar, barmoq, shatun, tirsakli val, maxovik",
+    "Silindrlar bloki, kallak, karter va prokladkalar",
+    "Taqsimlovchi val, klapanlar, itargichlar, koromislolar",
+    "Radiator, suv nasosi, ventilyator va termostat"
+   ],
+   "e": "Qo'zg'almas — blok, kallak, karter."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Porshen halqalarining turlari qaysilar?",
+   "a": [
+    "Kompression va moy siqib oluvchi",
+    "Faqat kompression halqalar",
+    "Faqat moy siqib oluvchi halqalar",
+    "Sovutuvchi va isituvchi halqalar"
+   ],
+   "e": "Kompression — germetiklik."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Maxovikning vazifasi nima?",
+   "a": [
+    "Valning bir tekis aylanishini ta'minlash",
+    "Dvigatelni havo oqimi bilan sovutish",
+    "Yonilg'ini mexanik aralashmalardan tozalash",
+    "Moyni silindr devorlariga uzatish"
+   ],
+   "e": "Inersiya."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Gaz taqsimlash mexanizmining vazifasi nima?",
+   "a": [
+    "Havo kiritish va ishlatilgan gazlarni chiqarish",
+    "Yonilg'ini yuqori bosim bilan purkash",
+    "Moyni ishqalanuvchi yuzalarga yetkazish",
+    "Dvigatelni starter yordamida ishga tushirish va to'xtatish"
+   ],
+   "e": "Klapanlar orqali."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Klapanlar va koromislo orasidagi issiqlik tirqishi nima uchun kerak?",
+   "a": [
+    "Qizigan klapan zich yopilishi uchun",
+    "Moy klapan sterjeniga yaxshi o'tishi uchun",
+    "Havo silindrga tezroq kirishi uchun",
+    "Dvigatel ishlashini ovozliroq qilish uchun"
+   ],
+   "e": "Tirqish rostlanadi."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Taqsimlovchi val tirsakli valdan necha marta sekin aylanadi?",
+   "a": [
+    "2 marta",
+    "4 marta",
+    "1 marta (bir xil)",
+    "3 marta"
+   ],
+   "e": "Har sikl bir marta ochilishi uchun."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Dvigatel silindrlari blokini nima yopib turadi?",
+   "a": [
+    "Silindrlar kallagi (golovka)",
+    "Moy karteri (poddon)",
+    "Maxovik qopqog'i (kojux)",
+    "Radiator va uning qopqog'i"
+   ],
+   "e": "Prokladka orqali."
+  },
+  {
+   "b": "Traktorlarning umumiy tuzilishi",
+   "q": "Dvigatelning yonilg'i tejamkorligi qanday ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Solishtirma yonilg'i sarfi",
+    "Silindrlar soni va joylashuvi",
+    "Klirens (agrotexnik oraliq)",
+    "Koleya (iz kengligi)"
+   ],
+   "e": "Kamroq — tejamkor."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Dizel dvigatelining ta'minot tizimidagi yuqori bosimli yonilg'i nasosining vazifasi nima?",
+   "a": [
+    "Yonilg'ini dozalab, yuqori bosimda forsunkalarga uzatish",
+    "Yonilg'ini bakdan past bosimda filtrga haydash",
+    "Silindrga kiruvchi havoni changdan tozalash",
+    "Moyni bosim ostida dvigatel bo'ylab haydab aylantirish"
+   ],
+   "e": "TNVD."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Yonilg'ini silindrga mayda zarrachalar holida purkovchi qism qaysi?",
+   "a": [
+    "Forsunka",
+    "Yonilg'i haydovchi nasos",
+    "Dag'al tozalash filtri",
+    "Karburator"
+   ],
+   "e": "Dizellarda karburator yo'q."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Yonilg'i haydovchi (podkachka) nasosining vazifasi nima?",
+   "a": [
+    "Yonilg'ini bakdan filtrlar orqali TNVD ga uzatish",
+    "Yonilg'ini silindrga yuqori bosimda purkash",
+    "Moyni mexanik zarrachalardan filtrlash",
+    "Sovutish suyuqligini tizimda aylantirish"
+   ],
+   "e": "Qo'l nasosi ham bor."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Dizel ta'minot tizimiga havo kirib qolsa nima qilinadi?",
+   "a": [
+    "Qo'l nasosi bilan havo chiqariladi",
+    "Dvigatel uzoq vaqt starter bilan aylantiriladi",
+    "Yonilg'i bakiga biroz suv qo'shiladi",
+    "Forsunkalar olib tashlanib, tozalanadi"
+   ],
+   "e": "Havo tiqini."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Yonilg'i nasosining rostlagichi (regulyator) nima qiladi?",
+   "a": [
+    "Yuklama o'zgarganda aylanishlar sonini saqlaydi",
+    "Moy magistralidagi bosimni oshiradi",
+    "Havo filtrini avtomatik tozalaydi",
+    "Generator kuchlanishini avtomatik rostlab turadi"
+   ],
+   "e": "Markazdan qochma rostlagich."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Havo tozalagichning vazifasi nima?",
+   "a": [
+    "Kiruvchi havoni changdan tozalash",
+    "Ishlatilgan gazlarni sovutish va susaytirish",
+    "Qishda yonilg'ini oldindan qizdirish",
+    "Dvigatel moyini mexanik aralashmadan tozalash"
+   ],
+   "e": "Chang — silindr yeyilishining asosiy sababi."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Turbokompressor (turbonadduv) nima uchun qo'llanadi?",
+   "a": [
+    "Ko'proq havo haydab, quvvatni oshirish",
+    "Dvigatelni qo'shimcha havo bilan sovutish",
+    "Moy magistralidagi bosimni kamaytirish",
+    "Yonilg'ini oldindan qizdirib purkash"
+   ],
+   "e": "Ishlatilgan gaz energiyasi hisobiga."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Dizel yonilg'isining sifatini belgilovchi asosiy ko'rsatkich qaysi?",
+   "a": [
+    "Setan soni",
+    "Oktan soni",
+    "Moy qovushqoqligi",
+    "Antifriz zichligi"
+   ],
+   "e": "Benzinda — oktan soni."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Qishki dizel yonilg'isi yozgisidan nimasi bilan farq qiladi?",
+   "a": [
+    "Qotish va loyqalanish harorati pastroq",
+    "Setan soni ancha past bo'ladi",
+    "Rangi qizil bo'lishi shart",
+    "Tarkibida suv va oltingugurt ko'proq"
+   ],
+   "e": "Parafin cho'kmasligi."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Moylash tizimining vazifasi nima?",
+   "a": [
+    "Yeyilishni kamaytirish, sovutish va tozalash",
+    "Faqat dvigatelni tez qizdirish",
+    "Yonilg'ini silindrga mayda zarralar holida purkash",
+    "Havo filtrini changdan tozalash"
+   ],
+   "e": "Bosim va sachratish orqali."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Traktor dvigatellarida qaysi moylash usuli qo'llanadi?",
+   "a": [
+    "Aralash (bosim ostida va sachratib)",
+    "Faqat qo'lda, moydon bilan moylash",
+    "Faqat tirsakli val sachratishi bilan",
+    "Moylash talab qilinmaydi (quruq ishqalanish)"
+   ],
+   "e": "Kombinatsiyalashgan."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Moy nasosining vazifasi nima?",
+   "a": [
+    "Moyni karterdan olib, bosim ostida magistralga uzatish",
+    "Ishlatilgan moyni karterdan tashqariga chiqarib tashlash",
+    "Moyni dizel yonilg'isiga aralashtirish",
+    "Moyni radiatorda sovutib qaytarish"
+   ],
+   "e": "Shesternali nasos."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Sentrifuga (markazdan qochma moy filtri) qanday ishlaydi?",
+   "a": [
+    "Og'ir zarrachalar rotor devoriga otilib ajraladi",
+    "Moy qog'oz filtr elementi orqali o'tkaziladi",
+    "Moy suv bilan aralashtirilib tozalanadi",
+    "Moy doimiy magnitda tozalanadi"
+   ],
+   "e": "Reaktiv sopla."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Dvigateldagi moy sathi qanday tekshiriladi?",
+   "a": [
+    "Dvigatel to'xtatilib, shchup bilan",
+    "Dvigatel ishlab turganda karter tiqinini ochib",
+    "Moy bosimi manometrining ko'rsatkichi bo'yicha",
+    "Karterning tashqi tomoniga ko'z bilan qarab"
+   ],
+   "e": "Belgilar orasida bo'lishi kerak."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Moy bosimi keskin pasayganda haydovchi nima qilishi kerak?",
+   "a": [
+    "Dvigatelni darhol to'xtatib, sababini aniqlash",
+    "Dvigatelni maksimal aylanishda ishlatish",
+    "Ishni davom ettirib, smenadan keyin qarash",
+    "Moy filtrini olib tashlab ishlash"
+   ],
+   "e": "Aks holda vkladishlar eriydi."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Dvigatel moyining qovushqoqligi haroratga qanday bog'liq?",
+   "a": [
+    "Harorat ko'tarilganda qovushqoqlik kamayadi",
+    "Harorat ko'tarilganda qovushqoqlik ortadi",
+    "Haroratga umuman bog'liq emas, doim bir xil",
+    "Faqat qishda, sovuqda o'zgaradi"
+   ],
+   "e": "SAE klassifikatsiyasi."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Suyuqlik bilan sovutish tizimida termostatning vazifasi nima?",
+   "a": [
+    "Dvigatelning tez qizishini ta'minlash",
+    "Suyuqlikni har doim radiatordan o'tkazish",
+    "Moy haroratini o'lchab ko'rsatish",
+    "Yonilg'ini qishda qizdirish"
+   ],
+   "e": "70–85 °C da ochiladi."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Dvigatelning normal ishchi harorati (sovutish suyuqligi) qancha?",
+   "a": [
+    "80–95 °C",
+    "20–30 °C",
+    "120–150 °C",
+    "40–50 °C"
+   ],
+   "e": "Qizib ketish — 100 °C dan yuqori."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Suv nasosi (pompa) ning vazifasi nima?",
+   "a": [
+    "Sovutish suyuqligini majburiy aylantirish",
+    "Moyni bosim ostida magistralga uzatish",
+    "Yonilg'ini forsunkalarga haydash",
+    "Havoni silindrlarga majburiy haydash"
+   ],
+   "e": "Markazdan qochma nasos."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Qishda sovutish tizimida suv o'rniga nima qo'llanadi?",
+   "a": [
+    "Antifriz",
+    "Dizel yonilg'isi (qishki navi)",
+    "Motor moyi",
+    "Distillangan yoki qaynatilgan suv"
+   ],
+   "e": "Tosol, antifriz."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Radiator qopqog'idagi bug'-havo klapanining vazifasi nima?",
+   "a": [
+    "Bosimni rostlab, qaynash haroratini oshirish",
+    "Sovutish suyuqligini filtrlash",
+    "Dvigatel moyini sovutish",
+    "Radiatorga kiruvchi havoni changdan tozalash"
+   ],
+   "e": "Bosim 0,1–0,15 MPa."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Qizigan dvigatel radiatori qopqog'ini darhol ochish nega xavfli?",
+   "a": [
+    "Qaynoq suyuqlik va bug' otilib kuydiradi",
+    "Radiator ichidagi suyuqlik muzlab qoladi",
+    "Moy magistralidagi bosim keskin oshadi",
+    "Hech qanday xavf yo'q, ochish mumkin"
+   ],
+   "e": "Sovishini kutish kerak."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Ventilyator tasmasining tarangligi qanday tekshiriladi?",
+   "a": [
+    "O'rtasidan bosib, egilishini o'lchab",
+    "Tasmani kesib, ichki qismini ko'rib",
+    "Dvigatel ishlab turganda qo'l bilan ushlab",
+    "Faqat tashqi ko'rinishiga ko'z bilan qarab"
+   ],
+   "e": "Generator surilib rostlanadi."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Dvigatel qizib ketishining sabablari qaysilar?",
+   "a": [
+    "Suyuqlik kamligi, tasma bo'shligi",
+    "Karterdagi moy sathining yuqori bo'lishi",
+    "Havo filtrining yangi o'rnatilgani",
+    "Yonilg'i bakining to'liq to'ldirilgani"
+   ],
+   "e": "Ishni to'xtatish kerak."
+  },
+  {
+   "b": "Ta'minot, moylash va sovutish tizimlari",
+   "q": "Qish faslida dvigatelni ishga tushirishni yengillashtirish uchun nima qo'llanadi?",
+   "a": [
+    "Qizdirish shamlari yoki oldindan qizdirgich",
+    "Karterdagi moy sathini kamaytirish",
+    "Radiatorni vaqtincha olib tashlash",
+    "Havo filtrini yechib, dvigatelni ishga tushirish"
+   ],
+   "e": "Isituvchi qurilmalar."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Traktor transmissiyasining vazifasi nima?",
+   "a": [
+    "Burovchi momentni g'ildiraklarga va QOV ga uzatish",
+    "Dvigatelga yonilg'i va havo yetkazib berish",
+    "Traktorni elektr energiyasi bilan ta'minlash",
+    "Osma qurilmani gidravlik ko'tarib tushirish"
+   ],
+   "e": "Mexanik, gidromexanik transmissiyalar."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Transmissiya tarkibiga qaysi agregatlar kiradi?",
+   "a": [
+    "Mufta, uzatmalar qutisi, bosh uzatma, differensial",
+    "Radiator, suv nasosi, termostat, ventilyator",
+    "Forsunka, yonilg'i nasosi, filtrlar, bak",
+    "Generator, akkumulyator, starter, rele"
+   ],
+   "e": "Quvvat uzatish zanjiri."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Ilashish muftasining (stseplenie) vazifasi nima?",
+   "a": [
+    "Dvigatelni transmissiyadan ajratib ulash",
+    "Traktorning harakat yo'nalishini o'zgartirish",
+    "Yetakchi g'ildiraklarni turli tezlikda aylantirish",
+    "Dvigatelning aylanish chastotasini rostlab turish"
+   ],
+   "e": "Uzatmani almashtirishda."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Traktorlarda keng tarqalgan ilashish muftasi turi qaysi?",
+   "a": [
+    "Friksion, quruq, doimiy ulangan",
+    "Gidravlik, suyuqlikli, doimiy uzilgan",
+    "Elektromagnit, nam, vaqtincha ulangan",
+    "Tishli, moyli, avtomatik uzilgan"
+   ],
+   "e": "Disk ishqalanishi hisobiga."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Ilashish muftasi pedalining erkin yo'li nima uchun kerak?",
+   "a": [
+    "Muftaning to'liq ulanishini ta'minlash uchun",
+    "Pedalni bosishni og'irroq qilish uchun",
+    "Uzatmalarni tezroq almashtirish uchun",
+    "Tormozni mufta bilan bir vaqtda bosish uchun"
+   ],
+   "e": "Rostlanadi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Ilashish muftasi \"sirpanayotgani\"ning belgisi qaysi?",
+   "a": [
+    "Yuklama ostida traktor sekinlashadi, kuygan hid chiqadi",
+    "Uzatmalar shovqinsiz va oson almashadi",
+    "Dvigatelning aylanish soni pasayib, darhol to'xtab qoladi",
+    "Traktor joyidan juda keskin qo'zg'aladi"
+   ],
+   "e": "Erkin yo'l yo'qligi, disk yeyilishi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Uzatmalar qutisining vazifasi nima?",
+   "a": [
+    "Tortish kuchi va tezlikni o'zgartirish",
+    "Dvigatelni transmissiyadan butunlay ajratish",
+    "Yetakchi g'ildiraklarni turli tezlikda aylantirish",
+    "Quvvat olish valini doimiy aylantirish"
+   ],
+   "e": "Neytral holat ham."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Uzatmalar qutisida past uzatma qanday xususiyatga ega?",
+   "a": [
+    "Tezlik kichik, tortish kuchi katta",
+    "Tezlik katta, tortish kuchi kichik",
+    "Tezlik va tortish kuchi bir xil",
+    "Faqat orqaga yurish uchun"
+   ],
+   "e": "Uzatish soni katta."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Uzatish soni nima?",
+   "a": [
+    "Yetaklovchi va yetaklanuvchi aylanishlar nisbati",
+    "Shesternyalar sonining tishlar soniga nisbati",
+    "Dvigatel quvvatining tezlikka nisbati",
+    "G'ildirak diametrining kengligiga nisbati"
+   ],
+   "e": "i = n1/n2 = z2/z1."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Bosh uzatma nima uchun xizmat qiladi?",
+   "a": [
+    "Burovchi momentni oshirib, uni 90° burchak ostida uzatish",
+    "Dvigatelni transmissiyadan ajratish",
+    "Yetakchi g'ildiraklarni turli tezlikda aylantirish",
+    "Ishchi organlarni ko'tarib tushirish"
+   ],
+   "e": "Konussimon shesternyalar."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Differensialning vazifasi nima?",
+   "a": [
+    "Burilishda g'ildiraklarning turli tezlikda aylanishi",
+    "Traktor tezligini bosqichma-bosqich o'zgartirish",
+    "Dvigateldan momentni vaqtincha ajratib qo'yish",
+    "Traktorni qiyalikda to'xtatib turish"
+   ],
+   "e": "Tashqi g'ildirak tezroq aylanadi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Differensial blokirovkasi qachon ishlatiladi?",
+   "a": [
+    "G'ildiraklardan biri sirpanib qolganda",
+    "Asfalt yo'lda yuqori tezlikda burilganda",
+    "Traktor uzoq vaqt to'xtab turganda",
+    "Faqat orqaga yurish uzatmasida"
+   ],
+   "e": "Burilishda o'chiriladi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Oxirgi (yakuniy) uzatmalarning vazifasi nima?",
+   "a": [
+    "Momentni oshirib, yetakchi g'ildiraklarga uzatish",
+    "Dvigatelni starter bilan ishga tushirish",
+    "Yonilg'i sarfini o'lchab ko'rsatish",
+    "Osma qurilmaning ishchi organlarini ko'tarib tushirish"
+   ],
+   "e": "Shesternyali reduktor."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Quvvat olish vali (QOV) ning vazifasi nima?",
+   "a": [
+    "Ulangan mashinalar ishchi organlarini yuritish",
+    "Traktorning orqaga yurishini ta'minlash",
+    "Old boshqariladigan g'ildiraklarni burish",
+    "Akkumulyator batareyasini zaryadlash"
+   ],
+   "e": "Standart 540 va 1000 ayl/min."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "QOV ning standart aylanish chastotalari qaysilar?",
+   "a": [
+    "540 va 1000 ayl/min",
+    "100 va 200 ayl/min",
+    "3000 va 5000 ayl/min",
+    "60 va 90 ayl/min"
+   ],
+   "e": "Mustaqil va sinxron yuritma."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Sinxron QOV ning aylanishi nimaga bog'liq?",
+   "a": [
+    "Traktorning harakat tezligiga",
+    "Faqat dvigatel aylanishiga, harakatdan qat'i nazar",
+    "Gidrotizimdagi moy bosimiga",
+    "Generator kuchlanishi va tok kuchiga"
+   ],
+   "e": "Ekish mashinalarida."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Kardan uzatmaning vazifasi nima?",
+   "a": [
+    "O'qlari mos kelmagan vallar orasida uzatish",
+    "Momentni oshirib, 90° burchak ostida uzatish",
+    "Dvigatelni transmissiyadan vaqtincha ajratish",
+    "Yetakchi g'ildiraklarni tormozlab to'xtatish"
+   ],
+   "e": "Kardan sharnirlari."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Old yetakchi ko'prik (4K4) traktorga nima beradi?",
+   "a": [
+    "O'tag'onlik va tortish kuchini oshiradi",
+    "Yonilg'i sarfini nolga tushiradi",
+    "Traktor tezligini ikki barobar oshiradi",
+    "Traktorni zanjirli qiladi"
+   ],
+   "e": "MTZ-82."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Uzatmalarni almashtirishdan oldin nima qilinadi?",
+   "a": [
+    "Ilashish muftasi pedali oxirigacha bosiladi",
+    "Dvigatel to'xtatiladi",
+    "Tormoz pedali qo'yib yuborilib, gaz oxirigacha bosiladi",
+    "Gaz pedali oxirigacha bosiladi"
+   ],
+   "e": "Mufta uzilgan holda."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Uzatmalar qutisida moy sathi qanday tekshiriladi?",
+   "a": [
+    "Nazorat tiqini yoki shchup orqali",
+    "Dvigatel ishlab turganda ko'z bilan qarab",
+    "Uzatmalar qutisini qismlarga ajratib",
+    "Moy bosimi manometri ko'rsatkichi orqali"
+   ],
+   "e": "Transmissiya moyi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Gidromexanik transmissiyaning afzalligi nima?",
+   "a": [
+    "Uzatmalarni yuklama ostida almashtirish",
+    "Tuzilishining juda soddaligi va arzonligi",
+    "Moy umuman talab qilmasligi",
+    "Faqat zanjirli traktorlarda ishlay olishi"
+   ],
+   "e": "Gidrotransformator."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Burilish muftalari qaysi traktorlarda qo'llanadi?",
+   "a": [
+    "Zanjirli traktorlarda",
+    "G'ildirakli traktorlarda",
+    "Faqat mini traktorlarda",
+    "Avtomobillarda"
+   ],
+   "e": "Zanjirlardan birini uzib, burilish."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Zanjirli traktor qanday buriladi?",
+   "a": [
+    "Bir tomondagi zanjirni sekinlatish yoki to'xtatish",
+    "Old g'ildiraklarni rul bilan burish orqali",
+    "Butun ramani sharnirda bukish orqali",
+    "Faqat orqaga yurish uzatmasini qo'shish orqali"
+   ],
+   "e": "Burilish mexanizmi va tormoz."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "T-150K, K-700 kabi traktorlarda burilish qanday amalga oshiriladi?",
+   "a": [
+    "Sharnirli ramaning yarim ramalarini bukish orqali",
+    "Faqat old g'ildiraklarni burish orqali",
+    "Zanjirlardan birini to'xtatish orqali",
+    "Faqat differensialni blokirovka qilish orqali"
+   ],
+   "e": "Gidrotsilindrlar bilan."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "G'ildirakli traktor yurish qismiga nimalar kiradi?",
+   "a": [
+    "Rama (ostov), ko'priklar, g'ildiraklar, osma",
+    "Faqat dvigatel va transmissiya agregatlari",
+    "Faqat rul mexanizmi va tormoz pedallari",
+    "Faqat gidronasos, taqsimlagich va silindrlar"
+   ],
+   "e": "Yurish tizimi."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Zanjirli traktor yurish qismining asosiy elementlari qaysilar?",
+   "a": [
+    "Yulduzcha, zanjir, katoklar, yo'naltiruvchi g'ildirak",
+    "Old ko'prik, shinalar, disklar, rul tortqilari",
+    "Ilashish muftasi, kardan vali, differensial",
+    "Radiator, ventilyator, termostat, suv nasosi"
+   ],
+   "e": "Taranglovchi qurilma ham."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Shinadagi havo bosimi kamayib ketsa nima bo'ladi?",
+   "a": [
+    "Shina tez yeyiladi, yonilg'i sarfi ortadi",
+    "Traktor harakat tezligi sezilarli ortadi",
+    "Shina umuman yeyilmaydigan bo'lib qoladi",
+    "Tortish kuchi va yonilg'i tejamkorligi oshadi"
+   ],
+   "e": "Bosim yo'riqnoma bo'yicha."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Old g'ildiraklarning yaqinlashuvi (shoxlanishi) nima uchun rostlanadi?",
+   "a": [
+    "Shina yeyilishini kamaytirish uchun",
+    "Traktor tezligini oshirish va yonilg'ini tejash uchun",
+    "Dvigatel quvvatini oshirish uchun",
+    "Tormoz yo'lini qisqartirish uchun"
+   ],
+   "e": "Old qismdagi masofa orqadan kichik."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Rul boshqaruvining asosiy qismlari qaysilar?",
+   "a": [
+    "Rul mexanizmi va rul yuritmasi",
+    "Ilashish muftasi va uzatmalar qutisi",
+    "Gidronasos va taqsimlagich xolos",
+    "Tormoz barabani va kolodkalar"
+   ],
+   "e": "Gidrokuchaytirgich bilan."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Rul g'ildiragining erkin lyufti katta bo'lsa nima bo'ladi?",
+   "a": [
+    "Boshqaruv aniqligi pasayib, harakat xavfsizligi buziladi",
+    "Traktor boshqaruvi yanada yengil va aniq bo'ladi",
+    "Old shinalar yeyilishi butunlay to'xtaydi",
+    "Dvigatel quvvati va tezlik sezilarli ortadi"
+   ],
+   "e": "Me'yordan oshmasligi kerak."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Gidravlik rul kuchaytirgichining vazifasi nima?",
+   "a": [
+    "Rulni burishga sarflanadigan kuchni kamaytirish",
+    "Rul g'ildiragining erkin lyuftini oshirish",
+    "Tormoz pedalidagi kuchni kamaytirish",
+    "Uzatmalarni avtomatik ravishda almashtirish"
+   ],
+   "e": "Gidrobosim hisobiga."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Traktorning tormoz tizimi qanday vazifani bajaradi?",
+   "a": [
+    "Tezlikni kamaytirish va to'xtatish",
+    "Harakat tezligini oshirish va bir tekis ushlash",
+    "Dvigatelni transmissiyadan ajratish",
+    "Ishchi organlarni ko'tarib tushirish"
+   ],
+   "e": "Ishchi va to'xtab turish tormozlari."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "G'ildirakli traktorlarda tormoz pedallari nima uchun alohida-alohida bo'ladi?",
+   "a": [
+    "Keskin burilishda bir tomonni tormozlash uchun",
+    "Ikki haydovchi boshqarishi uchun",
+    "Biri tezlashtirish, biri sekinlashtirish uchun",
+    "Faqat dizayn uchun, vazifasi bir xil"
+   ],
+   "e": "Transport ishlarida birlashtiriladi."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Transport ishlarida chap va o'ng tormoz pedallari qanday holatda bo'lishi kerak?",
+   "a": [
+    "O'zaro birlashtirilgan holatda",
+    "Alohida-alohida, bog'lanmagan holatda",
+    "Ikkalasi ham olib tashlangan holatda",
+    "Biri bloklangan, ikkinchisi erkin holatda"
+   ],
+   "e": "Bir tomonga tortib ketmasligi uchun."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Tirkamali poyezdlarda tirkama tormozi qanday yuritiladi?",
+   "a": [
+    "Pnevmatik yoki gidravlik yuritma orqali",
+    "Faqat qo'lda, tirkamadagi odam tomonidan",
+    "Tirkamada tormoz bo'lishi talab qilinmaydi",
+    "Faqat elektr signal orqali, alohida tugma bilan"
+   ],
+   "e": "Kompressor yoki gidrotizim."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Traktorning osma qurilmasi nima uchun mo'ljallangan?",
+   "a": [
+    "Osma mashinalarni ulash va ko'tarish",
+    "Traktorni yo'lda tezroq harakatlantirish",
+    "Dvigatelni sovutish tizimini boshqarish",
+    "Shinalarga havo bosimini berish"
+   ],
+   "e": "Uch nuqtali osma."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Uch nuqtali osma mexanizmi qanday tortqilardan iborat?",
+   "a": [
+    "Ikki pastki va bitta yuqori tortqi",
+    "Uchta pastki ko'ndalang tortqi",
+    "Bitta pastki va ikkita yuqori tortqi",
+    "Faqat bitta markaziy tortqi"
+   ],
+   "e": "Yuqori tortqi uzunligi rostlanadi."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Traktor gidravlik osma tizimining asosiy qismlari qaysilar?",
+   "a": [
+    "Moy baki, nasos, taqsimlagich, gidrotsilindr, quvurlar",
+    "Radiator, termostat, suv nasosi, ventilyator",
+    "Akkumulyator, generator, starter, rele-rostlagich",
+    "Forsunka, yonilg'i nasosi, filtrlar, yonilg'i baki"
+   ],
+   "e": "Gidrotizim."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Gidrotizimdagi taqsimlagich (raspredelitel) ning vazifasi nima?",
+   "a": [
+    "Moy oqimini yo'naltirish va boshqarish",
+    "Moyni bakdan olib bosim hosil qilish",
+    "Moyni changdan tozalash",
+    "Moy haroratini o'lchash"
+   ],
+   "e": "Ko'tarish, tushirish, neytral, suzuvchi holat."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Gidrotsilindrning vazifasi nima?",
+   "a": [
+    "Moy bosimini shtok harakatiga aylantirish",
+    "Moyni bakdan haydab bosim hosil qilish",
+    "Moy oqimini taqsimlab yo'naltirish",
+    "Moyni sovutib qaytarish"
+   ],
+   "e": "Ijro mexanizmi."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Gidrotaqsimlagichning \"suzuvchi\" holati nima uchun ishlatiladi?",
+   "a": [
+    "Ishchi organ yer relyefi bo'yicha erkin ko'chishi uchun",
+    "Ishchi organni yuqori holatda qattiq ushlab turish uchun",
+    "Gidronasosni butunlay o'chirib qo'yish uchun",
+    "Moyni tizimdan to'liq chiqarib yuborish uchun"
+   ],
+   "e": "Masalan, kultivator, plug."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Gidrotizimdagi saqlagich klapanning vazifasi nima?",
+   "a": [
+    "Ortiqcha bosimdan himoyalash",
+    "Bosimni doimiy oshirib turish",
+    "Moyni filtrlash",
+    "Moy haroratini ko'tarish"
+   ],
+   "e": "Avariyadan saqlash."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Kuch rostlagichi (silovoy regulyator) qanday maqsadda ishlatiladi?",
+   "a": [
+    "Plug chuqurligini avtomatik rostlash",
+    "Dvigatel aylanishini qo'lda oshirish",
+    "Tormozlarni avtomatik bosish",
+    "Uzatmalarni avtomatik almashtirish"
+   ],
+   "e": "Pozitsion va kuch rostlash."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Traktor yukni oshirish (dogruzatel) qurilmasi nima qiladi?",
+   "a": [
+    "Mashina og'irligini g'ildiraklarga o'tkazadi",
+    "Traktor dvigatelining quvvatini sezilarli oshiradi",
+    "Tirkama yukini kamaytiradi",
+    "Shinadagi havo bosimini oshiradi"
+   ],
+   "e": "Ilashishni yaxshilaydi."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Traktorni tirkamaga ulashda qanday qurilmadan foydalaniladi?",
+   "a": [
+    "Tirkash qurilmasi",
+    "Uch nuqtali osma mexanizmi faqat",
+    "Quvvat olish valining kardan vali",
+    "Rul tortqisi va sharnirlari"
+   ],
+   "e": "Strelka xavfsizlik zanjiri bilan."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Gidrotizimda ishlatiladigan moy qanday talablarga javob berishi kerak?",
+   "a": [
+    "Toza, belgilangan markali, qovushqoqligi mavsumga mos",
+    "Istalgan ishlatilgan motor moyi bo'lishi mumkin",
+    "Suv bilan aralashtirilgan, emulsiya holida bo'lishi",
+    "Dizel yonilg'isi bilan suyultirilgan bo'lishi"
+   ],
+   "e": "Filtrlar almashtiriladi."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Gidrotsilindr shtokidan moy sizib chiqishining asosiy sababi nima?",
+   "a": [
+    "Manjetlarning yeyilishi",
+    "Moy bakining to'la bo'lishi",
+    "Traktor tezligining past bo'lishi",
+    "Taqsimlagichning neytral holati"
+   ],
+   "e": "Manjetlar almashtiriladi."
+  },
+  {
+   "b": "Yurish qismi, boshqaruv, tormozlar, gidrotizim",
+   "q": "Gidronasos turi bo'yicha traktorlarda ko'pincha qanday nasos ishlatiladi?",
+   "a": [
+    "Shesternyali nasos",
+    "Markazdan qochma suv nasosi",
+    "Membranali yonilg'i nasosi",
+    "Vakuum nasosi"
+   ],
+   "e": "NSh turidagi nasoslar."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Traktor elektr jihozlarining asosiy manbalari qaysilar?",
+   "a": [
+    "Akkumulyator va generator",
+    "Starter va qizdirish shamlari",
+    "Faralar va ovozli signal",
+    "Nazorat-o'lchov asboblari va rele"
+   ],
+   "e": "Iste'molchilar — starter, faralar va b."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Dvigatel ishlab turganda iste'molchilarni elektr bilan asosan qaysi qurilma ta'minlaydi?",
+   "a": [
+    "Generator",
+    "Akkumulyator batareyasi",
+    "Starter elektr dvigateli",
+    "Kuchlanish rostlagichi relesi"
+   ],
+   "e": "Akkumulyatorni ham zaryadlaydi."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Akkumulyator batareyasining asosiy vazifasi nima?",
+   "a": [
+    "Starterni tok bilan ta'minlash",
+    "Dvigatel ishlaganda tokni ishlab chiqarish",
+    "Generator kuchlanishini rostlab turish",
+    "Faralar yorug'ligini kuchaytirish"
+   ],
+   "e": "Dvigatel ishlamaganda iste'molchilarni ham."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Kislotali akkumulyatorda elektrolit nimadan iborat?",
+   "a": [
+    "Sulfat kislotasining distillangan suvdagi eritmasi",
+    "Xlorid kislotasining oddiy vodoprovod suvidagi eritmasi",
+    "Kaliy gidroksidning (ishqor) suvdagi eritmasi",
+    "Toza distillangan suv, qo'shimchalarsiz"
+   ],
+   "e": "Zichligi 1,24–1,31 g/sm³."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Akkumulyator elektrolitining zichligi qanday asbob bilan o'lchanadi?",
+   "a": [
+    "Areometr (densimetr)",
+    "Ampermetr va voltmetr birgalikda",
+    "Manometr (bosim o'lchagich)",
+    "Termometr (harorat o'lchagich)"
+   ],
+   "e": "Zaryadlanganlik darajasi."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Elektrolit tayyorlashda qanday qoidaga qat'iy rioya qilinadi?",
+   "a": [
+    "Kislota suvga ingichka oqimda quyiladi",
+    "Suv kislotaga tez va ko'p miqdorda quyiladi",
+    "Kislota va suv bir vaqtda idishga quyiladi",
+    "Kislota suv bilan aralashtirilmay ishlatiladi"
+   ],
+   "e": "Aks holda qaynab sachraydi."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Traktor akkumulyatorlarining nominal kuchlanishi odatda qancha?",
+   "a": [
+    "12 V yoki 24 V",
+    "1,5 V yoki 3 V",
+    "110 V yoki 220 V",
+    "380 V yoki 400 V"
+   ],
+   "e": "Bir banka ~2 V."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Generatorga kuchlanish rostlagichi nima uchun kerak?",
+   "a": [
+    "Kuchlanishni doimiy saqlash uchun",
+    "Generator aylanish tezligini oshirish uchun",
+    "Akkumulyatorni butunlay uzib qo'yish uchun",
+    "Starter tokini bir necha barobar oshirish uchun"
+   ],
+   "e": "Aylanish soni o'zgarganda."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Starterning vazifasi nima?",
+   "a": [
+    "Tirsakli valni ishga tushirish uchun aylantirish",
+    "Dvigatel ishlaganda akkumulyatorni zaryadlash",
+    "Silindrlardagi havoni oldindan qizdirish",
+    "Yonilg'ini silindrga yuqori bosimda purkash"
+   ],
+   "e": "Elektr dvigatel."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Starter uzluksiz necha soniyadan ortiq ishlatilmasligi kerak?",
+   "a": [
+    "10–15 soniya",
+    "2–3 daqiqa uzluksiz",
+    "1 soniyadan kam",
+    "Cheklov yo'q, dvigatel o'tguncha"
+   ],
+   "e": "Takrorlash oralig'i 1–2 daqiqa."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Ayrim traktorlarda dvigatelni ishga tushirish uchun qanday dvigatel ishlatilgan?",
+   "a": [
+    "Kichik benzinli ishga tushirish dvigateli (puskach)",
+    "Katta elektr dvigateli, tarmoqqa ulangan holda",
+    "Bug' turbinasi va qozon qurilmasi",
+    "Gidromotor va gidroakkumulyator"
+   ],
+   "e": "PD-10, PD-8."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Qizdirish shamlari qaysi dvigatellarda ishlatiladi?",
+   "a": [
+    "Dizel dvigatellarida",
+    "Benzinli karburatorli dvigatellarda",
+    "Elektr dvigatellarida",
+    "Gaz turbinalarida"
+   ],
+   "e": "Sovuqda ishga tushirish."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Saqlagich (predoxranitel) ning vazifasi nima?",
+   "a": [
+    "Qisqa tutashuvda zanjirni uzib, simlarni himoyalash",
+    "Kuchlanishni oshirib, iste'molchilarni kuchaytirish",
+    "Akkumulyatorni generatordan zaryadlash",
+    "Faralar yorug'ligini avtomatik rostlash"
+   ],
+   "e": "Eriydigan yoki avtomat."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Ampermetr traktor kabinasida nimani ko'rsatadi?",
+   "a": [
+    "Akkumulyatorning zaryad yoki razryad tokini",
+    "Dvigatel moy magistralidagi bosimni",
+    "Sovutish suyuqligining haroratini",
+    "Yonilg'i bakidagi yonilg'i sathini"
+   ],
+   "e": "Plyus — zaryad."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Avtotraktor elektr jihozlarida qaysi qutb odatda \"massa\"ga ulanadi?",
+   "a": [
+    "Manfiy (–) qutb",
+    "Musbat (+) qutb",
+    "Ikkala qutb ham bir vaqtda",
+    "Hech qaysi qutb ulanmaydi"
+   ],
+   "e": "Bir simli tizim."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Akkumulyatorni traktordan yechishda birinchi qaysi sim uziladi?",
+   "a": [
+    "Massa (manfiy) simi",
+    "Musbat (+) sim",
+    "Ikkalasi bir vaqtda",
+    "Farqi yo'q"
+   ],
+   "e": "Qisqa tutashuvning oldini olish."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Generator akkumulyatorni zaryadlamayotgani qanday aniqlanadi?",
+   "a": [
+    "Ampermetr razryad ko'rsatadi",
+    "Moy bosimi ko'rsatkichi nolga tushib qoladi",
+    "Sovutish suyuqligi harorati keskin oshadi",
+    "Yonilg'i sarfi keskin kamayib ketadi"
+   ],
+   "e": "Tasma yoki rostlagich nosoz."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Traktorni qishda saqlashda akkumulyator bilan nima qilinadi?",
+   "a": [
+    "Yechib olinib, iliq joyda, zaryadlangan holda saqlanadi",
+    "Traktorda razryad holida qoldirilib saqlanadi",
+    "Elektrolit to'kib tashlanib, suv quyib qo'yiladi",
+    "Sovuq joyda, muzxonada saqlanadi"
+   ],
+   "e": "Muzlashning oldini olish."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Traktor yo'l harakatida qanday yoritish va signal jihozlari bo'lishi shart?",
+   "a": [
+    "Faralar, gabaritlar, burilish chiroqlari, stop-signal",
+    "Faqat old faralar, boshqa chiroqsiz",
+    "Faqat ovozli signal va old faralar",
+    "Hech qanday chiroq talab qilinmaydi"
+   ],
+   "e": "YHQ talablari."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Dvigatelni sovuqda ishga tushirishdan oldin akkumulyator zaryadi qanday tekshiriladi?",
+   "a": [
+    "Elektrolit zichligi yoki kuchlanish o'lchanadi",
+    "Akkumulyator qopqog'i ochilib ko'z bilan qaraladi",
+    "Akkumulyatorni silkitib, ovoziga qarab",
+    "Starterni uzoq vaqt aylantirib ko'rib"
+   ],
+   "e": "Zichlik — areometr bilan."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Elektr simlarining izolyatsiyasi shikastlanganda qanday xavf tug'iladi?",
+   "a": [
+    "Qisqa tutashuv va yong'in chiqishi",
+    "Generator quvvati ortishi",
+    "Akkumulyator tezroq zaryadlanishi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Izolyatsiya tiklanadi."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Elektrolit sathi pasayganda akkumulyatorga nima quyiladi?",
+   "a": [
+    "Distillangan suv",
+    "Sulfat kislotasi (konsentrlangan)",
+    "Vodoprovod suvi",
+    "Motor moyi"
+   ],
+   "e": "Sath plastinalardan 10–15 mm yuqori."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Traktor kabinasidagi moy bosimi ko'rsatkichi nolni ko'rsatsa nima qilinadi?",
+   "a": [
+    "Dvigatel zudlik bilan to'xtatiladi",
+    "Dvigatel aylanishi oshiriladi",
+    "Ish davom ettiriladi",
+    "Moy filtri olib tashlanadi"
+   ],
+   "e": "Vkladishlar eriydi."
+  },
+  {
+   "b": "Elektr jihozlari va ishga tushirish",
+   "q": "Generator tasmasi uzilsa qanday belgilar kuzatiladi?",
+   "a": [
+    "Zaryadlash to'xtaydi, dvigatel qiziydi",
+    "Dvigatel quvvati keskin ortib ketadi",
+    "Yonilg'i sarfi nolga tushadi",
+    "Moy bosimi me'yordan oshib ketadi"
+   ],
+   "e": "Ko'p traktorlarda tasma ventilyatorni ham aylantiradi."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Plugning asosiy vazifasi nima?",
+   "a": [
+    "Tuproq qatlamini kesib, ag'darib, maydalash",
+    "Urug'ni belgilangan chuqurlikka qatorlab ekish",
+    "Ekinlar qator oralig'ini yuza yumshatish",
+    "Hosilni yig'ib olib, bunkerga to'plash"
+   ],
+   "e": "Asosiy ishlov."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Plug korpusining asosiy qismlari qaysilar?",
+   "a": [
+    "Lemex, ag'dargich, dala taxtasi, stoyka",
+    "Disk, qirg'ich, bunker, ekish apparati",
+    "Panja, prujina, rama, g'ildirak",
+    "Baraban, deka, elak, shnek"
+   ],
+   "e": "Lemex — kesuvchi qism."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Plug lemexining vazifasi nima?",
+   "a": [
+    "Tuproq qatlamini pastdan kesish",
+    "Qatlamni ag'darib tashlash",
+    "Plugni yon tomonga siljishdan saqlash",
+    "Shudgor chuqurligini rostlash"
+   ],
+   "e": "Ag'dargich — ag'daradi."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Plugdagi dala taxtasining vazifasi nima?",
+   "a": [
+    "Plugni yonga siljishdan saqlash",
+    "Tuproq qatlamini ag'darish",
+    "Begona o'tlarni kesish",
+    "Shudgor chuqurligini belgilash"
+   ],
+   "e": "Egat devoriga tayanadi."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Chimqirqarning (predplujnik) vazifasi nima?",
+   "a": [
+    "Yuqori qatlamni kesib, egat tubiga tashlash",
+    "Shudgorni tekislab, kesaklarni mola bilan bosish",
+    "Ag'dargich yuzasini yeyilishdan himoyalash",
+    "Plugning shudgorlash chuqurligini rostlash"
+   ],
+   "e": "Shudgor sifatini oshiradi."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Plugning shudgorlash chuqurligi qanday rostlanadi?",
+   "a": [
+    "Tayanch g'ildirak yoki gidrotizim orqali",
+    "Traktor uzatmasini pastroqqa almashtirib",
+    "Lemexlarning bir qismini olib tashlab",
+    "Dvigatelning aylanish chastotasini o'zgartirib"
+   ],
+   "e": "Kuch yoki pozitsion rostlash."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Plugni gorizontal tekislikda to'g'rilash uchun nima rostlanadi?",
+   "a": [
+    "Osmaning yuqori markaziy tortqisi uzunligi",
+    "Traktor orqa shinalaridagi havo bosimi",
+    "Gidrotizim bakidagi moy miqdori",
+    "Dvigatelning aylanish chastotasi"
+   ],
+   "e": "Old va orqa korpuslar bir xil chuqurlikda."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Boronaning vazifasi nima?",
+   "a": [
+    "Yumshatish, maydalash, tekislash",
+    "Tuproq qatlamini 30 sm chuqurlikda ag'darish",
+    "Urug'ni qatorlab, bir tekis ekish",
+    "Pishgan hosilni yig'ib olish"
+   ],
+   "e": "Tishli, diskli boronalar."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Diskli borona qayerda ishlatiladi?",
+   "a": [
+    "Og'ir tuproqlarni va ang'izni yumshatishda",
+    "Faqat urug'larni tuproqqa ko'mish uchun",
+    "Faqat paxta terimidan keyin g'o'zapoya yig'ishda",
+    "Faqat mineral o'g'itlarni yuza sepishda"
+   ],
+   "e": "Disklar burchak ostida."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Kultivator nima uchun ishlatiladi?",
+   "a": [
+    "Tuproqni yumshatish va begona o'tlarni qirqish",
+    "Tuproq qatlamini ag'darib, chuqur shudgorlash",
+    "G'alla ekinlarini o'rib, yanchish",
+    "Pishgan paxtani terib olish"
+   ],
+   "e": "Yaxlit va qator oralig'i kultivatorlari."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Chopiq kultivatorida qanday ishchi organlar bo'ladi?",
+   "a": [
+    "Panjalar va o'g'itlagichlar",
+    "Lemex, ag'dargich va dala taxtasi",
+    "Baraban, deka va silkituvchi elaklar",
+    "Shpindellar, ajratgich va bunker"
+   ],
+   "e": "Qator oralig'iga ishlov."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Mola (malalashtirgich) nima uchun ishlatiladi?",
+   "a": [
+    "Dala yuzasini tekislash va kesaklarni maydalash",
+    "Tuproqni chuqur ag'darib, qatlamni almashtirish",
+    "O'simliklarni egat bo'ylab sug'orish",
+    "Ochilgan paxtani terib olish"
+   ],
+   "e": "Ekishdan oldin."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Chizel (chuqur yumshatgich) ning plugdan farqi nima?",
+   "a": [
+    "Tuproqni ag'darmay chuqur yumshatadi",
+    "Tuproqni 50 sm chuqurlikda ag'daradi",
+    "Faqat yuza qatlamni tekislaydi",
+    "Urug' ekish bilan birga ishlaydi"
+   ],
+   "e": "Tuproq strukturasini saqlaydi."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Frezaning ishchi organi qanday ishlaydi?",
+   "a": [
+    "QOV dan aylanuvchi pichoqlar tuproqni maydalaydi",
+    "Tishlar tuproqni sudrab, yuzasini tekislaydi",
+    "Lemex qatlamni pastdan kesib ag'daradi",
+    "Disklar tuproqni kesib, zichlab siqadi"
+   ],
+   "e": "Intensiv maydalash."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Katok (g'altak) nima uchun ishlatiladi?",
+   "a": [
+    "Tuproqni zichlash va kesaklarni ezish",
+    "Tuproqni 40 sm chuqurlikda yumshatish",
+    "Begona o'tlarni ildizi bilan sug'urish",
+    "Urug'larni ekishdan oldin dorilash"
+   ],
+   "e": "Urug' tuproqqa yaxshi tegishi uchun."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Plug lemexi o'tmaslashsa nima bo'ladi?",
+   "a": [
+    "Tortish qarshiligi va yonilg'i sarfi oshadi",
+    "Shudgor sifati va tekisligi yaxshilanadi",
+    "Traktorning harakat tezligi ortadi",
+    "Yonilg'i sarfi va qarshilik kamayadi"
+   ],
+   "e": "Lemex charxlanadi yoki almashtiriladi."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Ag'dargichsiz plug va yassi kesuvchilar qayerda qo'llanadi?",
+   "a": [
+    "Shamol eroziyasiga moyil hududlarda",
+    "Faqat sug'oriladigan sholi dalalarida",
+    "Faqat issiqxonalarda",
+    "Faqat bog'larda daraxt tagida"
+   ],
+   "e": "Ang'iz saqlanadi."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Aylanma plug (oborotnyy) ning afzalligi nima?",
+   "a": [
+    "Dalani egatsiz va qirsiz shudgorlash",
+    "Faqat bir tomonga ag'dara olishi",
+    "Traktorsiz ishlay olishi",
+    "Tuproqni faqat 5 sm chuqurlikda ishlashi"
+   ],
+   "e": "Tekis shudgor."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Kombinatsiyalashgan agregatlar (masalan, chizel-kultivator) ning afzalligi nima?",
+   "a": [
+    "Bir o'tishda bir necha amalni bajaradi",
+    "Har bir amal uchun alohida o'tish talab qiladi",
+    "Yonilg'i sarfini ikki barobar oshiradi",
+    "Tuproqni ko'proq zichlaydi"
+   ],
+   "e": "Tuproq kam zichlanadi."
+  },
+  {
+   "b": "Tuproqqa ishlov berish mashinalari",
+   "q": "Tuproqqa ishlov berish mashinasini traktorga ulashda xavfsizlik bo'yicha nima talab etiladi?",
+   "a": [
+    "Traktor tormozlanib, orqasida odam bo'lmasligi",
+    "Traktor harakatlanib turgan holda ulash",
+    "Dvigatel maksimal aylanishda ishlab turishi",
+    "Ulash vaqtida QOV yoqilgan holda bo'lishi"
+   ],
+   "e": "Signal berish."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Seyalkaning asosiy vazifasi nima?",
+   "a": [
+    "Urug'ni me'yorda, chuqurlikda ekish",
+    "Tuproq qatlamini ag'darib, chuqur shudgorlash",
+    "Ekin maydoniga suyuq pestitsidlar purkash",
+    "Pishgan hosilni o'rib, bog'lab qo'yish"
+   ],
+   "e": "Qatorli, uyalab, aniq ekish."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Seyalkada urug'ni bunkerdan bir me'yorda chiqaruvchi qism qaysi?",
+   "a": [
+    "Ekish apparati",
+    "Soshnik (ochgich)",
+    "Ko'mgich (zagortach)",
+    "Markyor (iz qoldirgich)"
+   ],
+   "e": "G'altakli, diskli, pnevmatik."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Seyalka soshnigining vazifasi nima?",
+   "a": [
+    "Urug' uchun egatcha ochish",
+    "Urug'ni bunkerdan chiqarish",
+    "Qator oralig'ini belgilash",
+    "O'g'itni tuproq yuzasiga sepish"
+   ],
+   "e": "Ko'mgich keyin ko'madi."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Seyalkadagi markyor nima uchun kerak?",
+   "a": [
+    "Keyingi o'tish uchun iz qoldirish",
+    "Ekilgan urug' sarfini o'lchab ko'rsatish",
+    "Soshniklarning ekish chuqurligini rostlash",
+    "Urug'ni bunkerda dorilab aralashtirish"
+   ],
+   "e": "Qator oralig'i bir xil bo'lishi uchun."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Aniq ekuvchi (pnevmatik) seyalka qanday ishlaydi?",
+   "a": [
+    "Havo oqimi urug'ni donalab tushiradi",
+    "Urug'ni g'altak yordamida aralash, sochib sepadi",
+    "Urug'ni haydovchi qo'l bilan sepishini talab qiladi",
+    "Urug'ni suv bilan aralashtirib, purkab ekadi"
+   ],
+   "e": "Paxta, makkajo'xori."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Seyalkaning urug' ekish me'yori qanday tekshiriladi?",
+   "a": [
+    "G'ildirakni aylantirib, chiqqan urug'ni tortish",
+    "Bunkerga qarab, urug' kamayishini taxmin qilish",
+    "Traktor tezligini oshirib, ekib ko'rish",
+    "Urug'ni sanamasdan, ko'z bilan chamalash"
+   ],
+   "e": "Statsionar sozlash."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Ekish chuqurligi qanday rostlanadi?",
+   "a": [
+    "Prujina yoki tayanch g'ildirak bilan",
+    "Traktor dvigatelining aylanish chastotasi bilan",
+    "Bunkerdagi urug' miqdorini o'zgartirish bilan",
+    "Markyor uzunligini qisqartirish yoki uzaytirish bilan"
+   ],
+   "e": "Urug' turiga mos."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Mineral o'g'it sepuvchi mashina (RUM) qanday ishlaydi?",
+   "a": [
+    "Aylanuvchi disklar o'g'itni sochadi",
+    "O'g'itni tuproqqa 30 sm chuqurlikda ag'daradi",
+    "O'g'itni suv bilan aralashtirib purkaydi",
+    "O'g'itni faqat qo'lda tarqatishni talab qiladi"
+   ],
+   "e": "Markazdan qochma sepgich."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Organik o'g'it (go'ng) sepuvchi mashinalar qanday ishchi organga ega?",
+   "a": [
+    "Transportyor va sochuvchi barabanlar",
+    "Lemex, ag'dargich va dala taxtasi",
+    "Soshnik, ko'mgich va ekish apparati",
+    "Shpindellar, ajratgich va bunker"
+   ],
+   "e": "Tirkama turida."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Purkagich (opryskivatel) ning vazifasi nima?",
+   "a": [
+    "Pestitsidni bir tekis purkash",
+    "Tuproqni chuqur yumshatib, begona o'tni qirqish",
+    "Urug'larni qatorlab belgilangan me'yorda ekish",
+    "Pishgan hosilni o'rib, bunkerga yig'ish"
+   ],
+   "e": "Shtangali, ventilyatorli."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Purkagichda eritmaning bir xil sarfi uchun nima nazorat qilinadi?",
+   "a": [
+    "Bosim, forsunkalar, tezlik",
+    "Dvigatel moyining rangi va hidi",
+    "Traktor shinalarining rangi va naqshi",
+    "Kabina ichidagi harorat darajasi"
+   ],
+   "e": "Kalibrovka."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Pestitsidlar bilan ishlashda mexanizator qanday himoya vositalaridan foydalanadi?",
+   "a": [
+    "Respirator, ko'zoynak, qo'lqop, maxsus kiyim",
+    "Hech qanday maxsus himoya vositasi kerak emas",
+    "Faqat oddiy bosh kiyim va ish kiyimi",
+    "Faqat quyoshdan himoya ko'zoynagi"
+   ],
+   "e": "Shamol yo'nalishi hisobga olinadi."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Pestitsid purkashda shamol tezligi qancha bo'lsa ishlash ta'qiqlanadi?",
+   "a": [
+    "4–5 m/s dan oshganda",
+    "0,5 m/s dan kam bo'lganda",
+    "Shamol umuman bo'lmaganda",
+    "Faqat yomg'ir yog'ganda"
+   ],
+   "e": "Eritma uchib ketadi."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Paxta ekishda qanday seyalka qo'llanadi?",
+   "a": [
+    "Pnevmatik aniq ekuvchi seyalkalar",
+    "G'alla uchun yaxlit qatorli seyalkalar",
+    "Kartoshka ekuvchi mashinalar",
+    "Qo'lda sepuvchi moslama"
+   ],
+   "e": "Tuksizlantirilgan chigit."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Kartoshka ekish mashinasining ishchi organi qanday?",
+   "a": [
+    "Qoshiqli yoki kosachali ekish apparati",
+    "Pnevmatik disk va havo so'rg'ichi",
+    "Lemex, ag'dargich va dala taxtasi",
+    "Baraban, deka va silkituvchi elak"
+   ],
+   "e": "Tuganakni donalab tushiradi."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Ko'chat o'tqazuvchi mashinalar qaysi ekinlar uchun ishlatiladi?",
+   "a": [
+    "Pomidor, karam kabi sabzavotlar",
+    "Bug'doy, arpa va boshqa g'alla ekinlari",
+    "Paxta chigiti (tuksizlantirilgan)",
+    "Beda va boshqa mayda urug'li ekinlar"
+   ],
+   "e": "Rassada."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Sug'orish mashinalari (dojdevalka) qanday usulda sug'oradi?",
+   "a": [
+    "Suvni yomg'irsimon purkab",
+    "Suvni egatlarga quyib",
+    "Suvni yer ostidan quvur bilan",
+    "Suvni muz holida"
+   ],
+   "e": "Yomg'irlatib sug'orish."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Tomchilatib sug'orishning afzalligi nima?",
+   "a": [
+    "Suvni tejab, ildizga yetkazadi",
+    "Suvni ko'p sarflaydi",
+    "Faqat sholi uchun mos",
+    "Tuproq eroziyasini kuchaytiradi"
+   ],
+   "e": "40–60% suv tejaladi."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Ekishdan keyin seyalka qanday tozalanadi?",
+   "a": [
+    "Bunker va apparatlar urug' qoldig'idan tozalanadi",
+    "Bunkerda keyingi mavsumgacha urug' qoldiriladi",
+    "Faqat tashqi ko'rinishi suv bilan yuviladi",
+    "Hech qanday tozalash talab qilinmaydi"
+   ],
+   "e": "Dorilangan urug' zaharli."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Dorilangan urug' bilan ishlashda nima taqiqlanadi?",
+   "a": [
+    "Ovqatlanish, chekish, qo'l bilan ushlash",
+    "Qo'lqop va respirator kiyib ishlash",
+    "Ishdan keyin qo'lni sovunlab yuvish",
+    "Urug' qoplarini yopiq holda saqlash"
+   ],
+   "e": "Zaharlanish xavfi."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "O'g'it sepish me'yori nima bilan rostlanadi?",
+   "a": [
+    "Zaslonka (tirqish) va transportyor tezligi bilan",
+    "Traktor shinalaridagi havo bosimi bilan",
+    "Dvigatel karteridagi moy sathi bilan",
+    "Traktor kabinasi eshigining holati bilan"
+   ],
+   "e": "Kalibrovka."
+  },
+  {
+   "b": "Ekish, o'g'itlash va himoya mashinalari",
+   "q": "Tuproq yuzasiga o'g'itni ko'mib solish nimaga imkon beradi?",
+   "a": [
+    "Ozuqa yo'qotilishini kamaytirib, samarani oshiradi",
+    "O'g'itning shamolda uchib ketishini kuchaytiradi",
+    "O'g'it sarfini ikki barobar oshirib yuboradi",
+    "O'simliklarning o'sishini to'xtatib qo'yadi"
+   ],
+   "e": "Lokal o'g'itlash."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Don kombaynining asosiy vazifasi nima?",
+   "a": [
+    "G'allani o'rish, yanchish va donni tozalash",
+    "Tuproqni shudgorlab, mola bosib tekislash",
+    "Chigitni aniq ekib, o'g'itni ko'mish",
+    "Paxtani shpindellar bilan terib olish"
+   ],
+   "e": "Bir o'tishda."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Don kombaynida dondan boshoqni ajratuvchi qism qaysi?",
+   "a": [
+    "Yanchish barabani va deka",
+    "Motovilo (qamrovchi g'altak)",
+    "Shnek va kesuvchi apparat",
+    "Somon silkitgich klavishlari"
+   ],
+   "e": "Yanchish apparati."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Kombayn motovilosining vazifasi nima?",
+   "a": [
+    "Poyalarni kesuvchi apparatga egish",
+    "Donni bunkerdan transport mashinasiga yuklash",
+    "Somonni maydalab dalaga sochish",
+    "Donni chang va yengil aralashmalardan tozalash"
+   ],
+   "e": "Qamrovchi g'altak."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Kombayndagi somon silkitgich nima qiladi?",
+   "a": [
+    "Somon orasidagi donni ajratib oladi",
+    "Poyani o'rib, jatkaga tashlaydi",
+    "Donni bunkerdan mashinaga to'kadi",
+    "Boshoqni yanchib, donni chiqaradi"
+   ],
+   "e": "Klavishli silkitgich."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Donni tozalash tizimi qanday ishlaydi?",
+   "a": [
+    "Elaklar va ventilyator havo oqimi bilan",
+    "Faqat qo'lda saralash va elakdan o'tkazish",
+    "Suv bilan yuvib, keyin quritish orqali",
+    "Kuchli magnit yordamida aralashmalarni ajratish"
+   ],
+   "e": "Yengil aralashmalar uchiriladi."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Yanchish barabani va deka orasidagi tirqish nimaga ta'sir qiladi?",
+   "a": [
+    "Yanchish sifati va donning shikastlanishiga",
+    "Kombaynning dala bo'ylab harakat tezligiga",
+    "Don bunkerining umumiy hajmiga",
+    "Dvigatel moy magistralidagi bosimga"
+   ],
+   "e": "Ekin turi va namligiga mos."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Don ko'p shikastlanayotgan bo'lsa (ezilsa) nima qilinadi?",
+   "a": [
+    "Baraban aylanishi kamaytiriladi yoki tirqish oshiriladi",
+    "Baraban aylanishi maksimal darajaga oshiriladi",
+    "Tozalash ventilyatori butunlay o'chiriladi",
+    "Elaklar olib tashlanib, ish davom etadi"
+   ],
+   "e": "Rostlash."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Paxta terish mashinasining asosiy ishchi organi qaysi?",
+   "a": [
+    "Aylanuvchi shpindellar",
+    "Yanchish barabani va deka",
+    "Lemex va ag'dargich",
+    "Motovilo va kesuvchi apparat"
+   ],
+   "e": "Vertikal yoki gorizontal shpindellar."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Paxta terish mashinasida shpindellardan paxtani nima ajratib oladi?",
+   "a": [
+    "Ajratgich (s'yomnik)",
+    "Motovilo (qamrovchi g'altak)",
+    "Soshnik (egat ochgich)",
+    "Shnek (vintli konveyer)"
+   ],
+   "e": "Cho'tkali barabanlar."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Shpindellar namlanishi (moslash) nima uchun kerak?",
+   "a": [
+    "Paxta yaxshi ilinishi va shpindel tozalanishi uchun",
+    "Shpindellarni zanglashdan himoyalash uchun",
+    "Terilgan paxtani oqartirib bo'yash uchun",
+    "Shpindellarni qizib ketishdan sovutish uchun"
+   ],
+   "e": "Namlash tizimi."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Mashinada paxta terishga ruxsat qachon beriladi?",
+   "a": [
+    "Ko'saklar 50–60% ochilib, defoliatsiyadan keyin",
+    "Ko'saklar umuman ochilmagan, yashil holatda",
+    "G'o'za gullash davrida, barglar to'liq",
+    "Chigit ekilgandan bir oy o'tgach"
+   ],
+   "e": "Barglar to'kilgan bo'lishi kerak."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Defoliatsiya nima?",
+   "a": [
+    "G'o'za barglarini sun'iy to'kish",
+    "Chigitni ekishdan oldin dorilash",
+    "Paxtani tozalash",
+    "Tuproqni o'g'itlash"
+   ],
+   "e": "Mashina terimiga tayyorlash."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Kartoshka kovlagich mashinasi qanday ishlaydi?",
+   "a": [
+    "Lemex kovlab, elevator tuproqdan ajratadi",
+    "Shpindellar tuganakni ilib, bunkerga tashlaydi",
+    "Motovilo tuganakni poyasi bilan o'rib oladi",
+    "Baraban tuganakni yanchib, maydalab beradi"
+   ],
+   "e": "Tuganaklar dala yuzasiga tushadi."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Pichan o'rish uchun qaysi mashina ishlatiladi?",
+   "a": [
+    "O'roq mashinasi (kosilka)",
+    "Paxta terish mashinasi (shpindelli)",
+    "Plug va tishli borona",
+    "Seyalka va chopiq kultivatori"
+   ],
+   "e": "Segmentli yoki rotatsion."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Pichanni presslovchi mashina qanday ataladi?",
+   "a": [
+    "Press-podborshchik",
+    "Chopiq kultivatori",
+    "Pnevmatik seyalka",
+    "Shtangali purkagich"
+   ],
+   "e": "To'g'ri burchakli yoki rulonli toylar."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Silos (senaj) tayyorlash uchun qaysi kombayn ishlatiladi?",
+   "a": [
+    "Em-xashak (silos) kombayni",
+    "Paxta terish mashinasi",
+    "Don (g'alla) kombayni",
+    "Kartoshka kovlash kombayni"
+   ],
+   "e": "Maydalab, tirkamaga yuklaydi."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Kombaynda ishlash vaqtida tiqilib qolgan apparatni tozalashdan oldin nima qilinadi?",
+   "a": [
+    "Dvigatel to'xtatiladi va ishchi organlar uziladi",
+    "Dvigatel ishlab turgan holda qo'l bilan tozalanadi",
+    "Faqat motovilo to'xtatilib, qolgani ishlaydi",
+    "Dvigatel maksimal aylanishda qoldirilib tozalanadi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Yig'im-terim mavsumida yong'in xavfsizligi uchun kombaynda nima bo'lishi shart?",
+   "a": [
+    "O't o'chirgich va belkurak",
+    "Qo'shimcha yonilg'i bochkasi",
+    "Gaz ballon va gorelka",
+    "Ochiq olov manbai"
+   ],
+   "e": "Chekish taqiqlanadi."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Don kombayni jatkasining kesuvchi apparati qanday ishlaydi?",
+   "a": [
+    "Segmentli pichoq barmoqlar orasida harakatlanadi",
+    "Aylanuvchi shpindellar poyani ilib, uzib oladi",
+    "Lemex tuproq qatlamini pastdan kesadi",
+    "Disklar poyani maydalab, yerga sochadi"
+   ],
+   "e": "Qaychisimon kesish."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Dondagi yo'qotishlarni kamaytirish uchun nima qilinadi?",
+   "a": [
+    "Kombayn tezligi va rostlashlar optimal tanlanadi",
+    "Kombayn imkon qadar maksimal tezlikda haydaladi",
+    "Tozalash elaklari to'liq yopib qo'yiladi",
+    "Ventilyator maksimal quvvatda o'rnatiladi"
+   ],
+   "e": "Nazorat kvadratlari."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "Bir yillik ekinlar poyasini maydalab, dalaga sochuvchi qurilma qaysi?",
+   "a": [
+    "Somon maydalagich (izmelchitel)",
+    "Yanchish barabani va deka",
+    "Motovilo va kesuvchi apparat",
+    "Ekish apparati va soshnik"
+   ],
+   "e": "Organik o'g'it sifatida."
+  },
+  {
+   "b": "Hosilni yig'ish mashinalari",
+   "q": "G'o'zapoyani yig'ish uchun qanday mashina ishlatiladi?",
+   "a": [
+    "G'o'zapoya sug'urgich (yig'gich)",
+    "Don kombayni (g'alla o'rish)",
+    "Shtangali purkagich",
+    "Pnevmatik seyalka"
+   ],
+   "e": "Terimdan keyin."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Traktorlarga har smenada o'tkaziladigan texnik xizmat qanday ataladi?",
+   "a": [
+    "ETO (har smenalik texnik xizmat)",
+    "TO-3 (uchinchi texnik xizmat)",
+    "Kapital ta'mir",
+    "Mavsumiy saqlash"
+   ],
+   "e": "Har smena boshida yoki oxirida."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Har smenalik texnik xizmatda (ETO) nima bajariladi?",
+   "a": [
+    "Moy, suyuqlik va yonilg'i sathlarini tekshirish",
+    "Dvigatelni to'liq qismlarga ajratib yuvish",
+    "Porshen halqalarini yangisiga almashtirish",
+    "Tirsakli val bo'yinlarini charxlash"
+   ],
+   "e": "Tashqi ko'rik ham."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Davriy texnik xizmatlar (TO-1, TO-2, TO-3) nimaga qarab belgilanadi?",
+   "a": [
+    "Moto-soatlar yoki sarflangan yonilg'i miqdoriga qarab",
+    "Faqat traktor rangi va markasiga qarab",
+    "Faqat traktorchi-mashinistning yoshi va stajiga qarab",
+    "Faqat ishlov berilgan dala maydoniga qarab"
+   ],
+   "e": "Ishlagan vaqt."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Moto-soat nimani ko'rsatadi?",
+   "a": [
+    "Dvigatelning ishlagan vaqtini",
+    "Traktor bosib o'tgan masofani",
+    "Yonilg'i bakidagi miqdorni",
+    "Dvigatel haroratini"
+   ],
+   "e": "Hisoblagich."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Yangi yoki kapital ta'mirdan chiqqan traktorni ishlatishdan oldin nima qilinadi?",
+   "a": [
+    "Obkatka (ishga moslash)",
+    "Darhol maksimal yuklamada uzoq ishlatiladi",
+    "Zavod moyi almashtirilmasdan ishlatiladi",
+    "Hech qanday tayyorgarlik talab qilinmaydi"
+   ],
+   "e": "Detallar bir-biriga moslashadi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Dvigatel moyini almashtirish qachon qulay?",
+   "a": [
+    "Dvigatel qizigan holatda, ishdan so'ng darhol",
+    "Dvigatel sovuq holatda, qishki tunda",
+    "Dvigatel ishlab turgan vaqtda, aylanishda",
+    "Faqat traktor sotilishidan oldin"
+   ],
+   "e": "Iflosliklar bilan oqib chiqadi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Havo filtri ifloslanganda dvigatelda nima bo'ladi?",
+   "a": [
+    "Quvvat pasayib, tutun ko'payadi",
+    "Dvigatel quvvati sezilarli oshadi",
+    "Yonilg'i sarfi ancha kamayadi",
+    "Dvigatel tezroq soviydi va tejaladi"
+   ],
+   "e": "Havo yetishmaydi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Dvigatel chiqarish quvuridan qora tutun chiqishi nimani bildiradi?",
+   "a": [
+    "Yonilg'i to'liq yonmayapti",
+    "Dvigatel ideal ishlayapti",
+    "Sovutish suyuqligi yonish kamerasiga tushgan",
+    "Moy sathi juda past"
+   ],
+   "e": "Ortiqcha yonilg'i."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Chiqarish quvuridan ko'kish tutun chiqishi nimani bildiradi?",
+   "a": [
+    "Yonish kamerasiga moy tushib yonmoqda",
+    "Yonilg'i to'liq yonmay, qurum hosil bo'lmoqda",
+    "Chiqarish quvuridan suv bug'i chiqmoqda",
+    "Dvigatel me'yorida, nosozliksiz ishlamoqda"
+   ],
+   "e": "Halqalar yeyilgan."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Chiqarish quvuridan oq tutun (bug') chiqishi qanday nosozlikni ko'rsatishi mumkin?",
+   "a": [
+    "Silindrga suyuqlik tushishini",
+    "Yonish kamerasida moy yonayotganini",
+    "Havo filtri ifloslanganini",
+    "Dvigatel ideal ishlayotganini"
+   ],
+   "e": "Prokladka nosozligi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Dvigatel kompressiyasi kamayishining asosiy sababi nima?",
+   "a": [
+    "Porshen halqalari va silindr yeyilishi",
+    "Yonilg'i bakining to'liq to'ldirilganligi",
+    "Akkumulyator batareyasining yangiligi",
+    "Shinalardagi havo bosimining yuqoriligi"
+   ],
+   "e": "Kompressometr bilan o'lchanadi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Traktorni uzoq muddatga saqlashga qo'yishda nima qilinadi?",
+   "a": [
+    "Tozalanadi va konservatsiya qilinadi",
+    "Ochiq maydonda iflos holda qoldiriladi",
+    "Akkumulyator traktorda razryad holida qoldiriladi",
+    "Shinalardagi havo bosimi maksimal oshiriladi"
+   ],
+   "e": "Tagliklarga qo'yiladi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Traktorning yonilg'i sarfi oshishining sabablari qaysilar?",
+   "a": [
+    "Filtr iflosligi, forsunka nosozligi",
+    "Yangi filtrlar o'rnatilgani",
+    "Moy sathining me'yorda bo'lishi",
+    "Traktorning yangi bo'lishi"
+   ],
+   "e": "Rostlashlar buzilishi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Moy filtri qachon almashtiriladi?",
+   "a": [
+    "Odatda moy almashtirilganda, yo'riqnoma bo'yicha",
+    "Hech qachon almashtirilmaydi, faqat yuviladi",
+    "Faqat traktor sotilishidan oldin",
+    "Har smenada kuniga ikki marta"
+   ],
+   "e": "Belgilangan davriylikda."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Traktor uchun yonilg'i qanday saqlanadi?",
+   "a": [
+    "Toza, germetik idishda, tindirib, suvsiz",
+    "Ochiq bochkada, quyosh ostida",
+    "Iflos idishlarda, suv bilan aralash",
+    "Har qanday idishda, tozalikka e'tiborsiz"
+   ],
+   "e": "Tindirish 24 soat."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Tishli uzatmalarda shovqin paydo bo'lishining sababi nima?",
+   "a": [
+    "Tishlar yeyilishi yoki moy yetishmasligi",
+    "Transmissiya moyining me'yorda bo'lishi",
+    "Traktor yangi bo'lishi",
+    "Shinalar yangi bo'lishi"
+   ],
+   "e": "Moy sathi tekshiriladi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Ta'mirlash ishlarida \"kapital ta'mir\" nimani anglatadi?",
+   "a": [
+    "To'liq ajratib, asosiy detallarni tiklash",
+    "Faqat moy va filtrlarni yangisiga almashtirish",
+    "Faqat traktorni yuvish va qayta bo'yash",
+    "Faqat eskirgan shinalarni almashtirish"
+   ],
+   "e": "Resursni tiklash."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Rezbali birikmalarni tortishda nima uchun dinamometrik kalit ishlatiladi?",
+   "a": [
+    "Belgilangan moment bilan bir tekis tortish uchun",
+    "Gaykalarni tezroq va osonroq yechish uchun",
+    "Zanglagan boltlarni kesib tashlash uchun",
+    "Detallarni bir-biriga payvandlash uchun"
+   ],
+   "e": "Masalan, silindr kallagi boltlari."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Traktor yuvilgandan keyin nima qilinadi?",
+   "a": [
+    "Moylanadigan nuqtalar shpritslanadi",
+    "Dvigateldagi moy to'liq to'kib tashlanadi",
+    "Barcha elektr simlari uzib qo'yiladi",
+    "Akkumulyator suvga solib yuviladi"
+   ],
+   "e": "Suv chiqarib tashlanadi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Shinalar qanday sharoitda tezroq yeyiladi?",
+   "a": [
+    "Noto'g'ri bosim va yaqinlashuvda",
+    "Shinadagi bosim me'yorda bo'lganda",
+    "Traktor kam va yengil ishlatilganda",
+    "Shinalar yangi o'rnatilgan bo'lganda"
+   ],
+   "e": "Bir tomonlama yeyilish."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Texnik xizmat ko'rsatish natijalari qayerda qayd qilinadi?",
+   "a": [
+    "Traktorning texnik xizmat jurnalida",
+    "Hech qayerda qayd qilinmaydi",
+    "Faqat og'zaki aytiladi",
+    "Faqat traktor korpusiga yoziladi"
+   ],
+   "e": "Hujjatlashtirish."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Diagnostika nima?",
+   "a": [
+    "Agregatni qismlarga ajratmay holatini aniqlash",
+    "Agregatni to'liq ta'mirlash va tiklash jarayoni",
+    "Traktorni bo'yash va himoya qoplamasi berish",
+    "Traktor bakiga yonilg'i quyish jarayoni"
+   ],
+   "e": "Asboblar yordamida."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Silindrlar kompressiyasi qanday asbob bilan o'lchanadi?",
+   "a": [
+    "Kompressometr",
+    "Areometr",
+    "Ampermetr",
+    "Taxometr"
+   ],
+   "e": "Forsunka o'rniga o'rnatiladi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ekspluatatsiya",
+   "q": "Taxometr nimani o'lchaydi?",
+   "a": [
+    "Tirsakli valning aylanish chastotasini",
+    "Moy magistralidagi bosimni",
+    "Akkumulyator elektroliti zichligini",
+    "Shinalardagi havo bosimini"
+   ],
+   "e": "ayl/min."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Traktorni boshqarish huquqini beruvchi hujjat qaysi?",
+   "a": [
+    "Traktorchi-mashinist guvohnomasi",
+    "Faqat avtomobil haydovchilik guvohnomasining B toifasi",
+    "Faqat o'rta maktab attestati va pasport",
+    "Faqat tibbiy ma'lumotnoma, boshqa hujjatsiz"
+   ],
+   "e": "Toifalar bo'yicha."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Traktorni ishga tushirishdan oldin uzatma richagi qanday holatda bo'lishi kerak?",
+   "a": [
+    "Neytral holatda",
+    "Birinchi uzatmada, mufta qo'yilgan",
+    "Orqaga yurish uzatmasida",
+    "Eng yuqori uzatmada, tormozsiz"
+   ],
+   "e": "Traktor o'z-o'zidan yurib ketmasligi uchun."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "QOV dan ishlaydigan mashina bilan ishlashda kardan vali qanday bo'lishi shart?",
+   "a": [
+    "Himoya g'ilofi bilan yopilgan",
+    "Ochiq, himoyasiz holda aylanishi mumkin",
+    "Faqat yog'och taxta bilan to'silgan",
+    "Kiyim bilan o'rab qo'yilgan"
+   ],
+   "e": "Kiyim o'ralib ketish xavfi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Qiyalikda traktorni ko'ndalang harakatlantirish nega xavfli?",
+   "a": [
+    "Ag'darilib ketish xavfi bor",
+    "Yonilg'i sarfi biroz kamayadi",
+    "Shinalar tez qiziydi, boshqa xavf yo'q",
+    "Dvigatel moy bosimi oshadi, xolos"
+   ],
+   "e": "Ruxsat etilgan qiyalik chegarasi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Traktor kabinasida yo'lovchi tashish qachon mumkin?",
+   "a": [
+    "Faqat qo'shimcha jihozlangan o'rindiq bo'lsa",
+    "Har doim, istalgan sonda va istalgan joyda",
+    "Faqat tirkamaning yonbosh bortida o'tirib",
+    "Faqat traktor orqa qanoti ustida o'tirib"
+   ],
+   "e": "Aks holda taqiqlanadi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Tirkamada odam tashishga qachon ruxsat beriladi?",
+   "a": [
+    "Maxsus jihozlangan bo'lsa, belgilangan tezlikda",
+    "Har qanday tirkamada, cheklovsiz tezlikda",
+    "Yuk ustida, tik turgan holda",
+    "Bortlar ochiq holda, tez harakatda"
+   ],
+   "e": "Aks holda taqiqlanadi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Ishlab turgan traktor ostida ishlash nega taqiqlanadi?",
+   "a": [
+    "Traktor qo'zg'alib, jarohat yetkazishi mumkin",
+    "Shovqin tufayli eshitish biroz pasayadi, xolos",
+    "Dvigatel juda tez soviydi va o'chadi",
+    "Moy bosimi kamayib, dvigatel qiziydi"
+   ],
+   "e": "Dvigatel to'xtatilib, g'ildiraklar tormozlanadi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Osma mashinani ko'tarilgan holatda ta'mirlashda nima qilinadi?",
+   "a": [
+    "Mashina mustahkam tayanchlarga qo'yiladi",
+    "Faqat gidrotizimga tayanib ishlanadi",
+    "Mashina ostiga odam qo'yib ushlab turiladi",
+    "Hech qanday chora kerak emas"
+   ],
+   "e": "Gidrotizim tushib ketishi mumkin."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Elektr uzatish liniyalari ostida ishlashda qanday xavf bor?",
+   "a": [
+    "Tok urishi",
+    "Shinalarning tezroq yeyilishi",
+    "Yonilg'i sarfining keskin oshishi",
+    "Dvigatelning qizib ketishi"
+   ],
+   "e": "Xavfsiz masofa saqlanadi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Traktorda yong'in chiqqanda birinchi navbatda nima qilinadi?",
+   "a": [
+    "Dvigatel to'xtatilib, o't o'chirgich ishlatiladi",
+    "Dvigatel aylanishi oshirilib, tez haydaladi",
+    "Suv bilan yonayotgan yonilg'i o'chiriladi",
+    "Traktor tashlab ketiladi, hech kimga aytilmaydi"
+   ],
+   "e": "Yonilg'i — kukunli o't o'chirgich, qum."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Yonayotgan yonilg'ini o'chirishda nima ishlatilmaydi?",
+   "a": [
+    "Suv",
+    "Qum",
+    "Kukunli o't o'chirgich",
+    "Brezent (kigiz) yopinchiq"
+   ],
+   "e": "Yonilg'i suvda suzib yonishda davom etadi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Traktorni boshqa traktor bilan shatakka olishda nima ishlatiladi?",
+   "a": [
+    "Qattiq shatak (qattiq bog'lagich)",
+    "Ingichka kanop arqon yoki tros",
+    "Elektr simi yoki yupqa sim",
+    "Hech narsa, boshqa traktor itarib oladi"
+   ],
+   "e": "Ayniqsa tormoz nosoz bo'lsa."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Traktor jamoat yo'llarida harakatlanayotganda qaysi qoidalarga rioya qilinadi?",
+   "a": [
+    "Yo'l harakati qoidalariga",
+    "Faqat xo'jalik ichki tartibiga",
+    "Hech qanday qoidaga rioya qilinmaydi",
+    "Faqat traktorchining o'z xohishiga"
+   ],
+   "e": "YHQ."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Ish joyida birinchi tibbiy yordam qutichasi (aptechka) bo'lishi shartmi?",
+   "a": [
+    "Ha, traktorda bo'lishi shart",
+    "Yo'q, umuman kerak emas",
+    "Faqat qishda kerak",
+    "Faqat brigada boshlig'ida bo'ladi"
+   ],
+   "e": "Mehnat muhofazasi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Mexanizatorning ish kiyimi qanday bo'lishi kerak?",
+   "a": [
+    "Tanaga mos, osilib turuvchi qismlarsiz",
+    "Keng, uchlari osilib turuvchi, bog'ichli",
+    "Sharf, galstuk va uzun yengli xalat",
+    "Ochiq sandal va qisqa shim"
+   ],
+   "e": "Aylanuvchi qismlarga ilinmaslik."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Agregatni harakatga keltirishdan oldin traktorchi nima qiladi?",
+   "a": [
+    "Signal berib, atrofda odam yo'qligini tekshiradi",
+    "Signal bermasdan, to'satdan yurib ketadi",
+    "Atrofga qaramasdan tezlikni keskin oshiradi",
+    "Faqat orqaga qaramasdan, oldinga yuradi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Agrotexnik muddatlarga rioya qilmaslik nimaga olib keladi?",
+   "a": [
+    "Hosildorlik kamayishiga",
+    "Hosildorlikning oshishiga",
+    "Yonilg'i sarfining kamayishiga",
+    "Tuproq unumdorligi oshishiga"
+   ],
+   "e": "O'z vaqtida bajarish."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Traktor agregatining ish unumdorligi qanday birlikda o'lchanadi?",
+   "a": [
+    "Gektar/soat (ga/soat)",
+    "Kilogramm/litr",
+    "Volt/amper",
+    "Metr/soniya kvadrat"
+   ],
+   "e": "Smena unumdorligi — ga/smena."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Agregatning ish unumdorligi nimalarga bog'liq?",
+   "a": [
+    "Qamrov kengligi, tezlik va vaqtdan foydalanish",
+    "Faqat traktor rangi va markasiga",
+    "Faqat traktorchining bo'yi va vazniga",
+    "Faqat ob-havo bashorati va oy fazasiga"
+   ],
+   "e": "W = 0,1·B·v·τ."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Dalani haydashda qanday harakat usullari qo'llanadi?",
+   "a": [
+    "Mokkisimon, aylanma, ag'darib va tashlab haydash",
+    "Faqat tasodifiy, tartibsiz harakat usuli",
+    "Faqat orqaga yurib haydash usuli",
+    "Faqat dala diagonali bo'ylab haydash"
+   ],
+   "e": "Ag'darma va tashlama usullari."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Burilish polosasi (povorotnaya polosa) nima uchun qoldiriladi?",
+   "a": [
+    "Agregatning burilishi uchun dala chetida",
+    "Yonilg'i quyish uchun dala o'rtasida",
+    "Dam olish uchun ariq bo'yida",
+    "Hech qanday maqsadsiz"
+   ],
+   "e": "Keyin alohida ishlanadi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Traktorchi alkogol ta'sirida traktorni boshqarsa qanday javobgarlik belgilanadi?",
+   "a": [
+    "Qonunda belgilangan javobgarlik",
+    "Hech qanday javobgarlik belgilanmaydi",
+    "Faqat og'zaki ogohlantirish beriladi",
+    "Faqat ish haqi kamaytiriladi, xolos"
+   ],
+   "e": "Ishdan chetlashtiriladi."
+  },
+  {
+   "b": "Mehnat xavfsizligi va traktorni boshqarish",
+   "q": "Yonilg'i quyishda qanday xavfsizlik qoidasiga rioya qilinadi?",
+   "a": [
+    "Dvigatel to'xtatilgan, chekish taqiqlangan",
+    "Dvigatel ishlab turgan holda tez quyiladi",
+    "Chekib turib, ehtiyotkorlik bilan quyiladi",
+    "Ochiq olov yonida, yorug'lik uchun quyiladi"
+   ],
+   "e": "Statik elektrdan ehtiyot."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Silindr gilzasi qanday vazifani bajaradi?",
+   "a": [
+    "Porshen harakati uchun yo'naltiruvchi yuza",
+    "Yonilg'ini silindrga mayda zarralar holida purkash",
+    "Ishlatilgan gazlarni dvigateldan tashqariga chiqarish",
+    "Tirsakli valni karterga mahkamlab, aylanishini cheklash"
+   ],
+   "e": "Ho'l va quruq gilzalar."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "\"Ho'l\" gilzaning o'ziga xosligi nima?",
+   "a": [
+    "Tashqi yuzasi sovutish suyuqligi bilan bevosita yuviladi",
+    "Ichki yuzasi doim motor moyi bilan to'ldirilib turadi",
+    "Silindrlar bloki bilan bir butun quyib tayyorlanadi",
+    "Faqat havo bilan sovitiladigan dvigatellarda bo'ladi"
+   ],
+   "e": "Yaxshi sovitiladi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Tirsakli val vkladishlari (podshipniklar) qanday turdagi podshipnik?",
+   "a": [
+    "Sirpanish podshipniklari",
+    "Sharikli dumalash podshipniklari",
+    "Rolikli konussimon podshipniklar",
+    "Ignasimon dumalash podshipniklari"
+   ],
+   "e": "Moy plyonkasi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Dvigatelda \"taqillash\" (stuk) eshitilsa nima qilinadi?",
+   "a": [
+    "Dvigatel to'xtatilib, sababi aniqlanadi",
+    "Dvigatel aylanishi oshirilib ish davom ettiriladi",
+    "Moy sathi ataylab kamaytiriladi",
+    "Sovutish suyuqligi to'kib tashlanadi"
+   ],
+   "e": "Avariyaning oldi olinadi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Porshen barmog'i nimani birlashtiradi?",
+   "a": [
+    "Porshen va shatunni",
+    "Shatun va tirsakli valni",
+    "Tirsakli val va maxovikni",
+    "Klapan va koromisloni"
+   ],
+   "e": "Suzuvchi barmoq."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Shatunning pastki kallagi nimaga ulanadi?",
+   "a": [
+    "Tirsakli valning shatun bo'yniga",
+    "Porshen barmog'iga",
+    "Taqsimlovchi valga",
+    "Maxovikning tishli gardishiga, boltlar bilan"
+   ],
+   "e": "Vkladishlar orqali."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Silindrlar kallagi prokladkasi kuyganda qanday belgilar kuzatiladi?",
+   "a": [
+    "Sovutish suyuqligida pufakchalar, moyga suv aralashishi",
+    "Dvigatel quvvatining sezilarli oshib ketishi va tejamkorlik",
+    "Yonilg'i sarfining keskin kamayishi",
+    "Moy bosimining me'yordan oshishi"
+   ],
+   "e": "Oq tutun ham."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Motor moyi oq-kulrang (emulsiya) rangga kirsa bu nimani bildiradi?",
+   "a": [
+    "Moyga sovutish suyuqligi aralashgan",
+    "Moy yangi va sifatli ekanini",
+    "Moyga dizel yonilg'isi aralashganini",
+    "Moy juda qizib ketganini"
+   ],
+   "e": "Prokladka yoki gilza nosozligi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Dvigatel moy sathining ortishi va moyning suyulishi nimani ko'rsatadi?",
+   "a": [
+    "Moyga yonilg'i tushayotganini",
+    "Moy filtri yangi ekanini",
+    "Sovutish tizimi sozligini",
+    "Akkumulyator batareyasi to'liq zaryadlanganini"
+   ],
+   "e": "Yonilg'i nasosi yoki forsunka nosozligi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Forsunka purkash bosimi qanday asbobda tekshiriladi?",
+   "a": [
+    "Maxsus sinash stendida",
+    "Ampermetr va voltmetr yordamida",
+    "Areometr yordamida",
+    "Termometr yordamida"
+   ],
+   "e": "Purkash sifati ham."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Forsunka nosoz bo'lsa (yonilg'ini oqizsa) qanday belgi kuzatiladi?",
+   "a": [
+    "Notekis ishlaydi, qora tutun chiqadi",
+    "Dvigatel ancha tejamkor va tekis ishlaydi",
+    "Moy bosimi oshadi",
+    "Akkumulyator tez zaryadlanadi"
+   ],
+   "e": "Uzilishlar."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Dvigatelni ishga tushirib bo'lmasa (dizel), birinchi navbatda nima tekshiriladi?",
+   "a": [
+    "Yonilg'i va tizimda havo yo'qligi",
+    "Shinalardagi havo bosimi",
+    "Kabina oynasi va faralarning tozaligi",
+    "Faralarning ishlashi"
+   ],
+   "e": "Keyin kompressiya, akkumulyator."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Turbokompressor nosozligining belgisi qaysi?",
+   "a": [
+    "Quvvat pasayadi, moy sarfi va tutun ortadi",
+    "Quvvat keskin oshib, tutun butunlay yo'qoladi",
+    "Moy sarfi nolga tushadi",
+    "Dvigatel sovuqroq ishlaydi"
+   ],
+   "e": "Podshipniklar yeyiladi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Gaz taqsimlash fazalari buzilsa nima bo'ladi?",
+   "a": [
+    "Quvvat pasayib, ishlash buziladi",
+    "Quvvat ikki barobar oshadi",
+    "Yonilg'i sarfi nolga tushib, quvvat oshadi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Shesternyalar belgilar bo'yicha o'rnatiladi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Klapan tirqishi juda kichik bo'lsa nima bo'ladi?",
+   "a": [
+    "Klapan zich yopilmay, kuyishi mumkin",
+    "Klapan taqillab, shovqin sezilarli oshadi",
+    "Klapan to'liq ochilmaydi, faqat",
+    "Hech qanday ta'sir bo'lmaydi"
+   ],
+   "e": "Katta tirqishda taqillash."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Klapan tirqishi juda katta bo'lsa qanday belgi kuzatiladi?",
+   "a": [
+    "Klapanlar taqillaydi",
+    "Klapanlar kuyib ketadi",
+    "Dvigatel quvvati oshadi",
+    "Moy bosimi oshadi"
+   ],
+   "e": "Ochilish vaqti qisqaradi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Yonilg'i filtrlari ifloslanganda nima bo'ladi?",
+   "a": [
+    "Yonilg'i yetishmay, quvvat pasayadi",
+    "Yonilg'i sarfi kamayib, quvvat oshadi",
+    "Moy bosimi oshib ketadi",
+    "Sovutish tizimi yaxshi ishlaydi"
+   ],
+   "e": "Filtrlar almashtiriladi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Sovuqda dizel yonilg'isi quyuqlashib qolsa nima qilinadi?",
+   "a": [
+    "Qishki yonilg'i, filtrlarni isitish",
+    "Yonilg'iga suv qo'shiladi",
+    "Yonilg'i bakini ochiq olovda qizdiriladi",
+    "Benzin aralashtiriladi, ochiq olov bilan isitiladi"
+   ],
+   "e": "Ochiq olov taqiqlanadi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Dvigatel moy bosimi past bo'lishining sabablari qaysilar?",
+   "a": [
+    "Moy kamligi yoki nasos, vkladish yeyilishi",
+    "Moy sathining me'yorda va moy toza bo'lishi",
+    "Yangi moy filtri o'rnatilgani",
+    "Dvigatel sovuq holatda bo'lishi"
+   ],
+   "e": "Darhol to'xtatish."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Detallarning yeyilishini kamaytirishning asosiy yo'li qaysi?",
+   "a": [
+    "Sifatli moylash va filtr almashtirish",
+    "Dvigatelni doimo maksimal aylanishda ishlatib turish",
+    "Moyni hech qachon almashtirmaslik",
+    "Havo filtrisiz ishlash"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Dvigatelni to'xtatishdan oldin nima uchun bir necha daqiqa kichik aylanishda ishlatiladi?",
+   "a": [
+    "Detallar va turbina bir tekis sovishi uchun",
+    "Yonilg'i sarfini oshirish uchun",
+    "Moyni to'kib tashlash uchun",
+    "Akkumulyatorni to'liq razryadlab qo'yish uchun"
+   ],
+   "e": "Turbokompressor podshipniklari."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Tirsakli val bo'yinlari yeyilganda qanday ta'mir usuli qo'llanadi?",
+   "a": [
+    "Ta'mir o'lchamiga charxlanadi",
+    "Bo'yinlar payvandlab qoplanadi va bo'yaladi",
+    "Val almashtirilmaydi, yeyilgan holda ishlatilaveradi",
+    "Vkladishlar olib tashlanadi"
+   ],
+   "e": "Ta'mir o'lchamlari."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Silindr-porshen guruhi yeyilganligining belgisi qaysi?",
+   "a": [
+    "Moy sarfi ortib, kompressiya pasayadi",
+    "Moy sarfi kamayib, kompressiya oshadi",
+    "Yonilg'i sarfi nolga tushadi",
+    "Dvigatel sovuqroq ishlaydi"
+   ],
+   "e": "Karterdan gaz chiqishi."
+  },
+  {
+   "b": "Dvigatel detallari va nosozliklar",
+   "q": "Karter gazlari (sapun orqali) ko'payishi nimani bildiradi?",
+   "a": [
+    "Porshen halqalari va silindr yeyilishini",
+    "Yangi dvigatel ekanini",
+    "Havo filtri tozaligini",
+    "Motor moyi sifatining yuqoriligini va tozaligini"
+   ],
+   "e": "Ventilyatsiya tizimi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "TTZ traktorlari qaysi zavodda ishlab chiqariladi?",
+   "a": [
+    "Toshkent traktor zavodi",
+    "Minsk traktor zavodi",
+    "Xarkov traktor zavodi",
+    "Volgograd traktor zavodi"
+   ],
+   "e": "TTZ-80.11, TTZ-1030 va b."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "MTZ traktorlari qaysi davlatda ishlab chiqariladi?",
+   "a": [
+    "Belarus",
+    "O'zbekiston",
+    "Germaniya",
+    "Yaponiya"
+   ],
+   "e": "Minsk traktor zavodi, \"Belarus\"."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Agregatlash nima?",
+   "a": [
+    "Traktorni mos mashina bilan birlashtirish",
+    "Traktorni to'liq qismlarga ajratib ta'mirlash",
+    "Traktorga yonilg'i va moy quyish",
+    "Traktorni saqlashga qo'yish"
+   ],
+   "e": "Mashina-traktor agregati (MTA)."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Agregat tuzishda asosiy talab qaysi?",
+   "a": [
+    "Traktor quvvati va tortish kuchi mashinaga mos bo'lishi",
+    "Traktor va mashinaning rangi hamda markasi bir xil bo'lishi",
+    "Mashina traktordan og'irroq bo'lishi",
+    "Traktor eng yangi rusumda bo'lishi"
+   ],
+   "e": "Yuklanish 85–95%."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Osma, yarim osma va tirkama mashinalarning farqi nimada?",
+   "a": [
+    "Og'irligining traktorga tushish ulushida",
+    "Faqat bo'yalish rangida",
+    "Faqat ishlab chiqaruvchi zavodi va chiqarilgan yilida",
+    "Hech qanday farq yo'q"
+   ],
+   "e": "Osma — to'liq, tirkama — o'z g'ildiraklarida."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Traktor tortish kuchi tuproq turiga qanday bog'liq?",
+   "a": [
+    "Zich, quruq tuproqda ilashish yaxshi, tortish katta",
+    "Botqoq, nam tuproqda tortish kuchi eng katta bo'ladi",
+    "Tuproq turiga umuman bog'liq emas",
+    "Qumli tuproqda doim eng katta"
+   ],
+   "e": "Shataksirash (buksovanie)."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Shataksirash (buksovanie) nima?",
+   "a": [
+    "G'ildiraklar aylanib, traktor joyida qolishi",
+    "Traktorning orqaga yurishi",
+    "Tormozlanish yo'lining keskin qisqarib qolishi",
+    "Dvigatelning o'chib qolishi"
+   ],
+   "e": "Ruxsat etilgan chegara 15–18%."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Shataksirashni kamaytirish uchun nima qilinadi?",
+   "a": [
+    "Ballast yuk qo'yiladi, differensial bloklanadi",
+    "Shinalarga havo maksimal haydaladi, yuqori uzatma qo'shiladi",
+    "Yuqori uzatmaga o'tiladi",
+    "Old ko'prik uziladi"
+   ],
+   "e": "Old ko'prik ulanadi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "G'ildiraklarga ballast yuk (suv yoki metall) qo'yishdan maqsad nima?",
+   "a": [
+    "Ilashishni yaxshilab, tortishni oshirish",
+    "Traktor tezligini oshirish",
+    "Yonilg'i sarfini oshirish",
+    "Shinalar yeyilishini ataylab tezlashtirish uchun"
+   ],
+   "e": "Og'ir ishlarda."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Koleyani o'zgartirish nima uchun kerak?",
+   "a": [
+    "Qator oralig'iga moslash uchun",
+    "Dvigatel quvvatini oshirish uchun",
+    "Tormoz yo'lini qisqartirish uchun",
+    "Kabina hajmini kengaytirish uchun"
+   ],
+   "e": "Paxtachilikda 90 sm qator."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Paxtachilikda qator oralig'i ko'pincha qancha bo'ladi?",
+   "a": [
+    "60 yoki 90 sm",
+    "5 sm",
+    "3 m",
+    "150–180 sm"
+   ],
+   "e": "Chopiq traktorlari moslashtiriladi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Mini-traktorlar qayerda ko'proq qo'llanadi?",
+   "a": [
+    "Kichik fermer xo'jaliklari, bog' va issiqxonalarda",
+    "Faqat katta karyerlarda",
+    "Faqat avtomagistrallarda og'ir yuk tashishda",
+    "Faqat temir yo'l stansiyalarida"
+   ],
+   "e": "Kichik quvvatli."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Moto-blok nima?",
+   "a": [
+    "Bir o'qli kichik quvvatli traktor",
+    "Ikki dvigatelli, katta quvvatli traktor",
+    "Zanjirli buldozer",
+    "Paxta terish mashinasi"
+   ],
+   "e": "Piyoda boshqariladi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Buldozer qanday ishlarda qo'llanadi?",
+   "a": [
+    "Tuproqni qazish, surish va tekislash",
+    "Paxtani terish va tozalash",
+    "G'allani o'rish va yanchish",
+    "Chigitni ekish va mineral o'g'itlash"
+   ],
+   "e": "Agvon (otval) bilan."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Ekskavator asosan nima uchun ishlatiladi?",
+   "a": [
+    "Tuproqni kovlash va yuklash",
+    "Urug' ekish va dalani sug'orish",
+    "Paxtani terish",
+    "Pichan presslash"
+   ],
+   "e": "Kovsh bilan."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Traktorga GPS-navigatsiya o'rnatish nima beradi?",
+   "a": [
+    "Aniq yurish va qayta ishlov kamayishi",
+    "Dvigatel moyining tezroq eskirib qolishi",
+    "Traktor rangining o'zgarishi",
+    "Shinalar yeyilishining ortishi"
+   ],
+   "e": "Aniq dehqonchilik."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Aniq dehqonchilik (precision farming) nima?",
+   "a": [
+    "Sun'iy yo'ldosh va sensorlar asosida resursni tejash",
+    "Faqat qo'l mehnatiga asoslangan an'anaviy dehqonchilik",
+    "Faqat ot-ulov bilan dala ishlash",
+    "O'g'itni ko'z bilan chamalab sepish"
+   ],
+   "e": "Raqamli qishloq xo'jaligi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Traktor shinasi belgisidagi \"15,5R38\" da \"38\" nimani bildiradi?",
+   "a": [
+    "Disk (gardish) diametrini dyuymda",
+    "Shina kengligini santimetrda",
+    "Shinadagi havo bosimini",
+    "Shina ishlab chiqarilgan yil va oyni"
+   ],
+   "e": "15,5 — profil kengligi, R — radial."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Zanjirli traktorlarda zanjir tarangligi qanday rostlanadi?",
+   "a": [
+    "Yo'naltiruvchi g'ildirakni siljitib",
+    "Yetakchi yulduzchani olib tashlab",
+    "Tayanch katoklarni yechib",
+    "Dvigatelni siljitib"
+   ],
+   "e": "Taranglovchi qurilma."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Zanjir juda bo'sh bo'lsa nima bo'ladi?",
+   "a": [
+    "Zanjir yulduzchadan tushib ketishi mumkin",
+    "Traktor tezroq va tejamkor yuradi",
+    "Zanjir yeyilishi butunlay to'xtab qoladi",
+    "Dvigatel quvvati oshadi"
+   ],
+   "e": "Optimal taranglik."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Kabinadagi mikroiqlimni nima ta'minlaydi?",
+   "a": [
+    "Ventilyatsiya, isitgich va konditsioner",
+    "Faqat ochiq derazalar",
+    "Faqat yonilg'i baki va dvigatel issiqligi",
+    "Hech narsa talab qilinmaydi"
+   ],
+   "e": "Mehnat sharoiti."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Shovqin va titrash mexanizatorga qanday ta'sir qiladi?",
+   "a": [
+    "Charchoq va kasbiy kasalliklarga olib keladi",
+    "Diqqatni oshirib, sog'likni mustahkamlaydi",
+    "Hech qanday ta'sir qilmaydi",
+    "Faqat traktor rangiga ta'sir qiladi"
+   ],
+   "e": "Shovqin izolyatsiyasi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Traktorni ishga tushirishdan oldingi ko'rik nima uchun o'tkaziladi?",
+   "a": [
+    "Nosozlik va sizishlarni oldindan aniqlash uchun",
+    "Traktorni chiroyli ko'rsatish va suratga olish uchun",
+    "Yonilg'i sarfini oshirish uchun",
+    "Ish vaqtini cho'zish uchun"
+   ],
+   "e": "ETO tarkibida."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Pnevmatik tormoz tizimida siqilgan havoni nima hosil qiladi?",
+   "a": [
+    "Kompressor",
+    "Generator",
+    "Suv nasosi",
+    "Ventilyator"
+   ],
+   "e": "Resiverda saqlanadi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Gidrotizimda moy qizib ketishining sababi nima?",
+   "a": [
+    "Ortiqcha yuklama yoki moy kamligi",
+    "Moyning yangi va toza bo'lishi",
+    "Gidrotsilindrlarning ishlamasligi",
+    "Traktor to'xtab turishi"
+   ],
+   "e": "Saqlagich klapan ochilib qolishi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Sharnirli ramali traktorlarning afzalligi nima?",
+   "a": [
+    "Burilish radiusi kichik, o'tag'onligi yuqori",
+    "Tuzilishi eng sodda va arzon",
+    "Faqat asfaltda yura olishi",
+    "Burilishi uchun albatta tormoz talab qilinishi"
+   ],
+   "e": "K-700, T-150K."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Traktor agregatining harakat tezligi ishlov sifatiga qanday ta'sir qiladi?",
+   "a": [
+    "Me'yordan yuqori tezlik sifatni pasaytiradi",
+    "Tezlik qancha yuqori bo'lsa sifat shuncha yaxshi",
+    "Tezlik sifatga umuman ta'sir qilmaydi",
+    "Faqat past tezlik sifatni pasaytiradi"
+   ],
+   "e": "Agrotexnik talablar."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Shinadagi havo bosimini o'lchash uchun nima ishlatiladi?",
+   "a": [
+    "Manometr",
+    "Areometr",
+    "Taxometr",
+    "Ampermetr"
+   ],
+   "e": "Sovuq shinada o'lchanadi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Yer osti suvlari chuqur bo'lmagan sho'r tuproqlarda qanday tadbir o'tkaziladi?",
+   "a": [
+    "Sho'r yuvish va zovurlarni tozalash",
+    "Faqat chuqur shudgor qilish, suvsiz",
+    "Faqat o'g'itni ko'paytirish",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Meliorativ tadbirlar."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Melioratsiya mashinalariga nimalar kiradi?",
+   "a": [
+    "Zovur qazgich va kanal tozalagichlar",
+    "Paxta terish mashinalari va g'o'zapoya yig'gichlar",
+    "Don kombaynlari",
+    "Seyalkalar"
+   ],
+   "e": "Ekskavator, kanalokopatel."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Traktor kabinasida o'rindiq qanday rostlanadi?",
+   "a": [
+    "Haydovchi bo'yi va vazniga mos",
+    "Faqat kabina rangiga mos",
+    "Rostlanmaydi, hamma uchun bir xil",
+    "Faqat traktor tezligiga qarab"
+   ],
+   "e": "Ergonomika."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Mexanizator ishdan so'ng traktorni qanday holatda topshiradi?",
+   "a": [
+    "Tozalangan, nosozliklari yozilgan holda",
+    "Iflos, nosozliklarini yashirib, hujjatsiz",
+    "Dvigatel ishlab turgan holda",
+    "Kalitini kabinada qoldirib"
+   ],
+   "e": "Smena topshirish."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Dizel dvigateli uchun dvigatel moyi tanlashda nimaga e'tibor beriladi?",
+   "a": [
+    "API/SAE klassi va ishlab chiqaruvchi tavsiyasiga",
+    "Faqat moy narxining arzonligi va idish hajmiga",
+    "Faqat moy idishining rangiga",
+    "Faqat do'kondagi mavjudligiga"
+   ],
+   "e": "Mavsum va dvigatel turi."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "SAE 15W-40 belgisida \"W\" nimani bildiradi?",
+   "a": [
+    "Qishki (past haroratdagi) xususiyatni",
+    "Moyning og'irligini",
+    "Moy ishlab chiqarilgan joy va zavodni",
+    "Suv miqdorini"
+   ],
+   "e": "Winter."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Transmissiya moyi motor moyidan nimasi bilan farq qiladi?",
+   "a": [
+    "Qovushqoqligi yuqori, tishli juftliklar uchun",
+    "Qovushqoqligi juda past, suvga yaqin bo'ladi",
+    "Faqat rangi bilan farq qiladi",
+    "Hech qanday farqi yo'q"
+   ],
+   "e": "TAD-17, TM-5."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Traktor ishlagan moy (otrabotka) qanday utilizatsiya qilinadi?",
+   "a": [
+    "Maxsus idishga yig'ilib, qayta ishlashga topshiriladi",
+    "Dalaga yoki sug'orish ariqlariga to'kib yuboriladi",
+    "Yerga ko'mib tashlanadi",
+    "Daryoga oqiziladi"
+   ],
+   "e": "Ekologik talablar."
+  },
+  {
+   "b": "Traktor rusumlari, agregatlash va qo'shimcha",
+   "q": "Yonilg'i-moylash materiallari omborida nima qilish taqiqlanadi?",
+   "a": [
+    "Chekish va ochiq olovdan foydalanish",
+    "O't o'chirgich saqlash",
+    "Idishlarni zich yopiq holda saqlash",
+    "Hududni toza tutish"
+   ],
+   "e": "Yong'in xavfsizligi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Dvigatel quvvati qanday birlikda o'lchanadi?",
+   "a": [
+    "kVt (ot kuchi)",
+    "Nyuton-metr (N·m) bilan, burovchi moment sifatida",
+    "Litr bilan, silindrlar hajmi sifatida",
+    "Kilogramm bilan, dvigatel og'irligi sifatida"
+   ],
+   "e": "1 o.k. ≈ 0,736 kVt."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Burovchi moment qanday birlikda o'lchanadi?",
+   "a": [
+    "N·m",
+    "kVt va ot kuchi bilan birga",
+    "Litr/soat (yonilg'i sarfi bilan)",
+    "Aylanish/daqiqa (taxometr bo'yicha)"
+   ],
+   "e": "Nyuton-metr."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Dizel dvigatelida havoning siqilish oxiridagi harorati taxminan qancha?",
+   "a": [
+    "500–700 °C",
+    "50–70 °C, xona haroratidan biroz yuqori",
+    "100 °C, suvning qaynash haroratida",
+    "2000–2500 °C, yonish haroratida"
+   ],
+   "e": "Yonilg'i o'z-o'zidan alangalanadi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Yonilg'i purkash ilgarilash burchagi noto'g'ri o'rnatilsa nima bo'ladi?",
+   "a": [
+    "Dvigatel qattiq yoki tutun bilan ishlaydi",
+    "Dvigatel quvvati va tejamkorligi sezilarli oshadi",
+    "Moy bosimi me'yordan ikki barobar oshadi",
+    "Sovutish suyuqligi muzlab qoladi"
+   ],
+   "e": "Tirsakli val burilish burchagida."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Traktor qishki saqlashga qo'yilganda sovutish tizimi bilan nima qilinadi?",
+   "a": [
+    "Antifriz quyiladi yoki suv to'kiladi",
+    "Suv to'ldirib qoldiriladi, hech narsa qilinmaydi",
+    "Radiator olib tashlanib, ochiq qoldiriladi",
+    "Tizimga motor moyi quyib qo'yiladi"
+   ],
+   "e": "Blok yorilmasligi uchun."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Ilashish muftasi to'liq uzilmasa (vedet) qanday belgi kuzatiladi?",
+   "a": [
+    "Uzatmalar shovqin bilan qiyin ulanadi",
+    "Traktor yuklama ostida sekinlashib, kuygan hid chiqadi",
+    "Pedalni bosish juda yengillashadi va erkin yo'l oshadi",
+    "Dvigatel aylanish chastotasi o'z-o'zidan oshadi"
+   ],
+   "e": "Erkin yo'l katta."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Traktorda \"massa\" o'chirgichi nima uchun kerak?",
+   "a": [
+    "To'xtab turganda akkumulyatorni uzish uchun",
+    "Dvigatel quvvatini oshirish va tezlikni ko'tarish uchun",
+    "Faralarni yorqinroq yoqish uchun",
+    "Generator tasmasini taranglash uchun"
+   ],
+   "e": "Razryad va yong'indan himoya."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Traktorning gidrotizimida moy sathi qachon tekshiriladi?",
+   "a": [
+    "Gidrotsilindrlar yig'ilgan holatda",
+    "Gidrotsilindrlar to'liq cho'zilgan, mashina ko'tarilgan holatda",
+    "Dvigatel maksimal aylanishda ishlab turganda",
+    "Traktor qiyalikda turgan holatda"
+   ],
+   "e": "Aniq sath ko'rsatkichi."
+  }
+ ],
+ "kalit": "traktor traktorlar qishloq xojaligi mashinalari agregat kombayn mexanizator dvigatel"
+}
