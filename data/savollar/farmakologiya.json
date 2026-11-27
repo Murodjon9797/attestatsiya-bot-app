@@ -9,7 +9,7 @@
    "q": "Farmakokinetika nimani o'rganadi?",
    "a": [
     "So'rilish, taqsimlanish, metabolizm, chiqarilish",
-    "Dorining retseptorlarga ta'sir mexanizmini",
+    "Dorilarning kimyoviy tuzilishini",
     "Dori ishlab chiqarish texnologiyasi va standartini",
     "Dorining retseptorlarga bog'lanish mexanizmini"
    ],
@@ -87,7 +87,7 @@
    "a": [
     "Ichilgan dorining jigarda qisman parchalanishi",
     "Dorining venaga birinchi marta yuborilishi",
-    "Dorining birinchi dozasiga allergiya",
+    "Dorining birinchi qabulda kuchliroq ta'siri",
     "Dorining birinchi dozasiga allergik reaksiya"
    ],
    "e": "Masalan, nitroglitserin — shuning uchun til ostiga."
@@ -131,7 +131,7 @@
    "a": [
     "Dorining xavfsizlik darajasini",
     "Dorining sotuvdagi narxini",
-    "Dorining ta'm sifatini",
+    "Dorining yaroqlilik muddatini",
     "Dorining ta'm va hid sifatini"
    ],
    "e": "Toksik va samarali dozalar nisbati."
@@ -153,7 +153,7 @@
    "a": [
     "Tez samara uchun birinchi katta doza",
     "Bolalar uchun mo'ljallangan yarim doza",
-    "Toksik ta'sir beradigan doza",
+    "Kunlik eng kichik samarali doza",
     "Toksik ta'sir beradigan eng katta doza"
    ],
    "e": "Keyin qo'llab-quvvatlovchi doza."
@@ -186,7 +186,7 @@
    "a": [
     "Doriga ruhiy va jismoniy bog'lanish",
     "Dorining oshqozonda tez so'rilishi",
-    "Dorining organizmda to'planishi",
+    "Dorining tez metabolizmga uchrashi",
     "Dorining organizmda to'planib qolishi"
    ],
    "e": "Opioidlar, benzodiazepinlar."
@@ -219,7 +219,7 @@
    "a": [
     "Homilaga zarar, tug'ma nuqsonlar",
     "Eshitish nerviga zararli ta'sir",
-    "Eshitishga zararli ta'sir",
+    "Buyrakka zararli ta'sir",
     "Jigar hujayralariga zararli ta'sir"
    ],
    "e": "Homiladorlikda ehtiyotkorlik."
@@ -241,7 +241,7 @@
    "a": [
     "Tabletka, kapsula, kukun",
     "Eritma, nastoy, damlama va sirop",
-    "Malham, pasta, liniment",
+    "Aerozol va ingalyatsiya shakllari",
     "Malham, pasta, liniment va gel"
    ],
    "e": "Dori shakllari tasnifi."
@@ -273,7 +273,7 @@
    "q": "Enteral yuborish yo'llariga qaysi kiradi?",
    "a": [
     "Og'iz, til osti, to'g'ri ichak orqali",
-    "Vena ichiga, mushak ichiga",
+    "Ingalyatsiya va epidural yo'l",
     "Vena ichiga va mushak ichiga in'eksiya",
     "Teri ostiga va teri ichiga in'eksiya"
    ],
@@ -306,7 +306,7 @@
    "q": "Teri ichiga (intradermal) in'eksiya qaysi maqsadda ko'proq qilinadi?",
    "a": [
     "Allergik sinamalar va Mantu sinamasi",
-    "Katta hajmdagi suyuqlik yuborish",
+    "Parenteral oziqlantirish",
     "Shoshilinch reanimatsiya tadbirlarida",
     "Katta hajmdagi suyuqlikni tez yuborish"
    ],
@@ -317,7 +317,7 @@
    "q": "Enterik qobiqli (ichakda eriydigan) tabletkani qanday qabul qilish kerak?",
    "a": [
     "Butunligicha, maydalamasdan",
-    "Maydalab, suvda eritib",
+    "Faqat sut bilan ichish",
     "Maydalab, suvda eritib ichish",
     "Chaynab, so'rib, til ustida ushlab turish"
    ],
@@ -350,7 +350,7 @@
    "q": "Damlama (nastoy) qanday tayyorlanadi?",
    "a": [
     "Xom ashyoga qaynoq suv quyib tindiriladi",
-    "O'simlik moy bilan qizdiriladi",
+    "Xom ashyo quritilib, kukun qilinadi",
     "O'simlik moy bilan aralashtiriladi",
     "O'simlik quritilib kukun qilinadi"
    ],
@@ -471,7 +471,7 @@
    "q": "Naftizin (nafazolin) tomchilari qanday ta'sir ko'rsatadi?",
    "a": [
     "Burun shilliq qavati tomirlarini toraytiradi",
-    "Burundagi bakteriyalarni o'ldiradi",
+    "Burun shilliq qavatini namlaydi",
     "Burundagi bakteriyalarni o'ldirib, yiringni yo'qotadi",
     "Burun shilliq bezlarining faoliyatini kuchaytiradi"
    ],
@@ -482,7 +482,7 @@
    "q": "Morfin qaysi guruhga mansub?",
    "a": [
     "Narkotik (opioid) analgetiklar",
-    "Nonarkotik analgetiklar",
+    "Antidepressantlar",
     "Mahalliy og'riqsizlantiruvchi vositalar",
     "Nonarkotik analgetik-antipiretiklar"
    ],
@@ -493,7 +493,7 @@
    "q": "Morfin bilan o'tkir zaharlanishning asosiy belgisi qaysi?",
    "a": [
     "Nafasning susayishi va qorachiqning nuqtadek torayishi",
-    "Qorachiqning kengayishi va taxikardiya",
+    "Ter ajralishining to'xtashi va qizarish",
     "Qorachiqning kengayishi va kuchli taxikardiya",
     "Isitma, qaltirash va kuchli ter ajralishi"
    ],
@@ -581,7 +581,7 @@
    "q": "Haloperidol qaysi guruhga kiradi?",
    "a": [
     "Neyroleptiklar (antipsixotiklar)",
-    "Antidepressantlar",
+    "Benzodiazepin trankvilizatorlari",
     "Trisiklik antidepressantlar",
     "Nootrop va psixostimulyator vositalar"
    ],
@@ -626,7 +626,7 @@
    "a": [
     "Oshqozon shilliq qavatining shikastlanishi",
     "Sochning to'kilishi va teri rangining o'zgarishi",
-    "Ko'rishning keskin yaxshilanishi",
+    "Qon bosimining keskin pasayishi",
     "Ko'rishning keskin yaxshilanishi va uyquchanlik"
    ],
    "e": "Yara xavfi."
@@ -725,7 +725,7 @@
    "a": [
     "Bakteriya hujayra devori sintezini buzadi",
     "Bakteriya DNK girazasini to'sib qo'yadi",
-    "Bakteriya DNK girazasini to'sadi",
+    "Zamburug' membranasini yemiradi",
     "Bakteriya ribosomasidagi oqsil sintezini bloklaydi"
    ],
    "e": "Bakteritsid ta'sir."
@@ -758,7 +758,7 @@
    "a": [
     "Tish emali va suyak rivojlanishiga zarar yetkazadi",
     "Bolalar organizmida umuman so'rilmagani uchun",
-    "Bolalarda umuman ta'sir qilmagani uchun",
+    "Faqat in'eksiya shaklida bo'lgani uchun",
     "Ta'mi juda achchiq va yoqimsiz bo'lgani uchun"
    ],
    "e": "Kalsiy bilan birikadi."
@@ -812,7 +812,7 @@
    "q": "Antibiotiklarni noto'g'ri qo'llashning asosiy xavfi nima?",
    "a": [
     "Antibiotiklarga chidamlilik rivojlanishi",
-    "Immunitetning keskin kuchayishi",
+    "Qon bosimining doimiy oshishi",
     "Organizmda vitaminlarning ortiqcha to'planishi",
     "Immunitetning keskin va tez kuchayishi"
    ],
@@ -922,7 +922,7 @@
    "q": "Antiseptik nima?",
    "a": [
     "Tirik to'qimadagi mikroblarni yo'qotuvchi vosita",
-    "Qon ivishini kuchaytiruvchi vosita",
+    "Isitmani tushiruvchi vosita",
     "Og'riqni qoldiruvchi mahalliy anestetik",
     "Qon ivishini kuchaytiruvchi gemostatik vosita"
    ],
@@ -966,7 +966,7 @@
    "q": "Kaliy permanganat eritmasi qanday ta'sirga ega?",
    "a": [
     "Oksidlovchi antiseptik ta'sir",
-    "Og'riqsizlantiruvchi ta'sir",
+    "Siydik haydovchi ta'sir",
     "Mahalliy og'riqsizlantiruvchi ta'sir",
     "Qon ivishini sekinlashtiruvchi ta'sir"
    ],
@@ -977,7 +977,7 @@
    "q": "Xlorgeksidin qaysi maqsadda keng qo'llanadi?",
    "a": [
     "Teri, qo'l, shilliq qavatga ishlov berish",
-    "Qon bosimini tushirishda",
+    "Ich qotishini davolashda",
     "Arterial qon bosimini tushirishda",
     "Yuqori isitmani tez tushirishda"
    ],
@@ -1000,7 +1000,7 @@
    "a": [
     "Atrof-muhit ob'ektlaridagi mikroblarni yo'qotish",
     "Organizmdagi barcha mikroblarni yo'qotish",
-    "Faqat yarani bog'lash",
+    "Bemorni emlash",
     "Faqat yarani bog'lab, toza saqlash"
    ],
    "e": "Asboblar, yuzalar."
@@ -1010,7 +1010,7 @@
    "q": "Sterilizatsiya nima?",
    "a": [
     "Barcha mikrob va sporalarni yo'qotish",
-    "Faqat yuzani changdan tozalash",
+    "Faqat xonani shamollatish",
     "Faqat qo'lni sovun bilan yuvish",
     "Faqat yuzani changdan tozalab artish"
    ],
@@ -1032,7 +1032,7 @@
    "q": "Yurak glikozidlari bilan zaharlanish belgisiga qaysi biri kiradi?",
    "a": [
     "Bradikardiya, ko'ngil aynishi, ko'rish buzilishi",
-    "Taxikardiya va qon bosimining oshishi",
+    "Qon shakarining keskin oshishi",
     "Taxikardiya va qon bosimining keskin oshishi",
     "Yuqori isitma, qaltirash va teri toshmasi"
    ],
@@ -1044,7 +1044,7 @@
    "a": [
     "Nitroglitserin til ostiga",
     "Furosemid mushak ichiga in'eksiya",
-    "Furosemid mushak ichiga",
+    "Insulin teri ostiga",
     "Digoksin tabletkasi og'iz orqali"
    ],
    "e": "Toj tomirlarni kengaytiradi."
@@ -1142,7 +1142,7 @@
    "q": "Statinlar (atorvastatin) qanday ta'sirga ega?",
    "a": [
     "Qondagi xolesterinni kamaytiradi",
-    "Qon bosimini keskin oshiradi",
+    "Qon ivishini kuchaytiradi",
     "Qondagi shakar miqdorini oshiradi",
     "Qon bosimini keskin oshirib yuboradi"
    ],
@@ -1154,7 +1154,7 @@
    "a": [
     "Qon ivishini sekinlashtiradi (antikoagulyant)",
     "Eritrotsitlar hosil bo'lishini tezlashtiradi",
-    "Eritrotsitlar hosil bo'lishini oshiradi",
+    "Qon bosimini oshiradi",
     "Qon ivishini kuchaytirib, qon ketishni to'xtatadi"
    ],
    "e": "To'g'ridan-to'g'ri antikoagulyant."
@@ -1241,7 +1241,7 @@
    "q": "Foliy kislota homiladorlikda nima uchun tavsiya etiladi?",
    "a": [
     "Nerv nayi nuqsonlarining oldini olish",
-    "Tug'ruqni tezlashtirish uchun",
+    "Homilaning vaznini oshirish uchun",
     "Homiladorlikda qon bosimini oshirish uchun",
     "Tug'ruq jarayonini tezlashtirish uchun"
    ],
@@ -1252,7 +1252,7 @@
    "q": "Ambroksol qanday ta'sirga ega?",
    "a": [
     "Balg'am ko'chiruvchi (mukolitik)",
-    "Yo'talni markaziy bostiruvchi",
+    "Antibakterial vosita",
     "Bronxlarni toraytiruvchi vosita",
     "Yo'tal markazini markaziy bostiruvchi"
    ],
@@ -1307,7 +1307,7 @@
    "q": "Laktuloza qanday maqsadda qo'llanadi?",
    "a": [
     "Ich qotishida yumshatuvchi sifatida",
-    "Diareyani to'xtatish uchun",
+    "Ishtahani oshirish uchun",
     "Qusishni to'xtatuvchi vosita sifatida",
     "Diareyani to'xtatish uchun biriktiruvchi"
    ],
@@ -1417,7 +1417,7 @@
    "q": "Glyukokortikoidlarni uzoq qo'llashning nojo'ya ta'siriga nima kiradi?",
    "a": [
     "Osteoporoz, giperglikemiya, immunitet pasayishi",
-    "Qon shakarining keskin pasayishi",
+    "Ko'rishning yaxshilanishi",
     "Suyaklarning mustahkamlanishi va immunitet ortishi",
     "Qon shakarining keskin pasayishi va ozish"
    ],
@@ -1538,7 +1538,7 @@
    "q": "Gipervitaminoz ko'proq qaysi vitaminlar bilan yuzaga keladi?",
    "a": [
     "Yog'da eriydigan (A, D)",
-    "Suvda eriydigan (C)",
+    "Faqat mineral moddalar",
     "Suvda eriydigan (C va B guruhi)",
     "Faqat B1 va B6 vitaminlari"
    ],
@@ -1582,7 +1582,7 @@
    "q": "Vaksinalar qanday immunitet hosil qiladi?",
    "a": [
     "Faol sun'iy immunitet",
-    "Passiv tabiiy immunitet",
+    "Faqat mahalliy to'qima immuniteti",
     "Passiv sun'iy immunitet",
     "Tug'ma immunitet"
    ],
@@ -1716,7 +1716,7 @@
     "Kuchli ta'sir etuvchi",
     "Ta'siri juda kuchsiz, xavfsiz dorilar",
     "Faqat kosmetik va gigiyenik vositalar",
-    "Faqat kosmetik"
+    "Zaharli"
    ],
    "e": "Alohida shkafda."
   },
@@ -1726,7 +1726,7 @@
    "a": [
     "Quruq, salqin, yorug'likdan himoyalangan joyda",
     "Issiq va nam xonada, ochiq holda",
-    "Quyosh nuri tushadigan derazada",
+    "Oziq-ovqat bilan aralash holda",
     "Quyosh nuri tushadigan deraza tokchasida"
    ],
    "e": "Yorliqdagi ko'rsatmaga muvofiq."
@@ -1737,7 +1737,7 @@
    "a": [
     "+2 dan +8 °C gacha (muzlatkichda)",
     "Muzlatgich kamerasida (−18 °C) muzlatilgan holda",
-    "Muzlatgich kamerasida (−18 °C)",
+    "+40 °C issiqlikda",
     "Xona haroratida, javonda (+25 °C)"
    ],
    "e": "\"Sovuq zanjir\"."
@@ -1813,7 +1813,7 @@
    "q": "Nistatin qaysi guruhga kiradi?",
    "a": [
     "Zamburug'ga qarshi vositalar",
-    "Virusga qarshi vositalar",
+    "Gormonal vositalar",
     "Sil kasalligiga qarshi vositalar",
     "Gijjaga qarshi vositalar"
    ],
@@ -1824,7 +1824,7 @@
    "q": "Albendazol qanday vosita?",
    "a": [
     "Gijjaga qarshi (antigelmint)",
-    "Zamburug'ga qarshi",
+    "Antibakterial",
     "Virusga qarshi (antiviral)",
     "Zamburug'ga qarshi (antimikotik)"
    ],
@@ -1913,7 +1913,7 @@
    "a": [
     "Trombolitik (fibrinolitik)",
     "Antigistamin (allergiyaga qarshi)",
-    "Antigistamin",
+    "Diuretik",
     "Gemostatik (qon to'xtatuvchi)"
    ],
    "e": "Trombni eritadi."
@@ -1934,7 +1934,7 @@
    "q": "Budesonid ingalyatsiyada qaysi guruhga kiradi?",
    "a": [
     "Ingalyatsion glyukokortikoidlar",
-    "Beta-2 agonistlar",
+    "Mukolitiklar",
     "Ikkinchi avlod antigistaminlar",
     "Qisqa ta'sirli beta-2 agonistlar"
    ],
@@ -1968,7 +1968,7 @@
    "a": [
     "Hazm fermentlari yetishmovchiligida",
     "Ich qotishida laksativ sifatida",
-    "Qusishga qarshi",
+    "Antibakterial vosita sifatida",
     "Qusishga qarshi vosita sifatida"
    ],
    "e": "Ferment preparati."
@@ -1980,7 +1980,7 @@
     "Ich suruvchi (laksativ)",
     "Kislota neytrallovchi (antatsid)",
     "Ich to'xtatuvchi (antidiareya)",
-    "Kislota neytrallovchi"
+    "Qusishga qarshi"
    ],
    "e": "Ichak motorikasini kuchaytiradi."
   },
@@ -2022,7 +2022,7 @@
    "q": "Karbamazepin qanday maqsadda qo'llanadi?",
    "a": [
     "Tutqanoqqa (epilepsiyaga) qarshi",
-    "Yuqori qon bosimiga qarshi",
+    "Allergiyaga qarshi",
     "Yuqori arterial qon bosimiga qarshi",
     "Bakterial infeksiyaga qarshi"
    ],
@@ -2110,7 +2110,7 @@
    "q": "Reopoliglyukin qanday eritma?",
    "a": [
     "Plazma o'rnini bosuvchi kolloid eritma",
-    "Kristalloid tuz eritmasi",
+    "Vitamin eritmasi",
     "Parenteral oziqlantirish uchun yog' emulsiyasi",
     "Kristalloid tuz eritmasi (Ringer)"
    ],
@@ -2132,7 +2132,7 @@
    "q": "Hamshira bemorga dori berishdan oldin nima qiladi?",
    "a": [
     "Tayinlanishni va bemorni tekshiradi",
-    "Bemordan qaysi dori yoqishini so'raydi",
+    "Dorini rangiga qarab almashtiradi",
     "Bemordan qaysi dori kerakligini so'raydi",
     "Dorini boshqa bemorlarnikiga aralashtiradi"
    ],
@@ -2199,7 +2199,7 @@
    "a": [
     "Aseptika buzilishi yoki dori noto'g'ri yuborilishi",
     "Shpritsning juda yangi va o'tkir bo'lishi",
-    "Shprits juda yangi bo'lishi",
+    "Bemorning yaxshi uxlashi",
     "Bemorning kun davomida ko'p suv ichishi"
    ],
    "e": "Iliq kompress, kuzatish."
@@ -2220,7 +2220,7 @@
    "q": "Allergik anamnezni yig'ish nima uchun muhim?",
    "a": [
     "Allergik reaksiyalarning oldini olish uchun",
-    "Bemorning ish joyini bilish uchun",
+    "Dori narxini aniqlash uchun",
     "Dorining narxini oldindan aniqlash uchun",
     "Bemorning ish joyi va lavozimini bilish uchun"
    ],
@@ -2376,7 +2376,7 @@
     "Asosan buyrak orqali chiqariladigan dorilar",
     "Hech qaysi dorining dozasi o'zgarmaydi",
     "Faqat tashqi qo'llanadigan malhamlar",
-    "Hech qaysi dori dozasi o'zgarmaydi"
+    "Faqat vitaminlar"
    ],
    "e": "Kumulyatsiya xavfi."
   },
@@ -2518,7 +2518,7 @@
    "a": [
     "Skelet mushaklarini bo'shashtirish uchun",
     "Kuchli og'riqni qoldirish va uxlatish uchun",
-    "Qon bosimini oshirish uchun",
+    "Isitmani tushirish uchun",
     "Operatsiyadan keyin qon bosimini oshirish uchun"
    ],
    "e": "Intubatsiya va operatsiya qulayligi."
@@ -2528,7 +2528,7 @@
    "q": "Amiodaron qanday maqsadda qo'llanadi?",
    "a": [
     "Yurak ritmi buzilishlarida (antiaritmik)",
-    "Qon bosimini oshirishda",
+    "Uyqu chaqirishda",
     "Bakterial infeksiyalarni davolashda",
     "Arterial qon bosimini oshirishda"
    ],
@@ -2550,7 +2550,7 @@
    "q": "Dopamin shok holatida nima uchun qo'llanadi?",
    "a": [
     "Qon bosimini va yurak qisqarishini oshirish",
-    "Qon bosimini tushirish",
+    "Ich suruvchi sifatida",
     "Qon bosimini tez tushirish uchun",
     "Kuchli og'riqni qoldirish uchun"
    ],
@@ -2583,7 +2583,7 @@
    "q": "Sitostatiklarning xarakterli nojo'ya ta'siri qaysi?",
    "a": [
     "Suyak iligi susayishi, soch to'kilishi",
-    "Vazn ortishi va ishtaha kuchayishi",
+    "Ko'rishning yaxshilanishi",
     "Qon bosimining doimiy oshishi",
     "Vazn ortishi va ishtahaning kuchayishi"
    ],
@@ -2605,7 +2605,7 @@
    "q": "Allopurinol qaysi kasallikda qo'llanadi?",
    "a": [
     "Podagra (siydik kislotasini kamaytirish)",
-    "Bronxial astma",
+    "Gipotireoz",
     "Ikkinchi tip qandli diabet",
     "Bronxial astma xurujlarini oldini olish"
    ],
@@ -2617,7 +2617,7 @@
    "a": [
     "O't toshini eritish, jigarni himoya",
     "Surunkali ich qotishini davolash",
-    "Ich qotishini davolash",
+    "Yo'talni to'xtatish",
     "Arterial qon bosimini oshirish"
    ],
    "e": "Gepatoprotektor."
@@ -2628,7 +2628,7 @@
    "a": [
     "Ichak mikroflorasini tiklash (probiotik)",
     "Qon ivishini kuchaytirish (gemostatik)",
-    "Qon ivishini kuchaytirish",
+    "Isitmani tushirish",
     "Ichakdagi bakteriyalarni o'ldirish (antibiotik)"
    ],
    "e": "Disbakteriozda."
@@ -2649,7 +2649,7 @@
    "q": "Moychechak (romashka) damlamasi qanday ta'sirga ega?",
    "a": [
     "Yallig'lanishga qarshi va antiseptik",
-    "Kuchli uxlatuvchi",
+    "Qonni ivituvchi",
     "Qon bosimini keskin oshiruvchi",
     "Kuchli uxlatuvchi va narkotik"
    ],
@@ -2671,7 +2671,7 @@
    "q": "Qalampir yalpiz (myata) qanday ta'sirga ega?",
    "a": [
     "Spazmolitik va tinchlantiruvchi",
-    "Kuchli antibiotik",
+    "Diuretik",
     "Kuchli ta'sirli antibiotik",
     "Qon ivishini kuchaytiruvchi"
    ],
@@ -2759,7 +2759,7 @@
    "q": "Farmakopeya nima?",
    "a": [
     "Dori sifati davlat standartlari to'plami",
-    "Dorixona qurilishi qoidalari",
+    "Farmatsevtlar uchun darslik",
     "Dorixona binosini qurish qoidalari",
     "Dorilarning ulgurji narxlari ro'yxati"
    ],
@@ -2770,7 +2770,7 @@
    "q": "Farmakognoziya nimani o'rganadi?",
    "a": [
     "Dorivor o'simlik va hayvon xom ashyosini",
-    "Sintetik dorilarni ishlab chiqarishni",
+    "Dorilarning narxini",
     "Sintetik dorilarni zavodda ishlab chiqarishni",
     "Dorixonani boshqarish va hisob yuritishni"
    ],
@@ -2781,7 +2781,7 @@
    "q": "Generik dori nima?",
    "a": [
     "Patent muddati tugagan original dorining nusxasi",
-    "Hali sinovdan o'tmagan yangi dori",
+    "Faqat bolalar uchun dori",
     "Faqat o'simlik xom ashyosidan olingan dori",
     "Hali klinik sinovdan o'tmagan yangi dori"
    ],
@@ -2792,7 +2792,7 @@
    "q": "Platsebo nima?",
    "a": [
     "Faol moddasiz soxta dori",
-    "Eng kuchli ta'sirli dori",
+    "Antibiotik turi",
     "Eng kuchli ta'sirli zamonaviy dori",
     "Laboratoriyada ishlatiladigan zaharli modda"
    ],
@@ -2803,7 +2803,7 @@
    "q": "Klinik sinovlarning maqsadi nima?",
    "a": [
     "Samaradorlik va xavfsizlikni aniqlash",
-    "Dori narxini belgilash",
+    "Dorini qadoqlash",
     "Dorini ommaviy reklama qilish",
     "Dorining sotuv narxini belgilash"
    ],
@@ -2847,7 +2847,7 @@
    "q": "Oshqozon yarasi kasalligida Helicobacter pylori eradikatsiyasida nima qo'llanadi?",
    "a": [
     "Proton pompasi ingibitori va antibiotiklar",
-    "Faqat antatsidlar",
+    "Faqat vitaminlar",
     "Faqat antatsidlar uzoq muddat",
     "Faqat nosteroid yallig'lanishga qarshi dorilar"
    ],
@@ -2990,7 +2990,7 @@
    "q": "Alkogol bilan benzodiazepinlar birga qabul qilinsa nima xavfli?",
    "a": [
     "MNS va nafas markazining kuchli susayishi",
-    "Qo'zg'aluvchanlik va uyqusizlik",
+    "Ishtahaning keskin ortishi",
     "Qo'zg'aluvchanlik va kuchli uyqusizlik",
     "Qon bosimining keskin oshishi"
    ],
@@ -3001,7 +3001,7 @@
    "q": "Antatsidlar boshqa dorilar bilan birga qabul qilinganda nima bo'lishi mumkin?",
    "a": [
     "Boshqa dorilarning so'rilishi kamayadi",
-    "Barcha dorilar ta'siri kuchayadi",
+    "Antatsid ta'siri butunlay yo'qoladi",
     "Barcha dorilarning ta'siri kuchayadi",
     "Dorilar birga zaharlanish chaqiradi"
    ],
@@ -3134,7 +3134,7 @@
    "a": [
     "Shpritsga qon tortilishi bilan",
     "Ignani biroz silkitib ko'rish bilan",
-    "Ignani silkitish bilan",
+    "Tekshirilmaydi",
     "Bemordan og'riq bor-yo'qligini so'rash bilan"
    ],
    "e": "Qon kelishi."
@@ -3177,7 +3177,7 @@
    "q": "O'tkir uchli chiqindilar (ignalar) qayerga tashlanadi?",
    "a": [
     "Teshilmaydigan maxsus konteynerga",
-    "Oddiy polietilen paketga",
+    "Hojatxonaga",
     "Oddiy polietilen paket yoki qutiga",
     "Bemorning tumbochkasidagi idishga"
    ],
