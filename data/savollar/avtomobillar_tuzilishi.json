@@ -1,0 +1,1570 @@
+{
+ "kod": "",
+ "nomi": "Avtomobillar tuzilishi va texnik xizmat ko'rsatish",
+ "turi": "maxsus",
+ "manba": "Attestatsiya ro'yxatidagi fan (130+ o'qituvchi: avtomobillar tuzilishi, B va C toifa avtotransport vositalari, servis va ta'mirlash); savollar avtomobil tuzilishi darsliklari va TXK me'yorlari asosida",
+ "savollar": [
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Qaysi nosozlikda transport vositasidan foydalanish taqiqlanadi?",
+   "a": [
+    "Ishchi tormoz tizimi nosoz bo'lsa",
+    "Radio ishlamasa",
+    "Salon gilami iflos bo'lsa",
+    "Avtomobil rangi o'chgan bo'lsa"
+   ],
+   "e": "Rul boshqaruvi nosozligi ham."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Ishchi tormoz tizimi yo'lda ishdan chiqsa haydovchi nima qiladi?",
+   "a": [
+    "To'xtaydi, harakatni davom ettirmaydi",
+    "Manzilga yetguncha yurishni davom ettiradi",
+    "Tezlikni oshiradi",
+    "Faqat avariya ishorasini yoqib davom etadi"
+   ],
+   "e": "Shatakka olish yoki evakuator."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Yengil avtomobil shinasi protektorining qoldiq chuqurligi kamida qancha bo'lishi kerak?",
+   "a": [
+    "1,6 mm",
+    "0,5 mm",
+    "5 mm",
+    "10 mm"
+   ],
+   "e": "Kam bo'lsa foydalanish taqiqlanadi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Bir o'qqa turli o'lchamdagi yoki turli rusumdagi shinalar o'rnatish mumkinmi?",
+   "a": [
+    "Yo'q",
+    "Ha, istalgan holatda",
+    "Faqat qishda",
+    "Faqat orqa o'qqa"
+   ],
+   "e": "Boshqaruvchanlik buziladi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Shinadagi havo bosimi me'yordan past bo'lsa nima yuz beradi?",
+   "a": [
+    "Boshqaruvchanlik yomonlashadi",
+    "Yoqilg'i sarfi keskin kamayadi",
+    "Tormoz yo'li qisqaradi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Muntazam tekshirish kerak."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Rul g'ildiragining erkin yurishi me'yordan oshsa nima qilish kerak?",
+   "a": [
+    "Nosozlikni bartaraf etish",
+    "Tezlikni oshirib yurish",
+    "Rulni qattiqroq ushlash kifoya",
+    "E'tibor bermaslik"
+   ],
+   "e": "Boshqaruv xavfli."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Tunda faralardan biri ishlamasa harakatlanish mumkinmi?",
+   "a": [
+    "Yo'q",
+    "Ha, bitta fara yetarli",
+    "Faqat shaharda mumkin",
+    "Faqat avtomagistralda mumkin"
+   ],
+   "e": "Nosozlik bartaraf etilishi kerak."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Shamol oynasi tozalagichi (dvornik) yomg'irda ishlamasa nima qilish kerak?",
+   "a": [
+    "Harakatni to'xtatish",
+    "Tezlikni oshirish",
+    "Oynani ochib haydash",
+    "Faqat tunda haydash"
+   ],
+   "e": "Ko'rinish ta'minlanmaydi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Avtomobil aptechkasi, o't o'chirgich va avariya to'xtash belgisi nima uchun majburiy?",
+   "a": [
+    "Favqulodda vaziyat uchun",
+    "Faqat texnik ko'rikdan o'tish uchun",
+    "Faqat bezak uchun",
+    "Hech qanday zarurati yo'q"
+   ],
+   "e": "Yengil avtomobil jihozlanishi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Texnik ko'rikning maqsadi nima?",
+   "a": [
+    "Xavfsizlik talablariga moslikni tekshirish",
+    "Avtomobilning bozor narxini aniqlash",
+    "Avtomobilni bo'yash",
+    "Haydovchini imtihondan o'tkazish"
+   ],
+   "e": "Davriy o'tkaziladi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Tormoz suyuqligi sathi pasayib ketsa nima bo'lishi mumkin?",
+   "a": [
+    "Tormoz samaradorligi pasayadi",
+    "Tormoz kuchayib ketadi",
+    "Dvigatel quvvati ortadi",
+    "Faralar yorqinlashadi"
+   ],
+   "e": "Tizimda oqish bo'lishi mumkin."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Chiqindi gazlar chiqarish tizimi nosoz bo'lsa qanday xavf bor?",
+   "a": [
+    "Is gazidan zaharlanish va shovqin",
+    "Yoqilg'i tejalishi",
+    "Tormoz yo'li qisqarishi",
+    "Xavf yo'q"
+   ],
+   "e": "Salon ventilyatsiyasi muhim."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Yorug'lik qaytargichlar (katafotlar) transport vositasining qayerida bo'lishi kerak?",
+   "a": [
+    "Orqasida",
+    "Faqat tomida",
+    "Faqat rulda",
+    "Faqat salon ichida"
+   ],
+   "e": "Tunda ko'rinish uchun."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Davlat raqam belgisi qanday holatda bo'lishi kerak?",
+   "a": [
+    "Toza va o'qilishi oson",
+    "Loy bilan qoplangan",
+    "Qisman to'sib qo'yilgan",
+    "Belgilanmagan joyda"
+   ],
+   "e": "O'qib bo'lmaydigan raqam bilan harakatlanish taqiqlanadi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Avtomobil oynalarini belgilangan me'yordan ortiq qoraytirish nimaga olib keladi?",
+   "a": [
+    "Ko'rinish yomonlashadi",
+    "Ko'rinish yaxshilanadi",
+    "Xavfsizlik oshadi",
+    "Hech qanday oqibat yo'q"
+   ],
+   "e": "Ruxsatnoma asosidagina."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Avtomobilni harakatlanishdan oldin tekshirishda nima ko'riladi?",
+   "a": [
+    "Tormoz, rul, chiroq, shinalar",
+    "Faqat salon tozaligi",
+    "Faqat radio stansiyalari",
+    "Faqat yoqilg'i narxi"
+   ],
+   "e": "Kundalik texnik xizmat."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Akkumulyator bilan ishlashda qaysi xavfsizlik qoidasi muhim?",
+   "a": [
+    "Ochiq olov yaqinlashtirmaslik",
+    "Elektrolitni qo'l bilan tekshirish",
+    "Kleymalarni metall buyum bilan tutashtirish",
+    "Akkumulyatorni yopiq xonada zaryadlab chekish"
+   ],
+   "e": "Vodorod gazi portlovchi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Sovutish tizimi qizib ketgan dvigatelda radiator qopqog'ini darhol ochish nima uchun xavfli?",
+   "a": [
+    "Kuyish xavfi bor",
+    "Dvigatel tezroq soviydi",
+    "Hech qanday xavf yo'q",
+    "Radiator rangini o'zgartiradi"
+   ],
+   "e": "Dvigatel sovishini kutish kerak."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "Domkrat bilan ko'tarilgan avtomobil ostida ishlash qanday baholanadi?",
+   "a": [
+    "Taqiqlanadi",
+    "Har doim xavfsiz",
+    "Faqat qishda mumkin",
+    "Faqat bir kishi bo'lsa mumkin"
+   ],
+   "e": "Mahkam tayanch qo'yiladi."
+  },
+  {
+   "b": "Texnik holat va xavfsizlik",
+   "q": "G'ildirak almashtirishda avtomobil qanday holatda bo'lishi kerak?",
+   "a": [
+    "Tekis joyda, to'xtash tormozi tortilgan holda",
+    "Qiyalikda, uzatma neytralda",
+    "Harakatlanayotgan holda",
+    "Dvigatel ishlab turgan, uzatma qo'shilgan holda"
+   ],
+   "e": "G'ildirak ostiga tirgak qo'yiladi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dizel dvigatelida yoqilg'i qanday alangalanadi?",
+   "a": [
+    "Siqilgan havo issiqligidan",
+    "Elektr uchquni (sham) yordamida",
+    "Tashqi olov yordamida",
+    "Kimyoviy katalizator yordamida"
+   ],
+   "e": "Siqish darajasi 14–22."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Benzinli dvigatelda yonuvchi aralashma qanday alangalanadi?",
+   "a": [
+    "Uchqun shami yordamida",
+    "Siqilgan havo issiqligidan",
+    "Tashqi olov bilan",
+    "Quyosh nuri bilan"
+   ],
+   "e": "Majburiy alangalanish."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Detonatsiya nima?",
+   "a": [
+    "Portlashsimon nazoratsiz yonish",
+    "Aralashmaning sekin, bir tekis va to'liq yonishi",
+    "Dvigatelning yoqilg'isiz to'liq to'xtashi",
+    "Yoqilg'ining past haroratda muzlashi"
+   ],
+   "e": "Oktan soni bilan bog'liq."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Benzinning detonatsiyaga chidamliligi qaysi ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Oktan soni",
+    "Setan soni",
+    "Qovushqoqlik indeksi",
+    "Kul miqdori"
+   ],
+   "e": "Masalan, AI-92."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dizel yoqilg'isining alangalanish sifati qaysi ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Setan soni",
+    "Oktan soni",
+    "Natura",
+    "Bonitet"
+   ],
+   "e": "Alangalanishning kechikishi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatelning indikator quvvati nima?",
+   "a": [
+    "Silindrdagi gazlar quvvati",
+    "Tirsakli valdan olinadigan effektiv quvvat",
+    "Dvigatelga ulangan generator quvvati",
+    "Yoqilg'i nasosi iste'mol qiladigan quvvat"
+   ],
+   "e": "Effektiv quvvat — valdagi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Mexanik FIK nima?",
+   "a": [
+    "Effektiv quvvatning indikator quvvatga nisbati",
+    "Indikator quvvatning yoqilg'i issiqligiga nisbati",
+    "Yoqilg'i sarfining tezlikka nisbati",
+    "Bosimning haroratga nisbati"
+   ],
+   "e": "Ishqalanish yo'qotishlari."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Turbonaddiv nima uchun qo'llanadi?",
+   "a": [
+    "Ko'proq havo berib quvvatni oshirish",
+    "Dvigatelni qo'shimcha suv bilan sovitish",
+    "Yoqilg'i sarfini ataylab oshirish",
+    "Chiqindi gazlar shovqinini kuchaytirish"
+   ],
+   "e": "Ishlatilgan gaz energiyasidan."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Ko'p bosqichli siqishda oraliq sovitish nima uchun kerak?",
+   "a": [
+    "Siqish ishini kamaytirish",
+    "Siqilayotgan havoni qo'shimcha qizdirish",
+    "Chiqishdagi bosimni kamaytirish",
+    "Kompressor valining aylanishini tezlashtirish"
+   ],
+   "e": "Izotermik jarayonga yaqinlashish."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatelning litr quvvati nima?",
+   "a": [
+    "1 litr ishchi hajmga quvvat",
+    "Bir litr yoqilg'idan olinadigan quvvat",
+    "Moy hajmi",
+    "Sovutish suyuqligi hajmi"
+   ],
+   "e": "kVt/l."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Solishtirma yoqilg'i sarfi nima?",
+   "a": [
+    "1 kVt·soatga yoqilg'i massasi",
+    "Bir soatdagi umumiy yoqilg'i",
+    "Bir kilometrdagi yoqilg'i",
+    "Bak hajmi"
+   ],
+   "e": "g/(kVt·soat)."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatel sovitish tizimining vazifasi nima?",
+   "a": [
+    "Detallarni me'yoriy haroratda ushlash",
+    "Dvigatelni ataylab qizdirib yuborish",
+    "Yoqilg'ini silindrda yoqish",
+    "Kiritiladigan havoni siqish"
+   ],
+   "e": "Suyuqlik yoki havo bilan."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Moylash tizimining vazifasi nima?",
+   "a": [
+    "Ishqalanish va yeyilishni kamaytirish",
+    "Silindrdagi yoqilg'ini alangalatish",
+    "Kiritiladigan havoni changdan filtrlash",
+    "Qo'shimcha elektr energiyasi ishlab chiqarish"
+   ],
+   "e": "Shuningdek sovitish."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Avtomobilning asosiy qismlari qaysilar?",
+   "a": [
+    "Dvigatel, shassi, kuzov",
+    "Faqat g'ildirak va rul",
+    "Faqat kabina va kuzov",
+    "Faqat akkumulyator va generator"
+   ],
+   "e": "Uchta asosiy qism."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Shassi tarkibiga nima kiradi?",
+   "a": [
+    "Transmissiya, yurish, boshqaruv",
+    "Faqat dvigatel",
+    "Faqat kuzov",
+    "Faqat yoritish asboblari"
+   ],
+   "e": "Shassi."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "Avtomobil g'ildirak formulasi 4×2 nimani bildiradi?",
+   "a": [
+    "2 tasi yetakchi",
+    "4 ta yetakchi g'ildirak",
+    "2 ta o'q, 4 ta yetakchi",
+    "4 ta o'q"
+   ],
+   "e": "Umumiy × yetakchi."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "4×4 g'ildirak formulasi nimani bildiradi?",
+   "a": [
+    "Hammasi yetakchi",
+    "Faqat oldingi g'ildiraklar yetakchi",
+    "Faqat orqa g'ildiraklar yetakchi",
+    "Yetakchi g'ildirak yo'q"
+   ],
+   "e": "To'liq yuritma."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "\"B\" toifasidagi transport vositasiga qaysilar kiradi?",
+   "a": [
+    "3500 kg gacha yengil avto",
+    "Faqat mototsikllar",
+    "Faqat avtobuslar",
+    "Faqat og'ir yuk avtomobillari"
+   ],
+   "e": "Haydovchilik toifasi."
+  },
+  {
+   "b": "Avtomobilning umumiy tuzilishi",
+   "q": "\"C\" toifasidagi transport vositasiga qaysilar kiradi?",
+   "a": [
+    "3500 kg dan og'ir yuk avto",
+    "Yengil avtomobillar",
+    "Mototsikllar",
+    "Tramvaylar"
+   ],
+   "e": "Yuk avtomobillari."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Ichki yonuv dvigatelining asosiy mexanizmlari qaysilar?",
+   "a": [
+    "KShM va GTM",
+    "Rul va tormoz mexanizmlari",
+    "Uzatmalar qutisi va differensial",
+    "Osma va amortizator"
+   ],
+   "e": "KShM va GTM."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Krivoship-shatun mexanizmining vazifasi nima?",
+   "a": [
+    "Harakatni aylanmaga aylantirish",
+    "Yonuvchi aralashmani tayyorlash",
+    "Dvigatelni sovitish",
+    "Moylash"
+   ],
+   "e": "KShM."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Gaz taqsimlash mexanizmining vazifasi nima?",
+   "a": [
+    "Gaz almashinuvi",
+    "Tirsakli valni aylantirish",
+    "Moyni haydash",
+    "Sovitish suyuqligini aylantirish"
+   ],
+   "e": "Klapanlar orqali."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Porshen halqalarining vazifasi nima?",
+   "a": [
+    "Zichlash, moy sidirish",
+    "Porshenni sovitish faqat",
+    "Shatunni ulash",
+    "Klapanni ochish"
+   ],
+   "e": "Kompression va moy sidiruvchi halqalar."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Tirsakli valning aylanishini taqsimlash validagi aylanish bilan qanday nisbatda bo'ladi (to'rt taktli dvigatel)?",
+   "a": [
+    "2:1 nisbatda",
+    "Bir xil tezlikda aylanadi",
+    "Taqsimlash vali 2 marta tezroq aylanadi",
+    "Aylanishlar bog'liq emas"
+   ],
+   "e": "2:1 nisbat."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatelning ishchi hajmi nima?",
+   "a": [
+    "Silindrlar hajmi yig'indisi",
+    "Bitta silindrning to'liq hajmi",
+    "Yonish kamerasi hajmi",
+    "Moy karteri hajmi"
+   ],
+   "e": "Litrda."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Siqish darajasi nima?",
+   "a": [
+    "Hajmlar nisbati",
+    "Porshen yo'lining diametrga nisbati",
+    "Moy bosimi",
+    "Aylanish chastotasi"
+   ],
+   "e": "Benzinli — 8–12, dizel — 14–22."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dizel dvigatelida yoqilg'i silindrga qanday beriladi?",
+   "a": [
+    "Forsunka orqali",
+    "Karbyurator orqali",
+    "Uchqun sham orqali",
+    "Gravitatsiya bilan"
+   ],
+   "e": "Yuqori bosimli yoqilg'i nasosi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Benzinli dvigatelda injektor tizimining vazifasi nima?",
+   "a": [
+    "Aniq dozalab purkash",
+    "Dvigatelni sovitish",
+    "Moyni tozalash",
+    "Uchqun hosil qilish"
+   ],
+   "e": "Karbyuratorga almashgan."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Sovitish tizimida termostatning vazifasi nima?",
+   "a": [
+    "Haroratni ushlash",
+    "Moyni tozalash",
+    "Yoqilg'ini purkash",
+    "Akkumulyatorni zaryadlash"
+   ],
+   "e": "Kichik va katta doira."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatel sovitish suyuqligi sifatida nima ishlatiladi?",
+   "a": [
+    "Antifriz",
+    "Dizel yoqilg'isi",
+    "Motor moyi",
+    "Tormoz suyuqligi"
+   ],
+   "e": "Past haroratda muzlamaydi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Moylash tizimining asosiy vazifasi nima?",
+   "a": [
+    "Ishqalanishni kamaytirish",
+    "Yonuvchi aralashma tayyorlash",
+    "Uchqun hosil qilish",
+    "Shinalarni damlash"
+   ],
+   "e": "Sovitish va tozalash ham."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Moy bosimi past ekanligini ko'rsatuvchi chiroq yonsa nima qilish kerak?",
+   "a": [
+    "Darhol to'xtatish",
+    "Tezlikni oshirish",
+    "E'tibor bermaslik",
+    "Ko'proq yoqilg'i quyish"
+   ],
+   "e": "Dvigatel ishdan chiqishi xavfi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Motor moyi markirovkasidagi \"SAE 5W-30\" nimani bildiradi?",
+   "a": [
+    "Qovushqoqlik sinfi",
+    "Moy narxini",
+    "Moy rangini",
+    "Moyning ishlab chiqarilgan yilini"
+   ],
+   "e": "W — winter."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Havo filtrining vazifasi nima?",
+   "a": [
+    "Havoni tozalash",
+    "Moyni tozalash",
+    "Yoqilg'ini isitish",
+    "Sovitish suyuqligini filtrlash"
+   ],
+   "e": "Dvigatel yeyilishini kamaytiradi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Turbokompressor (turbo) vazifasi nima?",
+   "a": [
+    "Ko'proq havo berish",
+    "Dvigatelni sovitish",
+    "Moyni haydash",
+    "Rulni boshqarish"
+   ],
+   "e": "Quvvatni oshiradi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Transmissiyaning vazifasi nima?",
+   "a": [
+    "Momentni uzatish",
+    "Avtomobilni to'xtatish",
+    "Yo'lni yoritish",
+    "Dvigatelni ishga tushirish"
+   ],
+   "e": "Kuch uzatmasi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Ilashish muftasining (sseplenie) vazifasi nima?",
+   "a": [
+    "Dvigatelni ajratish",
+    "Avtomobilni tormozlash",
+    "G'ildiraklarni burish",
+    "Moyni haydash"
+   ],
+   "e": "Uzatma almashtirish uchun."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Uzatmalar qutisining vazifasi nima?",
+   "a": [
+    "Uzatish sonini o'zgartirish",
+    "Dvigatelni sovitish",
+    "Avtomobilni yoritish",
+    "Shinalarni damlash"
+   ],
+   "e": "Orqaga harakat ham."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Differensialning vazifasi nima?",
+   "a": [
+    "Turli tezlikda aylanish",
+    "Dvigatelni ishga tushirish",
+    "Avtomobilni to'xtatish",
+    "Yoqilg'i berish"
+   ],
+   "e": "Bosh uzatma bilan birga."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Kardan uzatmaning vazifasi nima?",
+   "a": [
+    "Burchak ostida uzatish",
+    "G'ildiraklarni tormozlash",
+    "Rulni boshqarish",
+    "Kuzovni ko'tarish"
+   ],
+   "e": "Uzatmalar qutisidan bosh uzatmaga."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Avtomatik uzatmalar qutisida haydovchi nimani boshqarmaydi?",
+   "a": [
+    "Qo'lda almashtirish",
+    "Rulni",
+    "Tormozni",
+    "Gaz pedalini"
+   ],
+   "e": "Avtomatik almashadi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Ilashish muftasi pedali \"o'ynash\" (erkin yo'l)ining yo'qligi nimaga olib keladi?",
+   "a": [
+    "Mufta sirpanishi",
+    "Yoqilg'i tejalishi",
+    "Tormozning yaxshilanishi",
+    "Rulning yengillashishi"
+   ],
+   "e": "Sozlash kerak."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Avtomobil osmasining vazifasi nima?",
+   "a": [
+    "Elastik bog'lash",
+    "Dvigatelni sovitish",
+    "Yoqilg'i berish",
+    "Uzatmalarni almashtirish"
+   ],
+   "e": "Qulaylik va turg'unlik."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Amortizatorning vazifasi nima?",
+   "a": [
+    "Tebranishni so'ndirish",
+    "Dvigatelni ishga tushirish",
+    "Moyni tozalash",
+    "Shinani damlash"
+   ],
+   "e": "Gidravlik amortizator."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Shina markirovkasidagi \"205/55 R16\" da \"R16\" nimani bildiradi?",
+   "a": [
+    "Radial, 16 dyuym",
+    "16 atm bosim",
+    "16 mm protektor chuqurligi",
+    "16 kg massa"
+   ],
+   "e": "205 — profil kengligi (mm), 55 — balandlik foizi."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Yengil avtomobil shinasining protektor chuqurligi qanchadan kam bo'lsa foydalanish taqiqlanadi?",
+   "a": [
+    "1,6 mm",
+    "5 mm",
+    "0,5 mm",
+    "10 mm"
+   ],
+   "e": "Yo'l harakati qoidalari."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Shinadagi havo bosimi me'yordan past bo'lsa nima bo'ladi?",
+   "a": [
+    "Tez yeyiladi",
+    "Shina umrbod xizmat qiladi",
+    "Yoqilg'i tejaladi",
+    "Boshqaruv yaxshilanadi"
+   ],
+   "e": "Bosimni muntazam tekshirish."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "G'ildiraklarni muvozanatlash (balansirovka) nima uchun qilinadi?",
+   "a": [
+    "Titrashni oldini olish",
+    "Shinani damlash uchun",
+    "Rangini o'zgartirish uchun",
+    "Yoqilg'ini tejash uchun faqat"
+   ],
+   "e": "Balans yuklari."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "G'ildiraklarning o'rnatilish burchaklari (razval-sxojdenie) noto'g'ri bo'lsa nima bo'ladi?",
+   "a": [
+    "Notekis yeyilish",
+    "Dvigatel quvvati oshadi",
+    "Tormoz kuchayadi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Sozlash stendida."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Rul boshqaruvining asosiy qismlari qaysilar?",
+   "a": [
+    "Rul mexanizmi va yuritma",
+    "Tormoz disklari va kolodkalar",
+    "Uzatmalar qutisi va mufta",
+    "Akkumulyator va generator"
+   ],
+   "e": "Boshqaruv."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Rul gidrokuchaytirgichining vazifasi nima?",
+   "a": [
+    "Rulni yengillatish",
+    "Dvigatelni sovitish",
+    "Avtomobilni tormozlash",
+    "G'ildiraklarni damlash"
+   ],
+   "e": "Gidravlik kuchaytirgich."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Gidravlik tormoz tizimida qaysi suyuqlik ishlatiladi?",
+   "a": [
+    "Tormoz suyuqligi",
+    "Motor moyi",
+    "Antifriz",
+    "Suv"
+   ],
+   "e": "Gigroskopik, muntazam almashtiriladi."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "ABS tizimining vazifasi nima?",
+   "a": [
+    "Qulflanishni oldini olish",
+    "Dvigatelni ishga tushirish",
+    "Yoqilg'i sarfini oshirish",
+    "Rulni og'irlashtirish"
+   ],
+   "e": "Boshqaruvchanlik saqlanadi."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "To'xtab turish (qo'l) tormozining vazifasi nima?",
+   "a": [
+    "Joyida ushlab turish",
+    "Yuqori tezlikda asosiy tormozlash",
+    "Rulni qulflash",
+    "Dvigatelni o'chirish"
+   ],
+   "e": "Ko'pincha orqa g'ildiraklarga ta'sir qiladi."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Tormoz pedali \"yumshab\" qolsa ehtimoliy sababi nima?",
+   "a": [
+    "Havo kirishi",
+    "Shinalarning yangi bo'lishi",
+    "Moyning toza bo'lishi",
+    "Akkumulyatorning to'liq zaryadi"
+   ],
+   "e": "Xavfli nosozlik."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Yengil avtomobil bort elektr tarmog'ining nominal kuchlanishi qancha?",
+   "a": [
+    "12 V",
+    "220 V",
+    "6 V",
+    "380 V"
+   ],
+   "e": "Yuk avtomobillarida ko'pincha 24 V."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Avtomobil akkumulyatori qanday turdagi?",
+   "a": [
+    "Qo'rg'oshin-kislotali",
+    "Litiy-havo",
+    "Ko'mir-rux",
+    "Nikel-temir faqat"
+   ],
+   "e": "Ko'p tarqalgan tur."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Generatorning vazifasi nima?",
+   "a": [
+    "Elektr ta'minoti, zaryadlash",
+    "Dvigatelni ishga tushirish",
+    "Yoqilg'ini purkash",
+    "Rulni burish"
+   ],
+   "e": "O'zgaruvchan tok generatori + to'g'rilagich."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Starterning vazifasi nima?",
+   "a": [
+    "Dvigatelni aylantirish",
+    "Akkumulyatorni zaryadlash",
+    "Faralarni yoqish",
+    "Moyni haydash"
+   ],
+   "e": "Elektr dvigatel."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Benzinli dvigatelda yonuvchi aralashmani nima alangalatadi?",
+   "a": [
+    "Uchqun shami",
+    "Forsunka",
+    "Termostat",
+    "Generator"
+   ],
+   "e": "O't oldirish tizimi."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Saqlagich (predoxranitel) ning vazifasi nima?",
+   "a": [
+    "Qisqa tutashuvdan himoya",
+    "Kuchlanishni oshirish",
+    "Akkumulyatorni zaryadlash",
+    "Faralarni yoqish"
+   ],
+   "e": "Erib, zanjirni uzadi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobilga texnik xizmat ko'rsatish (TXK) turlari qaysilar?",
+   "a": [
+    "KTX, TXK-1, TXK-2, mavsumiy",
+    "Faqat kapital ta'mir",
+    "Faqat yuvish",
+    "Faqat bo'yash"
+   ],
+   "e": "Rejali-ogohlantiruvchi tizim."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Kundalik texnik xizmat (KTX) qachon bajariladi?",
+   "a": [
+    "Har kuni",
+    "Yiliga bir marta",
+    "Faqat ta'mirdan keyin",
+    "Hech qachon"
+   ],
+   "e": "Haydovchi bajaradi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Mavsumiy xizmat qachon o'tkaziladi?",
+   "a": [
+    "Yiliga 2 marta",
+    "Har oy",
+    "Har kuni",
+    "10 yilda bir marta"
+   ],
+   "e": "Moylar, antifriz va boshqalar almashtiriladi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobil diagnostikasining maqsadi nima?",
+   "a": [
+    "Ajratmasdan holatni aniqlash",
+    "Faqat bo'yash",
+    "Faqat yuvish",
+    "Faqat sotish"
+   ],
+   "e": "Ob'ektiv usullar."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Dvigatel kompressiyasi qanday asbob bilan o'lchanadi?",
+   "a": [
+    "Kompressometr",
+    "Ampermetr",
+    "Ommetr",
+    "Manometr shinaga faqat"
+   ],
+   "e": "Silindr-porshen guruhi holati."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Ishlatilgan motor moyi qanday utilizatsiya qilinadi?",
+   "a": [
+    "Maxsus punktga topshiriladi",
+    "Yerga to'kiladi",
+    "Kanalizatsiyaga quyiladi",
+    "Yoqib yuboriladi ochiq joyda"
+   ],
+   "e": "Ekologiya."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatel silindrlar blokini yuqoridan nima yopib turadi?",
+   "a": [
+    "Silindrlar kallagi",
+    "Moy karteri",
+    "Maxovik",
+    "Tirsakli val"
+   ],
+   "e": "Golovka bloka."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Silindrlar kallagi va blok orasiga nima o'rnatiladi?",
+   "a": [
+    "Qistirma (prokladka)",
+    "Porshen halqasi",
+    "Klapan prujinasi",
+    "Shatun vkladishi"
+   ],
+   "e": "Germetiklik uchun."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Maxovikning vazifasi nima?",
+   "a": [
+    "Bir tekis aylanish",
+    "Moyni sovitish va tozalash",
+    "Yonuvchi aralashmani tayyorlash",
+    "Generatorni zaryadlash"
+   ],
+   "e": "Inersiya."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Shatun nimani bog'laydi?",
+   "a": [
+    "Porshen va tirsakli valni",
+    "Klapan va taqsimlash valini",
+    "Uzatmalar qutisi va kardanni",
+    "Generator va akkumulyatorni"
+   ],
+   "e": "KShM qismi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Porshen barmog'i nimani bog'laydi?",
+   "a": [
+    "Porshen va shatunni",
+    "Shatun va tirsakli valni",
+    "Klapan va koromislani",
+    "Maxovik va muftani"
+   ],
+   "e": "Sharnirli ulanish."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Tirsakli valning shatun bo'yinlari qanday podshipniklarda aylanadi?",
+   "a": [
+    "Vkladishlarda",
+    "Sharikli podshipniklarda",
+    "Rolikli podshipniklarda",
+    "Magnit podshipniklarda"
+   ],
+   "e": "Moy plyonkasida."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Klapanlar qanday harakatga keltiriladi?",
+   "a": [
+    "Kulachoklar orqali",
+    "Bevosita porshen orqali",
+    "Generator orqali",
+    "Rul orqali"
+   ],
+   "e": "GTM."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Klapanlar issiqlik zazori nima uchun kerak?",
+   "a": [
+    "Kengayishga joy",
+    "Moy sarfini oshirish",
+    "Siqishni kamaytirish",
+    "Shovqinni oshirish"
+   ],
+   "e": "Sozlanadi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Taqsimlash vali qanday yuritiladi?",
+   "a": [
+    "Tasma yoki zanjir",
+    "Generatordan",
+    "Starterdan",
+    "Rul validan"
+   ],
+   "e": "GTM yuritmasi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Taqsimlash tasmasi uzilsa ko'p dvigatellarda nima xavf tug'iladi?",
+   "a": [
+    "Klapan shikastlanishi",
+    "Yoqilg'i tejalishi",
+    "Moy bosimining oshishi",
+    "Akkumulyatorning zaryadlanishi"
+   ],
+   "e": "Almashtirish muddatiga rioya."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Sovitish tizimida suyuqlikni kim aylantiradi?",
+   "a": [
+    "Suv nasosi (pompa)",
+    "Moy nasosi",
+    "Yoqilg'i nasosi",
+    "Vakuum kuchaytirgich"
+   ],
+   "e": "Majburiy aylanish."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Radiatorning vazifasi nima?",
+   "a": [
+    "Issiqlikni havoga berish",
+    "Moyni tozalash",
+    "Yoqilg'ini isitish",
+    "Elektr ishlab chiqarish"
+   ],
+   "e": "Issiqlik almashinuvchi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Dvigatel qizib ketishining ehtimoliy sababi qaysi?",
+   "a": [
+    "Suyuqlik kamligi",
+    "Akkumulyator to'liq zaryadlangani",
+    "Shinalar yangi bo'lgani",
+    "Faralar yoniqligi"
+   ],
+   "e": "Haroratni nazorat."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Moy filtrining vazifasi nima?",
+   "a": [
+    "Moyni tozalash",
+    "Havoni tozalash",
+    "Yoqilg'ini tozalash",
+    "Sovitish suyuqligini tozalash"
+   ],
+   "e": "Muntazam almashtiriladi."
+  },
+  {
+   "b": "Dvigatel",
+   "q": "Karter shamollatish tizimining vazifasi nima?",
+   "a": [
+    "Karter gazlarini qaytarish",
+    "Moyni sovitish",
+    "Yoqilg'ini purkash",
+    "Shinalarni sovitish"
+   ],
+   "e": "Ekologiya va moy sifati."
+  },
+  {
+   "b": "Yoqilg'i tizimi",
+   "q": "Benzinning oktan soni nimani ko'rsatadi?",
+   "a": [
+    "Detonatsiyaga chidamlilik",
+    "Qovushqoqlikni",
+    "Rangini",
+    "Zichligini faqat"
+   ],
+   "e": "AI-92, AI-95."
+  },
+  {
+   "b": "Yoqilg'i tizimi",
+   "q": "Dizel yoqilg'isining asosiy ko'rsatkichi qaysi?",
+   "a": [
+    "Setan soni",
+    "Oktan soni",
+    "Qovushqoqlik indeksi faqat",
+    "Rang raqami"
+   ],
+   "e": "Alangalanish xususiyati."
+  },
+  {
+   "b": "Yoqilg'i tizimi",
+   "q": "Yoqilg'i filtri nima uchun kerak?",
+   "a": [
+    "Yoqilg'ini tozalash",
+    "Yoqilg'ini isitish",
+    "Yoqilg'ini sovitish",
+    "Yoqilg'i bosimini pasaytirish"
+   ],
+   "e": "Forsunkalarni himoya."
+  },
+  {
+   "b": "Yoqilg'i tizimi",
+   "q": "Elektron boshqaruv bloki (EBB) qaysi datchiklardan ma'lumot oladi?",
+   "a": [
+    "Turli datchiklardan",
+    "Faqat spidometrdan",
+    "Faqat soatdan",
+    "Faqat radiodan"
+   ],
+   "e": "Dvigatelni boshqarish."
+  },
+  {
+   "b": "Yoqilg'i tizimi",
+   "q": "Lyambda-zond (kislorod datchigi) nimani o'lchaydi?",
+   "a": [
+    "Gazdagi kislorodni",
+    "Moy bosimini",
+    "Shina bosimini",
+    "Akkumulyator kuchlanishini"
+   ],
+   "e": "Aralashma tarkibini rostlash."
+  },
+  {
+   "b": "Yoqilg'i tizimi",
+   "q": "Katalitik neytralizatorning vazifasi nima?",
+   "a": [
+    "Zararli gazlarni kamaytirish",
+    "Dvigatel quvvatini oshirish",
+    "Moyni tozalash",
+    "Shovqinni oshirish"
+   ],
+   "e": "Ekologik qurilma."
+  },
+  {
+   "b": "Yoqilg'i tizimi",
+   "q": "Gaz ballonli avtomobillarda qanday yoqilg'ilar ishlatiladi?",
+   "a": [
+    "Metan yoki propan",
+    "Faqat dizel",
+    "Faqat ko'mir",
+    "Faqat vodorod"
+   ],
+   "e": "Muqobil yoqilg'i."
+  },
+  {
+   "b": "Yoqilg'i tizimi",
+   "q": "Gaz ballonini muntazam ravishda nima qilish shart?",
+   "a": [
+    "Muddatli ko'rik",
+    "Bo'yamaslik",
+    "Hech qachon tekshirmaslik",
+    "Quyosh ostida qizdirish"
+   ],
+   "e": "Xavfsizlik talabi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Uzatmalar qutisida moy nima uchun kerak?",
+   "a": [
+    "Tishlilarni moylash",
+    "Dvigatelni sovitish",
+    "Yoqilg'i berish",
+    "Elektr ishlab chiqarish"
+   ],
+   "e": "Transmission moy."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Sinxronizatorning vazifasi nima?",
+   "a": [
+    "Zarbasiz almashtirish",
+    "Dvigatelni ishga tushirish",
+    "Tormozlash",
+    "Rulni burish"
+   ],
+   "e": "Tezliklarni tenglashtiradi."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Orqa g'ildiraklari yetakchi avtomobilda kuch qanday uzatiladi?",
+   "a": [
+    "Uzatmalar qutisi → kardan → bosh uzatma",
+    "To'g'ridan-to'g'ri dvigateldan g'ildirakka",
+    "Faqat zanjir orqali",
+    "Faqat tasma orqali"
+   ],
+   "e": "Klassik sxema."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Old g'ildiraklari yetakchi avtomobilda burchakli tezliklar sharnirlari (granata) nima uchun kerak?",
+   "a": [
+    "Burilgan g'ildirakka uzatish",
+    "Tormozlash",
+    "Moyni sovitish",
+    "Kuzovni ko'tarish"
+   ],
+   "e": "SHRUS."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Bosh uzatmaning vazifasi nima?",
+   "a": [
+    "Momentni oshirish",
+    "Tezlikni oshirish faqat",
+    "Dvigatelni sovitish",
+    "Yoqilg'ini tejash"
+   ],
+   "e": "Yetakchi ko'prikda."
+  },
+  {
+   "b": "Transmissiya",
+   "q": "Variator (CVT) nima?",
+   "a": [
+    "Pog'onasiz uzatma",
+    "Mexanik 5 bosqichli quti",
+    "Tormoz qurilmasi",
+    "Rul kuchaytirgich"
+   ],
+   "e": "Pog'onasiz."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Mustaqil osmaning afzalligi nima?",
+   "a": [
+    "G'ildiraklar mustaqil",
+    "Barcha g'ildiraklar bir o'qda qattiq bog'langan",
+    "Osma umuman yo'q",
+    "Faqat bitta g'ildirakli"
+   ],
+   "e": "Qulaylik va boshqaruv."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Barg ressor qaysi avtomobillarda ko'proq ishlatiladi?",
+   "a": [
+    "Yuk avtomobillarida",
+    "Sport avtomobillarida",
+    "Mototsikllarda",
+    "Velosipedlarda"
+   ],
+   "e": "Mustahkamlik."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Qishki shinalar qachon o'rnatiladi?",
+   "a": [
+    "+5–7 °C dan pastda",
+    "Faqat yozda",
+    "Faqat bahorda",
+    "Hech qachon"
+   ],
+   "e": "Ilashish yaxshi."
+  },
+  {
+   "b": "Yurish qismi",
+   "q": "Shina protektorining vazifasi nima?",
+   "a": [
+    "Ilashish",
+    "Shinani bezash",
+    "Diskni sovitish",
+    "Shovqinni oshirish"
+   ],
+   "e": "Suv chiqaruvchi ariqchalar."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Rul g'ildiragining erkin yo'li (lyuft) ortiqcha bo'lsa nima qilinadi?",
+   "a": [
+    "Rul sozlanadi",
+    "E'tibor berilmaydi",
+    "Tezlik oshiriladi",
+    "Shinalar almashtiriladi faqat"
+   ],
+   "e": "Xavfsizlik talabi."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Disk tormozining asosiy qismlari qaysilar?",
+   "a": [
+    "Disk, kaliper, kolodkalar",
+    "Baraban va lenta",
+    "Tishli g'ildirak va zanjir",
+    "Prujina va ressor"
+   ],
+   "e": "Disk tormoz."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Baraban tormozida kolodkalar nimaga bosiladi?",
+   "a": [
+    "Baraban ichiga",
+    "Diskning tashqi yuzasiga",
+    "Shinaga",
+    "Rul validga"
+   ],
+   "e": "Baraban tormoz."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Vakuum kuchaytirgichning vazifasi nima?",
+   "a": [
+    "Pedal kuchini kamaytirish",
+    "Dvigatelni sovitish",
+    "Yoqilg'i berish",
+    "Rulni og'irlashtirish"
+   ],
+   "e": "Kuchaytirgich."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "Tormoz kolodkalari yeyilganda qanday belgi kuzatiladi?",
+   "a": [
+    "G'ijirlash",
+    "Yoqilg'i sarfining kamayishi",
+    "Dvigatel quvvatining oshishi",
+    "Faralar yorqinlashishi"
+   ],
+   "e": "Almashtirish kerak."
+  },
+  {
+   "b": "Boshqaruv mexanizmlari",
+   "q": "ESP (barqarorlik tizimi) nima qiladi?",
+   "a": [
+    "Yo'nalishni saqlash",
+    "Dvigatelni ishga tushiradi",
+    "Shinalarni damlaydi",
+    "Radioni boshqaradi"
+   ],
+   "e": "Elektron tizim."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Akkumulyator elektroliti nimadan iborat?",
+   "a": [
+    "Sulfat kislota eritmasi",
+    "Toza distillangan suv",
+    "Tuzli suv",
+    "Motor moyi"
+   ],
+   "e": "Qo'rg'oshin akkumulyator."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Akkumulyator sig'imi qanday birlikda o'lchanadi?",
+   "a": [
+    "Amper-soat",
+    "Vatt",
+    "Volt",
+    "Om"
+   ],
+   "e": "Masalan, 60 A·soat."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Akkumulyatorni avtomobildan yechishda qaysi klemma birinchi uziladi?",
+   "a": [
+    "Manfiy (−)",
+    "Musbat (+)",
+    "Ikkalasi bir vaqtda",
+    "Ahamiyatsiz"
+   ],
+   "e": "Qisqa tutashuvni oldini olish."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Generator qanday tok ishlab chiqaradi?",
+   "a": [
+    "To'g'rilangan o'zgaruvchan",
+    "Faqat o'zgarmas tok",
+    "Faqat yuqori kuchlanishli tok",
+    "Tok ishlab chiqarmaydi"
+   ],
+   "e": "Alternator."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Kuchlanish rostlagichining vazifasi nima?",
+   "a": [
+    "Kuchlanishni ushlash",
+    "Akkumulyatorni zaryadsizlantirish",
+    "Starterni aylantirish",
+    "Faralarni o'chirish"
+   ],
+   "e": "Ortiqcha zaryaddan himoya."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "O't oldirish g'altagi (katushka) vazifasi nima?",
+   "a": [
+    "Kuchlanishni oshirish",
+    "Yoqilg'ini purkash",
+    "Moyni haydash",
+    "Rulni burish"
+   ],
+   "e": "Uchqun uchun."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Avtomobil faralarida qanday chiroqlar ishlatiladi?",
+   "a": [
+    "Galogen, ksenon, LED",
+    "Faqat sham",
+    "Faqat kerosin",
+    "Faqat neon"
+   ],
+   "e": "Yoritish tizimi."
+  },
+  {
+   "b": "Elektr jihozlari",
+   "q": "Avtomobil diagnostika raz'yomi qanday nomlanadi?",
+   "a": [
+    "OBD-II",
+    "USB-A",
+    "HDMI",
+    "RJ-45"
+   ],
+   "e": "Xatolik kodlarini o'qish."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "TXK-1 da odatda qanday ishlar bajariladi?",
+   "a": [
+    "Nazorat, mahkamlash, moylash ishlari",
+    "Dvigatelni to'liq kapital ta'mirlash",
+    "Kuzovni qayta bo'yash",
+    "Avtomobilni sotish"
+   ],
+   "e": "Rejali xizmat."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "TXK-2 TXK-1 dan nimasi bilan farq qiladi?",
+   "a": [
+    "Kengroq diagnostika",
+    "Umuman ish bajarilmaydi",
+    "Faqat yuvish",
+    "Faqat bo'yash"
+   ],
+   "e": "Chuqurroq xizmat."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Kapital ta'mirning maqsadi nima?",
+   "a": [
+    "Resursni tiklash",
+    "Faqat yuvish",
+    "Faqat shina almashtirish",
+    "Faqat moy quyish"
+   ],
+   "e": "Ta'mir turi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Ta'mirlash chuquri (smotrovaya yama) nima uchun ishlatiladi?",
+   "a": [
+    "Pastki qismga xizmat",
+    "Avtomobilni saqlash uchun",
+    "Yoqilg'i saqlash uchun",
+    "Shinalarni damlash uchun"
+   ],
+   "e": "Ko'targich ham ishlatiladi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtomobilni ko'targich (domkrat) bilan ko'tarishda nima qilish kerak?",
+   "a": [
+    "To'xtatgich qo'yish",
+    "Dvigatelni ishlatib qo'yish",
+    "Avtomobil tagida yotib ko'tarish",
+    "Qo'l tormozini bo'shatish"
+   ],
+   "e": "Xavfsizlik texnikasi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Dinamometrik kalit nima uchun ishlatiladi?",
+   "a": [
+    "Momentli tortish",
+    "Shinani damlash",
+    "Akkumulyatorni zaryadlash",
+    "Moyni quyish"
+   ],
+   "e": "Tortish momenti."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Motor moyi taxminan qancha yurishda almashtiriladi (ko'pchilik yengil avtomobillar)?",
+   "a": [
+    "Belgilangan oraliqda",
+    "Har 100 km da",
+    "Hech qachon",
+    "Har 100 ming km da"
+   ],
+   "e": "Ekspluatatsiya qo'llanmasi."
+  },
+  {
+   "b": "Texnik xizmat ko'rsatish va ta'mirlash",
+   "q": "Avtoservis ustaxonasida ishlashda asosiy xavfsizlik qoidasi qaysi?",
+   "a": [
+    "Himoya vositalari",
+    "Himoya vositalarisiz ishlash",
+    "Nosoz asboblardan foydalanish",
+    "Yonuvchi suyuqliklar yonida chekish"
+   ],
+   "e": "Mehnat muhofazasi."
+  }
+ ]
+}
