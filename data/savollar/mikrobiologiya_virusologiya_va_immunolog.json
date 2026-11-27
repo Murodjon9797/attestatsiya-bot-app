@@ -1224,6 +1224,820 @@
     "Faqat yurak ritmini"
    ],
    "e": "Fermentli belgi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immun tizimining markaziy a'zolari qaysilar?",
+   "a": [
+    "Ko'mik va ayrisimon bez",
+    "Limfa tugunlari va taloq",
+    "Jigar va buyrak",
+    "Yurak va o'pka"
+   ],
+   "e": "Limfotsitlar yetiladi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immun tizimining periferik a'zolariga nima kiradi?",
+   "a": [
+    "Limfa tugunlari va taloq",
+    "Ko'mik va ayrisimon bez",
+    "Oshqozon va me'da osti bezi",
+    "Buyrak usti bezi"
+   ],
+   "e": "Immun javob shakllanadi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "T-limfotsitlar qayerda yetiladi?",
+   "a": [
+    "Timusda",
+    "Ko'mikda",
+    "Jigarda",
+    "Taloqda"
+   ],
+   "e": "\"T\" — timus."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "B-limfotsitlar odamda qayerda yetiladi?",
+   "a": [
+    "Ko'mikda",
+    "Timusda",
+    "Limfa tugunida",
+    "Buyrakda"
+   ],
+   "e": "Bone marrow."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Makrofaglar qaysi hujayralardan rivojlanadi?",
+   "a": [
+    "Monotsitlardan",
+    "Eritrotsitlardan",
+    "Trombotsitlardan",
+    "Neyronlardan"
+   ],
+   "e": "To'qimaga o'tgach."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Neytrofillar qanday vazifa bajaradi?",
+   "a": [
+    "Fagotsitoz",
+    "Kislorod tashish",
+    "Qon ivishi",
+    "Antitela ishlab chiqarish"
+   ],
+   "e": "Birinchi bo'lib yallig'lanish o'chog'iga keladi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Eozinofillar qachon ko'payadi?",
+   "a": [
+    "Allergiya va gelmintozda",
+    "Faqat virusli infeksiyada",
+    "Faqat qon yo'qotishda",
+    "Faqat suyak sinishida"
+   ],
+   "e": "Eozinofiliya."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Yallig'lanishning klassik belgilariga nima kiradi?",
+   "a": [
+    "Qizarish, shish, og'riq",
+    "Rangsizlanish va sovuqlik",
+    "Terining qorayishi faqat",
+    "Ishtahaning ortishi"
+   ],
+   "e": "Funksiya buzilishi ham."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Agglyutinatsiya reaksiyasi nima?",
+   "a": [
+    "Antigenlarning yopishishi",
+    "Eruvchan antigenning cho'kishi",
+    "Hujayralarning erishi",
+    "Fermentning parchalanishi"
+   ],
+   "e": "Qon guruhini aniqlashda ham."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Pretsipitatsiya reaksiyasi nima?",
+   "a": [
+    "Eruvchan antigen cho'kishi",
+    "Hujayralarning yopishishi",
+    "Bakteriyalarning harakati",
+    "Qonning ivishi"
+   ],
+   "e": "Serologik reaksiya."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Allergiyaning darhol turdagi reaksiyasiga misol qaysi?",
+   "a": [
+    "Anafilaktik shok",
+    "Kontakt dermatit",
+    "Tuberkulin reaksiyasi",
+    "Transplantat rad etilishi"
+   ],
+   "e": "IgE vositasida, daqiqalarda."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Kechikkan turdagi allergik reaksiyaga misol qaysi?",
+   "a": [
+    "Mantu sinamasi",
+    "Anafilaktik shok",
+    "Pichan isitmasi",
+    "Ürtikar (eshakemi) darhol"
+   ],
+   "e": "T-hujayralar vositasida, 48–72 soat."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Anafilaktik shokda birinchi yordam dorisi qaysi?",
+   "a": [
+    "Adrenalin",
+    "Paratsetamol",
+    "Antibiotik",
+    "Vitamin C"
+   ],
+   "e": "Mushak ichiga."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Vaksinatsiya nima uchun o'tkaziladi?",
+   "a": [
+    "Faol immunitet uchun",
+    "Kasallikni darhol davolash uchun",
+    "Antitelalarni yo'q qilish uchun",
+    "Qon guruhini o'zgartirish uchun"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Kollektiv (podali) immunitet nima?",
+   "a": [
+    "Infeksiya tarqalishining to'xtashi",
+    "Faqat bir kishining immuniteti",
+    "Faqat hayvonlar immuniteti",
+    "Emlashdan voz kechish"
+   ],
+   "e": "Emlanmaganlar ham himoyalanadi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Mantu sinamasi nima uchun qo'llaniladi?",
+   "a": [
+    "Silga sezgirlikni aniqlash",
+    "Qon guruhini aniqlash uchun",
+    "Qand miqdorini o'lchash uchun",
+    "Gripp diagnostikasi uchun"
+   ],
+   "e": "Tuberkulin bilan."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Qon guruhlari ABO tizimida nechta?",
+   "a": [
+    "4",
+    "2",
+    "3",
+    "8"
+   ],
+   "e": "I(0), II(A), III(B), IV(AB)."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Rezus-omil nima?",
+   "a": [
+    "Eritrotsitlardagi antigen",
+    "Qon plazmasidagi glyukoza",
+    "Leykotsit turi",
+    "Vitamin"
+   ],
+   "e": "Rh+ yoki Rh−."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Universal donor qon guruhi qaysi (ABO bo'yicha)?",
+   "a": [
+    "I (0)",
+    "IV (AB)",
+    "II (A)",
+    "III (B)"
+   ],
+   "e": "Eritrotsitlarida A va B antigenlari yo'q."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immunomodulyatorlar nima?",
+   "a": [
+    "Immunitetni o'zgartiruvchilar",
+    "Antibiotiklar guruhi",
+    "Og'riq qoldiruvchilar",
+    "Vitaminlar"
+   ],
+   "e": "Immunostimulyatorlar va supressorlar."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Transplantatsiyada rad etish reaksiyasining oldini olish uchun nima qilinadi?",
+   "a": [
+    "Moslik va immunosupressiya",
+    "Faqat antibiotik beriladi",
+    "Faqat vitamin beriladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "HLA mosligi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immun xotira nima beradi?",
+   "a": [
+    "Tez va kuchli javob",
+    "Immunitetning butunlay yo'qolishi",
+    "Allergiyaning kuchayishi",
+    "Kasallikning surunkalashuvi"
+   ],
+   "e": "Xotira hujayralari."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Monoklonal antitelalar nima?",
+   "a": [
+    "Bir klon antitelalari",
+    "Turli hujayralarning aralash antitelalari",
+    "Antibiotiklar",
+    "Vaksinalar"
+   ],
+   "e": "Diagnostika va davolashda."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Gipersensitivlik nima?",
+   "a": [
+    "Haddan tashqari reaksiya",
+    "Immunitetning yo'qligi",
+    "Normal immun javob",
+    "Vitamin tanqisligi"
+   ],
+   "e": "Allergiyalar."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Sanitariya-ko'rsatkich mikroorganizmlariga misol qaysi?",
+   "a": [
+    "Ichak tayoqchasi guruhi",
+    "Faqat zamburug' sporalari",
+    "Faqat viruslar",
+    "Faqat gelmint tuxumlari"
+   ],
+   "e": "Fekal ifloslanish ko'rsatkichi."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Suvning bakteriologik sifati qanday ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Koli-indeks",
+    "Faqat suv rangi",
+    "Faqat suv harorati",
+    "Faqat suv hidi"
+   ],
+   "e": "Ichimlik suvi standartlari."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Havodagi mikroblar sonini aniqlash usuli qaysi?",
+   "a": [
+    "Cho'kish (Kox) usuli",
+    "Gram bo'yash",
+    "PZR",
+    "Mantu"
+   ],
+   "e": "Ochiq idishli muhit."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Kasalxona ichi infeksiyalarini (KII) qo'zg'atuvchilarning xususiyati nima?",
+   "a": [
+    "Antibiotikka chidamli",
+    "Har doim zararsiz",
+    "Faqat viruslar",
+    "Faqat bolalarda uchraydi"
+   ],
+   "e": "Gospital shtammlar."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Qo'l gigiyenasi tibbiyot xodimi uchun nima uchun muhim?",
+   "a": [
+    "Asosiy profilaktika chorasi",
+    "Faqat estetik talab",
+    "Hech qanday ahamiyati yo'q",
+    "Faqat bemorlar uchun"
+   ],
+   "e": "VOZ tavsiyasi."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Pasterizatsiya nima?",
+   "a": [
+    "60–80 °C da qisqa qizdirish",
+    "Mahsulotni muzlatish",
+    "Mahsulotni 200 °C da kuydirish",
+    "Mahsulotni quritish"
+   ],
+   "e": "Sut, sharbatlar."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Tindalizatsiya nima?",
+   "a": [
+    "Takroriy qizdirish",
+    "Bir martalik muzlatish",
+    "Ultrabinafsha nurlantirish",
+    "Quruq havo bilan kuydirish"
+   ],
+   "e": "Sporalar ham yo'qotiladi."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Ultrabinafsha nurlar nima uchun ishlatiladi?",
+   "a": [
+    "Havo va yuzani dezinfeksiya",
+    "Suyuqliklarni qaynatish uchun",
+    "Asboblarni avtoklavlash uchun",
+    "Ozuqa muhiti tayyorlash uchun"
+   ],
+   "e": "Bakteritsid lampalar."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Mikroblarga qarshi kurashda xlor saqlovchi vositalar qanday guruhga kiradi?",
+   "a": [
+    "Dezinfektantlar",
+    "Antibiotiklar",
+    "Vaksinalar",
+    "Vitaminlar"
+   ],
+   "e": "Xlorli ohak, xloramin."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Oziq-ovqat toksikoinfeksiyalarining keng tarqalgan qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Salmonellalar",
+    "Treponemalar",
+    "Mikobakteriyalar",
+    "Plazmodiylar"
+   ],
+   "e": "Tuxum, go'sht mahsulotlari."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Tuproq orqali yuqadigan infeksiyalarga misol qaysi?",
+   "a": [
+    "Qoqshol",
+    "Gripp",
+    "Qizamiq",
+    "OIV"
+   ],
+   "e": "Sporalar tuproqda."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Gerpes viruslari qanday xususiyatga ega?",
+   "a": [
+    "Organizmda latent saqlanadi",
+    "Faqat bir marta kasallik qo'zg'atib, butunlay yo'qoladi",
+    "Faqat o'simliklarni zararlaydi",
+    "Faqat bakteriyalarni zararlaydi"
+   ],
+   "e": "Qayta faollashadi."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Suvchechak qo'zg'atuvchisi qaysi virus?",
+   "a": [
+    "Varicella-zoster virusi",
+    "Qizamiq virusi",
+    "Qizilcha virusi",
+    "Gripp virusi"
+   ],
+   "e": "Gerpesviruslar oilasi."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "O'rab oluvchi temiratki (opoyasyvayushchiy lishay) qaysi virus qo'zg'atadi?",
+   "a": [
+    "Varicella-zoster",
+    "Papillomavirus",
+    "Adenovirus",
+    "Rinovirus"
+   ],
+   "e": "Suvchechakdan keyin latent."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Qizilcha homiladorlikda nima uchun xavfli?",
+   "a": [
+    "Homila nuqsonlari",
+    "Onaning bo'yini o'zgartiradi",
+    "Hech qanday xavf yo'q",
+    "Faqat sochni to'kadi"
+   ],
+   "e": "Tug'ma qizilcha sindromi."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Poliomiyelit qaysi a'zoni zararlaydi?",
+   "a": [
+    "Harakat neyronlarini",
+    "Faqat terini",
+    "Faqat jigarni",
+    "Faqat ko'zni"
+   ],
+   "e": "Falajlar."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Epidemik parotit (tepki) asosan qaysi a'zoni zararlaydi?",
+   "a": [
+    "So'lak bezlarini",
+    "O'pkani",
+    "Yurakni",
+    "Buyrakni"
+   ],
+   "e": "Paramiksoviruslar."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Gepatit C virusi qanday nuklein kislotaga ega?",
+   "a": [
+    "RNK",
+    "DNK",
+    "Ikkalasi ham",
+    "Nuklein kislotasiz"
+   ],
+   "e": "Flaviviruslar."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Gepatit D virusi qanday xususiyatga ega?",
+   "a": [
+    "Faqat gepatit B bilan",
+    "Mustaqil, boshqa virussiz ko'payadi",
+    "Faqat bakteriyalarni zararlaydi",
+    "DNK li yirik virus"
+   ],
+   "e": "Defekt virus."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Rotaviruslar qanday kasallik qo'zg'atadi?",
+   "a": [
+    "Bolalarda o'tkir diareya",
+    "Sil va moxov",
+    "Bezgak",
+    "Qoqshol"
+   ],
+   "e": "Fekal-oral yo'l."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Adenoviruslar qanday kasalliklar qo'zg'atadi?",
+   "a": [
+    "Nafas va ko'z infeksiyalari",
+    "Faqat suyak sinishi",
+    "Faqat diabet",
+    "Faqat gipertoniya"
+   ],
+   "e": "Konyunktivit, faringit."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Ebola virusi qanday kasallik qo'zg'atadi?",
+   "a": [
+    "Gemorragik isitma",
+    "Oddiy shamollash",
+    "Teri qichimasi",
+    "Tish kariesi"
+   ],
+   "e": "O'lim darajasi yuqori."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Virus genomining o'zgarishiga eng moyil viruslar qaysilar?",
+   "a": [
+    "RNK li viruslar",
+    "DNK li yirik viruslar",
+    "Prionlar",
+    "Bakteriofaglar faqat"
+   ],
+   "e": "Replikatsiyada xatolar ko'p."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Antivirus dori asiklovir qaysi viruslarga qarshi ishlatiladi?",
+   "a": [
+    "Gerpesviruslarga",
+    "Gripp virusiga faqat",
+    "OIV ga faqat",
+    "Bakteriyalarga"
+   ],
+   "e": "DNK sintezini to'xtatadi."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "OIV infeksiyasini davolashda qanday terapiya qo'llaniladi?",
+   "a": [
+    "Antiretrovirus terapiya",
+    "Faqat antibiotik terapiya",
+    "Faqat vitamin terapiya",
+    "Faqat jarrohlik"
+   ],
+   "e": "Bir nechta dori kombinatsiyasi."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Viruslarning hujayraga kirishining birinchi bosqichi nima?",
+   "a": [
+    "Retseptorga birikish",
+    "Yangi virionlarning chiqishi",
+    "Nuklein kislota sintezi",
+    "Kapsid yig'ilishi"
+   ],
+   "e": "Keyin kirish, yechinish, sintez, yig'ilish, chiqish."
+  },
+  {
+   "b": "Virusologiya",
+   "q": "Virusga qarshi vaksinaga misol qaysi?",
+   "a": [
+    "QQP vaksinasi",
+    "BTsJ",
+    "AKDS ning ko'kyo'tal komponenti",
+    "Qoqshol anatoksini"
+   ],
+   "e": "Tirik vaksina."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Pnevmokokk qanday kasallik qo'zg'atadi?",
+   "a": [
+    "Pnevmoniya",
+    "Vabo",
+    "Bezgak",
+    "Sifilis"
+   ],
+   "e": "Streptococcus pneumoniae."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Gelikobakter (Helicobacter pylori) qanday kasallik bilan bog'liq?",
+   "a": [
+    "Oshqozon yarasi",
+    "Sil",
+    "Qizamiq",
+    "Suvchechak"
+   ],
+   "e": "Spiralsimon bakteriya."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Listerioz homiladorlar uchun nima uchun xavfli?",
+   "a": [
+    "Homila zararlanishi mumkin",
+    "Onaning ko'zi rangini o'zgartiradi",
+    "Xavfsiz infeksiya",
+    "Faqat sochni zararlaydi"
+   ],
+   "e": "Listeria monocytogenes."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Xlamidiyalar qanday mikroorganizmlar?",
+   "a": [
+    "Hujayra ichi bakteriyalari",
+    "Erkin yashovchi zamburug'lar",
+    "Viruslar",
+    "Gelmintlar"
+   ],
+   "e": "Trachoma, urogenital infeksiyalar."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Rikketsiyalar qanday tashiladi?",
+   "a": [
+    "Bit va kanalar",
+    "Faqat havo-tomchi",
+    "Faqat suv orqali",
+    "Faqat qon quyishda"
+   ],
+   "e": "Toshmali tif."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Leptospiroz odamga qanday yuqadi?",
+   "a": [
+    "Ifloslangan suv orqali",
+    "Faqat havo-tomchi",
+    "Faqat chivin chaqishida",
+    "Faqat qon quyishda"
+   ],
+   "e": "Spiroxeta."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Kokliyush (ko'kyo'tal) uchun xos belgi qaysi?",
+   "a": [
+    "Xurujsimon yo'tal",
+    "Teri toshmasi va qichishi",
+    "Sariqlik",
+    "Diareya"
+   ],
+   "e": "Bolalarda."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Difteriyaning xavfli asorati nima?",
+   "a": [
+    "Miokardit",
+    "Soch to'kilishi",
+    "Tish kariesi",
+    "Ko'rish o'tkirlashuvi"
+   ],
+   "e": "Toksin ta'siri."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Gazli gangrena qo'zg'atuvchilari qaysilar?",
+   "a": [
+    "Klostridiyalar",
+    "Stafilokokklar",
+    "Viruslar",
+    "Zamburug'lar"
+   ],
+   "e": "Anaerob infeksiya."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Psevdomonas (ko'k yiring tayoqchasi) qayerda ko'p uchraydi?",
+   "a": [
+    "Kasalxonada",
+    "Faqat sog'lom terida",
+    "Faqat sut mahsulotlarida",
+    "Faqat tog' havosida"
+   ],
+   "e": "Antibiotiklarga chidamli."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Klebsiella qanday kasallik qo'zg'atishi mumkin?",
+   "a": [
+    "Pnevmoniya",
+    "Faqat bezgak",
+    "Faqat qizamiq",
+    "Faqat quturish"
+   ],
+   "e": "Kapsulali tayoqcha."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Toksoplazmoz qo'zg'atuvchisi qaysi guruhga kiradi?",
+   "a": [
+    "Sodda hayvonlar",
+    "Bakteriyalar",
+    "Viruslar",
+    "Gelmintlar (yassi chuvalchanglar)"
+   ],
+   "e": "Mushuklar asosiy xo'jayin."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Trixomoniaz qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Trichomonas vaginalis",
+    "Treponema pallidum",
+    "Giardia lamblia",
+    "Plasmodium vivax"
+   ],
+   "e": "Jinsiy yo'l bilan."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Amyobiaz qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Entamoeba histolytica",
+    "Giardia lamblia",
+    "Plasmodium falciparum",
+    "Toxoplasma gondii"
+   ],
+   "e": "Amyobali dizenteriya."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Aspergillyoz qo'zg'atuvchisi qaysi guruhga kiradi?",
+   "a": [
+    "Mog'or zamburug'lari",
+    "Bakteriyalar",
+    "Viruslar",
+    "Sodda hayvonlar (amyobalar)"
+   ],
+   "e": "Aspergillus."
+  },
+  {
+   "b": "Xususiy mikrobiologiya",
+   "q": "Dermatofitlar qanday kasalliklar qo'zg'atadi?",
+   "a": [
+    "Teri zamburug'li kasalliklari",
+    "Faqat o'pka kasalliklari",
+    "Faqat yurak kasalliklari",
+    "Faqat buyrak kasalliklari"
+   ],
+   "e": "Trixofitiya, mikrosporiya."
+  },
+  {
+   "b": "Umumiy mikrobiologiya",
+   "q": "Bakteriya hujayra devorining asosiy komponenti qaysi?",
+   "a": [
+    "Peptidoglikan",
+    "Xitin",
+    "Tsellyuloza",
+    "Kollagen"
+   ],
+   "e": "Penitsillin uning sintezini buzadi."
+  },
+  {
+   "b": "Umumiy mikrobiologiya",
+   "q": "Mikoplazmalarning o'ziga xosligi nima?",
+   "a": [
+    "Hujayra devori yo'q",
+    "Hujayra devori juda qalin",
+    "Ular viruslar",
+    "Ular ko'p hujayrali"
+   ],
+   "e": "Penitsillinga sezgir emas."
+  },
+  {
+   "b": "Umumiy mikrobiologiya",
+   "q": "Plazmida nima?",
+   "a": [
+    "Halqasimon DNK",
+    "Hujayra devori qismi",
+    "Xivchin turi",
+    "Spora qobig'i"
+   ],
+   "e": "Chidamlilik genlari."
+  },
+  {
+   "b": "Umumiy mikrobiologiya",
+   "q": "Bakteriyalarda genetik material uzatilishining usullari qaysilar?",
+   "a": [
+    "Transformatsiya va boshqalar",
+    "Faqat mitoz",
+    "Faqat meyoz",
+    "Faqat kurtaklanish"
+   ],
+   "e": "Gorizontal gen uzatish."
+  },
+  {
+   "b": "Umumiy mikrobiologiya",
+   "q": "Mikroskopiyada immersion obyektiv uchun nima ishlatiladi?",
+   "a": [
+    "Immersion moy",
+    "Suv",
+    "Spirt",
+    "Benzin"
+   ],
+   "e": "Kattalashtirish ×90–100."
+  },
+  {
+   "b": "Umumiy mikrobiologiya",
+   "q": "Faol harakatlanuvchi bakteriyalarni ko'rish uchun qaysi preparat tayyorlanadi?",
+   "a": [
+    "\"Osilgan tomchi\"",
+    "Fiksatsiyalangan bo'yalgan surtma",
+    "Gistologik kesma",
+    "Quruq kukun"
+   ],
+   "e": "Tirik holatda."
+  },
+  {
+   "b": "Umumiy mikrobiologiya",
+   "q": "Bakteriyalarning o'sish fazalaridan qaysi birida ko'payish eng tez?",
+   "a": [
+    "Logarifmik faza",
+    "Lag-faza",
+    "Statsionar faza",
+    "Halokat fazasi"
+   ],
+   "e": "Eksponensial o'sish."
   }
  ]
 }
