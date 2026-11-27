@@ -1,0 +1,1790 @@
+{
+ "kod": "5PM0399",
+ "nomi": "Iqtisodiyotda axborot-kommunikatsiya texnologiyalari va tizimlari",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (7 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Axborot texnologiyalari nima?",
+   "a": [
+    "Axborot bilan ishlash usullari majmui",
+    "Faqat kompyuterlarni ta'mirlash va yig'ish jarayoni",
+    "Faqat telefon aloqasi xizmatlari",
+    "Faqat qog'oz hujjatlarni arxivlash"
+   ],
+   "e": "AKT — axborot-kommunikatsiya texnologiyalari."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Axborotning eng kichik o'lchov birligi qaysi?",
+   "a": [
+    "Bit",
+    "Bayt",
+    "Kilobayt",
+    "Gers"
+   ],
+   "e": "0 yoki 1."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "1 bayt necha bitga teng?",
+   "a": [
+    "8",
+    "2",
+    "10",
+    "1024"
+   ],
+   "e": "Bitta belgi kodlanadi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "1 kilobayt necha baytga teng (ikkilik tizimda)?",
+   "a": [
+    "1024",
+    "1000",
+    "8",
+    "100"
+   ],
+   "e": "2¹⁰."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "1 gigabayt necha megabaytga teng?",
+   "a": [
+    "1024",
+    "1000 000",
+    "100",
+    "8"
+   ],
+   "e": "Ikkilik tizimda."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuterning markaziy protsessori qanday nomlanadi?",
+   "a": [
+    "CPU",
+    "GPU",
+    "RAM",
+    "SSD"
+   ],
+   "e": "Central Processing Unit."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Operativ xotira (RAM) qanday xususiyatga ega?",
+   "a": [
+    "Elektr o'chganda ma'lumot yo'qoladi",
+    "Ma'lumotni abadiy saqlaydi, elektrsiz ham",
+    "Faqat o'qish uchun mo'ljallangan",
+    "Faqat tashqi qurilmalarda bo'ladi"
+   ],
+   "e": "Energiyaga bog'liq xotira."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ma'lumotlarni uzoq muddat saqlash qurilmasiga misol qaysi?",
+   "a": [
+    "Qattiq disk (HDD/SSD)",
+    "Operativ xotira (RAM)",
+    "Protsessor keshi",
+    "Monitor"
+   ],
+   "e": "Doimiy xotira."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kiritish qurilmasiga misol qaysi?",
+   "a": [
+    "Klaviatura",
+    "Monitor",
+    "Printer",
+    "Karnay"
+   ],
+   "e": "Sichqoncha, skaner ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Chiqarish qurilmasiga misol qaysi?",
+   "a": [
+    "Printer",
+    "Klaviatura",
+    "Sichqoncha",
+    "Mikrofon"
+   ],
+   "e": "Monitor, karnay ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Operatsion tizimga misol qaysi?",
+   "a": [
+    "Windows",
+    "Microsoft Word",
+    "Google Chrome",
+    "Adobe Photoshop"
+   ],
+   "e": "Linux, macOS, Android ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Operatsion tizimning asosiy vazifasi nima?",
+   "a": [
+    "Resurslarni boshqarish",
+    "Faqat matn terish",
+    "Faqat rasm chizish",
+    "Faqat internetga ulanish"
+   ],
+   "e": "Foydalanuvchi va apparat orasida vositachi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Amaliy dasturiy ta'minotga misol qaysi?",
+   "a": [
+    "Matn muharriri",
+    "BIOS",
+    "Drayver",
+    "Operatsion tizim yadrosi"
+   ],
+   "e": "Foydalanuvchi vazifalari uchun."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Fayl kengaytmasi \".xlsx\" qaysi dasturga tegishli?",
+   "a": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "PowerPoint",
+    "Paint"
+   ],
+   "e": "Elektron jadval."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\".docx\" kengaytmali fayl qaysi dasturda ochiladi?",
+   "a": [
+    "Microsoft Word",
+    "Microsoft Excel",
+    "Windows Media Player",
+    "Paint"
+   ],
+   "e": "Matn hujjati."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\".pptx\" kengaytmasi qaysi turdagi fayl?",
+   "a": [
+    "Taqdimot",
+    "Jadval",
+    "Rasm",
+    "Audio"
+   ],
+   "e": "PowerPoint."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\".pdf\" formatining afzalligi nima?",
+   "a": [
+    "Ko'rinish o'zgarmaydi",
+    "Faylni har doim oson tahrirlash mumkin",
+    "Faqat rasm saqlaydi",
+    "Faqat audio saqlaydi"
+   ],
+   "e": "Portable Document Format."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Arxivlash dasturining vazifasi nima?",
+   "a": [
+    "Fayllarni siqish",
+    "Fayllarni butunlay o'chirish",
+    "Viruslarni yaratish",
+    "Rasmlarni bo'yash"
+   ],
+   "e": "ZIP, RAR, 7z."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Bulutli texnologiyalar nima?",
+   "a": [
+    "Masofaviy hisoblash va saqlash",
+    "Faqat ob-havo prognozi dasturlari",
+    "Faqat lokal disk",
+    "Faqat printerlar tarmog'i"
+   ],
+   "e": "Google Drive, OneDrive."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ikkilik sanoq sistemasida qaysi raqamlar ishlatiladi?",
+   "a": [
+    "0 va 1",
+    "0 dan 9 gacha",
+    "1 va 2",
+    "A dan F gacha"
+   ],
+   "e": "Kompyuter ichki tili."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "O'nlik 5 soni ikkilik sistemada qanday yoziladi?",
+   "a": [
+    "101",
+    "110",
+    "111",
+    "100"
+   ],
+   "e": "4 + 1."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ikkilik 1010 o'nlik sistemada qancha?",
+   "a": [
+    "10",
+    "12",
+    "8",
+    "5"
+   ],
+   "e": "8 + 2."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Matn muharririda \"Ctrl + C\" nima qiladi?",
+   "a": [
+    "Nusxa oladi",
+    "Joylashtiradi",
+    "Kesib oladi",
+    "Saqlaydi"
+   ],
+   "e": "Ctrl + V — joylashtirish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + V\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Joylashtiradi",
+    "Nusxa oladi",
+    "Bekor qiladi",
+    "Chop etadi"
+   ],
+   "e": "Paste."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + Z\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Amalni bekor qiladi",
+    "Faylni saqlaydi",
+    "Matnni qalin qiladi",
+    "Yangi hujjat ochadi"
+   ],
+   "e": "Undo."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + S\" kombinatsiyasi nima qiladi?",
+   "a": [
+    "Hujjatni saqlaydi",
+    "Hujjatni o'chiradi",
+    "Hujjatni chop etadi",
+    "Matnni qidiradi"
+   ],
+   "e": "Save."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excel jadvalida A1 nima?",
+   "a": [
+    "Katak manzili",
+    "Formula",
+    "Diagramma",
+    "Varaq nomi"
+   ],
+   "e": "A ustun, 1 satr."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda formula qaysi belgi bilan boshlanadi?",
+   "a": [
+    "=",
+    "#",
+    "@",
+    "&"
+   ],
+   "e": "Masalan, =A1+B1."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda A1:A10 kataklar yig'indisini qaysi formula hisoblaydi?",
+   "a": [
+    "=SUM(A1:A10)",
+    "=COUNT(A1:A10)",
+    "=AVERAGE(A1:A10)",
+    "=MAX(A1:A10)"
+   ],
+   "e": "СУММ (rus versiyada)."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda o'rtacha qiymatni qaysi funksiya hisoblaydi?",
+   "a": [
+    "AVERAGE",
+    "SUM",
+    "COUNT",
+    "MIN"
+   ],
+   "e": "СРЗНАЧ."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda shartli hisoblash uchun qaysi funksiya ishlatiladi?",
+   "a": [
+    "IF",
+    "SUM",
+    "MAX",
+    "LEN"
+   ],
+   "e": "=IF(shart; ha; yo'q)."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda $A$1 yozuvi nimani bildiradi?",
+   "a": [
+    "Absolyut manzil",
+    "Nisbiy manzil",
+    "Matn",
+    "Valyuta formati"
+   ],
+   "e": "Nusxalashda o'zgarmaydi."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda katakdagi \"#DIV/0!\" xatosi nimani bildiradi?",
+   "a": [
+    "Nolga bo'lish",
+    "Noma'lum funksiya",
+    "Matnli qiymat",
+    "Katak juda tor"
+   ],
+   "e": "Bo'luvchi nol."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda \"#####\" ko'rinishi nimani bildiradi?",
+   "a": [
+    "Ustun tor",
+    "Formulada xato",
+    "Nolga bo'lish",
+    "Fayl buzilgan"
+   ],
+   "e": "Ustunni kengaytirish kerak."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Ma'lumotlarni vizual ko'rsatish uchun Excelda nima ishlatiladi?",
+   "a": [
+    "Diagrammalar",
+    "Makroslar faqat",
+    "Shriftlar",
+    "Sahifa raqamlari"
+   ],
+   "e": "Ustunli, doiraviy, chiziqli."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda ma'lumotlarni saralash nima beradi?",
+   "a": [
+    "Ma'lumotlarni tartiblash",
+    "Ma'lumotlarni o'chirish",
+    "Formulalarni bekor qilish",
+    "Faylni shifrlash"
+   ],
+   "e": "O'sish yoki kamayish tartibida."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda \"filtr\" nima uchun ishlatiladi?",
+   "a": [
+    "Shartga mos satrlarni ko'rsatish",
+    "Barcha ma'lumotlarni o'chirish uchun",
+    "Diagramma chizish uchun",
+    "Faylni chop etish uchun"
+   ],
+   "e": "Avtofiltr."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda VLOOKUP (ВПР) funksiyasi nima qiladi?",
+   "a": [
+    "Jadvaldan qiymat qidiradi",
+    "Yig'indini hisoblaydi",
+    "Matnni birlashtiradi",
+    "Sanani chiqaradi"
+   ],
+   "e": "Vertikal qidiruv."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Svodnaya (pivot) jadval nima uchun ishlatiladi?",
+   "a": [
+    "Ma'lumotlarni umumlashtirish",
+    "Rasm qo'shish uchun",
+    "Matnni tarjima qilish uchun",
+    "Viruslarni tekshirish uchun"
+   ],
+   "e": "Tahlil vositasi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Internet nima?",
+   "a": [
+    "Kompyuter tarmoqlarining global tarmog'i",
+    "Faqat bitta tashkilot ichidagi lokal tarmoq",
+    "Faqat televideniye tizimi",
+    "Faqat telefon liniyasi"
+   ],
+   "e": "TCP/IP protokollari asosida."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Lokal tarmoq qanday qisqartma bilan ataladi?",
+   "a": [
+    "LAN",
+    "WAN",
+    "URL",
+    "HTML"
+   ],
+   "e": "Local Area Network."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Veb-sahifa manzili qanday nomlanadi?",
+   "a": [
+    "URL",
+    "IP-port",
+    "MAC",
+    "PDF"
+   ],
+   "e": "Uniform Resource Locator."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Veb-sahifalar qaysi til asosida yaratiladi?",
+   "a": [
+    "HTML",
+    "SQL",
+    "Excel",
+    "Paint"
+   ],
+   "e": "HyperText Markup Language."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Brauzerga misol qaysi?",
+   "a": [
+    "Google Chrome",
+    "Microsoft Excel",
+    "Windows Explorer faqat fayl uchun",
+    "Notepad"
+   ],
+   "e": "Firefox, Edge, Safari ham."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Qidiruv tizimiga misol qaysi?",
+   "a": [
+    "Google",
+    "Microsoft Word",
+    "WinRAR",
+    "Skype"
+   ],
+   "e": "Yandex, Bing ham."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron pochta manzilida \"@\" belgisi nimani ajratadi?",
+   "a": [
+    "Login va domenni",
+    "Parol va loginni",
+    "Sana va vaqtni",
+    "Fayl nomi va kengaytmani"
+   ],
+   "e": "user@domain.uz."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "HTTPS protokolining HTTP dan farqi nima?",
+   "a": [
+    "Shifrlangan uzatish",
+    "Faqat rasm uzatadi",
+    "Shifrlashsiz ishlaydi",
+    "Faqat lokal tarmoqda ishlaydi"
+   ],
+   "e": "SSL/TLS."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "IP-manzil nima?",
+   "a": [
+    "Qurilma manzili",
+    "Elektron pochta paroli",
+    "Fayl nomi",
+    "Dastur nomi"
+   ],
+   "e": "Masalan, 192.168.1.1."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Wi-Fi nima?",
+   "a": [
+    "Simsiz tarmoq",
+    "Simli telefon aloqasi",
+    "Kompyuter protsessori turi",
+    "Matn muharriri"
+   ],
+   "e": "Radio to'lqinlar orqali."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Videokonferensiya uchun qaysi platforma ishlatiladi?",
+   "a": [
+    "Zoom",
+    "Excel",
+    "Paint",
+    "WinRAR"
+   ],
+   "e": "Microsoft Teams, Google Meet ham."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Kompyuter virusi nima?",
+   "a": [
+    "Zararli dastur",
+    "Kompyuterning foydali qismi",
+    "Matn muharriri turi",
+    "Operatsion tizimning yangilanishi"
+   ],
+   "e": "Antivirus bilan himoya qilinadi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Antivirus dasturiga misol qaysi?",
+   "a": [
+    "Kaspersky",
+    "Microsoft Word",
+    "Google Chrome",
+    "Telegram"
+   ],
+   "e": "ESET, Avast ham."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Fishing (phishing) nima?",
+   "a": [
+    "Ma'lumotlarni aldov bilan o'g'irlash",
+    "Baliq ovlash dasturi",
+    "Fayllarni arxivlash",
+    "Kompyuterni tozalash"
+   ],
+   "e": "Soxta saytlar va xatlar."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Kuchli parolning belgisi qaysi?",
+   "a": [
+    "Turli belgilar aralashmasi",
+    "Faqat tug'ilgan sana",
+    "\"123456\"",
+    "Faqat ism"
+   ],
+   "e": "Kamida 8–12 belgi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ikki bosqichli autentifikatsiya nima beradi?",
+   "a": [
+    "Qo'shimcha himoya",
+    "Parolni butunlay bekor qiladi",
+    "Internetni tezlashtiradi",
+    "Faylni siqadi"
+   ],
+   "e": "SMS kod yoki ilova."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ma'lumotlarning zaxira nusxasi (backup) nima uchun kerak?",
+   "a": [
+    "Ma'lumot yo'qolsa tiklash uchun",
+    "Kompyuterni tezlashtirish uchun",
+    "Viruslarni ko'paytirish uchun",
+    "Internet trafikini kamaytirish uchun"
+   ],
+   "e": "Muntazam bajarilishi kerak."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Shaxsga doir ma'lumotlarni himoya qilish O'zbekistonda qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"Shaxsga doir ma'lumotlar to'g'risida\"gi",
+    "\"Yo'l harakati to'g'risida\"gi Qonun",
+    "Oila kodeksi",
+    "Soliq kodeksi"
+   ],
+   "e": "2019-yilda qabul qilingan."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Ijtimoiy muhandislik hujumi nimaga asoslanadi?",
+   "a": [
+    "Insonni aldashga",
+    "Faqat kompyuter apparatini buzishga",
+    "Faqat elektr tarmog'ini uzishga",
+    "Faqat parolni taxmin qilishga"
+   ],
+   "e": "Fishing, soxta qo'ng'iroqlar."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Shifrlash nima?",
+   "a": [
+    "Ma'lumotni yopiq holatga keltirish",
+    "Ma'lumotni o'chirish",
+    "Ma'lumotni chop etish",
+    "Ma'lumotni siqish faqat"
+   ],
+   "e": "Konfidensiallikni ta'minlaydi."
+  },
+  {
+   "b": "Axborot xavfsizligi",
+   "q": "Elektron raqamli imzo (ERI) nima uchun ishlatiladi?",
+   "a": [
+    "Muallifni tasdiqlash uchun",
+    "Hujjatni rangli chop etish uchun",
+    "Faylni arxivlash uchun",
+    "Internetni tezlashtirish uchun"
+   ],
+   "e": "Yuridik kuchga ega."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Ma'lumotlar bazasi nima?",
+   "a": [
+    "Tartiblangan ma'lumotlar",
+    "Tasodifiy matnlar yig'indisi",
+    "Faqat rasmlar papkasi",
+    "Faqat audio fayllar"
+   ],
+   "e": "MBBT orqali boshqariladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "MBBTga misol qaysi?",
+   "a": [
+    "Microsoft Access",
+    "Microsoft Paint",
+    "WinRAR",
+    "Google Chrome"
+   ],
+   "e": "MySQL, PostgreSQL ham."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Relyatsion ma'lumotlar bazasida ma'lumotlar qanday saqlanadi?",
+   "a": [
+    "Jadvallarda",
+    "Faqat rasmlarda",
+    "Faqat audio fayllarda",
+    "Faqat matnli xatlarda"
+   ],
+   "e": "Satrlar va ustunlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Jadvaldagi har bir yozuvni noyob aniqlovchi maydon nima deyiladi?",
+   "a": [
+    "Birlamchi kalit",
+    "Tashqi kalit",
+    "Indeks faqat",
+    "Formula"
+   ],
+   "e": "Primary key."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "SQL tilida ma'lumot tanlash buyrug'i qaysi?",
+   "a": [
+    "SELECT",
+    "DELETE",
+    "DROP",
+    "INSERT"
+   ],
+   "e": "SELECT * FROM jadval."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Katta ma'lumotlar (Big Data) nima?",
+   "a": [
+    "Juda katta hajmdagi ma'lumotlar",
+    "Kichik matnli fayllar",
+    "Faqat bitta jadval",
+    "Faqat qog'oz hujjatlar"
+   ],
+   "e": "Hajm, tezlik, xilma-xillik."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Sun'iy intellekt nima?",
+   "a": [
+    "Aqliy faoliyatni taqlid qiluvchi tizim",
+    "Faqat kalkulyator",
+    "Faqat matn muharriri",
+    "Faqat printer drayveri"
+   ],
+   "e": "Mashinali o'qitish."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Raqamlashtirish (digitalizatsiya) nima?",
+   "a": [
+    "Raqamli texnologiyalarga o'tish",
+    "Hujjatlarni faqat qog'ozda saqlash",
+    "Kompyuterlardan voz kechish",
+    "Internetni o'chirish"
+   ],
+   "e": "Raqamli O'zbekiston — 2030 strategiyasi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "\"Elektron hukumat\" tizimining maqsadi nima?",
+   "a": [
+    "Elektron davlat xizmatlari",
+    "Davlat idoralarini yopish",
+    "Qog'oz hujjatlarni ko'paytirish",
+    "Internetni cheklash"
+   ],
+   "e": "my.gov.uz portali."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "O'zbekistonda davlat xizmatlarining yagona interaktiv portali qaysi?",
+   "a": [
+    "my.gov.uz",
+    "google.com",
+    "wikipedia.org",
+    "youtube.com"
+   ],
+   "e": "Yagona interaktiv davlat xizmatlari portali."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "QR-kod nima?",
+   "a": [
+    "Ikki o'lchovli kod",
+    "Kompyuter virusi",
+    "Operatsion tizim",
+    "Internet brauzeri"
+   ],
+   "e": "Smartfon kamerasi bilan o'qiladi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Narsalar interneti (IoT) nima?",
+   "a": [
+    "Ulangan qurilmalar tarmog'i",
+    "Faqat kompyuterlar tarmog'i",
+    "Faqat telefon aloqasi",
+    "Faqat televideniye"
+   ],
+   "e": "Datchiklar, aqlli qurilmalar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Mobil ilova nima?",
+   "a": [
+    "Smartfon uchun dastur",
+    "Kompyuter klaviaturasi",
+    "Printer kartriji",
+    "Monitor kabeli"
+   ],
+   "e": "Android, iOS."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Taqdimot dasturiga misol qaysi?",
+   "a": [
+    "PowerPoint",
+    "Excel",
+    "Access",
+    "Notepad"
+   ],
+   "e": "Google Slides ham."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va raqamlashtirish",
+   "q": "Grafik muharrirga misol qaysi?",
+   "a": [
+    "Adobe Photoshop",
+    "Microsoft Excel",
+    "Microsoft Access",
+    "Skype"
+   ],
+   "e": "Rastr grafika."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Axborotning xossalariga nima kiradi?",
+   "a": [
+    "Ishonchlilik, to'liqlik",
+    "Og'irlik, rang va hajm",
+    "Harorat va bosim",
+    "Uzunlik va kenglik"
+   ],
+   "e": "Foydalilik, tushunarlilik ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ma'lumot va axborot farqi nima?",
+   "a": [
+    "Axborot — ma'no berilgan ma'lumot",
+    "Ma'lumot har doim axborotdan muhimroq",
+    "Ular mutlaqo bir xil",
+    "Axborot faqat raqamlar"
+   ],
+   "e": "Ma'lumot — xom faktlar."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter avlodlari element bazasiga ko'ra qanday rivojlangan?",
+   "a": [
+    "Lampa → tranzistor → IS → mikroprotsessor",
+    "Mikroprotsessor → lampa → tranzistor",
+    "Faqat lampali kompyuterlar mavjud",
+    "Tranzistor → lampa → integral sxema"
+   ],
+   "e": "To'rt avlod."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Protsessor takt chastotasi qanday birlikda o'lchanadi?",
+   "a": [
+    "GGs",
+    "GB",
+    "Vt",
+    "dpi"
+   ],
+   "e": "Gigagers."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Monitorning ekran ruxsati nimani bildiradi?",
+   "a": [
+    "Piksellar sonini",
+    "Monitor og'irligini",
+    "Elektr sarfini",
+    "Ovoz balandligini"
+   ],
+   "e": "Masalan, 1920×1080."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Printerning sifat ko'rsatkichi qaysi?",
+   "a": [
+    "dpi (dyuymdagi nuqtalar)",
+    "GGs",
+    "Mbit/s",
+    "Vt"
+   ],
+   "e": "Ruxsat."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "USB nima?",
+   "a": [
+    "Universal port",
+    "Operatsion tizim turi",
+    "Dasturlash tili",
+    "Antivirus dasturi"
+   ],
+   "e": "Universal Serial Bus."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Fleshka qanday xotira turiga kiradi?",
+   "a": [
+    "Flesh-xotira (doimiy)",
+    "Operativ xotira",
+    "Protsessor keshi",
+    "Videoxotira"
+   ],
+   "e": "Elektrsiz ham saqlaydi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "SSD ning HDD ga nisbatan afzalligi nima?",
+   "a": [
+    "Tezroq va zarbaga chidamli",
+    "Har doim arzonroq va katta hajmli",
+    "Magnit disklar asosida ishlaydi",
+    "Elektrsiz ishlaydi"
+   ],
+   "e": "Harakatlanuvchi qismlari yo'q."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Drayver nima?",
+   "a": [
+    "Qurilma dasturi",
+    "Kompyuter korpusidagi vint",
+    "Matn muharriri",
+    "Antivirus bazasi"
+   ],
+   "e": "Printer, videokarta drayverlari."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Litsenziyali dasturiy ta'minot nima?",
+   "a": [
+    "Qonuniy dastur",
+    "Ruxsatsiz nusxalangan dastur",
+    "Virusli dastur",
+    "Faqat bepul o'yin"
+   ],
+   "e": "Mualliflik huquqi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ochiq kodli dasturga misol qaysi?",
+   "a": [
+    "Linux",
+    "Microsoft Windows",
+    "Adobe Photoshop",
+    "Microsoft Office"
+   ],
+   "e": "LibreOffice, Firefox ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Fayl nima?",
+   "a": [
+    "Nomlangan ma'lumotlar",
+    "Kompyuter korpusi",
+    "Klaviatura tugmasi",
+    "Monitor ekrani"
+   ],
+   "e": "Nom va kengaytma."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Papka (katalog) nima uchun ishlatiladi?",
+   "a": [
+    "Fayllarni guruhlash uchun",
+    "Fayllarni o'chirish uchun",
+    "Internetga ulanish uchun",
+    "Ovoz yozish uchun"
+   ],
+   "e": "Ierarxik tuzilma."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "\"Savat\" (Korzina) nima?",
+   "a": [
+    "O'chirilganlar joyi",
+    "Internet do'kon",
+    "Antivirus dasturi",
+    "Printer navbati"
+   ],
+   "e": "Tiklash mumkin."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Algoritm nima?",
+   "a": [
+    "Aniq qadamlar ketma-ketligi",
+    "Kompyuter qurilmasi",
+    "Fayl turi",
+    "Tarmoq turi"
+   ],
+   "e": "Chiziqli, tarmoqlanuvchi, takrorlanuvchi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Dasturlash tiliga misol qaysi?",
+   "a": [
+    "Python",
+    "Excel",
+    "Windows",
+    "Chrome"
+   ],
+   "e": "Java, C++ ham."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Blok-sxemada romb shakli nimani bildiradi?",
+   "a": [
+    "Shart (tarmoqlanish)",
+    "Boshlanish",
+    "Kiritish",
+    "Hisoblash"
+   ],
+   "e": "Ha/yo'q chiqishlari."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Word da matnni qalin (bold) qilish kombinatsiyasi qaysi?",
+   "a": [
+    "Ctrl + B",
+    "Ctrl + I",
+    "Ctrl + U",
+    "Ctrl + P"
+   ],
+   "e": "I — kursiv, U — tagiga chizish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Hujjatni chop etish kombinatsiyasi qaysi?",
+   "a": [
+    "Ctrl + P",
+    "Ctrl + S",
+    "Ctrl + C",
+    "Ctrl + A"
+   ],
+   "e": "Print."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "\"Ctrl + A\" nima qiladi?",
+   "a": [
+    "Hammasini belgilaydi",
+    "Faylni saqlaydi",
+    "Matnni o'chiradi",
+    "Yangi oyna ochadi"
+   ],
+   "e": "Select All."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Word da sahifa raqamlarini qo'yish qaysi menyuda?",
+   "a": [
+    "Qo'shish (Insert)",
+    "Fayl (File) — Chiqish",
+    "Ko'rinish (View) — Masshtab",
+    "Pochta (Mailings)"
+   ],
+   "e": "Kolontitullar ham."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Word da jadval qo'shish mumkinmi?",
+   "a": [
+    "Ha",
+    "Yo'q, faqat Excel da",
+    "Faqat rasm sifatida",
+    "Faqat PDF da"
+   ],
+   "e": "Insert → Table."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda =MAX(B1:B5) nima qaytaradi?",
+   "a": [
+    "Eng katta qiymatni",
+    "Eng kichik qiymatni",
+    "Yig'indini",
+    "O'rtachani"
+   ],
+   "e": "MIN — eng kichik."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda =COUNT(A1:A10) nima hisoblaydi?",
+   "a": [
+    "Sonli kataklar sonini",
+    "Kataklar yig'indisini",
+    "Eng katta qiymatni",
+    "Matnli kataklarni"
+   ],
+   "e": "COUNTA — bo'sh bo'lmaganlarni."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "A1 = 5, A2 = 3 bo'lsa, =A1*A2 natijasi qancha?",
+   "a": [
+    "15",
+    "8",
+    "53",
+    "2"
+   ],
+   "e": "Ko'paytirish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "A1 = 10, B1 = 4 bo'lsa, =A1/B1 natijasi qancha?",
+   "a": [
+    "2,5",
+    "40",
+    "6",
+    "14"
+   ],
+   "e": "Bo'lish."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda foiz formatini qo'llaganda 0,25 qanday ko'rinadi?",
+   "a": [
+    "25%",
+    "0,25%",
+    "2,5%",
+    "250%"
+   ],
+   "e": "×100."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excelda ma'lumotni katakda yangi satrga o'tkazish uchun nima bosiladi?",
+   "a": [
+    "Alt + Enter",
+    "Ctrl + Z",
+    "Shift + Tab",
+    "F5"
+   ],
+   "e": "Katak ichida."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Excel ishchi kitobi nima?",
+   "a": [
+    "Varaqlardan iborat fayl",
+    "Faqat bitta katak",
+    "Diagramma turi",
+    "Formula turi"
+   ],
+   "e": "Workbook."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Formulani boshqa kataklarga nusxalashda nisbiy manzil qanday o'zgaradi?",
+   "a": [
+    "Mos ravishda o'zgaradi",
+    "Hech qachon o'zgarmaydi",
+    "Har doim A1 ga aylanadi",
+    "O'chib ketadi"
+   ],
+   "e": "A1 → A2."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Taqdimot slaydida animatsiya nima uchun ishlatiladi?",
+   "a": [
+    "Paydo bo'lish effektlari uchun",
+    "Faylni saqlash uchun",
+    "Matnni tarjima qilish uchun",
+    "Virusni o'chirish uchun"
+   ],
+   "e": "Me'yorida qo'llash kerak."
+  },
+  {
+   "b": "Matn va jadval muharrirlari",
+   "q": "Yaxshi taqdimot slaydi qanday bo'lishi kerak?",
+   "a": [
+    "Qisqa matn va aniq tuzilma",
+    "Juda ko'p mayda matn va ko'p rang",
+    "Faqat matn, rasm va diagrammalarsiz",
+    "Har slaydda turli shrift va fon"
+   ],
+   "e": "Auditoriyaga yo'naltirilgan."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Domen nomidagi \".uz\" nimani bildiradi?",
+   "a": [
+    "O'zbekiston milliy domeni",
+    "Tijorat tashkilotini",
+    "Ta'lim muassasasini faqat",
+    "Davlat organini faqat"
+   ],
+   "e": "Country code TLD."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Internet tezligi qanday birlikda o'lchanadi?",
+   "a": [
+    "Mbit/s",
+    "GGs",
+    "dpi",
+    "Vt"
+   ],
+   "e": "Megabit sekundiga."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Router nima vazifani bajaradi?",
+   "a": [
+    "Ma'lumot yo'naltiradi",
+    "Matn yozadi",
+    "Rasm chop etadi",
+    "Ovoz yozadi"
+   ],
+   "e": "Uy tarmog'ini internetga ulaydi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron pochta xatiga fayl biriktirish qanday nomlanadi?",
+   "a": [
+    "Ilova (attachment)",
+    "Spam",
+    "Imzo",
+    "Mavzu"
+   ],
+   "e": "Hajmi cheklangan."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Spam nima?",
+   "a": [
+    "Keraksiz ommaviy xabarlar",
+    "Muhim rasmiy xat",
+    "Fayl turi",
+    "Antivirus"
+   ],
+   "e": "Ehtiyot bo'lish kerak."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ijtimoiy tarmoqda shaxsiy ma'lumotlarni joylashda nima muhim?",
+   "a": [
+    "Maxfiylik sozlamalari",
+    "Barcha ma'lumotlarni ochiq e'lon qilish",
+    "Parolni postda yozish",
+    "Bank karta raqamini ulashish"
+   ],
+   "e": "Raqamli gigiyena."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Kiberxavfsizlik nima?",
+   "a": [
+    "Raqamli tahdidlardan himoya",
+    "Kompyuterni changdan tozalash",
+    "Internetni tezlashtirish",
+    "Dasturlarni bepul yuklab olish"
+   ],
+   "e": "Texnik va tashkiliy choralar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Ochiq Wi-Fi tarmoqlarida nima tavsiya etilmaydi?",
+   "a": [
+    "Bank operatsiyalarini bajarish",
+    "Yangiliklarni o'qish",
+    "Ob-havoni ko'rish",
+    "Xaritadan foydalanish"
+   ],
+   "e": "Trafik ushlanishi mumkin."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Dasturiy ta'minotni yangilab turish nima uchun muhim?",
+   "a": [
+    "Zaifliklar tuzatiladi",
+    "Kompyuter albatta sekinlashadi",
+    "Litsenziya bekor qilinadi",
+    "Fayllar o'chib ketadi"
+   ],
+   "e": "Avtomatik yangilanishlar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Elektron tijorat nima?",
+   "a": [
+    "Internet orqali savdo",
+    "Faqat bozorda naqd savdo",
+    "Faqat barter",
+    "Faqat ulgurji ombor"
+   ],
+   "e": "Onlayn do'konlar, to'lov tizimlari."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Onlayn to'lov tizimiga misol qaysi (O'zbekiston)?",
+   "a": [
+    "Click, Payme",
+    "Paint, Notepad",
+    "Excel, Word",
+    "WinRAR, 7-Zip"
+   ],
+   "e": "Mobil to'lovlar."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Masofaviy ta'lim platformasiga misol qaysi?",
+   "a": [
+    "Moodle",
+    "WinRAR",
+    "Paint",
+    "Calculator"
+   ],
+   "e": "Google Classroom ham."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Geoaxborot tizimi (GIS) nima?",
+   "a": [
+    "Fazoviy ma'lumotlar tizimi",
+    "Grafik muharrir",
+    "Matn muharriri",
+    "Antivirus"
+   ],
+   "e": "Xaritalar bilan ishlash."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Blokcheyn texnologiyasining asosiy xususiyati nima?",
+   "a": [
+    "O'zgarmas taqsimlangan yozuvlar",
+    "Ma'lumotlarni bitta markazda saqlash",
+    "Ma'lumotlarni o'chirish oson",
+    "Faqat matn saqlash"
+   ],
+   "e": "Kriptovalyutalar asosi."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Chatbot nima?",
+   "a": [
+    "Avtomatik muloqot dasturi",
+    "Printer turi",
+    "Fayl formati",
+    "Kompyuter korpusi"
+   ],
+   "e": "Masalan, Telegram botlari."
+  },
+  {
+   "b": "Tarmoqlar va internet",
+   "q": "Raqamli savodxonlik nima?",
+   "a": [
+    "Xavfsiz va to'g'ri foydalanish qobiliyati",
+    "Faqat kompyuter yig'ish",
+    "Faqat dasturlash",
+    "Faqat matn terish tezligi"
+   ],
+   "e": "Zamonaviy kompetensiya."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Iqtisodiy axborot tizimi nima?",
+   "a": [
+    "Iqtisodiy ma'lumotlarni yig'ish va qayta ishlash tizimi",
+    "Faqat korxona binosidagi telefon tarmog'i va kommutatori",
+    "Faqat qog'oz hujjatlar saqlanadigan arxiv xonasi",
+    "Faqat xodimlar ro'yxati yozilgan jurnal"
+   ],
+   "e": "Boshqaruv qarorlari uchun axborot."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Avtomatlashtirilgan ish o'rni (AIO) nima?",
+   "a": [
+    "Mutaxassisning kompyuterlashgan ish joyi",
+    "Ishchisiz to'liq avtomat ishlab chiqarish sexi",
+    "Faqat robotlar ishlaydigan ombor",
+    "Faqat kassa apparati"
+   ],
+   "e": "Masalan, buxgalter AIO."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "ERP tizimi nima?",
+   "a": [
+    "Resurslarni rejalash tizimi",
+    "Faqat elektron pochta dasturi",
+    "Faqat rasm chizish dasturi",
+    "Faqat antivirus"
+   ],
+   "e": "Moliya, ombor, kadrlar, ishlab chiqarish."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "CRM tizimi nima uchun ishlatiladi?",
+   "a": [
+    "Mijozlar bilan munosabatlarni boshqarish uchun",
+    "Faqat buxgalteriya balansini tuzish uchun",
+    "Faqat ishlab chiqarish dastgohlarini boshqarish uchun",
+    "Faqat ob-havoni kuzatish uchun"
+   ],
+   "e": "Customer Relationship Management."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "O'zbekistonda keng tarqalgan buxgalteriya dasturi qaysi?",
+   "a": [
+    "1C: Buxgalteriya",
+    "Adobe Photoshop",
+    "AutoCAD",
+    "CorelDRAW"
+   ],
+   "e": "Hisob va hisobotlarni avtomatlashtirish."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Elektron hujjat aylanishi tizimining afzalligi nima?",
+   "a": [
+    "Tezlik, shaffoflik va qog'oz tejalishi",
+    "Hujjatlarni yo'qotish xavfining ortishi",
+    "Imzo qo'yishning imkonsizligi",
+    "Ish vaqtining uzayishi"
+   ],
+   "e": "ERI bilan tasdiqlanadi."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "O'zbekistonda elektron hisob-fakturalar qaysi tizim orqali almashinadi?",
+   "a": [
+    "Elektron hisob-faktura operatorlari tizimi",
+    "Faqat qog'oz pochta orqali",
+    "Faqat faks orqali",
+    "Faqat ijtimoiy tarmoqlarda"
+   ],
+   "e": "Soliq qo'mitasi tizimi bilan integratsiya."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Soliq hisobotlari elektron shaklda qayerda topshiriladi?",
+   "a": [
+    "Soliq portalida",
+    "Faqat bankda qog'oz shaklda",
+    "Faqat bozorda",
+    "Faqat pochta bo'limida"
+   ],
+   "e": "Shaxsiy kabinet orqali."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Onlayn nazorat-kassa mashinasi (onlayn NKM) nima beradi?",
+   "a": [
+    "Ma'lumotni real vaqtda uzatadi",
+    "Faqat chek qog'ozini bezaydi",
+    "Mahsulot narxini avtomatik oshiradi",
+    "Savdoni yashiradi"
+   ],
+   "e": "Shaffof savdo."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Iqtisodiy axborotning xususiyatlaridan biri qaysi?",
+   "a": [
+    "Hajmining kattaligi va davriyligi",
+    "Faqat bir martalik ishlatilishi",
+    "Faqat rasm ko'rinishida bo'lishi",
+    "Hech qanday tuzilmaga ega emasligi"
+   ],
+   "e": "Raqamli, tuzilmalashgan."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Buxgalteriya hisobini avtomatlashtirish nima beradi?",
+   "a": [
+    "Tezlik va aniqlik ortadi",
+    "Xatolar soni keskin ko'payadi",
+    "Hisobot berish to'xtaydi",
+    "Soliq to'lash bekor bo'ladi"
+   ],
+   "e": "Avtomatik o'tkazmalar."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Ombor hisobi dasturining vazifasi nima?",
+   "a": [
+    "Kirim-chiqim va qoldiqlar hisobi",
+    "Xodimlar ish haqini hisoblash faqat",
+    "Reklama chizish",
+    "Video tahrirlash"
+   ],
+   "e": "Inventarizatsiya."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Shtrix-kod skaneri savdoda nima uchun ishlatiladi?",
+   "a": [
+    "Tez identifikatsiya uchun",
+    "Tovarni bezash uchun",
+    "Narxni yashirish uchun",
+    "Xaridorni suratga olish uchun"
+   ],
+   "e": "Kassa va omborda."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Bank plastik kartasi bilan to'lovda qaysi texnologiya kontaktsiz to'lovni ta'minlaydi?",
+   "a": [
+    "NFC",
+    "Bluetooth Low Energy faqat",
+    "Infraqizil port",
+    "Faks"
+   ],
+   "e": "Telefon orqali to'lov ham."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Internet-banking nima?",
+   "a": [
+    "Bank xizmatlari internetda",
+    "Bank binosini internetda ko'rish",
+    "Bankni yopish",
+    "Faqat naqd pul berish"
+   ],
+   "e": "Masofaviy bank xizmatlari."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "O'zbekistonda bank kartalari to'lov tizimlariga misol qaysi?",
+   "a": [
+    "Uzcard va Humo",
+    "Excel va Word",
+    "Paint va Notepad",
+    "Linux va Windows"
+   ],
+   "e": "Milliy to'lov tizimlari."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Elektron tijoratning B2C modeli nima?",
+   "a": [
+    "Biznesdan iste'molchiga savdo",
+    "Biznesdan biznesga savdo",
+    "Iste'molchidan iste'molchiga savdo",
+    "Davlatdan biznesga xizmat"
+   ],
+   "e": "Business-to-Consumer."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "B2B modeli nimani anglatadi?",
+   "a": [
+    "Korxonalar orasidagi savdo",
+    "Korxonadan iste'molchiga",
+    "Iste'molchilar orasida",
+    "Davlat va fuqaro orasida"
+   ],
+   "e": "Business-to-Business."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "C2C modeliga misol qaysi?",
+   "a": [
+    "Shaxslar o'rtasidagi savdo",
+    "Zavodning ulgurji savdosi",
+    "Davlat xaridlari",
+    "Bank krediti"
+   ],
+   "e": "Masalan, OLX."
+  },
+  {
+   "b": "Iqtisodiy axborot tizimlari",
+   "q": "Davlat xaridlari O'zbekistonda qaysi elektron tizim orqali amalga oshiriladi?",
+   "a": [
+    "Maxsus elektron portal",
+    "Faqat og'zaki kelishuv",
+    "Faqat ijtimoiy tarmoq",
+    "Faqat pochta"
+   ],
+   "e": "Shaffof tanlovlar."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda kredit bo'yicha davriy to'lovni qaysi funksiya hisoblaydi?",
+   "a": [
+    "PMT (ПЛТ)",
+    "SUM",
+    "COUNT",
+    "LEN"
+   ],
+   "e": "Annuitet to'lovi."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda sof joriy qiymatni (NPV) qaysi funksiya hisoblaydi?",
+   "a": [
+    "NPV (ЧПС)",
+    "MAX",
+    "IF",
+    "TODAY"
+   ],
+   "e": "Investitsiya loyihasini baholash."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda kelajakdagi qiymatni qaysi funksiya hisoblaydi?",
+   "a": [
+    "FV (БС)",
+    "PV",
+    "MIN",
+    "ROUND"
+   ],
+   "e": "Future Value."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda joriy qiymatni qaysi funksiya hisoblaydi?",
+   "a": [
+    "PV (ПС)",
+    "FV",
+    "AVERAGE",
+    "RAND"
+   ],
+   "e": "Present Value."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Ichki rentabellik me'yori (IRR) nimani ko'rsatadi?",
+   "a": [
+    "NPV = 0 bo'ladigan stavkani",
+    "Eng katta foyda summasini",
+    "Xodimlar sonini",
+    "Soliq stavkasini"
+   ],
+   "e": "Investitsiya samaradorligi."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda ma'lumotlarni prognozlash uchun qaysi vosita ishlatiladi?",
+   "a": [
+    "Trend chizig'i, FORECAST",
+    "Shrift o'lchami",
+    "Katak rangi",
+    "Sahifa chegarasi"
+   ],
+   "e": "Regressiya asosida."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda \"Parametr tanlash\" (Goal Seek) nima uchun ishlatiladi?",
+   "a": [
+    "Kirish qiymatini topishga",
+    "Faylni shifrlashga",
+    "Grafik rangini o'zgartirishga",
+    "Matnni tarjima qilishga"
+   ],
+   "e": "Teskari hisob."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda \"Yechim izlash\" (Solver) nima uchun ishlatiladi?",
+   "a": [
+    "Optimallashtirish uchun",
+    "Faqat matnni tekislash uchun",
+    "Faqat rasm qo'shish uchun",
+    "Faqat sahifani chop etish uchun"
+   ],
+   "e": "Chiziqli dasturlash."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda =ROUND(3,456; 2) natijasi qancha?",
+   "a": [
+    "3,46",
+    "3,45",
+    "3,5",
+    "3"
+   ],
+   "e": "Ikki xonagacha yaxlitlash."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda =SUMIF funksiyasi nima qiladi?",
+   "a": [
+    "Shartli yig'indi",
+    "Barcha kataklarni o'chiradi",
+    "Eng katta qiymatni topadi",
+    "Matnni birlashtiradi"
+   ],
+   "e": "СУММЕСЛИ."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda =COUNTIF funksiyasi nima qiladi?",
+   "a": [
+    "Shartli sanash",
+    "Yig'indini hisoblaydi",
+    "O'rtachani topadi",
+    "Sanani chiqaradi"
+   ],
+   "e": "СЧЁТЕСЛИ."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda sana va vaqt bilan ishlash uchun qaysi funksiya joriy sanani beradi?",
+   "a": [
+    "TODAY",
+    "NOW faqat soat",
+    "SUM",
+    "DATEVALUE faqat matn"
+   ],
+   "e": "=TODAY()."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda ma'lumotlarni boshqa varaqdan olish formulasi qanday yoziladi?",
+   "a": [
+    "=Varaq2!A1",
+    "=A1@Varaq2",
+    "=Varaq2#A1",
+    "=A1/Varaq2"
+   ],
+   "e": "Varaq nomi va undov belgisi."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Moliyaviy hisobot jadvalida \"Shartli formatlash\" nima beradi?",
+   "a": [
+    "Qiymatga qarab bo'yaydi",
+    "Formulalarni o'chiradi",
+    "Faylni yopadi",
+    "Jadvalni chop etadi"
+   ],
+   "e": "Masalan, manfiy qiymatlar qizil."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda katta jadvalda sarlavhani doim ko'rinadigan qilish uchun nima qilinadi?",
+   "a": [
+    "Freeze Panes",
+    "Faylni PDF ga aylantirish",
+    "Shriftni kattalashtirish",
+    "Varaqni yashirish"
+   ],
+   "e": "View → Freeze."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Excelda makros nima?",
+   "a": [
+    "Avtomatlashtiruvchi dastur",
+    "Katta shrift turi",
+    "Diagramma turi",
+    "Fayl kengaytmasi"
+   ],
+   "e": "VBA tilida."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Google Sheets ning Excel ga nisbatan afzalligi nima?",
+   "a": [
+    "Onlayn birgalikda ishlash imkoniyati",
+    "Internetsiz ham har doim to'liq ishlashi",
+    "Formulalarning umuman yo'qligi",
+    "Faqat bitta foydalanuvchi uchun"
+   ],
+   "e": "Bulutli jadval."
+  },
+  {
+   "b": "Excelda iqtisodiy hisoblar",
+   "q": "Google Forms iqtisodiy tadqiqotda nima uchun qo'llaniladi?",
+   "a": [
+    "So'rovnoma o'tkazish uchun",
+    "Faqat rasm tahrirlash uchun",
+    "Faqat video montaj uchun",
+    "Faqat antivirus sifatida"
+   ],
+   "e": "Natijalar jadvalga tushadi."
+  }
+ ]
+}
