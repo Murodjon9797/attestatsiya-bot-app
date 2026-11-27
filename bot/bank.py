@@ -111,7 +111,7 @@ class QuestionBank:
 
 # ---------------- yo'nalishlar bo'yicha guruhlash va qidiruv ----------------
 CATEGORIES: list[tuple[str, str, list[str]]] = [
-    ("til", "🗣 Tillar", ["ingliz_tili", "rus_tili", "nemis_tili", "ona_tili_adabiyot"]),
+    ("til", "🗣 Tillar", ["ingliz_tili", "rus_tili", "nemis_tili", "fransuz_tili", "ona_tili_adabiyot"]),
     ("ijt", "🏛 Ijtimoiy fanlar", ["tarix", "davlat_va_huquq_asoslari", "tarbiya", "chaqiruvga_qadar_tayyorgarlik", "biznes_asoslari"]),
     ("it", "💻 Axborot texnologiyalari", [
         "shaxsiy_kompyuter_arxitekturasi", "dasturlash", "algoritmlar", "malumotlar_bazasi", "kompyuter_tarmoqlari", "kiberxavfsizlik",
