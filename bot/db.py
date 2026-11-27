@@ -244,6 +244,15 @@ class ResultsDB:
         return self._all("SELECT vaqt, fan, togri, jami, foiz, rejim FROM results WHERE user_id = ? "
                          "ORDER BY id DESC LIMIT ?", (user_id, limit))
 
+    def dump(self) -> dict:
+        """Zaxira nusxa uchun barcha jadvallar (ro'yxat ko'rinishida)."""
+        out = {}
+        for tbl in ("users", "profiles", "admins", "codes", "payments", "results", "answers"):
+            cur = self._exec(f"SELECT * FROM {tbl}")
+            cols = [c[0] for c in cur.description]
+            out[tbl] = [dict(zip(cols, r)) for r in cur.fetchall()]
+        return out
+
     def last_sid(self, user_id: int) -> str:
         """Foydalanuvchi oxirgi marta ishlagan fan (tayyor savollar bazasidan)."""
         row = self._one("SELECT sid FROM answers WHERE user_id = ? AND sid <> '' ORDER BY id DESC LIMIT 1", (user_id,))

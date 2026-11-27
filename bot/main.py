@@ -7,6 +7,7 @@ from __future__ import annotations
 import asyncio
 import hashlib
 import logging
+from datetime import datetime, timedelta
 import os
 from html import escape
 
@@ -549,6 +550,49 @@ async def _keepalive(bot: Bot, public_url: str, webhook_url: str, secret: str, a
             log.warning("Webhook tekshiruvi bajarilmadi: %s", e)
 
 
+async def send_backup(bot: Bot, chat_ids: list[int]) -> None:
+    """Ma'lumotlar bazasining to'liq nusxasini (JSON, gzip) adminlarga yuboradi."""
+    import gzip
+    import json as _json
+
+    from aiogram.types import BufferedInputFile
+
+    data = db.dump()
+    raw = gzip.compress(_json.dumps(data, ensure_ascii=False, default=str).encode())
+    name = f"zaxira_{datetime.now().strftime('%Y-%m-%d_%H%M')}.json.gz"
+    caption = (f"💾 Zaxira nusxa: {len(data['users'])} foydalanuvchi, {len(data['results'])} natija, "
+               f"{len(data['answers'])} javob.")
+    for a in chat_ids:
+        try:
+            await bot.send_document(a, BufferedInputFile(raw, filename=name), caption=caption)
+        except Exception as e:
+            log.warning("Zaxira yuborilmadi (%s): %s", a, e)
+
+
+async def _daily_backup(bot: Bot) -> None:
+    """Har kuni soat 03:00 da (Toshkent) adminlarga zaxira nusxa."""
+    from bot.db import now as tz_now
+    while True:
+        n = tz_now()
+        nxt = n.replace(hour=3, minute=0, second=0, microsecond=0)
+        if nxt <= n:
+            nxt += timedelta(days=1)
+        await asyncio.sleep((nxt - n).total_seconds())
+        try:
+            if premium.admins:
+                await send_backup(bot, premium.admins)
+        except Exception:
+            log.exception("Kunlik zaxira xatosi")
+
+
+@router.message(Command("backup"))
+async def on_backup(msg: Message) -> None:
+    if msg.from_user.id not in premium.admins:
+        return
+    await msg.answer("⏳ Zaxira tayyorlanmoqda...")
+    await send_backup(msg.bot, [msg.from_user.id])
+
+
 async def run() -> None:
     global catalog, db, claude, PASS_PERCENT, WEBAPP_URL, premium
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
@@ -638,6 +682,7 @@ async def run() -> None:
             await bot.set_webhook(webhook_url, secret_token=webhook_secret, allowed_updates=allowed)
             log.info("Webhook rejimi: %s/tg/…", public_url)
             await dp.emit_startup(bot=bot)
+            backup_task = asyncio.create_task(_daily_backup(bot))  # noqa: F841
             keepalive_task = asyncio.create_task(_keepalive(bot, public_url, webhook_url, webhook_secret, allowed))  # noqa: F841
             await asyncio.Event().wait()
         else:
