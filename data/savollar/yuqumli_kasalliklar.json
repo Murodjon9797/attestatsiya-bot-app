@@ -2401,6 +2401,611 @@
     "Faqat chet elda"
    ],
    "e": "Gospital infeksiya."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immunitet nima?",
+   "a": [
+    "Yot agentlardan himoya",
+    "Faqat terining qalinligi",
+    "Faqat qon guruhining turi",
+    "Faqat tana harorati"
+   ],
+   "e": "Tug'ma va orttirilgan."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Tug'ma (nospetsifik) immunitet omillariga nima kiradi?",
+   "a": [
+    "Teri, shilliq qavat",
+    "Faqat antitelalar",
+    "Faqat xotira hujayralari",
+    "Faqat vaksinalar"
+   ],
+   "e": "Birinchi himoya chizig'i."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Orttirilgan immunitetning o'ziga xosligi nima?",
+   "a": [
+    "Spetsifiklik va xotira",
+    "Har qanday antigenga bir xil javob",
+    "Xotiraning yo'qligi",
+    "Faqat tug'ilishdan mavjudligi"
+   ],
+   "e": "Limfotsitlar."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Antitelalarni qaysi hujayralar ishlab chiqaradi?",
+   "a": [
+    "Plazmatik hujayralar",
+    "Eritrotsitlar",
+    "Trombotsitlar",
+    "Neyronlar"
+   ],
+   "e": "Gumoral immunitet."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Hujayraviy immunitetning asosiy hujayralari qaysilar?",
+   "a": [
+    "T-limfotsitlar",
+    "Eritrotsitlar",
+    "Trombotsitlar",
+    "Adipotsitlar"
+   ],
+   "e": "T-killerlar, T-xelperlar."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Antigen nima?",
+   "a": [
+    "Immun javob qo'zg'atuvchi yot modda",
+    "Organizm ishlab chiqargan himoya oqsili",
+    "Vitamin turi",
+    "Gormon"
+   ],
+   "e": "Antitelalar bilan bog'lanadi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immunoglobulinlarning nechta sinfi bor?",
+   "a": [
+    "5",
+    "2",
+    "3",
+    "10"
+   ],
+   "e": "IgG, IgM, IgA, IgE, IgD."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Yo'ldosh orqali onadan homilaga o'tadigan immunoglobulin qaysi?",
+   "a": [
+    "IgG",
+    "IgM",
+    "IgA",
+    "IgE"
+   ],
+   "e": "Passiv tabiiy immunitet."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Birlamchi immun javobda birinchi bo'lib qaysi immunoglobulin hosil bo'ladi?",
+   "a": [
+    "IgM",
+    "IgG",
+    "IgA",
+    "IgE"
+   ],
+   "e": "Erta infeksiya belgisi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Shilliq qavatlarda mahalliy himoyani qaysi immunoglobulin ta'minlaydi?",
+   "a": [
+    "IgA",
+    "IgM",
+    "IgE",
+    "IgD"
+   ],
+   "e": "So'lak, ona suti."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Allergik reaksiyalarda asosiy rol o'ynaydigan immunoglobulin qaysi?",
+   "a": [
+    "IgE",
+    "IgG",
+    "IgA",
+    "IgM"
+   ],
+   "e": "Semiz hujayralar."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Faol sun'iy immunitet qanday hosil bo'ladi?",
+   "a": [
+    "Vaksina yuborilganda",
+    "Zardob yuborilganda",
+    "Ona suti orqali",
+    "Kasallikdan keyin tabiiy"
+   ],
+   "e": "Organizm o'zi antitela ishlab chiqaradi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Passiv sun'iy immunitet qanday hosil bo'ladi?",
+   "a": [
+    "Tayyor antitela yuborilganda",
+    "Vaksina yuborilganda",
+    "Kasallikni o'tkazgandan keyin",
+    "Tug'ilishdan"
+   ],
+   "e": "Qisqa muddatli."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Kasallikni o'tkazgandan keyingi immunitet qanday nomlanadi?",
+   "a": [
+    "Faol tabiiy",
+    "Passiv tabiiy",
+    "Faol sun'iy",
+    "Passiv sun'iy"
+   ],
+   "e": "Masalan, qizamiqdan keyin."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Tirik vaksinaga misol qaysi?",
+   "a": [
+    "BTsJ (silga qarshi)",
+    "Qoqsholga qarshi anatoksin",
+    "Gepatit B rekombinant vaksinasi",
+    "Inaktivatsiyalangan gripp vaksinasi"
+   ],
+   "e": "Kuchsizlantirilgan mikrob."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Anatoksin nima?",
+   "a": [
+    "Zaharsizlangan toksin",
+    "Tirik bakteriya",
+    "Antibiotik",
+    "Interferon"
+   ],
+   "e": "Qoqshol, difteriya vaksinalari."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Fagotsitoz nima?",
+   "a": [
+    "Yot zarrachalarni yutish",
+    "Antitelalarning hosil bo'lishi",
+    "Hujayraning bo'linishi",
+    "Qonning ivishi"
+   ],
+   "e": "Neytrofillar, makrofaglar."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Autoimmun kasallik nima?",
+   "a": [
+    "O'z to'qimasiga qarshi ta'sir",
+    "Faqat virusli infeksiya",
+    "Faqat bakterial infeksiya",
+    "Vitamin yetishmovchiligi"
+   ],
+   "e": "Masalan, revmatoid artrit."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immunodefitsit holat nima?",
+   "a": [
+    "Immun tizimining yetishmovchiligi",
+    "Immunitetning haddan tashqari kuchliligi",
+    "Allergiya",
+    "Autoimmun reaksiya"
+   ],
+   "e": "Birlamchi va ikkilamchi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Komplement tizimi nima?",
+   "a": [
+    "Zardobdagi himoya oqsillari",
+    "Qizil qon tanachalari",
+    "Antibiotiklar guruhi",
+    "Gormonlar tizimi"
+   ],
+   "e": "Mikrob hujayralarini lizislaydi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immun tizimining markaziy a'zolari qaysilar?",
+   "a": [
+    "Ko'mik va ayrisimon bez",
+    "Limfa tugunlari va taloq",
+    "Jigar va buyrak",
+    "Yurak va o'pka"
+   ],
+   "e": "Limfotsitlar yetiladi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immun tizimining periferik a'zolariga nima kiradi?",
+   "a": [
+    "Limfa tugunlari va taloq",
+    "Ko'mik va ayrisimon bez",
+    "Oshqozon va me'da osti bezi",
+    "Buyrak usti bezi"
+   ],
+   "e": "Immun javob shakllanadi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "T-limfotsitlar qayerda yetiladi?",
+   "a": [
+    "Timusda",
+    "Ko'mikda",
+    "Jigarda",
+    "Taloqda"
+   ],
+   "e": "\"T\" — timus."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "B-limfotsitlar odamda qayerda yetiladi?",
+   "a": [
+    "Ko'mikda",
+    "Timusda",
+    "Limfa tugunida",
+    "Buyrakda"
+   ],
+   "e": "Bone marrow."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Makrofaglar qaysi hujayralardan rivojlanadi?",
+   "a": [
+    "Monotsitlardan",
+    "Eritrotsitlardan",
+    "Trombotsitlardan",
+    "Neyronlardan"
+   ],
+   "e": "To'qimaga o'tgach."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Neytrofillar qanday vazifa bajaradi?",
+   "a": [
+    "Fagotsitoz",
+    "Kislorod tashish",
+    "Qon ivishi",
+    "Antitela ishlab chiqarish"
+   ],
+   "e": "Birinchi bo'lib yallig'lanish o'chog'iga keladi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Eozinofillar qachon ko'payadi?",
+   "a": [
+    "Allergiya va gelmintozda",
+    "Faqat virusli infeksiyada",
+    "Faqat qon yo'qotishda",
+    "Faqat suyak sinishida"
+   ],
+   "e": "Eozinofiliya."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Yallig'lanishning klassik belgilariga nima kiradi?",
+   "a": [
+    "Qizarish, shish, og'riq",
+    "Rangsizlanish va sovuqlik",
+    "Terining qorayishi faqat",
+    "Ishtahaning ortishi"
+   ],
+   "e": "Funksiya buzilishi ham."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Agglyutinatsiya reaksiyasi nima?",
+   "a": [
+    "Antigenlarning yopishishi",
+    "Eruvchan antigenning cho'kishi",
+    "Hujayralarning erishi",
+    "Fermentning parchalanishi"
+   ],
+   "e": "Qon guruhini aniqlashda ham."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Pretsipitatsiya reaksiyasi nima?",
+   "a": [
+    "Eruvchan antigen cho'kishi",
+    "Hujayralarning yopishishi",
+    "Bakteriyalarning harakati",
+    "Qonning ivishi"
+   ],
+   "e": "Serologik reaksiya."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Allergiyaning darhol turdagi reaksiyasiga misol qaysi?",
+   "a": [
+    "Anafilaktik shok",
+    "Kontakt dermatit",
+    "Tuberkulin reaksiyasi",
+    "Transplantat rad etilishi"
+   ],
+   "e": "IgE vositasida, daqiqalarda."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Kechikkan turdagi allergik reaksiyaga misol qaysi?",
+   "a": [
+    "Mantu sinamasi",
+    "Anafilaktik shok",
+    "Pichan isitmasi",
+    "Ürtikar (eshakemi) darhol"
+   ],
+   "e": "T-hujayralar vositasida, 48–72 soat."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Anafilaktik shokda birinchi yordam dorisi qaysi?",
+   "a": [
+    "Adrenalin",
+    "Paratsetamol",
+    "Antibiotik",
+    "Vitamin C"
+   ],
+   "e": "Mushak ichiga."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Vaksinatsiya nima uchun o'tkaziladi?",
+   "a": [
+    "Faol immunitet uchun",
+    "Kasallikni darhol davolash uchun",
+    "Antitelalarni yo'q qilish uchun",
+    "Qon guruhini o'zgartirish uchun"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Kollektiv (podali) immunitet nima?",
+   "a": [
+    "Infeksiya tarqalishining to'xtashi",
+    "Faqat bir kishining immuniteti",
+    "Faqat hayvonlar immuniteti",
+    "Emlashdan voz kechish"
+   ],
+   "e": "Emlanmaganlar ham himoyalanadi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Mantu sinamasi nima uchun qo'llaniladi?",
+   "a": [
+    "Silga sezgirlikni aniqlash",
+    "Qon guruhini aniqlash uchun",
+    "Qand miqdorini o'lchash uchun",
+    "Gripp diagnostikasi uchun"
+   ],
+   "e": "Tuberkulin bilan."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Qon guruhlari ABO tizimida nechta?",
+   "a": [
+    "4",
+    "2",
+    "3",
+    "8"
+   ],
+   "e": "I(0), II(A), III(B), IV(AB)."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Rezus-omil nima?",
+   "a": [
+    "Eritrotsitlardagi antigen",
+    "Qon plazmasidagi glyukoza",
+    "Leykotsit turi",
+    "Vitamin"
+   ],
+   "e": "Rh+ yoki Rh−."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Universal donor qon guruhi qaysi (ABO bo'yicha)?",
+   "a": [
+    "I (0)",
+    "IV (AB)",
+    "II (A)",
+    "III (B)"
+   ],
+   "e": "Eritrotsitlarida A va B antigenlari yo'q."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immunomodulyatorlar nima?",
+   "a": [
+    "Immunitetni o'zgartiruvchilar",
+    "Antibiotiklar guruhi",
+    "Og'riq qoldiruvchilar",
+    "Vitaminlar"
+   ],
+   "e": "Immunostimulyatorlar va supressorlar."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Transplantatsiyada rad etish reaksiyasining oldini olish uchun nima qilinadi?",
+   "a": [
+    "Moslik va immunosupressiya",
+    "Faqat antibiotik beriladi",
+    "Faqat vitamin beriladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "HLA mosligi."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Immun xotira nima beradi?",
+   "a": [
+    "Tez va kuchli javob",
+    "Immunitetning butunlay yo'qolishi",
+    "Allergiyaning kuchayishi",
+    "Kasallikning surunkalashuvi"
+   ],
+   "e": "Xotira hujayralari."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Monoklonal antitelalar nima?",
+   "a": [
+    "Bir klon antitelalari",
+    "Turli hujayralarning aralash antitelalari",
+    "Antibiotiklar",
+    "Vaksinalar"
+   ],
+   "e": "Diagnostika va davolashda."
+  },
+  {
+   "b": "Immunologiya",
+   "q": "Gipersensitivlik nima?",
+   "a": [
+    "Haddan tashqari reaksiya",
+    "Immunitetning yo'qligi",
+    "Normal immun javob",
+    "Vitamin tanqisligi"
+   ],
+   "e": "Allergiyalar."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Sanitariya-ko'rsatkich mikroorganizmlariga misol qaysi?",
+   "a": [
+    "Ichak tayoqchasi guruhi",
+    "Faqat zamburug' sporalari",
+    "Faqat viruslar",
+    "Faqat gelmint tuxumlari"
+   ],
+   "e": "Fekal ifloslanish ko'rsatkichi."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Suvning bakteriologik sifati qanday ko'rsatkich bilan baholanadi?",
+   "a": [
+    "Koli-indeks",
+    "Faqat suv rangi",
+    "Faqat suv harorati",
+    "Faqat suv hidi"
+   ],
+   "e": "Ichimlik suvi standartlari."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Havodagi mikroblar sonini aniqlash usuli qaysi?",
+   "a": [
+    "Cho'kish (Kox) usuli",
+    "Gram bo'yash",
+    "PZR",
+    "Mantu"
+   ],
+   "e": "Ochiq idishli muhit."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Kasalxona ichi infeksiyalarini (KII) qo'zg'atuvchilarning xususiyati nima?",
+   "a": [
+    "Antibiotikka chidamli",
+    "Har doim zararsiz",
+    "Faqat viruslar",
+    "Faqat bolalarda uchraydi"
+   ],
+   "e": "Gospital shtammlar."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Qo'l gigiyenasi tibbiyot xodimi uchun nima uchun muhim?",
+   "a": [
+    "Asosiy profilaktika chorasi",
+    "Faqat estetik talab",
+    "Hech qanday ahamiyati yo'q",
+    "Faqat bemorlar uchun"
+   ],
+   "e": "VOZ tavsiyasi."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Pasterizatsiya nima?",
+   "a": [
+    "60–80 °C da qisqa qizdirish",
+    "Mahsulotni muzlatish",
+    "Mahsulotni 200 °C da kuydirish",
+    "Mahsulotni quritish"
+   ],
+   "e": "Sut, sharbatlar."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Tindalizatsiya nima?",
+   "a": [
+    "Takroriy qizdirish",
+    "Bir martalik muzlatish",
+    "Ultrabinafsha nurlantirish",
+    "Quruq havo bilan kuydirish"
+   ],
+   "e": "Sporalar ham yo'qotiladi."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Ultrabinafsha nurlar nima uchun ishlatiladi?",
+   "a": [
+    "Havo va yuzani dezinfeksiya",
+    "Suyuqliklarni qaynatish uchun",
+    "Asboblarni avtoklavlash uchun",
+    "Ozuqa muhiti tayyorlash uchun"
+   ],
+   "e": "Bakteritsid lampalar."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Mikroblarga qarshi kurashda xlor saqlovchi vositalar qanday guruhga kiradi?",
+   "a": [
+    "Dezinfektantlar",
+    "Antibiotiklar",
+    "Vaksinalar",
+    "Vitaminlar"
+   ],
+   "e": "Xlorli ohak, xloramin."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Oziq-ovqat toksikoinfeksiyalarining keng tarqalgan qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Salmonellalar",
+    "Treponemalar",
+    "Mikobakteriyalar",
+    "Plazmodiylar"
+   ],
+   "e": "Tuxum, go'sht mahsulotlari."
+  },
+  {
+   "b": "Sanitariya mikrobiologiyasi",
+   "q": "Tuproq orqali yuqadigan infeksiyalarga misol qaysi?",
+   "a": [
+    "Qoqshol",
+    "Gripp",
+    "Qizamiq",
+    "OIV"
+   ],
+   "e": "Sporalar tuproqda."
   }
  ]
 }
