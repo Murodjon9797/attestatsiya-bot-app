@@ -2747,7 +2747,7 @@
    "b": "Unumdorlik testlash",
    "q": "O'tkazuvchanlik (throughput) unumdorlik testida nimani bildiradi?",
    "a": [
-    "Vaqt birligida qayta ishlangan so'rovlar soni",
+    "So'rovlar/sekund",
     "Bitta so'rovning hajmi faqat",
     "Serverning og'irligi",
     "Kod satrlari soni"
@@ -2758,7 +2758,7 @@
    "b": "Unumdorlik testlash",
    "q": "Chidamlilik (endurance/soak) testi nimani aniqlaydi?",
    "a": [
-    "Uzoq vaqt ishlashda muammolarni",
+    "Uzoq ishlashdagi muammolarni",
     "Bir sekundlik qisqa ishni",
     "Faqat dizaynni",
     "Faqat imloni"
@@ -2769,7 +2769,7 @@
    "b": "Unumdorlik testlash",
    "q": "Xotira oqishi (memory leak) nima?",
    "a": [
-    "Ishlatilmagan xotiraning bo'shatilmasligi",
+    "Xotiraning bo'shatilmasligi",
     "Xotiraning tezlashishi",
     "Diskning to'lishi faqat",
     "Internetning uzilishi"
@@ -2780,7 +2780,7 @@
    "b": "Unumdorlik testlash",
    "q": "Spike testlash nima?",
    "a": [
-    "Yuklamaning keskin sakrashiga reaksiyani tekshirish",
+    "Keskin sakrashga reaksiya",
     "Yuklamani asta-sekin kamaytirish",
     "Faqat dizayn tekshiruvi",
     "Kod tahlili"
@@ -2791,7 +2791,7 @@
    "b": "Unumdorlik testlash",
    "q": "Masshtablanuvchanlik testi nimani baholaydi?",
    "a": [
-    "Resurs qo'shilganda unumdorlik o'sishini",
+    "Resurs bilan o'sishni",
     "Faqat ekran o'lchamini",
     "Faqat fayl nomini",
     "Faqat rangni"
@@ -2802,7 +2802,7 @@
    "b": "Unumdorlik testlash",
    "q": "Unumdorlik testida \"virtual foydalanuvchi\" nima?",
    "a": [
-    "Real foydalanuvchini taqlid qiluvchi skript",
+    "Taqlid skripti",
     "Haqiqiy mijoz",
     "Tizim administratori",
     "Testerning o'zi"
@@ -2813,7 +2813,7 @@
    "b": "Unumdorlik testlash",
    "q": "Unumdorlik testida \"tor joy\" (bottleneck) nima?",
    "a": [
-    "Butun tizimni sekinlatuvchi komponent",
+    "Sekinlatuvchi komponent",
     "Eng tez komponent",
     "Tarmoq kabelining uzunligi",
     "Ekran o'lchami"
@@ -2846,7 +2846,7 @@
    "b": "Testlash asoslari",
    "q": "Pozitiv test nima?",
    "a": [
-    "To'g'ri ma'lumot bilan kutilgan ishlashni tekshirish",
+    "Kutilgan ishlashni tekshirish",
     "Noto'g'ri ma'lumot bilan tekshirish",
     "Testni o'tkazib yuborish",
     "Xatoni yashirish"
@@ -2857,7 +2857,7 @@
    "b": "Testlash asoslari",
    "q": "\"Happy path\" ssenariysi nima?",
    "a": [
-    "Xatosiz asosiy foydalanish yo'li",
+    "Asosiy xatosiz yo'l",
     "Faqat xatolar ketma-ketligi",
     "Test muhitini buzish",
     "Tasodifiy harakatlar"
@@ -2868,7 +2868,7 @@
    "b": "Testlash asoslari",
    "q": "Edge case (chekka holat) nima?",
    "a": [
-    "Odatiy bo'lmagan, chegaraviy holat",
+    "Chegaraviy holat",
     "Eng keng tarqalgan holat",
     "Testlash shart bo'lmagan holat",
     "Dizayn xatosi faqat"
@@ -2901,7 +2901,7 @@
    "b": "Testlash asoslari",
    "q": "ISTQB nima?",
    "a": [
-    "Testerlar sertifikatsiya kengashi",
+    "Sertifikatsiya kengashi",
     "Dasturlash tili",
     "Operatsion tizim",
     "Brauzer"
@@ -2912,7 +2912,7 @@
    "b": "Testlash asoslari",
    "q": "ISO/IEC 25010 standarti nimaga bag'ishlangan?",
    "a": [
-    "Dasturiy mahsulot sifati modeliga",
+    "Sifat modeliga",
     "Oziq-ovqat xavfsizligiga",
     "Ekologik menejmentga",
     "Qurilish materiallariga"
@@ -2923,7 +2923,7 @@
    "b": "Testlash asoslari",
    "q": "Ishonchlilik (reliability) sifat xususiyati nimani bildiradi?",
    "a": [
-    "Muayyan vaqtda xatosiz ishlash qobiliyatini",
+    "Xatosiz ishlash qobiliyatini",
     "Faqat chiroyli interfeysni",
     "Faqat arzon narxni",
     "Faqat katta hajmni"
@@ -2934,7 +2934,7 @@
    "b": "Testlash asoslari",
    "q": "Qo'llab-quvvatlanuvchanlik (maintainability) nimani bildiradi?",
    "a": [
-    "O'zgartirish va tuzatish osonligini",
+    "Tuzatish osonligini",
     "Faqat tezlikni",
     "Faqat xavfsizlikni",
     "Faqat dizaynni"
@@ -2956,7 +2956,7 @@
    "b": "Avtomatlashtirish va vositalar",
    "q": "XPath nima uchun ishlatiladi?",
    "a": [
-    "Sahifa elementlarini topish uchun",
+    "Elementlarni topish",
     "Fayllarni siqish uchun",
     "Rasmni bo'yash uchun",
     "Parol yaratish uchun"
@@ -2978,7 +2978,7 @@
    "b": "Avtomatlashtirish va vositalar",
    "q": "Headless brauzer nima?",
    "a": [
-    "Grafik interfeyssiz ishlaydigan brauzer",
+    "Interfeyssiz brauzer",
     "Faqat mobil brauzer",
     "Eski brauzer versiyasi",
     "Brauzer kengaytmasi"
@@ -2989,7 +2989,7 @@
    "b": "Avtomatlashtirish va vositalar",
    "q": "Docker test muhitida nima beradi?",
    "a": [
-    "Bir xil, takrorlanadigan muhit",
+    "Takrorlanadigan muhit",
     "Har safar boshqacha muhit",
     "Testlarni o'chirish",
     "Kodni yashirish"
@@ -3011,7 +3011,7 @@
    "b": "Avtomatlashtirish va vositalar",
    "q": "Playwright va Cypress qanday vositalar?",
    "a": [
-    "Veb avtotestlash freymvorklari",
+    "Veb avtotest vositalari",
     "Ma'lumotlar bazalari",
     "Operatsion tizimlar",
     "Grafik muharrirlar"
@@ -3022,7 +3022,7 @@
    "b": "Avtomatlashtirish va vositalar",
    "q": "Kontrakt testlash (contract testing) nimani tekshiradi?",
    "a": [
-    "Servislar o'rtasidagi kelishilgan interfeysni",
+    "Kelishilgan interfeysni",
     "Faqat ishchilar mehnat shartnomasini",
     "Faqat server narxini",
     "Faqat foydalanuvchi parolini"
@@ -3055,7 +3055,7 @@
    "b": "Jarayonlar va modellar",
    "q": "DevOps madaniyatida testlashning o'rni qanday?",
    "a": [
-    "Avtomatlashtirilgan va uzluksiz",
+    "Uzluksiz",
     "Faqat oxirida qo'lda",
     "Umuman yo'q",
     "Faqat yilda bir marta"
@@ -3066,7 +3066,7 @@
    "b": "Jarayonlar va modellar",
    "q": "Release candidate (RC) nima?",
    "a": [
-    "Chiqarishga nomzod versiya",
+    "Nomzod versiya",
     "Eng birinchi prototip",
     "Bekor qilingan versiya",
     "Hujjat turi"
@@ -3088,12 +3088,232 @@
    "b": "Jarayonlar va modellar",
    "q": "Canary relizi nima?",
    "a": [
-    "Yangilikni avval kichik foydalanuvchilar guruhiga chiqarish",
+    "Avval kichik guruhga chiqarish",
     "Hammaga birdan chiqarish",
     "Chiqarishni bekor qilish",
     "Faqat ichki sinov"
    ],
    "e": "Xavfni kamaytirish."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Konfiguratsion testlash nimani tekshiradi?",
+   "a": [
+    "Turli sozlamalarda ishlashni",
+    "Faqat bitta sozlamada, standart holatda ishlashni",
+    "Faqat kod uslubini va izohlarni",
+    "Faqat foydalanuvchi parolini"
+   ],
+   "e": "Apparat va dastur kombinatsiyalari."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "O'rnatish (installation) testi nimani tekshiradi?",
+   "a": [
+    "O'rnatish va o'chirish jarayonini",
+    "Faqat dastur nomini",
+    "Faqat litsenziya narxini",
+    "Faqat dizayn rangini"
+   ],
+   "e": "Yangilash ham."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Qulaylik testida \"foydalanuvchi intervyusi\" nima beradi?",
+   "a": [
+    "Real fikr-mulohaza",
+    "Kod qamrovi",
+    "Server yuklamasi",
+    "Xatolar soni"
+   ],
+   "e": "UX tadqiqoti."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Accessibility (foydalanish imkoniyati) testi nimani tekshiradi?",
+   "a": [
+    "Nogironligi bor foydalanuvchilar uchun qulaylikni",
+    "Faqat server tezligini",
+    "Faqat parol uzunligini",
+    "Faqat rang chiroyliligini"
+   ],
+   "e": "WCAG standartlari."
+  },
+  {
+   "b": "Testlash turlari",
+   "q": "Tiklanish (recovery) testi nimani tekshiradi?",
+   "a": [
+    "Nosozlikdan keyin tizim tiklanishini",
+    "Faqat yangi funksiyani",
+    "Faqat dizaynni",
+    "Faqat imloni"
+   ],
+   "e": "Zaxira va avariyadan tiklash."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Parol 8–16 belgidan iborat bo'lishi kerak. Chegaraviy qiymatlar qaysilar?",
+   "a": [
+    "7, 8, 16, 17",
+    "8 va 16 faqat",
+    "1 va 100",
+    "10 va 12"
+   ],
+   "e": "Chegara va undan tashqari."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Qarorlar jadvalida 3 ta mantiqiy shart bo'lsa, to'liq kombinatsiyalar soni nechta?",
+   "a": [
+    "8",
+    "3",
+    "6",
+    "9"
+   ],
+   "e": "2³."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Holatlar o'tishi diagrammasida \"o'tish\" nimani bildiradi?",
+   "a": [
+    "Hodisa ta'sirida holat o'zgarishini",
+    "Testerning ishdan ketishini",
+    "Serverning o'chishini",
+    "Faylning nomini"
+   ],
+   "e": "Holat → hodisa → yangi holat."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Ekvivalent sinflar texnikasida noto'g'ri sinflardan nechta qiymat olinadi?",
+   "a": [
+    "Har sinfdan kamida bittadan",
+    "Hech qanday",
+    "Faqat to'g'ri sinfdan",
+    "Barcha qiymatlar"
+   ],
+   "e": "Negativ testlar."
+  },
+  {
+   "b": "Test dizayn texnikalari",
+   "q": "Yo'llar qamrovi (path coverage) nima?",
+   "a": [
+    "Barcha mumkin bo'lgan bajarilish yo'llarini tekshirish",
+    "Faqat birinchi satrni tekshirish",
+    "Faqat bitta funksiyani tekshirish",
+    "Faqat interfeysni tekshirish"
+   ],
+   "e": "Eng kuchli, ammo qimmat."
+  },
+  {
+   "b": "Statik testlash",
+   "q": "Walkthrough (ko'rib o'tish) review ning qanday turi?",
+   "a": [
+    "Muallif boshqaradigan norasmiy ko'rib chiqish",
+    "Eng qat'iy rasmiy inspeksiya",
+    "Avtomatik tahlil",
+    "Yuklama testi"
+   ],
+   "e": "Bilim almashish."
+  },
+  {
+   "b": "Statik testlash",
+   "q": "Statik tahlil qanday xatolarni topadi?",
+   "a": [
+    "Ishlatilmagan o'zgaruvchilar va sintaktik muammolar",
+    "Faqat foydalanuvchi kayfiyatini",
+    "Faqat server haroratini",
+    "Faqat interfeys rangini"
+   ],
+   "e": "Kodni bajarmasdan."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Avtotestlarning \"piramidasi\"da eng ko'p qaysi testlar bo'lishi kerak?",
+   "a": [
+    "Modulli (unit) testlar",
+    "UI (interfeys) testlar",
+    "Qo'lda testlar",
+    "Yuklama testlar"
+   ],
+   "e": "Pastda unit, o'rtada integratsion, yuqorida UI."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Avtotestlar test piramidasining yuqorisida (UI) nima uchun kam bo'lishi kerak?",
+   "a": [
+    "Sekin va beqaror",
+    "Juda tez va arzon",
+    "Hech qachon yiqilmaydi",
+    "Kod yozish shart emas"
+   ],
+   "e": "Qimmat qo'llab-quvvatlash."
+  },
+  {
+   "b": "Avtomatlashtirish va vositalar",
+   "q": "Mock va Stub ning umumiy maqsadi nima?",
+   "a": [
+    "Bog'liqliklarni almashtirib izolyatsiyada testlash",
+    "Kodni o'chirish",
+    "Interfeysni bo'yash",
+    "Serverni tezlashtirish"
+   ],
+   "e": "Test dublyorlari."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "PUT va PATCH metodlarining farqi nima?",
+   "a": [
+    "PUT — to'liq almashtirish, PATCH — qisman o'zgartirish",
+    "Ular mutlaqo bir xil",
+    "PUT — o'chirish, PATCH — yaratish",
+    "PATCH — faqat o'qish"
+   ],
+   "e": "REST konvensiyasi."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Idempotent metod nima?",
+   "a": [
+    "Takroriy chaqiruv bir xil natija beradi",
+    "Har chaqiruvda yangi resurs yaratadi",
+    "Hech qachon javob bermaydi",
+    "Faqat xato qaytaradi"
+   ],
+   "e": "GET, PUT, DELETE."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "API testida javob vaqtidan tashqari nima tekshiriladi?",
+   "a": [
+    "Holat kodi va javob tuzilmasi",
+    "Faqat server rangi",
+    "Faqat dasturchi ismi",
+    "Faqat sana"
+   ],
+   "e": "Sxema validatsiyasi."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "Cookie va sessiyalarni testlashda nima tekshiriladi?",
+   "a": [
+    "Chiqishdan keyin sessiya tugashi",
+    "Cookie ning mazasi",
+    "Brauzer rangi",
+    "Ekran o'lchami"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Veb va API testlash",
+   "q": "HTTPS sertifikatini testlashda nima tekshiriladi?",
+   "a": [
+    "Sertifikat yaroqliligi va ishonchliligi",
+    "Sertifikat rangi",
+    "Server og'irligi",
+    "Kod uzunligi"
+   ],
+   "e": "Shifrlangan aloqa."
   }
  ]
 }
