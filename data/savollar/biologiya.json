@@ -2891,9 +2891,9 @@
    "q": "Krossingover qachon sodir bo'ladi?",
    "a": [
     "Meyozning profazasi I da",
-    "Mitoz anafazasida",
-    "Interfazada",
-    "Telofaza II da"
+    "Mitozning anafazasida",
+    "Interfazaning S davrida",
+    "Meyozning telofaza II da"
    ],
    "e": "Gomologik xromosomalar almashinuvi."
   },
@@ -2912,7 +2912,7 @@
    "b": "Hujayra biologiyasi",
    "q": "Vakuolning o'simlik hujayrasidagi vazifasi nima?",
    "a": [
-    "Hujayra shirasini saqlash va turgor",
+    "Shira saqlash va turgor",
     "Fotosintez",
     "DNK saqlash",
     "Oqsil sintezi"
@@ -2923,7 +2923,7 @@
    "b": "Hujayra biologiyasi",
    "q": "Plastidalar turlari qaysilar?",
    "a": [
-    "Xloroplastlar, xromoplastlar, leykoplastlar",
+    "Xloro-, xromo-, leykoplastlar",
     "Faqat mitoxondriyalar",
     "Faqat ribosomalar",
     "Faqat lizosomalar"
@@ -2935,9 +2935,9 @@
    "q": "Xromoplastlar mevalarga qanday rang beradi?",
    "a": [
     "Sariq, qizil, to'q sariq",
-    "Faqat yashil",
-    "Faqat ko'k",
-    "Rangsiz"
+    "Faqat yashil rang",
+    "Faqat ko'k va binafsha",
+    "Rangsiz qoladi"
    ],
    "e": "Karotinoidlar."
   },
@@ -2989,7 +2989,7 @@
    "b": "Genetika",
    "q": "Kariotip nima?",
    "a": [
-    "Xromosomalar to'plami (soni va shakli)",
+    "Xromosomalar to'plami",
     "Hujayra devori",
     "Oqsil turi",
     "Ferment nomi"
@@ -3033,7 +3033,7 @@
    "b": "Genetika",
    "q": "Genealogik usul nima?",
    "a": [
-    "Shajara tuzib irsiylanishni o'rganish",
+    "Shajara orqali o'rganish",
     "Mikroskopda hujayrani o'rganish",
     "Kimyoviy tahlil",
     "Rentgen tekshiruvi"
@@ -3044,7 +3044,7 @@
    "b": "Genetika",
    "q": "Egizaklar usuli nimani aniqlashga yordam beradi?",
    "a": [
-    "Irsiyat va muhit ta'siri nisbatini",
+    "Irsiyat va muhit ulushini",
     "Faqat qon guruhini",
     "Faqat bo'yni",
     "Faqat ko'z rangini"
@@ -3055,7 +3055,7 @@
    "b": "Evolyutsiya",
    "q": "Biogenetik qonun (Myuller–Gekkel) nimani ta'kidlaydi?",
    "a": [
-    "Ontogenez filogenezning qisqa takrorlanishi",
+    "Ontogenez filogenezni takrorlaydi",
     "Turlar o'zgarmaydi",
     "Hayot o'z-o'zidan paydo bo'ladi",
     "Faqat sun'iy tanlash bor"
@@ -3066,7 +3066,7 @@
    "b": "Evolyutsiya",
    "q": "Konvergensiya nima?",
    "a": [
-    "Turli guruhlarda o'xshash belgilar paydo bo'lishi",
+    "O'xshash belgilar paydo bo'lishi",
     "Bir turdan ko'p tur paydo bo'lishi",
     "Turlarning yo'qolishi",
     "Mutatsiya"
@@ -3077,7 +3077,7 @@
    "b": "Evolyutsiya",
    "q": "Divergensiya nima?",
    "a": [
-    "Bir ajdoddan turli shakllarning ajralib chiqishi",
+    "Ajdoddan turli shakllar chiqishi",
     "Turli guruhlarning o'xshashlashuvi",
     "Turning yo'qolishi",
     "Hujayra bo'linishi"
@@ -3088,7 +3088,7 @@
    "b": "Evolyutsiya",
    "q": "Biologik progress belgisi qaysi?",
    "a": [
-    "Turlar soni va arealining kengayishi",
+    "Areal kengayishi",
     "Turlarning kamayishi",
     "Arealning torayishi",
     "Yo'qolib ketish"
@@ -3111,8 +3111,8 @@
    "q": "Eshitish retseptorlari qayerda joylashgan?",
    "a": [
     "Ichki quloq chig'anog'ida",
-    "Tashqi quloqda",
-    "Nog'ora pardada",
+    "Tashqi quloq suprasida",
+    "Nog'ora parda ustida",
     "Eshituv nayida"
    ],
    "e": "Korti organi."
@@ -3121,7 +3121,7 @@
    "b": "Odam anatomiyasi va fiziologiyasi",
    "q": "Muvozanat a'zosi qayerda joylashgan?",
    "a": [
-    "Ichki quloqda (vestibulyar apparat)",
+    "Vestibulyar apparatda",
     "Ko'zda",
     "Burunda",
     "Tilda"
@@ -3215,6 +3215,105 @@
     "Kosachabargdan"
    ],
    "e": "Urug' — urug'kurtakdan."
+  },
+  {
+   "b": "Zoologiya",
+   "q": "Qisqichbaqasimonlar qaysi tipga kiradi?",
+   "a": [
+    "Bo'g'imoyoqlilar",
+    "Mollyuskalar",
+    "Halqali chuvalchanglar",
+    "Ignaterililar"
+   ],
+   "e": "Daryo qisqichbaqasi."
+  },
+  {
+   "b": "Zoologiya",
+   "q": "Shilliqqurt va tishsiz (baqachanoq) qaysi tipga kiradi?",
+   "a": [
+    "Mollyuskalar",
+    "Bo'g'imoyoqlilar",
+    "Chuvalchanglar",
+    "Bo'shliqichlilar"
+   ],
+   "e": "Yumshoq tanlilar."
+  },
+  {
+   "b": "Zoologiya",
+   "q": "Gidra qaysi tipga kiradi?",
+   "a": [
+    "Bo'shliqichlilar",
+    "Mollyuskalar",
+    "Halqali chuvalchanglar",
+    "Sodda hayvonlar"
+   ],
+   "e": "Otuvchi hujayralar."
+  },
+  {
+   "b": "Zoologiya",
+   "q": "Askarida qaysi tipga kiradi?",
+   "a": [
+    "To'garak chuvalchanglar",
+    "Yassi chuvalchanglar",
+    "Halqali chuvalchanglar",
+    "Mollyuskalar"
+   ],
+   "e": "Parazit."
+  },
+  {
+   "b": "Zoologiya",
+   "q": "Jigar qurti (fasciola) qaysi tipga kiradi?",
+   "a": [
+    "Yassi chuvalchanglar",
+    "To'garak chuvalchanglar",
+    "Halqali chuvalchanglar",
+    "Bo'g'imoyoqlilar"
+   ],
+   "e": "So'rg'ichlilar sinfi."
+  },
+  {
+   "b": "Zoologiya",
+   "q": "Tuyaqush va pingvin qaysi sinfga kiradi?",
+   "a": [
+    "Qushlar",
+    "Sutemizuvchilar",
+    "Sudralib yuruvchilar",
+    "Baliqlar"
+   ],
+   "e": "Uchmaydigan qushlar."
+  },
+  {
+   "b": "Zoologiya",
+   "q": "Xordalilarning asosiy belgisi nima?",
+   "a": [
+    "Xorda (o'q skelet) mavjudligi",
+    "Tashqi skelet",
+    "Jabra yo'qligi",
+    "Faqat oltita oyoq"
+   ],
+   "e": "Umurtqalilar shu tipga kiradi."
+  },
+  {
+   "b": "Zoologiya",
+   "q": "Yo'ldoshli sutemizuvchilarga misol qaysi?",
+   "a": [
+    "Odam, it, ot",
+    "Kenguru, koala",
+    "Ornitorinx, exidna",
+    "Pingvin, tuyaqush"
+   ],
+   "e": "Yo'ldosh orqali oziqlanish."
+  },
+  {
+   "b": "Zoologiya",
+   "q": "Tuxum qo'yuvchi sutemizuvchiga misol qaysi?",
+   "a": [
+    "Ornitorinx",
+    "Kenguru",
+    "Kit",
+    "Ko'rshapalak"
+   ],
+   "e": "Birlamchi hayvonlar."
   }
  ]
 }
