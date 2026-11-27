@@ -1741,6 +1741,1469 @@
     "Savdoning to'xtashi"
    ],
    "e": "Kapital, tovar, axborot oqimlari."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Foydalilik nazariyasida \"naflilik\" nimani bildiradi?",
+   "a": [
+    "Iste'moldan olinadigan qoniqish",
+    "Tovarni ishlab chiqarishga sarflangan barcha xarajatlar yig'indisi",
+    "Tovarning do'kondagi chakana narxi va chegirmasi",
+    "Tovarning omborda saqlanish muddati"
+   ],
+   "e": "Utility."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Kamayib boruvchi chegaraviy naflilik qonuni nimani anglatadi?",
+   "a": [
+    "Har bir keyingi birlik qoniqishi kamayadi",
+    "Har bir keyingi birlik iste'moli qoniqishni muttasil oshiradi",
+    "Naflilik har doim o'zgarmas bo'lib qoladi",
+    "Naflilik faqat narxga bog'liq bo'ladi"
+   ],
+   "e": "Gossen qonuni."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Befarqlik egri chizig'i nimani ko'rsatadi?",
+   "a": [
+    "Bir xil naflilik beruvchi to'plamlarni",
+    "Iste'molchining daromadi bilan narx o'rtasidagi bog'lanishni",
+    "Firmaning ishlab chiqarish xarajatlarini",
+    "Davlatning soliq stavkalarini"
+   ],
+   "e": "Iste'molchi tanlovi nazariyasi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Byudjet chizig'i nimani ifodalaydi?",
+   "a": [
+    "Daromad bilan mumkin bo'lgan xaridlarni",
+    "Davlat byudjetining yillik daromadlarini",
+    "Firmaning yillik foydasini",
+    "Bankdagi depozitlar miqdorini"
+   ],
+   "e": "Narxlar va daromad bilan chegaralangan."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Daromad bo'yicha talab elastikligi manfiy bo'lsa, tovar qanday?",
+   "a": [
+    "Past sifatli (inferior)",
+    "Normal, sifatli va keng tarqalgan",
+    "Hashamatli va obro'li",
+    "Mutlaq noelastik tovar"
+   ],
+   "e": "Daromad oshsa, talab kamayadi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Taklif elastikligi qisqa muddatda odatda qanday?",
+   "a": [
+    "Pastroq",
+    "Uzoq muddatdagidan doimo yuqoriroq bo'ladi",
+    "Cheksiz katta bo'ladi",
+    "Har doim nolga teng"
+   ],
+   "e": "Ishlab chiqarishni tez o'zgartirib bo'lmaydi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Soliq ishlab chiqaruvchiga solinsa, taklif egri chizig'i qanday siljiydi?",
+   "a": [
+    "Chapga (yuqoriga)",
+    "O'ngga, pastga qarab siljiydi",
+    "Siljimaydi, faqat talab o'zgaradi",
+    "Gorizontal holatga keladi"
+   ],
+   "e": "Xarajatlar ortadi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Subsidiya ishlab chiqaruvchiga berilsa taklif qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi va narx oshadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Xarajatlar kamayadi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Qisqa muddatli davr nima?",
+   "a": [
+    "Ayrim omillar o'zgarmas bo'lgan davr",
+    "Barcha ishlab chiqarish omillari erkin o'zgaradigan davr",
+    "Faqat bir kunlik davr, kalendar bo'yicha",
+    "Firma yopilgan davr"
+   ],
+   "e": "Uzoq muddatda barcha omillar o'zgaruvchan."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Mukammal raqobatda firma qachon qisqa muddatda ishlab chiqarishni to'xtatadi?",
+   "a": [
+    "Narx o'rtacha o'zgaruvchan xarajatdan past bo'lsa",
+    "Narx o'rtacha umumiy xarajatdan biroz yuqori bo'lganda",
+    "Foyda maksimal bo'lganda",
+    "Talab ortganda"
+   ],
+   "e": "Doimiy xarajatlarni qoplay olmasa ham ishlash mumkin."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Q = 10 da TC = 500, Q = 11 da TC = 540. Chegaraviy xarajat qancha?",
+   "a": [
+    "40",
+    "540",
+    "49",
+    "500"
+   ],
+   "e": "540 − 500."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Narx 20, Q = 100, ATC = 15. Firma foydasi qancha?",
+   "a": [
+    "500",
+    "2000",
+    "1500",
+    "35"
+   ],
+   "e": "(20 − 15)·100."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Tushum TR = P × Q. P = 50, Q = 30 bo'lsa, TR qancha?",
+   "a": [
+    "1500",
+    "80",
+    "20",
+    "150"
+   ],
+   "e": "50·30."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Investitsiya makroiqtisodiyotda nimani anglatadi?",
+   "a": [
+    "Kapitalga qo'shimcha xarajatlar",
+    "Aholining aksiyalarni sotib olishi, faqat moliyaviy",
+    "Iste'mol tovarlariga xarajatlar",
+    "Davlat soliqlari"
+   ],
+   "e": "Uskunalar, binolar, zaxiralar."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Investitsiyalar hajmiga eng kuchli ta'sir qiluvchi omil qaysi?",
+   "a": [
+    "Foiz stavkasi",
+    "Ob-havo va iqlim sharoitlari",
+    "Aholining o'rtacha yoshi",
+    "Mamlakat hududining kattaligi"
+   ],
+   "e": "Foiz oshsa, investitsiya kamayadi."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Jamg'arma nima?",
+   "a": [
+    "Daromadning iste'mol qilinmagan qismi",
+    "Daromadning soliqlarga to'langan qismi faqat",
+    "Barcha daromad yig'indisi",
+    "Kredit qarzi"
+   ],
+   "e": "S = Y − C."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Jamg'arish paradoksi (tejamkorlik paradoksi) nima?",
+   "a": [
+    "Hamma tejasa, yalpi daromad kamayishi",
+    "Ko'proq tejash har doim daromadni oshirishi",
+    "Tejash iqtisodiyotga ta'sir qilmasligi",
+    "Tejash faqat banklarga foydali bo'lishi"
+   ],
+   "e": "Keyns g'oyasi."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Pulga talab motivlaridan biri qaysi?",
+   "a": [
+    "Bitim (tranzaksiya) motivi",
+    "Faqat kolleksiya qilish motivi",
+    "Faqat soliqdan qochish motivi",
+    "Faqat pul bosish motivi"
+   ],
+   "e": "Ehtiyotkorlik va spekulyativ motivlar ham."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Pul bozorida foiz stavkasi nima asosida shakllanadi?",
+   "a": [
+    "Pulga talab va taklif",
+    "Faqat davlat buyrug'i bilan har doim",
+    "Faqat aholi soniga qarab",
+    "Faqat oltin narxiga qarab"
+   ],
+   "e": "Muvozanat foiz stavkasi."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Monetar siyosat nima?",
+   "a": [
+    "Pul massasi va foizni boshqarish siyosati",
+    "Davlat xarajatlari va soliqlarni o'zgartirish",
+    "Tashqi savdo bojlarini belgilash",
+    "Ish haqini belgilash"
+   ],
+   "e": "Markaziy bank yuritadi."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Monetarizm maktabining yetakchisi kim?",
+   "a": [
+    "Milton Fridmen",
+    "Jon Keyns",
+    "Adam Smit",
+    "Karl Marks"
+   ],
+   "e": "Pul massasining roli."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Inflyatsiyaning \"kreditorlarga\" ta'siri qanday?",
+   "a": [
+    "Zarar ko'radi",
+    "Foyda ko'radi",
+    "Ta'sir qilmaydi",
+    "Qarzi oshadi"
+   ],
+   "e": "Qaytarilgan pul qadrsizlanadi."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Inflyatsiya qat'iy daromadli shaxslarga qanday ta'sir qiladi?",
+   "a": [
+    "Real daromadi kamayadi",
+    "Real daromadi ortadi",
+    "Ta'sir qilmaydi",
+    "Soliqlari bekor bo'ladi"
+   ],
+   "e": "Pensionerlar, stipendiyachilar."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "\"72 qoidasi\" inflyatsiyada nimani taxminan hisoblaydi?",
+   "a": [
+    "Narxlar ikki baravar oshish muddatini",
+    "Ishsizlik darajasini",
+    "Soliq stavkasini",
+    "Valyuta kursini"
+   ],
+   "e": "72 / yillik inflyatsiya %."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Yillik inflyatsiya 8% bo'lsa, narxlar taxminan necha yilda ikki baravar oshadi?",
+   "a": [
+    "9 yil",
+    "8 yil",
+    "72 yil",
+    "4 yil"
+   ],
+   "e": "72/8."
+  },
+  {
+   "b": "Davlat va iqtisodiyot",
+   "q": "Bozor muvaffaqiyatsizliklariga (bozor kamchiliklariga) nima kiradi?",
+   "a": [
+    "Tashqi samaralar va jamoat ne'matlari",
+    "Erkin raqobat va narx moslashuvi",
+    "Talab va taklif muvozanati",
+    "Iste'molchi erkinligi"
+   ],
+   "e": "Davlat aralashuvi asosi."
+  },
+  {
+   "b": "Davlat va iqtisodiyot",
+   "q": "Jamoat ne'matiga misol qaysi?",
+   "a": [
+    "Milliy mudofaa",
+    "Shaxsiy avtomobil",
+    "Kiyim-kechak",
+    "Oziq-ovqat mahsuloti"
+   ],
+   "e": "Raqobatsiz va istisnosiz iste'mol."
+  },
+  {
+   "b": "Davlat va iqtisodiyot",
+   "q": "Salbiy tashqi samara (eksternaliya) misoli qaysi?",
+   "a": [
+    "Zavod tutunining atrof-muhitga zarari",
+    "Bog' ekilishidan qo'shnilar foydasi",
+    "Ta'limning jamiyatga foydasi",
+    "Emlashning boshqalarga foydasi"
+   ],
+   "e": "Bozor narxida hisobga olinmaydi."
+  },
+  {
+   "b": "Davlat va iqtisodiyot",
+   "q": "\"Chavandoz-tekinxo'r\" (free rider) muammosi nimaga xos?",
+   "a": [
+    "Jamoat ne'matlariga",
+    "Shaxsiy tovarlarga",
+    "Hashamatli tovarlarga",
+    "Kreditlarga"
+   ],
+   "e": "To'lamasdan foydalanish."
+  },
+  {
+   "b": "Davlat va iqtisodiyot",
+   "q": "Ijtimoiy siyosatning asosiy vazifasi nima?",
+   "a": [
+    "Aholining ijtimoiy himoyasi",
+    "Faqat yirik korxonalar foydasini oshirish",
+    "Faqat eksportni rag'batlantirish",
+    "Faqat soliqlarni oshirish"
+   ],
+   "e": "Pensiya, nafaqa, ijtimoiy yordam."
+  },
+  {
+   "b": "Davlat va iqtisodiyot",
+   "q": "Lorents egri chizig'i nimani ko'rsatadi?",
+   "a": [
+    "Daromadlar taqsimotining tengsizligini",
+    "Narx va talab bog'lanishini",
+    "Inflyatsiya va ishsizlikni",
+    "Soliq va tushumni"
+   ],
+   "e": "Jini koeffitsiyenti bilan."
+  },
+  {
+   "b": "Davlat va iqtisodiyot",
+   "q": "Jini koeffitsiyenti 0 bo'lsa nima bildiradi?",
+   "a": [
+    "To'liq tenglik",
+    "To'liq tengsizlik",
+    "Yuqori inflyatsiya",
+    "Yuqori ishsizlik"
+   ],
+   "e": "1 — mutlaq tengsizlik."
+  },
+  {
+   "b": "Davlat va iqtisodiyot",
+   "q": "Yashash minimumi nima?",
+   "a": [
+    "Zarur ehtiyojlar uchun minimal daromad",
+    "Eng yuqori ish haqi miqdori",
+    "O'rtacha pensiya",
+    "Davlat byudjeti"
+   ],
+   "e": "Kambag'allik chegarasi."
+  },
+  {
+   "b": "Davlat va iqtisodiyot",
+   "q": "O'zbekistonda bozor iqtisodiyotiga o'tishda qanday yondashuv tanlangan?",
+   "a": [
+    "Bosqichma-bosqich isloh qilish",
+    "\"Shok terapiyasi\" orqali bir kunda o'tish",
+    "Bozorni butunlay rad etish",
+    "Faqat xorijiy modelni ko'chirish"
+   ],
+   "e": "Islohotlar izchilligi."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Iqtisodiy ehtiyojlar qanday xususiyatga ega?",
+   "a": [
+    "Cheksiz va o'sib boruvchi",
+    "Cheklangan va doimo o'zgarmas bo'lib qoladi",
+    "Faqat oziq-ovqat bilan cheklanadi",
+    "Faqat davlat tomonidan belgilanadi"
+   ],
+   "e": "Maslou piramidasi."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Iqtisodiy ne'matlar erkin ne'matlardan nimasi bilan farq qiladi?",
+   "a": [
+    "Cheklangan va narxga ega",
+    "Cheksiz miqdorda va bepul mavjud",
+    "Faqat tabiatda uchraydi",
+    "Hech qanday foydaliligi yo'q"
+   ],
+   "e": "Havo — erkin ne'mat."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Iqtisodiyotning uch asosiy savoli qaysi?",
+   "a": [
+    "Nima, qanday va kim uchun ishlab chiqarish",
+    "Qachon, qayerda va nima uchun dam olish",
+    "Kim, qachon va qancha soliq to'lash",
+    "Qayerdan, qayerga va qanday tashish"
+   ],
+   "e": "Har qanday iqtisodiy tizim javob beradi."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Mehnat taqsimoti nimaga olib keladi?",
+   "a": [
+    "Unumdorlik ortishiga",
+    "Unumdorlikning keskin pasayishiga",
+    "Ixtisoslashuvning yo'qolishiga",
+    "Ayirboshlashning to'xtashiga"
+   ],
+   "e": "A. Smitning to'g'nag'ich fabrikasi misoli."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Iqtisodiy samaradorlik nimani anglatadi?",
+   "a": [
+    "Resursdan eng yaxshi natija",
+    "Iloji boricha ko'p resurs sarflash",
+    "Natijaga e'tibor bermaslik",
+    "Faqat xarajatlarni oshirish"
+   ],
+   "e": "Pareto samaradorligi."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Pareto samaradorligi nima?",
+   "a": [
+    "Boshqani yomonlashtirmay yaxshilab bo'lmaydigan holat",
+    "Hammaning daromadi teng bo'lgan holat",
+    "Faqat davlat foydasi maksimal holat",
+    "Resurslar ishlatilmagan holat"
+   ],
+   "e": "Optimal taqsimot."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Iqtisodiy model nima?",
+   "a": [
+    "Soddalashtirilgan tasvir",
+    "Korxonaning moliyaviy hisoboti",
+    "Mahsulot namunasi",
+    "Davlat qonuni"
+   ],
+   "e": "Grafik, tenglama yoki jadval."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "\"Ceteris paribus\" tamoyili nimani anglatadi?",
+   "a": [
+    "Boshqa sharoitlar o'zgarmagan holda",
+    "Barcha omillar bir vaqtda o'zgaradi",
+    "Hech narsa o'zgarmaydi",
+    "Faqat narx o'zgarmaydi"
+   ],
+   "e": "Tahlilni soddalashtirish."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Aksiyadorlik jamiyati nima?",
+   "a": [
+    "Aksiyali korxona",
+    "Bitta shaxsga tegishli kichik do'kon",
+    "Davlat organi",
+    "Notijorat jamg'arma"
+   ],
+   "e": "Aksiyadorlar javobgarligi cheklangan."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Mas'uliyati cheklangan jamiyat (MChJ) ishtirokchilari qanday javobgar?",
+   "a": [
+    "Ulushlari doirasida",
+    "Barcha shaxsiy mulki bilan cheksiz",
+    "Umuman javobgar emas",
+    "Faqat davlat oldida"
+   ],
+   "e": "Keng tarqalgan tashkiliy shakl."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Yakka tartibdagi tadbirkor qanday javobgar?",
+   "a": [
+    "O'z mol-mulki bilan",
+    "Faqat ustav kapitali doirasida",
+    "Javobgar emas",
+    "Faqat davlat mulki bilan"
+   ],
+   "e": "Yuridik shaxs tashkil etmasdan."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Kooperativ nima?",
+   "a": [
+    "A'zolarning ixtiyoriy birlashmasi",
+    "Davlat monopoliyasi",
+    "Xorijiy kompaniya",
+    "Bank filiali"
+   ],
+   "e": "Masalan, qishloq xo'jaligi kooperativi."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Davlat-xususiy sheriklik nima?",
+   "a": [
+    "Davlat va biznes hamkorligi",
+    "Faqat davlat mulki",
+    "Faqat xususiy mulk",
+    "Davlat tomonidan biznesni taqiqlash"
+   ],
+   "e": "Infratuzilma loyihalarida."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Franshiza nima?",
+   "a": [
+    "Tovar belgisidan foydalanish huquqi",
+    "Davlat soliq imtiyozi",
+    "Bank krediti turi",
+    "Mehnat shartnomasi"
+   ],
+   "e": "Masalan, tez ovqatlanish tarmoqlari."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Lizing nima?",
+   "a": [
+    "Uzoq muddatli mol-mulk ijarasi",
+    "Qisqa muddatli bank depoziti",
+    "Aksiya sotib olish",
+    "Soliq to'lovi"
+   ],
+   "e": "Uskuna va transport uchun."
+  },
+  {
+   "b": "Tovar va pul",
+   "q": "Pulning muomala vositasi funksiyasi nimani anglatadi?",
+   "a": [
+    "Ayirboshlashda vositachilik",
+    "Tovar qiymatini o'lchash",
+    "Boylik jamg'arish",
+    "Xalqaro to'lovlarni amalga oshirish"
+   ],
+   "e": "T — P — T."
+  },
+  {
+   "b": "Tovar va pul",
+   "q": "Elektron pullar nima?",
+   "a": [
+    "Elektron to'lov vositasi",
+    "Faqat qog'oz banknotlar",
+    "Faqat tangalar",
+    "Oltin quymalar"
+   ],
+   "e": "Karta, hamyon ilovalari."
+  },
+  {
+   "b": "Tovar va pul",
+   "q": "Kriptovalyuta nima?",
+   "a": [
+    "Raqamli aktiv",
+    "Markaziy bank chiqargan qog'oz pul",
+    "Oltin tanga",
+    "Davlat obligatsiyasi"
+   ],
+   "e": "Masalan, Bitkoin."
+  },
+  {
+   "b": "Tovar va pul",
+   "q": "Pulning aylanish tezligi nimani ko'rsatadi?",
+   "a": [
+    "Pulning yillik aylanishlar soni",
+    "Pul bosib chiqarish tezligini",
+    "Bank foizini",
+    "Inflyatsiya darajasini"
+   ],
+   "e": "V = PQ/M."
+  },
+  {
+   "b": "Tovar va pul",
+   "q": "M = 100, V = 5, Q = 250 bo'lsa, narxlar darajasi P qancha?",
+   "a": [
+    "2",
+    "5",
+    "20",
+    "0,5"
+   ],
+   "e": "P = MV/Q = 500/250."
+  },
+  {
+   "b": "Mehnat va ish haqi",
+   "q": "Mehnat unumdorligi oshsa, mahsulot birligiga mehnat xarajati qanday o'zgaradi?",
+   "a": [
+    "Kamayadi",
+    "Ortadi",
+    "O'zgarmaydi",
+    "Ikki baravar ortadi"
+   ],
+   "e": "Tannarx pasayadi."
+  },
+  {
+   "b": "Mehnat va ish haqi",
+   "q": "Mehnat taklifi egri chizig'ining \"orqaga egilishi\" nimani anglatadi?",
+   "a": [
+    "Yuqori ish haqida dam olishga talab ortishi",
+    "Ish haqi oshsa, mehnat taklifi doimo ortishi",
+    "Mehnat taklifi o'zgarmasligi",
+    "Ishsizlik yo'qolishi"
+   ],
+   "e": "Daromad samarasi."
+  },
+  {
+   "b": "Mehnat va ish haqi",
+   "q": "Ish haqidagi farqlar nimaga bog'liq?",
+   "a": [
+    "Malaka va sharoitga",
+    "Faqat ishchining bo'yiga",
+    "Faqat ishchining ismiga",
+    "Faqat ob-havoga"
+   ],
+   "e": "Kompensatsion farqlar."
+  },
+  {
+   "b": "Mehnat va ish haqi",
+   "q": "Mehnat bozorida monopsoniya qanday oqibatga olib keladi?",
+   "a": [
+    "Ish haqi past bo'ladi",
+    "Ish haqi juda yuqori bo'ladi",
+    "Ishsizlik yo'qoladi",
+    "Bandlik maksimal bo'ladi"
+   ],
+   "e": "Yagona ish beruvchi."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Soliqning funksiyalariga nima kiradi?",
+   "a": [
+    "Fiskal va tartibga soluvchi",
+    "Faqat bezak va reklama funksiyasi",
+    "Faqat jazo berish funksiyasi",
+    "Faqat ishlab chiqarish funksiyasi"
+   ],
+   "e": "Ijtimoiy funksiya ham."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Aksiz solig'i odatda qaysi tovarlarga solinadi?",
+   "a": [
+    "Alkogol, tamaki, yoqilg'i",
+    "Non va sut mahsulotlari",
+    "Bolalar kiyimi",
+    "Dori-darmonlar"
+   ],
+   "e": "Egri soliq."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Bank depoziti nima?",
+   "a": [
+    "Bankka omonatga qo'yilgan pul",
+    "Bankdan olingan kredit",
+    "Bank xodimlari maoshi",
+    "Bank binosi"
+   ],
+   "e": "Talab qilinguncha va muddatli."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Kredit foizi 20%, inflyatsiya 12%. Real foiz taxminan qancha?",
+   "a": [
+    "8%",
+    "32%",
+    "20%",
+    "12%"
+   ],
+   "e": "Fisher tenglamasi (taxminiy)."
+  },
+  {
+   "b": "Xalqaro iqtisodiyot",
+   "q": "Demping nima?",
+   "a": [
+    "Tashqi bozorda arzon sotish",
+    "Tovarni ichki bozorda qimmat sotish",
+    "Importni taqiqlash",
+    "Valyutani mustahkamlash"
+   ],
+   "e": "Antidemping bojlari qo'llaniladi."
+  },
+  {
+   "b": "Xalqaro iqtisodiyot",
+   "q": "Eksport kvotasi (iqtisodiyotning ochiqlik ko'rsatkichi) nima?",
+   "a": [
+    "Eksportning YaIMdagi ulushi",
+    "Importning eksportga nisbati",
+    "Bojlar summasi",
+    "Valyuta zaxirasi"
+   ],
+   "e": "Foizlarda."
+  },
+  {
+   "b": "Xalqaro iqtisodiyot",
+   "q": "Devalvatsiya nima?",
+   "a": [
+    "Rasmiy qadrsizlantirish",
+    "Milliy valyutaning mustahkamlanishi",
+    "Yangi valyuta chiqarish",
+    "Valyutani bekor qilish"
+   ],
+   "e": "Revalvatsiya — aksincha."
+  },
+  {
+   "b": "Xalqaro iqtisodiyot",
+   "q": "Xalqaro mehnat taqsimoti nimaga asoslanadi?",
+   "a": [
+    "Mamlakatlarning ixtisoslashuviga",
+    "Barcha mamlakatlar hamma narsani ishlab chiqarishiga",
+    "Savdoning taqiqlanishiga",
+    "Faqat bir mamlakat ishlab chiqarishiga"
+   ],
+   "e": "Qiyosiy ustunlik."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Milliy hisoblar tizimi nima?",
+   "a": [
+    "Makroiqtisodiy ko'rsatkichlar tizimi",
+    "Korxonaning ichki buxgalteriya jurnallari va hisob kitoblari",
+    "Aholining bankdagi shaxsiy hisob raqamlari ro'yxati",
+    "Davlat xizmatchilarining ish haqi jadvali"
+   ],
+   "e": "BMT tavsiya etgan standart."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "YaIMni daromadlar bo'yicha hisoblashda nima qo'shiladi?",
+   "a": [
+    "Ish haqi, renta, foiz, foyda va boshqalar",
+    "Faqat eksport va import farqi, boshqasiz",
+    "Faqat davlat xaridlari",
+    "Faqat aholi jamg'armasi"
+   ],
+   "e": "Amortizatsiya va egri soliqlar ham."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Sof ichki mahsulot (SIM) qanday hisoblanadi?",
+   "a": [
+    "YaIM minus amortizatsiya",
+    "YaIM plus soliqlar",
+    "YaIM minus import",
+    "YaIM plus eksport"
+   ],
+   "e": "Iste'mol qilingan kapitalni hisobga oladi."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Yashirin (soya) iqtisodiyot YaIMda qanday aks etadi?",
+   "a": [
+    "To'liq hisobga olinmaydi",
+    "To'liq hisobga olinadi va alohida qo'shiladi",
+    "Ikki baravar hisoblanadi",
+    "Faqat eksportda aks etadi"
+   ],
+   "e": "Baholash usullari bilan qisman qo'shiladi."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Uy bekalari mehnati YaIMga kiradimi?",
+   "a": [
+    "Yo'q",
+    "Ha, to'liq qiymatda",
+    "Faqat qishloqda kiradi",
+    "Faqat bayramlarda kiradi"
+   ],
+   "e": "YaIM cheklovlaridan biri."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Transfert to'lovlar (pensiya, nafaqa) YaIMga kiradimi?",
+   "a": [
+    "Yo'q",
+    "Ha, davlat xaridlari sifatida",
+    "Faqat pensiyalar kiradi",
+    "Faqat nafaqalar kiradi"
+   ],
+   "e": "Ular tovar va xizmat evaziga emas."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Yalpi taklifning klassik modelida uzoq muddatli egri chiziq qanday?",
+   "a": [
+    "Vertikal",
+    "Gorizontal",
+    "Pastga qiya",
+    "Doira shaklida"
+   ],
+   "e": "Potensial YaIM darajasida."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Keynscha yalpi taklif egri chizig'i (chuqur tanazzulda) qanday?",
+   "a": [
+    "Gorizontal",
+    "Vertikal",
+    "Pastga qiya",
+    "Mavjud emas"
+   ],
+   "e": "Narxlar qat'iy, resurslar bo'sh."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Iqtisodiy tsiklning tanazzul fazasida nima kuzatiladi?",
+   "a": [
+    "Ishlab chiqarish pasayadi",
+    "Ishlab chiqarish va bandlik keskin ortadi",
+    "Inflyatsiya har doim keskin tezlashadi",
+    "Ishsizlik yo'qoladi"
+   ],
+   "e": "Retsessiya."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Avtomatik stabilizatorlarga misol qaysi?",
+   "a": [
+    "Progressiv soliqlar, nafaqalar",
+    "Parlamentning yangi qarorlari",
+    "Davlat qurilish loyihalari",
+    "Xorijiy kreditlar"
+   ],
+   "e": "Qarorsiz avtomatik ishlaydi."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Potensial YaIM nima?",
+   "a": [
+    "To'liq bandlikdagi hajm",
+    "Faqat eksport hajmi",
+    "Inqiroz davridagi YaIM",
+    "Nominal YaIM"
+   ],
+   "e": "Tabiiy ishsizlikda."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "YaIM uzilishi (gap) nima?",
+   "a": [
+    "Haqiqiy va potensial YaIM farqi",
+    "Eksport va import farqi",
+    "Soliq va xarajat farqi",
+    "Daromad va iste'mol farqi"
+   ],
+   "e": "Manfiy — retsessiya belgisi."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Inflyatsiyani targetlash nima?",
+   "a": [
+    "Inflyatsiya maqsadiga erishish siyosati",
+    "Narxlarni davlat tomonidan muzlatish",
+    "Ish haqini bekor qilish",
+    "Valyutani qat'iy bog'lash"
+   ],
+   "e": "O'zbekiston Markaziy banki ham qo'llaydi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Iqtisodiy rentaning ma'nosi nima?",
+   "a": [
+    "Zarur minimumdan ortiq to'lov",
+    "Faqat yer ijarasi",
+    "Bank foizi",
+    "Ish haqi minimumi"
+   ],
+   "e": "Kam uchraydigan omillar daromadi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Uzoq muddatda mukammal raqobatdagi firmaning iqtisodiy foydasi qancha?",
+   "a": [
+    "Nolga teng",
+    "Har doim maksimal",
+    "Har doim manfiy",
+    "Cheksiz"
+   ],
+   "e": "Bozorga erkin kirish natijasi."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Monopolistda narx chegaraviy xarajatga nisbatan qanday?",
+   "a": [
+    "Yuqoriroq",
+    "Pastroq",
+    "Teng",
+    "Nolga teng"
+   ],
+   "e": "Bozor hokimiyati."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Lerner indeksi nimani o'lchaydi?",
+   "a": [
+    "Monopol hokimiyat darajasini",
+    "Inflyatsiyani",
+    "Ishsizlikni",
+    "Soliq yukini"
+   ],
+   "e": "(P − MC)/P."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Intellektual mulkka nima kiradi?",
+   "a": [
+    "Patent, mualliflik huquqi",
+    "Faqat yer va binolar",
+    "Faqat avtomobillar",
+    "Faqat bank depozitlari"
+   ],
+   "e": "Nomoddiy aktivlar."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Patent nima uchun beriladi?",
+   "a": [
+    "Ixtiro huquqini himoyalash uchun",
+    "Soliqdan ozod qilish uchun",
+    "Kredit olish uchun",
+    "Chet elga chiqish uchun"
+   ],
+   "e": "Muddatli monopol huquq."
+  },
+  {
+   "b": "Iqtisodiy tizimlar va mulk",
+   "q": "Raqamli iqtisodiyotning asosiy belgisi nima?",
+   "a": [
+    "Raqamli texnologiyalar asosidagi faoliyat",
+    "Faqat qo'l mehnati",
+    "Faqat natural ayirboshlash",
+    "Faqat qog'oz hujjatlar"
+   ],
+   "e": "Elektron tijorat, platformalar."
+  },
+  {
+   "b": "Tovar va pul",
+   "q": "Tovar narxining asosiga nima yotadi (mehnat nazariyasi bo'yicha)?",
+   "a": [
+    "Ijtimoiy zarur mehnat",
+    "Faqat sotuvchining xohishi",
+    "Faqat tovar og'irligi",
+    "Faqat tovar rangi"
+   ],
+   "e": "Klassik maktab."
+  },
+  {
+   "b": "Tovar va pul",
+   "q": "Marjinalistlar narxni nima bilan tushuntiradi?",
+   "a": [
+    "Chegaraviy naflilik bilan",
+    "Faqat mehnat xarajatlari bilan",
+    "Faqat davlat buyrug'i bilan",
+    "Faqat oltin bilan"
+   ],
+   "e": "\"Marjinal inqilob\"."
+  },
+  {
+   "b": "Tovar va pul",
+   "q": "Alfred Marshall narx nazariyasiga qanday hissa qo'shgan?",
+   "a": [
+    "Talab va taklif sintezi",
+    "Pul massasi tenglamasi",
+    "Byurokratiya nazariyasi",
+    "Ehtiyojlar piramidasi"
+   ],
+   "e": "\"Marshall qaychisi\"."
+  },
+  {
+   "b": "Mehnat va ish haqi",
+   "q": "Bandlik darajasi qanday hisoblanadi?",
+   "a": [
+    "Bandlar soni / ishchi kuchi",
+    "Ishsizlar / aholi",
+    "Aholi / bandlar",
+    "Pensionerlar / bandlar"
+   ],
+   "e": "Foizlarda."
+  },
+  {
+   "b": "Mehnat va ish haqi",
+   "q": "Mehnatga layoqatli aholi tarkibiga kimlar kiradi?",
+   "a": [
+    "Mehnatga qobiliyatli yoshdagilar",
+    "Faqat pensionerlar",
+    "Faqat maktab o'quvchilari",
+    "Faqat chet el fuqarolari"
+   ],
+   "e": "Ishchi kuchi undan kichik."
+  },
+  {
+   "b": "Mehnat va ish haqi",
+   "q": "Migratsiya mehnat bozoriga qanday ta'sir ko'rsatadi?",
+   "a": [
+    "Mehnat taklifini o'zgartiradi",
+    "Hech qanday ta'sir qilmaydi",
+    "Faqat narxlarni o'zgartiradi",
+    "Faqat soliqlarni bekor qiladi"
+   ],
+   "e": "Pul o'tkazmalari ham muhim."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Talab Qd = 50 − p, taklif Qs = 2p − 10. Muvozanat narx qancha?",
+   "a": [
+    "20",
+    "30",
+    "10",
+    "40"
+   ],
+   "e": "50 − p = 2p − 10."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Yuqoridagi masalada muvozanat miqdor qancha?",
+   "a": [
+    "30",
+    "20",
+    "50",
+    "10"
+   ],
+   "e": "50 − 20."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Narx 100 dan 120 ga oshdi, talab 50 dan 45 ga kamaydi. Talab elastikligi (modul, oddiy foizlar bo'yicha) qancha?",
+   "a": [
+    "0,5",
+    "2",
+    "1",
+    "0,1"
+   ],
+   "e": "10% / 20%."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Elastiklik koeffitsiyenti 0,5 bo'lsa, talab qanday?",
+   "a": [
+    "Noelastik",
+    "Elastik",
+    "Birlik elastik",
+    "Mutlaq elastik"
+   ],
+   "e": "|E| < 1."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Elastiklik koeffitsiyenti 1 bo'lsa, talab qanday?",
+   "a": [
+    "Birlik elastik",
+    "Noelastik",
+    "Mutlaq noelastik",
+    "Mutlaq elastik"
+   ],
+   "e": "Tushum o'zgarmaydi."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Mutlaq noelastik talab egri chizig'i qanday?",
+   "a": [
+    "Vertikal",
+    "Gorizontal",
+    "Pastga qiya",
+    "Yuqoriga qiya"
+   ],
+   "e": "E = 0."
+  },
+  {
+   "b": "Talab va taklif",
+   "q": "Mutlaq elastik talab egri chizig'i qanday?",
+   "a": [
+    "Gorizontal",
+    "Vertikal",
+    "Pastga qiya",
+    "Yuqoriga qiya"
+   ],
+   "e": "E = ∞."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "FC = 200, AVC = 5, Q = 40 bo'lsa, TC qancha?",
+   "a": [
+    "400",
+    "205",
+    "245",
+    "8000"
+   ],
+   "e": "200 + 5·40."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "TC = 1000, Q = 50 bo'lsa, ATC qancha?",
+   "a": [
+    "20",
+    "50",
+    "1050",
+    "950"
+   ],
+   "e": "1000/50."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Foyda 300, xarajatlar 1500 bo'lsa, rentabellik qancha?",
+   "a": [
+    "20%",
+    "30%",
+    "5%",
+    "50%"
+   ],
+   "e": "300/1500."
+  },
+  {
+   "b": "Xarajatlar va foyda",
+   "q": "Narx 30, AVC = 20, FC = 1000. Zararsizlik hajmi qancha?",
+   "a": [
+    "100",
+    "50",
+    "33",
+    "1000"
+   ],
+   "e": "1000/(30 − 20)."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "C = 500, I = 200, G = 300, Xn = −50 bo'lsa, YaIM qancha?",
+   "a": [
+    "950",
+    "1050",
+    "1000",
+    "900"
+   ],
+   "e": "500 + 200 + 300 − 50."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Nominal YaIM 1200, deflyator 1,2. Real YaIM qancha?",
+   "a": [
+    "1000",
+    "1440",
+    "1200",
+    "1,2"
+   ],
+   "e": "1200/1,2."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Ishchi kuchi 1000 kishi, ishsizlar 80 kishi. Ishsizlik darajasi qancha?",
+   "a": [
+    "8%",
+    "80%",
+    "92%",
+    "12,5%"
+   ],
+   "e": "80/1000."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "INI o'tgan yil 100, bu yil 112. Inflyatsiya darajasi qancha?",
+   "a": [
+    "12%",
+    "112%",
+    "1,12%",
+    "88%"
+   ],
+   "e": "(112 − 100)/100."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "MPS = 0,25 bo'lsa, multiplikator qancha?",
+   "a": [
+    "4",
+    "0,25",
+    "1,33",
+    "0,75"
+   ],
+   "e": "1/MPS."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Investitsiya 100 ga oshdi, multiplikator 4. YaIM qancha oshadi?",
+   "a": [
+    "400",
+    "100",
+    "25",
+    "104"
+   ],
+   "e": "100·4."
+  },
+  {
+   "b": "Makroiqtisodiyot",
+   "q": "Aholi 30 mln, YaIM 90 mlrd. Aholi jon boshiga YaIM qancha?",
+   "a": [
+    "3000",
+    "300",
+    "30",
+    "0,33"
+   ],
+   "e": "90 000 mln / 30 mln."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Majburiy zaxira normasi 10% bo'lsa, oddiy bank multiplikatori qancha?",
+   "a": [
+    "10",
+    "0,1",
+    "1",
+    "100"
+   ],
+   "e": "1/0,1."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "1 000 000 so'm daromaddan 12% soliq ushlansa, qo'lga qancha tegadi?",
+   "a": [
+    "880 000 so'm",
+    "120 000 so'm",
+    "1 120 000 so'm",
+    "988 000 so'm"
+   ],
+   "e": "1 000 000 · 0,88."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Tovar narxi 1000 so'm, QQS 12% qo'shilsa, sotish narxi qancha?",
+   "a": [
+    "1120 so'm",
+    "1012 so'm",
+    "880 so'm",
+    "1200 so'm"
+   ],
+   "e": "1000·1,12."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Obligatsiya nominali 1000, yillik kupon 10%. Yillik daromad qancha?",
+   "a": [
+    "100",
+    "10",
+    "1000",
+    "1100"
+   ],
+   "e": "1000·0,1."
+  },
+  {
+   "b": "Moliya, bank va soliqlar",
+   "q": "Byudjet daromadi 800, xarajati 900. Saldo qancha?",
+   "a": [
+    "−100 (taqchillik)",
+    "+100 (profitsit)",
+    "1700",
+    "0"
+   ],
+   "e": "800 − 900."
+  },
+  {
+   "b": "Xalqaro iqtisodiyot",
+   "q": "Eksport 500, import 700. Savdo balansi qancha?",
+   "a": [
+    "−200",
+    "+200",
+    "1200",
+    "0"
+   ],
+   "e": "Manfiy saldo."
+  },
+  {
+   "b": "Xalqaro iqtisodiyot",
+   "q": "1 dollar 12 000 so'mdan 12 600 so'mga ko'tarildi. So'm necha foizga qadrsizlandi (dollarga nisbatan narx bo'yicha)?",
+   "a": [
+    "5%",
+    "6%",
+    "0,5%",
+    "60%"
+   ],
+   "e": "600/12 000."
+  },
+  {
+   "b": "Xalqaro iqtisodiyot",
+   "q": "Mamlakat A 1 soatda 4 kg non yoki 2 m mato, B 1 soatda 3 kg non yoki 3 m mato ishlab chiqaradi. A qaysi tovarga ixtisoslashishi kerak?",
+   "a": [
+    "Non",
+    "Mato",
+    "Ikkalasiga ham",
+    "Hech biriga"
+   ],
+   "e": "A da nonning muqobil xarajati past (0,5 m mato)."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Ishchi bir soatda 10 ta detal yoki 5 ta stul ishlab chiqaradi. 1 stulning muqobil xarajati qancha detal?",
+   "a": [
+    "2",
+    "5",
+    "10",
+    "0,5"
+   ],
+   "e": "10/5."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Iqtisodiy resurslarning qaysi biri \"tadbirkorlik qobiliyati\" deb ataladi?",
+   "a": [
+    "Omillarni birlashtirish va tavakkal qilish qobiliyati",
+    "Faqat yer resurslari",
+    "Faqat ishchilar soni",
+    "Faqat bankdagi pul"
+   ],
+   "e": "To'rtinchi omil."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Ehtiyojlar va resurslar o'rtasidagi ziddiyat qanday nomlanadi?",
+   "a": [
+    "Cheklanganlik muammosi",
+    "Inflyatsiya muammosi",
+    "Globalizatsiya muammosi",
+    "Urbanizatsiya muammosi"
+   ],
+   "e": "Iqtisodiyotning fundamental muammosi."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Ishlab chiqarish imkoniyatlari egri chizig'idan ichkaridagi nuqta nimani bildiradi?",
+   "a": [
+    "Resurslar to'liq ishlatilmagan",
+    "Erishib bo'lmaydigan ishlab chiqarish",
+    "Eng samarali holat",
+    "Iqtisodiy o'sish"
+   ],
+   "e": "Ishsizlik yoki bo'sh quvvat."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Ishlab chiqarish imkoniyatlari egri chizig'idan tashqaridagi nuqta nimani bildiradi?",
+   "a": [
+    "Hozircha erishib bo'lmaydigan hajm",
+    "Resurslar to'liq ishlatilmagan holat",
+    "Optimal holat",
+    "Zarar holati"
+   ],
+   "e": "Iqtisodiy o'sish bilan erishiladi."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Ishlab chiqarish imkoniyatlari egri chizig'i tashqariga siljishiga nima sabab bo'ladi?",
+   "a": [
+    "Texnologiya va resurslarning o'sishi",
+    "Ishsizlikning ortishi",
+    "Resurslarning kamayishi",
+    "Urush va tabiiy ofatlar"
+   ],
+   "e": "Iqtisodiy o'sish."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Iqtisodiyotda \"mikro\" va \"makro\" tushunchalarini kim keng joriy qilgan?",
+   "a": [
+    "Ragnar Frish",
+    "Adam Smit",
+    "Karl Marks",
+    "Aristotel"
+   ],
+   "e": "1933-yil."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "\"Iqtisodiyot\" (oykonomiya) atamasi qaysi tildan kelib chiqqan?",
+   "a": [
+    "Qadimgi yunon tilidan",
+    "Lotin tilidan",
+    "Arab tilidan",
+    "Fors tilidan"
+   ],
+   "e": "\"Uy xo'jaligini boshqarish\"."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "\"Iqtisodiyot\" atamasini birinchi qo'llagan mutafakkir kim?",
+   "a": [
+    "Ksenofont",
+    "Adam Smit",
+    "Keyns",
+    "Ibn Xaldun"
+   ],
+   "e": "\"Oykonomikos\" asari."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Sharq mutafakkirlaridan qaysi biri iqtisodiy qarashlari bilan mashhur (davlat, mehnat taqsimoti haqida)?",
+   "a": [
+    "Ibn Xaldun",
+    "Isaak Nyuton",
+    "Galiley",
+    "Kopernik"
+   ],
+   "e": "\"Muqaddima\" asari."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Amir Temurning \"Temur tuzuklari\"da qaysi iqtisodiy masala yoritilgan?",
+   "a": [
+    "Soliq siyosati va davlat boshqaruvi",
+    "Kriptovalyuta muomalasi",
+    "Fond birjasi faoliyati",
+    "Elektron tijorat"
+   ],
+   "e": "Adolatli soliq tamoyili."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Alisher Navoiy \"Mahbub ul-qulub\" asarida qaysi kasb egalarini tavsiflagan?",
+   "a": [
+    "Turli toifadagi kasb-hunar va mansab egalarini",
+    "Faqat dasturchilarni",
+    "Faqat kosmonavtlarni",
+    "Faqat bankirlarni"
+   ],
+   "e": "Ijtimoiy-iqtisodiy qarashlar."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Yalpi milliy baxt indeksi qaysi mamlakatda taklif etilgan?",
+   "a": [
+    "Butan",
+    "AQSh",
+    "Germaniya",
+    "Yaponiya"
+   ],
+   "e": "Farovonlikning muqobil o'lchovi."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Inson taraqqiyoti indeksi qaysi ko'rsatkichlarni o'z ichiga oladi?",
+   "a": [
+    "Umr, ta'lim, daromad",
+    "Faqat YaIM",
+    "Faqat aholi soni",
+    "Faqat eksport"
+   ],
+   "e": "BMTTD hisoblaydi."
+  },
+  {
+   "b": "Iqtisodiyotga kirish",
+   "q": "Barqaror rivojlanish tushunchasining mohiyati nima?",
+   "a": [
+    "Kelajak avlod imkoniyatlariga zarar yetkazmay rivojlanish",
+    "Faqat bugungi foydani maksimallashtirish",
+    "Tabiiy resurslarni tezroq sarflash",
+    "Iqtisodiy o'sishni to'xtatish"
+   ],
+   "e": "BMT barqaror rivojlanish maqsadlari."
   }
  ]
 }
