@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "Farmakologiya",
+ "turi": "maxsus",
+ "manba": "Farmakologiya darsliklari (D.A. Xarkevich, M.D. Mashkovskiy \"Dori vositalari\"), tibbiyot kollejlari o'quv dasturi, O'zbekiston Respublikasi Davlat farmakopeyasi",
+ "savollar": [
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Farmakokinetika nimani o'rganadi?",
+   "a": [
+    "So'rilish, taqsimlanish, metabolizm, chiqarilish",
+    "Dorining retseptorlarga ta'sir mexanizmini",
+    "Dori ishlab chiqarish texnologiyasi va standartini",
+    "Dorining retseptorlarga bog'lanish mexanizmini"
+   ],
+   "e": "Organizm doriga nima qiladi."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Farmakodinamika nimani o'rganadi?",
+   "a": [
+    "Dorining organizmga ta'siri va mexanizmi",
+    "Dorining organizmdan chiqarilish yo'llarini",
+    "Dorining qonga so'rilish tezligi va hajmini",
+    "Dorining saqlash sharoitlarini"
+   ],
+   "e": "Dori organizmga nima qiladi."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Biokiraolishlik (biodostupnost) nima?",
+   "a": [
+    "Qonga o'zgarmay yetgan dori ulushi",
+    "Dorining jigarda parchalanish tezligi",
+    "Tabletkadagi ta'sir etuvchi moddaning umumiy miqdori",
+    "Dorining tabletkadagi umumiy miqdori"
+   ],
+   "e": "Venaga yuborilganda 100%."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Qaysi yuborish yo'lida biokiraolishlik 100% bo'ladi?",
+   "a": [
+    "Vena ichiga",
+    "Og'iz orqali",
+    "Teri ostiga",
+    "To'g'ri ichak orqali"
+   ],
+   "e": "Bevosita qonga."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Yarim chiqarilish davri (T½) nima?",
+   "a": [
+    "Qondagi konsentratsiyaning yarmiga tushish vaqti",
+    "Dorining oshqozondan to'liq so'rilish vaqti",
+    "Dori yaroqlilik muddatining yarmiga teng vaqt",
+    "Dorining saqlash muddatining yarmi"
+   ],
+   "e": "Dozalash oralig'ini belgilaydi."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Dori moddalar asosan qaysi a'zoda metabolizmga uchraydi?",
+   "a": [
+    "Jigarda",
+    "O'pkada",
+    "Yurakda",
+    "Taloqda"
+   ],
+   "e": "Mikrosomal fermentlar."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Dorilar organizmdan asosan qaysi a'zo orqali chiqariladi?",
+   "a": [
+    "Buyrak",
+    "Teri",
+    "O'pka",
+    "Sut bezlari"
+   ],
+   "e": "Siydik bilan."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "\"Birinchi o'tish effekti\" nima?",
+   "a": [
+    "Ichilgan dorining jigarda qisman parchalanishi",
+    "Dorining venaga birinchi marta yuborilishi",
+    "Dorining birinchi dozasiga allergiya",
+    "Dorining birinchi dozasiga allergik reaksiya"
+   ],
+   "e": "Masalan, nitroglitserin — shuning uchun til ostiga."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Nitroglitserin nima uchun til ostiga qo'yiladi?",
+   "a": [
+    "Jigarni chetlab, tez ta'sir qilishi uchun",
+    "Ta'mi achchiq bo'lmagani uchun qulay",
+    "Oshqozon shilliq qavatini himoya qilish uchun",
+    "Ta'sirini sekinlashtirish uchun"
+   ],
+   "e": "Sublingval yo'l."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Agonist nima?",
+   "a": [
+    "Retseptorni faollashtiruvchi modda",
+    "Retseptorni bloklab, ta'sirni to'xtatuvchi modda",
+    "Fermentni parchalovchi oqsil modda",
+    "Dorini eritib yuboruvchi suyuqlik"
+   ],
+   "e": "Antagonist — bloklaydi."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Antagonist nima?",
+   "a": [
+    "Retseptorni bloklovchi modda",
+    "Retseptorni kuchli faollashtiruvchi modda",
+    "Dori ta'sirini kuchaytiruvchi vitamin",
+    "Dorining chiqarilishini tezlashtiruvchi modda"
+   ],
+   "e": "Masalan, nalokson — opioid antagonisti."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Terapevtik kenglik (terapevtik indeks) nimani ko'rsatadi?",
+   "a": [
+    "Dorining xavfsizlik darajasini",
+    "Dorining sotuvdagi narxini",
+    "Dorining ta'm sifatini",
+    "Dorining ta'm va hid sifatini"
+   ],
+   "e": "Toksik va samarali dozalar nisbati."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Qaysi dori terapevtik kengligi tor bo'lgani bilan mashhur?",
+   "a": [
+    "Digoksin",
+    "Askorbin kislota",
+    "Paratsetamol kichik dozada",
+    "Natriy xlorid eritmasi"
+   ],
+   "e": "Glikozid intoksikatsiyasi xavfi."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Zarba dozasi (yuklovchi doza) nima?",
+   "a": [
+    "Tez samara uchun birinchi katta doza",
+    "Bolalar uchun mo'ljallangan yarim doza",
+    "Toksik ta'sir beradigan doza",
+    "Toksik ta'sir beradigan eng katta doza"
+   ],
+   "e": "Keyin qo'llab-quvvatlovchi doza."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Kumulyatsiya nima?",
+   "a": [
+    "Dorining organizmda to'planib qolishi",
+    "Dorining tez chiqib ketishi",
+    "Dorining ta'sirining yo'qolishi",
+    "Dorining boshqa dori bilan aralashishi"
+   ],
+   "e": "Masalan, yurak glikozidlari."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Takroriy qabulda dori ta'sirining susayishi qanday ataladi?",
+   "a": [
+    "Tolerantlik",
+    "Kumulyatsiya",
+    "Sinergizm",
+    "Idiosinkraziya"
+   ],
+   "e": "Dozani oshirish talab etiladi."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Dori qaramligi (narkomaniya) nima?",
+   "a": [
+    "Doriga ruhiy va jismoniy bog'lanish",
+    "Dorining oshqozonda tez so'rilishi",
+    "Dorining organizmda to'planishi",
+    "Dorining organizmda to'planib qolishi"
+   ],
+   "e": "Opioidlar, benzodiazepinlar."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Ikki dori birga berilganda ta'sirning kuchayishi qanday ataladi?",
+   "a": [
+    "Sinergizm",
+    "Antagonizm",
+    "Tolerantlik",
+    "Taxifilaksiya"
+   ],
+   "e": "Additiv yoki potensirlangan."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Dorining kutilmagan, irsiy sabablar bilan bog'liq g'ayrioddiy reaksiyasi qanday ataladi?",
+   "a": [
+    "Idiosinkraziya",
+    "Tolerantlik",
+    "Kumulyatsiya",
+    "Sinergizm"
+   ],
+   "e": "Ferment yetishmovchiligi bilan bog'liq."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Teratogen ta'sir nima?",
+   "a": [
+    "Homilaga zarar, tug'ma nuqsonlar",
+    "Eshitish nerviga zararli ta'sir",
+    "Eshitishga zararli ta'sir",
+    "Jigar hujayralariga zararli ta'sir"
+   ],
+   "e": "Homiladorlikda ehtiyotkorlik."
+  },
+  {
+   "b": "Umumiy farmakologiya",
+   "q": "Homiladorlikda qaysi dorini qo'llash taqiqlangan (teratogen)?",
+   "a": [
+    "Talidomid",
+    "Foliy kislota",
+    "Temir preparatlari",
+    "Yod preparati profilaktik dozada"
+   ],
+   "e": "Tarixiy fojia (1950–60-yillar)."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Qattiq dori shakllariga qaysilar kiradi?",
+   "a": [
+    "Tabletka, kapsula, kukun",
+    "Eritma, nastoy, damlama va sirop",
+    "Malham, pasta, liniment",
+    "Malham, pasta, liniment va gel"
+   ],
+   "e": "Dori shakllari tasnifi."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Suyuq dori shakllariga qaysilar kiradi?",
+   "a": [
+    "Eritma, damlama, sirop, suspenziya",
+    "Tabletka va drajelar",
+    "Malham, pasta va shamchalar",
+    "Tabletka, draje va kapsulalar"
+   ],
+   "e": "Ichish yoki tashqi."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Yumshoq dori shakllariga qaysilar kiradi?",
+   "a": [
+    "Malham, pasta, sham",
+    "Tabletka va kapsula",
+    "Eritma va sirop",
+    "Kukun va granulalar"
+   ],
+   "e": "Tashqi yoki rektal."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Enteral yuborish yo'llariga qaysi kiradi?",
+   "a": [
+    "Og'iz, til osti, to'g'ri ichak orqali",
+    "Vena ichiga, mushak ichiga",
+    "Vena ichiga va mushak ichiga in'eksiya",
+    "Teri ostiga va teri ichiga in'eksiya"
+   ],
+   "e": "Oshqozon-ichak trakti orqali."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Parenteral yuborish yo'llariga qaysi kiradi?",
+   "a": [
+    "In'eksiya (vena, mushak, teri osti)",
+    "Og'iz orqali tabletka",
+    "Til ostiga tabletka",
+    "To'g'ri ichakka sham"
+   ],
+   "e": "OIT ni chetlab o'tadi."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Mushak ichiga in'eksiya asosan qayerga qilinadi?",
+   "a": [
+    "Dumbaning yuqori tashqi kvadrantiga",
+    "Dumbaning pastki ichki kvadrantiga",
+    "Bilakning ichki yuzasi o'rta qismiga",
+    "Qorinning o'rta chizig'iga"
+   ],
+   "e": "Quymich nervi shikastlanmasligi uchun."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Teri ichiga (intradermal) in'eksiya qaysi maqsadda ko'proq qilinadi?",
+   "a": [
+    "Allergik sinamalar va Mantu sinamasi",
+    "Katta hajmdagi suyuqlik yuborish",
+    "Shoshilinch reanimatsiya tadbirlarida",
+    "Katta hajmdagi suyuqlikni tez yuborish"
+   ],
+   "e": "Kichik hajm."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Enterik qobiqli (ichakda eriydigan) tabletkani qanday qabul qilish kerak?",
+   "a": [
+    "Butunligicha, maydalamasdan",
+    "Maydalab, suvda eritib",
+    "Maydalab, suvda eritib ichish",
+    "Chaynab, so'rib, til ustida ushlab turish"
+   ],
+   "e": "Qobiq oshqozonda erimasligi kerak."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Shamchalar (suppozitoriylar) qanday yuboriladi?",
+   "a": [
+    "To'g'ri ichak yoki qin orqali",
+    "Og'iz orqali yutib",
+    "Og'iz orqali suv bilan yutib",
+    "Burun yo'llari orqali tomizib"
+   ],
+   "e": "Rektal/vaginal."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Ingalyatsion yo'l qaysi kasalliklarda ko'p qo'llanadi?",
+   "a": [
+    "Bronxial astma",
+    "Surunkali ich qotishi",
+    "Terining yiringli yarasi",
+    "Suyak sinishi"
+   ],
+   "e": "Salbutamol ingalyatori."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Damlama (nastoy) qanday tayyorlanadi?",
+   "a": [
+    "Xom ashyoga qaynoq suv quyib tindiriladi",
+    "O'simlik moy bilan qizdiriladi",
+    "O'simlik moy bilan aralashtiriladi",
+    "O'simlik quritilib kukun qilinadi"
+   ],
+   "e": "Gul, barg uchun."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Qaynatma (otvar) ko'pincha qaysi xom ashyodan tayyorlanadi?",
+   "a": [
+    "Ildiz, po'stloq kabi qattiq qismlar",
+    "Faqat gul va gulbarglardan",
+    "Faqat urug'lardan siqib olingan moydan",
+    "Faqat mevalar sharbatidan"
+   ],
+   "e": "Uzoqroq qaynatiladi."
+  },
+  {
+   "b": "Dori shakllari va yuborish yo'llari",
+   "q": "Nastoyka (tinktura) qanday tayyorlanadi?",
+   "a": [
+    "O'simlikni spirtda ivitib",
+    "O'simlikni suvda qaynatib",
+    "O'simlikni moy bilan qizdirib",
+    "O'simlikni quritib, maydalab"
+   ],
+   "e": "Spirtli ekstrakt."
+  },
+  {
+   "b": "Vegetativ nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Atropin qaysi guruhga mansub?",
+   "a": [
+    "M-xolinoblokatorlar",
+    "Beta-adrenoblokatorlar",
+    "Narkotik analgetiklar",
+    "Antibiotiklar"
+   ],
+   "e": "Belladonna alkaloidi."
+  },
+  {
+   "b": "Vegetativ nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Atropinning ta'siriga xos belgi qaysi?",
+   "a": [
+    "Ko'z qorachig'ining kengayishi va og'iz qurishi",
+    "Ko'z qorachig'ining torayishi va so'lak oqishi",
+    "Bradikardiya va ichak peristaltikasining kuchayishi",
+    "Kuchli ter ajralishi va bronxlar torayishi"
+   ],
+   "e": "Paraimpatik blokada."
+  },
+  {
+   "b": "Vegetativ nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Fosfororganik birikmalar (FOB) bilan zaharlanishda antidot sifatida nima qo'llanadi?",
+   "a": [
+    "Atropin",
+    "Adrenalin",
+    "Nalokson",
+    "Vitamin K"
+   ],
+   "e": "Xolinesteraza reaktivatorlari ham."
+  },
+  {
+   "b": "Vegetativ nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Pilokarpin glaukomada nima uchun qo'llanadi?",
+   "a": [
+    "Ko'z qorachig'ini toraytirib, ko'z ichi bosimini pasaytiradi",
+    "Ko'z qorachig'ini kengaytirib, bosimni oshiradi",
+    "Ko'z mushaklarini falajlaydi",
+    "Ko'z mushaklarini falajlab, akkomodatsiyani to'xtatadi"
+   ],
+   "e": "M-xolinomimetik."
+  },
+  {
+   "b": "Vegetativ nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Anafilaktik shokda birinchi navbatda qaysi dori yuboriladi?",
+   "a": [
+    "Adrenalin",
+    "Atropin",
+    "Furosemid",
+    "Paratsetamol"
+   ],
+   "e": "Mushak ichiga 0,1% eritma."
+  },
+  {
+   "b": "Vegetativ nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Propranolol qaysi guruhga kiradi?",
+   "a": [
+    "Beta-adrenoblokatorlar",
+    "Alfa-adrenomimetiklar",
+    "M-xolinoblokatorlar",
+    "Kalsiy kanali blokatorlari"
+   ],
+   "e": "Noselektiv beta-blokator."
+  },
+  {
+   "b": "Vegetativ nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Noselektiv beta-blokatorlar qaysi kasallikda ehtiyotkorlik bilan qo'llanadi (yoki mumkin emas)?",
+   "a": [
+    "Bronxial astma",
+    "Arterial gipertenziya",
+    "Stenokardiya",
+    "Taxikardiya"
+   ],
+   "e": "Bronxospazm xavfi."
+  },
+  {
+   "b": "Vegetativ nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Salbutamol qanday ta'sir ko'rsatadi?",
+   "a": [
+    "Bronxlarni kengaytiradi (beta-2 agonist)",
+    "Qon bosimini keskin oshirib, bradikardiya beradi",
+    "Qon bosimini keskin oshiradi",
+    "Bronxlarni toraytirib, spazm chaqiradi"
+   ],
+   "e": "Astma xurujida ingalyatsiya."
+  },
+  {
+   "b": "Vegetativ nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Naftizin (nafazolin) tomchilari qanday ta'sir ko'rsatadi?",
+   "a": [
+    "Burun shilliq qavati tomirlarini toraytiradi",
+    "Burundagi bakteriyalarni o'ldiradi",
+    "Burundagi bakteriyalarni o'ldirib, yiringni yo'qotadi",
+    "Burun shilliq bezlarining faoliyatini kuchaytiradi"
+   ],
+   "e": "Alfa-adrenomimetik; uzoq qo'llash mumkin emas."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Morfin qaysi guruhga mansub?",
+   "a": [
+    "Narkotik (opioid) analgetiklar",
+    "Nonarkotik analgetiklar",
+    "Mahalliy og'riqsizlantiruvchi vositalar",
+    "Nonarkotik analgetik-antipiretiklar"
+   ],
+   "e": "Kuchli og'riq qoldiruvchi."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Morfin bilan o'tkir zaharlanishning asosiy belgisi qaysi?",
+   "a": [
+    "Nafasning susayishi va qorachiqning nuqtadek torayishi",
+    "Qorachiqning kengayishi va taxikardiya",
+    "Qorachiqning kengayishi va kuchli taxikardiya",
+    "Isitma, qaltirash va kuchli ter ajralishi"
+   ],
+   "e": "Nafas markazi falaji xavfi."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Opioidlar bilan zaharlanishda antidot qaysi?",
+   "a": [
+    "Nalokson",
+    "Atropin",
+    "Flumazenil",
+    "Protamin sulfat"
+   ],
+   "e": "Opioid retseptor antagonisti."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Benzodiazepinlar bilan zaharlanishda antidot qaysi?",
+   "a": [
+    "Flumazenil",
+    "Nalokson",
+    "Atropin",
+    "Unitiol"
+   ],
+   "e": "Benzodiazepin retseptor antagonisti."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Diazepam qaysi guruhga kiradi?",
+   "a": [
+    "Trankvilizatorlar (anksiolitiklar)",
+    "Neyroleptiklar (antipsixotiklar)",
+    "Psixostimulyatorlar va analeptiklar",
+    "Narkotik analgetiklar"
+   ],
+   "e": "Benzodiazepin."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Lidokain qanday ta'sir ko'rsatadi?",
+   "a": [
+    "Mahalliy og'riqsizlantiradi",
+    "Umumiy narkoz holatini chaqiradi",
+    "Bakteriyalarni o'ldiradi",
+    "Mikroblarga qarshi bakteritsid ta'sir qiladi"
+   ],
+   "e": "Shuningdek antiaritmik."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Mahalliy anestetik novokain qanday ta'sir qiladi?",
+   "a": [
+    "Nerv impulsi o'tkazilishini to'sadi",
+    "Qonni suyultirib, trombozni oldini oladi",
+    "Mushaklarni falajlaydi",
+    "Bosh miyani to'liq uxlatib qo'yadi"
+   ],
+   "e": "Natriy kanallari."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Kofein qaysi guruhga mansub?",
+   "a": [
+    "Psixostimulyatorlar",
+    "Trankvilizatorlar",
+    "Uxlatuvchi vositalar",
+    "Narkotik analgetiklar"
+   ],
+   "e": "MNS ni qo'zg'atadi."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Fenobarbital qanday ta'sirga ega?",
+   "a": [
+    "Uxlatuvchi va tutqanoqqa qarshi",
+    "Psixostimulyator va qo'zg'atuvchi",
+    "Og'riq qoldiruvchi narkotik",
+    "Antibakterial"
+   ],
+   "e": "Barbiturat."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Haloperidol qaysi guruhga kiradi?",
+   "a": [
+    "Neyroleptiklar (antipsixotiklar)",
+    "Antidepressantlar",
+    "Trisiklik antidepressantlar",
+    "Nootrop va psixostimulyator vositalar"
+   ],
+   "e": "Psixozlarda."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Amitriptilin qaysi guruhga mansub?",
+   "a": [
+    "Antidepressantlar",
+    "Neyroleptiklar",
+    "Trankvilizatorlar",
+    "Psixostimulyatorlar"
+   ],
+   "e": "Trisiklik antidepressant."
+  },
+  {
+   "b": "Markaziy nerv tizimiga ta'sir etuvchi vositalar",
+   "q": "Pirasetam qaysi guruhga kiradi?",
+   "a": [
+    "Nootrop vositalar",
+    "Neyroleptiklar",
+    "Uxlatuvchi vositalar",
+    "Narkotik analgetiklar"
+   ],
+   "e": "Miya faoliyatini yaxshilaydi."
+  },
+  {
+   "b": "Og'riq qoldiruvchi va yallig'lanishga qarshi vositalar",
+   "q": "Nosteroid yallig'lanishga qarshi vositalarga (NYaQV) qaysi biri kiradi?",
+   "a": [
+    "Ibuprofen",
+    "Prednizolon",
+    "Morfin",
+    "Insulin"
+   ],
+   "e": "Diklofenak, indometatsin ham."
+  },
+  {
+   "b": "Og'riq qoldiruvchi va yallig'lanishga qarshi vositalar",
+   "q": "NYaQVlarning eng xarakterli nojo'ya ta'siri qaysi?",
+   "a": [
+    "Oshqozon shilliq qavatining shikastlanishi",
+    "Sochning to'kilishi va teri rangining o'zgarishi",
+    "Ko'rishning keskin yaxshilanishi",
+    "Ko'rishning keskin yaxshilanishi va uyquchanlik"
+   ],
+   "e": "Yara xavfi."
+  },
+  {
+   "b": "Og'riq qoldiruvchi va yallig'lanishga qarshi vositalar",
+   "q": "Atsetilsalitsil kislota (aspirin) kichik dozada qaysi maqsadda qo'llanadi?",
+   "a": [
+    "Trombotsitlar agregatsiyasini kamaytirish",
+    "Qon ivishini kuchaytirish",
+    "Qon ivishini kuchaytirib, qon ketishni to'xtatish",
+    "Uyqu chaqirish va tinchlantirish"
+   ],
+   "e": "Tromboz profilaktikasi."
+  },
+  {
+   "b": "Og'riq qoldiruvchi va yallig'lanishga qarshi vositalar",
+   "q": "Bolalarda virusli infeksiyada aspirin nima uchun tavsiya etilmaydi?",
+   "a": [
+    "Rey sindromi xavfi tufayli",
+    "Ta'mi yoqimsiz bo'lgani uchun",
+    "Samarasi umuman yo'qligi uchun",
+    "Narxi qimmat bo'lgani uchun"
+   ],
+   "e": "Jigar va miya shikastlanishi."
+  },
+  {
+   "b": "Og'riq qoldiruvchi va yallig'lanishga qarshi vositalar",
+   "q": "Paratsetamolning dozasi oshirib yuborilganda qaysi a'zo ko'proq zararlanadi?",
+   "a": [
+    "Jigar",
+    "O'pka",
+    "Yurak",
+    "Teri"
+   ],
+   "e": "Antidot — atsetilsistein."
+  },
+  {
+   "b": "Og'riq qoldiruvchi va yallig'lanishga qarshi vositalar",
+   "q": "Paratsetamol bilan zaharlanishda antidot qaysi?",
+   "a": [
+    "Atsetilsistein",
+    "Nalokson",
+    "Atropin",
+    "Vitamin K"
+   ],
+   "e": "Glutation zahirasini tiklaydi."
+  },
+  {
+   "b": "Og'riq qoldiruvchi va yallig'lanishga qarshi vositalar",
+   "q": "Paratsetamolda qaysi ta'sir deyarli yo'q?",
+   "a": [
+    "Yallig'lanishga qarshi ta'sir",
+    "Isitma tushiruvchi ta'sir",
+    "Og'riq qoldiruvchi ta'sir",
+    "Yuqoridagilarning hammasi kuchli"
+   ],
+   "e": "Analgetik-antipiretik."
+  },
+  {
+   "b": "Og'riq qoldiruvchi va yallig'lanishga qarshi vositalar",
+   "q": "Metamizol natriy (analgin) uzoq qo'llanganda qanday xavfli asorat beradi?",
+   "a": [
+    "Agranulotsitoz",
+    "Gipertrikoz",
+    "Gipertoniya",
+    "Giperglikemiya"
+   ],
+   "e": "Qon tarkibi o'zgarishi."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Penitsillinni kim kashf etgan?",
+   "a": [
+    "Aleksandr Fleming",
+    "Lui Paster",
+    "Robert Kox",
+    "Edvard Jenner"
+   ],
+   "e": "1928-yil."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Penitsillinlar qaysi guruhga mansub?",
+   "a": [
+    "Beta-laktamlar",
+    "Aminoglikozidlar",
+    "Makrolidlar",
+    "Tetratsiklinlar"
+   ],
+   "e": "Hujayra devori sinteziga ta'sir."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Penitsillin va sefalosporinlarning ta'sir mexanizmi nima?",
+   "a": [
+    "Bakteriya hujayra devori sintezini buzadi",
+    "Bakteriya DNK girazasini to'sib qo'yadi",
+    "Bakteriya DNK girazasini to'sadi",
+    "Bakteriya ribosomasidagi oqsil sintezini bloklaydi"
+   ],
+   "e": "Bakteritsid ta'sir."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Penitsillinga eng xavfli nojo'ya reaksiya qaysi?",
+   "a": [
+    "Anafilaktik shok",
+    "Tishlarning sarg'ayishi",
+    "Eshitishning pasayishi",
+    "Siydikning qizarishi"
+   ],
+   "e": "Allergik sinama zarur."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Aminoglikozidlarga (gentamitsin, amikatsin) xos nojo'ya ta'sir qaysi?",
+   "a": [
+    "Oto- va nefrotoksiklik",
+    "Tishlarning sarg'ayishi",
+    "Gipoglikemiya",
+    "Qon bosimining oshishi"
+   ],
+   "e": "Eshitish va buyrak shikastlanishi."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Tetratsiklinlar nima uchun 8 yoshgacha bolalarga tavsiya etilmaydi?",
+   "a": [
+    "Tish emali va suyak rivojlanishiga zarar yetkazadi",
+    "Bolalar organizmida umuman so'rilmagani uchun",
+    "Bolalarda umuman ta'sir qilmagani uchun",
+    "Ta'mi juda achchiq va yoqimsiz bo'lgani uchun"
+   ],
+   "e": "Kalsiy bilan birikadi."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Ftorxinolonlar (siprofloksatsin) bolalarda nima uchun cheklanadi?",
+   "a": [
+    "Tog'ay to'qimasi rivojlanishiga zararli ta'sir tufayli",
+    "Faqat ta'mi yoqimsiz va achchiqligi tufayli",
+    "Bolalar organizmida juda tez parchalanishi tufayli",
+    "Faqat in'eksiyada mavjudligi tufayli"
+   ],
+   "e": "Artropatiya xavfi."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Azitromitsin qaysi guruhga mansub?",
+   "a": [
+    "Makrolidlar",
+    "Penitsillinlar",
+    "Aminoglikozidlar",
+    "Ftorxinolonlar"
+   ],
+   "e": "Eritromitsin ham makrolid."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Metronidazol qaysi mikroorganizmlarga qarshi samarali?",
+   "a": [
+    "Anaeroblar va sodda jonivorlar",
+    "Faqat gripp va gerpes viruslari",
+    "Faqat zamburug'lar va achitqi hujayralari",
+    "Faqat sil mikobakteriyasi"
+   ],
+   "e": "Alkogol bilan mos emas."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Metronidazol qabul qilganda nima taqiqlanadi?",
+   "a": [
+    "Spirtli ichimlik ichish",
+    "Sut mahsulotlari va non iste'mol qilish",
+    "Non yeyish",
+    "Ko'p miqdorda suv va sharbat ichish"
+   ],
+   "e": "Disulfiramga o'xshash reaksiya."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Antibiotiklarni noto'g'ri qo'llashning asosiy xavfi nima?",
+   "a": [
+    "Antibiotiklarga chidamlilik rivojlanishi",
+    "Immunitetning keskin kuchayishi",
+    "Organizmda vitaminlarning ortiqcha to'planishi",
+    "Immunitetning keskin va tez kuchayishi"
+   ],
+   "e": "Rezistentlik."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Antibiotik kursini o'zboshimchalik bilan erta to'xtatish nimaga olib keladi?",
+   "a": [
+    "Infeksiya qaytalanishi va chidamlilik",
+    "Tezroq va asoratsiz sog'ayib ketish",
+    "Allergiyaning yo'qolishi",
+    "Dorining ta'siri yanada kuchayib ketishi"
+   ],
+   "e": "To'liq kurs."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Antibiotiklar qaysi kasalliklarni davolashda samarasiz?",
+   "a": [
+    "Virusli infeksiyalar",
+    "Bakterial angina va tonzillit",
+    "Bakterial pnevmoniya va bronxit",
+    "Yiringli infeksiyalar"
+   ],
+   "e": "Viruslarga ta'sir qilmaydi."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Uzoq antibiotik qo'llash qanday asoratga olib kelishi mumkin?",
+   "a": [
+    "Disbakterioz va kandidoz",
+    "Bo'yning o'sishi",
+    "Ko'rishning yaxshilanishi",
+    "Sochning qalinlashishi"
+   ],
+   "e": "Normal mikroflora buziladi."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Sil kasalligini davolashda qo'llanadigan asosiy dori qaysi?",
+   "a": [
+    "Izoniazid",
+    "Penitsillin",
+    "Nistatin",
+    "Atsiklovir"
+   ],
+   "e": "Rifampitsin bilan birga."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Rifampitsin qabul qilganda siydik qanday rangga bo'yaladi?",
+   "a": [
+    "Qizg'ish-to'q sariq",
+    "Yashil",
+    "Ko'k",
+    "Rangsiz bo'lib qoladi"
+   ],
+   "e": "Bemorni ogohlantirish kerak."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Zamburug'ga qarshi (antimikotik) dori qaysi?",
+   "a": [
+    "Flukonazol",
+    "Amoksitsillin",
+    "Izoniazid",
+    "Atsiklovir"
+   ],
+   "e": "Nistatin, klotrimazol ham."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Gerpes virusiga qarshi qo'llanadigan dori qaysi?",
+   "a": [
+    "Atsiklovir",
+    "Nistatin",
+    "Gentamitsin",
+    "Metronidazol"
+   ],
+   "e": "Virusga qarshi."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Grippga qarshi neyraminidaza ingibitori qaysi?",
+   "a": [
+    "Oseltamivir",
+    "Atsiklovir",
+    "Flukonazol",
+    "Siprofloksatsin"
+   ],
+   "e": "Erta boshlash samarali."
+  },
+  {
+   "b": "Antimikrob vositalar",
+   "q": "Sulfanilamidlar bilan davolashda nima tavsiya etiladi?",
+   "a": [
+    "Ko'p suyuqlik ichish",
+    "Suyuqlikni keskin cheklash",
+    "Faqat quruq ovqat yeyish",
+    "Ko'p tuz iste'mol qilish"
+   ],
+   "e": "Buyrakda kristallanmasligi uchun."
+  },
+  {
+   "b": "Antiseptik va dezinfeksiyalovchi vositalar",
+   "q": "Antiseptik nima?",
+   "a": [
+    "Tirik to'qimadagi mikroblarni yo'qotuvchi vosita",
+    "Qon ivishini kuchaytiruvchi vosita",
+    "Og'riqni qoldiruvchi mahalliy anestetik",
+    "Qon ivishini kuchaytiruvchi gemostatik vosita"
+   ],
+   "e": "Yara, teri, shilliq qavat."
+  },
+  {
+   "b": "Antiseptik va dezinfeksiyalovchi vositalar",
+   "q": "Antiseptik sifatida etil spirtining eng samarali konsentratsiyasi qaysi?",
+   "a": [
+    "70%",
+    "10%",
+    "40%",
+    "100%"
+   ],
+   "e": "Oqsilni yaxshi denaturatsiya qiladi."
+  },
+  {
+   "b": "Antiseptik va dezinfeksiyalovchi vositalar",
+   "q": "Vodorod peroksidning tibbiyotda qo'llanadigan konsentratsiyasi qaysi?",
+   "a": [
+    "3%",
+    "30%",
+    "0,1%",
+    "70%"
+   ],
+   "e": "Mexanik tozalash, ko'pik."
+  },
+  {
+   "b": "Antiseptik va dezinfeksiyalovchi vositalar",
+   "q": "Brilliant yashil (zelyonka) qanday qo'llanadi?",
+   "a": [
+    "Teri va jarohatlarni dezinfeksiyalash",
+    "Ichga qabul qilish uchun",
+    "Ichga qabul qilinadigan tinchlantiruvchi",
+    "Venaga yuboriladigan antibiotik"
+   ],
+   "e": "1% spirtli eritma."
+  },
+  {
+   "b": "Antiseptik va dezinfeksiyalovchi vositalar",
+   "q": "Kaliy permanganat eritmasi qanday ta'sirga ega?",
+   "a": [
+    "Oksidlovchi antiseptik ta'sir",
+    "Og'riqsizlantiruvchi ta'sir",
+    "Mahalliy og'riqsizlantiruvchi ta'sir",
+    "Qon ivishini sekinlashtiruvchi ta'sir"
+   ],
+   "e": "Yaralarni yuvish, me'da yuvish."
+  },
+  {
+   "b": "Antiseptik va dezinfeksiyalovchi vositalar",
+   "q": "Xlorgeksidin qaysi maqsadda keng qo'llanadi?",
+   "a": [
+    "Teri, qo'l, shilliq qavatga ishlov berish",
+    "Qon bosimini tushirishda",
+    "Arterial qon bosimini tushirishda",
+    "Yuqori isitmani tez tushirishda"
+   ],
+   "e": "Bigluconat eritmasi."
+  },
+  {
+   "b": "Antiseptik va dezinfeksiyalovchi vositalar",
+   "q": "Yodning spirtli eritmasi qanday konsentratsiyada qo'llanadi?",
+   "a": [
+    "5%",
+    "50%",
+    "0,01%",
+    "25%"
+   ],
+   "e": "Jarohat atrofi."
+  },
+  {
+   "b": "Antiseptik va dezinfeksiyalovchi vositalar",
+   "q": "Dezinfeksiya nima?",
+   "a": [
+    "Atrof-muhit ob'ektlaridagi mikroblarni yo'qotish",
+    "Organizmdagi barcha mikroblarni yo'qotish",
+    "Faqat yarani bog'lash",
+    "Faqat yarani bog'lab, toza saqlash"
+   ],
+   "e": "Asboblar, yuzalar."
+  },
+  {
+   "b": "Antiseptik va dezinfeksiyalovchi vositalar",
+   "q": "Sterilizatsiya nima?",
+   "a": [
+    "Barcha mikrob va sporalarni yo'qotish",
+    "Faqat yuzani changdan tozalash",
+    "Faqat qo'lni sovun bilan yuvish",
+    "Faqat yuzani changdan tozalab artish"
+   ],
+   "e": "Avtoklav, quruq issiqlik."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Digoksin qaysi guruhga mansub?",
+   "a": [
+    "Yurak glikozidlari",
+    "Beta-blokatorlar",
+    "Diuretiklar",
+    "Nitratlar"
+   ],
+   "e": "Angishvonagul (digitalis) o'simligidan."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Yurak glikozidlari bilan zaharlanish belgisiga qaysi biri kiradi?",
+   "a": [
+    "Bradikardiya, ko'ngil aynishi, ko'rish buzilishi",
+    "Taxikardiya va qon bosimining oshishi",
+    "Taxikardiya va qon bosimining keskin oshishi",
+    "Yuqori isitma, qaltirash va teri toshmasi"
+   ],
+   "e": "Ranglarni sariq-yashil ko'rish."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Stenokardiya xurujini tez to'xtatish uchun qaysi dori qo'llanadi?",
+   "a": [
+    "Nitroglitserin til ostiga",
+    "Furosemid mushak ichiga in'eksiya",
+    "Furosemid mushak ichiga",
+    "Digoksin tabletkasi og'iz orqali"
+   ],
+   "e": "Toj tomirlarni kengaytiradi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Nitroglitserinning ko'p uchraydigan nojo'ya ta'siri qaysi?",
+   "a": [
+    "Bosh og'rig'i",
+    "Bradikardiya",
+    "Gipertoniya",
+    "Ich qotishi"
+   ],
+   "e": "Miya tomirlari kengayishi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Kaptopril va enalapril qaysi guruhga mansub?",
+   "a": [
+    "APF ingibitorlari",
+    "Beta-blokatorlar",
+    "Kalsiy blokatorlari",
+    "Yurak glikozidlari"
+   ],
+   "e": "Angiotenzin aylantiruvchi ferment."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "APF ingibitorlarining xarakterli nojo'ya ta'siri qaysi?",
+   "a": [
+    "Quruq yo'tal",
+    "Sochning to'kilishi",
+    "Ishtahaning ortishi",
+    "Siydikning qizarishi"
+   ],
+   "e": "Bradikinin to'planishi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Amlodipin qaysi guruhga kiradi?",
+   "a": [
+    "Kalsiy blokatorlari",
+    "APF ingibitorlari",
+    "Diuretiklar",
+    "Alfa-blokatorlar"
+   ],
+   "e": "Nifedipin ham."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Furosemid qanday dori?",
+   "a": [
+    "Kuchli (halqa) diuretik",
+    "Kaliy tejovchi diuretik",
+    "Yurak glikozidi",
+    "Antikoagulyant"
+   ],
+   "e": "O'pka shishida."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Furosemidni uzoq qo'llaganda qaysi elektrolit yo'qotiladi?",
+   "a": [
+    "Kaliy",
+    "Natriy ortiqcha to'planadi",
+    "Temir",
+    "Yod"
+   ],
+   "e": "Gipokaliemiya xavfi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Kaliy tejovchi diuretik qaysi?",
+   "a": [
+    "Spironolakton",
+    "Furosemid",
+    "Gidroxlortiazid",
+    "Mannit"
+   ],
+   "e": "Aldosteron antagonisti."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Gipertonik krizda tez ta'sir qiluvchi vositaga misol qaysi?",
+   "a": [
+    "Kaptopril",
+    "Digoksin",
+    "Vitamin C",
+    "Temir sulfat"
+   ],
+   "e": "Shoshilinch yordam."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi vositalari",
+   "q": "Statinlar (atorvastatin) qanday ta'sirga ega?",
+   "a": [
+    "Qondagi xolesterinni kamaytiradi",
+    "Qon bosimini keskin oshiradi",
+    "Qondagi shakar miqdorini oshiradi",
+    "Qon bosimini keskin oshirib yuboradi"
+   ],
+   "e": "Ateroskleroz profilaktikasi."
+  },
+  {
+   "b": "Qon tizimiga ta'sir etuvchi vositalar",
+   "q": "Geparin qanday ta'sirga ega?",
+   "a": [
+    "Qon ivishini sekinlashtiradi (antikoagulyant)",
+    "Eritrotsitlar hosil bo'lishini tezlashtiradi",
+    "Eritrotsitlar hosil bo'lishini oshiradi",
+    "Qon ivishini kuchaytirib, qon ketishni to'xtatadi"
+   ],
+   "e": "To'g'ridan-to'g'ri antikoagulyant."
+  },
+  {
+   "b": "Qon tizimiga ta'sir etuvchi vositalar",
+   "q": "Geparin dozasi oshib ketganda antidot qaysi?",
+   "a": [
+    "Protamin sulfat",
+    "Vitamin K",
+    "Nalokson",
+    "Atropin"
+   ],
+   "e": "Geparinni neytrallaydi."
+  },
+  {
+   "b": "Qon tizimiga ta'sir etuvchi vositalar",
+   "q": "Varfarin dozasi oshib ketganda antidot qaysi?",
+   "a": [
+    "Vitamin K",
+    "Protamin sulfat",
+    "Flumazenil",
+    "Kalsiy xlorid"
+   ],
+   "e": "Bilvosita antikoagulyant."
+  },
+  {
+   "b": "Qon tizimiga ta'sir etuvchi vositalar",
+   "q": "Vikasol qaysi vitaminning sintetik analogi?",
+   "a": [
+    "Vitamin K",
+    "Vitamin C",
+    "Vitamin B12",
+    "Vitamin D"
+   ],
+   "e": "Qon to'xtatuvchi."
+  },
+  {
+   "b": "Qon tizimiga ta'sir etuvchi vositalar",
+   "q": "Aminokapron kislota qanday maqsadda qo'llanadi?",
+   "a": [
+    "Qon ketishini to'xtatish",
+    "Qonni suyultirib, trombni eritish",
+    "Kuchli og'riqni tez qoldirish",
+    "Isitmani tushirish"
+   ],
+   "e": "Gemostatik."
+  },
+  {
+   "b": "Qon tizimiga ta'sir etuvchi vositalar",
+   "q": "Temir tanqisligi anemiyasida qaysi dori qo'llanadi?",
+   "a": [
+    "Temir preparatlari",
+    "Vitamin K",
+    "Geparin",
+    "Furosemid"
+   ],
+   "e": "Vitamin C bilan yaxshi so'riladi."
+  },
+  {
+   "b": "Qon tizimiga ta'sir etuvchi vositalar",
+   "q": "Temir preparatlari qabul qilinganda najas qanday rangga kiradi?",
+   "a": [
+    "Qora",
+    "Yashil",
+    "Oq",
+    "Qizil"
+   ],
+   "e": "Bemorni ogohlantirish kerak."
+  },
+  {
+   "b": "Qon tizimiga ta'sir etuvchi vositalar",
+   "q": "B12-tanqislik anemiyasida qaysi dori qo'llanadi?",
+   "a": [
+    "Sianokobalamin",
+    "Temir sulfat",
+    "Askorbin kislota",
+    "Vikasol"
+   ],
+   "e": "Vitamin B12."
+  },
+  {
+   "b": "Qon tizimiga ta'sir etuvchi vositalar",
+   "q": "Foliy kislota homiladorlikda nima uchun tavsiya etiladi?",
+   "a": [
+    "Nerv nayi nuqsonlarining oldini olish",
+    "Tug'ruqni tezlashtirish uchun",
+    "Homiladorlikda qon bosimini oshirish uchun",
+    "Tug'ruq jarayonini tezlashtirish uchun"
+   ],
+   "e": "Rejalashtirish bosqichidan."
+  },
+  {
+   "b": "Nafas va hazm tizimi vositalari",
+   "q": "Ambroksol qanday ta'sirga ega?",
+   "a": [
+    "Balg'am ko'chiruvchi (mukolitik)",
+    "Yo'talni markaziy bostiruvchi",
+    "Bronxlarni toraytiruvchi vosita",
+    "Yo'tal markazini markaziy bostiruvchi"
+   ],
+   "e": "Balg'amni suyultiradi."
+  },
+  {
+   "b": "Nafas va hazm tizimi vositalari",
+   "q": "Kodein qanday yo'talga qarshi vosita?",
+   "a": [
+    "Markaziy ta'sirli (yo'tal markazini bostiradi)",
+    "Balg'am ko'chiruvchi",
+    "Bronxlarni kengaytiruvchi (bronxolitik)",
+    "Balg'amni suyultirib ko'chiruvchi (mukolitik)"
+   ],
+   "e": "Opioid, qaramlik xavfi."
+  },
+  {
+   "b": "Nafas va hazm tizimi vositalari",
+   "q": "Omeprazol qaysi guruhga mansub?",
+   "a": [
+    "Proton pompasi blokatorlari",
+    "Antatsidlar",
+    "Laksativlar",
+    "Antibiotiklar"
+   ],
+   "e": "Kislota sekretsiyasini kamaytiradi."
+  },
+  {
+   "b": "Nafas va hazm tizimi vositalari",
+   "q": "Antatsidlar qanday ta'sir qiladi?",
+   "a": [
+    "Oshqozon kislotasini neytrallaydi",
+    "Kislota ishlab chiqarishni oshiradi",
+    "Ichak peristaltikasini to'xtatadi",
+    "Ishtahani oshiradi"
+   ],
+   "e": "Masalan, almagel."
+  },
+  {
+   "b": "Nafas va hazm tizimi vositalari",
+   "q": "Lopiramid qanday holatda qo'llanadi?",
+   "a": [
+    "Diareyada",
+    "Ich qotishida",
+    "Qusishda",
+    "Yo'talda"
+   ],
+   "e": "Ichak motorikasini sekinlashtiradi."
+  },
+  {
+   "b": "Nafas va hazm tizimi vositalari",
+   "q": "Laktuloza qanday maqsadda qo'llanadi?",
+   "a": [
+    "Ich qotishida yumshatuvchi sifatida",
+    "Diareyani to'xtatish uchun",
+    "Qusishni to'xtatuvchi vosita sifatida",
+    "Diareyani to'xtatish uchun biriktiruvchi"
+   ],
+   "e": "Osmotik laksativ."
+  },
+  {
+   "b": "Nafas va hazm tizimi vositalari",
+   "q": "Metoklopramid qanday ta'sirga ega?",
+   "a": [
+    "Qusishga qarshi",
+    "Ich suruvchi",
+    "Kislota neytrallovchi",
+    "Og'riq qoldiruvchi"
+   ],
+   "e": "Prokinetik."
+  },
+  {
+   "b": "Nafas va hazm tizimi vositalari",
+   "q": "Zaharlanishda enterosorbent sifatida nima qo'llanadi?",
+   "a": [
+    "Faollashtirilgan ko'mir",
+    "Kaliy permanganat ichga konsentratsiyada",
+    "Furosemid",
+    "Atropin"
+   ],
+   "e": "Zaharlarni adsorbsiyalaydi."
+  },
+  {
+   "b": "Nafas va hazm tizimi vositalari",
+   "q": "Drotaverin (no-shpa) qanday ta'sirga ega?",
+   "a": [
+    "Silliq mushak spazmini bo'shatadi (spazmolitik)",
+    "Qonni ivituvchi gemostatik vosita",
+    "Kuchli ta'sirli keng spektrli antibiotik",
+    "Yo'talni bostiradi"
+   ],
+   "e": "Miotrop spazmolitik."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Insulin qaysi bez tomonidan ishlab chiqariladi?",
+   "a": [
+    "Oshqozon osti bezi",
+    "Qalqonsimon bez",
+    "Buyrak usti bezi",
+    "Gipofiz"
+   ],
+   "e": "Langergans orolchalari beta-hujayralari."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Insulinning dozasi oshib ketganda qanday holat yuzaga keladi?",
+   "a": [
+    "Gipoglikemiya",
+    "Giperglikemiya",
+    "Gipertoniya",
+    "Gipertermiya"
+   ],
+   "e": "Qon shakari keskin tushadi."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Gipoglikemiya holatida birinchi yordam qaysi?",
+   "a": [
+    "Shirin choy yoki glyukoza berish",
+    "Darhol qo'shimcha insulin yuborish",
+    "Tuzli suv ichirib, yotqizib qo'yish",
+    "Furosemid yuborish"
+   ],
+   "e": "Hushsiz bo'lsa — glyukoza venaga."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Insulin odatda qanday yuboriladi?",
+   "a": [
+    "Teri ostiga",
+    "Og'iz orqali tabletka",
+    "Til ostiga",
+    "Ingalyatsiya orqali faqat"
+   ],
+   "e": "Oshqozonda parchalanadi."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Metformin qaysi kasallikni davolashda qo'llanadi?",
+   "a": [
+    "2-tip qandli diabet",
+    "Gipertireoz",
+    "Bronxial astma",
+    "Sil kasalligi"
+   ],
+   "e": "Biguanid."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Prednizolon qaysi guruhga mansub?",
+   "a": [
+    "Glyukokortikoidlar",
+    "Mineralokortikoidlar",
+    "Jinsiy gormonlar",
+    "Tireoid gormonlar"
+   ],
+   "e": "Yallig'lanishga qarshi, immunodepressant."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Glyukokortikoidlarni uzoq qo'llashning nojo'ya ta'siriga nima kiradi?",
+   "a": [
+    "Osteoporoz, giperglikemiya, immunitet pasayishi",
+    "Qon shakarining keskin pasayishi",
+    "Suyaklarning mustahkamlanishi va immunitet ortishi",
+    "Qon shakarining keskin pasayishi va ozish"
+   ],
+   "e": "Kushingoid sindrom."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Glyukokortikoidlarni uzoq qo'llagandan keyin qanday to'xtatish kerak?",
+   "a": [
+    "Dozani asta-sekin kamaytirib",
+    "Birdaniga to'xtatib",
+    "Dozani ikki baravar oshirib",
+    "Boshqa gormon bilan almashtirib, birdan"
+   ],
+   "e": "Buyrak usti bezi yetishmovchiligi xavfi."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Levotiroksin qaysi holatda qo'llanadi?",
+   "a": [
+    "Gipotireoz",
+    "Gipertireoz",
+    "Qandli diabet",
+    "Gipertoniya"
+   ],
+   "e": "Qalqonsimon bez gormoni o'rnini bosadi."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Tireotoksikozni davolashda qo'llanadigan dori qaysi?",
+   "a": [
+    "Tiamazol",
+    "Levotiroksin",
+    "Insulin",
+    "Prednizolon"
+   ],
+   "e": "Tireostatik."
+  },
+  {
+   "b": "Gormonal vositalar",
+   "q": "Oksitotsin qanday ta'sirga ega?",
+   "a": [
+    "Bachadon qisqarishini kuchaytiradi",
+    "Qondagi shakar miqdorini tushiradi",
+    "Bachadon mushaklarini bo'shashtiradi",
+    "Siydik chiqarishni to'xtatadi"
+   ],
+   "e": "Tug'ruqda."
+  },
+  {
+   "b": "Vitaminlar",
+   "q": "Vitamin C yetishmovchiligi qanday kasallikka olib keladi?",
+   "a": [
+    "Singa (skorbut)",
+    "Raxit",
+    "Pellagra",
+    "Beri-beri"
+   ],
+   "e": "Milklar qonashi."
+  },
+  {
+   "b": "Vitaminlar",
+   "q": "Raxitning oldini olish uchun qaysi vitamin beriladi?",
+   "a": [
+    "Vitamin D",
+    "Vitamin C",
+    "Vitamin B1",
+    "Vitamin K"
+   ],
+   "e": "Kalsiy almashinuvi."
+  },
+  {
+   "b": "Vitaminlar",
+   "q": "Vitamin B1 (tiamin) yetishmovchiligi qanday kasallikka olib keladi?",
+   "a": [
+    "Beri-beri",
+    "Singa",
+    "Raxit",
+    "Tovuq ko'rligi"
+   ],
+   "e": "Nerv tizimi zararlanishi."
+  },
+  {
+   "b": "Vitaminlar",
+   "q": "\"Tovuq ko'rligi\" qaysi vitamin yetishmovchiligida kuzatiladi?",
+   "a": [
+    "Vitamin A",
+    "Vitamin D",
+    "Vitamin C",
+    "Vitamin E"
+   ],
+   "e": "Retinol."
+  },
+  {
+   "b": "Vitaminlar",
+   "q": "Pellagra qaysi vitamin yetishmovchiligida yuzaga keladi?",
+   "a": [
+    "Vitamin PP",
+    "Vitamin A",
+    "Vitamin D",
+    "Vitamin K"
+   ],
+   "e": "Dermatit, diareya, demensiya."
+  },
+  {
+   "b": "Vitaminlar",
+   "q": "Yog'da eriydigan vitaminlar qaysilar?",
+   "a": [
+    "A, D, E, K",
+    "C, B1, B6, B12",
+    "C va PP",
+    "Faqat B guruhi"
+   ],
+   "e": "Organizmda to'planishi mumkin."
+  },
+  {
+   "b": "Vitaminlar",
+   "q": "Gipervitaminoz ko'proq qaysi vitaminlar bilan yuzaga keladi?",
+   "a": [
+    "Yog'da eriydigan (A, D)",
+    "Suvda eriydigan (C)",
+    "Suvda eriydigan (C va B guruhi)",
+    "Faqat B1 va B6 vitaminlari"
+   ],
+   "e": "To'planish xususiyati."
+  },
+  {
+   "b": "Antigistamin va immunotrop vositalar",
+   "q": "Antigistamin vositalarga qaysi biri kiradi?",
+   "a": [
+    "Suprastin",
+    "Furosemid",
+    "Digoksin",
+    "Geparin"
+   ],
+   "e": "Allergiyada."
+  },
+  {
+   "b": "Antigistamin va immunotrop vositalar",
+   "q": "Birinchi avlod antigistamin vositalarning xarakterli nojo'ya ta'siri qaysi?",
+   "a": [
+    "Uyquchanlik",
+    "Uyqusizlik va qo'zg'alish",
+    "Qon bosimining oshishi",
+    "Ishtahaning yo'qolishi"
+   ],
+   "e": "Dimedrol, suprastin."
+  },
+  {
+   "b": "Antigistamin va immunotrop vositalar",
+   "q": "Loratadin birinchi avlod antigistaminlardan nimasi bilan farq qiladi?",
+   "a": [
+    "Deyarli uyquchanlik chaqirmaydi",
+    "Kuchli uxlatuvchi ta'siri bor",
+    "Kuchli uxlatuvchi va tinchlantiruvchi ta'siri bor",
+    "Faqat in'eksiya shaklida ishlab chiqariladi"
+   ],
+   "e": "Ikkinchi avlod."
+  },
+  {
+   "b": "Antigistamin va immunotrop vositalar",
+   "q": "Vaksinalar qanday immunitet hosil qiladi?",
+   "a": [
+    "Faol sun'iy immunitet",
+    "Passiv tabiiy immunitet",
+    "Passiv sun'iy immunitet",
+    "Tug'ma immunitet"
+   ],
+   "e": "Organizm o'zi antitana ishlab chiqaradi."
+  },
+  {
+   "b": "Antigistamin va immunotrop vositalar",
+   "q": "Zardoblar (immunoglobulinlar) qanday immunitet beradi?",
+   "a": [
+    "Passiv sun'iy immunitet",
+    "Umrbod saqlanadigan faol immunitet",
+    "Faol tabiiy immunitet",
+    "Faol sun'iy immunitet hosil qiladi"
+   ],
+   "e": "Tayyor antitanalar."
+  },
+  {
+   "b": "Antidotlar va zaharlanishlar",
+   "q": "Og'ir metallar (simob, mishyak) bilan zaharlanishda qanday antidot qo'llanadi?",
+   "a": [
+    "Unitiol",
+    "Nalokson",
+    "Atropin",
+    "Vitamin K"
+   ],
+   "e": "Kompleks hosil qiladi."
+  },
+  {
+   "b": "Antidotlar va zaharlanishlar",
+   "q": "Metil spirti bilan zaharlanishda antidot sifatida nima qo'llanadi?",
+   "a": [
+    "Etil spirti",
+    "Atropin",
+    "Nalokson",
+    "Protamin sulfat"
+   ],
+   "e": "Metabolizm raqobati."
+  },
+  {
+   "b": "Antidotlar va zaharlanishlar",
+   "q": "Is gazi (CO) bilan zaharlanishda asosiy davo qaysi?",
+   "a": [
+    "Kislorod berish",
+    "Atropin yuborish",
+    "Vitamin C ichirish",
+    "Sovuq suv ichirish"
+   ],
+   "e": "Karboksigemoglobin."
+  },
+  {
+   "b": "Antidotlar va zaharlanishlar",
+   "q": "Og'iz orqali zaharlanishda birinchi yordamning asosiy usuli qaysi (hushida bo'lsa, kuydiruvchi moddalardan tashqari)?",
+   "a": [
+    "Me'dani yuvish va sorbent berish",
+    "Uxlatib qo'yib, kuzatish",
+    "Issiq vanna qilib, terlatish",
+    "Spirtli ichimlik berish"
+   ],
+   "e": "Zaharni chiqarish."
+  },
+  {
+   "b": "Antidotlar va zaharlanishlar",
+   "q": "Kislota yoki ishqor bilan zaharlanganda me'dani zond orqali yuvishdan oldin nima qilish kerak?",
+   "a": [
+    "Og'riqsizlantirish (narkotik analgetik)",
+    "Qustirish uchun barmoq tiqish",
+    "Neytrallash uchun soda eritmasi ichirish",
+    "Qustirish uchun tilning ildiziga bosish"
+   ],
+   "e": "Qizilo'ngachni qayta kuydirmaslik; qustirish mumkin emas."
+  },
+  {
+   "b": "Retsept va dorilarni saqlash",
+   "q": "Retseptlar qaysi tilda yoziladi?",
+   "a": [
+    "Lotin tilida",
+    "Ingliz tilida",
+    "Fransuz tilida",
+    "Nemis tilida"
+   ],
+   "e": "An'anaviy tibbiy til."
+  },
+  {
+   "b": "Retsept va dorilarni saqlash",
+   "q": "Retseptdagi \"Rp.:\" qisqartmasi nimani bildiradi?",
+   "a": [
+    "Ol (Recipe)",
+    "Ber (Da)",
+    "Belgila (Signa)",
+    "Aralashtir (Misce)"
+   ],
+   "e": "Retsept boshlanishi."
+  },
+  {
+   "b": "Retsept va dorilarni saqlash",
+   "q": "Retseptdagi \"S.\" (Signa) nimani bildiradi?",
+   "a": [
+    "Belgila",
+    "Ol",
+    "Ber",
+    "Aralashtir"
+   ],
+   "e": "Bemorga ko'rsatma."
+  },
+  {
+   "b": "Retsept va dorilarni saqlash",
+   "q": "Retseptdagi \"D.t.d.\" qisqartmasi nimani anglatadi?",
+   "a": [
+    "Shunday dozalardan ber",
+    "Aralashtir, kukun hosil bo'lsin",
+    "Belgila",
+    "Ol"
+   ],
+   "e": "Da tales doses."
+  },
+  {
+   "b": "Retsept va dorilarni saqlash",
+   "q": "\"A\" ro'yxatiga kiruvchi dori vositalari qanday xususiyatga ega?",
+   "a": [
+    "Zaharli, maxsus nazoratda saqlanadi",
+    "Faqat vitamin va mineral preparatlari",
+    "Oddiy, retseptsiz sotiladigan dorilar",
+    "Faqat o'simlik xom ashyosi"
+   ],
+   "e": "Seyfda, qulf ostida."
+  },
+  {
+   "b": "Retsept va dorilarni saqlash",
+   "q": "\"B\" ro'yxatidagi dorilar qanday dorilar?",
+   "a": [
+    "Kuchli ta'sir etuvchi",
+    "Ta'siri juda kuchsiz, xavfsiz dorilar",
+    "Faqat kosmetik va gigiyenik vositalar",
+    "Faqat kosmetik"
+   ],
+   "e": "Alohida shkafda."
+  },
+  {
+   "b": "Retsept va dorilarni saqlash",
+   "q": "Dori vositalarini saqlashda umumiy qoida qaysi?",
+   "a": [
+    "Quruq, salqin, yorug'likdan himoyalangan joyda",
+    "Issiq va nam xonada, ochiq holda",
+    "Quyosh nuri tushadigan derazada",
+    "Quyosh nuri tushadigan deraza tokchasida"
+   ],
+   "e": "Yorliqdagi ko'rsatmaga muvofiq."
+  },
+  {
+   "b": "Retsept va dorilarni saqlash",
+   "q": "Vaksinalar va insulin qanday haroratda saqlanadi?",
+   "a": [
+    "+2 dan +8 °C gacha (muzlatkichda)",
+    "Muzlatgich kamerasida (−18 °C) muzlatilgan holda",
+    "Muzlatgich kamerasida (−18 °C)",
+    "Xona haroratida, javonda (+25 °C)"
+   ],
+   "e": "\"Sovuq zanjir\"."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Amoksitsillin qaysi guruhga mansub?",
+   "a": [
+    "Penitsillinlar",
+    "Makrolidlar",
+    "Tetratsiklinlar",
+    "Sulfanilamidlar"
+   ],
+   "e": "Yarim sintetik penitsillin."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Seftriakson qaysi guruhga mansub?",
+   "a": [
+    "Sefalosporinlar",
+    "Aminoglikozidlar",
+    "Ftorxinolonlar",
+    "Makrolidlar"
+   ],
+   "e": "III avlod."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Gentamitsin qaysi guruhga kiradi?",
+   "a": [
+    "Aminoglikozidlar",
+    "Penitsillinlar",
+    "Sefalosporinlar",
+    "Makrolidlar"
+   ],
+   "e": "Oto-nefrotoksik."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Doksitsiklin qaysi guruhga kiradi?",
+   "a": [
+    "Tetratsiklinlar",
+    "Makrolidlar",
+    "Penitsillinlar",
+    "Aminoglikozidlar"
+   ],
+   "e": "Bakteriostatik."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Siprofloksatsin qaysi guruhga kiradi?",
+   "a": [
+    "Ftorxinolonlar",
+    "Sefalosporinlar",
+    "Makrolidlar",
+    "Karbapenemlar"
+   ],
+   "e": "DNK-giraza ingibitori."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Klaritromitsin qaysi guruhga kiradi?",
+   "a": [
+    "Makrolidlar",
+    "Ftorxinolonlar",
+    "Penitsillinlar",
+    "Tetratsiklinlar"
+   ],
+   "e": "H. pylori eradikatsiyasida."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Nistatin qaysi guruhga kiradi?",
+   "a": [
+    "Zamburug'ga qarshi vositalar",
+    "Virusga qarshi vositalar",
+    "Sil kasalligiga qarshi vositalar",
+    "Gijjaga qarshi vositalar"
+   ],
+   "e": "Kandidozda."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Albendazol qanday vosita?",
+   "a": [
+    "Gijjaga qarshi (antigelmint)",
+    "Zamburug'ga qarshi",
+    "Virusga qarshi (antiviral)",
+    "Zamburug'ga qarshi (antimikotik)"
+   ],
+   "e": "Gelmintozlarda."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Diklofenak qaysi guruhga kiradi?",
+   "a": [
+    "NYaQV",
+    "Narkotik (opioid) analgetiklar",
+    "Mahalliy og'riqsizlantiruvchilar",
+    "Mahalliy anestetiklar"
+   ],
+   "e": "NYaQV."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Tramadol qanday analgetik?",
+   "a": [
+    "Opioid analgetik",
+    "Nosteroid yallig'lanishga qarshi",
+    "Mahalliy anestetik",
+    "Spazmolitik"
+   ],
+   "e": "Retsept bo'yicha."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Bisoprolol qaysi guruhga kiradi?",
+   "a": [
+    "Selektiv beta-1 adrenoblokatorlar",
+    "Kalsiy kanallari blokatorlari",
+    "APF ingibitorlari",
+    "Angiotenzin aylantiruvchi ferment ingibitorlari"
+   ],
+   "e": "Kardioselektiv."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Losartan qaysi guruhga kiradi?",
+   "a": [
+    "Angiotenzin II retseptor blokatorlari",
+    "Noselektiv beta-adrenoblokatorlar",
+    "Angiotenzin aylantiruvchi ferment ingibitorlari",
+    "Yurak glikozidlari"
+   ],
+   "e": "Sartanlar, yo'tal chaqirmaydi."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Gidroxlortiazid qanday diuretik?",
+   "a": [
+    "Tiazid diuretik",
+    "Halqa diuretigi",
+    "Kaliy tejovchi diuretik",
+    "Osmotik diuretik"
+   ],
+   "e": "Gipertoniyada."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Mannit qanday diuretik?",
+   "a": [
+    "Osmotik diuretik",
+    "Tiazid diuretik",
+    "Halqa diuretigi",
+    "Kaliy tejovchi diuretik"
+   ],
+   "e": "Miya shishida."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Klopidogrel qanday ta'sirga ega?",
+   "a": [
+    "Antiagregant",
+    "Antikoagulyant geparin kabi",
+    "Fibrinolitik",
+    "Gemostatik"
+   ],
+   "e": "Trombotsit agregatsiyasini to'sadi."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Streptokinaza qanday ta'sirga ega?",
+   "a": [
+    "Trombolitik (fibrinolitik)",
+    "Antigistamin (allergiyaga qarshi)",
+    "Antigistamin",
+    "Gemostatik (qon to'xtatuvchi)"
+   ],
+   "e": "Trombni eritadi."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Eufillin (aminofillin) qanday ta'sirga ega?",
+   "a": [
+    "Bronxolitik",
+    "Antibiotik",
+    "Antikoagulyant",
+    "Uxlatuvchi"
+   ],
+   "e": "Metilksantin."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Budesonid ingalyatsiyada qaysi guruhga kiradi?",
+   "a": [
+    "Ingalyatsion glyukokortikoidlar",
+    "Beta-2 agonistlar",
+    "Ikkinchi avlod antigistaminlar",
+    "Qisqa ta'sirli beta-2 agonistlar"
+   ],
+   "e": "Astmani nazorat qilish."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Asetilsistein qanday ta'sirga ega?",
+   "a": [
+    "Mukolitik va paratsetamol antidoti",
+    "Yo'talni bostiruvchi va antibiotik",
+    "Bronxlarni toraytiruvchi",
+    "Qon bosimini oshiruvchi"
+   ],
+   "e": "Balg'amni suyultiradi."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Ranitidin qaysi guruhga kiradi?",
+   "a": [
+    "H2-gistamin blokatorlari",
+    "Proton pompasi ingibitorlari",
+    "Antatsidlar",
+    "Prokinetiklar"
+   ],
+   "e": "Kislota sekretsiyasini kamaytiradi."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Pankreatin qanday maqsadda qo'llanadi?",
+   "a": [
+    "Hazm fermentlari yetishmovchiligida",
+    "Ich qotishida laksativ sifatida",
+    "Qusishga qarshi",
+    "Qusishga qarshi vosita sifatida"
+   ],
+   "e": "Ferment preparati."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Bisakodil qanday ta'sirga ega?",
+   "a": [
+    "Ich suruvchi (laksativ)",
+    "Kislota neytrallovchi (antatsid)",
+    "Ich to'xtatuvchi (antidiareya)",
+    "Kislota neytrallovchi"
+   ],
+   "e": "Ichak motorikasini kuchaytiradi."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Smekta (diosmektit) qanday maqsadda qo'llanadi?",
+   "a": [
+    "Diareyada adsorbent sifatida",
+    "Ich qotishida laksativ sifatida",
+    "Isitmani tushirish uchun",
+    "Yo'talni to'xtatish uchun"
+   ],
+   "e": "Enterosorbent."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Glibenklamid qaysi guruhga kiradi?",
+   "a": [
+    "Sulfonilmochevina hosilalari",
+    "Qisqa ta'sirli insulinlar",
+    "Biguanidlar (metformin guruhi)",
+    "Glyukokortikoidlar"
+   ],
+   "e": "Gipoglikemik."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Deksametazon qaysi guruhga kiradi?",
+   "a": [
+    "Glyukokortikoidlar",
+    "Mineralokortikoidlar",
+    "Anabolik steroidlar",
+    "Estrogenlar"
+   ],
+   "e": "Kuchli yallig'lanishga qarshi."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Karbamazepin qanday maqsadda qo'llanadi?",
+   "a": [
+    "Tutqanoqqa (epilepsiyaga) qarshi",
+    "Yuqori qon bosimiga qarshi",
+    "Yuqori arterial qon bosimiga qarshi",
+    "Bakterial infeksiyaga qarshi"
+   ],
+   "e": "Antikonvulsant."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Sertralin qaysi guruhga kiradi?",
+   "a": [
+    "SSRI antidepressantlar",
+    "Benzodiazepin trankvilizatorlari",
+    "Benzodiazepinlar",
+    "Tipik neyroleptiklar (antipsixotiklar)"
+   ],
+   "e": "SSRI."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Validol qanday maqsadda qo'llanadi?",
+   "a": [
+    "Yurak sohasidagi yengil og'riq va nevrozda",
+    "Og'ir stenokardiya xurujida asosiy dori sifatida",
+    "Yuqumli kasalliklarda",
+    "Ich qotishida"
+   ],
+   "e": "Reflektor ta'sir."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Korvalol tarkibidagi asosiy faol moddalardan biri qaysi?",
+   "a": [
+    "Fenobarbital",
+    "Morfin",
+    "Paratsetamol",
+    "Digoksin"
+   ],
+   "e": "Tinchlantiruvchi."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Magniy sulfat venaga yuborilganda qanday ta'sir ko'rsatadi?",
+   "a": [
+    "Sedativ, tutqanoqqa qarshi, gipotenziv",
+    "Ich suruvchi faqat",
+    "Qon ivishini kuchaytiruvchi gemostatik",
+    "Faqat ich suruvchi, boshqa ta'sirsiz"
+   ],
+   "e": "Eklampsiyada."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Kalsiy glyukonat qaysi holatda qo'llanadi?",
+   "a": [
+    "Gipokalsiemiyada",
+    "Giperkaliemiya faqat ichdan",
+    "Qandli diabetda",
+    "Bronxial astmada"
+   ],
+   "e": "Kalsiy tanqisligi."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Natriy xloridning 0,9% eritmasi qanday ataladi?",
+   "a": [
+    "Fiziologik eritma",
+    "Gipertonik eritma",
+    "Gipotonik eritma",
+    "Kolloid eritma"
+   ],
+   "e": "Izotonik."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Glyukozaning 5% eritmasi qanday eritma?",
+   "a": [
+    "Izotonik",
+    "Gipertonik",
+    "Kolloid",
+    "Gipotonik eritrotsitni eritadigan"
+   ],
+   "e": "40% — gipertonik."
+  },
+  {
+   "b": "Dori va farmakologik guruh",
+   "q": "Reopoliglyukin qanday eritma?",
+   "a": [
+    "Plazma o'rnini bosuvchi kolloid eritma",
+    "Kristalloid tuz eritmasi",
+    "Parenteral oziqlantirish uchun yog' emulsiyasi",
+    "Kristalloid tuz eritmasi (Ringer)"
+   ],
+   "e": "Mikrotsirkulyatsiyani yaxshilaydi."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Dori berishda \"beshta to'g'ri\" qoidasiga nima kiradi?",
+   "a": [
+    "To'g'ri bemor, dori, doza, yo'l va vaqt",
+    "To'g'ri narx, rang, idish, hid va ta'm",
+    "To'g'ri shifoxona, bo'lim, qavat, xona va karavot",
+    "To'g'ri shifokor, hamshira, farmatsevt, sanitar va bemor"
+   ],
+   "e": "Xatolarning oldini olish."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Hamshira bemorga dori berishdan oldin nima qiladi?",
+   "a": [
+    "Tayinlanishni va bemorni tekshiradi",
+    "Bemordan qaysi dori yoqishini so'raydi",
+    "Bemordan qaysi dori kerakligini so'raydi",
+    "Dorini boshqa bemorlarnikiga aralashtiradi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Yaroqlilik muddati o'tgan dorini nima qilish kerak?",
+   "a": [
+    "Ishlatmay, tartibda yo'q qilish",
+    "Dozani ikki baravar oshirib ishlatish",
+    "Boshqa bo'limdagi bemorga berib yuborish",
+    "Suvga aralashtirib ishlatish"
+   ],
+   "e": "Samarasiz yoki xavfli."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Ovqatdan oldin qabul qilinadigan dori odatda qachon ichiladi?",
+   "a": [
+    "Ovqatdan 30 daqiqa oldin",
+    "Ovqat bilan birga",
+    "Ovqatdan 2 soat keyin",
+    "Faqat kechasi uyqu paytida"
+   ],
+   "e": "Ko'rsatmaga muvofiq."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Tabletkani qanday suyuqlik bilan ichish tavsiya etiladi (umumiy qoida)?",
+   "a": [
+    "Oddiy suv bilan",
+    "Qahva bilan",
+    "Spirtli ichimlik bilan",
+    "Gazli shirin ichimlik bilan"
+   ],
+   "e": "O'zaro ta'sir bo'lmasligi uchun."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Tetratsiklinlarni nima bilan birga ichish tavsiya etilmaydi?",
+   "a": [
+    "Sut va kalsiyli mahsulotlar",
+    "Oddiy suv",
+    "Oddiy qaynatilgan suv",
+    "Oq non va guruch bo'tqasi"
+   ],
+   "e": "Erimaydigan kompleks hosil bo'ladi."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Venaga dori yuborishda havo pufakchalari nima uchun chiqariladi?",
+   "a": [
+    "Havo emboliyasining oldini olish uchun",
+    "Dorini tana haroratigacha sovitish uchun",
+    "Shpritsdagi dori dozasini oshirish uchun",
+    "Dorini rangsizlantirish uchun"
+   ],
+   "e": "Xavfli asorat."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "In'eksiyadan keyin infiltrat (qotish) hosil bo'lishining sababi nima bo'lishi mumkin?",
+   "a": [
+    "Aseptika buzilishi yoki dori noto'g'ri yuborilishi",
+    "Shpritsning juda yangi va o'tkir bo'lishi",
+    "Shprits juda yangi bo'lishi",
+    "Bemorning kun davomida ko'p suv ichishi"
+   ],
+   "e": "Iliq kompress, kuzatish."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Dorini venaga tez yuborish qaysi asoratga olib kelishi mumkin?",
+   "a": [
+    "Kollaps va yurak ritmining buzilishi",
+    "Ishtahaning ortishi va uyquchanlik",
+    "Sochning tez o'sishi va qalinlashishi",
+    "Ko'rishning yaxshilanishi"
+   ],
+   "e": "Sekin yuborish kerak."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Allergik anamnezni yig'ish nima uchun muhim?",
+   "a": [
+    "Allergik reaksiyalarning oldini olish uchun",
+    "Bemorning ish joyini bilish uchun",
+    "Dorining narxini oldindan aniqlash uchun",
+    "Bemorning ish joyi va lavozimini bilish uchun"
+   ],
+   "e": "Ayniqsa antibiotiklarda."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Bemorda dori yuborilgandan keyin nafas qisishi, qichima va bosim tushishi kuzatilsa, nima gumon qilinadi?",
+   "a": [
+    "Anafilaktik shok",
+    "Gipertonik kriz",
+    "Gipoglikemiya",
+    "Oddiy charchoq"
+   ],
+   "e": "Shoshilinch yordam."
+  },
+  {
+   "b": "Dori berish amaliyoti",
+   "q": "Anafilaktik shokda adrenalindan tashqari qaysi dorilar qo'llanadi?",
+   "a": [
+    "Glyukokortikoidlar va antigistaminlar",
+    "Laksativlar va hazm fermentlari",
+    "Antibiotiklar va kuchli diuretiklar",
+    "Vitaminlar va temir preparatlari"
+   ],
+   "e": "Prednizolon, suprastin."
+  },
+  {
+   "b": "Dozalash",
+   "q": "Bolalar uchun dori dozasi asosan nimaga qarab hisoblanadi?",
+   "a": [
+    "Tana vazni (mg/kg) yoki yoshiga qarab",
+    "Har doim kattalar dozasining yarmi",
+    "Ota-onaning vazni va bo'yiga qarab",
+    "Kattalar dozasining ikki barobari"
+   ],
+   "e": "Individual hisob."
+  },
+  {
+   "b": "Dozalash",
+   "q": "Keksalarda dori dozasini tanlashda nimani hisobga olish kerak?",
+   "a": [
+    "Jigar va buyrak funksiyasi pasayganini",
+    "Ularning dorilarga sezgirligi yo'qligini",
+    "Dozani har doim oshirish kerakligini",
+    "Faqat kattalar standart dozasini"
+   ],
+   "e": "Geriatrik farmakologiya."
+  },
+  {
+   "b": "Dozalash",
+   "q": "1 ml 2% eritmada qancha ta'sir etuvchi modda bor?",
+   "a": [
+    "20 mg",
+    "2 mg",
+    "200 mg",
+    "0,2 mg"
+   ],
+   "e": "2% = 2 g/100 ml = 20 mg/ml."
+  },
+  {
+   "b": "Dozalash",
+   "q": "1% eritmaning 1 ml da qancha modda bor?",
+   "a": [
+    "10 mg",
+    "1 mg",
+    "100 mg",
+    "0,1 mg"
+   ],
+   "e": "1 g/100 ml."
+  },
+  {
+   "b": "Dozalash",
+   "q": "0,1% adrenalin eritmasining 1 ml da qancha adrenalin bor?",
+   "a": [
+    "1 mg",
+    "0,1 mg",
+    "10 mg",
+    "100 mg"
+   ],
+   "e": "1 mg/ml."
+  },
+  {
+   "b": "Dozalash",
+   "q": "Kundalik doza 600 mg, kuniga 3 mahal ichiladi. Bir martalik doza qancha?",
+   "a": [
+    "200 mg",
+    "300 mg",
+    "600 mg",
+    "1800 mg"
+   ],
+   "e": "600 : 3."
+  },
+  {
+   "b": "Dozalash",
+   "q": "Bolaga 15 mg/kg paratsetamol tayinlangan, vazni 20 kg. Bir martalik doza qancha?",
+   "a": [
+    "300 mg",
+    "150 mg",
+    "35 mg",
+    "600 mg"
+   ],
+   "e": "15 × 20."
+  },
+  {
+   "b": "Dozalash",
+   "q": "U-100 belgili insulinning 1 ml ida nechta TB (ta'sir birligi) bor?",
+   "a": [
+    "100 TB",
+    "40 TB",
+    "10 TB",
+    "1000 TB"
+   ],
+   "e": "U-100 — 100 TB/ml; U-40 — 40 TB/ml."
+  },
+  {
+   "b": "Dozalash",
+   "q": "Tomchilatib yuborishda 1 ml taxminan nechta tomchiga teng (standart sistema)?",
+   "a": [
+    "20 tomchi",
+    "2 tomchi",
+    "100 tomchi",
+    "200 tomchi"
+   ],
+   "e": "Makrotomchi sistema."
+  },
+  {
+   "b": "Maxsus guruhlarda farmakoterapiya",
+   "q": "Homiladorlikning qaysi davrida dorilarning teratogen xavfi eng yuqori?",
+   "a": [
+    "Birinchi trimestrda",
+    "Uchinchi trimestrning oxirida",
+    "Tug'ruqdan keyin",
+    "Homiladorlikdan oldin bir yil"
+   ],
+   "e": "Organogenez davri."
+  },
+  {
+   "b": "Maxsus guruhlarda farmakoterapiya",
+   "q": "Emizikli onalarga dori tayinlashda nimaga e'tibor beriladi?",
+   "a": [
+    "Dorining ona sutiga o'tishi va bolaga ta'siriga",
+    "Faqat dorining narxi va ishlab chiqaruvchisiga",
+    "Faqat dori qadog'ining rangi va shakliga",
+    "Hech narsaga e'tibor berilmaydi"
+   ],
+   "e": "Laktatsiyada xavfsizlik."
+  },
+  {
+   "b": "Maxsus guruhlarda farmakoterapiya",
+   "q": "Buyrak yetishmovchiligida qaysi dorilar dozasi kamaytiriladi?",
+   "a": [
+    "Asosan buyrak orqali chiqariladigan dorilar",
+    "Hech qaysi dorining dozasi o'zgarmaydi",
+    "Faqat tashqi qo'llanadigan malhamlar",
+    "Hech qaysi dori dozasi o'zgarmaydi"
+   ],
+   "e": "Kumulyatsiya xavfi."
+  },
+  {
+   "b": "Maxsus guruhlarda farmakoterapiya",
+   "q": "Polipragmaziya nima?",
+   "a": [
+    "Bir vaqtda ko'p dorini asossiz tayinlash",
+    "Dorilarni tejab, kam miqdorda berish",
+    "Bitta dorini to'g'ri dozada qo'llash",
+    "Dori shakllarini almashtirish"
+   ],
+   "e": "O'zaro ta'sir xavfi."
+  },
+  {
+   "b": "Maxsus guruhlarda farmakoterapiya",
+   "q": "O'z-o'zini davolashning asosiy xavfi nima?",
+   "a": [
+    "Noto'g'ri tashxis va nojo'ya ta'sirlar",
+    "Shifokorga borish vaqtini tejash",
+    "Shifokorga borish shart emasligi",
+    "Tezroq va asoratsiz sog'ayib ketish"
+   ],
+   "e": "Mutaxassis maslahati kerak."
+  },
+  {
+   "b": "Lotin terminologiyasi",
+   "q": "\"Tabuletta\" so'zi qanday dori shaklini bildiradi?",
+   "a": [
+    "Tabletka",
+    "Eritma",
+    "Malham",
+    "Sham"
+   ],
+   "e": "Lotincha."
+  },
+  {
+   "b": "Lotin terminologiyasi",
+   "q": "\"Unguentum\" qanday dori shakli?",
+   "a": [
+    "Malham",
+    "Tabletka",
+    "Kukun",
+    "Damlama"
+   ],
+   "e": "Ung."
+  },
+  {
+   "b": "Lotin terminologiyasi",
+   "q": "\"Solutio\" qanday dori shakli?",
+   "a": [
+    "Eritma",
+    "Malham",
+    "Kapsula",
+    "Sham"
+   ],
+   "e": "Sol."
+  },
+  {
+   "b": "Lotin terminologiyasi",
+   "q": "\"Suppositorium\" qanday dori shakli?",
+   "a": [
+    "Sham",
+    "Eritma",
+    "Tabletka",
+    "Kukun"
+   ],
+   "e": "Supp."
+  },
+  {
+   "b": "Lotin terminologiyasi",
+   "q": "\"Pulvis\" qanday dori shakli?",
+   "a": [
+    "Kukun",
+    "Malham",
+    "Eritma",
+    "Sham"
+   ],
+   "e": "Pulv."
+  },
+  {
+   "b": "Lotin terminologiyasi",
+   "q": "Retseptdagi \"M.f.\" qisqartmasi nimani anglatadi?",
+   "a": [
+    "Aralashtir, hosil bo'lsin",
+    "Ber, shunday dozalardan",
+    "Belgila",
+    "Ol"
+   ],
+   "e": "Misce, fiat."
+  },
+  {
+   "b": "Lotin terminologiyasi",
+   "q": "\"Per os\" iborasi nimani bildiradi?",
+   "a": [
+    "Og'iz orqali",
+    "Vena ichiga",
+    "Teri ostiga",
+    "To'g'ri ichak orqali"
+   ],
+   "e": "Enteral yo'l."
+  },
+  {
+   "b": "Lotin terminologiyasi",
+   "q": "\"Intramuscularis\" (i/m) nimani bildiradi?",
+   "a": [
+    "Mushak ichiga",
+    "Teri ostiga",
+    "Vena ichiga",
+    "Teri ichiga"
+   ],
+   "e": "In'eksiya yo'li."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Umumiy narkoz uchun ingalyatsion vositaga misol qaysi?",
+   "a": [
+    "Sevofluran",
+    "Lidokain",
+    "Novokain",
+    "Diazepam tabletkasi"
+   ],
+   "e": "Galogenli anestetik."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Venaga yuboriladigan umumiy anestetikka misol qaysi?",
+   "a": [
+    "Propofol",
+    "Lidokain",
+    "Atropin",
+    "Furosemid"
+   ],
+   "e": "Tez induksiya."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Miorelaksantlar operatsiyada nima uchun qo'llanadi?",
+   "a": [
+    "Skelet mushaklarini bo'shashtirish uchun",
+    "Kuchli og'riqni qoldirish va uxlatish uchun",
+    "Qon bosimini oshirish uchun",
+    "Operatsiyadan keyin qon bosimini oshirish uchun"
+   ],
+   "e": "Intubatsiya va operatsiya qulayligi."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Amiodaron qanday maqsadda qo'llanadi?",
+   "a": [
+    "Yurak ritmi buzilishlarida (antiaritmik)",
+    "Qon bosimini oshirishda",
+    "Bakterial infeksiyalarni davolashda",
+    "Arterial qon bosimini oshirishda"
+   ],
+   "e": "III sinf antiaritmik."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Sulfokamfokain va kordiamin qaysi guruhga kiradi?",
+   "a": [
+    "Analeptiklar",
+    "Neyroleptiklar",
+    "Narkotik analgetiklar",
+    "Antibiotiklar"
+   ],
+   "e": "Nafas va qon aylanish markazlarini qo'zg'atadi."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Dopamin shok holatida nima uchun qo'llanadi?",
+   "a": [
+    "Qon bosimini va yurak qisqarishini oshirish",
+    "Qon bosimini tushirish",
+    "Qon bosimini tez tushirish uchun",
+    "Kuchli og'riqni qoldirish uchun"
+   ],
+   "e": "Inotrop vosita."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Siklosporin qanday ta'sirga ega?",
+   "a": [
+    "Immunodepressant",
+    "Immunostimulyator",
+    "Antibiotik",
+    "Antigistamin"
+   ],
+   "e": "Transplantatsiyada."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Sitostatiklar qaysi kasalliklarni davolashda qo'llanadi?",
+   "a": [
+    "O'sma kasalliklarida",
+    "Oddiy shamollashda",
+    "Ich qotishida",
+    "Allergik rinitda"
+   ],
+   "e": "Hujayra bo'linishini to'xtatadi."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Sitostatiklarning xarakterli nojo'ya ta'siri qaysi?",
+   "a": [
+    "Suyak iligi susayishi, soch to'kilishi",
+    "Vazn ortishi va ishtaha kuchayishi",
+    "Qon bosimining doimiy oshishi",
+    "Vazn ortishi va ishtahaning kuchayishi"
+   ],
+   "e": "Tez bo'linuvchi hujayralar zararlanadi."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Estrogen va progestin tarkibli preparatlar asosan qaysi maqsadda ishlatiladi?",
+   "a": [
+    "Gormonal kontratseptsiya",
+    "Infeksiyani davolash",
+    "Qon bosimini tushirish",
+    "Og'riqni qoldirish"
+   ],
+   "e": "Kombinatsiyalangan og'iz kontratseptivlari."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Allopurinol qaysi kasallikda qo'llanadi?",
+   "a": [
+    "Podagra (siydik kislotasini kamaytirish)",
+    "Bronxial astma",
+    "Ikkinchi tip qandli diabet",
+    "Bronxial astma xurujlarini oldini olish"
+   ],
+   "e": "Ksantinoksidaza ingibitori."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Ursodezoksixol kislota qanday maqsadda qo'llanadi?",
+   "a": [
+    "O't toshini eritish, jigarni himoya",
+    "Surunkali ich qotishini davolash",
+    "Ich qotishini davolash",
+    "Arterial qon bosimini oshirish"
+   ],
+   "e": "Gepatoprotektor."
+  },
+  {
+   "b": "Qo'shimcha farmakologik guruhlar",
+   "q": "Bifidobakteriyalar preparati qanday maqsadda qo'llanadi?",
+   "a": [
+    "Ichak mikroflorasini tiklash (probiotik)",
+    "Qon ivishini kuchaytirish (gemostatik)",
+    "Qon ivishini kuchaytirish",
+    "Ichakdagi bakteriyalarni o'ldirish (antibiotik)"
+   ],
+   "e": "Disbakteriozda."
+  },
+  {
+   "b": "O'simliklardan olinadigan dorilar",
+   "q": "Valeriana preparatlari qanday ta'sirga ega?",
+   "a": [
+    "Sedativ",
+    "Qo'zg'atuvchi",
+    "Ich suruvchi",
+    "Antibakterial"
+   ],
+   "e": "O'simlik sedativi."
+  },
+  {
+   "b": "O'simliklardan olinadigan dorilar",
+   "q": "Moychechak (romashka) damlamasi qanday ta'sirga ega?",
+   "a": [
+    "Yallig'lanishga qarshi va antiseptik",
+    "Kuchli uxlatuvchi",
+    "Qon bosimini keskin oshiruvchi",
+    "Kuchli uxlatuvchi va narkotik"
+   ],
+   "e": "Chayish, ichish."
+  },
+  {
+   "b": "O'simliklardan olinadigan dorilar",
+   "q": "Na'matak mevasi qaysi vitaminga boy?",
+   "a": [
+    "Vitamin C",
+    "Vitamin D",
+    "Vitamin B12",
+    "Vitamin K faqat"
+   ],
+   "e": "Askorbin kislota manbai."
+  },
+  {
+   "b": "O'simliklardan olinadigan dorilar",
+   "q": "Qalampir yalpiz (myata) qanday ta'sirga ega?",
+   "a": [
+    "Spazmolitik va tinchlantiruvchi",
+    "Kuchli antibiotik",
+    "Kuchli ta'sirli antibiotik",
+    "Qon ivishini kuchaytiruvchi"
+   ],
+   "e": "Mentol."
+  },
+  {
+   "b": "O'simliklardan olinadigan dorilar",
+   "q": "Digitalis (angishvonagul) o'simligidan qaysi dorilar olinadi?",
+   "a": [
+    "Yurak glikozidlari",
+    "Antibiotiklar",
+    "Vitaminlar",
+    "Gormonlar"
+   ],
+   "e": "Digoksin, digitoksin."
+  },
+  {
+   "b": "O'simliklardan olinadigan dorilar",
+   "q": "Ko'knor (opium) o'simligidan olinadigan alkaloid qaysi?",
+   "a": [
+    "Morfin",
+    "Kofein",
+    "Atropin",
+    "Nikotin"
+   ],
+   "e": "Narkotik analgetik."
+  },
+  {
+   "b": "O'simliklardan olinadigan dorilar",
+   "q": "Belladonna o'simligidan qaysi alkaloid olinadi?",
+   "a": [
+    "Atropin",
+    "Morfin",
+    "Kofein",
+    "Efedrin"
+   ],
+   "e": "M-xolinoblokator."
+  },
+  {
+   "b": "O'simliklardan olinadigan dorilar",
+   "q": "Kofein qaysi o'simliklarda ko'p uchraydi?",
+   "a": [
+    "Choy va qahva",
+    "Na'matak va olma",
+    "Moychechak va yalpiz",
+    "Kartoshka va sabzi"
+   ],
+   "e": "Alkaloid."
+  },
+  {
+   "b": "Toksikologiya va xavfsizlik",
+   "q": "Dori zaharlanishining umumiy belgilariga nima kiradi?",
+   "a": [
+    "Ko'ngil aynishi, qusish, hushning buzilishi",
+    "Ishtahaning ortishi va kayfiyat ko'tarilishi",
+    "Uyquning yaxshilanishi",
+    "Faqat sochning o'sishi"
+   ],
+   "e": "Belgilar dori turiga bog'liq."
+  },
+  {
+   "b": "Toksikologiya va xavfsizlik",
+   "q": "Bolalarni dori zaharlanishidan himoya qilishda asosiy chora qaysi?",
+   "a": [
+    "Dorilarni bolalar qo'li yetmaydigan joyda saqlash",
+    "Dorilarni oshxona stoli ustida qoldirish",
+    "Dorilarni bolaga konfet deb tushuntirish",
+    "Bolaga dorilarni o'zi tanlashiga ruxsat berish"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Toksikologiya va xavfsizlik",
+   "q": "Nojo'ya ta'sirlar haqida xabar berish tizimi qanday ataladi?",
+   "a": [
+    "Farmakonazorat",
+    "Farmakognoziya",
+    "Farmakokinetika",
+    "Farmakopeya"
+   ],
+   "e": "Dorilar xavfsizligini kuzatish."
+  },
+  {
+   "b": "Toksikologiya va xavfsizlik",
+   "q": "Farmakopeya nima?",
+   "a": [
+    "Dori sifati davlat standartlari to'plami",
+    "Dorixona qurilishi qoidalari",
+    "Dorixona binosini qurish qoidalari",
+    "Dorilarning ulgurji narxlari ro'yxati"
+   ],
+   "e": "Davlat farmakopeyasi."
+  },
+  {
+   "b": "Toksikologiya va xavfsizlik",
+   "q": "Farmakognoziya nimani o'rganadi?",
+   "a": [
+    "Dorivor o'simlik va hayvon xom ashyosini",
+    "Sintetik dorilarni ishlab chiqarishni",
+    "Sintetik dorilarni zavodda ishlab chiqarishni",
+    "Dorixonani boshqarish va hisob yuritishni"
+   ],
+   "e": "Tabiiy dori manbalari."
+  },
+  {
+   "b": "Toksikologiya va xavfsizlik",
+   "q": "Generik dori nima?",
+   "a": [
+    "Patent muddati tugagan original dorining nusxasi",
+    "Hali sinovdan o'tmagan yangi dori",
+    "Faqat o'simlik xom ashyosidan olingan dori",
+    "Hali klinik sinovdan o'tmagan yangi dori"
+   ],
+   "e": "Bir xil ta'sir etuvchi modda."
+  },
+  {
+   "b": "Toksikologiya va xavfsizlik",
+   "q": "Platsebo nima?",
+   "a": [
+    "Faol moddasiz soxta dori",
+    "Eng kuchli ta'sirli dori",
+    "Eng kuchli ta'sirli zamonaviy dori",
+    "Laboratoriyada ishlatiladigan zaharli modda"
+   ],
+   "e": "Klinik sinovlarda nazorat."
+  },
+  {
+   "b": "Toksikologiya va xavfsizlik",
+   "q": "Klinik sinovlarning maqsadi nima?",
+   "a": [
+    "Samaradorlik va xavfsizlikni aniqlash",
+    "Dori narxini belgilash",
+    "Dorini ommaviy reklama qilish",
+    "Dorining sotuv narxini belgilash"
+   ],
+   "e": "Bosqichma-bosqich o'tkaziladi."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Bronxial astma xurujini to'xtatish uchun eng tez ta'sir qiluvchi vosita qaysi?",
+   "a": [
+    "Salbutamol ingalyatsiyasi",
+    "Budesonid tabletkasi uzoq muddat",
+    "Amoksitsillin kapsulasi",
+    "Loratadin tabletkasi"
+   ],
+   "e": "Qisqa ta'sirli beta-2 agonist."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Gipertermiyada (yuqori isitmada) bolalarga qaysi dori ko'proq tavsiya etiladi?",
+   "a": [
+    "Paratsetamol yoki ibuprofen",
+    "Aspirin",
+    "Metamizol uzoq muddat",
+    "Morfin kichik dozada ichdan"
+   ],
+   "e": "Yoshga mos dozada."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Allergik rinitda qaysi guruh dorilari qo'llanadi?",
+   "a": [
+    "Antigistaminlar",
+    "Antibiotiklar",
+    "Diuretiklar",
+    "Antikoagulyantlar"
+   ],
+   "e": "Masalan, loratadin."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Oshqozon yarasi kasalligida Helicobacter pylori eradikatsiyasida nima qo'llanadi?",
+   "a": [
+    "Proton pompasi ingibitori va antibiotiklar",
+    "Faqat antatsidlar",
+    "Faqat antatsidlar uzoq muddat",
+    "Faqat nosteroid yallig'lanishga qarshi dorilar"
+   ],
+   "e": "Uchlik terapiya."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Siydik yo'llari infeksiyasida qaysi dori qo'llanishi mumkin?",
+   "a": [
+    "Nitrofurantoin",
+    "Loperamid",
+    "Salbutamol",
+    "Levotiroksin"
+   ],
+   "e": "Uroantiseptik."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Qandli diabetning 1-tipida asosiy davo nima?",
+   "a": [
+    "Insulin",
+    "Metformin yakka o'zi",
+    "Glibenklamid",
+    "Parhez yakka o'zi"
+   ],
+   "e": "Insulin yetishmovchiligi."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Yurak yetishmovchiligida shishlarni kamaytirish uchun nima qo'llanadi?",
+   "a": [
+    "Diuretiklar",
+    "Antigistaminlar",
+    "Laksativlar",
+    "Antibiotiklar"
+   ],
+   "e": "Suyuqlikni chiqaradi."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Konyunktivitda (bakterial) qanday dori shakli qo'llanadi?",
+   "a": [
+    "Antibakterial ko'z tomchilari",
+    "Tabletka ichdan faqat",
+    "Ichdan qabul qilinadigan tabletka",
+    "To'g'ri ichak shamchalari"
+   ],
+   "e": "Mahalliy davo."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Kuyishlarda mahalliy qo'llanadigan dori shakli qaysi?",
+   "a": [
+    "Maxsus kuyishga qarshi malham yoki aerozol",
+    "Spirtli eritma qo'yish",
+    "Spirtli antiseptik eritma quyish",
+    "Yod eritmasi bilan surtish"
+   ],
+   "e": "Masalan, pantenol."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Gelmintozlarda (gijjalarda) qaysi dori qo'llanadi?",
+   "a": [
+    "Albendazol",
+    "Nistatin",
+    "Atsiklovir",
+    "Furosemid"
+   ],
+   "e": "Antigelmint."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Migren xurujida qaysi dorilar guruhi qo'llanadi?",
+   "a": [
+    "Triptanlar",
+    "Antibiotiklar",
+    "Diuretiklar",
+    "Antikoagulyantlar"
+   ],
+   "e": "Sumatriptan."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Ko'ngil aynishi va qusishda qaysi dori qo'llanadi?",
+   "a": [
+    "Metoklopramid",
+    "Bisakodil",
+    "Furosemid",
+    "Lizinopril"
+   ],
+   "e": "Antiemetik."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Tish og'rig'ida tez yordam sifatida qaysi dori qo'llanishi mumkin?",
+   "a": [
+    "Ibuprofen",
+    "Digoksin",
+    "Insulin",
+    "Furosemid"
+   ],
+   "e": "NYaQV."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Ich qotishida bolalarga xavfsiz laksativ qaysi?",
+   "a": [
+    "Laktuloza",
+    "Bisakodil uzoq muddat",
+    "Kastor moyi katta dozada",
+    "Magniy sulfat venaga"
+   ],
+   "e": "Osmotik."
+  },
+  {
+   "b": "Ko'rsatmalar bo'yicha dori tanlash",
+   "q": "Temir tanqisligi anemiyasida temir so'rilishini qaysi vitamin yaxshilaydi?",
+   "a": [
+    "Vitamin C",
+    "Vitamin A",
+    "Vitamin D",
+    "Vitamin E"
+   ],
+   "e": "Askorbin kislota."
+  },
+  {
+   "b": "Dorilarning o'zaro ta'siri",
+   "q": "Varfarin bilan aspirin birga qo'llansa nima xavfi ortadi?",
+   "a": [
+    "Qon ketish",
+    "Tromb hosil bo'lishi",
+    "Qon bosimi oshishi",
+    "Gipoglikemiya"
+   ],
+   "e": "Ikkalasi qon ivishiga ta'sir qiladi."
+  },
+  {
+   "b": "Dorilarning o'zaro ta'siri",
+   "q": "Alkogol bilan benzodiazepinlar birga qabul qilinsa nima xavfli?",
+   "a": [
+    "MNS va nafas markazining kuchli susayishi",
+    "Qo'zg'aluvchanlik va uyqusizlik",
+    "Qo'zg'aluvchanlik va kuchli uyqusizlik",
+    "Qon bosimining keskin oshishi"
+   ],
+   "e": "Sinergizm."
+  },
+  {
+   "b": "Dorilarning o'zaro ta'siri",
+   "q": "Antatsidlar boshqa dorilar bilan birga qabul qilinganda nima bo'lishi mumkin?",
+   "a": [
+    "Boshqa dorilarning so'rilishi kamayadi",
+    "Barcha dorilar ta'siri kuchayadi",
+    "Barcha dorilarning ta'siri kuchayadi",
+    "Dorilar birga zaharlanish chaqiradi"
+   ],
+   "e": "Vaqt oralig'i bilan qabul qilish."
+  },
+  {
+   "b": "Dorilarning o'zaro ta'siri",
+   "q": "Greypfrut sharbati ba'zi dorilarning konsentratsiyasini nima uchun oshiradi?",
+   "a": [
+    "Jigar fermentlarini (CYP3A4) ingibitsiya qiladi",
+    "Dorini oshqozonda to'liq parchalab yuboradi",
+    "Dorini buyrak orqali tez chiqaradi",
+    "Dorini buyrak orqali tez chiqarib yuboradi"
+   ],
+   "e": "Masalan, ayrim statinlar."
+  },
+  {
+   "b": "Dorilarning o'zaro ta'siri",
+   "q": "Kaliy tejovchi diuretik bilan kaliy preparatini birga berish nimaga olib kelishi mumkin?",
+   "a": [
+    "Giperkaliemiyaga",
+    "Gipokaliemiyaga",
+    "Gipoglikemiyaga",
+    "Gipotermiyaga"
+   ],
+   "e": "Yurak ritmi buzilishi xavfi."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Narkotik vositalar bo'limda qanday saqlanadi?",
+   "a": [
+    "Seyfda, qat'iy hisob bilan",
+    "Bo'limdagi ochiq dori javonida",
+    "Bemorning shaxsiy tumbochkasida",
+    "Muzlatgichda ovqat bilan"
+   ],
+   "e": "Qat'iy hisobdagi dorilar."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Ishlatilgan narkotik vosita ampulalari bilan nima qilinadi?",
+   "a": [
+    "Tartibda topshirilib, hisobdan chiqariladi",
+    "Oddiy axlatga tashlanadi",
+    "Oddiy maishiy chiqindi qutisiga tashlanadi",
+    "Bemorga xotira uchun berib yuboriladi"
+   ],
+   "e": "Hisob-kitob."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Dorini noto'g'ri bemorga bergan hamshira birinchi navbatda nima qilishi kerak?",
+   "a": [
+    "Darhol shifokorga xabar berib, bemorni kuzatish",
+    "Hech kimga aytmay, sir saqlash",
+    "Ikkinchi bemorga ham shu dorini berish",
+    "Hujjatni o'zgartirib qo'yish"
+   ],
+   "e": "Xavfsizlik madaniyati."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Ko'zga tomchi tomizishda tomizgich uchi qanday tutiladi?",
+   "a": [
+    "Ko'zga tegizmasdan",
+    "Ko'z qorachig'iga tegizib",
+    "Kiprikka tegizib",
+    "Tomizgichni ko'zga botirib"
+   ],
+   "e": "Infeksiyaning oldini olish."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Quloqqa tomchi tomizishdan oldin dori qanday holatga keltiriladi?",
+   "a": [
+    "Tana haroratigacha isitiladi",
+    "Muzlatgichdan sovuq holda",
+    "Muzlatgichdan olingan sovuq holda",
+    "Qaynatib, keyin issiq holda"
+   ],
+   "e": "Bosh aylanishining oldini olish."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Ingalyatorni to'g'ri ishlatishda nima muhim?",
+   "a": [
+    "Chuqur nafas olish bilan bir vaqtda bosish",
+    "Nafasni chiqarish paytida bosish",
+    "Og'izdan uzoqda bosish",
+    "Ingalyatorni silkitmaslik va teskari tutish"
+   ],
+   "e": "Texnikani o'rgatish."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Teri osti in'eksiyasi uchun ignaning burchagi qanday bo'ladi?",
+   "a": [
+    "Taxminan 45°",
+    "90° chuqur",
+    "5° deyarli parallel",
+    "180°"
+   ],
+   "e": "Teri burmasiga."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Mushak ichiga in'eksiyada igna qanday burchakda kiritiladi?",
+   "a": [
+    "90°",
+    "15°",
+    "45°",
+    "5°"
+   ],
+   "e": "Chuqur."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Vena ichiga in'eksiyada jgut qayerga qo'yiladi?",
+   "a": [
+    "In'eksiya joyidan 10–15 sm yuqoriga",
+    "In'eksiya joyining o'ziga",
+    "Bilakning eng pastki qismiga",
+    "Aynan in'eksiya qilinadigan joyning ustiga"
+   ],
+   "e": "Tirsak bukimidan yuqori."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Dorini venaga yuborishdan oldin igna venada ekanligi qanday tekshiriladi?",
+   "a": [
+    "Shpritsga qon tortilishi bilan",
+    "Ignani biroz silkitib ko'rish bilan",
+    "Ignani silkitish bilan",
+    "Bemordan og'riq bor-yo'qligini so'rash bilan"
+   ],
+   "e": "Qon kelishi."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Antibiotikka teri sinamasi qanday qo'yiladi?",
+   "a": [
+    "Teri ichiga oz miqdorda dori yuborib",
+    "Venaga to'liq dozani yuborib",
+    "Og'iz orqali kichik tabletka berib",
+    "Venaga dorining to'liq dozasini yuborib"
+   ],
+   "e": "Natija 20–30 daqiqada baholanadi."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Ampuladagi dorini olishdan oldin nima tekshiriladi?",
+   "a": [
+    "Nomi, konsentratsiyasi, muddati, ko'rinishi",
+    "Faqat dorining narxi va ishlab chiqaruvchisi",
+    "Faqat ampulaning rangi va shakli",
+    "Hech narsa tekshirilmaydi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Bir martalik shpritslar qayta ishlatiladimi?",
+   "a": [
+    "Yo'q, qat'iyan taqiqlanadi",
+    "Ha, qaynatilsa bo'ladi",
+    "Ha, bir bemor uchun ikki marta",
+    "Ha, spirt bilan artilsa"
+   ],
+   "e": "Infeksiya xavfi."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "O'tkir uchli chiqindilar (ignalar) qayerga tashlanadi?",
+   "a": [
+    "Teshilmaydigan maxsus konteynerga",
+    "Oddiy polietilen paketga",
+    "Oddiy polietilen paket yoki qutiga",
+    "Bemorning tumbochkasidagi idishga"
+   ],
+   "e": "Xavfsiz utilizatsiya."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Dorini berganidan keyin hamshira nima qiladi?",
+   "a": [
+    "Berilganini hujjatda qayd etib, bemorni kuzatadi",
+    "Hech narsa qayd qilmasdan ketadi",
+    "Bemorni darhol tark etib, boshqa ishga o'tadi",
+    "Keyingi dozani ham darhol beradi"
+   ],
+   "e": "Hujjatlash."
+  },
+  {
+   "b": "Hamshiralik va dorixona amaliyoti",
+   "q": "Dorining nojo'ya ta'siri aniqlansa, hamshira nima qiladi?",
+   "a": [
+    "Shifokorga xabar berib, qayd etadi",
+    "O'zi boshqa dori tayinlab beradi",
+    "Dozani ikki baravar oshiradi",
+    "Bemorga aytmay davom ettiradi"
+   ],
+   "e": "Farmakonazorat."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Bemorga dori tayinlash huquqi kimga tegishli?",
+   "a": [
+    "Shifokorga",
+    "Hamshiraga mustaqil ravishda",
+    "Sanitarga",
+    "Bemorning qarindoshiga"
+   ],
+   "e": "Hamshira tayinlanishni bajaradi."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Dori vositasining savdo nomi va xalqaro patentlanmagan nomi (XPN) nimasi bilan farq qiladi?",
+   "a": [
+    "XPN — ta'sir etuvchi moddaning umumiy nomi",
+    "XPN — ishlab chiqaruvchi firmaning nomi",
+    "XPN — dorining narxi",
+    "Ular o'rtasida farq yo'q"
+   ],
+   "e": "Masalan, paratsetamol — XPN."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Dori vositasining yo'riqnomasida nima ko'rsatiladi?",
+   "a": [
+    "Ko'rsatmalar, qarshi ko'rsatmalar, dozalar, nojo'ya ta'sirlar",
+    "Faqat ishlab chiqaruvchining manzili",
+    "Faqat narxi",
+    "Faqat rangi"
+   ],
+   "e": "Annotatsiya."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Qarshi ko'rsatma (protivopokazaniye) nima?",
+   "a": [
+    "Dorini qo'llash mumkin bo'lmagan holatlar",
+    "Dorini qo'llash zarur bo'lgan holatlar",
+    "Dorining narxi",
+    "Dorining ishlab chiqarilgan joyi"
+   ],
+   "e": "Masalan, allergiya, homiladorlik."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Dorining \"ko'rsatma\"si (pokazaniye) nima?",
+   "a": [
+    "Dorini qo'llash zarur bo'lgan kasallik va holatlar",
+    "Dorini qo'llash taqiqlangan holatlar",
+    "Dorining nojo'ya ta'sirlari",
+    "Dorining saqlash sharoiti"
+   ],
+   "e": "Indikatsiyalar."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Simptomatik davo nima?",
+   "a": [
+    "Kasallik belgilarini yengillashtiruvchi davo",
+    "Kasallik sababini yo'qotuvchi davo",
+    "Kasallikning oldini olish",
+    "Jarrohlik davosi"
+   ],
+   "e": "Masalan, isitma tushirish."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Etiotrop davo nima?",
+   "a": [
+    "Kasallik sababini yo'qotishga qaratilgan davo",
+    "Faqat belgilarni yengillashtiruvchi davo",
+    "Faqat og'riqni qoldirish",
+    "Faqat ruhiy qo'llab-quvvatlash"
+   ],
+   "e": "Masalan, antibiotik bakterial infeksiyada."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "O'rnini bosuvchi terapiyaga misol qaysi?",
+   "a": [
+    "Qandli diabetda insulin",
+    "Infeksiyada antibiotik",
+    "Isitmada paratsetamol",
+    "Og'riqda ibuprofen"
+   ],
+   "e": "Yetishmayotgan moddani to'ldirish."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Profilaktik maqsadda qo'llanadigan dori vositasiga misol qaysi?",
+   "a": [
+    "Vaksina",
+    "Morfin",
+    "Furosemid",
+    "Atropin"
+   ],
+   "e": "Kasallikning oldini olish."
+  }
+ ],
+ "kalit": "farmakologiya dori dorishunoslik farmatsiya hamshira tibbiyot"
+}
