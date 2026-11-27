@@ -1,0 +1,3330 @@
+{
+ "kod": "5PM0059",
+ "nomi": "Amaliy matematika",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (7 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Matritsa nima?",
+   "a": [
+    "Sonlarning to'g'ri burchakli jadvali",
+    "Faqat bitta sondan iborat algebraik ifoda",
+    "Tenglamaning koordinata tekisligidagi grafigi",
+    "Sonlar ketma-ketligining yig'indisi"
+   ],
+   "e": "m × n o'lchamli."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "3 × 4 o'lchamli matritsada nechta element bor?",
+   "a": [
+    "12",
+    "7",
+    "3",
+    "4"
+   ],
+   "e": "Satrlar × ustunlar."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Kvadrat matritsa deb qanday matritsaga aytiladi?",
+   "a": [
+    "Satrlar va ustunlar soni teng matritsaga",
+    "Barcha elementlari kvadrat sonlar bo'lgan matritsaga",
+    "Faqat bitta satrdan iborat matritsaga",
+    "Barcha elementlari nol bo'lgan matritsaga"
+   ],
+   "e": "n × n."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Birlik matritsa qanday matritsa?",
+   "a": [
+    "Bosh diagonalida 1, qolganlari 0",
+    "Barcha elementlari 1 ga teng bo'lgan matritsa",
+    "Faqat bitta elementdan iborat matritsa",
+    "Barcha elementlari 0 ga teng matritsa"
+   ],
+   "e": "E yoki I bilan belgilanadi."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Transponirlangan matritsa qanday hosil qilinadi?",
+   "a": [
+    "Satrlar ustunlar bilan almashtiriladi",
+    "Barcha elementlar teskari ishoraga o'zgartiriladi",
+    "Elementlar kvadratga oshiriladi",
+    "Diagonal elementlar nolga aylantiriladi"
+   ],
+   "e": "Aᵀ."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Ikki matritsani qo'shish uchun qanday shart bajarilishi kerak?",
+   "a": [
+    "O'lchamlari bir xil bo'lishi",
+    "Birinchisining ustunlari ikkinchisining satrlariga teng bo'lishi",
+    "Ikkalasi ham kvadrat bo'lishi",
+    "Determinantlari teng bo'lishi"
+   ],
+   "e": "Mos elementlar qo'shiladi."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "A (m × n) va B (n × k) matritsalar ko'paytmasi qanday o'lchamda bo'ladi?",
+   "a": [
+    "m × k",
+    "n × n",
+    "m × n",
+    "k × m"
+   ],
+   "e": "Ichki o'lchamlar teng bo'lishi kerak."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Matritsalar ko'paytmasi umumiy holda kommutativmi (AB = BA)?",
+   "a": [
+    "Yo'q",
+    "Ha, har doim",
+    "Faqat 2 × 2 da",
+    "Faqat nol matritsada"
+   ],
+   "e": "Kommutativlik umumiy holda bajarilmaydi."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "A = [[1, 2], [3, 4]] matritsaning determinanti qancha?",
+   "a": [
+    "−2",
+    "2",
+    "10",
+    "−10"
+   ],
+   "e": "1·4 − 2·3."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[2, 0], [0, 5]] matritsaning determinanti qancha?",
+   "a": [
+    "10",
+    "7",
+    "0",
+    "2,5"
+   ],
+   "e": "Diagonal elementlar ko'paytmasi."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[3, 1], [6, 2]] matritsaning determinanti qancha?",
+   "a": [
+    "0",
+    "12",
+    "6",
+    "−12"
+   ],
+   "e": "3·2 − 1·6; satrlar proporsional."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Determinantning ikki satri o'rni almashtirilsa, uning qiymati qanday o'zgaradi?",
+   "a": [
+    "Ishorasi o'zgaradi",
+    "O'zgarmaydi",
+    "Nolga aylanadi",
+    "Ikki baravar ortadi"
+   ],
+   "e": "Determinant xossasi."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Determinantning ikki satri teng bo'lsa, uning qiymati qancha?",
+   "a": [
+    "0",
+    "1",
+    "Satr elementlari yig'indisi",
+    "Aniqlab bo'lmaydi"
+   ],
+   "e": "Xossa."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Determinantning bir satri k ga ko'paytirilsa, determinant qanday o'zgaradi?",
+   "a": [
+    "k marta ortadi",
+    "k² marta ortadi",
+    "O'zgarmaydi",
+    "k ga bo'linadi"
+   ],
+   "e": "Umumiy ko'paytuvchini chiqarish mumkin."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Transponirlashda determinant qiymati qanday o'zgaradi?",
+   "a": [
+    "O'zgarmaydi",
+    "Ishorasi o'zgaradi",
+    "Nolga aylanadi",
+    "Kvadratga oshadi"
+   ],
+   "e": "det Aᵀ = det A."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "3 × 3 determinantni hisoblashning usullaridan biri qaysi?",
+   "a": [
+    "Sarryus (uchburchaklar) qoidasi",
+    "Pifagor teoremasi",
+    "Lopital qoidasi",
+    "Simpson usuli"
+   ],
+   "e": "Satr bo'yicha yoyish ham."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[1, 0, 0], [0, 2, 0], [0, 0, 3]] matritsaning determinanti qancha?",
+   "a": [
+    "6",
+    "3",
+    "0",
+    "1"
+   ],
+   "e": "Diagonal matritsa."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[1, 2, 3], [0, 1, 4], [0, 0, 2]] matritsaning determinanti qancha?",
+   "a": [
+    "2",
+    "6",
+    "0",
+    "12"
+   ],
+   "e": "Uchburchak matritsa: diagonal ko'paytmasi 1·1·2."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Minor nima?",
+   "a": [
+    "Satr va ustun o'chirilgandan qolgan determinant",
+    "Matritsaning eng kichik elementi",
+    "Matritsaning barcha elementlari yig'indisi",
+    "Diagonal elementlar ko'paytmasi"
+   ],
+   "e": "Mᵢⱼ."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Algebraik to'ldiruvchi qanday aniqlanadi?",
+   "a": [
+    "Aᵢⱼ = (−1)^(i+j)·Mᵢⱼ",
+    "Aᵢⱼ = Mᵢⱼ²",
+    "Aᵢⱼ = aᵢⱼ·Mᵢⱼ",
+    "Aᵢⱼ = −aᵢⱼ"
+   ],
+   "e": "Ishora shaxmat tartibida."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Teskari matritsa qachon mavjud?",
+   "a": [
+    "Determinant noldan farqli bo'lganda",
+    "Determinant nolga teng bo'lganda",
+    "Matritsa to'rtburchak bo'lganda",
+    "Har doim mavjud"
+   ],
+   "e": "Xosmas matritsa."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "A·A⁻¹ nimaga teng?",
+   "a": [
+    "Birlik matritsaga",
+    "Nol matritsaga",
+    "A ga",
+    "A² ga"
+   ],
+   "e": "Ta'rif bo'yicha."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "A = [[2, 1], [1, 1]] uchun A⁻¹ qanday?",
+   "a": [
+    "[[1, −1], [−1, 2]]",
+    "[[1, 1], [1, 2]]",
+    "[[2, −1], [−1, 1]]",
+    "[[−1, 1], [1, −2]]"
+   ],
+   "e": "det = 1; [[d, −b], [−c, a]]."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Matritsaning rangi nima?",
+   "a": [
+    "Noldan farqli minorlarning eng yuqori tartibi",
+    "Matritsadagi barcha elementlar soni",
+    "Matritsaning eng katta elementi",
+    "Diagonal elementlar yig'indisi"
+   ],
+   "e": "Chiziqli erkli satrlar soni."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[1, 2], [2, 4]] matritsaning rangi qancha?",
+   "a": [
+    "1",
+    "2",
+    "0",
+    "4"
+   ],
+   "e": "Satrlar proporsional."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Matritsa izi (trace) nima?",
+   "a": [
+    "Bosh diagonal elementlari yig'indisi",
+    "Barcha elementlar ko'paytmasi",
+    "Determinantning kvadrati",
+    "Eng katta element"
+   ],
+   "e": "tr A."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[1, 2], [3, 4]] ni 2 ga ko'paytirganda qanday matritsa hosil bo'ladi?",
+   "a": [
+    "[[2, 4], [6, 8]]",
+    "[[3, 4], [5, 6]]",
+    "[[1, 4], [9, 16]]",
+    "[[2, 2], [3, 4]]"
+   ],
+   "e": "Har bir element 2 ga ko'paytiriladi."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[1, 2], [3, 4]] · [[1, 0], [0, 1]] qanday?",
+   "a": [
+    "[[1, 2], [3, 4]]",
+    "[[1, 0], [0, 4]]",
+    "[[2, 2], [3, 5]]",
+    "[[0, 0], [0, 0]]"
+   ],
+   "e": "Birlik matritsaga ko'paytirish."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[1, 2]] · [[3], [4]] ko'paytmasi qancha?",
+   "a": [
+    "11",
+    "[[3, 6], [4, 8]]",
+    "10",
+    "7"
+   ],
+   "e": "1·3 + 2·4."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[1, 1], [0, 1]]² qanday?",
+   "a": [
+    "[[1, 2], [0, 1]]",
+    "[[1, 1], [0, 1]]",
+    "[[2, 2], [0, 2]]",
+    "[[1, 0], [0, 1]]"
+   ],
+   "e": "Matritsani o'ziga ko'paytirish."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Simmetrik matritsa qanday shartni qanoatlantiradi?",
+   "a": [
+    "A = Aᵀ",
+    "A = −A",
+    "A² = E",
+    "det A = 0"
+   ],
+   "e": "aᵢⱼ = aⱼᵢ."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Xos (maxsus) matritsa deb qanday matritsaga aytiladi?",
+   "a": [
+    "Determinanti nolga teng matritsaga",
+    "Determinanti birga teng matritsaga",
+    "Faqat birlik matritsaga",
+    "Teskari matritsasi mavjud matritsaga"
+   ],
+   "e": "Teskarisi mavjud emas."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Chiziqli tenglamalar sistemasi birgalikda deyiladi, agar...",
+   "a": [
+    "kamida bitta yechimga ega bo'lsa",
+    "hech qanday yechimga ega bo'lmasa",
+    "tenglamalar soni noma'lumlardan ko'p bo'lsa",
+    "barcha koeffitsiyentlar nolga teng bo'lsa"
+   ],
+   "e": "Birgalikda bo'lmagan — yechimi yo'q."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Kramer formulalari qachon qo'llaniladi?",
+   "a": [
+    "Asosiy determinant noldan farqli bo'lsa",
+    "Asosiy determinant nolga teng bo'lsa",
+    "Tenglamalar soni noma'lumlardan ko'p bo'lsa",
+    "Har doim, istalgan sistemada"
+   ],
+   "e": "xᵢ = Δᵢ/Δ."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "x + y = 5, x − y = 1 sistemasining yechimi qanday?",
+   "a": [
+    "x = 3, y = 2",
+    "x = 2, y = 3",
+    "x = 4, y = 1",
+    "x = 5, y = 0"
+   ],
+   "e": "Qo'shish usuli."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "2x + y = 7, x + y = 4 sistemasining yechimi qanday?",
+   "a": [
+    "x = 3, y = 1",
+    "x = 1, y = 3",
+    "x = 2, y = 3",
+    "x = 4, y = 0"
+   ],
+   "e": "Ayirish: x = 3."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "3x − 2y = 4, x + 2y = 4 sistemasining yechimi qanday?",
+   "a": [
+    "x = 2, y = 1",
+    "x = 1, y = 2",
+    "x = 4, y = 0",
+    "x = 0, y = 2"
+   ],
+   "e": "Qo'shish: 4x = 8."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "2x + 3y = 5, 4x + 6y = 10 sistemasi haqida nima deyish mumkin?",
+   "a": [
+    "Cheksiz ko'p yechimga ega",
+    "Yagona yechimga ega",
+    "Yechimga ega emas",
+    "Faqat x = 0 yechimga ega"
+   ],
+   "e": "Tenglamalar proporsional."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "x + y = 2, x + y = 5 sistemasi haqida nima deyish mumkin?",
+   "a": [
+    "Yechimga ega emas",
+    "Yagona yechimga ega",
+    "Cheksiz ko'p yechimga ega",
+    "x = 2, y = 5"
+   ],
+   "e": "Parallel to'g'ri chiziqlar."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Gauss usulining mohiyati nima?",
+   "a": [
+    "Noma'lumlarni ketma-ket yo'qotish",
+    "Determinantlarni hisoblash",
+    "Grafik chizish",
+    "Tasodifiy sonlarni tanlash"
+   ],
+   "e": "Uchburchak ko'rinishga keltirish."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Kroneker–Kapelli teoremasiga ko'ra sistema qachon birgalikda?",
+   "a": [
+    "Asosiy va kengaytirilgan matritsa ranglari teng bo'lsa",
+    "Asosiy matritsa determinanti nol bo'lsa",
+    "Noma'lumlar soni tenglamalardan ko'p bo'lsa",
+    "Ozod hadlar nolga teng bo'lsa"
+   ],
+   "e": "rang A = rang Ā."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Bir jinsli chiziqli tenglamalar sistemasi har doim qanday yechimga ega?",
+   "a": [
+    "Nol (trivial) yechimga",
+    "Yechimga ega emas",
+    "Faqat musbat yechimga",
+    "Faqat butun son yechimga"
+   ],
+   "e": "Barcha noma'lumlar 0."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Bir jinsli sistema notrivial yechimga ega bo'lishi uchun (n × n) nima shart?",
+   "a": [
+    "Determinant nolga teng",
+    "Determinant birga teng",
+    "Determinant musbat",
+    "Ozod hadlar noldan farqli"
+   ],
+   "e": "Chiziqli bog'liq tenglamalar."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Matritsa usulida sistema yechimi qanday topiladi?",
+   "a": [
+    "X = A⁻¹·B",
+    "X = A·B",
+    "X = B·A",
+    "X = A + B"
+   ],
+   "e": "AX = B."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Kramer usulida Δ = 2, Δx = 6 bo'lsa, x qancha?",
+   "a": [
+    "3",
+    "12",
+    "8",
+    "1/3"
+   ],
+   "e": "x = Δx/Δ."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "2 × 2 sistema uchun asosiy determinant Δ = 0, Δx ≠ 0 bo'lsa nima bo'ladi?",
+   "a": [
+    "Sistema yechimga ega emas",
+    "Yagona yechim mavjud",
+    "Cheksiz ko'p yechim",
+    "x = 0"
+   ],
+   "e": "Birgalikda emas."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Uch noma'lumli x + y + z = 6, y + z = 5, z = 3 sistemasining yechimi qanday?",
+   "a": [
+    "x = 1, y = 2, z = 3",
+    "x = 3, y = 2, z = 1",
+    "x = 2, y = 1, z = 3",
+    "x = 6, y = 5, z = 3"
+   ],
+   "e": "Teskari yo'l bilan."
+  },
+  {
+   "b": "Chiziqli tenglamalar sistemasi",
+   "q": "Jordan–Gauss usulida matritsa qanday ko'rinishga keltiriladi?",
+   "a": [
+    "Birlik matritsa ko'rinishiga",
+    "Nol matritsa ko'rinishiga",
+    "Simmetrik ko'rinishga",
+    "Transponirlangan ko'rinishga"
+   ],
+   "e": "Har bir noma'lum alohida ajraladi."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Vektor nima?",
+   "a": [
+    "Yo'nalgan kesma",
+    "Faqat musbat son",
+    "Ikki nuqta orasidagi burchak",
+    "To'g'ri chiziqning tenglamasi"
+   ],
+   "e": "Uzunlik va yo'nalishga ega."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "a = (3; 4) vektorning uzunligi qancha?",
+   "a": [
+    "5",
+    "7",
+    "25",
+    "1"
+   ],
+   "e": "√(9 + 16)."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "a = (1; 2) va b = (3; −1) vektorlar yig'indisi qanday?",
+   "a": [
+    "(4; 1)",
+    "(2; −3)",
+    "(3; −2)",
+    "(4; 3)"
+   ],
+   "e": "Koordinatalar qo'shiladi."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "a = (1; 2) va b = (3; 4) vektorlarning skalyar ko'paytmasi qancha?",
+   "a": [
+    "11",
+    "10",
+    "(3; 8)",
+    "14"
+   ],
+   "e": "1·3 + 2·4."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Ikki vektor perpendikulyar bo'lishining sharti qanday?",
+   "a": [
+    "Skalyar ko'paytma nolga teng",
+    "Vektor ko'paytma nolga teng",
+    "Uzunliklari teng",
+    "Koordinatalari teng"
+   ],
+   "e": "cos 90° = 0."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "a = (2; −1) va b = (1; 2) vektorlar qanday joylashgan?",
+   "a": [
+    "Perpendikulyar",
+    "Parallel",
+    "Bir xil yo'nalgan",
+    "Teng"
+   ],
+   "e": "2·1 + (−1)·2 = 0."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Ikki vektor kollinear bo'lishining sharti qanday?",
+   "a": [
+    "Koordinatalari proporsional",
+    "Skalyar ko'paytmasi nolga teng",
+    "Uzunliklari teng",
+    "Yig'indisi nol vektor"
+   ],
+   "e": "a = k·b."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Ikki vektor orasidagi burchak kosinusi qanday topiladi?",
+   "a": [
+    "cos φ = (a·b)/(|a|·|b|)",
+    "cos φ = |a|·|b|",
+    "cos φ = a + b",
+    "cos φ = |a|/|b|"
+   ],
+   "e": "Skalyar ko'paytma orqali."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "A(1; 2) va B(4; 6) nuqtalar orasidagi masofa qancha?",
+   "a": [
+    "5",
+    "7",
+    "25",
+    "√7"
+   ],
+   "e": "√(9 + 16)."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "A(2; 4) va B(6; 8) kesma o'rtasining koordinatalari qanday?",
+   "a": [
+    "(4; 6)",
+    "(8; 12)",
+    "(2; 2)",
+    "(3; 5)"
+   ],
+   "e": "Yarim yig'indi."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "y = 2x + 3 to'g'ri chiziqning burchak koeffitsiyenti qancha?",
+   "a": [
+    "2",
+    "3",
+    "5",
+    "1/2"
+   ],
+   "e": "y = kx + b."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "y = 2x + 3 to'g'ri chiziq Oy o'qini qaysi nuqtada kesadi?",
+   "a": [
+    "(0; 3)",
+    "(3; 0)",
+    "(0; 2)",
+    "(−1,5; 0)"
+   ],
+   "e": "x = 0."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Ikki to'g'ri chiziq y = k₁x + b₁ va y = k₂x + b₂ parallel bo'lishi sharti qanday?",
+   "a": [
+    "k₁ = k₂, b₁ ≠ b₂",
+    "k₁·k₂ = −1",
+    "b₁ = b₂",
+    "k₁ + k₂ = 0"
+   ],
+   "e": "Perpendikulyarlik sharti — k₁·k₂ = −1."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "y = 3x − 1 ga perpendikulyar to'g'ri chiziqning burchak koeffitsiyenti qancha?",
+   "a": [
+    "−1/3",
+    "3",
+    "−3",
+    "1/3"
+   ],
+   "e": "k₁·k₂ = −1."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "(1; 1) va (3; 5) nuqtalardan o'tuvchi to'g'ri chiziqning burchak koeffitsiyenti qancha?",
+   "a": [
+    "2",
+    "4",
+    "1/2",
+    "3"
+   ],
+   "e": "(5 − 1)/(3 − 1)."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "x² + y² = 25 tenglama qanday chiziqni ifodalaydi?",
+   "a": [
+    "Markazi (0; 0), radiusi 5 bo'lgan aylana",
+    "Markazi (0; 0), radiusi 25 bo'lgan aylana",
+    "Parabola",
+    "Giperbola"
+   ],
+   "e": "x² + y² = R²."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "(x − 2)² + (y + 1)² = 9 aylananing markazi qaysi nuqta?",
+   "a": [
+    "(2; −1)",
+    "(−2; 1)",
+    "(2; 1)",
+    "(9; 0)"
+   ],
+   "e": "Radiusi 3."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "y = x² tenglama qanday chiziqni ifodalaydi?",
+   "a": [
+    "Parabola",
+    "Aylana",
+    "Ellips",
+    "To'g'ri chiziq"
+   ],
+   "e": "Uchi koordinata boshida."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "x²/9 + y²/4 = 1 tenglama qanday chiziqni ifodalaydi?",
+   "a": [
+    "Ellips",
+    "Giperbola",
+    "Parabola",
+    "Aylana"
+   ],
+   "e": "Yarim o'qlar 3 va 2."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "x²/9 − y²/4 = 1 tenglama qanday chiziqni ifodalaydi?",
+   "a": [
+    "Giperbola",
+    "Ellips",
+    "Parabola",
+    "Aylana"
+   ],
+   "e": "Ayirma ishorasi."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Nuqtadan to'g'ri chiziqqacha masofa formulasi qaysi?",
+   "a": [
+    "d = |Ax₀ + By₀ + C|/√(A² + B²)",
+    "d = Ax₀ + By₀",
+    "d = √(x₀² + y₀²)",
+    "d = |A + B + C|"
+   ],
+   "e": "Ax + By + C = 0."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "(0; 0) nuqtadan 3x + 4y − 10 = 0 to'g'ri chiziqqacha masofa qancha?",
+   "a": [
+    "2",
+    "10",
+    "5",
+    "1"
+   ],
+   "e": "|−10|/5."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Hodisa ehtimolining klassik ta'rifi qaysi?",
+   "a": [
+    "P = m/n",
+    "P = n/m",
+    "P = m + n",
+    "P = m·n"
+   ],
+   "e": "0 ≤ P ≤ 1."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Muqarrar hodisaning ehtimoli qancha?",
+   "a": [
+    "1",
+    "0",
+    "0,5",
+    "∞"
+   ],
+   "e": "Albatta ro'y beradi."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Mumkin bo'lmagan hodisaning ehtimoli qancha?",
+   "a": [
+    "0",
+    "1",
+    "−1",
+    "0,5"
+   ],
+   "e": "Hech qachon ro'y bermaydi."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Tanga tashlanganda gerb tushish ehtimoli qancha?",
+   "a": [
+    "1/2",
+    "1",
+    "1/4",
+    "1/3"
+   ],
+   "e": "Ikki teng imkoniyatli hol."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "O'yin kubigi tashlanganda 6 tushish ehtimoli qancha?",
+   "a": [
+    "1/6",
+    "1/2",
+    "1/3",
+    "6"
+   ],
+   "e": "Olti yoqli kub."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "O'yin kubigi tashlanganda juft son tushish ehtimoli qancha?",
+   "a": [
+    "1/2",
+    "1/3",
+    "1/6",
+    "2/3"
+   ],
+   "e": "2, 4, 6 — 3/6."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Qutida 3 ta oq va 7 ta qora shar bor. Tavakkal olingan shar oq bo'lish ehtimoli qancha?",
+   "a": [
+    "0,3",
+    "0,7",
+    "3/7",
+    "0,5"
+   ],
+   "e": "3/10."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Qarama-qarshi hodisa ehtimoli qanday topiladi?",
+   "a": [
+    "P(Ā) = 1 − P(A)",
+    "P(Ā) = P(A)",
+    "P(Ā) = 1 + P(A)",
+    "P(Ā) = P(A)²"
+   ],
+   "e": "Ikkalasi yig'indisi 1."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "P(A) = 0,8 bo'lsa, P(Ā) qancha?",
+   "a": [
+    "0,2",
+    "0,8",
+    "1,8",
+    "0,64"
+   ],
+   "e": "1 − 0,8."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Birgalikda bo'lmagan hodisalar yig'indisi ehtimoli qanday?",
+   "a": [
+    "P(A + B) = P(A) + P(B)",
+    "P(A + B) = P(A)·P(B)",
+    "P(A + B) = P(A) − P(B)",
+    "P(A + B) = 1"
+   ],
+   "e": "Qo'shish teoremasi."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Erkli hodisalar ko'paytmasi ehtimoli qanday?",
+   "a": [
+    "P(AB) = P(A)·P(B)",
+    "P(AB) = P(A) + P(B)",
+    "P(AB) = P(A) − P(B)",
+    "P(AB) = 0"
+   ],
+   "e": "Ko'paytirish teoremasi."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Ikki tanga tashlanganda ikkalasida ham gerb tushish ehtimoli qancha?",
+   "a": [
+    "1/4",
+    "1/2",
+    "1",
+    "3/4"
+   ],
+   "e": "1/2 · 1/2."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Ikki o'q otuvchi nishonga tegish ehtimollari 0,8 va 0,9. Ikkalasi ham tekkizish ehtimoli qancha?",
+   "a": [
+    "0,72",
+    "1,7",
+    "0,85",
+    "0,1"
+   ],
+   "e": "Erkli hodisalar."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Yuqoridagi masalada kamida bittasi tekkizish ehtimoli qancha?",
+   "a": [
+    "0,98",
+    "0,72",
+    "0,02",
+    "0,85"
+   ],
+   "e": "1 − 0,2·0,1."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Birgalikda bo'lgan hodisalar uchun qo'shish formulasi qaysi?",
+   "a": [
+    "P(A + B) = P(A) + P(B) − P(AB)",
+    "P(A + B) = P(A) + P(B)",
+    "P(A + B) = P(A)·P(B)",
+    "P(A + B) = P(AB)"
+   ],
+   "e": "Kesishma ikki marta sanalmasligi uchun."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Shartli ehtimol P(A|B) qanday aniqlanadi?",
+   "a": [
+    "P(AB)/P(B)",
+    "P(A)·P(B)",
+    "P(A) + P(B)",
+    "P(B)/P(AB)"
+   ],
+   "e": "B ro'y bergan shartda A ehtimoli."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "To'liq ehtimol formulasi qanday?",
+   "a": [
+    "P(A) = Σ P(Hᵢ)·P(A|Hᵢ)",
+    "P(A) = P(H₁) + P(A)",
+    "P(A) = Π P(Hᵢ)",
+    "P(A) = 1/n"
+   ],
+   "e": "Gipotezalar to'liq guruh tashkil etadi."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Bayes formulasi nimani hisoblaydi?",
+   "a": [
+    "Tajribadan keyingi gipoteza ehtimolini",
+    "Tajriba o'tkazilgunga qadar hodisalar sonini",
+    "Matritsa determinantini",
+    "Funksiya hosilasini"
+   ],
+   "e": "Aposterior ehtimol."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Bernulli formulasi qanday masalani yechadi?",
+   "a": [
+    "n sinovda k marta ro'y berish ehtimolini",
+    "Ikki vektor orasidagi burchakni",
+    "Funksiya ekstremumini",
+    "Integral qiymatini"
+   ],
+   "e": "Pₙ(k) = Cₙᵏ pᵏ qⁿ⁻ᵏ."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Tanga 3 marta tashlanganda aniq 2 marta gerb tushish ehtimoli qancha?",
+   "a": [
+    "3/8",
+    "1/8",
+    "1/2",
+    "2/3"
+   ],
+   "e": "C₃² · (1/2)³."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "5! qancha?",
+   "a": [
+    "120",
+    "25",
+    "60",
+    "15"
+   ],
+   "e": "1·2·3·4·5."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "5 ta elementdan 2 tadan guruhlashlar soni C₅² qancha?",
+   "a": [
+    "10",
+    "20",
+    "25",
+    "5"
+   ],
+   "e": "5!/(2!·3!)."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "5 ta elementdan 2 tadan o'rinlashtirishlar soni A₅² qancha?",
+   "a": [
+    "20",
+    "10",
+    "25",
+    "120"
+   ],
+   "e": "5·4."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "4 ta kitobni javonga necha xil usulda terish mumkin?",
+   "a": [
+    "24",
+    "16",
+    "4",
+    "12"
+   ],
+   "e": "4! o'rin almashtirish."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Tasodifiy miqdorning matematik kutilmasi nima?",
+   "a": [
+    "Qiymatlarning ehtimollar bo'yicha o'rtachasi",
+    "Tasodifiy miqdorning eng katta qiymati",
+    "Eng kichik qiymati",
+    "Qiymatlar soni"
+   ],
+   "e": "M(X) = Σxᵢpᵢ."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "X: 1, 2, 3 qiymatlarni 0,2; 0,5; 0,3 ehtimollar bilan qabul qiladi. M(X) qancha?",
+   "a": [
+    "2,1",
+    "2",
+    "6",
+    "1"
+   ],
+   "e": "0,2 + 1 + 0,9."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Dispersiya nimani tavsiflaydi?",
+   "a": [
+    "Qiymatlarning o'rtacha atrofida tarqoqligini",
+    "Qiymatlarning oddiy arifmetik o'rtachasini",
+    "Eng ehtimolli qiymatni",
+    "Qiymatlar sonini"
+   ],
+   "e": "D(X) = M(X²) − (M(X))²."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "O'rta kvadratik chetlanish dispersiya bilan qanday bog'langan?",
+   "a": [
+    "σ = √D",
+    "σ = D²",
+    "σ = D/2",
+    "σ = 1/D"
+   ],
+   "e": "Bir xil o'lchov birligida."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "O'zgarmas sonning matematik kutilmasi qancha (M(C))?",
+   "a": [
+    "C",
+    "0",
+    "1",
+    "C²"
+   ],
+   "e": "Xossa."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "O'zgarmas sonning dispersiyasi qancha?",
+   "a": [
+    "0",
+    "C",
+    "C²",
+    "1"
+   ],
+   "e": "Tarqoqlik yo'q."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "M(2X + 3) qanday topiladi?",
+   "a": [
+    "2M(X) + 3",
+    "4M(X) + 3",
+    "2M(X)",
+    "M(X) + 5"
+   ],
+   "e": "Chiziqlilik xossasi."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "D(2X) qanday topiladi?",
+   "a": [
+    "4D(X)",
+    "2D(X)",
+    "D(X)",
+    "D(X) + 2"
+   ],
+   "e": "D(CX) = C²D(X)."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Normal taqsimot egri chizig'i qanday shaklda?",
+   "a": [
+    "Qo'ng'iroqsimon, simmetrik",
+    "To'g'ri chiziq",
+    "Parabola, tarmoqlari yuqoriga",
+    "Giperbola"
+   ],
+   "e": "Gauss egri chizig'i."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Katta sonlar qonunining mazmuni nima?",
+   "a": [
+    "Nisbiy chastota ehtimolga yaqinlashadi",
+    "Katta sonlar har doim kichiklardan ko'p uchraydi",
+    "Ehtimol har doim 1 ga teng",
+    "Sinovlar soni ahamiyatsiz"
+   ],
+   "e": "Chebishev, Bernulli teoremalari."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Bosh to'plam va tanlanma farqi nima?",
+   "a": [
+    "Tanlanma — bosh to'plamdan olingan qism",
+    "Bosh to'plam — tanlanmaning bir qismi",
+    "Ular bir xil tushuncha",
+    "Tanlanma har doim bosh to'plamdan katta"
+   ],
+   "e": "Tanlanma reprezentativ bo'lishi kerak."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Tanlanmaning o'rta arifmetigi: 2, 4, 6, 8 qancha?",
+   "a": [
+    "5",
+    "4",
+    "6",
+    "20"
+   ],
+   "e": "20/4."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "3, 7, 1, 9, 5 qatorining medianasi qancha?",
+   "a": [
+    "5",
+    "7",
+    "3",
+    "25"
+   ],
+   "e": "Tartiblangan: 1, 3, 5, 7, 9."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "2, 3, 3, 5, 3, 7 qatorining modasi qancha?",
+   "a": [
+    "3",
+    "5",
+    "2",
+    "7"
+   ],
+   "e": "Eng ko'p uchraydigan qiymat."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "2, 4, 6, 8, 10 qatorining variatsiya kengligi (razmax) qancha?",
+   "a": [
+    "8",
+    "10",
+    "6",
+    "30"
+   ],
+   "e": "10 − 2."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "1, 2, 3, 4 qatori uchun medianani toping.",
+   "a": [
+    "2,5",
+    "2",
+    "3",
+    "10"
+   ],
+   "e": "O'rtadagi ikki qiymat o'rtachasi."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Gistogramma nima?",
+   "a": [
+    "Chastotalarning ustunli grafigi",
+    "Matritsaning maxsus turi",
+    "Tenglamaning ildizlari jadvali",
+    "Integral belgisi"
+   ],
+   "e": "Intervallar bo'yicha."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Korrelyatsiya koeffitsiyenti qanday oraliqda bo'ladi?",
+   "a": [
+    "[−1; 1]",
+    "[0; ∞)",
+    "[0; 100]",
+    "(−∞; ∞)"
+   ],
+   "e": "|r| ga yaqin 1 — kuchli bog'lanish."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Korrelyatsiya koeffitsiyenti r = 0 bo'lsa nima bildiradi?",
+   "a": [
+    "Chiziqli bog'lanish yo'q",
+    "Kuchli to'g'ri bog'lanish",
+    "Kuchli teskari bog'lanish",
+    "Funksional bog'lanish"
+   ],
+   "e": "Nochiziqli bog'lanish bo'lishi mumkin."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Korrelyatsiya koeffitsiyenti −0,95 bo'lsa nima bildiradi?",
+   "a": [
+    "Kuchli teskari chiziqli bog'lanish",
+    "Kuchsiz to'g'ri bog'lanish",
+    "Bog'lanish yo'q",
+    "Kuchli to'g'ri bog'lanish"
+   ],
+   "e": "Biri ortsa, ikkinchisi kamayadi."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Regressiya tenglamasi nima uchun tuziladi?",
+   "a": [
+    "Bir o'zgaruvchini boshqasi bilan bashorat qilish",
+    "Matritsa determinantini topish uchun",
+    "Ehtimolni nolga tenglash uchun",
+    "Vektor uzunligini topish uchun"
+   ],
+   "e": "y = a + bx."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Chiziqli regressiya koeffitsiyentlari qaysi usul bilan topiladi?",
+   "a": [
+    "Eng kichik kvadratlar usuli",
+    "Kramer usuli faqat",
+    "Lopital qoidasi",
+    "Simpson usuli"
+   ],
+   "e": "Chetlanishlar kvadratlari yig'indisi minimal."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Tanlanma dispersiyasi: 1, 3, 5 (o'rtacha 3) qancha (n ga bo'lib)?",
+   "a": [
+    "8/3",
+    "4",
+    "3",
+    "2"
+   ],
+   "e": "(4 + 0 + 4)/3."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Variatsiya koeffitsiyenti qanday hisoblanadi?",
+   "a": [
+    "V = σ/x̄ · 100%",
+    "V = x̄/σ",
+    "V = σ·x̄",
+    "V = σ²"
+   ],
+   "e": "Nisbiy tarqoqlik."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Statistik gipotezani tekshirishda \"ahamiyatlilik darajasi\" nima?",
+   "a": [
+    "To'g'ri gipotezani rad etish ehtimoli",
+    "Tanlanma hajmi va uning chegarasi",
+    "O'rta arifmetik qiymat",
+    "Dispersiya qiymati"
+   ],
+   "e": "Odatda 0,05."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Indeks (iqtisodiy statistikada) nima?",
+   "a": [
+    "Darajaning bazis davrga nisbati",
+    "Kitob oxiridagi alifbo ko'rsatkichi",
+    "Pochta indeksi",
+    "Matritsa rangi"
+   ],
+   "e": "Narxlar indeksi, hajm indeksi."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Narx 200 so'mdan 250 so'mga oshdi. Narx indeksi qancha?",
+   "a": [
+    "1,25",
+    "0,8",
+    "50",
+    "2,5"
+   ],
+   "e": "250/200."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "O'sish sur'ati 120% bo'lsa, qo'shimcha o'sish sur'ati qancha?",
+   "a": [
+    "20%",
+    "120%",
+    "220%",
+    "1,2%"
+   ],
+   "e": "120% − 100%."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Dinamika qatori nima?",
+   "a": [
+    "Ko'rsatkichning vaqt bo'yicha qatori",
+    "Matritsa satri",
+    "Sonli qatorning yig'indisi",
+    "Funksiyaning hosilalari"
+   ],
+   "e": "Mutlaq o'sish, o'sish sur'ati."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "O'rtacha o'sish sur'ati qaysi o'rtacha orqali hisoblanadi?",
+   "a": [
+    "Geometrik o'rtacha",
+    "Arifmetik o'rtacha",
+    "Garmonik o'rtacha faqat",
+    "Mediana"
+   ],
+   "e": "Zanjirli koeffitsiyentlar ko'paytmasining ildizi."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "1 000 000 so'm yillik 20% oddiy foiz bilan 3 yilga qo'yildi. Jami summa qancha?",
+   "a": [
+    "1 600 000 so'm",
+    "1 728 000 so'm",
+    "1 200 000 so'm",
+    "3 000 000 so'm"
+   ],
+   "e": "S = P(1 + ni) = 1 000 000·1,6."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "1 000 000 so'm yillik 20% murakkab foiz bilan 2 yilga qo'yildi. Jami summa qancha?",
+   "a": [
+    "1 440 000 so'm",
+    "1 400 000 so'm",
+    "1 200 000 so'm",
+    "2 000 000 so'm"
+   ],
+   "e": "1 000 000·1,2²."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Murakkab foiz formulasi qaysi?",
+   "a": [
+    "S = P(1 + i)ⁿ",
+    "S = P(1 + ni)",
+    "S = P·i·n",
+    "S = P/(1 + i)"
+   ],
+   "e": "Foizga foiz qo'shiladi."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Diskontlash nimani anglatadi?",
+   "a": [
+    "Kelajak summasining hozirgi qiymati",
+    "Foiz stavkasini oshirish",
+    "Kredit muddatini uzaytirish",
+    "Mahsulot narxini oshirish"
+   ],
+   "e": "P = S/(1 + i)ⁿ."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Tovar narxi 25% ga oshirildi, so'ng 20% ga kamaytirildi. Yakuniy narx dastlabkiga nisbatan qanday?",
+   "a": [
+    "O'zgarmadi",
+    "5% ga oshdi",
+    "5% ga kamaydi",
+    "45% ga oshdi"
+   ],
+   "e": "1,25·0,8 = 1."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "200 ning 15% i qancha?",
+   "a": [
+    "30",
+    "15",
+    "20",
+    "3"
+   ],
+   "e": "200·0,15."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Chiziqli dasturlash masalasi nimani maqsad qiladi?",
+   "a": [
+    "Chiziqli funksiya ekstremumini topish",
+    "Kvadrat tenglama ildizlarini topish",
+    "Integralni hisoblash",
+    "Matritsa rangini topish"
+   ],
+   "e": "Masalan, foydani maksimallashtirish."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Chiziqli dasturlash masalasini ikki o'zgaruvchida yechishning usuli qaysi?",
+   "a": [
+    "Grafik usul",
+    "Lopital usuli",
+    "Kramer usuli faqat",
+    "Nyuton usuli"
+   ],
+   "e": "Yechimlar ko'pburchagi uchlarida optimum."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Chiziqli dasturlashda optimal yechim qayerda joylashadi?",
+   "a": [
+    "Yo'l qo'yiladigan soha uchlarida",
+    "Sohaning ixtiyoriy ichki nuqtasida",
+    "Koordinata boshida har doim",
+    "Cheksizlikda"
+   ],
+   "e": "Burchak nuqtalari."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Simpleks usuli nima uchun qo'llaniladi?",
+   "a": [
+    "Chiziqli dasturlash uchun",
+    "Determinantni hisoblash uchun",
+    "Ehtimolni topish uchun",
+    "Hosila olish uchun"
+   ],
+   "e": "Dansig usuli."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Transport masalasining maqsadi nima?",
+   "a": [
+    "Tashish xarajatini kamaytirish",
+    "Transport tezligini oshirish",
+    "Yo'l uzunligini hisoblash",
+    "Avtomobil narxini topish"
+   ],
+   "e": "Ta'minotchilar va iste'molchilar orasida."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Transport masalasi yopiq deyiladi, agar...",
+   "a": [
+    "zaxiralar talablarga teng bo'lsa",
+    "zaxiralar talablardan ko'p bo'lsa",
+    "talablar nolga teng bo'lsa",
+    "tashish narxi nolga teng bo'lsa"
+   ],
+   "e": "Muvozanatli masala."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Leontyev \"xarajat–ishlab chiqarish\" modeli nimani tahlil qiladi?",
+   "a": [
+    "Tarmoqlararo balansni",
+    "Faqat bitta korxona foydasini",
+    "Valyuta kursini",
+    "Soliq stavkalarini"
+   ],
+   "e": "X = AX + Y."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Talab funksiyasi odatda narxga qanday bog'liq?",
+   "a": [
+    "Narx oshsa, talab kamayadi",
+    "Narx oshsa, talab ortadi",
+    "Talab narxga bog'liq emas",
+    "Talab har doim o'zgarmas"
+   ],
+   "e": "Talab qonuni."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Talab D = 100 − 2p, taklif S = 20 + 2p. Muvozanat narx qancha?",
+   "a": [
+    "20",
+    "40",
+    "60",
+    "10"
+   ],
+   "e": "100 − 2p = 20 + 2p."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Yuqoridagi masalada muvozanat miqdori qancha?",
+   "a": [
+    "60",
+    "20",
+    "40",
+    "100"
+   ],
+   "e": "100 − 40."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Daromad R = 50q, xarajat C = 20q + 300. Zararsizlik nuqtasi qancha?",
+   "a": [
+    "q = 10",
+    "q = 30",
+    "q = 6",
+    "q = 15"
+   ],
+   "e": "50q = 20q + 300."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Foyda funksiyasi qanday aniqlanadi?",
+   "a": [
+    "Daromad minus xarajat",
+    "Daromad plus xarajat",
+    "Xarajat bo'lingan daromad",
+    "Faqat daromad"
+   ],
+   "e": "π = R − C."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "f(x) = √(x − 3) funksiyaning aniqlanish sohasi qaysi?",
+   "a": [
+    "[3; +∞)",
+    "(−∞; 3]",
+    "(3; +∞)",
+    "(−∞; +∞)"
+   ],
+   "e": "x − 3 ≥ 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "f(x) = ln(x + 1) funksiyaning aniqlanish sohasi qaysi?",
+   "a": [
+    "(−1; +∞)",
+    "[−1; +∞)",
+    "(0; +∞)",
+    "(−∞; −1)"
+   ],
+   "e": "Logarifm argumenti musbat."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Qaysi funksiya toq?",
+   "a": [
+    "f(x) = x³ − sin x",
+    "f(x) = x² + 1",
+    "f(x) = cos x",
+    "f(x) = |x|"
+   ],
+   "e": "f(−x) = −f(x)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "f(x) = 2x + 3 funksiyaga teskari funksiya qaysi?",
+   "a": [
+    "y = (x − 3)/2",
+    "y = (x + 3)/2",
+    "y = 2x − 3",
+    "y = 1/(2x + 3)"
+   ],
+   "e": "x = 2y + 3 dan y ni topamiz."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→2) (x² − 4)/(x − 2) qancha?",
+   "a": [
+    "4",
+    "0",
+    "2",
+    "∞"
+   ],
+   "e": "(x − 2)(x + 2)/(x − 2) = x + 2."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→0) sin 3x / x qancha?",
+   "a": [
+    "3",
+    "1",
+    "1/3",
+    "0"
+   ],
+   "e": "3·(sin 3x/3x)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→∞) (3x² + 1)/(x² − 5) qancha?",
+   "a": [
+    "3",
+    "0",
+    "∞",
+    "−1/5"
+   ],
+   "e": "Bosh koeffitsiyentlar nisbati."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→∞) (x³ − x)/(2x² + 1) qancha?",
+   "a": [
+    "∞",
+    "1/2",
+    "0",
+    "1"
+   ],
+   "e": "Surat darajasi katta."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→0) ln(1 + x)/x qancha?",
+   "a": [
+    "1",
+    "0",
+    "e",
+    "∞"
+   ],
+   "e": "ln(1 + x) ~ x."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→0) tg x / x qancha?",
+   "a": [
+    "1",
+    "0",
+    "∞",
+    "π"
+   ],
+   "e": "tg x ~ x."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→3) (x² − 9)/(x² − 3x) qancha?",
+   "a": [
+    "2",
+    "0",
+    "3",
+    "6"
+   ],
+   "e": "(x + 3)/x = 6/3."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→1) (x³ − 1)/(x − 1) qancha?",
+   "a": [
+    "3",
+    "1",
+    "0",
+    "∞"
+   ],
+   "e": "x² + x + 1 → 3."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "f(x) = 1/x funksiyaning x = 0 nuqtadagi uzilishi qanday turda?",
+   "a": [
+    "II tur uzilish",
+    "I tur bartaraf etiladigan",
+    "Sakrash (I tur)",
+    "Uzluksiz"
+   ],
+   "e": "Bir tomonlama limitlar cheksiz."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "f(x) = |x|/x funksiyaning x = 0 dagi uzilishi qanday?",
+   "a": [
+    "Sakrash (I tur)",
+    "Bartaraf etiladigan",
+    "II tur",
+    "Uzilish yo'q"
+   ],
+   "e": "Chapda −1, o'ngda +1."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "x → 0 da qaysi juftlik ekvivalent cheksiz kichiklar?",
+   "a": [
+    "sin x va x",
+    "x va x²",
+    "cos x va x",
+    "eˣ va x"
+   ],
+   "e": "sin x ~ x."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Sonlar ketma-ketligi aₙ = 1/n ning limiti qancha?",
+   "a": [
+    "0",
+    "1",
+    "∞",
+    "Mavjud emas"
+   ],
+   "e": "Cheksiz kichik ketma-ketlik."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Kesmada uzluksiz funksiya haqidagi Veyershtrass teoremasi nimani ta'kidlaydi?",
+   "a": [
+    "Funksiya kesmada eng katta va eng kichik qiymatga erishadi",
+    "Funksiya kesmada har doim o'suvchi",
+    "Funksiya kesmada nolga teng",
+    "Funksiyaning hosilasi mavjud"
+   ],
+   "e": "Chegaralanganlik ham."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→+∞) arctg x qancha?",
+   "a": [
+    "π/2",
+    "0",
+    "π",
+    "∞"
+   ],
+   "e": "Gorizontal asimptota y = π/2."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = (2x + 1)/(x − 3) funksiyaning vertikal asimptotasi qaysi?",
+   "a": [
+    "x = 3",
+    "x = −1/2",
+    "y = 2",
+    "x = 2"
+   ],
+   "e": "Maxraj nolga aylanadi."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x + 1/x funksiyaning og'ma asimptotasi qaysi?",
+   "a": [
+    "y = x",
+    "y = 1",
+    "x = 0",
+    "y = 2x"
+   ],
+   "e": "k = 1, b = 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Funksiya hosilasining ta'rifi qaysi?",
+   "a": [
+    "f′(x) = lim (Δx→0) Δy/Δx",
+    "f′(x) = lim (Δx→∞) Δy·Δx",
+    "f′(x) = Δy + Δx",
+    "f′(x) = f(x)/x"
+   ],
+   "e": "Orttirmalar nisbatining limiti."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Hosilaning mexanik ma'nosi nima?",
+   "a": [
+    "Oniy tezlik",
+    "Bosib o'tilgan yo'l",
+    "Massa",
+    "Kuch impulsi"
+   ],
+   "e": "v = s′(t)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "(x⁵)′ qanday?",
+   "a": [
+    "5x⁴",
+    "x⁶/6",
+    "5x⁵",
+    "4x⁵"
+   ],
+   "e": "n·xⁿ⁻¹."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "(1/x)′ qanday?",
+   "a": [
+    "−1/x²",
+    "1/x²",
+    "ln x",
+    "−1/x"
+   ],
+   "e": "(x⁻¹)′."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "(cos x)′ qanday?",
+   "a": [
+    "−sin x",
+    "sin x",
+    "cos x",
+    "−cos x"
+   ],
+   "e": "Asosiy formula."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "(eˣ)′ qanday?",
+   "a": [
+    "eˣ",
+    "x·eˣ⁻¹",
+    "eˣ/x",
+    "ln x"
+   ],
+   "e": "Eksponenta hosilasi o'ziga teng."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "(ln x)′ qanday?",
+   "a": [
+    "1/x",
+    "ln x/x",
+    "eˣ",
+    "x·ln x"
+   ],
+   "e": "x > 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "(arctg x)′ qanday?",
+   "a": [
+    "1/(1 + x²)",
+    "1/√(1 − x²)",
+    "−1/(1 + x²)",
+    "1 + x²"
+   ],
+   "e": "Asosiy formula."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Bo'linma hosilasi (u/v)′ qanday?",
+   "a": [
+    "(u′v − uv′)/v²",
+    "(u′v + uv′)/v²",
+    "u′/v′",
+    "(uv′ − u′v)/v"
+   ],
+   "e": "v ≠ 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = (3x + 2)⁴ funksiya hosilasi qanday?",
+   "a": [
+    "12(3x + 2)³",
+    "4(3x + 2)³",
+    "3(3x + 2)⁴",
+    "(3x + 2)³"
+   ],
+   "e": "4(3x + 2)³·3."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = e^(3x) funksiya hosilasi qanday?",
+   "a": [
+    "3e^(3x)",
+    "e^(3x)",
+    "3x·e^(3x−1)",
+    "e^(3x)/3"
+   ],
+   "e": "(e^u)′ = e^u·u′."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x·eˣ funksiya hosilasi qanday?",
+   "a": [
+    "eˣ(x + 1)",
+    "eˣ",
+    "x·eˣ",
+    "eˣ(x − 1)"
+   ],
+   "e": "u′v + uv′."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x³ − 3x² + 5 funksiyaning x = 1 dagi hosilasi qancha?",
+   "a": [
+    "−3",
+    "3",
+    "0",
+    "6"
+   ],
+   "e": "3x² − 6x → 3 − 6."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x² funksiyaga (1; 1) nuqtada o'tkazilgan urinma tenglamasi qaysi?",
+   "a": [
+    "y = 2x − 1",
+    "y = 2x + 1",
+    "y = x",
+    "y = x + 1"
+   ],
+   "e": "y − 1 = 2(x − 1)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "(sin x)″ qanday?",
+   "a": [
+    "−sin x",
+    "cos x",
+    "sin x",
+    "−cos x"
+   ],
+   "e": "(cos x)′."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Nuqta s = t³ − 2t qonun bo'yicha harakatlanmoqda. t = 2 s da tezlanish qancha?",
+   "a": [
+    "12",
+    "10",
+    "6",
+    "4"
+   ],
+   "e": "s″ = 6t."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Differensial yordamida taqribiy hisoblash formulasi qaysi?",
+   "a": [
+    "f(x₀ + Δx) ≈ f(x₀) + f′(x₀)·Δx",
+    "f(x₀ + Δx) ≈ f′(x₀)·Δx",
+    "f(x₀ + Δx) ≈ f(x₀)·Δx",
+    "f(x₀ + Δx) ≈ f(x₀)/Δx"
+   ],
+   "e": "Chiziqli yaqinlashish."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Oshkormas funksiya x² + y² = 25 uchun y′ qanday?",
+   "a": [
+    "−x/y",
+    "x/y",
+    "−y/x",
+    "2x + 2y"
+   ],
+   "e": "2x + 2y·y′ = 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Lopital qoidasi qanday noaniqliklarni ochishda qo'llaniladi?",
+   "a": [
+    "0/0 va ∞/∞",
+    "Faqat 1 + 1",
+    "Faqat 0 + 0",
+    "Faqat aniq qiymatlar"
+   ],
+   "e": "Hosilalar nisbati limiti."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→∞) ln x / x qancha?",
+   "a": [
+    "0",
+    "1",
+    "∞",
+    "e"
+   ],
+   "e": "Lopital: (1/x)/1."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Lagranj teoremasi (o'rta qiymat haqida) nimani ta'kidlaydi?",
+   "a": [
+    "f(b) − f(a) = f′(c)(b − a) bo'ladigan c mavjud",
+    "f(a) = f(b) har doim, funksiya qanday bo'lishidan qat'i nazar",
+    "Har qanday nuqtada f′(x) = 0 bo'ladi",
+    "f(b) = f′(b)·b tenglik o'rinli bo'ladi"
+   ],
+   "e": "[a; b] da uzluksiz, (a; b) da differensiallanuvchi."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Funksiya oraliqda o'suvchi bo'lishining yetarli sharti qaysi?",
+   "a": [
+    "f′(x) > 0",
+    "f′(x) < 0",
+    "f″(x) = 0",
+    "f(x) > 0"
+   ],
+   "e": "Kamayuvchi — f′(x) < 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "f′(x₀) = 0 va f″(x₀) > 0 bo'lsa, x₀ nuqtada nima bor?",
+   "a": [
+    "Minimum",
+    "Maksimum",
+    "Egilish nuqtasi",
+    "Uzilish"
+   ],
+   "e": "Ikkinchi hosila bo'yicha yetarli shart."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x² − 4x + 3 funksiyaning minimum nuqtasi qaysi?",
+   "a": [
+    "x = 2",
+    "x = −2",
+    "x = 4",
+    "x = 3"
+   ],
+   "e": "y′ = 2x − 4 = 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x³ − 3x funksiyaning kritik nuqtalari qaysilar?",
+   "a": [
+    "x = ±1",
+    "x = 0",
+    "x = ±3",
+    "x = ±√3"
+   ],
+   "e": "3x² − 3 = 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Egilish (bukilish) nuqtasining zaruriy sharti qaysi?",
+   "a": [
+    "f″(x₀) = 0 yoki mavjud emas",
+    "f′(x₀) = 0",
+    "f(x₀) = 0",
+    "f‴(x₀) = 0"
+   ],
+   "e": "Ikkinchi hosila ishorasini o'zgartirishi kerak."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Oraliqda f″(x) > 0 bo'lsa, grafik qanday?",
+   "a": [
+    "Botiq (pastga qavariq)",
+    "Qavariq (yuqoriga)",
+    "To'g'ri chiziq",
+    "O'suvchi har doim"
+   ],
+   "e": "\"Kosa\" shaklida."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "[0; 3] kesmada y = x² − 2x funksiyaning eng katta qiymati qancha?",
+   "a": [
+    "3",
+    "0",
+    "−1",
+    "9"
+   ],
+   "e": "y(0) = 0, y(1) = −1, y(3) = 3."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Yig'indisi 10 ga teng ikki musbat sonning ko'paytmasi eng katta bo'lishi uchun ular qanday bo'lishi kerak?",
+   "a": [
+    "5 va 5",
+    "1 va 9",
+    "2 va 8",
+    "3 va 7"
+   ],
+   "e": "x(10 − x) → max."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Funksiyani to'liq tekshirishda birinchi bosqich nima?",
+   "a": [
+    "Aniqlanish sohasini topish",
+    "Darhol grafik chizish",
+    "Ikkinchi hosilani hisoblash",
+    "Integralni hisoblash"
+   ],
+   "e": "Keyin juft-toqlik, asimptotalar, ekstremumlar."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Makloren formulasi Teylor formulasining qaysi holati?",
+   "a": [
+    "x₀ = 0 bo'lgan holi",
+    "x₀ = 1 bo'lgan holi",
+    "x₀ = ∞ bo'lgan holi",
+    "Faqat chiziqli holi"
+   ],
+   "e": "Nol atrofida yoyilma."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "sin x ning Makloren qatoridagi dastlabki hadlar qaysi?",
+   "a": [
+    "x − x³/3! + x⁵/5! − ...",
+    "1 + x + x²/2! + ...",
+    "1 − x²/2! + x⁴/4! − ...",
+    "x + x²/2 + x³/3 + ..."
+   ],
+   "e": "Faqat toq darajalar."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Nyuton (urinmalar) usuli nima uchun qo'llaniladi?",
+   "a": [
+    "Tenglama ildizini taqribiy topish uchun",
+    "Integralni aniq hisoblash uchun",
+    "Grafikni bo'yash uchun",
+    "Matritsa determinantini topish uchun"
+   ],
+   "e": "xₙ₊₁ = xₙ − f(xₙ)/f′(xₙ)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Chegaraviy xarajat (marginal cost) matematik jihatdan nima?",
+   "a": [
+    "Xarajat funksiyasining hosilasi",
+    "Xarajat funksiyasining integrali",
+    "Xarajatning o'rtacha qiymati",
+    "Xarajatning maksimal qiymati"
+   ],
+   "e": "C′(q)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = eˣ funksiya grafigi butun son o'qida qanday?",
+   "a": [
+    "O'suvchi va botiq",
+    "Kamayuvchi va qavariq",
+    "O'suvchi va qavariq",
+    "Kamayuvchi va botiq"
+   ],
+   "e": "y′ > 0, y″ > 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Boshlang'ich funksiya deb nimaga aytiladi?",
+   "a": [
+    "Hosilasi berilgan funksiyaga teng funksiyaga",
+    "Berilgan funksiyaning birinchi tartibli hosilasiga",
+    "Berilgan funksiyaga teskari bo'lgan funksiyaga",
+    "Berilgan funksiyaning kvadratiga"
+   ],
+   "e": "F′(x) = f(x)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫xⁿdx (n ≠ −1) qanday?",
+   "a": [
+    "xⁿ⁺¹/(n + 1) + C",
+    "n·xⁿ⁻¹ + C",
+    "xⁿ⁺¹ + C",
+    "xⁿ/n + C"
+   ],
+   "e": "Asosiy jadval formulasi."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫dx/x qanday?",
+   "a": [
+    "ln|x| + C",
+    "1/x² + C",
+    "−1/x² + C",
+    "x + C"
+   ],
+   "e": "n = −1 holi."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫cos x dx qanday?",
+   "a": [
+    "sin x + C",
+    "−sin x + C",
+    "cos x + C",
+    "−cos x + C"
+   ],
+   "e": "(sin x)′ = cos x."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫dx/cos²x qanday?",
+   "a": [
+    "tg x + C",
+    "ctg x + C",
+    "−tg x + C",
+    "sin x + C"
+   ],
+   "e": "Jadval integrali."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫dx/√(1 − x²) qanday?",
+   "a": [
+    "arcsin x + C",
+    "arctg x + C",
+    "√(1 − x²) + C",
+    "ln|x| + C"
+   ],
+   "e": "Jadval integrali."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫(3x² + 2x)dx qanday?",
+   "a": [
+    "x³ + x² + C",
+    "6x + 2 + C",
+    "3x³ + 2x² + C",
+    "x³ + 2x + C"
+   ],
+   "e": "Hadma-had integrallash."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫e^(2x)dx qanday?",
+   "a": [
+    "e^(2x)/2 + C",
+    "2e^(2x) + C",
+    "e^(2x) + C",
+    "e^(2x+1)/(2x + 1) + C"
+   ],
+   "e": "∫e^(kx)dx = e^(kx)/k."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫dx/(2x + 1) qanday?",
+   "a": [
+    "ln|2x + 1|/2 + C",
+    "ln|2x + 1| + C",
+    "2ln|2x + 1| + C",
+    "1/(2x + 1)² + C"
+   ],
+   "e": "(1/k)·ln|kx + b|."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫2x·cos(x²)dx qanday?",
+   "a": [
+    "sin(x²) + C",
+    "cos(x²) + C",
+    "2sin(x²) + C",
+    "x²·sin x + C"
+   ],
+   "e": "dt = 2x dx."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫tg x dx qanday?",
+   "a": [
+    "−ln|cos x| + C",
+    "ln|sin x| + C",
+    "1/cos²x + C",
+    "ln|cos x| + C"
+   ],
+   "e": "sin x/cos x = −(cos x)′/cos x."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫x·eˣdx qanday?",
+   "a": [
+    "eˣ(x − 1) + C",
+    "eˣ(x + 1) + C",
+    "x²eˣ/2 + C",
+    "x·eˣ + C"
+   ],
+   "e": "u = x, dv = eˣdx."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫x·cos x dx qanday?",
+   "a": [
+    "x·sin x + cos x + C",
+    "x·sin x − cos x + C",
+    "−x·sin x + C",
+    "x²·sin x/2 + C"
+   ],
+   "e": "u = x, dv = cos x dx."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫dx/(x² − 1) qanday?",
+   "a": [
+    "(1/2)·ln|(x − 1)/(x + 1)| + C",
+    "arctg x + C",
+    "ln|x² − 1| + C",
+    "(1/2)·ln|(x + 1)/(x − 1)| + C"
+   ],
+   "e": "1/(x² − 1) = (1/2)[1/(x − 1) − 1/(x + 1)]."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫sin²x dx ni hisoblashda qaysi formuladan foydalaniladi?",
+   "a": [
+    "sin²x = (1 − cos 2x)/2",
+    "sin²x = 1 + cos²x",
+    "sin²x = 2sin x",
+    "sin²x = sin 2x"
+   ],
+   "e": "Darajani pasaytirish."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Nyuton–Leybnits formulasi qaysi?",
+   "a": [
+    "∫ₐᵇ f(x)dx = F(b) − F(a)",
+    "∫ₐᵇ f(x)dx = F(a) − F(b)",
+    "∫ₐᵇ f(x)dx = f(b) − f(a)",
+    "∫ₐᵇ f(x)dx = F(a)·F(b)"
+   ],
+   "e": "F — boshlang'ich funksiya."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₀¹ x² dx qancha?",
+   "a": [
+    "1/3",
+    "1/2",
+    "1",
+    "2"
+   ],
+   "e": "x³/3 |₀¹."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₀^π sin x dx qancha?",
+   "a": [
+    "2",
+    "0",
+    "1",
+    "π"
+   ],
+   "e": "−cos x |₀^π = 1 + 1."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₀¹ eˣ dx qancha?",
+   "a": [
+    "e − 1",
+    "e",
+    "1",
+    "e + 1"
+   ],
+   "e": "eˣ |₀¹."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₋₂² x² dx qancha?",
+   "a": [
+    "16/3",
+    "8/3",
+    "0",
+    "4"
+   ],
+   "e": "Juft funksiya: 2·∫₀² x²dx = 2·8/3."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫ₐᵇ f(x)dx va ∫ᵦₐ f(x)dx qanday bog'langan?",
+   "a": [
+    "Ishoralari qarama-qarshi",
+    "Teng",
+    "Biri ikkinchisidan ikki baravar katta",
+    "Bog'lanmagan"
+   ],
+   "e": "Chegaralarni almashtirish ishorani o'zgartiradi."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = 4 − x² parabola va Ox o'qi bilan chegaralangan yuza qancha?",
+   "a": [
+    "32/3",
+    "16/3",
+    "8",
+    "16"
+   ],
+   "e": "∫₋₂² (4 − x²)dx."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x, x ∈ [0; 1] ni Ox atrofida aylantirganda hosil bo'lgan konus hajmi qancha?",
+   "a": [
+    "π/3",
+    "π/2",
+    "π",
+    "1/3"
+   ],
+   "e": "π∫₀¹ x²dx."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "O'zgaruvchan kuch bajargan ish qanday hisoblanadi?",
+   "a": [
+    "A = ∫ₐᵇ F(x)dx",
+    "A = F(b) − F(a)",
+    "A = F·(b − a)²",
+    "A = ∫ₐᵇ F′(x)dx faqat"
+   ],
+   "e": "Masalan, prujinani cho'zish ishi."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Trapetsiyalar usulida integral nima bilan almashtiriladi?",
+   "a": [
+    "Trapetsiyalar yuzalari yig'indisi bilan",
+    "Doiralar yuzalari yig'indisi bilan",
+    "Funksiyaning eng katta qiymati bilan",
+    "Hosilalar yig'indisi bilan"
+   ],
+   "e": "Egri chiziq siniq chiziq bilan almashtiriladi."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Xosmas integral ∫₁^∞ dx/x haqida nima deyish mumkin?",
+   "a": [
+    "Uzoqlashadi",
+    "1 ga teng",
+    "0 ga teng",
+    "e ga teng"
+   ],
+   "e": "ln x → ∞."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "O'rta qiymat haqidagi teoremaga ko'ra [a; b] da f ning o'rta qiymati qanday?",
+   "a": [
+    "(1/(b − a))·∫ₐᵇ f(x)dx",
+    "f(a) + f(b)",
+    "∫ₐᵇ f(x)dx·(b − a)",
+    "f((a + b)/2) har doim"
+   ],
+   "e": "Integral o'rta qiymat."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₀^(π/2) cos x dx qancha?",
+   "a": [
+    "1",
+    "0",
+    "π/2",
+    "−1"
+   ],
+   "e": "sin x |₀^(π/2)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₀³ dx qancha?",
+   "a": [
+    "3",
+    "0",
+    "1",
+    "9"
+   ],
+   "e": "x |₀³."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Ikki karrali integral ∬_D dxdy nimani beradi?",
+   "a": [
+    "D sohaning yuzini",
+    "D sohaning perimetrini",
+    "D sohaning hajmini",
+    "D sohaning markazini"
+   ],
+   "e": "f = 1 bo'lganda."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = tg(2x) funksiya hosilasi qanday?",
+   "a": [
+    "2/cos²(2x)",
+    "1/cos²(2x)",
+    "2tg(2x)",
+    "−2/sin²(2x)"
+   ],
+   "e": "(tg u)′ = u′/cos²u."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = 1/(x + 1) funksiya hosilasi qanday?",
+   "a": [
+    "−1/(x + 1)²",
+    "1/(x + 1)²",
+    "ln|x + 1|",
+    "−1/(x + 1)"
+   ],
+   "e": "(u⁻¹)′."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = (x + 1)/(x − 1) funksiya hosilasi qanday?",
+   "a": [
+    "−2/(x − 1)²",
+    "2/(x − 1)²",
+    "1/(x − 1)²",
+    "(x − 1)/(x + 1)"
+   ],
+   "e": "[(x − 1) − (x + 1)]/(x − 1)²."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = arctg(2x) funksiya hosilasi qanday?",
+   "a": [
+    "2/(1 + 4x²)",
+    "1/(1 + 4x²)",
+    "2/(1 + 2x²)",
+    "1/(1 + x²)"
+   ],
+   "e": "u′/(1 + u²)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = 2ˣ funksiyaning x = 0 dagi hosilasi qancha?",
+   "a": [
+    "ln 2",
+    "1",
+    "2",
+    "0"
+   ],
+   "e": "2⁰·ln 2."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x³ funksiyaning n-tartibli hosilasi (n ≥ 4) nimaga teng?",
+   "a": [
+    "0",
+    "6",
+    "3x²",
+    "x³"
+   ],
+   "e": "y‴ = 6, keyin 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫(x² + 1)²dx qanday?",
+   "a": [
+    "x⁵/5 + 2x³/3 + x + C",
+    "(x² + 1)³/3 + C",
+    "x⁵/5 + x + C",
+    "(x² + 1)³/(6x) + C"
+   ],
+   "e": "Qavsni ochib integrallash."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫x·√(x² + 1)dx qanday?",
+   "a": [
+    "(x² + 1)^(3/2)/3 + C",
+    "(x² + 1)^(3/2) + C",
+    "2(x² + 1)^(1/2) + C",
+    "x²√(x² + 1)/2 + C"
+   ],
+   "e": "t = x² + 1."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫eˣ/(eˣ + 1)dx qanday?",
+   "a": [
+    "ln(eˣ + 1) + C",
+    "eˣ + C",
+    "1/(eˣ + 1) + C",
+    "x + C"
+   ],
+   "e": "f′/f."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫dx/√(4 − x²) qanday?",
+   "a": [
+    "arcsin(x/2) + C",
+    "arctg(x/2) + C",
+    "(1/2)arcsin(x/2) + C",
+    "√(4 − x²) + C"
+   ],
+   "e": "arcsin(x/a)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫cos²x dx qanday?",
+   "a": [
+    "x/2 + sin(2x)/4 + C",
+    "x/2 − sin(2x)/4 + C",
+    "sin³x/3 + C",
+    "−sin²x + C"
+   ],
+   "e": "(1 + cos 2x)/2."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₀¹ dx/(1 + x²) qancha?",
+   "a": [
+    "π/4",
+    "π/2",
+    "1",
+    "ln 2"
+   ],
+   "e": "arctg 1."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₁² (1/x²)dx qancha?",
+   "a": [
+    "1/2",
+    "1",
+    "2",
+    "3/4"
+   ],
+   "e": "−1/x |₁² = −1/2 + 1."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Tezligi v(t) = 3t² bo'lgan nuqta [0; 2] vaqt oralig'ida qancha yo'l bosadi?",
+   "a": [
+    "8",
+    "12",
+    "6",
+    "4"
+   ],
+   "e": "∫₀² 3t²dt = t³ |₀²."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = sin x, x ∈ [0; π] va Ox o'qi bilan chegaralangan yuza qancha?",
+   "a": [
+    "2",
+    "1",
+    "π",
+    "0"
+   ],
+   "e": "∫₀^π sin x dx."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = √x, x ∈ [0; 4] ni Ox atrofida aylantirganda hosil bo'lgan jism hajmi qancha?",
+   "a": [
+    "8π",
+    "4π",
+    "16π",
+    "2π"
+   ],
+   "e": "π∫₀⁴ x dx = π·8."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→0) sin 5x / sin 2x qancha?",
+   "a": [
+    "5/2",
+    "2/5",
+    "1",
+    "0"
+   ],
+   "e": "Ekvivalentlik: 5x/2x."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→∞) (√(x² + x) − x) qancha?",
+   "a": [
+    "1/2",
+    "0",
+    "1",
+    "∞"
+   ],
+   "e": "x/(√(x² + x) + x) → 1/2."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→0) arcsin x / x qancha?",
+   "a": [
+    "1",
+    "0",
+    "π/2",
+    "∞"
+   ],
+   "e": "arcsin x ~ x."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→∞) (x² + 3x)/(2x² − 1) qancha?",
+   "a": [
+    "1/2",
+    "3/2",
+    "0",
+    "∞"
+   ],
+   "e": "Bosh koeffitsiyentlar nisbati."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "lim (x→0⁺) x·ln x qancha?",
+   "a": [
+    "0",
+    "−∞",
+    "1",
+    "−1"
+   ],
+   "e": "Lopital: ln x/(1/x)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "f(x) = x² − 1 funksiya qiymatlar sohasi qaysi?",
+   "a": [
+    "[−1; +∞)",
+    "(−∞; +∞)",
+    "[0; +∞)",
+    "(−1; +∞)"
+   ],
+   "e": "x² ≥ 0."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Qaysi funksiya chegaralangan?",
+   "a": [
+    "y = sin x",
+    "y = x²",
+    "y = eˣ",
+    "y = ln x"
+   ],
+   "e": "|sin x| ≤ 1."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x⁴ − 2x² funksiyaning kritik nuqtalari qaysilar?",
+   "a": [
+    "x = 0 va x = ±1",
+    "Faqat x = 0",
+    "x = ±2",
+    "x = ±√2"
+   ],
+   "e": "4x³ − 4x = 4x(x² − 1)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = x + 4/x (x > 0) funksiyaning eng kichik qiymati qancha?",
+   "a": [
+    "4",
+    "2",
+    "5",
+    "0"
+   ],
+   "e": "1 − 4/x² = 0 → x = 2, y = 4."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "y = (x − 1)³ funksiyaning egilish nuqtasi qaysi?",
+   "a": [
+    "x = 1",
+    "x = 0",
+    "x = −1",
+    "Egilish nuqtasi yo'q"
+   ],
+   "e": "y″ = 6(x − 1)."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₀^(2π) sin x dx qancha?",
+   "a": [
+    "0",
+    "2",
+    "4",
+    "2π"
+   ],
+   "e": "To'liq davr bo'yicha."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "∫₋₁¹ |x| dx qancha?",
+   "a": [
+    "1",
+    "0",
+    "2",
+    "1/2"
+   ],
+   "e": "Ikki uchburchak yuzi."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "Agar ∫₀² f(x)dx = 5 bo'lsa, ∫₀² 3f(x)dx qancha?",
+   "a": [
+    "15",
+    "5",
+    "8",
+    "5/3"
+   ],
+   "e": "O'zgarmas ko'paytuvchi chiqariladi."
+  },
+  {
+   "b": "Matematik analiz",
+   "q": "[0; 2] da f(x) = x² ning o'rta qiymati qancha?",
+   "a": [
+    "4/3",
+    "2",
+    "8/3",
+    "1"
+   ],
+   "e": "(1/2)·(8/3)."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "A = [[1, 2], [0, 1]] va B = [[1, 0], [3, 1]] bo'lsa, A + B qanday?",
+   "a": [
+    "[[2, 2], [3, 2]]",
+    "[[1, 2], [3, 1]]",
+    "[[2, 0], [3, 2]]",
+    "[[1, 0], [0, 1]]"
+   ],
+   "e": "Mos elementlar qo'shiladi."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[2, 1], [0, 3]] · [[1, 2], [1, 0]] qanday?",
+   "a": [
+    "[[3, 4], [3, 0]]",
+    "[[2, 2], [0, 0]]",
+    "[[3, 3], [4, 0]]",
+    "[[2, 1], [3, 0]]"
+   ],
+   "e": "Satrni ustunga ko'paytirish."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "det(A·B) qanday topiladi?",
+   "a": [
+    "det A · det B",
+    "det A + det B",
+    "det A − det B",
+    "det A / det B"
+   ],
+   "e": "Ko'paytma determinanti."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "det A = 3 bo'lsa, det(A⁻¹) qancha?",
+   "a": [
+    "1/3",
+    "3",
+    "−3",
+    "9"
+   ],
+   "e": "det A⁻¹ = 1/det A."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "2 × 2 matritsa uchun det(2A) qancha, agar det A = 5?",
+   "a": [
+    "20",
+    "10",
+    "5",
+    "40"
+   ],
+   "e": "det(kA) = kⁿ det A, n = 2."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[1, 2, 3], [4, 5, 6], [7, 8, 9]] matritsaning determinanti qancha?",
+   "a": [
+    "0",
+    "45",
+    "−3",
+    "15"
+   ],
+   "e": "Satrlar chiziqli bog'liq."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Matritsa elementar almashtirishlari nimaga ta'sir qilmaydi?",
+   "a": [
+    "Matritsa rangiga",
+    "Matritsa elementlarining qiymatlariga",
+    "Matritsa determinantining ishorasiga har doim",
+    "Matritsa elementlari yig'indisiga"
+   ],
+   "e": "Rang saqlanadi."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Nol matritsa deb qanday matritsaga aytiladi?",
+   "a": [
+    "Barcha elementlari nolga teng",
+    "Diagonal elementlari nolga teng",
+    "Determinanti birga teng",
+    "Faqat bitta elementi nol"
+   ],
+   "e": "O."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Diagonal matritsa nima?",
+   "a": [
+    "Bosh diagonaldan tashqari elementlari nol",
+    "Barcha elementlari bir xil son bo'lgan matritsa",
+    "Faqat bitta satrdan iborat matritsa",
+    "Barcha elementlari musbat matritsa"
+   ],
+   "e": "Masalan, birlik matritsa."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "Matritsaning xos qiymatlari qaysi tenglamadan topiladi?",
+   "a": [
+    "det(A − λE) = 0",
+    "det A = λ",
+    "A + λ = 0",
+    "A·λ = E"
+   ],
+   "e": "Xarakteristik tenglama."
+  },
+  {
+   "b": "Matritsalar va determinantlar",
+   "q": "[[2, 0], [0, 3]] matritsaning xos qiymatlari qaysilar?",
+   "a": [
+    "2 va 3",
+    "0 va 5",
+    "6 va 1",
+    "1 va 1"
+   ],
+   "e": "Diagonal matritsada diagonal elementlar."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "a = (1; 2; 2) vektorning uzunligi qancha?",
+   "a": [
+    "3",
+    "5",
+    "9",
+    "√5"
+   ],
+   "e": "√(1 + 4 + 4)."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Ikki vektorning vektor ko'paytmasi moduli nimaga teng?",
+   "a": [
+    "Ularga qurilgan parallelogramm yuziga",
+    "Ikki vektorning skalyar ko'paytmasiga",
+    "Vektorlar uzunliklarining yig'indisiga",
+    "Har doim nolga"
+   ],
+   "e": "|a × b| = |a||b|sin φ."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Uch vektorning aralash ko'paytmasi nimani beradi?",
+   "a": [
+    "Parallelepiped hajmini",
+    "Uchburchak perimetrini",
+    "Vektorlar yig'indisini",
+    "Burchaklar yig'indisini"
+   ],
+   "e": "Nolga teng bo'lsa — vektorlar komplanar."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "a = (2; 3) vektorni 3 ga ko'paytirsak nima hosil bo'ladi?",
+   "a": [
+    "(6; 9)",
+    "(5; 6)",
+    "(2; 9)",
+    "(6; 3)"
+   ],
+   "e": "Har bir koordinata ko'paytiriladi."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "To'g'ri chiziqning umumiy tenglamasi qanday?",
+   "a": [
+    "Ax + By + C = 0",
+    "y = ax² + bx + c",
+    "x² + y² = R²",
+    "xy = k"
+   ],
+   "e": "A va B bir vaqtda nol emas."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "(0; 0) va (2; 4) nuqtalardan o'tuvchi to'g'ri chiziq tenglamasi qanday?",
+   "a": [
+    "y = 2x",
+    "y = x + 2",
+    "y = 4x",
+    "y = x/2"
+   ],
+   "e": "k = 4/2."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "y = −x + 4 to'g'ri chiziq Ox o'qini qaysi nuqtada kesadi?",
+   "a": [
+    "(4; 0)",
+    "(0; 4)",
+    "(−4; 0)",
+    "(1; 0)"
+   ],
+   "e": "y = 0."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "y = x² − 4x + 3 parabola uchining koordinatalari qanday?",
+   "a": [
+    "(2; −1)",
+    "(−2; 15)",
+    "(4; 3)",
+    "(0; 3)"
+   ],
+   "e": "x₀ = −b/2a = 2."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Tekislikning umumiy tenglamasi qanday?",
+   "a": [
+    "Ax + By + Cz + D = 0",
+    "Ax + By = 0",
+    "x² + y² + z² = R²",
+    "z = x²"
+   ],
+   "e": "(A; B; C) — normal vektor."
+  },
+  {
+   "b": "Vektorlar va analitik geometriya",
+   "q": "Ellipsning ekssentrisiteti qanday oraliqda bo'ladi?",
+   "a": [
+    "0 ≤ e < 1",
+    "e > 1",
+    "e = 1",
+    "e < 0"
+   ],
+   "e": "Aylanada e = 0, parabolada e = 1."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Ishlab chiqarish funksiyasi nimani ifodalaydi?",
+   "a": [
+    "Resurs va mahsulot bog'lanishini",
+    "Faqat mahsulot narxini",
+    "Faqat ishchilar sonini",
+    "Faqat soliq miqdorini"
+   ],
+   "e": "Masalan, Kobb–Duglas funksiyasi."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Kobb–Duglas ishlab chiqarish funksiyasi qanday ko'rinishda?",
+   "a": [
+    "Q = A·K^α·L^β",
+    "Q = K + L",
+    "Q = A/(K·L)",
+    "Q = K² − L²"
+   ],
+   "e": "K — kapital, L — mehnat."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Chegaraviy daromad nima?",
+   "a": [
+    "Daromad funksiyasining hosilasi",
+    "Daromadning integrali",
+    "O'rtacha daromad",
+    "Umumiy xarajat"
+   ],
+   "e": "MR = R′(q)."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "R(q) = 100q − q² daromad funksiyasi uchun maksimal daromad qaysi q da?",
+   "a": [
+    "q = 50",
+    "q = 100",
+    "q = 25",
+    "q = 10"
+   ],
+   "e": "R′ = 100 − 2q = 0."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Talabning narx bo'yicha elastikligi |E| > 1 bo'lsa talab qanday?",
+   "a": [
+    "Elastik",
+    "Noelastik",
+    "Birlik elastik",
+    "Mutlaq noelastik"
+   ],
+   "e": "Narx o'zgarishiga sezgir."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Xarajat C = 2q² + 10 bo'lsa, q = 5 da chegaraviy xarajat qancha?",
+   "a": [
+    "20",
+    "60",
+    "10",
+    "50"
+   ],
+   "e": "C′ = 4q."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Yillik inflyatsiya 10%, nominal foiz 15% bo'lsa, real foiz taxminan qancha?",
+   "a": [
+    "5%",
+    "25%",
+    "1,5%",
+    "10%"
+   ],
+   "e": "Taxminan ayirma."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Annuitet nima?",
+   "a": [
+    "Teng davriy to'lovlar oqimi",
+    "Bir martalik katta hajmdagi to'lov",
+    "Soliq to'lovining bir turi",
+    "Chet el valyutasi turi"
+   ],
+   "e": "Kredit to'lovlarida."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Matritsali o'yinlar nazariyasida \"egar nuqta\" nima?",
+   "a": [
+    "Sof strategiyalarda o'yin qiymati",
+    "O'yin tugashi nuqtasi",
+    "O'yinchining yutqazishi",
+    "Tasodifiy tanlov"
+   ],
+   "e": "Maksimin = minimaks."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Ommaviy xizmat ko'rsatish nazariyasi nimani o'rganadi?",
+   "a": [
+    "Navbatlar va xizmat tizimlarini",
+    "Faqat matritsalar va determinantlarni",
+    "Faqat geometrik shakllarni",
+    "Faqat funksiya hosilalarini"
+   ],
+   "e": "Bank, do'kon, telefon tarmoqlari."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Tarmoqli rejalashtirishda \"kritik yo'l\" nima?",
+   "a": [
+    "Eng uzun yo'l",
+    "Eng qisqa yo'l",
+    "Eng arzon yo'l",
+    "Ishlatilmaydigan yo'l"
+   ],
+   "e": "Kritik yo'l usuli (CPM)."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Zaxiralarni boshqarishda Uilson formulasi nimani aniqlaydi?",
+   "a": [
+    "Buyurtmaning optimal hajmini",
+    "Korxonadagi ishchilarning optimal sonini",
+    "Mahsulotning sotish narxini",
+    "Soliq stavkasini"
+   ],
+   "e": "EOQ modeli."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Iqtisodiy matematik modelning birinchi bosqichi nima?",
+   "a": [
+    "Masalani matematik ifodalash",
+    "Darhol natijani yozish",
+    "Kompyuterni yoqish",
+    "Hisobotni chop etish"
+   ],
+   "e": "So'ng yechish va tahlil."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Chiziqli dasturlashda maqsad funksiyasi F = 3x + 2y, uchlar (0; 0), (4; 0), (0; 5), (2; 3). Maksimum qancha?",
+   "a": [
+    "12",
+    "10",
+    "15",
+    "0"
+   ],
+   "e": "(4; 0): 12; (0; 5): 10; (2; 3): 12 — maksimum 12."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "36 ta kartadan tavakkal olingan karta tuz bo'lish ehtimoli qancha (4 ta tuz)?",
+   "a": [
+    "1/9",
+    "1/36",
+    "1/4",
+    "4/9"
+   ],
+   "e": "4/36."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Ikki kubik tashlanganda ochkolar yig'indisi 7 bo'lish ehtimoli qancha?",
+   "a": [
+    "1/6",
+    "1/12",
+    "7/36",
+    "1/36"
+   ],
+   "e": "6 ta qulay hol / 36."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "Ikki kubik tashlanganda ikkalasida 6 tushish ehtimoli qancha?",
+   "a": [
+    "1/36",
+    "1/6",
+    "1/12",
+    "2/6"
+   ],
+   "e": "1/6 · 1/6."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "10 ta detaldan 2 tasi nuqsonli. Tavakkal olingan detal sifatli bo'lish ehtimoli qancha?",
+   "a": [
+    "0,8",
+    "0,2",
+    "0,5",
+    "0,1"
+   ],
+   "e": "8/10."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "6 kishidan 2 kishilik guruhni necha usulda tanlash mumkin?",
+   "a": [
+    "15",
+    "30",
+    "12",
+    "36"
+   ],
+   "e": "C₆²."
+  },
+  {
+   "b": "Ehtimollar nazariyasi",
+   "q": "3 ta raqamdan (1, 2, 3) takrorlanmaydigan uch xonali sonlar nechta tuzish mumkin?",
+   "a": [
+    "6",
+    "9",
+    "27",
+    "3"
+   ],
+   "e": "3!."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Tanlanmada 5 ta qiymat: 10, 12, 14, 16, 18. O'rta arifmetik qancha?",
+   "a": [
+    "14",
+    "12",
+    "16",
+    "70"
+   ],
+   "e": "70/5."
+  },
+  {
+   "b": "Matematik statistika",
+   "q": "Ko'rsatkich 2023-yilda 100, 2024-yilda 110 bo'ldi. Mutlaq o'sish qancha?",
+   "a": [
+    "10",
+    "110",
+    "1,1",
+    "210"
+   ],
+   "e": "110 − 100."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "Mahsulot narxi 10% ga arzonlashdi va 900 so'm bo'ldi. Dastlabki narx qancha edi?",
+   "a": [
+    "1000 so'm",
+    "990 so'm",
+    "810 so'm",
+    "1100 so'm"
+   ],
+   "e": "900/0,9."
+  },
+  {
+   "b": "Iqtisodiy masalalar",
+   "q": "500 000 so'm 4 oyga yillik 24% oddiy foiz bilan qo'yildi. Foiz daromadi qancha?",
+   "a": [
+    "40 000 so'm",
+    "120 000 so'm",
+    "24 000 so'm",
+    "480 000 so'm"
+   ],
+   "e": "500 000·0,24·4/12."
+  }
+ ]
+}
