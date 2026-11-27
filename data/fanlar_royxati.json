@@ -1,0 +1,2100 @@
+{
+ "izoh": "Attestatsiya ruxsatnomasidagi fan nomlari (faqat nomlar). mapped — tayyor bazaga bog'langan; tez_orada — savollari hali qo'shilmagan fanlar.",
+ "mapped": [
+  {
+   "nomi": "Ingliz tili",
+   "bank": "ingliz_tili"
+  },
+  {
+   "nomi": "Matematika",
+   "bank": "matematika"
+  },
+  {
+   "nomi": "Ona tili va adabiyot",
+   "bank": "ona_tili_adabiyot"
+  },
+  {
+   "nomi": "Tarix",
+   "bank": "tarix"
+  },
+  {
+   "nomi": "Informatika va axborot texnologiyalari",
+   "bank": "informatika"
+  },
+  {
+   "nomi": "Rus tili",
+   "bank": "rus_tili"
+  },
+  {
+   "nomi": "Hamshiralik ishi",
+   "bank": "hamshiralik_ishi"
+  },
+  {
+   "nomi": "Fizika va astronomiya",
+   "bank": "fizika"
+  },
+  {
+   "nomi": "Biznes asoslari",
+   "bank": "biznes_asoslari"
+  },
+  {
+   "nomi": "Jismoniy tarbiya",
+   "bank": "jismoniy_tarbiya"
+  },
+  {
+   "nomi": "Yo'l harakati qoidalari va harakat xavfsizligi",
+   "bank": "yol_harakati_qoidalari_va_harakat_xavfsi"
+  },
+  {
+   "nomi": "Nemis tili",
+   "bank": "nemis_tili"
+  },
+  {
+   "nomi": "Hamshiralik ishi asoslari",
+   "bank": "hamshiralik_ishi"
+  },
+  {
+   "nomi": "Davlat va huquq asoslari",
+   "bank": "davlat_va_huquq_asoslari"
+  },
+  {
+   "nomi": "Kimyo",
+   "bank": "kimyo"
+  },
+  {
+   "nomi": "Avtomobillar tuzilishi",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Biologiya",
+   "bank": "biologiya"
+  },
+  {
+   "nomi": "Tarbiya",
+   "bank": "tarbiya"
+  },
+  {
+   "nomi": "Ayollar kiyimini tikish texnologiyasi",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Shaxsiy kompyuter arxitekturasi va ofis jihozlariga texnik xizmat ko'rsatish",
+   "bank": "shaxsiy_kompyuter_arxitekturasi"
+  },
+  {
+   "nomi": "Axborot xavfsizligi",
+   "bank": "kiberxavfsizlik"
+  },
+  {
+   "nomi": "Kompyuter grafikasi va dizayn",
+   "bank": "kompyuter_grafikasi"
+  },
+  {
+   "nomi": "Axborot texnologiyalari asoslari",
+   "bank": "informatika"
+  },
+  {
+   "nomi": "Chaqiruvga qadar boshlang'ich tayyorgarlik",
+   "bank": "chaqiruvga_qadar_tayyorgarlik"
+  },
+  {
+   "nomi": "Elektrotexnika va elektronika asoslari",
+   "bank": "elektrotexnika"
+  },
+  {
+   "nomi": "Maktabgacha pedagogika",
+   "bank": "maktabgacha_pedagogika"
+  },
+  {
+   "nomi": "Shaxsiy kompyuterlar, serverlar, periferiya uskunalarining apparat ta'minotiga xizmat ko'rsatish",
+   "bank": "shaxsiy_kompyuter_arxitekturasi"
+  },
+  {
+   "nomi": "Anatomiya, fiziologiya va patologiya",
+   "bank": "anatomiya_fiziologiya_patologiya"
+  },
+  {
+   "nomi": "Tikuv buyumlarini tikish texnologiyasi",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Farmakologiya va retseptura asoslari",
+   "bank": "farmakologiya"
+  },
+  {
+   "nomi": "O'zbek tili",
+   "bank": "ona_tili_adabiyot"
+  },
+  {
+   "nomi": "Tibbiyotda axborot texnologiyalari",
+   "bank": "tibbiyotda_axborot_texnologiyalari"
+  },
+  {
+   "nomi": "Shaxsiy kompyuter arxitekturasi va unga xizmat ko'rsatish",
+   "bank": "shaxsiy_kompyuter_arxitekturasi"
+  },
+  {
+   "nomi": "Tibbiy biologiya. Umumiy genetika",
+   "bank": "tibbiy_biologiya_umumiy_genetika"
+  },
+  {
+   "nomi": "Farmakologiya asoslari",
+   "bank": "farmakologiya"
+  },
+  {
+   "nomi": "Shaxsiy kompyuter va ofis qurilmalariga texnik xizmat ko'rsatish",
+   "bank": "shaxsiy_kompyuter_arxitekturasi"
+  },
+  {
+   "nomi": "Dasturlash asoslari",
+   "bank": "dasturlash"
+  },
+  {
+   "nomi": "Bolalar kiyimini tikish texnologiyasi",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Avtomobillar tuzilishi texnologiyasi",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Umumiy gigiyena va ekologiya",
+   "bank": "umumiy_gigiyena_va_ekologiya"
+  },
+  {
+   "nomi": "Yuqumli kasalliklarda hamshiralik ishi",
+   "bank": "yuqumli_kasalliklar"
+  },
+  {
+   "nomi": "Konstruksion materiallar",
+   "bank": "konstruksion_materiallar"
+  },
+  {
+   "nomi": "\"B\" va \"C\" toifadagi avtotransport vositalarining tuzilishi va ularga servis xizmat ko'rsatish",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "O'zbekistonning eng yangi tarixi",
+   "bank": "tarix"
+  },
+  {
+   "nomi": "Iqtisodiyot nazariyasi",
+   "bank": "iqtisodiyot_nazariyasi"
+  },
+  {
+   "nomi": "Mehnat muhofazasi va texnika xavfsizligi",
+   "bank": "mehnat_muhofazasi"
+  },
+  {
+   "nomi": "Kompyuter tarmoqlarini administratorlash",
+   "bank": "kompyuter_tarmoqlari"
+  },
+  {
+   "nomi": "Valeologiya",
+   "bank": "valeologiya"
+  },
+  {
+   "nomi": "Mehnat muhofazasi va xavfsizlik texnikasi",
+   "bank": "mehnat_muhofazasi"
+  },
+  {
+   "nomi": "Tibbiy psixologiya va shaxslararo muloqot",
+   "bank": "tibbiy_psixologiya_va_shaxslararo_muloqo"
+  },
+  {
+   "nomi": "Axborot texnologiyalari",
+   "bank": "informatika"
+  },
+  {
+   "nomi": "Mehnatni muhofaza qilish",
+   "bank": "mehnat_muhofazasi"
+  },
+  {
+   "nomi": "Ofis texnikasi va qurilmalari",
+   "bank": "shaxsiy_kompyuter_arxitekturasi"
+  },
+  {
+   "nomi": "Jismoniy tarbiya va sport",
+   "bank": "jismoniy_tarbiya"
+  },
+  {
+   "nomi": "Ekologiya asoslari",
+   "bank": "ekologiya"
+  },
+  {
+   "nomi": "Mikrobiologiya, virusologiya va immunologiya",
+   "bank": "mikrobiologiya_virusologiya_va_immunolog"
+  },
+  {
+   "nomi": "Maktabgacha ta'lim pedagogikasi",
+   "bank": "maktabgacha_pedagogika"
+  },
+  {
+   "nomi": "Kasbiy faoliyatda axborot texnologiyalari",
+   "bank": "informatika"
+  },
+  {
+   "nomi": "Dasturlashtirish tillari (Java, Python)",
+   "bank": "dasturlash"
+  },
+  {
+   "nomi": "Tikuvchilik texnologiyasi va jihozlari",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Lotin tili va tibbiy terminologiya",
+   "bank": "lotin_tili_va_tibbiy_terminologiya"
+  },
+  {
+   "nomi": "Kompyuter tarmoqlarini va tizimlarini administratorlash",
+   "bank": "kompyuter_tarmoqlari"
+  },
+  {
+   "nomi": "Ma'lumotlar bazasi",
+   "bank": "malumotlar_bazasi"
+  },
+  {
+   "nomi": "Kompyuter tarmoqlari",
+   "bank": "kompyuter_tarmoqlari"
+  },
+  {
+   "nomi": "Fizika",
+   "bank": "fizika"
+  },
+  {
+   "nomi": "Avtomobillar tuzilishi, ularga servis xizmat ko'rsatish va ta'mirlash",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Kompyuter tizimlari va tarmoqlari",
+   "bank": "kompyuter_tarmoqlari"
+  },
+  {
+   "nomi": "Ma'lumot ombori asoslari",
+   "bank": "malumotlar_bazasi"
+  },
+  {
+   "nomi": "Ma'lumotlar bazasini boshqarish tizimlari",
+   "bank": "malumotlar_bazasi"
+  },
+  {
+   "nomi": "Axborot xavfsizligi asoslari",
+   "bank": "kiberxavfsizlik"
+  },
+  {
+   "nomi": "O'simlikshunoslik",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Ekologiya va atrof muhit muhofazasi",
+   "bank": "ekologiya"
+  },
+  {
+   "nomi": "Tibbiy psixologiya shaxslararo muloqot",
+   "bank": "tibbiy_psixologiya_va_shaxslararo_muloqo"
+  },
+  {
+   "nomi": "Kompyuter tarmoqlarini tashkil etish va qurish",
+   "bank": "kompyuter_tarmoqlari"
+  },
+  {
+   "nomi": "Erkaklar kiyimini tikish texnologiyasi",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Kompyuter tizimlari va tarmoqlarini boshqarish",
+   "bank": "kompyuter_tarmoqlari"
+  },
+  {
+   "nomi": "Farmakologiya va retseptura",
+   "bank": "farmakologiya"
+  },
+  {
+   "nomi": "Kasbiy faoliyatda rus (o'zbek) tili",
+   "bank": "rus_tili"
+  },
+  {
+   "nomi": "Biznesni tashkil etish va yuritish",
+   "bank": "biznes_asoslari"
+  },
+  {
+   "nomi": "Vagon va konteynerlar tuzilishi",
+   "bank": "vagon_konteyner"
+  },
+  {
+   "nomi": "Algoritmlash va dasturlash asoslari",
+   "bank": "dasturlash"
+  },
+  {
+   "nomi": "Chizma geometriya va muhandislik grafikasi",
+   "bank": "chizma_geometriya"
+  },
+  {
+   "nomi": "Botanika va o'simliklar fiziologiyasi",
+   "bank": "botanika_va_osimliklar_fiziologiyasi"
+  },
+  {
+   "nomi": "O'zbekistonning eng yangi tarixi (Falsafa)",
+   "bank": "tarix"
+  },
+  {
+   "nomi": "Temir yo'l umumiy kursi",
+   "bank": "temir_yol_umumiy_kursi"
+  },
+  {
+   "nomi": "Avtomobillar tuzilishi, ularga texnik xizmat ko'rsatish va ta'mirlash",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Jamoada hamshiralik ishi (Hamshiraning universal progressiv modeli)",
+   "bank": "hamshiralik_ishi"
+  },
+  {
+   "nomi": "Kiberxavfsizlik",
+   "bank": "kiberxavfsizlik"
+  },
+  {
+   "nomi": "Yuqumli kasalliklar. Profilaktik emlash",
+   "bank": "yuqumli_kasalliklar"
+  },
+  {
+   "nomi": "Kompyuter tarmoqlarining dasturiy ta'minoti",
+   "bank": "kompyuter_tarmoqlari"
+  },
+  {
+   "nomi": "Mehnatni muhofaza qilish tizimi faoliyatini tashkil qilish",
+   "bank": "mehnat_muhofazasi"
+  },
+  {
+   "nomi": "Mikrobiologiya",
+   "bank": "mikrobiologiya_virusologiya_va_immunolog"
+  },
+  {
+   "nomi": "Menejment",
+   "bank": "menejment_asoslari"
+  },
+  {
+   "nomi": "Ofis texnikasiga texnik xizmat ko'rsatish",
+   "bank": "shaxsiy_kompyuter_arxitekturasi"
+  },
+  {
+   "nomi": "Davlat va huquq nazariyasi",
+   "bank": "davlat_va_huquq_asoslari"
+  },
+  {
+   "nomi": "Tibbiy biologiya va umumiy genetika",
+   "bank": "tibbiy_biologiya_umumiy_genetika"
+  },
+  {
+   "nomi": "Axborotni himoyalashning dasturiy - apparat vositalari",
+   "bank": "kiberxavfsizlik"
+  },
+  {
+   "nomi": "Tashishlarni tashkil etish moduli",
+   "bank": "tashishlarni_tashkil_etish"
+  },
+  {
+   "nomi": "Amaliy matematika",
+   "bank": "amaliy_matematika"
+  },
+  {
+   "nomi": "Mikrobiologiya va mikrobiologik tekshirish usullari",
+   "bank": "mikrobiologiya_virusologiya_va_immunolog"
+  },
+  {
+   "nomi": "Elektronika va elektrotexnika asoslari",
+   "bank": "elektrotexnika"
+  },
+  {
+   "nomi": "Kompyuter grafikasi (Corel DRAW, Adobe Photoshop)",
+   "bank": "kompyuter_grafikasi"
+  },
+  {
+   "nomi": "Yuqumli kasalliklar",
+   "bank": "yuqumli_kasalliklar"
+  },
+  {
+   "nomi": "Yuqumli kasalliklar va infeksion nazorat",
+   "bank": "yuqumli_kasalliklar"
+  },
+  {
+   "nomi": "Mikrobiologiya, virusologiya, immunologiya",
+   "bank": "mikrobiologiya_virusologiya_va_immunolog"
+  },
+  {
+   "nomi": "Dasturlashtirish tillarida ishlash (Java, Python)",
+   "bank": "dasturlash"
+  },
+  {
+   "nomi": "“B” toifadagi avtotransport vositalarining tuzilishi va ularga servis xizmat ko'rsatish",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Kompyuter tarmoqlarini administratorlash ishlari",
+   "bank": "kompyuter_tarmoqlari"
+  },
+  {
+   "nomi": "Axborot xavfsizligini ta'minlash",
+   "bank": "kiberxavfsizlik"
+  },
+  {
+   "nomi": "Avtomobillarga texnik xizmat ko'rsatish va ta'mirlash",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Rastr va vektor grafikasi asoslari",
+   "bank": "kompyuter_grafikasi"
+  },
+  {
+   "nomi": "Bolalar kiyimini tikish",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Tarmoq xavfsizligi",
+   "bank": "kiberxavfsizlik"
+  },
+  {
+   "nomi": "Tikuvchilik asoslari",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Temir yo'llardan texnik foydalanish qoidalari",
+   "bank": "temir_yollardan_texnik_foydalanish_qoida"
+  },
+  {
+   "nomi": "Shaxsiy kompyuter va ofis qurilmalariga xizmat ko'rsatish",
+   "bank": "shaxsiy_kompyuter_arxitekturasi"
+  },
+  {
+   "nomi": "Jamiyat sog'liqni saqlash va tibbiy statistika",
+   "bank": "jamiyat_sogliqni_saqlash_va_tibbiy_stati"
+  },
+  {
+   "nomi": "Rus (o'zbek) tili soha bo'yicha",
+   "bank": "rus_tili"
+  },
+  {
+   "nomi": "Obyektga yo'naltirilgan dasturlash asoslari",
+   "bank": "dasturlash"
+  },
+  {
+   "nomi": "Bolalarning musiqa ta'limi",
+   "bank": "musiqiy_talim"
+  },
+  {
+   "nomi": "Farmakologiya",
+   "bank": "farmakologiya"
+  },
+  {
+   "nomi": "Metrologiya va sertifikatlashtirish asoslari",
+   "bank": "metrologiya"
+  },
+  {
+   "nomi": "Maktabgacha ta'lim yoshidagi bolalar jismoniy tarbiya nazariyasi va metodikasi",
+   "bank": "jismoniy_tarbiya"
+  },
+  {
+   "nomi": "Rastr grafikasi asoslari",
+   "bank": "kompyuter_grafikasi"
+  },
+  {
+   "nomi": "Kompyuter tarmoqlari va administratorlash",
+   "bank": "kompyuter_tarmoqlari"
+  },
+  {
+   "nomi": "Shaxsiy kompyuter arxitekturasi va ofis jihozlariga texnik xizmat ko'rsatish ishlari",
+   "bank": "shaxsiy_kompyuter_arxitekturasi"
+  },
+  {
+   "nomi": "Jismoniy tarbiya nazariyasi va metodikasi",
+   "bank": "jismoniy_tarbiya"
+  }
+ ],
+ "tez_orada": [
+  {
+   "id": "t848c57f6",
+   "nomi": "Terapiyada hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "ta9a70727",
+   "nomi": "Qoraqalpoq tili",
+   "kat": "til"
+  },
+  {
+   "id": "ta34c41f2",
+   "nomi": "Xirurgiya va reanimatsiyada hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "t618eb043",
+   "nomi": "Raqamli axborotlarni qayta ishlash va yaratish texnologiyasi",
+   "kat": "it"
+  },
+  {
+   "id": "t3794bd41",
+   "nomi": "Traktorlar va qishloq xo'jaligi agregatlarining tuzilishi",
+   "kat": "qx"
+  },
+  {
+   "id": "t10227508",
+   "nomi": "Fransuz tili",
+   "kat": "til"
+  },
+  {
+   "id": "t25e4ded5",
+   "nomi": "Akusherlik va ginekologiyada hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "t44548d6c",
+   "nomi": "Tibbiy kimyo",
+   "kat": "tib"
+  },
+  {
+   "id": "t37b45052",
+   "nomi": "Dori turlari texnologiyasi",
+   "kat": "tib"
+  },
+  {
+   "id": "td20e7dd5",
+   "nomi": "Texnikaviy chizmachilik",
+   "kat": "muh"
+  },
+  {
+   "id": "t03fe4f91",
+   "nomi": "Buxgalteriya hisobi",
+   "kat": "iqt"
+  },
+  {
+   "id": "t9f23b1b5",
+   "nomi": "Psixologiya",
+   "kat": "ped"
+  },
+  {
+   "id": "t3084dff5",
+   "nomi": "Pediatriyada hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "t65b31849",
+   "nomi": "Klinik laboratoriya tekshirish usullari",
+   "kat": "tib"
+  },
+  {
+   "id": "t2d2f8d73",
+   "nomi": "WEB dasturlash va dizayn",
+   "kat": "it"
+  },
+  {
+   "id": "t5d322980",
+   "nomi": "Geografiya",
+   "kat": "um"
+  },
+  {
+   "id": "t7888707d",
+   "nomi": "Tikuvchilik materialshunosligi",
+   "kat": "xiz"
+  },
+  {
+   "id": "t24e7a3b5",
+   "nomi": "Ayollar kiyimini konstruksiyalash va modellashtirish",
+   "kat": "xiz"
+  },
+  {
+   "id": "t95120e65",
+   "nomi": "Avtomobil dvigatellariga servis xizmat ko'rsatish va ta'mirlash",
+   "kat": "tr"
+  },
+  {
+   "id": "tffcb8847",
+   "nomi": "Maktabgacha yoshdagi bolalar psixologiyasi",
+   "kat": "ped"
+  },
+  {
+   "id": "t3bb8d5e9",
+   "nomi": "Noorganik kimyo",
+   "kat": "um"
+  },
+  {
+   "id": "tddcf8cb9",
+   "nomi": "Shaxsiy kompyuterlar, serverlar, periferiya uskunalarining dasturiy ta'minotini o'rnatish va xizmat ko'rsatish",
+   "kat": "it"
+  },
+  {
+   "id": "tb0eb825a",
+   "nomi": "Sport mahoratini oshirish ",
+   "kat": "ped"
+  },
+  {
+   "id": "t8750bc75",
+   "nomi": "Rivojlanish markazlarida bolalar faoliyatini tashkil etish",
+   "kat": "ped"
+  },
+  {
+   "id": "td183cbcd",
+   "nomi": "Traktor va qishloq xo'jaligi agregatlarini tuzilishi",
+   "kat": "qx"
+  },
+  {
+   "id": "t48cc10d8",
+   "nomi": "Farmakognoziya va botanika asoslari",
+   "kat": "tib"
+  },
+  {
+   "id": "t126f7167",
+   "nomi": "Xitoy tili",
+   "kat": "til"
+  },
+  {
+   "id": "t790d81d1",
+   "nomi": "Operatsion tizimlar",
+   "kat": "it"
+  },
+  {
+   "id": "t0d66a579",
+   "nomi": "Jismoniy tarbiya tarixi",
+   "kat": "ped"
+  },
+  {
+   "id": "t665698e5",
+   "nomi": "Stomatologik kasalliklar",
+   "kat": "tib"
+  },
+  {
+   "id": "t79a75972",
+   "nomi": "Turizm va mehmondo'stlik asoslari",
+   "kat": "xiz"
+  },
+  {
+   "id": "te20710ca",
+   "nomi": "Favqulodda holatlar tibbiyoti",
+   "kat": "tib"
+  },
+  {
+   "id": "tdd117b97",
+   "nomi": "Traktor va avtomobillar tuzilishi",
+   "kat": "qx"
+  },
+  {
+   "id": "te252ff1a",
+   "nomi": "Elektr mashinalari va transformatorlar",
+   "kat": "muh"
+  },
+  {
+   "id": "t2642a21b",
+   "nomi": "Neft va gazni qayta ishlash texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "t322620b5",
+   "nomi": "Pediatriya",
+   "kat": "tib"
+  },
+  {
+   "id": "tcab9b285",
+   "nomi": "Elektr stansiya va elektr tarmoqlari elektr jihozlariga texnik xizmat ko'rsatish texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "te029e5af",
+   "nomi": "Stantsiya navbatchisi ishini rejalashtirish",
+   "kat": "tr"
+  },
+  {
+   "id": "t8de23d32",
+   "nomi": "Maktabgacha ta'lim tashkiloti tarbiyachisining tayanch bilimlari",
+   "kat": "ped"
+  },
+  {
+   "id": "tc253d12b",
+   "nomi": "Koreys tili",
+   "kat": "til"
+  },
+  {
+   "id": "t6406f405",
+   "nomi": "Tikuvchilik jihozlari",
+   "kat": "xiz"
+  },
+  {
+   "id": "t47ed691d",
+   "nomi": "Qo'lda yoyli payvandlash jihozlari va texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "tce3e30da",
+   "nomi": "Terapiya",
+   "kat": "tib"
+  },
+  {
+   "id": "t6558f5a0",
+   "nomi": "Web dasturlash",
+   "kat": "it"
+  },
+  {
+   "id": "t0a8da6a5",
+   "nomi": "Qishloq xo'jaligi mashinalarining tuzilishi va ularga texnik xizmat ko'rsatish",
+   "kat": "qx"
+  },
+  {
+   "id": "td361bde6",
+   "nomi": "Nutq o'stirish va bolalar adabiyoti",
+   "kat": "ped"
+  },
+  {
+   "id": "tddd8c121",
+   "nomi": "Kompyuter tizimlarining dasturiy ta'minoti",
+   "kat": "it"
+  },
+  {
+   "id": "te261dfb7",
+   "nomi": "Qishloq xo'jaligida mexanizatsiyalashgan ishlar texnologiyasi",
+   "kat": "qx"
+  },
+  {
+   "id": "t0f85e3d6",
+   "nomi": "Mehmonxona xo'jaligi faoliyatini tashkil etish va servis",
+   "kat": "xiz"
+  },
+  {
+   "id": "t09154f77",
+   "nomi": "Reabilitatsiya asoslari",
+   "kat": "tib"
+  },
+  {
+   "id": "t1f1fa380",
+   "nomi": "Buxgalteriya hisobi nazariyasi",
+   "kat": "iqt"
+  },
+  {
+   "id": "tfed9a558",
+   "nomi": "Kiyimni konstruksiyalash va modellashtirish",
+   "kat": "xiz"
+  },
+  {
+   "id": "tadea7e20",
+   "nomi": "Konstitutsiyaviy huquq",
+   "kat": "ijt"
+  },
+  {
+   "id": "taae37071",
+   "nomi": "Reabilitatsiya asoslari hamda fizioterapiya va massaj",
+   "kat": "tib"
+  },
+  {
+   "id": "t3f8adc21",
+   "nomi": "Badiiy- ijodiy faoliyat",
+   "kat": "ped"
+  },
+  {
+   "id": "t66855352",
+   "nomi": "Elektr stansiyalari, tarmoqlari va tizimlarining elektr jihozlarini sozlash va ularga texnik xizmat ko'rsatish",
+   "kat": "muh"
+  },
+  {
+   "id": "tc25be538",
+   "nomi": "Tuproqshunoslik",
+   "kat": "qx"
+  },
+  {
+   "id": "t69952755",
+   "nomi": "Qishloq xo'jalik mashinalari va chorvachilikni mexanizatsiyalashtirish",
+   "kat": "qx"
+  },
+  {
+   "id": "t0f135671",
+   "nomi": "Dehqonchilik va melioratsiya asoslari",
+   "kat": "qx"
+  },
+  {
+   "id": "t69b0afbc",
+   "nomi": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "kat": "ped"
+  },
+  {
+   "id": "t9a651b46",
+   "nomi": "Qurilish materiallari va buyumlari",
+   "kat": "muh"
+  },
+  {
+   "id": "tc7bfb3a8",
+   "nomi": "Bolalarning matematik tasavvurlarini shakllantirish",
+   "kat": "ped"
+  },
+  {
+   "id": "t89339b94",
+   "nomi": "Umumiy ovqatlanish korxonalarida texnologik jihozlar",
+   "kat": "xiz"
+  },
+  {
+   "id": "tb8be9a96",
+   "nomi": "Mashinasozlik texnologiyasi asoslari",
+   "kat": "muh"
+  },
+  {
+   "id": "tc89ab341",
+   "nomi": "Klinik diagnostika, ichki yuqumsiz kasalliklar",
+   "kat": "tib"
+  },
+  {
+   "id": "t3dd3e7c1",
+   "nomi": "Xalq tabobati",
+   "kat": "tib"
+  },
+  {
+   "id": "t2ea6502e",
+   "nomi": "Bolalar nutqini o'stirish",
+   "kat": "ped"
+  },
+  {
+   "id": "t98ed00af",
+   "nomi": "MTTda boshlang'ich komp'yuter savodxonligi",
+   "kat": "ped"
+  },
+  {
+   "id": "t9041a3ef",
+   "nomi": "Kutubxonashunoslik asoslari",
+   "kat": "ped"
+  },
+  {
+   "id": "t11aa9e42",
+   "nomi": "O'simliklarni himoya qilish",
+   "kat": "qx"
+  },
+  {
+   "id": "tf68c2f3f",
+   "nomi": "Foydali qazilmalarni ochiq usulida qazib olish",
+   "kat": "muh"
+  },
+  {
+   "id": "td42bc486",
+   "nomi": "Tokarlik va frezalash dastgohlarida metallarga ishlov berish texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "t0edd88e5",
+   "nomi": "Paxtachilik",
+   "kat": "qx"
+  },
+  {
+   "id": "t65eed5c8",
+   "nomi": "Bino va inshootlarning elektr ta'minoti",
+   "kat": "muh"
+  },
+  {
+   "id": "t9b235d3f",
+   "nomi": "Jismoniy tarbiya va sport tadbirlarini tashkil etish texnologiyasi",
+   "kat": "ped"
+  },
+  {
+   "id": "t4743b0a3",
+   "nomi": "Raqamli multimedia axborotlarni qayta ishlash va yaratish texnologiyasi",
+   "kat": "it"
+  },
+  {
+   "id": "t1bf4bfec",
+   "nomi": "Veterinariya sanitariya ekspertizasi",
+   "kat": "qx"
+  },
+  {
+   "id": "tbd7dc408",
+   "nomi": "Oziq-ovqat mahsulotlari tovarshunosligi",
+   "kat": "xiz"
+  },
+  {
+   "id": "t51928d80",
+   "nomi": "Sanoat korxonalarining elektr jihozlariga xizmat ko'rsatish va sozlash",
+   "kat": "muh"
+  },
+  {
+   "id": "tf71be1e9",
+   "nomi": "Tasviriy faoliyat metodikasi",
+   "kat": "ped"
+  },
+  {
+   "id": "tfbfdc84e",
+   "nomi": "Suv tejovchi sug'orish texnologiyalari",
+   "kat": "qx"
+  },
+  {
+   "id": "td214a371",
+   "nomi": "Avtomobil transportlarida yuklarni tashish",
+   "kat": "tr"
+  },
+  {
+   "id": "t7f04e3f3",
+   "nomi": "Uch o'lchovli modellashtirish va multiplikatsiyalash asoslari",
+   "kat": "it"
+  },
+  {
+   "id": "t9782b2ca",
+   "nomi": "Traktorlar, qishloq xo'jaligi agregatlarini tuzilishi va texnik xizmat ko'rsatish",
+   "kat": "qx"
+  },
+  {
+   "id": "t6c0102ea",
+   "nomi": "Pediatriya hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "t38840678",
+   "nomi": "Fizioterapiya va massaj",
+   "kat": "tib"
+  },
+  {
+   "id": "t4074c936",
+   "nomi": "Asab-ruhiy kasalliklar va narkologiyada hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "ta91de868",
+   "nomi": "Elektrotexnik materiallar",
+   "kat": "muh"
+  },
+  {
+   "id": "t8a05afb7",
+   "nomi": "Yigirish texnologiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "ta18d4b14",
+   "nomi": "Pazandachilik texnologiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "tefd559d1",
+   "nomi": "Xirurgiya va reanimatsiya asoslari",
+   "kat": "tib"
+  },
+  {
+   "id": "td95489ca",
+   "nomi": "Maktabgacha ta'limga doir me'yoriy hujjatlar",
+   "kat": "ped"
+  },
+  {
+   "id": "t2ec95d94",
+   "nomi": "Tarmoq dasturlash",
+   "kat": "it"
+  },
+  {
+   "id": "t9551fe1a",
+   "nomi": "Asalarichilik asoslari",
+   "kat": "qx"
+  },
+  {
+   "id": "ta82ef61d",
+   "nomi": "Muhofaza etiladigan tabiiy hududlar ekologiyasi",
+   "kat": "qx"
+  },
+  {
+   "id": "tb962bd09",
+   "nomi": "Kartografiya",
+   "kat": "qx"
+  },
+  {
+   "id": "t391b308e",
+   "nomi": "Maxsus rasm",
+   "kat": "ped"
+  },
+  {
+   "id": "ta4dbddd2",
+   "nomi": "Bino va inshootlarni barpo etish texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "taaa9e6bc",
+   "nomi": "Tokarlik dastgohlarida metallarga ishlov berish texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "ta8b28daa",
+   "nomi": "Bolalar jismoniy tarbiyasi va sog'lom turmush tarzi",
+   "kat": "tib"
+  },
+  {
+   "id": "tc258c83d",
+   "nomi": "Logistika asoslari",
+   "kat": "tr"
+  },
+  {
+   "id": "t27b13ec6",
+   "nomi": "Organik kimyo",
+   "kat": "um"
+  },
+  {
+   "id": "t5f65e8d2",
+   "nomi": "Metallar texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "t5557b7eb",
+   "nomi": "Hayvonlarni oziqlantirish va zoogigiyena",
+   "kat": "tib"
+  },
+  {
+   "id": "t918e7ba5",
+   "nomi": "Bolalar kasalliklarida hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "t8b0f417d",
+   "nomi": "O'zbek milliy pazandachilik texnologiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "t65240b18",
+   "nomi": "Akusherlik va ginekologiya",
+   "kat": "tib"
+  },
+  {
+   "id": "t74779573",
+   "nomi": "Media va axborot savodxonligi",
+   "kat": "it"
+  },
+  {
+   "id": "tab8d5e1b",
+   "nomi": "Sport pedagog mahoratini oshirish (sport turlari bo'yicha) 1-sport mashg'uloti",
+   "kat": "ped"
+  },
+  {
+   "id": "t43fd81fb",
+   "nomi": "Tasviriy faoliyat nazariyasi va metodikasi",
+   "kat": "ped"
+  },
+  {
+   "id": "t0303ab45",
+   "nomi": "Tikuv buyumlarini loyihalash",
+   "kat": "xiz"
+  },
+  {
+   "id": "t9947a90d",
+   "nomi": "Avtomobil yurish qismlariga texnik xizmat ko'rsatish va ta'mirlash",
+   "kat": "tr"
+  },
+  {
+   "id": "tfd3e50ec",
+   "nomi": "Paxta yetishtirish",
+   "kat": "qx"
+  },
+  {
+   "id": "teeeef14f",
+   "nomi": "Kompyuter tizimlari arxitekturasi",
+   "kat": "it"
+  },
+  {
+   "id": "te7ffc545",
+   "nomi": "Tikuvchilik mahsulotlari modeli va konstruksiyasini yaratish",
+   "kat": "xiz"
+  },
+  {
+   "id": "t75ea5927",
+   "nomi": "Bolalar kiyimini konstruksiyalash va modellashtirish",
+   "kat": "xiz"
+  },
+  {
+   "id": "t8d7a52d6",
+   "nomi": "Dezinfeksiya ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "tdbed5796",
+   "nomi": "Magistral neft va gaz quvurlarini texnik qarovdan o'tkazish ishlari",
+   "kat": "muh"
+  },
+  {
+   "id": "t0d78dbf7",
+   "nomi": "Bino va inshootlar konstruksiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "tc32733c3",
+   "nomi": "Xirurgiya",
+   "kat": "tib"
+  },
+  {
+   "id": "tfd0361c3",
+   "nomi": "Avtomatika vositalari va nazorat o'lchov asboblarini ishlatish, xizmat ko'rsatish va ta'mirlash",
+   "kat": "muh"
+  },
+  {
+   "id": "t4f38737b",
+   "nomi": "Soliqqa tortish asoslari",
+   "kat": "iqt"
+  },
+  {
+   "id": "tde41ae7e",
+   "nomi": "Kimyoviy ishlab chiqarish texnigi va tehno kimyoviy labarant ishlari",
+   "kat": "muh"
+  },
+  {
+   "id": "t2af274c5",
+   "nomi": "Laboratoriya jihozlari va priborlari,kimyoviy idishlarni tayyorlash texnikasi",
+   "kat": "um"
+  },
+  {
+   "id": "t5237baa6",
+   "nomi": "Internet ilovalarini ishlab chiqish",
+   "kat": "it"
+  },
+  {
+   "id": "t059d53a4",
+   "nomi": "Fuqarolik huquqi",
+   "kat": "ijt"
+  },
+  {
+   "id": "t7538c82a",
+   "nomi": "Nutritsiologiya diyetologiya asoslari bilan",
+   "kat": "tib"
+  },
+  {
+   "id": "tcb6081a8",
+   "nomi": "Organik kimyo va noorganik kimyo",
+   "kat": "um"
+  },
+  {
+   "id": "t2f51e2ca",
+   "nomi": "Yuk va tijorat ishlarini boshqarish",
+   "kat": "tr"
+  },
+  {
+   "id": "t8f3f20bb",
+   "nomi": "Avtomobillarda tashishni tashkil etish",
+   "kat": "tr"
+  },
+  {
+   "id": "t3b91dcb4",
+   "nomi": "Axborot kutubxona resurslar fondi va kataloglari",
+   "kat": "ped"
+  },
+  {
+   "id": "tb0d125db",
+   "nomi": "Nutq o'stirish nazariyasi va metodikasi",
+   "kat": "ped"
+  },
+  {
+   "id": "t2cc50005",
+   "nomi": "Suv tejovchi sug'orish tizimlar o'rnatish texnologiyasi",
+   "kat": "qx"
+  },
+  {
+   "id": "tc134c840",
+   "nomi": "Suv tejovchi texnologiyalari asoslari",
+   "kat": "muh"
+  },
+  {
+   "id": "t3a290e77",
+   "nomi": "Fitoterapiya",
+   "kat": "tib"
+  },
+  {
+   "id": "ta274a89e",
+   "nomi": "Tibbiy biofizika",
+   "kat": "tib"
+  },
+  {
+   "id": "te47f6872",
+   "nomi": "Hayot faoliyati xavfsizligi",
+   "kat": "ijt"
+  },
+  {
+   "id": "t98b91946",
+   "nomi": "Kimyo sanoati xom-ashyolari va mahsulotlari",
+   "kat": "muh"
+  },
+  {
+   "id": "ta129d5f8",
+   "nomi": "Otorinolaringologiya",
+   "kat": "tib"
+  },
+  {
+   "id": "t0b7d376e",
+   "nomi": "Alohida muhofaza etiladigan tabiiy hududlar ekologiyasi",
+   "kat": "qx"
+  },
+  {
+   "id": "t394f1561",
+   "nomi": "Mehmonxona servisi asoslari",
+   "kat": "xiz"
+  },
+  {
+   "id": "t8876fb1d",
+   "nomi": "Umumiy ovqatlanish korxonalarida sanitariya, gigiyena va ovqatlanish fiziologiyasi",
+   "kat": "tib"
+  },
+  {
+   "id": "t6c9e030a",
+   "nomi": "Ayollar kiyimini konstruksiyalash va modellashtirish texnologiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "t2b2d20c1",
+   "nomi": "Inklyuziv ta'lim",
+   "kat": "ped"
+  },
+  {
+   "id": "t291a69af",
+   "nomi": "Manzarali dendrologiya",
+   "kat": "qx"
+  },
+  {
+   "id": "t8081aa01",
+   "nomi": "Teri-tanosil kasalliklari va kosmetologiyada hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "t3f02636c",
+   "nomi": "Nazorat kassa mashinalari bilan ishlash",
+   "kat": "xiz"
+  },
+  {
+   "id": "t20815de4",
+   "nomi": "Maishiy texnika elektr jihozlarini sozlash, ta'mirlash va ishlatish",
+   "kat": "muh"
+  },
+  {
+   "id": "t2ef649c8",
+   "nomi": "Elektr o'lchash asboblari va elektr o'lchashlar",
+   "kat": "muh"
+  },
+  {
+   "id": "tdd972dd2",
+   "nomi": "Gaz ta'minoti tizimlari",
+   "kat": "muh"
+  },
+  {
+   "id": "t8af357a3",
+   "nomi": "Lokomotivlarga texnik xizmat ko'rsatish va ta'mirlash",
+   "kat": "tr"
+  },
+  {
+   "id": "tc1afadb4",
+   "nomi": "Poyezd dispetcheri ishini rejalashtirish",
+   "kat": "tr"
+  },
+  {
+   "id": "t89159f32",
+   "nomi": "Avtomobil yo'llari va aerodromlarni qurish, ekspluatatsiya qilish",
+   "kat": "tr"
+  },
+  {
+   "id": "tb09adb13",
+   "nomi": "Donli ekinlar",
+   "kat": "qx"
+  },
+  {
+   "id": "t9cfe9649",
+   "nomi": "Mobil qurilmalarning dasturiy ta'minoti",
+   "kat": "it"
+  },
+  {
+   "id": "t6561b6af",
+   "nomi": "Anesteziologiya va reanimatsiya asoslari",
+   "kat": "tib"
+  },
+  {
+   "id": "t7a045069",
+   "nomi": "Ko'kalamzorlashtirish ishlari",
+   "kat": "qx"
+  },
+  {
+   "id": "t8cd25ba6",
+   "nomi": "Bino va inshootlarning texnik holatini baholash",
+   "kat": "muh"
+  },
+  {
+   "id": "t61731f7f",
+   "nomi": "Avtomobil yo'llarini va aerodromlarni qidiruv loyixalash",
+   "kat": "tr"
+  },
+  {
+   "id": "t5f58e843",
+   "nomi": "Tabiiy tolalarni dastlabki ishlash",
+   "kat": "xiz"
+  },
+  {
+   "id": "ta5a63d9b",
+   "nomi": "Audit",
+   "kat": "iqt"
+  },
+  {
+   "id": "t7cb0c23c",
+   "nomi": "Jinoyat-protsessual huquqi",
+   "kat": "ijt"
+  },
+  {
+   "id": "tcdbd31bd",
+   "nomi": "Materialshunoslik",
+   "kat": "muh"
+  },
+  {
+   "id": "tde1996a3",
+   "nomi": "MTTda bolalarni ijodkorligini rivojlantirishda sahnalashtirish",
+   "kat": "ped"
+  },
+  {
+   "id": "tc7666d48",
+   "nomi": "Avtomobil elektr va elektron jihozlari tuzilishi, ularga texnik xizmat ko'rsatish va ta'mirlash",
+   "kat": "tr"
+  },
+  {
+   "id": "t2476767c",
+   "nomi": "Davlat byudjeti",
+   "kat": "iqt"
+  },
+  {
+   "id": "t932c3d45",
+   "nomi": "Avtomobillarda tashish",
+   "kat": "tr"
+  },
+  {
+   "id": "tf2f28c96",
+   "nomi": "Yo'l qurilish materiallari",
+   "kat": "muh"
+  },
+  {
+   "id": "tcfd40446",
+   "nomi": "Biokimyo",
+   "kat": "tib"
+  },
+  {
+   "id": "t2e7e2e70",
+   "nomi": "G'alla ekinlarini parvarishlash agrotexnikasi",
+   "kat": "qx"
+  },
+  {
+   "id": "tc76681c5",
+   "nomi": "Kutubxona fondini shakllantirish hisobga olish va hisobdan chiqarish",
+   "kat": "ped"
+  },
+  {
+   "id": "tc040a82a",
+   "nomi": "Tuproqshunoslik va agrokimyo asoslari",
+   "kat": "qx"
+  },
+  {
+   "id": "t1fd463ec",
+   "nomi": "Avtomobil dvigatellariga texnik xizmat ko'rsatish va ta'mirlash",
+   "kat": "tr"
+  },
+  {
+   "id": "taed57f51",
+   "nomi": "Bolalar kiyimini konstruksiyalash va modellashtirish texnologiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "t1a4e95d7",
+   "nomi": "Umumiy va qishloq xo'jaligi fitopatologiyasi",
+   "kat": "qx"
+  },
+  {
+   "id": "tae07ec00",
+   "nomi": "Qurilish materiallari ishlab chiqarish mashina va mexanizm operatori ishlari texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "t07d6d4f7",
+   "nomi": "Avtomatik va yarim avtomatik payvandlash jihozlari va texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "t526952a2",
+   "nomi": "Qishloq xo'jalik kooperativida ish yuritish asoslari",
+   "kat": "qx"
+  },
+  {
+   "id": "td794bbdc",
+   "nomi": "Veterinariya akusherligi, ginekologiyasi va sun'iy urug'lantirish",
+   "kat": "tib"
+  },
+  {
+   "id": "t8f1a5862",
+   "nomi": "Fors tili",
+   "kat": "til"
+  },
+  {
+   "id": "tf200779f",
+   "nomi": "Sifat menejmenti tizimi va uni sertifikatlashtirish",
+   "kat": "iqt"
+  },
+  {
+   "id": "tc8398624",
+   "nomi": "Maktabgacha yoshdagi bolalar psixologiyasi va psixodiagnostikasi",
+   "kat": "tib"
+  },
+  {
+   "id": "te6dc7da4",
+   "nomi": "Og'iz bo'shlig'i gigiyenasi",
+   "kat": "tib"
+  },
+  {
+   "id": "t94bee57b",
+   "nomi": "Suv tejamkor sug'orish texnologiyalari",
+   "kat": "qx"
+  },
+  {
+   "id": "t8cdb71ea",
+   "nomi": "Tanlangan sport turlari va uni o'qitish metodikasi",
+   "kat": "ped"
+  },
+  {
+   "id": "t5907cffa",
+   "nomi": "Gigiena va sanitariya-gigiena tekshirish usullari",
+   "kat": "tib"
+  },
+  {
+   "id": "t498c0020",
+   "nomi": "Elektr va elektromexanik uskunalarning ekspluatatsiyasi va texnik xizmat ko'rsatish asoslari",
+   "kat": "muh"
+  },
+  {
+   "id": "t6be27899",
+   "nomi": "Avtomobil dvigatellariga servis xizmat ko'rsatish va ta'mirlash texnologiyasi",
+   "kat": "tr"
+  },
+  {
+   "id": "t66bff6b5",
+   "nomi": "Defektoskopiya",
+   "kat": "muh"
+  },
+  {
+   "id": "te219e4e0",
+   "nomi": "Pedagogika va sport psixologiyasi",
+   "kat": "ped"
+  },
+  {
+   "id": "t99a81ecf",
+   "nomi": "Gidromeliorativ ishlarni tashkil etish va mexanizatsiyalash",
+   "kat": "qx"
+  },
+  {
+   "id": "ta4d8ca7a",
+   "nomi": "Turoperatorlik faoliyati texnologiyasi va uni tashkil etish",
+   "kat": "xiz"
+  },
+  {
+   "id": "tbca4f075",
+   "nomi": "Nutritsiologiya",
+   "kat": "tib"
+  },
+  {
+   "id": "tafc437b7",
+   "nomi": "Bibliografiya va bibliografik xizmatlar",
+   "kat": "ped"
+  },
+  {
+   "id": "tc83edeb4",
+   "nomi": "Sanoat korxonalari va fuqarolik binolarining elektr jihozlari",
+   "kat": "muh"
+  },
+  {
+   "id": "t808252c2",
+   "nomi": "Falsafa",
+   "kat": "ijt"
+  },
+  {
+   "id": "t8aedc50d",
+   "nomi": "Kostyum kompozitsiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "t244201a4",
+   "nomi": "Kartoshka yetishtirish",
+   "kat": "qx"
+  },
+  {
+   "id": "t4e31711b",
+   "nomi": "Gidroekologiya",
+   "kat": "qx"
+  },
+  {
+   "id": "t99708516",
+   "nomi": "Sabzavotchilik va polizchilik",
+   "kat": "qx"
+  },
+  {
+   "id": "tda3bf2db",
+   "nomi": "Web texnologiyalar",
+   "kat": "it"
+  },
+  {
+   "id": "taed5c1b9",
+   "nomi": "Elektr va elektromexanik uskunalarni texnik tartibga solish va sifat nazorati",
+   "kat": "muh"
+  },
+  {
+   "id": "t2d26fc39",
+   "nomi": "Uch o'lchovli modellashtirish",
+   "kat": "it"
+  },
+  {
+   "id": "tec65859c",
+   "nomi": "Iqtisodiy tahlil",
+   "kat": "iqt"
+  },
+  {
+   "id": "t3c443a48",
+   "nomi": "Noorganik modda va mineral o'g'itlar texnologiyasi",
+   "kat": "qx"
+  },
+  {
+   "id": "tf747e779",
+   "nomi": "O'simliklar mineral oziqlanishini fiziologik asoslari",
+   "kat": "qx"
+  },
+  {
+   "id": "t27c092ef",
+   "nomi": "Ekologik omillarning atrof muhitga ta'sirini baholash",
+   "kat": "qx"
+  },
+  {
+   "id": "tea9b895a",
+   "nomi": "Beton qorish va quyish ishlari texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "t8386be45",
+   "nomi": "Asab-ruhiy va narkologik kasalliklar",
+   "kat": "tib"
+  },
+  {
+   "id": "t65be0340",
+   "nomi": "Piltalash va pliklash texnologiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "td25d745f",
+   "nomi": "Gaz va suv iste'mol nazorati ishlari",
+   "kat": "muh"
+  },
+  {
+   "id": "t940a292e",
+   "nomi": "Qurilish chizmachiligi",
+   "kat": "muh"
+  },
+  {
+   "id": "tf16356e6",
+   "nomi": "Flotattsiya mashinalari va ularga texnik xizmat o'rsatish",
+   "kat": "muh"
+  },
+  {
+   "id": "t16c3b04a",
+   "nomi": "Mehmonxona va restoran menejment asoslari",
+   "kat": "xiz"
+  },
+  {
+   "id": "td9723608",
+   "nomi": "Suyuqlik va gazlarning fizik - kimyoviy xususiyatlari",
+   "kat": "muh"
+  },
+  {
+   "id": "tce8765fa",
+   "nomi": "Sutni pasterizatsiyalash texnologiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "t846396a0",
+   "nomi": "G'isht-tosh terish ishlari",
+   "kat": "muh"
+  },
+  {
+   "id": "t2002ac12",
+   "nomi": "Interyer (ichki) pardozlash",
+   "kat": "muh"
+  },
+  {
+   "id": "tdbfd63e3",
+   "nomi": "Bolalarni maktab ta'limiga tayyorlash",
+   "kat": "ped"
+  },
+  {
+   "id": "t5a048ece",
+   "nomi": "G'isht-tosh terish ishlari texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "td6ab78c6",
+   "nomi": "Gaz va changni tutib qoluvchi uskunalar va ulardan foydalanish",
+   "kat": "muh"
+  },
+  {
+   "id": "t7889233f",
+   "nomi": "Qurilish fizikasi",
+   "kat": "muh"
+  },
+  {
+   "id": "t830658b8",
+   "nomi": "Ilk va maktabgacha yoshdagi bolalar rivojlanishiga qo'yiladigan Davlat talablari va \"Ilk qadam\" Davlat o'quv dasturi",
+   "kat": "ped"
+  },
+  {
+   "id": "tfcd7b9bd",
+   "nomi": "Epidemiologiya asoslari",
+   "kat": "tib"
+  },
+  {
+   "id": "t13f0a1b5",
+   "nomi": "Gidromeliorativ mashina va jihozlarining tuzilishi, ishlatilishi va ularga texnik xizmat ko'rsatish",
+   "kat": "til"
+  },
+  {
+   "id": "t21e93149",
+   "nomi": "Qo'lda yoyli payvandlash ishlari",
+   "kat": "muh"
+  },
+  {
+   "id": "t652d3bed",
+   "nomi": "Davlat kadastri",
+   "kat": "qx"
+  },
+  {
+   "id": "t4baca3be",
+   "nomi": "Kasbiy faoliyatning huquqiy asoslari va bioetika",
+   "kat": "tib"
+  },
+  {
+   "id": "t30cafbed",
+   "nomi": "Pul muomalasi va kredit",
+   "kat": "iqt"
+  },
+  {
+   "id": "t9abdfb9b",
+   "nomi": "Gidrotexnika inshootlari va qurilish materiallari",
+   "kat": "muh"
+  },
+  {
+   "id": "t2ff349af",
+   "nomi": "Bank ishi asoslari",
+   "kat": "iqt"
+  },
+  {
+   "id": "tb352b952",
+   "nomi": "Gidromeliorativ mashina va jihozlarining tuzilishi va texnik xizmat ko'rsatish",
+   "kat": "qx"
+  },
+  {
+   "id": "tc27f8dd2",
+   "nomi": "Akusherlik",
+   "kat": "tib"
+  },
+  {
+   "id": "tcf177128",
+   "nomi": "Avtomobillar uzatmalar qutisiga texnik xizmat ko'rsatish va ta'mirlash",
+   "kat": "tr"
+  },
+  {
+   "id": "t0e9cce7d",
+   "nomi": "Suv ta'minoti hamda kanalizatsiya tarmoqlari tizimlarida avtomatika va nazorat o'lchov asboblari",
+   "kat": "muh"
+  },
+  {
+   "id": "t990a2197",
+   "nomi": "Asalarichilik, baliqchilik va ipakchilik",
+   "kat": "qx"
+  },
+  {
+   "id": "t67890784",
+   "nomi": "Gidromeliorativ tizimlarni ishlatish",
+   "kat": "qx"
+  },
+  {
+   "id": "tb74b1b6d",
+   "nomi": "Konchilik ishi asoslari",
+   "kat": "muh"
+  },
+  {
+   "id": "t7d9f85c3",
+   "nomi": "Organik kimyo asoslari",
+   "kat": "um"
+  },
+  {
+   "id": "t04163a56",
+   "nomi": "Elektr stansiya elektr jihozlari",
+   "kat": "muh"
+  },
+  {
+   "id": "t6cc92ad1",
+   "nomi": "Kon ishlari asoslari",
+   "kat": "muh"
+  },
+  {
+   "id": "t6f0f7ba7",
+   "nomi": "Sanoat korxonalarining elektr jihozlariga xizmat ko'rsatish va sozlash ishlari",
+   "kat": "muh"
+  },
+  {
+   "id": "tda2a0722",
+   "nomi": "Teri va tanosil kasalliklarida hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "t735acbb1",
+   "nomi": "Davlat talablari va MTT o'quv dasturi",
+   "kat": "ped"
+  },
+  {
+   "id": "t0926b4f4",
+   "nomi": "Analitik kimyo",
+   "kat": "um"
+  },
+  {
+   "id": "t051c23ab",
+   "nomi": "Quyosh panellariga texnik xizmat ko'rsatish",
+   "kat": "muh"
+  },
+  {
+   "id": "tdff1cb2c",
+   "nomi": "Elektr stansiya turbina jihozlarini ta'mirlash",
+   "kat": "muh"
+  },
+  {
+   "id": "t3fecdaf9",
+   "nomi": "Avtomobil dvigatellariga servis xizmat ko'rsatish va ta'mirlash ishlarida ishlatiladigan jihoz va asbob-uskunalar",
+   "kat": "tr"
+  },
+  {
+   "id": "tabb85efd",
+   "nomi": "Mo'ynali va po'stinbop mahsulotlarni ishlab-chiqarishni tashkil etish",
+   "kat": "xiz"
+  },
+  {
+   "id": "tce9d7206",
+   "nomi": "Himoyalangan yer sabzavotchiligi",
+   "kat": "qx"
+  },
+  {
+   "id": "tc19ada79",
+   "nomi": "Texnologik quvurlar va sanitar-texnik tizimi uzel va detallarlarni tayyorlashda chilangarlik, elektrochilangarlik va elektrogazpayvandlash ishlari texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "t112be4af",
+   "nomi": "Metallurgiya korxonalari mashina va jihozlari, ularga texnik xizmat ko'rsatish",
+   "kat": "muh"
+  },
+  {
+   "id": "t489a74f4",
+   "nomi": "Avtomobil va dvigatellar nazariyasi",
+   "kat": "tr"
+  },
+  {
+   "id": "tb991a694",
+   "nomi": "Maydalagichlarga texnik xizmat ko'rsatish va ta'mirlash",
+   "kat": "muh"
+  },
+  {
+   "id": "tb0e0b24c",
+   "nomi": "Urug'chilik va seleksiya asoslari",
+   "kat": "qx"
+  },
+  {
+   "id": "t892be239",
+   "nomi": "Tuproq bonitirovkasi",
+   "kat": "qx"
+  },
+  {
+   "id": "tf3f610f9",
+   "nomi": "Xavfsiz immunizasiya",
+   "kat": "tib"
+  },
+  {
+   "id": "t51a2140e",
+   "nomi": "Kiyim modellariga ishlov berish texnologiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "ta61e6eba",
+   "nomi": "Gistologiya, sitologiya, embriologiya",
+   "kat": "tib"
+  },
+  {
+   "id": "t17bf60e3",
+   "nomi": "Qishloq xo'jaligini elektrlashtirish va avtomatlashtirish",
+   "kat": "qx"
+  },
+  {
+   "id": "t72d7664d",
+   "nomi": "Itlarni urchitish va ko'paytirish",
+   "kat": "qx"
+  },
+  {
+   "id": "t43fcf32c",
+   "nomi": "Taom tayyorlash texnologiyasi asoslari",
+   "kat": "xiz"
+  },
+  {
+   "id": "t66167f87",
+   "nomi": "Umumiy va qishloq xo'jalik fitopatologiyasi",
+   "kat": "qx"
+  },
+  {
+   "id": "tabf36cea",
+   "nomi": "Pul va banklar",
+   "kat": "iqt"
+  },
+  {
+   "id": "t797c74f8",
+   "nomi": "Geriatriyada hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "t8dcfedf5",
+   "nomi": "Turizm faoliyatini tashkil etish",
+   "kat": "xiz"
+  },
+  {
+   "id": "t1379f920",
+   "nomi": "Biofizika",
+   "kat": "tib"
+  },
+  {
+   "id": "t31958a16",
+   "nomi": "Biogeografiya",
+   "kat": "qx"
+  },
+  {
+   "id": "td05b8ea7",
+   "nomi": "Traktorlar va qishloq xo'jaligi agregatlariga texnik xizmat ko'rsatish",
+   "kat": "qx"
+  },
+  {
+   "id": "tc5a8c47e",
+   "nomi": "Ekologik monitoring va ekologik ekspertiza",
+   "kat": "qx"
+  },
+  {
+   "id": "t8c6c16f8",
+   "nomi": "Oziq-ovqat ishlab chiqarish mikrobiologiyasi va har xil konsentrasiyali aralashmalar na'munasini tayyorlash asoslari",
+   "kat": "tib"
+  },
+  {
+   "id": "teeb4becd",
+   "nomi": "Ulgurji savdo faoliyati asoslari",
+   "kat": "xiz"
+  },
+  {
+   "id": "tab9aa9f7",
+   "nomi": "Metall va metallmas materiallarga gaz alangasida ishlov berish",
+   "kat": "muh"
+  },
+  {
+   "id": "t37703ecf",
+   "nomi": "To'qimachilik maxsus texnologiya va jihozlari",
+   "kat": "xiz"
+  },
+  {
+   "id": "tbae44e9f",
+   "nomi": "Uzum yetishtirish",
+   "kat": "qx"
+  },
+  {
+   "id": "tf34242cb",
+   "nomi": "O'simliklarni biologik himoya qilish",
+   "kat": "qx"
+  },
+  {
+   "id": "t0b45f8a7",
+   "nomi": "Fiziologiya",
+   "kat": "tib"
+  },
+  {
+   "id": "t1ac71503",
+   "nomi": "Qariyalarda parvarish xususiyatlari",
+   "kat": "tib"
+  },
+  {
+   "id": "t0401d956",
+   "nomi": "Qayta tiklanuvchi energiya manbalariga texnik xizmat ko'rsatish",
+   "kat": "muh"
+  },
+  {
+   "id": "tc4e4adf5",
+   "nomi": "Burg'ilash quduqlarida geofizik tadqiqot usullari",
+   "kat": "muh"
+  },
+  {
+   "id": "tb3e1def8",
+   "nomi": "Ovqatlanish korxonalarida kalkulyatsiya va hisob",
+   "kat": "xiz"
+  },
+  {
+   "id": "t89a21303",
+   "nomi": "Tikuv buyumlarinin loyihalash",
+   "kat": "xiz"
+  },
+  {
+   "id": "t70b6d55d",
+   "nomi": "Tanlangan sport turini nazariyasi va uslubiyati (sport turlari bo'yicha)",
+   "kat": "ped"
+  },
+  {
+   "id": "t1eb4e1e8",
+   "nomi": "Biokimyo va biokimyoviy tekshirish usullari",
+   "kat": "tib"
+  },
+  {
+   "id": "t65739c2c",
+   "nomi": "Turk tili",
+   "kat": "til"
+  },
+  {
+   "id": "t5e6d8fa6",
+   "nomi": "Kostyum tarixi",
+   "kat": "xiz"
+  },
+  {
+   "id": "tb0815071",
+   "nomi": "Gematologiya va transfuziologiya asoslari",
+   "kat": "tib"
+  },
+  {
+   "id": "t79c20dea",
+   "nomi": "Metodik fanlar",
+   "kat": "ped"
+  },
+  {
+   "id": "taedaf87d",
+   "nomi": "Kinologiya xizmati asoslari",
+   "kat": "qx"
+  },
+  {
+   "id": "te8421b95",
+   "nomi": "Analitik va fizkolloid kimyo",
+   "kat": "um"
+  },
+  {
+   "id": "t014bc821",
+   "nomi": "Internetga ulangan buyumlarni dasturlash",
+   "kat": "it"
+  },
+  {
+   "id": "tec1c3ff7",
+   "nomi": "Ekologiya huquqi",
+   "kat": "qx"
+  },
+  {
+   "id": "t9b65c467",
+   "nomi": "MTTda metodik ishlar",
+   "kat": "ped"
+  },
+  {
+   "id": "t42d2712f",
+   "nomi": "Maktabgacha ta'limda STEAM texnologiyalari",
+   "kat": "ped"
+  },
+  {
+   "id": "t3238cbef",
+   "nomi": "Oftalmologiyada hamshiralik ishi",
+   "kat": "tib"
+  },
+  {
+   "id": "t356d2336",
+   "nomi": "Mehnat huquqi",
+   "kat": "ijt"
+  },
+  {
+   "id": "t762730a0",
+   "nomi": "Moliya",
+   "kat": "iqt"
+  },
+  {
+   "id": "tad7c412d",
+   "nomi": "Hakamlik amaliyoti",
+   "kat": "ped"
+  },
+  {
+   "id": "td67b0809",
+   "nomi": "Aholi va hududlarni favqulodda vaziyatlardan muhofaza qilishning huquqiy asoslari",
+   "kat": "ijt"
+  },
+  {
+   "id": "tbcbdbe68",
+   "nomi": "Kimyo sanoati korxonalari uskunalari va jihozlari",
+   "kat": "muh"
+  },
+  {
+   "id": "t5f81e89d",
+   "nomi": "Sog'lom turmush tarzi asoslari",
+   "kat": "tib"
+  },
+  {
+   "id": "tccfa7c70",
+   "nomi": "Mijozlarni qabul qilish va joylashtirish xizmatlari texnologiyasi (Front Office)",
+   "kat": "xiz"
+  },
+  {
+   "id": "t78ce6ac8",
+   "nomi": "Ekskursiya faoliyatini tashkil etish va uning texnologiyasi",
+   "kat": "xiz"
+  },
+  {
+   "id": "tc652443e",
+   "nomi": "Rasm (rangtasvir)",
+   "kat": "ped"
+  },
+  {
+   "id": "ta0390632",
+   "nomi": "Sug'orish tizimlariga texnik xizmat ko'rsatish",
+   "kat": "qx"
+  },
+  {
+   "id": "t6c660eff",
+   "nomi": "Suvoqchilik ishlari texnologiyasi",
+   "kat": "muh"
+  },
+  {
+   "id": "t1bdeb6dd",
+   "nomi": "Kasbiy faoliyatning huquqiy asoslari",
+   "kat": "ijt"
+  },
+  {
+   "id": "tbaf832c3",
+   "nomi": "Elektr o'lchash va mikroprotsessorli boshqaruv tizimlari",
+   "kat": "muh"
+  },
+  {
+   "id": "td1fcb5ed",
+   "nomi": "Qishloq xo'jaligi gidrotexnika melioratsiyasi",
+   "kat": "qx"
+  },
+  {
+   "id": "t82ce9ab9",
+   "nomi": "Elektr va elektromexanik uskunalar",
+   "kat": "muh"
+  },
+  {
+   "id": "t16812e61",
+   "nomi": "Murabbiylik amaliyoti",
+   "kat": "ped"
+  },
+  {
+   "id": "tff7fcc40",
+   "nomi": "Texnologik jarayonlarni loyihalash",
+   "kat": "muh"
+  },
+  {
+   "id": "t1688a1ba",
+   "nomi": "Bolalar va o'smirlar sporti asoslari",
+   "kat": "ped"
+  },
+  {
+   "id": "tb4fcb50d",
+   "nomi": "Vino mahsulotlari ishlab chiqarish texnologiyasi asoslari",
+   "kat": "xiz"
+  },
+  {
+   "id": "t65f9f4d3",
+   "nomi": "Oshpazlik taomlarini tayyorlash",
+   "kat": "xiz"
+  },
+  {
+   "id": "tc769c2bd",
+   "nomi": "Marketing",
+   "kat": "iqt"
+  },
+  {
+   "id": "t1a2d45e0",
+   "nomi": "Bank ishi",
+   "kat": "iqt"
+  }
+ ]
+}

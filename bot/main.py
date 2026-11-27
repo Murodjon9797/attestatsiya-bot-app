@@ -129,7 +129,8 @@ async def menu_home(target: CallbackQuery | Message, state: FSMContext) -> None:
              else f"🆓 Bepul savollar qoldi: <b>{left}</b> / {premium.free_questions}")
     text = (f"<b>🎓 Texnikum o'qituvchilari attestatsiyasiga tayyorlov — {catalog.yil}</b>\n\n"
             f"{holat}\n\n"
-            f"📚 {len(bank.subjects)} ta fan bo'yicha tayyor testlar.\n\n"
+            f"📚 {len(bank.subjects)} ta fan bo'yicha tayyor testlar"
+            + (f", yana {len(bank.soon)} ta fan tez orada qo'shiladi" if bank.soon else "") + ".\n\n"
             "👇 <b>Yo'nalishingizni tanlang</b> yoki shunchaki <b>fan nomini yozib yuboring</b> "
             "(masalan: <i>dasturlash</i>, <i>lotin</i>, <i>temir yo'l</i>).")
     await show(target, text, home_kb(uid))
@@ -166,8 +167,21 @@ async def cb_category(cb: CallbackQuery) -> None:
     cat = next((c for c in bank.categories() if c[0] == cid), None)
     if not cat:
         return await cb.answer("Bo'lim topilmadi", show_alert=True)
-    items = [(f"{bank.subjects[i]['nomi']} ({len(bank.subjects[i]['savollar'])})", f"bs:{i}") for i in cat[2]]
-    await show(cb, f"<b>{cat[1]}</b>\n\nFanni tanlang:", paged(items, int(page), f"c:{cid}:{{}}", "home"))
+    items = [(subj_label(i), f"bs:{i}") for i in cat[2]]
+    ready = sum(1 for i in cat[2] if i in bank.subjects)
+    note = f"\n\n⏳ — savollari tez orada qo'shiladi." if ready < len(cat[2]) else ""
+    await show(cb, f"<b>{cat[1]}</b>\n\nFanni tanlang:{note}", paged(items, int(page), f"c:{cid}:{{}}", "home"))
+
+
+def subj_label(sid: str) -> str:
+    if sid in bank.subjects:
+        return f"{bank.subjects[sid]['nomi']} ({len(bank.subjects[sid]['savollar'])})"
+    return f"⏳ {bank.soon[sid]['nomi']} — tez orada"
+
+
+SOON_TEXT = ("⏳ <b>{nomi}</b>\n\nBu fan bo'yicha test savollari <b>tez orada</b> qo'shiladi. "
+             "Savollar tayyor bo'lgach, botda shu fan ro'yxatida paydo bo'ladi.\n\n"
+             "Hozircha yaqin yo'nalishdagi boshqa fanlar bo'yicha mashq qilishingiz mumkin.")
 
 
 @router.callback_query(F.data == "search")
@@ -180,13 +194,16 @@ async def cb_search(cb: CallbackQuery, state: FSMContext) -> None:
 
 async def search_and_show(msg: Message, state: FSMContext, query: str) -> None:
     sids, cats = bank.search(query)
+    if len(sids) == 1 and not cats and sids[0] in bank.soon:
+        return await msg.answer(SOON_TEXT.format(nomi=escape(bank.soon[sids[0]]["nomi"])),
+                                reply_markup=InlineKeyboardMarkup(inline_keyboard=[[btn("🏠 Bosh menyu", "home")]]))
     if len(sids) == 1 and not cats:
         sid = sids[0]
         await state.set_state(None)
         await state.update_data(fan=bank.subjects[sid]["nomi"], bank=sid, blok="", natijalar="", mazmun="",
                                 bi=None, yi=None, mi=None)
         return await ask_count(msg, bank.subjects[sid]["nomi"])
-    rows = [[btn(f"{bank.subjects[i]['nomi']} ({len(bank.subjects[i]['savollar'])})", f"bs:{i}")] for i in sids[:12]]
+    rows = [[btn(subj_label(i), f"bs:{i}")] for i in sids[:12]]
     titles = {c[0]: c[1] for c in bank.categories()}
     rows += [[btn(f"{titles[c]} — barcha fanlar", f"c:{c}:0")] for c in cats if c in titles]
     rows.append([btn("🏠 Bosh menyu", "home")])
@@ -255,6 +272,10 @@ async def cb_bank_list(cb: CallbackQuery) -> None:
 @router.callback_query(F.data.startswith("bs:"))
 async def cb_bank_pick(cb: CallbackQuery, state: FSMContext) -> None:
     sid = cb.data[3:]
+    if sid in bank.soon:
+        await cb.answer()
+        return await cb.message.answer(SOON_TEXT.format(nomi=escape(bank.soon[sid]["nomi"])),
+                                       reply_markup=InlineKeyboardMarkup(inline_keyboard=[[btn("🏠 Bosh menyu", "home")]]))
     if sid not in bank.subjects:
         return await cb.answer("Fan topilmadi", show_alert=True)
     await state.set_state(None)
@@ -617,6 +638,8 @@ async def run() -> None:
                                                   link_preview_is_disabled=True))
     dp = Dispatcher(storage=MemoryStorage())
     premium.bot = bot
+    from bot.admin import build_router as admin_router
+    dp.include_router(admin_router(db, premium.admins))  # admin holatlari (xabar tarqatish) eng oldin
     dp.include_router(premium.router())  # chek rasmlari va admin tugmalari test holatidan oldin ushlanadi
     dp.include_router(router)
     await bot.set_my_commands([

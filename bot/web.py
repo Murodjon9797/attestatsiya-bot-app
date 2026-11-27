@@ -143,7 +143,7 @@ def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_perce
 
     async def api_bank(request: web.Request) -> web.Response:
         auth(request)
-        return web.json_response({"fanlar": bank.listing()})
+        return web.json_response({"fanlar": bank.listing(), "tez_orada": bank.soon_listing()})
 
     # ---------------- profil va tahlil ----------------
     async def api_me(request: web.Request) -> web.Response:
@@ -209,6 +209,9 @@ def build_app(*, token: str, catalog: Catalog, db: ResultsDB, claude, pass_perce
             raise web.HTTPBadRequest(text="Chek rasmini yuklang (8 MB gacha)")
         if db.pending_payment(u["id"]):
             raise web.HTTPConflict(text="Oldingi chekingiz hali ko'rib chiqilmoqda")
+        old = db.code_for_user(u["id"])
+        if old and not old["used"]:
+            raise web.HTTPConflict(text=f"Sizga kod allaqachon berilgan: {old['code']} — uni Premium bo'limida kiriting")
         await premium.submit_receipt(u, tarif, photo=photo, filename=fname)
         return web.json_response({"ok": True, **status(u["id"])})
 

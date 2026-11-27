@@ -388,14 +388,17 @@ function renderTest(){
     const p = S.me.profil, mine = p && p.sid && S.bank.find(b=>b.id===p.sid);
     const item = b => { const st=subjStat(b.id); return `<button class="item" data-bank="${esc(b.id)}"><div class="t"><b>${esc(b.nomi)}</b><small>${esc([b.kod, b.soni+" ta savol"].filter(Boolean).join(" · "))}</small></div>${st?`<span class="tag ${pc(st.togri,st.jami)>=PASS()?'g':'p'}">${pc(st.togri,st.jami)}%</span>`:""}<span class="chev">›</span></button>`; };
     const nrm = s => s.toLowerCase().replace(/[ʻʼ‘’`']/g,"");
+    const soonItem = b => `<button class="item" data-soon="${esc(b.nomi)}" style="opacity:.6"><div class="t"><b>${esc(b.nomi)}</b><small>⏳ Savollar tez orada qo'shiladi</small></div></button>`;
+    const SOON = S.soon||[];
     const found = S.filter ? S.bank.filter(b => nrm(b.nomi+" "+b.kat+" "+(b.kalit||"")).includes(nrm(S.filter.trim()))) : [];
-    const kats = [...new Set([...S.bank].sort((a,b)=>(a.kat_n??99)-(b.kat_n??99)).map(b=>b.kat))];
+    const foundSoon = S.filter ? SOON.filter(b => nrm(b.nomi+" "+b.kat).includes(nrm(S.filter.trim()))) : [];
+    const kats = [...new Set([...S.bank, ...SOON].sort((a,b)=>(a.kat_n??99)-(b.kat_n??99)).map(b=>b.kat))];
     html = crumbs("Fanni tanlang", `${S.bank.length} ta fan · nomini yozib qidiring`)
       + searchBox("🔍 Fan nomini yozing: dasturlash, lotin, temir yo'l…")
       + (S.filter
-          ? (found.length ? `<div class="list" style="margin-bottom:6px">${found.map(item).join("")}</div>` : `<div class="empty">Bunday fan topilmadi. Boshqacha yozib ko'ring.</div>`)
+          ? (found.length||foundSoon.length ? `<div class="list" style="margin-bottom:6px">${found.map(item).join("")}${foundSoon.map(soonItem).join("")}</div>` : `<div class="empty">Bunday fan topilmadi. Boshqacha yozib ko'ring.</div>`)
           : (mine ? `<div class="grp">Sizning attestatsiya faningiz</div><div class="list" style="margin-bottom:6px">${item(mine)}</div>` : (p ? "" : `<button class="btn ghost" id="setP" style="margin-bottom:12px">Nizom bo'yicha sozlash</button>`))
-            + kats.map(k => { const arr = S.bank.filter(b=>b.kat===k && b.id!==(mine&&mine.id)); return arr.length ? `<div class="grp">${esc(k)}</div><div class="list" style="margin-bottom:6px">${arr.map(item).join("")}</div>` : ""; }).join(""))
+            + kats.map(k => { const arr = S.bank.filter(b=>b.kat===k && b.id!==(mine&&mine.id)), ss = SOON.filter(b=>b.kat===k); return arr.length||ss.length ? `<div class="grp">${esc(k)}</div><div class="list" style="margin-bottom:6px">${arr.map(item).join("")}${ss.map(soonItem).join("")}</div>` : ""; }).join(""))
 ;
   } else if (yi === undefined) {
     const s = C.sohalar[bi];
@@ -417,6 +420,7 @@ function renderTest(){
   bindBack(); bindSearch();
   $app.querySelectorAll(".item[data-i]").forEach(el=>el.onclick=()=>{ haptic(); S.path.push(+el.dataset.i); S.filter=""; render(); window.scrollTo(0,0); });
   const sp=document.getElementById("setP"); if (sp) sp.onclick=()=>{ haptic(); editProfile(); };
+  $app.querySelectorAll("[data-soon]").forEach(el=>el.onclick=()=>{ haptic(); toast("«"+el.dataset.soon+"» bo'yicha savollar tez orada qo'shiladi"); });
   $app.querySelectorAll("[data-bank],[data-bk]").forEach(el=>el.onclick=()=>{ haptic(); S.bankSel=el.dataset.bank||el.dataset.bk; S.rejim="mashq"; S.filter=""; render(); window.scrollTo(0,0); });
   $app.querySelectorAll("[data-n]:not([disabled])").forEach(el=>el.onclick=()=>{ haptic(); S.soni=+el.dataset.n; render(); });
   $app.querySelectorAll("[data-mode]").forEach(el=>el.onclick=()=>{ haptic(); const id=el.dataset.mode; if (id!=="mashq" && !S.me?.premium) { toast("Bu rejim premium foydalanuvchilar uchun"); return setTab("premium"); } S.rejim=id; render(); });
@@ -581,7 +585,7 @@ window.onTgAuth = async function(user){
 (async function init(){
   if (!tg && !store.get("web_token")) return renderLogin();
   render();
-  try { await Promise.all([loadMe(), api("/api/catalog").then(c=>S.catalog=c), api("/api/bank").then(b=>S.bank=b.fanlar)]); }
+  try { await Promise.all([loadMe(), api("/api/catalog").then(c=>S.catalog=c), api("/api/bank").then(b=>{S.bank=b.fanlar; S.soon=b.tez_orada||[];})]); }
   catch(e){ if (!tg && !store.get("web_token")) return; $app.innerHTML = `<div class="loader"><b>Ulanib bo'lmadi</b><p>${esc(e.message)}</p></div>`; return; }
   render();
 })();

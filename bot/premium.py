@@ -114,7 +114,7 @@ class Premium:
         async def claim_admin(msg: Message) -> None:
             parts = (msg.text or "").split(maxsplit=1)
             if is_admin(msg.from_user.id):
-                return await msg.answer("Siz adminsiz. Buyruqlar: /kod1, /kod3, /statistika")
+                return await msg.answer("Siz adminsiz. Admin paneli: /panel")
             if self.db.admin_ids():  # kod bir martalik: admin allaqachon tayinlangan
                 return await msg.answer("Admin allaqachon tayinlangan.")
             if not self.claim_code or len(parts) < 2 or not secrets.compare_digest(parts[1].strip(), self.claim_code):
@@ -122,7 +122,7 @@ class Premium:
             self.db.add_admin(msg.from_user.id)
             self.admins.append(msg.from_user.id)
             await msg.answer("✅ Siz admin bo'ldingiz. To'lov cheklari endi sizga keladi.\n\n"
-                             "Buyruqlar:\n/kod1 — 1 oylik kod yaratish\n/kod3 — 3 oylik kod yaratish\n/statistika")
+                             "Admin paneli: /panel")
 
         @r.message(Command("id"))
         async def my_id(msg: Message) -> None:
@@ -153,9 +153,31 @@ class Premium:
             if not is_admin(msg.from_user.id):
                 return
             days = 30 if msg.text.startswith("/kod1") else 90
-            code = self.db.create_code(days, msg.from_user.id)
-            await msg.answer(f"Yangi {'1' if days == 30 else '3'} oylik kod:\n<code>{code}</code>\n\n"
-                             "Foydalanuvchi uni botda <code>/kod " + code + "</code> deb kiritadi.")
+            parts = (msg.text or "").split()
+            uid = int(parts[1]) if len(parts) > 1 and parts[1].lstrip("-").isdigit() else None
+            if len(parts) > 1 and uid is None:
+                return await msg.answer("Foydalanuvchi ID raqam bo'lishi kerak: <code>/kod1 123456789</code>")
+            if uid is not None:
+                old = self.db.code_for_user(uid)
+                if old:
+                    holat = "ishlatilgan, premium faol" if old["used"] else "hali ishlatilmagan"
+                    return await msg.answer(f"⚠️ ID <code>{uid}</code> ga kod allaqachon berilgan ({holat}):\n"
+                                            f"<code>{old['code']}</code>\n\nYangi kod yaratilmadi.")
+            code = self.db.create_code(days, msg.from_user.id, for_user=uid)
+            text = (f"Yangi {'1' if days == 30 else '3'} oylik kod:\n<code>{code}</code>\n\n"
+                    "Foydalanuvchi uni botda <code>/kod " + code + "</code> deb kiritadi.")
+            if uid is None:
+                text += ("\n\n💡 Kodni aniq bir foydalanuvchiga bog'lash uchun ID bilan yarating: "
+                         "<code>/kod1 ID</code> — shunda bitta odamga ikki marta kod berilmaydi.")
+            else:
+                text += f"\nFaqat ID <code>{uid}</code> ishlata oladi."
+                try:
+                    await self.bot.send_message(uid, f"🎁 Sizga {'1' if days == 30 else '3'} oylik premium kodi berildi:\n"
+                                                f"<code>/kod {code}</code>")
+                    text += "\n✅ Kod foydalanuvchiga yuborildi."
+                except Exception:  # noqa: BLE001
+                    text += "\n⚠️ Foydalanuvchiga yuborib bo'lmadi — kodni o'zingiz yuboring."
+            await msg.answer(text)
 
         @r.message(Command("statistika"))
         async def stats(msg: Message) -> None:
@@ -172,6 +194,10 @@ class Premium:
                 return await msg.answer("Sizda premium allaqachon faol.")
             if self.db.pending_payment(u["id"]):
                 return await msg.answer("Oldingi chekingiz hali ko'rib chiqilmoqda, iltimos kuting.")
+            old = self.db.code_for_user(u["id"])
+            if old and not old["used"]:
+                return await msg.answer("Sizga kod allaqachon berilgan. Faollashtirish uchun yuboring:\n"
+                                        f"<code>/kod {old['code']}</code>")
             cap = (msg.caption or "").lower()
             tarif = "3oy" if "3" in cap else ("1oy" if "1" in cap else "")
             file_id = msg.photo[-1].file_id if msg.photo else msg.document.file_id
@@ -195,8 +221,10 @@ class Premium:
             p = self.db.payment(int(pid))
             if not p:
                 return await cb.answer("To'lov topilmadi", show_alert=True)
-            if p["status"] != "kutilmoqda":
-                return await cb.answer(f"Allaqachon ko'rib chiqilgan: {p['status']}", show_alert=True)
+            # Bitta to'lovga faqat bir marta qaror: ikkinchi bosish yoki ikkinchi admin "ko'rib chiqilgan" deb oladi
+            if p["status"] != "kutilmoqda" or not self.db.claim_payment(p["id"], cb.from_user.id):
+                p = self.db.payment(int(pid)) or p
+                return await cb.answer(f"Bu chek allaqachon ko'rib chiqilgan: {p['status']}", show_alert=True)
             base = cb.message.caption or ""
             if action == "no":
                 self.db.decide_payment(p["id"], "rad etildi", cb.from_user.id)
@@ -207,6 +235,20 @@ class Premium:
                 except Exception:  # noqa: BLE001
                     pass
                 return await cb.answer("Rad etildi")
+            old = self.db.code_for_user(p["user_id"])
+            if old:  # bitta foydalanuvchiga bitta (amaldagi) kod
+                holat = "ishlatilgan, premium faol" if old["used"] else "hali ishlatilmagan"
+                self.db.decide_payment(p["id"], "takroriy", cb.from_user.id, old["code"])
+                await cb.message.edit_caption(
+                    caption=base + f"\n\n⚠️ <b>Kod allaqachon berilgan</b> ({holat}): <code>{old['code']}</code>",
+                    reply_markup=None)
+                if not old["used"]:
+                    try:
+                        await self.bot.send_message(p["user_id"], "Sizga kod allaqachon berilgan. Faollashtirish uchun "
+                                                    f"yuboring:\n<code>/kod {old['code']}</code>")
+                    except Exception:  # noqa: BLE001
+                        pass
+                return await cb.answer(f"Bu foydalanuvchiga kod allaqachon berilgan ({holat}).", show_alert=True)
             plan = self.plans[action]
             code = self.db.create_code(plan["kun"], cb.from_user.id, for_user=p["user_id"])
             self.db.decide_payment(p["id"], f"tasdiqlandi {plan['nomi']}", cb.from_user.id, code)

@@ -186,6 +186,29 @@ class ResultsDB:
         self._exec("UPDATE codes SET used_by = ?, used_at = ? WHERE code = ? AND used_by IS NULL", (user_id, ts(), code))
         return True, f"{days} kunlik premium faollashtirildi.", self.grant_premium(user_id, days)
 
+    def code_for_user(self, user_id: int) -> dict | None:
+        """Foydalanuvchiga berilgan va hali kuchda bo'lgan kod: ishlatilmagan yoki ishlatilgan-u premium hali faol."""
+        r = self._one("SELECT code, days, used_by, created FROM codes WHERE for_user = ? ORDER BY created DESC LIMIT 1",
+                      (user_id,))
+        if not r:
+            return None
+        code, days, used_by, created = r
+        if used_by and not self.premium_until(user_id):
+            return None  # oldingi muddat tugagan — yangi kod berish mumkin
+        return {"code": code, "days": days, "used": bool(used_by), "created": created}
+
+    def claim_payment(self, pid: int, admin_id: int) -> bool:
+        """To'lovni bitta admin "egallaydi" — ikki admin bir vaqtda bosganda ikki kod chiqmasligi uchun."""
+        cur = self._exec("UPDATE payments SET status = 'jarayonda', decided_by = ? WHERE id = ? AND status = 'kutilmoqda'",
+                         (admin_id, pid))
+        return (cur.rowcount or 0) > 0
+
+    def user_ids(self) -> list[int]:
+        return [int(r[0]) for r in self._all("SELECT user_id FROM users ORDER BY created")]
+
+    def user_exists(self, user_id: int) -> bool:
+        return bool(self._one("SELECT 1 FROM users WHERE user_id = ?", (user_id,)))
+
     def codes_stats(self) -> dict:
         r = self._one("SELECT COUNT(*), SUM(CASE WHEN used_by IS NOT NULL THEN 1 ELSE 0 END) FROM codes")
         p = self._one("SELECT COUNT(*) FROM users WHERE premium_until > ?", (now().isoformat(timespec="seconds"),))

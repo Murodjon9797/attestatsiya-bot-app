@@ -34,6 +34,17 @@ class QuestionBank:
             qs = [q for q in d.get("savollar", []) if len(q.get("a", [])) == 4]
             if qs:
                 self.subjects[p.stem] = {**d, "id": p.stem, "savollar": qs}
+        # Ruxsatnomadagi fanlar: muqobil nomlar (qidiruv uchun) va savollari hali yo'q fanlar ("tez orada")
+        self.aliases: dict[str, list[str]] = {}
+        self.soon: dict[str, dict] = {}
+        lst = Path(folder).parent / "fanlar_royxati.json"
+        if lst.exists():
+            r = json.loads(lst.read_text(encoding="utf-8"))
+            for m in r.get("mapped", []):
+                if m.get("bank") in self.subjects:
+                    self.aliases.setdefault(m["bank"], []).append(m["nomi"])
+            for s in r.get("tez_orada", []):
+                self.soon[s["id"]] = s
 
     def listing(self) -> list[dict]:
         order = {"umumtalim": 0, "maxsus": 1, "bosqich1": 2}
@@ -45,6 +56,13 @@ class QuestionBank:
                  "bolimlar": list(dict.fromkeys(q.get("b", "") for q in s["savollar"] if q.get("b")))}
                 for s in sorted(self.subjects.values(),
                                 key=lambda x: (order.get(x.get("turi", "maxsus"), 1), x["nomi"].lower()))]
+
+    def soon_listing(self) -> list[dict]:
+        cats = self.categories()  # type: ignore[attr-defined]
+        kat = {sid: title for _, title, ids in cats for sid in ids}
+        kat_n = {sid: n for n, (_, _, ids) in enumerate(cats) for sid in ids}
+        return [{"id": s["id"], "nomi": s["nomi"], "kat": kat.get(s["id"], ""), "kat_n": kat_n.get(s["id"], 99)}
+                for s in self.soon.values()]
 
     def match(self, nomi: str, kod: str = "") -> str | None:
         """Fan nomi yoki kodi bo'yicha bazadagi mos fanni topadi.
@@ -157,29 +175,41 @@ def _search(bank: "QuestionBank", query: str) -> tuple[list[str], list[str]]:
         return [], []
     hits: list[tuple[int, str]] = []
     for sid, s in bank.subjects.items():
-        words = norm(s["nomi"] + " " + sid.replace("_", " ") + " " + s.get("kalit", "")).split()
+        words = norm(" ".join([s["nomi"], sid.replace("_", " "), s.get("kalit", ""), *bank.aliases.get(sid, [])])).split()
         if all(any(w.startswith(q) or (len(q) >= 5 and q in w) for w in words) for q in qw):
             score = sum(1 for q in qw for w in words if w == q)
             hits.append((-score, s["nomi"].lower(), sid))
+    soon_hits: list[tuple[int, str, str]] = []
+    for sid, s in bank.soon.items():
+        words = norm(s["nomi"]).split()
+        if all(any(w.startswith(q) or (len(q) >= 5 and q in w) for w in words) for q in qw):
+            soon_hits.append((-sum(1 for q in qw for w in words if w == q), s["nomi"].lower(), sid))
     cats = [cid for cid, title, _ in CATEGORIES
             if all(any(w.startswith(q) for w in norm(title + " " + ALIASES.get(cid, "")).split()) for q in qw)]
-    return [h[-1] for h in sorted(hits)], cats
+    return [h[-1] for h in sorted(hits)] + [h[-1] for h in sorted(soon_hits)], cats
 
 
 def _categories(bank: "QuestionBank") -> list[tuple[str, str, list[str]]]:
-    """Faqat bazada bor fanlar; ro'yxatga kirmay qolgan yangi fanlar "Boshqa" guruhiga tushadi."""
+    """Bazada bor fanlar, so'ng shu yo'nalishdagi "tez orada" fanlar; ro'yxatga kirmay qolgan
+    yangi fanlar "Boshqa" guruhiga tushadi."""
     used: set[str] = set()
     out = []
     for cid, title, ids in CATEGORIES:
         ids = [i for i in ids if i in bank.subjects]
         used.update(ids)
-        if ids:
-            out.append((cid, title, ids))
+        soon = sorted((k for k, s in bank.soon.items() if s.get("kat") == cid), key=lambda k: bank.soon[k]["nomi"].lower())
+        if ids or soon:
+            out.append((cid, title, ids + soon))
     rest = sorted((i for i in bank.subjects if i not in used), key=lambda i: bank.subjects[i]["nomi"].lower())
     if rest:
         out.append(("boshqa", "📂 Boshqa fanlar", rest))
     return out
 
 
+def _name(bank: "QuestionBank", sid: str) -> str:
+    return bank.subjects[sid]["nomi"] if sid in bank.subjects else bank.soon.get(sid, {}).get("nomi", sid)
+
+
+QuestionBank.name = _name  # type: ignore[attr-defined]
 QuestionBank.search = _search  # type: ignore[attr-defined]
 QuestionBank.categories = _categories  # type: ignore[attr-defined]
