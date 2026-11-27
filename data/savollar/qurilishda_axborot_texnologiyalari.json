@@ -2923,7 +2923,7 @@
    "b": "Python asoslari",
    "q": "Python da zip([1, 2], [\"a\", \"b\"]) nimani hosil qiladi?",
    "a": [
-    "(1, \"a\") va (2, \"b\") juftliklar",
+    "Juftliklar",
     "[1, 2, \"a\", \"b\"]",
     "{1: 2}",
     "Xato"
@@ -2956,7 +2956,7 @@
    "b": "Python asoslari",
    "q": "Python da *args nima uchun ishlatiladi?",
    "a": [
-    "Ixtiyoriy sondagi argumentlarni qabul qilish uchun",
+    "Ixtiyoriy sondagi argumentlar uchun",
     "Ko'paytirish uchun faqat",
     "Izoh yozish uchun",
     "Modul ulash uchun"
@@ -3000,7 +3000,7 @@
    "b": "MATLAB asoslari",
    "q": "MATLAB da disp() funksiyasi nima qiladi?",
    "a": [
-    "Qiymatni ekranga chiqaradi",
+    "Ekranga chiqaradi",
     "Grafik chizadi",
     "Faylni o'chiradi",
     "Matritsani teskari qiladi"
@@ -3011,7 +3011,7 @@
    "b": "MATLAB asoslari",
    "q": "MATLAB da input() funksiyasi nima qiladi?",
    "a": [
-    "Foydalanuvchidan qiymat so'raydi",
+    "Qiymat so'raydi",
     "Faylga yozadi",
     "Grafik yopadi",
     "Xato chiqaradi"
@@ -3099,7 +3099,7 @@
    "b": "MATLAB asoslari",
    "q": "MATLAB da polyfit funksiyasi nima qiladi?",
    "a": [
-    "Ma'lumotlarga ko'phadni moslashtiradi",
+    "Ko'phadni moslashtiradi",
     "Ko'phad ildizlarini topadi",
     "Grafik chizadi",
     "Integral hisoblaydi"
@@ -3110,7 +3110,7 @@
    "b": "MATLAB asoslari",
    "q": "MATLAB da fzero funksiyasi nima qiladi?",
    "a": [
-    "Funksiya nolini (ildizini) topadi",
+    "Ildizini topadi",
     "Matritsani nolga aylantiradi",
     "Grafikni tozalaydi",
     "O'zgaruvchilarni o'chiradi"
@@ -3132,7 +3132,7 @@
    "b": "Qurilishda kompyuter dasturlari",
    "q": "Qurilishda \"raqamli egizak\" nima?",
    "a": [
-    "Obyektning ekspluatatsiyadagi virtual modeli",
+    "Virtual model",
     "Ikki bir xil bino",
     "Ikkita qurilish krani",
     "Ikki muhandis"
@@ -3154,7 +3154,7 @@
    "b": "Qurilishda kompyuter dasturlari",
    "q": "Tekla Structures dasturi asosan nima uchun ishlatiladi?",
    "a": [
-    "Metall va temir-beton konstruksiyalarni modellashtirish",
+    "Konstruksiyalarni modellash",
     "Buxgalteriya hisobi",
     "Rasm chizish",
     "Musiqa yozish"
@@ -3165,7 +3165,7 @@
    "b": "Qurilishda kompyuter dasturlari",
    "q": "Qurilish loyihalari uchun bulutli hamkorlik platformasining afzalligi nima?",
    "a": [
-    "Barcha ishtirokchilar yagona modelda ishlaydi",
+    "Yagona modelda ishlash",
     "Har kim alohida eski nusxa bilan ishlaydi",
     "Ma'lumotlar yo'qoladi",
     "Hamkorlik imkonsiz"
@@ -3176,7 +3176,7 @@
    "b": "Qurilishda kompyuter dasturlari",
    "q": "Qurilish sohasida AutoCAD da masshtab nima uchun to'g'ri sozlanadi?",
    "a": [
-    "Chizma o'lchamlari to'g'ri chiqishi uchun",
+    "O'lchamlar to'g'riligi uchun",
     "Rang chiroyli bo'lishi uchun",
     "Fayl kichrayishi uchun",
     "Internet tezlashishi uchun"
@@ -3187,7 +3187,7 @@
    "b": "Qurilishda kompyuter dasturlari",
    "q": "Qurilish obyekti energiya samaradorligini modellashtirish dasturlari nimani hisoblaydi?",
    "a": [
-    "Issiqlik yo'qotishlari va energiya sarfini",
+    "Energiya sarfini",
     "Ishchilar sonini",
     "Bino rangini",
     "Avtoturargoh joylarini faqat"
@@ -3198,7 +3198,7 @@
    "b": "Qurilishda kompyuter dasturlari",
    "q": "Python yordamida qurilish hisob-kitoblarini avtomatlashtirishning afzalligi nima?",
    "a": [
-    "Takroriy hisoblarni tez bajarish",
+    "Tez hisoblash",
     "Hisobning qo'lda bajarilishi",
     "Xatolarning ko'payishi",
     "Natijalarning yo'qolishi"
@@ -3220,7 +3220,7 @@
    "b": "Qurilishda kompyuter dasturlari",
    "q": "MATLAB yoki Python da tenglamalar sistemasini yechish qurilishda qayerda kerak?",
    "a": [
-    "Statik noaniq konstruksiyalarni hisoblashda",
+    "Statik noaniq tizimlarda",
     "Bino rangini tanlashda",
     "Ishchilar ish haqini hisoblashda",
     "Material sotib olishda"
@@ -3231,12 +3231,100 @@
    "b": "Qurilishda kompyuter dasturlari",
    "q": "Qurilishda GIS nima uchun qo'llaniladi?",
    "a": [
-    "Hudud va infratuzilmani tahlil qilish uchun",
+    "Hududni tahlil qilish uchun",
     "Faqat bino ichini bo'yash uchun",
     "Faqat beton quyish uchun",
     "Faqat ishchilarni yollash uchun"
    ],
    "e": "Shaharsozlik rejalash."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da 15 % 4 natijasi qancha?",
+   "a": [
+    "3",
+    "3.75",
+    "4",
+    "11"
+   ],
+   "e": "Qoldiq."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da int(7.9) natijasi qancha?",
+   "a": [
+    "7",
+    "8",
+    "7.9",
+    "Xato"
+   ],
+   "e": "Kasr qism tashlanadi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da str(25) natijasi qanday?",
+   "a": [
+    "\"25\"",
+    "25",
+    "25.0",
+    "Xato"
+   ],
+   "e": "Satrga o'giradi."
+  },
+  {
+   "b": "Python asoslari",
+   "q": "Python da bool(0) natijasi qanday?",
+   "a": [
+    "False",
+    "True",
+    "0",
+    "None"
+   ],
+   "e": "Nol — yolg'on."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da length([4 5 6 7]) natijasi qancha?",
+   "a": [
+    "4",
+    "22",
+    "7",
+    "1"
+   ],
+   "e": "Vektor uzunligi."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da A = magic(3) nima yaratadi?",
+   "a": [
+    "3×3 sehrli kvadrat",
+    "3×3 birlik matritsa",
+    "3 ta tasodifiy son",
+    "3×3 nol matritsa"
+   ],
+   "e": "Satr, ustun yig'indilari teng."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da rand(2) nima yaratadi?",
+   "a": [
+    "2×2 tasodifiy sonlar matritsasi",
+    "2 ta butun son",
+    "2×2 birlik matritsa",
+    "2 elementli nol vektor"
+   ],
+   "e": "[0; 1) oraliqda."
+  },
+  {
+   "b": "MATLAB asoslari",
+   "q": "MATLAB da abs(-4) natijasi qancha?",
+   "a": [
+    "4",
+    "−4",
+    "16",
+    "0"
+   ],
+   "e": "Modul."
   }
  ]
 }
