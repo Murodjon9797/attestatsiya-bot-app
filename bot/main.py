@@ -14,7 +14,7 @@ import anthropic
 from aiogram import Bot, Dispatcher, F, Router
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
-from aiogram.filters import Command, CommandStart
+from aiogram.filters import Command, CommandStart, StateFilter
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
@@ -86,15 +86,26 @@ async def show(cb_or_msg: CallbackQuery | Message, text: str, kb: InlineKeyboard
 
 # ---------------- menyular ----------------
 def sohalar_kb() -> InlineKeyboardMarkup:
+    """Mutaxassisliklar katalogi (sohalar ro'yxati)."""
     items = [(f"{s['nomi']} ({sum(len(y['mutaxassisliklar']) for y in s['yunalishlar'])})", f"b:{i}:0")
              for i, s in enumerate(catalog.sohalar)]
-    kb = paged(items, 0, "noop", None)
-    if bank.subjects:
-        kb.inline_keyboard.insert(0, [btn(f"📚 Attestatsiya fanlari — tayyor savollar ({len(bank.subjects)})", "bk:0")])
-    kb.inline_keyboard.insert(0, [btn("💎 Premium", "premium"), btn("📊 Tahlil", "tahlil")])
+    return paged(items, 0, "noop", "home")
+
+
+def home_kb(uid: int) -> InlineKeyboardMarkup:
+    rows: list[list[InlineKeyboardButton]] = []
+    last = db.last_sid(uid)
+    if last and last in bank.subjects:
+        rows.append([btn(f"▶️ Davom etish: {bank.subjects[last]['nomi']}", f"bs:{last}")])
+    cats = bank.categories()
+    cat_btns = [btn(f"{title} ({len(ids)})", f"c:{cid}:0") for cid, title, ids in cats]
+    rows += [cat_btns[i:i + 2] for i in range(0, len(cat_btns), 2)]
+    rows.append([btn("🔍 Fan nomi bo'yicha qidirish", "search")])
     if WEBAPP_URL:
-        kb.inline_keyboard.insert(0, [InlineKeyboardButton(text="📱 Ilovani ochish", web_app=WebAppInfo(url=WEBAPP_URL))])
-    return kb
+        rows.append([InlineKeyboardButton(text="📱 Ilovani ochish", web_app=WebAppInfo(url=WEBAPP_URL))])
+    rows.append([btn("💎 Premium", "premium"), btn("📊 Tahlil", "tahlil")])
+    rows.append([btn("🗂 Mutaxassislik bo'yicha izlash", "sohalar")])
+    return InlineKeyboardMarkup(inline_keyboard=rows)
 
 
 def access(uid: int) -> tuple[bool, int]:
@@ -118,10 +129,10 @@ async def menu_home(target: CallbackQuery | Message, state: FSMContext) -> None:
              else f"🆓 Bepul savollar qoldi: <b>{left}</b> / {premium.free_questions}")
     text = (f"<b>🎓 Texnikum o'qituvchilari attestatsiyasiga tayyorlov — {catalog.yil}</b>\n\n"
             f"{holat}\n\n"
-            f"📚 {len(bank.subjects)} ta attestatsiya fani bo'yicha tayyor savollar, "
-            "bo'limlar kesimida tahlil va zaif mavzular bo'yicha tavsiyalar.\n\n"
-            "Fanni tanlang yoki mutaxassislik bo'yicha qidiring:")
-    await show(target, text, sohalar_kb())
+            f"📚 {len(bank.subjects)} ta fan bo'yicha tayyor testlar.\n\n"
+            "👇 <b>Yo'nalishingizni tanlang</b> yoki shunchaki <b>fan nomini yozib yuboring</b> "
+            "(masalan: <i>dasturlash</i>, <i>lotin</i>, <i>temir yo'l</i>).")
+    await show(target, text, home_kb(uid))
 
 
 @router.message(CommandStart())
@@ -142,6 +153,48 @@ async def cb_home(cb: CallbackQuery, state: FSMContext) -> None:
 @router.callback_query(F.data == "noop")
 async def cb_noop(cb: CallbackQuery) -> None:
     await cb.answer()
+
+
+@router.callback_query(F.data == "sohalar")
+async def cb_sohalar(cb: CallbackQuery) -> None:
+    await show(cb, "<b>🗂 Mutaxassislik bo'yicha izlash</b>\n\nSohani tanlang:", sohalar_kb())
+
+
+@router.callback_query(F.data.startswith("c:"))
+async def cb_category(cb: CallbackQuery) -> None:
+    _, cid, page = cb.data.split(":")
+    cat = next((c for c in bank.categories() if c[0] == cid), None)
+    if not cat:
+        return await cb.answer("Bo'lim topilmadi", show_alert=True)
+    items = [(f"{bank.subjects[i]['nomi']} ({len(bank.subjects[i]['savollar'])})", f"bs:{i}") for i in cat[2]]
+    await show(cb, f"<b>{cat[1]}</b>\n\nFanni tanlang:", paged(items, int(page), f"c:{cid}:{{}}", "home"))
+
+
+@router.callback_query(F.data == "search")
+async def cb_search(cb: CallbackQuery, state: FSMContext) -> None:
+    await state.set_state(None)
+    await cb.message.answer("🔍 Fan nomini (yoki uning bir qismini) yozib yuboring.\n"
+                            "Masalan: <i>kiber</i>, <i>gigiyena</i>, <i>temir yo'l</i>, <i>matematika</i>")
+    await cb.answer()
+
+
+async def search_and_show(msg: Message, state: FSMContext, query: str) -> None:
+    sids, cats = bank.search(query)
+    if len(sids) == 1 and not cats:
+        sid = sids[0]
+        await state.set_state(None)
+        await state.update_data(fan=bank.subjects[sid]["nomi"], bank=sid, blok="", natijalar="", mazmun="",
+                                bi=None, yi=None, mi=None)
+        return await ask_count(msg, bank.subjects[sid]["nomi"])
+    rows = [[btn(f"{bank.subjects[i]['nomi']} ({len(bank.subjects[i]['savollar'])})", f"bs:{i}")] for i in sids[:12]]
+    titles = {c[0]: c[1] for c in bank.categories()}
+    rows += [[btn(f"{titles[c]} — barcha fanlar", f"c:{c}:0")] for c in cats if c in titles]
+    rows.append([btn("🏠 Bosh menyu", "home")])
+    if len(rows) == 1:
+        return await msg.answer(f"🤷 «{escape(query[:60])}» bo'yicha fan topilmadi.\n"
+                                "Boshqacha yozib ko'ring yoki yo'nalish bo'yicha tanlang:", reply_markup=home_kb(msg.from_user.id))
+    await msg.answer(f"🔍 «{escape(query[:60])}» bo'yicha topildi — tanlang:",
+                     reply_markup=InlineKeyboardMarkup(inline_keyboard=rows))
 
 
 @router.callback_query(F.data.startswith("b:"))
@@ -461,6 +514,12 @@ async def on_help(msg: Message) -> None:
 @router.message(St.test)
 async def on_text_in_test(msg: Message) -> None:
     await msg.answer("Javobni savol ostidagi A/B/C/D tugmalari orqali tanlang.")
+
+
+@router.message(StateFilter(None), F.text, ~F.text.startswith("/"))
+async def on_free_text(msg: Message, state: FSMContext) -> None:
+    """Bosh menyuda yozilgan har qanday matn — fan qidiruvi."""
+    await search_and_show(msg, state, msg.text)
 
 
 # ---------------- ishga tushirish ----------------

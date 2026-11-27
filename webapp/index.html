@@ -393,13 +393,16 @@ function renderTest(){
   } else if (bi === undefined) {
     const p = S.me.profil, mine = p && p.sid && S.bank.find(b=>b.id===p.sid);
     const item = b => { const st=subjStat(b.id); return `<button class="item" data-bank="${esc(b.id)}"><div class="t"><b>${esc(b.nomi)}</b><small>${esc([b.kod, b.soni+" ta savol"].filter(Boolean).join(" · "))}</small></div>${st?`<span class="tag ${pc(st.togri,st.jami)>=PASS()?'g':'p'}">${pc(st.togri,st.jami)}%</span>`:""}<span class="chev">›</span></button>`; };
-    const grp = (t, turi, note) => { const arr = S.bank.filter(b=>b.turi===turi && b.id!==(mine&&mine.id)); return arr.length ? `<div class="grp">${t}</div>${note?`<p class="sub">${note}</p>`:""}<div class="list" style="margin-bottom:6px">${arr.map(item).join("")}</div>` : ""; };
-    html = crumbs("Fanni tanlang", "Nizom bo'yicha")
-      + (mine ? `<div class="grp">Sizning attestatsiya faningiz</div><div class="list" style="margin-bottom:6px">${item(mine)}</div>` : (p ? "" : `<button class="btn ghost" id="setP" style="margin-bottom:12px">Nizom bo'yicha sozlash</button>`))
-      + grp("Umumkasbiy va maxsus fanlar", "maxsus", p&&p.lavozim==="maxsus"?"Nizomga ko'ra natija fan sohasidagi boshqa fanlarga ham tegishli — yaqin fanlardan ham mashq qiling.":"")
-      + grp("Umumta'lim fanlari", "umumtalim")
-      + grp("1-bosqichga tayyorgarlik", "bosqich1", "1-bosqichni pedagogik (kuzatuv) kengashi 20 ballik tizimda baholaydi. Bu savollar — o'z-o'zini tekshirish uchun.")
-      + `<div class="grp">Mutaxassislik bo'yicha</div><div class="list">` + C.sohalar.map((s,i)=>`<button class="item" data-i="${i}"><div class="t"><b>${esc(s.n)}</b><small>${s.y.length} yo'nalish</small></div><span class="chev">›</span></button>`).join("") + `</div>`;
+    const nrm = s => s.toLowerCase().replace(/[ʻʼ‘’`']/g,"");
+    const found = S.filter ? S.bank.filter(b => nrm(b.nomi+" "+b.kat).includes(nrm(S.filter.trim()))) : [];
+    const kats = [...new Set([...S.bank].sort((a,b)=>(a.kat_n??99)-(b.kat_n??99)).map(b=>b.kat))];
+    html = crumbs("Fanni tanlang", `${S.bank.length} ta fan · nomini yozib qidiring`)
+      + searchBox("🔍 Fan nomini yozing: dasturlash, lotin, temir yo'l…")
+      + (S.filter
+          ? (found.length ? `<div class="list" style="margin-bottom:6px">${found.map(item).join("")}</div>` : `<div class="empty">Bunday fan topilmadi. Boshqacha yozib ko'ring.</div>`)
+          : (mine ? `<div class="grp">Sizning attestatsiya faningiz</div><div class="list" style="margin-bottom:6px">${item(mine)}</div>` : (p ? "" : `<button class="btn ghost" id="setP" style="margin-bottom:12px">Nizom bo'yicha sozlash</button>`))
+            + kats.map(k => { const arr = S.bank.filter(b=>b.kat===k && b.id!==(mine&&mine.id)); return arr.length ? `<div class="grp">${esc(k)}</div><div class="list" style="margin-bottom:6px">${arr.map(item).join("")}</div>` : ""; }).join(""))
+      + (S.filter ? "" : `<div class="grp">Mutaxassislik bo'yicha</div><div class="list">` + C.sohalar.map((s,i)=>`<button class="item" data-i="${i}"><div class="t"><b>${esc(s.n)}</b><small>${s.y.length} yo'nalish</small></div><span class="chev">›</span></button>`).join("") + `</div>`);
   } else if (yi === undefined) {
     const s = C.sohalar[bi];
     html = crumbs("Yo'nalish", s.n) + searchBox("Qidirish") + `<div class="list">` + s.y.map((y,i)=> match(y.k+" "+y.n) ? `<button class="item" data-i="${i}"><div class="t"><b>${esc(y.n)}</b><small>${esc(y.k)}</small></div><span class="n">${y.m.length}</span><span class="chev">›</span></button>` : "").join("") + `</div>`;

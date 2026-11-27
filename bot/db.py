@@ -244,6 +244,11 @@ class ResultsDB:
         return self._all("SELECT vaqt, fan, togri, jami, foiz, rejim FROM results WHERE user_id = ? "
                          "ORDER BY id DESC LIMIT ?", (user_id, limit))
 
+    def last_sid(self, user_id: int) -> str:
+        """Foydalanuvchi oxirgi marta ishlagan fan (tayyor savollar bazasidan)."""
+        row = self._one("SELECT sid FROM answers WHERE user_id = ? AND sid <> '' ORDER BY id DESC LIMIT 1", (user_id,))
+        return row[0] if row else ""
+
     def wrong_qids(self, user_id: int, sid: str) -> list[str]:
         """Oxirgi urinishda noto'g'ri javob berilgan savollar."""
         rows = self._all("SELECT qid, correct FROM answers WHERE user_id = ? AND sid = ? ORDER BY id", (user_id, sid))

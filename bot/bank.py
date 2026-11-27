@@ -37,8 +37,11 @@ class QuestionBank:
 
     def listing(self) -> list[dict]:
         order = {"umumtalim": 0, "maxsus": 1, "bosqich1": 2}
+        cats = self.categories()  # type: ignore[attr-defined]
+        kat = {sid: title for _, title, ids in cats for sid in ids}
+        kat_n = {sid: n for n, (_, _, ids) in enumerate(cats) for sid in ids}
         return [{"id": s["id"], "kod": s.get("kod", ""), "nomi": s["nomi"], "soni": len(s["savollar"]),
-                 "turi": s.get("turi", "maxsus"), "manba": s.get("manba", ""),
+                 "turi": s.get("turi", "maxsus"), "manba": s.get("manba", ""), "kat": kat.get(s["id"], ""), "kat_n": kat_n.get(s["id"], 99),
                  "bolimlar": list(dict.fromkeys(q.get("b", "") for q in s["savollar"] if q.get("b")))}
                 for s in sorted(self.subjects.values(),
                                 key=lambda x: (order.get(x.get("turi", "maxsus"), 1), x["nomi"].lower()))]
@@ -86,3 +89,90 @@ class QuestionBank:
             allowed = {int(q.split(":")[1]) for q in only if q.startswith(sid + ":")}
             pool = [i for i in pool if i in allowed]
         return [self._render(sid, i) for i in random.sample(pool, min(soni, len(pool)))]
+
+
+# ---------------- yo'nalishlar bo'yicha guruhlash va qidiruv ----------------
+CATEGORIES: list[tuple[str, str, list[str]]] = [
+    ("it", "💻 Axborot texnologiyalari", [
+        "dasturlash", "algoritmlar", "malumotlar_bazasi", "kompyuter_tarmoqlari", "kiberxavfsizlik",
+        "dasturiy_taminotni_testlash", "iqtisodiyotda_axborot_kommunikatsiya_tex",
+        "qishloq_xojaligida_axborot_kommunikatsio", "qurilishda_axborot_texnologiyalari",
+        "texnik_tizimlarda_at", "tibbiyotda_axborot_texnologiyalari", "muhandislik_grafikasi"]),
+    ("muh", "⚙️ Muhandislik va texnika", [
+        "amaliy_matematika", "hisob", "mexanika", "texnik_mexanika", "elektrotexnika",
+        "konstruksion_materiallar", "metrologiya", "chizma_geometriya", "issiqlik_texnikasi_va_gidroenergetika",
+        "radiotexnika_antenna", "geodeziya", "mehnat_muhofazasi"]),
+    ("tib", "🩺 Tibbiyot", [
+        "lotin_tili_va_tibbiy_terminologiya", "mikrobiologiya_virusologiya_va_immunolog", "yuqumli_kasalliklar",
+        "tibbiy_biologiya_umumiy_genetika", "tibbiy_psixologiya_va_shaxslararo_muloqo",
+        "umumiy_gigiyena_va_ekologiya", "jamiyat_sogliqni_saqlash_va_tibbiy_stati", "valeologiya"]),
+    ("tr", "🚆 Transport", [
+        "temir_yol_umumiy_kursi", "temir_yollardan_texnik_foydalanish_qoida", "tashishlarni_tashkil_etish",
+        "vagon_konteyner", "yol_harakati_qoidalari_va_harakat_xavfsi"]),
+    ("qx", "🌱 Qishloq xo'jaligi va biologiya", [
+        "biologiya", "botanika_va_osimliklar_fiziologiyasi", "osimlikshunoslik", "ekologiya"]),
+    ("iqt", "📈 Iqtisodiyot va boshqaruv", ["iqtisodiyot_nazariyasi", "menejment_asoslari"]),
+    ("ped", "🎵 San'at va pedagogika", ["musiqiy_talim", "pedagogik_mahorat"]),
+    ("um", "📘 Umumta'lim fanlari", ["matematika", "fizika", "kimyo", "ona_tili_adabiyot"]),
+]
+
+# Qidiruvda qo'shimcha kalit so'zlar (foydalanuvchi boshqacha yozishi mumkin)
+ALIASES: dict[str, str] = {
+    "it": "informatika axborot kompyuter dasturchi akt",
+    "muh": "texnika muhandis texnik",
+    "tib": "tibbiyot meditsina hamshira shifokor tibbiy",
+    "tr": "transport temiryol temir yol poyezd avtomobil",
+    "qx": "qishloq agronomiya dehqonchilik",
+    "iqt": "iqtisod iqtisodiyot buxgalteriya boshqaruv",
+    "ped": "musiqa pedagogika pedagogik",
+    "um": "umumtalim",
+}
+
+
+CYR = dict(zip("абвгдезийклмнопрстуфхцчшэюяўқғҳыъь",
+               ["a", "b", "v", "g", "d", "e", "z", "i", "y", "k", "l", "m", "n", "o", "p", "r", "s", "t", "u",
+                "f", "x", "ts", "ch", "sh", "e", "yu", "ya", "o", "q", "g", "h", "i", "", ""]))
+CYR.update({"ж": "j", "ё": "yo", "щ": "sh"})
+
+
+def norm(s: str) -> str:
+    """Kichik harf, apostrofsiz, kirill → lotin (foydalanuvchi kirillcha yozsa ham topilsin)."""
+    s = "".join(CYR.get(ch, ch) for ch in s.lower())
+    s = re.sub(rf"[{APOS}]", "", s)
+    return " ".join(re.split(r"[^0-9a-z]+", s)).strip()
+
+
+def _search(bank: "QuestionBank", query: str) -> tuple[list[str], list[str]]:
+    """(mos fanlar id'lari, mos yo'nalishlar id'lari). Har bir so'z (3+ harf) fan nomidagi
+    biror so'zning boshi bo'lishi kerak: "kiber", "temir yo'l", "tibbiy psix"."""
+    qw = [w for w in norm(query).split() if len(w) >= 2]
+    if not qw:
+        return [], []
+    hits: list[tuple[int, str]] = []
+    for sid, s in bank.subjects.items():
+        words = norm(s["nomi"] + " " + sid.replace("_", " ")).split()
+        if all(any(w.startswith(q) or (len(q) >= 5 and q in w) for w in words) for q in qw):
+            score = sum(1 for q in qw for w in words if w == q)
+            hits.append((-score, s["nomi"].lower(), sid))
+    cats = [cid for cid, title, _ in CATEGORIES
+            if all(any(w.startswith(q) for w in norm(title + " " + ALIASES.get(cid, "")).split()) for q in qw)]
+    return [h[-1] for h in sorted(hits)], cats
+
+
+def _categories(bank: "QuestionBank") -> list[tuple[str, str, list[str]]]:
+    """Faqat bazada bor fanlar; ro'yxatga kirmay qolgan yangi fanlar "Boshqa" guruhiga tushadi."""
+    used: set[str] = set()
+    out = []
+    for cid, title, ids in CATEGORIES:
+        ids = [i for i in ids if i in bank.subjects]
+        used.update(ids)
+        if ids:
+            out.append((cid, title, ids))
+    rest = sorted((i for i in bank.subjects if i not in used), key=lambda i: bank.subjects[i]["nomi"].lower())
+    if rest:
+        out.append(("boshqa", "📂 Boshqa fanlar", rest))
+    return out
+
+
+QuestionBank.search = _search  # type: ignore[attr-defined]
+QuestionBank.categories = _categories  # type: ignore[attr-defined]
