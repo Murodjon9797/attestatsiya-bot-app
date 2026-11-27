@@ -2335,6 +2335,996 @@
     "Xaridorlar kamayadi"
    ],
    "e": "Bevosita savdo."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda ma'lumotlarni prognozlash uchun qaysi vosita ishlatiladi?",
+   "a": [
+    "Trend chizig'i, FORECAST",
+    "Shrift o'lchami",
+    "Katak rangi",
+    "Sahifa chegarasi"
+   ],
+   "e": "Regressiya asosida."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda \"Parametr tanlash\" (Goal Seek) nima uchun ishlatiladi?",
+   "a": [
+    "Kirish qiymatini topishga",
+    "Faylni shifrlashga",
+    "Grafik rangini o'zgartirishga",
+    "Matnni tarjima qilishga"
+   ],
+   "e": "Teskari hisob."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda \"Yechim izlash\" (Solver) nima uchun ishlatiladi?",
+   "a": [
+    "Optimallashtirish uchun",
+    "Faqat matnni tekislash uchun",
+    "Faqat rasm qo'shish uchun",
+    "Faqat sahifani chop etish uchun"
+   ],
+   "e": "Chiziqli dasturlash."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =ROUND(3,456; 2) natijasi qancha?",
+   "a": [
+    "3,46",
+    "3,45",
+    "3,5",
+    "3"
+   ],
+   "e": "Ikki xonagacha yaxlitlash."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =SUMIF funksiyasi nima qiladi?",
+   "a": [
+    "Shartli yig'indi",
+    "Barcha kataklarni o'chiradi",
+    "Eng katta qiymatni topadi",
+    "Matnni birlashtiradi"
+   ],
+   "e": "СУММЕСЛИ."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =COUNTIF funksiyasi nima qiladi?",
+   "a": [
+    "Shartli sanash",
+    "Yig'indini hisoblaydi",
+    "O'rtachani topadi",
+    "Sanani chiqaradi"
+   ],
+   "e": "СЧЁТЕСЛИ."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda sana va vaqt bilan ishlash uchun qaysi funksiya joriy sanani beradi?",
+   "a": [
+    "TODAY",
+    "NOW faqat soat",
+    "SUM",
+    "DATEVALUE faqat matn"
+   ],
+   "e": "=TODAY()."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda ma'lumotlarni boshqa varaqdan olish formulasi qanday yoziladi?",
+   "a": [
+    "=Varaq2!A1",
+    "=A1@Varaq2",
+    "=Varaq2#A1",
+    "=A1/Varaq2"
+   ],
+   "e": "Varaq nomi va undov belgisi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda katta jadvalda sarlavhani doim ko'rinadigan qilish uchun nima qilinadi?",
+   "a": [
+    "Freeze Panes",
+    "Faylni PDF ga aylantirish",
+    "Shriftni kattalashtirish",
+    "Varaqni yashirish"
+   ],
+   "e": "View → Freeze."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda makros nima?",
+   "a": [
+    "Avtomatlashtiruvchi dastur",
+    "Katta shrift turi",
+    "Diagramma turi",
+    "Fayl kengaytmasi"
+   ],
+   "e": "VBA tilida."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Google Sheets ning Excel ga nisbatan afzalligi nima?",
+   "a": [
+    "Onlayn birgalikda ishlash imkoniyati",
+    "Internetsiz ham har doim to'liq ishlashi",
+    "Formulalarning umuman yo'qligi",
+    "Faqat bitta foydalanuvchi uchun"
+   ],
+   "e": "Bulutli jadval."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Google Forms iqtisodiy tadqiqotda nima uchun qo'llaniladi?",
+   "a": [
+    "So'rovnoma o'tkazish uchun",
+    "Faqat rasm tahrirlash uchun",
+    "Faqat video montaj uchun",
+    "Faqat antivirus sifatida"
+   ],
+   "e": "Natijalar jadvalga tushadi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda A2:A10 dagi eng kichik qiymatni qaysi formula topadi?",
+   "a": [
+    "=MIN(A2:A10)",
+    "=MAX(A2:A10)",
+    "=SUM(A2:A10)",
+    "=LEN(A2:A10)"
+   ],
+   "e": "Minimal qiymat."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda matnlarni birlashtirish funksiyasi qaysi?",
+   "a": [
+    "CONCAT (СЦЕП)",
+    "SUM",
+    "ROUND",
+    "COUNT"
+   ],
+   "e": "Yoki & belgisi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda katakdagi matn uzunligini qaysi funksiya beradi?",
+   "a": [
+    "LEN",
+    "SUM",
+    "MAX",
+    "IF"
+   ],
+   "e": "ДЛСТР."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =IF(A1>100;\"Ko'p\";\"Kam\") formulasi A1=150 da nima qaytaradi?",
+   "a": [
+    "Ko'p",
+    "Kam",
+    "150",
+    "Xato"
+   ],
+   "e": "Shart bajarildi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =AND(A1>0;B1>0) qachon TRUE qaytaradi?",
+   "a": [
+    "Ikkalasi bajarilsa",
+    "Kamida bittasi bajarilsa",
+    "Hech biri bajarilmasa",
+    "Har doim"
+   ],
+   "e": "Mantiqiy VA."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =OR() funksiyasi qachon TRUE qaytaradi?",
+   "a": [
+    "Kamida bitta shart bajarilsa",
+    "Barcha shartlar bajarilsa faqat",
+    "Hech qachon",
+    "Faqat sonlar bo'lsa"
+   ],
+   "e": "Mantiqiy YOKI."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda ma'lumotlarni tekshirish (Data Validation) nima uchun kerak?",
+   "a": [
+    "Xato kiritishni oldini olish",
+    "Faylni o'chirish uchun",
+    "Diagramma chizish uchun",
+    "Shriftni o'zgartirish uchun"
+   ],
+   "e": "Ruxsat etilgan qiymatlar ro'yxati."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda diagramma turini tanlashda ulushlarni ko'rsatish uchun qaysi biri mos?",
+   "a": [
+    "Doiraviy diagramma",
+    "Chiziqli grafik",
+    "Nuqtali diagramma",
+    "Gistogramma"
+   ],
+   "e": "Butunning qismlari."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Vaqt bo'yicha o'zgarishni ko'rsatish uchun qaysi diagramma mos?",
+   "a": [
+    "Chiziqli grafik",
+    "Doiraviy diagramma",
+    "Halqasimon diagramma",
+    "Matnli jadval"
+   ],
+   "e": "Dinamika."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda \"Ssenariylar menejeri\" nima uchun ishlatiladi?",
+   "a": [
+    "Variantlarni solishtirish",
+    "Faylni arxivlash uchun",
+    "Rasmni tahrirlash uchun",
+    "Internetga ulanish uchun"
+   ],
+   "e": "\"Agar ... bo'lsa\" tahlili."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda XLOOKUP funksiyasi VLOOKUP dan nimasi bilan qulay?",
+   "a": [
+    "Istalgan yo'nalishda qidiradi",
+    "Faqat birinchi ustunda ishlaydi",
+    "Faqat sonlar bilan ishlaydi",
+    "Faqat bitta katakda ishlaydi"
+   ],
+   "e": "Yangi Excel versiyalarida."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =A1*$B$1 formulasi pastga nusxalansa nima o'zgaradi?",
+   "a": [
+    "Faqat A1 manzili",
+    "Faqat $B$1 manzili",
+    "Ikkalasi ham",
+    "Hech biri"
+   ],
+   "e": "Absolyut manzil saqlanadi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da shart bo'yicha tanlash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "WHERE",
+    "ORDER",
+    "GROUP",
+    "FROM"
+   ],
+   "e": "SELECT ... WHERE narx > 100."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da natijani saralash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "ORDER BY",
+    "WHERE",
+    "JOIN",
+    "INSERT"
+   ],
+   "e": "ASC yoki DESC."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da guruhlab yig'indi olish uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "GROUP BY",
+    "ORDER BY",
+    "WHERE",
+    "DELETE"
+   ],
+   "e": "SUM bilan birga."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da yangi yozuv qo'shish buyrug'i qaysi?",
+   "a": [
+    "INSERT",
+    "SELECT",
+    "UPDATE",
+    "DROP"
+   ],
+   "e": "INSERT INTO ... VALUES."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da mavjud yozuvni o'zgartirish buyrug'i qaysi?",
+   "a": [
+    "UPDATE",
+    "INSERT",
+    "SELECT",
+    "CREATE"
+   ],
+   "e": "UPDATE ... SET."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ikki jadvalni bog'lash uchun SQL da nima ishlatiladi?",
+   "a": [
+    "JOIN",
+    "DROP",
+    "LIMIT",
+    "COUNT"
+   ],
+   "e": "Kalit maydonlar orqali."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Tashqi kalit (foreign key) nima?",
+   "a": [
+    "Havola qiluvchi maydon",
+    "Jadvaldagi eng katta qiymat",
+    "Parol",
+    "Fayl kengaytmasi"
+   ],
+   "e": "Jadvallar bog'lanishi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlarni tozalash (data cleaning) nima?",
+   "a": [
+    "Xatolarni bartaraf etish",
+    "Kompyuterni changdan tozalash",
+    "Ma'lumotlarni butunlay o'chirish",
+    "Monitorni artish"
+   ],
+   "e": "Tahlil sifati uchun."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlarni tahlil qilish uchun keng qo'llaniladigan dasturlash tili qaysi?",
+   "a": [
+    "Python",
+    "HTML",
+    "CSS",
+    "XML"
+   ],
+   "e": "pandas kutubxonasi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Mashinali o'qitish iqtisodiyotda nima uchun qo'llaniladi?",
+   "a": [
+    "Prognoz va tasniflash",
+    "Faqat matn terish uchun",
+    "Faqat rasm chizish uchun",
+    "Faqat fayl nusxalash uchun"
+   ],
+   "e": "Kredit skoringi, talab prognozi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Kredit skoringi nima?",
+   "a": [
+    "Ishonchlilikni baholash",
+    "Kredit karta dizayni",
+    "Bank binosini baholash",
+    "Soliq stavkasi"
+   ],
+   "e": "Avtomatlashtirilgan modellar."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda o'sish sur'atini hisoblash formulasi (B2 joriy, A2 oldingi) qanday?",
+   "a": [
+    "=B2/A2-1",
+    "=A2+B2",
+    "=A2*B2",
+    "=A2-B2+1"
+   ],
+   "e": "Foiz formatida."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda tasodifiy son hosil qiluvchi funksiya qaysi?",
+   "a": [
+    "RAND",
+    "SUM",
+    "ROUND",
+    "LEN"
+   ],
+   "e": "Monte-Karlo modellash."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da COUNT(*) nima qaytaradi?",
+   "a": [
+    "Yozuvlar sonini",
+    "Yig'indini",
+    "O'rtachani",
+    "Eng katta qiymatni"
+   ],
+   "e": "Agregat funksiya."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da AVG funksiyasi nima hisoblaydi?",
+   "a": [
+    "O'rtacha qiymatni",
+    "Yig'indini",
+    "Sonini",
+    "Minimumni"
+   ],
+   "e": "Agregat funksiya."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Normallashtirishning maqsadi nima?",
+   "a": [
+    "Takrorlanishni kamaytirish",
+    "Ma'lumotlarni ko'paytirish",
+    "Jadvallarni o'chirish",
+    "Kalitlarni bekor qilish"
+   ],
+   "e": "Normal shakllar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "OLAP texnologiyasi nima uchun ishlatiladi?",
+   "a": [
+    "Ko'p o'lchovli tahlil",
+    "Matn terish uchun",
+    "Rasm chizish uchun",
+    "Fayl o'chirish uchun"
+   ],
+   "e": "Ma'lumotlar kubi."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlar intellektual tahlili (Data Mining) nima?",
+   "a": [
+    "Qonuniyatlarni topish",
+    "Faqat ma'lumotlarni o'chirish",
+    "Faqat jadval chizish",
+    "Faqat arxivlash"
+   ],
+   "e": "Yashirin bilimlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Elektron jadvalda \"jadval\" (Format as Table) ning afzalligi nima?",
+   "a": [
+    "Avtomatik filtr",
+    "Formulalarning ishlamasligi",
+    "Ma'lumotlarning yashirilishi",
+    "Faylning kattalashishi faqat"
+   ],
+   "e": "Strukturali havolalar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Iqtisodiy ma'lumotlarni import qilishda keng qo'llaniladigan oddiy format qaysi?",
+   "a": [
+    "CSV",
+    "EXE",
+    "MP4",
+    "JPG"
+   ],
+   "e": "Vergul bilan ajratilgan qiymatlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "API nima?",
+   "a": [
+    "Dasturlararo interfeys",
+    "Kompyuter korpusi",
+    "Shrift turi",
+    "Antivirus bazasi"
+   ],
+   "e": "Masalan, bank API."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =SUMPRODUCT(A1:A3;B1:B3) nima hisoblaydi?",
+   "a": [
+    "Ko'paytmalar yig'indisini",
+    "Faqat A ustun yig'indisini",
+    "Faqat eng katta qiymatni",
+    "Kataklar sonini"
+   ],
+   "e": "Masalan, miqdor × narx."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "A1:A3 = 2, 3, 4 va B1:B3 = 10, 20, 30 bo'lsa, SUMPRODUCT natijasi qancha?",
+   "a": [
+    "200",
+    "69",
+    "90",
+    "9"
+   ],
+   "e": "20 + 60 + 120."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =AVERAGE(10;20;30) natijasi qancha?",
+   "a": [
+    "20",
+    "60",
+    "30",
+    "10"
+   ],
+   "e": "60/3."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =MAX(5;12;7) natijasi qancha?",
+   "a": [
+    "12",
+    "5",
+    "7",
+    "24"
+   ],
+   "e": "Eng katta qiymat."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =COUNT(1;\"a\";3) natijasi qancha?",
+   "a": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "e": "Faqat sonlar sanaladi."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =LEN(\"Bozor\") natijasi qancha?",
+   "a": [
+    "5",
+    "4",
+    "6",
+    "1"
+   ],
+   "e": "B-o-z-o-r."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =ROUND(12,345;1) natijasi qancha?",
+   "a": [
+    "12,3",
+    "12,35",
+    "12",
+    "12,4"
+   ],
+   "e": "Bir xonagacha."
+  },
+  {
+   "b": "Elektron jadvallar",
+   "q": "Excelda =10% * 500 natijasi qancha?",
+   "a": [
+    "50",
+    "5",
+    "510",
+    "0,5"
+   ],
+   "e": "Foizni hisoblash."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da DELETE buyrug'i nima qiladi?",
+   "a": [
+    "Yozuvlarni o'chiradi",
+    "Yozuv qo'shadi",
+    "Yozuvni tanlaydi",
+    "Jadval yaratadi"
+   ],
+   "e": "WHERE bilan ehtiyotkorlik."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "SQL da CREATE TABLE nima qiladi?",
+   "a": [
+    "Yangi jadval yaratadi",
+    "Jadvalni o'chiradi",
+    "Yozuv qo'shadi",
+    "Ma'lumotni tanlaydi"
+   ],
+   "e": "Ustunlar va turlar."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlar bazasida indeks nima uchun kerak?",
+   "a": [
+    "Qidiruvni tezlashtirish",
+    "Ma'lumotni o'chirish uchun",
+    "Jadvalni bo'yash uchun",
+    "Parol qo'yish uchun"
+   ],
+   "e": "Katta jadvallarda."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumot turlaridan sana uchun qaysi tur ishlatiladi?",
+   "a": [
+    "DATE",
+    "INTEGER",
+    "BOOLEAN",
+    "TEXT faqat"
+   ],
+   "e": "Sana va vaqt turlari."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Mantiqiy ma'lumot turi qaysi qiymatlarni qabul qiladi?",
+   "a": [
+    "Rost yoki yolg'on",
+    "Faqat sonlar",
+    "Faqat matn",
+    "Faqat sanalar"
+   ],
+   "e": "BOOLEAN."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Iqtisodiy ma'lumotlarni vizuallashtirishda \"infografika\" nima?",
+   "a": [
+    "Grafik tasvirlash",
+    "Faqat matnli hisobot",
+    "Faqat raqamlar jadvali",
+    "Audio yozuv"
+   ],
+   "e": "Tushunarli taqdimot."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Prognozlashda vaqt qatorlari tahlili nimaga asoslanadi?",
+   "a": [
+    "O'tgan davr ma'lumotlariga",
+    "Tasodifiy taxminlarga",
+    "Faqat ekspert hissiyotiga",
+    "Faqat ob-havo prognoziga"
+   ],
+   "e": "Trend va mavsumiylik."
+  },
+  {
+   "b": "Ma'lumotlar bazasi va tahlil",
+   "q": "Ma'lumotlardagi \"anomaliya\" nima?",
+   "a": [
+    "Keskin farqlanuvchi qiymat",
+    "Eng ko'p uchraydigan qiymat",
+    "O'rtacha qiymat",
+    "Nol qiymat"
+   ],
+   "e": "Firibgarlikni aniqlashda."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter tezligiga eng ko'p ta'sir qiluvchi qurilmalar qaysilar?",
+   "a": [
+    "Protsessor va operativ xotira",
+    "Sichqoncha va gilamcha",
+    "Karnay va mikrofon",
+    "Korpus rangi va o'lchami"
+   ],
+   "e": "SSD ham ta'sir qiladi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Noutbukning statsionar kompyuterga nisbatan afzalligi nima?",
+   "a": [
+    "Ko'chma va ixcham",
+    "Har doim kuchliroq va arzonroq",
+    "Batareyasiz ishlaydi",
+    "Monitor talab qiladi"
+   ],
+   "e": "Mobillik."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Planshet qanday qurilma?",
+   "a": [
+    "Sensorli ko'chma kompyuter",
+    "Faqat telefon",
+    "Faqat printer",
+    "Faqat skaner"
+   ],
+   "e": "Mobil qurilma."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter ergonomikasida monitor qanday joylashtiriladi?",
+   "a": [
+    "Ko'z darajasida yoki biroz pastda",
+    "Juda baland, boshni ko'tarib qaraladigan",
+    "Juda yaqin, 10 sm masofada",
+    "Orqa tomonda"
+   ],
+   "e": "50–70 sm masofa."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Uzoq vaqt kompyuterda ishlaganda nima tavsiya etiladi?",
+   "a": [
+    "Muntazam tanaffus qilish",
+    "To'xtovsiz 8 soat ishlash",
+    "Qorong'i xonada ishlash",
+    "Monitorni maksimal yorqin qilish"
+   ],
+   "e": "Ko'z va bel salomatligi."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuter xotirasi hajmi 16 GB. Bu necha MB?",
+   "a": [
+    "16 384 MB",
+    "1600 MB",
+    "160 MB",
+    "16 000 000 MB"
+   ],
+   "e": "16 · 1024."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "2048 KB necha MB ga teng?",
+   "a": [
+    "2 MB",
+    "20 MB",
+    "0,2 MB",
+    "2048 MB"
+   ],
+   "e": "2048 / 1024."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Ikkilik 1111 o'nlik sistemada qancha?",
+   "a": [
+    "15",
+    "11",
+    "16",
+    "4"
+   ],
+   "e": "8 + 4 + 2 + 1."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "O'n oltilik sanoq sistemasida \"A\" raqami o'nlikda nechaga teng?",
+   "a": [
+    "10",
+    "1",
+    "11",
+    "16"
+   ],
+   "e": "A = 10, F = 15."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Bir belgi Unicode (UTF-16) da odatda necha bayt egallaydi?",
+   "a": [
+    "2",
+    "1",
+    "8",
+    "16"
+   ],
+   "e": "ASCII da 1 bayt."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "8 bitli kod bilan nechta turli belgi kodlash mumkin?",
+   "a": [
+    "256",
+    "8",
+    "128",
+    "64"
+   ],
+   "e": "2⁸."
+  },
+  {
+   "b": "Axborot va kompyuter asoslari",
+   "q": "Kompyuterni xavfsiz o'chirish uchun nima qilinadi?",
+   "a": [
+    "Operatsion tizim orqali \"Zavershenie raboty\"",
+    "Elektr kabelini sug'urib olish",
+    "Monitorni o'chirish yetarli",
+    "Klaviaturani uzish"
+   ],
+   "e": "Ma'lumotlar saqlanadi."
+  },
+  {
+   "b": "Aniq dehqonchilik",
+   "q": "Paxta dalalarida defoliatsiya vaqtini aniqlashda masofaviy zondlash qanday yordam beradi?",
+   "a": [
+    "Ko'saklar ochilishi darajasini baholash",
+    "Paxta narxini belgilash va bozorga chiqarish",
+    "Chigitni ekishdan oldin dorilash",
+    "Traktorni yoqilg'i bilan ta'minlash"
+   ],
+   "e": "Vegetatsiya indekslari."
+  },
+  {
+   "b": "Aniq dehqonchilik",
+   "q": "Bug'doy dalasida azotli o'g'itni tabaqalashtirish uchun qaysi ma'lumot ishlatiladi?",
+   "a": [
+    "Vegetatsiya indeksi xaritasi",
+    "Fermerning tug'ilgan yili",
+    "Traktorning markasi",
+    "Bozordagi non narxi"
+   ],
+   "e": "Azot tanqisligi zonalari."
+  },
+  {
+   "b": "Aniq dehqonchilik",
+   "q": "Sho'rlangan yerlarni xaritalashda qaysi texnologiya qo'llaniladi?",
+   "a": [
+    "GIS va masofaviy zondlash",
+    "Faqat qo'lda tatib ko'rish",
+    "Faqat ob-havo prognozi",
+    "Faqat radio"
+   ],
+   "e": "Melioratsiya rejasi."
+  },
+  {
+   "b": "Aniq dehqonchilik",
+   "q": "Suvni tejovchi texnologiyalar monitoringida qaysi ko'rsatkich muhim?",
+   "a": [
+    "Gektarga sarflangan suv hajmi",
+    "Fermer avtomobilining rangi",
+    "Dala atrofidagi daraxtlar soni",
+    "Bozorga masofa"
+   ],
+   "e": "m³/ga."
+  },
+  {
+   "b": "Aniq dehqonchilik",
+   "q": "Bog'dorchilikda sovuq urishidan ogohlantirish tizimi nimaga asoslanadi?",
+   "a": [
+    "Datchik va prognozga",
+    "Faqat taqvimga",
+    "Faqat qo'shni maslahatiga",
+    "Faqat daraxt yoshiga"
+   ],
+   "e": "SMS ogohlantirish."
+  },
+  {
+   "b": "Aniq dehqonchilik",
+   "q": "Hosilni sun'iy yo'ldosh orqali baholash qachon eng ishonchli?",
+   "a": [
+    "Bir necha davr tasvirlari bo'yicha",
+    "Faqat bitta bulutli kun tasvirida",
+    "Hech qachon ishonchli emas",
+    "Faqat tunda olingan tasvirda"
+   ],
+   "e": "Vaqt qatori."
+  },
+  {
+   "b": "Aniq dehqonchilik",
+   "q": "Bulutli ob-havoda dalani kuzatish uchun qaysi tasvir turi qo'l keladi?",
+   "a": [
+    "Radar (SAR) tasvirlari",
+    "Faqat oddiy optik fotosurat",
+    "Faqat qo'lda chizilgan rasm",
+    "Faqat ovoz yozuvi"
+   ],
+   "e": "Bulut orqali o'tadi."
+  },
+  {
+   "b": "Agrar boshqaruvda axborot tizimlari",
+   "q": "Fermer xo'jaligi uchun veb-sayt yoki ijtimoiy tarmoq sahifasi nima beradi?",
+   "a": [
+    "Mahsulotni targ'ib qilish",
+    "Hosilni avtomatik yig'ish",
+    "Tuproqni yaxshilash",
+    "Ob-havoni o'zgartirish"
+   ],
+   "e": "Raqamli marketing."
+  },
+  {
+   "b": "Agrar boshqaruvda axborot tizimlari",
+   "q": "Qishloq xo'jaligi texnikasi uchun ehtiyot qismlarni onlayn buyurtma qilish nima beradi?",
+   "a": [
+    "Vaqt tejash",
+    "Ish to'xtab qolishi",
+    "Qismlarning qimmatlashuvi",
+    "Xatolar ko'payishi"
+   ],
+   "e": "Elektron katalog."
+  },
+  {
+   "b": "Agrar boshqaruvda axborot tizimlari",
+   "q": "Agrar sohada axborot xavfsizligi nimani himoya qiladi?",
+   "a": [
+    "Ma'lumot va tizimlarni",
+    "Faqat ekinlarni qushlardan",
+    "Faqat mollarni bo'ridan",
+    "Faqat urug'larni namlikdan"
+   ],
+   "e": "Kiberhujumlardan."
+  },
+  {
+   "b": "Agrar boshqaruvda axborot tizimlari",
+   "q": "Issiqxona boshqaruv tizimiga ruxsatsiz kirish qanday xavf tug'diradi?",
+   "a": [
+    "Hosil nobud bo'lishi",
+    "Hosil ikki baravar ortishi",
+    "Elektr tejalishi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Parol va himoya."
+  },
+  {
+   "b": "Agrar boshqaruvda axborot tizimlari",
+   "q": "Fermerlarni raqamli ko'nikmalarga o'qitish nima uchun muhim?",
+   "a": [
+    "Samarali foydalanish uchun",
+    "Texnologiyalardan voz kechish uchun",
+    "Ish vaqtini behuda o'tkazish uchun",
+    "Internetni cheklash uchun"
+   ],
+   "e": "Raqamli savodxonlik."
+  },
+  {
+   "b": "Agrar boshqaruvda axborot tizimlari",
+   "q": "Qishloq xo'jaligida \"agrobot\" nima?",
+   "a": [
+    "Chatbot yoki dala roboti",
+    "Oddiy qo'l asbobi",
+    "Qog'oz daftar",
+    "Ot-arava"
+   ],
+   "e": "Avtomatlashtirish."
+  },
+  {
+   "b": "Chorvachilikda AKT",
+   "q": "Yaylov chorvachiligida sun'iy yo'ldosh ma'lumotlari nima beradi?",
+   "a": [
+    "Yaylovni baholash",
+    "Mollarning ismini aniqlash",
+    "Sutning narxini belgilash",
+    "Mollarni bo'yash"
+   ],
+   "e": "Yaylovdan oqilona foydalanish."
+  },
+  {
+   "b": "Chorvachilikda AKT",
+   "q": "Elektron veterinariya pasportining afzalligi nima?",
+   "a": [
+    "Tez topish",
+    "Pasportni yo'qotish osonligi",
+    "Ma'lumotlarning yashirinligi",
+    "Emlashning bekor qilinishi"
+   ],
+   "e": "Ro'yxatga olish tizimi."
+  },
+  {
+   "b": "Chorvachilikda AKT",
+   "q": "Parrandachilikda yoritish rejimini avtomatlashtirish nima beradi?",
+   "a": [
+    "Tuxum mahsuldorligini oshirish",
+    "Elektrni ko'proq sarflash maqsadida",
+    "Parrandalarni uxlatmaslik",
+    "Ozuqani kamaytirish"
+   ],
+   "e": "Fotoperiod."
+  },
+  {
+   "b": "Chorvachilikda AKT",
+   "q": "Chorvachilik majmuasida biogaz qurilmasini monitoring qilish nimani nazorat qiladi?",
+   "a": [
+    "Gaz chiqishi va harorat",
+    "Mollarning soni",
+    "Sutning rangi",
+    "Ozuqaning narxi"
+   ],
+   "e": "Qayta tiklanadigan energiya."
   }
  ]
 }
