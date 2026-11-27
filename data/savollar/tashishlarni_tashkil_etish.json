@@ -1,0 +1,3330 @@
+{
+ "kod": "5PM0855",
+ "nomi": "Tashishlarni tashkil etish",
+ "turi": "maxsus",
+ "manba": "2026-yilgi texnikum o'quv rejalari (7 ta mutaxassislikda o'qitiladi); savollar davlat ta'lim standarti va o'quv dasturlari asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Poyezdlar harakati grafigi nima?",
+   "a": [
+    "Harakatning asosiy rejasi",
+    "Vagonlar bo'yash rejasi",
+    "Xodimlar ta'til jadvali",
+    "Chiptalar narxi ro'yxati"
+   ],
+   "e": "Vaqt-masofa diagrammasi."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Grafikda gorizontal o'q nimani bildiradi?",
+   "a": [
+    "Vaqtni",
+    "Masofani",
+    "Tezlikni",
+    "Vagonlar sonini"
+   ],
+   "e": "Vertikal — stansiyalar."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Juft va toq poyezdlar nimaga qarab belgilanadi?",
+   "a": [
+    "Harakat yo'nalishiga qarab",
+    "Vagonlar rangiga qarab",
+    "Yo'lovchilar soniga qarab",
+    "Lokomotiv turiga qarab"
+   ],
+   "e": "Raqamlash tartibi."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "O'tkazish qobiliyati nima?",
+   "a": [
+    "Sutkadagi maksimal poyezdlar soni",
+    "Vagonning yuk ko'tarish qobiliyati",
+    "Lokomotivning quvvati",
+    "Vokzalning sig'imi"
+   ],
+   "e": "Juft poyezdlar."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Tashish qobiliyati nima?",
+   "a": [
+    "Tashish mumkin bo'lgan yuk miqdori",
+    "Bitta vagon sig'imi",
+    "Lokomotiv tortish kuchi",
+    "Stansiya yo'llari soni"
+   ],
+   "e": "mln t/yil."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Poyezdlar intervali nima?",
+   "a": [
+    "Poyezdlar orasidagi vaqt",
+    "Vagonlar orasidagi masofa",
+    "Stansiyadagi turib qolish",
+    "Lokomotiv almashtirish vaqti"
+   ],
+   "e": "Avtoblokirovkada qisqa."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Poyezd nima?",
+   "a": [
+    "Tuzilgan, lokomotivli tarkib",
+    "Stansiyada turgan vagonlar to'plami",
+    "Faqat bitta lokomotiv",
+    "Faqat bitta vagon"
+   ],
+   "e": "PTE ta'rifi."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Poyezdning massa va uzunlik me'yori nimaga bog'liq?",
+   "a": [
+    "Lokomotiv quvvati va qiyalikka",
+    "Faqat vagonlar rangiga",
+    "Faqat poyezd raqamiga",
+    "Faqat mashinist yoshiga"
+   ],
+   "e": "Tortish hisobi."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Yo'lovchi poyezdlari yuk poyezdlariga nisbatan qanday ustuvorlikka ega?",
+   "a": [
+    "Yuqori ustuvorlik",
+    "Past ustuvorlik",
+    "Teng ustuvorlik har doim",
+    "Ustuvorlik belgilanmagan"
+   ],
+   "e": "Grafik bo'yicha."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Marshrut poyezdi nima?",
+   "a": [
+    "To'g'ridan-to'g'ri yuk poyezdi",
+    "Har stansiyada qayta tuziladigan poyezd",
+    "Faqat yo'lovchi poyezdi",
+    "Faqat bo'sh vagonlar poyezdi"
+   ],
+   "e": "Saralashsiz."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Poyezdlarni tuzish rejasi nimani belgilaydi?",
+   "a": [
+    "Poyezdlar tuzilish tartibini",
+    "Lokomotivlar ta'mir muddatini",
+    "Xodimlar maoshini",
+    "Chipta narxini"
+   ],
+   "e": "Vagon oqimlari."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Uchastka tezligi nima?",
+   "a": [
+    "To'xtashlar bilan o'rtacha tezlik",
+    "Maksimal ruxsat etilgan tezlik",
+    "Faqat yurish vaqtidagi tezlik",
+    "Tovush tezligi"
+   ],
+   "e": "Texnik tezlikdan kichik."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Vagon aylanmasi nima?",
+   "a": [
+    "Ikki yuklash orasidagi vaqt",
+    "Vagon g'ildiragining bir aylanishi",
+    "Vagonni bo'yash davri",
+    "Vagonning xizmat muddati"
+   ],
+   "e": "Sutkada."
+  },
+  {
+   "b": "Yo'lovchi tashish",
+   "q": "Shahar atrofi poyezdlari qaysi masofalarga qatnaydi?",
+   "a": [
+    "Shahar va uning atrofi",
+    "Faqat xalqaro yo'nalishlarda",
+    "Faqat qit'alararo masofalarda",
+    "Faqat yuk tashish uchun"
+   ],
+   "e": "Prigorod."
+  },
+  {
+   "b": "Yo'lovchi tashish",
+   "q": "Uzoq masofa yo'lovchi poyezdi qanday vagonlardan tuziladi?",
+   "a": [
+    "Kupe, plaskart, SV va restoran",
+    "Faqat yarim vagon va platforma",
+    "Faqat sisterna va xopper",
+    "Faqat refrijerator vagonlar"
+   ],
+   "e": "Yo'lovchi tarkibi."
+  },
+  {
+   "b": "Yo'lovchi tashish",
+   "q": "Yo'lovchi chiptasi qanday hujjat hisoblanadi?",
+   "a": [
+    "Tashish shartnomasi hujjati",
+    "Faqat bezak uchun qog'oz",
+    "Lokomotivni boshqarish ruxsatnomasi",
+    "Yuk jo'natish hujjati"
+   ],
+   "e": "Elektron chipta ham."
+  },
+  {
+   "b": "Yo'lovchi tashish",
+   "q": "Bagaj nima?",
+   "a": [
+    "Alohida tashiladigan yuk",
+    "Yo'lovchining qo'lidagi kichik sumka",
+    "Lokomotiv ehtiyot qismlari",
+    "Vokzal jihozlari"
+   ],
+   "e": "Qo'l yuki — o'zi bilan."
+  },
+  {
+   "b": "Yo'lovchi tashish",
+   "q": "Tezyurar poyezd deb odatda qaysi tezlikdagi poyezdlar ataladi?",
+   "a": [
+    "200 km/soat dan yuqori",
+    "40 km/soat gacha",
+    "60–80 km/soat atrofida",
+    "10–20 km/soat"
+   ],
+   "e": "Afrosiyob — 250 km/soat gacha."
+  },
+  {
+   "b": "Yo'lovchi tashish",
+   "q": "\"Afrosiyob\" poyezdlari qaysi kompaniya ishlab chiqargan?",
+   "a": [
+    "Talgo (Ispaniya)",
+    "Siemens faqat yuk lokomotivi",
+    "Boeing (AQSh)",
+    "Airbus (Fransiya)"
+   ],
+   "e": "Talgo 250."
+  },
+  {
+   "b": "Yuk tashish",
+   "q": "Yuk jo'natish uchun asosiy hujjat qaysi?",
+   "a": [
+    "Yuk xati (nakladnoy)",
+    "Yo'lovchi chiptasi",
+    "Lokomotiv pasporti",
+    "Stansiya jadvali"
+   ],
+   "e": "Tashish shartnomasi."
+  },
+  {
+   "b": "Yuk tashish",
+   "q": "Yuk qabul qilishda nimani tekshirish kerak?",
+   "a": [
+    "Hujjat, massa va qadoqni",
+    "Faqat yuk egasining kiyimini",
+    "Faqat vagon rangini",
+    "Faqat ob-havoni"
+   ],
+   "e": "Tijorat ko'rigi."
+  },
+  {
+   "b": "Yuk tashish",
+   "q": "Xavfli yuklarga misol qaysi?",
+   "a": [
+    "Portlovchi va zaharli moddalar",
+    "Oddiy qurilish g'ishti",
+    "Presslangan paxta tolasi",
+    "Bo'sh universal konteynerlar"
+   ],
+   "e": "Maxsus qoidalar."
+  },
+  {
+   "b": "Yuk tashish",
+   "q": "Xavfli yuk tashiladigan vagonda nima bo'lishi kerak?",
+   "a": [
+    "Ogohlantiruvchi belgilar",
+    "Hech qanday maxsus belgi",
+    "Faqat reklama yozuvlari",
+    "Faqat vagonning tartib raqami"
+   ],
+   "e": "Xavf toifasi."
+  },
+  {
+   "b": "Yuk tashish",
+   "q": "Gabaritdan tashqari yuk nima?",
+   "a": [
+    "Gabaritdan chiqadigan yuk",
+    "Kichik o'lchamli yuk",
+    "Faqat suyuq yuk",
+    "Faqat sochiluvchan yuk"
+   ],
+   "e": "Maxsus ruxsat bilan."
+  },
+  {
+   "b": "Yuk tashish",
+   "q": "Yukni vagonga mahkamlash nima uchun kerak?",
+   "a": [
+    "Siljishning oldini olish",
+    "Vagonni og'irlashtirish uchun",
+    "Bo'yoq uchun",
+    "Yukni tezroq tushirish uchun"
+   ],
+   "e": "Texnik shartlar."
+  },
+  {
+   "b": "Yuk tashish",
+   "q": "Tranzit yuk nima?",
+   "a": [
+    "O'tib ketadigan yuk",
+    "Faqat mamlakat ichida qoladigan yuk",
+    "Faqat yo'lovchi bagaji",
+    "Faqat bo'sh vagon"
+   ],
+   "e": "Xalqaro tashish."
+  },
+  {
+   "b": "Yuk tashish",
+   "q": "Vagonning statik yuklamasi nima?",
+   "a": [
+    "Vagonga o'rtacha yuk",
+    "Vagonning bo'sh massasi",
+    "Lokomotiv tortish kuchi",
+    "Vagon uzunligi"
+   ],
+   "e": "t/vagon."
+  },
+  {
+   "b": "Yuk tashish",
+   "q": "Yuklash-tushirish mexanizmlariga misol qaysi?",
+   "a": [
+    "Kranlar va konveyerlar",
+    "Svetoforlar va signallar",
+    "Strelkali o'tkazgichlar",
+    "Yo'lovchi platformalari"
+   ],
+   "e": "Mexanizatsiya."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Poyezdni peregonga jo'natish uchun nima zarur?",
+   "a": [
+    "Peregon bo'shligi va ruxsat",
+    "Faqat mashinistning xohishi",
+    "Faqat yo'lovchilar roziligi",
+    "Faqat yaxshi ob-havo"
+   ],
+   "e": "Ruxsat beruvchi signal."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Bir yo'lli liniyada qarama-qarshi poyezdlar qayerda uchrashadi?",
+   "a": [
+    "Bo'linish punktlarida",
+    "Peregon o'rtasida",
+    "Ko'prik ustida",
+    "Tunnel ichida"
+   ],
+   "e": "Razyezd, stansiya."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Telefon orqali so'zlashuv usuli qachon qo'llanadi?",
+   "a": [
+    "Asosiy signalizatsiya ishlamaganda",
+    "Har doim asosiy usul sifatida",
+    "Faqat yo'lovchilarni chaqirish uchun",
+    "Faqat bayramlarda"
+   ],
+   "e": "Zaxira vosita."
+  },
+  {
+   "b": "Poyezdlar harakatini tashkil etish",
+   "q": "Natur list nima?",
+   "a": [
+    "Poyezd vagonlari ro'yxati",
+    "Lokomotiv pasporti",
+    "Yo'lovchilar ro'yxati",
+    "Svetofor jadvali"
+   ],
+   "e": "Tarkib hujjati."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Yarim vagon (polvagon) asosan qanday yuklar uchun ishlatiladi?",
+   "a": [
+    "Sochiluvchan yuklar",
+    "Oziq-ovqat mahsulotlari",
+    "Yo'lovchilar",
+    "Suyuq yoqilg'i"
+   ],
+   "e": "Ochiq tepali, mustahkam kuzovli vagon."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Platforma vagoni qanday yuklar uchun mo'ljallangan?",
+   "a": [
+    "Uzun va og'ir yuklar",
+    "Sochiluvchan don",
+    "Suyuqliklar",
+    "Tez buziladigan yuklar"
+   ],
+   "e": "Platforma bortlari pastki yoki olinadigan bo'ladi."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Sisterna qanday yuklarni tashish uchun ishlatiladi?",
+   "a": [
+    "Suyuq va gazsimon yuklar",
+    "Sochiluvchan ko'mir va ruda",
+    "Universal konteynerlar",
+    "Dumaloq yog'och"
+   ],
+   "e": "Neft mahsulotlari, kislotalar, suyultirilgan gazlar va boshqalar."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Izotermik vagonlar qaysi yuklar uchun mo'ljallangan?",
+   "a": [
+    "Tez buziladigan yuklar",
+    "Ko'mir va koks",
+    "Metall prokat",
+    "Qurilish qumi"
+   ],
+   "e": "Ular ma'lum haroratni saqlaydi: refrijerator vagonlar shu jumlaga kiradi."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "20 futlik universal konteynerning taxminiy tashqi uzunligi qancha?",
+   "a": [
+    "≈6,06 m",
+    "≈12,19 m",
+    "≈3 m",
+    "≈9 m"
+   ],
+   "e": "40 futlik konteyner ≈12,19 m."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Universal konteynerning standart turlaridan biri qaysi?",
+   "a": [
+    "20 futli (TEU)",
+    "5 futli kichik quti",
+    "100 futli platforma",
+    "2 futli yashik"
+   ],
+   "e": "40 futli ham keng tarqalgan."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "TEU nima?",
+   "a": [
+    "20 futli ekvivalent birlik",
+    "40 tonnalik vagon birligi",
+    "Bir lokomotiv quvvati birligi",
+    "Bir stansiya yo'li uzunligi"
+   ],
+   "e": "Konteyner hisobi."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Konteyner tashishning afzalligi nima?",
+   "a": [
+    "Qayta yuklashsiz turli transportda tashish",
+    "Faqat bitta transport turida tashish imkoniyati",
+    "Yuklash va tushirishning qimmatlashuvi",
+    "Yukning tez-tez shikastlanishi"
+   ],
+   "e": "Multimodal tashish."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Fitingli platforma nima uchun mo'ljallangan?",
+   "a": [
+    "Konteynerlarni tashish uchun",
+    "Faqat suyuq yuklarni tashish uchun",
+    "Faqat yo'lovchilarni tashish uchun",
+    "Faqat tirik hayvonlarni tashish uchun"
+   ],
+   "e": "Konteyner tirgaklari bilan."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Xopper-vagon qanday yuklar uchun mo'ljallangan?",
+   "a": [
+    "Sochiluvchan yuklar uchun",
+    "Faqat yo'lovchilar va bagaj uchun",
+    "Faqat konteynerlar uchun",
+    "Faqat uzun o'lchamli metall uchun"
+   ],
+   "e": "Tagidan tushiriladi."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Refrijerator vagonda qanday harorat saqlanadi?",
+   "a": [
+    "Belgilangan past harorat",
+    "Faqat juda yuqori harorat",
+    "Hech qanday harorat nazorati yo'q",
+    "Faqat tashqi havo harorati"
+   ],
+   "e": "Sovutish qurilmasi."
+  },
+  {
+   "b": "Vagonlar va konteynerlar",
+   "q": "Vagon yuklanganda uning massasi yuk ko'tarish qobiliyatidan oshsa nima bo'ladi?",
+   "a": [
+    "Ortiqcha yuklash taqiqlanadi",
+    "Vagon odatdagidan tezroq harakatlanadi",
+    "Tormoz yo'li sezilarli qisqaradi",
+    "Hech qanday xavf tug'dirmaydi"
+   ],
+   "e": "Harakat xavfsizligi."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Shatakka olishda bikr ulagich ishlatilsa, tortib olinayotgan avtomobilda haydovchi bo'lishi shartmi?",
+   "a": [
+    "Bo'lmasligi mumkin",
+    "Har doim ikkita haydovchi bo'lishi shart",
+    "Faqat tunda bo'lishi shart",
+    "Hech qachon bo'lmasligi kerak"
+   ],
+   "e": "Egiluvchan ulagichda haydovchi albatta bo'ladi."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Egiluvchan ulagich bilan shatakka olishda avtomobillar orasidagi masofa qancha bo'lishi kerak?",
+   "a": [
+    "4–6 m",
+    "0,5–1 m",
+    "10–15 m",
+    "20 m dan ko'p"
+   ],
+   "e": "Ulagich ogohlantiruvchi bayroqchalar bilan belgilanadi."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Qaysi holatda egiluvchan ulagich bilan shatakka olish taqiqlanadi?",
+   "a": [
+    "Muzli yo'lda",
+    "Quruq asfaltda kunduzi",
+    "Aholi punktidan tashqarida yozda",
+    "Hovli hududida"
+   ],
+   "e": "Tormozlanish xavfli."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Yuk transport vositasining ortiq chiqib turgan qismi qanday belgilanadi?",
+   "a": [
+    "Ogohlantiruvchi belgi yoki bayroqcha bilan",
+    "Faqat avtomobil kuzovi rangiga moslab bo'yaladi",
+    "Hech qanday maxsus belgi qo'yilmaydi",
+    "Faqat ovozli signal bilan ogohlantiriladi"
+   ],
+   "e": "Qorong'ida yorug'lik qaytargich."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Yuk qanday joylashtirilishi kerak?",
+   "a": [
+    "Ko'rinishni to'smaydigan va mustahkam",
+    "Faqat yukxona to'lgunicha, mahkamlamasdan",
+    "Raqam belgisini to'sib qo'yadigan qilib",
+    "Chiroqlarni yopib qo'yadigan qilib"
+   ],
+   "e": "Turg'unlikni buzmasligi kerak."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Transportning asosiy turlari qaysilar?",
+   "a": [
+    "Temir yo'l, avtomobil, havo, suv, quvur",
+    "Faqat velosiped va piyoda harakati turlari",
+    "Faqat lift va eskalator turlari",
+    "Faqat telefon va internet aloqasi turlari"
+   ],
+   "e": "Yagona transport tizimi."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Yagona transport tizimi nima?",
+   "a": [
+    "Bog'langan transport turlari majmui",
+    "Faqat bitta transport turining monopoliyasi",
+    "Faqat shahar avtobuslari tarmog'i",
+    "Faqat aeroportlar ro'yxati"
+   ],
+   "e": "Hamkorlikda ishlash."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Quvur transporti asosan qanday yuklarni tashiydi?",
+   "a": [
+    "Neft, gaz va suv",
+    "Yo'lovchilar va bagaj",
+    "Qurilish g'ishti va yog'och",
+    "Mebel va maishiy texnika"
+   ],
+   "e": "Uzluksiz tashish."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Havo transportining afzalligi nima?",
+   "a": [
+    "Yuqori tezlik",
+    "Eng arzon tashish narxi",
+    "Juda katta hajmdagi ruda tashish qulayligi",
+    "Ob-havoga umuman bog'liq emasligi"
+   ],
+   "e": "Qimmat, tez."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Suv transportining afzalligi nima?",
+   "a": [
+    "Katta hajm va arzonlik",
+    "Eng yuqori tezlik",
+    "Har bir uyga yetkazib berish",
+    "Ob-havoga bog'liq emasligi"
+   ],
+   "e": "Dengiz va daryo."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Avtomobil transportining asosiy afzalligi nima?",
+   "a": [
+    "\"Eshikdan eshikkacha\" yetkazish",
+    "Eng katta yuk ko'tarish qobiliyati",
+    "Eng past tashish tannarxi uzoq masofada",
+    "Yo'l talab qilmasligi"
+   ],
+   "e": "Moslashuvchanlik."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Tashish jarayoni deganda nima tushuniladi?",
+   "a": [
+    "Ko'chirish operatsiyalari majmui",
+    "Faqat yukni omborga joylash",
+    "Faqat transport vositasini ta'mirlash",
+    "Faqat chipta sotish"
+   ],
+   "e": "Boshlang'ich, harakat, yakuniy."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Yuk aylanmasi formulasi qaysi?",
+   "a": [
+    "Yuk massasi × tashish masofasi",
+    "Yuk massasi ÷ masofa",
+    "Masofa ÷ sarflangan vaqt",
+    "Tezlik × harakat vaqti"
+   ],
+   "e": "t·km."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Tashish hajmi qanday o'lchanadi?",
+   "a": [
+    "Tonna yoki yo'lovchi soni",
+    "Faqat kilometrlarda o'lchanadi",
+    "Faqat soatlarda o'lchanadi",
+    "Faqat litrlarda o'lchanadi"
+   ],
+   "e": "Hajm ko'rsatkichi."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "O'rtacha tashish masofasi qanday topiladi?",
+   "a": [
+    "Yuk aylanmasi ÷ tashilgan yuk",
+    "Yuk massasi × masofa",
+    "Tezlik × harakat vaqti",
+    "Masofa × tarif narxi"
+   ],
+   "e": "km."
+  },
+  {
+   "b": "Logistika",
+   "q": "Logistika nima?",
+   "a": [
+    "Oqimlarni boshqarish",
+    "Faqat transport vositalarini bo'yash",
+    "Faqat chipta kassalarini boshqarish",
+    "Faqat haydovchilarni o'qitish"
+   ],
+   "e": "Oqimlar boshqaruvi."
+  },
+  {
+   "b": "Logistika",
+   "q": "Logistikaning \"7R\" qoidasi nimani anglatadi?",
+   "a": [
+    "Kerakli yuk, joy, vaqt va boshqalar",
+    "Yetti xil transport turi majmui",
+    "Yetti kunlik uzluksiz ish haftasi",
+    "Yetti tonnalik yuk ko'tarish chegarasi"
+   ],
+   "e": "Logistika tamoyili."
+  },
+  {
+   "b": "Logistika",
+   "q": "Ta'minot zanjiri nima?",
+   "a": [
+    "Xomashyodan iste'molchigacha zanjir",
+    "Faqat bitta ombor binosi",
+    "Faqat bitta yuk avtomobili",
+    "Faqat bitta chakana savdo do'koni"
+   ],
+   "e": "Supply chain."
+  },
+  {
+   "b": "Logistika",
+   "q": "\"Just-in-time\" tizimi nima?",
+   "a": [
+    "Kerakli vaqtda yetkazib berish",
+    "Yukni yillar davomida saqlash",
+    "Faqat tunda tashish",
+    "Faqat qo'lda hisob yuritish"
+   ],
+   "e": "Zaxirani kamaytiradi."
+  },
+  {
+   "b": "Logistika",
+   "q": "Logistika markazi (terminal) vazifasi nima?",
+   "a": [
+    "Qabul, saqlash, saralash, jo'natish",
+    "Faqat yo'lovchilarga ovqat berish",
+    "Faqat transport vositalarini sotish",
+    "Faqat haydovchilarni dam oldirish"
+   ],
+   "e": "Hub."
+  },
+  {
+   "b": "Logistika",
+   "q": "Kross-doking nima?",
+   "a": [
+    "Saqlamasdan qayta yuklash",
+    "Yukni uzoq muddat omborda saqlash",
+    "Yukni yo'q qilish",
+    "Yukni qadoqlamasdan tashish"
+   ],
+   "e": "Tez aylanma."
+  },
+  {
+   "b": "Logistika",
+   "q": "3PL provayder nima?",
+   "a": [
+    "Tashqi logistika kompaniyasi",
+    "Faqat shahar yo'lovchi avtobusi",
+    "Faqat temir yo'l oraliq stansiyasi",
+    "Faqat chegaradagi bojxona posti"
+   ],
+   "e": "Third party logistics."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Multimodal tashish nima?",
+   "a": [
+    "Bir shartnoma, bir necha transport",
+    "Faqat bitta transport turida tashish",
+    "Faqat yo'lovchi tashish",
+    "Faqat quvur bilan tashish"
+   ],
+   "e": "Yagona operator."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Intermodal tashishning xususiyati nima?",
+   "a": [
+    "Yuk birligi o'zgarmaydi",
+    "Yukni har bosqichda qayta qadoqlash",
+    "Faqat havo transportida tashish",
+    "Faqat qo'lda tashish"
+   ],
+   "e": "Konteyner, treyler."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Xalqaro temir yo'l yuk tashish bo'yicha MDH mamlakatlari qaysi kelishuvdan foydalanadi?",
+   "a": [
+    "SMGS",
+    "CMR",
+    "Konosament",
+    "IATA"
+   ],
+   "e": "Xalqaro temir yo'l yuk aloqasi."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Xalqaro avtomobil yuk tashishda qaysi hujjat qo'llanadi?",
+   "a": [
+    "CMR yuk xati",
+    "SMGS",
+    "Konosament",
+    "Aviayuk xati"
+   ],
+   "e": "Avtomobil konvensiyasi."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Dengiz transportida yuk hujjati qanday nomlanadi?",
+   "a": [
+    "Konosament",
+    "CMR",
+    "SMGS",
+    "Yo'l varaqasi"
+   ],
+   "e": "Bill of lading."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Havo transportida yuk hujjati qanday nomlanadi?",
+   "a": [
+    "Aviayuk xati (AWB)",
+    "Konosament (dengiz)",
+    "CMR (avtomobil)",
+    "SMGS (temir yo'l)"
+   ],
+   "e": "Air Waybill."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "TIR karneti nima uchun ishlatiladi?",
+   "a": [
+    "Bojxonadan soddalashtirilgan o'tish",
+    "Yo'lovchi chiptasi sifatida ishlatiladi",
+    "Haydovchilik guvohnomasi o'rnida ishlatiladi",
+    "Avtomobil texnik pasporti o'rnida ishlatiladi"
+   ],
+   "e": "TIR konvensiyasi."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Incoterms qoidalari nimani belgilaydi?",
+   "a": [
+    "Tomonlar majburiyatlari va xavf",
+    "Faqat transport xizmati narxini",
+    "Faqat haydovchilar maoshini",
+    "Faqat yo'l belgilarining joylashuvini"
+   ],
+   "e": "Xalqaro savdo atamalari."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Incoterms bo'yicha EXW sharti nimani bildiradi?",
+   "a": [
+    "Xaridor yukni sotuvchi omboridan oladi",
+    "Sotuvchi yukni xaridor eshigigacha yetkazadi",
+    "Sotuvchi bojni to'laydi",
+    "Yuk dengizda topshiriladi"
+   ],
+   "e": "Ex Works."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Incoterms bo'yicha DDP sharti nimani bildiradi?",
+   "a": [
+    "Sotuvchi boj bilan yetkazadi",
+    "Xaridor yukni zavoddan oladi",
+    "Yuk kema bortida topshiriladi",
+    "Xaridor barcha xarajatni to'laydi"
+   ],
+   "e": "Delivered Duty Paid."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Tranzit salohiyatining ahamiyati nima?",
+   "a": [
+    "Tranzit daromadi",
+    "Faqat ichki tashishlarni kamaytirish",
+    "Faqat chegarani yopish",
+    "Faqat yo'llarni buzish"
+   ],
+   "e": "Transport koridorlari."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Xalqaro transport koridori nima?",
+   "a": [
+    "Xalqaro transport yo'nalishi",
+    "Bitta shahardagi asosiy ko'cha",
+    "Bitta ombor ichidagi yo'lak",
+    "Bitta yo'lovchi vagonidagi yo'lak"
+   ],
+   "e": "Masalan, Xitoy–Yevropa."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Yukning transport xususiyatlariga nima kiradi?",
+   "a": [
+    "Massa, hajm, mo'rtlik",
+    "Faqat yuk egasining ismi",
+    "Faqat yuk rangi",
+    "Faqat yuk narxi"
+   ],
+   "e": "Tashish usulini belgilaydi."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Tara nima?",
+   "a": [
+    "Qadoq vositasi",
+    "Yukning sof og'irligi",
+    "Transport vositasi turi",
+    "Ombor binosi"
+   ],
+   "e": "Qadoq, yashik, qop."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Brutto massa nima?",
+   "a": [
+    "Yuk va tara massasi birga",
+    "Faqat yukning sof massasi",
+    "Faqat tara massasi",
+    "Transport vositasi massasi"
+   ],
+   "e": "Netto — sof massa."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Netto massa nima?",
+   "a": [
+    "Yukning sof massasi",
+    "Yuk va tara birgalikdagi massasi",
+    "Faqat tara (qadoq) massasi",
+    "Vagon bilan birgalikdagi massa"
+   ],
+   "e": "Qadoqsiz."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Paket yuk nima?",
+   "a": [
+    "Poddondagi yuklar",
+    "Bitta katta yog'och quti",
+    "Qopsiz sochiluvchan yuk",
+    "Sisternadagi suyuq yuk"
+   ],
+   "e": "Paketlash."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Poddon (palleta) nima uchun ishlatiladi?",
+   "a": [
+    "Mexanizatsiyalashgan yuklash",
+    "Yukni bo'yash va belgilash uchun",
+    "Yo'lovchilar o'tirishi uchun",
+    "Yo'l belgisi sifatida qo'yish uchun"
+   ],
+   "e": "Yevropoddon 1200×800 mm."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Tez buziladigan yuklarni tashishda asosiy talab nima?",
+   "a": [
+    "Harorat rejimi va muddatga rioya",
+    "Faqat tezroq tashish, haroratga qaramasdan",
+    "Ochiq vagonda tashish",
+    "Uzoq vaqt saqlab turish"
+   ],
+   "e": "Sovuq zanjir."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "\"Sovuq zanjir\" nima?",
+   "a": [
+    "Haroratni uzluksiz saqlash",
+    "Faqat qish oylarida tashish",
+    "Muz bilan qoplangan yo'llar",
+    "Sovuq ombor binosi"
+   ],
+   "e": "Oziq-ovqat, dori."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Xavfli yuklar nechta sinfga bo'linadi (BMT tasnifi)?",
+   "a": [
+    "9 ta",
+    "3 ta",
+    "15 ta",
+    "20 ta"
+   ],
+   "e": "Portlovchi, gaz, yonuvchi..."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Og'ir vaznli yuk nima?",
+   "a": [
+    "Juda og'ir yuk",
+    "Juda yengil yuk",
+    "Sochiluvchan yuk",
+    "Suyuq yuk"
+   ],
+   "e": "Maxsus tashish."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Yuklash-tushirish ishlarini mexanizatsiyalashning afzalligi nima?",
+   "a": [
+    "Vaqt va mehnat tejaladi",
+    "Ish vaqti uzayadi",
+    "Yuk ko'proq shikastlanadi",
+    "Xarajat ortadi"
+   ],
+   "e": "Samaradorlik."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Vagon (avtomobil) yuk sig'imidan foydalanish koeffitsiyenti nima?",
+   "a": [
+    "Haqiqiy yuk / nominal sig'im",
+    "Masofaning sarflangan vaqtga nisbati",
+    "Tashish narxining yuk massasiga nisbati",
+    "Tezlikning bosib o'tilgan masofaga nisbati"
+   ],
+   "e": "γ."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Bo'linish punkti nima?",
+   "a": [
+    "Liniyani peregonlarga bo'luvchi joy",
+    "Vagonlar ta'mirlanadigan sex binosi",
+    "Yo'lovchilar kutadigan vokzal zali",
+    "Yuk saqlanadigan ochiq maydon"
+   ],
+   "e": "Stansiya, razyezd, obgon punkti."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Peregon nima?",
+   "a": [
+    "Ikki punkt orasidagi uchastka",
+    "Stansiya ichidagi qabul-jo'natish yo'li",
+    "Lokomotiv deposi hududi",
+    "Vagon saralash tepaligi"
+   ],
+   "e": "Poyezdlar harakati uchun."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Razyezd nima?",
+   "a": [
+    "Poyezdlar uchrashadigan punkt",
+    "Yirik saralash stansiyasi",
+    "Yo'lovchi vokzali",
+    "Lokomotiv deposi"
+   ],
+   "e": "Yo'l rivojlanishi bor."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Saralash stansiyasining asosiy vazifasi nima?",
+   "a": [
+    "Vagonlarni saralab poyezd tuzish",
+    "Faqat yo'lovchilarga chipta sotish",
+    "Faqat lokomotivlarni bo'yash",
+    "Faqat yuklarni omborda saqlash"
+   ],
+   "e": "Saralash tepaligi."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Saralash tepaligi qanday ishlaydi?",
+   "a": [
+    "Vagonlar o'z og'irligi bilan tarqaladi",
+    "Vagonlar faqat kran bilan ko'tariladi",
+    "Vagonlar faqat qo'lda itariladi",
+    "Vagonlar suv bilan suriladi"
+   ],
+   "e": "Gorka."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Vagon to'xtatgich (vagonozamedlitel) vazifasi nima?",
+   "a": [
+    "Vagon tezligini rostlash",
+    "Vagonni tezlashtirish",
+    "Vagonni bo'yash",
+    "Vagonni ulash"
+   ],
+   "e": "Saralash tepaligida."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yo'lovchi stansiyasining asosiy qurilmalari qaysilar?",
+   "a": [
+    "Vokzal, platforma, yo'llar",
+    "Faqat saralash tepaligi",
+    "Faqat yuk omborlari",
+    "Faqat lokomotiv deposi"
+   ],
+   "e": "Yo'lovchilarga xizmat."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yuk stansiyasida qanday ishlar bajariladi?",
+   "a": [
+    "Yuklash, tushirish, saqlash",
+    "Faqat yo'lovchilarni tashish",
+    "Faqat lokomotivlarni ta'mirlash",
+    "Faqat signallarni sozlash"
+   ],
+   "e": "Yuk hovlisi."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Oraliq stansiyaning vazifasi nima?",
+   "a": [
+    "Poyezdlarni o'tkazish va uchrashtirish",
+    "Faqat yangi poyezdlar tuzish",
+    "Faqat yuklarni saralash",
+    "Faqat vagonlarni ta'mirlash"
+   ],
+   "e": "Kichik stansiyalar."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Stansiya navbatchisining asosiy vazifasi nima?",
+   "a": [
+    "Qabul va jo'natishni boshqarish",
+    "Vagonlarni bo'yash va tozalash",
+    "Yo'lovchilarga ovqat tayyorlash",
+    "Lokomotivni boshqarish"
+   ],
+   "e": "DSP."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Poyezd dispetcherining vazifasi nima?",
+   "a": [
+    "Uchastkada harakatni boshqarish",
+    "Faqat bitta strelkani boshqarish",
+    "Faqat chiptalarni tekshirish",
+    "Faqat yuk tushirish"
+   ],
+   "e": "DNTs."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Stansiyaning texnik-taqsimlovchi aktida nima belgilanadi?",
+   "a": [
+    "Qurilmalar va foydalanish tartibi",
+    "Faqat xodimlar maoshi",
+    "Faqat chipta narxlari",
+    "Faqat ovqatlanish tartibi"
+   ],
+   "e": "TRA."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Manyovr ishlari nima?",
+   "a": [
+    "Stansiyada tarkibni harakatlantirish",
+    "Peregonda poyezdni tezlashtirish",
+    "Vagonlarni bo'yash",
+    "Yo'lovchilarni ro'yxatga olish"
+   ],
+   "e": "Tarkib tuzish, qayta joylash."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Manyovrlar rahbari kim?",
+   "a": [
+    "Sostavitel",
+    "Kassir",
+    "Provodnik",
+    "Yuk egasi"
+   ],
+   "e": "Lokomotiv brigadasi bilan ishlaydi."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Qabul-jo'natish yo'llari nima uchun mo'ljallangan?",
+   "a": [
+    "Qabul qilish va jo'natish",
+    "Vagonlarni uzoq saqlash",
+    "Lokomotivlarni ta'mirlash",
+    "Yo'lovchilarni kutish"
+   ],
+   "e": "Stansiya yo'llari."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Tupik (berk yo'l) nima?",
+   "a": [
+    "Bir tomoni berk yo'l",
+    "Ikki tomoni ochiq yo'l",
+    "Asosiy magistral yo'l",
+    "Tunnel ichidagi yo'l"
+   ],
+   "e": "Vagonlar saqlash, yuklash."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Kirma yo'l (podyezdnoy put) nima?",
+   "a": [
+    "Korxonani stansiyaga ulovchi yo'l",
+    "Ikki davlatni bog'lovchi magistral",
+    "Depo ichidagi ta'mir yo'li",
+    "Vokzal oldidagi piyoda yo'lak"
+   ],
+   "e": "Umumiy foydalanishda bo'lmagan."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Uchastka stansiyasining vazifasi nima?",
+   "a": [
+    "Lokomotiv va brigada almashtirish",
+    "Faqat yo'lovchilarga ovqat sotish",
+    "Faqat vagonlarni bo'yash",
+    "Faqat yuklarni saqlash"
+   ],
+   "e": "Uchastkalar chegarasida."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Stansiyada qabul-jo'natish yo'llarining foydali uzunligi nimani belgilaydi?",
+   "a": [
+    "Poyezd uzunligi chegarasini",
+    "Vokzal binosi balandligini",
+    "Kassalar sonini",
+    "Xodimlar sonini"
+   ],
+   "e": "Tarkib sig'ishi."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Stansiya marshrut nima?",
+   "a": [
+    "Tayyorlangan harakat yo'li",
+    "Yo'lovchilar yuradigan yo'lak",
+    "Avtomobil yo'li",
+    "Velosiped yo'lagi"
+   ],
+   "e": "Strelkalar o'rnatilgan."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yo'lovchi platformalari qanday bo'lishi kerak?",
+   "a": [
+    "Xavfsiz va yoritilgan",
+    "Qorong'i va sirpanchiq",
+    "Har doim yopiq",
+    "To'siqsiz relsga tushadigan"
+   ],
+   "e": "Yo'lovchi xavfsizligi."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Avtomobil transportida yo'l varaqasi nima uchun kerak?",
+   "a": [
+    "Ishni hisobga olish",
+    "Yo'lovchilarga chipta sifatida berish",
+    "Yukni bojxonadan o'tkazish uchun",
+    "Avtomobilni sotish uchun"
+   ],
+   "e": "Birlamchi hujjat."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Tovar-transport yuk xati (TTN) nimani tasdiqlaydi?",
+   "a": [
+    "Jo'natish va qabul qilishni",
+    "Haydovchining tibbiy ko'rigini",
+    "Avtomobilning texnik ko'rigini",
+    "Yo'l to'lovini"
+   ],
+   "e": "Avtomobilda yuk hujjati."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Haydovchi reysdan oldin qanday ko'rikdan o'tadi?",
+   "a": [
+    "Tibbiy ko'rikdan",
+    "Faqat kiyim ko'rigidan",
+    "Faqat telefon tekshiruvidan",
+    "Hech qanday ko'rikdan"
+   ],
+   "e": "Reysoldi ko'rik."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Avtomobilning texnik holati reysdan oldin kim tomonidan tekshiriladi?",
+   "a": [
+    "Mexanik (texnik nazoratchi)",
+    "Yuk egasi yoki jo'natuvchi",
+    "Avtobusdagi yo'lovchi",
+    "Avtovokzal kassiri"
+   ],
+   "e": "Chiqarishga ruxsat."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Avtomobilning yuk ko'tarish qobiliyatidan foydalanish koeffitsiyenti qanday topiladi?",
+   "a": [
+    "Haqiqiy yuk ÷ nominal",
+    "Masofa ÷ vaqt",
+    "Yoqilg'i ÷ masofa",
+    "Narx ÷ massa"
+   ],
+   "e": "Statik va dinamik."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Yurish (probeg) dan foydalanish koeffitsiyenti nima?",
+   "a": [
+    "Yukli yurish ÷ umumiy yurish",
+    "Bo'sh yurishning yukli yurishga nisbati",
+    "Tezlikning vaqtga nisbati",
+    "Yoqilg'ining masofaga nisbati"
+   ],
+   "e": "β."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Bo'sh yurishni kamaytirish usuli qaysi?",
+   "a": [
+    "Qaytish yo'lida yuk topish",
+    "Avtomobilni bo'sh qaytarish har doim",
+    "Marshrutni uzaytirish",
+    "Yuklashni kamaytirish"
+   ],
+   "e": "Halqasimon marshrutlar."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Mayatniksimon marshrut nima?",
+   "a": [
+    "Ikki punkt orasida qatnov",
+    "Ko'p punktli halqasimon yo'nalish",
+    "Tasodifiy yo'nalish",
+    "Faqat bir martalik qatnov"
+   ],
+   "e": "Bordi-keldi."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Halqasimon marshrutning afzalligi nima?",
+   "a": [
+    "Bo'sh yurishni kamaytiradi",
+    "Bo'sh yurishni oshiradi",
+    "Faqat bitta punktga xizmat qiladi",
+    "Yoqilg'ini ko'p sarflaydi"
+   ],
+   "e": "Ko'p punkt."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Avtomobil transportida tashish rejasini tuzishda nima hisobga olinadi?",
+   "a": [
+    "Yuk hajmi, masofa, avtomobil turi",
+    "Faqat haydovchining sevimli musiqasi",
+    "Faqat avtomobil rangi",
+    "Faqat ob-havo"
+   ],
+   "e": "Optimallashtirish."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Yuk avtomobilining texnik tezligi nima?",
+   "a": [
+    "Harakatdagi o'rtacha tezlik",
+    "To'xtashlar bilan o'rtacha tezlik",
+    "Maksimal tezlik",
+    "Yuklash tezligi"
+   ],
+   "e": "Ekspluatatsion tezlikdan farqi."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Ekspluatatsion tezlik nima?",
+   "a": [
+    "To'xtashlar bilan o'rtacha tezlik",
+    "Faqat harakatdagi tezlik",
+    "Spidometrdagi maksimal tezlik",
+    "Yuklash tezligi"
+   ],
+   "e": "Texnik tezlikdan kichik."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Avtomobilning ish vaqtidan foydalanish nimaga bog'liq?",
+   "a": [
+    "Yuklash va kutish vaqtiga",
+    "Faqat haydovchining ismi va familiyasiga",
+    "Faqat avtomobil kuzovi rangiga",
+    "Faqat avtomobilning davlat raqamiga"
+   ],
+   "e": "Bekor turishni kamaytirish."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Avtomobil uchun tara-shtuchniy yuk nima?",
+   "a": [
+    "Donalab yuk",
+    "Sochiluvchan yuk",
+    "Suyuq yuk",
+    "Gazsimon yuk"
+   ],
+   "e": "Qutilar, qoplar."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Sochiluvchan yuklarni tashish uchun qaysi avtomobil qulay?",
+   "a": [
+    "Avtosamosval",
+    "Avtobus",
+    "Sisterna",
+    "Refrijerator"
+   ],
+   "e": "O'zi tushiradi."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Suyuq yuklarni avtomobilda tashish uchun nima ishlatiladi?",
+   "a": [
+    "Avtosisterna",
+    "Bortli avtomobil",
+    "Samosval",
+    "Furgon"
+   ],
+   "e": "Yonilg'i, sut."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Avtopoyezd nima?",
+   "a": [
+    "Shatakchi va tirkama",
+    "Bitta yengil avtomobil",
+    "Temir yo'l poyezdi",
+    "Avtobus"
+   ],
+   "e": "Yuk sig'imi katta."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Takograf nima uchun kerak?",
+   "a": [
+    "Ish va dam olishni qayd etish",
+    "Yoqilg'i darajasini nazorat qilish",
+    "Kabinada musiqa eshitish",
+    "Yuk massasini tortish"
+   ],
+   "e": "Xalqaro tashishlarda majburiy."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Haydovchining mehnat va dam olish rejimi nima uchun me'yorlanadi?",
+   "a": [
+    "Charchoq avariyasining oldini olish",
+    "Yoqilg'i sarfini tejash uchun",
+    "Avtomobil bo'yog'ini saqlash uchun",
+    "Yuk tashish narxini oshirish uchun"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Avtomobilda yuk tashish",
+   "q": "Ortiqcha yuklangan avtomobil qanday xavf tug'diradi?",
+   "a": [
+    "Tormoz yo'li uzayadi",
+    "Tormoz yo'li qisqaradi",
+    "Yoqilg'i tejaladi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Taqiqlanadi."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Shahar yo'lovchi transportiga qaysilar kiradi?",
+   "a": [
+    "Avtobus, tramvay, metro",
+    "Faqat yuk avtomobillari",
+    "Faqat yo'lovchi samolyotlari",
+    "Faqat daryo kemalari"
+   ],
+   "e": "Jamoat transporti."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Yo'lovchi oqimi nima?",
+   "a": [
+    "Vaqt birligidagi yo'lovchilar soni",
+    "Bitta avtobusdagi o'rindiqlar soni",
+    "Haydovchilar soni",
+    "Bekatlar soni"
+   ],
+   "e": "Oqim tadqiqoti."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Yo'lovchi oqimini o'rganish nima uchun kerak?",
+   "a": [
+    "Jadvalni to'g'ri tuzish uchun",
+    "Faqat avtobusni bo'yash uchun",
+    "Faqat chipta narxini oshirish uchun",
+    "Faqat haydovchilarni almashtirish uchun"
+   ],
+   "e": "Rejalashtirish."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Harakat intervali nima?",
+   "a": [
+    "Transportlar orasidagi vaqt",
+    "Ikki bekat orasidagi masofa",
+    "Avtobusning umumiy uzunligi",
+    "Bir martalik chipta narxi"
+   ],
+   "e": "Daqiqada."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Tig'iz (pik) soatlarda nima qilinadi?",
+   "a": [
+    "Transport soni oshiriladi",
+    "Transport kamaytiriladi",
+    "Marshrutlar yopiladi",
+    "Narx tushiriladi"
+   ],
+   "e": "Talabga moslash."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Marshrut pasporti nimani o'z ichiga oladi?",
+   "a": [
+    "Sxema, bekatlar, masofalar",
+    "Faqat haydovchining ismi",
+    "Faqat bir martalik chipta narxi",
+    "Faqat avtobusning rangi"
+   ],
+   "e": "Asosiy hujjat."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Yo'lovchi sig'imidan foydalanish koeffitsiyenti nima?",
+   "a": [
+    "Haqiqiy ÷ nominal sig'im",
+    "Bekatlar soni ÷ masofa",
+    "Tezlik ÷ vaqt",
+    "Narx ÷ masofa"
+   ],
+   "e": "To'lish darajasi."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Ekspress marshrut nima?",
+   "a": [
+    "Kam bekatli tezkor qatnov",
+    "Har bir bekatda to'xtovchi qatnov",
+    "Faqat tunda ishlovchi qatnov",
+    "Faqat bayramda ishlovchi qatnov"
+   ],
+   "e": "Vaqtni tejaydi."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Elektron to'lov tizimining afzalligi nima?",
+   "a": [
+    "Tezlik va shaffoflik",
+    "To'lovni qiyinlashtiradi",
+    "Naqd pulni ko'paytiradi",
+    "Hisobni chalkashtiradi"
+   ],
+   "e": "Transport kartalari."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Shaharlararo yo'lovchi tashish qayerdan amalga oshiriladi?",
+   "a": [
+    "Avtovokzallardan",
+    "Faqat ombor hovlisidan",
+    "Faqat zavod darvozasidan",
+    "Faqat maktab hovlisidan"
+   ],
+   "e": "Qatnov jadvali."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Yo'lovchilar xavfsizligi uchun avtobusda nima bo'lishi shart?",
+   "a": [
+    "O't o'chirgich, aptechka, chiqish",
+    "Faqat salondagi televizor",
+    "Faqat reklama plakatlari",
+    "Faqat audiotizim va musiqa"
+   ],
+   "e": "Majburiy jihozlar."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Taksi xizmatining xususiyati nima?",
+   "a": [
+    "Individual buyurtma bo'yicha tashish",
+    "Qat'iy marshrut bo'yicha ko'p yo'lovchi",
+    "Faqat yuk tashish",
+    "Faqat temir yo'lda"
+   ],
+   "e": "Eshikdan eshikkacha."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Yo'lovchi tashish sifatining ko'rsatkichlaridan biri qaysi?",
+   "a": [
+    "Jadvalga rioya",
+    "Faqat avtobus rangi",
+    "Faqat haydovchi yoshi",
+    "Faqat reklama soni"
+   ],
+   "e": "Muntazamlik."
+  },
+  {
+   "b": "Yo'lovchi tashishni tashkil etish",
+   "q": "Bekatlar orasidagi optimal masofa nimaga bog'liq?",
+   "a": [
+    "Qulaylik va tezlikka",
+    "Faqat yo'l rangiga",
+    "Faqat daraxtlar soniga",
+    "Faqat bino balandligiga"
+   ],
+   "e": "Shaharda 400–600 m atrofida."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yuk stansiyasida yukni qabul qilish tartibi nimadan boshlanadi?",
+   "a": [
+    "Ariza va yuk xatini rasmiylashtirishdan",
+    "Vagonni hech qanday hujjatsiz darhol jo'natishdan",
+    "Yukni tekshirmasdan va tortmasdan vagonga ortishdan",
+    "To'lov va shartnomasiz qabul qilishdan"
+   ],
+   "e": "Tashish shartnomasi."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Vagonlarni yuklash uchun berish (podacha) nima?",
+   "a": [
+    "Vagonlarni yuk joyiga yetkazish",
+    "Vagonlarni rejali ta'mir uchun depoga jo'natish",
+    "Eskirgan vagonlarni boshqa tashkilotga sotish",
+    "Vagonlarni yangidan bo'yab, raqamlash"
+   ],
+   "e": "Manyovr operatsiyasi."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Vagonning yuk operatsiyasi uchun me'yoriy vaqti nimani belgilaydi?",
+   "a": [
+    "Yuklash-tushirish muddatini",
+    "Vagonning umumiy xizmat muddatini",
+    "Vagonni qayta bo'yash davriyligini",
+    "Vagonning harakatdagi maksimal tezligini"
+   ],
+   "e": "Bekor turishga jarima."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Plomba vagonga nima uchun qo'yiladi?",
+   "a": [
+    "Yukni ruxsatsiz ochishdan himoyalash",
+    "Vagonni chiroyli bezash va ajratib turish uchun",
+    "Vagonni og'irlashtirib, turg'unligini oshirish uchun",
+    "Vagonning harakat tezligini oshirish uchun"
+   ],
+   "e": "Butlik kafolati."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Tijorat dalolatnomasi qachon tuziladi?",
+   "a": [
+    "Yuk kamomadi yoki shikastlanganda",
+    "Yuk to'liq va butun holda yetkazilganda",
+    "Vagon yangidan bo'yalib, ta'mirlanganda",
+    "Yo'lovchiga chipta sotilganda"
+   ],
+   "e": "Javobgarlikni aniqlash."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yuk egasi yukni o'z vaqtida olib ketmasa nima bo'ladi?",
+   "a": [
+    "Saqlash uchun to'lov undiriladi",
+    "Yuk muddatsiz va bepul saqlanaveradi",
+    "Yuk darhol yo'q qilib yuboriladi",
+    "Hech qanday oqibat bo'lmaydi"
+   ],
+   "e": "Ombor yig'imi."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yuk tashish muddati nimaga bog'liq?",
+   "a": [
+    "Masofa va jo'natma turiga",
+    "Faqat vagon rangiga",
+    "Faqat yuk egasining ismiga",
+    "Faqat ob-havoga"
+   ],
+   "e": "Me'yoriy muddatlar."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Kichik jo'natma nima?",
+   "a": [
+    "Alohida vagon talab qilmaydigan yuk",
+    "Bir nechta vagonni egallaydigan yuk",
+    "Butun poyezdni egallaydigan yuk",
+    "To'liq konteyner poyezdi"
+   ],
+   "e": "Sbornyy gruz."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Vagonli jo'natma nima?",
+   "a": [
+    "Alohida vagonni talab qiladigan yuk",
+    "Bir necha kilogrammlik yuk",
+    "Pochta jo'natmasi",
+    "Yo'lovchi bagaji"
+   ],
+   "e": "Butun vagon."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Vagon oqimi nima?",
+   "a": [
+    "Yo'nalishlar bo'yicha vagonlar harakati hajmi",
+    "Bitta vagonning harakat tezligi",
+    "Vagon kuzovining bo'yoq rangi",
+    "Vagon ichidagi ventilyatsiya havo oqimi"
+   ],
+   "e": "Rejalashtirish."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Bo'sh vagonlarni tartibga solish (regulirovka) nima uchun kerak?",
+   "a": [
+    "Yuklash punktlarini vagon bilan ta'minlash",
+    "Eskirgan vagonlarni yo'q qilish",
+    "Vagonlarni qayta bo'yash",
+    "Vagonlarni boshqa tashkilotga sotish"
+   ],
+   "e": "Bo'sh yurish."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Stansiya ishining texnologik jarayoni nimani belgilaydi?",
+   "a": [
+    "Operatsiyalar tartibi va me'yoriy vaqtlarni",
+    "Faqat kassirlar ish haqini",
+    "Faqat xodimlar oshxonasi menyusini",
+    "Faqat vokzal binosining bezagini"
+   ],
+   "e": "Asosiy hujjat."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Saralash stansiyasining asosiy parklari qaysilar?",
+   "a": [
+    "Qabul, saralash va jo'natish parklari",
+    "Faqat yo'lovchilar kutish zali",
+    "Faqat avtomobillar to'xtash joyi",
+    "Faqat bog' va xiyobonlar"
+   ],
+   "e": "Ketma-ket joylashuv."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Poyezdni tarqatish (rasformirovanie) nima?",
+   "a": [
+    "Kelgan poyezd vagonlarini yo'llar bo'yicha ajratish",
+    "Poyezdni to'liq yo'q qilib, utilizatsiya qilish",
+    "Poyezd vagonlarini qayta bo'yash",
+    "Poyezdni boshqa tashkilotga sotish"
+   ],
+   "e": "Saralash tepaligida."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Poyezdni tuzish (formirovanie) nima?",
+   "a": [
+    "Vagonlarni rejaga ko'ra poyezdga yig'ish",
+    "Kelgan poyezdni vagonlarga ajratish",
+    "Lokomotivni rejali ta'mirlash",
+    "Yo'lovchilarni platformaga chiqarish"
+   ],
+   "e": "Tuzish rejasi bo'yicha."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Tarif nima?",
+   "a": [
+    "Tashish xizmati narxlari tizimi",
+    "Transport vositasining turi",
+    "Haydovchining oylik maoshi",
+    "Yo'l belgisining turi"
+   ],
+   "e": "Narx-navo."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Tashish tannarxi nima?",
+   "a": [
+    "Bir birlik tashish xarajati",
+    "Chipta narxi",
+    "Transport vositasi narxi",
+    "Yoqilg'i narxi faqat"
+   ],
+   "e": "Xarajatlar / hajm."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Transport xarajatlarining asosiy moddalari qaysilar?",
+   "a": [
+    "Yoqilg'i, ish haqi, amortizatsiya, ta'mir",
+    "Faqat reklama va marketing xarajatlari",
+    "Faqat bayram tadbirlari xarajatlari",
+    "Faqat ofisni bezash xarajatlari"
+   ],
+   "e": "Ekspluatatsion xarajatlar."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Amortizatsiya nima?",
+   "a": [
+    "Asosiy vositalar eskirishining qiymatda hisobi",
+    "Yangi transport vositasini sotib olish",
+    "Yoqilg'i va moylash materiallari sarfi",
+    "Haydovchilarga beriladigan mukofot"
+   ],
+   "e": "Eskirish."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Mehnat unumdorligi transportda qanday o'lchanadi?",
+   "a": [
+    "Bir xodimga to'g'ri keladigan tashish hajmi",
+    "Korxonadagi xodimlarning umumiy soni",
+    "Ish kunining uzunligi soatlarda",
+    "O'rtacha oylik ish haqi miqdori"
+   ],
+   "e": "t·km/xodim."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Tashishning rentabelligi nima?",
+   "a": [
+    "Foydaning xarajatlarga nisbati",
+    "Daromadning xodimlarga nisbati",
+    "Masofaning vaqtga nisbati",
+    "Yoqilg'ining masofaga nisbati"
+   ],
+   "e": "Foizda."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Yoqilg'i sarfi me'yori nima uchun belgilanadi?",
+   "a": [
+    "Sarfni nazorat va tejash uchun",
+    "Yoqilg'i sarfini ataylab oshirish uchun",
+    "Haydovchilarni jarima bilan jazolash uchun",
+    "Tashish narxini oshirish uchun"
+   ],
+   "e": "l/100 km."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Transport xizmatlari bozorida raqobatning foydasi nima?",
+   "a": [
+    "Sifat oshadi, narx pasayadi",
+    "Sifat pasayadi, narx oshadi",
+    "Xizmat yo'qoladi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Iste'molchi uchun."
+  },
+  {
+   "b": "Ombor xo'jaligi",
+   "q": "Omborning asosiy vazifasi nima?",
+   "a": [
+    "Yuklarni qabul qilish, saqlash va berish",
+    "Yo'lovchilarni manzilga tashish",
+    "Transport vositalarini ishlab chiqarish",
+    "Avtomobil yo'llarini qurish"
+   ],
+   "e": "Logistika bo'g'ini."
+  },
+  {
+   "b": "Ombor xo'jaligi",
+   "q": "Ombor sig'imi qanday o'lchanadi?",
+   "a": [
+    "m² yoki m³ va palletjoylar",
+    "Faqat kilometrlarda",
+    "Faqat soatlarda",
+    "Faqat litrda yoqilg'i"
+   ],
+   "e": "Saqlash hajmi."
+  },
+  {
+   "b": "Ombor xo'jaligi",
+   "q": "FIFO usuli nima?",
+   "a": [
+    "Birinchi kelgan yuk birinchi chiqadi",
+    "Oxirgi kelgan birinchi chiqadi",
+    "Tasodifiy chiqarish",
+    "Hech qachon chiqarmaslik"
+   ],
+   "e": "Ombor hisobi."
+  },
+  {
+   "b": "Ombor xo'jaligi",
+   "q": "Ombor boshqaruv tizimi (WMS) nima?",
+   "a": [
+    "Ombor jarayonlarini avtomatlashtiruvchi dastur",
+    "Ombor hududini qo'riqlovchi qorovul",
+    "Ombor uchun maxsus qurilgan bino",
+    "Ombor tomining yopilish turi"
+   ],
+   "e": "Warehouse Management System."
+  },
+  {
+   "b": "Ombor xo'jaligi",
+   "q": "Shtrix-kod logistikada nima uchun ishlatiladi?",
+   "a": [
+    "Yukni tez identifikatsiya qilish",
+    "Yukni maxsus bo'yoq bilan bo'yash",
+    "Yukni og'irlashtirib, mustahkamlash",
+    "Yukni sovitish va muzlatish"
+   ],
+   "e": "Avtomatik hisob."
+  },
+  {
+   "b": "Ombor xo'jaligi",
+   "q": "RFID texnologiyasi nima?",
+   "a": [
+    "Radiochastotali identifikatsiya",
+    "Qog'oz yorliq",
+    "Qo'lda yozilgan hisob",
+    "Ovozli xabar"
+   ],
+   "e": "Kontaktsiz o'qish."
+  },
+  {
+   "b": "Ombor xo'jaligi",
+   "q": "Inventarizatsiya nima?",
+   "a": [
+    "Zaxiralarni haqiqiy sanab tekshirish",
+    "Yangi ombor binosini qurish",
+    "Ombordagi yuklarni sotish",
+    "Yangi transport vositasi sotib olish"
+   ],
+   "e": "Hisob va haqiqatni solishtirish."
+  },
+  {
+   "b": "Dispetcherlik va axborot tizimlari",
+   "q": "Transport dispetcherlik xizmatining vazifasi nima?",
+   "a": [
+    "Transport ishini operativ boshqarish",
+    "Transport vositalarini ishlab chiqarish",
+    "Yo'llarni bo'yash",
+    "Yo'lovchilarga ovqat berish"
+   ],
+   "e": "Nazorat va muvofiqlashtirish."
+  },
+  {
+   "b": "Dispetcherlik va axborot tizimlari",
+   "q": "GPS-monitoring transportda nima uchun qo'llanadi?",
+   "a": [
+    "Transport joylashuvini kuzatish",
+    "Kabinada musiqa eshitish",
+    "Yoqilg'i bakini to'ldirish",
+    "Yukni bo'yash va belgilash"
+   ],
+   "e": "Real vaqtda."
+  },
+  {
+   "b": "Dispetcherlik va axborot tizimlari",
+   "q": "Elektron yuk xatining afzalligi nima?",
+   "a": [
+    "Tezlik va qog'ozsiz hujjat aylanishi",
+    "Qog'oz sarfining keskin ortishi",
+    "Hujjat aylanishining sekinlashishi",
+    "Xatolar sonining ko'payishi"
+   ],
+   "e": "Raqamlashtirish."
+  },
+  {
+   "b": "Dispetcherlik va axborot tizimlari",
+   "q": "Transport-logistika axborot tizimlari nimani ta'minlaydi?",
+   "a": [
+    "Yuk harakatini kuzatish va rejalashtirish",
+    "Faqat ofisni bezash va jihozlash",
+    "Faqat xodimlar bayramini tashkil etish",
+    "Faqat reklama joylashtirish"
+   ],
+   "e": "Shaffoflik."
+  },
+  {
+   "b": "Dispetcherlik va axborot tizimlari",
+   "q": "Marshrutlarni optimallashtirishdan maqsad nima?",
+   "a": [
+    "Masofa, vaqt va xarajatni kamaytirish",
+    "Marshrut masofasini ataylab uzaytirish",
+    "Yoqilg'ini ko'proq sarflash",
+    "Transport vositalari sonini oshirish"
+   ],
+   "e": "Logistika vazifasi."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Yuk tashish shartnomasining tomonlari kimlar?",
+   "a": [
+    "Jo'natuvchi va tashuvchi",
+    "Faqat haydovchi va yo'lovchi o'rtasida tuziladi",
+    "Faqat bank va soliq idorasi o'rtasida tuziladi",
+    "Faqat ikki yo'lovchi o'rtasida tuziladi"
+   ],
+   "e": "Oluvchi — uchinchi shaxs."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Tashuvchi yuk butligiga qachongacha javob beradi?",
+   "a": [
+    "Yuk oluvchiga topshirilgunga qadar",
+    "Faqat yuk vagonga ortilgunga qadar",
+    "Faqat birinchi stansiyagacha",
+    "Hech qachon javob bermaydi"
+   ],
+   "e": "Qabuldan topshirishgacha."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Tashuvchi qaysi holatda javobgarlikdan ozod bo'lishi mumkin?",
+   "a": [
+    "Fors-major holatida",
+    "Haydovchi charchaganda",
+    "Yoqilg'i qimmatlaganda",
+    "Har qanday kechikishda"
+   ],
+   "e": "Qonunda belgilangan."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Yuk kechikib yetkazilganda tashuvchi qanday javobgarlikka tortiladi?",
+   "a": [
+    "Jarima (penya) to'laydi",
+    "Mukofot oladi va rag'batlanadi",
+    "Hech qanday javobgarlik yo'q",
+    "Yuk egasi jarima to'laydi"
+   ],
+   "e": "Shartnoma bo'yicha."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Da'vo (pretenziya) qachon beriladi?",
+   "a": [
+    "Tashuvchi majburiyatini buzganda",
+    "Yuk o'z vaqtida va butun yetkazilganda",
+    "Transport yangilanganda",
+    "Haydovchi almashganda"
+   ],
+   "e": "Sudgacha tartib."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Yo'lovchi tashish shartnomasi qanday hujjat bilan tasdiqlanadi?",
+   "a": [
+    "Chipta",
+    "Haydovchilik guvohnomasi va pasport nusxasi",
+    "Yuk xati va tijorat dalolatnomasi",
+    "Ombor kvitansiyasi va plomba"
+   ],
+   "e": "Elektron chipta ham."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Yo'lovchining huquqiga nima kiradi?",
+   "a": [
+    "Xavfsiz va sifatli tashish",
+    "Haydovchini boshqarish va yo'nalishni o'zgartirish",
+    "Transport vositasini o'zi haydash",
+    "Chiptasiz bepul yurish har doim"
+   ],
+   "e": "Iste'molchi huquqi."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Yo'lovchining majburiyatiga nima kiradi?",
+   "a": [
+    "Tartib va xavfsizlik qoidalariga rioya",
+    "Haydovchiga yo'nalish bo'yicha buyruq berish",
+    "Transport vositasini ta'mirlash",
+    "Boshqa yo'lovchilar chiptasini tekshirish"
+   ],
+   "e": "Qoidalar."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Transport sug'urtasining maqsadi nima?",
+   "a": [
+    "Zararni qoplash",
+    "Yoqilg'i narxini kamaytirish",
+    "Haydovchi maoshini oshirish",
+    "Yo'l belgilarini o'rnatish"
+   ],
+   "e": "Xavflarni qoplash."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "OSAGO (majburiy sug'urta) nimani qoplaydi?",
+   "a": [
+    "Uchinchi shaxslar zararini",
+    "Faqat haydovchining o'z avtomobilini",
+    "Faqat yoqilg'i xarajatini",
+    "Faqat jarimalarni"
+   ],
+   "e": "Fuqarolik javobgarligi."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Aeroport terminalining vazifasi nima?",
+   "a": [
+    "Yo'lovchi va yukka xizmat",
+    "Faqat samolyotlarni ishlab chiqarish",
+    "Faqat yoqilg'i ishlab chiqarish",
+    "Faqat ob-havo bashorati"
+   ],
+   "e": "Ro'yxat, nazorat, qo'nish."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Toshkent xalqaro aeroporti nomi kimning nomi bilan atalgan?",
+   "a": [
+    "Islom Karimov",
+    "Alisher Navoiy",
+    "Amir Temur",
+    "Mirzo Ulug'bek"
+   ],
+   "e": "2017-yildan."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Navoiy xalqaro intermodal logistika markazi nimasi bilan muhim?",
+   "a": [
+    "Bir necha transportni birlashtiradi",
+    "Faqat yo'lovchi poyezdlariga xizmat qiladi",
+    "Faqat daryo kemalariga xizmat qiladi",
+    "Faqat quvur transportiga xizmat qiladi"
+   ],
+   "e": "Yuk hub."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Dengiz portining asosiy vazifasi nima?",
+   "a": [
+    "Kemalarga xizmat ko'rsatish",
+    "Faqat samolyotlarga yoqilg'i quyish",
+    "Faqat poyezdlarni ta'mirlash",
+    "Faqat avtomobillarni sotish"
+   ],
+   "e": "Port xo'jaligi."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Tanker qanday yuklarni tashiydi?",
+   "a": [
+    "Suyuq yuklar (neft)",
+    "Universal konteynerlar",
+    "Yo'lovchilar va bagaj",
+    "Yengil avtomobillar"
+   ],
+   "e": "Dengiz kemasi."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Balker kemasi qanday yuklar uchun?",
+   "a": [
+    "Sochiluvchan yuklar",
+    "Suyuq yuklar",
+    "Yo'lovchilar",
+    "Tirik hayvonlar faqat"
+   ],
+   "e": "Don, ruda, ko'mir."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Ro-Ro kemasi nima?",
+   "a": [
+    "Texnika o'zi kiradigan kema",
+    "Faqat neft tashiydigan kema",
+    "Faqat yo'lovchi kemasi",
+    "Faqat baliq ovlash kemasi"
+   ],
+   "e": "Roll-on/Roll-off."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Magistral gaz quvuriga misol qaysi?",
+   "a": [
+    "O'rta Osiyo – Xitoy quvuri",
+    "Toshkent metrosi",
+    "Amu-Buxoro kanali",
+    "Toshkent halqa yo'li"
+   ],
+   "e": "O'zbekiston hududidan o'tadi."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Kompressor stansiyasi gaz quvurida nima uchun kerak?",
+   "a": [
+    "Bosimni tiklash uchun",
+    "Gazni sovitib suyultirish uchun",
+    "Gazni bo'yash uchun",
+    "Gazni sotish uchun"
+   ],
+   "e": "Masofa bo'ylab."
+  },
+  {
+   "b": "Havo, suv va quvur transportida tashish",
+   "q": "Havo yuk tashishning afzalligi qaysi yuklar uchun ko'proq?",
+   "a": [
+    "Shoshilinch qimmat yuklar",
+    "Juda og'ir sochiluvchan ruda",
+    "Arzon qurilish qumi",
+    "Ko'mir va koks"
+   ],
+   "e": "Tez yetkazish."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Transport hodisalarining asosiy sababi qaysi?",
+   "a": [
+    "Inson omili",
+    "Faqat transport rangi",
+    "Faqat yo'l nomi",
+    "Faqat Oy fazasi"
+   ],
+   "e": "Qoidabuzarlik."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Xavfli yuk tashiydigan avtomobil qanday belgi bilan jihozlanadi?",
+   "a": [
+    "Xavf belgilari",
+    "Faqat reklama yozuvlari",
+    "Hech qanday belgisiz",
+    "Faqat yashil chiroq"
+   ],
+   "e": "ADR talablari."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "ADR kelishuvi nimani tartibga soladi?",
+   "a": [
+    "Xavfli yuklar tashishni",
+    "Yo'lovchi avtobus jadvalini",
+    "Temir yo'l tariflarini",
+    "Havo yo'lovchilari bagajini"
+   ],
+   "e": "Yevropa kelishuvi."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Transportning atrof-muhitga asosiy salbiy ta'siri qaysi?",
+   "a": [
+    "Havo ifloslanishi, shovqin",
+    "Havoni tozalash",
+    "O'rmonlarni ko'paytirish",
+    "Suvni tozalash"
+   ],
+   "e": "Chiqindi gazlar."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Ekologik toza transportga misol qaysi?",
+   "a": [
+    "Elektr transporti",
+    "Eski dizel avtobuslar",
+    "Ko'mirda ishlaydigan parovoz",
+    "Ortiqcha yuklangan yuk mashinasi"
+   ],
+   "e": "Chiqindisiz harakat."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Avtomobil chiqindi gazlaridagi eng zaharli gazlardan biri qaysi?",
+   "a": [
+    "Uglerod oksidi (CO)",
+    "Kislorod (O₂)",
+    "Azot (N₂)",
+    "Suv bug'i (H₂O)"
+   ],
+   "e": "Is gazi."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Yevro-5 standarti nimani cheklaydi?",
+   "a": [
+    "Dvigatel chiqindilarini",
+    "Avtomobil rangini",
+    "Avtobus o'rindiqlari sonini",
+    "Yo'l kengligini"
+   ],
+   "e": "Ekologik me'yor."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Yuk tashishda xavfsizlik uchun yuk qanday joylashtiriladi?",
+   "a": [
+    "Mahkamlangan, teng taqsimlangan",
+    "Bo'sh va bir tomonga to'plangan holda",
+    "Mahkamlanmagan va baland qilib",
+    "Gabaritdan chiqarilib"
+   ],
+   "e": "Turg'unlik."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Transport vositasining texnik ko'rigi nima uchun o'tkaziladi?",
+   "a": [
+    "Soz holatni tasdiqlash",
+    "Faqat rangini baholash",
+    "Faqat narxini aniqlash",
+    "Faqat egasini aniqlash"
+   ],
+   "e": "Davriy."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Yo'lovchi tashishda haydovchiga nima taqiqlanadi?",
+   "a": [
+    "Telefonda gaplashish",
+    "Xavfsizlik kamarini taqish",
+    "Tezlik chegarasiga rioya qilish",
+    "Bekatlarda to'xtash"
+   ],
+   "e": "Diqqat chalg'ishi."
+  },
+  {
+   "b": "Tashishni rejalashtirish",
+   "q": "Tashishni rejalashtirishning asosiy ko'rsatkichlari qaysilar?",
+   "a": [
+    "Hajm, aylanma, masofa",
+    "Faqat haydovchilar yoshi",
+    "Faqat transport rangi",
+    "Faqat ob-havo"
+   ],
+   "e": "Ishlab chiqarish dasturi."
+  },
+  {
+   "b": "Tashishni rejalashtirish",
+   "q": "Transport masalasi (matematik) nimani topadi?",
+   "a": [
+    "Eng arzon tashish rejasini",
+    "Maksimal xarajatli rejani",
+    "Tasodifiy rejani",
+    "Eng uzun yo'lni"
+   ],
+   "e": "Chiziqli dasturlash."
+  },
+  {
+   "b": "Tashishni rejalashtirish",
+   "q": "Transport masalasida \"yopiq model\" nimani bildiradi?",
+   "a": [
+    "Zaxira va ehtiyoj teng",
+    "Zaxira ehtiyojdan katta",
+    "Ehtiyoj zaxiradan katta",
+    "Ma'lumot yo'q"
+   ],
+   "e": "Balans sharti."
+  },
+  {
+   "b": "Tashishni rejalashtirish",
+   "q": "Shimoli-g'arbiy burchak usuli nima uchun qo'llanadi?",
+   "a": [
+    "Boshlang'ich reja tuzish",
+    "Avtomobilni ta'mirlash",
+    "Yoqilg'i sarfini o'lchash",
+    "Haydovchini tanlash"
+   ],
+   "e": "Boshlang'ich yechim."
+  },
+  {
+   "b": "Tashishni rejalashtirish",
+   "q": "Mavsumiy yuklar tashishda nimaga e'tibor beriladi?",
+   "a": [
+    "Mavsumiy talabga",
+    "Faqat transport rangiga",
+    "Faqat haydovchi ismiga",
+    "Hech narsaga"
+   ],
+   "e": "Masalan, paxta, g'alla."
+  },
+  {
+   "b": "Tashishni rejalashtirish",
+   "q": "Paxta hosilini tashishni tashkil etishda nima muhim?",
+   "a": [
+    "Tezkorlik va yong'in xavfsizligi",
+    "Yukni ochiq va namlikda saqlash",
+    "Tashishni kechiktirish",
+    "Yong'in xavfini e'tiborsiz qoldirish"
+   ],
+   "e": "Mavsumiy yuk."
+  },
+  {
+   "b": "Bojxona va xalqaro tashish",
+   "q": "Bojxona deklaratsiyasi nima?",
+   "a": [
+    "Yuk haqidagi rasmiy ariza-hujjat",
+    "Haydovchining ish daftarchasi va ta'til jadvali",
+    "Avtomobilning reklama varaqasi",
+    "Yo'lovchilar uchun menyu"
+   ],
+   "e": "Tovarni rasmiylashtirish."
+  },
+  {
+   "b": "Bojxona va xalqaro tashish",
+   "q": "Bojxona ombori (SVX) nima?",
+   "a": [
+    "Bojxona nazoratidagi ombor",
+    "Oddiy shaxsiy garaj va ustaxona",
+    "Yo'lovchilar kutish zali va kafesi",
+    "Avtomobil yuvish shoxobchasi"
+   ],
+   "e": "Rasmiylashtirishgacha."
+  },
+  {
+   "b": "Bojxona va xalqaro tashish",
+   "q": "Tranzit bojxona rejimining mohiyati nima?",
+   "a": [
+    "Tovar boj to'lamay hududdan o'tadi",
+    "Tovar mamlakat ichida sotiladi va iste'mol qilinadi",
+    "Tovar yo'q qilinadi",
+    "Tovar qayta ishlanadi va eksport qilinmaydi"
+   ],
+   "e": "Nazorat ostida."
+  },
+  {
+   "b": "Bojxona va xalqaro tashish",
+   "q": "Kelib chiqish sertifikati nimani tasdiqlaydi?",
+   "a": [
+    "Tovar ishlab chiqarilgan mamlakatni",
+    "Haydovchining malakasini va tajribasini",
+    "Transport vositasining rangini",
+    "Yuk egasining yoshini"
+   ],
+   "e": "Imtiyozlar uchun."
+  },
+  {
+   "b": "Bojxona va xalqaro tashish",
+   "q": "Gabaritdan tashqari yukni xalqaro tashish uchun nima kerak?",
+   "a": [
+    "Maxsus ruxsatnoma",
+    "Hech qanday ruxsat talab qilinmaydi",
+    "Faqat og'zaki kelishuv yetarli",
+    "Faqat haydovchining roziligi yetarli"
+   ],
+   "e": "Yo'l organlaridan."
+  },
+  {
+   "b": "Bojxona va xalqaro tashish",
+   "q": "Xalqaro avtomobil tashishda haydovchi qanday hujjatlarga ega bo'lishi kerak?",
+   "a": [
+    "Pasport, guvohnoma, CMR va ruxsat",
+    "Faqat maktab diplomi",
+    "Faqat kutubxona kartasi",
+    "Hech qanday hujjat"
+   ],
+   "e": "Majburiy to'plam."
+  },
+  {
+   "b": "Bojxona va xalqaro tashish",
+   "q": "Ikki tomonlama ruxsatnoma (dozvol) nima uchun kerak?",
+   "a": [
+    "Xorijda tashish uchun",
+    "Mamlakat ichida taksi haydash uchun",
+    "Avtomobilni sotish uchun",
+    "Avtomobilni bo'yash uchun"
+   ],
+   "e": "Kvota asosida."
+  },
+  {
+   "b": "Shahar transporti va harakatni boshqarish",
+   "q": "Avtomatlashtirilgan harakatni boshqarish tizimi (AHBT) nima beradi?",
+   "a": [
+    "Svetoforlarni oqimga moslash",
+    "Faqat yo'l belgilarini bo'yash",
+    "Faqat avtomobillarni sotish",
+    "Faqat haydovchilarni o'qitish"
+   ],
+   "e": "\"Yashil to'lqin\"."
+  },
+  {
+   "b": "Shahar transporti va harakatni boshqarish",
+   "q": "\"Yashil to'lqin\" nima?",
+   "a": [
+    "Svetoforlarning muvofiq yonishi",
+    "Yashil rangga bo'yalgan avtobuslar",
+    "Faqat parklardagi yo'laklar",
+    "Faqat ekologik aksiya nomi"
+   ],
+   "e": "To'xtashsiz o'tish."
+  },
+  {
+   "b": "Shahar transporti va harakatni boshqarish",
+   "q": "Jamoat transporti uchun ajratilgan yo'lakning afzalligi nima?",
+   "a": [
+    "Tezlik va muntazamlik ortadi",
+    "Avtobuslar sekinlashadi",
+    "Tirbandlik ko'payadi",
+    "Yo'lovchilar kamayadi"
+   ],
+   "e": "Ustuvorlik."
+  },
+  {
+   "b": "Shahar transporti va harakatni boshqarish",
+   "q": "Park-and-ride tizimi nima?",
+   "a": [
+    "Avtomobildan jamoat transportiga o'tish",
+    "Faqat avtomobilda markazga kirish",
+    "Faqat velosiped ijarasi",
+    "Faqat taksi chaqirish"
+   ],
+   "e": "Shahar chekkasida."
+  },
+  {
+   "b": "Shahar transporti va harakatni boshqarish",
+   "q": "Tirbandlikni kamaytirish usuli qaysi?",
+   "a": [
+    "Jamoat transportini rivojlantirish",
+    "Har bir oilaga ko'proq avtomobil",
+    "Svetoforlarni o'chirish",
+    "Yo'llarni toraytirish"
+   ],
+   "e": "Transport siyosati."
+  },
+  {
+   "b": "Shahar transporti va harakatni boshqarish",
+   "q": "Transport oqimining zichligi nima?",
+   "a": [
+    "Uzunlik birligidagi avtomobillar",
+    "Avtomobil og'irligi",
+    "Yo'l kengligi",
+    "Svetofor soni"
+   ],
+   "e": "avt/km."
+  },
+  {
+   "b": "Shahar transporti va harakatni boshqarish",
+   "q": "Yo'lning o'tkazish qobiliyati nima?",
+   "a": [
+    "Maksimal o'tuvchi avtomobillar soni",
+    "Yo'lning umumiy uzunligi",
+    "Yo'l chetidagi daraxtlar soni",
+    "Yo'l qoplamasi rangi"
+   ],
+   "e": "avt/soat."
+  },
+  {
+   "b": "Temir yo'lda yo'lovchi tashish",
+   "q": "Temir yo'l vokzalida yo'lovchilarga xizmatning asosiy turlari qaysilar?",
+   "a": [
+    "Chipta sotish, kutish, ma'lumot, bagaj",
+    "Faqat yuk vagonlarini ta'mirlash",
+    "Faqat lokomotivlarni ekipirovka qilish",
+    "Faqat yo'llarni ta'mirlash"
+   ],
+   "e": "Kompleks xizmat."
+  },
+  {
+   "b": "Temir yo'lda yo'lovchi tashish",
+   "q": "Yo'lovchi poyezdlarining tarkibini kim belgilaydi?",
+   "a": [
+    "Tuzish sxemasi",
+    "Har bir yo'lovchi o'zi",
+    "Faqat provodnik o'zi",
+    "Tasodifiy tarzda"
+   ],
+   "e": "Talabga ko'ra."
+  },
+  {
+   "b": "Temir yo'lda yo'lovchi tashish",
+   "q": "Yo'lovchi vagonidan foydalanish koeffitsiyenti nima?",
+   "a": [
+    "Band o'rinlar ulushi",
+    "Vagon uzunligining kengligiga nisbati",
+    "Vagon og'irligining tezlikka nisbati",
+    "Chipta narxining masofaga nisbati"
+   ],
+   "e": "To'lish."
+  },
+  {
+   "b": "Temir yo'lda yo'lovchi tashish",
+   "q": "Yo'lovchi poyezdida bolalar uchun chipta qanday rasmiylashtiriladi?",
+   "a": [
+    "Belgilangan imtiyozli tartibda",
+    "Hech qachon rasmiylashtirilmaydi",
+    "Kattalardan ikki baravar qimmat",
+    "Faqat haydovchi ruxsati bilan"
+   ],
+   "e": "Yoshga qarab."
+  },
+  {
+   "b": "Temir yo'lda yo'lovchi tashish",
+   "q": "Elektron chiptaning afzalligi nima?",
+   "a": [
+    "Onlayn xarid",
+    "Faqat kassadan sotib olish",
+    "Ko'proq qog'oz sarfi",
+    "Navbatlarning ortishi"
+   ],
+   "e": "Raqamli xizmat."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Yukni markirovka qilish nima?",
+   "a": [
+    "Belgi va yozuvlar qo'yish",
+    "Yukni bo'yab bezash",
+    "Yukni yo'q qilish",
+    "Yukni yashirish"
+   ],
+   "e": "Manzil, ehtiyot belgilari."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "\"Mo'rt, ehtiyot bo'ling\" belgisi qanday yukka qo'yiladi?",
+   "a": [
+    "Sinuvchan yukka",
+    "Sochiluvchan qumga",
+    "Metall prokatga",
+    "Ko'mirga"
+   ],
+   "e": "Manipulyatsiya belgisi."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "\"Namlikdan saqlang\" belgisi qanday tasvirlanadi?",
+   "a": [
+    "Soyabon belgisi",
+    "Olov belgisi",
+    "Bosh suyagi belgisi",
+    "Chaqmoq belgisi"
+   ],
+   "e": "Xalqaro piktogramma."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Yuk birligini yiriklashtirishning afzalligi nima?",
+   "a": [
+    "Yuklash tezlashadi",
+    "Yuklash sekinlashadi",
+    "Yuk ko'proq shikastlanadi",
+    "Mehnat sarfi ortadi"
+   ],
+   "e": "Paket, konteyner."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Konteyner terminalining asosiy jihozi qaysi?",
+   "a": [
+    "Kranlar va richstakerlar",
+    "Faqat qo'l aravachalari",
+    "Faqat velosipedlar",
+    "Faqat yo'lovchi zinapoyalari"
+   ],
+   "e": "Og'ir yuk mexanizmlari."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Yukni vagonda joylashtirish va mahkamlash qanday hujjat asosida bajariladi?",
+   "a": [
+    "Texnik shartlar",
+    "Haydovchining xohishi",
+    "Yo'lovchilar maslahati",
+    "Hech qanday hujjatsiz"
+   ],
+   "e": "Me'yoriy talablar."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Avtomobil parkidan foydalanish koeffitsiyenti nima?",
+   "a": [
+    "Ishdagi kunlar ulushi",
+    "Avtomobillar soni ÷ haydovchilar soni",
+    "Yoqilg'i ÷ masofa",
+    "Narx ÷ yuk"
+   ],
+   "e": "αi."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Texnik tayyorlik koeffitsiyenti nima?",
+   "a": [
+    "Soz avtomobillar ulushi",
+    "Ta'mirdagi avtomobillar ulushi",
+    "Haydovchilar ulushi",
+    "Yo'lovchilar ulushi"
+   ],
+   "e": "αt."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Bir avtomobilning sutkalik unumdorligi nimaga bog'liq?",
+   "a": [
+    "Yuk ko'tarish va reyslar soni",
+    "Faqat avtomobil rangiga",
+    "Faqat haydovchi ismiga",
+    "Faqat davlat raqamiga"
+   ],
+   "e": "t, t·km."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Reyslar soni ortsa unumdorlik qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Boshqa shartlar teng."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Yuklash-tushirish vaqti qisqarsa nima bo'ladi?",
+   "a": [
+    "Reyslar soni ortadi",
+    "Reyslar soni kamayadi",
+    "Masofa uzayadi",
+    "Yoqilg'i ortadi"
+   ],
+   "e": "Unumdorlik."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Transport infratuzilmasiga nima kiradi?",
+   "a": [
+    "Yo'llar, stansiyalar, portlar, aeroportlar",
+    "Faqat transport vositalarining salonlari va o'rindiqlari",
+    "Faqat haydovchilar uchun kiyim-kechak",
+    "Faqat yo'lovchilarning shaxsiy buyumlari"
+   ],
+   "e": "Statsionar ob'ektlar."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Transport tugunining ta'rifi qaysi?",
+   "a": [
+    "Yo'nalishlar kesishgan joy",
+    "Bitta avtomobil ichidagi tugun",
+    "Arqondagi tugun",
+    "Bitta yo'l belgisi"
+   ],
+   "e": "Masalan, yirik shahar."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "O'zbekistonning transport-logistika salohiyatini oshirish nimaga bog'liq?",
+   "a": [
+    "Koridor va infratuzilmaga",
+    "Faqat transport soliqlarini oshirishga",
+    "Faqat chegaralarni yopishga",
+    "Faqat yo'llarni qisqartirishga"
+   ],
+   "e": "Dengizga chiqishi yo'q davlat."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "O'zbekiston qanday geografik holatga ega mamlakat?",
+   "a": [
+    "Dengizga ikki marta chiqa olmaydi",
+    "Okean sohilidagi davlat",
+    "Orol davlati",
+    "Bir tomoni dengizga chiqadi"
+   ],
+   "e": "Doubly landlocked."
+  },
+  {
+   "b": "Transport tizimi asoslari",
+   "q": "Transport xizmati sifatining asosiy mezonlari qaysilar?",
+   "a": [
+    "Tezlik, ishonch, xavfsizlik, narx",
+    "Faqat transport vositasining rangi",
+    "Faqat haydovchining tashqi ko'rinishi",
+    "Faqat reklama soni"
+   ],
+   "e": "Iste'molchi talablari."
+  },
+  {
+   "b": "Logistika",
+   "q": "Logistik xarajatlarga nima kiradi?",
+   "a": [
+    "Tashish, saqlash, boshqaruv xarajatlari",
+    "Faqat ishlab chiqarish uskunalari narxi",
+    "Faqat xodimlar bayrami xarajati",
+    "Faqat ofis mebeli narxi"
+   ],
+   "e": "Umumiy xarajat."
+  },
+  {
+   "b": "Logistika",
+   "q": "Zaxiralarni boshqarishning maqsadi nima?",
+   "a": [
+    "Yetishmovchilik va ortiqchalikni oldini olish",
+    "Zaxiralarni maksimal oshirish har doim",
+    "Zaxirani butunlay yo'q qilish",
+    "Zaxiralarni hisobga olmaslik"
+   ],
+   "e": "Optimal daraja."
+  },
+  {
+   "b": "Logistika",
+   "q": "Teskari logistika nima?",
+   "a": [
+    "Qaytarilgan tovar oqimi",
+    "Faqat yangi tovarlarni yetkazish",
+    "Faqat xomashyo sotib olish",
+    "Faqat reklama tarqatish"
+   ],
+   "e": "Reverse logistics."
+  },
+  {
+   "b": "Logistika",
+   "q": "Distributsiya markazi nima?",
+   "a": [
+    "Taqsimlovchi ombor",
+    "Faqat ishlab chiqarish sexi",
+    "Faqat chakana do'kon",
+    "Faqat avtobus bekati"
+   ],
+   "e": "Taqsimot."
+  },
+  {
+   "b": "Logistika",
+   "q": "\"Oxirgi mil\" logistikasi nima?",
+   "a": [
+    "Iste'molchiga oxirgi yetkazish",
+    "Xomashyo qazib olish bosqichi",
+    "Zavodda ishlab chiqarish bosqichi",
+    "Portda kemaga yuklash bosqichi"
+   ],
+   "e": "Last mile."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Yuk tashish usulini tanlashda nima hisobga olinadi?",
+   "a": [
+    "Yuk turi, masofa, muddat, narx",
+    "Faqat haydovchining shaxsiy xohishi",
+    "Faqat transport vositasining rangi",
+    "Faqat ob-havo bashorati"
+   ],
+   "e": "Optimal tanlov."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Yuklarni guruhlab tashish (konsolidatsiya) nima beradi?",
+   "a": [
+    "Tashish xarajati kamayadi",
+    "Tashish xarajati ortadi",
+    "Yuk shikastlanishi ko'payadi",
+    "Yetkazish kechikadi har doim"
+   ],
+   "e": "Kichik jo'natmalar."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Sochiluvchan yuklarni tashishda nimaga e'tibor beriladi?",
+   "a": [
+    "To'kilishga qarshi choralarga",
+    "Faqat yukni chiroyli bezashga",
+    "Faqat yukni rangli qadoqlashga",
+    "Hech narsaga"
+   ],
+   "e": "Brezent, qopqoq."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Tirik hayvonlarni tashishda qanday talab bor?",
+   "a": [
+    "Veterinariya hujjati",
+    "Hech qanday hujjat talab qilinmaydi",
+    "Oddiy yopiq konteynerda havosiz",
+    "Faqat tunda tashish"
+   ],
+   "e": "Sanitariya talablari."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Uzun o'lchamli yuk (truba, yog'och) qanday transportda tashiladi?",
+   "a": [
+    "Platformada",
+    "Faqat yo'lovchi avtobusida",
+    "Faqat refrijeratorda",
+    "Faqat sisternada"
+   ],
+   "e": "Mahkamlash bilan."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Ekspeditor kim?",
+   "a": [
+    "Tashishni tashkil etuvchi vositachi",
+    "Faqat yuk avtomobili haydovchisi",
+    "Faqat yo'lovchi",
+    "Faqat ombor qorovuli"
+   ],
+   "e": "Transport ekspeditsiyasi."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Transport ekspeditsiyasi shartnomasida ekspeditor nima qiladi?",
+   "a": [
+    "Tashishni tashkil etadi",
+    "Faqat tovar ishlab chiqaradi",
+    "Faqat transport vositasini ta'mirlaydi",
+    "Faqat soliq to'laydi"
+   ],
+   "e": "Vositachilik xizmati."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Yuk oluvchi yukni qabul qilishda nimani tekshiradi?",
+   "a": [
+    "Miqdor, sifat, hujjat",
+    "Faqat haydovchining kiyimini",
+    "Faqat avtomobil rangini",
+    "Hech narsani"
+   ],
+   "e": "Qabul dalolatnomasi."
+  },
+  {
+   "b": "Tashish shartnomasi va javobgarlik",
+   "q": "Yuk shikastlanganini aniqlagan oluvchi nima qiladi?",
+   "a": [
+    "Dalolatnoma va da'vo",
+    "Indamay qabul qiladi",
+    "Yukni yo'q qiladi",
+    "Haydovchini jazolaydi o'zi"
+   ],
+   "e": "Huquqiy tartib."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Tashishda yong'in xavfsizligi uchun nima shart?",
+   "a": [
+    "O't o'chirish vositalari",
+    "Transportda ochiq olov yoqish",
+    "Yonuvchi moddalarni ochiq tashish",
+    "Chekish uchun maxsus joy salonda"
+   ],
+   "e": "Majburiy talab."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Haydovchilarning malakasini oshirish nima uchun kerak?",
+   "a": [
+    "Xavfsizlikni oshirish",
+    "Faqat maoshni kamaytirish",
+    "Faqat ish vaqtini uzaytirish",
+    "Faqat transport rangini o'zgartirish"
+   ],
+   "e": "Davriy o'qish."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Transport vositalarida alkogol ta'sirida ishlash qanday baholanadi?",
+   "a": [
+    "Qat'iyan taqiqlanadi",
+    "Ruxsat etiladi",
+    "Faqat kechasi ruxsat",
+    "Faqat dam olish kunlari ruxsat"
+   ],
+   "e": "Jinoiy va ma'muriy javobgarlik."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Konteyner poyezdi nima?",
+   "a": [
+    "Faqat konteyner platformalaridan tuzilgan poyezd",
+    "Faqat yo'lovchi vagonlaridan tuzilgan poyezd",
+    "Faqat sisternalardan tuzilgan poyezd",
+    "Faqat bo'sh yarim vagonlardan tuzilgan poyezd"
+   ],
+   "e": "Tezyurar konteyner poyezdlari."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yuk egasiga vagon yetib kelganligi haqida qanday xabar beriladi?",
+   "a": [
+    "Stansiya xabarnoma yuboradi",
+    "Hech qanday xabar berilmaydi",
+    "Faqat gazetada e'lon qilinadi",
+    "Faqat yo'lovchilar orqali"
+   ],
+   "e": "Belgilangan muddatda."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yuk vagonining aylanish vaqtini qisqartirish nima beradi?",
+   "a": [
+    "Kamroq vagon kerak",
+    "Ko'proq vagon kerak bo'ladi",
+    "Tashish sekinlashadi",
+    "Xarajat ortadi"
+   ],
+   "e": "Samaradorlik."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Kirma yo'llarga ega korxonalarning afzalligi nima?",
+   "a": [
+    "Yukni qayta yuklashsiz jo'natish",
+    "Yukni faqat avtomobilda olib kelish zarurati",
+    "Qo'shimcha qayta yuklash",
+    "Yuk tashishning qimmatlashishi"
+   ],
+   "e": "To'g'ridan-to'g'ri."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Tashish narxiga qaysi omil ta'sir qiladi?",
+   "a": [
+    "Masofa, yuk turi va hajm",
+    "Faqat haydovchining yoshi",
+    "Faqat yuk egasining ismi",
+    "Faqat hafta kuni nomi"
+   ],
+   "e": "Tarif tuzilishi."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Tarif masofaga qarab qanday o'zgaradi (odatda)?",
+   "a": [
+    "Masofa ortishi bilan 1 km narxi kamayadi",
+    "Masofa ortishi bilan 1 km narxi keskin oshadi",
+    "Masofaga umuman bog'liq emas",
+    "Faqat qisqa masofa qimmat emas"
+   ],
+   "e": "Tarif shkalasi."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Transport korxonasining daromadi asosan nimadan shakllanadi?",
+   "a": [
+    "Tashish to'lovidan",
+    "Faqat davlat mukofotidan",
+    "Faqat xodimlar badalidan",
+    "Faqat reklama sotuvidan"
+   ],
+   "e": "Asosiy faoliyat."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Bir yo'lovchini tashish tannarxi qanday topiladi?",
+   "a": [
+    "Xarajatlar ÷ yo'lovchilar soni",
+    "Yo'lovchilar soni × chipta narxi",
+    "Bosib o'tilgan masofa ÷ vaqt",
+    "Yoqilg'i sarfi × masofa"
+   ],
+   "e": "so'm/yo'lovchi."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Avtomobil yurishining yillik umumiy qiymati nimaga bog'liq?",
+   "a": [
+    "Ish kunlari va sutkalik yurishga",
+    "Faqat avtomobil kuzovining rangiga",
+    "Faqat haydovchining ismi va yoshiga",
+    "Faqat ombor hajmi va maydoniga"
+   ],
+   "e": "km."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Ish vaqtining nol yurish (nulevoy probeg) nima?",
+   "a": [
+    "Garajdan birinchi yuklash punktigacha va qaytish yurishi",
+    "Yuk ortilgan holdagi asosiy yurish",
+    "Yukni vagon yoki kuzovga ortish vaqti",
+    "Yukni manzilda tushirish vaqti"
+   ],
+   "e": "Kamaytirish kerak."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Yuk tashishning dinamik koeffitsiyenti nima?",
+   "a": [
+    "Haqiqiy t·km ÷ mumkin bo'lgan t·km",
+    "Yuk massasining tashish vaqtiga nisbati",
+    "Masofaning tashish narxiga nisbati",
+    "Reyslar sonining haydovchilar soniga nisbati"
+   ],
+   "e": "γd."
+  },
+  {
+   "b": "Transport ko'rsatkichlari",
+   "q": "Unumdorlikni oshirish uchun qaysi chora samarali?",
+   "a": [
+    "Bo'sh yurish va bekor turishni kamaytirish",
+    "Bo'sh yurishni ataylab ko'paytirish",
+    "Yuklash-tushirishni sekinlashtirish",
+    "Reyslar sonini kamaytirish"
+   ],
+   "e": "Resurslardan foydalanish."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Vagon yuklash rejasi nimaga asoslanadi?",
+   "a": [
+    "Yuk jo'natuvchilar arizalariga",
+    "Faqat vagonlarning bo'yoq rangiga",
+    "Faqat lokomotivning seriya raqamiga",
+    "Faqat ob-havo bashoratiga"
+   ],
+   "e": "Oylik reja."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Marshrutlashtirishning afzalligi nima?",
+   "a": [
+    "Saralash stansiyalarida ish kamayadi",
+    "Saralash stansiyalarida ish hajmi ortadi",
+    "Yuk yetkazish muddati uzayadi",
+    "Vagon aylanish vaqti uzayadi"
+   ],
+   "e": "To'g'ridan-to'g'ri poyezdlar."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Stansiyada vagonning bekor turib qolishi nimaga olib keladi?",
+   "a": [
+    "Vagon aylanmasi uzayadi",
+    "Vagon aylanmasi sezilarli qisqaradi",
+    "Tashish jarayoni tezlashadi",
+    "Transport xarajatlari kamayadi"
+   ],
+   "e": "Samarasizlik."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yuk qabul qilish va jo'natish operatsiyalari qayerda bajariladi?",
+   "a": [
+    "Yuk hovlisi va omborlarda",
+    "Lokomotiv kabinasi ichida",
+    "Yo'lovchi vagoni salonida",
+    "Signalizatsiya posti binosida"
+   ],
+   "e": "Yuk stansiyasi."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Yuk tashish rejasining bajarilishi qanday nazorat qilinadi?",
+   "a": [
+    "Operativ hisobot va dispetcherlik orqali",
+    "Hech qanday nazoratsiz, o'z-o'zidan",
+    "Faqat yil oxirida bir marta",
+    "Faqat yo'lovchilar so'rovnomasi orqali"
+   ],
+   "e": "Kundalik monitoring."
+  },
+  {
+   "b": "Temir yo'lda tashish jarayoni",
+   "q": "Vagon-kun nima?",
+   "a": [
+    "Bir vagonning bir sutkadagi ishi birligi",
+    "Bir vagonning bir soatlik ta'miri",
+    "Bir lokomotivning bir yillik ishi",
+    "Bir stansiyaning bir oylik ishi"
+   ],
+   "e": "Hisob birligi."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Yevropoddonning standart o'lchami qaysi?",
+   "a": [
+    "1200×800 mm",
+    "500×500 mm",
+    "2000×2000 mm",
+    "100×100 mm"
+   ],
+   "e": "EUR-pallet."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "40 futli konteyner necha TEU ga teng?",
+   "a": [
+    "2 TEU",
+    "1 TEU",
+    "4 TEU",
+    "0,5 TEU"
+   ],
+   "e": "FEU."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Refrijerator konteyner qanday belgilanadi?",
+   "a": [
+    "Reefer",
+    "Tank",
+    "Flat",
+    "Open top"
+   ],
+   "e": "Sovutgichli."
+  },
+  {
+   "b": "Yuk tashish texnologiyasi",
+   "q": "Suyuqlik tashiydigan konteyner qanday nomlanadi?",
+   "a": [
+    "Tank-konteyner",
+    "Reefer",
+    "Flat-rack",
+    "Dry van"
+   ],
+   "e": "Ramadagi sisterna."
+  },
+  {
+   "b": "Logistika",
+   "q": "ABC tahlili logistikada nima uchun qo'llanadi?",
+   "a": [
+    "Zaxiralarni ahamiyatiga ko'ra guruhlash",
+    "Haydovchilarni alifbo bo'yicha tartiblash",
+    "Yo'llarni bo'yash",
+    "Avtomobillarni sotish"
+   ],
+   "e": "Pareto tamoyili."
+  },
+  {
+   "b": "Logistika",
+   "q": "Lojistika operatorining KPI ko'rsatkichiga misol qaysi?",
+   "a": [
+    "O'z vaqtida yetkazish ulushi",
+    "Ofis devorlarining rangi",
+    "Xodimlar tug'ilgan kuni",
+    "Avtomobil radiosi"
+   ],
+   "e": "Samaradorlik o'lchovi."
+  },
+  {
+   "b": "Logistika",
+   "q": "Ta'minot zanjirida \"bullwhip\" (qamchi) effekti nima?",
+   "a": [
+    "Talab tebranishining zanjir bo'ylab kuchayishi",
+    "Talabning bir tekisligi",
+    "Zaxiraning yo'qligi",
+    "Transportning tezlashishi"
+   ],
+   "e": "Axborot buzilishi."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Incoterms bo'yicha FOB sharti qaysi transportga tegishli?",
+   "a": [
+    "Dengiz transporti",
+    "Avtomobil transporti",
+    "Quvur transporti",
+    "Havo transporti faqat"
+   ],
+   "e": "Free On Board."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Incoterms bo'yicha CIF shartida sotuvchi nimani to'laydi?",
+   "a": [
+    "Narx, sug'urta va fraxt",
+    "Faqat tovar narxini",
+    "Faqat bojni",
+    "Hech narsani"
+   ],
+   "e": "Cost, Insurance, Freight."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Fraxt nima?",
+   "a": [
+    "Yuk tashish haqi (asosan dengizda)",
+    "Yuk og'irligi",
+    "Kema nomi",
+    "Port nomi"
+   ],
+   "e": "Freight."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "\"Lapis lazuli\" transport koridori qaysi yo'nalishni bog'laydi?",
+   "a": [
+    "Afg'oniston – Turkmaniston – Kavkaz – Turkiya",
+    "Rossiya – Xitoy",
+    "Hindiston – Eron",
+    "Qozog'iston – Rossiya"
+   ],
+   "e": "Xalqaro koridor."
+  },
+  {
+   "b": "Multimodal va xalqaro tashish",
+   "q": "Termiz xalqaro savdo-logistika markazi qaysi davlat bilan savdoda muhim?",
+   "a": [
+    "Afg'oniston",
+    "Yaponiya",
+    "Braziliya",
+    "Kanada"
+   ],
+   "e": "Chegara hududi."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Haydovchi charchoq belgilarini sezsa nima qilishi kerak?",
+   "a": [
+    "To'xtab dam olishi",
+    "Tezlikni oshirishi",
+    "Musiqani balandlatishi",
+    "Uzoqroq haydashni davom ettirishi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Transport xavfsizligi va ekologiya",
+   "q": "Yuk avtomobilida \"o'lik zona\" nima?",
+   "a": [
+    "Haydovchi ko'ra olmaydigan hudud",
+    "Yuk ortilmaydigan joy",
+    "Yoqilg'i bakining ichi",
+    "Kabina tomi"
+   ],
+   "e": "Ko'zgular bilan kamaytiriladi."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Demerredj nima?",
+   "a": [
+    "Konteyner yoki kema ortiqcha turgani uchun jarima",
+    "Yuk tashish chegirmasi",
+    "Haydovchi mukofoti",
+    "Yoqilg'i solig'i"
+   ],
+   "e": "Demurrage."
+  },
+  {
+   "b": "Tariflar va transport iqtisodiyoti",
+   "q": "Yalpi daromad va xarajat farqi nima?",
+   "a": [
+    "Foyda",
+    "Amortizatsiya",
+    "Tarif",
+    "Fraxt"
+   ],
+   "e": "Moliyaviy natija."
+  }
+ ]
+}
