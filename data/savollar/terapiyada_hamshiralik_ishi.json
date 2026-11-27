@@ -1,0 +1,1273 @@
+{
+ "kod": "",
+ "nomi": "Terapiyada hamshiralik ishi",
+ "turi": "maxsus",
+ "manba": "Ichki kasalliklarda hamshiralik ishi darsliklari (tibbiyot kollejlari uchun), hamshiralik jarayoni standartlari, O'zbekiston SSV klinik bayonnomalari",
+ "savollar": [
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Hamshiralik jarayoni nechta bosqichdan iborat?",
+   "a": [
+    "Beshta",
+    "Uchta",
+    "Ikkita",
+    "Yettita"
+   ],
+   "e": "Tekshirish, tashxis, rejalashtirish, amalga oshirish, baholash."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Hamshiralik jarayonining birinchi bosqichi qaysi?",
+   "a": [
+    "Bemorni tekshirish",
+    "Hamshiralik tashxisini qo'yish",
+    "Parvarish rejasini tuzish",
+    "Natijani baholash"
+   ],
+   "e": "Sub'ektiv va ob'ektiv ma'lumotlar."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Hamshiralik tashxisi shifokor tashxisidan nimasi bilan farq qiladi?",
+   "a": [
+    "Bemor muammolarini aks ettiradi",
+    "Kasallik nomini aniq belgilaydi",
+    "Faqat laboratoriya natijasiga asoslanadi",
+    "Dori tayinlashni nazarda tutadi"
+   ],
+   "e": "Masalan, \"uyqu buzilishi\", \"og'riq\"."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Bemorning sub'ektiv ma'lumotlariga nima kiradi?",
+   "a": [
+    "Bemor shikoyatlari",
+    "Arterial bosim ko'rsatkichi",
+    "Tana harorati",
+    "Qon tahlili natijasi"
+   ],
+   "e": "Bemor o'zi aytadi."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Ob'ektiv tekshirish usullariga nima kiradi?",
+   "a": [
+    "Ko'rish, paypaslash, perkussiya, auskultatsiya",
+    "Faqat bemor va qarindoshlarini batafsil so'roq qilish",
+    "Faqat qarindoshlardan so'rash",
+    "Faqat hujjatlarni o'qish"
+   ],
+   "e": "Fizikal tekshirish."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Auskultatsiya nima?",
+   "a": [
+    "A'zolar tovushini eshitish",
+    "Barmoq bilan urib tekshirish",
+    "Qo'l bilan paypaslash",
+    "Ko'z bilan kuzatish"
+   ],
+   "e": "Yurak, o'pka."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Perkussiya nima?",
+   "a": [
+    "Urib, tovushga qarab tekshirish",
+    "Fonendoskop bilan a'zolar tovushini eshitish",
+    "Qon olish",
+    "Puls sanash"
+   ],
+   "e": "To'mtoq, timpanik tovush."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Kattalarda normal puls chastotasi qancha?",
+   "a": [
+    "Daqiqasiga 60–80",
+    "Daqiqasiga 30–40",
+    "Daqiqasiga 100–120",
+    "Daqiqasiga 140–160"
+   ],
+   "e": "Taxikardiya — 90 dan ko'p."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Puls daqiqasiga 60 dan kam bo'lishi qanday ataladi?",
+   "a": [
+    "Bradikardiya",
+    "Taxikardiya",
+    "Aritmiya",
+    "Taxipnoe"
+   ],
+   "e": "Sekin yurak urishi."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Nafas soni daqiqasiga 20 dan ko'p bo'lishi qanday ataladi?",
+   "a": [
+    "Taxipnoe",
+    "Bradipnoe",
+    "Apnoe",
+    "Ortopnoe"
+   ],
+   "e": "Tezlashgan nafas."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Nafasning to'xtashi qanday ataladi?",
+   "a": [
+    "Apnoe",
+    "Dispnoe",
+    "Taxipnoe",
+    "Ortopnoe"
+   ],
+   "e": "Shoshilinch holat."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Bemor yotganda nafas qisishi kuchayib, o'tirgan holatni majburan egallashi qanday ataladi?",
+   "a": [
+    "Ortopnoe",
+    "Apnoe",
+    "Bradipnoe",
+    "Eupnoe"
+   ],
+   "e": "Yurak yetishmovchiligida."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Arterial bosimni o'lchashda manjeta qayerga qo'yiladi?",
+   "a": [
+    "Yelkaga, tirsakdan yuqori",
+    "Bilakka, kaft bo'g'imiga yaqin joyga",
+    "Songa, tizza ostiga",
+    "Bo'yinga"
+   ],
+   "e": "Korotkov usuli."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Arterial bosim o'lchanishidan oldin bemor qancha dam olishi kerak?",
+   "a": [
+    "Kamida 5 daqiqa",
+    "1 soniya",
+    "2 soat",
+    "Dam olish shart emas"
+   ],
+   "e": "Aniq natija uchun."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Tana harorati qayerda eng ko'p o'lchanadi (Markaziy Osiyo amaliyotida)?",
+   "a": [
+    "Qo'ltiq ostida",
+    "Quloq yo'li ichida",
+    "Burunda",
+    "Barmoqda"
+   ],
+   "e": "10 daqiqa ushlanadi."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Harorat varaqasi nima uchun yuritiladi?",
+   "a": [
+    "Harorat, puls, AQB dinamikasi uchun",
+    "Ovqat menyusini yozish uchun",
+    "Bemorning manzili va telefonini yozish uchun",
+    "Dorilar narxini hisoblash uchun"
+   ],
+   "e": "Grafik ko'rinishda."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Sutkalik diurez nima?",
+   "a": [
+    "Sutkadagi siydik miqdori",
+    "Bir sutkada ichilgan suv miqdori",
+    "Bir sutkadagi puls soni",
+    "Bir sutkadagi nafas soni"
+   ],
+   "e": "Suv balansi."
+  },
+  {
+   "b": "Hamshiralik jarayoni va tekshirish",
+   "q": "Suv balansini aniqlashda nima hisoblanadi?",
+   "a": [
+    "Kirgan va chiqqan suyuqlik nisbati",
+    "Faqat bir sutkada ichilgan suv miqdori",
+    "Faqat siydik rangi",
+    "Faqat tana vazni"
+   ],
+   "e": "Shishlarni kuzatish."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "O'tkir bronxitning asosiy belgisi qaysi?",
+   "a": [
+    "Yo'tal, keyin balg'am",
+    "Qorindagi kuchli og'riq",
+    "Sariqlik",
+    "Siydikda qon"
+   ],
+   "e": "Bronx shilliq qavati yallig'lanishi."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Pnevmoniya nima?",
+   "a": [
+    "O'pka yallig'lanishi",
+    "Bronxlarning spazmi",
+    "Plevraning o'smasi",
+    "Hiqildoq yallig'lanishi"
+   ],
+   "e": "Ko'pincha bakterial."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Krupoz pnevmoniyaga xos balg'am qanday?",
+   "a": [
+    "\"Zangsimon\" balg'am",
+    "Ko'p miqdordagi suvsimon",
+    "Oq ko'pikli",
+    "Yiringli, hidli, ko'p"
+   ],
+   "e": "Eritrotsitlar parchalanishi."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Bronxial astma xurujining asosiy belgisi qaysi?",
+   "a": [
+    "Nafas chiqarish qiyinligi",
+    "Nafas olishning qiyinlashuvi faqat",
+    "Qon tupurish",
+    "Isitma va qaltirash"
+   ],
+   "e": "Bronxospazm."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Bronxial astma xurujida bemor qanday holatni egallaydi?",
+   "a": [
+    "O'tirib, qo'llarini tirab",
+    "Chalqancha yotib",
+    "Qorni bilan yotib",
+    "Boshini pastga osiltirib"
+   ],
+   "e": "Yordamchi mushaklar ishlaydi."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Bronxial astma xurujida hamshira birinchi navbatda nima qiladi?",
+   "a": [
+    "O'tqazib, ingalyatorga yordam berish",
+    "Bemorni yotqizib, uxlatishga harakat qilish",
+    "Issiq ovqat beradi",
+    "Hech narsa qilmay kutadi"
+   ],
+   "e": "Shifokorni chaqiradi."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "O'pka silining xarakterli belgilari qaysilar?",
+   "a": [
+    "Yo'tal, terlash, ozish, subfebrilitet",
+    "O'tkir qorin og'rig'i va qusish",
+    "Bo'g'imlarning shishishi",
+    "Teri qichishi"
+   ],
+   "e": "Intoksikatsiya sindromi."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Balg'amni sil tayoqchasiga tekshirish uchun nechta namuna yig'iladi (odatda)?",
+   "a": [
+    "Uch marta",
+    "Bir marta",
+    "O'n marta",
+    "Umuman yig'ilmaydi"
+   ],
+   "e": "Mikroskopiya."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Balg'am qanday idishga yig'iladi?",
+   "a": [
+    "Qopqoqli toza idishga",
+    "Ochiq likopchaga",
+    "Qog'oz salfetkaga",
+    "Istalgan ochiq stakan yoki likopchaga"
+   ],
+   "e": "Infeksion xavfsizlik."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Qon tupurish (gemoptoe) bo'lganda bemorga nima tavsiya etiladi?",
+   "a": [
+    "Tinchlik, yarim o'tirgan holat",
+    "Faol yurish",
+    "Issiq ichimlik ichish",
+    "Ko'krakka issiq grelka qo'yish"
+   ],
+   "e": "Shifokorni zudlik bilan chaqirish."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Plevrit nima?",
+   "a": [
+    "Plevra yallig'lanishi",
+    "Bronxlar spazmi",
+    "O'pka to'qimasining o'smasi",
+    "Hiqildoq shishi"
+   ],
+   "e": "Quruq va ekssudativ."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "O'pkaning surunkali obstruktiv kasalligi (O'SOK) ning asosiy xavf omili qaysi?",
+   "a": [
+    "Chekish",
+    "Ko'p suv ichish",
+    "Yetarli uxlash",
+    "Sport bilan shug'ullanish"
+   ],
+   "e": "Profilaktika — chekishni tashlash."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Pikfloumetriya nima uchun o'tkaziladi?",
+   "a": [
+    "Nafas chiqarish tezligini o'lchash",
+    "Arterial qon bosimini o'lchash uchun",
+    "Qand miqdorini aniqlash uchun",
+    "Harorat o'lchash uchun"
+   ],
+   "e": "Astmani nazorat qilish."
+  },
+  {
+   "b": "Nafas a'zolari kasalliklari",
+   "q": "Drenaj holati (postural drenaj) qaysi maqsadda qo'llanadi?",
+   "a": [
+    "Balg'am ajralishini yengillatish",
+    "Arterial qon bosimini oshirish uchun",
+    "Uyquni yaxshilash uchun",
+    "Ishtahani oshirish uchun"
+   ],
+   "e": "Bronxoektazda."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Arterial gipertenziya deb qachon hisoblanadi (kattalarda)?",
+   "a": [
+    "AQB 140/90 va yuqori",
+    "AQB 100/60 mm sim. ust. dan past",
+    "AQB 120/80 mm sim. ust. bo'lganda",
+    "AQB 90/50 mm sim. ust. atrofida"
+   ],
+   "e": "Takroriy o'lchovlarda."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Gipertonik krizning asosiy belgilari qaysilar?",
+   "a": [
+    "Bosh og'rig'i, ko'ngil aynishi, ko'z qorong'ilashuvi",
+    "Qorinning o'ng pastida og'riq va ich ketish",
+    "Siydikning qorayishi va sariqlik",
+    "Teri qichishi va mayda toshmalar"
+   ],
+   "e": "AQB keskin ko'tariladi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Gipertonik krizda hamshira birinchi navbatda nima qiladi?",
+   "a": [
+    "Yotqizib, shifokorni chaqiradi",
+    "Bemorni yurishga undaydi",
+    "Issiq vanna qilishni tavsiya etadi",
+    "Bemorga ko'p tuzli ovqat beradi"
+   ],
+   "e": "Tinchlik, oyoqlarga issiq grelka."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Gipertoniya bilan og'rigan bemorga qaysi parhez tavsiya etiladi?",
+   "a": [
+    "Tuz cheklangan",
+    "Tuz ko'paytirilgan",
+    "Faqat yog'li ovqat",
+    "Faqat shirinliklar"
+   ],
+   "e": "Kuniga 5 g dan kam tuz."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Stenokardiya xurujida og'riq qayerda seziladi?",
+   "a": [
+    "To'sh orqasida, chapga tarqaladi",
+    "Qorinning o'ng pastki qismida",
+    "Bel sohasida, oyoqqa tarqaladi",
+    "Faqat boshning ensa qismida"
+   ],
+   "e": "Siquvchi, bosuvchi og'riq."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Stenokardiya xurujida qaysi dori til ostiga beriladi?",
+   "a": [
+    "Nitroglitserin",
+    "Paratsetamol",
+    "Furosemid",
+    "Analgin"
+   ],
+   "e": "3–5 daqiqada ta'sir qiladi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Stenokardiya og'rig'ining davomiyligi odatda qancha?",
+   "a": [
+    "15 daqiqagacha",
+    "Bir necha soat",
+    "Bir necha kun",
+    "Bir necha soniya, hech o'tmaydi"
+   ],
+   "e": "Uzoq bo'lsa — infarktga shubha."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Miokard infarktida og'riqning stenokardiyadan farqi nima?",
+   "a": [
+    "Uzoq, nitroglitserindan o'tmaydi",
+    "Juda qisqa, o'z-o'zidan o'tadi",
+    "Faqat yurganda paydo bo'ladi",
+    "Nitroglitserindan darhol o'tadi"
+   ],
+   "e": "30 daqiqadan ortiq."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Miokard infarktini tasdiqlovchi asosiy tekshiruv qaysi?",
+   "a": [
+    "EKG va troponin testi",
+    "Siydik umumiy tahlili",
+    "Najas tahlili",
+    "Ko'krak rentgenografiyasi faqat"
+   ],
+   "e": "Shoshilinch tashxis."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Miokard infarktining o'tkir davrida bemorga qanday rejim beriladi?",
+   "a": [
+    "Qat'iy yotoq rejimi",
+    "Erkin yurish rejimi",
+    "Faol jismoniy mashqlar",
+    "Uyda ish qilish"
+   ],
+   "e": "Asoratlarning oldini olish."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "EKG olishda qizil elektrod qayerga qo'yiladi?",
+   "a": [
+    "O'ng qo'lga",
+    "Chap qo'lga",
+    "Chap oyoqqa",
+    "O'ng oyoqqa"
+   ],
+   "e": "Sariq — chap qo'l, yashil — chap oyoq, qora — o'ng oyoq."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "EKG da yashil elektrod qayerga qo'yiladi?",
+   "a": [
+    "Chap oyoqqa",
+    "O'ng qo'lga",
+    "Chap qo'lga",
+    "O'ng oyoqqa"
+   ],
+   "e": "Rang qoidasi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Surunkali yurak yetishmovchiligining belgilari qaysilar?",
+   "a": [
+    "Hansirash, shish, holsizlik",
+    "Sariqlik va teri qichishi",
+    "Ich ketishi va qusish",
+    "Sochning to'kilishi"
+   ],
+   "e": "Qon aylanishi sustlashadi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Yurak shishlari qachon kuchayadi?",
+   "a": [
+    "Kechqurun, oyoqlarda",
+    "Ertalab, yuzda",
+    "Faqat qo'llarda kunduzi",
+    "Faqat qorinda ertalab"
+   ],
+   "e": "Buyrak shishi — ertalab, yuzda."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Yurak yetishmovchiligida bemorning vazni nima uchun har kuni o'lchanadi?",
+   "a": [
+    "Suyuqlik to'planishini kuzatish",
+    "Ishtahani nazorat qilish uchun",
+    "Bo'yni aniqlash uchun",
+    "Hech qanday maqsadsiz"
+   ],
+   "e": "Shish dinamikasi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Yurak glikozidlari qabul qilayotgan bemorda hamshira nimani nazorat qiladi?",
+   "a": [
+    "Puls chastotasini",
+    "Faqat tana haroratini",
+    "Faqat siydik rangini",
+    "Faqat sochlar holatini"
+   ],
+   "e": "Puls 60 dan kam bo'lsa — shifokorga xabar."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Revmatizm (o'tkir revmatik isitma) qaysi mikroorganizm bilan bog'liq?",
+   "a": [
+    "Streptokokk",
+    "Ichak tayoqchasi",
+    "Sil mikobakteriyasi",
+    "Gripp va paragripp virusi"
+   ],
+   "e": "Angina'dan keyin."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Revmatizmning eng xavfli asorati qaysi?",
+   "a": [
+    "Yurak nuqsonlari",
+    "Soch to'kilishi",
+    "Ko'rish pasayishi",
+    "Tish kariesi"
+   ],
+   "e": "Klapan shikastlanishi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Ateroskleroz profilaktikasida nima muhim?",
+   "a": [
+    "Parhez va harakat",
+    "Ko'p yog'li ovqat iste'mol qilish",
+    "Kamharakat turmush tarzi va yog'li ovqat",
+    "Chekishni davom ettirish"
+   ],
+   "e": "Xavf omillarini kamaytirish."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Kardiogen shokda bemor qanday holatda yotqiziladi?",
+   "a": [
+    "Gorizontal, oyoqlari biroz ko'tarilgan",
+    "Boshi pastga osiltirilgan holda",
+    "O'tirgan holda, oyoqlari tushirilgan",
+    "Qorni bilan yotgan holda, boshi past"
+   ],
+   "e": "Shoshilinch yordam."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "O'pka shishining belgisi qaysi?",
+   "a": [
+    "Pushti ko'pikli balg'am, bo'g'ilish",
+    "Quruq yo'tal va teri toshmasi",
+    "Qorin og'rig'i va ich ketishi",
+    "Bel og'rig'i va dizuriya"
+   ],
+   "e": "Chap qorincha yetishmovchiligi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "O'pka shishida bemor qanday holatda bo'lishi kerak?",
+   "a": [
+    "O'tirgan, oyoqlari pastda",
+    "Boshi pastda, oyoqlari baland",
+    "Qorin bilan yotgan",
+    "Boshi pastda"
+   ],
+   "e": "Venoz qaytishni kamaytirish."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Gipotenziya qanday holat?",
+   "a": [
+    "Arterial bosimning past bo'lishi",
+    "Arterial bosimning yuqori bo'lishi",
+    "Pulsning tezlashishi",
+    "Haroratning ko'tarilishi"
+   ],
+   "e": "90/60 dan past."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Kollaps nima?",
+   "a": [
+    "Tomir tonusining keskin pasayishi",
+    "Arterial bosimning keskin ko'tarilishi",
+    "Yurak faoliyatining to'xtashi",
+    "Miyaga qon quyilishi"
+   ],
+   "e": "Bosim tushadi, teri oqaradi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Aritmiya nima?",
+   "a": [
+    "Yurak ritmining buzilishi",
+    "Yurak klapanining yallig'lanishi",
+    "Qon bosimining oshishi",
+    "Qon tomir torayishi"
+   ],
+   "e": "Masalan, bo'lmachalar fibrillyatsiyasi."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Pulsni sanashda kamida qancha vaqt hisoblanadi (aritmiyada)?",
+   "a": [
+    "To'liq 1 daqiqa",
+    "5 soniya, keyin 12 ga ko'paytirish",
+    "10 soniya",
+    "3 daqiqa"
+   ],
+   "e": "Aniq natija."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Yurak-qon tomir kasalliklari profilaktikasida qaysi odat zararli?",
+   "a": [
+    "Chekish",
+    "Muntazam yurish",
+    "Meva-sabzavot iste'moli",
+    "Yetarli uyqu"
+   ],
+   "e": "Asosiy xavf omili."
+  },
+  {
+   "b": "Yurak-qon tomir tizimi kasalliklari",
+   "q": "Pevznerning 10-stoli qaysi bemorlar uchun?",
+   "a": [
+    "Yurak-qon tomir kasalliklari",
+    "Oshqozon yarasi",
+    "Jigar kasalliklari",
+    "Qandli diabet va semizlik"
+   ],
+   "e": "Tuz va suyuqlik cheklanadi."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Oshqozon yarasi kasalligining asosiy qo'zg'atuvchisi qaysi?",
+   "a": [
+    "Helicobacter pylori",
+    "Sil mikobakteriyasi",
+    "Gripp virusi",
+    "Ichak tayoqchasi"
+   ],
+   "e": "Eradikatsiya terapiyasi."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "O'n ikki barmoqli ichak yarasida og'riq qachon paydo bo'ladi?",
+   "a": [
+    "Och qoringa va kechasi",
+    "Faqat ovqatdan darhol keyin",
+    "Faqat ertalab uyg'onganda",
+    "Faqat jismoniy ishdan keyin"
+   ],
+   "e": "Ovqat yeyilganda kamayadi."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Yara kasalligining xavfli asoratlaridan biri qaysi?",
+   "a": [
+    "Qon ketish",
+    "Sochning to'kilishi",
+    "Ko'rishning pasayishi",
+    "Teri qurishi"
+   ],
+   "e": "Shuningdek perforatsiya."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "\"Qahva quyqasi\" rangidagi qusuq nimadan dalolat beradi?",
+   "a": [
+    "Oshqozondan qon ketishidan",
+    "Jigar yetishmovchiligidan",
+    "Buyrakda tosh harakatlanishidan",
+    "Ovqatdan zaharlanishdan"
+   ],
+   "e": "Shoshilinch holat."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Oshqozondan qon ketishda hamshira nima qiladi?",
+   "a": [
+    "Yotqizib, qoringa sovuq, shifokor",
+    "Issiq grelka qo'yib, ovqat beradi",
+    "Bemorni yurishga undaydi",
+    "Me'dani issiq suv bilan yuvadi"
+   ],
+   "e": "Ovqat va suv berilmaydi."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Oshqozon yarasida qaysi parhez stoli beriladi?",
+   "a": [
+    "Pevzner №1",
+    "Pevzner №5",
+    "Pevzner №9",
+    "Pevzner №7"
+   ],
+   "e": "Mexanik va kimyoviy tejash."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Jigar va o't yo'llari kasalliklarida qaysi parhez stoli beriladi?",
+   "a": [
+    "Pevzner №5",
+    "Pevzner №1",
+    "Pevzner №10",
+    "Pevzner №9"
+   ],
+   "e": "Yog'li va qovurilgan ovqat cheklanadi."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Jigar sirrozining asoratlaridan biri qaysi?",
+   "a": [
+    "Assit",
+    "Bronxial astma",
+    "Tish kariesi",
+    "Katarakta"
+   ],
+   "e": "Portal gipertenziya."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Sariqlik (ikterik sindrom) birinchi navbatda qayerda seziladi?",
+   "a": [
+    "Ko'z sklerasida",
+    "Sochlar va tirnoqlarda",
+    "Sochlarda",
+    "Tishlarda"
+   ],
+   "e": "Bilirubin to'planishi."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Virusli gepatit B qanday yo'l bilan yuqadi?",
+   "a": [
+    "Qon va jinsiy yo'l orqali",
+    "Havo-tomchi yo'li bilan",
+    "Faqat ifloslangan suv orqali",
+    "Hasharot chaqishi orqali"
+   ],
+   "e": "Parenteral yo'l."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Virusli gepatit A qanday yo'l bilan yuqadi?",
+   "a": [
+    "Fekal-oral yo'l bilan",
+    "Qon quyish orqali",
+    "Havo-tomchi orqali",
+    "Jinsiy yo'l orqali"
+   ],
+   "e": "\"Iflos qo'l kasalligi\"."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "O'tkir xoletsistitda og'riq qayerda bo'ladi?",
+   "a": [
+    "O'ng qovurg'a ostida",
+    "Chap qovurg'a ostida",
+    "Qorinning chap pastida",
+    "Kindik atrofida faqat"
+   ],
+   "e": "O'ng kurakka tarqaladi."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "O'tkir pankreatitda og'riq qanday xarakterga ega?",
+   "a": [
+    "Kuchli, belbog'simon",
+    "Yengil, sanchiqli",
+    "Faqat bosh sohasida",
+    "Faqat oyoqlarda, sanchiqli"
+   ],
+   "e": "Qusish bilan."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Duodenal zondlash nima maqsadda o'tkaziladi?",
+   "a": [
+    "O't tarkibini tekshirish uchun",
+    "Me'da shirasini yuvib tashlash uchun",
+    "Siydik yig'ish uchun",
+    "Qon bosimini o'lchash uchun"
+   ],
+   "e": "A, B, C porsiyalar."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Najasni yashirin qonga tekshirishdan oldin necha kun parhez saqlanadi?",
+   "a": [
+    "3 kun",
+    "1 soat",
+    "1 oy",
+    "Parhez shart emas"
+   ],
+   "e": "Grenger reaksiyasi."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Ich qotishida tozalovchi huqna uchun qancha suv ishlatiladi (kattalarda)?",
+   "a": [
+    "1–1,5 litr",
+    "50 ml, shprits bilan",
+    "5 litr",
+    "100 ml"
+   ],
+   "e": "Esmarx krujkasi."
+  },
+  {
+   "b": "Hazm a'zolari kasalliklari",
+   "q": "Tozalovchi huqna uchun suv harorati qanday bo'lishi kerak?",
+   "a": [
+    "Xona harorati yoki iliq",
+    "Qaynoq suv (90 °C)",
+    "Muzday suv (0 °C)",
+    "Harorat ahamiyatsiz"
+   ],
+   "e": "Atoniyada salqinroq, spazmda iliqroq."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Pielonefrit nima?",
+   "a": [
+    "Buyrakning bakterial yallig'lanishi",
+    "Siydik qopining o'smasi",
+    "Buyrak koptokchalarining autoimmun yallig'lanishi",
+    "Siydik yo'lidagi tosh"
+   ],
+   "e": "Isitma, bel og'rig'i."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Glomerulonefritning xarakterli belgilari qaysilar?",
+   "a": [
+    "Shish, gipertoniya, gematuriya",
+    "Sariqlik va qichima",
+    "Yo'tal va balg'am",
+    "Qorin dam bo'lishi"
+   ],
+   "e": "Koptokchalar shikastlanishi."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Buyrak shishlari qanday xususiyatga ega?",
+   "a": [
+    "Ertalab, yuzda",
+    "Kechqurun, oyoqlarda",
+    "Faqat qorinda",
+    "Faqat qo'llarda"
+   ],
+   "e": "Yumshoq, rangpar."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Nechiporenko bo'yicha siydik tahlili uchun qaysi porsiya yig'iladi?",
+   "a": [
+    "O'rta porsiya",
+    "Birinchi porsiya",
+    "Oxirgi tomchilar",
+    "Sutkalik siydik"
+   ],
+   "e": "1 ml dagi shaklli elementlar."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Zimnitskiy sinamasida siydik qanday yig'iladi?",
+   "a": [
+    "Har 3 soatda, 8 porsiya",
+    "Faqat ertalabki bir porsiya",
+    "Sutkalik siydik bitta idishga",
+    "Faqat kechqurun bir marta"
+   ],
+   "e": "Buyrak konsentratsion faoliyati."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Umumiy siydik tahlili uchun qaysi siydik olinadi?",
+   "a": [
+    "Ertalabki siydik",
+    "Kechki oxirgi siydik",
+    "Sutkalik siydik",
+    "Istalgan vaqtdagi siydik"
+   ],
+   "e": "Gigiyenadan keyin."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Buyrak sanchig'ida (kolikasida) og'riq qayerga tarqaladi?",
+   "a": [
+    "Chov va son ichiga",
+    "Chap qo'l va kurakka",
+    "Bo'yin va jag'ga",
+    "Ko'krak qafasiga"
+   ],
+   "e": "Tosh harakati."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Buyrak kasalliklarida qaysi parhez stoli beriladi?",
+   "a": [
+    "Pevzner №7",
+    "Pevzner №1",
+    "Pevzner №5",
+    "Pevzner №9"
+   ],
+   "e": "Tuz va oqsil cheklanadi."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Surunkali buyrak yetishmovchiligida qonda nima ortadi?",
+   "a": [
+    "Mochevina va kreatinin",
+    "Gemoglobin va eritrotsitlar",
+    "Glyukoza faqat",
+    "Kalsiy faqat"
+   ],
+   "e": "Azotemiya."
+  },
+  {
+   "b": "Siydik ajratish tizimi kasalliklari",
+   "q": "Dizuriya nima?",
+   "a": [
+    "Siydik ajralishining buzilishi",
+    "Siydikning ko'payishi",
+    "Siydikda qon",
+    "Siydikda oqsil"
+   ],
+   "e": "Sistitda."
+  },
+  {
+   "b": "Qon kasalliklari",
+   "q": "Temir tanqisligi anemiyasining belgilari qaysilar?",
+   "a": [
+    "Rangparlik, holsizlik, sochlar mo'rtligi",
+    "Yuzning qizarishi, qon bosimining oshishi",
+    "Sariqlik va qichima",
+    "Bo'g'imlarning shishishi"
+   ],
+   "e": "Sideropenik sindrom."
+  },
+  {
+   "b": "Qon kasalliklari",
+   "q": "Temir tanqisligi anemiyasida qaysi mahsulotlar tavsiya etiladi?",
+   "a": [
+    "Go'sht, jigar, olma, anor",
+    "Faqat non va makaron",
+    "Faqat qand va shirinlik",
+    "Faqat choy va qahva, go'shtsiz"
+   ],
+   "e": "Gem temiri yaxshi so'riladi."
+  },
+  {
+   "b": "Qon kasalliklari",
+   "q": "Temir preparatlarini qanday ichish tavsiya etiladi?",
+   "a": [
+    "Choy va sutdan alohida",
+    "Sut va choy bilan birga",
+    "Qahva bilan aralashtirib",
+    "Spirtli ichimlik bilan"
+   ],
+   "e": "So'rilishni yaxshilash."
+  },
+  {
+   "b": "Qon kasalliklari",
+   "q": "B12-tanqislik anemiyasining o'ziga xos belgisi qaysi?",
+   "a": [
+    "Glossit va nerv buzilishlari",
+    "Tirnoqlarning qoshiqsimon bo'lishi faqat",
+    "Yuqori qon bosimi",
+    "Ko'z oqining qizarishi"
+   ],
+   "e": "Gunter glossiti."
+  },
+  {
+   "b": "Qon kasalliklari",
+   "q": "Leykoz (leykemiya) nima?",
+   "a": [
+    "Qon yaratish tizimi o'smasi",
+    "Temir yetishmovchiligi",
+    "Qon ivishining kuchayishi",
+    "Vitamin C yetishmovchiligi"
+   ],
+   "e": "Leykotsitlar o'sishi buziladi."
+  },
+  {
+   "b": "Qon kasalliklari",
+   "q": "Gemofiliya qanday kasallik?",
+   "a": [
+    "Irsiy qon ivishi buzilishi",
+    "Yuqumli virusli qon kasalligi",
+    "Temir yetishmovchiligi",
+    "Qon tomir yallig'lanishi"
+   ],
+   "e": "Asosan o'g'il bolalarda."
+  },
+  {
+   "b": "Qon kasalliklari",
+   "q": "Qon ivishi buzilgan bemorga in'eksiyadan keyin nima qilinadi?",
+   "a": [
+    "Joy uzoqroq bosib turiladi",
+    "In'eksiya joyi qattiq uqalanadi",
+    "Issiq kompress qo'yiladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Gematoma oldini olish."
+  },
+  {
+   "b": "Qon kasalliklari",
+   "q": "Umumiy qon tahlili uchun qon qachon olinadi?",
+   "a": [
+    "Ertalab, och qoringa",
+    "Ovqatdan darhol keyin",
+    "Kechqurun yotishdan oldin",
+    "Jismoniy mashqdan keyin"
+   ],
+   "e": "Aniq natija."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Qandli diabetning klassik belgilari qaysilar?",
+   "a": [
+    "Chanqoq, poliuriya, ozish",
+    "Sariqlik, qichima, qorin og'rig'i",
+    "Yo'tal, isitma, balg'am",
+    "Bo'g'im og'rig'i, toshmalar"
+   ],
+   "e": "Polidipsiya, poliuriya."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Och qoringa kapillyar qonda glyukozaning normal miqdori qancha?",
+   "a": [
+    "3,3–5,5 mmol/l",
+    "0,5–1,0 mmol/l",
+    "10–15 mmol/l",
+    "20–30 mmol/l"
+   ],
+   "e": "Kattalarda."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Gipoglikemik holatning belgilari qaysilar?",
+   "a": [
+    "Terlash, titrash, ochlik",
+    "Quruq teri, aseton hidi, chuqur nafas",
+    "Sariqlik va qichima",
+    "Isitma va yo'tal"
+   ],
+   "e": "Qand tushib ketganda."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Giperglikemik (ketoatsidotik) komaning belgisi qaysi?",
+   "a": [
+    "Aseton hidi",
+    "Kuchli terlash",
+    "Terining namligi",
+    "Qo'l titrashi"
+   ],
+   "e": "Kussmaul nafasi."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Gipoglikemiyada hushidagi bemorga birinchi yordam qanday?",
+   "a": [
+    "Shirin choy berish",
+    "Insulin yuborish",
+    "Tuzli suv berish",
+    "Ovqat bermaslik"
+   ],
+   "e": "Tez so'riladigan uglevod."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Insulin teri ostiga qayerga yuboriladi?",
+   "a": [
+    "Qorin, son, yelka",
+    "Faqat dumbaga mushak ichiga",
+    "Faqat bilakning ichki tomoniga",
+    "Faqat tilning ostiga"
+   ],
+   "e": "Joylar almashtiriladi."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Insulin yuborish joylarini almashtirib turish nima uchun kerak?",
+   "a": [
+    "Lipodistrofiya oldini olish",
+    "Insulinni tejash uchun",
+    "Og'riqni kuchaytirish uchun",
+    "Qon bosimini oshirish uchun"
+   ],
+   "e": "Teri osti yog'i o'zgarishi."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Qandli diabetda qaysi parhez stoli beriladi?",
+   "a": [
+    "Pevzner №9",
+    "Pevzner №1",
+    "Pevzner №5",
+    "Pevzner №10"
+   ],
+   "e": "Oson hazm bo'ladigan uglevodlar cheklanadi."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Diabetik oyoq sindromining profilaktikasi uchun bemorga nima o'rgatiladi?",
+   "a": [
+    "Oyoqni kuzatish, qulay poyabzal",
+    "Yalangoyoq yurish",
+    "Oyoqlarni issiq suvda uzoq ushlash",
+    "Tirnoqlarni chuqur kesish"
+   ],
+   "e": "Yara va infeksiyaning oldini olish."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Glyukometr bilan qand o'lchashda qon qayerdan olinadi?",
+   "a": [
+    "Barmoq uchidan",
+    "Tirsak venasidan faqat",
+    "Quloq ichidan",
+    "Tilning ostidan"
+   ],
+   "e": "Kapillyar qon."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Tireotoksikoz belgilari qaysilar?",
+   "a": [
+    "Taxikardiya, ozish, titrash",
+    "Bradikardiya, semirish, uyquchanlik",
+    "Sariqlik va qichima",
+    "Yo'tal va balg'am"
+   ],
+   "e": "Gipertireoz."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Gipotireoz belgilari qaysilar?",
+   "a": [
+    "Sustlik, semirish, shish",
+    "Taxikardiya va ozish",
+    "Qo'zg'aluvchanlik va terlash",
+    "Ko'z chaqchayishi"
+   ],
+   "e": "Gormon yetishmovchiligi."
+  },
+  {
+   "b": "Endokrin kasalliklar",
+   "q": "Endemik bo'qoqning oldini olish uchun nima tavsiya etiladi?",
+   "a": [
+    "Yodlangan tuz iste'mol qilish",
+    "Tuzni butunlay to'xtatish",
+    "Ko'p qahva va shirinlik iste'mol qilish",
+    "Ko'p qahva ichish"
+   ],
+   "e": "Yod yetishmovchiligi."
+  },
+  {
+   "b": "Bo'g'im va allergik kasalliklar",
+   "q": "Revmatoid artritda qaysi bo'g'imlar ko'proq zararlanadi?",
+   "a": [
+    "Mayda bo'g'imlar, simmetrik",
+    "Faqat bitta yirik bo'g'im",
+    "Faqat umurtqa bo'g'imlari",
+    "Faqat jag' bo'g'imi"
+   ],
+   "e": "Ertalabki qotishlik."
+  },
+  {
+   "b": "Bo'g'im va allergik kasalliklar",
+   "q": "Podagra qaysi modda almashinuvining buzilishi bilan bog'liq?",
+   "a": [
+    "Siydik kislotasi",
+    "Glyukoza",
+    "Xolesterin",
+    "Temir moddasi"
+   ],
+   "e": "Bosh barmoq bo'g'imi."
+  },
+  {
+   "b": "Bo'g'im va allergik kasalliklar",
+   "q": "Podagra bilan og'rigan bemorga qaysi mahsulotlarni cheklash tavsiya etiladi?",
+   "a": [
+    "Go'sht, bulyon, spirtli ichimlik",
+    "Sut mahsulotlari va suv",
+    "Sabzavotlar",
+    "Mevalar"
+   ],
+   "e": "Purinlar."
+  },
+  {
+   "b": "Bo'g'im va allergik kasalliklar",
+   "q": "Kvinke shishi nima?",
+   "a": [
+    "Yuz va lablarning keskin shishi",
+    "Oyoqlarning yurak shishi",
+    "Buyrak shishi",
+    "Qorindagi suyuqlik"
+   ],
+   "e": "Hiqildoq shishi xavfli."
+  },
+  {
+   "b": "Bo'g'im va allergik kasalliklar",
+   "q": "Eshakemi (krapivnitsa) belgisi qaysi?",
+   "a": [
+    "Qichiydigan qavariqlar",
+    "Sariqlik",
+    "Teri oqarishi faqat",
+    "Sochlarning to'kilishi"
+   ],
+   "e": "Allergik reaksiya."
+  },
+  {
+   "b": "Bo'g'im va allergik kasalliklar",
+   "q": "Anafilaktik shokda birinchi yuboriladigan dori qaysi?",
+   "a": [
+    "Adrenalin",
+    "Analgin",
+    "Paratsetamol",
+    "Vitamin C"
+   ],
+   "e": "Mushak ichiga."
+  },
+  {
+   "b": "Bo'g'im va allergik kasalliklar",
+   "q": "Allergik bemor kasallik tarixida qanday belgilanadi?",
+   "a": [
+    "Titul varag'ida qizil bilan yoziladi",
+    "Hech qanday belgi qo'yilmaydi",
+    "Faqat og'zaki aytiladi",
+    "Faqat bemor eslab qoladi"
+   ],
+   "e": "Xavfsizlik."
+  }
+ ]
+}
