@@ -1,0 +1,3320 @@
+{
+ "kod": "",
+ "nomi": "Buxgalteriya hisobi",
+ "turi": "maxsus",
+ "manba": "\"Buxgalteriya hisobi to'g'risida\"gi Qonun (2016, O'RQ-404), BHMS (21-son schyotlar rejasi), Soliq kodeksi, buxgalteriya hisobi nazariyasi darsliklari",
+ "savollar": [
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Buxgalteriya hisobining asosiy vazifasi nima?",
+   "a": [
+    "Xo'jalik operatsiyalarini yalpi, uzluksiz va hujjatli qayd etish",
+    "Faqat xodimlarning ish vaqtini hisobga olish, tasodifiy yozuvlar bilan",
+    "Faqat soliq organlariga og'zaki ma'lumot berish",
+    "Faqat korxona rahbarining shaxsiy xarajatlarini yozish"
+   ],
+   "e": "Moliyaviy axborot."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "\"Buxgalteriya hisobi to'g'risida\"gi amaldagi Qonun qachon qabul qilingan?",
+   "a": [
+    "2016-yilda",
+    "1996-yilda, birinchi tahrirda",
+    "2007-yilda, Soliq kodeksi bilan",
+    "2023-yilda, yangi Konstitutsiya bilan"
+   ],
+   "e": "O'RQ-404."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Buxgalteriya balansining asosiy tengligi qanday?",
+   "a": [
+    "Aktiv = Passiv",
+    "Aktiv = Daromad + Xarajat",
+    "Passiv = Daromad − Xarajat",
+    "Aktiv = Kassa + Bank"
+   ],
+   "e": "Balans tenglamasi."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Aktivlar nima?",
+   "a": [
+    "Korxona ixtiyoridagi resurslar",
+    "Korxonaning faqat qarzlari va majburiyatlari",
+    "Faqat ustav kapitali",
+    "Faqat xodimlarning ish haqi"
+   ],
+   "e": "Mablag'larning tarkibi va joylashuvi."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Passivlar nimani ko'rsatadi?",
+   "a": [
+    "Mablag'larning manbalarini",
+    "Faqat asosiy vositalarni",
+    "Faqat kassadagi naqd pulni",
+    "Faqat ombordagi materiallarni"
+   ],
+   "e": "O'z kapitali va majburiyatlar."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Ikki yoqlama yozuv usulining mohiyati nima?",
+   "a": [
+    "Har operatsiya ikki schyotda teng summada",
+    "Har bir operatsiya faqat bitta schyotda yoziladi",
+    "Operatsiyalar ikki marta, ikki xil summada yoziladi",
+    "Operatsiyalar faqat jurnalga, schyotlarsiz yoziladi"
+   ],
+   "e": "Debet va kredit."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Ikki yoqlama yozuv usuli ilk bor kimning asarida bayon qilingan?",
+   "a": [
+    "Luka Pacholi",
+    "Adam Smit (Shotlandiya)",
+    "Jon Keyns (Angliya)",
+    "Karl Marks (Germaniya)"
+   ],
+   "e": "1494-yil."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Aktiv schyotlarda qoldiq qaysi tomonda bo'ladi?",
+   "a": [
+    "Debetda",
+    "Kreditda",
+    "Qoldiq bo'lmaydi",
+    "Ikkala tomonda teng"
+   ],
+   "e": "Ko'payish — debet."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Passiv schyotlarda ko'payish qaysi tomonda aks ettiriladi?",
+   "a": [
+    "Kreditda",
+    "Debetda",
+    "Ikkala tomonda bir vaqtda",
+    "Aks ettirilmaydi"
+   ],
+   "e": "Qoldiq ham kreditda."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Buxgalteriya provodkasi nima?",
+   "a": [
+    "Schyotlar korrespondensiyasi",
+    "Kassa kirim orderi",
+    "Xodimning ish haqi varaqasi",
+    "Korxona ustavi"
+   ],
+   "e": "Schyotlar korrespondensiyasi."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Boshlang'ich hujjat nima?",
+   "a": [
+    "Operatsiyani tasdiqlovchi hujjat",
+    "Yillik moliyaviy hisobot",
+    "Korxona ustavi",
+    "Soliq deklaratsiyasi"
+   ],
+   "e": "Asosiy hujjat."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Boshlang'ich hujjatning majburiy rekvizitlariga nima kiradi?",
+   "a": [
+    "Nomi, sanasi, mazmuni, imzolar",
+    "Faqat korxona logotipi",
+    "Faqat rahbar fotosurati",
+    "Faqat telefon raqami"
+   ],
+   "e": "Yuridik kuch."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Inventarizatsiya nima?",
+   "a": [
+    "Haqiqiy mavjudlikni tekshirish",
+    "Yangi xodimlarni ishga qabul qilish",
+    "Soliqni to'lash jarayoni",
+    "Mahsulotni sotish jarayoni"
+   ],
+   "e": "Yillik hisobotdan oldin majburiy."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Inventarizatsiyada kamomad aniqlansa, u qanday aks ettiriladi?",
+   "a": [
+    "Aybdordan undiriladi yoki xarajatga",
+    "Hech qanday aks ettirilmaydi",
+    "Daromad sifatida yoziladi",
+    "Ustav kapitaliga qo'shiladi"
+   ],
+   "e": "Belgilangan tartibda."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Moliyaviy hisobotning asosiy shakllari qaysilar?",
+   "a": [
+    "Balans va moliyaviy natijalar hisoboti",
+    "Faqat kassa kitobi va avans hisobotlari",
+    "Faqat ish haqi qaydnomasi va tabel",
+    "Faqat yuk xatlari va ishonchnomalar"
+   ],
+   "e": "Shuningdek, kapital to'g'risidagi hisobot."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Buxgalteriya hisobi qaysi valyutada yuritiladi (O'zbekistonda)?",
+   "a": [
+    "Milliy valyuta — so'mda",
+    "Faqat AQSh dollarida",
+    "Faqat yevroda",
+    "Rahbar tanlagan har qanday valyutada"
+   ],
+   "e": "Xorijiy valyutadagi operatsiyalar qayta hisoblanadi."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Hisobot yili qaysi davrni o'z ichiga oladi?",
+   "a": [
+    "1-yanvardan 31-dekabrgacha",
+    "1-sentabrdan 31-avgustgacha",
+    "1-apreldan 31-martgacha",
+    "Korxona tanlagan har qanday 12 oy"
+   ],
+   "e": "Kalendar yil."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Hisob siyosati nima?",
+   "a": [
+    "Tanlangan hisob usullari majmui",
+    "Soliq stavkalari ro'yxati",
+    "Xodimlarning odob-axloq qoidalari",
+    "Korxona reklama strategiyasi"
+   ],
+   "e": "Buyruq bilan tasdiqlanadi."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Uzluksizlik (faoliyat davomiyligi) tamoyili nimani bildiradi?",
+   "a": [
+    "Faoliyat davom etadi deb faraz qilish",
+    "Korxona har yili yopiladi deb faraz qilish",
+    "Hisob faqat bir oy yuritiladi",
+    "Hisob vaqti-vaqti bilan to'xtatiladi"
+   ],
+   "e": "Going concern."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Hisoblash (nachisleniye) tamoyili nimani anglatadi?",
+   "a": [
+    "Operatsiya sodir bo'lgan davrda",
+    "Faqat pul tushgan kuni",
+    "Faqat yil oxirida bir marta",
+    "Hech qachon aks ettirilmaydi"
+   ],
+   "e": "Pul harakatidan qat'i nazar."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Ehtiyotkorlik tamoyili nimani talab qiladi?",
+   "a": [
+    "Aktiv va daromadni oshirmaslik",
+    "Daromadni imkon qadar oshirib ko'rsatish",
+    "Xarajatlarni yashirish",
+    "Majburiyatlarni ko'rsatmaslik"
+   ],
+   "e": "Konservatizm."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Buxgalteriya hujjatlari qancha muddat saqlanadi (umumiy qoida)?",
+   "a": [
+    "Kamida 5 yil",
+    "1 oy",
+    "6 oy",
+    "Saqlanmaydi, yo'q qilinadi"
+   ],
+   "e": "Ayrimlari uzoqroq (shaxsiy hisob — 75 yil)."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Sintetik hisob nima?",
+   "a": [
+    "Umumlashgan pul ko'rsatkichlari",
+    "Har bir buyum bo'yicha batafsil hisob",
+    "Faqat natural ko'rsatkichlardagi hisob",
+    "Faqat og'zaki hisob"
+   ],
+   "e": "Analitik — batafsil."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Analitik hisob nima?",
+   "a": [
+    "Batafsil hisob",
+    "Umumlashtirilgan balans hisobi",
+    "Faqat soliq hisobi",
+    "Faqat bank hisobi"
+   ],
+   "e": "Subschyotlar, kartochkalar."
+  },
+  {
+   "b": "Buxgalteriya hisobi asoslari",
+   "q": "Aylanma qaydnoma (oborotno-saldovaya vedomost) nima uchun tuziladi?",
+   "a": [
+    "Yozuvlar to'g'riligini tekshirish",
+    "Ish haqini hisoblash uchun",
+    "Soliq to'lash uchun",
+    "Mahsulotni sotish uchun"
+   ],
+   "e": "Debet va kredit aylanmalari teng."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "O'zbekistonda buxgalteriya schyotlari rejasi qaysi BHMS bilan tasdiqlangan?",
+   "a": [
+    "21-son BHMS",
+    "1-son BHMS (hisob siyosati)",
+    "5-son BHMS (asosiy vositalar)",
+    "4-son BHMS (tovar-moddiy zaxiralar)"
+   ],
+   "e": "Xo'jalik yurituvchi sub'ektlar uchun."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Schyotlar rejasida 0100 schyot nimani hisobga oladi?",
+   "a": [
+    "Asosiy vositalar",
+    "Kassa",
+    "Ustav kapitali",
+    "Materiallar"
+   ],
+   "e": "Uzoq muddatli aktivlar."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Asosiy vositalarning eskirishi qaysi schyotda hisobga olinadi?",
+   "a": [
+    "0200",
+    "0100",
+    "5010",
+    "9010"
+   ],
+   "e": "Kontr-aktiv schyot."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Nomoddiy aktivlar qaysi schyotda hisobga olinadi?",
+   "a": [
+    "0400",
+    "1000",
+    "2010",
+    "6710"
+   ],
+   "e": "Litsenziya, dasturlar."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Materiallar qaysi schyotlar guruhida hisobga olinadi?",
+   "a": [
+    "1000",
+    "5000",
+    "8300",
+    "9000"
+   ],
+   "e": "Xom ashyo, yoqilg'i va b."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Milliy valyutadagi kassa qaysi schyotda hisobga olinadi?",
+   "a": [
+    "5010",
+    "5110",
+    "6010",
+    "4010"
+   ],
+   "e": "Naqd pul."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Hisob-kitob schyoti (bankdagi pul) qaysi schyotda hisobga olinadi?",
+   "a": [
+    "5110",
+    "5010",
+    "6710",
+    "0100"
+   ],
+   "e": "Milliy valyutada."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Xodimlar bilan mehnatga haq to'lash bo'yicha hisob-kitoblar qaysi schyotda?",
+   "a": [
+    "6710",
+    "6010",
+    "4010",
+    "8300"
+   ],
+   "e": "Ish haqi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Mol yetkazib beruvchilarga to'lanadigan schyotlar qaysi?",
+   "a": [
+    "6010",
+    "4010",
+    "5010",
+    "9110"
+   ],
+   "e": "Kreditorlik qarzi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Xaridor va buyurtmachilardan olinadigan schyotlar qaysi?",
+   "a": [
+    "4010",
+    "6010",
+    "6710",
+    "2800"
+   ],
+   "e": "Debitorlik qarzi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Ustav kapitali qaysi schyotlar guruhida hisobga olinadi?",
+   "a": [
+    "8300",
+    "5110",
+    "1000",
+    "0100"
+   ],
+   "e": "O'z kapitali."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Taqsimlanmagan foyda (qoplanmagan zarar) qaysi schyotda?",
+   "a": [
+    "8700",
+    "8300",
+    "9010",
+    "2010"
+   ],
+   "e": "Xususiy kapital."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Tayyor mahsulot qaysi schyotda hisobga olinadi?",
+   "a": [
+    "2800",
+    "2010",
+    "1000",
+    "9010"
+   ],
+   "e": "Omborda."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Asosiy ishlab chiqarish xarajatlari qaysi schyotda yig'iladi?",
+   "a": [
+    "2010",
+    "2800",
+    "9110",
+    "5010"
+   ],
+   "e": "Tannarx shakllanishi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Tayyor mahsulot sotishdan daromad qaysi schyotda aks ettiriladi?",
+   "a": [
+    "9010",
+    "9110",
+    "2800",
+    "4010"
+   ],
+   "e": "Daromad schyoti."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Sotilgan mahsulot tannarxi qaysi schyotda aks ettiriladi?",
+   "a": [
+    "9110",
+    "9010",
+    "2010",
+    "6010"
+   ],
+   "e": "Xarajat."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Kassaga bankdan naqd pul olinganda qanday provodka beriladi?",
+   "a": [
+    "Dt 5010 — Kt 5110",
+    "Dt 5110 — Kt 5010",
+    "Dt 6710 — Kt 5010",
+    "Dt 5010 — Kt 9010"
+   ],
+   "e": "Kassa ko'payadi, bank kamayadi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Xodimlarga kassadan ish haqi berilganda qanday provodka beriladi?",
+   "a": [
+    "Dt 6710 — Kt 5010",
+    "Dt 5010 — Kt 6710",
+    "Dt 2010 — Kt 6710",
+    "Dt 6710 — Kt 9010"
+   ],
+   "e": "Majburiyat kamayadi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Asosiy ishlab chiqarish ishchilariga ish haqi hisoblanganda qanday provodka?",
+   "a": [
+    "Dt 2010 — Kt 6710",
+    "Dt 6710 — Kt 2010",
+    "Dt 5010 — Kt 6710",
+    "Dt 9010 — Kt 6710"
+   ],
+   "e": "Xarajatga olinadi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Yetkazib beruvchidan materiallar kelib tushganda qanday provodka?",
+   "a": [
+    "Dt 1000 — Kt 6010",
+    "Dt 6010 — Kt 1000",
+    "Dt 1000 — Kt 5010 har doim",
+    "Dt 2800 — Kt 1000"
+   ],
+   "e": "Kreditorlik qarzi paydo bo'ladi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Materiallar ishlab chiqarishga berilganda qanday provodka?",
+   "a": [
+    "Dt 2010 — Kt 1000",
+    "Dt 1000 — Kt 2010",
+    "Dt 2800 — Kt 2010",
+    "Dt 9110 — Kt 1000"
+   ],
+   "e": "Xarajatga o'tkaziladi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Tayyor mahsulot omborga kirim qilinganda qanday provodka?",
+   "a": [
+    "Dt 2800 — Kt 2010",
+    "Dt 2010 — Kt 2800",
+    "Dt 9110 — Kt 2800",
+    "Dt 2800 — Kt 9010"
+   ],
+   "e": "Haqiqiy tannarxda."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Yetkazib beruvchiga bankdan qarz to'langanda qanday provodka?",
+   "a": [
+    "Dt 6010 — Kt 5110",
+    "Dt 5110 — Kt 6010",
+    "Dt 6010 — Kt 9010",
+    "Dt 4010 — Kt 5110"
+   ],
+   "e": "Kreditorlik kamayadi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Xaridordan bankka pul kelib tushganda qanday provodka?",
+   "a": [
+    "Dt 5110 — Kt 4010",
+    "Dt 4010 — Kt 5110",
+    "Dt 5110 — Kt 6010",
+    "Dt 9010 — Kt 4010"
+   ],
+   "e": "Debitorlik kamayadi."
+  },
+  {
+   "b": "Schyotlar rejasi va provodkalar",
+   "q": "Asosiy vositaga eskirish hisoblanganda (ishlab chiqarish uskunasi) qanday provodka?",
+   "a": [
+    "Dt 2010 — Kt 0200",
+    "Dt 0200 — Kt 2010",
+    "Dt 0100 — Kt 0200",
+    "Dt 0200 — Kt 0100"
+   ],
+   "e": "Amortizatsiya xarajati."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Asosiy vositalarga qanday aktivlar kiradi?",
+   "a": [
+    "Bir yildan ortiq ishlatiladigan aktivlar",
+    "Bir oy ichida sarflanadigan materiallar",
+    "Kassadagi naqd pul",
+    "Sotish uchun mo'ljallangan tovarlar"
+   ],
+   "e": "Bino, uskuna, transport."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Asosiy vositaning boshlang'ich qiymatiga nima kiradi?",
+   "a": [
+    "Sotib olish narxi va keltirish, o'rnatish xarajatlari",
+    "Faqat yetkazib beruvchi hisob-fakturasidagi narx, xarajatlarsiz",
+    "Faqat korxona rahbari belgilagan shartli qiymat",
+    "Faqat bozordagi o'rtacha narx, haqiqiy xarajatdan qat'i nazar"
+   ],
+   "e": "Tarixiy qiymat."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Amortizatsiya nima?",
+   "a": [
+    "Qiymatni muddat davomida xarajatga o'tkazish",
+    "Aktivni sotishdan olingan daromad",
+    "Aktivni ta'mirlash xarajati",
+    "Aktivga solinadigan soliq"
+   ],
+   "e": "Eskirish."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "To'g'ri chiziqli (tekis) amortizatsiya usulida yillik summa qanday hisoblanadi?",
+   "a": [
+    "(Boshlang'ich qiymat − tugatish qiymati) / foydali muddat",
+    "Boshlang'ich qiymat × foydali muddat",
+    "Tugatish qiymati / boshlang'ich qiymat × 100",
+    "Bozor qiymati × 2 / foydali muddat"
+   ],
+   "e": "Har yili teng."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Qiymati 12 mln so'm, tugatish qiymati 2 mln so'm, muddati 5 yil bo'lgan uskunaning yillik amortizatsiyasi (tekis usul) qancha?",
+   "a": [
+    "2 mln so'm",
+    "2,4 mln so'm",
+    "10 mln so'm",
+    "1 mln so'm"
+   ],
+   "e": "(12−2)/5."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Qoldiq qiymat qanday aniqlanadi?",
+   "a": [
+    "Boshlang'ich qiymat − to'plangan eskirish",
+    "Boshlang'ich qiymat + to'plangan eskirish",
+    "Faqat to'plangan eskirish summasi",
+    "Bozor qiymati − sotish narxi"
+   ],
+   "e": "Balans qiymati."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Asosiy vosita tugatilganda (hisobdan chiqarilganda) to'plangan eskirish qanday yoziladi?",
+   "a": [
+    "Dt 0200 — Kt 0100",
+    "Dt 0100 — Kt 0200",
+    "Dt 9010 — Kt 0100",
+    "Dt 0200 — Kt 5110"
+   ],
+   "e": "Eskirish hisobdan chiqariladi."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Nomoddiy aktivlarga misol qaysi?",
+   "a": [
+    "Dasturiy ta'minot, litsenziya, patent",
+    "Bino va inshootlar",
+    "Xom ashyo va materiallar",
+    "Kassadagi naqd pul"
+   ],
+   "e": "Moddiy shakli yo'q."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Tovar-moddiy zaxiralar (TMZ) ga nimalar kiradi?",
+   "a": [
+    "Materiallar, tayyor mahsulot, tovarlar",
+    "Bino va inshootlar",
+    "Patent va litsenziyalar",
+    "Uzoq muddatli investitsiyalar"
+   ],
+   "e": "4-son BHMS."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "TMZni baholashda FIFO usuli nimani anglatadi?",
+   "a": [
+    "Birinchi kelgan birinchi sarflanadi",
+    "Oxirgi kelgan birinchi sarflanadi",
+    "Eng qimmat partiya birinchi sarflanadi",
+    "Tasodifiy tartibda sarflanadi"
+   ],
+   "e": "First In, First Out."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "O'rtacha tannarx (AVECO) usulida TMZ qanday baholanadi?",
+   "a": [
+    "Umumiy qiymat umumiy miqdorga bo'linib",
+    "Faqat oxirgi partiya narxida",
+    "Faqat birinchi partiya narxida",
+    "Joriy bozor narxida"
+   ],
+   "e": "O'rtacha tortilgan."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Narxlar o'sayotganda FIFO usulida sotilgan tovar tannarxi qanday bo'ladi?",
+   "a": [
+    "Nisbatan past",
+    "Nisbatan yuqori",
+    "Nolga teng",
+    "Bozor narxiga teng"
+   ],
+   "e": "Eski arzon partiyalar sarflanadi."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Ombordagi materiallar qaysi hujjat bilan kirim qilinadi?",
+   "a": [
+    "Kirim orderi",
+    "Kassa chiqim orderi",
+    "Ishonchnoma",
+    "Tabel"
+   ],
+   "e": "Ombor hisobi."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Materiallarni ombordan berish qaysi hujjat bilan rasmiylashtiriladi?",
+   "a": [
+    "Talabnoma-yuk xati",
+    "Kassa kirim orderi",
+    "Ish haqi qaydnomasi",
+    "Avans hisoboti"
+   ],
+   "e": "Sarflash."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Ishonchnoma nima uchun beriladi?",
+   "a": [
+    "Boyliklarni olish huquqini berish uchun",
+    "Ish haqini hisoblash uchun",
+    "Kassani tekshirish uchun",
+    "Soliq to'lash uchun"
+   ],
+   "e": "Vakolatli shaxsga."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Moddiy javobgar shaxs bilan qanday shartnoma tuziladi?",
+   "a": [
+    "Moddiy javobgarlik shartnomasi",
+    "Ijara shartnomasi",
+    "Kredit shartnomasi",
+    "Sug'urta shartnomasi"
+   ],
+   "e": "Omborchi, kassir."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Tugallanmagan ishlab chiqarish nima?",
+   "a": [
+    "Tugallanmagan mahsulot",
+    "Omborga topshirilgan tayyor mahsulot",
+    "Sotilgan tovarlar",
+    "Asosiy vositalar"
+   ],
+   "e": "Ishlab chiqarish jarayonida."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Asosiy vositani ta'mirlash xarajatlari odatda qanday aks ettiriladi?",
+   "a": [
+    "Davr xarajati sifatida",
+    "Ustav kapitaliga qo'shiladi",
+    "Daromad sifatida",
+    "Aks ettirilmaydi"
+   ],
+   "e": "Kapital ta'mir — modernizatsiya bo'lsa qiymatni oshiradi."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Ikki barobar kamayib boruvchi qoldiq usuli qanday amortizatsiya usuli?",
+   "a": [
+    "Tezlashtirilgan amortizatsiya usuli",
+    "Tekis (to'g'ri chiziqli) usul",
+    "Ishlab chiqarish hajmi usuli",
+    "Amortizatsiya hisoblamaslik usuli"
+   ],
+   "e": "Dastlabki yillarda ko'proq."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Ishlab chiqarish hajmi usulida amortizatsiya nimaga bog'liq?",
+   "a": [
+    "Ishlab chiqarilgan mahsulot miqdoriga",
+    "Faqat kalendar yillar soniga",
+    "Faqat rahbar buyrug'iga",
+    "Faqat joriy bozor narxiga"
+   ],
+   "e": "Birlikka to'g'ri keladigan."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Yer uchastkalariga amortizatsiya hisoblanadimi?",
+   "a": [
+    "Yo'q, hisoblanmaydi",
+    "Ha, har oy 10% dan",
+    "Ha, faqat qishda",
+    "Ha, foydali muddat 1 yil"
+   ],
+   "e": "Cheklanmagan foydalanish muddati."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Asosiy vositalarni qayta baholashdan maqsad nima?",
+   "a": [
+    "Joriy qiymatni aniqlash",
+    "Soliqni yashirish",
+    "Xodimlar sonini kamaytirish",
+    "Daromadni sun'iy oshirish"
+   ],
+   "e": "Qayta baholash rezervi."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Kam baholi va tez eskiruvchi buyumlar qaysi aktivlarga kiradi?",
+   "a": [
+    "Aylanma aktivlarga (TMZ)",
+    "Asosiy vositalarga",
+    "Nomoddiy aktivlarga",
+    "Uzoq muddatli investitsiyalarga"
+   ],
+   "e": "Qisqa muddatli foydalanish."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Materiallarning tabiiy kamayish me'yori doirasidagi kamomadi qanday hisobdan chiqariladi?",
+   "a": [
+    "Ishlab chiqarish xarajatlariga",
+    "Aybdor shaxsdan undiriladi har doim",
+    "Daromad sifatida",
+    "Ustav kapitaliga"
+   ],
+   "e": "Me'yordan ortig'i — aybdorga."
+  },
+  {
+   "b": "Asosiy vositalar, nomoddiy aktivlar va TMZ",
+   "q": "Inventarizatsiyada ortiqcha (izlishek) aniqlansa qanday aks ettiriladi?",
+   "a": [
+    "Kirim qilinib, daromadga olinadi",
+    "Hisobdan chiqariladi, yashiriladi",
+    "Xodimlarga tarqatiladi",
+    "Hech qanday aks ettirilmaydi"
+   ],
+   "e": "Ortiqcha TMZ."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "O'zbekistonda jismoniy shaxslardan olinadigan daromad solig'i (JShDS) stavkasi qancha?",
+   "a": [
+    "12%",
+    "7,5%, kamaytirilgan",
+    "22%, progressiv shkala bo'yicha",
+    "30%, yuqori daromadlar uchun"
+   ],
+   "e": "Yagona stavka (2019-yildan)."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Qo'shilgan qiymat solig'i (QQS) ning amaldagi umumiy stavkasi qancha?",
+   "a": [
+    "12%",
+    "20%, Yevropa darajasida",
+    "15%, 2022-yilgacha bo'lgan",
+    "5%, imtiyozli"
+   ],
+   "e": "2023-yildan."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Yuridik shaxslar foyda solig'ining umumiy stavkasi qancha?",
+   "a": [
+    "15%",
+    "12%, QQS bilan bir xil",
+    "30%, yuqori stavka",
+    "1%, aylanmadan"
+   ],
+   "e": "Ayrim sohalar uchun boshqacha."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ish haqi qanday asosiy shakllarda to'lanadi?",
+   "a": [
+    "Vaqtbay va ishbay",
+    "Faqat naturada, mahsulot bilan",
+    "Faqat yil oxirida, bir marta",
+    "Faqat valyutada, chet el hisobidan"
+   ],
+   "e": "Va ularning turlari."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Vaqtbay ish haqi nimaga asoslanadi?",
+   "a": [
+    "Ishlangan vaqtga",
+    "Ishlab chiqarilgan mahsulot miqdoriga",
+    "Faqat sotilgan mahsulotga",
+    "Faqat rahbar xohishiga"
+   ],
+   "e": "Tabel asosida."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ishbay ish haqi nimaga asoslanadi?",
+   "a": [
+    "Bajarilgan ish hajmiga",
+    "Faqat ishlangan soatlarga",
+    "Faqat ish stajiga",
+    "Faqat xodim yoshiga"
+   ],
+   "e": "Narx (rastsenka) × hajm."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ish vaqtini hisobga olish qaysi hujjatda yuritiladi?",
+   "a": [
+    "Tabel",
+    "Kassa kitobi",
+    "Yuk xati",
+    "Ishonchnoma"
+   ],
+   "e": "Ish vaqti tabeli."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ish haqidan JShDS ushlanganda qanday provodka beriladi?",
+   "a": [
+    "Dt 6710 — Kt 6410",
+    "Dt 6410 — Kt 6710",
+    "Dt 2010 — Kt 6410",
+    "Dt 6710 — Kt 5010"
+   ],
+   "e": "Byudjetga to'lovlar bo'yicha qarz."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ijtimoiy soliq kimning hisobidan to'lanadi?",
+   "a": [
+    "Ish beruvchi hisobidan",
+    "Xodimning ish haqidan ushlanadi",
+    "Davlat byudjetidan",
+    "Kasaba uyushmasidan"
+   ],
+   "e": "Mehnatga haq to'lash fondiga."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ijtimoiy soliqning umumiy stavkasi (2022-yildan) qancha?",
+   "a": [
+    "12%",
+    "25%",
+    "1%",
+    "30%"
+   ],
+   "e": "Byudjet tashkilotlari uchun 25%."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Mehnat ta'tili uchun to'lov qanday hisoblanadi?",
+   "a": [
+    "O'rtacha ish haqi asosida",
+    "Faqat oxirgi oy ish haqi bilan",
+    "Eng kam ish haqi miqdorida",
+    "Hisoblanmaydi"
+   ],
+   "e": "Oxirgi 12 oy."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "O'zbekistonda yillik asosiy mehnat ta'tilining eng kam muddati qancha?",
+   "a": [
+    "21 kalendar kun",
+    "7 kalendar kun",
+    "45 kalendar kun",
+    "60 kalendar kun"
+   ],
+   "e": "Mehnat kodeksi."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Vaqtincha mehnatga qobiliyatsizlik nafaqasi qaysi hujjat asosida to'lanadi?",
+   "a": [
+    "Mehnatga layoqatsizlik varaqasi (byulleten)",
+    "Xodimga berilgan ishonchnoma",
+    "Ombor kirim orderi",
+    "Elektron hisob-faktura"
+   ],
+   "e": "Tibbiy muassasa beradi."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ish haqi bo'yicha xodimga qanday hujjat beriladi?",
+   "a": [
+    "Hisob varaqasi (raschyotniy listok)",
+    "Tovar-transport yuk xati",
+    "Kassa kirim orderi",
+    "Bankka to'lov topshiriqnomasi"
+   ],
+   "e": "Hisoblash va ushlanmalar."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ish haqidan ushlanadigan summalarga nima kiradi?",
+   "a": [
+    "JShDS, aliment, avans",
+    "Ijtimoiy soliq (ish beruvchi hisobidan)",
+    "Qo'shilgan qiymat solig'i",
+    "Yuridik shaxs foyda solig'i"
+   ],
+   "e": "Xodim hisobidan."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Xodimga avans berilganda kassadan qanday provodka beriladi?",
+   "a": [
+    "Dt 6710 — Kt 5010",
+    "Dt 5010 — Kt 6710",
+    "Dt 4220 — Kt 6710",
+    "Dt 9010 — Kt 5010"
+   ],
+   "e": "Oylik avans (ish haqi qismi)."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Hisobdor shaxsga xizmat safari uchun pul berilganda qanday provodka?",
+   "a": [
+    "Dt 4220 — Kt 5010",
+    "Dt 5010 — Kt 4220",
+    "Dt 6710 — Kt 4220",
+    "Dt 4220 — Kt 9010"
+   ],
+   "e": "Hisobdor shaxslar."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Hisobdor shaxs qaysi hujjat bilan hisobot beradi?",
+   "a": [
+    "Avans hisoboti",
+    "Ombor kirim orderi",
+    "Ish vaqti tabeli",
+    "Tovar-transport yuk xati"
+   ],
+   "e": "Sarflangan summani tasdiqlaydi."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ish haqi kechiktirilib to'lansa, bu qanday majburiyat hisoblanadi?",
+   "a": [
+    "Kreditorlik qarzi",
+    "Debitorlik qarzi (aktiv)",
+    "Boshqa daromad",
+    "Uzoq muddatli aktiv"
+   ],
+   "e": "6710 schyot kreditida."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Mukofot (premiya) qanday aks ettiriladi?",
+   "a": [
+    "Ish haqi bilan birga hisoblanadi",
+    "Daromad sifatida alohida",
+    "Ustav kapitaliga qo'shiladi",
+    "Hech qanday aks ettirilmaydi"
+   ],
+   "e": "Soliqqa tortiladi."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Soliq deklaratsiyasi nima?",
+   "a": [
+    "Soliq to'lovchining hisob-kitobi",
+    "Mahsulot sifat sertifikati",
+    "Xodim mehnat shartnomasi",
+    "Korxona ustavi"
+   ],
+   "e": "Soliq organiga topshiriladi."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Soliq hisobotlari O'zbekistonda asosan qanday topshiriladi?",
+   "a": [
+    "Elektron shaklda (my.soliq.uz)",
+    "Faqat og'zaki, soliq inspektoriga",
+    "Faqat pochta orqali qog'ozda",
+    "Hisobot umuman topshirilmaydi"
+   ],
+   "e": "Elektron raqamli imzo bilan."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Hisob-faktura qaysi tizimda elektron rasmiylashtiriladi?",
+   "a": [
+    "Elektron hisob-fakturalar tizimi",
+    "Faqat qog'ozda, qo'lda yozib",
+    "Faqat telefon orqali",
+    "Hisob-faktura rasmiylashtirilmaydi"
+   ],
+   "e": "QQS hisobi."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Aylanmadan olinadigan soliq kimlar uchun qo'llanadi?",
+   "a": [
+    "Kichik biznes sub'ektlari uchun",
+    "Faqat yirik sanoat korxonalari uchun",
+    "Faqat byudjet tashkilotlari uchun",
+    "Faqat jismoniy shaxslar uchun"
+   ],
+   "e": "QQS to'lovchi bo'lmaganlar."
+  },
+  {
+   "b": "Mehnatga haq to'lash va soliqlar",
+   "q": "Ish beruvchining xodimga o'z vaqtida ish haqi to'lamasligi qanday oqibatga olib keladi?",
+   "a": [
+    "Qonunda belgilangan javobgarlikka",
+    "Hech qanday oqibatga olib kelmaydi",
+    "Faqat xodimning jarimasiga",
+    "Faqat soliqning kamayishiga"
+   ],
+   "e": "Mehnat qonunchiligi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Kassaga pul kirim qilinganda qaysi hujjat rasmiylashtiriladi?",
+   "a": [
+    "Kassa kirim orderi",
+    "Kassa chiqim orderi va avans hisoboti",
+    "Ombor kirim orderi va yuk xati",
+    "Xodimning ish vaqti tabeli"
+   ],
+   "e": "Kvitansiya beriladi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Kassadan pul berilganda qaysi hujjat rasmiylashtiriladi?",
+   "a": [
+    "Kassa chiqim orderi",
+    "Kassa kirim orderi va kvitansiya",
+    "Ombor kirim orderi",
+    "Ishonchnoma va yuk xati"
+   ],
+   "e": "Qabul qiluvchi imzolaydi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Kassa operatsiyalari qaysi kitobda qayd etiladi?",
+   "a": [
+    "Kassa kitobi",
+    "Ombor kartochkasi va jurnali",
+    "Asosiy vositalar inventar kartochkasi",
+    "Ish haqi qaydnomasi"
+   ],
+   "e": "Har kuni qoldiq chiqariladi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Kassa limiti nima?",
+   "a": [
+    "Kun oxiridagi ruxsat etilgan qoldiq",
+    "Kassirning oylik ish haqi miqdori",
+    "Bankdan bir yilda olinadigan pul",
+    "Korxona ustav kapitali miqdori"
+   ],
+   "e": "Ortiqchasi bankka topshiriladi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Kassani kutilmaganda tekshirish (taftish) kim tomonidan o'tkaziladi?",
+   "a": [
+    "Komissiya tomonidan",
+    "Faqat kassirning o'zi",
+    "Faqat bank xodimi",
+    "Faqat xaridorlar"
+   ],
+   "e": "Inventarizatsiya."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Bank ko'chirmasi nima?",
+   "a": [
+    "Hisob-kitob schyoti harakati hujjati",
+    "Kassa kirim orderi",
+    "Ombor kartochkasi",
+    "Ish vaqti tabeli"
+   ],
+   "e": "Bank beradi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "To'lov topshiriqnomasi nima uchun ishlatiladi?",
+   "a": [
+    "Bankka pul o'tkazish topshirig'i",
+    "Kassaga naqd pul kirim qilish",
+    "Materiallarni omborga kirim qilish",
+    "Ish vaqtini hisobga olish"
+   ],
+   "e": "Naqdsiz hisob-kitob."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Debitorlik qarzi nima?",
+   "a": [
+    "Boshqalarning korxonaga qarzi",
+    "Korxonaning boshqalarga qarzi",
+    "Korxonaning ustav kapitali",
+    "Korxonaning sof foydasi"
+   ],
+   "e": "Aktivda aks etadi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Kreditorlik qarzi nima?",
+   "a": [
+    "Korxonaning boshqalarga qarzi",
+    "Boshqalarning korxonaga qarzi",
+    "Kassadagi naqd pul qoldig'i",
+    "Ombordagi materiallar qiymati"
+   ],
+   "e": "Majburiyat."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Umidsiz debitorlik qarzi qanday hisobdan chiqariladi?",
+   "a": [
+    "Rezerv yoki xarajat hisobidan",
+    "Ustav kapitaliga qo'shiladi",
+    "Daromad sifatida yoziladi",
+    "Hech qachon hisobdan chiqarilmaydi"
+   ],
+   "e": "Da'vo muddati o'tganda."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Qisqa muddatli bank krediti olinganda qanday provodka beriladi?",
+   "a": [
+    "Dt 5110 — Kt 6810",
+    "Dt 6810 — Kt 5110",
+    "Dt 5110 — Kt 8300",
+    "Dt 9010 — Kt 6810"
+   ],
+   "e": "Qisqa muddatli kreditlar."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Xaridorlarga mahsulot sotilganda (to'lov keyin) qanday provodka?",
+   "a": [
+    "Dt 4010 — Kt 9010",
+    "Dt 9010 — Kt 4010",
+    "Dt 2800 — Kt 9010",
+    "Dt 4010 — Kt 2800"
+   ],
+   "e": "Sotishdan daromad."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Sotilgan mahsulot tannarxi hisobdan chiqarilganda qanday provodka?",
+   "a": [
+    "Dt 9110 — Kt 2800",
+    "Dt 2800 — Kt 9110",
+    "Dt 9010 — Kt 2800",
+    "Dt 9110 — Kt 9010"
+   ],
+   "e": "Tannarx xarajatga."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Ustav kapitaliga ta'sischi pul bilan hissa qo'shganda qanday provodka (to'lov bankka)?",
+   "a": [
+    "Dt 5110 — Kt 4610",
+    "Dt 8300 — Kt 5110",
+    "Dt 4610 — Kt 5110",
+    "Dt 5110 — Kt 9010"
+   ],
+   "e": "Ta'sischilarning ulushlari bo'yicha qarzi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Ustav kapitali shakllantirilganda (e'lon qilinganda) qanday provodka?",
+   "a": [
+    "Dt 4610 — Kt 8300",
+    "Dt 8300 — Kt 4610",
+    "Dt 5110 — Kt 8300",
+    "Dt 0100 — Kt 8300"
+   ],
+   "e": "Ta'sischilar qarzi paydo bo'ladi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Akt-sverka (o'zaro hisob-kitoblarni solishtirish dalolatnomasi) nima uchun tuziladi?",
+   "a": [
+    "Qarzlarni solishtirish uchun",
+    "Ish haqini hisoblash uchun",
+    "Asosiy vositani sotish uchun",
+    "Kassani tekshirish uchun"
+   ],
+   "e": "Ikki tomon imzolaydi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Avans to'lovi (oldindan to'lov) yetkazib beruvchiga berilganda qaysi schyot ishlatiladi?",
+   "a": [
+    "Berilgan bo'naklar schyoti (4310)",
+    "Ustav kapitali (8300)",
+    "Tayyor mahsulot (2800)",
+    "Kassa (5010) debeti"
+   ],
+   "e": "Debitorlik."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Xaridordan oldindan to'lov olinganda qaysi schyot ishlatiladi?",
+   "a": [
+    "Olingan bo'naklar schyoti (6310)",
+    "Berilgan bo'naklar (4310)",
+    "Asosiy vositalar (0100)",
+    "Materiallar (1000)"
+   ],
+   "e": "Kreditorlik."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Valyuta schyotidagi mablag'lar qaysi schyotda hisobga olinadi?",
+   "a": [
+    "5210",
+    "5110",
+    "5010",
+    "0100"
+   ],
+   "e": "Chet el valyutasidagi schyot."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Kurs farqi nima?",
+   "a": [
+    "Valyuta kursi farqi",
+    "Kassadagi kamomad",
+    "Ish haqidagi ushlanma",
+    "Soliq jarimasi"
+   ],
+   "e": "Daromad yoki xarajat."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Naqd pul bilan hisob-kitoblar bo'yicha cheklovlar qaysi maqsadda belgilanadi?",
+   "a": [
+    "Naqd pul aylanishini nazorat",
+    "Soliq tushumini kamaytirish uchun",
+    "Korxonalarni yopish uchun",
+    "Ish haqini kamaytirish uchun"
+   ],
+   "e": "Moliyaviy intizom."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Kassir kassada qanday mablag'larni saqlashi mumkin emas?",
+   "a": [
+    "Kirim qilinmagan begona pullarni",
+    "Belgilangan limit doirasidagi naqd pulni",
+    "Kassa kitobida qayd etilgan pulni",
+    "Ish haqi uchun olingan pulni"
+   ],
+   "e": "Kassa intizomi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Deponentlangan ish haqi nima?",
+   "a": [
+    "Muddatida olinmagan ish haqi",
+    "Muddatidan oldin berilgan ish haqi",
+    "Ish haqidan ushlangan soliq",
+    "Xodimning korxonaga qarzi"
+   ],
+   "e": "Bankka qaytariladi."
+  },
+  {
+   "b": "Kassa, bank va hisob-kitob operatsiyalari",
+   "q": "Elektron to'lov tizimlari orqali kelib tushgan tushum qanday aks ettiriladi?",
+   "a": [
+    "Bank schyotiga tushum sifatida",
+    "Kassaga naqd pul sifatida har doim",
+    "Ustav kapitaliga",
+    "Aks ettirilmaydi"
+   ],
+   "e": "Hisob-kitob schyoti."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Mahsulot tannarxi nima?",
+   "a": [
+    "Ishlab chiqarish xarajatlari",
+    "Mahsulotning bozordagi sotish narxi",
+    "Korxonaning sof foydasi",
+    "Soliqlar yig'indisi"
+   ],
+   "e": "To'g'ri va bilvosita xarajatlar."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "To'g'ri (bevosita) xarajatlarga misol qaysi?",
+   "a": [
+    "Xom ashyo xarajati",
+    "Ma'muriy xodimlar ish haqi",
+    "Ofis ijarasi",
+    "Reklama xarajatlari"
+   ],
+   "e": "Mahsulotga bevosita olinadi."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Ustama (bilvosita) xarajatlar qanday taqsimlanadi?",
+   "a": [
+    "Baza asosida taqsimlanadi",
+    "Faqat bitta mahsulotga",
+    "Taqsimlanmaydi, yo'qotiladi",
+    "Faqat foydaga olinadi"
+   ],
+   "e": "Masalan, ish haqiga proporsional."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Doimiy xarajatlar nima?",
+   "a": [
+    "Hajmga bog'liq bo'lmagan xarajatlar",
+    "Hajmga proporsional o'zgaruvchi xarajatlar",
+    "Faqat bir martalik xarajatlar",
+    "Faqat soliq xarajatlari"
+   ],
+   "e": "Ijara, amortizatsiya."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "O'zgaruvchan xarajatlarga misol qaysi?",
+   "a": [
+    "Xom ashyo sarfi",
+    "Bino ijarasi",
+    "Rahbar ish haqi (oklad)",
+    "Binoning sug'urtasi"
+   ],
+   "e": "Hajm bilan o'zgaradi."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Zararsizlik nuqtasi nima?",
+   "a": [
+    "Daromad = xarajat bo'lgan hajm",
+    "Foyda maksimal bo'lgan nuqta",
+    "Xarajat nolga teng nuqta",
+    "Soliq to'lanmaydigan nuqta"
+   ],
+   "e": "Break-even point."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Davr xarajatlariga nimalar kiradi?",
+   "a": [
+    "Ma'muriy va sotish xarajatlari",
+    "Faqat xom ashyo xarajatlari",
+    "Faqat asosiy ishchilar ish haqi",
+    "Faqat ishlab chiqarish amortizatsiyasi"
+   ],
+   "e": "Tannarxga kirmaydi."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Yalpi foyda qanday aniqlanadi?",
+   "a": [
+    "Tushum − tannarx",
+    "Sof foyda + soliqlar",
+    "Daromad + xarajat",
+    "Kassa qoldig'i + bank qoldig'i"
+   ],
+   "e": "Moliyaviy natijalar hisoboti."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Asosiy faoliyatning foydasi qanday aniqlanadi?",
+   "a": [
+    "Yalpi foyda − davr xarajatlari",
+    "Yalpi foyda + soliq",
+    "Sof tushum + tannarx",
+    "Ustav kapitali − qarzlar"
+   ],
+   "e": "Operatsion foyda."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Sof foyda qanday aniqlanadi?",
+   "a": [
+    "Foyda − foyda solig'i",
+    "Yalpi foyda + soliqlar",
+    "Sotishdan tushum + xarajatlar",
+    "Aktiv − passiv"
+   ],
+   "e": "Taqsimlanmagan foydaga o'tadi."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Sotishdan tushum 100 mln, tannarx 60 mln bo'lsa yalpi foyda qancha?",
+   "a": [
+    "40 mln so'm",
+    "160 mln so'm",
+    "60 mln so'm",
+    "100 mln so'm"
+   ],
+   "e": "100 − 60."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Soliq to'lagunga qadar foyda 20 mln so'm, foyda solig'i 15% bo'lsa, sof foyda qancha?",
+   "a": [
+    "17 mln so'm",
+    "15 mln so'm",
+    "20 mln so'm",
+    "3 mln so'm"
+   ],
+   "e": "20 − 3."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Rentabellik nimani ko'rsatadi?",
+   "a": [
+    "Foydaning xarajatga nisbatini",
+    "Xodimlar sonini",
+    "Kassadagi pul miqdorini",
+    "Ombordagi tovar miqdorini"
+   ],
+   "e": "Samaradorlik foizda."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Mahsulot rentabelligi qanday hisoblanadi?",
+   "a": [
+    "Foyda / tannarx × 100%",
+    "Tannarx / foyda × 100%",
+    "Tushum × tannarx",
+    "Foyda + tannarx"
+   ],
+   "e": "Foizda."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Moliyaviy natijalar yil oxirida qaysi schyotga yopiladi?",
+   "a": [
+    "9910",
+    "5010",
+    "0100",
+    "8300"
+   ],
+   "e": "Keyin 8700 ga."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Yil yakunida sof foyda qanday aks ettiriladi?",
+   "a": [
+    "Dt 9910 — Kt 8710",
+    "Dt 8710 — Kt 9910",
+    "Dt 5110 — Kt 9910",
+    "Dt 9910 — Kt 5010"
+   ],
+   "e": "Taqsimlanmagan foyda."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Dividend nima?",
+   "a": [
+    "Egalarga taqsimlanadigan foyda",
+    "Xodimlarning ish haqi",
+    "Bank krediti",
+    "Soliq jarimasi"
+   ],
+   "e": "Aksiyadorlarga."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Rezerv kapitali nima uchun shakllantiriladi?",
+   "a": [
+    "Zararlarni qoplash uchun",
+    "Faqat xodimlarga sovg'a berish uchun",
+    "Faqat soliqni kamaytirish uchun",
+    "Faqat reklama uchun"
+   ],
+   "e": "Sof foydadan."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Kalkulyatsiya nima?",
+   "a": [
+    "Birlik tannarxini hisoblash",
+    "Ish vaqtini hisobga olish",
+    "Kassani tekshirish",
+    "Soliq deklaratsiyasini to'ldirish"
+   ],
+   "e": "Kalkulyatsiya moddalari."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Buyurtma bo'yicha xarajatlarni hisobga olish usuli qayerda qo'llanadi?",
+   "a": [
+    "Individual ishlab chiqarishda",
+    "Faqat ommaviy uzluksiz ishlab chiqarishda",
+    "Faqat savdo do'konlarida",
+    "Faqat banklarda"
+   ],
+   "e": "Har bir buyurtma bo'yicha."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Jarayonli (protsess) usul qayerda qo'llanadi?",
+   "a": [
+    "Ommaviy ishlab chiqarishda",
+    "Faqat individual buyurtmalarda",
+    "Faqat qurilishda",
+    "Faqat xizmat ko'rsatishda"
+   ],
+   "e": "Kimyo, oziq-ovqat."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Normativ usulning mohiyati nima?",
+   "a": [
+    "Me'yor va og'ishlar hisobi",
+    "Xarajatlar umuman hisobga olinmaydi",
+    "Faqat haqiqiy xarajatlar, me'yorsiz",
+    "Faqat bozor narxi bo'yicha"
+   ],
+   "e": "Nazorat qilish."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Boshqaruv hisobi kim uchun mo'ljallangan?",
+   "a": [
+    "Rahbariyat",
+    "Faqat soliq organlari",
+    "Faqat tijorat banklari",
+    "Faqat aksiyadorlar majlisi"
+   ],
+   "e": "Qaror qabul qilish uchun."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Moliyaviy hisob kim uchun mo'ljallangan?",
+   "a": [
+    "Barcha foydalanuvchilar",
+    "Faqat ombor mudiri",
+    "Faqat kassir",
+    "Faqat rahbar shaxsan"
+   ],
+   "e": "Standart hisobotlar."
+  },
+  {
+   "b": "Xarajatlar, tannarx va moliyaviy natijalar",
+   "q": "Xarajat markazi (mas'uliyat markazi) nima?",
+   "a": [
+    "Nazorat qilinadigan bo'linma",
+    "Korxona kassasi",
+    "Soliq inspeksiyasi",
+    "Bank filiali"
+   ],
+   "e": "Boshqaruv hisobi."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Buxgalteriya balansida aktivlar qanday bo'limlarga bo'linadi?",
+   "a": [
+    "Uzoq muddatli va joriy aktivlar",
+    "Faqat kassa va bank mablag'lari",
+    "Daromad va xarajatlar",
+    "O'z kapitali va majburiyatlar"
+   ],
+   "e": "I va II bo'lim."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Balans passivi qanday bo'limlarga bo'linadi?",
+   "a": [
+    "Manbalar va majburiyatlar",
+    "Uzoq muddatli va joriy aktivlar",
+    "Daromad va xarajatlar",
+    "Kassa va tovarlar"
+   ],
+   "e": "Passiv tarkibi."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Joriy aktivlarga nimalar kiradi?",
+   "a": [
+    "TMZ, debitorlik, pul",
+    "Bino va inshootlar",
+    "Yer uchastkalari",
+    "Uzoq muddatli investitsiyalar"
+   ],
+   "e": "Bir yil ichida aylanadi."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Joriy likvidlik koeffitsiyenti qanday hisoblanadi?",
+   "a": [
+    "Joriy aktivlar / joriy majburiyatlar",
+    "Joriy majburiyatlar / joriy aktivlar",
+    "Sof foyda / tushum",
+    "Ustav kapitali / aktivlar"
+   ],
+   "e": "1 dan katta bo'lishi kerak."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Moliyaviy mustaqillik koeffitsiyenti nimani ko'rsatadi?",
+   "a": [
+    "O'z kapitali ulushini",
+    "Qarzning foydaga nisbatini",
+    "Kassadagi pul ulushini",
+    "Xodimlar mehnat unumdorligini"
+   ],
+   "e": "Avtonomiya."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Pul oqimlari to'g'risidagi hisobotda qaysi faoliyat turlari ajratiladi?",
+   "a": [
+    "Operatsion, investitsiya, moliyaviy",
+    "Faqat savdo va ishlab chiqarish",
+    "Faqat ichki va tashqi",
+    "Faqat kunduzgi va tungi"
+   ],
+   "e": "3 turdagi faoliyat."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Asosiy vosita sotib olish pul oqimlari hisobotida qaysi faoliyatga kiradi?",
+   "a": [
+    "Investitsiya faoliyati",
+    "Operatsion (asosiy) faoliyat",
+    "Moliyaviy faoliyat",
+    "Hech qaysi faoliyatga kirmaydi"
+   ],
+   "e": "Uzoq muddatli aktivlar."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Bank kreditini olish qaysi faoliyatga kiradi?",
+   "a": [
+    "Moliyaviy faoliyat",
+    "Investitsiya faoliyati",
+    "Operatsion faoliyat",
+    "Hech qaysiga"
+   ],
+   "e": "Moliyalashtirish."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Moliyaviy hisobotning sifat xususiyatlariga nimalar kiradi?",
+   "a": [
+    "Ishonchlilik va taqqoslanuvchanlik",
+    "Faqat chiroyli bezatilganlik",
+    "Faqat hajmning kattaligi",
+    "Faqat rahbarga yoqishi"
+   ],
+   "e": "Kontseptual asoslar."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "XMHS (IFRS) nima?",
+   "a": [
+    "Xalqaro moliyaviy standartlar",
+    "Milliy soliq kodeksi",
+    "Bank kredit shartnomasi",
+    "Korxona ichki tartib qoidalari"
+   ],
+   "e": "International Financial Reporting Standards."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Audit nima?",
+   "a": [
+    "Mustaqil tekshiruv",
+    "Ish haqini hisoblash",
+    "Mahsulot reklamasi",
+    "Soliqni to'lash"
+   ],
+   "e": "Auditorlik xulosasi."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Ichki audit kim tomonidan o'tkaziladi?",
+   "a": [
+    "Korxonaning ichki audit xizmati",
+    "Faqat chet el davlati",
+    "Faqat xaridorlar",
+    "Faqat soliq to'lovchi fuqarolar"
+   ],
+   "e": "Ichki nazorat."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Auditorlik xulosasining turlari qaysilar?",
+   "a": [
+    "Ijobiy, shartli, salbiy, voz kechish",
+    "Faqat ijobiy",
+    "Faqat og'zaki",
+    "Faqat yashirin"
+   ],
+   "e": "Auditor fikri."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Gorizontal tahlil nima?",
+   "a": [
+    "Ko'rsatkichlarni davrlar bo'yicha taqqoslash",
+    "Ko'rsatkichlarning jami ichidagi ulushini aniqlash",
+    "Faqat bitta sanadagi ko'rsatkich",
+    "Xodimlar sonini sanash"
+   ],
+   "e": "Dinamika."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Vertikal tahlil nima?",
+   "a": [
+    "Jamidagi ulushni aniqlash",
+    "Davrlar bo'yicha o'sishni hisoblash",
+    "Faqat soliqni hisoblash",
+    "Faqat kassani tekshirish"
+   ],
+   "e": "Struktura tahlili."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Aktivlar aylanuvchanligi nimani ko'rsatadi?",
+   "a": [
+    "Aktivlar samaradorligini",
+    "Xodimlar sonini",
+    "Soliq stavkasini",
+    "Ustav kapitali miqdorini"
+   ],
+   "e": "Tushum / aktivlar."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "ROA ko'rsatkichi nima?",
+   "a": [
+    "Aktivlar rentabelligi",
+    "Kapital rentabelligi",
+    "Sotish rentabelligi",
+    "Likvidlik koeffitsiyenti"
+   ],
+   "e": "Sof foyda / aktivlar."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "ROE ko'rsatkichi nima?",
+   "a": [
+    "Xususiy kapital rentabelligi",
+    "Aktivlar rentabelligi",
+    "Debitorlik qarzi aylanmasi",
+    "Joriy likvidlik koeffitsiyenti"
+   ],
+   "e": "Sof foyda / kapital."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Moliyaviy hisobot qayerga taqdim etiladi?",
+   "a": [
+    "Soliq, statistika organlariga",
+    "Faqat qo'shni korxonalarga",
+    "Faqat xodimlarning oilalariga",
+    "Hech qayerga"
+   ],
+   "e": "Belgilangan muddatlarda."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Yillik moliyaviy hisobot odatda qachongacha topshiriladi?",
+   "a": [
+    "Keyingi yilning 15-fevraliga qadar",
+    "Keyingi yilning dekabrida",
+    "Hisobot yilining boshida",
+    "Umuman topshirilmaydi"
+   ],
+   "e": "Belgilangan muddat."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Hisobotda xatolik aniqlansa nima qilinadi?",
+   "a": [
+    "Tartib bilan tuzatiladi",
+    "E'tiborsiz qoldiriladi",
+    "Hisobot yo'q qilinadi",
+    "Xatolik yashiriladi"
+   ],
+   "e": "Tuzatish yozuvlari."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "\"Qizil storno\" usuli nima uchun qo'llanadi?",
+   "a": [
+    "Noto'g'ri yozuvni bekor qilish",
+    "Yozuvni qizil rangda chiroyli qilish uchun",
+    "Faqat daromadni oshirish uchun",
+    "Faqat soliqni kamaytirish uchun"
+   ],
+   "e": "Tuzatish usuli."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Qo'shimcha yozuv usuli qachon qo'llanadi?",
+   "a": [
+    "Kam summani to'ldirish",
+    "Summa ko'p ko'rsatilganda kamaytirish uchun",
+    "Schyot noto'g'ri tanlanganda",
+    "Hech qachon qo'llanmaydi"
+   ],
+   "e": "Korrespondensiya to'g'ri bo'lsa."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "1C kabi dasturlar buxgalteriyada nima uchun ishlatiladi?",
+   "a": [
+    "Hisobni avtomatlashtirish",
+    "Faqat o'yin o'ynash uchun",
+    "Faqat rasm chizish uchun",
+    "Faqat musiqa tinglash uchun"
+   ],
+   "e": "Avtomatlashtirilgan hisob."
+  },
+  {
+   "b": "Moliyaviy hisobot va tahlil",
+   "q": "Bosh daftar (Glavnaya kniga) nima?",
+   "a": [
+    "Sintetik schyotlar registri",
+    "Kassa kirim orderlari to'plami",
+    "Ish vaqti tabeli",
+    "Mahsulot katalogi"
+   ],
+   "e": "Jurnal-order shakli."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Buxgalteriya hisobining predmeti nima?",
+   "a": [
+    "Mablag'lar, manbalar va operatsiyalar",
+    "Faqat xodimlarning shaxsiy hayoti",
+    "Faqat bozor narxlari dinamikasi",
+    "Faqat davlat byudjeti xarajatlari"
+   ],
+   "e": "Hisob ob'ektlari."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Buxgalteriya hisobining usuli (metodi) elementlariga nimalar kiradi?",
+   "a": [
+    "Hujjat, baholash, schyot, balans",
+    "Faqat reklama va marketing",
+    "Faqat xodimlarni ishga olish",
+    "Faqat ishlab chiqarishni rejalashtirish"
+   ],
+   "e": "Metod elementlari."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Hisobda qanday o'lchovlar qo'llanadi?",
+   "a": [
+    "Natural, mehnat, pul",
+    "Faqat harorat o'lchovi",
+    "Faqat masofa o'lchovi",
+    "Faqat vaqt o'lchovi"
+   ],
+   "e": "Buxgalteriyada asosiy — pul."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Schyotning tuzilishi qanday?",
+   "a": [
+    "Debet va kredit",
+    "Faqat bitta ustun",
+    "Uchta teng qism",
+    "Faqat sarlavha"
+   ],
+   "e": "T-shakl."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Saldo (qoldiq) nima?",
+   "a": [
+    "Aylanmalar farqi",
+    "Faqat debet aylanmasi",
+    "Faqat kredit aylanmasi",
+    "Schyot nomi va raqami"
+   ],
+   "e": "Boshlang'ich va oxirgi qoldiq."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Aktiv schyotda oxirgi qoldiq qanday hisoblanadi?",
+   "a": [
+    "Qoldiq + debet − kredit",
+    "Boshlang'ich qoldiq + kredit − debet",
+    "Debet + kredit aylanmalari yig'indisi",
+    "Faqat kredit aylanmasi"
+   ],
+   "e": "Formula."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Kassada boshlang'ich qoldiq 2 mln, kirim 5 mln, chiqim 6 mln bo'lsa, oxirgi qoldiq qancha?",
+   "a": [
+    "1 mln so'm",
+    "13 mln so'm",
+    "3 mln so'm",
+    "9 mln so'm"
+   ],
+   "e": "2 + 5 − 6."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Passiv schyotda oxirgi qoldiq qanday hisoblanadi?",
+   "a": [
+    "Qoldiq + kredit − debet",
+    "Boshlang'ich qoldiq + debet − kredit",
+    "Faqat debet aylanmasi",
+    "Debet × kredit"
+   ],
+   "e": "Passiv qoida."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Aktiv-passiv schyotga misol qaysi?",
+   "a": [
+    "Turli debitor-kreditorlar",
+    "Kassa (5010)",
+    "Ustav kapitali (8300)",
+    "Asosiy vositalar (0100)"
+   ],
+   "e": "Ikki tomonlama qoldiq."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Kontr-schyot (tartibga soluvchi) ga misol qaysi?",
+   "a": [
+    "Eskirish (0200)",
+    "Kassa (5010)",
+    "Materiallar (1000)",
+    "Hisob-kitob schyoti (5110)"
+   ],
+   "e": "Asosiy schyot qiymatini tuzatadi."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Balansga ta'sir qiluvchi operatsiyalarning nechta turi bor?",
+   "a": [
+    "4 turi",
+    "2 turi",
+    "10 turi",
+    "1 turi"
+   ],
+   "e": "Aktiv ichida, passiv ichida, ikkalasi oshadi, ikkalasi kamayadi."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Bankdan kassaga pul olish balansga qanday ta'sir qiladi?",
+   "a": [
+    "Aktiv tarkibi o'zgaradi",
+    "Aktiv va passiv bir xil summaga oshadi",
+    "Aktiv va passiv kamayadi",
+    "Faqat passiv o'zgaradi"
+   ],
+   "e": "1-tur operatsiya."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Yetkazib beruvchidan qarzga materiallar olinsa balans qanday o'zgaradi?",
+   "a": [
+    "Ikkalasi bir xil oshadi",
+    "Faqat aktiv tarkibi o'zgaradi",
+    "Aktiv va passiv kamayadi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "3-tur."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Yetkazib beruvchiga bankdan qarz to'lansa balans qanday o'zgaradi?",
+   "a": [
+    "Ikkalasi bir xil kamayadi",
+    "Aktiv va passiv oshadi",
+    "Faqat passiv tarkibi o'zgaradi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "4-tur."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Kreditorlik qarzini qisqa muddatli kreditga aylantirish balansga qanday ta'sir qiladi?",
+   "a": [
+    "Passiv tarkibi o'zgaradi",
+    "Aktiv va passiv oshadi",
+    "Aktiv va passiv kamayadi",
+    "Faqat aktiv o'zgaradi"
+   ],
+   "e": "2-tur."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Oddiy provodka nima?",
+   "a": [
+    "Bitta debet va bitta kredit schyot",
+    "Bir nechta debet va bir nechta kredit",
+    "Faqat debet schyoti",
+    "Faqat kredit schyoti"
+   ],
+   "e": "Murakkab — ko'p schyotli."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Xronologik yozuv qaysi registrda yuritiladi?",
+   "a": [
+    "Operatsiyalar jurnalida",
+    "Faqat bosh daftar sahifasida",
+    "Faqat ombor kartochkasida",
+    "Faqat schyot-fakturada"
+   ],
+   "e": "Sana tartibida."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Buxgalteriya registri nima?",
+   "a": [
+    "Hisob yozuvlari shakli",
+    "Bankdagi hisob raqami",
+    "Soliq to'lovchi raqami",
+    "Korxona manzili"
+   ],
+   "e": "Hisob registrlari."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Jurnal-order shakli nima?",
+   "a": [
+    "Hisob yuritish shakli",
+    "Bankka to'lov topshiriqnomasi",
+    "Soliq deklaratsiyasi",
+    "Xodim arizasi"
+   ],
+   "e": "Hisob shakllari."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Hisobning qaysi shakli kichik korxonalar uchun soddalashtirilgan?",
+   "a": [
+    "Soddalashtirilgan shakl",
+    "Faqat jurnal-order shakli",
+    "Faqat memorial-order shakli",
+    "Hisob yuritilmaydi"
+   ],
+   "e": "Kichik biznes."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Aktivlarni baholash qanday asosda amalga oshiriladi?",
+   "a": [
+    "Haqiqiy xarajatlar asosida",
+    "Faqat rahbar istagi bo'yicha",
+    "Faqat xodimlar fikri bo'yicha",
+    "Faqat qo'shni korxona narxi bo'yicha"
+   ],
+   "e": "Tarixiy qiymat."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Ahamiyatlilik (muhimlik) tamoyili nimani bildiradi?",
+   "a": [
+    "Muhim axborot oshkor qilinadi",
+    "Barcha ma'lumotlar yashirilishi kerak",
+    "Faqat kichik summalar hisobga olinadi",
+    "Faqat yirik summalar yashiriladi"
+   ],
+   "e": "Materiality."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Mazmunning shakldan ustunligi tamoyili nimani anglatadi?",
+   "a": [
+    "Iqtisodiy mohiyat ustun",
+    "Faqat hujjat shakli muhim",
+    "Faqat imzo muhim",
+    "Faqat muhr muhim"
+   ],
+   "e": "Substance over form."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Daromad va xarajatlar muvofiqligi tamoyili nimani bildiradi?",
+   "a": [
+    "Daromad va xarajat bir davrda",
+    "Daromad bir yilda, xarajat boshqa yilda",
+    "Xarajatlar hech qachon aks ettirilmaydi",
+    "Daromad hech qachon aks ettirilmaydi"
+   ],
+   "e": "Matching."
+  },
+  {
+   "b": "Hisob nazariyasi: ob'ektlar, usullar, schyotlar",
+   "q": "Bosh buxgalterning asosiy vazifasi nima?",
+   "a": [
+    "Hisob va hisobotni tashkil etish",
+    "Mahsulot ishlab chiqarish",
+    "Reklama tayyorlash",
+    "Xodimlarni ishga olish"
+   ],
+   "e": "Rahbar bilan birga imzolaydi."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Kassadagi ortiqcha naqd pul bankka topshirilganda qanday provodka beriladi?",
+   "a": [
+    "Dt 5110 — Kt 5010",
+    "Dt 5010 — Kt 5110",
+    "Dt 5110 — Kt 9010",
+    "Dt 6710 — Kt 5010"
+   ],
+   "e": "Bank ko'payadi."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Asosiy vosita yetkazib beruvchidan qarzga sotib olinganda qanday provodka?",
+   "a": [
+    "Dt 0800 — Kt 6010",
+    "Dt 6010 — Kt 0800",
+    "Dt 0100 — Kt 5010",
+    "Dt 0200 — Kt 6010"
+   ],
+   "e": "Kapital qo'yilmalar orqali."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Asosiy vosita foydalanishga topshirilganda qanday provodka?",
+   "a": [
+    "Dt 0100 — Kt 0800",
+    "Dt 0800 — Kt 0100",
+    "Dt 0100 — Kt 0200",
+    "Dt 0200 — Kt 0800"
+   ],
+   "e": "Kapital qo'yilmalardan."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Ma'muriy xodimlarga ish haqi hisoblanganda qanday provodka?",
+   "a": [
+    "Dt 9420 — Kt 6710",
+    "Dt 2010 — Kt 6710",
+    "Dt 6710 — Kt 9420",
+    "Dt 9010 — Kt 6710"
+   ],
+   "e": "Ma'muriy xarajatlar (davr xarajati)."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Sotish xarajatlari (reklama) bank orqali to'langanda qanday provodka?",
+   "a": [
+    "Dt 9410 — Kt 5110",
+    "Dt 5110 — Kt 9410",
+    "Dt 2010 — Kt 5110",
+    "Dt 9410 — Kt 9010"
+   ],
+   "e": "Sotish xarajatlari."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Byudjetga JShDS bankdan o'tkazilganda qanday provodka?",
+   "a": [
+    "Dt 6410 — Kt 5110",
+    "Dt 5110 — Kt 6410",
+    "Dt 6710 — Kt 6410",
+    "Dt 6410 — Kt 6710"
+   ],
+   "e": "Majburiyat so'ndiriladi."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Yetkazib beruvchidan olingan materiallar bo'yicha QQS qanday aks ettiriladi?",
+   "a": [
+    "Dt 4410 — Kt 6010",
+    "Dt 6010 — Kt 4410",
+    "Dt 1000 — Kt 4410",
+    "Dt 4410 — Kt 9010"
+   ],
+   "e": "Hisobga olinadigan QQS."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Sotilgan mahsulot bo'yicha QQS hisoblanganda qanday provodka?",
+   "a": [
+    "Dt 4010 — Kt 6410",
+    "Dt 6410 — Kt 4010",
+    "Dt 9010 — Kt 4010",
+    "Dt 6410 — Kt 9010"
+   ],
+   "e": "Byudjet oldidagi majburiyat."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Hisobdor shaxs xizmat safari xarajatlari (ma'muriy) bo'yicha hisobot berganda qanday provodka?",
+   "a": [
+    "Dt 9420 — Kt 4220",
+    "Dt 4220 — Kt 9420",
+    "Dt 5010 — Kt 9420",
+    "Dt 4220 — Kt 5010"
+   ],
+   "e": "Xarajatga olinadi."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Hisobdor shaxs ortiqcha pulni kassaga qaytarganda qanday provodka?",
+   "a": [
+    "Dt 5010 — Kt 4220",
+    "Dt 4220 — Kt 5010",
+    "Dt 5010 — Kt 6710",
+    "Dt 9420 — Kt 4220"
+   ],
+   "e": "Qarz kamayadi."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Inventarizatsiyada aniqlangan kamomad aybdor shaxsga yozilganda qanday provodka?",
+   "a": [
+    "Dt 4730 — Kt 5910",
+    "Dt 5910 — Kt 4730",
+    "Dt 1000 — Kt 4730",
+    "Dt 4730 — Kt 9010"
+   ],
+   "e": "Moddiy zararni qoplash."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Bank xizmati uchun komissiya ushlanganda qanday provodka?",
+   "a": [
+    "Dt 9690 — Kt 5110",
+    "Dt 5110 — Kt 9690",
+    "Dt 2010 — Kt 5110",
+    "Dt 9690 — Kt 9010"
+   ],
+   "e": "Moliyaviy faoliyat xarajatlari."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Bankka qisqa muddatli kredit qaytarilganda qanday provodka?",
+   "a": [
+    "Dt 6810 — Kt 5110",
+    "Dt 5110 — Kt 6810",
+    "Dt 6810 — Kt 9010",
+    "Dt 8300 — Kt 6810"
+   ],
+   "e": "Majburiyat kamayadi."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Kredit bo'yicha foiz hisoblanganda qanday provodka?",
+   "a": [
+    "Dt 9610 — Kt 6920",
+    "Dt 6920 — Kt 9610",
+    "Dt 9010 — Kt 6920",
+    "Dt 2010 — Kt 9610"
+   ],
+   "e": "Foiz xarajatlari."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Dividend hisoblanganda qanday provodka?",
+   "a": [
+    "Dt 8710 — Kt 6610",
+    "Dt 6610 — Kt 8710",
+    "Dt 9010 — Kt 6610",
+    "Dt 8300 — Kt 6610"
+   ],
+   "e": "Taqsimlanmagan foydadan."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Asosiy vosita sotilganda (boshqa daromad sifatida) qaysi schyot ishlatiladi?",
+   "a": [
+    "9210 (asosiy vositalarning chiqib ketishi)",
+    "9010 (tayyor mahsulot sotish)",
+    "2800 (tayyor mahsulot)",
+    "5010 (kassa)"
+   ],
+   "e": "Boshqa operatsion faoliyat."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Tayyor mahsulot naqd pulga sotilganda qanday provodka?",
+   "a": [
+    "Dt 5010 — Kt 9010",
+    "Dt 9010 — Kt 5010",
+    "Dt 5010 — Kt 2800",
+    "Dt 2800 — Kt 5010"
+   ],
+   "e": "Daromad kassaga."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Materiallar yo'qolganda (aybdor aniqlanmagan) qanday aks ettiriladi?",
+   "a": [
+    "Boshqa operatsion xarajatlarga olinadi",
+    "Ustav kapitaliga qo'shiladi",
+    "Daromadga yoziladi",
+    "Aks ettirilmaydi"
+   ],
+   "e": "Komissiya qarori bilan."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Ustav kapitaliga hissa sifatida asosiy vosita kiritilganda qanday provodka?",
+   "a": [
+    "Dt 0100 — Kt 4610",
+    "Dt 4610 — Kt 0100",
+    "Dt 0100 — Kt 8300",
+    "Dt 8300 — Kt 0100"
+   ],
+   "e": "Ta'sischining qarzi so'ndiriladi."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Kam baholi buyumlar foydalanishga berilganda qanday aks ettiriladi?",
+   "a": [
+    "Qiymati xarajatga olinadi",
+    "Asosiy vositalarga qo'shiladi",
+    "Daromadga olinadi",
+    "Ustav kapitaliga qo'shiladi"
+   ],
+   "e": "Belgilangan tartibda."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Bir schyotdan boshqa schyotga xato o'tkazilgan summani to'g'rilash uchun nima qilinadi?",
+   "a": [
+    "Qizil storno va to'g'ri provodka",
+    "Xatoni yashirish",
+    "Hujjatni yo'q qilish",
+    "Hech narsa qilmaslik"
+   ],
+   "e": "Tuzatish."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Moliyaviy natijalarni yopishda daromad schyotlari qanday yopiladi?",
+   "a": [
+    "Dt 9010 — Kt 9910",
+    "Dt 9910 — Kt 9010",
+    "Dt 9010 — Kt 5110",
+    "Dt 8700 — Kt 9010"
+   ],
+   "e": "Yakuniy natijaga."
+  },
+  {
+   "b": "Amaliy provodkalar",
+   "q": "Moliyaviy natijalarni yopishda tannarx schyoti qanday yopiladi?",
+   "a": [
+    "Dt 9910 — Kt 9110",
+    "Dt 9110 — Kt 9910",
+    "Dt 9110 — Kt 2800",
+    "Dt 8700 — Kt 9110"
+   ],
+   "e": "Xarajat yakuniy natijaga."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Xodimning oylik maoshi 5 000 000 so'm. JShDS (12%) qancha ushlanadi?",
+   "a": [
+    "600 000 so'm",
+    "500 000 so'm",
+    "1 200 000 so'm",
+    "60 000 so'm"
+   ],
+   "e": "5 000 000 × 12%."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Oylik maoshi 5 000 000 so'm bo'lgan xodim JShDS (12%) ushlangandan keyin qancha oladi?",
+   "a": [
+    "4 400 000 so'm",
+    "4 500 000 so'm",
+    "5 600 000 so'm",
+    "3 800 000 so'm"
+   ],
+   "e": "5 000 000 − 600 000."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Ish haqi fondi 10 mln so'm, ijtimoiy soliq 12% bo'lsa, soliq summasi qancha?",
+   "a": [
+    "1 200 000 so'm",
+    "120 000 so'm",
+    "12 000 000 so'm",
+    "2 500 000 so'm"
+   ],
+   "e": "Ish beruvchi to'laydi."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Mahsulot QQSsiz narxi 1 000 000 so'm, QQS 12% bo'lsa, QQS bilan narx qancha?",
+   "a": [
+    "1 120 000 so'm",
+    "1 012 000 so'm",
+    "1 200 000 so'm",
+    "880 000 so'm"
+   ],
+   "e": "1 000 000 × 1,12."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "QQS bilan narx 1 120 000 so'm (12%). QQS summasi qancha?",
+   "a": [
+    "120 000 so'm",
+    "134 400 so'm",
+    "112 000 so'm",
+    "12 000 so'm"
+   ],
+   "e": "1 120 000 × 12/112."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Uskuna 50 mln so'm, foydali muddati 10 yil, tugatish qiymati 0. Yillik amortizatsiya (tekis) qancha?",
+   "a": [
+    "5 mln so'm",
+    "10 mln so'm",
+    "50 mln so'm",
+    "0,5 mln so'm"
+   ],
+   "e": "50 / 10."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Yuqoridagi uskunaning oylik amortizatsiyasi qancha (50 mln, 10 yil)?",
+   "a": [
+    "Taxminan 416 667 so'm",
+    "5 mln so'm",
+    "50 000 so'm",
+    "1 mln so'm"
+   ],
+   "e": "5 mln / 12."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Boshlang'ich qiymati 30 mln, to'plangan eskirish 12 mln bo'lsa, qoldiq qiymat qancha?",
+   "a": [
+    "18 mln so'm",
+    "42 mln so'm",
+    "12 mln so'm",
+    "30 mln so'm"
+   ],
+   "e": "30 − 12."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "FIFO usulida: 1-partiya 100 dona × 1 000 so'm, 2-partiya 100 dona × 1 200 so'm. 150 dona sarflansa, tannarx qancha?",
+   "a": [
+    "160 000 so'm",
+    "180 000 so'm",
+    "165 000 so'm",
+    "150 000 so'm"
+   ],
+   "e": "100×1000 + 50×1200."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "O'rtacha tannarx usulida: 100 dona × 1 000 va 100 dona × 1 200 so'm. Bir donaning o'rtacha narxi qancha?",
+   "a": [
+    "1 100 so'm",
+    "1 000 so'm",
+    "1 200 so'm",
+    "2 200 so'm"
+   ],
+   "e": "220 000 / 200."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Doimiy xarajatlar 20 mln, birlik narxi 50 000, birlik o'zgaruvchan xarajati 30 000 so'm. Zararsizlik nuqtasi necha dona?",
+   "a": [
+    "1 000 dona",
+    "400 dona",
+    "667 dona",
+    "2 000 dona"
+   ],
+   "e": "20 mln / (50 000 − 30 000)."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Joriy aktivlar 60 mln, joriy majburiyatlar 40 mln bo'lsa, joriy likvidlik koeffitsiyenti qancha?",
+   "a": [
+    "1,5",
+    "0,67",
+    "2,4",
+    "20"
+   ],
+   "e": "60/40."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Sof foyda 10 mln, tushum 100 mln bo'lsa, sotish rentabelligi qancha?",
+   "a": [
+    "10%",
+    "1%",
+    "100%",
+    "90%"
+   ],
+   "e": "10/100."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Aktivlar 200 mln, o'z kapitali 120 mln bo'lsa, moliyaviy mustaqillik koeffitsiyenti qancha?",
+   "a": [
+    "0,6",
+    "1,67",
+    "0,4",
+    "80"
+   ],
+   "e": "120/200."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Kunlik tarif stavkasi 200 000 so'm, xodim oyda 22 kun ishladi. Vaqtbay ish haqi qancha?",
+   "a": [
+    "4 400 000 so'm",
+    "2 200 000 so'm",
+    "4 000 000 so'm",
+    "6 600 000 so'm"
+   ],
+   "e": "200 000 × 22."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Rastsenka 5 000 so'm, ishchi 900 dona detal tayyorladi. Ishbay ish haqi qancha?",
+   "a": [
+    "4 500 000 so'm",
+    "450 000 so'm",
+    "5 900 000 so'm",
+    "45 000 000 so'm"
+   ],
+   "e": "5 000 × 900."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Ta'til puli: kunlik o'rtacha ish haqi 150 000 so'm, ta'til 21 kun. Ta'til to'lovi qancha?",
+   "a": [
+    "3 150 000 so'm",
+    "1 500 000 so'm",
+    "2 100 000 so'm",
+    "315 000 so'm"
+   ],
+   "e": "150 000 × 21."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Kassada boshlang'ich qoldiq 3 mln, kirim 8 mln, oxirgi qoldiq 1 mln. Chiqim qancha bo'lgan?",
+   "a": [
+    "10 mln so'm",
+    "12 mln so'm",
+    "6 mln so'm",
+    "4 mln so'm"
+   ],
+   "e": "3 + 8 − 1."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Foyda solig'i stavkasi 15%. Soliqqa tortiladigan foyda 40 mln. Foyda solig'i qancha?",
+   "a": [
+    "6 mln so'm",
+    "4 mln so'm",
+    "15 mln so'm",
+    "60 mln so'm"
+   ],
+   "e": "40 × 15%."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Yalpi foyda 50 mln, davr xarajatlari 20 mln, boshqa operatsion daromad 5 mln. Asosiy faoliyat foydasi qancha?",
+   "a": [
+    "35 mln so'm",
+    "75 mln so'm",
+    "25 mln so'm",
+    "30 mln so'm"
+   ],
+   "e": "50 − 20 + 5."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Mahsulot tannarxi 80 000, foyda 20 000 so'm. Mahsulot rentabelligi qancha?",
+   "a": [
+    "25%",
+    "20%",
+    "80%",
+    "4%"
+   ],
+   "e": "20 000 / 80 000."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Debitorlik qarzi yil boshida 10 mln, yil oxirida 14 mln. O'rtacha debitorlik qancha?",
+   "a": [
+    "12 mln so'm",
+    "24 mln so'm",
+    "4 mln so'm",
+    "14 mln so'm"
+   ],
+   "e": "(10 + 14)/2."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Tushum 120 mln, o'rtacha aktivlar 60 mln. Aktivlar aylanuvchanligi necha marta?",
+   "a": [
+    "2 marta",
+    "0,5 marta",
+    "60 marta",
+    "180 marta"
+   ],
+   "e": "120 / 60."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Materialning boshlang'ich qoldig'i 50 kg, kirim 200 kg, oxirgi qoldiq 30 kg. Sarf qancha?",
+   "a": [
+    "220 kg",
+    "280 kg",
+    "180 kg",
+    "250 kg"
+   ],
+   "e": "50 + 200 − 30."
+  },
+  {
+   "b": "Hisoblash masalalari",
+   "q": "Ikki barobar kamayuvchi qoldiq usulida: qiymat 10 mln, muddati 5 yil. Birinchi yil amortizatsiyasi qancha?",
+   "a": [
+    "4 mln so'm",
+    "2 mln so'm",
+    "5 mln so'm",
+    "1 mln so'm"
+   ],
+   "e": "Stavka 40% (2 × 20%)."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Xususiy kapital tarkibiga nimalar kiradi?",
+   "a": [
+    "Ustav, rezerv kapitali, foyda",
+    "Bank kreditlari va qarzlar",
+    "Kreditorlik qarzlari",
+    "Debitorlik qarzlari"
+   ],
+   "e": "O'z mablag'lari."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Qo'shilgan kapital qachon yuzaga keladi?",
+   "a": [
+    "Aksiya nominaldan qimmat sotilganda",
+    "Kredit olinganda",
+    "Ish haqi hisoblanganda",
+    "Material sotib olinganda"
+   ],
+   "e": "Emissiya daromadi."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Uzoq muddatli majburiyatlarga nima kiradi?",
+   "a": [
+    "Muddati bir yildan ortiq kreditlar",
+    "Bir oy ichida to'lanadigan ish haqi",
+    "Joriy soliq majburiyatlari",
+    "Kassadagi pul"
+   ],
+   "e": "Balans passivi."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Lizing nima?",
+   "a": [
+    "Uzoq muddatli moliyaviy ijara",
+    "Qisqa muddatli bank omonati",
+    "Ish haqi to'lash turi",
+    "Mahalliy soliq turi"
+   ],
+   "e": "Lizing oluvchi foydalanadi."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Ijaraga olingan asosiy vositalar (operativ ijara) qanday hisobga olinadi?",
+   "a": [
+    "Balansdan tashqari schyotlarda",
+    "Asosiy vositalar (0100) schyotida",
+    "Ustav kapitalida",
+    "Materiallar schyotida"
+   ],
+   "e": "001-schyot."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Kelgusi davr xarajatlari nima?",
+   "a": [
+    "Oldindan to'langan xarajatlar",
+    "O'tgan yilgi daromadlar",
+    "Joriy davr ish haqi",
+    "Kassadagi naqd pul"
+   ],
+   "e": "Masalan, obuna, sug'urta."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Kelgusi xarajatlar va to'lovlar rezervi nima uchun tuziladi?",
+   "a": [
+    "Xarajatlarni tekis taqsimlash",
+    "Foydani yashirish uchun",
+    "Soliqni to'lamaslik uchun",
+    "Xodimlarni jazolash uchun"
+   ],
+   "e": "Masalan, ta'til rezervi."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Sug'urta to'lovi bir yilga oldindan to'langanda qanday aks ettiriladi?",
+   "a": [
+    "Kelgusi davr xarajati sifatida",
+    "Butunlay ustav kapitaliga",
+    "Daromad sifatida",
+    "Aks ettirilmaydi"
+   ],
+   "e": "Muvofiqlik tamoyili."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Moliyaviy investitsiyalarga nima kiradi?",
+   "a": [
+    "Aksiya va obligatsiyalar",
+    "Ombordagi materiallar",
+    "Xodimlarning ish haqi",
+    "Asosiy vositalar eskirishi"
+   ],
+   "e": "Uzoq va qisqa muddatli."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Byudjet tashkilotlarida buxgalteriya hisobi nimaga asoslanadi?",
+   "a": [
+    "Smeta va g'aznachilikka",
+    "Faqat foyda olishga",
+    "Faqat aksiyalar sotishga",
+    "Faqat xorijiy standartlarga"
+   ],
+   "e": "Byudjet hisobi."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Xarajatlar smetasi nima?",
+   "a": [
+    "Mablag' sarflash rejasi",
+    "Korxona foydasi hisoboti",
+    "Bank ko'chirmasi",
+    "Soliq deklaratsiyasi"
+   ],
+   "e": "Byudjet tashkiloti."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "G'aznachilik tizimi nima uchun ishlaydi?",
+   "a": [
+    "Byudjet sarfini nazorat qilish",
+    "Xususiy korxonalar foydasini taqsimlash uchun",
+    "Faqat aksiya sotish uchun",
+    "Faqat reklama uchun"
+   ],
+   "e": "Moliya vazirligi."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Yakka tartibdagi tadbirkor buxgalteriya hisobini qanday yuritadi?",
+   "a": [
+    "Soddalashtirilgan tartibda",
+    "Umuman hisob yuritmaydi",
+    "Faqat bank ko'chirmasi bilan",
+    "Faqat og'zaki"
+   ],
+   "e": "Qonunchilikka muvofiq."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Elektron raqamli imzo hisobotlarda nimani tasdiqlaydi?",
+   "a": [
+    "Hujjat haqiqiyligi va imzolovchini",
+    "Hujjat rangi va shriftini",
+    "Hujjat fayli hajmini",
+    "Hujjat yozilgan tilni"
+   ],
+   "e": "ERI."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Shartli majburiyat nima?",
+   "a": [
+    "Noaniq hodisaga bog'liq majburiyat",
+    "Har oy to'lanadigan ish haqi",
+    "Kassadagi pul",
+    "Materiallar qoldig'i"
+   ],
+   "e": "Masalan, sud da'vosi."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Moliyaviy hisobotga izohlar nima uchun kerak?",
+   "a": [
+    "Moddalarni tushuntirish",
+    "Hisobotni uzunroq qilish uchun",
+    "Xatolarni yashirish uchun",
+    "Faqat bezak uchun"
+   ],
+   "e": "Ochib berish."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Hisobot sanasidan keyingi hodisalar nima?",
+   "a": [
+    "Hisobot sanasidan keyingi hodisalar",
+    "O'tgan yilgi barcha operatsiyalar",
+    "Faqat kelgusi yil rejalari",
+    "Faqat ta'til kunlari"
+   ],
+   "e": "Tuzatuvchi va tuzatmaydigan."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Konsolidatsiyalangan hisobot nima?",
+   "a": [
+    "Guruhning birlashgan hisoboti",
+    "Bitta xodimning hisoboti",
+    "Faqat kassa hisoboti",
+    "Faqat soliq hisoboti"
+   ],
+   "e": "Guruh hisoboti."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Buxgalteriya hisobida \"kassa usuli\" nimani anglatadi?",
+   "a": [
+    "Pul harakati paytida tan olish",
+    "Daromad sodir bo'lgan paytda tan olinadi",
+    "Faqat kassani tekshirish",
+    "Faqat naqd pul hisobi"
+   ],
+   "e": "Hisoblash usuliga qarama-qarshi."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Tovar-moddiy zaxiralar sof sotish qiymati nima?",
+   "a": [
+    "Sotish narxi − sotish xarajati",
+    "Sotib olish narxi + transport",
+    "Faqat bozor narxi",
+    "Faqat tannarx"
+   ],
+   "e": "Kamroq qiymat bo'yicha baholash."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "TMZ balansda qaysi qiymatda aks ettiriladi?",
+   "a": [
+    "Eng kichik qiymatda",
+    "Har doim bozor narxida",
+    "Har doim eng yuqori narxda",
+    "Rahbar belgilagan narxda"
+   ],
+   "e": "Ehtiyotkorlik."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Firibgarlikning oldini olishda ichki nazoratning asosiy tamoyili qaysi?",
+   "a": [
+    "Vazifalarni taqsimlash",
+    "Barcha vazifalarni bitta xodimga berish",
+    "Hujjatlarni saqlamaslik",
+    "Nazoratni bekor qilish"
+   ],
+   "e": "Segregation of duties."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Buxgalter kasbiy etikasining asosiy talabi qaysi?",
+   "a": [
+    "Halollik, xolislik, maxfiylik",
+    "Mijoz xohishiga ko'ra hisobotni o'zgartirish",
+    "Ma'lumotlarni oshkor qilish",
+    "Xatolarni yashirish"
+   ],
+   "e": "Etika kodeksi."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "Buxgalteriyada maxfiylik tamoyili nimani anglatadi?",
+   "a": [
+    "Ma'lumotni oshkor qilmaslik",
+    "Barcha ma'lumotlarni ommaga e'lon qilish",
+    "Hisobotni soliq organiga topshirmaslik",
+    "Rahbardan ma'lumotlarni yashirish"
+   ],
+   "e": "Professional etika."
+  },
+  {
+   "b": "Kapital, majburiyatlar va maxsus masalalar",
+   "q": "O'zbekistonda buxgalterlar malakasini tasdiqlovchi sertifikatlarga misol qaysi?",
+   "a": [
+    "Professional buxgalter sertifikati",
+    "Haydovchilik guvohnomasi",
+    "Tibbiy ma'lumotnoma",
+    "Sport razryadi"
+   ],
+   "e": "Malaka."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Buxgalteriya hisobining qaysi turi tashqi foydalanuvchilarga axborot beradi?",
+   "a": [
+    "Moliyaviy hisob",
+    "Faqat boshqaruv hisobi, ichki maqsadlarda",
+    "Faqat operativ-texnik hisob",
+    "Faqat statistik hisob"
+   ],
+   "e": "Standart hisobotlar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Operativ hisob nima?",
+   "a": [
+    "Tezkor hisob",
+    "Yillik moliyaviy hisobot",
+    "Soliq deklaratsiyasi",
+    "Audit xulosasi"
+   ],
+   "e": "Masalan, kunlik ishlab chiqarish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Statistik hisob nimani o'rganadi?",
+   "a": [
+    "Ommaviy hodisalarni",
+    "Faqat bitta korxona kassasini",
+    "Faqat ish haqini",
+    "Faqat bir xodimning ishini"
+   ],
+   "e": "Statistika organlari."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Tovar-transport yuk xati nima uchun kerak?",
+   "a": [
+    "Tashishni rasmiylashtirish uchun",
+    "Ish haqini hisoblash uchun",
+    "Kassani tekshirish uchun",
+    "Soliq deklaratsiyasini to'ldirish uchun"
+   ],
+   "e": "Yuk jo'natuvchi va oluvchi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Hisob-faktura nimani tasdiqlaydi?",
+   "a": [
+    "Yetkazib berish va QQSni",
+    "Xodimning ishga qabul qilinganini",
+    "Kassadagi qoldiqni",
+    "Ish vaqtini"
+   ],
+   "e": "Elektron shaklda."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Shartnoma bo'yicha xaridorga jarima (penya) qo'llanganda u qanday aks ettiriladi?",
+   "a": [
+    "Boshqa operatsion daromad sifatida",
+    "Ustav kapitali sifatida",
+    "Asosiy vosita sifatida",
+    "Aks ettirilmaydi"
+   ],
+   "e": "Undirilganda."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Korxona soliq jarimasini to'lasa, u qanday aks ettiriladi?",
+   "a": [
+    "Chegirilmaydigan xarajat sifatida",
+    "Daromad sifatida",
+    "Ustav kapitaliga qo'shiladi",
+    "Aktiv sifatida"
+   ],
+   "e": "Chegirilmaydigan xarajat."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Buxgalteriya hisobida \"bo'nak\" so'zi nimani anglatadi?",
+   "a": [
+    "Oldindan to'lov",
+    "Qarzning hisobdan chiqarilishi",
+    "Ish haqidan ushlanma",
+    "Soliq imtiyozi"
+   ],
+   "e": "Avans."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Aktivlarning qadrsizlanishi nima?",
+   "a": [
+    "Qiymatning qoplanadigan qiymatdan oshishi",
+    "Aktivning sotilishi",
+    "Aktivning sotib olinishi",
+    "Aktivning ijaraga berilishi"
+   ],
+   "e": "Zarar tan olinadi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Yillik hisobotni tuzishdan oldin majburiy ravishda nima o'tkaziladi?",
+   "a": [
+    "Inventarizatsiya",
+    "Yangi xodimlarni ishga olish",
+    "Reklama kampaniyasi",
+    "Korxonani qayta nomlash"
+   ],
+   "e": "Ma'lumotlarni tasdiqlash."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Buxgalteriya hujjatlari kim tomonidan imzolanadi?",
+   "a": [
+    "Rahbar va bosh buxgalter",
+    "Faqat qorovul yoki navbatchi",
+    "Faqat xaridor vakili",
+    "Hech kim imzolamaydi"
+   ],
+   "e": "Moliyaviy hujjatlar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bosh buxgalter bo'lmagan kichik korxonada hisob kim tomonidan yuritiladi?",
+   "a": [
+    "Rahbar yoki autsorsing buxgalter",
+    "Hech kim yuritmaydi",
+    "Faqat soliq inspektori",
+    "Faqat bank"
+   ],
+   "e": "Qonun ruxsat beradi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Ish haqi bo'yicha kreditorlik qarzi qaysi bo'limda aks etadi?",
+   "a": [
+    "Joriy majburiyatlar",
+    "Uzoq muddatli aktivlar",
+    "Xususiy kapital",
+    "Joriy aktivlar"
+   ],
+   "e": "Balans passivi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Tayyor mahsulot balansda qaysi bo'limda aks etadi?",
+   "a": [
+    "Joriy aktivlar",
+    "Uzoq muddatli aktivlar",
+    "Xususiy kapital",
+    "Majburiyatlar"
+   ],
+   "e": "TMZ tarkibida."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bino va inshootlar balansda qaysi bo'limda aks etadi?",
+   "a": [
+    "Uzoq muddatli aktivlar",
+    "Joriy aktivlar",
+    "Joriy majburiyatlar",
+    "Xususiy kapital"
+   ],
+   "e": "Asosiy vositalar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Ustav kapitali balansda qaysi bo'limda aks etadi?",
+   "a": [
+    "Xususiy kapital",
+    "Joriy aktivlar",
+    "Joriy majburiyatlar",
+    "Uzoq muddatli aktivlar"
+   ],
+   "e": "Passivning birinchi bo'limi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Mahsulot sotishdan tushgan daromad qachon tan olinadi?",
+   "a": [
+    "Xatarlar xaridorga o'tganda",
+    "Faqat shartnoma imzolanganda",
+    "Faqat pul to'liq olinganda har doim",
+    "Faqat yil oxirida"
+   ],
+   "e": "Hisoblash usuli."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Xarajatlarni elementlar bo'yicha guruhlashda qaysi elementlar ajratiladi?",
+   "a": [
+    "Material, mehnat, amortizatsiya",
+    "Faqat reklama",
+    "Faqat soliq",
+    "Faqat transport"
+   ],
+   "e": "Iqtisodiy elementlar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Moliyaviy natija zarar bo'lsa, yil oxirida qanday provodka beriladi?",
+   "a": [
+    "Dt 8710 — Kt 9910",
+    "Dt 9910 — Kt 8710",
+    "Dt 5110 — Kt 8710",
+    "Dt 8710 — Kt 5010"
+   ],
+   "e": "Qoplanmagan zarar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Soliq hisobi va buxgalteriya hisobi o'rtasidagi farqlar nima deb ataladi?",
+   "a": [
+    "Vaqtinchalik va doimiy farqlar",
+    "Kassa farqlari",
+    "Kurs farqlari faqat",
+    "Inventarizatsiya farqlari"
+   ],
+   "e": "Soliq bazasi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Xodimga moddiy yordam berilganda u qanday manbadan qoplanadi?",
+   "a": [
+    "Xarajat yoki sof foyda hisobidan",
+    "Ustav kapitalini kamaytirib",
+    "Bank kreditidan majburiy",
+    "Soliq organlari hisobidan"
+   ],
+   "e": "Ichki tartibga ko'ra."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Hisobni avtomatlashtirishda ma'lumotlar xavfsizligi uchun nima qilinadi?",
+   "a": [
+    "Zaxira nusxa va kirish cheklovi",
+    "Parollarni hammaga berish",
+    "Zaxira nusxa olmaslik",
+    "Antivirusni o'chirish"
+   ],
+   "e": "Axborot xavfsizligi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Moliyaviy hisobot foydalanuvchilariga kimlar kiradi?",
+   "a": [
+    "Investor, kreditor, davlat",
+    "Faqat korxona qorovuli",
+    "Faqat raqobatchilar",
+    "Hech kim"
+   ],
+   "e": "Manfaatdor tomonlar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Kreditorlik qarzlarining aylanish muddati qisqarsa, bu nimani bildiradi?",
+   "a": [
+    "Korxona qarzlarini tezroq to'layapti",
+    "Korxona qarzlarini umuman to'lamayapti",
+    "Korxonaning foydasi nolga teng",
+    "Korxona yopilmoqda"
+   ],
+   "e": "Aylanuvchanlik tahlili."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Pul mablag'larining yetishmasligi qanday moliyaviy holatni ko'rsatadi?",
+   "a": [
+    "To'lovga qobiliyatsizlik xavfini",
+    "Yuqori likvidlik va barqarorlikni",
+    "Ortiqcha foyda mavjudligini",
+    "Ideal moliyaviy holatni"
+   ],
+   "e": "Likvidlik tahlili."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Buxgalteriya hisobi to'g'risidagi Qonunga ko'ra hisobni tashkil etish uchun kim javobgar?",
+   "a": [
+    "Korxona rahbari",
+    "Faqat kassir",
+    "Faqat omborchi",
+    "Faqat soliq inspektori"
+   ],
+   "e": "Rahbar javobgar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Hisobot davri ichida yo'l qo'yilgan xatoni tuzatishda qaysi usul qo'llanmaydi?",
+   "a": [
+    "Yozuvni o'chirg'ich bilan o'chirish",
+    "Qizil storno usuli",
+    "Qo'shimcha yozuv usuli",
+    "Tuzatish provodkasi"
+   ],
+   "e": "Hujjatlarda o'chirish taqiqlanadi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Asosiy vositalarning inventar kartochkasi nima uchun yuritiladi?",
+   "a": [
+    "Har bir ob'ektni alohida hisobga olish uchun",
+    "Kassa operatsiyalarini qayd etish uchun",
+    "Xodimlarning ish vaqtini hisobga olish uchun",
+    "Soliq deklaratsiyasini to'ldirish uchun"
+   ],
+   "e": "Inventar raqami beriladi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Ish haqi fondiga nimalar kiradi?",
+   "a": [
+    "Asosiy va qo'shimcha ish haqi, mukofotlar",
+    "Faqat soliqlar va jarimalar",
+    "Faqat asosiy vositalar qiymati",
+    "Faqat materiallar qiymati"
+   ],
+   "e": "Mehnatga haq to'lash."
+  }
+ ],
+ "kalit": "buxgalteriya buxgalter hisob schyot provodka moliyaviy hisobot audit soliq"
+}

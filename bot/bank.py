@@ -132,7 +132,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "vagon_konteyner", "yol_harakati_qoidalari_va_harakat_xavfsi", "avtomobillar_tuzilishi"]),
     ("qx", "🌱 Qishloq xo'jaligi va biologiya", [
         "biologiya", "botanika_va_osimliklar_fiziologiyasi", "osimlikshunoslik", "ekologiya", "traktorlar"]),
-    ("iqt", "📈 Iqtisodiyot va boshqaruv", ["iqtisodiyot_nazariyasi", "menejment_asoslari"]),
+    ("iqt", "📈 Iqtisodiyot va boshqaruv", ["iqtisodiyot_nazariyasi", "menejment_asoslari", "buxgalteriya_hisobi"]),
     ("xiz", "✂️ Yengil sanoat, dizayn va xizmat", ["tikuvchilik", "kompyuter_grafikasi"]),
     ("ped", "🎵 San'at va pedagogika", ["maktabgacha_pedagogika", "musiqiy_talim", "pedagogik_mahorat"]),
     ("um", "📘 Umumta'lim fanlari", ["matematika", "fizika", "kimyo", "informatika", "jismoniy_tarbiya"]),
