@@ -732,6 +732,22 @@
   {
    "nomi": "Qurilish chizmachiligi",
    "bank": "muhandislik_grafikasi"
+  },
+  {
+   "nomi": "Pediatriyada hamshiralik ishi",
+   "bank": "pediatriya_hamshiralik"
+  },
+  {
+   "nomi": "Pediatriya",
+   "bank": "pediatriya_hamshiralik"
+  },
+  {
+   "nomi": "Pediatriya hamshiralik ishi",
+   "bank": "pediatriya_hamshiralik"
+  },
+  {
+   "nomi": "Bolalar kasalliklarida hamshiralik ishi",
+   "bank": "pediatriya_hamshiralik"
   }
  ],
  "tez_orada": [
@@ -754,11 +770,6 @@
    "id": "t9f23b1b5",
    "nomi": "Psixologiya",
    "kat": "ped"
-  },
-  {
-   "id": "t3084dff5",
-   "nomi": "Pediatriyada hamshiralik ishi",
-   "kat": "tib"
   },
   {
    "id": "t65b31849",
@@ -834,11 +845,6 @@
    "id": "t2642a21b",
    "nomi": "Neft va gazni qayta ishlash texnologiyasi",
    "kat": "muh"
-  },
-  {
-   "id": "t322620b5",
-   "nomi": "Pediatriya",
-   "kat": "tib"
   },
   {
    "id": "tcab9b285",
@@ -1031,11 +1037,6 @@
    "kat": "it"
   },
   {
-   "id": "t6c0102ea",
-   "nomi": "Pediatriya hamshiralik ishi",
-   "kat": "tib"
-  },
-  {
    "id": "t38840678",
    "nomi": "Fizioterapiya va massaj",
    "kat": "tib"
@@ -1113,11 +1114,6 @@
   {
    "id": "t5557b7eb",
    "nomi": "Hayvonlarni oziqlantirish va zoogigiyena",
-   "kat": "tib"
-  },
-  {
-   "id": "t918e7ba5",
-   "nomi": "Bolalar kasalliklarida hamshiralik ishi",
    "kat": "tib"
   },
   {
