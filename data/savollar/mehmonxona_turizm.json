@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "Mehmonxona xo'jaligi va turizm",
+ "turi": "maxsus",
+ "manba": "Attestatsiya test sinovlariga jalb etiladigan pedagoglar ro'yxatidagi fan; savollar DTS, o'quv dasturlari va darsliklar asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxona deganda nima tushuniladi?",
+   "a": [
+    "Vaqtincha yashash va xizmat ko'rsatish korxonasi",
+    "Doimiy yashash uchun sotiladigan turar joy majmuasi",
+    "Faqat restoran",
+    "Faqat sayyohlik agentligi"
+   ],
+   "e": "Joylashtirish vositasi."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonalar xizmat darajasiga ko'ra qanday toifalanadi?",
+   "a": [
+    "Yulduzlar bilan (1 dan 5 gacha)",
+    "Faqat xonalar soni va bino qavatlari bo'yicha",
+    "Faqat rangi bo'yicha",
+    "Toifalanmaydi"
+   ],
+   "e": "Sertifikatlash."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Front Office (qabul xizmati) vazifasi nima?",
+   "a": [
+    "Mehmonlarni qabul qilish, ro'yxatga olish va joylashtirish",
+    "Xonalarni tozalash, choyshablarni almashtirish va kir yuvish ishlari",
+    "Ovqat tayyorlash",
+    "Binoni ta'mirlash"
+   ],
+   "e": "Resepshn."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Housekeeping xizmatining vazifasi nima?",
+   "a": [
+    "Xonalar va umumiy joylarni tozalash va tartibga keltirish",
+    "Mehmonlarni ro'yxatga olish, hisob-kitob va xonalarni sotish ishlari",
+    "Restoran menyusini tuzish",
+    "Reklama qilish"
+   ],
+   "e": "Xona xizmati."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Check-in nima?",
+   "a": [
+    "Mehmonni ro'yxatga olib, xonaga joylashtirish",
+    "Mehmonning mehmonxonadan chiqib ketishi va hisob yopilishi",
+    "Xonani tozalash",
+    "Restoran buyurtmasi"
+   ],
+   "e": "Kirish."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Check-out nima?",
+   "a": [
+    "Mehmonning hisob-kitob qilib, xonani bo'shatishi",
+    "Mehmonni kelganda kutib olib, pasportini tekshirib ro'yxatga olish",
+    "Xonani band qilish",
+    "Xona tozalash"
+   ],
+   "e": "Chiqish."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonada standart hisob soati (check-out) odatda qachon?",
+   "a": [
+    "Kunduzi 12:00 atrofida",
+    "Ertalab soat 05:00 da",
+    "Yarim tunda 00:00 da",
+    "Kechqurun 20:00 da"
+   ],
+   "e": "Rasschyotnyy chas."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Bronlash (bron) nima?",
+   "a": [
+    "Xonani oldindan band qilish",
+    "Xonani to'liq sotib olish",
+    "Xonani tozalash",
+    "Xonani ta'mirlash"
+   ],
+   "e": "Reservation."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Kafolatlangan bron nima?",
+   "a": [
+    "Mehmon kelmasa ham to'lov kafolatlangan bron",
+    "Bekor qilinsa hech qanday javobgarlik bo'lmaydigan bron",
+    "Faqat og'zaki kelishuv",
+    "Faqat telefon orqali so'rov"
+   ],
+   "e": "Guaranteed reservation."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Overbooking nima?",
+   "a": [
+    "Mavjud xonalardan ko'proq bron qabul qilish",
+    "Barcha xonalar bo'sh qolishi va mehmon yo'qligi",
+    "Xonani ta'mirlash",
+    "Narxni pasaytirish"
+   ],
+   "e": "Ortiqcha bron."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "No-show nima?",
+   "a": [
+    "Bron qilgan mehmonning kelmasligi",
+    "Mehmonning muddatidan oldin chiqib ketishi",
+    "Xonaning tozalanmaganligi",
+    "Restoranning yopiqligi"
+   ],
+   "e": "Kelmagan mehmon."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Single (SGL) xona nima?",
+   "a": [
+    "Bir kishilik xona",
+    "Ikki alohida karavotli ikki kishilik xona",
+    "Ko'p xonali lyuks",
+    "Oilaviy xona"
+   ],
+   "e": "Xona turlari."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Twin xonaning Double xonadan farqi nima?",
+   "a": [
+    "Twinda ikkita alohida karavot bo'ladi",
+    "Twinda bitta katta ikki kishilik karavot bo'ladi",
+    "Twin faqat bir kishilik",
+    "Farqi yo'q"
+   ],
+   "e": "TWN va DBL."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Suite (lyuks) xona nima?",
+   "a": [
+    "Yashash va yotoqxona qismli ko'p xonali nomer",
+    "Bir kishilik eng kichik iqtisodiy xona, oynasiz",
+    "Yotoqxona tipidagi umumiy xona",
+    "Xizmat xonasi"
+   ],
+   "e": "Lyuks."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonaning band bo'lish ko'rsatkichi (occupancy) qanday hisoblanadi?",
+   "a": [
+    "Sotilgan xonalar / Mavjud xonalar × 100%",
+    "Xodimlar soni / Xonalar soni × 100% (har oy uchun)",
+    "Daromad / Xodimlar soni",
+    "Mehmonlar yoshi o'rtachasi"
+   ],
+   "e": "Zagruzka."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "100 xonali mehmonxonada 80 xona sotilgan bo'lsa, band bo'lish darajasi qancha?",
+   "a": [
+    "80%",
+    "20%",
+    "100%",
+    "8%"
+   ],
+   "e": "80/100."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "ADR ko'rsatkichi nimani bildiradi?",
+   "a": [
+    "Sotilgan xonaning o'rtacha narxi",
+    "Mehmonxonadagi xodimlarning o'rtacha yoshi",
+    "Bo'sh xonalar soni",
+    "Reklama xarajati"
+   ],
+   "e": "Average Daily Rate."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "RevPAR qanday hisoblanadi?",
+   "a": [
+    "Xonalardan daromad / Mavjud xonalar soni",
+    "Xodimlar soni / Mehmonlar soni",
+    "Restoran daromadi / Stol soni",
+    "Bo'sh xonalar / Sotilgan xonalar"
+   ],
+   "e": "Revenue per available room."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonada konserj (concierge) vazifasi nima?",
+   "a": [
+    "Ma'lumot va qo'shimcha xizmatlarni tashkil etish",
+    "Xonalarni tozalash, kir yuvish va dazmollash ishlari",
+    "Faqat mehmonxona hududini qo'riqlash va kuzatish",
+    "Binoni qo'riqlash faqat"
+   ],
+   "e": "Konserj."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonada \"Room service\" nima?",
+   "a": [
+    "Ovqat va ichimliklarni xonaga yetkazish xizmati",
+    "Xonani oldindan bron qilish va tasdiqlash xizmati",
+    "Xona ta'miri",
+    "Xona sotish"
+   ],
+   "e": "Xonaga xizmat."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonada \"Do not disturb\" belgisi nimani bildiradi?",
+   "a": [
+    "Mehmon bezovta qilinmasligini so'raydi",
+    "Xonani tezroq va navbatsiz tozalashni so'raydi",
+    "Mehmon chiqib ketgan",
+    "Xona sotuvda"
+   ],
+   "e": "Bezovta qilmang."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Xona tozalash odatda qaysi tartibda amalga oshiriladi?",
+   "a": [
+    "Bo'shagan va so'ralgan xonalar birinchi",
+    "Tasodifiy tartibda, rejasiz va xohlagan vaqtda",
+    "Faqat kechasi, mehmonlar uxlab yotganda",
+    "Faqat haftada bir"
+   ],
+   "e": "Ish tartibi."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmon unutib qoldirgan buyumlar bilan nima qilinadi?",
+   "a": [
+    "Ro'yxatga olinib, maxsus joyda saqlanadi",
+    "Xodimlar o'zaro bo'lishib olishadi yoki sotishadi",
+    "Darhol chiqindiga tashlanadi",
+    "Sotiladi"
+   ],
+   "e": "Lost and found."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonada xavfsizlik xizmati vazifasi nima?",
+   "a": [
+    "Mehmonlar va mulk xavfsizligini ta'minlash",
+    "Xonalarni bezash, gul qo'yish va dekor tanlash",
+    "Menyu tuzish",
+    "Narx belgilash"
+   ],
+   "e": "Security."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonaning boshqaruv dasturiga (PMS) misol qaysi?",
+   "a": [
+    "Opera, Fidelio kabi tizimlar",
+    "Faqat Microsoft Paint",
+    "Faqat kalkulyator",
+    "Faqat qog'oz daftar"
+   ],
+   "e": "Property Management System."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmon shikoyatini hal qilishda birinchi qadam nima?",
+   "a": [
+    "Diqqat bilan tinglash va uzr so'rash",
+    "Mehmon bilan bahslashib, aybni unga yuklash",
+    "E'tiborsiz qoldirish",
+    "Mehmonni chiqarib yuborish"
+   ],
+   "e": "Servis standarti."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonada \"upselling\" nima?",
+   "a": [
+    "Mehmonga yuqoriroq toifadagi xizmatni taklif qilish",
+    "Xonani arzonroq narxda sotish",
+    "Mehmonni boshqa, arzonroq mehmonxonaga yo'naltirish",
+    "Xonani bepul berish"
+   ],
+   "e": "Daromadni oshirish."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmon kelganda ro'yxatga olishda qaysi hujjat talab qilinadi?",
+   "a": [
+    "Shaxsni tasdiqlovchi hujjat (pasport)",
+    "Faqat telefon raqami",
+    "Faqat ism aytiladi",
+    "Hech qanday hujjat"
+   ],
+   "e": "Ro'yxatdan o'tkazish."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Xorijiy fuqarolarni mehmonxonada ro'yxatga olish nima uchun majburiy?",
+   "a": [
+    "Qonun bo'yicha vaqtincha ro'yxatga qo'yish uchun",
+    "Faqat mehmonxona reklamasi va marketing maqsadida",
+    "Xona narxini oshirish va qo'shimcha haq olish uchun",
+    "Majburiy emas"
+   ],
+   "e": "Propiska tizimi."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonaning tashqi ko'rinishi va hududi uchun qaysi bo'lim javobgar?",
+   "a": [
+    "Texnik va xo'jalik xizmati",
+    "Faqat resepshn",
+    "Faqat restoran",
+    "Faqat buxgalteriya"
+   ],
+   "e": "Engineering."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Minibar nima?",
+   "a": [
+    "Xonadagi ichimlik va gazaklar sovutgichi",
+    "Mehmonxona restorani",
+    "Lobbidagi bar",
+    "Kichik basseyn"
+   ],
+   "e": "Qo'shimcha xizmat."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxona lobbisi nima?",
+   "a": [
+    "Kirish va kutish zali",
+    "Xodimlar dam olish xonasi",
+    "Kir yuvish xonasi",
+    "Ombor"
+   ],
+   "e": "Vestibyul."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "\"Early check-in\" xizmati nima?",
+   "a": [
+    "Belgilangan vaqtdan oldin joylashish",
+    "Belgilangan vaqtdan keyin chiqib ketish",
+    "Xonani bekor qilish",
+    "Xonani almashtirish"
+   ],
+   "e": "Erta joylashish."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "\"Late check-out\" xizmati nima?",
+   "a": [
+    "Belgilangan vaqtdan keyin xonani bo'shatish",
+    "Erta joylashish",
+    "Bronni bekor qilish",
+    "Bepul nonushta"
+   ],
+   "e": "Kech chiqish."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxona narxiga nonushta kiritilgan tarif qanday belgilanadi?",
+   "a": [
+    "BB (Bed & Breakfast)",
+    "RO (Room Only)",
+    "AI (All Inclusive) faqat",
+    "HB faqat kechki ovqat"
+   ],
+   "e": "Ovqatlanish turlari."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "HB (Half Board) nimani o'z ichiga oladi?",
+   "a": [
+    "Nonushta va kechki (yoki tushki) ovqat",
+    "Faqat xona, ovqatsiz",
+    "Kuniga to'rt mahal ovqat va ichimliklar",
+    "Faqat nonushta"
+   ],
+   "e": "Yarim pansion."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "AI (All Inclusive) nimani bildiradi?",
+   "a": [
+    "Ovqat va ichimliklar to'liq kiritilgan",
+    "Faqat xona, ovqatsiz",
+    "Faqat nonushta",
+    "Faqat kechki ovqat"
+   ],
+   "e": "Hammasi kiritilgan."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonada sanitariya talablariga muvofiq choyshablar qachon almashtiriladi?",
+   "a": [
+    "Har yangi mehmon uchun va belgilangan muddatda",
+    "Faqat oyiga bir marta, mehmon almashsa ham",
+    "Faqat mehmon alohida so'raganda, haq evaziga",
+    "Faqat mehmon so'rasa"
+   ],
+   "e": "Gigiyena."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonada yong'in xavfsizligi bo'yicha nima bo'lishi shart?",
+   "a": [
+    "Evakuatsiya rejasi va signalizatsiya",
+    "Faqat bezakli chiroqlar",
+    "Faqat lift",
+    "Hech narsa"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxona xodimining tashqi ko'rinishiga qanday talab qo'yiladi?",
+   "a": [
+    "Toza forma, bejirim ko'rinish, beydj",
+    "Ixtiyoriy kiyim, beydjsiz",
+    "Sport kiyimi",
+    "Talab qo'yilmaydi"
+   ],
+   "e": "Imij."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmon bilan muloqotda qaysi qoida to'g'ri?",
+   "a": [
+    "Xushmuomala, aniq va hurmat bilan gapirish",
+    "Qo'pol va qisqa javob berish",
+    "Mehmonni kuttirib qo'yish",
+    "Faqat ishora bilan gaplashish"
+   ],
+   "e": "Etiket."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Gostinitsa xizmatlarini sertifikatlashtirishdan maqsad nima?",
+   "a": [
+    "Xizmatning standartlarga mosligini tasdiqlash",
+    "Mehmonxona binosini sotish yoki ijaraga berish",
+    "Xodimlar ish haqini belgilash va lavozim berish",
+    "Faqat reklama"
+   ],
+   "e": "Sifat."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Hostel nima?",
+   "a": [
+    "Arzon, ko'pincha umumiy xonali joy",
+    "Eng qimmat, besh yulduzli dabdabali mehmonxona turi",
+    "Faqat restoran",
+    "Shahar chetidagi faqat avtomobil egalari uchun motel"
+   ],
+   "e": "Byudjet turizm."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Butik-mehmonxonaning xususiyati nima?",
+   "a": [
+    "Kichik, o'ziga xos dizayn va individual xizmat",
+    "Juda katta, yuzlab xonali standart tarmoq mehmonxonasi",
+    "Faqat yotoqxona",
+    "Faqat motel"
+   ],
+   "e": "Boutique hotel."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Motel nima?",
+   "a": [
+    "Avtomobil yo'li bo'yidagi mehmonxona",
+    "Dengiz bo'yidagi kurort majmuasi",
+    "Shahar markazidagi biznes-mehmonxona",
+    "Hostel turi"
+   ],
+   "e": "Avtoturistlar uchun."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxona va restoran menejmentida \"yield management\" nima?",
+   "a": [
+    "Talabga qarab narxlarni boshqarish",
+    "Xodimlar sonini oshirish",
+    "Xonalarni bo'yash",
+    "Restoran menyusini kamaytirish"
+   ],
+   "e": "Revenue management."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonxonaning tarmoqqa (chain) kirishi qanday afzallik beradi?",
+   "a": [
+    "Brend, standartlar va bronlash tizimi",
+    "Mustaqillikni oshirib, xarajatni ko'paytirish",
+    "Mehmonlarni kamaytirish",
+    "Hech qanday afzallik yo'q"
+   ],
+   "e": "Hilton, Hyatt."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Franshiza mehmonxona biznesida nima?",
+   "a": [
+    "Brenddan haq evaziga foydalanish huquqi",
+    "Mehmonxonani bepul sovg'a qilish yoki ijaraga berish",
+    "Mehmonxonani yopish",
+    "Mehmonxonani davlat mulkiga topshirish tartibi"
+   ],
+   "e": "Franchising."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Mehmonlar fikrini o'rganishning keng tarqalgan usuli qaysi?",
+   "a": [
+    "So'rovnomalar va onlayn sharhlar tahlili",
+    "Mehmonlarga savol bermaslik va faqat xodim fikri",
+    "Faqat xodimlar fikri",
+    "Faqat raqobatchi fikri"
+   ],
+   "e": "Feedback."
+  },
+  {
+   "b": "Mehmonxona xo'jaligi asoslari",
+   "q": "Onlayn bronlash platformalariga (OTA) misol qaysi?",
+   "a": [
+    "Booking.com, Expedia",
+    "Faqat ijtimoiy tarmoq profili",
+    "Faqat gazeta e'loni",
+    "Faqat telefon katalogi"
+   ],
+   "e": "Online Travel Agency."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turizm deganda nima tushuniladi?",
+   "a": [
+    "Dam olish, sog'lomlashtirish yoki boshqa maqsadda vaqtincha safar",
+    "Doimiy yashash joyini butunlay o'zgartirib boshqa davlatga ko'chish",
+    "Faqat ishga borib-kelish",
+    "Faqat harbiy xizmat"
+   ],
+   "e": "Turizm tushunchasi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "\"Turizm to'g'risida\"gi yangi tahrirdagi O'zbekiston qonuni qachon qabul qilingan?",
+   "a": [
+    "2019-yilda",
+    "1999-yilda",
+    "2010-yilda",
+    "2023-yilda"
+   ],
+   "e": "2019-yil iyul."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turizmning asosiy turlari qaysilar?",
+   "a": [
+    "Ichki, kiruvchi va chiquvchi",
+    "Faqat xalqaro va faqat dengiz bo'yi turizmi",
+    "Faqat sport",
+    "Faqat ishbilarmonlik"
+   ],
+   "e": "Yo'nalish bo'yicha."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Kiruvchi (inbound) turizm nima?",
+   "a": [
+    "Chet elliklarning mamlakatga safari",
+    "Mamlakat fuqarolarining chet elga chiqib ketishi",
+    "Mamlakat ichidagi safarlar",
+    "Faqat transit"
+   ],
+   "e": "Vyezdnoy."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Chiquvchi (outbound) turizm nima?",
+   "a": [
+    "Fuqarolarning chet elga safari",
+    "Chet elliklarning mamlakatga kirib kelishi",
+    "Shahar ichida sayr",
+    "Faqat ziyorat"
+   ],
+   "e": "Vyezdnoy turizm."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Ziyorat turizmi nima?",
+   "a": [
+    "Muqaddas joylarni ziyorat qilish safari",
+    "Faqat tog'larga chiqish va alpinizm safarlari",
+    "Savdo safari",
+    "Ta'lim safari"
+   ],
+   "e": "Ziyorat."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Ekoturizm nima?",
+   "a": [
+    "Tabiatni asrab, tabiiy hududlarga safar",
+    "Shahar markazidagi savdo markazlariga xarid safari",
+    "Faqat restoranlarga borish",
+    "Faqat sport musobaqasi"
+   ],
+   "e": "Ekologik turizm."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "MICE turizmi nimani anglatadi?",
+   "a": [
+    "Uchrashuv, konferensiya va ko'rgazmalar turizmi",
+    "Faqat oilaviy dam olish va bolalar lagerlari",
+    "Faqat tog' chang'isi",
+    "Faqat sohil turizmi"
+   ],
+   "e": "Meetings, Incentives, Conferences, Exhibitions."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Gastronomik turizm nima?",
+   "a": [
+    "Milliy taomlar bilan tanishish safari",
+    "Faqat tibbiy muolaja olish uchun sanatoriyga borish",
+    "Faqat sport",
+    "Faqat ta'lim"
+   ],
+   "e": "Kulinariya turizmi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Tibbiy turizm nima?",
+   "a": [
+    "Davolanish yoki sog'lomlashtirish safari",
+    "Faqat tarixiy obidalarni ko'rish va suratga olish",
+    "Faqat xarid qilish",
+    "Faqat sport"
+   ],
+   "e": "Meditsinskiy turizm."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turoperator kim?",
+   "a": [
+    "Tur paketlarini shakllantiruvchi tashkilot",
+    "Faqat chipta sotuvchi kassir yoki aviakompaniya xodimi",
+    "Mehmonxona oshpazi",
+    "Gid"
+   ],
+   "e": "Tour operator."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turagent kim?",
+   "a": [
+    "Tayyor turlarni mijozlarga sotuvchi vositachi",
+    "Tur paketlarini to'liq yaratib, mehmonxonalar bilan shartnoma tuzuvchi",
+    "Mehmonxona egasi",
+    "Haydovchi"
+   ],
+   "e": "Travel agent."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Tur paketi odatda nimalarni o'z ichiga oladi?",
+   "a": [
+    "Transport, joy, ovqat, ekskursiya",
+    "Faqat aviachipta, boshqa xizmatlarsiz",
+    "Faqat viza",
+    "Faqat sug'urta"
+   ],
+   "e": "Kompleks xizmat."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turistik vaucher nima?",
+   "a": [
+    "Xizmat olish huquqi hujjati",
+    "Turistning shaxsiy pasporti va vizasi",
+    "Bank kartasi",
+    "Mehmonxona menyusi"
+   ],
+   "e": "Voucher."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turistik marshrut nima?",
+   "a": [
+    "Oldindan belgilangan safar yo'nalishi",
+    "Mehmonxonadagi xonalar ro'yxati va narxlari",
+    "Restoran menyusi",
+    "Transport jadvali faqat"
+   ],
+   "e": "Marshrut."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turistik mahsulotning xususiyati nima?",
+   "a": [
+    "Nomoddiy xizmatlar majmui",
+    "Moddiy tovar, ombordan olib ko'rish mumkin",
+    "Faqat sovg'a",
+    "Faqat kitob"
+   ],
+   "e": "Nomoddiy."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turizmda mavsumiylik nimani bildiradi?",
+   "a": [
+    "Oqimning fasllarga bog'liqligi",
+    "Mehmonxonalarning har yili yangidan qurilishi",
+    "Faqat yozda ishlash",
+    "Narxlarning doimiyligi"
+   ],
+   "e": "Sezonnost."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turizmda sug'urta nima uchun kerak?",
+   "a": [
+    "Safar davomidagi risklardan himoya",
+    "Turist sayohatini qimmatlashtirish uchun majburiy to'lov",
+    "Mehmonxonaga soliq",
+    "Faqat reklama"
+   ],
+   "e": "Tibbiy sug'urta."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turistning huquqlariga nima kiradi?",
+   "a": [
+    "Ishonchli ma'lumot va xavfsizlik",
+    "Mahalliy qonunlarni buzish huquqi",
+    "Haq to'lamasdan xizmat olish",
+    "Tarixiy obidalarga zarar yetkazish"
+   ],
+   "e": "Turist huquqlari."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turistning majburiyatlariga nima kiradi?",
+   "a": [
+    "Qonun va urf-odatlarni hurmat qilish",
+    "Tarixiy yodgorliklarga yozuv qoldirish",
+    "Atrof muhitni ifloslantirish",
+    "Mahalliy aholini kamsitish"
+   ],
+   "e": "Mas'uliyatli turizm."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Jahon turizm tashkiloti qisqacha qanday ataladi?",
+   "a": [
+    "UNWTO (UN Tourism)",
+    "UNICEF",
+    "FIFA",
+    "WHO"
+   ],
+   "e": "BMT ixtisoslashgan agentligi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "UNWTO Bosh Assambleyasining 25-sessiyasi 2023-yilda qaysi shaharda o'tdi?",
+   "a": [
+    "Samarqand",
+    "Toshkent",
+    "Buxoro",
+    "Xiva"
+   ],
+   "e": "Oktabr 2023."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "O'zbekistonning YuNESKO Butunjahon merosi ro'yxatiga birinchi kiritilgan obyekti qaysi?",
+   "a": [
+    "Xivadagi Ichan qal'a",
+    "Samarqanddagi Registon",
+    "Toshkentdagi Hazrati Imom",
+    "Termizdagi Fayoztepa"
+   ],
+   "e": "1990-yil."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Buxoro tarixiy markazi YuNESKO ro'yxatiga qachon kiritilgan?",
+   "a": [
+    "1993-yilda",
+    "1975-yilda",
+    "2010-yilda",
+    "2020-yilda"
+   ],
+   "e": "Butunjahon merosi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "\"Samarqand — madaniyatlar chorrahasi\" YuNESKO ro'yxatiga qachon kiritilgan?",
+   "a": [
+    "2001-yilda",
+    "1990-yilda",
+    "1985-yilda",
+    "2015-yilda"
+   ],
+   "e": "Butunjahon merosi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Registon maydonidagi madrasalar qaysilar?",
+   "a": [
+    "Ulug'bek, Sherdor, Tillakori",
+    "Mir Arab, Ko'kaldosh, Abdulazizxon",
+    "Muhammad Aminxon, Olloqulixon",
+    "Barak Xon, Ko'kaldosh"
+   ],
+   "e": "Samarqand."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Buxorodagi Kalon minorasi qachon qurilgan?",
+   "a": [
+    "XII asrda (1127-yil)",
+    "X asrda",
+    "XV asrda",
+    "XIX asrda"
+   ],
+   "e": "Arslonxon davrida."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Somoniylar maqbarasi qaysi shaharda joylashgan?",
+   "a": [
+    "Buxoro",
+    "Samarqand",
+    "Xiva",
+    "Termiz"
+   ],
+   "e": "IX–X asrlar."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Oqsaroy saroyi qoldiqlari qaysi shaharda?",
+   "a": [
+    "Shahrisabz",
+    "Buxoro",
+    "Qo'qon",
+    "Xiva"
+   ],
+   "e": "Amir Temur saroyi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Termiz atrofidagi buddaviylik yodgorligiga misol qaysi?",
+   "a": [
+    "Fayoztepa",
+    "Kalta minor",
+    "Labi hovuz",
+    "Chor minor"
+   ],
+   "e": "Buddizm turizmi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Kalta minor qaysi shaharda joylashgan?",
+   "a": [
+    "Xiva",
+    "Buxoro",
+    "Samarqand",
+    "Marg'ilon"
+   ],
+   "e": "Ichan qal'a."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Imom Buxoriy majmuasi qayerda joylashgan?",
+   "a": [
+    "Samarqand viloyatida",
+    "Buxoro shahrida",
+    "Toshkent shahrida",
+    "Namangan viloyatida"
+   ],
+   "e": "Ziyorat markazi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Bahouddin Naqshband majmuasi qayerda joylashgan?",
+   "a": [
+    "Buxoro yaqinida",
+    "Samarqand markazida",
+    "Farg'onada",
+    "Nukusda"
+   ],
+   "e": "Ziyorat turizmi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Nukusdagi Savitskiy muzeyi nimasi bilan mashhur?",
+   "a": [
+    "Avangard san'at kolleksiyasi bilan",
+    "Faqat dengiz baliqlari kolleksiyasi bilan",
+    "Avtomobillar muzeyi",
+    "Kosmos muzeyi"
+   ],
+   "e": "Qoraqalpog'iston."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Marg'ilon qaysi hunarmandchilik bilan mashhur?",
+   "a": [
+    "Atlas va adras to'qish",
+    "Kulolchilik va mis zarb qilish",
+    "Gilam va zargarlik",
+    "Pichoqchilik"
+   ],
+   "e": "Yodgorlik fabrikasi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Rishton qaysi hunarmandchilik bilan mashhur?",
+   "a": [
+    "Kulolchilik (sopol buyumlar)",
+    "Atlas to'qish",
+    "Zardo'zlik",
+    "Pichoqchilik"
+   ],
+   "e": "Ko'k-feruza sopol."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Chust qaysi hunarmandchilik mahsuloti bilan mashhur?",
+   "a": [
+    "Pichoqlar va do'ppilar",
+    "Sopol buyumlar",
+    "Gilamlar",
+    "Zargarlik"
+   ],
+   "e": "Chust pichog'i."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Chorvoq suv ombori qaysi turizm turi uchun mashhur?",
+   "a": [
+    "Dam olish va ekoturizm",
+    "Ziyorat turizmi",
+    "Tibbiy turizm faqat",
+    "Sanoat turizmi"
+   ],
+   "e": "Toshkent viloyati."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Zomin milliy bog'i qaysi viloyatda?",
+   "a": [
+    "Jizzax",
+    "Navoiy",
+    "Xorazm",
+    "Andijon"
+   ],
+   "e": "Tog' turizmi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turizmda \"transfer\" nima?",
+   "a": [
+    "Aeroportdan mehmonxonaga tashish",
+    "Pul o'tkazmasi xizmati",
+    "Mehmonxona xonasi turi",
+    "Ovqatlanish turi"
+   ],
+   "e": "Transfer."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turistik klaster nima?",
+   "a": [
+    "Turizm korxonalari majmuasi",
+    "Faqat bitta mehmonxona binosi",
+    "Faqat bitta restoran",
+    "Faqat aeroport"
+   ],
+   "e": "Klaster."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turizmda \"destinatsiya\" nima?",
+   "a": [
+    "Turistlar boradigan manzil (hudud)",
+    "Turistning qaytish chiptasi va pasporti",
+    "Mehmonxona nomi",
+    "Turoperator nomi"
+   ],
+   "e": "Destination."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turizmning iqtisodiyotga ta'siri qanday?",
+   "a": [
+    "Ish o'rinlari va valyuta tushumini oshiradi",
+    "Faqat xarajatlarni oshirib, daromad bermaydi",
+    "Ishsizlikni oshiradi",
+    "Ta'siri yo'q"
+   ],
+   "e": "Multiplikativ effekt."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Barqaror turizm tamoyili qaysi?",
+   "a": [
+    "Tabiat va madaniyatni asrash",
+    "Turistlar sonini cheklovsiz oshirish",
+    "Tabiiy resurslardan to'liq foydalanish",
+    "Mahalliy aholini e'tiborsiz qoldirish"
+   ],
+   "e": "Sustainable tourism."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Agroturizm nima?",
+   "a": [
+    "Qishloq hayoti bilan tanishish",
+    "Faqat shahar markazida savdo qilish safari",
+    "Faqat dengiz bo'yi",
+    "Faqat tog' chang'isi"
+   ],
+   "e": "Qishloq turizmi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turistlar uchun viza tartibini soddalashtirish nimaga xizmat qiladi?",
+   "a": [
+    "Kiruvchi turizmni rivojlantirishga",
+    "Turistlar sonini kamaytirishga",
+    "Chegaralarni yopishga",
+    "Ta'siri yo'q"
+   ],
+   "e": "Vizasiz rejim, e-viza."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Elektron viza (e-Visa) qanday rasmiylashtiriladi?",
+   "a": [
+    "Onlayn ariza orqali",
+    "Faqat elchixonada navbatda turib",
+    "Faqat chegarada og'zaki",
+    "Rasmiylashtirilmaydi"
+   ],
+   "e": "e-visa.gov.uz."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turistik axborot markazining vazifasi nima?",
+   "a": [
+    "Turistlarga ma'lumot va yordam berish",
+    "Mehmonxona xonalarini tozalash va ta'mirlash",
+    "Ovqat tayyorlash",
+    "Soliq yig'ish"
+   ],
+   "e": "TIC."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Gid (yo'lboshchi) va ekskursovodning farqi nima?",
+   "a": [
+    "Gid hamroh bo'ladi, ekskursovod ob'ektni ko'rsatadi",
+    "Ekskursovod faqat transport haydovchisi, gid esa oshpaz",
+    "Farqi yo'q",
+    "Gid faqat chipta sotadi"
+   ],
+   "e": "Kasb farqi."
+  },
+  {
+   "b": "Turizm asoslari",
+   "q": "Turizm sohasida xizmat sifatini oshirish usuli qaysi?",
+   "a": [
+    "Xodimlarni o'qitish, standartlar",
+    "Narxlarni asossiz oshirish",
+    "Mijozlar fikrini e'tiborsiz qoldirish",
+    "Xizmatlarni qisqartirish"
+   ],
+   "e": "Sifat menejmenti."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiya nima?",
+   "a": [
+    "Ob'ektlarni ko'rsatish va tushuntirish jarayoni",
+    "Mehmonxonada uzoq muddat dam olish va davolanish",
+    "Faqat transportda sayr qilish",
+    "Faqat suratga olish"
+   ],
+   "e": "Ekskursiya."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiyaning ikki asosiy metodik usuli qaysi?",
+   "a": [
+    "Ko'rsatish va hikoya qilish",
+    "Yozish va hisoblash, chizish va o'chirish",
+    "Faqat jim turish",
+    "Faqat savol berish"
+   ],
+   "e": "Pokaz i rasskaz."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiyalar mazmuniga ko'ra qanday turlarga bo'linadi?",
+   "a": [
+    "Obzor (umumiy) va mavzuli",
+    "Faqat kechki va ertalabki",
+    "Faqat piyoda",
+    "Faqat avtobusda"
+   ],
+   "e": "Tasnif."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Obzor ekskursiyaning xususiyati nima?",
+   "a": [
+    "Shahar yoki hududni umumiy tanishtiradi",
+    "Faqat bitta mavzuni chuqur va batafsil o'rganadi",
+    "Faqat muzey ichida o'tadi",
+    "Faqat tunda o'tadi"
+   ],
+   "e": "Obzornaya."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiyaning \"texnologik xaritasi\" nima?",
+   "a": [
+    "Marshrut, to'xtash joylari va mavzular hujjati",
+    "Ekskursovodning shaxsiy pasporti va diplomi",
+    "Avtobus jadvali",
+    "Restoran menyusi"
+   ],
+   "e": "Metodik hujjat."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiya \"portfeli\" nima?",
+   "a": [
+    "Ko'rgazmali materiallar to'plami (foto, xarita)",
+    "Ekskursovodning shaxsiy sumkasi va kiyimlari",
+    "Chiptalar to'plami",
+    "Pul qutisi"
+   ],
+   "e": "Portfel ekskursovoda."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiya marshrutini tuzishda nima hisobga olinadi?",
+   "a": [
+    "Mantiqiy ketma-ketlik va xavfsizlik",
+    "Faqat ekskursovodning uyi yaqinligi va qulayligi",
+    "Faqat restoranlar",
+    "Faqat do'konlar"
+   ],
+   "e": "Marshrut."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursovodning nutqiga qo'yiladigan talab qaysi?",
+   "a": [
+    "Aniq, ravon va qiziqarli",
+    "Tez, past ovozda va murakkab atamalar bilan",
+    "Faqat o'qib berish",
+    "Faqat chet tilida"
+   ],
+   "e": "Nutq madaniyati."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiya guruhi bilan ishlashda nima muhim?",
+   "a": [
+    "Guruh tarkibi va qiziqishini hisobga olish",
+    "Barcha guruhlarga bir xil, o'zgarmas matn aytish",
+    "Savollarga javob bermaslik",
+    "Guruhni kuttirish"
+   ],
+   "e": "Differensial yondashuv."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Bolalar uchun ekskursiyaning xususiyati nima?",
+   "a": [
+    "Qisqa, o'yinli va ko'rgazmali",
+    "Uzoq, murakkab va faqat ma'ruza shaklida",
+    "Faqat kechasi",
+    "Faqat yozma"
+   ],
+   "e": "Yosh xususiyati."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiyada to'xtash joyini tanlashda nima muhim?",
+   "a": [
+    "Ob'ekt yaxshi ko'rinishi va xavfsizlik",
+    "Faqat soya joy va o'tirish uchun skameyka borligi",
+    "Faqat do'kon yaqinligi",
+    "Faqat to'xtash taqiqlangan joy"
+   ],
+   "e": "Ostanovka."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiyada \"logik o'tish\" nima?",
+   "a": [
+    "Bir ob'ektdan boshqasiga bog'lovchi hikoya",
+    "Avtobusdan tushib, boshqa avtobusga o'tish",
+    "Tanaffus",
+    "Chipta tekshirish"
+   ],
+   "e": "Svyazka."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Muzey ekskursiyasining o'ziga xosligi nima?",
+   "a": [
+    "Eksponatlar asosida tushuntirish",
+    "Faqat ochiq havoda, shahar ko'chalarida o'tkazish",
+    "Faqat transportda",
+    "Faqat tunda"
+   ],
+   "e": "Muzey."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiya davomiyligi odatda qanday belgilanadi?",
+   "a": [
+    "Mavzu va guruhga qarab (1–4 soat va ko'proq)",
+    "Har doim aniq 10 daqiqa, o'zgarmas",
+    "Har doim 2 kun",
+    "Cheklanmagan"
+   ],
+   "e": "Davomiylik."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursovod ish boshlashdan oldin nima qiladi?",
+   "a": [
+    "Guruh bilan tanishib, qoidalarni tushuntiradi",
+    "Hech narsa demasdan to'g'ri marshrutga yo'l oladi",
+    "Chiptalarni tekshirmaydi",
+    "Guruhni kutmaydi"
+   ],
+   "e": "Kirish qismi."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiya oxirida nima qilinadi?",
+   "a": [
+    "Xulosa qilinib, savollarga javob beriladi",
+    "Guruh xayrlashmasdan tarqatib yuboriladi",
+    "Yangi marshrut boshlanadi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Yakun."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Interaktiv ekskursiya nima?",
+   "a": [
+    "Ishtirokchilar faol qatnashadigan ekskursiya",
+    "Faqat ekskursovod gapiradigan, savol berib bo'lmaydigan",
+    "Faqat video ko'rish",
+    "Faqat yozma test"
+   ],
+   "e": "Faol usullar."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Virtual ekskursiya nima?",
+   "a": [
+    "Raqamli vositalar orqali masofaviy tanishuv",
+    "Faqat avtobusda shahar bo'ylab yurish",
+    "Faqat piyoda sayr",
+    "Faqat muzey kassasi"
+   ],
+   "e": "Onlayn."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Audiogid nima?",
+   "a": [
+    "Yozib olingan ovozli yo'lboshchi qurilmasi",
+    "Ekskursiya avtobusining haydovchisi",
+    "Muzey qorovuli",
+    "Kassir"
+   ],
+   "e": "Audio guide."
+  },
+  {
+   "b": "Ekskursiya faoliyati",
+   "q": "Ekskursiya xavfsizligi uchun ekskursovod nimaga javobgar?",
+   "a": [
+    "Guruh xavfsizligi va intizomiga",
+    "Faqat o'z ish haqiga va dam olishiga",
+    "Faqat suratlarga",
+    "Javobgar emas"
+   ],
+   "e": "Mas'uliyat."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "Resepshn xodimining smenasi tugaganda nima qiladi?",
+   "a": [
+    "Ishni va hisobni keyingi smenaga topshiradi",
+    "Hech narsa aytmasdan joyini tashlab ketadi",
+    "Kassani ochiq qoldiradi",
+    "Kalitlarni o'zi bilan olib ketadi"
+   ],
+   "e": "Smena topshirish."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "Mehmonga xona kaliti (karta) berishda nima tekshiriladi?",
+   "a": [
+    "Ro'yxatdan o'tganligi va xona raqami",
+    "Faqat mehmonning kiyimi va tashqi ko'rinishi",
+    "Hech narsa",
+    "Faqat yoshi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "Mehmon hisobini (folio) yuritish nima uchun kerak?",
+   "a": [
+    "Barcha xizmatlar to'lovini hisobga olish",
+    "Mehmonning shaxsiy hayoti haqida ma'lumot to'plash",
+    "Reklama",
+    "Xodimlar ro'yxati"
+   ],
+   "e": "Guest folio."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "\"Walk-in\" mehmon kim?",
+   "a": [
+    "Oldindan bronsiz kelgan mehmon",
+    "Oldindan to'lov qilgan VIP mehmon",
+    "Xodim",
+    "Yetkazib beruvchi"
+   ],
+   "e": "Bronsiz."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "VIP mehmon uchun qanday xizmat ko'rsatiladi?",
+   "a": [
+    "Alohida e'tibor va qo'shimcha qulayliklar",
+    "Oddiy mehmonlardan kamroq e'tibor va xizmat",
+    "Xizmat ko'rsatilmaydi",
+    "Faqat to'lov qabul qilinadi"
+   ],
+   "e": "VIP."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "Mehmon xona almashtirishni so'rasa nima qilinadi?",
+   "a": [
+    "Imkon bo'yicha almashtirib, tizimda qayd etiladi",
+    "Rad etib, mehmonni boshqa mehmonxonaga yuboriladi",
+    "E'tiborsiz qoldiriladi",
+    "Jarima olinadi"
+   ],
+   "e": "Room move."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "Resepshnda mehmonning shaxsiy ma'lumotlari bilan qanday ishlanadi?",
+   "a": [
+    "Maxfiy saqlanadi",
+    "Boshqa mehmonlarga ochiq aytiladi",
+    "Ijtimoiy tarmoqqa joylanadi",
+    "Sotiladi"
+   ],
+   "e": "Shaxsiy ma'lumotlar."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "Mehmon to'lov uchun qaysi usullardan foydalanishi mumkin?",
+   "a": [
+    "Naqd, bank kartasi, o'tkazma",
+    "Faqat barter va tovar ayirboshlash",
+    "Faqat chet el tangasi",
+    "To'lov qilinmaydi"
+   ],
+   "e": "To'lov."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "Depozit (garov to'lovi) mehmonxonada nima uchun olinadi?",
+   "a": [
+    "Qo'shimcha xizmatlar va zarar kafolati uchun",
+    "Mehmonxona egasining shaxsiy daromadi uchun",
+    "Soliq sifatida",
+    "Olinmaydi"
+   ],
+   "e": "Garov."
+  },
+  {
+   "b": "Front Office qo'shimcha",
+   "q": "Mehmonxonada \"night audit\" nima?",
+   "a": [
+    "Kunlik hisoblarni tunda tekshirish va yopish",
+    "Tunda xonalarni tozalash va dezinfeksiya qilish",
+    "Tungi qo'riqlash",
+    "Tungi restoran"
+   ],
+   "e": "Tungi audit."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Menejmentning asosiy funksiyalari qaysilar?",
+   "a": [
+    "Rejalash, tashkil, motivatsiya, nazorat",
+    "Faqat buyruq berish va jazolash, nazoratsiz",
+    "Faqat hisob yuritish",
+    "Faqat reklama"
+   ],
+   "e": "Funksiyalar."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Mehmonxona bosh menejeri (general manager) vazifasi nima?",
+   "a": [
+    "Mehmonxona faoliyatini umumiy boshqarish",
+    "Faqat xonalarni tozalash va choyshab almashtirish",
+    "Faqat ovqat pishirish",
+    "Faqat qo'riqlash"
+   ],
+   "e": "Rahbar."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Mehmonxonaning tashkiliy tuzilmasida asosiy bo'limlar qaysilar?",
+   "a": [
+    "Qabul, xona fondi, ovqat, texnik, moliya",
+    "Faqat oshxona va kir yuvish bo'limi",
+    "Faqat buxgalteriya",
+    "Faqat qo'riqlash"
+   ],
+   "e": "Departamentlar."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "F&B bo'limi nima bilan shug'ullanadi?",
+   "a": [
+    "Ovqat va ichimliklar xizmati",
+    "Xonalarni tozalash va jihozlash",
+    "Mehmonlarni ro'yxatga olish",
+    "Binoni ta'mirlash"
+   ],
+   "e": "Food & Beverage."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Xodimlarni motivatsiya qilish usullariga nima kiradi?",
+   "a": [
+    "Rag'batlantirish, mukofot, karyera o'sishi",
+    "Faqat jarima va tanbeh, rag'batsiz",
+    "Ish haqini kechiktirish",
+    "E'tiborsizlik"
+   ],
+   "e": "Motivatsiya."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Xodimlarni o'qitish (training) nima uchun kerak?",
+   "a": [
+    "Xizmat sifatini oshirish",
+    "Xodimlar sonini kamaytirish va ishdan bo'shatish",
+    "Xarajatni behuda oshirish",
+    "Kerak emas"
+   ],
+   "e": "Kadrlar rivojlanishi."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Mehmonxonada xizmat standartlari (SOP) nima?",
+   "a": [
+    "Ish jarayonlarining yozma tartiblari",
+    "Xodimlarning shaxsiy kundaliklari",
+    "Reklama varaqalari",
+    "Mehmonlar ro'yxati"
+   ],
+   "e": "Standard Operating Procedures."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Mehmonxona marketingining asosiy maqsadi nima?",
+   "a": [
+    "Mehmonlarni jalb qilish va saqlab qolish",
+    "Narxlarni maksimal oshirib, mehmon sonini kamaytirish",
+    "Xodimlarni kamaytirish",
+    "Faqat reklama berish"
+   ],
+   "e": "Marketing."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Marketing-miks (4P) elementlari qaysilar?",
+   "a": [
+    "Mahsulot, narx, joy, rag'batlantirish",
+    "Pul, xodim, bino, transport",
+    "Faqat narx",
+    "Faqat reklama"
+   ],
+   "e": "Product, Price, Place, Promotion."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Sadoqat (loyalty) dasturi nima uchun joriy etiladi?",
+   "a": [
+    "Doimiy mijozlarni saqlab qolish",
+    "Yangi mijozlarni qaytarish va chegirmalarni bekor qilish",
+    "Narxni oshirish",
+    "Xodimlarni rag'batlantirish faqat"
+   ],
+   "e": "Bonus dasturi."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Mehmonxona narxini belgilashda nima hisobga olinadi?",
+   "a": [
+    "Talab, mavsum, raqobat, xarajatlar",
+    "Faqat egasining xohishi va kayfiyati",
+    "Faqat xona rangi",
+    "Faqat xodimlar soni"
+   ],
+   "e": "Narx siyosati."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Raqobatchilar tahlili nima uchun o'tkaziladi?",
+   "a": [
+    "O'z o'rnini aniqlash va strategiya tuzish",
+    "Raqobatchilarga zarar yetkazish va ularni yopish",
+    "Reklama",
+    "O'tkazilmaydi"
+   ],
+   "e": "Benchmarking."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "SWOT tahlili nimani o'rganadi?",
+   "a": [
+    "Kuchli-zaif tomon, imkoniyat, xavf",
+    "Faqat moliyaviy hisobot va soliqlar",
+    "Faqat xodimlar soni",
+    "Faqat reklama"
+   ],
+   "e": "SWOT."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Restoran menyusini tuzishda nima hisobga olinadi?",
+   "a": [
+    "Mijozlar talabi, mavsum, tannarx",
+    "Faqat oshpazning yoqtirgan taomlari",
+    "Faqat bitta taom",
+    "Faqat qimmat taomlar"
+   ],
+   "e": "Menyu."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Restoranda \"food cost\" ko'rsatkichi nimani bildiradi?",
+   "a": [
+    "Xomashyo xarajatining sotuvga nisbati",
+    "Restoran ijarasining yillik summasi",
+    "Ofitsiantlar soni",
+    "Stollar soni"
+   ],
+   "e": "Food cost %."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Restoran zali (zal) menejerining vazifasi nima?",
+   "a": [
+    "Zal xizmatini tashkil etish va nazorat",
+    "Oshxonada ovqat pishirish va idish yuvish",
+    "Mahsulot sotib olish faqat",
+    "Buxgalteriya"
+   ],
+   "e": "Metrdotel."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Mehmonxona xodimlarini tanlashda qaysi sifat muhim?",
+   "a": [
+    "Xushmuomalalik va kommunikativlik",
+    "Qo'pollik va sabrsizlik",
+    "Faqat jismoniy kuch",
+    "Faqat yosh"
+   ],
+   "e": "Servis."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Mehmonxonada chet tili bilish nima uchun muhim?",
+   "a": [
+    "Xorijiy mehmonlar bilan muloqot uchun",
+    "Faqat hujjatlarni chiroyli yozish uchun",
+    "Ahamiyatsiz",
+    "Faqat reklama uchun"
+   ],
+   "e": "Kasbiy kompetensiya."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Mehmonxonada konflikt vaziyatni hal qilishning eng yaxshi usuli qaysi?",
+   "a": [
+    "Muzokara va kompromiss",
+    "Baland ovozda bahslashish va ayblash",
+    "E'tiborsiz qoldirish",
+    "Mehmonni chiqarib yuborish"
+   ],
+   "e": "Konflikt menejmenti."
+  },
+  {
+   "b": "Mehmonxona va restoran menejmenti",
+   "q": "Mehmonxona biznes-rejasida nima ko'rsatiladi?",
+   "a": [
+    "Maqsad, bozor, xarajat va daromad",
+    "Faqat binoning rangi va bezaklari",
+    "Faqat xodimlar ismlari",
+    "Faqat menyu"
+   ],
+   "e": "Biznes-reja."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turoperator tur shakllantirishda birinchi qadam nima?",
+   "a": [
+    "Bozor talabini o'rganish",
+    "Darhol reklama berib, sotishni boshlash",
+    "Mehmonxona qurish",
+    "Transport sotib olish"
+   ],
+   "e": "Tur yaratish."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turoperator mehmonxonalar bilan qanday shartnoma tuzadi?",
+   "a": [
+    "Kvota (allotment) shartnomasi",
+    "Faqat og'zaki kelishuv, hujjatsiz",
+    "Mehnat shartnomasi",
+    "Kredit shartnomasi"
+   ],
+   "e": "Allotment."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Charter reys nima?",
+   "a": [
+    "Maxsus buyurtma qilingan reys",
+    "Muntazam jadval bo'yicha uchadigan oddiy reys",
+    "Yuk reysi",
+    "Harbiy reys"
+   ],
+   "e": "Charter."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Tur narxi qanday shakllanadi?",
+   "a": [
+    "Xizmatlar tannarxi va ustama",
+    "Faqat turoperatorning xohishiga ko'ra, hisobsiz",
+    "Faqat transport narxi",
+    "Faqat viza narxi"
+   ],
+   "e": "Narx."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turoperator va turagent o'rtasida qanday shartnoma tuziladi?",
+   "a": [
+    "Agentlik shartnomasi",
+    "Mehnat shartnomasi",
+    "Ijara shartnomasi",
+    "Nikoh shartnomasi"
+   ],
+   "e": "Agentskiy dogovor."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turist bilan tuziladigan asosiy hujjat qaysi?",
+   "a": [
+    "Turistik xizmat ko'rsatish shartnomasi",
+    "Faqat og'zaki va'da, hujjatsiz",
+    "Mehnat daftarchasi",
+    "Bank krediti"
+   ],
+   "e": "Shartnoma."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turni bekor qilganda turistga qanday tartib qo'llanadi?",
+   "a": [
+    "Shartnoma shartlariga ko'ra qaytarish",
+    "Hech qanday qaytarish va tushuntirishsiz",
+    "Ikki baravar jarima",
+    "Turist qamaladi"
+   ],
+   "e": "Annulyatsiya."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Tur sifatiga turist shikoyat qilsa, kim javob beradi?",
+   "a": [
+    "Turoperator (va turagent)",
+    "Faqat mehmonxona oshpazi",
+    "Faqat aviakompaniya uchuvchisi",
+    "Hech kim"
+   ],
+   "e": "Javobgarlik."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turoperatorlik faoliyati uchun nima talab qilinadi?",
+   "a": [
+    "Belgilangan ruxsat va ro'yxatdan o'tish",
+    "Faqat ijtimoiy tarmoqda sahifa ochish",
+    "Hech narsa",
+    "Faqat reklama"
+   ],
+   "e": "Ruxsat hujjatlari."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Guruh turini tashkil etishda qaysi xodim guruhga hamrohlik qiladi?",
+   "a": [
+    "Tur rahbari (tur-lider)",
+    "Faqat mehmonxona qorovuli",
+    "Faqat buxgalter",
+    "Hech kim"
+   ],
+   "e": "Soprovojdayushchiy."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "\"Fam-tur\" (tanishuv turi) nima?",
+   "a": [
+    "Agentlar uchun tanishtiruv safari",
+    "Oilaviy dam olish safari",
+    "Davolanish safari",
+    "Ta'lim safari"
+   ],
+   "e": "Familiarization trip."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turizmda \"inklyuziv tur\" nimani bildiradi?",
+   "a": [
+    "Asosiy xizmatlar narxga kiritilgan tur",
+    "Faqat aviachipta kiritilgan, qolgani alohida",
+    "Faqat viza",
+    "Faqat sug'urta"
+   ],
+   "e": "Paket tur."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Individual tur guruh turidan nimasi bilan farq qiladi?",
+   "a": [
+    "Mijoz istagiga moslab tuziladi",
+    "Har doim arzonroq va standart marshrutda bo'ladi",
+    "Faqat 50 kishilik guruh uchun",
+    "Farqi yo'q"
+   ],
+   "e": "Individual."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turistik mahsulotni sotishning zamonaviy kanali qaysi?",
+   "a": [
+    "Onlayn platformalar va ijtimoiy tarmoqlar",
+    "Faqat gazeta e'lonlari va ko'cha plakatlari",
+    "Faqat radio",
+    "Faqat telegraf"
+   ],
+   "e": "Raqamli marketing."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Avia chiptani bron qilish tizimlariga misol qaysi?",
+   "a": [
+    "Amadeus, Sabre",
+    "Excel, Word",
+    "Photoshop",
+    "AutoCAD"
+   ],
+   "e": "GDS."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turist pasportining amal qilish muddati safar uchun nima uchun muhim?",
+   "a": [
+    "Ko'p davlatlar qoldiq muddat so'raydi",
+    "Pasport muddati umuman tekshirilmaydi",
+    "Faqat suratga olish uchun",
+    "Faqat mehmonxona uchun"
+   ],
+   "e": "Odatda 6 oy."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turistlarga safar oldidan qanday ma'lumot beriladi?",
+   "a": [
+    "Marshrut, hujjat, xavfsizlik, urf-odat",
+    "Faqat turoperator reklamasi va chegirmalar",
+    "Hech qanday ma'lumot",
+    "Faqat valyuta kursi"
+   ],
+   "e": "Brifing."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turizmda transport turlari qaysilar?",
+   "a": [
+    "Havo, temir yo'l, avtomobil, suv",
+    "Faqat ot-arava va tuya karvoni",
+    "Faqat piyoda",
+    "Faqat velosiped"
+   ],
+   "e": "Transport."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Afrosiyob tezyurar poyezdi qaysi shaharlarni bog'laydi?",
+   "a": [
+    "Toshkent, Samarqand, Buxoro (va boshqalar)",
+    "Faqat Nukus va Termiz",
+    "Faqat Andijon va Namangan",
+    "Faqat Toshkent va Chirchiq"
+   ],
+   "e": "Tezyurar temir yo'l."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "O'zbekistonning asosiy xalqaro aeroporti qaysi?",
+   "a": [
+    "Toshkent xalqaro aeroporti",
+    "Qo'qon aeroporti",
+    "Zarafshon aeroporti",
+    "Chirchiq aeroporti"
+   ],
+   "e": "Islom Karimov nomidagi."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turizmda xavfsizlik bo'yicha \"Safe Travels\" kabi sertifikatlar nimani bildiradi?",
+   "a": [
+    "Sanitariya-xavfsizlik standartiga moslik",
+    "Mehmonxonaning yulduz toifasi va narxi",
+    "Faqat reklama belgisi",
+    "Soliq imtiyozi"
+   ],
+   "e": "Xavfsiz turizm."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turizm statistikasida \"turist kelishlari\" ko'rsatkichi nimani o'lchaydi?",
+   "a": [
+    "Kelgan turistlar sonini",
+    "Mehmonxonalardagi xodimlar sonini",
+    "Restoranlar sonini",
+    "Aeroportlar sonini"
+   ],
+   "e": "Arrivals."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turizmda \"mehmondo'stlik\" (hospitality) tushunchasi nimani anglatadi?",
+   "a": [
+    "Mehmonlarga samimiy va sifatli xizmat",
+    "Mehmonlardan ko'proq pul olish usuli",
+    "Faqat bepul ovqat berish",
+    "Faqat bezak"
+   ],
+   "e": "Hospitality."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "O'zbek mehmondo'stligining an'anaviy ramzi nima?",
+   "a": [
+    "Dasturxon va choy bilan kutib olish",
+    "Mehmonni eshik oldida uzoq kuttirish",
+    "Mehmonga hech narsa taklif qilmaslik",
+    "Mehmondan haq olish"
+   ],
+   "e": "Milliy an'ana."
+  },
+  {
+   "b": "Turoperatorlik texnologiyasi",
+   "q": "Turizmda \"sezon tashqari\" (off-season) davrda nima qilinadi?",
+   "a": [
+    "Chegirma va maxsus takliflar",
+    "Narxlar ikki baravar oshiriladi",
+    "Barcha mehmonxonalar yopiladi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Mavsumiylik."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "Xonani tozalashda qaysi ketma-ketlik to'g'ri?",
+   "a": [
+    "Shamollatish, axlat, choyshab, chang, pol",
+    "Pol yuvish, keyin chang artish, oxirida shamollatish",
+    "Faqat pol yuvish",
+    "Faqat choyshab almashtirish"
+   ],
+   "e": "Tozalash tartibi."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "Xona tozalovchi (gornichnaya) aravachasida nima bo'ladi?",
+   "a": [
+    "Choyshab, vositalar, sarf materiallari",
+    "Mehmonlarning shaxsiy buyumlari va hujjatlari",
+    "Oshxona jihozlari",
+    "Restoran taomlari"
+   ],
+   "e": "Telejka."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "Sanuzelni tozalashda qaysi talab muhim?",
+   "a": [
+    "Alohida inventar va dezinfeksiya vositasi",
+    "Xona uchun ishlatilgan latta bilan tozalash",
+    "Faqat suv bilan chayish",
+    "Tozalanmaydi"
+   ],
+   "e": "Gigiyena."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "Xona \"dirty\" (iflos) holatda nimani bildiradi?",
+   "a": [
+    "Tozalanishi kerak",
+    "Tozalangan va tayyor",
+    "Ta'mirda",
+    "Band"
+   ],
+   "e": "Xona statuslari."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "Xona \"out of order\" holati nimani bildiradi?",
+   "a": [
+    "Ta'mir sababli sotilmaydi",
+    "Tozalangan, mehmonga tayyor",
+    "Mehmon yashayapti",
+    "Bron qilingan"
+   ],
+   "e": "OOO."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "Mehmonxonada \"turn-down service\" nima?",
+   "a": [
+    "Kechki xonani uyquga tayyorlash",
+    "Ertalabki uyg'otish qo'ng'irog'i",
+    "Xona narxini pasaytirish",
+    "Xonadan chiqarish"
+   ],
+   "e": "Kechki xizmat."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "\"Wake-up call\" xizmati nima?",
+   "a": [
+    "Belgilangan vaqtda uyg'otish qo'ng'irog'i",
+    "Kechki xonani tozalash xizmati",
+    "Taksi chaqirish",
+    "Ovqat buyurtmasi"
+   ],
+   "e": "Uyg'otish."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "Kir yuvish (laundry) xizmati mehmonxonada nima qiladi?",
+   "a": [
+    "Choyshab va mehmon kiyimlarini yuvadi",
+    "Xonalarni bron qiladi va to'lov qabul qiladi",
+    "Ovqat tayyorlaydi",
+    "Transfer qiladi"
+   ],
+   "e": "Prachechnaya."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "Mehmonxonada \"amenities\" nima?",
+   "a": [
+    "Bepul qulayliklar (sovun, shampun)",
+    "Xonaning narxi va soliq summasi",
+    "Xodimlar ro'yxati",
+    "Mehmonxona qoidalari"
+   ],
+   "e": "Kosmetika va jihozlar."
+  },
+  {
+   "b": "Xona fondi va xizmat texnologiyasi",
+   "q": "Xona jihozlarining buzilganligi aniqlansa nima qilinadi?",
+   "a": [
+    "Texnik xizmatga ariza beriladi",
+    "E'tiborsiz qoldirilib, xona sotilaveradi",
+    "Mehmondan haq olinadi albatta",
+    "Xona yopiladi abadiy"
+   ],
+   "e": "Ta'mir arizasi."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "Mehmonxonada nonushtaning keng tarqalgan shakli qaysi?",
+   "a": [
+    "Shved stoli (bufet)",
+    "Faqat a la carte, oldindan buyurtmali kechki ovqat",
+    "Faqat banket",
+    "Faqat kofe-breyk"
+   ],
+   "e": "Breakfast buffet."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "Kontinental nonushta nimani o'z ichiga oladi?",
+   "a": [
+    "Non, saryog', murabbo, ichimlik",
+    "Issiq go'shtli taomlar va sho'rva",
+    "Faqat meva",
+    "Faqat sut"
+   ],
+   "e": "Yengil nonushta."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "\"A la carte\" xizmati nima?",
+   "a": [
+    "Menyudan alohida taom tanlash",
+    "Oldindan belgilangan bir xil to'plam taom",
+    "Shved stoli",
+    "Faqat ichimliklar"
+   ],
+   "e": "Menyu bo'yicha."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "\"Table d'hôte\" (kompleks) menyu nima?",
+   "a": [
+    "Belgilangan narxdagi tayyor to'plam",
+    "Har bir taomni alohida tanlash imkoni",
+    "Faqat ichimliklar",
+    "Faqat shirinliklar"
+   ],
+   "e": "Kompleks."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "Banket zalini tayyorlashda nima hisobga olinadi?",
+   "a": [
+    "Mehmonlar soni va tadbir formati",
+    "Faqat ofitsiantlar xohishi va ish vaqti",
+    "Faqat chiroqlar soni",
+    "Hech narsa"
+   ],
+   "e": "Banket."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "Ofitsiant idishlarni qaysi tomondan yig'ishtiradi (an'anaviy)?",
+   "a": [
+    "O'ng tomondan",
+    "Chap tomondan",
+    "Orqadan",
+    "Stol ustidan"
+   ],
+   "e": "Etiket."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "Mehmonxona barining vazifasi nima?",
+   "a": [
+    "Ichimliklar va yengil gazaklar xizmati",
+    "Mehmonlarni ro'yxatga olish va xona berish",
+    "Xonalarni tozalash",
+    "Transfer"
+   ],
+   "e": "Bar."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "Mehmonxona restoranida allergiya haqida so'ralsa nima qilinadi?",
+   "a": [
+    "Tarkib haqida aniq ma'lumot beriladi",
+    "Javob berilmaydi, taxmin qilinadi",
+    "Mehmonga e'tibor berilmaydi",
+    "Mehmon chiqarib yuboriladi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "Halol taomlar haqida ma'lumot berish nima uchun muhim?",
+   "a": [
+    "Mehmonlarning diniy talablarini hurmat qilish",
+    "Taom narxini oshirish",
+    "Menyuni qisqartirish",
+    "Taom narxini oshirib, qo'shimcha daromad olish uchun"
+   ],
+   "e": "Halal-friendly turizm."
+  },
+  {
+   "b": "Ovqatlanish xizmati (mehmonxonada)",
+   "q": "Mehmonxonada ovqatlanish narxi tarifga kiritilganda \"FB\" nimani bildiradi?",
+   "a": [
+    "Uch mahal ovqat (to'liq pansion)",
+    "Faqat nonushta va kechki ichimliklar",
+    "Faqat xona",
+    "Faqat xona, ovqatsiz"
+   ],
+   "e": "Full Board."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Turistik resurslarga nima kiradi?",
+   "a": [
+    "Tabiiy, tarixiy-madaniy va infratuzilma resurslari",
+    "Faqat mehmonxonalar, restoranlar va do'konlar soni",
+    "Faqat aeroportlar",
+    "Faqat aeroportlar"
+   ],
+   "e": "Resurslar."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "O'zbekistonning tog' turizmi uchun qulay hududlari qaysilar?",
+   "a": [
+    "Chimyon, Zomin, Boysun tog'lari",
+    "Qizilqum va Ustyurt tekisliklari faqat",
+    "Orol dengizi tubi",
+    "Mirzacho'l"
+   ],
+   "e": "Tog' turizmi."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Chimyon qaysi viloyatda joylashgan?",
+   "a": [
+    "Toshkent viloyatida",
+    "Farg'ona viloyatida",
+    "Xorazm viloyatida",
+    "Buxoro viloyatida"
+   ],
+   "e": "Chang'i kurorti."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Orol dengizi bilan bog'liq turizm qaysi hududda rivojlanmoqda?",
+   "a": [
+    "Qoraqalpog'iston (Mo'ynoq)",
+    "Surxondaryo",
+    "Namangan",
+    "Toshkent"
+   ],
+   "e": "Kemalar qabristoni."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Aydarko'l qaysi turizm turi uchun mashhur?",
+   "a": [
+    "Ekoturizm va yurt lagerlari",
+    "Tog' chang'isi",
+    "Shahar turizmi",
+    "Tibbiy turizm"
+   ],
+   "e": "Navoiy/Jizzax."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Boysun tumani qaysi madaniy merosi bilan mashhur?",
+   "a": [
+    "Boysun madaniy makoni (YuNESKO nomoddiy merosi)",
+    "Eng katta sanoat zavodlari va neft-gaz konlari bilan",
+    "Dengiz porti bilan",
+    "Dengiz porti bilan"
+   ],
+   "e": "Nomoddiy meros."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Shohi Zinda ansambli qaysi shaharda?",
+   "a": [
+    "Samarqand",
+    "Buxoro",
+    "Xiva",
+    "Toshkent"
+   ],
+   "e": "Maqbaralar majmuasi."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Go'ri Amir maqbarasi kimga tegishli?",
+   "a": [
+    "Amir Temur va temuriylar",
+    "Ismoil Somoniy",
+    "Alisher Navoiy",
+    "Bobur"
+   ],
+   "e": "Samarqand."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Ulug'bek rasadxonasi qaysi asrda qurilgan?",
+   "a": [
+    "XV asrda",
+    "IX asrda",
+    "XVIII asrda",
+    "XX asrda"
+   ],
+   "e": "1420-yillar."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Ark qal'asi qaysi shaharda joylashgan?",
+   "a": [
+    "Buxoro",
+    "Samarqand",
+    "Qo'qon",
+    "Termiz"
+   ],
+   "e": "Buxoro amirlari qarorgohi."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Xudoyorxon o'rdasi qaysi shaharda?",
+   "a": [
+    "Qo'qon",
+    "Xiva",
+    "Buxoro",
+    "Samarqand"
+   ],
+   "e": "XIX asr."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Toshkentdagi Hazrati Imom majmuasida qanday noyob qo'lyozma saqlanadi?",
+   "a": [
+    "Usmon Qur'oni",
+    "Avesto",
+    "Boburnoma asl nusxasi",
+    "Qutadg'u bilig"
+   ],
+   "e": "Muqaddas qo'lyozma."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Islomxo'ja minorasi qaysi shaharda?",
+   "a": [
+    "Xiva",
+    "Buxoro",
+    "Samarqand",
+    "Nukus"
+   ],
+   "e": "Eng baland minora (Xiva)."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Chor minor qaysi shaharda joylashgan?",
+   "a": [
+    "Buxoro",
+    "Xiva",
+    "Samarqand",
+    "Shahrisabz"
+   ],
+   "e": "To'rt minorali bino."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Buyuk Ipak yo'li turizm uchun qanday ahamiyatga ega?",
+   "a": [
+    "Tarixiy shaharlarni bog'lovchi madaniy marshrut",
+    "Faqat zamonaviy avtomagistral va yuk tashish yo'li nomi",
+    "Faqat temir yo'l",
+    "Ahamiyati yo'q"
+   ],
+   "e": "Ipak yo'li."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Hunarmandchilik turizmi nima?",
+   "a": [
+    "Hunarmandlar ishi bilan tanishish safari",
+    "Faqat yirik sanoat zavodlariga texnik ekskursiya",
+    "Faqat sport",
+    "Faqat tibbiy"
+   ],
+   "e": "Master-klass."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Milliy bayramlar turizmda qanday rol o'ynaydi?",
+   "a": [
+    "Turistlarni jalb qiluvchi tadbir",
+    "Turizmga hech qanday ta'sir qilmaydi",
+    "Turistlarni kamaytiradi",
+    "Faqat ichki aholi uchun"
+   ],
+   "e": "Event turizm."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "\"Sharq taronalari\" festivali qaysi shaharda o'tkaziladi?",
+   "a": [
+    "Samarqand",
+    "Toshkent",
+    "Buxoro",
+    "Nukus"
+   ],
+   "e": "Xalqaro musiqa festivali."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "\"Ipak va ziravorlar\" festivali qaysi shaharda o'tkaziladi?",
+   "a": [
+    "Buxoro",
+    "Samarqand",
+    "Xiva",
+    "Termiz"
+   ],
+   "e": "Festival."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Turistik obyektda madaniy merosni asrash uchun nima qilinadi?",
+   "a": [
+    "Restavratsiya va tashrif qoidalarini o'rnatish",
+    "Obidalarga cheklovsiz kirish va yozuv qoldirishga ruxsat",
+    "Obidani buzib, yangisini qurish",
+    "Hech narsa"
+   ],
+   "e": "Muhofaza."
+  },
+  {
+   "b": "Turizm geografiyasi va resurslari",
+   "q": "Turistlarni madaniyatlararo muloqotga tayyorlash nima uchun kerak?",
+   "a": [
+    "Mahalliy urf-odatlarni hurmat qilish uchun",
+    "Faqat ko'proq suvenir sotish uchun",
+    "Ahamiyati yo'q",
+    "Faqat gid uchun"
+   ],
+   "e": "Madaniy kompetensiya."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Mehmonxona xizmatlari ko'rsatish qoidalari qaysi hujjat bilan tartibga solinadi?",
+   "a": [
+    "Qonun va Vazirlar Mahkamasi qarorlari",
+    "Faqat mehmonxona egasining og'zaki ko'rsatmasi",
+    "Faqat mehmonlar fikri",
+    "Hech qanday hujjat"
+   ],
+   "e": "Normativ baza."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Iste'molchilar huquqlarini himoya qilish qonuni turizmda nimani kafolatlaydi?",
+   "a": [
+    "Sifatli xizmat va zararni qoplash huquqini",
+    "Turoperatorning cheksiz huquqlari va imtiyozlarini",
+    "Faqat davlat daromadini",
+    "Hech narsani"
+   ],
+   "e": "Iste'molchi huquqi."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Mehmonxonada mehmon mulki uchun kim javobgar?",
+   "a": [
+    "Qonunda belgilangan tartibda mehmonxona",
+    "Hech kim javobgar emas",
+    "Faqat boshqa mehmonlar",
+    "Faqat politsiya"
+   ],
+   "e": "Javobgarlik."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Seyf xizmati mehmonxonada nima uchun kerak?",
+   "a": [
+    "Qimmatbaho buyumlarni xavfsiz saqlash",
+    "Xonani sovutish, isitish va yoritish uchun",
+    "Mehmonni ro'yxatga olish uchun",
+    "Ovqat saqlash uchun"
+   ],
+   "e": "Seyf."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Mehmonxonada videokuzatuv qayerlarda o'rnatilishi mumkin?",
+   "a": [
+    "Umumiy joylarda (lobbi, yo'laklar)",
+    "Mehmon xonalari va sanuzellar ichida",
+    "Hech qayerda",
+    "Faqat oshxonada"
+   ],
+   "e": "Shaxsiy hayot daxlsizligi."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Favqulodda vaziyatda mehmonxona xodimining birinchi vazifasi nima?",
+   "a": [
+    "Mehmonlarni xavfsiz evakuatsiya qilish",
+    "Kassadagi pul va hujjatlarni birinchi navbatda saqlab qolish",
+    "Xonalarni qulflash",
+    "Hech narsa qilmaslik"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Mehmonxonada birinchi tibbiy yordam qutichasi bo'lishi shartmi?",
+   "a": [
+    "Ha, majburiy",
+    "Yo'q, kerak emas",
+    "Faqat 5 yulduzlida",
+    "Faqat yozda"
+   ],
+   "e": "Aptechka."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Turistning sog'lig'i yomonlashsa gid nima qiladi?",
+   "a": [
+    "Tibbiy yordam chaqirib, guruhni tartibga soladi",
+    "Turistni yolg'iz qoldirib, marshrutni davom ettiradi",
+    "Hech narsa qilmaydi",
+    "Turni bekor qiladi"
+   ],
+   "e": "Favqulodda holat."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Mehmonxona xizmati sifatini baholash usuli qaysi?",
+   "a": [
+    "Mehmonlar so'rovi va \"mystery guest\"",
+    "Faqat egasining shaxsiy fikri",
+    "Faqat xodimlar soni",
+    "Baholanmaydi"
+   ],
+   "e": "Sifat nazorati."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "\"Mystery guest\" (sirli mehmon) nima?",
+   "a": [
+    "Xizmatni yashirincha baholovchi ekspert",
+    "Mehmonxonada bepul yashovchi VIP mehmon",
+    "Bron qilmasdan kelgan mehmon",
+    "Xodimning qarindoshi"
+   ],
+   "e": "Mystery shopping."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Turizm sohasida ISO 9001 standarti nimani belgilaydi?",
+   "a": [
+    "Sifat menejmenti tizimi talablarini",
+    "Faqat mehmonxona bino arxitekturasini",
+    "Faqat ovqat retseptlarini",
+    "Faqat narxlarni"
+   ],
+   "e": "Sifat menejmenti."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Ekologik mehmonxona (\"green hotel\") xususiyati nima?",
+   "a": [
+    "Resurs tejash va ekologik amaliyot",
+    "Faqat yashil rangga bo'yalgan bino",
+    "Faqat bog' ichida joylashgan",
+    "Elektr ishlatmaydi"
+   ],
+   "e": "Barqarorlik."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Mehmonxonada suv va energiyani tejash chorasi qaysi?",
+   "a": [
+    "Sensorli chiroqlar va tejamkor jihozlar",
+    "Chiroqlarni kechayu kunduz yoqib qo'yish",
+    "Suvni doim ochiq qoldirish",
+    "Hech narsa"
+   ],
+   "e": "Tejamkorlik."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Nogironligi bo'lgan mehmonlar uchun mehmonxonada nima bo'lishi kerak?",
+   "a": [
+    "Moslashtirilgan xonalar va pandus",
+    "Faqat baland zinapoya va tor eshiklar",
+    "Hech narsa",
+    "Faqat lift yo'q"
+   ],
+   "e": "Inklyuzivlik."
+  },
+  {
+   "b": "Huquqiy asoslar, xavfsizlik va sifat",
+   "q": "Mehmonxona xodimlarining mehnat muhofazasi bo'yicha qaysi talab bor?",
+   "a": [
+    "Instruktaj va himoya vositalari bilan ta'minlash",
+    "Instruktajsiz ishga qo'yish",
+    "Kimyoviy vositalarni himoya vositalarisiz ishlatishga ruxsat",
+    "Talab yo'q"
+   ],
+   "e": "Mehnat muhofazasi."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Mehmonga murojaat qilishda qaysi shakl to'g'ri?",
+   "a": [
+    "Hurmat bilan \"Siz\" deb",
+    "\"Sen\" deb, familiyarlik bilan",
+    "Faqat ishora bilan",
+    "Laqab bilan"
+   ],
+   "e": "Etiket."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Telefon orqali mehmon bilan gaplashishda birinchi nima aytiladi?",
+   "a": [
+    "Salomlashish, mehmonxona va o'z ismi",
+    "Darhol narxni aytib, qo'ng'iroqni tugatish",
+    "Hech narsa demasdan kutish",
+    "Faqat \"allo\""
+   ],
+   "e": "Telefon etiketi."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Xodim mehmon savoliga javobni bilmasa nima qiladi?",
+   "a": [
+    "Aniqlab, keyinroq javob berishni va'da qiladi",
+    "Taxminan, o'ylab ko'rmasdan noto'g'ri javob beradi",
+    "E'tiborsiz qoldiradi",
+    "Mehmonni boshqa joyga yuboradi"
+   ],
+   "e": "Professionalizm."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Turli madaniyatdagi mehmonlar bilan ishlashda nima muhim?",
+   "a": [
+    "Madaniy farqlarni hurmat qilish",
+    "Faqat o'z urf-odatlarini talab qilish",
+    "Barcha mehmonlarga bir xil, e'tiborsiz munosabat",
+    "Ahamiyatsiz"
+   ],
+   "e": "Bag'rikenglik."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Xodim mehmondan \"chaychaqa\" (tip) olishi haqida qaysi yondashuv to'g'ri?",
+   "a": [
+    "Korxona qoidalariga muvofiq, talab qilmasdan",
+    "Majburiy ravishda talab qilish",
+    "Mehmondan yashirincha pul so'rash",
+    "Xizmatni chaychaqa berilmaguncha ko'rsatmaslik"
+   ],
+   "e": "Etika."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Xodimning kasbiy imidjiga nima kiradi?",
+   "a": [
+    "Tashqi ko'rinish, nutq va xulq",
+    "Faqat ish haqi miqdori",
+    "Faqat yoshi",
+    "Faqat mashinasi"
+   ],
+   "e": "Imij."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Non-verbal muloqotga nima kiradi?",
+   "a": [
+    "Imo-ishora, mimika, holat",
+    "Faqat yozma xatlar",
+    "Faqat telefon qo'ng'irog'i",
+    "Faqat e-mail"
+   ],
+   "e": "Noverbal."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Mehmonni kutib olishda tabassumning ahamiyati nima?",
+   "a": [
+    "Iliq va do'stona muhit yaratadi",
+    "Mehmonni bezovta qiladi",
+    "Ahamiyati yo'q",
+    "Xizmat sifatini pasaytiradi"
+   ],
+   "e": "Birinchi taassurot."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Stressli vaziyatda xodim o'zini qanday tutishi kerak?",
+   "a": [
+    "Xotirjam va professional",
+    "Baqirib, asabiylashib",
+    "Ishni tashlab ketib",
+    "Mehmonni ayblab"
+   ],
+   "e": "Stressga chidamlilik."
+  },
+  {
+   "b": "Kasbiy etika va muloqot",
+   "q": "Jamoaviy ishda (teamwork) qaysi sifat muhim?",
+   "a": [
+    "Hamkorlik va o'zaro yordam",
+    "Faqat individual raqobat va yashirish",
+    "Boshqalarni ayblash",
+    "Ma'lumot bermaslik"
+   ],
+   "e": "Jamoa."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Mehmonxonada 3 kecha 400 000 so'mlik xonada yashagan mehmon qancha to'laydi?",
+   "a": [
+    "1 200 000 so'm",
+    "400 000 so'm",
+    "800 000 so'm",
+    "1 600 000 so'm"
+   ],
+   "e": "3·400 000."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "50 xonali mehmonxonada bir kunda 40 xona sotildi, o'rtacha narx 500 000 so'm. Xona daromadi qancha?",
+   "a": [
+    "20 mln so'm",
+    "25 mln so'm",
+    "2 mln so'm",
+    "200 mln so'm"
+   ],
+   "e": "40·500 000."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Yuqoridagi misolda RevPAR qancha?",
+   "a": [
+    "400 000 so'm",
+    "500 000 so'm",
+    "20 000 000 so'm",
+    "40 so'm"
+   ],
+   "e": "20 mln/50."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Tur narxi 5 mln so'm, turagent komissiyasi 10% bo'lsa, agent qancha oladi?",
+   "a": [
+    "500 000 so'm",
+    "50 000 so'm",
+    "1 mln so'm",
+    "5 mln so'm"
+   ],
+   "e": "5 mln·0,1."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Guruhda 20 turist, har biridan 300 000 so'mdan ekskursiya to'lovi. Jami tushum?",
+   "a": [
+    "6 mln so'm",
+    "600 000 so'm",
+    "3 mln so'm",
+    "60 mln so'm"
+   ],
+   "e": "20·300 000."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Xona narxi 600 000 so'm, mavsumiy chegirma 25% bo'lsa, yangi narx qancha?",
+   "a": [
+    "450 000 so'm",
+    "150 000 so'm",
+    "575 000 so'm",
+    "750 000 so'm"
+   ],
+   "e": "600·0,75."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Mehmonxonaning 120 xonasidan 90 tasi band. Band bo'lish darajasi?",
+   "a": [
+    "75%",
+    "90%",
+    "30%",
+    "25%"
+   ],
+   "e": "90/120."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turist samolyotda 5 soat uchdi, Toshkentdan 17:00 da jo'nadi (vaqt farqi yo'q). Qachon yetib keladi?",
+   "a": [
+    "22:00",
+    "21:00",
+    "23:00",
+    "12:00"
+   ],
+   "e": "17+5."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Bir kishilik joyga 2 kecha 350 000 so'm va nonushta 50 000 so'm/kun. Jami?",
+   "a": [
+    "800 000 so'm",
+    "700 000 so'm",
+    "750 000 so'm",
+    "400 000 so'm"
+   ],
+   "e": "2·(350+50)."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "4 kunlik turda har kuni 2 ta ekskursiya bo'lsa, jami nechta ekskursiya?",
+   "a": [
+    "8 ta",
+    "6 ta",
+    "4 ta",
+    "2 ta"
+   ],
+   "e": "4·2."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turizmda \"ustama\" (markup) nima?",
+   "a": [
+    "Tannarxga qo'shiladigan foyda qismi",
+    "Turistga beriladigan mavsumiy chegirma miqdori",
+    "Davlat solig'i",
+    "Sug'urta badali"
+   ],
+   "e": "Ustama."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Valyuta ayirboshlash shoxobchasi mehmonxonada qanday ishlaydi?",
+   "a": [
+    "Litsenziyali bank shoxobchasi orqali",
+    "Xohlagan xodim norasmiy ravishda",
+    "Ishlamaydi",
+    "Faqat bozorda"
+   ],
+   "e": "Valyuta operatsiyalari."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Mehmonxona xizmatlari uchun turistik yig'im nima?",
+   "a": [
+    "Har bir mehmon kechasi uchun olinadigan yig'im",
+    "Mehmonxonaning yillik reklama xarajati va soliqlari",
+    "Xodimlar ish haqi",
+    "Mehmonga beriladigan bonus"
+   ],
+   "e": "Turistik yig'im."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turistik guruhni mehmonxonaga joylashtirishda \"rooming list\" nima?",
+   "a": [
+    "Guruh a'zolarining xonalar bo'yicha ro'yxati",
+    "Mehmonxona xonalarining yillik ta'mir rejasi",
+    "Restoran menyusi",
+    "Avtobus jadvali"
+   ],
+   "e": "Rooming list."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Guruh turistlarini kutib olishda gid nima qiladi?",
+   "a": [
+    "Tanishtiradi, transfer va joylashuvni tashkil qiladi",
+    "Guruhni aeroportda qoldirib ketadi",
+    "Faqat suvenir sotadi",
+    "Hech narsa"
+   ],
+   "e": "Meet & greet."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turistik suvenirlar mahalliy iqtisodiyotga qanday ta'sir qiladi?",
+   "a": [
+    "Hunarmandlar daromadini oshiradi",
+    "Hunarmandchilikni yo'q qilib, import mahsulotni ko'paytiradi",
+    "Ta'sir qilmaydi",
+    "Faqat import qiladi"
+   ],
+   "e": "Iqtisodiy ta'sir."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "\"Mahalla turizmi\" (oilaviy mehmon uylari) nima?",
+   "a": [
+    "Mahalliy oilalar uyida joylashish",
+    "Faqat besh yulduzli mehmonxonalarda yashash",
+    "Faqat chodirda",
+    "Faqat poyezdda"
+   ],
+   "e": "Guest house."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Mehmon uyi (guest house) faoliyati uchun nima talab qilinadi?",
+   "a": [
+    "Ro'yxatdan o'tish va sanitariya talablari",
+    "Hech qanday talab yo'q",
+    "Faqat chiroyli darvoza",
+    "Faqat reklama"
+   ],
+   "e": "Joylashtirish vositalari."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Glamping nima?",
+   "a": [
+    "Qulay jihozlangan tabiat qo'yni lageri",
+    "Shahar markazidagi ko'p qavatli biznes mehmonxona",
+    "Avtomobil ta'mirlash",
+    "Restoran turi"
+   ],
+   "e": "Glamour camping."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Yurt lagerlari O'zbekistonda qayerda keng tarqalgan?",
+   "a": [
+    "Qizilqum va Aydarko'l atrofida",
+    "Toshkent shahar markazida",
+    "Farg'ona sanoat zonasida",
+    "Chorvoq ostida"
+   ],
+   "e": "Etnoturizm."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turistik marshrut xaritasi qanday ma'lumotni o'z ichiga oladi?",
+   "a": [
+    "Yo'nalish, ob'ektlar va masofalar",
+    "Faqat mehmonxona narxlari va soliqlar",
+    "Faqat telefon raqamlari",
+    "Faqat ob-havo"
+   ],
+   "e": "Xarita."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turistlarga xizmat ko'rsatishda raqamli ilovalar qanday yordam beradi?",
+   "a": [
+    "Bron, navigatsiya va ma'lumot olishni osonlashtiradi",
+    "Xizmatni murakkablashtirib, sekinlashtiradi",
+    "Hech qanday yordam bermaydi",
+    "Faqat o'yin uchun"
+   ],
+   "e": "Raqamli turizm."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "QR-kodli audiogid tarixiy obidada qanday ishlaydi?",
+   "a": [
+    "Skanerlanganda obida haqida ma'lumot beradi",
+    "Obidaga kirish chiptasini bekor qilib, pulni qaytaradi",
+    "Obidani yoritadi",
+    "Ishlamaydi"
+   ],
+   "e": "Smart turizm."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turizm xodimlarini tayyorlashda amaliyot (praktika) nima uchun muhim?",
+   "a": [
+    "Nazariy bilimni ish joyida mustahkamlash",
+    "Faqat diplomni tezroq olish uchun rasmiyatchilik",
+    "Kerak emas",
+    "Faqat yozda dam olish uchun"
+   ],
+   "e": "Kasbiy tayyorgarlik."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Mehmonxonaga yangi kelgan xodimga birinchi navbatda nima qilinadi?",
+   "a": [
+    "Orientatsiya va instruktaj o'tkaziladi",
+    "Faqat forma beriladi",
+    "Darhol mustaqil smenaga qo'yilib, hech narsa tushuntirilmaydi",
+    "Faqat forma beriladi"
+   ],
+   "e": "Adaptatsiya."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "\"Mehmon har doim haq\" tamoyili nimani anglatadi?",
+   "a": [
+    "Mehmon ehtiyojiga e'tibor va hurmat",
+    "Mehmon har qanday qonunbuzarlikka haqli",
+    "Xodim huquqsiz",
+    "Qoidalar bekor"
+   ],
+   "e": "Mijozga yo'naltirilganlik."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Mehmonxona va restoran o'rtasidagi aloqani kim muvofiqlashtiradi?",
+   "a": [
+    "F&B menejeri",
+    "Xona tozalovchi",
+    "Qorovul",
+    "Haydovchi"
+   ],
+   "e": "Muvofiqlashtirish."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Mehmonxona reklamasida qaysi qoida muhim?",
+   "a": [
+    "Haqqoniy va ishonchli ma'lumot",
+    "Mavjud bo'lmagan xizmatlarni va'da qilish",
+    "Raqobatchilarni haqorat qilish",
+    "Narxni yashirish"
+   ],
+   "e": "Halol reklama."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turistik firmaning veb-saytida nima bo'lishi kerak?",
+   "a": [
+    "Turlar, narxlar, aloqa va shartlar",
+    "Faqat rahbarning shaxsiy suratlari",
+    "Faqat reklama musiqa",
+    "Hech narsa"
+   ],
+   "e": "Onlayn vitrina."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Ijtimoiy tarmoqlarda turistik marketingning afzalligi nima?",
+   "a": [
+    "Keng auditoriya va arzon targ'ibot",
+    "Juda qimmat va cheklangan auditoriya",
+    "Faqat qariyalar uchun",
+    "Foydasi yo'q"
+   ],
+   "e": "SMM."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turizmda \"word of mouth\" (og'zaki tavsiya) qanday rol o'ynaydi?",
+   "a": [
+    "Mamnun mijozlar yangi mijozlar olib keladi",
+    "Mijozlarni qochiradi",
+    "Rol o'ynamaydi",
+    "Faqat salbiy ta'sir"
+   ],
+   "e": "Tavsiya marketingi."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Onlayn sharhlarga mehmonxona qanday javob berishi kerak?",
+   "a": [
+    "Xushmuomala va konstruktiv",
+    "E'tiborsiz qoldirib yoki haqorat bilan",
+    "Salbiy sharhlarni o'chirib tashlash",
+    "Faqat ijobiylariga"
+   ],
+   "e": "Reputatsiya."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turizm sohasida inson resurslari bo'limi (HR) vazifasi nima?",
+   "a": [
+    "Xodimlarni tanlash, o'qitish va rivojlantirish",
+    "Faqat xonalarni bron qilish va to'lovlarni qabul qilish",
+    "Faqat ovqat pishirish",
+    "Faqat qo'riqlash"
+   ],
+   "e": "HR."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Mehmonxonada xizmat ko'rsatish sifatining asosiy mezoni nima?",
+   "a": [
+    "Mehmon mamnunligi",
+    "Xodimlar soni",
+    "Bino balandligi",
+    "Reklama hajmi"
+   ],
+   "e": "Guest satisfaction."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "O'zbekistonda turizmni rivojlantirish bo'yicha vakolatli organ qaysi?",
+   "a": [
+    "Turizm qo'mitasi (vakolatli davlat organi)",
+    "Faqat Mudofaa vazirligi",
+    "Faqat Sog'liqni saqlash vazirligi",
+    "Hech qaysi"
+   ],
+   "e": "Davlat boshqaruvi."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "\"Uzbekistan — Safe Travel\" kampaniyasining maqsadi nima?",
+   "a": [
+    "Xavfsiz turizm imidjini targ'ib qilish",
+    "Turistlar kirishini taqiqlash",
+    "Mehmonxonalarni yopish",
+    "Turistlar kirishini cheklash va vizani qiyinlashtirish"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turizm sohasida mehnat qilayotgan o'qituvchining asosiy vazifasi nima?",
+   "a": [
+    "Amaliy ko'nikmali mutaxassislarni tayyorlash",
+    "Faqat nazariy ma'ruza o'qib, amaliyotsiz baholash",
+    "Faqat test o'tkazish",
+    "Faqat hujjat yozish"
+   ],
+   "e": "Kasbiy ta'lim."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Ziyorat turizmida turistlarga qaysi qoida tushuntiriladi?",
+   "a": [
+    "Kiyinish va xulq odobiga rioya qilish",
+    "Obidalarda baland ovozda musiqa qo'yish",
+    "Har qanday joyda suratga olish",
+    "Qoidalar yo'q"
+   ],
+   "e": "Ziyorat odobi."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Turistik guruhda yo'qolgan turist bo'lsa gid nima qiladi?",
+   "a": [
+    "Qidiradi va zarur xizmatlarga xabar beradi",
+    "Guruhni olib ketib, yo'qolgan turistni e'tiborsiz qoldiradi",
+    "Hech narsa qilmaydi",
+    "Turistni ayblaydi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Amaliy hisoblar va qo'shimcha",
+   "q": "Eksursiya avtobusida xavfsizlik bo'yicha nima tushuntiriladi?",
+   "a": [
+    "Xavfsizlik kamari va harakat qoidalari",
+    "Avtobusda yurib, oynadan egilish mumkinligi",
+    "Hech narsa",
+    "Faqat musiqa"
+   ],
+   "e": "Transport xavfsizligi."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Mehmonxona xonasida mehmon chekishi taqiqlangan bo'lsa, buni qanday bildiriladi?",
+   "a": [
+    "Ogohlantiruvchi belgi va qoidalar orqali",
+    "Hech qanday ogohlantirishsiz jarima solinadi",
+    "Mehmon xonadan chiqariladi darhol",
+    "Bildirilmaydi"
+   ],
+   "e": "Qoidalar."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Mehmonxona qoidalari mehmonga qachon tanishtiriladi?",
+   "a": [
+    "Ro'yxatdan o'tish paytida",
+    "Mehmon chiqib ketayotganda",
+    "Hech qachon",
+    "Faqat shikoyat bo'lganda"
+   ],
+   "e": "Ichki tartib."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Turistik ob'ektda gid litsenziyasi (attestatsiyasi) nima uchun kerak?",
+   "a": [
+    "Malaka va ma'lumot to'g'riligini kafolatlash",
+    "Faqat qo'shimcha pul olish uchun",
+    "Kerak emas",
+    "Faqat chet ellik gidlar uchun"
+   ],
+   "e": "Gid attestatsiyasi."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Ekskursiya matnini tayyorlashda manbalar qanday bo'lishi kerak?",
+   "a": [
+    "Ilmiy va ishonchli",
+    "Faqat ijtimoiy tarmoqdagi tasdiqlanmagan mish-mishlar",
+    "O'ylab topilgan afsonalar faqat",
+    "Manba kerak emas"
+   ],
+   "e": "Ishonchlilik."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Ekskursiyada vaqtni boshqarish nima uchun muhim?",
+   "a": [
+    "Marshrutni to'liq va o'z vaqtida bajarish",
+    "Ekskursiyani cho'zib, qo'shimcha haq olish",
+    "Ahamiyatsiz",
+    "Guruhni charchatish"
+   ],
+   "e": "Vaqt menejmenti."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Tur rahbari guruh hujjatlarini qanday saqlaydi?",
+   "a": [
+    "Tartibli va xavfsiz, nusxalari bilan",
+    "Turistlar hujjatlarini yig'ib, o'zida yashirin saqlaydi",
+    "Saqlamaydi",
+    "Mehmonxonada qoldiradi"
+   ],
+   "e": "Hujjatlar."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Turistik xizmatlar narxlari qanday valyutada e'lon qilinishi kerak?",
+   "a": [
+    "Qonunchilikda belgilangan tartibda milliy valyutada",
+    "Faqat norasmiy valyutada, hujjatsiz",
+    "Narx e'lon qilinmaydi",
+    "Faqat oltinda"
+   ],
+   "e": "Narx shaffofligi."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Turistik sohada startap misoli qaysi?",
+   "a": [
+    "Onlayn tur bronlash ilovasi",
+    "Eski uslubdagi qog'oz daftar",
+    "Faqat telefon kitobi",
+    "Faqat gazeta"
+   ],
+   "e": "Innovatsiya."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Mehmonxona sohasida \"check-in kiosk\" nima?",
+   "a": [
+    "O'z-o'zini ro'yxatga olish terminali",
+    "Xona tozalash aravachasi",
+    "Restoran stoli",
+    "Bagaj xonasi"
+   ],
+   "e": "Avtomatlashtirish."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Bagaj xonasi (luggage room) vazifasi nima?",
+   "a": [
+    "Mehmon yuklarini vaqtincha saqlash",
+    "Mehmonlarni ro'yxatga olish va to'lov qabul qilish",
+    "Ovqat saqlash",
+    "Kir yuvish"
+   ],
+   "e": "Bagaj."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Pikolo (bellboy) vazifasi nima?",
+   "a": [
+    "Mehmon yukini xonaga olib chiqish",
+    "Mehmonxona hisobini yuritish va moliya",
+    "Ovqat pishirish",
+    "Xonani ta'mirlash"
+   ],
+   "e": "Bell service."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Mehmonxonada \"lost key\" (yo'qolgan kalit) holatida nima qilinadi?",
+   "a": [
+    "Shaxs tasdiqlanib, yangi karta beriladi",
+    "Hech narsa so'ramasdan har kimga kalit beriladi",
+    "Mehmon xonaga kiritilmaydi abadiy",
+    "Qulf buziladi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Mehmonxona \"overbooking\" qilganda mehmonni joylashtira olmasa nima qiladi?",
+   "a": [
+    "Boshqa mehmonxonaga o'z hisobidan joylashtiradi",
+    "Mehmonni hech qanday yordamsiz qaytarib yuboradi",
+    "Lobbida tunashni taklif qiladi",
+    "Hech narsa qilmaydi"
+   ],
+   "e": "Walking the guest."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Restoranda band qilingan stol \"rezerv\" belgisi nimani bildiradi?",
+   "a": [
+    "Stol oldindan band qilingan",
+    "Stol buzilgan, ishlatilmaydi",
+    "Stol bepul",
+    "Stol sotuvda"
+   ],
+   "e": "Bron."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Mehmonxona sohasida \"upgrade\" nima?",
+   "a": [
+    "Mehmonni yuqoriroq toifali xonaga o'tkazish",
+    "Xona narxini oshirish va qo'shimcha to'lov olish",
+    "Mehmonni chiqarib yuborish",
+    "Xonani ta'mirlash"
+   ],
+   "e": "Bepul yoki pullik."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "\"Complimentary\" xizmat nima?",
+   "a": [
+    "Bepul taqdim etiladigan xizmat",
+    "Qo'shimcha haq evaziga ko'rsatiladigan premium xizmat",
+    "Majburiy jarima",
+    "Soliq"
+   ],
+   "e": "Komplement."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Mehmonxonada \"day use\" nima?",
+   "a": [
+    "Xonadan kunduzi bir necha soat foydalanish",
+    "Xonada bir oy yashash",
+    "Faqat kechasi yashash",
+    "Xonani sotib olish"
+   ],
+   "e": "Kunduzgi foydalanish."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Turistlarga sovg'a sifatida milliy suvenirlar tanlashda nima muhim?",
+   "a": [
+    "Haqiqiy mahalliy hunarmandchilik mahsuloti",
+    "Arzon import nusxalari",
+    "Faqat plastik buyumlar",
+    "Ahamiyatsiz"
+   ],
+   "e": "Autentiklik."
+  },
+  {
+   "b": "Yakuniy",
+   "q": "Mehmonxona va turizmda \"ichki turizm\"ni rivojlantirishning usuli qaysi?",
+   "a": [
+    "Arzon tur paketlari va dam olish kunlari takliflari",
+    "Faqat chet elliklar uchun yuqori narxlar",
+    "Ichki safarlarni cheklash",
+    "Hech narsa"
+   ],
+   "e": "Ichki turizm."
+  }
+ ],
+ "kalit": "mehmonxona turizm ekskursiya turoperator front office servis"
+}
