@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "WEB dasturlash va dizayn",
+ "turi": "maxsus",
+ "manba": "HTML Living Standard, CSS (W3C), ECMAScript, MDN Web Docs, PHP qo'llanmasi, web dizayn asoslari",
+ "savollar": [
+  {
+   "b": "HTML asoslari",
+   "q": "HTML qisqartmasi nimani anglatadi?",
+   "a": [
+    "HyperText Markup Language",
+    "High Tech Modern Language",
+    "Hyper Transfer Machine Language",
+    "Home Tool Markup Language"
+   ],
+   "e": "Gipermatnli belgilash tili."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "HTML hujjatining zamonaviy turi qanday e'lon qilinadi?",
+   "a": [
+    "<!DOCTYPE html>",
+    "<html version=\"5\">",
+    "<!HTML5>",
+    "<doctype type=\"html5\">"
+   ],
+   "e": "HTML5."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Sahifa sarlavhasi (brauzer yorlig'ida ko'rinadigan) qaysi teg ichida yoziladi?",
+   "a": [
+    "<title>",
+    "<h1>",
+    "<header>",
+    "<head-title>"
+   ],
+   "e": "<head> ichida."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Eng katta sarlavha qaysi teg bilan yoziladi?",
+   "a": [
+    "<h1>",
+    "<h6>",
+    "<head>",
+    "<heading>"
+   ],
+   "e": "h1 — h6."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Xatboshi (abzats) qaysi teg bilan belgilanadi?",
+   "a": [
+    "<p>",
+    "<br>",
+    "<div>",
+    "<span>"
+   ],
+   "e": "Paragraph."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Qator uzilishi qaysi teg bilan qilinadi?",
+   "a": [
+    "<br>",
+    "<hr>",
+    "<p>",
+    "<lb>"
+   ],
+   "e": "Bo'sh teg."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Giperhavola qaysi teg bilan yaratiladi?",
+   "a": [
+    "<a href=\"...\">",
+    "<link src=\"...\">",
+    "<href>",
+    "<url>"
+   ],
+   "e": "Anchor."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Havolani yangi oynada ochish uchun qaysi atribut ishlatiladi?",
+   "a": [
+    "target=\"_blank\"",
+    "target=\"_new\"",
+    "open=\"new\"",
+    "window=\"blank\""
+   ],
+   "e": "Yangi yorliq."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Rasm qo'yish uchun qaysi teg ishlatiladi?",
+   "a": [
+    "<img src=\"...\">",
+    "<image href=\"...\">",
+    "<pic src=\"...\">",
+    "<picture-src>"
+   ],
+   "e": "alt atributi majburiy tavsiya."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "<img> tegidagi alt atributi nima uchun kerak?",
+   "a": [
+    "Rasm o'rniga ko'rsatiladigan matn",
+    "Rasm o'lchamini belgilash",
+    "Rasm rangini o'zgartirish",
+    "Rasmni aylantirish"
+   ],
+   "e": "Accessibility, SEO."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Tartiblangan (raqamli) ro'yxat qaysi teg bilan yaratiladi?",
+   "a": [
+    "<ol>",
+    "<ul>",
+    "<li>",
+    "<dl>"
+   ],
+   "e": "Ordered list."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Tartiblanmagan (belgili) ro'yxat qaysi teg bilan yaratiladi?",
+   "a": [
+    "<ul>",
+    "<ol>",
+    "<list>",
+    "<dl>"
+   ],
+   "e": "Unordered list."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Ro'yxat elementi qaysi teg bilan yoziladi?",
+   "a": [
+    "<li>",
+    "<ul>",
+    "<item>",
+    "<el>"
+   ],
+   "e": "List item."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Jadval qatori qaysi teg bilan yoziladi?",
+   "a": [
+    "<tr>",
+    "<td>",
+    "<th>",
+    "<row>"
+   ],
+   "e": "Table row."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Jadval katagi qaysi teg bilan yoziladi?",
+   "a": [
+    "<td>",
+    "<tr>",
+    "<tc>",
+    "<cell>"
+   ],
+   "e": "Table data."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Jadvalda kataklarni gorizontal birlashtirish uchun qaysi atribut ishlatiladi?",
+   "a": [
+    "colspan",
+    "rowspan",
+    "merge",
+    "span-col"
+   ],
+   "e": "rowspan — vertikal."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Forma qaysi teg bilan yaratiladi?",
+   "a": [
+    "<form>",
+    "<input>",
+    "<fieldset>",
+    "<submit>"
+   ],
+   "e": "action va method atributlari."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Parol kiritish maydoni qanday yaratiladi?",
+   "a": [
+    "<input type=\"password\">",
+    "<input type=\"hidden\">",
+    "<input type=\"secret\">",
+    "<password>"
+   ],
+   "e": "Belgilar yashiriladi."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Ko'p qatorli matn kiritish maydoni qaysi teg?",
+   "a": [
+    "<textarea>",
+    "<input type=\"text\">",
+    "<textbox>",
+    "<multiline>"
+   ],
+   "e": "rows, cols."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Ochiladigan ro'yxat qaysi teg bilan yaratiladi?",
+   "a": [
+    "<select>",
+    "<list>",
+    "<dropdown>",
+    "<option-list>"
+   ],
+   "e": "<option> elementlari bilan."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Formadagi ma'lumotlar URL orqali yuborilishi qaysi metodda?",
+   "a": [
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE"
+   ],
+   "e": "POST — so'rov tanasida."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "HTML5 semantik teglariga misol qaysi?",
+   "a": [
+    "<header>, <nav>, <article>, <footer>",
+    "<div>, <span>, <b>, <i>",
+    "<font>, <center>, <marquee>",
+    "<table>, <tr>, <td>, <th>"
+   ],
+   "e": "Ma'noli tuzilma."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Video joylashtirish uchun HTML5 tegi qaysi?",
+   "a": [
+    "<video>",
+    "<movie>",
+    "<media>",
+    "<flash>"
+   ],
+   "e": "controls atributi."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Sahifaga tashqi CSS fayl qanday ulanadi?",
+   "a": [
+    "<link rel=\"stylesheet\" href=\"style.css\">",
+    "<style src=\"style.css\"></style>",
+    "<css href=\"style.css\">",
+    "<script href=\"style.css\"></script>"
+   ],
+   "e": "<head> ichida."
+  },
+  {
+   "b": "HTML asoslari",
+   "q": "Meta-teg <meta charset=\"UTF-8\"> nima uchun kerak?",
+   "a": [
+    "Belgilar kodlashini belgilash",
+    "Sahifa rangini belgilash",
+    "Rasm o'lchamini belgilash",
+    "Shrift turini belgilash"
+   ],
+   "e": "O'zbekcha belgilar uchun."
+  },
+  {
+   "b": "CSS",
+   "q": "CSS qisqartmasi nimani anglatadi?",
+   "a": [
+    "Cascading Style Sheets",
+    "Creative Style System",
+    "Computer Style Sheets",
+    "Colorful Style Syntax"
+   ],
+   "e": "Kaskadli uslublar jadvallari."
+  },
+  {
+   "b": "CSS",
+   "q": "CSS da sinf (class) selektori qanday yoziladi?",
+   "a": [
+    ".nomi",
+    "#nomi",
+    "*nomi",
+    "@nomi"
+   ],
+   "e": "Masalan, .btn."
+  },
+  {
+   "b": "CSS",
+   "q": "CSS da id selektori qanday yoziladi?",
+   "a": [
+    "#nomi",
+    ".nomi",
+    "&nomi",
+    "%nomi"
+   ],
+   "e": "Masalan, #header."
+  },
+  {
+   "b": "CSS",
+   "q": "Matn rangini o'zgartiruvchi CSS xossasi qaysi?",
+   "a": [
+    "color",
+    "background-color",
+    "font-color",
+    "text-color"
+   ],
+   "e": "color: red;"
+  },
+  {
+   "b": "CSS",
+   "q": "Fon rangini belgilovchi xossa qaysi?",
+   "a": [
+    "background-color",
+    "color",
+    "bgcolor",
+    "fill"
+   ],
+   "e": "background-color: #fff;"
+  },
+  {
+   "b": "CSS",
+   "q": "Shrift o'lchamini belgilovchi xossa qaysi?",
+   "a": [
+    "font-size",
+    "text-size",
+    "font-weight",
+    "size"
+   ],
+   "e": "font-size: 16px;"
+  },
+  {
+   "b": "CSS",
+   "q": "Matnni qalin qiluvchi xossa qaysi?",
+   "a": [
+    "font-weight: bold",
+    "font-style: bold",
+    "text-weight: bold",
+    "font: thick"
+   ],
+   "e": "font-style — kursiv."
+  },
+  {
+   "b": "CSS",
+   "q": "CSS Box modelida element ichki bo'shlig'i qaysi xossa?",
+   "a": [
+    "padding",
+    "margin",
+    "border",
+    "spacing"
+   ],
+   "e": "margin — tashqi."
+  },
+  {
+   "b": "CSS",
+   "q": "Elementning tashqi bo'shlig'i qaysi xossa?",
+   "a": [
+    "margin",
+    "padding",
+    "border",
+    "outline-width"
+   ],
+   "e": "Box model."
+  },
+  {
+   "b": "CSS",
+   "q": "Box model tarkibi ichkaridan tashqariga qanday tartibda?",
+   "a": [
+    "content, padding, border, margin",
+    "margin, border, padding, content",
+    "border, content, margin, padding",
+    "padding, content, border, margin"
+   ],
+   "e": "Kontent markazda."
+  },
+  {
+   "b": "CSS",
+   "q": "box-sizing: border-box nima qiladi?",
+   "a": [
+    "Kenglikka padding va border kiradi",
+    "Elementni sahifadan yashiradi",
+    "Kenglikka faqat margin qo'shiladi",
+    "Elementni 90° ga aylantiradi"
+   ],
+   "e": "Hisoblash qulay."
+  },
+  {
+   "b": "CSS",
+   "q": "Elementni yashiruvchi va joyini ham bo'shatuvchi xossa qaysi?",
+   "a": [
+    "display: none",
+    "visibility: hidden",
+    "opacity: 0",
+    "hidden: true"
+   ],
+   "e": "visibility — joy saqlanadi."
+  },
+  {
+   "b": "CSS",
+   "q": "Flexbox konteyner qanday yaratiladi?",
+   "a": [
+    "display: flex",
+    "display: block",
+    "position: flex",
+    "flex: container"
+   ],
+   "e": "Moslashuvchan joylashuv."
+  },
+  {
+   "b": "CSS",
+   "q": "Flexboxda elementlarni asosiy o'q bo'ylab tekislovchi xossa qaysi?",
+   "a": [
+    "justify-content",
+    "align-items",
+    "text-align",
+    "vertical-align"
+   ],
+   "e": "align-items — ko'ndalang o'q."
+  },
+  {
+   "b": "CSS",
+   "q": "CSS Grid konteyner qanday yaratiladi?",
+   "a": [
+    "display: grid",
+    "display: table",
+    "grid: on",
+    "layout: grid"
+   ],
+   "e": "Ikki o'lchamli tarmoq."
+  },
+  {
+   "b": "CSS",
+   "q": "position: absolute element nimaga nisbatan joylashadi?",
+   "a": [
+    "Eng yaqin pozitsiyalangan ota elementga",
+    "Har doim sahifaning boshiga",
+    "O'zining oddiy oqimdagi joyiga",
+    "Har doim brauzer oynasiga"
+   ],
+   "e": "relative ota."
+  },
+  {
+   "b": "CSS",
+   "q": "position: fixed element nimaga nisbatan qotib turadi?",
+   "a": [
+    "Brauzer oynasiga",
+    "Eng yaqin ota elementga",
+    "Oddiy hujjat oqimiga",
+    "Jadval katagiga"
+   ],
+   "e": "Aylantirganda ham."
+  },
+  {
+   "b": "CSS",
+   "q": "Media query nima uchun ishlatiladi?",
+   "a": [
+    "Ekran o'lchamiga moslashuvchan dizayn uchun",
+    "Sahifaga video qo'yish uchun",
+    "Serverdan rasm yuklash uchun",
+    "Ma'lumotlar bazasiga ulanish uchun"
+   ],
+   "e": "Responsive design."
+  },
+  {
+   "b": "CSS",
+   "q": "CSS da !important nima qiladi?",
+   "a": [
+    "Qoidaga eng yuqori ustuvorlik beradi",
+    "Qoidani butunlay o'chiradi",
+    "Kodga izoh qoldiradi",
+    "Boshqa CSS faylni import qiladi"
+   ],
+   "e": "Spetsifiklikni bekor qiladi."
+  },
+  {
+   "b": "CSS",
+   "q": "CSS spetsifikligi bo'yicha qaysi selektor eng kuchli?",
+   "a": [
+    "id selektori",
+    "sinf selektori",
+    "teg selektori",
+    "universal selektor"
+   ],
+   "e": "Inline uslubdan keyin."
+  },
+  {
+   "b": "CSS",
+   "q": "Rangni o'n oltilik kodda yozishga misol qaysi?",
+   "a": [
+    "#FF0000",
+    "rgb(255)",
+    "red-255",
+    "0xFF"
+   ],
+   "e": "Qizil."
+  },
+  {
+   "b": "CSS",
+   "q": "rem birligi nimaga nisbatan hisoblanadi?",
+   "a": [
+    "Ildiz element shrift o'lchamiga",
+    "Ota element shrift o'lchamiga",
+    "Ekran kengligiga",
+    "Piksel zichligiga"
+   ],
+   "e": "em — ota elementga."
+  },
+  {
+   "b": "CSS",
+   "q": "Psevdo-sinf :hover qachon ishlaydi?",
+   "a": [
+    "Sichqoncha element ustiga kelganda",
+    "Sahifa to'liq yuklanganda",
+    "Element bosib qo'yib yuborilgandan keyin",
+    "Forma serverga yuborilganda"
+   ],
+   "e": "Interaktivlik."
+  },
+  {
+   "b": "CSS",
+   "q": "CSS izohlari qanday yoziladi?",
+   "a": [
+    "/* izoh */",
+    "// izoh",
+    "<!-- izoh -->",
+    "# izoh"
+   ],
+   "e": "Ko'p qatorli."
+  },
+  {
+   "b": "CSS",
+   "q": "Animatsiya uchun CSS qoidasi qaysi?",
+   "a": [
+    "@keyframes",
+    "@media",
+    "@import",
+    "@font-face"
+   ],
+   "e": "animation xossasi bilan."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "JavaScript da o'zgaruvchini e'lon qilishning zamonaviy kalit so'zlari qaysilar?",
+   "a": [
+    "let va const",
+    "var va int",
+    "dim va set",
+    "define va make"
+   ],
+   "e": "ES6."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "const bilan e'lon qilingan o'zgaruvchining xususiyati nima?",
+   "a": [
+    "Qayta qiymat berib bo'lmaydi",
+    "Har doim qiymati o'zgaradi",
+    "Faqat raqam saqlaydi",
+    "Faqat funksiya ichida ishlaydi"
+   ],
+   "e": "Konstanta."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "JavaScriptda typeof null natijasi nima?",
+   "a": [
+    "\"object\"",
+    "\"null\"",
+    "\"undefined\"",
+    "\"number\""
+   ],
+   "e": "Tarixiy xato."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "=== operatori == dan nimasi bilan farq qiladi?",
+   "a": [
+    "Tur va qiymatni birga solishtiradi",
+    "Faqat qiymatni, turni hisobga olmay",
+    "Faqat turni, qiymatni hisobga olmay",
+    "Hech qanday farqi yo'q, bir xil ishlaydi"
+   ],
+   "e": "Qat'iy tenglik."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "\"5\" + 3 ifodasining natijasi nima?",
+   "a": [
+    "\"53\"",
+    "8",
+    "\"8\"",
+    "NaN"
+   ],
+   "e": "Satr birlashtiriladi."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "\"5\" - 3 ifodasining natijasi nima?",
+   "a": [
+    "2",
+    "\"53\"",
+    "\"2\"",
+    "NaN"
+   ],
+   "e": "Raqamga aylantiriladi."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Massivga oxiridan element qo'shuvchi metod qaysi?",
+   "a": [
+    "push()",
+    "pop()",
+    "shift()",
+    "slice()"
+   ],
+   "e": "pop — oxiridan o'chiradi."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Massiv uzunligini qaysi xossa beradi?",
+   "a": [
+    "length",
+    "size",
+    "count",
+    "len()"
+   ],
+   "e": "arr.length."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Har bir elementga funksiya qo'llab yangi massiv qaytaruvchi metod qaysi?",
+   "a": [
+    "map()",
+    "forEach()",
+    "push()",
+    "join()"
+   ],
+   "e": "forEach — qaytarmaydi."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Shart bo'yicha elementlarni ajratib oluvchi metod qaysi?",
+   "a": [
+    "filter()",
+    "map()",
+    "reduce()",
+    "sort()"
+   ],
+   "e": "Yangi massiv."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Funksiyani strelkali (arrow) ko'rinishda yozishga misol qaysi?",
+   "a": [
+    "const f = (a) => a * 2;",
+    "function => f(a) { a * 2 }",
+    "f = a -> a * 2;",
+    "def f(a): return a * 2"
+   ],
+   "e": "ES6."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "DOM nima?",
+   "a": [
+    "Hujjatning ob'ektli modeli",
+    "Ma'lumotlar bazasining turi",
+    "Veb-server dasturi",
+    "CSS freymvorki"
+   ],
+   "e": "Document Object Model."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Elementni id bo'yicha topuvchi metod qaysi?",
+   "a": [
+    "document.getElementById()",
+    "document.findId()",
+    "window.getId()",
+    "document.querySelectorAllId()"
+   ],
+   "e": "Yoki querySelector(\"#id\")."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Hodisa (event) tinglovchisini qo'shish metodi qaysi?",
+   "a": [
+    "addEventListener()",
+    "onEvent()",
+    "attachListener()",
+    "listen()"
+   ],
+   "e": "element.addEventListener(\"click\", f)."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Element matnini o'zgartirish uchun qaysi xossa ishlatiladi?",
+   "a": [
+    "textContent",
+    "innerStyle",
+    "valueText",
+    "textValue"
+   ],
+   "e": "innerHTML — HTML bilan."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Konsolga xabar chiqarish uchun qaysi buyruq ishlatiladi?",
+   "a": [
+    "console.log()",
+    "print()",
+    "echo()",
+    "System.out.println()"
+   ],
+   "e": "Brauzer konsoli."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "JSON nima?",
+   "a": [
+    "Ma'lumot almashish matn formati",
+    "Dasturlash tilining turi",
+    "Relyatsion ma'lumotlar bazasi",
+    "Vektor rasm formati"
+   ],
+   "e": "JavaScript Object Notation."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "JSON satrini ob'ektga aylantiruvchi metod qaysi?",
+   "a": [
+    "JSON.parse()",
+    "JSON.stringify()",
+    "JSON.toObject()",
+    "parseJSON()"
+   ],
+   "e": "stringify — teskarisi."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Asinxron so'rov yuborish uchun zamonaviy funksiya qaysi?",
+   "a": [
+    "fetch()",
+    "alert()",
+    "prompt()",
+    "setTimeout()"
+   ],
+   "e": "Promise qaytaradi."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "async/await nima uchun ishlatiladi?",
+   "a": [
+    "Asinxron kodni sinxron ko'rinishda yozish",
+    "Kodni siqib, tezroq bajarish",
+    "Faqat CSS animatsiyalar uchun",
+    "Faqat sikllar yaratish uchun"
+   ],
+   "e": "Promise bilan."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "localStorage nima?",
+   "a": [
+    "Brauzerda ma'lumot saqlash ombori",
+    "Serverdagi ma'lumotlar bazasi",
+    "Kompyuterdagi rasm papkasi",
+    "Bulutli saqlash xizmati"
+   ],
+   "e": "Kalit-qiymat."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "setTimeout funksiyasi nima qiladi?",
+   "a": [
+    "Funksiyani berilgan vaqtdan keyin bajaradi",
+    "Funksiyani darhol, kutmasdan bajaradi",
+    "Brauzer sahifasini yopadi",
+    "Joriy vaqtni ekranga chiqaradi"
+   ],
+   "e": "Millisoniyada."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "NaN nimani anglatadi?",
+   "a": [
+    "Son emas (Not a Number)",
+    "Bo'sh qiymat (null)",
+    "Aniqlanmagan qiymat (undefined)",
+    "Cheksizlik (Infinity)"
+   ],
+   "e": "0/0 natijasi."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "Ob'ektdagi xossaga murojaat qilish usuli qaysi?",
+   "a": [
+    "obj.nomi yoki obj[\"nomi\"]",
+    "obj->nomi yoki obj::nomi",
+    "obj#nomi yoki obj@nomi",
+    "obj.(nomi) yoki obj{nomi}"
+   ],
+   "e": "Nuqta yoki kvadrat qavs."
+  },
+  {
+   "b": "JavaScript asoslari",
+   "q": "for...of sikli nima uchun ishlatiladi?",
+   "a": [
+    "Massiv qiymatlarini aylanib chiqish",
+    "Ob'ekt kalitlarini aylanib chiqish",
+    "Kodni faqat bir marta bajarish",
+    "Funksiyani e'lon qilish"
+   ],
+   "e": "for...in — kalitlar."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "HTTP protokolining standart porti qaysi?",
+   "a": [
+    "80",
+    "443",
+    "21",
+    "25"
+   ],
+   "e": "HTTPS — 443."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "HTTPS protokolining standart porti qaysi?",
+   "a": [
+    "443",
+    "80",
+    "8080",
+    "22"
+   ],
+   "e": "TLS shifrlash."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "HTTP 404 holat kodi nimani bildiradi?",
+   "a": [
+    "Sahifa topilmadi",
+    "Server ichki xatosi",
+    "Muvaffaqiyatli javob",
+    "Ruxsat yo'q"
+   ],
+   "e": "Not Found."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "HTTP 200 holat kodi nimani bildiradi?",
+   "a": [
+    "Muvaffaqiyatli javob",
+    "Sahifa topilmadi (Not Found)",
+    "Qayta yo'naltirish (Redirect)",
+    "Server ichki xatosi"
+   ],
+   "e": "OK."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "HTTP 500 holat kodi nimani bildiradi?",
+   "a": [
+    "Server ichki xatosi",
+    "Sahifa topilmadi",
+    "Muvaffaqiyatli javob",
+    "Avtorizatsiya talab qilinadi"
+   ],
+   "e": "Internal Server Error."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "HTTP 301 kodi nimani bildiradi?",
+   "a": [
+    "Doimiy qayta yo'naltirish",
+    "Vaqtinchalik server xatosi",
+    "Kirish uchun ruxsat yo'q",
+    "Muvaffaqiyatli bajarildi"
+   ],
+   "e": "Moved Permanently."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "DNS ning vazifasi nima?",
+   "a": [
+    "Domen nomini IP-manzilga aylantirish",
+    "Sahifani CSS bilan bezash",
+    "Ma'lumotni uzatishda shifrlash",
+    "Rasmlarni yuklashda siqish"
+   ],
+   "e": "Domain Name System."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "Frontend dasturlash nimani anglatadi?",
+   "a": [
+    "Foydalanuvchi ko'radigan qismni yaratish",
+    "Server va ma'lumotlar bazasi bilan ishlash",
+    "Faqat tarmoq kabellarini o'rnatish",
+    "Faqat kompyuterni ta'mirlash"
+   ],
+   "e": "HTML, CSS, JS."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "Backend dasturlash nimani anglatadi?",
+   "a": [
+    "Server tomonidagi mantiq",
+    "Faqat tugma ranglarini tanlash",
+    "Faqat logotip chizish",
+    "Faqat matn yozish"
+   ],
+   "e": "PHP, Python, Node.js."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "PHP kodi qanday teglar ichida yoziladi?",
+   "a": [
+    "<?php ... ?>",
+    "<php> ... </php>",
+    "<script php>",
+    "{{ php }}"
+   ],
+   "e": "Server tomonida bajariladi."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "PHP da o'zgaruvchi qaysi belgi bilan boshlanadi?",
+   "a": [
+    "$",
+    "@",
+    "#",
+    "&"
+   ],
+   "e": "$nom."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "PHP da ekranga chiqarish buyrug'i qaysi?",
+   "a": [
+    "echo",
+    "console.log",
+    "print()",
+    "write"
+   ],
+   "e": "Yoki print."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "SQL in'eksiya hujumidan himoyalanishning asosiy usuli qaysi?",
+   "a": [
+    "Parametrlangan so'rovlar",
+    "Parolni ekranda ko'rsatish",
+    "Ma'lumotni tekshirmasdan qabul qilish",
+    "HTTPS ni o'chirish"
+   ],
+   "e": "Prepared statements."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "XSS hujumi nima?",
+   "a": [
+    "Sahifaga zararli skript kiritish",
+    "Serverni jismoniy shikastlash",
+    "Elektr tarmog'ini uzib qo'yish",
+    "Foydalanuvchining parolni unutishi"
+   ],
+   "e": "Cross-Site Scripting."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "Parollarni ma'lumotlar bazasida qanday saqlash kerak?",
+   "a": [
+    "Xeshlangan holda",
+    "Ochiq matn holida",
+    "Faqat katta harflarda",
+    "Faqat rasmda"
+   ],
+   "e": "bcrypt, Argon2."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "Cookie nima uchun ishlatiladi?",
+   "a": [
+    "Brauzerda kichik ma'lumot saqlash",
+    "Serverni sovutib turish",
+    "Rasmlarni siqib saqlash",
+    "Sahifa shriftini o'zgartirish"
+   ],
+   "e": "Sessiya."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "Sessiya (session) nima?",
+   "a": [
+    "Foydalanuvchi holatini serverda saqlash",
+    "Brauzer oynasining rangi",
+    "Rasm fayli formati",
+    "CSS xossasining turi"
+   ],
+   "e": "Avtorizatsiya."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "REST API da yangi resurs yaratish uchun qaysi metod ishlatiladi?",
+   "a": [
+    "POST",
+    "GET",
+    "DELETE",
+    "HEAD"
+   ],
+   "e": "CRUD."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "REST API da resursni o'chirish uchun qaysi metod?",
+   "a": [
+    "DELETE",
+    "POST",
+    "GET",
+    "PATCH"
+   ],
+   "e": "CRUD."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "CMS ga misol qaysi?",
+   "a": [
+    "WordPress",
+    "Photoshop",
+    "Excel",
+    "Windows"
+   ],
+   "e": "Kontent boshqaruv tizimi."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "Git nima?",
+   "a": [
+    "Versiyalarni boshqarish tizimi",
+    "Veb-brauzer dasturi",
+    "Relyatsion ma'lumotlar bazasi",
+    "Grafik muharrir dasturi"
+   ],
+   "e": "GitHub — xosting."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "Hosting nima?",
+   "a": [
+    "Saytni serverda joylashtirish xizmati",
+    "Domen nomini tanlab olish",
+    "Sayt dizaynini qog'ozda chizish",
+    "Kod yozish uchun muharrir"
+   ],
+   "e": "Server joyi."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "SEO nima?",
+   "a": [
+    "Qidiruv tizimlari uchun optimallashtirish",
+    "Server xavfsizligini ta'minlash",
+    "Rasmlarni tahrirlash",
+    "Video montaj qilish"
+   ],
+   "e": "Search Engine Optimization."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "Responsive (moslashuvchan) dizayn nima?",
+   "a": [
+    "Turli ekranlarga moslashadigan dizayn",
+    "Faqat kompyuter ekrani uchun dizayn",
+    "Faqat qora-oq ranglardagi dizayn",
+    "Animatsiyasiz statik dizayn"
+   ],
+   "e": "Mobile-first."
+  },
+  {
+   "b": "Veb texnologiyalar, server va xavfsizlik",
+   "q": "Bootstrap nima?",
+   "a": [
+    "CSS freymvorki",
+    "Ma'lumotlar bazasi",
+    "Operatsion tizim",
+    "Antivirus"
+   ],
+   "e": "Tayyor komponentlar."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da massiv yaratishning qisqa sintaksisi qaysi?",
+   "a": [
+    "$a = [1, 2, 3];",
+    "$a = {1, 2, 3};",
+    "$a = (1, 2, 3);",
+    "$a = <1, 2, 3>;"
+   ],
+   "e": "Yoki array()."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da satrlarni birlashtirish operatori qaysi?",
+   "a": [
+    ". (nuqta)",
+    "+ (plyus)",
+    "& (ampersand)",
+    ", (vergul)"
+   ],
+   "e": "\"a\" . \"b\"."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da forma ma'lumotini POST orqali olish uchun qaysi massiv ishlatiladi?",
+   "a": [
+    "$_POST",
+    "$_FORM",
+    "$POST[]",
+    "$_INPUT"
+   ],
+   "e": "Superglobal."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da GET parametrlari qaysi massivda saqlanadi?",
+   "a": [
+    "$_GET",
+    "$_URL",
+    "$_QUERY",
+    "$GET[]"
+   ],
+   "e": "URL parametrlari."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da sessiyani boshlash funksiyasi qaysi?",
+   "a": [
+    "session_start()",
+    "start_session()",
+    "session_open()",
+    "begin_session()"
+   ],
+   "e": "Sahifa boshida."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da boshqa faylni ulash uchun qaysi buyruq ishlatiladi?",
+   "a": [
+    "include yoki require",
+    "import \"fayl.php\"",
+    "using fayl.php",
+    "#include <fayl.php>"
+   ],
+   "e": "require — xatoda to'xtaydi."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da massiv elementlari sonini qaytaruvchi funksiya qaysi?",
+   "a": [
+    "count()",
+    "length()",
+    "size()",
+    "len()"
+   ],
+   "e": "count($arr)."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "MySQL da jadvaldan barcha ma'lumotlarni tanlash so'rovi qaysi?",
+   "a": [
+    "SELECT * FROM jadval;",
+    "GET ALL FROM jadval;",
+    "SHOW ROWS jadval;",
+    "FETCH * IN jadval;"
+   ],
+   "e": "SQL."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "Jadvalga yangi yozuv qo'shish SQL buyrug'i qaysi?",
+   "a": [
+    "INSERT INTO",
+    "ADD INTO",
+    "PUT INTO",
+    "APPEND"
+   ],
+   "e": "INSERT INTO t (a) VALUES (1)."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "Jadvaldagi ma'lumotni yangilash buyrug'i qaysi?",
+   "a": [
+    "UPDATE",
+    "MODIFY",
+    "CHANGE",
+    "ALTER ROW"
+   ],
+   "e": "UPDATE ... SET ... WHERE."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "WHERE shartisiz DELETE FROM jadval; nima qiladi?",
+   "a": [
+    "Barcha yozuvlarni o'chiradi",
+    "Hech narsa o'chirmaydi",
+    "Faqat birinchi yozuvni o'chiradi",
+    "Jadval tuzilmasini o'zgartiradi"
+   ],
+   "e": "Ehtiyot bo'lish kerak."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "Natijalarni tartiblash uchun qaysi SQL kalit so'zi ishlatiladi?",
+   "a": [
+    "ORDER BY",
+    "SORT BY",
+    "GROUP BY",
+    "ARRANGE"
+   ],
+   "e": "ASC / DESC."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "Natijalar sonini cheklash uchun MySQL da qaysi so'z ishlatiladi?",
+   "a": [
+    "LIMIT",
+    "TOP ALL",
+    "MAXROWS",
+    "STOP"
+   ],
+   "e": "LIMIT 10."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "Ikki jadvalni bog'lab so'rov qilish uchun nima ishlatiladi?",
+   "a": [
+    "JOIN",
+    "MERGE ALL",
+    "LINK",
+    "CONNECT"
+   ],
+   "e": "INNER, LEFT JOIN."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "Jadvaldagi birlamchi kalit (PRIMARY KEY) ning xususiyati nima?",
+   "a": [
+    "Har bir yozuvni yagona aniqlaydi",
+    "Qiymati takrorlanishi mumkin",
+    "Faqat matn turida bo'ladi",
+    "Bo'sh (NULL) bo'lishi shart"
+   ],
+   "e": "Unique, NOT NULL."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "AUTO_INCREMENT nima qiladi?",
+   "a": [
+    "Qiymatni avtomatik oshiradi",
+    "Jadvalni avtomatik o'chiradi",
+    "Satrni avtomatik shifrlaydi",
+    "Bazani avtomatik nusxalaydi"
+   ],
+   "e": "ID uchun."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da MySQL ga xavfsiz ulanish uchun qaysi kengaytma tavsiya etiladi?",
+   "a": [
+    "PDO yoki mysqli",
+    "mysql_ (eskirgan)",
+    "ftp_connect",
+    "mail()"
+   ],
+   "e": "Prepared statements bilan."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "COUNT(*) SQL funksiyasi nima qaytaradi?",
+   "a": [
+    "Yozuvlar sonini",
+    "Ustunlar yig'indisini",
+    "Eng katta qiymatni",
+    "O'rtacha qiymatni"
+   ],
+   "e": "Agregat funksiya."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "GROUP BY nima uchun ishlatiladi?",
+   "a": [
+    "Yozuvlarni guruhlash uchun",
+    "Natijalarni tartiblash uchun",
+    "Yozuvlarni o'chirish uchun",
+    "Yangi jadval yaratish uchun"
+   ],
+   "e": "Agregat bilan."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "Yangi jadval yaratish SQL buyrug'i qaysi?",
+   "a": [
+    "CREATE TABLE",
+    "NEW TABLE",
+    "MAKE TABLE",
+    "ADD TABLE"
+   ],
+   "e": "DDL."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "phpMyAdmin nima?",
+   "a": [
+    "MySQL ni veb orqali boshqarish vositasi",
+    "PHP kodini kompilyatsiya qiluvchi dastur",
+    "Brauzerning reklama kengaytmasi",
+    "Antivirus va xavfsizlik dasturi"
+   ],
+   "e": "Grafik interfeys."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "Lokal veb-server paketiga misol qaysi?",
+   "a": [
+    "XAMPP",
+    "Photoshop",
+    "MS Word",
+    "VLC"
+   ],
+   "e": "Apache, MySQL, PHP."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da funksiya qanday e'lon qilinadi?",
+   "a": [
+    "function nom() { }",
+    "def nom():",
+    "func nom() { }",
+    "void nom() { }"
+   ],
+   "e": "PHP sintaksisi."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "PHP da ifodaning turini aniqlovchi funksiya qaysi?",
+   "a": [
+    "gettype()",
+    "typeof()",
+    "type()",
+    "instanceof()"
+   ],
+   "e": "Yoki var_dump()."
+  },
+  {
+   "b": "PHP va MySQL",
+   "q": "htmlspecialchars() funksiyasi nima uchun ishlatiladi?",
+   "a": [
+    "XSS dan himoyalanish uchun",
+    "Rasmlarni siqish uchun",
+    "Serverdagi faylni o'chirish uchun",
+    "Ma'lumotlar bazasiga ulanish uchun"
+   ],
+   "e": "HTML belgilarini ekranlash."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "UX dizayn nima bilan shug'ullanadi?",
+   "a": [
+    "Foydalanuvchi tajribasi",
+    "Faqat server kodini yozish",
+    "Faqat ma'lumotlar bazasini sozlash",
+    "Faqat kompyuterni yig'ish"
+   ],
+   "e": "User Experience."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "UI dizayn nimani anglatadi?",
+   "a": [
+    "Interfeys ko'rinishi",
+    "Server tomonidagi xavfsizlik",
+    "Tarmoq kabellari",
+    "Ma'lumotni shifrlash"
+   ],
+   "e": "User Interface."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Wireframe nima?",
+   "a": [
+    "Sahifa tuzilmasi sxemasi",
+    "Tayyor dastur kodi",
+    "Ma'lumotlar bazasi jadvali",
+    "Server konfiguratsiyasi"
+   ],
+   "e": "Prototip bosqichi."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Figma dasturi nima uchun ishlatiladi?",
+   "a": [
+    "Interfeys dizayni",
+    "Server boshqaruvi",
+    "Ma'lumotlar bazasi",
+    "Video montaj"
+   ],
+   "e": "Hamkorlikda dizayn."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Veb-sahifada matn o'qilishi uchun qaysi tamoyil muhim?",
+   "a": [
+    "Fon va matn kontrasti",
+    "Fon va matnning bir xil rangi",
+    "Juda mayda shrift",
+    "Ko'p turli shriftlar"
+   ],
+   "e": "Accessibility."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Veb-dizaynda \"oq bo'shliq\" (whitespace) ning roli nima?",
+   "a": [
+    "O'qishni yengillashtiradi",
+    "Sahifani bo'sh va foydasiz qiladi",
+    "Sahifa yuklanishini sekinlashtiradi",
+    "Faqat xatolik belgisi"
+   ],
+   "e": "Vizual nafas."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Veb-sahifa uchun tavsiya etiladigan asosiy shriftlar soni qancha?",
+   "a": [
+    "2–3 tagacha",
+    "10 tadan ko'p",
+    "Har bir abzatsga alohida shrift",
+    "Shrift ishlatilmaydi"
+   ],
+   "e": "Uyg'unlik."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Mobile-first yondashuvi nimani anglatadi?",
+   "a": [
+    "Avval mobil ekran uchun",
+    "Faqat kompyuter uchun dizayn",
+    "Mobil qurilmalarni e'tiborsiz qoldirish",
+    "Faqat planshet uchun dizayn"
+   ],
+   "e": "Responsive."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Veb-sahifa yuklanish tezligini oshirish usuli qaysi?",
+   "a": [
+    "Rasmlarni optimallashtirish",
+    "Rasmlarni katta o'lchamda yuklash",
+    "Ko'p keraksiz skriptlar qo'shish",
+    "Keshni o'chirish"
+   ],
+   "e": "Performance."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Favicon nima?",
+   "a": [
+    "Yorliqdagi kichik belgi",
+    "Sahifaning asosiy rasmi",
+    "Sayt logotipi pastda",
+    "Reklama banneri"
+   ],
+   "e": "favicon.ico."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "React nima?",
+   "a": [
+    "JavaScript kutubxonasi",
+    "Relyatsion ma'lumotlar bazasi",
+    "Operatsion tizim yadrosi",
+    "CSS preprotsessori"
+   ],
+   "e": "Meta tomonidan."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "React da komponent nima?",
+   "a": [
+    "Qayta ishlatiladigan bo'lak",
+    "Ma'lumotlar bazasi jadvali",
+    "Server fayli",
+    "Rasm formati"
+   ],
+   "e": "Funksional komponentlar."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Vue.js nima?",
+   "a": [
+    "JavaScript freymvorki",
+    "Relyatsion ma'lumotlar bazasi",
+    "Vektor grafik muharriri",
+    "Veb-brauzer"
+   ],
+   "e": "Interfeys uchun."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Node.js nima?",
+   "a": [
+    "Serverdagi JS muhiti",
+    "Brauzer kengaytmasi",
+    "CSS freymvorki",
+    "Rasm muharriri"
+   ],
+   "e": "V8 dvigateli."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "npm nima?",
+   "a": [
+    "Paketlar menejeri",
+    "Ma'lumotlar bazasi serveri",
+    "Veb-brauzer",
+    "Antivirus dasturi"
+   ],
+   "e": "Node Package Manager."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Sass/SCSS nima?",
+   "a": [
+    "CSS preprotsessori",
+    "JavaScript freymvorki",
+    "Ma'lumotlar bazasi",
+    "Server tili"
+   ],
+   "e": "O'zgaruvchilar, ichma-ich qoidalar."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Tailwind CSS ning xususiyati nima?",
+   "a": [
+    "CSS freymvorki",
+    "JavaScript kutubxonasi",
+    "Ma'lumotlar bazasi",
+    "Veb-brauzer"
+   ],
+   "e": "Tayyor sinflar."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "jQuery nima?",
+   "a": [
+    "JavaScript kutubxonasi",
+    "CSS freymvorki",
+    "PHP freymvorki",
+    "Ma'lumotlar bazasi"
+   ],
+   "e": "DOM bilan ishlashni soddalashtirgan."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Laravel qaysi til uchun freymvork?",
+   "a": [
+    "PHP",
+    "JavaScript",
+    "Python",
+    "Java"
+   ],
+   "e": "MVC."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Django qaysi til uchun freymvork?",
+   "a": [
+    "Python",
+    "PHP",
+    "Ruby",
+    "JavaScript"
+   ],
+   "e": "Veb freymvork."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "MVC arxitekturasida \"M\" nimani anglatadi?",
+   "a": [
+    "Model",
+    "Media",
+    "Menu",
+    "Module"
+   ],
+   "e": "Model-View-Controller."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "SPA nima?",
+   "a": [
+    "Bir sahifali veb-ilova",
+    "Ko'p serverli tizim",
+    "Ma'lumotlar bazasi turi",
+    "Rasm formati"
+   ],
+   "e": "Single Page Application."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Veb-sayt foydalanish qulayligini (accessibility) oshirishga misol qaysi?",
+   "a": [
+    "Rasmlarga alt matn yozish",
+    "Rasmlarni alt matnsiz qo'yish",
+    "Juda past kontrast",
+    "Faqat sichqoncha bilan boshqarish"
+   ],
+   "e": "WCAG."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Veb-sahifaga xarita joylashtirish uchun odatda qaysi teg ishlatiladi?",
+   "a": [
+    "<iframe>",
+    "<map-img>",
+    "<embed-map>",
+    "<location>"
+   ],
+   "e": "Masalan, Google Maps."
+  },
+  {
+   "b": "Veb-dizayn, UX/UI va freymvorklar",
+   "q": "Ranglar uyg'unligini tanlash uchun dizaynda nima ishlatiladi?",
+   "a": [
+    "Rang g'ildiragi",
+    "Faqat bitta qora rang",
+    "Tasodifiy ranglar",
+    "Ranglar ishlatilmaydi"
+   ],
+   "e": "Komplementar, analog ranglar."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(typeof \"salom\"); natijasi nima?",
+   "a": [
+    "string",
+    "text",
+    "char",
+    "object"
+   ],
+   "e": "Satr turi."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(typeof 42); natijasi nima?",
+   "a": [
+    "number",
+    "integer",
+    "int",
+    "digit"
+   ],
+   "e": "JS da bitta son turi."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log([1, 2, 3].length); natijasi nima?",
+   "a": [
+    "3",
+    "2",
+    "4",
+    "undefined"
+   ],
+   "e": "Elementlar soni."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(10 % 3); natijasi nima?",
+   "a": [
+    "1",
+    "3",
+    "3.33",
+    "0"
+   ],
+   "e": "Qoldiq."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(2 ** 3); natijasi nima?",
+   "a": [
+    "8",
+    "6",
+    "9",
+    "5"
+   ],
+   "e": "Daraja."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(Boolean(0)); natijasi nima?",
+   "a": [
+    "false",
+    "true",
+    "0",
+    "undefined"
+   ],
+   "e": "Falsy qiymat."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(Boolean(\"0\")); natijasi nima?",
+   "a": [
+    "true",
+    "false",
+    "0",
+    "NaN"
+   ],
+   "e": "Bo'sh bo'lmagan satr — truthy."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log([1, 2, 3].map(x => x * 2)); natijasi nima?",
+   "a": [
+    "[2, 4, 6]",
+    "[1, 2, 3]",
+    "[1, 4, 9]",
+    "12"
+   ],
+   "e": "Har bir element 2 ga ko'paytiriladi."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log([5, 1, 10].sort()); natijasi nima?",
+   "a": [
+    "[1, 10, 5]",
+    "[1, 5, 10]",
+    "[10, 5, 1]",
+    "[5, 1, 10]"
+   ],
+   "e": "Satr sifatida tartiblanadi."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(\"abc\".toUpperCase()); natijasi nima?",
+   "a": [
+    "ABC",
+    "abc",
+    "Abc",
+    "aBC"
+   ],
+   "e": "Katta harflar."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(\"salom\".length); natijasi nima?",
+   "a": [
+    "5",
+    "4",
+    "6",
+    "undefined"
+   ],
+   "e": "Belgilar soni."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "let a = 5; a += 3; console.log(a); natijasi nima?",
+   "a": [
+    "8",
+    "5",
+    "3",
+    "53"
+   ],
+   "e": "Qisqartirilgan operator."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(null == undefined); natijasi nima?",
+   "a": [
+    "true",
+    "false",
+    "null",
+    "TypeError"
+   ],
+   "e": "Yumshoq tenglik."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(null === undefined); natijasi nima?",
+   "a": [
+    "false",
+    "true",
+    "null",
+    "undefined"
+   ],
+   "e": "Turi farqli."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(parseInt(\"42px\")); natijasi nima?",
+   "a": [
+    "42",
+    "NaN",
+    "\"42\"",
+    "0"
+   ],
+   "e": "Boshidagi raqam o'qiladi."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(Math.max(3, 7, 2)); natijasi nima?",
+   "a": [
+    "7",
+    "3",
+    "2",
+    "12"
+   ],
+   "e": "Eng katta."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "console.log(Math.round(4.5)); natijasi nima?",
+   "a": [
+    "5",
+    "4",
+    "4.5",
+    "6"
+   ],
+   "e": "Yaxlitlash."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "PHP: echo 7 . 3; natijasi nima?",
+   "a": [
+    "73",
+    "10",
+    "4",
+    "21"
+   ],
+   "e": "Nuqta — birlashtirish."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "PHP: echo strlen(\"Toshkent\"); natijasi nima?",
+   "a": [
+    "8",
+    "7",
+    "9",
+    "6"
+   ],
+   "e": "Belgilar soni."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "PHP: $x = 10; echo $x / 4; natijasi nima?",
+   "a": [
+    "2.5",
+    "2",
+    "3",
+    "2,5"
+   ],
+   "e": "O'nlik son."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "SQL: SELECT COUNT(*) FROM talabalar; nima qaytaradi?",
+   "a": [
+    "Yozuvlar sonini",
+    "Talabalar ro'yxatini to'liq",
+    "Talabalar ismlarini alifbo tartibida",
+    "Eng yosh talabani"
+   ],
+   "e": "Agregat funksiya."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "HTML: <b>Salom</b> qanday ko'rinadi?",
+   "a": [
+    "Qalin \"Salom\"",
+    "Kursiv \"Salom\"",
+    "Tagiga chizilgan \"Salom\"",
+    "Ko'rinmaydi"
+   ],
+   "e": "Bold."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "CSS: p { color: blue; } nima qiladi?",
+   "a": [
+    "Barcha abzats matnini ko'k qiladi",
+    "Faqat birinchi abzatsni ko'k qiladi",
+    "Abzats fonini ko'k qiladi",
+    "Hech narsa qilmaydi"
+   ],
+   "e": "Teg selektori."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "CSS: .btn:hover { opacity: 0.5; } qachon ishlaydi?",
+   "a": [
+    "Sichqoncha .btn ustiga kelganda",
+    "Sahifa yuklanganda",
+    ".btn bosilgandan keyin doim",
+    "Forma yuborilganda"
+   ],
+   "e": "Psevdo-sinf."
+  },
+  {
+   "b": "Kod natijasini aniqlash",
+   "q": "JS: let s = 0; for (let i = 1; i <= 4; i++) s += i; console.log(s); natijasi nima?",
+   "a": [
+    "10",
+    "4",
+    "9",
+    "15"
+   ],
+   "e": "1+2+3+4."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "<span> va <div> o'rtasidagi asosiy farq nima?",
+   "a": [
+    "<span> qatorli, <div> blokli element",
+    "<span> blokli, <div> qatorli element",
+    "Ikkalasi ham faqat rasm uchun",
+    "Ular o'rtasida farq yo'q"
+   ],
+   "e": "Inline vs block."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "<strong> tegining <b> tegidan farqi nima?",
+   "a": [
+    "Semantik muhimlikni bildiradi",
+    "<strong> matnni kursiv qiladi",
+    "<b> semantik, <strong> faqat bezak",
+    "Ular butunlay bir xil"
+   ],
+   "e": "Ekran o'quvchilar uchun."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "<label> tegining for atributi nima uchun kerak?",
+   "a": [
+    "Yorliqni input bilan bog'lash",
+    "Matn rangini belgilash",
+    "Sikl yaratish",
+    "Rasm qo'yish"
+   ],
+   "e": "id ga mos."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "Forma maydonini majburiy qilish uchun qaysi atribut ishlatiladi?",
+   "a": [
+    "required",
+    "needed",
+    "must",
+    "mandatory"
+   ],
+   "e": "HTML5 validatsiya."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "Elektron pochta kiritish maydoni qanday yaratiladi?",
+   "a": [
+    "<input type=\"email\">",
+    "<input type=\"mail\">",
+    "<email>",
+    "<input type=\"text-email\">"
+   ],
+   "e": "Avtomatik tekshirish."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "Placeholder atributi nima qiladi?",
+   "a": [
+    "Ko'rsatma matni ko'rsatadi",
+    "Maydon qiymatini o'chiradi",
+    "Maydonni yashiradi",
+    "Maydonni majburiy qiladi"
+   ],
+   "e": "Kiritilgunga qadar."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "<meta name=\"viewport\"> tegi nima uchun kerak?",
+   "a": [
+    "Mobil masshtab uchun",
+    "Sahifa sarlavhasi uchun",
+    "Shrift ulash uchun",
+    "Rasmni yuklash uchun"
+   ],
+   "e": "Responsive."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "HTML izohi qanday yoziladi?",
+   "a": [
+    "<!-- izoh -->",
+    "// izoh (bitta qator)",
+    "/* izoh */ (ko'p qator)",
+    "# izoh (xesh bilan)"
+   ],
+   "e": "Brauzerda ko'rinmaydi."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "Audio qo'shish uchun HTML5 tegi qaysi?",
+   "a": [
+    "<audio>",
+    "<sound>",
+    "<music>",
+    "<mp3>"
+   ],
+   "e": "controls atributi."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "<canvas> tegi nima uchun ishlatiladi?",
+   "a": [
+    "JS bilan chizish uchun",
+    "Matn yozish uchun",
+    "Jadval yaratish uchun",
+    "Forma yaratish uchun"
+   ],
+   "e": "2D/3D grafika."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "SVG qanday grafika?",
+   "a": [
+    "Vektor grafika",
+    "Rastr (pikselli) grafika",
+    "Video fayl formati",
+    "Audio fayl formati"
+   ],
+   "e": "Masshtablanadi."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "CSS da z-index xossasi nimani boshqaradi?",
+   "a": [
+    "Ustma-ust tartibni",
+    "Elementlar kengligini",
+    "Matn rangini",
+    "Shrift turini"
+   ],
+   "e": "Pozitsiyalangan elementlarda."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "overflow: hidden nima qiladi?",
+   "a": [
+    "Sig'magan kontentni yashiradi",
+    "Kontentni kattalashtiradi",
+    "Aylantirish chizig'ini doim ko'rsatadi",
+    "Elementni o'chiradi"
+   ],
+   "e": "Kesib tashlaydi."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "CSS da transition xossasi nima uchun?",
+   "a": [
+    "Silliq o'zgarish",
+    "Elementni o'chirish",
+    "Faylni import qilish",
+    "Sahifani yangilash"
+   ],
+   "e": "Animatsiya effekti."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "CSS o'zgaruvchisi (custom property) qanday e'lon qilinadi?",
+   "a": [
+    "--asosiy-rang: blue;",
+    "$asosiy-rang: blue;",
+    "@asosiy-rang: blue;",
+    "var asosiy-rang = blue;"
+   ],
+   "e": "var(--asosiy-rang)."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "text-align: center nima qiladi?",
+   "a": [
+    "Matnni markazga tekislaydi",
+    "Elementni vertikal markazlaydi",
+    "Matnni qalin qiladi",
+    "Matnni yashiradi"
+   ],
+   "e": "Gorizontal."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "border-radius xossasi nima qiladi?",
+   "a": [
+    "Burchaklarni yumaloqlaydi",
+    "Chegara rangini belgilaydi",
+    "Chegara qalinligini belgilaydi",
+    "Elementni aylantiradi"
+   ],
+   "e": "50% — doira."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "CSS da \"inline\" uslub qanday yoziladi?",
+   "a": [
+    "style atributi ichida",
+    "Alohida .css faylda",
+    "<head> dagi <style> ichida faqat",
+    "JavaScript faylida"
+   ],
+   "e": "Eng yuqori spetsifiklik."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "Ichki (internal) CSS qayerda yoziladi?",
+   "a": [
+    "<style> tegida",
+    "style atributida",
+    "Alohida faylda",
+    "<body> oxirida <css> tegida"
+   ],
+   "e": "Bir sahifa uchun."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "Kaskadlik (cascading) tamoyili nimani bildiradi?",
+   "a": [
+    "Ustuvorlik bo'yicha qo'llanish",
+    "Faqat birinchi qoida ishlashini",
+    "Qoidalar umuman ishlamasligini",
+    "Faqat oxirgi fayl ishlashini"
+   ],
+   "e": "Spetsifiklik va tartib."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "Vertikal va gorizontal markazlashning eng sodda usuli qaysi?",
+   "a": [
+    "display: flex bilan markazlash",
+    "text-align: center; xolos",
+    "float: center;",
+    "margin: center auto;"
+   ],
+   "e": "Flexbox."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "vw birligi nimani anglatadi?",
+   "a": [
+    "Oyna kengligining 1%",
+    "Ota element kengligining 1%",
+    "1 piksel",
+    "Shrift o'lchami"
+   ],
+   "e": "Viewport width."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "Psevdo-element ::before nima qiladi?",
+   "a": [
+    "Oldidan kontent qo'shadi",
+    "Elementni o'chiradi",
+    "Elementni yashiradi",
+    "Ota elementni tanlaydi"
+   ],
+   "e": "content xossasi bilan."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "CSS da :nth-child(2) nimani tanlaydi?",
+   "a": [
+    "Ikkinchi bola elementni",
+    "Ikkinchi ota elementni",
+    "Barcha juft elementlarni",
+    "Oxirgi elementni"
+   ],
+   "e": "Struktur psevdo-sinf."
+  },
+  {
+   "b": "HTML va CSS (kengaytirilgan)",
+   "q": "Brauzerlarning standart uslublarini nollash uchun nima ishlatiladi?",
+   "a": [
+    "CSS reset",
+    "JavaScript sikli",
+    "PHP funksiyasi",
+    "SQL so'rovi"
+   ],
+   "e": "Bir xil ko'rinish."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "JavaScriptda \"hoisting\" nima?",
+   "a": [
+    "E'lonlarning ko'tarilishi",
+    "Kodning siqilishi va qisqarishi",
+    "Xatolarning avtomatik tuzatilishi",
+    "Funksiyalarning o'chirilishi"
+   ],
+   "e": "var va funksiya e'lonlari."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Closure (yopilish) nima?",
+   "a": [
+    "Tashqi o'zgaruvchini eslovchi funksiya",
+    "Brauzer oynasini yopuvchi funksiya",
+    "Faylni yopuvchi metod",
+    "Siklni to'xtatuvchi operator"
+   ],
+   "e": "Leksik muhit."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Promise ning holatlari qaysilar?",
+   "a": [
+    "pending, fulfilled, rejected",
+    "start, stop, pause",
+    "open, close, wait",
+    "true, false, null"
+   ],
+   "e": "Asinxronlik."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Xatolarni ushlash uchun qaysi konstruksiya ishlatiladi?",
+   "a": [
+    "try...catch",
+    "if...else",
+    "for...in",
+    "switch...case"
+   ],
+   "e": "finally ham bor."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Destrukturizatsiyaga misol qaysi?",
+   "a": [
+    "const {a, b} = obj;",
+    "const a = obj + b;",
+    "const obj = a, b;",
+    "var {obj} = a.b;"
+   ],
+   "e": "ES6."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Spread operatori qanday yoziladi?",
+   "a": [
+    "...",
+    "**",
+    "=>",
+    "::"
+   ],
+   "e": "[...arr]."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Template literal qanday belgilar bilan yoziladi?",
+   "a": [
+    "Teskari qo'shtirnoq (`)",
+    "Oddiy qo'shtirnoq (\")",
+    "Bittalik qo'shtirnoq (')",
+    "Kvadrat qavs ([ ])"
+   ],
+   "e": "`Salom ${ism}`."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Event bubbling nima?",
+   "a": [
+    "Ichkidan tashqariga tarqalish",
+    "Hodisaning butunlay to'xtashi",
+    "Hodisaning faqat ota elementda bo'lishi",
+    "Hodisaning ikki marta bajarilishi"
+   ],
+   "e": "stopPropagation()."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "preventDefault() metodi nima qiladi?",
+   "a": [
+    "Standart harakatni bekor qiladi",
+    "Hodisani ikki marta bajaradi",
+    "Sahifani yangilaydi",
+    "Elementni o'chiradi"
+   ],
+   "e": "Masalan, forma yuborilishini."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "querySelectorAll() nima qaytaradi?",
+   "a": [
+    "Elementlar to'plamini",
+    "Faqat birinchi elementni",
+    "Faqat elementlar sonini",
+    "Hech narsa qaytarmaydi"
+   ],
+   "e": "forEach mumkin."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "classList.toggle(\"active\") nima qiladi?",
+   "a": [
+    "Sinfni almashtiradi",
+    "Sinfni har doim qo'shadi",
+    "Sinfni har doim o'chiradi",
+    "Elementni yashiradi"
+   ],
+   "e": "Almashtirish."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "setInterval funksiyasi nima qiladi?",
+   "a": [
+    "Muntazam takrorlaydi",
+    "Funksiyani bir marta bajaradi",
+    "Sahifani yopadi",
+    "Vaqtni to'xtatadi"
+   ],
+   "e": "clearInterval bilan to'xtatiladi."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Ob'ekt kalitlari ro'yxatini qaytaruvchi metod qaysi?",
+   "a": [
+    "Object.keys()",
+    "Object.values()",
+    "Object.length()",
+    "Object.list()"
+   ],
+   "e": "Massiv qaytaradi."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "reduce() metodi nima uchun ishlatiladi?",
+   "a": [
+    "Bitta qiymatga keltirish",
+    "Massivni teskari aylantirish",
+    "Massivga element qo'shish",
+    "Massivni saralash"
+   ],
+   "e": "Masalan, yig'indi."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Massivni teskari tartibga keltiruvchi metod qaysi?",
+   "a": [
+    "reverse()",
+    "sort()",
+    "reduce()",
+    "shift()"
+   ],
+   "e": "Asl massivni o'zgartiradi."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Satrni bo'laklarga ajratib massivga aylantiruvchi metod qaysi?",
+   "a": [
+    "split()",
+    "join()",
+    "slice()",
+    "concat()"
+   ],
+   "e": "join — teskarisi."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Massivda element borligini tekshiruvchi metod qaysi?",
+   "a": [
+    "includes()",
+    "contains()",
+    "has()",
+    "exists()"
+   ],
+   "e": "true/false."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "JavaScript bir oqimlimi (single-threaded)?",
+   "a": [
+    "Ha, event loop bilan",
+    "Yo'q, har doim ko'p oqimli",
+    "Faqat serverda bir oqimli",
+    "Oqim tushunchasi yo'q"
+   ],
+   "e": "Asinxronlik event loop orqali."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Modulni import qilish sintaksisi qaysi (ES6)?",
+   "a": [
+    "import { f } from \"./modul.js\";",
+    "include \"modul.js\";",
+    "require modul.js;",
+    "using modul;"
+   ],
+   "e": "export bilan."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "\"use strict\" nima qiladi?",
+   "a": [
+    "Qat'iy rejim",
+    "Kodni tezlashtiradi",
+    "Xatolarni yashiradi",
+    "Kodni shifrlaydi"
+   ],
+   "e": "Xavfli amallarni cheklaydi."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "class kalit so'zi JavaScriptda nima uchun?",
+   "a": [
+    "Sinf yaratish",
+    "CSS sinfini qo'shish",
+    "Forma yaratish",
+    "Massiv yaratish"
+   ],
+   "e": "ES6 sintaksisi."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Ob'ektni chuqur nusxalashning zamonaviy usuli qaysi?",
+   "a": [
+    "structuredClone(obj)",
+    "obj = obj",
+    "copy(obj)",
+    "obj.clone() har doim"
+   ],
+   "e": "Yoki JSON usuli."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Brauzerda sahifani boshqa manzilga yo'naltirish qanday?",
+   "a": [
+    "window.location.href = \"url\"",
+    "document.redirect(\"url\")",
+    "window.go(\"url\")",
+    "page.open(\"url\")"
+   ],
+   "e": "Navigatsiya."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "Web Storage ning sessionStorage dan farqi nima (localStorage)?",
+   "a": [
+    "localStorage saqlanib qoladi",
+    "localStorage har sahifada o'chadi",
+    "sessionStorage hech qachon o'chmaydi",
+    "Ular o'rtasida farq yo'q"
+   ],
+   "e": "sessionStorage — yorliq yopilguncha."
+  },
+  {
+   "b": "JavaScript (kengaytirilgan)",
+   "q": "CORS nima?",
+   "a": [
+    "Domenlararo so'rov mexanizmi",
+    "CSS freymvorki",
+    "Ma'lumotlar bazasi",
+    "Rasm formati"
+   ],
+   "e": "Cross-Origin Resource Sharing."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Domen nomi qanday qismlardan iborat?",
+   "a": [
+    "Nom va zona (.uz)",
+    "Faqat IP-manzil",
+    "Port raqami",
+    "Fayl nomi"
+   ],
+   "e": "example.uz."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "URL dagi \"https://\" qismi nimani bildiradi?",
+   "a": [
+    "Protokolni",
+    "Domen nomini",
+    "Fayl yo'lini",
+    "Port raqamini"
+   ],
+   "e": "Sxema."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "SSL/TLS sertifikati nima uchun kerak?",
+   "a": [
+    "Ulanishni shifrlash",
+    "Sayt dizaynini chiroyli qilish",
+    "Sayt tezligini 10 barobar oshirish",
+    "Domen nomini bepul qilish"
+   ],
+   "e": "HTTPS."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "FTP protokoli nima uchun ishlatiladi?",
+   "a": [
+    "Fayl uzatish",
+    "Elektron pochta yuborish",
+    "Veb-sahifani ko'rish",
+    "Videoqo'ng'iroq"
+   ],
+   "e": "File Transfer Protocol."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Brauzer keshi nima uchun kerak?",
+   "a": [
+    "Qayta yuklamaslik uchun",
+    "Parollarni o'g'irlash uchun",
+    "Virus tarqatish uchun",
+    "Ekranni yorqin qilish uchun"
+   ],
+   "e": "Tezlik."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "CDN nima?",
+   "a": [
+    "Kontent yetkazish tarmog'i",
+    "Ma'lumotlar bazasi turi",
+    "Dasturlash tili",
+    "Rasm muharriri"
+   ],
+   "e": "Content Delivery Network."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Veb-serverga misol qaysi?",
+   "a": [
+    "Apache, Nginx",
+    "MySQL, PostgreSQL",
+    "Photoshop, Figma",
+    "Word, Excel"
+   ],
+   "e": "HTTP so'rovlarni qayta ishlaydi."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Brauzerning \"Developer Tools\" (F12) nima uchun ishlatiladi?",
+   "a": [
+    "Kodni tekshirish",
+    "Sahifani chop etish",
+    "Brauzerni o'chirish",
+    "Antivirus tekshiruvi"
+   ],
+   "e": "Elements, Console, Network."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "robots.txt fayli nima uchun kerak?",
+   "a": [
+    "Botlarga ko'rsatma",
+    "Sayt dizaynini saqlash",
+    "Parollarni saqlash",
+    "Rasmlarni siqish"
+   ],
+   "e": "SEO."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "sitemap.xml nima uchun kerak?",
+   "a": [
+    "Sayt tuzilmasini ko'rsatish",
+    "Sayt rangini belgilash",
+    "Foydalanuvchi parollarini saqlash",
+    "Video joylashtirish"
+   ],
+   "e": "Indekslash."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Sayt xavfsizligini oshirish usuli qaysi?",
+   "a": [
+    "Yangilash va kuchli parol",
+    "Parollarni ochiq saqlash",
+    "Yangilanishlarni o'chirish",
+    "HTTPS dan voz kechish"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Zaxira nusxa (backup) sayt uchun nima uchun kerak?",
+   "a": [
+    "Tiklash uchun",
+    "Sayt tezligini oshirish uchun",
+    "Dizaynni o'zgartirish uchun",
+    "Reklama qo'shish uchun"
+   ],
+   "e": "Muntazam."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Google Analytics nima uchun ishlatiladi?",
+   "a": [
+    "Tashrifni tahlil qilish",
+    "Sayt dizaynini chizish",
+    "Kod yozish",
+    "Domen sotib olish"
+   ],
+   "e": "Statistika."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "DDoS hujumi nima?",
+   "a": [
+    "Serverni yuklab to'xtatish",
+    "Parolni taxmin qilish",
+    "Saytga rasm qo'yish",
+    "Kodni optimallashtirish"
+   ],
+   "e": "Xizmatni to'xtatish."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Captcha nima uchun ishlatiladi?",
+   "a": [
+    "Robotni farqlash",
+    "Sayt tezligini oshirish",
+    "Rasmlarni siqish",
+    "Shriftni o'zgartirish"
+   ],
+   "e": "Spamga qarshi."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Ikki bosqichli autentifikatsiya veb-ilovada nima beradi?",
+   "a": [
+    "Qo'shimcha himoya",
+    "Kirishni soddalashtiradi",
+    "Parolni bekor qiladi",
+    "Saytni tezlashtiradi"
+   ],
+   "e": "2FA."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "JWT nima?",
+   "a": [
+    "JSON token",
+    "CSS freymvorki",
+    "Rasm formati",
+    "Ma'lumotlar bazasi turi"
+   ],
+   "e": "JSON Web Token."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Veb-sahifa elementlarini HTML da semantik joylashtirishning afzalligi nima?",
+   "a": [
+    "SEO yaxshilanadi",
+    "Sahifa sekinlashadi",
+    "Kod ko'payadi xolos",
+    "Hech qanday afzalligi yo'q"
+   ],
+   "e": "Accessibility."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Lighthouse vositasi nimani baholaydi?",
+   "a": [
+    "Samaradorlik va SEO",
+    "Faqat rasm o'lchamini",
+    "Faqat parollarni",
+    "Faqat domen narxini"
+   ],
+   "e": "Chrome DevTools."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Veb-sahifa yuklanishini kechiktiruvchi omil qaysi?",
+   "a": [
+    "Katta rasmlar",
+    "Siqilgan kod",
+    "Kesh ishlatish",
+    "CDN ishlatish"
+   ],
+   "e": "Performance."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Lazy loading nima?",
+   "a": [
+    "Kechiktirib yuklash",
+    "Barcha rasmlarni birdan yuklash",
+    "Sahifani yuklamaslik",
+    "Kodni o'chirish"
+   ],
+   "e": "loading=\"lazy\"."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "Veb-ilovada \"API\" nima?",
+   "a": [
+    "Dasturlararo interfeys",
+    "Rasm formati",
+    "Brauzer turi",
+    "Shrift turi"
+   ],
+   "e": "Application Programming Interface."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "GitHub nima?",
+   "a": [
+    "Repozitoriy xostingi",
+    "Matn muharriri",
+    "Ma'lumotlar bazasi",
+    "Veb-brauzer"
+   ],
+   "e": "Hamkorlikda ishlash."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "git commit buyrug'i nima qiladi?",
+   "a": [
+    "Versiya yaratadi",
+    "Repozitoriyni o'chiradi",
+    "Faylni internetga yuklaydi har doim",
+    "Kodni ishga tushiradi"
+   ],
+   "e": "Lokal tarix."
+  },
+  {
+   "b": "Tarmoq, domen, hosting va sayt ekspluatatsiyasi",
+   "q": "git push buyrug'i nima qiladi?",
+   "a": [
+    "O'zgarishlarni yuboradi",
+    "Masofaviy o'zgarishlarni yuklab oladi",
+    "Faylni o'chiradi",
+    "Yangi tarmoq yaratadi"
+   ],
+   "e": "pull — teskarisi."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Brauzerda HTML kodini ko'rish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": [
+    "Ctrl+U",
+    "Ctrl+S",
+    "Ctrl+P",
+    "Ctrl+Z"
+   ],
+   "e": "View source."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Sahifani majburan qayta yuklash (keshsiz) birikmasi qaysi?",
+   "a": [
+    "Ctrl+F5",
+    "Ctrl+C",
+    "Alt+F4",
+    "Ctrl+A"
+   ],
+   "e": "Hard reload."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "HTML da <iframe> nima uchun ishlatiladi?",
+   "a": [
+    "Sahifani ichiga joylash",
+    "Jadval yaratish",
+    "Ro'yxat yaratish",
+    "Forma yaratish"
+   ],
+   "e": "Inline frame."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "<tbody> tegi nimani bildiradi?",
+   "a": [
+    "Jadval tanasi",
+    "Jadval sarlavhasi",
+    "Jadval izohi",
+    "Jadval chegarasi"
+   ],
+   "e": "thead, tfoot."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "<th> tegi nimani bildiradi?",
+   "a": [
+    "Jadval sarlavha katagi",
+    "Jadval qatori",
+    "Jadval tanasi",
+    "Jadval izohi"
+   ],
+   "e": "Qalin va markazda."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "<input type=\"checkbox\"> nima yaratadi?",
+   "a": [
+    "Belgilash katagi",
+    "Radio tugma",
+    "Matn maydoni",
+    "Ochiladigan ro'yxat"
+   ],
+   "e": "Bir nechtasini tanlash."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Radio tugmalar guruhida bir vaqtda nechta variant tanlanadi?",
+   "a": [
+    "Bitta",
+    "Istalgancha",
+    "Ikkita",
+    "Hech qaysi"
+   ],
+   "e": "name bir xil."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "<button type=\"submit\"> nima qiladi?",
+   "a": [
+    "Formani yuboradi",
+    "Formani tozalaydi",
+    "Sahifani yopadi",
+    "Rasmni yuklaydi"
+   ],
+   "e": "reset — tozalaydi."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Tarmoq (network) so'rovlarini kuzatish DevTools ning qaysi bo'limida?",
+   "a": [
+    "Network",
+    "Elements",
+    "Console",
+    "Sources"
+   ],
+   "e": "So'rovlar va javoblar."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Veb-sahifani turli brauzerlarda bir xil ishlashi qanday ataladi?",
+   "a": [
+    "Kross-brauzer moslik",
+    "SEO optimizatsiya",
+    "Responsive dizayn",
+    "Minifikatsiya"
+   ],
+   "e": "Cross-browser."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Minifikatsiya nima?",
+   "a": [
+    "Ortiqcha bo'shliqlarni olish",
+    "Kodga izoh qo'shish",
+    "Kodni uzaytirish",
+    "Kodni rangli qilish"
+   ],
+   "e": "Hajmni kamaytirish."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Web hosting tarifini tanlashda nimaga e'tibor beriladi?",
+   "a": [
+    "Hajm, trafik, ishonchlilik",
+    "Faqat logotip rangi",
+    "Faqat ofis manzili",
+    "Faqat reklama banneri"
+   ],
+   "e": "Talablarga mos."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Statik sayt dinamik saytdan nimasi bilan farq qiladi?",
+   "a": [
+    "Kontenti serverda o'zgarmaydi",
+    "Har doim ma'lumotlar bazasidan foydalanadi",
+    "Faqat PHP bilan ishlaydi",
+    "Foydalanuvchi har safar boshqacha ko'radi"
+   ],
+   "e": "HTML fayllar."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Dinamik saytga misol qaysi?",
+   "a": [
+    "Internet-do'kon",
+    "Bitta sahifali vizitka",
+    "Oddiy rezyume sahifasi",
+    "Statik e'lon sahifasi"
+   ],
+   "e": "Server mantiq va baza."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Veb-ilovada \"frontend\" va \"backend\" o'rtasida ma'lumot qanday formatda ko'p uzatiladi?",
+   "a": [
+    "JSON",
+    "DOCX",
+    "MP3",
+    "PSD"
+   ],
+   "e": "API orqali."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Kompyuterda lokal server manzili qanday?",
+   "a": [
+    "localhost",
+    "8.8.8.8",
+    "255.255.255.255",
+    "192.0.2.255"
+   ],
+   "e": "Lokal test."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Veb-sahifada shriftni ulash uchun qaysi xizmat ko'p ishlatiladi?",
+   "a": [
+    "Google Fonts",
+    "Google Maps",
+    "Google Drive",
+    "Google Translate"
+   ],
+   "e": "@import yoki <link>."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Web-sahifaga ikonka (belgi) qo'shish uchun mashhur kutubxona qaysi?",
+   "a": [
+    "Font Awesome",
+    "Bootstrap Grid",
+    "jQuery UI",
+    "Node.js"
+   ],
+   "e": "Ikonka shriftlari."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "JavaScriptda alert() funksiyasi nima qiladi?",
+   "a": [
+    "Ogohlantirish ko'rsatadi",
+    "Ma'lumotni serverga yuboradi",
+    "Sahifani yopadi",
+    "Faylni saqlaydi"
+   ],
+   "e": "Modal oyna."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "prompt() funksiyasi nima qaytaradi?",
+   "a": [
+    "Kiritilgan matnni",
+    "Faqat true yoki false",
+    "Faqat raqamni",
+    "Hech narsa qaytarmaydi"
+   ],
+   "e": "Satr yoki null."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "confirm() funksiyasi nima qaytaradi?",
+   "a": [
+    "true yoki false",
+    "Kiritilgan matnni",
+    "Raqamni",
+    "Massivni"
+   ],
+   "e": "OK/Bekor."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Veb-sahifada oqim (flow) dan elementni chiqaruvchi CSS xossasi qaysi?",
+   "a": [
+    "position: absolute",
+    "position: static",
+    "display: block",
+    "margin: 0"
+   ],
+   "e": "Oqimdan chiqadi."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "CSS da float xossasi nima uchun ishlatilgan?",
+   "a": [
+    "Chapga yoki o'ngga suzdirish",
+    "Elementni aylantirish",
+    "Elementni yashirish",
+    "Matnni qalin qilish"
+   ],
+   "e": "Hozir flex/grid afzal."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Veb-sahifada matnni kursiv qilish uchun qaysi CSS?",
+   "a": [
+    "font-style: italic",
+    "font-weight: italic",
+    "text-style: italic",
+    "font: oblique-bold"
+   ],
+   "e": "Kursiv."
+  },
+  {
+   "b": "Aralash savollar",
+   "q": "Veb-saytni yaratishning birinchi bosqichi odatda qaysi?",
+   "a": [
+    "Talablarni aniqlash",
+    "Kod yozishni darhol boshlash",
+    "Hostingni sotib olish",
+    "Reklama berish"
+   ],
+   "e": "Rejalashtirish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "HTML da ichma-ich ro'yxat qanday yaratiladi?",
+   "a": [
+    "<li> ichiga yangi ro'yxat",
+    "<ul> ni <table> ichiga qo'yib",
+    "<li> ni <head> ichiga qo'yib",
+    "Ichma-ich ro'yxat yaratib bo'lmaydi"
+   ],
+   "e": "Ko'p darajali menyu."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "<nav> tegi nima uchun ishlatiladi?",
+   "a": [
+    "Navigatsiya uchun",
+    "Rasm qo'yish uchun",
+    "Jadval uchun",
+    "Video uchun"
+   ],
+   "e": "Semantik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "<footer> tegi odatda nimani o'z ichiga oladi?",
+   "a": [
+    "Pastki qism ma'lumotini",
+    "Sahifa sarlavhasini",
+    "Asosiy maqolani",
+    "Sahifa uslublarini"
+   ],
+   "e": "Mualliflik, kontaktlar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "<section> tegining vazifasi nima?",
+   "a": [
+    "Bo'limni ajratish",
+    "Rasm qo'yish",
+    "Ro'yxat yaratish",
+    "Skript ulash"
+   ],
+   "e": "Semantik bo'lim."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Skriptni sahifa yuklangandan keyin bajarish uchun <script> ga qaysi atribut qo'shiladi?",
+   "a": [
+    "defer",
+    "async har doim",
+    "delay",
+    "wait"
+   ],
+   "e": "Tartib saqlanadi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "CSS da \"cascade\" ning oxirgi tartib qoidasi nima?",
+   "a": [
+    "Keyingi qoida ustun",
+    "Birinchi qoida doim ustun",
+    "Qoida tartibi ahamiyatsiz",
+    "Faqat inline ishlaydi"
+   ],
+   "e": "Manba tartibi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "CSS da 1em nimaga teng?",
+   "a": [
+    "Joriy shrift o'lchamiga",
+    "Har doim 16 pikselga",
+    "Ekran kengligiga",
+    "Ildiz elementga har doim"
+   ],
+   "e": "Nisbiy."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Flexboxda elementlarning keyingi qatorga o'tishi qaysi xossa bilan?",
+   "a": [
+    "flex-wrap: wrap",
+    "flex-direction: row",
+    "justify-content: wrap",
+    "align-items: wrap"
+   ],
+   "e": "Ko'p qatorli."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Grid tarmog'ida ustunlarni belgilovchi xossa qaysi?",
+   "a": [
+    "grid-template-columns",
+    "grid-rows",
+    "column-count",
+    "flex-columns"
+   ],
+   "e": "Masalan, 1fr 1fr."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "fr birligi CSS Grid da nimani bildiradi?",
+   "a": [
+    "Joy ulushini",
+    "Pikselni",
+    "Foizni har doim",
+    "Shrift o'lchamini"
+   ],
+   "e": "Fraction."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "JavaScriptda massivning oxirgi elementini olib tashlovchi metod qaysi?",
+   "a": [
+    "pop()",
+    "push()",
+    "shift()",
+    "unshift()"
+   ],
+   "e": "Qaytaradi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Massiv boshiga element qo'shuvchi metod qaysi?",
+   "a": [
+    "unshift()",
+    "push()",
+    "pop()",
+    "shift()"
+   ],
+   "e": "shift — boshidan o'chiradi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Satr ichida qism satrni qidiruvchi metod qaysi?",
+   "a": [
+    "indexOf()",
+    "push()",
+    "map()",
+    "join()"
+   ],
+   "e": "Topilmasa -1."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "JavaScriptda sanani olish uchun qaysi ob'ekt ishlatiladi?",
+   "a": [
+    "Date",
+    "Time",
+    "Clock",
+    "Calendar"
+   ],
+   "e": "new Date()."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Math.random() nima qaytaradi?",
+   "a": [
+    "0–1 oralig'idagi son",
+    "1 dan 100 gacha butun son",
+    "Har doim 0",
+    "Har doim 1"
+   ],
+   "e": "[0, 1)."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "PHP da shartli operator qaysi?",
+   "a": [
+    "if...else",
+    "when...then",
+    "case...of",
+    "check...do"
+   ],
+   "e": "elseif ham."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "PHP da massivni aylanib chiqish uchun qulay sikl qaysi?",
+   "a": [
+    "foreach",
+    "forin",
+    "loop",
+    "repeat"
+   ],
+   "e": "foreach ($a as $v)."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "PHP da sana va vaqtni olish funksiyasi qaysi?",
+   "a": [
+    "date()",
+    "now()",
+    "time_now()",
+    "getDate()"
+   ],
+   "e": "Formatlash bilan."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "SQL da takrorlanmas qiymatlarni tanlash uchun qaysi kalit so'z ishlatiladi?",
+   "a": [
+    "DISTINCT",
+    "UNIQUE ALL",
+    "ONLY",
+    "SINGLE"
+   ],
+   "e": "SELECT DISTINCT."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "SQL da LIKE '%a%' sharti nimani topadi?",
+   "a": [
+    "Ichida \"a\" bor qiymatlarni",
+    "Faqat \"a\" bilan tugaydiganlarni",
+    "Faqat \"a\" bilan boshlanadiganlarni",
+    "Faqat \"a\" ga teng qiymatlarni"
+   ],
+   "e": "% — istalgan belgilar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Veb-dizaynda \"hero\" bo'limi nima?",
+   "a": [
+    "Boshidagi katta blok",
+    "Sahifa oxiridagi kichik matn",
+    "Menyu ichidagi havola",
+    "Forma maydoni"
+   ],
+   "e": "Birinchi taassurot."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Veb-sahifada \"call to action\" (CTA) tugmasi nima uchun?",
+   "a": [
+    "Harakatga undash",
+    "Sahifani yopish",
+    "Kodni ko'rsatish",
+    "Rasmni o'chirish"
+   ],
+   "e": "\"Ro'yxatdan o'tish\"."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Web dasturchining kasbiy etikasiga nima kiradi?",
+   "a": [
+    "Litsenziya va shaxsiy ma'lumot himoyasi",
+    "Boshqalar kodini ruxsatsiz o'zlashtirish",
+    "Foydalanuvchi ma'lumotlarini sotish",
+    "Xatolarni yashirish"
+   ],
+   "e": "Mas'uliyat."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "O'zbekistonda shaxsga doir ma'lumotlarni himoya qilish qaysi qonun bilan tartibga solinadi?",
+   "a": [
+    "\"Shaxsga doir ma'lumotlar to'g'risida\"gi Qonun",
+    "\"Yo'l harakati to'g'risida\"gi Qonun",
+    "\"O'rmon to'g'risida\"gi Qonun",
+    "\"Suv to'g'risida\"gi Qonun"
+   ],
+   "e": "2019-yil."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Veb-saytni sinab ko'rish (testing) nima uchun kerak?",
+   "a": [
+    "Xatolarni oldindan topish",
+    "Saytni sekinlashtirish uchun",
+    "Kodni uzaytirish uchun",
+    "Dizaynni buzish uchun"
+   ],
+   "e": "QA."
+  }
+ ],
+ "kalit": "web veb dasturlash html css javascript php dizayn sayt"
+}

@@ -117,7 +117,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "shaxsiy_kompyuter_arxitekturasi", "dasturlash", "algoritmlar", "malumotlar_bazasi", "kompyuter_tarmoqlari", "kiberxavfsizlik",
         "dasturiy_taminotni_testlash", "iqtisodiyotda_axborot_kommunikatsiya_tex",
         "qishloq_xojaligida_axborot_kommunikatsio", "qurilishda_axborot_texnologiyalari",
-        "texnik_tizimlarda_at", "tibbiyotda_axborot_texnologiyalari", "muhandislik_grafikasi", "raqamli_axborot"]),
+        "texnik_tizimlarda_at", "tibbiyotda_axborot_texnologiyalari", "muhandislik_grafikasi", "raqamli_axborot", "web_dasturlash"]),
     ("muh", "⚙️ Muhandislik va texnika", [
         "amaliy_matematika", "hisob", "mexanika", "texnik_mexanika", "elektrotexnika",
         "konstruksion_materiallar", "metrologiya", "chizma_geometriya", "issiqlik_texnikasi_va_gidroenergetika",
