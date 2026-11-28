@@ -1420,6 +1420,50 @@
   {
    "nomi": "Og'iz bo'shlig'i gigiyenasi",
    "bank": "stomatologiya"
+  },
+  {
+   "nomi": "Bolalar kiyimini konstruksiyalash va modellashtirish",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Bolalar kiyimini konstruksiyalash va modellashtirish texnologiyasi",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Kiyim modellariga ishlov berish texnologiyasi",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Tikuv buyumlarinin loyihalash",
+   "bank": "tikuvchilik"
+  },
+  {
+   "nomi": "Logistika asoslari",
+   "bank": "tashishlarni_tashkil_etish"
+  },
+  {
+   "nomi": "Yuk va tijorat ishlarini boshqarish",
+   "bank": "tashishlarni_tashkil_etish"
+  },
+  {
+   "nomi": "Stantsiya navbatchisi ishini rejalashtirish",
+   "bank": "temir_yollardan_texnik_foydalanish_qoida"
+  },
+  {
+   "nomi": "Lokomotivlarga texnik xizmat ko'rsatish va ta'mirlash",
+   "bank": "temir_yollardan_texnik_foydalanish_qoida"
+  },
+  {
+   "nomi": "Poyezd dispetcheri ishini rejalashtirish",
+   "bank": "temir_yollardan_texnik_foydalanish_qoida"
+  },
+  {
+   "nomi": "Dori turlari texnologiyasi",
+   "bank": "farmatsiya"
+  },
+  {
+   "nomi": "Farmakognoziya va botanika asoslari",
+   "bank": "farmatsiya"
   }
  ],
  "tez_orada": [
@@ -1429,19 +1473,9 @@
    "kat": "til"
   },
   {
-   "id": "t37b45052",
-   "nomi": "Dori turlari texnologiyasi",
-   "kat": "tib"
-  },
-  {
    "id": "t5d322980",
    "nomi": "Geografiya",
    "kat": "um"
-  },
-  {
-   "id": "t48cc10d8",
-   "nomi": "Farmakognoziya va botanika asoslari",
-   "kat": "tib"
   },
   {
    "id": "t126f7167",
@@ -1462,11 +1496,6 @@
    "id": "t2642a21b",
    "nomi": "Neft va gazni qayta ishlash texnologiyasi",
    "kat": "muh"
-  },
-  {
-   "id": "te029e5af",
-   "nomi": "Stantsiya navbatchisi ishini rejalashtirish",
-   "kat": "tr"
   },
   {
    "id": "tc253d12b",
@@ -1524,11 +1553,6 @@
    "kat": "ped"
   },
   {
-   "id": "tc258c83d",
-   "nomi": "Logistika asoslari",
-   "kat": "tr"
-  },
-  {
    "id": "t5557b7eb",
    "nomi": "Hayvonlarni oziqlantirish va zoogigiyena",
    "kat": "tib"
@@ -1539,11 +1563,6 @@
    "kat": "it"
   },
   {
-   "id": "t75ea5927",
-   "nomi": "Bolalar kiyimini konstruksiyalash va modellashtirish",
-   "kat": "xiz"
-  },
-  {
    "id": "t8d7a52d6",
    "nomi": "Dezinfeksiya ishi",
    "kat": "tib"
@@ -1552,11 +1571,6 @@
    "id": "tdbed5796",
    "nomi": "Magistral neft va gaz quvurlarini texnik qarovdan o'tkazish ishlari",
    "kat": "muh"
-  },
-  {
-   "id": "t2f51e2ca",
-   "nomi": "Yuk va tijorat ishlarini boshqarish",
-   "kat": "tr"
   },
   {
    "id": "t3b91dcb4",
@@ -1587,16 +1601,6 @@
    "id": "tdd972dd2",
    "nomi": "Gaz ta'minoti tizimlari",
    "kat": "muh"
-  },
-  {
-   "id": "t8af357a3",
-   "nomi": "Lokomotivlarga texnik xizmat ko'rsatish va ta'mirlash",
-   "kat": "tr"
-  },
-  {
-   "id": "tc1afadb4",
-   "nomi": "Poyezd dispetcheri ishini rejalashtirish",
-   "kat": "tr"
   },
   {
    "id": "t89159f32",
@@ -1637,11 +1641,6 @@
    "id": "tc76681c5",
    "nomi": "Kutubxona fondini shakllantirish hisobga olish va hisobdan chiqarish",
    "kat": "ped"
-  },
-  {
-   "id": "taed57f51",
-   "nomi": "Bolalar kiyimini konstruksiyalash va modellashtirish texnologiyasi",
-   "kat": "xiz"
   },
   {
    "id": "t1a4e95d7",
@@ -1759,11 +1758,6 @@
    "kat": "muh"
   },
   {
-   "id": "t51a2140e",
-   "nomi": "Kiyim modellariga ishlov berish texnologiyasi",
-   "kat": "xiz"
-  },
-  {
    "id": "t72d7664d",
    "nomi": "Itlarni urchitish va ko'paytirish",
    "kat": "qx"
@@ -1807,11 +1801,6 @@
    "id": "tc4e4adf5",
    "nomi": "Burg'ilash quduqlarida geofizik tadqiqot usullari",
    "kat": "muh"
-  },
-  {
-   "id": "t89a21303",
-   "nomi": "Tikuv buyumlarinin loyihalash",
-   "kat": "xiz"
   },
   {
    "id": "t65739c2c",
