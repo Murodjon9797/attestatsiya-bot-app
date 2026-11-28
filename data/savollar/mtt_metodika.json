@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "Maktabgacha ta'lim metodikalari (nutq, matematika, tasviriy, tabiat, STEAM)",
+ "turi": "maxsus",
+ "manba": "Attestatsiya test sinovlariga jalb etiladigan pedagoglar ro'yxatidagi fan; savollar DTS, o'quv dasturlari va darsliklar asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Maktabgacha yoshdagi bolalar tasviriy faoliyatining turlari qaysilar?",
+   "a": [
+    "Rasm, lepka, applikatsiya, qurish",
+    "Faqat musiqa tinglash va raqs tushish",
+    "Faqat kitob o'qish",
+    "Faqat sport o'yinlari"
+   ],
+   "e": "Turlari."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Tasviriy faoliyatning asosiy tarbiyaviy vazifasi nima?",
+   "a": [
+    "Estetik did va ijodkorlik",
+    "Bolalarni faqat jim o'tirishga o'rgatish",
+    "Faqat qo'l kuchini oshirish",
+    "Faqat yozishni o'rgatish"
+   ],
+   "e": "Estetik tarbiya."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Predmetli rasm chizish nima?",
+   "a": [
+    "Alohida narsalarni tasvirlash",
+    "Hikoya yoki voqeani tasvirlash",
+    "Bezak naqshlari chizish",
+    "Faqat bo'yash"
+   ],
+   "e": "Predmetnoe risovanie."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Syujetli rasm chizish nima?",
+   "a": [
+    "Voqea yoki hikoyani tasvirlash",
+    "Faqat bitta narsani tasvirlash",
+    "Faqat naqsh chizish",
+    "Faqat chiziq tortish"
+   ],
+   "e": "Syujetnoe."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Dekorativ rasm chizish nima?",
+   "a": [
+    "Naqsh va bezaklar yaratish",
+    "Faqat odam portretini chizish",
+    "Faqat hayvonlarni chizish",
+    "Faqat tabiat"
+   ],
+   "e": "Dekorativnoe."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Kichik guruh bolalariga rasm uchun qanday qalam tavsiya etiladi?",
+   "a": [
+    "Yo'g'on, rangli qalam va bo'yoq",
+    "Juda ingichka, qattiq grafit qalam",
+    "Faqat ruchka",
+    "Faqat ko'mir"
+   ],
+   "e": "Yosh xususiyati."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Mo'yqalamni to'g'ri ushlash qanday?",
+   "a": [
+    "Uch barmoqda, temirdan yuqorida",
+    "Butun mushtda qattiq siqib",
+    "Faqat ikki barmoq bilan uchidan",
+    "Ahamiyatsiz"
+   ],
+   "e": "Texnika."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Loy ishi (lepka) qaysi ko'nikmani rivojlantiradi?",
+   "a": [
+    "Mayda motorika va hajm hissi",
+    "Faqat ovozni rivojlantirish",
+    "Faqat yugurish",
+    "Faqat o'qish"
+   ],
+   "e": "Lepka."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Lepkada asosiy usullar qaysilar?",
+   "a": [
+    "Yumalatish, cho'zish, yassilash",
+    "Faqat kesish va yopishtirish",
+    "Faqat bo'yash",
+    "Faqat chizish"
+   ],
+   "e": "Priemy."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Applikatsiya nima?",
+   "a": [
+    "Qog'oz shakllarini yopishtirish",
+    "Loydan haykal yasash",
+    "Qalam bilan chizish",
+    "Qo'shiq aytish"
+   ],
+   "e": "Applikatsiya."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Kichik guruhda applikatsiyada bolalar nima qiladi?",
+   "a": [
+    "Tayyor shakllarni yopishtiradi",
+    "Murakkab shakllarni qaychi bilan o'zi kesadi",
+    "Faqat chizadi",
+    "Hech narsa"
+   ],
+   "e": "Yosh xususiyati."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Qaychi bilan ishlash qaysi guruhdan boshlanadi?",
+   "a": [
+    "O'rta guruhdan",
+    "Kichik (ilk yosh) guruhidan",
+    "Faqat maktabda",
+    "Hech qachon"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Konstruksiyalash bolada nimani rivojlantiradi?",
+   "a": [
+    "Fazoviy tasavvur",
+    "Faqat qo'shiq aytish qobiliyatini",
+    "Faqat yugurishni",
+    "Faqat uyquni"
+   ],
+   "e": "Konstruirovanie."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Qurilish materiallaridan konstruksiyalashda nima ishlatiladi?",
+   "a": [
+    "Kubiklar, plastinkalar, silindrlar",
+    "Faqat qog'oz va yelim",
+    "Faqat loy",
+    "Faqat bo'yoq"
+   ],
+   "e": "Material."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Tasviriy mashg'ulotda namuna (obrazets) nima uchun ko'rsatiladi?",
+   "a": [
+    "Vazifani tushunish va texnikani o'rgatish",
+    "Bolalar aynan nusxa ko'chirishlari shart bo'lishi uchun",
+    "Mashg'ulotni tugatish uchun",
+    "Kerak emas"
+   ],
+   "e": "Ko'rgazmalilik."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Bolalar ijodkorligini rivojlantirish uchun tarbiyachi nima qiladi?",
+   "a": [
+    "Tanlash erkinligi va mustaqillik beradi",
+    "Faqat bitta qat'iy namunani talab qiladi",
+    "Bolalar ishini tanqid qiladi",
+    "Mustaqillikni cheklaydi"
+   ],
+   "e": "Ijodkorlik."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Rangtasvirda asosiy ranglar qaysilar?",
+   "a": [
+    "Qizil, sariq, ko'k",
+    "Yashil, binafsha, to'q sariq",
+    "Qora, oq, kulrang",
+    "Jigarrang, pushti"
+   ],
+   "e": "Asosiy ranglar."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Qizil va sariqni aralashtirsak qanday rang hosil bo'ladi?",
+   "a": [
+    "To'q sariq",
+    "Yashil",
+    "Binafsha",
+    "Ko'k"
+   ],
+   "e": "Rang aralashtirish."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Sariq va ko'kni aralashtirsak qanday rang hosil bo'ladi?",
+   "a": [
+    "Yashil",
+    "To'q sariq",
+    "Binafsha",
+    "Qizil"
+   ],
+   "e": "Rang aralashtirish."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Qizil va ko'k aralashmasi qanday rang beradi?",
+   "a": [
+    "Binafsha",
+    "Yashil",
+    "To'q sariq",
+    "Sariq"
+   ],
+   "e": "Rang aralashtirish."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Iliq ranglarga qaysilar kiradi?",
+   "a": [
+    "Qizil, sariq, to'q sariq",
+    "Ko'k, havorang, binafsha",
+    "Kulrang, qora",
+    "Faqat oq"
+   ],
+   "e": "Iliq gamma."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Noan'anaviy rasm texnikalariga misol qaysi?",
+   "a": [
+    "Barmoq, shtamp, nam qog'oz",
+    "Faqat oddiy qalam bilan chiziq tortish",
+    "Faqat ruchkada yozish",
+    "Faqat kompyuterda"
+   ],
+   "e": "Netraditsionnye."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Monotipiya nima?",
+   "a": [
+    "Bo'yoqni qog'ozga ko'chirish",
+    "Loydan ko'p marta bir xil haykal yasash",
+    "Qog'oz kesish",
+    "Kitob o'qish"
+   ],
+   "e": "Monotipiya."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Bolalar rasmlarini tahlil qilishda tarbiyachi nimaga e'tibor qaratadi?",
+   "a": [
+    "Ijobiy jihatlar va yutuqlarga",
+    "Faqat xato va kamchiliklarga",
+    "Faqat rasm narxiga",
+    "Hech narsaga"
+   ],
+   "e": "Rag'batlantirish."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Xalq amaliy san'ati bilan tanishtirishga misol qaysi?",
+   "a": [
+    "Milliy naqsh, kulolchilik",
+    "Faqat chet el multfilmlari",
+    "Faqat zamonaviy reklama",
+    "Hech narsa"
+   ],
+   "e": "Milliy san'at."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Tasviriy faoliyat mashg'uloti davomiyligi katta guruhda qancha?",
+   "a": [
+    "25 daqiqa atrofida",
+    "5 daqiqa",
+    "60 daqiqa",
+    "2 soat"
+   ],
+   "e": "Yosh me'yori."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Tasviriy faoliyat uchun rivojlanish markazida nima bo'lishi kerak?",
+   "a": [
+    "Turli materiallar erkin foydalanishga",
+    "Faqat tarbiyachi uchun qulflangan javon",
+    "Hech narsa",
+    "Faqat bitta qalam"
+   ],
+   "e": "San'at markazi."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Tabiatdan rasm chizishda nima muhim?",
+   "a": [
+    "Shakl va rangni kuzatish",
+    "Ko'zni yumib, xayoldan chizish faqat",
+    "Tez tugatish",
+    "Faqat nusxa ko'chirish"
+   ],
+   "e": "Naturadan chizish."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Bolalar ishlari ko'rgazmasi nima uchun tashkil etiladi?",
+   "a": [
+    "Rag'batlantirish, ota-onani jalb etish",
+    "Bolalarni bir-biri bilan solishtirib tanqid qilish",
+    "Faqat bezak",
+    "Kerak emas"
+   ],
+   "e": "Ko'rgazma."
+  },
+  {
+   "b": "Tasviriy faoliyat metodikasi",
+   "q": "Tasviriy faoliyatda gigiyena talabi qaysi?",
+   "a": [
+    "To'g'ri o'tirish va yorug'lik",
+    "Qorong'i xonada, egilib chizish",
+    "Uzoq vaqt tanaffussiz",
+    "Talab yo'q"
+   ],
+   "e": "Gigiyena."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Nutq o'stirish metodikasining asosiy vazifalari qaysilar?",
+   "a": [
+    "Lug'at, grammatika, tovush, nutq",
+    "Faqat yozish va chiroyli husnixat",
+    "Faqat chet tili o'rgatish",
+    "Faqat qo'shiq aytish"
+   ],
+   "e": "Vazifalar."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Nutqning tovush madaniyatini tarbiyalash nimani o'z ichiga oladi?",
+   "a": [
+    "To'g'ri talaffuz va intonatsiya",
+    "Faqat yozma imlo qoidalarini o'rganish",
+    "Faqat lug'at boyitish",
+    "Faqat she'r yodlash"
+   ],
+   "e": "Zvukovaya kultura."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Lug'at ishining vazifalari qaysilar?",
+   "a": [
+    "Boyitish, aniqlash, faollashtirish",
+    "Faqat so'zlarni yozib olish va ko'chirish",
+    "Faqat chet so'zlarni o'rganish",
+    "Faqat imlo"
+   ],
+   "e": "Slovarnaya rabota."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Faol lug'at nima?",
+   "a": [
+    "Bola nutqida ishlatadigan so'zlar",
+    "Bola tushunadigan, lekin ishlatmaydigan so'zlar",
+    "Lug'at kitobi",
+    "Chet so'zlar"
+   ],
+   "e": "Aktivnyy slovar."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Passiv lug'at nima?",
+   "a": [
+    "Tushunib, ishlatmaydigan so'zlar",
+    "Bola nutqida faol ishlatadigan so'zlar",
+    "Faqat ota-ona so'zlari",
+    "Lug'at kitobi"
+   ],
+   "e": "Passivnyy."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Bog'lanishli nutqning turlari qaysilar?",
+   "a": [
+    "Dialogik va monologik",
+    "Faqat yozma va bosma nutq",
+    "Faqat ichki nutq",
+    "Faqat ishora tili"
+   ],
+   "e": "Svyaznaya rech."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Monologik nutqni rivojlantirishda qaysi ish turi samarali?",
+   "a": [
+    "Hikoya va qayta hikoyalash",
+    "Faqat bir so'zli javoblar berish",
+    "Faqat jim o'tirish",
+    "Faqat yozish"
+   ],
+   "e": "Monolog."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Qayta hikoyalash (pereskaz) nima?",
+   "a": [
+    "Matnni o'z so'zi bilan aytish",
+    "Yangi ertakni o'zi to'qib chiqarish",
+    "She'r yodlash",
+    "Rasm chizish"
+   ],
+   "e": "Pereskaz."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Rasm asosida hikoya tuzish qaysi guruhdan boshlanadi?",
+   "a": [
+    "O'rta guruhdan (kattalar yordamida)",
+    "Ilk yosh (1 yosh) guruhidan mustaqil",
+    "Faqat maktabda",
+    "Hech qachon"
+   ],
+   "e": "Rasskaz po kartine."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Ijodiy hikoya nima?",
+   "a": [
+    "Bola o'zi o'ylab topgan hikoya",
+    "Tarbiyachi so'zini aynan takrorlash",
+    "Kitobdan ko'chirish",
+    "Qo'shiq aytish"
+   ],
+   "e": "Tvorcheskiy rasskaz."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Nutq o'stirishda asosiy metod guruhlari qaysilar?",
+   "a": [
+    "Ko'rgazmali, og'zaki, amaliy",
+    "Faqat jazolash va rag'batlantirish",
+    "Faqat test",
+    "Faqat imtihon"
+   ],
+   "e": "Metodlar."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Didaktik o'yin nutq o'stirishda nima uchun ishlatiladi?",
+   "a": [
+    "O'yin orqali mustahkamlash",
+    "Faqat bolalarni band qilish va charchatish",
+    "Faqat sport uchun",
+    "Kerak emas"
+   ],
+   "e": "Didakticheskaya igra."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Artikulyatsion gimnastika nima uchun kerak?",
+   "a": [
+    "Nutq a'zolarini tayyorlash",
+    "Faqat qo'l mushaklarini rivojlantirish",
+    "Faqat yugurish uchun",
+    "Uyqu uchun"
+   ],
+   "e": "Artikulyatsiya."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Grammatik to'g'ri nutqni shakllantirish nimani o'z ichiga oladi?",
+   "a": [
+    "So'z o'zgarishi va gap tuzish",
+    "Faqat so'zlarni yodlash",
+    "Faqat harf yozish",
+    "Faqat qo'shiq"
+   ],
+   "e": "Grammaticheskiy stroy."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Savod o'rgatishga tayyorlashning asosiy vazifasi nima?",
+   "a": [
+    "Tovush tahlili ko'nikmasi",
+    "Bolani darhol tez o'qishga majburlash",
+    "Faqat yozuv chizish",
+    "Faqat raqam o'rganish"
+   ],
+   "e": "Podgotovka k gramote."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "So'zning tovush tahlili nima?",
+   "a": [
+    "Tovushlarni ketma-ket ajratish",
+    "So'zni chiroyli yozish",
+    "So'zni yodlash",
+    "So'zni rasm bilan bezash"
+   ],
+   "e": "Zvukovoy analiz."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Unli tovushlar sxemada odatda qanday rang bilan belgilanadi?",
+   "a": [
+    "Qizil",
+    "Ko'k",
+    "Yashil",
+    "Qora"
+   ],
+   "e": "Belgilash."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Undosh tovushlar sxemada odatda qanday rang bilan belgilanadi?",
+   "a": [
+    "Ko'k",
+    "Qizil",
+    "Sariq",
+    "Oq"
+   ],
+   "e": "Belgilash."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Bo'g'in nima?",
+   "a": [
+    "Bir unli atrofidagi birlik",
+    "Gapdagi so'zlar soni",
+    "Harf nomi",
+    "Gap turi"
+   ],
+   "e": "Slog."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Badiiy adabiyot bilan tanishtirishning maqsadi nima?",
+   "a": [
+    "Nutq va estetik tuyg'u",
+    "Faqat vaqt o'tkazish va uxlatish",
+    "Faqat yodlash",
+    "Kerak emas"
+   ],
+   "e": "Detskaya literatura."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Maktabgacha yoshdagi bolalarga ertakni qanday o'qish kerak?",
+   "a": [
+    "Ifodali, ohang va pauza bilan",
+    "Tez, bir xil ohangda va ko'rgazmasiz",
+    "Faqat ichida",
+    "Faqat chet tilida"
+   ],
+   "e": "Ifodali o'qish."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "She'r yodlashda samarali usul qaysi?",
+   "a": [
+    "Takrorlash va ko'rgazmali tayanch",
+    "Bir marta eshittirib, darhol so'rash",
+    "Jazolash",
+    "Faqat yozib berish"
+   ],
+   "e": "Zauchivanie."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Xalq og'zaki ijodining kichik janrlari qaysilar?",
+   "a": [
+    "Tez aytish, topishmoq, maqol",
+    "Faqat roman va qissa",
+    "Faqat dramaturgiya",
+    "Faqat gazeta maqolasi"
+   ],
+   "e": "Folklor."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Tez aytishlar (chistogovorki) nima uchun qo'llanadi?",
+   "a": [
+    "Diksiya va talaffuzni yaxshilash",
+    "Faqat matematikani o'rgatish",
+    "Faqat rasm chizish",
+    "Faqat sport"
+   ],
+   "e": "Diksiya."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Topishmoq bolada nimani rivojlantiradi?",
+   "a": [
+    "Tafakkur va lug'atni",
+    "Faqat jismoniy kuchni",
+    "Faqat yugurishni",
+    "Hech narsani"
+   ],
+   "e": "Zagadka."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Suhbat (beseda) metodi nima?",
+   "a": [
+    "Savol-javob orqali faollashtirish",
+    "Faqat tarbiyachining uzoq monologi",
+    "Jim o'tirish",
+    "Yozma ish"
+   ],
+   "e": "Beseda."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Nutq nuqsonlari bo'lgan bola bilan kim shug'ullanadi?",
+   "a": [
+    "Logoped",
+    "Faqat jismoniy tarbiya o'qituvchisi",
+    "Oshpaz",
+    "Qorovul"
+   ],
+   "e": "Logoped."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Bolada tovushlar talaffuzi buzilishi qanday ataladi?",
+   "a": [
+    "Dislaliya",
+    "Disleksiya",
+    "Disgrafiya",
+    "Diskalkuliya"
+   ],
+   "e": "Dislaliya."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Nutq rivojlanishida oilaning roli qanday?",
+   "a": [
+    "Muloqot va o'qish orqali katta",
+    "Hech qanday rol o'ynamaydi, faqat bog'cha",
+    "Faqat salbiy ta'sir",
+    "Faqat televizor"
+   ],
+   "e": "Oila."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Ikki tilli muhitdagi bolaning nutqini rivojlantirishda nima muhim?",
+   "a": [
+    "Ikkala tilga hurmat",
+    "Bir tilni taqiqlash va jazolash",
+    "Bolani gapirtirmaslik",
+    "Faqat televizor"
+   ],
+   "e": "Bilingvizm."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "\"Ilk qadam\" dasturida nutq rivojlanishi qaysi sohaga kiradi?",
+   "a": [
+    "Nutq, muloqot, savodxonlik",
+    "Jismoniy rivojlanish va sog'lom turmush",
+    "Faqat ijodiy rivojlanish",
+    "Faqat matematik tasavvurlar"
+   ],
+   "e": "Rivojlanish sohasi."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Ertakni dramalashtirish nutqqa qanday ta'sir qiladi?",
+   "a": [
+    "Ifodalilik, dialogik nutq",
+    "Nutqni sekinlashtirib, bolani uyaltiradi",
+    "Ta'sir qilmaydi",
+    "Faqat yugurishni rivojlantiradi"
+   ],
+   "e": "Dramatizatsiya."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Bolaning savollariga tarbiyachi qanday javob berishi kerak?",
+   "a": [
+    "Sabr bilan, tushunarli va to'g'ri",
+    "E'tiborsiz qoldirib yoki qo'pol",
+    "Har doim \"keyin\" deb",
+    "Javob bermaslik"
+   ],
+   "e": "Muloqot."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Lug'atni boyitishda qaysi usul samarali?",
+   "a": [
+    "Narsalar bilan tanishtirib, nomlash",
+    "Faqat lug'atdan so'zlarni yodlatish",
+    "Faqat yozib berish",
+    "Bolani jim o'tkazish"
+   ],
+   "e": "Boyitish."
+  },
+  {
+   "b": "Nutq o'stirish nazariyasi va metodikasi",
+   "q": "Nutq mashg'ulotida ko'rgazmali vositalarga misol qaysi?",
+   "a": [
+    "Rasmlar, o'yinchoqlar, predmetlar",
+    "Faqat tarbiyachining so'zlari",
+    "Faqat doska",
+    "Hech narsa"
+   ],
+   "e": "Naglyadnost."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Matematik tasavvurlarni shakllantirishning asosiy bo'limlari qaysilar?",
+   "a": [
+    "Son, kattalik, shakl, fazo va vaqt",
+    "Faqat ko'paytirish jadvali va bo'lish",
+    "Faqat algebra",
+    "Faqat chizmachilik"
+   ],
+   "e": "Bo'limlar."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Kichik guruhda \"ko'p\" va \"bitta\" tushunchasi qanday shakllantiriladi?",
+   "a": [
+    "Predmetlar bilan amaliy ish orqali",
+    "Faqat raqamlarni yozib, yodlatib",
+    "Faqat doskada misol yechib",
+    "Shakllantirilmaydi"
+   ],
+   "e": "Mnogo-odin."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Ikki guruh predmetlarni taqqoslash usuli qaysi?",
+   "a": [
+    "Ustiga qo'yish va yoniga qo'yish",
+    "Faqat ko'z bilan chamalab aytish",
+    "Faqat sanash bilan, predmetsiz",
+    "Taqqoslanmaydi"
+   ],
+   "e": "Nalojenie, prilojenie."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Sanash faoliyati qaysi guruhdan boshlab o'rgatiladi?",
+   "a": [
+    "O'rta guruhdan (5 gacha)",
+    "Ilk yosh guruhidan 100 gacha",
+    "Faqat maktabda",
+    "Hech qachon"
+   ],
+   "e": "Schet."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Tartib sanog'i nima?",
+   "a": [
+    "Qatordagi o'rnini aniqlash",
+    "Predmetlarning umumiy sonini aniqlash",
+    "Predmetlarni bo'yash",
+    "Predmetlarni tortish"
+   ],
+   "e": "Poryadkovyy schet."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Sonning tarkibini o'rganish nimani bildiradi?",
+   "a": [
+    "Sonni ikki kichik songa ajratish",
+    "Sonni yozib, bezash",
+    "Sonni yodlash",
+    "Sonni o'chirish"
+   ],
+   "e": "Sostav chisla."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Raqam va sonning farqi nima?",
+   "a": [
+    "Raqam — belgi, son — miqdor",
+    "Farqi yo'q, bir xil narsa",
+    "Son — belgi, raqam — miqdor",
+    "Raqam faqat harf"
+   ],
+   "e": "Tsifra va chislo."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Kattaliklar bilan tanishtirishda qaysi o'lchamlar o'rganiladi?",
+   "a": [
+    "Uzunlik, kenglik, balandlik",
+    "Faqat og'irlik va harorat",
+    "Faqat vaqt",
+    "Faqat narx"
+   ],
+   "e": "Velichina."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Seriatsiya nima?",
+   "a": [
+    "Kattaligi bo'yicha tartiblash",
+    "Predmetlarni rangiga qarab bo'yash",
+    "Predmetlarni sanash",
+    "Predmetlarni yashirish"
+   ],
+   "e": "Seriatsiya."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Shartli o'lchov (uslovnaya merka) nima?",
+   "a": [
+    "Oddiy narsa bilan o'lchash",
+    "Faqat metrli lineyka bilan o'lchash",
+    "Ko'z bilan chamalash",
+    "O'lchamaslik"
+   ],
+   "e": "Merka."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Kichik guruhda qaysi geometrik shakllar o'rgatiladi?",
+   "a": [
+    "Doira, kvadrat, uchburchak",
+    "Trapetsiya, romb, parallelogramm",
+    "Faqat ko'pburchaklar",
+    "Hech qanday shakl"
+   ],
+   "e": "Shakllar."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Katta guruhda qaysi hajmli shakllar bilan tanishtiriladi?",
+   "a": [
+    "Shar, kub, silindr",
+    "Faqat tekis shakllar",
+    "Faqat chiziqlar",
+    "Hech qanday"
+   ],
+   "e": "Ob'yomnye figury."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Fazoda mo'ljal olish nimani o'z ichiga oladi?",
+   "a": [
+    "O'ng-chap, yuqori-past, old-orqa",
+    "Faqat soatni bilish",
+    "Faqat sanash",
+    "Faqat ranglar"
+   ],
+   "e": "Orientirovka v prostranstve."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Vaqtda mo'ljal olishda nima o'rganiladi?",
+   "a": [
+    "Sutka, hafta kunlari, fasllar",
+    "Faqat soat mexanizmi tuzilishi",
+    "Faqat kalendar sotish",
+    "Hech narsa"
+   ],
+   "e": "Vaqt."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Sutka qismlari qaysilar?",
+   "a": [
+    "Ertalab, kunduz, kechqurun, tun",
+    "Bahor, yoz, kuz, qish",
+    "Dushanba, seshanba",
+    "Yanvar, fevral"
+   ],
+   "e": "Chasti sutok."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Matematika mashg'ulotida didaktik o'yinning ahamiyati nima?",
+   "a": [
+    "Bilimni qiziqarli mustahkamlaydi",
+    "Mashg'ulotni buzib, tartibsizlik keltiradi",
+    "Ahamiyati yo'q",
+    "Faqat vaqt o'tkazadi"
+   ],
+   "e": "O'yin."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Kuyzener tayoqchalari nima uchun ishlatiladi?",
+   "a": [
+    "Son va miqdorni modellashtirish",
+    "Faqat rasm chizish va bo'yash mashg'uloti uchun",
+    "Faqat musiqa uchun",
+    "Faqat sport uchun"
+   ],
+   "e": "Kuyzener."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Dyenesh bloklari qanday qobiliyatni rivojlantiradi?",
+   "a": [
+    "Mantiqiy fikrlash va tasniflash",
+    "Faqat jismoniy kuch va chaqqonlikni",
+    "Faqat qo'shiq aytish",
+    "Faqat uyquni"
+   ],
+   "e": "Dyenesh bloki."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Tangram nima?",
+   "a": [
+    "Shakllardan siluet tuzish o'yini",
+    "Sanash cho'plari va raqamli kartochkalar to'plami",
+    "Musiqa asbobi",
+    "Rasm kitobi"
+   ],
+   "e": "Tangram."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Maktabga tayyorlov guruhida qo'shish-ayirish qanday o'rgatiladi?",
+   "a": [
+    "Oddiy masalalar orqali, 10 gacha",
+    "Faqat yod oldirib, 1000 gacha yozma misollar bilan",
+    "Faqat yozma, predmetsiz",
+    "O'rgatilmaydi"
+   ],
+   "e": "Arifmeticheskie zadachi."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Arifmetik masala qanday qismlardan iborat?",
+   "a": [
+    "Shart va savol",
+    "Faqat javob",
+    "Faqat rasm",
+    "Faqat raqam"
+   ],
+   "e": "Zadacha."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "\"Ko'p–kam–teng\" tushunchalari qanday shakllantiriladi?",
+   "a": [
+    "Juftlab taqqoslash orqali",
+    "Faqat raqam yozish orqali",
+    "Faqat ko'z bilan",
+    "Shakllantirilmaydi"
+   ],
+   "e": "Taqqoslash."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Bolalarda o'lchash ko'nikmasini rivojlantirish nima beradi?",
+   "a": [
+    "Kattalik haqidagi aniq tasavvur",
+    "Faqat chiroyli chizish ko'nikmasi",
+    "Hech narsa",
+    "Faqat yugurish"
+   ],
+   "e": "O'lchash."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Matematik tasavvurlarni kundalik hayotda mustahkamlash usuli qaysi?",
+   "a": [
+    "Sayr, o'yin va maishiy vaziyatlarda sanash",
+    "Faqat mashg'ulot xonasida, boshqa vaqtda emas",
+    "Mustahkamlanmaydi",
+    "Faqat uyda"
+   ],
+   "e": "Integratsiya."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Bolaning mantiqiy fikrlashini rivojlantiruvchi topshiriqqa misol qaysi?",
+   "a": [
+    "\"Ortiqchasini top\" topshirig'i",
+    "Faqat yodlash topshirig'i",
+    "Faqat bo'yash",
+    "Faqat yugurish"
+   ],
+   "e": "Logicheskie zadaniya."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Matematika mashg'ulotining tuzilishi qanday?",
+   "a": [
+    "Motivatsiya, asosiy qism, yakun",
+    "Faqat yakuniy test, boshlanishsiz",
+    "Tartibsiz",
+    "Faqat o'yin, maqsadsiz"
+   ],
+   "e": "Struktura."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Kichik guruhda matematik mashg'ulot davomiyligi taxminan qancha?",
+   "a": [
+    "10–15 daqiqa",
+    "45 daqiqa",
+    "1 soat",
+    "2 soat"
+   ],
+   "e": "Yosh me'yori."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Ilk yoshdagi bolalarda sensor tarbiya nimaga qaratiladi?",
+   "a": [
+    "Rang, shakl, kattalikka",
+    "Faqat raqam yozishga",
+    "Faqat o'qishga",
+    "Faqat chet tiliga"
+   ],
+   "e": "Sensornoe vospitanie."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Sensor etalonlar nima?",
+   "a": [
+    "Rang, shakl, kattalik namunasi",
+    "Faqat matematik formulalar",
+    "Faqat harflar",
+    "Faqat musiqa notalari"
+   ],
+   "e": "Etalony."
+  },
+  {
+   "b": "Matematik tasavvurlarni shakllantirish",
+   "q": "Montessori materiallarining afzalligi nima?",
+   "a": [
+    "Bola mustaqil xatoni topa oladi",
+    "Faqat tarbiyachi bajaradi, bola kuzatadi",
+    "Faqat bezak",
+    "Afzalligi yo'q"
+   ],
+   "e": "Autodidaktika."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Bolalarni tabiat bilan tanishtirishning asosiy metodi qaysi?",
+   "a": [
+    "Kuzatish",
+    "Faqat kitobdan yodlatish va ko'chirtirish",
+    "Faqat test",
+    "Faqat jazolash"
+   ],
+   "e": "Nablyudenie."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Kuzatish turlari qaysilar?",
+   "a": [
+    "Qisqa muddatli va uzoq muddatli",
+    "Faqat tungi va kechki, bolalar uxlaganda",
+    "Faqat yozma",
+    "Faqat ovozli"
+   ],
+   "e": "Turlari."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Tabiat burchagi (ugolok prirody) nima uchun kerak?",
+   "a": [
+    "Kuzatish va parvarish uchun",
+    "Faqat xonani chiroyli bezash uchun",
+    "Faqat o'yinchoq saqlash uchun",
+    "Kerak emas"
+   ],
+   "e": "Ugolok prirody."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Tabiat burchagidagi o'simliklarni parvarish qilish bolada nimani tarbiyalaydi?",
+   "a": [
+    "Mehnatsevarlik va mas'uliyat",
+    "Faqat jismoniy kuch va chidamlilik",
+    "Befarqlik",
+    "Hech narsa"
+   ],
+   "e": "Trudovoe vospitanie."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Tajriba (opyt) metodi bolada nimani rivojlantiradi?",
+   "a": [
+    "Qiziquvchanlik, sabab-oqibat",
+    "Faqat jim o'tirish ko'nikmasini",
+    "Faqat yozishni",
+    "Hech narsani"
+   ],
+   "e": "Eksperiment."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Ekologik tarbiyaning asosiy maqsadi nima?",
+   "a": [
+    "Tabiatga ongli, ehtiyotkor munosabat",
+    "Tabiat resurslaridan cheksiz foydalanish",
+    "Faqat hayvonlarni qo'rqitish",
+    "Faqat bezak"
+   ],
+   "e": "Ekologik madaniyat."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Tabiat kalendari nima uchun yuritiladi?",
+   "a": [
+    "Tabiat o'zgarishini qayd etish",
+    "Faqat bayramlar ro'yxatini yozish",
+    "Faqat bolalar tug'ilgan kunini yozish",
+    "Kerak emas"
+   ],
+   "e": "Kalendar prirody."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Fasl belgilari bilan tanishtirishda nima qo'llanadi?",
+   "a": [
+    "Sayrlar va kuzatishlar",
+    "Faqat doskada yozish va o'chirish",
+    "Faqat multfilm",
+    "Hech narsa"
+   ],
+   "e": "Sezonnye nablyudeniya."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Ekskursiya tabiat bilan tanishtirishda qanday ahamiyatga ega?",
+   "a": [
+    "Tabiatni bevosita idrok etish",
+    "Faqat bolalarni charchatib, uxlatish uchun",
+    "Ahamiyati yo'q",
+    "Faqat avtobusda yurish"
+   ],
+   "e": "Ekskursiya."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Bolalarga uy hayvonlari va yovvoyi hayvonlar farqini tushuntirishda nima ishlatiladi?",
+   "a": [
+    "Rasmlar, o'yinchoqlar va kuzatish",
+    "Faqat og'zaki ta'rif, ko'rgazmasiz",
+    "Hech narsa",
+    "Faqat test"
+   ],
+   "e": "Ko'rgazmalilik."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "\"Tirik va jonsiz tabiat\" tushunchasi qaysi guruhda shakllanadi?",
+   "a": [
+    "Katta va tayyorlov guruhlarida",
+    "Ilk yosh (1–2 yosh) guruhida, birinchi kundan",
+    "Faqat maktabda",
+    "Hech qachon"
+   ],
+   "e": "Yosh."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Suv bilan tajribalarga misol qaysi?",
+   "a": [
+    "Cho'kadi–cho'kmaydi",
+    "Faqat suvni ichish",
+    "Faqat suvni to'kish",
+    "Hech narsa"
+   ],
+   "e": "Opyty s vodoy."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Ko'chat ekish tajribasi bolalarga nimani o'rgatadi?",
+   "a": [
+    "O'simlik o'sish shartlarini",
+    "Faqat tuproq bilan o'ynashni",
+    "Hech narsani",
+    "Faqat qazishni"
+   ],
+   "e": "O'simlik o'sishi."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "O'simlik o'sishi uchun qanday shartlar kerak?",
+   "a": [
+    "Yorug'lik, suv, issiqlik",
+    "Faqat qorong'ilik va sovuq",
+    "Faqat musiqa",
+    "Faqat shamol"
+   ],
+   "e": "Usloviya."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Bolalarda ekologik bilimlarni shakllantirishda o'yinlarning roli qanday?",
+   "a": [
+    "Bilimni qiziqarli mustahkamlaydi",
+    "Bilimga to'sqinlik qilib, chalg'itadi",
+    "Roli yo'q",
+    "Faqat charchatadi"
+   ],
+   "e": "Ekologik o'yinlar."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Qishlovchi qushlarga yordam berish faoliyatiga misol qaysi?",
+   "a": [
+    "Qushlar uchun yemlik osish",
+    "Qushlarni ushlab, qafasga solish",
+    "Uyalarni buzish",
+    "Hech narsa"
+   ],
+   "e": "Ekologik amaliyot."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Chiqindilarni saralashni bolalarga o'rgatish nimaga xizmat qiladi?",
+   "a": [
+    "Ekologik madaniyatga",
+    "Faqat o'yin uchun, ahamiyatsiz",
+    "Hech narsaga",
+    "Chiqindini ko'paytirishga"
+   ],
+   "e": "Sortirovka."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Tabiat bilan tanishtirishda ko'rgazmali vositalarga misol qaysi?",
+   "a": [
+    "Gerbariy, kolleksiyalar, rasmlar",
+    "Faqat tarbiyachining og'zaki hikoyasi",
+    "Hech narsa",
+    "Faqat kompyuter o'yinlari"
+   ],
+   "e": "Naglyadnost."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Tabiatdagi xavfsizlik qoidalariga misol qaysi?",
+   "a": [
+    "Notanish o'simlikni tatimaslik",
+    "Har qanday mevani yuvmasdan yeyish",
+    "Daydi hayvonlarni silash",
+    "Qoida yo'q"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Hayvonlar hayoti haqida suhbatda nima muhim?",
+   "a": [
+    "Mehr va g'amxo'rlik",
+    "Hayvonlardan qo'rqitish",
+    "Hayvonlarga zarar yetkazishni o'rgatish",
+    "Hech narsa"
+   ],
+   "e": "Gumanizm."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Yer, suv, havo haqidagi bilimlar qaysi bo'limga kiradi?",
+   "a": [
+    "Jonsiz tabiat bilan tanishtirish",
+    "Faqat matematika",
+    "Faqat musiqa",
+    "Faqat jismoniy tarbiya"
+   ],
+   "e": "Nejivaya priroda."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Tabiat bilan tanishtirish \"Ilk qadam\" dasturida qaysi sohaga kiradi?",
+   "a": [
+    "Bilish jarayonining rivojlanishi",
+    "Jismoniy rivojlanish va sog'lom turmush tarzi",
+    "Faqat nutq",
+    "Faqat ijodiy rivojlanish"
+   ],
+   "e": "Poznavatelnoe razvitie."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Bolalar bilan tabiat qo'yniga sayr tashkil qilishda nima muhim?",
+   "a": [
+    "Xavfsizlik va aniq maqsad",
+    "Maqsadsiz, nazoratsiz yurish",
+    "Faqat o'yinchoq olib borish",
+    "Hech narsa"
+   ],
+   "e": "Progulka."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Ekologik loyiha faoliyatiga misol qaysi?",
+   "a": [
+    "Ko'chat o'stirish loyihasi",
+    "Faqat bitta rasmni bo'yash",
+    "Faqat multfilm ko'rish",
+    "Hech narsa"
+   ],
+   "e": "Loyiha."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Bolada tabiatga hissiy munosabatni rivojlantirish usuli qaysi?",
+   "a": [
+    "She'r, qo'shiq va badiiy asarlar",
+    "Faqat qat'iy qoidalar va taqiqlar",
+    "Faqat jazolash",
+    "Hech narsa"
+   ],
+   "e": "Emotsiya."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Tabiat bilan tanishtirishda tarbiyachi savollari qanday bo'lishi kerak?",
+   "a": [
+    "Fikrlashga undovchi",
+    "Faqat \"ha\" yoki \"yo'q\" javobli",
+    "Savol berilmaydi",
+    "Faqat murakkab ilmiy"
+   ],
+   "e": "Savollar."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Mehnat faoliyatining tabiatdagi turiga misol qaysi?",
+   "a": [
+    "Gullarni sug'orish, barg yig'ish",
+    "Faqat televizorda tabiat haqida film ko'rish",
+    "Faqat uxlash",
+    "Hech narsa"
+   ],
+   "e": "Trud v prirode."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Ekologik tarbiyada oila bilan hamkorlik shakliga misol qaysi?",
+   "a": [
+    "Birgalikdagi ekologik aksiyalar",
+    "Ota-onalarni jalb qilmasdan faqat bog'chada",
+    "Faqat yig'ilish",
+    "Hech narsa"
+   ],
+   "e": "Hamkorlik."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Tabiatni muhofaza qilish haqida bolalarga qanday tushuncha beriladi?",
+   "a": [
+    "Tabiatni asrash — burchimiz",
+    "Tabiat cheksiz, asrash shart emas",
+    "Faqat kattalar mas'ul",
+    "Hech narsa"
+   ],
+   "e": "Muhofaza."
+  },
+  {
+   "b": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "q": "Qizil kitob haqida bolalarga nima tushuntiriladi?",
+   "a": [
+    "Noyob turlar ro'yxati",
+    "Faqat qizil rangli rasm kitobi",
+    "Ertaklar to'plami",
+    "Hech narsa"
+   ],
+   "e": "Krasnaya kniga."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "STEAM qisqartmasi nimani bildiradi?",
+   "a": [
+    "Fan, texnologiya, muhandislik, san'at, matematika",
+    "Sport, ta'lim, san'at, musiqa, adabiyot",
+    "Faqat texnika va mexanika",
+    "Faqat san'at"
+   ],
+   "e": "Science, Technology, Engineering, Art, Math."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "STEAM yondashuvining asosiy g'oyasi nima?",
+   "a": [
+    "Fanlarni integratsiyalab, amaliy tadqiqot",
+    "Har bir fanni alohida, aloqasiz o'rgatish",
+    "Faqat nazariy ma'ruza",
+    "Faqat yodlash"
+   ],
+   "e": "Integratsiya."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Maktabgacha ta'limda STEAM faoliyatiga misol qaysi?",
+   "a": [
+    "Ko'prik qurib, sinab ko'rish",
+    "Faqat jim o'tirib, kitob ko'rish",
+    "Faqat uxlash",
+    "Faqat yugurish"
+   ],
+   "e": "Amaliy loyiha."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "LEGO-konstruktorlar bolada nimani rivojlantiradi?",
+   "a": [
+    "Muhandislik fikrlash va ijodkorlik",
+    "Faqat qo'shiq aytish va raqs tushish qobiliyatini",
+    "Faqat uyqu",
+    "Hech narsa"
+   ],
+   "e": "Konstruirovanie."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Robototexnika bilan tanishtirish qaysi yoshdan boshlanishi mumkin?",
+   "a": [
+    "Katta va tayyorlov guruhidan",
+    "Faqat 1 yoshdan",
+    "Faqat maktabning yuqori sinfida",
+    "Hech qachon"
+   ],
+   "e": "Robototexnika."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "STEAM mashg'ulotida tarbiyachining roli qanday?",
+   "a": [
+    "Yo'naltiruvchi va hamkor",
+    "Faqat tayyor javob beruvchi va buyruq beruvchi",
+    "Kuzatmaydi",
+    "Faqat baholovchi"
+   ],
+   "e": "Fasilitator."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "\"Tadqiqotchi bola\" yondashuvi nimani anglatadi?",
+   "a": [
+    "Tajriba orqali javob topadi",
+    "Bola faqat tayyor bilimni yodlaydi",
+    "Bola jim turadi",
+    "Bola faqat kuzatadi"
+   ],
+   "e": "Issledovatel."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Muhandislik (engineering) STEAMda bolalar uchun nima?",
+   "a": [
+    "Loyihalash va qurish",
+    "Faqat musiqa chalish",
+    "Faqat yozish",
+    "Faqat rasm ko'rish"
+   ],
+   "e": "Engineering."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "STEAMdagi \"Art\" qismi nima uchun qo'shilgan?",
+   "a": [
+    "Ijodkorlik va estetik fikrlash uchun",
+    "Faqat xonani bezash uchun, ahamiyatsiz qism",
+    "Faqat sport uchun",
+    "Qo'shilmagan"
+   ],
+   "e": "Art."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Maktabgacha yoshda kompyuter bilan ishlash davomiyligi qanday cheklanadi?",
+   "a": [
+    "5–7 yoshda 10–15 daqiqagacha",
+    "Kuniga 3–4 soat cheklovsiz",
+    "Cheklanmaydi",
+    "1 soat uzluksiz"
+   ],
+   "e": "SanPiN."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Kompyuterda o'ynagandan keyin bolalar bilan nima qilinadi?",
+   "a": [
+    "Ko'z uchun gimnastika",
+    "Darhol yana kompyuterda davom etish",
+    "Hech narsa",
+    "Uxlatish"
+   ],
+   "e": "Gigiyena."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Bolalar uchun kompyuter o'yinlari qanday bo'lishi kerak?",
+   "a": [
+    "Yoshga mos, ta'limiy, zo'ravonliksiz",
+    "Har qanday, zo'ravonlik va qo'rqinchli",
+    "Faqat kattalar o'yinlari",
+    "Ahamiyatsiz"
+   ],
+   "e": "Tanlash."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Interaktiv doska MTTda qanday imkoniyat beradi?",
+   "a": [
+    "Ko'rgazmali va interaktiv o'yinlar",
+    "Faqat bo'r bilan yozish va o'chirish imkoni",
+    "Faqat rasm osish",
+    "Hech narsa"
+   ],
+   "e": "Interaktiv."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Raqamli savodxonlikning ilk asosiga nima kiradi?",
+   "a": [
+    "Qurilmadan xavfsiz va maqsadli foydalanish",
+    "Qurilmadan cheksiz, nazoratsiz foydalanish",
+    "Faqat o'yin o'ynash",
+    "Hech narsa"
+   ],
+   "e": "Raqamli savodxonlik."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Bolalar ekran oldida uzoq o'tirishining salbiy ta'siri nima?",
+   "a": [
+    "Ko'rish va qomatga zarar",
+    "Faqat foydali, salbiy ta'siri yo'q",
+    "Nutqni tezlashtiradi",
+    "Faqat uyquni yaxshilaydi"
+   ],
+   "e": "Ekran vaqti."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "MTTda kompyuter bilan ishlashda bola ekrandan qancha masofada o'tirishi kerak?",
+   "a": [
+    "Taxminan 50–70 sm",
+    "5–10 sm",
+    "3 metr",
+    "Ahamiyatsiz"
+   ],
+   "e": "Gigiyena."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Sichqoncha bilan ishlash bolada nimani rivojlantiradi?",
+   "a": [
+    "Qo'l-ko'z muvofiqligi",
+    "Faqat oyoq mushaklarini",
+    "Faqat nutqni",
+    "Hech narsani"
+   ],
+   "e": "Koordinatsiya."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Bolalarni kompyuter bilan tanishtirishda o'yin elementi nima uchun muhim?",
+   "a": [
+    "Qiziqish va motivatsiyani oshiradi",
+    "Bolani chalg'itadi, zeriktiradi va charchatadi",
+    "Muhim emas",
+    "Faqat tarbiyachi uchun"
+   ],
+   "e": "Motivatsiya."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Mantiqiy fikrlashni rivojlantiruvchi raqamli o'yinlarga misol qaysi?",
+   "a": [
+    "Jumboq, labirint, ketma-ketlik",
+    "Faqat otishma o'yinlari",
+    "Faqat videoroliklar",
+    "Hech qaysi"
+   ],
+   "e": "Raqamli o'yinlar."
+  },
+  {
+   "b": "STEAM va kompyuter savodxonligi",
+   "q": "Bee-Bot kabi robot o'yinchoqlar nimani o'rgatadi?",
+   "a": [
+    "Algoritm va ketma-ketlik asoslarini",
+    "Faqat qo'shiq aytish va raqs tushishni",
+    "Faqat rasm chizishni",
+    "Hech narsani"
+   ],
+   "e": "Algoritmik fikrlash."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Teatrlashtirilgan faoliyat bolada nimani rivojlantiradi?",
+   "a": [
+    "Nutq, ifodalilik va ijodkorlik",
+    "Faqat jismoniy kuch va chaqqonlik",
+    "Faqat uyqu",
+    "Hech narsa"
+   ],
+   "e": "Teatr."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Qo'g'irchoq teatri turlariga misol qaysi?",
+   "a": [
+    "Stol, barmoq, bibabo teatri",
+    "Faqat opera, balet va simfonik konsert",
+    "Faqat sirk tomoshasi",
+    "Faqat kinoteatr"
+   ],
+   "e": "Kukolnyy teatr."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Bibabo qo'g'irchog'i qanday boshqariladi?",
+   "a": [
+    "Qo'lga kiyib",
+    "Iplar yordamida yuqoridan",
+    "Tayoq bilan pastdan",
+    "Avtomatik"
+   ],
+   "e": "Perchatochnaya kukla."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Marionetka qanday boshqariladi?",
+   "a": [
+    "Iplar yordamida",
+    "Qo'lga kiyib",
+    "Barmoqqa kiyib",
+    "Ovoz bilan"
+   ],
+   "e": "Marionetka."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Dramalashtirish o'yini nima?",
+   "a": [
+    "Qahramon rolini ijro etadi",
+    "Bolalar faqat tomosha qiladi",
+    "Bolalar rasm chizadi",
+    "Bolalar uxlaydi"
+   ],
+   "e": "Igra-dramatizatsiya."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Sahnalashtirish uchun asar tanlashda nima hisobga olinadi?",
+   "a": [
+    "Bolalar yoshi va tushunarli syujet",
+    "Faqat kattalar uchun murakkab dramalar",
+    "Faqat chet tilidagi asarlar",
+    "Ahamiyatsiz"
+   ],
+   "e": "Tanlash."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Sahnalashtirishda kostyum va atributlar nima uchun kerak?",
+   "a": [
+    "Obrazga kirish va qiziqishni oshirish",
+    "Faqat ota-onalarni xarajatga solish uchun",
+    "Kerak emas",
+    "Faqat bezak"
+   ],
+   "e": "Atributlar."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Uyatchan bolani sahnalashtirishga qanday jalb qilish kerak?",
+   "a": [
+    "Kichik rol berib, rag'batlantirish",
+    "Majburlab, eng katta va qiyin rol berish",
+    "Umuman jalb qilmaslik",
+    "Ustidan kulish"
+   ],
+   "e": "Individual yondashuv."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Badiiy-ijodiy faoliyatga qaysi turlar kiradi?",
+   "a": [
+    "Musiqiy, tasviriy, teatr faoliyati",
+    "Faqat matematika, sanash va yozish",
+    "Faqat sport",
+    "Faqat mehnat"
+   ],
+   "e": "Badiiy faoliyat."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Bolalar ijodkorligini baholashda qaysi yondashuv to'g'ri?",
+   "a": [
+    "Jarayon va shaxsiy yutuqqa e'tibor",
+    "Faqat natijani boshqalar bilan qat'iy solishtirish",
+    "Baholamaslik",
+    "Faqat kamchilikni ko'rsatish"
+   ],
+   "e": "Baholash."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Musiqa va harakat mashg'ulotida qaysi ko'nikma rivojlanadi?",
+   "a": [
+    "Ritm hissi va koordinatsiya",
+    "Faqat yozish va husnixat ko'nikmasi",
+    "Faqat sanash",
+    "Hech narsa"
+   ],
+   "e": "Ritmika."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Ertak-terapiya nima?",
+   "a": [
+    "Ertak orqali hissiy rivojlanish",
+    "Faqat ertakni yod oldirish",
+    "Faqat ertak kitobini sotish",
+    "Hech narsa"
+   ],
+   "e": "Skazkoterapiya."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Ijodiy topshiriqqa misol qaysi?",
+   "a": [
+    "Ertak oxirini o'zgartirib aytish",
+    "Ertakni so'zma-so'z, o'zgartirmasdan yodlash",
+    "Faqat rasm ko'rish",
+    "Jim o'tirish"
+   ],
+   "e": "Tvorcheskoe zadanie."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Bayram ertaliklari (utrennik) tashkil etishda nima muhim?",
+   "a": [
+    "Barcha bolalar ishtiroki",
+    "Faqat iqtidorli bolalar ishtiroki",
+    "Ota-onalarni chaqirmaslik",
+    "Hech narsa"
+   ],
+   "e": "Prazdnik."
+  },
+  {
+   "b": "Sahnalashtirish va badiiy-ijodiy faoliyat",
+   "q": "Bolalar ijodkorligini rivojlantiruvchi muhitga nima kiradi?",
+   "a": [
+    "Erkin turli materiallar",
+    "Qulflangan javonlar va taqiqlar",
+    "Bo'sh xona",
+    "Faqat televizor"
+   ],
+   "e": "Razvivayushchaya sreda."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Bolalar adabiyotining asosiy xususiyati nima?",
+   "a": [
+    "Yoshga mos, tarbiyaviy va obrazli",
+    "Murakkab, falsafiy va faqat kattalar uchun",
+    "Faqat ilmiy-texnik",
+    "Faqat she'riy"
+   ],
+   "e": "Detskaya literatura."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "O'zbek bolalar adabiyoti vakillaridan biri kim?",
+   "a": [
+    "Quddus Muhammadiy",
+    "Abdulla Qodiriy faqat romanlari bilan",
+    "Alisher Navoiy faqat g'azallari bilan",
+    "Bobur"
+   ],
+   "e": "Bolalar shoiri."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "\"Zumrad va Qimmat\" qanday asar?",
+   "a": [
+    "O'zbek xalq ertagi",
+    "Rus klassik romani",
+    "Zamonaviy fantastik hikoya",
+    "Ilmiy kitob"
+   ],
+   "e": "Xalq ertagi."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Ertaklar qanday turlarga bo'linadi?",
+   "a": [
+    "Hayvonlar haqida, sehrli, maishiy",
+    "Faqat ilmiy va tarixiy",
+    "Faqat she'riy",
+    "Faqat hajviy"
+   ],
+   "e": "Turlari."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Allalar (alla qo'shiqlari) qaysi janrga kiradi?",
+   "a": [
+    "Bolalar folklori (beshik qo'shig'i)",
+    "Zamonaviy estrada",
+    "Opera",
+    "Doston"
+   ],
+   "e": "Kolybelnye."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Kitob burchagi guruhda nima uchun tashkil etiladi?",
+   "a": [
+    "Kitobga qiziqish uyg'otish",
+    "Faqat kitoblarni yopiq saqlash uchun",
+    "Faqat bezak",
+    "Kerak emas"
+   ],
+   "e": "Knizhnyy ugolok."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Bolalarga kitobni ehtiyot qilishni o'rgatishga misol qaysi?",
+   "a": [
+    "Yirtilgan kitobni ta'mirlash",
+    "Kitoblarni tashlab, yirtishga ruxsat",
+    "Kitob bermaslik",
+    "Hech narsa"
+   ],
+   "e": "Ehtiyotkorlik."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Rasmli kitoblar bilan ishlashda nima muhim?",
+   "a": [
+    "Rasm asosida suhbat",
+    "Faqat sahifalarni tez varaqlash",
+    "Faqat matnni o'qish, rasmsiz",
+    "Hech narsa"
+   ],
+   "e": "Illyustratsiya."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Hikoya tuzishning qaysi turi eng oddiy?",
+   "a": [
+    "O'yinchoq asosida tasviriy hikoya",
+    "Mustaqil ijodiy ertak to'qish",
+    "Ilmiy ma'ruza",
+    "Yozma insho"
+   ],
+   "e": "Bosqichlar."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Bolaning nutq rivojlanishi darajasini aniqlash qanday amalga oshiriladi?",
+   "a": [
+    "Diagnostika va kuzatish orqali",
+    "Faqat ota-ona aytganiga qarab",
+    "Aniqlanmaydi",
+    "Faqat test qog'ozi bilan"
+   ],
+   "e": "Monitoring."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Nutq o'stirishda \"namuna nutq\" kimning nutqi?",
+   "a": [
+    "Tarbiyachining to'g'ri, madaniy nutqi",
+    "Bolalarning bir-biridan o'rgangan noto'g'ri nutqi",
+    "Televizor reklamasi",
+    "Hech kimniki"
+   ],
+   "e": "Obrazets rechi."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Kichik guruhda bolalar bilan qanday nutq faoliyati ko'proq olib boriladi?",
+   "a": [
+    "Qisqa she'r, o'yinchoq bilan suhbat",
+    "Uzoq ilmiy ma'ruzalar va yozma ishlar",
+    "Mustaqil roman yozish",
+    "Hech narsa"
+   ],
+   "e": "Yosh."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Maktabga tayyorlov guruhida nutqning asosiy vazifasi nima?",
+   "a": [
+    "Bog'lanishli nutq va savodga tayyorlash",
+    "Faqat birinchi so'zlarni aytishni o'rgatish",
+    "Faqat imo-ishora",
+    "Hech narsa"
+   ],
+   "e": "Tayyorlov."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Sinonim so'zlarni o'rganish lug'atga qanday ta'sir qiladi?",
+   "a": [
+    "Lug'atni boyitadi va aniqlashtiradi",
+    "Lug'atni kambag'allashtiradi",
+    "Ta'sir qilmaydi",
+    "Faqat chalg'itadi"
+   ],
+   "e": "Sinonimlar."
+  },
+  {
+   "b": "Bolalar adabiyoti va nutq: qo'shimcha",
+   "q": "Antonimlar bilan didaktik o'yinga misol qaysi?",
+   "a": [
+    "\"Aksini ayt\" o'yini",
+    "\"Yashirinmachoq\" o'yini",
+    "\"Quvlashmachoq\"",
+    "\"Arqon tortish\""
+   ],
+   "e": "Antonimlar."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Kompozitsiya nima?",
+   "a": [
+    "Elementlarning joylashuvi",
+    "Bo'yoqlarni aralashtirish usuli",
+    "Qalam turi",
+    "Qog'oz o'lchami"
+   ],
+   "e": "Kompozitsiya."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Ritm tasviriy san'atda nima?",
+   "a": [
+    "Muntazam takrorlanish",
+    "Musiqa tezligi",
+    "Tasvirning rangsizligi",
+    "Qog'oz qalinligi"
+   ],
+   "e": "Ritm."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Simmetriya nima?",
+   "a": [
+    "O'qqa nisbatan bir xil joylashuv",
+    "Tasvirning tartibsiz joylashuvi",
+    "Rangning yo'qligi",
+    "Qog'ozning bukilishi"
+   ],
+   "e": "Simmetriya."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Perspektiva nima?",
+   "a": [
+    "Uzoqdagi narsalarning kichrayib ko'rinishi",
+    "Barcha narsalarni bir xil kattalikda chizish",
+    "Faqat rang tanlash",
+    "Faqat soya"
+   ],
+   "e": "Perspektiva."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Kontrast ranglarga misol qaysi?",
+   "a": [
+    "Qizil va yashil",
+    "Qizil va to'q sariq",
+    "Ko'k va havorang",
+    "Sariq va limon"
+   ],
+   "e": "Kontrast."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Akvarel bo'yog'ining xususiyati nima?",
+   "a": [
+    "Shaffof, suv bilan suyultiriladi",
+    "Qalin va mutlaqo shaffof emas, moyli",
+    "Faqat yog'ochga surtiladi",
+    "Suvda erimaydi"
+   ],
+   "e": "Akvarel."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Guash bo'yog'ining akvareldan farqi nima?",
+   "a": [
+    "Qoplovchi (shaffof emas)",
+    "Juda shaffof va suyuq",
+    "Faqat qora rangda",
+    "Farqi yo'q"
+   ],
+   "e": "Guash."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Grafika san'atida asosiy ifoda vositasi nima?",
+   "a": [
+    "Chiziq, shtrix va dog'",
+    "Faqat yorqin moyli bo'yoq",
+    "Faqat hajm",
+    "Faqat tovush"
+   ],
+   "e": "Grafika."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Natyurmort nima?",
+   "a": [
+    "Jonsiz narsalar tasviri",
+    "Tabiat manzarasi tasviri",
+    "Odam portreti",
+    "Hayvonlar tasviri"
+   ],
+   "e": "Natyurmort."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Manzara (peyzaj) nima?",
+   "a": [
+    "Tabiat tasviri",
+    "Jonsiz narsalar tasviri",
+    "Odam yuzi tasviri",
+    "Tarixiy voqea tasviri"
+   ],
+   "e": "Peyzaj."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Portret nima?",
+   "a": [
+    "Odam tasviri",
+    "Tabiat tasviri",
+    "Natyurmort",
+    "Naqsh"
+   ],
+   "e": "Portret."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "O'zbek milliy naqshining turlariga misol qaysi?",
+   "a": [
+    "Islimiy va girih",
+    "Faqat rus xoxloma naqshi",
+    "Faqat zamonaviy grafiti",
+    "Hech qanday"
+   ],
+   "e": "Milliy naqsh."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Kamoliddin Behzod qaysi san'at turi bilan mashhur?",
+   "a": [
+    "Miniatyura",
+    "Haykaltaroshlik",
+    "Kino",
+    "Musiqa"
+   ],
+   "e": "Hirot maktabi."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Rasm mashg'ulotida to'g'ri yoritishning ahamiyati nima?",
+   "a": [
+    "Ko'rish charchashini kamaytiradi",
+    "Ko'rishni yomonlashtiradi",
+    "Ta'siri yo'q",
+    "Uyquni keltiradi"
+   ],
+   "e": "Gigiyena."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Rangtasvir (jivopis) nima?",
+   "a": [
+    "Bo'yoqlar bilan tasvir",
+    "Faqat qalam bilan oq-qora chizish",
+    "Loydan haykal yasash",
+    "Qog'oz kesish"
+   ],
+   "e": "Jivopis."
+  },
+  {
+   "b": "Tasviriy faoliyat nazariyasi",
+   "q": "Maxsus rasm (akademik rasm) mashg'ulotlarida nimaga e'tibor beriladi?",
+   "a": [
+    "Shakl, proporsiya, yorug'-soya",
+    "Faqat tez chizish va rang tanlash",
+    "Faqat xayoliy tasvir",
+    "Hech narsa"
+   ],
+   "e": "Akademik rasm."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Inklyuziv ta'lim nima?",
+   "a": [
+    "Barcha bolalarni birgalikda o'qitish",
+    "Imkoniyati cheklangan bolalarni alohida yopiq muassasada saqlash",
+    "Faqat iqtidorli bolalarni o'qitish",
+    "Faqat uyda o'qitish"
+   ],
+   "e": "Inklyuziya."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Inklyuziv ta'limning asosiy tamoyili qaysi?",
+   "a": [
+    "Har bir bolaning ehtiyojini hisobga olish",
+    "Barcha bolalarga bir xil, moslashtirilmagan talab qo'yish",
+    "Bolalarni ajratish",
+    "Faqat baholash"
+   ],
+   "e": "Individual yondashuv."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Alohida ta'lim ehtiyojli bola uchun nima tuziladi?",
+   "a": [
+    "Individual rivojlanish dasturi",
+    "Hech qanday hujjat tuzilmaydi",
+    "Faqat jazolar ro'yxati",
+    "Faqat umumiy dastur, o'zgarishsiz"
+   ],
+   "e": "IRD."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Inklyuziv guruhda tyutor (yordamchi) vazifasi nima?",
+   "a": [
+    "Bolaga individual yordam ko'rsatish",
+    "Faqat guruhni tozalash va ovqat tarqatish",
+    "Bolalarni jazolash",
+    "Hech narsa"
+   ],
+   "e": "Tyutor."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Inklyuziv muhit yaratishda nimalar muhim?",
+   "a": [
+    "Moslashtirilgan makon va munosabat",
+    "Faqat zinapoya va to'siqlar ko'pligi",
+    "Hech narsa",
+    "Faqat bezak"
+   ],
+   "e": "Dostupnaya sreda."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Autizm spektri buzilishi bo'lgan bolalar uchun qaysi yondashuv foydali?",
+   "a": [
+    "Vizual jadval va tartib barqarorligi",
+    "Doimiy shovqin va kutilmagan o'zgarishlar",
+    "Faqat jazolash",
+    "E'tiborsizlik"
+   ],
+   "e": "RAS."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Eshitishida nuqsoni bor bola bilan ishlashda nima muhim?",
+   "a": [
+    "Ko'rgazmali vositalar va yuzma-yuz muloqot",
+    "Faqat baland ovozda gapirish, ko'rgazmasiz",
+    "Bola bilan muloqot qilmaslik",
+    "Hech narsa"
+   ],
+   "e": "Surdopedagogika."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Ko'rishida nuqsoni bor bola uchun qanday materiallar mos?",
+   "a": [
+    "Taktil materiallar, kontrast",
+    "Faqat mayda, rangsiz rasmlar",
+    "Hech qanday material",
+    "Faqat ekran"
+   ],
+   "e": "Tiflopedagogika."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Ota-onalar bilan inklyuziv ta'limda hamkorlik nima uchun muhim?",
+   "a": [
+    "Talablarni muvofiqlashtirish",
+    "Ota-onalarni jarayondan chetlashtirish",
+    "Ahamiyati yo'q",
+    "Faqat to'lov uchun"
+   ],
+   "e": "Hamkorlik."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Bolalar orasida bag'rikenglikni tarbiyalash usuli qaysi?",
+   "a": [
+    "Birgalikdagi o'yin, hurmat",
+    "Farqli bolalarni alohida o'tqazish",
+    "Masxara qilishga yo'l qo'yish",
+    "Hech narsa"
+   ],
+   "e": "Tolerantlik."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Rivojlanish markazlari (markazlar bo'yicha ish) nima?",
+   "a": [
+    "Faoliyat bo'yicha burchaklar",
+    "Faqat ma'muriy xonalar va ofislar",
+    "Faqat oshxona",
+    "Faqat yotoqxona"
+   ],
+   "e": "Tsentry aktivnosti."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Rivojlanish markazlariga misol qaysi?",
+   "a": [
+    "San'at, qurilish, kitob, tabiat markazlari",
+    "Faqat tarbiyachi stoli va qulflangan javon",
+    "Faqat televizor xonasi",
+    "Faqat koridor"
+   ],
+   "e": "Markazlar."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Markazlarda ishlashning afzalligi nima?",
+   "a": [
+    "Bola o'zi tanlab, mustaqil faoliyat qiladi",
+    "Bola faqat buyruq bilan, tanlovsiz ishlaydi",
+    "Afzalligi yo'q",
+    "Faqat tarbiyachi uchun qulay"
+   ],
+   "e": "Tanlov erkinligi."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Rivojlantiruvchi predmet-makon muhitiga qo'yiladigan talab qaysi?",
+   "a": [
+    "Xavfsiz, o'zgaruvchan, yoshga mos",
+    "Xavfli, o'zgarmas va kattalar uchun",
+    "Bo'sh va jihozsiz",
+    "Faqat bezakli"
+   ],
+   "e": "Sreda."
+  },
+  {
+   "b": "Inklyuziv ta'lim va rivojlanish markazlari",
+   "q": "Markazlardagi materiallar qanchada bir yangilanishi kerak?",
+   "a": [
+    "Mavzu va qiziqishga qarab muntazam",
+    "Hech qachon, bir marta joylashtiriladi",
+    "Faqat yilda bir marta",
+    "Faqat ota-ona so'rasa"
+   ],
+   "e": "Yangilash."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "MTTda metodik ishning maqsadi nima?",
+   "a": [
+    "Pedagoglar mahoratini oshirish",
+    "Faqat hujjat va hisobotlarni ko'paytirish",
+    "Faqat tekshiruv o'tkazish",
+    "Hech narsa"
+   ],
+   "e": "Metodik ish."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Metodik ish shakllariga misol qaysi?",
+   "a": [
+    "Seminar, ochiq mashg'ulot, master-klass",
+    "Faqat jazolash yig'ilishlari",
+    "Faqat ta'til",
+    "Hech narsa"
+   ],
+   "e": "Shakllar."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Ochiq mashg'ulotning maqsadi nima?",
+   "a": [
+    "Ilg'or tajribani ko'rsatish va almashish",
+    "Faqat tarbiyachini tanqid qilish",
+    "Faqat bolalarni charchatish",
+    "Hech narsa"
+   ],
+   "e": "Ochiq mashg'ulot."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Pedagogik kengash vazifasi nima?",
+   "a": [
+    "Ta'lim masalalarini hal qilish",
+    "Faqat bayram dasturini tuzish",
+    "Faqat oshxona menyusi",
+    "Hech narsa"
+   ],
+   "e": "Pedsovet."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Metodist (katta tarbiyachi) vazifasi nima?",
+   "a": [
+    "Pedagoglarga metodik yordam ko'rsatish",
+    "Faqat oshxona ishini boshqarish",
+    "Faqat binoni ta'mirlash",
+    "Hech narsa"
+   ],
+   "e": "Metodist."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Tarbiyachining kalendar-tematik rejasi nima?",
+   "a": [
+    "Faoliyatlarning vaqt rejasi",
+    "Faqat tarbiyachining ta'til jadvali",
+    "Faqat ovqat menyusi",
+    "Hech narsa"
+   ],
+   "e": "Rejalashtirish."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Pedagogik diagnostika (monitoring) nima uchun o'tkaziladi?",
+   "a": [
+    "Rivojlanishni kuzatish",
+    "Bolalarni yaxshi-yomonga ajratish",
+    "Faqat ota-onalarga hisobot uchun",
+    "O'tkazilmaydi"
+   ],
+   "e": "Monitoring."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Bola portfoliosi nima?",
+   "a": [
+    "Bola ishlari va yutuqlari to'plami",
+    "Tarbiyachining shaxsiy hujjatlari",
+    "Ovqat menyusi",
+    "Ish haqi qaydnomasi"
+   ],
+   "e": "Portfolio."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Tarbiyachining kasbiy kompetensiyasiga nima kiradi?",
+   "a": [
+    "Bilim, ko'nikma va pedagogik madaniyat",
+    "Faqat chiroyli kiyinish",
+    "Faqat ish stajining uzunligi",
+    "Faqat diplom"
+   ],
+   "e": "Kompetensiya."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Tarbiyachi malakasini oshirish qanchada bir amalga oshiriladi?",
+   "a": [
+    "Belgilangan davriylikda (muntazam)",
+    "Hech qachon",
+    "Faqat bir marta umrida",
+    "Faqat istak bo'lsa"
+   ],
+   "e": "Malaka oshirish."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Integratsiyalashgan mashg'ulot nima?",
+   "a": [
+    "Faoliyat turlarini birlashtirgan",
+    "Faqat bitta mavzuni, boshqalarsiz o'rgatish",
+    "Faqat sport",
+    "Faqat uyqu"
+   ],
+   "e": "Integratsiya."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Loyiha metodi MTTda nimani nazarda tutadi?",
+   "a": [
+    "Birgalikdagi izlanish",
+    "Faqat tarbiyachining o'zi bajaradigan hisobot",
+    "Faqat ota-ona vazifasi",
+    "Hech narsa"
+   ],
+   "e": "Proektnyy metod."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Bolalarning mustaqil faoliyati uchun kun tartibida vaqt nima uchun ajratiladi?",
+   "a": [
+    "Tashabbus va ijodkorlikni rivojlantirish",
+    "Tarbiyachining dam olishi uchun faqat",
+    "Kerak emas",
+    "Faqat uyqu uchun"
+   ],
+   "e": "Samostoyatelnaya deyatelnost."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "\"Ilk qadam\" dasturidagi rivojlanish sohalariga nima kiradi?",
+   "a": [
+    "Jismoniy, ijtimoiy, nutq, bilish",
+    "Faqat matematika va o'qish",
+    "Faqat sport va musiqa",
+    "Faqat mehnat"
+   ],
+   "e": "Rivojlanish sohalari."
+  },
+  {
+   "b": "Metodik ish va kasbiy faoliyat",
+   "q": "Davlat talablari maktabgacha ta'limda nimani belgilaydi?",
+   "a": [
+    "Rivojlanishga talablar",
+    "Tarbiyachilar ish haqi miqdorini faqat",
+    "Bino rangini",
+    "Ovqat narxini"
+   ],
+   "e": "DT."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Bola rasm chizishni xohlamasa tarbiyachi nima qiladi?",
+   "a": [
+    "Qiziqtiruvchi motivatsiya va tanlov taklif qiladi",
+    "Majburlab, jazolash bilan chizdiradi",
+    "E'tiborsiz qoldiradi va boshqalar bilan solishtiradi",
+    "Ota-onaga shikoyat qiladi faqat"
+   ],
+   "e": "Motivatsiya."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Mashg'ulot davomida bolalar charchaganini sezsa tarbiyachi nima qiladi?",
+   "a": [
+    "Fizminutka o'tkazadi",
+    "Mashg'ulotni yana uzaytiradi",
+    "Bolalarni jim o'tirishga majburlaydi",
+    "Hech narsa"
+   ],
+   "e": "Fizminutka."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Bola tovushni noto'g'ri talaffuz qilsa tarbiyachi qanday munosabatda bo'ladi?",
+   "a": [
+    "To'g'ri namunani takrorlaydi",
+    "Boshqa bolalar oldida ustidan kuladi",
+    "E'tibor bermaydi",
+    "Jazolaydi"
+   ],
+   "e": "Takt."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Bola sanashda xato qilsa qaysi yondashuv to'g'ri?",
+   "a": [
+    "Predmetlar bilan birga qayta sanash",
+    "Darhol xatoni boshqalarga e'lon qilish",
+    "Mashg'ulotdan chiqarish",
+    "Hech narsa"
+   ],
+   "e": "Qo'llab-quvvatlash."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Guruhda bolalar o'rtasida o'yinchoq talashib nizo chiqsa nima qilinadi?",
+   "a": [
+    "Navbat va kelishuvga o'rgatiladi",
+    "O'yinchoq olib qo'yilib, ikkalasi jazolanadi",
+    "E'tiborsiz qoldiriladi",
+    "Kattaroq bola haq deyiladi"
+   ],
+   "e": "Ijtimoiy ko'nikma."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Tajriba davomida bola noto'g'ri xulosa qilsa nima qilinadi?",
+   "a": [
+    "Savollar bilan o'zi to'g'ri javob topishiga yordam",
+    "Darhol to'g'ri javobni aytib, tajribani to'xtatish",
+    "Bolani tanqid qilish",
+    "Hech narsa"
+   ],
+   "e": "Muammoli yondashuv."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Ota-ona bolasining rasmini \"chiroyli emas\" desa tarbiyachi nima qiladi?",
+   "a": [
+    "Bola ijodining qadrini tushuntiradi",
+    "Ota-onaning fikriga qo'shilib, bolani tanqid qiladi",
+    "E'tiborsiz qoldiradi",
+    "Rasmni tashlab yuboradi"
+   ],
+   "e": "Ota-onalar bilan ishlash."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Kitob o'qilayotganda bolalar diqqati tarqalsa nima qilinadi?",
+   "a": [
+    "Ohang va savol bilan qiziqtiriladi",
+    "O'qishni tezlashtirib, tugatiladi",
+    "Bolalar jazolanadi",
+    "Hech narsa"
+   ],
+   "e": "Diqqat."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "STEAM loyihasida konstruksiya \"buzilsa\" tarbiyachi nima deydi?",
+   "a": [
+    "Sababini birga topib, qayta qurishga undaydi",
+    "Bolani muvaffaqiyatsizlik uchun tanqid qiladi",
+    "Loyihani to'xtatadi",
+    "Hech narsa"
+   ],
+   "e": "Xato — o'rganish imkoni."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Uyatchan bola sahnaga chiqishdan qo'rqsa nima qilinadi?",
+   "a": [
+    "Guruh bilan chiqish taklif qilinadi",
+    "Majburan yolg'iz chiqariladi",
+    "Ustidan kulinadi",
+    "Bayramdan chetlatiladi"
+   ],
+   "e": "Asta-sekin jalb qilish."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "\"Bir nechta\" va \"ko'p\" tushunchalari qaysi yoshda farqlanadi?",
+   "a": [
+    "3–4 yoshda",
+    "1 yoshda",
+    "10 yoshda",
+    "Farqlanmaydi"
+   ],
+   "e": "Kichik guruh."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "Raqamlar bilan tanishtirishda qanday usul samarali?",
+   "a": [
+    "Raqamni miqdor bilan bog'lash",
+    "Faqat raqamni yozib, yodlatish",
+    "Raqamni ko'rsatmaslik",
+    "Hech narsa"
+   ],
+   "e": "Son va raqam."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "Predmetlarni guruhlash (tasniflash) qanday belgi bo'yicha bo'ladi?",
+   "a": [
+    "Rang, shakl, kattalik va vazifa",
+    "Faqat narx bo'yicha",
+    "Faqat egasi va sotib olingan narxi bo'yicha",
+    "Guruhlanmaydi"
+   ],
+   "e": "Klassifikatsiya."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "Soat bo'yicha vaqtni aniqlash qaysi guruhda boshlanadi?",
+   "a": [
+    "Maktabga tayyorlov guruhida",
+    "Ilk yosh guruhida",
+    "Kichik guruhda",
+    "Faqat maktabning 4-sinfida"
+   ],
+   "e": "Vaqt."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "Hafta kunlarini o'rgatishda qaysi vosita qo'llanadi?",
+   "a": [
+    "Tabiat va guruh kalendari",
+    "Faqat televizor va kompyuter dasturlari",
+    "Faqat ota-ona aytgani",
+    "Hech narsa"
+   ],
+   "e": "Kalendar."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "Og'irlik tushunchasini bolalarga qanday tushuntiriladi?",
+   "a": [
+    "Taroziga qo'yib taqqoslash",
+    "Faqat og'zaki ta'rif berib",
+    "Tushuntirilmaydi",
+    "Faqat formula bilan"
+   ],
+   "e": "Massa."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "\"Oldin–keyin\" tushunchasi qaysi bo'limga kiradi?",
+   "a": [
+    "Vaqtda mo'ljal olish",
+    "Geometrik shakllar",
+    "Kattalik",
+    "Son"
+   ],
+   "e": "Vremya."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "Bolalarda \"teng\" tushunchasini shakllantirishda nima qilinadi?",
+   "a": [
+    "Guruhlarni tenglashtirish",
+    "Faqat \"teng\" so'zini yodlatish",
+    "Faqat raqam yozish",
+    "Hech narsa"
+   ],
+   "e": "Ravenstvo."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "Geometrik shakllarni bilishni mustahkamlovchi o'yin qaysi?",
+   "a": [
+    "\"Shaklni top\" o'yini",
+    "\"Quvlashmachoq\"",
+    "\"Arqon tortish\"",
+    "\"Uxlab qolish\""
+   ],
+   "e": "Didaktik o'yin."
+  },
+  {
+   "b": "Qo'shimcha: matematika",
+   "q": "Matematik mashg'ulotda ko'rgazmali material qanday bo'lishi kerak?",
+   "a": [
+    "Yirik, yorqin va xavfsiz",
+    "Mayda, xira va o'tkir qirrali",
+    "Ko'rgazmasiz",
+    "Faqat yozma"
+   ],
+   "e": "Talablar."
+  },
+  {
+   "b": "Qo'shimcha: nutq va tabiat",
+   "q": "Bolaning lug'ati 5–6 yoshda taxminan qancha so'zga yetadi?",
+   "a": [
+    "2500–3000 so'z",
+    "50 so'z",
+    "100 so'z",
+    "50 000 so'z"
+   ],
+   "e": "Lug'at hajmi."
+  },
+  {
+   "b": "Qo'shimcha: nutq va tabiat",
+   "q": "Nutq rivojida \"nutq portlashi\" qaysi yoshda kuzatiladi?",
+   "a": [
+    "2–3 yoshda",
+    "6 oylikda",
+    "10 yoshda",
+    "15 yoshda"
+   ],
+   "e": "Ilk yosh."
+  },
+  {
+   "b": "Qo'shimcha: nutq va tabiat",
+   "q": "Bolada nutqning kech rivojlanishi sezilsa nima tavsiya etiladi?",
+   "a": [
+    "Logoped maslahati",
+    "Kutish, o'z-o'zidan o'tadi",
+    "Bolani jazolash",
+    "Hech narsa"
+   ],
+   "e": "Erta aralashuv."
+  },
+  {
+   "b": "Qo'shimcha: nutq va tabiat",
+   "q": "Tabiatdagi mavsumiy o'zgarishlarni bolalarga qanday tushuntiriladi?",
+   "a": [
+    "Kuzatish, suhbat, rasm orqali",
+    "Faqat qat'iy yodlatish orqali",
+    "Tushuntirilmaydi",
+    "Faqat test bilan"
+   ],
+   "e": "Mavsumlar."
+  },
+  {
+   "b": "Qo'shimcha: nutq va tabiat",
+   "q": "Bahor belgilariga misol qaysi?",
+   "a": [
+    "Qor erishi, kurtaklar",
+    "Barglar sarg'ayib to'kilishi",
+    "Qor yog'ishi",
+    "Daraxtlarning bargsizligi"
+   ],
+   "e": "Bahor."
+  },
+  {
+   "b": "Qo'shimcha: nutq va tabiat",
+   "q": "Kuz belgilariga misol qaysi?",
+   "a": [
+    "Barglarning sarg'ayishi",
+    "Qor erishi va kurtaklar chiqishi",
+    "Eng issiq kunlar",
+    "Qor yog'ishi"
+   ],
+   "e": "Kuz."
+  },
+  {
+   "b": "Qo'shimcha: nutq va tabiat",
+   "q": "Bolalarga suvning uch holatini tushuntirishda qaysi tajriba qo'llanadi?",
+   "a": [
+    "Muz eritish, bug'lanish",
+    "Faqat suv ichish",
+    "Suvni to'kish",
+    "Hech narsa"
+   ],
+   "e": "Agregat holatlari."
+  },
+  {
+   "b": "Qo'shimcha: nutq va tabiat",
+   "q": "Uy hayvonlariga misol qaysi?",
+   "a": [
+    "Sigir, qo'y, mushuk",
+    "Bo'ri, tulki, ayiq",
+    "Sher, yo'lbars",
+    "Fil"
+   ],
+   "e": "Domashnie."
+  },
+  {
+   "b": "Qo'shimcha: nutq va tabiat",
+   "q": "Yovvoyi hayvonlarga misol qaysi?",
+   "a": [
+    "Bo'ri, tulki, quyon",
+    "Sigir, ot, it",
+    "Mushuk, tovuq",
+    "Qo'y, echki"
+   ],
+   "e": "Dikie."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Maktabgacha yoshdagi bolaning yetakchi faoliyati qaysi?",
+   "a": [
+    "O'yin",
+    "O'qish",
+    "Mehnat",
+    "Sport"
+   ],
+   "e": "Vedushchaya deyatelnost."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Syujetli-rolli o'yinga misol qaysi?",
+   "a": [
+    "\"Shifoxona\", \"Do'kon\" o'yinlari",
+    "Domino va shaxmat",
+    "Yugurish musobaqasi",
+    "Rasm ko'rish"
+   ],
+   "e": "Syujetno-rolevaya."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qurilish o'yinlari bolada nimani rivojlantiradi?",
+   "a": [
+    "Konstruktiv fikrlash",
+    "Faqat ovoz balandligini",
+    "Hech narsani",
+    "Faqat uyquni"
+   ],
+   "e": "Stroitelnye igry."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Harakatli o'yinlarning asosiy vazifasi nima?",
+   "a": [
+    "Jismoniy rivojlanish, qoida",
+    "Faqat bolalarni jim o'tkazish",
+    "Faqat sanash",
+    "Hech narsa"
+   ],
+   "e": "Podvijnye igry."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Xalq o'yinlarining tarbiyaviy ahamiyati nima?",
+   "a": [
+    "Milliy qadriyat va jamoaviylik",
+    "Faqat vaqt o'tkazish, ahamiyatsiz",
+    "Ahamiyati yo'q",
+    "Faqat raqobat"
+   ],
+   "e": "Narodnye igry."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Ijtimoiy-hissiy rivojlanish nimani o'z ichiga oladi?",
+   "a": [
+    "Hissiyot va muloqot ko'nikmasi",
+    "Faqat sanash va o'qish",
+    "Faqat yugurish",
+    "Faqat rasm chizish"
+   ],
+   "e": "Ijtimoiy-hissiy."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bola hissiyotlarini tanishni o'rgatishda nima qo'llanadi?",
+   "a": [
+    "\"Hissiyotlar kartochkalari\" va suhbat",
+    "Bolani hissiyotini yashirishga majburlash",
+    "Hech narsa",
+    "Faqat jazolash"
+   ],
+   "e": "Emotsional intellekt."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "MTTda kun tartibining ahamiyati nima?",
+   "a": [
+    "Salomatlik va tartib odati",
+    "Hech qanday ahamiyati yo'q",
+    "Faqat tarbiyachi uchun qulaylik",
+    "Faqat ota-ona uchun"
+   ],
+   "e": "Rejim dnya."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Sayr (progulka) vaqtida qanday faoliyat tashkil etiladi?",
+   "a": [
+    "Kuzatish, harakatli o'yin, mehnat",
+    "Faqat xonada televizor ko'rish",
+    "Faqat uxlash",
+    "Hech narsa"
+   ],
+   "e": "Progulka."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Moslashuv (adaptatsiya) davrida tarbiyachining vazifasi nima?",
+   "a": [
+    "Bolaga xavfsiz va iliq muhit yaratish",
+    "Bolani yig'lagani uchun jazolash",
+    "Ota-onani guruhga kiritmaslik va bolani yolg'iz qoldirish",
+    "Hech narsa"
+   ],
+   "e": "Adaptatsiya."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bolalarni maktabga tayyorlashda psixologik tayyorlik nimani o'z ichiga oladi?",
+   "a": [
+    "Motivatsion va irodaviy tayyorlik",
+    "Faqat yozish va o'qishni bilish",
+    "Faqat yoshi 7 ga to'lishi",
+    "Faqat sumka sotib olish"
+   ],
+   "e": "Gotovnost k shkole."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Maktabga tayyorlikning ijtimoiy tomoni nima?",
+   "a": [
+    "Muloqot qila olish",
+    "Faqat yolg'iz o'ynashni yoqtirish",
+    "Faqat kompyuter",
+    "Hech narsa"
+   ],
+   "e": "Ijtimoiy tayyorlik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Gigiyenik ko'nikmalarni tarbiyalashga misol qaysi?",
+   "a": [
+    "Ovqatdan oldin qo'l yuvish",
+    "Qo'l yuvmasdan ovqatlanish",
+    "Tishni tozalamaslik",
+    "Hech narsa"
+   ],
+   "e": "KGN."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bolalarda mehnatsevarlikni tarbiyalash shakllariga misol qaysi?",
+   "a": [
+    "Navbatchilik va topshiriqlar",
+    "Bolalarga hech qanday vazifa bermaslik",
+    "Faqat jazolash",
+    "Faqat televizor"
+   ],
+   "e": "Trudovoe."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Navbatchilikning qaysi turlari bor?",
+   "a": [
+    "Oshxona, mashg'ulot, tabiat burchagi",
+    "Faqat tunda qo'riqlash",
+    "Faqat ma'muriy",
+    "Hech qanday"
+   ],
+   "e": "Dejurstvo."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bola bilan shaxsga yo'naltirilgan muloqot nimani anglatadi?",
+   "a": [
+    "Fikr va hissiyotni hurmat qilish",
+    "Faqat buyruq va taqiq bilan gapirish",
+    "Bolani e'tiborsiz qoldirish",
+    "Faqat baholash"
+   ],
+   "e": "Lichnostno-orientirovannoe."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bolaning tashabbusini qo'llab-quvvatlash nima beradi?",
+   "a": [
+    "Mustaqillik va ishonch",
+    "Itoatsizlik va qo'rquv",
+    "Hech narsa",
+    "Faqat charchoq"
+   ],
+   "e": "Tashabbus."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Montessori pedagogikasining asosiy tamoyili qaysi?",
+   "a": [
+    "\"Menga o'zim bajarishga yordam ber\"",
+    "\"Faqat kattalar aytganini qil\"",
+    "\"Jim o'tir\"",
+    "\"Hech narsaga tegma\""
+   ],
+   "e": "Montessori."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Fridrix Frebel nima bilan mashhur?",
+   "a": [
+    "\"Bolalar bog'chasi\" g'oyasi",
+    "Birinchi kosmik raketani yaratgan",
+    "Telefonni ixtiro qilgan",
+    "Avtomobil ixtirochisi"
+   ],
+   "e": "Kindergarten."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "L.S.Vigotskiyning \"yaqin rivojlanish zonasi\" nimani bildiradi?",
+   "a": [
+    "Yordam bilan bajara oladigani",
+    "Bolaning uyi yaqinidagi o'yin maydoni",
+    "Bolaning faqat mustaqil bajaradigan ishlari",
+    "Bog'cha hududi"
+   ],
+   "e": "ZBR."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "MTTda ota-onalar bilan ishlash shakllariga misol qaysi?",
+   "a": [
+    "Yig'ilish, maslahat, ochiq kun",
+    "Ota-onalarni bog'chaga kiritmaslik",
+    "Faqat to'lov talab qilish",
+    "Hech narsa"
+   ],
+   "e": "Hamkorlik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "MTT tarbiyachisining kasbiy etikasiga nima kiradi?",
+   "a": [
+    "Bolaga hurmat, sabr va maxfiylik",
+    "Bolalarni bir-biriga solishtirib kamsitish",
+    "Bola haqida ma'lumotni hammaga aytish",
+    "Qo'pollik"
+   ],
+   "e": "Etika."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bolaga jismoniy jazo qo'llash mumkinmi?",
+   "a": [
+    "Yo'q, qat'iyan taqiqlanadi",
+    "Ha, tarbiya uchun foydali",
+    "Ha, ba'zan",
+    "Ha, ota-ona ruxsat bersa"
+   ],
+   "e": "Bola huquqlari."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bolalarning xavfsizligi bo'yicha tarbiyachining asosiy vazifasi nima?",
+   "a": [
+    "Doimiy nazorat",
+    "Bolalarni nazoratsiz qoldirish",
+    "Faqat ota-ona mas'ul",
+    "Hech narsa"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Favqulodda vaziyatda (yong'in) tarbiyachi nima qiladi?",
+   "a": [
+    "Reja bo'yicha olib chiqadi",
+    "Bolalarni guruhda qoldirib, o'zi chiqadi",
+    "Hech narsa qilmaydi",
+    "Faqat telefon qiladi"
+   ],
+   "e": "Evakuatsiya."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Maktabgacha ta'lim tashkiloti qaysi qonun asosida faoliyat yuritadi?",
+   "a": [
+    "Maktabgacha ta'lim to'g'risidagi qonun",
+    "\"Yo'l harakati to'g'risida\"gi qonun",
+    "Soliq kodeksi",
+    "Bojxona kodeksi"
+   ],
+   "e": "2019-yil qonuni."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Maktabgacha yoshdagi bolalar guruhlari yoshga ko'ra qanday nomlanadi?",
+   "a": [
+    "Kichik, o'rta, katta, tayyorlov",
+    "Boshlang'ich, o'rta, yuqori, bitiruv",
+    "Birinchi, ikkinchi sinf",
+    "Faqat bitta guruh"
+   ],
+   "e": "Guruhlar."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Katta guruh bolalari yoshi qancha?",
+   "a": [
+    "5–6 yosh",
+    "2–3 yosh",
+    "7–8 yosh",
+    "1 yosh"
+   ],
+   "e": "Starshaya gruppa."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Tayyorlov guruhi bolalari yoshi qancha?",
+   "a": [
+    "6–7 yosh",
+    "3–4 yosh",
+    "4–5 yosh",
+    "8–9 yosh"
+   ],
+   "e": "Podgotovitelnaya."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Bola uchun \"o'yin — bu ish\" degan fikr nimani anglatadi?",
+   "a": [
+    "O'yin — asosiy rivojlanish faoliyati",
+    "O'yin vaqtni bekor o'tkazish",
+    "O'yin faqat dam olish",
+    "O'yinni taqiqlash kerak"
+   ],
+   "e": "O'yin ahamiyati."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Bolaning qiziquvchanligini rivojlantiruvchi savollar qanday?",
+   "a": [
+    "Ochiq, javobi ko'p variantli savollar",
+    "Faqat \"ha/yo'q\" javobli yopiq savollar",
+    "Savol bermaslik",
+    "Faqat murakkab ilmiy savollar"
+   ],
+   "e": "Ochiq savollar."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Mashg'ulotda bolalarni rag'batlantirish usuli qaysi?",
+   "a": [
+    "Maqtov va yutuqni e'tirof etish",
+    "Faqat tanqid va jazolash",
+    "E'tiborsizlik",
+    "Boshqalar bilan solishtirib kamsitish"
+   ],
+   "e": "Rag'bat."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Bolalarning ijodiy ishlari bilan ota-onalarni tanishtirish shakli qaysi?",
+   "a": [
+    "Ko'rgazma va portfolio",
+    "Ishlarni tashlab yuborish",
+    "Ishlarni yashirish",
+    "Hech narsa"
+   ],
+   "e": "Ko'rgazma."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Bolalarni turli xalqlar madaniyati bilan tanishtirish nimaga xizmat qiladi?",
+   "a": [
+    "Bag'rikenglikka",
+    "Faqat o'z xalqini kamsitishga",
+    "Hech narsaga",
+    "Faqat chet tiliga"
+   ],
+   "e": "Multikulturalizm."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Maktabgacha ta'limda sifatni baholash nimaga asoslanadi?",
+   "a": [
+    "Rivojlanish va muhit sifatiga",
+    "Faqat bino tashqi ko'rinishiga",
+    "Faqat bolalar soniga",
+    "Faqat ota-onalar to'loviga"
+   ],
+   "e": "Sifat."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Bolalarning loydan ishlashida qaysi material xavfsiz?",
+   "a": [
+    "Plastilin yoki maxsus bolalar loyi",
+    "Zaharli bo'yoqli sanoat materiallari",
+    "Shisha bo'laklari",
+    "O'tkir metall"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Applikatsiya uchun qaychi qanday bo'lishi kerak?",
+   "a": [
+    "Uchi yumaloq, bolalar qaychisi",
+    "O'tkir uchli, katta tikuvchilik qaychisi",
+    "Qaychi kerak emas",
+    "Faqat pichoq"
+   ],
+   "e": "Xavfsiz qaychi."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Bolalarga mo'yqalamni yuvish qoidasini o'rgatish nima uchun kerak?",
+   "a": [
+    "Ranglar aralashmasligi uchun",
+    "Mo'yqalamni sindirish uchun",
+    "Ahamiyatsiz",
+    "Faqat bezak uchun"
+   ],
+   "e": "Texnika."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Tabiat burchagida qanday hayvonlarni saqlash mumkin?",
+   "a": [
+    "Xavfsiz, parvarishi oson (baliq, toshbaqa)",
+    "Zaharli ilon va hasharotlar",
+    "Yovvoyi yirtqichlar",
+    "Kasal hayvonlar"
+   ],
+   "e": "Sanitariya talablari."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "STEAM mashg'ulotida \"muhandislik dizayn sikli\" qanday bosqichlardan iborat?",
+   "a": [
+    "Muammo, g'oya, qurish, sinash",
+    "Faqat qurish va tashlab ketish",
+    "Faqat ko'rish",
+    "Faqat yodlash"
+   ],
+   "e": "Design cycle."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Kompyuter o'yinlarida bolani nazorat qilish uchun nima ishlatiladi?",
+   "a": [
+    "Nazorat sozlamalari, vaqt chegarasi",
+    "Hech qanday nazoratsiz cheksiz foydalanish",
+    "Faqat taqiq",
+    "Hech narsa"
+   ],
+   "e": "Nazorat."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Nutq rivojida qo'l mayda motorikasining roli qanday?",
+   "a": [
+    "Nutq rivojiga ijobiy ta'sir",
+    "Nutqqa umuman ta'sir qilmaydi",
+    "Nutqni sekinlashtiradi",
+    "Faqat yozishga ta'sir qiladi"
+   ],
+   "e": "Motorika va nutq."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Barmoq o'yinlari (palchikovye igry) nima beradi?",
+   "a": [
+    "Motorika va nutqni rivojlantiradi",
+    "Faqat oyoq mushaklarini kuchaytiradi",
+    "Hech narsa",
+    "Faqat uyquni"
+   ],
+   "e": "Barmoq o'yinlari."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Bolalarda matematik qiziqishni oshirish uchun qanday usul qo'llanadi?",
+   "a": [
+    "Qiziqarli masala va o'yin",
+    "Faqat qat'iy yodlatish va jazolash",
+    "Matematikadan qo'rqitish",
+    "Hech narsa"
+   ],
+   "e": "Qiziqish."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Tabiatga sayr qilingandan keyin olingan taassurotlarni mustahkamlash usuli qaysi?",
+   "a": [
+    "Rasm chizish va suhbat",
+    "Hech narsa qilmaslik, unutish",
+    "Faqat uxlash",
+    "Faqat televizor"
+   ],
+   "e": "Mustahkamlash."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Tarbiyachi o'z ish tajribasini qanday umumlashtiradi?",
+   "a": [
+    "Ishlanma va taqdimot bilan",
+    "Hech kim bilan bo'lishmasdan",
+    "Faqat og'zaki maqtanib",
+    "Hech narsa"
+   ],
+   "e": "Tajriba."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Bolalar bilan ijodiy loyiha yakunida nima qilinadi?",
+   "a": [
+    "Natijalar taqdimoti va muhokama",
+    "Loyiha natijasini tashlab yuborish",
+    "Hech narsa",
+    "Faqat baholash"
+   ],
+   "e": "Loyiha yakuni."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Ilk yoshdagi bolalar bilan ishlashda qaysi faoliyat asosiy?",
+   "a": [
+    "Predmetli-manipulyativ faoliyat",
+    "Syujetli-rolli murakkab o'yinlar",
+    "O'qish va yozish",
+    "Sport musobaqalari"
+   ],
+   "e": "Ilk yosh."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Tasviriy faoliyatda bolalarning ijodiy fikrlashini rivojlantirish topshirig'i qaysi?",
+   "a": [
+    "\"Dog'ni nimaga o'xshatish mumkin?\"",
+    "\"Namunani aynan ko'chir\"",
+    "\"Jim o'tir\"",
+    "\"Hech narsa chizma\""
+   ],
+   "e": "Ijodiy topshiriq."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Nutq o'stirishda \"mnemotexnika\" nima?",
+   "a": [
+    "Sxema bilan eslab qolish",
+    "Faqat takrorlab yodlash",
+    "Faqat yozish",
+    "Hech narsa"
+   ],
+   "e": "Mnemotexnika."
+  }
+ ],
+ "kalit": "maktabgacha metodika nutq o'stirish matematik tasavvur tasviriy faoliyat tabiat STEAM"
+}

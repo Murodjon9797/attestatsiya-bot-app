@@ -799,15 +799,15 @@
   },
   {
    "nomi": "Nutq o'stirish va bolalar adabiyoti",
-   "bank": "maktabgacha_pedagogika"
+   "bank": "mtt_metodika"
   },
   {
    "nomi": "Bolalarning matematik tasavvurlarini shakllantirish",
-   "bank": "maktabgacha_pedagogika"
+   "bank": "mtt_metodika"
   },
   {
    "nomi": "Bolalar nutqini o'stirish",
-   "bank": "maktabgacha_pedagogika"
+   "bank": "mtt_metodika"
   },
   {
    "nomi": "Maktabgacha ta'limga doir me'yoriy hujjatlar",
@@ -815,7 +815,7 @@
   },
   {
    "nomi": "Nutq o'stirish nazariyasi va metodikasi",
-   "bank": "maktabgacha_pedagogika"
+   "bank": "mtt_metodika"
   },
   {
    "nomi": "Bolalarni maktab ta'limiga tayyorlash",
@@ -1240,6 +1240,34 @@
   {
    "nomi": "Metall va metallmas materiallarga gaz alangasida ishlov berish",
    "bank": "payvandlash"
+  },
+  {
+   "nomi": "Badiiy- ijodiy faoliyat",
+   "bank": "mtt_metodika"
+  },
+  {
+   "nomi": "Tabiat bilan tanishtirish va ekologik tarbiya",
+   "bank": "mtt_metodika"
+  },
+  {
+   "nomi": "MTTda boshlang'ich komp'yuter savodxonligi",
+   "bank": "mtt_metodika"
+  },
+  {
+   "nomi": "Tasviriy faoliyat metodikasi",
+   "bank": "mtt_metodika"
+  },
+  {
+   "nomi": "Tasviriy faoliyat nazariyasi va metodikasi",
+   "bank": "mtt_metodika"
+  },
+  {
+   "nomi": "MTTda bolalarni ijodkorligini rivojlantirishda sahnalashtirish",
+   "bank": "mtt_metodika"
+  },
+  {
+   "nomi": "Maktabgacha ta'limda STEAM texnologiyalari",
+   "bank": "mtt_metodika"
   }
  ],
  "tez_orada": [
@@ -1319,11 +1347,6 @@
    "kat": "tib"
   },
   {
-   "id": "t3f8adc21",
-   "nomi": "Badiiy- ijodiy faoliyat",
-   "kat": "ped"
-  },
-  {
    "id": "tc25be538",
    "nomi": "Tuproqshunoslik",
    "kat": "qx"
@@ -1334,11 +1357,6 @@
    "kat": "qx"
   },
   {
-   "id": "t69b0afbc",
-   "nomi": "Tabiat bilan tanishtirish va ekologik tarbiya",
-   "kat": "ped"
-  },
-  {
    "id": "tc89ab341",
    "nomi": "Klinik diagnostika, ichki yuqumsiz kasalliklar",
    "kat": "tib"
@@ -1347,11 +1365,6 @@
    "id": "t3dd3e7c1",
    "nomi": "Xalq tabobati",
    "kat": "tib"
-  },
-  {
-   "id": "t98ed00af",
-   "nomi": "MTTda boshlang'ich komp'yuter savodxonligi",
-   "kat": "ped"
   },
   {
    "id": "t9041a3ef",
@@ -1367,11 +1380,6 @@
    "id": "t1bf4bfec",
    "nomi": "Veterinariya sanitariya ekspertizasi",
    "kat": "qx"
-  },
-  {
-   "id": "tf71be1e9",
-   "nomi": "Tasviriy faoliyat metodikasi",
-   "kat": "ped"
   },
   {
    "id": "t7f04e3f3",
@@ -1427,11 +1435,6 @@
    "id": "t74779573",
    "nomi": "Media va axborot savodxonligi",
    "kat": "it"
-  },
-  {
-   "id": "t43fd81fb",
-   "nomi": "Tasviriy faoliyat nazariyasi va metodikasi",
-   "kat": "ped"
   },
   {
    "id": "t75ea5927",
@@ -1557,11 +1560,6 @@
    "id": "t7cb0c23c",
    "nomi": "Jinoyat-protsessual huquqi",
    "kat": "ijt"
-  },
-  {
-   "id": "tde1996a3",
-   "nomi": "MTTda bolalarni ijodkorligini rivojlantirishda sahnalashtirish",
-   "kat": "ped"
   },
   {
    "id": "tcfd40446",
@@ -1872,11 +1870,6 @@
    "id": "t014bc821",
    "nomi": "Internetga ulangan buyumlarni dasturlash",
    "kat": "it"
-  },
-  {
-   "id": "t42d2712f",
-   "nomi": "Maktabgacha ta'limda STEAM texnologiyalari",
-   "kat": "ped"
   },
   {
    "id": "t3238cbef",

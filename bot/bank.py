@@ -134,7 +134,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "biologiya", "botanika_va_osimliklar_fiziologiyasi", "osimlikshunoslik", "ekologiya", "traktorlar", "melioratsiya"]),
     ("iqt", "📈 Iqtisodiyot va boshqaruv", ["iqtisodiyot_nazariyasi", "menejment_asoslari", "buxgalteriya_hisobi", "moliya_bank"]),
     ("xiz", "✂️ Yengil sanoat, dizayn va xizmat", ["tikuvchilik", "kompyuter_grafikasi", "pazandachilik", "mehmonxona_turizm"]),
-    ("ped", "🎵 San'at va pedagogika", ["maktabgacha_pedagogika", "musiqiy_talim", "pedagogik_mahorat", "psixologiya"]),
+    ("ped", "🎵 San'at va pedagogika", ["maktabgacha_pedagogika", "musiqiy_talim", "pedagogik_mahorat", "psixologiya", "mtt_metodika"]),
     ("um", "📘 Umumta'lim fanlari", ["matematika", "fizika", "kimyo", "informatika", "jismoniy_tarbiya"]),
 ]
 
