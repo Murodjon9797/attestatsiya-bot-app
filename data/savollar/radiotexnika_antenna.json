@@ -8,7 +8,7 @@
    "b": "Antenna asoslari",
    "q": "Antennaning asosiy vazifasi nima?",
    "a": [
-    "Yuqori chastotali tok energiyasini elektromagnit to'lqinlar energiyasiga aylantirish va aksincha",
+    "Tok energiyasini to'lqin energiyasiga aylantirish",
     "Signalni kuchaytirish",
     "Signalni demodulyatsiya qilish",
     "O'zgarmas tokni o'zgaruvchan tokka aylantirish"
@@ -19,7 +19,7 @@
    "b": "Antenna asoslari",
    "q": "Antennaning yo'nalganlik diagrammasi nimani ko'rsatadi?",
    "a": [
-    "Nurlanish intensivligining fazodagi yo'nalishga bog'liqligini",
+    "Nurlanishning yo'nalishga bog'liqligini",
     "Antenna kirish qarshiligini",
     "Ishchi chastotalar oralig'ini",
     "Antenna massasini"
@@ -63,7 +63,7 @@
    "b": "Antenna asoslari",
    "q": "Antennaning nurlanish qarshiligi nimani tavsiflaydi?",
    "a": [
-    "Nurlangan quvvatni antennadagi tok bilan bog'lovchi ekvivalent qarshilikni",
+    "Nurlangan quvvat bilan bog'liq ekvivalent qarshilik",
     "Antenna simining omik qarshiligini",
     "Izolyator qarshiligini",
     "Yerga ulash qarshiligini"
@@ -110,7 +110,7 @@
     "To'g'ri ko'rinish chizig'i bo'ylab",
     "Ionosferadan qaytib",
     "Yer sirti bo'ylab egilib",
-    "Suv orqali"
+    "Suv qatlami orqali"
    ],
    "e": "Shuning uchun radiorele va sun'iy yo'ldosh aloqasida ishlatiladi."
   },
@@ -151,7 +151,7 @@
    "b": "Vibratorli antennalar",
    "q": "Logoperiodik antennaning asosiy afzalligi nima?",
    "a": [
-    "Keng chastota diapazonida ishlay olishi",
+    "Keng diapazonda ishlashi",
     "Juda kichik o'lchami",
     "Faqat bitta chastotada ishlashi",
     "Yo'nalganlikning yo'qligi"
@@ -184,7 +184,7 @@
    "b": "Apertur antennalar",
    "q": "Rupor antenna qanday hosil qilinadi?",
    "a": [
-    "To'lqin o'tkazgich uchini kengaytirish orqali",
+    "To'lqin o'tkazgich uchini kengaytirib",
     "Simni spiral shaklida o'rash orqali",
     "Bir nechta dipolni ketma-ket ulash orqali",
     "Metall plastinkani teshish orqali"
@@ -195,7 +195,7 @@
    "b": "Apertur antennalar",
    "q": "Parabolik antenna diametri ortishi bilan nima o'zgaradi?",
    "a": [
-    "Kuchaytirish ortadi, diagramma torayadi",
+    "Kuchaytirish ortadi",
     "Kuchaytirish kamayadi",
     "Diagramma kengayadi",
     "Ishchi chastota kamayadi"
@@ -206,7 +206,7 @@
    "b": "Antenna panjaralari",
    "q": "Fazalangan antenna panjarasida nur yo'nalishi qanday o'zgartiriladi?",
    "a": [
-    "Elementlarga beriladigan signal fazalarini o'zgartirib",
+    "Signal fazalarini o'zgartirib",
     "Antennani mexanik burab",
     "Chastotani o'chirib",
     "Quvvatni oshirib"
@@ -217,7 +217,7 @@
    "b": "Antenna panjaralari",
    "q": "Antenna panjarasidagi elementlar sonini oshirish nimaga olib keladi?",
    "a": [
-    "Yo'nalganlik va kuchaytirish ortadi",
+    "Yo'nalganlik ortadi",
     "Kuchaytirish kamayadi",
     "Diagramma doiraviy bo'ladi",
     "Hech narsa o'zgarmaydi"
@@ -239,7 +239,7 @@
    "b": "Yarim o'tkazgich diodlar",
    "q": "Stabilitron (Zener diodi) qaysi rejimda ishlaydi?",
    "a": [
-    "Teskari elektr teshilish rejimida",
+    "Teskari teshilish rejimida",
     "To'g'ri ulanish rejimida",
     "To'yinish rejimida",
     "Yopiq holatda faqat"
@@ -250,7 +250,7 @@
    "b": "Yarim o'tkazgich diodlar",
    "q": "Varikap qanday maqsadda ishlatiladi?",
    "a": [
-    "Kuchlanish bilan boshqariladigan sig'im sifatida",
+    "Boshqariladigan sig'im sifatida",
     "Yorug'lik manbai sifatida",
     "Tok kuchaytirgichi sifatida",
     "Saqlagich sifatida"
@@ -305,7 +305,7 @@
    "b": "Maydoniy tranzistorlar",
    "q": "Maydoniy tranzistor qanday boshqariladi?",
    "a": [
-    "Zatvorga berilgan kuchlanish (elektr maydon) orqali",
+    "Zatvor kuchlanishi orqali",
     "Baza toki orqali",
     "Kollektor toki orqali",
     "Magnit maydon orqali"
@@ -333,6 +333,2977 @@
     "f = 1 / (LC)"
    ],
    "e": "Tomson formulasi."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Elektromagnit to'lqinlarning vakuumdagi tarqalish tezligi qancha?",
+   "a": [
+    "3·10⁸ m/s",
+    "3·10⁵ m/s",
+    "340 m/s",
+    "1500 m/s"
+   ],
+   "e": "Yorug'lik tezligi."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "100 MGs chastotadagi to'lqin uzunligi qancha?",
+   "a": [
+    "3 m",
+    "30 m",
+    "0,3 m",
+    "300 m"
+   ],
+   "e": "λ = c/f."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "1 MGs chastotadagi to'lqin uzunligi qancha?",
+   "a": [
+    "300 m",
+    "3 m",
+    "30 m",
+    "3000 m"
+   ],
+   "e": "O'rta to'lqinlar."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Uzun to'lqinlar (DV) diapazoni qaysi chastotalarni o'z ichiga oladi?",
+   "a": [
+    "30–300 kGs",
+    "3–30 MGs",
+    "300–3000 MGs",
+    "30–300 GGs"
+   ],
+   "e": "Kilometrli to'lqinlar."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "O'rta to'lqinlar (SV) diapazoni qaysi?",
+   "a": [
+    "300–3000 kGs",
+    "30–300 kGs (uzun)",
+    "3–30 MGs (qisqa)",
+    "30–300 MGs (UQT)"
+   ],
+   "e": "Gektometrli."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Qisqa to'lqinlar (KV) diapazoni qaysi?",
+   "a": [
+    "3–30 MGs",
+    "300–3000 kGs",
+    "30–300 MGs",
+    "3–30 GGs"
+   ],
+   "e": "Dekametrli."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Uzun va o'rta to'lqinlar asosan qanday tarqaladi?",
+   "a": [
+    "Yer sirti bo'ylab",
+    "Faqat ionosferadan qaytib",
+    "Faqat to'g'ri ko'rinishda",
+    "Faqat sun'iy yo'ldosh orqali"
+   ],
+   "e": "Difraksiya."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Ionosfera nima?",
+   "a": [
+    "Ionlashgan qatlam",
+    "Yer osti qatlami",
+    "Okean tubi",
+    "Bulutlar qatlami"
+   ],
+   "e": "50–1000 km."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "UQT radioaloqa masofasi asosan nima bilan cheklanadi?",
+   "a": [
+    "To'g'ri ko'rinish masofasi",
+    "Ionosfera balandligi",
+    "Okean chuqurligi",
+    "Havo harorati"
+   ],
+   "e": "Antenna balandligi muhim."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Fading (so'nish) nima?",
+   "a": [
+    "Signal kuchi tebranishi",
+    "Signalning doimiy kuchayishi",
+    "Antenna sinishi",
+    "Chastotaning o'zgarmasligi"
+   ],
+   "e": "Ko'p yo'lli tarqalish."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Elektromagnit to'lqin qanday to'lqin?",
+   "a": [
+    "Ko'ndalang to'lqin",
+    "Bo'ylama to'lqin",
+    "Faqat mexanik to'lqin",
+    "Faqat tovush to'lqini"
+   ],
+   "e": "E va H vektorlari."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "To'lqinning qutblanishi nimani bildiradi?",
+   "a": [
+    "E vektori yo'nalishini",
+    "To'lqin tezligini",
+    "To'lqin uzunligini",
+    "To'lqin manbaini"
+   ],
+   "e": "Gorizontal, vertikal, aylanma."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Vertikal qutblanishli antenna qanday joylashadi?",
+   "a": [
+    "Vertikal holatda",
+    "Gorizontal holatda",
+    "Har doim 45° burchakda",
+    "Yerga yotqizilgan"
+   ],
+   "e": "Elektr vektori vertikal."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Radioto'lqinlarning so'nishi chastota ortishi bilan qanday o'zgaradi (atmosferada)?",
+   "a": [
+    "Odatda ortadi",
+    "Odatda kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Ayniqsa GGs diapazonida."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Mobil aloqa qaysi diapazonlarda ishlaydi?",
+   "a": [
+    "UQT va detsimetrli",
+    "Faqat uzun to'lqinlar",
+    "Faqat o'rta to'lqinlar",
+    "Faqat qisqa to'lqinlar"
+   ],
+   "e": "900, 1800 MGs va b."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "FM radioeshittirish O'zbekistonda asosan qaysi diapazonda?",
+   "a": [
+    "87,5–108 MGs",
+    "530–1600 kGs",
+    "2,4 GGs",
+    "150–280 kGs"
+   ],
+   "e": "UQT FM."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Wi-Fi qaysi chastotalarda ishlaydi?",
+   "a": [
+    "2,4 va 5 GGs",
+    "100 MGs (FM diapazoni)",
+    "1 MGs (o'rta to'lqin)",
+    "50 Gs (sanoat chastotasi)"
+   ],
+   "e": "IEEE 802.11."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Sun'iy yo'ldosh televideniyesi asosan qaysi diapazonda?",
+   "a": [
+    "Ku diapazoni (10–12 GGs)",
+    "Uzun to'lqinlar (150 kGs)",
+    "O'rta to'lqinlar (1 MGs)",
+    "Sanoat chastotasi (50 Gs)"
+   ],
+   "e": "Parabolik antenna."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Geostatsionar orbita balandligi qancha?",
+   "a": [
+    "Taxminan 36 000 km",
+    "400 km (past orbita)",
+    "1000 km",
+    "384 000 km (Oy masofasi)"
+   ],
+   "e": "Yer bilan bir xil davrda aylanadi."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Radiolokatsiya nima?",
+   "a": [
+    "Akslar orqali aniqlash",
+    "Musiqa eshittirish",
+    "Telefon so'zlashuvi",
+    "Matn chop etish"
+   ],
+   "e": "Radar."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Radarda masofa qanday aniqlanadi?",
+   "a": [
+    "Borib-kelish vaqti orqali",
+    "Signal rangi orqali",
+    "Antenna og'irligi orqali",
+    "Ob'ekt harorati orqali"
+   ],
+   "e": "R = c·t/2."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Doppler effekti radarda nimani aniqlashga imkon beradi?",
+   "a": [
+    "Ob'ekt tezligini",
+    "Ob'ekt rangini",
+    "Ob'ekt massasini",
+    "Ob'ekt haroratini"
+   ],
+   "e": "Chastota siljishi."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Elektromagnit spektrda radioto'lqinlar qayerda joylashgan?",
+   "a": [
+    "Eng uzun to'lqinlar sohasida",
+    "Rentgen nurlaridan qisqa",
+    "Ultrabinafsha nurlar o'rtasida",
+    "Gamma nurlaridan qisqa"
+   ],
+   "e": "Past chastotali qism."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Detsibel (dB) nimani ifodalaydi?",
+   "a": [
+    "Logarifmik nisbat birligi",
+    "Tok kuchi birligi",
+    "Kuchlanish birligi",
+    "Chastota birligi"
+   ],
+   "e": "10·lg(P2/P1)."
+  },
+  {
+   "b": "Elektromagnit to'lqinlar va tarqalish",
+   "q": "Quvvatning 2 barobar ortishi necha dB ga teng?",
+   "a": [
+    "Taxminan 3 dB",
+    "10 dB",
+    "20 dB",
+    "1 dB"
+   ],
+   "e": "10·lg2 ≈ 3."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Antenna samaradorligi (FIK) nimani ko'rsatadi?",
+   "a": [
+    "Nurlangan va berilgan quvvat nisbatini",
+    "Antenna og'irligini",
+    "Antenna rangini",
+    "Antenna narxini"
+   ],
+   "e": "Isroflar hisobga olinadi."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Yo'nalganlik diagrammasining \"asosiy bargi\" nima?",
+   "a": [
+    "Eng kuchli nurlanish yo'nalishi",
+    "Eng kuchsiz nurlanish yo'nalishi",
+    "Antenna tayanchi",
+    "Fider kabeli"
+   ],
+   "e": "Yon barglar ham bor."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Diagramma kengligi qaysi daraja bo'yicha o'lchanadi?",
+   "a": [
+    "−3 dB bo'yicha",
+    "Nol quvvat bo'yicha",
+    "Ikki barobar quvvat bo'yicha",
+    "−30 dB bo'yicha"
+   ],
+   "e": "Kenglik burchagi."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Antennaning old-orqa nisbati nimani ko'rsatadi?",
+   "a": [
+    "Old va orqa nurlanish nisbati",
+    "Antenna uzunligi va kengligi nisbati",
+    "Kirish va chiqish tok nisbati",
+    "Antenna massasi nisbati"
+   ],
+   "e": "dB da."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Fider (uzatish liniyasi) nima uchun kerak?",
+   "a": [
+    "Energiyani antennaga uzatish",
+    "Antennani bo'yash",
+    "Antennani mahkamlash",
+    "Antennani sovutish"
+   ],
+   "e": "Koaksial kabel, to'lqin o'tkazgich."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Koaksial kabelning to'lqin qarshiligi odatda qancha bo'ladi?",
+   "a": [
+    "50 yoki 75 Om",
+    "1 Om",
+    "1000 Om",
+    "5 kOm"
+   ],
+   "e": "TV — 75 Om."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Turg'un to'lqin koeffitsiyenti (KSV/SWR) 1 ga teng bo'lsa, bu nimani bildiradi?",
+   "a": [
+    "To'liq moslashuv",
+    "To'liq aks etish bor",
+    "Antenna uzilgan",
+    "Kabel qisqa tutashgan"
+   ],
+   "e": "Ideal holat."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Moslashmagan yuklamada liniyada nima hosil bo'ladi?",
+   "a": [
+    "Turg'un to'lqinlar",
+    "Faqat yuguruvchi to'lqin",
+    "Hech narsa",
+    "Faqat doimiy tok"
+   ],
+   "e": "Isroflar ortadi."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "To'lqin o'tkazgich qanday diapazonda qo'llanadi?",
+   "a": [
+    "SVCh diapazonida",
+    "Faqat uzun to'lqinlarda",
+    "Faqat o'rta to'lqinlarda",
+    "Faqat 50 Gs da"
+   ],
+   "e": "Ichi bo'sh metall quvur."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Simmetriyalovchi qurilma (balun) nima uchun kerak?",
+   "a": [
+    "Simmetrik-nosimmetrik moslash",
+    "Antennani yerga ulash",
+    "Signalni kuchaytirish",
+    "Chastotani o'zgartirish"
+   ],
+   "e": "Balanced-unbalanced."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Yer usti televideniye uchun qaysi antenna keng tarqalgan?",
+   "a": [
+    "Yagi-Uda",
+    "Parabolik antenna faqat",
+    "Rupor antenna",
+    "Ramka antenna"
+   ],
+   "e": "Direktorli antenna."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Yagi antennasida direktorlar qayerda joylashadi?",
+   "a": [
+    "Aktiv vibrator oldida",
+    "Reflektor ortida",
+    "Antenna ustunida pastda",
+    "Kabel ichida"
+   ],
+   "e": "Nurlanish yo'nalishida."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Ramka (magnit) antenna qayerda qo'llanadi?",
+   "a": [
+    "Uzun va o'rta to'lqin priyomniklarida",
+    "Sun'iy yo'ldosh aloqasida faqat",
+    "Radar tizimlarida faqat",
+    "Mobil bazaviy stansiyalarda"
+   ],
+   "e": "Ferrit antenna."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Spiral antenna qanday qutblanish beradi?",
+   "a": [
+    "Aylanma qutblanish",
+    "Faqat vertikal qutblanish",
+    "Faqat gorizontal qutblanish",
+    "Qutblanishsiz nurlanish"
+   ],
+   "e": "Sun'iy yo'ldosh aloqasi."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Mikropolosali (patch) antenna qayerda ko'p ishlatiladi?",
+   "a": [
+    "Mobil qurilmalar va GPS da",
+    "Faqat uzun to'lqinli stansiyalarda",
+    "Faqat radioeshittirish minoralarida",
+    "Faqat kemalarda"
+   ],
+   "e": "Yassi, ixcham."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Antenna ishchi chastota oralig'i qanday tavsiflanadi?",
+   "a": [
+    "O'tkazish polosasi",
+    "Antenna og'irligi",
+    "Antenna balandligi",
+    "Kabel uzunligi"
+   ],
+   "e": "Moslashuv saqlanadi."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Antennani yashindan himoya qilish uchun nima o'rnatiladi?",
+   "a": [
+    "Yashin qaytargich",
+    "Qo'shimcha kuchaytirgich",
+    "Chastota filtri faqat",
+    "Bo'yoq qatlami"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Bazaviy stansiya antennalari odatda qanday turda?",
+   "a": [
+    "Sektorli panel antennalar",
+    "Ramka antennalar",
+    "Ferrit antennalar",
+    "Rupor faqat"
+   ],
+   "e": "120° sektorlar."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "MIMO texnologiyasi nimani anglatadi?",
+   "a": [
+    "Ko'p antennali tizim",
+    "Bitta antenna tizimi",
+    "Faqat simli aloqa",
+    "Faqat analog aloqa"
+   ],
+   "e": "Wi-Fi, LTE."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Antenna kuchaytirishi 10 dBi bo'lsa, quvvat bo'yicha necha barobar?",
+   "a": [
+    "10 barobar",
+    "2 barobar",
+    "100 barobar",
+    "3 barobar"
+   ],
+   "e": "10·lg(10) = 10."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Antennalarning o'zaro (resiprokallik) tamoyili nimani anglatadi?",
+   "a": [
+    "Uzatish va qabul bir xil",
+    "Faqat uzatishda ishlaydi",
+    "Faqat qabulda ishlaydi",
+    "Xossalari doim farq qiladi"
+   ],
+   "e": "Resiprokallik."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Teleskopik antenna qayerda ishlatiladi?",
+   "a": [
+    "Portativ radiopriyomniklarda",
+    "Sun'iy yo'ldoshlarda faqat",
+    "Radiolokatsion stansiyalarda",
+    "Mobil bazaviy stansiyalarda"
+   ],
+   "e": "Uzunligi o'zgaradi."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Antenna balandligini oshirish UQT aloqa masofasiga qanday ta'sir qiladi?",
+   "a": [
+    "Masofani oshiradi",
+    "Masofani kamaytiradi",
+    "Ta'sir qilmaydi",
+    "Aloqani butunlay uzadi"
+   ],
+   "e": "To'g'ri ko'rinish."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Kontr-pozatsiya (yerga ulash tizimi) qaysi antennalarda kerak?",
+   "a": [
+    "Vertikal monopol antennalarda",
+    "Parabolik antennalarda",
+    "Rupor antennalarda",
+    "Ramka antennalarda"
+   ],
+   "e": "Sun'iy yer."
+  },
+  {
+   "b": "Antennalar (davomi) va fiderlar",
+   "q": "Antenna kirish qarshiligi fider to'lqin qarshiligiga teng bo'lsa nima bo'ladi?",
+   "a": [
+    "Maksimal quvvat uzatiladi",
+    "Quvvat to'liq aks etadi",
+    "Fider kuyadi",
+    "Signal yo'qoladi"
+   ],
+   "e": "Moslashuv."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Yarim o'tkazgichga misol qaysi?",
+   "a": [
+    "Kremniy",
+    "Mis",
+    "Shisha",
+    "Rezina"
+   ],
+   "e": "Germaniy ham."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "n-tipli yarim o'tkazgichda asosiy zaryad tashuvchilar qaysilar?",
+   "a": [
+    "Elektronlar",
+    "Kovaklar",
+    "Ionlar",
+    "Protonlar"
+   ],
+   "e": "Donor aralashma."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "p-tipli yarim o'tkazgichda asosiy zaryad tashuvchilar qaysilar?",
+   "a": [
+    "Kovaklar",
+    "Elektronlar",
+    "Neytronlar",
+    "Ionlar"
+   ],
+   "e": "Akseptor aralashma."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Diod to'g'ri ulanganda qaysi elektrodga musbat kuchlanish beriladi?",
+   "a": [
+    "Anodga",
+    "Katodga",
+    "Bazaga",
+    "Zatvorga"
+   ],
+   "e": "Tok o'tadi."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "To'g'rilagich (vypryamitel) nima qiladi?",
+   "a": [
+    "O'zgaruvchan tokni o'zgarmasga aylantiradi",
+    "O'zgarmas tokni o'zgaruvchanga aylantiradi",
+    "Kuchlanishni bir necha marta oshiradi",
+    "Signal chastotasini oshiradi"
+   ],
+   "e": "Diodlar asosida."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Ko'prik sxemali to'g'rilagichda nechta diod bor?",
+   "a": [
+    "4 ta",
+    "1 ta",
+    "2 ta",
+    "6 ta"
+   ],
+   "e": "Ikki yarim davrli."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "To'g'rilangan kuchlanishni silliqlash uchun nima ishlatiladi?",
+   "a": [
+    "Kondensator filtr",
+    "Ketma-ket rezistor",
+    "Qo'shimcha diod",
+    "Kuchaytiruvchi transformator"
+   ],
+   "e": "Pulsatsiyani kamaytiradi."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Svetodiod (LED) nima?",
+   "a": [
+    "Yorug'lik chiqaruvchi diod",
+    "Yorug'likni qabul qiluvchi rezistor",
+    "Kuchaytirgich tranzistor",
+    "Kondensator"
+   ],
+   "e": "Light Emitting Diode."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Fotodiod qanday ishlaydi?",
+   "a": [
+    "Yorug'likdan tok hosil qiladi",
+    "Yorug'lik chiqaradi",
+    "Tovush chiqaradi",
+    "Issiqlik chiqaradi"
+   ],
+   "e": "Datchik."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Tranzistor qanday maqsadda ishlatiladi?",
+   "a": [
+    "Kuchaytirish va kalit",
+    "Faqat yoritish uchun",
+    "Faqat isitish uchun",
+    "Faqat sovutish uchun"
+   ],
+   "e": "Asosiy aktiv element."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "n-p-n tranzistorda emitter qaysi tipda bo'ladi?",
+   "a": [
+    "n-tip",
+    "p-tip",
+    "Dielektrik",
+    "Metall"
+   ],
+   "e": "Baza — p."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Tranzistor kalit rejimida qaysi holatlarda ishlaydi?",
+   "a": [
+    "Yopiq va to'yinish",
+    "Faqat chiziqli rejimda",
+    "Faqat teskari rejimda",
+    "Faqat qizib ketish rejimida"
+   ],
+   "e": "Raqamli sxemalar."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Rezistor nima?",
+   "a": [
+    "Qarshilik elementi",
+    "Sig'im elementi",
+    "Induktivlik elementi",
+    "Yarim o'tkazgichli kalit"
+   ],
+   "e": "Om."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Rezistor qarshiligi qanday birlikda o'lchanadi?",
+   "a": [
+    "Om",
+    "Farad",
+    "Genri",
+    "Vatt"
+   ],
+   "e": "Ω."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Kondensator sig'imi qanday birlikda o'lchanadi?",
+   "a": [
+    "Farad",
+    "Om",
+    "Genri",
+    "Volt"
+   ],
+   "e": "F."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Induktivlik qanday birlikda o'lchanadi?",
+   "a": [
+    "Genri",
+    "Farad",
+    "Om",
+    "Amper"
+   ],
+   "e": "Gn."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Kondensatorning o'zgaruvchan tokka qarshiligi chastota ortishi bilan qanday o'zgaradi?",
+   "a": [
+    "Kamayadi",
+    "Ortadi",
+    "O'zgarmaydi",
+    "Nolga teng bo'ladi har doim"
+   ],
+   "e": "Xc = 1/(2πfC)."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "G'altakning (induktivlik) o'zgaruvchan tokka qarshiligi chastota ortishi bilan qanday o'zgaradi?",
+   "a": [
+    "Ortadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "XL = 2πfL."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Om qonuni qanday ifodalanadi?",
+   "a": [
+    "I = U / R",
+    "U = I / R",
+    "R = U · I",
+    "I = R · U"
+   ],
+   "e": "Zanjir qismi uchun."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Ketma-ket ulangan rezistorlar umumiy qarshiligi qanday topiladi?",
+   "a": [
+    "R = R₁ + R₂ + ...",
+    "1/R = 1/R₁ + 1/R₂",
+    "R = R₁ · R₂",
+    "R = R₁ − R₂"
+   ],
+   "e": "Qo'shiladi."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Parallel ulangan ikkita 10 Om li rezistorning umumiy qarshiligi qancha?",
+   "a": [
+    "5 Om",
+    "20 Om",
+    "10 Om",
+    "100 Om"
+   ],
+   "e": "R/2."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Elektr quvvati formulasi qaysi?",
+   "a": [
+    "P = U · I",
+    "P = U / I",
+    "P = I / U",
+    "P = U + I"
+   ],
+   "e": "Vatt."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Integral mikrosxema nima?",
+   "a": [
+    "Kristalldagi ko'p elementlar",
+    "Bitta alohida rezistor",
+    "Bitta alohida kondensator",
+    "Simli montaj ulanishi"
+   ],
+   "e": "IC."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Operatsion kuchaytirgich qanday xususiyatga ega?",
+   "a": [
+    "Katta kuchaytirish",
+    "Kuchaytirmaydi, faqat uzatadi",
+    "Yorug'lik chiqaradi",
+    "Tovush chiqaradi"
+   ],
+   "e": "Teskari aloqa bilan."
+  },
+  {
+   "b": "Elektronika asoslari",
+   "q": "Multimetr bilan nimani o'lchash mumkin?",
+   "a": [
+    "Kuchlanish, tok, qarshilik",
+    "Faqat haroratni",
+    "Faqat masofani",
+    "Faqat og'irlikni"
+   ],
+   "e": "Universal asbob."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Kuchaytirgichning kuchaytirish koeffitsiyenti nima?",
+   "a": [
+    "Chiqish/kirish nisbati",
+    "Kirish va chiqish yig'indisi",
+    "Tok va kuchlanish ko'paytmasi",
+    "Chastotalar nisbati"
+   ],
+   "e": "K = Uchiq/Ukir."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Manfiy teskari aloqa kuchaytirgichga qanday ta'sir qiladi?",
+   "a": [
+    "Barqarorlikni oshiradi",
+    "Kuchaytirishni cheksiz oshiradi",
+    "Kuchaytirgichni o'chiradi",
+    "Hech qanday ta'sir qilmaydi"
+   ],
+   "e": "Buzilishlar kamayadi."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Musbat teskari aloqa qaysi qurilmada ishlatiladi?",
+   "a": [
+    "Generatorlarda",
+    "To'g'rilagichlarda",
+    "Filtrlarda",
+    "Saqlagichlarda"
+   ],
+   "e": "Avtotebranishlar."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Avtogenerator ishlashi uchun qaysi shartlar kerak?",
+   "a": [
+    "Amplituda va faza balansi",
+    "Faqat yuqori kuchlanish",
+    "Faqat past harorat",
+    "Faqat katta qarshilik"
+   ],
+   "e": "Barkgauzen sharti."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Kvars rezonatori generatorga nima beradi?",
+   "a": [
+    "Chastota barqarorligi",
+    "Katta quvvat",
+    "Past chastota",
+    "Shovqin"
+   ],
+   "e": "Kvars generator."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "LC-konturda qanday tebranishlar hosil bo'ladi?",
+   "a": [
+    "Elektromagnit tebranishlar",
+    "Mexanik tebranishlar",
+    "Tovush tebranishlari",
+    "Issiqlik tebranishlari"
+   ],
+   "e": "Energiya almashinuvi."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Konturning asllik koeffitsiyenti (Q) nimani tavsiflaydi?",
+   "a": [
+    "Rezonans o'tkirligini",
+    "Kontur rangini",
+    "Kontur og'irligini",
+    "Kontur narxini"
+   ],
+   "e": "Katta Q — tor polosa."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Modulyatsiya nima?",
+   "a": [
+    "Tashuvchi parametrini o'zgartirish",
+    "Signalni o'chirish",
+    "Signalni kuchaytirish faqat",
+    "Antennani burash"
+   ],
+   "e": "AM, FM, PM."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Chastota modulyatsiyasida (FM) tashuvchining qaysi parametri o'zgaradi?",
+   "a": [
+    "Chastotasi",
+    "Amplitudasi",
+    "Rangi",
+    "Uzunligi"
+   ],
+   "e": "Shovqinga chidamli."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Faza modulyatsiyasida nima o'zgaradi?",
+   "a": [
+    "Tashuvchi fazasi",
+    "Tashuvchi amplitudasi",
+    "Antenna balandligi",
+    "Kabel uzunligi"
+   ],
+   "e": "PM."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "FM ning AM ga nisbatan afzalligi nima?",
+   "a": [
+    "Shovqinga yuqori chidamlilik",
+    "Kam polosa egallashi",
+    "Uzoq masofaga yetishi har doim",
+    "Oddiyroq qurilmalar"
+   ],
+   "e": "Sifatli tovush."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Demodulyatsiya (detektorlash) nima?",
+   "a": [
+    "Xabarni ajratish",
+    "Signalni modulyatsiya qilish",
+    "Antennani yasash",
+    "Signalni kuchaytirish"
+   ],
+   "e": "Qabul qilgichda."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "AM signalini detektorlash uchun oddiy sxemada nima ishlatiladi?",
+   "a": [
+    "Diodli detektor",
+    "Kvars generator",
+    "Transformator faqat",
+    "Antenna kuchaytirgichi"
+   ],
+   "e": "Amplituda detektori."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Supergeterodinli priyomnikning asosiy xususiyati nima?",
+   "a": [
+    "Oraliq chastotaga o'zgartirish",
+    "Signal kuchaytirilmasdan eshitiladi",
+    "Faqat detektor bilan ishlaydi",
+    "Antennasiz ishlaydi"
+   ],
+   "e": "Geterodin va aralashtirgich."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "AM priyomniklarda standart oraliq chastota qancha?",
+   "a": [
+    "465 kGs",
+    "10,7 MGs",
+    "50 Gs",
+    "2,4 GGs"
+   ],
+   "e": "FM da — 10,7 MGs."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "FM priyomniklarda standart oraliq chastota qancha?",
+   "a": [
+    "10,7 MGs",
+    "465 kGs",
+    "1 kGs",
+    "100 MGs"
+   ],
+   "e": "UQT."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Priyomnikning sezgirligi nimani bildiradi?",
+   "a": [
+    "Kuchsiz signalni qabul qilish",
+    "Kuchli signallarni o'tkazmasligini",
+    "Faqat ovoz balandligini",
+    "Faqat og'irligini"
+   ],
+   "e": "mkV da."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Priyomnikning tanlovchanligi (selektivligi) nima?",
+   "a": [
+    "Kerakli signalni ajratish",
+    "Ovoz balandligi",
+    "Quvvat iste'moli",
+    "Og'irligi"
+   ],
+   "e": "Filtrlar."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Geterodin nima?",
+   "a": [
+    "Mahalliy generator",
+    "Antenna turi",
+    "Kuchaytirgich turi",
+    "Karnay turi"
+   ],
+   "e": "Aralashtirish uchun."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Past chastotalar filtri (FNCh) nima qiladi?",
+   "a": [
+    "Past chastotalarni o'tkazadi",
+    "Yuqori chastotalarni o'tkazadi",
+    "Barcha chastotalarni so'ndiradi",
+    "Faqat bitta chastotani o'tkazadi"
+   ],
+   "e": "FVCh — teskarisi."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Polosali filtr nima qiladi?",
+   "a": [
+    "Chastota oralig'ini o'tkazadi",
+    "Barcha chastotalarni o'tkazadi",
+    "Hech narsani o'tkazmaydi",
+    "Faqat doimiy tokni o'tkazadi"
+   ],
+   "e": "Tanlovchanlik."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Avtomatik kuchaytirishni rostlash (ARU) nima qiladi?",
+   "a": [
+    "Darajani barqarorlashtiradi",
+    "Chastotani o'zgartiradi",
+    "Antennani buradi",
+    "Ovozni o'chiradi"
+   ],
+   "e": "Fading ta'sirini kamaytiradi."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Raqamli modulyatsiyaga misol qaysi?",
+   "a": [
+    "QAM, PSK, FSK",
+    "AM va FM faqat analog",
+    "Faqat ovoz",
+    "Faqat musiqa"
+   ],
+   "e": "Raqamli aloqa."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Analog-raqamli o'zgartirish (ADC) da diskretizatsiya chastotasi qanday tanlanadi (Kotelnikov teoremasi)?",
+   "a": [
+    "Kamida 2 marta katta",
+    "Signal chastotasiga teng",
+    "Signal chastotasidan kichik",
+    "Ixtiyoriy"
+   ],
+   "e": "Nayquist."
+  },
+  {
+   "b": "Kuchaytirgichlar, generatorlar va modulyatsiya",
+   "q": "Shovqin nisbati (SNR) nima?",
+   "a": [
+    "Signal/shovqin nisbati",
+    "Ikki signal yig'indisi",
+    "Tok va kuchlanish nisbati",
+    "Antenna uzunligi"
+   ],
+   "e": "dB da."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Ossillograf nima uchun ishlatiladi?",
+   "a": [
+    "Signal shaklini kuzatish",
+    "Faqat tok kuchini o'lchash",
+    "Faqat haroratni o'lchash",
+    "Signal chiqarish"
+   ],
+   "e": "Vaqt bo'yicha grafik."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Chastotomer nimani o'lchaydi?",
+   "a": [
+    "Signal chastotasini",
+    "Signal shaklini",
+    "Zanjir qarshiligini",
+    "Muhit haroratini"
+   ],
+   "e": "Gs da."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Spektr analizatori nimani ko'rsatadi?",
+   "a": [
+    "Chastota tarkibini",
+    "Faqat vaqt diagrammasini",
+    "Faqat tok kuchini",
+    "Faqat haroratni"
+   ],
+   "e": "Spektr."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Signal generatori nima uchun ishlatiladi?",
+   "a": [
+    "Sinov signalini hosil qilish",
+    "Signal shaklini ko'rsatish",
+    "Qarshilikni o'lchash",
+    "Haroratni o'lchash"
+   ],
+   "e": "Sozlash ishlari."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Raqamli televideniye standarti (O'zbekistonda) qaysi?",
+   "a": [
+    "DVB-T2",
+    "NTSC",
+    "SECAM",
+    "PAL faqat"
+   ],
+   "e": "Yer usti raqamli TV."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Analog televideniyedan raqamliga o'tishning afzalligi nima?",
+   "a": [
+    "Ko'proq kanal",
+    "Kamroq kanal",
+    "Yomonroq sifat",
+    "Ko'proq shovqin"
+   ],
+   "e": "Siqish (MPEG)."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Video siqish standartiga misol qaysi?",
+   "a": [
+    "MPEG-4 / H.264",
+    "MP3 (audio)",
+    "ZIP (arxiv)",
+    "PDF (hujjat)"
+   ],
+   "e": "Video kodek."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "GSM qaysi avlod mobil aloqa standarti?",
+   "a": [
+    "2G",
+    "3G",
+    "4G",
+    "5G"
+   ],
+   "e": "Global System for Mobile."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "LTE qaysi avlod mobil aloqaga kiradi?",
+   "a": [
+    "4G",
+    "2G",
+    "3G",
+    "1G"
+   ],
+   "e": "Long Term Evolution."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "5G aloqaning asosiy afzalligi nima?",
+   "a": [
+    "Yuqori tezlik",
+    "Faqat ovozli aloqa",
+    "Past tezlik",
+    "Faqat SMS"
+   ],
+   "e": "IoT."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Uyali (sotali) aloqada \"sota\" nima?",
+   "a": [
+    "Bazaviy stansiya hududi",
+    "Telefon apparati",
+    "SIM-karta",
+    "Kabel turi"
+   ],
+   "e": "Chastotalarni qayta ishlatish."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Handover nima?",
+   "a": [
+    "Sotalar orasida o'tish",
+    "Telefonni o'chirish",
+    "SIM-kartani almashtirish",
+    "Batareyani zaryadlash"
+   ],
+   "e": "Harakatdagi aloqa."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "GPS tizimi nima uchun ishlatiladi?",
+   "a": [
+    "Joylashuvni aniqlash",
+    "Musiqa tinglash",
+    "Video ko'rish",
+    "Matn yozish"
+   ],
+   "e": "Sun'iy yo'ldoshlar."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Optik tolali aloqaning asosiy afzalligi nima?",
+   "a": [
+    "Katta o'tkazish qobiliyati",
+    "Radioto'lqinlar bilan ishlashi",
+    "Elektr tokini uzatishi",
+    "Arzon mis simlardan iboratligi"
+   ],
+   "e": "Yorug'lik signali."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Optik tolada signal qanday uzatiladi?",
+   "a": [
+    "To'liq ichki qaytish",
+    "Elektr toki orqali",
+    "Tovush to'lqini orqali",
+    "Magnit maydoni orqali"
+   ],
+   "e": "Lazer yoki LED."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Radioreley aloqa qanday amalga oshiriladi?",
+   "a": [
+    "Stansiyalar zanjiri orqali",
+    "Faqat ionosfera orqali",
+    "Faqat kabel orqali",
+    "Faqat sun'iy yo'ldosh orqali"
+   ],
+   "e": "40–50 km oraliq."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Bluetooth qaysi masofada ishlaydi (odatda)?",
+   "a": [
+    "O'nlab metr",
+    "100 km",
+    "1000 km",
+    "Cheksiz"
+   ],
+   "e": "Yaqin masofali aloqa."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "NFC texnologiyasi qanday masofada ishlaydi?",
+   "a": [
+    "Bir necha santimetr",
+    "Bir necha kilometr",
+    "100 metr",
+    "10 km"
+   ],
+   "e": "Kontaktsiz to'lov."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Elektromagnit moslashuvchanlik (EMS) nimani anglatadi?",
+   "a": [
+    "Xalaqitsiz ishlash",
+    "Qurilmalarning rangi bir xilligi",
+    "Faqat bitta qurilma ishlashi",
+    "Elektr tokining yo'qligi"
+   ],
+   "e": "EMC."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Radiochastota spektrini kim taqsimlaydi (xalqaro darajada)?",
+   "a": [
+    "ITU",
+    "YUNESKO",
+    "FIFA",
+    "JSST"
+   ],
+   "e": "Radioreglament."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Yuqori chastotali nurlanishdan himoya uchun nima qilinadi?",
+   "a": [
+    "Ekranlash va xavfsiz masofa",
+    "Antennani ushlab turish",
+    "Uzatgichni qo'l bilan sozlash",
+    "Himoya kerak emas"
+   ],
+   "e": "Sanitariya me'yorlari."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Radio uzatgichning asosiy qismlari qaysilar?",
+   "a": [
+    "Generator, modulyator, antenna",
+    "Faqat karnay",
+    "Faqat mikrofon",
+    "Faqat batareya"
+   ],
+   "e": "Uzatish zanjiri."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Radiopriyomnikning asosiy qismlari qaysilar?",
+   "a": [
+    "Antenna, detektor, karnay",
+    "Faqat generator",
+    "Faqat modulyator",
+    "Faqat mikrofon"
+   ],
+   "e": "Qabul zanjiri."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Radioni ixtiro qilganlardan biri sifatida kim tan olinadi?",
+   "a": [
+    "Popov va Markoni",
+    "T. Edison",
+    "A. Bell",
+    "N. Tesla faqat"
+   ],
+   "e": "1895-yil."
+  },
+  {
+   "b": "Aloqa tizimlari, televideniye va o'lchashlar",
+   "q": "Radio kuni (rus an'anasida) qachon nishonlanadi?",
+   "a": [
+    "7-may",
+    "1-yanvar",
+    "8-mart",
+    "9-may"
+   ],
+   "e": "Popov tajribasi."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Ikkilik sanoq sistemasida qaysi raqamlar ishlatiladi?",
+   "a": [
+    "0 va 1",
+    "0–9",
+    "1–8",
+    "A–F"
+   ],
+   "e": "Raqamli texnika asosi."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Mantiqiy \"VA\" (AND) elementi chiqishida qachon 1 bo'ladi?",
+   "a": [
+    "Barcha kirishlar 1 bo'lganda",
+    "Kamida bitta kirish 1 bo'lganda",
+    "Barcha kirishlar 0 bo'lganda",
+    "Har doim"
+   ],
+   "e": "Konyunksiya."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Mantiqiy \"YOKI\" (OR) elementi chiqishida qachon 1 bo'ladi?",
+   "a": [
+    "Kamida bitta kirish 1 bo'lganda",
+    "Barcha kirishlar 1 bo'lgandagina",
+    "Barcha kirishlar 0 bo'lganda",
+    "Hech qachon"
+   ],
+   "e": "Diz'yunksiya."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "\"EMAS\" (NOT) elementi nima qiladi?",
+   "a": [
+    "Signalni teskarisiga aylantiradi",
+    "Signalni kuchaytiradi",
+    "Ikki signalni qo'shadi",
+    "Signalni xotirada saqlaydi"
+   ],
+   "e": "Inversiya."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Trigger nima?",
+   "a": [
+    "Bir bitli xotira elementi",
+    "Signal kuchaytirgichi",
+    "Antenna elementi",
+    "Qarshilik elementi"
+   ],
+   "e": "Ikki barqaror holat."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Mikrokontroller nima?",
+   "a": [
+    "Bitta mikrosxemadagi kompyuter",
+    "Faqat rezistor",
+    "Faqat antenna",
+    "Faqat transformator"
+   ],
+   "e": "Arduino, STM32."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Raqamli signalning analogdan afzalligi nima?",
+   "a": [
+    "Shovqinga chidamlilik",
+    "Har doim kichik hajm talab qilishi",
+    "Uzatish uchun chastota kerak emasligi",
+    "Faqat bitta qiymat bo'lishi"
+   ],
+   "e": "Xatolarni tuzatish."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Bit tezligi (bitreyt) qanday birlikda o'lchanadi?",
+   "a": [
+    "bit/s",
+    "Gs",
+    "V",
+    "Om"
+   ],
+   "e": "Mbit/s."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Agar f = 50 MGs bo'lsa, to'lqin uzunligi qancha?",
+   "a": [
+    "6 m",
+    "60 m",
+    "0,6 m",
+    "600 m"
+   ],
+   "e": "3·10⁸ / 5·10⁷."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "λ = 0,5 m bo'lsa, chastota qancha?",
+   "a": [
+    "600 MGs",
+    "60 MGs",
+    "6 GGs",
+    "150 MGs"
+   ],
+   "e": "c/λ."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "300 MGs chastotali yarim to'lqinli vibrator uzunligi taxminan qancha?",
+   "a": [
+    "0,5 m",
+    "1 m",
+    "0,25 m",
+    "2 m"
+   ],
+   "e": "λ = 1 m, λ/2 = 0,5 m."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "150 MGs chastota uchun chorak to'lqinli monopol uzunligi qancha?",
+   "a": [
+    "0,5 m",
+    "2 m",
+    "1 m",
+    "0,25 m"
+   ],
+   "e": "λ = 2 m."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "L = 1 mGn, C = 1 nF bo'lgan konturning rezonans chastotasi taxminan qancha?",
+   "a": [
+    "~159 kGs",
+    "~1,59 MGs",
+    "~15,9 kGs",
+    "~1 GGs"
+   ],
+   "e": "1/(2π√(LC))."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Kuchlanish 12 V, qarshilik 4 Om bo'lsa, tok kuchi qancha?",
+   "a": [
+    "3 A",
+    "48 A",
+    "0,33 A",
+    "16 A"
+   ],
+   "e": "I = U/R."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Tok 2 A, kuchlanish 220 V bo'lsa, quvvat qancha?",
+   "a": [
+    "440 Vt",
+    "110 Vt",
+    "222 Vt",
+    "0,01 Vt"
+   ],
+   "e": "P = U·I."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Kuchaytirish 20 dB bo'lsa, kuchlanish bo'yicha necha barobar?",
+   "a": [
+    "10 barobar",
+    "20 barobar",
+    "100 barobar",
+    "2 barobar"
+   ],
+   "e": "20·lg(K)."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Quvvat bo'yicha kuchaytirish 20 dB bo'lsa, necha barobar?",
+   "a": [
+    "100 barobar",
+    "20 barobar",
+    "10 barobar",
+    "2 barobar"
+   ],
+   "e": "10·lg(K)."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Transformatorda birlamchi o'ramlar 1000, ikkilamchi 100 bo'lsa, 220 V kirishda chiqish qancha?",
+   "a": [
+    "22 V",
+    "2200 V",
+    "220 V",
+    "2,2 V"
+   ],
+   "e": "Transformatsiya koeffitsiyenti."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Pasaytiruvchi transformator nima qiladi?",
+   "a": [
+    "Kuchlanishni pasaytiradi",
+    "Kuchlanishni oshiradi",
+    "Chastotani oshiradi",
+    "Tokni o'zgarmasga aylantiradi"
+   ],
+   "e": "Ikkilamchi o'ramlar kam."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Kondensatorlar parallel ulanganda umumiy sig'im qanday topiladi?",
+   "a": [
+    "C = C₁ + C₂",
+    "1/C = 1/C₁ + 1/C₂",
+    "C = C₁ · C₂",
+    "C = C₁ − C₂"
+   ],
+   "e": "Qo'shiladi."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Kondensatorlar ketma-ket ulanganda umumiy sig'im qanday?",
+   "a": [
+    "Eng kichik sig'imdan ham kichik",
+    "Sig'imlar yig'indisiga teng",
+    "Eng katta sig'imga teng",
+    "Sig'imlar ko'paytmasiga teng"
+   ],
+   "e": "1/C = Σ1/Ci."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Akkumulyator sig'imi qanday birlikda o'lchanadi?",
+   "a": [
+    "A·soat (mA·soat)",
+    "Volt (V)",
+    "Om (Ω)",
+    "Gerts (Gs)"
+   ],
+   "e": "Zaryad miqdori."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Kirxgofning birinchi qonuni nimani bildiradi?",
+   "a": [
+    "Toklar yig'indisi teng",
+    "Kuchlanish tokka teng",
+    "Qarshilik doim nolga teng",
+    "Quvvat o'zgarmaydi"
+   ],
+   "e": "Tok qonuni."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Sinusoidal tokning amaldagi qiymati amplituda bilan qanday bog'langan?",
+   "a": [
+    "Amplituda / √2",
+    "Amplituda × 2",
+    "Amplituda / 2",
+    "Amplituda²"
+   ],
+   "e": "≈ 0,707."
+  },
+  {
+   "b": "Raqamli texnika va hisoblash masalalari",
+   "q": "Davr (T) va chastota (f) bog'lanishi qanday?",
+   "a": [
+    "f = 1 / T",
+    "f = T",
+    "f = 2T",
+    "f = T²"
+   ],
+   "e": "Gerts."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Elektron platalarni kavsharlashda nima ishlatiladi?",
+   "a": [
+    "Kavsharlagich va flyus",
+    "Payvand apparati",
+    "Bolg'a va mix",
+    "Elim va lenta"
+   ],
+   "e": "Montaj."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Kavsharlashda flyus nima uchun kerak?",
+   "a": [
+    "Oksidlarni tozalash",
+    "Kavsharni sovutish uchun",
+    "Platani bo'yash uchun",
+    "Tokni oshirish uchun"
+   ],
+   "e": "Kanifol."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Bosma plata nima?",
+   "a": [
+    "O'tkazuvchi yo'lkali taxta",
+    "Antenna qurilmasi turi",
+    "Batareya korpusi turi",
+    "Kabel o'rovchi g'altak"
+   ],
+   "e": "PCB."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Elektrostatik razryaddan himoyalanish uchun nima ishlatiladi?",
+   "a": [
+    "Antistatik bilakuzuk",
+    "Oddiy rezina qo'lqop",
+    "Metall qisqich va sim",
+    "Hech qanday vosita"
+   ],
+   "e": "Mikrosxemalar sezgir."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Nosozlikni qidirishda birinchi navbatda nima tekshiriladi?",
+   "a": [
+    "Ta'minot kuchlanishi",
+    "Korpus rangi",
+    "Qurilma og'irligi",
+    "Ishlab chiqarilgan sana"
+   ],
+   "e": "Ta'minot bloki."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Rezistor rangli markirovkasi nimani bildiradi?",
+   "a": [
+    "Qarshilik va aniqlikni",
+    "Rezistor narxini",
+    "Rezistor og'irligini",
+    "Ishlab chiqaruvchini"
+   ],
+   "e": "Rangli halqalar."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Elektrolitik kondensatorni ulashda nimaga e'tibor beriladi?",
+   "a": [
+    "Qutblarga (+ va −)",
+    "Korpus rangiga",
+    "Og'irligiga qarab",
+    "Ishlab chiqaruvchiga"
+   ],
+   "e": "Teskari ulansa portlashi mumkin."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Qisqa tutashuv nima?",
+   "a": [
+    "Juda katta tok oqishi",
+    "Zanjirning uzilishi",
+    "Kuchlanishning yo'qligi",
+    "Chastotaning o'zgarishi"
+   ],
+   "e": "Xavfli holat."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Saqlagich (predoxranitel) vazifasi nima?",
+   "a": [
+    "Zanjirni uzish",
+    "Tokni kuchaytirish",
+    "Kuchlanishni oshirish",
+    "Signalni filtrlash"
+   ],
+   "e": "Himoya."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Kuchlanish ostidagi qurilmani ta'mirlash haqida qaysi qoida to'g'ri?",
+   "a": [
+    "Ta'mirdan oldin ta'minotdan uziladi",
+    "Ta'minot ulangan holda ta'mirlanadi",
+    "Nam qo'l bilan ishlash mumkin",
+    "Himoya vositasi kerak emas"
+   ],
+   "e": "Elektr xavfsizligi."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Yuqori kuchlanishli kondensatorlar bilan ishlashda nima qilinadi?",
+   "a": [
+    "Oldin razryadlanadi",
+    "Darhol qo'l bilan ushlanadi",
+    "Suvda yuviladi",
+    "Himoyasiz tekshiriladi"
+   ],
+   "e": "Zaryad saqlanib qoladi."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Elektr toki inson uchun qaysi qiymatdan xavfli hisoblanadi?",
+   "a": [
+    "Taxminan 0,05–0,1 A dan",
+    "10 A dan",
+    "100 A dan",
+    "Hech qachon xavfli emas"
+   ],
+   "e": "O'zgaruvchan tok."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Xavfsiz kuchlanish (quruq xonada) qancha deb hisoblanadi?",
+   "a": [
+    "42 V gacha",
+    "220 V gacha",
+    "380 V gacha",
+    "1000 V gacha"
+   ],
+   "e": "36–42 V."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Kabel ekrani (oplyotka) nima uchun kerak?",
+   "a": [
+    "Xalaqitdan himoya",
+    "Kabelni og'irlashtirish",
+    "Tokni ko'paytirish",
+    "Kabelni bo'yash"
+   ],
+   "e": "Ekranlash."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Koaksial kabel tarkibiy qismlari qaysilar?",
+   "a": [
+    "O'tkazgich, dielektrik, ekran",
+    "Faqat mis o'tkazgich",
+    "Faqat plastik qobiq",
+    "Faqat shisha tola"
+   ],
+   "e": "Konstruksiya."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "BNC, SMA, F qanday elementlar?",
+   "a": [
+    "Yuqori chastota razyomlari",
+    "Tranzistor korpus turlari",
+    "Mikrosxema korpuslari",
+    "Antenna konstruksiyalari"
+   ],
+   "e": "Konnektorlar."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Radioapparatni yerga ulash nima uchun kerak?",
+   "a": [
+    "Elektr xavfsizligi uchun",
+    "Signalni kuchaytirish uchun",
+    "Chastotani oshirish uchun",
+    "Qurilmani bezash uchun"
+   ],
+   "e": "Zazemleniye."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Antenna montaji balandlikda bajarilganda qanday himoya talab qilinadi?",
+   "a": [
+    "Xavfsizlik kamari",
+    "Himoya talab qilinmaydi",
+    "Faqat qo'lqop kifoya",
+    "Faqat ko'zoynak kifoya"
+   ],
+   "e": "Balandlikda ishlash."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Multimetr bilan qarshilik o'lchanganda zanjir qanday holatda bo'lishi kerak?",
+   "a": [
+    "Kuchlanishsiz",
+    "Kuchlanish ostida",
+    "Qisqa tutashgan",
+    "Ishlab turgan"
+   ],
+   "e": "Asbobni himoyalash."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Tokni o'lchash uchun ampermetr zanjirga qanday ulanadi?",
+   "a": [
+    "Ketma-ket",
+    "Parallel",
+    "Qisqa tutashtirib",
+    "Ulanmaydi"
+   ],
+   "e": "Voltmetr — parallel."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Voltmetr zanjirga qanday ulanadi?",
+   "a": [
+    "Parallel",
+    "Ketma-ket",
+    "Uzib",
+    "Yerga"
+   ],
+   "e": "Kuchlanish o'lchash."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Radioelementlarning shartli grafik belgilari qaysi hujjatda qo'llanadi?",
+   "a": [
+    "Prinsipial sxemada",
+    "Ish haqi qaydnomasida",
+    "Mehnat shartnomasida",
+    "Kassa kitobida"
+   ],
+   "e": "Sxema."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Sxemada rezistor qanday harf bilan belgilanadi?",
+   "a": [
+    "R",
+    "C",
+    "L",
+    "VT"
+   ],
+   "e": "C — kondensator."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Sxemada tranzistor qanday belgilanadi?",
+   "a": [
+    "VT",
+    "VD",
+    "R",
+    "C"
+   ],
+   "e": "VD — diod."
+  },
+  {
+   "b": "Radioapparatlar ta'miri, montaj va xavfsizlik",
+   "q": "Sxemada diod qanday belgilanadi?",
+   "a": [
+    "VD",
+    "VT",
+    "R",
+    "C"
+   ],
+   "e": "Standart belgi."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Televizion tasvir uzatishda tasvir qanday elementlarga ajratiladi?",
+   "a": [
+    "Satr va kadrlarga",
+    "Faqat ranglarga",
+    "Faqat tovushlarga",
+    "Faqat chastotalarga"
+   ],
+   "e": "Yoyish (razvertka)."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Rangli televideniyeda asosiy ranglar qaysilar?",
+   "a": [
+    "Qizil, yashil, ko'k",
+    "Sariq, qora va oq",
+    "Qizil, sariq va oq",
+    "Ko'k, qora va sariq"
+   ],
+   "e": "RGB."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "DVB-T2 qanday standart?",
+   "a": [
+    "Raqamli efir TV standarti",
+    "Analog radioeshittirish",
+    "Mobil aloqa standarti",
+    "Sun'iy yo'ldosh telefoni"
+   ],
+   "e": "O'zbekistonda qo'llanadi."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Raqamli televideniyening analogdan asosiy afzalligi nima?",
+   "a": [
+    "Bitta kanalda ko'p dastur",
+    "Faqat oq-qora tasvir",
+    "Kuchli shovqin va xalaqit",
+    "Pastroq tasvir sifati"
+   ],
+   "e": "Multipleks."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Multipleks nima?",
+   "a": [
+    "Dasturlar paketi",
+    "Bitta antenna turi",
+    "Tasvir kuchaytirgichi",
+    "Ovoz filtri bloki"
+   ],
+   "e": "Raqamli TV."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Sun'iy yo'ldosh televideniyesida signal qabul qilish uchun nima ishlatiladi?",
+   "a": [
+    "Parabolik antenna va LNB",
+    "Oddiy ramkali antenna",
+    "Simli telefon apparati",
+    "Yarim to'lqinli dipol"
+   ],
+   "e": "Konvertor — LNB."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "LNB (konvertor) vazifasi nima?",
+   "a": [
+    "Kuchaytirib, chastotani pasaytirish",
+    "Signalni butunlay o'chirish",
+    "Tasvirni raqamga aylantirish",
+    "Ovozni alohida yozish"
+   ],
+   "e": "Past shovqinli blok."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Geostatsionar orbita balandligi taxminan qancha?",
+   "a": [
+    "36 000 km",
+    "400 km",
+    "2 000 km",
+    "384 000 km"
+   ],
+   "e": "Ekvator ustida."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Geostatsionar yo'ldoshning xususiyati nima?",
+   "a": [
+    "Yerga nisbatan qo'zg'almas",
+    "Kuniga 16 marta aylanadi",
+    "Qutblar ustidan o'tadi",
+    "Faqat tunda ishlaydi"
+   ],
+   "e": "Aylanish davri 24 soat."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Sun'iy yo'ldosh aloqasida Ku-diapazon taxminan qaysi chastotalarni qamraydi?",
+   "a": [
+    "12–18 GGs",
+    "1–2 MGs",
+    "88–108 MGs",
+    "300–3000 Gs"
+   ],
+   "e": "TV uzatish."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "GPS tizimi qanday ishlaydi?",
+   "a": [
+    "Yo'ldosh signallari orqali",
+    "Yer osti kabeli orqali",
+    "Faqat radiolokator yordamida",
+    "Faqat simli telefon orqali"
+   ],
+   "e": "Navigatsiya."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Joylashuvni aniqlash uchun kamida nechta GPS yo'ldoshi signali kerak?",
+   "a": [
+    "4 ta",
+    "1 ta",
+    "2 ta",
+    "10 ta"
+   ],
+   "e": "3 o'lcham + vaqt."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Kabel televideniyesida signal nima orqali uzatiladi?",
+   "a": [
+    "Koaksial yoki optik kabel",
+    "Faqat havo orqali",
+    "Infraqizil nur orqali",
+    "Ultratovush orqali"
+   ],
+   "e": "KTV."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "IPTV nima?",
+   "a": [
+    "IP orqali televideniye",
+    "Analog efir televideniyesi",
+    "Radio eshittirish turi",
+    "Sun'iy yo'ldosh telefoni"
+   ],
+   "e": "IP tarmoq."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Tasvir aniqligi Full HD qancha?",
+   "a": [
+    "1920×1080",
+    "640×480",
+    "720×576",
+    "3840×2160"
+   ],
+   "e": "4K — 3840×2160."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Televizor ekranida LCD nimani bildiradi?",
+   "a": [
+    "Suyuq kristall displey",
+    "Elektron nurli trubka",
+    "Gaz razryadli panel",
+    "Lazerli proyektor"
+   ],
+   "e": "Liquid Crystal Display."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "OLED ekranning afzalligi nima?",
+   "a": [
+    "Chuqur qora rang",
+    "Katta og'irlik",
+    "Kam yorqinlik",
+    "Kuchli isish"
+   ],
+   "e": "O'z-o'zidan nurlanadi."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Kanal chastota polosasi analog TV (D/K standart)da qancha?",
+   "a": [
+    "8 MGs",
+    "200 kGs",
+    "25 kGs",
+    "1 GGs"
+   ],
+   "e": "Kanal kengligi."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Televizion uzatgich antennalari odatda qayerga o'rnatiladi?",
+   "a": [
+    "Baland minoralarga",
+    "Yer osti inshootiga",
+    "Suv havzasi ostiga",
+    "Bino yerto'lasiga"
+   ],
+   "e": "Ko'rinish zonasi."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Uzatgichdan uzoqlashganda TV signali nima uchun zaiflashadi?",
+   "a": [
+    "So'nish va Yer egriligi",
+    "Tovush tezligi oshishi",
+    "Kun uzayishi",
+    "Havo bosimi o'zgarmasligi"
+   ],
+   "e": "Ko'rinish chizig'i."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Retranslyator vazifasi nima?",
+   "a": [
+    "Qabul qilib qayta uzatish",
+    "Signalni butunlay o'chirish",
+    "Tasvirni yozib olish",
+    "Faqat ovozni kuchaytirish"
+   ],
+   "e": "Qamrovni kengaytirish."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Antenna kuchaytirgichi qachon kerak bo'ladi?",
+   "a": [
+    "Signal zaif bo'lganda",
+    "Signal juda kuchli bo'lganda",
+    "Uzatgich yonida turganda",
+    "Hech qachon"
+   ],
+   "e": "Uzoq masofada."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Sun'iy yo'ldosh antennasini sozlashda qaysi burchaklar o'rnatiladi?",
+   "a": [
+    "Azimut va elevatsiya",
+    "Faqat rang va yorqinlik",
+    "Faqat kuchlanish",
+    "Faqat chastota"
+   ],
+   "e": "Yo'naltirish."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "Raqamli TV qabul qilish uchun qaysi qurilma kerak?",
+   "a": [
+    "DVB-T2 tyuner (pristavka)",
+    "Analog magnitofon",
+    "Oddiy radiopriyomnik",
+    "Faks apparati (telefaks)"
+   ],
+   "e": "Yoki o'rnatilgan tyuner."
+  },
+  {
+   "b": "Televideniye va sun'iy yo'ldosh aloqasi",
+   "q": "MPEG-4 nima?",
+   "a": [
+    "Video siqish standarti",
+    "Antenna ulash turi",
+    "Kabel markasi",
+    "Ovoz kuchaytirgich turi"
+   ],
+   "e": "H.264."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Uyali aloqa nima uchun \"uyali\" deyiladi?",
+   "a": [
+    "Hudud sotalarga bo'lingan",
+    "Uyda ishlatiladi",
+    "Faqat simli ishlaydi",
+    "Bitta antennaga ega"
+   ],
+   "e": "Sota — cell."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Uyali aloqada bazaviy stansiya vazifasi nima?",
+   "a": [
+    "Abonentlar bilan radioaloqa",
+    "Telefonlarni ishlab chiqarish",
+    "Elektr ishlab chiqarish",
+    "Faqat ovoz yozish"
+   ],
+   "e": "BS."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "GSM qaysi avlod mobil aloqasi?",
+   "a": [
+    "2G",
+    "3G",
+    "4G",
+    "5G"
+   ],
+   "e": "Raqamli."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "LTE qaysi avlod texnologiyasi?",
+   "a": [
+    "4G",
+    "2G",
+    "1G",
+    "3G"
+   ],
+   "e": "Long Term Evolution."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "5G ning asosiy afzalligi nima?",
+   "a": [
+    "Yuqori tezlik, kam kechikish",
+    "Faqat ovozli aloqa",
+    "Past tezlikdagi aloqa",
+    "Faqat SMS xabarlar"
+   ],
+   "e": "IoT, mMTC."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "SIM-karta vazifasi nima?",
+   "a": [
+    "Abonentni identifikatsiyalash",
+    "Batareyani zaryadlash",
+    "Ekranni yoritish",
+    "Tovushni kuchaytirish"
+   ],
+   "e": "Subscriber Identity Module."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Wi-Fi qaysi chastota diapazonlarida ishlaydi?",
+   "a": [
+    "2,4 va 5 GGs",
+    "88 va 108 MGs",
+    "50 va 60 Gs",
+    "1 va 2 kGs"
+   ],
+   "e": "IEEE 802.11."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Bluetooth qanday aloqa turi?",
+   "a": [
+    "Qisqa masofali simsiz aloqa",
+    "Uzoq masofali radiorele",
+    "Optik tolali aloqa",
+    "Sun'iy yo'ldosh aloqasi"
+   ],
+   "e": "2,4 GGs."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Radiorele aloqasi qanday ishlaydi?",
+   "a": [
+    "Stansiyalar zanjiri",
+    "Faqat yer osti kabeli",
+    "Faqat ionosfera orqali",
+    "Faqat suv orqali"
+   ],
+   "e": "Mikroto'lqin."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Optik tolali aloqada signal nima orqali uzatiladi?",
+   "a": [
+    "Yorug'lik orqali",
+    "Tovush orqali",
+    "Issiqlik orqali",
+    "Magnit maydon orqali"
+   ],
+   "e": "To'liq ichki qaytish."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Optik tolaning afzalligi nima?",
+   "a": [
+    "Yuqori tezlik",
+    "Og'ir va qimmat",
+    "Xalaqitga sezgir",
+    "Past tezlik"
+   ],
+   "e": "Keng polosa."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Modem vazifasi nima?",
+   "a": [
+    "Modulyatsiya-demodulyatsiya",
+    "Faqat kuchaytirish",
+    "Faqat filtrlash",
+    "Faqat yozib olish"
+   ],
+   "e": "MOdulyator-DEModulyator."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Router vazifasi nima?",
+   "a": [
+    "Paketlarni yo'naltirish",
+    "Faqat elektr berish",
+    "Faqat ovozni kuchaytirish",
+    "Faqat tasvirni chizish"
+   ],
+   "e": "Marshrutizator."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "IP-manzil nima?",
+   "a": [
+    "Qurilmaning tarmoq manzili",
+    "Qurilma seriya raqami",
+    "Abonent telefon raqami",
+    "Pochta indeksi"
+   ],
+   "e": "IPv4/IPv6."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Aloqa kanali o'tkazuvchanligi nimada o'lchanadi?",
+   "a": [
+    "bit/s",
+    "Vatt",
+    "Om",
+    "Farad"
+   ],
+   "e": "Mbit/s."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Shennon teoremasiga ko'ra kanal sig'imi nimaga bog'liq?",
+   "a": [
+    "Polosa va S/N ga",
+    "Faqat kabel rangiga",
+    "Faqat antenna og'irligiga",
+    "Faqat havo haroratiga"
+   ],
+   "e": "C = B·log2(1+S/N)."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Signal/shovqin nisbati qanday birlikda ifodalanadi?",
+   "a": [
+    "dB",
+    "Gs",
+    "A",
+    "V·A"
+   ],
+   "e": "Detsibel."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Mobil telefon antennasi nurlanish quvvati qanday cheklanadi?",
+   "a": [
+    "SAR me'yori bilan",
+    "Cheklanmaydi",
+    "Ekran rangi bilan",
+    "Telefon narxi bilan"
+   ],
+   "e": "Solishtirma yutilish."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Chastota resursidan foydalanishni kim tartibga soladi?",
+   "a": [
+    "Davlat radiochastota organi",
+    "Har bir abonent o'zi",
+    "Telefon ishlab chiqaruvchisi",
+    "Hech kim"
+   ],
+   "e": "Litsenziyalash."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Xalqaro miqyosda radiochastotalarni kim muvofiqlashtiradi?",
+   "a": [
+    "ITU",
+    "FIFA",
+    "UNESCO",
+    "VOZ"
+   ],
+   "e": "ITU."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Simsiz tarmoqni himoyalashda qaysi protokol tavsiya etiladi?",
+   "a": [
+    "WPA2/WPA3",
+    "WEP",
+    "Parolsiz tarmoq",
+    "Ochiq tarmoq"
+   ],
+   "e": "WEP eskirgan."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Fider nima?",
+   "a": [
+    "Ulovchi uzatish liniyasi",
+    "Antenna konstruksiyasi",
+    "Kuchaytirgich bloki",
+    "Batareya turi"
+   ],
+   "e": "Uzatish liniyasi."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Tasma (polosa) filtri vazifasi nima?",
+   "a": [
+    "Oraliqni o'tkazish",
+    "Barcha chastotalarni to'sish",
+    "Kuchlanishni oshirish",
+    "Tokni o'lchash"
+   ],
+   "e": "Polosali filtr."
+  },
+  {
+   "b": "Mobil aloqa va tarmoqlar",
+   "q": "Mobil aloqada MIMO texnologiyasi nima?",
+   "a": [
+    "Ko'p antennali uzatish/qabul",
+    "Bitta antennali tizim",
+    "Simli aloqa turi",
+    "Ovozni kodlash usuli"
+   ],
+   "e": "Multiple Input Multiple Output."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Ossillograf yordamida nima kuzatiladi?",
+   "a": [
+    "Signal shakli",
+    "Faqat qarshilik qiymati",
+    "Faqat harorat o'zgarishi",
+    "Faqat namlik darajasi"
+   ],
+   "e": "Vaqt bo'yicha signal."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Signal generatori vazifasi nima?",
+   "a": [
+    "Sinov signali hosil qilish",
+    "Signalni butunlay so'ndirish",
+    "Kuchlanishni o'lchash",
+    "Haroratni nazorat qilish"
+   ],
+   "e": "Sozlashda ishlatiladi."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Ossillografda gorizontal o'q nimani ko'rsatadi?",
+   "a": [
+    "Vaqtni",
+    "Kuchlanishni",
+    "Qarshilikni",
+    "Quvvatni"
+   ],
+   "e": "Vertikal — kuchlanish."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "KSV (TKK) o'lchagich nima uchun ishlatiladi?",
+   "a": [
+    "Antenna moslashuvini tekshirish",
+    "Batareya zaryadini o'lchash",
+    "Haroratni o'lchash",
+    "Ovoz balandligini o'lchash"
+   ],
+   "e": "Turg'un to'lqin koeffitsiyenti."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Ideal moslashuvda KSV qiymati qancha?",
+   "a": [
+    "1",
+    "0",
+    "10",
+    "100"
+   ],
+   "e": "KSV ≥ 1."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Multimetr qaysi kattaliklarni o'lchaydi?",
+   "a": [
+    "U, I, R",
+    "Faqat harorat",
+    "Faqat chastota",
+    "Faqat bosim"
+   ],
+   "e": "Universal asbob."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "O'lchash xatoligi nima?",
+   "a": [
+    "Haqiqiy qiymatdan farq",
+    "O'lchash asbobining narxi",
+    "O'lchash vaqti uzunligi",
+    "Asbob og'irligi"
+   ],
+   "e": "Absolyut va nisbiy."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Nisbiy xatolik qanday ifodalanadi?",
+   "a": [
+    "Foizda",
+    "Voltda",
+    "Ohmda",
+    "Gersda"
+   ],
+   "e": "δ = Δ/X·100%."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Asbobning aniqlik klassi nimani bildiradi?",
+   "a": [
+    "Ruxsat etilgan xatolik foizini",
+    "Asbob ishlab chiqarilgan yilni",
+    "Asbobning narx toifasini",
+    "Asbobning og'irlik toifasini"
+   ],
+   "e": "Masalan 0,5; 1,0."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Voltmetrning ichki qarshiligi qanday bo'lishi kerak?",
+   "a": [
+    "Juda katta",
+    "Juda kichik",
+    "Nolga teng",
+    "Ahamiyati yo'q"
+   ],
+   "e": "Zanjirga ta'sir qilmasligi uchun."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Ampermetrning ichki qarshiligi qanday bo'lishi kerak?",
+   "a": [
+    "Juda kichik",
+    "Juda katta",
+    "Cheksiz",
+    "Ahamiyati yo'q"
+   ],
+   "e": "Ketma-ket ulanadi."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Ossillograf probi ×10 bo'lsa, nima sodir bo'ladi?",
+   "a": [
+    "Signal 10 marta susaytiriladi",
+    "Signal 10 marta kuchaytiriladi",
+    "Chastota 10 marta oshadi",
+    "O'lchash imkonsiz bo'ladi"
+   ],
+   "e": "Bo'lgich."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Kondensator sig'imini nima bilan o'lchash mumkin?",
+   "a": [
+    "LC-metr yoki multimetr",
+    "Faqat termometr bilan",
+    "Faqat barometr bilan",
+    "Faqat lineyka bilan"
+   ],
+   "e": "Ba'zi multimetrlarda bor."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Diodni multimetrda tekshirganda to'g'ri yo'nalishda nima ko'rinadi?",
+   "a": [
+    "Kichik kuchlanish tushuvi",
+    "Cheksiz qarshilik",
+    "Kuchlanish yo'qligi doim",
+    "Ekran butunlay o'chadi"
+   ],
+   "e": "Kremniy ~0,6 V."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Radiopriyomnik sezgirligi nima?",
+   "a": [
+    "Eng kichik qabul signali",
+    "Eng katta chiqish quvvati",
+    "Korpus o'lchamlari",
+    "Batareya sig'imi qiymati"
+   ],
+   "e": "mkV da."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Priyomnik selektivligi nima?",
+   "a": [
+    "Kerakli signalni ajratish",
+    "Ovozni balandlatish qobiliyati",
+    "Batareyani tejash qobiliyati",
+    "Korpusning mustahkamligi"
+   ],
+   "e": "Tanlovchanlik."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Supergeterodin priyomnikda oraliq chastota qanday hosil qilinadi?",
+   "a": [
+    "Geterodin bilan aralashtirib",
+    "Antennani qisqartirib",
+    "Batareyani almashtirib",
+    "Dinamikni o'chirib"
+   ],
+   "e": "Aralashtirgich."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "AGC (ARU) vazifasi nima?",
+   "a": [
+    "Avtomatik kuchaytirish rostlash",
+    "Chastotani qo'lda sozlash",
+    "Antennani avtomatik burash",
+    "Batareyani avtomatik zaryadlash"
+   ],
+   "e": "Signal sathini tenglash."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Detektor priyomnikda qanday vazifani bajaradi?",
+   "a": [
+    "Past chastotani ajratish",
+    "Yuqori chastotani kuchaytirish",
+    "Antenna uzunligini o'zgartirish",
+    "Batareyani zaryadlash"
+   ],
+   "e": "Demodulyatsiya."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Kuchaytirgich kuchaytirish koeffitsiyenti nima?",
+   "a": [
+    "Chiqish/kirish nisbati",
+    "Kirish va chiqish yig'indisi",
+    "Ta'minot kuchlanishi",
+    "Rezistor qarshiligi"
+   ],
+   "e": "K = Uchiq/Ukir."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Kuchaytirish koeffitsiyenti 20 dB kuchlanish bo'yicha necha martaga teng?",
+   "a": [
+    "10 marta",
+    "20 marta",
+    "100 marta",
+    "2 marta"
+   ],
+   "e": "20·lg10 = 20."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Kuchaytirgichda manfiy teskari aloqa nima beradi?",
+   "a": [
+    "Barqarorlik va kam buzilish",
+    "Generatsiya va o'z-o'zidan qo'zg'alish",
+    "Kuchaytirishni cheksiz oshirish",
+    "Ta'minotni butunlay o'chirish"
+   ],
+   "e": "OOS."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Musbat teskari aloqa qayerda qo'llanadi?",
+   "a": [
+    "Generatorlarda",
+    "Filtrlarda faqat",
+    "Rezistorlarda",
+    "Saqlagichlarda"
+   ],
+   "e": "Avtogenerator."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Chastota xarakteristikasi nimani ko'rsatadi?",
+   "a": [
+    "Kuchaytirishning chastotaga bog'liqligi",
+    "Qarshilikning haroratga bog'liqligi",
+    "Batareya sig'imining vaqtga bog'liqligi",
+    "Korpus o'lchamining narxga bog'liqligi"
+   ],
+   "e": "AChX."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Nochiziqli buzilishlar koeffitsiyenti nimani bildiradi?",
+   "a": [
+    "Garmonikalar ulushini",
+    "Signal chastotasini",
+    "Kuchaytirgich narxini",
+    "Ta'minot kuchlanishini"
+   ],
+   "e": "THD."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Operatsion kuchaytirgich (OU) qanday xususiyatga ega?",
+   "a": [
+    "Juda katta kuchaytirish",
+    "Juda kichik kirish qarshiligi",
+    "Kuchaytirmaydi",
+    "Faqat raqamli ishlaydi"
+   ],
+   "e": "Ideal OU."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Kvars rezonatori nima uchun ishlatiladi?",
+   "a": [
+    "Chastotani barqarorlash uchun",
+    "Kuchlanishni oshirish uchun",
+    "Tokni cheklash uchun",
+    "Issiqlikni tarqatish uchun"
+   ],
+   "e": "Yuqori Q."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Tebranish konturi rezonans chastotasi qaysi formula bilan topiladi?",
+   "a": [
+    "f = 1/(2π√LC)",
+    "f = L·C",
+    "f = U/I",
+    "f = R·C·L"
+   ],
+   "e": "Tomson formulasi."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Kontur sifat koeffitsiyenti (Q) oshsa nima bo'ladi?",
+   "a": [
+    "Selektivlik oshadi",
+    "Selektivlik yo'qoladi",
+    "Rezonans yo'qoladi",
+    "Kontur ishlamay qoladi"
+   ],
+   "e": "Tor polosa."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Varikap nima?",
+   "a": [
+    "Sig'imi kuchlanishga bog'liq diod",
+    "Yorug'lik chiqaruvchi diod",
+    "Kuchlanish barqarorlovchi diod",
+    "Tok cheklovchi rezistor"
+   ],
+   "e": "Sozlashda."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Stabilitron vazifasi nima?",
+   "a": [
+    "Kuchlanishni barqarorlash",
+    "Tokni kuchaytirish",
+    "Chastota hosil qilish",
+    "Signalni modulyatsiyalash"
+   ],
+   "e": "Zener diod."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Rele vazifasi nima?",
+   "a": [
+    "Zanjirni signal bilan ulash/uzish",
+    "Signal chastotasini o'lchash",
+    "Kuchlanishni barqarorlash",
+    "Haroratni ko'rsatish"
+   ],
+   "e": "Elektromagnit kalit."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Transformator nima uchun ishlatiladi?",
+   "a": [
+    "AC kuchlanishni o'zgartirish",
+    "O'zgarmas tokni hosil qilish",
+    "Chastotani oshirish",
+    "Signalni raqamlashtirish"
+   ],
+   "e": "Faqat AC."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "To'g'rilagich vazifasi nima?",
+   "a": [
+    "AC ni DC ga aylantirish",
+    "DC ni AC ga aylantirish",
+    "Chastotani ikki baravar oshirish",
+    "Kuchlanishni o'lchash"
+   ],
+   "e": "Diodli ko'prik."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Ta'minot blokida silliqlash filtri nima uchun kerak?",
+   "a": [
+    "Pulsatsiyani kamaytirish",
+    "Kuchlanishni nolga tushirish",
+    "Chastotani oshirish",
+    "Tokni o'chirish"
+   ],
+   "e": "Kondensator."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Invertor vazifasi nima?",
+   "a": [
+    "DC ni AC ga aylantirish",
+    "AC ni DC ga aylantirish",
+    "Kuchlanishni o'lchash",
+    "Signalni filtrlash"
+   ],
+   "e": "UPS da."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Impulsli ta'minot blokining afzalligi nima?",
+   "a": [
+    "Kichik o'lcham, yuqori FIK",
+    "Og'ir va katta hajmli",
+    "Past foydali ish koeffitsiyenti",
+    "Juda kuchli qizib ketishi"
+   ],
+   "e": "Yuqori chastotali transformator."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Elektromagnit moslashuvchanlik (EMS) nima?",
+   "a": [
+    "Xalaqitsiz birga ishlash",
+    "Qurilmaning tashqi rangi",
+    "Qurilmaning og'irligi",
+    "Qurilmaning narxi"
+   ],
+   "e": "EMC."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Radioelektron apparatlar xalaqitidan himoya usuli qaysi?",
+   "a": [
+    "Ekranlash va filtrlash",
+    "Korpusni bo'yash",
+    "Qurilmani og'irlashtirish",
+    "Simlarni uzaytirish"
+   ],
+   "e": "EMC choralari."
+  },
+  {
+   "b": "Elektron o'lchashlar",
+   "q": "Radioapparatlarni sovutish uchun nima ishlatiladi?",
+   "a": [
+    "Radiator va ventilyator",
+    "Faqat bo'yoq qatlami",
+    "Faqat plastik qobiq",
+    "Faqat rezina qoplama qatlami"
+   ],
+   "e": "Issiqlikni tarqatish."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Fotorezistorning qarshiligi yoritilganda qanday o'zgaradi?",
+   "a": [
+    "Kamayadi",
+    "Oshadi",
+    "O'zgarmaydi",
+    "Nolga aylanadi va yo'qoladi"
+   ],
+   "e": "Yorug'likka sezgir."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Termistor (termorezistor) nimaga sezgir?",
+   "a": [
+    "Haroratga",
+    "Yorug'likka",
+    "Tovushga",
+    "Magnit maydoniga"
+   ],
+   "e": "NTC/PTC."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Pyezoelektrik effekt nima?",
+   "a": [
+    "Mexanik bosimda kuchlanish paydo bo'lishi",
+    "Yorug'likda tok paydo bo'lishi",
+    "Issiqlikda tovush paydo bo'lishi",
+    "Magnitda yorug'lik paydo bo'lishi"
+   ],
+   "e": "Kvars, pyezodinamik."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Mikrofon qanday o'zgartirgich?",
+   "a": [
+    "Tovushni elektr signalga",
+    "Elektr signalni tovushga",
+    "Yorug'likni tovushga",
+    "Issiqlikni yorug'likka"
+   ],
+   "e": "Dinamik — teskari."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Dinamik (karnay) vazifasi nima?",
+   "a": [
+    "Elektr signalni tovushga aylantirish",
+    "Tovushni elektr signalga aylantirish",
+    "Yorug'likni tokka aylantirish",
+    "Haroratni o'lchash"
+   ],
+   "e": "Elektroakustik o'zgartirgich."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Inson eshitish diapazoni qanday chastotalarni qamraydi?",
+   "a": [
+    "20 Gs – 20 kGs",
+    "1 – 10 Gs",
+    "100 – 500 kGs",
+    "1 – 10 MGs"
+   ],
+   "e": "Tovush chastotalari."
   }
- ]
+ ],
+ "kalit": "radiotexnika antenna radioaloqa televideniye radioelektronika aloqa"
 }
