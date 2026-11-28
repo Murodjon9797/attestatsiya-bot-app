@@ -124,7 +124,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "radiotexnika_antenna", "geodeziya", "mehnat_muhofazasi"]),
     ("tib", "🩺 Tibbiyot", [
         "hamshiralik_ishi", "terapiyada_hamshiralik_ishi", "xirurgiya_hamshiralik", "akusherlik_ginekologiya", "pediatriya_hamshiralik", "farmakologiya", "anatomiya_fiziologiya_patologiya",
-        "lotin_tili_va_tibbiy_terminologiya", "mikrobiologiya_virusologiya_va_immunolog", "yuqumli_kasalliklar",
+        "lotin_tili_va_tibbiy_terminologiya", "mikrobiologiya_virusologiya_va_immunolog", "yuqumli_kasalliklar", "klinik_laboratoriya",
         "tibbiy_biologiya_umumiy_genetika", "tibbiy_psixologiya_va_shaxslararo_muloqo",
         "umumiy_gigiyena_va_ekologiya", "jamiyat_sogliqni_saqlash_va_tibbiy_stati", "valeologiya"]),
     ("tr", "🚆 Transport", [

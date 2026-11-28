@@ -1268,6 +1268,34 @@
   {
    "nomi": "Maktabgacha ta'limda STEAM texnologiyalari",
    "bank": "mtt_metodika"
+  },
+  {
+   "nomi": "Klinik laboratoriya tekshirish usullari",
+   "bank": "klinik_laboratoriya"
+  },
+  {
+   "nomi": "Klinik diagnostika, ichki yuqumsiz kasalliklar",
+   "bank": "klinik_laboratoriya"
+  },
+  {
+   "nomi": "Laboratoriya jihozlari va priborlari,kimyoviy idishlarni tayyorlash texnikasi",
+   "bank": "klinik_laboratoriya"
+  },
+  {
+   "nomi": "Biokimyo",
+   "bank": "klinik_laboratoriya"
+  },
+  {
+   "nomi": "Gistologiya, sitologiya, embriologiya",
+   "bank": "klinik_laboratoriya"
+  },
+  {
+   "nomi": "Biokimyo va biokimyoviy tekshirish usullari",
+   "bank": "klinik_laboratoriya"
+  },
+  {
+   "nomi": "Gematologiya va transfuziologiya asoslari",
+   "bank": "klinik_laboratoriya"
   }
  ],
  "tez_orada": [
@@ -1279,11 +1307,6 @@
   {
    "id": "t37b45052",
    "nomi": "Dori turlari texnologiyasi",
-   "kat": "tib"
-  },
-  {
-   "id": "t65b31849",
-   "nomi": "Klinik laboratoriya tekshirish usullari",
    "kat": "tib"
   },
   {
@@ -1355,11 +1378,6 @@
    "id": "t69952755",
    "nomi": "Qishloq xo'jalik mashinalari va chorvachilikni mexanizatsiyalashtirish",
    "kat": "qx"
-  },
-  {
-   "id": "tc89ab341",
-   "nomi": "Klinik diagnostika, ichki yuqumsiz kasalliklar",
-   "kat": "tib"
   },
   {
    "id": "t3dd3e7c1",
@@ -1455,11 +1473,6 @@
    "id": "tde41ae7e",
    "nomi": "Kimyoviy ishlab chiqarish texnigi va tehno kimyoviy labarant ishlari",
    "kat": "muh"
-  },
-  {
-   "id": "t2af274c5",
-   "nomi": "Laboratoriya jihozlari va priborlari,kimyoviy idishlarni tayyorlash texnikasi",
-   "kat": "um"
   },
   {
    "id": "t2f51e2ca",
@@ -1560,11 +1573,6 @@
    "id": "t7cb0c23c",
    "nomi": "Jinoyat-protsessual huquqi",
    "kat": "ijt"
-  },
-  {
-   "id": "tcfd40446",
-   "nomi": "Biokimyo",
-   "kat": "tib"
   },
   {
    "id": "tc76681c5",
@@ -1762,11 +1770,6 @@
    "kat": "xiz"
   },
   {
-   "id": "ta61e6eba",
-   "nomi": "Gistologiya, sitologiya, embriologiya",
-   "kat": "tib"
-  },
-  {
    "id": "t72d7664d",
    "nomi": "Itlarni urchitish va ko'paytirish",
    "kat": "qx"
@@ -1832,11 +1835,6 @@
    "kat": "xiz"
   },
   {
-   "id": "t1eb4e1e8",
-   "nomi": "Biokimyo va biokimyoviy tekshirish usullari",
-   "kat": "tib"
-  },
-  {
    "id": "t65739c2c",
    "nomi": "Turk tili",
    "kat": "til"
@@ -1845,11 +1843,6 @@
    "id": "t5e6d8fa6",
    "nomi": "Kostyum tarixi",
    "kat": "xiz"
-  },
-  {
-   "id": "tb0815071",
-   "nomi": "Gematologiya va transfuziologiya asoslari",
-   "kat": "tib"
   },
   {
    "id": "t79c20dea",

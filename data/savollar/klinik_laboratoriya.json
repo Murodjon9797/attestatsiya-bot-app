@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "Klinik laboratoriya, biokimyo va gematologiya",
+ "turi": "maxsus",
+ "manba": "Attestatsiya test sinovlariga jalb etiladigan pedagoglar ro'yxatidagi fan; savollar DTS, o'quv dasturlari va darsliklar asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Kattalarda leykotsitlarning me'yoriy miqdori qancha?",
+   "a": [
+    "4–9 × 10⁹/l",
+    "40–90 × 10⁹/l",
+    "0,4–0,9 × 10⁹/l",
+    "4–9 × 10¹²/l"
+   ],
+   "e": "Leykotsitlar."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Erkaklarda gemoglobinning me'yori qancha?",
+   "a": [
+    "130–160 g/l",
+    "60–80 g/l",
+    "200–250 g/l",
+    "30–50 g/l"
+   ],
+   "e": "Gemoglobin."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Ayollarda gemoglobinning me'yori qancha?",
+   "a": [
+    "120–140 g/l",
+    "160–200 g/l",
+    "50–70 g/l",
+    "90–100 g/l"
+   ],
+   "e": "Gemoglobin."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Erkaklarda eritrotsitlar miqdori me'yorda qancha?",
+   "a": [
+    "4,0–5,0 × 10¹²/l",
+    "4,0–5,0 × 10⁹/l",
+    "40–50 × 10¹²/l",
+    "0,4–0,5 × 10¹²/l"
+   ],
+   "e": "Eritrotsitlar."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Trombotsitlarning me'yoriy miqdori qancha?",
+   "a": [
+    "180–320 × 10⁹/l",
+    "18–32 × 10⁹/l",
+    "1800–3200 × 10⁹/l",
+    "4–9 × 10⁹/l"
+   ],
+   "e": "Trombotsitlar."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Erkaklarda EChT me'yori qancha?",
+   "a": [
+    "1–10 mm/soat",
+    "30–50 mm/soat",
+    "60–80 mm/soat",
+    "0 mm/soat"
+   ],
+   "e": "EChT (SOE)."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "EChT qaysi apparatda aniqlanadi?",
+   "a": [
+    "Panchenkov apparatida",
+    "Goryaev kamerasida",
+    "Sali gemometrida",
+    "Avtoklavda"
+   ],
+   "e": "Panchenkov."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Qon hujayralarini sanash uchun qaysi kamera ishlatiladi?",
+   "a": [
+    "Goryaev kamerasi",
+    "Panchenkov apparati",
+    "Termostat",
+    "Sentrifuga"
+   ],
+   "e": "Goryaev."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Umumiy qon tahlili uchun qaysi antikoagulyant ishlatiladi?",
+   "a": [
+    "EDTA (K2/K3)",
+    "Natriy sitrat faqat",
+    "Geparin faqat",
+    "Antikoagulyant ishlatilmaydi"
+   ],
+   "e": "EDTA."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Koagulogramma uchun qaysi antikoagulyant ishlatiladi?",
+   "a": [
+    "Natriy sitrat (3,2%)",
+    "EDTA",
+    "Natriy ftorid",
+    "Antikoagulyantsiz"
+   ],
+   "e": "Sitrat."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Kapillyar qon odatda qayerdan olinadi?",
+   "a": [
+    "Chap qo'lning IV barmog'idan",
+    "Bosh barmoqdan",
+    "Oyoq barmog'idan har doim",
+    "Quloqdan har doim"
+   ],
+   "e": "Kapillyar qon."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Laboratoriya tahlili uchun qon olishning eng to'g'ri vaqti qaysi?",
+   "a": [
+    "Ertalab, nahorga",
+    "Kechqurun, ovqatdan keyin",
+    "Jismoniy mashqdan so'ng darhol",
+    "Istalgan vaqtda"
+   ],
+   "e": "Preanalitik bosqich."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Leykotsitlar sonining oshishi qanday ataladi?",
+   "a": [
+    "Leykotsitoz",
+    "Leykopeniya",
+    "Trombotsitopeniya",
+    "Anemiya"
+   ],
+   "e": "Leykotsitoz."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Leykotsitlar sonining kamayishi qanday ataladi?",
+   "a": [
+    "Leykopeniya",
+    "Leykotsitoz",
+    "Eritrotsitoz",
+    "Trombotsitoz"
+   ],
+   "e": "Leykopeniya."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Bakterial infeksiyada leykoformulada qanday o'zgarish ko'p kuzatiladi?",
+   "a": [
+    "Neytrofillar oshishi",
+    "Eozinofillar keskin oshishi faqat",
+    "Limfotsitlar oshishi faqat",
+    "O'zgarish bo'lmaydi"
+   ],
+   "e": "Neytrofilyoz."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Allergik holatlarda qaysi hujayralar oshadi?",
+   "a": [
+    "Eozinofillar",
+    "Neytrofillar",
+    "Eritrotsitlar",
+    "Trombotsitlar"
+   ],
+   "e": "Eozinofiliya."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Virusli infeksiyada ko'pincha qaysi hujayralar oshadi?",
+   "a": [
+    "Limfotsitlar",
+    "Eozinofillar",
+    "Bazofillar",
+    "Eritrotsitlar"
+   ],
+   "e": "Limfotsitoz."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Segment yadroli neytrofillarning leykoformuladagi me'yori qancha?",
+   "a": [
+    "47–72%",
+    "1–5%",
+    "80–95%",
+    "10–15%"
+   ],
+   "e": "Leykoformula."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Limfotsitlarning leykoformuladagi me'yori qancha?",
+   "a": [
+    "19–37%",
+    "60–80%",
+    "1–2%",
+    "50–70%"
+   ],
+   "e": "Limfotsitlar."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Rang ko'rsatkichining me'yori qancha?",
+   "a": [
+    "0,85–1,05",
+    "1,5–2,0",
+    "0,1–0,3",
+    "3,0–4,0"
+   ],
+   "e": "Tsvetovoy pokazatel."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Gemoglobin kamayishi va temir yetishmasligi bilan kechadigan holat qanday ataladi?",
+   "a": [
+    "Temir tanqisligi anemiyasi",
+    "Polisitemiya",
+    "Leykoz",
+    "Trombotsitoz"
+   ],
+   "e": "Anemiya."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Gematokrit nimani ko'rsatadi?",
+   "a": [
+    "Shaklli elementlar ulushini",
+    "Qondagi glyukoza miqdorini",
+    "Qon ivish vaqtini",
+    "Qon guruhini"
+   ],
+   "e": "Gematokrit."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Qon surtmasi qaysi usulda bo'yaladi?",
+   "a": [
+    "Romanovskiy–Gimza usulida",
+    "Tsil–Nilsen usulida",
+    "Gram usulida faqat",
+    "Bo'yalmaydi"
+   ],
+   "e": "Bo'yash."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Retikulotsitlar nima?",
+   "a": [
+    "Yosh eritrotsitlar",
+    "Yosh leykotsitlar",
+    "Trombotsit bo'laklari",
+    "Bakteriyalar"
+   ],
+   "e": "Regeneratsiya ko'rsatkichi."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Gematologik avtomat analizatorning afzalligi nima?",
+   "a": [
+    "Tez va aniq ko'p parametrli tahlil",
+    "Faqat qo'lda, sekin va noaniq sanash",
+    "Qon talab qilmaydi",
+    "Afzalligi yo'q"
+   ],
+   "e": "Avtomatlashtirish."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Qon ivish vaqti (Li-Uayt bo'yicha) me'yorda qancha?",
+   "a": [
+    "5–10 daqiqa",
+    "30–60 daqiqa",
+    "10 soniya",
+    "2 soat"
+   ],
+   "e": "Ivish."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Qon ketish vaqti (Dyuke bo'yicha) me'yori qancha?",
+   "a": [
+    "2–4 daqiqa",
+    "20–30 daqiqa",
+    "5 soniya",
+    "1 soat"
+   ],
+   "e": "Kroveteniye."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Fibrinogenning me'yoriy miqdori qancha?",
+   "a": [
+    "2–4 g/l",
+    "20–40 g/l",
+    "0,2–0,4 g/l",
+    "60–80 g/l"
+   ],
+   "e": "Fibrinogen."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "MNO (INR) ko'rsatkichi nima uchun tekshiriladi?",
+   "a": [
+    "Antikoagulyant davoni nazorat",
+    "Qondagi qand miqdorini aniqlash",
+    "Buyrak funksiyasini baholash",
+    "Qon guruhini aniqlash"
+   ],
+   "e": "Varfarin nazorati."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Gemoliz nima?",
+   "a": [
+    "Eritrotsitlar yemirilishi",
+    "Leykotsitlar ko'payishi",
+    "Qon ivishi",
+    "Trombotsitlar to'planishi"
+   ],
+   "e": "Gemoliz."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Namunada gemoliz bo'lishiga sabab nima?",
+   "a": [
+    "Noto'g'ri qon olish va qattiq silkitish",
+    "To'g'ri qon olish va ehtiyotkor tashish",
+    "Namunani sovutish faqat",
+    "Sabab yo'q"
+   ],
+   "e": "Preanalitik xato."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Leykoz qanday kasallik?",
+   "a": [
+    "Qon tizimi o'smali kasalligi",
+    "Faqat temir tanqisligi",
+    "Vitamin yetishmasligi",
+    "Allergiya"
+   ],
+   "e": "Gemoblastoz."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Trombotsitopeniyada qanday belgi kuzatiladi?",
+   "a": [
+    "Qon ketishga moyillik",
+    "Qon ivishining tezlashishi",
+    "Gemoglobin oshishi",
+    "Belgi yo'q"
+   ],
+   "e": "Kamayish."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Qon tahlili natijasi kimga topshiriladi?",
+   "a": [
+    "Davolovchi shifokorga",
+    "Istalgan begona shaxsga",
+    "Ijtimoiy tarmoqqa",
+    "Hech kimga"
+   ],
+   "e": "Tibbiy sir."
+  },
+  {
+   "b": "Umumiy qon tahlili",
+   "q": "Laboratoriyada namunalarni markirovkalash nima uchun muhim?",
+   "a": [
+    "Namunalar almashib ketmasligi uchun",
+    "Probirkani chiroyli ko'rsatish uchun",
+    "Ahamiyatsiz",
+    "Faqat hisob uchun"
+   ],
+   "e": "Identifikatsiya."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Kattalarda qondagi glyukozaning nahorgi me'yori qancha?",
+   "a": [
+    "3,3–5,5 mmol/l",
+    "8–12 mmol/l",
+    "0,5–1,0 mmol/l",
+    "15–20 mmol/l"
+   ],
+   "e": "Glyukoza."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Qondagi glyukoza oshishi qanday ataladi?",
+   "a": [
+    "Giperglikemiya",
+    "Gipoglikemiya",
+    "Gipoksiya",
+    "Giperkaliyemiya"
+   ],
+   "e": "Giperglikemiya."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Qondagi glyukozani pasaytiruvchi gormon qaysi?",
+   "a": [
+    "Insulin",
+    "Glyukagon",
+    "Adrenalin",
+    "Kortizol"
+   ],
+   "e": "Insulin."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Glikozillangan gemoglobin (HbA1c) nimani ko'rsatadi?",
+   "a": [
+    "2–3 oylik o'rtacha glyukoza",
+    "Faqat bugungi kun ertalabki qand miqdorini",
+    "Qon guruhini",
+    "Buyrak funksiyasini"
+   ],
+   "e": "HbA1c."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Qon zardobidagi umumiy oqsil me'yori qancha?",
+   "a": [
+    "65–85 g/l",
+    "6–8 g/l",
+    "150–200 g/l",
+    "20–30 g/l"
+   ],
+   "e": "Umumiy oqsil."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Albuminning asosiy vazifasi nima?",
+   "a": [
+    "Onkotik bosim va moddalarni tashish",
+    "Qonni ivitish va trombosit hosil qilish",
+    "Kislorod tashish",
+    "Immunitet antitanalari"
+   ],
+   "e": "Albumin."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Qondagi mochevina miqdori qaysi a'zo faoliyatini baholashda ahamiyatli?",
+   "a": [
+    "Buyrak",
+    "Jigar faqat",
+    "Yurak",
+    "O'pka"
+   ],
+   "e": "Azot almashinuvi."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Kreatinin oshishi nimadan dalolat beradi?",
+   "a": [
+    "Buyrak filtratsiyasi pasayishi",
+    "Jigarning normal ishlashidan",
+    "Qand diabetidan faqat",
+    "Hech narsadan"
+   ],
+   "e": "Kreatinin."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Umumiy bilirubinning me'yori qancha?",
+   "a": [
+    "8,5–20,5 mkmol/l",
+    "85–205 mkmol/l",
+    "0,1–0,5 mkmol/l",
+    "200–300 mkmol/l"
+   ],
+   "e": "Bilirubin."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Bilirubin oshishi qanday klinik belgi bilan namoyon bo'ladi?",
+   "a": [
+    "Sariqlik",
+    "Ko'karish (sianoz)",
+    "Teri oqarishi",
+    "Belgi yo'q"
+   ],
+   "e": "Sariqlik."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "ALT va AST fermentlarining oshishi asosan qaysi a'zo shikastlanishini ko'rsatadi?",
+   "a": [
+    "Jigar",
+    "Ko'z",
+    "Teri",
+    "Suyak"
+   ],
+   "e": "Transaminazalar."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Amilaza oshishi qaysi kasallikda xos?",
+   "a": [
+    "O'tkir pankreatit",
+    "Bronxit",
+    "Konyunktivit",
+    "Gripp"
+   ],
+   "e": "Amilaza."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Umumiy xolesterinning tavsiya etilgan darajasi qancha?",
+   "a": [
+    "5,2 mmol/l dan kam",
+    "10 mmol/l dan ko'p",
+    "15 mmol/l",
+    "0 mmol/l"
+   ],
+   "e": "Xolesterin."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "\"Yomon\" xolesterin qanday ataladi?",
+   "a": [
+    "Past zichlikdagi lipoproteinlar",
+    "Yuqori zichlikdagi lipoproteinlar (HDL)",
+    "Glyukoza",
+    "Albumin"
+   ],
+   "e": "LDL."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Qon zardobi va plazmasining farqi nima?",
+   "a": [
+    "Zardobda fibrinogen yo'q",
+    "Zardobda eritrotsitlar bor",
+    "Farqi yo'q",
+    "Plazmada oqsil yo'q"
+   ],
+   "e": "Syvorotka."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Biokimyoviy tahlil uchun qon qanday probirkaga olinadi?",
+   "a": [
+    "Zardob uchun probirkaga",
+    "Faqat EDTA li probirkaga",
+    "Probirkasiz",
+    "Suvli idishga"
+   ],
+   "e": "Probirka."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Kaliy miqdorining me'yori qancha?",
+   "a": [
+    "3,5–5,0 mmol/l",
+    "35–50 mmol/l",
+    "135–145 mmol/l",
+    "0,3–0,5 mmol/l"
+   ],
+   "e": "Kaliy."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Natriy miqdorining me'yori qancha?",
+   "a": [
+    "135–145 mmol/l",
+    "3,5–5,0 mmol/l",
+    "13–14 mmol/l",
+    "500 mmol/l"
+   ],
+   "e": "Natriy."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Fotometr (spektrofotometr) laboratoriyada nima uchun ishlatiladi?",
+   "a": [
+    "Eritma optik zichligini o'lchash",
+    "Qon hujayralarini sanash",
+    "Haroratni o'lchash",
+    "Namunani sentrifugalash"
+   ],
+   "e": "Fotometriya."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Sentrifuga nima uchun ishlatiladi?",
+   "a": [
+    "Qonni fraksiyalarga ajratish",
+    "Namunani isitish",
+    "Namunani bo'yash",
+    "Namunani muzlatish"
+   ],
+   "e": "Sentrifugalash."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Fermentlar kimyoviy tabiatiga ko'ra nima?",
+   "a": [
+    "Oqsillar",
+    "Uglevodlar",
+    "Yog'lar",
+    "Tuzlar"
+   ],
+   "e": "Fermentlar."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Fermentlarning faolligiga nima ta'sir qiladi?",
+   "a": [
+    "Harorat va pH",
+    "Probirka rangi",
+    "Laborant yoshi",
+    "Ta'sir qilmaydi"
+   ],
+   "e": "Faollik."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Krebs sikli hujayraning qaysi qismida boradi?",
+   "a": [
+    "Mitoxondriyada",
+    "Yadroda",
+    "Ribosomada",
+    "Hujayra membranasida"
+   ],
+   "e": "Limon kislota sikli."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Hujayraning asosiy energiya manbai bo'lgan modda qaysi?",
+   "a": [
+    "ATF",
+    "DNK",
+    "Glitserin",
+    "Mochevina"
+   ],
+   "e": "ATF."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Glikoliz nima?",
+   "a": [
+    "Glyukozaning parchalanishi",
+    "Oqsil sintezi",
+    "DNK replikatsiyasi",
+    "Yog' sintezi"
+   ],
+   "e": "Glikoliz."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Glyukagonning vazifasi nima?",
+   "a": [
+    "Qon glyukozasini oshirish",
+    "Qon glyukozasini pasaytirish",
+    "Qon bosimini pasaytirish",
+    "Kalsiyni oshirish"
+   ],
+   "e": "Glyukagon."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "S vitamini yetishmasligi qanday kasallikka olib keladi?",
+   "a": [
+    "Singa (skorbut)",
+    "Raxit",
+    "Beri-beri",
+    "Pellagra"
+   ],
+   "e": "Askorbin kislota."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "V1 vitamini yetishmasligi qanday kasallik?",
+   "a": [
+    "Beri-beri",
+    "Singa",
+    "Raxit",
+    "Shabko'rlik"
+   ],
+   "e": "Tiamin."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Siydik kislotasi oshishi qaysi kasallikda kuzatiladi?",
+   "a": [
+    "Podagra",
+    "Gripp",
+    "Gastrit",
+    "Bronxit"
+   ],
+   "e": "Podagra."
+  },
+  {
+   "b": "Biokimyoviy tahlillar",
+   "q": "Biokimyoviy tahlil natijasiga nahorga topshirilmagan qon qanday ta'sir qiladi?",
+   "a": [
+    "Glyukoza va lipidlar ko'rsatkichini buzadi",
+    "Hech qanday ta'sir qilmaydi",
+    "Natijani aniqroq qiladi",
+    "Faqat qon guruhiga ta'sir qiladi"
+   ],
+   "e": "Preanalitika."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Siydikning me'yoriy rangi qanday?",
+   "a": [
+    "Somon-sariq",
+    "To'q qizil",
+    "Yashil",
+    "Qora"
+   ],
+   "e": "Rang."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Siydikning solishtirma og'irligi me'yorda qancha?",
+   "a": [
+    "1010–1025",
+    "1050–1100",
+    "900–950",
+    "1000 dan kam doim"
+   ],
+   "e": "Zichlik."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Siydik zichligi qaysi asbob bilan o'lchanadi?",
+   "a": [
+    "Urometr",
+    "Termometr",
+    "Tonometr",
+    "Glyukometr"
+   ],
+   "e": "Urometr."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Sog'lom odam siydigida oqsil bo'ladimi?",
+   "a": [
+    "Yo'q yoki izlari",
+    "Ha, katta miqdorda doim",
+    "Faqat ertalab ko'p",
+    "Faqat bolalarda ko'p"
+   ],
+   "e": "Proteinuriya."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Siydikda glyukoza paydo bo'lishi qanday ataladi?",
+   "a": [
+    "Glyukozuriya",
+    "Proteinuriya",
+    "Gematuriya",
+    "Leykotsituriya"
+   ],
+   "e": "Glyukozuriya."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Siydikda qon paydo bo'lishi qanday ataladi?",
+   "a": [
+    "Gematuriya",
+    "Glyukozuriya",
+    "Bilirubinuriya",
+    "Poliuriya"
+   ],
+   "e": "Gematuriya."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Nechiporenko usulida me'yorda leykotsitlar soni qancha?",
+   "a": [
+    "1 ml siydikda 2000 gacha",
+    "1 ml siydikda 50 000 dan ko'p, bu me'yor",
+    "1 ml da 0",
+    "1 ml da 1 mln"
+   ],
+   "e": "Nechiporenko."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Zimnitskiy sinamasi nimani baholaydi?",
+   "a": [
+    "Konsentratsion funksiyani",
+    "Jigarning oqsil sintezini",
+    "Yurak ritmini",
+    "Qon guruhini"
+   ],
+   "e": "Zimnitskiy."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Zimnitskiy sinamasida siydik qanday yig'iladi?",
+   "a": [
+    "Har 3 soatda, 8 idishga",
+    "Faqat ertalab bitta idishga",
+    "Faqat kechqurun",
+    "Yig'ilmaydi"
+   ],
+   "e": "Usul."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Umumiy siydik tahlili uchun qaysi siydik olinadi?",
+   "a": [
+    "Ertalabki o'rta qism",
+    "Kechki oxirgi qism, uxlashdan oldin",
+    "Sutkalik aralash",
+    "Istalgan"
+   ],
+   "e": "Yig'ish qoidasi."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Siydik tahlilini topshirishdan oldin nima qilinadi?",
+   "a": [
+    "Tashqi jinsiy a'zolar gigiyenasi",
+    "Ko'p suyuqlik ichib, darhol topshirish",
+    "Dori ichish",
+    "Hech narsa"
+   ],
+   "e": "Tayyorgarlik."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Siydik cho'kmasini mikroskopiyalashda nima aniqlanadi?",
+   "a": [
+    "Hujayra, silindr, tuzlar",
+    "Faqat siydik rangi",
+    "Faqat hidi",
+    "Faqat hajmi"
+   ],
+   "e": "Mikroskopiya."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Siydikda keton tanachalarining paydo bo'lishi qaysi holatga xos?",
+   "a": [
+    "Diabet dekompensatsiyasi",
+    "Sog'lom ovqatlanish",
+    "Uyqu",
+    "Sport mashqi faqat"
+   ],
+   "e": "Ketonuriya."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Poliuriya nima?",
+   "a": [
+    "Sutkalik siydik oshishi",
+    "Siydik ajralishining to'xtashi",
+    "Siydikda qon",
+    "Siydikda oqsil"
+   ],
+   "e": "Poliuriya."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Anuriya nima?",
+   "a": [
+    "Siydik ajralmasligi",
+    "Ko'p siydik ajralishi",
+    "Tez-tez siyish",
+    "Og'riqli siyish"
+   ],
+   "e": "Anuriya."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Najas (axlat)da yashirin qonni aniqlash nima uchun o'tkaziladi?",
+   "a": [
+    "Ichak qon ketishini aniqlash",
+    "Qon guruhini aniqlash",
+    "Glyukozani o'lchash",
+    "Buyrak faoliyatini baholash"
+   ],
+   "e": "Okkult qon."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Gijja tuxumlarini aniqlash uchun qaysi material tekshiriladi?",
+   "a": [
+    "Najas (axlat)",
+    "Siydik",
+    "So'lak",
+    "Ter"
+   ],
+   "e": "Gelmintlar."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Enterobiozni aniqlash uchun qaysi usul qo'llanadi?",
+   "a": [
+    "Perianal qirma",
+    "Qon tahlili",
+    "Siydik tahlili",
+    "Rentgen"
+   ],
+   "e": "Ostritsa."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Balg'amda sil tayoqchasi qaysi usulda bo'yaladi?",
+   "a": [
+    "Tsil–Nilsen usulida",
+    "Romanovskiy usulida",
+    "Gram usulida faqat",
+    "Bo'yalmaydi"
+   ],
+   "e": "Kislotabardosh."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Orqa miya suyuqligi (likvor) qanday olinadi?",
+   "a": [
+    "Lyumbal punksiya orqali",
+    "Barmoqdan kapillyar qon olish orqali",
+    "Venadan",
+    "Og'izdan"
+   ],
+   "e": "Likvor."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Me'da shirasining kislotaliligi qanday tekshiriladi?",
+   "a": [
+    "Zond bilan olib, titrlash",
+    "Qon olish orqali",
+    "Siydik orqali",
+    "Teri orqali"
+   ],
+   "e": "Me'da shirasi."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Spermogramma nimani baholaydi?",
+   "a": [
+    "Erkak reproduktiv funksiyasini",
+    "Jigar funksiyasini",
+    "Qon guruhini",
+    "Ko'rish o'tkirligi va eshitish holatini"
+   ],
+   "e": "Spermogramma."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Vaginal surtma tahlili nimani aniqlaydi?",
+   "a": [
+    "Mikroflora va yallig'lanish",
+    "Qon guruhini",
+    "Glyukozani",
+    "Buyrak funksiyasini"
+   ],
+   "e": "Surtma."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Sitologik tekshiruv nima?",
+   "a": [
+    "Hujayralarni mikroskopda o'rganish",
+    "Qon bosimini o'lchash",
+    "Yurak ritmini yozish",
+    "Rentgen surat olish"
+   ],
+   "e": "Sitologiya."
+  },
+  {
+   "b": "Siydik va boshqa biologik suyuqliklar tahlili",
+   "q": "Biologik materialni laboratoriyaga yetkazishda qanday talab bor?",
+   "a": [
+    "Belgilangan vaqt va haroratda",
+    "Har qanday vaqtda, quyosh nuri ostida",
+    "Bir haftadan keyin",
+    "Talab yo'q"
+   ],
+   "e": "Transportirovka."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "AB0 tizimi bo'yicha nechta qon guruhi mavjud?",
+   "a": [
+    "4 ta",
+    "2 ta",
+    "6 ta",
+    "8 ta"
+   ],
+   "e": "AB0."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Qon guruhi nimaga asoslanib aniqlanadi?",
+   "a": [
+    "Antigen va antitanalarga",
+    "Leykotsitlar soniga",
+    "Qon rangiga",
+    "Gemoglobin miqdoriga"
+   ],
+   "e": "Antigenlar."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "I (0) qon guruhida eritrotsitlarda qanday antigen bor?",
+   "a": [
+    "A va B antigenlari yo'q",
+    "Faqat A antigeni",
+    "Antigenlar o'zgaruvchan",
+    "A va B antigenlarining ikkalasi ham bor"
+   ],
+   "e": "0 guruh."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "IV (AB) qon guruhi zardobida qanday antitanalar bor?",
+   "a": [
+    "α va β antitanalar yo'q",
+    "Faqat α antitanalar ko'p miqdorda",
+    "Faqat β",
+    "α va β"
+   ],
+   "e": "AB guruh."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Qon guruhini aniqlashda qanday reagent ishlatiladi?",
+   "a": [
+    "Tsoliklonlar (anti-A, anti-B)",
+    "Glyukoza eritmasi",
+    "Distillangan suv va fiziologik eritma faqat",
+    "Spirt"
+   ],
+   "e": "Tsoliklonlar."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Rezus omil (Rh) nima?",
+   "a": [
+    "Eritrotsitlardagi D antigeni",
+    "Leykotsitlardagi ferment",
+    "Qon plazmasidagi glyukoza va oqsil",
+    "Trombotsitlar soni"
+   ],
+   "e": "Rh."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Rezus-konflikt qachon yuzaga kelishi mumkin?",
+   "a": [
+    "Rh(−) onada Rh(+) homila bo'lganda",
+    "Rh(+) onada Rh(−) homila bo'lganda faqat",
+    "Ikkalasi bir xil bo'lganda",
+    "Hech qachon"
+   ],
+   "e": "Rezus-konflikt."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Qon quyishdan oldin qaysi sinamalar o'tkaziladi?",
+   "a": [
+    "Guruh, rezus, biologik sinama",
+    "Faqat qon bosimi o'lchanadi",
+    "Hech qanday sinama",
+    "Faqat tana harorati"
+   ],
+   "e": "Moslik sinamalari."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Biologik sinama qanday o'tkaziladi?",
+   "a": [
+    "Oz miqdorda 3 marta quyib kuzatish",
+    "Butun qon birdaniga tez quyiladi",
+    "Faqat bemor so'raladi",
+    "O'tkazilmaydi"
+   ],
+   "e": "Biologicheskaya proba."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Qon quyilganda gemotransfuzion shok belgisi qaysi?",
+   "a": [
+    "Bel og'rig'i, titroq, bosim tushishi",
+    "Ishtaha ochilishi va kayfiyat ko'tarilishi",
+    "Uyquchanlik faqat",
+    "Belgi yo'q"
+   ],
+   "e": "Asorat."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Gemotransfuzion reaksiya boshlansa birinchi nima qilinadi?",
+   "a": [
+    "Quyish darhol to'xtatiladi",
+    "Quyish tezligi ikki baravar oshiriladi",
+    "Bemor yolg'iz qoldiriladi",
+    "Hech narsa"
+   ],
+   "e": "Birinchi yordam."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Eritrotsitar massa qachon quyiladi?",
+   "a": [
+    "Og'ir anemiya, qon yo'qotish",
+    "Faqat bosh og'rig'ida",
+    "Har kuni profilaktika uchun",
+    "Hech qachon"
+   ],
+   "e": "Ko'rsatma."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Yangi muzlatilgan plazma qachon quyiladi?",
+   "a": [
+    "Qon ivish omillari yetishmasligida",
+    "Faqat temir tanqisligi anemiyasida",
+    "Isitmada",
+    "Hech qachon"
+   ],
+   "e": "SZP."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Donorlik qonini saqlash uchun qanday harorat kerak (eritrotsitar massa)?",
+   "a": [
+    "+2…+6 °C",
+    "+20…+25 °C",
+    "−80 °C har doim",
+    "+37 °C"
+   ],
+   "e": "Saqlash."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Donor bo'lishi mumkin bo'lgan yosh odatda qancha?",
+   "a": [
+    "18 yoshdan oshgan sog'lom",
+    "12 yoshdan",
+    "Faqat 70 yoshdan keyin",
+    "Cheklov yo'q"
+   ],
+   "e": "Donorlik."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Qonni quyishda qaysi hujjat to'ldiriladi?",
+   "a": [
+    "Qon quyish bayonnomasi",
+    "Hech qanday hujjat",
+    "Faqat og'zaki xabar",
+    "Faqat retsept"
+   ],
+   "e": "Hujjat."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Gemostaz nima?",
+   "a": [
+    "Qon ketishini to'xtatish tizimi",
+    "Qon yaratish va hujayralar yangilanishi",
+    "Qon guruhini aniqlash",
+    "Qon quyish"
+   ],
+   "e": "Gemostaz."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Gemofiliya qanday kasallik?",
+   "a": [
+    "Irsiy ivish buzilishi",
+    "Qonda qand ko'pligi",
+    "Qon guruhining o'zgarishi",
+    "Yuqumli kasallik"
+   ],
+   "e": "Gemofiliya."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Gemoglobin nimadan tashkil topgan?",
+   "a": [
+    "Gem va globin",
+    "Faqat glyukoza",
+    "Faqat yog'",
+    "Faqat kalsiy"
+   ],
+   "e": "Tuzilishi."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Gemoglobinning asosiy vazifasi nima?",
+   "a": [
+    "O2 va CO2 tashish",
+    "Qonni ivitish",
+    "Antitana ishlab chiqarish",
+    "Glyukoza parchalash"
+   ],
+   "e": "Vazifa."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Eritrotsitlar umri taxminan qancha?",
+   "a": [
+    "120 kun",
+    "1 kun",
+    "10 yil",
+    "7 soat"
+   ],
+   "e": "Eritrotsit."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Qon hujayralari qayerda hosil bo'ladi?",
+   "a": [
+    "Qizil suyak ko'migida",
+    "Jigarda faqat",
+    "Buyrakda",
+    "O'pkada"
+   ],
+   "e": "Gemopoez."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "B12-tanqislik anemiyasida eritrotsitlar qanday bo'ladi?",
+   "a": [
+    "Yirik (makrotsitar)",
+    "Mayda (mikrotsitar)",
+    "Normal o'lchamda",
+    "Umuman bo'lmaydi"
+   ],
+   "e": "Megaloblast."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Temir tanqisligi anemiyasida eritrotsitlar qanday bo'ladi?",
+   "a": [
+    "Mayda, gipoxrom",
+    "Yirik va to'q rangli",
+    "O'zgarmaydi",
+    "Shakli yulduzsimon"
+   ],
+   "e": "Mikrotsitoz."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Qon ivish tizimini tekshirish qanday ataladi?",
+   "a": [
+    "Koagulogramma",
+    "Leykoformula",
+    "Spermogramma",
+    "Proteinogramma"
+   ],
+   "e": "Koagulogramma."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "D-dimer tahlili nimaga ishora qiladi?",
+   "a": [
+    "Tromb hosil bo'lishiga",
+    "Qondagi qand miqdoriga",
+    "Buyrak toshiga",
+    "Qon guruhiga"
+   ],
+   "e": "D-dimer."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Leykotsitlarning asosiy vazifasi nima?",
+   "a": [
+    "Infeksiyadan himoya",
+    "Kislorod tashish",
+    "Qonni ivitish faqat",
+    "Glyukozani saqlash"
+   ],
+   "e": "Immunitet."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Trombotsitlarning asosiy vazifasi nima?",
+   "a": [
+    "Qon ivishida qatnashish",
+    "Kislorod tashish",
+    "Antitana ishlab chiqarish",
+    "Gormon ishlab chiqarish"
+   ],
+   "e": "Gemostaz."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Plazmaning asosiy qismi nima?",
+   "a": [
+    "Suv (90% atrofida)",
+    "Oqsillar (90%)",
+    "Yog'lar",
+    "Tuzlar"
+   ],
+   "e": "Plazma."
+  },
+  {
+   "b": "Gematologiya va transfuziologiya asoslari",
+   "q": "Qon quyish xonasida xavfsizlik qoidasi qaysi?",
+   "a": [
+    "Ma'lumotni ikki marta tekshirish",
+    "Paketni tekshirmasdan darhol quyish",
+    "Yorliqni olib tashlash",
+    "Hech narsa"
+   ],
+   "e": "Identifikatsiya."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Mikroskopning immersion obyektivi bilan ishlashda nima ishlatiladi?",
+   "a": [
+    "Immersion moyi",
+    "Distillangan suv",
+    "Spirt",
+    "Hech narsa"
+   ],
+   "e": "×90/×100."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Immersion obyektivning kattalashtirishi odatda qancha?",
+   "a": [
+    "×90 yoki ×100",
+    "×4",
+    "×10",
+    "×1000 bitta obyektivda"
+   ],
+   "e": "Obyektiv."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Mikroskopning umumiy kattalashtirishi qanday hisoblanadi?",
+   "a": [
+    "Okulyar × obyektiv",
+    "Okulyar + obyektiv",
+    "Obyektiv / okulyar",
+    "Faqat okulyar"
+   ],
+   "e": "Kattalashtirish."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laboratoriya idishlarini sterillash usuli qaysi?",
+   "a": [
+    "Avtoklav yoki quruq issiq shkaf",
+    "Faqat sovuq suvda chayish",
+    "Quyoshda quritish",
+    "Sterillanmaydi"
+   ],
+   "e": "Sterilizatsiya."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Avtoklavda sterillash qanday sharoitda bajariladi?",
+   "a": [
+    "Bosimli bug' (120–132 °C)",
+    "50 °C issiq havo",
+    "Xona harorati",
+    "Muzlatish"
+   ],
+   "e": "Avtoklav."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Quruq issiq shkafda sterillash harorati qancha?",
+   "a": [
+    "160–180 °C",
+    "40–50 °C",
+    "100 °C dan past",
+    "300 °C"
+   ],
+   "e": "Sukhozharovoy shkaf."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Termostat laboratoriyada nima uchun ishlatiladi?",
+   "a": [
+    "Doimiy haroratda inkubatsiya",
+    "Namunalarni sentrifugalash",
+    "Mikroskopiya",
+    "Qon hujayralarini sanash"
+   ],
+   "e": "Termostat."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Pipetka bilan ishlashda qaysi qoida to'g'ri?",
+   "a": [
+    "Dozator bilan, og'izsiz",
+    "Og'iz bilan so'rib olinadi",
+    "Qo'l bilan to'kiladi",
+    "Hech qanday qoida"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Biologik material bilan ishlashda laborant qanday himoya vositasidan foydalanadi?",
+   "a": [
+    "Qo'lqop, xalat, niqob",
+    "Hech qanday himoyasiz",
+    "Faqat oddiy kiyim",
+    "Faqat shlyapa"
+   ],
+   "e": "SIZ."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Ishlatilgan igna va o'tkir buyumlar qayerga tashlanadi?",
+   "a": [
+    "O'tkir buyum konteyneriga",
+    "Oddiy chiqindi paketiga",
+    "Rakovinaga",
+    "Polga"
+   ],
+   "e": "Xavfsiz utilizatsiya."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Tibbiy chiqindilarning \"B\" sinfi qanday chiqindilar?",
+   "a": [
+    "Epidemiologik xavfli",
+    "Maishiy xavfsiz chiqindilar",
+    "Radioaktiv chiqindilar",
+    "Qog'oz chiqindilar faqat"
+   ],
+   "e": "Klass B."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laborant qo'liga qon tushsa birinchi nima qilinadi?",
+   "a": [
+    "Yuvib, antiseptik bilan ishlov",
+    "Hech narsa qilinmaydi",
+    "Faqat artib qo'yiladi",
+    "Ishni davom ettiradi"
+   ],
+   "e": "Avariya holati."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laboratoriyada ichki sifat nazorati nima uchun o'tkaziladi?",
+   "a": [
+    "Natija aniqligini ta'minlash",
+    "Laborantlarni jarimaga tortish",
+    "Reagentlarni ko'paytirish",
+    "Kerak emas"
+   ],
+   "e": "Kontrol kachestva."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Nazorat materiali (kontrol zardob) nima uchun kerak?",
+   "a": [
+    "Usul to'g'riligini tekshirish",
+    "Bemorga quyish uchun",
+    "Probirkani yuvish uchun",
+    "Hech narsa"
+   ],
+   "e": "Kontrol."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laboratoriya analizatorini kalibrlash nima?",
+   "a": [
+    "Standart namunalar bo'yicha sozlash",
+    "Analizatorni bo'yash",
+    "Analizatorni ko'chirish",
+    "Analizatorni o'chirish"
+   ],
+   "e": "Kalibrovka."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laboratoriya tahlilining bosqichlari qaysilar?",
+   "a": [
+    "Preanalitik, analitik, postanalitik",
+    "Faqat analitik bitta bosqich",
+    "Faqat natija yozish",
+    "Bosqichlar yo'q"
+   ],
+   "e": "Bosqichlar."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laboratoriya xatolarining ko'pchiligi qaysi bosqichda yuz beradi?",
+   "a": [
+    "Preanalitik bosqichda",
+    "Analitik bosqichda faqat",
+    "Postanalitik bosqichda faqat",
+    "Xato bo'lmaydi"
+   ],
+   "e": "Preanalitika."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Reaktivlar saqlanishida nima muhim?",
+   "a": [
+    "Muddat va harorat",
+    "Faqat flakon rangi",
+    "Faqat narxi",
+    "Hech narsa"
+   ],
+   "e": "Saqlash."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "PZR (polimeraza zanjir reaksiyasi) nima uchun ishlatiladi?",
+   "a": [
+    "DNK/RNK ni aniqlash",
+    "Qon guruhini aniqlash",
+    "Qand miqdorini o'lchash",
+    "Bosimni o'lchash"
+   ],
+   "e": "PTsR."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "IFA (immunoferment tahlil) nimani aniqlaydi?",
+   "a": [
+    "Antigen yoki antitanalarni",
+    "Faqat qon hujayralari sonini",
+    "Faqat siydik zichligini",
+    "Haroratni"
+   ],
+   "e": "IFA."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Ekspress-testlar afzalligi nima?",
+   "a": [
+    "Tez natija beradi",
+    "Juda uzoq (bir oy) natija beradi",
+    "Qimmat va murakkab",
+    "Afzalligi yo'q"
+   ],
+   "e": "Tezkor testlar."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Glyukometr nima uchun ishlatiladi?",
+   "a": [
+    "Glyukozani tez o'lchash",
+    "Qon bosimini o'lchash",
+    "Haroratni o'lchash",
+    "Yurak urishini o'lchash"
+   ],
+   "e": "Glyukometr."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laboratoriya jurnali nima uchun yuritiladi?",
+   "a": [
+    "Natijalarni qayd etish",
+    "Laborant ish haqini hisoblash",
+    "Reklama",
+    "Kerak emas"
+   ],
+   "e": "Hujjatlashtirish."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laboratoriyada ishlash joyini dezinfeksiya qilish qachon o'tkaziladi?",
+   "a": [
+    "Ish oxirida va ifloslanganda",
+    "Faqat oyiga bir marta",
+    "Hech qachon",
+    "Faqat tekshiruv kelganda"
+   ],
+   "e": "Dezinfeksiya."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Kislota va ishqorlar bilan ishlashda qaysi qoida to'g'ri?",
+   "a": [
+    "Kislotani suvga quyish",
+    "Suvni kislotaga quyish",
+    "Og'iz bilan pipetkalash",
+    "Himoyasiz ishlash"
+   ],
+   "e": "Kimyoviy xavfsizlik."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laboratoriya shishasidan probirka sinsa nima qilinadi?",
+   "a": [
+    "Yig'ib, dezinfeksiya qilinadi",
+    "Qo'l bilan yig'ilib, oddiy chiqindiga tashlanadi",
+    "E'tiborsiz qoldiriladi",
+    "Hech narsa"
+   ],
+   "e": "Avariya."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Kolorimetriya nimaga asoslangan?",
+   "a": [
+    "Rang intensivligini o'lchash",
+    "Eritma hidini aniqlashga",
+    "Eritma og'irligini o'lchashga",
+    "Eritma haroratini o'lchashga"
+   ],
+   "e": "Kolorimetriya."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Bakteriologik ekishda qanday oziq muhitlar ishlatiladi?",
+   "a": [
+    "Go'sht-peptonli, qonli agar",
+    "Faqat toza suv",
+    "Faqat qum",
+    "Oziq muhit kerak emas"
+   ],
+   "e": "Pitatelnye sredy."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Antibiotiklarga sezgirlikni aniqlash usuli qaysi?",
+   "a": [
+    "Disk-diffuziya usuli",
+    "Rentgen usuli",
+    "EKG usuli",
+    "Tonometriya"
+   ],
+   "e": "Antibiotikogramma."
+  },
+  {
+   "b": "Laboratoriya jihozlari, xavfsizlik va sifat",
+   "q": "Laborantning kasbiy etikasiga nima kiradi?",
+   "a": [
+    "Natijalar maxfiyligi va aniqligi",
+    "Natijani istagancha o'zgartirish",
+    "Natijani begonaga aytish",
+    "Bemorga qo'pollik"
+   ],
+   "e": "Etika."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Gistologiya nimani o'rganadi?",
+   "a": [
+    "To'qimalar tuzilishini",
+    "Faqat butun organizm harakatini",
+    "Faqat dorilar ta'sirini",
+    "Faqat kasallik tarixini"
+   ],
+   "e": "Gistologiya."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Sitologiya nimani o'rganadi?",
+   "a": [
+    "Hujayra tuzilishi va funksiyasini",
+    "Faqat suyaklar tuzilishini",
+    "Faqat qon aylanishini",
+    "Faqat nerv impulsini"
+   ],
+   "e": "Sitologiya."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Embriologiya nimani o'rganadi?",
+   "a": [
+    "Homila rivojlanishini",
+    "Qariyalar kasalliklarini",
+    "Dori ishlab chiqarishni",
+    "Faqat jarrohlikni"
+   ],
+   "e": "Embriologiya."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Organizmda nechta asosiy to'qima turi bor?",
+   "a": [
+    "4 ta",
+    "2 ta",
+    "10 ta",
+    "20 ta"
+   ],
+   "e": "Epiteliy, biriktiruvchi, muskul, nerv."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Epiteliy to'qimasining asosiy vazifasi nima?",
+   "a": [
+    "Qoplovchi va himoya",
+    "Qisqarish va harakat",
+    "Impuls o'tkazish faqat",
+    "Qon hosil qilish"
+   ],
+   "e": "Epiteliy."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Qon qaysi to'qima turiga kiradi?",
+   "a": [
+    "Biriktiruvchi to'qima",
+    "Epiteliy to'qimasi",
+    "Muskul to'qimasi",
+    "Nerv to'qimasi"
+   ],
+   "e": "Suyuq biriktiruvchi."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Muskul to'qimasining turlari qaysilar?",
+   "a": [
+    "Silliq, skelet, yurak",
+    "Faqat bitta tur",
+    "Faqat suyak va tog'ay",
+    "Faqat yog'"
+   ],
+   "e": "Muskul."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Nerv to'qimasining asosiy hujayrasi qaysi?",
+   "a": [
+    "Neyron",
+    "Eritrotsit",
+    "Osteotsit",
+    "Adipotsit"
+   ],
+   "e": "Neyron."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Neyronning impulsni hujayra tanasidan uzatuvchi o'simtasi qaysi?",
+   "a": [
+    "Akson",
+    "Dendrit",
+    "Sinaps",
+    "Mielin"
+   ],
+   "e": "Akson."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Hujayraning \"energiya stansiyasi\" qaysi organoid?",
+   "a": [
+    "Mitoxondriya",
+    "Ribosoma",
+    "Lizosoma",
+    "Goldji apparati"
+   ],
+   "e": "Mitoxondriya."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Oqsil sintezi qaysi organoidda boradi?",
+   "a": [
+    "Ribosomada",
+    "Lizosomada",
+    "Vakuolada",
+    "Sentriolada"
+   ],
+   "e": "Ribosoma."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Lizosomaning vazifasi nima?",
+   "a": [
+    "Hujayra ichida hazm qilish",
+    "Energiya ishlab chiqarish",
+    "Oqsil sintezi",
+    "Bo'linishni boshqarish"
+   ],
+   "e": "Lizosoma."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Irsiy axborot hujayraning qayerida saqlanadi?",
+   "a": [
+    "Yadroda (DNK)",
+    "Hujayra membranasida",
+    "Ribosomada faqat",
+    "Sitoplazmada faqat"
+   ],
+   "e": "Yadro."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Somatik hujayralar qanday bo'linadi?",
+   "a": [
+    "Mitoz",
+    "Meyoz",
+    "Amitoz faqat",
+    "Bo'linmaydi"
+   ],
+   "e": "Mitoz."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Jinsiy hujayralar qanday bo'linish natijasida hosil bo'ladi?",
+   "a": [
+    "Meyoz",
+    "Mitoz",
+    "Kurtaklanish",
+    "Bo'linmaydi"
+   ],
+   "e": "Meyoz."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Insonning somatik hujayralarida nechta xromosoma bor?",
+   "a": [
+    "46 ta",
+    "23 ta",
+    "48 ta",
+    "92 ta"
+   ],
+   "e": "Diploid."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Odam jinsiy hujayralarida nechta xromosoma bor?",
+   "a": [
+    "23 ta",
+    "46 ta",
+    "12 ta",
+    "92 ta"
+   ],
+   "e": "Gaploid."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Urug'lanish odatda qayerda sodir bo'ladi?",
+   "a": [
+    "Bachadon nayida",
+    "Bachadon bo'ynida",
+    "Tuxumdonda",
+    "Qinda"
+   ],
+   "e": "Urug'lanish."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Urug'langan tuxum hujayra qanday ataladi?",
+   "a": [
+    "Zigota",
+    "Blastula",
+    "Gastrula",
+    "Embrion faqat"
+   ],
+   "e": "Zigota."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Embrional rivojlanish bosqichlari ketma-ketligi qanday?",
+   "a": [
+    "Zigota, maydalanish, blastula, gastrula",
+    "Gastrula, zigota, blastula, maydalanish",
+    "Faqat maydalanish",
+    "Faqat zigota"
+   ],
+   "e": "Bosqichlar."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Homila qavatlari (embrion varaqlari) qaysilar?",
+   "a": [
+    "Ektoderma, mezoderma, endoderma",
+    "Faqat ektoderma",
+    "Faqat epiteliy va muskul",
+    "Faqat endoderma"
+   ],
+   "e": "Varaqlar."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Nerv tizimi qaysi embrion varag'idan rivojlanadi?",
+   "a": [
+    "Ektodermadan",
+    "Endodermadan",
+    "Mezodermadan",
+    "Hech qaysisidan"
+   ],
+   "e": "Ektoderma."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Platsentaning vazifasi nima?",
+   "a": [
+    "Ona va homila o'rtasida modda almashinuvi",
+    "Homilani tug'ilishdan keyin oziqlantirish",
+    "Faqat qon ishlab chiqarish",
+    "Vazifasi yo'q"
+   ],
+   "e": "Platsenta."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Homiladorlik muddati odatda qancha?",
+   "a": [
+    "40 hafta (280 kun)",
+    "20 hafta",
+    "60 hafta",
+    "12 hafta"
+   ],
+   "e": "Muddat."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Gistologik preparat tayyorlash bosqichlari qaysilar?",
+   "a": [
+    "Fiksatsiya, quyish, kesish, bo'yash",
+    "Faqat bo'yash",
+    "Faqat kesish",
+    "Faqat fiksatsiya"
+   ],
+   "e": "Preparat."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Gistologik preparatlarni bo'yashda keng qo'llanadigan usul qaysi?",
+   "a": [
+    "Gematoksilin–eozin",
+    "Tsil–Nilsen",
+    "Gram faqat",
+    "Romanovskiy faqat"
+   ],
+   "e": "G–E."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Gistologik preparatda gematoksilin qaysi tuzilmalarni bo'yaydi?",
+   "a": [
+    "Yadrolarni (ko'k-binafsha)",
+    "Sitoplazmani (pushti)",
+    "Hech narsani",
+    "Faqat membranani"
+   ],
+   "e": "Bazofil."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Fiksatsiya uchun ko'p qo'llanadigan modda qaysi?",
+   "a": [
+    "Formalin",
+    "Glyukoza",
+    "Natriy xlorid faqat",
+    "Suv"
+   ],
+   "e": "Formalin."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Mikrotom nima uchun ishlatiladi?",
+   "a": [
+    "Juda yupqa kesmalar tayyorlash",
+    "Hujayra sanash",
+    "Qon guruhini aniqlash",
+    "Glyukoza o'lchash"
+   ],
+   "e": "Mikrotom."
+  },
+  {
+   "b": "Gistologiya, sitologiya, embriologiya",
+   "q": "Biopsiya nima?",
+   "a": [
+    "Tirik to'qimani tekshirish",
+    "Qon bosimini o'lchash",
+    "Rentgen surat",
+    "Dori yuborish"
+   ],
+   "e": "Biopsiya."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Antigen nima?",
+   "a": [
+    "Immun javobni qo'zg'atuvchi modda",
+    "Organizmning o'zi ishlab chiqaradigan ferment",
+    "Faqat vitamin",
+    "Faqat suv"
+   ],
+   "e": "Antigen."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Antitanalar qaysi hujayralar tomonidan ishlab chiqariladi?",
+   "a": [
+    "Plazmatik hujayralar",
+    "Eritrotsitlar",
+    "Trombotsitlar",
+    "Osteotsitlar"
+   ],
+   "e": "Immunoglobulinlar."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Immunoglobulinlarning qaysi sinfi kasallikning o'tkir davrida birinchi paydo bo'ladi?",
+   "a": [
+    "IgM",
+    "IgG",
+    "IgE",
+    "IgA"
+   ],
+   "e": "Erta javob."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Qaysi immunoglobulin platsentadan o'tadi?",
+   "a": [
+    "IgG",
+    "IgM",
+    "IgA",
+    "IgE"
+   ],
+   "e": "Passiv immunitet."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Allergik reaksiyalarda qaysi immunoglobulin oshadi?",
+   "a": [
+    "IgE",
+    "IgM",
+    "IgG",
+    "IgD"
+   ],
+   "e": "Allergiya."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Serologik tekshiruv nima?",
+   "a": [
+    "Zardobda antitana aniqlash",
+    "Qon hujayralarini sanash",
+    "Siydikni tekshirish",
+    "Rentgen surat"
+   ],
+   "e": "Serologiya."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Bakterioskopik usul nima?",
+   "a": [
+    "Surtmani mikroskopda ko'rish",
+    "Bakteriyani ekib o'stirish",
+    "Antitanani aniqlash",
+    "DNK ni aniqlash"
+   ],
+   "e": "Bakterioskopiya."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Bakteriologik usul nima?",
+   "a": [
+    "Muhitda o'stirib aniqlash",
+    "Faqat surtmani ko'rish",
+    "Qonni sentrifugalash",
+    "Bemor bilan suhbat"
+   ],
+   "e": "Bakteriologiya."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Gram bo'yicha bo'yashda gramm-musbat bakteriyalar qanday rangga bo'yaladi?",
+   "a": [
+    "Ko'k-binafsha",
+    "Qizil-pushti",
+    "Sariq",
+    "Yashil"
+   ],
+   "e": "Gram (+)."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Gramm-manfiy bakteriyalar qanday rangga bo'yaladi?",
+   "a": [
+    "Qizil (pushti)",
+    "Ko'k-binafsha",
+    "Qora",
+    "Yashil"
+   ],
+   "e": "Gram (−)."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Koloniya nima?",
+   "a": [
+    "Bitta mikrobdan o'sgan to'plam",
+    "Bitta virus zarrachasi",
+    "Qon hujayrasi",
+    "Oziq muhit turi"
+   ],
+   "e": "Koloniya."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Petri idishi nima uchun ishlatiladi?",
+   "a": [
+    "Zich muhitda o'stirish",
+    "Qonni sentrifugalash",
+    "Siydik zichligini o'lchash",
+    "Gemoglobinni aniqlash"
+   ],
+   "e": "Chashka Petri."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Mikrobiologik namuna olinganda nimaga e'tibor beriladi?",
+   "a": [
+    "Antibiotikdan oldin, steril",
+    "Antibiotik davolash tugagach olish",
+    "Nosteril idishda olish",
+    "Hech narsa"
+   ],
+   "e": "Qoidalar."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Virusologik tekshiruvda keng qo'llanadigan zamonaviy usul qaysi?",
+   "a": [
+    "PZR",
+    "Gram bo'yash",
+    "EChT",
+    "Zimnitskiy"
+   ],
+   "e": "Molekulyar diagnostika."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Gepatit B ning asosiy markeri qaysi?",
+   "a": [
+    "HBsAg",
+    "HBA1c",
+    "ALT faqat",
+    "Kreatinin"
+   ],
+   "e": "Avstraliya antigeni."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "OIV infeksiyasini aniqlashning skrining usuli qaysi?",
+   "a": [
+    "IFA testi",
+    "Umumiy qon tahlili",
+    "Siydik tahlili",
+    "EChT"
+   ],
+   "e": "Skrining."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "C-reaktiv oqsil (CRB) nimani ko'rsatadi?",
+   "a": [
+    "Yallig'lanish jarayonini",
+    "Qandli diabetni",
+    "Qon guruhini",
+    "Ko'rish o'tkirligi va ko'z bosimini"
+   ],
+   "e": "CRB."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Revmatoid omil qaysi kasallik diagnostikasida qo'llanadi?",
+   "a": [
+    "Revmatoid artrit",
+    "Gripp",
+    "Gastrit",
+    "Konyunktivit va boshqa ko'z kasalliklari"
+   ],
+   "e": "RF."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Antistreptolizin-O (ASLO) nimani ko'rsatadi?",
+   "a": [
+    "Streptokokk o'tkazganini",
+    "Qand diabetini",
+    "Buyrak toshini",
+    "Anemiyani"
+   ],
+   "e": "ASLO."
+  },
+  {
+   "b": "Immunologiya va mikrobiologik diagnostika",
+   "q": "Kandida qo'ziqorinlari tekshiruvi qaysi material bilan amalga oshiriladi?",
+   "a": [
+    "Shilliq qavat qirmasi",
+    "Faqat siydik zichligi",
+    "Faqat qon guruhi",
+    "Faqat rentgen"
+   ],
+   "e": "Mikologiya."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Qandli diabetning asosiy laborator belgisi qaysi?",
+   "a": [
+    "Giperglikemiya",
+    "Leykopeniya",
+    "Trombotsitoz",
+    "Eozinofiliya"
+   ],
+   "e": "Diabet."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Miokard infarktida qaysi marker oshadi?",
+   "a": [
+    "Troponin",
+    "Amilaza",
+    "Bilirubin",
+    "Mochevina"
+   ],
+   "e": "Kardiomarker."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Jigar sirrozida qanday biokimyoviy o'zgarish kuzatiladi?",
+   "a": [
+    "Albumin pasayishi",
+    "Albumin oshishi, bilirubin normal",
+    "Hech qanday o'zgarish yo'q",
+    "Faqat glyukoza oshishi"
+   ],
+   "e": "Sirroz."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Surunkali buyrak yetishmovchiligida qaysi ko'rsatkichlar oshadi?",
+   "a": [
+    "Kreatinin va mochevina",
+    "Gemoglobin va albumin miqdori",
+    "Glyukoza faqat",
+    "Leykotsitlar faqat"
+   ],
+   "e": "SBY."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Gipotireozda qaysi gormon oshadi?",
+   "a": [
+    "TTG (tireotrop gormon)",
+    "T4 (tiroksin) keskin oshib ketadi",
+    "Insulin",
+    "Adrenalin"
+   ],
+   "e": "Gipotireoz."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Gipertoniya kasalligida arterial bosim qancha deb hisoblanadi?",
+   "a": [
+    "140/90 va yuqori",
+    "100/60 mm sim. ust.",
+    "120/80 mm sim. ust.",
+    "90/50 mm sim. ust."
+   ],
+   "e": "AG."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Bronxial astma uchun xos laborator belgi qaysi?",
+   "a": [
+    "Eozinofiliya",
+    "Trombotsitopeniya",
+    "Giperglikemiya",
+    "Gematuriya"
+   ],
+   "e": "Astma."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Pnevmoniyada umumiy qon tahlilida ko'pincha nima kuzatiladi?",
+   "a": [
+    "Leykotsitoz va EChT oshishi",
+    "Leykopeniya va EChT pasayishi",
+    "O'zgarish yo'q",
+    "Faqat glyukoza oshishi"
+   ],
+   "e": "Pnevmoniya."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Gastritni aniqlashda qaysi qo'zg'atuvchi tekshiriladi?",
+   "a": [
+    "Helicobacter pylori",
+    "Stafilokokk faqat",
+    "Gripp virusi",
+    "Sil tayoqchasi"
+   ],
+   "e": "H. pylori."
+  },
+  {
+   "b": "Klinik diagnostika (ichki yuqumsiz kasalliklar)",
+   "q": "Ichki yuqumsiz kasalliklar profilaktikasining asosiy yo'nalishi qaysi?",
+   "a": [
+    "Sog'lom turmush, skrining",
+    "Faqat dorilarni ko'p ichish",
+    "Faqat jarrohlik",
+    "Profilaktika kerak emas"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Oqsillar qanday monomerlardan tuzilgan?",
+   "a": [
+    "Aminokislotalar",
+    "Monosaxaridlar",
+    "Yog' kislotalari",
+    "Nukleotidlar"
+   ],
+   "e": "Oqsil."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Almashtirib bo'lmaydigan aminokislotalar nima?",
+   "a": [
+    "Ovqatdan olinadiganlar",
+    "Organizm o'zi ko'p sintez qiladiganlar",
+    "Faqat o'simliklarda bo'ladiganlar",
+    "Zararli moddalar"
+   ],
+   "e": "Esansial."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Uglevodlarning asosiy vazifasi nima?",
+   "a": [
+    "Energiya manbai",
+    "Irsiy axborot saqlash",
+    "Kislorod tashish",
+    "Immunitet"
+   ],
+   "e": "Uglevod."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Glikogen qayerda to'planadi?",
+   "a": [
+    "Jigar va muskullarda",
+    "Qon plazmasida faqat",
+    "Suyaklarda",
+    "Terida"
+   ],
+   "e": "Glikogen."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Lipidlarning vazifalari qaysilar?",
+   "a": [
+    "Energiya zaxirasi, membrana",
+    "Faqat irsiy axborot",
+    "Faqat kislorod tashish",
+    "Faqat qon ivishi"
+   ],
+   "e": "Lipidlar."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Nuklein kislotalarning monomeri nima?",
+   "a": [
+    "Nukleotid",
+    "Aminokislota",
+    "Glyukoza",
+    "Glitserin"
+   ],
+   "e": "DNK, RNK."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "DNK tarkibidagi azotli asoslar qaysilar?",
+   "a": [
+    "Adenin, guanin, sitozin, timin",
+    "Adenin, guanin, sitozin, uratsil faqat",
+    "Glyukoza, fruktoza",
+    "Glitsin, alanin"
+   ],
+   "e": "DNK."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "RNK tarkibida timin o'rniga qaysi asos bo'ladi?",
+   "a": [
+    "Uratsil",
+    "Adenin",
+    "Guanin",
+    "Sitozin"
+   ],
+   "e": "RNK."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Vitaminlar qanday guruhlarga bo'linadi?",
+   "a": [
+    "Suvda va yog'da eruvchanlar",
+    "Faqat kislotali va ishqoriy",
+    "Faqat organik",
+    "Bo'linmaydi"
+   ],
+   "e": "Vitaminlar."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Yog'da eruvchan vitaminlar qaysilar?",
+   "a": [
+    "A, D, E, K",
+    "B1, B2, C",
+    "Faqat C",
+    "Faqat B12"
+   ],
+   "e": "ADEK."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "K vitamini qaysi jarayonda muhim?",
+   "a": [
+    "Qon ivishida",
+    "Ko'rishda faqat",
+    "Suyak o'sishida faqat",
+    "Hazmda"
+   ],
+   "e": "K vitamini."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "D vitamini qaysi mineral almashinuvini boshqaradi?",
+   "a": [
+    "Kalsiy va fosfor",
+    "Temir",
+    "Yod",
+    "Natriy faqat"
+   ],
+   "e": "D vitamini."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Temir organizmda qaysi oqsil tarkibida ko'p?",
+   "a": [
+    "Gemoglobin",
+    "Insulin",
+    "Kollagen",
+    "Albumin"
+   ],
+   "e": "Temir."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Yod qaysi bez gormonlari tarkibiga kiradi?",
+   "a": [
+    "Qalqonsimon bez",
+    "Oshqozon osti bezi",
+    "Buyrak usti bezi",
+    "Gipofiz"
+   ],
+   "e": "Yod."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Gormonlar qaysi bezlar tomonidan ishlab chiqariladi?",
+   "a": [
+    "Endokrin bezlar",
+    "Faqat so'lak bezlari",
+    "Faqat sut bezlari",
+    "Faqat yog' bezlari"
+   ],
+   "e": "Endokrin."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Adrenalin qaysi bezda ishlab chiqariladi?",
+   "a": [
+    "Buyrak usti bezida",
+    "Qalqonsimon bezda",
+    "Gipofizda",
+    "Oshqozon osti bezida"
+   ],
+   "e": "Adrenalin."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Insulin qaysi hujayralar tomonidan ishlab chiqariladi?",
+   "a": [
+    "Langergans beta-hujayralari",
+    "Jigar hujayralari",
+    "Buyrak hujayralari",
+    "Eritrotsitlar"
+   ],
+   "e": "Insulin."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Kislota-ishqor muvozanatida qon pH me'yori qancha?",
+   "a": [
+    "7,35–7,45",
+    "5,0–6,0",
+    "8,0–9,0",
+    "3,0–4,0"
+   ],
+   "e": "pH."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Atsidoz nima?",
+   "a": [
+    "Qon pH ning kislotali tomonga siljishi",
+    "Qon pH ning ishqoriy tomonga siljishi",
+    "Qon guruhi o'zgarishi",
+    "Qonda qand oshishi"
+   ],
+   "e": "Atsidoz."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Bilirubin qaysi moddaning parchalanishidan hosil bo'ladi?",
+   "a": [
+    "Gemoglobin",
+    "Insulin",
+    "Glyukoza",
+    "Mochevina"
+   ],
+   "e": "Bilirubin."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Mochevina organizmda qaysi a'zoda sintezlanadi?",
+   "a": [
+    "Jigarda",
+    "Buyrakda",
+    "O'pkada",
+    "Yurakda"
+   ],
+   "e": "Ornitin sikli."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Siydik orqali chiqariladigan asosiy azotli modda qaysi?",
+   "a": [
+    "Mochevina",
+    "Glyukoza",
+    "Oqsil",
+    "Yog'"
+   ],
+   "e": "Ekskretsiya."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Gipoglikemiya belgilari qaysilar?",
+   "a": [
+    "Titrash, ter bosishi, bosh aylanishi",
+    "Chanqoq, ko'p siyish, quruq teri faqat",
+    "Belgi yo'q",
+    "Faqat isitma"
+   ],
+   "e": "Gipoglikemiya."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Fermentlarning faol markazi nima?",
+   "a": [
+    "Substrat bog'lanadigan qism",
+    "Fermentning eng tashqi qobig'i",
+    "Ferment rangi",
+    "Ferment nomi"
+   ],
+   "e": "Aktivnyy tsentr."
+  },
+  {
+   "b": "Biokimyo: qo'shimcha",
+   "q": "Koferment nima?",
+   "a": [
+    "Oqsil bo'lmagan yordamchi qism",
+    "Fermentning asosiy oqsil qismi",
+    "Substrat",
+    "Mahsulot"
+   ],
+   "e": "Koferment."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "1 litrda necha millilitr bor?",
+   "a": [
+    "1000 ml",
+    "100 ml",
+    "10 ml",
+    "10 000 ml"
+   ],
+   "e": "Birlik."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "0,9% NaCl eritmasi qanday ataladi?",
+   "a": [
+    "Fiziologik eritma",
+    "Gipertonik eritma",
+    "Gipotonik eritma",
+    "Konsentrlangan kislota"
+   ],
+   "e": "Izotonik."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "100 ml 10% li eritmada qancha erigan modda bor?",
+   "a": [
+    "10 g",
+    "1 g",
+    "100 g",
+    "0,1 g"
+   ],
+   "e": "Foiz."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "5% li 200 ml glyukoza eritmasida qancha glyukoza bor?",
+   "a": [
+    "10 g",
+    "5 g",
+    "20 g",
+    "1 g"
+   ],
+   "e": "200·0,05."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "Eritmani 10 marta suyultirish uchun 1 ml eritmaga qancha erituvchi qo'shiladi?",
+   "a": [
+    "9 ml",
+    "10 ml",
+    "1 ml",
+    "99 ml"
+   ],
+   "e": "1:10."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "1 mmol/l glyukoza taxminan necha mg/dl ga teng?",
+   "a": [
+    "18 mg/dl",
+    "1 mg/dl",
+    "100 mg/dl",
+    "0,18 mg/dl"
+   ],
+   "e": "Konversiya."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "Qondagi glyukoza 90 mg/dl bo'lsa, mmol/l da taxminan qancha?",
+   "a": [
+    "5 mmol/l",
+    "90 mmol/l",
+    "1 mmol/l",
+    "18 mmol/l"
+   ],
+   "e": "90/18."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "Goryaev kamerasida 5 ta katta kvadratda 400 eritrotsit sanaldi (standart hisob). Natija taxminan?",
+   "a": [
+    "4,0 × 10¹²/l",
+    "400 × 10¹²/l",
+    "0,4 × 10¹²/l",
+    "40 × 10⁹/l"
+   ],
+   "e": "Standart formula."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "Sentrifugalashda probirkalar qanday joylashtiriladi?",
+   "a": [
+    "Qarama-qarshi muvozanatlab",
+    "Bir tomonga hammasi",
+    "Probirkasiz",
+    "Tasodifiy"
+   ],
+   "e": "Balans."
+  },
+  {
+   "b": "Laboratoriya amaliyoti va hisoblar",
+   "q": "Laboratoriya natijasi me'yordan keskin chetlansa (kritik qiymat) nima qilinadi?",
+   "a": [
+    "Darhol shifokorga xabar beriladi",
+    "Natija bir hafta keyin yuboriladi",
+    "Natija o'chirib tashlanadi",
+    "Hech narsa"
+   ],
+   "e": "Kritik qiymat."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Laborant ish kunini nimadan boshlaydi?",
+   "a": [
+    "Jihoz va reaktivlarni tekshirish",
+    "Darhol tahlil natijalarini taxminan yozishdan",
+    "Dam olishdan",
+    "Hech narsadan"
+   ],
+   "e": "Ish tartibi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Laboratoriya namunasi yorlig'ida nima ko'rsatiladi?",
+   "a": [
+    "F.I.Sh., sana, tahlil turi",
+    "Faqat laborant ismi",
+    "Faqat probirka rangi",
+    "Hech narsa"
+   ],
+   "e": "Markirovka."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qonni venadan olishda jgut qancha vaqtdan ortiq qo'yilmasligi kerak?",
+   "a": [
+    "1 daqiqadan ortiq emas",
+    "30 daqiqa",
+    "1 soat",
+    "Cheklanmaydi"
+   ],
+   "e": "Gemokonsentratsiya."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Vakuumli probirkalar (vakutayner) afzalligi nima?",
+   "a": [
+    "Xavfsiz va gemoliz kam",
+    "Xavfli va hajmi noaniq",
+    "Qimmat va foydasiz",
+    "Afzalligi yo'q"
+   ],
+   "e": "Vakutayner."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Probirka qopqoqlari ranglari nimani bildiradi?",
+   "a": [
+    "Qo'shimcha turini",
+    "Faqat ishlab chiqaruvchini",
+    "Bemor yoshini",
+    "Hech narsani"
+   ],
+   "e": "Rang kodi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Binafsha qopqoqli probirkada qanday qo'shimcha bo'ladi?",
+   "a": [
+    "EDTA",
+    "Natriy sitrat",
+    "Geparin",
+    "Qo'shimchasiz"
+   ],
+   "e": "Rang kodi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Ko'k (havorang) qopqoqli probirkada qanday qo'shimcha bo'ladi?",
+   "a": [
+    "Natriy sitrat",
+    "EDTA",
+    "Ivituvchi faollagich",
+    "Natriy ftorid"
+   ],
+   "e": "Koagulogramma."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qizil yoki sariq qopqoqli probirka nima uchun ishlatiladi?",
+   "a": [
+    "Zardob olish (biokimyo)",
+    "Umumiy qon tahlili",
+    "Koagulogramma",
+    "Siydik tahlili"
+   ],
+   "e": "Zardob."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Kulrang qopqoqli (natriy ftoridli) probirka nima uchun?",
+   "a": [
+    "Glyukoza tahlili",
+    "Qon guruhi",
+    "Koagulogramma",
+    "Umumiy qon tahlili"
+   ],
+   "e": "Glikoliz ingibitori."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Laboratoriyada natijani tekshirib tasdiqlash qaysi bosqichga kiradi?",
+   "a": [
+    "Postanalitik",
+    "Preanalitik",
+    "Analitik emas",
+    "Hech qaysi"
+   ],
+   "e": "Validatsiya."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Ultrabinafsha lampa laboratoriyada nima uchun ishlatiladi?",
+   "a": [
+    "Havo va yuzani zararsizlantirish",
+    "Xonani yoritish faqat",
+    "Namunalarni isitish",
+    "Mikroskopiya"
+   ],
+   "e": "Kvarslash."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Laboratoriya xonasida ovqatlanish mumkinmi?",
+   "a": [
+    "Yo'q, taqiqlanadi",
+    "Ha, istalgan joyda",
+    "Ha, qo'lqopda",
+    "Ha, tushlik vaqtida stolda"
+   ],
+   "e": "Biologik xavfsizlik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Biologik xavfsizlik sinfi (BSL) nimani belgilaydi?",
+   "a": [
+    "Ishlash xavfsizlik darajasini",
+    "Laboratoriya narxini",
+    "Xodimlar sonini",
+    "Laboratoriya rangini"
+   ],
+   "e": "BSL."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Gematologik tahlilda \"chapga siljish\" nimani bildiradi?",
+   "a": [
+    "Tayoqcha yadrolilar oshishi",
+    "Eritrotsitlar kamayishi",
+    "Trombotsitlar oshishi",
+    "Limfotsitlar kamayishi faqat"
+   ],
+   "e": "Sdvig vlevo."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Eritrotsitlar sedimentatsiyasi (EChT) oshishi nimaga ishora qiladi?",
+   "a": [
+    "Yallig'lanishga",
+    "Har doim sog'liqqa",
+    "Qon guruhiga",
+    "Bemor bo'yiga"
+   ],
+   "e": "EChT."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Siydikda leykotsitlar ko'pligi nimaga xos?",
+   "a": [
+    "Siydik yo'li yallig'lanishi",
+    "Sog'lom holat",
+    "Diabet faqat",
+    "Anemiya"
+   ],
+   "e": "Piuriya."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Laborant malakasini oshirish nima uchun muhim?",
+   "a": [
+    "Yangi usullarni o'zlashtirish",
+    "Ish haqi oshmagani uchun keraksiz",
+    "Muhim emas",
+    "Faqat sertifikat uchun"
+   ],
+   "e": "Kasbiy rivojlanish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Laboratoriya tibbiyotida avtomatlashtirish nima beradi?",
+   "a": [
+    "Xatoni kamaytiradi",
+    "Xatolarni ko'paytiradi",
+    "Faqat qimmatlashtiradi",
+    "Hech narsa"
+   ],
+   "e": "Avtomatika."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "LIS (laboratoriya axborot tizimi) vazifasi nima?",
+   "a": [
+    "Natijalarni elektron boshqarish",
+    "Faqat laborantlar ish vaqtini hisoblash",
+    "Reklama",
+    "Hech narsa"
+   ],
+   "e": "LIS."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Tahlil natijasi bemor holatiga mos kelmasa nima qilinadi?",
+   "a": [
+    "Takrorlanadi yoki muhokama qilinadi",
+    "Natija o'zgartirib yoziladi",
+    "E'tiborsiz qoldiriladi",
+    "Bemorga aytilmaydi"
+   ],
+   "e": "Klinik moslik."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Jigar qaysi oqsillarni sintezlaydi?",
+   "a": [
+    "Albumin va qon ivish omillari",
+    "Insulin va glyukagon",
+    "Faqat immunoglobulinlar va komplement tizimi",
+    "Tiroksin va insulin"
+   ],
+   "e": "Jigar."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Qalqonsimon bez gormonlari qaysilar?",
+   "a": [
+    "T3 va T4",
+    "Insulin va glyukagon",
+    "Adrenalin",
+    "Estrogen"
+   ],
+   "e": "Tireoid gormonlar."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Prostata-spesifik antigen (PSA) qaysi a'zo kasalligi uchun marker?",
+   "a": [
+    "Prostata bezi",
+    "Jigar",
+    "Oshqozon",
+    "O'pka"
+   ],
+   "e": "Onkomarker."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Onkomarkerlar nima uchun tekshiriladi?",
+   "a": [
+    "O'smalarni erta aniqlash va kuzatish",
+    "Qon guruhini aniqlash",
+    "Vitamin va mineral miqdorini aniqlash uchun",
+    "Bosimni o'lchash"
+   ],
+   "e": "Onkomarker."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Homiladorlikni aniqlash testi qaysi gormonga asoslangan?",
+   "a": [
+    "XGCh",
+    "Insulin",
+    "Tiroksin",
+    "Adrenalin"
+   ],
+   "e": "hCG."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Ferritin nimani ko'rsatadi?",
+   "a": [
+    "Organizmdagi temir zaxirasini",
+    "Qondagi qand miqdorini va insulinni",
+    "Buyrak funksiyasini",
+    "Qon guruhini"
+   ],
+   "e": "Ferritin."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Elektrolitlar balansi buzilishiga misol qaysi?",
+   "a": [
+    "Giperkaliyemiya",
+    "Leykotsitoz",
+    "Gematuriya",
+    "Eozinofiliya"
+   ],
+   "e": "Elektrolitlar."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Kalsiy qondagi me'yori taxminan qancha?",
+   "a": [
+    "2,1–2,6 mmol/l",
+    "21–26 mmol/l",
+    "0,2–0,3 mmol/l",
+    "100 mmol/l"
+   ],
+   "e": "Kalsiy."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Lipidogramma nimani o'z ichiga oladi?",
+   "a": [
+    "Xolesterin va lipoproteinlar",
+    "Faqat glyukoza, insulin va glikogen",
+    "Faqat gemoglobin",
+    "Faqat leykotsitlar"
+   ],
+   "e": "Lipid profili."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Triglitseridlar oshishi nimaga xavf tug'diradi?",
+   "a": [
+    "Ateroskleroz va pankreatitga",
+    "Suyak mustahkamlanishi va ko'rish yaxshilanishiga",
+    "Suyak mustahkamlanishiga",
+    "Xavf yo'q"
+   ],
+   "e": "Triglitseridlar."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Laboratoriyada sentrifuga qopqog'ini ishlab turganda ochish mumkinmi?",
+   "a": [
+    "Yo'q, to'liq to'xtagach ochiladi",
+    "Ha, ish tezroq bo'lishi uchun aylanayotganda",
+    "Ha, qo'lqopda",
+    "Ha, istalgan vaqtda"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Qon zardobi lipemik (xira, sutsimon) bo'lsa sabab nima?",
+   "a": [
+    "Ovqatdan keyin qon olingani (yog'lar)",
+    "Nahorga, qoidaga to'liq rioya qilib olingani",
+    "Gemoliz yo'qligi",
+    "Sabab yo'q"
+   ],
+   "e": "Lipemiya."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Ikterik (sariq) zardob nimaga ishora qiladi?",
+   "a": [
+    "Bilirubin oshganiga",
+    "Glyukoza oshganiga",
+    "Kaliy kamayganiga",
+    "Hech narsaga"
+   ],
+   "e": "Ikterichnost."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Mikroskopda ishlashni qaysi obyektivdan boshlash kerak?",
+   "a": [
+    "Kichik kattalashtiruvchi (×8, ×10)",
+    "Darhol immersion (×90), moysiz",
+    "Faqat ×40",
+    "Ahamiyatsiz"
+   ],
+   "e": "Mikroskopiya qoidasi."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Laboratoriya natijalarining referens oraliqlari nima?",
+   "a": [
+    "Sog'lom aholida kuzatiladigan me'yoriy qiymatlar",
+    "Faqat bitta bemorning qiymatlari",
+    "O'zgarmas, hamma uchun bir xil bo'lgan son",
+    "Hech narsa"
+   ],
+   "e": "Referens."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Qonda eritrotsitlar sonining oshishi qanday ataladi?",
+   "a": [
+    "Eritrotsitoz (poliglobuliya)",
+    "Anemiya",
+    "Leykopeniya",
+    "Trombotsitopeniya"
+   ],
+   "e": "Eritrotsitoz."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Bazofillarning leykoformuladagi me'yori qancha?",
+   "a": [
+    "0–1%",
+    "10–20%",
+    "30–40%",
+    "50%"
+   ],
+   "e": "Bazofillar."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Monotsitlarning leykoformuladagi me'yori qancha?",
+   "a": [
+    "3–11%",
+    "40–60%",
+    "0%",
+    "25–35%"
+   ],
+   "e": "Monotsitlar."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Eozinofillarning leykoformuladagi me'yori qancha?",
+   "a": [
+    "0,5–5%",
+    "20–30%",
+    "50–70%",
+    "10–15%"
+   ],
+   "e": "Eozinofillar."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Tayoqcha yadroli neytrofillarning me'yori qancha?",
+   "a": [
+    "1–6%",
+    "20–30%",
+    "47–72%",
+    "0%"
+   ],
+   "e": "Tayoqcha."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Siydik reaksiyasi (pH) me'yorda qanday?",
+   "a": [
+    "Kuchsiz kislotali (5–7)",
+    "Kuchli ishqoriy (10–12)",
+    "Kuchli kislotali (1–2)",
+    "Neytral har doim 7,0"
+   ],
+   "e": "pH."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Siydikda bilirubin paydo bo'lishi qaysi holatga xos?",
+   "a": [
+    "Mexanik va parenximatoz sariqlik",
+    "Sog'lom holat",
+    "Anemiya",
+    "Gripp"
+   ],
+   "e": "Bilirubinuriya."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Siydikda silindrlar paydo bo'lishi qaysi a'zo shikastlanishini ko'rsatadi?",
+   "a": [
+    "Buyrak kanalchalari",
+    "Siydik pufagi faqat",
+    "Jigar",
+    "Yurak"
+   ],
+   "e": "Silindruriya."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Umumiy oqsil kamayishi qanday ataladi?",
+   "a": [
+    "Gipoproteinemiya",
+    "Giperproteinemiya",
+    "Gipoglikemiya",
+    "Giperkaliyemiya"
+   ],
+   "e": "Gipoproteinemiya."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Shish (oteklar) bilan kechadigan nefrotik sindromda nima kuzatiladi?",
+   "a": [
+    "Katta proteinuriya va gipoalbuminemiya",
+    "Siydikda oqsil yo'qligi",
+    "Gemoglobin oshishi",
+    "Glyukoza kamayishi"
+   ],
+   "e": "Nefrotik sindrom."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "Laboratoriya diagnostikasining asosiy maqsadi nima?",
+   "a": [
+    "Tashxisga ob'ektiv ma'lumot",
+    "Faqat bemorlardan to'lov olish",
+    "Shifokor o'rnini to'liq egallash",
+    "Hech narsa"
+   ],
+   "e": "Maqsad."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "Gematologik tahlil uchun olingan qon qancha vaqt ichida tekshirilishi kerak?",
+   "a": [
+    "Imkon qadar tez (2–4 soat)",
+    "Bir hafta ichida",
+    "Bir oy ichida",
+    "Muddat yo'q"
+   ],
+   "e": "Barqarorlik."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "Qon surtmasini tayyorlashda surtma qanday bo'lishi kerak?",
+   "a": [
+    "Yupqa, bir tekis, \"dumli\"",
+    "Qalin, notekis va dog'li",
+    "Faqat bir tomchi",
+    "Bo'yalmagan holda qoldirilgan"
+   ],
+   "e": "Mazok."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "Laboratoriyada eksikator nima uchun ishlatiladi?",
+   "a": [
+    "Moddalarni quruq holda saqlash",
+    "Namunalarni isitish",
+    "Hujayra sanash",
+    "Sentrifugalash"
+   ],
+   "e": "Eksikator."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "pH-metr nima uchun ishlatiladi?",
+   "a": [
+    "Eritma kislotaliligini o'lchash",
+    "Haroratni o'lchash",
+    "Bosimni o'lchash",
+    "Massa o'lchash"
+   ],
+   "e": "pH-metr."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "Analitik tarozida tortishda qanday qoida bor?",
+   "a": [
+    "Idishda, eshikcha yopiq",
+    "Ochiq oynada, shamolda tortish",
+    "Issiq idishni darhol qo'yish",
+    "Qoida yo'q"
+   ],
+   "e": "Tortish."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "Laboratoriyada distillangan suv nima uchun ishlatiladi?",
+   "a": [
+    "Reaktiv tayyorlash va chayish",
+    "Ichish uchun",
+    "Isitish uchun",
+    "Hech narsa uchun"
+   ],
+   "e": "Distillangan suv."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "Titrlash nima?",
+   "a": [
+    "Konsentratsiyani aniqlash",
+    "Eritmani bo'yash",
+    "Eritmani muzlatish",
+    "Eritmani sentrifugalash"
+   ],
+   "e": "Titrlash."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "Indikator (fenolftalein) ishqoriy muhitda qanday rangga kiradi?",
+   "a": [
+    "Pushti (malina)",
+    "Rangsiz",
+    "Ko'k",
+    "Sariq"
+   ],
+   "e": "Indikator."
+  },
+  {
+   "b": "Yakuniy savollar 4",
+   "q": "Laboratoriya mutaxassisining ish joyida qaysi hujjat bo'lishi shart?",
+   "a": [
+    "Yo'riqnoma va xavfsizlik qoidasi",
+    "Faqat reklama varaqasi",
+    "Hech qanday hujjat",
+    "Faqat ta'til jadvali"
+   ],
+   "e": "SOP."
+  }
+ ],
+ "kalit": "klinik laboratoriya biokimyo gematologiya qon tahlili laborant gistologiya"
+}
