@@ -19,8 +19,8 @@
    "b": "Vagonlar haqida umumiy ma'lumotlar",
    "q": "Vagonning asosiy qismlariga nimalar kiradi?",
    "a": [
-    "Kuzov, rama, yurish qismlari, urilib-tortish va tormoz uskunalari",
-    "Faqat kuzov va g'ildiraklar",
+    "Kuzov, rama, ressorlar va tormoz",
+    "Faqat kuzov, g'ildiraklar va dvigatel bloki",
     "Dvigatel va transmissiya",
     "Pantograf va transformator"
    ],
@@ -30,9 +30,9 @@
    "b": "Vagonlar haqida umumiy ma'lumotlar",
    "q": "Vagonning yuk ko'tarish qobiliyati nima?",
    "a": [
-    "Vagonga yuklash mumkin bo'lgan eng katta yuk massasi",
+    "Eng katta ruxsat etilgan yuk massasi",
     "Bo'sh vagon massasi",
-    "Vagon kuzovining hajmi",
+    "Vagon kuzovining to'liq geometrik hajmi",
     "Vagonning o'qlar soni"
    ],
    "e": "Bo'sh vagon massasi — tara deb ataladi."
@@ -52,8 +52,8 @@
    "b": "Gabaritlar",
    "q": "Harakatdagi tarkib gabariti nima?",
    "a": [
-    "Vagon chiqib ketmasligi kerak bo'lgan cheklovchi ko'ndalang kontur",
-    "Vagonning uzunligi",
+    "Cheklovchi ko'ndalang kontur",
+    "Vagonning bufer bo'yicha umumiy uzunligi",
     "Rels orasidagi masofa",
     "Stansiya yo'llari soni"
    ],
@@ -74,8 +74,8 @@
    "b": "G'ildirak juftlari",
    "q": "G'ildirak jufti qanday qismlardan iborat?",
    "a": [
-    "O'q va unga mahkam presslangan ikki g'ildirak",
-    "Ikki alohida aylanadigan g'ildirak",
+    "O'q va presslangan ikki g'ildirak",
+    "Ikki alohida, mustaqil aylanadigan g'ildirak",
     "G'ildirak va buksa",
     "Rama va prujina"
    ],
@@ -85,8 +85,8 @@
    "b": "G'ildirak juftlari",
    "q": "G'ildirak gardishining (rebordasining) vazifasi nima?",
    "a": [
-    "G'ildirak juftini relsdan chiqib ketishdan saqlash",
-    "Tormozlashni ta'minlash",
+    "Relsdan chiqib ketishdan saqlash",
+    "Tormozlash samaradorligini oshirish",
     "Shovqinni kamaytirish",
     "Yukni taqsimlash"
    ],
@@ -107,8 +107,8 @@
    "b": "G'ildirak juftlari",
    "q": "Yuk vagoni g'ildiraklarida qaysi nuqson bo'lsa, vagonni ekspluatatsiya qilish taqiqlanadi?",
    "a": [
-    "Ruxsat etilganidan chuqur polzun (tekis yeyilish) bo'lsa",
-    "Bo'yog'i ko'chgan bo'lsa",
+    "Ruxsat etilganidan chuqur polzun",
+    "Bo'yog'i ko'chgan yoki raqami xira bo'lsa",
     "Raqami xira bo'lsa",
     "G'ildirak toza bo'lmasa"
    ],
@@ -129,8 +129,8 @@
    "b": "Buksalar",
    "q": "Buksaning asosiy vazifasi nima?",
    "a": [
-    "Vagon og'irligini o'q bo'yniga uzatish va podshipniklarni joylashtirish",
-    "Vagonlarni bir-biriga ulash",
+    "Yuklamani o'q bo'yniga uzatish",
+    "Vagonlarni bir-biriga mahkam ulash",
     "Tormoz kuchini uzatish",
     "Kuzovni isitish"
    ],
@@ -151,8 +151,8 @@
    "b": "Buksalar",
    "q": "Harakatda buksaning haddan tashqari qizib ketishi nimaga olib kelishi mumkin?",
    "a": [
-    "O'q bo'ynining kesilishiga va halokatga",
-    "Tormozning kuchayishiga",
+    "O'q bo'yni kesilishi va halokatga",
+    "Tormoz kuchining keskin oshib ketishiga",
     "Vagon tezligining oshishiga",
     "Hech qanday oqibatga"
    ],
@@ -162,8 +162,8 @@
    "b": "Ressorlar va tebranish so'ndirgichlari",
    "q": "Ressor osmasining vazifasi nima?",
    "a": [
-    "Zarbalarni yumshatish va tebranishlarni kamaytirish",
-    "Vagonni tormozlash",
+    "Zarbalarni yumshatish",
+    "Vagonni tormozlash va to'xtatish",
     "Yuklarni mahkamlash",
     "Vagonlarni ulash"
    ],
@@ -184,8 +184,8 @@
    "b": "Aravachalar",
    "q": "Yuk vagonining ikki o'qli aravachasi (masalan, 18-100 modeli) asosiy qismlari qaysilar?",
    "a": [
-    "Ikki yon rama, ressor ustidagi balka, ressor to'plami, g'ildirak juftlari",
-    "Kuzov va kabina",
+    "Yon ramalar, balka, ressorlar, g'ildiraklar",
+    "Kuzov, kabina va boshqaruv pulti",
     "Dvigatel va reduktor",
     "Pantograf va kontaktor"
    ],
@@ -195,10 +195,10 @@
    "b": "Aravachalar",
    "q": "Vagon kuzovi aravachaga qaysi qism orqali tayanadi?",
    "a": [
-    "Podpyatnik (tayanch markaz) va yon tayanchlar orqali",
+    "Podpyatnik va yon tayanchlar orqali",
     "Buksa orqali",
     "Avtoulagich orqali",
-    "G'ildirak gardishi orqali"
+    "Buksa va g'ildirak gardishi orqali"
    ],
    "e": "Podpyatnik kuzovning aravachaga nisbatan aylanishini ta'minlaydi."
   },
@@ -217,8 +217,8 @@
    "b": "Vagonosti generatorlari yuritmalari",
    "q": "Yo'lovchi vagonida vagonosti generatori qanday harakatga keltiriladi?",
    "a": [
-    "G'ildirak jufti o'qidan reduktor-kardan yoki tasmali yuritma orqali",
-    "Alohida dizel dvigateli orqali",
+    "G'ildirak jufti o'qidan yuritma orqali",
+    "Alohida dizel dvigateli va generator orqali",
     "Kontakt tarmog'idan",
     "Akkumulyatordan"
    ],
@@ -228,8 +228,8 @@
    "b": "Urilib-tortish uskunalari",
    "q": "Urilib-tortish uskunasining vazifasi nima?",
    "a": [
-    "Vagonlarni ulash, tortish va zarba kuchlarini uzatish hamda yumshatish",
-    "Tormozlashni boshqarish",
+    "Ulash, tortish va zarbani yumshatish",
+    "Tormozlashni boshqarish va havo uzatish",
     "Yukni tushirish",
     "Vagonni isitish"
    ],
@@ -250,8 +250,8 @@
    "b": "Urilib-tortish uskunalari",
    "q": "Yutuvchi apparatning vazifasi nima?",
    "a": [
-    "Bo'ylama zarba va tortish kuchlari energiyasini yutish",
-    "Tormoz havosini uzatish",
+    "Zarba energiyasini yutish",
+    "Tormoz havosini magistralga uzatish",
     "Vagonni yoritish",
     "Eshiklarni ochish"
    ],
@@ -261,8 +261,8 @@
    "b": "Vagon kuzovlari",
    "q": "Yopiq yuk vagoni qanday yuklarni tashish uchun mo'ljallangan?",
    "a": [
-    "Atmosfera ta'siridan himoyalanishi kerak bo'lgan yuklar",
-    "Faqat suyuq yuklar",
+    "Himoya talab qiladigan yuklar",
+    "Faqat suyuq va gazsimon yuklar",
     "Faqat uzun o'lchamli yuklar",
     "Faqat sochiluvchan ruda"
    ],
@@ -272,8 +272,8 @@
    "b": "Yuk vagonlari",
    "q": "Yarim vagon (polvagon) asosan qanday yuklar uchun ishlatiladi?",
    "a": [
-    "Ko'mir, ruda, tosh kabi sochiluvchan va namlikdan qo'rqmaydigan yuklar",
-    "Oziq-ovqat mahsulotlari",
+    "Sochiluvchan yuklar (ko'mir, ruda)",
+    "Oziq-ovqat va tez buziladigan mahsulotlar",
     "Yo'lovchilar",
     "Suyuq yoqilg'i"
    ],
@@ -283,8 +283,8 @@
    "b": "Yuk vagonlari",
    "q": "Platforma vagoni qanday yuklar uchun mo'ljallangan?",
    "a": [
-    "Uzun o'lchamli, og'ir va konteyner yuklar",
-    "Sochiluvchan don",
+    "Uzun va og'ir yuklar",
+    "Sochiluvchan don va mineral o'g'it",
     "Suyuqliklar",
     "Tez buziladigan yuklar"
    ],
@@ -295,7 +295,7 @@
    "q": "Sisterna qanday yuklarni tashish uchun ishlatiladi?",
    "a": [
     "Suyuq va gazsimon yuklar",
-    "Sochiluvchan yuklar",
+    "Sochiluvchan va qumoq qurilish yuklari",
     "Konteynerlar",
     "Yog'och"
    ],
@@ -306,7 +306,7 @@
    "q": "Izotermik vagonlar qaysi yuklar uchun mo'ljallangan?",
    "a": [
     "Tez buziladigan yuklar",
-    "Ko'mir",
+    "Ko'mir va qazib olingan ruda",
     "Metall prokat",
     "Qurilish qumi"
    ],
@@ -316,8 +316,8 @@
    "b": "Yo'lovchi vagonlar",
    "q": "Yo'lovchi vagonining asosiy turlariga qaysilar kiradi?",
    "a": [
-    "Kupe, plaskart, o'tiriladigan va SV vagonlar",
-    "Platforma va sisterna",
+    "Kupe, plaskart, SV va o'tiriladigan",
+    "Platforma, sisterna va izotermik vagonlar",
     "Yarim vagon va xopper",
     "Refrijerator va termos"
    ],
@@ -333,6 +333,2977 @@
     "≈9 m"
    ],
    "e": "40 futlik konteyner ≈12,19 m."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonning o'qlar soniga ko'ra turlari qaysilar?",
+   "a": [
+    "4, 6, 8 o'qli va boshqalar",
+    "Faqat bir o'qli yoki o'qsiz vagonlar",
+    "Faqat o'qsiz vagonlar",
+    "Faqat 3 va 5 o'qli"
+   ],
+   "e": "Eng ko'p tarqalgani — 4 o'qli."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Yuk ko'tarish qobiliyatidan foydalanish koeffitsiyenti nima?",
+   "a": [
+    "Haqiqiy yuk / yuk ko'tarish",
+    "Tara va o'qlar soni nisbati",
+    "Vagon uzunligining kengligiga nisbati",
+    "Tezlikning masofaga nisbati"
+   ],
+   "e": "Samaradorlik ko'rsatkichi."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Tara koeffitsiyenti nima?",
+   "a": [
+    "Tara / yuk ko'tarish",
+    "Yukning tezlikka nisbati",
+    "G'ildiraklar sonining o'qlarga nisbati",
+    "Kuzov hajmining uzunlikka nisbati"
+   ],
+   "e": "Qancha kichik bo'lsa, shuncha yaxshi."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "O'q yuklamasi nima?",
+   "a": [
+    "Bir o'qning relsga yuklamasi",
+    "Vagonning umumiy uzunligi",
+    "Avtoulagichdagi tortish kuchi",
+    "Tormoz silindri bosimi"
+   ],
+   "e": "Brutto massa / o'qlar soni."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonning yo'l metriga tushadigan yuklamasi nima?",
+   "a": [
+    "Brutto massa / uzunlik",
+    "O'q yuklamasining yarmi",
+    "Tormoz kolodkasi kuchi",
+    "G'ildirak diametri"
+   ],
+   "e": "t/m."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonning solishtirma hajmi nima?",
+   "a": [
+    "Kuzov hajmi / yuk ko'tarish",
+    "Vagonning tara og'irligi (tonnada)",
+    "G'ildiraklar umumiy soni",
+    "Tormoz kolodkalari soni"
+   ],
+   "e": "m³/t."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonlar bortidagi raqam (inventar raqami) nimani bildiradi?",
+   "a": [
+    "Vagon turi va xususiyatlarini",
+    "Faqat ishlab chiqarilgan yilni",
+    "Faqat egasining ismini",
+    "Faqat rangini"
+   ],
+   "e": "8 xonali raqam."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonlarning inventar raqami nechta raqamdan iborat?",
+   "a": [
+    "8 ta",
+    "4 ta",
+    "6 ta",
+    "12 ta"
+   ],
+   "e": "MDH tizimida."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagon inventar raqamining birinchi raqami nimani bildiradi?",
+   "a": [
+    "Vagon turini",
+    "Ishlab chiqarilgan yilni",
+    "Zavod nomini",
+    "Rangini"
+   ],
+   "e": "Masalan, 6 — yarim vagon."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Inventar raqami 2 bilan boshlansa, bu qaysi vagon?",
+   "a": [
+    "Yopiq yuk vagoni",
+    "Sisterna",
+    "Platforma",
+    "Yarim vagon (polvagon)"
+   ],
+   "e": "2 — yopiq, 4 — platforma, 6 — yarim vagon, 7 — sisterna."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Inventar raqami 7 bilan boshlansa, bu qaysi vagon?",
+   "a": [
+    "Sisterna",
+    "Yopiq vagon",
+    "Platforma",
+    "Izotermik vagon"
+   ],
+   "e": "7 — sisterna."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Inventar raqami 6 bilan boshlansa, bu qaysi vagon?",
+   "a": [
+    "Yarim vagon",
+    "Sisterna",
+    "Platforma",
+    "Yopiq vagon"
+   ],
+   "e": "Polvagon."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Inventar raqami 4 bilan boshlansa, bu qaysi vagon?",
+   "a": [
+    "Platforma",
+    "Sisterna",
+    "Yarim vagon",
+    "Yo'lovchi vagoni"
+   ],
+   "e": "Platforma."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagon raqamidagi oxirgi raqam nima vazifani bajaradi?",
+   "a": [
+    "Nazorat raqami",
+    "Tezlik belgisi",
+    "Rang kodi",
+    "Egasining kodi"
+   ],
+   "e": "Raqam to'g'riligini tekshirish."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonga yozilgan \"Tara\" belgisi nimani bildiradi?",
+   "a": [
+    "Bo'sh vagon massasini",
+    "Yuk massasini",
+    "Yuk hajmini",
+    "Konstruksion tezlikni"
+   ],
+   "e": "Tonnada."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonga yozilgan \"Gp\" belgisi nimani bildiradi?",
+   "a": [
+    "Yuk ko'tarish qobiliyatini",
+    "Tara massasini",
+    "Vagon kuzovi uzunligini (metrda)",
+    "Ta'mir sanasini"
+   ],
+   "e": "Grusopodyomnost."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagondagi ta'mir haqidagi trafaret nimani ko'rsatadi?",
+   "a": [
+    "Ta'mir sanalarini",
+    "Vagon narxi va yuk egasi ma'lumotini",
+    "Yuk egasini",
+    "Mashinist ismini"
+   ],
+   "e": "Depo va kapital ta'mir."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonni ishlab chiqaruvchi zavod belgisi qayerda bo'ladi?",
+   "a": [
+    "Rama va lavhachada",
+    "Faqat g'ildirak diskida",
+    "Faqat vagon tomida",
+    "Hech qayerda yo'q"
+   ],
+   "e": "Zavod pasporti."
+  },
+  {
+   "b": "Vagonlar haqida umumiy ma'lumotlar",
+   "q": "Vagonning texnik pasportida nima qayd etiladi?",
+   "a": [
+    "Texnik ma'lumot va ta'mirlar",
+    "Faqat yuk ro'yxati",
+    "Faqat yuklar va yo'lovchilar ro'yxati",
+    "Faqat vagon narxi"
+   ],
+   "e": "Formular."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Gabarit nima uchun belgilanadi?",
+   "a": [
+    "Xavfsiz o'tish uchun",
+    "Vagon rangini tanlash uchun",
+    "Yuk narxini aniqlash uchun",
+    "Tezlikni oshirish uchun"
+   ],
+   "e": "Ko'ndalang kesim chegarasi."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Inshootlarning yaqinlashish gabariti nima?",
+   "a": [
+    "Inshootlar chegarasi",
+    "Vagon ichki hajmi",
+    "Rels uzunligi me'yori",
+    "Stansiya maydoni"
+   ],
+   "e": "Yo'l bo'yi inshootlari."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Yuklash gabariti nima?",
+   "a": [
+    "Ochiq vagondagi yuk chegarasi",
+    "Vagon ichidagi bo'sh joyning hajmi",
+    "Tormoz yo'li uzunligi",
+    "Ombor balandligi"
+   ],
+   "e": "Ochiq harakatdagi tarkibda."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Yuklash gabaritidan chiqqan yuk qanday nomlanadi?",
+   "a": [
+    "Gabaritsiz yuk",
+    "Xavfli yuk",
+    "Tez buziladigan yuk",
+    "Suyuq yuk"
+   ],
+   "e": "Maxsus shartlarda tashiladi."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Gabaritsiz yuk qanday tashiladi?",
+   "a": [
+    "Maxsus ruxsat bilan",
+    "Oddiy tartibda",
+    "Faqat tunda, ruxsatsiz",
+    "Umuman tashilmaydi"
+   ],
+   "e": "Tezlik cheklanadi."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Gabarit darvoza (gabarit vorotalari) nima uchun kerak?",
+   "a": [
+    "Yuklangan vagonni tekshirish",
+    "Vagonni tortish va surish uchun",
+    "Vagonni bo'yash",
+    "Vagonni yuvish"
+   ],
+   "e": "Yuklash stansiyalarida."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "MDH temir yo'llarida yangi vagonlar uchun qaysi gabaritlar qo'llanadi?",
+   "a": [
+    "1-T, Tts, Tpr, 0-VM kabi",
+    "Faqat A, B va C xalqaro gabaritlar",
+    "Faqat ISO gabarit",
+    "Gabarit qo'llanmaydi"
+   ],
+   "e": "GOST 9238."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Gabarit qaysi standartda belgilangan?",
+   "a": [
+    "GOST 9238",
+    "GOST 2.104",
+    "ISO 9001",
+    "GOST 12.0.004"
+   ],
+   "e": "Harakatdagi tarkib va inshootlar gabaritlari."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Rels izi kengligi nima?",
+   "a": [
+    "Rels ichki qirralari orasi",
+    "Ikki shpal orasidagi masofa",
+    "Relsning balandligi",
+    "Vagon kuzovi kengligi"
+   ],
+   "e": "1520 mm."
+  },
+  {
+   "b": "Gabaritlar",
+   "q": "Yevropa standart izi kengligi qancha?",
+   "a": [
+    "1435 mm",
+    "1520 mm",
+    "1067 mm",
+    "1676 mm"
+   ],
+   "e": "Standart iz."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak jufti o'qining qaysi qismiga podshipnik o'rnatiladi?",
+   "a": [
+    "Bo'yin (sheyka) qismiga",
+    "O'qning o'rta qismiga, gupchaklar orasida",
+    "Gupchak o'rni qismiga",
+    "Reborda qismiga"
+   ],
+   "e": "Buksa podshipniklari."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak o'qqa qanday mahkamlanadi?",
+   "a": [
+    "Presslash (zich o'tqazish) usulida",
+    "Bolt va gayka bilan mahkamlab",
+    "Payvandlab",
+    "Elimlab"
+   ],
+   "e": "Taranglik bilan o'tqazish."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "Yaxlit prokatlangan g'ildirak nimadan iborat?",
+   "a": [
+    "Gupchak, disk va obod",
+    "Faqat obod va spitsalar qismi",
+    "Faqat disk qismi",
+    "Spitsalar va shina"
+   ],
+   "e": "Bir butun."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "Yuk vagoni g'ildiragining diametri (yangi holatda) taxminan qancha?",
+   "a": [
+    "950–957 mm",
+    "500–550 mm",
+    "1500 mm",
+    "700 mm"
+   ],
+   "e": "Aylanish doirasi bo'yicha."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak sirpanish yuzasining konusligi nima uchun kerak?",
+   "a": [
+    "Markazlashish uchun",
+    "Og'irlikni oshirish uchun",
+    "Rangni saqlash uchun",
+    "Tormozni o'chirish uchun"
+   ],
+   "e": "Konusli profil."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak sirpanish yuzasidagi \"polzun\" nima?",
+   "a": [
+    "Sirpanishdan yassi joy",
+    "Rebordaning yeyilib o'sishi",
+    "Diskdagi teshik",
+    "Gupchak yorig'i"
+   ],
+   "e": "Tormozlanganda g'ildirak sirpanishidan."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "Polzun nimadan paydo bo'ladi?",
+   "a": [
+    "G'ildirak sirpanganda",
+    "Ortiqcha moylanganda",
+    "Vagon bo'yalganda",
+    "Vagon bo'sh bo'lganda"
+   ],
+   "e": "Ortiqcha tormozlash."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "Reborda (gardish) yeyilishini nima bilan o'lchaydi?",
+   "a": [
+    "Maxsus shablon bilan",
+    "Termometr yoki manometr bilan",
+    "Manometr bilan",
+    "Ampermetr bilan"
+   ],
+   "e": "Absolyut shablon."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak jufti rebordasidagi o'tkir prokat nimaga olib keladi?",
+   "a": [
+    "Relsdan chiqish xavfiga",
+    "Tezlikni oshirishga",
+    "Tormoz samaradorligi oshishiga",
+    "Tovushni kamaytirishga"
+   ],
+   "e": "Xavfli nuqson."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak jufti obod sirtining prokati nima?",
+   "a": [
+    "Radial yeyilish",
+    "G'ildirakning bo'yalishi",
+    "O'qning uzayishi",
+    "Diskdagi teshik"
+   ],
+   "e": "Prokat chuqurligi."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak sirpanish yuzasini tiklash qanday bajariladi?",
+   "a": [
+    "Stanokda yo'nish",
+    "Payvandlab bo'yash",
+    "Bolg'a bilan urib",
+    "Moylab qo'yish"
+   ],
+   "e": "Profilni tiklash."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak jufti ultratovush bilan nima maqsadda tekshiriladi?",
+   "a": [
+    "Ichki yoriqlarni topish",
+    "Rangini aniqlash",
+    "Bo'yoq qatlami qalinligini aniqlash",
+    "Tezligini aniqlash"
+   ],
+   "e": "Defektoskopiya."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "Magnit defektoskopiya nimani aniqlaydi?",
+   "a": [
+    "Yuza yoriqlarini",
+    "Faqat rangni",
+    "Faqat ichki harorat o'zgarishini",
+    "Faqat namlikni"
+   ],
+   "e": "Magnit kukun usuli."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak jufti o'qida yoriq aniqlansa nima qilinadi?",
+   "a": [
+    "Ekspluatatsiyadan chiqariladi",
+    "Bo'yab, kuzatuvga qoldiriladi",
+    "E'tiborsiz qoldiriladi",
+    "Moylanib ishlatiladi"
+   ],
+   "e": "Avariya xavfi."
+  },
+  {
+   "b": "G'ildirak juftlari",
+   "q": "G'ildirak juftlari ta'miri qayerda bajariladi?",
+   "a": [
+    "G'ildirak ustaxonasida",
+    "Yo'lovchi zali yoki kassa xonasida",
+    "Chipta kassasida",
+    "Oddiy omborxonada"
+   ],
+   "e": "Depo, VRZ."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Buksa qaysi qismlar orasida joylashadi?",
+   "a": [
+    "O'q bo'yni va rama orasida",
+    "Kuzov va tom orasida",
+    "Avtoulagich va rama orasida",
+    "Tormoz silindri ichida"
+   ],
+   "e": "Yuklamani uzatadi."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Buksa tugunida podshipnikning moylanishi nima uchun kerak?",
+   "a": [
+    "Ishqalanishni kamaytirish",
+    "Vagon og'irligini oshirish",
+    "Rangni saqlash",
+    "Tovushni oshirish"
+   ],
+   "e": "Konsistent moy."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Buksaning qizishi harakatda qanday aniqlanadi?",
+   "a": [
+    "KTSM qurilmalari bilan",
+    "Faqat qo'l bilan, harakatda",
+    "Faqat hidi bo'yicha",
+    "Umuman aniqlanmaydi"
+   ],
+   "e": "Avtomatik nazorat."
+  },
+  {
+   "b": "Buksalar",
+   "q": "KTSM qurilmasi vazifasi nima?",
+   "a": [
+    "Buksa qizishini kuzatish",
+    "Vagonlar yuk massasini o'lchash",
+    "Yukni o'lchash",
+    "Chiptani tekshirish"
+   ],
+   "e": "Yo'l bo'yi qurilmasi."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Buksa qopqog'i nima uchun kerak?",
+   "a": [
+    "Ifloslikdan himoya",
+    "Qo'shimcha og'irlik berish uchun",
+    "Tovush chiqarish",
+    "Bezak uchun"
+   ],
+   "e": "Germetiklik."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Kassetali podshipnikning afzalligi nima?",
+   "a": [
+    "Uzoq muddat xizmatsiz ishlaydi",
+    "Har kuni moylashni talab qiladi",
+    "Juda tez yeyiladi",
+    "Arzon va qisqa muddatli"
+   ],
+   "e": "Germetik blok."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Buksa tuguni haddan tashqari qizisa poyezd bilan nima qilinadi?",
+   "a": [
+    "To'xtatilib, ajratiladi",
+    "Tezlik oshiriladi",
+    "E'tiborsiz qoldiriladi",
+    "Suv sepiladi va davom etadi"
+   ],
+   "e": "O'q sinishi xavfi."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Buksa korpusi odatda qanday materialdan tayyorlanadi?",
+   "a": [
+    "Po'lat quyma",
+    "Yog'och",
+    "Plastik",
+    "Plastik kompozit material"
+   ],
+   "e": "Mustahkamlik."
+  },
+  {
+   "b": "Buksalar",
+   "q": "Buksa tugunining revizijasi qachon bajariladi?",
+   "a": [
+    "Belgilangan ta'mirlarda",
+    "Hech qachon",
+    "Har soatda",
+    "Faqat vagon bo'yalgan vaqtda"
+   ],
+   "e": "To'liq va oraliq revizija."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Vagonlarda qanday prujinalar ko'p ishlatiladi?",
+   "a": [
+    "Silindrik vintsimon prujinalar",
+    "Yassi spiral soat prujinalari",
+    "Rezina halqasimon amortizatorlar",
+    "Faqat pnevmatik ballonlar"
+   ],
+   "e": "Ressor to'plami."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Ressor osmasining egiluvchanligi nima bilan tavsiflanadi?",
+   "a": [
+    "Statik egilish bilan",
+    "Kuzov rangining yorug'likni qaytarishi bilan",
+    "O'q uzunligi bilan",
+    "Tormoz bosimi bilan"
+   ],
+   "e": "Yuklama ostida cho'kish."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Yo'lovchi vagonlarida ressor osmasi odatda qanday bo'ladi?",
+   "a": [
+    "Ikki pog'onali",
+    "Umuman bo'lmaydi",
+    "Faqat bir pog'onali qattiq",
+    "Faqat yog'och tayanchli"
+   ],
+   "e": "Buksa va markaziy osma."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Yo'lovchi vagoni aravachalarida qaysi so'ndirgich keng qo'llanadi?",
+   "a": [
+    "Gidravlik so'ndirgich",
+    "Faqat friksion pona",
+    "Elektromagnit tormoz",
+    "Prujinasiz yog'och tayanch"
+   ],
+   "e": "Tebranishlarni silliq so'ndiradi."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Friksion so'ndirgich qanday prinsipda ishlaydi?",
+   "a": [
+    "Ishqalanish kuchi hisobiga",
+    "Elektr toki hisobiga",
+    "Suyuqlik bosimi hisobiga",
+    "Magnit tortishish hisobiga"
+   ],
+   "e": "Pona (klin)."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Tebranish so'ndirgichi ishlamasa nima bo'ladi?",
+   "a": [
+    "Tebranish kuchayib xavf oshadi",
+    "Vagon tezligi o'z-o'zidan oshib boradi",
+    "Tormoz yaxshilanadi",
+    "Hech narsa o'zgarmaydi"
+   ],
+   "e": "Rezonans."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Ressor prujinasi singanda vagon bilan nima qilinadi?",
+   "a": [
+    "Ta'mirga yuboriladi",
+    "E'tiborsiz qoldiriladi",
+    "Tezlik oshiriladi",
+    "Faqat bo'yaladi"
+   ],
+   "e": "Xavfli nuqson."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Pnevmatik ressorlar qaysi vagonlarda qo'llanadi?",
+   "a": [
+    "Zamonaviy yo'lovchi vagonlarida",
+    "Faqat platformalarda",
+    "Faqat sisternalarda",
+    "Faqat eski turdagi yuk vagonlari va platformalarda"
+   ],
+   "e": "Yumshoq yurish."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "Vagon tebranishlarining turlari qaysilar?",
+   "a": [
+    "Sakrash, galopirlash, chayqalish",
+    "Faqat bo'ylama siljish",
+    "Faqat aylanish",
+    "Tebranish bo'lmaydi"
+   ],
+   "e": "Vertikal va gorizontal."
+  },
+  {
+   "b": "Ressorlar va tebranish so'ndirgichlari",
+   "q": "\"Vilyanie\" (ilonsimon harakat) nima?",
+   "a": [
+    "Aravachaning ko'ndalang tebranishi",
+    "Vagonning yo'l bo'ylab vertikal sakrashi",
+    "Tormozning qizishi",
+    "Kuzovning cho'zilishi"
+   ],
+   "e": "Konusli g'ildiraklar sababli."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Aravachaning asosiy vazifasi nima?",
+   "a": [
+    "Vagonni yo'nalish bo'yicha harakatlantirish",
+    "Yuk ortish va tushirish ishlarini bajarish",
+    "Vagonni isitish va yoritish",
+    "Yo'lovchilarni ro'yxatga olish"
+   ],
+   "e": "Yurish qismi."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "18-100 aravachasi qaysi vagonlar uchun mo'ljallangan?",
+   "a": [
+    "Yuk vagonlari",
+    "Yo'lovchi vagonlari",
+    "Metro vagonlari",
+    "Tramvaylar"
+   ],
+   "e": "Ikki o'qli."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "18-100 aravachasida tebranish qanday so'ndiriladi?",
+   "a": [
+    "Friksion pona yordamida",
+    "Gidravlik so'ndirgich bilan",
+    "Pnevmatik yostiq bilan",
+    "Elektromagnit bilan"
+   ],
+   "e": "Klinli so'ndirgich."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Yuk aravachasi yon ramasi qanday tayyorlanadi?",
+   "a": [
+    "Po'latdan quyiladi",
+    "Yog'ochdan yasaladi",
+    "Plastikdan quyiladi",
+    "Alyuminiydan bukiladi"
+   ],
+   "e": "Quyma rama."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Ressor usti balkasi (nadressornaya balka) vazifasi nima?",
+   "a": [
+    "Kuzov yuklamasini ressorlarga uzatish",
+    "Tormoz havosini vagonlar bo'ylab uzatish",
+    "Vagonlarni ulash",
+    "G'ildirakni aylantirish"
+   ],
+   "e": "Podpyatnik shu balkada."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Yon tayanchlar (skolzunlar) vazifasi nima?",
+   "a": [
+    "Kuzov og'ishini cheklash",
+    "Vagonni tormozlash",
+    "Yukni mahkamlash",
+    "Eshikni ochish"
+   ],
+   "e": "Yon tebranishlar."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Aravacha bazasi nima?",
+   "a": [
+    "O'qlar orasidagi masofa",
+    "Aravacha og'irligi",
+    "G'ildirak diametri",
+    "Ramaning balandligi"
+   ],
+   "e": "Aravachada."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Vagon bazasi nima?",
+   "a": [
+    "Shkvornevoy markazlar orasidagi masofa",
+    "Vagonning umumiy og'irligi",
+    "Vagonning bufer bo'yicha umumiy uzunligi",
+    "Kuzov balandligi"
+   ],
+   "e": "Aravachalar markazlari orasi."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Yo'lovchi vagoni aravachasi qanday turi keng tarqalgan?",
+   "a": [
+    "KVZ-TsNII turi",
+    "18-100 turi",
+    "18-578 turi",
+    "Uch o'qli yuk turi"
+   ],
+   "e": "Yo'lovchi aravachasi."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Ko'p o'qli (8 o'qli) vagonlarda aravacha qanday bo'ladi?",
+   "a": [
+    "Ikki aravacha soshkasi bilan",
+    "Bitta aravacha bilan",
+    "Aravachasiz",
+    "Uch g'ildirak bilan"
+   ],
+   "e": "4 o'qli yurish qismi."
+  },
+  {
+   "b": "Aravachalar",
+   "q": "Aravacha ressor to'plamida prujinalar qanday joylashadi?",
+   "a": [
+    "Ichki va tashqi prujina juftligi",
+    "Faqat bitta katta, yaxlit prujina bilan",
+    "Faqat gorizontal joylashgan",
+    "Prujina umuman yo'q"
+   ],
+   "e": "Ikki qatorli prujina."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "SA-3 avtoulagichining asosiy qismlari qaysilar?",
+   "a": [
+    "Korpus, mexanizm, yutuvchi apparat",
+    "Faqat zanjir, ilmoq va vintli tortqich",
+    "Faqat bufer va vint",
+    "Faqat korpus"
+   ],
+   "e": "Avtoulagich qurilmasi."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Avtoulagich mexanizmi qaysi detallardan iborat?",
+   "a": [
+    "Qulf, qulf ushlagich, ilgak",
+    "Faqat bolt va gayka",
+    "Faqat prujina",
+    "Faqat rezina tiqin"
+   ],
+   "e": "Ulash mexanizmi."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Vagonlarni ajratish uchun avtoulagich qanday boshqariladi?",
+   "a": [
+    "Ajratish richagi orqali",
+    "Bolg'a bilan urib",
+    "Elektr tugmasi bilan faqat",
+    "Ajratib bo'lmaydi"
+   ],
+   "e": "Rasseplenie."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Avtoulagich o'qlari balandligi relsdan qancha bo'lishi kerak (yuk vagoni)?",
+   "a": [
+    "950–1080 mm",
+    "500–600 mm",
+    "1500–1600 mm",
+    "300–400 mm"
+   ],
+   "e": "Ruxsat etilgan chegaralar."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Qo'shni vagonlar avtoulagichlari balandliklari farqi nima uchun cheklanadi?",
+   "a": [
+    "O'z-o'zidan ajralib ketmasligi uchun",
+    "Vagonlar tashqi ko'rinishi bir xil bo'lishi uchun",
+    "Yuk og'irligini kamaytirish uchun",
+    "Tormozni o'chirish uchun"
+   ],
+   "e": "Me'yoriy farq."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Yutuvchi apparat qayerda joylashadi?",
+   "a": [
+    "Avtoulagich ortidagi xomut ichida",
+    "Vagon tomidagi maxsus himoya qutisida",
+    "G'ildirak gupchagida",
+    "Buksa ichida"
+   ],
+   "e": "Tyagovyy xomut."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Yutuvchi apparat turlari qaysilar?",
+   "a": [
+    "Prujina-friksion, rezina-metall",
+    "Faqat yog'och",
+    "Faqat shisha",
+    "Faqat qog'oz"
+   ],
+   "e": "Sh-1-TM, PMK-110 va boshqalar."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Avtoulagich korpusi nimadan tayyorlanadi?",
+   "a": [
+    "Po'lat quymadan",
+    "Cho'yandan",
+    "Alyuminiydan",
+    "Yog'ochdan"
+   ],
+   "e": "Mustahkamlik."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Avtoulagich nosozligida vagon nima bo'ladi?",
+   "a": [
+    "Ulanmaydi yoki ajralib ketadi",
+    "Tezroq yuradi va tormoz yo'li qisqaradi",
+    "Tormozi yaxshilanadi",
+    "Hech narsa bo'lmaydi"
+   ],
+   "e": "Poyezd uzilishi xavfi."
+  },
+  {
+   "b": "Urilib-tortish uskunalari",
+   "q": "Avtoulagichning ulanish usuli qanday?",
+   "a": [
+    "Vagonlar urilganda avtomatik",
+    "Faqat qo'lda, bolt va gayka bilan ulash",
+    "Faqat payvandlab",
+    "Faqat zanjir bilan"
+   ],
+   "e": "Avtomatik ulanish."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Vagon avtotormozi qanday energiyadan foydalanadi?",
+   "a": [
+    "Siqilgan havo",
+    "Bug'",
+    "Suv bosimi",
+    "Shamol"
+   ],
+   "e": "Pnevmatik tormoz."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Tormoz magistralidagi bosim pasaytirilsa nima bo'ladi?",
+   "a": [
+    "Tormozlanadi",
+    "Bo'shatiladi",
+    "Tezlik oshadi",
+    "Hech narsa"
+   ],
+   "e": "Avtomatik tormoz prinsipi."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Avtotormozning \"avtomatik\" deyilishiga sabab nima?",
+   "a": [
+    "Poyezd uzilsa o'zi tormozlanadi",
+    "Mashinist ishtirokisiz poyezdni boshqaradi",
+    "Elektr bilan ishlaydi",
+    "Faqat tunda ishlaydi"
+   ],
+   "e": "Magistral uzilishi."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Havo tarqatgich vazifasi nima?",
+   "a": [
+    "Magistral bosimiga qarab tormozlash",
+    "Vagonni yoritish va isitish tizimini boshqarish",
+    "Yukni o'lchash",
+    "Vagonni isitish"
+   ],
+   "e": "Vozduxoraspredelitel."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Yuk vagonlarida qaysi havo tarqatgich keng qo'llanadi?",
+   "a": [
+    "483 rusumli",
+    "395 rusumli",
+    "254 rusumli",
+    "1000 rusumli"
+   ],
+   "e": "483-000."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Mashinist krani rusumi qaysi?",
+   "a": [
+    "395",
+    "483",
+    "265",
+    "574"
+   ],
+   "e": "Lokomotivda."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Zapas rezervuar vazifasi nima?",
+   "a": [
+    "Tormozlash uchun havo zaxirasi",
+    "Suv saqlash",
+    "Suv va yoqilg'i zaxirasini saqlash",
+    "Yuk saqlash"
+   ],
+   "e": "Har vagonda."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Tormoz silindri vazifasi nima?",
+   "a": [
+    "Havo bosimini kuchga aylantirish",
+    "Havoni siqib, rezervuarga yuborish",
+    "Vagonni yoritish",
+    "Yuk ortish"
+   ],
+   "e": "Shtok orqali richaglarga."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Tormoz richag uzatmasi vazifasi nima?",
+   "a": [
+    "Kuchni kolodkalarga uzatish",
+    "Vagonni ulash",
+    "Eshikni ochish",
+    "Yukni mahkamlash"
+   ],
+   "e": "Richajnaya peredacha."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Avtorejim nima uchun kerak?",
+   "a": [
+    "Yuklamaga qarab tormoz kuchini rostlash",
+    "Poyezd tezligini avtomatik ravishda oshirish",
+    "Vagonni yoritish",
+    "Eshikni yopish"
+   ],
+   "e": "Bo'sh va yuklangan vagon."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Avtoregulyator (574B) vazifasi nima?",
+   "a": [
+    "Kolodka va g'ildirak oralig'ini rostlash",
+    "Havoni siqish",
+    "Magistraldagi havo bosimini o'lchash",
+    "Haroratni rostlash"
+   ],
+   "e": "Kolodka yeyilishini kompensatsiyalash."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Tormoz kolodkalari qanday materiallardan tayyorlanadi?",
+   "a": [
+    "Cho'yan yoki kompozitsion",
+    "Yog'och yoki qog'oz",
+    "Shisha yoki keramika",
+    "Faqat rezina"
+   ],
+   "e": "Kompozit — ko'proq ishqalanish."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Qo'l tormozi vazifasi nima?",
+   "a": [
+    "To'xtab turgan vagonni ushlab turish",
+    "Harakatdagi poyezdni keskin tezlashtirish",
+    "Havo bosimini oshirish",
+    "Vagonni isitish"
+   ],
+   "e": "Stoyanochnyy tormoz."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Avtotormozlarni to'liq sinash qayerda bajariladi?",
+   "a": [
+    "Poyezd tuzilgan stansiyada",
+    "Har bir pereezdda",
+    "Faqat depoda yiliga bir",
+    "Sinalmaydi"
+   ],
+   "e": "Polnoye oprobovaniye."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Elektropnevmatik tormozning afzalligi nima?",
+   "a": [
+    "Barcha vagonlarda bir vaqtda ishlaydi",
+    "Havosiz, faqat elektr toki bilan ishlaydi",
+    "Arzonroq va soddaroq",
+    "Faqat yuk vagonlarida"
+   ],
+   "e": "Yo'lovchi poyezdlari."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Tormoz magistralidagi zaryad bosimi (yuk poyezdi) taxminan qancha?",
+   "a": [
+    "0,50–0,52 MPa",
+    "0,1 MPa",
+    "1,5 MPa",
+    "3 MPa"
+   ],
+   "e": "5,0–5,2 kgs/sm²."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Tormoz yengi (rukav) vazifasi nima?",
+   "a": [
+    "Vagonlar magistralini ulash",
+    "Suv o'tkazish",
+    "Vagonlar orasida elektr tokini uzatish",
+    "Yuk mahkamlash"
+   ],
+   "e": "Soedinitelnyy rukav."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Oxirgi vagonda tormoz magistrali kranining holati qanday bo'ladi?",
+   "a": [
+    "Yopiq",
+    "Ochiq",
+    "Olib tashlangan",
+    "Ahamiyatsiz"
+   ],
+   "e": "Havo chiqib ketmasligi uchun."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Uchastkada tormoz yo'li nima?",
+   "a": [
+    "Tormozlashdan to'xtashgacha masofa",
+    "Poyezd uzunligi",
+    "Ikki qo'shni stansiya orasidagi masofa",
+    "Rels uzunligi"
+   ],
+   "e": "Xavfsizlik ko'rsatkichi."
+  },
+  {
+   "b": "Tormoz uskunalari",
+   "q": "Tormoz bosimi koeffitsiyenti nima?",
+   "a": [
+    "Kolodkalar bosimining poyezd og'irligiga nisbati",
+    "Tezlikning vaqtga nisbati",
+    "Vagonlar soni",
+    "Lokomotiv quvvatining vagonlar soniga nisbati"
+   ],
+   "e": "1000 kN ga."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Vagon ramasining asosiy bo'ylama to'sini qanday nomlanadi?",
+   "a": [
+    "Markaziy (xrebtovaya) balka",
+    "Ko'ndalang shkvornevoy balka va to'sinlar",
+    "Yon devor ustuni",
+    "Tom yoyi"
+   ],
+   "e": "Hrebet balka."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Shkvornevoy balka qayerda joylashadi?",
+   "a": [
+    "Rama uchlarida, aravacha ustida",
+    "Vagon tomining o'rtasida, ventilyatsiya yonida",
+    "Eshik ostida",
+    "G'ildirak ichida"
+   ],
+   "e": "Podpyatnik o'rnatiladi."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Vagon kuzovining yuk ko'taruvchi konstruksiyasi turlari qaysilar?",
+   "a": [
+    "Rama, kuzov yoki ikkalasi birgalikda",
+    "Faqat tom va pol qoplamasi birgalikda",
+    "Faqat eshiklar",
+    "Faqat g'ildiraklar"
+   ],
+   "e": "Yuk ko'taruvchi kuzov."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Zamonaviy yuk vagonlari kuzovi asosan qanday materialdan bo'ladi?",
+   "a": [
+    "Po'lat",
+    "Yog'och va fanera aralashmasi",
+    "Plastik",
+    "Shisha tola"
+   ],
+   "e": "Kam legirlangan po'lat."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Yopiq vagonda yuklash eshiklari qanday turda bo'ladi?",
+   "a": [
+    "Surma (siljitiladigan) eshiklar",
+    "Faqat tomdagi lyuklar orqali, eshiksiz",
+    "Eshiksiz",
+    "Faqat aylanuvchi"
+   ],
+   "e": "Yon tomonda."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Yarim vagonda yukni tushirish uchun nima ko'zda tutilgan?",
+   "a": [
+    "Poldagi lyuklar yoki ag'dargich",
+    "Faqat yon eshiklar orqali qo'lda tushirish",
+    "Tom lyuklari",
+    "Yukni tushirib bo'lmaydi"
+   ],
+   "e": "Vagonoprokidyvatel."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Vagon ag'dargich (vagonoprokidyvatel) qaysi vagonlar uchun ishlatiladi?",
+   "a": [
+    "Yarim vagonlar",
+    "Yo'lovchi vagonlari va kupe vagonlari",
+    "Sisternalar",
+    "Refrijeratorlar"
+   ],
+   "e": "Ko'mir, ruda."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Platformaning bortlari qanday bo'ladi?",
+   "a": [
+    "Ochiladigan pastak bortlar",
+    "Baland, yopiq, tomli devorlar",
+    "Bortsiz va polsiz",
+    "Shishali devor"
+   ],
+   "e": "Uzun yuklar uchun."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Konteyner tashuvchi platformada konteyner qanday mahkamlanadi?",
+   "a": [
+    "Fitinglar va tayanch tirgaklar bilan",
+    "Arqon va yog'och ponalar bilan bog'lab",
+    "Mahkamlanmaydi",
+    "Payvandlanadi"
+   ],
+   "e": "Fitingli tirgak."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Xopper vagon nima?",
+   "a": [
+    "Pastdan tushiriladigan bunkerli vagon",
+    "Yo'lovchilar uchun ikki qavatli vagon",
+    "Sisterna turi",
+    "Lokomotiv turi"
+   ],
+   "e": "Don, sement, o'g'it."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Sement tashish uchun qaysi vagon ishlatiladi?",
+   "a": [
+    "Sement xopperi",
+    "Yopiq refrijerator vagoni",
+    "Platforma",
+    "Yo'lovchi vagoni"
+   ],
+   "e": "Germetik bunker."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Don tashish uchun qaysi vagon ixtisoslashgan?",
+   "a": [
+    "Don xopperi (zernovoz)",
+    "Ochiq platforma bortsiz",
+    "Sisterna",
+    "Yarim vagon"
+   ],
+   "e": "Zernovoz."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Avtomobil tashish uchun qaysi vagon ishlatiladi?",
+   "a": [
+    "Ikki qavatli avtomobil tashuvchi",
+    "Sement xopperi",
+    "Sisterna",
+    "Izotermik vagon"
+   ],
+   "e": "Avtovagon."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Dumpkar nima?",
+   "a": [
+    "O'z-o'zidan ag'dariladigan vagon",
+    "Yo'lovchilar uchun restoran vagoni",
+    "Sisterna turi",
+    "Konteyner turi"
+   ],
+   "e": "Pnevmatik ag'darish."
+  },
+  {
+   "b": "Vagon kuzovlari va ramalar",
+   "q": "Transportyor vagon nima uchun ishlatiladi?",
+   "a": [
+    "Juda og'ir va katta yuklar uchun",
+    "Oddiy pochta va bagaj jo'natmalari uchun",
+    "Suyuq yuklar uchun",
+    "Don uchun"
+   ],
+   "e": "Ko'p o'qli."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Sisterna qozoni qanday shaklda bo'ladi?",
+   "a": [
+    "Silindrsimon",
+    "To'g'ri burchakli quti shaklida",
+    "Sharsimon",
+    "Konussimon"
+   ],
+   "e": "Bosimga chidamli."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Neft mahsulotlari sisternasida qozon tepasida nima bo'ladi?",
+   "a": [
+    "Quyish lyuki (gorlovina)",
+    "Yon surma eshiklar",
+    "Shisha oyna",
+    "Ventilyator"
+   ],
+   "e": "Yuklash."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Sisternadan yuk qanday tushiriladi?",
+   "a": [
+    "Pastki tushirish asbobi orqali",
+    "Yon eshiklarni ochib, belkurak bilan",
+    "Faqat ag'darib",
+    "Tushirib bo'lmaydi"
+   ],
+   "e": "Slivnoy pribor."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Suyultirilgan gaz sisternalarining xususiyati nima?",
+   "a": [
+    "Yuqori bosimga chidamli",
+    "Ochiq, qopqoqsiz va bosimsiz",
+    "Yog'ochdan yasalgan",
+    "Tushirish asbobisiz, ag'darib bo'shatiladi"
+   ],
+   "e": "Gaz bosimi."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Kislota sisternalari ichki yuzasi nima bilan himoyalanadi?",
+   "a": [
+    "Kislotaga chidamli qoplama",
+    "Oddiy moyli bo'yoq qatlami bilan",
+    "Himoyalanmaydi",
+    "Qog'oz bilan"
+   ],
+   "e": "Korroziya."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Yopishqoq yuklar (mazut) sisternasida nima ko'zda tutiladi?",
+   "a": [
+    "Isitish g'ilofi (bug' ko'ylagi)",
+    "Sovutish uchun muz bo'limi",
+    "Shamollatish teshiklari",
+    "Ikkinchi qavat"
+   ],
+   "e": "Tushirishni osonlashtirish."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Sisternada xavfsizlik klapani vazifasi nima?",
+   "a": [
+    "Ortiqcha bosimni chiqarish",
+    "Yuk hajmini avtomatik o'lchab turish",
+    "Yukni qizdirish",
+    "Tormozlash"
+   ],
+   "e": "Portlash xavfi."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Xavfli yuk tashiydigan sisternaga nima qo'yiladi?",
+   "a": [
+    "Xavf belgisi va trafaret",
+    "Hech qanday belgi qo'yilmaydi",
+    "Faqat reklama",
+    "Faqat egasining ismi"
+   ],
+   "e": "Xavfli yuk qoidalari."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Sisterna qozonining kalibrovkasi nima uchun kerak?",
+   "a": [
+    "Yuk hajmini aniqlash",
+    "Qozon rangini tanlash va bo'yash uchun",
+    "Tezlikni oshirish",
+    "Tormozni sozlash"
+   ],
+   "e": "Kalibrovka jadvali."
+  },
+  {
+   "b": "Sisternalar",
+   "q": "Sisternalarni yuklashdan oldin nima qilinadi?",
+   "a": [
+    "Tozaligi va sozligi tekshiriladi",
+    "Hech qanday tekshiruvsiz darhol yuklanadi",
+    "Faqat bo'yaladi",
+    "Faqat yuviladi tashqaridan"
+   ],
+   "e": "Tayyorlash."
+  },
+  {
+   "b": "Izotermik vagonlar",
+   "q": "Refrijerator seksiyasi nima?",
+   "a": [
+    "Sovutgichli vagonlar guruhi",
+    "Bitta oddiy yopiq vagonning ichki bo'limi",
+    "Sisterna turi",
+    "Platforma turi"
+   ],
+   "e": "Xizmat vagoni bilan."
+  },
+  {
+   "b": "Izotermik vagonlar",
+   "q": "Avtonom refrijerator vagon (ARV) xususiyati nima?",
+   "a": [
+    "O'z sovutish va energiya qurilmasi bor",
+    "Sovutish qurilmasi yo'q, faqat muz bilan",
+    "Faqat platforma",
+    "Yo'lovchi tashiydi"
+   ],
+   "e": "Avtonom."
+  },
+  {
+   "b": "Izotermik vagonlar",
+   "q": "Vagon-termos nima?",
+   "a": [
+    "Sovutgichsiz issiqlik izolyatsiyali vagon",
+    "Kuchli sovutish qurilmali refrijerator",
+    "Ochiq platforma",
+    "Sisterna"
+   ],
+   "e": "Haroratni saqlaydi."
+  },
+  {
+   "b": "Izotermik vagonlar",
+   "q": "Izotermik vagon kuzovi qanday tuzilgan?",
+   "a": [
+    "Issiqlik izolyatsiyali devorlar",
+    "Oddiy yupqa metall devorlar, izolyatsiyasiz",
+    "Ochiq panjara",
+    "Shishadan"
+   ],
+   "e": "Penopoliuretan."
+  },
+  {
+   "b": "Izotermik vagonlar",
+   "q": "Refrijerator vagonda qanday mahsulotlar tashiladi?",
+   "a": [
+    "Go'sht, baliq, meva",
+    "Ko'mir, ruda va qurilish toshlari",
+    "Neft",
+    "Sement"
+   ],
+   "e": "Tez buziladigan."
+  },
+  {
+   "b": "Izotermik vagonlar",
+   "q": "Refrijerator vagonda sovutish qanday amalga oshiriladi?",
+   "a": [
+    "Kompressorli sovutish qurilmasi",
+    "Faqat ochiq derazalar orqali shamollatish",
+    "Faqat suv sepish",
+    "Sovutilmaydi"
+   ],
+   "e": "Freon."
+  },
+  {
+   "b": "Izotermik vagonlar",
+   "q": "Izotermik vagonlarda havo almashinuvi nima uchun kerak?",
+   "a": [
+    "Mevalar \"nafas olishi\" uchun",
+    "Vagon og'irligini kamaytirish va tezlikni oshirish uchun",
+    "Tormozlash uchun",
+    "Yoritish uchun"
+   ],
+   "e": "Ventilyatsiya."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Kupe vagonida odatda nechta kupe bo'ladi?",
+   "a": [
+    "9 ta",
+    "4 ta",
+    "18 ta",
+    "2 ta"
+   ],
+   "e": "36 o'rin."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Kupe vagonida odatda nechta yo'lovchi o'rni bo'ladi?",
+   "a": [
+    "36",
+    "18",
+    "54",
+    "81"
+   ],
+   "e": "9 kupe × 4."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Plaskart vagonida odatda nechta o'rin bo'ladi?",
+   "a": [
+    "54",
+    "36",
+    "18",
+    "100"
+   ],
+   "e": "9 bo'lim × 6."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "SV vagoni nima?",
+   "a": [
+    "Ikki o'rinli kupeli vagon",
+    "Umumiy o'tiriladigan elektrichka vagoni",
+    "Yuk vagoni",
+    "Pochta vagoni"
+   ],
+   "e": "Myagkiy vagon."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonining tamburi nima?",
+   "a": [
+    "Vagon uchidagi kirish bo'limi",
+    "Vagon tomidagi ventilyatsiya bloki",
+    "Vagon ostidagi quti",
+    "Konduktor kupesi"
+   ],
+   "e": "Tambur."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonlari orasidagi o'tish qanday himoyalanadi?",
+   "a": [
+    "Rezina yoki yengsimon o'tish suflesi",
+    "Hech qanday himoyasiz ochiq o'tish",
+    "Faqat panjara",
+    "Faqat arqon"
+   ],
+   "e": "Garmoshka."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonida konduktor uchun nima ko'zda tutilgan?",
+   "a": [
+    "Xizmat kupesi",
+    "Alohida yuk bo'limi va omborxona",
+    "Vagon tomi",
+    "Hech narsa"
+   ],
+   "e": "Slujebnoye kupe."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Restoran vagonining vazifasi nima?",
+   "a": [
+    "Yo'lovchilarni ovqatlantirish",
+    "Yuklarni sovutib tashish va saqlash",
+    "Pochta tashish",
+    "Lokomotivni boshqarish"
+   ],
+   "e": "Vagon-restoran."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Pochta-bagaj vagoni vazifasi nima?",
+   "a": [
+    "Pochta va bagaj tashish",
+    "Yo'lovchilarni yotqizib tashish",
+    "Ko'mir tashish",
+    "Neft tashish"
+   ],
+   "e": "Pochtoviy vagon."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonida qanday isitish tizimi ishlatiladi?",
+   "a": [
+    "Suvli yoki elektr isitish",
+    "Faqat ochiq olovli pechka, qo'lda",
+    "Isitilmaydi",
+    "Faqat quyosh panellari"
+   ],
+   "e": "Kotyol."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagoni isitish qozonida (kotyol) nima isitiladi?",
+   "a": [
+    "Suv",
+    "Moy va yoqilg'i aralashmasi",
+    "Havo faqat",
+    "Qum"
+   ],
+   "e": "Suvli isitish tizimi."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonida konditsioner vazifasi nima?",
+   "a": [
+    "Havo haroratini rostlash",
+    "Vagon tezligini va tormozini boshqarish",
+    "Yoritish",
+    "Suv isitish"
+   ],
+   "e": "Iqlim nazorati."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonida suv ta'minoti qanday bo'ladi?",
+   "a": [
+    "Vagon bakidan",
+    "Vagon tomidagi ochiq yomg'ir yig'gichdan",
+    "Bo'lmaydi",
+    "Faqat butilkalarda"
+   ],
+   "e": "Suv baki."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Ekologik toza hojatxona tizimi qanday ishlaydi?",
+   "a": [
+    "Chiqindilar yig'gich bakka to'planadi",
+    "Chiqindilar to'g'ridan-to'g'ri yo'lga tashlanadi",
+    "Faqat bekatda ishlaydi",
+    "Umuman ishlamaydi"
+   ],
+   "e": "Vakuumli tizim."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonlarida yoritish qanday energiya bilan ta'minlanadi?",
+   "a": [
+    "Vagonosti generatori va akkumulyator",
+    "Faqat sham va kerosin chiroqlar bilan",
+    "Faqat quyosh nurlari",
+    "Yoritilmaydi"
+   ],
+   "e": "Yoki markaziy ta'minot."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Markaziy elektr ta'minotida vagonlar qayerdan energiya oladi?",
+   "a": [
+    "Lokomotivdan poyezd magistrali orqali",
+    "Har bir vagonning alohida dizel dvigatelidan",
+    "Faqat akkumulyatordan",
+    "Faqat shamol generatoridan"
+   ],
+   "e": "3000 V."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonlarida akkumulyator batareyasi vazifasi nima?",
+   "a": [
+    "To'xtaganda energiya berish",
+    "Vagonni harakatlantirish va tezlatish",
+    "Tormozlash",
+    "Suv isitish"
+   ],
+   "e": "Zaxira."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonidagi stop-kran vazifasi nima?",
+   "a": [
+    "Favqulodda tormozlash",
+    "Konditsionerni yoqish va o'chirish",
+    "Eshikni ochish",
+    "Suvni o'chirish"
+   ],
+   "e": "Ekstrennoye tormozheniye."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonida yong'inga qarshi nima bo'lishi shart?",
+   "a": [
+    "O't o'chirgichlar va signalizatsiya",
+    "Faqat qo'shimcha ventilyatorlar va oynalar",
+    "Hech narsa",
+    "Faqat suv chelak"
+   ],
+   "e": "Yong'in xavfsizligi."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Ikki qavatli yo'lovchi vagonining afzalligi nima?",
+   "a": [
+    "Ko'proq yo'lovchi sig'imi",
+    "Kamroq yo'lovchi, lekin tezroq harakat",
+    "Arzon tayyorlanishi",
+    "Og'irligi kamligi"
+   ],
+   "e": "O'rinlar soni."
+  },
+  {
+   "b": "Yo'lovchi vagonlari",
+   "q": "Yo'lovchi vagonining konstruksion tezligi odatda qancha?",
+   "a": [
+    "160 km/soat gacha",
+    "40 km/soat gacha",
+    "400 km/soat gacha",
+    "20 km/soat gacha"
+   ],
+   "e": "Oddiy vagonlar."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteyner nima?",
+   "a": [
+    "Yukni ko'p marta tashish uchun standart idish",
+    "Faqat bir marta ishlatiladigan karton qadoq quti",
+    "Vagon turi",
+    "Lokomotiv qismi"
+   ],
+   "e": "Intermodal tashish."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "TEU birligi nimani bildiradi?",
+   "a": [
+    "20 futlik konteyner ekvivalenti",
+    "40 futlik konteynerning maksimal brutto massasi",
+    "Vagon uzunligi",
+    "Tonna-kilometr"
+   ],
+   "e": "Twenty-foot Equivalent Unit."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "40 futlik konteyner necha TEU ga teng?",
+   "a": [
+    "2 TEU",
+    "1 TEU",
+    "4 TEU",
+    "0,5 TEU"
+   ],
+   "e": "FEU."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteynerning tashqi uzunligi 40 futda taxminan qancha?",
+   "a": [
+    "12,2 m",
+    "6,1 m",
+    "20 m",
+    "3 m"
+   ],
+   "e": "12 192 mm."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "20 futlik konteynerning ichki hajmi taxminan qancha?",
+   "a": [
+    "33 m³",
+    "10 m³",
+    "67 m³",
+    "100 m³"
+   ],
+   "e": "Standart konteyner."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteyner fitingi nima?",
+   "a": [
+    "Burchakdagi ushlagich-mahkamlagich",
+    "Konteyner eshigining qulflash moslamasi",
+    "Pol qoplamasi",
+    "Shamollatish teshigi"
+   ],
+   "e": "Ko'tarish va mahkamlash."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteyner fitinglari nechta bo'ladi?",
+   "a": [
+    "8 ta",
+    "4 ta",
+    "2 ta",
+    "12 ta"
+   ],
+   "e": "Har bir burchakda."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "High Cube (HC) konteynerning farqi nima?",
+   "a": [
+    "Balandligi kattaroq",
+    "Uzunligi qisqa",
+    "Eshigi yo'q",
+    "Faqat suyuqlik uchun"
+   ],
+   "e": "9,5 fut balandlik."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Refrijerator konteyner vazifasi nima?",
+   "a": [
+    "Haroratni ushlab tashish",
+    "Faqat suyuq yuk",
+    "Faqat sochiluvchan yuklarni namlikdan saqlash",
+    "Faqat yo'lovchi"
+   ],
+   "e": "Reefer."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Tank-konteyner nima uchun ishlatiladi?",
+   "a": [
+    "Suyuq yuklar uchun",
+    "Uzun yuklar uchun",
+    "Avtomobillar uchun",
+    "Hayvonlar uchun"
+   ],
+   "e": "Ramadagi idish."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Flat-rack konteyner xususiyati nima?",
+   "a": [
+    "Yon devorlari yo'q",
+    "To'liq yopiq va izolyatsiyali",
+    "Faqat suyuqlik uchun",
+    "Faqat yo'lovchi uchun"
+   ],
+   "e": "Gabaritli yuklar."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Open Top konteyner xususiyati nima?",
+   "a": [
+    "Tomi ochiq (brezentli)",
+    "Eshiklari yo'q, faqat yon tomondan yuklanadi",
+    "Poli yo'q",
+    "Devorlari shishadan"
+   ],
+   "e": "Yuqoridan yuklash."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteynerlar xalqaro standarti qaysi?",
+   "a": [
+    "ISO",
+    "GOST 2.104",
+    "SNiP",
+    "OST"
+   ],
+   "e": "ISO 668."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "CSC plastinkasi nimani tasdiqlaydi?",
+   "a": [
+    "Konteyner xavfsizligini",
+    "Yuk egasini",
+    "Konteyner egasi va yuk jo'natuvchini",
+    "Narxini"
+   ],
+   "e": "Xalqaro konvensiya."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteyner raqami qanday tuzilgan?",
+   "a": [
+    "4 harf va 7 raqam",
+    "2 harf va 4 raqam",
+    "Faqat 10 raqam",
+    "Faqat harflar"
+   ],
+   "e": "ISO 6346."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteyner raqamidagi oxirgi raqam nima?",
+   "a": [
+    "Nazorat raqami",
+    "Ishlab chiqarilgan yil",
+    "Konteyner uzunligi",
+    "Mamlakat kodi"
+   ],
+   "e": "Check digit."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteynerlarni yuklash-tushirishda nima ishlatiladi?",
+   "a": [
+    "Kranlar va reach stacker",
+    "Faqat qo'l mehnati va oddiy belkuraklar",
+    "Faqat belkurak",
+    "Faqat konveyer"
+   ],
+   "e": "Spreder."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Spreder nima?",
+   "a": [
+    "Konteynerni ushlovchi moslama",
+    "Konteynerning maxsus turi (ochiq tomli)",
+    "Vagon turi",
+    "Tormoz qismi"
+   ],
+   "e": "Fitinglardan ushlaydi."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteyner terminali vazifasi nima?",
+   "a": [
+    "Konteynerlarni qayta ishlash va saqlash",
+    "Yo'lovchilarga chipta sotish va kutib olish",
+    "Lokomotiv ta'miri",
+    "Rels ishlab chiqarish"
+   ],
+   "e": "Intermodal hub."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteyner poyezdining afzalligi nima?",
+   "a": [
+    "Tez va ishonchli yetkazish",
+    "Yuklarni qayta ortish ko'p",
+    "Sekin harakatlanadi",
+    "Faqat bo'sh konteyner tashiydi"
+   ],
+   "e": "Blok-poyezd."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Intermodal tashish nima?",
+   "a": [
+    "Yukni bir idishda turli transportda tashish",
+    "Yukni faqat temir yo'l orqali, qayta ortib tashish",
+    "Faqat havoda tashish",
+    "Faqat qo'lda tashish"
+   ],
+   "e": "Yukni qayta ortmasdan."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteynerni platformaga yuklashda nima tekshiriladi?",
+   "a": [
+    "Fiting tirgaklarga to'g'ri o'tirgani",
+    "Konteyner rangi va ishlab chiqaruvchi belgisi",
+    "Konteyner narxi",
+    "Haydovchi ismi"
+   ],
+   "e": "Xavfsiz mahkamlash."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteynerga yukni joylashtirishda qaysi qoida muhim?",
+   "a": [
+    "Og'irlik markazini teng taqsimlash",
+    "Og'ir yuklarni eshik oldiga, bir chetga yig'ish",
+    "Mahkamlamaslik",
+    "Eshik oldiga og'irini qo'yish"
+   ],
+   "e": "Barqarorlik."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteyner plombasi nima uchun qo'yiladi?",
+   "a": [
+    "Yukni ruxsatsiz ochishdan himoya",
+    "Konteynerni bezash va raqamini ko'rsatish",
+    "Og'irlikni oshirish",
+    "Tezlikni oshirish"
+   ],
+   "e": "ZPU."
+  },
+  {
+   "b": "Konteynerlar",
+   "q": "Konteynerning maksimal brutto massasi (20 fut) taxminan qancha?",
+   "a": [
+    "30–36 t gacha",
+    "5 t",
+    "100 t",
+    "1 t"
+   ],
+   "e": "Rusumiga qarab."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Yuk vagonlarining rejali ta'mir turlari qaysilar?",
+   "a": [
+    "Depo va kapital ta'mir",
+    "Faqat kundalik yuvish va tozalash ishlari",
+    "Faqat bo'yash",
+    "Ta'mir qilinmaydi"
+   ],
+   "e": "DR, KR."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "TR-1 va TR-2 nima?",
+   "a": [
+    "Joriy (uzilish) ta'mirlari",
+    "Kapital ta'mirning birinchi va ikkinchi bosqichi",
+    "Bo'yash turlari",
+    "Yuklash turlari"
+   ],
+   "e": "Otsepochnyy remont."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Kapital ta'mir qayerda bajariladi?",
+   "a": [
+    "Vagon ta'mirlash zavodida",
+    "Yo'lovchi vokzalida",
+    "Har bir oraliq stansiyaning yo'lida",
+    "Konteyner terminalida"
+   ],
+   "e": "VRZ."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Depo ta'miri qayerda bajariladi?",
+   "a": [
+    "Vagon deposida",
+    "Vagon zavodida faqat",
+    "Poyezd harakatida",
+    "Yuk omborida"
+   ],
+   "e": "VChD."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "PTO (texnik xizmat punkti) vazifasi nima?",
+   "a": [
+    "Poyezdlarni texnik ko'rikdan o'tkazish",
+    "Chipta sotish",
+    "Yo'lovchilarga chipta sotish va ma'lumot berish",
+    "Lokomotiv ishlab chiqarish"
+   ],
+   "e": "Punkt texnicheskogo obslujivaniya."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagon tekshiruvchisi (osmotrshik) qaysi asbobdan foydalanadi?",
+   "a": [
+    "Bolg'acha, shablonlar, fonar",
+    "Faqat kompyuter",
+    "Faqat telefon",
+    "Hech qanday asbob"
+   ],
+   "e": "Ko'rik asboblari."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Poyezd tarkibidagi vagonni ko'rik paytida ajratish sababi nima bo'lishi mumkin?",
+   "a": [
+    "Xavfsizlikka ta'sir qiluvchi nosozlik",
+    "Vagon bo'yog'i o'chgani yoki raqam xiraligi",
+    "Raqam kichik yozilgani",
+    "Vagon toza emasligi faqat"
+   ],
+   "e": "Otsepka."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagonning ta'mirlararo yurish masofasi (probeg) nimani bildiradi?",
+   "a": [
+    "Ta'mirlar orasidagi bosib o'tilgan yo'l",
+    "Vagon ishlab chiqarilgan yildan o'tgan vaqt",
+    "Vagon og'irligi",
+    "Vagon uzunligi"
+   ],
+   "e": "Ming km."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Ta'mirdan keyin vagonga qanday belgi qo'yiladi?",
+   "a": [
+    "Ta'mir sanasi va joyi trafareti",
+    "Hech qanday belgi",
+    "Faqat reklama",
+    "Faqat yangi bo'yoq rangi, belgisiz"
+   ],
+   "e": "Trafaret."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagon detallarini tozalashda qanday usul qo'llanadi?",
+   "a": [
+    "Yuvish mashinalarida yuvish",
+    "Yoqib yuborish",
+    "Ko'mib tashlash",
+    "Faqat qo'l bilan artish"
+   ],
+   "e": "Moechnaya mashina."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagon ta'mirining oqim-konveyer usuli nimani ta'minlaydi?",
+   "a": [
+    "Unumdorlik va sifatni oshirish",
+    "Ta'mir vaqtini uzaytirish va xarajatni oshirish",
+    "Xarajatni oshirish",
+    "Sifatni pasaytirish"
+   ],
+   "e": "Potochnyy metod."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Payvandlash ishlari vagon ramasida qachon bajariladi?",
+   "a": [
+    "Yoriq va nuqsonlarni tuzatishda",
+    "Har kuni, bo'yash ishlaridan oldin",
+    "Hech qachon",
+    "Faqat yuklash paytida"
+   ],
+   "e": "Texnologik qoidalar bo'yicha."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagon detallarini nazoratdan o'tkazish (NDT) nima?",
+   "a": [
+    "Buzmaydigan nazorat usullari",
+    "Detalni sindirib, ichini ko'zdan kechirish",
+    "Detalni bo'yash",
+    "Detalni tortish"
+   ],
+   "e": "Ultratovush, magnit, vixrtokov."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagon og'irligi va balandligini tekshirish qachon bajariladi?",
+   "a": [
+    "Ta'mirdan keyin",
+    "Hech qachon",
+    "Har soatda",
+    "Faqat yuklashda"
+   ],
+   "e": "Avtoulagich balandligi."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Ta'mir sifatini kim qabul qiladi?",
+   "a": [
+    "Qabul qiluvchi (priyomshchik) inspektor",
+    "Yo'lovchi",
+    "Yuk egasi",
+    "Haydovchi"
+   ],
+   "e": "Sifat nazorati."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagon xo'jaligining asosiy vazifasi nima?",
+   "a": [
+    "Vagonlarni soz holda saqlash",
+    "Chipta sotish",
+    "Yangi temir yo'l liniyalarini qurish",
+    "Elektr ishlab chiqarish"
+   ],
+   "e": "Vagonnoye xozyaystvo."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagonlarni yuklashga tayyorlash qayerda bajariladi?",
+   "a": [
+    "PPV (tayyorlash punkti)",
+    "Kassada",
+    "Vokzalda",
+    "Lokomotiv deposida"
+   ],
+   "e": "Punkt podgotovki vagonov."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Sisternalarni yuvish va bug'lash qayerda bajariladi?",
+   "a": [
+    "Yuvish-bug'lash stansiyasida",
+    "Yo'lovchi vokzalining yuvish xonasida",
+    "Konteyner terminalida",
+    "Lokomotiv deposida"
+   ],
+   "e": "PPS."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Yo'lovchi vagonlariga texnik xizmat ko'rsatish turi qaysi?",
+   "a": [
+    "TO-1, TO-2, TO-3",
+    "Faqat KR-5",
+    "Faqat bo'yash",
+    "Xizmat ko'rsatilmaydi"
+   ],
+   "e": "Texnik obslujivaniye."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "TO-1 qachon bajariladi?",
+   "a": [
+    "Har reysdan oldin va yo'lda",
+    "Faqat vagon ta'mirlash zavodida, yiliga bir marta",
+    "10 yilda bir marta",
+    "Faqat zavodda"
+   ],
+   "e": "Tayyorlash."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagonning xizmat muddati tugasa nima qilinadi?",
+   "a": [
+    "Ro'yxatdan chiqarib utilizatsiya qilinadi",
+    "Muddatsiz ishlatiladi",
+    "Bo'yab, yangi vagon sifatida ro'yxatga olinadi",
+    "Raqami o'zgartiriladi"
+   ],
+   "e": "Spisaniye."
+  },
+  {
+   "b": "Ta'mir tizimi va texnik xizmat",
+   "q": "Vagon xizmat muddatini uzaytirish nimadan keyin mumkin?",
+   "a": [
+    "Texnik diagnostika va modernizatsiya",
+    "Faqat tashqi bo'yash va yuvishdan keyin",
+    "Faqat yuvishdan keyin",
+    "Hech qachon"
+   ],
+   "e": "Prodleniye sroka."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Yuklarni vagonda joylashtirish va mahkamlash nima bilan tartibga solinadi?",
+   "a": [
+    "Texnik shartlar (TU) bilan",
+    "Yuk egasining xohishi bilan",
+    "Haydovchi ko'rsatmasi bilan",
+    "Hech narsa bilan tartibga solinmaydi"
+   ],
+   "e": "Yuklarni joylashtirish texnik shartlari."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Yukning umumiy og'irlik markazi qanday bo'lishi kerak?",
+   "a": [
+    "Vagon bo'ylama va ko'ndalang o'qida",
+    "Vagonning bir chetiga, eshik tomonga surilgan",
+    "Faqat vagon tomiga yaqin",
+    "Ahamiyatga ega emas"
+   ],
+   "e": "Bir tekis yuklama."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Yukning og'irlik markazi balandligi cheklanishi sababi nima?",
+   "a": [
+    "Vagon ag'darilmasligi uchun",
+    "Yuk rangini saqlash uchun",
+    "Tormozni o'chirish uchun",
+    "Vagon tezligini oshirish uchun"
+   ],
+   "e": "Barqarorlik."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Yog'och yuklarni platformada mahkamlashda nima ishlatiladi?",
+   "a": [
+    "Tirgaklar va simli bog'lamalar",
+    "Faqat elim va lenta",
+    "Mahkamlanmaydi",
+    "Faqat elim, lenta va qog'oz qatlami bilan"
+   ],
+   "e": "Stoyka, rastyajka."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Rastyajka (tortqich) nima?",
+   "a": [
+    "Yukni tortib mahkamlovchi sim yoki tasma",
+    "Vagonni lokomotivga ulovchi maxsus zanjir",
+    "Yukni o'lchovchi asbob",
+    "Konteyner eshigi"
+   ],
+   "e": "Bog'lama."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Yukni bo'ylama siljishdan saqlash uchun nima qo'yiladi?",
+   "a": [
+    "Tirgak va upor brusalar",
+    "Faqat brezent yopqich va yorliq bilan",
+    "Faqat yorliq",
+    "Hech narsa qo'yilmaydi"
+   ],
+   "e": "Upornyy brusok."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "G'ildirakli texnikani platformada mahkamlashda nima ishlatiladi?",
+   "a": [
+    "G'ildirak ostiga ponalar",
+    "Faqat bo'yoq",
+    "Faqat plomba",
+    "Faqat plomba va ogohlantiruvchi yorliq"
+   ],
+   "e": "Kolodka, rastyajka."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Sochiluvchan yuk yarim vagonda qanday yuklanadi?",
+   "a": [
+    "Bir tekis, bortdan oshirmasdan",
+    "Bir chetiga uyib",
+    "Bortdan baland do'ng qilib, bir chetga",
+    "Faqat eshik oldiga"
+   ],
+   "e": "Shapka cheklangan."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Vagon ortiqcha yuklansa nima bo'ladi?",
+   "a": [
+    "Rama va yurish qismlari shikastlanadi",
+    "Vagon tezroq harakatlanadi, tormoz yo'li qisqaradi",
+    "Tormoz yo'li qisqaradi",
+    "Hech qanday oqibati bo'lmaydi"
+   ],
+   "e": "Peregruz."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Vagonga yuklangan yuk massasi qanday aniqlanadi?",
+   "a": [
+    "Vagon tarozisida tortish orqali",
+    "Ko'z bilan chamalab",
+    "Vagon rangi bo'yicha",
+    "Faqat hujjatdagi taxmin bo'yicha"
+   ],
+   "e": "Vagonnye vesy."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Xavfli yuklar tashiladigan vagonlar poyezdda qanday joylashtiriladi?",
+   "a": [
+    "Qoidalarga ko'ra, lokomotivdan uzoqda",
+    "Har doim lokomotivning bevosita yonida",
+    "Yo'lovchi vagonlari orasida",
+    "Istalgan joyda, cheklovsiz"
+   ],
+   "e": "Prikrytiye."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Xavfli yuklar necha sinfga bo'linadi?",
+   "a": [
+    "9 sinfga",
+    "3 sinfga",
+    "5 sinfga",
+    "12 sinfga"
+   ],
+   "e": "BMT tasnifi."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Xavfli yuk 3-sinf nimani bildiradi?",
+   "a": [
+    "Yonuvchi suyuqliklar",
+    "Portlovchi va o'z-o'zidan yonuvchi moddalar",
+    "Radioaktiv moddalar",
+    "Zaharli gazlar"
+   ],
+   "e": "Benzin, neft."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Xavfli yuk 1-sinf nimani bildiradi?",
+   "a": [
+    "Portlovchi moddalar",
+    "Yonuvchi suyuqliklar",
+    "Korroziv moddalar",
+    "Oksidlovchilar"
+   ],
+   "e": "VM."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Xavfli yuk 7-sinf nimani bildiradi?",
+   "a": [
+    "Radioaktiv materiallar",
+    "Yonuvchi qattiq moddalar",
+    "Zaharli moddalar",
+    "Korroziv moddalar"
+   ],
+   "e": "Radiatsiya."
+  },
+  {
+   "b": "Yuklarni joylashtirish va mahkamlash",
+   "q": "Xavfli yuklarni tashishda avariya kartochkasi nima uchun kerak?",
+   "a": [
+    "Avariyada harakat tartibini bilish uchun",
+    "Yuk narxini ko'rsatish uchun",
+    "Vagon raqamini yozish uchun",
+    "Yo'lovchilar ro'yxati uchun"
+   ],
+   "e": "Avariynaya kartochka."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Vagon ostida ishlashdan oldin nima qilinadi?",
+   "a": [
+    "Tarkib to'xtovchi signal bilan to'siladi",
+    "Lokomotiv yurgizilib, tarkib sekin suriladi",
+    "Hech qanday chora ko'rilmaydi",
+    "Faqat radio orqali xabar beriladi"
+   ],
+   "e": "Ograjdeniye."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Yo'lda ishlovchi xodim qanday kiyimda bo'lishi kerak?",
+   "a": [
+    "Signal (yorqin) jilet bilan",
+    "Qora kiyimda, signal jiletsiz, ixtiyoriy",
+    "Ixtiyoriy kiyimda",
+    "Faqat oq xalatda"
+   ],
+   "e": "Ko'rinuvchanlik."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Temir yo'l yo'llaridan qanday o'tish kerak?",
+   "a": [
+    "Belgilangan joydan, atrofga qarab",
+    "Vagonlar ostidan yoki avtoulagich ustidan",
+    "Avtoulagichlar ustidan sakrab",
+    "Istalgan joydan yugurib"
+   ],
+   "e": "Xavfsizlik qoidasi."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Vagonlar orasida avtoulagichdan o'tish nima uchun taqiqlanadi?",
+   "a": [
+    "Tarkib qo'zg'alishi xavfi bor",
+    "Vagonni ifloslantirish mumkin",
+    "Avtoulagich bo'yog'i buziladi",
+    "Taqiqlanmaydi"
+   ],
+   "e": "Jarohat xavfi."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Kontakt tarmog'i ostida vagon tomiga chiqish nima uchun taqiqlanadi?",
+   "a": [
+    "Yuqori kuchlanish (25 kV) xavfi",
+    "Tom sirpanchiq bo'lgani uchun faqat",
+    "Vagon og'ir bo'lgani uchun",
+    "Taqiqlanmaydi"
+   ],
+   "e": "Elektr toki urishi."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Elektrlashtirilgan uchastkada kontakt simidan qancha masofada bo'lish taqiqlanadi?",
+   "a": [
+    "2 metrdan yaqin",
+    "20 metrdan yaqin",
+    "10 sm dan yaqin faqat",
+    "Masofa ahamiyatsiz"
+   ],
+   "e": "Xavfsiz masofa."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Sisterna ichida ishlashdan oldin nima qilinadi?",
+   "a": [
+    "Bug'lanib, havo tahlil qilinadi",
+    "Darhol ichiga tushib, tozalashga kirishiladi",
+    "Faqat tashqi tomoni yuviladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Gaz zaharlanishi xavfi."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Sisterna ichida ishlovchi xodim qanday himoyalanadi?",
+   "a": [
+    "Shlangli protivogaz va strahovka bilan",
+    "Hech qanday himoyasiz",
+    "Faqat qo'lqop bilan",
+    "Faqat ko'zoynak bilan"
+   ],
+   "e": "Kuzatuvchi bilan."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Vagonni domkrat bilan ko'tarishda nima qilinadi?",
+   "a": [
+    "G'ildiraklar ostiga to'xtatgich qo'yiladi",
+    "Vagon harakatda bo'lgan holda ko'tariladi",
+    "Domkrat qiyshiq qo'yiladi",
+    "Hech qanday chora ko'rilmaydi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Avtotormozlarni ta'mirlashda havo bosimi bilan nima qilinadi?",
+   "a": [
+    "Tizimdan havo chiqariladi",
+    "Ishlash uchun tizimdagi bosim oshiriladi",
+    "Bosim saqlanib ishlanadi",
+    "Ahamiyati yo'q"
+   ],
+   "e": "Jarohatdan saqlanish."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Yuk vagonlari eshiklarini ochishda qanday xavf bor?",
+   "a": [
+    "Yukning qulab tushishi",
+    "Vagon tezligining keskin oshib ketishi",
+    "Tormozning o'chishi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Ehtiyotkorlik."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Vagon depolarida ishlovchilar uchun qaysi hujjat majburiy?",
+   "a": [
+    "Mehnat muhofazasi yo'riqnomasi",
+    "Faqat ichki ish jadvali va ta'til grafigi",
+    "Faqat ta'til grafigi",
+    "Hech qanday hujjat"
+   ],
+   "e": "Instruktaj."
+  },
+  {
+   "b": "Mehnat muhofazasi va xavfsizlik",
+   "q": "Mehnat muhofazasi bo'yicha qaysi instruktaj ishga qabul qilinganda o'tkaziladi?",
+   "a": [
+    "Kirish instruktaji",
+    "Takroriy instruktaj",
+    "Navbatdan tashqari",
+    "Maqsadli instruktaj"
+   ],
+   "e": "Vvodnyy."
+  },
+  {
+   "b": "Vagon ekspluatatsiyasi ko'rsatkichlari",
+   "q": "Vagon aylanmasi nima?",
+   "a": [
+    "Ikki ketma-ket yuklash orasidagi vaqt",
+    "Vagonning g'ildirak aylanishlari soni",
+    "Vagonning bir kunlik yo'li",
+    "Vagon ta'mir muddati"
+   ],
+   "e": "Oborot vagona."
+  },
+  {
+   "b": "Vagon ekspluatatsiyasi ko'rsatkichlari",
+   "q": "Vagonning o'rtacha sutkalik yurishi nima?",
+   "a": [
+    "Bir sutkada bosib o'tgan masofa",
+    "Vagonning umumiy xizmat muddati",
+    "Bir yildagi ta'mirlar soni",
+    "Bir stansiyada turish vaqti"
+   ],
+   "e": "km/sutka."
+  },
+  {
+   "b": "Vagon ekspluatatsiyasi ko'rsatkichlari",
+   "q": "Vagon unumdorligi nima bilan o'lchanadi?",
+   "a": [
+    "Tonna-km bilan",
+    "Faqat vagonlar soni bilan",
+    "Faqat vagon og'irligi bilan",
+    "Faqat rang bilan"
+   ],
+   "e": "Bir sutkada."
+  },
+  {
+   "b": "Vagon ekspluatatsiyasi ko'rsatkichlari",
+   "q": "Bo'sh yurish (porojniy probeg) nima?",
+   "a": [
+    "Vagonning yuksiz harakati",
+    "Vagonning yuk bilan harakati",
+    "Vagonning ta'mirdagi vaqti",
+    "Vagonning stansiyada turishi"
+   ],
+   "e": "Kamaytirish kerak."
+  },
+  {
+   "b": "Vagon ekspluatatsiyasi ko'rsatkichlari",
+   "q": "Vagonning statik yuklamasi nima?",
+   "a": [
+    "Bir vagonga o'rtacha ortilgan yuk",
+    "Vagon tormoz kuchi",
+    "Vagon tezligi",
+    "Vagonning bo'sh (tara) massasi, tonnada"
+   ],
+   "e": "Tonna/vagon."
+  },
+  {
+   "b": "Vagon ekspluatatsiyasi ko'rsatkichlari",
+   "q": "Vagonlar parkidan foydalanish samaradorligini nima oshiradi?",
+   "a": [
+    "Turish vaqtini kamaytirish",
+    "Bo'sh yurishni ko'paytirish",
+    "Ta'mirni kechiktirish",
+    "Yuklashni sekinlashtirish"
+   ],
+   "e": "Aylanmani tezlashtirish."
+  },
+  {
+   "b": "Vagon ekspluatatsiyasi ko'rsatkichlari",
+   "q": "Vagonlarning nosozlik bilan ajratilishi ko'payishi nimani bildiradi?",
+   "a": [
+    "Ta'mir sifati pastligini",
+    "Vagonlarning yaxshi holatini",
+    "Yuk kamligini",
+    "Tezlik pastligini"
+   ],
+   "e": "Ishonchlilik ko'rsatkichi."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "G'ildiraklar qaysi materialdan tayyorlanadi?",
+   "a": [
+    "Maxsus g'ildirak po'latidan",
+    "Kulrang cho'yandan",
+    "Kulrang cho'yan yoki alyuminiy qotishmasi",
+    "Plastik kompozitdan"
+   ],
+   "e": "Prokat."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagon o'qi qaysi usulda tayyorlanadi?",
+   "a": [
+    "Po'latni bolg'alab (pokovka)",
+    "Plastikni quyib",
+    "Yog'ochni yo'nib",
+    "Shishani quyib"
+   ],
+   "e": "O'q po'lati."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagon detallarini korroziyadan qanday himoyalaydi?",
+   "a": [
+    "Bo'yash va qoplash",
+    "Suvga botirib qo'yish",
+    "Hech qanday himoya kerak emas",
+    "Faqat yuvish"
+   ],
+   "e": "Lak-bo'yoq qoplamasi."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagon polida yog'och qachon ishlatiladi?",
+   "a": [
+    "Yopiq vagon va platformalarda",
+    "Sisterna va izotermik vagonlarning hammasida",
+    "Hech qachon",
+    "Faqat lokomotivlarda"
+   ],
+   "e": "Pol taxtasi."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Yuk vagonlarida qanday tormoz kolodkasi tobora ko'proq qo'llanmoqda?",
+   "a": [
+    "Kompozitsion kolodkalar",
+    "Yog'och yoki rezina asosli kolodkalar",
+    "Rezina kolodkalar",
+    "Kolodka ishlatilmaydi"
+   ],
+   "e": "Kam yeyiladi."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Yuk vagonlarining konstruksion tezligi odatda qancha?",
+   "a": [
+    "120 km/soat gacha",
+    "40 km/soat",
+    "250 km/soat",
+    "300 km/soat"
+   ],
+   "e": "Yangi vagonlar."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagonlar ishlab chiqarishda qaysi tendensiya kuzatiladi?",
+   "a": [
+    "O'q yuklamasini va hajmni oshirish",
+    "Vagon hajmini va yuk ko'tarishni kamaytirish",
+    "Faqat yog'och vagonlar",
+    "Tormozsiz vagonlar"
+   ],
+   "e": "Innovatsion vagonlar."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "O'q yuklamasi oshirilgan yangi yuk vagonlari uchun qaysi qiymat xos?",
+   "a": [
+    "25 t/o'q",
+    "5 t/o'q",
+    "50 t/o'q",
+    "100 t/o'q"
+   ],
+   "e": "An'anaviy 23,5 t."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "An'anaviy yuk vagonining o'q yuklamasi qancha?",
+   "a": [
+    "23,5 t/o'q",
+    "10 t/o'q",
+    "35 t/o'q",
+    "50 t/o'q"
+   ],
+   "e": "MDH standarti."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "To'rt o'qli yarim vagonning yuk ko'tarish qobiliyati odatda qancha?",
+   "a": [
+    "69–75 t",
+    "20 t",
+    "150 t",
+    "10 t"
+   ],
+   "e": "Masalan, 12-132 modeli."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "To'rt o'qli sisternaning qozon hajmi odatda qancha?",
+   "a": [
+    "60–90 m³ atrofida",
+    "5 m³",
+    "500 m³",
+    "1 m³"
+   ],
+   "e": "Yuk turiga qarab."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagonni harakatga yaroqli holatda ekanini qaysi hujjat bilan tasdiqlanadi?",
+   "a": [
+    "Texnik ko'rik natijasi va VU belgisi",
+    "Konduktor imzosi bilan",
+    "Yo'lovchi chiptasi va yuk egasining arizasi",
+    "Konduktor imzosi"
+   ],
+   "e": "VU-14, VU-23 shakllar."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "VU-23 shakli nima uchun to'ldiriladi?",
+   "a": [
+    "Vagonni joriy ta'mirga yuborishda",
+    "Yo'lovchi chiptasini sotishda",
+    "Konteynerni bo'yashda",
+    "Lokomotivni ishga tushirishda"
+   ],
+   "e": "Nosozlik xabarnomasi."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagon ta'mirdan chiqqanda qaysi shakl to'ldiriladi?",
+   "a": [
+    "VU-36",
+    "VU-1",
+    "INV-3",
+    "TORG-12"
+   ],
+   "e": "Ta'mirdan chiqish xabarnomasi."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Yuk vagonlari texnik holatini avtomatlashtirilgan hisobga olish tizimi nima beradi?",
+   "a": [
+    "Vagon holatini tezkor nazorat",
+    "Yo'lovchilar sonini hisoblash",
+    "Chiptalar narxini belgilash",
+    "Vagon rangini tanlash"
+   ],
+   "e": "ASU."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagonlarning g'ildirak juftlariga \"formular\" yuritilishi nima uchun kerak?",
+   "a": [
+    "Tarixini va ta'mirlarini hisobga olish",
+    "Vagon rangini va narxini belgilash uchun",
+    "Narxini oshirish uchun",
+    "Hech qanday maqsadsiz"
+   ],
+   "e": "Pasport."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "G'ildirak jufti o'qidagi tamg'alar nimani bildiradi?",
+   "a": [
+    "Ishlab chiqarish va shakllantirish ma'lumotlari",
+    "Yuk egasi nomini",
+    "Vagon tezligini",
+    "Mashinist ismini"
+   ],
+   "e": "Klyoma."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagon depo ta'miri davriyligi nimaga bog'liq?",
+   "a": [
+    "Vagon turi va yurish masofasiga",
+    "Yuk egasining xohishiga",
+    "Vagon rangiga va haftaning kuniga",
+    "Yuk egasining xohishiga"
+   ],
+   "e": "Me'yorlar."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagonning texnik holatini vibrodiagnostika bilan tekshirish nimani aniqlaydi?",
+   "a": [
+    "Podshipnik nosozliklarini",
+    "Vagon rangini",
+    "Yuk egasini",
+    "Tormoz rusumini"
+   ],
+   "e": "Tebranish tahlili."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Yo'lovchi vagonida eshiklar harakat paytida qanday bo'lishi kerak?",
+   "a": [
+    "Yopiq va qulflangan",
+    "Ochiq turishi kerak",
+    "Faqat tamburda ochiq",
+    "Ahamiyati yo'q"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Yo'lovchi vagonida avariya chiqishi sifatida nima ishlatiladi?",
+   "a": [
+    "Avariya derazalari",
+    "Vagon tomidagi tutun quvuri",
+    "Vagon ostidagi lyuk faqat",
+    "Avariya chiqishi bo'lmaydi"
+   ],
+   "e": "Belgilangan oynalar."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Yo'lovchi vagonida vagon konduktorining asosiy vazifasi nima?",
+   "a": [
+    "Yo'lovchilarga xizmat va xavfsizlik",
+    "Lokomotivni boshqarish va yo'lni ta'mirlash",
+    "Yuk ortish va tushirish",
+    "Yuk ortish"
+   ],
+   "e": "Provodnik."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagonni poyezdga qo'shishdan oldin nima tekshiriladi?",
+   "a": [
+    "Texnik sozligi va tormozlar",
+    "Hech narsa tekshirilmaydi",
+    "Faqat tashqi rangi va raqam yozuvi",
+    "Hech narsa"
+   ],
+   "e": "Ko'rik."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Yo'lovchi poyezdi tarkibini shakllantirishda nima hisobga olinadi?",
+   "a": [
+    "Vagonlar turi va soni, uzunlik",
+    "Faqat vagon ranglari",
+    "Faqat konduktorlar yoshi",
+    "Hech narsa"
+   ],
+   "e": "Sxema."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagon kuzovida konteyner tashish uchun qaysi vagon eng qulay?",
+   "a": [
+    "Fitingli platforma",
+    "Yopiq yuk vagoni",
+    "Sisterna",
+    "Izotermik vagon"
+   ],
+   "e": "Fitingovaya platforma."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagonlarda radiopelengatsiya yoki sun'iy yo'ldosh kuzatuvi nima beradi?",
+   "a": [
+    "Vagon joylashuvini kuzatish",
+    "Vagonni isitish va yukni tortish",
+    "Tormozni boshqarish",
+    "Tormozni boshqarish"
+   ],
+   "e": "GLONASS/GPS."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Vagonlar yuklanishini tez bajarish uchun qaysi omil muhim?",
+   "a": [
+    "Mexanizatsiyalashgan yuklash",
+    "Faqat qo'l mehnati",
+    "Yuklashni kechiktirish",
+    "Yuklashni kechiktirib, bo'sh vagonni ushlab turish"
+   ],
+   "e": "Unumdorlik."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Qishda vagonlarda yuk muzlab qolishining oldini olish uchun nima qilinadi?",
+   "a": [
+    "Profilaktik kukunlar va isitish",
+    "Vagonni oldindan suv bilan ho'llab qo'yish",
+    "Hech narsa qilinmaydi",
+    "Yukni ko'proq namlash"
+   ],
+   "e": "Smerzayemost."
+  },
+  {
+   "b": "Materiallar va qo'shimcha",
+   "q": "Muzlagan yukni tushirishda nima ishlatiladi?",
+   "a": [
+    "Isitish garajlari va vibratorlar",
+    "Faqat bolg'a va lom",
+    "Vagonni ag'darmasdan qoldirish",
+    "Yuk tushirilmaydi"
+   ],
+   "e": "Razmorajivaniye."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Yuk vagonlarini poyezdga qo'shishda tormoz magistrali yenglarini ulagandan keyin nima qilinadi?",
+   "a": [
+    "Tutashtiruvchi kranlar ochiladi",
+    "Kranlar yopiq qoldiriladi",
+    "Yenglar qayta ajratiladi",
+    "Magistraldan havo butunlay chiqariladi"
+   ],
+   "e": "Magistral yaxlitligi."
   }
- ]
+ ],
+ "kalit": "vagon konteyner temir yo'l vagonlar sisterna yarim vagon"
 }
