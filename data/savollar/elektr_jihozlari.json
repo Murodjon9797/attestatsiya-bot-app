@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "Elektr jihozlari va ularga texnik xizmat ko'rsatish",
+ "turi": "maxsus",
+ "manba": "Attestatsiya test sinovlariga jalb etiladigan pedagoglar ro'yxatidagi fan; savollar DTS, o'quv dasturlari va darsliklar asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "O'zbekistonda maishiy elektr tarmog'ining nominal kuchlanishi va chastotasi qancha?",
+   "a": [
+    "220/380 V, 50 Gs",
+    "110/220 V, 60 Gs",
+    "127/220 V, 60 Gs",
+    "380/660 V, 400 Gs"
+   ],
+   "e": "Past kuchlanishli tarmoq."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Elektr energiyasini uzoq masofaga yuqori kuchlanishda uzatishdan maqsad nima?",
+   "a": [
+    "Isroflarni kamaytirish",
+    "Simlar sonini ko'paytirish va tarmoqni murakkablashtirish",
+    "Tok kuchini oshirish",
+    "Chastotani oshirish"
+   ],
+   "e": "P = I²R."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Elektr ta'minoti tizimining asosiy bo'g'inlari qaysilar?",
+   "a": [
+    "Stansiya, uzatish liniyasi, podstansiya, iste'molchi",
+    "Faqat elektr stansiyasi va bevosita iste'molchilar",
+    "Faqat transformator",
+    "Faqat kabel va hisoblagich"
+   ],
+   "e": "Energotizim."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Qaysi kuchlanish \"past kuchlanish\" hisoblanadi?",
+   "a": [
+    "1000 V gacha",
+    "6 kV dan yuqori",
+    "35 kV va undan yuqori",
+    "110 kV gacha"
+   ],
+   "e": "Elektr qurilmalari qoidalari."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Uch fazali to'rt simli tarmoqda chiziqli kuchlanish 380 V bo'lsa, fazaviy kuchlanish qancha?",
+   "a": [
+    "220 V",
+    "380 V",
+    "127 V",
+    "660 V"
+   ],
+   "e": "Uf = Ul/√3."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Elektr iste'molchilari ishonchlilik bo'yicha nechta toifaga bo'linadi?",
+   "a": [
+    "3 ta",
+    "2 ta",
+    "5 ta",
+    "7 ta"
+   ],
+   "e": "I, II, III toifalar."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "I toifali iste'molchilarga misol qaysi?",
+   "a": [
+    "Operatsiya xonasi, yong'in nasosi",
+    "Turar joy binosidagi oddiy xonadon",
+    "Ombordagi yoritish",
+    "Ko'cha bezak chiroqlari"
+   ],
+   "e": "Uzilish hayot uchun xavfli."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "I toifali iste'molchilar nechta mustaqil manbadan ta'minlanadi?",
+   "a": [
+    "Ikki mustaqil manbadan",
+    "Bitta manbadan, zaxirasiz",
+    "Faqat akkumulyatordan",
+    "Faqat generatordan"
+   ],
+   "e": "Avtomatik zaxira (AVR)."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "AVR (zaxirani avtomatik ulash) vazifasi nima?",
+   "a": [
+    "Asosiy manba uzilsa zaxirani ulash",
+    "Kuchlanishni ikki barobar oshirish",
+    "Hisoblagich ko'rsatkichini yozish",
+    "Liniyani yerga ulash"
+   ],
+   "e": "Uzluksiz ta'minot."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Elektr energiyasi sifatining asosiy ko'rsatkichlari qaysilar?",
+   "a": [
+    "Kuchlanish va chastota og'ishi",
+    "Simlarning rangi, uzunligi va ishlab chiqaruvchisi",
+    "Hisoblagich narxi",
+    "Transformator og'irligi"
+   ],
+   "e": "GOST 32144."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Quvvat koeffitsiyenti (cos φ) past bo'lishining zarari nima?",
+   "a": [
+    "Tarmoqda isroflar ortadi",
+    "Iste'molchi quvvati oshadi va tejaladi",
+    "Kuchlanish oshadi",
+    "Chastota barqarorlashadi"
+   ],
+   "e": "Reaktiv quvvat."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Reaktiv quvvatni kompensatsiyalash uchun nima o'rnatiladi?",
+   "a": [
+    "Kondensator batareyalari",
+    "Qo'shimcha aktiv rezistorlar to'plami",
+    "Saqlagichlar",
+    "Yoritish chiroqlari"
+   ],
+   "e": "cos φ oshadi."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Aktiv quvvat birligi qaysi?",
+   "a": [
+    "Vatt (Vt)",
+    "Volt-amper reaktiv (var)",
+    "Volt-amper (V·A)",
+    "Amper-soat"
+   ],
+   "e": "P = UI cos φ."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "To'la quvvat birligi qaysi?",
+   "a": [
+    "V·A",
+    "Vt",
+    "var",
+    "J"
+   ],
+   "e": "S = UI."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Elektr energiyasi iste'moli qaysi birlikda hisoblanadi?",
+   "a": [
+    "kVt·soat",
+    "kV",
+    "kA",
+    "kOm"
+   ],
+   "e": "Hisoblagich."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Ikki tarifli hisoblagichning afzalligi nima?",
+   "a": [
+    "Tungi arzon tarifda hisoblash",
+    "Energiyani bepul ishlatish imkoni",
+    "Kuchlanishni oshirish",
+    "Tok kuchini kamaytirish"
+   ],
+   "e": "Ko'p tarifli hisob."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Elektr uzatish havo liniyasida (HL) simlar nimaga mahkamlanadi?",
+   "a": [
+    "Izolyatorlar orqali tayanchlarga",
+    "To'g'ridan-to'g'ri yerga ko'milib",
+    "Bino devorlariga izolyatsiyasiz",
+    "Daraxtlarga"
+   ],
+   "e": "Tayanch va izolyator."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Havo liniyalarida asosan qaysi sim ishlatiladi?",
+   "a": [
+    "Po'lat-alyuminiy (AS)",
+    "Faqat kumush sim",
+    "Faqat izolyatsiyalangan mis sim",
+    "Optik tola"
+   ],
+   "e": "AS markali."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "SIP simi nima?",
+   "a": [
+    "O'zi ko'taruvchi izolyatsiyalangan sim",
+    "Yerga ko'miladigan bronli kuch kabeli",
+    "Signal kabeli",
+    "Optik kabel"
+   ],
+   "e": "0,4 kV liniyalar."
+  },
+  {
+   "b": "Elektr ta'minoti tizimlari",
+   "q": "Kabel liniyasining havo liniyasidan afzalligi nima?",
+   "a": [
+    "Ob-havo ta'siridan himoyalangan",
+    "Arzonroq va ta'miri osonroq",
+    "Nosozlikni topish oson",
+    "Qurish tezroq"
+   ],
+   "e": "Shahar tarmoqlari."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Transformator qanday tok bilan ishlaydi?",
+   "a": [
+    "Faqat o'zgaruvchan tok",
+    "Faqat o'zgarmas tok",
+    "Har ikkalasi bilan bir xil",
+    "Impulsli o'zgarmas tok"
+   ],
+   "e": "Elektromagnit induksiya."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Transformatsiya koeffitsiyenti nima?",
+   "a": [
+    "Birlamchi va ikkilamchi kuchlanishlar nisbati",
+    "Quvvatning tok kuchiga bo'lgan nisbati qiymati",
+    "Chastotaning kuchlanishga nisbati",
+    "O'ramlar soni yig'indisi"
+   ],
+   "e": "k = U1/U2 = w1/w2."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Transformator o'zagi nima uchun yupqa po'lat listlardan yig'iladi?",
+   "a": [
+    "Uyurma toklarni kamaytirish",
+    "Og'irlikni oshirish va mustahkamlash",
+    "Chiroyli ko'rinish uchun",
+    "Sovutishni yomonlashtirish uchun"
+   ],
+   "e": "Elektrotexnik po'lat."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Moyli transformatorda moy vazifasi nima?",
+   "a": [
+    "Izolyatsiya va sovutish",
+    "Faqat podshipniklarni yog'lash vazifasi",
+    "O'zakni magnitlash",
+    "Kuchlanishni oshirish"
+   ],
+   "e": "Transformator moyi."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Gaz relesi (Buxgolts relesi) qanday himoya qiladi?",
+   "a": [
+    "Transformator ichki shikastlanishidan",
+    "Tashqi chaqmoq zarbasi va o'ta kuchlanishdan",
+    "O'g'irlikdan",
+    "Hisoblagich buzilishidan"
+   ],
+   "e": "Gaz ajralishi."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Transformatorda PBV qurilmasi nima?",
+   "a": [
+    "Kuchlanishni o'chirilgan holda rostlash",
+    "Yuklama ostida avtomatik rostlash",
+    "Moyni filtrlash qurilmasi",
+    "Sovutish ventilyatori"
+   ],
+   "e": "Pereklyuchenie bez vozbuzhdeniya."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "RPN qurilmasi nima?",
+   "a": [
+    "Yuklama ostida kuchlanish rostlagichi",
+    "O'chirilgan holda qo'lda rostlash moslamasi",
+    "Gaz relesi",
+    "Moy kengaytirgich"
+   ],
+   "e": "Regulirovanie pod nagruzkoy."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Transformator salt ishlash tajribasida nima aniqlanadi?",
+   "a": [
+    "Po'latdagi isroflar",
+    "Misdagi isroflar",
+    "Izolyatsiya rangi",
+    "Moy hajmi"
+   ],
+   "e": "Salt yurish."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Qisqa tutashuv tajribasida nima aniqlanadi?",
+   "a": [
+    "Chulg'amlardagi (misdagi) isroflar",
+    "Po'latdagi isroflar",
+    "Moy harorati",
+    "Shovqin darajasi"
+   ],
+   "e": "Uk%."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Transformator moy kengaytirgichi vazifasi nima?",
+   "a": [
+    "Moy hajmi o'zgarishini kompensatsiya qilish",
+    "Moyni qizdirib, namlikni bug'latib yuborish",
+    "Kuchlanishni oshirish",
+    "Tokni o'lchash"
+   ],
+   "e": "Konservator."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Silikagelli havo quritgich nima uchun kerak?",
+   "a": [
+    "Moyga namlik tushishini oldini olish",
+    "Transformator shovqinini kamaytirish",
+    "Moyni sovutish",
+    "Yerga ulash"
+   ],
+   "e": "Rang o'zgarsa almashtiriladi."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "KTP nima?",
+   "a": [
+    "Komplekt transformator podstansiyasi",
+    "Kabel liniyalarini tarqatish punkti",
+    "Kondensator to'plami",
+    "Kuchlanish o'lchagich"
+   ],
+   "e": "Zavodda yig'iladi."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Tarqatish qurilmasi (RU) vazifasi nima?",
+   "a": [
+    "Elektr energiyasini qabul qilish va taqsimlash",
+    "Faqat energiyani uzoq muddat saqlash",
+    "Kuchlanishni o'lchash",
+    "Faqat yoritish"
+   ],
+   "e": "ORU, ZRU, KRU."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Tok transformatori ikkilamchi zanjiri ishlab turganda uzilsa nima bo'ladi?",
+   "a": [
+    "Xavfli yuqori kuchlanish paydo bo'ladi",
+    "Hech narsa bo'lmaydi",
+    "Tok kuchi nolga tushadi va xavf yo'qoladi",
+    "Transformator o'zi o'chadi"
+   ],
+   "e": "Ikkilamchi zanjir qisqa tutashtiriladi."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Kuchlanish transformatori ikkilamchi zanjirini qisqa tutashtirish mumkinmi?",
+   "a": [
+    "Yo'q, u shikastlanadi",
+    "Ha, bu uning normal rejimi",
+    "Ha, faqat yozda",
+    "Ahamiyati yo'q"
+   ],
+   "e": "Saqlagich bilan himoyalanadi."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Transformatorlarni parallel ishlatish shartlaridan biri qaysi?",
+   "a": [
+    "Ulanish guruhlari bir xil bo'lishi",
+    "Ranglari bir xil bo'lishi",
+    "Ranglari va ishlab chiqarilgan zavodi bir xil",
+    "Og'irliklari teng bo'lishi"
+   ],
+   "e": "Shuningdek k va Uk teng."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Avtotransformatorning oddiy transformatordan farqi nima?",
+   "a": [
+    "Chulg'amlar elektr bog'langan",
+    "Faqat o'zgarmas tokda ishlaydi",
+    "O'zagi bo'lmaydi",
+    "Chulg'ami bo'lmaydi"
+   ],
+   "e": "Umumiy chulg'am qismi."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Payvandlash transformatori qanday xususiyatga ega bo'lishi kerak?",
+   "a": [
+    "Keskin pasayuvchi tashqi xarakteristika",
+    "Juda yuqori va barqaror chiqish kuchlanishi",
+    "O'zgarmas tok chiqishi",
+    "Qisqa tutashuvdan qo'rqishi"
+   ],
+   "e": "Yoyni barqaror ushlash."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Transformatorning FIK odatda qancha bo'ladi?",
+   "a": [
+    "95–99%",
+    "30–40%",
+    "50–60%",
+    "10–20%"
+   ],
+   "e": "Yuqori FIK."
+  },
+  {
+   "b": "Transformatorlar va podstansiyalar",
+   "q": "Transformator izolyatsiyasining eskirishiga asosiy sabab nima?",
+   "a": [
+    "Haddan tashqari qizish",
+    "Past shovqin darajasi",
+    "Kam yuklama",
+    "Toza moy"
+   ],
+   "e": "Harorat rejimi."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Avtomatik o'chirgich qanday himoyani ta'minlaydi?",
+   "a": [
+    "Ortiqcha yuklama va qisqa tutashuvdan",
+    "Faqat chaqmoqdan himoya",
+    "Faqat chaqmoq va atmosfera o'ta kuchlanishidan",
+    "Faqat yerga tok sizishidan"
+   ],
+   "e": "Issiqlik va elektromagnit ajratkich."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Avtomatik o'chirgichda issiqlik ajratkichi nimaga reaksiya qiladi?",
+   "a": [
+    "Ortiqcha yuklamaga",
+    "Qisqa tutashuvga darhol",
+    "Kuchlanish pasayishiga",
+    "Chastota o'zgarishiga"
+   ],
+   "e": "Bimetall plastina."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Elektromagnit ajratkich nimaga reaksiya qiladi?",
+   "a": [
+    "Qisqa tutashuv tokiga",
+    "Kichik ortiqcha yuklamaga, sekin",
+    "Harorat pasayishiga",
+    "Namlikka"
+   ],
+   "e": "Tez ajratish."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "B, C, D xarakteristikali avtomatlar nimasi bilan farqlanadi?",
+   "a": [
+    "Elektromagnit ajratish toki karraligi",
+    "Korpus rangi, o'lchami va o'rnatish usuli",
+    "Kuchlanish sinfi",
+    "Ulash simlari soni"
+   ],
+   "e": "B: 3–5 In, C: 5–10 In, D: 10–20 In."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Elektr dvigatellar uchun qaysi xarakteristikali avtomat tavsiya etiladi?",
+   "a": [
+    "C yoki D",
+    "Faqat B",
+    "Faqat A",
+    "Xarakteristika ahamiyatsiz"
+   ],
+   "e": "Ishga tushirish toki katta."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "UZO (himoya o'chirish qurilmasi) nimaga reaksiya qiladi?",
+   "a": [
+    "Tok sizishi (differensial tok)ga",
+    "Faqat uzoq davom etgan ortiqcha yuklamaga",
+    "Kuchlanish oshishiga",
+    "Chastota pasayishiga"
+   ],
+   "e": "RCD."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Odamni himoyalash uchun UZO ning ajratish toki odatda qancha bo'ladi?",
+   "a": [
+    "30 mA",
+    "300 mA",
+    "1 A",
+    "10 A"
+   ],
+   "e": "Yong'indan himoya — 100–300 mA."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Difavtomat nima?",
+   "a": [
+    "Avtomat va UZO bitta korpusda",
+    "Ikki qutbli rubilnik va saqlagich to'plami",
+    "Saqlagich turi",
+    "Hisoblagich turi"
+   ],
+   "e": "Kombinatsiyalangan."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Magnit puskatel vazifasi nima?",
+   "a": [
+    "Dvigatelni masofadan ulash-uzish",
+    "Kuchlanishni o'lchash",
+    "Reaktiv quvvatni kompensatsiyalash",
+    "Yoritishni rostlash"
+   ],
+   "e": "Kontaktor + issiqlik relesi."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Issiqlik relesi dvigatelni nimadan himoya qiladi?",
+   "a": [
+    "Uzoq ortiqcha yuklamadan",
+    "Qisqa tutashuvdan darhol",
+    "Chaqmoqdan",
+    "Yerga tok sizishidan"
+   ],
+   "e": "Bimetall."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Rubilnik vazifasi nima?",
+   "a": [
+    "Zanjirni qo'lda ulash-uzish",
+    "Avtomatik ravishda himoya qilib uzish",
+    "Kuchlanishni o'zgartirish",
+    "Tokni o'lchash"
+   ],
+   "e": "Yuklamasiz uzish tavsiya etiladi."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Saqlagich (predoxranitel) qanday ishlaydi?",
+   "a": [
+    "Eruvchan qo'yilma erib zanjirni uzadi",
+    "Bimetall egilib, keyin o'zi qayta ulaydi",
+    "Magnit maydon hosil qiladi",
+    "Kondensator zaryadlanadi"
+   ],
+   "e": "Plavkaya vstavka."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Saqlagich qo'yilmasini \"jagak\" (sim bo'lagi) bilan almashtirish nima uchun taqiqlanadi?",
+   "a": [
+    "Himoya yo'qolib, yong'in xavfi tug'iladi",
+    "Sim bo'lagi qo'yilmadan qimmatroq bo'lgani uchun",
+    "Kuchlanish pasayib ketadi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Kalibrlangan qo'yilma."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Moyli va vakuumli o'chirgichlar qayerda ishlatiladi?",
+   "a": [
+    "Yuqori kuchlanishli tarmoqlarda",
+    "Faqat maishiy rozetka va uzaytirgichlarda",
+    "Faqat avtomobilda",
+    "Faqat batareyalarda"
+   ],
+   "e": "Yoyni so'ndirish."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Vakuumli o'chirgichning afzalligi nima?",
+   "a": [
+    "Uzoq xizmat, kam texnik xizmat",
+    "Ko'p miqdorda moy talab qiladi va yong'in xavfli",
+    "Yong'in xavfi yuqori",
+    "Juda og'ir va katta"
+   ],
+   "e": "Yoy vakuumda so'nadi."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Razyedinitel (ajratkich) vazifasi nima?",
+   "a": [
+    "Ko'rinadigan uzilish hosil qilish",
+    "Yuklama tokini avtomatik ravishda uzish",
+    "Qisqa tutashuv tokini uzish",
+    "Kuchlanishni oshirish"
+   ],
+   "e": "Faqat toksiz uziladi."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Razyedinitelni yuklama ostida uzish nima uchun taqiqlanadi?",
+   "a": [
+    "Kuchli elektr yoyi paydo bo'ladi",
+    "Uning kontaktlari tezda zanglab qoladi",
+    "Hisoblagich to'xtaydi",
+    "Hech qanday xavfi yo'q"
+   ],
+   "e": "Yoy so'ndirish moslamasi yo'q."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Ventil razryadnik (OPN) vazifasi nima?",
+   "a": [
+    "O'ta kuchlanishdan himoya",
+    "Ortiqcha yuklamadan himoya",
+    "Tokni o'lchash",
+    "Energiya hisobi"
+   ],
+   "e": "Chaqmoq to'lqinlari."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Rele himoyasiga qo'yiladigan asosiy talablar qaysilar?",
+   "a": [
+    "Tanlovchanlik, tezkorlik, sezgirlik, ishonchlilik",
+    "Arzonlik, chiroyli ko'rinish va katta o'lcham",
+    "Faqat katta o'lcham",
+    "Faqat shovqinsizlik"
+   ],
+   "e": "To'rt talab."
+  },
+  {
+   "b": "Kommutatsiya va himoya apparatlari",
+   "q": "Maksimal tok himoyasi qachon ishlaydi?",
+   "a": [
+    "Tok belgilangan qiymatdan oshganda",
+    "Kuchlanish nominal qiymatdan oshib ketganda",
+    "Harorat pasayganda",
+    "Chastota oshganda"
+   ],
+   "e": "MTZ."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Sanoatda eng ko'p tarqalgan elektr dvigatel turi qaysi?",
+   "a": [
+    "Qisqa tutashgan rotorli asinxron dvigatel",
+    "Ketma-ket qo'zg'atishli o'zgarmas tok dvigateli",
+    "Qadamli dvigatel",
+    "Universal kollektorli dvigatel"
+   ],
+   "e": "Oddiy va ishonchli."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Asinxron dvigatelda sirpanish (s) nima?",
+   "a": [
+    "Maydon va rotor tezliklari nisbiy farqi",
+    "Rotorning statordan bo'ylama siljib chiqish masofasi",
+    "Podshipnikning yeyilishi",
+    "Kuchlanish pasayishi"
+   ],
+   "e": "s = (n1 − n2)/n1."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "50 Gs chastotada ikki qutbli (p=1) dvigatel maydonining aylanish chastotasi qancha?",
+   "a": [
+    "3000 ayl/min",
+    "1500 ayl/min",
+    "1000 ayl/min",
+    "750 ayl/min"
+   ],
+   "e": "n1 = 60f/p."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Qutblar juftligi p=2 bo'lsa, sinxron tezlik qancha?",
+   "a": [
+    "1500 ayl/min",
+    "3000 ayl/min",
+    "1000 ayl/min",
+    "500 ayl/min"
+   ],
+   "e": "60·50/2."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Asinxron dvigatel aylanish yo'nalishini qanday o'zgartirish mumkin?",
+   "a": [
+    "Ikki faza o'rnini almashtirib",
+    "Kuchlanishni ikki baravar oshirib",
+    "Bitta fazani uzib qo'yib",
+    "Chastotani kamaytirib"
+   ],
+   "e": "Revers."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Asinxron dvigatelni ishga tushirishda tok qanday bo'ladi?",
+   "a": [
+    "Nominaldan 5–7 marta katta",
+    "Nominal tokka teng",
+    "Nominaldan ikki marta kichik",
+    "Nolga teng"
+   ],
+   "e": "Ishga tushirish toki."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Yulduz-uchburchak usulida ishga tushirishdan maqsad nima?",
+   "a": [
+    "Ishga tushirish tokini kamaytirish",
+    "Dvigatel tezligini ikki baravar oshirish",
+    "Aylanish yo'nalishini o'zgartirish",
+    "Quvvatni oshirish"
+   ],
+   "e": "Tok 3 marta kamayadi."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Dvigatel 220/380 V deb belgilangan bo'lsa, 380 V tarmoqqa qanday ulanadi?",
+   "a": [
+    "Yulduz sxemasida",
+    "Uchburchak sxemasida",
+    "Bir fazali ulanadi",
+    "Ulanmaydi"
+   ],
+   "e": "Kichik kuchlanish — uchburchak."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Chastota o'zgartirgich (invertor) dvigatelda nima beradi?",
+   "a": [
+    "Tezlikni ravon rostlash",
+    "Faqat ulash va o'chirish",
+    "Faqat aylanishni to'xtatish",
+    "Kuchlanish sinfini o'zgartirish"
+   ],
+   "e": "ChRP."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Yumshoq ishga tushirgich (soft starter) vazifasi nima?",
+   "a": [
+    "Ishga tushirishda zarbani kamaytirish",
+    "Dvigatel tezligini doimiy rostlab turish",
+    "Dvigatelni qisqa tutashuvdan saqlash",
+    "Energiyani hisobga olish"
+   ],
+   "e": "Kuchlanishni asta oshiradi."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Fazasi uzilgan holda asinxron dvigatel ishlasa nima bo'ladi?",
+   "a": [
+    "Qiziydi va ishdan chiqishi mumkin",
+    "Tezligi va quvvati oshib, energiya tejaladi",
+    "Hech narsa o'zgarmaydi",
+    "Aylanish yo'nalishi o'zgaradi"
+   ],
+   "e": "Fazaning uzilishidan himoya."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Dvigatel izolyatsiya qarshiligi nima bilan o'lchanadi?",
+   "a": [
+    "Megaommetr",
+    "Ampermetr",
+    "Ommetr (multimetr)",
+    "Chastotomer"
+   ],
+   "e": "500–1000 V."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "1000 V gacha dvigatellar izolyatsiya qarshiligi kamida qancha bo'lishi kerak?",
+   "a": [
+    "0,5 MOm",
+    "0,05 MOm",
+    "5 Om",
+    "500 Om"
+   ],
+   "e": "Me'yor."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Dvigatel podshipniklari qizishining sababi nima bo'lishi mumkin?",
+   "a": [
+    "Moylash yetishmasligi yoki yeyilish",
+    "Kuchlanishning nominal qiymatga teng bo'lishi",
+    "Toza va sovuq muhit",
+    "Dvigatelning yangi ekanligi"
+   ],
+   "e": "Texnik xizmat."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Dvigatel kuchli tebranishining sababi nima bo'lishi mumkin?",
+   "a": [
+    "Valning markazlashmaganligi",
+    "Nominal yuklamada ishlashi",
+    "Dvigatelning bo'yalganligi",
+    "Kuchlanishning barqarorligi"
+   ],
+   "e": "Centrovka."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "O'zgarmas tok dvigatelida kollektor va cho'tkalar vazifasi nima?",
+   "a": [
+    "Yakor tokini kommutatsiyalash",
+    "Magnit maydonni so'ndirish",
+    "Sovutish",
+    "Tebranishni kamaytirish"
+   ],
+   "e": "Kollektor."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "O'zgarmas tok dvigatelida cho'tkalar uchqunlanishining sababi nima?",
+   "a": [
+    "Cho'tka yeyilishi yoki kollektor ifloslanishi",
+    "Moyning toza bo'lishi",
+    "Dvigatel yangi va kuchlanish nominalda bo'lishi",
+    "Xona haroratining pastligi"
+   ],
+   "e": "Ta'mir talab qilinadi."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Sinxron dvigatelning xususiyati nima?",
+   "a": [
+    "Tezligi yuklamaga bog'liq emas",
+    "Sirpanish bilan ishlaydi",
+    "Faqat o'zgarmas tokda ishlaydi",
+    "Tezligi kamayib boradi"
+   ],
+   "e": "n = n1."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Bir fazali asinxron dvigatelni ishga tushirish uchun nima ishlatiladi?",
+   "a": [
+    "Ishga tushirish kondensatori",
+    "Qo'shimcha transformator",
+    "Saqlagich",
+    "Rubilnik faqat"
+   ],
+   "e": "Faza siljishi."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Dvigatel pasportida IP54 nima bildiradi?",
+   "a": [
+    "Chang va suv sachrashidan himoya darajasi",
+    "Dvigatel quvvati",
+    "Dvigatelning nominal quvvati va aylanish chastotasi",
+    "FIK qiymati"
+   ],
+   "e": "Ingress Protection."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Dvigatel nominal quvvati pasportda qanday quvvat sifatida ko'rsatiladi?",
+   "a": [
+    "Valdagi mexanik quvvat",
+    "Tarmoqdan olinadigan to'la quvvat",
+    "Reaktiv quvvat",
+    "Ishga tushirish quvvati"
+   ],
+   "e": "P2."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Dvigatellarni boshqarish sxemasida \"Stop\" tugmasi qanday kontaktli bo'ladi?",
+   "a": [
+    "Normal yopiq",
+    "Normal ochiq",
+    "Kontaktsiz",
+    "O'zgaruvchan"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "\"Pusk\" tugmasi yonidagi blok-kontakt vazifasi nima?",
+   "a": [
+    "O'z-o'zini ushlab qolish",
+    "Dvigatelni reverslash",
+    "Tezlikni rostlash",
+    "Tokni o'lchash"
+   ],
+   "e": "Samopodxvat."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Reversiv magnit puskatelda blokirovka nima uchun kerak?",
+   "a": [
+    "Ikki kontaktorning bir vaqtda ulanishini oldini olish",
+    "Dvigatel tezligini oshirish va energiyani tejash",
+    "Hisoblagichni boshqarish",
+    "Ishga tushirish tokini oshirish"
+   ],
+   "e": "Qisqa tutashuvdan saqlash."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Vaqt relesi boshqarish sxemalarida nima uchun ishlatiladi?",
+   "a": [
+    "Ma'lum kechikish bilan ulash",
+    "Tokni o'lchash",
+    "Kuchlanishni oshirish",
+    "Yerga ulash"
+   ],
+   "e": "Yulduz-uchburchak sxemasi."
+  },
+  {
+   "b": "Elektr dvigatellar va ularni boshqarish",
+   "q": "Kranlar va ko'targichlarda qanday dvigatellar ko'p ishlatiladi?",
+   "a": [
+    "Faza rotorli asinxron dvigatellar",
+    "Kichik qadamli dvigatellar",
+    "Kollektorli universal dvigatellar",
+    "Pyezodvigatellar"
+   ],
+   "e": "Ishga tushirish reostati."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "VVG kabel markasidagi \"VV\" nimani bildiradi?",
+   "a": [
+    "PVX izolyatsiya va PVX qobiq",
+    "Mis o'tkazgich va bron",
+    "Rezina izolyatsiya va qog'oz",
+    "Alyuminiy va po'lat"
+   ],
+   "e": "G — bronsiz."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Kabel markasi \"A\" harfi bilan boshlansa nimani bildiradi?",
+   "a": [
+    "Alyuminiy o'tkazgich",
+    "Armaturalangan bron",
+    "Avtomatik izolyatsiya",
+    "Antistatik qobiq"
+   ],
+   "e": "AVVG."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Mis o'tkazgichning alyuminiydan afzalligi nima?",
+   "a": [
+    "Kichik qarshilik va mustahkamlik",
+    "Arzonroq, yengilroq va oksidlanmaydi",
+    "Oksidlanishga moyilligi yuqori",
+    "Kattaroq kesim talab qiladi"
+   ],
+   "e": "Mis."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Mis va alyuminiy simlarni to'g'ridan-to'g'ri burab ulash nima uchun taqiqlanadi?",
+   "a": [
+    "Elektrokimyoviy korroziya va qizish",
+    "Ular chiroyli ko'rinmaydi va qimmatlashadi",
+    "Tok kuchi oshib ketadi",
+    "Hech qanday taqiq yo'q"
+   ],
+   "e": "Klemma orqali."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Simlarni ulashning ishonchli usullari qaysilar?",
+   "a": [
+    "Kavsharlash, presslash, klemmalar",
+    "Faqat izolenta bilan o'rab, burab qo'yish",
+    "Faqat yelimlab qo'yish",
+    "Faqat bir-biriga tegizib qo'yish"
+   ],
+   "e": "PUE talabi."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Kabel kesimini tanlashda nima hisobga olinadi?",
+   "a": [
+    "Ruxsat etilgan tok va kuchlanish yo'qolishi",
+    "Faqat o'rnatish joyi",
+    "Faqat sim izolyatsiyasining rangi",
+    "Faqat kabel rangi, narxi va ishlab chiqaruvchisi"
+   ],
+   "e": "Qizish va ΔU."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "1,5 mm² mis sim odatda qaysi zanjir uchun ishlatiladi?",
+   "a": [
+    "Yoritish",
+    "Elektr plita",
+    "Kuch transformatori",
+    "Payvand apparati"
+   ],
+   "e": "2,5 mm² — rozetkalar."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Uyda rozetka guruhlari uchun odatda qaysi mis sim kesimi ishlatiladi?",
+   "a": [
+    "2,5 mm²",
+    "0,5 mm²",
+    "0,75 mm²",
+    "25 mm²"
+   ],
+   "e": "16 A avtomat."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Uch fazali tarmoqda faza simlari qanday rangda belgilanadi (yangi standart)?",
+   "a": [
+    "Jigarrang, qora, kulrang",
+    "Ko'k, sariq-yashil va oq",
+    "Qizil, qizil, qizil",
+    "Faqat oq"
+   ],
+   "e": "IEC 60446."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Nol ishchi o'tkazgich (N) qanday rangda bo'ladi?",
+   "a": [
+    "Ko'k",
+    "Qora",
+    "Jigarrang",
+    "Qizil"
+   ],
+   "e": "Standart."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Himoya o'tkazgichi (PE) qanday rangda bo'ladi?",
+   "a": [
+    "Sariq-yashil",
+    "Ko'k",
+    "Qizil",
+    "Qora"
+   ],
+   "e": "Yerga ulash."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Yashirin elektr simlarini o'tkazishda qanday qoida bor?",
+   "a": [
+    "Vertikal va gorizontal yo'nalishda",
+    "Qiya, eng qisqa va tasodifiy yo'nalishda",
+    "Faqat diagonal bo'ylab",
+    "Hech qanday qoida yo'q"
+   ],
+   "e": "Keyinchalik topish oson."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Gofrirlangan quvur nima uchun ishlatiladi?",
+   "a": [
+    "Simlarni mexanik shikastdan himoya",
+    "Kuchlanishni kamaytirish uchun",
+    "Tok kuchini va signal sifatini oshirish uchun",
+    "Simlarni sovutish uchun"
+   ],
+   "e": "Gofra."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Kabelni yerga yotqizish chuqurligi (0,4 kV gacha) odatda qancha?",
+   "a": [
+    "0,7 m",
+    "0,1 m",
+    "3 m",
+    "5 m"
+   ],
+   "e": "Ko'cha kesishmasida 1 m."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Kabel muftalarining vazifasi nima?",
+   "a": [
+    "Kabellarni ulash va germetiklash",
+    "Kabel rangini o'zgartirish va bezash",
+    "Kuchlanishni oshirish",
+    "Tokni o'lchash"
+   ],
+   "e": "Ulovchi, oxirgi muftalar."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Elektr shkafida simlarni markirovkalash nima uchun kerak?",
+   "a": [
+    "Sxemani o'qish va ta'mirni osonlashtirish",
+    "Simlarni chiroyli va bir xil ko'rsatish uchun",
+    "Kuchlanishni kamaytirish",
+    "Tok kuchini oshirish"
+   ],
+   "e": "Montaj sifati."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Kabel izolyatsiyasining yonmaydigan turi qanday belgilanadi?",
+   "a": [
+    "ng (nG)",
+    "A",
+    "G",
+    "B"
+   ],
+   "e": "Masalan, VVGng."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Elektr montaj ishlarida qaysi asbob simdan izolyatsiyani olish uchun ishlatiladi?",
+   "a": [
+    "Stripper",
+    "Megaommetr",
+    "Shtangensirkul",
+    "Perforator"
+   ],
+   "e": "Izolyatsiya olgich."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Klemma bloklari (WAGO kabi) afzalligi nima?",
+   "a": [
+    "Tez va ishonchli ulash",
+    "Ulanish uchun kavshar talab qiladi",
+    "Faqat bir martalik ishlatiladi",
+    "Faqat alyuminiy uchun"
+   ],
+   "e": "Prujinali klemma."
+  },
+  {
+   "b": "Kabellar, o'tkazgichlar va elektr montaj",
+   "q": "Kuch kabelining bronli qobig'i nima uchun kerak?",
+   "a": [
+    "Mexanik shikastdan himoya",
+    "Kabelni yengillashtirish va egiluvchan qilish",
+    "Tok kuchini oshirish",
+    "Kuchlanishni kamaytirish"
+   ],
+   "e": "Po'lat lenta."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "Himoya yerga ulashning vazifasi nima?",
+   "a": [
+    "Korpusda xavfli kuchlanishni kamaytirish",
+    "Elektr energiyasini tejash va hisobni kamaytirish",
+    "Kuchlanishni oshirish",
+    "Hisoblagichni boshqarish"
+   ],
+   "e": "Odamni himoyalash."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "Nollash (zanulenie) qanday ishlaydi?",
+   "a": [
+    "Korpusni nolga ulab, qisqa tutashuv hosil qiladi",
+    "Korpusni izolyatsiyalab, tokni butunlay to'xtatadi",
+    "Kuchlanishni ikki baravar oshiradi",
+    "Tokni nolga tushiradi"
+   ],
+   "e": "Himoya apparati uzadi."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "TN-C-S tizimida nima sodir bo'ladi?",
+   "a": [
+    "PEN o'tkazgich PE va N ga ajratiladi",
+    "Nol o'tkazgich umuman bo'lmaydi, faqat fazalar",
+    "Neytral izolyatsiyalangan",
+    "Faqat bitta faza bo'ladi"
+   ],
+   "e": "Binoga kirishda ajratiladi."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "TN-S tizimining xususiyati nima?",
+   "a": [
+    "PE va N butun yo'l bo'ylab alohida",
+    "PE va N butun yo'l bo'ylab doim birlashgan",
+    "Neytral yerga ulanmagan",
+    "Yerga ulash yo'q"
+   ],
+   "e": "Eng xavfsiz."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "IT tizimining xususiyati nima?",
+   "a": [
+    "Neytral yerdan izolyatsiyalangan",
+    "Neytral bevosita yerga ulangan",
+    "PE va N birlashgan",
+    "Faqat o'zgarmas tok"
+   ],
+   "e": "Konlarda."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "380/220 V tarmoqda neytral yerga ulash qarshiligi qancha bo'lishi kerak?",
+   "a": [
+    "4 Om dan oshmasligi",
+    "100 Om dan oshmasligi",
+    "1000 Om dan oshmasligi",
+    "Me'yorlanmagan"
+   ],
+   "e": "PUE."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "Yerga ulash qurilmasi nimalardan iborat?",
+   "a": [
+    "Yerga ulagichlar va ulovchi o'tkazgichlar",
+    "Faqat elektr hisoblagich",
+    "Faqat avtomatik o'chirgich",
+    "Faqat izolyator, saqlagich va hisoblagich"
+   ],
+   "e": "Elektrodlar."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "Yerga ulash qarshiligi qaysi asbob bilan o'lchanadi?",
+   "a": [
+    "Yerga ulash qarshiligi o'lchagichi",
+    "Voltmetr",
+    "Vattmetr",
+    "Fazometr"
+   ],
+   "e": "M416 va boshqalar."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "Yerga ulash qarshiligini o'lchash qachon tavsiya etiladi?",
+   "a": [
+    "Tuproq eng quruq yoki muzlagan paytda",
+    "Kuchli yomg'irdan so'ng, tuproq nam paytda",
+    "Faqat tunda",
+    "Ahamiyati yo'q"
+   ],
+   "e": "Eng yomon sharoit."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "Potensiallarni tenglashtirish tizimi vazifasi nima?",
+   "a": [
+    "Metall qismlar orasidagi kuchlanishni yo'qotish",
+    "Energiya iste'molini kamaytirish va tejash",
+    "Kuchlanishni oshirish",
+    "Chastotani rostlash"
+   ],
+   "e": "SUP."
+  },
+  {
+   "b": "Yerga ulash va nollash",
+   "q": "Yashin qaytargich (molniyeotvod) vazifasi nima?",
+   "a": [
+    "Chaqmoq tokini xavfsiz yerga o'tkazish",
+    "Elektr energiyasini to'plab, tarmoqqa berish",
+    "Kuchlanishni barqarorlash",
+    "Binoni yoritish"
+   ],
+   "e": "Yashindan himoya."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Elektr xavfsizligi bo'yicha nechta guruh mavjud?",
+   "a": [
+    "5 ta (I–V)",
+    "3 ta (I–III)",
+    "7 ta (I–VII)",
+    "2 ta (I–II)"
+   ],
+   "e": "Malaka guruhlari."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "1000 V dan yuqori qurilmalarda naryad bo'yicha ish rahbari kamida qaysi guruhga ega bo'lishi kerak?",
+   "a": [
+    "IV guruh",
+    "I guruh",
+    "II guruh",
+    "Guruh talab qilinmaydi"
+   ],
+   "e": "Ishga ruxsat."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "I guruh elektr xavfsizligi kimlarga beriladi?",
+   "a": [
+    "Elektrotexnik bo'lmagan xodimlarga",
+    "Bosh energetikka",
+    "Faqat bosh energetik va brigada boshliqlariga",
+    "Faqat elektromontyorga"
+   ],
+   "e": "Yo'riqnomadan so'ng."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Kuchlanish ostidagi ishlar qanday hujjat asosida bajariladi?",
+   "a": [
+    "Naryad-ruxsatnoma",
+    "Og'zaki ko'rsatma, hujjatsiz",
+    "Faqat ish jadvali",
+    "Hech qanday hujjatsiz"
+   ],
+   "e": "Naryad-dopusk."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Kuchlanishni uzib bajariladigan ishlarda texnik tadbirlar ketma-ketligida birinchisi qaysi?",
+   "a": [
+    "Kerakli uzishlarni bajarish",
+    "Yerga ulagichni o'rnatib, so'ng kuchlanishni tekshirish",
+    "Plakatlarni osish",
+    "Ishni boshlash"
+   ],
+   "e": "Keyin qayta ulanishga to'siq."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Kuchlanish yo'qligi nima bilan tekshiriladi?",
+   "a": [
+    "Kuchlanish ko'rsatkichi bilan",
+    "Qo'l orqasi bilan tegib ko'rish orqali",
+    "Ko'z bilan qarab",
+    "Hid bilan"
+   ],
+   "e": "Ukazatel napryajeniya."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Kuchlanish ko'rsatkichi ishlatishdan oldin nima qilinadi?",
+   "a": [
+    "Kuchlanish borligi ma'lum joyda sinab ko'riladi",
+    "Suvga botirib, so'ng quritib tekshiriladi",
+    "Tekshirilmaydi",
+    "Faqat tashqi ko'rinishi ko'riladi"
+   ],
+   "e": "Sozligini tekshirish."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Ko'chma yerga ulagich qachon o'rnatiladi?",
+   "a": [
+    "Kuchlanish yo'qligi tekshirilgandan keyin",
+    "Kuchlanish yo'qligi tekshirilishidan oldin",
+    "Ish tugagandan keyin",
+    "O'rnatilmaydi"
+   ],
+   "e": "Ketma-ketlik."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Ko'chma yerga ulagichni o'rnatishda birinchi bo'lib nima ulanadi?",
+   "a": [
+    "Yerga ulash qurilmasiga",
+    "Tok o'tkazuvchi qismlarga",
+    "Har qanday tartibda",
+    "Hech narsa ulanmaydi"
+   ],
+   "e": "Keyin fazalarga."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "\"Yoqmang! Odamlar ishlamoqda\" plakati qayerga osiladi?",
+   "a": [
+    "Uzilgan apparat yuritmalariga",
+    "Ish joyidagi kuchlanish ostidagi ochiq qismlarga",
+    "Eshik tashqarisiga",
+    "Hamma joyga"
+   ],
+   "e": "Taqiqlovchi plakat."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Asosiy himoya vositalariga (1000 V gacha) qaysilar kiradi?",
+   "a": [
+    "Dielektrik qo'lqop, izolyatsiyalangan asbob",
+    "Dielektrik gilamcha, to'shama va izolyatsiya taglik",
+    "Oddiy ip qo'lqop",
+    "Charm etik"
+   ],
+   "e": "Bevosita tegish mumkin."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Dielektrik qo'lqoplar qanday muddatda sinovdan o'tkaziladi?",
+   "a": [
+    "6 oyda bir marta",
+    "5 yilda bir marta",
+    "Har kuni",
+    "Sinalmaydi"
+   ],
+   "e": "Davriy sinov."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Dielektrik qo'lqoplar ishlatishdan oldin qanday tekshiriladi?",
+   "a": [
+    "Teshik va yoriqlarga, havo bilan",
+    "Suvga botirib, so'ng quyoshda quritiladi",
+    "Kuydirib",
+    "Tekshirilmaydi"
+   ],
+   "e": "Burab havo to'ldirish."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Elektr tokidan jabrlanganga birinchi yordamda birinchi navbatda nima qilinadi?",
+   "a": [
+    "Tok ta'siridan xalos etiladi",
+    "Darhol suv ichiriladi",
+    "Jabrlanganning yonida kutiladi",
+    "Qo'l bilan tortib olinadi"
+   ],
+   "e": "Xavfsiz usulda."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Jabrlanganni tokdan xalos etishda nima ishlatiladi?",
+   "a": [
+    "Quruq yog'och tayoq yoki dielektrik vositalar",
+    "Yalang'och qo'l",
+    "Ho'l latta yoki metall tayoq yordamida",
+    "Nam arqon"
+   ],
+   "e": "Izolyatsiya."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Qadam kuchlanishi zonasidan qanday chiqish kerak?",
+   "a": [
+    "Kichik qadamlar bilan, oyoqlarni ajratmay",
+    "Katta qadamlar bilan, tezroq yugurib",
+    "Sakrab, ikki oyoqni ajratib",
+    "Emaklab"
+   ],
+   "e": "8 m zona."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Uzilgan sim yerga tushgan bo'lsa unga qanchadan yaqin kelish mumkin emas?",
+   "a": [
+    "8 m (ochiq joyda)",
+    "0,5 m",
+    "50 m",
+    "Masofa ahamiyatsiz"
+   ],
+   "e": "Qadam kuchlanishi."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Inson tanasining hisobiy qarshiligi qancha deb olinadi?",
+   "a": [
+    "1000 Om",
+    "10 Om",
+    "1 MOm",
+    "100 kOm"
+   ],
+   "e": "Hisoblarda."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Elektr tokining qaysi qiymati yurak fibrillyatsiyasiga olib kelishi mumkin?",
+   "a": [
+    "50–100 mA",
+    "1 mA",
+    "0,1 mA",
+    "5 mA"
+   ],
+   "e": "Xavfli tok."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Sezilarli tok (o'zgaruvchan) taxminan qancha?",
+   "a": [
+    "0,6–1,5 mA",
+    "50 mA",
+    "1 A",
+    "10 A"
+   ],
+   "e": "Sezish chegarasi."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Elektr qurilmalarida yong'inni o'chirishda nima ishlatib bo'lmaydi?",
+   "a": [
+    "Suv va ko'pikli o't o'chirgich",
+    "Karbonat angidridli o't o'chirgich",
+    "Kukunli o't o'chirgich",
+    "Quruq qum"
+   ],
+   "e": "Tok o'tkazadi."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Elektr qurilmalarini o'chirishga mos o't o'chirgich qaysi?",
+   "a": [
+    "OU (karbonat angidridli)",
+    "OXP (kimyoviy ko'pikli) o't o'chirgich",
+    "Suv chelagi",
+    "Suvli o't o'chirgich"
+   ],
+   "e": "1000 V gacha."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Elektr xavfsizligi bo'yicha bilimlar tekshiruvi (I–IV guruh) qanday davriylikda o'tkaziladi?",
+   "a": [
+    "Yilda bir marta",
+    "5 yilda bir marta",
+    "Faqat ishga kirishda",
+    "Har oyda"
+   ],
+   "e": "Navbatdagi tekshiruv."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Xavfsiz kuchlanish (o'ta xavfli xonalar uchun) qancha?",
+   "a": [
+    "12 V gacha",
+    "220 V",
+    "127 V",
+    "380 V"
+   ],
+   "e": "Ko'chma chiroqlar."
+  },
+  {
+   "b": "Elektr xavfsizligi",
+   "q": "Elektr shkafida ishlaganda qaysi vosita qo'shimcha himoya hisoblanadi?",
+   "a": [
+    "Dielektrik gilamcha",
+    "Oddiy rezina shippak",
+    "Metall narvon",
+    "Ip qo'lqop"
+   ],
+   "e": "Qo'shimcha vosita."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Yoritilganlik birligi qaysi?",
+   "a": [
+    "Lyuks (lk)",
+    "Lyumen (lm)",
+    "Kandela (kd)",
+    "Vatt (Vt)"
+   ],
+   "e": "lk = lm/m²."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Yorug'lik oqimi birligi qaysi?",
+   "a": [
+    "Lyumen",
+    "Lyuks",
+    "Kandela",
+    "Nit"
+   ],
+   "e": "lm."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Chiroqning yorug'lik samaradorligi qanday o'lchanadi?",
+   "a": [
+    "lm/Vt",
+    "Vt/lm",
+    "lk·m",
+    "kd/A"
+   ],
+   "e": "Svetootdacha."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Qaysi chiroq eng yuqori samaradorlikka ega?",
+   "a": [
+    "Svetodiodli (LED)",
+    "Cho'g'lanma chiroq",
+    "Galogen chiroq",
+    "Kerosin chiroq"
+   ],
+   "e": "100+ lm/Vt."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Lyuminessent chiroqda drossel vazifasi nima?",
+   "a": [
+    "Yonish va tokni cheklash",
+    "Yorug'lik rangini o'zgartirish",
+    "Chiroqni sovutish",
+    "Yorug'likni kuchaytirish"
+   ],
+   "e": "Ballast."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Lyuminessent chiroqda starter vazifasi nima?",
+   "a": [
+    "Elektrodlarni qizdirib, yoqish impulsi berish",
+    "Tokni doimiy o'lchab, chiroqni o'chirib turish",
+    "Rangni o'zgartirish",
+    "Chiroqni o'chirish"
+   ],
+   "e": "Eski sxemalarda."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Simob tutgan chiroqlarni utilizatsiya qilishda qanday talab bor?",
+   "a": [
+    "Maxsus qabul punktlariga topshiriladi",
+    "Oddiy maishiy chiqindi qutisiga tashlanadi",
+    "Sindirib ko'miladi",
+    "Yoqib yuboriladi"
+   ],
+   "e": "Simob zaharli."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Rang harorati 6500 K bo'lgan chiroq qanday yorug'lik beradi?",
+   "a": [
+    "Sovuq oq",
+    "Iliq sariq",
+    "Qizil",
+    "Yashil"
+   ],
+   "e": "2700 K — iliq."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Avariya yoritishi vazifasi nima?",
+   "a": [
+    "Asosiy yoritish o'chganda xavfsiz evakuatsiya",
+    "Bayram bezagi",
+    "Energiyani tejash uchun asosiy yoritish o'rniga",
+    "Ko'cha reklamasi"
+   ],
+   "e": "Avariynoye osveshchenie."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Yoritish o'chirgichi qaysi simni uzishi kerak?",
+   "a": [
+    "Faza simini",
+    "Nol simni",
+    "Himoya simini",
+    "Ahamiyati yo'q"
+   ],
+   "e": "Chiroq patronida kuchlanish qolmasligi uchun."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Ikki joydan boshqariladigan yoritish uchun qanday o'chirgich ishlatiladi?",
+   "a": [
+    "O'tish (prokhodnoy) o'chirgichlari",
+    "Oddiy bir klavishli o'chirgich, ketma-ket ulangan",
+    "Rubilnik",
+    "Avtomat"
+   ],
+   "e": "Yo'lak va zinapoya."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Fotorele yoritishda nima uchun ishlatiladi?",
+   "a": [
+    "Qorong'ida avtomatik yoqish",
+    "Kuchlanishni oshirib, yorug'likni kuchaytirish",
+    "Tokni cheklash",
+    "Rangni o'zgartirish"
+   ],
+   "e": "Ko'cha yoritishi."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Harakat datchigi yoritishda nima beradi?",
+   "a": [
+    "Energiyani tejash",
+    "Yorug'lik oqimini oshirish",
+    "Chiroq xizmat muddatini qisqartirish",
+    "Kuchlanishni barqarorlash"
+   ],
+   "e": "Avtomatik yoqish."
+  },
+  {
+   "b": "Yoritish qurilmalari",
+   "q": "Xonaning yoritilganlik darajasi qaysi asbob bilan o'lchanadi?",
+   "a": [
+    "Lyuksmetr",
+    "Megaommetr",
+    "Ampermetr",
+    "Fazometr"
+   ],
+   "e": "Yu-116."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Tok qisqichlari (klesheviy ampermetr) afzalligi nima?",
+   "a": [
+    "Zanjirni uzmasdan tok o'lchash",
+    "Kuchlanishni zanjirni uzib o'lchash",
+    "Faqat o'zgarmas tok o'lchash",
+    "Faqat qarshilik o'lchash"
+   ],
+   "e": "Tok qisqichi."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Elektr energiyasi hisoblagichi qanday ulanadi?",
+   "a": [
+    "Kiritishda, loyiha sxemasiga ko'ra",
+    "Faqat iste'molchi jihozi ichiga",
+    "Rozetka orqali",
+    "Ulanmaydi"
+   ],
+   "e": "Ulanish sxemasi."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Tok transformatori orqali ulangan hisoblagich ko'rsatkichi qanday hisoblanadi?",
+   "a": [
+    "Transformatsiya koeffitsiyentiga ko'paytiriladi",
+    "Ko'rsatkich o'zgarishsiz, to'g'ridan-to'g'ri olinadi",
+    "Ikkiga bo'linadi",
+    "Hisoblanmaydi"
+   ],
+   "e": "Masalan 100/5 → ×20."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Fazalar ketma-ketligi qaysi asbob bilan aniqlanadi?",
+   "a": [
+    "Fazo ko'rsatkich",
+    "Lyuksmetr",
+    "Termometr",
+    "Manometr"
+   ],
+   "e": "Fazoukazatel."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Kabel izolyatsiyasi sinovida qanday kuchlanish beriladi?",
+   "a": [
+    "Oshirilgan sinov kuchlanishi",
+    "Nominaldan kichik kuchlanish",
+    "Kuchlanishsiz",
+    "Faqat 12 V"
+   ],
+   "e": "Ispytaniye."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Absorbsiya koeffitsiyenti (R60/R15) nimani ko'rsatadi?",
+   "a": [
+    "Izolyatsiya namligini",
+    "Kabel uzunligi va o'tkazgich kesimini",
+    "Tok kuchini",
+    "Chastotani"
+   ],
+   "e": "≥1,3 — quruq."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Termovizor elektr jihozlarida nimani aniqlaydi?",
+   "a": [
+    "Qizigan kontakt va ulanishlar",
+    "Simlarning rangini",
+    "Simlarning rangi va kuchlanish sinfini",
+    "Hisoblagich raqamini"
+   ],
+   "e": "Infraqizil nazorat."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Elektr jihozlarining profilaktik sinovlari maqsadi nima?",
+   "a": [
+    "Nuqsonlarni avariyadan oldin aniqlash",
+    "Jihozlarni bo'yash va tashqi ko'rinishini yangilash",
+    "Energiya hisobini o'zgartirish",
+    "Ishchilar sonini kamaytirish"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Vattmetr nimani o'lchaydi?",
+   "a": [
+    "Aktiv quvvatni",
+    "Reaktiv quvvatni",
+    "Kuchlanishni",
+    "Chastotani"
+   ],
+   "e": "Vt."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "Mikroommetr nima uchun ishlatiladi?",
+   "a": [
+    "Kontakt o'tish qarshiligini o'lchash",
+    "Izolyatsiyani yuqori kuchlanishda sinash",
+    "Kuchlanishni o'lchash",
+    "Chastotani o'lchash"
+   ],
+   "e": "Juda kichik qarshilik."
+  },
+  {
+   "b": "Elektr o'lchashlar va sinovlar",
+   "q": "\"Faza-nol\" sirtmog'i qarshiligi nima uchun o'lchanadi?",
+   "a": [
+    "Himoya apparati o'z vaqtida ishlashini tekshirish",
+    "Simlar rangi va markirovkasini tekshirish uchun",
+    "Energiya sarfini kamaytirish",
+    "Kuchlanishni oshirish"
+   ],
+   "e": "Qisqa tutashuv toki."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Issiqlik elektr stansiyasida (IES) qanday energiya elektr energiyasiga aylantiriladi?",
+   "a": [
+    "Yoqilg'ining kimyoviy energiyasi",
+    "Suv oqimining potensial va kinetik energiyasi",
+    "Shamol kinetik energiyasi",
+    "Quyosh nurlanishi bevosita"
+   ],
+   "e": "Bug' turbinasi."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "GES da elektr energiyasi qanday energiyadan olinadi?",
+   "a": [
+    "Suv oqimi energiyasidan",
+    "Ko'mir yonishidan ajralgan issiqlik energiyasidan",
+    "Yadro bo'linishidan",
+    "Quyosh nuridan"
+   ],
+   "e": "Gidroturbina."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "O'zbekistondagi yirik IES lardan biri qaysi?",
+   "a": [
+    "Sirdaryo IES",
+    "Chorvoq IES",
+    "Farhod IES",
+    "Tuyamo'yin IES"
+   ],
+   "e": "3000 MVt dan ortiq."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Chorvoq GES qaysi daryoda joylashgan?",
+   "a": [
+    "Chirchiq",
+    "Amudaryo",
+    "Zarafshon",
+    "Qashqadaryo"
+   ],
+   "e": "Toshkent viloyati."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Issiqlik elektr markazi (IEM) ning IES dan farqi nima?",
+   "a": [
+    "Elektr bilan birga issiqlik ham beradi",
+    "Faqat suv bilan ishlaydi, issiqlik umuman bermaydi",
+    "Faqat quyosh energiyasidan",
+    "Faqat shamol energiyasidan"
+   ],
+   "e": "Kogeneratsiya."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Bug'-gaz qurilmasining (BGQ) afzalligi nima?",
+   "a": [
+    "Yuqori FIK",
+    "Past FIK va ko'p yoqilg'i sarfi",
+    "Faqat ko'mirda ishlash",
+    "Sovutishsiz ishlash"
+   ],
+   "e": "Gaz va bug' turbinasi."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Stansiyada turbogenerator nima?",
+   "a": [
+    "Turbina bilan aylantiriladigan sinxron generator",
+    "Transformator turi",
+    "O'zgarmas tok dvigateli",
+    "Turbinani moy bilan ta'minlovchi yordamchi transformator"
+   ],
+   "e": "3000 ayl/min."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Generator qo'zg'atish tizimi vazifasi nima?",
+   "a": [
+    "Rotor chulg'amini o'zgarmas tok bilan ta'minlash",
+    "Stator chulg'amini suv bilan sovutib turish",
+    "Turbinani moylash",
+    "Tarmoqni yerga ulash"
+   ],
+   "e": "Vozbuzhdeniye."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Turbogeneratorlarni sovutishda nima ishlatiladi?",
+   "a": [
+    "Vodorod yoki suv",
+    "Faqat ochiq havo",
+    "Kerosin",
+    "Qum"
+   ],
+   "e": "Katta quvvatlar."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Generatorni tarmoqqa sinxronlash shartlari qaysilar?",
+   "a": [
+    "Kuchlanish, chastota va faza mosligi",
+    "Faqat generator va turbina ranglari mosligi",
+    "Faqat tok kuchi",
+    "Faqat harorat"
+   ],
+   "e": "Sinxronizatsiya."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Elektr stansiyalarining o'z ehtiyojlari nima?",
+   "a": [
+    "Stansiya mexanizmlarini ta'minlash",
+    "Aholiga va boshqa iste'molchilarga sotiladigan energiya",
+    "Eksport energiyasi",
+    "Zaxira yoqilg'i"
+   ],
+   "e": "Sobstvennye nujdy."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Turbina jihozlarini ta'mirlashda nima birinchi navbatda tekshiriladi?",
+   "a": [
+    "Kuraklar va podshipniklar holati",
+    "Turbina korpusi rangi va ish joyidagi mebel",
+    "Yoritish chiroqlari",
+    "Eshik va derazalar"
+   ],
+   "e": "Lopatki."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Bug' turbinasining asosiy qismlari qaysilar?",
+   "a": [
+    "Rotor, kuraklar, korpus, soplolar",
+    "Faqat korpus, generator va qozon bloki",
+    "Faqat kondensator",
+    "Faqat nasos va quvurlar"
+   ],
+   "e": "Turbina tuzilishi."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Kondensator (IES da) vazifasi nima?",
+   "a": [
+    "Ishlatilgan bug'ni suvga aylantirish",
+    "Elektr zaryadini to'plash va kuchlanishni oshirish",
+    "Yoqilg'ini qizdirish",
+    "Bug'ni o'ta qizdirish"
+   ],
+   "e": "Vakuum hosil qiladi."
+  },
+  {
+   "b": "Elektr stansiyalari",
+   "q": "Turbina tebranishi oshsa nima qilinadi?",
+   "a": [
+    "Sabab aniqlanib, kerak bo'lsa to'xtatiladi",
+    "Yuklama keskin oshirilib, ishlash davom ettiriladi",
+    "E'tiborsiz qoldiriladi",
+    "Moy berish to'xtatiladi"
+   ],
+   "e": "Vibronazorat."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Sanoat korxonasining sex tarqatish punkti vazifasi nima?",
+   "a": [
+    "Energiyani sex iste'molchilariga taqsimlash",
+    "Faqat zaxira energiyani uzoq saqlash",
+    "Kuchlanishni 110 kV ga oshirish",
+    "Ishchilarni ro'yxatga olish"
+   ],
+   "e": "RP, ShR."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Shinoprovod nima?",
+   "a": [
+    "Shina ko'rinishidagi tarqatish liniyasi",
+    "Kabelning bronli, yerga ko'miladigan bir turi",
+    "Yoritish chirog'i",
+    "Hisoblagich turi"
+   ],
+   "e": "ShRA, ShMA."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Elektr pechlar qanday turlarga bo'linadi?",
+   "a": [
+    "Qarshilikli, induksion, yoyli",
+    "Faqat gazli pechlar",
+    "Faqat gazli va ko'mirli yoqilg'i pechlari",
+    "Faqat quyoshli pechlar"
+   ],
+   "e": "Elektrotermiya."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Induksion pechda metall qanday qiziydi?",
+   "a": [
+    "Uyurma toklar hisobiga",
+    "Ochiq olov hisobiga",
+    "Kimyoviy reaksiya hisobiga",
+    "Quyosh nuri hisobiga"
+   ],
+   "e": "Induksiya."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Yoyli po'lat eritish pechlarining tarmoqqa salbiy ta'siri nima?",
+   "a": [
+    "Kuchlanish tebranishi va garmonikalar",
+    "Tarmoq kuchlanishi barqarorligini oshirishi",
+    "Energiya sarfini kamaytirishi",
+    "Tarmoqni sovutishi"
+   ],
+   "e": "Flikker."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Kran elektr jihozlarida tormoz qanday ishlaydi?",
+   "a": [
+    "Kuchlanish yo'qolganda avtomatik tormozlaydi",
+    "Faqat qo'lda ishlaydi",
+    "Kuchlanish berilganda tormozlab, uzilganda bo'shatadi",
+    "Tormoz bo'lmaydi"
+   ],
+   "e": "Elektromagnit tormoz."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Kranlarda oxirgi o'chirgich (konechnik) vazifasi nima?",
+   "a": [
+    "Harakatni chekka holatda to'xtatish",
+    "Kran harakat tezligini ikki baravar oshirish",
+    "Yukni tortish",
+    "Energiyani hisoblash"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Nasos va ventilyatorlarda energiya tejashning samarali usuli qaysi?",
+   "a": [
+    "Chastota o'zgartirgich qo'llash",
+    "Drossel zaslonkasini to'liq yopish",
+    "Dvigatel quvvatini ikki marta oshirish",
+    "Kuchlanishni oshirish"
+   ],
+   "e": "Rostlanuvchi yuritma."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Portlash xavfli muhitda qanday elektr jihozlari ishlatiladi?",
+   "a": [
+    "Portlashdan himoyalangan (Ex) jihozlar",
+    "Har qanday jihozlar",
+    "Oddiy maishiy va ochiq kontaktli jihozlar",
+    "Faqat eski turdagi jihozlar"
+   ],
+   "e": "Vzryvozashchita."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Kompressor qurilmalarida elektr dvigatel qanday himoyalanadi?",
+   "a": [
+    "Ortiqcha yuklama va faza uzilishidan",
+    "Faqat korpus rangini saqlash vositalari bilan",
+    "Himoyalanmaydi",
+    "Faqat yorug'likdan"
+   ],
+   "e": "Avtomatika."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Payvandlash postiga elektr ta'minotida nima e'tiborga olinadi?",
+   "a": [
+    "Korpusni yerga ulash va kabel holati",
+    "Faqat ishchi kiyimi rangi va yoritish darajasi",
+    "Hech narsa",
+    "Faqat elektrod narxi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Elektr jihozlariga texnik xizmat ko'rsatish (TXK) ning maqsadi nima?",
+   "a": [
+    "Ishonchli va xavfsiz ishlashni ta'minlash",
+    "Jihozlarni tezroq eskirtirib, yangisini sotib olish",
+    "Xarajatlarni oshirish",
+    "Ishlab chiqarishni to'xtatish"
+   ],
+   "e": "PPR tizimi."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "PPR (rejali-profilaktik ta'mir) tizimi nima?",
+   "a": [
+    "Rejali texnik xizmat va ta'mirlar tizimi",
+    "Faqat avariyadan keyingi ta'mir va almashtirish",
+    "Ta'mirsiz ekspluatatsiya",
+    "Jihozlarni sotish tizimi"
+   ],
+   "e": "Joriy, o'rta, kapital ta'mir."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Joriy ta'mirda nima bajariladi?",
+   "a": [
+    "Tozalash, mahkamlash, mayda nuqsonlarni tuzatish",
+    "Jihozni to'liq almashtirish",
+    "Bino qurilishi",
+    "Faqat bo'yash"
+   ],
+   "e": "Tekushchiy remont."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Kapital ta'mirda nima bajariladi?",
+   "a": [
+    "To'liq qismlarga ajratib, yeyilganlarni almashtirish",
+    "Faqat tashqi tozalash, bo'yash va ko'rikdan o'tkazish",
+    "Faqat ko'rik",
+    "Faqat moylash"
+   ],
+   "e": "Kapitalnyy remont."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Elektr jihozining texnik pasporti va jurnali nima uchun yuritiladi?",
+   "a": [
+    "Holati va ta'mirlarini hisobga olish",
+    "Hech qanday maqsadsiz",
+    "Jihozni bezash va narxini oshirish uchun",
+    "Faqat ishchilar ro'yxati uchun"
+   ],
+   "e": "Hujjatlashtirish."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Elektr jihozlari nosozligi qidirilganda qaysi tartib to'g'ri?",
+   "a": [
+    "Ta'minotdan boshlab ketma-ket tekshirish",
+    "Tasodifiy qismlarni almashtirish",
+    "Darhol jihozni tashlab yuborish",
+    "Kuchlanish ostida qo'l bilan tekshirish"
+   ],
+   "e": "Mantiqiy ketma-ketlik."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Elektr dvigatellarni quritish qachon talab qilinadi?",
+   "a": [
+    "Izolyatsiya qarshiligi me'yordan past bo'lsa",
+    "Har kuni ishga tushirishdan oldin, majburiy tarzda",
+    "Dvigatel yangi bo'lsa doim",
+    "Hech qachon"
+   ],
+   "e": "Namlangan izolyatsiya."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Kontaktor kontaktlari kuyganda nima qilinadi?",
+   "a": [
+    "Tozalanadi yoki almashtiriladi",
+    "Moy bilan surtiladi",
+    "Sim bilan ulab qo'yiladi",
+    "E'tiborsiz qoldiriladi"
+   ],
+   "e": "Kontakt yuzasi."
+  },
+  {
+   "b": "Sanoat korxonalarining elektr jihozlari",
+   "q": "Elektr shkaflarida changni tozalash nima uchun kerak?",
+   "a": [
+    "Izolyatsiya buzilishi va qizishning oldini olish",
+    "Shkafni chiroyli ko'rsatish va kuchlanishni oshirish",
+    "Tokni kamaytirish",
+    "Shovqinni kamaytirish"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Elektr choynakda isitish elementi qanday nomlanadi?",
+   "a": [
+    "TEN (quvurli elektr isitgich)",
+    "Magnetron",
+    "Kompressor",
+    "Kollektor"
+   ],
+   "e": "Trubchatyy elektronagrevatel."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Mikroto'lqinli pechda mikroto'lqinlarni nima hosil qiladi?",
+   "a": [
+    "Magnetron",
+    "TEN",
+    "Kompressor",
+    "Termostat"
+   ],
+   "e": "2,45 GGs."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Muzlatgichda sovuqlik hosil qiluvchi asosiy qism qaysi?",
+   "a": [
+    "Kompressor",
+    "Magnetron",
+    "TEN",
+    "Kollektor"
+   ],
+   "e": "Sovutish sikli."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Kir yuvish mashinasida suv sathini nima nazorat qiladi?",
+   "a": [
+    "Pressostat (sath datchigi)",
+    "Magnetron",
+    "Kompressor",
+    "Lyuksmetr"
+   ],
+   "e": "Bosim datchigi."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Termostat vazifasi nima?",
+   "a": [
+    "Haroratni belgilangan darajada ushlab turish",
+    "Kuchlanishni oshirib, tok kuchini o'lchab turish",
+    "Tokni o'lchash",
+    "Yorug'likni rostlash"
+   ],
+   "e": "Termoregulyator."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Changyutkichda qanday dvigatel ko'p ishlatiladi?",
+   "a": [
+    "Kollektorli dvigatel",
+    "Sinxron dvigatel",
+    "Qadamli dvigatel",
+    "Faza rotorli dvigatel"
+   ],
+   "e": "Yuqori tezlik."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Elektr dazmolda harorat nima bilan rostlanadi?",
+   "a": [
+    "Bimetall termoregulyator",
+    "Magnetron yordamida harorat rostlanadi",
+    "Kompressor",
+    "Transformator"
+   ],
+   "e": "Bimetall plastina."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Maishiy texnikani ta'mirlashdan oldin birinchi navbatda nima qilinadi?",
+   "a": [
+    "Tarmoqdan uziladi",
+    "Suvga botiriladi",
+    "Tok ostida ochiladi",
+    "Darhol qismlarga ajratiladi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Maishiy texnika vilkasida himoya kontakti nima uchun kerak?",
+   "a": [
+    "Korpusni yerga ulash",
+    "Kuchlanishni oshirish",
+    "Tokni kamaytirish",
+    "Bezak uchun"
+   ],
+   "e": "Yevro vilka."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Elektr isitgich elementida uzilish qanday aniqlanadi?",
+   "a": [
+    "Ommetr bilan qarshilik o'lchab",
+    "Ko'z bilan rangiga qarab",
+    "Hidlab",
+    "Tilga tegizib"
+   ],
+   "e": "Cheksiz qarshilik."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Kir yuvish mashinasida baraban qanday aylantiriladi?",
+   "a": [
+    "Elektr dvigatel tasmali yoki to'g'ridan-to'g'ri yuritma bilan",
+    "Qo'l bilan aylantiriladi",
+    "Faqat qo'l bilan yoki suv bosimi bilan",
+    "Shamol bilan"
+   ],
+   "e": "Direct drive."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Maishiy konditsionerda inverter texnologiyasi nima beradi?",
+   "a": [
+    "Kompressor tezligini ravon rostlab, energiya tejash",
+    "Kompressorni faqat to'liq quvvatda, uzluksiz ishlatish",
+    "Shovqinni oshirish",
+    "Energiya sarfini oshirish"
+   ],
+   "e": "Inverter."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Maishiy texnikada energiya samaradorlik sinfi A+++ nimani bildiradi?",
+   "a": [
+    "Eng past energiya sarfini",
+    "Eng yuqori energiya sarfini",
+    "Eng og'ir jihozni",
+    "Eng arzon jihozni"
+   ],
+   "e": "Energetik yorliq."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Elektr plita uchun alohida liniya va avtomat nima uchun kerak?",
+   "a": [
+    "Katta quvvat sababli",
+    "Plita rangi uchun",
+    "Tok kamligi uchun",
+    "Talab qilinmaydi"
+   ],
+   "e": "6–7 kVt."
+  },
+  {
+   "b": "Maishiy texnika elektr jihozlari",
+   "q": "Elektr suv isitgichda (boyler) magniy anod vazifasi nima?",
+   "a": [
+    "Bakni korroziyadan himoyalash",
+    "Haroratni ko'rsatish",
+    "Suvni qizdirish va bosimni o'lchab turish",
+    "Suv sathini nazorat qilish"
+   ],
+   "e": "Protektor himoya."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Qayta tiklanuvchi energiya manbalariga qaysilar kiradi?",
+   "a": [
+    "Quyosh, shamol, suv, biomassa",
+    "Ko'mir, neft va tabiiy gaz zaxiralari",
+    "Faqat yadro yoqilg'isi",
+    "Faqat torf va slanets"
+   ],
+   "e": "Tugamaydigan manbalar."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh paneli qanday hodisa asosida ishlaydi?",
+   "a": [
+    "Fotoelektrik effekt",
+    "Elektromagnit induksiya hodisasi",
+    "Termoelektron emissiya",
+    "Pyezoelektrik effekt"
+   ],
+   "e": "Fotoelement."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh elementlari asosan qanday materialdan tayyorlanadi?",
+   "a": [
+    "Kremniy",
+    "Mis va rux qotishmasi",
+    "Alyuminiy",
+    "Qo'rg'oshin"
+   ],
+   "e": "Mono va polikristall."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Monokristall panelning polikristalldan afzalligi nima?",
+   "a": [
+    "Yuqori FIK",
+    "Arzonroq narx va pastroq samaradorlik",
+    "Ko'k rangda bo'lishi",
+    "Og'irroq bo'lishi"
+   ],
+   "e": "20%+."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh paneli qanday tok ishlab chiqaradi?",
+   "a": [
+    "O'zgarmas tok",
+    "Uch fazali o'zgaruvchan tok",
+    "Yuqori chastotali tok",
+    "Impulsli tok"
+   ],
+   "e": "DC."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh elektr stansiyasida invertor vazifasi nima?",
+   "a": [
+    "O'zgarmas tokni o'zgaruvchanga aylantirish",
+    "O'zgaruvchan tokni o'zgarmasga aylantirish",
+    "Panelni sovutish",
+    "Panelni tozalash"
+   ],
+   "e": "DC → AC."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Zaryad kontrolleri vazifasi nima?",
+   "a": [
+    "Akkumulyatorni to'g'ri zaryadlash",
+    "Panelni har doim quyosh tomon burab turish",
+    "Chastotani oshirish",
+    "Tokni o'lchash faqat"
+   ],
+   "e": "PWM, MPPT."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "MPPT kontrollerining afzalligi nima?",
+   "a": [
+    "Maksimal quvvat nuqtasini kuzatadi",
+    "Faqat oddiy uzish-ulash bilan ishlaydi",
+    "Panelni tozalaydi",
+    "Panel haroratini oshiradi"
+   ],
+   "e": "Samaradorlik oshadi."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Tarmoqqa ulangan (on-grid) quyosh tizimining xususiyati nima?",
+   "a": [
+    "Ortiqcha energiya tarmoqqa beriladi",
+    "Akkumulyatorsiz ishlay olmaydi",
+    "Tarmoqdan butunlay ajratilgan, faqat tunda ishlaydi",
+    "Faqat dizel generator bilan ishlaydi"
+   ],
+   "e": "Setevaya SES."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Avtonom (off-grid) quyosh tizimida nima majburiy?",
+   "a": [
+    "Akkumulyator batareyasi",
+    "Elektr tarmog'iga doimiy ulanish",
+    "Dizel generator",
+    "Shamol turbinasi"
+   ],
+   "e": "Energiya zaxirasi."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh paneli samaradorligiga nima salbiy ta'sir qiladi?",
+   "a": [
+    "Chang, soya va yuqori harorat",
+    "Panel yuzasining toza bo'lishi va past harorat",
+    "To'g'ri burchak",
+    "Panelning to'g'ri burchakda turishi"
+   ],
+   "e": "Texnik xizmat."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "O'zbekistonda quyosh panellarining optimal qiyalik burchagi taxminan qancha?",
+   "a": [
+    "30–40°",
+    "0°",
+    "80–90°",
+    "5°"
+   ],
+   "e": "Geografik kenglikka yaqin."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "O'zbekistonda quyosh panellari qaysi tomonga yo'naltiriladi?",
+   "a": [
+    "Janubga",
+    "Shimolga",
+    "Sharqqa faqat",
+    "G'arbga faqat"
+   ],
+   "e": "Shimoliy yarimsharda."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh panellarini tozalashda nima tavsiya etiladi?",
+   "a": [
+    "Yumshoq cho'tka va toza suv",
+    "Abraziv kukun va metall cho'tka",
+    "Kislota eritmasi",
+    "Qum bilan ishqalash"
+   ],
+   "e": "Qoplamani shikastlamaslik."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh panellariga texnik xizmatda qaysi ish bajariladi?",
+   "a": [
+    "Ulanishlar, kabellar va himoyani tekshirish",
+    "Panellarni har kuni yechib olib, qayta o'rnatish",
+    "Panelni bo'yash",
+    "Hech qanday ish"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Panellarni ketma-ket ulashda nima oshadi?",
+   "a": [
+    "Kuchlanish",
+    "Tok kuchi",
+    "Panel maydoni",
+    "Harorat"
+   ],
+   "e": "String."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Panellarni parallel ulashda nima oshadi?",
+   "a": [
+    "Tok kuchi",
+    "Kuchlanish",
+    "Qarshilik",
+    "Chastota"
+   ],
+   "e": "Parallel."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh paneli pasportida Voc nimani bildiradi?",
+   "a": [
+    "Salt yurish kuchlanishini",
+    "Qisqa tutashuv tokining maksimal qiymatini",
+    "Nominal quvvatni",
+    "Og'irlikni"
+   ],
+   "e": "Open circuit voltage."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh paneli pasportida Isc nimani bildiradi?",
+   "a": [
+    "Qisqa tutashuv tokini",
+    "Salt yurish kuchlanishini",
+    "Maksimal quvvatni",
+    "Panel FIK ni"
+   ],
+   "e": "Short circuit current."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh paneli quvvati qanday sharoitda (STC) aniqlanadi?",
+   "a": [
+    "1000 Vt/m², 25 °C",
+    "100 Vt/m², 0 °C",
+    "5000 Vt/m², 50 °C",
+    "Tunda"
+   ],
+   "e": "Standart test sharoiti."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Shamol generatorining quvvati shamol tezligiga qanday bog'liq?",
+   "a": [
+    "Tezlikning kubiga proporsional",
+    "Tezlikka bog'liq emas",
+    "Tezlikka teskari proporsional",
+    "Tezlikning ildiziga proporsional"
+   ],
+   "e": "P ~ v³."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Biogaz qurilmasida nima hosil bo'ladi?",
+   "a": [
+    "Metan gazi",
+    "Vodorod",
+    "Kislorod",
+    "Azot"
+   ],
+   "e": "Organik chiqindilardan."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Quyosh suv isitgichi (kollektor) qanday energiyadan foydalanadi?",
+   "a": [
+    "Quyosh issiqligidan",
+    "Elektr tarmog'idan faqat",
+    "Gazdan",
+    "Ko'mirdan"
+   ],
+   "e": "Termal kollektor."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Mikro-GES qayerda qurilishi mumkin?",
+   "a": [
+    "Kichik daryo va kanallarda",
+    "Faqat cho'lda",
+    "Faqat cho'l hududlarida va tog' cho'qqisida",
+    "Bino tomida"
+   ],
+   "e": "Kichik quvvat."
+  },
+  {
+   "b": "Qayta tiklanuvchi energiya va quyosh panellari",
+   "q": "Qayta tiklanuvchi energetikaning ekologik afzalligi nima?",
+   "a": [
+    "Issiqxona gazlari chiqarilmaydi",
+    "Ko'p chiqindi hosil qiladi va havoni ifloslantiradi",
+    "Suv havzalarini zaharlaydi",
+    "Suvni zaharlaydi"
+   ],
+   "e": "Toza energiya."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Datchik (sensor) vazifasi nima?",
+   "a": [
+    "Fizik kattalikni signalga aylantirish",
+    "Signalni kuchaytirib dvigatelga berish",
+    "Energiya ishlab chiqarish",
+    "Zanjirni himoyalash"
+   ],
+   "e": "O'lchov o'zgartirgich."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Termopara nimani o'lchaydi?",
+   "a": [
+    "Haroratni",
+    "Bosimni",
+    "Sarfni",
+    "Sathni"
+   ],
+   "e": "Termo-EYuK."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Induktiv datchik nimaga sezgir?",
+   "a": [
+    "Metall buyum yaqinlashishiga",
+    "Yorug'lik va tovush tebranishlari o'zgarishiga",
+    "Tovushga",
+    "Namlikka"
+   ],
+   "e": "Kontaktsiz."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "PLK (dasturlanuvchi mantiqiy kontroller) vazifasi nima?",
+   "a": [
+    "Texnologik jarayonni dastur bo'yicha boshqarish",
+    "Faqat energiya iste'molini hisobga olib borish",
+    "Kuchlanishni oshirish",
+    "Simlarni himoyalash"
+   ],
+   "e": "PLC."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "PLK uchun keng tarqalgan dasturlash tili qaysi?",
+   "a": [
+    "Ladder (LD)",
+    "HTML",
+    "CSS",
+    "SQL"
+   ],
+   "e": "IEC 61131-3."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Avtomatik boshqarish tizimida teskari aloqa nima beradi?",
+   "a": [
+    "Chiqishni nazorat qilib, xatoni tuzatish",
+    "Signalni o'chirib qo'yib, tizimni sekinlashtirish",
+    "Energiya sarfini oshirish",
+    "Datchiklarni o'chirish"
+   ],
+   "e": "Yopiq tizim."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "PID-rostlagichda \"I\" (integral) tarkibiy qism nima beradi?",
+   "a": [
+    "Turg'un xatoni yo'qotadi",
+    "Signalni butunlay o'chiradi",
+    "Tezkorlikni yo'qotib, xatoni oshiradi",
+    "Tezkorlikni yo'qotadi"
+   ],
+   "e": "Proporsional-integral-differensial."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Analog signal standarti qaysi?",
+   "a": [
+    "4–20 mA",
+    "220 V, 50 Gs",
+    "380 V",
+    "1000 V"
+   ],
+   "e": "Sanoat standarti."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "4–20 mA signalda 4 mA nima uchun nol deb olinadi?",
+   "a": [
+    "Liniya uzilishini aniqlash uchun",
+    "Hech qanday sababsiz, odat bo'yicha",
+    "Energiya tejash va kuchlanishni oshirish uchun",
+    "Signalni kuchaytirish uchun"
+   ],
+   "e": "0 mA — nosozlik."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "SCADA tizimi nima?",
+   "a": [
+    "Dispetcherlik nazorati va ma'lumot yig'ish tizimi",
+    "Kabel markasi",
+    "Kuch transformatorlarining bir turi",
+    "Hisoblagich turi"
+   ],
+   "e": "Supervisory Control and Data Acquisition."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Mikroprotsessorli rele himoyasining afzalligi nima?",
+   "a": [
+    "Ko'p funksiyalilik va hodisalarni qayd etish",
+    "Katta o'lcham, murakkab sozlash va bitta funksiya",
+    "Faqat bitta funksiya",
+    "Tez buziladi"
+   ],
+   "e": "Terminal."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Elektromagnit releda kontaktlar nima ta'sirida almashadi?",
+   "a": [
+    "G'altak magnit maydoni",
+    "Harorat o'zgarishi",
+    "Yorug'lik",
+    "Tovush"
+   ],
+   "e": "Yakor tortiladi."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Qattiq jismli rele (SSR) afzalligi nima?",
+   "a": [
+    "Mexanik kontaktlarsiz, uzoq xizmat",
+    "Katta mexanik kontaktlar va shovqin",
+    "Faqat o'zgarmas tokda ishlaydi",
+    "Juda sekin ulanadi"
+   ],
+   "e": "Tiristor/simistor."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Bosim datchigi qayerda ishlatiladi?",
+   "a": [
+    "Nasos va kompressor tizimlarida",
+    "Yoritish chiroqlari va rozetka guruhlarida",
+    "Hisoblagichlarda",
+    "Rozetkalarda"
+   ],
+   "e": "Manometrik."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Sath datchiklari qayerda qo'llanadi?",
+   "a": [
+    "Rezervuar va baklarda",
+    "Elektr kabellari va avtomatik o'chirgichlarda",
+    "Avtomatlarda",
+    "Lampochkalarda"
+   ],
+   "e": "Suyuqlik sathi."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Smart hisoblagichlar (ASKUE) nima beradi?",
+   "a": [
+    "Masofadan avtomatik hisob",
+    "Qo'lda yozib olishni talab qiladi",
+    "Energiyani bepul beradi",
+    "Kuchlanishni oshiradi"
+   ],
+   "e": "Avtomatlashtirilgan hisob."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Nazorat-o'lchov asboblarini (NO'A) kalibrlash nima uchun kerak?",
+   "a": [
+    "O'lchash aniqligini ta'minlash",
+    "Asbobni bo'yash va tashqi ko'rinishini yangilash",
+    "Narxini oshirish",
+    "Og'irligini kamaytirish"
+   ],
+   "e": "Metrologik tekshiruv."
+  },
+  {
+   "b": "Avtomatika va mikroprotsessorli boshqaruv",
+   "q": "Avtomatika vositalariga texnik xizmatda nima bajariladi?",
+   "a": [
+    "Tekshirish, sozlash, kalibrlash",
+    "Faqat tashqi bo'yash va jihozni qayta sotish",
+    "Hech qanday ish bajarilmaydi",
+    "Hech narsa"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Elektrotexnik materiallar qanday guruhlarga bo'linadi?",
+   "a": [
+    "O'tkazgich, yarimo'tkazgich, dielektrik, magnit",
+    "Faqat metallar, qotishmalar va plastmassalar",
+    "Faqat suyuqliklar va gazlar",
+    "Faqat keramika"
+   ],
+   "e": "Asosiy guruhlar."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Eng yaxshi o'tkazgich metall qaysi?",
+   "a": [
+    "Kumush",
+    "Temir",
+    "Qo'rg'oshin",
+    "Volfram"
+   ],
+   "e": "Keyin mis."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Volframdan qayerda foydalaniladi?",
+   "a": [
+    "Cho'g'lanma chiroq tolasida",
+    "Izolyatorlarda",
+    "Elektr kabeli va transformator o'zagida",
+    "Izolyatorlarda"
+   ],
+   "e": "Yuqori erish harorati."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Nixrom qotishmasi nima uchun ishlatiladi?",
+   "a": [
+    "Isitish elementlarida",
+    "Yuqori o'tkazuvchan simlarda",
+    "Magnit o'zaklarda",
+    "Izolyatorlarda"
+   ],
+   "e": "Katta solishtirma qarshilik."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Dielektrik nima?",
+   "a": [
+    "Tokni o'tkazmaydigan material",
+    "Tokni juda yaxshi o'tkazadigan material",
+    "Magnitlanuvchi material",
+    "Yarimo'tkazgich"
+   ],
+   "e": "Izolyator."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Qaysi material dielektrik hisoblanadi?",
+   "a": [
+    "Chinni",
+    "Mis",
+    "Alyuminiy",
+    "Grafit"
+   ],
+   "e": "Izolyatorlarda."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Dielektrikning elektr mustahkamligi nima?",
+   "a": [
+    "Teshilish kuchlanishining qalinlikka nisbati",
+    "Materialning og'irligi va hajmiga nisbati",
+    "Materialning rangi",
+    "Materialning narxi"
+   ],
+   "e": "kV/mm."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Transformator o'zagi uchun qaysi material ishlatiladi?",
+   "a": [
+    "Elektrotexnik po'lat",
+    "Mis",
+    "Alyuminiy",
+    "Chinni"
+   ],
+   "e": "Kremniyli po'lat."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Ferrit qaysi guruhga kiradi?",
+   "a": [
+    "Magnit materiallarga",
+    "O'tkazgichlarga",
+    "Suyuq dielektriklarga",
+    "Gazlarga"
+   ],
+   "e": "Yuqori chastotali o'zaklar."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Elegaz (SF6) qayerda ishlatiladi?",
+   "a": [
+    "Yuqori kuchlanishli o'chirgichlarda",
+    "Maishiy chiroqlar va kichik batareyalarda",
+    "Simlar o'zagida",
+    "Batareyalarda"
+   ],
+   "e": "Gazsimon dielektrik."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Izolyatsiya materiallarining issiqqa chidamlilik sinflari qanday belgilanadi?",
+   "a": [
+    "Y, A, E, B, F, H, C",
+    "1, 2, 3, 4",
+    "Faqat rim raqamlari: I, II, III",
+    "Faqat rang bilan"
+   ],
+   "e": "F sinf — 155 °C."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "F sinfdagi izolyatsiyaning ruxsat etilgan harorati qancha?",
+   "a": [
+    "155 °C",
+    "90 °C",
+    "105 °C",
+    "180 °C"
+   ],
+   "e": "H — 180 °C."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Kavsharlashda POS-61 nima?",
+   "a": [
+    "Qalay-qo'rg'oshin kavshari",
+    "Flyus turi",
+    "Izolyatsion lak yoki flyusning turi",
+    "Kabel markasi"
+   ],
+   "e": "61% qalay."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Yarimo'tkazgich materialiga misol qaysi?",
+   "a": [
+    "Kremniy",
+    "Mis",
+    "Chinni",
+    "Rezina"
+   ],
+   "e": "Diod, tranzistor."
+  },
+  {
+   "b": "Elektrotexnik materiallar",
+   "q": "Elektrokarton qayerda ishlatiladi?",
+   "a": [
+    "Transformator va mashinalar izolyatsiyasida",
+    "Kabel o'zagida",
+    "Kabel o'zagi va magnit o'zakda",
+    "Yoritishda"
+   ],
+   "e": "Qattiq dielektrik."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Avtomat tez-tez o'chib qolsa, avval nima tekshiriladi?",
+   "a": [
+    "Yuklama va izolyatsiya holati",
+    "Avtomatni kattaroq tokka almashtirish",
+    "Avtomatni sim bilan qisqa ulab qo'yish",
+    "Hisoblagichni o'chirish"
+   ],
+   "e": "Sababni aniqlash."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Rozetka qizib ketishining sababi nima bo'lishi mumkin?",
+   "a": [
+    "Kontaktning bo'shligi yoki ortiqcha yuklama",
+    "Kuchlanishning nominal bo'lishi",
+    "Rozetkaning yangi bo'lishi va xona haroratining pastligi",
+    "Simning rangi"
+   ],
+   "e": "O'tish qarshiligi."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Elektr dvigatel ishga tushmasa va g'ung'illasa, sabab nima bo'lishi mumkin?",
+   "a": [
+    "Bitta faza yo'qligi",
+    "Dvigatel juda yangi",
+    "Moy ortiqcha",
+    "Kuchlanish nominal"
+   ],
+   "e": "Ikki fazada ishlash."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Chiroq miltillashining sababi nima bo'lishi mumkin?",
+   "a": [
+    "Bo'sh kontakt yoki kuchlanish tebranishi",
+    "Chiroqning yangi ekanligi va xonaning kattaligi",
+    "Simning rangi",
+    "Shiftning balandligi"
+   ],
+   "e": "Nosozlik."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "UZO o'chib qolsa va qayta yoqilmasa, nima qilinadi?",
+   "a": [
+    "Iste'molchilarni navbat bilan uzib, sizishni topish",
+    "UZO ni olib tashlab, to'g'ridan-to'g'ri ulash",
+    "UZO ni simli o'tkazgich bilan aylanib o'tish",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Tok sizishi."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Elektr shkafida kuygan hid sezilsa nima qilinadi?",
+   "a": [
+    "Kuchlanish uzilib, sabab qidiriladi",
+    "Eshik yopilib, ishlash davom ettiriladi",
+    "Shkafga suv sepiladi",
+    "E'tiborsiz qoldiriladi"
+   ],
+   "e": "Yong'in xavfi."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Transformator haddan tashqari shovqin chiqarsa, sababi nima bo'lishi mumkin?",
+   "a": [
+    "O'zak mahkamlashi bo'shashgani yoki ortiqcha yuklama",
+    "Transformator moyining tozaligi va havoning salqinligi",
+    "Tashqi havoning salqinligi",
+    "Yuklamaning nominal ekanligi"
+   ],
+   "e": "Diagnostika."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Kabel liniyasida izolyatsiya teshilgan joyni topish uchun nima ishlatiladi?",
+   "a": [
+    "Kabel nuqsonlarini aniqlash asboblari (reflektometr)",
+    "Oddiy lineyka va o'lchov ruletkasi",
+    "Lyuksmetr",
+    "Termometr"
+   ],
+   "e": "Lokatsiya."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Yerga ulash simi uzilgan bo'lsa qanday xavf bor?",
+   "a": [
+    "Korpusda kuchlanish paydo bo'lishi mumkin",
+    "Jihozlar tezroq ishlaydi",
+    "Energiya tejaladi va kuchlanish barqarorlashadi",
+    "Hech qanday xavf yo'q"
+   ],
+   "e": "Himoya yo'qoladi."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Ko'chma elektr asbobi kabelining izolyatsiyasi shikastlangan bo'lsa nima qilinadi?",
+   "a": [
+    "Ishlatish to'xtatilib, kabel almashtiriladi",
+    "Izolenta bilan o'rab ishlatish davom etadi",
+    "Ehtiyot bo'lib ishlatiladi",
+    "Suvda yuviladi"
+   ],
+   "e": "Xavfsizlik talabi."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Elektr jihozlarida \"nolning kuyishi\" (nol uzilishi) uch fazali tarmoqda nimaga olib keladi?",
+   "a": [
+    "Fazalarda kuchlanish nosimmetriyasi va jihozlar kuyishi",
+    "Kuchlanishning barcha fazalarda tenglashishi",
+    "Energiya sarfining kamayishi",
+    "Hech qanday oqibatga olib kelmaydi"
+   ],
+   "e": "Faza kuchlanishi 380 V gacha oshishi mumkin."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Kuchlanish stabilizatori qachon kerak bo'ladi?",
+   "a": [
+    "Tarmoq kuchlanishi beqaror bo'lganda",
+    "Kuchlanish doim nominal va barqaror bo'lganda",
+    "Jihoz o'chirilgan bo'lganda",
+    "Hech qachon"
+   ],
+   "e": "Jihozlarni himoyalash."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "UPS (uzluksiz ta'minot manbai) vazifasi nima?",
+   "a": [
+    "Tarmoq uzilganda qisqa vaqt ta'minlash",
+    "Kuchlanishni 380 V ga oshirib, tarmoqqa berish",
+    "Elektr energiyasini hisobga olish",
+    "Yoritishni rostlash"
+   ],
+   "e": "Akkumulyatorli."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Dizel-generator zaxira manba sifatida tarmoqqa qanday ulanadi?",
+   "a": [
+    "AVR yoki teskari ulanishdan himoyalangan kommutator orqali",
+    "To'g'ridan-to'g'ri rozetkaga vilka orqali",
+    "Tarmoq bilan parallel, himoyasiz",
+    "Ulanmaydi"
+   ],
+   "e": "Tarmoqqa teskari kuchlanish xavfi."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Elektr energiyasini tejash choralaridan biri qaysi?",
+   "a": [
+    "Energiya tejamkor jihozlardan foydalanish",
+    "Chiroqlarni doim yoqib qo'yish va salt ishlatish",
+    "Dvigatellarni salt ishlatish",
+    "Eski jihozlarni ishlatish"
+   ],
+   "e": "Energosberejeniye."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Elektr dvigatelini yuklamasiz uzoq ishlatish nima uchun samarasiz?",
+   "a": [
+    "cos φ va FIK pasayadi",
+    "cos φ va FIK oshib, energiya tejaladi",
+    "Tok nolga tushadi",
+    "Kuchlanish oshadi"
+   ],
+   "e": "Salt ishlash."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Reaktiv quvvat kompensatsiyasining samarasi nima?",
+   "a": [
+    "Tarmoqdagi tok va isroflar kamayadi",
+    "Aktiv quvvat iste'moli va kuchlanish oshadi",
+    "Kuchlanish pasayadi",
+    "Chastota o'zgaradi"
+   ],
+   "e": "cos φ → 0,95."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Elektr qurilmalari qoidalari (PUE) nima?",
+   "a": [
+    "Elektr qurilmalarini loyihalash va montaj qilish qoidalari",
+    "Mehnat shartnomasi namunasi",
+    "Hisoblagich narxlari ro'yxati",
+    "Bino arxitekturasi qoidalari"
+   ],
+   "e": "Pravila ustroystva elektroustanovok."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Iste'molchilar elektr qurilmalarini texnik ekspluatatsiya qilish qoidalari (PTEEP) nimani tartibga soladi?",
+   "a": [
+    "Ekspluatatsiya, xizmat va sinovlarni",
+    "Faqat elektr energiyasi narxi va to'lov tartibini",
+    "Faqat bino qurilishini",
+    "Faqat ish vaqtini"
+   ],
+   "e": "Ekspluatatsiya."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Korxonada elektr xo'jaligi uchun kim javobgar?",
+   "a": [
+    "Elektr xo'jaligi uchun mas'ul shaxs (bosh energetik)",
+    "Har bir ishchi alohida",
+    "Faqat qorovul",
+    "Faqat buxgalter"
+   ],
+   "e": "V guruh."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Operativ jurnal nima uchun yuritiladi?",
+   "a": [
+    "Navbatchilikdagi kommutatsiya va hodisalarni qayd etish",
+    "Ish haqini hisoblash va mehmonlarni ro'yxatga olish",
+    "Yuklarni hisobga olish",
+    "Ta'til grafigini tuzish"
+   ],
+   "e": "Operativ hujjat."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Kommutatsiya blankasi (bланк переключений) qachon ishlatiladi?",
+   "a": [
+    "Murakkab ulash-uzish operatsiyalarida",
+    "Ish haqi to'lashda",
+    "Ish haqi to'lash va ta'tilga chiqishni rasmiylashtirishda",
+    "Hech qachon"
+   ],
+   "e": "Xatolarni oldini olish."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Elektr qurilmasini ishga tushirishdan oldin qabul-topshirish sinovlari nima uchun o'tkaziladi?",
+   "a": [
+    "Montaj sifati va me'yorlarga mosligini tekshirish",
+    "Qurilmani bo'yash uchun",
+    "Narxini aniqlash uchun",
+    "Talab qilinmaydi"
+   ],
+   "e": "Priyomo-sdatochnye ispytaniya."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Elektr jihozlari ta'mirida ishlatiladigan izolyatsiya lenta turlari qaysilar?",
+   "a": [
+    "PVX va lakli mato lenta",
+    "Qog'oz skotch va oddiy mato lentasi",
+    "Metall folga",
+    "Polietilen paket"
+   ],
+   "e": "Izolenta."
+  },
+  {
+   "b": "Qo'shimcha: amaliy vaziyatlar",
+   "q": "Issiqlik qisqaruvchi trubka (termousadka) nima uchun ishlatiladi?",
+   "a": [
+    "Ulanish joylarini izolyatsiyalash",
+    "Simlarni qizdirib uzish va kuchlanishni o'lchash",
+    "Tokni kuchaytirish",
+    "Simlarni bo'yash"
+   ],
+   "e": "Qizdirilganda qisqaradi."
+  }
+ ],
+ "kalit": "elektr jihozlari elektr ta'minoti elektromontyor transformator podstansiya quyosh panellari"
+}

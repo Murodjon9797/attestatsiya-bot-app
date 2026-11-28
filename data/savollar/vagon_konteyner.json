@@ -109,8 +109,8 @@
    "a": [
     "Ruxsat etilganidan chuqur polzun",
     "Bo'yog'i ko'chgan yoki raqami xira bo'lsa",
-    "Raqami xira bo'lsa",
-    "G'ildirak toza bo'lmasa"
+    "G'ildirak toza bo'lmasa",
+    "Gupchak bo'yalmagan bo'lsa"
    ],
    "e": "Polzun zarbali yuklama hosil qilib, rels va o'qni shikastlaydi."
   },
@@ -196,9 +196,9 @@
    "q": "Vagon kuzovi aravachaga qaysi qism orqali tayanadi?",
    "a": [
     "Podpyatnik va yon tayanchlar orqali",
-    "Buksa orqali",
     "Avtoulagich orqali",
-    "Buksa va g'ildirak gardishi orqali"
+    "Buksa va g'ildirak gardishi orqali",
+    "Tormoz silindri orqali"
    ],
    "e": "Podpyatnik kuzovning aravachaga nisbatan aylanishini ta'minlaydi."
   },
@@ -340,7 +340,7 @@
    "a": [
     "4, 6, 8 o'qli va boshqalar",
     "Faqat bir o'qli yoki o'qsiz vagonlar",
-    "Faqat o'qsiz vagonlar",
+    "Faqat 2 o'qli",
     "Faqat 3 va 5 o'qli"
    ],
    "e": "Eng ko'p tarqalgani — 4 o'qli."
@@ -537,9 +537,9 @@
    "q": "Vagonning texnik pasportida nima qayd etiladi?",
    "a": [
     "Texnik ma'lumot va ta'mirlar",
-    "Faqat yuk ro'yxati",
+    "Faqat vagon narxi",
     "Faqat yuklar va yo'lovchilar ro'yxati",
-    "Faqat vagon narxi"
+    "Faqat haydovchilar ismi"
    ],
    "e": "Formular."
   },
@@ -736,8 +736,8 @@
    "a": [
     "Maxsus shablon bilan",
     "Termometr yoki manometr bilan",
-    "Manometr bilan",
-    "Ampermetr bilan"
+    "Ampermetr bilan",
+    "Lyuksmetr bilan"
    ],
    "e": "Absolyut shablon."
   },
@@ -999,9 +999,9 @@
    "q": "Pnevmatik ressorlar qaysi vagonlarda qo'llanadi?",
    "a": [
     "Zamonaviy yo'lovchi vagonlarida",
-    "Faqat platformalarda",
     "Faqat sisternalarda",
-    "Faqat eski turdagi yuk vagonlari va platformalarda"
+    "Faqat eski turdagi yuk vagonlari va platformalarda",
+    "Faqat xopperlarda"
    ],
    "e": "Yumshoq yurish."
   },
@@ -1298,7 +1298,7 @@
     "Magistral bosimiga qarab tormozlash",
     "Vagonni yoritish va isitish tizimini boshqarish",
     "Yukni o'lchash",
-    "Vagonni isitish"
+    "Eshiklarni ochish"
    ],
    "e": "Vozduxoraspredelitel."
   },
@@ -2385,7 +2385,7 @@
    "q": "PTO (texnik xizmat punkti) vazifasi nima?",
    "a": [
     "Poyezdlarni texnik ko'rikdan o'tkazish",
-    "Chipta sotish",
+    "Yuk ortish",
     "Yo'lovchilarga chipta sotish va ma'lumot berish",
     "Lokomotiv ishlab chiqarish"
    ],
@@ -2452,8 +2452,8 @@
    "a": [
     "Unumdorlik va sifatni oshirish",
     "Ta'mir vaqtini uzaytirish va xarajatni oshirish",
-    "Xarajatni oshirish",
-    "Sifatni pasaytirish"
+    "Sifatni pasaytirish",
+    "Ishchilar sonini ko'paytirish"
    ],
    "e": "Potochnyy metod."
   },
@@ -2573,8 +2573,8 @@
    "a": [
     "Texnik diagnostika va modernizatsiya",
     "Faqat tashqi bo'yash va yuvishdan keyin",
-    "Faqat yuvishdan keyin",
-    "Hech qachon"
+    "Hech qachon",
+    "Raqamini o'zgartirgandan keyin"
    ],
    "e": "Prodleniye sroka."
   },
@@ -2616,7 +2616,7 @@
    "q": "Yog'och yuklarni platformada mahkamlashda nima ishlatiladi?",
    "a": [
     "Tirgaklar va simli bog'lamalar",
-    "Faqat elim va lenta",
+    "Mahkamlanmaydi",
     "Mahkamlanmaydi",
     "Faqat elim, lenta va qog'oz qatlami bilan"
    ],
@@ -2639,8 +2639,8 @@
    "a": [
     "Tirgak va upor brusalar",
     "Faqat brezent yopqich va yorliq bilan",
-    "Faqat yorliq",
-    "Hech narsa qo'yilmaydi"
+    "Hech narsa qo'yilmaydi",
+    "Faqat plomba"
    ],
    "e": "Upornyy brusok."
   },
@@ -2650,8 +2650,8 @@
    "a": [
     "G'ildirak ostiga ponalar",
     "Faqat bo'yoq",
-    "Faqat plomba",
-    "Faqat plomba va ogohlantiruvchi yorliq"
+    "Faqat plomba va ogohlantiruvchi yorliq",
+    "Faqat brezent"
    ],
    "e": "Kolodka, rastyajka."
   },
@@ -2772,7 +2772,7 @@
     "Signal (yorqin) jilet bilan",
     "Qora kiyimda, signal jiletsiz, ixtiyoriy",
     "Faqat oq xalatda, kaskasiz",
-    "Faqat oq xalatda"
+    "Kiyim talab qilinmaydi"
    ],
    "e": "Ko'rinuvchanlik."
   },
