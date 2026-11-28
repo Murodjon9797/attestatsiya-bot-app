@@ -119,7 +119,7 @@ CATEGORIES: list[tuple[str, str, list[str]]] = [
         "qishloq_xojaligida_axborot_kommunikatsio", "qurilishda_axborot_texnologiyalari",
         "texnik_tizimlarda_at", "tibbiyotda_axborot_texnologiyalari", "muhandislik_grafikasi", "raqamli_axborot", "web_dasturlash"]),
     ("muh", "⚙️ Muhandislik va texnika", [
-        "amaliy_matematika", "hisob", "mexanika", "texnik_mexanika", "elektrotexnika", "elektr_jihozlari", "qurilish",
+        "amaliy_matematika", "hisob", "mexanika", "texnik_mexanika", "elektrotexnika", "elektr_jihozlari", "qurilish", "payvandlash",
         "konstruksion_materiallar", "metrologiya", "chizma_geometriya", "issiqlik_texnikasi_va_gidroenergetika",
         "radiotexnika_antenna", "geodeziya", "mehnat_muhofazasi"]),
     ("tib", "🩺 Tibbiyot", [

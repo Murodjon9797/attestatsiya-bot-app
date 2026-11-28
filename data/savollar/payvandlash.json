@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "Payvandlash va metallarga ishlov berish",
+ "turi": "maxsus",
+ "manba": "Attestatsiya test sinovlariga jalb etiladigan pedagoglar ro'yxatidagi fan; savollar DTS, o'quv dasturlari va darsliklar asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlash nima?",
+   "a": [
+    "Qismlarni ajralmas birikma bilan ulash",
+    "Detallarni bolt va gayka bilan ajraladigan qilib ulash",
+    "Metallni bo'yash",
+    "Metallni kesish faqat"
+   ],
+   "e": "Svarka."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlash usullari asosan qanday guruhlarga bo'linadi?",
+   "a": [
+    "Eritib va bosim bilan payvandlash",
+    "Faqat sovuq va issiq bo'yash usullari",
+    "Faqat kesish",
+    "Faqat yelimlash"
+   ],
+   "e": "Sinflar."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Elektr yoyi nima?",
+   "a": [
+    "Elektrodlar orasidagi uzoq davomli razryad",
+    "Metall yuzasidagi oddiy statik elektr zaryadi",
+    "Magnit maydon",
+    "Kimyoviy reaksiya"
+   ],
+   "e": "Svarochnaya duga."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvand yoyi harorati taxminan qancha?",
+   "a": [
+    "5000–7000 °C",
+    "300–500 °C",
+    "1000 °C",
+    "100 °C"
+   ],
+   "e": "Yoy ustuni."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Qo'lda yoyli payvandlash qanday belgilanadi?",
+   "a": [
+    "MMA (RDS)",
+    "TIG",
+    "MIG",
+    "SAW"
+   ],
+   "e": "Manual Metal Arc."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlash elektrodining qoplamasi nima uchun kerak?",
+   "a": [
+    "Yoyni barqarorlash va chokni himoyalash",
+    "Elektrodni chiroyli ko'rsatish va zanglamasligi uchun",
+    "Tokni kamaytirish",
+    "Elektrodni og'irlashtirish"
+   ],
+   "e": "Obmazka."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Elektrod diametri 3 mm bo'lsa, payvandlash toki taxminan qancha olinadi?",
+   "a": [
+    "90–120 A",
+    "10–20 A",
+    "300–400 A",
+    "500 A"
+   ],
+   "e": "Taxminan 30–40 A/mm."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlash tokini oshirsak nima bo'ladi?",
+   "a": [
+    "Erish chuqurligi oshadi",
+    "Erish chuqurligi kamayadi va chok sovuydi",
+    "Hech narsa o'zgarmaydi",
+    "Yoy o'chadi albatta"
+   ],
+   "e": "Tok ta'siri."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlash tok manbalariga qaysilar kiradi?",
+   "a": [
+    "Transformator, to'g'rilagich, invertor",
+    "Faqat akkumulyator, batareya va quyosh paneli",
+    "Faqat shamol generatori",
+    "Faqat dizel dvigateli"
+   ],
+   "e": "Manbalar."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlash transformatori qanday tok beradi?",
+   "a": [
+    "O'zgaruvchan tok",
+    "O'zgarmas tok",
+    "Impulsli o'zgarmas tok",
+    "Tok bermaydi"
+   ],
+   "e": "AC."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Invertorli payvand apparatining afzalligi nima?",
+   "a": [
+    "Yengil, ixcham, barqaror yoy",
+    "Juda og'ir va ko'p elektr sarflaydi",
+    "Faqat o'zgaruvchan tokda",
+    "Yoyni beqaror qiladi"
+   ],
+   "e": "Invertor."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "To'g'ri qutblanishda elektrod qaysi qutbga ulanadi?",
+   "a": [
+    "Manfiy (−) qutbga",
+    "Musbat (+) qutbga",
+    "Yerga",
+    "Ulanmaydi"
+   ],
+   "e": "Pryamaya polyarnost."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Teskari qutblanish qachon qo'llanadi?",
+   "a": [
+    "Yupqa metall va ayrim elektrodlarda",
+    "Faqat juda qalin metallni eritishda",
+    "Hech qachon",
+    "Faqat gaz payvandda"
+   ],
+   "e": "Obratnaya polyarnost."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "UONI-13/45 elektrodi qanday tokda ishlatiladi?",
+   "a": [
+    "O'zgarmas tok, teskari qutblanish",
+    "Faqat o'zgaruvchan tok, istalgan qutblanishda",
+    "Faqat gaz bilan",
+    "Tok kerak emas"
+   ],
+   "e": "Asosiy qoplama."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Elektrodlarni ishlatishdan oldin nima qilinadi?",
+   "a": [
+    "Quritiladi (prokalka)",
+    "Suvga botiriladi",
+    "Moy bilan surtiladi",
+    "Muzlatiladi"
+   ],
+   "e": "Namlik g'ovaklik beradi."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvand chokining asosiy turlari qaysilar?",
+   "a": [
+    "Uchma-uch, burchakli, tavrli, ustma-ust",
+    "Faqat aylana, spiral va nuqtali choklar",
+    "Faqat zanjirsimon",
+    "Faqat ichki"
+   ],
+   "e": "Soedineniya."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlashda chokning fazodagi holatlari qaysilar?",
+   "a": [
+    "Pastki, vertikal, gorizontal, ship",
+    "Faqat ichki va tashqi, qiyshiq holatlar",
+    "Faqat diagonal",
+    "Faqat aylana"
+   ],
+   "e": "Polojeniya."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Qaysi holatda payvandlash eng qiyin?",
+   "a": [
+    "Ship (potolok) holatida",
+    "Pastki holatda",
+    "Stol ustida",
+    "Barchasi bir xil"
+   ],
+   "e": "Potolochnyy shov."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Qalin metallni uchma-uch payvandlashda chetlar nima qilinadi?",
+   "a": [
+    "Qirralari kesiladi (razdelka)",
+    "Qirralar sayqallanib, bo'yaladi",
+    "Hech narsa qilinmaydi",
+    "Qizdirib, egiladi"
+   ],
+   "e": "V yoki X razdelka."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlashdan oldin detal yuzasi nima qilinadi?",
+   "a": [
+    "Zang, moy va bo'yoqdan tozalanadi",
+    "Moy bilan qalin surtilib, nam holda qoldiriladi",
+    "Suv bilan ho'llanadi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Tayyorlash."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Prixvatka (vaqtinchalik choklar) nima uchun qilinadi?",
+   "a": [
+    "Detallarni joyida mahkamlash uchun",
+    "Chokni bezash va chiroyli ko'rsatish uchun",
+    "Metallni kesish uchun",
+    "Kerak emas"
+   ],
+   "e": "Prikhvatka."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Ko'p qatlamli chokda har qatlamdan keyin nima qilinadi?",
+   "a": [
+    "Shlak tozalanadi",
+    "Shlak qoldirilib, ustidan payvandlanadi",
+    "Suv sepiladi",
+    "Bo'yaladi"
+   ],
+   "e": "Shlak qo'shilmasining oldini olish."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvand chokidagi g'ovaklik (poralar) sababi nima?",
+   "a": [
+    "Nam elektrod yoki iflos yuza",
+    "Quruq elektrod, toza yuza va to'g'ri tok",
+    "To'g'ri tok tanlash",
+    "Sabab yo'q"
+   ],
+   "e": "Pora."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Neprovar (erimay qolish) nima?",
+   "a": [
+    "Chok ildizi to'liq erimagan nuqson",
+    "Chokning haddan tashqari qavariq bo'lishi",
+    "Chok rangining o'zgarishi",
+    "Elektrodning sinishi"
+   ],
+   "e": "Neprovar."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Podrez (kesik) nuqsoni sababi nima?",
+   "a": [
+    "Tok yoki yoy uzunligi ortiqcha",
+    "Tok juda kichik va yoy juda qisqa",
+    "Elektrod quruq",
+    "Sabab yo'q"
+   ],
+   "e": "Podrez."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvand chokidagi yoriqlar nima uchun xavfli?",
+   "a": [
+    "Konstruksiya buzilishiga olib keladi",
+    "Faqat tashqi ko'rinishni yomonlashtiradi",
+    "Xavfli emas",
+    "Chokni mustahkamlaydi"
+   ],
+   "e": "Treshchina."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlashdagi deformatsiyani kamaytirish usuli qaysi?",
+   "a": [
+    "Payvandlash tartibini to'g'ri tanlash",
+    "Faqat eng katta tokda tez payvandlash",
+    "Detalni mahkamlamaslik",
+    "Hech narsa"
+   ],
+   "e": "Deformatsiya."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Yuqori uglerodli po'latni payvandlashda nima qilinadi?",
+   "a": [
+    "Oldindan qizdiriladi",
+    "Muzlatiladi",
+    "Suvda sovutiladi darhol",
+    "Hech narsa"
+   ],
+   "e": "Podogrev."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Cho'yanni payvandlashning qiyinligi nimada?",
+   "a": [
+    "Mo'rtligi va yoriq hosil bo'lishi",
+    "Juda yumshoq va plastik bo'lishi",
+    "Erimasligi",
+    "Qiyinligi yo'q"
+   ],
+   "e": "Cho'yan."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandchi himoya niqobida nima bo'ladi?",
+   "a": [
+    "Maxsus nur filtri (svetofiltr)",
+    "Oddiy shaffof oyna",
+    "Quyosh ko'zoynagi",
+    "Hech narsa"
+   ],
+   "e": "Ultrabinafsha nurlardan himoya."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandchi maxsus kiyimi qanday bo'lishi kerak?",
+   "a": [
+    "Brezent kostyum, qo'lqop, botinka",
+    "Sintetik yengil kiyim, shippak va shortik",
+    "Ixtiyoriy kiyim",
+    "Kiyim talab qilinmaydi"
+   ],
+   "e": "Himoya."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Yopiq joyda payvandlashda nima majburiy?",
+   "a": [
+    "Ventilyatsiya",
+    "Derazalarni yopib qo'yish",
+    "Gaz ochiq qoldirish",
+    "Hech narsa"
+   ],
+   "e": "Payvand tutuni zararli."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvandlash joyi yaqinida yonuvchi materiallar bo'lsa nima qilinadi?",
+   "a": [
+    "Olib tashlanadi yoki to'siladi",
+    "Ular yonida payvandlash davom etadi",
+    "Ular suv bilan ho'llanmaydi",
+    "Hech narsa"
+   ],
+   "e": "Yong'in xavfsizligi."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Payvand apparati korpusi nima uchun yerga ulanadi?",
+   "a": [
+    "Elektr urishidan himoya",
+    "Tok kuchini oshirish uchun",
+    "Yoyni kuchaytirish uchun",
+    "Kerak emas"
+   ],
+   "e": "Zazemlenie."
+  },
+  {
+   "b": "Payvandlash asoslari",
+   "q": "Nam joyda payvandlashda qanday chora ko'riladi?",
+   "a": [
+    "Dielektrik gilamcha va qo'lqop",
+    "Yalang oyoq ishlash",
+    "Hech qanday chora",
+    "Suv sepib ishlash"
+   ],
+   "e": "Elektr xavfsizligi."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Yarim avtomatik payvandlashda nima avtomatik uzatiladi?",
+   "a": [
+    "Elektrod sim",
+    "Detalning o'zi va payvand stoli",
+    "Himoya niqobi",
+    "Yerga ulash simi"
+   ],
+   "e": "Poluavtomat."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "MIG/MAG payvandlashda chok nima bilan himoyalanadi?",
+   "a": [
+    "Himoya gazi bilan",
+    "Faqat elektrod qoplamasi bilan, gazsiz",
+    "Suv bilan",
+    "Moy bilan"
+   ],
+   "e": "Gaz himoyasi."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "MAG payvandlashda ko'pincha qaysi gaz ishlatiladi?",
+   "a": [
+    "Karbonat angidrid (CO2) yoki aralashma",
+    "Kislorod toza holda",
+    "Toza kislorod, boshqa gazlarsiz",
+    "Atsetilen"
+   ],
+   "e": "Aktiv gaz."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "MIG payvandlashda qanday gaz ishlatiladi?",
+   "a": [
+    "Inert gaz (argon, geliy)",
+    "Faqat kislorod",
+    "Faqat atsetilen",
+    "Faqat havo"
+   ],
+   "e": "Inert gaz."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "TIG payvandlashda qanday elektrod ishlatiladi?",
+   "a": [
+    "Erimaydigan volfram elektrod",
+    "Eriydigan po'lat sim",
+    "Ko'mir elektrod faqat",
+    "Ko'mir elektrod yoki eriydigan mis sim"
+   ],
+   "e": "Argon-yoy."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Argon-yoy (TIG) payvandlash qaysi metallar uchun ko'p qo'llanadi?",
+   "a": [
+    "Zanglamas po'lat va alyuminiy",
+    "Faqat oddiy cho'yan quvurlar va yog'och",
+    "Faqat beton armaturasi",
+    "Faqat plastik"
+   ],
+   "e": "Sifatli chok."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Flyus ostida avtomatik payvandlash (SAW) afzalligi nima?",
+   "a": [
+    "Yuqori unumdorlik va sifat",
+    "Faqat yupqa listlar uchun, sekin ish",
+    "Ko'rinadigan yoy va ko'p sachrash",
+    "Afzalligi yo'q"
+   ],
+   "e": "Pod flyusom."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Flyusning payvandlashdagi vazifasi nima?",
+   "a": [
+    "Yoy va metallni havodan himoyalash",
+    "Metallni tez sovutib, qattiq qotirish",
+    "Elektrodni bo'yash",
+    "Tokni o'lchash"
+   ],
+   "e": "Flyus."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Yarim avtomatda sim uzatish tezligi nimaga ta'sir qiladi?",
+   "a": [
+    "Payvandlash tokiga",
+    "Faqat gaz rangiga",
+    "Ta'sir qilmaydi",
+    "Faqat niqobga"
+   ],
+   "e": "Tok va sim."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Yarim avtomatda gaz sarfi odatda qancha?",
+   "a": [
+    "8–15 l/min",
+    "100–200 l/min",
+    "0,1 l/min",
+    "Gaz kerak emas"
+   ],
+   "e": "Gaz sarfi."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Yarim avtomat payvandlash uchun keng tarqalgan sim markasi qaysi?",
+   "a": [
+    "Sv-08G2S",
+    "UONI-13/45",
+    "MR-3",
+    "ANO-4"
+   ],
+   "e": "Mis bilan qoplangan sim."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Payvandlash simi nima uchun mis bilan qoplanadi?",
+   "a": [
+    "Zanglamaslik va yaxshi kontakt uchun",
+    "Simni og'irlashtirish va bezash uchun",
+    "Tokni kamaytirish uchun",
+    "Gazni tejash uchun"
+   ],
+   "e": "Omednennaya provoloka."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Yarim avtomat gorelkasidagi kontakt uchlik vazifasi nima?",
+   "a": [
+    "Simga tok uzatish",
+    "Gazni isitish va sovutish",
+    "Yoyni o'chirish",
+    "Chokni tozalash"
+   ],
+   "e": "Nakonechnik."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Gaz soplosiga sachroq yopishsa nima bo'ladi?",
+   "a": [
+    "Gaz himoyasi buziladi",
+    "Chok sifati keskin yaxshilanadi",
+    "Hech narsa",
+    "Tok oshadi"
+   ],
+   "e": "Soplo."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Kontakt payvandlash qanday ishlaydi?",
+   "a": [
+    "Tok o'tganda qizish va siqish orqali",
+    "Gaz alangasida eritib, siqmasdan ulash orqali",
+    "Elektrod qoplamasi bilan",
+    "Yelim bilan"
+   ],
+   "e": "Kontaktnaya svarka."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Nuqtali kontakt payvandlash qayerda ko'p qo'llanadi?",
+   "a": [
+    "Avtomobil kuzovi va yupqa listlarda",
+    "Faqat qalin ko'prik balkalari va quvurlarda",
+    "Faqat cho'yan quymalarda",
+    "Faqat cho'yanda"
+   ],
+   "e": "Tochechnaya."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Lazer payvandlashning afzalligi nima?",
+   "a": [
+    "Yuqori aniqlik va kam deformatsiya",
+    "Juda keng chok va katta deformatsiya",
+    "Arzon va oddiy",
+    "Afzalligi yo'q"
+   ],
+   "e": "Lazer."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Payvandlash robotlarining afzalligi nima?",
+   "a": [
+    "Barqaror sifat va unumdorlik",
+    "Sifatning beqarorligi va sekinlik",
+    "Ko'p qo'l mehnati",
+    "Afzalligi yo'q"
+   ],
+   "e": "Robotlashtirish."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Avtomatik payvandlashda chok sifatiga nima ta'sir qiladi?",
+   "a": [
+    "Tok, kuchlanish va payvandlash tezligi",
+    "Faqat payvandchi kiyimining rangi va yoritish",
+    "Faqat xona yoritilishi",
+    "Hech narsa"
+   ],
+   "e": "Rejim parametrlari."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Payvandlash tezligi oshsa chok qanday o'zgaradi?",
+   "a": [
+    "Torayadi va erish chuqurligi kamayadi",
+    "Kengayadi va erish chuqurligi oshadi",
+    "O'zgarmaydi",
+    "Chok yo'qoladi"
+   ],
+   "e": "Tezlik ta'siri."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Gaz ballonlarini qanday tashish kerak?",
+   "a": [
+    "Qalpoqli, mahkamlangan holda",
+    "Qalpoqsiz, yerda dumalatib, bog'lamasdan",
+    "Yelkada uloqtirib",
+    "Moyli qo'lqopda"
+   ],
+   "e": "Ballon xavfsizligi."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Karbonat angidrid ballonining rangi qanday?",
+   "a": [
+    "Qora",
+    "Ko'k",
+    "Oq",
+    "Qizil"
+   ],
+   "e": "Rang belgisi."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Argon ballonining rangi qanday?",
+   "a": [
+    "Kulrang",
+    "Qora",
+    "Ko'k",
+    "Oq"
+   ],
+   "e": "Rang belgisi."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Payvandlashda himoya gazi reduktori nima vazifani bajaradi?",
+   "a": [
+    "Bosimni pasaytirib, sarfni rostlaydi",
+    "Gazni qizdirib, alanga hosil qilib beradi",
+    "Gazni sovutadi",
+    "Tokni o'lchaydi"
+   ],
+   "e": "Reduktor."
+  },
+  {
+   "b": "Avtomatik va yarim avtomatik payvandlash",
+   "q": "Yarim avtomatda \"yoqish\" tugmasini bosganda birinchi nima chiqadi?",
+   "a": [
+    "Gaz (oldindan purkash)",
+    "Faqat sim, gazsiz",
+    "Suv",
+    "Hech narsa"
+   ],
+   "e": "Pre-flow."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz payvandlashda qaysi gazlar ishlatiladi?",
+   "a": [
+    "Atsetilen va kislorod",
+    "Azot va argon aralashmasi, kislorodsiz",
+    "Faqat havo",
+    "Faqat CO2"
+   ],
+   "e": "Gaz payvandlash."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Atsetilen-kislorod alangasining maksimal harorati taxminan qancha?",
+   "a": [
+    "3100–3200 °C",
+    "500–600 °C",
+    "1000 °C",
+    "6000 °C"
+   ],
+   "e": "Eng issiq gaz alangasi."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz alangasi qanday zonalardan iborat?",
+   "a": [
+    "Yadro, tiklovchi zona, mash'al",
+    "Faqat bitta bir xil zona, farqsiz",
+    "Faqat tutun",
+    "Faqat uchqun"
+   ],
+   "e": "Zonalar."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Payvandlash alangasining eng issiq qismi qaysi?",
+   "a": [
+    "Tiklovchi zona",
+    "Mash'alning eng chekka uchi",
+    "Gorelka ichi",
+    "Ballon"
+   ],
+   "e": "Vosstanovitelnaya zona."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Normal alangada kislorod va atsetilen nisbati taxminan qanday?",
+   "a": [
+    "1,1–1,2 : 1",
+    "3 : 1",
+    "1 : 3",
+    "10 : 1"
+   ],
+   "e": "Normal alanga."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Oksidlovchi alanga qachon hosil bo'ladi?",
+   "a": [
+    "Kislorod ortiqcha bo'lganda",
+    "Atsetilen ortiqcha bo'lganda",
+    "Ikkalasi teng bo'lganda",
+    "Gaz yo'q bo'lganda"
+   ],
+   "e": "Okislitelnoe plamya."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Uglerodlovchi (karbyurizatsiyalovchi) alanga qachon hosil bo'ladi?",
+   "a": [
+    "Atsetilen ortiqcha bo'lganda",
+    "Kislorod ortiqcha va atsetilen kam bo'lganda",
+    "Faqat havoda",
+    "Hech qachon"
+   ],
+   "e": "Nauglerozhivayushchee."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Kislorod ballonining rangi qanday?",
+   "a": [
+    "Ko'k (havorang)",
+    "Oq",
+    "Qizil",
+    "Qora"
+   ],
+   "e": "Rang."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Atsetilen ballonining rangi qanday?",
+   "a": [
+    "Oq",
+    "Ko'k",
+    "Qora",
+    "Kulrang"
+   ],
+   "e": "Rang."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Propan ballonining rangi qanday?",
+   "a": [
+    "Qizil",
+    "Ko'k",
+    "Oq",
+    "Qora"
+   ],
+   "e": "Rang."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Atsetilen ballonida atsetilen qanday holatda saqlanadi?",
+   "a": [
+    "Atsetonda eritilgan, g'ovak massada",
+    "Toza siqilgan gaz holida, yuqori bosimda",
+    "Suyuq holda muzlatilgan",
+    "Kukun holida"
+   ],
+   "e": "Portlash xavfi tufayli."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Kislorod ballonining ishchi bosimi (to'liq) taxminan qancha?",
+   "a": [
+    "15 MPa (150 atm)",
+    "0,1 MPa",
+    "1 MPa",
+    "100 MPa"
+   ],
+   "e": "Kislorod ballon."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Kislorod reduktori va armaturasini moylash nima uchun taqiqlanadi?",
+   "a": [
+    "Moy kislorodda portlashi mumkin",
+    "Moy reduktorni tezroq ishlatadi",
+    "Moy qimmat",
+    "Taqiqlanmaydi"
+   ],
+   "e": "Xavfli."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz gorelkasining vazifasi nima?",
+   "a": [
+    "Gazni aralashtirib, alanga berish",
+    "Ballonni sovutish va saqlash",
+    "Metallni o'lchash",
+    "Shlakni tozalash"
+   ],
+   "e": "Gorelka."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gorelkani yoqishda qaysi ketma-ketlik to'g'ri?",
+   "a": [
+    "Avval kislorod, so'ng atsetilen ochilib yoqiladi",
+    "Avval atsetilen to'liq ochilib, kislorodsiz kutiladi",
+    "Ikkala ventil yopiq holda",
+    "Tartib ahamiyatsiz"
+   ],
+   "e": "Yoqish tartibi (standart amaliyot)."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gorelkani o'chirishda birinchi qaysi ventil yopiladi?",
+   "a": [
+    "Atsetilen ventili",
+    "Kislorod ventili",
+    "Ikkalasi bir vaqtda faqat",
+    "Hech biri"
+   ],
+   "e": "O'chirish tartibi."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Teskari zarba (obratnyy udar) nima?",
+   "a": [
+    "Alanga gorelka ichiga kirishi",
+    "Gorelkaning qo'ldan tushib ketishi",
+    "Gaz ballonining sovushi",
+    "Shlak sachrashi"
+   ],
+   "e": "Xavfli hodisa."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Teskari zarbadan himoya uchun nima o'rnatiladi?",
+   "a": [
+    "O't to'suvchi klapan",
+    "Qo'shimcha moy filtri",
+    "Hech narsa",
+    "Ventilyator"
+   ],
+   "e": "Zatvor."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Kislorod bilan metallni kesish qanday jarayonga asoslangan?",
+   "a": [
+    "Qizigan metallning kislorodda yonishi",
+    "Metallni mexanik arra bilan kesish",
+    "Metallni muzlatish",
+    "Metallni elektroliz qilish"
+   ],
+   "e": "Kislorod kesish."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Kislorod bilan qaysi metall yaxshi kesiladi?",
+   "a": [
+    "Kam uglerodli po'lat",
+    "Alyuminiy",
+    "Mis",
+    "Cho'yan"
+   ],
+   "e": "Kesiluvchanlik sharti."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz kesgichi (rezak) gorelkadan nimasi bilan farq qiladi?",
+   "a": [
+    "Kesuvchi kislorod kanali bor",
+    "Faqat rangi bilan farq qiladi",
+    "Farqi yo'q",
+    "Gazsiz ishlaydi"
+   ],
+   "e": "Rezak."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Plazma kesishning afzalligi nima?",
+   "a": [
+    "Tez va har xil metallarni kesadi",
+    "Faqat yog'ochni kesadi, metallga ta'sir qilmaydi",
+    "Juda sekin va noaniq",
+    "Afzalligi yo'q"
+   ],
+   "e": "Plazma."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz alangasida qizdirib egishning afzalligi nima?",
+   "a": [
+    "Metall plastikligi oshadi",
+    "Metall mo'rtlashib sinadi",
+    "Metall muzlaydi",
+    "Afzalligi yo'q"
+   ],
+   "e": "Termik ishlov."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz kavsharlash (payka) payvandlashdan nimasi bilan farq qiladi?",
+   "a": [
+    "Asosiy metall erimaydi",
+    "Asosiy metall to'liq eriydi",
+    "Farqi yo'q",
+    "Gaz ishlatilmaydi"
+   ],
+   "e": "Payka."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Kavsharlashda flyusning vazifasi nima?",
+   "a": [
+    "Oksidlarni eritish",
+    "Metallni bo'yash va bezash",
+    "Kavsharni sovutish",
+    "Kerak emas"
+   ],
+   "e": "Flyus."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Metallmas materiallarga (plastik) issiqlik bilan ishlov qanday bajariladi?",
+   "a": [
+    "Issiq havo yoki qizdirilgan asbob bilan",
+    "Atsetilen-kislorod alangasida to'g'ridan-to'g'ri",
+    "Elektr yoyi bilan",
+    "Ishlov berilmaydi"
+   ],
+   "e": "Plastik payvand."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz bilan ishlash joyida yong'in xavfsizligi uchun nima bo'lishi kerak?",
+   "a": [
+    "O't o'chirgich va qum",
+    "Benzin va moy idishlari",
+    "Hech narsa",
+    "Yog'och qipig'i"
+   ],
+   "e": "Yong'in."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz ballonlari issiqlik manbaidan qancha uzoqda bo'lishi kerak?",
+   "a": [
+    "Isitgichdan 1 m, alangadan 5 m",
+    "10 sm",
+    "Masofa ahamiyatsiz",
+    "Yonma-yon"
+   ],
+   "e": "Me'yor."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz shlanglari rangiga ko'ra qanday farqlanadi?",
+   "a": [
+    "Kislorod — ko'k, atsetilen — qizil",
+    "Ikkalasi ham oq",
+    "Kislorod — qizil, atsetilen — ko'k",
+    "Farqlanmaydi"
+   ],
+   "e": "Shlang ranglari."
+  },
+  {
+   "b": "Gaz alangasida ishlov berish",
+   "q": "Gaz shlangining germetikligi qanday tekshiriladi?",
+   "a": [
+    "Sovunli eritma bilan",
+    "Gugurt yoqib",
+    "Hidlab",
+    "Tekshirilmaydi"
+   ],
+   "e": "Germetiklik."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Tokarlik dastgohida qanday sirtlar ishlanadi?",
+   "a": [
+    "Aylanish sirtlari (silindr, konus, torets)",
+    "Faqat tekis to'rtburchak sirtlar va kvadratlar",
+    "Faqat tishli g'ildirak tishlari",
+    "Faqat teshiklarsiz listlar"
+   ],
+   "e": "Tokarlik."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Tokarlik dastgohining asosiy qismlari qaysilar?",
+   "a": [
+    "Stanina, babkalar, support",
+    "Faqat stol, kreslo va lampa",
+    "Faqat dvigatel",
+    "Faqat kesgich"
+   ],
+   "e": "Tuzilishi."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Tokarlik dastgohida detal qayerga mahkamlanadi?",
+   "a": [
+    "Shpindeldagi patronga",
+    "Orqa babkaning pinoliga faqat, patronsiz",
+    "Supportga",
+    "Stanina oyog'iga"
+   ],
+   "e": "Patron."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Uch kulachokli patronning xususiyati nima?",
+   "a": [
+    "Detalni o'zi markazlaydi",
+    "Detalni faqat qo'lda, alohida markazlash kerak",
+    "Faqat kvadrat detallar uchun",
+    "Faqat yog'och uchun"
+   ],
+   "e": "Samotsentriruyushchiy."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Orqa babkaning vazifasi nima?",
+   "a": [
+    "Uzun detalni tutish, parmalash",
+    "Shpindelni aylantirish va tezlikni berish",
+    "Kesgichni mahkamlash",
+    "Moylash"
+   ],
+   "e": "Zadnyaya babka."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Support vazifasi nima?",
+   "a": [
+    "Kesgichni mahkamlash va surish",
+    "Detalni aylantirish va tormozlash",
+    "Moy berish",
+    "Yoritish"
+   ],
+   "e": "Support."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "16K20 dastgoh markasidagi \"1\" raqami nimani bildiradi?",
+   "a": [
+    "Tokarlik guruhini",
+    "Frezalash guruhini",
+    "Parmalash guruhini",
+    "Ishlab chiqarilgan yilni"
+   ],
+   "e": "Stanok guruhi."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "16K20 markasidagi \"20\" nimani bildiradi?",
+   "a": [
+    "Markazlar balandligi 200 mm",
+    "Dastgoh og'irligi 20 tonna",
+    "20 tezlik",
+    "20 kVt quvvat"
+   ],
+   "e": "Belgilanish."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Kesish tezligi qanday hisoblanadi?",
+   "a": [
+    "v = πDn/1000 (m/min)",
+    "v = D + n",
+    "v = n / D",
+    "v = D · t"
+   ],
+   "e": "Formula."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Kesish rejimi elementlari qaysilar?",
+   "a": [
+    "Tezlik, surish, chuqurlik",
+    "Faqat dastgohning rangi va og'irligi",
+    "Faqat detal narxi",
+    "Faqat ishchi soni"
+   ],
+   "e": "Rejim."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Surish (podacha) nima?",
+   "a": [
+    "Bir aylanishdagi siljish",
+    "Detalning og'irligi kilogrammda",
+    "Shpindel aylanish soni",
+    "Kesish chuqurligi"
+   ],
+   "e": "S, mm/ayl."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Kesish chuqurligi (t) nima?",
+   "a": [
+    "Bir o'tishdagi qatlam qalinligi",
+    "Detal uzunligi millimetrda",
+    "Kesgich uzunligi",
+    "Shpindel tezligi"
+   ],
+   "e": "t, mm."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Diametri 50 mm detal 500 ayl/min aylansa, kesish tezligi taxminan qancha?",
+   "a": [
+    "≈78 m/min",
+    "≈25 m/min",
+    "≈250 m/min",
+    "≈7,8 m/min"
+   ],
+   "e": "3,14·50·500/1000."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "O'tuvchi (prokhodnoy) kesgich nima uchun ishlatiladi?",
+   "a": [
+    "Tashqi silindrik sirtni yo'nish",
+    "Detalni bo'laklarga kesib ajratish",
+    "Rezba ochish",
+    "Ichki teshik yo'nish"
+   ],
+   "e": "Prokhodnoy rezets."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Kesib tushiruvchi (otreznoy) kesgich vazifasi nima?",
+   "a": [
+    "Kesib ajratish, ariqcha ochish",
+    "Tashqi silindrni yo'nish",
+    "Rezba ochish",
+    "Konus yo'nish"
+   ],
+   "e": "Otreznoy."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Ichki teshikni kengaytirish uchun qaysi kesgich ishlatiladi?",
+   "a": [
+    "Yo'nuvchi (rastochnoy) kesgich",
+    "O'tuvchi tashqi kesgich",
+    "Kesib tushiruvchi",
+    "Rezba kesgichi faqat"
+   ],
+   "e": "Rastochnoy."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Tokarlik dastgohida rezba qanday ochiladi?",
+   "a": [
+    "Rezba kesgichi yoki metchik",
+    "Faqat payvandlash orqali",
+    "Faqat egov bilan",
+    "Ochilmaydi"
+   ],
+   "e": "Rezba."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Tezkesar po'latga misol qaysi?",
+   "a": [
+    "R6M5",
+    "T15K6",
+    "VK8",
+    "St3"
+   ],
+   "e": "Bystrorezh."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "T15K6 qattiq qotishmasi qaysi materialni ishlash uchun mo'ljallangan?",
+   "a": [
+    "Po'lat",
+    "Cho'yan",
+    "Yog'och",
+    "Plastik"
+   ],
+   "e": "TK guruhi."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "VK8 qattiq qotishmasi asosan qaysi materialni ishlash uchun?",
+   "a": [
+    "Cho'yan va rangli metallar",
+    "Faqat zanglamas po'lat",
+    "Yog'och",
+    "Shisha"
+   ],
+   "e": "VK guruhi."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Moylash-sovutish suyuqligi (SOJ) nima uchun ishlatiladi?",
+   "a": [
+    "Sovutish, ishqalanishni kamaytirish",
+    "Detalni bo'yash va zanglatish uchun",
+    "Dastgohni og'irlashtirish",
+    "Shovqinni oshirish"
+   ],
+   "e": "SOJ."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Konus yo'nish usullaridan biri qaysi?",
+   "a": [
+    "Yuqori supportni burab",
+    "Shpindelni to'xtatib, qo'lda egov bilan",
+    "Orqa babkani olib tashlab, kesgichsiz",
+    "Yo'nib bo'lmaydi"
+   ],
+   "e": "Konus."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Detal o'lchamini 0,1 mm aniqlikda o'lchash uchun nima ishlatiladi?",
+   "a": [
+    "Shtangensirkul",
+    "Ruletka",
+    "Lineyka faqat",
+    "Shovun"
+   ],
+   "e": "Shtangentsirkul."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "0,01 mm aniqlikda o'lchash uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Mikrometr",
+    "Ruletka",
+    "Lineyka",
+    "Shtangensirkul (0,1)"
+   ],
+   "e": "Mikrometr."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Tokarlikda xavfsizlik uchun qaysi talab majburiy?",
+   "a": [
+    "Himoya ko'zoynagi va yengsiz kiyim",
+    "Keng yengli kiyim va qo'lqop bilan aylanayotgan detalni ushlash",
+    "Patron kalitini patronda qoldirish",
+    "Himoya to'siqlarini olib tashlash"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Patron kalitini patronda qoldirish nima uchun xavfli?",
+   "a": [
+    "Ishga tushganda uchib ketadi",
+    "Kalit tezda zanglaydi",
+    "Xavfli emas",
+    "Patron sinadi faqat"
+   ],
+   "e": "Jarohat."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Qirindini qanday olib tashlash kerak?",
+   "a": [
+    "To'xtatib, ilgak bilan",
+    "Ishlab turganda yalang qo'l bilan",
+    "Og'iz bilan puflab",
+    "Olib tashlanmaydi"
+   ],
+   "e": "Qirindi."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "Tokarlik-revolver dastgohining xususiyati nima?",
+   "a": [
+    "Bir nechta asbob revolver boshda",
+    "Faqat bitta kesgich, qo'lda almashtiriladi",
+    "Faqat yog'och uchun",
+    "Faqat rezba uchun"
+   ],
+   "e": "Revolver."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "CNC (RDB) dastgohning afzalligi nima?",
+   "a": [
+    "Dastur bo'yicha yuqori aniqlik",
+    "Faqat qo'lda boshqariladi, aniqlik past",
+    "Elektrsiz ishlaydi",
+    "Afzalligi yo'q"
+   ],
+   "e": "ChPU."
+  },
+  {
+   "b": "Tokarlik dastgohlarida ishlov berish",
+   "q": "G-kod nima?",
+   "a": [
+    "CNC dasturlash buyruqlari",
+    "Detalning sifat sertifikati",
+    "Ishchi tabel raqami",
+    "Kesgich markasi"
+   ],
+   "e": "G-code."
+  },
+  {
+   "b": "Frezalash",
+   "q": "Frezalash dastgohida asosiy harakat nima?",
+   "a": [
+    "Frezaning aylanishi",
+    "Detalning aylanishi, frezaning harakatsizligi",
+    "Stolning tebranishi",
+    "Detalning qizishi"
+   ],
+   "e": "Bosh harakat."
+  },
+  {
+   "b": "Frezalash",
+   "q": "Frezalashda qanday sirtlar ishlanadi?",
+   "a": [
+    "Tekisliklar, ariqlar, tishlar",
+    "Faqat aylanish sirtlari (silindrlar)",
+    "Faqat teshiklar",
+    "Faqat rezba"
+   ],
+   "e": "Frezalash."
+  },
+  {
+   "b": "Frezalash",
+   "q": "Torets frezasi qanday ishda qo'llanadi?",
+   "a": [
+    "Katta tekis sirtlarni ishlashda",
+    "Ichki rezbalarni ochishda faqat",
+    "Teshik parmalashda",
+    "Detal kesib ajratishda"
+   ],
+   "e": "Tortsevaya freza."
+  },
+  {
+   "b": "Frezalash",
+   "q": "Barmoqsimon freza qanday ishda qo'llanadi?",
+   "a": [
+    "Ariq va chuqurchalar ochishda",
+    "Katta tekisliklarni bir o'tishda ishlashda",
+    "Detalni sayqallashda",
+    "Rezba ochishda"
+   ],
+   "e": "Kontsevaya freza."
+  },
+  {
+   "b": "Frezalash",
+   "q": "Disk freza nima uchun ishlatiladi?",
+   "a": [
+    "Ariqlar va kesish uchun",
+    "Faqat katta tekisliklar uchun",
+    "Sayqallash uchun",
+    "Parmalash uchun"
+   ],
+   "e": "Diskovaya."
+  },
+  {
+   "b": "Frezalash",
+   "q": "Bo'luvchi bosh (delitelnaya golovka) vazifasi nima?",
+   "a": [
+    "Detalni teng qismlarga burab bo'lish",
+    "Detalni qizdirib toblash va sovutish uchun",
+    "Frezani o'tkirlash",
+    "Moylash"
+   ],
+   "e": "Tish ochish."
+  },
+  {
+   "b": "Frezalash",
+   "q": "6R82 dastgoh markasidagi \"6\" nimani bildiradi?",
+   "a": [
+    "Frezalash guruhini",
+    "Tokarlik guruhini",
+    "Parmalash guruhini",
+    "Silliqlash guruhini"
+   ],
+   "e": "Guruh."
+  },
+  {
+   "b": "Frezalash",
+   "q": "Qarama-qarshi va yo'ldosh frezalashning farqi nima?",
+   "a": [
+    "Freza va surish yo'nalishlari nisbati",
+    "Faqat frezaning rangi, o'lchami va markasi",
+    "Farqi yo'q",
+    "Faqat detal materiali"
+   ],
+   "e": "Vstrechnoe i poputnoe."
+  },
+  {
+   "b": "Frezalash",
+   "q": "Frezalashda detal qanday mahkamlanadi?",
+   "a": [
+    "Iskanja (tiski) yoki maxsus moslamada",
+    "Qo'lda ushlab turiladi, mahkamlamasdan",
+    "Mahkamlanmaydi",
+    "Yelim bilan"
+   ],
+   "e": "Mahkamlash."
+  },
+  {
+   "b": "Frezalash",
+   "q": "Frezalashda tish ochish (tishli g'ildirak) qaysi usulda bajariladi?",
+   "a": [
+    "Modulli freza va bo'luvchi bosh bilan",
+    "Faqat egov bilan qo'lda, bo'luvchi boshsiz",
+    "Payvandlash bilan",
+    "Quyish bilan faqat"
+   ],
+   "e": "Tishlar."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Belgilash (razmetka) nima?",
+   "a": [
+    "Detal sirtiga ishlov chiziqlarini tushirish",
+    "Detalni bo'yab, ustiga nom va raqam yozish",
+    "Detalni tortish",
+    "Detalni sotish"
+   ],
+   "e": "Razmetka."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Belgilash uchun qaysi asboblar ishlatiladi?",
+   "a": [
+    "Chizgich, kerner, sirkul, rejalash plitasi",
+    "Faqat bolg'a va kelma",
+    "Faqat payvand apparati va gaz gorelkasi",
+    "Faqat arra"
+   ],
+   "e": "Asboblar."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Kerner vazifasi nima?",
+   "a": [
+    "Markaz nuqtasini belgilash",
+    "Metallni zubilo bilan kesib ajratish",
+    "Teshikni kengaytirish",
+    "Rezba ochish"
+   ],
+   "e": "Kerner."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Metallni kesish (rubka) uchun nima ishlatiladi?",
+   "a": [
+    "Zubilo va bolg'a",
+    "Kerner va sirkul",
+    "Mikrometr",
+    "Shtangensirkul"
+   ],
+   "e": "Rubka."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Egovlash (opilivanie) nima?",
+   "a": [
+    "Egov bilan qatlam olib, shakl berish",
+    "Metallni payvandlab ulash va choklash",
+    "Metallni qizdirib egish",
+    "Metallni bo'yash"
+   ],
+   "e": "Opilivanie."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Egovlar tishlari qalinligiga ko'ra qanday bo'linadi?",
+   "a": [
+    "Dag'al, shaxsiy, barxat",
+    "Faqat qizil va ko'k",
+    "Faqat qisqa va uzun",
+    "Bo'linmaydi"
+   ],
+   "e": "Nasechka."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Parmalash nima?",
+   "a": [
+    "Parma bilan teshik ochish",
+    "Mavjud teshikni rezbalash va kengaytirish",
+    "Sirtni sayqallash",
+    "Metallni egish"
+   ],
+   "e": "Sverlenie."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Zenkerlash nima uchun bajariladi?",
+   "a": [
+    "Teshikni kengaytirish va aniqligini oshirish",
+    "Parmasiz, yangi teshik ochish uchun",
+    "Rezba kesish",
+    "Detalni kesib ajratish"
+   ],
+   "e": "Zenkerovanie."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Razvertkalash nima?",
+   "a": [
+    "Teshikni yuqori aniqlikda yakuniy ishlash",
+    "Teshikni dag'al ochish",
+    "Tashqi rezba kesish",
+    "Payvandlash"
+   ],
+   "e": "Razvertyvanie."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Ichki rezba qanday asbob bilan ochiladi?",
+   "a": [
+    "Metchik",
+    "Plashka",
+    "Kerner",
+    "Zubilo"
+   ],
+   "e": "Metchik."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Tashqi rezba qanday asbob bilan kesiladi?",
+   "a": [
+    "Plashka",
+    "Metchik",
+    "Kerner",
+    "Razvertka"
+   ],
+   "e": "Plashka."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "M10 rezba uchun teshik diametri taxminan qancha olinadi?",
+   "a": [
+    "8,5 mm",
+    "10 mm",
+    "12 mm",
+    "5 mm"
+   ],
+   "e": "Rezba qadami 1,5."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Metallni qo'l arra bilan kesishda arra tishlari qayerga qaratiladi?",
+   "a": [
+    "Oldinga (o'zidan)",
+    "Orqaga (o'ziga)",
+    "Yuqoriga",
+    "Ahamiyatsiz"
+   ],
+   "e": "Nozhovka."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Iskanja (tiski) vazifasi nima?",
+   "a": [
+    "Ishlov paytida detalni mahkam ushlash",
+    "Detalni qizdirish va toblash uchun moslama",
+    "Detalni o'lchash",
+    "Detalni bo'yash"
+   ],
+   "e": "Tiski."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "To'g'rilash (pravka) nima?",
+   "a": [
+    "Egilgan detalni tekislash",
+    "Detalni ataylab egib, burchak hosil qilish",
+    "Detalni payvandlash",
+    "Detalni kesish"
+   ],
+   "e": "Pravka."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Metallni egishda nima hisobga olinadi?",
+   "a": [
+    "Material plastikligi va egilish radiusi",
+    "Faqat detal rangi, narxi va ishlab chiqaruvchisi",
+    "Faqat ishchi yoshi",
+    "Hech narsa"
+   ],
+   "e": "Gibka."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Parchinlash (klepka) qanday birikma?",
+   "a": [
+    "Ajralmas birikma",
+    "Ajraladigan birikma",
+    "Vaqtinchalik birikma",
+    "Yelimli birikma"
+   ],
+   "e": "Zaklepka."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Shabrovka (qirib tekislash) nima uchun bajariladi?",
+   "a": [
+    "Sirtlarni yuqori aniqlikda moslash",
+    "Metallni dag'al kesib, ortiqcha qismini olish",
+    "Rezba ochish",
+    "Teshik parmalash"
+   ],
+   "e": "Shabrenie."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Chilangarlik ishlarida himoya ko'zoynagi qachon majburiy?",
+   "a": [
+    "Kesish, parmalash va charxlashda",
+    "Faqat belgilash va o'lchash ishlarida",
+    "Hech qachon",
+    "Faqat o'lchashda"
+   ],
+   "e": "Ko'z himoyasi."
+  },
+  {
+   "b": "Chilangarlik ishlari",
+   "q": "Charx (zatochnoy stanok) bilan ishlashda nima muhim?",
+   "a": [
+    "Himoya ekrani va to'g'ri tirgak oralig'i",
+    "Himoya ekranini olib tashlab, qo'lqopsiz ishlash",
+    "Qo'lqopsiz detalni toshga bosish",
+    "Hech narsa"
+   ],
+   "e": "Zatochka."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Defektoskopiya nima?",
+   "a": [
+    "Buzmasdan nuqson aniqlash",
+    "Detalni sindirib, ichini ko'rish usuli",
+    "Detalni bo'yash texnologiyasi",
+    "Detalni payvandlash"
+   ],
+   "e": "NK."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Vizual-o'lchov nazorati nimadan boshlanadi?",
+   "a": [
+    "Chokni ko'zdan kechirish va o'lchash",
+    "Darhol rentgen nurlari bilan tekshirish",
+    "Detalni kesib ko'rish",
+    "Hech narsadan"
+   ],
+   "e": "VIK."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Kapillyar (rangli) defektoskopiya qanday nuqsonlarni aniqlaydi?",
+   "a": [
+    "Yuzaga chiqqan yoriqlarni",
+    "Faqat ichki chuqur bo'shliqlarni",
+    "Faqat metall tarkibini",
+    "Faqat qattiqlikni"
+   ],
+   "e": "Penetrant."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Magnit-kukun usuli qaysi materiallarga qo'llanadi?",
+   "a": [
+    "Ferromagnit materiallarga",
+    "Alyuminiy va mis kabi magnitlanmaydigan metallarga",
+    "Plastikka",
+    "Shishaga"
+   ],
+   "e": "Magnit."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Ultratovush defektoskopiyasi qanday ishlaydi?",
+   "a": [
+    "Nuqsondan qaytgan tovush asosida",
+    "Metallni qizdirib, rangiga qarab",
+    "Metallni magnitlab",
+    "Metallni tortib"
+   ],
+   "e": "UZK."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Ultratovush nazoratida datchik va detal orasiga nima surtiladi?",
+   "a": [
+    "Kontakt suyuqligi (gel, moy)",
+    "Quruq qum",
+    "Hech narsa",
+    "Bo'yoq"
+   ],
+   "e": "Akustik kontakt."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Radiografik nazorat qanday ishlaydi?",
+   "a": [
+    "Nurlar bilan tasvir olish",
+    "Ultratovush to'lqinini yuborib eshitish",
+    "Ko'z bilan qarab",
+    "Qo'l bilan sezib"
+   ],
+   "e": "RK."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Radiografik nazoratda xavfsizlik uchun nima talab qilinadi?",
+   "a": [
+    "Radiatsiyadan himoya",
+    "Hech qanday himoya kerak emas",
+    "Faqat qo'lqop",
+    "Faqat niqob"
+   ],
+   "e": "Radiatsiya."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Vixrtok (uyurma tok) usuli nimani aniqlaydi?",
+   "a": [
+    "Yuza nuqsonlarini (o'tkazgichda)",
+    "Faqat yog'och ichidagi yoriqlarni",
+    "Faqat plastik rangini",
+    "Faqat og'irlikni"
+   ],
+   "e": "Vikhretokovyy."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Payvand chokining germetikligi qanday sinaladi?",
+   "a": [
+    "Gidravlik, pnevmatik, kerosin sinovi",
+    "Faqat chokni bo'yab ko'rish",
+    "Sinalmaydi",
+    "Faqat tashqi ko'rinish"
+   ],
+   "e": "Germetichnost."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Kerosin sinovida chokning qaysi tomoniga bo'r surtiladi?",
+   "a": [
+    "Bir tomoni bo'r, biri kerosin",
+    "Ikkala tomoniga ham faqat kerosin",
+    "Faqat bo'yoq",
+    "Hech narsa"
+   ],
+   "e": "Kerosin probasi."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Mexanik sinovlarga nima kiradi?",
+   "a": [
+    "Cho'zish, egish, zarbaga sinash",
+    "Faqat ko'z bilan qarash va hidlash",
+    "Faqat bo'yash",
+    "Faqat o'lchash"
+   ],
+   "e": "Mexanicheskie ispytaniya."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Qattiqlik qaysi usullarda o'lchanadi?",
+   "a": [
+    "Brinell, Rokvell, Vikkers",
+    "Faqat Selsiy va Kelvin",
+    "Faqat Volt",
+    "Faqat Om"
+   ],
+   "e": "Qattiqlik."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Nuqsonli chok aniqlansa nima qilinadi?",
+   "a": [
+    "Olib tashlab, qayta payvandlanadi",
+    "E'tiborsiz qoldirib, bo'yab qo'yiladi",
+    "Detal sotiladi",
+    "Hech narsa"
+   ],
+   "e": "Ta'mir."
+  },
+  {
+   "b": "Defektoskopiya va sifat nazorati",
+   "q": "Defektoskopist mutaxassisi uchun nima talab qilinadi?",
+   "a": [
+    "Malaka sertifikati",
+    "Hech qanday hujjat kerak emas",
+    "Faqat haydovchilik guvohnomasi",
+    "Faqat pasport"
+   ],
+   "e": "Attestatsiya."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Texnologik jarayon nima?",
+   "a": [
+    "Tayyorlamadan detal olish jarayoni",
+    "Zavod ishchilarining ish vaqti jadvali",
+    "Mahsulot reklamasi",
+    "Mahsulot narxi"
+   ],
+   "e": "Texprotsess."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Texnologik operatsiya nima?",
+   "a": [
+    "Bir ish joyidagi jarayon qismi",
+    "Butun zavodning yillik ishlab chiqarishi",
+    "Mahsulotni sotish",
+    "Ombor hisobi"
+   ],
+   "e": "Operatsiya."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Tayyorlama (zagotovka) olish usullari qaysilar?",
+   "a": [
+    "Quyish, prokat, shtamplash",
+    "Faqat bo'yash va lak qoplash",
+    "Faqat o'lchash",
+    "Faqat sotib olish"
+   ],
+   "e": "Zagotovka."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Texnologik baza nima?",
+   "a": [
+    "O'rnatish va o'lchash sirti",
+    "Zavodning asosiy binosi",
+    "Ombor",
+    "Kesgich"
+   ],
+   "e": "Baza."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Aniqlik kvaliteti (IT) nima?",
+   "a": [
+    "O'lcham aniqligi darajasi",
+    "Detal og'irligi darajasi",
+    "Detal rangi",
+    "Detal narxi"
+   ],
+   "e": "Kvalitet."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Qaysi kvalitet aniqroq?",
+   "a": [
+    "IT6",
+    "IT14",
+    "IT12",
+    "IT16"
+   ],
+   "e": "Kichik raqam aniqroq."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Dopusk nima?",
+   "a": [
+    "Eng katta va kichik o'lcham farqi",
+    "Detalning nominal o'lchami",
+    "Detal og'irligi",
+    "Detal narxi"
+   ],
+   "e": "Dopusk."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Posadka nima?",
+   "a": [
+    "Detallarning birikish xarakteri",
+    "Detalni omborga joylash",
+    "Detalni bo'yash",
+    "Detalni tortish"
+   ],
+   "e": "Posadka."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Oraliqli posadka nimani ta'minlaydi?",
+   "a": [
+    "Detallar erkin harakatlanadi",
+    "Detallar zich, qo'zg'almas birikadi",
+    "Payvandlangan birikma",
+    "Yelimli birikma"
+   ],
+   "e": "Posadka s zazorom."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Taranglikli posadka nimani ta'minlaydi?",
+   "a": [
+    "Qo'zg'almas birikma",
+    "Erkin aylanish",
+    "Oraliq bilan erkin harakat",
+    "Ajraladigan erkin birikma"
+   ],
+   "e": "S natyagom."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Sirt g'adir-budurligi qanday belgilanadi?",
+   "a": [
+    "Ra (mkm)",
+    "HRC",
+    "IT",
+    "MPa"
+   ],
+   "e": "Sherokhovatost."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Texnologik xarita nima?",
+   "a": [
+    "Operatsiya, asbob, rejim hujjati",
+    "Zavodning geografik joylashuv xaritasi",
+    "Ishchilar ro'yxati",
+    "Mahsulot narxi"
+   ],
+   "e": "Tekhnologicheskaya karta."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Termik ishlovning turlari qaysilar?",
+   "a": [
+    "Toblash, bo'shatish, yumshatish",
+    "Faqat bo'yash va sayqallash",
+    "Faqat payvandlash",
+    "Faqat kesish"
+   ],
+   "e": "Termoobrabotka."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Toblash (zakalka) nima beradi?",
+   "a": [
+    "Qattiqlikni oshiradi",
+    "Metallni yumshatib, plastik qiladi",
+    "Metall rangini o'zgartiradi faqat",
+    "Hech narsa"
+   ],
+   "e": "Zakalka."
+  },
+  {
+   "b": "Mashinasozlik texnologiyasi asoslari",
+   "q": "Bo'shatish (otpusk) nima uchun o'tkaziladi?",
+   "a": [
+    "Mo'rtlikni kamaytirish",
+    "Qattiqlikni maksimal darajaga oshirish",
+    "Metallni eritish",
+    "Metallni payvandlash"
+   ],
+   "e": "Otpusk."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "St3 po'lati qaysi guruhga kiradi?",
+   "a": [
+    "Oddiy sifatli uglerodli po'lat",
+    "Yuqori legirlangan zanglamas po'lat",
+    "Cho'yan",
+    "Rangli metall"
+   ],
+   "e": "Konstruksion po'lat."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "12X18N10T po'lati qanday po'lat?",
+   "a": [
+    "Zanglamas (xrom-nikelli) po'lat",
+    "Oddiy uglerodli konstruksion po'lat",
+    "Cho'yan",
+    "Alyuminiy qotishmasi"
+   ],
+   "e": "Austenit po'lat."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "Po'lat markasidagi \"X\" harfi nimani bildiradi?",
+   "a": [
+    "Xrom",
+    "Nikel",
+    "Marganets",
+    "Kremniy"
+   ],
+   "e": "Legirlovchi element."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "Po'lat markasidagi \"N\" harfi nimani bildiradi?",
+   "a": [
+    "Nikel",
+    "Xrom",
+    "Azot faqat",
+    "Volfram"
+   ],
+   "e": "Legirlash."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "Payvandlanuvchanlik nima?",
+   "a": [
+    "Sifatli chok hosil qilish qobiliyati",
+    "Metallning elektr tokini o'tkazish qobiliyati",
+    "Metall rangi",
+    "Metall og'irligi"
+   ],
+   "e": "Svarivaemost."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "Qaysi po'lat eng yaxshi payvandlanadi?",
+   "a": [
+    "Kam uglerodli po'lat",
+    "Yuqori uglerodli asbob po'lati",
+    "Cho'yan",
+    "Toblangan po'lat"
+   ],
+   "e": "Uglerod ta'siri."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "Alyuminiyni payvandlashning qiyinligi nimada?",
+   "a": [
+    "Oksid plyonkasi, issiq o'tkazuvchanlik",
+    "Juda yuqori erish harorati va mo'rtlik",
+    "Magnitlanishi",
+    "Qiyinligi yo'q"
+   ],
+   "e": "Al2O3."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "Misni payvandlashda nimaga e'tibor beriladi?",
+   "a": [
+    "Oldindan qizdirish kerak",
+    "Mis erimaydi, payvandlab bo'lmaydi",
+    "Mis magnitlanadi",
+    "Hech narsa"
+   ],
+   "e": "Mis."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "Cho'yan qanday qotishma?",
+   "a": [
+    "Temir va uglerod (2,14% dan ko'p)",
+    "Temir va mis aralashmasi",
+    "Alyuminiy va magniy",
+    "Faqat toza temir"
+   ],
+   "e": "Chugun."
+  },
+  {
+   "b": "Materiallar va payvandlanuvchanlik",
+   "q": "Po'latda uglerod miqdori qancha?",
+   "a": [
+    "2,14% gacha",
+    "5–10%",
+    "20%",
+    "0%"
+   ],
+   "e": "Stal."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Quvurlarni uchma-uch payvandlashdan oldin nima qilinadi?",
+   "a": [
+    "Fask olinib, markazlanadi",
+    "Quvur uchlari bo'yalib, moylanadi",
+    "Quvurlar qizdirib egiladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Tayyorlov."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Burilmaydigan quvur choklari qanday holatda payvandlanadi?",
+   "a": [
+    "Barcha fazoviy holatlarda (aylana bo'ylab)",
+    "Faqat pastki holatda",
+    "Faqat ship holatida",
+    "Payvandlanmaydi"
+   ],
+   "e": "Neporotnyy styk."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Gaz quvurlarini payvandlashdan keyin nima qilinadi?",
+   "a": [
+    "Sifat nazorati va bosim sinovi",
+    "Darhol gaz yuborilib ishlatiladi",
+    "Faqat bo'yaladi",
+    "Hech narsa"
+   ],
+   "e": "Ispytanie."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Polietilen quvurlar qanday payvandlanadi?",
+   "a": [
+    "Qizdirib yoki elektromufta bilan",
+    "Elektr yoyi va po'lat elektrod bilan",
+    "Atsetilen alangasi bilan",
+    "Payvandlanmaydi"
+   ],
+   "e": "PE quvurlar."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Polipropilen quvurlarni payvandlash harorati taxminan qancha?",
+   "a": [
+    "260 °C atrofida",
+    "50 °C",
+    "1000 °C",
+    "3000 °C"
+   ],
+   "e": "Diffuzion payvand."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Rezbali birikmalarni germetiklash uchun nima ishlatiladi?",
+   "a": [
+    "Zig'ir tolasi yoki FUM lenta",
+    "Oddiy qog'oz",
+    "Qum",
+    "Hech narsa"
+   ],
+   "e": "Germetik."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Quvur egish uchun qanday asbob ishlatiladi?",
+   "a": [
+    "Quvur egish moslamasi",
+    "Kerner",
+    "Metchik",
+    "Shtangensirkul"
+   ],
+   "e": "Trubogib."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Quvurlarni kesish uchun qaysi asbob qulay?",
+   "a": [
+    "Quvur kesgich (truborez)",
+    "Kerner",
+    "Sirkul",
+    "Egov faqat"
+   ],
+   "e": "Truborez."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Isitish tizimidagi quvurlarni payvandlashdan keyin qanday sinov o'tkaziladi?",
+   "a": [
+    "Gidravlik (bosimli suv) sinovi",
+    "Faqat ko'z bilan qarash",
+    "Sinovsiz ishga tushiriladi",
+    "Faqat bo'yash"
+   ],
+   "e": "Opressovka."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Chilangar-santexnik ishida qaysi asbob rezbali birikmani buraydi?",
+   "a": [
+    "Quvur kaliti (gazovyy klyuch)",
+    "Kerner",
+    "Zubilo",
+    "Shovun"
+   ],
+   "e": "Trubnyy klyuch."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Elektrochilangar kim?",
+   "a": [
+    "Elektr jihozini ta'mirlovchi chilangar",
+    "Faqat quvurlarni payvandlovchi",
+    "Faqat bo'yoqchi",
+    "Faqat duradgor"
+   ],
+   "e": "Elektroslesar."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Elektrogazpayvandchi qanday ishlarni bajaradi?",
+   "a": [
+    "Yoy va gaz bilan payvand, kesish",
+    "Faqat elektr simlarini o'rnatish",
+    "Faqat bo'yash",
+    "Faqat o'lchash"
+   ],
+   "e": "Kasb."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Sanitar-texnik uzel nima?",
+   "a": [
+    "Quvur va armatura yig'masi",
+    "Elektr shkafi",
+    "Payvand apparati",
+    "Kran"
+   ],
+   "e": "Uzel."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Zadvijka va ventilning farqi nima?",
+   "a": [
+    "Zadvijka to'liq ochadi, ventil rostlaydi",
+    "Farqi yo'q, bir xil",
+    "Ventil faqat gaz uchun",
+    "Zadvijka faqat elektr uchun"
+   ],
+   "e": "Armatura."
+  },
+  {
+   "b": "Quvurlarni payvandlash va sanitar-texnik ishlar",
+   "q": "Teskari klapan vazifasi nima?",
+   "a": [
+    "Oqimni faqat bir yo'nalishda o'tkazish",
+    "Oqimni ikkala yo'nalishda erkin o'tkazish",
+    "Bosimni oshirish",
+    "Suvni isitish"
+   ],
+   "e": "Obratnyy klapan."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "Elektrod diametri 4 mm bo'lsa, tok taxminan qancha?",
+   "a": [
+    "120–160 A",
+    "20–40 A",
+    "300–400 A",
+    "10 A"
+   ],
+   "e": "30–40 A/mm."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "Tok 100 A, yoy kuchlanishi 25 V bo'lsa, yoy quvvati qancha?",
+   "a": [
+    "2,5 kVt",
+    "25 kVt",
+    "0,25 kVt",
+    "125 kVt"
+   ],
+   "e": "P = U·I."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "1 kg elektrod bilan taxminan qancha chok metali hosil bo'ladi (cho'kish koeffitsiyenti 0,7)?",
+   "a": [
+    "0,7 kg",
+    "1,7 kg",
+    "0,07 kg",
+    "7 kg"
+   ],
+   "e": "Koeffitsiyent."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "Kesish tezligi 100 m/min, detal diametri 100 mm. Shpindel aylanish chastotasi taxminan?",
+   "a": [
+    "≈318 ayl/min",
+    "≈1000 ayl/min",
+    "≈31 ayl/min",
+    "≈3140 ayl/min"
+   ],
+   "e": "n = 1000v/πD."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "Surish 0,2 mm/ayl, aylanish 500 ayl/min. Minutlik surish qancha?",
+   "a": [
+    "100 mm/min",
+    "10 mm/min",
+    "2500 mm/min",
+    "0,4 mm/min"
+   ],
+   "e": "S·n."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "Detal uzunligi 200 mm, minutlik surish 100 mm/min. Bir o'tish vaqti taxminan?",
+   "a": [
+    "2 min",
+    "20 min",
+    "0,5 min",
+    "200 min"
+   ],
+   "e": "L/Sm."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "Diametr 60 mm dan 54 mm ga yo'nildi. Bir o'tishda olingan kesish chuqurligi (bir o'tish)?",
+   "a": [
+    "3 mm",
+    "6 mm",
+    "1,5 mm",
+    "54 mm"
+   ],
+   "e": "(D−d)/2."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "M12 rezbaning qadami (yirik) qancha?",
+   "a": [
+    "1,75 mm",
+    "1 mm",
+    "3 mm",
+    "0,5 mm"
+   ],
+   "e": "Standart."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "0,05 mm aniqlikdagi shtangensirkul noniusi nechta bo'linmali?",
+   "a": [
+    "20 ta",
+    "10 ta",
+    "50 ta",
+    "100 ta"
+   ],
+   "e": "Nonius."
+  },
+  {
+   "b": "Amaliy hisoblar",
+   "q": "Payvandchi ish smenasida 8 soat, yoy yonish koeffitsiyenti 0,5. Yoy yonish vaqti?",
+   "a": [
+    "4 soat",
+    "8 soat",
+    "2 soat",
+    "0,5 soat"
+   ],
+   "e": "Koeffitsiyent."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Yoy uzunligi odatda qancha bo'lishi kerak?",
+   "a": [
+    "Elektrod diametricha",
+    "Elektrod diametridan 5–10 marta uzun",
+    "Nolga teng",
+    "100 mm"
+   ],
+   "e": "Qisqa yoy."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Uzun yoyning salbiy ta'siri nima?",
+   "a": [
+    "Sachrash va g'ovaklik",
+    "Chok sifatining keskin yaxshilanishi",
+    "Tokning ortishi va erishning chuqurlashishi",
+    "Ta'siri yo'q"
+   ],
+   "e": "Dlinnaya duga."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Yoyni yoqish usullari qaysilar?",
+   "a": [
+    "Tegizib-ko'tarish, chaqish",
+    "Faqat suv sepish usuli",
+    "Faqat gaz gorelkasi bilan",
+    "Faqat zarb bilan sindirib"
+   ],
+   "e": "Zajiganie dugi."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Elektrodni payvandlashda qanday qiyalikda ushlash tavsiya etiladi?",
+   "a": [
+    "Chokka nisbatan 15–30° qiyalikda",
+    "Mutlaqo gorizontal, detalga parallel",
+    "Teskari, 180° burchakda",
+    "Ahamiyatsiz"
+   ],
+   "e": "Naklon elektroda."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Elektrodning ko'ndalang tebranma harakati nima uchun kerak?",
+   "a": [
+    "Kerakli kenglikdagi chok olish",
+    "Elektrodni sovutish uchun",
+    "Shlakni ko'paytirish uchun",
+    "Kerak emas"
+   ],
+   "e": "Poperechnye kolebaniya."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Kraterni payvandlash yakunida nima qilinadi?",
+   "a": [
+    "Krater to'ldiriladi",
+    "Krater ochiq qoldiriladi",
+    "Krater kengaytiriladi",
+    "Krater bo'yaladi"
+   ],
+   "e": "Krater yoriq beradi."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Choklarni teskari pog'onali usulda payvandlash nima beradi?",
+   "a": [
+    "Deformatsiyani kamaytiradi",
+    "Deformatsiyani kuchaytiradi",
+    "Tezlikni ikki baravar oshiradi",
+    "Hech narsa"
+   ],
+   "e": "Teskari pog'onali usul."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Payvandlangan detalni sekin sovutish nima uchun kerak?",
+   "a": [
+    "Yoriqlarni kamaytirish",
+    "Detalni tezroq ishlatish uchun",
+    "Chokni toblash uchun",
+    "Kerak emas"
+   ],
+   "e": "Sovutish."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Payvanddan keyingi termik ishlov nima uchun o'tkaziladi?",
+   "a": [
+    "Qoldiq kuchlanishni yo'qotish",
+    "Chokni ko'proq mo'rt qilish",
+    "Detalni bo'yash",
+    "Kerak emas"
+   ],
+   "e": "Otpusk."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Payvand chokining belgilanishi chizmada qanday ko'rsatiladi?",
+   "a": [
+    "Shartli belgi bilan",
+    "Faqat yozma tushuntirish bilan, belgisiz",
+    "Ko'rsatilmaydi",
+    "Faqat rang bilan"
+   ],
+   "e": "GOST belgisi."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Payvand chokining kateti nima?",
+   "a": [
+    "Burchakli chok kichik tomoni",
+    "Chok uzunligi",
+    "Elektrod uzunligi",
+    "Detal qalinligi"
+   ],
+   "e": "Katet."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Payvandchining malaka razryadi nimani bildiradi?",
+   "a": [
+    "Kasbiy mahorat darajasini",
+    "Payvandchining yoshi va stajini faqat",
+    "Ish haqi miqdorini",
+    "Ish joyini"
+   ],
+   "e": "Razryad."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Bosim ostidagi idishlarni payvandlash uchun nima talab qilinadi?",
+   "a": [
+    "Attestatsiyali payvandchi",
+    "Har qanday shogird payvandchi",
+    "Hech qanday talab",
+    "Faqat oddiy elektr montyor"
+   ],
+   "e": "NAKS kabi attestatsiya."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Payvandchi ishga kirishdan oldin qanday instruktajdan o'tadi?",
+   "a": [
+    "Kirish va ish joyidagi instruktaj",
+    "Hech qanday instruktaj",
+    "Faqat yilda bir marta",
+    "Faqat imtihon"
+   ],
+   "e": "Instruktaj."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Payvand yoyining nurlari ko'zga qanday ta'sir qiladi?",
+   "a": [
+    "Ko'z kuyishi",
+    "Ko'rishni yaxshilaydi",
+    "Ta'sir qilmaydi",
+    "Faqat uyqu keltiradi"
+   ],
+   "e": "UB nurlar."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Payvand tutuni tarkibida qanday zararli moddalar bo'ladi?",
+   "a": [
+    "Marganets va metall oksidlari",
+    "Faqat toza kislorod",
+    "Faqat suv bug'i",
+    "Zararli emas"
+   ],
+   "e": "Svarochnyy aerozol."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Sig'im (bak) ichida payvandlashda qaysi qoida majburiy?",
+   "a": [
+    "Kuzatuvchi va ventilyatsiya",
+    "Yolg'iz, ventilyatsiyasiz ishlash",
+    "Gaz ballonini ichkariga kiritish",
+    "Hech qanday qoida"
+   ],
+   "e": "Yopiq hajm."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Yonuvchi suyuqlik bo'lgan idishni payvandlashdan oldin nima qilinadi?",
+   "a": [
+    "Tozalab, bug'lab, gaz tahlili",
+    "Darhol, tozalamasdan payvandlanadi",
+    "Benzin bilan yuviladi",
+    "Hech narsa"
+   ],
+   "e": "Portlash xavfi."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Balandlikda payvandlashda nima talab qilinadi?",
+   "a": [
+    "Kamar va to'siqlar",
+    "Himoyasiz, narvonsiz ishlash",
+    "Faqat qo'lqop",
+    "Talab yo'q"
+   ],
+   "e": "Balandlik."
+  },
+  {
+   "b": "Payvandlash texnologiyasi: qo'shimcha",
+   "q": "Payvandlash tugagach ish joyida nima qilinadi?",
+   "a": [
+    "Apparat o'chiriladi, tekshiriladi",
+    "Apparat yoqiq qoldiriladi",
+    "Elektrodlar yerga tashlanadi",
+    "Hech narsa"
+   ],
+   "e": "Ish yakuni."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "Domna pechida nima ishlab chiqariladi?",
+   "a": [
+    "Cho'yan",
+    "Alyuminiy",
+    "Mis",
+    "Plastik"
+   ],
+   "e": "Domna."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "Po'lat qayerda eritiladi?",
+   "a": [
+    "Konvertor yoki yoy pechida",
+    "Domna pechida faqat",
+    "Oddiy gulxanda",
+    "Muzlatkichda"
+   ],
+   "e": "Staleplavilnoe."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "Prokat stani vazifasi nima?",
+   "a": [
+    "Jo'valar orasida siqish",
+    "Metallni eritish va quyish",
+    "Metallni payvandlash",
+    "Metallni bo'yash"
+   ],
+   "e": "Prokatka."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "O'zbekistondagi yirik metallurgiya korxonasi qaysi?",
+   "a": [
+    "Bekobod metallurgiya kombinati",
+    "Chorvoq GES",
+    "Navoiy aeroporti",
+    "Toshkent metrosi"
+   ],
+   "e": "Bekobod."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "Olmaliq KMK qanday mahsulot ishlab chiqaradi?",
+   "a": [
+    "Mis, rux, qimmatbaho metallar",
+    "Paxta tolasi",
+    "Avtomobillar",
+    "Oziq-ovqat"
+   ],
+   "e": "Rangli metallurgiya."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "Metallurgiya jihozlariga texnik xizmatda nima muhim?",
+   "a": [
+    "Rejali ta'mir va moylash",
+    "Jihozlarni buzilguncha ishlatish",
+    "Hech narsa",
+    "Faqat bo'yash"
+   ],
+   "e": "PPR."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "Kran-balka vazifasi nima?",
+   "a": [
+    "Yuk ko'tarish va ko'chirish",
+    "Metallni payvandlash",
+    "Metallni eritish",
+    "Detalni o'lchash"
+   ],
+   "e": "Ko'tarish mexanizmi."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "Ko'tarish mexanizmlari bilan ishlashda kim ruxsat oladi?",
+   "a": [
+    "Attestatsiyali xodim",
+    "Har qanday xodim",
+    "Faqat o'quvchi",
+    "Hech kim"
+   ],
+   "e": "Ruxsat."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "Strop bilan yukni ilishda qaysi qoida muhim?",
+   "a": [
+    "Strop sozligi, to'g'ri ilish",
+    "Shikastlangan stropni ishlatish",
+    "Yuk ostida turish",
+    "Qoida yo'q"
+   ],
+   "e": "Stropovka."
+  },
+  {
+   "b": "Metallurgiya va jihozlar (qo'shimcha)",
+   "q": "Gidravlik press qanday prinsipda ishlaydi?",
+   "a": [
+    "Paskal qonuni asosida",
+    "Arximed qonuni asosida",
+    "Om qonuni asosida",
+    "Nyutonning uchinchi qonuni faqat"
+   ],
+   "e": "Press."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Silliqlash dastgohida qanday asbob bilan ishlov beriladi?",
+   "a": [
+    "Abraziv tosh (charx doirasi)",
+    "Tezkesar po'latdan yasalgan o'tuvchi kesgich",
+    "Metchik",
+    "Plashka"
+   ],
+   "e": "Shlifovanie."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Silliqlash qachon qo'llanadi?",
+   "a": [
+    "Yuqori aniqlik va silliqlik uchun",
+    "Dag'al, katta qatlamni bir o'tishda olish uchun",
+    "Rezba ochish uchun faqat",
+    "Payvandlash uchun"
+   ],
+   "e": "Pardozlash."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Parmalash dastgohida parma qanday mahkamlanadi?",
+   "a": [
+    "Patron yoki konusli vtulkada",
+    "Yelim bilan",
+    "Payvandlab",
+    "Qo'lda ushlab, mahkamlamasdan ishlatiladi"
+   ],
+   "e": "Sverlilnyy stanok."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Parmaning o'tkirlash burchagi (po'lat uchun) odatda qancha?",
+   "a": [
+    "118°",
+    "45°",
+    "180°",
+    "10°"
+   ],
+   "e": "Standart."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Randalash (strogalnyy) dastgohida asosiy harakat qanday?",
+   "a": [
+    "To'g'ri chiziqli ilgarilama-qaytma",
+    "Aylanma",
+    "Tebranma",
+    "Harakatsiz"
+   ],
+   "e": "Strogalnyy."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Dastgohlarni moylash qanday hujjat asosida bajariladi?",
+   "a": [
+    "Moylash xaritasi",
+    "Ishchining xohishiga ko'ra",
+    "Hech qanday hujjatsiz",
+    "Faqat buzilganda"
+   ],
+   "e": "Smazka."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Dastgoh ishlayotganda o'lchash mumkinmi?",
+   "a": [
+    "Yo'q, to'xtatib o'lchanadi",
+    "Ha, har doim",
+    "Ha, qo'lqopda",
+    "Ha, ishlov tezroq bo'lishi uchun ishlab turganda"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Detal tayyorlama sifatida bolg'alangan (pokovka) qachon tanlanadi?",
+   "a": [
+    "Yuqori mustahkamlik kerak bo'lganda",
+    "Faqat bezak detallari uchun",
+    "Hech qachon",
+    "Faqat plastik detallar uchun"
+   ],
+   "e": "Pokovka."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Quyma tayyorlamaning afzalligi nima?",
+   "a": [
+    "Murakkab shaklni olish imkoni",
+    "Har doim eng yuqori mustahkamlik",
+    "Ishlov talab qilmaydi",
+    "Afzalligi yo'q"
+   ],
+   "e": "Litye."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Ishlov berish qo'yimi (pripusk) nima?",
+   "a": [
+    "Ishlov paytida olinadigan qatlam",
+    "Tayyor detalning umumiy og'irligi",
+    "Detal narxi",
+    "Detal rangi"
+   ],
+   "e": "Pripusk."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Texnik nazorat bo'limi (OTK) vazifasi nima?",
+   "a": [
+    "Mahsulot sifatini nazorat qilish",
+    "Mahsulotni sotish va reklama qilish",
+    "Xodimlarni ishga olish",
+    "Ish haqi hisoblash"
+   ],
+   "e": "OTK."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Kalibrlar (proboxlar) nima uchun ishlatiladi?",
+   "a": [
+    "O'lcham chegaralarini tez tekshirish",
+    "Detalni kesish uchun",
+    "Detalni tortish uchun",
+    "Detalni payvandlash va bo'yash uchun"
+   ],
+   "e": "Kalibr."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "\"O'tadi–o'tmaydi\" kalibri nimani tekshiradi?",
+   "a": [
+    "O'lcham dopusk ichidaligini",
+    "Detal rangini",
+    "Detalning og'irligi va materialini",
+    "Detal haroratini"
+   ],
+   "e": "Prokhodnoy-neprokhodnoy."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Indikator soat nima uchun ishlatiladi?",
+   "a": [
+    "Kichik og'ishlar va urilishni o'lchash",
+    "Vaqtni o'lchash",
+    "Haroratni o'lchash",
+    "Detal harorati va bosimni o'lchash"
+   ],
+   "e": "Indikator."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Burchaklarni o'lchash uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Uglomer (burchak o'lchagich)",
+    "Mikrometr",
+    "Ruletka",
+    "Shovun"
+   ],
+   "e": "Uglomer."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Mashinasozlikda unifikatsiya nima?",
+   "a": [
+    "Detallar turlarini kamaytirib, bir xillashtirish",
+    "Har bir detalni noyob va boshqacha qilish",
+    "Detallarni bo'yash",
+    "Ishchilarni birlashtirish"
+   ],
+   "e": "Unifikatsiya."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Standartlashtirishning afzalligi nima?",
+   "a": [
+    "O'zaro almashinuvchanlik va arzonlik",
+    "Detallarning bir-biriga mos kelmasligi",
+    "Xarajatning oshishi",
+    "Afzalligi yo'q"
+   ],
+   "e": "Standart."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "O'zaro almashinuvchanlik nima?",
+   "a": [
+    "Detalni moslashsiz almashtirish imkoniyati",
+    "Detallarni har safar moslab qirib o'rnatish",
+    "Detallarni sotish",
+    "Detallarni payvandlash"
+   ],
+   "e": "Vzaimozamenyaemost."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Mashina detallari yeyilishining asosiy sababi nima?",
+   "a": [
+    "Ishqalanish",
+    "Bo'yoq rangi",
+    "Detal og'irligi",
+    "Shamol"
+   ],
+   "e": "Iznos."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Detal yeyilishini kamaytirish uchun nima qilinadi?",
+   "a": [
+    "Moylash va sirtni qattiqlashtirish",
+    "Moylamasdan, yuklamani oshirib ishlatish",
+    "Yuklamani oshirish",
+    "Hech narsa"
+   ],
+   "e": "Profilaktika."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Payvandlab qoplash (naplavka) nima uchun ishlatiladi?",
+   "a": [
+    "Yeyilgan sirtni tiklash",
+    "Detalni kesib ajratish",
+    "Detalni bo'yash",
+    "Detalni o'lchash"
+   ],
+   "e": "Naplavka."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Metallizatsiya (purkash) nima?",
+   "a": [
+    "Erigan metallni sirtga purkab qoplash",
+    "Metallni muzlatish",
+    "Metallni sindirish",
+    "Metallni oddiy moyli bo'yoq bilan bo'yash"
+   ],
+   "e": "Napylenie."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Payvandlash ishlarini mexanizatsiyalashning afzalligi nima?",
+   "a": [
+    "Unumdorlik va sifat oshadi",
+    "Unumdorlik pasayadi",
+    "Xarajat keskin oshadi, sifat tushadi",
+    "Afzalligi yo'q"
+   ],
+   "e": "Mexanizatsiya."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Payvandchi kasbiy rivojlanishi uchun nima muhim?",
+   "a": [
+    "Yangi texnologiyalarni o'rganish va attestatsiya",
+    "Faqat bitta eski usulda, o'qimasdan ishlash",
+    "O'qimaslik",
+    "Faqat ish stajini kutish"
+   ],
+   "e": "Malaka oshirish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Payvandlash ishlari uchun o'quv ustaxonasida asosiy talab nima?",
+   "a": [
+    "Ventilyatsiya, himoya to'siqlari, xavfsiz jihozlar",
+    "Ochiq simlar va ventilyatsiyasiz yopiq xona",
+    "Talab yo'q",
+    "Faqat chiroyli bezak"
+   ],
+   "e": "O'quv ustaxonasi."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Payvand apparati simlarining kesimi nimaga qarab tanlanadi?",
+   "a": [
+    "Payvandlash tokiga qarab",
+    "Simning rangiga qarab",
+    "Payvandchi yoshiga qarab",
+    "Ahamiyatsiz"
+   ],
+   "e": "Kabel kesimi."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Payvandlash kabelining izolyatsiyasi shikastlansa nima qilinadi?",
+   "a": [
+    "Ishlatish to'xtatilib, almashtiriladi",
+    "Izolentasiz ishlatish davom ettiriladi",
+    "Suvga botiriladi",
+    "Hech narsa"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "\"Massa\" (qaytuvchi) kabeli qayerga ulanadi?",
+   "a": [
+    "Payvandlanayotgan detalga yaqin joyga",
+    "Binoning suv quvuriga",
+    "Elektr rozetkaga",
+    "Hech qayerga"
+   ],
+   "e": "Obratnyy provod."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Payvandlash paytida elektrod detalga yopishib qolsa nima qilinadi?",
+   "a": [
+    "Elektrod ushlagich burab ajratiladi",
+    "Qo'l bilan elektrodni ushlab tortiladi",
+    "Apparat o'chirilmaydi, kutiladi",
+    "Hech narsa"
+   ],
+   "e": "Prilipanie."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Elektrod ushlagich (derjak) qanday bo'lishi kerak?",
+   "a": [
+    "Izolyatsiyalangan va soz",
+    "Ochiq metall, izolyatsiyasiz",
+    "Yog'och, simsiz",
+    "Ahamiyatsiz"
+   ],
+   "e": "Elektrododerjatel."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Payvandlashda sachrashni kamaytirish uchun nima qilinadi?",
+   "a": [
+    "To'g'ri tok va qisqa yoy tanlanadi",
+    "Tok maksimal oshiriladi",
+    "Yoy uzaytiriladi",
+    "Nam elektrod ishlatiladi"
+   ],
+   "e": "Bryzgi."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Chok qavariqligi juda katta bo'lsa bu qanday nuqson?",
+   "a": [
+    "Ortiqcha kuchaytirish (shakl nuqsoni)",
+    "Ideal chok belgisi",
+    "Neprovar",
+    "Hech qanday nuqson emas"
+   ],
+   "e": "Forma shva."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Payvand chokidagi shlak qo'shilmasi sababi nima?",
+   "a": [
+    "Qatlamlar orasida shlakni tozalamaslik",
+    "Shlakni har qatlamdan so'ng tozalash",
+    "To'g'ri tok",
+    "Toza elektrod"
+   ],
+   "e": "Shlakovoe vklyuchenie."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Qaysi asbob chokni shlakdan tozalaydi?",
+   "a": [
+    "Bolg'acha va metall cho'tka",
+    "Shtangensirkul",
+    "Mikrometr",
+    "Kerner"
+   ],
+   "e": "Tozalash."
+  },
+  {
+   "b": "Yakuniy savollar 2",
+   "q": "Payvand chok sifatini baholashda qaysi hujjat asos bo'ladi?",
+   "a": [
+    "Standartlar va texnik shartlar",
+    "Payvandchining shaxsiy fikri",
+    "Mijozning taxmini",
+    "Hech qanday hujjat"
+   ],
+   "e": "Normativ."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Elektroshlak payvandlash qaysi detallar uchun qo'llanadi?",
+   "a": [
+    "Juda qalin detallar",
+    "Faqat yupqa listlar",
+    "Faqat plastik",
+    "Faqat simlar"
+   ],
+   "e": "Elektroshlakovaya."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Ishqalanish bilan payvandlash qanday ishlaydi?",
+   "a": [
+    "Ishqalanish issiqligi va bosim",
+    "Gaz alangasi va flyus bilan",
+    "Elektr yoyi bilan",
+    "Yelim bilan"
+   ],
+   "e": "Svarka treniem."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Diffuzion payvandlash qanday sharoitda bajariladi?",
+   "a": [
+    "Vakuum, yuqori harorat va bosimda",
+    "Ochiq havoda, sovuq holda, bosimsiz",
+    "Suv ostida faqat",
+    "Faqat gaz alangasida"
+   ],
+   "e": "Diffuziya."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Suv ostida payvandlash uchun nima kerak?",
+   "a": [
+    "Maxsus elektrod, g'avvos tayyorgarligi",
+    "Oddiy elektrod va tayyorgarliksiz ishchi",
+    "Mumkin emas",
+    "Faqat gaz alangasi"
+   ],
+   "e": "Podvodnaya svarka."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Payvandlashda \"ildiz chok\" nima?",
+   "a": [
+    "Birinchi, pastki qatlam",
+    "Chokning eng ustki bezak qatlami",
+    "Chok uzunligi",
+    "Elektrod turi"
+   ],
+   "e": "Kornevoy shov."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Bezak (oblitsovka) qatlami nima?",
+   "a": [
+    "Chokning oxirgi, ustki qatlami",
+    "Chokning birinchi ildiz qatlami",
+    "Shlak qatlami",
+    "Bo'yoq qatlami"
+   ],
+   "e": "Oblitsovochnyy sloy."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Payvand chokining ildiz tomonini himoyalash uchun (zanglamasda) nima ishlatiladi?",
+   "a": [
+    "Argon bilan puflash (podduv)",
+    "Kislorod bilan puflash",
+    "Suv quyish",
+    "Hech narsa"
+   ],
+   "e": "Zashchita kornya."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Zanglamas po'latni payvandlashda nima muhim?",
+   "a": [
+    "Issiqlik kiritishni cheklash",
+    "Maksimal issiqlik va uzoq qizdirish",
+    "Oddiy uglerodli elektrod ishlatish",
+    "Hech narsa"
+   ],
+   "e": "Karbid hosil bo'lishi."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Alyuminiyni TIG payvandlashda qanday tok ishlatiladi?",
+   "a": [
+    "O'zgaruvchan tok",
+    "Faqat o'zgarmas to'g'ri qutbli",
+    "Tok kerak emas",
+    "Faqat impulssiz"
+   ],
+   "e": "Oksid plyonkani buzish."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Payvand apparatining PV (ishlash davomiyligi) ko'rsatkichi nimani bildiradi?",
+   "a": [
+    "Yuklama ostida ishlash ulushi",
+    "Apparatning og'irligini",
+    "Apparat narxini",
+    "Kabel uzunligini"
+   ],
+   "e": "PV %."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "PV 60% bo'lsa 10 daqiqalik siklda apparat necha daqiqa ishlaydi?",
+   "a": [
+    "6 daqiqa",
+    "4 daqiqa",
+    "10 daqiqa",
+    "60 daqiqa"
+   ],
+   "e": "10·0,6."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Payvand apparati qizib ketsa nima qilinadi?",
+   "a": [
+    "Sovushi uchun to'xtatiladi",
+    "Tok oshirib ishlatish davom etadi",
+    "Suv quyiladi",
+    "Hech narsa"
+   ],
+   "e": "Peregrev."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Elektrodlarni saqlash sharoiti qanday bo'lishi kerak?",
+   "a": [
+    "Quruq, isitiladigan xonada",
+    "Nam yerto'lada",
+    "Ochiq havoda yomg'irda",
+    "Suv yonida"
+   ],
+   "e": "Saqlash."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Elektrod qoplamasi shikastlangan bo'lsa nima qilinadi?",
+   "a": [
+    "Ishlatilmaydi",
+    "Odatdagidek ishlatiladi",
+    "Qayta bo'yaladi",
+    "Suvga botiriladi"
+   ],
+   "e": "Sifat."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Payvandlangan konstruksiyani qabul qilishda nima tekshiriladi?",
+   "a": [
+    "O'lcham, chok, hujjatlar",
+    "Faqat konstruksiya rangi",
+    "Faqat payvandchi ismi",
+    "Hech narsa"
+   ],
+   "e": "Priyomka."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Payvandchi ish joyini qanday tashkil etadi?",
+   "a": [
+    "Qulay va xavfsiz tashkil etiladi",
+    "Asboblar tartibsiz, yonuvchi materiallar yonida",
+    "Ish joyi tashkil etilmaydi",
+    "Faqat chiroq yoqiladi"
+   ],
+   "e": "Rabochee mesto."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Payvand ustaxonasida ish joylari bir-biridan qanday ajratiladi?",
+   "a": [
+    "Yonmaydigan ekranlar bilan",
+    "Ajratilmaydi",
+    "Matolar bilan",
+    "Qog'oz bilan"
+   ],
+   "e": "Ekran."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Payvandlashda yong'in sodir bo'lsa birinchi navbatda nima qilinadi?",
+   "a": [
+    "Apparat o'chirilib, o't o'chiriladi",
+    "Payvandlash davom ettiriladi",
+    "Suv quyiladi elektr ostida",
+    "Hech narsa"
+   ],
+   "e": "Yong'in."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Elektr toki urgan payvandchiga yordamda birinchi qadam nima?",
+   "a": [
+    "Tokni uzish",
+    "Qo'l bilan tortib olish",
+    "Suv sepish",
+    "Kutish"
+   ],
+   "e": "Birinchi yordam."
+  },
+  {
+   "b": "Yakuniy savollar 3",
+   "q": "Payvandchilik kasbi bo'yicha zamonaviy talablardan biri qaysi?",
+   "a": [
+    "Raqamli jihozlarni bilish",
+    "Faqat qo'l mehnati",
+    "Yangi texnologiyalarni rad etish",
+    "Hech narsa"
+   ],
+   "e": "Zamonaviy kasb."
+  }
+ ],
+ "kalit": "payvandlash payvandchi tokarlik frezalash chilangar defektoskopiya metall"
+}
