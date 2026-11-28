@@ -1324,6 +1324,38 @@
   {
    "nomi": "Qariyalarda parvarish xususiyatlari",
    "bank": "reabilitatsiya"
+  },
+  {
+   "nomi": "Avtomobillar uzatmalar qutisiga texnik xizmat ko'rsatish va ta'mirlash",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Avtomobil va dvigatellar nazariyasi",
+   "bank": "avtomobillar_tuzilishi"
+  },
+  {
+   "nomi": "Qishloq xo'jalik mashinalari va chorvachilikni mexanizatsiyalashtirish",
+   "bank": "traktorlar"
+  },
+  {
+   "nomi": "Xavfsiz immunizasiya",
+   "bank": "yuqumli_kasalliklar"
+  },
+  {
+   "nomi": "O'simliklar mineral oziqlanishini fiziologik asoslari",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Himoyalangan yer sabzavotchiligi",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Urug'chilik va seleksiya asoslari",
+   "bank": "osimlikshunoslik"
+  },
+  {
+   "nomi": "Uzum yetishtirish",
+   "bank": "osimlikshunoslik"
   }
  ],
  "tez_orada": [
@@ -1390,11 +1422,6 @@
   {
    "id": "tc25be538",
    "nomi": "Tuproqshunoslik",
-   "kat": "qx"
-  },
-  {
-   "id": "t69952755",
-   "nomi": "Qishloq xo'jalik mashinalari va chorvachilikni mexanizatsiyalashtirish",
    "kat": "qx"
   },
   {
@@ -1653,11 +1680,6 @@
    "kat": "qx"
   },
   {
-   "id": "tf747e779",
-   "nomi": "O'simliklar mineral oziqlanishini fiziologik asoslari",
-   "kat": "qx"
-  },
-  {
    "id": "t8386be45",
    "nomi": "Asab-ruhiy va narkologik kasalliklar",
    "kat": "tib"
@@ -1698,11 +1720,6 @@
    "kat": "tib"
   },
   {
-   "id": "tcf177128",
-   "nomi": "Avtomobillar uzatmalar qutisiga texnik xizmat ko'rsatish va ta'mirlash",
-   "kat": "tr"
-  },
-  {
    "id": "t0e9cce7d",
    "nomi": "Suv ta'minoti hamda kanalizatsiya tarmoqlari tizimlarida avtomatika va nazorat o'lchov asboblari",
    "kat": "muh"
@@ -1738,34 +1755,14 @@
    "kat": "xiz"
   },
   {
-   "id": "tce9d7206",
-   "nomi": "Himoyalangan yer sabzavotchiligi",
-   "kat": "qx"
-  },
-  {
-   "id": "t489a74f4",
-   "nomi": "Avtomobil va dvigatellar nazariyasi",
-   "kat": "tr"
-  },
-  {
    "id": "tb991a694",
    "nomi": "Maydalagichlarga texnik xizmat ko'rsatish va ta'mirlash",
    "kat": "muh"
   },
   {
-   "id": "tb0e0b24c",
-   "nomi": "Urug'chilik va seleksiya asoslari",
-   "kat": "qx"
-  },
-  {
    "id": "t892be239",
    "nomi": "Tuproq bonitirovkasi",
    "kat": "qx"
-  },
-  {
-   "id": "tf3f610f9",
-   "nomi": "Xavfsiz immunizasiya",
-   "kat": "tib"
   },
   {
    "id": "t51a2140e",
@@ -1806,11 +1803,6 @@
    "id": "t37703ecf",
    "nomi": "To'qimachilik maxsus texnologiya va jihozlari",
    "kat": "xiz"
-  },
-  {
-   "id": "tbae44e9f",
-   "nomi": "Uzum yetishtirish",
-   "kat": "qx"
   },
   {
    "id": "tf34242cb",
