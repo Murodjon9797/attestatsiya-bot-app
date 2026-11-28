@@ -333,6 +333,2977 @@
     "Faqat xorijiy tilda bo'lishi"
    ],
    "e": "Bolalar ovozi diapazoni cheklangan, ovozni zo'riqtirmaslik kerak."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Yarim nota cho'zimi nechta chorak notaga teng?",
+   "a": [
+    "2 ta",
+    "4 ta",
+    "1 ta",
+    "8 ta"
+   ],
+   "e": "Butun = 2 yarim = 4 chorak."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Bitta chorak nota nechta naqorat (sakkizlik) notaga teng?",
+   "a": [
+    "2 ta",
+    "4 ta",
+    "1 ta",
+    "8 ta"
+   ],
+   "e": "Sakkizlik — 1/8."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Bemol belgisi tovushni qanday o'zgartiradi?",
+   "a": [
+    "Yarim tonga pasaytiradi",
+    "Yarim tonga ko'taradi",
+    "Bir tonga ko'taradi",
+    "Tovushni o'zgartirmaydi"
+   ],
+   "e": "♭."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Bekar belgisi nima qiladi?",
+   "a": [
+    "Diyez va bemolni bekor qiladi",
+    "Tovushni bir tonga ko'taradi",
+    "Tovushni ikki marta takrorlaydi",
+    "Pauzani bildiradi"
+   ],
+   "e": "♮."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Pauza nima?",
+   "a": [
+    "Musiqadagi sukut belgisi",
+    "Tovushni kuchaytirish belgisi",
+    "Tovushni ko'tarish belgisi",
+    "Ritm o'lchovi"
+   ],
+   "e": "Cho'zimlarga mos pauzalar."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Oktavada nechta yarim ton bor?",
+   "a": [
+    "12 ta",
+    "7 ta",
+    "8 ta",
+    "5 ta"
+   ],
+   "e": "Xromatik gamma."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Mi va fa tovushlari orasidagi masofa qancha?",
+   "a": [
+    "Yarim ton",
+    "Butun ton",
+    "Bir yarim ton",
+    "Ikki ton"
+   ],
+   "e": "Si — do ham yarim ton."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Bas kaliti (fa kaliti) nota yo'lining qaysi chizig'ida joylashadi?",
+   "a": [
+    "4-chiziqda",
+    "2-chiziqda",
+    "1-chiziqda",
+    "3-chiziqda"
+   ],
+   "e": "Kichik oktava \"fa\"."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Takt chizig'i nima uchun ishlatiladi?",
+   "a": [
+    "Musiqani taktlarga ajratish",
+    "Tovushni ko'tarish",
+    "Kuy tezligini belgilash",
+    "Ovoz balandligini belgilash"
+   ],
+   "e": "Vertikal chiziq."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "3/4 o'lchov qaysi raqsga xos?",
+   "a": [
+    "Vals",
+    "Marsh",
+    "Polka",
+    "Tango"
+   ],
+   "e": "Uch hissali."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Marsh odatda qanday o'lchovda yoziladi?",
+   "a": [
+    "2/4 yoki 4/4",
+    "3/4 (uch hissali)",
+    "6/8 (olti hissali)",
+    "5/4 (besh hissali)"
+   ],
+   "e": "Juft o'lchov."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "\"Piano\" (p) belgisi qanday ijroni bildiradi?",
+   "a": [
+    "Ohista, past ovozda",
+    "Baland, kuchli ovozda",
+    "Tez sur'atda",
+    "Sekin sur'atda"
+   ],
+   "e": "Dinamika."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "\"Crescendo\" nimani bildiradi?",
+   "a": [
+    "Kuchaytirish",
+    "Pasaytirish",
+    "To'xtatish",
+    "Tezlashtirish"
+   ],
+   "e": "Diminuendo — pasaytirish."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "\"Allegro\" qanday sur'atni bildiradi?",
+   "a": [
+    "Tez, quvnoq",
+    "Sekin, vazmin",
+    "O'rtacha, bir tekis",
+    "Juda sekin, cho'zib"
+   ],
+   "e": "Temp belgisi."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "\"Adagio\" qanday sur'atni bildiradi?",
+   "a": [
+    "Sekin",
+    "Tez",
+    "Juda tez",
+    "O'rtacha tez"
+   ],
+   "e": "Andante — o'rtacha."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Minor lad qanday kayfiyatni ko'proq ifodalaydi?",
+   "a": [
+    "Mungli, g'amgin",
+    "Quvnoq, yorqin",
+    "Tantanali, ulug'vor",
+    "Hazilomuz, o'ynoqi"
+   ],
+   "e": "Major — quvnoq."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Do major gammasida nechta belgi (diyez yoki bemol) bor?",
+   "a": [
+    "Belgi yo'q",
+    "1 ta diyez",
+    "1 ta bemol",
+    "2 ta diyez"
+   ],
+   "e": "Faqat oq klavishlar."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Lya minor gammasi qaysi major gammaga parallel?",
+   "a": [
+    "Do major",
+    "Sol major",
+    "Fa major",
+    "Re major"
+   ],
+   "e": "Parallel tonalliklar."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Sol major gammasida qaysi belgi bor?",
+   "a": [
+    "Fa diyez",
+    "Si bemol",
+    "Do diyez",
+    "Belgi yo'q"
+   ],
+   "e": "1 diyez."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Fa major gammasida qaysi belgi bor?",
+   "a": [
+    "Si bemol",
+    "Fa diyez",
+    "Mi bemol",
+    "Belgi yo'q"
+   ],
+   "e": "1 bemol."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Prima intervali necha pog'onadan iborat?",
+   "a": [
+    "1 pog'ona",
+    "2 pog'ona",
+    "8 pog'ona",
+    "3 pog'ona"
+   ],
+   "e": "Interval nomlari."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Oktava intervali necha pog'onani o'z ichiga oladi?",
+   "a": [
+    "8 pog'ona",
+    "7 pog'ona",
+    "5 pog'ona",
+    "3 pog'ona"
+   ],
+   "e": "Do — do¹."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Uchtovush (triada) qanday tuziladi?",
+   "a": [
+    "Tertsiyalar bo'yicha uch tovush",
+    "Kvartalar bo'yicha ikki tovush",
+    "Sekundalar bo'yicha to'rt tovush",
+    "Bitta tovush takrori"
+   ],
+   "e": "Major va minor uchtovush."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Ritm nima?",
+   "a": [
+    "Cho'zimlarning ketma-ketligi",
+    "Tovush balandligi",
+    "Ovoz tembri",
+    "Cholg'u turi"
+   ],
+   "e": "Musiqa ifoda vositasi."
+  },
+  {
+   "b": "Boshlang'ich musiqa savodi",
+   "q": "Tembr nima?",
+   "a": [
+    "Tovushning o'ziga xos rangi",
+    "Tovush balandligi",
+    "Tovush davomiyligi",
+    "Tovush kuchi"
+   ],
+   "e": "Ovoz yoki cholg'u xususiyati."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Dutor qaysi cholg'ular guruhiga kiradi?",
+   "a": [
+    "Torli-chertma",
+    "Torli-kamonli",
+    "Puflama",
+    "Zarbli"
+   ],
+   "e": "Ikki torli."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Dutorning nechta tori bor?",
+   "a": [
+    "2 ta",
+    "3 ta",
+    "4 ta",
+    "6 ta"
+   ],
+   "e": "\"Du\" — ikki."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Nay qaysi cholg'ular guruhiga kiradi?",
+   "a": [
+    "Puflama",
+    "Torli-chertma",
+    "Zarbli",
+    "Torli-kamonli"
+   ],
+   "e": "Yog'och yoki metall."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Chang qanday cholg'u?",
+   "a": [
+    "Torli-zarbli",
+    "Puflama",
+    "Torli-kamonli",
+    "Membranali zarbli"
+   ],
+   "e": "Cho'plar bilan chalinadi."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Rubob qaysi guruhga kiradi?",
+   "a": [
+    "Torli-chertma",
+    "Puflama",
+    "Zarbli",
+    "Torli-kamonli"
+   ],
+   "e": "Qashqar, afg'on rubobi."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Nog'ora qanday cholg'u?",
+   "a": [
+    "Zarbli",
+    "Puflama",
+    "Torli-chertma",
+    "Torli-kamonli"
+   ],
+   "e": "Karnay-surnay bilan birga."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Qo'shnay qanday cholg'u?",
+   "a": [
+    "Puflama (qamishli)",
+    "Torli-chertma",
+    "Zarbli",
+    "Torli-kamonli"
+   ],
+   "e": "Ikki naychali."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Sato qanday chalinadi?",
+   "a": [
+    "Kamon bilan",
+    "Barmoq bilan chertib",
+    "Puflab",
+    "Cho'p bilan urib"
+   ],
+   "e": "Kamonli tanbur."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "O'zbekiston Respublikasi Davlat madhiyasi musiqasining muallifi kim?",
+   "a": [
+    "Mutal Burhonov",
+    "Muxtor Ashrafiy",
+    "Yunus Rajabiy",
+    "To'xtasin Jalilov"
+   ],
+   "e": "So'zlari — Abdulla Oripov."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "O'zbekiston Davlat madhiyasi so'zlarining muallifi kim?",
+   "a": [
+    "Abdulla Oripov",
+    "Erkin Vohidov",
+    "G'afur G'ulom",
+    "Hamid Olimjon"
+   ],
+   "e": "1992-yil."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "\"Dilorom\" operasining muallifi kim?",
+   "a": [
+    "Muxtor Ashrafiy",
+    "Mutal Burhonov",
+    "Yunus Rajabiy",
+    "Sulaymon Yudakov"
+   ],
+   "e": "Navoiy asari asosida."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Maqom ijrochiligida yetakchi xonanda qanday ataladi?",
+   "a": [
+    "Hofiz",
+    "Baxshi",
+    "Masxaraboz",
+    "Qiziqchi"
+   ],
+   "e": "Maqom ijrochisi."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Shashmaqom qaysi shaharlar bilan ko'proq bog'liq?",
+   "a": [
+    "Buxoro",
+    "Termiz",
+    "Nukus",
+    "Andijon"
+   ],
+   "e": "Buxoro maqomlari."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Xorazm maqomlari qanday ataladi?",
+   "a": [
+    "Olti yarim maqom",
+    "Shashmaqom",
+    "Farg'ona-Toshkent maqom yo'llari",
+    "To'rt maqom"
+   ],
+   "e": "Xorazm an'anasi."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Shashmaqom YUNESKO ro'yxatiga qachon kiritilgan?",
+   "a": [
+    "2003-yilda",
+    "1991-yilda",
+    "1950-yilda",
+    "2020-yilda"
+   ],
+   "e": "Nomoddiy merosning durdonasi."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Lazgi raqsi qaysi viloyatga xos?",
+   "a": [
+    "Xorazm",
+    "Farg'ona",
+    "Surxondaryo",
+    "Toshkent"
+   ],
+   "e": "YUNESKO merosi (2019)."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "\"Yor-yor\" qanday marosim qo'shig'i?",
+   "a": [
+    "To'y qo'shig'i",
+    "Beshik qo'shig'i",
+    "Mehnat qo'shig'i",
+    "Motam qo'shig'i"
+   ],
+   "e": "Kelin kuzatish."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "\"Yor-yor\" qaysi turga mansub?",
+   "a": [
+    "Marosim qo'shiqlari",
+    "Mehnat qo'shiqlari",
+    "Bolalar o'yin qo'shiqlari",
+    "Lirik qo'shiqlar"
+   ],
+   "e": "To'y marosimi."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "\"Sumalak\" qo'shig'i qaysi bayram bilan bog'liq?",
+   "a": [
+    "Navro'z",
+    "Mustaqillik kuni",
+    "Yangi yil",
+    "Ramazon hayiti"
+   ],
+   "e": "Bahor bayrami."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Mehnat qo'shig'iga misol qaysi?",
+   "a": [
+    "\"Qo'sh qo'shig'i\"",
+    "\"Alla\"",
+    "\"Yor-yor\"",
+    "\"Boychechak\""
+   ],
+   "e": "Ish jarayoni bilan bog'liq."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Baxshilar dostonni qaysi cholg'u jo'rligida ijro etadi?",
+   "a": [
+    "Do'mbira",
+    "G'ijjak",
+    "Chang",
+    "Nay"
+   ],
+   "e": "Surxondaryo, Qashqadaryo."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "\"Alpomish\" qanday asar?",
+   "a": [
+    "Qahramonlik dostoni",
+    "Opera",
+    "Simfoniya",
+    "Bolalar qo'shig'i"
+   ],
+   "e": "Baxshilar ijrosi."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Karnay qanday cholg'u?",
+   "a": [
+    "Uzun mis puflama",
+    "Torli-kamonli",
+    "Zarbli membranali",
+    "Torli-chertma"
+   ],
+   "e": "Bayram cholg'usi."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "Doira qanday chalinadi?",
+   "a": [
+    "Barmoq va kaft bilan",
+    "Kamon bilan",
+    "Puflab",
+    "Cho'plar bilan doim"
+   ],
+   "e": "Membranali zarbli."
+  },
+  {
+   "b": "O'zbek musiqa madaniyati",
+   "q": "\"Maqom\" so'zining ma'nosi nima?",
+   "a": [
+    "Parda tizimi, daraja",
+    "Raqs turi",
+    "Qo'shiq matni",
+    "Bayram nomi"
+   ],
+   "e": "Lad tizimi."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "\"Fasllar\" konsertlar turkumining muallifi kim?",
+   "a": [
+    "Antonio Vivaldi",
+    "Volfgang Amadey Motsart",
+    "Iogann Sebastyan Bax",
+    "Pyotr Chaykovskiy"
+   ],
+   "e": "Barokko davri."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "\"Kichik tungi serenada\" asarining muallifi kim?",
+   "a": [
+    "Volfgang Amadey Motsart",
+    "Lyudvig Betxoven",
+    "Frederik Shopen",
+    "Antonio Vivaldi"
+   ],
+   "e": "Klassitsizm."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "\"Shchelkunchik\" baletining muallifi kim?",
+   "a": [
+    "Pyotr Chaykovskiy",
+    "Sergey Prokofyev",
+    "Mixail Glinka",
+    "Nikolay Rimskiy-Korsakov"
+   ],
+   "e": "Yangi yil ertagi."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "\"Oqqush ko'li\" baletining muallifi kim?",
+   "a": [
+    "Pyotr Chaykovskiy",
+    "Sergey Prokofyev",
+    "Igor Stravinskiy",
+    "Modest Musorgskiy"
+   ],
+   "e": "1877-yil."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "\"Hayvonlar karnavali\" asarining muallifi kim?",
+   "a": [
+    "Kamil Sen-Sans",
+    "Edvard Grig",
+    "Iogann Shtraus",
+    "Jorj Bize"
+   ],
+   "e": "\"Oqqush\" pyesasi."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "\"Per Gyunt\" syuitasining muallifi kim?",
+   "a": [
+    "Edvard Grig",
+    "Kamil Sen-Sans",
+    "Jan Sibelius",
+    "Frederik Shopen"
+   ],
+   "e": "\"Tong\", \"Tog' qiroli g'orida\"."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "\"Moviy Dunay\" valsining muallifi kim?",
+   "a": [
+    "Iogann Shtraus",
+    "Frederik Shopen",
+    "Pyotr Chaykovskiy",
+    "Frans Shubert"
+   ],
+   "e": "\"Vals qiroli\"."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Organ musiqasining buyuk ustasi sifatida tanilgan kompozitor kim?",
+   "a": [
+    "Iogann Bax",
+    "Volfgang Motsart",
+    "Pyotr Chaykovskiy",
+    "Jorj Gershvin"
+   ],
+   "e": "Barokko."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Fortepiano uchun noktyurn va mazurkalari bilan mashhur kompozitor kim?",
+   "a": [
+    "Frederik Shopen",
+    "Iogann Bax",
+    "Antonio Vivaldi",
+    "Jorj Bize"
+   ],
+   "e": "Polsha."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "\"Karmen\" operasining muallifi kim?",
+   "a": [
+    "Jorj Bize",
+    "Juzeppe Verdi",
+    "Jakomo Puchchini",
+    "Rixard Vagner"
+   ],
+   "e": "Fransiya."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Simfonik orkestr cholg'ularining asosiy guruhlari qaysilar?",
+   "a": [
+    "Torli, puflama, zarbli",
+    "Faqat torli cholg'ular",
+    "Faqat zarbli cholg'ular",
+    "Faqat elektron cholg'ular"
+   ],
+   "e": "Orkestr guruhlari."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Simfonik orkestrdagi eng baland ovozli torli-kamonli cholg'u qaysi?",
+   "a": [
+    "Skripka",
+    "Kontrabas",
+    "Violonchel",
+    "Alt"
+   ],
+   "e": "Eng kichik."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Fleyta qaysi guruhga kiradi?",
+   "a": [
+    "Yog'och puflama",
+    "Mis puflama",
+    "Torli-kamonli",
+    "Zarbli"
+   ],
+   "e": "Metall bo'lsa ham."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Truba qaysi guruhga kiradi?",
+   "a": [
+    "Mis puflama",
+    "Yog'och puflama",
+    "Torli",
+    "Zarbli"
+   ],
+   "e": "Mis cholg'u."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Litavralar qaysi guruhga kiradi?",
+   "a": [
+    "Zarbli",
+    "Mis puflama",
+    "Torli",
+    "Yog'och puflama"
+   ],
+   "e": "Balandligi aniq zarbli."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Opera nima?",
+   "a": [
+    "Kuylanadigan sahna asari",
+    "Faqat raqsdan iborat sahna asari",
+    "Faqat cholg'u asari",
+    "Faqat she'r o'qish"
+   ],
+   "e": "Musiqa, so'z, sahna."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Balet nima?",
+   "a": [
+    "Raqsli sahna asari",
+    "Faqat kuylanadigan asar",
+    "Faqat she'riy asar",
+    "Faqat cholg'u konserti"
+   ],
+   "e": "So'zsiz."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Simfoniya odatda nechta qismdan iborat?",
+   "a": [
+    "4 ta",
+    "1 ta",
+    "10 ta",
+    "2 ta"
+   ],
+   "e": "Klassik simfoniya."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Sonata nima?",
+   "a": [
+    "Cholg'u uchun ko'p qismli asar",
+    "Xor uchun qo'shiq",
+    "Raqs turi",
+    "Opera qismi"
+   ],
+   "e": "Sonata shakli."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Kantata nima?",
+   "a": [
+    "Vokal-simfonik asar",
+    "Faqat fortepiano pyesasi",
+    "Faqat raqs",
+    "Faqat marsh"
+   ],
+   "e": "Oratoriyaga yaqin."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Konsert (janr) nima?",
+   "a": [
+    "Solist va orkestr asari",
+    "Faqat xor uchun asar",
+    "Faqat bitta qo'shiq",
+    "Faqat raqs"
+   ],
+   "e": "Virtuozlik."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Syuita nima?",
+   "a": [
+    "Pyesalar turkumi",
+    "Bitta qisqa qo'shiq",
+    "Opera uverturasi faqat",
+    "Bitta raqs"
+   ],
+   "e": "Kontrast qismlar."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Uvertura nima?",
+   "a": [
+    "Kirish qismi",
+    "Asarning oxirgi qismi",
+    "Raqs turi",
+    "Xalq qo'shig'i"
+   ],
+   "e": "Kirish."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "Libretto nima?",
+   "a": [
+    "Opera matni",
+    "Opera musiqasi",
+    "Opera dekoratsiyasi",
+    "Opera orkestri"
+   ],
+   "e": "Adabiy asos."
+  },
+  {
+   "b": "Jahon musiqa madaniyati",
+   "q": "\"Ivan Susanin\" operasining muallifi kim?",
+   "a": [
+    "Mixail Glinka",
+    "Pyotr Chaykovskiy",
+    "Sergey Raxmaninov",
+    "Dmitriy Shostakovich"
+   ],
+   "e": "Rus operasi."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "MTTda musiqa mashg'ulotlarini kim olib boradi?",
+   "a": [
+    "Musiqa rahbari",
+    "Faqat oshpaz",
+    "Faqat hamshira",
+    "Faqat qorovul"
+   ],
+   "e": "Tarbiyachi bilan hamkorlikda."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Musiqa mashg'ulotining asosiy qismlari qaysilar?",
+   "a": [
+    "Kirish, asosiy, yakuniy",
+    "Faqat yakuniy qism",
+    "Faqat qo'shiq kuylash",
+    "Faqat raqs"
+   ],
+   "e": "Tuzilma."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Musiqa tinglash faoliyatining maqsadi nima?",
+   "a": [
+    "Idrok etish va his qilish",
+    "Faqat cholg'u chalishni o'rgatish",
+    "Faqat raqs o'rgatish",
+    "Faqat notani yodlash"
+   ],
+   "e": "Musiqiy idrok."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Bolalarda musiqiy qobiliyatlarning asosiy turlari qaysilar?",
+   "a": [
+    "Lad va ritm hissi",
+    "Faqat jismoniy kuch",
+    "Faqat rasm chizish",
+    "Faqat sanash"
+   ],
+   "e": "B. Teplov."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Kichik guruh (3–4 yosh) bolalari ovoz diapazoni taxminan qanday?",
+   "a": [
+    "Re — lya",
+    "Do — do (uch oktava)",
+    "Kichik oktava butunlay",
+    "Ikkinchi oktava yuqorisi"
+   ],
+   "e": "Tor diapazon."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Bolalar ovozini muhofaza qilish uchun nima qilinadi?",
+   "a": [
+    "Baqirmasdan, me'yorida kuylash",
+    "Imkon qadar baland kuylash",
+    "Sovuq havoda ko'p kuylash",
+    "Diapazondan yuqori qo'shiqlar tanlash"
+   ],
+   "e": "Ovoz gigiyenasi."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Musiqiy-ritmik harakatlarga nimalar kiradi?",
+   "a": [
+    "Raqs, o'yin, xorovod",
+    "Faqat yozuv mashqlari",
+    "Faqat rasm chizish",
+    "Faqat kitob o'qish"
+   ],
+   "e": "Harakat orqali."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Bolalar musiqa cholg'ularida chalishga nimadan boshlab o'rgatiladi?",
+   "a": [
+    "Shovqinli cholg'ulardan",
+    "Murakkab skripkadan",
+    "Organdan",
+    "Arfadan"
+   ],
+   "e": "Oddiydan murakkabga."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Metallofon qanday cholg'u?",
+   "a": [
+    "Zarbli-melodik cholg'u",
+    "Puflama cholg'u",
+    "Torli-kamonli cholg'u",
+    "Elektron sintezator"
+   ],
+   "e": "Melodiyani chalish mumkin."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Musiqiy-didaktik o'yinlarning maqsadi nima?",
+   "a": [
+    "O'yin orqali rivojlantirish",
+    "Faqat vaqt o'tkazish",
+    "Faqat jismoniy chiniqtirish",
+    "Faqat sanashni o'rgatish"
+   ],
+   "e": "Masalan, \"Qaysi cholg'u?\"."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Ritm hissini rivojlantirish uchun qaysi mashq samarali?",
+   "a": [
+    "Qarsak bilan takrorlash",
+    "Jim o'tirish",
+    "Faqat rasm ko'rish",
+    "Uzoq uxlash"
+   ],
+   "e": "Ritmik takror."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Qo'shiqni o'rgatishda qanday ketma-ketlik to'g'ri?",
+   "a": [
+    "Tinglash, qismlab o'rganish",
+    "Darhol to'liq yodlatish",
+    "Faqat matnni o'qish",
+    "Faqat musiqasini chalish"
+   ],
+   "e": "Bosqichma-bosqich."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Bolalar bayramlarida musiqa qanday rol o'ynaydi?",
+   "a": [
+    "Estetik tarbiya",
+    "Hech qanday rol o'ynamaydi",
+    "Shunchaki shovqin manbai",
+    "Faqat fon sifatida"
+   ],
+   "e": "Bayram ertaliklari."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Karl Orf tizimining asosiy g'oyasi nima?",
+   "a": [
+    "So'z, harakat, cholg'u birligi",
+    "Faqat nota yozuvini yodlash",
+    "Faqat opera kuylash",
+    "Faqat nazariy bilim"
+   ],
+   "e": "Shovqinli cholg'ular."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Zoltan Kodai metodining xususiyati nima?",
+   "a": [
+    "Qo'l belgilari",
+    "Faqat fortepiano chalish",
+    "Faqat raqs",
+    "Faqat elektron musiqa"
+   ],
+   "e": "Xalq qo'shig'i asosida."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Emil Jak-Dalkroz tizimi nimaga asoslanadi?",
+   "a": [
+    "Ritmika",
+    "Faqat qo'shiq matnini yodlash",
+    "Faqat notani o'qish",
+    "Faqat cholg'u ta'mirlash"
+   ],
+   "e": "Ritmika."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Musiqa rahbarining tarbiyachi bilan hamkorligi nimani o'z ichiga oladi?",
+   "a": [
+    "Faoliyatni birga tashkil etish",
+    "Faqat ovqat tarqatish",
+    "Faqat xonani tozalash",
+    "Hamkorlik kerak emas"
+   ],
+   "e": "Kundalik hayotda musiqa."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Musiqa burchagida nimalar bo'lishi kerak?",
+   "a": [
+    "Bolalar cholg'ulari",
+    "Faqat kattalar uchun kitoblar",
+    "Faqat o'yinchoq mashinalar",
+    "Faqat sport anjomlari"
+   ],
+   "e": "Mustaqil faoliyat."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Bolalar uchun musiqa tanlashda qaysi tamoyil muhim?",
+   "a": [
+    "Badiiylik va yoshga moslik",
+    "Faqat kattalar estrada qo'shiqlari",
+    "Faqat murakkab simfoniyalar",
+    "Faqat reklama musiqasi"
+   ],
+   "e": "Tarbiyaviy qimmat."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Musiqiy tarbiyaning asosiy vazifasi nima?",
+   "a": [
+    "Estetik didni shakllantirish",
+    "Faqat professional musiqachi tayyorlash",
+    "Faqat nota yodlash",
+    "Faqat raqs o'rgatish"
+   ],
+   "e": "Har tomonlama rivojlanish."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Bolalar xorida kuylashda nimaga e'tibor beriladi?",
+   "a": [
+    "Birgalikda kuylash",
+    "Har kim o'z xohishicha",
+    "Imkon qadar baland ovozda",
+    "Faqat navbat bilan yakka"
+   ],
+   "e": "Ansambl hissi."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Nafas mashqlari qo'shiq kuylashda nima uchun kerak?",
+   "a": [
+    "Ovoz barqarorligi uchun",
+    "Faqat jismoniy charchoq uchun",
+    "Faqat dam olish uchun",
+    "Hech qanday foydasi yo'q"
+   ],
+   "e": "Kuylash nafasi."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Kuylashda to'g'ri holat qanday?",
+   "a": [
+    "To'g'ri, bo'shashgan",
+    "Bukchaygan holda",
+    "Yotgan holda",
+    "Boshni egib"
+   ],
+   "e": "Vokal holat."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Bolalarni musiqa tinglashga tayyorlashda o'qituvchi nima qiladi?",
+   "a": [
+    "Qisqa kirish so'zi aytadi",
+    "Hech narsa demay qo'yib beradi",
+    "Uzoq ilmiy ma'ruza o'qiydi",
+    "Bolalarni jazolaydi"
+   ],
+   "e": "Qiziqish uyg'otish."
+  },
+  {
+   "b": "Maktabgacha yoshdagi bolalar musiqiy tarbiyasi metodikasi",
+   "q": "Musiqiy mashg'ulot davomiyligi katta guruhda taxminan qancha?",
+   "a": [
+    "25–30 daqiqa",
+    "5–7 daqiqa",
+    "60–90 daqiqa",
+    "2 soat"
+   ],
+   "e": "Yoshga mos."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Nota yo'lida eng past joylashgan qo'shimcha chiziq qaysi tovush uchun ishlatiladi (skripka kalitida)?",
+   "a": [
+    "Birinchi oktava \"do\"",
+    "Birinchi oktava \"sol\"",
+    "Ikkinchi oktava \"do\"",
+    "Kichik oktava \"lya\""
+   ],
+   "e": "Qo'shimcha chiziqda."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Skripka kalitida 1-chiziqda qaysi nota yoziladi?",
+   "a": [
+    "Mi",
+    "Sol",
+    "Do",
+    "Fa"
+   ],
+   "e": "Birinchi oktava."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Skripka kalitida 3-chiziqda qaysi nota yoziladi?",
+   "a": [
+    "Si",
+    "Lya",
+    "Re",
+    "Sol"
+   ],
+   "e": "Birinchi oktava."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Nota cho'zimini uzaytiruvchi belgi — \"liga\" nima qiladi?",
+   "a": [
+    "Notalarni birlashtiradi",
+    "Notani yarim tonga ko'taradi",
+    "Notani takrorlaydi",
+    "Notani qisqartiradi"
+   ],
+   "e": "Cho'zimlar qo'shiladi."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "\"Fermata\" belgisi nimani bildiradi?",
+   "a": [
+    "Erkin cho'zish",
+    "Tez ijro etish",
+    "Ovozni pasaytirish",
+    "Takrorlash"
+   ],
+   "e": "Ko'z belgisi."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Repriza belgisi nimani bildiradi?",
+   "a": [
+    "Qismni takrorlash",
+    "Asarni tugatish",
+    "Sur'atni tezlatish",
+    "Ovozni pasaytirish"
+   ],
+   "e": "Takror belgisi."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "\"Legato\" qanday ijro usuli?",
+   "a": [
+    "Bog'lab, silliq",
+    "Uzuq-uzuq",
+    "Kuchli urg'u bilan",
+    "Juda tez"
+   ],
+   "e": "Staccato — uzuq."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "\"Staccato\" qanday ijro usuli?",
+   "a": [
+    "Uzuq-uzuq, qisqa",
+    "Bog'lab, silliq",
+    "Cho'zib, tekis",
+    "Ohista, past ovozda"
+   ],
+   "e": "Nuqta bilan belgilanadi."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Metronom nima?",
+   "a": [
+    "Sur'at o'lchagich",
+    "Ovoz kuchaytirgich",
+    "Torli cholg'u",
+    "Nota yozish dasturi"
+   ],
+   "e": "Zarblar soni daqiqada."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Kamerton nima uchun ishlatiladi?",
+   "a": [
+    "Cholg'uni sozlash uchun",
+    "Nota yozish uchun",
+    "Ritmni o'lchash uchun",
+    "Ovozni yozib olish uchun"
+   ],
+   "e": "Etalon tovush."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Birinchi oktava \"lya\" tovushining standart chastotasi qancha?",
+   "a": [
+    "440 Gs",
+    "220 Gs",
+    "880 Gs",
+    "100 Gs"
+   ],
+   "e": "Xalqaro standart."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Tonika nima?",
+   "a": [
+    "Barqaror I pog'ona",
+    "Ladning beshinchi pog'onasi",
+    "Ladning eng yuqori tovushi",
+    "Pauza belgisi"
+   ],
+   "e": "I pog'ona."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Dominanta ladning qaysi pog'onasi?",
+   "a": [
+    "V pog'ona",
+    "I pog'ona",
+    "IV pog'ona",
+    "II pog'ona"
+   ],
+   "e": "Subdominanta — IV."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Subdominanta ladning qaysi pog'onasi?",
+   "a": [
+    "IV pog'ona",
+    "V pog'ona",
+    "I pog'ona",
+    "VII pog'ona"
+   ],
+   "e": "Asosiy funksiyalar."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Major gammada tonlar va yarim tonlar tartibi qanday?",
+   "a": [
+    "ton-ton-yarim-ton-ton-ton-yarim",
+    "yarim-ton-ton-yarim-ton-ton-ton",
+    "ton-yarim-ton-ton-yarim-ton-ton",
+    "Barcha oraliqlar teng"
+   ],
+   "e": "Tabiiy major."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Sinkopa nima?",
+   "a": [
+    "Urg'u ko'chishi",
+    "Kuchli hissadagi odatiy urg'u",
+    "Pauzaning cho'zilishi",
+    "Nota balandligining o'zgarishi"
+   ],
+   "e": "Ritmik hodisa."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Triol nima?",
+   "a": [
+    "Uchga bo'lingan cho'zim",
+    "Uchta ketma-ket pauza",
+    "Uch tovushli akkord",
+    "Uch qismli asar"
+   ],
+   "e": "Odatdagi ikki o'rniga uch."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Kuy (melodiya) nima?",
+   "a": [
+    "Tovushlarning ketma-ketligi",
+    "Bir vaqtda yangragan tovushlar",
+    "Faqat ritm",
+    "Faqat pauzalar"
+   ],
+   "e": "Asosiy ifoda vositasi."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Garmoniya nima?",
+   "a": [
+    "Akkordlar bog'lanishi",
+    "Faqat bitta tovush",
+    "Faqat ritm",
+    "Faqat sur'at"
+   ],
+   "e": "Vertikal."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Polifoniya nima?",
+   "a": [
+    "Mustaqil kuylar uyg'unligi",
+    "Bitta kuy va akkomponement",
+    "Faqat ritmik asar",
+    "Faqat bitta tovush"
+   ],
+   "e": "Bax ijodi."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Musiqiy shakl — \"kuplet\" shakli qanday?",
+   "a": [
+    "Band va naqarot takrori",
+    "Faqat bitta qism",
+    "Uch qismli ABA",
+    "Rondo"
+   ],
+   "e": "Qo'shiqlarda."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Uch qismli (ABA) shaklning xususiyati nima?",
+   "a": [
+    "Birinchi qism qaytadi",
+    "Uch qism butunlay farqli",
+    "Faqat bitta qism takrorlanadi",
+    "Qismlar yo'q"
+   ],
+   "e": "Repriza."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Rondo shaklining xususiyati nima?",
+   "a": [
+    "Mavzu qaytib turadi",
+    "Faqat bitta mavzu",
+    "Faqat ikkita qism",
+    "Mavzu qaytarilmaydi"
+   ],
+   "e": "ABACA."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "Variatsiyalar shakli nima?",
+   "a": [
+    "Mavzuni o'zgartirib takrorlash",
+    "Mavzusiz asar",
+    "Faqat bitta takror",
+    "Faqat ritmik o'zgarishsiz takror"
+   ],
+   "e": "Mavzu va variatsiyalar."
+  },
+  {
+   "b": "Musiqa savodi (davomi)",
+   "q": "A cappella nima?",
+   "a": [
+    "Jo'rsiz kuylash",
+    "Orkestr bilan kuylash",
+    "Faqat cholg'u ijrosi",
+    "Faqat raqs"
+   ],
+   "e": "Xor ijrosi."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "O'zbek kompozitorlar maktabining yirik vakili, \"Dilorom\" operasi muallifi kim?",
+   "a": [
+    "Muxtor Ashrafiy",
+    "Mixail Glinka",
+    "Pyotr Chaykovskiy",
+    "Kamil Sen-Sans"
+   ],
+   "e": "Opera va simfoniyalar."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "Bastakor kim?",
+   "a": [
+    "Og'zaki an'anadagi kuy yaratuvchi",
+    "Faqat nota yozuvi bilan yozuvchi",
+    "Faqat raqqosa",
+    "Faqat dirijyor"
+   ],
+   "e": "Xalq an'anasi."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "Dirijyorning vazifasi nima?",
+   "a": [
+    "Orkestrni boshqarish",
+    "Faqat cholg'u ta'mirlash",
+    "Faqat qo'shiq matni yozish",
+    "Faqat sahna bezash"
+   ],
+   "e": "Jamoa ijrosi."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "Bolalar qo'shiqlarining asosiy xususiyati nima?",
+   "a": [
+    "Sodda kuy va matn",
+    "Murakkab garmoniya",
+    "Juda keng diapazon",
+    "Uzun va murakkab matn"
+   ],
+   "e": "Yoshga moslik."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "Beshik qo'shig'i (alla) bola rivojlanishiga qanday ta'sir qiladi?",
+   "a": [
+    "Tinchlantiradi",
+    "Bolani qo'zg'atadi va qo'rqitadi",
+    "Hech qanday ta'sir qilmaydi",
+    "Faqat uyquni buzadi"
+   ],
+   "e": "Emotsional bog'liqlik."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "Xalq o'yin qo'shiqlarining bolalar uchun ahamiyati nima?",
+   "a": [
+    "Harakat va ritmni rivojlantiradi",
+    "Faqat vaqt o'tkazadi",
+    "Faqat charchatadi",
+    "Hech qanday ahamiyati yo'q"
+   ],
+   "e": "Milliy merosni o'rganish."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Boychechak\" qo'shig'i qaysi mavsumni kuylaydi?",
+   "a": [
+    "Bahor",
+    "Qish",
+    "Kuz",
+    "Yoz"
+   ],
+   "e": "Bahor guli."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "Navro'z bayramida bolalar bilan qaysi qo'shiqlar o'rgatiladi?",
+   "a": [
+    "Bahor qo'shiqlari",
+    "Faqat qishki qo'shiqlar",
+    "Faqat harbiy marshlar",
+    "Faqat opera ariyalari"
+   ],
+   "e": "Mavsumiy repertuar."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "Bolalar uchun musiqiy ertakka misol qaysi?",
+   "a": [
+    "\"Pyotr va bo'ri\"",
+    "\"Karmen\"",
+    "\"Aida\"",
+    "\"Rekviyem\""
+   ],
+   "e": "Prokofyev."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Pyotr va bo'ri\" asarida har bir qahramon nima bilan tasvirlangan?",
+   "a": [
+    "Alohida cholg'u bilan",
+    "Faqat xor bilan",
+    "Faqat raqs bilan",
+    "Faqat she'r bilan"
+   ],
+   "e": "Cholg'ular bilan tanishtirish."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Pyotr va bo'ri\" da qushchani qaysi cholg'u tasvirlaydi?",
+   "a": [
+    "Fleyta",
+    "Fagot",
+    "Valtorna",
+    "Baraban"
+   ],
+   "e": "Bobo — fagot."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Pyotr va bo'ri\" da bo'rini qaysi cholg'ular tasvirlaydi?",
+   "a": [
+    "Valtornalar",
+    "Fleyta",
+    "Skripkalar",
+    "Klarnet"
+   ],
+   "e": "Mis cholg'ular."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Bolalar albomi\" kimning asari?",
+   "a": [
+    "Pyotr Chaykovskiy",
+    "Sergey Prokofyev",
+    "Frederik Shopen",
+    "Iogann Bax"
+   ],
+   "e": "Fortepiano pyesalari."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Fasllar\" fortepiano turkumining (12 pyesa) muallifi kim?",
+   "a": [
+    "Pyotr Chaykovskiy",
+    "Antonio Vivaldi",
+    "Iogann Bax",
+    "Motsart"
+   ],
+   "e": "Vivaldi — skripka konsertlari."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "Bolalarda musiqiy didni shakllantirishda qaysi repertuar tavsiya etiladi?",
+   "a": [
+    "Klassik va xalq musiqasi",
+    "Faqat reklama jingllari",
+    "Faqat kattalar estrada qo'shiqlari",
+    "Faqat shovqinli musiqa"
+   ],
+   "e": "Badiiy qimmat."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "O'zbek xalq qo'shiqlarini bolalarga o'rgatishning maqsadi nima?",
+   "a": [
+    "Milliy qadriyatlarni tarbiyalash",
+    "Faqat vaqt o'tkazish",
+    "Faqat ovozni charchatish",
+    "Hech qanday maqsad yo'q"
+   ],
+   "e": "Milliy tarbiya."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Lapar\" qanday janr?",
+   "a": [
+    "Savol-javobli qo'shiq-raqs",
+    "Opera",
+    "Simfoniya",
+    "Marsh"
+   ],
+   "e": "Xalq janri."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Ashula\" qanday janr?",
+   "a": [
+    "Xalq qo'shiq janri",
+    "Simfonik asar",
+    "Balet",
+    "Rekviyem"
+   ],
+   "e": "Katta ashula."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Katta ashula\" qanday ijro etiladi?",
+   "a": [
+    "Laganda, jo'rsiz",
+    "Faqat orkestr bilan",
+    "Faqat fortepiano bilan",
+    "Faqat raqs bilan"
+   ],
+   "e": "Farg'ona vodiysi."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "O'zbekistonda musiqa ta'limi bo'yicha oliy o'quv yurti qaysi?",
+   "a": [
+    "O'zbekiston davlat konservatoriyasi",
+    "Toshkent tibbiyot akademiyasi",
+    "Toshkent avtomobil yo'llari instituti",
+    "Toshkent irrigatsiya instituti"
+   ],
+   "e": "Toshkent."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "\"Sharq taronalari\" xalqaro musiqa festivali qayerda o'tkaziladi?",
+   "a": [
+    "Samarqandda",
+    "Toshkentda",
+    "Nukusda",
+    "Termizda"
+   ],
+   "e": "1997-yildan."
+  },
+  {
+   "b": "Bolalar musiqasi va o'zbek kompozitorlari",
+   "q": "Bolalar musiqiy rivojlanishida oilaning roli qanday?",
+   "a": [
+    "Muhim",
+    "Ahamiyatsiz",
+    "Faqat salbiy",
+    "Faqat moliyaviy"
+   ],
+   "e": "Oila va MTT hamkorligi."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Go'dak (1 yoshgacha) musiqani qanday idrok etadi?",
+   "a": [
+    "Emotsional javob, tovushga qarash",
+    "Nota yozuvini o'qish orqali",
+    "Murakkab garmoniyani tahlil qilib",
+    "Cholg'uda mustaqil chalib"
+   ],
+   "e": "Kattalar kuylashi muhim."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Ilk yosh (1–3 yosh) bolalarda qaysi musiqiy faoliyat ustun?",
+   "a": [
+    "Tinglash va harakat",
+    "Murakkab cholg'u ijrosi",
+    "Xorda ko'p ovozli kuylash",
+    "Nota diktanti"
+   ],
+   "e": "Taqlid orqali."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Kichik guruh (3–4 yosh) bolalari uchun qo'shiq diapazoni qanday bo'lishi kerak?",
+   "a": [
+    "Tor (4–5 tovush)",
+    "Ikki oktavadan keng",
+    "Faqat juda past tovushlar",
+    "Faqat juda yuqori tovushlar"
+   ],
+   "e": "Ovoz apparati rivojlanmagan."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "O'rta guruh (4–5 yosh) bolalarida qaysi ko'nikma rivojlanadi?",
+   "a": [
+    "Ifodali kuylash",
+    "Opera ariyalarini kuylash",
+    "Simfoniya yozish",
+    "Nota diktanti yozish"
+   ],
+   "e": "Bosqichli rivojlanish."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Katta guruh (5–6 yosh) bolalari qanday faoliyatni bajara oladi?",
+   "a": [
+    "Ansamblda chalish",
+    "Professional orkestrda chalish",
+    "Opera sahnalashtirish",
+    "Murakkab kompozitsiya yaratish"
+   ],
+   "e": "Bolalar orkestri."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Maktabga tayyorlov guruhi (6–7 yosh) bolalarida qaysi ko'nikma shakllanadi?",
+   "a": [
+    "Musiqa xarakterini aniqlash",
+    "Faqat qarsak chalish",
+    "Faqat yurish",
+    "Faqat tinglash, javobsiz"
+   ],
+   "e": "Musiqiy idrok rivojlangan."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Bolalarda musiqiy qobiliyatlar qachondan namoyon bo'la boshlaydi?",
+   "a": [
+    "Erta yoshdan",
+    "Faqat 10 yoshdan keyin",
+    "Faqat maktabni tugatganda",
+    "Faqat kattalikda"
+   ],
+   "e": "Erta tarbiya muhim."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Musiqiy qobiliyatni aniqlash uchun bolaga qanday topshiriq beriladi?",
+   "a": [
+    "Kuy va ritmni takrorlash",
+    "Faqat rasm chizish",
+    "Faqat sanash",
+    "Faqat yugurish"
+   ],
+   "e": "Diagnostika."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Musiqa mashg'ulotida bolalar charchaganligini qanday sezish mumkin?",
+   "a": [
+    "Diqqat pasayadi",
+    "Faolligi keskin ortadi",
+    "Ko'proq qo'shiq so'raydi",
+    "Juda tinchlanadi va quvnaydi"
+   ],
+   "e": "Faoliyatni almashtirish."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Mashg'ulotda faoliyat turlarini almashtirish nima uchun kerak?",
+   "a": [
+    "Charchoqning oldini olish",
+    "Darsni chalkashtirish uchun",
+    "Vaqtni cho'zish uchun",
+    "Bolalarni chalg'itish uchun"
+   ],
+   "e": "Gigiyenik talab."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Bolalar orkestrida qaysi cholg'ular ko'proq ishlatiladi?",
+   "a": [
+    "Metallofon, baraban",
+    "Organ va arfa",
+    "Royal va tuba",
+    "Kontrabas va fagot"
+   ],
+   "e": "Bolalar cholg'ulari."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Musiqiy-harakatli o'yinda bola nimani o'rganadi?",
+   "a": [
+    "Mos harakat qilishni",
+    "Faqat jim o'tirishni",
+    "Faqat nota yodlashni",
+    "Faqat raqamlarni"
+   ],
+   "e": "Musiqa va harakat."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Xorovod nima?",
+   "a": [
+    "Doira bo'lib kuylash",
+    "Yakka raqs",
+    "Cholg'u ansambli",
+    "Opera sahnasi"
+   ],
+   "e": "Xalq o'yini."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Raqs harakatlarini o'rgatishda qanday tamoyil muhim?",
+   "a": [
+    "Oddiydan murakkabga",
+    "Murakkabdan oddiyga",
+    "Faqat murakkab harakatlar",
+    "Tasodifiy tartibda"
+   ],
+   "e": "Didaktik tamoyil."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Musiqiy ijodkorlikka misol qaysi?",
+   "a": [
+    "Kuyni davom ettirish",
+    "Tayyor qo'shiqni so'zma-so'z takrorlash",
+    "Faqat jim tinglash",
+    "Faqat nota ko'chirish"
+   ],
+   "e": "Improvizatsiya."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Bolalarda tovush balandligini farqlashni rivojlantirish uchun qanday o'yin mos?",
+   "a": [
+    "\"Qushcha va onasi\"",
+    "\"Mushuk-sichqon\" yugurish o'yini",
+    "Shaxmat",
+    "Domino"
+   ],
+   "e": "Musiqiy-didaktik o'yin."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Bolalarda tembr eshitishini rivojlantirish uchun qanday topshiriq mos?",
+   "a": [
+    "Cholg'uni ovozidan topish",
+    "Rangni nomidan topish",
+    "Raqamlarni sanash",
+    "Rasm chizish"
+   ],
+   "e": "\"Nima yangradi?\"."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Musiqa rahbari bayram ssenariysini tuzishda nimaga e'tibor beradi?",
+   "a": [
+    "Yosh xususiyatlari",
+    "Faqat kattalar didiga",
+    "Faqat narxga",
+    "Faqat zal o'lchamiga"
+   ],
+   "e": "Bolalar charchamasligi."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Bayram ertaligining davomiyligi katta guruhda taxminan qancha bo'lishi kerak?",
+   "a": [
+    "35–45 daqiqa",
+    "3 soat",
+    "5–10 daqiqa",
+    "2 soat"
+   ],
+   "e": "Yoshga mos."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Bolalar musiqiy rivojlanishini kuzatish natijalari qayerda qayd etiladi?",
+   "a": [
+    "Monitoring kartalarida",
+    "Faqat og'zaki xotirada",
+    "Hech qayerda",
+    "Faqat ota-ona daftarida"
+   ],
+   "e": "Diagnostika."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Inklyuziv guruhda musiqa mashg'ulotini o'tkazishda nima muhim?",
+   "a": [
+    "Imkoniyatni hisobga olish",
+    "Barcha bolalarga bir xil talab",
+    "Alohida ehtiyojli bolalarni chetlatish",
+    "Mashg'ulotni bekor qilish"
+   ],
+   "e": "Moslashtirish."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Musiqa terapiyasi bolalarga qanday foyda beradi?",
+   "a": [
+    "Emotsional holatni yaxshilaydi",
+    "Hech qanday foyda bermaydi",
+    "Faqat uyquni buzadi",
+    "Faqat zarar keltiradi"
+   ],
+   "e": "Korreksion yordam."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Musiqa tinglashda bolaga qanday savol berish to'g'ri?",
+   "a": [
+    "\"Musiqa qanday kayfiyatda?\"",
+    "\"Kompozitor qachon tug'ilgan?\"",
+    "\"Garmoniya qaysi tonallikda?\"",
+    "\"Nechta takt bor?\""
+   ],
+   "e": "Yoshga mos savol."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Bolalarga cholg'ular bilan tanishtirishning samarali usuli qaysi?",
+   "a": [
+    "Ko'rsatib, chalib eshittirish",
+    "Faqat rasmini ko'rsatish",
+    "Faqat nomini aytish",
+    "Faqat kitobdan o'qish"
+   ],
+   "e": "Ko'rgazmalilik."
+  },
+  {
+   "b": "Yosh guruhlari bo'yicha musiqiy rivojlanish",
+   "q": "Musiqiy faoliyatda bolalar faolligini oshirish usuli qaysi?",
+   "a": [
+    "O'yin va rag'bat",
+    "Qattiq tanbeh va jazo",
+    "Bir xil mashqlarni uzoq takrorlash",
+    "Bolalarni kuzatuvchi qilib qo'yish"
+   ],
+   "e": "Motivatsiya."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Fortepiano qanday cholg'u?",
+   "a": [
+    "Klavishli-bolg'achali torli cholg'u",
+    "Yog'och puflama cholg'u",
+    "Zarbli membranali cholg'u",
+    "Torli-kamonli cholg'u"
+   ],
+   "e": "Royal va pianino."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Fortepianoda nechta klavish bor (standart)?",
+   "a": [
+    "88 ta",
+    "52 ta",
+    "100 ta",
+    "64 ta"
+   ],
+   "e": "7 oktavadan ortiq."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Akkordeon qanday cholg'u?",
+   "a": [
+    "Klavishli-pnevmatik",
+    "Torli-kamonli cholg'u",
+    "Zarbli cholg'u",
+    "Mis puflama cholg'u"
+   ],
+   "e": "Mexlar bilan."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Gitara qaysi guruhga kiradi?",
+   "a": [
+    "Torli-chertma",
+    "Torli-kamonli",
+    "Zarbli",
+    "Puflama"
+   ],
+   "e": "Odatda 6 tor."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Klassik gitarada nechta tor bor?",
+   "a": [
+    "6 ta",
+    "4 ta",
+    "2 ta",
+    "12 ta faqat"
+   ],
+   "e": "Standart."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Arfa qanday cholg'u?",
+   "a": [
+    "Torli-chertma",
+    "Yog'och puflama",
+    "Zarbli",
+    "Klavishli"
+   ],
+   "e": "Ko'p torli."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Organ qanday cholg'u?",
+   "a": [
+    "Klavishli-puflama",
+    "Torli-kamonli",
+    "Zarbli membranali",
+    "Torli-chertma"
+   ],
+   "e": "Quvurlar orqali."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Erkaklarning eng yuqori ovozi qanday ataladi?",
+   "a": [
+    "Tenor",
+    "Bas",
+    "Bariton",
+    "Alt"
+   ],
+   "e": "Bas — eng past."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Ayollarning eng yuqori ovozi qanday ataladi?",
+   "a": [
+    "Soprano",
+    "Alt",
+    "Kontralto",
+    "Messo-soprano"
+   ],
+   "e": "Kontralto — eng past."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Bolalarning past ovozi qanday ataladi?",
+   "a": [
+    "Alt",
+    "Tenor",
+    "Bas",
+    "Bariton"
+   ],
+   "e": "Diskant — yuqori."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Xor nima?",
+   "a": [
+    "Kuylovchilar jamoasi",
+    "Cholg'uchilar ansambli",
+    "Raqs guruhi",
+    "Yakka ijrochi"
+   ],
+   "e": "Partiyalar bilan."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Ansambl nima?",
+   "a": [
+    "Birgalikda ijro etuvchi kichik jamoa",
+    "Yakka ijrochi",
+    "Katta konsert zali",
+    "Nota daftari"
+   ],
+   "e": "Duet, trio, kvartet."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Duet necha ijrochidan iborat?",
+   "a": [
+    "2 ta",
+    "3 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "e": "Trio — 3."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Kvartet necha ijrochidan iborat?",
+   "a": [
+    "4 ta",
+    "2 ta",
+    "3 ta",
+    "8 ta"
+   ],
+   "e": "Torli kvartet."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Barokko davri musiqasining vakili kim?",
+   "a": [
+    "Iogann Sebastyan Bax",
+    "Pyotr Chaykovskiy",
+    "Klod Debyussi",
+    "Sergey Prokofyev"
+   ],
+   "e": "XVII–XVIII asr boshi."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Vena klassik maktabining vakillari kimlar?",
+   "a": [
+    "Gaydn, Motsart, Betxoven",
+    "Bax, Vivaldi, Gendel",
+    "Shopen, List, Shuman",
+    "Debyussi, Ravel, Satie"
+   ],
+   "e": "Klassitsizm."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Romantizm davri kompozitorlariga kim kiradi?",
+   "a": [
+    "Shopen, Shuman, List",
+    "Bax, Gendel, Vivaldi",
+    "Gaydn, Glyuk, Motsart",
+    "Debyussi, Ravel, Satie"
+   ],
+   "e": "XIX asr."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Betxovenning 9-simfoniyasidagi \"Quvonchga madh\" qaysi tashkilot madhiyasi sifatida qabul qilingan?",
+   "a": [
+    "Yevropa Ittifoqi",
+    "BMT",
+    "YUNESKO",
+    "Olimpiya qo'mitasi"
+   ],
+   "e": "Shiller she'ri."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Impressionizm musiqasining vakili kim?",
+   "a": [
+    "Klod Debyussi",
+    "Iogann Bax",
+    "Lyudvig Betxoven",
+    "Pyotr Chaykovskiy"
+   ],
+   "e": "Fransiya."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Motsart qaysi davlatda tug'ilgan?",
+   "a": [
+    "Avstriya (Zalsburg)",
+    "Germaniya (Bonn)",
+    "Italiya (Venetsiya)",
+    "Polsha (Varshava)"
+   ],
+   "e": "1756-yil."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Betxoven qaysi shaharda tug'ilgan?",
+   "a": [
+    "Bonn",
+    "Zalsburg",
+    "Varshava",
+    "Venetsiya"
+   ],
+   "e": "Germaniya."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Kar bo'lib qolganiga qaramay ijod qilgan buyuk kompozitor kim?",
+   "a": [
+    "Lyudvig van Betxoven",
+    "Volfgang Motsart",
+    "Frederik Shopen",
+    "Antonio Vivaldi"
+   ],
+   "e": "Iroda timsoli."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Notalarni \"do, re, mi...\" deb nomlashni kim kiritgan?",
+   "a": [
+    "Gvido d'Arettso",
+    "Iogann Sebastyan Bax",
+    "Volfgang Motsart",
+    "Pifagor Samosskiy"
+   ],
+   "e": "XI asr, solmizatsiya."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Beruniy va Forobiy musiqaga qanday hissa qo'shgan?",
+   "a": [
+    "Musiqa nazariyasiga oid risolalar",
+    "Birinchi opera yozgan",
+    "Fortepiano ixtiro qilgan",
+    "Simfoniya yozgan"
+   ],
+   "e": "Forobiy — \"Katta musiqa kitobi\"."
+  },
+  {
+   "b": "Cholg'ular, ovozlar va musiqa tarixi",
+   "q": "Abu Nasr Forobiyning musiqaga oid asari qanday ataladi?",
+   "a": [
+    "\"Katta musiqa kitobi\"",
+    "\"Tib qonunlari\"",
+    "\"Qutadg'u bilig\"",
+    "\"Boburnoma\""
+   ],
+   "e": "Musiqa nazariyasi."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Bolalarga qo'shiq o'rgatishda tovush hosil qilishning to'g'ri usuli qaysi?",
+   "a": [
+    "Erkin, tabiiy",
+    "Baqirib, kuch bilan",
+    "Tomoqni qisib",
+    "Pichirlab"
+   ],
+   "e": "Vokal gigiyena."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Diksiya nima?",
+   "a": [
+    "Aniq talaffuz",
+    "Ovozni baland chiqarish",
+    "Kuyni tez kuylash",
+    "Nafasni ushlab turish"
+   ],
+   "e": "Qo'shiq matnini tushunarli qilish."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Intonatsiyaning sofligi nimani anglatadi?",
+   "a": [
+    "Aniq balandlikda kuylash",
+    "Juda baland kuylash",
+    "Juda tez kuylash",
+    "Faqat past ovozda kuylash"
+   ],
+   "e": "Sof intonatsiya."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Kuylashdan oldin bolalar bilan nima qilinadi?",
+   "a": [
+    "Raspevka",
+    "Sovuq suv ichish",
+    "Baqirish mashqi",
+    "Yugurish"
+   ],
+   "e": "Ovoz apparatini tayyorlash."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Bola qo'shiqni noto'g'ri (yolg'on) kuylasa, musiqa rahbari nima qiladi?",
+   "a": [
+    "Individual mashq qiladi",
+    "Bolani xordan chiqaradi",
+    "Bolani masxara qiladi",
+    "E'tibor bermaydi"
+   ],
+   "e": "Sabr va mashq."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqa mashg'ulotida uyatchan bola qatnashmasa, nima qilish kerak?",
+   "a": [
+    "Asta jalb qilish",
+    "Majburlash",
+    "Boshqalar oldida tanqid qilish",
+    "Mashg'ulotdan chiqarish"
+   ],
+   "e": "Psixologik qulaylik."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqa zalida xavfsizlik bo'yicha nimaga e'tibor beriladi?",
+   "a": [
+    "Jihozlar xavfsizligi",
+    "Faqat devor rangi",
+    "Faqat parda rangi",
+    "Hech narsaga"
+   ],
+   "e": "Sanitariya talablari."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "MTT musiqa rahbarining hujjatlariga nima kiradi?",
+   "a": [
+    "Rejalar va repertuar",
+    "Faqat ish haqi qaydnomasi",
+    "Faqat oshxona menyusi",
+    "Faqat tibbiy kartalar"
+   ],
+   "e": "Rejalashtirish."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqiy faoliyatni rejalashtirishda nimaga asoslaniladi?",
+   "a": [
+    "Dastur va yoshga",
+    "Faqat musiqa rahbari xohishiga",
+    "Faqat ota-onalar istagiga",
+    "Tasodifiy tanlovga"
+   ],
+   "e": "\"Ilk qadam\" dasturi."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "\"Ilk qadam\" davlat o'quv dasturi qaysi ta'lim bosqichiga tegishli?",
+   "a": [
+    "Maktabgacha ta'lim",
+    "Oliy ta'lim",
+    "Kasb-hunar ta'limi",
+    "Malaka oshirish"
+   ],
+   "e": "O'zbekiston."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Ota-onalar bilan musiqiy tarbiya bo'yicha hamkorlik shakli qaysi?",
+   "a": [
+    "Maslahat va bayramlar",
+    "Faqat to'lov yig'ish",
+    "Faqat shikoyat qilish",
+    "Hamkorlik kerak emas"
+   ],
+   "e": "Oila va MTT."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqiy mashg'ulotni tahlil qilishda nima baholanadi?",
+   "a": [
+    "Maqsadga erishish",
+    "Faqat zal o'lchami",
+    "Faqat cholg'ular rangi",
+    "Faqat pianino narxi"
+   ],
+   "e": "Samaradorlik."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Bolalar musiqiy faoliyatida \"mustaqil faoliyat\" nima?",
+   "a": [
+    "O'z xohishi bilan shug'ullanish",
+    "Faqat tarbiyachi buyrug'i bilan",
+    "Faqat bayramlarda",
+    "Faqat uyda"
+   ],
+   "e": "Musiqa burchagi."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqa va nutq rivojlanishi o'rtasida qanday bog'liqlik bor?",
+   "a": [
+    "Nutqni rivojlantiradi",
+    "Hech qanday bog'liqlik yo'q",
+    "Musiqa nutqni buzadi",
+    "Faqat salbiy ta'sir"
+   ],
+   "e": "Logoritmika."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Logoritmika nima?",
+   "a": [
+    "Nutq, harakat, musiqa",
+    "Faqat matematika darsi",
+    "Faqat rasm darsi",
+    "Faqat suzish"
+   ],
+   "e": "Korreksion pedagogika."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqa tinglashda qaysi asarlar maktabgacha yoshga mos?",
+   "a": [
+    "Qisqa, obrazli pyesalar",
+    "Uzoq, murakkab simfoniyalar",
+    "Faqat og'ir rok musiqasi",
+    "Faqat matnli siyosiy qo'shiqlar"
+   ],
+   "e": "Dasturiy musiqa."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Dasturiy musiqa nima?",
+   "a": [
+    "Aniq obrazli musiqa",
+    "Kompyuter dasturi bilan yozilgan musiqa",
+    "Faqat reklama musiqasi",
+    "Faqat matnsiz texno"
+   ],
+   "e": "Masalan, \"Fasllar\"."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqa rahbari bolalar bilan \"Qaysi cholg'u chalindi?\" o'yinini o'tkazdi. Qaysi qobiliyat rivojlanadi?",
+   "a": [
+    "Tembr eshitish",
+    "Jismoniy kuch",
+    "Rasm chizish",
+    "Matematik hisob"
+   ],
+   "e": "Musiqiy-didaktik o'yin."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Bolalar qarsak bilan \"tez — sekin\" mashqini bajarishdi. Qaysi tushuncha o'rgatildi?",
+   "a": [
+    "Sur'at (temp)",
+    "Tembr (rang)",
+    "Dinamika (kuch)",
+    "Lad (kayfiyat)"
+   ],
+   "e": "Tezlik."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Bolalar \"baland — ohista\" kuylash mashqini bajarishdi. Qaysi tushuncha o'rgatildi?",
+   "a": [
+    "Dinamika",
+    "Sur'at (tezlik)",
+    "Tembr (rang)",
+    "Ritm (cho'zim)"
+   ],
+   "e": "Kuch."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Mashg'ulot oxirida bolalar charchagan bo'lsa, musiqa rahbari nima qiladi?",
+   "a": [
+    "Sokin faoliyat",
+    "Yangi murakkab qo'shiq boshlaydi",
+    "Mashg'ulotni uzaytiradi",
+    "Bolalarni tanbeh beradi"
+   ],
+   "e": "Gigiyena."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Bayram ertaligida bola so'zini unutib qo'ydi. Pedagog nima qiladi?",
+   "a": [
+    "Sezdirmay yordam beradi",
+    "Bolani sahnadan tushiradi",
+    "Boshqalar oldida tanbeh beradi",
+    "Bayramni to'xtatadi"
+   ],
+   "e": "Psixologik qo'llab-quvvatlash."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqa mashg'ulotida AKT dan foydalanishning afzalligi nima?",
+   "a": [
+    "Qiziqishni oshiradi",
+    "Bolalarni passivlashtiradi har doim",
+    "Kuylashni bekor qiladi",
+    "Hech qanday foydasi yo'q"
+   ],
+   "e": "Video, audio."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqiy qobiliyati yuqori bolalar bilan qanday ishlash kerak?",
+   "a": [
+    "Qo'shimcha topshiriqlar",
+    "E'tibor bermaslik",
+    "Boshqalardan ajratib qo'yish",
+    "Faqat bir xil vazifa berish"
+   ],
+   "e": "Iqtidorni rivojlantirish."
+  },
+  {
+   "b": "Vokal, metodika va amaliy vaziyatlar",
+   "q": "Musiqa rahbarining kasbiy sifatlariga nima kiradi?",
+   "a": [
+    "Savod va pedagogik mahorat",
+    "Faqat chiroyli kiyinish",
+    "Faqat baland ovoz",
+    "Faqat ish staji"
+   ],
+   "e": "Kompetentlik."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Nota yozuvida \"takt o'lchovi\" qayerda yoziladi?",
+   "a": [
+    "Kalitdan keyin",
+    "Asar oxirida",
+    "Har bir nota ostida",
+    "Sarlavhada"
+   ],
+   "e": "Masalan, 2/4."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "4/4 o'lchovida bitta taktda nechta chorak nota bo'ladi?",
+   "a": [
+    "4 ta",
+    "2 ta",
+    "3 ta",
+    "8 ta"
+   ],
+   "e": "To'rt hissa."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "6/8 o'lchovida bitta taktda nechta sakkizlik nota bo'ladi?",
+   "a": [
+    "6 ta",
+    "8 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "e": "Murakkab o'lchov."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Nuqtali yarim nota necha chorakka teng?",
+   "a": [
+    "3 ta",
+    "2 ta",
+    "4 ta",
+    "1,5 ta"
+   ],
+   "e": "2 + 1."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Sekunda intervali necha pog'onadan iborat?",
+   "a": [
+    "2 pog'ona",
+    "1 pog'ona",
+    "3 pog'ona",
+    "5 pog'ona"
+   ],
+   "e": "Do — re."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Kvinta intervali necha pog'onadan iborat?",
+   "a": [
+    "5 pog'ona",
+    "4 pog'ona",
+    "3 pog'ona",
+    "8 pog'ona"
+   ],
+   "e": "Do — sol."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Tertsiya intervali qaysi tovushlar orasida?",
+   "a": [
+    "Do — mi",
+    "Do — re",
+    "Do — fa",
+    "Do — sol"
+   ],
+   "e": "Uch pog'ona."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Major uchtovush (do major) qaysi tovushlardan iborat?",
+   "a": [
+    "Do, mi, sol",
+    "Do, re, mi",
+    "Do, fa, lya",
+    "Re, fa, lya"
+   ],
+   "e": "Katta va kichik tertsiya."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Minor uchtovush (lya minor) qaysi tovushlardan iborat?",
+   "a": [
+    "Lya, do, mi",
+    "Lya, si, do",
+    "Lya, re, fa",
+    "Do, mi, sol"
+   ],
+   "e": "Kichik va katta tertsiya."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Xromatik gamma nima?",
+   "a": [
+    "Yarim tonli gamma",
+    "Faqat butun tonlar",
+    "Faqat major gamma",
+    "Faqat besh tovushli gamma"
+   ],
+   "e": "12 tovush."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Pentatonika nima?",
+   "a": [
+    "Besh tovushli lad",
+    "Yetti tovushli lad",
+    "O'n ikki tovushli lad",
+    "Uch tovushli akkord"
+   ],
+   "e": "Xalq musiqasida ko'p."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Dinamik belgi \"mf\" nimani bildiradi?",
+   "a": [
+    "O'rtacha baland",
+    "Juda ohista",
+    "Juda baland",
+    "O'rtacha ohista"
+   ],
+   "e": "Mezzo forte."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "\"ff\" (fortissimo) nimani bildiradi?",
+   "a": [
+    "Juda baland",
+    "Juda ohista",
+    "O'rtacha",
+    "Asta pasaytirish"
+   ],
+   "e": "Dinamika."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "\"pp\" (pianissimo) nimani bildiradi?",
+   "a": [
+    "Juda ohista",
+    "Juda baland",
+    "O'rtacha baland",
+    "Asta kuchaytirish"
+   ],
+   "e": "Dinamika."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "\"Andante\" sur'ati qanday?",
+   "a": [
+    "O'rtacha, odimlab",
+    "Juda tez, shiddatli",
+    "Juda sekin, cho'zib",
+    "Asta tezlashtirib"
+   ],
+   "e": "Yurish sur'ati."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "\"Presto\" sur'ati qanday?",
+   "a": [
+    "Juda tez",
+    "Sekin",
+    "O'rtacha",
+    "Juda sekin"
+   ],
+   "e": "Tez sur'at."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "\"Ritardando\" nimani bildiradi?",
+   "a": [
+    "Asta sekinlashtirish",
+    "Asta tezlashtirish",
+    "Asta kuchaytirish",
+    "Asta pasaytirish"
+   ],
+   "e": "Accelerando — tezlashtirish."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Takrorlanadigan qo'shiq bandidan keyingi qism qanday ataladi?",
+   "a": [
+    "Naqarot (pripev)",
+    "Kirish qismi",
+    "Koda (yakun)",
+    "Interlyudiya"
+   ],
+   "e": "Kuplet shakli."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Asarning yakunlovchi qismi qanday ataladi?",
+   "a": [
+    "Koda",
+    "Uvertura",
+    "Prelyudiya",
+    "Naqarot"
+   ],
+   "e": "Xulosa."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Prelyudiya nima?",
+   "a": [
+    "Kirish pyesasi",
+    "Asar oxiri",
+    "Raqs turi",
+    "Opera matni"
+   ],
+   "e": "Shopen prelyudiyalari."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Etyud nima?",
+   "a": [
+    "Texnik pyesa",
+    "Simfoniya qismi",
+    "Opera ariyasi",
+    "Xalq qo'shig'i"
+   ],
+   "e": "Mashq asar."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Ariya nima?",
+   "a": [
+    "Yakkaxon kuy",
+    "Orkestr kirish qismi",
+    "Xor qo'shig'i",
+    "Raqs"
+   ],
+   "e": "Vokal raqam."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Musiqa mashg'ulotida ko'rgazmali vositalarga nima kiradi?",
+   "a": [
+    "Rasm va cholg'ular",
+    "Faqat darslik matni",
+    "Faqat og'zaki tushuntirish",
+    "Faqat nota daftari"
+   ],
+   "e": "Ko'rgazmalilik."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Musiqa ta'limining asosiy tamoyillaridan biri qaysi?",
+   "a": [
+    "Ko'rgazmalilik va izchillik",
+    "Faqat yodlash",
+    "Faqat jazo",
+    "Tasodifiylik"
+   ],
+   "e": "Didaktik tamoyillar."
+  },
+  {
+   "b": "Qo'shimcha savollar",
+   "q": "Bolalarni musiqa bilan tarbiyalashda estetik tarbiyaning ahamiyati nima?",
+   "a": [
+    "Go'zallikni his qilish",
+    "Faqat bilim beradi",
+    "Faqat jismoniy rivojlantiradi",
+    "Ahamiyatsiz"
+   ],
+   "e": "Estetik did."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Musiqa mashg'ulotida bolalar o'tirishi qanday bo'lishi kerak?",
+   "a": [
+    "To'g'ri o'tirish",
+    "Yotgan holatda",
+    "Bukchayib, boshini egib",
+    "Bir oyoqda turib"
+   ],
+   "e": "Gigiyena."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bolalarning ovoz apparatini himoya qilish uchun qo'shiq qanday sharoitda kuylanmaydi?",
+   "a": [
+    "Sovuq va changda",
+    "Iliq, toza xonada",
+    "Shamollatilgan zalda",
+    "Dam olgandan keyin"
+   ],
+   "e": "Ovoz gigiyenasi."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Musiqiy savod elementlarini bolalarga qanday o'rgatish tavsiya etiladi?",
+   "a": [
+    "O'yin orqali",
+    "Faqat nazariy ma'ruza bilan",
+    "Faqat yodlatib",
+    "Faqat test bilan"
+   ],
+   "e": "Yoshga mos."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Musiqa rahbari va logoped hamkorligi nima beradi?",
+   "a": [
+    "Nutqni tuzatishga yordam",
+    "Faqat bayram tayyorlash",
+    "Hech qanday foyda yo'q",
+    "Faqat hujjat yuritish"
+   ],
+   "e": "Logoritmika."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "\"Musiqiy zinapoya\" didaktik qo'llanmasi nimani o'rgatadi?",
+   "a": [
+    "Tovushlarning balandligini",
+    "Ranglarni",
+    "Raqamlarni",
+    "Harflarni"
+   ],
+   "e": "Balandlik tasavvuri."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qaysi o'yin ritm hissini rivojlantiradi?",
+   "a": [
+    "\"Aks-sado\"",
+    "\"Rangli kubiklar\"",
+    "\"Puzzle yig'ish\"",
+    "\"Rasm chiz\""
+   ],
+   "e": "Ritmik o'yin."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Musiqa tinglashdan keyin bolalar rasm chizishi nima uchun foydali?",
+   "a": [
+    "Tasavvurni rivojlantirish",
+    "Vaqt o'tkazish uchun",
+    "Faqat rang tanlash uchun",
+    "Foydasi yo'q"
+   ],
+   "e": "Fanlararo bog'liqlik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Musiqiy asar xarakteri haqida bolalar bilan suhbatda qanday so'zlar ishlatiladi?",
+   "a": [
+    "Quvnoq, mungli",
+    "Diyez, bemol, bekar",
+    "Tonika, dominanta",
+    "Sonata, rondo"
+   ],
+   "e": "Emotsional lug'at."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "O'zbek milliy cholg'ularini bolalarga tanishtirishda qaysi cholg'udan boshlash mumkin?",
+   "a": [
+    "Doira",
+    "Organ",
+    "Arfa",
+    "Tuba"
+   ],
+   "e": "Oddiy va tanish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bolalar bayramida ota-onalarning ishtiroki nima beradi?",
+   "a": [
+    "Hamkorlikni mustahkamlaydi",
+    "Bayramni buzadi",
+    "Bolalarni qo'rqitadi",
+    "Hech qanday ta'sir yo'q"
+   ],
+   "e": "Hamkorlik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Musiqa rahbari o'z malakasini qanday oshiradi?",
+   "a": [
+    "Kurslar va seminarlar",
+    "Faqat ish stajini to'plab",
+    "Faqat dam olib",
+    "Malaka oshirish shart emas"
+   ],
+   "e": "Uzluksiz ta'lim."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bolalar repertuarini tanlashda qaysi mezon muhim emas?",
+   "a": [
+    "Reklamadagi mashhurlik",
+    "Badiiylik",
+    "Tarbiyaviy qimmat",
+    "Yoshga moslik"
+   ],
+   "e": "Mezonlar."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Musiqa mashg'ulotida ritm hissini rivojlantirish uchun qaysi cholg'u qulay?",
+   "a": [
+    "Baraban",
+    "Skripka",
+    "Fortepiano faqat",
+    "Arfa"
+   ],
+   "e": "Zarbli cholg'ular."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Maktabgacha yoshdagi bolalar uchun mos raqs turi qaysi?",
+   "a": [
+    "Xalq o'yin-raqslari",
+    "Murakkab balet",
+    "Akrobatik breyk-dans",
+    "Professional tango"
+   ],
+   "e": "Yoshga mos."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Musiqa rahbari bolalar bilan qo'shiqni yod olishda qaysi usuldan foydalanadi?",
+   "a": [
+    "Qismlarga bo'lib, takrorlash",
+    "Butun qo'shiqni bir martada yodlatish",
+    "Faqat matnni o'qish",
+    "Faqat kuyni chalish"
+   ],
+   "e": "Bosqichli o'rganish."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Cholg'u musiqasi vokal musiqadan nimasi bilan farq qiladi?",
+   "a": [
+    "So'zsiz, faqat cholg'ularda ijro etiladi",
+    "Faqat kuylanadi",
+    "Faqat raqs bilan ijro etiladi",
+    "Faqat xor bilan ijro etiladi"
+   ],
+   "e": "Instrumental."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Marsh qaysi xarakterga ega?",
+   "a": [
+    "Tetik, aniq ritmli",
+    "Sokin, beshik qo'shig'iga o'xshash",
+    "Mungli, sekin",
+    "Erkin, ritmsiz"
+   ],
+   "e": "Yurish uchun."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Beshik qo'shig'i (kolybelnaya) qanday xarakterga ega?",
+   "a": [
+    "Sokin, mayin",
+    "Tez, shiddatli",
+    "Tantanali, marshsimon",
+    "Keskin, baland"
+   ],
+   "e": "Tinchlantiradi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Raqs musiqasining asosiy belgisi nima?",
+   "a": [
+    "Aniq ritm va harakatga undovchi xarakter",
+    "Ritmsizlik",
+    "Faqat so'z",
+    "Faqat sukut"
+   ],
+   "e": "Vals, polka."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Polka qanday raqs?",
+   "a": [
+    "Tez, 2/4 o'lchovli xalq raqsi",
+    "Sekin, 3/4 o'lchovli",
+    "Faqat yakka raqs",
+    "Faqat opera raqsi"
+   ],
+   "e": "Chex xalq raqsi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Bolalarga musiqiy janrlar (qo'shiq, raqs, marsh) haqida tushuncha qaysi kompozitorlar ijodi bilan beriladi?",
+   "a": [
+    "D. Kabalevskiy (\"Uch kit\")",
+    "Faqat Vagner",
+    "Faqat Bax fugalari",
+    "Faqat zamonaviy rok"
+   ],
+   "e": "Musiqa ta'limi kontsepsiyasi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "D. Kabalevskiyning \"uch kit\" g'oyasi nimani anglatadi?",
+   "a": [
+    "Qo'shiq, raqs va marsh asosiy janrlar ekanini",
+    "Uch xil cholg'uni",
+    "Uch xil kalitni",
+    "Uch xil sur'atni"
+   ],
+   "e": "Musiqa ta'limi."
+  },
+  {
+   "b": "Qo'shimcha",
+   "q": "Musiqani idrok etishda bolalarning emotsional javobi nimadan dalolat beradi?",
+   "a": [
+    "Musiqiy idrokning rivojlanganidan",
+    "Musiqaga befarqlikdan",
+    "Eshitish nuqsonidan",
+    "Charchoqdan"
+   ],
+   "e": "Emotsional sezgirlik."
   }
- ]
+ ],
+ "kalit": "musiqa musiqiy talim musiqa rahbari maktabgacha bolalar musiqa tarbiyasi"
 }
