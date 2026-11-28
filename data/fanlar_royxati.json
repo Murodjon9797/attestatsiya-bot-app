@@ -1028,6 +1028,58 @@
   {
    "nomi": "Bank ishi",
    "bank": "moliya_bank"
+  },
+  {
+   "nomi": "Qurilish materiallari va buyumlari",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Bino va inshootlarni barpo etish texnologiyasi",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Bino va inshootlar konstruksiyasi",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Bino va inshootlarning texnik holatini baholash",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Yo'l qurilish materiallari",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Qurilish materiallari ishlab chiqarish mashina va mexanizm operatori ishlari texnologiyasi",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Beton qorish va quyish ishlari texnologiyasi",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "G'isht-tosh terish ishlari",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Interyer (ichki) pardozlash",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "G'isht-tosh terish ishlari texnologiyasi",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Qurilish fizikasi",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Gidrotexnika inshootlari va qurilish materiallari",
+   "bank": "qurilish"
+  },
+  {
+   "nomi": "Suvoqchilik ishlari texnologiyasi",
+   "bank": "qurilish"
   }
  ],
  "tez_orada": [
@@ -1147,11 +1199,6 @@
    "kat": "ped"
   },
   {
-   "id": "t9a651b46",
-   "nomi": "Qurilish materiallari va buyumlari",
-   "kat": "muh"
-  },
-  {
    "id": "t89339b94",
    "nomi": "Umumiy ovqatlanish korxonalarida texnologik jihozlar",
    "kat": "xiz"
@@ -1257,11 +1304,6 @@
    "kat": "ped"
   },
   {
-   "id": "ta4dbddd2",
-   "nomi": "Bino va inshootlarni barpo etish texnologiyasi",
-   "kat": "muh"
-  },
-  {
    "id": "taaa9e6bc",
    "nomi": "Tokarlik dastgohlarida metallarga ishlov berish texnologiyasi",
    "kat": "muh"
@@ -1304,11 +1346,6 @@
   {
    "id": "tdbed5796",
    "nomi": "Magistral neft va gaz quvurlarini texnik qarovdan o'tkazish ishlari",
-   "kat": "muh"
-  },
-  {
-   "id": "t0d78dbf7",
-   "nomi": "Bino va inshootlar konstruksiyasi",
    "kat": "muh"
   },
   {
@@ -1427,11 +1464,6 @@
    "kat": "qx"
   },
   {
-   "id": "t8cd25ba6",
-   "nomi": "Bino va inshootlarning texnik holatini baholash",
-   "kat": "muh"
-  },
-  {
    "id": "t61731f7f",
    "nomi": "Avtomobil yo'llarini va aerodromlarni qidiruv loyixalash",
    "kat": "tr"
@@ -1457,11 +1489,6 @@
    "kat": "ped"
   },
   {
-   "id": "tf2f28c96",
-   "nomi": "Yo'l qurilish materiallari",
-   "kat": "muh"
-  },
-  {
    "id": "tcfd40446",
    "nomi": "Biokimyo",
    "kat": "tib"
@@ -1485,11 +1512,6 @@
    "id": "t1a4e95d7",
    "nomi": "Umumiy va qishloq xo'jaligi fitopatologiyasi",
    "kat": "qx"
-  },
-  {
-   "id": "tae07ec00",
-   "nomi": "Qurilish materiallari ishlab chiqarish mashina va mexanizm operatori ishlari texnologiyasi",
-   "kat": "muh"
   },
   {
    "id": "t07d6d4f7",
@@ -1582,11 +1604,6 @@
    "kat": "qx"
   },
   {
-   "id": "tea9b895a",
-   "nomi": "Beton qorish va quyish ishlari texnologiyasi",
-   "kat": "muh"
-  },
-  {
    "id": "t8386be45",
    "nomi": "Asab-ruhiy va narkologik kasalliklar",
    "kat": "tib"
@@ -1622,28 +1639,8 @@
    "kat": "xiz"
   },
   {
-   "id": "t846396a0",
-   "nomi": "G'isht-tosh terish ishlari",
-   "kat": "muh"
-  },
-  {
-   "id": "t2002ac12",
-   "nomi": "Interyer (ichki) pardozlash",
-   "kat": "muh"
-  },
-  {
-   "id": "t5a048ece",
-   "nomi": "G'isht-tosh terish ishlari texnologiyasi",
-   "kat": "muh"
-  },
-  {
    "id": "td6ab78c6",
    "nomi": "Gaz va changni tutib qoluvchi uskunalar va ulardan foydalanish",
-   "kat": "muh"
-  },
-  {
-   "id": "t7889233f",
-   "nomi": "Qurilish fizikasi",
    "kat": "muh"
   },
   {
@@ -1665,11 +1662,6 @@
    "id": "t4baca3be",
    "nomi": "Kasbiy faoliyatning huquqiy asoslari va bioetika",
    "kat": "tib"
-  },
-  {
-   "id": "t9abdfb9b",
-   "nomi": "Gidrotexnika inshootlari va qurilish materiallari",
-   "kat": "muh"
   },
   {
    "id": "tb352b952",
@@ -1935,11 +1927,6 @@
    "id": "ta0390632",
    "nomi": "Sug'orish tizimlariga texnik xizmat ko'rsatish",
    "kat": "qx"
-  },
-  {
-   "id": "t6c660eff",
-   "nomi": "Suvoqchilik ishlari texnologiyasi",
-   "kat": "muh"
   },
   {
    "id": "td1fcb5ed",

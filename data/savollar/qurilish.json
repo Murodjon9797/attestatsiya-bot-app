@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "Qurilish ishlari, materiallar va konstruksiyalar",
+ "turi": "maxsus",
+ "manba": "Attestatsiya test sinovlariga jalb etiladigan pedagoglar ro'yxatidagi fan; savollar DTS, o'quv dasturlari va darsliklar asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Qurilish materiallari",
+   "q": "Bog'lovchi moddalar qanday guruhlarga bo'linadi?",
+   "a": [
+    "Havoda qotuvchi va gidravlik",
+    "Faqat organik va metall asosli bog'lovchilar",
+    "Faqat suyuq va gazsimon",
+    "Faqat rangli va rangsiz"
+   ],
+   "e": "Mineral bog'lovchilar."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Havoda qotuvchi bog'lovchiga misol qaysi?",
+   "a": [
+    "Qurilish ohagi va gips",
+    "Portlandsement va shlakoportlandsement",
+    "Gidravlik ohak",
+    "Glinozemli sement"
+   ],
+   "e": "Faqat havoda qotadi."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Gidravlik bog'lovchiga misol qaysi?",
+   "a": [
+    "Portlandsement",
+    "Gips",
+    "Havo ohagi",
+    "Loy"
+   ],
+   "e": "Suvda ham qotadi."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Portlandsementning asosiy xomashyosi nima?",
+   "a": [
+    "Ohaktosh va loy",
+    "Qum va shag'al",
+    "Yog'och qipig'i",
+    "Shisha va plastik"
+   ],
+   "e": "Klinker."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Sement markasi (M400, M500) nimani bildiradi?",
+   "a": [
+    "Siqilishdagi mustahkamlikni (kgs/sm²)",
+    "Sement qopining og'irligini kilogrammda",
+    "Sement rangini",
+    "Ishlab chiqarilgan yilni"
+   ],
+   "e": "Mustahkamlik."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Sementning normal qotish muddati (mustahkamlik sinovi) necha sutka?",
+   "a": [
+    "28 sutka",
+    "3 sutka",
+    "7 sutka",
+    "90 sutka"
+   ],
+   "e": "Loyihaviy mustahkamlik."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Sementni saqlashda asosiy talab nima?",
+   "a": [
+    "Namlikdan himoya qilish",
+    "Quyosh nuri ostida ochiq saqlash",
+    "Suvga botirib saqlash",
+    "Muzlatib saqlash"
+   ],
+   "e": "Namda qotib qoladi."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Gipsning qotish tezligi qanday?",
+   "a": [
+    "Juda tez (bir necha daqiqa)",
+    "Juda sekin, bir necha oy davomida asta-sekin",
+    "Umuman qotmaydi",
+    "Faqat qizdirilganda"
+   ],
+   "e": "Tez qotadi."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Qurilish ohagi qanday olinadi?",
+   "a": [
+    "Ohaktoshni kuydirib",
+    "Qumni eritib",
+    "Loyni quritib",
+    "Yog'ochni yoqib"
+   ],
+   "e": "CaCO3 → CaO."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Ohakni so'ndirish nima?",
+   "a": [
+    "So'ndirilmagan ohakka suv qo'shish",
+    "So'ndirilmagan ohakni olovda qayta kuydirish",
+    "Ohakni qum bilan aralashtirish",
+    "Ohakni muzlatish"
+   ],
+   "e": "Gashenie."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Og'ir beton uchun yirik to'ldiruvchi sifatida nima ishlatiladi?",
+   "a": [
+    "Shag'al yoki chaqiq tosh",
+    "Keramzit yoki perlit",
+    "Yog'och qipig'i",
+    "Polistirol granulalari"
+   ],
+   "e": "Zich to'ldiruvchi."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Yengil beton to'ldiruvchisiga misol qaysi?",
+   "a": [
+    "Keramzit",
+    "Granit chaqiq tosh",
+    "Daryo shag'ali",
+    "Metall qirindi"
+   ],
+   "e": "G'ovakli."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Betonning sinfi (B15, B25) nimani bildiradi?",
+   "a": [
+    "Kafolatlangan siqilish mustahkamligini (MPa)",
+    "Betonning rangi va tashqi yuzasining silliqligini",
+    "Betonning og'irligini",
+    "Qotish muddatini"
+   ],
+   "e": "Klass."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Suv-sement nisbati (S/S) oshsa beton mustahkamligi qanday o'zgaradi?",
+   "a": [
+    "Kamayadi",
+    "Oshadi",
+    "O'zgarmaydi",
+    "Ikki baravar oshadi"
+   ],
+   "e": "Ortiqcha suv g'ovak hosil qiladi."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Beton qorishmasining harakatchanligi qanday aniqlanadi?",
+   "a": [
+    "Standart konus cho'kishi bilan",
+    "Beton rangiga qarab",
+    "Qorishma og'irligini tarozida o'lchash orqali",
+    "Termometr bilan"
+   ],
+   "e": "OK, sm."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Betonni zichlash uchun nima ishlatiladi?",
+   "a": [
+    "Vibrator",
+    "Kompressor",
+    "Lazer nivelir",
+    "Payvand apparati"
+   ],
+   "e": "Havo pufakchalarini chiqarish."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Yangi quyilgan betonni parvarish qilish nima uchun kerak?",
+   "a": [
+    "Namlikni saqlab, to'g'ri qotishni ta'minlash",
+    "Betonni tezroq quritib, yorilishini oshirish",
+    "Betonni bo'yash uchun",
+    "Betonni sovutib muzlatish uchun"
+   ],
+   "e": "Namlash, yopish."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Issiq havoda betonni parvarishlashda nima qilinadi?",
+   "a": [
+    "Namlanadi va quyoshdan yopiladi",
+    "Ochiq quyoshda, yopmasdan qoldiriladi",
+    "Qizdiriladi",
+    "Hech narsa qilinmaydi"
+   ],
+   "e": "Tez qurishning oldini olish."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Qishda betonlashda qanday usul qo'llanadi?",
+   "a": [
+    "Isitish va sovuqqa qarshi qo'shimchalar",
+    "Muzlagan to'ldiruvchilarni qo'shish",
+    "Suvni ko'paytirish",
+    "Qotishni kutmaslik"
+   ],
+   "e": "Qishki betonlash."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Temir-beton nima?",
+   "a": [
+    "Armatura bilan mustahkamlangan beton",
+    "Temir qirindi aralashtirilgan oddiy beton qorishmasi",
+    "Metall bo'yoq bilan bo'yalgan beton",
+    "Temir qolipda quyilgan beton"
+   ],
+   "e": "Armatura cho'zilishni qabul qiladi."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Temir-betonda armatura qanday kuchlanishni qabul qiladi?",
+   "a": [
+    "Cho'zilish",
+    "Faqat siqilish",
+    "Faqat harorat",
+    "Faqat namlik"
+   ],
+   "e": "Beton siqilishga ishlaydi."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Armatura po'latining sinfiga misol qaysi?",
+   "a": [
+    "A400 (A-III)",
+    "M400",
+    "B25",
+    "F100"
+   ],
+   "e": "Davriy profilli."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Betonning sovuqqa chidamlilik markasi qanday belgilanadi?",
+   "a": [
+    "F (masalan F100)",
+    "W",
+    "M",
+    "B"
+   ],
+   "e": "Muzlash-erish sikllari."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Betonning suv o'tkazmaslik markasi qanday belgilanadi?",
+   "a": [
+    "W (masalan W6)",
+    "F",
+    "B",
+    "D"
+   ],
+   "e": "Vodonepronitsaemost."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Sopol g'ishtning standart (yakka) o'lchami qancha?",
+   "a": [
+    "250×120×65 mm",
+    "200×100×50 mm",
+    "300×150×100 mm",
+    "250×250×250 mm"
+   ],
+   "e": "Odinarnyy."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Bir yarim (qalinlashtirilgan) g'isht qalinligi qancha?",
+   "a": [
+    "88 mm",
+    "65 mm",
+    "120 mm",
+    "50 mm"
+   ],
+   "e": "250×120×88."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Silikat g'isht nimadan tayyorlanadi?",
+   "a": [
+    "Qum va ohakdan",
+    "Loydan kuydirib",
+    "Sementdan",
+    "Gipsdan"
+   ],
+   "e": "Avtoklavda."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Silikat g'ishtni qayerda ishlatib bo'lmaydi?",
+   "a": [
+    "Poydevor va yuqori namlikda",
+    "Tashqi va ichki devorlarni terishda",
+    "Ichki devorlarda",
+    "To'siqlarda"
+   ],
+   "e": "Namga chidamsiz."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "G'isht markasi M100 nimani bildiradi?",
+   "a": [
+    "Siqilishdagi mustahkamlik 100 kgs/sm²",
+    "G'ishtning og'irligi 100 gramm ekanini",
+    "G'isht narxi",
+    "100 dona g'isht"
+   ],
+   "e": "Mustahkamlik."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "G'ovakli (pustotelyy) g'ishtning afzalligi nima?",
+   "a": [
+    "Yengil va issiqlik izolyatsiyasi yaxshi",
+    "Og'irroq va issiqlikni yaxshi o'tkazadi",
+    "Arzonroq va mo'rt",
+    "Faqat bezak uchun"
+   ],
+   "e": "Teshikli."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Gazobeton bloklarining afzalligi nima?",
+   "a": [
+    "Yengil, issiqlikni yaxshi saqlaydi",
+    "Juda og'ir, sovuqni yaxshi o'tkazadi",
+    "Suvga to'liq chidamli",
+    "Ishlov berish qiyin"
+   ],
+   "e": "Yacheykali beton."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Keramzit qanday olinadi?",
+   "a": [
+    "Loyni kuydirib ko'pchitish orqali",
+    "Qumni eritib",
+    "Ohakni so'ndirib",
+    "Sementni maydalab"
+   ],
+   "e": "G'ovakli granula."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Qurilish qumining sifatiga salbiy ta'sir qiluvchi omil nima?",
+   "a": [
+    "Loy va chang aralashmalari",
+    "Donalarning bir xil o'lchamda bo'lishi",
+    "Qumning tozaligi",
+    "Qumning quruqligi"
+   ],
+   "e": "Yuvish kerak."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Bitumli materiallar qayerda ishlatiladi?",
+   "a": [
+    "Gidroizolyatsiya va tomlarda",
+    "Ichki xonalarni bezash bo'yog'i sifatida",
+    "Oyna ishlab chiqarishda",
+    "G'isht pishirishda"
+   ],
+   "e": "Ruberoid."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Ruberoid nima?",
+   "a": [
+    "Bitum shimdirilgan karton",
+    "Rezina asosli, yerga yotqiziladigan gilam",
+    "Sopol plitka",
+    "Metall list"
+   ],
+   "e": "Rulonli material."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Penopolistirol qayerda ishlatiladi?",
+   "a": [
+    "Issiqlik izolyatsiyasida",
+    "Poydevorni ko'tarishda yuklama sifatida",
+    "Elektr o'tkazgich sifatida",
+    "Bo'yoq sifatida"
+   ],
+   "e": "Uteplitel."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Mineral paxta (minvata) afzalligi nima?",
+   "a": [
+    "Yonmaydi va issiqni saqlaydi",
+    "Tez yonadi va suvni yaxshi shimadi",
+    "Juda og'ir",
+    "Shovqinni kuchaytiradi"
+   ],
+   "e": "Issiqlik va tovush izolyatsiyasi."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Gipsokarton list (GKL) qayerda ishlatiladi?",
+   "a": [
+    "Ichki devor va shiftlarda",
+    "Poydevor va yerto'la devorlarini qurishda",
+    "Tom yopishda tashqarida",
+    "Yo'l qoplamasida"
+   ],
+   "e": "Quruq suvoq."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Namga chidamli gipsokarton qanday belgilanadi?",
+   "a": [
+    "GKLV (yashil rang)",
+    "GKL (kulrang)",
+    "GKLO (qizil rang)",
+    "Belgilanmaydi"
+   ],
+   "e": "V — vlagostoykiy."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Yog'ochning qurilishdagi asosiy kamchiligi nima?",
+   "a": [
+    "Chirish va yonuvchanlik",
+    "Juda og'irligi",
+    "Ishlov berish qiyinligi",
+    "Past mustahkamligi faqat"
+   ],
+   "e": "Antiseptik bilan ishlov."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Yog'ochni chirishdan himoya qilish uchun nima ishlatiladi?",
+   "a": [
+    "Antiseptiklar",
+    "Suvga botirish",
+    "Tuz sepish",
+    "Hech narsa"
+   ],
+   "e": "Antiseptirovanie."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Qurilish oynasining asosiy xomashyosi nima?",
+   "a": [
+    "Kvars qumi, soda, ohaktosh",
+    "Loy va qum",
+    "Sement, shag'al va suv aralashmasi",
+    "Yog'och va smola"
+   ],
+   "e": "Shisha."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Sopol plitkalar qanday olinadi?",
+   "a": [
+    "Loy massasini pishirib",
+    "Sementni yuqori bosim ostida presslab",
+    "Gipsni quyib",
+    "Yog'ochni kesib"
+   ],
+   "e": "Keramika."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "Qurilish materiallarining issiqlik o'tkazuvchanligi qanday birlikda o'lchanadi?",
+   "a": [
+    "Vt/(m·°C)",
+    "kg/m³",
+    "MPa",
+    "%"
+   ],
+   "e": "λ koeffitsiyenti."
+  },
+  {
+   "b": "Qurilish materiallari",
+   "q": "O'rtacha zichlik nima?",
+   "a": [
+    "Material massasining g'ovaklari bilan hajmga nisbati",
+    "Materialning siqilishdagi mustahkamligi",
+    "Materialning rangi",
+    "Materialning narxi"
+   ],
+   "e": "kg/m³."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'isht terishda gorizontal chokning o'rtacha qalinligi qancha?",
+   "a": [
+    "12 mm",
+    "3 mm",
+    "30 mm",
+    "50 mm"
+   ],
+   "e": "10–15 mm oralig'ida."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'isht terishda vertikal chokning o'rtacha qalinligi qancha?",
+   "a": [
+    "10 mm",
+    "1 mm",
+    "25 mm",
+    "40 mm"
+   ],
+   "e": "8–15 mm."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'ishtning devor yuziga uzun tomoni bilan qo'yilgan qatori qanday ataladi?",
+   "a": [
+    "Lojkovyy (uzunasiga) qator",
+    "Tychkovyy (ko'ndalang) qator",
+    "Zabutka qatori",
+    "Burchak qatori"
+   ],
+   "e": "Uzunasiga."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'ishtning devor yuziga kalta tomoni bilan qo'yilgan qatori qanday ataladi?",
+   "a": [
+    "Tychkovyy (ko'ndalang) qator",
+    "Lojkovyy (uzunasiga) qator",
+    "Zabutka (ichki to'ldiruvchi) qatori",
+    "Pardoz qator"
+   ],
+   "e": "Ko'ndalang."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Zanjirli (ikki qatorli) terish tizimida qatorlar qanday almashinadi?",
+   "a": [
+    "Uzunasiga va ko'ndalang qatorlar navbatma-navbat",
+    "Faqat uzunasiga qatorlar, ko'ndalang bog'lamsiz terilgan",
+    "Har qatorda yarim g'isht siljitib",
+    "Tasodifiy tartibda"
+   ],
+   "e": "Zanjirli tizim."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Ko'p qatorli terish tizimida odatda nechta uzunasiga qatordan keyin ko'ndalang qator qo'yiladi?",
+   "a": [
+    "5 ta",
+    "1 ta",
+    "10 ta",
+    "20 ta"
+   ],
+   "e": "Ko'p qatorli tizim."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'isht devor qalinligi \"bir yarim g'isht\" bo'lsa, taxminan qancha?",
+   "a": [
+    "380 mm",
+    "120 mm",
+    "250 mm",
+    "510 mm"
+   ],
+   "e": "250+120+chok."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "\"Ikki g'isht\" qalinlikdagi devor taxminan qancha?",
+   "a": [
+    "510 mm",
+    "250 mm",
+    "380 mm",
+    "640 mm"
+   ],
+   "e": "2×250+chok."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Choklarni bog'lashdan (perevyazka) maqsad nima?",
+   "a": [
+    "Devorning yaxlitligi va mustahkamligi",
+    "Devorni chiroyli ko'rsatish va qorishmani tejash",
+    "Terishni tezlashtirish",
+    "G'isht sarfini kamaytirish"
+   ],
+   "e": "Vertikal choklar ustma-ust tushmasligi."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'isht terishda devorning vertikalligi nima bilan tekshiriladi?",
+   "a": [
+    "Shovun (otves) va adilak",
+    "Ruletka faqat",
+    "Termometr",
+    "Manometr"
+   ],
+   "e": "Vertikallik."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'isht qatorlarining gorizontalligi nima bilan tekshiriladi?",
+   "a": [
+    "Adilak (daraja) bilan",
+    "Shovun bilan faqat",
+    "Ruletka bilan",
+    "Kelma bilan"
+   ],
+   "e": "Uroven."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Kelma (masterok) vazifasi nima?",
+   "a": [
+    "Qorishmani yoyish va choklarni to'ldirish",
+    "G'ishtni kerakli o'lchamda kesish va sindirish",
+    "Devorni o'lchash",
+    "Vertikallikni tekshirish"
+   ],
+   "e": "Asosiy asbob."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'ishtni kesish yoki sindirish uchun qanday asbob ishlatiladi?",
+   "a": [
+    "Kirka-bolg'a",
+    "Kelma",
+    "Shovun",
+    "Adilak"
+   ],
+   "e": "Molotok-kirochka."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Shnur-prichalka nima uchun ishlatiladi?",
+   "a": [
+    "Qatorlarning tekisligini ta'minlash",
+    "Qorishmani aralashtirish va bir xil holatda saqlash",
+    "G'ishtni tashish",
+    "Chokni tozalash"
+   ],
+   "e": "Prichalka."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Poryadovka nima?",
+   "a": [
+    "Qatorlar belgilangan reyka",
+    "G'isht va qorishmani balandlikka tashish moslamasi",
+    "Qorishma idishi",
+    "Kesish asbobi"
+   ],
+   "e": "Qator balandligini belgilash."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'isht terish uchun qorishmaning asosiy tarkibi nima?",
+   "a": [
+    "Sement, qum va suv",
+    "Faqat gips va suv",
+    "Faqat loy",
+    "Faqat ohak"
+   ],
+   "e": "Sement-qum qorishmasi."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Murakkab (sement-ohak) qorishmaning afzalligi nima?",
+   "a": [
+    "Plastikligi yuqori va ishlash qulay",
+    "Juda tez qotadi, mo'rt va yorilishga moyil bo'ladi",
+    "Suvni o'tkazmaydi to'liq",
+    "Arzon emas"
+   ],
+   "e": "Ohak plastiklik beradi."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Qorishma markasi M75 nimani bildiradi?",
+   "a": [
+    "Siqilishdagi mustahkamlik 75 kgs/sm²",
+    "Qorishmaning bir qopdagi og'irligi 75 kg ekanini",
+    "75 litr hajm",
+    "75% suv"
+   ],
+   "e": "Marka."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Issiq havoda g'isht terishdan oldin g'isht bilan nima qilinadi?",
+   "a": [
+    "Namlanadi",
+    "Qizdiriladi",
+    "Muzlatiladi",
+    "Bo'yaladi"
+   ],
+   "e": "Qorishma suvini so'rib olmasligi uchun."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Qishda g'isht terishda qanday usul qo'llanadi?",
+   "a": [
+    "Muzlatish yoki qo'shimchali qorishma usuli",
+    "Oddiy usulda, hech qanday choralarsiz",
+    "G'ishtni suvga botirib",
+    "Qorishmaga ko'proq suv qo'shib"
+   ],
+   "e": "Qishki terish."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Devor burchaklarini terishda nima muhim?",
+   "a": [
+    "Burchakni to'g'ri va vertikal chiqarish",
+    "Burchakni eng oxirida, devor tugagach terish",
+    "Burchakka qorishma qo'ymaslik",
+    "Burchakni yog'ochdan qilish"
+   ],
+   "e": "Mayaklar."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Eshik va deraza o'rinlari ustiga nima o'rnatiladi?",
+   "a": [
+    "Peremichka (temir-beton to'sin)",
+    "Hech narsa o'rnatilmaydi",
+    "Faqat yog'och reyka yoki gipsokarton bo'lagi",
+    "Plastik profil"
+   ],
+   "e": "Yuklamani qabul qiladi."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Seysmik hududlarda g'isht devorlarga nima qo'shimcha qilinadi?",
+   "a": [
+    "Antiseysmik kamar va armatura to'ri",
+    "Faqat qalinroq suvoq qatlami va bo'yoq",
+    "Gipsokarton qoplama",
+    "Hech narsa"
+   ],
+   "e": "Zilzilabardoshlik."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "O'zbekistonning ko'p hududlari qaysi seysmiklik darajasiga kiradi?",
+   "a": [
+    "7–9 ball",
+    "1–2 ball",
+    "3–4 ball",
+    "Seysmik emas"
+   ],
+   "e": "Seysmik faol hudud."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Ventilyatsiya kanallarini g'isht devorda terish uchun nima talab qilinadi?",
+   "a": [
+    "Silliq ichki yuza va zich choklar",
+    "Ichki yuzani g'adir-budur qoldirish",
+    "Kanallarni qorishma bilan to'ldirish",
+    "Kanalsiz terish"
+   ],
+   "e": "Tortishni ta'minlash."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Toshdan terishning qaysi turi tabiiy tosh bilan bajariladi?",
+   "a": [
+    "Butli terish",
+    "G'isht terish",
+    "Blok terish",
+    "Gazobeton terish"
+   ],
+   "e": "Butovaya kladka."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Pardozli terish (oblitsovka) qanday bajariladi?",
+   "a": [
+    "Pardoz g'isht yoki tosh bilan bir vaqtda yoki keyin",
+    "Faqat suvoq va bo'yoq bilan, g'ishtsiz",
+    "Faqat gulqog'oz bilan",
+    "Pardoz qilinmaydi"
+   ],
+   "e": "Fasad."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'isht terishdagi asosiy nuqson qaysi?",
+   "a": [
+    "Vertikal choklarning ustma-ust tushishi",
+    "Choklarning bir xil qalinlikda bo'lishi",
+    "Qatorlarning gorizontalligi",
+    "Devorning vertikalligi"
+   ],
+   "e": "Bog'lanish buziladi."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Choklarni rasshivka qilish nima?",
+   "a": [
+    "Chok yuzasiga shakl berib zichlash",
+    "Choklarni butunlay qorishmasiz qoldirish",
+    "G'ishtni bo'yash",
+    "Devorni buzish"
+   ],
+   "e": "Fasad choklari."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Devorni balandlikda terishda nima ishlatiladi?",
+   "a": [
+    "Havoza (lesa) va podmostlar",
+    "Oddiy stul yoki uy narvoni",
+    "Narvon faqat",
+    "Arqon"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Havoza ustida ishlashda qaysi talab majburiy?",
+   "a": [
+    "To'siqlar va xavfsizlik kamari",
+    "Himoyasiz, faqat qo'lqop bilan ishlash",
+    "Faqat ko'zoynak",
+    "Faqat maxsus poyabzal"
+   ],
+   "e": "Balandlikda ishlash."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Gazobeton bloklarni terishda qanday yelim/qorishma ishlatiladi?",
+   "a": [
+    "Maxsus yupqa chokli yelim",
+    "Qalin sement qorishmasi (30 mm)",
+    "Gips qorishmasi",
+    "Loy qorishmasi"
+   ],
+   "e": "2–3 mm chok."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "G'isht devor terish hajmi qanday birlikda hisoblanadi?",
+   "a": [
+    "m³",
+    "m",
+    "kg",
+    "dona faqat"
+   ],
+   "e": "Kladka hajmi."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "1 m³ g'isht terishga taxminan nechta yakka g'isht ketadi?",
+   "a": [
+    "400 ga yaqin",
+    "50 ga yaqin",
+    "1000 ga yaqin",
+    "2000 ga yaqin"
+   ],
+   "e": "Chok bilan ~394–400."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Mehnat xavfsizligi bo'yicha g'isht terishda qaysi holat taqiqlanadi?",
+   "a": [
+    "Devor ustida turib terish",
+    "Kaska kiyib, havoza ustidan terish",
+    "Kaska kiyib ishlash",
+    "Qo'lqopda ishlash"
+   ],
+   "e": "Yiqilish xavfi."
+  },
+  {
+   "b": "G'isht-tosh terish ishlari",
+   "q": "Qorishma qotib qolmasligi uchun uni qancha vaqt ichida ishlatish kerak?",
+   "a": [
+    "Tayyorlangandan keyin 1–2 soat ichida",
+    "Tayyorlangandan keyin bir hafta ichida",
+    "Bir oy ichida",
+    "Muddat yo'q"
+   ],
+   "e": "Jivuchest."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Suvoq qatlamlari ketma-ketligi qanday?",
+   "a": [
+    "Sepma, grunt, qoplama",
+    "Qoplama, grunt, sepma",
+    "Faqat bitta qatlam",
+    "Grunt, sepma, bo'yoq"
+   ],
+   "e": "Obryzg, grunt, nakryvka."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Sepma (obryzg) qatlamining vazifasi nima?",
+   "a": [
+    "Suvoqning asosga yopishishini ta'minlash",
+    "Yuzani yakuniy tekis va silliq holatga keltirish",
+    "Bo'yash",
+    "Issiqlik izolyatsiyasi"
+   ],
+   "e": "Birinchi qatlam."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Mayaklar (suvoqda) nima uchun o'rnatiladi?",
+   "a": [
+    "Tekis yuza va bir xil qalinlik olish",
+    "Devorni bezash va rang berish uchun",
+    "Elektr simini o'tkazish uchun",
+    "Suvni chiqarish uchun"
+   ],
+   "e": "Mayak profili."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Suvoqni tekislash uchun qanday asbob ishlatiladi?",
+   "a": [
+    "Qoida (pravilo)",
+    "Kirka-bolg'a",
+    "Shovun",
+    "Arra"
+   ],
+   "e": "Uzun reyka."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Shpaklyovka qachon qo'llanadi?",
+   "a": [
+    "Bo'yash yoki gulqog'oz oldidan yuzani tekislashda",
+    "Poydevor va yerto'la devorlarini qurishda",
+    "G'isht terishda",
+    "Tom yopishda"
+   ],
+   "e": "Pardoz."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Gruntovka vazifasi nima?",
+   "a": [
+    "Yuzani mustahkamlash va yopishqoqlikni oshirish",
+    "Yuzani bo'yash va rang berish",
+    "Yuzani namlash",
+    "Yuzani izolyatsiyalash faqat"
+   ],
+   "e": "Astar."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Gipsli suvoqning afzalligi nima?",
+   "a": [
+    "Tez quriydi, silliq yuza beradi",
+    "Namga juda chidamli, tashqariga mos",
+    "Juda sekin quriydi",
+    "Faqat tashqi fasad uchun"
+   ],
+   "e": "Ichki ishlar."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Tashqi suvoq uchun qanday qorishma tavsiya etiladi?",
+   "a": [
+    "Sement asosidagi qorishma",
+    "Faqat gips asosidagi tez qotuvchi qorishma",
+    "Loy qorishma",
+    "Yelim"
+   ],
+   "e": "Namga chidamli."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Suvoqda yoriqlar paydo bo'lishiga sabab nima bo'lishi mumkin?",
+   "a": [
+    "Juda qalin qatlam yoki tez qurish",
+    "To'g'ri qalinlikka rioya qilish va parvarish",
+    "Gruntovka qo'llash",
+    "Armatura to'ri ishlatish"
+   ],
+   "e": "Texnologiya buzilishi."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Suvoqni mustahkamlash uchun nima ishlatiladi?",
+   "a": [
+    "Armatura to'ri (setka)",
+    "Gulqog'oz",
+    "Bo'yoq",
+    "Lak"
+   ],
+   "e": "Shtukaturnaya setka."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Kafel yotqizishda plitkalar orasidagi bir xil chok qanday ta'minlanadi?",
+   "a": [
+    "Plastik krestiklar bilan",
+    "Qo'l bilan taxminan",
+    "Gugurt cho'plari bilan",
+    "Choksiz yotqiziladi"
+   ],
+   "e": "Krestiki."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Plitka choklarini to'ldirish uchun nima ishlatiladi?",
+   "a": [
+    "Zatirka (chok to'ldirgich)",
+    "Gruntovka",
+    "Shpaklyovka",
+    "Bo'yoq"
+   ],
+   "e": "Fuga."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Dekorativ suvoq turlaridan biri qaysi?",
+   "a": [
+    "Venetsiya suvog'i",
+    "Sepma (obryzg) suvoq qatlami",
+    "Grunt",
+    "Shtukatur to'ri"
+   ],
+   "e": "Bezak."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Interyer pardozlashda gulqog'oz yopishtirishdan oldin nima qilinadi?",
+   "a": [
+    "Yuza tekislanib, gruntlanadi",
+    "Yuza namlanib qoldiriladi",
+    "Yuza bo'yaladi qalin qatlamda",
+    "Hech narsa"
+   ],
+   "e": "Tayyorlov."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Suvga asoslangan (vodoemulsion) bo'yoqning afzalligi nima?",
+   "a": [
+    "Hidsiz, tez quriydi, ekologik",
+    "Kuchli hidli, zaharli va faqat metall uchun",
+    "Juda sekin quriydi",
+    "Suv bilan yuvilib ketadi"
+   ],
+   "e": "Ichki ishlar."
+  },
+  {
+   "b": "Suvoq va pardozlash ishlari",
+   "q": "Bo'yoq ishlarida bo'yoq qatlamlari orasida nima qilinadi?",
+   "a": [
+    "Oldingi qatlam qurishi kutiladi",
+    "Darhol ikkinchi qatlam surtiladi",
+    "Yuza ho'llanadi",
+    "Qum sepiladi"
+   ],
+   "e": "Texnologiya."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Binoning asosiy konstruktiv elementlari qaysilar?",
+   "a": [
+    "Poydevor, devor, orayopma, tom",
+    "Faqat eshik, deraza va bezak elementlari to'plami",
+    "Faqat mebel",
+    "Faqat muhandislik tarmoqlari"
+   ],
+   "e": "Yuk ko'taruvchi qismlar."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Poydevorning vazifasi nima?",
+   "a": [
+    "Bino yukini gruntga uzatish",
+    "Binoning tashqi ko'rinishini bezash va pardozlash",
+    "Tomni ushlab turish",
+    "Suvni isitish"
+   ],
+   "e": "Fundament."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Poydevor turlari qaysilar?",
+   "a": [
+    "Lentali, ustunsimon, plitali, qoziqli",
+    "Faqat yog'ochli va metall poydevorlar to'plami",
+    "Faqat tom",
+    "Faqat zinapoya"
+   ],
+   "e": "Konstruksiya bo'yicha."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Lentali poydevor qayerda qo'llanadi?",
+   "a": [
+    "Yuk ko'taruvchi devorlar ostida",
+    "Faqat alohida ustunlar ostida, bir-biridan uzoqda",
+    "Faqat tomda",
+    "Faqat oynalar ostida"
+   ],
+   "e": "Uzluksiz lenta."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Qoziqli poydevor qachon qo'llanadi?",
+   "a": [
+    "Zaif gruntlarda va katta yuklamada",
+    "Faqat qoyali mustahkam gruntlarda kichik uylarda",
+    "Faqat qishda",
+    "Faqat bezak uchun"
+   ],
+   "e": "Svai."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Poydevor chuqurligi nimaga bog'liq?",
+   "a": [
+    "Grunt muzlash chuqurligi va grunt turiga",
+    "Faqat bino rangiga va arxitektor xohishiga",
+    "Faqat derazalar soniga",
+    "Faqat tom shakliga"
+   ],
+   "e": "Promerzanie."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Gidroizolyatsiya poydevorda nima uchun kerak?",
+   "a": [
+    "Devorlarni grunt namligidan himoyalash",
+    "Binoni zilziladan to'liq saqlash uchun",
+    "Issiqlikni oshirish uchun",
+    "Bezak uchun"
+   ],
+   "e": "Kapillyar namlik."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Otmostka nima?",
+   "a": [
+    "Bino atrofidagi suv qochirish yo'lkasi",
+    "Binoning tomidagi ventilyatsiya qurilmasi",
+    "Ichki devor turi",
+    "Zinapoya turi"
+   ],
+   "e": "Poydevorni yomg'irdan saqlaydi."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Sokol nima?",
+   "a": [
+    "Devorning pastki, poydevorga tutash qismi",
+    "Tomning eng yuqori qismi, konyok",
+    "Deraza tokchasi",
+    "Eshik ramkasi"
+   ],
+   "e": "Tsokol."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Yuk ko'taruvchi devorning vazifasi nima?",
+   "a": [
+    "Orayopma va tom yukini qabul qilish",
+    "Faqat xonalarni bo'lish, yuksiz to'siq",
+    "Faqat bezak",
+    "Faqat tovush izolyatsiyasi"
+   ],
+   "e": "Nesushchaya stena."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Peregorodka (to'siq devor) nima?",
+   "a": [
+    "Xonalarni ajratuvchi yuk ko'tarmaydigan devor",
+    "Bino yukini poydevorga uzatuvchi tashqi devor",
+    "Poydevor turi",
+    "Tom turi"
+   ],
+   "e": "Ichki to'siq."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Orayopmaning vazifasi nima?",
+   "a": [
+    "Qavatlarni ajratish va yuklamani qabul qilish",
+    "Faqat bino tashqi devorlarini bezash",
+    "Suvni chiqarish",
+    "Yerni isitish"
+   ],
+   "e": "Perekrytie."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Yig'ma temir-beton orayopma plitasi qanday bo'ladi?",
+   "a": [
+    "Ko'p bo'shliqli (pustotnaya) plita",
+    "Bir butun yog'och taxta, bo'shliqsiz",
+    "Shisha panel",
+    "Metall to'r"
+   ],
+   "e": "PK plitalar."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Monolit temir-beton konstruksiya qanday quriladi?",
+   "a": [
+    "Qurilish joyida qolipga beton quyib",
+    "Zavodda tayyorlanib, tayyor holda keltirilib",
+    "G'ishtdan terib",
+    "Yog'ochdan yig'ib"
+   ],
+   "e": "Monolit."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Qolip (opalubka) vazifasi nima?",
+   "a": [
+    "Betonga kerakli shakl berish",
+    "Betonni tezroq quritib, yorilishiga sabab bo'lish",
+    "Armaturani bo'yash",
+    "Betonni isitish"
+   ],
+   "e": "Opalubka."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Tomning asosiy turlari qaysilar?",
+   "a": [
+    "Tekis va qiya (nishabli) tomlar",
+    "Faqat gumbazsimon va konussimon tomlar",
+    "Faqat shishali",
+    "Faqat yog'ochli"
+   ],
+   "e": "Krysha."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Qiya tomning yuk ko'taruvchi qismi nima?",
+   "a": [
+    "Stropila tizimi",
+    "Ruberoid qatlami",
+    "Bo'yoq qatlami",
+    "Deraza"
+   ],
+   "e": "Stropilnaya sistema."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Tom qoplamasi materiallariga misol qaysi?",
+   "a": [
+    "Shifer, metallocherepitsa, profnastil",
+    "Gipsokarton, gulqog'oz, shpaklyovka",
+    "Linoleum",
+    "Laminat"
+   ],
+   "e": "Krovlya."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Tomdan suvni chiqarish uchun nima o'rnatiladi?",
+   "a": [
+    "Tarnov va suv quvurlari",
+    "Ventilyatsiya kanallari",
+    "Elektr kabellari",
+    "Gaz quvurlari"
+   ],
+   "e": "Vodostok."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Zinapoya marshi nima?",
+   "a": [
+    "Zinapoyadagi pog'onalar qatori",
+    "Zinapoya ostidagi bo'sh joy, omborxona",
+    "Zinapoya panjarasi",
+    "Lift shaxtasi"
+   ],
+   "e": "Marsh."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Zinapoya maydonchasi nima?",
+   "a": [
+    "Marshlar orasidagi gorizontal joy",
+    "Zinapoyaning eng yuqori pog'onasi",
+    "Lift kabinasi",
+    "Tom"
+   ],
+   "e": "Ploshchadka."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Pog'onaning gorizontal qismi qanday ataladi?",
+   "a": [
+    "Prostup",
+    "Podstupenok",
+    "Kosour",
+    "Peril"
+   ],
+   "e": "Oyoq qo'yiladigan joy."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Deformatsiya choki nima uchun qilinadi?",
+   "a": [
+    "Harorat va cho'kishdan yorilishning oldini olish",
+    "Binoni chiroyli ko'rsatish va bezash uchun",
+    "Elektr simlarini o'tkazish",
+    "Suvni isitish"
+   ],
+   "e": "Shov."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Seysmik choklar binoni qanday bo'ladi?",
+   "a": [
+    "Mustaqil bo'laklarga (otseklarga)",
+    "Bir butun yaxlit blokka, choksiz",
+    "Faqat qavatlarga",
+    "Faqat xonalarga"
+   ],
+   "e": "Antiseysmik."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Karkasli binoda yuk nimaga tushadi?",
+   "a": [
+    "Ustun va rigellardan iborat karkasga",
+    "Faqat to'siq devorlarga, karkassiz",
+    "Faqat tomga",
+    "Faqat derazalarga"
+   ],
+   "e": "Karkas."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Ustunlar uchun qaysi material keng qo'llanadi?",
+   "a": [
+    "Temir-beton va po'lat",
+    "Gipsokarton va fanera",
+    "Shisha",
+    "Plastik"
+   ],
+   "e": "Kolonna."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Rigel nima?",
+   "a": [
+    "Ustunlarni bog'lovchi gorizontal to'sin",
+    "Poydevorning pastki qatlami",
+    "Tom qoplamasi",
+    "Deraza ramkasi"
+   ],
+   "e": "Balka."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Ferma nima?",
+   "a": [
+    "Sterjenlardan iborat panjarali konstruksiya",
+    "Yaxlit beton plita, teshiksiz",
+    "Tom qoplamasi",
+    "Poydevor turi"
+   ],
+   "e": "Katta oraliqlar uchun."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Bino issiqlik himoyasini oshirish uchun nima qilinadi?",
+   "a": [
+    "Devorlar issiqlik izolyatsiyalanadi",
+    "Derazalar soni va o'lchami oshiriladi",
+    "Devorlar yupqalashtiriladi",
+    "Hech narsa"
+   ],
+   "e": "Energosamaradorlik."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Ikki kamerali paket oynaning afzalligi nima?",
+   "a": [
+    "Issiqlik va tovush izolyatsiyasi yaxshi",
+    "Bitta oddiy oynadan arzonroq va yengilroq",
+    "Yorug'likni o'tkazmaydi",
+    "Tez sinadi"
+   ],
+   "e": "Steklopaket."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Qurilish fizikasi nimani o'rganadi?",
+   "a": [
+    "Binoda issiqlik, namlik, tovush va yorug'lik jarayonlarini",
+    "Qurilish materiallarining narxini va savdosini",
+    "Bino rangini",
+    "Ishchilar sonini"
+   ],
+   "e": "Stroitelnaya fizika."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "\"Shudring nuqtasi\" qurilishda nimani bildiradi?",
+   "a": [
+    "Bug' kondensatsiyalanadigan harorat",
+    "Devorning eng issiq nuqtasi, quyosh tushgan joy",
+    "Tomning eng yuqori nuqtasi",
+    "Poydevor chuqurligi"
+   ],
+   "e": "Tochka rosy."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Bug' izolyatsiyasi qaysi tomonda joylashtiriladi?",
+   "a": [
+    "Issiq (ichki) tomonda",
+    "Sovuq (tashqi) tomonda, shamol ta'sirida",
+    "Poydevorda",
+    "Tomning ustida"
+   ],
+   "e": "Kondensatsiyadan himoya."
+  },
+  {
+   "b": "Bino va inshootlar konstruksiyalari",
+   "q": "Tovush izolyatsiyasini oshirish uchun nima qilinadi?",
+   "a": [
+    "Zich va massiv konstruksiyalar yoki maxsus materiallar",
+    "Devorlarni yupqa va yengil qilish",
+    "Teshiklar qoldirish",
+    "Shiftni olib tashlash"
+   ],
+   "e": "Akustika."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Qurilish ishlarining birinchi bosqichi qaysi?",
+   "a": [
+    "Tayyorlov ishlari",
+    "Pardozlash ishlari va bo'yash",
+    "Tom yopish",
+    "Mebel o'rnatish"
+   ],
+   "e": "Maydonni tayyorlash."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Binoni joyga bog'lash (razbivka) nima?",
+   "a": [
+    "Bino o'qlarini joyda belgilash",
+    "Binoni boshqa joyga ko'chirish va buzish",
+    "Binoni bo'yash",
+    "Binoni sug'urtalash"
+   ],
+   "e": "Geodezik ishlar."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Yer ishlarida qanday mashinalar ishlatiladi?",
+   "a": [
+    "Ekskavator, buldozer, skreper",
+    "Minorali kran va betonaralashtirgich faqat",
+    "Payvand apparati",
+    "Shtukatur stansiyasi"
+   ],
+   "e": "Zemlyanye raboty."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Kotlovan nima?",
+   "a": [
+    "Poydevor uchun qazilgan chuqurlik",
+    "Bino tomidagi suv to'plagich hovuz",
+    "Zinapoya ostidagi joy",
+    "Deraza o'rni"
+   ],
+   "e": "Kotlovan."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Transheya nima?",
+   "a": [
+    "Uzun va tor qazilgan chuqurlik",
+    "Keng va chuqur kotlovan, binoning ostida",
+    "Tom qoplamasi",
+    "Ustun turi"
+   ],
+   "e": "Kabel, quvur uchun."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Gruntni zichlash uchun nima ishlatiladi?",
+   "a": [
+    "Katok va vibroplita",
+    "Ekskavator kovshi",
+    "Kelma",
+    "Shovun"
+   ],
+   "e": "Uplotnenie."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Montaj ishlarida qanday kran keng qo'llanadi?",
+   "a": [
+    "Minorali kran",
+    "Ko'prik krani faqat sexda",
+    "Qo'l lebyodkasi",
+    "Domkrat"
+   ],
+   "e": "Bashennyy kran."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Yuklarni kranda ko'tarishda strop vazifasi nima?",
+   "a": [
+    "Yukni ilib, kranga ulash",
+    "Yuk og'irligini o'lchash va hisoblash",
+    "Kranni harakatlantirish",
+    "Yukni bo'yash"
+   ],
+   "e": "Stropalshchik."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Kran bilan yuk ko'tarilayotganda qaysi qoida majburiy?",
+   "a": [
+    "Yuk ostida odam turishi taqiqlanadi",
+    "Yuk ostida turib yo'nalish ko'rsatish mumkin",
+    "Yukni tez silkitish",
+    "Signalchi kerak emas"
+   ],
+   "e": "Xavfli zona."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Beton qorishmasini tashish uchun nima ishlatiladi?",
+   "a": [
+    "Avtobetonaralashtirgich (miksser)",
+    "Oddiy yuk mashinasi kuzovida ochiq holda",
+    "Suv sisternasi",
+    "Avtobus"
+   ],
+   "e": "Qorishma ajralmasligi uchun."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Beton nasos vazifasi nima?",
+   "a": [
+    "Betonni quvur orqali joyiga uzatish",
+    "Betonni qotirib, quritish",
+    "Armaturani payvandlash",
+    "Gruntni qazish"
+   ],
+   "e": "Betononasos."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Kalendar reja (grafik) nima uchun tuziladi?",
+   "a": [
+    "Ishlar ketma-ketligi va muddatlarini belgilash",
+    "Ishchilarning ish haqini hisoblash",
+    "Materiallarni bo'yash",
+    "Binoni sotish"
+   ],
+   "e": "Rejalashtirish."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Loyiha-smeta hujjatlari nima?",
+   "a": [
+    "Qurilish loyihasi va xarajatlar hisobi",
+    "Ishchilar mehnat daftarchalari",
+    "Qurilish materiallari reklama varaqasi",
+    "Ob-havo ma'lumoti"
+   ],
+   "e": "PSD."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Yashirin ishlar dalolatnomasi qachon tuziladi?",
+   "a": [
+    "Keyingi ishlar bilan yopiladigan ishlar bajarilgach",
+    "Bino to'liq foydalanishga topshirilgach",
+    "Ish boshlanishidan oldin",
+    "Hech qachon"
+   ],
+   "e": "Armatura, gidroizolyatsiya."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Qurilishda mualliflik nazorati kim tomonidan amalga oshiriladi?",
+   "a": [
+    "Loyiha tashkiloti",
+    "Pudratchi ishchilari o'zi",
+    "Qo'shnilar",
+    "Bank"
+   ],
+   "e": "Avtorskiy nadzor."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Texnik nazoratni kim amalga oshiradi?",
+   "a": [
+    "Buyurtmachi (yoki uning vakili)",
+    "Faqat quruvchi ishchi",
+    "Faqat arxitektor o'quvchisi",
+    "Hech kim"
+   ],
+   "e": "Texnadzor."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "O'zbekistonda qurilish me'yorlari qanday ataladi?",
+   "a": [
+    "ShNQ (shaharsozlik normalari va qoidalari)",
+    "GOST faqat",
+    "ISO faqat",
+    "SanPiN faqat"
+   ],
+   "e": "Qurilish me'yorlari."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Qurilish maydonchasida qaysi himoya vositasi majburiy?",
+   "a": [
+    "Himoya kaskasi",
+    "Oddiy shlyapa",
+    "Quyosh ko'zoynagi",
+    "Galstuk"
+   ],
+   "e": "Kaska."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Binoning texnik holatini baholashda nima tekshiriladi?",
+   "a": [
+    "Yoriqlar, deformatsiyalar, materiallar holati",
+    "Faqat bino tashqi bo'yog'i va reklamalari",
+    "Faqat mebellar",
+    "Faqat ijara narxi"
+   ],
+   "e": "Texnik ko'rik."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Binoning avariya holati nimani bildiradi?",
+   "a": [
+    "Konstruksiyalar buzilish xavfi borligini",
+    "Bino yangi va to'liq soz ekanini",
+    "Faqat ta'mir talab qilinmasligini",
+    "Binoni bo'yash kerakligini"
+   ],
+   "e": "Avariynoe sostoyanie."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Devordagi yoriqlarni kuzatish uchun nima o'rnatiladi?",
+   "a": [
+    "Mayaklar (gipsli yoki shishali)",
+    "Elektr hisoblagichlar",
+    "Suv quvurlari",
+    "Ventilyatorlar"
+   ],
+   "e": "Yoriq kengayishini kuzatish."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Binoni rekonstruksiya qilish nima?",
+   "a": [
+    "Binoni qayta qurish va funksiyasini yaxshilash",
+    "Binoni butunlay buzib tashlash",
+    "Faqat bo'yash",
+    "Faqat yuvish"
+   ],
+   "e": "Rekonstruksiya."
+  },
+  {
+   "b": "Qurilish texnologiyasi va tashkil etish",
+   "q": "Kapital ta'mir va joriy ta'mirning farqi nima?",
+   "a": [
+    "Kapital ta'mirda yeyilgan konstruksiyalar almashtiriladi",
+    "Joriy ta'mirda bino butunlay qayta quriladi",
+    "Farqi yo'q",
+    "Kapital ta'mir har kuni bajariladi"
+   ],
+   "e": "Ta'mir turlari."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Asfaltobetonning asosiy tarkibi nima?",
+   "a": [
+    "Bitum, chaqiq tosh, qum, mineral kukun",
+    "Sement, suv va gips aralashmasi, bitumsiz",
+    "Faqat qum va loy",
+    "Faqat yog'och qipig'i"
+   ],
+   "e": "Asfaltobeton qorishmasi."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Issiq asfaltobeton qorishmasi qanday haroratda yotqiziladi?",
+   "a": [
+    "Taxminan 120–160 °C",
+    "20–30 °C xona haroratida",
+    "300–400 °C",
+    "0 °C dan past"
+   ],
+   "e": "Issiq usulda."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Asfaltni zichlash uchun nima ishlatiladi?",
+   "a": [
+    "Yo'l katoklari",
+    "Ekskavator",
+    "Minorali kran",
+    "Beton nasos"
+   ],
+   "e": "Katok."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Yo'l to'shamasi qatlamlari qaysilar?",
+   "a": [
+    "Qoplama, asos va qo'shimcha qatlam",
+    "Faqat bitta asfalt qatlami, asossiz",
+    "Faqat tuproq",
+    "Faqat beton plita"
+   ],
+   "e": "Dorozhnaya odejda."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Yo'l qurilishida bitumning vazifasi nima?",
+   "a": [
+    "Mineral materiallarni bog'lash",
+    "Yo'l qoplamasini quyosh nuridan to'liq himoyalash",
+    "Yo'lni sovutish",
+    "Suvni o'tkazish"
+   ],
+   "e": "Bog'lovchi."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Bitumning sifat ko'rsatkichlaridan biri qaysi?",
+   "a": [
+    "Penetratsiya (qattiqlik)",
+    "Rangi va hidi",
+    "Narxi",
+    "Ishlab chiqarilgan joyi"
+   ],
+   "e": "Ignaning botish chuqurligi."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Sement-beton yo'l qoplamasining afzalligi nima?",
+   "a": [
+    "Uzoq xizmat va yuqori mustahkamlik",
+    "Juda tez ta'mirlanishi va arzonligi",
+    "Yumshoqligi",
+    "Shovqinsizligi"
+   ],
+   "e": "Qattiq qoplama."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Chaqiq toshning fraksiyasi nima?",
+   "a": [
+    "Donalar o'lchami oralig'i (masalan 5–20 mm)",
+    "Tosh qazib olingan kon va uning joylashuvi",
+    "Tosh og'irligi",
+    "Tosh narxi"
+   ],
+   "e": "Fraksiya."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Yo'l qurilishida geotekstil nima uchun ishlatiladi?",
+   "a": [
+    "Qatlamlarni ajratish va mustahkamlash",
+    "Yo'l chiziqlarini belgilash va bo'yash uchun",
+    "Suvni isitish",
+    "Yorug'lik berish"
+   ],
+   "e": "Geosintetika."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Yo'l chetidagi kyuvet nima uchun kerak?",
+   "a": [
+    "Suvni qochirish",
+    "Piyodalar yurishi uchun",
+    "Avtomobil to'xtashi uchun",
+    "Reklama uchun"
+   ],
+   "e": "Drenaj."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Bordyur toshi vazifasi nima?",
+   "a": [
+    "Qatnov qismi va yo'lakni ajratish",
+    "Qishda yo'l qoplamasini isitib, qorni eritish",
+    "Yo'lni yoritish",
+    "Suvni yig'ish"
+   ],
+   "e": "Bordyur."
+  },
+  {
+   "b": "Yo'l qurilish materiallari",
+   "q": "Yo'l qoplamasida chuqurlar paydo bo'lishiga sabab nima?",
+   "a": [
+    "Suv, harorat va ortiqcha yuklama",
+    "Qoplamani to'g'ri zichlash va sifatli drenaj",
+    "Sifatli bitum",
+    "Yangi qoplama"
+   ],
+   "e": "Buzilish sabablari."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Gidrotexnika inshootlari nima?",
+   "a": [
+    "Suv resurslaridan foydalanish va suvdan himoya inshootlari",
+    "Faqat turar joy binolari, maktab va shifoxonalar",
+    "Faqat yo'llar",
+    "Faqat elektr liniyalari"
+   ],
+   "e": "To'g'on, kanal, shlyuz."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "To'g'on vazifasi nima?",
+   "a": [
+    "Suv sathini ko'tarish va suv omborini hosil qilish",
+    "Suvni butunlay bug'latib, daryoni quritish",
+    "Yo'lni ko'tarish",
+    "Elektr uzatish"
+   ],
+   "e": "Plotina."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Kanal qoplamasi (oblitsovka) nima uchun qilinadi?",
+   "a": [
+    "Filtratsiya isroflarini kamaytirish",
+    "Kanal yuzasini bezash va unga rang berish",
+    "Suvni isitish",
+    "Baliq ko'paytirish"
+   ],
+   "e": "Beton qoplama."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Gidrotexnika betoniga qo'yiladigan asosiy talab nima?",
+   "a": [
+    "Suv o'tkazmaslik va sovuqqa chidamlilik",
+    "Faqat chiroyli rang va silliq tashqi yuza",
+    "Yengillik",
+    "Arzonlik faqat"
+   ],
+   "e": "W va F markalar."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Akveduk nima?",
+   "a": [
+    "Kanalni jarlik yoki yo'l ustidan o'tkazuvchi inshoot",
+    "Yer osti suv ombori, chuqur quduq",
+    "Suv tozalash zavodi",
+    "Baliq ovlash joyi"
+   ],
+   "e": "Ko'prik-kanal."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Dyuker nima?",
+   "a": [
+    "Kanalni yo'l yoki daryo ostidan o'tkazuvchi quvur",
+    "Kanal ustidan o'tadigan piyodalar ko'prigi va yo'lak",
+    "Suv omborining to'g'oni",
+    "Suv o'lchagich"
+   ],
+   "e": "Bosimli quvur."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Suv tashlagich (vodosbros) vazifasi nima?",
+   "a": [
+    "Ortiqcha suvni xavfsiz chiqarish",
+    "Suvni to'plab, butunlay to'xtatish",
+    "Baliq o'tkazish",
+    "Elektr ishlab chiqarish"
+   ],
+   "e": "Toshqindan himoya."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Gidrotexnika inshootlarida drenaj nima uchun kerak?",
+   "a": [
+    "Filtratsiya suvini chiqarish va bosimni kamaytirish",
+    "Inshootni tashqi tomondan bezash va bo'yash",
+    "Suvni isitish",
+    "Elektr ishlab chiqarish"
+   ],
+   "e": "Barqarorlik."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Suv sathini o'lchash uchun nima o'rnatiladi?",
+   "a": [
+    "Suv o'lchash reykasi (gidropost)",
+    "Termometr",
+    "Barometr",
+    "Ampermetr"
+   ],
+   "e": "Uroven."
+  },
+  {
+   "b": "Gidrotexnika inshootlari",
+   "q": "Shlyuz vazifasi nima?",
+   "a": [
+    "Kemalarni turli suv sathlari orasida o'tkazish",
+    "Suvni tozalab, ichimlik suviga aylantirish",
+    "Baliq ko'paytirish",
+    "Elektr ishlab chiqarish"
+   ],
+   "e": "Navigatsiya."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "G'isht ishlab chiqarishning asosiy bosqichlari qaysilar?",
+   "a": [
+    "Loy tayyorlash, qoliplash, quritish, pishirish",
+    "Qumni eritib, qoliplarga quyib sovutish",
+    "Sementni presslash",
+    "Yog'ochni kesish"
+   ],
+   "e": "Keramika texnologiyasi."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Sopol g'isht qanday haroratda pishiriladi?",
+   "a": [
+    "Taxminan 950–1050 °C",
+    "100–200 °C",
+    "2000 °C dan yuqori",
+    "50 °C"
+   ],
+   "e": "Pech."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Sement klinkeri qayerda kuydiriladi?",
+   "a": [
+    "Aylanma pechda",
+    "Ochiq gulxanda",
+    "Elektr choynakda",
+    "Avtoklavda"
+   ],
+   "e": "Vrashchayushchayasya pech."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Beton qorishmasi qayerda tayyorlanadi?",
+   "a": [
+    "Beton-qorishma uzelida (BSU)",
+    "Asfalt-beton zavodining bitum isitish sexida",
+    "Shisha zavodida",
+    "G'isht pechida"
+   ],
+   "e": "Betonnyy zavod."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Betonaralashtirgichlar qanday turlarga bo'linadi?",
+   "a": [
+    "Gravitatsion va majburiy aralashtiruvchi",
+    "Faqat qo'lda aralashtiruvchi va elektrsiz",
+    "Faqat havo bilan",
+    "Faqat suv bosimi bilan"
+   ],
+   "e": "Smesitel."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Yig'ma temir-beton buyumlarini bug'lash nima uchun qilinadi?",
+   "a": [
+    "Qotishni tezlashtirish",
+    "Buyumni namlash va yumshatish",
+    "Buyumni bo'yash",
+    "Buyumni sovutish"
+   ],
+   "e": "Bug'lash kamerasi."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Avtoklav qayerda ishlatiladi?",
+   "a": [
+    "Silikat g'isht va gazobeton ishlab chiqarishda",
+    "Asfalt qorishmasini yo'lda yotqizishda",
+    "Bo'yoq ishlarida",
+    "Payvandlashda"
+   ],
+   "e": "Yuqori bosim va bug'."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Maydalagich (droblyonka) vazifasi nima?",
+   "a": [
+    "Toshni maydalab chaqiq tosh olish",
+    "Qumni suv bilan yuvib, loydan tozalash",
+    "Sementni qoplash",
+    "G'ishtni pishirish"
+   ],
+   "e": "Drobilka."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Grokhot (elak) vazifasi nima?",
+   "a": [
+    "Materialni fraksiyalarga ajratish",
+    "Materialni maydalab, keyin eritib yuborish",
+    "Materialni pishirish",
+    "Materialni bo'yash"
+   ],
+   "e": "Saralash."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Qurilish materiallari ishlab chiqarishda chang bilan kurashish uchun nima o'rnatiladi?",
+   "a": [
+    "Chang tutuvchi qurilmalar (siklon, filtr)",
+    "Qo'shimcha ventilyatsiyasiz yopiq xonalar",
+    "Faqat derazalar",
+    "Hech narsa"
+   ],
+   "e": "Ekologiya."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Lentali konveyer vazifasi nima?",
+   "a": [
+    "Sochiluvchan materiallarni uzluksiz tashish",
+    "Materiallarni maydalab, mayda kukunga aylantirish",
+    "Materiallarni pishirish",
+    "Materiallarni bo'yash"
+   ],
+   "e": "Transportyor."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Mashina operatori ishni boshlashdan oldin nima qiladi?",
+   "a": [
+    "Mashinaning sozligini va himoyasini tekshiradi",
+    "Himoya to'siqlarini olib tashlab, darhol to'liq quvvatda ishga tushiradi",
+    "Faqat tashqi ko'rinishini artadi",
+    "Moylashni to'xtatadi"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Ishlab turgan mexanizmga xizmat ko'rsatish (moylash, tozalash) mumkinmi?",
+   "a": [
+    "Yo'q, to'xtatib, o'chirib bajariladi",
+    "Ha, ishlab turgan holda, tezroq bajarish uchun",
+    "Ha, faqat tunda",
+    "Ha, qo'l bilan"
+   ],
+   "e": "Jarohat xavfi."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Qurilish materiallari sifatini tekshirish qayerda o'tkaziladi?",
+   "a": [
+    "Qurilish laboratoriyasida",
+    "Faqat ombor qorovuli tomonidan",
+    "Bankda",
+    "Kassada"
+   ],
+   "e": "Sinovlar."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Beton namunalari (kublar) qanday o'lchamda bo'ladi?",
+   "a": [
+    "150×150×150 mm (standart)",
+    "10×10×10 mm",
+    "1×1×1 m",
+    "500×500×500 mm"
+   ],
+   "e": "Mustahkamlik sinovi."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Beton kub namunalari qanday sinaladi?",
+   "a": [
+    "Pressda siqib",
+    "Bolg'a bilan urib",
+    "Suvda qaynatib",
+    "Olovda kuydirib"
+   ],
+   "e": "Siqilish mustahkamligi."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Qumning yiriklik moduli nimani tavsiflaydi?",
+   "a": [
+    "Qum donalarining o'rtacha yirikligini",
+    "Qum donalarining rangi va tabiiy namligini",
+    "Qumning narxini",
+    "Qumning og'irligini"
+   ],
+   "e": "Mk."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Materialning suv shimuvchanligi nima?",
+   "a": [
+    "Material yutgan suv miqdori",
+    "Materialning yonuvchanligi va chidamliligi",
+    "Materialning rangi",
+    "Materialning issiqligi"
+   ],
+   "e": "Vodopogloshchenie."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Materialning sovuqqa chidamliligi qanday sinaladi?",
+   "a": [
+    "Ko'p marta muzlatib-eritib",
+    "Bir marta qizdirib",
+    "Bolg'a bilan urib",
+    "Bo'yab"
+   ],
+   "e": "Sikllar soni."
+  },
+  {
+   "b": "Qurilish materiallari ishlab chiqarish",
+   "q": "Gips bog'lovchi qanday olinadi?",
+   "a": [
+    "Gips toshini 150–180 °C da qizdirib",
+    "Ohaktoshni 1000 °C da aylanma pechda kuydirib",
+    "Loyni pishirib",
+    "Qumni eritib"
+   ],
+   "e": "Stroitelnyy gips."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Armatura karkasini to'qishda qanday sim ishlatiladi?",
+   "a": [
+    "Yumshoq to'qish simi",
+    "Qattiq prujina po'lati, egilmaydigan turdagi",
+    "Mis kabel",
+    "Alyuminiy folga"
+   ],
+   "e": "Vyazalnaya provoloka."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Betonda armaturaning himoya qatlami nima uchun kerak?",
+   "a": [
+    "Armaturani korroziya va olovdan himoyalash",
+    "Betonning tashqi ko'rinishini bezash va rang berish",
+    "Betonni yengillashtirish",
+    "Armaturani ko'rinadigan qilish"
+   ],
+   "e": "Zashchitnyy sloy."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Armatura himoya qatlamini ta'minlash uchun nima qo'yiladi?",
+   "a": [
+    "Fiksatorlar (plastik tirgaklar)",
+    "Yog'och bo'laklari va g'isht siniqlari",
+    "Qog'oz",
+    "Hech narsa"
+   ],
+   "e": "Fiksator."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Armatura sterjenlarini ulash usullari qaysilar?",
+   "a": [
+    "Ustma-ust qo'yish, payvandlash, mufta",
+    "Faqat yelimlash va izolenta bilan o'rash",
+    "Faqat bo'yash",
+    "Faqat arqon bilan bog'lash"
+   ],
+   "e": "Styk."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Yig'ma elementlarni montaj qilishda birinchi navbatda nima o'rnatiladi?",
+   "a": [
+    "Pastki konstruksiyalar (poydevor bloklari)",
+    "Tomning yuk ko'taruvchi plitalari va qoplamalari",
+    "Derazalar",
+    "Eshiklar"
+   ],
+   "e": "Pastdan yuqoriga."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Montaj qilingan ustunning vertikalligi nima bilan tekshiriladi?",
+   "a": [
+    "Teodolit yoki shovun",
+    "Termometr va barometr",
+    "Ruletka faqat",
+    "Kelma"
+   ],
+   "e": "Geodezik nazorat."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Vaqtinchalik mahkamlash (konduktor, rasporka) nima uchun ishlatiladi?",
+   "a": [
+    "Element to'liq mahkamlanguncha ushlab turish",
+    "Elementni bezash va bo'yash uchun",
+    "Elementni og'irlashtirish",
+    "Elementni isitish"
+   ],
+   "e": "Montaj xavfsizligi."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Tom yopishda metallocherepitsa qanday mahkamlanadi?",
+   "a": [
+    "Germetik shaybali shuruplar bilan",
+    "Oddiy qurilish mixi bilan, shaybasiz va germetiksiz",
+    "Yelim bilan",
+    "Sim bilan bog'lab"
+   ],
+   "e": "Krovelnyy samorez."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Tekis tomda qaysi qoplama ko'p qo'llanadi?",
+   "a": [
+    "Rulonli yoki membranali qoplama",
+    "Shifer va cherepitsa",
+    "Yog'och taxta",
+    "Gipsokarton"
+   ],
+   "e": "Tekis tom."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Tom nishabligi kichik bo'lsa qanday muammo yuzaga keladi?",
+   "a": [
+    "Suv to'planib qolishi va oqish",
+    "Qor tez sirg'anib tushib, piyodalarga xavf tug'diradi",
+    "Tom juda og'irlashishi",
+    "Hech qanday muammo yo'q"
+   ],
+   "e": "Nishab."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Tomda konyok nima?",
+   "a": [
+    "Ikki qiyalikning yuqori tutashgan qirrasi",
+    "Tomning pastki cheti, tarnov o'rnatiladigan joy",
+    "Mo'ri",
+    "Deraza"
+   ],
+   "e": "Konek."
+  },
+  {
+   "b": "Armatura, montaj va tom ishlari",
+   "q": "Tom ostidagi bo'shliqni ventilyatsiya qilish nima uchun kerak?",
+   "a": [
+    "Namlik to'planishi va chirishning oldini olish",
+    "Tomni og'irlashtirish va mustahkamlash",
+    "Issiqni xonaga yuborish",
+    "Shovqinni oshirish"
+   ],
+   "e": "Podkrovelnoe prostranstvo."
+  },
+  {
+   "b": "Pol va duradgorlik ishlari",
+   "q": "Pol konstruksiyasining asosiy qatlamlari qaysilar?",
+   "a": [
+    "Asos, styajka (tekislovchi qatlam), qoplama",
+    "Faqat linoleum, asossiz to'g'ridan-to'g'ri yerga",
+    "Faqat gilam",
+    "Faqat bo'yoq"
+   ],
+   "e": "Pol qatlamlari."
+  },
+  {
+   "b": "Pol va duradgorlik ishlari",
+   "q": "Styajka (tekislovchi qatlam) nima uchun qilinadi?",
+   "a": [
+    "Pol asosini tekislash",
+    "Polni bo'yash va bezash uchun",
+    "Polni namlash",
+    "Polni isitish faqat"
+   ],
+   "e": "Sement-qum styajkasi."
+  },
+  {
+   "b": "Pol va duradgorlik ishlari",
+   "q": "Laminat yotqizishdan oldin ostiga nima qo'yiladi?",
+   "a": [
+    "Podlojka (yumshoq to'shama)",
+    "Qalin sement qorishmasi, nam holatda",
+    "Qum qatlami",
+    "Suv"
+   ],
+   "e": "Tovush va tekislash."
+  },
+  {
+   "b": "Pol va duradgorlik ishlari",
+   "q": "Issiq pol (teplyy pol) turlari qaysilar?",
+   "a": [
+    "Suvli va elektrli",
+    "Faqat gazli va ko'mirli",
+    "Faqat quyoshli",
+    "Faqat shamolli"
+   ],
+   "e": "Isitish tizimi."
+  },
+  {
+   "b": "Pol va duradgorlik ishlari",
+   "q": "Yog'och detallarni ulashning keng tarqalgan usuli qaysi?",
+   "a": [
+    "Ship-paz (ship va o'yiq) birikmasi",
+    "Faqat payvandlash yoki metall kavsharlash bilan",
+    "Faqat yelimlash, ulamasdan",
+    "Faqat bo'yash"
+   ],
+   "e": "Duradgorlik."
+  },
+  {
+   "b": "Pol va duradgorlik ishlari",
+   "q": "Yog'ochni kesish uchun qaysi asbob ishlatiladi?",
+   "a": [
+    "Arra",
+    "Kelma",
+    "Shovun",
+    "Adilak"
+   ],
+   "e": "Pila."
+  },
+  {
+   "b": "Pol va duradgorlik ishlari",
+   "q": "Yog'och yuzasini silliqlash uchun nima ishlatiladi?",
+   "a": [
+    "Randa va jilvir qog'oz",
+    "Bolg'a va mix",
+    "Kelma",
+    "Shovun"
+   ],
+   "e": "Rubanok."
+  },
+  {
+   "b": "Pol va duradgorlik ishlari",
+   "q": "Eshik o'rnatishda qutini mahkamlash uchun nima ishlatiladi?",
+   "a": [
+    "Montaj ko'pigi va ankerlar",
+    "Faqat gips qorishmasi, mahkamlagichsiz",
+    "Faqat suv",
+    "Faqat gulqog'oz"
+   ],
+   "e": "Montajnaya pena."
+  },
+  {
+   "b": "Pol va duradgorlik ishlari",
+   "q": "Plastik derazalarni o'rnatishda chokni nima bilan to'ldiriladi?",
+   "a": [
+    "Montaj ko'pigi, so'ng himoya lentalari",
+    "Faqat sement qorishmasi, ko'piksiz",
+    "Faqat loy",
+    "To'ldirilmaydi"
+   ],
+   "e": "Montaj choki."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Binoning ichki suv ta'minoti tizimi qanday qismlardan iborat?",
+   "a": [
+    "Kirish, hisoblagich uzeli, quvurlar, armatura",
+    "Faqat kanalizatsiya va yomg'ir suvi quvurlari",
+    "Faqat elektr kabellari",
+    "Faqat ventilyatsiya"
+   ],
+   "e": "Vodoprovod."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Suv hisoblagichi (schyotchik) nima uchun o'rnatiladi?",
+   "a": [
+    "Suv sarfini hisobga olish",
+    "Suv bosimini oshirish va isitish",
+    "Suvni tozalash",
+    "Suvni sovutish"
+   ],
+   "e": "Uchet."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Kanalizatsiya quvurlari qanday nishab bilan yotqiziladi?",
+   "a": [
+    "Oqim yo'nalishida nishab bilan",
+    "Mutlaqo gorizontal, nishabsiz",
+    "Teskari nishab bilan",
+    "Vertikal faqat"
+   ],
+   "e": "O'z oqimi bilan."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Sifon (gidrozatvor) vazifasi nima?",
+   "a": [
+    "Kanalizatsiya hidining xonaga kirishiga to'sqinlik",
+    "Suv bosimini oshirish va tezlatish",
+    "Suvni isitish",
+    "Suvni hisoblash"
+   ],
+   "e": "Suv tiqini."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Isitish tizimida radiatorlarning vazifasi nima?",
+   "a": [
+    "Issiqlikni xonaga uzatish",
+    "Suvni sovutish va tozalash",
+    "Elektr ishlab chiqarish",
+    "Havoni namlash"
+   ],
+   "e": "Otoplenie."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Isitish tizimidan havoni chiqarish uchun nima o'rnatiladi?",
+   "a": [
+    "Mayevskiy krani (havo chiqargich)",
+    "Suv hisoblagichi va mexanik tozalash filtri",
+    "Sifon",
+    "Rozetka"
+   ],
+   "e": "Havo tiqinlari."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Polipropilen quvurlar qanday ulanadi?",
+   "a": [
+    "Payvandlash (kavsharlash) apparati bilan",
+    "Rezba va zig'ir tolasi bilan faqat",
+    "Yelim lenta bilan",
+    "Payvandlanmaydi"
+   ],
+   "e": "Diffuzion payvand."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Gaz quvurlari qanday rangga bo'yaladi?",
+   "a": [
+    "Sariq",
+    "Ko'k",
+    "Yashil",
+    "Qizil"
+   ],
+   "e": "Belgilash."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Gaz ta'minoti tizimida gaz hisoblagichi nima uchun kerak?",
+   "a": [
+    "Gaz sarfini hisobga olish",
+    "Gaz bosimini oshirish va isitish",
+    "Gazni tozalash",
+    "Gazni sovutish"
+   ],
+   "e": "Gazovyy schyotchik."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Gaz hidi sezilsa birinchi navbatda nima qilinadi?",
+   "a": [
+    "Gaz berish to'xtatilib, xona shamollatiladi",
+    "Chiroq yoqib, gaz sizishi qidiriladi",
+    "Gugurt chaqiladi",
+    "Elektr asboblari yoqiladi"
+   ],
+   "e": "Portlash xavfi."
+  },
+  {
+   "b": "Sanitariya-texnik tizimlar",
+   "q": "Ventilyatsiyaning asosiy turlari qaysilar?",
+   "a": [
+    "Tabiiy va mexanik (majburiy)",
+    "Faqat elektr va gaz bilan ishlovchi",
+    "Faqat suvli",
+    "Faqat quyoshli"
+   ],
+   "e": "Shamollatish."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Qurilishda balandlikda ishlash deb qanday balandlik hisoblanadi?",
+   "a": [
+    "1,8 m va undan yuqori",
+    "0,5 m dan yuqori har qanday joy",
+    "10 m dan yuqori faqat",
+    "50 m dan yuqori"
+   ],
+   "e": "Yiqilish xavfi."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Qurilish maydonchasi qanday bo'lishi kerak?",
+   "a": [
+    "O'ralgan va ogohlantiruvchi belgilar bilan",
+    "Ochiq, hech qanday to'siqsiz va belgisiz",
+    "Faqat tunda ishlaydigan",
+    "Qorovulsiz"
+   ],
+   "e": "Ograjdenie."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Kotlovan devorlarining qulashini oldini olish uchun nima qilinadi?",
+   "a": [
+    "Qiyalik beriladi yoki mustahkamlanadi",
+    "Devorlar tik qoldirilib, suv sepiladi",
+    "Kotlovan ichida dam olinadi",
+    "Hech narsa"
+   ],
+   "e": "Krepleniye."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Elektr asbobi bilan ishlashda qaysi talab muhim?",
+   "a": [
+    "Asbob soz va yerga ulangan bo'lishi",
+    "Nam qo'l bilan ishlash mumkin",
+    "Kabel shikastlangan bo'lsa ham ishlatish",
+    "Himoya ko'zoynagisiz ishlash"
+   ],
+   "e": "Elektr xavfsizligi."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Smeta hujjatida qanday xarajatlar ko'rsatiladi?",
+   "a": [
+    "Materiallar, mehnat, mashinalar va ustama xarajatlar",
+    "Faqat ishchilarning ovqatlanish va transport xarajatlari",
+    "Faqat reklama",
+    "Faqat soliq"
+   ],
+   "e": "Smeta tarkibi."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Qurilish ishlari hajmi qanday hujjatda hisoblanadi?",
+   "a": [
+    "Ishlar hajmi qaydnomasi",
+    "Mehnat daftarchasi va tabel",
+    "Pasport",
+    "Diplom"
+   ],
+   "e": "Vedomost obyomov."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Bajarilgan ishlarni qabul qilish qanday hujjat bilan rasmiylashtiriladi?",
+   "a": [
+    "Bajarilgan ishlar dalolatnomasi",
+    "Ishchining shaxsiy arizasi va tushuntirish xati",
+    "Reklama varaqasi",
+    "Bank cheki"
+   ],
+   "e": "Akt."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Binoni foydalanishga qabul qilish kim tomonidan amalga oshiriladi?",
+   "a": [
+    "Qabul komissiyasi",
+    "Faqat bitta ishchi o'zi",
+    "Qo'shnilar",
+    "Bank"
+   ],
+   "e": "Priyomka."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Qurilish chiqindilarini qanday utilizatsiya qilish kerak?",
+   "a": [
+    "Belgilangan joylarga olib chiqib, qayta ishlash",
+    "Yaqin atrofdagi ariq va daryoga tashlash",
+    "Yoqib yuborish ochiq havoda",
+    "Ko'mib tashlash maydonchada"
+   ],
+   "e": "Ekologiya."
+  },
+  {
+   "b": "Mehnat muhofazasi va smeta",
+   "q": "Qurilishda energiya tejamkor texnologiyalarga misol qaysi?",
+   "a": [
+    "Issiqlik izolyatsiyasi va energiya tejamkor oynalar",
+    "Yupqa devorlar va bir qavatli oddiy oynalar",
+    "Ochiq derazalar qishda",
+    "Izolyatsiyasiz quvurlar"
+   ],
+   "e": "Energosamaradorlik."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Qurilishda nivelir nima uchun ishlatiladi?",
+   "a": [
+    "Balandliklar farqini aniqlash",
+    "Gorizontal burchaklarni o'lchash va xaritalash",
+    "Betonni aralashtirish",
+    "G'ishtni kesish"
+   ],
+   "e": "Nivelirlash."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Teodolit nima uchun ishlatiladi?",
+   "a": [
+    "Gorizontal va vertikal burchaklarni o'lchash",
+    "Faqat balandlik farqini aniqlash",
+    "Haroratni o'lchash",
+    "Namlikni o'lchash"
+   ],
+   "e": "Burchak o'lchash."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Lazer nivelirning afzalligi nima?",
+   "a": [
+    "Tez va aniq gorizontal/vertikal chiziq beradi",
+    "Faqat ochiq havoda ishlaydi, aniqligi past",
+    "Juda og'ir va katta",
+    "Batareyasiz ishlaydi"
+   ],
+   "e": "Zamonaviy asbob."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "5 m × 4 m xonaning pol maydoni qancha?",
+   "a": [
+    "20 m²",
+    "9 m²",
+    "18 m²",
+    "40 m²"
+   ],
+   "e": "5×4."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "4 m × 3 m, balandligi 3 m bo'lgan xona devorlarining umumiy maydoni (eshik-derazasiz) qancha?",
+   "a": [
+    "42 m²",
+    "36 m²",
+    "12 m²",
+    "84 m²"
+   ],
+   "e": "2·(4+3)·3."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Uzunligi 10 m, balandligi 3 m, qalinligi 0,38 m g'isht devorning hajmi qancha?",
+   "a": [
+    "11,4 m³",
+    "30 m³",
+    "3,8 m³",
+    "114 m³"
+   ],
+   "e": "10·3·0,38."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "11,4 m³ g'isht devor uchun taxminan qancha yakka g'isht kerak (1 m³ ≈ 400 dona)?",
+   "a": [
+    "4560 dona",
+    "456 dona",
+    "45 600 dona",
+    "1140 dona"
+   ],
+   "e": "11,4·400."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Hajmi 2 m³ beton uchun sement sarfi 300 kg/m³ bo'lsa, qancha sement kerak?",
+   "a": [
+    "600 kg",
+    "150 kg",
+    "300 kg",
+    "6000 kg"
+   ],
+   "e": "2·300."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Bir qop sement odatda necha kg bo'ladi?",
+   "a": [
+    "50 kg",
+    "5 kg",
+    "100 kg",
+    "500 kg"
+   ],
+   "e": "Standart qop."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "600 kg sement necha qop (50 kg) bo'ladi?",
+   "a": [
+    "12 qop",
+    "6 qop",
+    "30 qop",
+    "60 qop"
+   ],
+   "e": "600/50."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Pol 20 m², styajka qalinligi 5 sm bo'lsa, qorishma hajmi qancha?",
+   "a": [
+    "1 m³",
+    "10 m³",
+    "0,1 m³",
+    "100 m³"
+   ],
+   "e": "20·0,05."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Plitka 30×30 sm, pol 9 m² bo'lsa, taxminan nechta plitka kerak (zaxirasiz)?",
+   "a": [
+    "100 dona",
+    "30 dona",
+    "300 dona",
+    "900 dona"
+   ],
+   "e": "9/0,09."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Bo'yoq sarfi 0,2 l/m², devor 50 m², ikki qatlam bo'lsa, qancha bo'yoq kerak?",
+   "a": [
+    "20 l",
+    "10 l",
+    "5 l",
+    "100 l"
+   ],
+   "e": "50·0,2·2."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Qiyalik 1:2 nima bildiradi?",
+   "a": [
+    "1 birlik balandlikka 2 birlik gorizontal masofa",
+    "1 metrga 2 kg yuk",
+    "2 qavatga 1 zinapoya",
+    "1 soatda 2 metr"
+   ],
+   "e": "Otkos."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Chizmada M 1:100 masshtab nima bildiradi?",
+   "a": [
+    "Chizmadagi 1 sm joyda 1 m",
+    "Chizmadagi 1 sm joyda 100 m",
+    "Chizmadagi 1 m joyda 1 sm",
+    "Chizma haqiqiy o'lchamda"
+   ],
+   "e": "Masshtab."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Qurilish chizmasida \"otm. +3,000\" nimani bildiradi?",
+   "a": [
+    "Nol sathidan 3 m balandlikni",
+    "3 mm qalinlikni",
+    "3 qavatni",
+    "3 xonani"
+   ],
+   "e": "Otmetka."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Bino nol belgisi (±0,000) odatda qayerda qabul qilinadi?",
+   "a": [
+    "Birinchi qavat toza pol sathida",
+    "Poydevorning eng pastki qatlami ostida, grunt sathida",
+    "Tomning eng yuqori nuqtasida",
+    "Yerto'la tagida"
+   ],
+   "e": "Nulevaya otmetka."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Arxitektura-qurilish chizmalarida bino o'qlari qanday belgilanadi?",
+   "a": [
+    "Raqamlar va harflar bilan",
+    "Faqat ranglar bilan",
+    "Faqat rasmlar bilan",
+    "Belgilanmaydi"
+   ],
+   "e": "Koordinatsion o'qlar."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Qavat rejasi (plan) nima?",
+   "a": [
+    "Binoning gorizontal kesimi tasviri",
+    "Binoning tashqi ko'rinishi (fasad)",
+    "Binoning vertikal kesimi",
+    "Binoning 3D rasmi"
+   ],
+   "e": "Plan."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Fasad chizmasi nimani ko'rsatadi?",
+   "a": [
+    "Binoning tashqi ko'rinishini",
+    "Binoning ichki xonalari joylashuvini",
+    "Poydevor konstruksiyasini",
+    "Elektr sxemasini"
+   ],
+   "e": "Fasad."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Qirqim (razrez) chizmasi nimani ko'rsatadi?",
+   "a": [
+    "Binoning vertikal kesimini",
+    "Binoning yuqoridan ko'rinishini",
+    "Faqat tomni",
+    "Faqat derazalarni"
+   ],
+   "e": "Razrez."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Grunt turlari qaysilar?",
+   "a": [
+    "Qoyali, qumli, gilli, lyossli",
+    "Faqat suv va havo",
+    "Faqat metall",
+    "Faqat beton"
+   ],
+   "e": "Gruntlar."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Lyoss gruntlarining xavfli xususiyati nima?",
+   "a": [
+    "Namlanganda cho'kishi",
+    "Namlanganda juda mustahkam bo'lishi",
+    "Muzlamasligi",
+    "Zichligi juda yuqoriligi"
+   ],
+   "e": "Prosadochnost."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Lyossli gruntlarda poydevor uchun qanday chora ko'riladi?",
+   "a": [
+    "Gruntni zichlash yoki namlikdan himoyalash",
+    "Gruntni muntazam sug'orib, namlab turish",
+    "Poydevorsiz qurish",
+    "Hech qanday chora"
+   ],
+   "e": "O'zbekistonda keng tarqalgan."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Yer osti suvlari sathi yuqori bo'lsa nima qilinadi?",
+   "a": [
+    "Drenaj va gidroizolyatsiya",
+    "Poydevorni chuqurroq va gidroizolyatsiyasiz qilish",
+    "Yerto'lani ochiq qoldirish",
+    "Hech narsa"
+   ],
+   "e": "Vodoponizhenie."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Qurilishda sifat nazorati turlari qaysilar?",
+   "a": [
+    "Kiruvchi, operatsion, qabul nazorati",
+    "Faqat yakuniy bo'yash nazorati",
+    "Faqat bank nazorati",
+    "Nazorat yo'q"
+   ],
+   "e": "Kontrol kachestva."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Kiruvchi nazoratda nima tekshiriladi?",
+   "a": [
+    "Keltirilgan materiallar va buyumlar sifati",
+    "Ishchilarning shaxsiy hujjatlari va malakasi",
+    "Binoning narxi",
+    "Reklama"
+   ],
+   "e": "Vkhodnoy kontrol."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Qurilish materiallari sertifikati nimani tasdiqlaydi?",
+   "a": [
+    "Materialning me'yorlarga mosligini",
+    "Materialning narxini",
+    "Ishlab chiqaruvchining manzilini faqat",
+    "Material rangini"
+   ],
+   "e": "Sertifikat."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Quruq qurilish aralashmalari (tayyor qorishmalar) afzalligi nima?",
+   "a": [
+    "Barqaror sifat va qulaylik",
+    "Har safar turli tarkib va sifat",
+    "Juda qimmat va noqulay",
+    "Suvsiz ishlatiladi"
+   ],
+   "e": "Sukhie smesi."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Plastifikatorlar betonga nima uchun qo'shiladi?",
+   "a": [
+    "Harakatchanlikni oshirish va suvni kamaytirish",
+    "Betonga rang berish va yuzani bezash uchun",
+    "Betonni og'irlashtirish",
+    "Qotishni to'xtatish"
+   ],
+   "e": "Kimyoviy qo'shimcha."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Fibrobeton nima?",
+   "a": [
+    "Tolalar bilan armaturalangan beton",
+    "Faqat shisha bo'laklari qo'shilgan bezak betoni",
+    "Yog'ochdan qilingan beton",
+    "Suvsiz beton"
+   ],
+   "e": "Fibra."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Pardoz g'ishti (oblitsovochnyy) qanday talablarga javob beradi?",
+   "a": [
+    "Silliq yuza, aniq o'lcham, bir xil rang",
+    "Har xil o'lcham va g'adir-budur, notekis yuza",
+    "Yoriqli bo'lishi",
+    "Faqat ichki ishlar uchun"
+   ],
+   "e": "Fasad uchun."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Klinker g'ishtning xususiyati nima?",
+   "a": [
+    "Yuqori zichlik va kam suv shimuvchanlik",
+    "Juda g'ovakli va yengil, mo'rt",
+    "Faqat qizil rangli",
+    "Suvda eriydi"
+   ],
+   "e": "Yo'l va fasad."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Qurilishda \"sendvich-panel\" nima?",
+   "a": [
+    "Ikki list orasida issiqlik izolyatsiyali panel",
+    "Bitta yupqa, izolyatsiyasiz metall list",
+    "G'isht turi",
+    "Beton turi"
+   ],
+   "e": "Uch qatlamli panel."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Profnastil qayerda ishlatiladi?",
+   "a": [
+    "Tom, devor va to'siqlarda",
+    "Faqat ichki bezakda, gulqog'oz o'rnida",
+    "Faqat polda",
+    "Faqat oynalarda"
+   ],
+   "e": "Profillangan list."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Tez quriladigan binolar uchun qaysi texnologiya keng qo'llanadi?",
+   "a": [
+    "Yengil po'lat karkas (LSTK)",
+    "Faqat qo'lda g'isht terish",
+    "Faqat loy-somon devorlar",
+    "Faqat tosh terish"
+   ],
+   "e": "Modul qurilish."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "O'zbekistonda an'anaviy qurilish materialiga misol qaysi?",
+   "a": [
+    "Paxsa va xom g'isht",
+    "Faqat alyuminiy kompozit",
+    "Faqat shisha panel",
+    "Faqat plastik"
+   ],
+   "e": "Milliy me'morchilik."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Seysmik hududda bino shakli qanday bo'lishi tavsiya etiladi?",
+   "a": [
+    "Oddiy, simmetrik reja",
+    "Murakkab, nosimmetrik va ko'p burchakli",
+    "Faqat doira shaklida",
+    "Shakl ahamiyatsiz"
+   ],
+   "e": "Antiseysmik loyihalash."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Bino qavatlari oshgani sari poydevorga tushadigan yuk qanday o'zgaradi?",
+   "a": [
+    "Oshadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Nolga tushadi"
+   ],
+   "e": "Yuklama."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Qurilish konstruksiyasiga ta'sir qiluvchi doimiy yukga misol qaysi?",
+   "a": [
+    "Konstruksiyaning xususiy og'irligi",
+    "Qor va shamol yuki",
+    "Odamlar va mebel",
+    "Zilzila"
+   ],
+   "e": "Postoyannaya nagruzka."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Vaqtinchalik yukga misol qaysi?",
+   "a": [
+    "Qor yuki",
+    "Konstruksiyaning o'z og'irligi",
+    "Devor og'irligi",
+    "Poydevor og'irligi"
+   ],
+   "e": "Vremennaya nagruzka."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Mustahkamlik zaxirasi koeffitsiyenti nima uchun kiritiladi?",
+   "a": [
+    "Xavfsizlikni ta'minlash",
+    "Material sarfini kamaytirish",
+    "Narxni pasaytirish",
+    "Bezak uchun"
+   ],
+   "e": "Ishonchlilik."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Konstruksiyaning egilishi (progib) nima?",
+   "a": [
+    "Yuk ostida vertikal siljishi",
+    "Konstruksiya rangi o'zgarishi",
+    "Konstruksiya og'irligi",
+    "Konstruksiya narxi"
+   ],
+   "e": "Deformatsiya."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Po'lat konstruksiyalarni korroziyadan himoyalash usuli qaysi?",
+   "a": [
+    "Gruntlash va bo'yash, ruxlash",
+    "Suvga botirib saqlash",
+    "Tuz sepish",
+    "Hech qanday himoya kerak emas"
+   ],
+   "e": "Antikorroziya."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Po'lat konstruksiyalarni olovdan himoyalash uchun nima ishlatiladi?",
+   "a": [
+    "Olovga chidamli qoplamalar",
+    "Oddiy moyli bo'yoq",
+    "Plastik plyonka",
+    "Qog'oz"
+   ],
+   "e": "Ognezashchita."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Yong'in xavfsizligi bo'yicha binoda nima ko'zda tutiladi?",
+   "a": [
+    "Evakuatsiya yo'llari va yong'in signalizatsiyasi",
+    "Faqat bitta tor chiqish eshigi, signalizatsiyasiz",
+    "Derazalarga panjara",
+    "Hech narsa"
+   ],
+   "e": "Pojarnaya bezopasnost."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Zinapoya panjarasining minimal balandligi odatda qancha?",
+   "a": [
+    "0,9 m",
+    "0,3 m",
+    "2 m",
+    "0,5 m"
+   ],
+   "e": "Xavfsizlik."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Nogironligi bo'lgan shaxslar uchun binoga kirishda nima ko'zda tutiladi?",
+   "a": [
+    "Pandus",
+    "Faqat baland zinapoya",
+    "Faqat tor eshik",
+    "Hech narsa"
+   ],
+   "e": "Inklyuziv muhit."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Pandusning tavsiya etiladigan maksimal nishabi taxminan qancha?",
+   "a": [
+    "1:12 (taxminan 8%)",
+    "1:1 (45°)",
+    "1:2",
+    "1:3"
+   ],
+   "e": "Qulaylik."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "Bino energiya pasportida nima ko'rsatiladi?",
+   "a": [
+    "Energiya iste'moli va issiqlik himoyasi ko'rsatkichlari",
+    "Ishchilar ro'yxati",
+    "Bino narxi",
+    "Qurilish muddati"
+   ],
+   "e": "Energosamaradorlik."
+  },
+  {
+   "b": "Qo'shimcha: me'yorlar, o'lchashlar va amaliy masalalar",
+   "q": "\"Yashil qurilish\" tushunchasi nimani anglatadi?",
+   "a": [
+    "Ekologik va energiya tejamkor qurilish",
+    "Binolarni yashil rangga bo'yash va bezash",
+    "Faqat daraxtdan qurish",
+    "Qurilishni to'xtatish"
+   ],
+   "e": "Barqaror qurilish."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Beton qorishmasini qolipga quyishda erkin tushish balandligi nima uchun cheklanadi?",
+   "a": [
+    "Qorishma qatlamlanib ketmasligi uchun",
+    "Beton tezroq qotishi va qizishi uchun",
+    "Qolip chiroyli ko'rinishi uchun",
+    "Cheklanmaydi"
+   ],
+   "e": "2 m gacha."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qolipni (opalubkani) yechish muddati nimaga bog'liq?",
+   "a": [
+    "Beton mustahkamligi va havo haroratiga",
+    "Faqat ishchilarning xohishiga",
+    "Faqat hafta kuniga",
+    "Qolip rangiga"
+   ],
+   "e": "Raspalubka."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Ishchi choklar (rabochiy shov) betonlashda qayerda qoldiriladi?",
+   "a": [
+    "Loyihada ko'rsatilgan, kam zo'riqishli joylarda",
+    "Istalgan, eng ko'p yuklanadigan joylarda",
+    "Faqat burchaklarda",
+    "Qoldirilmaydi hech qachon"
+   ],
+   "e": "Texnologiya."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qurilishda \"nol tsikl\" ishlari nimani o'z ichiga oladi?",
+   "a": [
+    "Yer ishlari va poydevor qurish",
+    "Tom yopish va pardozlash",
+    "Mebel o'rnatish",
+    "Bino bo'yash"
+   ],
+   "e": "Nulevoy tsikl."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Monolit karkasli uy qurilishida qaysi ishlar navbati to'g'ri?",
+   "a": [
+    "Poydevor, karkas, devor to'ldirish, tom",
+    "Tom, devor, karkas, poydevor",
+    "Devor, tom, poydevor, karkas",
+    "Pardoz, poydevor, tom, devor"
+   ],
+   "e": "Ketma-ketlik."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Yuk ko'taruvchi devorlarda teshik ochish uchun nima talab qilinadi?",
+   "a": [
+    "Loyiha va ruxsatnoma",
+    "Hech qanday ruxsat, faqat istak",
+    "Faqat qo'shnilar roziligi",
+    "Faqat usta fikri"
+   ],
+   "e": "Pereplanirovka."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Qurilishda sifatli beton olish uchun to'ldiruvchilar qanday bo'lishi kerak?",
+   "a": [
+    "Toza va donadorligi me'yorga mos",
+    "Loy va changli aralashma bilan",
+    "Har xil o'lchamda, tasodifiy",
+    "Nam va muzlagan"
+   ],
+   "e": "To'ldiruvchi sifati."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Suvoq ishlarini qaysi haroratda bajarish tavsiya etiladi?",
+   "a": [
+    "+5 °C dan yuqori haroratda",
+    "−20 °C sovuqda",
+    "+60 °C issiqda",
+    "Harorat ahamiyatsiz"
+   ],
+   "e": "Qorishma muzlamasligi uchun."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Interyer pardozlash ishlari qaysi tartibda bajariladi?",
+   "a": [
+    "Shift, devor, pol",
+    "Pol, shift, devor",
+    "Devor, pol, shift",
+    "Tartib ahamiyatsiz"
+   ],
+   "e": "Yuqoridan pastga."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Bino tashqi devorini isitish (fasad izolyatsiyasi) qaysi tomondan samaraliroq?",
+   "a": [
+    "Tashqi tomondan",
+    "Ichki tomondan faqat",
+    "Poydevor ostidan",
+    "Tom ustidan"
+   ],
+   "e": "Shudring nuqtasi tashqarida."
+  },
+  {
+   "b": "Yakuniy savollar",
+   "q": "Beton ishlarida qaysi hujjatda betonlash sanasi va harorati qayd etiladi?",
+   "a": [
+    "Betonlash ishlari jurnali",
+    "Xodimlarning ish vaqti tabeli",
+    "Mehnat shartnomasi",
+    "Bank hisoboti"
+   ],
+   "e": "Ijro hujjatlari."
+  }
+ ],
+ "kalit": "qurilish g'isht terish beton suvoq bino konstruksiya qurilish materiallari"
+}
