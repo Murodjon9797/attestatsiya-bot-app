@@ -1,0 +1,3309 @@
+{
+ "kod": "",
+ "nomi": "Moliya, pul muomalasi va bank ishi",
+ "turi": "maxsus",
+ "manba": "Attestatsiya test sinovlariga jalb etiladigan pedagoglar ro'yxatidagi fan; savollar DTS, o'quv dasturlari va darsliklar asosida tuzilgan",
+ "savollar": [
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Pulning asosiy funksiyalari qaysilar?",
+   "a": [
+    "Qiymat o'lchovi, muomala, jamg'arish, to'lov vositasi",
+    "Faqat tovar ayirboshlash va qimmatbaho bezak vositasi",
+    "Faqat soliq to'lash vositasi",
+    "Faqat xalqaro hisob-kitob"
+   ],
+   "e": "Jahon puli ham."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Pulning qiymat o'lchovi funksiyasi nimani anglatadi?",
+   "a": [
+    "Tovarlar narxini ifodalash",
+    "Tovarlarni bevosita ayirboshlash, pulsiz",
+    "Pulni bankda saqlash",
+    "Pulni xorijga chiqarish"
+   ],
+   "e": "Narx."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Fiat pul nima?",
+   "a": [
+    "Davlat qonuni bilan qiymat berilgan pul",
+    "Oltin bilan to'liq ta'minlangan va almashtiriladigan tanga",
+    "Kumushdan zarb qilingan pul",
+    "Tovar ko'rinishidagi pul"
+   ],
+   "e": "Ichki qiymati yo'q."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "O'zbekiston milliy valyutasi so'm qachon muomalaga kiritilgan?",
+   "a": [
+    "1994-yil 1-iyulda",
+    "1991-yil 1-sentabrda",
+    "1993-yil 15-noyabrda",
+    "2000-yil 1-yanvarda"
+   ],
+   "e": "1993-yilda so'm-kupon kiritilgan."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Inflyatsiya nima?",
+   "a": [
+    "Narxlar umumiy darajasining o'sishi",
+    "Narxlar umumiy darajasining pasayishi",
+    "Ishsizlikning kamayishi",
+    "Pul massasining qisqarishi"
+   ],
+   "e": "Pulning qadrsizlanishi."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Deflyatsiya nima?",
+   "a": [
+    "Narxlar umumiy darajasining pasayishi",
+    "Narxlarning tez sur'atda, nazoratsiz o'sishi",
+    "Valyuta kursining oshishi",
+    "Soliqlarning ko'payishi"
+   ],
+   "e": "Teskari jarayon."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Giperinflyatsiya deb qanday inflyatsiyaga aytiladi?",
+   "a": [
+    "Juda yuqori sur'atdagi (oyiga 50% dan ortiq)",
+    "Yiliga 2–3% li mo'tadil va boshqariladigan",
+    "Narxlar o'zgarmaydigan holat",
+    "Faqat oziq-ovqat narxi oshishi"
+   ],
+   "e": "Galopsimon va giper."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Inflyatsiya darajasi qaysi ko'rsatkich bilan o'lchanadi?",
+   "a": [
+    "Iste'mol narxlari indeksi (INI)",
+    "Ishsizlik darajasi va aholi soni o'zgarishi",
+    "Yalpi ichki mahsulot hajmi",
+    "Eksport hajmi"
+   ],
+   "e": "CPI."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Talab inflyatsiyasi qanday yuzaga keladi?",
+   "a": [
+    "Yalpi talab taklifdan oshganda",
+    "Ishlab chiqarish xarajatlari kamayganda",
+    "Narxlar pasayganda",
+    "Pul massasi qisqarganda"
+   ],
+   "e": "Demand-pull."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Xarajatlar inflyatsiyasining sababi nima?",
+   "a": [
+    "Ishlab chiqarish xarajatlarining o'sishi",
+    "Aholi daromadining kamayishi va talabning tushishi",
+    "Pul massasining qisqarishi",
+    "Soliqlarning kamaytirilishi"
+   ],
+   "e": "Cost-push."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Pul agregati M0 nimani o'z ichiga oladi?",
+   "a": [
+    "Muomaladagi naqd pulni",
+    "Barcha bank depozitlarini",
+    "Qimmatli qog'ozlarni",
+    "Davlat qarzini"
+   ],
+   "e": "Naqd pul."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "M2 pul agregati M1 dan nimasi bilan farq qiladi?",
+   "a": [
+    "Muddatli va jamg'arma depozitlar qo'shiladi",
+    "Naqd pul chiqarib tashlanib, oltin qo'shiladi",
+    "Faqat oltin qo'shiladi",
+    "Farqi yo'q"
+   ],
+   "e": "Keng pul."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Pul muomalasi qonuniga ko'ra muomala uchun zarur pul miqdori nimaga bog'liq?",
+   "a": [
+    "Tovarlar narxi summasi va pul aylanish tezligiga",
+    "Faqat bank filiallari joylashuviga",
+    "Faqat aholi soni va bank xodimlari soniga",
+    "Faqat oltin zaxirasiga"
+   ],
+   "e": "M·V = P·Q."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Fisher tenglamasi qanday ko'rinishda?",
+   "a": [
+    "MV = PQ",
+    "P = MV²",
+    "M = P + Q",
+    "V = M/P·Q²"
+   ],
+   "e": "Miqdoriy nazariya."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Naqd pulsiz hisob-kitob shakllariga qaysilar kiradi?",
+   "a": [
+    "To'lov topshiriqnomasi, akkreditiv, inkasso",
+    "Faqat naqd pul bilan va barter asosida hisob",
+    "Faqat oltin quyma bilan",
+    "Faqat tanga"
+   ],
+   "e": "Bank orqali."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Akkreditiv nima?",
+   "a": [
+    "Bankning shartli to'lov majburiyati",
+    "Naqd pul chekining bir martalik turi",
+    "Soliq deklaratsiyasi",
+    "Sug'urta polisi"
+   ],
+   "e": "Xalqaro savdoda."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Inkasso nima?",
+   "a": [
+    "Bank orqali to'lovni undirish",
+    "Naqd pulni muomaladan olib, yo'q qilish",
+    "Soliq imtiyozi",
+    "Kredit turi"
+   ],
+   "e": "Inkassatsiya bilan adashtirmang."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Valyuta kursi nima?",
+   "a": [
+    "Bir valyutaning boshqasidagi narxi",
+    "Tijorat bankining kredit foiz stavkasi",
+    "Soliq stavkasi",
+    "Inflyatsiya darajasi"
+   ],
+   "e": "Ayirboshlash kursi."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Suzuvchi valyuta kursi qanday belgilanadi?",
+   "a": [
+    "Bozordagi talab va taklif asosida",
+    "Davlat tomonidan qat'iy belgilanadi",
+    "Oltin miqdori bilan",
+    "O'zgarmaydi"
+   ],
+   "e": "Floating rate."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Devalvatsiya nima?",
+   "a": [
+    "Milliy valyuta kursining pasayishi",
+    "Milliy valyuta kursining sun'iy oshirilishi",
+    "Inflyatsiyaning to'xtashi",
+    "Banklar sonining ko'payishi"
+   ],
+   "e": "Revalvatsiya — teskari."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Denominatsiya nima?",
+   "a": [
+    "Pul belgilari nominalini kamaytirish",
+    "Narxlarning oshishi va valyuta kursining tushishi",
+    "Soliq stavkasini kamaytirish",
+    "Yangi bank ochish"
+   ],
+   "e": "Nollarni olib tashlash."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Valyutaning erkin konvertatsiyasi nima?",
+   "a": [
+    "Valyutani boshqasiga cheklovsiz almashtirish",
+    "Valyutani faqat davlat ruxsati bilan almashtirish",
+    "Valyutani almashtirishni taqiqlash",
+    "Valyutani oltinga almashtirish"
+   ],
+   "e": "O'zbekistonda 2017-yildan."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "O'zbekistonda valyuta bozori liberallashtirilgan yil qaysi?",
+   "a": [
+    "2017-yil",
+    "1994-yil",
+    "2005-yil",
+    "2022-yil"
+   ],
+   "e": "Sentabr 2017."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Pul massasining ortishi boshqa sharoitlar o'zgarmasa nimaga olib keladi?",
+   "a": [
+    "Inflyatsiyaga",
+    "Deflyatsiyaga",
+    "Ishsizlik ko'payishiga",
+    "Eksport kamayishiga"
+   ],
+   "e": "Miqdoriy nazariya."
+  },
+  {
+   "b": "Pul va pul muomalasi",
+   "q": "Bank kartasi orqali to'lov qaysi hisob-kitob turiga kiradi?",
+   "a": [
+    "Naqd pulsiz hisob-kitob",
+    "Naqd pulli hisob-kitob",
+    "Barter",
+    "Veksel ayirboshlash"
+   ],
+   "e": "Elektron to'lov."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "O'zbekiston bank tizimi necha pog'onali?",
+   "a": [
+    "Ikki pog'onali",
+    "Bir pog'onali",
+    "Uch pog'onali",
+    "To'rt pog'onali"
+   ],
+   "e": "Markaziy bank va tijorat banklari."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Markaziy bankning asosiy maqsadi nima?",
+   "a": [
+    "Narxlar barqarorligini ta'minlash",
+    "Aholiga kredit berib, foyda olish",
+    "Soliq yig'ish",
+    "Davlat byudjetini ijro etish"
+   ],
+   "e": "Qonun bo'yicha."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Markaziy bankning funksiyalariga qaysi kiradi?",
+   "a": [
+    "Emissiya va pul-kredit siyosati",
+    "Aholidan soliq undirish va korxonalarni boshqarish",
+    "Ish haqini belgilash",
+    "Davlat byudjetini tasdiqlash"
+   ],
+   "e": "Emissiya markazi."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Markaziy bank kimga hisobdor?",
+   "a": [
+    "O'zbekiston Respublikasi Oliy Majlisi Senatiga",
+    "Tijorat banklariga",
+    "Moliya vazirligiga",
+    "Hokimiyatlarga"
+   ],
+   "e": "Qonunga ko'ra."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Banklarning banki deb qaysi bank ataladi?",
+   "a": [
+    "Markaziy bank",
+    "Xalq banki",
+    "Tijorat banki",
+    "Xususiy bank"
+   ],
+   "e": "Tijorat banklariga xizmat."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Tijorat bankining asosiy maqsadi nima?",
+   "a": [
+    "Foyda olish",
+    "Pul emissiya qilish",
+    "Soliq siyosatini belgilash",
+    "Valyuta kursini belgilash"
+   ],
+   "e": "Tijorat faoliyati."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Bank faoliyati uchun ruxsatnoma (litsenziya) kim tomonidan beriladi?",
+   "a": [
+    "Markaziy bank",
+    "Moliya vazirligi",
+    "Soliq qo'mitasi",
+    "Hokimiyat"
+   ],
+   "e": "Litsenziya."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Majburiy zaxira talablari nima?",
+   "a": [
+    "Banklar Markaziy bankda saqlaydigan mablag' ulushi",
+    "Aholining bankdagi majburiy omonati",
+    "Soliq to'lovi",
+    "Kredit stavkasi"
+   ],
+   "e": "Pul-kredit vositasi."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Markaziy bankning asosiy stavkasi (qayta moliyalash stavkasi) nimaga ta'sir qiladi?",
+   "a": [
+    "Kredit va depozit stavkalariga",
+    "Faqat soliq stavkalariga",
+    "Faqat aholi soniga",
+    "Faqat soliq stavkalari va byudjet tuzilishiga"
+   ],
+   "e": "Pul-kredit siyosati."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Ochiq bozordagi operatsiyalar nima?",
+   "a": [
+    "Markaziy bankning qimmatli qog'ozlar oldi-sotdisi",
+    "Tijorat banklarining naqd pul tashishi",
+    "Aholining valyuta almashtirishi",
+    "Soliq undirish"
+   ],
+   "e": "Likvidlikni boshqarish."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Inflyatsion targetlash nima?",
+   "a": [
+    "Inflyatsiyaning maqsadli darajasiga erishishga yo'naltirilgan siyosat",
+    "Valyuta kursini qat'iy belgilash siyosati",
+    "Soliqlarni oshirish siyosati",
+    "Banklarni yopish siyosati"
+   ],
+   "e": "O'zbekistonda joriy etilgan."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Bankning passiv operatsiyalariga nima kiradi?",
+   "a": [
+    "Mablag' jalb qilish (depozitlar)",
+    "Kredit berish",
+    "Qimmatli qog'ozlarga investitsiya",
+    "Lizing berish"
+   ],
+   "e": "Resurslar shakllanishi."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Bankning aktiv operatsiyalariga nima kiradi?",
+   "a": [
+    "Kredit berish va investitsiyalar",
+    "Depozit qabul qilish va obligatsiya chiqarish",
+    "Ustav kapitalini shakllantirish",
+    "Aksiya joylashtirish"
+   ],
+   "e": "Mablag'larni joylashtirish."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Bankning ustav kapitali nima?",
+   "a": [
+    "Ta'sischilar kiritgan mablag'lar",
+    "Aholining omonatlari va Markaziy bank krediti",
+    "Mijozlar depozitlari",
+    "Bank foydasi"
+   ],
+   "e": "O'z kapitali."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Bank likvidligi nima?",
+   "a": [
+    "Majburiyatlarni o'z vaqtida bajarish qobiliyati",
+    "Bank binosi kattaligi va filiallari soni",
+    "Bank xodimlari soni",
+    "Filiallar soni"
+   ],
+   "e": "Likvidlik."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Bank kapitalining yetarliligi nima uchun me'yorlanadi?",
+   "a": [
+    "Risklarni qoplash va barqarorlik uchun",
+    "Filiallar sonini aniqlash uchun",
+    "Soliq hisoblash uchun",
+    "Bank reklamasi va xodimlar ish haqi uchun"
+   ],
+   "e": "Bazel standartlari."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "O'zbekistonda fuqarolarning bank omonatlari qanday kafolatlanadi?",
+   "a": [
+    "Omonatlarni kafolatlash fondi orqali",
+    "Kafolatlanmaydi, xavf omonatchining o'zida",
+    "Faqat chet el banklarida",
+    "Faqat 10% miqdorida"
+   ],
+   "e": "To'liq hajmda kafolat."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Depozit nima?",
+   "a": [
+    "Bankka ma'lum shartlarda qo'yilgan mablag'",
+    "Bankdan olingan qisqa muddatli kredit",
+    "Soliq to'lovi",
+    "Sug'urta badali"
+   ],
+   "e": "Omonat."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Talab qilib olinguncha depozitning xususiyati nima?",
+   "a": [
+    "Istalgan vaqtda olish mumkin",
+    "Faqat muddati tugaganda olinadi",
+    "Hech qachon olinmaydi",
+    "Faqat merosxo'rga beriladi"
+   ],
+   "e": "Joriy hisob."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Muddatli depozitning afzalligi nima?",
+   "a": [
+    "Yuqoriroq foiz stavkasi",
+    "Istalgan vaqtda jarimasiz olish",
+    "Foizsiz saqlanadi",
+    "Soliqdan to'liq ozod"
+   ],
+   "e": "Muddat bo'yicha."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "Murakkab foiz nima?",
+   "a": [
+    "Foizga ham foiz hisoblanishi",
+    "Faqat asosiy summaga bir marta hisoblangan foiz",
+    "Foizsiz omonat",
+    "Bir martalik to'lov"
+   ],
+   "e": "Kapitallashuv."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "1 000 000 so'm yillik 20% oddiy foiz bilan 2 yilga qo'yilsa, foiz daromadi qancha?",
+   "a": [
+    "400 000 so'm",
+    "200 000 so'm",
+    "440 000 so'm",
+    "1 200 000 so'm"
+   ],
+   "e": "1 000 000·0,2·2."
+  },
+  {
+   "b": "Bank tizimi",
+   "q": "1 000 000 so'm yillik 10% murakkab foiz bilan 2 yilda qancha bo'ladi?",
+   "a": [
+    "1 210 000 so'm",
+    "1 200 000 so'm",
+    "1 100 000 so'm",
+    "1 020 000 so'm"
+   ],
+   "e": "1 000 000·1,1²."
+  },
+  {
+   "b": "Kredit",
+   "q": "Kreditning asosiy tamoyillari qaysilar?",
+   "a": [
+    "Qaytarishlik, muddatlilik, to'lovlilik, ta'minlanganlik",
+    "Bepul berish, muddatsizlik va qaytarmaslik huquqi",
+    "Faqat tanish-bilishchilik",
+    "Faqat davlat ruxsati"
+   ],
+   "e": "Maqsadlilik ham."
+  },
+  {
+   "b": "Kredit",
+   "q": "Kreditning ta'minoti sifatida nima qabul qilinadi?",
+   "a": [
+    "Garov, kafillik, sug'urta polisi",
+    "Qarz oluvchining og'zaki va'dasi",
+    "Faqat diplom nusxasi",
+    "Faqat telefon raqami"
+   ],
+   "e": "Kredit ta'minoti."
+  },
+  {
+   "b": "Kredit",
+   "q": "Garov nima?",
+   "a": [
+    "Qarzni qaytarmaslikda undiriladigan mol-mulk",
+    "Bank tomonidan qarz oluvchiga beriladigan mukofot",
+    "Kredit foizi",
+    "Soliq turi"
+   ],
+   "e": "Zalog."
+  },
+  {
+   "b": "Kredit",
+   "q": "Kafillik nima?",
+   "a": [
+    "Uchinchi shaxsning qarz uchun javobgarligi",
+    "Bankning o'z majburiyati, mijozsiz",
+    "Soliq imtiyozi",
+    "Bankning o'z kapitali hisobidan beriladigan kafolat"
+   ],
+   "e": "Poruchitelstvo."
+  },
+  {
+   "b": "Kredit",
+   "q": "Ipoteka krediti nima?",
+   "a": [
+    "Ko'chmas mulk garovi bilan beriladigan kredit",
+    "Ta'minotsiz qisqa muddatli iste'mol krediti",
+    "Avtomobil sug'urtasi",
+    "Valyuta ayirboshlash"
+   ],
+   "e": "Uy-joy uchun."
+  },
+  {
+   "b": "Kredit",
+   "q": "Mikrokredit kimlarga beriladi?",
+   "a": [
+    "Kichik biznes va aholiga kichik miqdorda",
+    "Faqat yirik davlat korxonalariga katta miqdorda",
+    "Faqat chet el banklariga",
+    "Faqat Markaziy bankka"
+   ],
+   "e": "Mikromoliya."
+  },
+  {
+   "b": "Kredit",
+   "q": "Overdraft nima?",
+   "a": [
+    "Hisobdagi qoldiqdan ortiq to'lov imkoni",
+    "Muddatli depozitning foizsiz, yopiq turi",
+    "Soliq jarimasi",
+    "Valyuta kursi"
+   ],
+   "e": "Qisqa muddatli kredit."
+  },
+  {
+   "b": "Kredit",
+   "q": "Kredit liniyasi nima?",
+   "a": [
+    "Belgilangan limit doirasida qayta-qayta kredit olish",
+    "Faqat bir marta beriladigan, limiti cheklanmagan kredit",
+    "Bank filiallari tarmog'i",
+    "Depozitlar ro'yxati"
+   ],
+   "e": "Kreditnaya liniya."
+  },
+  {
+   "b": "Kredit",
+   "q": "Annuitet to'lov nima?",
+   "a": [
+    "Har oy teng miqdordagi to'lov",
+    "Har oy kamayib boruvchi to'lov",
+    "Faqat oxirida bir marta to'lov",
+    "Faqat foiz to'lovi"
+   ],
+   "e": "Asosiy qarz + foiz."
+  },
+  {
+   "b": "Kredit",
+   "q": "Differensial to'lov tizimida to'lov qanday o'zgaradi?",
+   "a": [
+    "Vaqt o'tishi bilan kamayib boradi",
+    "Har oy teng bo'lib qoladi",
+    "Vaqt o'tishi bilan har oy bir xil miqdorda oshib boradi",
+    "Faqat oxirida to'lanadi"
+   ],
+   "e": "Qoldiqqa foiz."
+  },
+  {
+   "b": "Kredit",
+   "q": "Muammoli kredit nima?",
+   "a": [
+    "O'z vaqtida qaytarilmayotgan kredit",
+    "Muddatidan oldin qaytarilgan kredit",
+    "Davlat tomonidan berilgan grant",
+    "Foizsiz qarz"
+   ],
+   "e": "NPL."
+  },
+  {
+   "b": "Kredit",
+   "q": "Kredit tarixi nima?",
+   "a": [
+    "Qarz oluvchining kreditlar bo'yicha ma'lumotlari",
+    "Bankning tashkil etilgan sanasi va rahbarlari ro'yxati",
+    "Kreditlar nazariyasi kitobi",
+    "Soliq hisoboti"
+   ],
+   "e": "Kredit byurosi."
+  },
+  {
+   "b": "Kredit",
+   "q": "Kredit byurosining vazifasi nima?",
+   "a": [
+    "Qarz oluvchilar haqidagi ma'lumotlarni yig'ish",
+    "Aholiga kredit berish va muddati o'tgan qarzni undirish",
+    "Soliq yig'ish",
+    "Pul chiqarish"
+   ],
+   "e": "Kredit axboroti."
+  },
+  {
+   "b": "Kredit",
+   "q": "Bank krediti bo'yicha foiz stavkasi nimaga bog'liq?",
+   "a": [
+    "Risk, muddat va asosiy stavkaga",
+    "Faqat bank binosining joylashuvi va mijoz yoshiga",
+    "Faqat ob-havo sharoitiga",
+    "Faqat bank xodimlari soniga"
+   ],
+   "e": "Kredit narxi."
+  },
+  {
+   "b": "Kredit",
+   "q": "Lizing nima?",
+   "a": [
+    "Mulkni uzoq muddatli ijaraga berish",
+    "Mulkni bepul va muddatsiz foydalanishga sovg'a qilish",
+    "Qisqa muddatli depozit",
+    "Soliq imtiyozi"
+   ],
+   "e": "Moliyaviy ijara."
+  },
+  {
+   "b": "Kredit",
+   "q": "Lizingda lizing beruvchi kim?",
+   "a": [
+    "Mulkni ijaraga beruvchi tashkilot",
+    "Mulkni ijaraga olib, undan foydalanuvchi korxona",
+    "Mulkni ishlab chiqaruvchi",
+    "Soliq organi"
+   ],
+   "e": "Lizingodatel."
+  },
+  {
+   "b": "Kredit",
+   "q": "Faktoring nima?",
+   "a": [
+    "Debitorlik qarzini bankka sotish",
+    "Kreditorlik qarzini kechib yuborish",
+    "Uzoq muddatli ijara",
+    "Valyuta almashtirish"
+   ],
+   "e": "Moliyalashtirish."
+  },
+  {
+   "b": "Kredit",
+   "q": "Forfeyting nima?",
+   "a": [
+    "Eksportyorning veksel talablarini sotib olish",
+    "Ichki savdoda tovarni naqd pulga sotish usuli",
+    "Kichik kredit",
+    "Soliqni kechiktirish"
+   ],
+   "e": "Tashqi savdo."
+  },
+  {
+   "b": "Kredit",
+   "q": "Iste'mol krediti nima uchun beriladi?",
+   "a": [
+    "Aholining shaxsiy ehtiyojlari uchun",
+    "Korxonaning asosiy fondlarini yangilash uchun",
+    "Davlat byudjeti uchun",
+    "Banklararo hisob uchun"
+   ],
+   "e": "Potrebitelskiy."
+  },
+  {
+   "b": "Kredit",
+   "q": "Banklararo kredit nima?",
+   "a": [
+    "Banklarning bir-biriga bergan krediti",
+    "Bankning aholiga bergan krediti",
+    "Davlatning tijorat banklariga bergan qaytarilmas grantlari",
+    "Aholining bankka qo'ygan omonati"
+   ],
+   "e": "Mejbankovskiy."
+  },
+  {
+   "b": "Kredit",
+   "q": "Davlat krediti nima?",
+   "a": [
+    "Davlat qarz oluvchi yoki beruvchi bo'lgan kredit",
+    "Faqat xususiy shaxslar orasidagi kredit",
+    "Tijorat kreditining turi",
+    "Tovar krediti"
+   ],
+   "e": "Davlat qarzi."
+  },
+  {
+   "b": "Kredit",
+   "q": "Tijorat krediti nima?",
+   "a": [
+    "Korxonalar orasida to'lovni kechiktirib sotish",
+    "Bankning aholiga uy-joy uchun bergan uzoq muddatli krediti",
+    "Davlatning qarz olishi",
+    "Xalqaro kredit"
+   ],
+   "e": "Kommercheskiy."
+  },
+  {
+   "b": "Kredit",
+   "q": "Kredit qo'mitasi bankda qanday vazifani bajaradi?",
+   "a": [
+    "Kredit berish to'g'risida qaror qabul qiladi",
+    "Bank binosini qo'riqlash va xavfsizlikni ta'minlash",
+    "Xodimlarni ishga oladi",
+    "Soliq to'laydi"
+   ],
+   "e": "Kollegial organ."
+  },
+  {
+   "b": "Kredit",
+   "q": "Kredit riskini kamaytirish usuli qaysi?",
+   "a": [
+    "Diversifikatsiya va ta'minot talab qilish",
+    "Barcha kreditni bitta mijozga berish",
+    "Ta'minotsiz kredit berish",
+    "Qarz oluvchini tekshirmaslik"
+   ],
+   "e": "Risk menejmenti."
+  },
+  {
+   "b": "Kredit",
+   "q": "Kreditni restrukturizatsiya qilish nima?",
+   "a": [
+    "Kredit shartlarini qayta ko'rib chiqish",
+    "Kreditni butunlay kechib yuborib, hisobdan chiqarish",
+    "Yangi bank ochish",
+    "Kreditni boshqa bankka sotish"
+   ],
+   "e": "Muddat, stavka."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Aksiya nima?",
+   "a": [
+    "Korxona kapitalidagi ulushni tasdiqlovchi qog'oz",
+    "Qarz majburiyatini tasdiqlovchi qog'oz",
+    "To'lov topshiriqnomasi",
+    "Sug'urta polisi"
+   ],
+   "e": "Ulushli qimmatli qog'oz."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Obligatsiya nima?",
+   "a": [
+    "Qarz majburiyatini tasdiqlovchi qimmatli qog'oz",
+    "Korxona mulkidagi ulushni tasdiqlovchi qog'oz",
+    "Bank depoziti",
+    "Soliq kvitansiyasi"
+   ],
+   "e": "Qarz qog'ozi."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Oddiy aksiya egasi qanday huquqqa ega?",
+   "a": [
+    "Ovoz berish va dividend olish",
+    "Qat'iy belgilangan foiz olish, ovozsiz",
+    "Faqat obligatsiya almashtirish",
+    "Hech qanday huquq yo'q"
+   ],
+   "e": "Aksiyador huquqlari."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Imtiyozli aksiyaning xususiyati nima?",
+   "a": [
+    "Belgilangan dividend, odatda ovozsiz",
+    "To'liq ovoz huquqi va dividendsiz",
+    "Qarz majburiyati",
+    "Bankka garov"
+   ],
+   "e": "Privilegirovannaya."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Dividend nima?",
+   "a": [
+    "Aksiyadorlarga taqsimlanadigan foyda qismi",
+    "Obligatsiya egasiga to'lanadigan qat'iy belgilangan foiz",
+    "Bank krediti foizi",
+    "Soliq to'lovi"
+   ],
+   "e": "Foydaning bir qismi."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Veksel nima?",
+   "a": [
+    "Qarzni to'lash bo'yicha yozma majburiyat",
+    "Korxona ustav kapitalidagi ulushni tasdiqlovchi hujjat",
+    "Bank kartasi",
+    "Sug'urta polisi"
+   ],
+   "e": "Oddiy va o'tkaziladigan."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Fond birjasining vazifasi nima?",
+   "a": [
+    "Qimmatli qog'ozlar savdosini tashkil etish",
+    "Tovarlarni aholiga chakana narxda sotishni tashkil etish",
+    "Soliq yig'ish",
+    "Kredit berish"
+   ],
+   "e": "Birja."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "O'zbekistondagi fond birjasi qaysi?",
+   "a": [
+    "Toshkent Respublika fond birjasi",
+    "Toshkent tovar-xomashyo birjasi",
+    "O'zbekiston valyuta birjasi",
+    "Markaziy depozitariy"
+   ],
+   "e": "\"Toshkent\" RFB."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Qimmatli qog'ozlarning birlamchi bozori nima?",
+   "a": [
+    "Yangi chiqarilgan qog'ozlarni joylashtirish",
+    "Ilgari chiqarilgan qog'ozlarni qayta sotish",
+    "Faqat valyuta savdosi",
+    "Faqat oltin savdosi"
+   ],
+   "e": "Emissiya."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Ikkilamchi bozorda nima sodir bo'ladi?",
+   "a": [
+    "Muomaladagi qog'ozlar qayta sotiladi",
+    "Yangi qog'ozlar birinchi marta sotiladi",
+    "Kredit beriladi",
+    "Soliq to'lanadi"
+   ],
+   "e": "Birja savdosi."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Depozitariy vazifasi nima?",
+   "a": [
+    "Qimmatli qog'ozlarni saqlash va hisobga olish",
+    "Kredit berish va naqd pul muomalasini tashkil etish",
+    "Soliq yig'ish",
+    "Naqd pul chiqarish"
+   ],
+   "e": "Hisob yuritish."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Broker kim?",
+   "a": [
+    "Mijoz topshirig'i bilan bitim tuzuvchi vositachi",
+    "O'z hisobidan savdo qiluvchi diler",
+    "Soliq inspektori",
+    "Bank kassiri"
+   ],
+   "e": "Vositachi."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Diler kim?",
+   "a": [
+    "O'z hisobidan va nomidan savdo qiluvchi",
+    "Faqat mijoz topshirig'ini bajaruvchi",
+    "Soliq to'lovchi",
+    "Auditor"
+   ],
+   "e": "Diler."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "IPO nima?",
+   "a": [
+    "Aksiyalarni ommaga birinchi marta taklif etish",
+    "Obligatsiyalarni qaytarib sotib olish",
+    "Kreditni qayta moliyalash",
+    "Soliq deklaratsiyasi"
+   ],
+   "e": "Initial Public Offering."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Davlat qimmatli qog'ozlariga misol qaysi?",
+   "a": [
+    "Davlat obligatsiyalari",
+    "Xususiy korxona aksiyalari",
+    "Bank kartasi",
+    "Sug'urta polisi"
+   ],
+   "e": "G'aznachilik."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Qimmatli qog'oz nominal qiymati nima?",
+   "a": [
+    "Qog'ozda ko'rsatilgan qiymat",
+    "Birjada shakllangan joriy bozor narxi",
+    "Dividend miqdori",
+    "Soliq summasi"
+   ],
+   "e": "Nominal."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Aksiyaning bozor narxi nimaga bog'liq?",
+   "a": [
+    "Talab va taklifga",
+    "Faqat nominal qiymatga",
+    "Faqat davlat qaroriga",
+    "Hech narsaga bog'liq emas"
+   ],
+   "e": "Kurs qiymati."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Investitsiya portfeli nima?",
+   "a": [
+    "Investorning turli aktivlari to'plami",
+    "Bankning bitta yirik mijozga bergan krediti",
+    "Soliq hisobotlari to'plami",
+    "Xodimlar ro'yxati"
+   ],
+   "e": "Diversifikatsiya."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Diversifikatsiya maqsadi nima?",
+   "a": [
+    "Riskni kamaytirish",
+    "Riskni oshirish",
+    "Soliqni oshirish",
+    "Daromadni nolga tushirish"
+   ],
+   "e": "Turli aktivlar."
+  },
+  {
+   "b": "Qimmatli qog'ozlar va fond bozori",
+   "q": "Qimmatli qog'ozlar bozorini O'zbekistonda kim tartibga soladi?",
+   "a": [
+    "Vakolatli davlat organi (kapital bozori regulyatori)",
+    "Har bir aksiyador o'zi",
+    "Faqat tijorat banklari",
+    "Hech kim tartibga solmaydi"
+   ],
+   "e": "Qonunchilik."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Moliya deganda nima tushuniladi?",
+   "a": [
+    "Pul fondlarini yaratish va taqsimlash munosabatlari",
+    "Faqat naqd pulni ishlab chiqarish jarayoni",
+    "Faqat tovar ayirboshlash",
+    "Banknot va tangalarni chop etish texnologiyasi va uskunalari"
+   ],
+   "e": "Iqtisodiy munosabatlar."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Moliyaning asosiy funksiyalari qaysilar?",
+   "a": [
+    "Taqsimlash va nazorat",
+    "Ishlab chiqarish va iste'mol",
+    "Faqat emissiya",
+    "Faqat sug'urta"
+   ],
+   "e": "Ikki asosiy funksiya."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Moliya tizimi qanday bo'g'inlardan iborat?",
+   "a": [
+    "Davlat moliyasi, korxonalar moliyasi, sug'urta, uy xo'jaliklari",
+    "Faqat Markaziy bank va tijorat banklari",
+    "Faqat soliq organlari",
+    "Faqat fond birjasi"
+   ],
+   "e": "Moliya tizimi."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Davlat moliyasiga nima kiradi?",
+   "a": [
+    "Davlat byudjeti, maqsadli jamg'armalar, davlat krediti",
+    "Xususiy korxonalarning sof foydasi va aholi omonatlari",
+    "Faqat aholi jamg'armalari",
+    "Faqat chet el investitsiyalari"
+   ],
+   "e": "Markazlashgan moliya."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Moliya siyosati nima?",
+   "a": [
+    "Davlatning moliya sohasidagi chora-tadbirlari majmui",
+    "Tijorat bankining mijozlarni jalb qilish va reklama siyosati",
+    "Korxonaning narx siyosati",
+    "Faqat valyuta siyosati"
+   ],
+   "e": "Fiskal siyosat."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Fiskal siyosat vositalari qaysilar?",
+   "a": [
+    "Soliqlar va davlat xarajatlari",
+    "Markaziy bankning foiz stavkalari va valyuta kursi",
+    "Faqat valyuta kursi",
+    "Faqat pul emissiyasi"
+   ],
+   "e": "Byudjet-soliq siyosati."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Ekspansion fiskal siyosat nimani nazarda tutadi?",
+   "a": [
+    "Xarajatlarni oshirish yoki soliqlarni kamaytirish",
+    "Xarajatlarni qisqartirish va soliqlarni oshirish",
+    "Pul massasini qisqartirish",
+    "Valyuta kursini oshirish"
+   ],
+   "e": "Iqtisodiy faollikni rag'batlantirish."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Korxonalar moliyasining asosiy manbai nima?",
+   "a": [
+    "Mahsulot sotishdan tushgan tushum",
+    "Davlat byudjetidan qaytarilmas tarzda ajratilgan mablag'",
+    "Xodimlarning shaxsiy jamg'armasi",
+    "Markaziy bank emissiyasi"
+   ],
+   "e": "Vyruchka."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Korxonaning sof foydasi qanday aniqlanadi?",
+   "a": [
+    "Soliqqa tortiladigan foydadan soliq ayirilgach",
+    "Sotishdan tushgan tushumga barcha xarajatlarni qo'shib",
+    "Faqat ish haqi summasi sifatida",
+    "Aktivlar yig'indisi sifatida"
+   ],
+   "e": "Chistaya pribyl."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Rentabellik nima?",
+   "a": [
+    "Foydaning xarajat yoki aktivlarga nisbati",
+    "Korxona tushumining xodimlar soniga nisbati ko'rsatkichi",
+    "Aktivlar yig'indisi",
+    "Soliqlar summasi"
+   ],
+   "e": "Samaradorlik."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Aylanma mablag'lar nima?",
+   "a": [
+    "Bir ishlab chiqarish siklida to'liq sarflanadigan mablag'lar",
+    "Uzoq yillar xizmat qiluvchi bino va mashinalar",
+    "Faqat yer uchastkasi",
+    "Faqat patentlar"
+   ],
+   "e": "Xomashyo, materiallar."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Asosiy fondlar nima?",
+   "a": [
+    "Ko'p sikl davomida xizmat qiluvchi vositalar",
+    "Bir ishlab chiqarish siklida to'liq sarflanadigan xomashyo",
+    "Faqat naqd pul",
+    "Faqat tovar zaxiralari"
+   ],
+   "e": "Bino, uskunalar."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Amortizatsiya nima?",
+   "a": [
+    "Asosiy vositalar qiymatini mahsulotga asta o'tkazish",
+    "Asosiy vositalarni bozor narxida to'liq sotib yuborish",
+    "Ish haqini oshirish",
+    "Soliqni kechiktirish"
+   ],
+   "e": "Iznos."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Moliyaviy nazorat turlari qaysilar?",
+   "a": [
+    "Davlat, idoraviy, ichki, auditorlik",
+    "Faqat oilaviy nazorat",
+    "Faqat xorijiy nazorat",
+    "Faqat jamoatchilik nazorati"
+   ],
+   "e": "Nazorat shakllari."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Audit nima?",
+   "a": [
+    "Moliyaviy hisobotlarni mustaqil tekshirish",
+    "Soliqlarni hisoblash va byudjetga o'tkazish jarayoni",
+    "Kredit berish",
+    "Mahsulot sotish"
+   ],
+   "e": "Auditorlik tekshiruvi."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Moliyaviy rejalashtirish nimadan iborat?",
+   "a": [
+    "Daromad va xarajatlarni oldindan rejalash",
+    "Faqat o'tgan yil yakunlari bo'yicha hisobot yozish",
+    "Faqat soliq to'lash",
+    "Faqat kredit olish"
+   ],
+   "e": "Moliyaviy reja."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Sug'urtaning asosiy vazifasi nima?",
+   "a": [
+    "Risklar natijasidagi zararni qoplash",
+    "Davlat byudjeti uchun soliq va yig'imlarni undirish",
+    "Pul emissiya qilish",
+    "Kredit berish"
+   ],
+   "e": "Himoya funksiyasi."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Sug'urta mukofoti (badal) nima?",
+   "a": [
+    "Sug'urtalanuvchi to'laydigan to'lov",
+    "Sug'urta hodisasida sug'urtachi to'laydigan tovon",
+    "Bank krediti",
+    "Davlat granti"
+   ],
+   "e": "Strahovaya premiya."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Sug'urta tovoni nima?",
+   "a": [
+    "Sug'urta hodisasida to'lanadigan summa",
+    "Sug'urtalanuvchi har oy to'laydigan sug'urta badali",
+    "Soliq to'lovi",
+    "Kredit foizi"
+   ],
+   "e": "Strahovoe vozmeshchenie."
+  },
+  {
+   "b": "Moliya tizimi",
+   "q": "Majburiy sug'urtaga misol qaysi?",
+   "a": [
+    "Transport egalarining fuqarolik javobgarligi sug'urtasi",
+    "Shaxsiy hayotni ixtiyoriy sug'urtalash",
+    "Uy hayvonini sug'urtalash",
+    "Sayohat sug'urtasi faqat"
+   ],
+   "e": "OSAGO."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Davlat byudjeti nima?",
+   "a": [
+    "Davlatning markazlashgan pul fondi",
+    "Korxonaning yil yakunidagi moliyaviy hisoboti",
+    "Bankning kredit portfeli",
+    "Aholining jamg'armasi"
+   ],
+   "e": "Daromad va xarajatlar."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "O'zbekistonda byudjet yili qanday davrni o'z ichiga oladi?",
+   "a": [
+    "1-yanvardan 31-dekabrgacha",
+    "1-sentabrdan 31-avgustgacha",
+    "1-apreldan 31-martgacha",
+    "1-iyuldan 30-iyungacha"
+   ],
+   "e": "Kalendar yil."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "O'zbekiston davlat byudjeti qanday byudjetlardan iborat?",
+   "a": [
+    "Respublika byudjeti va mahalliy byudjetlar",
+    "Faqat Toshkent shahar va korxonalar byudjetlari",
+    "Faqat korxonalar byudjeti",
+    "Faqat Markaziy bank byudjeti"
+   ],
+   "e": "Byudjet tizimi."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Davlat byudjeti qaysi organ tomonidan qabul qilinadi?",
+   "a": [
+    "Oliy Majlis (qonun bilan)",
+    "Markaziy bank",
+    "Tijorat banklari",
+    "Soliq qo'mitasi"
+   ],
+   "e": "Byudjet to'g'risidagi qonun."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet jarayonini tartibga soluvchi asosiy hujjat qaysi?",
+   "a": [
+    "Byudjet kodeksi",
+    "Mehnat kodeksi",
+    "Oila kodeksi",
+    "Jinoyat kodeksi"
+   ],
+   "e": "2013-yilda qabul qilingan."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet taqchilligi (defitsit) nima?",
+   "a": [
+    "Xarajatlarning daromaddan oshishi",
+    "Daromadning xarajatlardan sezilarli darajada oshishi",
+    "Daromad va xarajatning tengligi",
+    "Soliqlarning bekor qilinishi"
+   ],
+   "e": "Defitsit."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet profitsiti nima?",
+   "a": [
+    "Daromadning xarajatdan oshishi",
+    "Xarajatning daromaddan oshishi",
+    "Davlat qarzining o'sishi",
+    "Inflyatsiya"
+   ],
+   "e": "Profitsit."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet taqchilligini moliyalash manbalariga qaysi kiradi?",
+   "a": [
+    "Davlat qarzlari (ichki va tashqi)",
+    "Aholidan qaytarilmas majburiy hadya",
+    "Bank binolarini sotish",
+    "Pul chiqarishni to'xtatish"
+   ],
+   "e": "Qarz olish."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjetning asosiy daromad manbai nima?",
+   "a": [
+    "Soliq tushumlari",
+    "Lotereya yutuqlari",
+    "Xorijiy sovg'alar",
+    "Aholining omonatlari"
+   ],
+   "e": "Soliqlar."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet xarajatlarining ijtimoiy yo'nalishiga nima kiradi?",
+   "a": [
+    "Ta'lim, sog'liqni saqlash, ijtimoiy himoya",
+    "Faqat mudofaa va davlat boshqaruvi xarajatlari",
+    "Faqat sport tadbirlari",
+    "Faqat tashqi qarz to'lovi"
+   ],
+   "e": "Ijtimoiy soha."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjetni ijro etish uchun kim mas'ul?",
+   "a": [
+    "Moliya vazirligi (g'aznachilik orqali)",
+    "Har bir fuqaro",
+    "Tijorat banklari",
+    "Fond birjasi"
+   ],
+   "e": "G'aznachilik."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "G'aznachilik (kaznacheystvo) vazifasi nima?",
+   "a": [
+    "Byudjet mablag'larining kassa ijrosi",
+    "Aholiga va korxonalarga imtiyozli kredit berish",
+    "Valyuta kursini belgilash",
+    "Pul emissiya qilish"
+   ],
+   "e": "G'aznachilik ijrosi."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet tasnifi nima uchun kerak?",
+   "a": [
+    "Daromad va xarajatlarni guruhlash",
+    "Byudjet ma'lumotlarini maxfiy saqlash va yashirish",
+    "Soliqlarni bekor qilish",
+    "Banklarni tasniflash"
+   ],
+   "e": "Byudjet klassifikatsiyasi."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Konsolidatsiyalashgan byudjet nima?",
+   "a": [
+    "Davlat byudjeti va maqsadli jamg'armalarning jami",
+    "Faqat mahalliy byudjet",
+    "Faqat bitta tuman yoki shahar mahalliy byudjeti",
+    "Korxonalar byudjeti"
+   ],
+   "e": "Umumiy byudjet."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Davlat maqsadli jamg'armalariga misol qaysi?",
+   "a": [
+    "Pensiya jamg'armasi",
+    "Tijorat banki kapitali",
+    "Korxona foydasi",
+    "Oila byudjeti"
+   ],
+   "e": "Byudjetdan tashqari jamg'arma."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Mahalliy byudjetning asosiy daromad manbalari qaysilar?",
+   "a": [
+    "Mahalliy soliqlar va ajratmalar",
+    "Faqat xorijiy kreditlar va xalqaro grantlar",
+    "Faqat Markaziy bank krediti",
+    "Faqat aholidan hadya"
+   ],
+   "e": "Mol-mulk va yer solig'i."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet ochiqligini ta'minlash uchun qanday portal ishlaydi?",
+   "a": [
+    "\"Ochiq byudjet\" portali",
+    "Faqat yopiq ichki tizim",
+    "Faqat bank sayti",
+    "Hech qanday portal yo'q"
+   ],
+   "e": "openbudget.uz."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "\"Fuqarolar byudjeti\" nima?",
+   "a": [
+    "Byudjetning soddalashtirilgan ommabop shakli",
+    "Fuqarolarning shaxsiy oila byudjeti",
+    "Korxona hisoboti",
+    "Bank hisoboti"
+   ],
+   "e": "Shaffoflik."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Davlat qarzi nima?",
+   "a": [
+    "Davlatning ichki va tashqi majburiyatlari",
+    "Aholining banklarga qarzi",
+    "Aholi va korxonalarning tijorat banklariga qarzi",
+    "Bankning aholiga qarzi"
+   ],
+   "e": "Gosdolg."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet subvensiyasi nima?",
+   "a": [
+    "Quyi byudjetga beriladigan qaytarilmas mablag'",
+    "Bankdan olinadigan qaytariladigan kredit",
+    "Soliq jarimasi",
+    "Depozit foizi"
+   ],
+   "e": "Moliyaviy yordam."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet ssudasi subvensiyadan nimasi bilan farq qiladi?",
+   "a": [
+    "Qaytarilishi shart",
+    "Qaytarilmaydi",
+    "Faqat chet elga beriladi",
+    "Faqat foizsiz va muddatsiz"
+   ],
+   "e": "Ssuda."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet tashkiloti qanday moliyalashtiriladi?",
+   "a": [
+    "Xarajatlar smetasi asosida byudjetdan",
+    "Faqat tijorat faoliyatidan olingan foyda hisobidan",
+    "Faqat kreditlar hisobidan",
+    "Moliyalashtirilmaydi"
+   ],
+   "e": "Smeta."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Xarajatlar smetasi nima?",
+   "a": [
+    "Tashkilot xarajatlarining rejali hujjati",
+    "Bank bilan tuzilgan kredit shartnomasi va uning ilovasi",
+    "Soliq deklaratsiyasi",
+    "Mahsulot sertifikati"
+   ],
+   "e": "Byudjet tashkilotlari."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Byudjet ijrosi to'g'risidagi hisobot kim tomonidan tasdiqlanadi?",
+   "a": [
+    "Oliy Majlis",
+    "Tijorat banki",
+    "Fond birjasi",
+    "Auditorlik firmasi"
+   ],
+   "e": "Qonunchilik palatasi va Senat."
+  },
+  {
+   "b": "Davlat byudjeti",
+   "q": "Davlat byudjeti tamoyillaridan biri qaysi?",
+   "a": [
+    "Shaffoflik (ochiqlik)",
+    "Maxfiylik",
+    "Faqat bitta shaxs qarori",
+    "Rejasiz sarflash"
+   ],
+   "e": "Byudjet tamoyillari."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq nima?",
+   "a": [
+    "Byudjetga majburiy, qaytarilmas to'lov",
+    "Ixtiyoriy va qaytariladigan xayriya",
+    "Bank kreditining foizi",
+    "Sug'urta badali"
+   ],
+   "e": "Soliq kodeksi."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "O'zbekiston Soliq kodeksining yangi tahriri qachondan kuchga kirgan?",
+   "a": [
+    "2020-yil 1-yanvardan",
+    "1998-yil 1-yanvardan",
+    "2008-yil 1-yanvardan",
+    "2015-yil 1-yanvardan"
+   ],
+   "e": "2019-yil 30-dekabrda qabul qilingan."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliqlarning asosiy funksiyalari qaysilar?",
+   "a": [
+    "Fiskal, tartibga soluvchi, nazorat",
+    "Faqat jazolash va jarima undirish funksiyasi",
+    "Faqat emissiya funksiyasi",
+    "Faqat sug'urta funksiyasi"
+   ],
+   "e": "Soliq funksiyalari."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliqning fiskal funksiyasi nima?",
+   "a": [
+    "Byudjetni daromad bilan ta'minlash",
+    "Iqtisodiyotni tartibga solish",
+    "Soliq to'lovchilarni rag'batlantirish",
+    "Banklarni nazorat qilish"
+   ],
+   "e": "Asosiy funksiya."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Bevosita soliqqa misol qaysi?",
+   "a": [
+    "Daromad solig'i",
+    "Qo'shilgan qiymat solig'i",
+    "Aksiz solig'i",
+    "Bojxona boji"
+   ],
+   "e": "To'g'ridan-to'g'ri daromaddan."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Bilvosita soliqqa misol qaysi?",
+   "a": [
+    "QQS",
+    "Foyda solig'i",
+    "Jismoniy shaxslar daromad solig'i",
+    "Mol-mulk solig'i"
+   ],
+   "e": "Narxga qo'shiladi."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "O'zbekistonda QQS ning umumiy stavkasi qancha (2023-yildan)?",
+   "a": [
+    "12%",
+    "20%",
+    "15%",
+    "10%"
+   ],
+   "e": "2023-yilgacha 15% edi."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Yuridik shaxslar foyda solig'ining umumiy stavkasi qancha?",
+   "a": [
+    "15%",
+    "12%",
+    "20%",
+    "7,5%"
+   ],
+   "e": "Banklar uchun 20%."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Jismoniy shaxslar daromad solig'i stavkasi qancha?",
+   "a": [
+    "12%",
+    "15%",
+    "20%",
+    "7,5%"
+   ],
+   "e": "Yagona stavka."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Ijtimoiy soliqning umumiy stavkasi qancha?",
+   "a": [
+    "12%",
+    "25%",
+    "15%",
+    "8%"
+   ],
+   "e": "Mehnatga haq to'lash fondidan."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Aylanmadan olinadigan soliqning bazaviy stavkasi qancha?",
+   "a": [
+    "4%",
+    "12%",
+    "15%",
+    "1%"
+   ],
+   "e": "Kichik biznes uchun."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Aylanmasi qancha bo'lganda korxona QQS to'lovchiga aylanadi?",
+   "a": [
+    "Yiliga 1 mlrd so'mdan oshsa",
+    "Yiliga 10 mln so'mdan oshsa",
+    "Yiliga 100 mlrd so'mdan oshsa",
+    "Har qanday aylanmada"
+   ],
+   "e": "Majburiy o'tish."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Aksiz solig'i qaysi tovarlarga belgilanadi?",
+   "a": [
+    "Alkogol, tamaki, yoqilg'i kabi tovarlarga",
+    "Non, sut mahsulotlari va bolalar oziq-ovqatiga",
+    "Darsliklarga",
+    "Dori vositalariga"
+   ],
+   "e": "Aksizli tovarlar."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Mahalliy soliqlarga qaysi kiradi?",
+   "a": [
+    "Mol-mulk solig'i va yer solig'i",
+    "QQS va aksiz solig'i",
+    "Foyda solig'i",
+    "Bojxona boji"
+   ],
+   "e": "Mahalliy byudjetga."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq ob'ekti nima?",
+   "a": [
+    "Soliq hisoblanadigan daromad, mulk yoki operatsiya",
+    "Soliqni to'lashi shart bo'lgan jismoniy yoki yuridik shaxs",
+    "Soliq stavkasi",
+    "Soliq organi"
+   ],
+   "e": "Ob'ekt."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq bazasi nima?",
+   "a": [
+    "Ob'ektning qiymat yoki miqdor ifodasi",
+    "Soliq to'lovchilarning ro'yxati va manzillari",
+    "Soliq organi binosi",
+    "Soliq imtiyozi"
+   ],
+   "e": "Baza × stavka."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq stavkasi nima?",
+   "a": [
+    "Soliq bazasi birligiga to'g'ri keladigan soliq miqdori",
+    "Soliqni to'lashning oxirgi muddati va tartibi",
+    "Soliq organi nomi",
+    "Soliq to'lovchi soni"
+   ],
+   "e": "Foiz yoki qat'iy summa."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Progressiv soliq stavkasi nima?",
+   "a": [
+    "Daromad oshgani sari stavka ham oshadi",
+    "Barcha daromadlar uchun bir xil stavka",
+    "Daromad oshganda stavka kamayadi",
+    "Stavka nolga teng"
+   ],
+   "e": "Progressiya."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Proporsional soliq stavkasi nima?",
+   "a": [
+    "Daromad hajmidan qat'i nazar bir xil foiz",
+    "Daromad oshgani sari bosqichma-bosqich oshib boruvchi",
+    "Daromad oshganda kamayib boruvchi",
+    "Qat'iy summa"
+   ],
+   "e": "Masalan, 12%."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq imtiyozi nima?",
+   "a": [
+    "Soliq yukini kamaytiruvchi yengillik",
+    "Soliqni ikki baravar oshirish",
+    "Soliqni o'z vaqtida to'lamaganlik uchun jarima",
+    "Soliq tekshiruvi"
+   ],
+   "e": "L'gota."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq agenti kim?",
+   "a": [
+    "Soliqni hisoblab, ushlab, byudjetga o'tkazuvchi shaxs",
+    "Soliqni o'zi to'lovchi oddiy fuqaro",
+    "Soliq organi rahbari",
+    "Bank kassiri"
+   ],
+   "e": "Masalan, ish beruvchi."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Ish beruvchi xodim ish haqidan qaysi soliqni ushlab qoladi?",
+   "a": [
+    "Jismoniy shaxslar daromad solig'i",
+    "Foyda solig'i",
+    "QQS",
+    "Aksiz"
+   ],
+   "e": "Soliq agenti sifatida."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "5 000 000 so'm ish haqidan 12% daromad solig'i qancha bo'ladi?",
+   "a": [
+    "600 000 so'm",
+    "500 000 so'm",
+    "750 000 so'm",
+    "1 200 000 so'm"
+   ],
+   "e": "5 000 000 × 0,12."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "QQS siz narxi 1 000 000 so'm bo'lgan tovarga 12% QQS qo'shilsa, narx qancha bo'ladi?",
+   "a": [
+    "1 120 000 so'm",
+    "1 012 000 so'm",
+    "1 200 000 so'm",
+    "880 000 so'm"
+   ],
+   "e": "1 000 000 × 1,12."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "QQS bilan narxi 1 120 000 so'm bo'lgan tovardagi QQS summasi qancha?",
+   "a": [
+    "120 000 so'm",
+    "134 400 so'm",
+    "112 000 so'm",
+    "12 000 so'm"
+   ],
+   "e": "1 120 000 × 12/112."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq deklaratsiyasi nima?",
+   "a": [
+    "Daromad va soliqlar haqidagi rasmiy hisobot",
+    "Soliqdan ozod qilinganlik to'g'risidagi guvohnoma",
+    "Bank krediti arizasi",
+    "Mehnat shartnomasi"
+   ],
+   "e": "Hisobot."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Jismoniy shaxslar qaysi hollarda daromad deklaratsiyasini topshiradi?",
+   "a": [
+    "Soliq agenti orqali soliqqa tortilmagan daromad olganda",
+    "Faqat ish haqi olganda har oy",
+    "Hech qachon topshirmaydi",
+    "Faqat pensiya olganda"
+   ],
+   "e": "Masalan, ijaradan daromad."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "STIR nima?",
+   "a": [
+    "Soliq to'lovchining identifikatsiya raqami",
+    "Soliq tekshiruvi rejasi",
+    "Soliq imtiyozlari ro'yxati",
+    "Soliq stavkasi"
+   ],
+   "e": "INN."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq to'lovchining asosiy majburiyatlari qaysilar?",
+   "a": [
+    "Ro'yxatdan o'tish, hisobot topshirish, soliqni to'lash",
+    "Soliq stavkasini mustaqil belgilash va o'zgartirish",
+    "Soliq organini tekshirish",
+    "Soliqni to'lamaslik huquqi"
+   ],
+   "e": "Majburiyatlar."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliqni o'z vaqtida to'lamaslik uchun nima hisoblanadi?",
+   "a": [
+    "Penya",
+    "Dividend",
+    "Subsidiya",
+    "Bonus"
+   ],
+   "e": "Kechiktirilgan har kun uchun."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq tekshiruvi turlari qaysilar?",
+   "a": [
+    "Kameral, sayyor, soliq auditi",
+    "Faqat og'zaki suhbat",
+    "Faqat telefon so'rovi",
+    "Tekshiruv o'tkazilmaydi"
+   ],
+   "e": "Soliq nazorati."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Kameral soliq tekshiruvi qayerda o'tkaziladi?",
+   "a": [
+    "Soliq organida hisobotlar asosida",
+    "Korxona hududida, joyiga chiqib, hujjatlar asosida",
+    "Bank binosida",
+    "Sudda"
+   ],
+   "e": "Ofis tekshiruvi."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq maslahatchisining vazifasi nima?",
+   "a": [
+    "Soliq masalalarida maslahat va yordam berish",
+    "Soliqni o'zi undirish",
+    "Soliq stavkasini belgilash",
+    "Soliqni bekor qilish"
+   ],
+   "e": "Konsultatsiya."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Elektron hisobvaraq-faktura tizimi nima uchun joriy etilgan?",
+   "a": [
+    "Soliq ma'muriyatchiligini takomillashtirish",
+    "Qog'oz hujjatlar sonini ko'paytirish va saqlash",
+    "Soliqlarni oshirish",
+    "Banklarni yopish"
+   ],
+   "e": "E-faktura."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Onlayn nazorat-kassa texnikasi (OKT) qanday maqsadda qo'llanadi?",
+   "a": [
+    "Savdo tushumini real vaqtda hisobga olish",
+    "Xaridorlar sonini cheklash va navbatni kamaytirish",
+    "Mahsulot narxini oshirish",
+    "Ish haqini hisoblash"
+   ],
+   "e": "Fiskal modul."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Yer solig'i qanday hisoblanadi?",
+   "a": [
+    "Yer maydoni va me'yoriy qiymatga qarab",
+    "Korxona sof foydasining belgilangan foizi bo'yicha",
+    "Xodimlar soniga qarab",
+    "Mahsulot hajmiga qarab"
+   ],
+   "e": "Yer uchastkasi."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Yashirin iqtisodiyotning byudjetga zarari nima?",
+   "a": [
+    "Soliq tushumlarining kamayishi",
+    "Soliq tushumlarining oshishi",
+    "Inflyatsiyaning yo'qolishi",
+    "Ish o'rinlarining ko'payishi"
+   ],
+   "e": "Soliqdan qochish."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Ikki tomonlama soliqqa tortishning oldini olish uchun nima tuziladi?",
+   "a": [
+    "Davlatlararo soliq bitimlari",
+    "Tijorat banklari bilan tuziladigan kredit shartnomalari",
+    "Mehnat shartnomalari",
+    "Sug'urta shartnomalari"
+   ],
+   "e": "Xalqaro bitimlar."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Bojxona boji qaysi soliq turiga kiradi?",
+   "a": [
+    "Bilvosita soliqlarga",
+    "Bevosita soliqlarga",
+    "Mahalliy soliqlarga",
+    "Ijtimoiy to'lovlarga"
+   ],
+   "e": "Import tovarlariga."
+  },
+  {
+   "b": "Soliqlar va soliqqa tortish",
+   "q": "Soliq yuki nima?",
+   "a": [
+    "Soliqlarning YaIM yoki daromadga nisbati",
+    "Soliq organlari xodimlari soni",
+    "Soliq hujjatlari og'irligi",
+    "Soliq imtiyozlari soni"
+   ],
+   "e": "Nalogovaya nagruzka."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Bank hisob raqamini ochish uchun yuridik shaxs nima taqdim etadi?",
+   "a": [
+    "Ro'yxatdan o'tganlik hujjatlari va ariza",
+    "Faqat rahbarning og'zaki iltimosi va telefon raqami",
+    "Faqat diplom",
+    "Hech qanday hujjat"
+   ],
+   "e": "Hujjatlar to'plami."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Korxonaning asosiy hisob raqami nima uchun ishlatiladi?",
+   "a": [
+    "Asosiy pul oqimlari va hisob-kitoblar uchun",
+    "Faqat xodimlarning shaxsiy jamg'armasi uchun",
+    "Faqat soliq jarimasi uchun",
+    "Faqat xayriya uchun"
+   ],
+   "e": "Asosiy hisobvaraq."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "To'lov topshiriqnomasi nima?",
+   "a": [
+    "Hisobdan pul o'tkazish uchun bankka topshiriq",
+    "Bankdan naqd pul olish uchun chek daftarchasi",
+    "Soliq deklaratsiyasi",
+    "Kredit shartnomasi"
+   ],
+   "e": "Platezhnoe poruchenie."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Kassa operatsiyalariga nima kiradi?",
+   "a": [
+    "Naqd pulni qabul qilish va berish",
+    "Naqd pulsiz o'tkazmalarni tasdiqlash",
+    "Kredit qarorini qabul qilish",
+    "Qimmatli qog'ozlar savdosi"
+   ],
+   "e": "Kassa."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Inkassatsiya nima?",
+   "a": [
+    "Naqd pulni yig'ib bankka yetkazish",
+    "Muddati o'tgan qarzni sud qarori bilan undirib olish",
+    "Soliqni kechiktirish",
+    "Valyuta almashtirish"
+   ],
+   "e": "Inkassatorlar."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Bank kartalarining turlari qaysilar?",
+   "a": [
+    "Debet va kredit kartalari",
+    "Faqat qog'oz cheklar va obligatsiyalar",
+    "Faqat tanga va banknotlar",
+    "Faqat veksellar"
+   ],
+   "e": "Plastik kartalar."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Debet kartaning xususiyati nima?",
+   "a": [
+    "Faqat hisobdagi o'z mablag'idan foydalaniladi",
+    "Bank mablag'idan belgilangan limitgacha qarz olinadi",
+    "Hisobsiz ishlaydi",
+    "Faqat chet elda ishlaydi"
+   ],
+   "e": "O'z mablag'i."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "O'zbekistondagi milliy to'lov tizimlari qaysilar?",
+   "a": [
+    "UzCard va Humo",
+    "Faqat Visa",
+    "Faqat MasterCard",
+    "Faqat UnionPay"
+   ],
+   "e": "Mahalliy tizimlar."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "PIN-kod nima?",
+   "a": [
+    "Kartani ishlatish uchun shaxsiy maxfiy kod",
+    "Karta raqamining ochiq qismi",
+    "Bank filiali raqami",
+    "Kartaning old tomonida yozilgan 16 xonali raqam"
+   ],
+   "e": "Maxfiy saqlanadi."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Karta ma'lumotlarini (CVV, SMS-kod) begonaga aytish nimaga olib kelishi mumkin?",
+   "a": [
+    "Firibgarlik va mablag' yo'qotishga",
+    "Karta limitining avtomatik oshirilishiga",
+    "Bank bonusiga",
+    "Hech qanday oqibatga"
+   ],
+   "e": "Moliyaviy xavfsizlik."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Masofaviy bank xizmatlariga nima kiradi?",
+   "a": [
+    "Internet-banking va mobil ilovalar",
+    "Faqat bank filialiga shaxsan borib xizmat olish",
+    "Faqat qog'oz xat orqali",
+    "Faqat telegraf orqali"
+   ],
+   "e": "DBO."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "SWIFT tizimi nima uchun ishlatiladi?",
+   "a": [
+    "Xalqaro bank xabarlari va o'tkazmalari uchun",
+    "Ichki soliq hisoboti uchun",
+    "Bank binosini qo'riqlash uchun",
+    "Kredit tarixini saqlash uchun"
+   ],
+   "e": "Xalqaro tarmoq."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Bank kafolati nima?",
+   "a": [
+    "Bankning mijoz majburiyati bo'yicha to'lash va'dasi",
+    "Bankning o'zi boshqa bankdan olgan qisqa muddatli krediti",
+    "Depozit turi",
+    "Soliq imtiyozi"
+   ],
+   "e": "Bankovskaya garantiya."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Seyf yacheykalari xizmati nima?",
+   "a": [
+    "Qimmatbaho buyumlarni bankda saqlash",
+    "Naqd pulni chet elga pochta orqali jo'natish xizmati",
+    "Kredit berish",
+    "Soliq hisoblash"
+   ],
+   "e": "Ijaraga beriladi."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Trast operatsiyalari nima?",
+   "a": [
+    "Mijoz mulkini ishonchli boshqarish",
+    "Mijozga qaytarilmaydigan bepul mablag' ajratish",
+    "Soliq yig'ish",
+    "Valyuta emissiyasi"
+   ],
+   "e": "Doveritelnoe upravlenie."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "\"Mijozingni bil\" (KYC) tamoyili nima uchun kerak?",
+   "a": [
+    "Mijozni identifikatsiyalash va risklarni baholash",
+    "Mijozning shaxsiy hayotiga aralashish",
+    "Mijozlardan har bir operatsiya uchun qo'shimcha haq olish",
+    "Mijozlar sonini kamaytirish"
+   ],
+   "e": "AML talablari."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Jinoiy daromadlarni legallashtirishga qarshi kurash qisqacha qanday ataladi?",
+   "a": [
+    "AML",
+    "IPO",
+    "ATM",
+    "VAT"
+   ],
+   "e": "Anti-Money Laundering."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Shubhali operatsiyalar haqida bank qayerga xabar beradi?",
+   "a": [
+    "Vakolatli davlat organiga",
+    "Ommaviy axborot vositalariga",
+    "Mijozning qo'shnilariga",
+    "Xabar bermaydi"
+   ],
+   "e": "Moliyaviy monitoring."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Bank siri nima?",
+   "a": [
+    "Mijoz hisoblari va operatsiyalari haqidagi maxfiy ma'lumot",
+    "Bank xodimlarining ish haqi va mukofotlari miqdori",
+    "Bank binosining rejasi",
+    "Bank reklamasi"
+   ],
+   "e": "Qonun bilan himoyalangan."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Bankomat (ATM) nima?",
+   "a": [
+    "Avtomatik naqd pul berish qurilmasi",
+    "Bank kassirining naqd pul bilan ishlash joyi",
+    "Seyf turi",
+    "Kredit shartnomasi"
+   ],
+   "e": "Automated Teller Machine."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "To'lov terminali (POS) nima uchun ishlatiladi?",
+   "a": [
+    "Savdo nuqtasida karta orqali to'lov",
+    "Naqd pulni yig'ib, bankka inkassatsiya qilish",
+    "Soliq deklaratsiyasini topshirish",
+    "Kredit berish"
+   ],
+   "e": "Point of Sale."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "QR-kod orqali to'lovning afzalligi nima?",
+   "a": [
+    "Tez va kontaktsiz to'lov",
+    "Naqd pul talab qilishi",
+    "Faqat bankda ishlashi",
+    "Qimmat uskuna talab qilishi"
+   ],
+   "e": "Mobil to'lov."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Bank xizmatlari uchun olinadigan haq qanday ataladi?",
+   "a": [
+    "Komissiya",
+    "Dividend",
+    "Subsidiya",
+    "Grant"
+   ],
+   "e": "Komissiya to'lovi."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Bank marjasi nima?",
+   "a": [
+    "Kredit va depozit stavkalari farqi",
+    "Bank ustav kapitalining aktivlarga nisbati",
+    "Bank xodimlari soni",
+    "Bankning soliq to'lovi"
+   ],
+   "e": "Foiz marjasi."
+  },
+  {
+   "b": "Bank operatsiyalari va xizmatlari",
+   "q": "Bankning daromad manbalariga nima kiradi?",
+   "a": [
+    "Foiz va komissiya daromadlari",
+    "Faqat davlat subsidiyalari",
+    "Faqat aholidan hadyalar",
+    "Faqat soliq imtiyozlari"
+   ],
+   "e": "Bank daromadlari."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Valyuta operatsiyalariga nima kiradi?",
+   "a": [
+    "Xorijiy valyuta oldi-sotdisi va o'tkazmalari",
+    "Faqat milliy valyutada naqd pul bilan hisob-kitob",
+    "Faqat soliq to'lash",
+    "Faqat ichki kredit"
+   ],
+   "e": "Valyuta bozori."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Spot operatsiya nima?",
+   "a": [
+    "Valyutani tezda (2 ish kunida) yetkazib berish bitimi",
+    "Kelajakda belgilangan sanada bajariladigan bitim",
+    "Uzoq muddatli kredit",
+    "Soliq to'lovi"
+   ],
+   "e": "Spot."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Forvard shartnomasi nima?",
+   "a": [
+    "Kelajakda kelishilgan kursda valyuta almashish bitimi",
+    "Darhol, shu kunning o'zida bajariladigan oldi-sotdi",
+    "Depozit turi",
+    "Soliq deklaratsiyasi"
+   ],
+   "e": "Muddatli bitim."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Valyuta riskini kamaytirish usuli qanday ataladi?",
+   "a": [
+    "Xedjlash",
+    "Emissiya",
+    "Denominatsiya",
+    "Inkassatsiya"
+   ],
+   "e": "Hedging."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Kross-kurs nima?",
+   "a": [
+    "Ikki valyutaning uchinchi valyuta orqali kursi",
+    "Milliy valyutaning oltin va kumushdagi narxi",
+    "Inflyatsiya darajasi",
+    "Bank stavkasi"
+   ],
+   "e": "Masalan, EUR/RUB USD orqali."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Xalqaro valyuta fondi (XVF) asosiy vazifasi nima?",
+   "a": [
+    "Xalqaro valyuta barqarorligini qo'llab-quvvatlash",
+    "Davlatlarning ichki soliqlarini yig'ish",
+    "Tijorat banklarini boshqarish",
+    "Fond birjasini boshqarish"
+   ],
+   "e": "IMF."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Jahon bankining asosiy faoliyati nima?",
+   "a": [
+    "Rivojlanish loyihalarini moliyalashtirish",
+    "Milliy valyutani chiqarish va muomalaga kiritish",
+    "Soliq yig'ish",
+    "Tovar savdosi"
+   ],
+   "e": "World Bank."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Osiyo taraqqiyot banki (OTB) O'zbekistonda qanday loyihalarni moliyalaydi?",
+   "a": [
+    "Infratuzilma va ijtimoiy loyihalar",
+    "Faqat lotereya va sport musobaqalarini o'tkazish",
+    "Faqat sport musobaqalari",
+    "Hech qanday loyiha"
+   ],
+   "e": "ADB."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "To'lov balansi nima?",
+   "a": [
+    "Mamlakatning tashqi operatsiyalari hisobi",
+    "Tijorat bankining kunlik kassa hisoboti",
+    "Korxonaning balansi",
+    "Oilaning byudjeti"
+   ],
+   "e": "Joriy va moliyaviy hisob."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Savdo balansi ijobiy (profitsit) bo'lsa, bu nimani bildiradi?",
+   "a": [
+    "Eksport importdan ko'p",
+    "Import eksportdan ko'p",
+    "Eksport va import teng",
+    "Savdo yo'q"
+   ],
+   "e": "Savdo profitsiti."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Oltin-valyuta zaxiralarini kim boshqaradi?",
+   "a": [
+    "Markaziy bank",
+    "Tijorat banklari",
+    "Soliq qo'mitasi",
+    "Fond birjasi"
+   ],
+   "e": "Xalqaro zaxiralar."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "To'g'ridan-to'g'ri xorijiy investitsiya nima?",
+   "a": [
+    "Korxonani boshqarish huquqini beruvchi kapital qo'yilmasi",
+    "Qisqa muddatli bank omonati",
+    "Davlat obligatsiyasini sotib olish",
+    "Xorijiy valyutani naqd saqlash"
+   ],
+   "e": "FDI."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Portfel investitsiyasi nima?",
+   "a": [
+    "Boshqaruvsiz qimmatli qog'ozlarga qo'yilma",
+    "Korxonani to'liq sotib olib, boshqaruvni egallash",
+    "Bankka depozit qo'yish",
+    "Mol-mulk sotib olish"
+   ],
+   "e": "Portfolio."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Pul o'tkazmalari (remittance) O'zbekiston iqtisodiyotida qanday rol o'ynaydi?",
+   "a": [
+    "Aholi daromadlarining muhim manbai",
+    "Hech qanday ahamiyati yo'q",
+    "Davlat byudjetining asosiy xarajat moddasi",
+    "Faqat soliq turi"
+   ],
+   "e": "Mehnat migrantlari."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Eksport tushumini konvertatsiya qilish qayerda amalga oshiriladi?",
+   "a": [
+    "Banklar va valyuta birjasi orqali",
+    "Faqat norasmiy bozorda, banklarsiz",
+    "Faqat chet elda",
+    "Konvertatsiya taqiqlangan"
+   ],
+   "e": "Valyuta bozori."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Kontrakt valyutasi nima?",
+   "a": [
+    "Shartnoma narxi ifodalangan valyuta",
+    "Faqat milliy valyuta, xorijiy valyutasiz",
+    "Oltin quyma",
+    "Kriptovalyuta faqat"
+   ],
+   "e": "Tashqi savdo."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Kriptoaktivlar O'zbekistonda qanday tartibga solinadi?",
+   "a": [
+    "Maxsus vakolatli organ va litsenziyalash orqali",
+    "Umuman tartibga solinmaydi",
+    "Faqat Markaziy bank chiqaradi",
+    "Milliy valyuta hisoblanadi"
+   ],
+   "e": "Kripto-aktivlar aylanmasi."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Raqamli bank (neobank) nima?",
+   "a": [
+    "Asosan onlayn ishlaydigan, filialsiz bank",
+    "Faqat naqd pul bilan ishlovchi an'anaviy bank",
+    "Faqat oltin saqlovchi bank",
+    "Markaziy bank bo'limi"
+   ],
+   "e": "Onlayn bank."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Moliyaviy savodxonlik nima?",
+   "a": [
+    "Shaxsiy moliyani oqilona boshqarish bilimi",
+    "Faqat bankda ishlash uchun kasbiy malaka",
+    "Faqat soliq to'lash",
+    "Faqat kredit olish"
+   ],
+   "e": "Moliyaviy madaniyat."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Shaxsiy byudjet tuzishda birinchi qadam nima?",
+   "a": [
+    "Daromad va xarajatlarni hisobga olish",
+    "Darhol iste'mol krediti olib, xarid qilish",
+    "Barcha pulni sarflash",
+    "Jamg'armani bekor qilish"
+   ],
+   "e": "Moliyaviy reja."
+  },
+  {
+   "b": "Valyuta operatsiyalari va xalqaro moliya",
+   "q": "Moliyaviy piramida belgisi qaysi?",
+   "a": [
+    "Juda yuqori kafolatlangan daromad va yangi a'zo jalb qilish",
+    "Past va o'zgaruvchan daromad",
+    "Litsenziyaga ega bank",
+    "Shaffof moliyaviy hisobot"
+   ],
+   "e": "Firibgarlik sxemasi."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Buxgalteriya balansining asosiy tenglamasi qaysi?",
+   "a": [
+    "Aktiv = Majburiyatlar + O'z kapitali",
+    "Aktiv = Daromad − Xarajat − Soliqlar",
+    "Kapital = Aktiv + Majburiyat",
+    "Foyda = Aktiv × Passiv"
+   ],
+   "e": "Balans tengligi."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Joriy likvidlik koeffitsiyenti qanday hisoblanadi?",
+   "a": [
+    "Aylanma aktivlar / Qisqa muddatli majburiyatlar",
+    "Sof foyda / Tushum × 100 foizda",
+    "Asosiy vositalar / Kapital",
+    "Xodimlar soni / Tushum"
+   ],
+   "e": "Tavsiya ≥ 1,5–2."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Absolyut likvidlik koeffitsiyenti hisobida suratga nima olinadi?",
+   "a": [
+    "Pul mablag'lari va qisqa muddatli investitsiyalar",
+    "Barcha asosiy vositalar va binolar qiymati",
+    "Tovar zaxiralari",
+    "Debitorlik qarzi"
+   ],
+   "e": "Eng likvid aktivlar."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Avtonomiya koeffitsiyenti nimani ko'rsatadi?",
+   "a": [
+    "O'z kapitalining aktivlardagi ulushini",
+    "Sotishdan tushgan tushumning jami xarajatlarga nisbatini",
+    "Kreditlar foizini",
+    "Ishchilar mehnat unumdorligini"
+   ],
+   "e": "Moliyaviy mustaqillik."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Mahsulot rentabelligi qanday hisoblanadi?",
+   "a": [
+    "Foyda / Tannarx × 100%",
+    "Tannarx / Foyda × 100%",
+    "Tushum × Tannarx",
+    "Aktiv / Passiv"
+   ],
+   "e": "Foizda."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Aylanma mablag'lar aylanishining tezlashishi nimani bildiradi?",
+   "a": [
+    "Mablag'lardan samarali foydalanishni",
+    "Mablag'lar muzlab qolganini va samarasizlikni",
+    "Korxona bankrotligini",
+    "Soliq yukining oshishini"
+   ],
+   "e": "Oborachivaemost."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Debitorlik qarzi nima?",
+   "a": [
+    "Boshqalarning korxonaga qarzi",
+    "Korxonaning boshqalarga qarzi",
+    "Bankdan olingan kredit",
+    "Soliq to'lovi"
+   ],
+   "e": "Debitor — qarzdor."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Kreditorlik qarzi nima?",
+   "a": [
+    "Korxonaning boshqalarga qarzi",
+    "Boshqalarning korxonaga qarzi",
+    "Korxonaning foydasi",
+    "Korxonaning ustav kapitali"
+   ],
+   "e": "Kreditor — qarz beruvchi."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Zararsizlik nuqtasi nima?",
+   "a": [
+    "Tushum xarajatlarni to'liq qoplaydigan hajm",
+    "Korxona eng yuqori foyda oladigan ishlab chiqarish hajmi",
+    "Ishlab chiqarish to'xtaydigan nuqta",
+    "Soliq nolga teng bo'ladigan nuqta"
+   ],
+   "e": "Break-even."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Doimiy xarajatlarga misol qaysi?",
+   "a": [
+    "Ijara haqi",
+    "Xomashyo xarajati",
+    "Ishbay ish haqi",
+    "Qadoqlash materiali"
+   ],
+   "e": "Hajmga bog'liq emas."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "O'zgaruvchan xarajatlarga misol qaysi?",
+   "a": [
+    "Xomashyo va materiallar",
+    "Ishlab chiqarish binosining oylik ijara haqi",
+    "Rahbar maoshi",
+    "Sug'urta badali"
+   ],
+   "e": "Hajmga bog'liq."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Doimiy xarajat 10 mln, birlik narxi 50 ming, o'zgaruvchan xarajat 30 ming so'm. Zararsizlik hajmi?",
+   "a": [
+    "500 dona",
+    "200 dona",
+    "333 dona",
+    "1000 dona"
+   ],
+   "e": "10 000 000 / (50 000 − 30 000)."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Bankrotlik nima?",
+   "a": [
+    "Qarzdorning majburiyatlarni bajara olmasligi",
+    "Korxona sof foydasining keskin va barqaror oshishi",
+    "Yangi korxona ochilishi",
+    "Soliq imtiyozi olinishi"
+   ],
+   "e": "To'lovga qobiliyatsizlik."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Moliyaviy hisobotning asosiy shakllari qaysilar?",
+   "a": [
+    "Buxgalteriya balansi va moliyaviy natijalar hisoboti",
+    "Faqat kadrlar bo'limi buyruqlari",
+    "Faqat ish vaqti tabeli",
+    "Faqat ombor kartochkasi"
+   ],
+   "e": "1- va 2-shakllar."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Pul oqimlari hisoboti nimani ko'rsatadi?",
+   "a": [
+    "Pul mablag'larining kirim va chiqimini",
+    "Korxona xodimlari soni va tarkibining o'zgarishini",
+    "Mahsulot sifatini",
+    "Bino maydonini"
+   ],
+   "e": "Cash flow."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Investitsiyaning qoplanish muddati nima?",
+   "a": [
+    "Investitsiya o'zini qoplaydigan vaqt",
+    "Korxona faoliyat yuritgan yillar",
+    "Soliq to'lash muddati",
+    "Bank bilan tuzilgan kredit shartnomasining amal qilish muddati"
+   ],
+   "e": "Payback period."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "100 mln so'm investitsiya yiliga 25 mln so'm sof daromad bersa, qoplanish muddati qancha?",
+   "a": [
+    "4 yil",
+    "2,5 yil",
+    "25 yil",
+    "1 yil"
+   ],
+   "e": "100/25."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "NPV (sof joriy qiymat) musbat bo'lsa, loyiha haqida nima deyish mumkin?",
+   "a": [
+    "Loyiha samarali",
+    "Loyiha zarar keltiradi",
+    "Loyihani baholab bo'lmaydi",
+    "Loyiha bekor qilinadi"
+   ],
+   "e": "Diskontlash."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Diskontlash nima?",
+   "a": [
+    "Kelajakdagi pulni bugungi qiymatga keltirish",
+    "Bugungi pulni kelajakka o'tkazish va oshirish",
+    "Soliq imtiyozi",
+    "Narxlarni chegirmaga tushirish"
+   ],
+   "e": "Pulning vaqt qiymati."
+  },
+  {
+   "b": "Moliyaviy tahlil",
+   "q": "Pulning vaqt bo'yicha qiymati tamoyili nimani anglatadi?",
+   "a": [
+    "Bugungi so'm ertangidan qimmatroq",
+    "Ertangi so'm bugungidan qimmatroq",
+    "Pul qiymati o'zgarmaydi",
+    "Pul vaqt o'tishi bilan ko'payadi"
+   ],
+   "e": "Foiz va inflyatsiya."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "\"Banklar va bank faoliyati to'g'risida\"gi yangi tahrirdagi qonun qachon qabul qilingan?",
+   "a": [
+    "2019-yilda",
+    "1991-yilda",
+    "1996-yilda",
+    "2023-yilda"
+   ],
+   "e": "2019-yil 5-noyabr."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "\"Markaziy bank to'g'risida\"gi yangi tahrirdagi qonun qachon qabul qilingan?",
+   "a": [
+    "2019-yilda",
+    "1995-yilda",
+    "2005-yilda",
+    "2022-yilda"
+   ],
+   "e": "2019-yil 11-noyabr."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Bankni tugatishda omonatchilar talablarini qondirishda nima yordam beradi?",
+   "a": [
+    "Omonatlarni kafolatlash tizimi",
+    "Bank xodimlarining shaxsiy mablag'i",
+    "Bank reklamasi",
+    "Soliq imtiyozi"
+   ],
+   "e": "Kafolat fondi."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Mikromoliya tashkilotining bankdan farqi nima?",
+   "a": [
+    "Depozit qabul qilmaydi, kichik qarz beradi",
+    "Pul emissiya qiladi va valyuta kursini belgilaydi",
+    "Davlat byudjetini ijro etadi",
+    "Soliq yig'adi"
+   ],
+   "e": "Mikrokredit tashkiloti."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Lombard nima?",
+   "a": [
+    "Ko'char mulk garovi bilan qisqa muddatli qarz beruvchi tashkilot",
+    "Ko'chmas mulkni ijaraga beruvchi korxona",
+    "Sug'urta kompaniyasi",
+    "Fond birjasi"
+   ],
+   "e": "Garov qarzi."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Pensiya tizimining moliyaviy asosi nima?",
+   "a": [
+    "Sug'urta badallari va byudjet mablag'lari",
+    "Faqat pensionerlarning ishlagan davrdagi shaxsiy jamg'armasi",
+    "Faqat bank kreditlari",
+    "Faqat xorijiy yordam"
+   ],
+   "e": "Pensiya jamg'armasi."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Jamg'arib boriladigan pensiya tizimida mablag' qayerda yig'iladi?",
+   "a": [
+    "Fuqaroning shaxsiy pensiya hisobvarag'ida",
+    "Ish beruvchi korxonaning kassasida, naqd shaklda",
+    "Soliq organida",
+    "Fond birjasida faqat"
+   ],
+   "e": "Xalq banki."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Davlat ijtimoiy sug'urtasi nimani ta'minlaydi?",
+   "a": [
+    "Kasallik, nogironlik, keksalikda to'lovlar",
+    "Faqat korxona foydasi va bank daromadini kafolatlash",
+    "Faqat ish haqi oshishini",
+    "Faqat soliq imtiyozlarini"
+   ],
+   "e": "Ijtimoiy himoya."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Sug'urta tashkilotining to'lov qobiliyatini kim nazorat qiladi?",
+   "a": [
+    "Sug'urta faoliyati bo'yicha vakolatli davlat organi",
+    "Har bir sug'urtalanuvchi o'zi",
+    "Fond birjasi",
+    "Hech kim"
+   ],
+   "e": "Sug'urta nazorati."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Qayta sug'urtalash nima?",
+   "a": [
+    "Sug'urtachining riskni boshqa sug'urtachiga o'tkazishi",
+    "Bitta mulkni ikki xil kompaniyada ikki marta sug'urtalash",
+    "Sug'urtani bekor qilish",
+    "Kredit berish"
+   ],
+   "e": "Perestraxovanie."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Franshiza (sug'urtada) nima?",
+   "a": [
+    "Sug'urtachi qoplamaydigan zarar qismi",
+    "Sug'urta hodisasida to'lanadigan tovonning to'liq summasi",
+    "Sug'urta badalining oshishi",
+    "Sug'urta shartnomasi raqami"
+   ],
+   "e": "Franshiza."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Venchur moliyalashtirish nima?",
+   "a": [
+    "Yuqori riskli innovatsion loyihalarga investitsiya",
+    "Davlat byudjetidan kafolatlangan moliyalash",
+    "Bank depoziti",
+    "Soliq imtiyozi"
+   ],
+   "e": "Startaplar."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Kraudfanding nima?",
+   "a": [
+    "Ko'pchilikdan kichik mablag'lar yig'ish orqali moliyalash",
+    "Bitta yirik bankdan uzoq muddatli investitsion kredit olish",
+    "Davlat granti",
+    "Soliq kechiktirish"
+   ],
+   "e": "Ommaviy moliyalash."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Davlat-xususiy sheriklik (DXSh) nima?",
+   "a": [
+    "Davlat va biznesning loyihadagi hamkorligi",
+    "Davlatning xususiy mulkni musodara qilishi",
+    "Faqat xususiy korxonalar birlashmasi",
+    "Soliq turi"
+   ],
+   "e": "PPP."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Islom moliyasining asosiy tamoyili qaysi?",
+   "a": [
+    "Foiz (riba) olishni taqiqlash",
+    "Yuqori foiz stavkalarini qo'llash",
+    "Faqat naqd pul bilan ishlash",
+    "Soliq to'lamaslik"
+   ],
+   "e": "Sherikchilik asosida."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Moliyaviy inklyuziya nima?",
+   "a": [
+    "Aholining moliyaviy xizmatlardan foydalana olishi",
+    "Faqat yuqori daromadli aholiga premium xizmat ko'rsatish",
+    "Banklarni yopish",
+    "Kredit berishni taqiqlash"
+   ],
+   "e": "Qamrov."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Kiberxavfsizlik bank xizmatlarida nima uchun muhim?",
+   "a": [
+    "Mijoz mablag'lari va ma'lumotlarini himoya qilish",
+    "Bank binosini bezash va mijozlarni jalb qilish",
+    "Kredit stavkasini oshirish",
+    "Xodimlar sonini ko'paytirish"
+   ],
+   "e": "Axborot xavfsizligi."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Fishing (phishing) nima?",
+   "a": [
+    "Soxta xabar orqali maxfiy ma'lumot o'g'irlash",
+    "Bankdan qonuniy kredit olish",
+    "Valyuta almashtirish",
+    "Depozit ochish"
+   ],
+   "e": "Firibgarlik usuli."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Bank mijozlari huquqlarini himoya qilish bo'yicha shikoyat qayerga yuboriladi?",
+   "a": [
+    "Avval bankka, keyin Markaziy bankka",
+    "Faqat fond birjasiga",
+    "Faqat fond birjasi yoki soliq organiga to'g'ridan-to'g'ri",
+    "Hech qayerga"
+   ],
+   "e": "Iste'molchilar huquqlari."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Kredit bo'yicha to'liq qiymat (yillik samarali stavka) nima uchun ko'rsatiladi?",
+   "a": [
+    "Barcha xarajatlarni hisobga olgan haqiqiy narxni bilish uchun",
+    "Bank reklamasini chiroyli qilish uchun",
+    "Soliqni kamaytirish uchun",
+    "Kredit muddatini qisqartirish uchun"
+   ],
+   "e": "Shaffoflik."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Inflyatsiya 10%, nominal stavka 15% bo'lsa, real foiz stavkasi taxminan qancha?",
+   "a": [
+    "5%",
+    "25%",
+    "1,5%",
+    "10%"
+   ],
+   "e": "Fisher: r ≈ i − π."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Moliyaviy leverej nima?",
+   "a": [
+    "Qarz mablag'laridan foydalanib rentabellikni oshirish",
+    "Faqat o'z mablag'lari hisobidan, qarzsiz ishlash",
+    "Soliqni kechiktirish",
+    "Dividend to'lamaslik"
+   ],
+   "e": "Moliyaviy richag."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Valyuta interventsiyasi nima?",
+   "a": [
+    "Markaziy bankning valyuta bozoriga aralashuvi",
+    "Tijorat bankining kunlik valyuta kassa operatsiyasi",
+    "Soliq yig'ish",
+    "Kredit berish"
+   ],
+   "e": "Kursni tartibga solish."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Iqtisodiy tahlilning asosiy usullari qaysilar?",
+   "a": [
+    "Taqqoslash, guruhlash, indeks, omilli tahlil",
+    "Faqat taxmin qilish va mutaxassis bilan suhbat",
+    "Faqat tasodifiy tanlash",
+    "Faqat kuzatish"
+   ],
+   "e": "Tahlil usullari."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Omilli tahlilda zanjirli almashtirish usuli nima uchun ishlatiladi?",
+   "a": [
+    "Har bir omil ta'sirini aniqlash",
+    "Barcha omillarni e'tiborsiz qoldirish",
+    "Soliqni hisoblash",
+    "Kredit berish"
+   ],
+   "e": "Faktornyy analiz."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Gorizontal tahlil nima?",
+   "a": [
+    "Ko'rsatkichlarni davrlar bo'yicha taqqoslash",
+    "Ko'rsatkichlar tarkibini bir davrda o'rganish",
+    "Faqat bitta raqamni ko'rish",
+    "Kelajakni bashorat qilish faqat"
+   ],
+   "e": "Dinamika."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Vertikal tahlil nima?",
+   "a": [
+    "Ko'rsatkichlar tarkibi va ulushini o'rganish",
+    "Ko'rsatkichlarni bir necha yillar bo'yicha taqqoslash",
+    "Soliq hisoblash",
+    "Kredit stavkasini aniqlash"
+   ],
+   "e": "Struktura."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Biznes-rejaning moliyaviy bo'limida nima ko'rsatiladi?",
+   "a": [
+    "Daromad, xarajat, investitsiya va qoplanish",
+    "Faqat rahbarning tarjimai holi",
+    "Faqat bino rasmi",
+    "Faqat xodimlar ro'yxati"
+   ],
+   "e": "Moliyaviy reja."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Kichik biznesni qo'llab-quvvatlash uchun davlat qanday moliyaviy vositalardan foydalanadi?",
+   "a": [
+    "Imtiyozli kreditlar, kafolatlar, subsidiyalar",
+    "Faqat soliqlarni oshirish va kreditlarni taqiqlash",
+    "Faqat jarima va sanksiyalar",
+    "Faqat jarimalar"
+   ],
+   "e": "Tadbirkorlikni qo'llab-quvvatlash."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Kredit kafolat jamg'armasining vazifasi nima?",
+   "a": [
+    "Ta'minoti yetarli bo'lmagan tadbirkorlarga kafolat berish",
+    "Tijorat banklaridan aholining depozitlarini yig'ish",
+    "Soliq yig'ish",
+    "Valyuta chiqarish"
+   ],
+   "e": "Tadbirkorlik."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Davlat byudjetidan ajratiladigan subsidiyaning maqsadi nima?",
+   "a": [
+    "Muayyan sohani qo'llab-quvvatlash",
+    "Davlat qarzini oshirish va soliq yukini ko'paytirish",
+    "Soliqlarni oshirish",
+    "Banklarni yopish"
+   ],
+   "e": "Subsidiya."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Transfert nima?",
+   "a": [
+    "Byudjetlar yoki aholiga qaytarilmas o'tkazma",
+    "Tijorat banki beradigan qaytariladigan foizli kredit",
+    "Qimmatli qog'oz turi",
+    "Soliq jarimasi"
+   ],
+   "e": "Ijtimoiy transfertlar."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Davlat xaridlari qanday tartibda amalga oshiriladi?",
+   "a": [
+    "Ochiq tanlov va elektron platformalar orqali",
+    "Faqat tanish-bilish orqali, tanlovsiz to'g'ridan-to'g'ri",
+    "Hech qanday tartibsiz",
+    "Faqat naqd pul bilan"
+   ],
+   "e": "Shaffoflik."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Moliya bozorining asosiy segmentlari qaysilar?",
+   "a": [
+    "Pul, kapital, valyuta, sug'urta bozorlari",
+    "Faqat mehnat bozori",
+    "Faqat qishloq xo'jaligi bozori",
+    "Faqat oziq-ovqat va ko'chmas mulk bozorlari"
+   ],
+   "e": "Moliya bozori."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Pul bozorida qanday muddatli resurslar aylanadi?",
+   "a": [
+    "Qisqa muddatli (1 yilgacha)",
+    "Faqat 10 yildan ortiq muddatli resurslar",
+    "Muddatsiz",
+    "Faqat 50 yillik"
+   ],
+   "e": "Kapital bozori — uzoq muddat."
+  },
+  {
+   "b": "Qonunchilik va qo'shimcha",
+   "q": "Kapital bozorida qanday mablag'lar aylanadi?",
+   "a": [
+    "Uzoq muddatli (1 yildan ortiq)",
+    "Faqat bir kunlik yoki bir haftalik resurslar",
+    "Faqat naqd tangalar",
+    "Faqat naqd tanga"
+   ],
+   "e": "Investitsion."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Omonatga 2 000 000 so'm yillik 18% oddiy foizda 6 oyga qo'yildi. Foiz daromadi qancha?",
+   "a": [
+    "180 000 so'm",
+    "360 000 so'm",
+    "90 000 so'm",
+    "18 000 so'm"
+   ],
+   "e": "2 000 000·0,18·0,5."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Kredit 12 mln so'm, 12 oyga, asosiy qarz teng qismlarda to'lanadi. Har oy asosiy qarz to'lovi qancha?",
+   "a": [
+    "1 000 000 so'm",
+    "12 000 000 so'm",
+    "500 000 so'm",
+    "2 000 000 so'm"
+   ],
+   "e": "12/12."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Tovar narxi 200 000 so'mdan 250 000 so'mga oshdi. Narx necha foizga oshgan?",
+   "a": [
+    "25%",
+    "50%",
+    "20%",
+    "5%"
+   ],
+   "e": "50/200."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Korxona tushumi 500 mln, xarajatlari 400 mln so'm. Foyda solig'i 15% bo'lsa, sof foyda qancha?",
+   "a": [
+    "85 mln so'm",
+    "100 mln so'm",
+    "15 mln so'm",
+    "75 mln so'm"
+   ],
+   "e": "100·0,85."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "1 AQSh dollari 12 500 so'm bo'lsa, 400 dollar necha so'm?",
+   "a": [
+    "5 000 000 so'm",
+    "500 000 so'm",
+    "50 000 000 so'm",
+    "3 125 000 so'm"
+   ],
+   "e": "400·12 500."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Narx indeksi 1,08 bo'lsa, inflyatsiya darajasi qancha?",
+   "a": [
+    "8%",
+    "108%",
+    "0,8%",
+    "18%"
+   ],
+   "e": "(1,08−1)·100."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Aylanma aktivlar 300 mln, qisqa muddatli majburiyatlar 150 mln. Joriy likvidlik koeffitsiyenti?",
+   "a": [
+    "2,0",
+    "0,5",
+    "1,5",
+    "450"
+   ],
+   "e": "300/150."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Aktivlar 800 mln, o'z kapitali 400 mln so'm. Avtonomiya koeffitsiyenti?",
+   "a": [
+    "0,5",
+    "2,0",
+    "0,2",
+    "1,0"
+   ],
+   "e": "400/800."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Mahsulot tannarxi 80 000, sotish narxi 100 000 so'm. Mahsulot rentabelligi?",
+   "a": [
+    "25%",
+    "20%",
+    "80%",
+    "125%"
+   ],
+   "e": "20/80."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Yillik 12% stavkada oylik oddiy foiz stavkasi qancha?",
+   "a": [
+    "1%",
+    "12%",
+    "0,1%",
+    "6%"
+   ],
+   "e": "12/12."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Bank 10 mlrd so'm depozit jalb qildi, majburiy zaxira normasi 4% bo'lsa, zaxiraga qancha ajratiladi?",
+   "a": [
+    "400 mln so'm",
+    "40 mln so'm",
+    "4 mlrd so'm",
+    "4 mln so'm"
+   ],
+   "e": "10 mlrd·0,04."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Aksiya 50 000 so'mga sotib olinib, 60 000 so'mga sotildi va 5 000 so'm dividend olindi. Umumiy daromadlilik?",
+   "a": [
+    "30%",
+    "20%",
+    "10%",
+    "15%"
+   ],
+   "e": "(10 000+5 000)/50 000."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Obligatsiya nominali 1 000 000 so'm, kupon stavkasi 14%. Yillik kupon to'lovi qancha?",
+   "a": [
+    "140 000 so'm",
+    "14 000 so'm",
+    "1 400 000 so'm",
+    "70 000 so'm"
+   ],
+   "e": "Nominal × stavka."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Tovar QQS siz 500 000 so'm, aksiz 10% va QQS 12% bo'lsa (aksiz bazaga qo'shiladi), QQS summasi qancha?",
+   "a": [
+    "66 000 so'm",
+    "60 000 so'm",
+    "50 000 so'm",
+    "72 000 so'm"
+   ],
+   "e": "(500 000+50 000)·0,12."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Korxona yer uchastkasining soliq bazasi 200 mln so'm, stavka 1,5% bo'lsa, yer solig'i qancha?",
+   "a": [
+    "3 mln so'm",
+    "30 mln so'm",
+    "300 ming so'm",
+    "1,5 mln so'm"
+   ],
+   "e": "200·0,015."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Ish haqi fondi 100 mln so'm, ijtimoiy soliq 12%. Ijtimoiy soliq summasi qancha?",
+   "a": [
+    "12 mln so'm",
+    "1,2 mln so'm",
+    "120 mln so'm",
+    "25 mln so'm"
+   ],
+   "e": "100·0,12."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Pul massasi 20% ga, real mahsulot 5% ga oshdi, aylanish tezligi o'zgarmadi. Narxlar taxminan qancha oshadi?",
+   "a": [
+    "Taxminan 14%",
+    "25%",
+    "5%",
+    "20%"
+   ],
+   "e": "1,2/1,05 ≈ 1,143."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Byudjet daromadlari 250 trln, xarajatlari 275 trln so'm. Taqchillik qancha?",
+   "a": [
+    "25 trln so'm",
+    "525 trln so'm",
+    "2,5 trln so'm",
+    "50 trln so'm"
+   ],
+   "e": "275 − 250."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "YaIM 1000 trln, byudjet taqchilligi 30 trln so'm. Taqchillik YaIM ning necha foizi?",
+   "a": [
+    "3%",
+    "30%",
+    "0,3%",
+    "33%"
+   ],
+   "e": "30/1000."
+  },
+  {
+   "b": "Yakuniy masalalar",
+   "q": "Lizing ob'ekti qiymati 60 mln so'm, 3 yilga teng to'lovlar (foizsiz). Yillik to'lov?",
+   "a": [
+    "20 mln so'm",
+    "60 mln so'm",
+    "30 mln so'm",
+    "18 mln so'm"
+   ],
+   "e": "60/3."
+  }
+ ],
+ "kalit": "moliya bank ishi pul muomalasi kredit soliq byudjet bank"
+}
